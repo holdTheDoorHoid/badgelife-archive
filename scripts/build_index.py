@@ -28,6 +28,7 @@ def as_list(v):
     return [str(v)]
 
 def main():
+    check_only = "--check" in sys.argv
     errors, records, ids = [], [], collections.Counter()
     files = sorted(glob.glob(os.path.join(ROOT, "_badges", "**", "*.md"), recursive=True))
     for path in files:
@@ -106,6 +107,9 @@ def main():
         if n > 1: errors.append(f"duplicate id: {eid} ({n} files)")
     if errors:
         print("\n".join("ERROR " + e for e in errors), file=sys.stderr)
+    if check_only:
+        print(f"checked {len(files)} entries, {len(errors)} errors")
+        sys.exit(1 if errors else 0)
     records.sort(key=lambda r: (-(r["year"] or 0), r["event"], r["title"].lower()))
     out = os.path.join(ROOT, "assets", "data", "badges.json")
     os.makedirs(os.path.dirname(out), exist_ok=True)
