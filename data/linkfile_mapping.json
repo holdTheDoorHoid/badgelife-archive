@@ -1,0 +1,2358 @@
+{
+ "matched": [
+  {
+   "url": "https://aosc.cc/eccn2026",
+   "entries": [
+    "dc34-2026-choose-your-own-charity-echallengecoin",
+    "dc34-2026-echallengecoin"
+   ]
+  },
+  {
+   "url": "https://bigtaro.net/wordweaving-badge",
+   "entries": [
+    "dc33-gunslinger-b-gone-and-sheriff-sao",
+    "dc34-badgelife-village-badge",
+    "dc34-wordweaving-badge"
+   ]
+  },
+  {
+   "url": "https://forms.gle/spmnMTaADVngRYsB8",
+   "entries": [
+    "dc34-masonic33-puzzle-badge"
+   ]
+  },
+  {
+   "url": "https://github.com/aerospace-venoms/BCCC_Temperature_SAO",
+   "entries": [
+    "dc34-beer-sao"
+   ]
+  },
+  {
+   "url": "https://github.com/cryptovillage/badge2016",
+   "entries": [
+    "dc24-cpv-badge"
+   ]
+  },
+  {
+   "url": "https://github.com/keeloi79/not-a-crosswalk-sao",
+   "entries": [
+    "dc34-not-just-a-crosswalk"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/194808-fuck-note-sao",
+   "entries": [
+    "dc32-fuck-note-offensive-sao"
+   ]
+  },
+  {
+   "url": "https://ko-fi.com/caelybr/shop",
+   "entries": [
+    "dc34-noice",
+    "dc34-not-just-a-crosswalk"
+   ]
+  },
+  {
+   "url": "https://lepi-labs.com/shop",
+   "entries": [
+    "dc34-moth-updi-programmer-working-title",
+    "dc34-soldering-canary-working-title"
+   ]
+  },
+  {
+   "url": "https://uberflux.com/product/HTP-DC34",
+   "entries": [
+    "dc34-htp-graffiti"
+   ]
+  },
+  {
+   "url": "https://uberflux.com/product/NS-SpectreSniffer",
+   "entries": [
+    "dc34-spectre-sniffer"
+   ]
+  },
+  {
+   "url": "https://uberflux.com/product/PL-1471",
+   "entries": [
+    "dc34-malo"
+   ]
+  },
+  {
+   "url": "https://uberflux.com/product/UF-SK2",
+   "entries": [
+    "dc34-shitty-kitty-v2"
+   ]
+  },
+  {
+   "url": "https://wsiiax.myshopify.com/",
+   "entries": [
+    "dc34-whose-slide-is-it-anyway-10-year-anniversary-badge"
+   ]
+  },
+  {
+   "url": "https://www.bigfuckingbadge.com/",
+   "entries": [
+    "dc34-dfiu-sao",
+    "dc34-iflfu-sao",
+    "dc34-portal-badge",
+    "dc34-portal-gun-sao"
+   ]
+  },
+  {
+   "url": "https://www.dani.pink/lasertag/about",
+   "entries": [
+    "dc33-laser-tag-badge",
+    "dc34-laser-tag-ds"
+   ]
+  },
+  {
+   "url": "https://www.hackster.io/HacksFromPanda/projects",
+   "entries": [
+    "dc33-amazon-playing-card-badge",
+    "dc33-bugcrowd-ingenuity-award-badge",
+    "dc33-the-t-mobile-unicorn-badge"
+   ]
+  },
+  {
+   "url": "https://www.tindie.com/products/makeithackin/anti-theft-electronic-badge-made-for-def-con-29/",
+   "entries": [
+    "dc32-big-pink-y2k-countdown-badge",
+    "dc32-edgerunner-license",
+    "dc32-rick-roll-sao"
+   ]
+  },
+  {
+   "url": "https://wyrdwyrks.com/celestial-wayfinder/",
+   "entries": [
+    "dc34-celestial-wayfinder-badge"
+   ]
+  },
+  {
+   "url": "https://zachs-hacks.myshopify.com/products/monorail-badge",
+   "entries": [
+    "dc34-monorail-con-badge"
+   ]
+  }
+ ],
+ "unmatched": [
+  {
+   "url": "https://amuletofentropy.com/",
+   "kind": "other",
+   "error": "HTTP Error 403: Forbidden"
+  },
+  {
+   "url": "https://github.com/ageppert/SAO_CORE4",
+   "kind": "repo",
+   "archived": false,
+   "description": "A Nibble of Core Memory",
+   "fork": false,
+   "full_name": "ageppert/SAO_CORE4",
+   "homepage": null,
+   "html_url": "https://github.com/ageppert/SAO_CORE4",
+   "license": "NOASSERTION",
+   "pushed_at": "2026-05-29T11:52:58Z",
+   "stargazers_count": 19,
+   "topics": []
+  },
+  {
+   "url": "https://github.com/ageppert/SAO_Etch_sAo_Sketch",
+   "kind": "repo",
+   "archived": false,
+   "description": "Etch A Sketch SAO",
+   "fork": false,
+   "full_name": "ageppert/SAO_Etch_sAo_Sketch",
+   "homepage": null,
+   "html_url": "https://github.com/ageppert/SAO_Etch_sAo_Sketch",
+   "license": null,
+   "pushed_at": "2025-10-01T00:10:45Z",
+   "stargazers_count": 6,
+   "topics": []
+  },
+  {
+   "url": "https://github.com/ANDnXOR/sao-reference-designs/tree/master",
+   "kind": "repo",
+   "archived": false,
+   "description": "AND!XOR Reference Designs for SAOs",
+   "fork": false,
+   "full_name": "zapp1337/sao-reference-designs",
+   "homepage": null,
+   "html_url": "https://github.com/zapp1337/sao-reference-designs",
+   "license": "Apache-2.0",
+   "pushed_at": "2019-04-20T22:35:53Z",
+   "stargazers_count": 34,
+   "topics": []
+  },
+  {
+   "url": "https://github.com/astuder/2024-Supercon-8-Add-On-Badge",
+   "kind": "repo",
+   "archived": false,
+   "description": null,
+   "fork": true,
+   "full_name": "astuder/2024-Supercon-8-Add-On-Badge",
+   "homepage": null,
+   "html_url": "https://github.com/astuder/2024-Supercon-8-Add-On-Badge",
+   "license": null,
+   "pushed_at": "2024-11-02T14:44:26Z",
+   "stargazers_count": 0,
+   "topics": []
+  },
+  {
+   "url": "https://github.com/astuder/duckglow/tree/master",
+   "kind": "repo",
+   "archived": false,
+   "description": "A set of basic SAOs with glowing rubber duckies",
+   "fork": false,
+   "full_name": "astuder/duckglow",
+   "homepage": null,
+   "html_url": "https://github.com/astuder/duckglow",
+   "license": "NOASSERTION",
+   "pushed_at": "2025-01-13T22:08:17Z",
+   "stargazers_count": 3,
+   "topics": []
+  },
+  {
+   "url": "https://github.com/astuder/supercon8-sao-adapters",
+   "kind": "repo",
+   "archived": false,
+   "description": "Adapters for the Hackaday Supercon 8 SAO Badge",
+   "fork": false,
+   "full_name": "astuder/supercon8-sao-adapters",
+   "homepage": "",
+   "html_url": "https://github.com/astuder/supercon8-sao-adapters",
+   "license": "CERN-OHL-P-2.0",
+   "pushed_at": "2025-01-13T22:28:36Z",
+   "stargazers_count": 4,
+   "topics": []
+  },
+  {
+   "url": "https://github.com/bbenchoff/Hackaday-Pin",
+   "kind": "repo",
+   "archived": false,
+   "description": "It's an LED blinky pin",
+   "fork": false,
+   "full_name": "bbenchoff/Hackaday-Pin",
+   "homepage": null,
+   "html_url": "https://github.com/bbenchoff/Hackaday-Pin",
+   "license": null,
+   "pushed_at": "2019-08-27T20:14:02Z",
+   "stargazers_count": 1,
+   "topics": []
+  },
+  {
+   "url": "https://github.com/cgnd/saop",
+   "kind": "repo",
+   "archived": false,
+   "description": "Just a cute bar of SAOP.",
+   "fork": false,
+   "full_name": "common-ground-electronics/saop",
+   "homepage": "https://hackaday.io/project/198497-saop",
+   "html_url": "https://github.com/common-ground-electronics/saop",
+   "license": null,
+   "pushed_at": "2024-10-26T17:15:43Z",
+   "stargazers_count": 0,
+   "topics": []
+  },
+  {
+   "url": "https://github.com/cryptovillage/badge2015",
+   "kind": "repo",
+   "archived": false,
+   "description": "Hardware, firmware, and documentation for the 2015 Crypto and Privacy Village Badge",
+   "fork": false,
+   "full_name": "cryptovillage/badge2015",
+   "homepage": null,
+   "html_url": "https://github.com/cryptovillage/badge2015",
+   "license": "NOASSERTION",
+   "pushed_at": "2015-09-27T10:30:49Z",
+   "stargazers_count": 6,
+   "topics": []
+  },
+  {
+   "url": "https://github.com/cryptovillage/badge2017",
+   "kind": "repo",
+   "archived": false,
+   "description": "The 2017 Crypto and Privacy Village Badge",
+   "fork": false,
+   "full_name": "cryptovillage/badge2017",
+   "homepage": null,
+   "html_url": "https://github.com/cryptovillage/badge2017",
+   "license": null,
+   "pushed_at": "2021-01-20T01:35:36Z",
+   "stargazers_count": 31,
+   "topics": []
+  },
+  {
+   "url": "https://github.com/cryptovillage/badge2018",
+   "kind": "repo",
+   "archived": false,
+   "description": null,
+   "fork": false,
+   "full_name": "cryptovillage/badge2018",
+   "homepage": null,
+   "html_url": "https://github.com/cryptovillage/badge2018",
+   "license": null,
+   "pushed_at": "2019-06-09T05:41:19Z",
+   "stargazers_count": 17,
+   "topics": []
+  },
+  {
+   "url": "https://github.com/cryptovillage/goldbug",
+   "kind": "repo",
+   "archived": false,
+   "description": null,
+   "fork": false,
+   "full_name": "cryptovillage/goldbug",
+   "homepage": null,
+   "html_url": "https://github.com/cryptovillage/goldbug",
+   "license": null,
+   "pushed_at": "2025-02-09T07:27:02Z",
+   "stargazers_count": 6,
+   "topics": []
+  },
+  {
+   "url": "https://github.com/Cyber-Professionals-Enthusiast-Club/DC-34-Mech-SAO",
+   "kind": "repo",
+   "archived": false,
+   "description": "Kicad 6 design files for the CPEC DEFCON 34 Badge SAO pluggin weapon and power ups.",
+   "fork": false,
+   "full_name": "Cyber-Professionals-Enthusiast-Club/DC-34-Mech-SAO",
+   "homepage": "",
+   "html_url": "https://github.com/Cyber-Professionals-Enthusiast-Club/DC-34-Mech-SAO",
+   "license": null,
+   "pushed_at": "2026-07-16T12:28:21Z",
+   "stargazers_count": 0,
+   "topics": []
+  },
+  {
+   "url": "https://github.com/cybr1d-cybr1d/Avocato-SAO",
+   "kind": "repo",
+   "archived": false,
+   "description": "A shitty addon of the character Avocato from Final Space",
+   "fork": false,
+   "full_name": "cybr1d-cybr1d/Avocato-SAO",
+   "homepage": null,
+   "html_url": "https://github.com/cybr1d-cybr1d/Avocato-SAO",
+   "license": null,
+   "pushed_at": "2024-03-07T05:17:23Z",
+   "stargazers_count": 0,
+   "topics": []
+  },
+  {
+   "url": "https://github.com/cybr1d-cybr1d/Lord-Commander-SAO",
+   "kind": "repo",
+   "archived": false,
+   "description": "A shitty addon of the character Lord Commander from Final Space",
+   "fork": false,
+   "full_name": "cybr1d-cybr1d/Lord-Commander-SAO",
+   "homepage": null,
+   "html_url": "https://github.com/cybr1d-cybr1d/Lord-Commander-SAO",
+   "license": null,
+   "pushed_at": "2024-03-07T05:21:34Z",
+   "stargazers_count": 0,
+   "topics": []
+  },
+  {
+   "url": "https://github.com/cybr1d-cybr1d/Mooncake-SAO",
+   "kind": "repo",
+   "archived": false,
+   "description": "A shitt addon of the character Mooncake from Final Space",
+   "fork": false,
+   "full_name": "cybr1d-cybr1d/Mooncake-SAO",
+   "homepage": null,
+   "html_url": "https://github.com/cybr1d-cybr1d/Mooncake-SAO",
+   "license": null,
+   "pushed_at": "2019-08-28T21:46:05Z",
+   "stargazers_count": 0,
+   "topics": []
+  },
+  {
+   "url": "https://github.com/davedarko/LAMEBOY",
+   "kind": "repo",
+   "archived": false,
+   "description": "https://hackaday.io/project/26823-lameboy-another-esp12-handheld",
+   "fork": false,
+   "full_name": "davedarko/LAMEBOY",
+   "homepage": "https://hackaday.io/project/26823-lameboy-another-esp12-handheld",
+   "html_url": "https://github.com/davedarko/LAMEBOY",
+   "license": null,
+   "pushed_at": "2024-09-08T12:10:26Z",
+   "stargazers_count": 20,
+   "topics": []
+  },
+  {
+   "url": "https://github.com/davedarko/Simple-Add-ons-SAO/tree/main",
+   "kind": "repo",
+   "archived": false,
+   "description": "Find all of my simple add-ons in this repository",
+   "fork": false,
+   "full_name": "davedarko/Simple-Add-ons-SAO",
+   "homepage": null,
+   "html_url": "https://github.com/davedarko/Simple-Add-ons-SAO",
+   "license": null,
+   "pushed_at": "2026-05-21T10:54:41Z",
+   "stargazers_count": 11,
+   "topics": []
+  },
+  {
+   "url": "https://github.com/davedarko/TARS-SAO",
+   "kind": "repo",
+   "archived": false,
+   "description": "A not so simple Add-On for badges",
+   "fork": false,
+   "full_name": "davedarko/TARS-SAO",
+   "homepage": null,
+   "html_url": "https://github.com/davedarko/TARS-SAO",
+   "license": "MIT",
+   "pushed_at": "2024-10-10T11:58:07Z",
+   "stargazers_count": 0,
+   "topics": []
+  },
+  {
+   "url": "https://github.com/davedarko/Vectorscope",
+   "kind": "repo",
+   "archived": false,
+   "description": "Vectorscope badge for the 2023 Hackaday Supercon and beyond!",
+   "fork": true,
+   "full_name": "davedarko/Vectorscope",
+   "homepage": null,
+   "html_url": "https://github.com/davedarko/Vectorscope",
+   "license": "MIT",
+   "pushed_at": "2024-04-16T22:42:30Z",
+   "stargazers_count": 0,
+   "topics": []
+  },
+  {
+   "url": "https://github.com/davedarko/YoDawgSAO",
+   "kind": "repo",
+   "archived": false,
+   "description": "Simple Add-on Add-ons",
+   "fork": false,
+   "full_name": "davedarko/YoDawgSAO",
+   "homepage": null,
+   "html_url": "https://github.com/davedarko/YoDawgSAO",
+   "license": "MIT",
+   "pushed_at": "2024-10-11T19:46:42Z",
+   "stargazers_count": 0,
+   "topics": []
+  },
+  {
+   "url": "https://github.com/digitalrane/badgelife-parts",
+   "kind": "repo",
+   "archived": false,
+   "description": "Badge Addon Design Resources",
+   "fork": false,
+   "full_name": "digitalrane/badgelife-parts",
+   "homepage": "",
+   "html_url": "https://github.com/digitalrane/badgelife-parts",
+   "license": null,
+   "pushed_at": "2019-06-21T00:03:10Z",
+   "stargazers_count": 7,
+   "topics": []
+  },
+  {
+   "url": "https://github.com/Embedded-Systems-Village/DEFCON32-Raygun",
+   "kind": "repo",
+   "archived": false,
+   "description": null,
+   "fork": false,
+   "full_name": "Embedded-Systems-Village/DEFCON32-Raygun",
+   "homepage": null,
+   "html_url": "https://github.com/Embedded-Systems-Village/DEFCON32-Raygun",
+   "license": null,
+   "pushed_at": "2024-08-17T14:16:30Z",
+   "stargazers_count": 1,
+   "topics": []
+  },
+  {
+   "url": "https://github.com/FirewallDragon/amulet-of-entropy",
+   "kind": "repo",
+   "archived": false,
+   "description": "Software for the HackerBoxes #0080 project - a DEF CON indie badge",
+   "fork": false,
+   "full_name": "FirewallDragon/amulet-of-entropy",
+   "homepage": "",
+   "html_url": "https://github.com/FirewallDragon/amulet-of-entropy",
+   "license": "MIT",
+   "pushed_at": "2023-07-08T22:32:29Z",
+   "stargazers_count": 20,
+   "topics": [
+    "badgelife",
+    "defcon30",
+    "hackerboxes"
+   ]
+  },
+  {
+   "url": "https://github.com/flummer/dmm-sao",
+   "kind": "repo",
+   "archived": false,
+   "description": "A small digital multimeter specifically for measuring SAO related stuff",
+   "fork": false,
+   "full_name": "flummer/dmm-sao",
+   "homepage": null,
+   "html_url": "https://github.com/flummer/dmm-sao",
+   "license": "CC-BY-SA-4.0",
+   "pushed_at": "2025-05-15T14:47:50Z",
+   "stargazers_count": 28,
+   "topics": []
+  },
+  {
+   "url": "https://github.com/Fri3dCamp/badge",
+   "kind": "repo",
+   "archived": false,
+   "description": "Elk hacker/maker/DIY Kamp heeft zijn eigen badge nodig...",
+   "fork": false,
+   "full_name": "Fri3dCamp/badge",
+   "homepage": null,
+   "html_url": "https://github.com/Fri3dCamp/badge",
+   "license": "NOASSERTION",
+   "pushed_at": "2018-08-02T20:14:34Z",
+   "stargazers_count": 18,
+   "topics": [
+    "arduino",
+    "atmega32u4",
+    "avr",
+    "badge",
+    "ir"
+   ]
+  },
+  {
+   "url": "https://github.com/Fri3dCamp/badge-2020",
+   "kind": "repo",
+   "archived": false,
+   "description": "Fri3dBadge 2020 version",
+   "fork": false,
+   "full_name": "Fri3dCamp/badge-2020",
+   "homepage": null,
+   "html_url": "https://github.com/Fri3dCamp/badge-2020",
+   "license": "NOASSERTION",
+   "pushed_at": "2023-01-27T13:05:50Z",
+   "stargazers_count": 5,
+   "topics": []
+  },
+  {
+   "url": "https://github.com/Fri3dCamp/Fri3dBadge",
+   "kind": "repo",
+   "archived": false,
+   "description": "Arduino library for the Fri3d Camp badge",
+   "fork": false,
+   "full_name": "Fri3dCamp/Fri3dBadge",
+   "homepage": "http://wiki2018.fri3d.be/index.php?title=Badge",
+   "html_url": "https://github.com/Fri3dCamp/Fri3dBadge",
+   "license": null,
+   "pushed_at": "2019-05-31T15:51:18Z",
+   "stargazers_count": 11,
+   "topics": []
+  },
+  {
+   "url": "https://github.com/Hack-a-Day/Vectorscope",
+   "kind": "repo",
+   "archived": false,
+   "description": "Vectorscope badge for the 2023 Hackaday Supercon and beyond!",
+   "fork": false,
+   "full_name": "Hack-a-Day/Vectorscope",
+   "homepage": null,
+   "html_url": "https://github.com/Hack-a-Day/Vectorscope",
+   "license": "MIT",
+   "pushed_at": "2024-07-26T06:24:18Z",
+   "stargazers_count": 132,
+   "topics": []
+  },
+  {
+   "url": "https://github.com/hamster/classroom/tree/master",
+   "kind": "repo",
+   "archived": false,
+   "description": "Classes I have developed",
+   "fork": false,
+   "full_name": "hamster/classroom",
+   "homepage": null,
+   "html_url": "https://github.com/hamster/classroom",
+   "license": "GPL-3.0",
+   "pushed_at": "2025-10-23T07:55:18Z",
+   "stargazers_count": 4,
+   "topics": []
+  },
+  {
+   "url": "https://github.com/HogFillet/HTP-graffiti",
+   "kind": "repo",
+   "archived": false,
+   "description": "defcon 34 SAO",
+   "fork": false,
+   "full_name": "HogFillet/HTP-graffiti",
+   "homepage": "https://uberflux.com/product/HTP-DC34",
+   "html_url": "https://github.com/HogFillet/HTP-graffiti",
+   "license": "CC0-1.0",
+   "pushed_at": "2026-08-10T18:29:24Z",
+   "stargazers_count": 0,
+   "topics": []
+  },
+  {
+   "url": "https://github.com/hulkco/oshwi",
+   "kind": "repo",
+   "archived": false,
+   "description": "Upload \"Oshwi\"  Badge for OshwDem 2017 a Coru\u00f1a",
+   "fork": false,
+   "full_name": "hulkco/oshwi",
+   "homepage": null,
+   "html_url": "https://github.com/hulkco/oshwi",
+   "license": null,
+   "pushed_at": "2024-03-18T03:16:42Z",
+   "stargazers_count": 15,
+   "topics": []
+  },
+  {
+   "url": "https://github.com/jaseg/gerbolyze",
+   "kind": "repo",
+   "archived": false,
+   "description": "Directly render SVG overlays into Gerber and Excellon files",
+   "fork": false,
+   "full_name": "jaseg/gerbolyze",
+   "homepage": "https://git.jaseg.de/gerbolyze.git/",
+   "html_url": "https://github.com/jaseg/gerbolyze",
+   "license": "AGPL-3.0",
+   "pushed_at": "2026-04-25T16:15:42Z",
+   "stargazers_count": 412,
+   "topics": [
+    "art",
+    "computer-graphics",
+    "computer-graphics-algorithms",
+    "ecad",
+    "electronics",
+    "gerber",
+    "graphics",
+    "opencv",
+    "pcb",
+    "pcb-art",
+    "pcb-design",
+    "python",
+    "python3",
+    "rs274x",
+    "svg",
+    "vector-graphics",
+    "vectorization"
+   ]
+  },
+  {
+   "url": "https://github.com/lle/defcon32-sao",
+   "kind": "repo",
+   "archived": false,
+   "description": null,
+   "fork": false,
+   "full_name": "lle/defcon32-sao",
+   "homepage": null,
+   "html_url": "https://github.com/lle/defcon32-sao",
+   "license": null,
+   "pushed_at": "2026-06-18T03:24:04Z",
+   "stargazers_count": 1,
+   "topics": []
+  },
+  {
+   "url": "https://github.com/MakeItHackin/DEFCON29Badge",
+   "kind": "repo",
+   "archived": false,
+   "description": null,
+   "fork": false,
+   "full_name": "MakeItHackin/DEFCON29Badge",
+   "homepage": null,
+   "html_url": "https://github.com/MakeItHackin/DEFCON29Badge",
+   "license": null,
+   "pushed_at": "2023-04-21T01:26:19Z",
+   "stargazers_count": 11,
+   "topics": []
+  },
+  {
+   "url": "https://github.com/MakeItHackin/RootAccess",
+   "kind": "repo",
+   "archived": false,
+   "description": "DEFCON 34 Root Access Interactive SAO",
+   "fork": false,
+   "full_name": "MakeItHackin/RootAccess",
+   "homepage": null,
+   "html_url": "https://github.com/MakeItHackin/RootAccess",
+   "license": null,
+   "pushed_at": "2026-08-04T00:09:04Z",
+   "stargazers_count": 11,
+   "topics": []
+  },
+  {
+   "url": "https://github.com/Matir/Badgelife101",
+   "kind": "repo",
+   "archived": false,
+   "description": "KiCAD for Badgelife 101 Workshop",
+   "fork": false,
+   "full_name": "Matir/badgelife101",
+   "homepage": null,
+   "html_url": "https://github.com/Matir/badgelife101",
+   "license": null,
+   "pushed_at": "2023-10-05T17:28:18Z",
+   "stargazers_count": 3,
+   "topics": []
+  },
+  {
+   "url": "https://github.com/nanikgeorge/FeaturingYouSAO",
+   "kind": "repo",
+   "archived": false,
+   "description": "Featuring you! An SAO to announce yourself to the world.",
+   "fork": false,
+   "full_name": "nanikgeorge/FeaturingYouSAO",
+   "homepage": null,
+   "html_url": "https://github.com/nanikgeorge/FeaturingYouSAO",
+   "license": null,
+   "pushed_at": "2024-10-21T03:25:03Z",
+   "stargazers_count": 0,
+   "topics": []
+  },
+  {
+   "url": "https://github.com/NerdFlare/iFixit-SAO-2026",
+   "kind": "repo",
+   "archived": false,
+   "description": "iFixit DEFCON 2026 SAO",
+   "fork": false,
+   "full_name": "NerdFlare/iFixit-SAO-2026",
+   "homepage": null,
+   "html_url": "https://github.com/NerdFlare/iFixit-SAO-2026",
+   "license": null,
+   "pushed_at": "2026-07-24T20:34:49Z",
+   "stargazers_count": 1,
+   "topics": []
+  },
+  {
+   "url": "https://github.com/pdulab/hubble_sao",
+   "kind": "repo",
+   "archived": false,
+   "description": " Hubble SAO for Supercon 2024 ",
+   "fork": false,
+   "full_name": "pdulab/hubble_sao",
+   "homepage": null,
+   "html_url": "https://github.com/pdulab/hubble_sao",
+   "license": "NOASSERTION",
+   "pushed_at": "2025-03-19T00:41:06Z",
+   "stargazers_count": 1,
+   "topics": []
+  },
+  {
+   "url": "https://github.com/sphawes/badgerunner",
+   "kind": "repo",
+   "archived": false,
+   "description": "Bladerunner badge",
+   "fork": false,
+   "full_name": "sphawes/badgerunner",
+   "homepage": null,
+   "html_url": "https://github.com/sphawes/badgerunner",
+   "license": null,
+   "pushed_at": "2019-09-23T03:41:57Z",
+   "stargazers_count": 9,
+   "topics": []
+  },
+  {
+   "url": "https://github.com/SPIvSPI/dc27sao",
+   "kind": "repo",
+   "archived": false,
+   "description": "Blackhat spy & Whitehat spy SAO from Def Con 27",
+   "fork": false,
+   "full_name": "SPIvSPI/dc27sao",
+   "homepage": null,
+   "html_url": "https://github.com/SPIvSPI/dc27sao",
+   "license": "MIT",
+   "pushed_at": "2023-01-07T08:45:00Z",
+   "stargazers_count": 4,
+   "topics": []
+  },
+  {
+   "url": "https://github.com/szczys/coinop-badge",
+   "kind": "repo",
+   "archived": false,
+   "description": "Hardware badge homage to my favorite coinop video game",
+   "fork": false,
+   "full_name": "szczys/coinop-badge",
+   "homepage": null,
+   "html_url": "https://github.com/szczys/coinop-badge",
+   "license": null,
+   "pushed_at": "2018-08-05T14:21:12Z",
+   "stargazers_count": 2,
+   "topics": []
+  },
+  {
+   "url": "https://github.com/technobly/vectrex-sao",
+   "kind": "repo",
+   "archived": false,
+   "description": "Vectrex SAO for Hackaday Supercon.6 2022",
+   "fork": false,
+   "full_name": "technobly/vectrex-sao",
+   "homepage": null,
+   "html_url": "https://github.com/technobly/vectrex-sao",
+   "license": "CC-BY-SA-4.0",
+   "pushed_at": "2025-01-17T04:14:25Z",
+   "stargazers_count": 6,
+   "topics": []
+  },
+  {
+   "url": "https://github.com/timonsku/Numberwang-Badge",
+   "kind": "repo",
+   "archived": false,
+   "description": null,
+   "fork": false,
+   "full_name": "timonsku/Numberwang-Badge",
+   "homepage": null,
+   "html_url": "https://github.com/timonsku/Numberwang-Badge",
+   "license": null,
+   "pushed_at": "2019-08-27T14:33:19Z",
+   "stargazers_count": 8,
+   "topics": []
+  },
+  {
+   "url": "https://github.com/TomKeddie/prj-pcb-experiments/tree/master/mr-fixit",
+   "kind": "repo",
+   "archived": false,
+   "description": null,
+   "fork": false,
+   "full_name": "TomKeddie/prj-pcb-experiments",
+   "homepage": null,
+   "html_url": "https://github.com/TomKeddie/prj-pcb-experiments",
+   "license": "BSD-2-Clause",
+   "pushed_at": "2025-08-31T16:27:07Z",
+   "stargazers_count": 4,
+   "topics": []
+  },
+  {
+   "url": "https://hackaday.io/list/25935-conference-badges",
+   "kind": "other",
+   "title": "Conference Badges | Hackaday.io",
+   "description": "Hardware badge projects and badge contest entries",
+   "image": "https://cdn.hackaday.io/images/resize/600x600/5579341500059552823.jpg"
+  },
+  {
+   "url": "https://hackaday.io/project/116882-oshwi-the-octopus-iot-badge",
+   "kind": "hackaday",
+   "title": "Oshwi, the octopus IoT Badge",
+   "description": "I present Oshwi, the IoT badge.\n\nThe form or figure, is based on the mascot of the maker event, \"OSHWDem\", which takes place every year in the month of November in La Coru\u00f1a Spain, and in Hardware in the Huzzah product of Adafruit that is an open project, how much 5 addressable Neopixeles and an ESP-12 microcontroller that incorporates WiFI, is designed using open software like, Kicad, Inkscape, and much, much love from Mazatlan, Mexico for the whole world !!!\n\nI have published all the files on Github, I hope you like it.\nhttps://github.com/hulkco/oshwi_2017 [https://github.com/hulkco/oshwi_2017]",
+   "image": "https://cdn.hackaday.io/images/resize/600x600/9925791522868792591.jpg",
+   "author": "",
+   "lists": [
+    "",
+    "2018 THP: Digikey Parts",
+    "Conference Badges",
+    "Tutorials"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/158663-thefreeman-def-con-26-indie-badge",
+   "kind": "hackaday",
+   "title": "THEFREEMAN - DEF CON 26 INDIE BADGE",
+   "description": "This is my first DEF CON Indie Badge. Based on Valve Software's Half-Life 2's \"Vortigaunt\" characters this simple badge features 5 OSRAM LEDs that shine through the board to illuminate the Vortigaunt's eyes. I used this project to learn Kicad and to continue to experiments with PCBs as an art medium. I also produced a SAO version of this badge.",
+   "image": "https://cdn.hackaday.io/images/resize/600x600/7500681527606184949.JPG",
+   "author": "",
+   "lists": [
+    "",
+    "Awesome Projects on Tindie",
+    "Conference Badges",
+    "Simple Add-on badges",
+    "Tutorials"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/158664-krusty-the-it",
+   "kind": "hackaday",
+   "title": "Krusty The It",
+   "description": "Krusty the It is my first Shitty Add-on for DC26's various Indie Badges.",
+   "image": "https://cdn.hackaday.io/images/resize/600x600/7206381528374018592.JPG",
+   "author": "",
+   "lists": [
+    "",
+    "Awesome Projects on Tindie",
+    "Conference Badges",
+    "Shitty Add-Ons (2018)",
+    "Tutorials"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/158665-fat-pika",
+   "kind": "hackaday",
+   "title": "Fat Pika",
+   "description": "My second Shitty Add-on for DC26. This one is meant to be a kid-friendly alternative to my \"Krusty the It\" project.",
+   "image": "https://cdn.hackaday.io/images/resize/600x600/5323261527606696962.JPG",
+   "author": "",
+   "lists": [
+    "",
+    "Awesome Projects on Tindie",
+    "Conference Badges",
+    "Shitty Add-Ons (2018)",
+    "Tutorials"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/159302-coinop-badge",
+   "kind": "hackaday",
+   "title": "CoinOp Badge",
+   "description": "What's your favorite coin-operated video game? You said Galaga, right? That's the favorite for most people, and the hero of the game is the spectacular space ship that keeps us all safe from invading space hordes. To celebrate our hero I've designed a badge shaped like the ship!",
+   "image": "https://cdn.hackaday.io/images/resize/600x600/1577921533686562513.jpg",
+   "author": "",
+   "lists": [
+    "",
+    "Conference Badges",
+    "Tutorials"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/159522-big-green",
+   "kind": "hackaday",
+   "title": "Big Green",
+   "description": "My 3rd Shitty Add-on to be produced, and the first to be produced without any hiccups!",
+   "image": "https://cdn.hackaday.io/images/resize/600x600/3093371530807435614.JPG",
+   "author": "",
+   "lists": [
+    "",
+    "Awesome Projects on Tindie",
+    "Conference Badges",
+    "Shitty Add-Ons (2018)",
+    "Simple Add-on badges",
+    "Tutorials"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/159523-mad-cat",
+   "kind": "hackaday",
+   "title": "Mad Cat",
+   "description": "It's a Cheshire cats whose eyes and teeth light up white.",
+   "image": "https://cdn.hackaday.io/images/resize/600x600/525791556726430848.JPG",
+   "author": "",
+   "lists": [
+    "",
+    "Conference Badges",
+    "Shitty Add-Ons (2018)",
+    "Simple Add-on badges",
+    "Tutorials"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/159524-sao-hat",
+   "kind": "hackaday",
+   "title": "SAO Hat",
+   "description": "The words light up white.",
+   "image": "https://cdn.hackaday.io/images/resize/600x600/454251530810992490.JPG",
+   "author": "",
+   "lists": [
+    "",
+    "Awesome Projects on Tindie",
+    "Conference Badges",
+    "Shitty Add-Ons (2018)",
+    "Simple Add-on badges",
+    "Tutorials"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/159719-floridaman-badge-2018",
+   "kind": "hackaday",
+   "title": "FLORIDA_MAN Badge 2018",
+   "description": "An Unofficial DEF CON 26 Badge",
+   "image": "https://cdn.hackaday.io/images/resize/600x600/6670841534779581421.jpg",
+   "author": "",
+   "lists": [
+    "",
+    "Conference Badges",
+    "Tutorials"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/159751-la-bomba",
+   "kind": "hackaday",
+   "title": "La Bomba",
+   "description": "A simple Shitty Add-on.",
+   "image": "https://cdn.hackaday.io/images/resize/600x600/251301531712399850.JPG",
+   "author": "",
+   "lists": [
+    "",
+    "Awesome Projects on Tindie",
+    "Shitty Add-Ons (2018)",
+    "Tutorials"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/159823-thats-a-big-twinkie",
+   "kind": "hackaday",
+   "title": "That's A Big Twinkie",
+   "description": "This is sort of not really a DEF CON 26 badge. This \"Shitty Add-on Amulet\" powers 3 SAOs with 2x AA batteries. It will come with Female headers on all 3 SAO Ports so they will be swappable without soldering/desoldering.",
+   "image": "https://cdn.hackaday.io/images/resize/600x600/1082951536587600249.JPG",
+   "author": "",
+   "lists": [
+    "",
+    "Conference Badges",
+    "Shitty Add-Ons (2018)",
+    "Simple Add-on badges",
+    "Tutorials"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/159856-lucky-oshcat-sao",
+   "kind": "hackaday",
+   "title": "Lucky OSHCat SAO",
+   "description": "Made this quick SAO for OSHPark. The Coin is meant to be lit up with 1206/PLCC2 LEDs.",
+   "image": "https://cdn.hackaday.io/images/resize/600x600/1101401536587545566.JPG",
+   "author": "",
+   "lists": [
+    "",
+    "Shitty Add-Ons (2018)",
+    "Simple Add-on badges",
+    "Tutorials"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/159952-the-harbinger-shitty-add-on-badges",
+   "kind": "hackaday",
+   "title": "The Harbinger Shitty Add-on Badges",
+   "description": "Brrr I wanted to do something to celebrate my home city Atlanta, so this is a modified version of the tattoo on Gucci Manes cheek. Also could work for Brrcon? It's a dual led flasher utilizing a bjt transistor and white smd leds to simulate the lightning. Shitty Calvin Now you can have your childhood piss on your badge!! Shitty Calvin is a four-stage LED sequencer driven by a 4017b and 555 timer. Mr Robopoly Schematic based on bbenchoffs Sao guide (lol!!). Thereminion Based on a mod of Forrest Mims audible light meter. The Harbinger Sound/Circuits Lab Prototyping board: The galaxia is a synthesizer I am designing. In working with timer chips and circuit bending I found myself wishing for a platform I could play/circuit bend a chip on that offered a lot of customization and flexibility. I realized with a few tweaks this could also function as a build your own badge (byob) for people who maybe had ideas/programs for one but not the money/skills to produce one.",
+   "image": "https://cdn.hackaday.io/images/resize/600x600/1279201532482684191.JPG",
+   "author": "",
+   "lists": [
+    "",
+    "Conference Badges",
+    "DCBadges",
+    "Shitty Add-Ons (2018)",
+    "Simple Add-on badges",
+    "Tutorials"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+   "kind": "hackaday",
+   "title": "SAO #Badgelife add-ons",
+   "description": "Many projects to build before defcon. Darkwing Duck (in works) Gizmo Duck Portal Gun + Portal BG Pickle-Rick + Portal BG (in works) Wizard Hat SAOAO Megaseeds SAOAO Slippery Stair SAOAO Tiki (in works) Electro-storm (high voltage warning sign) (in works) Completed basic SAO Leela (Light up eye and gun and armband) Bender (w/sunglasses also GOLD) Zoidberg (Alternate Universe - Purple) Tubbs (nekoatsume)",
+   "image": "https://cdn.hackaday.io/images/resize/600x600/888941533575658042.jpg",
+   "author": "",
+   "lists": [
+    "",
+    "Conference Badges",
+    "Shitty Add-Ons (2018)",
+    "Simple Add-on badges",
+    "Tutorials"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/160043-un1eet-shitty-add-on",
+   "kind": "hackaday",
+   "title": "#un1eet Shitty Add On",
+   "description": "I kept meaning to go through the tutorial on making custom PCBs and never got to it. But then I decided to make this for DefCon: an #un1eet SAO. Now I want to see where this goes.",
+   "image": "https://cdn.hackaday.io/images/resize/600x600/8299311532663287862.jpg",
+   "author": "",
+   "lists": [
+    "",
+    "Conference Badges",
+    "Shitty Add-Ons (2018)",
+    "Simple Add-on badges",
+    "Tutorials"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/160078-the-defcon26-middle-finger-badge",
+   "kind": "hackaday",
+   "title": "The DEFCON26 Middle Finger Badge",
+   "description": "This project is a badge intended to be a tongue in cheek gesture for Face API's in a modern surveillance state.",
+   "image": "https://cdn.hackaday.io/images/resize/600x600/54831533004755188.png",
+   "author": "",
+   "lists": [
+    "",
+    "Conference Badges",
+    "Tutorials"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/160221-robot-1-x",
+   "kind": "hackaday",
+   "title": "Robot 1-X",
+   "description": "Robot 1-X will put all my previous models to shame. Incidentally, I have no previous models.",
+   "image": "https://cdn.hackaday.io/images/resize/600x600/3759221533616076826.jpg",
+   "author": "",
+   "lists": [
+    "",
+    "Conference Badges",
+    "Shitty Add-Ons (2018)",
+    "Simple Add-on badges",
+    "Tutorials"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/160451-ph0xx",
+   "kind": "hackaday",
+   "title": "Ph0xx",
+   "description": "Ph0xx is the badge for Fri3d Camp, a family hacker, maker and DIY camp in Belgium with close to 600 attendees, everyone of which shall receive this badge. Ph0xx is based around the Espressif ESP32-WROOM-32 module, it houses two 5x7 LED arrays, an ADXL345 accelerometer, DW01-P Battery protection, TP4056 battery charger, an 18650 battery, touch buttons, some power pads, expansion headers, a buzzer and has Lego Technic compatible holes. The badge has 2 jewels already. The Air jewel, which can interface with an dust particle sensor and GPS, and the Bot jewel, which boosts the power to drive 4 large servos and is used as building block of the bi-pedal robot",
+   "image": "https://cdn.hackaday.io/images/resize/600x600/8418291534227415060.jpg",
+   "author": "",
+   "lists": [
+    "",
+    "Conference Badges",
+    "Tutorials"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/160583-jr-bob-dobbs-sao",
+   "kind": "hackaday",
+   "title": "J.R \"Bob\" Dobbs SAO",
+   "description": "Learning about circuits and PCB making and wanted something that would make me laugh and hopefully someone else too.",
+   "image": "https://cdn.hackaday.io/images/resize/600x600/655081534571548871.jpg",
+   "author": "",
+   "lists": [
+    "",
+    "Conference Badges",
+    "Shitty Add-Ons (2018)",
+    "Simple Add-on badges",
+    "Tutorials"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/160782-dc858619-beach-day-unofficial-def-con-26-badge",
+   "kind": "hackaday",
+   "title": "DC858/619 \"Beach Day\" Unofficial DEF CON 26 badge",
+   "description": "Beach Day Badge - bling for hacker summer camp & full of features to measure Victory Gin intake or blind Big Brother to your shenanigans!",
+   "image": "https://cdn.hackaday.io/images/resize/600x600/5146711535483531241.jpg",
+   "author": "",
+   "lists": [
+    "",
+    "Conference Badges",
+    "Tutorials"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/161117-nibbler",
+   "kind": "hackaday",
+   "title": "Nibbler",
+   "description": "I only had a small handful of these at DEF CON. Now I'm making the files public so you can have your own made.",
+   "image": "https://cdn.hackaday.io/images/resize/600x600/8068011536588369327.JPG",
+   "author": "",
+   "lists": [
+    "",
+    "Conference Badges",
+    "Shitty Add-Ons (2018)",
+    "Simple Add-on badges",
+    "Tutorials"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/161118-big-deal-with-it-foot",
+   "kind": "hackaday",
+   "title": "Big Deal With It Foot",
+   "description": "I made this during a stream on how to make SAOs. I never intended to actually produce it but then I did anyway.",
+   "image": "https://cdn.hackaday.io/images/resize/600x600/3718391536588932484.JPG",
+   "author": "",
+   "lists": [
+    "",
+    "Conference Badges",
+    "Shitty Add-Ons (2018)",
+    "Simple Add-on badges",
+    "Tutorials"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/161119-laughing-skull",
+   "kind": "hackaday",
+   "title": "Laughing Skull",
+   "description": "Laughing Skull comes from \"The Vortex\" from Atlanta, GA and I made it as a call back to one of my favorite places to eat and take tourists to. I only produced a few of these.",
+   "image": "https://cdn.hackaday.io/images/resize/600x600/5342931536589239380.JPG",
+   "author": "",
+   "lists": [
+    "",
+    "Conference Badges",
+    "Shitty Add-Ons (2018)",
+    "Simple Add-on badges",
+    "Tutorials"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/161120-iron-man-sao",
+   "kind": "hackaday",
+   "title": "Iron Man SAO",
+   "description": "Last minute SAO I produced a handful of for DEF CON 26.",
+   "image": "https://cdn.hackaday.io/images/resize/600x600/7438021536589399348.JPG",
+   "author": "",
+   "lists": [
+    "",
+    "Conference Badges",
+    "Shitty Add-Ons (2018)",
+    "Simple Add-on badges",
+    "Tutorials"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/161508-rbg-sao",
+   "kind": "hackaday",
+   "title": "RBG SAO",
+   "description": "The files are for the RGB SAO badge.",
+   "image": "https://cdn.hackaday.io/images/resize/600x600/4165371538173231415.jpg",
+   "author": "",
+   "lists": [
+    "",
+    "Conference Badges",
+    "Simple Add-on badges",
+    "Tutorials"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/161509-frida-sao",
+   "kind": "hackaday",
+   "title": "Frida SAO",
+   "description": "The files are for the Frida SAO.",
+   "image": "https://cdn.hackaday.io/images/resize/600x600/406731538173545390.jpg",
+   "author": "",
+   "lists": [
+    "",
+    "Conference Badges",
+    "Simple Add-on badges",
+    "Tutorials"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/161510-lsp-sao",
+   "kind": "hackaday",
+   "title": "LSP SAO",
+   "description": "The files are for the LSP SAO",
+   "image": "https://cdn.hackaday.io/images/resize/600x600/1223231538173637925.jpg",
+   "author": "",
+   "lists": [
+    "",
+    "Conference Badges",
+    "Shitty Add-Ons (2018)",
+    "Simple Add-on badges",
+    "Tutorials"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/163899-xmas-id-badge-flair",
+   "kind": "hackaday",
+   "title": "xmas id badge (flair)",
+   "description": "my better half had to work this xmas and so i put together a little something to put on their badge at work. sometimes a smile is worth the cost of overnight shipping because you procrastinated and waited til the last minute.It's based on an atmega328p (vqfn-28) and powered by a 1220 button cell. I'd like it to last a little while by going to sleep after it does the blinking. My apologies ahead of time as this is my first time using hackaday.io and github. Everything was hand soldered. I used a paint stripping heat gun (go big or go home) to solder the avr. It was programmed using an atmel-ice. the programming header was removed and the pads covered with kapton before the battery was inserted. that interference was just a design compromise to get the size down.",
+   "image": "https://cdn.hackaday.io/images/resize/600x600/8790871550183603963.jpg",
+   "author": "",
+   "lists": [
+    "",
+    "Conference Badges",
+    "Tutorials"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/164210-defcon-27-tv3y3-badge",
+   "kind": "hackaday",
+   "title": "Defcon 27 TV3Y3 Badge",
+   "description": "Drawing it's name from a Stooges song, The Defcon 27 TV3y3 Badge is an augmented reality development tool launching at Defcon 27 2019 in Las Vegas, Nevada. The ultimate goal is to show that you can create AR content without relying on facial recognition technology.",
+   "image": "https://cdn.hackaday.io/images/resize/600x600/1565841575565190807.jpeg",
+   "author": "",
+   "lists": [
+    "",
+    "Conference Badges",
+    "DCBadges",
+    "Tutorials"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/164210/files",
+   "kind": "hackaday",
+   "title": "Files | Defcon 27 TV3Y3 Badge",
+   "description": "",
+   "image": "",
+   "author": "",
+   "lists": [
+    "Tutorials"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/164625-dc27-multi-pass",
+   "kind": "hackaday",
+   "title": "DC27 MULTI PASS",
+   "description": "So the Fifth Element is pretty much the best movie of all time. Everyone agrees on that. I've made a badge for DEF CON this year themed after the MULTI PASS from the movie. The goal is for a hackable and useful badge on a unified platform.\n\nESP32, LEDs, WIFI, SD Card, E-Paper display\n\nhttps://github.com/CromulonB/DC27-MULTI-PASS [https://github.com/CromulonB/DC27-MULTI-PASS]",
+   "image": "https://cdn.hackaday.io/images/resize/600x600/7887841560816701149.JPEG",
+   "author": "",
+   "lists": [
+    "",
+    "Conference Badges",
+    "DCBadges",
+    "Security",
+    "Tutorials"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/165317-kupo-dc27-sao",
+   "kind": "hackaday",
+   "title": "Kupo! - DC27 SAO",
+   "description": "My first Shitty Add-on for 2019 a Moggle! Kupo! Kupo has 4 LEDs and two resistors. 3 for the wings and 1 for the bobble. It was one of the last projects I did with 1206 LEDs mounted upside down.",
+   "image": "https://cdn.hackaday.io/images/resize/600x600/7463601556725065253.JPG",
+   "author": "",
+   "lists": [
+    "",
+    "Conference Badges",
+    "Simple Add-on badges",
+    "Tutorials"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/165318-im-40-ufo-dc27-sao",
+   "kind": "hackaday",
+   "title": "I'm 40% UFO! - DC27 SAO",
+   "description": "This is my second SAO for DEF CON 27. It's the \"UFO\" version of Bender from Futurama. Bender's mouth and eyes are backlit with two LEDs each. Most of the ones I made used White LEDs but a small handful featured yellow LEDs. To reduce the reflective of the HASL finish I put two matte coats on Bender. This gave it a matte finish that better resembled the character from the show. The \"Alienese\" script on the back is various quotes from Bender from the show.",
+   "image": "https://cdn.hackaday.io/images/resize/600x600/1509711556725494420.JPG",
+   "author": "",
+   "lists": [
+    "",
+    "Conference Badges",
+    "Simple Add-on badges",
+    "Tutorials"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/165319-pumpkin-witch",
+   "kind": "hackaday",
+   "title": "Pumpkin Witch",
+   "description": "A Halloween Pumpkin with a Witch Hat. This was an experiment with post processing with a Matte Coating to protect the OSP copper from tarnishing. Solder Mask: Black Silk Screen: White Copper Finish: OSP Copper",
+   "image": "https://cdn.hackaday.io/images/resize/600x600/2078741556726491548.JPG",
+   "author": "",
+   "lists": [
+    "",
+    "Conference Badges",
+    "Tutorials"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/165320-arc-badge-dc27-indie-badge",
+   "kind": "hackaday",
+   "title": "Arc Badge - DC27 Indie Badge",
+   "description": "An Infinity War Era Arc Reactor Badge/Prop",
+   "image": "https://cdn.hackaday.io/images/resize/600x600/8585611566241222567.JPG",
+   "author": "",
+   "lists": [
+    "Tutorials"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/165322-iron-gauntlet-dc27-sao",
+   "kind": "hackaday",
+   "title": "Iron Gauntlet - DC27 SAO",
+   "description": "The Iron Gauntlet is a SAO that originally came exclusively with my Arc Badge. It features 7 Side View LEDs that make up for the 6 Infinity Stones. Due to the glow distance of Yellow the stone required 2 LEDs for the full effect. This is another project that features my Hot Glue Diffuser technique.",
+   "image": "https://cdn.hackaday.io/images/resize/600x600/4218131566230003824.JPG",
+   "author": "",
+   "lists": [
+    "",
+    "Simple Add-on badges",
+    "Tutorials"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/165323-chestoro-dc27-sao",
+   "kind": "hackaday",
+   "title": "Chestoro - DC27 SAO",
+   "description": "Chestoro is my 3rd SAO for the DC27 Badgelife Season. It is a mashup of the Cheshire Cat & Totoro fictional characters. This was my second collaboration with Wire from the Tymkrs.",
+   "image": "https://cdn.hackaday.io/images/resize/600x600/2187711566224304719.jpg",
+   "author": "",
+   "lists": [
+    "",
+    "Simple Add-on badges",
+    "Tutorials"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/166236-planet-express-saoship",
+   "kind": "hackaday",
+   "title": "Planet Express SAOship",
+   "description": "I created this to tie together all my other futurama SAOs in once place, with them lit up.",
+   "image": "https://cdn.hackaday.io/images/resize/600x600/5026171561413494227.jpg",
+   "author": "",
+   "lists": [
+    "",
+    "Awesome Projects on Tindie",
+    "Conference Badges",
+    "Simple Add-on badges",
+    "Tutorials"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/166397-a-dc27-circuitpython-shitty-add-on-v169bis-totem",
+   "kind": "hackaday",
+   "title": "A DC27 CircuitPython Shitty Add-On V1.69BIS Totem",
+   "description": "This is our \"WeBadge\" for DefCon 27. Its a Shitty Add-On Totem using the V1.69BIS \"standard\" supporting up to 4 add-ons all with I2C and GPIO support using CircuitPython 4.0. This means no drivers or compilers needed, just connect over USB and change the Python code to start messing with add-ons. In Python, you can power them on or off, even use the PulseIO library to PWM the power. Half of the GPIO pins support analog inputs and there's 2 shared i2c buses for the four connectors. There's some solder jumpers on the board too if you want to change a few of the hardware properties. You can close jumpers to always supply power to the add-ons or enable the I2C pull-up resistors. We're hoping this gives you a super easy way to configure and display a bunch of SAO bling. We've got a number to hand out, so ask if you see someone wearing it.",
+   "image": "https://cdn.hackaday.io/images/resize/600x600/9579361565238740155.jpg",
+   "author": "",
+   "lists": [
+    "",
+    "CircuitPython",
+    "Conference Badges",
+    "Simple Add-on badges",
+    "Tutorials"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/166450-unicorn-dc27-sao",
+   "kind": "hackaday",
+   "title": "Unicorn - DC27 SAO",
+   "description": "The Unicorn SAO I made for DEF CON 27 is the fruit of my experiments with Side View LEDs. It features 5 LEDs of different colors shining into a Hot Glue diffuser that beautifully blends the different colors together evenly.",
+   "image": "https://cdn.hackaday.io/images/resize/600x600/4604631566229369463.JPG",
+   "author": "",
+   "lists": [
+    "",
+    "Simple Add-on badges",
+    "Tutorials"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/166811-spivspi-sao-dc27-badge",
+   "kind": "hackaday",
+   "title": "SPIvSPI SAO DC27 Badge",
+   "description": "SPIvSPI SAO DC27 Badge (twitter @SPIvSPI)",
+   "image": "https://cdn.hackaday.io/images/resize/600x600/411341564373356087.jpg",
+   "author": "",
+   "lists": [
+    "",
+    "Conference Badges",
+    "Cool Stuff - Misc. Stuff",
+    "DCBadges",
+    "Simple Add-on badges",
+    "Tutorials"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/167172-beardo-badge-dc27-indie-badge",
+   "kind": "hackaday",
+   "title": "Beardo Badge - DC27 Indie Badge",
+   "description": "This badge was designed with all the DEF CON parties in mind. 112 LEDs that dance to the sound of live music.",
+   "image": "https://cdn.hackaday.io/images/resize/600x600/2845901565981816422.jpg",
+   "author": "",
+   "lists": [
+    "",
+    "Conference Badges",
+    "Tutorials"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/167356-numberwang-badge",
+   "kind": "hackaday",
+   "title": "Numberwang Badge",
+   "description": "It does blinkies and sound! You can pretend to play Numberwang on it! What is Numberwang you may ask. You can watch all episodes here: https://www.youtube.com/playlist?list=PLXEe9gEX_-A1aUTF7swwIWSy5eLeop1yo Video of the badge: https://twitter.com/i/status/1162331672601403394 If you got a PCB from me you can find some minimal documentation here: https://github.com/timonsku/Numberwang-Badge",
+   "image": "https://cdn.hackaday.io/images/resize/600x600/603301567549312008.jpg",
+   "author": "",
+   "lists": [
+    "",
+    "CircuitPython",
+    "Conference Badges",
+    "Tutorials"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/167548-sao-v169b-hackerspace-logo",
+   "kind": "hackaday",
+   "title": "SAO v1.69b Hackerspace Logo",
+   "description": "Stacking multiple PCBs to get a nice looking RGB logo for Area 3001",
+   "image": "https://cdn.hackaday.io/images/resize/600x600/1120271568017065321.jpg",
+   "author": "",
+   "lists": [
+    "",
+    "Featured Projects",
+    "Simple Add-on badges",
+    "Tutorials"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/167668-time-blaster",
+   "kind": "hackaday",
+   "title": "Time Blaster",
+   "description": "An ATMega 328 based IR blaster which is connected to the Fri3d 2020 badge to get it's power and data. Converting the campgrounds into a battleground for those who are playing along and those who don't. The blaster had basic features you expect from a lasertag style gun. Some lights, buzzer, IR receivers and of course a IR transmitter. Since this kit is design to be cost optimized and hand soldered the majority of the board is made from readily available Through Hole components. To get a fully working blaster, you only need to solder the TH parts. The SMD WS2812 RGB LEDs can be added for fun light effects. If you want to convert the blaster in a Arduino comptible development board, the SOIC CH340C can be soldered with you choice of USB-B , Micro USB or USB-C connector (depending on your solder skills!) Once the USB connector is added, the board can easily be converted for standalone use by adding a USB battery pack and modifying the firmware.",
+   "image": "https://cdn.hackaday.io/images/resize/600x600/8853881575963356233.jpg",
+   "author": "",
+   "lists": [
+    "",
+    "Conference Badges",
+    "Tutorials"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/168037-mr-robot-shitty-addon",
+   "kind": "hackaday",
+   "title": "Mr. Robot shitty addon",
+   "description": "Perfect board to test the afterdark pcbs by oshpark. Supposed to be an I2C soundcard. No firmware yet.",
+   "image": "https://cdn.hackaday.io/images/resize/600x600/897831571228275413.png",
+   "author": "",
+   "lists": [
+    "",
+    "Dave's Badges + Simple Add-Ons",
+    "Simple Add-on badges",
+    "Tutorials"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/168402-badge-runner",
+   "kind": "hackaday",
+   "title": "BADGE RUNNER",
+   "description": "After seeing the great #badgelife projects coming out of Defcon, I was inspired to learn how to create my own. The idea to create a Blade Runner themed badge stemmed from the fact that Supercon was taking place outside of LA in Nov. 2019; the time and place the original Blade Runner is set. I hope other cyberpunk enthusiasts will enjoy this badge. The layering of the board was created in Inkscape and exported using svg2shenzhen. We used Kicad to construct the schematics and organizing the board components. This badge consists of a ESP12 operating 9 neopixels, 8 in the front and 1 that is soldered reversed to backlit the owl's cybernetic eye. To make things interesting, the 8 neopixels flash a secret message. Badge is powered by a rechargeable lipo battery and can be charged by micro-usb. Each ear has a header to display a nice SAO. Multiple badges were created to sell at Supercon. The remaining will be put up on Tindie following the conference.",
+   "image": "https://cdn.hackaday.io/images/resize/600x600/6608271573462528753.jpg",
+   "author": "",
+   "lists": [
+    "",
+    "Conference Badges",
+    "DCBadges",
+    "Tutorials"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/168570-wireshark-0x4e00",
+   "kind": "hackaday",
+   "title": "Wireshark 0x4e00",
+   "description": "Wireshark 0x4e00 is a Pin/Mini Badge that was created to be distributed for fun at Hackaday Supercon 2019.\n\nIt features a relatively simple BOM driven by a ATTiny13a and powered by a CR2032 battery. With the ATTiny13a's low power capabilities everyone was able to play a Piezo Buzzer tune of Baby Shark until our ears bled.\n\nThe original board was produced and sponsored by JLCPCB but there were 3 boards produced by OSHPark.\n\nIf you would like to order the boards directly from OSHPark, go here: https://oshpark.com/shared_projects/MxsjkznE [https://oshpark.com/shared_projects/MxsjkznE]",
+   "image": "https://cdn.hackaday.io/images/resize/600x600/2993861574282325251.JPG",
+   "author": "",
+   "lists": [
+    "",
+    "Projects using OSHpark boards",
+    "Tutorials"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/168597-do-or-donut-sao",
+   "kind": "hackaday",
+   "title": "Do or Donut SAO",
+   "description": "Why do I start stuff like this?",
+   "image": "https://cdn.hackaday.io/images/resize/600x600/1524781574432366845.png",
+   "author": "",
+   "lists": [
+    "",
+    "Dave's Badges + Simple Add-Ons",
+    "Simple Add-on badges",
+    "Tutorials"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/169741-fri3d-2022-badge",
+   "kind": "hackaday",
+   "title": "Fri3d 2022 Badge",
+   "description": "The badge for the 2022 edition of Fri3d camp is based around the ESP32 Wrover with 4MB PSRAM and 16MB Flash.",
+   "image": "https://cdn.hackaday.io/images/resize/600x600/5863511656339034264.jpg",
+   "author": "",
+   "lists": [
+    "",
+    "Conference Badges",
+    "Tutorials"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/169988-carolina-con-16-hardware-badge",
+   "kind": "hackaday",
+   "title": "Carolina Con 16 Hardware Badge",
+   "description": "This will be this year's badge for Carolina Con 16. The badge is not finished, but I wanted to show off what we have to far.\n\nIt features art by Katie Dorn that was turned into PCB art by Matt Agius. The badge features glowing red eyes and only 6 easy solder points for those learning how to solder SMD components!\n\nCome to Carolina Con to get your own!\nhttps://carolinacon.org [https://carolinacon.org]",
+   "image": "https://cdn.hackaday.io/images/resize/600x600/2145141581961128265.jpg",
+   "author": "",
+   "lists": [
+    "",
+    "Conference Badges",
+    "Tutorials"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/171297-random-misc-projects",
+   "kind": "hackaday",
+   "title": "Random Misc Projects",
+   "description": "Location for placing random small projects.",
+   "image": "https://hackaday.io/img/placeholder-sm.png",
+   "author": "",
+   "lists": [
+    "Tutorials"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/171896-cyberathena",
+   "kind": "hackaday",
+   "title": "CyberAthena",
+   "description": "CyberAthena is a modern rendering of the owl of Athena. Athena is a goddess of wisdom and arts and the guardian of Athens. Owl is one of her symbol in Greek mythology. According to the myth, the owl sits on Athena\u2019s blind side, so that she could see the whole truth. CyberAthena comes with metal armour for futuristic touch. This serves well as the night watch and guardian of wisdom in the dark. Features of CyberAthena * 2x RGB LEDs back-mounted * 1x PCB of beautifully rendered owl of Athena * 1x IS31FL3196A LED driver chip in QFN-20 * 1x SAO Header with SDA, SCL, GND and VCC 2024-10-12 Add one variant of CyberAthena using colourful silkscreen. The main purpose however is not multiple colours but the high-definition printing. A little bit change in design too.",
+   "image": "https://cdn.hackaday.io/images/resize/600x600/5863221590256351896.png",
+   "author": "",
+   "lists": [
+    "",
+    "Simple Add-on badges",
+    "Tutorials"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/174028-peanut-butter-sao",
+   "kind": "hackaday",
+   "title": "Peanut Butter SAO",
+   "description": "Peanut Butter, a SAO that reflects the never ending pronunciation battle of \"GIF\".",
+   "image": "https://cdn.hackaday.io/images/resize/600x600/3497551595943698900.JPG",
+   "author": "",
+   "lists": [
+    "",
+    "Simple Add-on badges",
+    "Tutorials"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/175182-simple-add-ons-sao",
+   "kind": "hackaday",
+   "title": "Simple Add-ons (SAO)",
+   "description": "Simple Add-ons (SAOs) is a standard that enables anyone to make a PCB that can be attached to and powered by a SAO Capable device. SAO Capable devices take care of the power requirements so all you have to worry about is making your Add-on work and look cool! Device makers, mainly Electronic badges made for conferences, can encourage others to attach Add-ons to their devices by adding the SAO port which is a simple 2x3 0.1\" (2.54mm) header. Simple Add-on is a fork / rebranding of the \"Shitty Add-on\" standard with the intention to make SAOs more accessible to a wider audience and provide a clear description of their purpose. As such, unless stated otherwise, documentation for the \"Shitty Add-on\" standard, specifically SAO169bis is still applicable to \"Simple Add-ons\". Pin out, foot prints, and parts necessary will remain fundamentally the same with a new name.",
+   "image": "https://cdn.hackaday.io/images/resize/600x600/3840071601740133360.png",
+   "author": "",
+   "lists": [
+    "",
+    "Simple Add-on badges",
+    "Tutorials"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/178378-carolina-con-online-badge",
+   "kind": "hackaday",
+   "title": "Carolina Con Online Badge",
+   "description": "This is the official badge for Carolina Con Online in 2021. Carolina Con Online has a North Carolina BBQ theme this year so, our badge does too! We featured the con logo as PCB art and a simple circuit with an ATTINY45 to control 5 LEDs and 1 IR LED. This badge features 2 LEDs behind the pig eyes that make glowing red X's appear when lit up. We also have a hidden message under the strip of silkscreen above the circuit. When the badge is in a dark room the photoresistor will trigger LEDs behind the silkscreen to reveal a hidden message! Take a look at the photos to see the message. The badge + a shirt can be purchased here for just $25: https://www.ebay.com/itm/313466298666 CarolinaCon is a volunteer run hacker con based in NC that is online this year happening from 4/23/21 to 4/25/21 \u2022 We've got talks! \u2022 We've got a CTF where the top 3 winners get NC BBQ sauce as a prize! \u2022 We've got merch! https://carolinacon.org",
+   "image": "https://cdn.hackaday.io/images/resize/600x600/1698511616457106904.jpg",
+   "author": "",
+   "lists": [
+    "",
+    "Conference Badges",
+    "Tutorials"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/184321-dc30-big-fucking-daft-punk-badge",
+   "kind": "hackaday",
+   "title": "DC30 Big Fucking Daft Punk Badge",
+   "description": "This is the start of the next project. This will focus more on the artistic qualities of the badge rather than the technical. It will of course boast a large number of RGB LEDs. It will basically be a glorified MP3 player with a few extra goodies. At least that's the plan right now.",
+   "image": "https://cdn.hackaday.io/images/resize/600x600/6522941658867305286.jfif",
+   "author": "",
+   "lists": [
+    "",
+    "Conference Badges",
+    "DCBadges",
+    "Tutorials"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/18508-mr-robot-badge",
+   "kind": "hackaday",
+   "title": "Mr Robot Badge",
+   "description": "'Reporting' is writing about what other people did. I wanted to do more than that. Over the last few years, the independent badge scene at DefCon has gone off the rails. This year, it exploded. This is how I came up with the idea, created, and deployed the Mr.RobotBadge at Def Con 25.",
+   "image": "https://cdn.hackaday.io/images/resize/600x600/7308771487741458254.png",
+   "author": "",
+   "lists": [
+    "",
+    "Conference Badges",
+    "Tutorials"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/186281-clack-clack-sao",
+   "kind": "hackaday",
+   "title": "Clack Clack SAO",
+   "description": "8 Side View LEDs light up bright as hell when you pres the \"Panic\" Button. Named \"Clack Clack\" after the Cherry MX Blue style switch used.",
+   "image": "https://cdn.hackaday.io/images/resize/600x600/6506891657289757011.jpg",
+   "author": "",
+   "lists": [
+    "",
+    "Simple Add-on badges",
+    "Tutorials"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/186283-the-child-sao",
+   "kind": "hackaday",
+   "title": "The Child SAO",
+   "description": "Uses 4 0807 Random Flashing RGBs to light up the area behind Grogu.",
+   "image": "https://cdn.hackaday.io/images/resize/600x600/8052301657291797213.jpg",
+   "author": "",
+   "lists": [
+    "",
+    "Simple Add-on badges",
+    "Tutorials"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/192676-cyberdeck-sao",
+   "kind": "hackaday",
+   "title": "Cyberdeck SAO",
+   "description": "Designed for the 2023 Supercon, this badge SAO honors the meteoric rise of real-life cyberdecks over the last several years.",
+   "image": "https://cdn.hackaday.io/images/resize/600x600/8462671698686921429.jpg",
+   "author": "",
+   "lists": [
+    "",
+    "Simple Add-on badges",
+    "Tutorials"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/196403-macintosh-sao",
+   "kind": "hackaday",
+   "title": "Macintosh SAO",
+   "description": "To celebrate the the 40th anniversary of the introduction of the original Macintosh, this SAO will... look like a Mac. And maybe act a little bit like one too.",
+   "image": "https://cdn.hackaday.io/images/resize/600x600/1195661730263350857.jpg",
+   "author": "",
+   "lists": [
+    "",
+    "Conference Badges",
+    "General",
+    "Simple Add-on badges",
+    "Tutorials"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/197581-etch-sao-sketch",
+   "kind": "hackaday",
+   "title": "Etch sAo Sketch",
+   "description": "Here it is! The Etch sAo Sketch you know you want. + 1.5\" inch 128x128 grayscale OLED screen (0x3C/3D SSD1327 with the NOTCHED PCB!)) + two trim pots with tiny 3D-printed caps + a 3-axis accelerometer (0x18/19 LIS3DH with 3 analog inputs... 0.8 to 1.6 Volts usable...) The OLED version is first. All of the features will be natively accessible to a badge with I2C. I'm particularly happy with the \"alignment spheres\" - look closely for those. They serve to align the frame and display PCBs. Both boards lined up nicely on the first try! Firmware to work with Etch sAo Sketch: https://github.com/ageppert/SAO_Etch_sAo_Sketch/tree/main/Firmware There are a lot more details and pictures in the project logs. The ePaper version will come later...",
+   "image": "https://cdn.hackaday.io/images/resize/600x600/8625281728913391740.jpeg",
+   "author": "",
+   "lists": [
+    "",
+    "Favorites",
+    "Simple Add-on badges",
+    "Tutorials"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/197669-video-button-sao",
+   "kind": "hackaday",
+   "title": "Video Button SAO",
+   "description": "Taking a tiny WaveShare display with built-in RP2040 and turning it into a Simple Add-On",
+   "image": "https://cdn.hackaday.io/images/resize/600x600/1815071730526613311.jpg",
+   "author": "",
+   "lists": [
+    "",
+    "Simple Add-on badges",
+    "Tutorials"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/197803-han-saolo",
+   "kind": "hackaday",
+   "title": "Han SAOlo",
+   "description": "Inspired by a cybertruck simple add-on, this Han Solo simple add-on uses exposed HASL for art and the silkscreen for a 3D effect.",
+   "image": "https://cdn.hackaday.io/images/resize/600x600/3103491727415773193.jpg",
+   "author": "",
+   "lists": [
+    "",
+    "Conference Badges",
+    "Dave's Badges + Simple Add-Ons",
+    "Simple Add-on badges",
+    "Tutorials"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/197854-vectrex-sao",
+   "kind": "hackaday",
+   "title": "Vectrex SAO",
+   "description": "My first SAO, a mini playable Vectrex!",
+   "image": "https://cdn.hackaday.io/images/resize/600x600/961641725833437567.png",
+   "author": "",
+   "lists": [
+    "",
+    "Conference Badges",
+    "Simple Add-on badges",
+    "Tutorials",
+    "Video Games"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/197952-the-jolly-tagger-sao",
+   "kind": "hackaday",
+   "title": "The Jolly Tagger SAO",
+   "description": "A important thing at a con is to meet new people and exchange contact data. And what easier way to do that is to just put your contact data/links on an NFC tag? But just slapping a sticker tag on a cutout would be boring. So by following the scientifically proven \"i have no idea what im doing\" method, i try to make this SAO using a NFC-Tag IC and a PCB trace as a coil. The data can either be written using an NFC-app or I2C. The eyes are lit up by an PWM input on the GPIO. And also after the con, you can just desolder the connector and use it as a keychain pendant or button pin and keep the NFC function ; ) Also: shiny golden ENIG \ud83d\ude0d This design however is far from perfect (at least in my POV) but i learned a lot and thats always good. So this might be the final version for the contest, but i really want to move on to fix a few mistakes (see my last LOG entry)",
+   "image": "https://cdn.hackaday.io/images/resize/600x600/3689701728313210577.jpg",
+   "author": "",
+   "lists": [
+    "",
+    "Conference Badges",
+    "Simple Add-on badges",
+    "Tutorials"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/198001-tars-sao",
+   "kind": "hackaday",
+   "title": "TARS SAO",
+   "description": "Interstellar was not the movie I expected, but I loved the robots. After working on the Han Solo in Carbonite Add-on, designing this PCB felt like the right step and is also the most elaborate add-on I made for Supercon 2024. One of the earliest add-on idea I had, was to make a tamagotchi like device, interactive on its own and with some capabillities I can expand on, long after I'm back from Supercon. The RP2040-tiny board has the perfect surface mount footprint for this, the display has a high resolution for its size. So now there is a tamagotchi sized TARS batch, that can see all your I2C sensors and has its own QUIIC I2C port for extensions.",
+   "image": "https://cdn.hackaday.io/images/resize/600x600/9890281728081258388.jpg",
+   "author": "",
+   "lists": [
+    "",
+    "Dave's Badges + Simple Add-Ons",
+    "Simple Add-on badges",
+    "Tutorials"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/198045-sao-speak-and-spell",
+   "kind": "hackaday",
+   "title": "SAO Speak and Spell",
+   "description": "This is my first board design and my first SAO all in one project. With lots of coaching from my brother Andy Geppert (Core64 guy) I am struggling through the process. I love the Speak & Spell form factor and what it represents in early computing. I have a few other projects on the list related to Speak & Spell form factor so this made a lot of sense for an SAO.",
+   "image": "https://cdn.hackaday.io/images/resize/600x600/7843961728606753825.png",
+   "author": "",
+   "lists": [
+    "",
+    "Simple Add-on badges",
+    "Tutorials"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/198109-sao-lora-walkie-talkie",
+   "kind": "hackaday",
+   "title": "SAO Lora Walkie Talkie",
+   "description": "An adapter that accepts a Reyax RYLR998 Transceiver to easily enable wireless serial communication from an SAO using the GPIO pins. It is made to look like an retro walkie talkie. Possibly add LEDs to show the actual tx/rx activity on the lines (V2). Lora is amazing technology and very accessible requiring only simple AT commands over serial to send data. Hoping to have a few at SuperCon 2024 to get badges talking. Coming to an SAO port near you...",
+   "image": "https://cdn.hackaday.io/images/resize/600x600/4034021728351330773.png",
+   "author": "",
+   "lists": [
+    "",
+    "Conference Badges",
+    "Featured Projects",
+    "Simple Add-on badges",
+    "Tutorials"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/198165-badge-tag-nfc-sao",
+   "kind": "hackaday",
+   "title": "Badge Tag NFC SAO",
+   "description": "This simple add-on that expands the badge it's mounted to with some of the traditional badge functionality, like eg. showing a name and possibly providing contact details or similar. The add on sports an NFC tag chip (the NXP NTAG I2C Plus) with 2K of memory and it has the capability to be read with something like a smartphone, without having power provided, as enough energy is harvested from the reader, to operate the NFC chip. If connected to a badge, the same 2K memory can also be accessed via I2C.",
+   "image": "https://cdn.hackaday.io/images/resize/600x600/7729671729000764725.jpg",
+   "author": "",
+   "lists": [
+    "",
+    "Simple Add-on badges",
+    "Tutorials"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/198225-supercon-2024-smd-challenge-sao-cursed",
+   "kind": "hackaday",
+   "title": "Supercon 2024 SMD Challenge SAO (Cursed)",
+   "description": "In honor of the focus on Simple Add-Ons (SAOs) for the 2024 Hackaday Supercon, this is a special version of the SMD Challenge PCB that drops the CR2032 battery in favor of an SAO connector. Finally, you can proudly wear your completed SMD Challenge entry for everyone to see. Or at least, that was the idea.",
+   "image": "https://cdn.hackaday.io/images/resize/600x600/3456821760032896302.jpg",
+   "author": "",
+   "lists": [
+    "Tutorials"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/198256-lollipop-sao-with-nfc",
+   "kind": "hackaday",
+   "title": "Lollipop SAO with NFC",
+   "description": "M24LR64E based SAO derived from the Teardown 2019 Badge.from https://upverter.com/design/gsteiert/teardown2019/ Antenna generated using https://neurotech-hub.github.io/KiCad-Antenna-Generator/",
+   "image": "https://cdn.hackaday.io/images/resize/600x600/5621391728051673095.jpeg",
+   "author": "",
+   "lists": [
+    "",
+    "Conference Badges",
+    "Simple Add-on badges",
+    "Tutorials"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/198301-hack-man-sao",
+   "kind": "hackaday",
+   "title": "Hack-Man SAO",
+   "description": "Hack-Man is a Pac-Man themed SAO with a number of operation modes.",
+   "image": "https://cdn.hackaday.io/images/resize/600x600/5984391728234101167.jpg",
+   "author": "",
+   "lists": [
+    "",
+    "Conference Badges",
+    "Simple Add-on badges",
+    "Tutorials"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/198439-metamer-sao",
+   "kind": "hackaday",
+   "title": "Metamer SAO",
+   "description": "A SAO with all the LEDs to explain how metamerism works! Instead of simple RGB color mixing, this thing can mix-n-match 16 unique spectra to make that perfect color you've been looking for.",
+   "image": "https://cdn.hackaday.io/images/resize/600x600/1741851729792614037.jpg",
+   "author": "",
+   "lists": [
+    "",
+    "Simple Add-on badges",
+    "Tutorials"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/198447-hubble-sao",
+   "kind": "hackaday",
+   "title": "Hubble SAO",
+   "description": "SAO for Supercon 8 (2024)",
+   "image": "https://cdn.hackaday.io/images/resize/600x600/6988001728862845480.png",
+   "author": "",
+   "lists": [
+    "",
+    "Simple Add-on badges",
+    "Tutorials"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/198458-record-scratch-sao",
+   "kind": "hackaday",
+   "title": "Record Scratch SAO",
+   "description": "This SAO has: - A RP2040 MCU - 4 MB flash - A MAX98357A I2S amplifier - 4 capacitive touch pads - A Teeny-weeny speaker - A USB Type-C receptacle (data only) - A Circuitpython fork (lol) - An addressable RGB LED - A debug header - An ON/OFF switch. Yes, this SAO is highly optimized for consuming power. To top it all of, the capacitive touch pads made it necessary to route the entire design on a single layer. The pads cover the entire front layer of the design, so any vias would short to the pads. **Record scratch** Yup, that's me. You're probably wondering how I ended up in this situation. Well, to understand that, we need to go back to where this all started... It was just another ordinary Tuesday morning, or at least, that\u2019s what I thought. Ok, I'll stop the meme before you stop reading. The story about the SAO *does* continue in the project logs though",
+   "image": "https://cdn.hackaday.io/images/resize/600x600/1404961728933236617.JPG",
+   "author": "",
+   "lists": [
+    "",
+    "Simple Add-on badges",
+    "Tutorials"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/198466-awesome-mix-vol-1",
+   "kind": "hackaday",
+   "title": "Awesome Mix Vol. 1",
+   "description": "This is an SAO project that is focused on demonstrating badge-to-SAO I2C communication, with a goal of providing a framework for how conference badges can activate SAO functionality and interact with SAOs without prior knowledge of their featureset.",
+   "image": "https://cdn.hackaday.io/images/resize/600x600/618171728974954710.png",
+   "author": "",
+   "lists": [
+    "",
+    "Simple Add-on badges",
+    "Tutorials"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/198497-saop",
+   "kind": "hackaday",
+   "title": "SAOP",
+   "description": "THE SAOP LOVES YOU",
+   "image": "https://cdn.hackaday.io/images/resize/600x600/5073251729059591576.png",
+   "author": "",
+   "lists": [
+    "",
+    "Simple Add-on badges",
+    "Tutorials"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/198535-flames",
+   "kind": "hackaday",
+   "title": "Flames",
+   "description": "Made in haste, just like the real thing. Shoehorned in available parts to save cost, just like the real thing. QC is poor, just like the real thing. Has a bolt that can fall out, just like the real thing. Presents fire, just like the real thing. Is not fatal. Yet. We'll remember the lives lost due to mismanagement and greed Code and resources at https://basic.truecontrol.org - click on Flames",
+   "image": "https://cdn.hackaday.io/images/resize/600x600/6288641729567524450.jpg",
+   "author": "",
+   "lists": [
+    "",
+    "Simple Add-on badges",
+    "Tutorials"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/198536-gat-nametag-sc8",
+   "kind": "hackaday",
+   "title": "GAT Nametag SC8",
+   "description": "This is a small OLED nametag that aims to present your name in a dynamic way, with configurable edge RGBLED lighting to attract attention. By default, the letters of your name are kept always upright with respect to the ground. Alternatively, different dynamic name rendering effects can be used, such as wiggling letters or demoscene waves. You will also be able to edit a virtual contact card, and synchronize this card with people you meet over infrared and possibly BLE. Very complete on-board menu allows you to configure and customize your nametag. This wasn't intended to be a last minute project but ended up being one... Code and resources at https://basic.truecontrol.org - click on GAT Nametag SC8",
+   "image": "https://cdn.hackaday.io/images/resize/600x600/1018411730094487713.jpeg",
+   "author": "",
+   "lists": [
+    "",
+    "Simple Add-on badges",
+    "Tutorials"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/198571-test-o-the-test-robot-addon",
+   "kind": "hackaday",
+   "title": "TEST-O the Test Robot Addon",
+   "description": "This is TEST-O: the Test Robot. TEST-O is a badge addon that can be used to test diodes, LEDs, and continuity. TEST-O can also display LED lightshows which are configured by the front knobs. If there is no badge handy to host TEST-O, use the built-in CR2032 battery. Originally released at Hackaday Supercon 7. TEST-O is safe to use on low voltage (1.2V or higher) circuits in continuity test mode. In diode test mode, current is limited to about 2mA. Manual, schematic, code can be found at https://basic.truecontrol.org - click on TEST-O",
+   "image": "https://cdn.hackaday.io/images/resize/600x600/5807451729566938208.jpg",
+   "author": "",
+   "lists": [
+    "",
+    "Simple Add-on badges",
+    "Tutorials"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/198892-sao-digital-multimeter",
+   "kind": "hackaday",
+   "title": "SAO Digital Multimeter",
+   "description": "This is a digital multimeter, with an SAO connector on the back, mode selection knob and test lead connections on the front. Features (implemented): - Measure supply input voltage (from the badge) - GPIO info (read, digital + analog) - LED/Diode test - Continuity test - Resistance measurement Features (planned): - I2C Tester - GPIO info (write, digital/PWM)",
+   "image": "https://cdn.hackaday.io/images/resize/600x600/1114971729598364989.jpg",
+   "author": "",
+   "lists": [
+    "",
+    "Controls Engineer's Pal",
+    "General",
+    "Projects",
+    "Simple Add-on badges",
+    "Tutorials",
+    "otros"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/198918-duckglow-sao",
+   "kind": "hackaday",
+   "title": "duckGLOW SAO",
+   "description": "duckGLOW is an SAO with a glowing rubber duck, lit up by an RGB or UV LED, controllable over I2C. It all started with a small rubber duck that vividly fluoresced under black-light. Then I noticed, that the hole on the bottom, which usually holds a whistle, has the perfect size for a 5mm LED. LEDs are the main ingredient of SAOs, so this project was born and the rubber duckies multiplied.",
+   "image": "https://cdn.hackaday.io/images/resize/600x600/4461131729450935222.jpg",
+   "author": "",
+   "lists": [
+    "",
+    "Conference Badges",
+    "Simple Add-on badges",
+    "Tutorials"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/198924-featuring-you",
+   "kind": "hackaday",
+   "title": "Featuring You!",
+   "description": "For some reason many super cool conference badges are missing a place to write your name - this SAO solves that problem. It's a giant flashing red arrow that points up at you while you're wearing the badge and has space to write your name. I wasn't originally planning on putting together another SAO for Supercon this year - but my friend had other plans and talked me into putting one together. You can see his awesome SAO here (it's super cool): https://hackaday.io/project/198439-metamer-sao I didn't have much time - so I needed the design to be entirely manufacturable by JLCPCB's economic assembly service, the design had to be simple, and the circuit needed to be somewhat analog. I am speaking on analog design at Supercon (you should come see my talk), so I figured I shouldn't show up with a microcontroller on my SAO. One benefit of designing a simple analog SAO is it's cheap! If you see me at Supercon come say hi I will give you one.",
+   "image": "https://cdn.hackaday.io/images/resize/600x600/6354861729484211973.jpg",
+   "author": "",
+   "lists": [
+    "",
+    "Simple Add-on badges",
+    "Tutorials"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/198943-sao-infinity-mirror",
+   "kind": "hackaday",
+   "title": "SAO Infinity Mirror",
+   "description": "Infinity mirror SAO for Supercon 2024",
+   "image": "https://cdn.hackaday.io/images/resize/600x600/1389241730160194554.jpg",
+   "author": "",
+   "lists": [
+    "",
+    "Conference Badges",
+    "Featured Projects",
+    "Tutorials",
+    "otros"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/198974-skull-of-fate-sao",
+   "kind": "hackaday",
+   "title": "Skull of Fate SAO",
+   "description": "Design and Features The Skull of Fate SAO is a modern take on a tarot card inspired by ancient Greek mythology. The Moirai \u2014also known as the Fates\u2014were the personifications of destiny. They were three sisters: Clotho (the spinner), Lachesis (the allotter), and Atropos (the inevitable, a metaphor for death). The Skull of Fate represents Atropos, providing you with a unique tarot reading about the future. Each reading is an interpretation of the cards and their meaning from the original 78 card Rider Waite Tarot deck. The card features original artwork, tarot readings, and LED animations. The skull has two modes, the default mode after turning on allows you to cycle through eye animations with the left button, and optionally change the color of the LEDs with the right button. Some LED eye modes are special, and change based on the accelerometer or microphone input, to be position and sound reactive.",
+   "image": "https://cdn.hackaday.io/images/resize/600x600/778781731263780438.jpg",
+   "author": "",
+   "lists": [
+    "",
+    "Featured Projects",
+    "General",
+    "Simple Add-on badges",
+    "Tutorials"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/198996-power-slug-sao",
+   "kind": "hackaday",
+   "title": "Power Slug SAO",
+   "description": "If anyone has played Satisfactory, they're probably familiar with the blue, yellow, or magenta glowing power slugs. Well I kept meaning to make an SAO for supercon 8, but put it off, then the Satisfactory 1.0 version released and I lost all time. So using my latest obsession I cranked out this simple SAO. It's just a through hole RGB LED controlled by an attiny1614, with a 3d printed hollow translucent petg slug mounted on the led.",
+   "image": "https://cdn.hackaday.io/images/resize/600x600/5521211729737392312.jpg",
+   "author": "",
+   "lists": [
+    "",
+    "Simple Add-on badges",
+    "Tutorials"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/199100-touchwheelsao",
+   "kind": "hackaday",
+   "title": "TouchwheelSAO",
+   "description": "Capacitive touchweel SAO for Hackaday Supercon 2024",
+   "image": "https://cdn.hackaday.io/images/resize/600x600/8261111730566271429.jpg",
+   "author": "",
+   "lists": [
+    "",
+    "Simple Add-on badges",
+    "Tutorials"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/199181-skate-sao",
+   "kind": "hackaday",
+   "title": "Skate SAO",
+   "description": "this is a proof of concept for using fingerboard trucks on PCBs",
+   "image": "https://cdn.hackaday.io/images/resize/600x600/6580191731092495806.png",
+   "author": "",
+   "lists": [
+    "",
+    "Dave's Badges + Simple Add-Ons",
+    "Simple Add-on badges",
+    "Tutorials"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/199296-mysterio-sao",
+   "kind": "hackaday",
+   "title": "Mysterio SAO",
+   "description": "Mysterio is an enemy of Spider-Man, big ominous glas orb sits on top of his head(?) - perfect for some LEDs to shine through the PCB material",
+   "image": "https://cdn.hackaday.io/images/resize/600x600/9904451732637451766.png",
+   "author": "",
+   "lists": [
+    "",
+    "Dave's Badges + Simple Add-Ons",
+    "Simple Add-on badges",
+    "Tutorials"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/202615-saout-of-this-world",
+   "kind": "hackaday",
+   "title": "SAOut Of This World",
+   "description": "An out of this world SAO!",
+   "image": "https://cdn.hackaday.io/images/resize/600x600/9425881741802087353.png",
+   "author": "",
+   "lists": [
+    "Tutorials"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/25150-the-official-hackaday-defcon-25-badge",
+   "kind": "hackaday",
+   "title": "The Official Hackaday DEFCON 25 Badge",
+   "description": "Low effort yet high quality! Now as a shared project on OSH Park: https://oshpark.com/shared_projects/A3QUDyAk [https://oshpark.com/shared_projects/A3QUDyAk]",
+   "image": "https://cdn.hackaday.io/images/resize/600x600/7294731497460294051.jpg",
+   "author": "",
+   "lists": [
+    "",
+    "Conference Badges",
+    "Tutorials"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/28330-sloth-badge",
+   "kind": "hackaday",
+   "title": "sloth badge",
+   "description": "there are some nifty tricks hidden in the bearables badges, a cool menu etc. I want to replicate the behaviour with an ATTINY13A.",
+   "image": "https://cdn.hackaday.io/images/resize/600x600/8483201511540012842.png",
+   "author": "",
+   "lists": [
+    "",
+    "Conference Badges",
+    "Dave's Badges + Simple Add-Ons",
+    "Tutorials"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/28389-andxor-dc26-badge",
+   "kind": "hackaday",
+   "title": "AND!XOR DC26 Badge",
+   "description": "A hackable IoT conference badge, featuring a full color screen, blinky lights, games, puzzles, and easter eggs.",
+   "image": "https://cdn.hackaday.io/images/resize/600x600/208961526005402392.jpg",
+   "author": "",
+   "lists": [
+    "",
+    "Conference Badges",
+    "Tutorials"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/52950-shitty-add-ons",
+   "kind": "hackaday",
+   "title": "Shitty Add-Ons",
+   "description": "Shitty Add-Ons are a community-derived standard for adding little bits of electronic bling to conference badges. If an electronic conference badge supports the Shitty Add-On standard, it will be possible to add your own small PCBs to add more lights, LEDs, blinky, and Blockchain to your badge.",
+   "image": "https://cdn.hackaday.io/images/resize/600x600/4800701536892634841.png",
+   "author": "",
+   "lists": [
+    "",
+    "Conference Badges",
+    "Shitty Add-Ons (2018)",
+    "Tutorials"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/project/9064-andxor-defcon-24-badge",
+   "kind": "hackaday",
+   "title": "AND!XOR DEFCON 24 Badge",
+   "description": "We're building our own electronic badge. Goal is to provide some great hardware and a free tool chain for easy hacking. Basic features include LEDs, RF, and an OLED screen plus anything else people want to add.",
+   "image": "https://cdn.hackaday.io/images/resize/600x600/1272261467263229078.jpg",
+   "author": "",
+   "lists": [
+    "",
+    "Conference Badges",
+    "Tutorials"
+   ]
+  },
+  {
+   "url": "https://hackaday.io/twinkletwinkie",
+   "kind": "other",
+   "title": "TwinkleTwinkie's Profile | Hackaday.io",
+   "description": "I collect spores, molds and fungus.",
+   "image": "https://cdn.hackaday.io/images/2177961552327205400.JPG"
+  },
+  {
+   "url": "https://hackerpager.net/",
+   "kind": "other",
+   "title": "The Hacker Pager | exploitee.rs",
+   "description": "Wireless messenger and LoRa radio multitool. Retro-stylish, open source, and packed with features.",
+   "image": "https://hackerpager.net/embed.jpg"
+  },
+  {
+   "url": "https://mastodon.social/@simenzhor/113266947534371773",
+   "kind": "other",
+   "title": "Simen E. S\u00f8rensen: \"The absolute madlads at PCBWay went full send and\u2026\" - Mastodon",
+   "description": "",
+   "image": ""
+  },
+  {
+   "url": "https://minibadge.wiki/",
+   "kind": "other",
+   "title": "Minibadge Wiki | Home",
+   "description": "",
+   "image": ""
+  },
+  {
+   "url": "https://oshpark.com/profiles/davedarko",
+   "kind": "other",
+   "title": "OSH Park ~   Shared Projects by davedarko",
+   "description": "",
+   "image": ""
+  },
+  {
+   "url": "https://podcast.firewallsdontstopdragons.com/2022/07/04/necessary-chaos/",
+   "kind": "other",
+   "error": "HTTP Error 403: Forbidden"
+  },
+  {
+   "url": "https://systemoverlord.com/projects/badgelife101",
+   "kind": "other",
+   "error": "HTTP Error 301: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error messag"
+  },
+  {
+   "url": "https://uberflux.com/maker/000000widow",
+   "kind": "other",
+   "title": "Brooke's Bytes",
+   "description": "Brooke's Bytes",
+   "image": "https://dkzin7cpgkz7i.cloudfront.net/makers/images/884257d1-638c-4c4c-bf5f-2295626eb970.webp"
+  },
+  {
+   "url": "https://uberflux.com/maker/bud-lightbeer",
+   "kind": "other",
+   "title": "bud-lightbeer",
+   "description": "bud-lightbeer",
+   "image": "https://dkzin7cpgkz7i.cloudfront.net/makers/images/121490b2-2d09-4c15-b82f-a8fbdd6a28af.webp"
+  },
+  {
+   "url": "https://uberflux.com/maker/coryallegory",
+   "kind": "other",
+   "title": "coryallegory",
+   "description": "coryallegory",
+   "image": ""
+  },
+  {
+   "url": "https://uberflux.com/product/DLPHI-SAO-LUNA",
+   "kind": "other",
+   "error": "HTTP Error 404: Not Found"
+  },
+  {
+   "url": "https://uberflux.com/product/HAMST-DCZIA-2026",
+   "kind": "other",
+   "title": "DcZia Mk9",
+   "description": "DCZia Mk9 Badge **Pre-order \u2014 Badges are getting final assembly and our programmers are hard at work getting the code into shape. The DCZia Mk9 is a fully functional 3\u00d73 mechanical macropad badge. Ni\u2026",
+   "image": "https://dkzin7cpgkz7i.cloudfront.net/products/images/b227b30d-d055-436e-b153-84dcb15715d2-large.webp"
+  },
+  {
+   "url": "https://uberflux.com/product/HCK-hfsdr",
+   "kind": "other",
+   "title": "hfsdr",
+   "description": "We're bringing hfsdr badge from Singapore to DEFCON 34!!! It's a mini solder kit (you can solder at DEFCON) where you can solder on SMA Connector Functionality Can connect to a webUI for configuratio\u2026",
+   "image": "https://dkzin7cpgkz7i.cloudfront.net/products/images/a1da12d0-b5ee-4a0e-b87b-a9b35455d4c8-large.webp"
+  },
+  {
+   "url": "https://uberflux.com/product/NIKO-CLIPPY",
+   "kind": "other",
+   "title": "Clip-Boy",
+   "description": "The Clip-Boy: Your companion in the digital wasteland. Wrist-mounted ESP32-S3 with a 2.8\" capacitive touchscreen loaded with Wi-Fi and Bluetooth analysis tools as well as customizable LEDs.",
+   "image": "https://dkzin7cpgkz7i.cloudfront.net/products/images/da752cc6-c163-4e17-a849-ebfed1516810-large.webp"
+  },
+  {
+   "url": "https://uberflux.com/product/TW0N-breadbadge",
+   "kind": "other",
+   "title": "Breadbadge",
+   "description": "Badge by day Breadboard prototyping tool by night Hardware RP2354A main MCU INA3221 voltage, current, and power monitor (I2C) ST7789 SPI display 6 WS2812 RGB LEDs Navigation joystick and back button\u2026",
+   "image": "https://dkzin7cpgkz7i.cloudfront.net/products/images/e021bc34-94e4-4936-a746-1530d0424d68-large.webp"
+  },
+  {
+   "url": "https://www.ebay.com/itm/145940224933",
+   "kind": "other",
+   "error": "HTTP Error 403: Forbidden"
+  },
+  {
+   "url": "https://www.ebay.com/itm/145940255791",
+   "kind": "other",
+   "error": "HTTP Error 403: Forbidden"
+  },
+  {
+   "url": "https://www.ebay.com/itm/404966458200",
+   "kind": "other",
+   "error": "HTTP Error 403: Forbidden"
+  },
+  {
+   "url": "https://www.h4irl1n3-m0gg3r5.com/",
+   "kind": "other",
+   "title": "H4IRL1N3 M0GG3R5 // DC34 BADGE DROP",
+   "description": "Zombie Badge. Survivor Badge. DEFCON 34. The CTF lives in the firmware.",
+   "image": ""
+  },
+  {
+   "url": "https://www.lcsc.com/product-image/C492445.html",
+   "kind": "other",
+   "title": "XFCN BH254VS-6P Pinout Diagram & Footprint Diagram | LCSC Electronics",
+   "description": "View XFCN BH254VS-6P Pinout Diagram and Footprint Diagram at LCSC Electronics. Access precise pin configurations and footprint designs for your electronic components.",
+   "image": "https://static.lcsc.com/feassets/pc/images/logo/logo.png"
+  },
+  {
+   "url": "https://www.pcbway.com/project/member/",
+   "kind": "other",
+   "title": "'s Profile - Engineer - PCBWay Community",
+   "description": "",
+   "image": ""
+  },
+  {
+   "url": "https://www.pcbway.com/project/shareproject/2018_CL4P_TR4P_SAO.html",
+   "kind": "other",
+   "title": "2018 CL4P_TR4P SAO - Share Project - PCBWay",
+   "description": "Basic 4-PIN connector following the SAO standard created by one of the owners of HackADay uses I2C to communicate with an mcp23017 chip to handle lights that are affixed to the face of this SAO whilst...",
+   "image": "https://pcbwayfile.s3-us-west-2.amazonaws.com/project/19/06/22/0028135817056.png"
+  },
+  {
+   "url": "https://www.pcbway.com/project/shareproject/Brainy___The_Brain_badge.html",
+   "kind": "other",
+   "title": "Brainy - The Brain badge - Share Project - PCBWay",
+   "description": "Brainy is a beautiful PCB pin badge, it is shaped like a brain and it has a funny face with a band-aid. Wear it and shine everywhere!It has 8 charlieplexed  white Led's, 6 on the front and 2 on the ba...",
+   "image": "https://pcbwayfile.s3-us-west-2.amazonaws.com/project/20/04/20/0452209514210.png"
+  },
+  {
+   "url": "https://www.pcbway.com/project/shareproject/DEFCON_27_Avocato_Shitty_Add_On.html",
+   "kind": "other",
+   "title": "DEFCON 27 Avocato Shitty Add-On - Share Project - PCBWay",
+   "description": "This was my first attempt at a more complicated SAO. It uses an ATTiny48 to drive 24 LEDs and a button that switches between 5 different blink modeshttps://youtu.be/40Zf4UEdGXA",
+   "image": "https://pcbwayfile.s3-us-west-2.amazonaws.com/project/19/10/16/2006321865213.png"
+  },
+  {
+   "url": "https://www.pcbway.com/project/shareproject/DEF_CON_27_Mooncake_Shitty_Add_On.html",
+   "kind": "other",
+   "title": "DEF CON 27 Mooncake Shitty Add-On - Share Project - PCBWay",
+   "description": "This was my first attempt to make a PCB and learn Kicad. I decided to make a simple SAO for DEF CON to learn the basics. With the help of TwinkleTwinkie's instructional videos and the ease of ordering...",
+   "image": "https://pcbwayfile.s3-us-west-2.amazonaws.com/project/19/09/08/1749156911688.png"
+  },
+  {
+   "url": "https://www.pcbway.com/project/shareproject/Flux_Capacitor_PCB_Badge.html",
+   "kind": "other",
+   "title": "Flux Capacitor PCB Badge - Share Project - PCBWay",
+   "description": "Hey Everyone what's up!So this is my \"FLUX Capacitor\" PCB Badge which is a replica of the actual Flux Capacitor which was in back to the future movie.The Flux Capacitor was the core component of Dr. E...",
+   "image": "https://pcbwayfile.s3-us-west-2.amazonaws.com/web/21/07/30/1554047861767.png"
+  },
+  {
+   "url": "https://www.pcbway.com/project/shareproject/Furbymin_Defcon_27_SOA.html",
+   "kind": "other",
+   "title": "Furbymin Defcon 27 SOA - Share Project - PCBWay",
+   "description": "Aside from being a dual theremin, it features several touch capacitive pads to modify the sound during use. It is Area 51 themed, with a meme about the raid on the backside and features a lobotomized/...",
+   "image": "https://pcbwayfile.s3-us-west-2.amazonaws.com/project/19/11/24/0035087112121.png"
+  },
+  {
+   "url": "https://www.pcbway.com/project/shareproject/Ghost_Badge_made_from_555_Timer_IC.html",
+   "kind": "other",
+   "title": "Ghost Badge made from 555 Timer IC - Share Project - PCBWay",
+   "description": "Hey Everyone, what's up!Okay, so this is the Ghost badge that I made for this upcoming Halloween.It's a simple 555 timer IC-based Bi Flasher setup which is powered by a CR2032 cell.The goal here was t...",
+   "image": "https://pcbwayfile.s3-us-west-2.amazonaws.com/web/21/08/30/1403598291575.png"
+  },
+  {
+   "url": "https://www.youtube.com/watch",
+   "kind": "other",
+   "title": "YouTube",
+   "description": "Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.",
+   "image": "https://www.youtube.com/img/desktop/yt_1200.png"
+  },
+  {
+   "url": "https://youtu.be/e6dmGupBsJk",
+   "kind": "other",
+   "title": "DEF CON 33 - So you want to make a badge? Badge Creation 101 - Jeff Geisperger - YouTube",
+   "description": "Jeff Geisperger is a security engineer with 15 years of experience specializing in hardware and device security. His work ranges from low-level firmware and ...",
+   "image": "https://i.ytimg.com/vi/e6dmGupBsJk/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGFsgZShNMA8=&rs=AOn4CLBQn6lDxxXWx30V0TthM9oZEsVQ9A"
+  }
+ ]
+}
