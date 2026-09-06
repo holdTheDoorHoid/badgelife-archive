@@ -1,0 +1,182 @@
+---
+layout: default
+---
+{%- assign ev = site.data.events[page.event] -%}
+{%- assign base = site.baseurl -%}
+{%- assign look = page.look | default: empty -%}
+{%- assign tech = page.tech | default: empty -%}
+{%- assign get = page.get_one | default: empty -%}
+{%- assign make = page.make_your_own | default: empty -%}
+{%- assign tech_has = false -%}
+{%- if tech.mcu or tech.leds or tech.display or tech.battery or tech.sao_version or tech.power or tech.sao_i2c %}{% assign tech_has = true %}{% endif -%}
+{%- if tech.connectivity and tech.connectivity.size > 0 %}{% assign tech_has = true %}{% endif -%}
+{%- if tech.inputs and tech.inputs.size > 0 %}{% assign tech_has = true %}{% endif -%}
+{%- if tech.other and tech.other.size > 0 %}{% assign tech_has = true %}{% endif -%}
+{%- assign look_has = false -%}
+{%- if look.shape or look.size_mm or look.form_factor %}{% assign look_has = true %}{% endif -%}
+{%- if look.colors and look.colors.size > 0 %}{% assign look_has = true %}{% endif -%}
+{%- if look.themes and look.themes.size > 0 %}{% assign look_has = true %}{% endif -%}
+{%- if look.finish and look.finish.size > 0 %}{% assign look_has = true %}{% endif -%}
+<article class="badge-entry" data-entry-id="{{ page.id_slug | default: page.id }}">
+
+
+  <header class="badge-header">
+    <h1>{{ page.title }}</h1>
+    <div class="badge-chips">
+      <span class="chip chip-type chip-type-{{ page.type }}">{{ page.type | replace: '_', ' ' }}</span>
+      {%- if page.year and page.year != 0 %}<span class="chip">{{ page.year }}</span>{% endif -%}
+      {%- if get.availability and get.availability != 'unknown' %}<span class="chip chip-avail chip-avail-{{ get.availability }}">{{ get.availability | replace: '_', ' ' }}</span>{% endif -%}
+      {%- if make.open_source == true or make.open_source == 'yes' %}<span class="chip chip-oss">open source</span>{% elsif make.open_source == 'partial' %}<span class="chip chip-oss">partially open</span>{% endif -%}
+      {%- if page.research.status == 'stub' %}<span class="chip chip-stub" title="Only what the community sheet listed. Not yet researched.">unresearched stub</span>
+      {%- elsif page.research.status == 'researched' %}<span class="chip chip-researched" title="Researched from public sources but not independently verified.">researched</span>
+      {%- elsif page.research.status == 'verified' %}<span class="chip chip-verified">verified</span>{% endif -%}
+    </div>
+    {%- if page.summary and page.summary != '' %}<p class="badge-summary">{{ page.summary }}</p>{% endif -%}
+  </header>
+
+  {%- if page.images and page.images.size > 0 %}
+  <section class="badge-gallery">
+    {%- for img in page.images %}
+    <figure>
+      <a href="{{ img.file | relative_url }}"><img src="{{ img.file | relative_url }}" alt="{{ img.caption | default: page.title | escape }}" loading="lazy"></a>
+      <figcaption>
+        {%- if img.caption %}{{ img.caption }} — {% endif -%}
+        {%- if img.source %}<a href="{{ img.source }}" rel="nofollow">source</a>{% endif -%}
+        {%- if img.credit %}, credit: {{ img.credit }}{% endif -%}
+      </figcaption>
+    </figure>
+    {%- endfor %}
+  </section>
+  {%- endif %}
+
+  <div class="badge-grid">
+
+    <section class="badge-panel">
+      <h2 id="at-a-glance">At a glance</h2>
+      <dl>
+        {%- if page.makers and page.makers.size > 0 %}
+        <dt>Maker{% if page.makers.size > 1 %}s{% endif %}</dt>
+        <dd>{% for m in page.makers %}{% if m.url %}<a href="{{ m.url }}">{{ m.name }}</a>{% else %}{{ m.name }}{% endif %}{% if m.role %} ({{ m.role }}){% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}</dd>
+        {%- endif %}
+        <dt>Event</dt><dd><a href="{{ base }}/badges/{{ page.event }}/">{{ ev.name | default: page.event }}</a>{% if ev.dates %} · {{ ev.dates }}{% endif %}</dd>
+        <dt>Type</dt><dd>{{ page.type | replace: '_', ' ' }}</dd>
+        {%- if page.series %}<dt>Series</dt><dd>{{ page.series }}</dd>{% endif %}
+        {%- if page.functions and page.functions != '' %}<dt>What it does</dt><dd>{{ page.functions }}</dd>{% endif %}
+      </dl>
+    </section>
+
+    <section class="badge-panel">
+      <h2 id="how-to-get-one">How to get one</h2>
+      <dl>
+        {%- if get.price and get.price != '' %}<dt>Price</dt><dd>{{ get.price }}</dd>{% endif %}
+        {%- if get.quantity and get.quantity != '' %}<dt>Quantity made</dt><dd>{{ get.quantity }}</dd>{% endif %}
+        {%- if get.availability %}<dt>Availability</dt><dd>{{ get.availability | replace: '_', ' ' }}{% if get.availability_note %} — {{ get.availability_note }}{% endif %}</dd>{% endif %}
+        {%- if get.distribution and get.distribution.size > 0 %}<dt>Distributed via</dt><dd>{{ get.distribution | join: ', ' | replace: '_', ' ' }}</dd>{% endif %}
+        {%- if get.where and get.where != '' %}<dt>Where</dt><dd>{{ get.where }}</dd>{% endif %}
+        {%- assign stores = page.links | where: 'kind', 'store' %}
+        {%- if stores.size > 0 %}<dt>Storefront{% if stores.size > 1 %}s{% endif %}</dt><dd>{% for l in stores %}<a href="{{ l.url }}" rel="nofollow">{{ l.label | default: l.url }}</a>{% if l.archived %} (<a href="{{ l.archived }}" rel="nofollow" title="Wayback Machine snapshot">archived</a>){% endif %}{% unless forloop.last %}<br>{% endunless %}{% endfor %}</dd>{% endif %}
+      </dl>
+    </section>
+
+    <section class="badge-panel">
+      <h2 id="tech">Tech</h2>
+      <dl>
+        {%- if tech.mcu %}<dt>Microcontroller</dt><dd>{{ tech.mcu }}</dd>{% endif %}
+        {%- if tech.leds %}<dt>LEDs</dt><dd>{% if tech.leds.count %}{{ tech.leds.count }} × {% endif %}{{ tech.leds.type | default: 'LEDs' }}{% if tech.leds.note %} — {{ tech.leds.note }}{% endif %}</dd>{% endif %}
+        {%- if tech.display %}<dt>Display</dt><dd>{{ tech.display }}</dd>{% endif %}
+        {%- if tech.connectivity and tech.connectivity.size > 0 %}<dt>Connectivity</dt><dd>{{ tech.connectivity | join: ', ' }}</dd>{% endif %}
+        {%- if tech.inputs and tech.inputs.size > 0 %}<dt>Inputs</dt><dd>{{ tech.inputs | join: ', ' }}</dd>{% endif %}
+        {%- if tech.power %}<dt>Power</dt><dd>{{ tech.power }}</dd>{% endif %}
+        {%- if tech.battery %}<dt>Battery</dt><dd>{{ tech.battery }}</dd>{% endif %}
+        {%- if tech.sao_version %}<dt>SAO connector</dt><dd>{{ tech.sao_version }}{% if tech.sao_ports %} · {{ tech.sao_ports }} port{% if tech.sao_ports != 1 %}s{% endif %}{% endif %}</dd>{% endif %}
+        {%- if tech.sao_i2c %}<dt>SAO I²C</dt><dd>{{ tech.sao_i2c }}</dd>{% endif %}
+        {%- if tech.other and tech.other.size > 0 %}<dt>Other</dt><dd>{{ tech.other | join: ', ' }}</dd>{% endif %}
+        {%- unless tech_has %}<dd class="muted">No technical details recorded yet.</dd>{% endunless %}
+      </dl>
+    </section>
+
+    <section class="badge-panel">
+      <h2 id="look">Look</h2>
+      <dl>
+        {%- if look.colors and look.colors.size > 0 %}<dt>Colors</dt><dd>{{ look.colors | join: ', ' }}</dd>{% endif %}
+        {%- if look.shape %}<dt>Shape</dt><dd>{{ look.shape }}</dd>{% endif %}
+        {%- if look.themes and look.themes.size > 0 %}<dt>Themes</dt><dd>{% for t in look.themes %}<a class="tag" href="{{ base }}/badges/?theme={{ t | uri_escape }}">{{ t }}</a> {% endfor %}</dd>{% endif %}
+        {%- if look.size_mm %}<dt>Size</dt><dd>{{ look.size_mm | join: ' × ' }} mm</dd>{% endif %}
+        {%- if look.finish and look.finish.size > 0 %}<dt>Finish</dt><dd>{{ look.finish | join: ', ' }}</dd>{% endif %}
+        {%- if look.form_factor %}<dt>Form factor</dt><dd>{{ look.form_factor }}</dd>{% endif %}
+        {%- unless look_has %}<dd class="muted">No appearance details recorded yet.</dd>{% endunless %}
+      </dl>
+    </section>
+
+    <section class="badge-panel">
+      <h2 id="make-your-own">Make your own</h2>
+      <dl>
+        {%- if make.open_source %}<dt>Open source</dt><dd>{{ make.open_source }}{% if make.license %} · {{ make.license }}{% endif %}</dd>{% endif %}
+        {%- if make.hardware_url %}<dt>Hardware files</dt><dd><a href="{{ make.hardware_url }}">{{ make.hardware_url }}</a></dd>{% endif %}
+        {%- if make.firmware_url %}<dt>Firmware</dt><dd><a href="{{ make.firmware_url }}">{{ make.firmware_url }}</a></dd>{% endif %}
+        {%- if make.gerbers_url %}<dt>Gerbers</dt><dd><a href="{{ make.gerbers_url }}">{{ make.gerbers_url }}</a></dd>{% elsif make.gerbers == true %}<dt>Gerbers</dt><dd>available in the hardware repo</dd>{% endif %}
+        {%- if make.bom_url %}<dt>BOM</dt><dd><a href="{{ make.bom_url }}">{{ make.bom_url }}</a></dd>{% elsif make.bom == true %}<dt>BOM</dt><dd>available in the hardware repo</dd>{% endif %}
+        {%- if make.eda_tool %}<dt>Designed in</dt><dd>{{ make.eda_tool }}</dd>{% endif %}
+        {%- if make.fab_url %}<dt>Order boards</dt><dd><a href="{{ make.fab_url }}" rel="nofollow">{{ make.fab_url }}</a></dd>{% endif %}
+        {%- if make.notes %}<dt>Notes</dt><dd>{{ make.notes }}</dd>{% endif %}
+        {%- unless make.open_source or make.hardware_url or make.firmware_url %}<dd class="muted">No design files found yet. If you know where they live, <a href="{{ site.gh_edit_repository }}/issues/new?title=Design%20files%20for%20{{ page.title | uri_escape }}">tell us</a>.</dd>{% endunless %}
+      </dl>
+    </section>
+
+  </div>
+
+  {%- if page.links and page.links.size > 0 %}
+  <section class="badge-panel badge-links">
+    <h2 id="links">Links</h2>
+    <ul>
+      {%- for l in page.links %}
+      <li><span class="chip chip-kind">{{ l.kind | default: 'link' }}</span> <a href="{{ l.url }}" rel="nofollow">{{ l.label | default: l.url }}</a>{% if l.archived %} · <a href="{{ l.archived }}" rel="nofollow" title="Wayback Machine snapshot">archived copy</a>{% endif %}{% if l.note %} — {{ l.note }}{% endif %}</li>
+      {%- endfor %}
+    </ul>
+  </section>
+  {%- endif %}
+
+  {%- if page.contact and page.contact != empty %}
+  <section class="badge-panel badge-contact">
+    <h2 id="contact">Maker contact</h2>
+    <dl>
+      {%- if page.contact.discord %}<dt>Discord</dt><dd>{{ page.contact.discord }}</dd>{% endif %}
+      {%- if page.contact.handles and page.contact.handles.size > 0 %}<dt>Handles</dt><dd>{{ page.contact.handles | join: ', ' }}</dd>{% endif %}
+      {%- if page.contact.emails and page.contact.emails.size > 0 %}<dt>Email</dt><dd>{% for e in page.contact.emails %}<a href="mailto:{{ e }}">{{ e }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}</dd>{% endif %}
+      {%- if page.contact.raw and page.contact.raw.size > 0 %}<dt>Other</dt><dd>{{ page.contact.raw | join: '; ' }}</dd>{% endif %}
+    </dl>
+    <p class="muted small">Contact details are reproduced from the maker's own public listing on the community badge sheet. Makers: <a href="{{ site.gh_edit_repository }}/issues/new?title=Update%20contact%20for%20{{ page.title | uri_escape }}">ask us to change or remove them</a>.</p>
+  </section>
+  {%- endif %}
+
+  <section class="badge-body">
+    {{ content }}
+  </section>
+
+  {%- if page.notes and page.notes.size > 0 %}
+  <section class="badge-panel">
+    <h2 id="notes">Notes from the community sheet</h2>
+    <ul>{% for n in page.notes %}<li>{{ n }}</li>{% endfor %}</ul>
+  </section>
+  {%- endif %}
+
+  <footer class="badge-provenance">
+    <h2 id="sources">Sources &amp; provenance</h2>
+    <ul>
+      {%- for s in page.sources %}
+      <li>
+        {%- if s.kind == 'sheet' %}Community badge sheet for {{ site.data.events[s.event].name | default: s.event }}{% if s.row %}, row {{ s.row }}{% endif %}{% if s.updated %} (sheet updated {{ s.updated }}){% endif %}{% if site.data.events[s.event].sheet %} — <a href="{{ site.data.events[s.event].sheet }}">open sheet</a>{% endif %}
+        {%- elsif s.url %}<a href="{{ s.url }}" rel="nofollow">{{ s.title | default: s.url }}</a>{% if s.accessed %} (accessed {{ s.accessed }}){% endif %}{% if s.note %} — {{ s.note }}{% endif %}
+        {%- else %}{{ s.kind }}{% if s.note %} — {{ s.note }}{% endif %}{% endif -%}
+      </li>
+      {%- endfor %}
+    </ul>
+    <p class="muted small">
+      Research status: <strong>{{ page.research.status | default: 'stub' }}</strong>
+      {%- if page.research.confidence %} · confidence {{ page.research.confidence }}{% endif -%}
+      {%- if page.research.last_checked %} · last checked {{ page.research.last_checked }}{% endif -%}
+      {%- if page.research.notes %} · {{ page.research.notes }}{% endif %}.
+      Spotted an error or have more to add? <a href="{{ site.gh_edit_repository }}/issues/new?title=Correction%3A%20{{ page.title | uri_escape }}&body=Entry%3A%20{{ page.url | absolute_url | uri_escape }}">Open an issue</a> or <a href="{{ site.gh_edit_repository }}/edit/main/{{ page.path }}">edit this entry</a>.
+    </p>
+  </footer>
+</article>

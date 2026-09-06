@@ -1,0 +1,140 @@
+# Events that badges and SAOs are catalogued under.
+# Key = event id used in entry front matter (`event:`) and in _badges/<event>/ paths.
+# family groups events for filtering: defcon, supercon, bsides, camp, other.
+# Add new events here before adding entries for them.
+
+dc24:
+  name: DEF CON 24
+  short: DC24
+  year: 2016
+  family: defcon
+  dates: "August 4–7, 2016"
+  location: "Paris & Bally's, Las Vegas, NV"
+dc25:
+  name: DEF CON 25
+  short: DC25
+  year: 2017
+  family: defcon
+  dates: "July 27–30, 2017"
+  location: "Caesars Palace, Las Vegas, NV"
+dc26:
+  name: DEF CON 26
+  short: DC26
+  year: 2018
+  family: defcon
+  dates: "August 9–12, 2018"
+  location: "Caesars Palace & Flamingo, Las Vegas, NV"
+  notes: "The year Shitty Add-Ons (SAO v1) took off."
+dc27:
+  name: DEF CON 27
+  short: DC27
+  year: 2019
+  family: defcon
+  dates: "August 8–11, 2019"
+  location: "Paris, Bally's, Planet Hollywood & Flamingo, Las Vegas, NV"
+  notes: "First year of the SAO v1.69bis (6-pin) connector."
+dc28:
+  name: DEF CON 28 (Safe Mode)
+  short: DC28
+  year: 2020
+  family: defcon
+  dates: "August 6–9, 2020"
+  location: "Online (Safe Mode)"
+dc29:
+  name: DEF CON 29
+  short: DC29
+  year: 2021
+  family: defcon
+  dates: "August 5–8, 2021"
+  location: "Paris & Bally's, Las Vegas, NV (hybrid)"
+dc30:
+  name: DEF CON 30
+  short: DC30
+  year: 2022
+  family: defcon
+  dates: "August 11–14, 2022"
+  location: "Caesars Forum, Las Vegas, NV"
+  sheet: https://docs.google.com/spreadsheets/d/1cu99HozImdjNqTEM8iFsNzNswNw5De0Oe_hax3ywZ2U/edit?usp=sharing
+dc31:
+  name: DEF CON 31
+  short: DC31
+  year: 2023
+  family: defcon
+  dates: "August 10–13, 2023"
+  location: "Caesars Forum, Las Vegas, NV"
+  sheet: https://docs.google.com/spreadsheets/d/1ll9GVWq1jELk79OyfdalMrgccdF3AGo2qEQIxnKsXdY/edit?usp=sharing
+dc32:
+  name: DEF CON 32
+  short: DC32
+  year: 2024
+  family: defcon
+  dates: "August 8–11, 2024"
+  location: "Las Vegas Convention Center, Las Vegas, NV"
+  sheet: https://docs.google.com/spreadsheets/d/1POGyxIY4eBrXeD2hWqKz8fm9uuuy7yG1XwhVF1pnmzI/edit?usp=sharing
+dc33:
+  name: DEF CON 33
+  short: DC33
+  year: 2025
+  family: defcon
+  dates: "August 7–10, 2025"
+  location: "Las Vegas Convention Center, Las Vegas, NV"
+  sheet: https://docs.google.com/spreadsheets/d/1_eJnHTbvm-uhvslkRayfEJ99Z5agVZCl1GPqbFqwMFg/edit?usp=sharing
+dc34:
+  name: DEF CON 34
+  short: DC34
+  year: 2026
+  family: defcon
+  dates: "August 6–9, 2026"
+  location: "Las Vegas Convention Center, Las Vegas, NV"
+  sheet: https://docs.google.com/spreadsheets/d/1wQ6J0tJiVCPgppxiPg_mM6mS6Il-jm3Ez1fj3a-7XRs/edit?usp=sharing
+
+supercon-2017:
+  name: Hackaday Superconference 2017
+  short: Supercon 2017
+  year: 2017
+  family: supercon
+  location: "Pasadena, CA"
+supercon-2018:
+  name: Hackaday Superconference 2018
+  short: Supercon 2018
+  year: 2018
+  family: supercon
+  location: "Pasadena, CA"
+supercon-2019:
+  name: Hackaday Superconference 2019
+  short: Supercon 2019
+  year: 2019
+  family: supercon
+  location: "Pasadena, CA"
+supercon-2022:
+  name: Hackaday Superconference 2022
+  short: Supercon 2022
+  year: 2022
+  family: supercon
+  location: "Pasadena, CA"
+supercon-2023:
+  name: Hackaday Superconference 2023
+  short: Supercon 2023
+  year: 2023
+  family: supercon
+  location: "Pasadena, CA"
+supercon-2024:
+  name: Hackaday Supercon 8 (2024)
+  short: Supercon 2024
+  year: 2024
+  family: supercon
+  location: "Pasadena, CA"
+  notes: "Supercon 8 had a dedicated SAO contest and the Add-On Badge."
+supercon-2025:
+  name: Hackaday Supercon 9 (2025)
+  short: Supercon 2025
+  year: 2025
+  family: supercon
+  location: "Pasadena, CA"
+
+other:
+  name: Other / unaffiliated
+  short: Other
+  year: 0
+  family: other
+  notes: "Not tied to a specific event, or the event is not known yet."

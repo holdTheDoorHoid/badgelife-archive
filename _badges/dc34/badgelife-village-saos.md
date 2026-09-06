@@ -1,0 +1,309 @@
+---
+title: Badgelife Village SAOs (DC34 / 2026)
+id: dc34-badgelife-village-saos
+layout: badge
+parent: DC34
+grand_parent: Badge Archive
+nav_exclude: true
+redirect_from:
+- /badges/dc34/villageSAOs/
+- /villageSAOs
+type: sao
+event: dc34
+year: 2026
+makers:
+- name: Ozma of Oz
+  role: designer
+- name: GhostGlitch team (Vynra, Zedish, Kitsu)
+  role: designers
+- name: iFixit
+  role: sponsor
+summary: Three learn-to-solder SAO kits (Level 1, 2 and 3) built at the DEF CON 34 Badgelife Village, sponsored by iFixit, with a full Soldering 101 guide.
+functions: 'Level 1: through-hole LEDs and resistors with SAO v1 and v2 connectors. Level 2: through-hole plus surface-mount LEDs/resistors, male and female SAO v2 connectors. Level 3: a challenge build with multiple modes.'
+look:
+  colors: []
+  shape: null
+  themes:
+  - learn to solder
+  - village SAO
+  - kit
+tech:
+  mcu: null
+  leds:
+    count: null
+    type: through-hole and SMD LEDs
+  display: null
+  connectivity: []
+  battery: null
+  sao_version: v1 and v2 (v1.69bis)
+get_one:
+  price: ''
+  price_usd: null
+  quantity: ''
+  availability: unknown
+  distribution:
+  - village
+  where: Soldering stations at the Badgelife Village, DEF CON 34
+make_your_own:
+  open_source: partial
+  hardware_url: '{{ site.baseurl }}/assets/files/Level3.kicad_sch'
+  firmware_url: null
+  eda_tool: KiCad
+  notes: The Level 3 schematic is mirrored in this repo under assets/files/.
+links:
+- label: Level 3 SAO schematic (KiCad)
+  url: https://badge.life/assets/files/Level3.kicad_sch
+  kind: repo
+- label: Badgelife Village SAO page (badge.life/villageSAOs)
+  url: https://badge.life/villageSAOs
+  kind: website
+images:
+- file: assets/images/dc34_villageSAOs/lvl1SAO_10.jpg
+  source: https://badge.life/villageSAOs
+  credit: Badgelife Village
+  caption: Level 1 SAO
+- file: assets/images/dc34_villageSAOs/lvl2SAO_13.jpg
+  source: https://badge.life/villageSAOs
+  credit: Badgelife Village
+  caption: Level 2 SAO
+- file: assets/images/dc34_villageSAOs/lvl3SAO_01.jpg
+  source: https://badge.life/villageSAOs
+  credit: Badgelife Village
+  caption: Level 3 SAO
+contact: {}
+notes: []
+status: listed
+sources:
+- kind: url
+  url: https://badge.life/badges/dc34/villageSAOs/
+  title: Original badge.life archive page
+  accessed: '2026-09-06'
+  note: Migrated from the badge.life Badge Archive; the original page is preserved as the entry body.
+research:
+  status: researched
+  confidence: high
+  last_checked: '2026-09-06'
+  notes: Content comes directly from the Badgelife Village's own SAO and soldering guide on badge.life.
+last_modified_date: '2026-09-06'
+---
+<h1>Sponsored by ifixit</h1>
+<h2>Developed by Ozma of Oz and the GhostGlitch team &#40;Vynra, Zedish, and Kitsu&#41;</h2>
+<ul>
+  <li>Level 1 SAO
+    <div><img src="{{ site.baseurl }}/assets/images/dc34_villageSAOs/lvl1SAO_10.jpg" style="max-height: 300px;"></div>
+  </li>
+  <li>Level 2 SAO
+    <div><img src="{{ site.baseurl }}/assets/images/dc34_villageSAOs/lvl2SAO_13.jpg" style="max-height: 300px;"></div>
+  </li>
+  <li>Level 3 SAO
+    <div><img src="{{ site.baseurl }}/assets/images/dc34_villageSAOs/lvl3SAO_01.jpg"  style="max-height: 300px;"></div>
+    <div><img src="{{ site.baseurl }}/assets/images/dc34_villageSAOs/SAO3-Modes.png" style="max-height: 300px;"></div>
+    <a href="{{ site.baseurl }}/assets/files/Level3.kicad_sch">Download Schematic</a>
+    <div><img src="{{ site.baseurl }}/assets/images/dc34_villageSAOs/lvl3SAO_sch.png" style="max-height: 300px;"></div>
+  </li>
+</ul>
+<h1 id="soldering-101">Soldering 101 </h1>
+<h2 id="i-the-basics--vocabulary">I. The Basics &amp; Vocabulary </h2>
+<ul>
+</ul>
+
+  <li><strong>Soldering:</strong>
+    <ul>
+      <li>The process of making an electrical connection by melting low-temperature metal alloys around component leads</li>
+      <li>Soldering is just as much an “Art” as it is a “Science”</li>
+      <li>Pronounced “soddering” in American English – the “l” is silent!</li>
+    </ul>
+  </li>
+  <li><strong>Vocabulary:</strong>
+    <ul>
+      <li>Circuit Board - the board part without components </li>
+      <li>PCBA (Printed Circuit Board Assembly) - The circuit board along with all of its components 
+        <div><img src="{{ site.baseurl }}/assets/images/dc34_villageSAOs/pcba.jpg" alt="Printed Circuit Board Assembly" style="max-height: 300px;"></div>
+      </li>
+      <li> Components - the parts on the board </li>
+      <li> IC (Integrated Circuit) - Multiple components (like resistors, transistors, and capacitors) packaged together into a single unit
+        <div><img src="{{ site.baseurl }}/assets/images/dc34_villageSAOs/ic.png" alt="Multipin Integrated Circuit" style="max-height: 200px;"></div>
+      </li>
+      <li>Pins - each individual metal lead on a component </li>
+      <li>Through hole component – has leads that physically pass through the board 
+        <div><img src="{{ site.baseurl }}/assets/images/dc34_villageSAOs/through_hole_resistors.png" alt="4 through-hole resistors" style="max-height: 300px;"></div>
+      </li>
+      <li> Surface mount component – is flat and adheres to one side of a board 
+        <div><img src="{{ site.baseurl }}/assets/images/dc34_villageSAOs/surface_mount_resistors.jpeg" alt="5 surface mount resistors" style="max-height: 300px;"></div>
+      </li>
+      <li> Copper plate - the copper ground plane inside the board </li>
+      <li> Trace – the underlying metal that connects components on a board (can be difficult to see – light green in this photo) </li>
+      <li> Pad – the exposed metal that components adhere to (gold in this photo) 
+        <div><img src="{{ site.baseurl }}/assets/images/dc34_villageSAOs/blank_pcb.png" style="max-height: 300px;"></div>
+      </li>
+      <li> Silk screen – the designs/writing on a board </li>
+      <li> Solder Mask - a protective layer applied over printed circuit board copper traces to prevent short circuits, stop solder bridging, and block environmental corrosion. Also gives boards fun colors! 
+        <div><img src="{{ site.baseurl }}/assets/images/dc34_villageSAOs/lvl1SAO_01.jpg" style="max-height: 300px;"></div>
+      </li>
+      <li> Tinning – Putting a small amount of solder on the tip of the iron to protect it/prevent oxidation </li>
+      <li> Soldering Iron 
+        <div><img src="{{ site.baseurl }}/assets/images/dc34_villageSAOs/ifixit_annotated.jpg" style="max-height: 300px;"></div>
+      </li>
+      <li>Tip cleaning surface (sponge or brass) 
+      <div><img src="{{ site.baseurl }}/assets/images/dc34_villageSAOs/brass_sponge.jpeg" style="max-height: 200px;"></div>
+      </li>
+    </ul>
+  </li>
+  <li><strong>Soldering Safety:</strong>
+    <li>THIS WOMAN NO LONGER HAS FINGERPRINTS!!!!! DO NOT HOLD THE IRON LIKE A PEN. ONLY HOLD THE PLASTIC/RUBBER HANDLE
+    <div><img src="{{ site.baseurl }}/assets/images/dc34_villageSAOs/no_fingerprints_woman.png" style="max-height: 300px;"></div>
+    </li>
+    <li>The components, especially the exposed metal parts, will also get hot!</li>
+    <li>Be aware of what is around you</li>
+    <li>Tin the tip and return the iron to the holder when you are not soldering. Tinning the tip prevents oxidation and damage to the iron</li>
+    <li>Always tin the tip of the iron when you are done soldering</li>
+    <li>Don’t solder while circuit is powered</li>
+    <li>Use a well ventilated and lighted work space</li>
+    <li>Don’t touch the solder tip – it’s hot (duh)</li>
+    <li>Static discharge protection – not a hazard for you but can trash some sensitive components</li>
+    <li>Watch for flying leads when clipping them</li>
+  </li>
+  <li><strong>Through-Hole Soldering Process:</strong>
+    <li>Turn on soldering iron and let it get to temperature</li>
+    <li>Tin the tip using a small amount of solder</li>
+    <li>Clean the tip using a sponge or brass tip cleaner</li>
+    <li>Tin the tip again</li>
+    <li>Install the component and hold in place with a physical connection (you can use tweezers if you want! don’t burn your hands!)</li>
+    <li>Heat the circuit board pad and component lead – ensure the tip is touching BOTH the pad on the PCB and the component</li>
+    <li>Touch solder to the component lead and pad - melt the right amount of solder (art)</li>
+    <li>You'll figure out what the right amount is with practice! Start with less, but it's ok if you use too much</li>
+    <li>Remember, heat transfer is more important than pressure!</li>
+    <li>The melting solder will flow around the joint in a process called wetting</li>
+    <li>Surface tension will produce a nice Hershy’s Kiss looking joint
+      <div><img src="{{ site.baseurl }}/assets/images/dc34_villageSAOs/solder_joints.png" style="max-height: 300px;"></div>
+    </li>
+    <li>Remove solder</li>
+    <li>Keep the tip of the iron in place a bit longer</li>
+    <li>Remove heat (art)</li>
+    <li>Allow the joints to cool</li>
+    <li>Inspect the connection (art and good eye)</li>
+    <li>Clip excess leads if needed</li>
+    <li>Cold solder joints are the cause of most circuit problems! (Don’t ask us for proof)
+      <div><img src="{{ site.baseurl }}/assets/images/dc34_villageSAOs/good_bad_joints.png" style="max-height: 300px;"></div>
+    </li>
+    <li>If your joint is cold, try heating the joint a bit more. Don’t add more solder until you’ve tried reheating/are sure you need it</li>
+    <li>Bridged pins &#40;pins that are connected together by solder that shouldn't be &#41; are also the cause of most circuit problem! If you need to remove solder, here's how to use the provided copper braid:</li>
+      <ul>
+        <li>Press the braid to the joint, then press your iron to the braid. The braid will absorb some of the solder
+        <div><img src="{{ site.baseurl }}/assets/images/dc34_villageSAOs/braid2.jpg" style="max-height: 300px;"></div>
+        </li>
+        <li><img src="{{ site.baseurl }}/assets/images/dc34_villageSAOs/braid_sins_01.jpg" style="max-height: 300px;"></li>
+        <li><img src="{{ site.baseurl }}/assets/images/dc34_villageSAOs/braid_sins_02.jpg" style="max-height: 300px;"></li>
+        <li><img src="{{ site.baseurl }}/assets/images/dc34_villageSAOs/braid_how_to_use.jpg" style="max-height: 300px;"></li>
+        <li>Don’t be afraid to ask for help!</li>
+      </ul>
+  </li>
+  <li><strong>Surface Mount Soldering Process:</strong>
+    <ul>
+      <li>BEFORE placing your component on the board, heat one of the pads and add solder</li>
+      <li>Get ready to use your tweezers!</li>
+      <li>While heating that pad with your iron on one hand, pick up your component with tweezers with your other hand</li>
+      <li>Slide your component horizontally onto the heated/soldered pad</li>
+      <li>While holding the component in place, remove the iron</li>
+      <li>Wait for the solder to cool, then remove your tweezers</li>
+      <li>Heat the other pad of the component and add solder, let cool</li>
+    </ul>
+  </li>
+  <li><strong>Your turn!</strong>
+    <ul>
+      <li>All components should be in the bags</li>
+      <li>Get your LEDs from the front table</li>
+      <li>The silkscreen (writing) on the board will show you which way the components go, but you can ask a volunteer if you’re not sure!</li>
+      <li>THE SIDE OF THE BOARD THE COMPONENT IS ON DOES MATTER. PUT THE COMPONENTS ON THE SAME SIDE AS DISPLAYED IN THE PHOTOS</li>
+    </ul>
+  </li>
+  <li><strong>Level 1 Guide:</strong>
+    <ul>
+      <li>Resistors:
+        <ul>
+          <li>Resistors don't have an orientation! Put them any which way you like</li>
+          <li><img src="{{ site.baseurl }}/assets/images/dc34_villageSAOs/lvl1SAO_02.jpg" style="max-height: 300px;"></li>
+          <li><img src="{{ site.baseurl }}/assets/images/dc34_villageSAOs/lvl1SAO_03.jpg" style="max-height: 300px;"></li>
+          <li><img src="{{ site.baseurl }}/assets/images/dc34_villageSAOs/lvl1SAO_04.jpg" style="max-height: 300px;"></li>
+        </ul>
+      </li>
+      <li>LEDs:
+        <ul>
+          <li>LEDS HAVE AN ORIENTATION! There is a right way and a wrong way. The long end is positive</li>
+          <li><img src="{{ site.baseurl }}/assets/images/dc34_villageSAOs/lvl1SAO_05.jpg" style="max-height: 300px;"></li>
+          <li><img src="{{ site.baseurl }}/assets/images/dc34_villageSAOs/lvl1SAO_06.jpg" style="max-height: 300px;"></li>
+          <li><img src="{{ site.baseurl }}/assets/images/dc34_villageSAOs/lvl1SAO_07.jpg" style="max-height: 300px;"></li>
+        </ul>
+      </li>
+      <li>SAO v2.0 Connector:
+        <ul>
+          <li>This connector has an orientation! The gap in the housing matches the gap on the silkscreen</li>
+          <li><img src="{{ site.baseurl }}/assets/images/dc34_villageSAOs/lvl1SAO_08.jpg" style="max-height: 300px;"></li>
+          <li><img src="{{ site.baseurl }}/assets/images/dc34_villageSAOs/lvl1SAO_09.jpg" style="max-height: 300px;"></li>
+        </ul>
+      </li>
+      <li>SAO v1.0 Connector:
+        <ul>
+          <li>This connector doesn't have an orientation! Put it any which way you like</li>
+          <li><img src="{{ site.baseurl }}/assets/images/dc34_villageSAOs/lvl1SAO_10.jpg" style="max-height: 300px;"></li>
+          <li><img src="{{ site.baseurl }}/assets/images/dc34_villageSAOs/lvl1SAO_11.jpg" style="max-height: 300px;"></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><strong>Level 2 Guide:</strong>
+    <ul>
+      <li>Through-Hole Resistors:
+        <ul>
+          <li><img src="{{ site.baseurl }}/assets/images/dc34_villageSAOs/lvl2SAO_01.jpg" style="max-height: 300px;"></li>
+          <li><img src="{{ site.baseurl }}/assets/images/dc34_villageSAOs/lvl2SAO_02.jpg" style="max-height: 300px;"></li>
+          <li><img src="{{ site.baseurl }}/assets/images/dc34_villageSAOs/lvl2SAO_03.jpg" style="max-height: 300px;"></li>
+        </ul>
+      </li>
+      <li>Through-Hole LEDs:
+        <ul>
+          <li>Remember that LEDs have an orientation!</li>
+          <li><img src="{{ site.baseurl }}/assets/images/dc34_villageSAOs/lvl2SAO_04.jpg" style="max-height: 300px;"></li>
+          <li><img src="{{ site.baseurl }}/assets/images/dc34_villageSAOs/lvl2SAO_05.jpg" style="max-height: 300px;"></li>
+          <li><img src="{{ site.baseurl }}/assets/images/dc34_villageSAOs/lvl2SAO_06.jpg" style="max-height: 300px;"></li>
+        </ul>
+      </li>
+      <li>Surface Mount Resistors:
+        <ul>
+          <li>Surface mount resistors also don’t have an orientation! Still put them any which way you like</li>
+          <li><img src="{{ site.baseurl }}/assets/images/dc34_villageSAOs/lvl2SAO_07.jpg" style="max-height: 300px;"></li>
+        </ul>
+      </li>
+      <li>Surface Mount LEDs:
+        <ul>
+          <li>Surface mount LEDs also have an orientation! The arrow on the LEDs points down/to the bottom of the U-shaped silkscreen</li>
+          <li><img src="{{ site.baseurl }}/assets/images/dc34_villageSAOs/lvl2SAO_08.jpg" style="max-height: 300px;"></li>
+          <li><img src="{{ site.baseurl }}/assets/images/dc34_villageSAOs/sm_led.png" style="max-height: 300px;"></li>
+        </ul>
+      </li>
+      <li>Female SAO v2.0 Connector:
+        <ul>
+          <li>This connector has an orientation! The key in the housing matches the bump-out on the silkscreen</li>
+          <li><img src="{{ site.baseurl }}/assets/images/dc34_villageSAOs/lvl2SAO_09.jpg" style="max-height: 300px;"></li>
+          <li><img src="{{ site.baseurl }}/assets/images/dc34_villageSAOs/lvl2SAO_11.jpg" style="max-height: 300px;"></li>
+        </ul>
+      </li>
+      <li>Male SAO v2.0 Connector:
+        <ul>
+          <li><img src="{{ site.baseurl }}/assets/images/dc34_villageSAOs/lvl2SAO_12.jpg" style="max-height: 300px;"></li>
+          <li><img src="{{ site.baseurl }}/assets/images/dc34_villageSAOs/lvl2SAO_13.jpg" style="max-height: 300px;"></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+<li><strong>Level 3 Guide:</strong>
+    <ul>
+      <li>This one is a challenge :&#41;
+        <ul>
+          <li><img src="{{ site.baseurl }}/assets/images/dc34_villageSAOs/lvl3SAO_01.jpg" style="max-height: 300px;"></li>
+          <li><img src="{{ site.baseurl }}/assets/images/dc34_villageSAOs/lvl3SAO_02.jpg" style="max-height: 300px;"></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>

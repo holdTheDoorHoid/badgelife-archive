@@ -115,3 +115,124 @@ table.schedule td[colspan]   { background: $sched-band; }
     transform-origin: top left;
   }
 }
+
+// ===========================================================================
+// Badgelife Archive — entry pages and the faceted search UI
+// ===========================================================================
+$ar-border: $border-color;
+$ar-panel: rgba(255, 255, 255, 0.03);
+$ar-muted: $grey-dk-000;
+
+.muted { color: $ar-muted; }
+.small { font-size: 0.85em; }
+.n { color: $ar-muted; font-size: 0.85em; font-weight: normal; }
+
+// chips ---------------------------------------------------------------------
+.chip {
+  display: inline-block; padding: 0.05rem 0.5rem; margin: 0 0.25rem 0.25rem 0;
+  border: 1px solid $ar-border; border-radius: 999px; font-size: 0.75rem; line-height: 1.4;
+  color: $body-text-color; background: $ar-panel; text-decoration: none; white-space: nowrap;
+}
+.chip-type-badge { border-color: $blue-200; color: $blue-100; }
+.chip-type-sao { border-color: $purple-200; color: $purple-100; }
+.chip-type-minibadge { border-color: $yellow-200; color: $yellow-100; }
+.chip-avail-available, .chip-avail-free { border-color: $green-200; color: $green-100; }
+.chip-avail-sold_out, .chip-avail-cancelled { border-color: $red-200; color: $red-100; }
+.chip-avail-rumored, .chip-avail-not_released { border-color: $yellow-200; color: $yellow-100; }
+.chip-oss { border-color: $green-300; color: $green-100; }
+.chip-stub { border-style: dashed; color: $ar-muted; }
+.chip-researched { border-color: $blue-200; }
+.chip-verified { border-color: $green-200; color: $green-100; }
+.chip-kind { text-transform: lowercase; }
+.tag { @extend .chip; }
+
+// entry page ----------------------------------------------------------------
+.badge-crumbs { font-size: 0.85rem; color: $ar-muted; margin-bottom: 0.25rem; }
+.badge-header h1 { margin-bottom: 0.25rem; }
+.badge-chips { margin: 0.25rem 0 0.75rem; }
+.badge-summary { font-size: 1.1rem; }
+.badge-gallery {
+  display: flex; flex-wrap: wrap; gap: 0.75rem; margin: 1rem 0;
+  figure { margin: 0; max-width: 320px; }
+  img { max-height: 320px; width: auto; border-radius: 4px; border: 1px solid $ar-border; }
+  figcaption { font-size: 0.75rem; color: $ar-muted; }
+}
+.badge-grid {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 0.75rem; margin: 1rem 0;
+}
+.badge-panel {
+  border: 1px solid $ar-border; border-radius: 6px; padding: 0.75rem 1rem; background: $ar-panel;
+  h2 { font-size: 1rem; margin: 0 0 0.5rem; padding-bottom: 0.25rem; border-bottom: 1px solid $ar-border; }
+  dl { margin: 0; display: grid; grid-template-columns: max-content 1fr; gap: 0.2rem 0.75rem; font-size: 0.9rem; }
+  dt { color: $ar-muted; font-weight: 500; }
+  dd { margin: 0; word-break: break-word; }
+  dd.muted { grid-column: 1 / -1; }
+  ul { margin: 0; padding-left: 1rem; font-size: 0.9rem; }
+  li { margin: 0.15rem 0; }
+}
+.main-content .badge-links ul { list-style: none; padding-left: 0; margin-left: 0; }
+.main-content .badge-links li::before { content: none; }
+.badge-body { margin: 1.5rem 0; }
+.badge-provenance { margin-top: 1.5rem; padding-top: 0.75rem; border-top: 1px solid $ar-border; font-size: 0.9rem;
+  h2 { font-size: 1rem; } }
+
+// search UI -----------------------------------------------------------------
+.ar-toolbar {
+  display: flex; flex-wrap: wrap; gap: 0.5rem; align-items: center; margin: 1rem 0;
+  input[type=search] { flex: 1 1 260px; font-size: 1rem; padding: 0.5rem 0.75rem; background: $search-background-color; color: $body-text-color; border: 1px solid $ar-border; border-radius: 6px; }
+  select { padding: 0.45rem; background: $search-background-color; color: $body-text-color; border: 1px solid $ar-border; border-radius: 6px; }
+  button { padding: 0.4rem 0.6rem; background: $ar-panel; color: $body-text-color; border: 1px solid $ar-border; border-radius: 6px; cursor: pointer; }
+  .ar-view button.active { background: $link-color; color: $body-background-color; border-color: $link-color; }
+  .ar-mobile-only { display: none; }
+}
+.ar-body { display: grid; grid-template-columns: 240px 1fr; gap: 1rem; align-items: start; }
+.ar-facets {
+  font-size: 0.85rem; position: sticky; top: 1rem; max-height: calc(100vh - 2rem); overflow: auto;
+  details { border: 1px solid $ar-border; border-radius: 6px; margin-bottom: 0.5rem; background: $ar-panel; }
+  summary { cursor: pointer; padding: 0.4rem 0.6rem; font-weight: 600; }
+  .ar-facet { padding: 0.25rem 0.6rem 0.5rem; }
+  .ar-facet h4 { margin: 0.25rem 0; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.03em; color: $ar-muted; }
+  ul { list-style: none; margin: 0; padding: 0; }
+  li { margin: 0; }
+  label { display: flex; gap: 0.35rem; align-items: baseline; cursor: pointer; }
+  label .n { margin-left: auto; }
+  input[type=checkbox] { margin: 0; }
+  .ar-facet-search { width: 100%; margin: 0.15rem 0 0.35rem; padding: 0.2rem 0.4rem; font-size: 0.8rem; background: $search-background-color; color: $body-text-color; border: 1px solid $ar-border; border-radius: 4px; }
+  .ar-more { background: none; border: none; color: $link-color; cursor: pointer; padding: 0.15rem 0; font-size: 0.8rem; }
+  .ar-price { padding: 0.25rem 0.6rem; }
+  .ar-price input { width: 4.5rem; padding: 0.15rem 0.3rem; background: $search-background-color; color: $body-text-color; border: 1px solid $ar-border; border-radius: 4px; }
+}
+.ar-summary { color: $ar-muted; font-size: 0.85rem; margin-bottom: 0.25rem; }
+.ar-active { margin-bottom: 0.5rem; }
+.ar-chip { @extend .chip; cursor: pointer; }
+.ar-clear { border-style: dashed; }
+.ar-grid {
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 0.75rem;
+}
+.ar-card {
+  display: flex; flex-direction: column; border: 1px solid $ar-border; border-radius: 6px; overflow: hidden;
+  background: $ar-panel; color: $body-text-color; text-decoration: none !important;
+  transition: border-color 0.15s;
+  &:hover { border-color: $link-color; }
+  h3 { font-size: 0.95rem; margin: 0 0 0.2rem; line-height: 1.3; color: $body-heading-color; }
+  .ar-thumb { aspect-ratio: 4 / 3; background: $body-background-color; display: flex; align-items: center; justify-content: center; overflow: hidden; }
+  .ar-thumb img { width: 100%; height: 100%; object-fit: cover; }
+  .ar-noimg { color: $ar-muted; font-size: 0.8rem; letter-spacing: 0.2em; opacity: 0.5; }
+  .ar-card-body { padding: 0.5rem 0.6rem 0.6rem; }
+  .ar-meta { font-size: 0.78rem; color: $ar-muted; margin: 0 0 0.3rem; }
+  .ar-blurb { font-size: 0.8rem; margin: 0 0 0.4rem; }
+  .ar-chips { margin-top: auto; }
+}
+.ar-empty { color: $ar-muted; padding: 1rem 0; }
+.ar-more-results { display: block; margin: 1rem auto; padding: 0.5rem 1rem; background: $ar-panel; color: $body-text-color; border: 1px solid $ar-border; border-radius: 6px; cursor: pointer; }
+.ar-table { font-size: 0.85rem; }
+.ar-event-list { columns: 2; list-style: none; padding-left: 0; li { break-inside: avoid; } }
+.ar-event-summary { margin: 0.5rem 0 1rem; }
+
+@media (max-width: 800px) {
+  .ar-body { grid-template-columns: 1fr; }
+  .ar-facets { position: static; max-height: none; display: none; }
+  .ar-facets.open { display: block; }
+  .ar-toolbar .ar-mobile-only { display: inline-block; }
+  .ar-event-list { columns: 1; }
+}
