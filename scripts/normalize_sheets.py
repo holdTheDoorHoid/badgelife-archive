@@ -257,13 +257,36 @@ def parse_dc34(rows, ev):
 
 PARSERS = {"dc30": parse_dc30, "dc31": parse_dc31, "dc32": parse_dc32, "dc33": parse_dc33, "dc34": parse_dc34}
 
+def parse_maker_list(path, ev):
+    """Extra 'expected makers' tab (DC33 '2025' tab): one maker per line, tab-separated row number."""
+    out = []
+    for line in open(path, encoding="utf-8"):
+        line = line.rstrip("\n")
+        if not line.strip(): continue
+        row, maker = line.split("\t", 1) if "\t" in line else ("", line)
+        e = base_entry(*ev)
+        e["title"] = f"{maker.strip()} (listed for {ev[2]}, no details)"
+        e["type"] = "unknown"
+        e["makers"].append(OrderedDict([("name", maker.strip())]))
+        e["status"] = "listed_no_details"
+        e["sources"].append(OrderedDict([("kind", "sheet"), ("event", ev[0]), ("row", int(row) if row.isdigit() else None), ("tab", "2025 (expected makers)"), ("updated", "")]))
+        out.append(e)
+    return out
+
 def main():
+    import os
     entries, report = [], []
     for ev, (sid, year, name) in SHEETS.items():
-        hdr, rows = read_rows(f"{sid}.csv")
+        path = f"{sid}.csv" if os.path.exists(f"{sid}.csv") else f"{ev}.csv"
+        hdr, rows = read_rows(path)
         got = PARSERS[ev](rows, (ev, year, name))
         report.append(f"{ev}: {len(rows)} non-empty rows -> {len(got)} entries")
         entries.extend(got)
+        extra = f"{ev}_makers.txt"
+        if os.path.exists(extra):
+            more = parse_maker_list(extra, (ev, year, name))
+            report.append(f"{ev}: +{len(more)} expected-maker stubs from {extra}")
+            entries.extend(more)
     # ids
     seen = Counter()
     for e in entries:

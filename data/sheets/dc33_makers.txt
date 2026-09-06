@@ -1,0 +1,66 @@
+2	Aask Labs
+3	Abhinav Panda
+5	Aerospace Village
+7	Alt_Bier
+8	AI Village
+10	Antihacker Hacker Club
+11	Badge.team
+12	BadgePirates
+13	Bens Badges
+14	BioHacking Village
+15	Bitefl0w
+16	BigFuckingBadge
+17	Black Badge Raffle
+18	BlackGirlsHack
+20	Blametheotherkyle
+21	Blue Team Village
+22	Bradán Lane
+23	Brock (Infosec Exchange)
+24	C0ldbru (Rot13 labs)
+26	Car Hacking Village
+27	CoD_Segfault
+28	Cyber Circuitry
+29	Cyber City Circuits
+30	CyDefe Labs LLC
+32	DC Punks (Kay Kidoutai and NeonPlaidPants)
+33	DC31
+34	DC512
+35	DC540
+36	DC Enterprise
+38	DEFCON Furs
+40	distimctm1nd
+41	El Jefe de Security
+42	Embedded Systems Village
+43	Florida Man
+44	Garrett / Hacker Warehouse
+46	GoonBoxBadge (MK Factor)
+47	GothCon
+48	GrrCON
+49	HackerBoxes
+50	H4rl0d
+52	ICS Village
+53	Rex
+54	Ironwood Cyber
+55	JollyBadge
+56	K4r4koyun
+57	KernalKrash
+59	MetaN3rd
+60	Nerfhammer
+62	Ninjaican
+63	Otter
+64	Office of the National Cyber Director (i.e., the feds)
+65	p0ns/idk
+66	redactd
+67	Red Society Club
+68	Red String Studio x The Crow & Pigeon
+69	Red Team Village
+70	Reloadrtr
+72	Shenanigans-R-Us
+75	Space Bits 'R Us
+76	T9ck
+78	Th0m4s
+79	The Mad Hatters
+80	Tor Project
+82	Uberwoozle
+85	Whiskey Pirate Crew (not badgelife)
+86	Wireless Village

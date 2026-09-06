@@ -13518,6 +13518,2382 @@
   }
  },
  {
+  "id": "dc33-aask-labs-listed-for-def-con-33-no-details",
+  "title": "Aask Labs (listed for DEF CON 33, no details)",
+  "type": "unknown",
+  "event": "dc33",
+  "event_name": "DEF CON 33",
+  "year": 2025,
+  "makers": [
+   {
+    "name": "Aask Labs"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed_no_details",
+  "links": [],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "sheet",
+    "event": "dc33",
+    "row": 2,
+    "tab": "2025 (expected makers)",
+    "updated": ""
+   }
+  ],
+  "research": {
+   "status": "stub"
+  }
+ },
+ {
+  "id": "dc33-abhinav-panda-listed-for-def-con-33-no-details",
+  "title": "Abhinav Panda (listed for DEF CON 33, no details)",
+  "type": "unknown",
+  "event": "dc33",
+  "event_name": "DEF CON 33",
+  "year": 2025,
+  "makers": [
+   {
+    "name": "Abhinav Panda"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed_no_details",
+  "links": [],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "sheet",
+    "event": "dc33",
+    "row": 3,
+    "tab": "2025 (expected makers)",
+    "updated": ""
+   }
+  ],
+  "research": {
+   "status": "stub"
+  }
+ },
+ {
+  "id": "dc33-aerospace-village-listed-for-def-con-33-no-details",
+  "title": "Aerospace Village (listed for DEF CON 33, no details)",
+  "type": "unknown",
+  "event": "dc33",
+  "event_name": "DEF CON 33",
+  "year": 2025,
+  "makers": [
+   {
+    "name": "Aerospace Village"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed_no_details",
+  "links": [],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "sheet",
+    "event": "dc33",
+    "row": 5,
+    "tab": "2025 (expected makers)",
+    "updated": ""
+   }
+  ],
+  "research": {
+   "status": "stub"
+  }
+ },
+ {
+  "id": "dc33-alt-bier-listed-for-def-con-33-no-details",
+  "title": "Alt_Bier (listed for DEF CON 33, no details)",
+  "type": "unknown",
+  "event": "dc33",
+  "event_name": "DEF CON 33",
+  "year": 2025,
+  "makers": [
+   {
+    "name": "Alt_Bier"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed_no_details",
+  "links": [],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "sheet",
+    "event": "dc33",
+    "row": 7,
+    "tab": "2025 (expected makers)",
+    "updated": ""
+   }
+  ],
+  "research": {
+   "status": "stub"
+  }
+ },
+ {
+  "id": "dc33-ai-village-listed-for-def-con-33-no-details",
+  "title": "AI Village (listed for DEF CON 33, no details)",
+  "type": "unknown",
+  "event": "dc33",
+  "event_name": "DEF CON 33",
+  "year": 2025,
+  "makers": [
+   {
+    "name": "AI Village"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed_no_details",
+  "links": [],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "sheet",
+    "event": "dc33",
+    "row": 8,
+    "tab": "2025 (expected makers)",
+    "updated": ""
+   }
+  ],
+  "research": {
+   "status": "stub"
+  }
+ },
+ {
+  "id": "dc33-antihacker-hacker-club-listed-for-def-con-33-no-details",
+  "title": "Antihacker Hacker Club (listed for DEF CON 33, no details)",
+  "type": "unknown",
+  "event": "dc33",
+  "event_name": "DEF CON 33",
+  "year": 2025,
+  "makers": [
+   {
+    "name": "Antihacker Hacker Club"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed_no_details",
+  "links": [],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "sheet",
+    "event": "dc33",
+    "row": 10,
+    "tab": "2025 (expected makers)",
+    "updated": ""
+   }
+  ],
+  "research": {
+   "status": "stub"
+  }
+ },
+ {
+  "id": "dc33-badge-team-listed-for-def-con-33-no-details",
+  "title": "Badge.team (listed for DEF CON 33, no details)",
+  "type": "unknown",
+  "event": "dc33",
+  "event_name": "DEF CON 33",
+  "year": 2025,
+  "makers": [
+   {
+    "name": "Badge.team"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed_no_details",
+  "links": [],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "sheet",
+    "event": "dc33",
+    "row": 11,
+    "tab": "2025 (expected makers)",
+    "updated": ""
+   }
+  ],
+  "research": {
+   "status": "stub"
+  }
+ },
+ {
+  "id": "dc33-badgepirates-listed-for-def-con-33-no-details",
+  "title": "BadgePirates (listed for DEF CON 33, no details)",
+  "type": "unknown",
+  "event": "dc33",
+  "event_name": "DEF CON 33",
+  "year": 2025,
+  "makers": [
+   {
+    "name": "BadgePirates"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed_no_details",
+  "links": [],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "sheet",
+    "event": "dc33",
+    "row": 12,
+    "tab": "2025 (expected makers)",
+    "updated": ""
+   }
+  ],
+  "research": {
+   "status": "stub"
+  }
+ },
+ {
+  "id": "dc33-bens-badges-listed-for-def-con-33-no-details",
+  "title": "Bens Badges (listed for DEF CON 33, no details)",
+  "type": "unknown",
+  "event": "dc33",
+  "event_name": "DEF CON 33",
+  "year": 2025,
+  "makers": [
+   {
+    "name": "Bens Badges"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed_no_details",
+  "links": [],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "sheet",
+    "event": "dc33",
+    "row": 13,
+    "tab": "2025 (expected makers)",
+    "updated": ""
+   }
+  ],
+  "research": {
+   "status": "stub"
+  }
+ },
+ {
+  "id": "dc33-biohacking-village-listed-for-def-con-33-no-details",
+  "title": "BioHacking Village (listed for DEF CON 33, no details)",
+  "type": "unknown",
+  "event": "dc33",
+  "event_name": "DEF CON 33",
+  "year": 2025,
+  "makers": [
+   {
+    "name": "BioHacking Village"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed_no_details",
+  "links": [],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "sheet",
+    "event": "dc33",
+    "row": 14,
+    "tab": "2025 (expected makers)",
+    "updated": ""
+   }
+  ],
+  "research": {
+   "status": "stub"
+  }
+ },
+ {
+  "id": "dc33-bitefl0w-listed-for-def-con-33-no-details",
+  "title": "Bitefl0w (listed for DEF CON 33, no details)",
+  "type": "unknown",
+  "event": "dc33",
+  "event_name": "DEF CON 33",
+  "year": 2025,
+  "makers": [
+   {
+    "name": "Bitefl0w"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed_no_details",
+  "links": [],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "sheet",
+    "event": "dc33",
+    "row": 15,
+    "tab": "2025 (expected makers)",
+    "updated": ""
+   }
+  ],
+  "research": {
+   "status": "stub"
+  }
+ },
+ {
+  "id": "dc33-bigfuckingbadge-listed-for-def-con-33-no-details",
+  "title": "BigFuckingBadge (listed for DEF CON 33, no details)",
+  "type": "unknown",
+  "event": "dc33",
+  "event_name": "DEF CON 33",
+  "year": 2025,
+  "makers": [
+   {
+    "name": "BigFuckingBadge"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed_no_details",
+  "links": [],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "sheet",
+    "event": "dc33",
+    "row": 16,
+    "tab": "2025 (expected makers)",
+    "updated": ""
+   }
+  ],
+  "research": {
+   "status": "stub"
+  }
+ },
+ {
+  "id": "dc33-black-badge-raffle-listed-for-def-con-33-no-details",
+  "title": "Black Badge Raffle (listed for DEF CON 33, no details)",
+  "type": "unknown",
+  "event": "dc33",
+  "event_name": "DEF CON 33",
+  "year": 2025,
+  "makers": [
+   {
+    "name": "Black Badge Raffle"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed_no_details",
+  "links": [],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "sheet",
+    "event": "dc33",
+    "row": 17,
+    "tab": "2025 (expected makers)",
+    "updated": ""
+   }
+  ],
+  "research": {
+   "status": "stub"
+  }
+ },
+ {
+  "id": "dc33-blackgirlshack-listed-for-def-con-33-no-details",
+  "title": "BlackGirlsHack (listed for DEF CON 33, no details)",
+  "type": "unknown",
+  "event": "dc33",
+  "event_name": "DEF CON 33",
+  "year": 2025,
+  "makers": [
+   {
+    "name": "BlackGirlsHack"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed_no_details",
+  "links": [],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "sheet",
+    "event": "dc33",
+    "row": 18,
+    "tab": "2025 (expected makers)",
+    "updated": ""
+   }
+  ],
+  "research": {
+   "status": "stub"
+  }
+ },
+ {
+  "id": "dc33-blametheotherkyle-listed-for-def-con-33-no-details",
+  "title": "Blametheotherkyle (listed for DEF CON 33, no details)",
+  "type": "unknown",
+  "event": "dc33",
+  "event_name": "DEF CON 33",
+  "year": 2025,
+  "makers": [
+   {
+    "name": "Blametheotherkyle"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed_no_details",
+  "links": [],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "sheet",
+    "event": "dc33",
+    "row": 20,
+    "tab": "2025 (expected makers)",
+    "updated": ""
+   }
+  ],
+  "research": {
+   "status": "stub"
+  }
+ },
+ {
+  "id": "dc33-blue-team-village-listed-for-def-con-33-no-details",
+  "title": "Blue Team Village (listed for DEF CON 33, no details)",
+  "type": "unknown",
+  "event": "dc33",
+  "event_name": "DEF CON 33",
+  "year": 2025,
+  "makers": [
+   {
+    "name": "Blue Team Village"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed_no_details",
+  "links": [],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "sheet",
+    "event": "dc33",
+    "row": 21,
+    "tab": "2025 (expected makers)",
+    "updated": ""
+   }
+  ],
+  "research": {
+   "status": "stub"
+  }
+ },
+ {
+  "id": "dc33-bradan-lane-listed-for-def-con-33-no-details",
+  "title": "Bradán Lane (listed for DEF CON 33, no details)",
+  "type": "unknown",
+  "event": "dc33",
+  "event_name": "DEF CON 33",
+  "year": 2025,
+  "makers": [
+   {
+    "name": "Bradán Lane"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed_no_details",
+  "links": [],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "sheet",
+    "event": "dc33",
+    "row": 22,
+    "tab": "2025 (expected makers)",
+    "updated": ""
+   }
+  ],
+  "research": {
+   "status": "stub"
+  }
+ },
+ {
+  "id": "dc33-brock-infosec-exchange-listed-for-def-con-33-no-details",
+  "title": "Brock (Infosec Exchange) (listed for DEF CON 33, no details)",
+  "type": "unknown",
+  "event": "dc33",
+  "event_name": "DEF CON 33",
+  "year": 2025,
+  "makers": [
+   {
+    "name": "Brock (Infosec Exchange)"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed_no_details",
+  "links": [],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "sheet",
+    "event": "dc33",
+    "row": 23,
+    "tab": "2025 (expected makers)",
+    "updated": ""
+   }
+  ],
+  "research": {
+   "status": "stub"
+  }
+ },
+ {
+  "id": "dc33-c0ldbru-rot13-labs-listed-for-def-con-33-no-details",
+  "title": "C0ldbru (Rot13 labs) (listed for DEF CON 33, no details)",
+  "type": "unknown",
+  "event": "dc33",
+  "event_name": "DEF CON 33",
+  "year": 2025,
+  "makers": [
+   {
+    "name": "C0ldbru (Rot13 labs)"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed_no_details",
+  "links": [],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "sheet",
+    "event": "dc33",
+    "row": 24,
+    "tab": "2025 (expected makers)",
+    "updated": ""
+   }
+  ],
+  "research": {
+   "status": "stub"
+  }
+ },
+ {
+  "id": "dc33-car-hacking-village-listed-for-def-con-33-no-details",
+  "title": "Car Hacking Village (listed for DEF CON 33, no details)",
+  "type": "unknown",
+  "event": "dc33",
+  "event_name": "DEF CON 33",
+  "year": 2025,
+  "makers": [
+   {
+    "name": "Car Hacking Village"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed_no_details",
+  "links": [],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "sheet",
+    "event": "dc33",
+    "row": 26,
+    "tab": "2025 (expected makers)",
+    "updated": ""
+   }
+  ],
+  "research": {
+   "status": "stub"
+  }
+ },
+ {
+  "id": "dc33-cod-segfault-listed-for-def-con-33-no-details",
+  "title": "CoD_Segfault (listed for DEF CON 33, no details)",
+  "type": "unknown",
+  "event": "dc33",
+  "event_name": "DEF CON 33",
+  "year": 2025,
+  "makers": [
+   {
+    "name": "CoD_Segfault"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed_no_details",
+  "links": [],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "sheet",
+    "event": "dc33",
+    "row": 27,
+    "tab": "2025 (expected makers)",
+    "updated": ""
+   }
+  ],
+  "research": {
+   "status": "stub"
+  }
+ },
+ {
+  "id": "dc33-cyber-circuitry-listed-for-def-con-33-no-details",
+  "title": "Cyber Circuitry (listed for DEF CON 33, no details)",
+  "type": "unknown",
+  "event": "dc33",
+  "event_name": "DEF CON 33",
+  "year": 2025,
+  "makers": [
+   {
+    "name": "Cyber Circuitry"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed_no_details",
+  "links": [],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "sheet",
+    "event": "dc33",
+    "row": 28,
+    "tab": "2025 (expected makers)",
+    "updated": ""
+   }
+  ],
+  "research": {
+   "status": "stub"
+  }
+ },
+ {
+  "id": "dc33-cyber-city-circuits-listed-for-def-con-33-no-details",
+  "title": "Cyber City Circuits (listed for DEF CON 33, no details)",
+  "type": "unknown",
+  "event": "dc33",
+  "event_name": "DEF CON 33",
+  "year": 2025,
+  "makers": [
+   {
+    "name": "Cyber City Circuits"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed_no_details",
+  "links": [],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "sheet",
+    "event": "dc33",
+    "row": 29,
+    "tab": "2025 (expected makers)",
+    "updated": ""
+   }
+  ],
+  "research": {
+   "status": "stub"
+  }
+ },
+ {
+  "id": "dc33-cydefe-labs-llc-listed-for-def-con-33-no-details",
+  "title": "CyDefe Labs LLC (listed for DEF CON 33, no details)",
+  "type": "unknown",
+  "event": "dc33",
+  "event_name": "DEF CON 33",
+  "year": 2025,
+  "makers": [
+   {
+    "name": "CyDefe Labs LLC"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed_no_details",
+  "links": [],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "sheet",
+    "event": "dc33",
+    "row": 30,
+    "tab": "2025 (expected makers)",
+    "updated": ""
+   }
+  ],
+  "research": {
+   "status": "stub"
+  }
+ },
+ {
+  "id": "dc33-dc-punks-kay-kidoutai-and-neonplaidpants-listed-for-def-con",
+  "title": "DC Punks (Kay Kidoutai and NeonPlaidPants) (listed for DEF CON 33, no details)",
+  "type": "unknown",
+  "event": "dc33",
+  "event_name": "DEF CON 33",
+  "year": 2025,
+  "makers": [
+   {
+    "name": "DC Punks (Kay Kidoutai and NeonPlaidPants)"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed_no_details",
+  "links": [],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "sheet",
+    "event": "dc33",
+    "row": 32,
+    "tab": "2025 (expected makers)",
+    "updated": ""
+   }
+  ],
+  "research": {
+   "status": "stub"
+  }
+ },
+ {
+  "id": "dc33-listed-for-def-con-33-no-details",
+  "title": "DC31 (listed for DEF CON 33, no details)",
+  "type": "unknown",
+  "event": "dc33",
+  "event_name": "DEF CON 33",
+  "year": 2025,
+  "makers": [
+   {
+    "name": "DC31"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed_no_details",
+  "links": [],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "sheet",
+    "event": "dc33",
+    "row": 33,
+    "tab": "2025 (expected makers)",
+    "updated": ""
+   }
+  ],
+  "research": {
+   "status": "stub"
+  }
+ },
+ {
+  "id": "dc33-dc512-listed-for-def-con-33-no-details",
+  "title": "DC512 (listed for DEF CON 33, no details)",
+  "type": "unknown",
+  "event": "dc33",
+  "event_name": "DEF CON 33",
+  "year": 2025,
+  "makers": [
+   {
+    "name": "DC512"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed_no_details",
+  "links": [],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "sheet",
+    "event": "dc33",
+    "row": 34,
+    "tab": "2025 (expected makers)",
+    "updated": ""
+   }
+  ],
+  "research": {
+   "status": "stub"
+  }
+ },
+ {
+  "id": "dc33-dc540-listed-for-def-con-33-no-details",
+  "title": "DC540 (listed for DEF CON 33, no details)",
+  "type": "unknown",
+  "event": "dc33",
+  "event_name": "DEF CON 33",
+  "year": 2025,
+  "makers": [
+   {
+    "name": "DC540"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed_no_details",
+  "links": [],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "sheet",
+    "event": "dc33",
+    "row": 35,
+    "tab": "2025 (expected makers)",
+    "updated": ""
+   }
+  ],
+  "research": {
+   "status": "stub"
+  }
+ },
+ {
+  "id": "dc33-dc-enterprise-listed-for-def-con-33-no-details",
+  "title": "DC Enterprise (listed for DEF CON 33, no details)",
+  "type": "unknown",
+  "event": "dc33",
+  "event_name": "DEF CON 33",
+  "year": 2025,
+  "makers": [
+   {
+    "name": "DC Enterprise"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed_no_details",
+  "links": [],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "sheet",
+    "event": "dc33",
+    "row": 36,
+    "tab": "2025 (expected makers)",
+    "updated": ""
+   }
+  ],
+  "research": {
+   "status": "stub"
+  }
+ },
+ {
+  "id": "dc33-defcon-furs-listed-for-def-con-33-no-details",
+  "title": "DEFCON Furs (listed for DEF CON 33, no details)",
+  "type": "unknown",
+  "event": "dc33",
+  "event_name": "DEF CON 33",
+  "year": 2025,
+  "makers": [
+   {
+    "name": "DEFCON Furs"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed_no_details",
+  "links": [],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "sheet",
+    "event": "dc33",
+    "row": 38,
+    "tab": "2025 (expected makers)",
+    "updated": ""
+   }
+  ],
+  "research": {
+   "status": "stub"
+  }
+ },
+ {
+  "id": "dc33-distimctm1nd-listed-for-def-con-33-no-details",
+  "title": "distimctm1nd (listed for DEF CON 33, no details)",
+  "type": "unknown",
+  "event": "dc33",
+  "event_name": "DEF CON 33",
+  "year": 2025,
+  "makers": [
+   {
+    "name": "distimctm1nd"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed_no_details",
+  "links": [],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "sheet",
+    "event": "dc33",
+    "row": 40,
+    "tab": "2025 (expected makers)",
+    "updated": ""
+   }
+  ],
+  "research": {
+   "status": "stub"
+  }
+ },
+ {
+  "id": "dc33-el-jefe-de-security-listed-for-def-con-33-no-details",
+  "title": "El Jefe de Security (listed for DEF CON 33, no details)",
+  "type": "unknown",
+  "event": "dc33",
+  "event_name": "DEF CON 33",
+  "year": 2025,
+  "makers": [
+   {
+    "name": "El Jefe de Security"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed_no_details",
+  "links": [],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "sheet",
+    "event": "dc33",
+    "row": 41,
+    "tab": "2025 (expected makers)",
+    "updated": ""
+   }
+  ],
+  "research": {
+   "status": "stub"
+  }
+ },
+ {
+  "id": "dc33-embedded-systems-village-listed-for-def-con-33-no-details",
+  "title": "Embedded Systems Village (listed for DEF CON 33, no details)",
+  "type": "unknown",
+  "event": "dc33",
+  "event_name": "DEF CON 33",
+  "year": 2025,
+  "makers": [
+   {
+    "name": "Embedded Systems Village"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed_no_details",
+  "links": [],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "sheet",
+    "event": "dc33",
+    "row": 42,
+    "tab": "2025 (expected makers)",
+    "updated": ""
+   }
+  ],
+  "research": {
+   "status": "stub"
+  }
+ },
+ {
+  "id": "dc33-florida-man-listed-for-def-con-33-no-details",
+  "title": "Florida Man (listed for DEF CON 33, no details)",
+  "type": "unknown",
+  "event": "dc33",
+  "event_name": "DEF CON 33",
+  "year": 2025,
+  "makers": [
+   {
+    "name": "Florida Man"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed_no_details",
+  "links": [],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "sheet",
+    "event": "dc33",
+    "row": 43,
+    "tab": "2025 (expected makers)",
+    "updated": ""
+   }
+  ],
+  "research": {
+   "status": "stub"
+  }
+ },
+ {
+  "id": "dc33-garrett-hacker-warehouse-listed-for-def-con-33-no-details",
+  "title": "Garrett / Hacker Warehouse (listed for DEF CON 33, no details)",
+  "type": "unknown",
+  "event": "dc33",
+  "event_name": "DEF CON 33",
+  "year": 2025,
+  "makers": [
+   {
+    "name": "Garrett / Hacker Warehouse"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed_no_details",
+  "links": [],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "sheet",
+    "event": "dc33",
+    "row": 44,
+    "tab": "2025 (expected makers)",
+    "updated": ""
+   }
+  ],
+  "research": {
+   "status": "stub"
+  }
+ },
+ {
+  "id": "dc33-goonboxbadge-mk-factor-listed-for-def-con-33-no-details",
+  "title": "GoonBoxBadge (MK Factor) (listed for DEF CON 33, no details)",
+  "type": "unknown",
+  "event": "dc33",
+  "event_name": "DEF CON 33",
+  "year": 2025,
+  "makers": [
+   {
+    "name": "GoonBoxBadge (MK Factor)"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed_no_details",
+  "links": [],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "sheet",
+    "event": "dc33",
+    "row": 46,
+    "tab": "2025 (expected makers)",
+    "updated": ""
+   }
+  ],
+  "research": {
+   "status": "stub"
+  }
+ },
+ {
+  "id": "dc33-gothcon-listed-for-def-con-33-no-details",
+  "title": "GothCon (listed for DEF CON 33, no details)",
+  "type": "unknown",
+  "event": "dc33",
+  "event_name": "DEF CON 33",
+  "year": 2025,
+  "makers": [
+   {
+    "name": "GothCon"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed_no_details",
+  "links": [],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "sheet",
+    "event": "dc33",
+    "row": 47,
+    "tab": "2025 (expected makers)",
+    "updated": ""
+   }
+  ],
+  "research": {
+   "status": "stub"
+  }
+ },
+ {
+  "id": "dc33-grrcon-listed-for-def-con-33-no-details",
+  "title": "GrrCON (listed for DEF CON 33, no details)",
+  "type": "unknown",
+  "event": "dc33",
+  "event_name": "DEF CON 33",
+  "year": 2025,
+  "makers": [
+   {
+    "name": "GrrCON"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed_no_details",
+  "links": [],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "sheet",
+    "event": "dc33",
+    "row": 48,
+    "tab": "2025 (expected makers)",
+    "updated": ""
+   }
+  ],
+  "research": {
+   "status": "stub"
+  }
+ },
+ {
+  "id": "dc33-hackerboxes-listed-for-def-con-33-no-details",
+  "title": "HackerBoxes (listed for DEF CON 33, no details)",
+  "type": "unknown",
+  "event": "dc33",
+  "event_name": "DEF CON 33",
+  "year": 2025,
+  "makers": [
+   {
+    "name": "HackerBoxes"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed_no_details",
+  "links": [],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "sheet",
+    "event": "dc33",
+    "row": 49,
+    "tab": "2025 (expected makers)",
+    "updated": ""
+   }
+  ],
+  "research": {
+   "status": "stub"
+  }
+ },
+ {
+  "id": "dc33-h4rl0d-listed-for-def-con-33-no-details",
+  "title": "H4rl0d (listed for DEF CON 33, no details)",
+  "type": "unknown",
+  "event": "dc33",
+  "event_name": "DEF CON 33",
+  "year": 2025,
+  "makers": [
+   {
+    "name": "H4rl0d"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed_no_details",
+  "links": [],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "sheet",
+    "event": "dc33",
+    "row": 50,
+    "tab": "2025 (expected makers)",
+    "updated": ""
+   }
+  ],
+  "research": {
+   "status": "stub"
+  }
+ },
+ {
+  "id": "dc33-ics-village-listed-for-def-con-33-no-details",
+  "title": "ICS Village (listed for DEF CON 33, no details)",
+  "type": "unknown",
+  "event": "dc33",
+  "event_name": "DEF CON 33",
+  "year": 2025,
+  "makers": [
+   {
+    "name": "ICS Village"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed_no_details",
+  "links": [],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "sheet",
+    "event": "dc33",
+    "row": 52,
+    "tab": "2025 (expected makers)",
+    "updated": ""
+   }
+  ],
+  "research": {
+   "status": "stub"
+  }
+ },
+ {
+  "id": "dc33-rex-listed-for-def-con-33-no-details",
+  "title": "Rex (listed for DEF CON 33, no details)",
+  "type": "unknown",
+  "event": "dc33",
+  "event_name": "DEF CON 33",
+  "year": 2025,
+  "makers": [
+   {
+    "name": "Rex"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed_no_details",
+  "links": [],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "sheet",
+    "event": "dc33",
+    "row": 53,
+    "tab": "2025 (expected makers)",
+    "updated": ""
+   }
+  ],
+  "research": {
+   "status": "stub"
+  }
+ },
+ {
+  "id": "dc33-ironwood-cyber-listed-for-def-con-33-no-details",
+  "title": "Ironwood Cyber (listed for DEF CON 33, no details)",
+  "type": "unknown",
+  "event": "dc33",
+  "event_name": "DEF CON 33",
+  "year": 2025,
+  "makers": [
+   {
+    "name": "Ironwood Cyber"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed_no_details",
+  "links": [],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "sheet",
+    "event": "dc33",
+    "row": 54,
+    "tab": "2025 (expected makers)",
+    "updated": ""
+   }
+  ],
+  "research": {
+   "status": "stub"
+  }
+ },
+ {
+  "id": "dc33-jollybadge-listed-for-def-con-33-no-details",
+  "title": "JollyBadge (listed for DEF CON 33, no details)",
+  "type": "unknown",
+  "event": "dc33",
+  "event_name": "DEF CON 33",
+  "year": 2025,
+  "makers": [
+   {
+    "name": "JollyBadge"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed_no_details",
+  "links": [],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "sheet",
+    "event": "dc33",
+    "row": 55,
+    "tab": "2025 (expected makers)",
+    "updated": ""
+   }
+  ],
+  "research": {
+   "status": "stub"
+  }
+ },
+ {
+  "id": "dc33-k4r4koyun-listed-for-def-con-33-no-details",
+  "title": "K4r4koyun (listed for DEF CON 33, no details)",
+  "type": "unknown",
+  "event": "dc33",
+  "event_name": "DEF CON 33",
+  "year": 2025,
+  "makers": [
+   {
+    "name": "K4r4koyun"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed_no_details",
+  "links": [],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "sheet",
+    "event": "dc33",
+    "row": 56,
+    "tab": "2025 (expected makers)",
+    "updated": ""
+   }
+  ],
+  "research": {
+   "status": "stub"
+  }
+ },
+ {
+  "id": "dc33-kernalkrash-listed-for-def-con-33-no-details",
+  "title": "KernalKrash (listed for DEF CON 33, no details)",
+  "type": "unknown",
+  "event": "dc33",
+  "event_name": "DEF CON 33",
+  "year": 2025,
+  "makers": [
+   {
+    "name": "KernalKrash"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed_no_details",
+  "links": [],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "sheet",
+    "event": "dc33",
+    "row": 57,
+    "tab": "2025 (expected makers)",
+    "updated": ""
+   }
+  ],
+  "research": {
+   "status": "stub"
+  }
+ },
+ {
+  "id": "dc33-metan3rd-listed-for-def-con-33-no-details",
+  "title": "MetaN3rd (listed for DEF CON 33, no details)",
+  "type": "unknown",
+  "event": "dc33",
+  "event_name": "DEF CON 33",
+  "year": 2025,
+  "makers": [
+   {
+    "name": "MetaN3rd"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed_no_details",
+  "links": [],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "sheet",
+    "event": "dc33",
+    "row": 59,
+    "tab": "2025 (expected makers)",
+    "updated": ""
+   }
+  ],
+  "research": {
+   "status": "stub"
+  }
+ },
+ {
+  "id": "dc33-nerfhammer-listed-for-def-con-33-no-details",
+  "title": "Nerfhammer (listed for DEF CON 33, no details)",
+  "type": "unknown",
+  "event": "dc33",
+  "event_name": "DEF CON 33",
+  "year": 2025,
+  "makers": [
+   {
+    "name": "Nerfhammer"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed_no_details",
+  "links": [],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "sheet",
+    "event": "dc33",
+    "row": 60,
+    "tab": "2025 (expected makers)",
+    "updated": ""
+   }
+  ],
+  "research": {
+   "status": "stub"
+  }
+ },
+ {
+  "id": "dc33-ninjaican-listed-for-def-con-33-no-details",
+  "title": "Ninjaican (listed for DEF CON 33, no details)",
+  "type": "unknown",
+  "event": "dc33",
+  "event_name": "DEF CON 33",
+  "year": 2025,
+  "makers": [
+   {
+    "name": "Ninjaican"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed_no_details",
+  "links": [],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "sheet",
+    "event": "dc33",
+    "row": 62,
+    "tab": "2025 (expected makers)",
+    "updated": ""
+   }
+  ],
+  "research": {
+   "status": "stub"
+  }
+ },
+ {
+  "id": "dc33-otter-listed-for-def-con-33-no-details",
+  "title": "Otter (listed for DEF CON 33, no details)",
+  "type": "unknown",
+  "event": "dc33",
+  "event_name": "DEF CON 33",
+  "year": 2025,
+  "makers": [
+   {
+    "name": "Otter"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed_no_details",
+  "links": [],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "sheet",
+    "event": "dc33",
+    "row": 63,
+    "tab": "2025 (expected makers)",
+    "updated": ""
+   }
+  ],
+  "research": {
+   "status": "stub"
+  }
+ },
+ {
+  "id": "dc33-office-of-the-national-cyber-director-i-e-the-feds-listed-fo",
+  "title": "Office of the National Cyber Director (i.e., the feds) (listed for DEF CON 33, no details)",
+  "type": "unknown",
+  "event": "dc33",
+  "event_name": "DEF CON 33",
+  "year": 2025,
+  "makers": [
+   {
+    "name": "Office of the National Cyber Director (i.e., the feds)"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed_no_details",
+  "links": [],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "sheet",
+    "event": "dc33",
+    "row": 64,
+    "tab": "2025 (expected makers)",
+    "updated": ""
+   }
+  ],
+  "research": {
+   "status": "stub"
+  }
+ },
+ {
+  "id": "dc33-p0ns-idk-listed-for-def-con-33-no-details",
+  "title": "p0ns/idk (listed for DEF CON 33, no details)",
+  "type": "unknown",
+  "event": "dc33",
+  "event_name": "DEF CON 33",
+  "year": 2025,
+  "makers": [
+   {
+    "name": "p0ns/idk"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed_no_details",
+  "links": [],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "sheet",
+    "event": "dc33",
+    "row": 65,
+    "tab": "2025 (expected makers)",
+    "updated": ""
+   }
+  ],
+  "research": {
+   "status": "stub"
+  }
+ },
+ {
+  "id": "dc33-redactd-listed-for-def-con-33-no-details",
+  "title": "redactd (listed for DEF CON 33, no details)",
+  "type": "unknown",
+  "event": "dc33",
+  "event_name": "DEF CON 33",
+  "year": 2025,
+  "makers": [
+   {
+    "name": "redactd"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed_no_details",
+  "links": [],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "sheet",
+    "event": "dc33",
+    "row": 66,
+    "tab": "2025 (expected makers)",
+    "updated": ""
+   }
+  ],
+  "research": {
+   "status": "stub"
+  }
+ },
+ {
+  "id": "dc33-red-society-club-listed-for-def-con-33-no-details",
+  "title": "Red Society Club (listed for DEF CON 33, no details)",
+  "type": "unknown",
+  "event": "dc33",
+  "event_name": "DEF CON 33",
+  "year": 2025,
+  "makers": [
+   {
+    "name": "Red Society Club"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed_no_details",
+  "links": [],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "sheet",
+    "event": "dc33",
+    "row": 67,
+    "tab": "2025 (expected makers)",
+    "updated": ""
+   }
+  ],
+  "research": {
+   "status": "stub"
+  }
+ },
+ {
+  "id": "dc33-red-string-studio-x-the-crow-pigeon-listed-for-def-con-33-no",
+  "title": "Red String Studio x The Crow & Pigeon (listed for DEF CON 33, no details)",
+  "type": "unknown",
+  "event": "dc33",
+  "event_name": "DEF CON 33",
+  "year": 2025,
+  "makers": [
+   {
+    "name": "Red String Studio x The Crow & Pigeon"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed_no_details",
+  "links": [],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "sheet",
+    "event": "dc33",
+    "row": 68,
+    "tab": "2025 (expected makers)",
+    "updated": ""
+   }
+  ],
+  "research": {
+   "status": "stub"
+  }
+ },
+ {
+  "id": "dc33-red-team-village-listed-for-def-con-33-no-details",
+  "title": "Red Team Village (listed for DEF CON 33, no details)",
+  "type": "unknown",
+  "event": "dc33",
+  "event_name": "DEF CON 33",
+  "year": 2025,
+  "makers": [
+   {
+    "name": "Red Team Village"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed_no_details",
+  "links": [],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "sheet",
+    "event": "dc33",
+    "row": 69,
+    "tab": "2025 (expected makers)",
+    "updated": ""
+   }
+  ],
+  "research": {
+   "status": "stub"
+  }
+ },
+ {
+  "id": "dc33-reloadrtr-listed-for-def-con-33-no-details",
+  "title": "Reloadrtr (listed for DEF CON 33, no details)",
+  "type": "unknown",
+  "event": "dc33",
+  "event_name": "DEF CON 33",
+  "year": 2025,
+  "makers": [
+   {
+    "name": "Reloadrtr"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed_no_details",
+  "links": [],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "sheet",
+    "event": "dc33",
+    "row": 70,
+    "tab": "2025 (expected makers)",
+    "updated": ""
+   }
+  ],
+  "research": {
+   "status": "stub"
+  }
+ },
+ {
+  "id": "dc33-shenanigans-r-us-listed-for-def-con-33-no-details",
+  "title": "Shenanigans-R-Us (listed for DEF CON 33, no details)",
+  "type": "unknown",
+  "event": "dc33",
+  "event_name": "DEF CON 33",
+  "year": 2025,
+  "makers": [
+   {
+    "name": "Shenanigans-R-Us"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed_no_details",
+  "links": [],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "sheet",
+    "event": "dc33",
+    "row": 72,
+    "tab": "2025 (expected makers)",
+    "updated": ""
+   }
+  ],
+  "research": {
+   "status": "stub"
+  }
+ },
+ {
+  "id": "dc33-space-bits-r-us-listed-for-def-con-33-no-details",
+  "title": "Space Bits 'R Us (listed for DEF CON 33, no details)",
+  "type": "unknown",
+  "event": "dc33",
+  "event_name": "DEF CON 33",
+  "year": 2025,
+  "makers": [
+   {
+    "name": "Space Bits 'R Us"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed_no_details",
+  "links": [],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "sheet",
+    "event": "dc33",
+    "row": 75,
+    "tab": "2025 (expected makers)",
+    "updated": ""
+   }
+  ],
+  "research": {
+   "status": "stub"
+  }
+ },
+ {
+  "id": "dc33-t9ck-listed-for-def-con-33-no-details",
+  "title": "T9ck (listed for DEF CON 33, no details)",
+  "type": "unknown",
+  "event": "dc33",
+  "event_name": "DEF CON 33",
+  "year": 2025,
+  "makers": [
+   {
+    "name": "T9ck"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed_no_details",
+  "links": [],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "sheet",
+    "event": "dc33",
+    "row": 76,
+    "tab": "2025 (expected makers)",
+    "updated": ""
+   }
+  ],
+  "research": {
+   "status": "stub"
+  }
+ },
+ {
+  "id": "dc33-th0m4s-listed-for-def-con-33-no-details",
+  "title": "Th0m4s (listed for DEF CON 33, no details)",
+  "type": "unknown",
+  "event": "dc33",
+  "event_name": "DEF CON 33",
+  "year": 2025,
+  "makers": [
+   {
+    "name": "Th0m4s"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed_no_details",
+  "links": [],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "sheet",
+    "event": "dc33",
+    "row": 78,
+    "tab": "2025 (expected makers)",
+    "updated": ""
+   }
+  ],
+  "research": {
+   "status": "stub"
+  }
+ },
+ {
+  "id": "dc33-the-mad-hatters-listed-for-def-con-33-no-details",
+  "title": "The Mad Hatters (listed for DEF CON 33, no details)",
+  "type": "unknown",
+  "event": "dc33",
+  "event_name": "DEF CON 33",
+  "year": 2025,
+  "makers": [
+   {
+    "name": "The Mad Hatters"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed_no_details",
+  "links": [],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "sheet",
+    "event": "dc33",
+    "row": 79,
+    "tab": "2025 (expected makers)",
+    "updated": ""
+   }
+  ],
+  "research": {
+   "status": "stub"
+  }
+ },
+ {
+  "id": "dc33-tor-project-listed-for-def-con-33-no-details",
+  "title": "Tor Project (listed for DEF CON 33, no details)",
+  "type": "unknown",
+  "event": "dc33",
+  "event_name": "DEF CON 33",
+  "year": 2025,
+  "makers": [
+   {
+    "name": "Tor Project"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed_no_details",
+  "links": [],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "sheet",
+    "event": "dc33",
+    "row": 80,
+    "tab": "2025 (expected makers)",
+    "updated": ""
+   }
+  ],
+  "research": {
+   "status": "stub"
+  }
+ },
+ {
+  "id": "dc33-uberwoozle-listed-for-def-con-33-no-details",
+  "title": "Uberwoozle (listed for DEF CON 33, no details)",
+  "type": "unknown",
+  "event": "dc33",
+  "event_name": "DEF CON 33",
+  "year": 2025,
+  "makers": [
+   {
+    "name": "Uberwoozle"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed_no_details",
+  "links": [],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "sheet",
+    "event": "dc33",
+    "row": 82,
+    "tab": "2025 (expected makers)",
+    "updated": ""
+   }
+  ],
+  "research": {
+   "status": "stub"
+  }
+ },
+ {
+  "id": "dc33-whiskey-pirate-crew-not-badgelife-listed-for-def-con-33-no-d",
+  "title": "Whiskey Pirate Crew (not badgelife) (listed for DEF CON 33, no details)",
+  "type": "unknown",
+  "event": "dc33",
+  "event_name": "DEF CON 33",
+  "year": 2025,
+  "makers": [
+   {
+    "name": "Whiskey Pirate Crew (not badgelife)"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed_no_details",
+  "links": [],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "sheet",
+    "event": "dc33",
+    "row": 85,
+    "tab": "2025 (expected makers)",
+    "updated": ""
+   }
+  ],
+  "research": {
+   "status": "stub"
+  }
+ },
+ {
+  "id": "dc33-wireless-village-listed-for-def-con-33-no-details",
+  "title": "Wireless Village (listed for DEF CON 33, no details)",
+  "type": "unknown",
+  "event": "dc33",
+  "event_name": "DEF CON 33",
+  "year": 2025,
+  "makers": [
+   {
+    "name": "Wireless Village"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed_no_details",
+  "links": [],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "sheet",
+    "event": "dc33",
+    "row": 86,
+    "tab": "2025 (expected makers)",
+    "updated": ""
+   }
+  ],
+  "research": {
+   "status": "stub"
+  }
+ },
+ {
   "id": "dc34-2026-choose-your-own-charity-echallengecoin",
   "title": "2026 “Choose Your Own Charity” eChallengeCoin",
   "type": "badge",
