@@ -12,7 +12,7 @@ makers:
 - name: seeess
   url: https://github.com/seeess
 summary: 'A bottle-shaped DEF CON 33 electronic badge that uses galvanic vestibular stimulation: conductive pads held behind the wearer''s ears by a headband carry a few milliamps that shift the sense of balance left or right, or make the wearer wobble. Sold at the Hacker Warehouse booth for $100, with half the profits going to the Tor Project.'
-functions: 'Calibration mode (checks that at least 0.12 mA is flowing through the pads); Steering mode to push the wearer''s balance left or right; Wobble mode that pushes back and forth quickly; a Stroop-effect color game that zaps you on right or wrong answers to test positive versus negative reinforcement; Bling mode that shows pictures, with custom 128x160 .tga images loaded over USB mass storage; a waterfall graph of pad voltage and current; a low-battery warning. Zapping only happens while the in-line ZAP button is held, and is blocked while USB is plugged in. ~5 mA hardware current limit with 2, 3 and 4 mA software targets.'
+functions: 'Calibration mode (the output stays deliberately limited until more than 0.12 mA flows through the pads); Steering mode to push the wearer''s balance left or right; Wobble mode that pushes back and forth quickly; a Stroop-effect color game that zaps you on right or wrong answers to test positive versus negative reinforcement; Bling mode that shows pictures, with custom 128x160 .tga images loaded over USB mass storage; a waterfall graph of pad voltage and current; a low-battery warning. Zapping only happens while the in-line ZAP button is held. USB detection: entering a zap mode with USB plugged in cuts the output and shows a warning screen, which the firmware lets you override by holding a button. ~5 mA hardware current limit with 2, 3 and 4 mA software targets.'
 look:
   colors:
   - black
@@ -25,9 +25,9 @@ look:
 tech:
   mcu: RP2040
   leds:
-    count: null
-    type: null
-    note: Rear-mounted LEDs per the maker's forum post; count and type not stated.
+    count: 12
+    type: charlieplexed
+    note: 12 orange charlieplexed LEDs driven from four pins per the firmware (tipsy/led.cpp), rear-mounted per the maker's forum post; plus red and green status LEDs.
   display: '1.77" 160x128 RGB565 color TFT'
   connectivity:
   - usb
@@ -116,7 +116,7 @@ sources:
   url: https://github.com/seeess/Defcon-Tipsy-33-Badge
   title: 'GitHub - seeess/Defcon-Tipsy-33-Badge: Defcon Tipsy Badge / Volt 4.5 ma'
   accessed: '2026-09-06'
-  note: README supported the modes, hardware specs (RP2040, 2 MB flash, 2x AAA, one 1.69bis SAO port, USB-C, 1.77" 160x128 TFT), safety limits, included items, Tor donation, custom-photo and flashing steps; file tree and CC BY-NC 4.0 LICENSE; repo created 2025-07-18.
+  note: README supported the modes, hardware specs (RP2040, 2 MB flash, 2x AAA, one 1.69bis SAO port, USB-C, 1.77" 160x128 TFT), safety limits, included items, Tor donation, custom-photo and flashing steps; file tree and CC BY-NC 4.0 LICENSE; repo created 2025-07-18. Fact-check also read tipsy/led.cpp (12 orange charlieplexed LEDs) and tipsy/tipsy.ino (USB warning screen with hold-to-override).
 - kind: url
   url: https://forum.defcon.org/node/253193
   title: Tipsy Electronic Badge - DEF CON Forums
@@ -136,7 +136,7 @@ sources:
   url: https://www.youtube.com/watch?v=kScSm-BZAsY
   title: Defcon Tipsy Electronic Badge Overview (YouTube, channel 533ess)
   accessed: '2026-09-06'
-  note: Maker's overview video linked from the README and forum post; title and channel confirmed via YouTube oEmbed only, video not watched.
+  note: Maker's overview video linked from the README and forum post; published 2025-07-23, description is just the repo link. Title, channel and date confirmed from the watch page; video not watched.
 - kind: url
   url: https://www.youtube.com/watch?v=hKLow2hkLxQ
   title: DEF CON 33 Video Team - TipsyBadge (YouTube, DEFCONConference)
@@ -146,20 +146,20 @@ sources:
   url: https://www.youtube.com/watch?v=lD6AmXMeXt0
   title: Electronic Tipsy Badge at DEF CON (YouTube, DeviantOllam)
   accessed: '2026-09-06'
-  note: Third-party video about the badge; title and channel confirmed via YouTube oEmbed only, video not watched.
+  note: 'Third-party video published 2025-08-20; its description calls it a DEF CON 33 video about a friend''s badge and relays the maker''s note that badges were still available and would be on hackerwarehouse.com within a week. Title, date and description read from the watch page; video not watched.'
 research:
-  status: researched
+  status: verified
   confidence: high
   last_checked: '2026-09-06'
-  notes: 'Core facts confirmed from the maker''s own README, forum post and X posts. Not found: number made, LED count/type, the second collaborator''s name (redacted on the sheet), and any schematic/PCB files (the repo has firmware and STLs only, so open_source is partial even though the maker describes it as open source). Price is $100 from the maker; Hacker Warehouse later showed it marked down to $75 and out of stock. Videos were identified by title only, not watched. No Hackaday.io, Tindie, PCBWay/OSH Park or press coverage turned up in searches.'
+  notes: 'Core facts confirmed from the maker''s own README, forum post and X posts. Fact-check 2026-09-06: every cited source re-opened; the sheet row confirmed the contact email and maker wording; the three images match the README and Hacker Warehouse photos. Corrected from the firmware: 12 orange charlieplexed LEDs (led.cpp), and USB detection shows an overridable warning rather than blocking zapping (tipsy.ino). Not found: number made, the second collaborator''s name (redacted on the sheet), and any schematic/PCB files (the repo has firmware and STLs only, so open_source is partial even though the maker describes it as open source). Price is $100 from the maker; Hacker Warehouse later showed it marked down to $75 and out of stock. Videos were identified by title, date and description only, not watched. No Hackaday.io, Tindie, PCBWay/OSH Park or press coverage turned up in searches.'
 last_modified_date: '2026-09-06'
 ---
 
-The Tipsy Badge is seeess's DEF CON 33 badge, a follow-on to the Tor badges the same maker sold at DEF CON 31 and 32. It is shaped like a bottle, with a striped cap at the neck and "Volt 4.5" in large script down the front, and the joke is in the name: it makes you tipsy. A headband holds two conductive pads behind your ears, a 3.5 mm lead plugs into the neck of the bottle, and while you hold the yellow ZAP!! button the badge drives a small current (a hardware limit of about 5 mA, with 2, 3 and 4 mA software targets) across your vestibular system. Steering mode pushes your balance left or right so you can "drive" yourself around; wobble mode rocks you back and forth. There is also a Stroop-effect color game that zaps you on right or wrong answers so you can find out whether reward or punishment improves your score.
+The Tipsy Badge is seeess's DEF CON 33 badge; the same GitHub account also holds Tor badge and SAO repos for DEF CON 27 through 32. It is shaped like a bottle, with a striped cap at the neck and "Volt 4.5" in large script down the front, and the name is the joke: it throws off your balance. A headband holds two conductive pads behind your ears, a 3.5 mm lead plugs into the neck of the bottle, and while you hold the yellow ZAP!! button the badge drives a small current (a hardware limit of about 5 mA, with 2, 3 and 4 mA software targets) across your vestibular system. Steering mode pushes your balance left or right so you can "drive" yourself around; wobble mode rocks you back and forth. There is also a Stroop-effect color game that zaps you on right or wrong answers so you can find out whether reward or punishment improves your score.
 
-Under the hood it is an RP2040 with 2 MB of flash, a 1.77" 160x128 color TFT, rear-mounted LEDs, a four-way d-pad plus A and B buttons, a single 1.69bis SAO header, USB-C and two AAA cells. Half of the flash is exposed as a USB mass-storage drive holding pictures for the bling mode; you can add your own as 128x160 RLE-compressed TGA files. The maker built in several safeguards: the zap button sits in line with the pad power, zapping is disabled when USB is connected, and the README opens with a long disclaimer (adults only, sit down the first time, stay away from stairs). Electrodes, headband, lube, a lanyard, spare batteries and a battery clip came in the box.
+Under the hood it is an RP2040 with 2 MB of flash, a 1.77" 160x128 color TFT, rear-mounted LEDs, a four-way d-pad plus A and B buttons, a single 1.69bis SAO header, USB-C and two AAA cells. Half of the flash is exposed as a USB mass-storage drive holding pictures for the bling mode; you can add your own as 128x160 RLE-compressed TGA files. The maker built in several safeguards: the zap button sits in line with the pad power, entering a zap mode with USB connected cuts the output and shows a warning screen (which can be overridden by holding a button), and the README opens with a long disclaimer (adults only, sit down the first time, stay away from stairs). Electrodes, headband, lube, a lanyard, spare batteries and a battery clip came in the box.
 
-It was announced on the DEF CON forums on 23 July 2025 and sold for $100 at the Hacker Warehouse booth in the DEF CON 33 vendor area, with half of the profits donated to the Tor Project; the maker says they fronted all development costs and charge nothing for their time. Hacker Warehouse later listed it online at $75, out of stock. The DEF CON Video Team and Deviant Ollam both posted short videos of people trying it on the con floor.
+It was announced on the DEF CON forums on 23 July 2025 and sold for $100 at the Hacker Warehouse booth in the DEF CON 33 vendor area, with half of the profits donated to the Tor Project; the maker says they fronted all development costs and charge nothing for their time. Hacker Warehouse later listed it online at $75, out of stock. Deviant Ollam (20 Aug 2025) and the DEF CON Video Team (9 Sep 2025) both posted short videos about the badge from DEF CON 33; Deviant's description relayed the maker's note that badges were still available and would reach hackerwarehouse.com within a week.
 
 ## Make your own
 

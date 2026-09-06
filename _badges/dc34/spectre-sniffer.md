@@ -43,7 +43,7 @@ tech:
 get_one:
   price: $80
   price_usd: 80.0
-  quantity: 80 (Uberflux drop counter shows 80 sold, 0 remaining)
+  quantity: "80 (Uberflux DEF CON 34 drop, 80 sold and 0 remaining; total number made not stated)"
   availability: sold_out
   availability_note: "Uberflux listing checked 2026-09-06: 0 remaining, 80 sold, only a NOTIFY ME button."
   distribution:
@@ -55,7 +55,7 @@ make_your_own:
   hardware_url: null
   firmware_url: null
   eda_tool: null
-  notes: "No hardware or firmware files for the badge itself were found. The bundled PAC-MAN Ghost SAO is published on GitHub with Gerbers, a pick-and-place file, a BOM and front/rear renders."
+  notes: "No hardware or firmware files for the badge itself were found. The May 2026 community-sheet entry said the badge would be released on NilbinSec's GitHub on day one of DEF CON, but none of the account's 14 repositories is for the Spectre Sniffer as of 2026-09-06. The bundled PAC-MAN Ghost SAO is published on GitHub with Gerbers, a pick-and-place file, a BOM and front/rear renders."
 links:
 - label: uberflux.com/product/NS-SpectreSniffer
   url: https://uberflux.com/product/NS-SpectreSniffer
@@ -116,7 +116,7 @@ sources:
   url: https://forum.defcon.org/node/255986
   title: Spectre Sniffer Badge by NilbinSec - DEF CON Forums
   accessed: '2026-09-06'
-  note: "Announcement by NilbinSec member 2PAC dated July 10, 2026: EMF ghost-hunting badge, $80 with one randomized PAC-MAN Ghost SAO, proceeds fund 1500+ free SAOs; same two photos as the storefront."
+  note: "Announcement by NilbinSec member 2PAC dated July 10, 2026: EMF ghost-hunting badge, $80 with one randomized PAC-MAN Ghost SAO, proceeds fund 1500+ free SAOs; two attached photos, the same front-of-badge and four-ghost-SAO photos as the storefront."
 - kind: url
   url: https://github.com/NilbinSec/PAC-MAN_Ghost_SAO
   title: NilbinSec/PAC-MAN_Ghost_SAO on GitHub
@@ -136,15 +136,15 @@ research:
   status: researched
   confidence: high
   last_checked: '2026-09-06'
-  notes: "Core facts come from the maker's own Uberflux listing and their DEF CON forum announcement. Not found: badge hardware or firmware files, the OLED size, LED count on the badge, a Hackaday.io page, press coverage, or any post-con photos from holders. Status is set to released because the Uberflux drop shows all 80 sold on a pickup-only item and DEF CON 34 has passed, not from a holder's report. The SAO colours disagree: the storefront and forum photos show purple, green, blue and red ghosts, while the SAO repository README says red, blue, purple and yellow. The defcon.social and X profiles returned 403 / were not fetched, so no social links were added beyond the sheet's handles. Searches tried: title + maker, title + DEF CON 34, maker + badge + 2026, title + SAO/ghost detector, title + GitHub/Hackaday/Reddit, title + hackaday/hackster roundup, social-site-restricted search."
+  notes: "Fact-checked 2026-09-06 against every cited source. The Uberflux listing supports the title, limited release, 1984 theme, XIAO ESP32S3, EMF spike graph, spirit box, SAO v1.69bis with I2C, 1-of-4 Pac-Man Ghost SAO, protected 18650 with lanyard, 1/2-player games, secrets, the legally distinct ghost, pickup-only drop rules, $80, 80 sold / 0 remaining and the tags; the forum post by 2PAC (July 10, 2026) supports the 1500+ free SAOs. The three photos are the storefront's own, and the forum's two attachments are the same front and four-SAO photos; the OLED, four buttons, buzzer, 18650 holder, single SAO header and the back silkscreen come from those photos. The contact block matches the community sheet rows, and the sheet's 'Badge Pre-orders with delivery at Defcon' supports preorder. Inferred rather than sourced: status released rests on a pickup-only drop showing 80 sold and DEF CON 34 having ended, not on a holder's report. Still unknown: total number made, OLED size, LED count, whether the XIAO's Wi-Fi/BLE is used. The SAO colours disagree: storefront and forum photos show purple, green, blue and red ghosts, while the PAC-MAN_Ghost_SAO README says red, blue, purple and yellow. The sheet said the badge would be released on GitHub on day one of DEF CON; none of NilbinSec's 14 repositories is for the badge. defcon.social returned 403 and X was not fetched; a search for post-con coverage found nothing beyond the sources already cited."
 last_modified_date: '2026-09-06'
 ---
-The Spectre Sniffer is NilbinSec's badge for DEF CON 34, sold as a limited release of 80 through Uberflux at $80 each. The maker pitches it as a nostalgia piece for the 1984 ghost-hunting era: the front is a red no-ghost sign, except the ghost inside it wears a screaming mask that the listing says has been "legally distinct-ified". An OLED module sits across the middle of the sign, a six-pin SAO v1.69bis header is on the ghost's left hand, and the back carries a Seeed XIAO ESP32S3 with its USB-C port, a buzzer, four tactile buttons and a holder for the included protected 18650 cell.
+The Spectre Sniffer is NilbinSec's badge for DEF CON 34, sold as a limited release of 80 through Uberflux at $80 each. The maker pitches it as a nostalgia piece for the 1984 ghost-hunting era: the front is a red no-ghost sign, except the ghost inside it wears a screaming mask that the listing says has been "legally distinct-ified". An OLED module sits across the middle of the sign, a six-pin SAO v1.69bis header sits on the ghost's hand at the left of the sign, and the back carries a Seeed XIAO ESP32S3 with its USB-C port, a buzzer, four tactile buttons and a holder for the included protected 18650 cell.
 
-Unlike the toy detectors it references, the badge actually measures something. Its EMF detector samples electromagnetic fields and draws a live spike graph, so the reading changes as the wearer moves around the con floor. A built-in spirit box pulls words from a randomized word bank, and the EMF level sets how quickly those words arrive: slow in a quiet room, fast during a spike. There are also one- and two-player arcade games, and NilbinSec says there are secrets on the badge, in the firmware and encoded on the back, in keeping with their earlier badges.
+Unlike the toy detectors it references, the badge actually measures something. Its EMF detector samples electromagnetic fields and draws a live spike graph, so the reading changes as the wearer moves around the con floor. A built-in spirit box pulls words from a randomized word bank, and the EMF level sets how quickly those words arrive: slow in a quiet room, fast during a spike. There are also one- and two-player arcade games, and NilbinSec says there are secrets on the badge, in the firmware and encoded on the back ("This is a NilbinSec badge. You know what that means.").
 
-Every badge shipped with one of NilbinSec's PAC-MAN Ghost SAOs, chosen at random from four colours, which plugs into the badge's SAO port. The badge was pickup only: buyers ordered online and collected at drops held at the Badgelife Village and announced spots around the LVCC on a published schedule, and any badge not collected was to be donated to a deserving hacker at closing ceremonies. Proceeds went toward NilbinSec's plan to give away more than 1500 free SAOs at Hacker Summer Camp 2026. By September 2026 the Uberflux listing showed all 80 sold.
+Every badge shipped with one of NilbinSec's PAC-MAN Ghost SAOs, chosen at random from four colours, which plugs into the badge's SAO port. The badge was pickup only: buyers ordered online and collected at drops held at the Badgelife Village and announced spots around the LVCC on a published schedule, and any badge not collected was to be donated to a deserving hacker at closing ceremonies. NilbinSec said the proceeds would fund its plan to give away more than 1500 free SAOs at Hacker Summer Camp 2026. By September 2026 the Uberflux listing showed all 80 sold.
 
 ## Make your own
 
-No design files for the badge itself have been published. The bundled PAC-MAN Ghost SAO is open on GitHub: the repository holds Gerbers, a pick-and-place file, a BOM (a 2x3 keyed header, two 160 R resistors and two 0807 fast-flash RGB LEDs) and front and rear renders, so the SAO can be ordered from any board house and hand-soldered.
+No design files for the badge itself have been published. The bundled PAC-MAN Ghost SAO is open on GitHub: the repository holds Gerbers, a pick-and-place file, a BOM (a 2x3 keyed header, two 160 R resistors and two 0807 fast-flash RGB LEDs) and front and rear renders, enough to have the SAO boards made and populated. The community sheet entry from May 2026 said the badge itself would be released on NilbinSec's GitHub on day one of DEF CON, but no such repository existed when checked in September 2026.
