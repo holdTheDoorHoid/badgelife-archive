@@ -2,7 +2,7 @@
 Lists every archive entry for one event as cards. Usage: {% include event_entries.html event="dc30" %}
 {%- endcomment -%}
 {%- assign ev = include.event -%}
-{%- assign entries = site.badges | where: "event", ev | sort_natural: "title" -%}
+{%- assign entries = site.badges | where: "event", ev | where_exp: "e", "e.status != 'not_an_item'" | sort_natural: "title" -%}
 {%- assign badges = entries | where: "type", "badge" -%}
 {%- assign saos = entries | where: "type", "sao" -%}
 {%- assign minis = entries | where: "type", "minibadge" -%}

@@ -47,6 +47,8 @@ def main():
             errors.append(f"{rel}: availability '{get['availability']}' not in {sorted(AVAIL)}")
         rs = (fm.get("research") or {}).get("status", "stub")
         if rs not in RESEARCH: errors.append(f"{rel}: research.status '{rs}' not in {sorted(RESEARCH)}")
+        if fm.get("status") == "not_an_item":
+            continue  # sheet rows that turned out not to be a badge/SAO stay on disk for provenance but are not listed
         parts = rel[len("_badges/"):-3].split("/")
         if len(parts) != 2: errors.append(f"{rel}: must be _badges/<event>/<slug>.md"); continue
         if parts[0] != ev: errors.append(f"{rel}: directory '{parts[0]}' != event '{ev}'")

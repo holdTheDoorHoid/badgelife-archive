@@ -10,9 +10,10 @@ A historical, searchable record of the electronic badges and SAOs (Shitty Add-On
 
 This is a community fork of the [badge.life](https://badge.life/) website, run by the Badgelife Village. It is **not** the village's site; it grew out of the village's yearly badge spreadsheets and the wider community's project pages, and it tries to keep all of that from disappearing. Corrections, additions and takedown requests are welcome on [GitHub]({{ site.gh_edit_repository }}/issues). See [About]({{ site.baseurl }}/about/) for how entries are researched and credited.
 
-{% assign n_all = site.badges | size %}
-{% assign n_badges = site.badges | where: "type", "badge" | size %}
-{% assign n_saos = site.badges | where: "type", "sao" | size %}
+{% assign listed = site.badges | where_exp: "e", "e.status != 'not_an_item'" %}
+{% assign n_all = listed | size %}
+{% assign n_badges = listed | where: "type", "badge" | size %}
+{% assign n_saos = listed | where: "type", "sao" | size %}
 {% assign n_events = 0 %}
 {% for pair in site.data.events %}{% assign c = site.badges | where: "event", pair[0] | size %}{% if c > 0 %}{% assign n_events = n_events | plus: 1 %}{% endif %}{% endfor %}
 
@@ -32,7 +33,7 @@ This is a community fork of the [badge.life](https://badge.life/) website, run b
 
 ## Recently updated
 
-{% assign recent = site.badges | sort: "last_modified_date" | reverse %}
+{% assign recent = listed | where_exp: "e", "e.research.status != 'stub'" | sort: "last_modified_date" | reverse %}
 <div class="ar-grid ar-grid-static">
 {%- for e in recent limit: 8 %}
   <a class="ar-card" href="{{ e.url | relative_url }}">
