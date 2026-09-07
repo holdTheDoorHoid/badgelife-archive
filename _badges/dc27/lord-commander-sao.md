@@ -51,14 +51,14 @@ links:
   url: https://www.pcbway.com/project/shareproject/Lord_Commander_DEFCON_27_Shitty_Add_On.html
   kind: fab
 images:
-  - file: assets/images/badges/dc27/lord-commander-sao/921d3b9de4.png
-    source: "https://github.com/cybr1d-cybr1d/Lord-Commander-SAO"
-    credit: "cybr1d-cybr1d (Jeremy Ward)"
-    caption: "Front of the Lord Commander SAO PCB"
-  - file: assets/images/badges/dc27/lord-commander-sao/36062b6e57.jpg
-    source: "https://github.com/cybr1d-cybr1d/Lord-Commander-SAO"
-    credit: "cybr1d-cybr1d (Jeremy Ward)"
-    caption: "Assembled Lord Commander SAO board"
+- file: assets/images/badges/dc27/lord-commander-sao/921d3b9de4.png
+  source: https://github.com/cybr1d-cybr1d/Lord-Commander-SAO
+  credit: cybr1d-cybr1d (Jeremy Ward)
+  caption: Front of the Lord Commander SAO PCB
+- file: assets/images/badges/dc27/lord-commander-sao/36062b6e57.jpg
+  source: https://github.com/cybr1d-cybr1d/Lord-Commander-SAO
+  credit: cybr1d-cybr1d (Jeremy Ward)
+  caption: Assembled Lord Commander SAO board
 contact: {}
 notes: []
 status: released
@@ -87,10 +87,19 @@ research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'Event corrected from "other" to dc27 (DEF CON 27, 2019) per the PCBWay listing title and repo creation date. Price, quantity made, and distribution method were not stated anywhere found; left empty. The GitHub repo carries no firmware because the board has none to program.'
+  notes: Event corrected from "other" to dc27 (DEF CON 27, 2019) per the PCBWay listing title and repo creation date. Price, quantity made, and distribution method were not stated anywhere found; left empty. The GitHub repo carries no firmware because the board has none to program.
 last_modified_date: '2026-09-07'
 redirect_from:
 - /badges/other/lord-commander-sao/
+model:
+  file: assets/models/dc27/lord-commander-sao.glb
+  method: gerber
+  source_file: .
+  generated: '2026-09-07'
+  bytes: 155024
+  size_mm:
+  - 100.0
+  - 94.0
 ---
 
 The Lord Commander SAO is a Shitty Add-On depicting the villain Lord Commander from the Netflix animated series *Final Space*. It was designed by Jeremy Ward, who publishes as cybr1d-cybr1d on GitHub, as his second SAO for DEF CON 27 in 2019. The board is a purple-soldermask, two-layer, 100 x 94 mm FR-4 PCB with white silkscreen artwork of the character, made to plug into a badge's v1.69bis (6-pin) SAO header.

@@ -44,7 +44,7 @@ get_one:
   - purchase
   where: Sold directly by redactd through their Tindie store.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/DC801/BM-Badge
   firmware_url: https://github.com/DC801/BM-Badge
   eda_tool: KiCad
@@ -58,9 +58,9 @@ links:
   kind: repo
 images:
 - file: assets/images/badges/dc28/dc801-black-mage-badge-bootleg-edition/a920c62e5a.jpg
-  source: "https://www.tindie.com/products/redactd/dc801-black-mage-badge-bootleg-edition/"
-  credit: "redactd"
-  caption: "DC801 Black Mage Badge - Bootleg Edition, black FR4/clear solder mask build"
+  source: https://www.tindie.com/products/redactd/dc801-black-mage-badge-bootleg-edition/
+  credit: redactd
+  caption: DC801 Black Mage Badge - Bootleg Edition, black FR4/clear solder mask build
 contact: {}
 notes:
 - Spotted by a research agent while working on a neighbouring entry (run 2).
@@ -87,6 +87,12 @@ research:
   last_checked: '2026-09-07'
   notes: This is an unofficial third-party reproduction ("bootleg") of the official DC801 Black Mage Badge, which DC801 designed and released for DEF CON 28; the underlying hardware/firmware repo is DC801's own, not redactd's. It is unclear whether redactd published separate design files for their bootleg variant specifically, or exactly how many units they made — the Tindie listing does not say. Product photos on the listing are dated mid-2022, well after DC28 (2020), consistent with this being a later independent run rather than an original-batch badge.
 last_modified_date: '2026-09-07'
+model:
+  file: assets/models/dc28/dc801-black-mage-badge-bootleg-edition.glb
+  method: kicad
+  source_file: Hardware/BackBoard/purplewizard.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 840184
 ---
 
 The DC801 Black Mage Badge began as DC801's official electronic badge platform for DEF CON 28: an open-source, KiCad-designed board built around a Nordic nRF52840, with a 2.4" touchscreen TFT, 27 tactile buttons, Bluetooth (including mesh), and a built-in adventure game. Because the hardware and firmware were released publicly under AGPL-3.0, other makers were free to build their own copies, and this listing is one of them.

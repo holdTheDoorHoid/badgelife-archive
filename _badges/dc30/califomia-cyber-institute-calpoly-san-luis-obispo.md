@@ -116,6 +116,12 @@ research:
 last_modified_date: '2026-09-07'
 related:
 - dc31-space-grand-challenge-satellite-badge
+model:
+  file: assets/models/dc30/califomia-cyber-institute-calpoly-san-luis-obispo.glb
+  method: kicad
+  source_file: Satellite_PCB.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 207316
 ---
 
 The Space Grand Challenge is a game-based cybersecurity competition built by Cal Poly students and run by the university's California Cybersecurity Institute (CCI) for middle- and high-school students. To promote space and cybersecurity to newcomers at DEF CON 30, CCI and The Aerospace Corporation had Alpenglow Industries of San Luis Obispo design a satellite-shaped PCB badge in 2022. It was announced on the DEF CON forums on 2022-06-10 - the post this entry's sheet row was drawn from - as coming to the Aerospace Village, with a website planned to carry beginner challenges.

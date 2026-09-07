@@ -14,9 +14,11 @@ makers:
 summary: A simple passive SAO with five red flashing LEDs, published as open KiCad design files by the Cyber Professionals Enthusiast Club (CPEC) for DEF CON 32.
 functions: Five discrete 3mm red flashing LEDs light up when plugged into a badge's SAO header; no microcontroller or programmable behavior.
 look:
-  colors: [red]
+  colors:
+  - red
   shape: null
-  themes: [minimalist]
+  themes:
+  - minimalist
 tech:
   mcu: none
   leds:
@@ -53,9 +55,9 @@ links:
   kind: repo
 images:
 - file: assets/images/badges/dc32/sao/33ffa2bba6.jpg
-  source: "https://github.com/Cyber-Professionals-Enthusiast-Club/DC32-SAO"
-  credit: "Cyber Professionals Enthusiast Club"
-  caption: "DC32-SAO board, KiCad render"
+  source: https://github.com/Cyber-Professionals-Enthusiast-Club/DC32-SAO
+  credit: Cyber Professionals Enthusiast Club
+  caption: DC32-SAO board, KiCad render
 contact: {}
 notes:
 - Spotted by a research agent while working on a neighbouring entry (run 2).
@@ -87,6 +89,12 @@ research:
   last_checked: '2026-09-07'
   notes: The repo (KiCad files + BOM) is the only source found; no press coverage, storefront listing, price, quantity, or distribution details turned up in web searches. Treated as released since the design and BOM are finished/published, but there is no confirmation people actually received it at DC32.
 last_modified_date: '2026-09-07'
+model:
+  file: assets/models/dc32/sao.glb
+  method: kicad
+  source_file: DC32-SAO-pannel.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 188432
 ---
 
 The DC32-SAO is a small, purely passive Shitty Add-On built by the Cyber Professionals Enthusiast Club (CPEC) for DEF CON 32 in 2024. It has no microcontroller: five 3mm red flashing LEDs, each wired through its own 510-ohm resistor, light up as soon as the board is powered through a standard 6-pin SAO connector plugged into a host badge. The maker published complete KiCad schematic and PCB files for both a single board and a panelized version, but did not attach a license, and no build guide, storefront listing, or price/quantity information was found alongside the repository.

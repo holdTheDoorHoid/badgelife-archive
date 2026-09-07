@@ -105,6 +105,12 @@ research:
   last_checked: '2026-09-07'
   notes: 'No source states a sale price, quantity made, or current availability, so those fields are left empty/unknown. Exact LED count could not be confirmed: the fabrication-diagram PDFs list several 220/330-ohm resistor markings consistent with multiple LEDs, but the schematic PDFs render as vector paths with no extractable LED reference designators. The Hackaday.io project log/gallery could not be fetched directly (404 on the dedicated log URL); the main project page was used instead.'
 last_modified_date: '2026-09-07'
+model:
+  file: assets/models/dc27/spivspi-sao-dc27-badge.glb
+  method: kicad
+  source_file: hardware/SPIvSPI_SAO_Black/SPIvSPI_SAO_Black.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 197204
 ---
 
 The SPIvSPI SAO is a Spy vs. Spy themed Shitty Add-On made for DEF CON 27 in 2019 by the maker known as SPIvSPI (xres0nance). It started as a pencil sketch on June 14, 2019 and came together over about six weeks, described by its creator as a "total rush job." The badge is built around a Silicon Labs EFM8BB10F8G-A, an 8051-core microcontroller in a SOIC16 package, which drives LED "blinkenlites" animations on the board. A companion GUI tool, built by steve/corelit, lets someone generate custom LED animation patterns and load them onto the badge, alongside the maker's own firmware.

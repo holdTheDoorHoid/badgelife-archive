@@ -39,13 +39,13 @@ tech:
 get_one:
   price: ''
   price_usd: null
-  quantity: '~1000'
+  quantity: ~1000
   availability: sold_out
   availability_note: No active storefront found as of 2026-09-07; badge was distributed at DEF CON 26 in August 2018.
   distribution: []
   where: Distributed to attendees at DEF CON 26 (August 2018); shipped/handed out in anti-static bubble mailers, each including one of ten random SAO add-on variants (~100 of each).
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/bbenchoff/MrRobotBadge
   firmware_url: https://github.com/bbenchoff/MrRobotBadge
   eda_tool: null
@@ -59,21 +59,21 @@ links:
 - label: bbenchoff/MrRobotBadge (GitHub)
   url: https://github.com/bbenchoff/MrRobotBadge
   kind: repo
-- label: "Mr. Robot Badge - Benchoff Design Portfolio"
+- label: Mr. Robot Badge - Benchoff Design Portfolio
   url: https://bbenchoff.com/pages/MrRobot.html
   kind: website
-- label: "Hackaday: All The Badges Of DEF CON 26 (vol 2)"
+- label: 'Hackaday: All The Badges Of DEF CON 26 (vol 2)'
   url: https://hackaday.com/2018/08/21/all-the-badges-of-def-con-26-vol-2/
   kind: article
 images:
 - file: assets/images/badges/dc26/mr-robot-badge-mk-2/8d202652a3.jpg
-  source: "https://bbenchoff.com/pages/MrRobot.html"
-  credit: "Brian Benchoff"
-  caption: "Mr. Robot Badge Mk. 2, DEF CON 26"
+  source: https://bbenchoff.com/pages/MrRobot.html
+  credit: Brian Benchoff
+  caption: Mr. Robot Badge Mk. 2, DEF CON 26
 - file: assets/images/badges/dc26/mr-robot-badge-mk-2/d9d86ee15d.png
-  source: "https://bbenchoff.com/pages/MrRobot.html"
-  credit: "Brian Benchoff"
-  caption: "PCB layer stackup for the Mr. Robot Badge Mk. 2"
+  source: https://bbenchoff.com/pages/MrRobot.html
+  credit: Brian Benchoff
+  caption: PCB layer stackup for the Mr. Robot Badge Mk. 2
 contact: {}
 notes:
 - URL slug inferred from log path /project/94291/logs; verify exact slug.
@@ -96,12 +96,12 @@ sources:
   note: Confirmed 2x AA battery choice, ~1000 unit production run, five SAO connectors with ~10 random add-on variants, and prototype development cost (not a retail price).
 - kind: url
   url: https://bbenchoff.com/pages/MrRobot.html
-  title: "Mr. Robot Badge - Benchoff Design Portfolio"
+  title: Mr. Robot Badge - Benchoff Design Portfolio
   accessed: '2026-09-07'
   note: Maker's own project page; confirmed ESP8266 MCU, IS31FL3741 driver, GitHub repo link, and source images of the badge and PCB.
 - kind: url
   url: https://hackaday.com/2018/08/21/all-the-badges-of-def-con-26-vol-2/
-  title: "All The Badges Of DEF CON 26 (vol 2)"
+  title: All The Badges Of DEF CON 26 (vol 2)
   accessed: '2026-09-07'
   note: Press coverage confirming the 18x18 LED matrix driven by IS31FL3741 over I2C and reprogrammability via serial-to-USB.
 research:
@@ -112,6 +112,12 @@ research:
 last_modified_date: '2026-09-07'
 redirect_from:
 - /badges/other/mr-robot-badge-mk-2/
+model:
+  file: assets/models/dc26/mr-robot-badge-mk-2.glb
+  method: kicad
+  source_file: MrRobotBadge.brd
+  generated: '2026-09-07'
+  bytes: 934720
 ---
 
 The Mr. Robot Badge Mk. 2 is Brian Benchoff's second-generation independent conference badge, built for DEF CON 26 in August 2018 as part of the badgelife hardware demoscene. It upgrades the original Mr. Robot Badge (made for DEF CON 25) around a newly-released ISSI IS31FL3741 LED driver chip, which lets an ESP8266 microcontroller drive a much larger 18x18 LED matrix over I2C than the previous design could manage, producing dense blinky animations (Benchoff demonstrated a Conway's Game of Life implementation as one example). The badge runs on two keyed AA battery holders and can be reprogrammed over a serial-to-USB connection.

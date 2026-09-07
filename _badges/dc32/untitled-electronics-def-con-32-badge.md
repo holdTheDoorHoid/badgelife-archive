@@ -50,10 +50,10 @@ links:
   url: https://github.com/wrickert/UntitledElectronics/tree/main/Badges/Defcon32
   kind: repo
 images:
-  - file: assets/images/badges/dc32/untitled-electronics-def-con-32-badge/e077e0c7c5.jpg
-    source: "https://github.com/wrickert/UntitledElectronics/tree/main/Badges/Defcon32"
-    credit: "wrickert"
-    caption: "Bare MilkTastic PCB showing D-pad and face button footprints"
+- file: assets/images/badges/dc32/untitled-electronics-def-con-32-badge/e077e0c7c5.jpg
+  source: https://github.com/wrickert/UntitledElectronics/tree/main/Badges/Defcon32
+  credit: wrickert
+  caption: Bare MilkTastic PCB showing D-pad and face button footprints
 contact: {}
 notes:
 - From the user's 'SAOs to buy' link list (2026-09-07).
@@ -87,6 +87,12 @@ research:
   last_checked: '2026-09-07'
   notes: This is a personal project repo, not a store or crowd-sourced badge list entry, so no price/quantity/availability information exists to find. No display panel, LED, or battery specs are stated anywhere in the repo (the badge clearly drives some kind of screen to show DOOM, but the specific part is never named). No secondary coverage (Hackaday, forums, social posts) of this specific board was found; the only source is the maker's own GitHub repository. Commit history ("Started badge" -> "Ready to start PCB" -> "I guess I'm going to defcon") suggests it was built and brought to DEF CON 32 in 2024.
 last_modified_date: '2026-09-07'
+model:
+  file: assets/models/dc32/untitled-electronics-def-con-32-badge.glb
+  method: kicad
+  source_file: Badges/Defcon32/Schematics/MilkTastic.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 269552
 ---
 
 wrickert (who also builds badges under the name Untitled Electronics, and made the DC31 0xCafebabe badge and the DC33 NeoSword) built this handheld badge for DEF CON 32 in 2024. Internally the KiCad project is named "MilkTastic." The board is built around a Milk-V Duo module — a small RISC-V (Sophgo/CVITEK CV1800B/CV1801B) Linux-capable SoC board — and is laid out like a small game controller, with four tactile switches arranged as a D-pad plus additional face buttons.

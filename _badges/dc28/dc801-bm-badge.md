@@ -93,6 +93,12 @@ research:
   last_checked: '2026-09-07'
   notes: This entry covers the original DC28 (2020) "1st batch" Black Mage Badge. No source gave the 1st-batch price or exact unit count, so get_one.price/price_usd/quantity are left empty rather than guessed; the $801/$180 pricing found is specifically for the 2nd batch (sold for DC30, 2022) and is not applied here. The badge line continued with new batches and firmware chapters through at least DC32 (2024); those later releases belong to separate history, not this DC28 entry. A different, unaffiliated maker ("redactd") sold a "Bootleg Edition" reproduction of this badge on Tindie (black FR4, blue LEDs, $250, out of stock since Aug 2022) — noted below as a possible separate entry, not folded in here.
 last_modified_date: '2026-09-07'
+model:
+  file: assets/models/dc28/dc801-bm-badge.glb
+  method: kicad
+  source_file: Hardware/BackBoard/purplewizard.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 840184
 ---
 
 The DC801 Black Mage Badge is the DEF CON 28 (2020) debut of an open-source badge platform built by DC801, the group behind Salt Lake City's DEF CON party crew and the 801Labs hackerspace. Proceeds from badge sales fund both the annual DC801 party and the hackerspace. Around an nRF52840 SoC (on a u-blox BMD-340 module), a 2.4" touchscreen, 27 NKRO buttons, 19 LEDs, a speaker, and a SAO/SAINTCON MiniBadge expansion header, the badge runs a fully custom game engine rather than off-the-shelf badge firmware.

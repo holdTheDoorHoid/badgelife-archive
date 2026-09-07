@@ -229,5 +229,41 @@
    "eagle->kicad ok"
   ],
   "src": "dc5032018banglet.brd"
+ },
+ "dc26-hacker-warehouse-badge-dc26": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 383516,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "HW-DC26-Badge-20180426-1.1.brd"
+ },
+ "dc26-hardware-hacking-village-dc26-re-challenge-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 130060,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "DC26_HHV_challenge.brd"
+ },
+ "dc26-jr-bob-dobbs-sao": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 32528,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "bob.brd"
+ },
+ "dc26-mr-robot-badge-mk-2": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 934720,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "MrRobotBadge.brd"
  }
 }

@@ -114,6 +114,12 @@ research:
 last_modified_date: '2026-09-07'
 related:
 - dc34-shitty-kitty-v2
+model:
+  file: assets/models/dc33/shitty-kitty-v2.glb
+  method: kicad
+  source_file: shitty_kitty_v2.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 513664
 ---
 
 Shitty Kitty V2 is the second generation of Uberfoo Heavy Industries' cat-shaped badge, sold as a preorder ahead of DEF CON 33 with pickup at the Badgelife Community. The PCB itself is cut into a cat silhouette (with a hole in each ear) and carries two 0.96" 80x160 color IPS screens, each independently dimmable, driven by a Raspberry Pi RP2040. Two fully-wired SAO connectors (1.69bis, 6-pin) each expose their own GPIO, UART and I2C, and the badge ships already able to drive the Skull of Fate SAO from MakeItHackin.

@@ -111,6 +111,12 @@ research:
   last_checked: '2026-09-07'
   notes: Quantity made was not stated by any source and is left empty. LED type is listed as discrete per Hackster's component breakdown; the maker's own page did not itemize LEDs. Event was already correctly set to dc29 (DEF CON 29, 2021) in the stub.
 last_modified_date: '2026-09-07'
+model:
+  file: assets/models/dc29/aerospace-village-badge-2021.glb
+  method: kicad
+  source_file: kicad/avBadge_2021/avBadge_2021.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 439388
 ---
 
 The 2021 Aerospace Village badge for DEF CON 29 was designed by Dan Allen, a US Navy test pilot and software engineer, with artwork by flysurreal.com giving the badge a pilot's-eye view of an airfield. Rather than being purely decorative, its lighting responds according to real FAA aeronautical standards: sections of the Aeronautical Information Manual covering airport traffic control light signals (AIM 4-3-13) and pilot light-gun responses (AIM 2-1-9) drive how the badge reacts, alongside a nod to AIM 7-7-4. Built around an ATmega8-16AU microcontroller with a mix of RGB, blue, white, green, yellow and red LEDs, and powered by three AAA batteries, the badge hid hardware-hacking challenges and puzzles whose details and source code the Village deliberately kept secret until after the conference.

@@ -108,6 +108,15 @@ research:
   last_checked: '2026-09-07'
   notes: Price and exact LED count not stated by any source found; left empty. sao_version and sao_ports not applicable/found (no SAO header mentioned). Hackaday.com hands-on specifies USB-C; recorded generically as usb per the guide's connectivity vocabulary. All other populated fields (MCU, LEDs, displays, keyboard, battery, colors/shape/themes, CTF stats, distribution, quantity, open-source repo, both images) were independently confirmed against the three cited sources during verification on 2026-09-07.
 last_modified_date: '2026-09-07'
+model:
+  file: assets/models/dc28/and-xor-dc28-badge.glb
+  method: gerber
+  source_file: gerbers
+  generated: '2026-09-07'
+  bytes: 146228
+  size_mm:
+  - 113.1
+  - 182.2
 ---
 
 AND!XOR is a hacker collective known for a long-running series of unofficial DEF CON badges. When DEF CON 28 went virtual in 2020 due to the pandemic, the team built this badge anyway and solved the distribution problem by handing caches of them to trusted hackers across North America, who in turn gave badges to puzzle-solvers and active community members rather than selling them from a convention table. A few hundred were made in total, with some sold to help fund the run.

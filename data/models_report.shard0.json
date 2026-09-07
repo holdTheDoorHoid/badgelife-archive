@@ -323,5 +323,47 @@
   "bytes": 312268,
   "tried": [],
   "src": "Hardware/dc32.kicad_pcb"
+ },
+ "dc32-mad-hatter-auto-revelator": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 388676,
+  "tried": [],
+  "src": "hardware/mad_hatter_top_text_board.kicad_pcb"
+ },
+ "dc32-sao": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 188432,
+  "tried": [],
+  "src": "DC32-SAO-pannel.kicad_pcb"
+ },
+ "dc32-untitled-electronics-def-con-32-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 269552,
+  "tried": [],
+  "src": "Badges/Defcon32/Schematics/MilkTastic.kicad_pcb"
+ },
+ "dc33-gigageiger": {
+  "status": "ok",
+  "method": "gerber",
+  "bytes": 138112,
+  "tried": [],
+  "src": "Gerber Files/penzz-gigageiger-Gerbers-Version466357e9.zip"
+ },
+ "dc33-shitty-kitty-v2": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 513664,
+  "tried": [],
+  "src": "shitty_kitty_v2.kicad_pcb"
+ },
+ "dc33-uncut-gem-quantum-village": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 759324,
+  "tried": [],
+  "src": "hardware/PCB/Uncut Gem.kicad_pcb"
  }
 }

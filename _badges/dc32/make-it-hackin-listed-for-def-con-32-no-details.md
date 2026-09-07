@@ -52,9 +52,11 @@ links:
 - label: github.com/MakeItHackin/FlipBoard
   url: https://github.com/MakeItHackin/FlipBoard
   kind: repo
+  archived: https://web.archive.org/web/20260521001303/https://github.com/MakeItHackin/FlipBoard
 - label: github.com/jamisonderek/flipboard
   url: https://github.com/jamisonderek/flipboard
   kind: repo
+  archived: https://web.archive.org/web/20260507191850/https://github.com/jamisonderek/flipboard
 - label: Tindie listing
   url: https://www.tindie.com/products/32844/
   kind: store
@@ -77,11 +79,13 @@ sources:
   title: MakeItHackin/FlipBoard (GitHub)
   accessed: '2026-09-07'
   note: Overview, features, mechanical hot-swap switches, blinky mode, macro count, assembly options, store links; repo has commits from Dec 2023 through an Aug 7, 2024 upload (the day before DEF CON 32 opened).
+  archived: https://web.archive.org/web/20260521001303/https://github.com/MakeItHackin/FlipBoard
 - kind: url
   url: https://github.com/MakeItHackin/SummerCampSAO
   title: MakeItHackin/SummerCampSAO (GitHub)
   accessed: '2026-09-07'
   note: Maker's own README for a later (DC33) kit lists "DC32 Flipboard sticker" among leftover swag included in the kit bag, tying the FlipBoard product to DEF CON 32.
+  archived: https://web.archive.org/web/20260505134208/https://github.com/MakeItHackin/SummerCampSAO
 - kind: url
   url: https://www.tindie.com/products/32844/
   title: FlipBoard MacroPad Keyboard for Flipper Zero (Tindie)
@@ -92,6 +96,7 @@ sources:
   title: jamisonderek/flipboard (GitHub)
   accessed: '2026-09-07'
   note: Companion apps (FlipKeyboard, FlipBlinky, FlipSignal, Simon), GPL-3.0 license, confirms maker/store links.
+  archived: https://web.archive.org/web/20260507191850/https://github.com/jamisonderek/flipboard
 research:
   status: researched
   confidence: low

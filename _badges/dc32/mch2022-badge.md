@@ -42,7 +42,7 @@ get_one:
   - purchase
   where: Sold/preordered directly through Badge.team ahead of the MCH2022 event in the Netherlands; shipping was from the Netherlands and priced in euros.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/badgeteam/mch2022-badge-hardware
   firmware_url: https://github.com/badgeteam/mch2022-firmware-esp32
   eda_tool: null
@@ -52,14 +52,17 @@ links:
 - label: badge.team/docs/badges/mch2022
   url: https://badge.team/docs/badges/mch2022/
   kind: website
+  archived: https://web.archive.org/web/20260725092331/https://badge.team/docs/badges/mch2022/
 - label: github.com/badgeteam/mch2022-badge-hardware
   url: https://github.com/badgeteam/mch2022-badge-hardware
   kind: repo
+  archived: https://web.archive.org/web/20260122054412/https://github.com/badgeteam/mch2022-badge-hardware
 images:
 - file: assets/images/badges/dc32/mch2022-badge/8ac8f9c368.jpg
-  source: "https://badge.team/docs/badges/mch2022/"
-  credit: "Badge.team"
-  caption: "MCH2022 badge overview"
+  source: https://badge.team/docs/badges/mch2022/
+  credit: Badge.team
+  caption: MCH2022 badge overview
+  archived: https://web.archive.org/web/20260725092331/https://badge.team/docs/badges/mch2022/
 contact:
   emails:
   - defcon32@badge.team
@@ -73,27 +76,31 @@ sources:
   updated: '2024-06-03'
 - kind: url
   url: https://badge.team/docs/badges/mch2022/
-  title: "MCH2022 badge - badge.team docs"
+  title: MCH2022 badge - badge.team docs
   accessed: '2026-09-06'
   note: Maker/team, form factor, display and LED chip references, price context, overview photo.
+  archived: https://web.archive.org/web/20260725092331/https://badge.team/docs/badges/mch2022/
 - kind: url
   url: https://github.com/badgeteam/mch2022-badge-hardware
   title: badgeteam/mch2022-badge-hardware
   accessed: '2026-09-06'
   note: MCUs, SAOv2 support, license, credits for artwork and electronics design; repo now archived.
+  archived: https://web.archive.org/web/20260122054412/https://github.com/badgeteam/mch2022-badge-hardware
 - kind: url
   url: https://hackaday.com/2022/05/04/the-mch2022-badge-has-landed/
-  title: "The MCH2022 Badge Has Landed - Hackaday"
+  title: The MCH2022 Badge Has Landed - Hackaday
   accessed: '2026-09-06'
   note: Confirms large color TFT, addressable LEDs, Game Boy Advance-style form factor, joystick/buttons, Bosch sensors, stereo audio with onboard speaker.
+  archived: https://web.archive.org/web/20260309100410/https://hackaday.com/2022/05/04/the-mch2022-badge-has-landed/
 - kind: url
   url: https://badge.team/docs/badges/mch2022/hardware/
-  title: "MCH2022 badge hardware - badge.team docs"
+  title: MCH2022 badge hardware - badge.team docs
   accessed: '2026-09-06'
   note: Display panel (ILI9341/Z240IT008) and LED part number (SK6812-EC15); confirms SAO connector I/O broken out from the RP2040.
+  archived: https://web.archive.org/web/20260513010609/https://badge.team/docs/badges/mch2022/hardware/
 - kind: url
   url: https://badge.team/docs/badges/mch2022/hardware/battery/
-  title: "MCH2022 badge battery - badge.team docs"
+  title: MCH2022 badge battery - badge.team docs
   accessed: '2026-09-06'
   note: Confirms LiPo connector type (JST S2B-ZR-SM4A-TF); capacity not stated.
 research:

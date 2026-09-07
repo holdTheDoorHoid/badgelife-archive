@@ -234,5 +234,33 @@
   "bytes": 670752,
   "tried": [],
   "src": "hardware/dc27_badge_kicad/DC27-badge.kicad_pcb"
+ },
+ "dc28-dc801-black-mage-badge-bootleg-edition": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 840184,
+  "tried": [],
+  "src": "Hardware/BackBoard/purplewizard.kicad_pcb"
+ },
+ "dc28-dc801-bm-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 840184,
+  "tried": [],
+  "src": "Hardware/BackBoard/purplewizard.kicad_pcb"
+ },
+ "dc29-3d6-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 325644,
+  "tried": [],
+  "src": "eda/altbier_pcb_3d6/altbier_pcb_3d6.kicad_pcb"
+ },
+ "dc30-califomia-cyber-institute-calpoly-san-luis-obispo": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 207316,
+  "tried": [],
+  "src": "Satellite_PCB.kicad_pcb"
  }
 }

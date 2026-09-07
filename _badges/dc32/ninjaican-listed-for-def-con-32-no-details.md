@@ -39,8 +39,7 @@ links: []
 images: []
 contact: {}
 notes:
-- 'The community sheet row for DEF CON 32 lists only the name "Ninjaican" with every
-  other column (title, links, price, contact, functions, qty, notes) blank.'
+- The community sheet row for DEF CON 32 lists only the name "Ninjaican" with every other column (title, links, price, contact, functions, qty, notes) blank.
 status: unknown
 sources:
 - kind: sheet
@@ -51,14 +50,13 @@ sources:
   url: https://sailormoon.altbier.us/
   title: Sailor Moon Badge project page
   accessed: '2026-09-06'
-  note: Confirms Ninjaican (aka "Ninjician" on this page) as the maker of the DC31
-    Sailor Moon Badge, made in the alt_bier badge family; no DC32 item mentioned.
+  note: Confirms Ninjaican (aka "Ninjician" on this page) as the maker of the DC31 Sailor Moon Badge, made in the alt_bier badge family; no DC32 item mentioned.
 - kind: url
   url: https://altbier.us/
   title: alt_bier portfolio site
   accessed: '2026-09-06'
-  note: Lists alt_bier's own DEF CON 32 badge (G0dzilla VS Badge) but no badge or
-    SAO credited to Ninjaican for 2024.
+  note: Lists alt_bier's own DEF CON 32 badge (G0dzilla VS Badge) but no badge or SAO credited to Ninjaican for 2024.
+  archived: https://web.archive.org/web/20260608053942/https://altbier.us/
 - kind: url
   url: https://g0dzilla.altbier.us/
   title: G0dzilla VS Badge documentation
@@ -68,17 +66,7 @@ research:
   status: researched
   confidence: low
   last_checked: '2026-09-06'
-  notes: The DC32 community sheet lists only the maker name "Ninjaican" with no
-    title or other details (row 108 of the raw sheet). Ninjaican is known from a
-    separate entry (dc31-sailor-moon-badge) as the maker of the DEF CON 31 Sailor
-    Moon Badge, working within the alt_bier badge family (sailormoon.altbier.us).
-    Checked alt_bier's portfolio (altbier.us) and their documented DEF CON 32 badge
-    (G0dzilla VS Badge, g0dzilla.altbier.us) for any item credited to Ninjaican in
-    2024; found none - that badge is credited solely to alt_bier. Web searches for
-    "Ninjaican badge DEF CON 32" and "Ninjaican badgelife SAO" returned no results
-    (search engines exhausted/blocked for this session). Could not find what, if
-    anything, Ninjaican brought to DEF CON 32; leaving status as unknown rather than
-    guessing.
+  notes: The DC32 community sheet lists only the maker name "Ninjaican" with no title or other details (row 108 of the raw sheet). Ninjaican is known from a separate entry (dc31-sailor-moon-badge) as the maker of the DEF CON 31 Sailor Moon Badge, working within the alt_bier badge family (sailormoon.altbier.us). Checked alt_bier's portfolio (altbier.us) and their documented DEF CON 32 badge (G0dzilla VS Badge, g0dzilla.altbier.us) for any item credited to Ninjaican in 2024; found none - that badge is credited solely to alt_bier. Web searches for "Ninjaican badge DEF CON 32" and "Ninjaican badgelife SAO" returned no results (search engines exhausted/blocked for this session). Could not find what, if anything, Ninjaican brought to DEF CON 32; leaving status as unknown rather than guessing.
 last_modified_date: '2026-09-06'
 ---
 

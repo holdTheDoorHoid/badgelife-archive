@@ -90,6 +90,12 @@ research:
   last_checked: '2026-09-07'
   notes: Price, quantity made, and LED count/type are not stated on the GitHub repo or the Aerospace Village page and are left empty. The repo lists a secondary fork/contributor URL (github.com/daneallen/avBadge_2020) referenced in kit-assembly instruction links.
 last_modified_date: '2026-09-07'
+model:
+  file: assets/models/dc28/aerospace-village-badge-2020.glb
+  method: kicad
+  source_file: kicad/aerospace_badge/aerospace_badge.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 108804
 ---
 
 The Aerospace Village Badge 2020 was the village's badge for DEF CON 28, shaped like an airplane and built to double as a real receiving antenna: with an external RTL-SDR dongle, it picks up ADS-B aircraft position broadcasts at 1090 MHz and ACARS messages at 131.550 MHz, the same data commercial flight-tracking services use. It runs on an ATtiny85, breaks out an I2C connection for interacting with tools like a Bus Pirate, and drives a set of onboard LEDs for a day and a night look. The design was inspired by Richard Hansen and Zachary Klein's work on low-cost aerospace cybersecurity education, with Dan Allen leading the final build.

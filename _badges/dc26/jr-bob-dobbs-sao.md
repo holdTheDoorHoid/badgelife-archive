@@ -14,9 +14,13 @@ makers:
 summary: A Church of the SubGenius themed Shitty Add-On made for DEF CON 26 by babint as a first PCB project, with two red 0805 LED eyes and an amber LED pipe driven through 200 ohm resistors on a 4-pin SAO header.
 functions: ''
 look:
-  colors: [black, white]
+  colors:
+  - black
+  - white
   shape: face
-  themes: [meme, pop culture]
+  themes:
+  - meme
+  - pop culture
 tech:
   mcu: none
   leds:
@@ -44,14 +48,14 @@ links:
   url: https://hackaday.io/project/160583-jr-bob-dobbs-sao
   kind: hackaday
 images:
-  - file: assets/images/badges/dc26/jr-bob-dobbs-sao/f7be358e4b.jpg
-    source: "https://hackaday.io/project/160583-jr-bob-dobbs-sao"
-    credit: "babint"
-    caption: "J.R. \"Bob\" Dobbs SAO board, front view"
-  - file: assets/images/badges/dc26/jr-bob-dobbs-sao/5c7273dc67.jpg
-    source: "https://hackaday.io/project/160583-jr-bob-dobbs-sao"
-    credit: "babint"
-    caption: "J.R. \"Bob\" Dobbs SAO board, second view"
+- file: assets/images/badges/dc26/jr-bob-dobbs-sao/f7be358e4b.jpg
+  source: https://hackaday.io/project/160583-jr-bob-dobbs-sao
+  credit: babint
+  caption: J.R. "Bob" Dobbs SAO board, front view
+- file: assets/images/badges/dc26/jr-bob-dobbs-sao/5c7273dc67.jpg
+  source: https://hackaday.io/project/160583-jr-bob-dobbs-sao
+  credit: babint
+  caption: J.R. "Bob" Dobbs SAO board, second view
 contact: {}
 notes: []
 status: listed
@@ -72,6 +76,12 @@ research:
   last_checked: '2026-09-07'
   notes: Only source found is the maker's own Hackaday.io project page; no press coverage, storefront, or social posts turned up. Price, quantity made, and availability are not stated anywhere. A commenter on the project page asked in 2020 whether there is ATtiny code, implying the board may not actually carry a microcontroller (the maker's parts list shows none) - treated tech.mcu as none per the stated BOM. Only Eagle schematic/board files are shared, no firmware, so make_your_own.open_source is partial.
 last_modified_date: '2026-09-07'
+model:
+  file: assets/models/dc26/jr-bob-dobbs-sao.glb
+  method: kicad
+  source_file: bob.brd
+  generated: '2026-09-07'
+  bytes: 32528
 ---
 
 The J.R "Bob" Dobbs SAO is a Church of the SubGenius themed Shitty Add-On that maker babint built for DEF CON 26 (2018) as a first PCB design project. The board is silkscreened into a stylized portrait of the Church's "Bob" mascot, with two red 0805 LEDs standing in for his eyes and a separate amber 0805 LED lighting the bowl of his pipe, all fed through a 0.1uF decoupling capacitor and three 200-ohm resistors from a standard 4-pin SAO header plugged into a host badge.

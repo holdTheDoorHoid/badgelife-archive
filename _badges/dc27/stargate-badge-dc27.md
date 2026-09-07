@@ -89,6 +89,12 @@ research:
   last_checked: '2026-09-07'
   notes: Price and sale/distribution details (whether it was sold, given away, or contest-only) were not stated on the maker's page or repo, so get_one.price/where/distribution/availability are left empty/unknown. The badge was also featured in a Hak5 segment with Shannon Morse per the maker's writeup, but that video was not located to verify further details.
 last_modified_date: '2026-09-07'
+model:
+  file: assets/models/dc27/stargate-badge-dc27.glb
+  method: kicad
+  source_file: gate.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 766972
 ---
 
 The Stargate Badge is a DEF CON 27 (2019) electronic badge shaped like the ring gate from the Stargate sci-fi franchise, made by KeeperOfBits (GitHub/Twitter handle for CountMurphy). It uses an NXP KL27 microcontroller driving 38 side-mounted LEDs for the badge's chevrons plus 66 blue LEDs around the ring, controlled through five 74HC/HCT595 shift registers. The firmware animates the chevrons in rotating sequences before lighting the ring in a "wormhole" effect, echoing the show's gate-activation sequence.
