@@ -35,7 +35,10 @@ make_your_own:
   hardware_url: null
   firmware_url: null
   eda_tool: null
-links: []
+links:
+- label: x.com/shenanigans_us
+  url: https://x.com/shenanigans_us
+  kind: social
 images: []
 contact: {}
 notes: []
@@ -46,10 +49,21 @@ sources:
   row: 96
   updated: ''
 research:
-  status: stub
+  status: researched
   confidence: low
-  last_checked: '2026-09-06'
-  notes: Imported from the community badge sheet; not yet researched.
-last_modified_date: '2026-09-06'
+  last_checked: '2026-09-07'
+  notes: >-
+    No independent sources found for this item beyond the community sheet row.
+    Web searches for the title alone, the title with "DEF CON" and the year,
+    and the maker name "Shenanigans-R-Us" (with and without hyphenation)
+    turned up no matching hits on general search engines, Hackaday.io, Tindie,
+    or press coverage. The maker's X/Twitter handle (@shenanigans_us) is known
+    from a sibling dc32 entry by the same maker, but the account's posts could
+    not be read (X now requires login to view tweets; Nitter mirrors are shut
+    down), so it could not be used to confirm what "Tootsie Pop" actually is
+    beyond the sheet listing. All descriptive fields (type, look, tech,
+    quantity, availability, open-source status) are left empty/unknown rather
+    than guessed. If someone can view the @shenanigans_us account or has a
+    photo of this badge, that would let this entry be completed.
+last_modified_date: '2026-09-07'
 ---
-
