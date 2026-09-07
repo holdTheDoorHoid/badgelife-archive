@@ -14,9 +14,13 @@ makers:
 summary: Spy vs. Spy themed Shitty Add-On for DEF CON 27 in the black-hat spy design, driven by a Silicon Labs EFM8BB10 (8051-core) microcontroller running LED animations authored with the project's own GUI animation tool; the repo holds its dedicated PCB design (SPIvSPI_SAO_Black), schematic, kit assembly notes, firmware and build photos.
 functions: LED "blinkenlite" animations authored with the project's own custom GUI animation-generator tool
 look:
-  colors: [black]
+  colors:
+  - black
   shape: null
-  themes: [spy, security, pop culture]
+  themes:
+  - spy
+  - security
+  - pop culture
 tech:
   mcu: EFM8BB10F8G (8051 core)
   leds: null
@@ -32,7 +36,7 @@ get_one:
   distribution: []
   where: ''
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/SPIvSPI/dc27sao/tree/master/hardware
   firmware_url: https://github.com/SPIvSPI/dc27sao/tree/master/firmware
   eda_tool: null
@@ -43,18 +47,19 @@ links:
 - label: hackaday.io/project/166811-spivspi-sao-dc27-badge
   url: https://hackaday.io/project/166811-spivspi-sao-dc27-badge
   kind: hackaday
+  archived: https://web.archive.org/web/20251217031138/https://hackaday.io/project/166811-spivspi-sao-dc27-badge
 - label: twitter.com/SPIvSPI
   url: https://twitter.com/SPIvSPI
   kind: social
 images:
 - file: assets/images/badges/dc27/spivspi-blackhat-spy-sao/860a8af82d.jpg
-  source: "https://github.com/SPIvSPI/dc27sao"
-  credit: "SPIvSPI (xres0nance)"
-  caption: "Assembled blackhat-spy SAO PCB"
+  source: https://github.com/SPIvSPI/dc27sao
+  credit: SPIvSPI (xres0nance)
+  caption: Assembled blackhat-spy SAO PCB
 - file: assets/images/badges/dc27/spivspi-blackhat-spy-sao/69aa14599f.jpg
-  source: "https://github.com/SPIvSPI/dc27sao"
-  credit: "SPIvSPI (xres0nance)"
-  caption: "Blackhat spy artwork/render for the SAO"
+  source: https://github.com/SPIvSPI/dc27sao
+  credit: SPIvSPI (xres0nance)
+  caption: Blackhat spy artwork/render for the SAO
 contact: {}
 notes: []
 status: released
@@ -74,18 +79,13 @@ sources:
   title: SPIvSPI SAO DC27 Badge — Hackaday.io project page
   accessed: '2026-09-07'
   note: Confirmed EFM8BB10F8G (8051-core) MCU, DEF CON 27 / 2019 timing (started mid-June 2019, files released by August 15 2019), and Spy vs Spy cartoon inspiration.
+  archived: https://web.archive.org/web/20251217031138/https://hackaday.io/project/166811-spivspi-sao-dc27-badge
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: >
-    Repo and Hackaday.io page confirm the maker, event/year, MCU, and open-source
-    hardware/firmware. LED count/type, price, quantity made, and distribution method
-    (free drop vs. sale) are not stated on either page; the hardware folder contains
-    schematic and kit-notes PDFs (SPIvSPI-black-schematic.pdf, SPIvSPI-Black-Kit-Notes.pdf)
-    that likely have LED/BOM detail but were not opened in this pass. A companion
-    "whitehat spy" variant exists in the same repo (img/spivspi-whitehat.jpg,
-    hardware/SPIvSPI_SAO_White) and may warrant its own entry.
+  notes: |
+    Repo and Hackaday.io page confirm the maker, event/year, MCU, and open-source hardware/firmware. LED count/type, price, quantity made, and distribution method (free drop vs. sale) are not stated on either page; the hardware folder contains schematic and kit-notes PDFs (SPIvSPI-black-schematic.pdf, SPIvSPI-Black-Kit-Notes.pdf) that likely have LED/BOM detail but were not opened in this pass. A companion "whitehat spy" variant exists in the same repo (img/spivspi-whitehat.jpg, hardware/SPIvSPI_SAO_White) and may warrant its own entry.
 last_modified_date: '2026-09-07'
 ---
 

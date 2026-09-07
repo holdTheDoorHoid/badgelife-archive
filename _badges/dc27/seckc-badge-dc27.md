@@ -49,15 +49,18 @@ links:
 - label: 'Hackaday: "The Badgies: Clever, Crazy, and Creative Ideas In Electronic Design"'
   url: https://hackaday.com/2019/08/21/the-badgies-clever-crazy-and-creative-ideas-in-electronic-design/
   kind: article
+  archived: https://web.archive.org/web/20260210064529/https://hackaday.com/2019/08/21/the-badgies-clever-crazy-and-creative-ideas-in-electronic-design/
 images:
 - file: assets/images/badges/dc27/seckc-badge-dc27/ab6f5932fa.jpg
-  source: "https://hackaday.com/2019/08/21/the-badgies-clever-crazy-and-creative-ideas-in-electronic-design/"
-  credit: "Hackaday / Badge Pirates"
-  caption: "SecKC DC27 badge, front, showing the green LED lit silhouette-shaped top board"
+  source: https://hackaday.com/2019/08/21/the-badgies-clever-crazy-and-creative-ideas-in-electronic-design/
+  credit: Hackaday / Badge Pirates
+  caption: SecKC DC27 badge, front, showing the green LED lit silhouette-shaped top board
+  archived: https://web.archive.org/web/20260210064529/https://hackaday.com/2019/08/21/the-badgies-clever-crazy-and-creative-ideas-in-electronic-design/
 - file: assets/images/badges/dc27/seckc-badge-dc27/e62bfa2b1f.jpg
-  source: "https://hackaday.com/2019/08/21/the-badgies-clever-crazy-and-creative-ideas-in-electronic-design/"
-  credit: "Hackaday / Badge Pirates"
-  caption: "SecKC DC27 badge with the top silhouette board removed, showing the larger LED array beneath"
+  source: https://hackaday.com/2019/08/21/the-badgies-clever-crazy-and-creative-ideas-in-electronic-design/
+  credit: Hackaday / Badge Pirates
+  caption: SecKC DC27 badge with the top silhouette board removed, showing the larger LED array beneath
+  archived: https://web.archive.org/web/20260210064529/https://hackaday.com/2019/08/21/the-badgies-clever-crazy-and-creative-ideas-in-electronic-design/
 contact: {}
 notes:
 - image URL only; 150-unit run, 645 LEDs
@@ -73,6 +76,7 @@ sources:
   title: 'The Badgies: Clever, Crazy, and Creative Ideas In Electronic Design'
   accessed: '2026-09-07'
   note: Source for maker (SecKC / Badge Pirates), LED count (645), quantity (150 built, ~90 presold), construction (ATmega328, Arduino IDE, EEPROM patterns, silhouette-shaped second board hiding the battery), and yield/rework issues.
+  archived: https://web.archive.org/web/20260210064529/https://hackaday.com/2019/08/21/the-badgies-clever-crazy-and-creative-ideas-in-electronic-design/
 research:
   status: researched
   confidence: high

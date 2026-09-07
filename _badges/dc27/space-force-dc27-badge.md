@@ -9,7 +9,7 @@ type: badge
 event: dc27
 year: 2019
 makers:
-- name: "true"
+- name: 'true'
   url: https://hackaday.io/true
 summary: An independent ESP32-based electronic badge made for DEF CON 27, styled around the "Space Force" theme, with an OLED display, accelerometer, and IR transceiver.
 functions: Shows status/graphics on its OLED, senses motion/orientation via an onboard accelerometer, and can send and receive signals over IR (transmitter/receiver) in addition to a strobing LED mode.
@@ -29,7 +29,7 @@ tech:
   battery: rechargeable, with protection circuitry
   sao_version: null
 get_one:
-  price: "~$100"
+  price: ~$100
   price_usd: 100
   quantity: ''
   availability: sold_out
@@ -45,15 +45,18 @@ links:
 - label: hackaday.io/project/166454-space-force-dc27-badge
   url: https://hackaday.io/project/166454-space-force-dc27-badge
   kind: hackaday
+  archived: https://web.archive.org/web/20251108164206/https://hackaday.io/project/166454-space-force-dc27-badge
 images:
 - file: assets/images/badges/dc27/space-force-dc27-badge/e21518dabf.jpg
-  source: "https://hackaday.io/project/166454-space-force-dc27-badge"
-  credit: "true (hackaday.io)"
-  caption: "Space Force DC27 badge, front view"
+  source: https://hackaday.io/project/166454-space-force-dc27-badge
+  credit: true (hackaday.io)
+  caption: Space Force DC27 badge, front view
+  archived: https://web.archive.org/web/20251108164206/https://hackaday.io/project/166454-space-force-dc27-badge
 - file: assets/images/badges/dc27/space-force-dc27-badge/1e39be976e.jpg
-  source: "https://hackaday.io/project/166454-space-force-dc27-badge"
-  credit: "true (hackaday.io)"
-  caption: "Space Force DC27 badge, detail view"
+  source: https://hackaday.io/project/166454-space-force-dc27-badge
+  credit: true (hackaday.io)
+  caption: Space Force DC27 badge, detail view
+  archived: https://web.archive.org/web/20251108164206/https://hackaday.io/project/166454-space-force-dc27-badge
 contact: {}
 notes: []
 status: released
@@ -63,25 +66,18 @@ sources:
   title: Space Force DC27 Badge
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: hackaday-list); event read as ''DEF CON 27''.'
+  archived: https://web.archive.org/web/20251108164206/https://hackaday.io/project/166454-space-force-dc27-badge
 - kind: url
   url: https://hackaday.io/project/166454-space-force-dc27-badge
   title: Space Force! DC27 Badge (Hackaday.io project page)
   accessed: '2026-09-07'
   note: Primary source for description, features (ESP32, OLED, accelerometer, IR, LEDs, USB, battery), price (~$100), sale at DEF CON 27, firmware download links, and project photos.
+  archived: https://web.archive.org/web/20251108164206/https://hackaday.io/project/166454-space-force-dc27-badge
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: >-
-    Maker uses the Hackaday.io username "true"; no real name disclosed on the project page.
-    Only firmware archives (source + binaries/updater) are linked on the page, no PCB
-    hardware files or gerbers were found, so make_your_own.open_source is "partial" rather
-    than "yes". Exact quantity produced is unclear; the maker described assembling badges
-    at roughly 7-8 per hour at peak and hand-soldering around 40 units of some component,
-    but no total production count is stated. LED count/type not specified beyond "LEDs
-    (including strobe capability)". No separate storefront, GitHub repo, or press coverage
-    was found beyond the Hackaday.io project page itself; a broader web search was not
-    possible this run (search budget exhausted), so confidence is medium rather than high.
+  notes: Maker uses the Hackaday.io username "true"; no real name disclosed on the project page. Only firmware archives (source + binaries/updater) are linked on the page, no PCB hardware files or gerbers were found, so make_your_own.open_source is "partial" rather than "yes". Exact quantity produced is unclear; the maker described assembling badges at roughly 7-8 per hour at peak and hand-soldering around 40 units of some component, but no total production count is stated. LED count/type not specified beyond "LEDs (including strobe capability)". No separate storefront, GitHub repo, or press coverage was found beyond the Hackaday.io project page itself; a broader web search was not possible this run (search budget exhausted), so confidence is medium rather than high.
 last_modified_date: '2026-09-07'
 ---
 

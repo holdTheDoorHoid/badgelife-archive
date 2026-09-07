@@ -11,7 +11,7 @@ year: 2019
 makers:
 - name: Awkward Intelligence
   url: https://hackaday.io/Awkwardai
-summary: 'A Hackaday.io project page rounding up one maker''s whole line of Shitty Add-Ons for DEF CON 27, not a single badge or SAO.'
+summary: A Hackaday.io project page rounding up one maker's whole line of Shitty Add-Ons for DEF CON 27, not a single badge or SAO.
 functions: ''
 look:
   colors: []
@@ -40,6 +40,7 @@ links:
 - label: hackaday.io/project/166344-defcon-27-shitty-add-ons
   url: https://hackaday.io/project/166344-defcon-27-shitty-add-ons
   kind: hackaday
+  archived: https://web.archive.org/web/20260505072220/https://hackaday.io/project/166344-defcon-27-shitty-add-ons
 images: []
 contact: {}
 notes: []
@@ -50,31 +51,18 @@ sources:
   title: Defcon 27 Shitty Add-On's
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: hackaday-search); event read as ''DEF CON 27''.'
+  archived: https://web.archive.org/web/20260505072220/https://hackaday.io/project/166344-defcon-27-shitty-add-ons
 - kind: url
   url: https://hackaday.io/project/166344-defcon-27-shitty-add-ons/details
-  title: 'Defcon 27 Shitty Add-On''s - Details'
+  title: Defcon 27 Shitty Add-On's - Details
   accessed: '2026-09-07'
-  note: 'Maker''s own writeup confirming this page rounds up several distinct DC27 SAO designs by Awkward Intelligence rather than describing one item.'
+  note: Maker's own writeup confirming this page rounds up several distinct DC27 SAO designs by Awkward Intelligence rather than describing one item.
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-07'
-  notes: >-
-    NOT AN ITEM: this record describes a collection/round-up page, not a single
-    badge or SAO; see below. The Hackaday.io page this entry was built from is a project journal for the
-    maker's (Awkward Intelligence, hackaday.io/Awkwardai) whole DC27 lineup, not a
-    single badge or SAO. Their own "Details" writeup names at least four separate
-    designs made that year: "Dumpster Fire" (flame-flicker effect via hot glue
-    light-channeling, matte green solder mask with white ink, gold immersion
-    finish), "All out of Gum" (a They Live / Roddy Piper tribute, reverse
-    gull-wing LEDs), "Def Con Air" (Matrix 20th-anniversary / Con Air riff, sized
-    to fit the DC26 badge), and "Shitty Semen Detector" (a UV-light gag SAO, text
-    cut off by Hackaday's "read more"). Two more of that year's run were
-    described as limited giveaways (under 50 units each, not sold). Each design
-    would need its own entry with its own name, sources and photos; none of that
-    detail belongs to this collection-level page. Standard fields (functions,
-    look, tech, price, images) are left empty because they cannot be attributed
-    to one item.
+  notes: 'NOT AN ITEM: this record describes a collection/round-up page, not a single badge or SAO; see below. The Hackaday.io page this entry was built from is a project journal for the maker''s (Awkward Intelligence, hackaday.io/Awkwardai) whole DC27 lineup, not a single badge or SAO. Their own "Details" writeup names at least four separate designs made that year: "Dumpster Fire" (flame-flicker effect via hot glue light-channeling, matte green solder mask with white ink, gold immersion finish), "All out of Gum" (a They Live / Roddy Piper tribute, reverse gull-wing LEDs), "Def Con Air" (Matrix 20th-anniversary / Con Air riff, sized to fit the DC26 badge), and "Shitty Semen Detector" (a UV-light gag SAO, text cut off by Hackaday''s "read more"). Two more of that year''s run were described as limited giveaways (under 50 units each, not sold). Each design would need its own entry with its own name, sources and photos; none of that detail belongs to this collection-level page. Standard fields
+    (functions, look, tech, price, images) are left empty because they cannot be attributed to one item.'
 last_modified_date: '2026-09-07'
 ---
 

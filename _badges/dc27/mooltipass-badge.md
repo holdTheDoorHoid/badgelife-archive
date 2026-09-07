@@ -14,9 +14,15 @@ makers:
 summary: An ESP32-based indie DEF CON 27 badge shaped like the MULTI PASS ID card from the film The Fifth Element, running the badge.team MicroPython firmware platform.
 functions: Runs badge.team firmware with MicroPython apps from the "hatchery" app library; capacitive touch controls; e-paper display shows customizable info; OTA app/software updates over WiFi; two SAO ports and GPIO headers for add-ons.
 look:
-  colors: [gold, black]
+  colors:
+  - gold
+  - black
   shape: card
-  themes: [sci-fi, movie, badge.team, retro computer]
+  themes:
+  - sci-fi
+  - movie
+  - badge.team
+  - retro computer
   form_factor: pcb badge
 tech:
   mcu: ESP32 WROOM (16MB, dual-core 240MHz, WiFi/Bluetooth)
@@ -25,25 +31,30 @@ tech:
     type: RGB
     note: driven by a separate ATmega48
   display: 2.9" e-paper (296x128), partial update, zero-power persistence
-  connectivity: [wifi, bluetooth]
-  inputs: [touch, capacitive]
+  connectivity:
+  - wifi
+  - bluetooth
+  inputs:
+  - touch
+  - capacitive
   battery: LiPo 1000 mAh, USB (CP2102) recharge, quoted 24+ hours runtime
   sao_version: v1.69bis
   sao_ports: 2
 get_one:
   price: ''
   price_usd: null
-  quantity: '200 planned, 170 produced in time for DEF CON 27'
+  quantity: 200 planned, 170 produced in time for DEF CON 27
   availability: sold_out
   availability_note: Checked 2026-09-07; funded via a 2019 Kickstarter campaign, no active storefront found.
-  distribution: [crowdfunding]
+  distribution:
+  - crowdfunding
   where: Funded and distributed as backer rewards through a Kickstarter campaign ("MULTI PASS / DEF CON 27 Indie Badge" by Bliss Jourdan); not sold through an ongoing storefront.
 make_your_own:
   open_source: partial
   hardware_url: https://github.com/CromulonB/DC27-MULTI-PASS
   firmware_url: https://github.com/CromulonB/DC27-MULTI-PASS
   eda_tool: null
-  notes: 'GitHub repo has "Hardware" and "Software" folders; firmware is the badge.team platform. Gerbers, BOM, and license terms were not confirmed from the pages checked.'
+  notes: GitHub repo has "Hardware" and "Software" folders; firmware is the badge.team platform. Gerbers, BOM, and license terms were not confirmed from the pages checked.
 links:
 - label: hac.io/o/164625
   url: http://hac.io/o/164625
@@ -51,30 +62,34 @@ links:
 - label: DC27 MULTI PASS (hackaday.io)
   url: https://hackaday.io/project/164625-dc27-multi-pass
   kind: hackaday
+  archived: https://web.archive.org/web/20260416234959/https://hackaday.io/project/164625-dc27-multi-pass
 - label: DC27-MULTI-PASS (GitHub)
   url: https://github.com/CromulonB/DC27-MULTI-PASS
   kind: repo
-- label: 'MULTI PASS / DEF CON 27 Indie Badge (Kickstarter)'
+- label: MULTI PASS / DEF CON 27 Indie Badge (Kickstarter)
   url: https://www.kickstarter.com/projects/cromulonb/multi-pass-def-con-27-indie-badge
   kind: store
-- label: 'The MULTI PASS DEF CON 27 Badge Is Perfect for Trips to Fhloston Paradise (Hackster.io)'
+- label: The MULTI PASS DEF CON 27 Badge Is Perfect for Trips to Fhloston Paradise (Hackster.io)
   url: https://www.hackster.io/news/the-multi-pass-def-con-27-badge-is-perfect-for-trips-to-fhloston-paradise-314e5aa41a2c
   kind: article
-- label: 'The Multi Pass Def Con Indie Badge Has A European Flavour (Hackaday)'
+- label: The Multi Pass Def Con Indie Badge Has A European Flavour (Hackaday)
   url: https://hackaday.com/2019/06/02/the-multi-pass-def-con-indie-badge-has-a-european-flavour/
   kind: article
+  archived: https://web.archive.org/web/20260410162223/https://hackaday.com/2019/06/02/the-multi-pass-def-con-indie-badge-has-a-european-flavour/
 images:
 - file: assets/images/badges/dc27/mooltipass-badge/3d8d7a9e0d.jpg
-  source: "https://hackaday.io/project/164625-dc27-multi-pass"
-  credit: "CromulonB (Bliss Jourdan)"
-  caption: "The DC27 MULTI PASS badge"
+  source: https://hackaday.io/project/164625-dc27-multi-pass
+  credit: CromulonB (Bliss Jourdan)
+  caption: The DC27 MULTI PASS badge
+  archived: https://web.archive.org/web/20260416234959/https://hackaday.io/project/164625-dc27-multi-pass
 - file: assets/images/badges/dc27/mooltipass-badge/4582df6084.jpg
-  source: "https://hackaday.io/project/164625-dc27-multi-pass"
-  credit: "CromulonB (Bliss Jourdan)"
-  caption: "Render of the badge in final colors"
+  source: https://hackaday.io/project/164625-dc27-multi-pass
+  credit: CromulonB (Bliss Jourdan)
+  caption: Render of the badge in final colors
+  archived: https://web.archive.org/web/20260416234959/https://hackaday.io/project/164625-dc27-multi-pass
 contact: {}
 notes:
-- 'Entry title was recorded as "Mooltipass" by the discovery sweep; the maker''s own name for the badge is "MULTI PASS" (the Fifth Element prop), not to be confused with the unrelated Mooltipass password-manager hardware. Kept the id/slug as-is per instructions; corrected the display title.'
+- Entry title was recorded as "Mooltipass" by the discovery sweep; the maker's own name for the badge is "MULTI PASS" (the Fifth Element prop), not to be confused with the unrelated Mooltipass password-manager hardware. Kept the id/slug as-is per instructions; corrected the display title.
 status: released
 sources:
 - kind: url
@@ -87,6 +102,7 @@ sources:
   title: DC27 MULTI PASS | Hackaday.io
   accessed: '2026-09-07'
   note: Primary project page - maker, hardware specs (ESP32, e-paper display, touch, LEDs, SAO headers), availability note about limited production, mention of design files releasing after DEF CON.
+  archived: https://web.archive.org/web/20260416234959/https://hackaday.io/project/164625-dc27-multi-pass
 - kind: url
   url: https://github.com/CromulonB/DC27-MULTI-PASS
   title: 'GitHub - CromulonB/DC27-MULTI-PASS: DC27 MULTI PASS Badge'
@@ -94,19 +110,20 @@ sources:
   note: Confirms Hardware/Software repo structure and that firmware is the badge.team platform.
 - kind: url
   url: https://www.hackster.io/news/the-multi-pass-def-con-27-badge-is-perfect-for-trips-to-fhloston-paradise-314e5aa41a2c
-  title: 'The MULTI PASS DEF CON 27 Badge Is Perfect for Trips to Fhloston Paradise - Hackster.io'
+  title: The MULTI PASS DEF CON 27 Badge Is Perfect for Trips to Fhloston Paradise - Hackster.io
   accessed: '2026-09-07'
   note: Confirms badge.team ESP32 firmware platform, e-ink display, touch buttons, theme faithfulness to the movie prop.
 - kind: url
   url: https://hackaday.com/2019/06/02/the-multi-pass-def-con-indie-badge-has-a-european-flavour/
-  title: 'The Multi Pass Def Con Indie Badge Has A European Flavour | Hackaday'
+  title: The Multi Pass Def Con Indie Badge Has A European Flavour | Hackaday
   accessed: '2026-09-07'
   note: Confirms creator CromulonB (Bliss Jourdan), Kickstarter funding, production target of 200 with 170 delivered by DEF CON 27.
+  archived: https://web.archive.org/web/20260410162223/https://hackaday.com/2019/06/02/the-multi-pass-def-con-indie-badge-has-a-european-flavour/
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-07'
-  notes: 'Maker''s own hackaday.io project page and GitHub repo confirmed the core hardware facts; price per unit/backer tier and whether gerbers/license were actually published could not be confirmed (Kickstarter page returned 403 to automated fetch). Quantity and distribution (Kickstarter, 170 of 200 planned) confirmed by two independent sources (Hackaday, Hackaday.io comments).'
+  notes: Maker's own hackaday.io project page and GitHub repo confirmed the core hardware facts; price per unit/backer tier and whether gerbers/license were actually published could not be confirmed (Kickstarter page returned 403 to automated fetch). Quantity and distribution (Kickstarter, 170 of 200 planned) confirmed by two independent sources (Hackaday, Hackaday.io comments).
 last_modified_date: '2026-09-07'
 ---
 

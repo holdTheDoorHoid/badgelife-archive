@@ -39,6 +39,7 @@ links:
 - label: www.tindie.com/products/technick/new-jack-badge-standard-printed-defcon-27
   url: https://www.tindie.com/products/technick/new-jack-badge-standard-printed-defcon-27/
   kind: store
+  archived: https://web.archive.org/web/20260503100733/https://www.tindie.com/products/technick/new-jack-badge-standard-printed-defcon-27/
 images: []
 contact: {}
 notes:
@@ -50,6 +51,7 @@ sources:
   title: New Jack Badge (Standard/Custom Printed)
   accessed: '2026-09-07'
   note: 'Found by the archive''s discovery sweep (angle: sheet-research-spotted); event read as ''DC27''.'
+  archived: https://web.archive.org/web/20260503100733/https://www.tindie.com/products/technick/new-jack-badge-standard-printed-defcon-27/
 research:
   status: stub
   confidence: low

@@ -12,11 +12,16 @@ makers:
 - name: TwinkleTwinkie
   url: https://hackaday.io/twinkletwinkie
 summary: A peanut-butter-jar shaped SAO on a 4-layer PCB with six white 1204 side-view LEDs and one 10-15 ohm resistor, riffing on the GIF-versus-Jif pronunciation debate under the tagline "Choosy moms choose Gif".
-functions: 'Backlights the word "Gif" (styled after the Jif peanut butter logo) with white LEDs; no interactive or game functions.'
+functions: Backlights the word "Gif" (styled after the Jif peanut butter logo) with white LEDs; no interactive or game functions.
 look:
-  colors: [white]
+  colors:
+  - white
   shape: null
-  themes: [meme, food, text, logo]
+  themes:
+  - meme
+  - food
+  - text
+  - logo
 tech:
   mcu: none
   leds:
@@ -39,19 +44,22 @@ make_your_own:
   hardware_url: https://hackaday.io/project/174028-peanut-butter-sao
   firmware_url: null
   eda_tool: null
-  notes: 'Hardware files (Gerbers for the 4-layer revision) are downloadable from the Hackaday.io project page as "GIF_4L_2019-07-23-0017.zip". No firmware exists since the board is passive (LEDs + resistor, no MCU).'
+  notes: Hardware files (Gerbers for the 4-layer revision) are downloadable from the Hackaday.io project page as "GIF_4L_2019-07-23-0017.zip". No firmware exists since the board is passive (LEDs + resistor, no MCU).
 links:
 - label: hackaday.io/project/174028-peanut-butter-sao
   url: https://hackaday.io/project/174028-peanut-butter-sao
   kind: hackaday
+  archived: https://web.archive.org/web/20260523064150/https://hackaday.io/project/174028-peanut-butter-sao
 - label: hackaday.io/twinkletwinkie
   url: https://hackaday.io/twinkletwinkie
   kind: hackaday
+  archived: https://web.archive.org/web/20260523064136/https://hackaday.io/twinkletwinkie
 images:
 - file: assets/images/badges/dc27/peanut-butter-sao/83979c4025.jpg
-  source: "https://hackaday.io/project/174028-peanut-butter-sao"
-  credit: "TwinkleTwinkie"
-  caption: "Peanut Butter SAO, styled after a Jif peanut butter jar label"
+  source: https://hackaday.io/project/174028-peanut-butter-sao
+  credit: TwinkleTwinkie
+  caption: Peanut Butter SAO, styled after a Jif peanut butter jar label
+  archived: https://web.archive.org/web/20260523064150/https://hackaday.io/project/174028-peanut-butter-sao
 contact: {}
 notes: []
 status: released
@@ -61,16 +69,19 @@ sources:
   title: Peanut Butter SAO
   accessed: '2026-09-06'
   note: Found via the project's link list; intake pass identified this item here.
+  archived: https://web.archive.org/web/20260523064150/https://hackaday.io/project/174028-peanut-butter-sao
 - kind: url
   url: https://hackaday.io/project/174028-peanut-butter-sao
   title: Peanut Butter SAO
   accessed: '2026-09-07'
-  note: 'Confirmed design story, LED count/type, resistor value, and the two-revision history (6-LED v1 with light bleed, 4-layer v2 with copper masking); source of the saved image.'
+  note: Confirmed design story, LED count/type, resistor value, and the two-revision history (6-LED v1 with light bleed, 4-layer v2 with copper masking); source of the saved image.
+  archived: https://web.archive.org/web/20260523064150/https://hackaday.io/project/174028-peanut-butter-sao
 - kind: url
   url: https://hackaday.io/twinkletwinkie
   title: TwinkleTwinkie's Profile
   accessed: '2026-09-07'
   note: Confirmed maker identity, that Peanut Butter SAO was made in 2019, and the DEF CON badge/SAO community context of other TwinkleTwinkie projects.
+  archived: https://web.archive.org/web/20260523064136/https://hackaday.io/twinkletwinkie
 research:
   status: researched
   confidence: medium

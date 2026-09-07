@@ -38,7 +38,7 @@ get_one:
   price_usd: null
   quantity: '25'
   availability: sold_out
-  availability_note: 'Tindie listing marked "Product Retired" / no longer available for sale as of 2026-09-07.'
+  availability_note: Tindie listing marked "Product Retired" / no longer available for sale as of 2026-09-07.
   distribution:
   - purchase
   where: Sold via the maker's Tindie store around DEF CON 27 (2019); remaining units were later built from leftover components before the run ended.
@@ -51,18 +51,22 @@ links:
 - label: www.tindie.com/products/magicstonetech/saw-the-badge-defcon-27-indie-badge
   url: https://www.tindie.com/products/magicstonetech/saw-the-badge-defcon-27-indie-badge/
   kind: store
+  archived: https://web.archive.org/web/20260518213527/https://www.tindie.com/products/magicstonetech/saw-the-badge-defcon-27-indie-badge/
 - label: 'Hackaday: Pictorial Guide To The Unofficial Electronic Badges Of DEF CON 27'
   url: https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/
   kind: article
+  archived: https://web.archive.org/web/20260513003300/https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/
 images:
 - file: assets/images/badges/dc27/saw-the-badge-def-con-27-indie-badge/82ea88a566.jpg
-  source: "https://www.tindie.com/products/magicstonetech/saw-the-badge-defcon-27-indie-badge/"
-  credit: "MagicStoneTech"
-  caption: "SAW the Badge, DEF CON 27 indie badge"
+  source: https://www.tindie.com/products/magicstonetech/saw-the-badge-defcon-27-indie-badge/
+  credit: MagicStoneTech
+  caption: SAW the Badge, DEF CON 27 indie badge
+  archived: https://web.archive.org/web/20260518213527/https://www.tindie.com/products/magicstonetech/saw-the-badge-defcon-27-indie-badge/
 - file: assets/images/badges/dc27/saw-the-badge-def-con-27-indie-badge/d40bb1c728.jpg
-  source: "https://www.tindie.com/products/magicstonetech/saw-the-badge-defcon-27-indie-badge/"
-  credit: "MagicStoneTech"
-  caption: "SAW the Badge with cassette tape SAO add-on"
+  source: https://www.tindie.com/products/magicstonetech/saw-the-badge-defcon-27-indie-badge/
+  credit: MagicStoneTech
+  caption: SAW the Badge with cassette tape SAO add-on
+  archived: https://web.archive.org/web/20260518213527/https://www.tindie.com/products/magicstonetech/saw-the-badge-defcon-27-indie-badge/
 contact: {}
 notes:
 - cassette-tape add-on mentioned alongside main badge
@@ -73,16 +77,19 @@ sources:
   title: Saw the Badge (DEF CON 27 Indie Badge)
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: dc26-dc27-sao-wave); event read as ''DEF CON 27''.'
+  archived: https://web.archive.org/web/20260518213527/https://www.tindie.com/products/magicstonetech/saw-the-badge-defcon-27-indie-badge/
 - kind: url
   url: https://www.tindie.com/products/magicstonetech/saw-the-badge-defcon-27-indie-badge/
   title: Saw the Badge (DEF CON 27 Indie Badge) - Tindie listing
   accessed: '2026-09-07'
   note: Maker's own storefront; confirmed features, MCU, battery, SAO header, cassette add-on, retired/sold-out status.
+  archived: https://web.archive.org/web/20260518213527/https://www.tindie.com/products/magicstonetech/saw-the-badge-defcon-27-indie-badge/
 - kind: url
   url: https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/
-  title: 'Pictorial Guide To The Unofficial Electronic Badges Of DEF CON 27'
+  title: Pictorial Guide To The Unofficial Electronic Badges Of DEF CON 27
   accessed: '2026-09-07'
   note: Confirmed quantity made (25, hand-placed), SAM D21 via Sean Hodgins' HCC module, ISSI 36-channel LED driver, DTMF dialer function, hot-glue diffusers.
+  archived: https://web.archive.org/web/20260513003300/https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/
 research:
   status: researched
   confidence: high
