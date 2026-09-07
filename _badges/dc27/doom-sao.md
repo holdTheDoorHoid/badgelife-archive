@@ -11,17 +11,24 @@ year: 2019
 makers:
 - name: AND!XOR / LonghornEngineer
   url: https://github.com/LonghornEngineer
-summary: 'A DEF CON 27 SAO by AND!XOR''s Parker Dillmann (LonghornEngineer) that puts a full ST7789 LCD and an Arduino-compatible MCU on a SAO header, showing an animated DOOM Guy while doubling as an I2C/serial bus-sniffing tool.'
+summary: A DEF CON 27 SAO by AND!XOR's Parker Dillmann (LonghornEngineer) that puts a full ST7789 LCD and an Arduino-compatible MCU on a SAO header, showing an animated DOOM Guy while doubling as an I2C/serial bus-sniffing tool.
 functions: 'Displays an animated DOOM Guy on its LCD (auto mode, or controlled via 2 GPIO pins for look left/right/back). Also works as a passive hardware hacking tool: an I2C bus sniffer (including SAO-specific decoding), a DOOM-Guy-only I2C sniffer, and a serial UART man-in-the-middle sniffer, plus a user-defined custom application area and EEPROM persistence.'
 look:
-  colors: [black]
+  colors:
+  - black
   shape: null
-  themes: [horror, video game, hardware tool]
+  themes:
+  - horror
+  - video game
+  - hardware tool
 tech:
   mcu: ATSAMD21G18A
   leds: null
   display: 1.3" 240x240 LCD (ST7789)
-  connectivity: [i2c, uart, usb]
+  connectivity:
+  - i2c
+  - uart
+  - usb
   battery: powered by host badge (or USB-C)
   sao_version: v1.69bis
 get_one:
@@ -29,16 +36,17 @@ get_one:
   price_usd: null
   quantity: ''
   availability: sold_out
-  availability_note: 'shop.andnxor.com/products/doom-sao returned 404 as of 2026-09-07; Hackaday (July 2019) reported remaining stock was being sold at DEF CON''s Hacker Warehouse.'
-  distribution: [purchase]
-  where: 'AND!XOR''s online shop (shop.andnxor.com) and in person at DEF CON 27''s Hacker Warehouse.'
+  availability_note: shop.andnxor.com/products/doom-sao returned 404 as of 2026-09-07; Hackaday (July 2019) reported remaining stock was being sold at DEF CON's Hacker Warehouse.
+  distribution:
+  - purchase
+  where: AND!XOR's online shop (shop.andnxor.com) and in person at DEF CON 27's Hacker Warehouse.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/LonghornEngineer/DOOM_SAO/tree/master/Hardware
   firmware_url: https://github.com/LonghornEngineer/DOOM_SAO
   eda_tool: null
   license: Apache License 2.0
-  notes: 'Open-sourced August 11, 2019 (previously proprietary). Follows the AND!XOR SAO Reference Design (github.com/ANDnXOR/sao-reference-designs).'
+  notes: Open-sourced August 11, 2019 (previously proprietary). Follows the AND!XOR SAO Reference Design (github.com/ANDnXOR/sao-reference-designs).
 links:
 - label: github.com/LonghornEngineer/DOOM_SAO
   url: https://github.com/LonghornEngineer/DOOM_SAO
@@ -53,10 +61,10 @@ links:
   url: https://github.com/ANDnXOR/sao-reference-designs
   kind: repo
 images:
-  - file: assets/images/badges/dc27/doom-sao/f14497ec22.jpg
-    source: "https://hackaday.com/2019/07/29/hands-on-andxor-def-con-27-badge-ditches-bender-adopts-light-pipes/"
-    credit: "Hackaday"
-    caption: "The DOOM SAO plugged into the AND!XOR DC27 badge"
+- file: assets/images/badges/dc27/doom-sao/f14497ec22.jpg
+  source: https://hackaday.com/2019/07/29/hands-on-andxor-def-con-27-badge-ditches-bender-adopts-light-pipes/
+  credit: Hackaday
+  caption: The DOOM SAO plugged into the AND!XOR DC27 badge
 contact: {}
 notes:
 - Spotted by a research agent while working on a neighbouring entry (run 2).
@@ -69,30 +77,36 @@ sources:
   note: 'Found by the archive''s discovery sweep (angle: research-run2-spotted); event read as ''dc27''.'
 - kind: url
   url: https://github.com/LonghornEngineer/DOOM_SAO/blob/master/README.md
-  title: 'DOOM_SAO README'
+  title: DOOM_SAO README
   accessed: '2026-09-07'
-  note: 'Full feature list, MCU/display specs, I2C EEPROM protocol, SAO v1.69bis compliance, license note.'
+  note: Full feature list, MCU/display specs, I2C EEPROM protocol, SAO v1.69bis compliance, license note.
 - kind: url
   url: https://hackaday.io/project/164346-andxor-dc27-badge/log/165849-dc27-doom-sao-hurt-me-plenty
-  title: 'DC27 DOOM SAO - Hurt Me Plenty | Hackaday.io'
+  title: DC27 DOOM SAO - Hurt Me Plenty | Hackaday.io
   accessed: '2026-09-07'
-  note: 'Confirms maker (Cr4bf04m / LonghornEngineer / Parker Dillmann), sale through AND!XOR shop and Hacker Warehouse.'
+  note: Confirms maker (Cr4bf04m / LonghornEngineer / Parker Dillmann), sale through AND!XOR shop and Hacker Warehouse.
 - kind: url
   url: https://hackaday.com/2019/07/29/hands-on-andxor-def-con-27-badge-ditches-bender-adopts-light-pipes/
   title: 'Hands-On: AND!XOR DEF CON 27 Badge Ditches Bender, Adopts Light Pipes'
   accessed: '2026-09-07'
-  note: 'Photo of the DOOM SAO on the badge; describes it as rev 1, Parker Dillmann''s creation, with a serial sniffer.'
+  note: Photo of the DOOM SAO on the badge; describes it as rev 1, Parker Dillmann's creation, with a serial sniffer.
 - kind: url
   url: https://shop.andnxor.com/products/doom-sao
-  title: 'AND!XOR shop - DOOM SAO (page no longer live)'
+  title: AND!XOR shop - DOOM SAO (page no longer live)
   accessed: '2026-09-07'
-  note: 'Returned HTTP 404; product page no longer available, consistent with sold-out status.'
+  note: Returned HTTP 404; product page no longer available, consistent with sold-out status.
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'Price and exact quantity made were not found in any source checked. The maker byline is inconsistently given as "LonghornEngineer," "Cr4bf04m," and "Parker Dillmann" across sources - same person, AND!XOR team member.'
+  notes: Price and exact quantity made were not found in any source checked. The maker byline is inconsistently given as "LonghornEngineer," "Cr4bf04m," and "Parker Dillmann" across sources - same person, AND!XOR team member.
 last_modified_date: '2026-09-07'
+model:
+  file: assets/models/dc27/doom-sao.glb
+  method: kicad
+  source_file: DOOM_SAO.brd
+  generated: '2026-09-07'
+  bytes: 259768
 ---
 
 The DOOM SAO is a Superior Add-On built by Parker Dillmann (LonghornEngineer, working under the handle Cr4bf04m) for AND!XOR's DEF CON 27 badge in 2019. It pairs an Arduino-compatible ATSAMD21G18A microcontroller with a 1.3" 240x240 ST7789 LCD to show an animated DOOM Guy, whose look-left/look-right/look-back poses and "health" state can be driven either automatically or over the SAO's GPIO and I2C lines.

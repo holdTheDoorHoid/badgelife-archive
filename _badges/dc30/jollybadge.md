@@ -117,7 +117,13 @@ research:
   confidence: high
   last_checked: '2026-09-06'
   notes: Core facts (challenges, price, quantity, distribution, battery, MCU family, LED count, NFC/IMU peripherals, open-source hardware/firmware) confirmed directly from the maker's own DC30-era tweets (via Wayback Machine, since the live account no longer shows 2022 posts without login) and the maker's own GitHub repo. The IMU (MPU6050) is present in firmware but its initialization call is commented out in setup(), so it may not have been active in the shipped build; noted rather than guessed at. Exact PCB solder-mask color and precise LED part number (e.g. WS2812B vs SK6812) were not confirmed by a written source, only inferred from the board photo and the NeoPixel library choice, so colors/leds.type are left as best-supported approximations rather than exact. No individual review or press coverage (Hackaday, etc.) was found for this specific year's badge.
-last_modified_date: '2026-09-06'
+last_modified_date: '2026-09-07'
+model:
+  file: assets/models/dc30/jollybadge.glb
+  method: kicad
+  source_file: hw/dc30/dc30.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 140620
 ---
 
 JollyBadge_DC30 was a round, skull-and-crossbones puzzle badge sold by a solo maker going by Jolly Roger (also known online as Steve Jabs) at DEF CON 30 in 2022. It packed eight sequentially-unlocked challenges — touching an NFC tag, reading Morse code, decoding binary, working a serial/UART puzzle, dumping data, and solving a crypto step, alongside temperature and spin/orientation elements — into a ring of eight addressable RGB LEDs around the skull-and-crossbones outline. Anyone who solved all eight challenges before closing ceremonies qualified for a prize; the badge artwork was credited to @Mr_0rng.

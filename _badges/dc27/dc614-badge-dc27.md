@@ -94,6 +94,15 @@ research:
   last_checked: '2026-09-07'
   notes: The original discovery-sweep link (insecurityofthings/jackit) is an unrelated MouseJack exploit tool; the real project lives at github.com/dc614/DC-27-Badge. Price, quantity made, and availability/distribution are not stated anywhere in the repo or coverage found, so those fields are left empty. No license file was found in the repo, so open_source is marked partial (hardware and firmware/build scripts are public, but no explicit license is stated).
 last_modified_date: '2026-09-07'
+model:
+  file: assets/models/dc27/dc614-badge-dc27.glb
+  method: gerber
+  source_file: pcb/Gerber_v9_20190820223527.zip
+  generated: '2026-09-07'
+  bytes: 356908
+  size_mm:
+  - 151.0
+  - 161.8
 ---
 
 The DC614 badge was built by the DC614 hacker group (DC614 is the Columbus, Ohio DEF CON group, named for the local area code) for DEF CON 27 in 2019. Rather than a typical microcontroller badge, it uses a full Orange Pi Zero single-board computer as its brain, running a custom Linux image built from a `reconstruct.sh` script and flashed to a microSD card. The PCB itself is cut into the outline of the state of Ohio, a nod to the group's home turf.

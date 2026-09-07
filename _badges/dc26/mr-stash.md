@@ -33,7 +33,7 @@ get_one:
   availability: unknown
   distribution:
   - swap
-  where: 'Not sold; the maker made it to trade in person at DEF CON 26 (2018).'
+  where: Not sold; the maker made it to trade in person at DEF CON 26 (2018).
 make_your_own:
   open_source: partial
   hardware_url: https://github.com/Wireb/Mr_Stash
@@ -56,17 +56,23 @@ sources:
   note: 'Found by the archive''s discovery sweep (angle: tobuy-linkfile); event read as ''other''.'
 - kind: url
   url: https://github.com/Wireb/Mr_Stash
-  title: 'Mr Stash - README'
+  title: Mr Stash - README
   accessed: '2026-09-07'
-  note: 'Maker (Peter Shabino), event (DC26, 2018), purpose (trading badge), tech (PIC MCU, KiCad hardware, MPLAB X assembly firmware), and the missing-firmware caveat all confirmed from the README and MIT LICENSE copyright line.'
+  note: Maker (Peter Shabino), event (DC26, 2018), purpose (trading badge), tech (PIC MCU, KiCad hardware, MPLAB X assembly firmware), and the missing-firmware caveat all confirmed from the README and MIT LICENSE copyright line.
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'No LED count/type, display, battery, price, or quantity-made details are given anywhere in the repo; this was a personal trading badge, not a sold product, so those fields are left empty. No photos of the assembled badge were found in the repo (no image files present) or linked elsewhere, so the images list stays empty. The firmware in the repo is explicitly incomplete per the maker (final version was lost before the badge shipped to DEF CON 26), which is why open_source is "partial" rather than "yes".'
+  notes: No LED count/type, display, battery, price, or quantity-made details are given anywhere in the repo; this was a personal trading badge, not a sold product, so those fields are left empty. No photos of the assembled badge were found in the repo (no image files present) or linked elsewhere, so the images list stays empty. The firmware in the repo is explicitly incomplete per the maker (final version was lost before the badge shipped to DEF CON 26), which is why open_source is "partial" rather than "yes".
 last_modified_date: '2026-09-07'
 redirect_from:
 - /badges/other/mr-stash/
+model:
+  file: assets/models/dc26/mr-stash.glb
+  method: kicad
+  source_file: KiCad/Mr_Stash.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 172912
 ---
 
 Mr Stash is a badge Peter Shabino (GitHub handle Wireb) built for DEF CON 26 in 2018, not to sell but to trade in person for other attendees' badges and SAOs. The design combines an Inkscape-drawn "mustache" art layer (outline, motor and IR-sensor cutouts, eyebrows) imported into KiCad as footprints, with a PIC microcontroller programmed in assembly via MPLAB X and a PicKit debugger. Functions included LED lighting patterns, a vibration motor, a touch sensor, and an IR sensor meant to let badges communicate with each other.

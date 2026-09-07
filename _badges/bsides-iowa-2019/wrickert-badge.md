@@ -10,7 +10,7 @@ event: bsides-iowa-2019
 year: 2019
 makers:
 - name: wrickert
-summary: 'An interactive "penny piano" conference badge for BSidesIowa 2019, played by touching inserted pennies and running MicroPython on an ESP32.'
+summary: An interactive "penny piano" conference badge for BSidesIowa 2019, played by touching inserted pennies and running MicroPython on an ESP32.
 functions: 'Functions as a "penny piano": pressing pennies set into the badge triggers sounds/notes. Rechargeable over micro USB; a 1-second polling sleep mode wakes on penny touch.'
 look:
   colors: []
@@ -34,7 +34,7 @@ get_one:
   distribution: []
   where: ''
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/wrickert/badge
   firmware_url: https://github.com/wrickert/badge
   eda_tool: KiCad
@@ -57,25 +57,31 @@ sources:
   url: https://github.com/wrickert/badge
   title: wrickert/badge README
   accessed: '2026-09-07'
-  note: 'README identifies the badge as a "penny piano" made for the BSidesIowa 2019 conference, running MicroPython on an ESP32; rechargeable via micro USB; programmed via serial REPL / ampy.py; sleep mode wakes when a penny is touched.'
+  note: README identifies the badge as a "penny piano" made for the BSidesIowa 2019 conference, running MicroPython on an ESP32; rechargeable via micro USB; programmed via serial REPL / ampy.py; sleep mode wakes when a penny is touched.
 - kind: url
   url: https://github.com/wrickert/badge/tree/master/Documents
-  title: 'wrickert/badge - Documents folder'
+  title: wrickert/badge - Documents folder
   accessed: '2026-09-07'
-  note: 'Contains Des Moines/Iowa-themed art assets (skyline, Iowa outline, BSides logos) and a "lid.png"/"lid.svg" enclosure-lid outline, but no photographs of an assembled unit.'
+  note: Contains Des Moines/Iowa-themed art assets (skyline, Iowa outline, BSides logos) and a "lid.png"/"lid.svg" enclosure-lid outline, but no photographs of an assembled unit.
 - kind: url
   url: https://github.com/wrickert/badge/tree/master/Schematic
-  title: 'wrickert/badge - Schematic folder'
+  title: wrickert/badge - Schematic folder
   accessed: '2026-09-07'
-  note: 'Contains a .kicad_pcb file and a BadgeGerbers folder, confirming the PCB was designed in KiCad with gerbers published.'
+  note: Contains a .kicad_pcb file and a BadgeGerbers folder, confirming the PCB was designed in KiCad with gerbers published.
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'No matching "BSidesIowa 2019" event exists in _data/events.yml (only other BSides city/year combinations are present), so event is left as ''other'' with the year set to 2019; report as event_corrected_to candidate if an event is later added. No photo of an assembled badge was found in the repo (only vector/logo art and an enclosure-lid outline), so images were left empty rather than guessed. LED count, colors, price, quantity made, and availability are not stated anywhere in the repo and were left empty.'
+  notes: No matching "BSidesIowa 2019" event exists in _data/events.yml (only other BSides city/year combinations are present), so event is left as 'other' with the year set to 2019; report as event_corrected_to candidate if an event is later added. No photo of an assembled badge was found in the repo (only vector/logo art and an enclosure-lid outline), so images were left empty rather than guessed. LED count, colors, price, quantity made, and availability are not stated anywhere in the repo and were left empty.
 last_modified_date: '2026-09-07'
 redirect_from:
 - /badges/other/wrickert-badge/
+model:
+  file: assets/models/bsides-iowa-2019/wrickert-badge.glb
+  method: kicad
+  source_file: Schematic/_autosave-lid.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 25232
 ---
 
 The BSidesIowa 2019 conference badge, made by wrickert (also known online as Untitled Electronics), is an ESP32-based "penny piano": attendees play it by touching pennies set into the board, which act as capacitive-style triggers for sound. It runs MicroPython, and the maker's GitHub README documents how to reach the board's serial REPL (115200 baud) and load code with `ampy.py`, including a workaround for the board's 1-second-polling sleep mode ("press any penny to wake the badge up"). It recharges over a micro USB cable and needs no separate programmer.

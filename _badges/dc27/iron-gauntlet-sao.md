@@ -91,8 +91,18 @@ research:
   status: verified
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'Fact-check pass (2026-09-07): re-read both Hackaday.io project pages directly, including the SAO''s full component list and the Arc Badge page''s file list. Corrected the LED color note (the 7th LED is blue, per the project''s component list, not an unspecified "one more"), and corrected the body/Make-your-own text, which had wrongly said the corrected SAO Gerbers were never released — they were, in a second/final-run zip filed among the companion Arc Badge project''s downloads rather than on the SAO''s own page. No page states a build quantity for the SAO specifically (only the 220-unit badge run it shipped with) or a standalone price, since it was never sold separately. The SAO itself has no MCU — it is a passive LED add-on lit by the host Arc Badge. One design quirk confirmed on the maker''s page: an RGB LED originally planned for the purple stone was mis-wired (47-ohm resistor on the wrong leg) and swapped for a single-color pink LED as a fix. Both saved images were confirmed to appear on the SAO''s Hackaday.io page. All remaining non-empty fields and sentences checked out against the two cited maker pages.'
+  notes: 'Fact-check pass (2026-09-07): re-read both Hackaday.io project pages directly, including the SAO''s full component list and the Arc Badge page''s file list. Corrected the LED color note (the 7th LED is blue, per the project''s component list, not an unspecified "one more"), and corrected the body/Make-your-own text, which had wrongly said the corrected SAO Gerbers were never released — they were, in a second/final-run zip filed among the companion Arc Badge project''s downloads rather than on the SAO''s own page. No page states a build quantity for the SAO specifically (only the 220-unit badge run it shipped with) or a standalone price, since it was never sold separately. The SAO itself has no MCU — it is a passive LED add-on lit by the host Arc Badge. One design quirk confirmed on the maker''s page: an RGB LED originally planned for the purple stone was mis-wired (47-ohm resistor on the wrong leg) and swapped for a single-color pink LED as a fix. Both saved images were confirmed
+    to appear on the SAO''s Hackaday.io page. All remaining non-empty fields and sentences checked out against the two cited maker pages.'
 last_modified_date: '2026-09-07'
+model:
+  file: assets/models/dc27/iron-gauntlet-sao.glb
+  method: gerber
+  source_file: Iron_Gauntlet_JLC-20191202-1359.zip
+  generated: '2026-09-07'
+  bytes: 252028
+  size_mm:
+  - 55.0
+  - 69.0
 ---
 
 The Iron Gauntlet is a Simple Add-On built by TwinkleTwinkie exclusively for the DEF CON 27 Arc Badge, a two-person indie badge project with fellow maker Wire. Styled "gold on red with a splash of infinite cosmic power," it uses seven 1204-package side-view LEDs — one each for five of the Infinity Stones, two for the yellow stone, which needed the extra LED to glow far enough to read — each seated behind a hand-applied hot-glue diffuser to soften and spread the light. It carries no microcontroller of its own; power and control come from the host badge, which has two SAO headers in total.

@@ -127,6 +127,12 @@ research:
   last_checked: '2026-09-07'
   notes: 'Two sources give somewhat different final specs: Hackaday.io''s project log (a build-in-progress post) says an IS3736 32x8 LED matrix driver and does not give a firm LED count, while Hackster.io''s press summary states 32 RGB LEDs, a 320x240 TFT touchscreen, BLE 5.0, and a 2000mAh LiPo; both are plausible for the finished badge but neither is confirmed by a maker post covering the final, shipped hardware, so LED count/type, exact display spec, and battery capacity are given cautiously. Kickstarter page returned HTTP 403 and could not be read directly, so price and backer/funding numbers are empty. Shape and PCB/solder-mask colors are not confirmed by any source read (Hackaday.io''s early log describes only a placeholder square test board), so look.shape and look.colors are left empty rather than guessed from the "bomb" name or box art.'
 last_modified_date: '2026-09-07'
+model:
+  file: assets/models/dc27/da-bomb-badge-dc27.glb
+  method: kicad
+  source_file: hardware/dc27_badge_kicad/DC27-badge.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 670752
 ---
 
 The da Bomb! badge was Team Ides' follow-up to their DC25 "Ides of Defcon" badge, built by John Adams (with collaborator Bill Paul) for DEF CON 27 in 2019 and funded through a Kickstarter campaign ("it's da Bomb! An Indie DEF CON badge for DC27"). It is a hackable, independent conference badge centered on a Nordic nRF52840 (BMD340 module), pairing a color LCD with an RGB LED matrix (driven by an IS3736 matrix driver chip), stereo audio through a Cirrus Logic CS4344 DAC, Bluetooth Low Energy, and seven buttons supporting a Konami-code-style input sequence. The badge runs multiple onboard games and was designed as an approachable platform for badge hackers to program and modify, with a rechargeable LiPo battery and fuel-gauge circuit.

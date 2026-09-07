@@ -14,7 +14,7 @@ makers:
 - name: dodgymike (Mike Davis / @ElasticNinja)
   url: https://github.com/dodgymike
 summary: An ESP8266-based conference badge built for BSides Cape Town 2016 that turns attendees into an "organic game" of faction conversion via infrared.
-functions: 'Randomly assigns each attendee to one of three factions (red, green, blue) shown by an RGB LED; badges brought within ~45cm IR range trade level/faction data and can convert each other based on level and 50/50 chance when tied. Five LEDs show current level. Also displayed handles and conference programming, and unlocked extra games (Pong, Rock/Paper/Scissors/Lizard/Spock) and wireless network scanning as challenges were solved.'
+functions: Randomly assigns each attendee to one of three factions (red, green, blue) shown by an RGB LED; badges brought within ~45cm IR range trade level/faction data and can convert each other based on level and 50/50 chance when tied. Five LEDs show current level. Also displayed handles and conference programming, and unlocked extra games (Pong, Rock/Paper/Scissors/Lizard/Spock) and wireless network scanning as challenges were solved.
 look:
   colors: []
   shape: null
@@ -51,10 +51,10 @@ links:
 - label: github.com/dodgymike/bsidescpt2016badge
   url: https://github.com/dodgymike/bsidescpt2016badge
   kind: repo
-- label: 'BSides CPT Badge 2016 - Andrew Mohawk''s'
+- label: BSides CPT Badge 2016 - Andrew Mohawk's
   url: https://www.andrewmohawk.com/2017/05/16/bsides-cpt-badge-2016/
   kind: article
-- label: 'Zombie Badges Take Over Security Con - Hackaday'
+- label: Zombie Badges Take Over Security Con - Hackaday
   url: https://hackaday.com/2017/05/22/zombie-badges-take-over-security-con/
   kind: article
 - label: github.com/AndrewMohawk/BSidesBadge2016
@@ -68,13 +68,13 @@ links:
   kind: video
 images:
 - file: assets/images/badges/bsides-cape-town-2016/bsidescpt2016badge/7cf84b420f.jpg
-  source: "https://www.andrewmohawk.com/2017/05/16/bsides-cpt-badge-2016/"
-  credit: "Andrew Mohawk"
-  caption: "Finished BSides Cape Town 2016 badge"
+  source: https://www.andrewmohawk.com/2017/05/16/bsides-cpt-badge-2016/
+  credit: Andrew Mohawk
+  caption: Finished BSides Cape Town 2016 badge
 - file: assets/images/badges/bsides-cape-town-2016/bsidescpt2016badge/bbcfbfa0d1.jpg
-  source: "https://www.andrewmohawk.com/2017/05/16/bsides-cpt-badge-2016/"
-  credit: "Andrew Mohawk"
-  caption: "BSides Cape Town 2016 badge PCB with silkscreen label"
+  source: https://www.andrewmohawk.com/2017/05/16/bsides-cpt-badge-2016/
+  credit: Andrew Mohawk
+  caption: BSides Cape Town 2016 badge PCB with silkscreen label
 contact: {}
 notes:
 - Spotted by a research agent while working on a neighbouring entry (run 2).
@@ -87,20 +87,26 @@ sources:
   note: 'Found by the archive''s discovery sweep (angle: research-run2-spotted); event read as ''BSides Cape Town 2016 (no matching event id currently in events.yml)''.'
 - kind: url
   url: https://www.andrewmohawk.com/2017/05/16/bsides-cpt-badge-2016/
-  title: 'BSides CPT Badge 2016 - Andrew Mohawk''s'
+  title: BSides CPT Badge 2016 - Andrew Mohawk's
   accessed: '2026-09-07'
   note: Maker's own write-up; source for MCU, display, LEDs, battery, IR range, game mechanics, and player counts; also source of both saved images.
 - kind: url
   url: https://hackaday.com/2017/05/22/zombie-badges-take-over-security-con/
-  title: 'Zombie Badges Take Over Security Con'
+  title: Zombie Badges Take Over Security Con
   accessed: '2026-09-07'
   note: Corroborates hardware specs and game mechanics; notes badge also displayed handles/programming and unlocked Pong and RPSLS as challenges.
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-07'
-  notes: 'GitHub repo (dodgymike/bsidescpt2016badge) has almost no README content of its own; the technical detail here comes from Andrew Mohawk''s blog post, who co-designed the badge with dodgymike (Mike Davis, @ElasticNinja) with additional support credited to @shifttymike and @fluffyponyza. A separate repo, github.com/AndrewMohawk/BSidesBadge2016, holds Andrew Mohawk''s copy of the badge code and is listed here as an additional source rather than a duplicate entry. Price/cost to attendees not stated anywhere found; badges were a free conference giveaway. Quantity manufactured not stated, only that ~120 were active in the game at peak.'
+  notes: GitHub repo (dodgymike/bsidescpt2016badge) has almost no README content of its own; the technical detail here comes from Andrew Mohawk's blog post, who co-designed the badge with dodgymike (Mike Davis, @ElasticNinja) with additional support credited to @shifttymike and @fluffyponyza. A separate repo, github.com/AndrewMohawk/BSidesBadge2016, holds Andrew Mohawk's copy of the badge code and is listed here as an additional source rather than a duplicate entry. Price/cost to attendees not stated anywhere found; badges were a free conference giveaway. Quantity manufactured not stated, only that ~120 were active in the game at peak.
 last_modified_date: '2026-09-07'
+model:
+  file: assets/models/bsides-cape-town-2016/bsidescpt2016badge.glb
+  method: kicad
+  source_file: badge-dc24/_autosave-badge-bsides-v0.7.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 272228
 ---
 
 The BSides Cape Town 2016 badge was designed by Andrew Mohawk and Mike Davis (dodgymike, @ElasticNinja), with additional help credited to @shifttymike and @fluffyponyza, as a successor to Andrew Mohawk's earlier ZACon badges. Built around an ESP8266 with a 128x64 OLED SPI display, it ran on a 600 mAh LiPo charged over USB and had eight front-facing UI buttons plus a rear reset/programming button. An IR transmitter and receiver with roughly 45cm of range let nearby badges exchange data.

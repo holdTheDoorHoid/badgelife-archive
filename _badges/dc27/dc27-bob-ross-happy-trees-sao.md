@@ -90,6 +90,15 @@ research:
   last_checked: '2026-09-07'
   notes: Design files live under user zapp1337's fork/copy of AND!XOR's sao-reference-designs repo (the SAO itself is not present in the main ANDnXOR/sao-reference-designs repo, only linked from it); OSH Park's own listing credits it to "ANDnXOR", so it is treated here as an AND!XOR team release. No schematic or BOM was found (Gerbers only), and no independent press coverage, price, or quantity-made figures turned up beyond the OSH Park fab listing. Board colors/shape/LEDs left empty since no color photo of an assembled unit (as opposed to the CAD renders) was located.
 last_modified_date: '2026-09-07'
+model:
+  file: assets/models/dc27/dc27-bob-ross-happy-trees-sao.glb
+  method: gerber
+  source_file: DC27/BobRoss_sao1.69bis
+  generated: '2026-09-07'
+  bytes: 96436
+  size_mm:
+  - 61.0
+  - 40.0
 ---
 
 The Bob Ross Happy Trees SAO is a joke entry in AND!XOR's lineup of DEF CON 27 add-ons: a 6-pin (v1.69bis) SAO board themed around the painter Bob Ross that, per the maker's own README, "does nothing" electrically. Its sole purpose is to sit in front of another SAO and frame it, with a hole punched through the board so it can be zip-tied to a badge for extra hold. The maker recommends ordering it with a light-colored soldermask and black silkscreen so the artwork reads clearly.

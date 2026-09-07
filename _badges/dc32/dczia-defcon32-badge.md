@@ -129,9 +129,15 @@ research:
   confidence: high
   last_checked: '2026-09-07'
   notes: Confirmed via the maker's own GitHub repo README and the Tindie storefront listing. This is the "DCZia Ziatron," a Raspberry Pi Pico W badge with a 1.9" LCD, up to 18 LEDs, a mic, and a speaker, styled as a Sony Trinitron homage. Sold on Tindie for $100 (sold out since ~2024-08-05) with free DEF CON 32 pickup also offered; exact production quantity not stated anywhere found. This is a duplicate of entry dc32-dczia-s-dumb-dc32-badge-winner-for-most-unique-name-lol, which covers the same physical badge under a joking sheet title; that entry had price listed as an unconfirmed ~$130, while the Tindie listing found here gives a confirmed $100 price and sold-out date. Merged with duplicate entry 'DCZia's dumb DC32 badge (winner for most unique name lol)' (dc32-dczia-s-dumb-dc32-badge-winner-for-most-unique-name-lol).
-last_modified_date: '2026-09-06'
+last_modified_date: '2026-09-07'
 redirect_from:
 - /badges/dc32/dczia-s-dumb-dc32-badge-winner-for-most-unique-name-lol/
+model:
+  file: assets/models/dc32/dczia-defcon32-badge.glb
+  method: kicad
+  source_file: Hardware/dc32.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 312268
 ---
 
 DCZia's 2024 DEF CON 32 badge, "The Ziatron," is an homage to the Sony Trinitron

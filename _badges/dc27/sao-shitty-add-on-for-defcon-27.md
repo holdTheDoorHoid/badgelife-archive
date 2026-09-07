@@ -49,14 +49,14 @@ links:
   url: https://github.com/DC404/DC27-SAO
   kind: repo
 images:
-  - file: assets/images/badges/dc27/sao-shitty-add-on-for-defcon-27/4a775fb5b5.jpg
-    source: "https://github.com/DC404/DC27-SAO"
-    credit: "DC404"
-    caption: "Mr. Fang SAO powered on, LED eyes lit"
-  - file: assets/images/badges/dc27/sao-shitty-add-on-for-defcon-27/c78fed5643.jpg
-    source: "https://github.com/DC404/DC27-SAO"
-    credit: "DC404"
-    caption: "Kit contents: Mr. Fang PCB, resistor, SAO connector, two LEDs"
+- file: assets/images/badges/dc27/sao-shitty-add-on-for-defcon-27/4a775fb5b5.jpg
+  source: https://github.com/DC404/DC27-SAO
+  credit: DC404
+  caption: Mr. Fang SAO powered on, LED eyes lit
+- file: assets/images/badges/dc27/sao-shitty-add-on-for-defcon-27/c78fed5643.jpg
+  source: https://github.com/DC404/DC27-SAO
+  credit: DC404
+  caption: 'Kit contents: Mr. Fang PCB, resistor, SAO connector, two LEDs'
 contact: {}
 notes: []
 status: released
@@ -80,19 +80,22 @@ sources:
   url: https://forum.defcon.org/node/239410
   title: DC404 - DEF CON Forums
   accessed: '2026-09-07'
-  note: 'Identifies DC404 as the metro Atlanta DEF CON group (active since 2003) whose logo/mascot is "ninja" Mr. Fang, matching the SAO''s shape (via search snippet; page itself failed to load directly).'
+  note: Identifies DC404 as the metro Atlanta DEF CON group (active since 2003) whose logo/mascot is "ninja" Mr. Fang, matching the SAO's shape (via search snippet; page itself failed to load directly).
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: >-
-    No storefront, price, quantity, or distribution info found anywhere (repo, forum
-    search); likely a members-only build/give at DC404's own DEF CON 27 meetup rather
-    than a sold item, but this is not confirmed by a source, so get_one fields are left
-    empty. No schematic or EDA project files in the repo, only Gerbers and an assembly
-    guide with photos, so open_source is "partial". No maker's personal name found,
-    only the DC404 group.
+  notes: No storefront, price, quantity, or distribution info found anywhere (repo, forum search); likely a members-only build/give at DC404's own DEF CON 27 meetup rather than a sold item, but this is not confirmed by a source, so get_one fields are left empty. No schematic or EDA project files in the repo, only Gerbers and an assembly guide with photos, so open_source is "partial". No maker's personal name found, only the DC404 group.
 last_modified_date: '2026-09-07'
+model:
+  file: assets/models/dc27/sao-shitty-add-on-for-defcon-27.glb
+  method: gerber
+  source_file: GERBERS
+  generated: '2026-09-07'
+  bytes: 87680
+  size_mm:
+  - 60.1
+  - 61.8
 ---
 
 DC27-SAO is a simple, solder-it-yourself Shitty Add-on made by DC404, the long-running metro Atlanta DEF CON group (active since 2003), for DEF CON 27 in 2019. The board is shaped like "Mr. Fang," DC404's ninja mascot, and carries no microcontroller: two through-hole LEDs are wired behind the character's eyes so they light up whenever the SAO is plugged into a powered badge.

@@ -12,7 +12,7 @@ makers:
 - name: Peter Shabino
   url: https://github.com/Wireb
 summary: An open-source animation upgrade board that piggybacks onto Mr TwinkleTwinkie's Mad Cat SAO, replacing its static LEDs with randomized blinking, talking and sparkle animations.
-functions: 'Cycles through eight LED animations (fade in/out, blink/wink, lip licks, "piano teeth," eye bobble, talking, sparkles) on the Mad Cat''s face, waiting a random 0-8 minute interval between each; blinking is weighted to occur most often and sparkles least.'
+functions: Cycles through eight LED animations (fade in/out, blink/wink, lip licks, "piano teeth," eye bobble, talking, sparkles) on the Mad Cat's face, waiting a random 0-8 minute interval between each; blinking is weighted to occur most often and sparkles least.
 look:
   colors:
   - purple
@@ -38,15 +38,15 @@ get_one:
   availability: unknown
   distribution:
   - kit
-  where: 'Not sold as a finished product; the PCB can be ordered via the maker''s OSH Park share link and self-assembled/programmed. Requires an existing Mad Cat SAO from Mr TwinkleTwinkie to attach to.'
+  where: Not sold as a finished product; the PCB can be ordered via the maker's OSH Park share link and self-assembled/programmed. Requires an existing Mad Cat SAO from Mr TwinkleTwinkie to attach to.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/Wireb/Mad_Cat_Backpack
   firmware_url: https://github.com/Wireb/Mad_Cat_Backpack
   eda_tool: KiCad
   fab_url: https://www.oshpark.com/shared_projects/GfiURq3q
   license: MIT
-  notes: 'KiCad 5.0 hardware project; firmware is MPLAB X 5.05 / assembly (mad_cat_backpack_v0.asm), programmed via PICkit4 or the provided production .hex file.'
+  notes: KiCad 5.0 hardware project; firmware is MPLAB X 5.05 / assembly (mad_cat_backpack_v0.asm), programmed via PICkit4 or the provided production .hex file.
 links:
 - label: github.com/Wireb/Mad_Cat_Backpack
   url: https://github.com/Wireb/Mad_Cat_Backpack
@@ -80,8 +80,14 @@ research:
   status: researched
   confidence: high
   last_checked: '2026-09-07'
-  notes: 'Maker''s GitHub README is the primary source and is unambiguous about mechanism, parts, and licensing. Price and quantity made are not stated anywhere found and are left blank. No photo of the finished/assembled backpack was found - the only image in the repo (Mad_Cat_modificatons.jpg) is an annotated KiCad PCB render used for mod instructions, not a photo of the item, so no image was saved. Event field was already correct (dc26) and did not need correction.'
+  notes: Maker's GitHub README is the primary source and is unambiguous about mechanism, parts, and licensing. Price and quantity made are not stated anywhere found and are left blank. No photo of the finished/assembled backpack was found - the only image in the repo (Mad_Cat_modificatons.jpg) is an annotated KiCad PCB render used for mod instructions, not a photo of the item, so no image was saved. Event field was already correct (dc26) and did not need correction.
 last_modified_date: '2026-09-07'
+model:
+  file: assets/models/dc26/mad-cat-backpack.glb
+  method: kicad
+  source_file: kicad/Mad_Cat_backpack.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 119128
 ---
 
 The Mad Cat Backpack is a small companion PCB designed by Peter Shabino (GitHub: Wireb) to upgrade Mr TwinkleTwinkie's Mad Cat SAO, a Cheshire Cat-themed add-on from DEF CON 26 (2018). Rather than a standalone badge, it is a "backpack" board that solders onto the back of an existing Mad Cat SAO, reusing that SAO's eight white LEDs but driving them with its own PIC16F1503 microcontroller instead of the original static circuit. Building one requires cutting four traces on the donor Mad Cat PCB and bridging four pads by hand between the two boards, so it is aimed at hobbyists comfortable with fine-pitch soldering rather than a plug-and-play accessory.

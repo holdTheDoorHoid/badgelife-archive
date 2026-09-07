@@ -43,7 +43,7 @@ get_one:
   - purchase
   where: Sold through the AND!XOR shop (shop.andnxor.com); remaining stock was also taken to the Hacker Warehouse vendor booth at DEF CON 27.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/LonghornEngineer/DOOM_SAO
   firmware_url: https://github.com/LonghornEngineer/DOOM_SAO
   eda_tool: null
@@ -57,9 +57,9 @@ links:
   kind: repo
 images:
 - file: assets/images/badges/dc27/doom-sao-hurt-me-plenty/f24f10311b.jpg
-  source: "https://hackaday.io/project/164346-andxor-dc27-badge/log/165849-dc27-doom-sao-hurt-me-plenty"
-  credit: "AND!XOR / LonghornEngineer"
-  caption: "DOOM SAO Hurt Me Plenty board detail"
+  source: https://hackaday.io/project/164346-andxor-dc27-badge/log/165849-dc27-doom-sao-hurt-me-plenty
+  credit: AND!XOR / LonghornEngineer
+  caption: DOOM SAO Hurt Me Plenty board detail
 contact: {}
 notes:
 - Spotted by a research agent while working on a neighbouring entry (run 2).
@@ -79,9 +79,15 @@ research:
   status: verified
   confidence: high
   last_checked: '2026-09-07'
-  notes: >-
-    Price and quantity made were not stated on either the Hackaday.io log or the GitHub repo, so those fields are left empty. The board has no addressable/discrete LEDs of its own (all visual output is via the LCD), so tech.leds is left null rather than guessed. Fact-check found one of the two saved images (5d7167109e.jpg) was not a photo of this SAO at all -- it was an unrelated AND!XOR badge packaging/warning-label graphic -- so it was deleted and removed from the entry; only the genuine board photo (f24f10311b.jpg, showing the ATSAMD21 MCU, USB-C connector, and "DOOM"/"Longhorn 2018" silkscreen) remains. The "where sold" text was also corrected -- the Hackaday.io log says remaining stock went to the Hacker Warehouse vendor booth at DEF CON 27, not AND!XOR's own vendor table. All other fields (maker, MCU, display, connectivity, SAO version, I2C address, functions/auto-mode/health/anger/EEPROM/I2C+UART sniffing, license, open-source status) were directly confirmed against the Hackaday.io log and the GitHub repo README.
+  notes: Price and quantity made were not stated on either the Hackaday.io log or the GitHub repo, so those fields are left empty. The board has no addressable/discrete LEDs of its own (all visual output is via the LCD), so tech.leds is left null rather than guessed. Fact-check found one of the two saved images (5d7167109e.jpg) was not a photo of this SAO at all -- it was an unrelated AND!XOR badge packaging/warning-label graphic -- so it was deleted and removed from the entry; only the genuine board photo (f24f10311b.jpg, showing the ATSAMD21 MCU, USB-C connector, and "DOOM"/"Longhorn 2018" silkscreen) remains. The "where sold" text was also corrected -- the Hackaday.io log says remaining stock went to the Hacker Warehouse vendor booth at DEF CON 27, not AND!XOR's own vendor table. All other fields (maker, MCU, display, connectivity, SAO version, I2C address, functions/auto-mode/health/anger/EEPROM/I2C+UART sniffing, license, open-source status) were directly confirmed against the Hackaday.io
+    log and the GitHub repo README.
 last_modified_date: '2026-09-07'
+model:
+  file: assets/models/dc27/doom-sao-hurt-me-plenty.glb
+  method: kicad
+  source_file: DOOM_SAO.brd
+  generated: '2026-09-07'
+  bytes: 259736
 ---
 
 The DOOM SAO "Hurt Me Plenty" is a Shitty Add-On built by Parker Dillmann (LonghornEngineer, working under the handle Cr4bf04m) for AND!XOR's DEF CON 27 badge in 2019. Rather than being a purely decorative add-on, it's a hardware-hacking tool disguised as a game reference: a 1.3" color LCD renders an animated DOOM Guy face whose expression and "health" respond to real I2C traffic passing across the SAO bus, while the board simultaneously acts as a passive sniffer for the I2C and UART lines connecting the host badge to its other add-ons.

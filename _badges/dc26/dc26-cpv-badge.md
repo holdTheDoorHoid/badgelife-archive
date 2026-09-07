@@ -98,6 +98,12 @@ research:
   last_checked: '2026-09-07'
   notes: 'Design and function details come from the maker''s repo and a contemporary Hackaday writeup, both of which describe the same badge consistently. Neither source states price, quantity made, LED count, or whether it carries a DC26 SAO header (the summary field, carried over from the sheet/intake pass, asserts an SAO header but this could not be independently confirmed in the repo or article, so sao_version/sao_ports are left null rather than guessed). EDA tool for the KiCad-named hardware folder was not explicitly confirmed in the files fetched. get_one fields left empty: no sale price, quantity, or distribution method found (village badges are often given to volunteers/attendees rather than sold, but this was not stated).'
 last_modified_date: '2026-09-07'
+model:
+  file: assets/models/dc26/dc26-cpv-badge.glb
+  method: kicad
+  source_file: hardware/badge2018.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 470764
 ---
 
 The Crypto & Privacy Village (CPV) gave out this badge at DEF CON 26 in 2018. It runs two microcontrollers — an ESP32 as the main brain and an EFM8UB1 handling supporting duties — and is built to look like machined gold-plated metal rather than a typical PCB: there's no silkscreen text, with lettering and outlines instead cut into the solder mask over gold-plated copper. The face carries only RGB LEDs and capacitive touch pads, which light up maze-style passages; badges are designed to tessellate edge-to-edge with neighboring units to build larger shapes when several are placed together. Power comes from a LiPo cell topped up over micro-USB.

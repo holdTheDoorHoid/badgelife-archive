@@ -75,6 +75,12 @@ research:
   last_checked: '2026-09-07'
   notes: Only source with real technical detail is the maker's own GitHub repo; no press coverage, storefront, Hackaday project, or maker photo of the assembled badge was found. LED count/type, display, battery, price, and quantity made are not stated anywhere found. No image of the physical badge was located, so images stays empty.
 last_modified_date: '2026-09-07'
+model:
+  file: assets/models/dc24/cpv-badge.glb
+  method: kicad
+  source_file: hardware/blinkybadge.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 171068
 ---
 The Crypto & Privacy Village's badge for DEF CON 24 (2016) is an ATmega32u2-based LED badge that the village's own hardware repository calls the "blinkybadge" (the repo itself is named `cpvdcbadge`). It uses the ATmega32u2's built-in USB bootloader, so attendees could reflash it directly over USB with the open-source `dfu-programmer` tool and a provided `reset_badge.py` script, without needing a separate programmer. Once flashed, a badge identifies itself on USB as "dc24:1337".
 

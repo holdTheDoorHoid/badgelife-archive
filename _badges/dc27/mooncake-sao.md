@@ -12,11 +12,16 @@ makers:
 - name: cybr1d (Jeremy Ward)
   url: https://github.com/cybr1d-cybr1d
 summary: A simple LED-only Shitty Add-On shaped like the character Mooncake from the cartoon Final Space, built on the SAO v1.69bis 6-pin connector as the maker's first KiCad PCB for DEF CON 27.
-functions: 'LED-only; no microcontroller or blink logic, LEDs light directly off the SAO header power.'
+functions: LED-only; no microcontroller or blink logic, LEDs light directly off the SAO header power.
 look:
-  colors: [green, black]
+  colors:
+  - green
+  - black
   shape: null
-  themes: [tv, cartoon, mascot]
+  themes:
+  - tv
+  - cartoon
+  - mascot
 tech:
   mcu: none
   leds:
@@ -35,7 +40,7 @@ get_one:
   distribution: []
   where: ''
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/cybr1d-cybr1d/Mooncake-SAO
   firmware_url: null
   eda_tool: KiCad
@@ -51,14 +56,14 @@ links:
   url: https://www.pcbway.com/project/shareproject/DEF_CON_27_Mooncake_Shitty_Add_On.html
   kind: fab
 images:
-  - file: assets/images/badges/dc27/mooncake-sao/65ef83b1de.png
-    source: "https://github.com/cybr1d-cybr1d/Mooncake-SAO"
-    credit: "Jeremy Ward (cybr1d)"
-    caption: "Front of the Mooncake SAO PCB"
-  - file: assets/images/badges/dc27/mooncake-sao/a9ee6e01c6.png
-    source: "https://github.com/cybr1d-cybr1d/Mooncake-SAO"
-    credit: "Jeremy Ward (cybr1d)"
-    caption: "Back of the Mooncake SAO PCB showing the SAO header and LEDs"
+- file: assets/images/badges/dc27/mooncake-sao/65ef83b1de.png
+  source: https://github.com/cybr1d-cybr1d/Mooncake-SAO
+  credit: Jeremy Ward (cybr1d)
+  caption: Front of the Mooncake SAO PCB
+- file: assets/images/badges/dc27/mooncake-sao/a9ee6e01c6.png
+  source: https://github.com/cybr1d-cybr1d/Mooncake-SAO
+  credit: Jeremy Ward (cybr1d)
+  caption: Back of the Mooncake SAO PCB showing the SAO header and LEDs
 contact: {}
 notes: []
 status: released
@@ -84,6 +89,15 @@ research:
   last_checked: '2026-09-07'
   notes: No price, quantity made, or distribution method (free drop vs. sale) found in any source; availability is unknown. No separate maker post (Twitter/Hackaday) beyond the repo and PCBWay page was located.
 last_modified_date: '2026-09-07'
+model:
+  file: assets/models/dc27/mooncake-sao.glb
+  method: gerber
+  source_file: .
+  generated: '2026-09-07'
+  bytes: 144080
+  size_mm:
+  - 50.0
+  - 54.8
 ---
 
 The Mooncake SAO is a Shitty Add-On shaped like Mooncake, the round blue-and-white companion creature from the animated series Final Space. Maker Jeremy Ward, who posts as cybr1d, built it for DEF CON 27 in 2019 and describes it on the project's PCBWay page as his first attempt at designing a PCB and learning KiCad, put together with help from instructional videos.

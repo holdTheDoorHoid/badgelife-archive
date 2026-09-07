@@ -127,6 +127,12 @@ research:
   last_checked: '2026-09-07'
   notes: LED count not stated anywhere found; battery type not stated (kit description mentions "battery pack" installed by buyer but no chemistry/size given). A separate bare "blank PCB" version was also sold on Tindie for builders who wanted to source their own parts.
 last_modified_date: '2026-09-07'
+model:
+  file: assets/models/dc27/dc-zia-laser-theremin-badge.glb
+  method: kicad
+  source_file: Hardware/laser-theremin.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 690116
 ---
 
 The DC Zia Laser Theremin Badge was the DC Zia group's unofficial badge for DEF CON 27 (2019), built around a laser theremin concept: two time-of-flight distance sensors (Adafruit VL53L0X breakouts) track how close a wearer's hands are, and that distance data drives a small onboard synthesizer, letting the wearer "play" the badge by waving their hands over it. A rotary encoder switches between waveforms, a 0.96" OLED shows badge state, and the sound comes out through an onboard speaker/amplifier or a 1/8" headphone jack. The badge runs on a Rigado BMD-340 module (an NRF52-based ARM Cortex-M4F with Bluetooth 5), stores data on an SD card, carries onboard RGB LEDs, and exposes two SAO ports for other badges to plug into.

@@ -36,7 +36,7 @@ get_one:
   distribution: []
   where: ''
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/AustinHackers/ahabadge/tree/master/DEFCON%2024/laser-tag%20badge
   firmware_url: https://github.com/AustinHackers/ahabadge/tree/master/DEFCON%2024/laser-tag%20software
   eda_tool: Eagle
@@ -87,10 +87,16 @@ research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'Everything here comes from the maker''s own GitHub repo (AustinHackers/ahabadge); no press coverage, storefront, or price/quantity/availability information was found anywhere, and none of the sources include a photo of the assembled badge itself (the one image in the repo, vregin_cap.jpg, shows a bodge-wire repair capacitor, not the badge). The firmware source (radio.c, RFM69registers.h) confirms an RFM69HCW sub-GHz radio for the "laser tag" gameplay, but no laser/IR component was found, so the tag mechanism is RF-based despite the name. A "version_2.x" branch exists for a later revision, not otherwise explored. Event corrected from ''other'' to DEF CON 24 (dc24) based on the repo''s own DEFCON 24 folder.'
+  notes: Everything here comes from the maker's own GitHub repo (AustinHackers/ahabadge); no press coverage, storefront, or price/quantity/availability information was found anywhere, and none of the sources include a photo of the assembled badge itself (the one image in the repo, vregin_cap.jpg, shows a bodge-wire repair capacitor, not the badge). The firmware source (radio.c, RFM69registers.h) confirms an RFM69HCW sub-GHz radio for the "laser tag" gameplay, but no laser/IR component was found, so the tag mechanism is RF-based despite the name. A "version_2.x" branch exists for a later revision, not otherwise explored. Event corrected from 'other' to DEF CON 24 (dc24) based on the repo's own DEFCON 24 folder.
 last_modified_date: '2026-09-07'
 redirect_from:
 - /badges/other/austin-hackers-association-badge/
+model:
+  file: assets/models/dc24/austin-hackers-association-badge.glb
+  method: kicad
+  source_file: laser-tag.brd
+  generated: '2026-09-07'
+  bytes: 234356
 ---
 
 The Austin Hackers Association (AHA), a Texas hacker group, built this badge for DEF CON 24 in 2016 as part of a home-grown laser-tag game. The board runs an NXP Kinetis MKL27Z256 microcontroller (Cortex-M0+) and drives an e-paper display for showing the wearer's name and game status, with an RFM69HCW sub-GHz radio module on a daughterboard handling the over-the-air tag/hit signaling in place of an actual optical emitter. It also enumerates as a USB mass-storage device, letting wearers load images and text onto the badge.

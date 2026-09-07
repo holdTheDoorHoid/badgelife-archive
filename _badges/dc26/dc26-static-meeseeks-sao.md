@@ -51,7 +51,7 @@ links:
 images: []
 contact: {}
 notes:
-- 'The "static" in the title (matching the file''s own listed description, "Static Rick and Morty Shitty Add-on") indicates the badge has no LED animation, just a fixed Mr. Meeseeks design. Note that at least one other item in the same collection, "Static Bob Ross Add-on," is also labeled static, so this is not a trait unique to the Meeseeks piece within the collection.'
+- The "static" in the title (matching the file's own listed description, "Static Rick and Morty Shitty Add-on") indicates the badge has no LED animation, just a fixed Mr. Meeseeks design. Note that at least one other item in the same collection, "Static Bob Ross Add-on," is also labeled static, so this is not a trait unique to the Meeseeks piece within the collection.
 status: listed
 sources:
 - kind: url
@@ -76,8 +76,18 @@ research:
   status: verified
   confidence: low
   last_checked: '2026-09-07'
-  notes: 'Fact-check pass (2026-09-07): re-fetched all three cited sources. The files page confirms shittymeseeks.zip (253.02 kB, uploaded 03/04/2019, description "Static Rick and Morty Shitty Add-on") exactly as cited. The project page confirms the maker, DEF CON 26 (2018), and the grab-bag nature of the collection (Harbinger flasher, Shitty Calvin, Mr Robopoly, Thereminion, Galaxia, Nick Cage, Bob Ross, Pickle Rick add-ons). The maker''s Hackaday.io profile confirms identity, Georgia location, and that this project was their DEF CON 26 entry. Corrected one overreach: the original body/notes claimed the Meeseeks piece was "static" unlike the maker''s other designs in the collection, but the files list also shows a "Static Bob Ross Add-on" — so being static is not unique to this item within the collection; softened that language in notes and body. No dedicated log post, photo, chip/LED specs, price, quantity, or distribution info exists for this item anywhere on the project or profile (a project /log page 404s). Everything remaining in the entry is supported by the cited sources, so marking research.status verified despite low confidence (little could be found beyond the file listing).'
+  notes: 'Fact-check pass (2026-09-07): re-fetched all three cited sources. The files page confirms shittymeseeks.zip (253.02 kB, uploaded 03/04/2019, description "Static Rick and Morty Shitty Add-on") exactly as cited. The project page confirms the maker, DEF CON 26 (2018), and the grab-bag nature of the collection (Harbinger flasher, Shitty Calvin, Mr Robopoly, Thereminion, Galaxia, Nick Cage, Bob Ross, Pickle Rick add-ons). The maker''s Hackaday.io profile confirms identity, Georgia location, and that this project was their DEF CON 26 entry. Corrected one overreach: the original body/notes claimed the Meeseeks piece was "static" unlike the maker''s other designs in the collection, but the files list also shows a "Static Bob Ross Add-on" — so being static is not unique to this item within the collection; softened that language in notes and body. No dedicated log post, photo, chip/LED specs, price, quantity, or distribution info exists for this item anywhere on the project or profile (a
+    project /log page 404s). Everything remaining in the entry is supported by the cited sources, so marking research.status verified despite low confidence (little could be found beyond the file listing).'
 last_modified_date: '2026-09-07'
+model:
+  file: assets/models/dc26/dc26-static-meeseeks-sao.glb
+  method: gerber
+  source_file: gerbersfixxxx.zip/gerbersfixxxx
+  generated: '2026-09-07'
+  bytes: 189728
+  size_mm:
+  - 81.9
+  - 75.6
 ---
 
 A static (non-animated) Mr. Meeseeks shitty add-on, part of "The Harbinger Shitty Add-on Badges" — a

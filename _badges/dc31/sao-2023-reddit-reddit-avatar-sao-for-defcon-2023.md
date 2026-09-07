@@ -38,7 +38,7 @@ get_one:
   distribution: []
   where: ''
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/pale-shadow/sao-2023-reddit/tree/main/pcb
   firmware_url: null
   eda_tool: KiCad
@@ -50,13 +50,13 @@ links:
   kind: repo
 images:
 - file: assets/images/badges/dc31/sao-2023-reddit-reddit-avatar-sao-for-defcon-2023/aedd229781.jpg
-  source: "https://github.com/pale-shadow/sao-2023-reddit"
-  credit: "pale-shadow"
-  caption: "3D render of the Reddit Snoo-shaped SAO PCB, with a reddit-logo pendant and 'r/Defcon 2023' silkscreen text on the body"
+  source: https://github.com/pale-shadow/sao-2023-reddit
+  credit: pale-shadow
+  caption: 3D render of the Reddit Snoo-shaped SAO PCB, with a reddit-logo pendant and 'r/Defcon 2023' silkscreen text on the body
 - file: assets/images/badges/dc31/sao-2023-reddit-reddit-avatar-sao-for-defcon-2023/c3529e9a57.png
-  source: "https://github.com/pale-shadow/sao-2023-reddit"
-  credit: "pale-shadow"
-  caption: "PCB front-copper layout of the Snoo-shaped SAO, from the assembly documentation"
+  source: https://github.com/pale-shadow/sao-2023-reddit
+  credit: pale-shadow
+  caption: PCB front-copper layout of the Snoo-shaped SAO, from the assembly documentation
 contact: {}
 notes: []
 status: listed
@@ -90,22 +90,17 @@ research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: >-
-    The maker's own GitHub repo (org "pale-shadow", README credits user DEAD10C5) confirms this is a
-    Reddit "Snoo" mascot-shaped PCB made for DEF CON 31 (2023); corrected event from "other" to dc31
-    per events.yml. Despite being named and typed as a "SAO", the published schematic contains no SAO
-    connector at all -- just a CR2032 coin-cell holder, two reverse-mount LEDs, and a series resistor --
-    so tech.sao_version is set to "none" rather than guessed; it reads as a standalone battery-powered
-    blinky pendant that borrows the "shitty add-on" name/format without actually plugging into a
-    badge's SAO header. No price, quantity, or distribution details were published anywhere in the
-    repo, and no Hackaday.io page, storefront, or social post about it could be found, so get_one
-    fields and look.colors are left empty rather than inferred from the KiCad 3D-render colors (which
-    are EDA defaults, not necessarily the real solder-mask color). A different, unrelated SAO --
-    dc31-defcon-subreddit-sao by maker MetaN3rd, also Reddit/r/Defcon-themed and also DEF CON 31 -- is
-    not a duplicate of this entry; they are two separate projects by two separate makers.
+  notes: The maker's own GitHub repo (org "pale-shadow", README credits user DEAD10C5) confirms this is a Reddit "Snoo" mascot-shaped PCB made for DEF CON 31 (2023); corrected event from "other" to dc31 per events.yml. Despite being named and typed as a "SAO", the published schematic contains no SAO connector at all -- just a CR2032 coin-cell holder, two reverse-mount LEDs, and a series resistor -- so tech.sao_version is set to "none" rather than guessed; it reads as a standalone battery-powered blinky pendant that borrows the "shitty add-on" name/format without actually plugging into a badge's SAO header. No price, quantity, or distribution details were published anywhere in the repo, and no Hackaday.io page, storefront, or social post about it could be found, so get_one fields and look.colors are left empty rather than inferred from the KiCad 3D-render colors (which are EDA defaults, not necessarily the real solder-mask color). A different, unrelated SAO -- dc31-defcon-subreddit-sao by
+    maker MetaN3rd, also Reddit/r/Defcon-themed and also DEF CON 31 -- is not a duplicate of this entry; they are two separate projects by two separate makers.
 last_modified_date: '2026-09-07'
 redirect_from:
 - /badges/other/sao-2023-reddit-reddit-avatar-sao-for-defcon-2023/
+model:
+  file: assets/models/dc31/sao-2023-reddit-reddit-avatar-sao-for-defcon-2023.glb
+  method: kicad
+  source_file: pcb/reddit.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 46776
 ---
 
 A GitHub user going by pale-shadow (repo credits DEAD10C5) designed this PCB as a "Shitty Add-On" for DEF CON 31 in 2023: a two-layer board cut into the outline of Reddit's alien mascot "Snoo," with a small reddit-logo medallion and "r/Defcon 2023" silkscreened onto its belly. Electrically it is deliberately minimal -- a CR2032 coin cell in a Keystone 3002 holder lights two reverse-mount PLCC-2 LEDs through a single current-limiting resistor, with no microcontroller and, notably, no SAO connector footprint anywhere in the published schematic, so it appears to be a self-contained blinky rather than something that actually plugs into a host badge.

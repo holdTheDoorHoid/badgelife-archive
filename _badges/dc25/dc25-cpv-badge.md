@@ -12,7 +12,7 @@ makers:
 - name: Crypto & Privacy Village (Karl Koscher / supersat, Whitney Merrill, Justin Culbertson)
   url: https://cryptovillage.org/
 summary: 'The Crypto & Privacy Village''s DEF CON 25 badge: an ESP-WROOM-32 board running MicroPython with an EFM8UB1 USB co-processor, a 128x64 backlit LCD, a rotary encoder, capacitive touch pads, eight APA102 RGB LEDs, an ATECC508A crypto chip, an SD card slot and a headphone jack that streamed DEF CON radio, shipped in a matte black gilded box with earbuds.'
-functions: 'Runs user-hackable MicroPython; drove a backlit LCD and 8 APA102 RGB LEDs via rotary encoder and capacitive touch pads; used the ATECC508A to locate/authenticate other badges wirelessly; had an SD card slot and a headphone jack that streamed DEF CON radio. Lanyards and the badge back carried ciphers, and the team cut ornate PCB "keys" as part of the puzzle.'
+functions: Runs user-hackable MicroPython; drove a backlit LCD and 8 APA102 RGB LEDs via rotary encoder and capacitive touch pads; used the ATECC508A to locate/authenticate other badges wirelessly; had an SD card slot and a headphone jack that streamed DEF CON radio. Lanyards and the badge back carried ciphers, and the team cut ornate PCB "keys" as part of the puzzle.
 look:
   colors:
   - black
@@ -40,7 +40,7 @@ tech:
   battery: null
   sao_version: null
 get_one:
-  price: '$120 assembled; $50 for non-functional/unassembled boards after assembled stock sold out'
+  price: $120 assembled; $50 for non-functional/unassembled boards after assembled stock sold out
   price_usd: 120
   quantity: ''
   availability: sold_out
@@ -49,7 +49,7 @@ get_one:
   - village
   where: Sold in person at the Crypto & Privacy Village at DEF CON 25 (2017); checked via press coverage, 2026-09-07.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/cryptovillage/badge2017
   firmware_url: https://github.com/cryptovillage/badge2017
   eda_tool: null
@@ -67,14 +67,14 @@ links:
   kind: article
   archived: https://web.archive.org/web/20260306173057/https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/
 images:
-  - file: assets/images/badges/dc25/dc25-cpv-badge/21ee29599a.jpg
-    source: "https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/"
-    credit: "Hackaday"
-    caption: "Front of the assembled 2017 Crypto and Privacy Village badge"
-  - file: assets/images/badges/dc25/dc25-cpv-badge/7020d24e98.jpg
-    source: "https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/"
-    credit: "Hackaday"
-    caption: "The badge's matte black gilded presentation box"
+- file: assets/images/badges/dc25/dc25-cpv-badge/21ee29599a.jpg
+  source: https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/
+  credit: Hackaday
+  caption: Front of the assembled 2017 Crypto and Privacy Village badge
+- file: assets/images/badges/dc25/dc25-cpv-badge/7020d24e98.jpg
+  source: https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/
+  credit: Hackaday
+  caption: The badge's matte black gilded presentation box
 contact: {}
 notes: []
 status: released
@@ -87,13 +87,13 @@ sources:
   archived: https://web.archive.org/web/20260907112820/https://github.com/cryptovillage/badge2017
 - kind: url
   url: https://hackaday.io/project/25893-the-2017-crypto-and-privacy-village-badge
-  title: "The 2017 Crypto and Privacy Village Badge - Hackaday.io"
+  title: The 2017 Crypto and Privacy Village Badge - Hackaday.io
   accessed: '2026-09-07'
   note: Confirmed makers (Karl Koscher, Whitney Merrill, Justin Culbertson), chip list (ESP-WROOM-32, EFM8UB1, ATECC508A, ERC12864-1 LCD, 8x APA102-2020 LEDs), and a documented VBUS design flaw.
   archived: https://web.archive.org/web/20260907112942/https://hackaday.io/project/25893-the-2017-crypto-and-privacy-village-badge
 - kind: url
   url: https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/
-  title: "All The Hardware Badges Of DEF CON 25 - Hackaday"
+  title: All The Hardware Badges Of DEF CON 25 - Hackaday
   accessed: '2026-09-07'
   note: Source for price ($120 assembled, $50 unassembled after sellout), the gilded box/earbud presentation, rotary encoder/capacitive touch controls, and photos.
   archived: https://web.archive.org/web/20260306173057/https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/
@@ -103,6 +103,12 @@ research:
   last_checked: '2026-09-07'
   notes: Exact production quantity not stated by any source found. Battery/power source not documented (badge may have been USB-powered only; not confirmed). Rumor mentioned by Hackaday that the badge could interact with "Bender on a Bender" units is unverified and not included as fact.
 last_modified_date: '2026-09-07'
+model:
+  file: assets/models/dc25/dc25-cpv-badge.glb
+  method: kicad
+  source_file: hardware/badge2017.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 632240
 ---
 
 The Crypto & Privacy Village built its DEF CON 25 (2017) badge around an ESP-WROOM-32 module running MicroPython, paired with an EFM8UB1 8-bit USB co-processor, an ATECC508A crypto chip, a 128x64 backlit LCD, eight APA102 RGB LEDs, a rotary encoder, and capacitive touch pads. Karl Koscher (supersat), Whitney Merrill, and Justin Culbertson led the project. Badges shipped with an SD card slot and a headphone jack that streamed DEF CON radio, and could locate or authenticate other badges wirelessly using the onboard crypto chip.

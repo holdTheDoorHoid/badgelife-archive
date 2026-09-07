@@ -50,13 +50,13 @@ links:
   kind: repo
 images:
 - file: assets/images/badges/dc27/dc27-mooncake-sao/65ef83b1de.png
-  source: "https://github.com/cybr1d-cybr1d/Mooncake-SAO"
-  credit: "Jeremy Ward (cybr1d-cybr1d)"
-  caption: "Front of the assembled Mooncake SAO PCB"
+  source: https://github.com/cybr1d-cybr1d/Mooncake-SAO
+  credit: Jeremy Ward (cybr1d-cybr1d)
+  caption: Front of the assembled Mooncake SAO PCB
 - file: assets/images/badges/dc27/dc27-mooncake-sao/a9ee6e01c6.png
-  source: "https://github.com/cybr1d-cybr1d/Mooncake-SAO"
-  credit: "Jeremy Ward (cybr1d-cybr1d)"
-  caption: "Back of the assembled Mooncake SAO PCB"
+  source: https://github.com/cybr1d-cybr1d/Mooncake-SAO
+  credit: Jeremy Ward (cybr1d-cybr1d)
+  caption: Back of the assembled Mooncake SAO PCB
 contact: {}
 notes: []
 status: listed
@@ -82,6 +82,15 @@ research:
   last_checked: '2026-09-07'
   notes: Maker's own repo and PCBWay share page agree on the core facts (event, year, standard, board spec). No source states whether it has LEDs, a microcontroller, a display, price, quantity made, or how it was distributed, so those fields are left empty/null rather than guessed. No press coverage, storefront listing, or social posts found beyond the two maker-controlled pages.
 last_modified_date: '2026-09-07'
+model:
+  file: assets/models/dc27/dc27-mooncake-sao.glb
+  method: gerber
+  source_file: .
+  generated: '2026-09-07'
+  bytes: 144080
+  size_mm:
+  - 50.0
+  - 54.8
 ---
 
 The Mooncake SAO is a DEF CON 27 (2019) shitty add-on shaped after Mooncake, the small floating character from the animated series *Final Space*. It follows the v1.69bis (6-pin) SAO standard and was made by Jeremy Ward, who posted the project under the GitHub handle cybr1d-cybr1d as his first attempt at designing a PCB, learning KiCad along the way with help from TwinkleTwinkie's instructional videos and PCBWay's fabrication service.

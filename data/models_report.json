@@ -85,5 +85,149 @@
   "bytes": 205788,
   "tried": [],
   "src": "board/coinop-badge.kicad_pcb"
+ },
+ "cccamp-2019-numberwang-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 170996,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "Numberwang.brd"
+ },
+ "cccamp-2019-numberwang-badge-2": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 170972,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "Numberwang.brd"
+ },
+ "dc23-dc801-def-con-23-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 370496,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "Mainboard v4.brd"
+ },
+ "dc24-austin-hackers-association-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 234356,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "laser-tag.brd"
+ },
+ "dc24-dc-darknet-def-con-24-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 275420,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "DC24-Darknet_Badge.brd"
+ },
+ "dc24-dc801-dc24-party-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 91272,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "AccessBadgeV1.0.brd"
+ },
+ "dc24-psychoholics-pin": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 61964,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "psychoholics_pin.brd"
+ },
+ "dc25-darknet-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 281072,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "dc25-darknet-dialer-eaglev8.2.brd"
+ },
+ "dc25-dc-darknet-def-con-25-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 281048,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "dc25-darknet-dialer-eaglev8.2.brd"
+ },
+ "dc25-dc801-dc25-party-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 62760,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "Sheep.brd"
+ },
+ "dc25-dczia-def-con-25-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 231884,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "DCZia MechKeyBadge.brd"
+ },
+ "dc25-hardware-hacking-village-dc25-re-challenge-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 108588,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "DC25_HHV_RE-P1.brd"
+ },
+ "dc25-led-bangle-defconbangle": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 141896,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "dc5032018banglet.brd"
+ },
+ "dc26-blinky-ball-rgb-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 162064,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "20x16_RGB_Small_v2.1.brd"
+ },
+ "dc26-dc-darknet-badge-conrad-personal-communicator-dc26": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 505528,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "dc26-dev-board-apa102c-3.brd"
+ },
+ "dc26-dc503-banglet-badge-dc26": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 141912,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "dc5032018banglet.brd"
  }
 }

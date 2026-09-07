@@ -14,9 +14,16 @@ makers:
 summary: AND!XOR's first independent DEF CON badge, the Bender-shaped board for DEF CON 24 (2016), built around an STM32F103 with a 128x64 OLED, an RFM69W 433 MHz radio, eight WS2812B RGB LEDs, light and tilt sensors, and 2 MB of SPI flash, running open Arduino-compatible firmware; about 120 full badges plus 50 LED-only bling variants were hand-assembled and sold at the con.
 functions: Runs 14 different LED animations, includes a command-line interface accessible over serial/USB, and supports social/gaming interaction between badges over the onboard RF link.
 look:
-  colors: [black, white]
+  colors:
+  - black
+  - white
   shape: robot
-  themes: [robot, pop culture, sci-fi, security, radio]
+  themes:
+  - robot
+  - pop culture
+  - sci-fi
+  - security
+  - radio
 tech:
   mcu: STM32F103CBT6
   leds:
@@ -24,7 +31,8 @@ tech:
     type: WS2812B
     note: used for eye and animation effects
   display: 0.96" 128x64 OLED (SSD1306, blue)
-  connectivity: [sub-ghz]
+  connectivity:
+  - sub-ghz
   battery: null
   sao_version: null
 get_one:
@@ -32,10 +40,11 @@ get_one:
   price_usd: null
   quantity: about 100 white + 20 black full badges, plus 50 LED-only "Bling" variants
   availability: sold_out
-  distribution: [purchase]
+  distribution:
+  - purchase
   where: Sold in person at DEF CON 24 (Paris Hotel, Las Vegas, Aug 4-7 2016); demand reportedly outstripped supply, with roughly 300 people lining up for about 70 badges at one point.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/ANDnXOR/ANDnXOR_DC24_Badge
   firmware_url: https://github.com/ANDnXOR/ANDnXOR_DC24_Badge
   eda_tool: KiCad
@@ -50,14 +59,14 @@ links:
   kind: repo
   archived: https://web.archive.org/web/20260907111848/https://github.com/ANDnXOR/ANDnXOR_DC24_Badge
 images:
-  - file: assets/images/badges/dc24/andxor-defcon-24-badge/079965719f.jpg
-    source: "https://hackaday.io/project/9064-andxor-defcon-24-badge"
-    credit: "AND!XOR"
-    caption: "AND!XOR DEF CON 24 badge, Bender-shaped PCB"
-  - file: assets/images/badges/dc24/andxor-defcon-24-badge/c7c703de6a.jpg
-    source: "https://hackaday.io/project/9064-andxor-defcon-24-badge"
-    credit: "AND!XOR"
-    caption: "AND!XOR DEF CON 24 badge project photo"
+- file: assets/images/badges/dc24/andxor-defcon-24-badge/079965719f.jpg
+  source: https://hackaday.io/project/9064-andxor-defcon-24-badge
+  credit: AND!XOR
+  caption: AND!XOR DEF CON 24 badge, Bender-shaped PCB
+- file: assets/images/badges/dc24/andxor-defcon-24-badge/c7c703de6a.jpg
+  source: https://hackaday.io/project/9064-andxor-defcon-24-badge
+  credit: AND!XOR
+  caption: AND!XOR DEF CON 24 badge project photo
 contact: {}
 notes: []
 status: released
@@ -84,6 +93,15 @@ research:
   last_checked: '2026-09-07'
   notes: Price paid at the con and total badge count are not stated precisely on the sources checked (hackaday.io project page and GitHub repo); production split (100 white / 20 black / 50 LED-only bling) comes from the hackaday.io page and is consistent with the sheet-derived summary's "120 full + 50 bling" figure. No open web search corroboration was possible beyond these two sources (session web-search budget was exhausted); no disagreements found between the two sources used.
 last_modified_date: '2026-09-07'
+model:
+  file: assets/models/dc24/andxor-defcon-24-badge.glb
+  method: gerber
+  source_file: Gerbers
+  generated: '2026-09-07'
+  bytes: 205304
+  size_mm:
+  - 72.3
+  - 99.5
 ---
 
 AND!XOR's DEF CON 24 badge (2016) was the Philadelphia/California-based hacker crew's first independently produced conference badge, shaped like Bender from Futurama. Designed by Zapp, Jorge Lacoste, and Andrew, it is built around an STM32F103CBT6 microcontroller running Arduino-compatible (STM32Duino) firmware, with a 0.96" 128x64 blue OLED display, eight WS2812B RGB LEDs used for eye and animation effects, an RFM69W 433 MHz radio for badge-to-badge interaction, a light sensor, a tilt switch, and 2 MB of onboard SPI flash. The badge ran 14 different LED animations and exposed a command-line interface over serial/USB for hacking.

@@ -104,6 +104,12 @@ research:
   last_checked: '2026-09-07'
   notes: Verification pass confirmed every non-empty field and body sentence against the Tindie listing, the mkfactor.com presale post, the compukidmike/dc27 GitHub repo, and the Hackaday DEF CON 27 roundup. tech.sao_version (previously "v1") was blanked to null since no source states the SAO header revision. LED count/type were not independently confirmed with a spec sheet, and the badge platform itself is largely passive (an ATtiny84 base with resistive-divider stone detection); no display or wireless connectivity is present. Storefront (Tindie) shows the badge as an "out of stock" leftover of the original 200-unit run rather than a separate release.
 last_modified_date: '2026-09-07'
+model:
+  file: assets/models/dc27/fifth-element-stones-badge-def-con-27.glb
+  method: kicad
+  source_file: Fifth Element Badge/Hardware/FifthElementBase/FifthElementBase.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 232676
 ---
 
 The Fifth Element Stones Badge was made for DEF CON 27 (2019) by the two-person GoonBoxBadge team (MKFactor / CompuKidMike, based in Riverton, Utah), riding the same year's wave of independent SAO-heavy badges. It reimagines the glowing "element stones" from the 1997 film *The Fifth Element* as a base badge with four separate stone add-ons: each stone is built from 11 small circuit boards that let it spring open when set into its matching slot on the base, and each stone quotes the movie character who originally "opened" that element. An ATtiny84 on the base badge reads a resistive divider for each slot to sense which stone has been placed and where; getting all four stones into their correct spots lights up a white "5th Element" LED at the center, and a separate blinky mode cycles all the LEDs. Each stone also doubles as a standalone SAO that plugs into any badge with a compatible SAO header.

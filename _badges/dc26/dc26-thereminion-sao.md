@@ -77,6 +77,15 @@ research:
   last_checked: '2026-09-07'
   notes: 'The Hackaday.io project page ("The Harbinger Shitty Add-on Badges") is a single listing covering several distinct SAOs the maker built for DEF CON 26 2018 (Brrr, Shitty Calvin, Mr Robopoly, Thereminion, a Sound/Circuits Lab prototyping board, and a galaxia synth) — Thereminion gets only a two-line description there, with no dedicated page. No MCU, LED count, quantity made, or SAO header version is stated anywhere found; the circuit is described as analog (a modified Forrest Mims audible light meter), so it may not have a microcontroller at all, but that is not confirmed by a source, so tech.mcu is left null rather than guessed. No photo clearly of the Thereminion itself (as opposed to the project''s general gallery images, which are uncaptioned and cover multiple different SAOs) could be identified, so no image was saved. The maker''s own project files page only offers the gerbers, no firmware, hence open_source: partial.'
 last_modified_date: '2026-09-07'
+model:
+  file: assets/models/dc26/dc26-thereminion-sao.glb
+  method: gerber
+  source_file: gerbersfixxxx.zip/gerbersfixxxx
+  generated: '2026-09-07'
+  bytes: 189728
+  size_mm:
+  - 81.9
+  - 75.6
 ---
 
 Thereminion is a minion-shaped shitty add-on (SAO) built by awkward intelligence for DEF CON 26 in 2018, part of a larger self-titled "Harbinger" line of SAOs the maker brought to that con. Its circuit is a modification of Forrest Mims' classic audible light meter design, turning the badge into a small light-controlled theremin: ambient light level changes the pitch of the sound it produces. The maker did not sell Thereminion on its own — it was given away as a bonus to people who bought one of the other add-ons in the same line.

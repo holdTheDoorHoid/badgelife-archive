@@ -96,6 +96,15 @@ research:
   last_checked: '2026-09-07'
   notes: Price, quantity made, and LED count/type were not stated on the maker page, GitHub repo, or firmware README; left empty rather than guessed. The maker's own page and GitHub repo agree on all other details, so no source conflicts.
 last_modified_date: '2026-09-07'
+model:
+  file: assets/models/dc26/phase-4-ground-trans-ionospheric-badge-dc26.glb
+  method: gerber
+  source_file: hardware/Outputs
+  generated: '2026-09-07'
+  bytes: 90428
+  size_mm:
+  - 132.0
+  - 143.2
 ---
 
 The Trans-Ionospheric badge is a wearable amateur-radio peripheral built by [Open Research Institute](https://openresearch.institute/) for its Phase 4 Ground project, and was demonstrated at DEF CON 26 in Las Vegas in 2018. It runs on a Nordic nRF52 Bluetooth Low Energy microcontroller and drives a small 1.45" color TFT display, and it connects to a phone over BLE using the nRF UART or nRF Connect apps, including a monitor mode with hidden easter eggs.

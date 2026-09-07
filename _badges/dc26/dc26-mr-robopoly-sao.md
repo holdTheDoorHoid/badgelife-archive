@@ -81,6 +81,15 @@ research:
   last_checked: '2026-09-07'
   notes: Fact-check pass (2026-09-07) re-fetched all three cited sources. The project page, files page, and maker profile confirm the event (DEF CON 26, 2018), the maker, the sibling SAOs (Brrr, Shitty Calvin, Thereminion), the "bbenchoffs Sao guide" schematic reference, and the gerbersrobo.zip file (1.30 MB, uploaded 07/25/2018). The prior draft's summary/body line describing Mr Robopoly's appearance ("Monopoly-man-as-robot ... holding a Bitcoin money bag and a lit keyboard") was not supported by any source text - the project page's only mention of Mr Robopoly is the one-line schematic credit, with no per-item image captions - so that description was removed rather than left unverified. Everything remaining in the entry is supported by the cited sources; chip, LED, price, quantity, and availability remain unknown because the project page genuinely does not break them out per item.
 last_modified_date: '2026-09-07'
+model:
+  file: assets/models/dc26/dc26-mr-robopoly-sao.glb
+  method: gerber
+  source_file: gerbersfixxxx.zip/gerbersfixxxx
+  generated: '2026-09-07'
+  bytes: 189728
+  size_mm:
+  - 81.9
+  - 75.6
 ---
 
 Mr Robopoly is a shitty-add-on badge (SAO) by the maker "awkward intelligence." It was one of several small SAOs the maker grouped together under "The Harbinger Shitty Add-on Badges," a project posted to Hackaday.io on July 25, 2018 for DEF CON 26, alongside sibling designs named Brrr, Shitty Calvin, and Thereminion. The project page does not describe Mr Robopoly's appearance, and no dedicated photo of it was found, so no visual description or image is included here.

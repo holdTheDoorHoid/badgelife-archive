@@ -81,6 +81,12 @@ research:
   last_checked: '2026-09-07'
   notes: 'Confirmed via Hackaday''s DC27 badge roundup (quantity made, FR4-diffuser LED trick, double-sided assembly by skillet reflow). The @enterprisebadge Twitter/X account (linked from the Hackaday article and the original sheet) could not be read directly: x.com returned HTTP 403 to automated fetches, and a Wayback Machine snapshot from 2021-07-06 rendered as an empty React shell with no extractable bio, tweet text, or photos. Maker''s real name/team, MCU, LED count/type, price, and availability remain unknown. No repo, store listing, or design files were found.'
 last_modified_date: '2026-09-07'
+model:
+  file: assets/models/dc27/enterprise-badge-dc27.glb
+  method: kicad
+  source_file: Board/EnterpriseDCBadge - Copy.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 223024
 ---
 
 The Enterprise Badge is an unofficial hardware badge made for DEF CON 27 (2019), shaped like a Star Trek starship. Its standout trick is using bare, unmasked FR4 substrate as a light diffuser: at the leading edge of the ship's warp nacelles, exposed fiberglass catches light from reverse-mount LEDs mounted underneath, producing a soft glow along those edges rather than a sharp point source — a variation on a diffuser technique that was already common in the 2019 badgelife scene, but applied in a novel spot.

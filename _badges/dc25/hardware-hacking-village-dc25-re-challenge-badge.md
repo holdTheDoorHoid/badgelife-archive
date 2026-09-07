@@ -42,7 +42,7 @@ get_one:
   - village
   where: Picked up in person at the DEF CON 25 Hardware Hacking Village; not sold.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/DCHHV/DC25_HHV_RE/tree/master/eagle
   firmware_url: https://github.com/DCHHV/DC25_HHV_RE/tree/master/DC25_HHV_RE.X
   gerbers_url: https://github.com/DCHHV/DC25_HHV_RE/tree/master/eagle
@@ -59,7 +59,7 @@ links:
 images: []
 contact: {}
 notes:
-- 'BOM lists the microcontroller as "PIC12F1571"; the maker''s own writeup.txt names it "PIC12F1572" (an 8-pin PIC12F157x family part either way). Kept both readings in tech and here rather than guessing which is the typo.'
+- BOM lists the microcontroller as "PIC12F1571"; the maker's own writeup.txt names it "PIC12F1572" (an 8-pin PIC12F157x family part either way). Kept both readings in tech and here rather than guessing which is the typo.
 status: released
 sources:
 - kind: url
@@ -70,7 +70,7 @@ sources:
   archived: https://web.archive.org/web/20260907113102/https://github.com/DCHHV/DC25_HHV_RE
 - kind: url
   url: https://raw.githubusercontent.com/DCHHV/DC25_HHV_RE/master/README.md
-  title: 'DC25_HHV_RE README'
+  title: DC25_HHV_RE README
   accessed: '2026-09-07'
   note: Confirms it is a DEF CON 25 HHV reverse-engineering challenge kit, distributed as a kit at the village, with eagle/gerber hardware files and a hex firmware blob; describes the two-part challenge (schematic + unlock) and prize structure.
 - kind: url
@@ -89,6 +89,12 @@ research:
   last_checked: '2026-09-07'
   notes: No photo of the physical device was found anywhere in the repo (no images/ folder, no README screenshots) or via a general web search, so images could not be saved. Quantity made and exact battery cell size are not stated in any source. The repo names this a "challenge" kit handed out at the HHV rather than a wearable badge, so type was corrected from badge to kit; happy to revert if the community sheet meant something more badge-like by the title.
 last_modified_date: '2026-09-07'
+model:
+  file: assets/models/dc25/hardware-hacking-village-dc25-re-challenge-badge.glb
+  method: kicad
+  source_file: DC25_HHV_RE-P1.brd
+  generated: '2026-09-07'
+  bytes: 108588
 ---
 
 The DC25 HHV Reverse Engineering Challenge is a small locked puzzle board that the DEF CON 25 Hardware Hacking Village gave out in person in 2017. It follows on from a DC24 HHV RE challenge, but simplifies to a single main puzzle meant to mimic a "real-world" locked device. A PIC12F157x microcontroller reads four front-panel buttons through a resistor ladder and drives a red/green LED pair; entering the right 8-digit code on the buttons, or typing "unlockit" over an exposed 9600-baud serial pad, lights the green LED solid. Wrong attempts cost 10 seconds of red-LED blinking to slow brute forcing, and the board deliberately plants a red herring (a boot-time version string the same length as a valid code) along with a small easter egg for players who try it anyway.

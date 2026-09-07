@@ -38,11 +38,11 @@ get_one:
   distribution: []
   where: ''
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/soynerdito/BSides20016Badge
   firmware_url: https://github.com/soynerdito/BSides20016Badge
   eda_tool: Eagle
-  notes: 'Repo contains multiple board variants (BADGE_LED_MATRIX_STM, plus MicroUSB and PL2303HX alternates), Eagle schematic/board files (.sch/.brd), and an ATtiny85 variant and a CH340G USB-serial sub-project. Firmware was developed with STM32CubeMX-generated project files built in Keil (Windows); the maker notes Linux tooling (System Workbench for STM32) was untested at time of writing.'
+  notes: Repo contains multiple board variants (BADGE_LED_MATRIX_STM, plus MicroUSB and PL2303HX alternates), Eagle schematic/board files (.sch/.brd), and an ATtiny85 variant and a CH340G USB-serial sub-project. Firmware was developed with STM32CubeMX-generated project files built in Keil (Windows); the maker notes Linux tooling (System Workbench for STM32) was untested at time of writing.
 links:
 - label: github.com/soynerdito/BSides20016Badge
   url: https://github.com/soynerdito/BSides20016Badge
@@ -54,18 +54,18 @@ links:
   url: https://community.element14.com/members-area/personalblogs/b/blog/posts/conference-badge-with-a-stm32f0
   kind: article
 images:
-  - file: assets/images/badges/bsidespr-2016/bsides20016badge-stm32f0-cortex-m0-led-matrix/de4ca4be0f.jpg
-    source: "https://github.com/soynerdito/BSides20016Badge"
-    credit: "soynerdito"
-    caption: "PCB render of the BSidesPR 2016 badge with the 8x8 LED matrix"
-  - file: assets/images/badges/bsidespr-2016/bsides20016badge-stm32f0-cortex-m0-led-matrix/683d39182e.png
-    source: "https://github.com/soynerdito/BSides20016Badge"
-    credit: "soynerdito"
-    caption: "Board diagnostic photo of the assembled badge"
+- file: assets/images/badges/bsidespr-2016/bsides20016badge-stm32f0-cortex-m0-led-matrix/de4ca4be0f.jpg
+  source: https://github.com/soynerdito/BSides20016Badge
+  credit: soynerdito
+  caption: PCB render of the BSidesPR 2016 badge with the 8x8 LED matrix
+- file: assets/images/badges/bsidespr-2016/bsides20016badge-stm32f0-cortex-m0-led-matrix/683d39182e.png
+  source: https://github.com/soynerdito/BSides20016Badge
+  credit: soynerdito
+  caption: Board diagnostic photo of the assembled badge
 contact: {}
 notes:
 - Spotted by a research agent while working on a neighbouring entry (run 2).
-- 'Sheet/repo title reads "BSides20016Badge" (likely a typo for "BSides2016Badge"); kept as the maker''s repo name for title but the underlying event is BSidesPR (BSides Puerto Rico) 2016, confirmed by the maker''s own blog post title.'
+- Sheet/repo title reads "BSides20016Badge" (likely a typo for "BSides2016Badge"); kept as the maker's repo name for title but the underlying event is BSidesPR (BSides Puerto Rico) 2016, confirmed by the maker's own blog post title.
 - Price, quantity made, and distribution/availability were not stated in any source found.
 status: released
 sources:
@@ -76,7 +76,7 @@ sources:
   note: 'Found by the archive''s discovery sweep (angle: research-run2-spotted); event read as ''BSidesPR 2016''.'
 - kind: url
   url: https://blog.soynerdito.com/2016/02/bsidespr-2016-badge-programming-tools.html
-  title: "Soynerdito's Blog: BSidesPR 2016 Badge programming tools"
+  title: 'Soynerdito''s Blog: BSidesPR 2016 Badge programming tools'
   accessed: '2026-09-07'
   note: Confirms event (BSidesPR 2016), MCU (STM32F0/Cortex-M0), LED matrix drive pins (PA7/PA5, SPI or GPIO), and toolchain (STM32CubeMX, Keil).
 - kind: url
@@ -88,8 +88,14 @@ research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'Maker''s GitHub repo and two of the maker''s own blog posts (soynerdito''s Blog and a cross-post on element14 Community) confirm the badge, its event (BSidesPR 2016), chip, and LED matrix design. No source found states price, quantity made, or how it was distributed at the con, so those fields are left empty. The repo has no top-level README describing the boards; details on the specific board variant (MicroUSB vs MicroUSBALT vs PL2303HX) came from folder names and the blog posts, not a single canonical writeup.'
+  notes: Maker's GitHub repo and two of the maker's own blog posts (soynerdito's Blog and a cross-post on element14 Community) confirm the badge, its event (BSidesPR 2016), chip, and LED matrix design. No source found states price, quantity made, or how it was distributed at the con, so those fields are left empty. The repo has no top-level README describing the boards; details on the specific board variant (MicroUSB vs MicroUSBALT vs PL2303HX) came from folder names and the blog posts, not a single canonical writeup.
 last_modified_date: '2026-09-07'
+model:
+  file: assets/models/bsidespr-2016/bsides20016badge-stm32f0-cortex-m0-led-matrix.glb
+  method: kicad
+  source_file: Attiny85VUSB.brd
+  generated: '2026-09-07'
+  bytes: 121216
 ---
 
 The BSides20016Badge is an open-hardware conference badge that soynerdito designed and documented for BSidesPR (BSides Puerto Rico) 2016. It centers on an STM32F0-family microcontroller (an STM32F030F4P6, using the Arm Cortex-M0 core) driving an 8x8 LED matrix through two shift registers, with the matrix controllable either as SPI output or as plain bit-banged GPIO on pins PA7 and PA5. The board includes a USB connector for programming and serial communication, and the maker's blog documents building firmware with STM32CubeMX-generated project files compiled in Keil on Windows, noting that Linux alternatives such as System Workbench for STM32 were untested at the time of writing.

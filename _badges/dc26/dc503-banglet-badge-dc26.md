@@ -39,14 +39,14 @@ tech:
 get_one:
   price: ''
   price_usd: null
-  quantity: 'over 100'
+  quantity: over 100
   availability: not_released
-  availability_note: 'Made as a party favor for the DC503 party at DEF CON 26 (2018); not sold. Checked 2026-09-07, no storefront found.'
+  availability_note: Made as a party favor for the DC503 party at DEF CON 26 (2018); not sold. Checked 2026-09-07, no storefront found.
   distribution:
   - free_drop
   where: Given out at the DC503 party at DEF CON 26, 2018.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/pdxbadgers/2018-banglet
   firmware_url: https://github.com/pdxbadgers/2018-banglet
   gerbers_url: null
@@ -67,13 +67,13 @@ links:
   kind: video
 images:
 - file: assets/images/badges/dc26/dc503-banglet-badge-dc26/776b23e46b.jpg
-  source: "https://nishakm.github.io/things/dc503banglet/"
-  credit: "Nisha K."
-  caption: "Banglet shell command interface screenshot"
+  source: https://nishakm.github.io/things/dc503banglet/
+  credit: Nisha K.
+  caption: Banglet shell command interface screenshot
 contact: {}
 notes:
-- 'The maker''s page (nishakm.github.io) linked to this badge under a URL path that no longer exists (/engineering/dc503banglet/, 404); the current live page is at /things/dc503banglet/.'
-- 'A photo of the banglet lit up ("banglet in scan mode") was linked from the maker''s page via a pbs.twimg.com URL that now 404s (expired Twitter media); could not be saved.'
+- The maker's page (nishakm.github.io) linked to this badge under a URL path that no longer exists (/engineering/dc503banglet/, 404); the current live page is at /things/dc503banglet/.
+- A photo of the banglet lit up ("banglet in scan mode") was linked from the maker's page via a pbs.twimg.com URL that now 404s (expired Twitter media); could not be saved.
 status: released
 sources:
 - kind: url
@@ -83,20 +83,26 @@ sources:
   note: 'Found by the archive''s discovery sweep (angle: dc26-dc27-sao-wave); event read as ''DEF CON 26''.'
 - kind: url
   url: https://nishakm.github.io/things/dc503banglet/
-  title: 'The DC503 Banglet for DefCon26'
+  title: The DC503 Banglet for DefCon26
   accessed: '2026-09-07'
-  note: 'Current live URL for the maker''s write-up (the original sourced URL 404s). Confirms maker, event/year, BLE scanning function, 12 LEDs, BMD-300 chip, LiPo/USB power, GitHub repo link, and background story.'
+  note: Current live URL for the maker's write-up (the original sourced URL 404s). Confirms maker, event/year, BLE scanning function, 12 LEDs, BMD-300 chip, LiPo/USB power, GitHub repo link, and background story.
 - kind: url
   url: https://github.com/pdxbadgers/2018-banglet
   title: pdxbadgers/2018-banglet
   accessed: '2026-09-07'
-  note: 'README confirms "DEFCON 26 DC503 VIP Banglet" name, full maker/credit list, and repo contents (eaglecad, sketches, 3dprints); Apache-2.0 license.'
+  note: README confirms "DEFCON 26 DC503 VIP Banglet" name, full maker/credit list, and repo contents (eaglecad, sketches, 3dprints); Apache-2.0 license.
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-07'
-  notes: 'Price and exact quantity beyond "over 100" not stated by any source; treated as a free party giveaway, not a sold item. Only one usable photo found (a screenshot of the BLE shell) - the maker''s photo of the lit-up banglet on a wrist is a dead Twitter media link.'
+  notes: Price and exact quantity beyond "over 100" not stated by any source; treated as a free party giveaway, not a sold item. Only one usable photo found (a screenshot of the BLE shell) - the maker's photo of the lit-up banglet on a wrist is a dead Twitter media link.
 last_modified_date: '2026-09-07'
+model:
+  file: assets/models/dc26/dc503-banglet-badge-dc26.glb
+  method: kicad
+  source_file: dc5032018banglet.brd
+  generated: '2026-09-07'
+  bytes: 141912
 ---
 
 The DC503 Banglet was the party badge made for the DC503 crew's party at DEF CON 26 in 2018. Maker Nisha K. had previously built a one-off LED bangle for a friend attending DEF CON 25, and was approached by r00tkillah to scale that idea up into a run of over 100 units, this time built around the BMD-300 Bluetooth module (the same chip family used in the prior year's Wagon Badge). The result, nicknamed "the Banglet," is a wrist-worn device rather than a neck badge, chosen partly because badges on lanyards were seen as overused.

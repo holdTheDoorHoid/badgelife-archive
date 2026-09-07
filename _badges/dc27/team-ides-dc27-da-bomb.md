@@ -89,6 +89,12 @@ research:
   last_checked: '2026-09-07'
   notes: Core facts (maker, MCU, LEDs, BLE, sound, LCD, open-source repo) confirmed from the Hackaday.io project page and the maker's GitHub repo. Could not confirm a per-unit retail price or exact LED count/type; the Kickstarter campaign page and troupeit.com/badge storefront both returned errors (403/404) when checked directly, so availability/current storefront status is unconfirmed and left as unknown.
 last_modified_date: '2026-09-07'
+model:
+  file: assets/models/dc27/team-ides-dc27-da-bomb.glb
+  method: kicad
+  source_file: hardware/dc27_badge_kicad/DC27-badge.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 670752
 ---
 
 Da Bomb is the DEF CON 27 badge from Team Ides, the pairing of John Adams and Bill Paul, following their earlier "Ides of Defcon" badge for DC25. It runs on a Nordic nRF52840 (BMD-340 module) under ChibiOS, and pairs RGB LED effects (driven by an IS31FL3736 matrix LED driver, an upgrade from the WS2812B chips used previously) with a small LCD and stereo sound through onboard speakers, reportedly supporting audio up to 24-bit/96kHz. Seven buttons on the badge support a Konami-code easter egg, and badges can find each other and play multiplayer games over Bluetooth Low Energy using BLE GATT services.

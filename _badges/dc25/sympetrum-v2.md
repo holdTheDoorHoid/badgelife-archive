@@ -11,8 +11,8 @@ year: 2017
 makers:
 - name: borgel
   url: https://github.com/borgel
-summary: 'A dragonfly-shaped electronic conference badge whose 10 RGB LEDs fade through colors on an internal clock and synchronize with nearby badges via infrared beacons.'
-functions: 'Continuous RGB color-fade animation across 10 LEDs, driven by an internal clock. Each badge beacons its clock and metadata over infrared; badges that see each other''s beacons sync their clocks, so isolated badges cycle random colors while a group of badges converges on shared color patterns.'
+summary: A dragonfly-shaped electronic conference badge whose 10 RGB LEDs fade through colors on an internal clock and synchronize with nearby badges via infrared beacons.
+functions: Continuous RGB color-fade animation across 10 LEDs, driven by an internal clock. Each badge beacons its clock and metadata over infrared; badges that see each other's beacons sync their clocks, so isolated badges cycle random colors while a group of badges converges on shared color patterns.
 look:
   colors: []
   shape: dragonfly
@@ -37,7 +37,7 @@ get_one:
   availability: sold_out
   distribution:
   - purchase
-  where: 'Sold/distributed by the maker at DEF CON 25 (2017); the maker states they are "totally out" and it is not for sale, though hardware and firmware are open source for self-build.'
+  where: Sold/distributed by the maker at DEF CON 25 (2017); the maker states they are "totally out" and it is not for sale, though hardware and firmware are open source for self-build.
 make_your_own:
   open_source: 'yes'
   hardware_url: https://github.com/borgel/sympetrum-v2/tree/master/Hardware
@@ -46,9 +46,9 @@ make_your_own:
 notes: []
 images:
 - file: assets/images/badges/dc25/sympetrum-v2/d0e14d3b2f.png
-  source: "https://kitspace.org/borgel/sympetrum-v2"
-  credit: "borgel"
-  caption: "Sympetrum v2 dragonfly-shaped badge, top view"
+  source: https://kitspace.org/borgel/sympetrum-v2
+  credit: borgel
+  caption: Sympetrum v2 dragonfly-shaped badge, top view
 contact: {}
 status: released
 sources:
@@ -59,27 +59,33 @@ sources:
   note: 'Found by the archive''s discovery sweep (angle: tobuy-linkfile); event read as ''other''.'
 - kind: url
   url: https://github.com/borgel/sympetrum-v2
-  title: 'borgel/sympetrum-v2 (GitHub repo)'
+  title: borgel/sympetrum-v2 (GitHub repo)
   accessed: '2026-09-07'
-  note: 'Confirmed DEF CON 25 (2017) target, MIT license, open-source hardware and firmware, IR-sync behavior.'
+  note: Confirmed DEF CON 25 (2017) target, MIT license, open-source hardware and firmware, IR-sync behavior.
 - kind: url
   url: https://raw.githubusercontent.com/borgel/sympetrum-v2/master/README.md
-  title: 'sympetrum-v2 README'
+  title: sympetrum-v2 README
   accessed: '2026-09-07'
   note: 'Maker''s own description: dragonfly theme inspired by Neal Stephenson''s The Diamond Age; sequel to a hastier DEFCON 24 version (borgel/sympetrum); "totally out" of units; links to a 2017 Hackaday writeup.'
 - kind: url
   url: https://raw.githubusercontent.com/borgel/sympetrum-v2/master/Hardware/README.md
-  title: 'sympetrum-v2 Hardware README'
+  title: sympetrum-v2 Hardware README
   accessed: '2026-09-07'
-  note: 'MCU part number and alternate, APA102C LED count/type, KiCad design files, AA battery holder, gerbers labeled FF1.1, firmware release v4 used at DEFCON25.'
+  note: MCU part number and alternate, APA102C LED count/type, KiCad design files, AA battery holder, gerbers labeled FF1.1, firmware release v4 used at DEFCON25.
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-07'
-  notes: 'Maker''s GitHub repo and Kitspace listing agree on all core facts. Price and quantity made were never stated by the maker and are left empty. A 2017 Hackaday article ("Badge From Diamond Age Comes To DEF CON") is referenced in the README but was not independently fetched. No photo of the assembled badge in hand was found beyond the Kitspace board-render image saved here; PCB solder-mask color was not specified by the maker (boards are designed for white mask/black silkscreen but "the design should work correctly in any color").'
+  notes: Maker's GitHub repo and Kitspace listing agree on all core facts. Price and quantity made were never stated by the maker and are left empty. A 2017 Hackaday article ("Badge From Diamond Age Comes To DEF CON") is referenced in the README but was not independently fetched. No photo of the assembled badge in hand was found beyond the Kitspace board-render image saved here; PCB solder-mask color was not specified by the maker (boards are designed for white mask/black silkscreen but "the design should work correctly in any color").
 last_modified_date: '2026-09-07'
 redirect_from:
 - /badges/other/sympetrum-v2/
+model:
+  file: assets/models/dc25/sympetrum-v2.glb
+  method: kicad
+  source_file: Hardware/FF1.1/sympetrum-v2 FF1.1.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 253768
 ---
 
 Sympetrum v2 is a dragonfly-shaped electronic badge built by borgel for DEF CON 25 in 2017, a full rewrite of a hastier version 1 made for DEF CON 24. Ten APA102C RGB LEDs run a continuous color-fade animation driven by an STM32F030K6T6 microcontroller, while an infrared transmitter beacons the badge's internal clock and metadata to nearby badges. Badges that pick up each other's beacons synchronize their clocks and therefore their color patterns: alone, a badge cycles random colors, but a cluster of them tends to converge on shared patterns. The concept is a direct homage to a scene in Neal Stephenson's novel *The Diamond Age*, in which partygoers wear cloisonné dragonfly pins that shift from random flickering into synchrony as a crowd gathers.

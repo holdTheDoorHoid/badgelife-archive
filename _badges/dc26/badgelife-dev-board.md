@@ -11,7 +11,7 @@ year: 2018
 makers:
 - name: zapp1337
   url: https://github.com/zapp1337
-summary: A bare-bones prototyping/breakout board for the #badgelife community, providing a "Shitty Add-On" (SAO) 2x2 header broken out to 3.3V, GND, SCL and SDA pads.
+summary: A bare-bones prototyping/breakout board for the
 functions: Lets a hobbyist prototype an SAO design by breaking the Shitty Add-On 2x2 connector's four pins (3.3V, GND, SCL, SDA) out onto labeled pads/through-holes for wiring or dead-bug prototyping.
 look:
   colors: []
@@ -35,7 +35,7 @@ get_one:
   distribution: []
   where: ''
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/zapp1337/badgelife_dev_board
   firmware_url: null
   eda_tool: KiCad
@@ -50,9 +50,9 @@ links:
   kind: repo
 images:
 - file: assets/images/badges/dc26/badgelife-dev-board/7c05d39756.png
-  source: "https://github.com/zapp1337/badgelife_dev_board"
-  credit: "zapp1337"
-  caption: "Silkscreen artwork reading '#badgelife DC26 Proto Board'"
+  source: https://github.com/zapp1337/badgelife_dev_board
+  credit: zapp1337
+  caption: Silkscreen artwork reading '#badgelife DC26 Proto Board'
 contact: {}
 notes:
 - badgelife dev board
@@ -67,20 +67,26 @@ sources:
   url: https://github.com/zapp1337/badgelife_dev_board
   title: zapp1337/badgelife_dev_board (repo contents)
   accessed: '2026-09-07'
-  note: 'KiCad schematic/PCB files, custom "Shitty" 2x2 SAO connector footprints (through-hole and SMT), Apache-2.0 LICENSE file, minimal README ("#badgelife dev board").'
+  note: KiCad schematic/PCB files, custom "Shitty" 2x2 SAO connector footprints (through-hole and SMT), Apache-2.0 LICENSE file, minimal README ("#badgelife dev board").
 - kind: url
   url: https://raw.githubusercontent.com/zapp1337/badgelife_dev_board/master/silk.png
   title: silk.png (board silkscreen artwork)
   accessed: '2026-09-07'
-  note: 'Silkscreen text reads "#badgelife DC26 Proto Board", identifying the event as DEF CON 26 (2018); board labels (3.3v.png, gnd.png, scl.png, sda.png) confirm the four broken-out SAO pins.'
+  note: Silkscreen text reads "#badgelife DC26 Proto Board", identifying the event as DEF CON 26 (2018); board labels (3.3v.png, gnd.png, scl.png, sda.png) confirm the four broken-out SAO pins.
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'The repo itself has almost no documentation (a 2-line README); the event/year (DC26, 2018) comes from text visible in the board''s own silkscreen artwork (silk.png) rather than a written project description. No price, quantity, or distribution info found anywhere -- this looks like a personal/community prototyping tool rather than a badge sold or given away, so those fields are left empty. No photo of an assembled/populated board was found, only the KiCad silkscreen graphic.'
+  notes: The repo itself has almost no documentation (a 2-line README); the event/year (DC26, 2018) comes from text visible in the board's own silkscreen artwork (silk.png) rather than a written project description. No price, quantity, or distribution info found anywhere -- this looks like a personal/community prototyping tool rather than a badge sold or given away, so those fields are left empty. No photo of an assembled/populated board was found, only the KiCad silkscreen graphic.
 last_modified_date: '2026-09-07'
 redirect_from:
 - /badges/other/badgelife-dev-board/
+model:
+  file: assets/models/dc26/badgelife-dev-board.glb
+  method: kicad
+  source_file: badgelife_dev_board.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 150444
 ---
 
 The Badgelife DC26 Proto Board is a small prototyping aid made by zapp1337 for the #badgelife community around DEF CON 26 (2018). Rather than being a badge or SAO in its own right, it is a breakout board for the "Shitty Add-On" (SAO) standard: it exposes the four pins of a Shitty 2x2 connector -- 3.3V, GND, SCL and SDA -- onto labeled pads, using custom KiCad footprints for both through-hole and SMT versions of the connector. The board's silkscreen reads "#badgelife DC26 Proto Board," which is the only place the event and year are stated; there is no accompanying write-up.

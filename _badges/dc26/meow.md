@@ -100,6 +100,12 @@ research:
   last_checked: '2026-09-07'
   notes: Sheet slug/title was generic ("meow"); actual maker name for the badge is "DEF CON 26 Maneki-neko Badge". The repo README also describes a matching SAO ("Special Addons") that copies the main badge design, documented at https://github.com/devoopes/defcon26-meow/tree/master/addon - this looks like a separate item worth its own entry (see other_items_found). Quantity made and exact LED part number/count were not stated in any source found; left empty. tech.sao_version set to v1 as an inference from "SAO" terminology of the 2018 era but the repo does not state pin count explicitly, so treat with some caution.
 last_modified_date: '2026-09-07'
+model:
+  file: assets/models/dc26/meow.glb
+  method: kicad
+  source_file: dc26_maneki-neko_badge_standalone_20180726.brd
+  generated: '2026-09-07'
+  bytes: 210596
 ---
 
 The DEF CON 26 Maneki-neko Badge is an unofficial conference badge made for DEF CON 26 (2018) by Sean McCabe (devoopes) and Daniel Samarin, with artwork by Jeff Chang. Styled after the Japanese "beckoning cat," the badge's signature feature is a 3D-printed cat arm driven by a small servo motor, controlled by an onboard STM32 microcontroller, which waves while two 16-segment LED displays on the front blink along with the motion.

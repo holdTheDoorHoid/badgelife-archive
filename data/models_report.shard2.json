@@ -1,0 +1,306 @@
+{
+ "bornhack-2020-bornhack-2020-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 1224652,
+  "tried": [],
+  "src": "charliedistance.kicad_pcb"
+ },
+ "bornhack-2021-bornhack-bubble-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 352252,
+  "tried": [],
+  "src": "hex_diy.kicad_pcb"
+ },
+ "bornhack-2025-bornhack-2025-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 366068,
+  "tried": [],
+  "src": "circle-badge.kicad_pcb"
+ },
+ "bornhack-2026-cyber-gg": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 1468208,
+  "tried": [],
+  "src": "bornhack2026-hardware.kicad_pcb"
+ },
+ "bsides-2024-bsides-badge-2024-somerset-recon": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 255176,
+  "tried": [],
+  "src": "kiCad/rps_v4.0.0/rps_v4.0.0.kicad_pcb"
+ },
+ "bsides-cape-town-2016-bsidescpt2016badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 272228,
+  "tried": [],
+  "src": "badge-dc24/_autosave-badge-bsides-v0.7.kicad_pcb"
+ },
+ "bsides-iowa-2019-wrickert-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 25232,
+  "tried": [],
+  "src": "Schematic/_autosave-lid.kicad_pcb"
+ },
+ "bsides-rochester-2019-bsides-badge-2019-interlock-rochester": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 141112,
+  "tried": [],
+  "src": "BsidesRock2019.kicad_pcb"
+ },
+ "bsidespr-2016-bsides20016badge-stm32f0-cortex-m0-led-matrix": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 121216,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "Attiny85VUSB.brd"
+ },
+ "cccamp-2019-numberwang-badge-2": {
+  "status": "failed",
+  "tried": [
+   "eagle->kicad ok",
+   "kicad glb: glb export failed: Failed to load board: One or more items were found on undefined layers (UNDEFINED). Open the board in the PCB Editor to resolve.\n",
+   "kicad gerbers: gerber export failed: Failed to load board: One or more items were found on undefined layers (UNDEFINED). Open the board in the PCB Editor to resolve.\n"
+  ]
+ },
+ "cyphercon-2022-cyphercon-5-3-badge-2022": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 120408,
+  "tried": [],
+  "src": "kicad/tymkrs_Cyphercon_2020_Llama/tymkrs_Cyphercon_2020_llama.kicad_pcb"
+ },
+ "dc23-dc23-crypto-and-privacy-village-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 259432,
+  "tried": [],
+  "src": "hw/badge2015.kicad_pcb"
+ },
+ "dc24-andxor-defcon-24-badge": {
+  "status": "ok",
+  "method": "gerber",
+  "bytes": 205304,
+  "tried": [],
+  "src": "Gerbers"
+ },
+ "dc24-cpv-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 171068,
+  "tried": [],
+  "src": "hardware/blinkybadge.kicad_pcb"
+ },
+ "dc25-dc208-geiger-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 225700,
+  "tried": [],
+  "src": "kicad/DC25-geiger-badge.kicad_pcb"
+ },
+ "dc25-dc801-dc25-party-badge": {
+  "status": "failed",
+  "tried": [
+   "eagle->kicad ok",
+   "kicad glb: glb export failed: Failed to load board: One or more items were found on undefined layers (UNDEFINED). Open the board in the PCB Editor to resolve.\n",
+   "kicad gerbers: gerber export failed: Failed to load board: One or more items were found on undefined layers (UNDEFINED). Open the board in the PCB Editor to resolve.\n"
+  ]
+ },
+ "dc25-dczia-def-con-25-badge": {
+  "status": "failed",
+  "tried": [
+   "eagle->kicad ok",
+   "kicad glb: glb export failed: Failed to load board: One or more items were found on undefined layers (UNDEFINED). Open the board in the PCB Editor to resolve.\n",
+   "kicad gerbers: gerber export failed: Failed to load board: One or more items were found on undefined layers (UNDEFINED). Open the board in the PCB Editor to resolve.\n"
+  ]
+ },
+ "dc25-mr-robot-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 413980,
+  "tried": [],
+  "src": "RobotBadgeKiCad_unz/RobotBadgeKiCad/RobotBadge.kicad_pcb"
+ },
+ "dc25-sympetrum-v2": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 253768,
+  "tried": [],
+  "src": "Hardware/FF1.1/sympetrum-v2 FF1.1.kicad_pcb"
+ },
+ "dc26-dc-darknet-badge-conrad-personal-communicator-dc26": {
+  "status": "failed",
+  "tried": [
+   "eagle->kicad ok",
+   "kicad glb: glb export failed: Failed to load board: One or more items were found on undefined layers (UNDEFINED). Open the board in the PCB Editor to resolve.\n",
+   "kicad gerbers: gerber export failed: Failed to load board: One or more items were found on undefined layers (UNDEFINED). Open the board in the PCB Editor to resolve.\n"
+  ]
+ },
+ "dc26-dc26-cpv-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 470764,
+  "tried": [],
+  "src": "hardware/badge2018.kicad_pcb"
+ },
+ "dc26-dc26-mr-robopoly-sao": {
+  "status": "ok",
+  "method": "gerber",
+  "bytes": 189728,
+  "tried": [],
+  "src": "gerbersfixxxx.zip/gerbersfixxxx"
+ },
+ "dc26-dc26-thereminion-sao": {
+  "status": "ok",
+  "method": "gerber",
+  "bytes": 189728,
+  "tried": [],
+  "src": "gerbersfixxxx.zip/gerbersfixxxx"
+ },
+ "dc26-defcon26-middle-finger-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 75964,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "thefinger.brd"
+ },
+ "dc26-eggplant-sao": {
+  "status": "failed",
+  "tried": [
+   "eagle->kicad ok",
+   "kicad glb: glb export failed: Failed to load board: One or more items were found on undefined layers (UNDEFINED). Open the board in the PCB Editor to resolve.\n",
+   "kicad gerbers: gerber export failed: Failed to load board: One or more items were found on undefined layers (UNDEFINED). Open the board in the PCB Editor to resolve.\n"
+  ]
+ },
+ "dc26-heartybadge": {
+  "status": "failed",
+  "tried": [
+   "eagle->kicad ok",
+   "kicad glb: glb export failed: Failed to load board: One or more items were found on undefined layers (UNDEFINED). Open the board in the PCB Editor to resolve.\n",
+   "kicad gerbers: gerber export failed: Failed to load board: One or more items were found on undefined layers (UNDEFINED). Open the board in the PCB Editor to resolve.\n"
+  ]
+ },
+ "dc26-mad-cat-backpack": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 119128,
+  "tried": [],
+  "src": "kicad/Mad_Cat_backpack.kicad_pcb"
+ },
+ "dc26-meow": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 210596,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "dc26_maneki-neko_badge_standalone_20180726.brd"
+ },
+ "dc26-mr-stash": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 172912,
+  "tried": [],
+  "src": "KiCad/Mr_Stash.kicad_pcb"
+ },
+ "dc26-phase-4-ground-trans-ionospheric-badge-dc26": {
+  "status": "ok",
+  "method": "gerber",
+  "bytes": 90428,
+  "tried": [],
+  "src": "hardware/Outputs"
+ },
+ "dc26-sao-pcb-art-shy-guy-and-chain-chomp": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 140068,
+  "tried": [],
+  "src": "Shy Guy/Shy Guy PCB 3.kicad_pcb"
+ },
+ "dc26-seckc-dc26-daughter-board-gps-screen-buttons-sensors": {
+  "status": "ok",
+  "method": "gerber",
+  "bytes": 252552,
+  "tried": [],
+  "src": "Gerbers/Daughter_gerber.zip"
+ },
+ "dc26-trans-ionospheric-badge-and-radio-peripheral": {
+  "status": "ok",
+  "method": "gerber",
+  "bytes": 90428,
+  "tried": [],
+  "src": "hardware/Outputs"
+ },
+ "dc27-dc27-avocato-sao-2": {
+  "status": "ok",
+  "method": "gerber",
+  "bytes": 160024,
+  "tried": [],
+  "src": "."
+ },
+ "dc27-dc27-avocato-sao": {
+  "status": "ok",
+  "method": "gerber",
+  "bytes": 160024,
+  "tried": [],
+  "src": "."
+ },
+ "dc27-dc27-bob-ross-happy-trees-sao": {
+  "status": "ok",
+  "method": "gerber",
+  "bytes": 96436,
+  "tried": [],
+  "src": "DC27/BobRoss_sao1.69bis"
+ },
+ "dc27-dc27-multi-pass": {
+  "status": "failed",
+  "tried": [
+   "eagle->kicad ok",
+   "kicad glb: glb export failed: Failed to load board: One or more items were found on undefined layers (UNDEFINED). Open the board in the PCB Editor to resolve.\n",
+   "kicad gerbers: gerber export failed: Failed to load board: One or more items were found on undefined layers (UNDEFINED). Open the board in the PCB Editor to resolve.\n"
+  ]
+ },
+ "dc27-dc801-def-con-27-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 690116,
+  "tried": [],
+  "src": "Hardware/laser-theremin.kicad_pcb"
+ },
+ "dc27-doom-sao-hurt-me-plenty": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 259736,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "DOOM_SAO.brd"
+ },
+ "dc27-doom-sao": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 259768,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "DOOM_SAO.brd"
+ },
+ "dc27-iron-gauntlet-sao": {
+  "status": "ok",
+  "method": "gerber",
+  "bytes": 252028,
+  "tried": [],
+  "src": "Iron_Gauntlet_JLC-20191202-1359.zip"
+ }
+}

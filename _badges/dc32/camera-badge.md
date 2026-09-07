@@ -47,7 +47,7 @@ get_one:
   - purchase
   where: Sold via an Eventbrite link posted by Blue Team Village, sales opening 29 July 2024 0900 Central Time; likely in-person pickup at the BTV village during DEF CON 32, Las Vegas, based on how the same design was later sold for DC34
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/blueteamvillage/btv_dc32_badge
   firmware_url: https://github.com/blueteamvillage/btv_dc32_badge
   eda_tool: KiCad
@@ -65,9 +65,9 @@ links:
   kind: repo
 images:
 - file: assets/images/badges/dc32/camera-badge/fb0a135ffa.jpg
-  source: "https://camerabadge.blueteamvillage.org"
-  credit: "Blue Team Village"
-  caption: "The BTV Camera Badge, front view"
+  source: https://camerabadge.blueteamvillage.org
+  credit: Blue Team Village
+  caption: The BTV Camera Badge, front view
 contact: {}
 notes:
 - The sales link goes live on 29 July 2024 at 0900 Central Time
@@ -79,7 +79,7 @@ sources:
   updated: '2024-07-28'
 - kind: url
   url: https://t.co/WSAEdwdtY3
-  title: 'Redirects to btvcamerabadge.eventbrite.com (dead as of 2026)'
+  title: Redirects to btvcamerabadge.eventbrite.com (dead as of 2026)
   accessed: '2026-09-06'
   note: Confirmed the original t.co link's destination was the BTV Camera Badge Eventbrite sale; that Eventbrite page now 404s and has no Wayback snapshot.
 - kind: url
@@ -96,8 +96,14 @@ research:
   status: researched
   confidence: medium
   last_checked: '2026-09-06'
-  notes: 'The maker''s documentation site and GitHub repo (both discovered while researching the related dc34-btv-camera-badge entry, which reuses this same design) confirm this badge was designed for DEF CON 32. Chip, LED count/type, display size, battery and SAO details are taken from the later DC34 sale of the identical hardware (see dc34-btv-camera-badge sources) since no DC32-specific spec sheet was found; the original Eventbrite sales page is dead and has no Wayback snapshot, so DC32-specific quantity and final availability outcome (sold out vs cancelled) could not be confirmed. Price is as listed on the original community sheet ($80/$140, likely kit/assembled tiers, unconfirmed).'
-last_modified_date: '2026-09-06'
+  notes: The maker's documentation site and GitHub repo (both discovered while researching the related dc34-btv-camera-badge entry, which reuses this same design) confirm this badge was designed for DEF CON 32. Chip, LED count/type, display size, battery and SAO details are taken from the later DC34 sale of the identical hardware (see dc34-btv-camera-badge sources) since no DC32-specific spec sheet was found; the original Eventbrite sales page is dead and has no Wayback snapshot, so DC32-specific quantity and final availability outcome (sold out vs cancelled) could not be confirmed. Price is as listed on the original community sheet ($80/$140, likely kit/assembled tiers, unconfirmed).
+last_modified_date: '2026-09-07'
+model:
+  file: assets/models/dc32/camera-badge.glb
+  method: kicad
+  source_file: eda/camera_badge/camera_badge.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 617648
 ---
 
 The Camera Badge was made by Blue Team Village (BTV) for DEF CON 32 in Las Vegas in August 2024. It is a PCB cut into the shape of a vintage SLR camera; the round "lens" is actually a display that lights up to show nearby Wi-Fi deauthentication activity and other games, including a Flipper Zero detector. It runs on an ESP32, leaving room for custom firmware. BTV posted an Eventbrite link for sales that went live 29 July 2024 at 0900 Central Time, with the community sheet recording pricing around $80/$140 (likely kit vs. assembled tiers, though this was not directly confirmed).

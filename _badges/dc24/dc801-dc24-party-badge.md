@@ -47,7 +47,7 @@ make_your_own:
   eda_tool: Eagle
 notes:
 - 'From the user''s ''SAOs to buy'' link list (2026-09-07). Mirror: https://github.com/hamster/DC24PartyBadge'
-- 'Sheet/list called it "DC24 Party Badge"; the maker''s own repo folder names the board "AccessBadge" internally, but the repo and README both describe it as the DC24 party badge, so the title is kept as-is.'
+- Sheet/list called it "DC24 Party Badge"; the maker's own repo folder names the board "AccessBadge" internally, but the repo and README both describe it as the DC24 party badge, so the title is kept as-is.
 - 'Firmware and hardware source are published in the repo (Eagle files, gerbers, BOM, nRF SDK firmware), but no explicit open-source license file was found, hence open_source: partial rather than yes.'
 status: released
 sources:
@@ -58,34 +58,34 @@ sources:
   note: 'Found by the archive''s discovery sweep (angle: tobuy-linkfile); event read as ''dc24''.'
 - kind: url
   url: https://raw.githubusercontent.com/DC801/DC24PartyBadge/master/README.md
-  title: 'DC801/DC24PartyBadge README'
+  title: DC801/DC24PartyBadge README
   accessed: '2026-09-07'
-  note: 'Confirms MCU (Rigado BMD-200 / nRF51822), LED count and layout, battery/charging, the 5 operating modes, and the Eddystone BLE beacon behavior.'
+  note: Confirms MCU (Rigado BMD-200 / nRF51822), LED count and layout, battery/charging, the 5 operating modes, and the Eddystone BLE beacon behavior.
 - kind: url
   url: https://forum.defcon.org/node/223495
-  title: 'DC801 is hosting a party during DC24! - DEF CON Forums'
+  title: DC801 is hosting a party during DC24! - DEF CON Forums
   accessed: '2026-09-07'
-  note: 'Confirms DC801 hosted a DEF CON 24 party; page could not be fully retrieved (connection reset) so party logistics beyond this were not confirmed here.'
+  note: Confirms DC801 hosted a DEF CON 24 party; page could not be fully retrieved (connection reset) so party logistics beyond this were not confirmed here.
 - kind: url
   url: https://x.com/dc801/status/1022158810339667969
   title: 'DC801 tweet: "Party Badges are running low for the #DC24 party"'
   accessed: '2026-09-07'
-  note: 'Search-result snippet only (tweet not fetched directly); indicates the badge was given out at the party in limited supply.'
+  note: Search-result snippet only (tweet not fetched directly); indicates the badge was given out at the party in limited supply.
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'Core hardware facts (MCU, LEDs, battery, modes, BLE beacon) come directly from the maker''s own README, so those are solid. Price, exact quantity made, and full party/distribution logistics were not found — the badge appears to have been a free giveaway at DC801''s DEF CON 24 party rather than sold, based on the tweet snippet and distribution pattern of DC801''s other party badges, but no page stated a quantity or price outright. The DC801 party page (dc801.org) for DefCon 24 currently shows a "coming soon" placeholder with no archived content recovered. No maker photos of an assembled/soldered badge were found, only PCB CAD renders from the hardware repo, which are used as the images here.'
+  notes: Core hardware facts (MCU, LEDs, battery, modes, BLE beacon) come directly from the maker's own README, so those are solid. Price, exact quantity made, and full party/distribution logistics were not found — the badge appears to have been a free giveaway at DC801's DEF CON 24 party rather than sold, based on the tweet snippet and distribution pattern of DC801's other party badges, but no page stated a quantity or price outright. The DC801 party page (dc801.org) for DefCon 24 currently shows a "coming soon" placeholder with no archived content recovered. No maker photos of an assembled/soldered badge were found, only PCB CAD renders from the hardware repo, which are used as the images here.
 last_modified_date: '2026-09-07'
 images:
-  - file: assets/images/badges/dc24/dc801-dc24-party-badge/8e83182c41.jpg
-    source: "https://github.com/DC801/DC24PartyBadge"
-    credit: "DC801"
-    caption: "PCB render of the DC24 party badge, top view (black and orange colorway)"
-  - file: assets/images/badges/dc24/dc801-dc24-party-badge/5831a83f5d.jpg
-    source: "https://github.com/DC801/DC24PartyBadge"
-    credit: "DC801"
-    caption: "PCB render of the DC24 party badge, bottom view"
+- file: assets/images/badges/dc24/dc801-dc24-party-badge/8e83182c41.jpg
+  source: https://github.com/DC801/DC24PartyBadge
+  credit: DC801
+  caption: PCB render of the DC24 party badge, top view (black and orange colorway)
+- file: assets/images/badges/dc24/dc801-dc24-party-badge/5831a83f5d.jpg
+  source: https://github.com/DC801/DC24PartyBadge
+  credit: DC801
+  caption: PCB render of the DC24 party badge, bottom view
 contact: {}
 links:
 - label: github.com/DC801/DC24PartyBadge
@@ -94,6 +94,12 @@ links:
 - label: DC801 is hosting a party during DC24 (DEF CON Forums)
   url: https://forum.defcon.org/node/223495
   kind: article
+model:
+  file: assets/models/dc24/dc801-dc24-party-badge.glb
+  method: kicad
+  source_file: AccessBadgeV1.0.brd
+  generated: '2026-09-07'
+  bytes: 91272
 ---
 
 DC801 is a Salt Lake City hackerspace with a long-running tradition of building electronic party badges for DEF CON attendees. For DEF CON 24 (2016), the group produced this Bluetooth LE badge, built around a Rigado BMD-200 module (a Nordic nRF51822 ARM Cortex-M0 chip with 256 kB flash and 32 kB RAM). The board carries two RGB LEDs and ten orange LEDs wired in addressable pairs, a single button, a JTAG header, and a MicroUSB port used purely for charging its onboard LiPo battery.

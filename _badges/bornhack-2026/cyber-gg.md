@@ -11,7 +11,7 @@ year: 2026
 makers:
 - name: badge.team
 - name: Thomas Flummer
-summary: 'A LoRa/MeshCore camp badge for BornHack 2026 built around an e-paper egg-shaped board, designed to keep being useful as a desktop clock and mesh radio after the event ends.'
+summary: A LoRa/MeshCore camp badge for BornHack 2026 built around an e-paper egg-shaped board, designed to keep being useful as a desktop clock and mesh radio after the event ends.
 functions: 'On-site: a Tamagotchi-style virtual pet game (BornPets, with seven integrated mini-games), an event calendar with ICS import, and an NFC station game (feed/heal/inspire/sleep, authenticated with Ed25519). After the event: a MeshCore LoRa mesh network node (private messages, channels, contact discovery), a desktop clock with digital and analog watch faces, and a 32-slot alarm system, all controllable from a phone over BLE (Nordic UART Service) via the MeshCore app.'
 look:
   colors: []
@@ -41,7 +41,7 @@ get_one:
   price_usd: null
   quantity: ''
   availability: sold_out
-  availability_note: 'badge.team lists the badge as "delivered and sold out" (checked 2026-09-07)'
+  availability_note: badge.team lists the badge as "delivered and sold out" (checked 2026-09-07)
   distribution:
   - purchase
   where: Sold through badge.team ahead of/at BornHack 2026; sold out by the time of this research pass.
@@ -51,7 +51,7 @@ make_your_own:
   firmware_url: https://github.com/badgeteam/bornhack2026-firmware
   eda_tool: null
   license: 'Hardware: MIT. Firmware: Apache 2.0 (+ an additional empty-file license per License.md)'
-  notes: 'The hardware repo explicitly flags the design as BETA and warns not to order boards from it yet as of this check. Manufacturing notes target JLCPCB.'
+  notes: The hardware repo explicitly flags the design as BETA and warns not to order boards from it yet as of this check. Manufacturing notes target JLCPCB.
 links:
 - label: hackaday.com/2026/07/17/the-bornhack-2026-cyber-aegg-is-a-badge-with-a-life-afterwards
   url: https://hackaday.com/2026/07/17/the-bornhack-2026-cyber-aegg-is-a-badge-with-a-life-afterwards/
@@ -68,9 +68,9 @@ links:
   kind: repo
 images:
 - file: assets/images/badges/bornhack-2026/cyber-gg/24206e6f75.jpg
-  source: "https://hackaday.com/2026/07/17/the-bornhack-2026-cyber-aegg-is-a-badge-with-a-life-afterwards/"
-  credit: "Hackaday"
-  caption: "The BornHack 2026 Cyber Ægg badge"
+  source: https://hackaday.com/2026/07/17/the-bornhack-2026-cyber-aegg-is-a-badge-with-a-life-afterwards/
+  credit: Hackaday
+  caption: The BornHack 2026 Cyber Ægg badge
 contact: {}
 notes:
 - nRF52840, LoRa, e-paper; doubles as desktop clock/Tamagotchi post-event
@@ -87,7 +87,7 @@ sources:
   url: https://badge.team/
   title: badge.team
   accessed: '2026-09-07'
-  note: 'Confirms badge.team collaborated with Thomas Flummer on the Cyber Ægg for BornHack 2026; lists it as delivered and sold out; confirms designs are open source on GitHub.'
+  note: Confirms badge.team collaborated with Thomas Flummer on the Cyber Ægg for BornHack 2026; lists it as delivered and sold out; confirms designs are open source on GitHub.
 - kind: url
   url: https://github.com/badgeteam/bornhack2026-hardware
   title: badgeteam/bornhack2026-hardware
@@ -102,8 +102,14 @@ research:
   status: researched
   confidence: high
   last_checked: '2026-09-07'
-  notes: 'Core facts (maker, chip, connectivity, display, open-source status) confirmed directly from badge.team and the maker''s own GitHub repos, which outrank the Hackaday press coverage per the research guide. Price and quantity produced were not stated anywhere found; left empty. Battery capacity not specified in the hardware README. No SAO header info found (this is a standalone badge, not confirmed to have SAO ports either way, so left null).'
+  notes: Core facts (maker, chip, connectivity, display, open-source status) confirmed directly from badge.team and the maker's own GitHub repos, which outrank the Hackaday press coverage per the research guide. Price and quantity produced were not stated anywhere found; left empty. Battery capacity not specified in the hardware README. No SAO header info found (this is a standalone badge, not confirmed to have SAO ports either way, so left null).
 last_modified_date: '2026-09-07'
+model:
+  file: assets/models/bornhack-2026/cyber-gg.glb
+  method: kicad
+  source_file: bornhack2026-hardware.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 1468208
 ---
 
 The Cyber Ægg is badge.team's badge for BornHack 2026, made in collaboration with Thomas Flummer. Shaped like an egg with a flat bottom for desk placement, it runs on a Nordic nRF52840 with a 1.54" e-paper display, three RGB LEDs, an SX1262 LoRa radio, and NFC. During the week-long camp it plays host to a Tamagotchi-style virtual pet game (BornPets) with seven mini-games, an event calendar, and an NFC-based station game where players feed, heal, or inspire their pet using Ed25519-authenticated taps.

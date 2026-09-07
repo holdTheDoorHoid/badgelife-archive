@@ -19,7 +19,7 @@ makers:
 - name: fluffypony
   role: Monero Badge Challenge creator
 summary: A free PCB "challenge coin" handed out at DEF CON 26's BCOS/Monero village as the entry token for the Monero Badge Challenge, a cipher puzzle that unlocked the real Monero Badge.
-functions: 'Carries an encoded (ciphertext) message printed/etched on both the front and back. Solvers decoded the message, used the same key to encode their own reply string, and tweeted it at the badge creators to get directions to redeem a full DEF CON 26 Monero Badge.'
+functions: Carries an encoded (ciphertext) message printed/etched on both the front and back. Solvers decoded the message, used the same key to encode their own reply string, and tweeted it at the badge creators to get directions to redeem a full DEF CON 26 Monero Badge.
 look:
   colors: []
   shape: circle
@@ -60,13 +60,13 @@ links:
   kind: website
 images:
 - file: assets/images/badges/dc26/challenge-coin-pcb/46146857f1.jpg
-  source: "https://monerobadge.org"
-  credit: "Monero Badge Challenge / dodgymike"
-  caption: "Front of the DC26 Monero Badge Challenge coin PCB, showing the encoded message"
+  source: https://monerobadge.org
+  credit: Monero Badge Challenge / dodgymike
+  caption: Front of the DC26 Monero Badge Challenge coin PCB, showing the encoded message
 - file: assets/images/badges/dc26/challenge-coin-pcb/5a6d89c813.jpg
-  source: "https://monerobadge.org"
-  credit: "Monero Badge Challenge / dodgymike"
-  caption: "Back of the DC26 Monero Badge Challenge coin PCB, showing the encoded message"
+  source: https://monerobadge.org
+  credit: Monero Badge Challenge / dodgymike
+  caption: Back of the DC26 Monero Badge Challenge coin PCB, showing the encoded message
 contact: {}
 notes:
 - Spotted by a research agent while working on a neighbouring entry (run 3).
@@ -91,18 +91,14 @@ research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: >-
-    The KiCad files for this coin (dc26-challenge.kicad_pcb) show 192 modules but zero nets
-    and zero tracks, confirming it is a passive/decorative PCB with no MCU, LEDs, or active
-    circuitry - the copper/silkscreen forms the coin's face art and the encoded message, not
-    a functional circuit. This is distinct from the main DC26 Monero Badge (an actual
-    electronic badge with its own firmware repo, USB, battery, and RGB LED schematics) that
-    lives in the same parent repository; this entry covers only the free challenge-coin
-    token, not the electronic badge it unlocks. Exact quantity made is not stated in any
-    source found. dodgymike is credited via the repo as the PCB designer/fabricator; the
-    Monero Badge Challenge itself (the puzzle and distribution) was run by elasticninja,
-    tonym128, and fluffypony per monerobadge.org.
+  notes: The KiCad files for this coin (dc26-challenge.kicad_pcb) show 192 modules but zero nets and zero tracks, confirming it is a passive/decorative PCB with no MCU, LEDs, or active circuitry - the copper/silkscreen forms the coin's face art and the encoded message, not a functional circuit. This is distinct from the main DC26 Monero Badge (an actual electronic badge with its own firmware repo, USB, battery, and RGB LED schematics) that lives in the same parent repository; this entry covers only the free challenge-coin token, not the electronic badge it unlocks. Exact quantity made is not stated in any source found. dodgymike is credited via the repo as the PCB designer/fabricator; the Monero Badge Challenge itself (the puzzle and distribution) was run by elasticninja, tonym128, and fluffypony per monerobadge.org.
 last_modified_date: '2026-09-07'
+model:
+  file: assets/models/dc26/challenge-coin-pcb.glb
+  method: kicad
+  source_file: dc26-challenge/dc26-challenge.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 220520
 ---
 
 The DC26 Monero Badge Challenge coin is a free PCB token given out at DEF CON 26 (2018) as the entry point to the unofficial Monero Badge Challenge. Unlike the electronic Monero Badge it led to, the coin itself is a passive PCB: its KiCad source shows a couple hundred silkscreen/copper-art elements but no components, nets, or traces, so there is no chip or LEDs to speak of, just a coin-shaped board bearing an encoded message on both faces.

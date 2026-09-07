@@ -42,8 +42,7 @@ get_one:
   availability: unknown
   distribution:
   - purchase
-  where: Sold at the Car Hacking Village booth at DEF CON 32 (2024), alongside the
-    CHV Main Badge and the Speedometer and PRND SAOs.
+  where: Sold at the Car Hacking Village booth at DEF CON 32 (2024), alongside the CHV Main Badge and the Speedometer and PRND SAOs.
 make_your_own:
   open_source: null
   hardware_url: null
@@ -53,19 +52,19 @@ links:
 - label: www.carhackingvillage.com
   url: https://www.carhackingvillage.com
   kind: website
-- label: 'car-hacking-village/CHV_SAO_Specification (GitHub)'
+  archived: https://web.archive.org/web/20260810193641/https://www.carhackingvillage.com/
+- label: car-hacking-village/CHV_SAO_Specification (GitHub)
   url: https://github.com/car-hacking-village/CHV_SAO_Specification
   kind: repo
 images:
 - file: assets/images/badges/dc32/key-fob-sao/2538b0ad19.png
-  source: "https://www.carhackingvillage.com/"
-  credit: "Car Hacking Village"
-  caption: "2024 Key FOB SAO product photo from the Car Hacking Village site"
+  source: https://www.carhackingvillage.com/
+  credit: Car Hacking Village
+  caption: 2024 Key FOB SAO product photo from the Car Hacking Village site
+  archived: https://web.archive.org/web/20260810193641/https://www.carhackingvillage.com/
 contact: {}
 notes:
-- CHV's SAO headers are CAN-based rather than the usual I2C SAO bus (3.3V/GND plus
-  CAN TX/RX), per the CHV SAO Specification repo, so "sao_version" above is left
-  null rather than mapped to the standard v1/v1.69bis vocabulary.
+- CHV's SAO headers are CAN-based rather than the usual I2C SAO bus (3.3V/GND plus CAN TX/RX), per the CHV SAO Specification repo, so "sao_version" above is left null rather than mapped to the standard v1/v1.69bis vocabulary.
 status: listed
 sources:
 - kind: sheet
@@ -76,33 +75,23 @@ sources:
   url: http://web.archive.org/web/20240811090612/https://www.carhackingvillage.com/
   title: Car Hacking Village (Wayback Machine capture, 11 Aug 2024)
   accessed: '2026-09-07'
-  note: Archived DC32 badge lineup page listing the "2024 Key FOB sao" at $50 with
-    CTF Challenges, 125 KHz (LF) Receiver, 433 MHz Transmitter, and Touch Buttons,
-    alongside the $100 CHV Main Badge (RP2040, 4 CAN networks, 4 SAO connectors)
-    and the $50 Speedometer and PRND SAOs. Source of the product photo.
+  note: Archived DC32 badge lineup page listing the "2024 Key FOB sao" at $50 with CTF Challenges, 125 KHz (LF) Receiver, 433 MHz Transmitter, and Touch Buttons, alongside the $100 CHV Main Badge (RP2040, 4 CAN networks, 4 SAO connectors) and the $50 Speedometer and PRND SAOs. Source of the product photo.
 - kind: url
   url: https://www.carhackingvillage.com/
   title: Car Hacking Village
   accessed: '2026-09-07'
-  note: Current site no longer lists the DC32 badge/SAO lineup or a price; only
-    a general note that the SAO standard was updated to include CAN TX/RX remains.
+  note: Current site no longer lists the DC32 badge/SAO lineup or a price; only a general note that the SAO standard was updated to include CAN TX/RX remains.
+  archived: https://web.archive.org/web/20260810193641/https://www.carhackingvillage.com/
 - kind: url
   url: https://github.com/car-hacking-village/CHV_SAO_Specification
   title: car-hacking-village/CHV_SAO_Specification
   accessed: '2026-09-07'
-  note: Documents CHV's CAN-based SAO header (3.3V, GND, CAN TX, CAN RX in place
-    of I2C), which the Key Fob SAO plugs into on the CHV Main Badge.
+  note: Documents CHV's CAN-based SAO header (3.3V, GND, CAN TX, CAN RX in place of I2C), which the Key Fob SAO plugs into on the CHV Main Badge.
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: Confirmed via an archived (Wayback Machine) copy of carhackingvillage.com
-    from August 2024, which matches the sheet row exactly (title, $50 price, and
-    all four listed functions) and supplied the product photo. The live site no
-    longer carries this page, and no dedicated GitHub repo for the Key Fob SAO
-    specifically was found (the org's public repos cover the Main Badge, Speedometer
-    SAO CTF, and Speedometer/PRND firmware, but not this one), so mcu, LED count,
-    open-source status, and quantity/current availability remain unconfirmed.
+  notes: Confirmed via an archived (Wayback Machine) copy of carhackingvillage.com from August 2024, which matches the sheet row exactly (title, $50 price, and all four listed functions) and supplied the product photo. The live site no longer carries this page, and no dedicated GitHub repo for the Key Fob SAO specifically was found (the org's public repos cover the Main Badge, Speedometer SAO CTF, and Speedometer/PRND firmware, but not this one), so mcu, LED count, open-source status, and quantity/current availability remain unconfirmed.
 last_modified_date: '2026-09-07'
 ---
 

@@ -35,14 +35,14 @@ tech:
 get_one:
   price: ''
   price_usd: null
-  quantity: 'approximately 225-300 units (Kickstarter-backed production run)'
+  quantity: approximately 225-300 units (Kickstarter-backed production run)
   availability: sold_out
   distribution:
   - crowdfunding
   - purchase
   where: 'Sold via a Kickstarter presale ("Indie DEFCON Badge: The Ides of DEFCON"); presales sold out, with remaining units offered for sale on-site at DEF CON 25.'
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/netik/dc25_spqr_badge
   firmware_url: https://github.com/netik/chibios-orchard
   eda_tool: null
@@ -62,13 +62,13 @@ links:
   kind: store
 images:
 - file: assets/images/badges/dc25/the-ides-of-defcon-an-unofficial-electronic-badge/01c6d1aad3.jpg
-  source: "https://hackaday.io/project/14756-the-ides-of-defcon-an-unofficial-electronic-badge"
-  credit: "John Adams / Team Ides"
-  caption: "The Ides of DEFCON badge, DC25 (2017)"
+  source: https://hackaday.io/project/14756-the-ides-of-defcon-an-unofficial-electronic-badge
+  credit: John Adams / Team Ides
+  caption: The Ides of DEFCON badge, DC25 (2017)
 - file: assets/images/badges/dc25/the-ides-of-defcon-an-unofficial-electronic-badge/99a32247b6.jpg
-  source: "https://hackaday.io/project/14756-the-ides-of-defcon-an-unofficial-electronic-badge"
-  credit: "John Adams / Team Ides"
-  caption: "The Ides of DEFCON badge close-up"
+  source: https://hackaday.io/project/14756-the-ides-of-defcon-an-unofficial-electronic-badge
+  credit: John Adams / Team Ides
+  caption: The Ides of DEFCON badge close-up
 contact: {}
 notes: []
 status: released
@@ -98,13 +98,19 @@ sources:
   url: https://www.kickstarter.com/projects/1887776662/indie-defcon-badge-the-ides-of-defcon
   title: 'Kickstarter: Indie DEFCON Badge - The Ides of DEFCON'
   accessed: '2026-09-07'
-  note: 'Referenced from the Hackaday page as the presale channel; page itself returned HTTP 403 to direct fetch (Kickstarter blocks automated access), so no pledge-tier pricing was confirmed directly.'
+  note: Referenced from the Hackaday page as the presale channel; page itself returned HTTP 403 to direct fetch (Kickstarter blocks automated access), so no pledge-tier pricing was confirmed directly.
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'Retail/pledge price could not be confirmed - the Hackaday log gives per-board manufacturing cost estimates ($140 prototype, $30-60/board bulk before screen and battery) but not what backers/attendees actually paid, and the Kickstarter page itself blocked automated fetching (HTTP 403). Exact LED count/type and quantity are drawn from the Hackaday project log and a third-party summary rather than a spec sheet, so treated as medium confidence. The team produced a sequel badge for DEF CON 27 (2019); see hackaday.io/project/161163-team-ides-dc27-badge, reported separately as a candidate entry.'
+  notes: Retail/pledge price could not be confirmed - the Hackaday log gives per-board manufacturing cost estimates ($140 prototype, $30-60/board bulk before screen and battery) but not what backers/attendees actually paid, and the Kickstarter page itself blocked automated fetching (HTTP 403). Exact LED count/type and quantity are drawn from the Hackaday project log and a third-party summary rather than a spec sheet, so treated as medium confidence. The team produced a sequel badge for DEF CON 27 (2019); see hackaday.io/project/161163-team-ides-dc27-badge, reported separately as a candidate entry.
 last_modified_date: '2026-09-07'
+model:
+  file: assets/models/dc25/the-ides-of-defcon-an-unofficial-electronic-badge.glb
+  method: kicad
+  source_file: badge-kicad.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 483360
 ---
 
 The Ides of DEFCON was an independently produced, crowdfunded electronic badge built for DEF CON 25 in 2017 by John Adams ("netik") and a small team of Bay Area engineers and makers, run as a self-funded project outside the official DEF CON badge process. It shipped as a wearable game platform: a 320x240 color TFT screen with an SD card slot, 12 WS2812 RGB LEDs, a speaker, and an NXP/Freescale MKW01Z128 (Cortex-M0+ with an integrated sub-1GHz radio), running a ChibiOS-based firmware stack the team called "Orchard." The badge's centerpiece was a Roman/"SPQR"-themed battle game played badge-to-badge over the built-in radio, alongside blinky lighting effects and hidden unlock codes that revealed extra features.

@@ -93,6 +93,12 @@ research:
   last_checked: '2026-09-07'
   notes: 'Despite the name and theme, this badge has no actual Geiger-Muller tube or ionizing-radiation sensor: the schematic shows a Si1132 UV/ambient-light sensor used to drive the simulated click rate, plus a piezo buzzer and 16 charlieplexed dual-LEDs. No maker write-up, price, quantity, or event photos beyond the repo''s own PCB render were found; badge.life, Hackaday, and a GitHub/web search for DC208 DEF CON 25 turned up nothing beyond the repo and the original badge.life listing. Availability and distribution (free drop vs. sold) could not be confirmed.'
 last_modified_date: '2026-09-07'
+model:
+  file: assets/models/dc25/dc208-geiger-badge.glb
+  method: kicad
+  source_file: kicad/DC25-geiger-badge.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 225700
 ---
 ## Project Links
 - [Schematics, Firmware, & Kicad Repo](https://github.com/badgelife/DC208-DC25-geiger-badge)

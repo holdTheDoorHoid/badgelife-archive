@@ -98,6 +98,15 @@ research:
   last_checked: '2026-09-07'
   notes: PCBWay's shared-project listing names the maker as "Jeremy Ward" (UK), but the GitHub account is cybr1d-cybr1d with no real name given; kept the existing makers entry rather than guessing at an identity match. Price, quantity made, and availability are not stated anywhere found. LED type (e.g. WS2812B vs discrete) not specified by the maker.
 last_modified_date: '2026-09-07'
+model:
+  file: assets/models/dc27/dc27-avocato-sao.glb
+  method: gerber
+  source_file: .
+  generated: '2026-09-07'
+  bytes: 160024
+  size_mm:
+  - 75.0
+  - 74.0
 ---
 
 The Avocato SAO is a Shitty Add-On depicting Avocato, a bounty-hunter character from the animated series Final Space, made for DEF CON 27 in 2019 under the working title "Real Raw Avocato." It was the maker's first attempt at a more involved SAO after getting into the badgelife scene at DEF CON 27, and combines a two-layer blue PCB with white silkscreen art of the character.

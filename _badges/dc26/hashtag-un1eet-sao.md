@@ -10,7 +10,7 @@ event: dc26
 year: 2018
 makers:
 - name: drydenmaker
-summary: A no-frills, humorous SAO reading "ur #un1eet", made as a first PCB-design project for DEF CON 26.
+summary: A no-frills, humorous SAO reading "ur
 functions: Exposes through-hole pads for a resistor and an LED on the back, letting the builder choose standard or reverse-mount LED placement; also breaks out I2C and SPI for further hacking.
 look:
   colors:
@@ -40,7 +40,7 @@ get_one:
   - purchase
   where: Sold on Tindie by "|)3vice Makers |{its"; listing marked out of stock since 2019-07-28.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/drydenmaker/hashtag_un1eet_sao
   firmware_url: null
   eda_tool: KiCad
@@ -48,24 +48,24 @@ links:
 - label: github.com/drydenmaker/hashtag_un1eet_sao
   url: https://github.com/drydenmaker/hashtag_un1eet_sao
   kind: repo
-- label: Tindie listing (un1eet SAO #badgelife addon)
+- label: Tindie listing (un1eet SAO
   url: https://www.tindie.com/products/dMaker/un1eet-sao-badgelife-addon/
   kind: store
-- label: "Hackaday.io: #un1eet Shitty Add On"
+- label: 'Hackaday.io: #un1eet Shitty Add On'
   url: https://hackaday.io/project/160043-un1eet-shitty-add-on
   kind: hackaday
-- label: "Hackster.io: #badgelife for the #un1eet"
+- label: 'Hackster.io: #badgelife for the #un1eet'
   url: https://www.hackster.io/drydenmaker/badgelife-for-the-un1eet-854186
   kind: article
 images:
-  - file: assets/images/badges/dc26/hashtag-un1eet-sao/cd3864cf3f.png
-    source: "https://github.com/drydenmaker/hashtag_un1eet_sao"
-    credit: "drydenmaker"
-    caption: "un1eet SAO front, KiCad render"
-  - file: assets/images/badges/dc26/hashtag-un1eet-sao/50233dbd13.png
-    source: "https://github.com/drydenmaker/hashtag_un1eet_sao"
-    credit: "drydenmaker"
-    caption: "un1eet SAO back, KiCad render"
+- file: assets/images/badges/dc26/hashtag-un1eet-sao/cd3864cf3f.png
+  source: https://github.com/drydenmaker/hashtag_un1eet_sao
+  credit: drydenmaker
+  caption: un1eet SAO front, KiCad render
+- file: assets/images/badges/dc26/hashtag-un1eet-sao/50233dbd13.png
+  source: https://github.com/drydenmaker/hashtag_un1eet_sao
+  credit: drydenmaker
+  caption: un1eet SAO back, KiCad render
 contact: {}
 notes: []
 status: released
@@ -77,27 +77,33 @@ sources:
   note: 'Found by the archive''s discovery sweep (angle: github-topics); event read as ''unknown''.'
 - kind: url
   url: https://github.com/drydenmaker/hashtag_un1eet_sao
-  title: "GitHub: drydenmaker/hashtag_un1eet_sao README"
+  title: 'GitHub: drydenmaker/hashtag_un1eet_sao README'
   accessed: '2026-09-07'
-  note: "README text; confirms Tindie/OSHPark links, MIT-licensed KiCad files, and front/back render images."
+  note: README text; confirms Tindie/OSHPark links, MIT-licensed KiCad files, and front/back render images.
 - kind: url
   url: https://www.tindie.com/products/dMaker/un1eet-sao-badgelife-addon/
-  title: un1eet SAO #badgelife addon from |)3vice Makers |{its
+  title: un1eet SAO
   accessed: '2026-09-07'
-  note: "Confirms $5 price, LED backlighting, out-of-stock since 2019-07-28, seller name."
+  note: Confirms $5 price, LED backlighting, out-of-stock since 2019-07-28, seller name.
 - kind: url
   url: https://hackaday.io/project/160043-un1eet-shitty-add-on
-  title: "#un1eet Shitty Add On"
+  title: '#un1eet Shitty Add On'
   accessed: '2026-09-07'
-  note: "Confirms DEF CON as the intended event, project logged 2018-07-28 (DEF CON 26), maker's first custom PCB, SMD LED/resistor pads with I2C/SPI breakout, made as a soldering-practice teaching piece."
+  note: Confirms DEF CON as the intended event, project logged 2018-07-28 (DEF CON 26), maker's first custom PCB, SMD LED/resistor pads with I2C/SPI breakout, made as a soldering-practice teaching piece.
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: "Event and year inferred from the Hackaday.io project log date (2018-07-28) and the maker's own statement that it was made for DEF CON, which lines up with DEF CON 26 (Aug 2018); no source names the specific year explicitly, so confidence is medium rather than high. LED count and exact quantity made are not stated anywhere found; left as best-available estimate (1 LED position) per the README/Hackaday description of a single SMD LED pad set. Maker identity: the GitHub/Hackaday/Hackster handle is 'drydenmaker', while the Tindie seller name is styled '|)3vice Makers |{its' ('device Makers kits') - likely the same person's storefront brand, not verified as a separate collaborator."
+  notes: 'Event and year inferred from the Hackaday.io project log date (2018-07-28) and the maker''s own statement that it was made for DEF CON, which lines up with DEF CON 26 (Aug 2018); no source names the specific year explicitly, so confidence is medium rather than high. LED count and exact quantity made are not stated anywhere found; left as best-available estimate (1 LED position) per the README/Hackaday description of a single SMD LED pad set. Maker identity: the GitHub/Hackaday/Hackster handle is ''drydenmaker'', while the Tindie seller name is styled ''|)3vice Makers |{its'' (''device Makers kits'') - likely the same person''s storefront brand, not verified as a separate collaborator.'
 last_modified_date: '2026-09-07'
 redirect_from:
 - /badges/other/hashtag-un1eet-sao/
+model:
+  file: assets/models/dc26/hashtag-un1eet-sao.glb
+  method: kicad
+  source_file: kicad/un1eet_sao.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 31188
 ---
 
 The un1eet SAO is a small, unpowered add-on board for the SAO (Shitty Add-On) badge header, reading "ur #un1eet" across its face. Maker drydenmaker built it as their first custom PCB design, using it as a hands-on introduction to KiCad and surface-mount soldering ahead of DEF CON 26 in 2018. Rather than a polished gadget, it was explicitly framed as a teaching piece for the #badgelife community: the back of the board exposes through-hole pads for a resistor and an LED, letting a builder choose a standard or reverse-mount LED placement, plus breakouts for I2C and SPI for anyone who wants to extend it further.

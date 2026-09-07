@@ -87,6 +87,12 @@ research:
   last_checked: '2026-09-07'
   notes: No maker post, storefront, price, or quantity-made info was found beyond the GitHub repo itself, so those fields are left empty. Repo shows only KiCad hardware design files (schematic, PCB, footprints, drill files) with no firmware/code, so make_your_own.firmware_url is left null. Status set to released (rather than listed) on the strength of the finished schematic/PCB/artwork in the repo, though no photo of an assembled unit or in-the-wild sighting was found; confidence kept at medium for that reason.
 last_modified_date: '2026-09-07'
+model:
+  file: assets/models/dc26/cl4p-tp-shitty-add-on-dc26-shitty-add-on-board.glb
+  method: kicad
+  source_file: CL4p_TP.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 137560
 ---
 
 The CL4P-TP Shitty Add-On is a DEF CON 26 (2018) SAO by GitHub user Sparx50, shaped and silkscreened after Claptrap (CL4P-TP), the wisecracking robot from the Borderlands video game series. The board carries eight 1206 LEDs (D1 through D8), each behind its own 220-ohm resistor, driven from an MCP23017 I2C GPIO expander running off 3.3V supplied by the host badge's SAO header.

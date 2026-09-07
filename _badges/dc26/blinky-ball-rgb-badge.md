@@ -83,6 +83,12 @@ research:
   last_checked: '2026-09-07'
   notes: Core facts (makers, LEDs, MCU, sensors, event) come from the maker's own Hackaday.io project page, so most fields are solid. Confidence held at medium rather than high because price, quantity sold, and current availability are not stated anywhere on the page, and it is unclear whether this was ever distributed as a wearable con badge versus shown/demoed as an art piece. No independent second source was found to corroborate the DEF CON 26 appearance.
 last_modified_date: '2026-09-07'
+model:
+  file: assets/models/dc26/blinky-ball-rgb-badge.glb
+  method: kicad
+  source_file: 20x16_RGB_Small_v2.1.brd
+  generated: '2026-09-07'
+  bytes: 162064
 ---
 
 Blinky Ball (RGB) is a spherical LED sculpture/wearable built by mmca and charliex of the LA hackerspace Null Space Labs, using stacked PCB rings as its structure. The current v2.1 prototype carries 384 individually-addressable WS2812 LEDs (20 per slice across 16 slices), an ESP-WROOM-32 for WiFi/Bluetooth control, a Cypress PSOC4 LED driver, a 9-DoF IMU plus temperature, gesture, light and color sensing, and a microphone with a DAC/headphone jack, run off an 18650 cell rated for about four hours per charge.

@@ -160,6 +160,12 @@ last_modified_date: '2026-09-07'
 redirect_from:
 - /badges/dc30/dczia-thirtyinone-30-in-one-badge/
 - /badges/dc30/30-in-1-badge-dczia-yolo-badge/
+model:
+  file: assets/models/dc30/30-in-1-badge.glb
+  method: kicad
+  source_file: Hardware/badge/thirtyinone-badge.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 581612
 ---
 
 The 30-in-One Badge is a "learn electronics" kit built by DCZia and sold as a badge for DEF CON 30 (2022) through Tindie under seller "snurkle engineering." Rather than running firmware on a microcontroller, it is a single PCB carrying 30 separate analog circuit projects — an OLED screen, an RGB LED, a speaker, switches, a potentiometer, and a transformer among them — that the owner solders together themselves, following a printed instruction booklet. A wooden box doubles as a soldering jig, and the board reportedly hides some challenges/puzzles for people who go looking. It sold for $100 and has since gone out of stock on Tindie.

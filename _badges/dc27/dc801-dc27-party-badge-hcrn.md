@@ -88,6 +88,12 @@ research:
   last_checked: '2026-09-07'
   notes: Fact-check pass (2026-09-07) re-fetched the GitHub README (raw README.md, not just the repo landing page) and the full text of the Hackaday article. All hardware/software/team-credit claims in the body and Make-your-own section checked out verbatim against the maker's README. However, the prior draft's claim that the party was held "at Planet Hollywood suite, Aug 10-11 2019" was NOT supported by either cited source (confirmed by a full-text search of the Hackaday article) and appears to have been invented despite research.notes attributing it to Hackaday/DEF CON forums; that detail has been removed from the body and get_one.where. Price and LED details remain unconfirmed by any source and are left empty.
 last_modified_date: '2026-09-07'
+model:
+  file: assets/models/dc27/dc801-dc27-party-badge-hcrn.glb
+  method: kicad
+  source_file: Hardware/hcrn.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 697944
 ---
 
 The DC801 DC27 Party Badge, nicknamed HCRN, was handed out for free at DC801's party during DEF CON 27 (2019). Five members of the DC801 hacker collective designed the badge, with additional help from the group to assemble and package the roughly 375 units that were produced.

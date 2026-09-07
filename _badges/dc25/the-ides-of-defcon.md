@@ -74,14 +74,14 @@ links:
   url: https://medium.com/@spqrbadge/ides-of-def-con-badge-post-mortem-ba9d7855b85f
   kind: article
 images:
-  - file: assets/images/badges/dc25/the-ides-of-defcon/99a32247b6.jpg
-    source: "https://hackaday.io/project/14756-the-ides-of-defcon-an-unofficial-electronic-badge"
-    credit: "Team Ides / John Adams"
-    caption: "The Ides of Defcon DC25 badge"
-  - file: assets/images/badges/dc25/the-ides-of-defcon/281275930c.jpg
-    source: "https://hackaday.io/project/14756-the-ides-of-defcon-an-unofficial-electronic-badge"
-    credit: "Team Ides / John Adams"
-    caption: "Display module used on the Ides of Defcon badge"
+- file: assets/images/badges/dc25/the-ides-of-defcon/99a32247b6.jpg
+  source: https://hackaday.io/project/14756-the-ides-of-defcon-an-unofficial-electronic-badge
+  credit: Team Ides / John Adams
+  caption: The Ides of Defcon DC25 badge
+- file: assets/images/badges/dc25/the-ides-of-defcon/281275930c.jpg
+  source: https://hackaday.io/project/14756-the-ides-of-defcon-an-unofficial-electronic-badge
+  credit: Team Ides / John Adams
+  caption: Display module used on the Ides of Defcon badge
 contact: {}
 status: released
 sources:
@@ -99,18 +99,24 @@ sources:
   url: https://hackaday.io/project/14756-the-ides-of-defcon-an-unofficial-electronic-badge
   title: 'The Ides of DEFCON: An Unofficial Electronic Badge - Hackaday.io'
   accessed: '2026-09-07'
-  note: 'LED count/type, display, quantity estimate, form factor, badge cover image.'
+  note: LED count/type, display, quantity estimate, form factor, badge cover image.
 - kind: url
   url: https://github.com/netik/dc25_spqr_badge
   title: netik/dc25_spqr_badge (README)
   accessed: '2026-09-07'
-  note: 'Confirmed 2.8" 320x240 touchscreen part, LiPo 1200mAh battery, KiCad EDA tool, approximate per-unit fab cost.'
+  note: Confirmed 2.8" 320x240 touchscreen part, LiPo 1200mAh battery, KiCad EDA tool, approximate per-unit fab cost.
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-07'
   notes: Core facts (maker team, event/year, MCU, display, battery, open-source repos) confirmed directly on the maker's own project page, GitHub README, and Hackaday.io log. Exact quantity produced and per-unit price were not stated on any source found, so left blank. Availability set to sold_out since this was a one-time 2017 Kickstarter/DEF CON run with no ongoing storefront found.
 last_modified_date: '2026-09-07'
+model:
+  file: assets/models/dc25/the-ides-of-defcon.glb
+  method: kicad
+  source_file: badge-kicad.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 483360
 ---
 
 The Ides of Defcon was an independently produced, Roman-themed electronic badge built for DEF CON 25 (2017) by a team calling itself "Team Ides" — John Adams, Bill Paul, Egan Hirvela, and Matthew Harris. The project was funded through a 2017 Kickstarter campaign that raised over $23,000, with boards manufactured and shipped by Macrofab in time for the con.

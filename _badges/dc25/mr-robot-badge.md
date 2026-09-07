@@ -85,6 +85,12 @@ research:
   last_checked: '2026-09-07'
   notes: mrrobotbadge.tv returned no content when fetched (likely expired/parked domain or JS-only site) so it could not be used as a source; left in links for reference. Price is not stated anywhere found (it was a free DEF CON drop, not sold), so get_one.price left blank. Exact quantity varies slightly by source (480 vs 500); recorded as 'about 480-500'. No separate design-file repo URL beyond the Hackaday.io project page itself, so hardware_url/firmware_url point there.
 last_modified_date: '2026-09-07'
+model:
+  file: assets/models/dc25/mr-robot-badge.glb
+  method: kicad
+  source_file: RobotBadgeKiCad_unz/RobotBadgeKiCad/RobotBadge.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 413980
 ---
 
 The Mr. Robot Badge was an independent electronic badge created by Brian Benchoff (a Hackaday writer, working under the handle "Benchoff" on Hackaday.io) for DEF CON 25 in Las Vegas in August 2017. Shaped like the mask worn by the "fsociety" hackers in the TV series *Mr. Robot*, the badge used a skin-tone soldermask and silkscreen artwork to render the mask's face directly on the PCB. Around 480 to 500 units were built and handed out for free at the con.

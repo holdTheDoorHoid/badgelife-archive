@@ -189,5 +189,139 @@
   "bytes": 238040,
   "tried": [],
   "src": "Bowtie and Screwdriver Badge/BowTie/Hardware/BowTie/BowTie.kicad_pcb"
+ },
+ "dc27-dc-zia-laser-theremin-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 690116,
+  "tried": [],
+  "src": "Hardware/laser-theremin.kicad_pcb"
+ },
+ "dc27-dc27-mooncake-sao": {
+  "status": "ok",
+  "method": "gerber",
+  "bytes": 144080,
+  "tried": [],
+  "src": "."
+ },
+ "dc27-dc27-shitty-brooch": {
+  "status": "ok",
+  "method": "gerber",
+  "bytes": 74540,
+  "tried": [],
+  "src": "DC27/Shitty-Brooch"
+ },
+ "dc27-dc614-badge-dc27": {
+  "status": "ok",
+  "method": "gerber",
+  "bytes": 356908,
+  "tried": [],
+  "src": "pcb/Gerber_v9_20190820223527.zip"
+ },
+ "dc27-fifth-element-stones-badge-def-con-27": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 232676,
+  "tried": [],
+  "src": "Fifth Element Badge/Hardware/FifthElementBase/FifthElementBase.kicad_pcb"
+ },
+ "dc27-godzilla-vs-blade-runner-3kbadge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 292576,
+  "tried": [],
+  "src": "3k_badge_eda/DC27_3000_Society_Badge_K5/3000_Society_Badge_K5.kicad_pcb"
+ },
+ "dc27-mooncake-sao": {
+  "status": "ok",
+  "method": "gerber",
+  "bytes": 144080,
+  "tried": [],
+  "src": "."
+ },
+ "dc27-sao-shitty-add-on-for-defcon-27": {
+  "status": "ok",
+  "method": "gerber",
+  "bytes": 87680,
+  "tried": [],
+  "src": "GERBERS"
+ },
+ "dc27-spivspi-blackhat-spy-sao": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 197204,
+  "tried": [],
+  "src": "hardware/SPIvSPI_SAO_Black/SPIvSPI_SAO_Black.kicad_pcb"
+ },
+ "dc30-30-in-1-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 581612,
+  "tried": [],
+  "src": "Hardware/badge/thirtyinone-badge.kicad_pcb"
+ },
+ "dc30-dc404-training-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 361492,
+  "tried": [],
+  "src": "Learn404.kicad_pcb"
+ },
+ "dc30-jollybadge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 140620,
+  "tried": [],
+  "src": "hw/dc30/dc30.kicad_pcb"
+ },
+ "dc31-badgepirates-listed-for-def-con-31-no-details": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 392200,
+  "tried": [],
+  "src": "CAD/BiohackingPivot.kicad_pcb"
+ },
+ "dc31-sao-2023-reddit-reddit-avatar-sao-for-defcon-2023": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 46776,
+  "tried": [],
+  "src": "pcb/reddit.kicad_pcb"
+ },
+ "dc31-unnamed-saos-has4-sao-and-sao-pin-folders-in-avbadge-2023-re": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 70508,
+  "tried": [],
+  "src": "HAS4_SAO/HAS4_SAO.kicad_pcb"
+ },
+ "dc32-camera-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 617648,
+  "tried": [],
+  "src": "eda/camera_badge/camera_badge.kicad_pcb"
+ },
+ "dc32-crest-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 92812,
+  "tried": [],
+  "src": "pcb/production/front-board/front_board.kicad_pcb"
+ },
+ "dc32-dc32-lle-defcon32-sao": {
+  "status": "failed",
+  "tried": [
+   "eagle->kicad ok",
+   "kicad glb: glb export failed: Failed to load board: One or more items were found on undefined layers (UNDEFINED). Open the board in the PCB Editor to resolve.\n",
+   "kicad gerbers: gerber export failed: Failed to load board: One or more items were found on undefined layers (UNDEFINED). Open the board in the PCB Editor to resolve.\n"
+  ]
+ },
+ "dc32-dczia-defcon32-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 312268,
+  "tried": [],
+  "src": "Hardware/dc32.kicad_pcb"
  }
 }

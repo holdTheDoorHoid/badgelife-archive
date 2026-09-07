@@ -15,13 +15,8 @@ makers:
 - name: Peter Shabino
   url: https://github.com/Wireb
   role: firmware, electronics, vending machine server
-summary: 'The official CypherCon 5.3 (2022) badge, a "Flamingo & Friends" set of five
-  animal-shaped PIC-based badges (Coyote, Flamingo, Llama, Parrot, Peacock) with an
-  animated LCD, IR badge-to-badge communication, and a tie-in vending machine game.'
-functions: Animated LCD eye/face graphics stored on SPI EEPROM, IR communication
-  between badges and with IR-equipped fixtures, a cryptographic "lifetime badge"
-  anti-forgery/key-generation scheme, and an interactive vending-machine game that
-  badges could unlock.
+summary: The official CypherCon 5.3 (2022) badge, a "Flamingo & Friends" set of five animal-shaped PIC-based badges (Coyote, Flamingo, Llama, Parrot, Peacock) with an animated LCD, IR badge-to-badge communication, and a tie-in vending machine game.
+functions: Animated LCD eye/face graphics stored on SPI EEPROM, IR communication between badges and with IR-equipped fixtures, a cryptographic "lifetime badge" anti-forgery/key-generation scheme, and an interactive vending-machine game that badges could unlock.
 look:
   colors: []
   shape: animal
@@ -47,13 +42,12 @@ get_one:
   distribution: []
   where: ''
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/Wireb/Cyphercon-5_3-2022
   firmware_url: https://github.com/Wireb/Cyphercon-5_3-2022
   eda_tool: KiCad
   license: MIT
-  notes: Repo also includes FreeCAD mechanical files (stencils, fixtures, alignment
-    tools), Inkscape silkscreen art, and Perl animation-build scripts.
+  notes: Repo also includes FreeCAD mechanical files (stencils, fixtures, alignment tools), Inkscape silkscreen art, and Perl animation-build scripts.
 links:
 - label: github.com/Wireb/Cyphercon-5_3-2022
   url: https://github.com/Wireb/Cyphercon-5_3-2022
@@ -82,37 +76,29 @@ sources:
   url: https://github.com/Wireb/Cyphercon-5_3-2022/blob/master/README.md
   title: 'Wireb/Cyphercon-5_3-2022: README'
   accessed: '2026-09-07'
-  note: Confirmed maker (Peter Shabino / TYMKRS, copyright 2019-2022), five badge
-    variants (Coyote, Flamingo, Llama, Parrot, Peacock), PIC MCU, LCD display, SPI
-    EEPROM animation storage, IR features, vending-machine and lifetime-badge
-    mechanics, KiCad/FreeCAD/Inkscape/MPLAB toolchain, MIT license.
+  note: Confirmed maker (Peter Shabino / TYMKRS, copyright 2019-2022), five badge variants (Coyote, Flamingo, Llama, Parrot, Peacock), PIC MCU, LCD display, SPI EEPROM animation storage, IR features, vending-machine and lifetime-badge mechanics, KiCad/FreeCAD/Inkscape/MPLAB toolchain, MIT license.
 - kind: url
   url: https://cyphercon.com/cyphercon-5-3/
   title: CypherCon 5.3 – CypherCon
   accessed: '2026-09-07'
-  note: Confirms TYMKRS as the badge designer and the "Flamingo & Friends" theme
-    for CypherCon 5.3 (April 28-29, 2022, Wisconsin Center).
+  note: Confirms TYMKRS as the badge designer and the "Flamingo & Friends" theme for CypherCon 5.3 (April 28-29, 2022, Wisconsin Center).
 - kind: url
   url: https://goetzman.com/projects/
   title: Projects - Michael Goetzman
   accessed: '2026-09-07'
-  note: Links the 2022 badge to the TYMKRS Reddit post, corroborating "flamingos
-    and friends" naming.
+  note: Links the 2022 badge to the TYMKRS Reddit post, corroborating "flamingos and friends" naming.
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: Maker's own GitHub README and the CypherCon event page agree on the core
-    facts (TYMKRS design, Peter Shabino firmware/electronics, five animal badge
-    variants, PIC/LCD/IR hardware). Could not find price, quantity made, exact
-    distribution method (whether it shipped with registration or was sold
-    separately), the specific PIC part number, LED count/type, or any photos of
-    an assembled physical badge (only PCB silkscreen artwork and FreeCAD render
-    files were found in the repo, not photographs) - r/Tymkrs, the likely source
-    of photos, could not be fetched (blocked). A FreeCAD subfolder in the repo is
-    named "tymkrs_Cyphercon_2020", suggesting these animal badge designs may date
-    back to or reuse work from a 2020 TYMKRS Cyphercon badge; not confirmed.
+  notes: Maker's own GitHub README and the CypherCon event page agree on the core facts (TYMKRS design, Peter Shabino firmware/electronics, five animal badge variants, PIC/LCD/IR hardware). Could not find price, quantity made, exact distribution method (whether it shipped with registration or was sold separately), the specific PIC part number, LED count/type, or any photos of an assembled physical badge (only PCB silkscreen artwork and FreeCAD render files were found in the repo, not photographs) - r/Tymkrs, the likely source of photos, could not be fetched (blocked). A FreeCAD subfolder in the repo is named "tymkrs_Cyphercon_2020", suggesting these animal badge designs may date back to or reuse work from a 2020 TYMKRS Cyphercon badge; not confirmed.
 last_modified_date: '2026-09-07'
+model:
+  file: assets/models/cyphercon-2022/cyphercon-5-3-badge-2022.glb
+  method: kicad
+  source_file: kicad/tymkrs_Cyphercon_2020_Llama/tymkrs_Cyphercon_2020_llama.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 120408
 ---
 
 The CypherCon 5.3 (2022) badge was a set of five animal-themed badges - Coyote, Flamingo, Llama, Parrot, and Peacock - designed by TYMKRS with firmware and electronics work by Peter Shabino, distributed as the official badge for CypherCon 5.3 (April 28-29, 2022, Wisconsin Center, Milwaukee). CypherCon promoted the year's theme as "Flamingo & Friends." Each badge runs on a PIC microcontroller and drives an LCD with animated graphics loaded from an SPI EEPROM, and badges could talk to each other and to IR fixtures around the con.

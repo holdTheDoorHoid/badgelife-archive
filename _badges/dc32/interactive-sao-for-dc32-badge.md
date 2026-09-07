@@ -23,7 +23,7 @@ tech:
   leds:
     count: 1
     type: WS2812
-    note: 'Also supports a discrete LED instead of the NeoPixel, selectable by the same switch.'
+    note: Also supports a discrete LED instead of the NeoPixel, selectable by the same switch.
   display: none
   connectivity:
   - i2c
@@ -33,7 +33,7 @@ get_one:
   price_usd: 20.0
   quantity: ''
   availability: limited
-  availability_note: 'Tindie listing showed "Only 4 left in stock" as of 2026-09-07.'
+  availability_note: Tindie listing showed "Only 4 left in stock" as of 2026-09-07.
   distribution:
   - purchase
   where: Sold on Tindie by MakeItHackin.
@@ -42,7 +42,7 @@ make_your_own:
   hardware_url: null
   firmware_url: null
   eda_tool: null
-  notes: 'The maker''s GitHub repo (linked from the listing) holds a README/tutorial and product photos only; no schematic, PCB, or firmware files are published there.'
+  notes: The maker's GitHub repo (linked from the listing) holds a README/tutorial and product photos only; no schematic, PCB, or firmware files are published there.
 links:
 - label: www.tindie.com/products/makeithackin/interactive-sao-for-dc32-badge
   url: https://www.tindie.com/products/makeithackin/interactive-sao-for-dc32-badge/
@@ -50,19 +50,20 @@ links:
 - label: github.com/MakeItHackin/InteractiveSAO
   url: https://github.com/MakeItHackin/InteractiveSAO/
   kind: doc
-  note: 'Tutorial/documentation repo with photos; no design files.'
+  note: Tutorial/documentation repo with photos; no design files.
+  archived: https://web.archive.org/web/20260508145218/https://github.com/MakeItHackin/InteractiveSAO/
 - label: 'YouTube: Interactive SAO for DEF CON 32 Badge demo'
   url: https://youtu.be/WPPUDujF5oE
   kind: video
 images:
-  - file: assets/images/badges/dc32/interactive-sao-for-dc32-badge/2842b23a72.jpg
-    source: "https://www.tindie.com/products/makeithackin/interactive-sao-for-dc32-badge/"
-    credit: "MakeItHackin"
-    caption: "The Interactive SAO plus included stickers and googly eyes"
-  - file: assets/images/badges/dc32/interactive-sao-for-dc32-badge/8d1c1b0453.jpg
-    source: "https://www.tindie.com/products/makeithackin/interactive-sao-for-dc32-badge/"
-    credit: "MakeItHackin"
-    caption: "Front of the Interactive SAO board"
+- file: assets/images/badges/dc32/interactive-sao-for-dc32-badge/2842b23a72.jpg
+  source: https://www.tindie.com/products/makeithackin/interactive-sao-for-dc32-badge/
+  credit: MakeItHackin
+  caption: The Interactive SAO plus included stickers and googly eyes
+- file: assets/images/badges/dc32/interactive-sao-for-dc32-badge/8d1c1b0453.jpg
+  source: https://www.tindie.com/products/makeithackin/interactive-sao-for-dc32-badge/
+  credit: MakeItHackin
+  caption: Front of the Interactive SAO board
 contact: {}
 notes:
 - Spotted by a research agent while working on a neighbouring entry.
@@ -77,12 +78,13 @@ sources:
   url: https://github.com/MakeItHackin/InteractiveSAO/
   title: MakeItHackin/InteractiveSAO
   accessed: '2026-09-07'
-  note: 'Confirmed the repo is documentation/photos only, no published hardware or firmware files.'
+  note: Confirmed the repo is documentation/photos only, no published hardware or firmware files.
+  archived: https://web.archive.org/web/20260508145218/https://github.com/MakeItHackin/InteractiveSAO/
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'MCU is not stated anywhere in the listing or repo (the tutorial uses an external "badge simulator" Arduino, which is not the SAO itself, so it was not recorded as tech.mcu). Quantity made is not stated, only remaining stock (4) at the time of checking. Price is confirmed at $20 from the Tindie schema data.'
+  notes: MCU is not stated anywhere in the listing or repo (the tutorial uses an external "badge simulator" Arduino, which is not the SAO itself, so it was not recorded as tech.mcu). Quantity made is not stated, only remaining stock (4) at the time of checking. Price is confirmed at $20 from the Tindie schema data.
 last_modified_date: '2026-09-07'
 ---
 

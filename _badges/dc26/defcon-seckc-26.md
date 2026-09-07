@@ -29,7 +29,7 @@ tech:
   leds:
     count: 42
     type: charlieplexed
-    note: 'Charlieplexed white LEDs (34 populate the laurel wreath outline plus indicator LEDs) driven with a custom Chaplex library across 7 GPIO control pins.'
+    note: Charlieplexed white LEDs (34 populate the laurel wreath outline plus indicator LEDs) driven with a custom Chaplex library across 7 GPIO control pins.
   display: none
   connectivity:
   - wifi
@@ -43,26 +43,26 @@ get_one:
   distribution: []
   where: ''
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/BadgePiratesLLC/DefCon_SecKC_26/tree/master/Gerbers
   firmware_url: https://github.com/BadgePiratesLLC/DefCon_SecKC_26/tree/master/BadgeCode
   eda_tool: null
   gerbers_url: https://github.com/BadgePiratesLLC/DefCon_SecKC_26/blob/master/Gerbers/SecKC_DC26_Final.zip
   bom_url: https://github.com/BadgePiratesLLC/DefCon_SecKC_26/blob/master/BadgePirates_SecKC_DC26Badge_BOM.xlsx
-  notes: 'Repo also includes a separate "Daughter" board (GPS, screen/buttons, sensors — see Photos/Daughter_*.JPG) and a matching commemorative coin design, both of uncertain relationship to the main round badge.'
+  notes: Repo also includes a separate "Daughter" board (GPS, screen/buttons, sensors — see Photos/Daughter_*.JPG) and a matching commemorative coin design, both of uncertain relationship to the main round badge.
 links:
 - label: github.com/BadgePiratesLLC/DefCon_SecKC_26
   url: https://github.com/BadgePiratesLLC/DefCon_SecKC_26
   kind: repo
 images:
-  - file: assets/images/badges/dc26/defcon-seckc-26/c897f3e972.jpg
-    source: "https://github.com/BadgePiratesLLC/DefCon_SecKC_26"
-    credit: "BadgePiratesLLC"
-    caption: "Assembled SecKC DC26 badge, white PCB variant"
-  - file: assets/images/badges/dc26/defcon-seckc-26/c42221f350.jpg
-    source: "https://github.com/BadgePiratesLLC/DefCon_SecKC_26"
-    credit: "BadgePiratesLLC"
-    caption: "SecKC DC26 badge, black PCB variant with LEDs populated"
+- file: assets/images/badges/dc26/defcon-seckc-26/c897f3e972.jpg
+  source: https://github.com/BadgePiratesLLC/DefCon_SecKC_26
+  credit: BadgePiratesLLC
+  caption: Assembled SecKC DC26 badge, white PCB variant
+- file: assets/images/badges/dc26/defcon-seckc-26/c42221f350.jpg
+  source: https://github.com/BadgePiratesLLC/DefCon_SecKC_26
+  credit: BadgePiratesLLC
+  caption: SecKC DC26 badge, black PCB variant with LEDs populated
 contact: {}
 notes: []
 status: released
@@ -76,23 +76,32 @@ sources:
   url: https://github.com/BadgePiratesLLC/DefCon_SecKC_26/blob/master/BadgeCode/platformio.ini
   title: BadgeCode/platformio.ini
   accessed: '2026-09-07'
-  note: 'Confirms MCU (ESP32, esp-wrover-kit board target) and painlessMesh dependency for the WiFi mesh feature.'
+  note: Confirms MCU (ESP32, esp-wrover-kit board target) and painlessMesh dependency for the WiFi mesh feature.
 - kind: url
   url: https://github.com/BadgePiratesLLC/DefCon_SecKC_26/blob/master/BadgeCode/src/main.ino
   title: BadgeCode/src/main.ino
   accessed: '2026-09-07'
-  note: 'Confirms charlieplexed LED layout (42-LED array, 34 in the laurel wreath), single-button animation cycling, hall-effect-unlocked hidden animation, and mesh-status LED.'
+  note: Confirms charlieplexed LED layout (42-LED array, 34 in the laurel wreath), single-button animation cycling, hall-effect-unlocked hidden animation, and mesh-status LED.
 - kind: url
   url: https://github.com/BadgePiratesLLC/DefCon_SecKC_26/tree/master/Photos
   title: DefCon_SecKC_26/Photos
   accessed: '2026-09-07'
-  note: 'Source of the two saved images (white and black PCB variants); also shows a separate "Daughter" board with GPS/screen/buttons/sensors and SecKC "Bob" mascot artwork.'
+  note: Source of the two saved images (white and black PCB variants); also shows a separate "Daughter" board with GPS/screen/buttons/sensors and SecKC "Bob" mascot artwork.
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'The repo (archived Dec 2023, so read-only) is the only source found — no press coverage, storefront, or social posts turned up (web search budget was exhausted before those queries could run). Price, quantity made, and distribution/availability are not stated anywhere in the repo and are left empty. The Gerbers folder also has a separate "Daughter_gerber.zip" and the Photos folder shows a distinct daughter board (GPS, screen, buttons, sensors) plus a "Coin" design; it is unclear from the repo alone whether the daughter board shipped as part of this badge or was a separate/optional add-on, so tech fields here describe only the main round wreath board seen in the photos. DEF CON 26 was held in 2018, consistent with the entry''s existing year field; no event correction needed.'
+  notes: The repo (archived Dec 2023, so read-only) is the only source found — no press coverage, storefront, or social posts turned up (web search budget was exhausted before those queries could run). Price, quantity made, and distribution/availability are not stated anywhere in the repo and are left empty. The Gerbers folder also has a separate "Daughter_gerber.zip" and the Photos folder shows a distinct daughter board (GPS, screen, buttons, sensors) plus a "Coin" design; it is unclear from the repo alone whether the daughter board shipped as part of this badge or was a separate/optional add-on, so tech fields here describe only the main round wreath board seen in the photos. DEF CON 26 was held in 2018, consistent with the entry's existing year field; no event correction needed.
 last_modified_date: '2026-09-07'
+model:
+  file: assets/models/dc26/defcon-seckc-26.glb
+  method: gerber
+  source_file: Gerbers/Daughter_gerber.zip
+  generated: '2026-09-07'
+  bytes: 252552
+  size_mm:
+  - 100.0
+  - 100.0
 ---
 
 The SecKC DC26 badge was made by BadgePirates for the SecKC (Kansas City-area hacker and information-security meetup) crew to bring to DEF CON 26 in 2018. It's a round PCB, produced in both white and black solder-mask variants, with a laurel wreath cut out of the copper around a silhouette of "Bob," the fedora-wearing SecKC mascot. The wreath itself is picked out in 34 charlieplexed white LEDs, driven off an ESP32 (esp-wrover-kit target) through a custom Chaplex driver across just seven control pins, giving 42 addressable LED positions total including a few off-wreath indicators.

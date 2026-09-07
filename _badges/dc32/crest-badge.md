@@ -175,6 +175,12 @@ research:
 last_modified_date: '2026-09-07'
 redirect_from:
 - /badges/dc32/badge-with-unreleased-name-as-of-yet/
+model:
+  file: assets/models/dc32/crest-badge.glb
+  method: kicad
+  source_file: pcb/production/front-board/front_board.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 92812
 ---
 
 This repository holds the hardware and firmware for what looks like the same

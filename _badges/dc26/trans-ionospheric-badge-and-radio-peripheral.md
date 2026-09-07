@@ -41,7 +41,7 @@ make_your_own:
   hardware_url: https://github.com/OpenResearchInstitute/trans-ionospheric/tree/master/hardware
   firmware_url: https://github.com/OpenResearchInstitute/trans-ionospheric/tree/master/firmware
   eda_tool: null
-  notes: 'Hardware schematics are shared as Altium (.SchDoc/.CSPcbDoc) files, not fully open EDA source; firmware is Apache 2.0 licensed and builds against the Nordic nRF5 SDK v12.3, implying an nRF51/nRF52-series MCU (not stated explicitly by the maker). Repo overall is LGPL-3.0 per GitHub metadata.'
+  notes: Hardware schematics are shared as Altium (.SchDoc/.CSPcbDoc) files, not fully open EDA source; firmware is Apache 2.0 licensed and builds against the Nordic nRF5 SDK v12.3, implying an nRF51/nRF52-series MCU (not stated explicitly by the maker). Repo overall is LGPL-3.0 per GitHub metadata.
 links:
 - label: github.com/OpenResearchInstitute/trans-ionospheric
   url: https://github.com/OpenResearchInstitute/trans-ionospheric
@@ -54,9 +54,9 @@ links:
   kind: video
 images:
 - file: assets/images/badges/dc26/trans-ionospheric-badge-and-radio-peripheral/fe7d5d3b0d.jpg
-  source: "https://openresearch.institute/badge/"
-  credit: "Open Research Institute"
-  caption: "Trans-Ionospheric badge as demonstrated at DEF CON 26"
+  source: https://openresearch.institute/badge/
+  credit: Open Research Institute
+  caption: Trans-Ionospheric badge as demonstrated at DEF CON 26
 contact: {}
 notes: []
 status: released
@@ -73,22 +73,31 @@ sources:
   note: 'Maker''s own badge page: confirms DEF CON 26 (2018) demonstration, describes it as a hackable amateur-radio-themed conference badge, Bluetooth LE easter-egg monitor mode, SWD firmware updates; source of the badge photo.'
 - kind: url
   url: https://raw.githubusercontent.com/OpenResearchInstitute/trans-ionospheric/master/firmware/README.md
-  title: 'trans-ionospheric firmware README'
+  title: trans-ionospheric firmware README
   accessed: '2026-09-07'
-  note: 'Confirms firmware targets the Nordic nRF5 SDK v12.3 (nRF51/nRF52-family MCU), Apache 2.0 licensed, and states the badge is based on the unofficial JoCo Cruise 2018 "pirate monkey" badge, itself derived from AND!XOR''s DEF CON 25 Bender Badge.'
+  note: Confirms firmware targets the Nordic nRF5 SDK v12.3 (nRF51/nRF52-family MCU), Apache 2.0 licensed, and states the badge is based on the unofficial JoCo Cruise 2018 "pirate monkey" badge, itself derived from AND!XOR's DEF CON 25 Bender Badge.
 - kind: url
   url: https://api.github.com/repos/OpenResearchInstitute/trans-ionospheric
-  title: 'GitHub repo metadata'
+  title: GitHub repo metadata
   accessed: '2026-09-07'
-  note: 'Repo license (LGPL-3.0), topics (badge, badgelife), created 2018-03-06.'
+  note: Repo license (LGPL-3.0), topics (badge, badgelife), created 2018-03-06.
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'Event corrected from "other" to dc26 (DEF CON 26, 2018) per the maker''s own badge page. Exact MCU part number, LED count/type, display, price, and quantity made are not stated by any source found and are left empty rather than guessed; the firmware README implies a Nordic nRF51/nRF52-series chip (nRF5 SDK v12.3 dependency) but does not name the exact part, so tech.mcu is left null. Hardware files are Altium schematics/PCB docs (not a fully open EDA format like KiCad), so make_your_own.open_source is set to "partial" rather than "yes". No storefront or pricing page was found; distribution is inferred as sold/given out at the DEF CON 26 table based on the badge page''s "supporting us at our events" phrasing.'
+  notes: Event corrected from "other" to dc26 (DEF CON 26, 2018) per the maker's own badge page. Exact MCU part number, LED count/type, display, price, and quantity made are not stated by any source found and are left empty rather than guessed; the firmware README implies a Nordic nRF51/nRF52-series chip (nRF5 SDK v12.3 dependency) but does not name the exact part, so tech.mcu is left null. Hardware files are Altium schematics/PCB docs (not a fully open EDA format like KiCad), so make_your_own.open_source is set to "partial" rather than "yes". No storefront or pricing page was found; distribution is inferred as sold/given out at the DEF CON 26 table based on the badge page's "supporting us at our events" phrasing.
 last_modified_date: '2026-09-07'
 redirect_from:
 - /badges/other/trans-ionospheric-badge-and-radio-peripheral/
+model:
+  file: assets/models/dc26/trans-ionospheric-badge-and-radio-peripheral.glb
+  method: gerber
+  source_file: hardware/Outputs
+  generated: '2026-09-07'
+  bytes: 90428
+  size_mm:
+  - 132.0
+  - 143.2
 ---
 
 The Trans-Ionospheric is a hackable conference badge built by Open Research Institute as a wearable amateur-radio-themed peripheral tied to the organization's Phase 4 Ground and Phase 4 Space projects. It was demonstrated at DEF CON 26 in Las Vegas in 2018, and appears in a segment of Hackaday's #badgelife DEF CON 26 documentary. The firmware's own README traces its lineage back through the unofficial JoCo Cruise 2018 "pirate monkey" badge to AND!XOR's DEF CON 25 Bender Badge, placing it in that badge-hardware family tree.

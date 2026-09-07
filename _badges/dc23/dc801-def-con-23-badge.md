@@ -14,7 +14,7 @@ makers:
 - name: theTransistor
   url: http://thetransistor.com/
 summary: A handheld game-console-style party badge built by DC801 and theTransistor for their DEF CON 23 (2015) VIP party, with a color touchscreen, dual joysticks, and RGB LED lighting in a laser-cut acrylic case.
-functions: 'Runs custom software demoed on its LCD (a "801 LABS" splash/boot screen is shown in one photo); the repo includes a Software directory of example code for the platform. Has a charge/voltage readout capability and microSD storage.'
+functions: Runs custom software demoed on its LCD (a "801 LABS" splash/boot screen is shown in one photo); the repo includes a Software directory of example code for the platform. Has a charge/voltage readout capability and microSD storage.
 look:
   colors:
   - black
@@ -64,13 +64,13 @@ links:
   kind: website
 images:
 - file: assets/images/badges/dc23/dc801-def-con-23-badge/31b1fefd17.jpg
-  source: "https://github.com/hamster/DefCon23"
-  credit: "DC801 / theTransistor"
-  caption: "The 2015 DC801 DEF CON VIP party badge"
+  source: https://github.com/hamster/DefCon23
+  credit: DC801 / theTransistor
+  caption: The 2015 DC801 DEF CON VIP party badge
 - file: assets/images/badges/dc23/dc801-def-con-23-badge/3f72fd0c60.jpg
-  source: "https://github.com/hamster/DefCon23"
-  credit: "DC801 / theTransistor"
-  caption: "The assembled badge in its acrylic case with dual joysticks"
+  source: https://github.com/hamster/DefCon23
+  credit: DC801 / theTransistor
+  caption: The assembled badge in its acrylic case with dual joysticks
 contact:
   irc: '#thetransistor on freenode'
   email: d3c4f [at] thetransistor [dot] com
@@ -87,7 +87,7 @@ sources:
   url: https://github.com/hamster/DefCon23#readme
   title: 'hamster/DefCon23 README: DC801 2015 Defcon VIP Party Badge'
   accessed: '2026-09-07'
-  note: 'Primary source for makers, full hardware feature list (MCUs, display, LEDs, battery, joysticks/encoder/buttons, microSD, case), credits, and contact info. This is a fork of thetransistor/DefCon23; the README also notes @hamster added a Software directory of demo code.'
+  note: Primary source for makers, full hardware feature list (MCUs, display, LEDs, battery, joysticks/encoder/buttons, microSD, case), credits, and contact info. This is a fork of thetransistor/DefCon23; the README also notes @hamster added a Software directory of demo code.
 - kind: url
   url: https://github.com/thetransistor/DefCon23
   title: thetransistor/DefCon23 (upstream repo)
@@ -97,10 +97,17 @@ research:
   status: verified
   confidence: high
   last_checked: '2026-09-07'
-  notes: 'Event corrected from "other" to dc23 (DEF CON 23, 2015) based on the repo README title and year. Price/quantity not stated anywhere; it was a party giveaway, not sold, so get_one.price is left empty. No SAO header mentioned in the source; sao_version left null rather than guessing "none" since the badge predates common SAO convention and the README does not address it explicitly. Fact-check pass (2026-09-07): re-fetched both repo READMEs and the Hardware directory listing. All front-matter fields and body sentences confirmed against the cited sources, with two corrections: the "Make your own" section had wrongly stated no BOM was found — the repo Hardware directory actually contains "BOM - LED Board.xlsx" and "BOM - Mainboard.xlsx", so a make_your_own.bom_url was added and the sentence fixed; and the caption on the second image ("Badge PCB/enclosure design render") was wrong — the photo is an actual assembled unit with green joysticks, not a render, so the caption was corrected. No Gerbers or fab-house link found, confirmed. dc801.org currently shows an "under construction" placeholder page (checked 2026-09-07); it is kept only as a website link, not cited as a factual source, so this does not affect confidence.'
+  notes: 'Event corrected from "other" to dc23 (DEF CON 23, 2015) based on the repo README title and year. Price/quantity not stated anywhere; it was a party giveaway, not sold, so get_one.price is left empty. No SAO header mentioned in the source; sao_version left null rather than guessing "none" since the badge predates common SAO convention and the README does not address it explicitly. Fact-check pass (2026-09-07): re-fetched both repo READMEs and the Hardware directory listing. All front-matter fields and body sentences confirmed against the cited sources, with two corrections: the "Make your own" section had wrongly stated no BOM was found — the repo Hardware directory actually contains "BOM - LED Board.xlsx" and "BOM - Mainboard.xlsx", so a make_your_own.bom_url was added and the sentence fixed; and the caption on the second image ("Badge PCB/enclosure design render") was wrong — the photo is an actual assembled unit with green joysticks, not a render, so the caption was corrected.
+    No Gerbers or fab-house link found, confirmed. dc801.org currently shows an "under construction" placeholder page (checked 2026-09-07); it is kept only as a website link, not cited as a factual source, so this does not affect confidence.'
 last_modified_date: '2026-09-07'
 redirect_from:
 - /badges/other/dc801-def-con-23-badge/
+model:
+  file: assets/models/dc23/dc801-def-con-23-badge.glb
+  method: kicad
+  source_file: Mainboard v4.brd
+  generated: '2026-09-07'
+  bytes: 370496
 ---
 
 The DC801 2015 DEF CON VIP Party Badge is a handheld, game-console-shaped party badge built by the Salt Lake City hacker groups DC801 and theTransistor for their annual DEF CON party, held during DEF CON 23 in 2015. It packs a Parallax P8X32A Propeller microcontroller alongside an ATmega328P for analog/extra I/O, an ESP8266 (ESP-12E) Wi-Fi module, a socket for an XBee serial radio, and FTDI with switchable output. The centerpiece is a 3.6" 400x240 18-bit color LCD, flanked by two analog joysticks, a rotary encoder, and two pushbuttons, with 10 WS2812B RGB LEDs lighting the edges of a laser-cut HDPE/acrylic case. It runs on a 2000 mAh LiPo battery with onboard charging and voltage/charge readout, and includes a microSD slot for storage.

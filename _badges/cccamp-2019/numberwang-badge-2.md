@@ -12,7 +12,7 @@ makers:
 - name: timonsku
   url: https://hackaday.io/timonsku
 summary: A badge made for the Numberwang village at Chaos Communication Camp 2019 that does blinking LEDs and sound so wearers can pretend to play Numberwang, built on an ATSAMD21G18 with the Adafruit Itsy Bitsy M0 pinout, a LiPo charger, and custom CircuitPython firmware.
-functions: 'Blinking LEDs and I2S audio so the wearer can "pretend to play Numberwang" (a reference to the fictional game from the British comedy sketch series of the same name).'
+functions: Blinking LEDs and I2S audio so the wearer can "pretend to play Numberwang" (a reference to the fictional game from the British comedy sketch series of the same name).
 look:
   colors: []
   shape: null
@@ -55,9 +55,9 @@ links:
   kind: social
 images:
 - file: assets/images/badges/cccamp-2019/numberwang-badge-2/00ca752b29.jpg
-  source: "https://hackaday.io/project/167356-numberwang-badge"
-  credit: "timonsku"
-  caption: "The Numberwang Badge PCB"
+  source: https://hackaday.io/project/167356-numberwang-badge
+  credit: timonsku
+  caption: The Numberwang Badge PCB
 contact: {}
 notes: []
 status: released
@@ -84,6 +84,12 @@ research:
   last_checked: '2026-09-07'
   notes: The maker's own Hackaday.io and GitHub pages confirm hardware and purpose, but neither states LED count/type, price, or quantity made, so those fields remain empty. The repo notes a known hardware bug (one signal not routed to the I2S amp) requiring a bodge wire for audio to work; documentation is described by the maker as minimal. No storefront was found, consistent with village giveaway distribution rather than sale.
 last_modified_date: '2026-09-07'
+model:
+  file: assets/models/cccamp-2019/numberwang-badge-2.glb
+  method: kicad
+  source_file: Numberwang.brd
+  generated: '2026-09-07'
+  bytes: 170972
 ---
 
 The Numberwang Badge was made by timonsku for the Numberwang village at Chaos Communication Camp 2019 (CCCamp19), a village themed around the fictional game "Numberwang" from the British comedy sketch series of the same name. The badge is built around an ATSAMD21G18 microcontroller wired to the Adafruit Itsy Bitsy M0 pinout, runs on a LiPo battery with an onboard charger, and combines blinking LEDs with an I2S audio amplifier so wearers can pretend to play along with the game.

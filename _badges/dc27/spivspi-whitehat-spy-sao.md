@@ -12,7 +12,7 @@ makers:
 - name: SPIvSPI (xres0nance, steve/corelit)
   url: https://github.com/SPIvSPI
 summary: Spy vs. Spy themed Shitty Add-On for DEF CON 27 in the white-hat spy design, the counterpart to the Blackhat Spy, using the same EFM8BB10 (8051-core) microcontroller and GUI-generated LED animations; the repo holds its dedicated PCB design (SPIvSPI_SAO_White), schematic, kit assembly notes, firmware and build photos.
-functions: 'Blinks a small set of LED accents on the white-hat spy artwork (eyes, laptop screen glyph, keyboard) driven by custom firmware and a GUI-built animation sequence.'
+functions: Blinks a small set of LED accents on the white-hat spy artwork (eyes, laptop screen glyph, keyboard) driven by custom firmware and a GUI-built animation sequence.
 look:
   colors:
   - white
@@ -39,7 +39,7 @@ get_one:
   distribution: []
   where: ''
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/SPIvSPI/dc27sao/tree/master/hardware
   firmware_url: https://github.com/SPIvSPI/dc27sao/tree/master/firmware
   eda_tool: null
@@ -57,10 +57,10 @@ links:
   url: https://twitter.com/SPIvSPI
   kind: social
 images:
-  - file: assets/images/badges/dc27/spivspi-whitehat-spy-sao/2c78b60a27.jpg
-    source: "https://github.com/SPIvSPI/dc27sao"
-    credit: "SPIvSPI (xres0nance)"
-    caption: "The white-hat spy SAO, LEDs lit (eyes, terminal glyph, keyboard)"
+- file: assets/images/badges/dc27/spivspi-whitehat-spy-sao/2c78b60a27.jpg
+  source: https://github.com/SPIvSPI/dc27sao
+  credit: SPIvSPI (xres0nance)
+  caption: The white-hat spy SAO, LEDs lit (eyes, terminal glyph, keyboard)
 contact: {}
 notes: []
 status: released
@@ -74,24 +74,24 @@ sources:
   url: https://github.com/SPIvSPI/dc27sao
   title: SPIvSPI/dc27sao README and repo contents
   accessed: '2026-09-07'
-  note: "Confirmed makers (xres0nance hardware/firmware, steve/corelit GUI tool), MCU (EFM8BB10F8G-A, 8051 core), MIT license, repo layout (firmware/gui/hardware/img), and found the whitehat SAO photo (img/spivspi-whitehat.jpg)."
+  note: Confirmed makers (xres0nance hardware/firmware, steve/corelit GUI tool), MCU (EFM8BB10F8G-A, 8051 core), MIT license, repo layout (firmware/gui/hardware/img), and found the whitehat SAO photo (img/spivspi-whitehat.jpg).
 - kind: url
   url: https://hackaday.io/project/166811-spivspi-sao-dc27-badge
   title: SPIvSPI SAO DC27 Badge | Hackaday.io
   accessed: '2026-09-07'
-  note: "Confirmed event/year (DEF CON 27, 2019), MCU, and project timeline (started June 14 2019, design files released Aug 15 2019); page does not separately describe the whitehat vs blackhat variants."
+  note: Confirmed event/year (DEF CON 27, 2019), MCU, and project timeline (started June 14 2019, design files released Aug 15 2019); page does not separately describe the whitehat vs blackhat variants.
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: >-
-    Maker's GitHub repo and Hackaday page confirm the badge's origin, chip, and open-source
-    status, but neither states a price, quantity made, or sale/giveaway channel, so get_one
-    fields are left unknown. Exact LED count and PCB EDA tool are not stated in the sources
-    read; described qualitatively from the maker's own photo instead. The companion
-    "SPIvSPI Blackhat Spy SAO" from the same repo has not been given its own archive entry
-    (see other_items_found).
+  notes: Maker's GitHub repo and Hackaday page confirm the badge's origin, chip, and open-source status, but neither states a price, quantity made, or sale/giveaway channel, so get_one fields are left unknown. Exact LED count and PCB EDA tool are not stated in the sources read; described qualitatively from the maker's own photo instead. The companion "SPIvSPI Blackhat Spy SAO" from the same repo has not been given its own archive entry (see other_items_found).
 last_modified_date: '2026-09-07'
+model:
+  file: assets/models/dc27/spivspi-whitehat-spy-sao.glb
+  method: kicad
+  source_file: hardware/SPIvSPI_SAO_Black/SPIvSPI_SAO_Black.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 197204
 ---
 
 The SPIvSPI Whitehat Spy SAO is one half of a pair of Spy vs. Spy-themed Shitty Add-Ons that xres0nance and steve/corelit built for DEF CON 27 (2019), the other being the Blackhat Spy SAO. The name is a play on the SPIdriver USB-to-SPI tool the pair used, reimagined as the classic MAD magazine spy characters. Both SAOs run on a Silicon Labs EFM8BB10F8G-A (8051-core) microcontroller and light a handful of LEDs worked into the character artwork itself: on the white-hat version these pick out the eyes, a green terminal-prompt glyph on a laptop screen, and an amber keyboard highlight, per the maker's own photo. steve/corelit built a dedicated GUI tool so the pair could design the LED animation sequences without hand-coding timing tables.

@@ -87,6 +87,12 @@ research:
   notes: |
     Repo and Hackaday.io page confirm the maker, event/year, MCU, and open-source hardware/firmware. LED count/type, price, quantity made, and distribution method (free drop vs. sale) are not stated on either page; the hardware folder contains schematic and kit-notes PDFs (SPIvSPI-black-schematic.pdf, SPIvSPI-Black-Kit-Notes.pdf) that likely have LED/BOM detail but were not opened in this pass. A companion "whitehat spy" variant exists in the same repo (img/spivspi-whitehat.jpg, hardware/SPIvSPI_SAO_White) and may warrant its own entry.
 last_modified_date: '2026-09-07'
+model:
+  file: assets/models/dc27/spivspi-blackhat-spy-sao.glb
+  method: kicad
+  source_file: hardware/SPIvSPI_SAO_Black/SPIvSPI_SAO_Black.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 197204
 ---
 
 SPIvSPI is a two-badge Shitty Add-On project built for DEF CON 27 (2019), pairing a "blackhat spy" and a "whitehat spy" design based on the classic Spy vs. Spy cartoon characters. This entry covers the blackhat variant. The project was started as a pencil sketch in mid-June 2019 and the finished design files were pushed to GitHub by mid-August 2019, a roughly six-week turnaround the makers called out on their own project page.

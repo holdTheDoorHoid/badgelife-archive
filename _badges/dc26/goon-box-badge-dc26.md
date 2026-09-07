@@ -98,6 +98,12 @@ research:
   notes: 'Fact-check pass (2026-09-07) corrected the prior pass: the @GoonBoxBadge X account is NOT gone - it is live and was read directly. The maker''s own Kickstarter campaign page and mkfactor.com blog were also found and read, confirming the MK Factor / Michael & Katie Whiteley connection that the prior pass had flagged as unconfirmed (matching the maker naming already used on dc32-cassandra-sao). The "TV-B-Gone" function and the community-sheet note behind it were removed: the maker''s own description is an IR-triggered sonic-screwdriver/Goon-Box pair with LED effects and an IR remote-control-tester side effect, not a TV-B-Gone circuit, and the two web.archive.org tweets cited for that claim could not be re-verified this pass because web.archive.org was unreachable from every tool available in this session (WebFetch refused the domain; direct curl got connection-refused; the browser tool''s navigation was denied). Price, quantity produced, chip/MCU, LEDs, display, and photos of the
     badge itself remain unconfirmed/empty - the Kickstarter page''s own gallery has photos but none were saved as entry images in this pass (out of scope for a fact-check-only pass). No images are present in this entry, so there was nothing to check there.'
 last_modified_date: '2026-09-07'
+model:
+  file: assets/models/dc26/goon-box-badge-dc26.glb
+  method: kicad
+  source_file: GoonBoxBadge/KiCad Files/GoonBoxPin/GoonBox.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 29120
 ---
 
 The Goon Box Badge was an independent (non-official) badge made for DEF CON 26 in 2018 by Michael Whiteley (@compukidmike) and Katie Whiteley (@ktjgeekmom), a husband-and-wife team who make projects under the name MK Factor. It was funded through a Kickstarter campaign (April-May 2018) that raised $9,217 from 237 backers against a $1,000 goal, with badges priced at $25 on Kickstarter and a target of $20 in person at DEF CON.

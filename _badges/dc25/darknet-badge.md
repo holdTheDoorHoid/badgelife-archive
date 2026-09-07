@@ -17,9 +17,17 @@ makers:
 summary: A round, rotary-phone-styled kit badge for the DarkNet contest at DEF CON 25, used to pair with other badges over radio and step through in-person "quest" challenges.
 functions: Pairs with other Darknet badges over a 915MHz radio link and IR, runs a menu system (address book, "DCDN" net messages, radio info, keyboard test, quest dialing, gateway) on its color LCD; the ten numbered pads are capacitive-touch buttons used like a phone dial/keypad for the contest's challenges.
 look:
-  colors: [red, gold]
+  colors:
+  - red
+  - gold
   shape: circle
-  themes: [retro computer, puzzle, ctf, security, radio, wearable]
+  themes:
+  - retro computer
+  - puzzle
+  - ctf
+  - security
+  - radio
+  - wearable
 tech:
   mcu: STM32F302 (ARM Cortex-M4)
   leds:
@@ -27,8 +35,11 @@ tech:
     type: discrete
     note: One 5mm Vishay IR LED plus ten SMD OSRAM yellow LEDs that backlight the copper number/letter cutouts on the dial pads.
   display: color LCD (SPI, 8-pin header)
-  connectivity: [ir, sub-ghz]
-  inputs: [touch]
+  connectivity:
+  - ir
+  - sub-ghz
+  inputs:
+  - touch
   power: LiPo battery via JST connector, power switch
   battery: LiPo 2000mAh (PKCELL LP803960), JST connector
   sao_version: none
@@ -38,7 +49,9 @@ get_one:
   quantity: ''
   availability: sold_out
   availability_note: Checked 2026-09-07; sold at DEF CON 25 (2017), no longer offered.
-  distribution: [purchase, contest]
+  distribution:
+  - purchase
+  - contest
   where: Sold at DEF CON 25 as a kit; those who solved a pre-con online "casefile" challenge could buy in 2 hours early, ahead of general conference sale. Reported to have sold out within hours.
 make_your_own:
   open_source: partial
@@ -65,13 +78,13 @@ links:
   kind: article
 images:
 - file: assets/images/badges/dc25/darknet-badge/f8ac050769.jpg
-  source: "https://krux.org/darknet/2017/index.html"
-  credit: "Krux"
-  caption: "Assembled DEF CON 25 Darknet badge, rotary-phone layout, showing the LCD main menu"
+  source: https://krux.org/darknet/2017/index.html
+  credit: Krux
+  caption: Assembled DEF CON 25 Darknet badge, rotary-phone layout, showing the LCD main menu
 - file: assets/images/badges/dc25/darknet-badge/25421896d2.jpg
-  source: "https://krux.org/darknet/2017/index.html"
-  credit: "Krux"
-  caption: "Unassembled DEF CON 25 Darknet badge kit: PCB, LiPo battery, LCD, radio module, IR LED, hardware"
+  source: https://krux.org/darknet/2017/index.html
+  credit: Krux
+  caption: 'Unassembled DEF CON 25 Darknet badge kit: PCB, LiPo battery, LCD, radio module, IR LED, hardware'
 contact: {}
 notes:
 - Spotted by a research agent while working on a neighbouring entry (run 3).
@@ -84,7 +97,7 @@ sources:
   note: 'Found by the archive''s discovery sweep (angle: research-run3-spotted); event read as ''dc25''.'
 - kind: url
   url: https://github.com/thedarknet/defcon25-badge
-  title: "thedarknet/defcon25-badge: Badge Related items for defcon 25"
+  title: 'thedarknet/defcon25-badge: Badge Related items for defcon 25'
   accessed: '2026-09-07'
   note: Confirmed STM32 MCU family, MIT license, hardware+firmware repo, dev tooling (GNU ARM Eclipse, OpenOCD).
 - kind: url
@@ -103,6 +116,12 @@ research:
   last_checked: '2026-09-07'
   notes: Firmware credited to Cmdc0de per Hackaday/search coverage but not independently confirmed on a maker page in this pass. Exact unit price and quantity made were not found in any source checked; secondhand listings (Worthpoint) exist but were not used as they carry no verifiable maker-sourced facts and one could not be fetched (403). Badge is part of the recurring DarkNet/DCDN series (see later years dc26 "DC26 Darknet Industries Badge", dc30-dc34 entries already in the archive) — series name not set here since sources for this specific year did not use one consistently.
 last_modified_date: '2026-09-07'
+model:
+  file: assets/models/dc25/darknet-badge.glb
+  method: kicad
+  source_file: dc25-darknet-dialer-eaglev8.2.brd
+  generated: '2026-09-07'
+  bytes: 281072
 ---
 
 The DEF CON 25 Darknet badge was the kit-built centerpiece of DarkNet, DEF CON's long-running "Daemon"/"Freedom"-inspired contest, where players ("agents") pair badges over radio and infrared, build address books, and work through quests and ciphers to earn reputation. Designed by Krux with firmware by Cmdc0de, the board is laid out as a red rotary phone: the ten dial positions are capacitive-touch pads with cutouts in the copper that let back-mounted LEDs shine the numbers and letters through, and a small color LCD in the center runs the badge's menu system (address book, net messages, radio info, quest dialing, and more), driven by an STM32F302 ARM Cortex-M4 microcontroller.

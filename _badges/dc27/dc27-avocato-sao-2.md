@@ -89,6 +89,15 @@ research:
   last_checked: '2026-09-07'
   notes: Core facts (maker, chip, LED count, button/blink-mode behavior, board size/color) confirmed on the maker's own PCBWay project page and cross-checked against the GitHub repo. Could not find price, quantity made, or a storefront listing anywhere, so get_one fields are left empty/unknown. No SAO header pin-count was stated explicitly; sao_version is inferred from context (2019-era SAOs of this complexity typically use the 6-pin v1.69bis/v2 header) and should be treated as a light inference, not confirmed. The GitHub repo itself does not state a license; CC BY-SA comes only from the PCBWay page text.
 last_modified_date: '2026-09-07'
+model:
+  file: assets/models/dc27/dc27-avocato-sao-2.glb
+  method: gerber
+  source_file: .
+  generated: '2026-09-07'
+  bytes: 160024
+  size_mm:
+  - 75.0
+  - 74.0
 ---
 
 The DEFCON 27 Avocato Shitty Add-On is a fan-made SAO shaped like Avocato, the alien bounty hunter from the animated series Final Space. Designer Jeremy Ward, based in the UK, describes it as his first attempt at a more complex SAO: an ATTiny48 drives 24 LEDs across the board, with a single button cycling through five blink/animation modes, including a "spinning eye" effect for Avocato's eyes. The board is a 75 x 74 mm two-layer FR-4 PCB with blue solder mask, white silkscreen, and OSP surface finish, built to the standard SAO header so it plugs into a compatible host badge.
