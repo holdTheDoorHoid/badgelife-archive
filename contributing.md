@@ -44,6 +44,10 @@ Every field is optional. Leave a field empty rather than guessing; the site hide
 | `sources` | Where the information came from: `kind: sheet` with `event` and `row`, or `kind: url` with `url`, `title`, `accessed`. |
 | `research` | `status` (`stub`, `researched`, `verified`), `confidence`, `last_checked`, `notes`. |
 
+**`model`** (generated, do not hand-edit): `file` (the `.glb` under `assets/models/`), `method` (`kicad` or `gerber`),
+`source_file`, `generated`, `bytes`, `size_mm`. Produced by `scripts/fetch_hardware.py` followed by
+`scripts/build_models.py`; delete the block and the file to remove a model.
+
 ## Adding a new entry
 
 Copy an existing entry file in the same event folder, rename it to a short slug, and fill in what you know. The file name becomes the page address. Then run, from the repository root:

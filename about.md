@@ -47,6 +47,22 @@ If you made something shown here and want a photo, a contact detail or an entire
 
 Maker contact details (email, Discord, social handles) appear only when the maker themselves published them on the public community badge sheet for that year.
 
+## 3D models
+
+Where a maker has published their design files, the archive builds an interactive 3D model of the board and shows it on
+the entry page (drag to rotate, scroll to zoom, download the `.glb`). Two methods are used:
+
+- **KiCad boards** are exported with KiCad's own 3D exporter, so the board shape, copper, soldermask, silkscreen and any
+  parts that have a 3D footprint model appear as designed. Parts without a model show only their pads. Files are
+  Draco-compressed, so a badge is usually a few hundred kilobytes.
+- **Gerber-only designs** (fabrication files, or Eagle and other formats we cannot open) are rendered top and bottom from
+  the Gerbers and wrapped onto a 1.6 mm board of the correct outline, holes included. Components are not modelled.
+
+Models are derived works of the makers' published files and are offered under the same terms as those files. They are
+generated automatically, so a model can be wrong where the published files were a draft or a different revision than
+what shipped; the entry names the exact source file. If you made a badge and would rather not have a model shown, open an
+issue or email and it will be removed, as with photos.
+
 ## License
 
 The site's code and layout inherit the MIT license of the badge.life repository. The catalogue text is contributed under the same terms. Photos, logos and design files remain the property of their makers and are reproduced here for identification and preservation; the individual entry credits the source.
