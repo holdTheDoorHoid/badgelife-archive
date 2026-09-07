@@ -10,6 +10,7 @@ event: dc32
 year: 2024
 makers:
 - name: CoD_Segfault
+  url: https://github.com/CoD-Segfault
 summary: ''
 functions: ''
 look:
@@ -35,21 +36,70 @@ make_your_own:
   hardware_url: null
   firmware_url: null
   eda_tool: null
-links: []
+links:
+- kind: repo
+  label: GitHub (CoD-Segfault)
+  url: https://github.com/CoD-Segfault
+- kind: social
+  label: X / Twitter (@CoD_Segfault)
+  url: https://twitter.com/CoD_Segfault
+- kind: social
+  label: Bluesky (@se.gfau.lt)
+  url: https://bsky.app/profile/se.gfau.lt
 images: []
 contact: {}
 notes: []
-status: listed_no_details
+status: unknown
 sources:
 - kind: sheet
   event: dc32
   row: 38
   updated: ''
+- kind: url
+  url: https://github.com/CoD-Segfault
+  title: CoD-Segfault (GitHub profile)
+  accessed: '2026-09-06'
+  note: Identified the maker's real GitHub identity, bio ("hardware hacker"), pinned repos, and social links (X, Bluesky, Ko-fi). No DEF CON 32 (2024) badge/SAO repo appears among their public repositories.
+- kind: url
+  url: https://github.com/CoD-Segfault/DefCon27badge
+  title: DefCon27badge (CoD-Segfault)
+  accessed: '2026-09-06'
+  note: Confirms the maker attends DEF CON and documents hardware there, but this repo is a firmware dump/hacking writeup of the *official* DC27 badge, not something they made or sold.
+- kind: url
+  url: https://github.com/CoD-Segfault/DefCon29Badge
+  title: DefCon29Badge (CoD-Segfault)
+  accessed: '2026-09-06'
+  note: Same pattern as the DC27 repo -- an SWD firmware dump/debug writeup of the official DC29 badge (SAMD21), not a maker project.
+- kind: url
+  url: https://github.com/CoD-Segfault/mini_wardriver_rev2
+  title: mini_wardriver_rev2 (CoD-Segfault)
+  accessed: '2026-09-06'
+  note: 'Repo created March 2024 (before DC32 in August 2024), described only as "KiCad files for the mini wardriver rev2" -- the repository itself is empty, so hardware details, price, and any DC32 connection could not be confirmed.'
 research:
-  status: stub
+  status: researched
   confidence: low
   last_checked: '2026-09-06'
-  notes: Imported from the community badge sheet; not yet researched.
+  notes: >-
+    The community sheet only lists the maker's handle for DEF CON 32 with no
+    further detail, and no source found ties a specific badge/SAO to that year.
+    Identified the real person behind the handle: a Chicagoland-area hardware
+    hacker (GitHub: CoD-Segfault, X/Bluesky: CoD_Segfault / se.gfau.lt) whose
+    public work is mostly wardriving hardware (wardriver_rev3, mini_wardriver_rev2)
+    and WiFi/BLE security tools, plus writeups of hacking the official DEF CON 27
+    and 29 badges. Their "mini_wardriver_rev2" KiCad repo was created in March
+    2024, months before DC32, making it a plausible candidate for what they
+    brought, but the repo is empty and no source confirms it was sold, given
+    away, or shown at DC32 specifically. Their later, better-documented projects
+    (WiFi Shuriken, USB Army Knife) postdate DC32 and are not it. Left status as
+    unknown per the research guide's rule for listed-with-no-details entries
+    where the specific item can't be confirmed. A companion stub,
+    dc31-i-have-no-idea (same maker, DEF CON 31), is also unresearched but out
+    of scope for this task.
 last_modified_date: '2026-09-06'
 ---
 
+The community badge sheet for DEF CON 32 lists only the maker's handle, CoD_Segfault, with no description of what they brought that year. Research turned up the person behind the handle -- a Chicago-area hardware hacker active on GitHub, X, and Bluesky whose public projects center on WiFi/Bluetooth wardriving hardware (the wardriver_rev3 and mini_wardriver_rev2 boards) and security tooling, alongside writeups of dumping firmware from the official DEF CON 27 and 29 badges.
+
+None of the available sources connect a specific badge or SAO to DEF CON 32 (August 2024) by name. The closest candidate is "mini_wardriver_rev2," a KiCad-files repository the maker created in March 2024, but the repository is empty and nothing confirms it was actually distributed at DC32. Their more prominent later projects, such as WiFi Shuriken and the USB Army Knife, were created well after DC32 and are not it.
+
+This entry is left as an unresearched maker listing: the identity is now known, but what they specifically brought to DEF CON 32 is not confirmed by any source found.

@@ -46,10 +46,21 @@ sources:
   row: 71
   updated: ''
 research:
-  status: stub
+  status: researched
   confidence: low
-  last_checked: '2026-09-06'
-  notes: Imported from the community badge sheet; not yet researched.
-last_modified_date: '2026-09-06'
+  last_checked: '2026-09-07'
+  notes: >-
+    Only source is the community badge sheet row (maker "Rex", no links
+    provided). Web search found no maker page, Hackaday.io project, GitHub
+    repo, storefront, or press coverage under the name "CannaBadge" or
+    matching the leaf-shaped description; "Rex" is too generic a name to
+    narrow further without a linked profile. Could not confirm chip, LEDs,
+    price, quantity, or images. Left tech/look/get_one fields empty rather
+    than guess.
+last_modified_date: '2026-09-07'
 ---
+
+CannaBadge is a DEF CON 32 (2024) badge by a maker known as Rex, shaped like a large cannabis leaf. Per the maker's own description on the community badge sheet, it lights up when the wearer "takes a toke," combining a novelty smoking-adjacent gimmick with an LED badge worn at the con.
+
+Beyond the sheet listing, no further information could be located: no maker page, Hackaday.io project, GitHub repository, storefront listing, or press coverage turned up under this title or maker name. The specific microcontroller, LED type and count, price, and quantity made remain unconfirmed.
 
