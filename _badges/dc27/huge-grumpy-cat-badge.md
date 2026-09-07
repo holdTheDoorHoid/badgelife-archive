@@ -34,7 +34,7 @@ get_one:
   availability: unknown
   distribution:
   - swap
-  where: 'Not sold; Scotty Allen made a small number and traded/gave them away at DEF CON 27, including one traded with hexum064 (designer of the "bigfuckingbadge")'
+  where: Not sold; Scotty Allen made a small number and traded/gave them away at DEF CON 27, including one traded with hexum064 (designer of the "bigfuckingbadge")
 make_your_own:
   open_source: null
   hardware_url: null
@@ -44,6 +44,7 @@ links:
 - label: www.youtube.com/strangeparts
   url: https://www.youtube.com/strangeparts
   kind: video
+  archived: https://web.archive.org/web/20260602104115/https://www.youtube.com/strangeparts
 - label: 'Strange Parts on X: "This was his badge from last defcon"'
   url: https://x.com/strangepartscom/status/1424193877431382019
   kind: social
@@ -53,6 +54,7 @@ links:
 - label: 'Hackaday: NFC Business Cards To FPGA Cubes, Skull Badges To Bandoliers...'
   url: https://hackaday.com/2019/08/17/nfc-business-cards-to-fpga-cubes-skull-badges-to-bandoliers-heres-the-hardware-from-breakfast-at-def-con/
   kind: article
+  archived: https://web.archive.org/web/20260614134224/https://hackaday.com/2019/08/17/nfc-business-cards-to-fpga-cubes-skull-badges-to-bandoliers-heres-the-hardware-from-breakfast-at-def-con/
 images: []
 contact: {}
 notes:
@@ -65,11 +67,13 @@ sources:
   title: Huge Grumpy Cat Badge
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: dc26-dc27-sao-wave); event read as ''DEF CON 27''.'
+  archived: https://web.archive.org/web/20260602104115/https://www.youtube.com/strangeparts
 - kind: url
   url: https://hackaday.com/2019/08/17/nfc-business-cards-to-fpga-cubes-skull-badges-to-bandoliers-heres-the-hardware-from-breakfast-at-def-con/
   title: NFC Business Cards To FPGA Cubes, Skull Badges To Bandoliers, Here's The Hardware From Breakfast At DEF CON
   accessed: '2026-09-07'
   note: Confirms Scotty Allen wore a "huge grumpy cat" PCB around his neck at Breakfast at DEF CON 27, August 2019.
+  archived: https://web.archive.org/web/20260614134224/https://hackaday.com/2019/08/17/nfc-business-cards-to-fpga-cubes-skull-badges-to-bandoliers-heres-the-hardware-from-breakfast-at-def-con/
 - kind: url
   url: https://x.com/strangepartscom/status/1424193877431382019
   title: 'Strange Parts on X: "This was his badge from last defcon"'

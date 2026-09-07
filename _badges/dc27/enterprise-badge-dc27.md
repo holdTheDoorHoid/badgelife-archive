@@ -12,7 +12,7 @@ makers:
 - name: Enterprise Badge team
   url: https://twitter.com/enterprisebadge
 summary: An unofficial DEF CON 27 badge shaped like a Star Trek starship, using exposed FR4 as a light diffuser at the edges of its warp nacelles for reverse-mount LEDs.
-functions: 'Lights up via reverse-mount LEDs, with the bare FR4 at the leading edge of the warp nacelles acting as a diffuser for a glowing effect.'
+functions: Lights up via reverse-mount LEDs, with the bare FR4 at the leading edge of the warp nacelles acting as a diffuser for a glowing effect.
 look:
   colors: []
   shape: spaceship
@@ -45,15 +45,18 @@ links:
 - label: 'Hackaday: Pictorial Guide To The Unofficial Electronic Badges Of DEF CON 27'
   url: https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/
   kind: article
+  archived: https://web.archive.org/web/20260513003300/https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/
 images:
-  - file: assets/images/badges/dc27/enterprise-badge-dc27/280d61384a.jpg
-    source: "https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/"
-    credit: "Hackaday / Enterprise Badge team"
-    caption: "Enterprise Badge, front"
-  - file: assets/images/badges/dc27/enterprise-badge-dc27/d457854cee.jpg
-    source: "https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/"
-    credit: "Hackaday / Enterprise Badge team"
-    caption: "FR4 diffuser detail on the edge of the warp drive nacelle"
+- file: assets/images/badges/dc27/enterprise-badge-dc27/280d61384a.jpg
+  source: https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/
+  credit: Hackaday / Enterprise Badge team
+  caption: Enterprise Badge, front
+  archived: https://web.archive.org/web/20260513003300/https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/
+- file: assets/images/badges/dc27/enterprise-badge-dc27/d457854cee.jpg
+  source: https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/
+  credit: Hackaday / Enterprise Badge team
+  caption: FR4 diffuser detail on the edge of the warp drive nacelle
+  archived: https://web.archive.org/web/20260513003300/https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/
 contact: {}
 notes: []
 status: released
@@ -67,7 +70,8 @@ sources:
   url: https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/
   title: Pictorial Guide To The Unofficial Electronic Badges Of DEF CON 27
   accessed: '2026-09-07'
-  note: 'Primary source for description, construction details, quantity made (150), and photos; links the badge to @enterprisebadge on Twitter/X.'
+  note: Primary source for description, construction details, quantity made (150), and photos; links the badge to @enterprisebadge on Twitter/X.
+  archived: https://web.archive.org/web/20260513003300/https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/
 research:
   status: researched
   confidence: medium

@@ -11,8 +11,8 @@ year: 2019
 makers:
 - name: Aask42 / Whiskey Pirate Crew
   url: https://github.com/Aask42
-summary: 'A battery-badge/SAO hybrid ("DEF CELL") that back- or forward-powers other badges and add-ons over the SAO VCC pins while tracking power draw, built for DEF CON 27.'
-functions: 'Supplies 500mA @ 3.3V to power other badges/SAOs through the SAO header; monitors current with an INA219 shunt IC and can auto-disable backpower if current reverses. Hosts a "Captive Arcade" WiFi web UI for viewing battery/capacity stats. Runs an ESP32 WiFi mesh network ("Itero") for broadcast group chat and private messages to up to 25 nearby nodes. Five buttons cycle display modes, toggle backpower, trigger a light show via a capacitive touch strip, and a "safe mode" auto-engages on low battery.'
+summary: A battery-badge/SAO hybrid ("DEF CELL") that back- or forward-powers other badges and add-ons over the SAO VCC pins while tracking power draw, built for DEF CON 27.
+functions: Supplies 500mA @ 3.3V to power other badges/SAOs through the SAO header; monitors current with an INA219 shunt IC and can auto-disable backpower if current reverses. Hosts a "Captive Arcade" WiFi web UI for viewing battery/capacity stats. Runs an ESP32 WiFi mesh network ("Itero") for broadcast group chat and private messages to up to 25 nearby nodes. Five buttons cycle display modes, toggle backpower, trigger a light show via a capacitive touch strip, and a "safe mode" auto-engages on low battery.
 look:
   colors:
   - green
@@ -50,18 +50,19 @@ links:
 - label: github.com/Aask42/InternetOfBatteries_DC27
   url: https://github.com/Aask42/InternetOfBatteries_DC27
   kind: repo
-- label: 'Internet of Batteries (IoB-DC27) — Hackaday.io'
+  archived: https://web.archive.org/web/20260115130833/https://github.com/Aask42/InternetOfBatteries_DC27
+- label: Internet of Batteries (IoB-DC27) — Hackaday.io
   url: https://hackaday.io/project/172051-internet-of-batteries-iob-dc27
   kind: hackaday
 images:
-  - file: assets/images/badges/dc27/internet-of-batteries-dc27/8046c96501.jpg
-    source: "https://hackaday.io/project/172051-internet-of-batteries-iob-dc27"
-    credit: "Aask42 / Internet of Batteries"
-    caption: "The Internet of Batteries DC27 SAO/badge (\"DEF CELL\"), pictured still sealed in its retail bag"
+- file: assets/images/badges/dc27/internet-of-batteries-dc27/8046c96501.jpg
+  source: https://hackaday.io/project/172051-internet-of-batteries-iob-dc27
+  credit: Aask42 / Internet of Batteries
+  caption: The Internet of Batteries DC27 SAO/badge ("DEF CELL"), pictured still sealed in its retail bag
 contact: {}
 notes:
 - battery-source add-on for other badges/SAOs; GitHub repo, no hackaday.io page found
-- 'A sequel, IoB-DC28, was made for DEF CON 28 with a Cypress PSOC5, RGB LEDs, and more capacity; that is a separate item.'
+- A sequel, IoB-DC28, was made for DEF CON 28 with a Cypress PSOC5, RGB LEDs, and more capacity; that is a separate item.
 status: released
 sources:
 - kind: url
@@ -69,21 +70,23 @@ sources:
   title: Internet of Batteries (DC27)
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: dc26-dc27-sao-wave); event read as ''DEF CON 27''.'
+  archived: https://web.archive.org/web/20260115130833/https://github.com/Aask42/InternetOfBatteries_DC27
 - kind: url
   url: https://github.com/Aask42/InternetOfBatteries_DC27
-  title: 'Aask42/InternetOfBatteries_DC27 README'
+  title: Aask42/InternetOfBatteries_DC27 README
   accessed: '2026-09-07'
   note: 'Maker''s own README: full feature list, button layout, boot behavior, board dimensions (~6.5cm x 3.5cm).'
+  archived: https://web.archive.org/web/20260115130833/https://github.com/Aask42/InternetOfBatteries_DC27
 - kind: url
   url: https://hackaday.io/project/172051-internet-of-batteries-iob-dc27
-  title: 'Internet of Batteries (IoB-DC27) | Hackaday.io'
+  title: Internet of Batteries (IoB-DC27) | Hackaday.io
   accessed: '2026-09-07'
-  note: 'Hackaday.io project page; confirmed ESP32/INA219/SAO 1.69bis details and provided project photo.'
+  note: Hackaday.io project page; confirmed ESP32/INA219/SAO 1.69bis details and provided project photo.
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'Maker''s own GitHub README and Hackaday.io project page agree on all core facts. Price, quantity made, and distribution method were not stated on either page. No separate storefront or fabrication-share link found. A DC28 sequel (IoB-DC28) exists as a distinct project and should get its own entry if not already archived.'
+  notes: Maker's own GitHub README and Hackaday.io project page agree on all core facts. Price, quantity made, and distribution method were not stated on either page. No separate storefront or fabrication-share link found. A DC28 sequel (IoB-DC28) exists as a distinct project and should get its own entry if not already archived.
 last_modified_date: '2026-09-07'
 ---
 

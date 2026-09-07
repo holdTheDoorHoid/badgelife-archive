@@ -56,15 +56,18 @@ links:
 - label: 'Hackaday: Pictorial Guide To The Unofficial Electronic Badges Of DEF CON 27'
   url: https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/
   kind: article
+  archived: https://web.archive.org/web/20260513003300/https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/
 images:
-  - file: assets/images/badges/dc27/deadpool-mini-badge-sao/1acb925732.jpg
-    source: "https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/"
-    credit: "Hackaday"
-    caption: "DEADPOOL mini badge SAO, front, lit blue"
-  - file: assets/images/badges/dc27/deadpool-mini-badge-sao/a24b26d075.jpg
-    source: "https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/"
-    credit: "Hackaday"
-    caption: "DEADPOOL mini badge SAO, rear showing ATtiny85 and MCP23017"
+- file: assets/images/badges/dc27/deadpool-mini-badge-sao/1acb925732.jpg
+  source: https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/
+  credit: Hackaday
+  caption: DEADPOOL mini badge SAO, front, lit blue
+  archived: https://web.archive.org/web/20260513003300/https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/
+- file: assets/images/badges/dc27/deadpool-mini-badge-sao/a24b26d075.jpg
+  source: https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/
+  credit: Hackaday
+  caption: DEADPOOL mini badge SAO, rear showing ATtiny85 and MCP23017
+  archived: https://web.archive.org/web/20260513003300/https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/
 contact: {}
 notes: []
 status: released
@@ -78,12 +81,13 @@ sources:
   url: https://www.tindie.com/products/s3gfault/team-id64f-deadpool-badge-sao/
   title: DeadPool Badge SAO from TeamID64F on Tindie
   accessed: '2026-09-07'
-  note: 'Second Tindie listing for the same item (found via web search); confirmed maker (TeamID64F/s3gfault, Los Angeles), ATtiny85 + MCP23017, 16 blue 1206 LEDs, SAO v1.69bis, coin cell (CR2032 per this listing), 2019, retired/no longer sold.'
+  note: Second Tindie listing for the same item (found via web search); confirmed maker (TeamID64F/s3gfault, Los Angeles), ATtiny85 + MCP23017, 16 blue 1206 LEDs, SAO v1.69bis, coin cell (CR2032 per this listing), 2019, retired/no longer sold.
 - kind: url
   url: https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/
   title: Pictorial Guide To The Unofficial Electronic Badges Of DEF CON 27
   accessed: '2026-09-07'
-  note: 'Confirms DEF CON 27, describes it as a "mini badge" with CR2450 coin cell, MCP23017 driver over I2C commanded by ATtiny85, and states 200 were produced. Source of the two saved photos (front and rear).'
+  note: Confirms DEF CON 27, describes it as a "mini badge" with CR2450 coin cell, MCP23017 driver over I2C commanded by ATtiny85, and states 200 were produced. Source of the two saved photos (front and rear).
+  archived: https://web.archive.org/web/20260513003300/https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/
 research:
   status: researched
   confidence: medium

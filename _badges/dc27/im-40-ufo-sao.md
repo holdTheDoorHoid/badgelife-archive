@@ -12,11 +12,17 @@ makers:
 - name: TwinkleTwinkie
   url: https://hackaday.io/hacker/308303-twinkletwinkie
 summary: A DEF CON 27 Shitty Add-On shaped like the UFO version of Bender from Futurama, with two backlit LEDs each behind the eyes and mouth (mostly white, a few yellow), a double matte coat over the HASL finish, and Alienese Bender quotes on the back.
-functions: 'Passive light-up SAO; eyes and mouth backlit white (a limited run used yellow LEDs instead).'
+functions: Passive light-up SAO; eyes and mouth backlit white (a limited run used yellow LEDs instead).
 look:
-  colors: [silver, white]
+  colors:
+  - silver
+  - white
   shape: spaceship
-  themes: [sci-fi, space, tv, pop culture]
+  themes:
+  - sci-fi
+  - space
+  - tv
+  - pop culture
 tech:
   mcu: none
   leds:
@@ -37,15 +43,16 @@ links:
 - label: Tindie - TwinkleTwinkie's "I'm 40% UFO!" Badge SAO
   url: https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-im-40-ufo-badge-sao/
   kind: store
+  archived: https://web.archive.org/web/20260506214134/https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-im-40-ufo-badge-sao/
 images:
 - file: assets/images/badges/dc27/im-40-ufo-sao/b73997f7da.jpg
-  source: "https://hackaday.io/project/165318/gallery"
-  credit: "TwinkleTwinkie"
-  caption: "The DC27 SAO shaped like Bender's UFO form, eyes and mouth lit white"
+  source: https://hackaday.io/project/165318/gallery
+  credit: TwinkleTwinkie
+  caption: The DC27 SAO shaped like Bender's UFO form, eyes and mouth lit white
 - file: assets/images/badges/dc27/im-40-ufo-sao/0b60211fb6.jpg
-  source: "https://hackaday.io/project/165318/gallery"
-  credit: "TwinkleTwinkie"
-  caption: "Back of the SAO showing Alienese Bender quotes"
+  source: https://hackaday.io/project/165318/gallery
+  credit: TwinkleTwinkie
+  caption: Back of the SAO showing Alienese Bender quotes
 contact: {}
 notes: []
 status: released
@@ -65,6 +72,7 @@ sources:
   title: TwinkleTwinkie's "I'm 40% UFO!" Badge SAO
   accessed: '2026-09-07'
   note: Confirms SAO v1.69bis at 3.3v, matte silver coating with white-glowing eyes/mouth, and that the listing is now sold out / retired.
+  archived: https://web.archive.org/web/20260506214134/https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-im-40-ufo-badge-sao/
 research:
   status: researched
   confidence: medium

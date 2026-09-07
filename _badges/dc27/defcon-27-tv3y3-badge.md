@@ -12,11 +12,16 @@ makers:
 - name: awkward intelligence
   url: https://hackaday.io/hacker/332977-awkward-intelligence
 summary: 'An indie DEF CON 27 badge built as an augmented-reality image target: the front is all artwork meant to be recognized by a phone camera (Vuforia-based AR app, no facial recognition), while the back carries an ATtiny85 in an 8-pin socket driving a Charlieplexed LED matrix, SAO ports, and bare-copper artwork that exposes hack points; the maker funded production by selling their own SAOs on Tindie.'
-functions: 'Recognized as an AR image target by a companion phone app (iOS/Android) for AR content; drives a 12-LED charlieplexed matrix with multiple animations; exposed copper pads and an 8-pin ATtiny85 socket invite hardware hacking.'
+functions: Recognized as an AR image target by a companion phone app (iOS/Android) for AR content; drives a 12-LED charlieplexed matrix with multiple animations; exposed copper pads and an 8-pin ATtiny85 socket invite hardware hacking.
 look:
-  colors: [black, gold]
+  colors:
+  - black
+  - gold
   shape: null
-  themes: [sci-fi, robot, security]
+  themes:
+  - sci-fi
+  - robot
+  - security
 tech:
   mcu: ATtiny85
   leds:
@@ -25,16 +30,17 @@ tech:
     note: Twelve LEDs driven in a charlieplexed matrix by the ATtiny85.
   display: none
   connectivity: []
-  battery: '2x coin/AAA cell (unspecified), rated over a week of runtime'
+  battery: 2x coin/AAA cell (unspecified), rated over a week of runtime
   sao_version: v1
   sao_ports: 2
 get_one:
-  price: '$50'
+  price: $50
   price_usd: 50
   quantity: '118'
   availability: sold_out
   availability_note: 'Tindie listing checked 2026-09-07: seller page shows "This seller is taking a break," no stock offered.'
-  distribution: [purchase]
+  distribution:
+  - purchase
   where: Sold by the maker (Harbinger LTD / awkwardai) on Tindie around DEF CON 27 (2019).
 make_your_own:
   open_source: partial
@@ -42,11 +48,12 @@ make_your_own:
   firmware_url: null
   gerbers_url: https://hackaday.io/project/164210/files
   eda_tool: null
-  notes: 'Final Gerbers ("Finaltv3y3") posted as a project file on Hackaday.io; no BOM, schematic, or firmware source found published.'
+  notes: Final Gerbers ("Finaltv3y3") posted as a project file on Hackaday.io; no BOM, schematic, or firmware source found published.
 links:
 - label: hackaday.io/project/164210-defcon-27-tv3y3-badge
   url: https://hackaday.io/project/164210-defcon-27-tv3y3-badge
   kind: hackaday
+  archived: https://web.archive.org/web/20260508164750/https://hackaday.io/project/164210-defcon-27-tv3y3-badge
 - label: hackaday.io/project/164210/files
   url: https://hackaday.io/project/164210/files
   kind: hackaday
@@ -56,18 +63,22 @@ links:
 - label: TV3Y3 Indie Badge for DEF CON 27 (Tindie)
   url: https://www.tindie.com/products/awkwardai/tv3y3-indie-badge-for-def-con-27/
   kind: store
+  archived: https://web.archive.org/web/20260503123834/https://www.tindie.com/products/awkwardai/tv3y3-indie-badge-for-def-con-27/
 - label: 'Hackaday: Pictorial Guide To The Unofficial Electronic Badges Of DEF CON 27'
   url: https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/
   kind: article
+  archived: https://web.archive.org/web/20260513003300/https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/
 images:
-  - file: assets/images/badges/dc27/defcon-27-tv3y3-badge/b6e3d0133b.jpg
-    source: "https://hackaday.io/project/164210-defcon-27-tv3y3-badge"
-    credit: "awkward intelligence"
-    caption: "TV3Y3 badge front, alien eyeball AR image-target artwork"
-  - file: assets/images/badges/dc27/defcon-27-tv3y3-badge/982cb14e59.jpg
-    source: "https://www.tindie.com/products/awkwardai/tv3y3-indie-badge-for-def-con-27/"
-    credit: "awkward intelligence"
-    caption: "TV3Y3 badge product photo from the Tindie listing"
+- file: assets/images/badges/dc27/defcon-27-tv3y3-badge/b6e3d0133b.jpg
+  source: https://hackaday.io/project/164210-defcon-27-tv3y3-badge
+  credit: awkward intelligence
+  caption: TV3Y3 badge front, alien eyeball AR image-target artwork
+  archived: https://web.archive.org/web/20260508164750/https://hackaday.io/project/164210-defcon-27-tv3y3-badge
+- file: assets/images/badges/dc27/defcon-27-tv3y3-badge/982cb14e59.jpg
+  source: https://www.tindie.com/products/awkwardai/tv3y3-indie-badge-for-def-con-27/
+  credit: awkward intelligence
+  caption: TV3Y3 badge product photo from the Tindie listing
+  archived: https://web.archive.org/web/20260503123834/https://www.tindie.com/products/awkwardai/tv3y3-indie-badge-for-def-con-27/
 contact: {}
 notes: []
 status: released
@@ -77,6 +88,7 @@ sources:
   title: Defcon 27 TV3Y3 Badge
   accessed: '2026-09-06'
   note: Found via the project's link list; intake pass identified this item here.
+  archived: https://web.archive.org/web/20260508164750/https://hackaday.io/project/164210-defcon-27-tv3y3-badge
 - kind: url
   url: https://hackaday.io/project/164210/files
   title: Defcon 27 TV3Y3 Badge - Files
@@ -87,16 +99,18 @@ sources:
   title: TV3Y3 Indie Badge for DEF CON 27 (Tindie, Harbinger LTD)
   accessed: '2026-09-07'
   note: Price ($50), two SAO ports, 8-pin chip holder, battery life ("over a week"), and current sold-out/unavailable status.
+  archived: https://web.archive.org/web/20260503123834/https://www.tindie.com/products/awkwardai/tv3y3-indie-badge-for-def-con-27/
 - kind: url
   url: https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/
   title: 'Hackaday: Pictorial Guide To The Unofficial Electronic Badges Of DEF CON 27'
   accessed: '2026-09-07'
   note: Confirmed 118 units made, ATtiny85 driving a 12-LED charlieplexed matrix, and the AR/fiducial purpose.
+  archived: https://web.archive.org/web/20260513003300/https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-07'
-  notes: 'No BOM, schematic, or firmware source was located, so make_your_own.firmware_url stays empty. Battery cell type/count not stated precisely by any source beyond "a single set of batteries" giving over a week of runtime, so tech.battery is left as an approximate description rather than a specific cell spec. look.colors/shape are inferred loosely from photos (dark PCB with gold/copper exposed artwork, eyeball-shaped graphic) and may be worth a closer look if higher-res images turn up.'
+  notes: No BOM, schematic, or firmware source was located, so make_your_own.firmware_url stays empty. Battery cell type/count not stated precisely by any source beyond "a single set of batteries" giving over a week of runtime, so tech.battery is left as an approximate description rather than a specific cell spec. look.colors/shape are inferred loosely from photos (dark PCB with gold/copper exposed artwork, eyeball-shaped graphic) and may be worth a closer look if higher-res images turn up.
 last_modified_date: '2026-09-07'
 ---
 

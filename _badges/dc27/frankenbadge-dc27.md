@@ -37,16 +37,17 @@ get_one:
   - kit
   where: Distributed as a DIY kit at DEF CON 27; assembly (including hand-soldering 0402 parts) left to the builder, hot-air rework/reflow recommended.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/DrN0psl3d/Frankenbadge
   firmware_url: https://github.com/DrN0psl3d/Frankenbadge
   eda_tool: EAGLE
   license: MIT
 images:
 - file: assets/images/badges/dc27/frankenbadge-dc27/d78620280c.jpg
-  source: "https://hackaday.com/2019/08/21/the-badgies-clever-crazy-and-creative-ideas-in-electronic-design/"
-  credit: "Dr.n0psl3d"
-  caption: "Frankenbadge with four IN-12B Nixie tubes and Frankenstein-themed silkscreen"
+  source: https://hackaday.com/2019/08/21/the-badgies-clever-crazy-and-creative-ideas-in-electronic-design/
+  credit: Dr.n0psl3d
+  caption: Frankenbadge with four IN-12B Nixie tubes and Frankenstein-themed silkscreen
+  archived: https://web.archive.org/web/20260210064529/https://hackaday.com/2019/08/21/the-badgies-clever-crazy-and-creative-ideas-in-electronic-design/
 contact: {}
 notes:
 - image URL only; Nixie tube (IN-12B) badge, 50 DIY kits
@@ -62,6 +63,7 @@ sources:
   title: 'The Badgies: Clever, Crazy, And Creative Ideas In Electronic Design'
   accessed: '2026-09-07'
   note: Confirms maker, IN-12B tubes, Frankenstein theme, high-voltage components hot-glued/3D-printed-enclosed on the back, 50 kits brought to con, DIY assembly.
+  archived: https://web.archive.org/web/20260210064529/https://hackaday.com/2019/08/21/the-badgies-clever-crazy-and-creative-ideas-in-electronic-design/
 - kind: url
   url: https://www.hackster.io/news/this-fantastic-frankenbadge-features-functional-nixie-tubes-c2f34742133
   title: This Fantastic Frankenbadge Features Functional Nixie Tubes

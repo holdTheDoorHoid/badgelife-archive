@@ -12,7 +12,7 @@ makers:
 - name: GoonBoxBadge team
   url: https://mkfactor.com/
 summary: A base badge with four detachable "element stone" SAOs, inspired by The Fifth Element, that spring open and light up when placed in their correct spots.
-functions: 'Each of the four element stones opens via a spring-loaded mechanism when placed on the base. Correctly placing all four stones in their matching positions lights a center LED for the "5th Element." A blinky mode cycles through all the LEDs. The stones are also standard SAOs and can be plugged into other badges'' SAO headers.'
+functions: Each of the four element stones opens via a spring-loaded mechanism when placed on the base. Correctly placing all four stones in their matching positions lights a center LED for the "5th Element." A blinky mode cycles through all the LEDs. The stones are also standard SAOs and can be plugged into other badges' SAO headers.
 look:
   colors: []
   shape: null
@@ -37,7 +37,7 @@ get_one:
   - kit
   where: Pre-sold directly by MKFactor/GoonBoxBadge ahead of DEF CON 27 (2019), with local pickup at 801 Labs in Salt Lake City; later listed and sold out on Tindie (last stock gone by August 2020).
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/compukidmike/dc27
   firmware_url: https://github.com/compukidmike/dc27
   eda_tool: null
@@ -45,24 +45,29 @@ links:
 - label: www.tindie.com/products/compukidmike/fifth-element-stones-badge-from-defcon-27
   url: https://www.tindie.com/products/compukidmike/fifth-element-stones-badge-from-defcon-27/
   kind: store
+  archived: https://web.archive.org/web/20260503130738/https://www.tindie.com/products/compukidmike/fifth-element-stones-badge-from-defcon-27/
 - label: mkfactor.com - Goon Box Badge Defcon 27 Presale
   url: https://mkfactor.com/?p=67
   kind: article
+  archived: https://web.archive.org/web/20260614170659/https://mkfactor.com/?p=67
 - label: github.com/compukidmike/dc27
   url: https://github.com/compukidmike/dc27
   kind: repo
 - label: 'Hackaday: Pictorial Guide To The Unofficial Electronic Badges Of DEF CON 27'
   url: https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/
   kind: article
+  archived: https://web.archive.org/web/20260513003300/https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/
 images:
 - file: assets/images/badges/dc27/fifth-element-stones-badge-def-con-27/8e56933de9.jpg
-  source: "https://www.tindie.com/products/compukidmike/fifth-element-stones-badge-from-defcon-27/"
-  credit: "MKFactor / CompuKidMike"
-  caption: "The assembled Fifth Element Stones badge with element stones"
+  source: https://www.tindie.com/products/compukidmike/fifth-element-stones-badge-from-defcon-27/
+  credit: MKFactor / CompuKidMike
+  caption: The assembled Fifth Element Stones badge with element stones
+  archived: https://web.archive.org/web/20260503130738/https://www.tindie.com/products/compukidmike/fifth-element-stones-badge-from-defcon-27/
 - file: assets/images/badges/dc27/fifth-element-stones-badge-def-con-27/6d925b65cb.jpg
-  source: "https://mkfactor.com/?p=67"
-  credit: "MKFactor"
-  caption: "The Fifth Element base badge with all four stones in place"
+  source: https://mkfactor.com/?p=67
+  credit: MKFactor
+  caption: The Fifth Element base badge with all four stones in place
+  archived: https://web.archive.org/web/20260614170659/https://mkfactor.com/?p=67
 contact: {}
 notes: []
 status: released
@@ -72,16 +77,19 @@ sources:
   title: Fifth Element Stones Badge (DEF CON 27)
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: dc26-dc27-sao-wave); event read as ''DEF CON 27''.'
+  archived: https://web.archive.org/web/20260503130738/https://www.tindie.com/products/compukidmike/fifth-element-stones-badge-from-defcon-27/
 - kind: url
   url: https://mkfactor.com/?p=67
   title: Goon Box Badge Defcon 27 Presale
   accessed: '2026-09-07'
   note: Maker's own presale post; confirms pricing ($100 assembled / $60 kit), features, and includes maker photos.
+  archived: https://web.archive.org/web/20260614170659/https://mkfactor.com/?p=67
 - kind: url
   url: https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/
-  title: 'Pictorial Guide To The Unofficial Electronic Badges Of DEF CON 27'
+  title: Pictorial Guide To The Unofficial Electronic Badges Of DEF CON 27
   accessed: '2026-09-07'
   note: Confirms ATtiny84 MCU, resistive-divider stone detection, and a hand-assembled run of 200 by the two-person GoonBoxBadge team.
+  archived: https://web.archive.org/web/20260513003300/https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/
 - kind: url
   url: https://github.com/compukidmike/dc27
   title: 'GitHub - compukidmike/dc27: DEFCON 27 Projects'
@@ -91,7 +99,7 @@ research:
   status: researched
   confidence: high
   last_checked: '2026-09-07'
-  notes: 'LED count/type and exact quantities of stone circuit boards (11 per stone) were not independently confirmed with a spec sheet; the badge platform itself is largely passive (an ATtiny84 base with resistive-divider stone detection), and no display or wireless connectivity is present. Storefront (Tindie) shows the badge as an "out of stock" leftover of the original 200-unit run rather than a separate release.'
+  notes: LED count/type and exact quantities of stone circuit boards (11 per stone) were not independently confirmed with a spec sheet; the badge platform itself is largely passive (an ATtiny84 base with resistive-divider stone detection), and no display or wireless connectivity is present. Storefront (Tindie) shows the badge as an "out of stock" leftover of the original 200-unit run rather than a separate release.
 last_modified_date: '2026-09-07'
 ---
 

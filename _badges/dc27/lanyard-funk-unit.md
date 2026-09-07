@@ -14,9 +14,11 @@ makers:
 summary: A wearable lanyard accessory built around an Arduino Nano driving a 24 RGB LED ring under a 3D-printed diffuser, made by TWiT personality Robert Ballecer for DEF CON 27.
 functions: Lights up in programmable RGB patterns via the diffused LED ring; worn as a lanyard accent rather than a functional badge with games or CTF elements.
 look:
-  colors: [multicolor]
+  colors:
+  - multicolor
   shape: null
-  themes: [wearable]
+  themes:
+  - wearable
 tech:
   mcu: Arduino Nano
   leds:
@@ -43,18 +45,21 @@ links:
 - label: hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27
   url: https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/
   kind: article
+  archived: https://web.archive.org/web/20260513003300/https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/
 - label: Robert Ballecer (@padresj) on Twitter
   url: https://twitter.com/padresj
   kind: social
 images:
-  - file: assets/images/badges/dc27/lanyard-funk-unit/9d65fa5d32.jpg
-    source: "https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/"
-    credit: "Hackaday"
-    caption: "The Lanyard Funk Unit worn at DEF CON 27"
-  - file: assets/images/badges/dc27/lanyard-funk-unit/e0e2188b97.jpg
-    source: "https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/"
-    credit: "Hackaday"
-    caption: "Internals of the Lanyard Funk Unit: Arduino Nano and RGB LED ring wiring"
+- file: assets/images/badges/dc27/lanyard-funk-unit/9d65fa5d32.jpg
+  source: https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/
+  credit: Hackaday
+  caption: The Lanyard Funk Unit worn at DEF CON 27
+  archived: https://web.archive.org/web/20260513003300/https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/
+- file: assets/images/badges/dc27/lanyard-funk-unit/e0e2188b97.jpg
+  source: https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/
+  credit: Hackaday
+  caption: 'Internals of the Lanyard Funk Unit: Arduino Nano and RGB LED ring wiring'
+  archived: https://web.archive.org/web/20260513003300/https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/
 contact: {}
 notes:
 - Nano-powered 24 RGB LED ring; no dedicated project page found, only mentioned in Hackaday roundup
@@ -66,11 +71,13 @@ sources:
   title: Lanyard Funk Unit
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: dc26-dc27-sao-wave); event read as ''DEF CON 27''.'
+  archived: https://web.archive.org/web/20260513003300/https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/
 - kind: url
   url: https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/
   title: Pictorial Guide To The Unofficial Electronic Badges Of DEF CON 27
   accessed: '2026-09-07'
-  note: 'Confirmed maker (Robert Ballecer), type (Arduino Nano + 24 RGB LED ring under a 3D-printed diffuser), and that he made 10 of them; no price or storefront mentioned. Also source of both saved images.'
+  note: Confirmed maker (Robert Ballecer), type (Arduino Nano + 24 RGB LED ring under a 3D-printed diffuser), and that he made 10 of them; no price or storefront mentioned. Also source of both saved images.
+  archived: https://web.archive.org/web/20260513003300/https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/
 research:
   status: researched
   confidence: medium

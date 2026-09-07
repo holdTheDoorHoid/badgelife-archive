@@ -26,7 +26,7 @@ tech:
   leds:
     count: 7
     type: reverse-mount
-    note: '1204-package side-view LEDs (2 yellow, 1 red, 1 pink, 1 orange, 1 green, plus one more) mounted behind hot-glue diffusers to represent the six Infinity Stones; the yellow stone uses two LEDs because a single one did not glow far enough. Passive SAO with no microcontroller of its own — it is driven by the host badge.'
+    note: 1204-package side-view LEDs (2 yellow, 1 red, 1 pink, 1 orange, 1 green, plus one more) mounted behind hot-glue diffusers to represent the six Infinity Stones; the yellow stone uses two LEDs because a single one did not glow far enough. Passive SAO with no microcontroller of its own — it is driven by the host badge.
   display: null
   connectivity: []
   battery: powered by host badge
@@ -48,21 +48,23 @@ links:
 - label: hackaday.io/project/165320-arc-badge-dc27-indie-badge
   url: https://hackaday.io/project/165320-arc-badge-dc27-indie-badge
   kind: hackaday
+  archived: https://web.archive.org/web/20260523064150/https://hackaday.io/project/165320-arc-badge-dc27-indie-badge
 - label: hackaday.io/project/165322-iron-gauntlet-dc27-sao
   url: https://hackaday.io/project/165322-iron-gauntlet-dc27-sao
   kind: hackaday
 - label: Tindie - TwinkleTwinkie store
   url: https://www.tindie.com/stores/twinkletwinkie/
   kind: store
+  archived: https://web.archive.org/web/20260503111119/https://www.tindie.com/stores/twinkletwinkie/
 images:
-  - file: assets/images/badges/dc27/iron-gauntlet-sao/0506da0c77.jpg
-    source: "https://hackaday.io/project/165322-iron-gauntlet-dc27-sao"
-    credit: "TwinkleTwinkie"
-    caption: "The Iron Gauntlet SAO"
-  - file: assets/images/badges/dc27/iron-gauntlet-sao/725f969f69.jpg
-    source: "https://hackaday.io/project/165322-iron-gauntlet-dc27-sao"
-    credit: "TwinkleTwinkie"
-    caption: "Iron Gauntlet SAO detail, showing the side-view LEDs behind hot-glue diffusers"
+- file: assets/images/badges/dc27/iron-gauntlet-sao/0506da0c77.jpg
+  source: https://hackaday.io/project/165322-iron-gauntlet-dc27-sao
+  credit: TwinkleTwinkie
+  caption: The Iron Gauntlet SAO
+- file: assets/images/badges/dc27/iron-gauntlet-sao/725f969f69.jpg
+  source: https://hackaday.io/project/165322-iron-gauntlet-dc27-sao
+  credit: TwinkleTwinkie
+  caption: Iron Gauntlet SAO detail, showing the side-view LEDs behind hot-glue diffusers
 contact: {}
 notes: []
 status: released
@@ -72,6 +74,7 @@ sources:
   title: Arc Badge - DC27 Indie Badge
   accessed: '2026-09-06'
   note: Found via the project's link list; intake pass identified this item here.
+  archived: https://web.archive.org/web/20260523064150/https://hackaday.io/project/165320-arc-badge-dc27-indie-badge
 - kind: url
   url: https://hackaday.io/project/165322-iron-gauntlet-dc27-sao
   title: Iron Gauntlet - DC27 SAO
@@ -82,6 +85,7 @@ sources:
   title: Arc Badge - DC27 Indie Badge
   accessed: '2026-09-07'
   note: Confirms the SAO shipped exclusively with the Arc Badge (200 units for sale plus 20 for donation/trade at $90 + $10 shipping on Tindie), and that the badge/SAO combo's Gerbers, KiCad source, and PIC16F15344 firmware were released.
+  archived: https://web.archive.org/web/20260523064150/https://hackaday.io/project/165320-arc-badge-dc27-indie-badge
 research:
   status: researched
   confidence: medium

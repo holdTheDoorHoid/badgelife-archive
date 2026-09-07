@@ -10,17 +10,20 @@ event: bsides-cape-town-2015
 year: 2015
 makers:
 - name: dodgymike
-summary: ''
+  url: https://github.com/dodgymike
+summary: 'The official electronic badge for BSides Cape Town 2015, built around a PIC18F2455 microcontroller with USB-to-serial firmware.'
 functions: ''
 look:
   colors: []
   shape: null
-  themes: []
+  themes:
+  - security
 tech:
-  mcu: null
+  mcu: PIC18F2455
   leds: null
   display: null
-  connectivity: []
+  connectivity:
+  - usb
   battery: null
   sao_version: null
 get_one:
@@ -31,9 +34,9 @@ get_one:
   distribution: []
   where: ''
 make_your_own:
-  open_source: null
+  open_source: partial
   hardware_url: null
-  firmware_url: null
+  firmware_url: https://github.com/dodgymike/bsides-badge-2015/tree/master/pic-usb-serial
   eda_tool: null
 links:
 - label: github.com/dodgymike/bsides-badge-2015
@@ -51,11 +54,34 @@ sources:
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: github-topics); event read as ''BSides Cape Town 2015''.'
   archived: https://web.archive.org/web/20260907110030/https://github.com/dodgymike/bsides-badge-2015
+- kind: url
+  url: https://raw.githubusercontent.com/dodgymike/bsides-badge-2015/master/README.md
+  title: 'README.md - bsides-badge-2015'
+  accessed: '2026-09-07'
+  note: 'Confirmed repo description ("BSidesCPT Badge 2015, software, hardware and docs"); README carries no further detail, no images, no price/quantity info.'
+- kind: url
+  url: https://github.com/dodgymike/bsides-badge-2015/blob/master/pic-usb-serial/usb-serial.X/nbproject/configurations.xml
+  title: MPLAB X project configuration
+  accessed: '2026-09-07'
+  note: 'targetDevice entry gives the MCU as PIC18F2455; only a USB-serial firmware skeleton is present in the repo, no schematic/PCB/BOM files despite the repo description mentioning hardware.'
 research:
-  status: stub
+  status: researched
   confidence: low
-  last_checked: '2026-09-06'
-  notes: Imported from the community badge sheet; not yet researched.
-last_modified_date: '2026-09-06'
+  last_checked: '2026-09-07'
+  notes: >-
+    The repo (dodgymike/bsides-badge-2015) contains only an MPLAB X project for
+    PIC18F2455 USB-to-serial firmware (pic-usb-serial/usb-serial.X) plus a
+    two-line README; despite the repo description promising "software,
+    hardware and docs," no schematic, PCB, BOM, or image files were found in
+    the tree, and a web search for independent coverage could not be run
+    (session search budget was exhausted). No maker statement on functions,
+    LEDs, display, price, quantity, or availability was found, so those
+    fields are left empty. The maker (dodgymike, a South African security/SDR
+    researcher) also has a bsidescpt2016badge repo for the following year's
+    event, noted separately.
+last_modified_date: '2026-09-07'
 ---
 
+The bsides-badge-2015 repository is dodgymike's badge project for BSides Cape Town 2015. The only technical detail confirmed from the repository itself is the firmware target: an MPLAB X project implementing USB-to-serial communication on a Microchip PIC18F2455. Beyond that skeleton, the repository does not include schematics, a PCB layout, a bill of materials, or photographs of the finished badge, even though its own description advertises "software, hardware and docs."
+
+No independent write-up, storefront listing, or social media post about this badge could be located in this pass, so its physical appearance, LED count, display, price, production quantity, and distribution are unknown. The maker, dodgymike, is a South Africa-based security and software-defined-radio researcher active in the badgelife space; he also built the AND!XOR DEF CON 24 badge hardware/software and a Monero badge PCB for DEF CON 26, and produced a follow-up badge repo (`bsidescpt2016badge`) for BSides Cape Town 2016.

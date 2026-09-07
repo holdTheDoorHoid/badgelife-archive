@@ -12,7 +12,7 @@ makers:
 - name: DC801
   url: https://github.com/DC801
 summary: A BLE hardware party badge for DEF CON 27, themed around The Expanse, with an on-screen game where the wearer walks around and repairs broken parts of the ship.
-functions: 'On-screen "walk around and fix broken parts of the ship" game, displayed on the SPI LCD; also functions as a general BLE/NFC hardware platform with SAO and minibadge expansion.'
+functions: On-screen "walk around and fix broken parts of the ship" game, displayed on the SPI LCD; also functions as a general BLE/NFC hardware platform with SAO and minibadge expansion.
 look:
   colors: []
   shape: null
@@ -39,7 +39,7 @@ get_one:
   - free_drop
   where: Given out at the DC801 party at DEF CON 27 (Planet Hollywood suite, Aug 10-11 2019).
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/dc801/DC27PartyBadge/tree/master/Hardware
   firmware_url: https://github.com/dc801/DC27PartyBadge/tree/master/Software
   eda_tool: KiCad
@@ -50,15 +50,18 @@ links:
 - label: 'Hackaday: Pictorial Guide to the Unofficial Electronic Badges of DEF CON 27'
   url: https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/
   kind: article
+  archived: https://web.archive.org/web/20260513003300/https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/
 images:
-  - file: assets/images/badges/dc27/dc801-dc27-party-badge-hcrn/f4df49cfd8.jpg
-    source: "https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/"
-    credit: "Hackaday"
-    caption: "DC801 HCRN badge, front view showing the SPI LCD screen"
-  - file: assets/images/badges/dc27/dc801-dc27-party-badge-hcrn/17b689f9a2.jpg
-    source: "https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/"
-    credit: "Hackaday"
-    caption: "DC801 HCRN badge, rear view"
+- file: assets/images/badges/dc27/dc801-dc27-party-badge-hcrn/f4df49cfd8.jpg
+  source: https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/
+  credit: Hackaday
+  caption: DC801 HCRN badge, front view showing the SPI LCD screen
+  archived: https://web.archive.org/web/20260513003300/https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/
+- file: assets/images/badges/dc27/dc801-dc27-party-badge-hcrn/17b689f9a2.jpg
+  source: https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/
+  credit: Hackaday
+  caption: DC801 HCRN badge, rear view
+  archived: https://web.archive.org/web/20260513003300/https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/
 contact: {}
 notes: []
 status: released
@@ -72,17 +75,18 @@ sources:
   url: https://github.com/dc801/DC27PartyBadge
   title: 'GitHub README: DC801 DC27 Party Badge'
   accessed: '2026-09-07'
-  note: 'Confirmed hardware (Rigado BMD-340 / nRF52840, SPI LCD, 2 SAO + 1 minibadge connector, NFC, microSD, UF2 bootloader), KiCad design files, GPL-3.0 open source, and dev team credits.'
+  note: Confirmed hardware (Rigado BMD-340 / nRF52840, SPI LCD, 2 SAO + 1 minibadge connector, NFC, microSD, UF2 bootloader), KiCad design files, GPL-3.0 open source, and dev team credits.
 - kind: url
   url: https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/
-  title: 'Pictorial Guide To The Unofficial Electronic Badges Of DEF CON 27 (Hackaday)'
+  title: Pictorial Guide To The Unofficial Electronic Badges Of DEF CON 27 (Hackaday)
   accessed: '2026-09-07'
-  note: 'Confirmed The Expanse theme, the ship-repair walking game, and that 375 badges were produced. Also supplied front/rear photos.'
+  note: Confirmed The Expanse theme, the ship-repair walking game, and that 375 badges were produced. Also supplied front/rear photos.
+  archived: https://web.archive.org/web/20260513003300/https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-07'
-  notes: 'Price and LED details (if any) were not found in any source and are left empty. Distribution is inferred as a free party give-away at the DC801 DEF CON 27 suite party (per Hackaday and the DEF CON forums party listing); no separate sale was found. A DEF CON forums thread titled "DC801 Party" exists but was not fetched since the GitHub repo and Hackaday article already confirmed the core facts.'
+  notes: Price and LED details (if any) were not found in any source and are left empty. Distribution is inferred as a free party give-away at the DC801 DEF CON 27 suite party (per Hackaday and the DEF CON forums party listing); no separate sale was found. A DEF CON forums thread titled "DC801 Party" exists but was not fetched since the GitHub repo and Hackaday article already confirmed the core facts.
 last_modified_date: '2026-09-07'
 ---
 

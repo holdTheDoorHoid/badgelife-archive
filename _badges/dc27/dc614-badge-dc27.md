@@ -11,23 +11,26 @@ year: 2019
 makers:
 - name: DC614
   url: https://github.com/dc614
-summary: 'A DEF CON 27 unofficial badge built around an Orange Pi Zero single-board computer, cut into an Ohio-outline PCB shield with onboard wireless pentesting radios and an amplified speaker.'
-functions: 'Boots a custom Linux image from a microSD card; carries a Ralink RT5370 Wi-Fi adapter and an nRF24LU1p (CrazyRadio-compatible) 2.4GHz USB radio for wireless research use, plus an LM386-driven speaker for audio output.'
+summary: A DEF CON 27 unofficial badge built around an Orange Pi Zero single-board computer, cut into an Ohio-outline PCB shield with onboard wireless pentesting radios and an amplified speaker.
+functions: Boots a custom Linux image from a microSD card; carries a Ralink RT5370 Wi-Fi adapter and an nRF24LU1p (CrazyRadio-compatible) 2.4GHz USB radio for wireless research use, plus an LM386-driven speaker for audio output.
 look:
   colors: []
-  shape: 'state outline (Ohio)'
+  shape: state outline (Ohio)
   themes:
   - hardware tool
   - security
   - radio
 tech:
-  mcu: 'Orange Pi Zero (512MB, Allwinner H2+)'
-  leds: {count: 1, type: RGB, note: 'Everlight Elec 67-23/R6GHBHC-B01/2T SMD indicator LED'}
+  mcu: Orange Pi Zero (512MB, Allwinner H2+)
+  leds:
+    count: 1
+    type: RGB
+    note: Everlight Elec 67-23/R6GHBHC-B01/2T SMD indicator LED
   display: null
   connectivity:
   - wifi
   - usb
-  battery: 'dual 9V batteries via buckle connectors'
+  battery: dual 9V batteries via buckle connectors
 get_one:
   price: ''
   price_usd: null
@@ -50,15 +53,16 @@ links:
 - label: 'Hackaday: Pictorial Guide to the Unofficial Electronic Badges of DEF CON 27'
   url: https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/
   kind: article
+  archived: https://web.archive.org/web/20260513003300/https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/
 images:
-  - file: assets/images/badges/dc27/dc614-badge-dc27/94335c0192.jpg
-    source: "https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/dc614-badge-dc27/"
-    credit: "DC614 / Hackaday"
-    caption: "DC614 badge for DEF CON 27, front view, showing Ohio-shaped PCB with Orange Pi Zero and wireless modules"
-  - file: assets/images/badges/dc27/dc614-badge-dc27/58a20c3fed.jpg
-    source: "https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/dc614-badge-dc27-rear/"
-    credit: "DC614 / Hackaday"
-    caption: "DC614 badge for DEF CON 27, rear view, showing USB-A ports and battery buckle connectors"
+- file: assets/images/badges/dc27/dc614-badge-dc27/94335c0192.jpg
+  source: https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/dc614-badge-dc27/
+  credit: DC614 / Hackaday
+  caption: DC614 badge for DEF CON 27, front view, showing Ohio-shaped PCB with Orange Pi Zero and wireless modules
+- file: assets/images/badges/dc27/dc614-badge-dc27/58a20c3fed.jpg
+  source: https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/dc614-badge-dc27-rear/
+  credit: DC614 / Hackaday
+  caption: DC614 badge for DEF CON 27, rear view, showing USB-A ports and battery buckle connectors
 contact: {}
 notes: []
 status: released
@@ -68,6 +72,7 @@ sources:
   title: DC614 Badge (DC27)
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: dc26-dc27-sao-wave); event read as ''DEF CON 27''. This URL turned out to be unrelated (a MouseJack exploit tool, not a badge) — kept per record-keeping rules but not used as a source of facts.'
+  archived: https://web.archive.org/web/20260128151810/https://github.com/insecurityofthings/jackit
 - kind: url
   url: https://github.com/dc614/DC-27-Badge
   title: 'GitHub - dc614/DC-27-Badge: The DC614 badge for DEF CON 27'
@@ -75,19 +80,19 @@ sources:
   note: 'Primary source: README with full BOM, components, assembly notes, and software build/flash instructions.'
 - kind: url
   url: https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/dc614-badge-dc27/
-  title: 'Pictorial Guide To The Unofficial Electronic Badges Of DEF CON 27 | Hackaday'
+  title: Pictorial Guide To The Unofficial Electronic Badges Of DEF CON 27 | Hackaday
   accessed: '2026-09-07'
-  note: 'Confirmed event/maker attribution and supplied front photo.'
+  note: Confirmed event/maker attribution and supplied front photo.
 - kind: url
   url: https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/dc614-badge-dc27-rear/
-  title: 'DC614-badge-DC27-rear | Hackaday'
+  title: DC614-badge-DC27-rear | Hackaday
   accessed: '2026-09-07'
-  note: 'Supplied rear photo.'
+  note: Supplied rear photo.
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-07'
-  notes: 'The original discovery-sweep link (insecurityofthings/jackit) is an unrelated MouseJack exploit tool; the real project lives at github.com/dc614/DC-27-Badge. Price, quantity made, and availability/distribution are not stated anywhere in the repo or coverage found, so those fields are left empty. No license file was found in the repo, so open_source is marked partial (hardware and firmware/build scripts are public, but no explicit license is stated).'
+  notes: The original discovery-sweep link (insecurityofthings/jackit) is an unrelated MouseJack exploit tool; the real project lives at github.com/dc614/DC-27-Badge. Price, quantity made, and availability/distribution are not stated anywhere in the repo or coverage found, so those fields are left empty. No license file was found in the repo, so open_source is marked partial (hardware and firmware/build scripts are public, but no explicit license is stated).
 last_modified_date: '2026-09-07'
 ---
 

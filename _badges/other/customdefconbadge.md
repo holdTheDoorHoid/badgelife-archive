@@ -10,7 +10,8 @@ event: other
 year: 0
 makers:
 - name: FoxMoss
-summary: ''
+  url: https://github.com/FoxMoss
+summary: A single-commit GitHub repository containing a GB Studio game project named "Badge", with no documentation of any physical hardware.
 functions: ''
 look:
   colors: []
@@ -31,9 +32,9 @@ get_one:
   distribution: []
   where: ''
 make_your_own:
-  open_source: null
+  open_source: partial
   hardware_url: null
-  firmware_url: null
+  firmware_url: https://github.com/FoxMoss/CustomDefconBadge
   eda_tool: null
 links:
 - label: github.com/FoxMoss/CustomDefconBadge
@@ -41,19 +42,45 @@ links:
   kind: repo
 images: []
 contact: {}
-notes: []
-status: listed
+notes:
+- The repository has no README, description, or topics on GitHub, and no other page
+  (GitHub profile, personal blog at foxmoss.com, web search) mentions this project
+  or any physical badge.
+status: unknown
 sources:
 - kind: url
   url: https://github.com/FoxMoss/CustomDefconBadge
   title: CustomDefconBadge
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: github-topics); event read as ''unknown''.'
+- kind: url
+  url: https://github.com/FoxMoss/CustomDefconBadge
+  title: 'FoxMoss/CustomDefconBadge (repo contents and commit history)'
+  accessed: '2026-09-07'
+  note: Confirmed the repo has no README/description/topics; contains only a single
+    "init" commit (Aug 2025) adding Badge.gbsproj (a GB Studio game project file)
+    plus empty assets/build/plugins folders. No images, no hardware details.
+- kind: url
+  url: https://foxmoss.com/blog/
+  title: Fox Ellison-Taylor's Blog
+  accessed: '2026-09-07'
+  note: Maker's personal blog; no post mentions this project or a DEF CON badge.
 research:
-  status: stub
+  status: researched
   confidence: low
-  last_checked: '2026-09-06'
-  notes: Imported from the community badge sheet; not yet researched.
-last_modified_date: '2026-09-06'
+  last_checked: '2026-09-07'
+  notes: Could not confirm this is an actual physical badge, and if so which chip,
+    display, DEF CON year, or how (or whether) it was distributed. The repository
+    contains only a GB Studio (Game Boy game maker) project file named "Badge" with
+    no README or description; it may be firmware/a game intended for a custom
+    Game-Boy-shaped badge, but nothing on GitHub, the maker's blog, or web search
+    confirms this or names an event/year. Left type as "badge" and open_source as
+    "partial" (game source present, no hardware files) since the repo name and file
+    are the only evidence available; all hardware fields left empty rather than
+    guessed. Event kept as "other" since no specific con/year could be verified.
+last_modified_date: '2026-09-07'
 ---
 
+The GitHub repository `FoxMoss/CustomDefconBadge` consists of a single "init" commit from August 2025 containing one file, `Badge.gbsproj`, a project file for GB Studio (a tool for building Game Boy-compatible games), alongside empty `assets`, `build`, and `plugins` folders. The repository carries no README, no description, and no topics, so there is nothing on the page itself that explains what physical hardware, if any, the game was written for, what DEF CON (or other event) it relates to, or in what year.
+
+Searching the maker's GitHub profile and personal blog (foxmoss.com, run by Fox Ellison-Taylor) turned up no further mention of this project, and general web searches for the repository name returned nothing beyond the repository page itself. Given the name, it is plausible this is a game or firmware component built for a custom, Game-Boy-shaped conference badge, but that could not be confirmed from any source, so all hardware, distribution, and event-year fields are left empty rather than guessed.

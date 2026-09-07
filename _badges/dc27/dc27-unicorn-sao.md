@@ -12,11 +12,15 @@ makers:
 - name: TwinkleTwinkie
   url: https://hackaday.io/twinkletwinkie
 summary: A unicorn-shaped Shitty Add-On made by TwinkleTwinkie for DEF CON 27, using five differently colored 1204 side-view LEDs (red, orange, yellow, blue, pink) shining into a hot-glue diffuser that blends the colors evenly.
-functions: 'Glows in five colors (pink, blue, red, orange, yellow) at once via its blended-diffuser mane.'
+functions: Glows in five colors (pink, blue, red, orange, yellow) at once via its blended-diffuser mane.
 look:
-  colors: [pink, multicolor]
+  colors:
+  - pink
+  - multicolor
   shape: null
-  themes: [animal, mascot]
+  themes:
+  - animal
+  - mascot
 tech:
   mcu: none
   leds:
@@ -33,7 +37,8 @@ get_one:
   quantity: ''
   availability: sold_out
   availability_note: Tindie listing checked 2026-09-07; no longer available for sale, seller noted as on a break.
-  distribution: [purchase]
+  distribution:
+  - purchase
   where: Sold assembled via TwinkleTwinkie's Tindie store; also listed on Hackaday.io.
 make_your_own:
   open_source: null
@@ -44,14 +49,16 @@ links:
 - label: hackaday.io/project/166450-unicorn-dc27-sao
   url: https://hackaday.io/project/166450-unicorn-dc27-sao
   kind: hackaday
-- label: "TwinkleTwinkie's \"Unicorn\" Badge SAO on Tindie"
+- label: TwinkleTwinkie's "Unicorn" Badge SAO on Tindie
   url: https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-unicorn-badge-sao/
   kind: store
+  archived: https://web.archive.org/web/20260519051622/https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-unicorn-badge-sao/
 images:
 - file: assets/images/badges/dc27/dc27-unicorn-sao/0100c5f94e.jpg
-  source: "https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-unicorn-badge-sao/"
-  credit: "TwinkleTwinkie"
-  caption: "The assembled Unicorn SAO with glitter finish and multicolor glowing mane"
+  source: https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-unicorn-badge-sao/
+  credit: TwinkleTwinkie
+  caption: The assembled Unicorn SAO with glitter finish and multicolor glowing mane
+  archived: https://web.archive.org/web/20260519051622/https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-unicorn-badge-sao/
 contact: {}
 notes: []
 status: released
@@ -68,9 +75,10 @@ sources:
   note: Confirmed maker, event/year (DC27, 2019), LED count/colors, hot-glue diffuser design, and 3.3v operation.
 - kind: url
   url: https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-unicorn-badge-sao/
-  title: "TwinkleTwinkie's \"Unicorn\" Badge SAO from TwinkleTwinkie on Tindie"
+  title: TwinkleTwinkie's "Unicorn" Badge SAO from TwinkleTwinkie on Tindie
   accessed: '2026-09-07'
   note: Confirmed sale as assembled unit, glitter finish, SAO v1.69bis connector, sold-out/retired status, and product photo.
+  archived: https://web.archive.org/web/20260519051622/https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-unicorn-badge-sao/
 research:
   status: researched
   confidence: high

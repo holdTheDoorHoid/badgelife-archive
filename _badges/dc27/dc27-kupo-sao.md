@@ -12,11 +12,15 @@ makers:
 - name: TwinkleTwinkie
   url: https://hackaday.io/twinkletwinkie
 summary: A Final Fantasy Moogle-shaped Shitty Add-on made by TwinkleTwinkie for DEF CON 27 in 2019, with four upside-down-mounted 1206 LEDs (three in the wings, one in the bobble) and two resistors; Gerber files are attached to the project page.
-functions: 'The bobble glows red and the wing glows pink/pink when powered; no other interactivity.'
+functions: The bobble glows red and the wing glows pink/pink when powered; no other interactivity.
 look:
-  colors: [red, pink]
+  colors:
+  - red
+  - pink
   shape: null
-  themes: [pop culture, video game]
+  themes:
+  - pop culture
+  - video game
 tech:
   mcu: none
   leds:
@@ -33,7 +37,8 @@ get_one:
   quantity: ''
   availability: sold_out
   availability_note: 'Tindie listing checked 2026-09-07: "This product is no longer available for sale;" seller is on a break from Tindie.'
-  distribution: [purchase]
+  distribution:
+  - purchase
   where: Sold assembled via the maker's Tindie store (TwinkleTwinkie); no longer listed as of 2026-09-07.
 make_your_own:
   open_source: partial
@@ -44,6 +49,7 @@ links:
 - label: hackaday.io/project/165317-kupo-dc27-sao
   url: https://hackaday.io/project/165317-kupo-dc27-sao
   kind: hackaday
+  archived: https://web.archive.org/web/20260119110921/https://hackaday.io/project/165317-kupo-dc27-sao
 - label: cdn.hackaday.io/files/1653177072922528/Mog_20190328-0040.zip
   url: https://cdn.hackaday.io/files/1653177072922528/Mog_20190328-0040.zip
   kind: hackaday
@@ -53,15 +59,17 @@ links:
 - label: TwinkleTwinkie's "Kupo!" Badge SAO (Tindie)
   url: https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-kupo-badge-sao/
   kind: store
+  archived: https://web.archive.org/web/20260519051612/https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-kupo-badge-sao/
 images:
-  - file: assets/images/badges/dc27/dc27-kupo-sao/af0e2a77e4.jpg
-    source: "https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-kupo-badge-sao/"
-    credit: "TwinkleTwinkie"
-    caption: "Assembled Kupo! SAO, moogle-shaped PCB with LEDs lit"
-  - file: assets/images/badges/dc27/dc27-kupo-sao/b04da1b213.jpg
-    source: "https://hackaday.io/project/165317/gallery"
-    credit: "TwinkleTwinkie"
-    caption: "Kupo! SAO PCB, moogle shape"
+- file: assets/images/badges/dc27/dc27-kupo-sao/af0e2a77e4.jpg
+  source: https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-kupo-badge-sao/
+  credit: TwinkleTwinkie
+  caption: Assembled Kupo! SAO, moogle-shaped PCB with LEDs lit
+  archived: https://web.archive.org/web/20260519051612/https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-kupo-badge-sao/
+- file: assets/images/badges/dc27/dc27-kupo-sao/b04da1b213.jpg
+  source: https://hackaday.io/project/165317/gallery
+  credit: TwinkleTwinkie
+  caption: Kupo! SAO PCB, moogle shape
 contact: {}
 notes: []
 status: released
@@ -71,6 +79,7 @@ sources:
   title: Kupo! - DC27 SAO
   accessed: '2026-09-06'
   note: Found via the project's link list; intake pass identified this item here.
+  archived: https://web.archive.org/web/20260119110921/https://hackaday.io/project/165317-kupo-dc27-sao
 - kind: url
   url: https://hackaday.io/project/165317/gallery
   title: Kupo! - DC27 SAO (gallery)
@@ -81,6 +90,7 @@ sources:
   title: TwinkleTwinkie's "Kupo!" Badge SAO
   accessed: '2026-09-07'
   note: Storefront listing; confirmed SAO v1.69bis compatibility, LED colors (bobble red, wing pink), and that it is sold assembled and no longer available for sale.
+  archived: https://web.archive.org/web/20260519051612/https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-kupo-badge-sao/
 research:
   status: researched
   confidence: high

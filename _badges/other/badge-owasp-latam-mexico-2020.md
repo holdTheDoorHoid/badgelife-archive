@@ -7,20 +7,29 @@ grand_parent: Badge Archive
 nav_exclude: true
 type: badge
 event: other
-year: 0
+year: 2020
 makers:
 - name: Electronic Cats
-summary: ''
-functions: ''
+  url: https://github.com/ElectronicCats
+summary: An ESP32-based conference badge Electronic Cats made for OWASP LATAM Mexico 2020 attendees, built around an onboard Capture The Flag challenge.
+functions: Runs a Capture The Flag challenge that attendees access over Bluetooth; also has WS2812B mini addressable LEDs and an OLED display.
 look:
   colors: []
   shape: null
-  themes: []
+  themes:
+  - security
+  - ctf
 tech:
-  mcu: null
-  leds: null
-  display: null
-  connectivity: []
+  mcu: ESP32
+  leds:
+    count: null
+    type: WS2812B
+    note: Described as "LED WS2812B Mini" in the repo README.
+  display: 0.91" OLED 128x32 (I2C, SSD1306)
+  connectivity:
+  - wifi
+  - ble
+  - usb
   battery: null
   sao_version: null
 get_one:
@@ -28,13 +37,15 @@ get_one:
   price_usd: null
   quantity: ''
   availability: unknown
-  distribution: []
-  where: ''
+  distribution:
+  - free_drop
+  where: Given to attendees of OWASP LATAM Mexico 2020.
 make_your_own:
-  open_source: null
-  hardware_url: null
-  firmware_url: null
-  eda_tool: null
+  open_source: yes
+  hardware_url: https://github.com/ElectronicCats/badge-owasp-latam-mexico-2020/tree/master/HW/Badge-OWASP-2020
+  firmware_url: https://github.com/ElectronicCats/badge-owasp-latam-mexico-2020/tree/master/Firmware
+  eda_tool: KiCad
+  license: CERN Open Hardware Licence v1.2
 links:
 - label: github.com/ElectronicCats/badge-owasp-latam-mexico-2020
   url: https://github.com/ElectronicCats/badge-owasp-latam-mexico-2020
@@ -42,18 +53,39 @@ links:
 images: []
 contact: {}
 notes: []
-status: listed
+status: released
 sources:
 - kind: url
   url: https://github.com/ElectronicCats/badge-owasp-latam-mexico-2020
   title: badge-owasp-latam-mexico-2020
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: github-topics); event read as ''OWASP LATAM Mexico 2020''.'
+- kind: url
+  url: https://raw.githubusercontent.com/ElectronicCats/badge-owasp-latam-mexico-2020/master/README.md
+  title: 'README: Badge OWASP LATAM México 2020'
+  accessed: '2026-09-07'
+  note: Confirms maker, event, MCU, LEDs, display options, CTF-over-Bluetooth concept, CERN OHL v1.2 licensing, and a "Dec 2019" credit line (design predates the 2020 event).
+- kind: url
+  url: https://api.github.com/repos/ElectronicCats/badge-owasp-latam-mexico-2020/contents/HW/Badge-OWASP-2020
+  title: Repo contents, HW/Badge-OWASP-2020
+  accessed: '2026-09-07'
+  note: Confirms KiCad hardware files (schematic, PCB, libraries) are published; no photo of the assembled badge found in the repo, only a vector art file (Badge_2020_OWASP.svg) and CAD sources.
 research:
-  status: stub
-  confidence: low
-  last_checked: '2026-09-06'
-  notes: Imported from the community badge sheet; not yet researched.
-last_modified_date: '2026-09-06'
+  status: researched
+  confidence: medium
+  last_checked: '2026-09-07'
+  notes: >-
+    No matching "OWASP LATAM Mexico" event exists in _data/events.yml, so event is left as "other";
+    the con is OWASP LATAM Tour Mexico City, 2020. Price, quantity made, and LED count are not stated
+    anywhere in the repo. No photo of the physical badge was found (github repo contains only KiCad
+    source files and a vector artwork SVG, not photos), so images is left empty.
+last_modified_date: '2026-09-07'
 ---
 
+Electronic Cats built this ESP32-based badge for attendees of OWASP LATAM Mexico 2020, continuing their run of conference badges for the OWASP LATAM Tour. The badge pairs an ESP32 (with Wi-Fi and BLE) with a small OLED display, WS2812B mini addressable LEDs, and a USB-serial interface for programming.
+
+The badge's centerpiece is a Capture The Flag challenge that attendees solve using a Bluetooth tool, turning the badge itself into the CTF target — fitting for a security-conference giveaway. Electronic Cats thanks PCBWay, LCSC, and Espressif in the README for supporting fabrication and components.
+
+## Make your own
+
+Hardware (KiCad schematic and PCB layout) and firmware are both published in the GitHub repository under the CERN Open Hardware Licence v1.2, so the design is fully open source. The hardware lives under `HW/Badge-OWASP-2020`, with firmware under `Firmware/`; a vector artwork file (`Badge_2020_OWASP.svg`) is also included for the badge's graphic design.
