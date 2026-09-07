@@ -10,6 +10,7 @@ event: dc33
 year: 2025
 makers:
 - name: Shenanigans-R-Us
+  url: https://x.com/shenanigans_us
 summary: ''
 functions: ''
 look:
@@ -35,11 +36,15 @@ make_your_own:
   hardware_url: null
   firmware_url: null
   eda_tool: null
-links: []
+links:
+- label: x.com/shenanigans_us
+  url: https://x.com/shenanigans_us
+  kind: social
 images: []
 contact: {}
-notes: []
-status: listed_no_details
+notes:
+- 'DC33 community sheet listed the team name only ("2025 (expected makers)" tab, row 72), with no badge title, functions, price, or link filled in.'
+status: unknown
 sources:
 - kind: sheet
   event: dc33
@@ -47,10 +52,28 @@ sources:
   tab: 2025 (expected makers)
   updated: ''
 research:
-  status: stub
+  status: researched
   confidence: low
   last_checked: '2026-09-06'
-  notes: Imported from the community badge sheet; not yet researched.
+  notes: >-
+    This is the "listed but no details" case: the DC33 sheet's expected-makers
+    tab has Shenanigans-R-Us in row 72 with every other column blank, so no
+    specific badge/SAO title for 2025 to research. Checked their known X/Twitter
+    handle (x.com/shenanigans_us, carried over from their DC32 entries in this
+    archive) but it returned an authentication wall (HTTP 402) and no
+    mirror (nitter) could be reached. Web search was unavailable for this task
+    (session search budget exhausted) and Bing/Google/DuckDuckGo result pages
+    fetched directly returned no hits for "Shenanigans-R-Us" tied to DEF CON 33,
+    only unrelated dictionary/bar-name results. Tindie search was blocked by a
+    Cloudflare challenge. Shenanigans-R-Us is a known DC32 (2024) badge maker in
+    this archive (Jigglebilly, Tootsie Pop, Weiner, Keanu is my homeboy v2, I'm
+    in my Defcon era, all ~$20 each) but nothing confirms what, if anything,
+    they brought to DEF CON 33. Left title, type, and all badge-specific fields
+    empty/unknown rather than guess; status set to unknown per the research
+    guide's rule for this case.
 last_modified_date: '2026-09-06'
 ---
 
+The DEF CON 33 (2025) community badge sheet has an entry for Shenanigans-R-Us on its "expected makers" tab, but the row carries no badge or SAO name, no functions, no price, and no link — just the team name. Shenanigans-R-Us was an active maker the year before, listing at least five different $20 badges for DEF CON 32 (2024): Jigglebilly, Tootsie Pop, Weiner, Keanu is my homeboy v2, and I'm in my Defcon era, all also thinly documented in this archive.
+
+No public source (their X/Twitter account, search engines, Tindie, or press coverage) turned up what they actually made or sold for DEF CON 33. It is possible they exhibited but never filled in the sheet, or that they did not end up releasing a badge that year. This entry is left as an unknown placeholder rather than guessing at a title or specs.
