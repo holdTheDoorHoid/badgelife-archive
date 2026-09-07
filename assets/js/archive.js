@@ -40,6 +40,7 @@
   var FLAGS = [
     { key: 'photos',  label: 'Has photos',         test: function (r) { return r.image_count > 0; } },
     { key: 'hw',      label: 'Has hardware files', test: function (r) { return r.has_hardware; } },
+    { key: 'model',   label: 'Has 3D model',       test: function (r) { return r.has_model; } },
     { key: 'fw',      label: 'Has firmware',       test: function (r) { return r.has_firmware; } },
     { key: 'gerbers', label: 'Has gerbers',        test: function (r) { return r.has_gerbers; } },
     { key: 'bom',     label: 'Has BOM',            test: function (r) { return r.has_bom; } },

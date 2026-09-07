@@ -6,3 +6,6 @@ vendor/
 .bundle/
 __pycache__/
 *.pyc
+data/hw/
+.venv/
+tools/node_modules/

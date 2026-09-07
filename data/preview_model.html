@@ -1,5 +1,5 @@
 <!doctype html><meta charset="utf-8"><title>model preview</title>
-<script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
+<script>const _mv=new URLSearchParams(location.search).get("mv")||"https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"; const _s=document.createElement("script"); _s.type="module"; _s.src=_mv; document.head.appendChild(_s);</script>
 <style>body{margin:0;background:#1b1f27;color:#ddd;font:14px system-ui}model-viewer{width:100vw;height:90vh}</style>
 <model-viewer id="mv" camera-controls auto-rotate shadow-intensity="0.7" exposure="1.05" alt="preview"></model-viewer>
 <div id="info" style="padding:8px"></div>

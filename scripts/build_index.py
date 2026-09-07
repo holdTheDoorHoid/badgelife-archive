@@ -98,6 +98,7 @@ def main():
             "has_hardware": bool(make.get("hardware_url")),
             "has_firmware": bool(make.get("firmware_url")),
             "has_gerbers": bool(make.get("gerbers") or make.get("gerbers_url")),
+            "has_model": bool((fm.get("model") or {}).get("file")) if isinstance(fm.get("model"), dict) else False,
             "has_bom": bool(make.get("bom") or make.get("bom_url")),
             "eda_tool": make.get("eda_tool") or "",
             "thumb": (images[0].get("file") if images and isinstance(images[0], dict) else "") or "",
