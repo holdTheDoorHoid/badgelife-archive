@@ -11,8 +11,8 @@ year: 2023
 makers:
 - name: trueControl (true)
   url: https://basic.truecontrol.org/
-summary: 'An RGB LED add-on that plugs into the official DEF CON 31 badge and, in turn, hosts a second GAT or v1.69bis-compliant addon through its own header, so a DC31 badge can run lighting programs while still carrying another shard.'
-functions: 'Runs more than six RGB LED programs (twinkle, rainbow, flicker, a moving trail, color toggling, and two accelerometer-reactive modes), each with adjustable parameters (delay, hue, saturation, brightness, sensitivity) saved to EEPROM. Selectable zones and brightness via front buttons (MODE, PROG, SET). Can power a hosted addon with its own LEDs turned off to save power.'
+summary: An RGB LED add-on that plugs into the official DEF CON 31 badge and, in turn, hosts a second GAT or v1.69bis-compliant addon through its own header, so a DC31 badge can run lighting programs while still carrying another shard.
+functions: Runs more than six RGB LED programs (twinkle, rainbow, flicker, a moving trail, color toggling, and two accelerometer-reactive modes), each with adjustable parameters (delay, hue, saturation, brightness, sensitivity) saved to EEPROM. Selectable zones and brightness via front buttons (MODE, PROG, SET). Can power a hosted addon with its own LEDs turned off to save power.
 look:
   colors: []
   shape: null
@@ -37,7 +37,7 @@ get_one:
   price_usd: 30.0
   quantity: ''
   availability: available
-  availability_note: '13 in stock per trueControl Shop, checked 2026-09-07; listing states pickup only at DEF CON 33, ships to buyers after about a week otherwise.'
+  availability_note: 13 in stock per trueControl Shop, checked 2026-09-07; listing states pickup only at DEF CON 33, ships to buyers after about a week otherwise.
   distribution:
   - purchase
   where: trueControl's own webshop (shop.truecontrol.org)
@@ -46,7 +46,7 @@ make_your_own:
   hardware_url: null
   firmware_url: https://git.trueserve.org/trueControl/dc31-addon-addon-badge-firmware
   eda_tool: null
-  notes: 'Firmware repo is public. The product page promises a schematic link "coming soon" that was not yet posted as of research date.'
+  notes: Firmware repo is public. The product page promises a schematic link "coming soon" that was not yet posted as of research date.
 links:
 - label: basic.truecontrol.org/database/dc31/addon-addon
   url: https://basic.truecontrol.org/database/dc31/addon-addon/
@@ -54,21 +54,25 @@ links:
 - label: dc31-addon-addon-badge-firmware (trueserve Git)
   url: https://git.trueserve.org/trueControl/dc31-addon-addon-badge-firmware
   kind: repo
+  archived: https://web.archive.org/web/20260417193634/https://git.trueserve.org/trueControl/dc31-addon-addon-badge-firmware
 - label: true's RGB Addon Addon for DC31 Badge (trueControl Shop)
   url: https://shop.truecontrol.org/index.php?product_id=133&route=product%2Fproduct
   kind: store
+  archived: https://web.archive.org/web/20260216202719/https://shop.truecontrol.org/index.php?route=product/product&product_id=133
 - label: Addon Addon user manual
   url: https://dc31.truecontrol.org/yearsite/manual/addon-addon
   kind: doc
 images:
 - file: assets/images/badges/dc31/rgb-addon-addon-for-dc31-badge-true-s-addon-addon/ea9f8429b6.jpg
-  source: "https://shop.truecontrol.org/index.php?product_id=133&route=product%2Fproduct"
-  credit: "trueControl (true)"
-  caption: "true's RGB Addon Addon assembled and lit, showing the RGB LEDs"
+  source: https://shop.truecontrol.org/index.php?product_id=133&route=product%2Fproduct
+  credit: trueControl (true)
+  caption: true's RGB Addon Addon assembled and lit, showing the RGB LEDs
+  archived: https://web.archive.org/web/20260216202719/https://shop.truecontrol.org/index.php?route=product/product&product_id=133
 - file: assets/images/badges/dc31/rgb-addon-addon-for-dc31-badge-true-s-addon-addon/d3eac4af8e.jpg
-  source: "https://shop.truecontrol.org/index.php?product_id=133&route=product%2Fproduct"
-  credit: "trueControl (true)"
-  caption: "The Addon Addon inserted into a DEF CON 31 badge"
+  source: https://shop.truecontrol.org/index.php?product_id=133&route=product%2Fproduct
+  credit: trueControl (true)
+  caption: The Addon Addon inserted into a DEF CON 31 badge
+  archived: https://web.archive.org/web/20260216202719/https://shop.truecontrol.org/index.php?route=product/product&product_id=133
 contact: {}
 notes:
 - Spotted by a research agent while working on a neighbouring entry.
@@ -81,7 +85,7 @@ sources:
   note: 'Found by the archive''s discovery sweep (angle: sheet-research-spotted); event read as ''dc31''.'
 - kind: url
   url: https://dc31.truecontrol.org/yearsite/manual/addon-addon
-  title: "true's DEF CON 31 RGB Addon Addon - user manual"
+  title: true's DEF CON 31 RGB Addon Addon - user manual
   accessed: '2026-09-07'
   note: Confirms button operation, RGB program list, and that it hosts GAT or v1.69bis addons through its own connector; charges from 5V/USB PD.
 - kind: url
@@ -89,11 +93,13 @@ sources:
   title: dc31-addon-addon-badge-firmware (trueserve Git)
   accessed: '2026-09-07'
   note: 'README gives specs: HK32F030MF4P6 MCU (16K flash/4K RAM), Type-C USB with XMODEM bootloader, 8x addressable RGB LED in 3 zones, accelerometer, hosts GAT/SAO addons.'
+  archived: https://web.archive.org/web/20260417193634/https://git.trueserve.org/trueControl/dc31-addon-addon-badge-firmware
 - kind: url
   url: https://shop.truecontrol.org/index.php?product_id=133&route=product%2Fproduct
-  title: "true's RGB Addon Addon for DC31 Badge - trueControl Shop"
+  title: true's RGB Addon Addon for DC31 Badge - trueControl Shop
   accessed: '2026-09-07'
-  note: 'Confirms price ($60 marked to $30), 13 in stock, fully assembled, insertion instructions, and product photos used for images.'
+  note: Confirms price ($60 marked to $30), 13 in stock, fully assembled, insertion instructions, and product photos used for images.
+  archived: https://web.archive.org/web/20260216202719/https://shop.truecontrol.org/index.php?route=product/product&product_id=133
 research:
   status: researched
   confidence: high

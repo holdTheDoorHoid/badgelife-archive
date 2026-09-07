@@ -50,6 +50,7 @@ links:
 - label: www.cybercircuitry.com
   url: https://www.cybercircuitry.com
   kind: website
+  archived: https://web.archive.org/web/20260213122552/https://www.cybercircuitry.com
 - label: darthdebugger (GitHub)
   url: https://github.com/darthdebugger
   kind: repo
@@ -58,9 +59,10 @@ links:
   kind: social
 images:
 - file: assets/images/badges/dc31/prismatic-shard-sao-for-dc-xxxi-badge/d080ab705c.jpg
-  source: "https://www.cybercircuitry.com"
-  credit: "Cyber Circuitry"
-  caption: "Prismatic Shard PCB, showing the shard-shaped outline, illustrated artwork, and UPDI programming header"
+  source: https://www.cybercircuitry.com
+  credit: Cyber Circuitry
+  caption: Prismatic Shard PCB, showing the shard-shaped outline, illustrated artwork, and UPDI programming header
+  archived: https://web.archive.org/web/20260213122552/https://www.cybercircuitry.com
 contact: {}
 notes:
 - This one got under my radar. There are still some for sale on the website.
@@ -76,22 +78,12 @@ sources:
   title: Cyber Circuitry
   accessed: '2026-09-07'
   note: Maker's own product page; confirmed name, description, features (games, puzzles, IR communicator, LED effects, USB-C charging, LIR2032 cell), "Sold Out" status, and two product photos. Also links to the maker's GitHub (darthdebugger) and Twitter/X account.
+  archived: https://web.archive.org/web/20260213122552/https://www.cybercircuitry.com
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: >-
-    Only source found is the maker's own single-page website; no Hackaday.io, press,
-    or storefront listing turned up (web search budget for this session was exhausted
-    before a second round of searches could run, so coverage may be thin). Price,
-    quantity made, exact microcontroller, LED type/count, and open-source status
-    are not stated anywhere found. The saved product photo shows a UPDI programming
-    header, which points to a Microchip AVR part (e.g. ATtiny/megaAVR 0- or
-    1-series), but this is an inference from the board photo, not a maker
-    statement, so tech.mcu is left null. A second product image
-    (lh3.googleusercontent.com ...9sVixOAxPVvoD...) returned HTTP 403 and could
-    not be saved. The maker's GitHub profile shows 2 repositories but its listing
-    is not publicly browsable, so no firmware/hardware repo could be confirmed.
+  notes: Only source found is the maker's own single-page website; no Hackaday.io, press, or storefront listing turned up (web search budget for this session was exhausted before a second round of searches could run, so coverage may be thin). Price, quantity made, exact microcontroller, LED type/count, and open-source status are not stated anywhere found. The saved product photo shows a UPDI programming header, which points to a Microchip AVR part (e.g. ATtiny/megaAVR 0- or 1-series), but this is an inference from the board photo, not a maker statement, so tech.mcu is left null. A second product image (lh3.googleusercontent.com ...9sVixOAxPVvoD...) returned HTTP 403 and could not be saved. The maker's GitHub profile shows 2 repositories but its listing is not publicly browsable, so no firmware/hardware repo could be confirmed.
 last_modified_date: '2026-09-07'
 ---
 

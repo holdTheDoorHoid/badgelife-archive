@@ -5,36 +5,48 @@ layout: badge
 parent: Northsec 2023
 grand_parent: Badge Archive
 nav_exclude: true
-type: unknown
+type: badge
 event: northsec-2023
 year: 2023
 makers:
 - name: NorthSec
-summary: ''
-functions: ''
+  url: https://nsec.io/
+summary: 'The official conference badge for NorthSec 2023, an ATmega328PB-based badge with 16 NeoPixel RGB LEDs, six buttons, an optional OLED display, and an SAO connector.'
+functions: 'Runs custom Arduino-framework firmware driving 16 addressable RGB LEDs and six buttons; supports an optional 128x32 OLED display and two badge-to-badge pairing connectors for interaction between attendees'' badges.'
 look:
   colors: []
   shape: null
-  themes: []
+  themes:
+  - security
+  - hardware tool
 tech:
-  mcu: null
-  leds: null
-  display: null
+  mcu: ATmega328PB
+  leds:
+    count: 16
+    type: NeoPixel
+    note: WS2812-family addressable RGB LEDs
+  display: 0.91" 128x32 OLED (optional)
   connectivity: []
-  battery: null
-  sao_version: null
+  inputs:
+  - buttons
+  power: USB-C
+  battery: 3x AAA
+  sao_version: v1.69bis
+  sao_ports: 1
 get_one:
   price: ''
   price_usd: null
   quantity: ''
   availability: unknown
-  distribution: []
-  where: ''
+  distribution:
+  - purchase
+  where: 'Distributed to NorthSec 2023 conference attendees (Montreal); exact distribution/purchase terms not stated in available sources.'
 make_your_own:
-  open_source: null
-  hardware_url: null
-  firmware_url: null
+  open_source: yes
+  hardware_url: https://github.com/nsec/badge-conf-2023/tree/nsec2023/PCB
+  firmware_url: https://github.com/nsec/badge-conf-2023
   eda_tool: null
+  notes: 'Firmware built with PlatformIO on the Arduino framework using the MiniCore core; pre-built firmware.hex provided in binary/ for flashing via USBasp/AVRDUDE. Repository also includes a separate SAO PCB design under PCB/SAO.'
 links:
 - label: github.com/nsec/badge-conf-2023
   url: https://github.com/nsec/badge-conf-2023
@@ -43,18 +55,32 @@ images: []
 contact: {}
 notes:
 - From the user's 'SAOs to buy' link list (2026-09-07).
-status: listed
+status: released
 sources:
 - kind: url
   url: https://github.com/nsec/badge-conf-2023
   title: NorthSec 2023 badge
   accessed: '2026-09-07'
   note: 'Found by the archive''s discovery sweep (angle: tobuy-linkfile); event read as ''northsec-2023''.'
+- kind: url
+  url: https://raw.githubusercontent.com/nsec/badge-conf-2023/nsec2023/README.md
+  title: badge-conf-2023 README
+  accessed: '2026-09-07'
+  note: 'Confirmed MCU (ATmega328PB), 16 NeoPixels, six buttons, two pairing connectors, one SAO v1.69bis connector, optional 128x32 OLED, USB-C/3xAAA power, and open firmware built with PlatformIO/MiniCore.'
 research:
-  status: stub
-  confidence: low
+  status: researched
+  confidence: medium
   last_checked: '2026-09-07'
-  notes: Imported from the community badge sheet; not yet researched.
+  notes: 'Maker''s own GitHub repo (branch nsec2023) confirms hardware/firmware are fully open source, but the repo is a developer/build README with no marketing page, price, production quantity, or photos of the finished badge. No storefront, Hackaday, or press coverage was found describing sale price, quantity, or distribution mechanics. No image of the physical badge could be located (only a generic GitHub OpenGraph card, which does not show the item). Confidence kept at medium because core hardware facts come from the maker directly but commercial/distribution details are unconfirmed.'
 last_modified_date: '2026-09-07'
 ---
 
+The NorthSec 2023 badge is the official electronic conference badge for NorthSec, the Montreal-based security conference, given to attendees at the 2023 event. It is built around an ATmega328PB microcontroller (an Arduino UNO-like part) and carries sixteen NeoPixel RGB LEDs, six buttons, and two pairing connectors that let badges interact with each other. A single Shitty Add-On (SAO) v1.69bis connector lets attendees plug in add-on boards, and the badge design supports an optional 128x32 OLED display. It can run on USB-C power or three AAA batteries.
+
+NorthSec publishes the badge's hardware and firmware together on GitHub under the `nsec/badge-conf-2023` repository. The firmware is written against the Arduino framework using the MiniCore core and built with PlatformIO; a pre-compiled `firmware.hex` is provided for attendees who want to flash the stock image with an inexpensive USBasp programmer rather than build it themselves. The repository also contains a separate SAO PCB design, suggesting NorthSec made add-on boards available alongside the main badge.
+
+No price, production quantity, or sale/distribution details for the badge were found in the sources checked; it appears to have been given to conference attendees rather than sold as a standalone consumer product, but this could not be confirmed from the maker's own materials.
+
+## Make your own
+
+Hardware (PCB) and firmware are both openly published in the `nsec/badge-conf-2023` GitHub repository (see the `PCB/` and `src/` directories, `nsec2023` branch). To flash the stock firmware, use an AVR-compatible programmer such as a USBasp (roughly $10-20) with AVRDUDE and the provided `binary/firmware.hex`. To modify the firmware, install PlatformIO and build against the MiniCore Arduino core as documented in the repository's README.

@@ -43,10 +43,11 @@ links:
 - kind: website
   label: Four Suits Co.
   url: https://foursuits.co
+  archived: https://web.archive.org/web/20260101045304/https://foursuits.co/
 images: []
 contact: {}
 notes:
-- "Rogues Village (run by Four Suits Co., an LA-based magic/social-engineering collective) stated it would not be participating in DEF CON 31 due to policy changes, so no badge or SAO was produced for that year."
+- Rogues Village (run by Four Suits Co., an LA-based magic/social-engineering collective) stated it would not be participating in DEF CON 31 due to policy changes, so no badge or SAO was produced for that year.
 status: cancelled
 sources:
 - kind: sheet
@@ -57,17 +58,18 @@ sources:
   url: https://foursuits.co/roguesvillagearchive
   title: Rogues Village Archive
   accessed: '2026-09-06'
-  note: "Maker's own archive page states Rogues Village would not be participating in DEF CON 31 (\"due to policy changes\"); lists their DC27-DC30 history and the Inter-Village Badge made with Monero Village for DC28, but nothing for DC31."
+  note: Maker's own archive page states Rogues Village would not be participating in DEF CON 31 ("due to policy changes"); lists their DC27-DC30 history and the Inter-Village Badge made with Monero Village for DC28, but nothing for DC31.
 - kind: url
   url: https://foursuits.co
   title: Four Suits Co.
   accessed: '2026-09-06'
   note: Identifies Four Suits Co. as the collective behind Rogues Village; no DEF CON 31 merchandise or badge listed in their shop.
+  archived: https://web.archive.org/web/20260101045304/https://foursuits.co/
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-06'
-  notes: "The community sheet listed 'Rogue's Village' for DEF CON 31 with no details, but the maker's own site confirms Rogues Village did not participate in DEF CON 31 at all (policy changes cited). No badge, SAO, or other item was produced for that year, so there is nothing further to research; the sheet row appears to have been carried over from a prior year's participation or was an aspirational listing that didn't pan out. Not retitled since no item exists to name. A separate DC30 entry (dc30-poker-chip-badge, 'Poker Chip Badge') documents Rogue's Village's actual DEF CON 30 badge, sold via foursuits.co."
+  notes: The community sheet listed 'Rogue's Village' for DEF CON 31 with no details, but the maker's own site confirms Rogues Village did not participate in DEF CON 31 at all (policy changes cited). No badge, SAO, or other item was produced for that year, so there is nothing further to research; the sheet row appears to have been carried over from a prior year's participation or was an aspirational listing that didn't pan out. Not retitled since no item exists to name. A separate DC30 entry (dc30-poker-chip-badge, 'Poker Chip Badge') documents Rogue's Village's actual DEF CON 30 badge, sold via foursuits.co.
 last_modified_date: '2026-09-06'
 ---
 
