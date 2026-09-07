@@ -12,7 +12,7 @@ makers:
 - name: Mike Szczys
   url: https://hackaday.io/mike
 summary: A white pixel-art PCB badge shaped like the Galaga spaceship, driven by an ATmega48 with 18 red and 4 blue charlieplexed LEDs, two buttons and a CR2032 cell; 59 were hand-assembled in summer 2018 and packed with lanyards and batteries for DEF CON 26.
-functions: 'Interactive LED animations, including a "laser fire" effect, with buttons cycling through display modes; a sleep mode (about 4.3 microamp) and a full off mode (about 0.1 microamp) to preserve the coin cell between uses.'
+functions: Interactive LED animations, including a "laser fire" effect, with buttons cycling through display modes; a sleep mode (about 4.3 microamp) and a full off mode (about 0.1 microamp) to preserve the coin cell between uses.
 look:
   colors:
   - white
@@ -39,7 +39,7 @@ get_one:
   distribution: []
   where: Hand-assembled and packed with a lanyard and battery for distribution at DEF CON 26; sources do not say whether it was given away free or sold.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/szczys/coinop-badge/tree/master/board
   firmware_url: https://github.com/szczys/coinop-badge/tree/master/firmware
   eda_tool: KiCad
@@ -47,21 +47,25 @@ links:
 - label: hackaday.io/project/159302-coinop-badge
   url: https://hackaday.io/project/159302-coinop-badge
   kind: hackaday
+  archived: https://web.archive.org/web/20260216122653/https://hackaday.io/project/159302-coinop-badge
 - label: github.com/szczys/coinop-badge
   url: https://github.com/szczys/coinop-badge
   kind: repo
 - label: www.youtube.com/watch?v=faJSoZDbjUw
   url: https://www.youtube.com/watch?v=faJSoZDbjUw
   kind: video
+  archived: https://web.archive.org/web/20260907115420/https://www.youtube.com/watch?v=faJSoZDbjUw
 images:
-  - file: assets/images/badges/dc26/coinop-badge-2/25bfcd3599.jpg
-    source: "https://hackaday.io/project/159302-coinop-badge"
-    credit: "Mike Szczys"
-    caption: "The finished CoinOp Badge, a white pixel-art PCB shaped like the Galaga spaceship"
-  - file: assets/images/badges/dc26/coinop-badge-2/22d16e6d68.jpg
-    source: "https://hackaday.io/project/159302-coinop-badge"
-    credit: "Mike Szczys"
-    caption: "Assembled CoinOp Badge PCBs packed with lanyard and battery"
+- file: assets/images/badges/dc26/coinop-badge-2/25bfcd3599.jpg
+  source: https://hackaday.io/project/159302-coinop-badge
+  credit: Mike Szczys
+  caption: The finished CoinOp Badge, a white pixel-art PCB shaped like the Galaga spaceship
+  archived: https://web.archive.org/web/20260216122653/https://hackaday.io/project/159302-coinop-badge
+- file: assets/images/badges/dc26/coinop-badge-2/22d16e6d68.jpg
+  source: https://hackaday.io/project/159302-coinop-badge
+  credit: Mike Szczys
+  caption: Assembled CoinOp Badge PCBs packed with lanyard and battery
+  archived: https://web.archive.org/web/20260216122653/https://hackaday.io/project/159302-coinop-badge
 contact: {}
 notes: []
 status: released
@@ -71,11 +75,13 @@ sources:
   title: CoinOp Badge
   accessed: '2026-09-06'
   note: Found via the project's link list; intake pass identified this item here.
+  archived: https://web.archive.org/web/20260216122653/https://hackaday.io/project/159302-coinop-badge
 - kind: url
   url: https://hackaday.io/project/159302-coinop-badge
   title: CoinOp Badge
   accessed: '2026-09-07'
   note: Confirmed MCU (ATmega48), LED count/color split, buttons, CR2032 battery, sleep-current figures, quantity (59 assembled), and pulled gallery photos.
+  archived: https://web.archive.org/web/20260216122653/https://hackaday.io/project/159302-coinop-badge
 - kind: url
   url: https://github.com/szczys/coinop-badge
   title: szczys/coinop-badge
@@ -85,14 +91,7 @@ research:
   status: researched
   confidence: high
   last_checked: '2026-09-07'
-  notes: >-
-    Maker's own Hackaday.io project log and GitHub repo confirm the core hardware facts (chip, LED
-    split, battery, button count, 59 units assembled). Neither source states a price or explicitly
-    says the badges were given away free vs. sold; a commenter on the project log asked if extras
-    would be listed on Tindie but the maker did not answer publicly. Left get_one.price,
-    get_one.availability, and get_one.distribution unfilled rather than guess. No license file was
-    found in the repo, so make_your_own.license is left empty. Event/year already matched DEF CON 26
-    (2018) correctly; no correction needed.
+  notes: Maker's own Hackaday.io project log and GitHub repo confirm the core hardware facts (chip, LED split, battery, button count, 59 units assembled). Neither source states a price or explicitly says the badges were given away free vs. sold; a commenter on the project log asked if extras would be listed on Tindie but the maker did not answer publicly. Left get_one.price, get_one.availability, and get_one.distribution unfilled rather than guess. No license file was found in the repo, so make_your_own.license is left empty. Event/year already matched DEF CON 26 (2018) correctly; no correction needed.
 last_modified_date: '2026-09-07'
 ---
 

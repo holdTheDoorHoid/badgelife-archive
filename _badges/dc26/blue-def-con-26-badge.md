@@ -38,6 +38,7 @@ links:
 - label: hackaday.io/project/161008-blue-def-con-26-badge
   url: https://hackaday.io/project/161008-blue-def-con-26-badge
   kind: hackaday
+  archived: https://web.archive.org/web/20260907114828/https://hackaday.io/project/161008-blue-def-con-26-badge
 images: []
 contact: {}
 notes: []
@@ -48,24 +49,18 @@ sources:
   title: Blue DEF CON 26 Badge
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: hackaday-list); event read as ''DEF CON 26''.'
+  archived: https://web.archive.org/web/20260907114828/https://hackaday.io/project/161008-blue-def-con-26-badge
 - kind: url
   url: https://hackaday.io/project/161008-blue-def-con-26-badge
   title: Blue DEF CON 26 Badge
   accessed: '2026-09-07'
   note: 'Read in full: this is a personal mod log, not a distinct maker-produced badge or SAO.'
+  archived: https://web.archive.org/web/20260907114828/https://hackaday.io/project/161008-blue-def-con-26-badge
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-07'
-  notes: >-
-    The Hackaday.io page (project/161008) is a personal write-up by Peter Giancola describing how he
-    modified his own official DEF CON 26 (2018) attendee badge to make all the LEDs light blue instead
-    of their stock color, "I don't know why" as he puts it. He notes the badge's LEDs run on 5V and
-    that he had trouble finding solder in Las Vegas during the con (Fry's was out; found some at a
-    Lowe's). No schematic, firmware, BOM, or distribution info is given because this is not a
-    fabricated/distributed badge or SAO of its own — it is a one-off hardware hack applied to the
-    official DC26 badge that every attendee already had. Not an independently produced item for this
-    archive.
+  notes: The Hackaday.io page (project/161008) is a personal write-up by Peter Giancola describing how he modified his own official DEF CON 26 (2018) attendee badge to make all the LEDs light blue instead of their stock color, "I don't know why" as he puts it. He notes the badge's LEDs run on 5V and that he had trouble finding solder in Las Vegas during the con (Fry's was out; found some at a Lowe's). No schematic, firmware, BOM, or distribution info is given because this is not a fabricated/distributed badge or SAO of its own — it is a one-off hardware hack applied to the official DC26 badge that every attendee already had. Not an independently produced item for this archive.
 last_modified_date: '2026-09-07'
 ---
 

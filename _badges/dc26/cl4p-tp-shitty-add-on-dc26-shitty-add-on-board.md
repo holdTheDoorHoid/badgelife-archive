@@ -11,8 +11,8 @@ year: 2018
 makers:
 - name: Sparx50
   url: https://github.com/Sparx50
-summary: 'A DEF CON 26 Shitty Add-On shaped like Claptrap (CL4P-TP), the robot from the Borderlands games, with eight LEDs driven through an I/O expander.'
-functions: 'Lights eight onboard LEDs (D1-D8), each through its own 220-ohm resistor, driven via an MCP23017 I2C GPIO expander.'
+summary: A DEF CON 26 Shitty Add-On shaped like Claptrap (CL4P-TP), the robot from the Borderlands games, with eight LEDs driven through an I/O expander.
+functions: Lights eight onboard LEDs (D1-D8), each through its own 220-ohm resistor, driven via an MCP23017 I2C GPIO expander.
 look:
   colors: []
   shape: robot
@@ -25,7 +25,7 @@ tech:
   leds:
     count: 8
     type: discrete
-    note: '1206 LEDs, each with its own 220-ohm current-limiting resistor'
+    note: 1206 LEDs, each with its own 220-ohm current-limiting resistor
   display: none
   connectivity:
   - i2c
@@ -39,7 +39,7 @@ get_one:
   distribution: []
   where: ''
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/Sparx50/CL4P-TP-Shitty-Add-On
   firmware_url: null
   eda_tool: KiCad
@@ -47,15 +47,18 @@ links:
 - label: github.com/Sparx50/CL4P-TP-Shitty-Add-On
   url: https://github.com/Sparx50/CL4P-TP-Shitty-Add-On
   kind: repo
+  archived: https://web.archive.org/web/20260907114901/https://github.com/Sparx50/CL4P-TP-Shitty-Add-On
 images:
-  - file: assets/images/badges/dc26/cl4p-tp-shitty-add-on-dc26-shitty-add-on-board/ee69ec9de7.png
-    source: "https://github.com/Sparx50/CL4P-TP-Shitty-Add-On"
-    credit: "Sparx50"
-    caption: "Claptrap silkscreen artwork used on the CL4P-TP SAO PCB"
-  - file: assets/images/badges/dc26/cl4p-tp-shitty-add-on-dc26-shitty-add-on-board/46939edce0.png
-    source: "https://github.com/Sparx50/CL4P-TP-Shitty-Add-On"
-    credit: "Sparx50"
-    caption: "Claptrap solder-mask artwork for the CL4P-TP SAO PCB"
+- file: assets/images/badges/dc26/cl4p-tp-shitty-add-on-dc26-shitty-add-on-board/ee69ec9de7.png
+  source: https://github.com/Sparx50/CL4P-TP-Shitty-Add-On
+  credit: Sparx50
+  caption: Claptrap silkscreen artwork used on the CL4P-TP SAO PCB
+  archived: https://web.archive.org/web/20260907114901/https://github.com/Sparx50/CL4P-TP-Shitty-Add-On
+- file: assets/images/badges/dc26/cl4p-tp-shitty-add-on-dc26-shitty-add-on-board/46939edce0.png
+  source: https://github.com/Sparx50/CL4P-TP-Shitty-Add-On
+  credit: Sparx50
+  caption: Claptrap solder-mask artwork for the CL4P-TP SAO PCB
+  archived: https://web.archive.org/web/20260907114901/https://github.com/Sparx50/CL4P-TP-Shitty-Add-On
 contact: {}
 notes: []
 status: released
@@ -65,21 +68,24 @@ sources:
   title: CL4P-TP-Shitty-Add-On — DC26 Shitty Add-On Board
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: github-topics); event read as ''DEF CON 26''.'
+  archived: https://web.archive.org/web/20260907114901/https://github.com/Sparx50/CL4P-TP-Shitty-Add-On
 - kind: url
   url: https://raw.githubusercontent.com/Sparx50/CL4P-TP-Shitty-Add-On/master/CL4p_TP.sch
-  title: 'CL4p_TP.sch (KiCad schematic)'
+  title: CL4p_TP.sch (KiCad schematic)
   accessed: '2026-09-07'
-  note: 'Confirms it uses the badgelife_shitty_connector library (SAO), an MCP23017 I2C GPIO expander, and 8 LEDs (D1-D8) each with a 220-ohm series resistor, powered from +3.3V.'
+  note: Confirms it uses the badgelife_shitty_connector library (SAO), an MCP23017 I2C GPIO expander, and 8 LEDs (D1-D8) each with a 220-ohm series resistor, powered from +3.3V.
+  archived: https://web.archive.org/web/20260907115044/https://raw.githubusercontent.com/Sparx50/CL4P-TP-Shitty-Add-On/master/CL4p_TP.sch
 - kind: url
   url: https://github.com/Sparx50/CL4P-TP-Shitty-Add-On/tree/master/Design
-  title: 'Design folder listing'
+  title: Design folder listing
   accessed: '2026-09-07'
-  note: 'Contains Claptrap_SilkScreen.png and Claptrap_SolderMask.png, the character artwork applied to the PCB, plus KiCad footprint files.'
+  note: Contains Claptrap_SilkScreen.png and Claptrap_SolderMask.png, the character artwork applied to the PCB, plus KiCad footprint files.
+  archived: https://web.archive.org/web/20260907115235/https://github.com/Sparx50/CL4P-TP-Shitty-Add-On/tree/master/Design
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'No maker post, storefront, price, or quantity-made info was found beyond the GitHub repo itself, so those fields are left empty. Repo shows only KiCad hardware design files (schematic, PCB, footprints, drill files) with no firmware/code, so make_your_own.firmware_url is left null. Status set to released (rather than listed) on the strength of the finished schematic/PCB/artwork in the repo, though no photo of an assembled unit or in-the-wild sighting was found; confidence kept at medium for that reason.'
+  notes: No maker post, storefront, price, or quantity-made info was found beyond the GitHub repo itself, so those fields are left empty. Repo shows only KiCad hardware design files (schematic, PCB, footprints, drill files) with no firmware/code, so make_your_own.firmware_url is left null. Status set to released (rather than listed) on the strength of the finished schematic/PCB/artwork in the repo, though no photo of an assembled unit or in-the-wild sighting was found; confidence kept at medium for that reason.
 last_modified_date: '2026-09-07'
 ---
 

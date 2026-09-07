@@ -35,7 +35,7 @@ tech:
 get_one:
   price: ''
   price_usd: null
-  quantity: 'roughly a dozen of an earlier build, per the project page'
+  quantity: roughly a dozen of an earlier build, per the project page
   availability: unknown
   distribution: []
   where: ''
@@ -48,15 +48,18 @@ links:
 - label: hackaday.io/project/159292-blinky-ball-rgb
   url: https://hackaday.io/project/159292-blinky-ball-rgb
   kind: hackaday
+  archived: https://web.archive.org/web/20250907230318/https://hackaday.io/project/159292-blinky-ball-rgb
 images:
-  - file: assets/images/badges/dc26/blinky-ball-rgb-badge/c26a1f653a.jpg
-    source: "https://hackaday.io/project/159292-blinky-ball-rgb"
-    credit: "Null Space Labs"
-    caption: "Blinky Ball RGB sphere lit up"
-  - file: assets/images/badges/dc26/blinky-ball-rgb-badge/f6fc9a2132.jpg
-    source: "https://hackaday.io/project/159292-blinky-ball-rgb"
-    credit: "Null Space Labs"
-    caption: "Blinky Ball RGB PCB slice detail"
+- file: assets/images/badges/dc26/blinky-ball-rgb-badge/c26a1f653a.jpg
+  source: https://hackaday.io/project/159292-blinky-ball-rgb
+  credit: Null Space Labs
+  caption: Blinky Ball RGB sphere lit up
+  archived: https://web.archive.org/web/20250907230318/https://hackaday.io/project/159292-blinky-ball-rgb
+- file: assets/images/badges/dc26/blinky-ball-rgb-badge/f6fc9a2132.jpg
+  source: https://hackaday.io/project/159292-blinky-ball-rgb
+  credit: Null Space Labs
+  caption: Blinky Ball RGB PCB slice detail
+  archived: https://web.archive.org/web/20250907230318/https://hackaday.io/project/159292-blinky-ball-rgb
 contact: {}
 notes:
 - The Hackaday.io page calls it "Blinky Ball (RGB)"; the community sheet appended "Badge" to the title, but the project page never describes it as a con badge — it reads as a personal wearable/lamp piece that the makers demonstrated at DEF CON 26.
@@ -67,16 +70,18 @@ sources:
   title: Blinky Ball (RGB) Badge
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: dc26-dc27-sao-wave); event read as ''DEF CON 26''.'
+  archived: https://web.archive.org/web/20250907230318/https://hackaday.io/project/159292-blinky-ball-rgb
 - kind: url
   url: https://hackaday.io/project/159292-blinky-ball-rgb
   title: Blinky Ball (RGB) - Hackaday.io project page
   accessed: '2026-09-07'
   note: Primary source for maker names, components, LED count, history/timeline, and photos.
+  archived: https://web.archive.org/web/20250907230318/https://hackaday.io/project/159292-blinky-ball-rgb
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'Core facts (makers, LEDs, MCU, sensors, event) come from the maker''s own Hackaday.io project page, so most fields are solid. Confidence held at medium rather than high because price, quantity sold, and current availability are not stated anywhere on the page, and it is unclear whether this was ever distributed as a wearable con badge versus shown/demoed as an art piece. No independent second source was found to corroborate the DEF CON 26 appearance.'
+  notes: Core facts (makers, LEDs, MCU, sensors, event) come from the maker's own Hackaday.io project page, so most fields are solid. Confidence held at medium rather than high because price, quantity sold, and current availability are not stated anywhere on the page, and it is unclear whether this was ever distributed as a wearable con badge versus shown/demoed as an art piece. No independent second source was found to corroborate the DEF CON 26 appearance.
 last_modified_date: '2026-09-07'
 ---
 

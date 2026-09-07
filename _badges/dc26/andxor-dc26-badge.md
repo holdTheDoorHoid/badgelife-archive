@@ -12,7 +12,7 @@ makers:
 - name: AND!XOR
   url: https://twitter.com/ANDnXOR
 summary: 'AND!XOR''s DEF CON 26 indie badge, subtitled "The Wild West of IoT": an ESP32-WROVER badge with a 220x176 color LCD, IS31FL3736-driven LEDs, a UART console, games, puzzles, the LULZCODE scripting interpreter, badge-to-badge wireless features and a Shitty Add-On connector, crowdfunded on Kickstarter in 2018.'
-functions: 'A menu-driven UI (seen on-badge as "Bling", "Botnet", "Games", "Settings", "Wifi On") with embedded games and puzzles, hardware hacking challenges reachable over a UART console, badge-to-badge wireless ("Botnet") features, and the custom LULZCODE scripting language (an extension of LOLCODE) for writing badge scripts.'
+functions: A menu-driven UI (seen on-badge as "Bling", "Botnet", "Games", "Settings", "Wifi On") with embedded games and puzzles, hardware hacking challenges reachable over a UART console, badge-to-badge wireless ("Botnet") features, and the custom LULZCODE scripting language (an extension of LOLCODE) for writing badge scripts.
 look:
   colors:
   - red
@@ -41,7 +41,7 @@ get_one:
   availability: unknown
   distribution:
   - crowdfunding
-  where: 'Crowdfunded via Kickstarter (campaign page could not be reached for pricing/quantity details; site returned a bot-check page during research).'
+  where: Crowdfunded via Kickstarter (campaign page could not be reached for pricing/quantity details; site returned a bot-check page during research).
 make_your_own:
   open_source: null
   hardware_url: null
@@ -51,6 +51,7 @@ links:
 - label: hackaday.io/project/28389-andxor-dc26-badge
   url: https://hackaday.io/project/28389-andxor-dc26-badge
   kind: hackaday
+  archived: https://web.archive.org/web/20260415041532/https://hackaday.io/project/28389-andxor-dc26-badge
 - label: www.kickstarter.com/projects/hyr0n/andxor-defcon-26-indie-badge
   url: https://www.kickstarter.com/projects/hyr0n/andxor-defcon-26-indie-badge
   kind: store
@@ -60,15 +61,18 @@ links:
 - label: twitter.com/ANDnXOR
   url: https://twitter.com/ANDnXOR
   kind: social
+  archived: https://web.archive.org/web/20260617181253/https://twitter.com/ANDnXOR
 images:
 - file: assets/images/badges/dc26/andxor-dc26-badge/1c485120ab.jpg
-  source: "https://hackaday.io/project/28389-andxor-dc26-badge"
-  credit: "AND!XOR"
-  caption: "AND!XOR DC26 badge, front view, powered on and showing its menu"
+  source: https://hackaday.io/project/28389-andxor-dc26-badge
+  credit: AND!XOR
+  caption: AND!XOR DC26 badge, front view, powered on and showing its menu
+  archived: https://web.archive.org/web/20260415041532/https://hackaday.io/project/28389-andxor-dc26-badge
 - file: assets/images/badges/dc26/andxor-dc26-badge/8b45492ff2.png
-  source: "https://hackaday.io/project/28389-andxor-dc26-badge"
-  credit: "AND!XOR"
-  caption: "AND!XOR DC26 badge PCB artwork: a robotic skull wearing a cowboy hat"
+  source: https://hackaday.io/project/28389-andxor-dc26-badge
+  credit: AND!XOR
+  caption: 'AND!XOR DC26 badge PCB artwork: a robotic skull wearing a cowboy hat'
+  archived: https://web.archive.org/web/20260415041532/https://hackaday.io/project/28389-andxor-dc26-badge
 contact: {}
 notes: []
 status: released
@@ -78,11 +82,13 @@ sources:
   title: AND!XOR DC26 Badge
   accessed: '2026-09-06'
   note: Found via the project's link list; intake pass identified this item here.
+  archived: https://web.archive.org/web/20260415041532/https://hackaday.io/project/28389-andxor-dc26-badge
 - kind: url
   url: https://hackaday.io/project/28389-andxor-dc26-badge
   title: AND!XOR DC26 Badge (Hackaday.io project page)
   accessed: '2026-09-07'
   note: Confirmed maker (AND!XOR, team of five including Zapp, Andrew, Hyr0n, bitstr3m), event (DEF CON 26, Aug 9-12 2018, Caesars Palace), MCU (ESP32-WROVER), display (220x176 color LCD, upgraded from a 128x128 prototype), IS31FL3736 LED driver, Greenpak debouncing, CP2102N USB-UART bridge, LULZCODE scripting, Shitty Add-On support, and open-source-after-the-con plan for hardware/firmware. Also source of the two saved photos (front view with menu, and PCB skull/cowboy artwork).
+  archived: https://web.archive.org/web/20260415041532/https://hackaday.io/project/28389-andxor-dc26-badge
 - kind: url
   url: https://www.kickstarter.com/projects/hyr0n/andxor-defcon-26-indie-badge
   title: AND!XOR DEFCON 26 Indie Badge (Kickstarter)
@@ -92,7 +98,7 @@ research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'Core facts (maker, event/year, MCU, display, LED driver, connectivity, functions, open-source plan) confirmed from the Hackaday.io project page. Price, quantity produced, and exact availability could not be confirmed because Kickstarter blocked both WebFetch and curl with a Cloudflare challenge; the LULZCODE geocities mirror also returned 403. tech.leds.count/type, tech.battery, and make_your_own URLs remain unconfirmed and left empty. A GitHub repo for the hardware/firmware was mentioned as planned post-con but no confirmed URL was found in the sources actually read.'
+  notes: Core facts (maker, event/year, MCU, display, LED driver, connectivity, functions, open-source plan) confirmed from the Hackaday.io project page. Price, quantity produced, and exact availability could not be confirmed because Kickstarter blocked both WebFetch and curl with a Cloudflare challenge; the LULZCODE geocities mirror also returned 403. tech.leds.count/type, tech.battery, and make_your_own URLs remain unconfirmed and left empty. A GitHub repo for the hardware/firmware was mentioned as planned post-con but no confirmed URL was found in the sources actually read.
 last_modified_date: '2026-09-07'
 ---
 

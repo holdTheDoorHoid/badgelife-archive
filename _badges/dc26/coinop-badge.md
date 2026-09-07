@@ -14,9 +14,13 @@ makers:
 summary: A Galaga-ship-shaped PCB badge by Mike Szczys with an ATmega48 driving 18 red and blue charlieplexed LEDs, two buttons, powered by a CR2032 coin cell; about 59 boards were hand-assembled and handed out at DEF CON 26 in 2018.
 functions: Two buttons fire "lasers," cycle through LED visualizations, and put the badge to sleep. The ATmega48 charlieplexes the LEDs at a 1/6 duty cycle, 1kHz scan rate to keep power draw low; firmware sleep current is about 4.3 microamps (0.1 microamps when switched off).
 look:
-  colors: [red, blue]
+  colors:
+  - red
+  - blue
   shape: spaceship
-  themes: [arcade, retro computer]
+  themes:
+  - arcade
+  - retro computer
 tech:
   mcu: ATmega48
   leds:
@@ -25,7 +29,8 @@ tech:
     note: 18 red and either 3 or 4 blue 0603 diffuse LEDs (sources disagree on the exact blue count — see notes).
   display: none
   connectivity: []
-  inputs: [buttons]
+  inputs:
+  - buttons
   battery: CR2032
   sao_version: none
 get_one:
@@ -34,10 +39,11 @@ get_one:
   quantity: '59'
   availability: sold_out
   availability_note: 'Checked 2026-09-07: hand-made batch of 59 was given out at DEF CON 26 (2018); no ongoing storefront found.'
-  distribution: [free_drop]
+  distribution:
+  - free_drop
   where: Handed out by the maker at DEF CON 26 in Las Vegas, 2018.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/szczys/coinop-badge
   firmware_url: https://github.com/szczys/coinop-badge
   gerbers_url: null
@@ -53,17 +59,20 @@ links:
 - label: hackaday.io/project/159302-coinop-badge
   url: https://hackaday.io/project/159302-coinop-badge
   kind: hackaday
+  archived: https://web.archive.org/web/20260216122653/https://hackaday.io/project/159302-coinop-badge
 - label: hackaday.com/2018/09/05/all-the-badges-of-def-con-26-vol-4
   url: https://hackaday.com/2018/09/05/all-the-badges-of-def-con-26-vol-4/
   kind: article
 - label: www.youtube.com/watch?v=faJSoZDbjUw
   url: https://www.youtube.com/watch?v=faJSoZDbjUw
   kind: video
+  archived: https://web.archive.org/web/20260907115420/https://www.youtube.com/watch?v=faJSoZDbjUw
 images:
-  - file: assets/images/badges/dc26/coinop-badge/25bfcd3599.jpg
-    source: "https://hackaday.io/project/159302-coinop-badge"
-    credit: "Mike Szczys"
-    caption: "CoinOp Badge, a Galaga-ship-shaped PCB badge with charlieplexed LEDs"
+- file: assets/images/badges/dc26/coinop-badge/25bfcd3599.jpg
+  source: https://hackaday.io/project/159302-coinop-badge
+  credit: Mike Szczys
+  caption: CoinOp Badge, a Galaga-ship-shaped PCB badge with charlieplexed LEDs
+  archived: https://web.archive.org/web/20260216122653/https://hackaday.io/project/159302-coinop-badge
 contact: {}
 notes: []
 status: released
@@ -78,9 +87,10 @@ sources:
   title: CoinOp Badge project page (Hackaday.io)
   accessed: '2026-09-07'
   note: Confirmed maker, event context, ATmega48/LED/button/battery specs, 59 units hand-assembled, and provided the badge photo used here. States 4 blue LEDs.
+  archived: https://web.archive.org/web/20260216122653/https://hackaday.io/project/159302-coinop-badge
 - kind: url
   url: https://hackaday.com/2018/09/05/all-the-badges-of-def-con-26-vol-4/
-  title: "All The Badges Of DEF CON 26: Vol. 4 (Hackaday)"
+  title: 'All The Badges Of DEF CON 26: Vol. 4 (Hackaday)'
   accessed: '2026-09-07'
   note: Independent confirmation of DEF CON 26 (2018), ATmega48, CR2032, two buttons, and 59 hand-built boards. States 3 blue LEDs (not 4).
 research:
