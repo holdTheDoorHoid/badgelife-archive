@@ -30,7 +30,7 @@ tech:
   battery: powered by host badge
   sao_version: null
 get_one:
-  price: "$50"
+  price: $50
   price_usd: 50.0
   quantity: ''
   availability: sold_out
@@ -56,11 +56,17 @@ links:
   url: https://github.com/MakeItHackin/RootAccessI2cApp
   title: MakeItHackin/RootAccessI2cApp
   label: On-badge I2C companion app for DC34 badge firmware (experimental)
+- label: uberflux.com/product/MIH-RootAccessSao
+  url: https://uberflux.com/product/MIH-RootAccessSao
+  kind: store
+- label: www.youtube.com/watch?v=q30KheOV6QE
+  url: https://www.youtube.com/watch?v=q30KheOV6QE
+  kind: video
 images:
 - file: assets/images/badges/dc34/root-access-sao/ddbcc11091.jpg
-  source: "https://makeithackin.myshopify.com/products/root-access-sao"
-  credit: "MakeItHackin"
-  caption: "Root Access SAO, cedar wood body with NeoPixel LEDs"
+  source: https://makeithackin.myshopify.com/products/root-access-sao
+  credit: MakeItHackin
+  caption: Root Access SAO, cedar wood body with NeoPixel LEDs
 contact:
   discord: makeithackin
   emails:

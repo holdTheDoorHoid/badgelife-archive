@@ -5,7 +5,7 @@ parent: Badge Archive
 has_children: true
 has_toc: false
 nav_order: 7980
-nav_exclude: true
+nav_exclude: false
 event: dc28
 ---
 # DEF CON 28 (Safe Mode)

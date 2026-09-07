@@ -5,7 +5,7 @@ parent: Badge Archive
 has_children: true
 has_toc: false
 nav_order: 7975
-nav_exclude: true
+nav_exclude: false
 event: supercon-2025
 ---
 # Hackaday Supercon 9 (2025)

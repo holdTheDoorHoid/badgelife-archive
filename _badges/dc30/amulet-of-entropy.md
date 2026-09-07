@@ -56,7 +56,7 @@ get_one:
   price_usd: 79.0
   quantity: ''
   availability: sold_out
-  availability_note: hackerboxes.com listed HackerBox #0080 and the DC30 Badge Bundle as sold out when checked 2026-09-06; the maker's page says the same and that he kept three unopened kits for giveaways.
+  availability_note: hackerboxes.com listed HackerBox
   distribution:
   - purchase
   - kit
@@ -70,7 +70,7 @@ make_your_own:
   eda_tool: null
   license: MIT (firmware)
   fab_url: null
-  notes: 'PDF schematics for the Main Board and Display Board are attached to step 3 ("Amulet of Entropy Badge") of the Instructables guide, and the firmware plus image assets are on GitHub under MIT. No Gerbers or EDA project files were found. The Main Board carries a PCBWay logo and the guide thanks PCBWay for sponsoring the project, but no PCBWay shared project was found.'
+  notes: PDF schematics for the Main Board and Display Board are attached to step 3 ("Amulet of Entropy Badge") of the Instructables guide, and the firmware plus image assets are on GitHub under MIT. No Gerbers or EDA project files were found. The Main Board carries a PCBWay logo and the guide thanks PCBWay for sponsoring the project, but no PCBWay shared project was found.
 links:
 - label: hackerboxes.com
   url: https://hackerboxes.com
@@ -102,6 +102,12 @@ links:
 - label: 2022 BadgeLife List thread on the DEF CON forums
   url: https://forum.defcon.org/node/240869
   kind: social
+- label: firewallsdontstopdragons.com
+  url: https://firewallsdontstopdragons.com/
+  kind: website
+- label: podcast.firewallsdontstopdragons.com
+  url: https://podcast.firewallsdontstopdragons.com/
+  kind: website
 images:
 - file: assets/images/badges/dc30/amulet-of-entropy/7a3bd84c77.jpg
   source: https://firewallsdontstopdragons.com/amulet-of-entropy/
@@ -119,7 +125,7 @@ contact: {}
 notes:
 - They are $45 if you have the sub but $79 if alone/also there is a badge box available
 - The community sheet titled it "Amulet of Entropy!!" and credited "HackerBoxes/bananajr"; the makers call it Amulet of Entropy (AoE). The DEF CON forum user bananajr (profile title "Author, Podcast Host") posted it as "my first badge, developed with HackerBoxes.com" with a link to amuletofentropy.com, which matches Carey Parker's own account of creating it, so bananajr is taken to be Parker's forum handle.
-- The "badge box" in the sheet note is the DC30 Badge Bundle, which packaged this kit with HackerBox #0074 Battle Axe and #0068 SAO Showcase.
+- The "badge box" in the sheet note is the DC30 Badge Bundle, which packaged this kit with HackerBox
 status: released
 sources:
 - kind: sheet
@@ -135,7 +141,7 @@ sources:
   url: https://hackerboxes.com/products/dc30-badge-bundle
   title: DC30 Badge Bundle - HackerBoxes
   accessed: '2026-09-06'
-  note: $217 bundle of HackerBox #0080, #0074 and #0068 listed 2022-07-11; sold out.
+  note: $217 bundle of HackerBox
 - kind: url
   url: https://www.instructables.com/HackerBox-0080-Entropy/
   title: 'HackerBox 0080: Entropy : 13 Steps - Instructables'
@@ -175,7 +181,8 @@ research:
   status: verified
   confidence: high
   last_checked: '2026-09-06'
-  notes: 'Core facts come from the makers'' own pages (HackerBoxes product page and Instructables, Carey Parker''s blog and GitHub); checked claim by claim on 2026-09-06, including the Shopify product JSON for the 1 and 11 July 2022 listing dates and the two schematic PDFs, which show the MMBT3904 shot-noise circuit and no SAO header. Not found: number of kits made, the exact subscriber price (the sheet''s $45 is the only source), Gerbers or EDA files, a PCBWay shared project, a recording of the DEF CON 30 CPV talk, and any Hackaday or Reddit coverage. Minor disagreements: the GitHub README says the project took about 8 months, while Parker''s blog says it was kept under wraps for "9 months or so"; the blog post is dated 8 July 2022 but was last modified in 2024, so its sold-out note may have been added after that date. bananajr is identified as Carey Parker by inference: the forum user claims the badge as "my first badge" and links amuletofentropy.com. The full kit parts list and both schematics contain no SAO header, so sao_version is recorded as none. The Instructables page renders client-side; its text was read through the site''s JSON model endpoint. The DC30 Badge Bundle page has HackerBox #0068 as "SAO Showcase" (15 SAOs plus an SAO Power Badge) and #0074 "Battle Axe" as separate badge kits sold for DC30.'
+  notes: 'Core facts come from the makers'' own pages (HackerBoxes product page and Instructables, Carey Parker''s blog and GitHub); checked claim by claim on 2026-09-06, including the Shopify product JSON for the 1 and 11 July 2022 listing dates and the two schematic PDFs, which show the MMBT3904 shot-noise circuit and no SAO header. Not found: number of kits made, the exact subscriber price (the sheet''s $45 is the only source), Gerbers or EDA files, a PCBWay shared project, a recording of the DEF CON 30 CPV talk, and any Hackaday or Reddit coverage. Minor disagreements: the GitHub README says the project took about 8 months, while Parker''s blog says it was kept under wraps for "9 months or so"; the blog post is dated 8 July 2022 but was last modified in 2024, so its sold-out note may have been added after that date. bananajr is identified as Carey Parker by inference: the forum user claims the badge as "my first badge" and links amuletofentropy.com. The full kit parts list and both schematics
+    contain no SAO header, so sao_version is recorded as none. The Instructables page renders client-side; its text was read through the site''s JSON model endpoint. The DC30 Badge Bundle page has HackerBox #0068 as "SAO Showcase" (15 SAOs plus an SAO Power Badge) and #0074 "Battle Axe" as separate badge kits sold for DC30.'
 last_modified_date: '2026-09-06'
 ---
 The Amulet of Entropy is the first indie badge from Carey Parker, the author and podcaster behind *Firewalls Don't Stop Dragons* (he posts on the DEF CON forums as bananajr). After his first DEF CON in 2021 he wanted to make something for the thirtieth anniversary con, and a call for advice with Joe Long of HackerBoxes turned into a collaboration: HackerBoxes designed the hardware and produced it as their monthly kit, HackerBox #0080 "Entropy", while Parker wrote the software in C/C++. The project took about eight months off and on by Parker's account on GitHub (his blog says it was kept under wraps for nine months or so), and they revealed it on the 4 July 2022 "Necessary Chaos" podcast episode, the same day the Instructables build guide went live.

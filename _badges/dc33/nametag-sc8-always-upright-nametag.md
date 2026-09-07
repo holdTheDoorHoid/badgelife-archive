@@ -39,6 +39,18 @@ links:
 - label: basic.truecontrol.org
   url: https://basic.truecontrol.org
   kind: website
+- label: hackaday.io/project/198536-gat-nametag-sc8
+  url: https://hackaday.io/project/198536-gat-nametag-sc8
+  kind: hackaday
+- label: basic.truecontrol.org/database/sc8/nametag
+  url: https://basic.truecontrol.org/database/sc8/nametag/
+  kind: website
+- label: git.trueserve.org/trueControl/sc8-nametag.git
+  url: https://git.trueserve.org/trueControl/sc8-nametag.git
+  kind: website
+- label: hackaday.io/project/198536/files
+  url: https://hackaday.io/project/198536/files
+  kind: hackaday
 images: []
 contact:
   emails:

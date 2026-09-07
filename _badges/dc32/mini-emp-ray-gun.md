@@ -35,7 +35,19 @@ make_your_own:
   hardware_url: null
   firmware_url: null
   eda_tool: null
-links: []
+links:
+- label: github.com/Embedded-Systems-Village/DEFCON32-Raygun
+  url: https://github.com/Embedded-Systems-Village/DEFCON32-Raygun
+  kind: repo
+- label: raw.githubusercontent.com/Embedded-Systems-Village/DEFCON32-Raygun/main/README.md
+  url: https://raw.githubusercontent.com/Embedded-Systems-Village/DEFCON32-Raygun/main/README.md
+  kind: website
+- label: x.com/EmbeddedVillage/status/1819106299206160657
+  url: https://x.com/EmbeddedVillage/status/1819106299206160657
+  kind: social
+- label: x.com/EmbeddedVillage/status/1819394650488119764
+  url: https://x.com/EmbeddedVillage/status/1819394650488119764
+  kind: social
 images: []
 contact: {}
 notes:

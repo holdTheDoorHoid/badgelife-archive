@@ -1,140 +1,446 @@
-# Events that badges and SAOs are catalogued under.
-# Key = event id used in entry front matter (`event:`) and in _badges/<event>/ paths.
-# family groups events for filtering: defcon, supercon, bsides, camp, other.
-# Add new events here before adding entries for them.
-
+# Events that badges and SAOs are catalogued under. Key = event id.
 dc24:
   name: DEF CON 24
   short: DC24
   year: 2016
   family: defcon
-  dates: "August 4–7, 2016"
-  location: "Paris & Bally's, Las Vegas, NV"
+  dates: August 4–7, 2016
+  location: Paris & Bally's, Las Vegas, NV
 dc25:
   name: DEF CON 25
   short: DC25
   year: 2017
   family: defcon
-  dates: "July 27–30, 2017"
-  location: "Caesars Palace, Las Vegas, NV"
+  dates: July 27–30, 2017
+  location: Caesars Palace, Las Vegas, NV
 dc26:
   name: DEF CON 26
   short: DC26
   year: 2018
   family: defcon
-  dates: "August 9–12, 2018"
-  location: "Caesars Palace & Flamingo, Las Vegas, NV"
-  notes: "The year Shitty Add-Ons (SAO v1) took off."
+  dates: August 9–12, 2018
+  location: Caesars Palace & Flamingo, Las Vegas, NV
+  notes: The year Shitty Add-Ons (SAO v1) took off.
 dc27:
   name: DEF CON 27
   short: DC27
   year: 2019
   family: defcon
-  dates: "August 8–11, 2019"
-  location: "Paris, Bally's, Planet Hollywood & Flamingo, Las Vegas, NV"
-  notes: "First year of the SAO v1.69bis (6-pin) connector."
+  dates: August 8–11, 2019
+  location: Paris, Bally's, Planet Hollywood & Flamingo, Las Vegas, NV
+  notes: First year of the SAO v1.69bis (6-pin) connector.
 dc28:
   name: DEF CON 28 (Safe Mode)
   short: DC28
   year: 2020
   family: defcon
-  dates: "August 6–9, 2020"
-  location: "Online (Safe Mode)"
+  dates: August 6–9, 2020
+  location: Online (Safe Mode)
 dc29:
   name: DEF CON 29
   short: DC29
   year: 2021
   family: defcon
-  dates: "August 5–8, 2021"
-  location: "Paris & Bally's, Las Vegas, NV (hybrid)"
+  dates: August 5–8, 2021
+  location: Paris & Bally's, Las Vegas, NV (hybrid)
 dc30:
   name: DEF CON 30
   short: DC30
   year: 2022
   family: defcon
-  dates: "August 11–14, 2022"
-  location: "Caesars Forum, Las Vegas, NV"
+  dates: August 11–14, 2022
+  location: Caesars Forum, Las Vegas, NV
   sheet: https://docs.google.com/spreadsheets/d/1cu99HozImdjNqTEM8iFsNzNswNw5De0Oe_hax3ywZ2U/edit?usp=sharing
 dc31:
   name: DEF CON 31
   short: DC31
   year: 2023
   family: defcon
-  dates: "August 10–13, 2023"
-  location: "Caesars Forum, Las Vegas, NV"
+  dates: August 10–13, 2023
+  location: Caesars Forum, Las Vegas, NV
   sheet: https://docs.google.com/spreadsheets/d/1ll9GVWq1jELk79OyfdalMrgccdF3AGo2qEQIxnKsXdY/edit?usp=sharing
 dc32:
   name: DEF CON 32
   short: DC32
   year: 2024
   family: defcon
-  dates: "August 8–11, 2024"
-  location: "Las Vegas Convention Center, Las Vegas, NV"
+  dates: August 8–11, 2024
+  location: Las Vegas Convention Center, Las Vegas, NV
   sheet: https://docs.google.com/spreadsheets/d/1POGyxIY4eBrXeD2hWqKz8fm9uuuy7yG1XwhVF1pnmzI/edit?usp=sharing
 dc33:
   name: DEF CON 33
   short: DC33
   year: 2025
   family: defcon
-  dates: "August 7–10, 2025"
-  location: "Las Vegas Convention Center, Las Vegas, NV"
+  dates: August 7–10, 2025
+  location: Las Vegas Convention Center, Las Vegas, NV
   sheet: https://docs.google.com/spreadsheets/d/1_eJnHTbvm-uhvslkRayfEJ99Z5agVZCl1GPqbFqwMFg/edit?usp=sharing
 dc34:
   name: DEF CON 34
   short: DC34
   year: 2026
   family: defcon
-  dates: "August 6–9, 2026"
-  location: "Las Vegas Convention Center, Las Vegas, NV"
+  dates: August 6–9, 2026
+  location: Las Vegas Convention Center, Las Vegas, NV
   sheet: https://docs.google.com/spreadsheets/d/1wQ6J0tJiVCPgppxiPg_mM6mS6Il-jm3Ez1fj3a-7XRs/edit?usp=sharing
-
 supercon-2017:
   name: Hackaday Superconference 2017
   short: Supercon 2017
   year: 2017
   family: supercon
-  location: "Pasadena, CA"
+  location: Pasadena, CA
 supercon-2018:
   name: Hackaday Superconference 2018
   short: Supercon 2018
   year: 2018
   family: supercon
-  location: "Pasadena, CA"
+  location: Pasadena, CA
 supercon-2019:
   name: Hackaday Superconference 2019
   short: Supercon 2019
   year: 2019
   family: supercon
-  location: "Pasadena, CA"
+  location: Pasadena, CA
 supercon-2022:
   name: Hackaday Superconference 2022
   short: Supercon 2022
   year: 2022
   family: supercon
-  location: "Pasadena, CA"
+  location: Pasadena, CA
 supercon-2023:
   name: Hackaday Superconference 2023
   short: Supercon 2023
   year: 2023
   family: supercon
-  location: "Pasadena, CA"
+  location: Pasadena, CA
 supercon-2024:
   name: Hackaday Supercon 8 (2024)
   short: Supercon 2024
   year: 2024
   family: supercon
-  location: "Pasadena, CA"
-  notes: "Supercon 8 had a dedicated SAO contest and the Add-On Badge."
+  location: Pasadena, CA
+  notes: Supercon 8 had a dedicated SAO contest and the Add-On Badge.
 supercon-2025:
   name: Hackaday Supercon 9 (2025)
   short: Supercon 2025
   year: 2025
   family: supercon
-  location: "Pasadena, CA"
-
+  location: Pasadena, CA
 other:
   name: Other / unaffiliated
   short: Other
   year: 0
   family: other
-  notes: "Not tied to a specific event, or the event is not known yet."
+  notes: Not tied to a specific event, or the event is not known yet.
+dc23:
+  name: DEF CON 23
+  short: DC23
+  year: 2015
+  family: defcon
+  location: Paris & Bally's, Las Vegas, NV
+fri3d-2022:
+  name: Fri3d Camp 2022
+  short: Fri3d 2022
+  year: 2022
+  family: camp
+  location: Hopper Youth Residence De Kluis, Sint-Joris-Weert, Belgium (August 12-14, 2022)
+fri3d-2018:
+  name: Fri3d Camp 2018
+  short: Fri3d 2018
+  year: 2018
+  family: camp
+  location: Belgium
+hackaday-europe-2026:
+  name: Hackaday Europe 2026
+  short: Hackaday Europe 2026
+  year: 2026
+  family: supercon
+  location: Lecco, Italy
+oshwdem-2017:
+  name: OSHWDem 2017
+  short: OSHWDem 2017
+  year: 2017
+  family: other
+  location: A Coruña, Spain
+cccamp-2019:
+  name: Chaos Communication Camp 2019
+  short: CCCamp19
+  year: 2019
+  family: camp
+  location: Ziegeleipark Mildenberg, Zehdenick, Germany
+carolinacon-16:
+  name: CarolinaCon 16
+  short: CC16
+  year: 2020
+  family: other
+  location: Charlotte, NC
+carolinacon-online-2021:
+  name: CarolinaCon Online 2021
+  short: CarolinaCon Online
+  year: 2021
+  family: other
+  location: Online (virtual; volunteer-run hacker con based in North Carolina), April 23–25, 2021
+hackaday-europe-2025:
+  name: Hackaday Europe 2025
+  short: HaD Europe 2025
+  year: 2025
+  family: supercon
+  location: Berlin, Germany
+bsides-orlando-2018:
+  name: BSides Orlando 2018
+  short: BSides Orlando 2018
+  year: 2018
+  family: bsides
+  location: ''
+bsides-orlando-2019:
+  name: BSides Orlando 2019
+  short: BSides Orlando 2019
+  year: 2019
+  family: bsides
+  location: ''
+bsides-jacksonville-2018:
+  name: BSides Jacksonville 2018
+  short: BSides Jacksonville 2018
+  year: 2018
+  family: bsides
+  location: ''
+thotcon-2024:
+  name: Thotcon 2024
+  short: Thotcon 2024
+  year: 2024
+  family: other
+  location: ''
+thotcon-2018:
+  name: Thotcon 2018
+  short: Thotcon 2018
+  year: 2018
+  family: other
+  location: ''
+thotcon-2017:
+  name: Thotcon 2017
+  short: Thotcon 2017
+  year: 2017
+  family: other
+  location: ''
+thotcon-2013:
+  name: Thotcon 2013
+  short: Thotcon 2013
+  year: 2013
+  family: other
+  location: ''
+thotcon-2014:
+  name: Thotcon 2014
+  short: Thotcon 2014
+  year: 2014
+  family: other
+  location: ''
+supercon-2020:
+  name: Hackaday Supercon 2020
+  short: Hackaday Supercon 2020
+  year: 2020
+  family: supercon
+  location: Pasadena, CA
+supercon-2026:
+  name: Hackaday Supercon 2026
+  short: Hackaday Supercon 2026
+  year: 2026
+  family: supercon
+  location: Pasadena, CA
+bsides-jacksonville-2023:
+  name: BSides Jacksonville 2023
+  short: BSides Jacksonville 2023
+  year: 2023
+  family: bsides
+  location: ''
+saintcon-2017:
+  name: Saintcon 2017
+  short: Saintcon 2017
+  year: 2017
+  family: other
+  location: ''
+saintcon-2022:
+  name: Saintcon 2022
+  short: Saintcon 2022
+  year: 2022
+  family: other
+  location: ''
+saintcon-2023:
+  name: Saintcon 2023
+  short: Saintcon 2023
+  year: 2023
+  family: other
+  location: ''
+bsides-2016:
+  name: BSides 2016
+  short: BSides 2016
+  year: 2016
+  family: bsides
+  location: ''
+bsides-2024:
+  name: BSides 2024
+  short: BSides 2024
+  year: 2024
+  family: bsides
+  location: ''
+bsides-2025:
+  name: BSides 2025
+  short: BSides 2025
+  year: 2025
+  family: bsides
+  location: ''
+bsides-rochester-2019:
+  name: BSides Rochester 2019
+  short: BSides Rochester 2019
+  year: 2019
+  family: bsides
+  location: ''
+bsides-2026:
+  name: BSides 2026
+  short: BSides 2026
+  year: 2026
+  family: bsides
+  location: ''
+bsides-cape-town-2015:
+  name: BSides Cape Town 2015
+  short: BSides Cape Town 2015
+  year: 2015
+  family: bsides
+  location: ''
+bornhack-2026:
+  name: Bornhack 2026
+  short: Bornhack 2026
+  year: 2026
+  family: camp
+  location: ''
+emf-camp-2026:
+  name: EMF Camp 2026
+  short: EMF Camp 2026
+  year: 2026
+  family: camp
+  location: ''
+why-2025:
+  name: Why 2025
+  short: Why 2025
+  year: 2025
+  family: camp
+  location: ''
+bornhack-2024:
+  name: Bornhack 2024
+  short: Bornhack 2024
+  year: 2024
+  family: camp
+  location: ''
+emf-camp-2024:
+  name: EMF Camp 2024
+  short: EMF Camp 2024
+  year: 2024
+  family: camp
+  location: ''
+hackerhotel-2024:
+  name: Hackerhotel 2024
+  short: Hackerhotel 2024
+  year: 2024
+  family: camp
+  location: ''
+hackerhotel-2020:
+  name: Hackerhotel 2020
+  short: Hackerhotel 2020
+  year: 2020
+  family: camp
+  location: ''
+hackerhotel-2019:
+  name: Hackerhotel 2019
+  short: Hackerhotel 2019
+  year: 2019
+  family: camp
+  location: ''
+campzone-2020:
+  name: Campzone 2020
+  short: Campzone 2020
+  year: 2020
+  family: camp
+  location: ''
+campzone-2019:
+  name: Campzone 2019
+  short: Campzone 2019
+  year: 2019
+  family: camp
+  location: ''
+sha-2017:
+  name: Sha 2017
+  short: Sha 2017
+  year: 2017
+  family: camp
+  location: ''
+emf-camp-2012:
+  name: EMF Camp 2012
+  short: EMF Camp 2012
+  year: 2012
+  family: camp
+  location: ''
+fri3d-2024:
+  name: Fri3D 2024
+  short: Fri3D 2024
+  year: 2024
+  family: camp
+  location: ''
+saintcon-2026:
+  name: Saintcon 2026
+  short: Saintcon 2026
+  year: 2026
+  family: other
+  location: ''
+saintcon-2025:
+  name: Saintcon 2025
+  short: Saintcon 2025
+  year: 2025
+  family: other
+  location: ''
+saintcon-2024:
+  name: Saintcon 2024
+  short: Saintcon 2024
+  year: 2024
+  family: other
+  location: ''
+saintcon-2021:
+  name: Saintcon 2021
+  short: Saintcon 2021
+  year: 2021
+  family: other
+  location: ''
+supercon-2016:
+  name: Hackaday Supercon 2016
+  short: Hackaday Supercon 2016
+  year: 2016
+  family: supercon
+  location: Pasadena, CA
+supercon-2021:
+  name: Hackaday Supercon 2021
+  short: Hackaday Supercon 2021
+  year: 2021
+  family: supercon
+  location: Pasadena, CA
+cyphercon-2017:
+  name: Cyphercon 2017
+  short: Cyphercon 2017
+  year: 2017
+  family: other
+  location: ''
+cyphercon-2019:
+  name: Cyphercon 2019
+  short: Cyphercon 2019
+  year: 2019
+  family: other
+  location: ''
+shmoocon-2006:
+  name: Shmoocon 2006
+  short: Shmoocon 2006
+  year: 2006
+  family: other
+  location: ''
+hope-2008:
+  name: Hope 2008
+  short: Hope 2008
+  year: 2008
+  family: other
+  location: ''

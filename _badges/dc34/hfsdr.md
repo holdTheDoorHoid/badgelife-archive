@@ -36,7 +36,7 @@ get_one:
   - purchase
   where: Sold directly by the maker (Hackin7) around DEF CON 34; approx $75 with battery, $65 without.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/rhgndf/hfsdr/tree/main/hardware
   firmware_url: https://github.com/rhgndf/hfsdr/tree/main/ch32v305
   eda_tool: KiCad
@@ -48,11 +48,20 @@ links:
 - label: HFSDR web UI (WebUSB waterfall)
   url: https://rhgndf.github.io/hfsdr/
   kind: website
+- label: uberflux.com/product/HCK-hfsdr
+  url: https://uberflux.com/product/HCK-hfsdr
+  kind: store
+- label: uberflux.com/maker/hackin7
+  url: https://uberflux.com/maker/hackin7
+  kind: store
+- label: github.com/Hackin7
+  url: https://github.com/Hackin7
+  kind: repo
 images:
 - file: assets/images/badges/dc34/hfsdr/025f17e18b.png
-  source: "https://github.com/rhgndf/hfsdr"
-  credit: "Hackin7 / rhgndf"
-  caption: "The HFSDR badge board"
+  source: https://github.com/rhgndf/hfsdr
+  credit: Hackin7 / rhgndf
+  caption: The HFSDR badge board
 contact:
   discord: Hackin7
   emails:
@@ -67,24 +76,24 @@ sources:
   listing: New
 - kind: url
   url: https://github.com/rhgndf/hfsdr
-  title: "rhgndf/hfsdr: HFSDR host, firmware and hardware"
+  title: 'rhgndf/hfsdr: HFSDR host, firmware and hardware'
   accessed: '2026-09-06'
-  note: "Confirms function (0-300MHz SDR, 192kHz I/Q over USB, standalone FM mode), CH32V305 MCU, KiCad hardware, open-source firmware/hardware/host-software, and maker credits including Hackin7."
+  note: Confirms function (0-300MHz SDR, 192kHz I/Q over USB, standalone FM mode), CH32V305 MCU, KiCad hardware, open-source firmware/hardware/host-software, and maker credits including Hackin7.
 - kind: url
   url: https://github.com/Hackin7
-  title: "Hackin7 (Terence Chan Zun Mun) - GitHub"
+  title: Hackin7 (Terence Chan Zun Mun) - GitHub
   accessed: '2026-09-06'
-  note: "Confirms maker identity behind the Hackin7 handle; no DEF CON or badge mention on the profile itself."
+  note: Confirms maker identity behind the Hackin7 handle; no DEF CON or badge mention on the profile itself.
 - kind: url
   url: https://rhgndf.github.io/hfsdr/
-  title: "HFSDR web UI"
+  title: HFSDR web UI
   accessed: '2026-09-06'
-  note: "Live WebUSB-based waterfall/config interface for the device, linked from the repo README."
+  note: Live WebUSB-based waterfall/config interface for the device, linked from the repo README.
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-06'
-  notes: "The GitHub repo (built with collaborator rhgndf) documents the hardware/firmware/software in detail but never mentions DEF CON 34 by name - it reads as a general open-source SDR project, possibly originating from a hackathon ('Hack & Roll') credit found in the repo. The DC34 community sheet ties it to Hackin7 with a price of ~$75/$65 and Discord/email contact matching the GitHub account, so it is treated here as the badge/device Hackin7 sold at DC34. Could not find quantity made, LED count/type, battery spec, or an explicit software/hardware license. No independent (press/storefront) coverage of a DC34 sale was found."
+  notes: The GitHub repo (built with collaborator rhgndf) documents the hardware/firmware/software in detail but never mentions DEF CON 34 by name - it reads as a general open-source SDR project, possibly originating from a hackathon ('Hack & Roll') credit found in the repo. The DC34 community sheet ties it to Hackin7 with a price of ~$75/$65 and Discord/email contact matching the GitHub account, so it is treated here as the badge/device Hackin7 sold at DC34. Could not find quantity made, LED count/type, battery spec, or an explicit software/hardware license. No independent (press/storefront) coverage of a DC34 sale was found.
 last_modified_date: '2026-09-06'
 ---
 

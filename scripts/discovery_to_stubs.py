@@ -28,8 +28,8 @@ CON_FAMILIES = [
     (r"\bsupercon\s*(\d)\b", "supercon-n"),
     (r"\b(bsides\s*[a-z ]*?)\s*(20\d\d)", "bsides"),
     (r"\b(emf ?camp|electromagnetic field)\s*(20\d\d)", "camp"),
-    (r"\b(mch|sha|why|campzone|hackerhotel|fri3d(?: camp)?|bornhack|ccc|chaos communication (?:camp|congress)|\d\dc3)\s*-?\s*(20\d\d)?", "camp"),
-    (r"\b(shmoocon|thotcon|cyphercon|derbycon|toorcon|carolinacon|grrcon|hope|saintcon|cactuscon|wild west hackin.? fest|circle city con|kiwicon|northsec|hackfest|layer ?8|blue team con|shellcon|sector|converge|dakotacon)\s*-?\s*(\d{1,2}|20\d\d|x+[iv]*)?", "other"),
+    (r"\b(mch|sha|why|campzone|hackerhotel|fri3d(?: camp)?|bornhack|cccamp|chaos communication (?:camp|congress)|\d\dc3)\s*-?\s*(20\d\d)?", "camp"),
+    (r"\b(shmoocon|thotcon|cyphercon|derbycon|toorcon|carolinacon|grrcon|hope|saintcon|cactuscon|wild west hackin.? fest|circle city con|kiwicon|northsec|hackfest|layer ?8|blue team con|shellcon|sector|converge|dakotacon)\s*-?\s*(20\d\d|0x[0-9a-f]+|\d{1,2}|x+[iv]*)?", "other"),
 ]
 DEFCON_YEAR = {n: 1992 + n for n in range(1, 40)}  # DEF CON 1 = 1993 -> dc24 = 2016
 
@@ -64,8 +64,13 @@ def resolve_event(hint, year, events, new_events):
         m = re.search(pat, h)
         if m:
             name = m.group(1).strip()
+            name = {"fri3d camp": "fri3d", "chaos communication camp": "cccamp", "chaos communication congress": "ccc-congress", "cccamp": "cccamp"}.get(name, name)
             yr = m.group(2) if m.lastindex and m.lastindex >= 2 else None
+            if yr and yr.startswith("0x"):  # THOTCON hex numbering: 0x1 = 2010 ... 0xA = 2019, 0xB = 2022 (2020-21 skipped), 0xC = 2023 ...
+                n = int(yr, 16); yr = str(2009 + n) if n <= 10 else str(2011 + n)
+            if yr and len(yr) <= 2 and yr.isdigit() and year: yr = str(year)  # a bare edition number: fall back to the candidate's year
             yr = yr or (str(year) if year else "")
+            if not yr: return "other"  # no year at all: do not invent an event
             base = re.sub(r"[^a-z0-9]+", "-", name).strip("-")
             eid = f"{base}-{yr}" if yr else base
             pretty = name.title().replace("Bsides", "BSides").replace("Emf", "EMF").replace("Mch", "MCH").replace("Ccc", "CCC")

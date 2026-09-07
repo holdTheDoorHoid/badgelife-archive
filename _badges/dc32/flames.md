@@ -35,7 +35,22 @@ make_your_own:
   hardware_url: null
   firmware_url: null
   eda_tool: null
-links: []
+links:
+- label: hackaday.io/project/198535-flames
+  url: https://hackaday.io/project/198535-flames
+  kind: hackaday
+- label: hackaday.io/project/198535/logs
+  url: https://hackaday.io/project/198535/logs
+  kind: hackaday
+- label: basic.truecontrol.org/database/dc32/boeing-flames
+  url: https://basic.truecontrol.org/database/dc32/boeing-flames/
+  kind: website
+- label: git.trueserve.org/trueControl/dc32-flames-addon
+  url: https://git.trueserve.org/trueControl/dc32-flames-addon
+  kind: website
+- label: cdn.hackaday.io/files/1985358494121440/SCH_flames_gat_REV1.pdf
+  url: https://cdn.hackaday.io/files/1985358494121440/SCH_flames_gat_REV1.pdf
+  kind: hackaday
 images: []
 contact: {}
 notes: []

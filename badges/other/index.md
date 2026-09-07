@@ -5,7 +5,7 @@ parent: Badge Archive
 has_children: true
 has_toc: false
 nav_order: 10000
-nav_exclude: true
+nav_exclude: false
 event: other
 ---
 # Other / unaffiliated

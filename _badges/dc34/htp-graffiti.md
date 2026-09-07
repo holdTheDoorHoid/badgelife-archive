@@ -31,11 +31,11 @@ tech:
 get_one:
   price: $24
   price_usd: 24.0
-  quantity: '31 made (21 sold, 10 remaining as of 2026-09-06)'
+  quantity: 31 made (21 sold, 10 remaining as of 2026-09-06)
   availability: limited
   distribution:
   - purchase
-  where: 'Sold via Uberflux (uberflux.com), listed for pre-ship pickup at DEF CON 34 per the badge.life schedule; mail shipping ($4.99) or refund offered to buyers who could not attend.'
+  where: Sold via Uberflux (uberflux.com), listed for pre-ship pickup at DEF CON 34 per the badge.life schedule; mail shipping ($4.99) or refund offered to buyers who could not attend.
 make_your_own:
   open_source: null
   hardware_url: null
@@ -48,15 +48,21 @@ links:
 - label: youtu.be/ufYH1n0A5JY
   url: https://youtu.be/ufYH1n0A5JY
   kind: video
+- label: github.com/HogFillet/HTP-graffiti
+  url: https://github.com/HogFillet/HTP-graffiti
+  kind: repo
+- label: youtube.com/shorts/ufYH1n0A5JY
+  url: https://youtube.com/shorts/ufYH1n0A5JY
+  kind: video
 images:
-  - file: assets/images/badges/dc34/htp-graffiti/36c8893632.jpg
-    source: "https://uberflux.com/product/HTP-DC34"
-    credit: "HogFillet"
-    caption: "SAO HackThePlanet (HTP-DC34) product photo showing the graffiti artwork with LED cutouts"
-  - file: assets/images/badges/dc34/htp-graffiti/35d8b4ea81.jpg
-    source: "https://uberflux.com/product/HTP-DC34"
-    credit: "HogFillet"
-    caption: "SAO HackThePlanet (HTP-DC34) alternate product photo"
+- file: assets/images/badges/dc34/htp-graffiti/36c8893632.jpg
+  source: https://uberflux.com/product/HTP-DC34
+  credit: HogFillet
+  caption: SAO HackThePlanet (HTP-DC34) product photo showing the graffiti artwork with LED cutouts
+- file: assets/images/badges/dc34/htp-graffiti/35d8b4ea81.jpg
+  source: https://uberflux.com/product/HTP-DC34
+  credit: HogFillet
+  caption: SAO HackThePlanet (HTP-DC34) alternate product photo
 contact:
   discord: Hogfillet
   emails:
@@ -73,19 +79,19 @@ sources:
   listing: New
 - kind: url
   url: https://uberflux.com/product/HTP-DC34
-  title: "SAO HackThePlanet (HTP-DC34) - Uberflux"
+  title: SAO HackThePlanet (HTP-DC34) - Uberflux
   accessed: '2026-09-06'
-  note: "Maker name, price, circuit description (555 timer + 10-bit ripple counter, 8 LEDs, trimmer pot), button behavior, quantity sold/remaining, distribution/shipping terms, and product photos."
+  note: Maker name, price, circuit description (555 timer + 10-bit ripple counter, 8 LEDs, trimmer pot), button behavior, quantity sold/remaining, distribution/shipping terms, and product photos.
 - kind: url
   url: https://youtu.be/ufYH1n0A5JY
-  title: "HTP SAO v2 DC34"
+  title: HTP SAO v2 DC34
   accessed: '2026-09-06'
-  note: "Video linked from the store page demoing the SAO; page title only, video content itself could not be retrieved via fetch."
+  note: Video linked from the store page demoing the SAO; page title only, video content itself could not be retrieved via fetch.
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-06'
-  notes: 'The community sheet listed the maker as "FakeBobby" but the storefront and video credit "HogFillet" (matching the entry''s own Discord/handle contact fields), so makers was corrected to HogFillet. Store listing is titled "SAO HackThePlanet"; kept the sheet''s "HTP Graffiti" title since it plainly refers to the same graffiti-themed HTP-DC34 item and no maker page uses a different name outright. Could not confirm MCU family beyond "none" (it is 555-timer based, not microcontroller-driven), SAO header version, open-source status, or design files -- the store page does not mention schematics or a repo. Could not view the YouTube video content directly (fetch only returned page chrome), so functional details rely on the store page alone.'
+  notes: The community sheet listed the maker as "FakeBobby" but the storefront and video credit "HogFillet" (matching the entry's own Discord/handle contact fields), so makers was corrected to HogFillet. Store listing is titled "SAO HackThePlanet"; kept the sheet's "HTP Graffiti" title since it plainly refers to the same graffiti-themed HTP-DC34 item and no maker page uses a different name outright. Could not confirm MCU family beyond "none" (it is 555-timer based, not microcontroller-driven), SAO header version, open-source status, or design files -- the store page does not mention schematics or a repo. Could not view the YouTube video content directly (fetch only returned page chrome), so functional details rely on the store page alone.
 last_modified_date: '2026-09-06'
 ---
 

@@ -65,7 +65,16 @@ make_your_own:
   hardware_url: null
   firmware_url: null
   eda_tool: null
-links: []
+links:
+- label: www.h4irl1n3-m0gg3r5.com
+  url: https://www.h4irl1n3-m0gg3r5.com/
+  kind: website
+- label: www.h4irl1n3-m0gg3r5.com/content.js
+  url: https://www.h4irl1n3-m0gg3r5.com/content.js
+  kind: website
+- label: x.com/zeroo_patient
+  url: https://x.com/zeroo_patient
+  kind: social
 images: []
 contact:
   discord: batman_14j
@@ -83,18 +92,7 @@ research:
   status: researched
   confidence: low
   last_checked: '2026-09-06'
-  notes: >-
-    No external web presence found for the maker "Hairline Moggers" (also styled
-    H4irl1n3 M0gg3r5) or for this badge: web search, DuckDuckGo, and GitHub
-    searches for the maker name returned nothing relevant, and Hackaday.io has
-    no matching project. No storefront, repo, or press coverage was located.
-    All descriptive detail in this entry (functions, look, tech) comes from the
-    maker's own text on the community badge sheet, which is the only available
-    source; it could not be independently corroborated. Fields with no
-    supporting detail on the sheet (colors, shape, mcu, quantity, price_usd,
-    open-source status, images) are left empty rather than guessed. DEF CON 34
-    is an upcoming 2026 event, so this may be a not-yet-built or in-progress
-    project rather than one that has already shipped.
+  notes: 'No external web presence found for the maker "Hairline Moggers" (also styled H4irl1n3 M0gg3r5) or for this badge: web search, DuckDuckGo, and GitHub searches for the maker name returned nothing relevant, and Hackaday.io has no matching project. No storefront, repo, or press coverage was located. All descriptive detail in this entry (functions, look, tech) comes from the maker''s own text on the community badge sheet, which is the only available source; it could not be independently corroborated. Fields with no supporting detail on the sheet (colors, shape, mcu, quantity, price_usd, open-source status, images) are left empty rather than guessed. DEF CON 34 is an upcoming 2026 event, so this may be a not-yet-built or in-progress project rather than one that has already shipped.'
 last_modified_date: '2026-09-06'
 ---
 

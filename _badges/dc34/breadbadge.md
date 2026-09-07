@@ -30,13 +30,19 @@ get_one:
   quantity: ''
   availability: unknown
   distribution: []
-  where: "Listed by the maker (alee97422) on the DEF CON 34 community badge sheet at $80; no storefront or listing found online."
+  where: Listed by the maker (alee97422) on the DEF CON 34 community badge sheet at $80; no storefront or listing found online.
 make_your_own:
   open_source: null
   hardware_url: null
   firmware_url: null
   eda_tool: null
-links: []
+links:
+- label: uberflux.com/product/TW0N-breadbadge
+  url: https://uberflux.com/product/TW0N-breadbadge
+  kind: store
+- label: uberflux.com/maker/tw0nkus
+  url: https://uberflux.com/maker/tw0nkus
+  kind: store
 images: []
 contact:
   emails:
@@ -53,15 +59,7 @@ research:
   status: researched
   confidence: low
   last_checked: '2026-09-06'
-  notes: >-
-    No independent sources found. Searched the web (search engines, Hackaday.io,
-    GitHub) for "Breadbadge" and the maker handle "alee97422" and found no project
-    page, repo, storefront, or press coverage. The entry had no existing links to
-    follow. All fields here come only from the community badge sheet: a $80 DEF
-    CON 34 badge "geared toward quick breadboard prototyping," maker contact
-    Alee97422@gmail.com. Type, chip, LEDs, display, colors, shape, quantity, and
-    availability could not be confirmed and are left empty/unknown. If the maker
-    or a photo of the badge surfaces later, this entry should be revisited.
+  notes: 'No independent sources found. Searched the web (search engines, Hackaday.io, GitHub) for "Breadbadge" and the maker handle "alee97422" and found no project page, repo, storefront, or press coverage. The entry had no existing links to follow. All fields here come only from the community badge sheet: a $80 DEF CON 34 badge "geared toward quick breadboard prototyping," maker contact Alee97422@gmail.com. Type, chip, LEDs, display, colors, shape, quantity, and availability could not be confirmed and are left empty/unknown. If the maker or a photo of the badge surfaces later, this entry should be revisited.'
 last_modified_date: '2026-09-06'
 ---
 

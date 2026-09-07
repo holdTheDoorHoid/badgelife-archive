@@ -1,0 +1,58 @@
+---
+title: Defcon 27 Shitty Add-On's
+id: dc27-shitty-add-on-s
+layout: badge
+parent: DC27
+grand_parent: Badge Archive
+nav_exclude: true
+type: kit
+event: dc27
+year: 2019
+makers: []
+summary: ''
+functions: ''
+look:
+  colors: []
+  shape: null
+  themes: []
+tech:
+  mcu: null
+  leds: null
+  display: null
+  connectivity: []
+  battery: null
+  sao_version: null
+get_one:
+  price: ''
+  price_usd: null
+  quantity: ''
+  availability: unknown
+  distribution: []
+  where: ''
+make_your_own:
+  open_source: null
+  hardware_url: null
+  firmware_url: null
+  eda_tool: null
+links:
+- label: hackaday.io/project/166344-defcon-27-shitty-add-ons
+  url: https://hackaday.io/project/166344-defcon-27-shitty-add-ons
+  kind: hackaday
+images: []
+contact: {}
+notes: []
+status: listed
+sources:
+- kind: url
+  url: https://hackaday.io/project/166344-defcon-27-shitty-add-ons
+  title: Defcon 27 Shitty Add-On's
+  accessed: '2026-09-06'
+  note: 'Found by the archive''s discovery sweep (angle: hackaday-search); event read as ''DEF CON 27''.'
+research:
+  status: stub
+  confidence: low
+  last_checked: '2026-09-06'
+  notes: Imported from the community badge sheet; not yet researched.
+last_modified_date: '2026-09-06'
+---
+

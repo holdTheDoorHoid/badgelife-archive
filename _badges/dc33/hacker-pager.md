@@ -39,6 +39,15 @@ links:
 - label: shop.exploitee.rs/shop/p/the-hacker-pager
   url: https://shop.exploitee.rs/shop/p/the-hacker-pager
   kind: store
+- label: hackerpager.net
+  url: https://hackerpager.net/
+  kind: website
+- label: github.com/exploiteers/Meshtastic-Exploiteers-Hacker-Pager
+  url: https://github.com/exploiteers/Meshtastic-Exploiteers-Hacker-Pager
+  kind: repo
+- label: hackaday.com/2025/07/31/hands-on-the-hacker-pager
+  url: https://hackaday.com/2025/07/31/hands-on-the-hacker-pager/
+  kind: article
 images: []
 contact:
   raw:
