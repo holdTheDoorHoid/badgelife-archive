@@ -39,7 +39,7 @@ links: []
 images: []
 contact: {}
 notes: []
-status: listed_no_details
+status: unknown
 sources:
 - kind: sheet
   event: dc33
@@ -47,10 +47,19 @@ sources:
   tab: 2025 (expected makers)
   updated: ''
 research:
-  status: stub
+  status: researched
   confidence: low
   last_checked: '2026-09-06'
-  notes: Imported from the community badge sheet; not yet researched.
+  notes: >-
+    No independent trace of a maker called "DC Enterprise" was found. Searched
+    ("DC Enterprise" badge DEF CON 33; "DC Enterprise" DEF CON SAO badge;
+    "DC Enterprise" badgelife) via web search and search-engine fetches
+    (Google, Bing, DuckDuckGo — DuckDuckGo blocked the request behind a bot
+    challenge), plus a direct Hackaday.io search. None returned any project,
+    profile, storefront, or press mention matching this name. It is possible
+    the name is a misread/abbreviation from the community sheet, the maker
+    used a different public name, or nothing was ultimately brought/listed
+    beyond the sheet row. Leaving type, look, tech, and get_one fields empty
+    per the never-invent rule rather than guessing what was made.
 last_modified_date: '2026-09-06'
 ---
-

@@ -39,7 +39,7 @@ links: []
 images: []
 contact: {}
 notes: []
-status: listed_no_details
+status: unknown
 sources:
 - kind: sheet
   event: dc33
@@ -47,10 +47,27 @@ sources:
   tab: 2025 (expected makers)
   updated: ''
 research:
-  status: stub
+  status: researched
   confidence: low
   last_checked: '2026-09-06'
-  notes: Imported from the community badge sheet; not yet researched.
+  notes: >-
+    DC Punks (Kay Kidoutai and NeonPlaidPants) is a returning maker duo with
+    prior archive entries at DC30 (dc30-dc-punks), DC31
+    (dc31-shitpad-sao-cannot-wait-to-see-this-one), and DC32 (three items,
+    including a Tindie store at tindie.com/stores/dc_punks/ and a Twitter/X
+    handle @defconpunks), but the DC33 community sheet only lists them as an
+    expected maker for 2025 with no item name or details in that row. Could
+    not determine what, if anything, they brought to DEF CON 33: their Tindie
+    store returned a Cloudflare bot-check page on every fetch attempt, x.com
+    returned an access-restricted response, Hackaday.io's search returned no
+    results, and this session's web search quota was already exhausted before
+    this task started, so no query-based search could be run either. No
+    working alternate path (cached search engines, Nitter mirrors) turned up
+    anything for DEF CON 33 specifically. Leaving as unknown per the "no
+    details" special case rather than guessing from their past years' output.
 last_modified_date: '2026-09-06'
 ---
 
+DC Punks — the maker duo of Kay Kidoutai and NeonPlaidPants — appears on the DEF CON 33 (2025) community badge sheet as an expected maker, but the row carries no item name, description, or price, only the maker's name. The duo has a documented run of prior badges and SAOs: a DC Punks badge at DC30 (Hardware Hacking Village), a "Shitpad SAO" at DC31, and three items at DC32 (a pink Y2K countdown badge, an "Edgerunner License," and a "Rick Roll SAO"), sold through their Tindie store at tindie.com/stores/dc_punks/.
+
+For DEF CON 33 specifically, no title, listing, or announcement could be found. Their Tindie storefront blocked every automated fetch with a Cloudflare challenge, their X/Twitter account (@defconpunks) returned an access-restricted page, and Hackaday.io's search turned up no matching project. General web search was unavailable for this task (the session's search quota was already spent), and fallback search-engine scrapes were themselves blocked by bot-detection pages, so no query-based lookup could substitute for it either. This entry is left as `unknown` rather than assuming they repeated a prior year's item.

@@ -89,3 +89,6 @@ research:
 last_modified_date: '2026-09-06'
 ---
 
+Blue Team Village appeared on the community badge sheet as an expected maker for DEF CON 33 (2025), but the sheet carried no further detail about what, if anything, the village handed out that year.
+
+A check of Blue Team Village's own website, its GitHub organization, and its badge-specific project sites turned up no DEF CON 33 badge or SAO. The village's well-documented "Camera Badge" (a PCB shaped like a vintage SLR that lights up on deauth or nearby Flipper Zero detection) is dated to DEF CON 32 (2024) by its own repository and documentation site, and the same design resurfaced as a paid pickup at DEF CON 34 (2026); nothing in either record mentions a DEF CON 33 run in between. It is possible BTV simply didn't produce a distinct badge that year, or that one exists but left no trace reachable without web search (which was unavailable for this task). Absent a source, this entry is left unknown rather than guessed at.

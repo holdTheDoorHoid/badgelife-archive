@@ -10,6 +10,7 @@ event: dc33
 year: 2025
 makers:
 - name: CoD_Segfault
+  url: https://github.com/CoD-Segfault
 summary: ''
 functions: ''
 look:
@@ -35,22 +36,58 @@ make_your_own:
   hardware_url: null
   firmware_url: null
   eda_tool: null
-links: []
+links:
+- kind: repo
+  url: https://github.com/CoD-Segfault
+  label: CoD_Segfault on GitHub
+- kind: social
+  url: https://twitter.com/CoD_Segfault
+  label: CoD_Segfault on Twitter/X
 images: []
 contact: {}
-notes: []
-status: listed_no_details
+notes:
+- 'The community sheet''s "2025 (expected makers)" tab lists only the name CoD_Segfault
+  in row 27, with every other column (badge/SAO name, links, price, functions) blank.'
+status: unknown
 sources:
 - kind: sheet
   event: dc33
   row: 27
   tab: 2025 (expected makers)
   updated: ''
+- kind: url
+  url: https://api.github.com/users/CoD-Segfault
+  title: CoD-Segfault (GitHub user profile)
+  accessed: '2026-09-06'
+  note: Confirms CoD_Segfault is a real hardware hacker (bio, Chicagoland area, Twitter handle CoD_Segfault) with 27 public repos, but lists no DEF CON 33 / 2025 badge or SAO project.
+- kind: url
+  url: https://github.com/CoD-Segfault/wifi-shuriken
+  title: 'wifi-shuriken: Software for the WiFi Shuriken project'
+  accessed: '2026-09-06'
+  note: Most relevant recent hardware project on the account (RP2350 + ESP32-C5 distributed WiFi wardriving scanner), but the repo was created March 2026, after DEF CON 33 (Aug 2025), so it cannot be what was listed for that con.
 research:
-  status: stub
+  status: researched
   confidence: low
   last_checked: '2026-09-06'
-  notes: Imported from the community badge sheet; not yet researched.
+  notes: >-
+    No badge/SAO name, description, or links were ever entered for CoD_Segfault
+    on the DC33 "expected makers" sheet tab -- only the maker name appears. Web
+    search (DuckDuckGo, Bing) and Hackaday.io search for "CoD_Segfault" turned
+    up nothing about a DEF CON 33 item. Found the maker's real GitHub account
+    (github.com/CoD-Segfault, confirmed via GitHub's user-search API) and Twitter
+    handle from the bio; their repos show wardriving/WiFi-scanner hardware
+    (wardriver.uk contributions, the WiFi Shuriken project) and past DEF CON
+    badge repos for DC27 and DC29, but none for DC31, DC32, or DC33. The
+    archive also holds equally detail-free entries for this maker at DC31
+    ("I have no idea") and DC32 (also "listed, no details"), suggesting this
+    maker is either intentionally cryptic about badge drops or was listed as
+    "expected" without ultimately publishing details for these years. Could not
+    determine what, if anything, CoD_Segfault actually brought to DEF CON 33.
 last_modified_date: '2026-09-06'
 ---
 
+CoD_Segfault appears on the DEF CON 33 (2025) community badge sheet's "expected makers" tab, but the row carries no badge/SAO name, no links, no price, and no functions -- just the maker's name. No announcement, storefront listing, or social post describing a DEF CON 33 badge or SAO from this maker could be found.
+
+CoD_Segfault is a real, active hardware hacker based in the Chicagoland area, publicly identifiable through a GitHub account (github.com/CoD-Segfault) and matching Twitter/X handle. Their public work centers on WiFi wardriving hardware -- contributions to the wardriver.uk project, an ESP32-C5 port of its BW16 firmware, and their own "WiFi Shuriken" distributed scanning rig -- plus scattered repos for past DEF CON badges (DC27, DC29). None of that work is dated to, or described as, a DEF CON 33 badge or SAO, so this entry cannot be filled in beyond confirming who the maker is.
+
+This is the third consecutive year (after DC31's "I have no idea" and an identically blank DC32 listing) that CoD_Segfault appears on the badge sheet with no further detail, which reads more like a running in-joke or intentionally mysterious listing than a simple data-entry gap.
