@@ -38,8 +38,12 @@ make_your_own:
 links: []
 images: []
 contact: {}
-notes: []
-status: listed_no_details
+notes:
+- 'Nerfhammer recurs on the community sheet across several years with no details
+  ever supplied: see dc30-darth-sphinx (badge title known, no specs), and the
+  identical "no details" stubs dc31-nerfhammer-listed-for-def-con-31-no-details
+  and dc32-nerfhammer-listed-for-def-con-32-no-details.'
+status: unknown
 sources:
 - kind: sheet
   event: dc33
@@ -47,10 +51,33 @@ sources:
   tab: 2025 (expected makers)
   updated: ''
 research:
-  status: stub
+  status: researched
   confidence: low
   last_checked: '2026-09-06'
-  notes: Imported from the community badge sheet; not yet researched.
+  notes: >-
+    Could not find what, if anything, Nerfhammer brought to DEF CON 33. Tried:
+    web searches for "Nerfhammer" + DEF CON 33 / badgelife / SAO; DuckDuckGo,
+    Bing, and Google searches for the maker name alone and combined with the
+    DC30 badge title "Darth Sphinx"; Hackaday.io project/user search; GitHub
+    code search; Tindie search; the DEF CON forums; Reddit; X/Twitter. No
+    maker page, storefront, repo, or press mention turned up anywhere. This
+    maker has the same "listed, no details" pattern on the sheet for DC31 and
+    DC32, and only a bare title (no specs) for DC30, so this may simply be a
+    name that only ever appears on the community sheet and not online.
+    Leaving status as unknown rather than guessing.
 last_modified_date: '2026-09-06'
 ---
+
+Nerfhammer appears on the DEF CON 33 (2025) community badge sheet as an
+expected maker, but the sheet carries no further detail: no title for the
+badge, no description, no links. Extensive web searching (general search
+engines, Hackaday.io, GitHub, Tindie, the DEF CON forums, Reddit, and X)
+turned up nothing under the name "Nerfhammer" connected to badgelife, SAOs,
+or DEF CON.
+
+This is not an isolated gap: the same maker shows up on the sheet for DC30
+(as the maker of a badge called "Darth Sphinx," itself never detailed beyond
+a title), DC31, and DC32, each time with no specifics ever recorded. Whatever
+Nerfhammer has made appears to have been shown or distributed informally
+enough that it left no public trace under this name across four badge years.
 

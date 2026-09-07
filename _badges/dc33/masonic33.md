@@ -10,12 +10,13 @@ event: dc33
 year: 2025
 makers:
 - name: Hak4Kidz
-summary: ''
+summary: A Masonic-themed puzzle badge from Hak4Kidz, sold as a preorder ahead of DEF CON 33.
 functions: Masonic puzzle badge
 look:
   colors: []
   shape: null
-  themes: []
+  themes:
+  - puzzle
 tech:
   mcu: null
   leds: null
@@ -28,8 +29,10 @@ get_one:
   price_usd: 125.0
   quantity: ''
   availability: unknown
-  distribution: []
-  where: ''
+  availability_note: 'No storefront or preorder link could be located for the DC33 (2025) listing as of 2026-09-06; only the community sheet describes it.'
+  distribution:
+  - preorder
+  where: 'Preorder by direct message to "healwhans" on Discord, per the community sheet.'
 make_your_own:
   open_source: null
   hardware_url: null
@@ -40,6 +43,7 @@ images: []
 contact:
   emails:
   - questions@hak4kidz.com
+  discord: healwhans
 notes:
 - |-
   Design Aesthetic:
@@ -56,10 +60,31 @@ sources:
   row: 13
   updated: 6/24/2025 12:29:29
 research:
-  status: stub
+  status: researched
   confidence: low
   last_checked: '2026-09-06'
-  notes: Imported from the community badge sheet; not yet researched.
+  notes: >-
+    No independent confirmation could be found for the DC33 (2025) "Masonic33"
+    badge beyond the community sheet. Hak4Kidz's public website
+    (hak4kidz.com) covers their youth hacking conference program only and does
+    not mention this badge. Web search was unavailable (session search budget
+    exhausted before this entry could be researched) and Google/Bing/DuckDuckGo
+    page fetches for "Masonic33", "Hak4Kidz masonic badge", and the discord
+    handle "healwhans" returned no relevant results (JS-rendered search shells,
+    unrelated location/business listings, or blocked pages). No storefront,
+    Hackaday.io project, GitHub repo, or press coverage was located. A related
+    entry, dc34-masonic33-puzzle-badge ("Masonic33 Puzzle Badge" by "Hak4Kidz
+    Lab"), describes what appears to be the same badge concept (four puzzles,
+    bright LEDs, $125, preorder via the same "healwhans" contact) carried
+    forward to DEF CON 34 (2026) — that entry's own research likewise found
+    nothing beyond its preorder form. Could not confirm chip, LEDs, colors,
+    shape, quantity, or open-source status for the DC33 listing; left those
+    fields empty rather than guess. The sheet's design-aesthetic notes (square
+    & compass front art, VHS-style box, patch/lanyard/stickers bundle) are the
+    only detailed description available and are preserved verbatim in `notes`.
 last_modified_date: '2026-09-06'
 ---
 
+Masonic33 is a Masonic-themed puzzle badge that Hak4Kidz listed on the DEF CON 33 (2025) community badge sheet, offered as a $125 preorder arranged by direct message to "healwhans" on Discord. Per the sheet, it is a monochrome badge with glyphic symbols and shine-down LEDs, its front art built around a square-and-compass motif surrounded by radiant bursts, and it shipped in a custom VHS-style box with lore-driven packaging alongside bonus merchandise: an embroidered patch, a themed lanyard, and three exclusive vinyl stickers.
+
+No maker page, storefront, Hackaday.io project, repo, or press coverage could be found to confirm details beyond the sheet, and Hak4Kidz's own website does not mention it. A near-identical concept resurfaced the following year as the "Masonic33 Puzzle Badge" (dc34-masonic33-puzzle-badge) from "Hak4Kidz Lab" — same $125 price, same puzzle framing, same Discord contact — suggesting this badge (or its design) was carried forward or re-run for DEF CON 34, though neither year's listing could be independently verified beyond preorder mechanics.
