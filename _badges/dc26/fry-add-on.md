@@ -11,7 +11,7 @@ year: 2018
 makers:
 - name: sqearlsalazar
 summary: A shitty add-on (SAO) shaped like Fry from Futurama, holding a glowing wad of cash in a "shut up and take my money" pose.
-functions: 'Lights up an LED near the cash held in Fry''s hand.'
+functions: Lights up an LED near the cash held in Fry's hand.
 look:
   colors:
   - red
@@ -44,11 +44,13 @@ links:
 - label: hackaday.com/2018/06/21/this-is-the-year-conference-badges-get-their-own-badges
   url: https://hackaday.com/2018/06/21/this-is-the-year-conference-badges-get-their-own-badges/
   kind: article
+  archived: https://web.archive.org/web/20260519005414/https://hackaday.com/2018/06/21/this-is-the-year-conference-badges-get-their-own-badges/
 images:
 - file: assets/images/badges/dc26/fry-add-on/690d7c4eea.jpg
-  source: "https://hackaday.com/2018/06/21/this-is-the-year-conference-badges-get-their-own-badges/"
-  credit: "sqearlsalazar"
-  caption: "The Fry SAO add-on, a Futurama-themed shitty add-on made for DEF CON 26 (2018)"
+  source: https://hackaday.com/2018/06/21/this-is-the-year-conference-badges-get-their-own-badges/
+  credit: sqearlsalazar
+  caption: The Fry SAO add-on, a Futurama-themed shitty add-on made for DEF CON 26 (2018)
+  archived: https://web.archive.org/web/20260519005414/https://hackaday.com/2018/06/21/this-is-the-year-conference-badges-get-their-own-badges/
 contact: {}
 notes:
 - no dedicated project page found
@@ -59,16 +61,18 @@ sources:
   title: Fry Add-On
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: dc26-dc27-sao-wave); event read as ''DEF CON 26 / early SAO wave''.'
+  archived: https://web.archive.org/web/20260519005414/https://hackaday.com/2018/06/21/this-is-the-year-conference-badges-get-their-own-badges/
 - kind: url
   url: https://hackaday.com/2018/06/21/this-is-the-year-conference-badges-get-their-own-badges/
-  title: 'This Is The Year Conference Badges Get Their Own Badges'
+  title: This Is The Year Conference Badges Get Their Own Badges
   accessed: '2026-09-07'
-  note: 'Photo caption identifies the maker as @sqearlsalazar and the piece as a "Fry add-on" made for DEF CON 26 (2018), a Futurama "shut up and take my money" SAO with a 2x2 header and one lit LED. The same maker also made a "Baby Bender" add-on shown in the same gallery. No dedicated project page, storefront, or repo was found for either.'
+  note: Photo caption identifies the maker as @sqearlsalazar and the piece as a "Fry add-on" made for DEF CON 26 (2018), a Futurama "shut up and take my money" SAO with a 2x2 header and one lit LED. The same maker also made a "Baby Bender" add-on shown in the same gallery. No dedicated project page, storefront, or repo was found for either.
+  archived: https://web.archive.org/web/20260519005414/https://hackaday.com/2018/06/21/this-is-the-year-conference-badges-get-their-own-badges/
 research:
   status: researched
   confidence: low
   last_checked: '2026-09-07'
-  notes: 'Only source found is the Hackaday roundup photo/caption; no maker project page, Hackaday.io profile, Twitter/X post, storefront, or repo could be located, so mcu, price, quantity, and availability are unknown. Shape/colors/LED read from the photo itself. The sheet-derived event (dc26 = DEF CON 26, 2018) matches the article date and is unchanged.'
+  notes: Only source found is the Hackaday roundup photo/caption; no maker project page, Hackaday.io profile, Twitter/X post, storefront, or repo could be located, so mcu, price, quantity, and availability are unknown. Shape/colors/LED read from the photo itself. The sheet-derived event (dc26 = DEF CON 26, 2018) matches the article date and is unchanged.
 last_modified_date: '2026-09-07'
 ---
 

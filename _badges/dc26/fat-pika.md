@@ -35,7 +35,7 @@ tech:
 get_one:
   price: ''
   price_usd: null
-  quantity: '50 boards ordered'
+  quantity: 50 boards ordered
   availability: unknown
   distribution: []
   where: ''
@@ -48,14 +48,16 @@ links:
 - label: hackaday.io/project/158665-fat-pika
   url: https://hackaday.io/project/158665-fat-pika
   kind: hackaday
+  archived: https://web.archive.org/web/20260512165551/https://hackaday.io/project/158665-fat-pika
 - label: cdn.hackaday.io/files/1586656788323360/Fat_Pika_hackaday.zip
   url: https://cdn.hackaday.io/files/1586656788323360/Fat_Pika_hackaday.zip
   kind: hackaday
 images:
-  - file: assets/images/badges/dc26/fat-pika/b3999324c9.jpg
-    source: "https://hackaday.io/project/158665-fat-pika"
-    credit: "TwinkleTwinkie"
-    caption: "Fat Pika SAO, yellow PCB with black solder mask and red LEDs"
+- file: assets/images/badges/dc26/fat-pika/b3999324c9.jpg
+  source: https://hackaday.io/project/158665-fat-pika
+  credit: TwinkleTwinkie
+  caption: Fat Pika SAO, yellow PCB with black solder mask and red LEDs
+  archived: https://web.archive.org/web/20260512165551/https://hackaday.io/project/158665-fat-pika
 contact: {}
 notes: []
 status: released
@@ -65,11 +67,13 @@ sources:
   title: Fat Pika
   accessed: '2026-09-06'
   note: Found via the project's link list; intake pass identified this item here.
+  archived: https://web.archive.org/web/20260512165551/https://hackaday.io/project/158665-fat-pika
 - kind: url
   url: https://hackaday.io/project/158665-fat-pika
   title: Fat Pika
   accessed: '2026-09-07'
   note: Project page confirms maker, DC26/2018, red OSRAM TOPLED LEDs, yellow PCB with black solder mask, KiCad/Gerber files, and a run of 50 boards ordered.
+  archived: https://web.archive.org/web/20260512165551/https://hackaday.io/project/158665-fat-pika
 research:
   status: researched
   confidence: medium

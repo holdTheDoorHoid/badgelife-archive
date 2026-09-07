@@ -40,11 +40,12 @@ make_your_own:
   firmware_url: null
   eda_tool: null
   gerbers_url: https://hackaday.io/project/159719/files
-  notes: 'Full Gerber set (top/bottom copper, top/bottom mask, bottom silkscreen, board outline), plus pick-and-place and drill files, published on the Hackaday.io project. No schematic, BOM, or firmware source (the board has no MCU) was found published.'
+  notes: Full Gerber set (top/bottom copper, top/bottom mask, bottom silkscreen, board outline), plus pick-and-place and drill files, published on the Hackaday.io project. No schematic, BOM, or firmware source (the board has no MCU) was found published.
 links:
 - label: hackaday.io/project/159719-floridaman-badge-2018
   url: https://hackaday.io/project/159719-floridaman-badge-2018
   kind: hackaday
+  archived: https://web.archive.org/web/20260516213551/https://hackaday.io/project/159719-floridaman-badge-2018
 - label: hackaday.io/project/159719/files
   url: https://hackaday.io/project/159719/files
   kind: hackaday
@@ -53,13 +54,13 @@ links:
   kind: hackaday
 images:
 - file: assets/images/badges/dc26/florida-man-badge-2018/0e5f89982f.jpg
-  source: "https://hackaday.io/project/159719/gallery"
-  credit: "Jonathan Singer"
-  caption: "The FLORIDA_MAN badge, a conch-shell-shaped PCB"
+  source: https://hackaday.io/project/159719/gallery
+  credit: Jonathan Singer
+  caption: The FLORIDA_MAN badge, a conch-shell-shaped PCB
 - file: assets/images/badges/dc26/florida-man-badge-2018/841683eb4f.jpg
-  source: "https://hackaday.io/project/159719/gallery"
-  credit: "Jonathan Singer"
-  caption: "The assembled FLORIDA_MAN badge PCB"
+  source: https://hackaday.io/project/159719/gallery
+  credit: Jonathan Singer
+  caption: The assembled FLORIDA_MAN badge PCB
 contact: {}
 notes: []
 status: listed
@@ -69,26 +70,28 @@ sources:
   title: FLORIDA_MAN Badge 2018
   accessed: '2026-09-06'
   note: Found via the project's link list; intake pass identified this item here.
+  archived: https://web.archive.org/web/20260516213551/https://hackaday.io/project/159719-floridaman-badge-2018
 - kind: url
   url: https://hackaday.io/project/159719-floridaman-badge-2018
   title: FLORIDA_MAN Badge 2018
   accessed: '2026-09-07'
-  note: 'Confirmed maker (Jonathan Singer), event (unofficial DEF CON 26 badge, 2018), and component list (2 SPDT slide switches, 5V linear regulator, capacitors, red/yellow 0805 SMD LEDs).'
+  note: Confirmed maker (Jonathan Singer), event (unofficial DEF CON 26 badge, 2018), and component list (2 SPDT slide switches, 5V linear regulator, capacitors, red/yellow 0805 SMD LEDs).
+  archived: https://web.archive.org/web/20260516213551/https://hackaday.io/project/159719-floridaman-badge-2018
 - kind: url
   url: https://hackaday.io/project/159719/files
   title: FLORIDA_MAN Badge 2018 - Files
   accessed: '2026-09-07'
-  note: 'Listed the 9 published Gerber/manufacturing files, confirming the conch-shaped board outline and that pick-and-place and drill files are published (no schematic or BOM found).'
+  note: Listed the 9 published Gerber/manufacturing files, confirming the conch-shaped board outline and that pick-and-place and drill files are published (no schematic or BOM found).
 - kind: url
   url: https://hackaday.io/project/159719/gallery
   title: FLORIDA_MAN Badge 2018 - Gallery
   accessed: '2026-09-07'
-  note: 'Source of the two saved photos of the assembled board.'
+  note: Source of the two saved photos of the assembled board.
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'Maker''s own Hackaday.io project page and files list confirm the badge''s design and DEF CON 26 (2018) origin. No price, quantity made, distribution method, or current availability were found anywhere on the project page or in its files/gallery subpages; those fields are left empty rather than guessed. No schematic or BOM file was found alongside the Gerbers. The maker''s Hackaday profile page returned a login wall and could not be checked for other work. "Florida Man" appears to be a recurring unofficial-badge theme used by different makers across several DEF CONs (31, 32, 33, 34 all have separate "Florida Man"-titled entries in this archive); this 2018 board by Jonathan Singer is a distinct, unrelated item from those.'
+  notes: Maker's own Hackaday.io project page and files list confirm the badge's design and DEF CON 26 (2018) origin. No price, quantity made, distribution method, or current availability were found anywhere on the project page or in its files/gallery subpages; those fields are left empty rather than guessed. No schematic or BOM file was found alongside the Gerbers. The maker's Hackaday profile page returned a login wall and could not be checked for other work. "Florida Man" appears to be a recurring unofficial-badge theme used by different makers across several DEF CONs (31, 32, 33, 34 all have separate "Florida Man"-titled entries in this archive); this 2018 board by Jonathan Singer is a distinct, unrelated item from those.
 last_modified_date: '2026-09-07'
 ---
 
