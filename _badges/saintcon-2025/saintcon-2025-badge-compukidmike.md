@@ -90,10 +90,10 @@ sources:
   accessed: '2026-09-07'
   note: 'Confirms KiCad source, gerbers, schematic PDF, and BOM PDF are published for the badge PCB.'
 research:
-  status: researched
+  status: verified
   confidence: high
   last_checked: '2026-09-07'
-  notes: 'Core facts (shape, NFC game mechanic, ESP32-S3, display, LEDs, wifi, open hardware/firmware) are confirmed directly from the maker''s own repo (README, firmware source/config, and Hardware folder). Not determined from sources: exact LED count and part number, exact display size/model, SAO/minibadge header version, battery type/capacity, and any price/quantity/availability/distribution details (this looks like a SAINTCON registration-year badge rather than a separately sold item, but that is not stated outright). This session''s web search budget was exhausted before press coverage (Hackaday, forums, social posts) could be checked, so only the GitHub repo was used as a source.'
+  notes: 'Fact-check pass (2026-09-07): re-fetched README.md, the main repo page, the Firmware/badge file tree, sdkconfig.defaults, main/idf_component.yml, display/config.h, led_patterns.c, the AfterCon .ino, and the Hardware/Badge and Hardware/Nut file listings. Every non-empty field and every sentence in the body is directly supported: wrench shape/size/lanyard hole and the Nuts NFC game mechanic (README); ESP32-S3, LCD+LVGL, joystick input, addressable LEDs via led_strip, wifi, NFC via espp/st25dv (sdkconfig.defaults + idf_component.yml); the LVGL menu/nav UI (components/ui/screens/main/apps/menu.c, nav.c); SAO/minibadge port (CONFIG_MINIBADGE_ENABLED); secure element (CONFIG_SECURE_ELEMENT_ENABLED + ATECC608A); OTA support (badge/ota.c); KiCad/gerbers/schematic/BOM for both the badge and the Nut (Hardware/Badge, Hardware/Nut); and the unrelated AfterCon BLE volume-control Nut sketch (Firmware/AfterCon/.../Saintcon2025NutVolumeControl.ino). The saved photo is byte-for-byte the repo''s own SC25Badge.png, confirming colors (grey/gold/black) and shape. No corrections were needed. Still not determined from sources (left empty, correctly): exact LED count/part, exact display size/model, SAO/minibadge header version, battery capacity, and any price/quantity/availability/distribution details.'
 last_modified_date: '2026-09-07'
 ---
 

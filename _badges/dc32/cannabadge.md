@@ -52,18 +52,12 @@ sources:
   title: Cannabadge from Rex's Lab on Tindie
   accessed: '2026-09-06'
   note: Maker's storefront for the DC31 Cannabadge; confirms the maker Rex / Rex's Lab exists but does not mention a DC32 version. Checked only to test the body's claim that no maker page exists.
+  archived: https://web.archive.org/web/20260503112055/https://www.tindie.com/products/rex212/cannabadge/
 research:
   status: verified
   confidence: low
   last_checked: '2026-09-06'
-  notes: >-
-    Fact-check 2026-09-06: every non-empty field traces to the DC32 sheet row
-    (title, functions, "Sale during DEFCON 32"). Maker "Rex" is inherited from
-    the row above on the sheet, not written in this row; it is consistent with
-    the DC31 Cannabadge's Tindie store (rex212 / Rex's Lab). Neither the Tindie
-    page nor the Hackaday.io project (191857) for the DC31 badge mentions a
-    2024 version, so chip, LEDs, price, quantity and images remain unconfirmed
-    and empty.
+  notes: 'Fact-check 2026-09-06: every non-empty field traces to the DC32 sheet row (title, functions, "Sale during DEFCON 32"). Maker "Rex" is inherited from the row above on the sheet, not written in this row; it is consistent with the DC31 Cannabadge''s Tindie store (rex212 / Rex''s Lab). Neither the Tindie page nor the Hackaday.io project (191857) for the DC31 badge mentions a 2024 version, so chip, LEDs, price, quantity and images remain unconfirmed and empty.'
 last_modified_date: '2026-09-06'
 ---
 

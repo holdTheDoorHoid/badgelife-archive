@@ -39,13 +39,15 @@ links:
 - kind: website
   label: BlackGirlsHack
   url: https://www.blackgirlshack.org/
+  archived: https://web.archive.org/web/20260723024105/https://www.blackgirlshack.org/
 - kind: doc
-  label: 'DEF CON 32 Contest Results (Octopus Game)'
+  label: DEF CON 32 Contest Results (Octopus Game)
   url: https://defcon.org/html/defcon-32/dc-32-contest-results.html
+  archived: https://web.archive.org/web/20260826054841/https://defcon.org/html/defcon-32/dc-32-contest-results.html
 images: []
 contact: {}
 notes:
-- 'Sheet listed BlackGirlsHack as present at DEF CON 32 with no further detail. Research found no badge or SAO from this maker; they appear as a contest prize donor, not a badgelife maker.'
+- Sheet listed BlackGirlsHack as present at DEF CON 32 with no further detail. Research found no badge or SAO from this maker; they appear as a contest prize donor, not a badgelife maker.
 status: unknown
 sources:
 - kind: sheet
@@ -57,11 +59,12 @@ sources:
   title: DEF CON 32 Hacking Conference Contest results
   accessed: '2026-09-07'
   note: 'Only mention of BlackGirlsHack at DC32: they helped donate prizes (CompTIA/TryHackMe vouchers, a Cyberjutsu course) for the "Octopus Game" contest, alongside Women''s Society of Cyberjutsu. No badge or SAO mentioned.'
+  archived: https://web.archive.org/web/20260826054841/https://defcon.org/html/defcon-32/dc-32-contest-results.html
 - kind: url
   url: https://www.blackgirlshack.org/shop
-  title: 'BlackGirlsHack - BGH Store'
+  title: BlackGirlsHack - BGH Store
   accessed: '2026-09-07'
-  note: 'Store sells apparel, stickers, exam vouchers, books, and raffle tickets; no electronic badge, SAO, or PCB product listed.'
+  note: Store sells apparel, stickers, exam vouchers, books, and raffle tickets; no electronic badge, SAO, or PCB product listed.
 research:
   status: researched
   confidence: low

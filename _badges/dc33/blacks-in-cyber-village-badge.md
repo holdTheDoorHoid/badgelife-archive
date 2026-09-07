@@ -14,10 +14,13 @@ makers:
 summary: A wearable badge shaped like an Afro pick, made by Blacks In Cybersecurity (BiC) for the 5th anniversary of the B.I.C. Village at DEF CON 33.
 functions: The BIC Pick badge features inter-badge communication, protocol analysis challenges, exploration of different cipher systems. It's chock-full of CTF challenges that are part of the official BIC CTF tool. You will even learn to solder by assembling part of it yourself. This badge features 18 neopixels and 6 SAO ports and can become an SAO itself (or another SAO port if you prefer).
 look:
-  colors: []
+  colors:
+  - black
+  - red
   shape: afro pick
   themes:
   - village badge
+  form_factor: pcb badge
 tech:
   mcu: null
   leds:
@@ -25,15 +28,16 @@ tech:
     type: RGB
     note: 18 neopixels per the community sheet; part number not stated.
   display: null
-  connectivity: []
-  battery: null
+  connectivity:
+  - usb
+  battery: USB-C, or powered by a connected DEF CON badge from the previous year
   sao_version: null
   sao_ports: 6
 get_one:
   price: 45$
   price_usd: 45
   quantity: ''
-  availability: unknown
+  availability: sold_out
   availability_note: 'Checked 2026-09-06: maker''s page says purchases and trades were on-site only at DEF CON 33 2025; off-site sales "to be announced" with no later confirmation found.'
   distribution:
   - purchase
@@ -57,11 +61,21 @@ links:
 - label: 'Eli McRae: BIC Village "B.I.C. Pick" DEF CON 33 Badge Walkthrough (YouTube)'
   url: https://www.youtube.com/watch?v=IvZhTutdqDM
   kind: video
+- label: blacksincyber.square.site/shop/badges/3
+  url: https://blacksincyber.square.site/shop/badges/3
+  kind: store
+- label: '"BIC PICK" Badge - 2025 (product page)'
+  url: https://blacksincyber.square.site/product/-bic-pick-badge-2025/SSS2MZXAPY4VDMA6FDHEOA7I
+  kind: store
 images:
 - file: assets/images/badges/dc33/blacks-in-cyber-village-badge/25b62bb733.jpg
   source: https://www.blacksincyberconf.com/badge
   credit: Blacks in Cyber (BiC)
   caption: BIC Village medallion badge, Afro-pick-shaped, made for the BIC Village's five-year anniversary at DEF CON 33
+- file: assets/images/badges/dc33/blacks-in-cyber-village-badge/25b62bb733.jpg
+  source: https://www.blacksincyberconf.com/badge
+  credit: Blacks In Cyber
+  caption: BIC Pick badge, an Afro-pick-shaped PCB badge made for the BIC Village's fifth anniversary at DEF CON 33
 contact:
   handles:
   - '@BlackInCyberCo1'
@@ -71,6 +85,7 @@ notes:
 - This entry appears to be a duplicate of dc33-bic-pick ("BIC Pick") and dc33-bic-pick-sao ('"BIC Pick" SAO'), both credited to the same maker for the same DEF CON 33 anniversary item; see research.notes.
 - The community sheet listed a price of $45; the maker's own page did not restate a price.
 - The community sheet's type dropdown said SAO, but the maker's page and the sheet's own description call it a badge (with 6 SAO ports that can also act as an SAO), so type is recorded as badge.
+- Spotted by a research agent while working on a neighbouring entry.
 status: released
 sources:
 - kind: sheet
@@ -105,15 +120,26 @@ sources:
   title: 'Eli McRae: BIC Village "B.I.C. Pick" DEF CON 33 Badge Walkthrough'
   accessed: '2026-09-06'
   note: Confirms a walkthrough video exists by badge developer Eli McRae; page metadata alone did not surface transcript content, so technical details (chip, LEDs) could not be confirmed from it.
+- kind: url
+  url: https://blacksincyber.square.site/shop/badges/3
+  title: PCB "Blinky" Badges
+  accessed: '2026-09-07'
+  note: 'Found by the archive''s discovery sweep (angle: sheet-research-spotted); event read as ''dc33 (ongoing merch, not year-specific)''.'
+- kind: url
+  url: https://blacksincyber.square.site/product/-bic-pick-badge-2025/SSS2MZXAPY4VDMA6FDHEOA7I
+  title: '"BIC PICK" Badge - 2025 | BLACKS IN CYBER'
+  accessed: '2026-09-07'
+  note: 'The store''s "Badges" category (reached via the sheet''s /shop/badges/3 link, which now redirects to the category listing) currently shows two items; this one, "BIC PICK" Badge - 2025 ($35, out of stock), matches the DC33 shield logo and Afro-pick pick shape. Full product description read via a JS-rendered browser session: maker''s own words on what it is, who made it (Eli McRae), that it powers up to 6 add-ons, and that it connects via USB-C or a prior-year DEF CON badge. The other item in the category, "BIC Soul Glo Badge," carries a "34" mark and appears to be a different (DC34) item, not this one.'
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-06'
   notes: 'The community sheet listed this row generically as "Blacks In Cyber Village Badge" with maker "Blacks In Cyber Village." The maker''s own /badge page describes exactly one physical item for DEF CON 33: an Afro-pick-shaped badge made for the B.I.C. Village''s fifth anniversary, sold/traded on-site only. This is the same item already recorded under data/existing_titles.txt as dc33-bic-pick ("BIC Pick") and dc33-bic-pick-sao (''"BIC Pick" SAO''), both credited to "Blacks in Cyber (BiC)" and sourced from the same maker page. No second, distinct "village badge" (separate from the BIC Pick) was found on the maker''s site, its Square merchandise store (which separately lists generic "PCB ''Blinky'' Badges" for sale, but with no product-level detail reachable without JavaScript), or web search (the session''s search budget was exhausted, so this rests on direct page fetches only). No technical specs (MCU, LEDs, display, SAO header) were published by the maker for the Afro-pick badge, so
-    tech.* is left null rather than guessed. Price ($45) and quantity are unconfirmed sheet-only figures, kept as in the sibling entries. duplicate_of: dc33-bic-pick and dc33-bic-pick-sao. Merged with duplicate entry ''BIC Pick'' (dc33-bic-pick).'
-last_modified_date: '2026-09-06'
+    tech.* is left null rather than guessed. Price ($45) and quantity are unconfirmed sheet-only figures, kept as in the sibling entries. duplicate_of: dc33-bic-pick and dc33-bic-pick-sao. Merged with duplicate entry ''BIC Pick'' (dc33-bic-pick). Merged with duplicate entry ''"BIC PICK" Badge - 2025'' (dc33-pcb-blinky-badges).'
+last_modified_date: '2026-09-07'
 redirect_from:
 - /badges/dc33/bic-pick/
+- /badges/dc33/pcb-blinky-badges/
 ---
 
 The "Blacks In Cyber Village Badge" entry, as filled in from the maker's own materials, refers to the same item documented elsewhere in this archive as the "BIC Pick": an Afro-pick-shaped badge made by Blacks In Cybersecurity (BiC) for the fifth anniversary of the B.I.C. Village at DEF CON 33 (2025). The maker describes it as a tribute to "our roots and the bold, unapologetic pride" of the community, evoking a pick that has "combed through challenges" alongside its members.
@@ -137,3 +163,11 @@ The "BIC Pick" is a wearable badge made by Blacks In Cybersecurity (BiC) for the
 According to the maker's page, the badge was sold and traded on-site at DEF CON 33, with off-site sales "to be announced" at a later date; no confirmation of a later off-site sale was found. No technical specifications (microcontroller, LEDs, display, or SAO header) were published by the maker, and no photos of the physical badge (as opposed to the village's medallion logo) turned up in the sources checked, so those fields are left blank rather than guessed.
 
 A YouTube walkthrough of the badge by developer Eli McRae exists ("BIC Village 'B.I.C. Pick' DEF CON 33 Badge Walkthrough"), which likely covers build and design details firsthand, but its content could not be extracted through the tools available for this research pass.
+
+## Notes merged from the duplicate entry ""BIC PICK" Badge - 2025"
+
+The "BIC PICK" Badge - 2025 is a wearable PCB badge made by Blacks In Cybersecurity (BiC) for the B.I.C. Village's fifth anniversary at DEF CON 33 (2025), custom designed and built by Eli McRae. It is shaped like an Afro pick, which the maker describes as a nod to "the cultural symbol of the Afro pick, an everyday tool that became a statement of pride, identity, and resistance during the Black Power era," carrying that same meaning into hacker culture.
+
+Beyond being a wearable keepsake, the badge lights up and was built to power up to six other add-ons (SAOs), so it can act as a small hub for other people's badge accessories. It can draw power from a connected DEF CON badge from the previous year, or run independently from a USB-C portable charger. The maker's product page jokingly notes the badge is sometimes called an SAO ("Shitty Add On") itself, since it can also plug into another badge that way.
+
+It was sold through Blacks In Cyber's own Square Online store at $35 and tied to the B.I.C. Village; as of this check it is listed as out of stock, with the maker noting boards were "designed and built specifically for 2025," so once sold out they are gone "unless there is major demand." This item is the same physical badge already documented in more general terms under the archive's `dc33-blacks-in-cyber-village-badge` entry.

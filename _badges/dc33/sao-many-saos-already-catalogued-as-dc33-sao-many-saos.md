@@ -63,22 +63,10 @@ research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: >-
-    This is the same product already documented at dc34-sao-many-saos.md (the
-    "SAO Many SAOs Badge" by Coruscant Ventures / maker handle Vortex Codes),
-    which that entry's own research already identified as a DEF CON 33 (2025)
-    item mis-filed under dc34. It also overlaps with dc33-sao-and-many-sao-badge
-    and dc33-sao-for-above, both of which independently flagged themselves as
-    duplicates of a "dc33-sao-many-saos" entry that does not actually exist as
-    a file (existing_titles.txt still lists that id, but no _badges file uses
-    it — the canonical copy now lives at dc34-sao-many-saos.md). Hacker
-    Warehouse lists this same board at $140 (vs. $80 on Tindie / $100 on the
-    maker's own site), which is left here as a separate, higher retail price
-    point rather than reconciled, since it's a different storefront. No MCU,
-    exact LED count, or quantity made is stated by Hacker Warehouse; left
-    empty. Could not fetch product images: hackerwarehouse.com returns HTTP
-    403 to both WebFetch and curl.
+  notes: 'This is the same product already documented at dc34-sao-many-saos.md (the "SAO Many SAOs Badge" by Coruscant Ventures / maker handle Vortex Codes), which that entry''s own research already identified as a DEF CON 33 (2025) item mis-filed under dc34. It also overlaps with dc33-sao-and-many-sao-badge and dc33-sao-for-above, both of which independently flagged themselves as duplicates of a "dc33-sao-many-saos" entry that does not actually exist as a file (existing_titles.txt still lists that id, but no _badges file uses it — the canonical copy now lives at dc34-sao-many-saos.md). Hacker Warehouse lists this same board at $140 (vs. $80 on Tindie / $100 on the maker''s own site), which is left here as a separate, higher retail price point rather than reconciled, since it''s a different storefront. No MCU, exact LED count, or quantity made is stated by Hacker Warehouse; left empty. Could not fetch product images: hackerwarehouse.com returns HTTP 403 to both WebFetch and curl.'
 last_modified_date: '2026-09-07'
+related:
+- dc34-sao-many-saos
 ---
 
 This is the Hacker Warehouse storefront listing for the "SAO Many SAOs Badge," a wearable ring-shaped board built around one idea: instead of a badge with one or two SAO headers, give it 25, so a wearer can mount an entire personal SAO collection at once. Hacker Warehouse credits it to the "Vortex Codes" DC33 project and lists it under their Badgelife couture category for $140, currently out of stock. Two included 18650 batteries, chargeable over USB or a barrel connector, power the ring, and a companion "SmartAO" module is needed to drive its LEDs.

@@ -106,6 +106,8 @@ research:
   last_checked: '2026-09-07'
   notes: 'Maker''s own project page, user manual, firmware repo README, and shop listing all agree on the core facts. Not found: total quantity ever made, exact battery capacity, hardware/schematic files (promised "coming soon" on the shop page but not linked), and LED part number (site just says "addressable RGBLED"). Possible duplicate: _badges/dc31/addon-addon.md ("Addon addon", id dc31-addon-addon) has the same generic title but attributes the maker as "Whiskey Pirate Crew" and lists price $70 — unclear whether that is the same item misattributed on the community sheet or a distinct addon; left untouched per one-entry-per-task rule.'
 last_modified_date: '2026-09-07'
+related:
+- dc31-addon-addon
 ---
 
 true's Addon Addon is an RGB lighting add-on built for the official DEF CON 31 badge. It plugs into the badge's addon slot and, unusually for a shard, also carries its own header that hosts a second GAT- or v1.69bis-compliant addon, so a DC31 badge wearer could run the Addon Addon's own light shows while still keeping another shard plugged in and powered (with its LEDs off if the wearer wants). It runs on an HK32F030MF4P6 microcontroller and drives 8 addressable RGB LEDs — 5 front-firing, 2 side-firing, and 1 rear-firing — split into 3 independently configurable zones, plus an onboard accelerometer for two motion-reactive lighting modes. Three front buttons (MODE, PROG, SET) step through more than six programs (twinkle, rainbow, flicker, a moving trail effect, color toggling, and the accelerometer modes), each with adjustable parameters saved to EEPROM, and a fourth press cycles brightness.

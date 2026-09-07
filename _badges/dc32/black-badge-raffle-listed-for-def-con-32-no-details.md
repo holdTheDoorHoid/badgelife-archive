@@ -14,7 +14,7 @@ makers:
   url: https://www.blackbadgeraffle.com/
   role: 'creator (handle: sonicos, @DefconRaffle)'
 summary: A DEF CON in-joke trading card game (BBRTCG) printed for DEF CON 32, with cards riffing on con culture (Wall of Sheep, GOONs, raffle tickets, "shitty" QR codes). Packs circulated at the con and became the preferred currency in the Wall of Bribes contest.
-functions: 'Collectible trading cards; used as in-con currency/bribes for the Wall of Bribes contest and tied to the annual Black Badge Raffle.'
+functions: Collectible trading cards; used as in-con currency/bribes for the Wall of Bribes contest and tied to the annual Black Badge Raffle.
 look:
   colors:
   - black
@@ -57,21 +57,22 @@ links:
 - label: DEF CON 32 contest results (Wall of Bribes mentions BBRTCG)
   url: https://defcon.org/html/defcon-32/dc-32-contest-results.html
   kind: article
+  archived: https://web.archive.org/web/20260826054841/https://defcon.org/html/defcon-32/dc-32-contest-results.html
 - label: sonicos/BlackBadgeRaffleBadge_DC30 (earlier DC30 badge by the same maker)
   url: https://github.com/sonicos/BlackBadgeRaffleBadge_DC30
   kind: repo
 images:
 - file: assets/images/badges/dc32/black-badge-raffle-listed-for-def-con-32-no-details/a23f0616b8.png
-  source: "https://www.blackbadgeraffle.com/tcg/"
-  credit: "Black Badge Raffle (sonicos)"
-  caption: "BBRTCG card '– Random QR Codes' (Artifact - Wisdom), printed ©2024 Black Badge Raffle"
+  source: https://www.blackbadgeraffle.com/tcg/
+  credit: Black Badge Raffle (sonicos)
+  caption: BBRTCG card '– Random QR Codes' (Artifact - Wisdom), printed ©2024 Black Badge Raffle
 - file: assets/images/badges/dc32/black-badge-raffle-listed-for-def-con-32-no-details/64039837b2.png
-  source: "https://www.blackbadgeraffle.com/tcg/"
-  credit: "Black Badge Raffle (sonicos)"
-  caption: "BBRTCG card 'Black Badge Raffle Ticket' (Artifact), numbered DC32a 1/173"
+  source: https://www.blackbadgeraffle.com/tcg/
+  credit: Black Badge Raffle (sonicos)
+  caption: BBRTCG card 'Black Badge Raffle Ticket' (Artifact), numbered DC32a 1/173
 contact: {}
 notes:
-- 'Sheet originally listed only "Black Badge Raffle" for DC32 with no other details. Research found the DC32-era offering was the Black Badge Raffle Trading Card Game (BBRTCG), a follow-on to the DC30 electronic badge (2022) and DC31 SAO (2023) from the same maker.'
+- Sheet originally listed only "Black Badge Raffle" for DC32 with no other details. Research found the DC32-era offering was the Black Badge Raffle Trading Card Game (BBRTCG), a follow-on to the DC30 electronic badge (2022) and DC31 SAO (2023) from the same maker.
 status: released
 sources:
 - kind: sheet
@@ -82,22 +83,23 @@ sources:
   url: https://defcon.org/html/defcon-32/dc-32-contest-results.html
   title: DEF CON 32 Hacking Conference Contest results
   accessed: '2026-09-07'
-  note: 'Confirms BBRTCG cards were in wide circulation at DEF CON 32 and were the dominant currency in the Wall of Bribes contest ("Most bribes focused to the Black Badge Raffle TCG (BBRTCG) after we were given a few packs").'
+  note: Confirms BBRTCG cards were in wide circulation at DEF CON 32 and were the dominant currency in the Wall of Bribes contest ("Most bribes focused to the Black Badge Raffle TCG (BBRTCG) after we were given a few packs").
+  archived: https://web.archive.org/web/20260826054841/https://defcon.org/html/defcon-32/dc-32-contest-results.html
 - kind: url
   url: https://defcon.social/@blackbadgeraffle.rss
   title: Black Badge Raffle (@blackbadgeraffle@defcon.social) RSS feed
   accessed: '2026-09-07'
-  note: 'A July 19, 2024 post (days before DC32) calling for village/contest/badge people to "ping me, I''m doing a thing" with limited space; establishes the maker was running an organized DC32 project, later revealed by the DC33 crowdfunding posts to be the trading-card line.'
+  note: A July 19, 2024 post (days before DC32) calling for village/contest/badge people to "ping me, I'm doing a thing" with limited space; establishes the maker was running an organized DC32 project, later revealed by the DC33 crowdfunding posts to be the trading-card line.
 - kind: url
   url: https://web.archive.org/web/20240805165714/https://www.blackbadgeraffle.com/tcg/
   title: Black Badge Raffle TCG site (Wayback Machine snapshot, Aug 5 2024)
   accessed: '2026-09-07'
-  note: 'Snapshot taken days before DC32 already serving BBRTCG card thumbnail images; the two saved sample cards are printed "DC32a" and "©2024 Black Badge Raffle", confirming this is the DC32 vintage of the card set.'
+  note: Snapshot taken days before DC32 already serving BBRTCG card thumbnail images; the two saved sample cards are printed "DC32a" and "©2024 Black Badge Raffle", confirming this is the DC32 vintage of the card set.
 - kind: url
   url: https://www.indiegogo.com/projects/black-badge-raffle-dc33-trading-cards
   title: Black Badge Raffle - DC33 Trading Cards (Indiegogo)
   accessed: '2026-09-07'
-  note: 'Confirms the maker handle (Sonicos) and that the DC32 cards were the first run of an ongoing annual trading-card series continued for DC33 (2025).'
+  note: Confirms the maker handle (Sonicos) and that the DC32 cards were the first run of an ongoing annual trading-card series continued for DC33 (2025).
 - kind: url
   url: https://github.com/sonicos/BlackBadgeRaffleBadge_DC30
   title: sonicos/BlackBadgeRaffleBadge_DC30 on GitHub
@@ -107,7 +109,7 @@ research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'Could not find an official price, print run size, or a clean list of where/how attendees obtained packs directly (buy vs. free vs. raffle-only) for the DC32 run specifically; contest-results coverage documents the cards in circulation but not their point of distribution. The maker''s TCG site (blackbadgeraffle.com/tcg) blocks direct fetches (403/JS app) and could not be read live; content came from a Wayback Machine snapshot and its cached card-image thumbnails instead. get_one.price, quantity, and make_your_own fields left empty because no source stated them.'
+  notes: Could not find an official price, print run size, or a clean list of where/how attendees obtained packs directly (buy vs. free vs. raffle-only) for the DC32 run specifically; contest-results coverage documents the cards in circulation but not their point of distribution. The maker's TCG site (blackbadgeraffle.com/tcg) blocks direct fetches (403/JS app) and could not be read live; content came from a Wayback Machine snapshot and its cached card-image thumbnails instead. get_one.price, quantity, and make_your_own fields left empty because no source stated them.
 last_modified_date: '2026-09-07'
 ---
 

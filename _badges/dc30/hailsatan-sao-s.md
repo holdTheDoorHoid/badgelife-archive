@@ -12,7 +12,7 @@ makers:
 - name: Sqearlsalazar
   url: https://www.tindie.com/stores/sqearlsalazar/
 summary: A combo listing pairing sqearlsalazar's two occult-themed DEF CON SAOs, the Baphomet SAO and the Devil's Trap SAO, marketed under the "#hailsatan" hashtag.
-functions: 'Each half lights red LEDs when powered by a host badge''s SAO header; the pair carries clues to online challenges (video/audio, stego, crypto, file analysis, brute force, pcap analysis, general brain teasers), though the listing does not say solving them requires info from both SAOs together.'
+functions: Each half lights red LEDs when powered by a host badge's SAO header; the pair carries clues to online challenges (video/audio, stego, crypto, file analysis, brute force, pcap analysis, general brain teasers), though the listing does not say solving them requires info from both SAOs together.
 look:
   colors:
   - red
@@ -46,7 +46,7 @@ links:
 - label: www.tindie.com/products/sqearlsalazar/hailsatan-saos
   url: https://www.tindie.com/products/sqearlsalazar/hailsatan-saos/
   kind: store
-- label: 'Satanic SAOs - Baphomet & Devil''s Trap (Tindie, archived)'
+- label: Satanic SAOs - Baphomet & Devil's Trap (Tindie, archived)
   url: https://www.tindie.com/products/sqearlsalazar/satanic-saos-baphomet-devils-trap/
   kind: store
   archived: https://web.archive.org/web/20221226050428/https://www.tindie.com/products/sqearlsalazar/satanic-saos-baphomet-devils-trap/
@@ -64,7 +64,7 @@ sources:
   note: 'Found by the archive''s discovery sweep (angle: sheet-research-spotted); event read as ''unknown (pre-dates dc30, referenced as a companion piece)''. Verified 2026-09-07: this exact URL is not reachable as a distinct product page - it 302-redirects to the seller''s Tindie store front (https://www.tindie.com/stores/sqearlsalazar/), and a plain fetch of it returns a Cloudflare bot-check (403) rather than the product. No Wayback snapshot of the bare URL exists either.'
 - kind: url
   url: https://www.tindie.com/products/sqearlsalazar/satanic-saos-baphomet-devils-trap/
-  title: "Satanic SAOs - Baphomet & Devil's Trap from sqearlsalazar on Tindie"
+  title: Satanic SAOs - Baphomet & Devil's Trap from sqearlsalazar on Tindie
   accessed: '2026-09-07'
   note: 'Verified 2026-09-07 by direct fetch: live page confirms $30 price, includes 1x Baphomet SAO + 1x Devil''s Trap SAO (plus optional dog-tag SAO holders for $10 more), and the exact quote "The #hailsatan SAOs will answer all of your thoughts and prayers." The description lists challenge types (video/audio, stego, crypto, file analysis, brute force, pcap analysis, general brain teasers) but does NOT state that solving them requires info from both SAOs together - that claim in an earlier draft of this entry was unsupported and has been removed. This is a same-maker, same-hashtag combo listing at a different URL than "hailsatan-saos"; treated as the likely same/successor product rather than confirmed identical.'
 research:
@@ -94,6 +94,9 @@ research:
     "hailsatan-saos" slug and this combo listing were ever literally the same product could not be confirmed - kept
     at low confidence.
 last_modified_date: '2026-09-07'
+related:
+- dc30-baphomet-sao
+- dc30-devil-trap
 ---
 
 "HailSatan SAO(s)" appears to be sqearlsalazar's Tindie listing bundling two of the maker's occult-themed DEF CON 30 add-ons together: the Baphomet SAO (sold standalone as the "Baphomet Defcon SAO," described in its own listing as the "Satanic Goat SAO") and the Devil's Trap SAO. Both are passive, LED-only PCBs powered from a host badge's SAO header, with no onboard microcontroller. The maker's copy for the "#hailsatan" line promises the pieces will "answer all of your thoughts and prayers" and ties them to an online challenge - video/audio, stego, crypto, file analysis, brute force, pcap analysis, and general brain teasers - though the listing itself does not say the challenge requires information from both SAOs together.

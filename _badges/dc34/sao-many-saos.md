@@ -48,7 +48,7 @@ make_your_own:
   bom_url: https://github.com/vortexcodes/DC33-SaO-MANY-SAOs
   license: null
   fab_url: null
-  notes: 'The GitHub repo (dated May 2025) includes a bill of materials and four schematic sheets, but the maker''s README states gerbers "may be released after def con" — full board files were not confirmed public as of this check.'
+  notes: The GitHub repo (dated May 2025) includes a bill of materials and four schematic sheets, but the maker's README states gerbers "may be released after def con" — full board files were not confirmed public as of this check.
 links:
 - label: github.com/vortexcodes
   url: https://github.com/vortexcodes
@@ -67,9 +67,9 @@ links:
   archived: false
 images:
 - file: assets/images/badges/dc34/sao-many-saos/e67715c0b9.jpg
-  source: "https://www.tindie.com/products/coruscant_ventures/sao-many-saos-badge/"
-  credit: "Coruscant Ventures"
-  caption: "The SAO Many SAOs badge, a wearable ring board with 25 SAO slots"
+  source: https://www.tindie.com/products/coruscant_ventures/sao-many-saos-badge/
+  credit: Coruscant Ventures
+  caption: The SAO Many SAOs badge, a wearable ring board with 25 SAO slots
 contact:
   discord: vor_t3x1
   emails:
@@ -96,27 +96,17 @@ sources:
   note: Maker's own product page; lists price as $100 there and notes checkout is broken; identifies the badge as a DEFCON 33 item and names the maker as a 14-year-old self-taught PCB designer.
 - kind: url
   url: https://github.com/vortexcodes/DC33-SaO-MANY-SAOs
-  title: 'DC33-SaO-MANY-SAOs (GitHub)'
+  title: DC33-SaO-MANY-SAOs (GitHub)
   accessed: '2026-09-06'
   note: Repo (dated May 2025) with BOM and schematic sheets; README notes gerbers may be released after DEF CON; confirms 300mA/3.3V SAO power budget and battery/LED design.
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-06'
-  notes: >-
-    Important discrepancy: every source found (the maker's own GitHub repo name
-    "DC33-SaO-MANY-SAOs", the Coruscant Ventures product page titled "SAO Many
-    SAOs Badge - DEFCON 33", and repo dates from May 2025) identifies this as a
-    DEF CON 33 (2025) badge, not DEF CON 34. This entry was imported into the
-    dc34 sheet/section, but is left filed under dc34 (matching its existing id
-    and file location) since correcting the event would require moving the
-    entry; a human maintainer should confirm and possibly relocate it to dc33.
-    Price is inconsistent between sources: the community sheet and Tindie say
-    $80, the maker's own coruscantventures.com store currently shows $100.
-    Exact LED count, MCU/chip (if any beyond LED driving), and PCB color/shape
-    beyond "ring" were not stated by any source and are left empty. Quantity
-    made was not stated anywhere found.
+  notes: 'Important discrepancy: every source found (the maker''s own GitHub repo name "DC33-SaO-MANY-SAOs", the Coruscant Ventures product page titled "SAO Many SAOs Badge - DEFCON 33", and repo dates from May 2025) identifies this as a DEF CON 33 (2025) badge, not DEF CON 34. This entry was imported into the dc34 sheet/section, but is left filed under dc34 (matching its existing id and file location) since correcting the event would require moving the entry; a human maintainer should confirm and possibly relocate it to dc33. Price is inconsistent between sources: the community sheet and Tindie say $80, the maker''s own coruscantventures.com store currently shows $100. Exact LED count, MCU/chip (if any beyond LED driving), and PCB color/shape beyond "ring" were not stated by any source and are left empty. Quantity made was not stated anywhere found.'
 last_modified_date: '2026-09-06'
+related:
+- dc33-sao-many-saos-already-catalogued-as-dc33-sao-many-saos
 ---
 
 The SAO Many SAOs badge is a wearable ring-shaped board built around one idea: instead of a badge with one or two SAO headers, give it 25, so a wearer can mount an entire personal SAO collection at once. It was made by Coruscant Ventures, whose own product page credits the design to a 14-year-old maker who learned PCB design from YouTube and Discord. Two pre-installed 18650 batteries, chargeable over USB or a barrel connector, power the ring; onboard circuitry includes surge protection and red/green charge-status LEDs. White LEDs run around the outer edge of the board, but they only light up when the maker's companion "SmartAO" SAO is plugged into the top-left slot, which drives them.

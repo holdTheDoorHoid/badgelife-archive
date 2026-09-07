@@ -76,10 +76,10 @@ sources:
   accessed: '2026-09-07'
   note: Describes the official SAINTCON 2022 badge's two 8-header "wings" (4 minibadge slots each) that this and other minibadges plug into.
 research:
-  status: researched
+  status: verified
   confidence: medium
   last_checked: '2026-09-07'
-  notes: The repo is compukidmike's own; it documents (1) a firmware fix for the official RP2040-based SAINTCON 2022 badge, (2) assembly instructions for that badge's minibadge "wings", and (3) this entry's actual subject, a personal heart-shaped minibadge compukidmike made to trade at the con. No listed price, quantity, or exact PCB manufacturer info was found. The board reads "#badgelife 3487737 SAINTCON 2022" per the parts photo. Not the official SAINTCON 2022 attendee badge itself.
+  notes: 'Fact-check pass (2026-09-07): all three cited sources were re-fetched and confirm the entry. The main repo README confirms the minibadge/wing-assembly/firmware-fix structure. The minibadge README confirms the kit contents (board, flex circuit, two 51-ohm 0603 resistors, four 2-pin headers), the assembly steps, and the "heart should move slightly in and out" / ~1mm-from-magnet pinch detail used in the body text. The wing-assembly README confirms two minibadge wings holding 4 minibadges each (note: each wing actually carries eight 1x8 headers, not a single 8-pin header as the shorthand "8-pin wing" phrasing implies, but the entry''s "8-header wings holding four minibadges each" body wording is accurate). Both images were opened and visually match their captions and source repo. get_one.where (in-person trading) is corroborated by SAINTCON''s own minibadge-culture page, independent of the maker''s repo. No listed price, quantity, or PCB manufacturer info exists in any source, so those fields correctly remain empty. The "#badgelife 3487737 SAINTCON 2022" board marking is directly visible in the saved parts photo.'
 last_modified_date: '2026-09-07'
 ---
 

@@ -95,6 +95,9 @@ links:
 - label: github.com/cal-poly-cci/SGC-2023-Badge-Aerospacecorp.#readme
   url: https://github.com/cal-poly-cci/SGC-2023-Badge-Aerospacecorp.#readme
   kind: repo
+- label: github.com/cal-poly-cci/SGC-2023-Badge-Aerospacecorp.
+  url: https://github.com/cal-poly-cci/SGC-2023-Badge-Aerospacecorp.
+  kind: repo
 images:
 - file: assets/images/badges/dc31/space-grand-challenge-satellite-badge/front-leds-a.jpg
   source: https://github.com/cal-poly-cci/SGC-2023-Badge-Aerospacecorp./blob/main/SGC%20badge%20Satellite23.mp4
@@ -108,6 +111,10 @@ images:
   source: https://forum.defcon.org/node/240869
   credit: hdanielson on the DEF CON forums (3D render)
   caption: 3D render of the front posted with the June 2022 forum announcement of the original run; the logo placement differs from the built board
+- file: assets/images/badges/dc31/space-grand-challenge-satellite-badge/badge-lit.jpg
+  source: https://github.com/cal-poly-cci/SGC-2023-Badge-Aerospacecorp.
+  credit: California Cybersecurity Institute (Cal Poly), frame from the repo video
+  caption: Assembled badge lit up, showing the satellite shape, dish LED, one group of panel LEDs, and the CCI and Aerospace Corporation logos
 contact: {}
 notes:
 - The DC31 sheet listed the maker as "Aerospace Village" and the item as "Space Grand Challenge Satellite Badge"; the back silkscreen reads "SPACE GRAND CHALLENGE BADGE" and the design files credit Cal Poly CCI, The Aerospace Corporation and Alpenglow Industries. The village is where it was to be handed out, not who made it.
@@ -116,6 +123,8 @@ notes:
 - 'Schematic title block: "Space Grand Challenge", rev A, 2022-04-20, part number SAT-0100.'
 - Check their twitter feed as info becomes available (github link available)
 - This is the same badge as dc31-space-grand-challenge-satellite-badge, which the community sheet listed separately under maker "Aerospace Village." That entry has photos and much more extensive sourcing (forum posts, the challenge website, the full BOM); this entry was filled in independently from the same GitHub repos and kept intentionally lighter to avoid duplicating that work.
+- Spotted by a research agent while working on a neighbouring entry.
+- This is the same physical badge as dc31-space-grand-challenge-satellite-badge, which the community sheet also listed (under maker "Aerospace Village") and which carries much deeper sourcing (forum posts, the challenge website, the full BOM, three photos). That entry's research treats it as the primary record and its notes say the two were merged; this entry is kept filled in but intentionally lighter per the archive's duplicate-handling rule.
 status: announced
 sources:
 - kind: sheet
@@ -230,7 +239,7 @@ research:
   confidence: medium
   last_checked: '2026-09-06'
   notes: 'Fact-checked 2026-09-06 against every cited source: hardware, makers, puzzle text, challenge site, forum announcement, sheet rows and all three images (the two photos are crops of frames 10 and 12 of the repo video; the render is the forum attachment) are confirmed. Corrections made during the check: the dish LED (D7) is fed directly from the supply and stays lit, only the twelve panel LEDs alternate; the back silkscreen line is "BY THE AEROSPACE CORPORATION AND CALIFORNIA CYBERSECURITY INSTITUTE" (the "for the Aerospace Corp..." wording is in the schematic); the Wix sponsor page spells it "Alpenglowindustries"; the Space Grand Challenge is described by its sources as a game-based competition, not a CTF, and nothing says it is free; the 2023 repo appeared in May 2023, not June. Not found in any source: a price, a quantity, whether the badge was actually handed out or sold at DEF CON 30 or 31 (both the 2022 forum post and the 2023 sheet only say it would be at the village), whether
-    the 2023 run was a second batch or leftovers, and who at CCI ran it (the forum poster and the 2023 repo committer both use the handle hdanielson; Mustang News names a Henry Danielson at CCI, but that link is not confirmed by any source). The Aerospace Corporation''s "Aerospace at DEF CON 31" article (Cloudflare bot check) and the Alpenglow Tindie store (403) could not be read. The sheet''s maker "Aerospace Village" disagrees with the design files, which credit Cal Poly CCI, The Aerospace Corporation and Alpenglow Industries. Merged with duplicate entry ''Space Grand Challenge Badge'' (dc31-sgc-aerospace-corporation).'
+    the 2023 run was a second batch or leftovers, and who at CCI ran it (the forum poster and the 2023 repo committer both use the handle hdanielson; Mustang News names a Henry Danielson at CCI, but that link is not confirmed by any source). The Aerospace Corporation''s "Aerospace at DEF CON 31" article (Cloudflare bot check) and the Alpenglow Tindie store (403) could not be read. The sheet''s maker "Aerospace Village" disagrees with the design files, which credit Cal Poly CCI, The Aerospace Corporation and Alpenglow Industries. Merged with duplicate entry ''Space Grand Challenge Badge'' (dc31-sgc-aerospace-corporation). Merged with duplicate entry ''SGC Aerospace Corporation'' (dc31-sgc-aerospace-corporation).'
 last_modified_date: '2026-09-07'
 redirect_from:
 - /badges/dc31/sgc-aerospace-corporation/
@@ -257,3 +266,13 @@ This entry duplicates dc31-space-grand-challenge-satellite-badge, which the comm
 ## Make your own
 
 The original Alpenglow Industries repository (github.com/AlpenglowIndustries/Space_Grand_Challenge) has the complete KiCad 6 project - schematic, PCB layout, a footprint library, Gerbers and a bill of materials - under the MIT license. Since the board has no firmware, replicating it is a matter of fabricating the PCB from the supplied Gerbers and hand-soldering the BOM parts (LEDs, resistors, two transistors, switches and a CR2032 holder).
+
+## Notes merged from the duplicate entry "SGC Aerospace Corporation"
+
+This satellite-shaped badge was built for Cal Poly's California Cybersecurity Institute (CCI) and sponsored by The Aerospace Corporation, made for the DEF CON Aerospace Village at DEF CON 31 in 2023. The design traces back to a 2022 project by Alpenglow Industries of San Luis Obispo: a purple PCB shaped like a satellite, with gold solar-panel wings carrying yellow 1206 LEDs. There is no microcontroller — a two-transistor oscillator (an astable multivibrator) alternately flashes two groups of six LEDs on the wings, while a further LED at the dish feed stays lit as long as the CR2032 coin cell is connected. A ROT13-encoded line, "ZNL RZVG QVTVGNY QHFG" (which decodes to "MAY EMIT DIGITAL DUST"), curves across the dish, and the board points to a web-based beginner satellite/cybersecurity challenge.
+
+The GitHub repository linked from this entry's own sheet row holds only a KiCad 6 PCB file and a short phone video of a finished, lit-up unit — no schematic or bill of materials. A companion repository in the same cal-poly-cci GitHub organization carries the fuller 2022 KiCad project (schematic, PCB, Gerbers, and a BOM with Digi-Key part numbers) under the MIT license; its footprint set matches this 2023 board component-for-component, indicating the 2023 run reused the 2022 Alpenglow design with updated branding rather than a fresh circuit. No source found gives a price, a quantity made, or confirmation that the badge was actually sold or handed out at the con.
+
+## Make your own
+
+The complete KiCad 6 project — schematic, PCB layout, Gerbers, and a BOM — is published under the MIT license in the linked Alpenglow-Industries fork. The board has no firmware, so replicating it is a matter of fabricating the PCB from the Gerbers and hand-soldering the BOM parts (1206 LEDs, resistors, two SOT-23 transistors, a slide switch, and a CR2032 holder). The 2023 repo's own README notes the PCB file should be opened in KiCad 6, not KiCad 7.

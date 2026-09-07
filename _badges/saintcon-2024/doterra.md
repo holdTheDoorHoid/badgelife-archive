@@ -69,10 +69,10 @@ sources:
   accessed: '2026-09-07'
   note: 'JSON record backing the minibadge.wiki listing: author, description, soldering instructions/difficulty, quantity made, category, how to acquire, and rarity.'
 research:
-  status: researched
+  status: verified
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'The minibadge.wiki search page itself renders client-side from a per-year JSON data file; fetched https://minibadge.wiki/2024.json directly to get the doTERRA record. The listing gives no chip/PCB color info and lists quantityMade as 0 (likely an unfilled form field rather than a true count of zero, so quantity is left as reported rather than treated as "none made"). No maker page, repo, or storefront found beyond this community wiki entry; open_source and pricing are unknown.'
+  notes: 'Fact-check pass (2026-09-07): re-fetched https://minibadge.wiki/2024.json directly and confirmed the doTERRA record (author kittysedai, description, solderingInstructions, solderingDifficulty Beginner, quantityMade 0, category Personal, conferenceYear 2024, howToAcquire "Trade with me", rarity Super Rare) matches every non-empty field and every sentence in the body. Confirmed the search page itself still renders no results server-side. Downloaded the record''s frontImageUrl/backImageUrl (minibadge.wiki/images/2024/doterra-front.png and doterra-back.png) and compared them to the two saved images: same purple SAINTCON 2024 board, kittysedai credit, R1/D1 silkscreen labels, and logo letterform, confirming both saved images depict this item (the wiki-hosted PNGs render the silkscreen text at much lower contrast/opacity than the saved JPGs, but the design is the same). The listing gives no chip/PCB color info and lists quantityMade as 0 (likely an unfilled form field rather than a true count of zero, so quantity is left as reported rather than treated as "none made"). No maker page, repo, or storefront found beyond this community wiki entry; open_source and pricing remain unknown.'
 last_modified_date: '2026-09-07'
 ---
 

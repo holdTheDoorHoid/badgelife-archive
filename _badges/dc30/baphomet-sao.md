@@ -80,6 +80,9 @@ research:
     snapshots of the product photos exist in the Wayback Machine, so no images were saved. web search was unavailable for this task
     (session search budget exhausted), so coverage relied on the archived Tindie page and direct fetch attempts only.
 last_modified_date: '2026-09-07'
+related:
+- dc30-hailsatan-sao-s
+- dc30-devil-trap
 ---
 
 The Baphomet SAO is a small horror-themed shameless-plug add-on made by sqearlsalazar, sold on Tindie as the "Baphomet Defcon SAO" but described in the listing itself as the "Satanic Goat SAO." It is a bare PCB, roughly 3" x 2.25", populated with nine 0805 red SMD LEDs (one pad left unused), four SMD resistors, and a 2x3 DEF CON-style SAO connector; it has no microcontroller and draws power entirely from the host badge.

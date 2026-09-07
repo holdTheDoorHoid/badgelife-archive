@@ -72,6 +72,7 @@ sources:
   title: BIC Badge - Blacks In Cybersecurity Conference
   accessed: '2026-09-06'
   note: BiC's own badge page; documents only the "BIC Pick" badge and does not mention a 2022 or Black Panther-themed badge.
+  archived: https://web.archive.org/web/20260309112553/https://www.blacksincyberconf.com/badge
 research:
   status: verified
   confidence: low

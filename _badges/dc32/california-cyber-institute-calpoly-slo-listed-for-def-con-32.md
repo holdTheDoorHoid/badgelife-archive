@@ -50,6 +50,7 @@ sources:
   title: Cybersecurity - Noyce School of Applied Computing (cci.calpoly.edu redirects here)
   accessed: '2026-09-07'
   note: Confirms the California Cybersecurity Institute at Cal Poly SLO and that it is "temporarily discontinued"; no badge, SAO, or DEF CON mention.
+  archived: https://web.archive.org/web/20260812104527/https://noyce.calpoly.edu/cybersecurity/
 - kind: url
   url: https://github.com/cal-poly-cci
   title: California Cybersecurity Institute (GitHub org)
@@ -59,28 +60,8 @@ research:
   status: verified
   confidence: low
   last_checked: '2026-09-07'
-  notes: >-
-    Could not identify what, if anything, this maker brought to DEF CON 32. The
-    community sheet lists only the maker name with no further detail. Cal Poly
-    San Luis Obispo's "California Cybersecurity Institute" (CCI), part of the
-    Noyce School of Applied Computing, is the most likely match for "California
-    Cyber Institute" on the sheet; cci.calpoly.edu now redirects to
-    noyce.calpoly.edu/cybersecurity/, which states the school has "temporarily
-    discontinued" the Cybersecurity Institute (checked 2026-09-07). That page
-    mentions no DEF CON badge, SAO, or giveaway, and none was found on Hackaday.io,
-    Hackaday.com, or in Wayback Machine snapshots of the CCI site. No maker
-    storefront or social presence tied to a badge/SAO was found. This same maker
-    has a DC31 (2023) entry in this archive, "SGC Aerospace Corporation"
-    (dc31-sgc-aerospace-corporation), linking to
-    github.com/cal-poly-cci/SGC-2023-Badge-Aerospacecorp. — confirming "cal-poly-cci"
-    is their GitHub org (California Cybersecurity Institute) and that their badge
-    work is tied to the Aerospace Corporation's "Space Grand Challenge" (SGC), not
-    necessarily DEF CON itself. That org lists three repos (checked 2026-09-07:
-    Space_Grand_Challenge-AlpenglowIndustries, SGC-2023-Badge-Aerospacecorp.,
-    streamable-resources) and none for 2024 or DEF CON 32, so no equivalent badge
-    could be traced for this year. Fact-check 2026-09-06/07: the two sources above
-    were re-opened and the notes corrected ("temporarily discontinued", redirect
-    rather than mirror); status left as unknown since the sheet is the only trace.
+  notes: 'Could not identify what, if anything, this maker brought to DEF CON 32. The community sheet lists only the maker name with no further detail. Cal Poly San Luis Obispo''s "California Cybersecurity Institute" (CCI), part of the Noyce School of Applied Computing, is the most likely match for "California Cyber Institute" on the sheet; cci.calpoly.edu now redirects to noyce.calpoly.edu/cybersecurity/, which states the school has "temporarily discontinued" the Cybersecurity Institute (checked 2026-09-07). That page mentions no DEF CON badge, SAO, or giveaway, and none was found on Hackaday.io, Hackaday.com, or in Wayback Machine snapshots of the CCI site. No maker storefront or social presence tied to a badge/SAO was found. This same maker has a DC31 (2023) entry in this archive, "SGC Aerospace Corporation" (dc31-sgc-aerospace-corporation), linking to github.com/cal-poly-cci/SGC-2023-Badge-Aerospacecorp. — confirming "cal-poly-cci" is their GitHub org (California Cybersecurity Institute)
+    and that their badge work is tied to the Aerospace Corporation''s "Space Grand Challenge" (SGC), not necessarily DEF CON itself. That org lists three repos (checked 2026-09-07: Space_Grand_Challenge-AlpenglowIndustries, SGC-2023-Badge-Aerospacecorp., streamable-resources) and none for 2024 or DEF CON 32, so no equivalent badge could be traced for this year. Fact-check 2026-09-06/07: the two sources above were re-opened and the notes corrected ("temporarily discontinued", redirect rather than mirror); status left as unknown since the sheet is the only trace.'
 last_modified_date: '2026-09-06'
 ---
 

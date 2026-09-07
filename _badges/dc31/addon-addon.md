@@ -49,22 +49,10 @@ research:
   status: researched
   confidence: low
   last_checked: '2026-09-07'
-  notes: >-
-    No web presence found for "Whiskey Pirate Crew" or "Addon addon" despite
-    an extensive search (web search engine, Bing, DuckDuckGo, Hackaday.io).
-    The community sheet's own parenthetical on the maker name ("remember
-    they be pirates...not badgelife!") and the row's distribution note
-    ("you will have to track down True in person") both suggest this is a
-    small, cash-and-carry, in-person-only group with no storefront, repo,
-    or social presence to find. The same maker name appears on several other
-    sheet rows across DC30-DC32 (dc30-rumor-says-they-have-one, dc32-flames,
-    dc32-infinite-wifi-portal-2, dc32-peppercon9) with similarly informal,
-    joke-like titles, which fits the same pattern rather than a naming
-    coincidence. No independent source could confirm or add to what the
-    sheet already recorded (title, price, in-person distribution), so all
-    technical, look, and availability fields are left empty rather than
-    guessed.
+  notes: No web presence found for "Whiskey Pirate Crew" or "Addon addon" despite an extensive search (web search engine, Bing, DuckDuckGo, Hackaday.io). The community sheet's own parenthetical on the maker name ("remember they be pirates...not badgelife!") and the row's distribution note ("you will have to track down True in person") both suggest this is a small, cash-and-carry, in-person-only group with no storefront, repo, or social presence to find. The same maker name appears on several other sheet rows across DC30-DC32 (dc30-rumor-says-they-have-one, dc32-flames, dc32-infinite-wifi-portal-2, dc32-peppercon9) with similarly informal, joke-like titles, which fits the same pattern rather than a naming coincidence. No independent source could confirm or add to what the sheet already recorded (title, price, in-person distribution), so all technical, look, and availability fields are left empty rather than guessed.
 last_modified_date: '2026-09-07'
+related:
+- dc31-rgb-addon-addon-for-dc31-badge-true-s-addon-addon
 ---
 
 "Addon addon" is a row from the DEF CON 31 community badge sheet crediting
