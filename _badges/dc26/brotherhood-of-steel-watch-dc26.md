@@ -10,18 +10,21 @@ event: dc26
 year: 2018
 makers:
 - name: unnamed
-summary: ''
-functions: ''
+summary: 'A wrist-worn, Pip-Boy-style multi-tool spotted at the DEF CON 26 hardware hacking village, nicknamed for the Brotherhood of Steel faction in Fallout.'
+functions: 'Displays information on red "bubble" numeric displays, with four toggle switches and a d-pad for input; includes a laser diode, a GPS module, and a digital compass.'
 look:
   colors: []
   shape: null
-  themes: []
+  themes:
+  - sci-fi
+  - wearable
 tech:
-  mcu: null
+  mcu: NXP ARM
   leds: null
-  display: null
-  connectivity: []
-  battery: null
+  display: red bubble displays
+  connectivity:
+  - gps
+  battery: 400 mAh LiPo
   sao_version: null
 get_one:
   price: ''
@@ -39,7 +42,15 @@ links:
 - label: hackaday.com/2018/08/14/all-the-badges-of-def-con-26-vol-1
   url: https://hackaday.com/2018/08/14/all-the-badges-of-def-con-26-vol-1/
   kind: article
-images: []
+images:
+- file: assets/images/badges/dc26/brotherhood-of-steel-watch-dc26/31aa90f171.jpg
+  source: "https://hackaday.com/2018/08/14/all-the-badges-of-def-con-26-vol-1/"
+  credit: "Hackaday"
+  caption: "Front view of the Brotherhood of Steel Pip-Boy-style watch"
+- file: assets/images/badges/dc26/brotherhood-of-steel-watch-dc26/3bac02fc25.jpg
+  source: "https://hackaday.com/2018/08/14/all-the-badges-of-def-con-26-vol-1/"
+  credit: "Hackaday"
+  caption: "Interior view showing the laser diode, GPS module, compass, and battery"
 contact: {}
 notes:
 - Pip-Boy-style wrist device; no dedicated project page found
@@ -50,11 +61,21 @@ sources:
   title: Brotherhood of Steel Watch (DC26)
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: dc26-dc27-sao-wave); event read as ''DEF CON 26''.'
+- kind: url
+  url: https://hackaday.com/2018/08/14/all-the-badges-of-def-con-26-vol-1/
+  title: All The Badges Of DEF CON 26, Vol 1
+  accessed: '2026-09-07'
+  note: 'Re-read in full: confirms description, features (bubble displays, toggle switches, d-pad, laser diode, Adafruit GPS, Honeywell compass, NXP ARM MCU, 400 mAh LiPo), and the two photos used above. No maker name, project page, price, or availability info given anywhere on the page.'
 research:
-  status: stub
+  status: researched
   confidence: low
-  last_checked: '2026-09-06'
-  notes: Imported from the community badge sheet; not yet researched.
-last_modified_date: '2026-09-06'
+  last_checked: '2026-09-07'
+  notes: 'Only source found is the single Hackaday roundup paragraph and its two photos; the article gives no maker name, no project/repo link, and no price/quantity/availability info. A web search for the maker or a dedicated project page (Hackaday.io, GitHub, Reddit) turned up nothing beyond this same article. Likely a one-off HHV build rather than a distributed badge, so get_one and make_your_own fields are left empty rather than guessed.'
+last_modified_date: '2026-09-07'
 ---
 
+A wrist-mounted, Pip-Boy-style device spotted at the DEF CON 26 hardware hacking village in 2018 and dubbed the "Brotherhood of Steel" after the Fallout video game faction the Pip-Boy comes from. It packs red bubble-style numeric displays for readouts, four toggle switches, and a d-pad for control, all built into a custom metal case sized to wear on the wrist.
+
+Inside, it runs on an NXP ARM microcontroller powered by a 400 mAh LiPo battery sandwiched between the PCB and the lower half of the case. Also visible with the case open are a laser diode, an Adafruit GPS module, and a Honeywell digital compass, suggesting it was built as a functional multi-tool rather than a purely decorative badge.
+
+No maker, project page, or distribution details turned up in research; this appears to be a one-off hardware-hacking-village build documented only in Hackaday's DEF CON 26 badge roundup, with no evidence it was sold, kitted, or open-sourced.

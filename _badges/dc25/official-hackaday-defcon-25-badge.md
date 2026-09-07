@@ -40,9 +40,11 @@ links:
 - label: hackaday.io/project/25150-the-official-hackaday-defcon-25-badge
   url: https://hackaday.io/project/25150-the-official-hackaday-defcon-25-badge
   kind: hackaday
+  archived: https://web.archive.org/web/20260510205621/https://hackaday.io/project/25150-the-official-hackaday-defcon-25-badge
 - label: oshpark.com/shared_projects/A3QUDyAk
   url: https://oshpark.com/shared_projects/A3QUDyAk
   kind: fab
+  archived: https://web.archive.org/web/20260317151328/https://oshpark.com/shared_projects/A3QUDyAk
 images: []
 contact: {}
 notes: []
@@ -53,6 +55,7 @@ sources:
   title: The Official Hackaday DEFCON 25 Badge
   accessed: '2026-09-06'
   note: Found via the project's link list; intake pass identified this item here.
+  archived: https://web.archive.org/web/20260510205621/https://hackaday.io/project/25150-the-official-hackaday-defcon-25-badge
 research:
   status: stub
   confidence: low

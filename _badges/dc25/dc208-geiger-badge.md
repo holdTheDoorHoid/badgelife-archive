@@ -32,7 +32,7 @@ tech:
   battery: coin cell
   sao_version: none
   other:
-  - 'Si1132 UV/ambient-light & IR sensor (I2C) stands in for a Geiger-Muller tube; there is no actual radiation detector on the board'
+  - Si1132 UV/ambient-light & IR sensor (I2C) stands in for a Geiger-Muller tube; there is no actual radiation detector on the board
   - CVS-1508 piezo buzzer for the counter "click" sound, driven through a BSS316NH6327XT MOSFET
   - LD1117S33 3.3V linear regulator; 3-position DIP switch for mode select
 get_one:
@@ -52,11 +52,13 @@ links:
 - label: Schematics, firmware & KiCad repo
   url: https://github.com/badgelife/DC208-DC25-geiger-badge
   kind: repo
+  archived: https://web.archive.org/web/20260907112502/https://github.com/badgelife/DC208-DC25-geiger-badge
 images:
 - file: assets/images/badges/dc25/dc208-geiger-badge/f23c6d4881.png
-  source: "https://github.com/badgelife/DC208-DC25-geiger-badge"
-  credit: "DC208"
-  caption: "Rendered PCB of the DC25 Geiger Badge"
+  source: https://github.com/badgelife/DC208-DC25-geiger-badge
+  credit: DC208
+  caption: Rendered PCB of the DC25 Geiger Badge
+  archived: https://web.archive.org/web/20260907112502/https://github.com/badgelife/DC208-DC25-geiger-badge
 contact: {}
 notes: []
 status: listed
@@ -66,21 +68,25 @@ sources:
   title: Original badge.life archive page
   accessed: '2026-09-06'
   note: Migrated from the badge.life Badge Archive; the original page is preserved as the entry body.
+  archived: https://web.archive.org/web/20260907112614/https://badge.life/badges/dc25/dc208/
 - kind: url
   url: https://github.com/badgelife/DC208-DC25-geiger-badge
   title: badgelife/DC208-DC25-geiger-badge on GitHub
   accessed: '2026-09-07'
-  note: 'README, MIT license, and repo layout (kicad/ and firmware/ folders).'
+  note: README, MIT license, and repo layout (kicad/ and firmware/ folders).
+  archived: https://web.archive.org/web/20260907112502/https://github.com/badgelife/DC208-DC25-geiger-badge
 - kind: url
   url: https://raw.githubusercontent.com/badgelife/DC208-DC25-geiger-badge/master/firmware/doc/README.md
   title: Firmware build/flash instructions
   accessed: '2026-09-07'
   note: Confirms ATtiny1634 MCU, avr-g++ toolchain, and firmware source file names (charlieplex.cpp, led.cpp, switch.cpp, TWI_master.cpp, ir_sensor.cpp, clicker.cpp).
+  archived: https://web.archive.org/web/20260907112740/https://raw.githubusercontent.com/badgelife/DC208-DC25-geiger-badge/master/firmware/doc/README.md
 - kind: url
   url: https://raw.githubusercontent.com/badgelife/DC208-DC25-geiger-badge/master/kicad/DC25-geiger-badge.sch
   title: DC25-geiger-badge.sch (KiCad schematic, raw)
   accessed: '2026-09-07'
   note: Component list used to identify the LED count/package, Si1132 optical sensor, CVS-1508 buzzer, MOSFET driver, voltage regulator, and DIP switch; no Geiger-Muller tube or ionization component appears anywhere in the schematic.
+  archived: https://web.archive.org/web/20260907112756/https://raw.githubusercontent.com/badgelife/DC208-DC25-geiger-badge/master/kicad/DC25-geiger-badge.sch
 research:
   status: researched
   confidence: medium

@@ -40,6 +40,7 @@ links:
 - label: hackaday.io/project/18508-mr-robot-badge
   url: https://hackaday.io/project/18508-mr-robot-badge
   kind: hackaday
+  archived: https://web.archive.org/web/20260116150752/https://hackaday.io/project/18508-mr-robot-badge
 - label: mrrobotbadge.tv
   url: http://mrrobotbadge.tv
   kind: website
@@ -53,6 +54,7 @@ sources:
   title: Mr Robot Badge
   accessed: '2026-09-06'
   note: Found via the project's link list; intake pass identified this item here.
+  archived: https://web.archive.org/web/20260116150752/https://hackaday.io/project/18508-mr-robot-badge
 research:
   status: stub
   confidence: low

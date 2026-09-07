@@ -39,6 +39,7 @@ links:
 - label: github.com/dc801/DC25PartyBadge
   url: https://github.com/dc801/DC25PartyBadge
   kind: repo
+  archived: https://web.archive.org/web/20260907113014/https://github.com/dc801/DC25PartyBadge
 images: []
 contact: {}
 notes: []
@@ -49,6 +50,7 @@ sources:
   title: DC801 DC25 Party Badge
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: maker-groups); event read as ''DEF CON 25''.'
+  archived: https://web.archive.org/web/20260907113014/https://github.com/dc801/DC25PartyBadge
 research:
   status: stub
   confidence: low

@@ -39,6 +39,7 @@ links:
 - label: github.com/DCHHV/DC25_HHV_RE
   url: https://github.com/DCHHV/DC25_HHV_RE
   kind: repo
+  archived: https://web.archive.org/web/20260907113102/https://github.com/DCHHV/DC25_HHV_RE
 images: []
 contact: {}
 notes: []
@@ -49,6 +50,7 @@ sources:
   title: Hardware Hacking Village DC25 RE Challenge Badge
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: villages-early: DEF CON village and DC-group badges, DEF CON 24-29 (2016-2021)); event read as ''DEF CON 25 (2017)''.'
+  archived: https://web.archive.org/web/20260907113102/https://github.com/DCHHV/DC25_HHV_RE
 research:
   status: stub
   confidence: low

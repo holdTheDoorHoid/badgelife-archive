@@ -38,6 +38,7 @@ links:
 - label: hackaday.io/project/14756-the-ides-of-defcon-an-unofficial-electronic-badge
   url: https://hackaday.io/project/14756-the-ides-of-defcon-an-unofficial-electronic-badge
   kind: hackaday
+  archived: https://web.archive.org/web/20260708173713/https://hackaday.io/project/14756-the-ides-of-defcon-an-unofficial-electronic-badge
 images: []
 contact: {}
 notes: []
@@ -48,6 +49,7 @@ sources:
   title: 'The ides of DEFCON: An Unofficial Electronic Badge'
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: hackaday-search); event read as ''DEF CON 25''.'
+  archived: https://web.archive.org/web/20260708173713/https://hackaday.io/project/14756-the-ides-of-defcon-an-unofficial-electronic-badge
 research:
   status: stub
   confidence: low

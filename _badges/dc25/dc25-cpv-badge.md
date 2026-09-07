@@ -40,12 +40,15 @@ links:
 - label: github.com/cryptovillage/badge2017
   url: https://github.com/cryptovillage/badge2017
   kind: repo
+  archived: https://web.archive.org/web/20260907112820/https://github.com/cryptovillage/badge2017
 - label: hackaday.io/project/25893-the-2017-crypto-and-privacy-village-badge
   url: https://hackaday.io/project/25893-the-2017-crypto-and-privacy-village-badge
   kind: hackaday
+  archived: https://web.archive.org/web/20260907112942/https://hackaday.io/project/25893-the-2017-crypto-and-privacy-village-badge
 - label: hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25
   url: https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/
   kind: article
+  archived: https://web.archive.org/web/20260306173057/https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/
 images: []
 contact: {}
 notes: []
@@ -56,6 +59,7 @@ sources:
   title: cryptovillage/badge2017 - The 2017 Crypto and Privacy Village Badge
   accessed: '2026-09-06'
   note: Found via the project's link list; intake pass identified this item here.
+  archived: https://web.archive.org/web/20260907112820/https://github.com/cryptovillage/badge2017
 research:
   status: stub
   confidence: low

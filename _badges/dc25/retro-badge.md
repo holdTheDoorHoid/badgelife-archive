@@ -38,6 +38,7 @@ links:
 - label: hackaday.io/project/26256-def-con-25-retro-badge
   url: https://hackaday.io/project/26256-def-con-25-retro-badge
   kind: hackaday
+  archived: https://web.archive.org/web/20260907113659/https://hackaday.io/project/26256-def-con-25-retro-badge
 images: []
 contact: {}
 notes: []
@@ -48,6 +49,7 @@ sources:
   title: DEF CON 25 Retro Badge
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: hackaday-list); event read as ''DEF CON 25''.'
+  archived: https://web.archive.org/web/20260907113659/https://hackaday.io/project/26256-def-con-25-retro-badge
 research:
   status: stub
   confidence: low
