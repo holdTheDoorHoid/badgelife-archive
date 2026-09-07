@@ -17,7 +17,7 @@ makers:
 - name: Compukidmike
   role: engineering support
 summary: An audio-reactive DEF CON 27 indie badge with 112 SK6812-MINI RGB LEDs arranged as a bearded, goggle-wearing figure, driven by an ESP32-WROOM with a microphone input, 23 LED modes, micro-USB charging and a 1500 mAh LiPo, engineered with Compukidmike and assembled by Seeed Studio.
-functions: 'Sound-reactive LED animation across 23 modes, three-button control with mode cycling and adjustable brightness, a "Looky Eyes" mode, and (as originally designed) a soft-AP for custom scrolling text and a multi-badge "party mode" when several units are in range.'
+functions: Sound-reactive LED animation across 23 modes, three-button control with mode cycling and adjustable brightness, a "Looky Eyes" mode, and (as originally designed) a soft-AP for custom scrolling text and a multi-badge "party mode" when several units are in range.
 look:
   colors: []
   shape: null
@@ -45,7 +45,7 @@ get_one:
   availability: unknown
   distribution:
   - purchase
-  where: 'Sold as a DEF CON 27 indie badge; exact storefront and remaining quantity not found. Production was limited by LED-component shortages at the time.'
+  where: Sold as a DEF CON 27 indie badge; exact storefront and remaining quantity not found. Production was limited by LED-component shortages at the time.
 make_your_own:
   open_source: partial
   hardware_url: null
@@ -56,6 +56,7 @@ links:
 - label: hackaday.io/project/167172-beardo-badge-dc27-indie-badge
   url: https://hackaday.io/project/167172-beardo-badge-dc27-indie-badge
   kind: hackaday
+  archived: https://web.archive.org/web/20260614033854/https://hackaday.io/project/167172-beardo-badge-dc27-indie-badge
 - label: medium.com/@s7a73farm/badgelife-the-good-the-bad-and-the-i-did-not-see-that-coming-c64c081f517
   url: https://medium.com/@s7a73farm/badgelife-the-good-the-bad-and-the-i-did-not-see-that-coming-c64c081f517
   kind: website
@@ -64,13 +65,15 @@ links:
   kind: repo
 images:
 - file: assets/images/badges/dc27/beardo-badge/bc33b503e0.jpg
-  source: "https://hackaday.io/project/167172-beardo-badge-dc27-indie-badge"
-  credit: "s7a73farm"
-  caption: "The Beardo Badge, a bearded goggle-wearing figure lit by 112 RGB LEDs"
+  source: https://hackaday.io/project/167172-beardo-badge-dc27-indie-badge
+  credit: s7a73farm
+  caption: The Beardo Badge, a bearded goggle-wearing figure lit by 112 RGB LEDs
+  archived: https://web.archive.org/web/20260614033854/https://hackaday.io/project/167172-beardo-badge-dc27-indie-badge
 - file: assets/images/badges/dc27/beardo-badge/9896561ac7.jpg
-  source: "https://hackaday.io/project/167172-beardo-badge-dc27-indie-badge"
-  credit: "s7a73farm"
-  caption: "Beardo Badge assembled prototype photo"
+  source: https://hackaday.io/project/167172-beardo-badge-dc27-indie-badge
+  credit: s7a73farm
+  caption: Beardo Badge assembled prototype photo
+  archived: https://web.archive.org/web/20260614033854/https://hackaday.io/project/167172-beardo-badge-dc27-indie-badge
 contact: {}
 notes: []
 status: released
@@ -80,21 +83,24 @@ sources:
   title: Beardo Badge - DC27 Indie Badge
   accessed: '2026-09-06'
   note: Found via the project's link list; intake pass identified this item here.
+  archived: https://web.archive.org/web/20260614033854/https://hackaday.io/project/167172-beardo-badge-dc27-indie-badge
 - kind: url
   url: https://hackaday.io/project/167172-beardo-badge-dc27-indie-badge
   title: Beardo Badge - DC27 Indie Badge
   accessed: '2026-09-07'
   note: Core facts - maker team (s7a73farm, gr3yR0n1n, Compukidmike), ESP32-WROOM MCU, 112 SK6812-MINI LEDs (changed from WS2812 3535), 23 modes, 1500 mAh LiPo, micro-USB charging, WiFi/BLE, LED shortage limiting production. Also source of the two saved photos.
+  archived: https://web.archive.org/web/20260614033854/https://hackaday.io/project/167172-beardo-badge-dc27-indie-badge
 - kind: url
   url: https://github.com/s7a73farm/s7a73farm_DC27_BeardoBadge
-  title: 'GitHub - s7a73farm/s7a73farm_DC27_BeardoBadge'
+  title: GitHub - s7a73farm/s7a73farm_DC27_BeardoBadge
   accessed: '2026-09-07'
-  note: "Firmware/source repo exists with usage docs (buttons, modes); no schematics/Gerbers/BOM found, so hardware files are unconfirmed - used for make_your_own.open_source: partial."
+  note: 'Firmware/source repo exists with usage docs (buttons, modes); no schematics/Gerbers/BOM found, so hardware files are unconfirmed - used for make_your_own.open_source: partial.'
 - kind: url
   url: https://hackaday.io/project/166728-s7a73farm-unofficial-def-con-27-mega-badge
   title: S7a73farm Unofficial DEF CON 27 Mega badge
   accessed: '2026-09-07'
   note: Confirms this is a separate, oversized (22"x22") promotional plexiglass build of the same design, not the indie badge itself; not used to fill fields, only for context in research.notes.
+  archived: https://web.archive.org/web/20251011200006/https://hackaday.io/project/166728-s7a73farm-unofficial-def-con-27-mega-badge
 research:
   status: researched
   confidence: medium

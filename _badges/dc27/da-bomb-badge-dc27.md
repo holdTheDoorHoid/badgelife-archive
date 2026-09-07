@@ -12,8 +12,8 @@ makers:
 - name: Team Ides
   url: https://ides.team/dabomb/
   role: John Adams (lead), with Bill Paul
-summary: 'A bomb-shaped, hackable independent badge for DEF CON 27, built around an nRF52840 (BMD340) module with a color LCD, an RGB LED matrix, and stereo audio, and funded via Kickstarter as a follow-up to Team Ides'' DC25 "Ides of Defcon" badge.'
-functions: 'Runs multiple onboard games and interactive modes, supports a Konami-code-style button sequence across seven buttons, plays stereo audio, and is intended as a hackable/programmable learning platform.'
+summary: A bomb-shaped, hackable independent badge for DEF CON 27, built around an nRF52840 (BMD340) module with a color LCD, an RGB LED matrix, and stereo audio, and funded via Kickstarter as a follow-up to Team Ides' DC25 "Ides of Defcon" badge.
+functions: Runs multiple onboard games and interactive modes, supports a Konami-code-style button sequence across seven buttons, plays stereo audio, and is intended as a hackable/programmable learning platform.
 look:
   colors: []
   shape: null
@@ -26,7 +26,7 @@ tech:
   leds:
     count: null
     type: RGB
-    note: 'Driven by an IS3736 32x8 LED matrix driver chip; exact onboard LED count not confirmed by sources.'
+    note: Driven by an IS3736 32x8 LED matrix driver chip; exact onboard LED count not confirmed by sources.
   display: LCD (color TFT-style touchscreen per press coverage; exact size not confirmed)
   connectivity:
   - ble
@@ -37,15 +37,15 @@ tech:
 get_one:
   price: ''
   price_usd: null
-  quantity: '500 (planned production run per Kickstarter/Hackaday.io updates)'
+  quantity: 500 (planned production run per Kickstarter/Hackaday.io updates)
   availability: unknown
   availability_note: 'Checked 2026-09-07: original storefront (troupeit.com/badge/) and Kickstarter listing status not independently verified; project dates to 2019.'
   distribution:
   - crowdfunding
   - purchase
-  where: 'Funded via Kickstarter ("it''s da Bomb! An Indie DEF CON badge for DC27 by John Adams"); also sold via troupeit.com/badge/ per the maker''s project log.'
+  where: Funded via Kickstarter ("it's da Bomb! An Indie DEF CON badge for DC27 by John Adams"); also sold via troupeit.com/badge/ per the maker's project log.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/netik/dc27_badge/tree/master/hardware/dc27_badge_kicad
   firmware_url: https://github.com/netik/dc27_badge/tree/master/software/firmware/badge
   eda_tool: KiCad
@@ -53,18 +53,21 @@ make_your_own:
   fab_url: null
   bom_url: null
   gerbers_url: null
-  notes: 'Repository (netik/dc27_badge) also includes Kickstarter materials and artwork folders; roughly 133 parts on a 4-layer PCB per the Hackaday.io project log.'
+  notes: Repository (netik/dc27_badge) also includes Kickstarter materials and artwork folders; roughly 133 parts on a 4-layer PCB per the Hackaday.io project log.
 links:
 - label: ides.team/dabomb
   url: https://ides.team/dabomb/
   kind: website
+  archived: https://web.archive.org/web/20260509062548/https://ides.team/dabomb/
 - label: netik/dc27_badge (GitHub)
   url: https://github.com/netik/dc27_badge
   kind: repo
+  archived: https://web.archive.org/web/20260509062554/https://github.com/netik/dc27_badge
 - label: 'Team Ides: DC27 / da Bomb! (Hackaday.io)'
   url: https://hackaday.io/project/161163-team-ides-dc27-da-bomb
   kind: hackaday
-- label: "it's da Bomb! (Kickstarter)"
+  archived: https://web.archive.org/web/20251105151814/https://hackaday.io/project/161163-team-ides-dc27-da-bomb
+- label: it's da Bomb! (Kickstarter)
   url: https://www.kickstarter.com/projects/1887776662/its-da-bomb-an-indie-def-con-badge-for-dc27
   kind: store
 - label: Da Bomb Is a Hackable Badge for DEF CON 27 (Hackster.io)
@@ -73,15 +76,18 @@ links:
 - label: Pictorial Guide To The Unofficial Electronic Badges Of DEF CON 27 (Hackaday)
   url: https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/
   kind: article
+  archived: https://web.archive.org/web/20260513003300/https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/
 images:
 - file: assets/images/badges/dc27/da-bomb-badge-dc27/27a0a511a1.png
-  source: "https://ides.team/dabomb/"
-  credit: "Team Ides / John Adams"
-  caption: "da Bomb badge face artwork"
+  source: https://ides.team/dabomb/
+  credit: Team Ides / John Adams
+  caption: da Bomb badge face artwork
+  archived: https://web.archive.org/web/20260509062548/https://ides.team/dabomb/
 - file: assets/images/badges/dc27/da-bomb-badge-dc27/256919ca3a.jpg
-  source: "https://ides.team/dabomb/"
-  credit: "Team Ides / John Adams"
-  caption: "da Bomb badge kit box"
+  source: https://ides.team/dabomb/
+  credit: Team Ides / John Adams
+  caption: da Bomb badge kit box
+  archived: https://web.archive.org/web/20260509062548/https://ides.team/dabomb/
 contact: {}
 notes: []
 status: released
@@ -91,26 +97,30 @@ sources:
   title: Da Bomb Badge (DC27)
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: dc26-dc27-sao-wave); event read as ''DEF CON 27''.'
+  archived: https://web.archive.org/web/20260509062548/https://ides.team/dabomb/
 - kind: url
   url: https://ides.team/dabomb/
   title: da Bomb! project page (ides.team)
   accessed: '2026-09-07'
-  note: 'Confirmed maker (Team Ides / John Adams), event/year, and found GitHub repo links and image URLs.'
+  note: Confirmed maker (Team Ides / John Adams), event/year, and found GitHub repo links and image URLs.
+  archived: https://web.archive.org/web/20260509062548/https://ides.team/dabomb/
 - kind: url
   url: https://github.com/netik/dc27_badge
   title: 'GitHub - netik/dc27_badge: Defcon 27 "DaBomb!" badge.'
   accessed: '2026-09-07'
-  note: 'Confirmed open source (Apache-2.0), repo layout with hardware/software/artwork folders.'
+  note: Confirmed open source (Apache-2.0), repo layout with hardware/software/artwork folders.
+  archived: https://web.archive.org/web/20260509062554/https://github.com/netik/dc27_badge
 - kind: url
   url: https://hackaday.io/project/161163-team-ides-dc27-da-bomb
   title: 'Team Ides: DC27 / da Bomb! (Hackaday.io)'
   accessed: '2026-09-07'
   note: 'Primary technical source: MCU (nRF52840/BMD340), IS3736 LED matrix driver, CS4344 stereo DAC, seven buttons/Konami code, planned 500-unit run, ~133 parts on a 4-layer PCB, collaborator Bill Paul, storefront troupeit.com/badge/.'
+  archived: https://web.archive.org/web/20251105151814/https://hackaday.io/project/161163-team-ides-dc27-da-bomb
 - kind: url
   url: https://www.hackster.io/news/da-bomb-is-a-hackable-badge-for-def-con-27-74c9f7020eb8
   title: Da Bomb Is a Hackable Badge for DEF CON 27
   accessed: '2026-09-07'
-  note: 'Press summary corroborating BMD340 MCU, 320x240 TFT touchscreen, 32 RGB LEDs, BLE 5.0, and 2000mAh LiPo battery (higher-confidence than the Hackaday.io prototype log for final specs, though not independently confirmed by a maker source in this pass).'
+  note: Press summary corroborating BMD340 MCU, 320x240 TFT touchscreen, 32 RGB LEDs, BLE 5.0, and 2000mAh LiPo battery (higher-confidence than the Hackaday.io prototype log for final specs, though not independently confirmed by a maker source in this pass).
 research:
   status: researched
   confidence: medium

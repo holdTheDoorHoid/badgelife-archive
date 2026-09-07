@@ -35,7 +35,7 @@ get_one:
   availability: unknown
   distribution:
   - free_drop
-  where: 'Given out by AND!XOR alongside the main DC27 badge as part of a set of three add-ons (Bender, Audio Reactive SAO rev 6, Doom SAO rev 1); part of the team''s fundraising effort to make the DC27 badge free at the con.'
+  where: Given out by AND!XOR alongside the main DC27 badge as part of a set of three add-ons (Bender, Audio Reactive SAO rev 6, Doom SAO rev 1); part of the team's fundraising effort to make the DC27 badge free at the con.
 make_your_own:
   open_source: null
   hardware_url: null
@@ -45,17 +45,21 @@ links:
 - label: hackaday.com/2019/07/29/hands-on-andxor-def-con-27-badge-ditches-bender-adopts-light-pipes
   url: https://hackaday.com/2019/07/29/hands-on-andxor-def-con-27-badge-ditches-bender-adopts-light-pipes/
   kind: article
+  archived: https://web.archive.org/web/20260831031531/https://hackaday.com/2019/07/29/hands-on-andxor-def-con-27-badge-ditches-bender-adopts-light-pipes/
 - label: AND!XOR DC27 Badge (Hackaday.io project)
   url: https://hackaday.io/project/164346-andxor-dc27-badge
   kind: hackaday
+  archived: https://web.archive.org/web/20260517132807/https://hackaday.io/project/164346-andxor-dc27-badge
 - label: AND!XOR sao-reference-designs (GitHub)
   url: https://github.com/ANDnXOR/sao-reference-designs
   kind: repo
+  archived: https://web.archive.org/web/20260512050214/https://github.com/ANDnXOR/sao-reference-designs
 images:
-  - file: assets/images/badges/dc27/bender-sao-and-xor-dc27/82b74f213a.jpg
-    source: "https://hackaday.com/2019/07/29/hands-on-andxor-def-con-27-badge-ditches-bender-adopts-light-pipes/"
-    credit: "AND!XOR / Hackaday"
-    caption: "The Bender SAO add-on, a 3x2 SAO board depicting the team's Bender mascot"
+- file: assets/images/badges/dc27/bender-sao-and-xor-dc27/82b74f213a.jpg
+  source: https://hackaday.com/2019/07/29/hands-on-andxor-def-con-27-badge-ditches-bender-adopts-light-pipes/
+  credit: AND!XOR / Hackaday
+  caption: The Bender SAO add-on, a 3x2 SAO board depicting the team's Bender mascot
+  archived: https://web.archive.org/web/20260831031531/https://hackaday.com/2019/07/29/hands-on-andxor-def-con-27-badge-ditches-bender-adopts-light-pipes/
 contact: {}
 notes:
 - add-on returning classic Bender mascot; no dedicated project page found
@@ -66,21 +70,24 @@ sources:
   title: Bender SAO (AND!XOR DC27)
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: dc26-dc27-sao-wave); event read as ''DEF CON 27''.'
+  archived: https://web.archive.org/web/20260831031531/https://hackaday.com/2019/07/29/hands-on-andxor-def-con-27-badge-ditches-bender-adopts-light-pipes/
 - kind: url
   url: https://hackaday.io/project/164346-andxor-dc27-badge
   title: AND!XOR DC27 Badge | Hackaday.io
   accessed: '2026-09-07'
-  note: 'Confirms badge uses SAO 1.69bis interface; no separate Bender SAO product page found on this project.'
+  note: Confirms badge uses SAO 1.69bis interface; no separate Bender SAO product page found on this project.
+  archived: https://web.archive.org/web/20260517132807/https://hackaday.io/project/164346-andxor-dc27-badge
 - kind: url
   url: https://github.com/ANDnXOR/sao-reference-designs
   title: 'GitHub - ANDnXOR/sao-reference-designs: AND!XOR Reference Designs for SAOs'
   accessed: '2026-09-07'
-  note: 'DC27 folder in this repo contains BobRoss, DC619-EEPROM, GPIO-16-MCP23017, and Shitty-Brooch designs but no Bender-named design; no open-source files found for this specific SAO.'
+  note: DC27 folder in this repo contains BobRoss, DC619-EEPROM, GPIO-16-MCP23017, and Shitty-Brooch designs but no Bender-named design; no open-source files found for this specific SAO.
+  archived: https://web.archive.org/web/20260512050214/https://github.com/ANDnXOR/sao-reference-designs
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'Maker''s Hackaday article and Hackaday.io project page confirm the Bender SAO was one of three DC27 add-ons from AND!XOR (with the Audio Reactive SAO rev 6 and Doom SAO rev 1), used the SAO v1.69bis 3x2 header, and had a hidden serial output readable by the Doom SAO. Chip, LED count/type, price, and quantity made are not stated in any source found. No dedicated project page or design-file repo entry for Bender specifically was located, despite AND!XOR publishing a general sao-reference-designs repo for other DC27 add-ons.'
+  notes: Maker's Hackaday article and Hackaday.io project page confirm the Bender SAO was one of three DC27 add-ons from AND!XOR (with the Audio Reactive SAO rev 6 and Doom SAO rev 1), used the SAO v1.69bis 3x2 header, and had a hidden serial output readable by the Doom SAO. Chip, LED count/type, price, and quantity made are not stated in any source found. No dedicated project page or design-file repo entry for Bender specifically was located, despite AND!XOR publishing a general sao-reference-designs repo for other DC27 add-ons.
 last_modified_date: '2026-09-07'
 ---
 

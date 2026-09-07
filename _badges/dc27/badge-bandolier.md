@@ -14,9 +14,12 @@ makers:
 summary: A leather carrying harness for DEF CON attendees who collect multiple electronic badges, with a mesh panel to zip-tie badges in place and onboard power for them.
 functions: Holds and displays multiple badges at once via a zip-tie mesh panel, and can power them through grommet-routed cables from internal batteries and adjustable voltage regulators.
 look:
-  colors: [black]
+  colors:
+  - black
   shape: null
-  themes: [wearable, hardware tool]
+  themes:
+  - wearable
+  - hardware tool
 tech:
   mcu: null
   leds: null
@@ -43,11 +46,13 @@ links:
 - label: 'Hackaday: NFC Business Cards To FPGA Cubes, Skull Badges To Bandoliers...'
   url: https://hackaday.com/2019/08/17/nfc-business-cards-to-fpga-cubes-skull-badges-to-bandoliers-heres-the-hardware-from-breakfast-at-def-con/
   kind: article
+  archived: https://web.archive.org/web/20260614134224/https://hackaday.com/2019/08/17/nfc-business-cards-to-fpga-cubes-skull-badges-to-bandoliers-heres-the-hardware-from-breakfast-at-def-con/
 images:
 - file: assets/images/badges/dc27/badge-bandolier/73baefef28.jpg
-  source: "https://hackaday.com/2019/08/17/nfc-business-cards-to-fpga-cubes-skull-badges-to-bandoliers-heres-the-hardware-from-breakfast-at-def-con/"
-  credit: "LqqkOut / Hackaday"
-  caption: "Leather badge bandolier with mesh badge-mounting panel"
+  source: https://hackaday.com/2019/08/17/nfc-business-cards-to-fpga-cubes-skull-badges-to-bandoliers-heres-the-hardware-from-breakfast-at-def-con/
+  credit: LqqkOut / Hackaday
+  caption: Leather badge bandolier with mesh badge-mounting panel
+  archived: https://web.archive.org/web/20260614134224/https://hackaday.com/2019/08/17/nfc-business-cards-to-fpga-cubes-skull-badges-to-bandoliers-heres-the-hardware-from-breakfast-at-def-con/
 contact: {}
 notes:
 - leather bandolier for hanging multiple badges/SAOs; wearable accessory not a badge itself
@@ -60,19 +65,15 @@ sources:
   note: 'Found by the archive''s discovery sweep (angle: dc26-dc27-sao-wave); event read as ''DEF CON 27''.'
 - kind: url
   url: https://hackaday.com/2019/08/17/nfc-business-cards-to-fpga-cubes-skull-badges-to-bandoliers-heres-the-hardware-from-breakfast-at-def-con/
-  title: "NFC Business Cards To FPGA Cubes, Skull Badges To Bandoliers, Here's The Hardware From Breakfast At DEF CON"
+  title: NFC Business Cards To FPGA Cubes, Skull Badges To Bandoliers, Here's The Hardware From Breakfast At DEF CON
   accessed: '2026-09-07'
   note: Hackaday coverage describing the bandolier's leather construction, mesh badge panel, grommets for power routing, internal lithium batteries, and adjustable voltage regulators; made by LqqkOut for DEF CON 27 (2019).
+  archived: https://web.archive.org/web/20260614134224/https://hackaday.com/2019/08/17/nfc-business-cards-to-fpga-cubes-skull-badges-to-bandoliers-heres-the-hardware-from-breakfast-at-def-con/
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: >-
-    Confirmed via Hackaday's DEF CON 27 breakfast hardware roundup, a third-party
-    source, not the maker's own page (the linked Twitter/X profile could not be
-    fetched). No price, quantity, or availability information was found anywhere.
-    The X (formerly Twitter) profile link is kept as the maker's page but returned
-    an error on fetch attempts.
+  notes: Confirmed via Hackaday's DEF CON 27 breakfast hardware roundup, a third-party source, not the maker's own page (the linked Twitter/X profile could not be fetched). No price, quantity, or availability information was found anywhere. The X (formerly Twitter) profile link is kept as the maker's page but returned an error on fetch attempts.
 last_modified_date: '2026-09-07'
 ---
 

@@ -31,14 +31,14 @@ tech:
   battery: null
   sao_version: null
 get_one:
-  price: "$95 (Car Badge)"
+  price: $95 (Car Badge)
   price_usd: 95
   quantity: '350'
   availability: sold_out
   distribution:
   - purchase
   - village
-  where: 'Sold at the DEF CON 27 Car Hacking Village for $95 (a separate $30 "Traffic Light Badge" was also sold); hand-assembled in an approximately 4-hour build per unit to hit the con deadline.'
+  where: Sold at the DEF CON 27 Car Hacking Village for $95 (a separate $30 "Traffic Light Badge" was also sold); hand-assembled in an approximately 4-hour build per unit to hit the con deadline.
 make_your_own:
   open_source: partial
   hardware_url: null
@@ -51,6 +51,7 @@ links:
 - label: 'Hackaday: The Badgies — Clever, Crazy, And Creative Ideas In Electronic Design'
   url: https://hackaday.com/2019/08/21/the-badgies-clever-crazy-and-creative-ideas-in-electronic-design/
   kind: article
+  archived: https://web.archive.org/web/20260210064529/https://hackaday.com/2019/08/21/the-badgies-clever-crazy-and-creative-ideas-in-electronic-design/
 - label: 'GitHub: lanrat/CHVBadge_19 (Gauge, SUV, and Stoplight SDKs)'
   url: https://github.com/lanrat/CHVBadge_19
   kind: repo
@@ -59,13 +60,14 @@ links:
   kind: website
 images:
 - file: assets/images/badges/dc27/car-hacking-village-badge-dc27/8d85cc688f.jpg
-  source: "https://hackaday.com/2019/08/21/the-badgies-clever-crazy-and-creative-ideas-in-electronic-design/"
-  credit: "Car Hacking Village / Hackaday"
-  caption: "The SUV-shaped Car Hacking Village badge, full view"
+  source: https://hackaday.com/2019/08/21/the-badgies-clever-crazy-and-creative-ideas-in-electronic-design/
+  credit: Car Hacking Village / Hackaday
+  caption: The SUV-shaped Car Hacking Village badge, full view
+  archived: https://web.archive.org/web/20260210064529/https://hackaday.com/2019/08/21/the-badgies-clever-crazy-and-creative-ideas-in-electronic-design/
 - file: assets/images/badges/dc27/car-hacking-village-badge-dc27/d8c3ed9944.jpg
-  source: "https://hackaday.com/2019/08/21/the-badgies-clever-crazy-and-creative-ideas-in-electronic-design/car-hacking-village-badge-dc27-processor/"
-  credit: "Car Hacking Village / Hackaday"
-  caption: "Close-up of the badge's main PCB with the NXP processor"
+  source: https://hackaday.com/2019/08/21/the-badgies-clever-crazy-and-creative-ideas-in-electronic-design/car-hacking-village-badge-dc27-processor/
+  credit: Car Hacking Village / Hackaday
+  caption: Close-up of the badge's main PCB with the NXP processor
 contact: {}
 notes:
 - image URL only; 350-unit production run
@@ -81,21 +83,22 @@ sources:
   title: 'The Badgies: Clever, Crazy, And Creative Ideas In Electronic Design'
   accessed: '2026-09-07'
   note: 'Main source for construction details: acrylic laser-cut body, DC motor + worm gear rear drive, servo steering, NXP processor, OLED windshield, spare-tire rotary encoder, Bluetooth control, 350-unit run, ~4 hours hand-assembly per badge.'
+  archived: https://web.archive.org/web/20260210064529/https://hackaday.com/2019/08/21/the-badgies-clever-crazy-and-creative-ideas-in-electronic-design/
 - kind: url
   url: https://github.com/lanrat/CHVBadge_19
   title: 'GitHub: lanrat/CHVBadge_19 - Stuff for the DEFCON 27 Car Hacking Village Badge'
   accessed: '2026-09-07'
-  note: 'Archived repo with Gauge SDK, SUV SDK (Rev 1), and Stoplight SDK (Rev 1) folders; confirms multiple badge variants but page did not expose file-level chip/firmware detail.'
+  note: Archived repo with Gauge SDK, SUV SDK (Rev 1), and Stoplight SDK (Rev 1) folders; confirms multiple badge variants but page did not expose file-level chip/firmware detail.
 - kind: url
   url: https://www.carhackingvillage.com/events/2019/8/2/def-con
-  title: 'DEF CON — Car Hacking Village'
+  title: DEF CON — Car Hacking Village
   accessed: '2026-09-07'
   note: 'Confirms pricing: $95 for the Car Badge, $30 for a separate Traffic Light Badge, sold at the village.'
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'This entry covers the SUV-shaped "Car Badge" ($95); a separate $30 "Traffic Light Badge" was sold alongside it at the same village and is not the same item. The GitHub org ttepatti/Car-Hacking-Village-Badges lists lanrat/CHVBadge_19 as the SDK source for this year, with three sub-projects (Gauge, SUV, Stoplight SDKs), suggesting the badge may have shipped in more than one form factor/role; could not confirm from primary sources whether firmware for the SUV variant specifically is included versus just the SDK scaffolding, so open_source is marked partial. Exact NXP part number, LED count, and battery type were not stated in any source read and are left empty rather than guessed.'
+  notes: This entry covers the SUV-shaped "Car Badge" ($95); a separate $30 "Traffic Light Badge" was sold alongside it at the same village and is not the same item. The GitHub org ttepatti/Car-Hacking-Village-Badges lists lanrat/CHVBadge_19 as the SDK source for this year, with three sub-projects (Gauge, SUV, Stoplight SDKs), suggesting the badge may have shipped in more than one form factor/role; could not confirm from primary sources whether firmware for the SUV variant specifically is included versus just the SDK scaffolding, so open_source is marked partial. Exact NXP part number, LED count, and battery type were not stated in any source read and are left empty rather than guessed.
 last_modified_date: '2026-09-07'
 ---
 
