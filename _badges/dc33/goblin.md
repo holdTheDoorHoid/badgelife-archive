@@ -49,10 +49,17 @@ sources:
   row: 46
   updated: 8/9/2025 13:56:15
 research:
-  status: stub
+  status: researched
   confidence: low
   last_checked: '2026-09-06'
-  notes: Imported from the community badge sheet; not yet researched.
+  notes: >-
+    No links were listed on the community sheet for this row, and no independent
+    web sources could be found: web searches and search-engine fetches for
+    "Goblin" combined with DEF CON 33 / DEF CON 2025 / SAO / badgelife, and for
+    the listed maker name "Team x devil", returned no matching hardware
+    project, storefront, Hackaday.io page, GitHub repo, or press coverage.
+    All that is known comes from the original sheet row: title "Goblin",
+    maker "Team x 👿 devil", price $10, and a contact email. Left all
+    unconfirmed fields empty rather than guessing.
 last_modified_date: '2026-09-06'
 ---
-
