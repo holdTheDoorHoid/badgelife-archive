@@ -18,8 +18,8 @@ look:
   shape: null
   themes:
   - animal
-  - furry
-  - community
+  - charity
+  - ctf
 tech:
   mcu: RP2040
   leds:
@@ -76,7 +76,7 @@ sources:
   url: https://donate.defconfurs.org
   title: DEFCON Furs (Gumroad storefront)
   accessed: '2026-09-07'
-  note: Confirmed "DEFCON Furs 2023 Badge: Vixy - Fully Assembled" as a real product, $75, sold-out.
+  note: 'Confirmed "DEFCON Furs 2023 Badge: Vixy - Fully Assembled" as a real product, $75, sold-out.'
 - kind: url
   url: https://donate.defconfurs.org/l/pohyz
   title: "DEFCON Furs 2023 Badge: Vixy - Fully Assembled (Gumroad listing)"
