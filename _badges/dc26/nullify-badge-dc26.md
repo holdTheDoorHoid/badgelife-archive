@@ -48,20 +48,24 @@ links:
 - label: nu.llify.com
   url: http://nu.llify.com/
   kind: website
+  archived: https://web.archive.org/web/20260615023418/https://nu.llify.com/
 - label: Nullibadge firmware source (GitHub, defcon2017 repo)
   url: https://github.com/nullibadge/defcon2017
   kind: repo
+  archived: https://web.archive.org/web/20251206131736/https://github.com/nullibadge/defcon2017
 - label: Nullibadge on Twitter
   url: https://twitter.com/nullibadge
   kind: social
 - label: Defcon 25 Nullibadge photo album (Imgur)
   url: https://imgur.com/a/Vn8pm
   kind: article
+  archived: https://web.archive.org/web/20260607183501/https://imgur.com/a/Vn8pm
 images:
 - file: assets/images/badges/dc26/nullify-badge-dc26/02f7237784.jpg
-  source: "https://imgur.com/a/Vn8pm"
-  credit: "Nullify hacking community"
-  caption: "Nullibadge (DEF CON 25/26 era) PCB badge"
+  source: https://imgur.com/a/Vn8pm
+  credit: Nullify hacking community
+  caption: Nullibadge (DEF CON 25/26 era) PCB badge
+  archived: https://web.archive.org/web/20260607183501/https://imgur.com/a/Vn8pm
 contact: {}
 notes: []
 status: released
@@ -71,26 +75,30 @@ sources:
   title: Nullify Badge (DC26)
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: dc26-dc27-sao-wave); event read as ''DEF CON 26''.'
+  archived: https://web.archive.org/web/20260615023418/https://nu.llify.com/
 - kind: url
   url: http://nu.llify.com/
   title: NulliBadge 2.0
   accessed: '2026-09-07'
   note: Primary source for badge description, features, MCU, LED count, price, and distribution details.
+  archived: https://web.archive.org/web/20260615023418/https://nu.llify.com/
 - kind: url
   url: https://github.com/nullibadge/defcon2017
   title: nullibadge/defcon2017 firmware repository
   accessed: '2026-09-07'
   note: Firmware source for the badge line; site states DC26 badge reused this DC25 codebase. No hardware files or license found in the repo.
+  archived: https://web.archive.org/web/20251206131736/https://github.com/nullibadge/defcon2017
 - kind: url
   url: https://imgur.com/a/Vn8pm
   title: Defcon 25 Nullibadge photo album
   accessed: '2026-09-07'
   note: Photo of the badge (linked from the DC26 project page as "Defcon 25 nullibadge pictures"); used for the saved image.
+  archived: https://web.archive.org/web/20260607183501/https://imgur.com/a/Vn8pm
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'The maker''s own project page (nu.llify.com) is the primary source and calls this "an Unofficial Defcon 26 Badge," confirming event/year. No PCB hardware files (schematic/gerbers) were found, only the firmware repo, which is explicitly for the earlier DC25 board (the maker states DC26 reused the same codebase) -- so make_your_own.open_source is marked partial and hardware_url left empty. Quantity made, exact LED type/part number, battery type, and current availability were not stated anywhere found. The one photo saved is captioned by the maker''s own page as DC25-era Nullibadge pictures, since no DC26-specific photo was found; the hardware is stated to be the same platform/codebase.'
+  notes: The maker's own project page (nu.llify.com) is the primary source and calls this "an Unofficial Defcon 26 Badge," confirming event/year. No PCB hardware files (schematic/gerbers) were found, only the firmware repo, which is explicitly for the earlier DC25 board (the maker states DC26 reused the same codebase) -- so make_your_own.open_source is marked partial and hardware_url left empty. Quantity made, exact LED type/part number, battery type, and current availability were not stated anywhere found. The one photo saved is captioned by the maker's own page as DC25-era Nullibadge pictures, since no DC26-specific photo was found; the hardware is stated to be the same platform/codebase.
 last_modified_date: '2026-09-07'
 ---
 

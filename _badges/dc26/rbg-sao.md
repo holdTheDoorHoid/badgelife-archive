@@ -46,14 +46,16 @@ links:
 - label: hackaday.io/lemons4all1
   url: https://hackaday.io/lemons4all1
   kind: hackaday
+  archived: https://web.archive.org/web/20260213191848/https://hackaday.io/lemons4all1
 - label: hackaday.io/project/158663-thefreeman-def-con-26-indie-badge
   url: https://hackaday.io/project/158663-thefreeman-def-con-26-indie-badge
   kind: hackaday
+  archived: https://web.archive.org/web/20260519083607/https://hackaday.io/project/158663-thefreeman-def-con-26-indie-badge
 images:
-  - file: assets/images/badges/dc26/rbg-sao/78dc9754d9.jpg
-    source: "https://hackaday.io/project/161508-rbg-sao"
-    credit: "lemons4all"
-    caption: "RBG SAO project photo"
+- file: assets/images/badges/dc26/rbg-sao/78dc9754d9.jpg
+  source: https://hackaday.io/project/161508-rbg-sao
+  credit: lemons4all
+  caption: RBG SAO project photo
 contact: {}
 notes: []
 status: listed
@@ -67,17 +69,18 @@ sources:
   url: https://hackaday.io/project/161508-rbg-sao
   title: RBG SAO
   accessed: '2026-09-07'
-  note: "Confirmed project is an RGB LED SAO for DEF CON 26, published 2018-09-28 by lemons4all; design files zip present; maker noted art files would be added later; project gallery photo saved."
+  note: Confirmed project is an RGB LED SAO for DEF CON 26, published 2018-09-28 by lemons4all; design files zip present; maker noted art files would be added later; project gallery photo saved.
 - kind: url
   url: https://hackaday.io/lemons4all1
   title: lemons4all - Hackaday.io profile
   accessed: '2026-09-07'
-  note: "Maker profile: self-described 'fan of PCB art', member since 2018-09-25, no real name or location given. Lists two other DEF CON 26 SAOs by the same maker: an LSP SAO and a Frida SAO."
+  note: 'Maker profile: self-described ''fan of PCB art'', member since 2018-09-25, no real name or location given. Lists two other DEF CON 26 SAOs by the same maker: an LSP SAO and a Frida SAO.'
+  archived: https://web.archive.org/web/20260213191848/https://hackaday.io/lemons4all1
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: "Sources are limited to the maker's own Hackaday.io project page and profile; no press coverage, storefront listing, or third-party confirmation found. Concrete specs (LED chip/count, colors, shape, price, quantity, availability) are not stated anywhere in the available sources, so those fields are left empty rather than guessed. The maker's project description says art files were still to be added as of publication; unclear if they ever were beyond the RBG_sao.zip design file. No maker real name or location is public."
+  notes: Sources are limited to the maker's own Hackaday.io project page and profile; no press coverage, storefront listing, or third-party confirmation found. Concrete specs (LED chip/count, colors, shape, price, quantity, availability) are not stated anywhere in the available sources, so those fields are left empty rather than guessed. The maker's project description says art files were still to be added as of publication; unclear if they ever were beyond the RBG_sao.zip design file. No maker real name or location is public.
 last_modified_date: '2026-09-07'
 ---
 

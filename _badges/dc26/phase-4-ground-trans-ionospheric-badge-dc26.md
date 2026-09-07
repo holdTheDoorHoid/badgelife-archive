@@ -13,8 +13,8 @@ makers:
   url: https://openresearch.institute/
 - name: Phase 4 Ground
   url: https://github.com/phase4ground
-summary: 'A hackable, wearable amateur-radio peripheral badge from Open Research Institute''s Phase 4 Ground project, demonstrated at DEF CON 26. It pairs a Nordic nRF52 Bluetooth Low Energy MCU with a small color display and is fully open source, down to firmware and hardware design files.'
-functions: 'Bluetooth Low Energy connectivity to phone apps (nRF UART / nRF Connect), including a monitor mode with hidden easter eggs; user-customizable/reflashable firmware; drives a small color LCD.'
+summary: A hackable, wearable amateur-radio peripheral badge from Open Research Institute's Phase 4 Ground project, demonstrated at DEF CON 26. It pairs a Nordic nRF52 Bluetooth Low Energy MCU with a small color display and is fully open source, down to firmware and hardware design files.
+functions: Bluetooth Low Energy connectivity to phone apps (nRF UART / nRF Connect), including a monitor mode with hidden easter eggs; user-customizable/reflashable firmware; drives a small color LCD.
 look:
   colors: []
   shape: null
@@ -36,9 +36,9 @@ get_one:
   availability: unknown
   distribution:
   - purchase
-  where: 'Given out / sold to attendees at DEF CON 26 (2018); a "for sale" poster was published by Open Research Institute.'
+  where: Given out / sold to attendees at DEF CON 26 (2018); a "for sale" poster was published by Open Research Institute.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/phase4ground/trans-ionospheric/tree/master/hardware
   firmware_url: https://github.com/phase4ground/trans-ionospheric/tree/master/firmware
   eda_tool: Altium
@@ -46,6 +46,7 @@ links:
 - label: openresearch.institute/badge
   url: http://openresearch.institute/badge/
   kind: website
+  archived: https://web.archive.org/web/20260410153707/https://www.openresearch.institute/badge/
 - label: trans-ionospheric (GitHub repo)
   url: https://github.com/phase4ground/trans-ionospheric
   kind: repo
@@ -53,14 +54,16 @@ links:
   url: https://youtu.be/G2fHKRONc6U?t=12m22s
   kind: video
 images:
-  - file: assets/images/badges/dc26/phase-4-ground-trans-ionospheric-badge-dc26/fe7d5d3b0d.jpg
-    source: "http://openresearch.institute/badge/"
-    credit: "Open Research Institute"
-    caption: "The Trans-Ionospheric badge at DEF CON 26"
-  - file: assets/images/badges/dc26/phase-4-ground-trans-ionospheric-badge-dc26/daa41d611c.jpg
-    source: "http://openresearch.institute/badge/"
-    credit: "Open Research Institute"
-    caption: "Trans-Ionospheric sale poster showing the badge"
+- file: assets/images/badges/dc26/phase-4-ground-trans-ionospheric-badge-dc26/fe7d5d3b0d.jpg
+  source: http://openresearch.institute/badge/
+  credit: Open Research Institute
+  caption: The Trans-Ionospheric badge at DEF CON 26
+  archived: https://web.archive.org/web/20260410153707/https://www.openresearch.institute/badge/
+- file: assets/images/badges/dc26/phase-4-ground-trans-ionospheric-badge-dc26/daa41d611c.jpg
+  source: http://openresearch.institute/badge/
+  credit: Open Research Institute
+  caption: Trans-Ionospheric sale poster showing the badge
+  archived: https://web.archive.org/web/20260410153707/https://www.openresearch.institute/badge/
 contact: {}
 notes:
 - HAM radio peripheral badge
@@ -71,26 +74,27 @@ sources:
   title: Phase 4 Ground Trans-Ionospheric Badge (DC26)
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: dc26-dc27-sao-wave); event read as ''DEF CON 26''.'
+  archived: https://web.archive.org/web/20260410153707/https://www.openresearch.institute/badge/
 - kind: url
   url: https://github.com/phase4ground/trans-ionospheric
-  title: 'phase4ground/trans-ionospheric on GitHub'
+  title: phase4ground/trans-ionospheric on GitHub
   accessed: '2026-09-07'
-  note: 'Confirmed open hardware (Altium schematics/PCB) and open firmware (Apache 2.0); repo layout for firmware and hardware folders.'
+  note: Confirmed open hardware (Altium schematics/PCB) and open firmware (Apache 2.0); repo layout for firmware and hardware folders.
 - kind: url
   url: https://raw.githubusercontent.com/phase4ground/trans-ionospheric/master/firmware/README.md
-  title: 'trans-ionospheric firmware README'
+  title: trans-ionospheric firmware README
   accessed: '2026-09-07'
-  note: 'MCU confirmed as Nordic nRF52 (Nordic SDK v12.3, openocd nrf52.cfg target); firmware based on the JoCo Cruise 2018 badge, itself based on AND!XOR''s DEF CON 25 Bender Badge; Apache 2.0 license.'
+  note: MCU confirmed as Nordic nRF52 (Nordic SDK v12.3, openocd nrf52.cfg target); firmware based on the JoCo Cruise 2018 badge, itself based on AND!XOR's DEF CON 25 Bender Badge; Apache 2.0 license.
 - kind: url
   url: https://api.github.com/repos/phase4ground/trans-ionospheric/contents/hardware/Datasheets
-  title: 'trans-ionospheric hardware/Datasheets folder listing'
+  title: trans-ionospheric hardware/Datasheets folder listing
   accessed: '2026-09-07'
-  note: 'Display identified via bundled datasheet as a Crystalfontz CFAF128128B-0145T, a 1.45" 128x128 color TFT.'
+  note: Display identified via bundled datasheet as a Crystalfontz CFAF128128B-0145T, a 1.45" 128x128 color TFT.
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-07'
-  notes: 'Price, quantity made, and LED count/type were not stated on the maker page, GitHub repo, or firmware README; left empty rather than guessed. The maker''s own page and GitHub repo agree on all other details, so no source conflicts.'
+  notes: Price, quantity made, and LED count/type were not stated on the maker page, GitHub repo, or firmware README; left empty rather than guessed. The maker's own page and GitHub repo agree on all other details, so no source conflicts.
 last_modified_date: '2026-09-07'
 ---
 

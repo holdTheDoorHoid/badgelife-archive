@@ -13,7 +13,7 @@ makers:
   url: https://hackaday.io/ben-hibben-blenster
 - name: The Hat
 summary: An indie DEF CON 26 badge built around a social "distributed blockchain" game, where wearers trade digital blocks with each other in person to build up a score.
-functions: 'Players trade "White Blocks" with other badge wearers by meeting them in person; each traded block then runs a "Proof of Work" animation on the badge. The same block cannot be traded back for score, which pushes people toward genuinely new interactions. Special, non-swappable colored blocks with unique effects were also planned. The badge was designed to support DEF CON 26 Shitty Add-Ons (SAOs).'
+functions: Players trade "White Blocks" with other badge wearers by meeting them in person; each traded block then runs a "Proof of Work" animation on the badge. The same block cannot be traded back for score, which pushes people toward genuinely new interactions. Special, non-swappable colored blocks with unique effects were also planned. The badge was designed to support DEF CON 26 Shitty Add-Ons (SAOs).
 look:
   colors: []
   shape: null
@@ -45,11 +45,13 @@ links:
 - label: hackaday.io/project/159176-mr-blinky-bling-defcon-26-indie-badge
   url: https://hackaday.io/project/159176-mr-blinky-bling-defcon-26-indie-badge
   kind: hackaday
+  archived: https://web.archive.org/web/20251011203151/https://hackaday.io/project/159176-mr-blinky-bling-defcon-26-indie-badge
 images:
 - file: assets/images/badges/dc26/mr-blinky-bling-def-con-26-indie-badge/a931fc2af5.jpg
-  source: "https://hackaday.io/project/159176-mr-blinky-bling-defcon-26-indie-badge"
-  credit: "Ben Hibben (Blenster)"
-  caption: "Mr. Blinky Bling DEF CON 26 Indie Badge project photo"
+  source: https://hackaday.io/project/159176-mr-blinky-bling-defcon-26-indie-badge
+  credit: Ben Hibben (Blenster)
+  caption: Mr. Blinky Bling DEF CON 26 Indie Badge project photo
+  archived: https://web.archive.org/web/20251011203151/https://hackaday.io/project/159176-mr-blinky-bling-defcon-26-indie-badge
 contact: {}
 notes:
 - The Hackaday.io page names a Kickstarter as the intended path to production but does not link it or state whether it ran or funded.
@@ -60,16 +62,18 @@ sources:
   title: Mr. Blinky Bling DEF CON 26 Indie Badge
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: hackaday-list); event read as ''DEF CON 26''.'
+  archived: https://web.archive.org/web/20251011203151/https://hackaday.io/project/159176-mr-blinky-bling-defcon-26-indie-badge
 - kind: url
   url: https://hackaday.io/project/159176-mr-blinky-bling-defcon-26-indie-badge
   title: Mr Blinky Bling DEFCON 26 Indie Badge - project overview
   accessed: '2026-09-07'
-  note: "Confirmed makers (Ben Hibben / Blenster and The Hat), event/year (DEF CON 26, 2018, launched June 21 2018), and the trading/proof-of-work game mechanic and SAO support; project page has no Files or Components listed, so MCU, LEDs, battery, price, and quantity could not be found."
+  note: Confirmed makers (Ben Hibben / Blenster and The Hat), event/year (DEF CON 26, 2018, launched June 21 2018), and the trading/proof-of-work game mechanic and SAO support; project page has no Files or Components listed, so MCU, LEDs, battery, price, and quantity could not be found.
+  archived: https://web.archive.org/web/20251011203151/https://hackaday.io/project/159176-mr-blinky-bling-defcon-26-indie-badge
 research:
   status: researched
   confidence: low
   last_checked: '2026-09-07'
-  notes: 'The Hackaday.io project page (the only source found) has zero Files and zero Components entries, so hardware specifics (MCU, LED type/count, display, battery, SAO header version) and commercial details (price, quantity made, availability, open-source status) are not documented anywhere the maker published. The page mentions pursuing a Kickstarter for production but does not confirm whether it ran or say how many badges, if any, were actually made/distributed. No other web presence for "Mr Blinky Bling" or its makers was found within the research budget for this pass.'
+  notes: The Hackaday.io project page (the only source found) has zero Files and zero Components entries, so hardware specifics (MCU, LED type/count, display, battery, SAO header version) and commercial details (price, quantity made, availability, open-source status) are not documented anywhere the maker published. The page mentions pursuing a Kickstarter for production but does not confirm whether it ran or say how many badges, if any, were actually made/distributed. No other web presence for "Mr Blinky Bling" or its makers was found within the research budget for this pass.
 last_modified_date: '2026-09-07'
 ---
 

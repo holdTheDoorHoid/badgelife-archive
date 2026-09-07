@@ -9,7 +9,7 @@ type: other
 event: dc26
 year: 2018
 makers: []
-summary: 'A Hackaday.io group project documenting the collaborative reverse-engineering of the official DEF CON 26 conference badge, not a badge or SAO of its own.'
+summary: A Hackaday.io group project documenting the collaborative reverse-engineering of the official DEF CON 26 conference badge, not a badge or SAO of its own.
 functions: ''
 look:
   colors: []
@@ -38,6 +38,7 @@ links:
 - label: hackaday.io/project/160333-def-con-26-official-badge-hacking
   url: https://hackaday.io/project/160333-def-con-26-official-badge-hacking
   kind: hackaday
+  archived: https://web.archive.org/web/20260510085500/https://hackaday.io/project/160333-def-con-26-official-badge-hacking
 images: []
 contact: {}
 notes: []
@@ -48,24 +49,18 @@ sources:
   title: DEF CON 26 Official Badge Hacking
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: hackaday-search); event read as ''DEF CON 26''.'
+  archived: https://web.archive.org/web/20260510085500/https://hackaday.io/project/160333-def-con-26-official-badge-hacking
 - kind: url
   url: https://hackaday.io/project/160333-def-con-26-official-badge-hacking
   title: DEF CON 26 Official Badge Hacking
   accessed: '2026-09-07'
   note: 'Re-fetched to characterize the page: a 439-member collaborative Hackaday.io project (created Aug 9, 2018) logging reverse-engineering of the official DC26 conference badge''s serial-console game, not a maker''s own badge or SAO listing.'
+  archived: https://web.archive.org/web/20260510085500/https://hackaday.io/project/160333-def-con-26-official-badge-hacking
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-07'
-  notes: >-
-    This is not a distinct badge/SAO. It is a community Hackaday.io project page where
-    attendees collaboratively decoded the puzzle/game built into the official DEF CON 26
-    conference badge (a text-adventure over serial console, with human/goon/speaker badge
-    variants running different firmware). No single maker, product listing, price, or
-    design files are associated with the page itself; it documents hacking of a badge that
-    DEF CON itself produced. No open-source files were found on the project page. Treating
-    as not_an_item rather than deleting or reassigning, per research-guide.md's special-case
-    handling for pages that are not themselves a specific badge/SAO.
+  notes: This is not a distinct badge/SAO. It is a community Hackaday.io project page where attendees collaboratively decoded the puzzle/game built into the official DEF CON 26 conference badge (a text-adventure over serial console, with human/goon/speaker badge variants running different firmware). No single maker, product listing, price, or design files are associated with the page itself; it documents hacking of a badge that DEF CON itself produced. No open-source files were found on the project page. Treating as not_an_item rather than deleting or reassigning, per research-guide.md's special-case handling for pages that are not themselves a specific badge/SAO.
 last_modified_date: '2026-09-07'
 ---
 

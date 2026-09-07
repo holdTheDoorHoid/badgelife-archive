@@ -36,7 +36,7 @@ get_one:
   - purchase
   where: 'Sold in person at DEF CON 26 for $80 cash, via a "drop" system: buyers had to follow @ManekiNekoDC on Twitter and wait for announcements of when/where the badge would be sold. It sold out quickly.'
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/devoopes/defcon26-meow/tree/master/pcb/eagle
   firmware_url: https://github.com/devoopes/defcon26-meow
   eda_tool: Eagle
@@ -52,21 +52,23 @@ links:
 - label: 'Hackaday: All the Badges of DEF CON 26 (Vol 1)'
   url: https://hackaday.com/2018/08/14/all-the-badges-of-def-con-26-vol-1/
   kind: article
-- label: 'BadgeLife - A Hackaday Documentary (YouTube)'
+  archived: https://web.archive.org/web/20260609122657/https://hackaday.com/2018/08/14/all-the-badges-of-def-con-26-vol-1/
+- label: BadgeLife - A Hackaday Documentary (YouTube)
   url: https://www.youtube.com/watch?v=G2fHKRONc6U
   kind: video
+  archived: https://web.archive.org/web/20260303185629/https://www.youtube.com/watch?v=G2fHKRONc6U
 - label: OSH Park shared project
   url: https://oshpark.com/shared_projects/X3Hxcson
   kind: fab
 images:
 - file: assets/images/badges/dc26/meow/7200b6b6c8.jpg
-  source: "https://github.com/devoopes/defcon26-meow"
-  credit: "devoopes / Sean McCabe"
-  caption: "First look at the fabricated PCB boards from the fab house"
+  source: https://github.com/devoopes/defcon26-meow
+  credit: devoopes / Sean McCabe
+  caption: First look at the fabricated PCB boards from the fab house
 - file: assets/images/badges/dc26/meow/850ce03276.gif
-  source: "https://www.engadget.com/2018/08/15/this-cute-def-con-badge-beckons-you-to-hack-it/"
-  credit: "Roberto Baldwin"
-  caption: "The finished Maneki-neko badge with its waving 3D-printed arm, worn at DEF CON 26"
+  source: https://www.engadget.com/2018/08/15/this-cute-def-con-badge-beckons-you-to-hack-it/
+  credit: Roberto Baldwin
+  caption: The finished Maneki-neko badge with its waving 3D-printed arm, worn at DEF CON 26
 contact: {}
 notes: []
 status: released
@@ -80,22 +82,23 @@ sources:
   url: https://github.com/devoopes/defcon26-meow
   title: 'GitHub: SeanLeftBelow/devoopes - defcon26-meow README'
   accessed: '2026-09-07'
-  note: 'README confirms name (Maneki-neko Badge), STM32 MCU, servo + dual 16-segment LEDs, art by Jeff Chang, Eagle/KiCad history, OSH Park fab link, SAO write-up, and press links.'
+  note: README confirms name (Maneki-neko Badge), STM32 MCU, servo + dual 16-segment LEDs, art by Jeff Chang, Eagle/KiCad history, OSH Park fab link, SAO write-up, and press links.
 - kind: url
   url: https://www.engadget.com/2018/08/15/this-cute-def-con-badge-beckons-you-to-hack-it/
   title: 'Engadget: This cute Def Con badge beckons you to hack it'
   accessed: '2026-09-07'
-  note: 'Confirmed creators Sean McCabe and Daniel Samarin, $80 cash price, Twitter-drop distribution, sold out, and design intent quotes.'
+  note: Confirmed creators Sean McCabe and Daniel Samarin, $80 cash price, Twitter-drop distribution, sold out, and design intent quotes.
 - kind: url
   url: https://hackaday.com/2018/08/14/all-the-badges-of-def-con-26-vol-1/
   title: 'Hackaday: All the Badges of DEF CON 26 (Vol 1)'
   accessed: '2026-09-07'
-  note: 'Listed as press coverage in the repo README; not separately fetched.'
+  note: Listed as press coverage in the repo README; not separately fetched.
+  archived: https://web.archive.org/web/20260609122657/https://hackaday.com/2018/08/14/all-the-badges-of-def-con-26-vol-1/
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-07'
-  notes: 'Sheet slug/title was generic ("meow"); actual maker name for the badge is "DEF CON 26 Maneki-neko Badge". The repo README also describes a matching SAO ("Special Addons") that copies the main badge design, documented at https://github.com/devoopes/defcon26-meow/tree/master/addon - this looks like a separate item worth its own entry (see other_items_found). Quantity made and exact LED part number/count were not stated in any source found; left empty. tech.sao_version set to v1 as an inference from "SAO" terminology of the 2018 era but the repo does not state pin count explicitly, so treat with some caution.'
+  notes: Sheet slug/title was generic ("meow"); actual maker name for the badge is "DEF CON 26 Maneki-neko Badge". The repo README also describes a matching SAO ("Special Addons") that copies the main badge design, documented at https://github.com/devoopes/defcon26-meow/tree/master/addon - this looks like a separate item worth its own entry (see other_items_found). Quantity made and exact LED part number/count were not stated in any source found; left empty. tech.sao_version set to v1 as an inference from "SAO" terminology of the 2018 era but the repo does not state pin count explicitly, so treat with some caution.
 last_modified_date: '2026-09-07'
 ---
 
