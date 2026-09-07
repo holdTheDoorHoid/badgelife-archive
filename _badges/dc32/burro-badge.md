@@ -48,9 +48,9 @@ sources:
   row: 27
   updated: '2024-07-30'
 research:
-  status: researched
+  status: verified
   confidence: low
-  last_checked: '2026-09-07'
+  last_checked: '2026-09-06'
   notes: >-
     No web presence found for this item or maker. Searched "Burro Badge" +
     "Blametheotherkyle", "Blametheotherkyle" alone, and "Burro" + "badgelife" +
@@ -67,8 +67,11 @@ research:
     typical of badgelife culture, with details only shared live at DEF CON 32
     and not archived anywhere searchable afterward. No fields beyond what the
     sheet already provided could be confirmed, so nothing was added or
-    guessed.
-last_modified_date: '2026-09-07'
+    guessed. Fact-check 2026-09-06: every non-empty field re-checked against
+    data/sheets/dc32.csv row 30 (title, functions, price, where, contact)
+    and the two sibling entries confirmed to exist in the archive; a repeat
+    Bing search for the maker handle again returned nothing relevant.
+last_modified_date: '2026-09-06'
 ---
 
 The Burro Badge was listed on the DEF CON 32 (2024) community badge sheet by a maker known as Blametheotherkyle, who described its function only as "Super secret!" and pointed people to watch Twitter's #badgelife hashtag during the con for drop details. No further information about the badge — its design, electronics, or how many were made — could be found on the open web; it appears to belong to the class of surprise/mystery badgelife drops that were announced and distributed informally at the con itself, with no lasting online documentation.

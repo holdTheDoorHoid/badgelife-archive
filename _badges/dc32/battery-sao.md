@@ -41,6 +41,14 @@ links:
   label: IDK (p0ns) project site
   url: https://idk.bz/
   archived: false
+- kind: social
+  label: p0ns on Twitter/X (from the community sheet)
+  url: https://twitter.com/p0ns
+  archived: false
+- kind: social
+  label: p0ns on defcon.social (from the community sheet)
+  url: https://defcon.social/p0ns
+  archived: false
 images: []
 contact: {}
 notes:
@@ -67,10 +75,16 @@ sources:
   accessed: '2026-09-07'
   note: "The maker's 2023 SAO: CR2032 battery holder, switch, 6 LEDs (Attiny85 in first 50 kits). Closest match to a 'battery-powered' SAO by this maker, but it is dated/titled for DEF CON 31, not 32, and is not named 'Battery SAO'."
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-07'
   notes: >-
+    Fact-check 2026-09-07: re-opened idk.bz, idk.bz/idksao/ and idk.bz/dc31sao/; every
+    statement in the notes and body about those two projects matches the pages (IDK SAO:
+    ATtiny404 in the first batch of 24, 4x SK6812-mini, one button, 6-pin SAO; DEFCON31 SAO:
+    CR2032, SPDT switch, 6 LEDs, ATtiny85 in the first 50). The sheet row is attributed to
+    p0ns/idk by continuation from the "Disappointing Badge" row. Nothing on the maker's site
+    mentions a "Battery SAO", so the identification remains unresolved and confidence stays low.
     Extensive search (WebSearch queries on title+maker, title+"DEF CON 32", maker+SAO+2024,
     maker's own site and its linked pages, Reddit/forum/Bluesky angles) turned up no page,
     post, storefront listing, or press mention specifically titled or describing a "Battery
@@ -84,7 +98,7 @@ research:
 last_modified_date: '2026-09-07'
 ---
 
-The community sheet credits a "Battery SAO" to p0ns (of idk.bz) at DEF CON 32 (2024), but no independent source — the maker's own site, search engines, storefronts, or press — describes an item by that exact name. The maker is a real, identifiable badgelife participant who has published at least two other SAOs in the same period: a 2023 "DEFCON31 SAO" kit (CR2032 battery holder, switch, six LEDs, with an ATtiny85 socket in the first 50 units) and a 2024 "IDK SAO" (an ATtiny 0/1-series chip driving four SK6812-mini LEDs behind a button, powered from the host badge's SAO header rather than an onboard battery).
+The community sheet credits a "Battery SAO" to p0ns (of idk.bz) at DEF CON 32 (2024), but no independent source — the maker's own site, search engines, storefronts, or press — describes an item by that exact name. The maker is a real, identifiable badgelife participant who has published at least two other SAOs in the same period: a 2023 "DEFCON31 SAO" kit (CR2032 battery holder, switch, six LEDs, with an ATtiny85 socket in the first 50 units) and a 2024 "IDK SAO" (an ATtiny 0/1-series chip driving four SK6812-mini LEDs with one button, powered from the host badge's SAO header rather than an onboard battery).
 
 Neither documented project is a confident match for "Battery SAO": the DC31 SAO is the right shape (its own battery) but the wrong year, and the DC32-era IDK SAO has no battery of its own. It is possible the sheet's "Battery SAO" is a fourth, undocumented item this maker brought to DC32 — the sheet lists three other rows attributed to the same maker for that year, at least one of which ("Disappointing Badge") also has no discoverable web presence, consistent with small joke SAOs that circulated at the con without ever getting a project page.
 

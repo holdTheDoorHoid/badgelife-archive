@@ -57,7 +57,7 @@ sources:
   accessed: '2026-09-06'
   note: Forum post announcing and linking to the DC32 badgelife spreadsheet that this entry's sheet source came from.
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-06'
   notes: >-
@@ -71,7 +71,10 @@ research:
     connection with a DEF CON 32 badge or SAO returned nothing specific; the
     X/Twitter profile could not be fetched directly (paywalled). No badge or
     SAO title, image, price, or distribution info could be confirmed, so no
-    retitle was possible. Status set to unknown rather than researched.
+    retitle was possible. Fact-check 2026-09-06: the sheet CSV row and the
+    DEF CON forum announcement were re-fetched and both confirm the claims
+    above; the DC31 SAO Marquee cross-reference matches the dc31-sao-marquee
+    entry (itself sheet-derived only).
 last_modified_date: '2026-09-06'
 ---
 

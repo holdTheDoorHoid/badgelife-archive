@@ -38,29 +38,35 @@ make_your_own:
 links: []
 images: []
 contact: {}
-notes: []
+notes:
+- The DC32 sheet row leaves the creator cell blank; "Rex" is carried down from the row directly above (MF Doom SAO, creator "Rex"), per the sheet's convention of one creator per block of rows.
+- Appears to be a return of the DC31 "The Cannabadge!!" (dc31-the-cannabadge) sold by Rex's Lab (Tindie user rex212); the DC31 Tindie and Hackaday.io pages do not mention a DC32 version.
 status: listed
 sources:
 - kind: sheet
   event: dc32
   row: 71
   updated: ''
+- kind: url
+  url: https://www.tindie.com/products/rex212/cannabadge/
+  title: Cannabadge from Rex's Lab on Tindie
+  accessed: '2026-09-06'
+  note: Maker's storefront for the DC31 Cannabadge; confirms the maker Rex / Rex's Lab exists but does not mention a DC32 version. Checked only to test the body's claim that no maker page exists.
 research:
-  status: researched
+  status: verified
   confidence: low
-  last_checked: '2026-09-07'
+  last_checked: '2026-09-06'
   notes: >-
-    Only source is the community badge sheet row (maker "Rex", no links
-    provided). Web search found no maker page, Hackaday.io project, GitHub
-    repo, storefront, or press coverage under the name "CannaBadge" or
-    matching the leaf-shaped description; "Rex" is too generic a name to
-    narrow further without a linked profile. Could not confirm chip, LEDs,
-    price, quantity, or images. Left tech/look/get_one fields empty rather
-    than guess.
-last_modified_date: '2026-09-07'
+    Fact-check 2026-09-06: every non-empty field traces to the DC32 sheet row
+    (title, functions, "Sale during DEFCON 32"). Maker "Rex" is inherited from
+    the row above on the sheet, not written in this row; it is consistent with
+    the DC31 Cannabadge's Tindie store (rex212 / Rex's Lab). Neither the Tindie
+    page nor the Hackaday.io project (191857) for the DC31 badge mentions a
+    2024 version, so chip, LEDs, price, quantity and images remain unconfirmed
+    and empty.
+last_modified_date: '2026-09-06'
 ---
 
-CannaBadge is a DEF CON 32 (2024) badge by a maker known as Rex, shaped like a large cannabis leaf. Per the maker's own description on the community badge sheet, it lights up when the wearer "takes a toke," combining a novelty smoking-adjacent gimmick with an LED badge worn at the con.
+CannaBadge is listed on the DEF CON 32 (2024) community badge sheet as a badge sold during the con, shaped like "the biggest leaf of Mary Jane you have ever seen." The sheet's own pitch reads "Light up your smoke, take a toke, and turn on your badge!" — a light-up cannabis-leaf novelty badge. The sheet leaves the creator cell blank; the maker is taken as Rex from the row above it.
 
-Beyond the sheet listing, no further information could be located: no maker page, Hackaday.io project, GitHub repository, storefront listing, or press coverage turned up under this title or maker name. The specific microcontroller, LED type and count, price, and quantity made remain unconfirmed.
-
+It appears to be the return of the DC31 Cannabadge sold by Rex's Lab on Tindie, but that storefront and its Hackaday.io project do not mention a 2024 run, and no page describing this DC32 version was found. The microcontroller, LED type and count, price, and quantity made remain unconfirmed.

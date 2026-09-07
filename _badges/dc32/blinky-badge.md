@@ -11,8 +11,8 @@ year: 2024
 makers:
 - name: GothCon
   url: https://x.com/dcgothcon
-summary: 'A limited-run LED "blinky" badge sold by GothCon as a fundraiser for their annual dance party at DEF CON 32, themed around a randomized "Spirit Board" (Ouija-style) design.'
-functions: 'Lights up with LED patterns; each badge shows a randomized "Spirit Board" themed design/graphic. Wearing it is not required for GothCon party entry.'
+summary: 'An LED "blinky" badge sold by GothCon, the goth dance party held during DEF CON 32, with a randomized "Spirit Board" (Ouija-style) design on each badge.'
+functions: 'LED "blinky" badge; each one carries a randomized "Spirit Board" design.'
 look:
   colors: []
   shape: null
@@ -32,7 +32,7 @@ get_one:
   availability: unknown
   distribution:
   - purchase
-  where: Sold through the GothCon Shopify store and at the GothCon party during DEF CON 32; proceeds fund the party, which receives no support from DEF CON itself.
+  where: Sold in person by GothCon at DEF CON 32 ("grab your randomized Spirit Boards from us at @defcon"). The sheet's contact field only says "More to follow".
 make_your_own:
   open_source: null
   hardware_url: null
@@ -60,41 +60,39 @@ sources:
   row: 62
   updated: ''
 - kind: url
-  url: https://x.com/defcon/status/1811963602175152441
-  title: 'DEF CON on X: "Presenting GothCon 2024''s Blinky Badge... Grab your randomized Spirit..."'
+  url: https://x.com/dcgothcon/status/1811429631167451404
+  title: 'Gothcon on X: "Presenting GothCon 2024''s Blinky Badge... Grab your randomized Spirit Boards from us at @defcon..."'
   accessed: '2026-09-07'
-  note: Confirms the badge name ("GothCon 2024's Blinky Badge"), event year, and the randomized "Spirit Board" theme; announced via GothCon's own account and retweeted by DEF CON.
+  note: GothCon's own announcement post (2024-07-11, reposted by @defcon as x.com/defcon/status/1811963602175152441). Confirms the name "GothCon 2024's Blinky Badge", the randomized "Spirit Boards" theme, and in-person sale at DEF CON. Includes one photo (pbs.twimg.com/media/GSN9peRXwAEK0SI.jpg) that was not saved.
 - kind: url
   url: https://gothconbadge.myshopify.com/
   title: Gothcon Badge Store
   accessed: '2026-09-07'
-  note: GothCon's official storefront, used across years; confirms GothCon sells badges as a party fundraiser. Current content on the page describes the 2026 (DC34) badge, not 2024, so its technical specs (LED count, MCU, shape) were not applied to this entry.
+  note: GothCon's official storefront. When checked it listed only the 2026 (DC34) badge and did not mention 2024 or a Spirit Board; it states in general terms that GothCon badges are party fundraisers, not tickets. No 2026 specs were applied to this entry.
 - kind: url
   url: https://forum.defcon.org/node/249561
   title: GOTHCON 2024 - DEF CON Forums
   accessed: '2026-09-07'
-  note: DEF CON forum thread announcing the 2024 GothCon party; page could not be fully retrieved (connection reset), listed for reference.
+  note: DEF CON forum listing for the DC32 GothCon party (Friday Aug 9, 2024, 21:00-02:00, Room 322-324, "returning for their 7th year", follow @dcgothcon on X). Does not mention the badge.
 research:
-  status: researched
-  confidence: low
+  status: verified
+  confidence: medium
   last_checked: '2026-09-07'
   notes: >-
-    Confirmed via GothCon's own X announcement that a "Blinky Badge" with a randomized
-    "Spirit Board" theme existed for DEF CON 32 (2024), matching the sheet's title, price
-    ($40), and quantity (300). Could not confirm technical specifics (LED count/type, MCU,
-    shape, colors, SAO support, availability status) for the 2024 badge specifically: the
-    only detailed technical writeup found (44 RGB LEDs, ESP32-C3, bat-shaped PCB) is on
-    GothCon's current storefront describing the 2026/DC34 badge, and that same page states
-    GothCon's badges for "the past 3 years" (i.e. roughly 2023-2025) were laser-cut acrylic
-    rather than custom LED PCBs — so those 2026 specs were deliberately NOT copied onto this
-    2024 entry to avoid misattributing a later design. A companion sheet row, dc32-standard-art-badge,
-    lists a second non-blinky GothCon badge for the same year, suggesting GothCon offered both
-    an LED ("Blinky") and a plain art variant at DC32. No maker photo of the 2024 badge itself
-    was found to save. X/Twitter posts with likely photos returned HTTP 402 and could not be
-    fetched by tooling.
+    Fact-checked 2026-09-07. GothCon's own X post confirms a "Blinky Badge" with randomized
+    "Spirit Boards" for DEF CON 32 (2024), sold in person at the con; price ($40) and quantity
+    (300) come from the community sheet. Technical details (LED count/type, MCU, shape, colors,
+    SAO support) and availability are unconfirmed for the 2024 badge; the only detailed specs
+    on GothCon's storefront describe the 2026/DC34 badge and were not applied. An earlier draft
+    claimed the storefront says the "past 3 years" of badges were laser-cut acrylic; that
+    sentence is not on the page and was removed. Claims that the 2024 badge was sold through
+    the Shopify store and that wearing it was not required for party entry were also removed
+    as they were only stated for the 2026 badge. The sheet lists a companion GothCon
+    "Standard Art Badge" (dc32-standard-art-badge, 500 units, $40) for the same year. The
+    announcement photo could not be fetched by the research tooling (HTTP 402 on x.com).
 last_modified_date: '2026-09-07'
 ---
 
-GothCon is the crew behind the long-running goth-themed dance party held during DEF CON, and each year they sell a fundraiser badge to help cover the cost of throwing the (free, DEF-CON-unaffiliated) event. For DEF CON 32 in 2024, that badge was the "Blinky Badge," an LED badge whose design centered on a randomized "Spirit Board" (Ouija-board-style) graphic — GothCon announced it saying attendees could "grab your randomized Spirit..." badge, with each one carrying a different variant of the theme. The sheet records a $40 price and a run of 300 units, and GothCon also offered a second, non-illuminated "Standard Art Badge" that year for buyers who wanted the artwork without the electronics.
+GothCon is the goth-themed dance party held during DEF CON; the DEF CON forum listing for 2024 describes it as returning for its seventh year, running Friday night of DEF CON 32 in Room 322-324. On 11 July 2024 GothCon's X account announced "GothCon 2024's Blinky Badge," an LED badge whose design centered on a randomized "Spirit Board" (Ouija-board-style) graphic, telling attendees to grab theirs from GothCon at DEF CON; DEF CON's own account reposted the announcement. The community sheet records a $40 price and a run of 300 units, and lists a second GothCon "Standard Art Badge" (500 units, also $40) for the same year.
 
-Wearing the badge was never required to get into the GothCon party itself; it functioned primarily as merchandise supporting the event, sold both through GothCon's Shopify storefront and in person at the party during the convention. Specific technical details for this particular year's board — LED count and type, microcontroller, exact shape, and case materials — were not confirmed by any maker source found during research; GothCon's current storefront describes a very different, more elaborate bat-shaped 2026 badge, and explicitly notes that the "past 3 years" of badges (which would include 2024) were simpler laser-cut acrylic designs rather than custom PCBs, so those newer specs are not carried over here.
+GothCon's storefront describes its badges in general as fundraisers for the party rather than tickets, but the page checked for this entry only covers the 2026 badge, so the 2024 badge's technical details (LED count and type, microcontroller, shape, materials) and whether it was ever sold online remain unconfirmed by any maker source.

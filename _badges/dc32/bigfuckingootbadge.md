@@ -53,7 +53,7 @@ images:
 - file: assets/images/badges/dc32/bigfuckingootbadge/e0dee57687.png
   source: "https://hackaday.io/project/196537-bigfuckingootbadge"
   credit: "hexum064 and Erin"
-  caption: "BigFuckingOOTBadge, an Ocarina of Time-themed badge"
+  caption: "BigFuckingOOTBadge PCB render (project cover image), an Ocarina of Time-themed badge"
 contact:
   emails:
   - bfb.team.public@gmail.com
@@ -81,14 +81,14 @@ sources:
   accessed: '2026-09-06'
   note: Firmware repo; build files reference the Raspberry Pi Pico SDK (pico_sdk_import.cmake) but no README confirming the exact MCU, so tech.mcu left blank rather than guessed.
 research:
-  status: researched
-  confidence: medium
+  status: verified
+  confidence: high
   last_checked: '2026-09-06'
-  notes: Maker's own Hackaday.io project page confirms the team (hexum064 and Erin), the $100 target price, 50 units made, and that hardware/firmware are open-sourced on GitHub. The PCB repo confirms KiCad as the EDA tool. The firmware repo's build system references the Raspberry Pi Pico SDK, suggesting an RP2040-class MCU, but no source document states the chip explicitly, so tech.mcu, tech.leds, tech.display, and tech.battery are left null rather than inferred. Could not confirm current sale/sold-out status (Hacker Warehouse listing not checked), so availability stays unknown.
+  notes: Fact-checked 2026-09-06 against the Hackaday.io page and both GitHub repos; an unsupported claim about an earlier Covid badge was removed (the page cites the team's Grumpy Cat badge as the inspiration). The saved image is the project's cover image, a PCB render rather than a photo. Maker's own Hackaday.io project page confirms the team (hexum064 and Erin), the $100 target price, 50 units made, and that hardware/firmware are open-sourced on GitHub. The PCB repo confirms KiCad as the EDA tool. The firmware repo's build system references the Raspberry Pi Pico SDK, suggesting an RP2040-class MCU, but no source document states the chip explicitly, so tech.mcu, tech.leds, tech.display, and tech.battery are left null rather than inferred. Could not confirm current sale/sold-out status (Hacker Warehouse listing not checked), so availability stays unknown.
 last_modified_date: '2026-09-06'
 ---
 
-The BigFuckingOOTBadge is a large (18x12 inch) electronic badge made for DEF CON 32 (2024) by the two-person BigFuckingBadge team, hexum064 and Erin. It continues their "Big Fucking Badge" series of oversized novelty badges (following earlier entries like the Big Fucking Covid Badge) and, as its name suggests, is themed around The Legend of Zelda: Ocarina of Time. It uses touch buttons and RGB LEDs to let players pick out notes and play back Ocarina of Time songs and other tunes such as Nyan Cat, in a freeplay mode as well as a mode where players unlock the game's original songs the way they do in the game itself. The maker also promised "an Easter Egg or two."
+The BigFuckingOOTBadge is a large (18x12 inch) electronic badge made for DEF CON 32 (2024) by the two-person BigFuckingBadge team, hexum064 and Erin. It continues their "Big Fucking Badge" line of oversized badges ("Bigger Than Last Year!!!", per the project page), is themed around The Legend of Zelda: Ocarina of Time, and the maker describes it as heavily inspired by the team's earlier Grumpy Cat badge, only more advanced. It uses touch buttons and RGB LEDs to let players pick out notes and play back Ocarina of Time songs and other tunes such as Nyan Cat, in a freeplay mode as well as a mode where players unlock the game's original songs the way they do in the game itself. The maker also promised "an Easter Egg or two."
 
 Fifty units were produced with a target price around $100 each; unlike prior years where the team sold badges by walking the con floor, this batch was intended to be sold through Hacker Warehouse. Both the PCB design (in KiCad) and the firmware are published on GitHub under the hexum064 account, making the badge open source, though neither repository's public documentation spells out the exact MCU or LED part numbers used.
 

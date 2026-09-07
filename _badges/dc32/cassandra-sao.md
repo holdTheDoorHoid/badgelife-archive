@@ -36,7 +36,7 @@ get_one:
   availability: unknown
   distribution:
   - kit
-  where: Sold as a kit; the maker's tweet said to watch their Twitter/X account for drops during DEF CON 32.
+  where: Sold as a kit; the community sheet says to watch @GoonBoxBadge on Twitter/X for drops during DEF CON 32.
 make_your_own:
   open_source: null
   hardware_url: null
@@ -73,28 +73,30 @@ sources:
   updated: ''
 - kind: url
   url: https://t.co/aGlGuf3UXy
-  title: GoonBoxBadge tweet (redirects to GitHub repo)
+  title: t.co short link from the community sheet (301 redirect to GitHub repo)
   accessed: '2026-09-06'
-  note: Short link listed on the community sheet resolves to the compukidmike/Cassandra GitHub repo.
+  note: Short link listed on the community sheet returns a 301 to the compukidmike/Cassandra GitHub repo (re-checked 2026-09-06).
 - kind: url
   url: https://github.com/compukidmike/Cassandra
   title: "compukidmike/Cassandra: assembly instructions and photos"
   accessed: '2026-09-06'
   note: Repo README confirms the description, kit contents (PCB, flex PCB, SAO connector, 4 LEDs/resistors with one spare each, sticker, instruction card), and assembly steps. Only images and a README are published, no schematic/gerber/BOM files.
 research:
-  status: researched
+  status: verified
   confidence: medium
   last_checked: '2026-09-06'
   notes: >-
-    Maker's own GitHub repo (compukidmike/Cassandra) confirms the sheet's description and kit contents,
-    but the repo has no storefront, price confirmation, quantity, or availability info beyond the sheet's
-    $20 price and the note to watch Twitter for drops. No schematic, gerber, or firmware files are published
-    in the repo despite the assembly writeup, so make_your_own.open_source is left null rather than guessed.
-    Could not confirm whether GoonBoxBadge and compukidmike are the same person/team or a duo (MK Factor);
-    no separate profile for "GoonBoxBadge" or "MK Factor" was found in the time budget.
+    Fact-check 2026-09-06: every non-empty field re-checked against the sheet row (dc32 row 60), the t.co
+    redirect, the repo README and the repo Images folder; both saved images are resized copies of the repo's
+    Front.jpg and Back.jpg. tech.mcu "none" and battery "powered by host badge" are inferred from the kit
+    contents (PCB, flex PCB, SAO connector, LEDs, resistors only) rather than stated outright. The repo has no
+    storefront, price confirmation, quantity, or availability info beyond the sheet's $20 price and the note
+    to watch Twitter for drops; the tweet itself was not read. No schematic, gerber, or firmware files are
+    published in the repo, so make_your_own.open_source is left null rather than guessed. Could not confirm
+    whether GoonBoxBadge and compukidmike are the same person/team or a duo (MK Factor).
 last_modified_date: '2026-09-06'
 ---
 
-Cassandra is a Doctor Who-themed SAO made by GoonBoxBadge (credited on the community sheet as MK Factor) for DEF CON 32 in 2024. Rather than a rigid PCB face, it centers on a backlit flex PCB suspended on a frame, lit by three surface LEDs wired on the back of the board (the kit includes a fourth LED and resistor as spares). It has no microcontroller — it's a simple passive, host-powered SAO that draws its light through the standard SAO header.
+Cassandra is a Doctor Who-themed SAO made by GoonBoxBadge (credited on the community sheet as MK Factor) for DEF CON 32 in 2024. Rather than a rigid PCB face, it centers on a backlit flex PCB suspended on a frame, lit by three LEDs soldered on the back of the board (the kit includes a fourth LED and resistor as spares). The kit contains no microcontroller — just the LEDs, resistors and an SAO header — so it is a passive SAO powered by whatever badge it plugs into.
 
-The maker sold it as a $20 kit, assembled on the back side of the board by the buyer, and pointed people to their Twitter/X account (@GoonBoxBadge) to watch for drops during the con rather than running a persistent storefront. The maker's GitHub repository (compukidmike/Cassandra) carries assembly instructions and reference photos of the front, back, kit contents, and SAO connector, but no schematic, gerber, or firmware files, so it isn't clear whether the hardware design itself was ever published beyond the finished kit.
+The maker sold it as a $20 kit, assembled on the back side of the board by the buyer, and the community sheet directed buyers to watch the @GoonBoxBadge Twitter/X account for drops during the con. The maker's GitHub repository (compukidmike/Cassandra) carries assembly instructions and reference photos of the front, back, kit contents, and SAO connector, but no schematic, gerber, or firmware files, so it isn't clear whether the hardware design itself was ever published beyond the finished kit.

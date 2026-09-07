@@ -45,37 +45,45 @@ sources:
   event: dc32
   row: 34
   updated: ''
+- kind: url
+  url: https://noyce.calpoly.edu/cybersecurity/
+  title: Cybersecurity - Noyce School of Applied Computing (cci.calpoly.edu redirects here)
+  accessed: '2026-09-07'
+  note: Confirms the California Cybersecurity Institute at Cal Poly SLO and that it is "temporarily discontinued"; no badge, SAO, or DEF CON mention.
+- kind: url
+  url: https://github.com/cal-poly-cci
+  title: California Cybersecurity Institute (GitHub org)
+  accessed: '2026-09-07'
+  note: Org holds only SGC 2022/2023 badge repos and a 2025 resources repo; nothing for 2024 / DEF CON 32.
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-07'
   notes: >-
     Could not identify what, if anything, this maker brought to DEF CON 32. The
     community sheet lists only the maker name with no further detail. Cal Poly
-    San Luis Obispo runs a "California Cybersecurity Institute" (CCI, part of
-    the Noyce School of Applied Computing; site now cci.calpoly.edu / mirrored
-    at noyce.calpoly.edu/cybersecurity, and the CCI program has since been
-    discontinued per its own site) which is the most likely match for "California
-    Cyber Institute" on the sheet, but no page on that site, in its Wayback
-    Machine history, on Hackaday.io, Hackaday.com, or in general web search
-    mentions a DEF CON badge, SAO, or 2024 conference giveaway. Web search was
-    unavailable for most of this session (session search budget exhausted) and
-    Google/Bing results could not be read through the fetch tool (JS-rendered,
-    no snippets returned); Reddit could not be fetched at all. No maker
-    storefront, GitHub, or social presence tied to a badge/SAO was found.
-    Left status as unknown per the research guide's instruction for listed-with-no-
-    details entries where nothing further could be confirmed. Note: this same maker
+    San Luis Obispo's "California Cybersecurity Institute" (CCI), part of the
+    Noyce School of Applied Computing, is the most likely match for "California
+    Cyber Institute" on the sheet; cci.calpoly.edu now redirects to
+    noyce.calpoly.edu/cybersecurity/, which states the school has "temporarily
+    discontinued" the Cybersecurity Institute (checked 2026-09-07). That page
+    mentions no DEF CON badge, SAO, or giveaway, and none was found on Hackaday.io,
+    Hackaday.com, or in Wayback Machine snapshots of the CCI site. No maker
+    storefront or social presence tied to a badge/SAO was found. This same maker
     has a DC31 (2023) entry in this archive, "SGC Aerospace Corporation"
     (dc31-sgc-aerospace-corporation), linking to
-    github.com/cal-poly-cci/SGC-2023-Badge-Aerospacecorp — confirming "cal-poly-cci"
-    is their real GitHub org (California Cybersecurity Institute) and that their
-    badge work is tied to the Aerospace Corporation's "Space Grand Challenge" (SGC),
-    not necessarily DEF CON itself. That org's repo list (checked 2026-09-07) has
-    no repo for 2024 or DEF CON 32, so no equivalent badge could be traced for
-    this year.
-last_modified_date: '2026-09-07'
+    github.com/cal-poly-cci/SGC-2023-Badge-Aerospacecorp. — confirming "cal-poly-cci"
+    is their GitHub org (California Cybersecurity Institute) and that their badge
+    work is tied to the Aerospace Corporation's "Space Grand Challenge" (SGC), not
+    necessarily DEF CON itself. That org lists three repos (checked 2026-09-07:
+    Space_Grand_Challenge-AlpenglowIndustries, SGC-2023-Badge-Aerospacecorp.,
+    streamable-resources) and none for 2024 or DEF CON 32, so no equivalent badge
+    could be traced for this year. Fact-check 2026-09-06/07: the two sources above
+    were re-opened and the notes corrected ("temporarily discontinued", redirect
+    rather than mirror); status left as unknown since the sheet is the only trace.
+last_modified_date: '2026-09-06'
 ---
 
 No further details could be confirmed for this listing. The community badge sheet for DEF CON 32 names "California Cyber Institute CalPoly SLO" as a maker with no accompanying description, links, or images, and no independent source could be found describing a badge, SAO, or other hardware this maker brought to the con.
 
-The likely real-world match is the California Cybersecurity Institute (CCI) at Cal Poly San Luis Obispo, part of the university's Noyce School of Applied Computing; that program has since been discontinued according to its own website, and none of its surviving pages, archived snapshots, or maker-community coverage (Hackaday, badge/SAO forums) mention a DEF CON 32 badge or giveaway. It is possible this was a small student-club or one-off item that never received any online write-up, or that the sheet entry was aspirational and nothing was ultimately produced.
+The likely real-world match is the California Cybersecurity Institute (CCI) at Cal Poly San Luis Obispo, part of the university's Noyce School of Applied Computing; the school's website says that program has been temporarily discontinued, and none of its surviving pages, archived snapshots, or maker-community coverage (Hackaday, badge/SAO forums) mention a DEF CON 32 badge or giveaway. It is possible this was a small student-club or one-off item that never received any online write-up, or that the sheet entry was aspirational and nothing was ultimately produced.

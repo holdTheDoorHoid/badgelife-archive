@@ -39,7 +39,7 @@ links: []
 images: []
 contact: {}
 notes: []
-status: unknown
+status: listed
 sources:
 - kind: sheet
   event: dc32
@@ -57,6 +57,10 @@ research:
     maker, project, storefront listing, or social profile. No source could
     be found describing what, if anything, this maker brought to DEF CON 32,
     so the title and other fields are left as imported rather than guessed.
+    Fact-check 2026-09-07: confirmed the DC32 sheet row (data/sheets/dc32.csv)
+    carries only the name "Bitefl0w" with every other column empty; the
+    negative web-search result could not be re-run (search budget exhausted),
+    so research.status stays researched.
 last_modified_date: '2026-09-07'
 ---
 
