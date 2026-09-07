@@ -46,10 +46,21 @@ sources:
   row: 3
   updated: '2022-03-12'
 research:
-  status: stub
+  status: researched
   confidence: low
-  last_checked: '2026-09-06'
-  notes: Imported from the community badge sheet; not yet researched.
-last_modified_date: '2026-09-06'
+  last_checked: '2026-09-07'
+  notes: >-
+    No corroborating sources found. Searched web (title + maker, title + "DEF CON 30",
+    maker + badge/SAO), Bing, DuckDuckGo, Google, Hackaday.io search, Reddit r/badgelife,
+    and Twitter/X for "C0ldbru" and "Linq High Roller Badge" / "High Roller" DEF CON --
+    no maker page, repo, storefront, Hackaday project, or press coverage turned up. The
+    community sheet is the only source for this entry. "Linq" likely refers to The LINQ
+    Hotel & Casino in Las Vegas, whose "High Roller" observation wheel is a plausible
+    namesake for a meetup held there during DEF CON 30, but this is an inference, not a
+    confirmed fact from a source, so it is not added to the record. No photos found to save.
+last_modified_date: '2026-09-07'
 ---
 
+The Linq High Roller Badge was a free badge from maker C0ldbru (who also produced the Dickbutt Badge and Dickbutt SAO for the same event, and later badges at DC31/DC32 under the "Rot13 Labs" name), given out at a meetup during DEF CON 30 in 2022. Per the community sheet it was dropped for free during "the Linq meetup" -- most likely a gathering held at or near The LINQ Hotel & Casino in Las Vegas, whose "High Roller" observation wheel is the probable namesake, though no source confirms that connection.
+
+No maker page, GitHub repo, Hackaday.io project, storefront listing, or press coverage could be found for this badge, so its design, electronics, and exact distribution details remain unknown beyond what the sheet recorded.
