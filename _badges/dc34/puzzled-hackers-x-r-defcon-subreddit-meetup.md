@@ -10,16 +10,18 @@ event: dc34
 year: 2026
 makers:
 - name: Puzzled Hackers
-summary: 'A custom illuminated acrylic badge made by Puzzled Hackers for their annual r/Defcon subreddit meetup at DEF CON 34.'
-functions: 'Distributed as a prize for solving Puzzled Hackers puzzles, or purchased directly at the meetup.'
+summary: 'A limited-edition LED badge sold by Puzzled Hackers, the group that runs the annual r/Defcon subreddit meetup, for pickup at their DEF CON 34 meetup.'
+functions: 'Described by the maker only as an LED badge; no further functions published.'
 look:
   colors: []
   shape: null
-  themes:
-  - puzzle
+  themes: []
 tech:
   mcu: null
-  leds: null
+  leds:
+    count: null
+    type: null
+    note: maker's store page calls it an LED badge; count and type not published
   display: null
   connectivity: []
   battery: null
@@ -29,10 +31,10 @@ get_one:
   price_usd: 20.0
   quantity: ''
   availability: unknown
+  availability_note: 'Store page described it as limited-edition; the live page is behind a Cloudflare challenge, so whether it is still listed could not be checked on 2026-09-07.'
   distribution:
   - purchase
-  - contest
-  where: 'At the Puzzled Hackers x /r/Defcon meetup (the Link, Circle Bar), Wed/Thu evenings during DEF CON 34; also won by completing Puzzled Hackers puzzles.'
+  where: 'Bought online through the Puzzled Hackers CTF store ($20 including tax, QR claim code emailed), then picked up in person at the meetup: Linq 3535 Bar (Circle Bar), Las Vegas, Wednesday 8/5 and Thursday 8/6, 7-10 PM. No shipping.'
 make_your_own:
   open_source: null
   hardware_url: null
@@ -44,7 +46,7 @@ links:
   kind: store
 - label: www.reddit.com/r/Defcon/comments/1vabhd6/rdefcon_meetup_post_4_final_badges_and_information
   url: https://www.reddit.com/r/Defcon/comments/1vabhd6/rdefcon_meetup_post_4_final_badges_and_information/
-  kind: video
+  kind: social
 - label: puzzledhackers.org
   url: https://puzzledhackers.org
   kind: website
@@ -63,40 +65,37 @@ sources:
   listing: New
 - kind: url
   url: https://ctf.puzzledhackers.org/badge
-  title: 'Puzzled Hackers CTF - Badge'
-  accessed: '2026-09-06'
-  note: 'Blocked by a Cloudflare challenge page for both the automated fetcher and curl; could not read badge-specific details.'
+  title: 'Puzzled Hackers CTF - DEF CON 34 LED Badge'
+  accessed: '2026-09-07'
+  note: 'Live page is behind a Cloudflare challenge; read via the Wayback Machine snapshot of 2026-07-22. Confirms title "DEF CON 34 LED Badge", $20.00 including tax, limited-edition, in-person pickup only at Linq 3535 Bar (Circle Bar) on Wed 8/5 and Thu 8/6, 7-10 PM PT, receipt plus QR claim code by email. Photo slot was a placeholder; no design details.'
 - kind: url
   url: https://puzzledhackers.org
   title: 'PuzzledHackers: The Ultimate Puzzle Challenge for Hackers!'
-  accessed: '2026-09-06'
-  note: 'Blocked by a Cloudflare challenge page directly, but search-engine summaries of this site describe the group''s badges generally as custom, illuminated acrylic badges made to be affordable and accessible, won by completing puzzles or bought directly at the meetup; also lists the DC34 meetup as Wed/Thu Aug 5-6 at the Link, Circle Bar.'
+  accessed: '2026-09-07'
+  note: 'Live page is behind a Cloudflare challenge; read via the Wayback Machine snapshot of 2026-07-05. Confirms the group is a DEF CON group that organizes the annual Reddit meetup and runs puzzles in the lead-up (u/Killroy7777 named as an organizer). Does not describe the badge.'
 - kind: url
   url: https://www.reddit.com/r/Defcon/comments/1vabhd6/rdefcon_meetup_post_4_final_badges_and_information/
   title: 'r/Defcon meetup post 4: final badges and information'
   accessed: '2026-09-06'
   note: 'Reddit is not fetchable by the automated tools available (blocked host); could not confirm badge-specific details from this thread directly.'
 research:
-  status: researched
-  confidence: low
-  last_checked: '2026-09-06'
+  status: verified
+  confidence: medium
+  last_checked: '2026-09-07'
   notes: >-
-    Both puzzledhackers.org and ctf.puzzledhackers.org sit behind a Cloudflare
-    JS challenge that neither the fetch tool nor curl could pass, and reddit.com
-    is not reachable by the available tools, so none of the three links already
-    on this entry could be read directly. What is filled in here comes from
-    search-engine summaries of those pages describing Puzzled Hackers' general
-    yearly badge program (custom illuminated acrylic badges, won via puzzles or
-    bought at the meetup) and the DC34 meetup logistics (Wed/Thu, Aug 5-6, the
-    Link / Circle Bar) -- not confirmed to be specific to this exact DC34 badge
-    design. No maker page, chip/LED/color specifics, quantity, or photo of the
-    actual badge could be found or confirmed, so those fields are left empty
-    rather than guessed. The $20 price is carried over from the community sheet
-    only; it was not independently confirmed.
-last_modified_date: '2026-09-06'
+    Fact-check 2026-09-07: both puzzledhackers.org and ctf.puzzledhackers.org
+    are behind a Cloudflare JS challenge live, but Wayback Machine snapshots
+    (2026-07-05 and 2026-07-22) were readable. The maker's store page confirms
+    the $20 price, the limited-edition "LED badge" naming and the pickup
+    logistics. Earlier claims that the badge is acrylic, illuminated, or won
+    by solving puzzles came only from search-engine summaries and were not
+    on the maker's pages, so they were removed; the meetup venue was corrected
+    from "the Link" to Linq 3535 Bar (Circle Bar). The Reddit "final badges and
+    information" thread is not archived and reddit.com is unreachable here, so
+    design, chip, LED count, colors, quantity and photos remain unknown.
+last_modified_date: '2026-09-07'
 ---
 
-Puzzled Hackers runs the annual r/Defcon subreddit meetup during DEF CON week in Las Vegas, and produces a custom badge for attendees each year. For DEF CON 34 the group is again offering a badge tied to the meetup, listed on the community badge sheet at $20; it was expected to be available either as a prize for solving the group's puzzles or picked up directly at the meetup itself (the Link, Circle Bar, Wednesday and Thursday evenings during con week).
+Puzzled Hackers is the DEF CON group that organizes the annual r/Defcon subreddit meetup and runs a series of puzzles in the weeks leading up to the conference. For DEF CON 34 the group sold a limited-edition "DEF CON 34 LED Badge" through its CTF site for $20 including tax. Orders were pickup-only: buyers received a receipt and a QR claim code by email and collected the badge at the meetup itself, held at the Linq's 3535 Bar (Circle Bar) in Las Vegas on Wednesday 5 and Thursday 6 August, 7 to 10 PM.
 
-Independent confirmation of this specific badge's design, chip, LEDs, colors, and quantity was not possible for this pass: both `puzzledhackers.org` and `ctf.puzzledhackers.org` are gated behind a Cloudflare challenge page that blocked both the fetch tool and curl, and the linked Reddit thread with "final badges and information" could not be retrieved because reddit.com is not reachable by the tools available here. Search-engine summaries of the Puzzled Hackers site describe their yearly badges in general terms as illuminated acrylic boards, which is consistent with but not a confirmed description of this particular badge.
-
+The maker's store page did not carry a photo or any description beyond the name, and the Reddit thread with the final badge details could not be read, so what the badge looks like and what is on it remain undocumented here.

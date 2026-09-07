@@ -47,7 +47,7 @@ sources:
   tab: 2025 (expected makers)
   updated: ''
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-06'
   notes: >-
@@ -62,7 +62,11 @@ research:
     from this entry or the other Blametheotherkyle entries in the archive.
     Leaving as unknown rather than guessing; a future pass with search
     available should retry "Blametheotherkyle" + "DEF CON 33" and check
-    Twitter/X, Hackaday.io, and r/badgelife directly.
+    Twitter/X, Hackaday.io, and r/badgelife directly. Verification pass 2026-09-06:
+    the only factual claims here (sheet row for DC33, and the maker's DC31/DC32
+    entries in this archive) were checked against the archive itself and hold;
+    no web claims, links, or images exist to check. Web search was also
+    unavailable during verification.
 last_modified_date: '2026-09-06'
 ---
 

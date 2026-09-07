@@ -9,60 +9,89 @@ type: badge
 event: dc34
 year: 2026
 makers:
-- name: alee97422
-summary: A DEF CON 34 badge geared toward quick breadboard prototyping.
-functions: Geared toward quick breadboard prototyping
+- name: Tw0nkus
+  url: https://uberflux.com/maker/tw0nkus
+summary: A DEF CON 34 badge that doubles as a breadboard prototyping tool, with an RP2354A, a colour display, six WS2812 LEDs, an INA3221 power monitor and UART/UPDI/I2C breakouts.
+functions: Display UI and animations; WS2812 LED animations; UPDI tools (ping, erase, flash); I2C tools; power sensing (voltage, current, power via INA3221); breadboard-compatible breakout headers for UART, UPDI, I2C, 5V, 3.3V and debug.
 look:
-  colors: []
-  shape: null
+  colors:
+  - green
+  shape: rectangle
   themes:
   - hardware tool
+  - measurement
+  - text
 tech:
-  mcu: null
-  leds: null
-  display: null
-  connectivity: []
+  mcu: RP2354A
+  leds:
+    count: 6
+    type: WS2812
+    note: RGB
+  display: ST7789 SPI display
+  connectivity:
+  - uart
+  - i2c
   battery: null
   sao_version: null
+  inputs:
+  - joystick
+  - buttons
 get_one:
   price: $80
   price_usd: 80
-  quantity: ''
-  availability: unknown
-  distribution: []
-  where: Listed by the maker (alee97422) on the DEF CON 34 community badge sheet at $80; no storefront or listing found online.
+  quantity: 5
+  availability: sold_out
+  availability_note: Uberflux listing showed 0 remaining, 5 sold of 5 on 2026-09-07.
+  distribution:
+  - purchase
+  where: Sold through the maker's Uberflux store at $80; the listing shows all 5 units sold.
 make_your_own:
   open_source: null
   hardware_url: null
   firmware_url: null
   eda_tool: null
 links:
-- label: uberflux.com/product/TW0N-breadbadge
+- label: Uberflux store listing
   url: https://uberflux.com/product/TW0N-breadbadge
   kind: store
-- label: uberflux.com/maker/tw0nkus
+- label: Tw0nkus on Uberflux
   url: https://uberflux.com/maker/tw0nkus
   kind: store
-images: []
+images:
+- file: assets/images/badges/dc34/breadbadge/78b8032493.jpg
+  source: "https://uberflux.com/product/TW0N-breadbadge"
+  credit: "Tw0nkus (Uberflux listing)"
+  caption: "Breadbadge, from the Uberflux store listing"
 contact:
   emails:
   - Alee97422@gmail.com
-notes: []
-status: listed
+notes:
+- The community sheet lists the maker as alee97422; the Uberflux store lists the same badge under the maker name Tw0nkus.
+status: released
 sources:
 - kind: sheet
   event: dc34
   row: 48
   updated: 7/22/2026 12:55:43
   listing: Update to Existing
+- kind: url
+  url: https://uberflux.com/product/TW0N-breadbadge
+  title: Breadbadge - Uberflux
+  accessed: '2026-09-07'
+  note: Price, event (Defcon34), hardware list (RP2354A, INA3221, ST7789 SPI display, 6 WS2812 RGB LEDs, joystick and back button, breakouts), firmware features, stock (0 remaining, 5 sold of 5) and product photo.
+- kind: url
+  url: https://uberflux.com/maker/tw0nkus
+  title: Tw0nkus - Uberflux
+  accessed: '2026-09-07'
+  note: Maker page listing Breadbadge ($80) and Rust Crab Badge ($35).
 research:
-  status: researched
-  confidence: low
-  last_checked: '2026-09-06'
-  notes: 'No independent sources found. Searched the web (search engines, Hackaday.io, GitHub) for "Breadbadge" and the maker handle "alee97422" and found no project page, repo, storefront, or press coverage. The entry had no existing links to follow. All fields here come only from the community badge sheet: a $80 DEF CON 34 badge "geared toward quick breadboard prototyping," maker contact Alee97422@gmail.com. Type, chip, LEDs, display, colors, shape, quantity, and availability could not be confirmed and are left empty/unknown. If the maker or a photo of the badge surfaces later, this entry should be revisited.'
-last_modified_date: '2026-09-06'
+  status: verified
+  confidence: high
+  last_checked: '2026-09-07'
+  notes: 'Verified against the maker''s Uberflux listing, which the earlier research pass had missed. The listing headline says "RP2354A main MCU" while one bullet mentions "the onboard RP2350"; the RP2354A wording is used throughout and matches the Raspberry Pi package in the photo, so mcu is recorded as RP2354A. Colour and shape are taken from the listing photo (green rectangular PCB, "HACK EVERYTHING" silkscreen). Not stated anywhere: battery, SAO header, open-source files. Sheet handle alee97422 vs store name Tw0nkus is noted in notes.'
+last_modified_date: '2026-09-07'
 ---
 
-Breadbadge is a DEF CON 34 badge from maker alee97422, priced at $80 per the community badge sheet. The sheet describes it as "geared toward quick breadboard prototyping," suggesting a badge designed to double as a breadboarding aid or to expose its circuitry for easy tinkering, though no further design details were available to confirm exactly how.
+Breadbadge is a DEF CON 34 badge by Tw0nkus, sold on Uberflux for $80 with the tagline "Badge by day, breadboard prototyping tool by night." The board carries an RP2354A, an ST7789 SPI colour display, six WS2812 RGB LEDs, a navigation joystick with a back button, and an INA3221 voltage, current and power monitor. Along the bottom edge it breaks out UART, UPDI, I2C, 5 V, 3.3 V and debug headers so it can sit on a breadboard and act as a bench tool.
 
-No maker page, repository, storefront listing, or press coverage could be found for this badge or for the maker's handle, so most technical and appearance details (chip, LEDs, display, colors, shape, quantity made, and current availability) are unknown. The only information on record comes from the community sheet itself and the maker's listed contact email.
+The firmware provides a menu-driven display UI with animations, LED animations, UPDI tools for pinging, erasing and flashing targets, I2C tools, and a power-sensing screen. The listing shows a run of five units, all sold.

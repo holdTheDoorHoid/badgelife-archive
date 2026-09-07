@@ -18,7 +18,6 @@ look:
   colors: []
   shape: telephone booth
   themes:
-  - retro computer
   - village badge
 tech:
   mcu: none
@@ -43,6 +42,7 @@ make_your_own:
   hardware_url: https://git.calltheory.com/callcentervillage/shitty-add-on
   firmware_url: null
   eda_tool: KiCad
+  license: CC BY-SA 4.0
 links:
 - label: billing.calltheory.com/b/cNi8wOdNw213b1X5yj3VC05
   url: https://billing.calltheory.com/b/cNi8wOdNw213b1X5yj3VC05
@@ -81,15 +81,15 @@ sources:
   url: https://www.callcentervillage.com/
   title: Call Center Village
   accessed: '2026-09-06'
-  note: Confirms Call Center Village as a DEF CON village/contest (social engineering call-center challenge) run by Patrick Labbett of Call Theory; no separate SAO page found there.
+  note: Confirms Call Center Village as a voice-based social-engineering CTF run by Patrick Labbett (Call Theory / NotifiUs, LLC), with a defcon.social account; no SAO page, price, or DEF CON 34 detail found there.
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-06'
-  notes: The repo README is the maker's own primary source and confirms the technical description. Could not find a photo of the assembled physical SAO (repo contains only KiCad files and vector board-outline artwork, no raster photos); could not confirm quantity made or current stock/availability since the storefront is a JavaScript Stripe Checkout page that did not return readable content to fetch. Price on the sheet ($5 kit / $10 pre-soldered) is unverified against the storefront but is plausible for a simple one-LED SAO and was kept as-is.
-last_modified_date: '2026-09-06'
+  notes: Fact-checked 2026-09-07 against the repo README, commit history (Patrick Labbett is the sole author) and callcentervillage.com; removed an unsupported 'retro computer' theme and an unsupported claim that the village challenge uses a physical phone booth and vintage phones. The repo README is the maker's own primary source and confirms the technical description. Could not find a photo of the assembled physical SAO (repo contains only KiCad files and vector board-outline artwork, no raster photos); could not confirm quantity made or current stock/availability since the storefront is a JavaScript Stripe Checkout page that did not return readable content to fetch. Price on the sheet ($5 kit / $10 pre-soldered) is unverified against the storefront but is plausible for a simple one-LED SAO and was kept as-is.
+last_modified_date: '2026-09-07'
 ---
 
-Call Center Village is a DEF CON village/contest run by Patrick Labbett of Call Theory, built around a social-engineering challenge staged through a British-style telephone booth and vintage phones. For DEF CON 34 the group made a matching SAO: a small PCB cut into the outline of a phone booth. It is deliberately minimal — there is no microcontroller and no I2C logic, just a single 1206 SMD LED and a current-limiting resistor wired straight across the SAO v2 header's power pins, so the badge lights up simply because it is plugged in.
+Call Center Village is a voice-based social-engineering CTF run by Patrick Labbett of Call Theory, where players clone voices, build voice agents and practice social engineering against AI agents and live operators. For DEF CON 34 the group made its first SAO: a small PCB cut into the outline of a British-style phone booth. It is deliberately minimal — there is no microcontroller and no I2C logic, just a single 1206 SMD LED and a current-limiting resistor wired straight across the SAO v2 header's power pins, so the badge lights up simply because it is plugged in.
 
 The design is fully open, published on the group's own Forgejo instance under CC BY-SA 4.0, with KiCad 10 source files, a bill of materials (LCSC part numbers), and ready-to-order fabrication packages for both PCBWay and a generic board house. The sheet lists it for sale as a $5 kit or $10 pre-soldered through a Stripe payment link; that storefront could not be independently confirmed by automated fetch, and no photo of an assembled unit was found, so those two points are noted as unverified.

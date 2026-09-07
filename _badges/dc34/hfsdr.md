@@ -14,27 +14,35 @@ makers:
 summary: A software-defined-radio badge that tunes 0-300MHz and streams 192kHz I/Q data to a PC over USB, with a standalone FM-receiver mode.
 functions: Receives 0-300MHz radio signals; standalone FM radio with audio output; streams 192kHz I/Q data to a host PC over USB/WebUSB for use with a browser-based waterfall display or GNU Radio; rotary encoder cycles onboard modes/LEDs.
 look:
-  colors: []
+  colors:
+  - black
+  - white
   shape: null
   themes:
   - radio
   - hardware tool
+  - kit
 tech:
   mcu: CH32V305
-  leds: null
-  display: null
+  leds:
+    count: null
+    type: discrete
+    note: SMD LEDs supplied in the kit; count not stated
+  display: small screen for waterfall/FFT (type and size not stated)
   connectivity:
   - usb
-  battery: null
+  battery: optional LiPo (sold with or without battery; onboard LiPo charger)
   sao_version: null
 get_one:
-  price: approx 75USD with battery, 65USD without battery
+  price: $65 no battery / $75 with battery / $72 smaller battery / $85 fully soldered
   price_usd: 65
   quantity: ''
-  availability: unknown
+  availability: available
+  availability_note: 'Uberflux checked 2026-09-07: $65 no-battery kit still listed (36 remaining); battery and fully-soldered variants sold out.'
   distribution:
   - purchase
-  where: Sold directly by the maker (Hackin7) around DEF CON 34; approx $75 with battery, $65 without.
+  - kit
+  where: Sold as a mini soldering kit through Hackin7's Uberflux store for DEF CON 34, with variants at $65 (no battery), $75 (with battery), $72 (smaller battery) and $85 (fully soldered).
 make_your_own:
   open_source: true
   hardware_url: https://github.com/rhgndf/hfsdr/tree/main/hardware
@@ -87,18 +95,22 @@ sources:
 - kind: url
   url: https://rhgndf.github.io/hfsdr/
   title: HFSDR web UI
-  accessed: '2026-09-06'
-  note: Live WebUSB-based waterfall/config interface for the device, linked from the repo README.
+  accessed: '2026-09-07'
+  note: Live web UI for the device, linked from the repo README as the Web UI (page itself is a JavaScript app; only the title is visible without a browser).
+- kind: url
+  url: https://uberflux.com/product/HCK-hfsdr
+  title: hfsdr - Hackin7 - Uberflux
+  accessed: '2026-09-07'
+  note: Maker's store listing. Confirms DEF CON 34, sold as a mini soldering kit (PCB, SMA + antenna, encoder, screen, SMD LEDs), up to 300MHz reception, onboard FM demod, waterfall/FFT screen, LiPo charger, web UI config, and the four price variants with stock status.
 research:
-  status: researched
-  confidence: medium
-  last_checked: '2026-09-06'
-  notes: The GitHub repo (built with collaborator rhgndf) documents the hardware/firmware/software in detail but never mentions DEF CON 34 by name - it reads as a general open-source SDR project, possibly originating from a hackathon ('Hack & Roll') credit found in the repo. The DC34 community sheet ties it to Hackin7 with a price of ~$75/$65 and Discord/email contact matching the GitHub account, so it is treated here as the badge/device Hackin7 sold at DC34. Could not find quantity made, LED count/type, battery spec, or an explicit software/hardware license. No independent (press/storefront) coverage of a DC34 sale was found.
-last_modified_date: '2026-09-06'
+  status: verified
+  confidence: high
+  last_checked: '2026-09-07'
+  notes: 'Fact-check 2026-09-07: repo README confirms 0-300MHz, 192kHz I/Q over USB, standalone FM mode, rotary encoder, CH32V305, KiCad, credits (rhgndf design, Hackin7 art/PCB layout, Hack & Roll). The Uberflux listing (already linked, not read by the first pass) confirms the DEF CON 34 tie, kit contents, screen, LiPo charger and prices, so earlier notes claiming no storefront was found were removed. Still unknown: total quantity made (only per-variant sold counts on the store), LED count, screen type/size, and license (no LICENSE file in the repo). PCB colors taken from the maker''s photo.'
+last_modified_date: '2026-09-07'
 ---
+HFSDR is an open-source software-defined radio badge built around a CH32V305 microcontroller. It receives signals from 0-300MHz and streams 192kHz I/Q data over USB, either into the project's browser-based web UI or into GNU Radio through the Python host tools. A rotary encoder lets it run standalone as well, including a basic FM receiver mode with audio output, and the board carries a small screen for a waterfall/FFT view.
 
-HFSDR is an open-source software-defined radio badge built around a CH32V305 microcontroller. It receives signals from 0-300MHz and streams 192kHz I/Q data over USB, either into a browser-based waterfall/spectrum viewer (via WebUSB) or into GNU Radio through the project's Python host tools. A rotary encoder lets it run standalone as well, including a basic FM receiver mode with audio output.
+The hardware (KiCad schematics and PCB), CH32V305 firmware, host-side Python drivers and the web UI are all published on GitHub. The repo credits rhgndf for the schematic and design, Hackin7 (Terence Chan Zun Mun) for the art and PCB layout, and members of the Hack & Roll community, and it draws on the CentSDR project. Hackin7 sold it for DEF CON 34 through Uberflux as a mini soldering kit (PCB with hand-drawn radio artwork, SMA connector and antenna, encoder, screen, SMD LEDs), in no-battery, battery, smaller-battery and fully-soldered variants; when checked in September 2026 only the $65 no-battery kit was still in stock.
 
-The hardware (KiCad schematics and PCB), CH32V305 firmware, host-side Python drivers, and the Svelte/Vite web UI are all published on GitHub by the maker, who goes by Hackin7 (Terence Chan Zun Mun) and is credited alongside collaborator rhgndf. The project appears to trace back to a hackathon build before being sold as a badge; the DEF CON 34 community badge sheet lists it as new that year at roughly $75 with a battery or $65 without, with contact details (Discord handle and email) matching the maker's GitHub account.
-
-Beyond the repository and its live web-UI demo, no additional press, storefront listing, or photos of the badge in the wild were found, so quantity made, LED details, battery type, and licensing terms are left blank.
+No press coverage was found; quantity made, LED count, screen type and licensing terms are left blank.

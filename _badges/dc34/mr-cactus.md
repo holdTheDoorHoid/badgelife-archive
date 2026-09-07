@@ -60,10 +60,14 @@ sources:
     lists Blushy, Magic Blue Ball, and Hats), but has no page or mention of "Mr.
     Cactus" as of this check; site itself is labeled a beta.'
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-06'
-  notes: 'Could not find any independent confirmation of Mr. Cactus beyond the
+  notes: 'Fact-check 2026-09-06: sheet row (data/sheets/dc34.csv) confirms name,
+    email, GhostGlitch.net, "One Social Interaction" price, "Boopable,
+    Blinkenlights", and "Nope!" for a storefront; ghostglitch.net and /sao
+    (fetched with TLS verification off, the site''s certificate is expired) list
+    only Blushy, Magic Blue Ball and Hats, and /sao/cactus returns 404. Could not find any independent confirmation of Mr. Cactus beyond the
     community sheet entry. GhostGlitch''s own site (checked /, /sao, /sao/cactus,
     /sao/mrcactus, /blog, /about-us) does not list or mention it, and only shows
     Blushy, Magic Blue Ball, and Hats among their SAOs; GhostGlitch also made
@@ -87,6 +91,7 @@ being sold for cash it was traded for "one social interaction."
 
 No independent write-up, storefront listing, or photo of Mr. Cactus could be
 found. GhostGlitch's own website confirms the team is an active, recurring SAO
-maker (they also made Blushy Redux for DC33), but as of this check their site
-does not list or describe Mr. Cactus at all, so its chip, LED count/type,
+maker (Blushy, Magic Blue Ball and eSAO "hats"; this archive also records their
+Blushy Redux for DC33), but as of this check their site does not list or
+describe Mr. Cactus at all, so its chip, LED count/type,
 colors, shape, and production quantity remain unknown.

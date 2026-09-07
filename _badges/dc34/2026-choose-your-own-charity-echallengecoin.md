@@ -22,7 +22,6 @@ look:
   - coin
   - charity
   - puzzle
-  - learn to solder
 tech:
   mcu: ATSAMD21G1A (Cortex-M0+)
   leds:
@@ -39,21 +38,22 @@ tech:
 get_one:
   price: proof of a $100+ donation to a youth STEM charity of the person's choosing
   price_usd: null
-  quantity: '40 brass units planned (first 20 recipients get blanks machined by local high school engineering students)'
+  quantity: '40 brass units (first 20 recipients get brass blanks manufactured by students from a local high school engineering program)'
   availability: limited
+  availability_note: 'Checked 2026-09-06: aosc.cc/eccn2026 still describes the donation offer with no sold-out notice.'
   distribution:
   - free_drop
-  - contest
   where: 'Free gift for donating $100 or more to a youth-focused STEM education charity of your choice; claimed in person at DEF CON or by U.S. mail after submitting proof of donation via an online form, or by contacting the maker on X/Twitter, Bluesky, or Discord'
 make_your_own:
-  open_source: partial
+  open_source: null
   hardware_url: null
-  firmware_url: https://circuitpython.org/board/bradanlanestudio_coin_m0/
+  firmware_url: null
   eda_tool: null
+  notes: The underlying board ("Coin M0", bradanlanestudio_coin_m0) has a CircuitPython board definition in the CircuitPython project, but no schematic, Gerbers, or game/firmware source were found.
 links:
 - label: aosc.cc/eccn2026
   url: https://aosc.cc/eccn2026
-  kind: store
+  kind: website
 - label: circuitpython.org board page
   url: https://circuitpython.org/board/bradanlanestudio_coin_m0/
   kind: doc
@@ -87,17 +87,17 @@ sources:
   url: https://circuitpython.org/board/bradanlanestudio_coin_m0/
   title: "Bradán Lane STUDIO Coin M0 — CircuitPython board page"
   accessed: '2026-09-06'
-  note: Confirms MCU (ATSAMD21G1A / SAMD21, Cortex-M0+), CircuitPython support, NeoPixels, touch pads, and speaker.
+  note: Confirms MCU (ATSAMD21G1A / SAMD21, Cortex-M0+), CircuitPython support, three groups of NeoPixels, touch pads, speaker; lists USB-C where the maker page says Micro-USB.
 research:
-  status: researched
+  status: verified
   confidence: high
   last_checked: '2026-09-06'
-  notes: 'This entry duplicates dc34-2026-echallengecoin (same item, same maker, same aosc.cc links, from a different sheet row) — see other_items_found in the research report. Minor source disagreement: aosc.cc/eccn2026 text mentions "micro-USB serial connectivity" while the circuitpython.org board page lists native USB-C; left tech.connectivity as generic "usb" rather than guessing the connector. LED count not stated numerically ("three groups of Neopixels"), so tech.leds.count left null. price_usd left null since the donation is a minimum, not a fixed price.'
+  notes: 'Verified 2026-09-06 against aosc.cc/eccn2026 and the circuitpython.org board page; removed unsupported "learn to solder" theme, "contest" distribution, and the open_source/firmware_url claim (only a CircuitPython board definition exists, not the game code). This entry duplicates dc34-2026-echallengecoin (same item, same maker, same aosc.cc links, from a different sheet row) — see other_items_found in the research report. Minor source disagreement: aosc.cc/eccn2026 text mentions "micro-USB serial connectivity" while the circuitpython.org board page lists native USB-C; left tech.connectivity as generic "usb" rather than guessing the connector. LED count not stated numerically ("three groups of Neopixels"), so tech.leds.count left null. price_usd left null since the donation is a minimum, not a fixed price.'
 last_modified_date: '2026-09-06'
 ---
 
-The 2026 eChallengeCoin, "Choose Your Own Charity," is a brass, coin-shaped electronic badge from Bradán Lane STUDIO made with T.E.C. (Tod Troche, Lory Ester, and Sara Cladlow) for DEF CON 34. Rather than being sold, it is given away as a thank-you to anyone who donates $100 or more to a youth-focused STEM education charity of their own choosing, with proof of donation exchanged for the coin either in person at the con or by U.S. mail. The maker planned a run of 40 brass units, with the first 20 recipients receiving blanks machined by local high school engineering students before final assembly.
+The 2026 eChallengeCoin, "Choose Your Own Charity," is a brass, coin-shaped electronic badge from Bradán Lane STUDIO made with T.E.C. (Tod Troche, Lory Ester, and Sara Cladlow) for DEF CON 34. Rather than being sold, it is given away as a thank-you to anyone who donates $100 or more to a youth-focused STEM education charity of their own choosing, with proof of donation exchanged for the coin either in person at the con or by U.S. mail. The maker planned a run of 40 brass units, with the first 20 recipients receiving coins whose brass blanks were manufactured by students from a local high school engineering program (the engraving was done by the studio).
 
 Functionally the coin is a small CircuitPython board built around a SAMD21 (Cortex-M0+) microcontroller. Its headline feature is a new text adventure game, "Sara and the Missing Artifacts," played over a USB serial terminal connection — no display is built in. Beyond the game, the coin doubles as a general-purpose dev board, with a large capacitive touch pad, three groups of NeoPixel LEDs around its perimeter, and a small speaker. It needs no battery: unplugged, it functions as a genuine brass coin, and it only powers up when connected over USB.
 
-The board is registered with the official CircuitPython project (as "bradanlanestudio_coin_m0"), so firmware support is public even though no separate hardware/Gerber repository was found. This entry is a duplicate of another sheet import for the same item (`dc34-2026-echallengecoin`), pulled from a different row of the community badge sheet.
+The underlying board is registered with the official CircuitPython project (as "bradanlanestudio_coin_m0"), so CircuitPython builds for it are public, but no hardware files or game source were found. This entry is a duplicate of another sheet import for the same item (`dc34-2026-echallengecoin`), pulled from a different row of the community badge sheet.

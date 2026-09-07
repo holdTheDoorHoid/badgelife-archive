@@ -64,12 +64,12 @@ sources:
   url: https://badgepirates.com/
   title: 'Badge Pirates — Making badges for fun and no profit'
   accessed: '2026-09-06'
-  note: 'Maker homepage; lists historical badges (SecKC/DEF CON 25-29) but nothing specific to DEF CON 33 or 2025.'
+  note: 'Maker homepage; lists historical badges (SecKC 25, DEF CON 26/27/29, BSides KC through 2025) but nothing specific to DEF CON 33.'
 - kind: url
   url: https://blog.badgepirates.com/
   title: 'badgepirates – building badges for fun not profit'
   accessed: '2026-09-06'
-  note: 'Blog archive checked for 2025 posts; found BSidesKC 2025 and CactusCon 13/14 coverage and firmware-tooling posts, no DEF CON 33 item.'
+  note: 'Blog archive checked; found a BSidesKC badge shipping update (4/27/2025), CactusCon 11 and CC14 posts, a Firmware Updater post and the Badge Tracker (MyBadgeLife) post; no DEF CON 33 item.'
 - kind: url
   url: https://github.com/badgePiratesLLC
   title: 'Badge Pirates LLC · GitHub'
@@ -84,34 +84,34 @@ sources:
   url: https://www.tindie.com/products/badgepirates/badge-pirates-sao-v2/
   title: 'Badge Pirates SAO v2 from BadgePirates on Tindie'
   accessed: '2026-09-06'
-  note: 'General pirate-skull SAO product ($4.99); described as pandemic-era design, not tied to DC33 specifically.'
+  note: 'General pirate-skull SAO product ($4.99, 1.69bis connector, reverse-mount red LED eye); described as a pandemic-era design, not tied to DC33 specifically.'
 research:
-  status: researched
+  status: verified
   confidence: low
-  last_checked: '2026-09-06'
+  last_checked: '2026-09-07'
   notes: >-
-    BadgePirates is an established badge/SAO maker (BSidesKC, CactusCon, general-purpose SAOs
-    and SAO holders) that was listed on the community sheet as an expected DEF CON 33 maker,
-    but no source found ties a specific badge or SAO to DEF CON 33 itself. Their 2025 public
-    output (blog, GitHub org, Tindie store) centers on BSidesKC 2025 and CactusCon 13/14 badges
-    plus general-purpose products (SAO holders, a pirate-skull SAO, a firmware flasher site);
-    none of it is labeled as a DC33 release. Could not confirm whether they had a table/vendor
-    presence at DC33 selling existing stock, brought something unlisted online, or simply did
-    not end up releasing anything. Leaving status unknown per the "listed, no details found"
-    rule rather than guessing which product (if any) was their DC33 item.
+    BadgePirates is an established badge/SAO maker (BSidesKC, CactusCon, general-purpose SAOs)
+    that was listed on the community sheet as an expected DEF CON 33 maker, but no source found
+    ties a specific badge or SAO to DEF CON 33 itself. Their recent public output (blog, GitHub
+    org) centers on BSidesKC 2025 and CactusCon 13/14 badges plus general-purpose projects (a
+    pirate-skull SAO on Tindie, a web-based ESP32 firmware flasher, the MyBadgeLife badge
+    tracker); none of it is labeled as a DC33 release. The Tindie store index could not be
+    fetched (Cloudflare challenge), so their full product list was not checked. Could not
+    confirm whether they had a table at DC33 selling existing stock, released something not
+    found online, or released nothing. Fact-check 2026-09-07: removed an unsupported location
+    claim and an unsupported "SAO holders sold on Tindie" claim from the body; all remaining
+    statements verified against the cited pages.
 last_modified_date: '2026-09-06'
 ---
 
-BadgePirates (Lee's Summit, MO) is a badge and SAO-maker collective best known for its
-BSidesKC and CactusCon conference badges, along with general-purpose SAO products like the
-pirate-skull SAO and multi-SAO "SAO Holder" totems sold on Tindie. The community badge sheet
-for 2025 lists them as an expected maker at DEF CON 33, but the row carried no further
-detail, and no source found during research names a specific badge or SAO they released for
-DC33 itself.
+BadgePirates is a Midwest badge and SAO maker ("making badges for fun and no profit") best
+known for its BSidesKC and CactusCon conference badges, along with general-purpose products
+such as the pirate-skull Badge Pirates SAO v2 sold on Tindie. The community badge sheet for
+2025 lists them as an expected maker at DEF CON 33, but the row carried no further detail,
+and no source found during research names a specific badge or SAO they released for DC33.
 
-Their public activity in 2025 — blog posts, GitHub repos, and Tindie listings — is dominated
-by BSidesKC 2025 and CactusCon 13/14 badge work plus infrastructure projects (a Web Serial
-firmware flasher, the MyBadgeLife badge-tracking platform). It's plausible they had a table
-at DC33 selling existing SAO stock rather than debuting a new piece for the con, but that
-could not be confirmed from available sources, so this entry is left as unknown pending
-better information (a DC33-specific product page, forum post, or photo).
+Their recent public activity — blog posts and GitHub repos — is dominated by BSidesKC 2025
+and CactusCon 13/14 badge work plus infrastructure projects (a web-based ESP32 firmware
+flasher, the MyBadgeLife badge-tracking platform). Whether they had a table at DC33 selling
+existing stock or debuted a new piece could not be confirmed, so this entry is left as
+unknown pending better information (a DC33-specific product page, forum post, or photo).

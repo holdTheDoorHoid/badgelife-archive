@@ -14,7 +14,9 @@ makers:
 summary: 'An SCP-1471-A themed SAO packed with an OLED display, 50+ LEDs, sensors, and IR chat between units, sold at DEF CON 34.'
 functions: 'IR chat between units, mini-games and logic puzzles, LED animations, and sensor-driven interactions (touch, potentiometer, accelerometer/gyro, light, microphone).'
 look:
-  colors: []
+  colors:
+  - black
+  - orange
   shape: null
   themes:
   - horror
@@ -29,7 +31,7 @@ tech:
   - usb
   - rfid
   battery: null
-  sao_version: null
+  sao_version: v2
 get_one:
   price: $50
   price_usd: 50.0
@@ -42,7 +44,7 @@ make_your_own:
   open_source: 'yes'
   hardware_url: https://github.com/parallellogic-/MalO_SAO
   firmware_url: https://github.com/parallellogic-/MalO_SAO
-  eda_tool: null
+  eda_tool: EasyEDA
 links:
 - label: uberflux.com/product/PL-1471
   url: https://uberflux.com/product/PL-1471
@@ -52,16 +54,12 @@ links:
   kind: repo
 - label: github.com/parallellogic-
   url: https://github.com/parallellogic-/
-  kind: repo
+  kind: website
 images:
   - file: assets/images/badges/dc34/malo/1fdfaaabf3.jpg
     source: "https://uberflux.com/product/PL-1471"
     credit: "ParallelLogic"
     caption: "MalO SAO product photo"
-  - file: assets/images/badges/dc34/malo/c13cc31a18.jpg
-    source: "https://uberflux.com/product/PL-1471"
-    credit: "ParallelLogic"
-    caption: "MalO SAO detail photo"
 contact:
   discord: ParallelLogic
   emails:
@@ -84,17 +82,17 @@ sources:
   url: https://github.com/parallellogic-/MalO_SAO
   title: 'parallellogic-/MalO_SAO on GitHub'
   accessed: '2026-09-06'
-  note: 'MCU (RP2350B), display, sensors, IR details, and CC BY-SA 3.0 open-source license for hardware and firmware.'
+  note: 'MCU (RP2350B), 128x128 grayscale display, sensors, IR details, EasyEDA Pro design files, and CC BY-SA 3.0 open-source license for hardware and firmware.'
 - kind: url
   url: https://github.com/parallellogic-/
   title: 'parallellogic- GitHub profile'
   accessed: '2026-09-06'
   note: 'Confirms maker identity and repo listing; no additional DC34-specific details found.'
 research:
-  status: researched
+  status: verified
   confidence: high
   last_checked: '2026-09-06'
-  notes: 'Core facts confirmed directly from the maker''s own storefront and GitHub repo. Could not find a Hackaday.io project page (web search budget was exhausted before this could be checked). This entry duplicates dc34-malo-sao, which covers the same item; left as-is per instructions rather than merging.'
+  notes: 'Verified 2026-09-06 against the Uberflux listing and the GitHub repo; all remaining fields are supported. A 96x79 thumbnail image was removed as too small. Storefront says the SAO uses the 6-pin standard connector (sao_version v2); repo says design files are EasyEDA Pro. Colors taken from the maker''s product render (black board, orange button graphics). No Hackaday.io page was checked. This entry duplicates dc34-malo-sao, which covers the same item; left in place rather than merged.'
 last_modified_date: '2026-09-06'
 ---
 

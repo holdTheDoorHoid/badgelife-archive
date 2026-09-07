@@ -68,20 +68,22 @@ research:
     Doom SAO" for DC32 (id dc32-mf-doom-sao), also unresearched/stub, so this
     is a v2 in a small personal series rather than a duplicate of that row.
     No fields beyond what the sheet already gave could be verified against a
-    primary source; left empty rather than guessed.
+    primary source; left empty rather than guessed. Fact-check 2026-09-06:
+    redirect to the comments URL re-confirmed via curl (301); WebFetch refuses
+    reddit.com, so the post content is still unread. Body corrected ("SAO"
+    wrongly expanded, "sold ... for $20" softened to the sheet's listed price).
+    Kept at researched, not verified, because the sole primary source remains
+    unread.
 last_modified_date: '2026-09-06'
 ---
 
-MF Doom SAO v2 is a Stand-Alone-on-header add-on made by a hacker known as Rex,
-sold at DEF CON 34 for about $20. It is a sequel to an earlier "MF Doom SAO"
-Rex sold at DEF CON 32, suggesting an ongoing MF DOOM-themed SAO line rather
-than a one-off. Beyond that, sourcing is thin: the sheet's contact links to a
-Reddit post (u/Truth-Miserable, r/Defcon) that could not be retrieved because
-Reddit blocked automated access during this research pass.
+MF Doom SAO v2 is a Shitty Add-On (SAO) by a maker listed as Rex, entered on the
+DEF CON 34 community sheet at $20. The same maker and contact email appear on the
+DEF CON 32 sheet with an "MF Doom SAO" (id dc32-mf-doom-sao) sold during that con,
+so this looks like a second version in a small MF DOOM-themed line rather than a
+one-off. The sheet's only link is a Reddit post in r/Defcon (u/Truth-Miserable),
+which could not be retrieved by automated fetching during this research pass.
 
-No confirmed details are available yet on the badge's shape, colors, MCU,
-LEDs, or exact quantity produced. Anyone revisiting this entry should try
-viewing the Reddit thread directly in a browser (it is public, just blocked to
-scripted fetches) for photos and specifics, and check whether the DC32
-predecessor entry has since been filled in for shared details.
-
+No confirmed details are available yet on the SAO's shape, colors, MCU, LEDs, or
+quantity produced. Anyone revisiting this entry should open the Reddit thread in
+a browser for photos and specifics.

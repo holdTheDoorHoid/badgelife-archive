@@ -48,8 +48,8 @@ contact:
   raw:
   - 'Twitter: TweetsFromPanda'
 notes:
-- Hackerware.io made a similarly-named "The T-Mobile Unicorn Badge" for DC33 (2025),
-  which the community sheet for that year noted was found at the Bug Bounty Village.
+- Hackerware.io listed a similarly-named "The T-Mobile Unicorn Badge" on the DC33 (2025)
+  community sheet, with the note "Find the unicorn at the Bug Bounty Village".
   This dc34 SAO is likely a follow-up piece for the same T-Mobile/Bug-Bounty-Village
   sponsorship, but no dc34-specific source confirms that link.
 status: listed
@@ -64,11 +64,12 @@ sources:
   title: 'Hackerware - #BadgeLife | Hardware Design, Security, & Research.'
   accessed: '2026-09-06'
   note: >-
-    Maker's portfolio site; lists many other DEF CON/conference badges (Prophet AI,
-    Arcanum, F5, Bug Bounty Village, etc.) but does not mention a T-Mobile Unicorn
-    SAO or badge specifically, and has no separate product page for it.
+    Maker's portfolio site; lists many other conference badges (Prophet AI, The F5
+    Badge, Bug Bounty Village Badge, BugZee, etc.) but does not mention a T-Mobile
+    Unicorn SAO or badge, T-Mobile, or a unicorn anywhere, and has no product page
+    for it. Re-checked 2026-09-07 by the fact-check pass: confirmed.
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-06'
   notes: >-
@@ -76,15 +77,20 @@ research:
     hackerware.io portfolio site, not findable via web search (searches for the
     title, maker, "DEF CON 34", and "Bug Bounty Village" turned up nothing),
     and the maker's hackster.io project page (hackster.io/HacksFromPanda/projects)
-    returned a 403 and could not be checked. Left all technical/commercial fields
-    empty rather than guess. The only concrete lead is that the same maker made
-    "The T-Mobile Unicorn Badge" for DC33 (2025), noted on that year's sheet as
-    found at the Bug Bounty Village -- this dc34 SAO is plausibly a companion or
-    successor piece, but that is inference, not a sourced fact, so it is recorded
-    only in `notes`, not filled into the structured fields.
+    could not be read (blocked on the research pass; on the fact-check pass it
+    served only a JavaScript shell with no project names). Left all
+    technical/commercial fields empty rather than guess. The only concrete lead is
+    that the same maker made "The T-Mobile Unicorn Badge" for DC33 (2025), whose
+    sheet row says "Find the unicorn at the Bug Bounty Village" -- this dc34 SAO is
+    plausibly a companion or successor piece, but that is inference, not a sourced
+    fact, so it is recorded only in `notes`, not filled into the structured fields.
+    Fact-check 2026-09-07: title, type, maker and contact details match the dc34
+    sheet row 93 (row 70 in the entry's own numbering); the DC33 claim matches the
+    dc33 sheet; the hackerware.io negative result was reconfirmed. An unsourced
+    aside about T-Mobile's Bugcrowd program was removed from the body.
 last_modified_date: '2026-09-06'
 ---
 
 The T-Mobile Unicorn SAO is credited to Abhinav Panda of Hackerware.io on the DEF CON 34 community badge sheet, but no further details could be confirmed. Hackerware.io's own portfolio site does not list it, and web searches for the title, the maker, and likely event/village associations (DEF CON 34, Bug Bounty Village) returned nothing specific to this piece.
 
-Hackerware.io made a badge called "The T-Mobile Unicorn Badge" for DC33 (2025), which that year's sheet says was handed out at the Bug Bounty Village -- T-Mobile runs a public bug bounty program through Bugcrowd, which fits a Bug Bounty Village sponsorship. This dc34 SAO shares the name and maker, so it is plausibly a follow-up for the same sponsor relationship, but that connection is inference rather than a confirmed fact, and is noted here for context only.
+Hackerware.io listed a badge called "The T-Mobile Unicorn Badge" on the DC33 (2025) community sheet, with the note "Find the unicorn at the Bug Bounty Village." This dc34 SAO shares the name and maker, so it is plausibly a follow-up piece, but that connection is inference rather than a confirmed fact, and is noted here for context only.

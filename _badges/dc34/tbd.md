@@ -29,7 +29,7 @@ get_one:
   quantity: ''
   availability: unknown
   distribution: []
-  where: 20-25
+  where: ''
 make_your_own:
   open_source: null
   hardware_url: null
@@ -49,26 +49,36 @@ sources:
   row: 25
   updated: 6/23/2026 22:56:50
   listing: New
+- kind: url
+  url: https://www.blacksincyberconf.com/bic-village
+  title: BIC Village | BlacksInCyber
+  accessed: '2026-09-07'
+  note: Maker's own village page confirms BIC Village runs at DEF CON in 2026 (Aug 7-9
+    schedule). No badge or SAO is mentioned on it.
+- kind: url
+  url: https://www.blacksincyberconf.com/badge
+  title: BADGE | BlacksInCyber
+  accessed: '2026-09-07'
+  note: Maker's badge page lists only the DEF CON 33 Afro-pick anniversary badge; no DEF
+    CON 34 item and no mention of "shyft".
 research:
-  status: researched
+  status: verified
   confidence: low
-  last_checked: '2026-09-06'
+  last_checked: '2026-09-07'
   notes: >-
-    No title was ever given on the sheet beyond "TBD," and searches did not turn up a
-    specific named SAO or badge from BIC Village (Blacks In Cybersecurity Village) for
-    DEF CON 34 (2026). BIC Village is a confirmed, active DEF CON village (blacksincyber
-    on defcon.social) that has produced its own badges in prior years (e.g. a DC33 badge
-    walkthrough on YouTube), and badge.life's DC34 index lists separate Badgelife
-    Village items, but neither source names a BIC Village item matching this row's
-    contact info (Discord shyft_xero, email shyft@shyft.us) or its $20-25 price. The
-    defcon.social BIC Village profile returned HTTP 403 and could not be checked
-    directly. Left as unknown rather than guessed; a future pass could try Discord
-    directly, or check the Badgelife Village SAO page and BIC Village's own social
-    feed once accessible.
-last_modified_date: '2026-09-06'
+    Sheet-only entry. The community sheet row gives no title beyond "TBD", type SAO, maker
+    BIC Village, an approximate price of 20-25, and the contact details recorded here;
+    every non-empty field is copied from that row (checked against data/sheets/dc34.csv on
+    2026-09-07). The maker's own site (blacksincyberconf.com) confirms BIC Village is at
+    DEF CON 34 but names no badge or SAO for 2026, and its badge page only describes the
+    DEF CON 33 Afro-pick anniversary badge. Fact-check on 2026-09-07 removed an earlier
+    unsourced claim that BIC Village's DEF CON 33 badge was a white memorial-themed badge
+    with a proximity name-collecting game; the maker's page contradicts it. The
+    defcon.social BIC Village account returns HTTP 403 and could not be checked. Left
+    status unknown; revisit if BIC Village or "shyft" publishes details.
+last_modified_date: '2026-09-07'
 ---
 
-BIC Village (Blacks In Cybersecurity Village) is a recurring DEF CON village that has fielded its own hardware badges in past years — for example a white memorial-themed badge for DEF CON 33 built around a name-collecting proximity game. This community-sheet row lists a planned item from BIC Village for DEF CON 34 (2026), priced around $20-25, with contact info for a maker going by "shyft" (Discord `shyft_xero`, email `shyft@shyft.us`), but the sheet never records a title, and no independent source turning up in search (BIC Village's DEF CON Social account, badge.life's DC34 index, general web search) names or describes this specific piece.
+BIC Village (Blacks In Cybersecurity Village) is a recurring DEF CON village; its own site lists a full talk schedule for DEF CON 34 (August 7-9, 2026), and the village has fielded its own badges before, most recently an Afro-pick-shaped anniversary badge for DEF CON 33. This community-sheet row lists a planned SAO from BIC Village for DEF CON 34, priced at roughly $20-25, with contact details for a maker going by "shyft" (Discord `shyft_xero`, email `shyft@shyft.us`), but the sheet never records a title.
 
-Because no maker page, storefront, or press coverage could be found confirming what this item actually is, this entry is left unresearched beyond what the sheet itself states. It should be revisited if BIC Village publishes further details before or during DEF CON 34.
-
+Neither the maker's village page nor its badge page mentions a DEF CON 34 item, and no storefront or coverage was found describing it, so this entry records only what the sheet itself states. It should be revisited if BIC Village publishes further details.

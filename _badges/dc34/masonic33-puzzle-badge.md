@@ -25,7 +25,7 @@ tech:
   battery: null
   sao_version: null
 get_one:
-  price: '125'
+  price: $125
   price_usd: 125.0
   quantity: ''
   availability: unknown
@@ -67,11 +67,13 @@ sources:
   accessed: '2026-09-06'
   note: Confirms the item is a preorder badge titled "Masonic33 Puzzle Badge DC34 Badge" from Hak4Kidz NFP; form was closed to responses, so no price/quantity/feature details were shown.
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-06'
   notes: >-
-    Could only confirm the badge's title and preorder nature via the Google Form
+    Fact-check 2026-09-06: preorder form (closed) confirms title and Hak4Kidz origin;
+    sheet row supports maker, functions, price and contacts; hak4kidz.com has no
+    mention of the badge. Original researcher notes follow. Could only confirm the badge's title and preorder nature via the Google Form
     (now closed, no details displayed). x.com/hak4kidz returned HTTP 402 on fetch
     and could not be checked; linkedin.com/company/hak4kidz served a CAPTCHA
     challenge page and could not be read. hak4kidz.com's public site covers their
@@ -85,4 +87,4 @@ last_modified_date: '2026-09-06'
 
 The Masonic33 Puzzle Badge was made by Hak4Kidz for DEF CON 34 (2026) and offered as a preorder through a Google Form linked from the community badge sheet. Per the sheet, it includes four on-board puzzles and notably bright LEDs on the front, priced at $125.
 
-Little independent confirmation could be found beyond the preorder form itself, which by the time of research had closed to new responses and displayed no pricing, quantity, or stock information. Hak4Kidz's public website is focused on their youth hacking conference and does not mention the badge, and their X (Twitter) and LinkedIn pages could not be reached (blocked by a paywall response and a CAPTCHA challenge, respectively). No photos of the badge were located.
+Little independent confirmation exists beyond the preorder form itself, which by September 2026 had closed to new responses and displayed no pricing, quantity, or stock information. Hak4Kidz's public website is focused on its youth hacking conference and does not mention the badge. No photos of the badge have been located.

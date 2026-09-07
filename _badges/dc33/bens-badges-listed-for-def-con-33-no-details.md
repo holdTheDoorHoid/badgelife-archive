@@ -54,7 +54,7 @@ sources:
   url: https://www.bensbadges.com/store
   title: Store — Ben's Badges
   accessed: '2026-09-06'
-  note: 'As of this check, the only product listed is the HiVolt badge (sold out), which is the maker''s DEF CON 32 (2024) release, not a 2025 item.'
+  note: 'As of this check, the only products listed are the HiVolt badge ($120, sold out) and an extra HiVolt acrylic panel ($10, sold out); the HiVolt badge is the maker''s 2024 (DEF CON 32) release, not a 2025 item.'
 - kind: url
   url: https://www.bensbadges.com/store/p/hivolt-badge
   title: HiVolt badge — Ben's Badges
@@ -71,7 +71,7 @@ sources:
   accessed: '2026-09-06'
   note: Team page (Ben, Hugo, Chloe); no DEF CON history or 2025 plans mentioned.
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-06'
   notes: >-

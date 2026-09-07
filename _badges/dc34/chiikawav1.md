@@ -50,7 +50,7 @@ sources:
   updated: 8/6/2026 14:40:33
   listing: New
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-06'
   notes: >-
@@ -65,16 +65,21 @@ research:
     entry beyond the title/maker/contact/price still comes only from the
     community sheet row; the trade condition ("sing a specific song") is the
     sheet's own wording and was kept as-is since no other source describes the
-    item.
+    item. Fact-check 2026-09-06: sheet row (data/sheets/dc34.csv) re-read and
+    matches title, maker, email, type, and acquisition text; GitHub profile
+    umecider re-checked and still shows no badge/SAO/Chiikawa repos; body
+    trimmed to remove the unsupported claim that the item is themed on the
+    Chiikawa character (inferred from the title only).
 last_modified_date: '2026-09-06'
 ---
 
-ChiikawaV1 is a DEF CON 34 SAO listed by maker umecider (contact:
-umec1der@proton.me), themed around the Japanese character Chiikawa. It was
-not sold; the maker's listed way to get one was a trade — specifically,
-singing a particular song to them.
+ChiikawaV1 is a DEF CON 34 SAO listed on the community badge sheet by maker
+umecider (contact: umec1der@proton.me). The title suggests a Chiikawa
+theme, but the sheet itself says nothing about the design. It was not
+listed for sale: the sheet's acquisition line reads "Trade/Free (sing a
+specific song)".
 
 No independent write-up, storefront, Hackaday.io project, repository, or
-photo of the badge could be found online as of this check. Its chip, LEDs,
-display, dimensions, and quantity made remain unknown; this entry reflects
-only what the community badge sheet recorded.
+photo of the item could be found online as of this check. Its chip, LEDs,
+display, and quantity made remain unknown; this entry reflects only what
+the community badge sheet recorded.

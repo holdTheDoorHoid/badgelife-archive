@@ -35,7 +35,7 @@ tech:
   inputs:
   - buttons
   battery: 2x CR2032
-  sao_version: none
+  sao_version: null
 get_one:
   price: ''
   price_usd: null
@@ -59,7 +59,7 @@ images:
 - file: assets/images/badges/dc34/flare-blinky-badge/f87e2e21e1.jpg
   source: "https://www.linkedin.com/posts/abhinavpandagale_badgelife-ugcPost-7491636243009744897-nu2v/"
   credit: "Hackerware.io / Abhinav Panda"
-  caption: "The Flare Blinky Badge: a black PCB badge with a skeleton motif in magenta silkscreen, LEDs behind the acrylic overlay, and FLARE printed vertically"
+  caption: "Still from the maker's video post: the black rectangular Flare badge with a magenta skeleton graphic, small LEDs showing through the overlay, and FLARE printed vertically"
 contact:
   discord: abhinav_panda
   emails:
@@ -83,17 +83,22 @@ sources:
   url: https://www.hackerware.io/flare
   title: "FLARE — CTF Badge"
   accessed: '2026-09-06'
-  note: Maker's dedicated project microsite for the Flare badge. Describes a Nuvoton MCU, 2x CR2032 coin cells, a laser-cut acrylic skeleton overlay over the PCB, one LED per letter of F-L-A-R-E lit by solving five CTF puzzles (each yielding an 8-bit binary flag entered via 0/1 buttons plus a CTF-mode button), and an undocumented sixth "secret" puzzle. Page footer credits "a CTF badge by Hackerware, flare.io - 2026" but does not separately name a "blinky" variant.
+  note: Maker's dedicated project microsite for the Flare badge. Describes a Nuvoton MCU, 2x CR2032 coin cells, a laser-cut acrylic skeleton overlay bonded over the board with LEDs bleeding red through it, one LED per letter of F-L-A-R-E lit by solving five CTF puzzles (each yielding an 8-bit binary flag entered via 0/1 buttons after holding a CTF button), and an undocumented sixth "secret" puzzle. Page footer reads "a CTF badge by Hackerware, flare.io - 2026"; it does not name DEF CON or a "blinky" variant. Re-checked 2026-09-06 by the verifier.
+- kind: url
+  url: https://flare.io
+  title: Flare
+  accessed: '2026-09-06'
+  note: Confirms Flare describes itself as a cyber threat intelligence and digital risk protection platform (supports "threat-intelligence company" in the summary).
 research:
-  status: researched
-  confidence: medium
+  status: verified
+  confidence: high
   last_checked: '2026-09-06'
-  notes: The sheet lists "Flare Blinky Badge" (this entry, row 65) and "Flare CTF Badge" (dc34-flare-ctf-badge, row 66) as separate rows, and a maker tweet cited on the CTF entry calls the pair a single "Blinky & CTF Badge" release. The only dedicated technical source found, hackerware.io/flare, describes one physical badge combining both the letter-lighting "blinky" LED behavior and the CTF puzzle mechanic - it is unclear whether "blinky" and "CTF" were sold/distributed as two distinct physical items or are two names for the same badge's two functions. Treated as a separate entry per the sheet, with duplicate_of dc34-flare-ctf-badge noted. Could not find price, quantity made, availability, exact LED part number, or design files from any source.
+  notes: The sheet lists "Flare Blinky Badge" (this entry, row 65) and "Flare CTF Badge" (dc34-flare-ctf-badge, row 66) as separate rows, and a maker tweet cited on the CTF entry calls the pair a single "Blinky & CTF Badge" release. The only dedicated technical source found, hackerware.io/flare, describes one physical badge combining both the letter-lighting "blinky" LED behavior and the CTF puzzle mechanic - it is unclear whether "blinky" and "CTF" were sold/distributed as two distinct physical items or are two names for the same badge's two functions. Treated as a separate entry per the sheet; it may be the same physical item as dc34-flare-ctf-badge. The tweet is cited only on that entry and could not be opened by the verifier (x.com returns 402), so the "Blinky & CTF Badge" wording is taken from that entry, not re-read. The DEF CON 34 association rests on the sheet row; the maker's page says only "2026". Verifier 2026-09-06 re-read hackerware.io/flare and flare.io - all remaining fields and body claims are supported. Could not find price, quantity made, availability, exact LED part number, SAO header details, or design files from any source.
 last_modified_date: '2026-09-06'
 ---
 
-Hackerware.io (Abhinav Panda) built this badge for Flare, the threat-intelligence company behind flare.io, for DEF CON 34. It runs on a Nuvoton microcontroller powered by two CR2032 coin cells, with a laser-cut acrylic layer bearing a skeleton graphic bonded over a full-colour printed PCB so the badge's LEDs bleed light up through the artwork.
+Hackerware.io (Abhinav Panda) built this badge for Flare, the threat-intelligence company behind flare.io, for DEF CON 34. It runs on a Nuvoton microcontroller powered by two CR2032 coin cells, with a laser-cut acrylic layer bearing a skeleton graphic bonded over the PCB so the badge's LEDs bleed red light up through the artwork.
 
 The badge doubles as a small CTF: five puzzles correspond to the letters F, L, A, R and E, and solving one yields an 8-bit binary flag. Holding a dedicated CTF button and entering the flag's eight bits on paired 0/1 buttons lights the matching letter if correct. Lighting all five letters unlocks a sixth, secret puzzle that the maker's own project page does not document anywhere.
 
-The sheet also lists a separate "Flare CTF Badge" entry from the same maker and event, and a tweet cited there describes the release as a single "Blinky & CTF Badge." It was not possible to confirm from available sources whether "blinky" and "CTF" are two distinct physical badges or two names for the same board's two behaviors; this entry follows the sheet in treating them separately. Price, quantity made, availability, and design files were not found.
+The sheet also lists a separate "Flare CTF Badge" entry from the same maker and event, and that entry cites a maker tweet describing the release as a single "Blinky & CTF Badge." It was not possible to confirm from available sources whether "blinky" and "CTF" are two distinct physical badges or two names for the same board's two behaviors; this entry follows the sheet in treating them separately. Price, quantity made, availability, and design files were not found.

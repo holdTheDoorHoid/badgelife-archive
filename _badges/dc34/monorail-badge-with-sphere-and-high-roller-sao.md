@@ -11,24 +11,27 @@ year: 2026
 makers:
 - name: Zach Resmer
   url: https://resmer.co.za
-summary: A self-made badge with a small monorail car that rolls along a track between magnetically-triggered stations, a ticket clip, and two add-on SAOs (a color-changing sphere and a "high roller" blinker) that plug into its extra SAO ports.
-functions: Monorail ticket storage clip, mini monorail car that rolls along a track and lights up station markers via hall-effect switches, 1x extra SAO port for other people's SAOs, plus the badge's own sphere and high roller SAOs
+summary: A microcontroller-free badge with a 3D-printed monorail car that rolls along a PCB track and lights station LEDs through hall-effect switches, a clip for a real monorail ticket, and its own SAOs (a color-changing sphere and a "high roller" LED chaser, plus a speaker SAO).
+functions: Clip that holds a monorail ticket; 3D-printed two-car monorail with an embedded magnet that rolls along a PCB track and lights station-marker LEDs directly through hall-effect switches; three SAO headers carrying the badge's own sphere SAO (color-changing LED), high roller SAO (555 timer + decade counter LED chaser) and speaker SAO (DFPlayer Mini MP3 module with a button to cycle tracks)
 look:
-  colors: []
+  colors:
+  - black
+  - white
+  - blue
   shape: null
   themes:
   - transit
-  - kit
 tech:
   mcu: none
   leds:
     count: null
     type: null
-    note: Station-marker LEDs are side-mounted and switched directly by hall-effect sensors (no microcontroller); the sphere SAO uses a single color-changing LED; the high roller SAO blinks LEDs in a circle driven by a 555 timer and decade counter.
+    note: Station-marker LEDs (white, side-mounted, shining through cutouts) are switched directly by TMAG5231 hall-effect switches with no microcontroller; the sphere SAO is a single color-changing LED; the high roller SAO blinks LEDs in a circle driven by a 555 timer and decade counter.
   display: none
   connectivity: []
-  battery: 2x AA or AAA (boosted to 3.3V with a TPS61023DRLR converter; MOSFET reverse-battery protection)
+  battery: 2 AA/AAA cells, boosted to 3.3V by a TPS61023DRLR converter, with AO3415A MOSFET reverse-battery protection
   sao_version: null
+  sao_ports: 3
 notes: []
 get_one:
   price: ~$50
@@ -40,8 +43,9 @@ get_one:
 make_your_own:
   open_source: yes
   hardware_url: https://github.com/zacharesmer/monorail-con-badge
-  firmware_url: none - no microcontroller, no firmware
+  firmware_url: null
   eda_tool: KiCad
+  notes: No firmware exists by design (no microcontroller). Repo holds KiCad projects and PDF schematics for five boards (main board, top track, high roller SAO, sphere SAO, speaker SAO), STL/3MF files for the monorail cars and sphere stands, the lanyard PDF, and a parts diagram. No license file; the maker asks that modified versions carry the modifier's name and that nothing be sold for more than a reasonable cost of materials.
 links:
 - kind: website
   label: "Project writeup: Monorail Con badge"
@@ -59,18 +63,14 @@ images:
 - file: assets/images/badges/dc34/monorail-badge-with-sphere-and-high-roller-sao/3b4e1c70c0.jpg
   source: "https://resmer.co.za/ch/posts/monorail-badge/"
   credit: "Zach Resmer"
-  caption: "Two monorail badges, one with the SAOs attached and lit up, next to a monorail ticket, on a background of colorful wool"
-- file: assets/images/badges/dc34/monorail-badge-with-sphere-and-high-roller-sao/1c404841dd.png
-  source: "https://resmer.co.za/ch/posts/monorail-badge/"
-  credit: "Zach Resmer"
-  caption: "Close-up of a station marker on the monorail track PCB, showing a side-mounted LED shining through a cutout"
+  caption: "Two monorail badges (black PCB, blue track), one with the high roller, sphere and speaker SAOs attached and lit, with a Las Vegas Monorail ticket in the clip and the train lanyard, on a background of colorful wool balls"
 contact:
   discord: __fladnag
   emails:
   - badgestuff@resmer.co.za
-  - zachr@infosec.exchange
+  mastodon: zachr@infosec.exchange
   raw:
-  - 'Mastodon:'
+  - 'Mastodon: zachr@infosec.exchange'
 status: released
 sources:
 - kind: sheet
@@ -89,15 +89,15 @@ sources:
   accessed: '2026-09-06'
   note: "Repo with KiCad schematics/PCBs (5 boards), STL files for the monorail cars, lanyard design, and assembly notes; maker asks that it not be resold for an exorbitant price."
 research:
-  status: researched
+  status: verified
   confidence: high
-  last_checked: '2026-09-06'
-  notes: 'Maker''s own writeup and repo confirm the mechanism, "no firmware" design, and open-source KiCad files. Price kept from the community sheet (~$50). The maker mentions reworking "about 30" track boards during development, but that is a board-revision count, not a stated total of finished badges, so quantity is left blank. Availability, exact LED counts, and current sold/available status were not stated anywhere found; left unknown. The writeup also mentions a third SAO (a speaker/DFPlayer module) not named in this entry''s title - see other_items_found.'
+  last_checked: '2026-09-07'
+  notes: 'Fact-checked 2026-09-07 against the maker''s writeup, the GitHub repo (readme.txt, credits.txt, file listing) and the Mastodon profile. Removed an unsupported claim of a spare SAO port for other people''s SAOs: the maker''s photo shows three SAO headers (SAO1 high roller, SAO2 sphere, SAO3) and the project ships three SAOs. Removed a second image that was a KiCad 3D render, not a photo of the badge. Price (~$50) is from the community sheet only; the repo credits mention a Shopify shop but no storefront URL was found. Quantity is not stated (the "about 30" reworked boards is a rework count, not a run size). Availability, exact LED counts and SAO header version are not stated. The sheet''s "zachr@infosec.exchange" is a Mastodon handle, not an email; moved to contact.mastodon. Event is DEF CON 34 per the sheet; the writeup (June 2026) says only "DEF CON".'
 last_modified_date: '2026-09-06'
 ---
 
-Zach Resmer built this badge after riding the DEF CON monorail two years earlier, and it grew from a planned ticket-sized SAO into a full badge with its own SAOs. A small 3D-printed monorail car (two articulated cars, printed with an embedded magnet and a metal ring added mid-print) rolls along a PCB track; hall-effect switches at each station light side-mounted LEDs directly as the car passes, with no microcontroller involved anywhere in the design. The badge also holds a real monorail ticket in a clip, and carries a spare SAO port so other people's SAOs can ride along.
+Zach Resmer built this badge after riding the DEF CON monorail two years earlier, and it grew from a planned ticket-sized SAO into a full badge with its own SAOs. A small 3D-printed monorail car (two articulated cars, printed with an embedded magnet and a metal ring added mid-print) rolls along a PCB track; hall-effect switches at each station light side-mounted LEDs directly as the car passes, with no microcontroller involved anywhere in the design. The badge also holds a real monorail ticket in a bulldog clip, and its three SAO headers carry the project's own SAOs.
 
-The badge comes with two of its own SAOs: a "high roller" SAO that blinks LEDs around a circle using a 555 timer and decade counter, and a sphere SAO built from a single color-changing LED. A third SAO with a DFPlayer Mini MP3 module and a button (for playing sound effects) is also part of the project but isn't named in this entry's title. Power comes from 2 AA/AAA cells boosted to 3.3V by a TPS61023DRLR converter, with MOSFET-based reverse-battery protection instead of a diode or a warning printed on the silkscreen.
+The badge comes with two of its own SAOs: a "high roller" SAO that blinks LEDs around a circle using a 555 timer and decade counter, and a sphere SAO built from a single color-changing LED. A third, speaker SAO uses a DFPlayer Mini MP3 module and a single button that cycles through MP3s on an SD card (the shipped clips include monorail voiceover audio); it is part of the project but isn't named in this entry's title. Power comes from two AA/AAA cells boosted to 3.3V by a TPS61023DRLR converter so the badge keeps running down to about 0.75 V per cell, with an AO3415A MOSFET for reverse-battery protection instead of a diode or a warning printed on the silkscreen.
 
 The full design - five PCBs done in KiCad, STL files for the monorail cars, a sublimation lanyard design, and assembly notes - is published on GitHub. The maker's only condition on reuse is not reselling it "for an exorbitant amount of money."
