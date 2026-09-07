@@ -58,18 +58,20 @@ links:
 - label: MakeItHackin/Flooper (GitHub)
   url: https://github.com/MakeItHackin/Flooper
   kind: repo
+  archived: https://web.archive.org/web/20260513103834/https://github.com/MakeItHackin/Flooper
 - label: MakeItHackin Tindie store
   url: https://www.tindie.com/stores/makeithackin/
   kind: store
+  archived: https://web.archive.org/web/20260503115032/https://www.tindie.com/stores/makeithackin/
 images:
 - file: assets/images/badges/dc31/super-duper-flipper-flooper-for-flipper-zero/f612517ef4.jpg
-  source: "https://www.tindie.com/products/makeithackin/super-duper-flipper-flooper/"
-  credit: "MakeItHackin"
-  caption: "Super Duper Flipper Flooper attached to a Flipper Zero"
+  source: https://www.tindie.com/products/makeithackin/super-duper-flipper-flooper/
+  credit: MakeItHackin
+  caption: Super Duper Flipper Flooper attached to a Flipper Zero
 - file: assets/images/badges/dc31/super-duper-flipper-flooper-for-flipper-zero/3be0bc94a6.jpg
-  source: "https://www.tindie.com/products/makeithackin/super-duper-flipper-flooper/"
-  credit: "MakeItHackin"
-  caption: "Super Duper Flipper Flooper at DEF CON 31"
+  source: https://www.tindie.com/products/makeithackin/super-duper-flipper-flooper/
+  credit: MakeItHackin
+  caption: Super Duper Flipper Flooper at DEF CON 31
 contact: {}
 notes:
 - Currently on sale at Tindie... wait, sold out on Tindie. You have a second chance at DCXXXI at the Hacker Warehouse. May the odds be ever in your favor!!
@@ -89,6 +91,7 @@ sources:
   title: MakeItHackin/Flooper
   accessed: '2026-09-06'
   note: Repo contains only the 3D-printed holder STL, not schematics/gerbers/firmware; confirms no chip/LED-count detail is published.
+  archived: https://web.archive.org/web/20260513103834/https://github.com/MakeItHackin/Flooper
 research:
   status: researched
   confidence: medium

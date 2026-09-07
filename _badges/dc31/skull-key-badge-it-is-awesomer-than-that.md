@@ -56,11 +56,12 @@ links:
 - label: Embedded Systems Village
   url: https://embeddedvillage.org/
   kind: website
+  archived: https://web.archive.org/web/20260614132551/https://embeddedvillage.org/
 images:
-  - file: assets/images/badges/dc31/skull-key-badge-it-is-awesomer-than-that/d8981f61f5.jpg
-    source: "https://twitter.com/EmbeddedVillage/status/1682486030383869954"
-    credit: "Embedded Systems Village"
-    caption: "Key-shaped ESV badge with a skull face, red LED eyes and accents, and a USB-serial debugger circuit"
+- file: assets/images/badges/dc31/skull-key-badge-it-is-awesomer-than-that/d8981f61f5.jpg
+  source: https://twitter.com/EmbeddedVillage/status/1682486030383869954
+  credit: Embedded Systems Village
+  caption: Key-shaped ESV badge with a skull face, red LED eyes and accents, and a USB-serial debugger circuit
 contact: {}
 notes:
 - Remember folks...ESV is at the Linq this year!!
@@ -72,7 +73,7 @@ sources:
   updated: '2023-08-03'
 - kind: url
   url: https://twitter.com/EmbeddedVillage/status/1682486030383869954
-  title: "EmbeddedSystemsVillage on X: ESV badge for #DEFCON31"
+  title: 'EmbeddedSystemsVillage on X: ESV badge for #DEFCON31'
   accessed: '2026-09-07'
   note: Announcement tweet (with video) giving the badge's functions (3 CTF challenges, USB-to-serial debugger) and confirming it was sold at the ESV. Video poster frame shows the badge itself, a black key-shaped PCB with a skull face, LED eyes, and red LEDs down the shaft, silkscreened "ESV".
 - kind: url
@@ -80,20 +81,12 @@ sources:
   title: Embedded Systems Village
   accessed: '2026-09-07'
   note: Confirmed the village's current site/org; no 2023 archive of the badge listing was found there or on its Shopify store (shop.embeddedvillage.org, which now sells different items and has no Wayback snapshots from 2023).
+  archived: https://web.archive.org/web/20260614132551/https://embeddedvillage.org/
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: >-
-    Confirmed via the announcement tweet's own text and video thumbnail that this is the DC31 ESV
-    badge referenced by the community sheet: a black, key-shaped PCB badge with a skull face (LED
-    eyes) on the bow of the key and red LEDs along the shaft, silkscreened "ESV" and "EMBEDDED
-    SYSTEMS VILLAGE". The tweet does not use the name "Skull Key" itself, but the shape/theme and
-    the ESV/DC31 match are unambiguous, and the sheet's $60 price and "score high in the CFT to get
-    one free" detail are corroborated by the tweet's mention of the ESV CTF. Could not find MCU,
-    LED part number, LED count, or open-source hardware/firmware files; ESV's Shopify store has no
-    2023 listing left and no Wayback snapshot from that period, and Nitter mirrors for a full
-    tweet-thread read are offline. Quantity made is not stated anywhere found.
+  notes: 'Confirmed via the announcement tweet''s own text and video thumbnail that this is the DC31 ESV badge referenced by the community sheet: a black, key-shaped PCB badge with a skull face (LED eyes) on the bow of the key and red LEDs along the shaft, silkscreened "ESV" and "EMBEDDED SYSTEMS VILLAGE". The tweet does not use the name "Skull Key" itself, but the shape/theme and the ESV/DC31 match are unambiguous, and the sheet''s $60 price and "score high in the CFT to get one free" detail are corroborated by the tweet''s mention of the ESV CTF. Could not find MCU, LED part number, LED count, or open-source hardware/firmware files; ESV''s Shopify store has no 2023 listing left and no Wayback snapshot from that period, and Nitter mirrors for a full tweet-thread read are offline. Quantity made is not stated anywhere found.'
 last_modified_date: '2026-09-07'
 ---
 

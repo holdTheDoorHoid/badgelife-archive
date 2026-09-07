@@ -52,6 +52,7 @@ links:
 - label: Sh*tPad SAO on Tindie
   url: https://www.tindie.com/products/dc_punks/shtpad-sao/
   kind: store
+  archived: https://web.archive.org/web/20260503122557/https://www.tindie.com/products/dc_punks/shtpad-sao/
 - label: DC Punks Linktree
   url: https://linktr.ee/dcpunks
   kind: social
@@ -63,10 +64,12 @@ images:
   source: https://www.tindie.com/products/dc_punks/shtpad-sao/
   credit: DC Punks
   caption: Sh*tPad SAO front, styled as an IBM/Lenovo ThinkPad X200 with a small screen and keyboard silkscreen
+  archived: https://web.archive.org/web/20260503122557/https://www.tindie.com/products/dc_punks/shtpad-sao/
 - file: assets/images/badges/dc31/shitpad-sao-cannot-wait-to-see-this-one/7b52d5b12b.jpg
   source: https://www.tindie.com/products/dc_punks/shtpad-sao/
   credit: DC Punks
   caption: Sh*tPad SAO back, showing the Digispark (ATtiny85) module, 6-pin SAO header, and anti-Lenovo joke silkscreen
+  archived: https://web.archive.org/web/20260503122557/https://www.tindie.com/products/dc_punks/shtpad-sao/
 contact: {}
 notes:
 - Sheet listed the title as "Shitpad SAO (cannot wait to see this one)"; the maker's own product name is "Sh*tPad SAO", and the Tindie URL slug is "shtpad-sao" (no "i").
@@ -86,6 +89,7 @@ sources:
   title: Sh*tPad SAO from DC Punks on Tindie (live page)
   accessed: '2026-09-07'
   note: Confirmed the listing is still up and sold out, and supplied a working current CDN image URL for both product photos.
+  archived: https://web.archive.org/web/20260503122557/https://www.tindie.com/products/dc_punks/shtpad-sao/
 - kind: url
   url: http://dcpunks.computer
   title: DC Punks homepage

@@ -91,6 +91,7 @@ links:
 - label: Alpenglow Industries (business closed)
   url: https://www.alpenglowindustries.com/
   kind: website
+  archived: https://web.archive.org/web/20260814044413/https://www.alpenglowindustries.com/
 - label: github.com/cal-poly-cci/SGC-2023-Badge-Aerospacecorp.#readme
   url: https://github.com/cal-poly-cci/SGC-2023-Badge-Aerospacecorp.#readme
   kind: repo
@@ -191,11 +192,13 @@ sources:
   title: DEF CON 31 (2023) | Aerospace Village
   accessed: '2026-09-06'
   note: Cal Poly California Cybersecurity Institute appears among the DC31 village sponsors; no badge details.
+  archived: https://web.archive.org/web/20260427032421/https://www.aerospacevillage.org/defcon-31
 - kind: url
   url: https://cci.calpoly.edu/events/sgc-2023
   title: California Cybersecurity Institute (redirects to noyce.calpoly.edu/cybersecurity/)
   accessed: '2026-09-06'
   note: Redirects to the Noyce School of Applied Computing, which says it has "temporarily discontinued the Cybersecurity Institute and 5G Lab initiatives" and describes the Space Grand Challenge as "a game-based cybersecurity competition built by Cal Poly students". The 2023 event page itself no longer exists.
+  archived: https://web.archive.org/web/20251122172656/https://cci.calpoly.edu/events/sgc-2023
 - kind: url
   url: https://mustangnews.net/california-cybersecurity-institute-hosts-space-grand-challenge-for-middle-and-high-school-students/
   title: California Cybersecurity Institute hosts "Space Grand Challenge" for middle and high school students - Mustang News
@@ -206,11 +209,13 @@ sources:
   title: Alpenglow Industries
   accessed: '2026-09-06'
   note: Announces that Alpenglow has shut down and the storefront is closed; mentions Carrie and San Luis Obispo; does not mention the satellite badge.
+  archived: https://web.archive.org/web/20260814044413/https://www.alpenglowindustries.com/
 - kind: url
   url: https://hackaday.io/alpenglow
   title: Alpenglow Industries on Hackaday.io
   accessed: '2026-09-06'
   note: Profile reads "Founded by engineer Carrie Sundra. San Luis Obispo, CA"; none of the listed projects is the satellite badge.
+  archived: https://web.archive.org/web/20260509134712/https://hackaday.io/alpenglow
 - kind: sheet
   event: dc31
   row: 20

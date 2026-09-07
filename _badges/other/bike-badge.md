@@ -1,40 +1,52 @@
 ---
-title: Bike Badge
+title: 503 Party Bike Badge
 id: other-bike-badge
 layout: badge
 parent: Other
 grand_parent: Badge Archive
 nav_exclude: true
-type: unknown
+type: badge
 event: other
-year: 0
+year: 2015
 makers:
 - name: securelyfitz
-summary: ''
-functions: ''
+  url: https://github.com/securelyfitz
+summary: An ATtiny85-based donor badge for the 503 party fund, shaped like two bicycle wheels that appear to spin using reverse-mount LEDs and capacitive touch controls on the handlebars and pedals.
+functions: Two capacitive-touch pads (handlebars and pedals) let the wearer speed up or slow down an animated "spinning wheel" LED effect; braking on the handlebars slows the animation, pedaling speeds it up.
 look:
-  colors: []
+  colors:
+  - yellow
   shape: null
-  themes: []
+  themes:
+  - vehicle
 tech:
-  mcu: null
-  leds: null
-  display: null
+  mcu: ATtiny85
+  leds:
+    count: 14
+    type: reverse-mount
+    note: OSRAM reverse-gullwing yellow LEDs (LYT776), wired in opposite polarity pairs across just 2 GPIOs and driven with PWM to fake a rotating wheel.
+  display: none
   connectivity: []
-  battery: null
-  sao_version: null
+  inputs:
+  - touch
+  - capacitive
+  battery: CR2032
+  sao_version: none
 get_one:
   price: ''
   price_usd: null
   quantity: ''
   availability: unknown
-  distribution: []
-  where: ''
+  distribution:
+  - free_drop
+  where: Given to donors of the 503 party fund in 2015; not sold commercially.
 make_your_own:
-  open_source: null
-  hardware_url: null
-  firmware_url: null
-  eda_tool: null
+  open_source: yes
+  hardware_url: https://github.com/securelyfitz/bikebadge/tree/master/hardware
+  firmware_url: https://github.com/securelyfitz/bikebadge/tree/master/software
+  eda_tool: Eagle
+  fab_url: https://github.com/securelyfitz/bikebadge/tree/master/hardware/gerbers
+  notes: Repo includes Eagle schematic/board files, custom library parts for the bike shape and LEDs, exported gerbers, and an Arduino sketch using Paul Stoffregen's CapacitiveSensor library.
 links:
 - label: github.com/securelyfitz/bikebadge
   url: https://github.com/securelyfitz/bikebadge
@@ -43,18 +55,37 @@ images: []
 contact: {}
 notes:
 - From the user's 'SAOs to buy' link list (2026-09-07).
-status: listed
+status: released
 sources:
 - kind: url
   url: https://github.com/securelyfitz/bikebadge
   title: Bike Badge
   accessed: '2026-09-07'
   note: 'Found by the archive''s discovery sweep (angle: tobuy-linkfile); event read as ''other''.'
+- kind: url
+  url: https://raw.githubusercontent.com/securelyfitz/bikebadge/master/README.md
+  title: 503 party bike badge - 2015 (README)
+  accessed: '2026-09-07'
+  note: Primary source for maker's description, hardware theory, BOM, MCU, LED count/type, capacitive sensor design, battery, and event/year (503 party fund, 2015).
+- kind: url
+  url: https://api.github.com/repos/securelyfitz/bikebadge/contents/hardware
+  title: bikebadge repo hardware directory listing
+  accessed: '2026-09-07'
+  note: Confirmed Eagle (.sch/.brd) files and a gerbers folder are present; no photos of the assembled badge exist anywhere in the repo.
 research:
-  status: stub
-  confidence: low
+  status: researched
+  confidence: medium
   last_checked: '2026-09-07'
-  notes: Imported from the community badge sheet; not yet researched.
+  notes: 'The badge was made for "the 503 party fund" (linked to http://503.party/) in 2015, a donor/party fundraiser rather than a specific hacker convention, so it does not map to any id in events.yml; left under "other" and noted here. No photos of the physical badge could be found on GitHub, in press coverage, or via image search, so images[] is empty and look.shape is left null (the README describes bicycle wheel shapes but does not give an overall outline). Price, quantity made, and current availability are not stated anywhere; it appears to have been a one-time giveaway to donors rather than a sold item.'
 last_modified_date: '2026-09-07'
 ---
 
+The Bike Badge is a 2015 electronic badge by securelyfitz, made as a thank-you for donors to "the 503 party fund" (503.party). It is built around a bare ATtiny85 microcontroller and 14 yellow OSRAM reverse-gullwing surface-mount LEDs arranged in two bicycle-wheel patterns, powered by a single CR2032 coin cell. Rather than a display or radio, its interactivity comes from two capacitive touch zones standing in for a bike's handlebars and pedals: touching the "pedals" speeds up an animated spinning-wheel LED effect, while touching the "handlebars" (braking) slows it down.
+
+The clever part of the design, as documented by the maker, is squeezing a 16-LED rotating effect out of only two GPIO pins on the tiny chip, which were needed elsewhere for the capacitive sensing. Opposite LED pairs are wired with reversed polarity across shared pins so that PWM duty cycles that sum to 100% light one LED while dimming its opposite, producing the illusion of a wheel spinning as the duty cycle sweeps. The firmware is a straightforward Arduino sketch, flashed via a Sparkfun TinyAVR programmer, that layers this PWM trick with Paul Stoffregen's CapacitiveSensor library for the touch inputs.
+
+The project's GitHub repository is fully open: Eagle schematic and board files, custom library parts for the bike-wheel LED layout, exported gerbers, and the Arduino source are all included, with a bill of materials the maker estimated at $2-5 in quantity. No photos of an assembled unit, sales listing, or production-quantity figures could be found, so it reads as a small, one-off giveaway rather than a commercially distributed badge.
+
+## Make your own
+
+Hardware and firmware are both published in the repo. To build one: fabricate the board from the gerbers in `hardware/gerbers` (or open `bikebadge.sch`/`bikebadge.brd` in Eagle), populate the ATtiny85, 14 reverse-gullwing LEDs, matching 200-ohm resistors, two 10M-ohm resistors for the capacitive sense lines, and a CR2032 holder, then flash the Arduino sketch in `software/` using an AVR programmer such as the Sparkfun TinyAVR Programmer.

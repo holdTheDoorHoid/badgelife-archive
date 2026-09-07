@@ -43,15 +43,18 @@ links:
 - kind: store
   url: https://hackerwarehouse.com/product/sneaky-badge/
   label: Sneaky Badge - Hacker Warehouse
+  archived: https://web.archive.org/web/20260517122853/https://hackerwarehouse.com/product/sneaky-badge/
 images:
 - file: assets/images/badges/dc31/sneakers-badge/14fb38c1da.jpg
-  source: "https://hackerwarehouse.com/product/sneaky-badge/"
-  credit: "Hacker Warehouse"
-  caption: "Sneaky Badge, a Sneakers (1992) film homage badge sold by Hacker Warehouse"
+  source: https://hackerwarehouse.com/product/sneaky-badge/
+  credit: Hacker Warehouse
+  caption: Sneaky Badge, a Sneakers (1992) film homage badge sold by Hacker Warehouse
+  archived: https://web.archive.org/web/20260517122853/https://hackerwarehouse.com/product/sneaky-badge/
 - file: assets/images/badges/dc31/sneakers-badge/3ef2aaf51b.jpg
-  source: "https://hackerwarehouse.com/product/sneaky-badge/"
-  credit: "Hacker Warehouse"
-  caption: "Sneaky Badge showing the OLED screen and scrabble-style letter tile slots"
+  source: https://hackerwarehouse.com/product/sneaky-badge/
+  credit: Hacker Warehouse
+  caption: Sneaky Badge showing the OLED screen and scrabble-style letter tile slots
+  archived: https://web.archive.org/web/20260517122853/https://hackerwarehouse.com/product/sneaky-badge/
 contact: {}
 notes:
 - This badge pays homage to the hacker favorite movie "Sneakers".
@@ -67,23 +70,12 @@ sources:
   title: Sneaky Badge - Hacker Warehouse
   accessed: '2026-09-06'
   note: Confirms product name, description (Sneakers film homage, Raspberry Pi Pico, OLED, scrabble-style tiles, 14 slots/56 tiles), price $120, SKU GS-SB, out-of-stock status, and product photos.
+  archived: https://web.archive.org/web/20260517122853/https://hackerwarehouse.com/product/sneaky-badge/
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-06'
-  notes: >-
-    No maker page or press coverage found; identification rests on the Hacker Warehouse
-    storefront listing plus its SKU prefix "GS-SB". Other Hacker Warehouse badge SKUs
-    follow a maker-initials pattern (e.g. "SS-TB" for the Tipsy Badge, credited on this
-    archive to maker "seeess"), and "GS" matches "Gigs," the maker the community sheet
-    named for this row, which supports the identification without being maker-confirmed.
-    The listing's product photos carry a September 2025 upload date, which may just be
-    when Hacker Warehouse re-photographed/re-listed an older item rather than evidence
-    of a different release year; the sheet's DC31 (2023) placement and $140 quoted price
-    vs. the store's $120 could not be reconciled from available sources, so both are
-    recorded. Quantity made, LED count, connectivity, and power/battery details were not
-    stated anywhere found. No hardware/firmware files were found, so make_your_own is
-    left empty rather than guessed.
+  notes: No maker page or press coverage found; identification rests on the Hacker Warehouse storefront listing plus its SKU prefix "GS-SB". Other Hacker Warehouse badge SKUs follow a maker-initials pattern (e.g. "SS-TB" for the Tipsy Badge, credited on this archive to maker "seeess"), and "GS" matches "Gigs," the maker the community sheet named for this row, which supports the identification without being maker-confirmed. The listing's product photos carry a September 2025 upload date, which may just be when Hacker Warehouse re-photographed/re-listed an older item rather than evidence of a different release year; the sheet's DC31 (2023) placement and $140 quoted price vs. the store's $120 could not be reconciled from available sources, so both are recorded. Quantity made, LED count, connectivity, and power/battery details were not stated anywhere found. No hardware/firmware files were found, so make_your_own is left empty rather than guessed.
 last_modified_date: '2026-09-06'
 ---
 

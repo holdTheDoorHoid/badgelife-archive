@@ -14,9 +14,14 @@ makers:
 summary: A blue, bird-shaped SAO with a camera-themed head and a blinking red LED, riffing on the "birds aren't real" conspiracy meme.
 functions: Blinks a single red LED; otherwise a decorative wearable/SAO.
 look:
-  colors: [blue, red]
+  colors:
+  - blue
+  - red
   shape: bird
-  themes: [bird, meme, pop culture]
+  themes:
+  - bird
+  - meme
+  - pop culture
 tech:
   mcu: none
   leds:
@@ -33,7 +38,8 @@ get_one:
   quantity: ''
   availability: sold_out
   availability_note: 'Tindie listing checked 2026-09-06: seller "taking a break," not currently orderable.'
-  distribution: [purchase]
+  distribution:
+  - purchase
   where: Sold on Tindie by Anti Hacker Hacker Club (0xahhc), as a kit or pre-assembled unit.
 make_your_own:
   open_source: null
@@ -44,15 +50,18 @@ links:
 - label: www.tindie.com/products/0xahhc/birds-arent-real-brosao
   url: https://www.tindie.com/products/0xahhc/birds-arent-real-brosao/
   kind: store
+  archived: https://web.archive.org/web/20260503125502/https://www.tindie.com/products/0xahhc/birds-arent-real-brosao/
 images:
 - file: assets/images/badges/dc31/the-birds-are-not-real/0abedf1435.jpg
-  source: "https://www.tindie.com/products/0xahhc/birds-arent-real-brosao/"
-  credit: "Anti Hacker Hacker Club"
-  caption: "Birds Aren't Real broSAO, blue bird-shaped SAO with red LED"
+  source: https://www.tindie.com/products/0xahhc/birds-arent-real-brosao/
+  credit: Anti Hacker Hacker Club
+  caption: Birds Aren't Real broSAO, blue bird-shaped SAO with red LED
+  archived: https://web.archive.org/web/20260503125502/https://www.tindie.com/products/0xahhc/birds-arent-real-brosao/
 - file: assets/images/badges/dc31/the-birds-are-not-real/2b7cf13293.jpg
-  source: "https://www.tindie.com/products/0xahhc/birds-arent-real-brosao/"
-  credit: "Anti Hacker Hacker Club"
-  caption: "Birds Aren't Real broSAO product photo"
+  source: https://www.tindie.com/products/0xahhc/birds-arent-real-brosao/
+  credit: Anti Hacker Hacker Club
+  caption: Birds Aren't Real broSAO product photo
+  archived: https://web.archive.org/web/20260503125502/https://www.tindie.com/products/0xahhc/birds-arent-real-brosao/
 contact: {}
 notes:
 - We all know the birds are fake but the AHH Club is making it official (listed on Tindie)
@@ -64,19 +73,15 @@ sources:
   updated: '2023-06-11'
 - kind: url
   url: https://www.tindie.com/products/0xahhc/birds-arent-real-brosao/
-  title: "Birds Aren't Real broSAO by Anti Hacker Hacker Club - Tindie"
+  title: Birds Aren't Real broSAO by Anti Hacker Hacker Club - Tindie
   accessed: '2026-09-06'
   note: Maker's own store listing; source for description, price, contents, battery, connector type, and current availability.
+  archived: https://web.archive.org/web/20260503125502/https://www.tindie.com/products/0xahhc/birds-arent-real-brosao/
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-06'
-  notes: >-
-    Core facts (design, price, battery, SAO connector) come only from the Tindie
-    listing itself; no Hackaday, GitHub, or press coverage found, and this session's
-    web search budget was exhausted before a broader search could be run. Quantity
-    made, MCU (if any beyond the blinking LED circuit), and open-source status are
-    not stated anywhere found, so left blank.
+  notes: Core facts (design, price, battery, SAO connector) come only from the Tindie listing itself; no Hackaday, GitHub, or press coverage found, and this session's web search budget was exhausted before a broader search could be run. Quantity made, MCU (if any beyond the blinking LED circuit), and open-source status are not stated anywhere found, so left blank.
 last_modified_date: '2026-09-06'
 ---
 

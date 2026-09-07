@@ -7,29 +7,45 @@ grand_parent: Badge Archive
 nav_exclude: true
 type: badge
 event: other
-year: 0
+year: 2022
 makers:
 - name: Hackerware.io
-summary: ''
-functions: ''
+  url: https://www.hackster.io/HacksFromPanda
+  role: designer/maker (Abhinav SP)
+summary: A CTF badge shaped like an anime character (Dragon Ball-style, glowing red eyes and fists) made for Raytheon's CTF at the 2022 Texas Cyber Summit; players plug it into micro-USB and solve a filesystem-themed serial console challenge to light up sets of "superpower" LEDs.
+functions: 'Serial-based capture-the-flag game over a micro-USB/UART connection at 9600 baud (terminal set to Both NL & CR). Sending three asterisks (***) starts CTF mode; the challenge is themed as a filesystem to explore for clues. Correct flags light different LED groups (representing anime "superpowers"); a secret flag unlocks a blinky animation mode. Sending RESET and reconnecting factory-resets the badge. The coin cell must be removed to play the CTF and reinserted afterward to keep the blinky mode.'
 look:
-  colors: []
-  shape: null
-  themes: []
+  colors:
+  - red
+  - blue
+  - yellow
+  - black
+  - clear
+  themes:
+  - anime
+  - pop culture
+  - ctf
+  - security
+  form_factor: pcb badge
 tech:
-  mcu: null
-  leds: null
-  display: null
-  connectivity: []
-  battery: null
-  sao_version: null
+  mcu: ABOV A96S174
+  leds:
+    count: 10
+    type: reverse-mount SMD
+    note: 2 red, 4 yellow, 4 blue LEDs reverse-mounted to glow through the PCB (eyes and "aura" effect) behind a clear epoxy front
+  display: none
+  connectivity:
+  - usb
+  - uart
+  battery: CR2032 (backup/blinky-mode power; removed during CTF play, which is powered over micro-USB)
+  sao_version: none
 get_one:
   price: ''
   price_usd: null
   quantity: ''
   availability: unknown
   distribution: []
-  where: ''
+  where: Made for Raytheon's CTF at Texas Cyber Summit 2022; distribution to attendees not specified by the source.
 make_your_own:
   open_source: null
   hardware_url: null
@@ -39,22 +55,41 @@ links:
 - label: www.hackster.io/HacksFromPanda/anime-ctf-badge-afcb2c
   url: https://www.hackster.io/HacksFromPanda/anime-ctf-badge-afcb2c
   kind: article
-images: []
+images:
+- file: assets/images/badges/other/anime-ctf-badge/842e367b9d.jpg
+  source: "https://www.hackster.io/HacksFromPanda/anime-ctf-badge-afcb2c"
+  credit: "Abhinav SP / Hackerware.io"
+  caption: "The Anime CTF Badge, front view, with reverse-mounted LEDs lit behind the character and flame-shaped clear-epoxy background"
+- file: assets/images/badges/other/anime-ctf-badge/b71b65439b.jpg
+  source: "https://www.hackster.io/HacksFromPanda/anime-ctf-badge-afcb2c"
+  credit: "Abhinav SP / Hackerware.io"
+  caption: "Rear of the badge, showing the CH340G USB-serial chip, ABOV A96S174 MCU, CR2032 holder, micro-USB port, and 'MADE BY HACKERWARE.IO' handwriting alongside Raytheon's CODEX branding"
 contact: {}
 notes:
 - Spotted by a research agent while working on a neighbouring entry.
-status: listed
+- 'Made for Raytheon Intelligence & Space''s "CODEX" CTF at the Texas Cyber Summit (Texas Cyber Summit is not currently a distinct event in this archive''s events list, so the event field is left as ''other'').'
+status: released
 sources:
 - kind: url
   url: https://www.hackster.io/HacksFromPanda/anime-ctf-badge-afcb2c
   title: Anime CTF Badge
   accessed: '2026-09-07'
   note: 'Found by the archive''s discovery sweep (angle: sheet-research-spotted); event read as ''unclear''.'
+- kind: url
+  url: http://web.archive.org/web/20231211085509/https://www.hackster.io/HacksFromPanda/anime-ctf-badge-afcb2c
+  title: Anime CTF Badge (Wayback Machine snapshot, 2023-12-11)
+  accessed: '2026-09-07'
+  note: 'Live hackster.io page returned a Cloudflare block; used this archived snapshot for the write-up, components list, maker credit, event/maker context, and image URLs (published date, MCU, LEDs, CTF mechanics).'
 research:
-  status: stub
-  confidence: low
+  status: researched
+  confidence: high
   last_checked: '2026-09-07'
-  notes: Imported from the community badge sheet; not yet researched.
+  notes: 'Maker''s own Hackster.io project page (via Wayback Machine, live site blocked by Cloudflare) confirms maker (Abhinav SP / Hackerware.io), the Raytheon/Texas Cyber Summit context, components, and CTF mechanics. No pricing, quantity-made, or distribution details were given by the source, so those fields are left empty. No SAO header is mentioned; treated as a standalone badge. Design files (hardware/firmware) are not published as far as this source shows.'
 last_modified_date: '2026-09-07'
 ---
 
+The Anime CTF Badge is a hardware capture-the-flag challenge built by Abhinav SP of Hackerware.io for Raytheon Intelligence & Space's "CODEX" CTF at the 2022 Texas Cyber Summit. Shaped like an anime character (a Dragon Ball-style fighter with glowing eyes and clenched fists, backed by a flame-shaped clear-epoxy panel), the badge reverse-mounts red, yellow, and blue SMD LEDs so light diffuses through the PCB itself for the eyes and "aura" effect, rather than shining from the front.
+
+To play, participants remove the CR2032 coin cell, connect the badge over micro-USB, and open a serial terminal at 9600 baud. Sending three asterisks starts CTF mode, which presents a filesystem-themed set of directories and clues; correct answers light different LED colors tied to the character's "superpowers," while a hidden flag switches the badge into a standalone blinky-animation mode (at which point the coin cell can be reinserted to keep it glowing after disconnecting). A RESET command lets a stuck player factory-reset and start over. The board is built around an ABOV A96S174 microcontroller with a CH340G USB-to-serial chip, a 12 MHz crystal, and ten reverse-mounted LEDs.
+
+No information on production quantity, price, or how the badge was distributed to Texas Cyber Summit attendees was found in the source material, and hardware/firmware design files do not appear to be published.
