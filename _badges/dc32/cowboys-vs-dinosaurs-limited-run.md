@@ -100,7 +100,13 @@ research:
   confidence: high
   last_checked: '2026-09-06'
   notes: Core facts (maker, MCU, LEDs, inputs, battery, open-source status) confirmed on the maker's own documentation site and GitHub repo; both images matched files on the documentation site. Exact quantity made and any price beyond the $70 sheet figure were not stated anywhere found; left empty rather than guessed. Could not confirm whether the badge has an SAO header, so tech.sao_version is left null. The docs site describes a "playing card background" for the artwork but does not state the board outline, so look.shape is left empty. Indiegogo, sell-out and Hacker Warehouse kit details come from the maker's community-sheet note (2024-07-25). The maker's Twitter/X account could not be fetched directly (login-walled).
-last_modified_date: '2026-09-06'
+last_modified_date: '2026-09-07'
+model:
+  file: assets/models/dc32/cowboys-vs-dinosaurs-limited-run.glb
+  method: kicad
+  source_file: eda/cowboys_vs_dinos/cowboys_vs_dinos.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 689632
 ---
 
 Cowboys vs. Dinosaurs is an ESP32-based indie badge by Alt_Bier (maker handle; GitHub credits "gowenrw"), built around a card-game standoff between cowboys and dinosaurs. Five capacitive touch pads — Cowboys, Dinosaurs, 3000, Society, and a logo button — drive a mix of six addressable NeoPixels and six traditional LEDs, and the badge doubles as its own tiny network: it broadcasts a Wi-Fi access point and runs a web server for an on-badge "adventure game" mode. It runs on a Wemos Lolin32 ESP32 dev board and charges over USB-C into an onboard LiPo battery, with a dedicated charge-indicator LED on the back.

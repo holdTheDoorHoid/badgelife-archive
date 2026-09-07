@@ -33,16 +33,16 @@ tech:
   battery: null
   sao_version: null
 get_one:
-  price: "$50"
+  price: $50
   price_usd: 50
   quantity: '100'
   availability: available
-  availability_note: 'Listed in stock (qty 100, not sold out) as of 2026-09-07 on the MHV shop.'
+  availability_note: Listed in stock (qty 100, not sold out) as of 2026-09-07 on the MHV shop.
   distribution:
   - purchase
   where: Sold directly through the Maritime Hacking Village online shop.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/Maritime-Hacking-Village/SAO-2026-Radar
   firmware_url: https://github.com/Maritime-Hacking-Village/SAO-2026-Radar/tree/main/firmware
   eda_tool: KiCad
@@ -52,7 +52,7 @@ links:
 - label: maritimehackingvillage.com/shop/p/pirate-radar
   url: https://maritimehackingvillage.com/shop/p/pirate-radar
   kind: store
-  note: 'Original sheet URL now returns 404; the live product page is at a different slug (see next link).'
+  note: Original sheet URL now returns 404; the live product page is at a different slug (see next link).
 - label: maritimehackingvillage.com/shop/p/mhv-dc34-sao
   url: https://maritimehackingvillage.com/shop/p/mhv-dc34-sao
   kind: store
@@ -60,18 +60,18 @@ links:
   url: https://github.com/Maritime-Hacking-Village/SAO-2026-Radar
   kind: repo
 images:
-  - file: assets/images/badges/dc34/mhv-dc34-sao-pirate-radar/3cca982373.png
-    source: "https://maritimehackingvillage.com/shop/p/mhv-dc34-sao"
-    credit: "Maritime Hacking Village"
-    caption: "Product photo of the Pirate Radar SAO"
-  - file: assets/images/badges/dc34/mhv-dc34-sao-pirate-radar/1c1e90fea9.gif
-    source: "https://maritimehackingvillage.com/shop/p/mhv-dc34-sao"
-    credit: "Maritime Hacking Village"
-    caption: "Animated GIF of the radar LED animation in action"
+- file: assets/images/badges/dc34/mhv-dc34-sao-pirate-radar/3cca982373.png
+  source: https://maritimehackingvillage.com/shop/p/mhv-dc34-sao
+  credit: Maritime Hacking Village
+  caption: Product photo of the Pirate Radar SAO
+- file: assets/images/badges/dc34/mhv-dc34-sao-pirate-radar/1c1e90fea9.gif
+  source: https://maritimehackingvillage.com/shop/p/mhv-dc34-sao
+  credit: Maritime Hacking Village
+  caption: Animated GIF of the radar LED animation in action
 contact: {}
 notes:
 - Spotted by a research agent while working on a neighbouring entry.
-- 'The sheet-sourced URL (/shop/p/pirate-radar) 404s; the product is actually listed at /shop/p/mhv-dc34-sao. Both are recorded in links.'
+- The sheet-sourced URL (/shop/p/pirate-radar) 404s; the product is actually listed at /shop/p/mhv-dc34-sao. Both are recorded in links.
 status: released
 sources:
 - kind: url
@@ -83,23 +83,29 @@ sources:
   url: https://maritimehackingvillage.com/shop/p/mhv-dc34-sao
   title: 'MHV DC34 SAO: Pirate Radar! (live product page, embedded shop-collection JSON)'
   accessed: '2026-09-07'
-  note: 'Confirmed price ($50), stock (100, not sold out), description, images, and GitHub link. Fetched via curl since the original sheet URL 404s; product data recovered from the /shop collection JSON.'
+  note: Confirmed price ($50), stock (100, not sold out), description, images, and GitHub link. Fetched via curl since the original sheet URL 404s; product data recovered from the /shop collection JSON.
 - kind: url
   url: https://github.com/Maritime-Hacking-Village/SAO-2026-Radar
   title: Maritime-Hacking-Village/SAO-2026-Radar
   accessed: '2026-09-07'
-  note: 'Confirmed open-source hardware (KiCad) and firmware (AVR/ATtiny412), CERN-OHL-W-2.0 license, LP5860RKPR LED driver, bit-banged I2C.'
+  note: Confirmed open-source hardware (KiCad) and firmware (AVR/ATtiny412), CERN-OHL-W-2.0 license, LP5860RKPR LED driver, bit-banged I2C.
 - kind: url
   url: https://raw.githubusercontent.com/Maritime-Hacking-Village/SAO-2026-Radar/main/firmware/README.md
   title: firmware/README.md
   accessed: '2026-09-07'
-  note: 'Confirmed MCU is ATtiny412 and firmware architecture (LP5860 driver, bit-banged I2C on PA1/PA2, compile-time animation selection).'
+  note: Confirmed MCU is ATtiny412 and firmware architecture (LP5860 driver, bit-banged I2C on PA1/PA2, compile-time animation selection).
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-07'
   notes: 'Core facts (chip, LEDs, price, open-source status) confirmed from the maker''s own shop listing and GitHub repo. Not confirmed: exact SAO connector version (v1 vs v2/1.69bis), battery/power draw, and total production run beyond the 100 units shown in stock at check time (could be a restockable number rather than a hard limit).'
 last_modified_date: '2026-09-07'
+model:
+  file: assets/models/dc34/mhv-dc34-sao-pirate-radar.glb
+  method: kicad
+  source_file: KiCAD/radar/radar.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 536920
 ---
 
 The Pirate Radar is a 2026 SAO from Maritime Hacking Village (MHV), the maritime-security community that has run a village at DEF CON since at least DC33. It clips onto any badge's SAO header and turns it into a miniature radar scope: 198 LEDs arranged in eleven spiral arms across eighteen range rings, driven by an ATtiny412 talking to an LP5860RKPR LED-matrix driver over a bit-banged I2C connection using only two wires. The board ships with ninety-two built-in animations — sonar sweeps, storm fronts, moon phases, a ship's wheel, and even a Pac-Man pattern — selected at compile time, and because it exposes I2C, owners can write and flash their own.

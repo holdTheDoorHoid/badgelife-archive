@@ -10,7 +10,7 @@ event: dc26
 year: 2018
 makers:
 - name: Krux
-summary: 'A small SAO from the team behind the Darknet Industries DEF CON 26 badge, shared as a hobbyist-grade PCB design.'
+summary: A small SAO from the team behind the Darknet Industries DEF CON 26 badge, shared as a hobbyist-grade PCB design.
 functions: ''
 look:
   colors: []
@@ -46,14 +46,14 @@ links:
   url: https://oshpark.com/shared_projects/3o0COLSK
   kind: fab
 images:
-  - file: assets/images/badges/dc26/eggplant-sao/522486f5b0.png
-    source: "https://oshpark.com/shared_projects/3o0COLSK"
-    credit: "Krux"
-    caption: "Eggplant SAO PCB, top view (OSH Park render)"
-  - file: assets/images/badges/dc26/eggplant-sao/b6b8eae82f.png
-    source: "https://oshpark.com/shared_projects/3o0COLSK"
-    credit: "Krux"
-    caption: "Eggplant SAO PCB, bottom view (OSH Park render)"
+- file: assets/images/badges/dc26/eggplant-sao/522486f5b0.png
+  source: https://oshpark.com/shared_projects/3o0COLSK
+  credit: Krux
+  caption: Eggplant SAO PCB, top view (OSH Park render)
+- file: assets/images/badges/dc26/eggplant-sao/b6b8eae82f.png
+  source: https://oshpark.com/shared_projects/3o0COLSK
+  credit: Krux
+  caption: Eggplant SAO PCB, bottom view (OSH Park render)
 contact: {}
 notes:
 - Spotted by a research agent while working on a neighbouring entry (run 2).
@@ -68,39 +68,30 @@ sources:
   url: https://github.com/thedarknet/dc26-badge
   title: 'GitHub - thedarknet/dc26-badge: Darknet Industries Badge for Defcon 26'
   accessed: '2026-09-07'
-  note: 'Confirms repo is Darknet Industries'' badge project for DEF CON 26 (2018); hardware/dc26-sao/eggplant is one of the badge''s SAO designs.'
+  note: Confirms repo is Darknet Industries' badge project for DEF CON 26 (2018); hardware/dc26-sao/eggplant is one of the badge's SAO designs.
 - kind: url
   url: https://github.com/krux702
   title: krux702 (Krux) on GitHub
   accessed: '2026-09-07'
-  note: 'Identifies "Krux" as the GitHub user associated with the dc26-sao/eggplant design; used as the maker credit.'
+  note: Identifies "Krux" as the GitHub user associated with the dc26-sao/eggplant design; used as the maker credit.
 - kind: url
   url: https://oshpark.com/shared_projects/3o0COLSK
   title: 'OSH Park shared project: eggplant5 by Krux'
   accessed: '2026-09-07'
-  note: 'Likely fab listing for this SAO (2-layer, 1.09x2.20in board, uploaded June 2018, matching DC26 timing); supplied the two board-render images. Not fully confirmed to be the same board as the repo''s "eggplant" design since no functional description was on the page.'
+  note: Likely fab listing for this SAO (2-layer, 1.09x2.20in board, uploaded June 2018, matching DC26 timing); supplied the two board-render images. Not fully confirmed to be the same board as the repo's "eggplant" design since no functional description was on the page.
 research:
   status: verified
   confidence: low
   last_checked: '2026-09-07'
-  notes: >-
-    Fact-checked 2026-09-07: all four cited sources were re-fetched and support what
-    is claimed from them. The thedarknet/dc26-badge repo is confirmed as the Darknet
-    Industries DEF CON 26 (2018) badge project; the hardware/dc26-sao/eggplant directory
-    is confirmed to contain only eggplant.sch, eggplant.brd, and eggplant-BOM.xls, with
-    no README, matching the body's claim that no function/MCU/LED info exists there.
-    GitHub user krux702 is confirmed to have thedarknet/dc26-badge as a pinned repo,
-    supporting the maker attribution. The OSH Park "eggplant5" listing is confirmed to
-    match the stated dimensions (1.09x2.20in, 2-layer, uploaded June 11 2018) and to
-    carry no DC26/SAO/function description, so the entry's existing hedge (probable
-    match, not confirmed identical to the repo's "eggplant") stands and was not
-    strengthened. One field was corrected on fact-check: make_your_own.open_source was
-    'yes' but only hardware files are published and no firmware exists or is linked
-    (tech.mcu is unknown, not confirmed "none"), so per the guide's yes-requires-both
-    rule this was changed to 'partial'. No sentence or field was found unsupported or
-    contradicted otherwise; confidence stays low because no source describes the SAO's
-    actual function, price, or distribution.
+  notes: 'Fact-checked 2026-09-07: all four cited sources were re-fetched and support what is claimed from them. The thedarknet/dc26-badge repo is confirmed as the Darknet Industries DEF CON 26 (2018) badge project; the hardware/dc26-sao/eggplant directory is confirmed to contain only eggplant.sch, eggplant.brd, and eggplant-BOM.xls, with no README, matching the body''s claim that no function/MCU/LED info exists there. GitHub user krux702 is confirmed to have thedarknet/dc26-badge as a pinned repo, supporting the maker attribution. The OSH Park "eggplant5" listing is confirmed to match the stated dimensions (1.09x2.20in, 2-layer, uploaded June 11 2018) and to carry no DC26/SAO/function description, so the entry''s existing hedge (probable match, not confirmed identical to the repo''s "eggplant") stands and was not strengthened. One field was corrected on fact-check: make_your_own.open_source was ''yes'' but only hardware files are published and no firmware exists or is linked (tech.mcu is
+    unknown, not confirmed "none"), so per the guide''s yes-requires-both rule this was changed to ''partial''. No sentence or field was found unsupported or contradicted otherwise; confidence stays low because no source describes the SAO''s actual function, price, or distribution.'
 last_modified_date: '2026-09-07'
+model:
+  file: assets/models/dc26/eggplant-sao.glb
+  method: kicad
+  source_file: eggplant.brd
+  generated: '2026-09-07'
+  bytes: 46128
 ---
 
 The Eggplant SAO is a small add-on board from the `hardware/dc26-sao/` directory of the `thedarknet/dc26-badge` GitHub repository, the open-source hardware and firmware project behind Darknet Industries' badge for DEF CON 26 (2018). The repository directory for Eggplant contains only a schematic, a board file, and a bill of materials, with no accompanying README describing its function, so nothing is known here about what the SAO does, what MCU or LEDs (if any) it carries, or how it was distributed.

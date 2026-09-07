@@ -35,13 +35,10 @@ get_one:
   price_usd: 70.0
   quantity: ''
   availability: sold_out
-  availability_note: 'Storefront no longer lists the item as of an Oct 2025 archive
-    snapshot, and shop.uberfoo.net itself returns "This store is unavailable" as
-    of 2026-09-07.'
+  availability_note: Storefront no longer lists the item as of an Oct 2025 archive snapshot, and shop.uberfoo.net itself returns "This store is unavailable" as of 2026-09-07.
   distribution:
   - purchase
-  where: Sold directly through the maker's Shopify storefront (shop.uberfoo.net/products/boxy-badge)
-    under the internal name "boxy-badge."
+  where: Sold directly through the maker's Shopify storefront (shop.uberfoo.net/products/boxy-badge) under the internal name "boxy-badge."
 make_your_own:
   open_source: partial
   hardware_url: null
@@ -57,11 +54,12 @@ links:
 - label: Uberfoo Heavy Industries (GitHub org)
   url: https://github.com/Uberfoo-Heavy-Industries
   kind: repo
+  archived: https://web.archive.org/web/20260615181704/https://github.com/Uberfoo-Heavy-Industries
 images:
 - file: assets/images/badges/dc32/uberbox-badge/a31698c9b4.jpg
-  source: "https://web.archive.org/web/20240725093826/https://shop.uberfoo.net/"
-  credit: "Uberfoo Heavy Industries"
-  caption: "UberBox Badge product photo from the Uberfoo storefront (archived July 2024)"
+  source: https://web.archive.org/web/20240725093826/https://shop.uberfoo.net/
+  credit: Uberfoo Heavy Industries
+  caption: UberBox Badge product photo from the Uberfoo storefront (archived July 2024)
 contact:
   emails:
   - shop@uberfoo.net
@@ -76,41 +74,29 @@ sources:
   url: https://web.archive.org/web/20240725093826/https://shop.uberfoo.net/
   title: Uberfoo Heavy Industries storefront (Wayback Machine, 2024-07-25)
   accessed: '2026-09-07'
-  note: Confirms product title "UberBox Badge," internal slug "boxy-badge," price
-    $70.00, and product photo; the live shop.uberfoo.net/products/boxy-badge page
-    was never itself archived and returns 404/503.
+  note: Confirms product title "UberBox Badge," internal slug "boxy-badge," price $70.00, and product photo; the live shop.uberfoo.net/products/boxy-badge page was never itself archived and returns 404/503.
 - kind: url
   url: https://github.com/Uberfoo-Heavy-Industries
   title: Uberfoo Heavy Industries (GitHub organization)
   accessed: '2026-09-07'
-  note: Maker's GitHub org, hosting badge firmware repos including esp-s3-box-badge,
-    Z80-Retro-Badge, and shitty-kitty.
+  note: Maker's GitHub org, hosting badge firmware repos including esp-s3-box-badge, Z80-Retro-Badge, and shitty-kitty.
+  archived: https://web.archive.org/web/20260615181704/https://github.com/Uberfoo-Heavy-Industries
 - kind: url
   url: https://github.com/Uberfoo-Heavy-Industries/esp-s3-box-badge
   title: esp-s3-box-badge (GitHub repo)
   accessed: '2026-09-07'
-  note: Firmware repo (ESP-IDF, C/C++) targeting Espressif's ESP32-S3-BOX-3 dev
-    hardware (sdkconfig.ci.box-3), with source files named message.h, demo/, and
-    ui/ matching the badge's text-messaging and demoscene-graphics functions. Created
-    2024-07-08, last pushed 2024-09-26, shortly around DEF CON 32 (Aug 2024).
+  note: Firmware repo (ESP-IDF, C/C++) targeting Espressif's ESP32-S3-BOX-3 dev hardware (sdkconfig.ci.box-3), with source files named message.h, demo/, and ui/ matching the badge's text-messaging and demoscene-graphics functions. Created 2024-07-08, last pushed 2024-09-26, shortly around DEF CON 32 (Aug 2024).
 - kind: url
   url: https://shop.uberfoo.net
   title: shop.uberfoo.net (checked live)
   accessed: '2026-09-07'
-  note: The storefront domain now returns a Shopify "This store is unavailable"
-    error page; the maker's shop appears closed.
+  note: The storefront domain now returns a Shopify "This store is unavailable" error page; the maker's shop appears closed.
+  archived: https://web.archive.org/web/20251020014350/https://shop.uberfoo.net/
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: The live product page (shop.uberfoo.net/products/boxy-badge) was never
-    captured by the Wayback Machine and the storefront itself is now offline, so
-    price/title/photo come from an archived homepage listing rather than the product
-    page itself. No hardware files (schematics/Gerbers) were found, only the firmware
-    repo, which is built on Espressif's ESP32-S3-BOX-3 reference design rather than
-    a fully custom PCB — it is unclear whether Uberfoo designed original hardware
-    or repurposed/enclosed the stock Espressif dev board. LED info, battery/power
-    details, and exact display size could not be confirmed from any source read.
+  notes: The live product page (shop.uberfoo.net/products/boxy-badge) was never captured by the Wayback Machine and the storefront itself is now offline, so price/title/photo come from an archived homepage listing rather than the product page itself. No hardware files (schematics/Gerbers) were found, only the firmware repo, which is built on Espressif's ESP32-S3-BOX-3 reference design rather than a fully custom PCB — it is unclear whether Uberfoo designed original hardware or repurposed/enclosed the stock Espressif dev board. LED info, battery/power details, and exact display size could not be confirmed from any source read.
 last_modified_date: '2026-09-07'
 ---
 

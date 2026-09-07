@@ -12,7 +12,7 @@ makers:
 - name: Fri3d Camp
   url: https://fri3d.be/badge/2024/
 summary: The badge given to every participant at Fri3d Camp 2024, an ESP32-S3 board with a 2" IPS touchscreen, programmable in MicroPython or Arduino and expandable with SAO and custom add-ons.
-functions: 'Runs the standard MicroPython firmware (an Arduino firmware is also available); supports custom apps/games via its screen, joystick and buttons; expandable with add-on boards such as the Big Flamingo Gun blaster and the Communicator.'
+functions: Runs the standard MicroPython firmware (an Arduino firmware is also available); supports custom apps/games via its screen, joystick and buttons; expandable with add-on boards such as the Big Flamingo Gun blaster and the Communicator.
 look:
   colors: []
   shape: rectangle
@@ -37,7 +37,7 @@ get_one:
   - free_drop
   where: Given to every registered participant of Fri3d Camp 2024.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/Fri3dCamp/badge_2024_hw
   firmware_url: https://github.com/Fri3dCamp/badge_2024_micropython
   eda_tool: null
@@ -66,9 +66,9 @@ links:
   kind: repo
 images:
 - file: assets/images/badges/fri3d-2024/fri3d-camp-2024-badge/ecd4763899.jpg
-  source: "https://fri3d.be/badge/2024/"
-  credit: "Fri3d Camp"
-  caption: "Fri3d Camp 2024 badge with 2 inch IPS display"
+  source: https://fri3d.be/badge/2024/
+  credit: Fri3d Camp
+  caption: Fri3d Camp 2024 badge with 2 inch IPS display
 contact: {}
 notes:
 - Screen-equipped programmable badge (MicroPython/Arduino); add-ons include Big Flamingo Gun blaster and Communicator module.
@@ -83,7 +83,7 @@ sources:
   url: https://fri3dcamp.github.io/badge_2024/
   title: Fri3d Camp 2024 Badge documentation
   accessed: '2026-09-07'
-  note: 'Confirmed doc hub lists Badge 2024, Flamingo blaster, Noisy Cricket, and Communicator boards; did not itself carry detailed specs.'
+  note: Confirmed doc hub lists Badge 2024, Flamingo blaster, Noisy Cricket, and Communicator boards; did not itself carry detailed specs.
 - kind: url
   url: https://github.com/Fri3dCamp/badge_2024_hw
   title: Fri3dCamp/badge_2024_hw
@@ -93,13 +93,23 @@ sources:
   url: https://github.com/Fri3dCamp/badge_2024_micropython
   title: Fri3dCamp/badge_2024_micropython
   accessed: '2026-09-07'
-  note: 'Standard firmware shipped on the badge, referenced from the badge page.'
+  note: Standard firmware shipped on the badge, referenced from the badge page.
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-07'
-  notes: 'Maker-published pages (fri3d.be and the Fri3dCamp GitHub org) confirm the core hardware/firmware facts. Price and production quantity are not published anywhere found; the badge is given free to every registered camp participant rather than sold, so no price applies. LED count/type not stated in the hardware README excerpt available; left empty rather than guessed.'
+  notes: Maker-published pages (fri3d.be and the Fri3dCamp GitHub org) confirm the core hardware/firmware facts. Price and production quantity are not published anywhere found; the badge is given free to every registered camp participant rather than sold, so no price applies. LED count/type not stated in the hardware README excerpt available; left empty rather than guessed.
 last_modified_date: '2026-09-07'
+model:
+  file: assets/models/fri3d-2024/fri3d-camp-2024-badge.glb
+  method: gerber
+  source_file: Fri3d_2024_Badge_00/OUTPUT/Gerber
+  generated: '2026-09-07'
+  bytes: 57776
+  size_mm:
+  - 420.0
+  - 297.0
+  note: The published files have no board outline, so the model is shown on a rectangular board.
 ---
 
 The Fri3d Camp 2024 badge is the electronic badge every registered participant of the Belgian family-friendly hacker camp Fri3d Camp received that year. It is built around an Espressif ESP32-S3-WROOM-1-N16R8 module (16 MB flash, 8 MB PSRAM) driving a 2" rounded-corner IPS LCD, with a 6-axis IMU, joystick, push buttons and a buzzer for onboard interaction. It connects over Wi-Fi and Bluetooth 5, charges over USB-C via a TP4056 charger into a 2000 mAh LiPo cell, and carries both a standard SAO header and a custom expansion connector on the bottom edge for hardware add-ons.

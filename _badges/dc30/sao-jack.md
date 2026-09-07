@@ -40,7 +40,7 @@ get_one:
   distribution: []
   where: ''
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/hamster/defcon30/tree/main/jack
   firmware_url: null
   eda_tool: KiCad
@@ -50,14 +50,14 @@ links:
   url: https://github.com/hamster/defcon30/tree/main/jack
   kind: repo
 images:
-  - file: assets/images/badges/dc30/sao-jack/b91b96a1df.jpg
-    source: "https://github.com/hamster/defcon30/tree/main/jack"
-    credit: "hamster"
-    caption: "Assembled Jack SAO, LEDs lit"
-  - file: assets/images/badges/dc30/sao-jack/c196110585.jpg
-    source: "https://github.com/hamster/defcon30/tree/main/jack"
-    credit: "hamster"
-    caption: "Jack SAO kit parts before assembly"
+- file: assets/images/badges/dc30/sao-jack/b91b96a1df.jpg
+  source: https://github.com/hamster/defcon30/tree/main/jack
+  credit: hamster
+  caption: Assembled Jack SAO, LEDs lit
+- file: assets/images/badges/dc30/sao-jack/c196110585.jpg
+  source: https://github.com/hamster/defcon30/tree/main/jack
+  credit: hamster
+  caption: Jack SAO kit parts before assembly
 contact: {}
 notes:
 - Spotted by a research agent while working on a neighbouring entry (run 3).
@@ -79,6 +79,12 @@ research:
   last_checked: '2026-09-07'
   notes: 'Repo README (the maker''s own page) confirms what the kit is, its parts, and that it was made for DEF CON 30 (repo description: "defcon 30 SAOs"). No storefront, price, or quantity information was found anywhere; a web search for the item by name and maker turned up nothing beyond the repo itself, so get_one fields are left empty. Shape/colors were read directly off the maker''s own build photos in the repo.'
 last_modified_date: '2026-09-07'
+model:
+  file: assets/models/dc30/sao-jack.glb
+  method: kicad
+  source_file: jack/jack.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 110300
 ---
 
 Jack is a beginner-friendly SAO kit made by hamster for DEF CON 30 (2022), designed purely to teach soldering rather than to show off complex electronics. The board is a black PCB silkscreened in white as a smiley-face skull and crossbones with "D3F C0N" lettering, and the whole build is four through-hole LEDs (two white/yellow-green at the "eyes," two red lower on the crossbones) plus two resistors and a SAO connector — no microcontroller, so once soldered the LEDs simply light whenever the badge supplies power through the header.

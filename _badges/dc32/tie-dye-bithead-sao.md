@@ -11,7 +11,7 @@ year: 2024
 makers:
 - name: HackerBoxes
   url: https://hackerboxes.com/
-summary: A skull-shaped SAO with a full-color tie-dye silkscreen and two LED "eyes," sold as one of six solder-practice SAO kits and assembled as part of HackerBox #0104 "Engage."
+summary: A skull-shaped SAO with a full-color tie-dye silkscreen and two LED "eyes," sold as one of six solder-practice SAO kits and assembled as part of HackerBox
 functions: No microcontroller; the two LEDs simply light up as the skull's eyes when the SAO is powered through its header.
 look:
   colors:
@@ -41,7 +41,7 @@ get_one:
   distribution:
   - purchase
   - kit
-  where: Sold individually as a "Simple Add-On (SAO)" kit on the HackerBoxes Shopify store, and included as one of the build projects in HackerBox #0104 "Engage" (a $59 monthly subscription box shipped around the 2024 summer solstice, timed for DEF CON 32 / Hacker Summer Camp).
+  where: Sold individually as a "Simple Add-On (SAO)" kit on the HackerBoxes Shopify store, and included as one of the build projects in HackerBox
 make_your_own:
   open_source: null
   hardware_url: null
@@ -51,21 +51,23 @@ links:
 - label: www.instructables.com/HackerBox-0104-Engage/#step7
   url: https://www.instructables.com/HackerBox-0104-Engage/#step7
   kind: website
+  archived: https://web.archive.org/web/20260606133950/https://www.instructables.com/HackerBox-0104-Engage/
 - label: HackerBoxes – Simple Add-On (SAO) kits
   url: https://hackerboxes.com/products/simple-add-on-kits
   kind: store
-- label: HackerBoxes – HackerBox #0104 Engage
+- label: HackerBoxes – HackerBox
   url: https://hackerboxes.com/products/hackerbox-0104-engage
   kind: store
 images:
-  - file: assets/images/badges/dc32/tie-dye-bithead-sao/7516f9e20d.jpg
-    source: "https://www.instructables.com/HackerBox-0104-Engage/#step7"
-    credit: "HackerBoxes"
-    caption: "Assembly diagram showing the Tie-Dye BitHead SAO (skull shape, tie-dye silkscreen, two LED eyes) alongside the other HackerBox 0104 SAOs"
-  - file: assets/images/badges/dc32/tie-dye-bithead-sao/a18249d754.png
-    source: "https://hackerboxes.com/products/simple-add-on-kits"
-    credit: "HackerBoxes"
-    caption: "Tie-Dye BitHead (top left) shown with the other five SAO kits in the HackerBoxes Simple Add-On lineup"
+- file: assets/images/badges/dc32/tie-dye-bithead-sao/7516f9e20d.jpg
+  source: https://www.instructables.com/HackerBox-0104-Engage/#step7
+  credit: HackerBoxes
+  caption: Assembly diagram showing the Tie-Dye BitHead SAO (skull shape, tie-dye silkscreen, two LED eyes) alongside the other HackerBox 0104 SAOs
+  archived: https://web.archive.org/web/20260606133950/https://www.instructables.com/HackerBox-0104-Engage/
+- file: assets/images/badges/dc32/tie-dye-bithead-sao/a18249d754.png
+  source: https://hackerboxes.com/products/simple-add-on-kits
+  credit: HackerBoxes
+  caption: Tie-Dye BitHead (top left) shown with the other five SAO kits in the HackerBoxes Simple Add-On lineup
 contact: {}
 notes:
 - Spotted by a research agent while working on a neighbouring entry.
@@ -76,6 +78,7 @@ sources:
   title: Tie-Dye BitHead SAO
   accessed: '2026-09-07'
   note: 'Found by the archive''s discovery sweep (angle: sheet-research-spotted); event read as ''dc32''.'
+  archived: https://web.archive.org/web/20260606133950/https://www.instructables.com/HackerBox-0104-Engage/
 - kind: url
   url: https://hackerboxes.com/products/simple-add-on-kits
   title: Simple Add-On (SAO) – HackerBoxes
@@ -83,14 +86,14 @@ sources:
   note: Confirms price ($9.99), sold-out status, and that it is one of six solder-practice SAO kits (assembly covered in HackerBox 0104).
 - kind: url
   url: https://hackerboxes.com/products/hackerbox-0104-engage
-  title: HackerBox #0104 - Engage – HackerBoxes
+  title: HackerBox
   accessed: '2026-09-07'
-  note: Confirms HackerBox #0104 price ($59) and that the Tie-Dye BitHead SAO is one of the box's build projects.
+  note: Confirms HackerBox
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-07'
-  notes: HackerBox #0104 "Engage" shipped around the summer solstice in 2024, explicitly timed for "Hacker Summer Camp" (DEF CON 32/BSides Las Vegas), so event dc32/year 2024 is a good fit even though the SAO itself was not sold at DEF CON directly. No microcontroller is mentioned anywhere; it is a passive board with two LEDs. Exact LED colors (which eye is red vs. blue) are read from the assembly photo, not stated in text, so treated as visual observation rather than a maker claim.
+  notes: HackerBox
 last_modified_date: '2026-09-07'
 ---
 

@@ -98,6 +98,12 @@ research:
 last_modified_date: '2026-09-07'
 redirect_from:
 - /badges/dc33/dczia-zippy-badge/
+model:
+  file: assets/models/dc33/zippy.glb
+  method: kicad
+  source_file: Hardware/final/zippy-badge.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 404400
 ---
 
 Zippy is DCZia's 2025 DEF CON badge (DEF CON 33), styled after a classic Iomega Zip disk. Each unit has a randomly colored translucent plastic shell over the PCB, so the 42-NeoPixel, 6x7 LED matrix inside shows through as a diffuse glow rather than bare LEDs. A Raspberry Pi RP2040 running CircuitPython drives the display, reading a built-in digital microphone and 3-axis accelerometer to switch between a rainbow mode, a tilt-reactive color mode, and a sound-reactive "party mode," all selected and adjusted with a four-way joystick.

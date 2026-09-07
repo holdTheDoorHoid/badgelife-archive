@@ -42,7 +42,7 @@ get_one:
   - purchase
   where: Tor Project vendor booth at DEF CON 32
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/seeess/Defcon-Tor-31-Badge
   firmware_url: https://github.com/seeess/Defcon-Tor-31-Badge
   eda_tool: null
@@ -52,26 +52,27 @@ links:
 - label: github.com/seeess
   url: https://github.com/seeess
   kind: repo
+  archived: https://web.archive.org/web/20260802214119/https://github.com/seeess
 - label: twitter.com/see_ess
   url: https://twitter.com/see_ess
   kind: social
-- label: "Defcon-Tor-31-Badge (most recent documented version of this design)"
+- label: Defcon-Tor-31-Badge (most recent documented version of this design)
   url: https://github.com/seeess/Defcon-Tor-31-Badge
   kind: repo
-  note: "DC31 README: 're-run from dc29 since we keep selling out.' Describes the GSR + heart-rate sensor, dual OLED, SAMD21 XIAO hardware."
-- label: "Defcon-Tor-29-Badge (original release)"
+  note: 'DC31 README: ''re-run from dc29 since we keep selling out.'' Describes the GSR + heart-rate sensor, dual OLED, SAMD21 XIAO hardware.'
+- label: Defcon-Tor-29-Badge (original release)
   url: https://github.com/seeess/Defcon-Tor-29-Badge
   kind: repo
   note: Original Tor lie-detector badge, sold at the Hacker Warehouse vendor booth at DC29.
 images:
 - file: assets/images/badges/dc32/tor-lie-detector-badge/242da92ae2.jpg
-  source: "https://github.com/seeess/Defcon-Tor-31-Badge"
-  credit: "Seeess"
-  caption: "The Tor Lie Detector Badge, showing the dual 1.3-inch OLED screens, GSR finger-cuff cable, and heart-rate sensor pad (photo from the DC31 re-release, same design)"
+  source: https://github.com/seeess/Defcon-Tor-31-Badge
+  credit: Seeess
+  caption: The Tor Lie Detector Badge, showing the dual 1.3-inch OLED screens, GSR finger-cuff cable, and heart-rate sensor pad (photo from the DC31 re-release, same design)
 contact: {}
 notes:
 - These will be available at the TOR Booth in the vendor area
-- 'This is the same "Lie Detector Badge" series Seeess/Tor Project has sold since DC29 (see dc31-lie-detector-badge-re-release-of-dc29), not the separate, simpler "TOR Mini Badge" also listed for DC32 (dc32-tor-mini-badge, GitHub repo Defcon-Tor-32) which has no sensors.'
+- This is the same "Lie Detector Badge" series Seeess/Tor Project has sold since DC29 (see dc31-lie-detector-badge-re-release-of-dc29), not the separate, simpler "TOR Mini Badge" also listed for DC32 (dc32-tor-mini-badge, GitHub repo Defcon-Tor-32) which has no sensors.
 status: listed
 sources:
 - kind: sheet
@@ -83,36 +84,27 @@ sources:
   title: seeess (GitHub profile)
   accessed: '2026-09-06'
   note: Confirms maker's repos, including a distinct Defcon-Tor-32 ("mini-badge") repo separate from this lie-detector line.
+  archived: https://web.archive.org/web/20260802214119/https://github.com/seeess
 - kind: url
   url: https://github.com/seeess/Defcon-Tor-31-Badge
-  title: "Defcon-Tor-31-Badge README"
+  title: Defcon-Tor-31-Badge README
   accessed: '2026-09-06'
-  note: "Most recent documented version of the Tor lie-detector badge design: GSR + heart-rate sensors, dual 1.3\" OLED, SAMD21 Seeeduino XIAO, 2x AA or USB-C power, 1.69bis SAO header, WTFPL license, function text matching the DC32 sheet entry's wording."
+  note: 'Most recent documented version of the Tor lie-detector badge design: GSR + heart-rate sensors, dual 1.3" OLED, SAMD21 Seeeduino XIAO, 2x AA or USB-C power, 1.69bis SAO header, WTFPL license, function text matching the DC32 sheet entry''s wording.'
 - kind: url
   url: https://github.com/seeess/Defcon-Tor-29-Badge
-  title: "Defcon-Tor-29-Badge README"
+  title: Defcon-Tor-29-Badge README
   accessed: '2026-09-06'
   note: Confirms this is the original release of the lie-detector design (DC29), sold at the Hacker Warehouse vendor booth, with identical GSR/heart-rate description.
 - kind: url
   url: https://github.com/seeess/Defcon-Tor-32
-  title: "Defcon-Tor-32 README (Tor mini-badge)"
+  title: Defcon-Tor-32 README (Tor mini-badge)
   accessed: '2026-09-06'
   note: Confirms this is a DIFFERENT DC32 product by the same maker (5-LED ATtiny402 SAO, no sensors) - ruled out as the source of this entry's GSR/lie-detector functions text.
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-06'
-  notes: >-
-    No DC32-specific repository or storefront page for the lie-detector badge was found, so the
-    exact 2024 hardware revision, price, and quantity are unconfirmed. Tech/hardware fields above
-    are drawn from the DC31 "re-run" repo (the most recent documented iteration of this same
-    design, explicitly a re-release of DC29), which shares this entry's maker, event series
-    (Tor Project vendor booth), and near-identical functions text ("practice ... fed interview").
-    The community sheet's $150 price and quantity could not be independently verified against any
-    maker-published page; kept as originally entered. Twitter/X profile (twitter.com/see_ess ->
-    x.com/see_ess) returned an access-restricted response and could not be checked. This session's
-    web search budget was exhausted before a broader search for a DC32-specific listing could be
-    run, so a dedicated 2024 storefront page, if one exists, was not found.
+  notes: No DC32-specific repository or storefront page for the lie-detector badge was found, so the exact 2024 hardware revision, price, and quantity are unconfirmed. Tech/hardware fields above are drawn from the DC31 "re-run" repo (the most recent documented iteration of this same design, explicitly a re-release of DC29), which shares this entry's maker, event series (Tor Project vendor booth), and near-identical functions text ("practice ... fed interview"). The community sheet's $150 price and quantity could not be independently verified against any maker-published page; kept as originally entered. Twitter/X profile (twitter.com/see_ess -> x.com/see_ess) returned an access-restricted response and could not be checked. This session's web search budget was exhausted before a broader search for a DC32-specific listing could be run, so a dedicated 2024 storefront page, if one exists, was not found.
 last_modified_date: '2026-09-06'
 ---
 

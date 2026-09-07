@@ -108,7 +108,13 @@ research:
   confidence: high
   last_checked: '2026-09-06'
   notes: This entry is not a DEF CON 32 badge; it was a Badge.team group-buy listing that ended up on the DC32 community sheet (note in the sheet explains the buyer was arranging a bulk EU order). Exact LED count and battery capacity are not published by the maker. Quantity made/sold and current availability were not found; hardware repo is archived as of March 2026 so it is likely no longer sold new. PCB colors/shape not confirmed from a source describing them explicitly (photo shows a Game Boy Advance-style handheld shell, but front matter "look" fields were left conservative pending a clearer source).
-last_modified_date: '2026-09-06'
+last_modified_date: '2026-09-07'
+model:
+  file: assets/models/dc32/mch2022-badge.glb
+  method: kicad
+  source_file: mch2022.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 268308
 ---
 
 The MCH2022 badge was the official conference badge for May Contain Hackers 2022, a Dutch outdoor hacker camp held in August 2022, produced by the volunteer collective Badge.team. It appeared on the DEF CON 32 community badge sheet not because it was a DEF CON badge, but because someone was organizing a bulk overseas order for interested DEF CON attendees — the sheet row explicitly flags the price as euros and mentions arranging shipping from the Netherlands.

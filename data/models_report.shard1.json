@@ -348,5 +348,75 @@
    "kicad glb: glb export failed: Failed to load board: One or more items were found on undefined layers (Rescue). Open the board in the PCB Editor to resolve.\n",
    "kicad gerbers: gerber export failed: Failed to load board: One or more items were found on undefined layers (Rescue). Open the board in the PCB Editor to resolve.\n"
   ]
+ },
+ "dc33-maritime-village-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 1171188,
+  "tried": [],
+  "src": "KiCAD/DC33/DC33.kicad_pcb"
+ },
+ "dc33-zippy": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 404400,
+  "tried": [],
+  "src": "Hardware/final/zippy-badge.kicad_pcb"
+ },
+ "dc34-clip-boy": {
+  "status": "ok",
+  "method": "gerber",
+  "bytes": 94616,
+  "tried": [],
+  "src": "Clip-Boy/hardware/Gerber_Motherboard.zip"
+ },
+ "dc34-countdown-to-singularity": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 374136,
+  "tried": [],
+  "src": "DC-34-Countdown-To-Singularity-Board/DC-34-Countdown-To-Singularity-Board.kicad_pcb"
+ },
+ "dc34-cpec-sao": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 500080,
+  "tried": [],
+  "src": "DC34-CPEC-SAO-Board/DC34-CPEC-SAO-Board-panel.kicad_pcb"
+ },
+ "dc34-defcon-badge-2026": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 787080,
+  "tried": [],
+  "src": "defcon_badge_main/defcon_badge_main.kicad_pcb"
+ },
+ "dc34-defconbadge2026-retia": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 583452,
+  "tried": [],
+  "src": "hardware/kicad/2024_def_con_badge_v1.kicad_pcb"
+ },
+ "dc34-krampus-minibadge-holder": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 656316,
+  "tried": [],
+  "src": "hardware/krampus_expansion_board.kicad_pcb"
+ },
+ "dc34-mhv-dc34-sao-pirate-radar": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 536920,
+  "tried": [],
+  "src": "KiCAD/radar/radar.kicad_pcb"
+ },
+ "dc34-soldering-canary-working-title": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 231764,
+  "tried": [],
+  "src": "board/5-dc34-canary-badge.kicad_pcb"
  }
 }

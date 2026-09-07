@@ -42,15 +42,15 @@ tech:
 get_one:
   price: $120 (first run; sold out)
   price_usd: 120.0
-  quantity: '152 units (first run)'
+  quantity: 152 units (first run)
   availability: sold_out
-  availability_note: "Checked 2026-09-06: maker's shop page says the first run sold out (152 shipped); a second run is in a demand-gauging/pre-order phase with no price set yet, and the page states pre-orders close permanently with no restock."
+  availability_note: 'Checked 2026-09-06: maker''s shop page says the first run sold out (152 shipped); a second run is in a demand-gauging/pre-order phase with no price set yet, and the page states pre-orders close permanently with no restock.'
   distribution:
   - purchase
   - preorder
   where: Sold directly by the maker via clip.brycebadges.com (redirects to the Coruscant Productions shop page); optional add-ons included a $10 custom trim color and a $15 "Omni-Tag" physical scan tag.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/SafeHazard/Clip-Boy
   firmware_url: https://github.com/SafeHazard/Clip-Boy
   gerbers_url: https://github.com/SafeHazard/Clip-Boy
@@ -58,7 +58,7 @@ make_your_own:
   eda_tool: EasyEDA
   license: GPLv3 (MIT available for builds without the audio tools)
   fab_url: null
-  notes: "Repo includes BOM, EasyEDA PCB source, Gerbers, 3D-printable enclosure models, and firmware; a browser-based flasher lives at flash.brycebadges.com. Commits are under GitHub user tropicsquirrel (Bryce's father, who hosts the toolchain); the maker's page attributes the actual design/build work, with AI assistance, to Bryce."
+  notes: Repo includes BOM, EasyEDA PCB source, Gerbers, 3D-printable enclosure models, and firmware; a browser-based flasher lives at flash.brycebadges.com. Commits are under GitHub user tropicsquirrel (Bryce's father, who hosts the toolchain); the maker's page attributes the actual design/build work, with AI assistance, to Bryce.
 links:
 - label: clip.brycebadges.com
   url: https://clip.brycebadges.com
@@ -77,9 +77,9 @@ links:
   kind: doc
 images:
 - file: assets/images/badges/dc34/clip-boy/554231b975.jpg
-  source: "https://tropicsquirrel.github.io/shop/"
-  credit: "Coruscant Productions, LLC"
-  caption: "Clip-Boy Mk2 emerging from a vault door, hero shot"
+  source: https://tropicsquirrel.github.io/shop/
+  credit: Coruscant Productions, LLC
+  caption: Clip-Boy Mk2 emerging from a vault door, hero shot
 contact:
   discord: n/a
   emails:
@@ -96,25 +96,34 @@ sources:
   listing: New
 - kind: url
   url: https://tropicsquirrel.github.io/shop/?utm_source=badgelife
-  title: "Clip-Boy Mk2 shop page (Coruscant Productions)"
+  title: Clip-Boy Mk2 shop page (Coruscant Productions)
   accessed: '2026-09-06'
-  note: "Maker's own storefront; confirms name (Clip-Boy Mk2), maker (Bryce, Coruscant Productions, LLC), first-run sellout at 152 units, second-run demand-gauging status, gunmetal-gray 3D-printed shell, custom trim colors (+$10), Omni-Tag add-on (+$15)."
+  note: Maker's own storefront; confirms name (Clip-Boy Mk2), maker (Bryce, Coruscant Productions, LLC), first-run sellout at 152 units, second-run demand-gauging status, gunmetal-gray 3D-printed shell, custom trim colors (+$10), Omni-Tag add-on (+$15).
 - kind: url
   url: https://flash.brycebadges.com/
   title: Clip-Boy web-based firmware flasher
   accessed: '2026-09-06'
-  note: "Confirms GPLv3 firmware license, link to GitHub source, ESP32-S3-Touch-LCD-2.8 board reference, and minisign-verified release checksums."
+  note: Confirms GPLv3 firmware license, link to GitHub source, ESP32-S3-Touch-LCD-2.8 board reference, and minisign-verified release checksums.
 - kind: url
   url: https://github.com/SafeHazard/Clip-Boy
   title: SafeHazard/Clip-Boy on GitHub
   accessed: '2026-09-06'
-  note: "Confirms ESP32-S3 MCU, 2.8\" LVGL touchscreen, VL53L5CX time-of-flight sensor, addressable RGB, SAO v1.69bis header, GPLv3/MIT dual licensing, EasyEDA PCB source, Gerbers, BOM, and enclosure files; Wi-Fi/BT recon tools derived from ESP32 Marauder, a drone Remote-ID (ASTM F3411) detector, and an ARG-style unlock finale using HMAC-derived codes."
+  note: Confirms ESP32-S3 MCU, 2.8" LVGL touchscreen, VL53L5CX time-of-flight sensor, addressable RGB, SAO v1.69bis header, GPLv3/MIT dual licensing, EasyEDA PCB source, Gerbers, BOM, and enclosure files; Wi-Fi/BT recon tools derived from ESP32 Marauder, a drone Remote-ID (ASTM F3411) detector, and an ARG-style unlock finale using HMAC-derived codes.
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-06'
-  notes: "Core facts (maker, MCU, display, sensor, SAO version, license, pricing, quantity, availability) are confirmed by the maker's own shop page, GitHub repo, and flasher site. Could not confirm exact LED count or battery/power spec from available pages. Could not load the YouTube video's description (page content was just YouTube boilerplate navigation), so it was not used as a source. A second lineup/colorway image was seen referenced on the shop page (id=\"poLineup\") but its image URL is set by JavaScript and could not be resolved to a direct file, so only one image was saved."
-last_modified_date: '2026-09-06'
+  notes: Core facts (maker, MCU, display, sensor, SAO version, license, pricing, quantity, availability) are confirmed by the maker's own shop page, GitHub repo, and flasher site. Could not confirm exact LED count or battery/power spec from available pages. Could not load the YouTube video's description (page content was just YouTube boilerplate navigation), so it was not used as a source. A second lineup/colorway image was seen referenced on the shop page (id="poLineup") but its image URL is set by JavaScript and could not be resolved to a direct file, so only one image was saved.
+last_modified_date: '2026-09-07'
+model:
+  file: assets/models/dc34/clip-boy.glb
+  method: gerber
+  source_file: Clip-Boy/hardware/Gerber_Motherboard.zip
+  generated: '2026-09-07'
+  bytes: 94616
+  size_mm:
+  - 30.2
+  - 60.5
 ---
 
 Clip-Boy Mk2 is a wrist-mounted, Fallout-parody electronic badge built around an ESP32-S3 with a 2.8" LVGL touchscreen, a VL53L5CX time-of-flight sensor, addressable RGB lighting, and a SAO v1.69bis expansion header. It ships in a "passive/listen-only" mode with an optional research build that unlocks Wi-Fi and Bluetooth reconnaissance tools derived from ESP32 Marauder, plus a drone Remote-ID (ASTM F3411) detector. On top of the recon tooling it packs a theremin, over 90 unlockable collectibles, on-badge puzzles, and an ARG-style finale that unlocks using HMAC-derived codes — layered over dense Fallout in-jokes and puns.

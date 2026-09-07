@@ -47,11 +47,11 @@ get_one:
   - village
   where: Preordered online for DEF CON 33 (2025) via the MHV shop, then remaining units sold in person at DEF CON 34 (2026) as the "Differential Destroyer Badge."
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/Maritime-Hacking-Village/Badge-2025
   firmware_url: https://github.com/Maritime-Hacking-Village/Badge-2025
   eda_tool: KiCad
-  notes: 'Hardware licensed CERN-OHL-W; Rust firmware dual-licensed Apache-2.0 / MIT.'
+  notes: Hardware licensed CERN-OHL-W; Rust firmware dual-licensed Apache-2.0 / MIT.
 links:
 - label: maritimehackingvillage.com/shop/p/badge-dc33
   url: https://maritimehackingvillage.com/shop/p/badge-dc33
@@ -64,18 +64,18 @@ links:
   kind: repo
 images:
 - file: assets/images/badges/dc33/maritime-village-badge/1d7713aaf1.jpg
-  source: "https://maritimehackingvillage.com/shop/p/differential-destroyer-badge"
-  credit: "Maritime Hacking Village"
-  caption: "The Differential Destroyer / MHV DC33 badge, main product photo"
+  source: https://maritimehackingvillage.com/shop/p/differential-destroyer-badge
+  credit: Maritime Hacking Village
+  caption: The Differential Destroyer / MHV DC33 badge, main product photo
 - file: assets/images/badges/dc33/maritime-village-badge/0738efe15a.jpg
-  source: "https://maritimehackingvillage.com/shop/p/differential-destroyer-badge"
-  credit: "Maritime Hacking Village"
-  caption: "PCB render of the Differential Destroyer badge"
+  source: https://maritimehackingvillage.com/shop/p/differential-destroyer-badge
+  credit: Maritime Hacking Village
+  caption: PCB render of the Differential Destroyer badge
 contact: {}
 notes:
 - 'List Makers Note: as a retired naval officer, folks have absolutely no idea just how much of the stuff you use everyday requires free sea routes. These folks went all out on this badge and hacking it will show just how much goes into making sure the stuff you want makes it to your house.'
-- 'The sheet listed this maker as "Maritime Village"; their own materials use "Maritime Hacking Village" (MHV).'
-- 'The maker''s shop currently lists this same design (matching functions text almost verbatim) under the name "Differential Destroyer Badge," sold at DEF CON 34 as leftover stock from the DC33 preorder run, at a discounted $225 (from $250) rather than the original $300 preorder price. The original badge-dc33 shop URL from the sheet now 404s.'
+- The sheet listed this maker as "Maritime Village"; their own materials use "Maritime Hacking Village" (MHV).
+- The maker's shop currently lists this same design (matching functions text almost verbatim) under the name "Differential Destroyer Badge," sold at DEF CON 34 as leftover stock from the DC33 preorder run, at a discounted $225 (from $250) rather than the original $300 preorder price. The original badge-dc33 shop URL from the sheet now 404s.
 status: released
 sources:
 - kind: sheet
@@ -101,8 +101,14 @@ research:
   status: researched
   confidence: high
   last_checked: '2026-09-06'
-  notes: 'Original badge-dc33 shop URL from the sheet is dead (404) and not in the Wayback Machine. Identified via the MHV shop''s current "Differential Destroyer Badge" listing, whose description matches the sheet''s functions text (NMEA2000, NMEA0183, Modbus RTU, CAN bus fault injection) almost word for word, and confirmed against the maker''s Badge-2025 GitHub repo for hardware specifics. Exact production quantity was not disclosed by the maker; the DC34 listing calls remaining stock "one of the very last ones ever created." Colors, shape, and SAO header presence were not stated by any source and are left empty.'
-last_modified_date: '2026-09-06'
+  notes: Original badge-dc33 shop URL from the sheet is dead (404) and not in the Wayback Machine. Identified via the MHV shop's current "Differential Destroyer Badge" listing, whose description matches the sheet's functions text (NMEA2000, NMEA0183, Modbus RTU, CAN bus fault injection) almost word for word, and confirmed against the maker's Badge-2025 GitHub repo for hardware specifics. Exact production quantity was not disclosed by the maker; the DC34 listing calls remaining stock "one of the very last ones ever created." Colors, shape, and SAO header presence were not stated by any source and are left empty.
+last_modified_date: '2026-09-07'
+model:
+  file: assets/models/dc33/maritime-village-badge.glb
+  method: kicad
+  source_file: KiCAD/DC33/DC33.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 1171188
 ---
 
 The Differential Destroyer is the DEF CON 33 (2025) badge from the Maritime Hacking Village (MHV), built around a Raspberry Pi Pico 2 with a 1.9" color TFT display, a joystick, an accelerometer, and 9 WS2812B RGB LEDs alongside 6 single-color status indicators. It is not a novelty badge: it is a working protocol-analysis and fault-injection tool for the buses that run ships and industrial equipment, supporting NMEA2000, NMEA0183, Modbus RTU, and standard CAN bus (via an MCP2518FD CAN-FD transceiver), with a differential injector circuit capable of driving fault voltages onto those buses at up to 5 MHz in 0.5V steps. Badge behavior and the injection engine are scriptable through an embedded Rhai interpreter written in Rust.

@@ -265,5 +265,61 @@
    "eagle->kicad ok"
   ],
   "src": "MrRobotBadge.brd"
+ },
+ "dc33-htp-graffiti": {
+  "status": "failed",
+  "tried": [
+   "kicad glb: glb export failed: Failed to load board: One or more items were found on undefined layers (Rescue). Open the board in the PCB Editor to resolve.\n",
+   "cleanup retry:  last):\n  File \"<string>\", line 18, in <module>\n    for it in items(b.GetDrawings): moved += fix(it)\n                   ",
+   "kicad gerbers: gerber export failed: Failed to load board: One or more items were found on undefined layers (Rescue). Open the board in the PCB Editor to resolve.\n"
+  ]
+ },
+ "fri3d-2024-fri3d-camp-2024-badge": {
+  "status": "ok",
+  "method": "gerber",
+  "bytes": 57776,
+  "tried": [],
+  "src": "Fri3d_2024_Badge_00/OUTPUT/Gerber"
+ },
+ "fri3d-2022-time-blaster": {
+  "status": "ok",
+  "method": "gerber",
+  "bytes": 60676,
+  "tried": [],
+  "src": "design/Time_Blaster_00/OUTPUT/Gerber"
+ },
+ "fri3d-2018-fri3d-2018-bot-jewel": {
+  "status": "ok",
+  "method": "gerber",
+  "bytes": 50396,
+  "tried": [],
+  "src": "design/jewels/Bot.00/OUTPUT/Gerber"
+ },
+ "dc32-dc32-lle-defcon32-sao": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 201656,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "dc32sao.brd"
+ },
+ "dc27-mooltipass-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 718988,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "element.brd"
+ },
+ "dc26-eggplant-sao": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 46128,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "eggplant.brd"
  }
 }

@@ -100,6 +100,12 @@ redirect_from:
 - /badges/other/sao-pad-shitty-addon-thinkpad/
 related:
 - dc31-shitpad-sao-cannot-wait-to-see-this-one
+model:
+  file: assets/models/dc30/sao-pad-shitty-addon-thinkpad.glb
+  method: kicad
+  source_file: shitpad.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 94664
 ---
 
 kaybarkbark's `sao_pad` GitHub repository publishes the open-source hardware and firmware for a "shitty addon thinkpad" — a ThinkPad-parody SAO. The KiCad project ("shitpad") includes logo footprints named "ibm", "lenowo" and "smug" alongside a Digispark (ATtiny85) module and an I2C OLED footprint, wired to a 6-pin connector silkscreened "Shitty Connector" that matches the standard SAO header. The repo's Arduino sketch (`code/oled/oled.ino`) drives a 128x64 OLED via the DigisparkOLED library, showing a "hack.asm Run!" boot header and then scrolling fake x86 assembly-mnemonic text (with an occasional joke line); a logo bitmap is bundled in the repo but is never called by the sketch, so no image is actually displayed on the running board. Gerbers and a full KiCad project (schematic, PCB, backups) are included, but there is no README, no price or quantity information, and no statement of which convention it was made for.

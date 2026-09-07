@@ -85,9 +85,18 @@ research:
   confidence: high
   last_checked: '2026-09-06'
   notes: The community sheet listed this as type "badge" but the maker's own repo describes it as an SAO (2x3 shrouded SAO header, no independent power/enclosure), so type was corrected to sao. No firmware exists — it is a passive blinky circuit, so tech.mcu is none and firmware_url is empty. EDA tool and license are not stated in the repo and were left blank rather than guessed. Could not confirm exact quantity beyond the sheet's "250" or find independent press coverage; the GitHub repo and its README were the only source located. The maker later did a "Power Glove Re-release" at DC34 (separate existing entry, not this one).
-last_modified_date: '2026-09-06'
+last_modified_date: '2026-09-07'
 related:
 - dc34-power-glove-re-release
+model:
+  file: assets/models/dc32/power-glove.glb
+  method: gerber
+  source_file: gerbers/Edited Glove Gerbers.zip
+  generated: '2026-09-07'
+  bytes: 109984
+  size_mm:
+  - 37.1
+  - 64.3
 ---
 
 The Power Glove is a free SAO NilbinSec gave away at DEF CON 32 (2024), styled after the classic Nintendo Power Glove accessory. It has no microcontroller: three flashing RGB SMD LEDs and one red through-hole LED do all the work, wired directly off the host badge's power through a standard 2x3 shrouded SAO header, so it just blinks on its own once plugged in.

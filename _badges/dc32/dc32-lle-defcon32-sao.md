@@ -12,7 +12,7 @@ makers:
 - name: LLE (lle)
   url: https://github.com/lle
 summary: A DEF CON 32 Shitty Add-On by GitHub maker lle built around an STM32F0 driving an 8x8 LED matrix with a single button, running an animation/screensaver mode plus a new racing-game mode on firmware carried over from their DEF CON 31 blinky add-on.
-functions: 'Single-button interface with an animation/screensaver mode and a new racing-game mode, built on firmware inherited from the maker''s DEF CON 31 add-on.'
+functions: Single-button interface with an animation/screensaver mode and a new racing-game mode, built on firmware inherited from the maker's DEF CON 31 add-on.
 look:
   colors: []
   shape: null
@@ -36,7 +36,7 @@ get_one:
   distribution: []
   where: ''
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/lle/defcon32-sao
   firmware_url: https://github.com/lle/defcon32-sao
   eda_tool: null
@@ -49,9 +49,9 @@ links:
   kind: repo
 images:
 - file: assets/images/badges/dc32/dc32-lle-defcon32-sao/00e53040d8.jpg
-  source: "https://github.com/lle/defcon32-sao"
-  credit: "lle"
-  caption: "The DEF CON 32 SAO board"
+  source: https://github.com/lle/defcon32-sao
+  credit: lle
+  caption: The DEF CON 32 SAO board
 contact: {}
 notes: []
 status: released
@@ -77,6 +77,12 @@ research:
   last_checked: '2026-09-07'
   notes: Both repos are the maker's personal open-source hardware/firmware releases; neither documents price, quantity made, or how/whether it was distributed to others, so those fields are left empty. No third-party coverage (Hackaday, press, storefronts) of this SAO was found.
 last_modified_date: '2026-09-07'
+model:
+  file: assets/models/dc32/dc32-lle-defcon32-sao.glb
+  method: kicad
+  source_file: dc32sao.brd
+  generated: '2026-09-07'
+  bytes: 201656
 ---
 
 LLE's DEF CON 32 SAO is a small STM32F0-based add-on built around an 8x8 LED matrix and a single push button, continuing directly from their DEF CON 31 blinky add-on. The firmware reuses that project's foundation code (in turn recycled from an earlier "Snake Business Card" design) and adds a new racing-game mode alongside the original animation/screensaver mode.

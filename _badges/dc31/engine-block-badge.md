@@ -117,6 +117,12 @@ research:
   last_checked: '2026-09-07'
   notes: Core facts (MCU, LED count/types, SAO/CAN design, battery, connectors) come straight from the maker's own KiCad BOM and firmware README, corroborated by the maker's own walkthrough video. Could not find a storefront listing, so quantity made and post-con availability are unknown - it appears to have been sold only in person at DC31. No independent press coverage (hackaday.com, hackster.io) turned up; web search was unavailable for part of this research (session search quota exhausted, DuckDuckGo/Bing gave no usable results), so it is possible some coverage exists that was not found.
 last_modified_date: '2026-09-07'
+model:
+  file: assets/models/dc31/engine-block-badge.glb
+  method: kicad
+  source_file: CHV_DC31.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 477160
 ---
 
 The DEF CON 31 Car Hacking Village badge is shaped and silkscreened like an engine block, with reverse-mount LEDs standing in for cylinders. Designed by CHV volunteer "Linted," it runs on an RP2040 and is built around CAN bus rather than the usual badge I2C bus: three SAO headers use the standard 2x3, 1.69bis footprint but swap the I2C pins for CAN TX/RX, each backed by its own MCP2558FD CAN FD transceiver, so the badge (and any attached SAO) can be addressed as CAN nodes. It runs MicroPython with a REPL over USB-C and also exposes an slcan interface, letting it double as a USB-to-CAN adapter for tools like `cansniffer`. Power comes from either USB-C or an onboard 2x AA holder.

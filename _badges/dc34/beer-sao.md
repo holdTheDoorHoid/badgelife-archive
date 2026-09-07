@@ -34,14 +34,14 @@ tech:
 get_one:
   price: $45
   price_usd: 45.0
-  quantity: '56 sold as of check (storefront listed "OUT", pre-order option available)'
+  quantity: 56 sold as of check (storefront listed "OUT", pre-order option available)
   availability: sold_out
   distribution:
   - purchase
   - preorder
   where: Sold directly through the maker's Uberflux storefront; includes the cup SAO, a waterproof DS18B20 probe on a ~250mm cable, and a DEF CON 34 SAO 180-degree adapter.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/aerospace-venoms/BCCC_Temperature_SAO
   firmware_url: https://github.com/aerospace-venoms/BCCC_Temperature_SAO
   eda_tool: KiCad
@@ -53,21 +53,21 @@ links:
   url: https://github.com/aerospace-venoms/BCCC_Temperature_SAO
   kind: repo
 images:
-  - file: assets/images/badges/dc34/beer-sao/f8c144bba2.jpg
-    source: "https://uberflux.com/product/BUD-BEER-SAO"
-    credit: "aerospace-venoms"
-    caption: "Beer SAO product photo, red solo-cup shape with 7-segment display"
-  - file: assets/images/badges/dc34/beer-sao/baa680f9ed.jpg
-    source: "https://uberflux.com/product/BUD-BEER-SAO"
-    credit: "aerospace-venoms"
-    caption: "Beer SAO with waterproof DS18B20 temperature probe cable"
+- file: assets/images/badges/dc34/beer-sao/f8c144bba2.jpg
+  source: https://uberflux.com/product/BUD-BEER-SAO
+  credit: aerospace-venoms
+  caption: Beer SAO product photo, red solo-cup shape with 7-segment display
+- file: assets/images/badges/dc34/beer-sao/baa680f9ed.jpg
+  source: https://uberflux.com/product/BUD-BEER-SAO
+  credit: aerospace-venoms
+  caption: Beer SAO with waterproof DS18B20 temperature probe cable
 contact:
   discord: the_ames
   emails:
   - ames@aerospacevenoms.com
 notes:
-- "Sheet listed the maker as 'Beverage Cooling Contraption Contest'; the item is made by aerospace-venoms (contact: ames), for BCCC winners."
-- "Sheet listed price as $10; the maker's storefront lists $45. Kept the storefront price as the sourced figure and noted the discrepancy here."
+- 'Sheet listed the maker as ''Beverage Cooling Contraption Contest''; the item is made by aerospace-venoms (contact: ames), for BCCC winners.'
+- Sheet listed price as $10; the maker's storefront lists $45. Kept the storefront price as the sourced figure and noted the discrepancy here.
 status: released
 sources:
 - kind: sheet
@@ -77,20 +77,26 @@ sources:
   listing: New
 - kind: url
   url: https://uberflux.com/product/BUD-BEER-SAO
-  title: "Beer SAO - BUD-BEER-SAO | Uberflux"
+  title: Beer SAO - BUD-BEER-SAO | Uberflux
   accessed: '2026-09-06'
-  note: "Price ($45), package contents, quantity sold (56), sold-out/pre-order status, RP2350 mention, images."
+  note: Price ($45), package contents, quantity sold (56), sold-out/pre-order status, RP2350 mention, images.
 - kind: url
   url: https://github.com/aerospace-venoms/BCCC_Temperature_SAO
-  title: "aerospace-venoms/BCCC_Temperature_SAO"
+  title: aerospace-venoms/BCCC_Temperature_SAO
   accessed: '2026-09-06'
-  note: "Maker identity, RP2350A chip detail, 7-segment/74HC595 LED design, WTFPL v2 license, KiCad hardware + Pico SDK firmware confirmed open source, dual-core firmware design, DS18B20 sensor with internal-die fallback."
+  note: Maker identity, RP2350A chip detail, 7-segment/74HC595 LED design, WTFPL v2 license, KiCad hardware + Pico SDK firmware confirmed open source, dual-core firmware design, DS18B20 sensor with internal-die fallback.
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-06'
-  notes: "Core facts confirmed directly from the maker's own storefront and GitHub repo. Could not find a Hackaday.io page or press coverage; none appears to exist. Exact SAO header version (v1/v1.69bis) not stated in either source, left null. 'Quantity made' (as opposed to units sold) not stated."
-last_modified_date: '2026-09-06'
+  notes: Core facts confirmed directly from the maker's own storefront and GitHub repo. Could not find a Hackaday.io page or press coverage; none appears to exist. Exact SAO header version (v1/v1.69bis) not stated in either source, left null. 'Quantity made' (as opposed to units sold) not stated.
+last_modified_date: '2026-09-07'
+model:
+  file: assets/models/dc34/beer-sao.glb
+  method: kicad
+  source_file: hardware/bccc_sao_rp2350a/bccc_sao_rp2350a.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 549816
 ---
 
 The Beer SAO is a red-solo-cup-shaped add-on made by aerospace-venoms (maker handle "ames") for winners of DEF CON 34's Beverage Cooling Contraption Contest (BCCC) — the long-running contest where hackers build janky refrigeration rigs to chill their drinks. Rather than just looking like a beer, it actually measures one: a waterproof DS18B20 probe on a roughly 250mm cable plugs into the board and reports the temperature in Fahrenheit across three 7-segment LED digits, multiplexed through a 74HC595 shift register and shining through a 3D-printed shroud. If the external probe isn't plugged in, the board falls back to reading its own RP2350's internal die temperature instead.

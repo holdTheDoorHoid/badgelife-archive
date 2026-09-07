@@ -12,7 +12,7 @@ makers:
 - name: Gustavo Reynaga (Hulkco)
   url: https://hackaday.io/hacker/148221-gustavo-reynaga
 summary: An octopus-shaped open-source PCB badge modelled on the OSHWDem mascot, built around an ESP-12 (ESP8266) WiFi module with five addressable WS2812B Neopixels, designed in KiCad and Inkscape in Mazatlan, Mexico for the OSHWDem 2017 maker event in A Coruna, Spain.
-functions: 'WiFi-connected IoT badge with five addressable RGB LEDs (Neopixels) arranged as the octopus''s "legs".'
+functions: WiFi-connected IoT badge with five addressable RGB LEDs (Neopixels) arranged as the octopus's "legs".
 look:
   colors: []
   shape: octopus
@@ -52,9 +52,9 @@ links:
   kind: repo
 images:
 - file: assets/images/badges/oshwdem-2017/oshwi-octopus-iot-badge/c4467d3d4e.jpg
-  source: "https://hackaday.io/project/116882-oshwi-the-octopus-iot-badge"
-  credit: "Gustavo Reynaga (Hulkco)"
-  caption: "Oshwi octopus-shaped IoT badge PCB"
+  source: https://hackaday.io/project/116882-oshwi-the-octopus-iot-badge
+  credit: Gustavo Reynaga (Hulkco)
+  caption: Oshwi octopus-shaped IoT badge PCB
 contact: {}
 notes: []
 status: released
@@ -80,6 +80,12 @@ research:
   last_checked: '2026-09-07'
   notes: No pricing, quantity-made, or distribution/availability details found on either the Hackaday.io project page or the GitHub repo; get_one fields left empty. The GitHub repo also contains a 2019 folder, suggesting a follow-up or updated version of the badge was built for a later OSHWDem, but no separate 2019 project page or details were found to confirm this as a distinct release. The repo carries no LICENSE file, so hardware openness is recorded as partial (files are public but not formally licensed) rather than a confirmed open-source license.
 last_modified_date: '2026-09-07'
+model:
+  file: assets/models/oshwdem-2017/oshwi-octopus-iot-badge.glb
+  method: kicad
+  source_file: 2017/Hackster_Version/001.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 225320
 ---
 
 Oshwi is an octopus-shaped open-hardware PCB badge that Gustavo Reynaga (working as Hulkco) designed in Mazatlan, Mexico for OSHWDem 2017, the open-source-hardware maker gathering held in A Coruna, Spain. The badge takes its form from OSHWDem's own octopus mascot and centers on an ESP-12 module (ESP8266), giving it WiFi connectivity, with five WS2812B addressable Neopixels lighting up the octopus's legs. Reynaga designed the board in KiCad and did the artwork in Inkscape, and later submitted the project to the Hackaday Prize's Open Hardware Design Challenge.

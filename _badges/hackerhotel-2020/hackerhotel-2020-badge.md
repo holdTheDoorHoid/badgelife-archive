@@ -10,8 +10,8 @@ event: hackerhotel-2020
 year: 2020
 makers:
 - name: Badge.Team (Renze Nicolai, Nikolett S., Sake, Glu)
-summary: 'A mixed-reality escape-room badge with an Egyptian cat-goddess storyline, played through a serial text adventure and four front buttons.'
-functions: 'Puzzle/escape-room gameplay driven over a USB-serial text interface (115200 8n1); four front buttons for game input; LED matrix for feedback/effects.'
+summary: A mixed-reality escape-room badge with an Egyptian cat-goddess storyline, played through a serial text adventure and four front buttons.
+functions: Puzzle/escape-room gameplay driven over a USB-serial text interface (115200 8n1); four front buttons for game input; LED matrix for feedback/effects.
 look:
   colors: []
   shape: null
@@ -34,9 +34,9 @@ get_one:
   availability: unknown
   distribution:
   - free_drop
-  where: 'Distributed to attendees at Hackerhotel 2020.'
+  where: Distributed to attendees at Hackerhotel 2020.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/badgeteam/hackerhotel-2020-hardware
   firmware_url: https://github.com/badgeteam/hackerhotel-2020-software
   eda_tool: KiCad
@@ -52,9 +52,9 @@ links:
   kind: repo
 images:
 - file: assets/images/badges/hackerhotel-2020/hackerhotel-2020-badge/35e987f4ba.gif
-  source: "https://badge.team/docs/badges/hackerhotel-2020/"
-  credit: "Badge.Team"
-  caption: "Hackerhotel 2020 badge showing LED matrix and buttons"
+  source: https://badge.team/docs/badges/hackerhotel-2020/
+  credit: Badge.Team
+  caption: Hackerhotel 2020 badge showing LED matrix and buttons
 contact: {}
 notes:
 - Mixed-reality escape-room badge with Egyptian cat-goddess lore, USB-serial text adventure at 115200 baud, four front buttons, bottom-mounted SAO connector, LED matrix.
@@ -69,7 +69,7 @@ sources:
   url: https://badge.team/docs/badges/hackerhotel-2020/
   title: Hackerhotel 2020 Badge (docs)
   accessed: '2026-09-07'
-  note: 'Confirmed badge type, gameplay (mixed-reality escape room), maker credits, four front buttons, LED matrix, USB-serial 115200 8n1, SAO connector, battery-powered; noted a known production issue with mirrored SAO pinout/inverted LED matrix that Badge.Team offered rework for at events.'
+  note: Confirmed badge type, gameplay (mixed-reality escape room), maker credits, four front buttons, LED matrix, USB-serial 115200 8n1, SAO connector, battery-powered; noted a known production issue with mirrored SAO pinout/inverted LED matrix that Badge.Team offered rework for at events.
 - kind: url
   url: https://github.com/badgeteam/hackerhotel-2020-hardware
   title: badgeteam/hackerhotel-2020-hardware
@@ -84,8 +84,14 @@ research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'Maker''s own docs and both GitHub repos (hardware + software) confirm the badge concept, gameplay, credits, and that it is open source (KiCad hardware under CERN-OHL-P, firmware under MIT). Exact MCU part number, LED count/type, display type, SAO header version, price, and quantity made are not stated anywhere found and are left empty rather than guessed. The firmware toolchain (gcc-avr + pyupdi) indicates an AVR chip programmed over UPDI, noted here but not filled into tech.mcu since the specific part is unconfirmed.'
+  notes: Maker's own docs and both GitHub repos (hardware + software) confirm the badge concept, gameplay, credits, and that it is open source (KiCad hardware under CERN-OHL-P, firmware under MIT). Exact MCU part number, LED count/type, display type, SAO header version, price, and quantity made are not stated anywhere found and are left empty rather than guessed. The firmware toolchain (gcc-avr + pyupdi) indicates an AVR chip programmed over UPDI, noted here but not filled into tech.mcu since the specific part is unconfirmed.
 last_modified_date: '2026-09-07'
+model:
+  file: assets/models/hackerhotel-2020/hackerhotel-2020-badge.glb
+  method: kicad
+  source_file: hh2020v1.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 567928
 ---
 
 The Hackerhotel 2020 badge was Badge.Team's contribution to the 2020 edition of Hackerhotel, a small Dutch hacker gathering. Rather than a general-purpose platform badge, it was built as a single-purpose game piece: a mixed-reality escape room wrapped in Egyptian cat-goddess lore, played by connecting to the badge over USB-serial (115200 8n1) and working through a text adventure, with four front-panel buttons and an LED matrix providing in-badge feedback. Design credits split across the usual Badge.Team roles — Renze Nicolai on circuit/PCB design, Nikolett S. on artwork, Sake on the challenges, and Glu on audio.

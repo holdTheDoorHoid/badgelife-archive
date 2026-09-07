@@ -123,6 +123,12 @@ research:
 last_modified_date: '2026-09-07'
 related:
 - dc34-dc34-hacker-pager
+model:
+  file: assets/models/dc33/hacker-pager.glb
+  method: kicad
+  source_file: project/Exploiteers_Hacker_Pager.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 816024
 ---
 
 The Hacker Pager is a retro-styled, open-source wireless messenger built by exploitee.rs around an Espressif ESP32-S3 and a Semtech SX1262 LoRa radio, running a custom fork of the Meshtastic mesh-networking firmware. Shaped like a classic pager, it carries a 192x64 monochrome LCD with a green backlight (including an idle ambient-clock mode), 36 addressable RGB LEDs plus 12 UV LEDs for notifications, and a rechargeable LiPo battery, and it can operate standalone or tether to the Meshtastic phone app over Bluetooth.

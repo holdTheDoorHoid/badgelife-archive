@@ -46,14 +46,16 @@ links:
 - label: www.se.community/youth-challenge
   url: https://www.se.community/youth-challenge/
   kind: website
+  archived: https://web.archive.org/web/20260829000242/https://se.community/youth-challenge/
 - label: twitter.com/sec_defcon
   url: https://twitter.com/sec_defcon
   kind: social
 images:
 - file: assets/images/badges/dc32/secyc-marvin-badge/9790e4590d.jpg
-  source: "https://www.se.community/youth-challenge/"
-  credit: "Social Engineering Community"
-  caption: "The Marvin badge, a learn-to-solder kit shaped like Marvin the Paranoid Android from The Hitchhiker's Guide to the Galaxy"
+  source: https://www.se.community/youth-challenge/
+  credit: Social Engineering Community
+  caption: The Marvin badge, a learn-to-solder kit shaped like Marvin the Paranoid Android from The Hitchhiker's Guide to the Galaxy
+  archived: https://web.archive.org/web/20260829000242/https://se.community/youth-challenge/
 contact: {}
 notes:
 - It will be free to all youth challenge participants. If we have extra later in the con, we will sell them for $100 to help support the challenge, but it will be a limited qty. We recommend youth challenger pre-register to guarantee their spot. https://www.se.community/youth-challenge/
@@ -68,16 +70,17 @@ sources:
   title: Youth Challenge | Social Engineering Community
   accessed: '2026-09-06'
   note: Current page confirms the 2024 SEC Youth Challenge program and that it later moved to DC NextGen, but no longer carries the 2024 Marvin badge copy or photo.
+  archived: https://web.archive.org/web/20260829000242/https://se.community/youth-challenge/
 - kind: url
   url: http://web.archive.org/web/20240814210231/https://www.se.community/youth-challenge/
-  title: "Youth Challenge (archived, Aug 2024) | Social Engineering Community"
+  title: Youth Challenge (archived, Aug 2024) | Social Engineering Community
   accessed: '2026-09-06'
-  note: "Wayback capture from the DEF CON 32 run year: describes Marvin as the youth-challenge badge, that it ships with missing components challengers must solder on to make it functional, that it was free with limited supply, and any surplus would be sold at $100. Source of the badge photo."
+  note: 'Wayback capture from the DEF CON 32 run year: describes Marvin as the youth-challenge badge, that it ships with missing components challengers must solder on to make it functional, that it was free with limited supply, and any surplus would be sold at $100. Source of the badge photo.'
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-06'
-  notes: 'The live se.community youth-challenge page has since been overwritten with a "program discontinued" notice, so all badge-specific detail comes from an August 2024 Wayback Machine capture of that same page (the only source found describing Marvin). No mentions of chip, LEDs, battery, or design files were found anywhere -- Marvin appears to be a passive/solder-practice board rather than an electronic badge with onboard intelligence, but that was not stated outright, so tech.mcu etc. are left empty rather than guessed. Could not reach x.com/sec_defcon (redirect not fetchable by available tools) to check for additional photos or details. No Hackaday.io project, repo, or storefront listing was found.'
+  notes: The live se.community youth-challenge page has since been overwritten with a "program discontinued" notice, so all badge-specific detail comes from an August 2024 Wayback Machine capture of that same page (the only source found describing Marvin). No mentions of chip, LEDs, battery, or design files were found anywhere -- Marvin appears to be a passive/solder-practice board rather than an electronic badge with onboard intelligence, but that was not stated outright, so tech.mcu etc. are left empty rather than guessed. Could not reach x.com/sec_defcon (redirect not fetchable by available tools) to check for additional photos or details. No Hackaday.io project, repo, or storefront listing was found.
 last_modified_date: '2026-09-06'
 ---
 

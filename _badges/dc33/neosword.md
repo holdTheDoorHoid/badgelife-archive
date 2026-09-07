@@ -116,6 +116,12 @@ research:
 last_modified_date: '2026-09-07'
 redirect_from:
 - /badges/dc33/untitled-electronics-def-con-33-badge/
+model:
+  file: assets/models/dc33/neosword.glb
+  method: kicad
+  source_file: Badges/Defcon33/Schematics/Neoswordkicad.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 533088
 ---
 
 The NeoSword is a sword-shaped SAO totem made by Untitled Electronics for DEF CON 33 (2025), sold as an "Indy badge" (independent, unofficial badge) rather than an SAO that plugs into someone else's badge. It hosts up to three SAO modules of its own, runs MicroPython so owners can reflash its behavior without exploiting anything, and combines programmable LED lighting with sound effects (the maker specifically calls out the Wilhelm Scream as a stock effect). It runs on four AA batteries housed in the sword's handle rather than USB power.

@@ -39,6 +39,7 @@ links:
 - label: dianainitiative.org
   url: https://dianainitiative.org
   kind: website
+  archived: https://web.archive.org/web/20260828004016/https://www.dianainitiative.org/
 images: []
 contact:
   emails:
@@ -57,6 +58,7 @@ sources:
   title: The Diana Initiative
   accessed: '2026-09-07'
   note: Maker's own site; no mention of a DEF CON 32 ticket add-on, badge, or SAO found (site covers sponsorships, values, and event info only).
+  archived: https://web.archive.org/web/20260828004016/https://www.dianainitiative.org/
 - kind: sheet
   event: dc32
   row: 105

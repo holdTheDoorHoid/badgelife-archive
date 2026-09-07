@@ -73,6 +73,12 @@ research:
   last_checked: '2026-09-07'
   notes: 'Fact-check pass (2026-09-07): confirmed via the DC801 fork README (raw.githubusercontent.com/dc801/GP2040-CE/main/README.md) and repo/org pages that this is a GP2040-CE fork targeting an RP2040 on "the DC801 Defcon 32 Controller Badge", adding a TLA2528 ADC and an ESP32-C3 Super Mini for BLE, and listing the SOCD cleaning modes, per-button RGB, web configurator, and input modes (X-Input, Switch, PS4/5, Xbox One, D-Input, keyboard) described in functions/body. DC801''s Salt Lake City location and prior DC25-28 badges are confirmed from the GitHub org page. Corrected status from "released" to "unknown": no source found (README, repo, or org page) states the badge was actually manufactured or given to attendees rather than being a firmware project for a planned/prototype badge. Still no dedicated hardware repo, storefront listing, photos, price, or quantity found, so those fields stay empty and confidence stays low.'
 last_modified_date: '2026-09-07'
+model:
+  file: assets/models/dc32/dc801-gp2040-ce-dc32-controller-badge.glb
+  method: kicad
+  source_file: Hardware/dc32.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 2372
 ---
 
 DC801, the Salt Lake City DEF CON group known for a series of badges at past cons, built a game-controller badge for DEF CON 32 (2024). Rather than write firmware from scratch, they forked GP2040-CE — an open-source, low-latency gamepad firmware widely used in arcade sticks and fight sticks — to run on the badge's RP2040 microcontroller.

@@ -381,5 +381,126 @@
   "bytes": 96736,
   "tried": [],
   "src": "787 with Boeing logo SAO extender/787.kicad_pcb"
+ },
+ "dc30-hom3c0ming-badge": {
+  "status": "ok",
+  "method": "gerber",
+  "bytes": 388884,
+  "tried": [
+   "kicad glb: Command '['flatpak', 'run', '--filesystem=home', '--command=kicad-cli', 'org.kicad.KiCad', 'pcb', 'export', 'glb', '-o', '/home/hoid/Desktop/badgelife-archive/d"
+  ],
+  "src": "eda/hom3c0ming_corsage/hom3c0ming_corsage.kicad_pcb"
+ },
+ "dc30-sao-jack": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 110300,
+  "tried": [],
+  "src": "jack/jack.kicad_pcb"
+ },
+ "dc30-sao-pad-shitty-addon-thinkpad": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 94664,
+  "tried": [],
+  "src": "shitpad.kicad_pcb"
+ },
+ "dc31-aerospace-village-badge-2023": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 629820,
+  "tried": [],
+  "src": "Badge/WrightSpace/WrightSpace.kicad_pcb"
+ },
+ "dc31-ai-village-defcon31-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 438296,
+  "tried": [],
+  "src": "AIV_DC31_Staff.kicad_pcb"
+ },
+ "dc31-engine-block-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 477160,
+  "tried": [],
+  "src": "CHV_DC31.kicad_pcb"
+ },
+ "dc31-h4x0r-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 66480,
+  "tried": [],
+  "src": "_autosave-H4X0R-small.kicad_pcb"
+ },
+ "dc31-kermie": {
+  "status": "ok",
+  "method": "gerber",
+  "bytes": 202652,
+  "tried": [],
+  "src": "Gerber Files"
+ },
+ "dc32-cowboys-vs-dinosaurs-limited-run": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 689632,
+  "tried": [],
+  "src": "eda/cowboys_vs_dinos/cowboys_vs_dinos.kicad_pcb"
+ },
+ "dc32-dc801-gp2040-ce-dc32-controller-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 2372,
+  "tried": [],
+  "src": "Hardware/dc32.kicad_pcb"
+ },
+ "dc32-mch2022-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 268308,
+  "tried": [],
+  "src": "mch2022.kicad_pcb"
+ },
+ "dc32-power-glove": {
+  "status": "ok",
+  "method": "gerber",
+  "bytes": 109984,
+  "tried": [],
+  "src": "gerbers/Edited Glove Gerbers.zip"
+ },
+ "dc32-purple-cyclops": {
+  "status": "failed",
+  "tried": [
+   "gerber Gerber_Purple_Cyclops_Bottom_View_LEDs_unz: render is empty",
+   "gerber Gerber_Purple_Cyclops_Side_View_LEDs_unz: tracespace produced no board render: o `drill` and parse as a drill file\n  l\n  tracespace --quiet                        Do not print info to stderr\n\nYou may al"
+  ]
+ },
+ "dc33-hacker-pager": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 816024,
+  "tried": [],
+  "src": "project/Exploiteers_Hacker_Pager.kicad_pcb"
+ },
+ "dc33-neosword": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 533088,
+  "tried": [],
+  "src": "Badges/Defcon33/Schematics/Neoswordkicad.kicad_pcb"
+ },
+ "dc34-beer-sao": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 549816,
+  "tried": [],
+  "src": "hardware/bccc_sao_rp2350a/bccc_sao_rp2350a.kicad_pcb"
+ },
+ "dc34-dc34-clip-boy": {
+  "status": "ok",
+  "method": "gerber",
+  "bytes": 94616,
+  "tried": [],
+  "src": "Clip-Boy/hardware/Gerber_Motherboard.zip"
  }
 }

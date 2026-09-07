@@ -125,6 +125,12 @@ research:
   last_checked: '2026-09-07'
   notes: Maker's own hackaday.io project page and GitHub repo confirmed the core hardware facts; price per unit/backer tier and whether gerbers/license were actually published could not be confirmed (Kickstarter page returned 403 to automated fetch). Quantity and distribution (Kickstarter, 170 of 200 planned) confirmed by two independent sources (Hackaday, Hackaday.io comments).
 last_modified_date: '2026-09-07'
+model:
+  file: assets/models/dc27/mooltipass-badge.glb
+  method: kicad
+  source_file: element.brd
+  generated: '2026-09-07'
+  bytes: 718988
 ---
 
 The DC27 MULTI PASS is an indie electronic badge built for DEF CON 27 (2019) by Bliss Jourdan, who goes by CromulonB. It reimagines the "Multi Pass" ID card prop from the film *The Fifth Element* as a wearable gadget: a gold, card-shaped PCB with a 2.9" e-paper display, capacitive touch buttons standing in for the prop's control surface, and 13 RGB LEDs driven by a secondary ATmega48. Under the hood it runs on a 16MB ESP32 WROOM module and boots the badge.team firmware platform (the same MicroPython-based system used on the SHA2017 and Hacker Hotel badges), so it can load community-written Python apps from the "hatchery" library and receive OTA updates over WiFi.
