@@ -39,17 +39,37 @@ links: []
 images: []
 contact: {}
 notes: []
-status: listed_no_details
+status: unknown
 sources:
 - kind: sheet
   event: dc32
   row: 55
   updated: ''
 research:
-  status: stub
+  status: researched
   confidence: low
-  last_checked: '2026-09-06'
-  notes: Imported from the community badge sheet; not yet researched.
-last_modified_date: '2026-09-06'
+  last_checked: '2026-09-07'
+  notes: >-
+    No project page, storefront, repo, or press coverage could be found for a
+    DEF CON 32 (2024) item from this maker. Web search was unavailable this
+    session (budget exhausted), and attempts via Google, Bing, Hackaday.io
+    search, and X/Twitter search returned no usable results (login walls or
+    no matches). El Jefe de Security has two other stub entries in this
+    archive for DC30 ("Cyber Clippy Badge") and DC31 ("El CiberBrujo Shitty
+    Add-on"), so the maker is a known recurring badgelife participant, but
+    what they brought to DC32 remains unidentified. Leaving title as
+    imported since no DC32-specific item name was found.
+last_modified_date: '2026-09-07'
 ---
+
+El Jefe de Security is a recurring badgelife maker who appears on the community
+sheets for DEF CON 30, 31, and 32, having previously made the "Cyber Clippy
+Badge" (DC30) and "El CiberBrujo Shitty Add-on" (DC31). For DEF CON 32 (2024),
+the community sheet lists the maker but records no further details about what
+they brought that year.
+
+No maker page, Hackaday.io project, GitHub repo, storefront listing, or press
+coverage naming a specific DC32 item from this maker could be located during
+this pass. The item's identity, appearance, and technical details remain
+unknown.
 
