@@ -47,23 +47,22 @@ sources:
   tab: 2025 (expected makers)
   updated: ''
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-06'
   notes: >-
     No public trace of a maker or hacker handle "KernalKrash" (or "Kernal Krash")
-    could be found: web search, Bing, GitHub, Hackaday.io, and Reddit searches
-    all returned no matches. The community sheet lists KernalKrash as an
-    expected maker for DEF CON 33 (2025) with no further detail on what they
-    brought, so it is not possible to say whether they made a badge, an SAO,
-    or something else, or whether it was ever produced. Note: the archive also
-    has a separate dc32 entry for the same maker with the identical
-    "listed, no details" status, suggesting KernalKrash may attend/vend without
-    much of a public web footprint rather than this being a research gap.
+    was found by the research pass (web search, GitHub, Hackaday.io, Reddit). The
+    verification pass re-checked GitHub (user search: 0 results); other search
+    engines were unavailable or returned nothing usable, so the absence is
+    consistent but not exhaustively re-confirmed. The community sheet (tab "2025
+    (expected makers)", row 57) lists KernalKrash with no title, description, price,
+    or link, so it is not possible to say whether they made a badge, an SAO, or
+    something else, or whether it was ever produced. The archive also has a
+    separate dc32 entry (sheet row 75) for the same maker name with the same
+    "listed, no details" status.
 last_modified_date: '2026-09-06'
 ---
+KernalKrash appears on the community-maintained badge sheet as an expected maker for DEF CON 33 (2025), but the sheet row carries no further detail — no title, description, price, or link. No independent trace of this name has been found (web search, GitHub, Hackaday.io, Reddit), so it is not possible to confirm what, if anything, KernalKrash brought to DEF CON 33, or whether it was a badge, an SAO, or another kind of item.
 
-KernalKrash appears on the community-maintained badge sheet as an expected maker for DEF CON 33 (2025), but the sheet row carries no further detail — no title, description, price, or link. No independent trace of this name could be found via general web search, Bing, GitHub, Hackaday.io, or Reddit, so it is not possible to confirm what (if anything) KernalKrash brought to DEF CON 33, or whether it was a badge, an SAO, or another kind of item.
-
-The same maker name also appears in this archive listed for DEF CON 32 with the same "no details" status, which suggests a low public web presence for this maker generally rather than a one-off gap in this search. This entry is left as `unknown` pending someone with direct knowledge (attendee reports, photos, or a future public post from the maker) rather than guessing at contents that no source actually describes.
-
+The same maker name also appears in this archive listed for DEF CON 32 with the same "no details" status, which suggests a low public web presence for this maker generally rather than a one-off gap. This entry is left as `unknown` pending someone with direct knowledge (attendee reports, photos, or a public post from the maker) rather than guessing at contents that no source describes.

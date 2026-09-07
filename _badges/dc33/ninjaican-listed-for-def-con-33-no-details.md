@@ -47,21 +47,19 @@ sources:
   tab: 2025 (expected makers)
   updated: ''
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-06'
   notes: >-
-    Web search budget was exhausted for this session before this entry could be researched, so
-    only a handful of WebFetch probes were possible (Hackaday.io search and profile guess,
-    Google/Bing/DuckDuckGo/lite.duckduckgo.com result pages, GitHub repo/user search, Tindie store
-    guess, X/Twitter search, Instagram profile guess, Linktree guess, r/badgelife search). None
-    turned up a maker or project called "Ninjaican," and several search-engine fetches returned
-    obviously unrelated or empty content (a Mah Jongg storefront, a bare error page), suggesting
-    those fetches were not reaching live search results. No project, storefront, social profile,
-    or press mention for "Ninjaican" was found under this name. Could not confirm what, if
-    anything, this maker brought to DEF CON 33, or even that "Ninjaican" is the correct spelling
-    from the community sheet. Left as unknown per the "listed for DEF CON NN, no details" special
-    case rather than guessing.
+    Only supported facts are the sheet listing itself: "Ninjaican" appears on row 62 of the
+    2025 (expected makers) tab (data/sheets/dc33_makers.txt) with no other columns filled, and
+    the same name also appears on the DC32 sheet (data/sheets/dc32.csv, row 108) with no details.
+    Spelling is confirmed from the sheet. The research pass could not use web search (budget
+    exhausted) and its WebFetch probes of Hackaday.io, GitHub, Tindie, X, Instagram, Linktree and
+    r/badgelife found nothing under this name, though several search-engine fetches returned
+    unrelated content, so absence is not conclusive. No item, type, or attendance could be
+    established; left as unknown per the "listed for DEF CON NN, no details" special case.
+    Verification pass 2026-09-06: no fields or images to check beyond the sheet source.
 last_modified_date: '2026-09-06'
 ---
 

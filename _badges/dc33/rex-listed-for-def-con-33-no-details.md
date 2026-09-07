@@ -47,30 +47,32 @@ sources:
   tab: 2025 (expected makers)
   updated: ''
 research:
-  status: researched
+  status: verified
   confidence: low
-  last_checked: '2026-09-06'
+  last_checked: '2026-09-07'
   notes: >-
-    Could not identify what Rex brought to DEF CON 33 (2025). Rex is a known
-    community badge maker credited with CannaBadge and the MF Doom SAO at
-    DEF CON 32 (2024) and an MF Doom SAO v2 at DEF CON 34 (2026), but no
-    project page, storefront, Hackaday.io project, GitHub repo, or social
-    post ties "Rex" to a specific DEF CON 33 item. Web searches for the
-    maker's name alone are dominated by unrelated "Rex" results (the
-    dinosaur, an airline, etc.), and the only distinguishing detail on file
-    for this maker — the contact email kniveslikebutterflies@gmail.com from
-    the DC32 MF Doom SAO entry — did not surface any further results either.
-    Leaving title and status as imported since no DEF CON 33 item could be
-    confirmed.
-last_modified_date: '2026-09-06'
+    Could not identify what Rex brought to DEF CON 33 (2025). The only source
+    is the "2025 (expected makers)" tab of the community sheet, where row 53
+    is the bare name "Rex" with no title, type, link, price, or description.
+    A maker named Rex also appears on the DEF CON 32 sheet (MF Doom SAO and
+    CannaBadge, both marked "Sale during DEFCON 32") and on the DEF CON 34
+    sheet (MF Doom SAO v2, "coming soon"), and the archive has entries for
+    those three items; it is likely but not confirmed that this is the same
+    person. Web searches for the name alone return unrelated "Rex" results.
+    Fact-check 2026-09-07: re-read the local sheet data for DC32/DC33/DC34;
+    softened "sold" to "listed for sale" since the archive records those
+    items as listed, not confirmed released. Title and status left as
+    imported.
+last_modified_date: '2026-09-07'
 ---
 
 Rex appears on the DEF CON 33 (2025) community badge-maker sheet, but the
-sheet row carried no title, description, or links for what they brought that
-year. Rex is otherwise known in the badgelife community as the maker behind
-CannaBadge and the MF Doom SAO, both sold at DEF CON 32 in 2024, and a
-follow-up MF Doom SAO v2 at DEF CON 34. No DEF CON 33-specific project could
-be found through web search, the maker's known contact email, or any
-storefront, repo, or social presence, so this entry is left unresolved
-rather than guessed.
+sheet row carries only the name, with no title, description, price, or links
+for what they brought that year. A maker named Rex is otherwise listed on the
+community sheets as the maker behind CannaBadge and the MF Doom SAO, both
+offered for sale during DEF CON 32 in 2024, and an MF Doom SAO v2 listed as
+"coming soon" for DEF CON 34; this is probably the same person, though the
+DEF CON 33 row gives nothing to confirm it. No DEF CON 33-specific project
+could be found through web search or any storefront, repo, or social
+presence, so this entry is left unresolved rather than guessed.
 

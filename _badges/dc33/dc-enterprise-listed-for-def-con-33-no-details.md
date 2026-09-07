@@ -47,19 +47,28 @@ sources:
   tab: 2025 (expected makers)
   updated: ''
 research:
-  status: researched
+  status: verified
   confidence: low
-  last_checked: '2026-09-06'
+  last_checked: '2026-09-07'
   notes: >-
     No independent trace of a maker called "DC Enterprise" was found. Searched
     ("DC Enterprise" badge DEF CON 33; "DC Enterprise" DEF CON SAO badge;
     "DC Enterprise" badgelife) via web search and search-engine fetches
     (Google, Bing, DuckDuckGo — DuckDuckGo blocked the request behind a bot
-    challenge), plus a direct Hackaday.io search. None returned any project,
-    profile, storefront, or press mention matching this name. It is possible
-    the name is a misread/abbreviation from the community sheet, the maker
-    used a different public name, or nothing was ultimately brought/listed
-    beyond the sheet row. Leaving type, look, tech, and get_one fields empty
-    per the never-invent rule rather than guessing what was made.
-last_modified_date: '2026-09-06'
+    challenge). A fact-check pass re-ran the Bing query and got only DC Comics /
+    DC Shoes / Washington DC results; the Hackaday.io search URL returns a login
+    page to unauthenticated fetches, so that check is inconclusive rather than
+    negative. None returned any project, profile, storefront, or press mention
+    matching this name. The only source is the DC33 community sheet ("2025
+    (expected makers)" tab, row 36), which lists the maker name alone with no
+    title, description, or link. Within this archive the same maker name,
+    written "DCEnterprise", appears on the DC31 sheet (Mass Relay Badge, a
+    Mass Effect-themed badge that was cancelled when manufacturing permission
+    was denied; entry dc31-mass-relay-badge-sorry-the-council-denied-permission)
+    and on the DC32 sheet (dc32-dcenterprise-listed-for-def-con-32-no-details,
+    also name-only). This DC33 row is plausibly the same maker listed again, but
+    no DC33-specific source says what, if anything, was brought. Leaving type,
+    look, tech, and get_one fields empty per the never-invent rule rather than
+    guessing what was made.
+last_modified_date: '2026-09-07'
 ---

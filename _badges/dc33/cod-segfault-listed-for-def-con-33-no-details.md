@@ -66,9 +66,9 @@ sources:
   accessed: '2026-09-06'
   note: Most relevant recent hardware project on the account (RP2350 + ESP32-C5 distributed WiFi wardriving scanner), but the repo was created March 2026, after DEF CON 33 (Aug 2025), so it cannot be what was listed for that con.
 research:
-  status: researched
+  status: verified
   confidence: low
-  last_checked: '2026-09-06'
+  last_checked: '2026-09-07'
   notes: >-
     No badge/SAO name, description, or links were ever entered for CoD_Segfault
     on the DC33 "expected makers" sheet tab -- only the maker name appears. Web
@@ -76,18 +76,19 @@ research:
     up nothing about a DEF CON 33 item. Found the maker's real GitHub account
     (github.com/CoD-Segfault, confirmed via GitHub's user-search API) and Twitter
     handle from the bio; their repos show wardriving/WiFi-scanner hardware
-    (wardriver.uk contributions, the WiFi Shuriken project) and past DEF CON
-    badge repos for DC27 and DC29, but none for DC31, DC32, or DC33. The
-    archive also holds equally detail-free entries for this maker at DC31
-    ("I have no idea") and DC32 (also "listed, no details"), suggesting this
-    maker is either intentionally cryptic about badge drops or was listed as
-    "expected" without ultimately publishing details for these years. Could not
-    determine what, if anything, CoD_Segfault actually brought to DEF CON 33.
-last_modified_date: '2026-09-06'
+    (a wardriver.uk rev3 fork, alternative BW16 firmware for wardriver.uk, an ESP32-C5 port of that firmware, the WiFi Shuriken project) and repos named
+    DefCon27badge and DefCon29Badge (no descriptions), but none for DC31,
+    DC32, or DC33. The archive also holds equally detail-free entries for this
+    maker at DC31 ("I have no idea") and DC32 ("listed, no details"). Could
+    not determine what, if anything, CoD_Segfault actually brought to DEF CON
+    33. Fact-check 2026-09-07: GitHub profile, repo list, wifi-shuriken repo
+    and the local sheet export (row 27, no extra columns) all re-confirmed;
+    removed speculation about the listing being an in-joke.
+last_modified_date: '2026-09-07'
 ---
 
 CoD_Segfault appears on the DEF CON 33 (2025) community badge sheet's "expected makers" tab, but the row carries no badge/SAO name, no links, no price, and no functions -- just the maker's name. No announcement, storefront listing, or social post describing a DEF CON 33 badge or SAO from this maker could be found.
 
-CoD_Segfault is a real, active hardware hacker based in the Chicagoland area, publicly identifiable through a GitHub account (github.com/CoD-Segfault) and matching Twitter/X handle. Their public work centers on WiFi wardriving hardware -- contributions to the wardriver.uk project, an ESP32-C5 port of its BW16 firmware, and their own "WiFi Shuriken" distributed scanning rig -- plus scattered repos for past DEF CON badges (DC27, DC29). None of that work is dated to, or described as, a DEF CON 33 badge or SAO, so this entry cannot be filled in beyond confirming who the maker is.
+CoD_Segfault is a real, active hardware hacker based in the Chicagoland area, publicly identifiable through a GitHub account (github.com/CoD-Segfault) and matching Twitter/X handle. Their public work centers on WiFi wardriving hardware -- a fork of the wardriver.uk rev3 project, an alternative AT firmware for the BW16 module used in wardriver.uk rev3, an ESP32-C5 port of that firmware, and their own "WiFi Shuriken" distributed scanning rig (RP2350 controller plus ESP32-C5 scanners, repo created March 2026) -- plus repos named DefCon27badge and DefCon29Badge. None of that work is dated to, or described as, a DEF CON 33 badge or SAO, so this entry cannot be filled in beyond confirming who the maker is.
 
-This is the third consecutive year (after DC31's "I have no idea" and an identically blank DC32 listing) that CoD_Segfault appears on the badge sheet with no further detail, which reads more like a running in-joke or intentionally mysterious listing than a simple data-entry gap.
+This is the third consecutive year (after DC31's "I have no idea" and an identically blank DC32 listing) that CoD_Segfault appears on the badge sheet with no further detail.

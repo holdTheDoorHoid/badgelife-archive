@@ -46,27 +46,24 @@ sources:
   row: 64
   tab: 2025 (expected makers)
   updated: ''
+- kind: url
+  url: https://www.whitehouse.gov/oncd/
+  title: Office of the National Cyber Director | The White House
+  accessed: '2026-09-07'
+  note: ONCD's official page; checked 2026-09-07, no mention of DEF CON, badges or coins.
 research:
-  status: researched
+  status: verified
   confidence: low
-  last_checked: '2026-09-06'
+  last_checked: '2026-09-07'
   notes: >-
-    Could not confirm whether the Office of the National Cyber Director (ONCD)
-    actually distributed a badge or SAO at DEF CON 33 (2025). ONCD's own site
-    (whitehouse.gov/oncd) has no mention of DEF CON or any conference hardware.
-    Web search was unavailable this session (WebSearch budget exhausted) and
-    search-engine scraping via WebFetch/curl (Bing, Google, DuckDuckGo, Reddit)
-    returned no usable organic results — DuckDuckGo served a bot-check page and
-    Bing/Google results pages did not expose result content to the fetcher.
-    Hackaday.io search for "National Cyber Director" returned nothing. This entry
-    originated from an "expected makers" sheet row, which lists who was expected
-    to be present/tabling, not necessarily confirmation of a physical badge or
-    SAO handed out. Left as unknown rather than guessing; a follow-up pass with
-    working web search access is needed to resolve this.
-last_modified_date: '2026-09-06'
+    Fact-check 2026-09-07: the only supported facts are that this maker name
+    appears as row 64 of the DC33 "2025 (expected makers)" sheet tab and that
+    ONCD's official page (whitehouse.gov/oncd) does not mention DEF CON, badges
+    or coins. Nothing confirms that ONCD distributed any badge, SAO or coin at
+    DEF CON 33; all descriptive fields are deliberately empty. Prior searches
+    (Hackaday.io; search engines via fetcher) found nothing. Revisit with
+    working web search or a firsthand attendee report.
+last_modified_date: '2026-09-07'
 ---
 
-The Office of the National Cyber Director (ONCD), a White House office, appears on the DEF CON 33 (2025) community "expected makers" sheet, but no independent source could be found confirming what, if anything, it distributed. Government agencies and offices sometimes hand out challenge coins, stickers, or occasionally small electronic giveaways at DEF CON, but this could not be verified for ONCD specifically at DC33 with the sources available this session.
-
-No maker page, repurposed press coverage, storefront, or fabrication share turned up in the searches attempted (ONCD's own site, Bing, Google, DuckDuckGo, Reddit, and Hackaday.io). This entry is left at `unknown` rather than guessing at details; it should be revisited with a working search tool, or with firsthand photos/reports from an attendee.
-
+The Office of the National Cyber Director (ONCD), a White House office, appears on the DEF CON 33 (2025) community "expected makers" sheet (row 64 of the 2025 tab), but no source could be found confirming what, if anything, it distributed. ONCD's own website does not mention DEF CON. The entry is left at `unknown` rather than guessing; it should be revisited with a working search tool or with firsthand photos or reports from an attendee.

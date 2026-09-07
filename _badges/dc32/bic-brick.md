@@ -62,7 +62,7 @@ sources:
   accessed: '2026-09-06'
   note: Maker's badge page for the relevant period covers the "BIC Pick" (DC33 anniversary badge) only; does not mention a "BIC Brick" item.
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-06'
   notes: >-

@@ -47,11 +47,17 @@ sources:
   tab: 2025 (expected makers)
   updated: ''
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-06'
   notes: >-
-    Maker "Bitefl0w" was listed on the DC33 (2025) community badge sheet with no
+    Verification pass 2026-09-06: sheet listing confirmed against the local
+    sheet export (DC33 "2025 (expected makers)" row 15; DC32 sheet row 22 has
+    the maker name only, every other column blank). hackaday.io/bitefl0w and
+    github.com/bitefl0w re-fetched and still 404. Sibling DC32 entry exists.
+    No web search engine was reachable during verification, so the "no
+    results" finding could not be independently repeated; nothing in the
+    entry depends on it. Maker "Bitefl0w" was listed on the DC33 (2025) community badge sheet with no
     other details, and no badge/SAO title was given to research. Web searches
     ("bitefl0w" DEF CON 33, "bitefl0w" hackaday, "bitefl0w" SAO/badge, and
     variants) turned up no maker page, Hackaday.io profile, GitHub, storefront,
@@ -67,4 +73,4 @@ last_modified_date: '2026-09-06'
 
 Bitefl0w appears on the community-sourced list of expected DEF CON 33 (2025) badge makers, but the sheet carried no title, description, or link for what they brought. A round of web searches for the handle "bitefl0w" — across Hackaday.io, GitHub, DEF CON forums, and general search — turned up no maker page, project write-up, or storefront under that name, and direct checks of `hackaday.io/bitefl0w` and `github.com/bitefl0w` both 404.
 
-This maker has the same "listed, no details" gap for DEF CON 32 as well, so this may be a handle that only ever appeared internally on organizer/vendor lists rather than one with a public web presence. Status is left as unknown rather than guessed at; a future pass could try DEF CON 33 vendor/village photo sets or badge-swap threads that might name-check the maker directly.
+This maker has the same "listed, no details" gap for DEF CON 32 as well. Status is left as unknown rather than guessed at; a future pass could try DEF CON 33 vendor/village photo sets or badge-swap threads that might name-check the maker directly.

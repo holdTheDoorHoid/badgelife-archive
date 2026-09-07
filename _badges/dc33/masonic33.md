@@ -10,7 +10,7 @@ event: dc33
 year: 2025
 makers:
 - name: Hak4Kidz
-summary: A Masonic-themed puzzle badge from Hak4Kidz, sold as a preorder ahead of DEF CON 33.
+summary: A Masonic-themed puzzle badge from Hak4Kidz, offered by preorder ahead of DEF CON 33 and sold through Hacker Warehouse at the con.
 functions: Masonic puzzle badge
 look:
   colors: []
@@ -29,10 +29,11 @@ get_one:
   price_usd: 125.0
   quantity: ''
   availability: unknown
-  availability_note: 'No storefront or preorder link could be located for the DC33 (2025) listing as of 2026-09-06; only the community sheet describes it.'
+  availability_note: 'The community sheet names Hacker Warehouse at DEF CON 33 as the store and asks for Discord preorders; no online storefront or preorder link exists for the DC33 listing, so current availability could not be checked (2026-09-06).'
   distribution:
   - preorder
-  where: 'Preorder by direct message to "healwhans" on Discord, per the community sheet.'
+  - purchase
+  where: 'Per the community sheet: preorder by direct message to "healwhans" on Discord, or at the Hacker Warehouse store at DEF CON 33.'
 make_your_own:
   open_source: null
   hardware_url: null
@@ -60,7 +61,7 @@ sources:
   row: 13
   updated: 6/24/2025 12:29:29
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-06'
   notes: >-
@@ -82,9 +83,14 @@ research:
     fields empty rather than guess. The sheet's design-aesthetic notes (square
     & compass front art, VHS-style box, patch/lanyard/stickers bundle) are the
     only detailed description available and are preserved verbatim in `notes`.
+    Fact-check 2026-09-06: every field re-checked against data/sheets/dc33.csv row
+    13 and the DC34 sheet row; hak4kidz.com re-fetched and confirmed not to mention
+    the badge. The sheet's store field ("Hacker Warehouse at DEF CON33") had been
+    omitted and was added to `where`/`distribution`. All remaining content is
+    supported by the maker's own sheet listing; nothing beyond it is claimed.
 last_modified_date: '2026-09-06'
 ---
 
-Masonic33 is a Masonic-themed puzzle badge that Hak4Kidz listed on the DEF CON 33 (2025) community badge sheet, offered as a $125 preorder arranged by direct message to "healwhans" on Discord. Per the sheet, it is a monochrome badge with glyphic symbols and shine-down LEDs, its front art built around a square-and-compass motif surrounded by radiant bursts, and it shipped in a custom VHS-style box with lore-driven packaging alongside bonus merchandise: an embroidered patch, a themed lanyard, and three exclusive vinyl stickers.
+Masonic33 is a Masonic-themed puzzle badge that Hak4Kidz listed on the DEF CON 33 (2025) community badge sheet at $125, with preorders arranged by direct message to "healwhans" on Discord and sales at the Hacker Warehouse store at the con. Per the sheet, it is a monochrome badge with glyphic symbols and shine-down LEDs, its front art built around a square-and-compass motif surrounded by radiant bursts, packaged in a custom VHS-style box with lore-driven theming and bundled with an embroidered patch, a themed lanyard, and three exclusive vinyl stickers.
 
-No maker page, storefront, Hackaday.io project, repo, or press coverage could be found to confirm details beyond the sheet, and Hak4Kidz's own website does not mention it. A near-identical concept resurfaced the following year as the "Masonic33 Puzzle Badge" (dc34-masonic33-puzzle-badge) from "Hak4Kidz Lab" — same $125 price, same puzzle framing, same Discord contact — suggesting this badge (or its design) was carried forward or re-run for DEF CON 34, though neither year's listing could be independently verified beyond preorder mechanics.
+No maker page, online storefront, Hackaday.io project, repo, or press coverage could be found to confirm details beyond the sheet, and Hak4Kidz's own website does not mention it. The following year's community sheet lists a "Masonic33 Puzzle Badge" (dc34-masonic33-puzzle-badge) from "Hak4Kidz Lab" at the same $125 price and with the same Discord contact; whether that is the same badge re-run or a new revision is not stated in either listing.

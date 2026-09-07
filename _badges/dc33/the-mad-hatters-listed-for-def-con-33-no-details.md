@@ -69,13 +69,16 @@ research:
   notes: >-
     Sheet row lists only the maker name for DC33 with no further detail. Checked the
     maker's own site (madhatters.lol) and GitHub org (github.com/the-mad-hatters) plus
-    web searches for "Mad Hatters" + DEF CON 33 / DC33 / 2025 badge or SAO; all available
-    material (site copy, GitHub repo, Printables accessory listings, press) only covers
-    their DC32 (2024) badge and SAO ("Mad Hatter Auto Revelator" and "Madragrammaton SAO",
-    already separate archive entries). No evidence found that The Mad Hatters produced or
-    listed anything specific for DEF CON 33 (2025); could not confirm what, if anything,
-    they brought that year.
-last_modified_date: '2026-09-06'
+    web searches for "Mad Hatters" + DEF CON 33 / DC33 / 2025 badge or SAO; the site and
+    the org's only public repo cover their DC32 (2024) badge and SAO ("Mad Hatter Auto
+    Revelator" and "Madragrammaton SAO", already separate archive entries). No evidence
+    found that The Mad Hatters produced or listed anything specific for DEF CON 33 (2025);
+    could not confirm what, if anything, they brought that year. Fact-checked 2026-09-07
+    against both cited pages: madhatters.lol mentions only DC32 2024 and Hacker Warehouse,
+    and the GitHub org lists only defcon2024badge. A mention of Printables top-hat
+    accessories was removed because no source in this entry supports it. The sheet row
+    itself cannot be re-checked from the repo.
+last_modified_date: '2026-09-07'
 ---
 
 The Mad Hatters appear on the community badge sheet as an expected maker for DEF CON 33
@@ -83,8 +86,7 @@ The Mad Hatters appear on the community badge sheet as an expected maker for DEF
 turned up nothing tying them to a specific DEF CON 33 release: their website
 (madhatters.lol) and GitHub org (github.com/the-mad-hatters) both only document their
 DC32 (2024) work, the "Mad Hatter Auto Revelator" badge and matching "Madragrammaton SAO"
-(each already has its own archive entry), including third-party accessories like
-Printables top-hat attachments made for that year's hardware.
+(each already has its own archive entry).
 
 No badge, SAO, or other item specific to DEF CON 33 could be confirmed from available
 sources, so this entry is left as unknown rather than guessed. If The Mad Hatters

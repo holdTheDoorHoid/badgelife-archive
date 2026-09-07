@@ -47,7 +47,7 @@ sources:
   tab: 2025 (expected makers)
   updated: ''
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-06'
   notes: >-
@@ -64,7 +64,11 @@ research:
     carried-over artifact in the community sheet (e.g. a stray cell copied between
     yearly tabs) rather than a real maker name. Left as unknown rather than
     guessing; if a future pass identifies what "DC31" actually denotes, both the
-    DC32 and DC33 stubs should be revisited together.
+    DC32 and DC33 stubs should be revisited together. Fact-check 2026-09-06: the three
+    example repos (dczia/Defcon31-Badge, ANDnXOR/ANDnXOR_DC31_Badge,
+    defconfurs/dcfurs-badge-dc31-public) all exist and use DC31 as DEF CON 31
+    shorthand; the DC32 stub with maker "DC31" at sheet row 47 exists in the archive.
+    Hackaday.io search could not be re-checked (login wall).
 last_modified_date: '2026-09-06'
 ---
 

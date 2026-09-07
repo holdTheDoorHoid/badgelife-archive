@@ -75,7 +75,7 @@ images:
 - file: assets/images/badges/dc33/shitty-kitty-v2/b0612697e2.jpg
   source: "https://web.archive.org/web/20250716215340/https://shop.uberfoo.net/products/shitty-kitty-v2"
   credit: "Uberfoo Heavy Industries"
-  caption: "Shitty Kitty V2 badge, back view showing the 3D-printed case enclosing the 2000 mAh LiPo battery"
+  caption: "Shitty Kitty V2 badge, back view showing the polycarbonate back case enclosing the 2000 mAh LiPo battery"
 contact:
   emails:
   - james@uberfoo.net
@@ -100,17 +100,22 @@ sources:
   url: "https://uberfoo.net"
   title: "Uberfoo Heavy Industries"
   accessed: '2026-09-06'
-  note: "Confirms maker identity; site's 2021 tweet reference is about the original (V1) Shitty Kitty launch, not this V2 revision."
+  note: "Confirms maker identity; the site's news item about the first badge launch refers to the original Shitty Kitty, not this V2 revision."
+- kind: url
+  url: "https://github.com/Uberfoo-Heavy-Industries/skitty-ng"
+  title: "Uberfoo-Heavy-Industries/skitty-ng (GitHub)"
+  accessed: '2026-09-07'
+  note: "Repo exists (C++, MIT-0 license per GitHub metadata) but nothing in it seen names the V2 hardware, so it is only mentioned as a possible firmware repo."
 research:
-  status: researched
+  status: verified
   confidence: high
-  last_checked: '2026-09-06'
-  notes: 'Core specs and pricing come from the maker''s own archived storefront listing and their own GitHub hardware repo, so confidence is high. Quantity made was not stated anywhere found. The firmware repository could not be identified with confidence (see make_your_own.notes). The two saved photos are pulled from the archived Shopify listing, which credits no other photographer, so credited to Uberfoo Heavy Industries.'
-last_modified_date: '2026-09-06'
+  last_checked: '2026-09-07'
+  notes: 'Core specs and pricing come from the maker''s own archived storefront listing and their own GitHub hardware repo, so confidence is high. Quantity made was not stated anywhere found. The firmware repository could not be identified with confidence (see make_your_own.notes). The two saved photos are pulled from the archived Shopify listing, which credits no other photographer, so credited to Uberfoo Heavy Industries. Fact-check 2026-09-07: all fields re-checked against the archived listing (via Wayback), the hardware repo BOM/schematic, uberfoo.net and the sheet (contact email); the case material was corrected to polycarbonate per the listing.'
+last_modified_date: '2026-09-07'
 ---
 
-Shitty Kitty V2 is the second generation of Uberfoo Heavy Industries' cat-shaped SAO badge, sold as a preorder ahead of DEF CON 33 with pickup at the Badgelife Community. The PCB itself is cut into a cat silhouette (ears doubling as mounting holes) and carries two 0.96" 80x160 color IPS screens, each independently dimmable, driven by a Raspberry Pi RP2040. Two fully-wired SAO connectors (1.69bis, 6-pin) each expose their own GPIO, UART and I2C, and the badge ships already able to drive the Skull of Fate SAO from MakeItHackin.
+Shitty Kitty V2 is the second generation of Uberfoo Heavy Industries' cat-shaped badge, sold as a preorder ahead of DEF CON 33 with pickup at the Badgelife Community. The PCB itself is cut into a cat silhouette (with a hole in each ear) and carries two 0.96" 80x160 color IPS screens, each independently dimmable, driven by a Raspberry Pi RP2040. Two fully-wired SAO connectors (1.69bis, 6-pin) each expose their own GPIO, UART and I2C, and the badge ships already able to drive the Skull of Fate SAO from MakeItHackin.
 
-Power comes from an included 2,000 mAh LiPo cell tucked into a 3D-printed case on the back, charged and managed by a BQ24072 controller with a TPS63051 buck-boost regulator supporting up to 1.5A fast charging; a USB-C port handles both charging and firmware updates, the latter via built-in USB mass-storage support so no special flashing tools are needed. Five buttons (plus a dedicated boot button) drive the "SkittyOS" firmware, which runs graphics demos and a configurable scrolling-text name-badge mode with adjustable fonts and international character support.
+Power comes from an included 2,000 mAh LiPo cell enclosed in a polycarbonate case on the back, charged and managed by a BQ24072 controller with a TPS63051 buck-boost regulator supporting up to 1.5A fast charging; a USB-C port handles both charging and firmware updates, the latter via built-in USB mass-storage support. Five buttons (plus a dedicated boot button) drive the "SkittyOS" firmware, which runs graphics demos and a configurable scrolling-text name-badge mode with adjustable fonts and international character support.
 
 The listing promised the firmware would go open source after DEF CON 33, and the hardware (schematic, PCB layout and BOM) is already public on GitHub, though without a license file. By the time this entry was checked, the shop listing was marked sold out and the storefront itself had gone offline, so quantity made and current availability are unconfirmed.

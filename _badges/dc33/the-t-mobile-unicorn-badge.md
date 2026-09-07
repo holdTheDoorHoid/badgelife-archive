@@ -55,43 +55,38 @@ sources:
   updated: 8/4/2025
 - kind: url
   url: https://www.hackster.io/HacksFromPanda/projects
-  title: Abhinav SP - HacksFromPanda - Hackster.io
-  accessed: '2026-09-06'
-  note: Fetch blocked with HTTP 403; could not confirm project details from this page.
+  title: Abhinav SP - Hackster.io
+  accessed: '2026-09-07'
+  note: 'Page header confirms the profile belongs to "Abhinav SP" (36 projects). The
+    project list itself is JavaScript-rendered and could not be read (WebFetch got
+    HTTP 403; curl got the shell only), so no unicorn project could be confirmed or
+    ruled out.'
 - kind: url
   url: https://www.hackerware.io/
   title: 'Hackerware - #BadgeLife | Hardware Design, Security, & Research.'
-  accessed: '2026-09-06'
-  note: 'Confirms Abhinav Pandagale (Hackerware.io) as an active badge maker (BugZee,
-    Dragon Badge, Prophet AI, The F5 Badge, BSides Adelaide Badge, a separate Bug
-    Bounty Village badge with OLED + RGB). Page as summarized did not list a "Unicorn"
-    or "T-Mobile" badge.'
-- kind: url
-  url: https://hackaday.io/AbhinavSP
-  title: Abhinav Pandagale - Hackaday.io profile
-  accessed: '2026-09-06'
-  note: Page returned 404 when fetched; could not check for a unicorn project listing.
+  accessed: '2026-09-07'
+  note: 'Maker portfolio site; contact email abhinav@hackerwares.in. Lists other badges
+    (Prophet AI, The F5 Badge, BSides Adelaide Badge, a Bug Bounty Village Badge with
+    OLED + RGB and a CTF, The BugZee, The Nutanix Badge, The Radware Badge, and more).
+    No mention of "Unicorn", "T-Mobile" or DEF CON 33 anywhere on the page. The page
+    does not give the maker''s full name.'
 research:
-  status: researched
+  status: verified
   confidence: low
-  last_checked: '2026-09-06'
-  notes: 'Could not find any source confirming a "T-Mobile Unicorn Badge" specifically,
-    or details about it (chip, LEDs, price, quantity, images, distribution). Confirmed
-    only that the credited maker, Abhinav Pandagale / Hackerware.io, is a real,
-    active badge-life maker (bio lists other named badges: BugZee, Dragon Badge,
-    Prophet AI, The F5 Badge, BSides Adelaide Badge, and a distinct Bug Bounty Village
-    badge with OLED display and programmable RGB). The Hackster.io project listing
-    linked from the sheet returned HTTP 403 on fetch and could not be checked directly.
-    Web searches for the exact title, for "T-Mobile" + "unicorn" + DEF CON, and for
-    "Bug Bounty Village" + T-Mobile turned up no matching item. Left all technical
-    and commercial fields empty per the no-guessing rule rather than assume this
-    is the same item as Hackerware''s other Bug Bounty Village badge. The sheet
-    note ("Find the unicorn at the Bug Bounty Village") suggests this may have been
-    a scavenger-hunt-style item or mascot tied to a T-Mobile presence at the DC33
-    Bug Bounty Village rather than a standard badge/SAO drop, but that is unconfirmed.'
-last_modified_date: '2026-09-06'
+  last_checked: '2026-09-07'
+  notes: 'Fact-check pass 2026-09-07: no source describes a "T-Mobile Unicorn Badge"
+    itself. The only confirmed facts are from the sheet (title, maker credit, the note
+    "Find the unicorn at the Bug Bounty Village") and from the maker''s own site, which
+    exists, uses the Hackerware name and an abhinav@ contact, and lists other badges but
+    not this one. Removed unsupported claims from the research pass: the surname
+    "Pandagale" and a "Dragon Badge" do not appear on hackerware.io, and the
+    hackaday.io/AbhinavSP source returned 404 (dropped, since it supported nothing).
+    All technical and commercial fields are left empty rather than guessed. The
+    hackster.io project list remains unreadable without JavaScript.'
+last_modified_date: '2026-09-07'
+
 ---
 
-A community badge sheet entry for DEF CON 33 (2025) credits "The T-Mobile Unicorn Badge" to Abhinav SP of Hackerware.io, with a sheet note to "find the unicorn at the Bug Bounty Village." Hackerware.io is a real, active badge-life shop run by Abhinav Pandagale, known for other named conference badges such as BugZee, the Dragon Badge, Prophet AI, The F5 Badge, and a BSides Adelaide badge, as well as a separate Bug Bounty Village badge (OLED display, programmable RGB, CTF-unlocked color customization) for what appears to be a different year or item.
+A community badge sheet entry for DEF CON 33 (2025) credits "The T-Mobile Unicorn Badge" to Abhinav SP of Hackerware.io, with a sheet note to "find the unicorn at the Bug Bounty Village." Hackerware.io is a real, active badge-life shop whose site lists other named conference badges such as Prophet AI, The F5 Badge, a BSides Adelaide badge, The BugZee, and a separate Bug Bounty Village badge with an OLED display and programmable RGB unlocked through a badge CTF.
 
-No source found during this pass confirmed the existence, appearance, or specifications of a "T-Mobile Unicorn Badge" distinct from Hackerware's other work. The linked Hackster.io project page could not be fetched (HTTP 403), and web searches combining the title, maker, "T-Mobile," "unicorn," and "Bug Bounty Village" did not surface a matching project, article, or storefront listing. It is possible this was a small giveaway, mascot, or scavenger-hunt item tied to a T-Mobile presence at the DC33 Bug Bounty Village rather than a widely documented badge, but that is speculation, not a sourced fact.
+No source found confirms the existence, appearance, or specifications of a "T-Mobile Unicorn Badge" distinct from Hackerware's other work. The maker's site does not mention a unicorn or T-Mobile, and the linked Hackster.io project list could not be read. What it was, how it was given out, and what it does remain unknown.

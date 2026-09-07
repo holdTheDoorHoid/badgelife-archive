@@ -11,14 +11,12 @@ year: 2025
 makers:
 - name: Maker’s Community
   url: https://dcmakerscommunity.com
-summary: A community-made add-on produced by the DC Makers Community, a maker village that ran workshops and craft tables at DEF CON 33.
+summary: An SAO listed by the DC Makers Community ("Maker's Community"), a maker village that ran workshops and craft tables at DEF CON 33.
 functions: Blinkie
 look:
   colors: []
   shape: null
-  themes:
-  - hardware tool
-  - kit
+  themes: []
 tech:
   mcu: null
   leds: null
@@ -31,9 +29,8 @@ get_one:
   price_usd: 0.0
   quantity: ''
   availability: unknown
-  distribution:
-  - kit
-  where: 'Distributed to attendees who took part in the DC Makers Community''s craft tables/workshops at DEF CON 33, including a Saturday "Building the Maker''s Community Badge" session.'
+  distribution: []
+  where: null
 make_your_own:
   open_source: null
   hardware_url: null
@@ -76,29 +73,25 @@ sources:
   url: http://web.archive.org/web/20260314162949/http://dcmakerscommunity.com/page3.html
   title: 'DC Makers Community — Projects and Makers (Wayback Machine snapshot)'
   accessed: '2026-09-06'
-  note: 'Community showcase page names member-made "Year 1 Coin" pieces (by makers ZapN''Stuff and Aask) with circuit-board-textured "Maker''s Community Year 1" branding, plus other member projects (hunny''s SA-Faux, Cannibal''s Flipper Zero cookie cutters, KBEmbedded/hunny pin, etc.). None of the photos or captions are labeled specifically "DcMc SAO", so this could not be confirmed as the exact item named on the source sheet.'
+  note: 'Community showcase page captions "ZapN''Stuff''s Year 1 Coin" (photo shows a coin with circuit-trace texture reading "Maker''s Community Year 1") and "Aask''s Year One Coin 3D", plus other member projects (hunny''s SA-Faux, Cannibal''s Flipper Zero Cookie Cutters, KBEmbedded & hunny''s Winter Hacker Fest Pin). Page footer links mailto:DCMakersCommunity@proton.me. None of the photos or captions are labeled specifically "DcMc SAO", so this could not be confirmed as the exact item named on the source sheet.'
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-06'
   notes: >-
-    Could not confirm a distinct product called "DcMc SAO" with its own chip/LED/price
-    details. The maker is the DC Makers Community, a community makerspace/village at
-    DEF CON 33 that ran a group badge-building workshop and whose members separately
-    produced circuit-textured "Year 1 Coin" commemorative pieces (credited to members
-    ZapN'Stuff and Aask on the community's own site) alongside other member projects.
-    The sheet's contact (Thatgirlhunny@proton.me) matches a community member ("hunny")
-    who also has work on that showcase page, and the sheet note "Designed by Alee" may
-    be a variant spelling of the member name "Aask" seen on the site, but this link is
-    not certain enough to state as fact. The live dcmakerscommunity.com site returns
-    HTTP 403 and could not be fetched directly; all information above comes from
-    Wayback Machine snapshots. No MCU, LED count/type, price, quantity, or open-source
-    files could be confirmed for the specific item on the sheet, so those fields are
-    left empty rather than guessed. No photos could be confidently attributed to this
-    exact listing, so none were saved.
-last_modified_date: '2026-09-06'
+    Fact-checked 2026-09-07 against the two Wayback snapshots (live site still HTTP 403).
+    Confirmed: the group calls itself "Maker's Community"/DC Makers Community, ran craft
+    tables (Hacker Arts & Crafts, Vinyl & Wood Cutting, Textile Customization, Badge &
+    Circuit Repair) and registered workshops Fri-Sun at DEF CON 33, including Saturday
+    1500-1700 "Building the Maker's Community Badge"; contact DCMakersCommunity@proton.me
+    is on the maker's own site. Not found anywhere: a product named "DcMc SAO", its MCU,
+    LEDs, price, quantity, distribution, or source files, so those fields are empty.
+    Title, "Blinkie", price 0, "Designed by Alee" and Thatgirlhunny@proton.me come only
+    from the community sheet. Removed the earlier guesses that it was a kit handed out at
+    workshops and that "Alee" might be the member "Aask"; neither is supported.
+last_modified_date: '2026-09-07'
 ---
 
-The DC Makers Community (also styled "Maker's Community", "DcMc") is a maker village and workshop space that ran at DEF CON 33 (2025), offering craft tables for 3D printing, laser cutting, textile customization, and "Badge & Circuit Repair" over the convention's three days. Their Saturday schedule included a dedicated "Building the Maker's Community Badge" session, pointing to a group hardware build rather than a single commercially-sold SAO.
+The DC Makers Community (styled "Maker's Community" on its own site) is a maker village that ran at DEF CON 33 (2025). Its site describes a space for hacker-culture crafts such as t-shirts, stickers and badges plus 3D printing and laser cutting, and lists craft tables (Hacker Arts & Crafts, Vinyl & Wood Cutting, Textile Customization, Badge & Circuit Repair) open 10:00-18:00, with registered workshops and demonstrations Friday through Sunday. The Saturday schedule includes a 15:00-17:00 session titled "Building the Maker's Community Badge".
 
-The community's own site showcases circuit-board-textured "Year 1 Coin" pieces made by individual members (credited to ZapN'Stuff and Aask) alongside other member projects such as a Flipper Zero cookie-cutter set and a hacker-fest enamel pin, suggesting the group's DC33 add-on grew out of member collaboration rather than a single named product. The exact item the community badge sheet is calling "DcMc SAO" — its chip, LED count, price, and quantity — could not be confirmed from available sources; the group's live website is currently blocking automated access, and Wayback Machine snapshots of the site do not label any single photo with that name.
+The community's "Projects and Makers" page shows member work including ZapN'Stuff's "Year 1 Coin" (a coin with circuit-trace texture reading "Maker's Community Year 1"), Aask's "Year One Coin 3D", hunny's SA-Faux, Cannibal's Flipper Zero cookie cutters and a Winter Hacker Fest pin by KBEmbedded and hunny. None of these is labelled "DcMc SAO", so the item on the community badge sheet (a "Blinkie" SAO at price 0, "Designed by Alee") could not be matched to a specific product, chip, LED count or quantity.

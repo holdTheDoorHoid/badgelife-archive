@@ -64,7 +64,7 @@ sources:
   accessed: '2026-09-06'
   note: 'Store sells only apparel and accessories (shirts, hoodies, bags, headwear) — no electronic badge or SAO listed.'
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-06'
   notes: >-

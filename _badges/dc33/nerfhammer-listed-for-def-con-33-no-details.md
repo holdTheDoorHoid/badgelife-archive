@@ -51,7 +51,7 @@ sources:
   tab: 2025 (expected makers)
   updated: ''
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-06'
   notes: >-
@@ -64,7 +64,14 @@ research:
     maker has the same "listed, no details" pattern on the sheet for DC31 and
     DC32, and only a bare title (no specs) for DC30, so this may simply be a
     name that only ever appears on the community sheet and not online.
-    Leaving status as unknown rather than guessing.
+    Leaving status as unknown rather than guessing. Fact-check 2026-09-06:
+    sheet row 60 on the 2025 tab confirmed against data/dc33_tab2025_missing_makers.json;
+    sibling entries dc30-darth-sphinx, dc31 and dc32 stubs confirmed to exist;
+    DC30 sheet row reads "I have only seen pictures...no details sent to me yet".
+    Removed a speculative sentence about informal distribution. Search-engine
+    re-checks could not be re-run (search budget exhausted; DuckDuckGo/Bing
+    unreachable from this session), so the negative search result stands on
+    the researcher's report.
 last_modified_date: '2026-09-06'
 ---
 
@@ -77,7 +84,6 @@ or DEF CON.
 
 This is not an isolated gap: the same maker shows up on the sheet for DC30
 (as the maker of a badge called "Darth Sphinx," itself never detailed beyond
-a title), DC31, and DC32, each time with no specifics ever recorded. Whatever
-Nerfhammer has made appears to have been shown or distributed informally
-enough that it left no public trace under this name across four badge years.
+a title, with the sheet keeper noting they had only seen pictures), DC31, and
+DC32, each time with no specifics ever recorded.
 

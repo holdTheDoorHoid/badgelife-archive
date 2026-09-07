@@ -57,7 +57,7 @@ sources:
   accessed: '2026-09-06'
   note: 'Confirms DC512 is the Austin, TX DEF CON group community; page covers monthly meetups and talks, with no mention of a DEF CON 33 badge or SAO.'
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-06'
   notes: >-
@@ -68,7 +68,10 @@ research:
     (DuckDuckGo, Bing, Google) returned bot-challenge pages or unrelated results rather
     than usable listings during this pass, so this should be re-checked with a working
     search tool before being marked otherwise. Leaving type/tech/look/get_one fields
-    empty rather than guessing.
+    empty rather than guessing. Fact-check pass 2026-09-06: re-opened the meetup page
+    (confirms Austin DC group, first Monday monthly at Celis Brewery, no badge/SAO
+    content), confirmed sheet row 34 on the 2025 (expected makers) tab lists only the
+    name "DC512", and confirmed dc512.com does not resolve. Nothing unsupported remained.
 last_modified_date: '2026-09-06'
 ---
 

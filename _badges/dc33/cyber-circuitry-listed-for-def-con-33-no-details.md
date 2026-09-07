@@ -70,19 +70,19 @@ sources:
   note: Only two public repos, a personal site and DC31_Prismatic_Shard (last updated
     August 2023); no repo for a 2024 or 2025 badge.
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-06'
   notes: This maker (Jeremy Wasson / "DarthDebugger", Cyber Circuitry) was expected
     at DEF CON 33 per the community sheet, but no source found describes what they
     actually brought that year. Their storefront and GitHub only show the Prismatic
-    Shard SAO made for DEF CON 31 (2023, sold out), with no later product, repo,
+    Shard add-on made for DEF CON 31 (2023, sold out), with no later product, repo,
     or announcement for DC32 or DC33. Twitter/X could not be checked (login-walled).
-    Status left as unknown rather than guessed; see also the similarly bare DC32
+    Status left as unknown rather than guessed. Fact-check 2026-09-06 re-read the storefront, GitHub profile and DC31_Prismatic_Shard README and confirmed every claim here; the X account still could not be read; see also the similarly bare DC32
     stub for the same maker (dc32-cyber-circuitry-listed-for-def-con-32-no-details).
 last_modified_date: '2026-09-06'
 ---
 
-Cyber Circuitry, the badge alias of maker Jeremy Wasson ("DarthDebugger"), was listed as an expected maker on the DEF CON 33 (2025) community badge sheet, but the sheet carried no product details. The maker is best known for the Prismatic Shard, an unofficial DEF CON 31 (2023) electronic SAO with games, puzzles, and an infrared communicator feature, sold through cybercircuitry.com. As of this research pass, the site and the maker's GitHub account show no product, repository, or announcement tied to 2024 or 2025, so it is unclear whether Cyber Circuitry released a new badge for DEF CON 33, brought remaining Prismatic Shard stock, or simply appeared on the sheet without following through.
+Cyber Circuitry, the badge alias of maker Jeremy Wasson ("DarthDebugger"), was listed as an expected maker on the DEF CON 33 (2025) community badge sheet, but the sheet carried no product details. The maker is best known for the Prismatic Shard, an unofficial DEF CON 31 (2023) electronic "shard" add-on (built for the DC31 badge-holder system, ATtiny1616-based) with games, puzzles, LEDs, and a social IR communicator, sold through cybercircuitry.com. As of this research pass, the site and the maker's GitHub account show no product, repository, or announcement tied to 2024 or 2025, so it is unclear whether Cyber Circuitry released a new badge for DEF CON 33, brought remaining Prismatic Shard stock, or simply appeared on the sheet without following through.
 
 This entry is left with `research.status: researched` but no filled-in item fields, since no source describes what (if anything) was actually available at DEF CON 33. A DEF CON 32 entry for the same maker (`dc32-cyber-circuitry-listed-for-def-con-32-no-details`) is in the same bare state and may turn out to describe the same non-event, or nothing at all.

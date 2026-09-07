@@ -46,8 +46,8 @@ links:
 images: []
 contact: {}
 notes:
-- Maker also has an unresolved "listed, no details" stub for DEF CON 32 (dc32-brock-infosec-exchange-listed-for-def-con-32-no-details)
-  and a researched SAO Marquee entry for DEF CON 31 (dc31-sao-marquee), also unresearched as of this pass.
+- Maker also has a "listed, no details" stub for DEF CON 32 (dc32-brock-infosec-exchange-listed-for-def-con-32-no-details)
+  and a named SAO Marquee entry for DEF CON 31 (dc31-sao-marquee).
 status: unknown
 sources:
 - kind: sheet
@@ -71,12 +71,12 @@ sources:
   accessed: '2026-09-06'
   note: Maker's GitLab profile; no repositories listed, nothing badge-related.
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-06'
   notes: 'This is the DEF CON 33 instance of a recurring "listed, no details" sheet
     row for this maker (same pattern exists for DC32; DC31 has a named "SAO Marquee"
-    entry, also unresearched). Checked the maker''s Twitter/X handle (twitter.com/INIT_6_,
+    entry). Checked the maker''s Twitter/X handle (twitter.com/INIT_6_,
     from the DC31 entry) -- X returned 402 Payment Required and could not be read;
     Nitter mirrors are offline. Found the maker''s actual Mastodon account (@INIT6@infosec.exchange,
     display name INIT_6) via the Mastodon lookup API and read its full public status
@@ -85,6 +85,11 @@ research:
     April 2025 and January 2026, covering the DEF CON 33 dates. Web search quota
     was exhausted for this session before broader queries (title+maker, maker+badge+year)
     could be run, so this is not conclusive -- a press mention or a since-deleted
-    social post could still exist. Leaving as unknown rather than guessing.'
+    social post could still exist. Leaving as unknown rather than guessing.
+    Fact-check 2026-09-06: Mastodon lookup API confirms handle @INIT6@infosec.exchange,
+    display name INIT_6, profile links to blackmarble.sh and git.blackmarble.sh/init6;
+    statuses API confirms no public posts between 2025-04-09 and 2026-01-15.
+    blackmarble.sh and the GitLab profile fetched; neither mentions badges, SAOs or
+    DEF CON. The name "Brock" rests on the community sheet only.'
 last_modified_date: '2026-09-06'
 ---

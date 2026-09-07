@@ -49,25 +49,28 @@ sources:
 research:
   status: researched
   confidence: low
-  last_checked: '2026-09-06'
+  last_checked: '2026-09-07'
   notes: >-
-    Only "redactd" appeared on the community sheet as an expected DEF CON 33
-    maker; the sheet row itself carries no further detail. Could not find
-    what, if anything, redactd brought to DC33: no GitHub org/repo, no
-    Hackaday.io project, no Tindie/Etsy listing, and no press or forum
-    mentions turned up under that name plus "badge", "SAO", or "DEF CON 33".
-    A GitHub user "ReDaCtD" exists but their repos are Android/mapping
-    projects unrelated to badgelife, so not treated as a match. WebSearch was
-    unavailable this session (budget exhausted); Google/Bing/DuckDuckGo via
-    curl returned unusable or unrelated results. Leaving as unknown rather
-    than guessing. Note: redactd is a known badgelife maker of record — they
-    made "Dante's Inferno Badge" for DC32 (see
-    dc32-dante-s-inferno-badge.md) — so the DC33 listing is plausible, it
-    just could not be corroborated with what they actually brought.
-last_modified_date: '2026-09-06'
+    Only "redactd" appeared on the community sheet (tab "2025 (expected
+    makers)", row 66) as an expected DEF CON 33 maker; the row carries no
+    further detail. Fact-check 2026-09-07: redactd is a known badgelife maker
+    (Dante's Inferno Badge for DC32, see dc32-dante-s-inferno-badge.md) whose
+    own GitHub account is github.com/im-redactd and whose storefront is
+    tindie.com/stores/redactd. The im-redactd GitHub account was checked
+    directly: its repos are dantes_inferno (2024), saintcon2023_minibadge,
+    a DC801 BM-Badge fork, CircuitPython forks, and two OBS streaming tools
+    (stagehand, memecast, updated Sep 2026); none references DEF CON 33 or a
+    2025 badge/SAO. The Tindie store returned HTTP 403 to automated fetching,
+    so whether a DC33 product was listed there could not be checked. No
+    Hackaday.io, press, or forum coverage was found earlier under this name
+    plus "badge", "SAO", or "DEF CON 33" (web search budget was exhausted in
+    both sessions, so search coverage is thin). A separate GitHub user
+    "ReDaCtD" (Android/mapping repos) is unrelated. Left as unknown rather
+    than guessing; not marked verified because the Tindie store could not be
+    reached and the absence of a DC33 item is a negative finding.
+last_modified_date: '2026-09-07'
 ---
 
-Community sheet contributors expected "redactd" among the DEF CON 33 (2025) makers, but the row carries no title, description, or links beyond the name. No further trace of a redactd-made badge or SAO for DC33 (or any other event) could be found: no GitHub project, no Hackaday.io page, no storefront listing, and no press or forum coverage under that handle. A GitHub account named "ReDaCtD" turned up but its repositories are unrelated Android and mapping projects, not badgelife work, so it was not treated as the same person.
+Community sheet contributors expected "redactd" among the DEF CON 33 (2025) makers, but the row carries no title, description, or links beyond the name. redactd is an established badge maker (the Dante's Inferno Badge for DEF CON 32, and a SAINTCON 2023 minibadge), but their GitHub account (im-redactd) holds no project tied to DEF CON 33, their Tindie store could not be reached by automated checking, and no press or forum coverage of a redactd DC33 badge or SAO was found.
 
 Without a title or any description to go on, this entry is left as `unknown` rather than guessing at what was made. If a future source ties a specific object to this maker for DC33, this entry should be retitled and filled in.
-

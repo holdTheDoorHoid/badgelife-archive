@@ -15,11 +15,12 @@ summary: An unofficial DEF CON 33 electronic badge with a frog theme, built arou
 functions: Frog-themed Capture the Flag to unlock GIFs and bling, a built-in frogger-like game, and two SAO expansion ports for add-ons
 look:
   colors:
-  - green
-  shape: circle
+  - black
+  shape: skull
   themes:
   - animal
   - frog
+  - skull
   - ctf
   - meme
 tech:
@@ -31,18 +32,20 @@ tech:
   display: 1.28" round LCD (GC9A01, 240x240)
   connectivity:
   - ir
+  inputs:
+  - buttons
   battery: null
   sao_version: v1.69bis
   sao_ports: 2
 get_one:
   price: $80
   price_usd: 80.0
-  quantity: '30+ (19 remaining, 11 sold as of 2026-09-06 on UberFlux)'
+  quantity: null
   availability: available
-  availability_note: Checked 2026-09-06; in stock on UberFlux (19 remaining) and listed on Tindie.
+  availability_note: Checked 2026-09-06; in stock on UberFlux (19 remaining, 11 sold) and listed on Tindie at the same price.
   distribution:
   - purchase
-  where: Sold online through Tindie and UberFlux stores; not distributed at the con itself (unofficial badge, does not grant entry).
+  where: Sold online through the maker's Tindie and UberFlux stores (unofficial badge; the maker notes it does not grant entry to the con).
 make_your_own:
   open_source: partial
   hardware_url: null
@@ -93,16 +96,16 @@ sources:
   accessed: '2026-09-06'
   note: Confirms price ($80), seller location (Denver, CO), unofficial-badge disclaimer.
 research:
-  status: researched
+  status: verified
   confidence: high
-  last_checked: '2026-09-06'
-  notes: 'Price differs from the community sheet ($120) vs. the maker''s own stores (Tindie and UberFlux both list $80); used the maker''s stores as the more authoritative current price. LED count not stated anywhere found. No hardware design files (schematics/Gerbers) found published, only compiled firmware (.uf2); open_source set to partial on that basis. Quantity is an estimate from a single UberFlux stock snapshot (19 remaining + 11 sold), not a maker-stated total run size.'
+  last_checked: '2026-09-07'
+  notes: 'Price differs from the community sheet ($120) vs. the maker''s own stores (Tindie and UberFlux both list $80); used the maker''s stores as the more authoritative current price. LED count not stated anywhere found. No hardware design files (schematics/Gerbers) found published, only compiled firmware (.uf2); open_source set to partial on that basis. Total run size not stated by the maker; UberFlux stock snapshot kept in availability_note only. Colors/shape taken from the maker''s own photo (black PCB, frog skull-and-crossbones), no text source states them. Verified 2026-09-07 against all three cited pages.'
 last_modified_date: '2026-09-06'
 ---
 
-The FrogStar Badge is BigTaro's Badges' unofficial DEF CON 33 entry, built around a Raspberry Pi RP2350 driving a 1.28" round LCD (GC9A01, 240x240). It leans fully into a frog theme: a frog-themed Capture the Flag unlocks GIFs and "bling," and the badge also runs a built-in Frogger-like game. Six onboard buttons handle input, an IR receiver allows wireless interaction with other badges or beacons, and addressable WS2812B RGB LEDs provide the light show. Two SAO v1.69bis ports let it host add-ons, and units ship with stickers.
+The FrogStar Badge is BigTaro's Badges' unofficial DEF CON 33 entry, built around a Raspberry Pi RP2350 driving a 1.28" round LCD (GC9A01, 240x240). It leans fully into a frog theme: a frog-themed Capture the Flag unlocks GIFs and "bling," and the badge also runs a built-in Frogger-like game. Six onboard buttons handle input, it has an IR receiver, and addressable WS2812B RGB LEDs provide the light show. The PCB is black, shaped as a frog skull over crossbones with the round display as the face. Two SAO v1.69bis ports let it host add-ons, and units ship with stickers.
 
-The badge is sold online rather than distributed at the con — it carries an explicit disclaimer that it is unofficial and does not grant DEF CON entry. It is listed on both Tindie and UberFlux at $80 (the community sheet's $120 figure could not be confirmed on either storefront). As of the research date, UberFlux showed 19 units remaining against 11 already sold. Firmware (v1.0, as a .uf2 file) is published for anyone to flash, but no hardware design files were found, so it is only partially open source.
+The maker's pages carry an explicit disclaimer that it is unofficial and does not grant DEF CON entry. It is listed on both Tindie and UberFlux at $80 (the community sheet's $120 figure could not be confirmed on either storefront). As of the research date, UberFlux showed 19 units remaining against 11 already sold. Firmware (v1.0, as a .uf2 file) is published for anyone to flash, but no hardware design files were found, so it is only partially open source.
 
 ## Make your own
 

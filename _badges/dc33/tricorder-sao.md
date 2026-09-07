@@ -25,7 +25,7 @@ tech:
   leds: null
   display: null
   connectivity: []
-  battery: LiPo rechargeable (USB-C) on the battery-powered version; none on the SAO-connector version
+  battery: Li-Ion rechargeable (USB-C) on the battery-powered version; powered by host badge on the SAO-connector version
   sao_version: null
 get_one:
   price: $30-$35 SAO / $50 rechargeable battery version
@@ -79,13 +79,13 @@ sources:
   accessed: '2026-09-06'
   note: Storefront listing gives price ($35 for the SAO-connector listing) and live stock counts.
 research:
-  status: researched
-  confidence: medium
+  status: verified
+  confidence: high
   last_checked: '2026-09-06'
-  notes: Maker's GitHub repo and Tindie listing confirm the item, its two power versions, and pricing, but neither publishes MCU, LED count/type, schematic, or firmware, so those tech fields are left empty rather than guessed. The community sheet's stated price ($30) and Hacker Warehouse price ($35) both appear; Tindie's own listing price is also $35, and the rechargeable battery version is $50, matching the sheet note.
+  notes: Maker's GitHub repo and Tindie listing confirm the item, its two power versions, and pricing, but neither publishes MCU, LED count/type, schematic, or firmware, so those tech fields are left empty rather than guessed. The community sheet's stated price ($30) and Hacker Warehouse price ($35) both appear; Tindie's own listing price is also $35, and the rechargeable battery version is $50, matching the sheet note. Fact-check 2026-09-06 re-opened the repo README and Tindie listing; both describe the cell as lithium-ion, not LiPo (corrected). The $50 rechargeable price and Hacker Warehouse sales rest on the maker's sheet note only.
 last_modified_date: '2026-09-06'
 ---
 
 The Tricorder SAO is a Star Trek: The Next Generation-inspired add-on made by Make it Hackin (Andrew) for DEF CON 33. It ships in a small bag with the SAO itself, a lanyard, googly eyes, decorative claps, and a set of stickers. It comes in two hardware versions that look identical from the front: a standalone battery-powered version with a rechargeable Li-Ion cell and USB-C charge port, and a badge-powered version that plugs into a host badge's SAO header and draws power from it, which allows for a few extra LEDs (described by the maker as "scanning" and "side-emitting" LEDs). Both versions have a physical on/off switch and run through an LED light sequence referencing the show's tricorder prop.
 
-The maker carried units in person at DEF CON 33 and also sold them at the Hacker Warehouse booth during the con for $35, with a separate limited run of the rechargeable battery version at $50. It remained listed on the maker's Tindie store afterward, where a check on 2026-09-06 showed only a handful of the rechargeable version left and the SAO-connector version out of stock. No schematic, firmware, or bill of materials is published in the maker's GitHub repository, which contains only assembly/usage documentation and product photos.
+The maker carried units in person at DEF CON 33 and said they were also for sale at Hacker Warehouse during the con for $35, with a separate limited run of the rechargeable battery version at $50. It remained listed on the maker's Tindie store afterward, where a check on 2026-09-06 showed only a handful of the rechargeable version left and the SAO-connector version out of stock. No schematic, firmware, or bill of materials is published in the maker's GitHub repository, which contains only assembly/usage documentation and product photos.

@@ -47,7 +47,7 @@ sources:
   tab: 2025 (expected makers)
   updated: ''
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-06'
   notes: >-
@@ -65,9 +65,13 @@ research:
     working alternate path (cached search engines, Nitter mirrors) turned up
     anything for DEF CON 33 specifically. Leaving as unknown per the "no
     details" special case rather than guessing from their past years' output.
+    Fact-check 2026-09-06: sheet row 32 (data/sheets/dc33_makers.txt,
+    data/dc33_tab2025_missing_makers.json) and the prior entries were
+    confirmed locally; the Twitter handle is from the DC32 sheet row; the
+    Tindie store again returned 403 to fetches; web search was unavailable.
 last_modified_date: '2026-09-06'
 ---
 
-DC Punks — the maker duo of Kay Kidoutai and NeonPlaidPants — appears on the DEF CON 33 (2025) community badge sheet as an expected maker, but the row carries no item name, description, or price, only the maker's name. The duo has a documented run of prior badges and SAOs: a DC Punks badge at DC30 (Hardware Hacking Village), a "Shitpad SAO" at DC31, and three items at DC32 (a pink Y2K countdown badge, an "Edgerunner License," and a "Rick Roll SAO"), sold through their Tindie store at tindie.com/stores/dc_punks/.
+DC Punks — the maker duo of Kay Kidoutai and NeonPlaidPants — appears on the DEF CON 33 (2025) community badge sheet as an expected maker, but the row carries no item name, description, or price, only the maker's name. The duo has a documented run of prior appearances: a DC30 sheet listing with a table at the Hardware Hacking Village (item unrecorded), a "Sh*tPad SAO" at DC31, and three items at DC32 (a pink Y2K countdown badge, an "Edgerunner License," and a "Rick Roll SAO"), sold through their Tindie store at tindie.com/stores/dc_punks/.
 
 For DEF CON 33 specifically, no title, listing, or announcement could be found. Their Tindie storefront blocked every automated fetch with a Cloudflare challenge, their X/Twitter account (@defconpunks) returned an access-restricted page, and Hackaday.io's search turned up no matching project. General web search was unavailable for this task (the session's search quota was already spent), and fallback search-engine scrapes were themselves blocked by bot-detection pages, so no query-based lookup could substitute for it either. This entry is left as `unknown` rather than assuming they repeated a prior year's item.

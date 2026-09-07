@@ -23,7 +23,6 @@ look:
   shape: null
   themes:
   - game
-  - puzzle
 tech:
   mcu: null
   leds: null
@@ -36,7 +35,7 @@ get_one:
   price_usd: 20.0
   quantity: ''
   availability: sold_out
-  availability_note: 'Tindie listing showed out of stock as of 2026-09-06 (last confirmed sale window was DEF CON 33, August 2025).'
+  availability_note: 'Tindie listing showed out of stock when checked 2026-09-06; the listing states it has been sold out since 2025-08-06.'
   distribution:
   - purchase
   where: Sold via Tindie, purchase restricted to DEF CON 33 attendees with delivery in person at the conference.
@@ -78,15 +77,15 @@ sources:
   accessed: '2026-09-06'
   note: Maker's own site; lists their current product lineup (Battery Flash Badge, InfoBadge2040) but does not mention The Big Badge Game specifically, so no technical spec (MCU/LEDs) could be confirmed from it.
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-06'
-  notes: 'Maker (TheBadgES, Valencia, Spain) and sale terms confirmed via the Tindie listing, which is the only source found describing this specific item; it gives no MCU, LED, or display specs, and the maker''s own site does not mention this badge at all (only their InfoBadge2040 and Battery Flash Badge lines). No Hackaday, GitHub, or press coverage found. Left tech.* fields empty rather than guess. Quantity made not stated anywhere found.'
+  notes: 'Maker (TheBadgES, Valencia, Spain) and sale terms confirmed via the Tindie listing, which is the only source found describing this specific item; it gives no MCU, LED, or display specs, and the maker''s own site does not mention this badge at all (only their InfoBadge2040 and Battery Flash Badge lines). No Hackaday, GitHub, or press coverage found. Left tech.* fields empty rather than guess. Quantity made not stated anywhere found. Fact-check 2026-09-06: Tindie listing re-read and confirms maker, Valencia location, $20, out of stock since 2025-08-06, DEF CON 33-only purchase/delivery restriction, and the product photo; maker site re-read and confirms it does not mention this badge. Removed unsupported "puzzle" theme. Note the maker site publishes hello@thebadg.es while the sheet contact is info@thebadg.es.'
 last_modified_date: '2026-09-06'
 ---
 
-The Big Badge Game is a gamified PCB badge made by TheBadgES, a Valencia, Spain-based badge maker, for DEF CON 33 in 2025. It riffs on the "Rock, Paper, Scissors, Lizard, Spock" game popularized by The Big Bang Theory, adding what the maker calls an "entropy generator" to introduce an element of hardware-driven randomness to matches between badge holders.
+The Big Badge Game is a gamified PCB badge made by TheBadgES, a Valencia, Spain-based badge maker, for DEF CON 33 in 2025. It riffs on the "Rock, Paper, Scissors, Lizard, Spock" game popularized by The Big Bang Theory, adding what the maker calls an "entropy generator" that "bends the rules of randomness" for matches between badge holders.
 
-The badge was sold through the maker's Tindie storefront for $20, with the listing explicitly restricted to DEF CON 33 attendees and delivery handled in person at the conference rather than by mail. As of this research the Tindie listing shows the item sold out.
+The badge was sold through the maker's Tindie storefront for $20, with the listing explicitly restricted to DEF CON 33 attendees and delivery handled at the conference. As of this research the Tindie listing shows the item sold out.
 
 No maker-published hardware details (microcontroller, LED type/count, display, or open-source design files) were found for this specific badge; the maker's own site (thebadg.es) describes their other products (a Battery Flash Badge and the RP2040-based InfoBadge2040) but does not mention The Big Badge Game, and no Hackaday.io, GitHub, or press coverage of it turned up in search.

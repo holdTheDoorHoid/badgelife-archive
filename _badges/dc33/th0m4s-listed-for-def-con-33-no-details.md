@@ -47,7 +47,7 @@ sources:
   tab: 2025 (expected makers)
   updated: ''
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-06'
   notes: >-
@@ -60,10 +60,13 @@ research:
     Web searches for "Th0m4s" plus DEF CON 33/SAO/badgelife, and for the known
     handles im_eningeer and ___th0m4s___, turned up no maker page, Hackaday.io
     project, storefront listing, or press coverage for a 2025 item. The X/Twitter
-    account for im_eningeer could not be read (client-rendered page, not
-    fetchable by automated tools) so any 2025 posts there are unverified. Could
-    not confirm what, if anything, this maker brought to DEF CON 33; leaving
-    title and fields as originally imported.
+    account for im_eningeer could not be read (x.com returns HTTP 402 to
+    automated fetches; the nitter mirror is offline) so any 2025 posts there are
+    unverified. Could not confirm what, if anything, this maker brought to DEF
+    CON 33; leaving title and fields as originally imported. Fact-check
+    2026-09-06: the sheet row (2025 expected-makers tab, row 78), the DC31 sheet
+    row naming both handles, and the 2023-07-24 "Peppy SAO #badgelife" tweet by
+    @___th0m4s___ were re-confirmed; no fields or sentences needed removal.
 last_modified_date: '2026-09-06'
 ---
 

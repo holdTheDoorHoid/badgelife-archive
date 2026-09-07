@@ -10,10 +10,16 @@ event: dc33
 year: 2025
 makers:
 - name: Abhinav SP - Hackerware.io
-summary: A sponsor CTF badge for F5's Black Hat 2025 booth presence, built by Hackerwares/Abhinav SP.
+summary: F5's first badge, a CTF badge built by Hackerwares (Abhinav SP) and given away at F5's booth at Black Hat 2025; solving web challenges yields binary flags that unlock LED sections on the badge.
 functions: Flip a slide switch for a 3-second LED preview. Hold the CTF key and enter a binary flag (via 1/0 switches) to unlock that challenge's LEDs; hold the MODE key to change the LED blink pattern; hold 1 and 0 together to reset progress. Visiting F5 partner booths at Black Hat progressively unlocks badge sections.
 look:
-  colors: []
+  colors:
+  - black
+  - pink
+  - blue
+  - purple
+  - green
+  - orange
   shape: null
   themes:
   - ctf
@@ -73,23 +79,24 @@ sources:
   url: https://hackerware.io/index.html
   title: "Hackerware - #BadgeLife | Hardware Design, Security, & Research."
   accessed: '2026-09-06'
-  note: Confirms Hackerware/Hackerwares is run by Abhinav (page author meta), consistent with sheet's "Abhinav SP - Hackerware.io".
+  note: Site root lists the F5 badge in the Hackerware portfolio ("A CTF badge built around F5's platform offerings") and gives an abhinav@ contact address, consistent with the sheet's "Abhinav SP - Hackerware.io".
 research:
-  status: researched
-  confidence: medium
+  status: verified
+  confidence: high
   last_checked: '2026-09-06'
   notes: >-
-    Distributed by F5 as a giveaway at Black Hat 2025 (not a DEF CON con-floor
-    drop; kept under dc33 as imported from the sheet). No source gave the MCU,
-    LED count/type, battery, board colors/shape, quantity made, or any
-    hardware/firmware release — Hackerware's page describes gameplay only, with
-    no schematic, repo, or BOM found. Left those fields empty rather than
-    guess. WebSearch was unavailable (session budget exhausted) so coverage
-    relied on the maker's own two pages plus curl of the site root; no
-    Hackaday, press, or storefront listing was found for this specific badge.
+    Fact-checked 2026-09-06 against the maker's pages and the sheet row.
+    "Giveaway at Black Hat" and "Visit F5 booth" come from the maker's own
+    sheet submission; the maker's page confirms Black Hat 2025 partner-booth
+    unlocks and every control described in functions. Colors are read from
+    the maker's photo (black PCB with pink ring and purple/blue/green/orange
+    lobes). Not a DEF CON floor drop; kept under dc33 as imported from the
+    sheet. No source gives the MCU, LED count/type, battery, quantity, or any
+    hardware/firmware release; no Hackaday, press, or storefront coverage was
+    found for this badge.
 last_modified_date: '2026-09-06'
 ---
 
-The F5 CTF Badge was F5's entry into badgelife culture, built for the company by Abhinav SP of Hackerwares and given away at F5's booth during Black Hat 2025. The badge doubles as a lightweight puzzle console: a slide switch triggers a 3-second preview of the LEDs at full brightness, while the real game runs through four challenges (with security-flavored names like "Delivery," "Security," "XOps," and "Deployment") hosted on a companion CTF page. Solving a challenge yields a binary flag, which the holder enters on the badge itself using dedicated 1/0 switches while holding a CTF key; a correct flag permanently lights up that section of the badge. A separate MODE key cycles the LED blink pattern, and holding both 1 and 0 together resets all progress.
+The F5 CTF Badge was F5's debut into badgelife, built for the company by Abhinav SP of Hackerwares and given away at F5's booth during Black Hat 2025. The badge doubles as a lightweight puzzle console: a slide switch triggers a 3-second sneak preview of the LEDs, while the real game runs through four challenges ("Delivery," "Security," "XOps," and "Deployment") hosted on a companion CTF page. Solving a challenge yields a binary flag, which the holder enters on the badge using the 1 and 0 keys while holding the CTF key; a correct flag unlocks that challenge's LEDs. A separate MODE key changes the LED blink pattern, and holding 1 and 0 together for a few seconds resets CTF progress.
 
-Beyond the puzzle mechanic, the badge was tied to Black Hat's expo floor: visiting F5's partner booths progressively unlocked additional sections, encouraging attendees to walk the show rather than solve everything at their desk. No technical specifications (microcontroller, LED type/count, power source, PCB color or shape) were published on the maker's site, and no GitHub repository, schematic, or bill of materials was found, so the badge's open-source status and internals remain undocumented as of this writing.
+Beyond the puzzle mechanic, the badge was tied to Black Hat's expo floor: visiting F5's partner booths progressively unlocked additional sections of the badge. No technical specifications (microcontroller, LED type or count, power source) were published on the maker's site, and no repository, schematic, or bill of materials was found, so the badge's open-source status and internals remain undocumented.

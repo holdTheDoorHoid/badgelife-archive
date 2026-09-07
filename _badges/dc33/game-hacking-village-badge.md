@@ -66,10 +66,10 @@ sources:
   note: Links to YouTube/social recaps of DC33; no images or mention of a physical
     badge.
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-06'
-  notes: The community sheet's rumor could not be confirmed. Game Hacking Village's
+  notes: Fact-check 2026-09-06 re-opened gamehacking.gg, /dc33 and /media and confirmed every cited claim (no badge or hardware mentioned; "merit prize badges" is a bug-bounty award; site links @GameHackingGG); x.com itself was not reachable (HTTP 402). The community sheet's rumor could not be confirmed. Game Hacking Village's
     own site (gamehacking.gg) has a full DEF CON 33 recap page listing their talks,
     workshops, and a bug-bounty program with Epic Games and Facepunch, but it makes
     no mention of a physical badge or SAO, and there is no shop/store/badge page

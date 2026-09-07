@@ -10,7 +10,7 @@ event: dc33
 year: 2025
 makers:
 - name: Gigs
-summary: A SAO power host / 3.3v prototype board sold at DEF CON 33 by a maker known as Gigs.
+summary: A SAO power host / 3.3v prototype board listed for DEF CON 33 by a maker known as Gigs, priced at $25 on the community sheet.
 functions: SAO Power Host/3.3v prototype board
 look:
   colors: []
@@ -48,7 +48,7 @@ sources:
   row: 3
   updated: 5/30/2025 15:44:46
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-06'
   notes: >-
@@ -60,7 +60,9 @@ research:
     pages, so absence here is not conclusive). No fields could be filled beyond what the
     community sheet already stated. Left colors, shape, themes, mcu, leds, display,
     connectivity, battery, sao_version, quantity, availability, distribution, where, and
-    all make_your_own/links/images fields empty since no source confirms them.
+    all make_your_own/links/images fields empty since no source confirms them. Fact-check
+    2026-09-06: every non-empty field (title, maker, type, price, email, functions) matches
+    data/sheets/dc33.csv row 3 exactly; there are no links or images to check.
 last_modified_date: '2026-09-06'
 ---
 

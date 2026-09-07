@@ -52,7 +52,7 @@ sources:
   tab: 2025 (expected makers)
   updated: ''
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-06'
   notes: >-
@@ -69,9 +69,14 @@ research:
     this archive (Jigglebilly, Tootsie Pop, Weiner, Keanu is my homeboy v2, I'm
     in my Defcon era, all ~$20 each) but nothing confirms what, if anything,
     they brought to DEF CON 33. Left title, type, and all badge-specific fields
-    empty/unknown rather than guess; status set to unknown per the research
-    guide's rule for this case.
-last_modified_date: '2026-09-06'
+    empty/unknown rather than guess; status set to unknown, matching the other
+    DC33 expected-makers-only stubs in this archive. Fact-check 2026-09-07:
+    sheet row 72 (data/sheets/dc33_makers.txt) confirms name-only; the five
+    $20 DC32 rows (data/sheets/dc32.csv rows 127-131) and the x.com handle
+    on row 127 confirm the prior-year claims; x.com still returns HTTP 402
+    and nitter.net is down, so the social link is kept on the strength of the
+    maker's own DC32 sheet entry, unverified live.
+last_modified_date: '2026-09-07'
 ---
 
 The DEF CON 33 (2025) community badge sheet has an entry for Shenanigans-R-Us on its "expected makers" tab, but the row carries no badge or SAO name, no functions, no price, and no link — just the team name. Shenanigans-R-Us was an active maker the year before, listing at least five different $20 badges for DEF CON 32 (2024): Jigglebilly, Tootsie Pop, Weiner, Keanu is my homeboy v2, and I'm in my Defcon era, all also thinly documented in this archive.

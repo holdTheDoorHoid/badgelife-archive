@@ -85,10 +85,16 @@ research:
     not confirm whether BTV had a 2025 badge at all, or what it was if so; leaving as unknown
     rather than guessing. Web search was unavailable for this task (session search budget
     exhausted), which limited coverage of forum/social posts (Reddit, Bluesky/X, DEF CON forums)
-    that might otherwise confirm or rule this out.
-last_modified_date: '2026-09-06'
+    that might otherwise confirm or rule this out. Fact-check 2026-09-07: re-opened all five
+    cited pages; the negative findings (no DC33 badge/SAO on the BTV site, DC33 recap page,
+    GitHub org, DC32 badge repo, or camera-badge site) are confirmed. Removed an unsupported
+    description of the camera badge's shape and detection features from the body, since none
+    of the cited sources describe them. Kept as researched, not verified: the core question
+    (whether BTV had a DC33 badge at all) remains unresolved because the entry is an absence
+    of evidence, not a confirmed fact.
+last_modified_date: '2026-09-07'
 ---
 
 Blue Team Village appeared on the community badge sheet as an expected maker for DEF CON 33 (2025), but the sheet carried no further detail about what, if anything, the village handed out that year.
 
-A check of Blue Team Village's own website, its GitHub organization, and its badge-specific project sites turned up no DEF CON 33 badge or SAO. The village's well-documented "Camera Badge" (a PCB shaped like a vintage SLR that lights up on deauth or nearby Flipper Zero detection) is dated to DEF CON 32 (2024) by its own repository and documentation site, and the same design resurfaced as a paid pickup at DEF CON 34 (2026); nothing in either record mentions a DEF CON 33 run in between. It is possible BTV simply didn't produce a distinct badge that year, or that one exists but left no trace reachable without web search (which was unavailable for this task). Absent a source, this entry is left unknown rather than guessed at.
+A check of Blue Team Village's own website, its GitHub organization, and its badge-specific project sites turned up no DEF CON 33 badge or SAO. The village's "Camera Badge" is dated to DEF CON 32 (2024) by its own repository and documentation site, and the same design resurfaced as a paid pickup at DEF CON 34 (2026); nothing in either record mentions a DEF CON 33 run in between. It is possible BTV simply didn't produce a distinct badge that year, or that one exists but left no trace reachable without web search (which was unavailable for this task). Absent a source, this entry is left unknown rather than guessed at.

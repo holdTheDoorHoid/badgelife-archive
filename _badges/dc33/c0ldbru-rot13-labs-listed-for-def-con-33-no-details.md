@@ -70,15 +70,15 @@ sources:
   accessed: '2026-09-06'
   note: Lists 17 past projects, none dated to DEF CON 33 or 2025; shop has no items currently for sale.
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-06'
   notes: >-
     The community sheet only listed the maker's name (C0ldbru / Rot13 labs)
     for DEF CON 33 with no title or details for what they brought. C0ldbru is
     a known recurring badgelife maker under the Rot13 labs name, with
-    confirmed prior entries in this archive: the Dickbutt Badge and Dickbutt
-    SAO (DC30), the Hackbutt v.3 wifi testing badge (DC31), and the Veillid
+    prior entries in this archive: the Dickbutt Badge and Dickbutt
+    SAO (DC30), the Hackbutt v.3 wifi testing badge (DC31), and the Veilid
     SAO and Wifi Troll Badge (DC32). Checked the maker's own site
     (rot13labs.com), its news/blog page, and its shop/collections page for any
     2025 product; none mention DEF CON 33 or list a new item for that year,
@@ -89,7 +89,12 @@ research:
     with a bot challenge). Could not confirm what, if anything, C0ldbru
     brought to DEF CON 33; leaving type, look, tech, and get_one fields empty
     per the "never invent" rule. Status kept as unknown rather than
-    retitled, since no specific item could be identified.
+    retitled, since no specific item could be identified. Fact-check
+    2026-09-06: re-opened rot13labs.com home, news and collections pages;
+    all three show the same 17-project list, name only DEFCON 32 as the
+    latest event, carry no 2025/DEF CON 33 item, and state the shop is
+    "currently being rebuilt from the ground up." The Veilid SAO spelling
+    was corrected to match the DC32 archive entry.
 last_modified_date: '2026-09-06'
 ---
 
@@ -100,14 +105,14 @@ details about what they actually brought that year.
 C0ldbru/Rot13 labs is a known recurring name in this archive, with prior
 badges and SAOs documented for DEF CON 30 (the Dickbutt Badge and Dickbutt
 SAO), DEF CON 31 (the Hackbutt v.3 wifi testing badge), and DEF CON 32 (the
-Veillid SAO and the Wifi Troll Badge, the latter built around Wi-Fi
+Veilid SAO and the Wifi Troll Badge, the latter built around Wi-Fi
 manipulation tricks and limited to a run of 100). That history makes it
 plausible the maker had something at DEF CON 33 as well, but no specific
 product could be confirmed.
 
 A check of the maker's own site, rot13labs.com, found no DEF CON 33 or 2025
 release: the site's shop is explicitly described as being rebuilt from
-scratch, and its news page and project list stop at the DEF CON 32 Troll
-Badge. No Hackaday.io project, press coverage, or forum post naming a DEF CON
+scratch, and the most recent event named anywhere on its news page or
+project list is DEF CON 32 (the Troll Badge). No Hackaday.io project, press coverage, or forum post naming a DEF CON
 33 item from C0ldbru or Rot13 labs turned up either. This entry is left as
 `unknown` pending a source that actually names what was made for that year.

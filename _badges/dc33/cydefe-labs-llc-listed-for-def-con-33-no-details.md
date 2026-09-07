@@ -52,42 +52,36 @@ sources:
   accessed: '2026-09-06'
   note: Official DC33 contest/winners list; checked for any CyDefe mention (none found).
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-06'
   notes: >-
-    The community sheet lists "CyDefe Labs LLC" as an expected maker for DEF CON 33
-    (2025) with no further detail, so this entry follows the "listed, no details"
-    special case: the goal was to find what they actually brought that year. No
-    specific DC33 badge or SAO could be confirmed. Background found: CyDefe Labs LLC
-    is a cybersecurity training/podcast outfit (CyDefe CyCast) with a presence at
-    labs.cydefe.com and on X/Twitter (@cydefe); this archive already has a DC32
-    (2024) entry for their "Society of Shenanigans Badge," a $50 Indiegogo-funded
-    badge, so they have a prior year of badge-making history. However, several
-    attempted sources for 2025 either failed to load (labs.cydefe.com had a
-    certificate mismatch pointing to an unrelated domain, x.com/cydefe returned
-    HTTP 402, tindie.com/stores/cydefe returned 403, cydefe.com does not resolve)
-    or, once read, did not mention CyDefe at all (the official DC33 contest/winners
-    page has no CyDefe reference). General web search likewise turned up nothing
-    tying CyDefe to a specific DC33 badge, SAO, price, or image. Per the research
-    guide, status is left as unknown rather than guessed; a future pass could retry
-    the dead links above or check archived/cached versions of labs.cydefe.com and
-    the CyDefe X account for DC33-era posts.
+    The community sheet (2025 expected-makers tab, row 30) lists "CyDefe Labs LLC" as an
+    expected maker for DEF CON 33 (2025) with no further detail, so this entry follows
+    the "listed, no details" special case. No specific DC33 badge or SAO could be
+    confirmed. Background: this archive already has a DC32 (2024) entry for their
+    "Society of Shenanigans Badge," a $50 Indiegogo-funded badge, so they have a prior
+    year of badge-making history; that DC32 entry records the sheet-published handle
+    @cydefe. Attempted sources for 2025 were dead ends: cydefe.com returns HTTP 404,
+    labs.cydefe.com presents a TLS certificate for an unrelated host, x.com/cydefe
+    is unreachable (402/404), and tindie.com/stores/cydefe returns 403. The official
+    DC33 contest results page loads but does not mention CyDefe. Web search found
+    nothing tying CyDefe to a specific DC33 badge, SAO, price, or image. A fact-check
+    pass on 2026-09-06 re-confirmed the sheet row, the DC32 entry, the contest page,
+    and the dead links, and removed an unsourced description of CyDefe as a
+    training/podcast outfit. Status is left as unknown rather than guessed.
 last_modified_date: '2026-09-06'
 ---
-
 CyDefe Labs LLC appears on the DEF CON 33 (2025) community badge sheet as an
 expected maker, but the row carries no other detail, and no follow-up posts,
 storefront listing, or press coverage could be found describing what (if
-anything) they actually produced for that year. CyDefe is primarily known as a
-cybersecurity training and podcast group (CyDefe CyCast) rather than a
-dedicated hardware badge shop, though the archive already documents one prior
-badge from them: the "Society of Shenanigans Badge" crowdfunded for DEF CON 32
-(2024) at $50 via Indiegogo.
+anything) they actually produced for that year. The archive does document one
+prior badge from them: the "Society of Shenanigans Badge" crowdfunded for
+DEF CON 32 (2024) at $50 via Indiegogo.
 
-Several avenues that might normally confirm a listing like this were dead ends
-during this pass: their main site and labs subdomain did not resolve or load
-cleanly, their social accounts could not be fetched, and the official DEF CON
-33 contest results page (checked directly) makes no mention of CyDefe. Without
-a source that actually describes a 2025 item, this entry is left as `unknown`
-rather than guessing at a title, type, or specs.
+Several avenues that might normally confirm a listing like this were dead ends:
+their main site returns a 404, the labs subdomain presents a certificate for an
+unrelated host, their social and Tindie pages could not be fetched, and the
+official DEF CON 33 contest results page (checked directly) makes no mention of
+CyDefe. Without a source that actually describes a 2025 item, this entry is left
+as `unknown` rather than guessing at a title, type, or specs.

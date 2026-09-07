@@ -5,7 +5,7 @@ layout: badge
 parent: DC33
 grand_parent: Badge Archive
 nav_exclude: true
-type: sao
+type: badge
 event: dc33
 year: 2025
 makers:
@@ -40,7 +40,9 @@ images: []
 contact:
   emails:
   - tshipway@gmail.com
-notes: []
+notes:
+- Sheet lists it as a "Badge and SAO set"; the description refers to the front of the badge, so it is filed as a badge with a companion SAO.
+- Sheet price is entered as 0 with "Yes" for a chosen price point; unclear whether that means free or a placeholder.
 status: listed
 sources:
 - kind: sheet
@@ -58,12 +60,14 @@ research:
     unrelated personal site, p0lixs/_p0lixs_.github.io). No storefront, repo,
     Hackaday project, or press coverage turned up. All fields below reflect the
     community sheet import only; nothing could be independently confirmed or
-    added.
+    added. Fact-check 2026-09-06: no cited web sources exist to verify;
+    Hackaday.io and Bing re-checks found nothing. Type corrected from sao to
+    badge (sheet says "Badge and SAO set").
 last_modified_date: '2026-09-06'
 ---
 
-The MT LPR Badge is an SAO submitted to the DEF CON 33 (2025) community badge
-sheet by a maker known as p0liX. Per the sheet's description, it ships with a
+The MT LPR Badge is a badge-and-SAO set submitted to the DEF CON 33 (2025)
+community badge sheet by a maker known as p0liX. Per the sheet's description, it ships with a
 sticker pack so wearers can create their own five-character "license plate" on
 the front, and each badge uses embedded vision to "read" other badges' plates
 as they pass nearby, playing a sound and triggering sub-GHz signals to set off

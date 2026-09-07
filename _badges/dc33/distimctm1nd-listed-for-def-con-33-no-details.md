@@ -65,7 +65,7 @@ sources:
   accessed: '2026-09-06'
   note: "Storefront listing all of the maker's known products (Beelzebub Art Board, Beelzebub Minibadge Holder, Day of the Dead Turkey v1/v2, Krampus Minibadge Holder, Night of the Evil AI Expansion Board); none of the listings ties a specific item to DEF CON 33 or 2025."
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-06'
   notes: >-
@@ -73,15 +73,15 @@ research:
     name itself was misspelled ('distimctm1nd'). Confirmed via GitHub and the maker's own Shopify
     store that the correct handle is 'distinctm1nd', the same person/team behind the Beelzebub
     Minibadge Holder, Krampus Minibadge Holder, and Day of the Dead Turkey pieces (those are
-    filed under DC34 in this archive) and the 2023 Halloween-themed minibadge/expansion-board
-    series. None of the maker's repos or storefront listings is dated or labeled specifically as
+    filed under DC34 in this archive) and a set of 2023 SAINTCON minibadge/expansion-board
+    repos. None of the maker's repos or storefront listings is dated or labeled specifically as
     a DEF CON 33 (2025) item, so I could not determine which product, if any, they brought to
     DC33 specifically. Leaving type/tech/get_one fields empty rather than guessing which of their
-    other-year items might apply. A `2025_utahtastic_bsides_badge` repo exists but is explicitly a
-    BSides Utah badge, not a DEF CON one, so it was not used to fill this entry.
+    other-year items might apply. A `2025_utahtastic_bsides_badge` repo exists but is described as a
+    BSides LoRa badge, not a DEF CON one, so it was not used to fill this entry.
 last_modified_date: '2026-09-06'
 ---
 
-The community badge sheet for DEF CON 33 (2025) lists distinctm1nd (spelled "distimctm1nd" on the sheet) as an expected maker, but records no details about what they actually brought that year. Distinctm1nd is a Halloween-and-horror-themed hardware maker who sells minibadge holders and expansion boards through their Shopify store, Cabinet of Distinctm1nd, and publishes hardware/firmware for most of their pieces on GitHub — their catalog includes the Beelzebub Minibadge Holder, Krampus Minibadge Holder, and Day of the Dead Turkey boards (filed elsewhere in this archive under DC34), plus an older run of 2023 Halloween minibadges and expansion boards (tombstones, a "Night of the Evil AI" board, a rosy cross badge, and others).
+The community badge sheet for DEF CON 33 (2025) lists distinctm1nd (spelled "distimctm1nd" on the sheet) as an expected maker, but records no details about what they actually brought that year. Distinctm1nd is a horror-themed hardware maker who sells minibadge holders and expansion boards through their Shopify store, Cabinet of Distinctm1nd (ghoul.lol), and keeps repositories for their pieces on GitHub — their catalog includes the Beelzebub Minibadge Holder, Krampus Minibadge Holder, and Day of the Dead Turkey boards (filed elsewhere in this archive under DC34), plus an older run of 2023 SAINTCON minibadges and expansion boards (a "Night of the Evil AI" board, a rosy cross badge, a Haunting Specter expansion board, and others).
 
 None of the maker's public repositories or storefront listings is dated or labeled as a DEF CON 33 (2025) release specifically, so this entry could not be filled in with confidence. It is left as an unknown/unresolved listing rather than guessing which of their other-year products might be the one meant here.

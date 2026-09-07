@@ -57,10 +57,10 @@ sources:
   accessed: '2026-09-06'
   note: Confirms Abhinav (Hackerware.io) as a working badge designer; the maker's own portfolio page lists twelve badge projects but does not include this DEF CON 33 FLARE item by name, so no independent confirmation of its specs was found here.
 - kind: url
-  url: https://flare-on.com
-  title: Flare-On Challenge
-  accessed: '2026-09-06'
-  note: Confirms FLARE is a real reverse-engineering team that runs an annual CTF (Flare-On); the site does not mention a physical DEF CON badge, raccoon artwork, or "PURPL3HAT".
+  url: https://flare.io
+  title: Flare Systems, Inc.
+  accessed: '2026-09-07'
+  note: The "Flare" behind the sheet's own link (flare.io/discord) is Flare Systems, a Montreal threat-intelligence company, not Mandiant/Google's FLARE reverse-engineering team; the site itself does not mention DEF CON, a badge, a raccoon, or "Hacker Week".
 - kind: url
   url: https://flare.io/discord
   title: Flare Discord invite (redirects to discord.com/invite/2kycr3DvK7)
@@ -75,20 +75,22 @@ research:
     portfolio (the maker's site) does not list a "FLARE RACCOON PURPL3HAT" item,
     and their Twitter/X (@TweetsFromPanda) and Facebook accounts were not reachable
     for scraping. Hackaday.io search requires a login and could not be checked.
-    General web search engines (Bing, DuckDuckGo, Marginalia) either returned no
-    results or blocked automated queries with bot-detection challenges; the
-    session's web-search quota was also exhausted partway through this task.
-    The archive already holds other Hackerware/FLARE badges for other years
-    (dc32-flare-badge-remember-at-least-10-pieces-of-flair, calling FLARE's mascot
-    "a full-colour hacker raccoon"; dc34-flare-blinky-badge; dc34-flare-ctf-badge),
-    which is consistent with "raccoon" in this title but was not independently
-    verified for the 2025 item, so no fields were filled from that inference beyond
-    the "animal" theme tag already implied by the sheet's own title. Type, MCU,
-    LED count, display, colors, shape, price, quantity, availability, and images
-    remain unconfirmed and are left empty rather than guessed.
-last_modified_date: '2026-09-06'
+    General web search engines either returned no results or blocked automated
+    queries. Fact-check 2026-09-07: an earlier draft identified "FLARE" as
+    Mandiant's Flare-On CTF team; that is contradicted by the sheet's own link
+    (flare.io/discord), which belongs to Flare Systems, a Montreal
+    threat-intelligence company, so that claim and the flare-on.com source were
+    removed. The Discord invite page could not be read without joining. The
+    archive holds other Hackerware/FLARE badges (dc32-flare-badge-remember-at-least-10-pieces-of-flair,
+    which calls the artwork "a full-colour hacker raccoon"; dc34-flare-blinky-badge;
+    dc34-flare-ctf-badge), all sheet-derived; only the sheet's own title supports
+    the "animal" theme tag here. Type, MCU, LED count, display, colors, shape,
+    price, quantity, availability, and images remain unconfirmed and are left
+    empty rather than guessed. Status stays researched, not verified, because no
+    maker page documents this specific badge.
+last_modified_date: '2026-09-07'
 ---
 
-The FLARE RACCOON PURPL3HAT Badge was made by Abhinav SP of Hackerware.io for DEF CON 33 (2025), for the FLARE team — the group behind Mandiant's annual Flare-On reverse-engineering CTF. The community sheet lists it as a blinky badge with a raccoon design, distributed with pointers to the FLARE Discord's #flarehackerweek channel for pickup details.
+The FLARE RACCOON PURPL3HAT Badge is listed on the DEF CON 33 (2025) community badge sheet as a blinky badge by Abhinav SP of Hackerware.io, made for "FLARE". The sheet's own link points to the Discord of Flare Systems (flare.io), a Montreal threat-intelligence company, and tells people to watch the #flarehackerweek channel there for pickup details.
 
-Hackerware.io has produced a FLARE-branded badge in multiple years (a raccoon-themed one for DEF CON 32, and further FLARE badges for DEF CON 34), so this appears to be part of that recurring series, but no source specific to the 2025 edition — maker page, press, or social post — could be found to confirm its chip, LEDs, colorway, price, or quantity. Those fields are left blank pending a source that actually documents this specific badge.
+Hackerware.io has produced FLARE-branded badges in other years according to the same community sheets (a raccoon-themed one for DEF CON 32, and further FLARE badges listed for DEF CON 34), so this appears to be part of a recurring line, but no source specific to the 2025 edition — maker page, press, or social post — could be found to confirm its chip, LEDs, colorway, price, or quantity. Those fields are left blank pending a source that actually documents this specific badge.

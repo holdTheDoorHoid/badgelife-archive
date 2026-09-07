@@ -11,24 +11,27 @@ year: 2025
 makers:
 - name: Make it Hackin
   url: https://github.com/MakeItHackin
-summary: A beginner through-hole soldering kit from Make it Hackin that builds into a small SAO with four RGB LEDs that slowly cycle color when plugged into a badge.
-functions: It slowly changes color. The four RGB LEDs cycle through colors once the assembled SAO is powered by a host badge's SAO header.
+summary: A beginner through-hole soldering kit from Make it Hackin that builds into a small SAO with four RGB LEDs that slowly change color when plugged into a badge.
+functions: It slowly changes color. The four RGB LEDs cycle through colors once the assembled SAO is powered from a host badge's SAO port.
 look:
-  colors: []
-  shape: null
+  colors:
+  - black
+  - white
+  shape: rectangle
   themes:
   - learn to solder
   - kit
+  form_factor: pcb sao
 tech:
   mcu: none
   leds:
     count: 4
     type: RGB
-    note: Through-hole RGB LEDs, one current-limiting resistor, assembled by the buyer.
+    note: Through-hole RGB LEDs plus one resistor, soldered by the buyer; no other components on the board.
   display: null
   connectivity: []
   battery: powered by host badge
-  sao_version: null
+  sao_version: v2
 get_one:
   price: $5
   price_usd: 5.0
@@ -38,8 +41,8 @@ get_one:
   - kit
   where: ''
 make_your_own:
-  open_source: partial
-  hardware_url: https://github.com/MakeItHackin/SummerCampSAO
+  open_source: null
+  hardware_url: null
   firmware_url: null
   eda_tool: null
 links:
@@ -53,7 +56,7 @@ images:
 - file: assets/images/badges/dc33/hacker-summer-camp-sao-soldering-kit/9bb538c890.jpg
   source: "https://github.com/MakeItHackin/SummerCampSAO"
   credit: "Make it Hackin"
-  caption: "Assembled Hacker Summer Camp SAO with RGB LEDs lit"
+  caption: "Assembled Hacker Summer Camp SAO, front, unpowered"
 - file: assets/images/badges/dc33/hacker-summer-camp-sao-soldering-kit/0684ca08c0.jpg
   source: "https://github.com/MakeItHackin/SummerCampSAO"
   credit: "Make it Hackin"
@@ -72,16 +75,21 @@ sources:
 - kind: url
   url: https://github.com/MakeItHackin/SummerCampSAO
   title: "MakeItHackin/SummerCampSAO"
-  accessed: '2026-09-06'
-  note: "README describes the kit's contents (4 RGB LEDs, 1 resistor, 1 SAO connector), assembly steps, and confirms it lights up with slow-changing colors once plugged into a badge's SAO port; no price, quantity, or MCU is stated in the repo."
+  accessed: '2026-09-07'
+  note: "README lists the kit's contents (board, 4 RGB LEDs, 1 resistor, 1 SAO connector, stickers, googly eyes), assembly order, and says it lights up from the badge's power with slow-changing RGB LEDs. Repo holds only the README and photos: no design files, no license. Repo created July 2024; stickers reference DC32."
+- kind: url
+  url: https://www.youtube.com/watch?v=E3vtrzXdGKo
+  title: "How to Assemble and Solder Your Hacker Summer Camp SAO | DEF CON 32"
+  accessed: '2026-09-07'
+  note: "Maker's assembly video on the Make It Hackin channel, published 2024-08-05; the title places the kit at DEF CON 32."
 research:
-  status: researched
-  confidence: low
-  last_checked: '2026-09-06'
-  notes: 'Confirmed via the maker''s own GitHub repo (README + assembly photos): this is a passive, MCU-less through-hole soldering kit with 4 RGB LEDs and 1 resistor, distributed as a beginner kit (likely bundled with a badge or sold alongside one, per the community sheet). The repo README also mentions "DC32 Engage" and "DC32 Flipboard" stickers included in the kit bag, which may mean some kit stock or stickers were left over from a prior year, but the sheet lists this item for DC33 (2025) so that is kept as the event. No storefront, price confirmation beyond the sheet''s $5, quantity made, or availability status was found; web search was unavailable for this task (session search budget exhausted) so only the repo itself and its linked YouTube tutorial were checked.'
-last_modified_date: '2026-09-06'
+  status: verified
+  confidence: medium
+  last_checked: '2026-09-07'
+  notes: 'Verified against the DC33 community sheet row (maker, title, $5, contact email, functions, notes) and the maker''s own GitHub README, repo photos and YouTube video. Board colours, rectangular shape and the 6-pin (v2) SAO header are read from the maker''s photos. mcu: none follows from the README''s complete parts list (4 LEDs, 1 resistor, 1 connector) and the photos showing a bare board. Discrepancy: the maker''s repo (July 2024) and video title ("DEF CON 32", published 2024-08-05) and the DC32 stickers in the bag show this kit was made for DEF CON 32 (2024); the community sheet lists it for DC33 (2025), so it was presumably offered again in 2025. Kept as dc33 per the sheet. open_source left null: the repo has no schematic, Gerbers or firmware. No storefront, quantity or availability found; the sheet''s $5 is the only price source.'
+last_modified_date: '2026-09-07'
 ---
 
-The Hacker Summer Camp SAO is a beginner-friendly soldering kit by Make it Hackin, distributed around DEF CON 33 (2025) for $5. It is a simple, MCU-less SAO circuit board: builders solder in one resistor, four through-hole RGB LEDs, and a 4-pin SAO connector, then plug the finished board into a badge's SAO header to see the LEDs slowly cycle color, powered entirely by the host badge. The kit ships with a small bag of stickers and googly eyes alongside the board and components.
+The Hacker Summer Camp SAO is a beginner-friendly soldering kit by Make it Hackin. Builders solder one resistor, four through-hole RGB LEDs and a 6-pin SAO connector onto a small black board printed with a Las Vegas skyline and the words "Learn, Share, Hack", then plug it into a badge's SAO port to see the LEDs slowly change color, powered entirely by the host badge. The bag also holds googly eyes and a few stickers (Hacker Summer Camp, DC32 Engage, Make it Hackin, DC32 Flipboard).
 
-Make it Hackin published a step-by-step README and a companion YouTube video walking through the resistor, LED, and connector soldering steps and how to test the finished board on a badge simulator. Beyond the maker's own GitHub repo, no separate storefront listing, price confirmation, or production quantity could be found for this specific kit.
+Make it Hackin published a step-by-step README and a companion YouTube video walking through the resistor, LED and connector soldering steps and testing the finished board on a badge simulator. The repo and video date from July and August 2024 and the video title says DEF CON 32, so the kit was made for DC32; it appears on the DC33 community sheet at $5, which is where this entry comes from. No separate storefront listing or production quantity was found.

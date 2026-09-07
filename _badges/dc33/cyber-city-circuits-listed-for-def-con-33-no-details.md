@@ -11,7 +11,7 @@ year: 2025
 makers:
 - name: Cyber City Circuits
   url: https://cybercitycircuits.com
-summary: A custom PCB fabrication and assembly shop that designed and built three badges for the Red Team Village at DEF CON 33; the badge designs themselves are not documented anywhere the maker has published.
+summary: A custom PCB fabrication and assembly shop that produced three badges for "RTV" (the Red Team Village) at DEF CON 33, according to a customer review on its own site; the badges themselves are not documented anywhere the maker has published.
 functions: ''
 look:
   colors: []
@@ -28,11 +28,10 @@ tech:
 get_one:
   price: ''
   price_usd: null
-  quantity: 3
+  quantity: null
   availability: unknown
-  distribution:
-  - village
-  where: Red Team Village at DEF CON 33
+  distribution: []
+  where: Made for RTV (Red Team Village) at DEF CON 33 per a customer review; how attendees received them is not documented.
 make_your_own:
   open_source: null
   hardware_url: null
@@ -60,12 +59,12 @@ sources:
   url: https://cybercitycircuits.com
   title: Cyber City Circuits — home page
   accessed: '2026-09-06'
-  note: "Confirms CCC is a PCB design/assembly/rapid-prototyping shop (North Augusta, SC, veteran-owned, est. 2018) that offers 'Custom PCB Event Badges'; a customer review states CCC 'produced three amazing badges for RTV at DEF CON 33'."
+  note: "Confirms CCC is a PCB design/assembly/rapid-prototyping shop ('Est. 2018 in Augusta, Ga', address in N Augusta, SC, 'Service Connected Disabled Veteran Owned Small Business') that offers 'Custom PCB Event Badges' via BadgesBadgesBadges.com; a customer review by Brian Sak states CCC 'produced three amazing badges for RTV at DEF CON 33'. Verified 2026-09-07."
 - kind: url
   url: https://badgesbadgesbadges.com
   title: BadgesBadgesBadges.com — Cyber City Circuits' event-badge storefront
   accessed: '2026-09-06'
-  note: "Repeats the same DEF CON 33 / RTV review; lists CCC's general customizable badge spec (up to 4 RGB LEDs, 12 patterns, onboard microprocessor, USB-C, single battery) but has no page specific to the DEF CON 33 / RTV badges themselves."
+  note: "Repeats the same DEF CON 33 / RTV review; lists CCC's general customizable badge spec (up to 4 RGB LEDs, up to 12 patterns, onboard microprocessor, USB-C, single battery, gold or silver lead-free finish, $24.99 each at 100 pieces) but has no page specific to the DEF CON 33 / RTV badges themselves. Verified 2026-09-07."
 research:
   status: researched
   confidence: low
@@ -73,27 +72,25 @@ research:
   notes: >-
     "Cyber City Circuits" (CCC) is a contract PCB design/assembly business, not a
     hobbyist badge line, which is why the sheet only had a maker name and no
-    other details: they were commissioned to fabricate badges for someone else's
-    village rather than releasing a badge under their own name. The only
-    corroborating source found is a customer (Brian Sak) review on CCC's own
-    website stating CCC "produced three amazing badges for RTV [Red Team
-    Village] at DEF CON 33." No page from CCC, Red Team Village, or press
-    describes those three badges' design, chips, LEDs, or appearance, and no
-    photo of them was located, so most technical and look fields are left
-    empty rather than guessed. `type` is set to `badge` and `get_one.quantity`
-    to 3 on the strength of that one review; `availability`/`status` reflect
-    that the badges were handed out at the village rather than sold. General
-    specs shown on CCC's badge storefront (BadgesBadgesBadges.com) are listed
-    only in the links/notes, not copied into `tech`, since they describe CCC's
-    generic badge product line, not confirmed to be what RTV actually got.
-    Web search tooling was largely blocked (search-engine CAPTCHAs, exhausted
-    session search budget) after the initial useful hits, so further
-    corroboration was not attempted this pass.
-last_modified_date: '2026-09-06'
+    other details. The only corroborating source is a customer review by Brian
+    Sak, shown on both cybercitycircuits.com and badgesbadgesbadges.com, saying
+    CCC "produced three amazing badges for RTV at DEF CON 33." Fact-check
+    2026-09-07 re-read both pages and confirmed that quote and the company
+    background. The expansion of "RTV" to Red Team Village is the archive's
+    reading (RTV is the usual abbreviation for that DEF CON village), not stated
+    in the review, and no Red Team Village or press page confirming the badges
+    was found, so the entry stays at `researched` / low confidence. "Three
+    badges" most likely means three designs, not three units, so
+    `get_one.quantity` is left null; nothing states how or whether the badges
+    were handed out, so `distribution` is empty. No design, chip, LED, look
+    or photo information exists for the actual RTV badges; the generic spec on
+    BadgesBadgesBadges.com is not copied into `tech` because it is CCC's
+    standard product line, not confirmed to be what RTV received.
+last_modified_date: '2026-09-07'
 ---
 
-Cyber City Circuits (CCC) is a PCB design, assembly, and rapid-prototyping company based in North Augusta, South Carolina, founded in 2018 and run as a service-disabled-veteran-owned small business. It normally does contract PCB work — assembly, reverse engineering, and unsupported-hardware recreation — and separately runs a custom-event-badge product line under the storefront BadgesBadgesBadges.com. The community badge sheet listed the company as an expected DEF CON 33 (2025) maker with no further detail.
+Cyber City Circuits (CCC) is a PCB design, assembly, and rapid-prototyping company established in 2018 in Augusta, Georgia and now addressed in North Augusta, South Carolina, run as a service-connected disabled-veteran-owned small business. It does contract PCB work (assembly, reverse engineering, and recreating unsupported or obsolete hardware) and separately sells custom event badges through the storefront BadgesBadgesBadges.com. The community badge sheet listed the company as an expected DEF CON 33 (2025) maker with no further detail.
 
-The only confirmation found of what they actually brought to DEF CON 33 is a customer review on CCC's own site from Brian Sak, who wrote that "David and CCC were phenomenal to work with and produced three amazing badges for RTV [Red Team Village] at DEF CON 33." That places CCC as the fabricator/designer of a set of three badges made for the Red Team Village at that con, rather than a badge CCC released under its own brand. No page describing those specific badges — their look, chip, LEDs, or how they were distributed to village attendees — could be located from CCC, Red Team Village, or press coverage, so this entry records the confirmed fact of the commission without guessing at the hardware.
+The only confirmation found of what they brought to DEF CON 33 is a customer review on CCC's own sites from Brian Sak, who wrote that CCC "produced three amazing badges for RTV at DEF CON 33." Read as the Red Team Village, that makes CCC the fabricator of three badges made for that village rather than a badge released under its own brand. No page describing those badges, their look, chip, LEDs, or how they reached village attendees was located from CCC, Red Team Village, or press coverage, so this entry records the commission without guessing at the hardware.
 
-CCC's general badge-storefront page advertises a standard customizable badge spec (up to four RGB LEDs with a dozen selectable patterns, an onboard microcontroller, USB-C charging, single-battery operation, gold or silver ENIG finish) starting around $25/unit at 100-piece quantities, but there is no indication that this generic spec is what the Red Team Village badges actually used, so it is not recorded in the `tech` fields above.
+CCC's badge storefront advertises a standard customizable badge (up to four RGB LEDs with up to twelve selectable patterns, an onboard microprocessor, a USB-C connector, single included battery, gold or silver lead-free finish) at $24.99 per unit for 100 pieces, falling to $15.99 at 1,000. There is no indication that this generic spec is what the Red Team Village badges used, so it is not recorded in the `tech` fields above.

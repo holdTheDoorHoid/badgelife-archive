@@ -12,7 +12,7 @@ makers:
 - name: HackerBoxes
   url: https://hackerboxes.com
 summary: A solder-it-yourself alien-robot badge from HackerBox #0104 "Engage," built around an ESP32-C3 Supermini and two 4x4 WS2812B LED matrices standing in for the robot's glowing eyes.
-functions: Runs an Arduino sketch with multiple triggered display modes for the eye LEDs plus a sound effect; an expanded community sketch (HB0104_Wireless_Badge.ino) adds 20 display modes and button-triggered wireless features.
+functions: Runs a demo Arduino sketch with three button-triggered display modes for the eye LEDs, one with buzzer sound effects; an expanded sketch from HackerBoxes (HB0104_Wireless_Badge.ino) adds 20 display modes and lets modes be triggered wirelessly from another badge over ESP-NOW.
 look:
   colors:
   - multicolor
@@ -34,7 +34,7 @@ tech:
   - bluetooth
   inputs:
   - buttons
-  battery: powered by host badge
+  battery: 3x AA battery pack (batteries not included) or USB-C via the ESP32-C3 Supermini; USB/BAT switch
   sao_version: v1.69bis
   sao_ports: 1
 get_one:
@@ -56,7 +56,7 @@ make_your_own:
   eda_tool: null
   license: null
   fab_url: null
-  notes: The Instructables build guide includes the demo Arduino sketch and links an expanded community sketch (HB0104_Wireless_Badge.ino) with 20 display modes; no PCB source/Gerbers were found published.
+  notes: The Instructables build guide (CC BY-NC-SA) includes the demo Arduino sketch and an attached expanded sketch (HB0104_Wireless_Badge.ino) with 20 display modes and ESP-NOW wireless triggering; no PCB source/Gerbers were found published.
 links:
 - label: hackerboxes.com/collections/past-hackerboxes/products/hackerbox-0104-engage
   url: https://hackerboxes.com/collections/past-hackerboxes/products/hackerbox-0104-engage
@@ -100,26 +100,26 @@ sources:
   url: https://hackerboxes.com/products/hackerbox-0104-engage
   title: 'HackerBox #0104 - Engage – HackerBoxes'
   accessed: '2026-09-06'
-  note: Confirmed the badge shipped inside the $59 HackerBox 0104 monthly box alongside other kits, and links to the Instructables guide and an unboxing video.
+  note: Confirmed the badge shipped inside the $59 HackerBox 0104 monthly box alongside the Galactic Power Badge Kit, four SAOs and other parts, and links to the Instructables guide and an unboxing video.
 - kind: url
   url: https://www.instructables.com/HackerBox-0104-Engage/
   title: 'HackerBox 0104: Engage : 10 Steps - Instructables'
   accessed: '2026-09-06'
-  note: 'Detailed step-by-step build guide: confirmed ESP32-C3 Supermini MCU, two 4x4 WS2812B (32 total) LED eye modules, buttons, demo Arduino sketch with a sound effect, an expanded 20-mode community sketch (HB0104_Wireless_Badge.ino), and that the box shipped on the 2024 summer solstice ahead of DEF CON 32 / Hacker Summer Camp.'
+  note: 'Detailed step-by-step build guide: confirmed ESP32-C3 Supermini MCU, two 4x4 WS2812B (32 total) LED eye modules, buttons, demo sketch with three display modes including sound effects, an attached 20-mode HB0104_Wireless_Badge.ino sketch with ESP-NOW wireless triggering, a 2x3 (6-pin) SAO header, a 3x AA battery pack with boost converter and USB/BAT switch (battery pack visible in the guide''s photos), and that the box shipped on the 2024 summer solstice ahead of DEF CON 32 / Hacker Summer Camp.'
 research:
-  status: researched
+  status: verified
   confidence: high
-  last_checked: '2026-09-06'
-  notes: 'Core facts confirmed directly from the maker''s own store pages and build guide. Not found: PCB/Gerber source files, a specific units-made count, and the SAO pinout count beyond the default v1.69bis assumption (the badge itself hosts one powered SAO port; no source stated it explicitly as "v1.69bis" but that is the standard 6-pin SAO used across recent HackerBoxes). Left make_your_own.hardware_url and gerbers_url empty since no PCB design files were found published, only the firmware/build guide.'
-last_modified_date: '2026-09-06'
+  last_checked: '2026-09-07'
+  notes: 'Verified 2026-09-07 against the maker''s store pages, the Instructables guide (via its JSON API; the HTML page is JS-rendered) and the YouTube oEmbed title. Not found: PCB/Gerber source files or a units-made count. SAO header is a 2x3 (6-pin) female header per the guide; recorded as v1.69bis on that basis. Battery count (3x AA) is from the maker''s product photos; the guide text only says "battery pack". Fact-check corrections: battery was wrongly "powered by host badge"; the demo sketch has three modes (not "multiple"); the 20-mode sketch is attached by HackerBoxes, not a community sketch; the box held four SAOs, not three.'
+last_modified_date: '2026-09-07'
 ---
 
-The Alien Robot Badge is a solder-it-yourself electronic badge that HackerBoxes shipped as the headline build in HackerBox #0104, "Engage," a monthly subscription box that went out around the summer solstice of 2024 in the run-up to DEF CON 32 and the rest of Hacker Summer Camp in Las Vegas. Its two "eyes" are 4x4 WS2812B LED matrices (32 addressable RGB LEDs total), driven by an ESP32-C3 Supermini development board wired to the badge along with a couple of buttons and a small speaker. Out of the box it runs a demo Arduino sketch with a few triggered display modes and a sound effect; HackerBoxes' Instructables guide also links an expanded community sketch, HB0104_Wireless_Badge.ino, that adds 20 display modes and more elaborate wireless-triggered behavior. It carries a powered SAO port so it can host an add-on board, and its ESP32-C3 base gives it both Wi-Fi and Bluetooth.
+The Alien Robot Badge is a solder-it-yourself electronic badge that HackerBoxes shipped as the headline build in HackerBox #0104, "Engage," a monthly subscription box that went out around the summer solstice of 2024 in the run-up to DEF CON 32 and the rest of Hacker Summer Camp in Las Vegas. Its two "eyes" are 4x4 WS2812B LED matrices (32 addressable RGB LEDs total), driven by an ESP32-C3 Supermini development board soldered to the badge along with two buttons, a buzzer, a DC/DC boost converter and a 3x AA battery pack (with a USB/BAT switch). Out of the box it runs a demo Arduino sketch with three button-triggered display modes, one with sound effects; HackerBoxes' Instructables guide also attaches an expanded sketch, HB0104_Wireless_Badge.ino, that adds 20 display modes and lets modes be triggered wirelessly from another badge over ESP-NOW. It carries a powered 2x3 SAO header so it can host an add-on board, and its ESP32-C3 base gives it both Wi-Fi and Bluetooth.
 
-The badge was available two ways: bundled into the $59 HackerBox #0104 box (which also included the Galactic Power Badge Kit, three full-color SAOs, and other parts), or purchased on its own as the $39 Alien Robot Badge Kit. As of this check, the standalone kit listing on hackerboxes.com shows sold out. No PCB design files (Gerbers/schematic) were found published; the Instructables guide covers assembly and firmware only.
+The badge was available two ways: bundled into the $59 HackerBox #0104 box (which also included the Galactic Power Badge Kit, four SAOs, and other parts), or purchased on its own as the $39 Alien Robot Badge Kit. As of this check, the standalone kit listing on hackerboxes.com shows sold out. No PCB design files (Gerbers/schematic) were found published; the Instructables guide covers assembly and firmware only.
 
 ## Make your own
 
-1. Follow the HackerBox 0104 Instructables guide, which walks through soldering the ESP32-C3 Supermini board, the two 4x4 WS2812B eye modules, and the buttons onto the badge PCB.
-2. Flash the demo Arduino sketch from the guide for the built-in triggered display/sound modes, or use the expanded `HB0104_Wireless_Badge.ino` sketch linked from the guide for 20 display modes.
-3. No separate hardware/Gerber files were located; anyone reproducing the PCB itself would need to reverse it from photos or contact HackerBoxes.
+1. Follow the HackerBox 0104 Instructables guide, which walks through forming 1 cm wire leads on the two 4x4 WS2812B eye modules, then soldering the modules, two buttons, power switch, buzzer, ESP32-C3 Supermini, boost converter (set to 5V), battery pack and SAO header onto the badge PCB.
+2. Flash the demo Arduino sketch from the guide for the three built-in display/sound modes, or use the expanded `HB0104_Wireless_Badge.ino` sketch attached to the guide for 20 display modes and ESP-NOW wireless triggering.
+3. No separate hardware/Gerber files were located; the guide covers assembly and firmware only.

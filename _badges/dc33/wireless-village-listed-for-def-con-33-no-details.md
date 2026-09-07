@@ -54,29 +54,20 @@ sources:
   url: "https://defcon.org/html/defcon-33/dc-33-villages.html"
   title: "DEF CON 33 Hacking Conference - Villages"
   accessed: '2026-09-06'
-  note: "Official DC33 villages listing has no entry for 'Wireless Village'; the successor 'Radio Frequency Village' is listed instead, with no badge/SAO of its own mentioned."
-- kind: url
-  url: "https://infosecmap.com/event/radio-frequency-village-def-con-33/"
-  title: "Radio Frequency Village @ DEF CON 33 - InfoSecMap"
-  accessed: '2026-09-06'
-  note: "Confirms RF Village evolved from the WiFi Village and Wireless Village over 17 years; no mention of a village-branded badge or SAO for 2025."
+  note: "Official DC33 villages listing has no entry for 'Wireless Village'. Its RF Village blurb reads 'After 17 years of evolution, from the WiFi Village, to the Wireless Village, RF Hackers Sanctuary presents: The Radio Frequency Village'; no badge or SAO is mentioned. Verified 2026-09-06."
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-06'
   notes: >-
-    The community sheet lists "Wireless Village" as an expected DEF CON 33 maker, but by 2025 the
-    long-running WiFi/Wireless Village had been rebranded as the Radio Frequency (RF) Village
-    (per DC33's official villages page and InfoSecMap's DC33 listing). No badge or SAO under the
-    Wireless Village name, and none attributed to RF Village, could be found for DC33: not on the
-    official villages page, not in web/press search results (Hackaday, hackster, forums, social),
-    and no dedicated Wireless Village or RF Village website was reachable to check directly. It is
-    possible RF Village did not produce its own hardware badge that year, or that any badge exists
-    under a name/maker this search did not surface. Left as unknown rather than guessed; retitling
-    was not done because no successor item was confirmed to fill this row.
+    The community sheet lists "Wireless Village" as an expected DEF CON 33 maker. DEF CON's official
+    DC33 villages page has no Wireless Village; its Radio Frequency Village entry (run by RF Hackers
+    Sanctuary) describes itself as the evolution of the WiFi Village and Wireless Village, and
+    mentions no badge or SAO. No badge or SAO under either name was found for DC33. The item is left
+    unresolved rather than guessed. An InfoSecMap listing cited by the original researcher could not
+    be re-opened (Cloudflare challenge) and was dropped; the rebrand is supported by defcon.org alone.
 last_modified_date: '2026-09-06'
 ---
+The community badge sheet lists "Wireless Village" as an expected DEF CON 33 (2025) maker, but gives no further details. Research did not turn up a Wireless Village badge or SAO for that year. DEF CON's official DC33 villages page has no Wireless Village; instead it lists the Radio Frequency Village, presented by RF Hackers Sanctuary as the result of "17 years of evolution, from the WiFi Village, to the Wireless Village". That listing makes no mention of a village-branded hardware badge or SAO.
 
-The community badge sheet lists "Wireless Village" as an expected DEF CON 33 (2025) maker, but no further details. Research did not turn up a Wireless Village badge or SAO for that year. By DC33, the long-running Wireless Village (formerly the WiFi Village) had been renamed the Radio Frequency (RF) Village, and its official DC33 listing makes no mention of a village-branded hardware badge or SAO — unlike, for example, the Aerospace Village, which had a well-documented DC33 badge and companion SAO that year.
-
-It remains possible RF Village handed out or sold a badge that simply did not surface in maker pages, Hackaday, hackster, forum, or social-media searches, or that the sheet row refers to a different item entirely. Absent a source confirming what (if anything) was made, this entry is left unresolved rather than guessed.
+It remains possible the RF Village handed out or sold a badge that simply did not surface in searches, or that the sheet row refers to a different item entirely. Absent a source confirming what (if anything) was made, this entry is left unresolved rather than guessed.
