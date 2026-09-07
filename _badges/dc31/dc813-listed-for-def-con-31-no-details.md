@@ -39,17 +39,27 @@ links: []
 images: []
 contact: {}
 notes: []
-status: listed_no_details
+status: unknown
 sources:
 - kind: sheet
   event: dc31
   row: 33
   updated: '2023-02-14'
 research:
-  status: stub
+  status: researched
   confidence: low
-  last_checked: '2026-09-06'
-  notes: Imported from the community badge sheet; not yet researched.
-last_modified_date: '2026-09-06'
+  last_checked: '2026-09-07'
+  notes: >-
+    Only the maker name "DC813" (a Tampa-area DEF CON group) was listed on the
+    community sheet for DEF CON 31, with no title or details for what they
+    brought. Could not find what it was: dc813.org returns HTTP 522 in every
+    Wayback Machine snapshot from 2023-2024 (the site was already down at the
+    time), no Hackaday.io project, GitHub repo, storefront, or Meetup page
+    for the group was found, and general web search was unavailable this
+    session (budget exhausted). Left as unknown rather than guessed; a future
+    pass with search access, or direct outreach to DC813, may turn up more.
+last_modified_date: '2026-09-07'
 ---
+
+DC813, a Tampa-area DEF CON group, was listed as a badge maker on the community sheet for DEF CON 31 (2023), but the sheet recorded no title or details for what they brought. No further trace of it could be found: the group's own site (dc813.org) has returned a server error in every archived snapshot since at least 2023, and no Hackaday.io project, GitHub repository, storefront listing, or social/Meetup presence turned up in the sources checked. It is not possible to say from available sources whether DC813 fielded a badge, an SAO, or something else that year.
 
