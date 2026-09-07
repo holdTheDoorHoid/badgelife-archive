@@ -40,9 +40,8 @@ get_one:
   price_usd: null
   quantity: ''
   availability: unknown
-  distribution:
-  - purchase
-  where: 'Distributed to attendees at BornHack 2025 (Denmark); exact distribution/price not stated in available sources.'
+  distribution: []
+  where: 'Distributed to attendees at BornHack 2025 (Denmark); exact distribution method/price not stated in available sources.'
 make_your_own:
   open_source: yes
   hardware_url: https://github.com/bornhack/badge2025
@@ -82,10 +81,10 @@ sources:
   accessed: '2026-09-07'
   note: 'Confirmed shape/color (white, Ø-shaped), battery (2x AA), status icons/logo layout, designer name (Thomas Flummer), and that it pairs with the 2024 badge to spell "10" for the camp''s 10th year.'
 research:
-  status: researched
+  status: verified
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'Maker''s own repo confirms hardware/firmware details; price, exact quantity made, and how it was distributed (free with ticket vs. sold) were not stated in any source found. The companion BornHack 2024 badge (which pairs with this one to spell "10") is a separate item and may deserve its own entry.'
+  notes: 'Fact-check pass (2026-09-07): re-fetched both cited sources (bornhack/badge2025 GitHub repo, Hackaday article) and confirmed MCU, LED count, connectivity, battery, SAO version, EDA tool, open-source license, and body claims against them. The saved board photo carries the repo''s own "BornHack 2025 Circle Badge / Design: hxr.social/@thomasflummer / Files: github.com/bornhack/badge2025 / License: CC-BY-SA" caption printed on the PCB silkscreen, confirming it is this item from that source. Removed `get_one.distribution: [purchase]`, which no source supported (the entry''s own `where` text says distribution method is unstated) -- set to empty. Price, exact quantity made, and distribution method remain unconfirmed. The companion BornHack 2024 badge (which pairs with this one to spell "10") is a separate item and may deserve its own entry.'
 last_modified_date: '2026-09-07'
 ---
 

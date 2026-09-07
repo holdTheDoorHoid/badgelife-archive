@@ -48,20 +48,21 @@ make_your_own:
   eda_tool: null
 links:
 - kind: hackaday
-  label: 'The AI Village Badge (Hackster.io project log)'
+  label: The AI Village Badge (Hackster.io project log)
   url: https://www.hackster.io/HacksFromPanda/the-ai-village-badge-98ed97
 - kind: website
   label: Hackerware.io
   url: https://www.hackerware.io/
+  archived: https://web.archive.org/web/20260523123718/https://hackerware.io/
 images:
 - file: assets/images/badges/dc32/ai-village-badge/c56e3b4d82.jpg
-  source: "https://www.hackster.io/HacksFromPanda/the-ai-village-badge-98ed97"
-  credit: "Abhinav SP / Hackerware.io"
-  caption: "The AI Village Badge, showing the robot dog artwork with RGB dog tag and UV-printed HAL surface"
+  source: https://www.hackster.io/HacksFromPanda/the-ai-village-badge-98ed97
+  credit: Abhinav SP / Hackerware.io
+  caption: The AI Village Badge, showing the robot dog artwork with RGB dog tag and UV-printed HAL surface
 contact: {}
 notes:
 - Watch out for AIV announcements for badge drops!
-- 'Sheet listed maker as "AI Village, Abhinav Panda / Hackerware.io"; the project itself credits designer Abhinav SP (Hackerware.io) with artwork by Kassandra Jodar, and a GRT colour variant by Lauren.'
+- Sheet listed maker as "AI Village, Abhinav Panda / Hackerware.io"; the project itself credits designer Abhinav SP (Hackerware.io) with artwork by Kassandra Jodar, and a GRT colour variant by Lauren.
 status: released
 sources:
 - kind: sheet
@@ -78,19 +79,12 @@ sources:
   title: 'Hackerware - #BadgeLife'
   accessed: '2026-09-06'
   note: Confirms Abhinav Panda (Abhinav SP) is the founder of Hackerware.io; did not add further badge-specific details.
+  archived: https://web.archive.org/web/20260523123718/https://hackerware.io/
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-06'
-  notes: >-
-    Maker's own Hackster.io project log confirms the design (two robot dogs, artwork by
-    Kassandra Jodar), the blinky RGB circuit, the HAL-surface + UV print + varnish
-    fabrication process, 2x CR2032 power, and a hardware parts list (4x 1206 SMD LEDs,
-    5x 1204 side-emitting RGB LEDs, no MCU listed, suggesting a discrete/passive blink
-    driver rather than a microcontroller — left tech.mcu empty since no chip is named).
-    Could not find price, quantity made, exact distribution method (drop, contest reward,
-    or staff-only), or any hardware/firmware/gerber files — the project page has no
-    repo or store links. No separate Hackaday.io or GitHub project found under this name.
+  notes: Maker's own Hackster.io project log confirms the design (two robot dogs, artwork by Kassandra Jodar), the blinky RGB circuit, the HAL-surface + UV print + varnish fabrication process, 2x CR2032 power, and a hardware parts list (4x 1206 SMD LEDs, 5x 1204 side-emitting RGB LEDs, no MCU listed, suggesting a discrete/passive blink driver rather than a microcontroller — left tech.mcu empty since no chip is named). Could not find price, quantity made, exact distribution method (drop, contest reward, or staff-only), or any hardware/firmware/gerber files — the project page has no repo or store links. No separate Hackaday.io or GitHub project found under this name.
 last_modified_date: '2026-09-06'
 ---
 

@@ -14,9 +14,9 @@ makers:
 summary: A passive, battery-powered indie badge shaped like a Vortigaunt (from Half-Life 2), with red and orange LEDs shining through the board to light up its eyes.
 functions: 'No interactivity or MCU; the badge lights up via coin-cell power the moment a battery is installed, illuminating the Vortigaunt-style eyes.'
 look:
-  colors: [black, red, orange]
+  colors: [green, red, orange]
   shape: null
-  themes: [video games, sci-fi]
+  themes: [pop culture, sci-fi]
 tech:
   mcu: none
   leds:
@@ -65,10 +65,10 @@ images:
   caption: "THEFREEMAN badge, unlit, showing PCB artwork"
 contact: {}
 research:
-  status: researched
+  status: verified
   confidence: high
   last_checked: '2026-09-07'
-  notes: 'Core facts (maker, event, LED count/parts, battery, open-source status, ~40 units made) confirmed on the maker''s own Hackaday.io project page and Tindie store listing. Exact original price and precise quantity beyond "approximately 40" were not stated anywhere found.'
+  notes: 'Fact-check pass (2026-09-07): re-fetched both cited sources and confirmed every remaining sentence and field, including the "first DEF CON indie badge" and "learn KiCad / PCB as art medium" claims (direct quotes on the Hackaday.io project log). Corrected look.colors from [black, red, orange] to [green, red, orange] -- the saved photos show a green PCB, not black, and no source called it black. Corrected look.themes from "video games" (not in the guide''s vocabulary) to "pop culture". Both saved images were confirmed present on disk and show this badge on its Tindie listing. Core facts (maker, event, LED count/parts, battery, open-source status, ~40 units made) confirmed on the maker''s own Hackaday.io project page and Tindie store listing. Exact original price and precise quantity beyond "approximately 40" were not stated anywhere found.'
 last_modified_date: '2026-09-07'
 ---
 

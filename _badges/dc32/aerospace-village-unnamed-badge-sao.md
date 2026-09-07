@@ -53,12 +53,15 @@ links:
 - kind: website
   label: DC32 Badge page (Aerospace Village)
   url: https://www.aerospacevillage.org/dc32-badge
+  archived: https://web.archive.org/web/20260520232241/https://www.aerospacevillage.org/dc32-badge
 - kind: repo
   label: avBadge_2024 (GitHub)
   url: https://github.com/AerospaceVillage/avBadge_2024
+  archived: https://web.archive.org/web/20260510082248/https://github.com/AerospaceVillage/avBadge_2024/
 - kind: store
   label: 2024 Aerospace Village Badge (Tindie, discontinued)
   url: https://www.tindie.com/products/aero_village/2024-aerospace-village-badge/
+  archived: https://web.archive.org/web/20260505022036/https://www.tindie.com/products/aero_village/2024-aerospace-village-badge/
 - kind: article
   label: 'Adafruit blog: The Aerospace Village badge for DEF CON 32 is an aircraft position display'
   url: https://blog.adafruit.com/2024/07/30/the-aerospace-village-badge-for-def-con-32-is-an-aircraft-position-display/
@@ -67,10 +70,12 @@ images:
   source: https://www.tindie.com/products/aero_village/2024-aerospace-village-badge/
   credit: Aerospace Village
   caption: Front of the 2024 Aerospace Village DC32 badge, showing the ADS-B display
+  archived: https://web.archive.org/web/20260505022036/https://www.tindie.com/products/aero_village/2024-aerospace-village-badge/
 - file: assets/images/badges/dc32/aerospace-village-unnamed-badge-sao/1602e5ec3c.jpg
   source: https://www.tindie.com/products/aero_village/2024-aerospace-village-badge/
   credit: Aerospace Village
   caption: Back of the 2024 Aerospace Village DC32 badge
+  archived: https://web.archive.org/web/20260505022036/https://www.tindie.com/products/aero_village/2024-aerospace-village-badge/
 contact: {}
 notes:
 - Sheet listed this row only as an unnamed Aerospace Village item at $160; research identified it as the official 2024 Aerospace Village Badge (the village's main DC32 badge, not a separate SAO).
@@ -85,16 +90,19 @@ sources:
   title: DC32 Badge | Aerospace Village
   accessed: '2026-09-06'
   note: Feature list, distribution context, and confirmation this is the main DC32 badge.
+  archived: https://web.archive.org/web/20260520232241/https://www.aerospacevillage.org/dc32-badge
 - kind: url
   url: https://github.com/AerospaceVillage/avBadge_2024
   title: 'GitHub: AerospaceVillage/avBadge_2024'
   accessed: '2026-09-06'
   note: Open-source hardware/firmware repo, README description, case links, software release tags.
+  archived: https://web.archive.org/web/20260510082248/https://github.com/AerospaceVillage/avBadge_2024/
 - kind: url
   url: https://www.tindie.com/products/aero_village/2024-aerospace-village-badge/
   title: 2024 Aerospace Village Badge (Tindie)
   accessed: '2026-09-06'
   note: Confirmed price ($160.00), discontinued/sold-out status, product images, and a buyer review.
+  archived: https://web.archive.org/web/20260505022036/https://www.tindie.com/products/aero_village/2024-aerospace-village-badge/
 - kind: url
   url: https://blog.adafruit.com/2024/07/30/the-aerospace-village-badge-for-def-con-32-is-an-aircraft-position-display/
   title: 'Adafruit: The Aerospace Village badge for DEF CON 32 is an aircraft position display'

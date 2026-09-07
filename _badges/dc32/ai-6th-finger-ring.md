@@ -36,7 +36,7 @@ get_one:
   - purchase
   where: ''
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/seeess/AI-6th-Finger-Ring/
   firmware_url: null
   eda_tool: null
@@ -44,18 +44,20 @@ links:
 - label: github.com/seeess/AI-6th-Finger-Ring
   url: https://github.com/seeess/AI-6th-Finger-Ring/
   kind: repo
+  archived: https://web.archive.org/web/20260525001202/https://github.com/seeess/AI-6th-Finger-Ring
 - label: twitter.com/bristowbailey/status/1625165718340640769
   url: https://twitter.com/bristowbailey/status/1625165718340640769
   kind: social
 images:
 - file: assets/images/badges/dc32/ai-6th-finger-ring/94ee227f2b.jpg
-  source: "https://github.com/seeess/AI-6th-Finger-Ring/"
-  credit: "seeess"
-  caption: "Printed sixth-finger rings shown on a hand"
+  source: https://github.com/seeess/AI-6th-Finger-Ring/
+  credit: seeess
+  caption: Printed sixth-finger rings shown on a hand
+  archived: https://web.archive.org/web/20260525001202/https://github.com/seeess/AI-6th-Finger-Ring
 contact: {}
 notes:
 - Making memes ( https://twitter.com/bristowbailey/status/1625165718340640769 ) into reality. Bring some paint to match your skin tone (it is really white) and maybe nail polish for the best effect.
-- 'Sheet listed price/quantity ($10, 100) could not be confirmed against a maker storefront; kept as reported.'
+- Sheet listed price/quantity ($10, 100) could not be confirmed against a maker storefront; kept as reported.
 status: listed
 sources:
 - kind: sheet
@@ -67,6 +69,7 @@ sources:
   title: seeess/AI-6th-Finger-Ring
   accessed: '2026-09-06'
   note: Maker's repo README and file listing; confirms design, materials, printing process, no electronics, open-source STL files.
+  archived: https://web.archive.org/web/20260525001202/https://github.com/seeess/AI-6th-Finger-Ring
 research:
   status: researched
   confidence: medium

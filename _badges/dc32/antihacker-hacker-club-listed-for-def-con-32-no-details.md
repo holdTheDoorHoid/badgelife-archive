@@ -43,11 +43,7 @@ links:
 images: []
 contact: {}
 notes:
-- 'Antihacker Hacker Club (Tindie seller "Anti Hacker Hacker Club", handle 0xahhc,
-  San Antonio, TX) had a badgelife item the year before: "The Birds are not Real"
-  broSAO, listed on the DEF CON 31 community sheet (see dc31-the-birds-are-not-real).
-  No source found ties a specific DC32-year item to this maker; the only product
-  known from their Tindie presence is that DC31-era broSAO.'
+- 'Antihacker Hacker Club (Tindie seller "Anti Hacker Hacker Club", handle 0xahhc, San Antonio, TX) had a badgelife item the year before: "The Birds are not Real" broSAO, listed on the DEF CON 31 community sheet (see dc31-the-birds-are-not-real). No source found ties a specific DC32-year item to this maker; the only product known from their Tindie presence is that DC31-era broSAO.'
 status: unknown
 sources:
 - kind: sheet
@@ -58,31 +54,18 @@ sources:
   url: https://www.tindie.com/stores/0xahhc/
   title: Anti Hacker Hacker Club on Tindie
   accessed: '2026-09-07'
-  note: Maker's storefront URL (as linked from the product page). Returned HTTP 403
-    to automated fetches on 2026-09-07, so its product list could not be re-checked.
+  note: Maker's storefront URL (as linked from the product page). Returned HTTP 403 to automated fetches on 2026-09-07, so its product list could not be re-checked.
 - kind: url
   url: https://www.tindie.com/products/0xahhc/birds-arent-real-brosao/
   title: Birds Aren't Real broSAO from Anti Hacker Hacker Club on Tindie
   accessed: '2026-09-07'
-  note: Confirms seller name "Anti Hacker Hacker Club", San Antonio TX, and the
-    broSAO details (brooch + SAO, CR1220, red blinking LED, $15). The DC31 tie
-    comes from the DC31 community sheet row; nothing here is dated to DC32.
+  note: Confirms seller name "Anti Hacker Hacker Club", San Antonio TX, and the broSAO details (brooch + SAO, CR1220, red blinking LED, $15). The DC31 tie comes from the DC31 community sheet row; nothing here is dated to DC32.
+  archived: https://web.archive.org/web/20260503125502/https://www.tindie.com/products/0xahhc/birds-arent-real-brosao/
 research:
   status: verified
   confidence: low
   last_checked: '2026-09-07'
-  notes: Per the research guide's "listed for DEF CON NN, no details" special case,
-    searched for what Antihacker Hacker Club brought to DEF CON 32 specifically.
-    Confirmed the maker (Tindie seller Anti Hacker Hacker Club / 0xahhc, San
-    Antonio, TX) and their DC31-year item ("The Birds are not Real" broSAO, a
-    separate archive entry), but found no source describing a distinct item made
-    for or sold at DC32. The DEF CON 32 badgelife forum thread
-    (forum.defcon.org/node/248443) does not mention this maker. Left
-    type/tech/look/get_one fields empty rather than guess; status set to unknown
-    per the special-case instructions. Fact-check 2026-09-07 removed unverifiable
-    claims (an X handle @0xAHHC, a store tagline, and Wayback snapshot dates for
-    the storefront) because x.com, web.archive.org and the Tindie store page could
-    not be fetched; the DC32 sheet row itself carries only the maker name.
+  notes: Per the research guide's "listed for DEF CON NN, no details" special case, searched for what Antihacker Hacker Club brought to DEF CON 32 specifically. Confirmed the maker (Tindie seller Anti Hacker Hacker Club / 0xahhc, San Antonio, TX) and their DC31-year item ("The Birds are not Real" broSAO, a separate archive entry), but found no source describing a distinct item made for or sold at DC32. The DEF CON 32 badgelife forum thread (forum.defcon.org/node/248443) does not mention this maker. Left type/tech/look/get_one fields empty rather than guess; status set to unknown per the special-case instructions. Fact-check 2026-09-07 removed unverifiable claims (an X handle @0xAHHC, a store tagline, and Wayback snapshot dates for the storefront) because x.com, web.archive.org and the Tindie store page could not be fetched; the DC32 sheet row itself carries only the maker name.
 last_modified_date: '2026-09-07'
 ---
 

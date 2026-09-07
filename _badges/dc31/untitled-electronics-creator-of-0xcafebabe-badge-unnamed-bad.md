@@ -40,10 +40,11 @@ links:
 - label: untitledelec.com
   url: https://untitledelec.com
   kind: website
+  archived: https://web.archive.org/web/20260521105207/https://untitledelec.com/
 images: []
 contact: {}
 notes:
-- 'Sheet listed the maker as "Untitled Electronics (creator of 0xCafebabe Badge)" with no title for this year''s item, only "I have been notified a badge will be made this year."'
+- Sheet listed the maker as "Untitled Electronics (creator of 0xCafebabe Badge)" with no title for this year's item, only "I have been notified a badge will be made this year."
 status: unknown
 sources:
 - kind: sheet
@@ -54,7 +55,8 @@ sources:
   url: https://untitledelec.com
   title: Untitled Electronics
   accessed: '2026-09-07'
-  note: "Confirms Untitled Electronics as an active badge/SAO maker (current storefront shows only 2025 products: NeoSword, 3 Stones SAO, Dumpster Fire SAO); no 2023 or \"0xCafebabe\" item found on the current site."
+  note: 'Confirms Untitled Electronics as an active badge/SAO maker (current storefront shows only 2025 products: NeoSword, 3 Stones SAO, Dumpster Fire SAO); no 2023 or "0xCafebabe" item found on the current site.'
+  archived: https://web.archive.org/web/20260521105207/https://untitledelec.com/
 research:
   status: researched
   confidence: low

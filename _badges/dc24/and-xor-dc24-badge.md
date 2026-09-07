@@ -11,7 +11,6 @@ year: 2016
 makers:
 - name: AND!XOR
   url: https://shop.andnxor.com/
-- name: dodgymike (hardware/software contributor)
 summary: An unofficial, hackable electronic badge AND!XOR made for DEF CON 24, nicknamed "Bender," built as an open dev board with an OLED screen, RGB LEDs, and a 433 MHz radio for badge-to-badge interaction.
 functions: Runs 14 LED animations, exposes a terminal shell over serial/USB, and uses its RFM69W radio for wireless badge-to-badge social/networking features.
 look:
@@ -25,7 +24,7 @@ tech:
     type: WS2812B
     note: Surface-mount RGB LEDs.
   display: 0.96" OLED (SSD1306, 128x64)
-  connectivity: [radio]
+  connectivity: [sub-ghz]
   battery: null
   sao_version: null
 get_one:
@@ -90,10 +89,10 @@ sources:
   accessed: '2026-09-07'
   note: Press coverage confirming the badge as an unofficial DEF CON 24 badge with LEDs, RF, and OLED.
 research:
-  status: researched
+  status: verified
   confidence: high
   last_checked: '2026-09-07'
-  notes: 'Core facts (maker, chip, display, LEDs, radio, quantities, license) confirmed on the maker''s own Hackaday.io project page and GitHub repo. Battery/power type, exact price, and shape/theme details beyond "Bender" robot design were not stated in the sources checked, so left empty. The dodgymike repo used as the entry''s original source is a fork of the maker''s own ANDnXOR/ANDnXOR_DC24_Badge repo, which was added as an additional link/source.'
+  notes: 'Fact-check pass (2026-09-07): re-fetched all four cited sources. Core facts (maker team, MCU, OLED, LED count/type, RFM69W 433MHz radio, 14 animations, ~170-unit quantity breakdown, Apache-2.0 license, DFU flashing steps) are directly confirmed on the maker''s own Hackaday.io project page and ANDnXOR/ANDnXOR_DC24_Badge GitHub repo, and corroborated by the Hackaday.com article. Two corrections made: (1) removed maker entry "dodgymike (hardware/software contributor)" — no source states dodgymike contributed to the badge or the AND!XOR team; GitHub confirms the dodgymike repo is only a fork of the maker''s repo, which does not establish authorship or contribution, so this was an invented credit and has been removed (the fork relationship is still noted in make_your_own.notes and kept as a source). (2) tech.connectivity changed from "radio" to "sub-ghz" to match the guide''s controlled vocabulary (RFM69W is a 433MHz sub-GHz radio). Both saved images were confirmed present in assets/ and visually match Bender-shaped AND!XOR DC24 badges (OLED, WS2812B LEDs, spring antenna) consistent with their cited Hackaday.io source page. Battery/power type, exact unit price, and shape/theme details beyond the "Bender" robot design remain unstated in the sources checked and are correctly left empty (the Hackaday.com article does mention a planned $40/$20 price, but that was not added since this pass is fact-checking existing content, not new research). Everything remaining in the entry is source-supported, so status is set to verified.'
 last_modified_date: '2026-09-07'
 ---
 

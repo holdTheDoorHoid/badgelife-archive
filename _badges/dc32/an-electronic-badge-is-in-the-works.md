@@ -14,9 +14,14 @@ makers:
 summary: A Mad Max-themed electronic badge with a LoRa radio, 48 RGB LEDs, and two SAO ports, doubling as entry to the DEFCON Furs suite at DEF CON 32.
 functions: LoRa wireless radio, 48 addressable RGB LEDs with animations, capacitive touch points ("booping"), MicroPython scripting, and two Shitty Add-On (v1.69bis) ports.
 look:
-  colors: [black, purple]
+  colors:
+  - black
+  - purple
   shape: fox head
-  themes: [animal, radio, wearable]
+  themes:
+  - animal
+  - radio
+  - wearable
 tech:
   mcu: RP2040 + STM32WL
   leds:
@@ -24,8 +29,10 @@ tech:
     type: RGB
     note: Addressable RGB LEDs driven by the RP2040; animations included in stock firmware.
   display: none
-  connectivity: [lora]
-  inputs: [touch]
+  connectivity:
+  - lora
+  inputs:
+  - touch
   battery: null
   sao_version: v1.69bis
   sao_ports: 2
@@ -34,8 +41,10 @@ get_one:
   price_usd: 130.0
   quantity: limited run; exact number not published
   availability: sold_out
-  availability_note: 'Gumroad listing marked sold out as of 2026-09-06 check; remaining assembled units were sold in person at DEF CON 32 for a $150 minimum donation.'
-  distribution: [purchase, preorder]
+  availability_note: Gumroad listing marked sold out as of 2026-09-06 check; remaining assembled units were sold in person at DEF CON 32 for a $150 minimum donation.
+  distribution:
+  - purchase
+  - preorder
   where: Preorders via Gumroad (defconfurs.gumroad.com), with pickup or remaining stock sold in person at the DEFCON Furs suite, Fontainebleau Las Vegas, during DEF CON 32.
 make_your_own:
   open_source: partial
@@ -46,39 +55,43 @@ make_your_own:
   eda_tool: KiCad
   license: null
   fab_url: null
-  notes: 'Maker policy publishes only the schematic PDF, board render images, and BoM; full KiCad source files (minus the board) and JTAG wiring notes for the STM32WL are explicitly not released.'
+  notes: Maker policy publishes only the schematic PDF, board render images, and BoM; full KiCad source files (minus the board) and JTAG wiring notes for the STM32WL are explicitly not released.
 links:
 - label: donate.defconfurs.org
   url: https://donate.defconfurs.org
   kind: website
+  archived: https://web.archive.org/web/20260616021030/https://donate.defconfurs.org/
 - label: dcfurs.com
   url: https://dcfurs.com
   kind: website
 - label: GitHub - dcfurs-badge-dc32
   url: https://github.com/defconfurs/dcfurs-badge-dc32
   kind: repo
+  archived: https://web.archive.org/web/20260604204746/https://github.com/defconfurs/dcfurs-badge-dc32
 - label: Gumroad - 2024 Badge (Fully Assembled + Suite Access)
   url: https://defconfurs.gumroad.com/l/2024-badge
   kind: store
 - label: Gumroad - 2024 Badge (PCB Blank)
   url: https://donate.defconfurs.org/l/DEFCONFurs2024Badge-PCBBlank
   kind: store
+  archived: https://web.archive.org/web/20260210172507/https://donate.defconfurs.org/l/DEFCONFurs2024Badge-PCBBlank
 - label: Bill of Materials (Google Sheets)
   url: https://docs.google.com/spreadsheets/d/1Jkg6oq2OzCKG4kRN5Ynu_qSia2YDe5dJ_6Gyr4F5ahs/edit?usp=sharing
   kind: doc
 images:
-  - file: assets/images/badges/dc32/an-electronic-badge-is-in-the-works/db315c4bb1.png
-    source: "https://defconfurs.gumroad.com/l/2024-badge"
-    credit: "DEFCON Furs"
-    caption: "DEFCON Furs 2024 badge, fully assembled"
-  - file: assets/images/badges/dc32/an-electronic-badge-is-in-the-works/dbabb9cb2b.jpg
-    source: "https://github.com/defconfurs/dcfurs-badge-dc32"
-    credit: "DEFCON Furs / Kyle \"Kay\" Fox"
-    caption: "Prototype (R1) board render, front"
+- file: assets/images/badges/dc32/an-electronic-badge-is-in-the-works/db315c4bb1.png
+  source: https://defconfurs.gumroad.com/l/2024-badge
+  credit: DEFCON Furs
+  caption: DEFCON Furs 2024 badge, fully assembled
+- file: assets/images/badges/dc32/an-electronic-badge-is-in-the-works/dbabb9cb2b.jpg
+  source: https://github.com/defconfurs/dcfurs-badge-dc32
+  credit: DEFCON Furs / Kyle "Kay" Fox
+  caption: Prototype (R1) board render, front
+  archived: https://web.archive.org/web/20260604204746/https://github.com/defconfurs/dcfurs-badge-dc32
 contact: {}
 notes:
 - There is a version with the pcb and not assembled. You may be able to get the pcb and assemble it yourself. I do not know but it sounds challenging (especially at my age)
-- 'Sheet listed this row only as "An electronic badge is in the works"; the maker''s actual product name is "DEFCON Furs 2024 Badge."'
+- Sheet listed this row only as "An electronic badge is in the works"; the maker's actual product name is "DEFCON Furs 2024 Badge."
 status: released
 sources:
 - kind: sheet
@@ -90,6 +103,7 @@ sources:
   title: 'GitHub - defconfurs/dcfurs-badge-dc32: 2024 DEFCON Furs Badge Repo'
   accessed: '2026-09-06'
   note: MCU (RP2040 main + STM32WL radio), firmware/MicroPython, open-source policy, KiCad, BoM/schematic links, credits.
+  archived: https://web.archive.org/web/20260604204746/https://github.com/defconfurs/dcfurs-badge-dc32
 - kind: url
   url: https://defconfurs.gumroad.com/l/2024-badge
   title: DEFCON Furs 2024 Badge - Fully Assembled + Suite Access
@@ -100,6 +114,7 @@ sources:
   title: DEFCON Furs 2024 Badge - PCB Blank
   accessed: '2026-09-06'
   note: Confirms a separate unassembled PCB-blank version existed, matching the sheet's note.
+  archived: https://web.archive.org/web/20260210172507/https://donate.defconfurs.org/l/DEFCONFurs2024Badge-PCBBlank
 - kind: url
   url: https://dcfurs.com
   title: DEFCON Furs
@@ -109,7 +124,7 @@ research:
   status: researched
   confidence: high
   last_checked: '2026-09-06'
-  notes: 'Renamed from the sheet''s placeholder title to the maker''s actual product name, "DEFCON Furs 2024 Badge," per the special-case rule (all core facts came from the maker''s own GitHub repo and Gumroad listing). Exact production quantity is not published anywhere found. License for the hardware/firmware was not stated. The maker deliberately withholds full KiCad source and STM32WL JTAG wiring details, so make_your_own is partial rather than yes. Board shape is a fox/canine head per the repo''s R1 prototype render (purple soldermask); per the repo readme, public-sale and staff PCBs were black rather than the purple prototype, so both colors are listed.'
+  notes: Renamed from the sheet's placeholder title to the maker's actual product name, "DEFCON Furs 2024 Badge," per the special-case rule (all core facts came from the maker's own GitHub repo and Gumroad listing). Exact production quantity is not published anywhere found. License for the hardware/firmware was not stated. The maker deliberately withholds full KiCad source and STM32WL JTAG wiring details, so make_your_own is partial rather than yes. Board shape is a fox/canine head per the repo's R1 prototype render (purple soldermask); per the repo readme, public-sale and staff PCBs were black rather than the purple prototype, so both colors are listed.
 last_modified_date: '2026-09-06'
 ---
 

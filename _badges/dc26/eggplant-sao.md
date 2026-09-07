@@ -31,7 +31,7 @@ get_one:
   distribution: []
   where: ''
 make_your_own:
-  open_source: 'yes'
+  open_source: partial
   hardware_url: https://github.com/thedarknet/dc26-badge/tree/master/hardware/dc26-sao/eggplant
   firmware_url: null
   eda_tool: null
@@ -80,22 +80,26 @@ sources:
   accessed: '2026-09-07'
   note: 'Likely fab listing for this SAO (2-layer, 1.09x2.20in board, uploaded June 2018, matching DC26 timing); supplied the two board-render images. Not fully confirmed to be the same board as the repo''s "eggplant" design since no functional description was on the page.'
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-07'
   notes: >-
-    Confirmed context: this is a Shitty Add-On from the hardware/dc26-sao/ directory of
-    thedarknet/dc26-badge, the Darknet Industries badge repo for DEF CON 26 (2018). The
-    repo directory itself only contains a schematic, board file, and BOM (no rendered
-    schematic/BOM text was accessible via fetch). Attributed to GitHub user Krux, who
-    also shares a same-named-era OSH Park PCB called "eggplant5" (2-layer, 1.09x2.20in,
-    uploaded June 11 2018) that is probably this SAO and supplied the two images used
-    here, but no page confirmed the two are identical, so tech/look/get_one fields are
-    left empty rather than inferred from the OSH Park listing. No maker page, storefront,
-    price, quantity, or feature description was found. GitHub issue #29 ("Darknet 7
-    badge pairing") and issue #17 ("BIO Hacking quest") on the same repo suggest the
-    DC26 badge platform had inter-badge and quest mechanics, but neither mentions the
-    eggplant SAO by name, so nothing from them was added to this entry.
+    Fact-checked 2026-09-07: all four cited sources were re-fetched and support what
+    is claimed from them. The thedarknet/dc26-badge repo is confirmed as the Darknet
+    Industries DEF CON 26 (2018) badge project; the hardware/dc26-sao/eggplant directory
+    is confirmed to contain only eggplant.sch, eggplant.brd, and eggplant-BOM.xls, with
+    no README, matching the body's claim that no function/MCU/LED info exists there.
+    GitHub user krux702 is confirmed to have thedarknet/dc26-badge as a pinned repo,
+    supporting the maker attribution. The OSH Park "eggplant5" listing is confirmed to
+    match the stated dimensions (1.09x2.20in, 2-layer, uploaded June 11 2018) and to
+    carry no DC26/SAO/function description, so the entry's existing hedge (probable
+    match, not confirmed identical to the repo's "eggplant") stands and was not
+    strengthened. One field was corrected on fact-check: make_your_own.open_source was
+    'yes' but only hardware files are published and no firmware exists or is linked
+    (tech.mcu is unknown, not confirmed "none"), so per the guide's yes-requires-both
+    rule this was changed to 'partial'. No sentence or field was found unsupported or
+    contradicted otherwise; confidence stays low because no source describes the SAO's
+    actual function, price, or distribution.
 last_modified_date: '2026-09-07'
 ---
 

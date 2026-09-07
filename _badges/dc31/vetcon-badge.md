@@ -45,7 +45,7 @@ get_one:
   price_usd: 40
   quantity: First batch of 50 units (per a later restock listing)
   availability: sold_out
-  availability_note: 'Checked via Wayback Machine snapshot from 2025-05-13; the product page was pulled from the live VetCON shop collection by 2026-09-06 and no 2023 badge listing remains.'
+  availability_note: Checked via Wayback Machine snapshot from 2025-05-13; the product page was pulled from the live VetCON shop collection by 2026-09-06 and no 2023 badge listing remains.
   distribution:
   - purchase
   - preorder
@@ -73,17 +73,17 @@ links:
   kind: repo
 images:
 - file: assets/images/badges/dc31/vetcon-badge/2ffcb4bbb9.jpg
-  source: "https://shop.threathunter.ai/collections/vetcon/products/preorder-vetcon-2023-badge-in-person-pickup-at-vetcon-only"
-  credit: "VetCON / ThreatHunter.ai"
-  caption: "VetCON 2023 SAO Totem badge with crayon-themed SAOs"
+  source: https://shop.threathunter.ai/collections/vetcon/products/preorder-vetcon-2023-badge-in-person-pickup-at-vetcon-only
+  credit: VetCON / ThreatHunter.ai
+  caption: VetCON 2023 SAO Totem badge with crayon-themed SAOs
 - file: assets/images/badges/dc31/vetcon-badge/b5fcfad762.jpg
-  source: "https://shop.threathunter.ai/collections/vetcon/products/preorder-vetcon-2023-badge-in-person-pickup-at-vetcon-only"
-  credit: "VetCON / ThreatHunter.ai"
-  caption: "VetCON 2023 badge totem back side showing puzzle traces"
+  source: https://shop.threathunter.ai/collections/vetcon/products/preorder-vetcon-2023-badge-in-person-pickup-at-vetcon-only
+  credit: VetCON / ThreatHunter.ai
+  caption: VetCON 2023 badge totem back side showing puzzle traces
 contact: {}
 notes:
 - Get them now before the Marines see them!!! Damn Jarheads will try and eat them all.
-- 'The community sheet listed only a shortlink; the product itself (and its title) came from the archived Shopify listing, not the sheet.'
+- The community sheet listed only a shortlink; the product itself (and its title) came from the archived Shopify listing, not the sheet.
 status: released
 sources:
 - kind: sheet
@@ -92,7 +92,7 @@ sources:
   updated: '2023-07-21'
 - kind: url
   url: http://web.archive.org/web/20250513000025/https://shop.threathunter.ai/collections/vetcon/products/preorder-vetcon-2023-badge-in-person-pickup-at-vetcon-only
-  title: 'ONSITE ORDER FOR VETCON 2023 Badge **in-person pickup at VETCON ONLY**'
+  title: ONSITE ORDER FOR VETCON 2023 Badge **in-person pickup at VETCON ONLY**
   accessed: '2026-09-07'
   note: Product description, price history ($60 -> $40 sale), quantity (first 50 units), pickup-only distribution, and the "SAO Totem plus 6 SAOs" concept; also links to the GitHub assembly guide.
 - kind: url
@@ -105,11 +105,12 @@ sources:
   title: Vetcon – ThreatHunter.ai
   accessed: '2026-09-07'
   note: Confirmed the 2023 badge listing is no longer live on the current VetCON storefront (only a 2025 badge and wall flags remain), supporting sold_out/no-longer-listed status.
+  archived: https://web.archive.org/web/20251012072605/https://shop.threathunter.ai/collections/vetcon
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'Maker''s own product listing (via Wayback Machine, since removed from the live store) and the badge''s own GitHub assembly guide confirm the concept, price, and BOM. No MCU is used (LEDs are directly wired), so tech.mcu is "none" despite the badge having GPIO/SDA/SCL-labeled SAO headers on the totem PCB (visible in the battery-side photo) -- those appear to be pass-through SAO signal pins, not a controller on the totem itself. Could not confirm exact total quantity produced for the original 2023 run (only a later restock mentions "first 50 units"), nor a firmware/hardware source repo beyond the assembly-guide repo. No maker page beyond the Shopify store was found.'
+  notes: Maker's own product listing (via Wayback Machine, since removed from the live store) and the badge's own GitHub assembly guide confirm the concept, price, and BOM. No MCU is used (LEDs are directly wired), so tech.mcu is "none" despite the badge having GPIO/SDA/SCL-labeled SAO headers on the totem PCB (visible in the battery-side photo) -- those appear to be pass-through SAO signal pins, not a controller on the totem itself. Could not confirm exact total quantity produced for the original 2023 run (only a later restock mentions "first 50 units"), nor a firmware/hardware source repo beyond the assembly-guide repo. No maker page beyond the Shopify store was found.
 last_modified_date: '2026-09-07'
 ---
 

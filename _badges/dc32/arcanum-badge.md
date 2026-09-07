@@ -49,19 +49,20 @@ make_your_own:
 links:
 - kind: hackaday
   url: https://www.hackster.io/HacksFromPanda/the-arcanum-badge-217cfd
-  label: 'The Arcanum Badge (Hackster.io project writeup)'
+  label: The Arcanum Badge (Hackster.io project writeup)
 - kind: website
   url: https://www.hackerware.io/
   label: Hackerware.io
+  archived: https://web.archive.org/web/20260523123718/https://hackerware.io/
 images:
 - file: assets/images/badges/dc32/arcanum-badge/0013539b0e.jpg
-  source: "https://www.hackster.io/HacksFromPanda/the-arcanum-badge-217cfd"
-  credit: "Hackerware.io / Abhinav Panda"
-  caption: "The finished Arcanum badge with acrylic overlay and lit LEDs"
+  source: https://www.hackster.io/HacksFromPanda/the-arcanum-badge-217cfd
+  credit: Hackerware.io / Abhinav Panda
+  caption: The finished Arcanum badge with acrylic overlay and lit LEDs
 - file: assets/images/badges/dc32/arcanum-badge/18ea2cf14e.jpg
-  source: "https://www.hackster.io/HacksFromPanda/the-arcanum-badge-217cfd"
-  credit: "Hackerware.io / Abhinav Panda"
-  caption: "Close-up of the Arcanum badge glowing with red eyes and RGB hoodie LEDs"
+  source: https://www.hackster.io/HacksFromPanda/the-arcanum-badge-217cfd
+  credit: Hackerware.io / Abhinav Panda
+  caption: Close-up of the Arcanum badge glowing with red eyes and RGB hoodie LEDs
 contact:
   handles:
   - '@jhaddix'
@@ -79,7 +80,7 @@ sources:
   updated: '2024-07-28'
 - kind: url
   url: https://www.hackster.io/HacksFromPanda/the-arcanum-badge-217cfd
-  title: 'The Arcanum Badge - Hackster.io'
+  title: The Arcanum Badge - Hackster.io
   accessed: '2026-09-07'
   note: Maker's own project writeup; source for design, materials, LEDs, battery, and process details.
 - kind: url
@@ -87,6 +88,7 @@ sources:
   title: 'Hackerware - #BadgeLife | Hardware Design, Security, & Research.'
   accessed: '2026-09-07'
   note: Maker's studio site, confirms Hackerware.io as the fabricator/designer.
+  archived: https://web.archive.org/web/20260523123718/https://hackerware.io/
 research:
   status: researched
   confidence: medium

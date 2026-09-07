@@ -5,24 +5,32 @@ layout: badge
 parent: Other
 grand_parent: Badge Archive
 nav_exclude: true
-type: unknown
+type: badge
 event: other
-year: 0
+year: 2023
 makers:
 - name: seeigecannon
-summary: ''
-functions: ''
+  url: https://github.com/seeigecannon
+summary: A Mass Effect-themed "mass relay" badge built from discrete logic (no microcontroller) that keeps a 4-digit HH:MM clock on custom LED segment displays, with concentric PCB rings meant to be cut from mouse-bited panels and turned by a small motor.
+functions: Runs as a standalone digital clock (hours and minutes) driven entirely by discrete counter/logic ICs rather than firmware; a "TimeKeeper" logic block feeds four custom 7-segment-style LED digit displays. Includes a motor driver connector, apparently to spin the badge's outer ring(s) like the Mass Effect "mass relay" it is modeled after.
 look:
-  colors: []
-  shape: null
-  themes: []
+  colors:
+  - green
+  shape: ring
+  themes:
+  - sci-fi
+  - space
 tech:
-  mcu: null
-  leds: null
-  display: null
+  mcu: none
+  leds:
+    count: null
+    type: discrete
+    note: Dozens of individual through-hole LEDs (labeled DA1-DF4, etc.) arranged into four custom segment-style digits rather than off-the-shelf 7-segment packages.
+  display: custom LED segment display (4-digit HH:MM clock)
   connectivity: []
-  battery: null
-  sao_version: null
+  battery: 4x AAA (also accepts external/USB power via a separate input jack)
+  sao_version: v1
+  sao_ports: 2
 get_one:
   price: ''
   price_usd: null
@@ -31,30 +39,67 @@ get_one:
   distribution: []
   where: ''
 make_your_own:
-  open_source: null
-  hardware_url: null
+  open_source: yes
+  hardware_url: https://github.com/seeigecannon/MassWarpGateBadge
   firmware_url: null
-  eda_tool: null
+  eda_tool: KiCad
+  license: Unlicense
+  fab_url: null
+  notes: Repo includes KiCad schematic/PCB/DRU files, Gerbers, a schematic PDF, and Fusion 360 (.f3d) plus DXF files for the ring-shaped mechanical pieces (inner/outer/center rings, ring covers, mouse-bite panelization, a "shepard.dxf" cutout). No firmware is present since the clock logic is implemented in discrete ICs, not a microcontroller.
 links:
 - label: github.com/seeigecannon/MassWarpGateBadge
   url: https://github.com/seeigecannon/MassWarpGateBadge
   kind: repo
-images: []
+images:
+  - file: assets/images/badges/other/mass-warp-gate-badge/0432aaffe6.jpg
+    source: "https://github.com/seeigecannon/MassWarpGateBadge"
+    credit: "seeigecannon"
+    caption: "3D CAD render of the front of the Mass Warp Gate Badge PCB, an early rectangular electrical prototype with a 4-digit LED clock display"
+  - file: assets/images/badges/other/mass-warp-gate-badge/abacf2b424.jpg
+    source: "https://github.com/seeigecannon/MassWarpGateBadge"
+    credit: "seeigecannon"
+    caption: "3D CAD render of the back of the prototype board, showing the discrete-logic clock circuitry, two SAO headers, and battery/USB power inputs"
 contact: {}
 notes:
 - From the user's 'SAOs to buy' link list (2026-09-07).
-status: listed
+status: unknown
 sources:
 - kind: url
   url: https://github.com/seeigecannon/MassWarpGateBadge
   title: Mass Warp Gate Badge
   accessed: '2026-09-07'
   note: 'Found by the archive''s discovery sweep (angle: tobuy-linkfile); event read as ''other''.'
+- kind: url
+  url: https://raw.githubusercontent.com/seeigecannon/MassWarpGateBadge/main/schematic.pdf
+  title: MassWarpGateBadge schematic.pdf
+  accessed: '2026-09-07'
+  note: Confirms discrete-logic ("TimeKeeper") clock design, 2x SAO headers (J5/J6), 4x AAA battery holder plus external/USB power input, and a motor driver connector; no MCU present.
+- kind: url
+  url: https://api.github.com/repos/seeigecannon/MassWarpGateBadge/commits
+  title: MassWarpGateBadge commit history
+  accessed: '2026-09-07'
+  note: Repo created July 2023, with Gerbers and Fusion 360 files added August 2023; used to date the project since no event/year is stated anywhere on the page.
 research:
-  status: stub
+  status: researched
   confidence: low
   last_checked: '2026-09-07'
-  notes: Imported from the community badge sheet; not yet researched.
+  notes: >-
+    The repo (created and last updated August 2023) has no README, no stated
+    event, con, or price/availability info, and the GitHub description field is
+    empty -- this looks like a personal project shared for others to build
+    rather than something sold or distributed at a specific con, so event is
+    left as "other" and status as "unknown" rather than guessed. The DXF file
+    set (innerRing/outerRing/centerRings/ringCovers/mouseBites/shepard) strongly
+    implies the finished badge is a round, ring-shaped "mass relay" model cut
+    from a rectangular panel, but the only images in the repo are CAD renders
+    of the flat rectangular electrical-prototype board (silkscreened "Badgelife
+    Electrical Prototype"), not the assembled ring-shaped final piece, so
+    look.shape ("ring") and the LED count are inferred from the mechanical
+    files and schematic rather than a photo of the finished item. No firmware
+    exists because the clock logic is discrete ICs, not a microcontroller.
 last_modified_date: '2026-09-07'
 ---
 
+The Mass Warp Gate Badge is a Mass Effect-themed take on the SAO badge format by GitHub user seeigecannon, built around the games' "mass relay" warp gates rather than any single armor or weapon. Instead of a microcontroller, the badge's four-digit HH:MM clock is driven entirely by a discrete-logic "TimeKeeper" counter board feeding custom LED segment digits -- an unusual choice for a badgelife project, most of which lean on an ESP32 or ATtiny. The board carries two SAO headers so it can also host other people's add-ons, runs off four AAA batteries or an external power jack, and includes a motor driver connector that appears intended to spin part of the badge, echoing the rotating rings of the in-game mass relay.
+
+The repository, posted in mid-2023 and released under the Unlicense, contains the full KiCad schematic and PCB, Gerbers, and a set of Fusion 360 and DXF files for cutting the badge's concentric ring pieces (inner ring, outer ring, center rings, ring covers) from a mouse-bit panel, plus a "shepard.dxf" cutout referencing the Mass Effect protagonist. No firmware is included, since the clock is built from discrete logic rather than code. The two images in the repo are CAD renders of a flat rectangular test board labeled "Badgelife Electrical Prototype," not the final assembled ring shape, and nothing in the repo says which con (if any) it was built for, whether it was ever sold, or how many exist.

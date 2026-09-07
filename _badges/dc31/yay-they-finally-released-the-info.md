@@ -60,6 +60,7 @@ links:
 - label: Blue Team Village
   url: https://www.blueteamvillage.org
   kind: website
+  archived: https://web.archive.org/web/20260723025221/https://blueteamvillage.org/
 images:
 - file: assets/images/badges/dc31/yay-they-finally-released-the-info/3a08dc9446.jpg
   source: https://www.eventbrite.com/e/btv6-def-con-31-badge-def-con-vegas-pickup-only-tickets-691105062847

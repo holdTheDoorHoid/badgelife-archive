@@ -28,7 +28,7 @@ tech:
     note: Two short neopixel strips soldered together into one 13-LED run, backed in black.
   display: none
   connectivity: []
-  battery: coin cell (6V holder)
+  battery: 2x coin cell (6V holder)
   sao_version: none
 get_one:
   price: ''
@@ -54,7 +54,7 @@ images:
 - file: assets/images/badges/dc25/led-bangle-defconbangle/db131398ac.jpg
   source: "https://nishakm.github.io/things/defconbangle/"
   credit: "Nisha K."
-  caption: "The finished LED bangle worn on the wrist"
+  caption: "The Adafruit Gemma board mounted on the bangle, held in hand"
 - file: assets/images/badges/dc25/led-bangle-defconbangle/fb0e822393.jpg
   source: "https://nishakm.github.io/things/defconbangle/"
   credit: "Nisha K."
@@ -68,17 +68,17 @@ sources:
   url: https://nishakm.github.io/things/defconbangle/
   title: LED Bangle (defconbangle)
   accessed: '2026-09-07'
-  note: 'Found by the archive''s discovery sweep (angle: research-run2-spotted); event read as ''dc25 (DEF CON 25, 2017 - one-off made for a friend, precursor project to the DC503 Banglet)''.'
+  note: 'Found by the archive''s discovery sweep (angle: research-run2-spotted); event read as dc25 (DEF CON 25, 2017 - one-off made as a gift for a friend, worn to the "503 party" at the con).'
 - kind: url
   url: https://github.com/nishakm/blinkybracelet
   title: nishakm/blinkybracelet
   accessed: '2026-09-07'
   note: Source repo for firmware and 3D-printed bangle CAD files; confirms Apache-2.0 license and file contents.
 research:
-  status: researched
+  status: verified
   confidence: high
   last_checked: '2026-09-07'
-  notes: 'Maker''s own blog post and linked GitHub repo both confirm this was a one-off gift made for DEF CON 25 (2017), not a sold or distributed item. Exact LED strip part number (e.g. WS2812B vs SK6812) not stated by the maker, so tech.leds.type is left as generic RGB. Blog text says code is GPL2.0-licensed while the repo itself shows an Apache-2.0 LICENSE file; left both facts recorded rather than guessing which is authoritative. No further press or third-party coverage found.'
+  notes: 'Fact-check pass (2026-09-07): re-fetched both the maker''s blog post and the GitHub repo and confirmed every remaining field and body sentence against them. Two corrections made: (1) the caption on db131398ac.jpg wrongly said "worn on the wrist" - the blog has no such photo; both saved images are close-up construction shots (the Gemma board mounted on the bangle, and the soldered strip wiring), so the caption was corrected to match what the image actually shows. (2) A source note claimed this was a "precursor project to the DC503 Banglet" - the blog post does not mention any DC503 or Banglet project (it only mentions the bangle being worn to "the 503 party" at DEF CON), so that unsupported claim was removed. Also corrected tech.battery from "coin cell" to "2x coin cell" per the blog''s own description of two coin batteries totaling 6V. Everything else (maker, event/year, one-off/never-sold status, Gemma MCU, 13-LED two-strip build, three blinking patterns, GPLv2-vs-Apache-2.0 license discrepancy, repo contents) is directly supported by the two cited sources. Exact LED part number (WS2812B vs SK6812) is still not stated by the maker, so tech.leds.type remains generic RGB. No further press or third-party coverage found.'
 last_modified_date: '2026-09-07'
 ---
 

@@ -11,7 +11,7 @@ year: 2024
 makers:
 - name: HackerBoxes
   url: https://hackerboxes.com
-summary: A solder-it-yourself alien-robot badge from HackerBox #0104 "Engage," built around an ESP32-C3 Supermini and two 4x4 WS2812B LED matrices standing in for the robot's glowing eyes.
+summary: A solder-it-yourself alien-robot badge from HackerBox
 functions: Runs a demo Arduino sketch with three button-triggered display modes for the eye LEDs, one with buzzer sound effects; an expanded sketch from HackerBoxes (HB0104_Wireless_Badge.ino) adds 20 display modes and lets modes be triggered wirelessly from another badge over ESP-NOW.
 look:
   colors:
@@ -46,7 +46,7 @@ get_one:
   distribution:
   - purchase
   - kit
-  where: Sold by HackerBoxes as a standalone kit and as the featured badge project in the HackerBox #0104 "Engage" monthly subscription box, shipped around the summer solstice 2024 ahead of DEF CON 32 / Hacker Summer Camp.
+  where: Sold by HackerBoxes as a standalone kit and as the featured badge project in the HackerBox
 make_your_own:
   open_source: partial
   hardware_url: null
@@ -64,24 +64,27 @@ links:
 - label: www.hackerboxes.com
   url: https://www.hackerboxes.com
   kind: store
+  archived: https://web.archive.org/web/20260523221904/https://hackerboxes.com/
 - label: Alien Robot Badge Kit (standalone product page)
   url: https://hackerboxes.com/products/alien-robot-badge-kit
   kind: store
 - label: 'HackerBox 0104: Engage — Instructables build guide'
   url: https://www.instructables.com/HackerBox-0104-Engage/
   kind: doc
-- label: "Hackerbox 0104 - Engage (#badgelife) — Jamie's Hack Shack unboxing/build video"
+  archived: https://web.archive.org/web/20260606133950/https://www.instructables.com/HackerBox-0104-Engage/
+- label: Hackerbox 0104 - Engage (#badgelife) — Jamie's Hack Shack unboxing/build video
   url: https://www.youtube.com/watch?v=0bniLqir8wc
   kind: video
 images:
-  - file: assets/images/badges/dc32/alien-robot-badge/574ab4bc5a.png
-    source: "https://hackerboxes.com/products/alien-robot-badge-kit"
-    credit: "HackerBoxes"
-    caption: "Alien Robot Badge Kit product photo"
-  - file: assets/images/badges/dc32/alien-robot-badge/685e80b2c9.jpg
-    source: "https://www.instructables.com/HackerBox-0104-Engage/"
-    credit: "HackerBoxes / Instructables"
-    caption: "Alien Robot Badge Kit build step showing the two 4x4 WS2812B LED eye modules"
+- file: assets/images/badges/dc32/alien-robot-badge/574ab4bc5a.png
+  source: https://hackerboxes.com/products/alien-robot-badge-kit
+  credit: HackerBoxes
+  caption: Alien Robot Badge Kit product photo
+- file: assets/images/badges/dc32/alien-robot-badge/685e80b2c9.jpg
+  source: https://www.instructables.com/HackerBox-0104-Engage/
+  credit: HackerBoxes / Instructables
+  caption: Alien Robot Badge Kit build step showing the two 4x4 WS2812B LED eye modules
+  archived: https://web.archive.org/web/20260606133950/https://www.instructables.com/HackerBox-0104-Engage/
 contact: {}
 notes:
 - We will also have kits and some fully assembled at the HackerBox DC32 Vendor Table (have built this one and it does have a nice challenge concerning the soldering of wires on it).
@@ -106,6 +109,7 @@ sources:
   title: 'HackerBox 0104: Engage : 10 Steps - Instructables'
   accessed: '2026-09-06'
   note: 'Detailed step-by-step build guide: confirmed ESP32-C3 Supermini MCU, two 4x4 WS2812B (32 total) LED eye modules, buttons, demo sketch with three display modes including sound effects, an attached 20-mode HB0104_Wireless_Badge.ino sketch with ESP-NOW wireless triggering, a 2x3 (6-pin) SAO header, a 3x AA battery pack with boost converter and USB/BAT switch (battery pack visible in the guide''s photos), and that the box shipped on the 2024 summer solstice ahead of DEF CON 32 / Hacker Summer Camp.'
+  archived: https://web.archive.org/web/20260606133950/https://www.instructables.com/HackerBox-0104-Engage/
 research:
   status: verified
   confidence: high

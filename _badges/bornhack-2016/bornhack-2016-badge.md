@@ -76,7 +76,7 @@ sources:
   accessed: '2026-09-07'
   note: "Confirmed description, parts list (transistor, LED, resistor, battery clips, switch, ferrite toroid), Joule Thief circuit, CC-BY-SA license, and KiCad design files."
 research:
-  status: researched
+  status: verified
   confidence: high
   last_checked: '2026-09-07'
   notes: "No price, quantity made, or sales/distribution channel is stated anywhere in the repo — this reads as a badge given to registered attendees rather than sold, but that isn't stated explicitly either, so availability and get_one.where are left partly unconfirmed."

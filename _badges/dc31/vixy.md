@@ -51,6 +51,7 @@ links:
 - label: donate.defconfurs.org
   url: https://donate.defconfurs.org
   kind: website
+  archived: https://web.archive.org/web/20260616021030/https://donate.defconfurs.org/
 - label: Vixy badge listing (Gumroad)
   url: https://donate.defconfurs.org/l/pohyz
   kind: store
@@ -59,13 +60,13 @@ links:
   kind: repo
 images:
 - file: assets/images/badges/dc31/vixy/cfd3bdd145.jpg
-  source: "https://donate.defconfurs.org/l/pohyz"
-  credit: "DEFCON Furs"
-  caption: "Vixy badge, fully assembled, product photo"
+  source: https://donate.defconfurs.org/l/pohyz
+  credit: DEFCON Furs
+  caption: Vixy badge, fully assembled, product photo
 contact: {}
 notes:
 - Please go to the link and see the different badge levels they have. These folks are awesome!! Show them love!!
-- "Sheet's 'where' text was a generic pitch to the donation page; replaced with what the Gumroad listing actually says."
+- Sheet's 'where' text was a generic pitch to the donation page; replaced with what the Gumroad listing actually says.
 status: released
 sources:
 - kind: sheet
@@ -77,9 +78,10 @@ sources:
   title: DEFCON Furs (Gumroad storefront)
   accessed: '2026-09-07'
   note: 'Confirmed "DEFCON Furs 2023 Badge: Vixy - Fully Assembled" as a real product, $75, sold-out.'
+  archived: https://web.archive.org/web/20260616021030/https://donate.defconfurs.org/
 - kind: url
   url: https://donate.defconfurs.org/l/pohyz
-  title: "DEFCON Furs 2023 Badge: Vixy - Fully Assembled (Gumroad listing)"
+  title: 'DEFCON Furs 2023 Badge: Vixy - Fully Assembled (Gumroad listing)'
   accessed: '2026-09-07'
   note: Source of description, price, shipping details, tech specs (RP2040, 48 RGB LEDs, MicroPython, touch/booping, 2x SAO v1.69bis), and GitHub link.
 - kind: url

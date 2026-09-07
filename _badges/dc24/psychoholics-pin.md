@@ -35,10 +35,10 @@ get_one:
   distribution: []
   where: ''
 make_your_own:
-  open_source: partial
+  open_source: 'yes'
   hardware_url: https://github.com/krux702/dc24_psychoholics_pin/tree/master/hardware
   firmware_url: https://github.com/krux702/dc24_psychoholics_pin/tree/master/psychoholic_pin
-  eda_tool: null
+  eda_tool: Eagle
 links:
 - label: github.com/krux702/dc24_psychoholics_pin
   url: https://github.com/krux702/dc24_psychoholics_pin
@@ -70,10 +70,10 @@ sources:
   accessed: '2026-09-07'
   note: 'Hardware files are Eagle CAD (.brd/.sch), no Gerbers or KiCad; confirms board files are published (firmware + schematic/board, but not a BOM or write-up).'
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-07'
-  notes: 'Psychoholics is a long-running DEF CON phreaking/social group (associated with Telephreak/TeleChallenge, black-badge winners in other years); this pin appears to have been a small giveaway or group item made for their DC24 (2016) presence rather than a commercial product. No maker''s write-up, storefront listing, price, quantity, or photo of the finished pin could be found anywhere online -- only the GitHub source repo exists. The repo has no images; GitHub''s auto-generated link-preview card is not a photo of the item, so no image was saved. MCU model, dimensions, board colors, and battery/power are not stated anywhere in the repo and are left empty rather than guessed.'
+  notes: 'Fact-check pass (2026-09-07): re-fetched README.md, the psychoholic_pin.ino firmware, and the repo/hardware/firmware directory listings directly. All cited facts check out: README confirms "SoftPWM Arduino code for the Psychoholics DEF CON 24 badge"; the .ino confirms 11 LEDs (NUM_LEDS=11) in leds[], SoftPWM-driven, a random-LED loop with a 30ms delay (NEXT_LED) and 1500/2000ms fade times, no button/input code; the hardware directory contains only psychoholics_pin.brd and psychoholics_pin.sch (Eagle CAD format), the firmware directory contains only psychoholic_pin.ino. Corrected two fields the researcher under-filled: make_your_own.open_source to "yes" (guide: yes when both hardware and firmware are published, which they are, regardless of missing BOM/license) and make_your_own.eda_tool to "Eagle" (directly evidenced by the .brd/.sch file extensions already cited, not a maker statement but an objective read of the published files). Psychoholics is a long-running DEF CON phreaking/social group; no maker write-up, storefront, price, quantity, or photo of the finished pin exists anywhere found online, so those fields correctly stay empty. No images were saved (none exist to save) and no contradictions were found between sources.'
 last_modified_date: '2026-09-07'
 ---
 

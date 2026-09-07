@@ -41,7 +41,7 @@ get_one:
   availability: unknown
   distribution:
   - purchase
-  where: Sold through the AND!XOR shop and at their DEF CON 27 vendor table alongside the main AND!XOR badge.
+  where: Sold through the AND!XOR shop (shop.andnxor.com); remaining stock was also taken to the Hacker Warehouse vendor booth at DEF CON 27.
 make_your_own:
   open_source: yes
   hardware_url: https://github.com/LonghornEngineer/DOOM_SAO
@@ -56,10 +56,6 @@ links:
   url: https://github.com/LonghornEngineer/DOOM_SAO
   kind: repo
 images:
-- file: assets/images/badges/dc27/doom-sao-hurt-me-plenty/5d7167109e.jpg
-  source: "https://hackaday.io/project/164346-andxor-dc27-badge/log/165849-dc27-doom-sao-hurt-me-plenty"
-  credit: "AND!XOR / LonghornEngineer"
-  caption: "DOOM SAO Hurt Me Plenty board with LCD showing Doom Guy"
 - file: assets/images/badges/dc27/doom-sao-hurt-me-plenty/f24f10311b.jpg
   source: "https://hackaday.io/project/164346-andxor-dc27-badge/log/165849-dc27-doom-sao-hurt-me-plenty"
   credit: "AND!XOR / LonghornEngineer"

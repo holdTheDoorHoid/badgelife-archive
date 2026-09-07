@@ -80,10 +80,10 @@ sources:
   accessed: '2026-09-07'
   note: 'compukidmike runs MKFactor with his wife; general context on the maker, no Llama SAO listing found there.'
 research:
-  status: researched
+  status: verified
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'Maker''s own readme and repo confirm what it is, that it is a DIY-only 2-LED-and-resistor SAO with full KiCad/Gerber/BOM files, and that it predates any commercial listing. No price, quantity, or distribution details were found anywhere (Tindie store search turned up no Llama SAO listing) -- it reads as a one-off the maker made and shared as open hardware rather than something sold or handed out at DEF CON 26, but no source states that explicitly, so availability is left unknown rather than guessed.'
+  notes: 'Fact-check pass (2026-09-07): re-fetched the readme, the DC26 repo root, and the Llama SAO subfolder listing -- all confirm the 2-LED-and-resistor design, no MCU, white soldermask/black silkscreen, the boardhouse silkscreen warning, GPL-3.0 licensing, and the presence of Gerbers/KiCad Files/BOM.xlsx/LlamaSAO.jpg. The saved image matches LlamaSAO.jpg in that folder. The Tindie store URL returned a Cloudflare challenge on recheck and could not be reloaded, but it was only ever cited for a negative result (no Llama SAO listing found there) and supports no field or sentence in this entry, so nothing here depends on it. No price, quantity, or distribution details exist in any source, so those fields stay empty rather than guessed.'
 last_modified_date: '2026-09-07'
 ---
 
