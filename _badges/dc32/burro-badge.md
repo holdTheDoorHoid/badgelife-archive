@@ -48,10 +48,29 @@ sources:
   row: 27
   updated: '2024-07-30'
 research:
-  status: stub
+  status: researched
   confidence: low
-  last_checked: '2026-09-06'
-  notes: Imported from the community badge sheet; not yet researched.
-last_modified_date: '2026-09-06'
+  last_checked: '2026-09-07'
+  notes: >-
+    No web presence found for this item or maker. Searched "Burro Badge" +
+    "Blametheotherkyle", "Blametheotherkyle" alone, and "Burro" + "badgelife" +
+    "DEF CON 32" via Bing and DuckDuckGo; also checked Hackaday.io search
+    directly. All returned either zero relevant hits or unrelated content
+    (donkey/burro animal pages, an unrelated robotics company called
+    Burro.ai). The maker has two other stub entries in this archive
+    (dc31-secure-a-s-s-badge, dc32-d3cad3-count3r-sao) that are equally
+    undocumented online, suggesting this maker does not have a public
+    Hackaday/GitHub/Twitter presence indexed by search engines, or used a
+    handle not captured on the community sheet. The sheet's own text (the
+    functions field "Super secret!" and the contact note pointing to Twitter
+    "#badgelife" during the con) suggests this was a mystery/surprise drop
+    typical of badgelife culture, with details only shared live at DEF CON 32
+    and not archived anywhere searchable afterward. No fields beyond what the
+    sheet already provided could be confirmed, so nothing was added or
+    guessed.
+last_modified_date: '2026-09-07'
 ---
 
+The Burro Badge was listed on the DEF CON 32 (2024) community badge sheet by a maker known as Blametheotherkyle, who described its function only as "Super secret!" and pointed people to watch Twitter's #badgelife hashtag during the con for drop details. No further information about the badge — its design, electronics, or how many were made — could be found on the open web; it appears to belong to the class of surprise/mystery badgelife drops that were announced and distributed informally at the con itself, with no lasting online documentation.
+
+This maker also listed a Secure A.S.S. Badge at DEF CON 31 and a D3cad3 Count3r SAO at DEF CON 32, both of which are similarly undocumented outside the community sheet, suggesting Blametheotherkyle did not maintain a public project page, GitHub repo, or storefront for these items (or used a handle/account not indexed by search engines).

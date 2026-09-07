@@ -109,7 +109,7 @@ research:
   status: researched
   confidence: high
   last_checked: '2026-09-06'
-  notes: 'Renamed from the sheet''s placeholder title to the maker''s actual product name, "DEFCON Furs 2024 Badge," per the special-case rule (all core facts came from the maker''s own GitHub repo and Gumroad listing). Exact production quantity is not published anywhere found. License for the hardware/firmware was not stated. The maker deliberately withholds full KiCad source and STM32WL JTAG wiring details, so make_your_own is partial rather than yes.'
+  notes: 'Renamed from the sheet''s placeholder title to the maker''s actual product name, "DEFCON Furs 2024 Badge," per the special-case rule (all core facts came from the maker''s own GitHub repo and Gumroad listing). Exact production quantity is not published anywhere found. License for the hardware/firmware was not stated. The maker deliberately withholds full KiCad source and STM32WL JTAG wiring details, so make_your_own is partial rather than yes. Board shape is a fox/canine head per the repo''s R1 prototype render (purple soldermask); per the repo readme, public-sale and staff PCBs were black rather than the purple prototype, so both colors are listed.'
 last_modified_date: '2026-09-06'
 ---
 
