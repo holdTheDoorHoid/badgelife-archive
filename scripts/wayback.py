@@ -107,9 +107,14 @@ def main():
     done = skipped = failed = 0
     cache = {}
     for path in files:
+        if not os.path.exists(path):
+            continue  # merged or removed since we listed the folder
         if (time.time() - os.path.getmtime(path)) < a.quiet_minutes * 60:
             continue
-        fm, body = load(path)
+        try:
+            fm, body = load(path)
+        except Exception as e:
+            print(f"SKIP {path}: {e}", flush=True); continue
         todo = [(obj, k, ak) for obj, k, ak in targets(fm) if not obj.get(ak) and not any(h in obj[k] for h in SKIP_HOSTS)]
         if not todo: continue
         changed = False
@@ -129,7 +134,7 @@ def main():
                 print(f"ok   {url} -> {snap}", flush=True)
             else:
                 failed += 1; print(f"FAIL {url}", flush=True)
-        if changed and not a.dry_run:
+        if changed and not a.dry_run and os.path.exists(path):
             fm2, body2 = load(path)  # re-read right before writing to minimise clobber risk
             for (obj, k, ak) in targets(fm):
                 if obj.get(ak):
