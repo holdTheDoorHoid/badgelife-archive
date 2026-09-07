@@ -34,7 +34,7 @@ get_one:
   price_usd: 15.0
   quantity: ''
   availability: sold_out
-  availability_note: 'Both the Uberflux and Tindie listings show 0 in stock as of 2026-09-06; Tindie shows sold out since 2025-09-13, with preorders taken for DEF CON 34.'
+  availability_note: Both the Uberflux and Tindie listings show 0 in stock as of 2026-09-06; Tindie shows sold out since 2025-09-13, with preorders taken for DEF CON 34.
   distribution:
   - purchase
   - preorder
@@ -53,13 +53,13 @@ links:
   kind: store
 images:
 - file: assets/images/badges/dc34/viber-coder-dog-sao/45dea67178.jpg
-  source: "https://uberflux.com/product/CGORY-VIBECODERDOG"
-  credit: "coryallegory"
-  caption: "Vibe Coder Dog SAO, assembled with keyboard LEDs"
+  source: https://uberflux.com/product/CGORY-VIBECODERDOG
+  credit: coryallegory
+  caption: Vibe Coder Dog SAO, assembled with keyboard LEDs
 - file: assets/images/badges/dc34/viber-coder-dog-sao/0b624c8eb5.jpg
-  source: "https://www.tindie.com/products/coryallegory/vibe-coder-sao-badgelife-addon/"
-  credit: "coryallegory"
-  caption: "Vibe Coder SAO Tindie listing photo"
+  source: https://www.tindie.com/products/coryallegory/vibe-coder-sao-badgelife-addon/
+  credit: coryallegory
+  caption: Vibe Coder SAO Tindie listing photo
 contact:
   discord: coryallegory
   emails:
@@ -69,8 +69,8 @@ contact:
   raw:
   - on twitter, bluesky, discord
 notes:
-- 'Sheet title read "Viber Coder Dog SAO"; the maker''s own listings call it "Vibe Coder (Dog) SAO" — corrected here, sheet spelling kept for reference.'
-- 'This looks like the same design as dc33-vibe-coder-sao (also by coryallegory, "Vibe Coder SAO"), originally made for DEFCON 33 and re-listed/pre-ordered for DEF CON 34; flagged as a likely duplicate rather than a new design.'
+- Sheet title read "Viber Coder Dog SAO"; the maker's own listings call it "Vibe Coder (Dog) SAO" — corrected here, sheet spelling kept for reference.
+- This looks like the same design as dc33-vibe-coder-sao (also by coryallegory, "Vibe Coder SAO"), originally made for DEFCON 33 and re-listed/pre-ordered for DEF CON 34; flagged as a likely duplicate rather than a new design.
 status: released
 sources:
 - kind: sheet
@@ -85,15 +85,17 @@ sources:
   note: Product description, price, LED behavior, stock status (0 in stock, 5 sold), maker's own framing that it was originally made for DEFCON 33.
 - kind: url
   url: https://www.tindie.com/products/coryallegory/vibe-coder-sao-badgelife-addon/
-  title: Vibe Coder SAO #badgelife addon — Tindie
+  title: Vibe Coder SAO
   accessed: '2026-09-06'
   note: Confirms maker location (Winnipeg, Canada), 4-LED count, $15 price, sold out since 2025-09-13, and DEF CON 34 preorder note.
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-06'
-  notes: 'No MCU, battery, or SAO pin-count details published on either storefront, so tech fields other than LEDs are left empty. No design files or repo found for this dog variant (the earlier dc33-vibe-coder-sao entry lists a github.com/coryallegory/vibecoder repo link from the sheet, unverified). Likely the same physical product as dc33-vibe-coder-sao, carried over/re-sold for DC34 rather than a distinct new design — see duplicate note.'
+  notes: No MCU, battery, or SAO pin-count details published on either storefront, so tech fields other than LEDs are left empty. No design files or repo found for this dog variant (the earlier dc33-vibe-coder-sao entry lists a github.com/coryallegory/vibecoder repo link from the sheet, unverified). Likely the same physical product as dc33-vibe-coder-sao, carried over/re-sold for DC34 rather than a distinct new design — see duplicate note.
 last_modified_date: '2026-09-06'
+related:
+- dc33-vibe-coder-sao
 ---
 
 The Vibe Coder Dog SAO is a small add-on by coryallegory (Winnipeg, Manitoba) built around a dog character hammering away at a tiny keyboard, with four LEDs behind the keys cycling through random colors. The maker describes it as a continuation of an earlier "Science Dog" design, now recast as "Coder Dog" for the vibe-coding meme, and notes it was originally produced for DEFCON 33 before being sold again (via preorder) for DEF CON 34.

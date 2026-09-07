@@ -64,7 +64,7 @@ sources:
   note: Store listing named "bic-village-badge-2022"; the page is a JS-rendered Square Online storefront and returned no readable product description, price breakdown, or image URL through fetch/curl, only confirming the listing exists and is titled around the 2022 badge.
 - kind: url
   url: https://x.com/blackincyberco1/status/1554097116397441024
-  title: 'Blacks In Cybersecurity on X, 1 August 2022'
+  title: Blacks In Cybersecurity on X, 1 August 2022
   accessed: '2026-09-06'
   note: BiC's own tweet (posted 2022-08-01) inviting people to the BIC Village at DEF CON 30 for "#badgelife", tagged "#wakandaforever" and "#Wakanda", which corroborates a Black Panther/Wakanda theme for that year's village badge. Text and hashtags confirmed via X's public syndication endpoint; the attached photo could not be inspected.
 - kind: url
@@ -76,21 +76,11 @@ research:
   status: verified
   confidence: low
   last_checked: '2026-09-06'
-  notes: >-
-    This is the community sheet's row for a badge sold at DC32 (2024) but explicitly
-    described as "past year's badge" -- i.e. leftover stock of Blacks in Cyber's (BiC)
-    2022 DEF CON 30 village badge, sold again at BiC's Square storefront under the slug
-    "bic-village-badge-2022". A 1 August 2022 promotional tweet from BiC's own account uses
-    the hashtags "#wakandaforever" and "#Wakanda" while announcing badgelife at the BIC
-    Village for DEF CON 30, which lines up with this badge's Black Panther theme, but no
-    source was reachable that gave the badge's physical description, chip, LEDs, exact
-    price breakdown, quantity, or a usable photo. The storefront page is a JavaScript-
-    rendered Square Online site that returned no extractable product data via fetch or
-    curl. The tweet's text was confirmed through X's syndication endpoint (fact-check
-    2026-09-06), but its photo could not be inspected. No image could be saved. Event is kept as dc32 per the
-    sheet (where it was being resold); the badge's original event was almost certainly
-    DEF CON 30 (2022), which is noted here for anyone continuing this research.
+  notes: This is the community sheet's row for a badge sold at DC32 (2024) but explicitly described as "past year's badge" -- i.e. leftover stock of Blacks in Cyber's (BiC) 2022 DEF CON 30 village badge, sold again at BiC's Square storefront under the slug "bic-village-badge-2022". A 1 August 2022 promotional tweet from BiC's own account uses the hashtags "#wakandaforever" and "#Wakanda" while announcing badgelife at the BIC Village for DEF CON 30, which lines up with this badge's Black Panther theme, but no source was reachable that gave the badge's physical description, chip, LEDs, exact price breakdown, quantity, or a usable photo. The storefront page is a JavaScript- rendered Square Online site that returned no extractable product data via fetch or curl. The tweet's text was confirmed through X's syndication endpoint (fact-check 2026-09-06), but its photo could not be inspected. No image could be saved. Event is kept as dc32 per the sheet (where it was being resold); the badge's original
+    event was almost certainly DEF CON 30 (2022), which is noted here for anyone continuing this research.
 last_modified_date: '2026-09-06'
+related:
+- dc30-blacks-in-cyber-badge
 ---
 
 This entry, as recorded on the DC32 (2024) community badge sheet, is not a new badge made

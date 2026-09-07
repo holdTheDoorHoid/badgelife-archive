@@ -141,6 +141,8 @@ last_modified_date: '2026-09-06'
 redirect_from:
 - /badges/dc33/aerospace-village-listed-for-def-con-33-no-details/
 - /badges/dc33/coming-soon/
+related:
+- dc32-aerospace-village-unnamed-badge-sao
 ---
 
 The DC33 Aerospace Village badge is a wearable Linux computer built around an Allwinner T113 dual-core SoC, with 128MB of DDR3 RAM and 8GB of eMMC storage, that natively receives ADS-B aircraft transponder signals at 1090 MHz through an onboard PCB antenna (with a connector for an external one) and plots nearby aircraft on its SSD1306 OLED screen. Beyond ADS-B tracking it functions as a general-purpose Linux single-board computer accessible over SSH or a plugged-in keyboard, with built-in Wi-Fi, GPS, a USB-C dual-role port with Power Delivery charging, a microSD slot, and a replaceable 18650 battery. It carries an SAO connector that exposes I2C, UART, and CAN bus.

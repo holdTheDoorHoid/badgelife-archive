@@ -43,7 +43,7 @@ get_one:
   - village
   where: Sold during DEF CON 32 at the Aerospace Village and via the Aerospace Village's Tindie store (sales opened publicly on Tindie in October 2024 after the con).
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/AerospaceVillage/avBadge_2024
   firmware_url: https://github.com/AerospaceVillage/avBadge_2024
   eda_tool: null
@@ -60,20 +60,20 @@ links:
   label: 2024 Aerospace Village Badge (Tindie, discontinued)
   url: https://www.tindie.com/products/aero_village/2024-aerospace-village-badge/
 - kind: article
-  label: "Adafruit blog: The Aerospace Village badge for DEF CON 32 is an aircraft position display"
+  label: 'Adafruit blog: The Aerospace Village badge for DEF CON 32 is an aircraft position display'
   url: https://blog.adafruit.com/2024/07/30/the-aerospace-village-badge-for-def-con-32-is-an-aircraft-position-display/
 images:
 - file: assets/images/badges/dc32/aerospace-village-unnamed-badge-sao/1cafb1eeee.jpg
-  source: "https://www.tindie.com/products/aero_village/2024-aerospace-village-badge/"
-  credit: "Aerospace Village"
-  caption: "Front of the 2024 Aerospace Village DC32 badge, showing the ADS-B display"
+  source: https://www.tindie.com/products/aero_village/2024-aerospace-village-badge/
+  credit: Aerospace Village
+  caption: Front of the 2024 Aerospace Village DC32 badge, showing the ADS-B display
 - file: assets/images/badges/dc32/aerospace-village-unnamed-badge-sao/1602e5ec3c.jpg
-  source: "https://www.tindie.com/products/aero_village/2024-aerospace-village-badge/"
-  credit: "Aerospace Village"
-  caption: "Back of the 2024 Aerospace Village DC32 badge"
+  source: https://www.tindie.com/products/aero_village/2024-aerospace-village-badge/
+  credit: Aerospace Village
+  caption: Back of the 2024 Aerospace Village DC32 badge
 contact: {}
 notes:
-- "Sheet listed this row only as an unnamed Aerospace Village item at $160; research identified it as the official 2024 Aerospace Village Badge (the village's main DC32 badge, not a separate SAO)."
+- Sheet listed this row only as an unnamed Aerospace Village item at $160; research identified it as the official 2024 Aerospace Village Badge (the village's main DC32 badge, not a separate SAO).
 status: released
 sources:
 - kind: sheet
@@ -87,7 +87,7 @@ sources:
   note: Feature list, distribution context, and confirmation this is the main DC32 badge.
 - kind: url
   url: https://github.com/AerospaceVillage/avBadge_2024
-  title: "GitHub: AerospaceVillage/avBadge_2024"
+  title: 'GitHub: AerospaceVillage/avBadge_2024'
   accessed: '2026-09-06'
   note: Open-source hardware/firmware repo, README description, case links, software release tags.
 - kind: url
@@ -97,22 +97,17 @@ sources:
   note: Confirmed price ($160.00), discontinued/sold-out status, product images, and a buyer review.
 - kind: url
   url: https://blog.adafruit.com/2024/07/30/the-aerospace-village-badge-for-def-con-32-is-an-aircraft-position-display/
-  title: "Adafruit: The Aerospace Village badge for DEF CON 32 is an aircraft position display"
+  title: 'Adafruit: The Aerospace Village badge for DEF CON 32 is an aircraft position display'
   accessed: '2026-09-06'
   note: Corroborating description of features and team involvement.
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-06'
-  notes: >-
-    The sheet row gave no title, only a $160 price and "Selling during DEFCON at the
-    Aerospace Village." Cross-referencing the Aerospace Village's own DC32 badge page,
-    their GitHub repo, and the Tindie store (which lists the exact same $160.00 price
-    and DC32 description) confirms this is the "2024 Aerospace Village Badge" itself,
-    not a separate unnamed SAO. Could not confirm exact quantity made, specific SoC part
-    number, LED count/type, or display size/type from public sources; left those fields
-    empty rather than guess. The Tindie listing is now marked discontinued.
+  notes: The sheet row gave no title, only a $160 price and "Selling during DEFCON at the Aerospace Village." Cross-referencing the Aerospace Village's own DC32 badge page, their GitHub repo, and the Tindie store (which lists the exact same $160.00 price and DC32 description) confirms this is the "2024 Aerospace Village Badge" itself, not a separate unnamed SAO. Could not confirm exact quantity made, specific SoC part number, LED count/type, or display size/type from public sources; left those fields empty rather than guess. The Tindie listing is now marked discontinued.
 last_modified_date: '2026-09-06'
+related:
+- dc33-aerospace-village-adsb-badge
 ---
 
 The 2024 Aerospace Village Badge for DEF CON 32 is a self-contained ADS-B receiver: it decodes 1090 MHz transmissions that most aircraft broadcast and plots them on a live moving map alongside the badge's own GPS position, using ordinary components rather than a dedicated SDR front end. Beyond that headline feature, it is a full Linux single-board computer with Wi-Fi, a dual-core processor, 128MB of DDR3 RAM, and 8GB of eMMC storage, expandable with a user-supplied microSD card. Wearers could SSH in, plug a keyboard into its USB port for a terminal, expose the underlying Dump1090 data over Wi-Fi or USB Ethernet, play video, or run game emulators. It also carried an SAO connector supporting I2C, UART, and CAN bus, a replaceable 18650 battery with USB-C PD fast charging, and a hidden CTF-style puzzle hunt for attendees to find.

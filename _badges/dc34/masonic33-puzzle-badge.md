@@ -29,7 +29,7 @@ get_one:
   price_usd: 125.0
   quantity: ''
   availability: unknown
-  availability_note: 'Preorder form (Google Forms) confirmed the badge title but was closed to new responses as of 2026-09-06; no pricing, quantity, or stock details were visible.'
+  availability_note: Preorder form (Google Forms) confirmed the badge title but was closed to new responses as of 2026-09-06; no pricing, quantity, or stock details were visible.
   distribution:
   - preorder
   where: Preordered via a Google Form linked from the community badge sheet.
@@ -70,19 +70,10 @@ research:
   status: verified
   confidence: low
   last_checked: '2026-09-06'
-  notes: >-
-    Fact-check 2026-09-06: preorder form (closed) confirms title and Hak4Kidz origin;
-    sheet row supports maker, functions, price and contacts; hak4kidz.com has no
-    mention of the badge. Original researcher notes follow. Could only confirm the badge's title and preorder nature via the Google Form
-    (now closed, no details displayed). x.com/hak4kidz returned HTTP 402 on fetch
-    and could not be checked; linkedin.com/company/hak4kidz served a CAPTCHA
-    challenge page and could not be read. hak4kidz.com's public site covers their
-    youth conference program only and has no mention of this badge. Web search was
-    unavailable (session search budget exhausted) and DuckDuckGo/Bing fetches
-    returned no usable results (captcha/irrelevant results). Could not confirm
-    maker/chip/LEDs/colors/shape/quantity/open-source status or find any photos;
-    left those fields empty rather than guess.
+  notes: 'Fact-check 2026-09-06: preorder form (closed) confirms title and Hak4Kidz origin; sheet row supports maker, functions, price and contacts; hak4kidz.com has no mention of the badge. Original researcher notes follow. Could only confirm the badge''s title and preorder nature via the Google Form (now closed, no details displayed). x.com/hak4kidz returned HTTP 402 on fetch and could not be checked; linkedin.com/company/hak4kidz served a CAPTCHA challenge page and could not be read. hak4kidz.com''s public site covers their youth conference program only and has no mention of this badge. Web search was unavailable (session search budget exhausted) and DuckDuckGo/Bing fetches returned no usable results (captcha/irrelevant results). Could not confirm maker/chip/LEDs/colors/shape/quantity/open-source status or find any photos; left those fields empty rather than guess.'
 last_modified_date: '2026-09-06'
+related:
+- dc33-masonic33
 ---
 
 The Masonic33 Puzzle Badge was made by Hak4Kidz for DEF CON 34 (2026) and offered as a preorder through a Google Form linked from the community badge sheet. Per the sheet, it includes four on-board puzzles and notably bright LEDs on the front, priced at $125.

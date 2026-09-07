@@ -36,7 +36,7 @@ get_one:
   price_usd: 40.0
   quantity: ''
   availability: unknown
-  availability_note: 'Product photo on Tindie dates to Nov 2023, so it was already an ongoing product line by DEF CON 32 (Aug 2024), not a badge made specifically for that con.'
+  availability_note: Product photo on Tindie dates to Nov 2023, so it was already an ongoing product line by DEF CON 32 (Aug 2024), not a badge made specifically for that con.
   distribution:
   - purchase
   - kit
@@ -60,9 +60,9 @@ links:
   kind: store
 images:
 - file: assets/images/badges/dc32/make-it-hackin-listed-for-def-con-32-no-details/1f646207d1.jpg
-  source: "https://www.tindie.com/products/32844/"
-  credit: "Make It Hackin"
-  caption: "FlipBoard macropad attached to a Flipper Zero"
+  source: https://www.tindie.com/products/32844/
+  credit: Make It Hackin
+  caption: FlipBoard macropad attached to a Flipper Zero
 contact: {}
 notes:
 - Sheet only listed the maker's name for DEF CON 32, with no item name or details.
@@ -81,7 +81,7 @@ sources:
   url: https://github.com/MakeItHackin/SummerCampSAO
   title: MakeItHackin/SummerCampSAO (GitHub)
   accessed: '2026-09-07'
-  note: 'Maker''s own README for a later (DC33) kit lists "DC32 Flipboard sticker" among leftover swag included in the kit bag, tying the FlipBoard product to DEF CON 32.'
+  note: Maker's own README for a later (DC33) kit lists "DC32 Flipboard sticker" among leftover swag included in the kit bag, tying the FlipBoard product to DEF CON 32.
 - kind: url
   url: https://www.tindie.com/products/32844/
   title: FlipBoard MacroPad Keyboard for Flipper Zero (Tindie)
@@ -96,8 +96,11 @@ research:
   status: researched
   confidence: low
   last_checked: '2026-09-07'
-  notes: 'The DC32 community sheet listed only the maker "Make it Hackin" with no item name. No DC32-specific product from this maker was found; instead the best evidence points to FlipBoard, their ongoing Flipper Zero macropad, being what they had at DEF CON 32: its GitHub repo received an upload on Aug 7, 2024 (the day before DC32 opened), and the maker''s own README for a later kit (SummerCampSAO, sold at DC33) lists a leftover "DC32 Flipboard sticker" among included swag, tying the product name to that con. However, FlipBoard''s Tindie product photo is timestamped Nov 2023, so it was already an established product line rather than something made specifically for DC32 -- this may just be "what they were selling at their table that year," not a DC32-exclusive release. This is the same product already documented under dc33-flipboard-macropad-for-flipper-zero (event dc33, 2025 sheet); no direct confirmation was found that identifies exactly which item(s) they brought to DC32 specifically, so confidence is kept low. Web search (WebSearch tool) was unavailable for this task (session budget exhausted); research relied on WebFetch of the maker''s GitHub org/repos and the Tindie listing only.'
+  notes: 'The DC32 community sheet listed only the maker "Make it Hackin" with no item name. No DC32-specific product from this maker was found; instead the best evidence points to FlipBoard, their ongoing Flipper Zero macropad, being what they had at DEF CON 32: its GitHub repo received an upload on Aug 7, 2024 (the day before DC32 opened), and the maker''s own README for a later kit (SummerCampSAO, sold at DC33) lists a leftover "DC32 Flipboard sticker" among included swag, tying the product name to that con. However, FlipBoard''s Tindie product photo is timestamped Nov 2023, so it was already an established product line rather than something made specifically for DC32 -- this may just be "what they were selling at their table that year," not a DC32-exclusive release. This is the same product already documented under dc33-flipboard-macropad-for-flipper-zero (event dc33, 2025 sheet); no direct confirmation was found that identifies exactly which item(s) they brought to DC32 specifically,
+    so confidence is kept low. Web search (WebSearch tool) was unavailable for this task (session budget exhausted); research relied on WebFetch of the maker''s GitHub org/repos and the Tindie listing only.'
 last_modified_date: '2026-09-07'
+related:
+- dc33-flipboard-macropad-for-flipper-zero
 ---
 
 The DEF CON 32 community badge sheet listed only the maker "Make it Hackin" for 2024, with no item name or description. No standalone DC32 product from this maker could be confirmed, but the maker's own GitHub account shows their FlipBoard macropad for the Flipper Zero was active right around that time: its repository received an upload on August 7, 2024, the day before DEF CON 32 opened, and a later kit's README (for a DC33 soldering kit) lists a leftover "DC32 Flipboard sticker" among included swag, tying the FlipBoard name to that convention.

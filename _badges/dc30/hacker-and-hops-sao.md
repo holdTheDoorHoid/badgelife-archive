@@ -50,17 +50,10 @@ research:
   status: researched
   confidence: low
   last_checked: '2026-09-07'
-  notes: >-
-    No maker page, repo, storefront, Hackaday.io project, or press coverage found for
-    "Hacker and Hops" or HackersNHops beyond the community sheet row. Web search and
-    search-engine fetches (Google, Bing, DuckDuckGo, Nitter mirror of @HackerNHops,
-    Hackaday.io search) turned up nothing; Reddit was unreachable. The sheet's note that
-    purchases were coordinated via Twitter (@CylentK / @HackerNHops) suggests this was a
-    small, informally-distributed run with no lasting web footprint. All technical and
-    look fields, quantity, and availability remain unconfirmed and are left empty rather
-    than guessed. HackersNHops also appears on the sheet for DC31 (see
-    dc31-hackersnhops-listed-for-def-con-31-no-details), a separate entry not touched here.
+  notes: No maker page, repo, storefront, Hackaday.io project, or press coverage found for "Hacker and Hops" or HackersNHops beyond the community sheet row. Web search and search-engine fetches (Google, Bing, DuckDuckGo, Nitter mirror of @HackerNHops, Hackaday.io search) turned up nothing; Reddit was unreachable. The sheet's note that purchases were coordinated via Twitter (@CylentK / @HackerNHops) suggests this was a small, informally-distributed run with no lasting web footprint. All technical and look fields, quantity, and availability remain unconfirmed and are left empty rather than guessed. HackersNHops also appears on the sheet for DC31 (see dc31-hackersnhops-listed-for-def-con-31-no-details), a separate entry not touched here.
 last_modified_date: '2026-09-07'
+related:
+- dc31-hackersnhops-listed-for-def-con-31-no-details
 ---
 
 The Hacker and Hops SAO was sold at DEF CON 30 (2022) by HackersNHops, a small team or duo (@CylentK and @HackerNHops on Twitter) who used the platform to coordinate sales in person rather than running a storefront. It was priced at $25.

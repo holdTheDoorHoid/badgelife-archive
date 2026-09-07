@@ -35,14 +35,14 @@ tech:
 get_one:
   price: $24
   price_usd: 24
-  quantity: '31 (21 sold, 10 remaining as of 2026-09-06)'
+  quantity: 31 (21 sold, 10 remaining as of 2026-09-06)
   availability: available
-  availability_note: 'Uberflux listing showed 10 of 31 units remaining as of 2026-09-06; ships or available for in-person pickup at DEF CON.'
+  availability_note: Uberflux listing showed 10 of 31 units remaining as of 2026-09-06; ships or available for in-person pickup at DEF CON.
   distribution:
   - purchase
   where: Sold by HogFillet through their Uberflux storefront (uberflux.com/product/HTP-DC34); a Tindie listing was also found in the original community sheet but no longer resolves to this product.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/HogFillet/HTP-graffiti
   firmware_url: null
   eda_tool: KiCad
@@ -63,13 +63,13 @@ links:
   kind: video
 images:
 - file: assets/images/badges/dc33/htp-graffiti/36c8893632.jpg
-  source: "https://uberflux.com/product/HTP-DC34"
-  credit: "HogFillet"
-  caption: "HTP Graffiti SAO, main product photo"
+  source: https://uberflux.com/product/HTP-DC34
+  credit: HogFillet
+  caption: HTP Graffiti SAO, main product photo
 - file: assets/images/badges/dc33/htp-graffiti/35d8b4ea81.jpg
-  source: "https://uberflux.com/product/HTP-DC34"
-  credit: "HogFillet"
-  caption: "HTP Graffiti SAO, alternate view"
+  source: https://uberflux.com/product/HTP-DC34
+  credit: HogFillet
+  caption: HTP Graffiti SAO, alternate view
 contact:
   emails:
   - hogfillet@gmail.com
@@ -95,13 +95,15 @@ sources:
   url: https://www.tindie.com/products/39459/
   title: Tindie product page
   accessed: '2026-09-06'
-  note: 'Could not be fetched (Cloudflare bot-check on direct fetch; a proxy fetch returned a 404 / unrelated store page), so it could not be used as a source. Kept as an existing link only.'
+  note: Could not be fetched (Cloudflare bot-check on direct fetch; a proxy fetch returned a 404 / unrelated store page), so it could not be used as a source. Kept as an existing link only.
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-06'
   notes: 'Maker''s own GitHub repo (description "defcon 34 SAO") and Uberflux storefront (product code HTP-DC34, page titled "SAO HackThePlanet", README headed "HACK THE PLANET SAO — DEF CON 34") both identify this as a DEF CON 34 (2026) item, not DEF CON 33 (2025) despite being imported from the DC33 community sheet (dated 7/18/2025, before DC33 ran). No DC33-specific listing of this SAO was found. Left in the dc33 folder/event field to match the file location and pass the directory/event validation, but archive maintainers should consider moving this entry to _badges/dc34/. The Tindie link in the original entry (product 39459) could not be verified: Cloudflare blocked direct and curl fetches, and a proxy fetch returned either a 404 or an unrelated store''s content, so it may be stale or reassigned. SAO connector pin count (v1 vs v1.69bis/v2) is not stated by the maker, so tech.sao_version is left null.'
 last_modified_date: '2026-09-06'
+related:
+- dc34-htp-graffiti
 ---
 
 HTP Graffiti (sold by the maker as "Hack the Planet SAO") is an all-analog SAO by HogFillet: a 555 timer clocks a 10-bit ripple counter, and eight of the counter's outputs drive eight LEDs that shine up through holes drilled into "Hack the Planet" graffiti-style artwork on the board. An onboard trimmer potentiometer sweeps the clock speed from a slow, heartbeat-like pulse to a fast strobe. There is no microcontroller and no firmware.

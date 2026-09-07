@@ -58,9 +58,9 @@ links:
   kind: social
 images:
 - file: assets/images/badges/dc33/eff-nsa-eagle-all-your-data-badge/2e8a625ae4.jpg
-  source: "https://www.eventbrite.com/e/eff-nsa-eagle-all-your-data-badge-tickets-1345592616739"
-  credit: "H4r0ld & V3rbaal's House Of Hacker Horrors"
-  caption: "The EFF NSA Eagle badge, as promoted on the event's Eventbrite listing"
+  source: https://www.eventbrite.com/e/eff-nsa-eagle-all-your-data-badge-tickets-1345592616739
+  credit: H4r0ld & V3rbaal's House Of Hacker Horrors
+  caption: The EFF NSA Eagle badge, as promoted on the event's Eventbrite listing
 contact: {}
 notes:
 - Proceeds go to the Electronic Frontier Foundation (EFF)
@@ -79,19 +79,10 @@ research:
   status: researched
   confidence: medium
   last_checked: '2026-09-06'
-  notes: >-
-    Eventbrite's own listing confirms the badge's identity, event, and that it benefits
-    the EFF, and its photo shows the badge is a gold-PCB eagle shape with blue/white
-    silkscreen, red LED eyes, and a striped shield reading "ALL YOUR DATA". No maker
-    site, Hackaday.io project, GitHub repo, or press coverage was found (web search
-    tooling was blocked/exhausted mid-task; a maker page or repo may still exist).
-    MCU, LED part number, power source, and quantity made are not stated anywhere
-    found. The x.com/JonSelman link in the sheet could not be verified (fetch
-    returned HTTP 402). The same maker reran this badge at DEF CON 34 as
-    "EFF \"All Your Data\" BadgeLife (DEF CON 33 Rerun)" (see
-    dc34-eff-all-your-data-badgelife-def-con-33-rerun in this archive) — not a
-    duplicate of this entry, but the same design sold again the following year.
+  notes: Eventbrite's own listing confirms the badge's identity, event, and that it benefits the EFF, and its photo shows the badge is a gold-PCB eagle shape with blue/white silkscreen, red LED eyes, and a striped shield reading "ALL YOUR DATA". No maker site, Hackaday.io project, GitHub repo, or press coverage was found (web search tooling was blocked/exhausted mid-task; a maker page or repo may still exist). MCU, LED part number, power source, and quantity made are not stated anywhere found. The x.com/JonSelman link in the sheet could not be verified (fetch returned HTTP 402). The same maker reran this badge at DEF CON 34 as "EFF \"All Your Data\" BadgeLife (DEF CON 33 Rerun)" (see dc34-eff-all-your-data-badgelife-def-con-33-rerun in this archive) — not a duplicate of this entry, but the same design sold again the following year.
 last_modified_date: '2026-09-06'
+related:
+- dc34-eff-all-your-data-badgelife-def-con-33-rerun
 ---
 
 The "All Your Data" badge is a PCB badge shaped after the Electronic Frontier

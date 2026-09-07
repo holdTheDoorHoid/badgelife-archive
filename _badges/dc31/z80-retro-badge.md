@@ -63,7 +63,7 @@ sources:
   note: Confirmed the shortlink redirects to the maker's Shopify product page for the Z80 Retro Badge; the live product page itself now 404s.
 - kind: url
   url: http://web.archive.org/web/20240320191431/https://shop.uberfoo.net/
-  title: "Uberfoo Heavy Industries — Shopify storefront (archived)"
+  title: Uberfoo Heavy Industries — Shopify storefront (archived)
   accessed: '2026-09-06'
   note: Archived homepage lists "Z80 Retro Badge" at $130.00 marked "Sold out"; product image filename was flyer-1080.png but the image itself was never crawled by the Wayback Machine so it could not be saved.
 - kind: url
@@ -75,8 +75,10 @@ research:
   status: researched
   confidence: low
   last_checked: '2026-09-06'
-  notes: 'Confirmed the badge existed as a $130 product on Uberfoo''s own Shopify store (sold out per a March 2024 archive snapshot); the live store now returns "This store is unavailable" and no cached copy of the product page or its photo survived in the Wayback Machine, so type of look, MCU, LEDs, display, and design files could not be verified from any source and are left blank rather than guessed. A same-titled "Z80 Retro Badge" from the same maker also exists for DC30 (2022) at a different price ($140) and sold at a physical booth rather than online, suggesting this may be a yearly rerelease rather than the identical item; flagged as a possible duplicate below.'
+  notes: Confirmed the badge existed as a $130 product on Uberfoo's own Shopify store (sold out per a March 2024 archive snapshot); the live store now returns "This store is unavailable" and no cached copy of the product page or its photo survived in the Wayback Machine, so type of look, MCU, LEDs, display, and design files could not be verified from any source and are left blank rather than guessed. A same-titled "Z80 Retro Badge" from the same maker also exists for DC30 (2022) at a different price ($140) and sold at a physical booth rather than online, suggesting this may be a yearly rerelease rather than the identical item; flagged as a possible duplicate below.
 last_modified_date: '2026-09-06'
+related:
+- dc30-z80-retro-badge
 ---
 
 Uberfoo Heavy Industries — the Shopify storefront and GitHub handle of hardware hacker uberFoo (Keith Star) — sold a Z80 Retro Badge for $130 through their own online shop (shop.uberfoo.net) around DEF CON 31 (2023). The badge's shortlink from the community sheet (t.co/mCz5WVFIDH) redirects to that store's product page, confirming the maker and the price, though the live product listing has since gone offline (the store itself currently returns "This store is unavailable").

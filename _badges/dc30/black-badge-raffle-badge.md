@@ -13,7 +13,7 @@ makers:
 - name: Black Badge Raffle
   url: https://twitter.com/DefconRaffle
 summary: A DEF CON 30 (2022) item from the long-running, unofficial "Black Badge Raffle" — a community raffle for a shot at a previous year's DEF CON black badge — sold alongside a $5 SAO add-on, with drop times posted on the raffle's Twitter/X account.
-functions: 'No stated interactive functions; serves as a raffle-tied keepsake/ticket item, with a companion $5 SAO sold separately.'
+functions: No stated interactive functions; serves as a raffle-tied keepsake/ticket item, with a companion $5 SAO sold separately.
 look:
   colors: []
   shape: null
@@ -34,7 +34,7 @@ get_one:
   distribution:
   - raffle
   - purchase
-  where: "Announced via the Black Badge Raffle's Twitter/X account (@DefconRaffle), which posted drop times. 80 were stated to be available; a separate $5 SAO was also offered."
+  where: Announced via the Black Badge Raffle's Twitter/X account (@DefconRaffle), which posted drop times. 80 were stated to be available; a separate $5 SAO was also offered.
 make_your_own:
   open_source: null
   hardware_url: null
@@ -58,25 +58,11 @@ research:
   status: researched
   confidence: low
   last_checked: '2026-09-06'
-  notes: >-
-    Could not independently verify beyond the sheet import. The @DefconRaffle
-    Twitter/X account is now unreachable to automated fetch (x.com returns
-    HTTP 402 to our tooling), and the closest Wayback Machine snapshot
-    (2022-08-10) rendered as an empty React shell with no tweet text captured,
-    so drop dates, exact badge design, and confirmed price for the main badge
-    item (as opposed to the $5 SAO) could not be confirmed independently.
-    Web search and several search-engine fallbacks (Bing, DuckDuckGo,
-    Marginalia) returned no usable results, and the Internet Archive's own
-    services were intermittently offline during research. The `series` field
-    and the maker's Twitter/X handle capitalization are carried over from
-    this archive's own dc31 entry (dc31-sao-boards-will-be-available), which
-    was independently researched and documents that leftover DC30 Black
-    Badge Raffle badges were resold at DEF CON 31 for $100 — indirect
-    confirmation that this DC30 item existed and sold out. No corroborating
-    external source was found for the exact quantity, price, or design of
-    the DC30 badge itself, so those fields are left as originally listed
-    (quantity 80 from the sheet, price left TBD) rather than guessed.
+  notes: Could not independently verify beyond the sheet import. The @DefconRaffle Twitter/X account is now unreachable to automated fetch (x.com returns HTTP 402 to our tooling), and the closest Wayback Machine snapshot (2022-08-10) rendered as an empty React shell with no tweet text captured, so drop dates, exact badge design, and confirmed price for the main badge item (as opposed to the $5 SAO) could not be confirmed independently. Web search and several search-engine fallbacks (Bing, DuckDuckGo, Marginalia) returned no usable results, and the Internet Archive's own services were intermittently offline during research. The `series` field and the maker's Twitter/X handle capitalization are carried over from this archive's own dc31 entry (dc31-sao-boards-will-be-available), which was independently researched and documents that leftover DC30 Black Badge Raffle badges were resold at DEF CON 31 for $100 — indirect confirmation that this DC30 item existed and sold out. No corroborating external
+    source was found for the exact quantity, price, or design of the DC30 badge itself, so those fields are left as originally listed (quantity 80 from the sheet, price left TBD) rather than guessed.
 last_modified_date: '2026-09-06'
+related:
+- dc31-sao-boards-will-be-available
 ---
 
 The Black Badge Raffle is a long-running, unofficial DEF CON tradition: a community-run raffle giving entrants a shot at a previous year's official DEF CON black badge (itself a free-entry-for-life pass to the con). For DEF CON 30 (2022), the raffle's Twitter/X account, @DefconRaffle, announced this badge/ticket item alongside a separate $5 SAO, with drop times to be posted on the account itself.

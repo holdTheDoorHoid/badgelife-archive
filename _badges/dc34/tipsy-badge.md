@@ -12,7 +12,7 @@ makers:
 - name: seeess + gigs
   url: https://github.com/seeess
 summary: 'A bottle-shaped electronic badge that uses galvanic vestibular stimulation: conductive pads held behind the wearer''s ears by a headband carry a few milliamps that shift the sense of balance left or right, or make the wearer wobble. This appears to be the same Tipsy Badge sold at the Hacker Warehouse booth for DEF CON 33 (2025), re-listed on the community sheet for DEF CON 34.'
-functions: 'Steering mode pushes the wearer''s balance left or right; wobble mode rocks it back and forth quickly; a Stroop-effect color game zaps you on right or wrong answers; bling mode shows pictures, with custom 128x160 .tga images loadable over USB mass storage. Zapping only happens while the in-line ZAP button is held; ~5 mA hardware current limit with 2, 3 and 4 mA software targets.'
+functions: Steering mode pushes the wearer's balance left or right; wobble mode rocks it back and forth quickly; a Stroop-effect color game zaps you on right or wrong answers; bling mode shows pictures, with custom 128x160 .tga images loadable over USB mass storage. Zapping only happens while the in-line ZAP button is held; ~5 mA hardware current limit with 2, 3 and 4 mA software targets.
 look:
   colors:
   - black
@@ -28,7 +28,7 @@ tech:
     count: 12
     type: charlieplexed
     note: 12 orange charlieplexed LEDs per the firmware source, rear-mounted; plus red and green status LEDs. (Confirmed on the DC33 build of this badge; not reverified separately for a DC34 release.)
-  display: '1.77" 160x128 RGB565 color TFT'
+  display: 1.77" 160x128 RGB565 color TFT
   connectivity:
   - usb
   inputs:
@@ -42,7 +42,7 @@ get_one:
   price_usd: 100.0
   quantity: ''
   availability: unknown
-  availability_note: 'hackerwarehouse.com/product/tipsy-badge/ (checked 2026-09-06) shows the badge marked down from $100 to $75 and Out of stock, but that listing is not dated to a specific DEF CON year.'
+  availability_note: hackerwarehouse.com/product/tipsy-badge/ (checked 2026-09-06) shows the badge marked down from $100 to $75 and Out of stock, but that listing is not dated to a specific DEF CON year.
   distribution:
   - purchase
   where: Sold at the Hacker Warehouse booth in the vendor area; also listed on hackerwarehouse.com.
@@ -99,9 +99,9 @@ sources:
   note: Repo name and README describe this as the DEF CON 33 badge; supports MCU, display, memory, connectivity, modes, and license (CC BY-NC 4.0). Same repo already cited on the dc33-tipsy-badge entry.
 - kind: url
   url: https://x.com/see_ess/status/1953718808105169371
-  title: seeess on X, 8 Aug 2025, tagged #defcon33
+  title: seeess on X, 8 Aug 2025, tagged
   accessed: '2026-09-06'
-  note: Sale announcement explicitly tagged #defcon33, supporting that this is the DC33 badge rather than a separate DC34 release.
+  note: Sale announcement explicitly tagged
 - kind: url
   url: https://forum.defcon.org/node/253193
   title: Tipsy Electronic Badge - DEF CON Forums
@@ -113,6 +113,8 @@ research:
   last_checked: '2026-09-06'
   notes: 'Could not confirm this is a distinct DEF CON 34 item, only a re-listing of the DEF CON 33 Tipsy Badge (see dc33-tipsy-badge, status: verified). No DC34-dated source (sale post, storefront date, new repo, or press) was found in searches; the repo name, the maker''s #defcon33-tagged sale tweet, and the September 2025 photo timestamps on the Hacker Warehouse listing all point to DC33. Left get_one fields largely matching the original sheet wording rather than asserting a DC34-specific price/availability. Did not fetch new images for this entry: the same product/README photos are already archived under dc33-tipsy-badge, and Hacker Warehouse blocked direct fetching via curl (Cloudflare) with no distinct DC34 photo found to justify separate saves. Recommend the archive maintainer verify with the maker whether the badge returned for DC34 or merge/redirect this entry into dc33-tipsy-badge.'
 last_modified_date: '2026-09-06'
+related:
+- dc33-tipsy-badge
 ---
 
 This entry on the community sheet lists a "Tipsy Badge" by seeess (with gigs) for DEF CON 34, but every source found for it points back to the DEF CON 33 badge already documented at `dc33-tipsy-badge`: the maker's GitHub repo is named `Defcon-Tipsy-33-Badge`, the sale-announcement post on X is tagged `#defcon33`, the DEF CON forum thread and Hacker Warehouse product photos (timestamped September 2025) all date to the DC33 timeframe. No DC34-specific listing, new repo, or fresh sale post was found.

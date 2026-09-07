@@ -63,9 +63,9 @@ links:
   kind: store
 images:
 - file: assets/images/badges/dc33/flipboard-macropad-for-flipper-zero/d995a2083b.jpg
-  source: "https://www.tindie.com/products/32844/"
-  credit: "Make It Hackin"
-  caption: "FlipBoard macropad attached to a Flipper Zero"
+  source: https://www.tindie.com/products/32844/
+  credit: Make It Hackin
+  caption: FlipBoard macropad attached to a Flipper Zero
 contact:
   emails:
   - Andrew@makeithackin.com
@@ -98,6 +98,8 @@ research:
   last_checked: '2026-09-06'
   notes: No MCU/chip model, LED part number, or hardware design-file (KiCad/Gerbers/BOM) source was found published for the FlipBoard PCB itself, so tech.mcu and make_your_own.hardware_url are left empty. Type set to "accessory" since it is an add-on module for the Flipper Zero rather than a standalone badge or SAO. Quantity made is not stated anywhere found.
 last_modified_date: '2026-09-06'
+related:
+- dc32-make-it-hackin-listed-for-def-con-32-no-details
 ---
 
 The FlipBoard is a macropad expansion module built by Make It Hackin that clips onto a Flipper Zero and communicates with it over the Flipper's GPIO header. It adds 16 hot-swappable mechanical keys, each with its own RGB backlight, and pairs with a companion Flipper Zero app suite (FlipKeyboard, FlipBlinky, FlipSignal, and a Simon memory-game tutorial) published on GitHub under GPL-3.0. Through the app, users can assign up to 15 macro actions per key — keystrokes, shortcuts, or text strings — confirmed to work when the Flipper is plugged into a Windows, Mac, or Linux host, and can also drop the board into a standalone "blinky mode" that shows flashing patterns or custom text/bitmaps on the button LEDs.

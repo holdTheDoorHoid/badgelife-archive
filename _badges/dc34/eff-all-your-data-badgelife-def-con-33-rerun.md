@@ -82,6 +82,8 @@ research:
   last_checked: '2026-09-07'
   notes: Fact-check 2026-09-07 re-opened both cited pages. The DC33 Eventbrite listing confirms only the badge name, organizer, date and venue; its text does not show price, EFF proceeds, specs or quantity (the EFF connection for the rerun rests on the DC34 sheet row). The sheet's storefront link redirects to the makers' separate "Electric Fist" DC34 listing, so no page specific to this rerun sale was found. The x.com/JonSelman link was published by the makers on their DC33 sheet row; which of the two makers it belongs to is not stated. Same design as dc33-eff-nsa-eagle-all-your-data-badge (which has a product photo and describes the eagle design); this DC34 rerun is kept as its own entry per the sheet. No specs, quantity, or photos found for the rerun.
 last_modified_date: '2026-09-07'
+related:
+- dc33-eff-nsa-eagle-all-your-data-badge
 ---
 
 H4r0ld & V3rbaal's House Of Hacker Horrors brought back their "All Your Data" badge (listed at DEF CON 33 as the EFF NSA Eagle "All Your Data" Badge) for DEF CON 34, rerunning a design they first sold at DEF CON 33 on August 7, 2025. The community sheet lists the rerun at $70, with proceeds to be donated to the Electronic Frontier Foundation.

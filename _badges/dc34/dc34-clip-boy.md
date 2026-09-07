@@ -33,9 +33,9 @@ tech:
   - bluetooth
   battery: LiPo 2200 mAh
   sao_version: v1.69bis
-tech_inputs:
-- touch
-- capacitive
+  inputs:
+  - touch
+  - capacitive
 get_one:
   price: "$125 (first run); $135 (second-run pre-order)"
   price_usd: 125

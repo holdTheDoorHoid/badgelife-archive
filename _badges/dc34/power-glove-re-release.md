@@ -43,7 +43,7 @@ get_one:
   - free_drop
   where: Free drops announced via NilbinSec's social media (@NilbinSec) and in person at the Badgelife Village at DEF CON 34.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/NilbinSec/DC32-Power-Glove-SAO
   firmware_url: null
   gerbers_url: https://github.com/NilbinSec/DC32-Power-Glove-SAO/tree/main/gerbers
@@ -59,13 +59,13 @@ links:
   kind: social
 images:
 - file: assets/images/badges/dc34/power-glove-re-release/0848dc141a.jpg
-  source: "https://github.com/NilbinSec/DC32-Power-Glove-SAO"
-  credit: "NilbinSec"
-  caption: "Assembled Power Glove SAO"
+  source: https://github.com/NilbinSec/DC32-Power-Glove-SAO
+  credit: NilbinSec
+  caption: Assembled Power Glove SAO
 - file: assets/images/badges/dc34/power-glove-re-release/a957c1f4cb.jpg
-  source: "https://github.com/NilbinSec/DC32-Power-Glove-SAO"
-  credit: "NilbinSec"
-  caption: "Power Glove SAO PCB, assembled"
+  source: https://github.com/NilbinSec/DC32-Power-Glove-SAO
+  credit: NilbinSec
+  caption: Power Glove SAO PCB, assembled
 contact:
   discord: '@nferno2'
   emails:
@@ -90,7 +90,7 @@ sources:
   note: Confirms this is a re-release of the DC32 Power Glove SAO; source of BOM, PCB fab notes (grey soldermask/black silkscreen), LED count/type, 6-pin shrouded SAO header, and gerbers/photos.
 - kind: url
   url: https://forum.defcon.org/node/253031
-  title: 'Introducing Hack ''Em Crack ''Em Robots! - DEF CON Forums'
+  title: Introducing Hack 'Em Crack 'Em Robots! - DEF CON Forums
   accessed: '2026-09-06'
   note: NilbinSec's own DC34 announcement (badge + SAO plans, ~800 SAOs planned, drops announced over social media); does not name the Power Glove reprint specifically but corroborates the free social-media-drop distribution model.
 research:
@@ -99,6 +99,8 @@ research:
   last_checked: '2026-09-06'
   notes: No dedicated DC34 page or storefront listing for this specific reprint was found; all technical detail comes from the original DC32-Power-Glove-SAO GitHub repo, which the sheet listing's "Re-release" title matches. No MCU, no firmware, no functions/game tie-in confirmed for the DC34 batch specifically -- treated as identical hardware to DC32. eda_tool and license are not stated in the repo (only gerbers + a README are published, no schematic source).
 last_modified_date: '2026-09-06'
+related:
+- dc32-power-glove
 ---
 
 NilbinSec's Power Glove SAO is a small, passive add-on shaped after the Nintendo Power Glove, first produced for DEF CON 32 and reprinted for a free giveaway at DEF CON 34. The board carries no microcontroller: three SMD RGB LEDs (slow/fast-flashing) and a single 5mm red LED provide the blinky effect, powered entirely through the host badge's 6-pin SAO connector. NilbinSec fabricated the original run on a grey soldermask with black silkscreen (HASL finish) and published the BOM and Gerbers on GitHub.

@@ -11,7 +11,7 @@ year: 2025
 makers:
 - name: coryallegory
   url: https://www.tindie.com/stores/coryallegory/
-summary: A #badgelife SAO depicting a confident "coder dog" (a riff on the "I don't know what I'm doing" science-dog meme) working at a keyboard lit by cycling multicolor LEDs.
+summary: A
 functions: 4 multicolor LEDs cycle randomly, illuminating a keyboard graphic on the board
 look:
   colors: []
@@ -35,7 +35,7 @@ get_one:
   price_usd: 15.0
   quantity: ''
   availability: sold_out
-  availability_note: 'Listed out of stock on Tindie since 2025-09-13; checked 2026-09-06. Maker is taking pre-orders for DEF CON 34 (August 2026) pickup.'
+  availability_note: Listed out of stock on Tindie since 2025-09-13; checked 2026-09-06. Maker is taking pre-orders for DEF CON 34 (August 2026) pickup.
   distribution:
   - purchase
   - preorder
@@ -45,7 +45,7 @@ make_your_own:
   hardware_url: https://github.com/coryallegory/vibecoder
   firmware_url: null
   eda_tool: null
-  notes: 'Repo holds design assets including a 3D-printable cover STL (vibecoderdog-cover.stl); no schematic/firmware source seen.'
+  notes: Repo holds design assets including a 3D-printable cover STL (vibecoderdog-cover.stl); no schematic/firmware source seen.
 links:
 - label: github.com/coryallegory/vibecoder
   url: https://github.com/coryallegory/vibecoder
@@ -58,9 +58,9 @@ links:
   note: Confirms price ($15), out-of-stock status, LED count/behavior, and DEF CON 34 pre-order note.
 images:
 - file: assets/images/badges/dc33/vibe-coder-sao/5099fde60f.jpg
-  source: "https://www.tindie.com/products/coryallegory/vibe-coder-sao-badgelife-addon/"
-  credit: "coryallegory"
-  caption: "Vibe Coder SAO product photo showing the coder-dog artwork and keyboard LEDs"
+  source: https://www.tindie.com/products/coryallegory/vibe-coder-sao-badgelife-addon/
+  credit: coryallegory
+  caption: Vibe Coder SAO product photo showing the coder-dog artwork and keyboard LEDs
 contact:
   emails:
   - corymetcalfe@gmail.com
@@ -76,8 +76,10 @@ research:
   status: researched
   confidence: medium
   last_checked: '2026-09-06'
-  notes: 'MCU and exact LED part number are not published by the maker anywhere found; left null rather than guessed. This was the maker''s first PCB design/manufacturing project, per their own GitHub README.'
+  notes: MCU and exact LED part number are not published by the maker anywhere found; left null rather than guessed. This was the maker's first PCB design/manufacturing project, per their own GitHub README.
 last_modified_date: '2026-09-06'
+related:
+- dc34-viber-coder-dog-sao
 ---
 
 The Vibe Coder SAO is a #badgelife add-on that coryallegory made for DEF CON 33, their first PCB design and manufacturing project. It riffs on the "I don't know what I'm doing" science-dog meme, reimagining the dog as a confident coder hammering away at a keyboard. Four multicolor LEDs cycle randomly to light up the keyboard artwork on the board, and it connects through a standard 2x3 SAO header.

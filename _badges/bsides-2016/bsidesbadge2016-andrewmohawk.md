@@ -39,6 +39,7 @@ links:
 - label: github.com/AndrewMohawk/BSidesBadge2016
   url: https://github.com/AndrewMohawk/BSidesBadge2016
   kind: repo
+  archived: https://web.archive.org/web/20260907104447/https://github.com/AndrewMohawk/BSidesBadge2016
 images: []
 contact: {}
 notes: []
@@ -49,6 +50,7 @@ sources:
   title: BSidesBadge2016 (AndrewMohawk)
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: github-topics); event read as ''BSides 2016''.'
+  archived: https://web.archive.org/web/20260907104447/https://github.com/AndrewMohawk/BSidesBadge2016
 research:
   status: stub
   confidence: low

@@ -59,22 +59,12 @@ research:
   status: researched
   confidence: low
   last_checked: '2026-09-07'
-  notes: >-
-    Could not confirm any technical details (chip, LEDs, colors, quantity, distribution)
-    beyond what the community sheet already recorded (title, makers, $70 price). The only
-    linked source (an Eventbrite listing reached via a t.co shortlink) has expired and
-    redirects to the Eventbrite homepage with no cached copy found. Web search was
-    unavailable for this task (session search budget exhausted), and no other page
-    referencing "Privacy Badger" alongside H4r0ld/Verbaal or House of Hacker Horrors
-    turned up in the sources that could be checked (including the Lonely Hackers Club
-    site, which the sheet note ties these makers to). The sheet's note that H4r0ld and
-    Verbaal are also known from Blue Team Village and the Lonely Hackers Club is kept
-    verbatim in `notes` below since it could not be independently verified either way.
-    A separate archive entry, dc34-eff-privacy-badger-badgelife-def-con-32-rerun, records
-    the same makers rerunning an "EFF Privacy Badger" BadgeLife at a later con; it is not
-    treated as a duplicate of this DC31 entry since it is its own listed rerun event, but
-    the two are likely the same badge design and worth cross-referencing.
+  notes: Could not confirm any technical details (chip, LEDs, colors, quantity, distribution) beyond what the community sheet already recorded (title, makers, $70 price). The only linked source (an Eventbrite listing reached via a t.co shortlink) has expired and redirects to the Eventbrite homepage with no cached copy found. Web search was unavailable for this task (session search budget exhausted), and no other page referencing "Privacy Badger" alongside H4r0ld/Verbaal or House of Hacker Horrors turned up in the sources that could be checked (including the Lonely Hackers Club site, which the sheet note ties these makers to). The sheet's note that H4r0ld and Verbaal are also known from Blue Team Village and the Lonely Hackers Club is kept verbatim in `notes` below since it could not be independently verified either way. A separate archive entry, dc34-eff-privacy-badger-badgelife-def-con-32-rerun, records the same makers rerunning an "EFF Privacy Badger" BadgeLife at a later con; it is not
+    treated as a duplicate of this DC31 entry since it is its own listed rerun event, but the two are likely the same badge design and worth cross-referencing.
 last_modified_date: '2026-09-07'
+related:
+- dc34-eff-privacy-badger-badgelife-def-con-32-rerun
+- dc32-verbaal-and-h4r0ld-house-of-hacker-horrors-listed-for-def-co
 ---
 
 The Privacy Badger badge was made by H4r0ld and Verbaal, the pair behind House of Hacker Horrors, for DEF CON 31 (2023). It was sold separately from their regular Blue Team Village / Lonely Hackers Club presence, priced at $70, through an Eventbrite listing linked from a tweet at the time.

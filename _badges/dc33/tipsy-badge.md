@@ -28,7 +28,7 @@ tech:
     count: 12
     type: charlieplexed
     note: 12 orange charlieplexed LEDs driven from four pins per the firmware (tipsy/led.cpp), rear-mounted per the maker's forum post; plus red and green status LEDs.
-  display: '1.77" 160x128 RGB565 color TFT'
+  display: 1.77" 160x128 RGB565 color TFT
   connectivity:
   - usb
   inputs:
@@ -38,11 +38,11 @@ tech:
   sao_version: v1.69bis
   sao_ports: 1
 get_one:
-  price: '$100'
+  price: $100
   price_usd: 100.0
   quantity: ''
   availability: sold_out
-  availability_note: 'hackerwarehouse.com listing (read 2026-09-06) shows the badge marked down from $100 to $75 and Out of stock; SKU SS-TB.'
+  availability_note: hackerwarehouse.com listing (read 2026-09-06) shows the badge marked down from $100 to $75 and Out of stock; SKU SS-TB.
   distribution:
   - purchase
   where: In person at the Hacker Warehouse booth in the DEF CON 33 vendor area (the maker posted on X on 8 Aug 2025 that it was going on sale the next day); later listed on hackerwarehouse.com.
@@ -99,7 +99,7 @@ contact:
   - seeess@riseup.net
 notes:
 - Will be sold at the hacker warehouse vendor booth
-- 'The community sheet listed the maker as "seeess + <redacted> / seeess + g"; the second person is not named in any public source read. The README speaks of "we" and "the creators".'
+- The community sheet listed the maker as "seeess + <redacted> / seeess + g"; the second person is not named in any public source read. The README speaks of "we" and "the creators".
 - The PCB silkscreen reads "Volt 4.5" and the repo is described as "Defcon Tipsy Badge / Volt 4.5 ma"; the maker calls it the Tipsy Badge / Tipsy Electronic Badge.
 status: released
 sources:
@@ -121,7 +121,7 @@ sources:
   url: https://forum.defcon.org/node/253193
   title: Tipsy Electronic Badge - DEF CON Forums
   accessed: '2026-09-06'
-  note: Maker's post of 23 July 2025 (user seeess) in #Badge Life / Buying and Selling; $100 price, Hacker Warehouse booth, rear-mounted LEDs, Arduino compatible, open source, code to be released during DEF CON, half of profits to Tor. No replies.
+  note: Maker's post of 23 July 2025 (user seeess) in
 - kind: url
   url: https://hackerwarehouse.com/product/tipsy-badge/
   title: Tipsy Badge - Hacker Warehouse
@@ -146,13 +146,15 @@ sources:
   url: https://www.youtube.com/watch?v=lD6AmXMeXt0
   title: Electronic Tipsy Badge at DEF CON (YouTube, DeviantOllam)
   accessed: '2026-09-06'
-  note: 'Third-party video published 2025-08-20; its description calls it a DEF CON 33 video about a friend''s badge and relays the maker''s note that badges were still available and would be on hackerwarehouse.com within a week. Title, date and description read from the watch page; video not watched.'
+  note: Third-party video published 2025-08-20; its description calls it a DEF CON 33 video about a friend's badge and relays the maker's note that badges were still available and would be on hackerwarehouse.com within a week. Title, date and description read from the watch page; video not watched.
 research:
   status: verified
   confidence: high
   last_checked: '2026-09-06'
   notes: 'Core facts confirmed from the maker''s own README, forum post and X posts. Fact-check 2026-09-06: every cited source re-opened; the sheet row confirmed the contact email and maker wording; the three images match the README and Hacker Warehouse photos. Corrected from the firmware: 12 orange charlieplexed LEDs (led.cpp), and USB detection shows an overridable warning rather than blocking zapping (tipsy.ino). Not found: number made, the second collaborator''s name (redacted on the sheet), and any schematic/PCB files (the repo has firmware and STLs only, so open_source is partial even though the maker describes it as open source). Price is $100 from the maker; Hacker Warehouse later showed it marked down to $75 and out of stock. Videos were identified by title, date and description only, not watched. No Hackaday.io, Tindie, PCBWay/OSH Park or press coverage turned up in searches.'
 last_modified_date: '2026-09-06'
+related:
+- dc34-tipsy-badge
 ---
 
 The Tipsy Badge is seeess's DEF CON 33 badge; the same GitHub account also holds Tor badge and SAO repos for DEF CON 27 through 32. It is shaped like a bottle, with a striped cap at the neck and "Volt 4.5" in large script down the front, and the name is the joke: it throws off your balance. A headband holds two conductive pads behind your ears, a 3.5 mm lead plugs into the neck of the bottle, and while you hold the yellow ZAP!! button the badge drives a small current (a hardware limit of about 5 mA, with 2, 3 and 4 mA software targets) across your vestibular system. Steering mode pushes your balance left or right so you can "drive" yourself around; wobble mode rocks you back and forth. There is also a Stroop-effect color game that zaps you on right or wrong answers so you can find out whether reward or punishment improves your score.

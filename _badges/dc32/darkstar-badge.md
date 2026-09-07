@@ -55,16 +55,10 @@ research:
   status: verified
   confidence: low
   last_checked: '2026-09-07'
-  notes: >-
-    Verified 2026-09-07 against the DC32 sheet row (data/sheets/dc32.csv line 109): maker Otter,
-    title Darkstar Badge, contact x.com/security_otter, "Available at DEFCON through raffle
-    and/or contests", note "Pay attention to twitter feed for info", updated 2024-08-04. Price,
-    functions and quantity columns are empty on the sheet. Nothing beyond the sheet could be
-    confirmed: x.com/security_otter is not fetchable without a browser session (HTTP 402 to
-    WebFetch, syndication endpoint empty, Nitter offline); no GitHub user or repo, Hackaday.io
-    profile, storefront, or press coverage for a DEF CON "Darkstar" badge or "security_otter"
-    was found. Distribution tags (raffle, contest) were derived from the sheet's own wording.
+  notes: 'Verified 2026-09-07 against the DC32 sheet row (data/sheets/dc32.csv line 109): maker Otter, title Darkstar Badge, contact x.com/security_otter, "Available at DEFCON through raffle and/or contests", note "Pay attention to twitter feed for info", updated 2024-08-04. Price, functions and quantity columns are empty on the sheet. Nothing beyond the sheet could be confirmed: x.com/security_otter is not fetchable without a browser session (HTTP 402 to WebFetch, syndication endpoint empty, Nitter offline); no GitHub user or repo, Hackaday.io profile, storefront, or press coverage for a DEF CON "Darkstar" badge or "security_otter" was found. Distribution tags (raffle, contest) were derived from the sheet''s own wording.'
 last_modified_date: '2026-09-07'
+related:
+- dc33-otter-listed-for-def-con-33-no-details
 ---
 
 Darkstar Badge is listed on the DC32 (2024) community badge sheet, made by a hacker

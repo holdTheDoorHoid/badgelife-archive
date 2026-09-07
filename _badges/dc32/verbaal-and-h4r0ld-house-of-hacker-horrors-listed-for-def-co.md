@@ -55,7 +55,7 @@ contact:
   - '@h4r0ld'
   - '@v3rbaal'
 notes:
-- 'Original sheet title carried no details beyond the maker name ("listed for DEF CON 32, no details"); retitled based on cross-referencing this archive''s other entries for the same maker (see research.notes).'
+- Original sheet title carried no details beyond the maker name ("listed for DEF CON 32, no details"); retitled based on cross-referencing this archive's other entries for the same maker (see research.notes).
 status: listed
 sources:
 - kind: sheet
@@ -66,38 +66,11 @@ research:
   status: researched
   confidence: low
   last_checked: '2026-09-07'
-  notes: >-
-    General web search was unavailable this session (WebSearch quota
-    exhausted; DuckDuckGo, Bing, Reddit, and Hackaday.io all returned
-    bot-detection blocks or login walls to direct fetches), so no
-    independent primary source (Eventbrite listing, maker page, press)
-    for the DC32 item itself could be read this pass. Identification
-    instead rests on cross-referencing sibling entries already in this
-    archive for the same maker pair, "Verbaal and H4r0ld" / "H4r0ld &
-    V3rbaal's House Of Hacker Horrors": the dc34-eff-electric-fist-badgelife-def-con-34
-    entry (researched from the actual DC34 Eventbrite listing photo)
-    explicitly describes that photo as showing the new DC34 EFF-logo
-    design next to "limited reruns of a DC33 eagle design and a DC32
-    design (a badger)". The maker's badger-shaped design is elsewhere
-    named "Privacy Badger" (dc31-eff-privacy-badger-badge, and the
-    dc34-eff-privacy-badger-badgelife-def-con-32-rerun entry, whose id
-    still carries the sheet's original "DEF CON 32 Rerun" wording even
-    though a prior research pass retitled that entry's *content* to DC31
-    on the assumption the sheet meant the 2023 badge). This DC32 entry
-    may therefore be either the true origin of the "Privacy Badger"
-    design (contradicting the DC31 attribution) or a straight resale of
-    the same 2023 design under a DC32 sheet listing — the two existing
-    entries disagree on which year it started, and I could not resolve
-    that independently. Filled in title, type, shape, colors, themes,
-    price, and distribution by analogy to those sibling entries (same
-    maker, same "$70 to EFF" pattern across all four known years); flag
-    as duplicate_of dc31-eff-privacy-badger-badge given the shared
-    "Privacy Badger" identity. MCU, LEDs, display, quantity, exact
-    availability, and a DC32-specific storefront link remain unfound and
-    are left empty. This should be re-checked with a working search tool
-    to find the actual DC32 Eventbrite listing and settle the
-    2023-vs-2024 origin question.
+  notes: 'General web search was unavailable this session (WebSearch quota exhausted; DuckDuckGo, Bing, Reddit, and Hackaday.io all returned bot-detection blocks or login walls to direct fetches), so no independent primary source (Eventbrite listing, maker page, press) for the DC32 item itself could be read this pass. Identification instead rests on cross-referencing sibling entries already in this archive for the same maker pair, "Verbaal and H4r0ld" / "H4r0ld & V3rbaal''s House Of Hacker Horrors": the dc34-eff-electric-fist-badgelife-def-con-34 entry (researched from the actual DC34 Eventbrite listing photo) explicitly describes that photo as showing the new DC34 EFF-logo design next to "limited reruns of a DC33 eagle design and a DC32 design (a badger)". The maker''s badger-shaped design is elsewhere named "Privacy Badger" (dc31-eff-privacy-badger-badge, and the dc34-eff-privacy-badger-badgelife-def-con-32-rerun entry, whose id still carries the sheet''s original "DEF CON 32 Rerun" wording
+    even though a prior research pass retitled that entry''s *content* to DC31 on the assumption the sheet meant the 2023 badge). This DC32 entry may therefore be either the true origin of the "Privacy Badger" design (contradicting the DC31 attribution) or a straight resale of the same 2023 design under a DC32 sheet listing — the two existing entries disagree on which year it started, and I could not resolve that independently. Filled in title, type, shape, colors, themes, price, and distribution by analogy to those sibling entries (same maker, same "$70 to EFF" pattern across all four known years); flag as duplicate_of dc31-eff-privacy-badger-badge given the shared "Privacy Badger" identity. MCU, LEDs, display, quantity, exact availability, and a DC32-specific storefront link remain unfound and are left empty. This should be re-checked with a working search tool to find the actual DC32 Eventbrite listing and settle the 2023-vs-2024 origin question.'
 last_modified_date: '2026-09-07'
+related:
+- dc31-eff-privacy-badger-badge
 ---
 
 Listed on the DEF CON 32 (2024) community badge sheet under the maker name

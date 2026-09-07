@@ -125,6 +125,17 @@ layout: default
 
   </div>
 
+  {%- if page.related and page.related.size > 0 %}
+  <section class="badge-panel badge-related">
+    <h2 id="related">Related entries</h2>
+    <ul>
+      {%- for rid in page.related %}{% assign r = site.badges | where: "id", rid | first %}
+      {%- if r %}<li><a href="{{ r.url | relative_url }}">{{ r.title }}</a> <span class="n">{{ site.data.events[r.event].short | default: r.event }}</span></li>{% endif %}
+      {%- endfor %}
+    </ul>
+  </section>
+  {%- endif %}
+
   {%- if page.links and page.links.size > 0 %}
   <section class="badge-panel badge-links">
     <h2 id="links">Links</h2>
