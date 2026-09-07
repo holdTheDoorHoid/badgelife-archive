@@ -83,10 +83,10 @@ sources:
   accessed: '2026-09-07'
   note: "Confirms the repo holds documentation, schematics and libraries for the badge, with firmware in a linked TiLDA-source submodule; supports open_source: yes."
 research:
-  status: researched
+  status: verified
   confidence: high
   last_checked: '2026-09-07'
-  notes: Quantity made and an exact retail/BOM price were not stated anywhere found; badge was given free to attendees, so price/price_usd are left as free/null rather than guessed. No maker photo of the assembled/finished badge (only the pre-manufacture PCB layout image) was found as of this check.
+  notes: Fact-check pass confirmed all populated fields and body sentences against the cited EMF Camp blog post, the emfcamp/TiLDA GitHub repo, and the Wikipedia festival article (designer, MCU, LEDs, connectivity, battery, button, free distribution, sponsor, open-source status, spare I/O pins, and the TiLDA naming lineage carried into later badge generations). Quantity made and an exact retail/BOM price were not stated anywhere found; badge was given free to attendees, so price/price_usd are left as free/null rather than guessed. No maker photo of the assembled/finished badge (only the pre-manufacture PCB layout image) was found as of this check.
 last_modified_date: '2026-09-07'
 ---
 

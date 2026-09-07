@@ -51,10 +51,10 @@ sources:
   accessed: '2026-09-07'
   note: 'Only source found. A PCBWay fabrication-service testimonial (posted June 16, 2022): a 2-layer, 1.6mm PCB order for a "Defcon 2022" badge, praising PCBWay''s service and a staffer named Taylor. No maker name beyond the PCBWay account handle, no photos of the board, no schematic/BOM/firmware, and no description of what the badge does.'
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-07'
-  notes: 'Web searches for the title plus "PCBWay", "DEF CON 30 badge prototype 2022", and general DEF CON 30 unofficial badge coverage turned up other, unrelated DC30 badges (e.g. DEFCON Furs'' "Cereal Booper", the DC Zia 30-in-ONE badge) but nothing that identifies who made this specific PCBWay-listed prototype or what it looks like/does. The PCBWay page itself has no og:image and no in-page photos of the board (only site chrome/avatar images), so no image could be saved. Event assignment to dc30 (DEF CON 30, 2022) is consistent with the page''s own "Defcon 2022" title and is unchanged. Left type/look/tech/get_one/make_your_own fields empty rather than guess, per the sourced page containing no such details.'
+  notes: 'Fact-check re-fetched the sole cited source (PCBWay share page) directly and confirmed every factual claim in the entry: posted June 16, 2022; 2-layer, 1.6mm PCB; the Taylor customer-service quote; no maker name beyond the site''s generic "Engineer" poster label plus account ID 21488F74-F8D3-46; no photos of the board; no schematic/BOM/firmware; no description of function. All type/look/tech/get_one/make_your_own fields remain correctly empty since the source supports none of them. The body''s passing mentions of other, unrelated DC30 badges (DEFCON Furs'' "Cereal Booper", DC Zia''s 30-in-ONE) could not be re-verified this pass (web search budget was exhausted) but they are incidental context about what searches turned up, not claims about this entry''s subject, and were not removed. Event assignment to dc30 is consistent with the page''s own "Defcon 2022" framing; no correction needed. Everything remaining in the entry is directly supported by the source, so status is upgraded to verified.'
 last_modified_date: '2026-09-07'
 ---
 

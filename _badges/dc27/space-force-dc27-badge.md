@@ -18,11 +18,10 @@ look:
   shape: null
   themes:
   - space
-  - sci-fi
 tech:
   mcu: ESP32
   leds: null
-  display: 0.96" OLED
+  display: OLED
   connectivity:
   - ir
   - usb
@@ -74,13 +73,13 @@ sources:
   note: Primary source for description, features (ESP32, OLED, accelerometer, IR, LEDs, USB, battery), price (~$100), sale at DEF CON 27, firmware download links, and project photos.
   archived: https://web.archive.org/web/20251108164206/https://hackaday.io/project/166454-space-force-dc27-badge
 research:
-  status: researched
+  status: verified
   confidence: medium
   last_checked: '2026-09-07'
-  notes: Maker uses the Hackaday.io username "true"; no real name disclosed on the project page. Only firmware archives (source + binaries/updater) are linked on the page, no PCB hardware files or gerbers were found, so make_your_own.open_source is "partial" rather than "yes". Exact quantity produced is unclear; the maker described assembling badges at roughly 7-8 per hour at peak and hand-soldering around 40 units of some component, but no total production count is stated. LED count/type not specified beyond "LEDs (including strobe capability)". No separate storefront, GitHub repo, or press coverage was found beyond the Hackaday.io project page itself; a broader web search was not possible this run (search budget exhausted), so confidence is medium rather than high.
+  notes: Fact-check pass (2026-09-07) against the same Hackaday.io project page found and corrected two issues from the prior draft. (1) tech.display was overstated as '0.96" OLED'; the page confirms an OLED display but never gives a size, so it was changed to just "OLED". (2) look.themes included "sci-fi", which is not supported by the page; removed, leaving only "space". (3) The body's claim that the badge rode "the topical joke of the newly-announced U.S. Space Force" was contradicted by the maker's own project log, which explains the name as an inside joke from the "Whiskey Pirates" DEF CON group at DEF CON 26, where someone yelled "SPACE FORCE" during late-night chatter; the body was corrected to reflect that origin. Everything else in the entry (MCU, IR/USB connectivity, battery/protection circuitry, ~$100 price, sale to DEF CON 27 attendees, partial open-source status, hand-assembly rate and component counts) was checked against the same page and is supported. Maker uses the Hackaday.io username "true"; no real name disclosed on the project page. Only firmware archives (source + binaries/updater) are linked, no PCB hardware files or gerbers were found, so make_your_own.open_source is "partial" rather than "yes". Exact total production quantity is not stated (left blank). LED count/type not specified. No separate storefront, GitHub repo, or press coverage was found beyond the Hackaday.io project page itself; confidence remains medium because only a single source (one page) was available.
 last_modified_date: '2026-09-07'
 ---
 
-The Space Force DC27 Badge is an independent, unofficial electronic badge built by a Hackaday.io user going by "true" for DEF CON 27 in 2019, riding the topical joke of the newly-announced U.S. Space Force. It runs on an ESP32 and packs an OLED display, an accelerometer, IR transmit/receive, and LEDs with a strobe mode, powered by a rechargeable battery with its own protection circuitry, plus USB connectivity and EN/IO0 buttons and a power switch for control.
+The Space Force DC27 Badge is an independent, unofficial electronic badge built by a Hackaday.io user going by "true" for DEF CON 27 in 2019. The name comes from an inside joke: at DEF CON 26, in the "Whiskey Pirates" group's room, someone yelled "SPACE FORCE" during late-night, punch-drunk conversation, and the phrase stuck. It runs on an ESP32 and packs an OLED display, an accelerometer, IR transmit/receive, and LEDs with a strobe mode, powered by a rechargeable battery with its own protection circuitry, plus USB connectivity and EN/IO0 buttons and a power switch for control.
 
 The maker sold the badge directly to DEF CON attendees for around $100 during the con, assembling units by hand at a self-reported rate of about 7-8 per hour during peak production, with roughly 40 units of at least one component hand-soldered. Exact total production numbers were not stated. The maker considered carrying any leftover stock to Supercon later that year. Firmware source and a binary/updater package are available for download from the project page, but no PCB design files or a public repository were found, so it is only partially open source.

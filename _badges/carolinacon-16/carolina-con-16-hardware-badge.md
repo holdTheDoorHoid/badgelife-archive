@@ -55,11 +55,11 @@ images:
   - file: assets/images/badges/carolinacon-16/carolina-con-16-hardware-badge/9382ead222.jpg
     source: "https://hackaday.io/project/169988-carolina-con-16-hardware-badge"
     credit: "Matt Agius"
-    caption: "The CarolinaCon 16 badge showing PCB art with glowing red LED eyes"
+    caption: "The front of the CarolinaCon 16 badge, an octopus-shaped PCB outlining North Carolina (LEDs unlit in this photo)"
   - file: assets/images/badges/carolinacon-16/carolina-con-16-hardware-badge/84847cdcea.jpg
     source: "https://hackaday.io/project/169988-carolina-con-16-hardware-badge"
     credit: "Matt Agius"
-    caption: "The CarolinaCon 16 badge, showing the six solder points for beginner SMD soldering"
+    caption: "The back of the badge, showing the CR2032 battery, power switch, and Matt Agius / Katie Dorn credits"
 contact: {}
 notes: []
 status: listed
@@ -76,10 +76,10 @@ sources:
   accessed: '2026-09-07'
   note: Confirmed gallery images and pulled two photos of the badge itself.
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-07'
-  notes: Hackaday.io project page (established Feb 17, 2020) confirms maker Matt Agius, event CarolinaCon 16, artwork by Katie Dorn, glowing red LED eyes, and only six solder points aimed at teaching beginners SMD soldering. The page itself states the project was "not finished" at time of posting and gives no price, quantity, MCU/LED part numbers, or design-file links, so tech, get_one, and make_your_own fields are left empty rather than guessed. No independent press coverage or maker storefront was found; a web search budget limit was hit before broader searches (e.g. for a CarolinaCon 16 recap post or forum thread) could be run, so this entry may be revisitable later for more detail.
+  notes: Hackaday.io project page (established Feb 17, 2020) confirms maker Matt Agius (verified against his hackaday.io/mtagius profile, which lists this project), event CarolinaCon 16, artwork by Katie Dorn (also visible in the maker's silkscreen credit on the back of the badge), glowing red LED eyes, and only six solder points aimed at teaching beginners SMD soldering. The page itself states the project was "not finished" at time of posting and gives no price, quantity, MCU/LED part numbers, or design-file links, so tech, get_one, and make_your_own fields are left empty rather than guessed. Fact-check pass (2026-09-07) corrected the two image captions - the saved photos show the badge unpowered, so they do not actually depict glowing/red eyes or a countable six solder points, even though the project text describes both; captions were reworded to describe only what the photos show. The gallery page text itself only says "PCB art and glowing eyes," without confirming color, so that page supports the images but not the red-eye detail (the red-eye detail rests on the main project page's text alone). No independent press coverage or maker storefront was found; a web search budget limit was hit before broader searches (e.g. for a CarolinaCon 16 recap post or forum thread) could be run, so this entry may be revisitable later for more detail.
 last_modified_date: '2026-09-07'
 ---
 

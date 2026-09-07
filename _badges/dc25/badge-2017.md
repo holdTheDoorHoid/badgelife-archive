@@ -78,10 +78,10 @@ sources:
   accessed: '2026-09-07'
   note: 'Maker''s own Hackaday.io project page; source for maker identity, theme, hardware specs (BMD-300, LCD, LEDs), functions/games, production quantity (396 + 100 badges), Kickstarter distribution, and the 3D-model files (not gerbers).'
 research:
-  status: researched
+  status: verified
   confidence: high
   last_checked: '2026-09-07'
-  notes: 'Core facts (maker, event/year, theme, hardware specs, functions, quantity, distribution) confirmed directly on the maker''s own Hackaday.io project page. Price and a firmware repo link were not found. SAO support not mentioned by the maker.'
+  notes: 'Every non-empty field and body sentence was checked against the maker''s own Hackaday.io project page (text and project-log quotes) and, for the two saved photos, against the images themselves. Confirmed directly: team size/origin ("5 dudes from California"), DC24-sequel framing, BMD-300/nRF52/Cortex-M4F MCU, 15x WS2812B LEDs, 1.44" 128x128 CFAF128128B LCD at 8MHz SPI (24 FPS per a later project log, vs. an earlier 19 FPS spec note - used the higher, more specific figure), Bluetooth badge-to-badge multiplayer, CHIP-8/SuperCHIP emulator with 64+ ROMs, Ski Free/Flappy Bird clones, TCL-ish scripting, activation-code system, the 30 LED patterns x 94 screen animations = 2,820 bling-mode figure, the 396 + 100 = ~496 badge quantity, Kickstarter distribution, the 3D-model-files-are-not-gerbers quote, and the @ANDnXOR Twitter handle. look.colors (black/white/gold) is supported by the two saved photos (board photo shows black PCB, white silkscreen fill, and gold-tone trace accents) rather than by a maker statement; the project text separately confirms a white badge variant existed. Price and a firmware repo link were not found and are left empty, as is tech.battery (only a regulator/power-draw note was found, no battery spec) and tech.sao_ports (badge has no SAO header). No unsupported claims found; nothing removed.'
 last_modified_date: '2026-09-07'
 ---
 

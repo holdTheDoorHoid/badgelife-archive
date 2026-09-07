@@ -70,10 +70,10 @@ sources:
   note: Maker's profile lists other DEF CON badge/SAO projects (DC27 TV3Y3, DC30 soldering badge, etc.) but does not separately mention Flower Power; confirms maker is a recurring SAO designer for DEF CON.
   archived: https://web.archive.org/web/20260307194059/https://hackaday.io/Awkwardai
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-07'
-  notes: The Flower Power SAO is not documented anywhere beyond the filename and one-line description on the Harbinger project's file list. The main project write-up covers several other named SAOs in the same "Harbinger" DC26 collection (a Gucci Mane-themed flasher, "Shitty Calvin", "Mr Robopoly", "Thereminion", "The Galaxia") but never mentions Flower Power by name, and no page text, image, or log entry ties a photo to this specific design. Could not confirm chip, LEDs, colors beyond an assumed floral theme, price, quantity, or whether it was ever actually fabricated/distributed versus just a shared design file. No image could be confidently identified as depicting this specific SAO (the project's own cover photo is generic to the whole Harbinger collection, not Flower Power specifically), so none was saved.
+  notes: Fact-check pass (2026-09-07) re-fetched all three cited sources and confirmed every claim in the entry - the flowerpower.zip file (316.17 kB, 2019-03-04, "Flower Power shitty add-on") on the files page; the direct hardware_url resolves to a 323,759-byte zip last-modified 2019-03-04, matching; the Harbinger project write-up names Gucci Mane, Shitty Calvin, Mr Robopoly, Thereminion, and The Galaxia but never Flower Power; the maker's profile lists other DEF CON projects but not this one; and the body's claim that Pickle Rick, Bob Ross, and Nick Cage SAO zips were uploaded in the same March 4, 2019 batch was independently confirmed. No unsupported claims found. Confidence stays low because the SAO itself is undocumented beyond a filename - no chip, LEDs, colors, price, quantity, or confirmed fabrication/distribution could be found in any source.
 last_modified_date: '2026-09-07'
 ---
 

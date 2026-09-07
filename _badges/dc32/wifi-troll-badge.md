@@ -60,11 +60,16 @@ links:
   url: https://rot13labs.com
 images:
 - file: assets/images/badges/dc32/wifi-troll-badge/441ffdca00.jpg
-  source: "https://rot13labs.com"
-  credit: "rot13labs"
-  caption: "The Wifi Troll Badge: a white PCB cut into the shape of the \"troll face\" meme, worn on a lanyard printed \"Rot13Labs / Y U mad bro?\""
+  source: https://rot13labs.com
+  credit: rot13labs
+  caption: 'The Wifi Troll Badge: a white PCB cut into the shape of the "troll face" meme, worn on a lanyard printed "Rot13Labs / Y U mad bro?"'
+- file: assets/images/badges/dc32/wifi-troll-badge/441ffdca00.jpg
+  source: https://rot13labs.com/
+  credit: rot13labs
+  caption: The DC32 troll badge, photographed by its maker
 contact: {}
-notes: []
+notes:
+- Duplicate of dc32-wifi-troll-badge, an existing, more fully researched entry for the same badge (same maker, same GitHub repo, same firmware).
 status: released
 sources:
 - kind: sheet
@@ -73,20 +78,22 @@ sources:
   updated: ''
 - kind: url
   url: https://rot13labs.com
-  title: "rot13labs — WE MAKE CHAOS"
+  title: rot13labs — WE MAKE CHAOS
   accessed: '2026-09-06'
   note: Maker's own project page describing the troll badge's function, the 100-unit limited run, and its role in spoofing DEF CON's most common SSIDs; source of the badge photo.
 - kind: url
   url: https://github.com/c0ldbru/trollbadge
   title: c0ldbru/trollbadge
   accessed: '2026-09-06'
-  note: "Published firmware (troublemaker.ino) and README confirming wifi beacon-spoofing behavior, the \"Troll\" button and \"perma-troll\" switch, 9600-baud serial debug/CTF console, and the ESP32 Arduino WiFi/NeoPixel stack used."
+  note: Published firmware (troublemaker.ino) and README confirming wifi beacon-spoofing behavior, the "Troll" button and "perma-troll" switch, 9600-baud serial debug/CTF console, and the ESP32 Arduino WiFi/NeoPixel stack used.
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-06'
-  notes: 'Maker''s own site and published firmware confirm the core story and the 100-unit run. Exact ESP32 variant, LED part number, battery/power arrangement, and hardware design files (schematic/Gerbers) were not found in any source, so those fields are left partial or empty rather than guessed. Price ($70) is carried over from the original community sheet; no independent confirmation of price was found on rot13labs.com.'
-last_modified_date: '2026-09-06'
+  notes: Maker's own site and published firmware confirm the core story and the 100-unit run. Exact ESP32 variant, LED part number, battery/power arrangement, and hardware design files (schematic/Gerbers) were not found in any source, so those fields are left partial or empty rather than guessed. Price ($70) is carried over from the original community sheet; no independent confirmation of price was found on rot13labs.com. Merged with duplicate entry 'trollbadge (DC32 Troll Badge)' (dc32-trollbadge-dc32-troll-badge).
+last_modified_date: '2026-09-07'
+redirect_from:
+- /badges/dc32/trollbadge-dc32-troll-badge/
 ---
 
 The Wifi Troll Badge is a DEF CON 32 (2024) badge from C0ldbru of Rot13 labs, cut into the shape of the "troll face" meme. Its main trick is wifi-based: it scans the local wireless environment and then rebroadcasts (via `WiFi.softAP`) the SSIDs of every network it finds, one after another, so that nearby devices see a flood of spoofed access points and can't reliably reconnect to their real network while the badge is active. A front "Troll" button forces an immediate rescan, and a "perma-troll" switch puts the badge into a mode that automatically rescans every ~30 seconds. Rot13 labs made 100 of them, and says the SSIDs it (and its sibling badge, the Hackbutt V3) spoofed that year ended up as the most commonly seen network names at DEF CON 32.
@@ -96,3 +103,11 @@ Beyond the trolling, the badge doubles as a puzzle: connecting to it over USB op
 ## Make your own
 
 The Arduino firmware (`troublemaker.ino`) is published in the [trollbadge GitHub repo](https://github.com/c0ldbru/trollbadge) "in case anyone wants to use/adjust/modify/steal/reuse it." No schematic, PCB layout, or bill of materials was found alongside it, so the hardware design itself is not confirmed to be open — only the firmware is.
+
+## Notes merged from the duplicate entry "trollbadge (DC32 Troll Badge)"
+
+The DC32 troll badge is a wifi-trolling badge made by C0ldbru of Rot13 Labs for DEF CON 32 (2024), cut into the shape of the "troll face" meme. By default it scans for nearby wifi networks and then rebroadcasts each found SSID as its own access point, one after another, flooding the local wireless environment with spoofed networks. A front "Troll" button forces an immediate rescan, and a "perma-troll" switch puts it into a mode that automatically rescans every 30 seconds or so.
+
+Connecting to the badge over USB opens a 9600-baud serial console that exposes a small on-board CTF, a debug-output toggle, and other hidden wifi-trolling modes. Two NeoPixel-style RGB LEDs cycle random colors while the badge runs, switching to a red pattern in one of its firmware Easter eggs. The maker published the Arduino firmware ("troublemaker.ino") on GitHub for others to reuse, though no schematic or PCB files were found alongside it.
+
+This entry duplicates an existing, more thoroughly researched entry for the same badge, `dc32-wifi-troll-badge`, which was built from the same GitHub repo plus the maker's own site and carries additional detail (price, a 100-unit production run, and distribution).

@@ -72,10 +72,10 @@ sources:
   accessed: '2026-09-07'
   note: Confirmed repo contents (KiCad PCB files, LTspice sim, graphics folder) and the maker's stated motivation (Supercon badges lack a place to write your name).
 research:
-  status: researched
+  status: verified
   confidence: high
   last_checked: '2026-09-07'
-  notes: 'LED count is not stated by the maker; described only as "giant flashing red arrow" LEDs. Quantity made is not stated. No firmware exists since the board is purely analog (no MCU).'
+  notes: 'Verified against the Hackaday.io project page and GitHub repo: maker, Supercon 8 SAO contest event, astable-multivibrator/BJT-driven analog circuit, JLCPCB economic assembly, free giveaway plan, KiCad/LTspice repo contents, and the project photo (og:image) all confirmed directly on the cited pages. LED count is not stated by the maker; described only as a "giant flashing red arrow." Quantity made is not stated. No firmware exists since the board is purely analog (no MCU).'
 last_modified_date: '2026-09-07'
 ---
 

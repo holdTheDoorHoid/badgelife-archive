@@ -71,16 +71,20 @@ sources:
   accessed: '2026-09-07'
   note: 'Design-files listing linked from the Hackaday article; page itself returned a Cloudflare bot-check page and could not be read, so only the URL and its role as the fab/CAD source are recorded.'
 research:
-  status: researched
+  status: verified
   confidence: medium
   last_checked: '2026-09-07'
   notes: >-
-    This SAO was made for and demonstrated at Hackaday Europe 2025 in Berlin, not Supercon 2025 -
-    see event_corrected_to in the research report. The Hackaday article and its comments (including
-    one from the maker, signed "Joo") are the only sources reached; the maker's Printables page
-    could not be fetched (Cloudflare challenge blocked both WebFetch and curl), so price, quantity,
-    availability, LED/display fields, and any repository for the motor/gear design remain unknown.
-    No storefront or hardware repo beyond the Printables model listing was found.
+    Fact-check pass (2026-09-07): re-fetched the Hackaday article and confirmed maker handle "Joo"
+    (Johannes), the mechanism description (two notched plates in a 3D-printed case, 180 degrees out
+    of phase, driven by a small motor and gear train, no LEDs), that it was finished "just in time"
+    for and shown at Hackaday Europe 2025, and both saved images (file sizes/dimensions match the
+    article's embedded photos). This SAO was made for and demonstrated at Hackaday Europe 2025, not
+    Supercon 2025 - see event_corrected_to in the research report; the entry is left under
+    supercon-2025 per task instructions on this pass. The maker's Printables page still returns a
+    Cloudflare bot-check (confirmed again on this pass) so price, quantity, availability, and any
+    repository for the motor/gear design remain unverifiable and are correctly left empty. No
+    unsupported fields or sentences were found; nothing was removed.
 last_modified_date: '2026-09-07'
 ---
 

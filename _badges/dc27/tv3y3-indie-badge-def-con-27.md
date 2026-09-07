@@ -94,10 +94,10 @@ sources:
   note: Confirmed AR/Vuforia companion-app concept, ATtiny85 + charlieplexed LED detail, and location of published Gerber/image-target files.
   archived: https://web.archive.org/web/20260508164750/https://hackaday.io/project/164210-defcon-27-tv3y3-badge
 research:
-  status: researched
+  status: verified
   confidence: high
   last_checked: '2026-09-07'
-  notes: Quantity made and a firmware/code repository were not found published anywhere; left empty. No SAO header pin-count (v1 vs v2) is stated by the maker, so sao_version is left null.
+  notes: Fact-checked against the live Tindie listing and Hackaday.io project page; every non-empty field and body sentence is directly supported (maker name, $50 price, "oos" availability meta tag, ATtiny85 + charlieplexed 12-LED matrix, 2 SAO ports, AR/Vuforia image-target concept, 12 published files including a Gerber zip and front1.jpg/back1.jpg image-target photos, no firmware file present, self-funded run that "JUST BARELY paid for itself"). Both saved photos show the actual "DC27 TV3Y3 BADGE" product. Quantity made and a firmware/code repository remain unpublished, so left empty. No SAO header pin-count (v1 vs v2) is stated by the maker, so sao_version is left null.
 last_modified_date: '2026-09-07'
 ---
 

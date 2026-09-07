@@ -75,10 +75,10 @@ sources:
   accessed: '2026-09-07'
   note: 'Single commit ("init"), dated 2026-07-24, ahead of DEF CON 34 (Aug 6-9, 2026); no further activity, issues, or releases.'
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-07'
-  notes: 'This appears to be a personal/hobby SAO design published on GitHub rather than a released or distributed product: no README, no storefront listing, no press coverage, no photos of an assembled board, and only a single "init" commit with design files (KiCad project, gerbers, and SVG art). Could not confirm it was ever fabricated, distributed, or handed out at DEF CON 34, or find price/quantity/availability. Hardware files (schematic, PCB, gerbers) are public in the repo, so open_source is marked partial; no firmware repo exists (design appears MCU-less). Maker''s GitHub profile (narengogi / Narendranath Gogineni) has no bio, blog, or other badge-related repos.'
+  notes: 'Fact-check pass (2026-09-07): re-fetched the GitHub repo, root/Untitled/vectors file listings, the raw KiCad schematic, silk.svg, the commit list, and the maker''s GitHub profile via the API. All confirmed: repo description is "SAO for defcon 34"; root contains only Untitled/ and vectors/ (no README); schematic has exactly three parts (J1 Conn_02x03_Odd_Even, D1 LED, R1 resistor), matching mcu=none, leds.count=1, sao_version=v1.69bis (6-pin); vectors/ includes auto-rickshaw-svgrepo-com.svg alongside the generated silk/copper/mask/edgecuts SVGs, and silk.svg''s header credits SVG Repo, supporting the rickshaw shape/art claim; commit history is a single "init" commit dated 2026-07-24; the narengogi GitHub profile has no bio or blog. This is a personal/hobby SAO design published on GitHub rather than a confirmed released or distributed product: no storefront listing, press coverage, or photos of an assembled board were found, and fabrication/distribution at DEF CON 34 could not be confirmed. Hardware files are public (schematic, PCB, gerbers), so open_source=partial is correct; no firmware repo exists, consistent with the MCU-less design. Everything remaining in the entry is supported by a cited, re-verified source.'
 last_modified_date: '2026-09-07'
 ---
 

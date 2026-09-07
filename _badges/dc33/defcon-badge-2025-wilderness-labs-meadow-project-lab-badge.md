@@ -20,7 +20,7 @@ look:
   - hardware tool
   - measurement
 tech:
-  mcu: Meadow F7CoreComputeV2 (STM32F7-based)
+  mcu: Meadow F7CoreComputeV2
   leds:
     count: 1
     type: RGB
@@ -104,10 +104,10 @@ sources:
   accessed: '2026-09-07'
   note: 'Product photo used for images; confirmed Project Lab v3 retail price ($250) for the base dev board (not the badge itself, which was not sold).'
 research:
-  status: researched
+  status: verified
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'This is a home-brew personal badge: a software/firmware project (C#/.NET, Apache-2.0) written to run on Wilderness Labs'' existing commercial "Project Lab v3" development board, not a custom PCB made for DEF CON 33. No photos of the maker''s actual assembled unit were found, so the saved image is the manufacturer''s stock photo of the underlying board. No pricing, quantity, or distribution applies since it was not sold or given away as a badge — availability left unknown. Battery/power details and full connectivity (the board is known in general to include other options) were not confirmed in the sources checked, so left empty per the never-guess rule. The WiFiTrackerPage class exists but has no implementation, suggesting a planned but unfinished feature.'
+  notes: 'Fact-check pass (2026-09-07): re-fetched all six cited sources (GitHub repo, README, MeadowApp.cs, EnvironmentPage.cs, WiFiTrackerPage.cs, LICENSE) plus the Meadow.ProjectLab repo and the Wilderness Labs store page. All confirmed as described. One unsupported detail was removed: tech.mcu previously read "Meadow F7CoreComputeV2 (STM32F7-based)" but no checked source states the underlying silicon is STM32F7-based, so that parenthetical was deleted, leaving just "Meadow F7CoreComputeV2". Everything else — maker, event, functions, LED/display/sensor/input specs, open-source status and license, and the saved stock photo''s provenance — is directly supported by the cited pages. This remains a home-brew personal badge (firmware for an existing commercial dev board, not a custom PCB); get_one fields are correctly left empty since it was never sold or distributed.'
 last_modified_date: '2026-09-07'
 ---
 

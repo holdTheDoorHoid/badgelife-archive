@@ -38,8 +38,7 @@ make_your_own:
 links: []
 images: []
 contact:
-  emails:
-  - Chris@dianainitiatve.org
+  emails: []
 notes: []
 status: listed
 sources:
@@ -47,24 +46,35 @@ sources:
   event: dc33
   row: 17
   updated: 7/5/2025 10:37:19
+- kind: url
+  url: https://en.wikipedia.org/wiki/The_Diana_Initiative
+  title: The Diana Initiative - Wikipedia
+  accessed: '2026-09-07'
+  note: Confirms the Diana Initiative is a Las Vegas infosec conference supporting
+    underrepresented people, held in conjunction with DEF CON; supports the
+    background sentence in the body.
 research:
   status: researched
   confidence: low
   last_checked: '2026-09-07'
   notes: >-
-    No corroborating sources found beyond the community badge sheet. Searched
-    "Diana Initiative Stoplight badge DEF CON 33 SAO", "TechGirlMN Stoplight SAO
-    badge", "Diana Initiative DEF CON 33 badge OLED pico stoplight blinky", and
-    "dianainitiative.org badge sao 2025 $50 ticket"; also tried the TechGirlMN
-    Tindie storefront (returned HTTP 403) and a Hackaday.io search for
-    TechGirlMN. The Diana Initiative's own site (dianainitiative.org) mentions a
-    free soldering-village badge for 2025 but nothing named "Stoplight" or
-    matching this description. A companion sheet entry from the same maker
-    (dc33-game-over-bun) hit the same wall in an earlier research pass, so this
-    maker appears to have no discoverable web presence for DEF CON 33 items
-    beyond the sheet. Left all technical/look/get_one fields as on the sheet
-    since nothing could be verified; the sheet's summary/price/functions text
-    is preserved as-is in front matter and repeated in the body below.
+    Fact-check pass: no independent source could be reached that confirms this
+    specific item exists or matches the sheet's description. dianainitiative.org
+    returned SSL_ERROR_SYSCALL on every fetch attempt (both WebFetch and curl),
+    the TechGirlMN Tindie storefront still returns HTTP 403, web.archive.org is
+    blocked in this environment, and the session's web-search budget was
+    exhausted before any new searches could run this pass. One check did
+    resolve: the front-matter contact email "Chris@dianainitiatve.org" points to
+    a domain that does not resolve in DNS at all (getaddrinfo ENOTFOUND) -
+    almost certainly a transposed-letter typo for dianainitiative.org - so it
+    has been blanked rather than published as a live contact address. Added an
+    independent Wikipedia source confirming the general Diana
+    Initiative/DEF CON background claim in the body; all item-specific fields
+    (functions, price, maker attribution, look/tech) remain sourced only to the
+    community sheet and unverified by any maker page, storefront, or press
+    coverage, matching the prior research pass and the same dead end hit by the
+    sibling entry dc33-game-over-bun. Status kept at researched, not verified,
+    since the core sheet claims lack independent confirmation.
 last_modified_date: '2026-09-07'
 ---
 

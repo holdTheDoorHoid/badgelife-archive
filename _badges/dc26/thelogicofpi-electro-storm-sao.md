@@ -59,10 +59,10 @@ sources:
   note: Project description lists it as "Electro-storm (high voltage warning sign) (in works)" among several SAOs the maker planned to build "before defcon"; project created 07/26/2018. No dedicated log, photo, or completion note for this item specifically. Other items on the same page (Leela, Bender, Zoidberg, Tubbs) are marked completed, but Electro-storm is not among those.
   archived: https://web.archive.org/web/20260504115728/https://hackaday.io/project/160014-sao-badgelife-add-ons
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-07'
-  notes: Only source is the maker's own multi-project Hackaday.io page, which mentions Electro-storm as one line in a punch list of SAOs planned "before defcon" (implying DEF CON 26, 2018) and tags it "in works." No dedicated project page, build log, image, chip/LED specs, price, or release record exists for it there or elsewhere found. Could not confirm the item was ever completed or distributed. The page's og:image is a generic project thumbnail, not confirmed to depict this item, so no image was saved. A web search for the title and maker returned nothing beyond this same Hackaday.io page (session search budget was otherwise exhausted).
+  notes: Fact-check pass (2026-09-07) re-fetched https://hackaday.io/project/160014-sao-badgelife-add-ons directly and confirmed every claim in this entry against the live page — "Electro-storm (high voltage warning sign) (in works)" appears verbatim in the punch list, project creation date is 07/26/2018, the completed set is exactly Leela/Bender/Zoidberg/Tubbs, and the in-works set includes Tiki and Pickle-Rick + Portal BG as stated in the body (Darkwing Duck and a Wizard Hat SAOAO also appear in-works but aren't claimed or contradicted by the body). Owner is confirmed as thelogicofpi. Only one source exists for this item; no dedicated project page, image, chip/LED specs, price, or release record was found anywhere else, so confidence stays low even though everything present is supported.
 last_modified_date: '2026-09-07'
 ---
 

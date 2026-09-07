@@ -67,10 +67,10 @@ sources:
   accessed: '2026-09-07'
   note: 'Maker profile page; lists only the NYC Badge, no bio or external links found.'
 research:
-  status: researched
+  status: verified
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'Event and year (DEF CON 34, 2026) come from Uberflux''s own listing text ("Def Con 34 Badge Pickup"), not a corroborating third-party source; no maker social/GitHub presence found beyond the Uberflux storefront. LED count/type, colors, shape, and SAO header version were not stated by the source and are left empty.'
+  notes: 'Fact-checked 2026-09-07: re-fetched the Uberflux product page (BUCK-NYC) and maker profile (buck) directly (including the page''s embedded JSON) and confirmed maker, ATMEGA328 (pre-flashed, 16MHz crystal), 3 SAO connectors, 6 unsoldered neo-pixels enough for one bottom SAO, 2 tactile switches + power switch, 3x AAA battery holder (not included), $60 price, 20/20 sold, "Def Con 34 Badge Pickup" as the drop, and event dc34 = DEF CON 34 = 2026 per _data/events.yml. Maker profile page confirmed no bio/social links beyond this one listing. Verified the saved product photo (48ab8c53ae.jpg) matches the page''s own cover image. No contradictions found; all remaining empty fields (look.colors, look.shape, look.themes, tech.leds, tech.connectivity, tech.sao_version, make_your_own.*) were correctly left blank because the source never states them. Every fact remaining in the entry is directly supported by the cited sources.'
 last_modified_date: '2026-09-07'
 redirect_from:
 - /badges/other/nyc-badge/

@@ -10,7 +10,7 @@ event: dc26
 year: 2018
 makers:
 - name: lemons4all
-  url: https://hackaday.io/lemons4all
+  url: https://hackaday.io/hacker/348940-lemons4all
 summary: A Frida-themed Shitty Add-On made for DEF CON 26 by lemons4all, decorated with five 10 mm clear lucite tulip flower beads, with the board design files shared as a zip on Hackaday.io.
 functions: ''
 look:
@@ -37,7 +37,7 @@ get_one:
   distribution: []
   where: ''
 make_your_own:
-  open_source: true
+  open_source: yes
   hardware_url: https://cdn.hackaday.io/files/1615096910001056/frida_sao.zip
   firmware_url: null
   eda_tool: KiCad
@@ -76,13 +76,13 @@ sources:
   url: https://cdn.hackaday.io/files/1615096910001056/frida_sao.zip
   title: frida_sao.zip
   accessed: '2026-09-07'
-  note: 'Inspected zip contents: KiCad schematic/PCB (frida.kicad_sch, frida.kicad_pcb), a footprint library including a 3.0mm flat-top LED footprint and a 2x2 SAO pin header footprint, and a full gerbers/ manufacturing set. Confirms open-source hardware and KiCad as the EDA tool.'
+  note: 'Inspected zip contents: KiCad schematic/PCB (frida.sch, frida.kicad_pcb, frida.pro), a footprint library including a 3.0mm flat-top LED footprint and a 2x2 SAO pin header footprint, and a full gerbers/ manufacturing set. Confirms open-source hardware and KiCad as the EDA tool.'
   archived: https://web.archive.org/web/20260907120140/https://cdn.hackaday.io/files/1615096910001056/frida_sao.zip
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'The Hackaday.io project page is thin: it confirms the maker, event, five flower beads, and that design files exist, but does not state price, quantity made, availability, LED count/type, or SAO pin version. The footprint library includes an LED footprint, so the board likely has at least one LED, but this could not be confirmed by inspecting the schematic/PCB directly, only the footprint library file names. No press coverage, storefront listing, or social posts about this specific SAO were found. lemons4all''s Hackaday.io profile page (https://hackaday.io/lemons4all) returned a 404, so no broader maker bio or other DEF CON 26 badges (a companion "RBG SAO" was mentioned on the project page itself) could be independently verified.'
+  notes: 'The Hackaday.io project page is thin: it confirms the maker, event, five 10mm clear lucite tulip flower beads, and that design files exist, but does not state price, quantity made, availability, LED count/type, or SAO pin version. The footprint library includes an LED footprint, so the board likely has at least one LED, but this could not be confirmed by inspecting the schematic/PCB directly, only the footprint library file names (the entry photo, already cited, shows the flower beads lit in multiple colors, but assigning an LED count/type from that image alone would go beyond what a source states, so those fields stay empty). No press coverage, storefront listing, or social posts about this specific SAO were found. The maker''s canonical Hackaday.io profile link, https://hackaday.io/hacker/348940-lemons4all (found in the project page''s own author link), returns a login wall rather than a public profile when fetched without a session; the shorter https://hackaday.io/lemons4all form is a confirmed 404. Either way, no broader maker bio or other DEF CON 26 badges (a companion "RBG SAO" was mentioned on the project page itself) could be independently verified.'
 last_modified_date: '2026-09-07'
 ---
 
@@ -94,4 +94,4 @@ Beyond the Hackaday.io project page, no pricing, production quantity, or distrib
 
 ## Make your own
 
-Design files are open source, published as a KiCad project (`frida.kicad_sch`, `frida.kicad_pcb`), including production-ready gerbers, at https://cdn.hackaday.io/files/1615096910001056/frida_sao.zip.
+Design files are open source, published as a KiCad project (`frida.sch`, `frida.kicad_pcb`), including production-ready gerbers, at https://cdn.hackaday.io/files/1615096910001056/frida_sao.zip.

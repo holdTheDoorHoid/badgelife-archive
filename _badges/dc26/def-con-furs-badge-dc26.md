@@ -29,7 +29,7 @@ tech:
     count: 112
     type: discrete
     note: 525nm green 0603 LEDs (part 150060GS75000) arranged in an 18x7 matrix, with some corner/bridge-of-nose positions omitted to fit the fox-head outline; driven with per-pixel PWM dimming via a timer/DMA driver.
-  display: LED matrix 18x8 (fox-head cutout, 112 usable pixels)
+  display: LED matrix 18x7 (fox-head cutout, 112 usable pixels)
   connectivity:
   - bluetooth
   - uart
@@ -97,10 +97,10 @@ sources:
   accessed: '2026-09-07'
   note: Used to confirm there is no separate DC26-specific hardware repo (the scripts repo is the only DC26 artifact); later years (DC27+) got dedicated dcfurs-badge-dcNN repos.
 research:
-  status: researched
+  status: verified
   confidence: high
   last_checked: '2026-09-07'
-  notes: Core specs confirmed directly from the maker org's own repository (README, BOM/assembly guide, schematic PDF, firmware). No price, quantity made, or distribution/availability details were found in any source (this looks like a members'-made community badge rather than a sold product, but that is not stated outright anywhere found, so get_one fields are left empty rather than guessed). SAO connector is mentioned in the README but its pinout/version is not specified, so tech.sao_version is left null. A companion Bluetooth firmware/hardware repo (micropython-dcfurs) and animation-builder web tool (dcfurs.liquidthex.com) are linked but not independently verified live. status set to released since assembled units with this firmware clearly existed and were documented in detail (schematic, BOM, firmware image) consistent with a distributed/built badge, not just a rumor.
+  notes: Fact-check pass (2026-09-07) re-fetched all five cited GitHub URLs (README.md, ASSEMBLY.md, img/ folder, org repo listing, and the micropython-dcfurs repo) plus the LICENSE file and raw README/ASSEMBLY source, and confirmed every populated field and body sentence against them (MCU, 112x 0603 discrete green LEDs, 18x7 matrix, BLE/accelerometer/capacitive-touch parts, SAO header, USB micro-B/2xAA power, MIT license, both saved images and their fox-head/credits content, and the DC27+ dedicated-repo pattern). One error was found and fixed — tech.display said "18x8" where every source (README, ASSEMBLY BOM comment, body text) says 18x7; corrected. No price, quantity, or distribution/availability details exist in any source, so those get_one fields are correctly left empty rather than guessed. tech.sao_version is correctly left null since no source states a pinout/version for the "shitty addon connector." All remaining claims are supported, so status is set to verified.
 last_modified_date: '2026-09-07'
 ---
 

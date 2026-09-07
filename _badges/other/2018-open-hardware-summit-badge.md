@@ -90,16 +90,16 @@ sources:
   accessed: '2026-09-07'
   note: 'Confirms event name, links to GitHub/Twitter/Hackaday; source of badge.png image.'
 research:
-  status: researched
+  status: verified
   confidence: high
   last_checked: '2026-09-07'
-  notes: 'Made for the Open Hardware Summit (MIT, Sept 27 2018) — no matching event id exists in _data/events.yml (the archive''s vocabulary is oriented toward hacker cons like DEF CON/Supercon, not the OSHWA summit), so event is left as "other". LED count/type not stated by any source; leaving tech.leds empty. Current availability (whether any remain, or if it was a one-time con giveaway) not stated.'
+  notes: 'Made for the Open Hardware Summit (MIT, Sept 27 2018) — no matching event id exists in _data/events.yml (the archive''s vocabulary is oriented toward hacker cons like DEF CON/Supercon, not the OSHWA summit), so event is left as "other". LED count/type not stated by any source; leaving tech.leds empty. Current availability (whether any remain, or if it was a one-time con giveaway) not stated. Fact-check pass (2026-09-07): re-fetched all three cited sources (Hackaday project page, OSHPark/ohs18badge repo, oshwabadge2018.github.io) plus the firmware repo; confirmed maker roles, ESP32/GDEH0213B1/2xAA/wifi/bluetooth/uart, $25 budget, 300-unit quantity, CERN OHL v1.2, OSHWA UID US000133, KiCad, and KX122-1037 accelerometer. Removed one unsupported editorial claim from the body ("or anyone nearby" push-updates by strangers) that no source stated. Both saved images verified by eye to show this badge (purple PCB, OHS logo, ESP32-WROOM, e-paper window) and match their cited source pages.'
 last_modified_date: '2026-09-07'
 ---
 
 The 2018 Open Hardware Summit Badge was built for attendees of the Open Hardware Summit, held at MIT on September 27, 2018. OSH Park led the project, with PCB design by Alex Camilo and concept work by Mike Rankin; roughly 300 units were made to a $25-per-badge budget. Each badge centers on an ESP32 driving a GDEH0213B1 e-paper display that shows the wearer's name, runs on two AA batteries, and includes a KX122-1037 accelerometer and capacitive touch buttons alongside a serial console header for debugging.
 
-What made the badge notable was its wireless name-update feature: attendees (or anyone nearby) could push new text to the display over WiFi or Bluetooth from a phone, tablet, or laptop, rather than the name being fixed at flashing time. Firmware ran MicroPython.
+What made the badge notable was its wireless name-update feature: attendees could push new text to the display from an Android or iOS device, rather than the name being fixed at flashing time. Firmware ran MicroPython, with both a serial REPL and a browser-based WebREPL over WiFi for interacting with the badge.
 
 The hardware is fully open sourced under the CERN Open Hardware Licence v1.2 and holds OSHWA certification UID US000133, fitting for a badge made for the Open Hardware Summit itself. KiCad schematic and PCB files, along with a bill of materials, are published in OSH Park's `ohs18badge` GitHub repository, with firmware maintained separately by Alex Camilo.
 

@@ -23,7 +23,7 @@ tech:
   mcu: none
   leds:
     count: 2
-    type: null
+    type: discrete (OSRAM TOPLED LY T776-Q2T1-26-Z)
     note: Yellow LEDs form the clown's glowing eyes.
   display: none
   connectivity: []
@@ -37,12 +37,12 @@ get_one:
   availability_note: Tindie listing shows the product as retired, checked 2026-09-07.
   distribution:
   - purchase
-  where: Sold assembled by TwinkleTwinkie on Tindie; also appeared for resale as part of a DEF CON 26 add-on set on eBay.
+  where: Sold assembled by TwinkleTwinkie on Tindie.
 make_your_own:
-  open_source: null
-  hardware_url: null
+  open_source: partial
+  hardware_url: https://hackaday.io/project/158664-krusty-the-it-def-con-26-shitty-add-on
   firmware_url: null
-  eda_tool: null
+  eda_tool: KiCad
 links:
 - label: www.ebay.com/itm/145940255791
   url: https://www.ebay.com/itm/145940255791
@@ -51,6 +51,9 @@ links:
   url: https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-badgelife-sao-add-on-1/
   kind: store
   archived: https://web.archive.org/web/20260510025610/https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-badgelife-sao-add-on-1/
+- label: Krusty the IT - DEF CON 26 Shitty Add-on (Hackaday.io)
+  url: https://hackaday.io/project/158664-krusty-the-it-def-con-26-shitty-add-on
+  kind: hackaday
 images:
 - file: assets/images/badges/dc26/dc26-twinkletwinkie-badgelife-sao-add-on-1/5b6e0f53fd.jpg
   source: https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-badgelife-sao-add-on-1/
@@ -77,14 +80,23 @@ sources:
   accessed: '2026-09-07'
   note: Maker's own store listing; source for description, price, SAO spec, availability (retired), and product photos.
   archived: https://web.archive.org/web/20260510025610/https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-badgelife-sao-add-on-1/
+- kind: url
+  url: https://hackaday.io/project/158664-krusty-the-it-def-con-26-shitty-add-on
+  title: Krusty the IT - DEF CON 26 Shitty Add-on - Hackaday.io
+  accessed: '2026-09-07'
+  note: Documentation link embedded on the Tindie listing itself (missed by the prior research pass). Confirms 2x OSRAM TOPLED LY T776-Q2T1-26-Z LEDs, a 2x2 vertical-header (4-pin/v1) SAO connector, a single 0805 resistor and no MCU, published KiCad project + Gerbers, and approximately 140 units produced. Corrects the body's prior "closed-source" claim.
 research:
-  status: researched
-  confidence: medium
+  status: verified
+  confidence: high
   last_checked: '2026-09-07'
-  notes: Tindie listing confirms the design, price, and that it operates at the SAO 3.3V standard, and that it is retired. Could not confirm exact LED part number, quantity made, or whether hardware/firmware files were ever published (no repo or Hackaday link found); the eBay listing (a resale of a DC26 add-on set) could not be reached directly (403 on WebFetch and curl), so its details were not used beyond confirming the item existed at DEF CON 26.
+  notes: Re-verified against the maker's Tindie listing and its embedded Hackaday.io documentation link (missed by the prior pass), which confirms the LED part, SAO header type/version, absence of an MCU, and that KiCad/Gerbers are published. Corrected make_your_own (was null/closed-source, now partial with a hardware_url) and removed the unsupported eBay-resale claim from get_one.where and the body, since the eBay listing returned HTTP 403 on both WebFetch and curl and its content could not be confirmed (its link is kept only as the original intake source, not as evidence of resale details). All remaining populated fields are supported by a source actually read.
 last_modified_date: '2026-09-07'
 ---
 
-TwinkleTwinkie's Badgelife SAO Add-on #1 is a Shitty Add-on made for DEF CON 26 (2018), styled as a menacing clown face whose eyes glow yellow when the SAO is plugged into a compatible host badge or powered from a breadboard at the standard 3.3V SAO spec. It was sold assembled through TwinkleTwinkie's Tindie store for $20 (discounted to $18 each for orders of five or more) and later turned up for resale as part of a DEF CON 26 badge add-on set on eBay.
+TwinkleTwinkie's Badgelife SAO Add-on #1 is a Shitty Add-on made for DEF CON 26 (2018), styled as a menacing clown face whose eyes glow yellow when the SAO is plugged into a compatible host badge or powered from a breadboard at the standard 3.3V SAO spec. It was sold assembled through TwinkleTwinkie's Tindie store for $20 (discounted to $18 each for orders of five or more).
 
-The listing is now marked retired on Tindie, and no hardware or firmware files were found published for this specific design, so it is treated here as closed-source unless further sources turn up. No maker's post, project page, or design-file repository beyond the storefront listing itself was located during this pass.
+The listing is now marked retired on Tindie. Its own "Documentation" link points to a Hackaday.io project page ("Krusty the IT"), which shows the board uses two OSRAM TOPLED SMD LEDs and a single resistor with no microcontroller, connects via a standard 4-pin (v1) SAO header, and has its KiCad project and Gerbers published.
+
+## Make your own
+
+Hardware files (KiCad project and Gerbers) for this design are published on the maker's Hackaday.io project page, linked above. No separate firmware repository applies, since the board has no MCU.

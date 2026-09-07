@@ -63,13 +63,13 @@ sources:
   accessed: '2026-09-07'
   note: Backing JSON data for the PRIVATE LTE listing (the search page itself renders client-side and returns no content to a plain fetch); gave soldering instructions, difficulty, and the front-image URL. No description, category, quantity, or acquisition info was filled in on the source record.
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-07'
-  notes: 'The minibadge.wiki listing has no description, price, quantity, or acquisition details filled in, and no maker page or storefront for "Jup1t3r" turned up. Soldering instructions describe a single through-hole LED and resistor, with a warning that reversing the LED will destroy it (Intermediate difficulty). The "radio" theme tag is inferred from the badge''s own name (a play on private LTE / cellular networks) and nothing more specific could be confirmed. No repo, firmware, or store listing found.'
+  notes: 'The minibadge.wiki listing has no description, price, quantity, or acquisition details filled in, and no maker page or storefront for "Jup1t3r" turned up. Soldering instructions describe a single through-hole LED and resistor, with a warning that reversing the LED will destroy it (Intermediate difficulty); confirmed directly against 2021.json and against the saved front photo, which matches the source image byte-for-byte in content. The "radio" theme tag is supported by the board art itself (a Wi-Fi/signal-strength icon next to "ARE YOU CONNECTED?"), not just the name pun. No repo, firmware, or store listing found.'
 last_modified_date: '2026-09-07'
 ---
 
 The PRIVATE LTE minibadge was made by Jup1t3r for SAINTCON 2021, part of the event's tradition of small trade/collectible minibadges assembled by attendees. It is a simple soldering-kit style board: a single through-hole LED pressed through a large cutout and wired to a matching resistor, rated "Intermediate" difficulty on minibadge.wiki, with an explicit warning that reversing the LED's polarity will destroy it.
 
-Beyond the assembly instructions and a front-of-board photo, the minibadge.wiki community record for this badge carries no description, price, production quantity, or notes on how it was distributed, and no separate project page, repository, or storefront for the maker could be found. The name plays on "private LTE" (a term from cellular networking), which is the only basis for tagging it with a radio theme here.
+Beyond the assembly instructions and a front-of-board photo, the minibadge.wiki community record for this badge carries no description, price, production quantity, or notes on how it was distributed, and no separate project page, repository, or storefront for the maker could be found. The name plays on "private LTE" (a term from cellular networking), and the board art carries a Wi-Fi/signal-strength icon next to "ARE YOU CONNECTED?", which together are the basis for tagging it with a radio theme here.

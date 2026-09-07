@@ -69,16 +69,23 @@ sources:
   url: https://api.github.com/repos/ElectronicCats/badge-owasp-latam-mexico-2020/contents/HW/Badge-OWASP-2020
   title: Repo contents, HW/Badge-OWASP-2020
   accessed: '2026-09-07'
-  note: Confirms KiCad hardware files (schematic, PCB, libraries) are published; no photo of the assembled badge found in the repo, only a vector art file (Badge_2020_OWASP.svg) and CAD sources.
+  note: Confirms KiCad hardware files (schematic, PCB, libraries) are published in this folder; no photo of the assembled badge is present here. A vector art file (Badge_2020_OWASP.svg) exists separately at the repo root, not in this folder.
 research:
-  status: researched
+  status: verified
   confidence: medium
   last_checked: '2026-09-07'
   notes: >-
+    Fact-check pass (2026-09-07): re-fetched all three cited sources (repo page, raw README, GitHub
+    contents API) and confirmed every populated field and body sentence against them -- maker, ESP32
+    MCU, WS2812B mini LEDs, 0.91" 128x32 I2C/SSD1306 OLED (per the README's own linked component
+    options), wifi/ble/usb connectivity, Bluetooth-based CTF, CERN OHL v1.2 license, KiCad hardware
+    files, and firmware (Firmware/test_LED_OLED/test_LED_OLED.ino) confirmed present, supporting
+    open_source: yes. Corrected one inaccurate source note (the vector art SVG lives at the repo root,
+    not inside the HW/Badge-OWASP-2020 folder as the note previously implied); no other changes needed.
     No matching "OWASP LATAM Mexico" event exists in _data/events.yml, so event is left as "other";
-    the con is OWASP LATAM Tour Mexico City, 2020. Price, quantity made, and LED count are not stated
-    anywhere in the repo. No photo of the physical badge was found (github repo contains only KiCad
-    source files and a vector artwork SVG, not photos), so images is left empty.
+    the con is OWASP LATAM Tour Mexico City, 2020. Price, quantity made, and LED count are still not
+    stated anywhere in the repo, and no photo of the physical badge was found (repo has only KiCad
+    source files and a vector artwork SVG, not photos), so images stays empty.
 last_modified_date: '2026-09-07'
 ---
 

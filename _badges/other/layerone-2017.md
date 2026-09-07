@@ -28,7 +28,6 @@ tech:
   display: 2.2-2.4" TFT LCD (ILI9341/45)
   connectivity:
   - usb
-  - sub-ghz
   battery: 18650 Li-Ion, onboard charging via BQ24075
   sao_version: null
 get_one:
@@ -85,10 +84,10 @@ sources:
   accessed: '2026-09-07'
   note: 'Confirms accessory cable existed for OBD II / J2534 connections for the badge.'
 research:
-  status: researched
+  status: verified
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'No matching LayerOne event id exists in _data/events.yml, so event is left as "other"; this badge was made for the LayerOne conference, 2017. LED count/type, exact hardware/firmware repo URLs, and EDA tool were not stated on the pages checked (design files were said to be kept in SVN, no public link found). Availability marked sold_out based on the Tindie listing being closed to new orders as of the check date, though this could also reflect a temporary seller break rather than a permanent sellout.'
+  notes: 'No matching LayerOne event id exists in _data/events.yml, so event is left as "other"; this badge was made for the LayerOne conference, 2017. LED count/type, exact hardware/firmware repo URLs, and EDA tool were not stated in a form clean enough to cite precisely (an SVN repo listing exists on the Tindie page and Eagle is referenced on the Hackaday page, but were left unfilled by the original research pass rather than added here, since this pass is fact-checking, not new research). Availability marked sold_out based on the Tindie listing being closed to new orders as of the check date, though this could also reflect a temporary seller break rather than a permanent sellout. Fact-check (2026-09-07): confirmed maker/role, MCU, display, battery/charger IC, CAN bus specs, ~400-unit quantity, price, NES emulator, and image against the cited Hackaday.io and Tindie pages. Removed "sub-ghz" from tech.connectivity — neither cited source mentions any sub-GHz/RF wireless capability; the badge''s only radio-adjacent link is the wired CAN bus, which is not sub-GHz RF. All remaining populated fields and body sentences are supported by the cited sources.'
 last_modified_date: '2026-09-07'
 ---
 

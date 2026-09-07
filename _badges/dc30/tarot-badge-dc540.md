@@ -52,6 +52,7 @@ links:
 - label: DC540 Tarot Badge (for DC30) on Tindie
   url: https://www.tindie.com/products/dc540_nova/dc540-tarot-badge-for-dc30/
   kind: store
+  archived: https://web.archive.org/web/20260503112237/https://www.tindie.com/products/dc540_nova/dc540-tarot-badge-for-dc30/
 - label: 'The DC540 Tarot Badge: DC30 Debut'
   url: https://dc540.org/xxx/2022/08/the-dc540-tarot-badge-dc30-debut/
   kind: article
@@ -60,13 +61,14 @@ links:
   kind: video
 images:
 - file: assets/images/badges/dc30/tarot-badge-dc540/51d414daab.jpg
-  source: "https://github.com/DC540-Nova/DC30-Tarot-Badge"
-  credit: "DC540 Nova"
-  caption: "The DC540 Tarot Badge, DEF CON 30 promotional photo"
+  source: https://github.com/DC540-Nova/DC30-Tarot-Badge
+  credit: DC540 Nova
+  caption: The DC540 Tarot Badge, DEF CON 30 promotional photo
 - file: assets/images/badges/dc30/tarot-badge-dc540/95e4863400.png
-  source: "https://www.tindie.com/products/dc540_nova/dc540-tarot-badge-for-dc30/"
-  credit: "DC540 Nova"
-  caption: "DC540 Tarot Badge listed on Tindie showing the illuminated wheel and LCD"
+  source: https://www.tindie.com/products/dc540_nova/dc540-tarot-badge-for-dc30/
+  credit: DC540 Nova
+  caption: DC540 Tarot Badge listed on Tindie showing the illuminated wheel and LCD
+  archived: https://web.archive.org/web/20260503112237/https://www.tindie.com/products/dc540_nova/dc540-tarot-badge-for-dc30/
 contact: {}
 notes: []
 status: released
@@ -78,24 +80,25 @@ sources:
   note: 'Found by the archive''s discovery sweep (angle: github-topics); event read as ''DEF CON 30''.'
 - kind: url
   url: https://github.com/DC540-Nova/DC30-Tarot-Badge
-  title: 'DC30-Tarot-Badge README'
+  title: DC30-Tarot-Badge README
   accessed: '2026-09-07'
-  note: 'Confirmed event/year, Raspberry Pi Pico MCU, deck names, MIT license, and that the maker declined to publish Gerbers or raw firmware source.'
+  note: Confirmed event/year, Raspberry Pi Pico MCU, deck names, MIT license, and that the maker declined to publish Gerbers or raw firmware source.
 - kind: url
   url: https://www.tindie.com/products/dc540_nova/dc540-tarot-badge-for-dc30/
   title: DC540 Tarot Badge (for DC30) - Tindie listing
   accessed: '2026-09-07'
-  note: 'Price ($75), 2.2" 240x320 ILI9341 display with SD reader, 24 LEDs, NRF transceiver, scavenger-hunt feature, and listing marked unavailable.'
+  note: Price ($75), 2.2" 240x320 ILI9341 display with SD reader, 24 LEDs, NRF transceiver, scavenger-hunt feature, and listing marked unavailable.
+  archived: https://web.archive.org/web/20260503112237/https://www.tindie.com/products/dc540_nova/dc540-tarot-badge-for-dc30/
 - kind: url
   url: https://dc540.org/xxx/2022/08/the-dc540-tarot-badge-dc30-debut/
   title: 'The DC540 Tarot Badge: DC30 Debut'
   accessed: '2026-09-07'
-  note: 'Production quantity (batch of 25, ~10 extra units at DEF CON 30), deck names, pairing/scavenger-hunt games, and MicroPython/dual-core/AES firmware details.'
+  note: Production quantity (batch of 25, ~10 extra units at DEF CON 30), deck names, pairing/scavenger-hunt games, and MicroPython/dual-core/AES firmware details.
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-07'
-  notes: 'Battery/power source and firmware license terms for the hardware design (only the software is MIT-licensed; the maker explicitly declined to publish Gerbers or raw source) were not stated by any source. The Tindie listing mentions an NRF transceiver for wireless communication, but no source describes what it is used for (badge pairing may be done via NRF or another means); left connectivity as none since no confirmed protocol was named for it.'
+  notes: Battery/power source and firmware license terms for the hardware design (only the software is MIT-licensed; the maker explicitly declined to publish Gerbers or raw source) were not stated by any source. The Tindie listing mentions an NRF transceiver for wireless communication, but no source describes what it is used for (badge pairing may be done via NRF or another means); left connectivity as none since no confirmed protocol was named for it.
 last_modified_date: '2026-09-07'
 ---
 

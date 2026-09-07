@@ -66,10 +66,10 @@ sources:
   accessed: '2026-09-07'
   note: 'Underlying JSON record for the RED TEAM card: soldering instructions, difficulty (Beginner), LED count/layout, jumper behavior, and front/back image URLs. Description, category, quantity, and acquisition fields were blank in the source.'
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-07'
-  notes: 'The minibadge.wiki listing page itself is rendered client-side from a JSON data feed (minibadge.wiki/2021.json), which was fetched directly to get the RED TEAM record. That record gives soldering/assembly detail (three LEDs D1-D3, one resistor, a jumper selecting solid-on vs. blinking) and soldering difficulty "Beginner", but leaves description, category, quantity made, board house, how-to-acquire, and rarity all blank, so price, availability, and open-source status could not be determined. No maker page, repo, or storefront for "Jup1t3r" was found via the sources checked. Web search was unavailable for this task (session search budget exhausted), so only the existing link and its underlying data feed could be consulted.'
+  notes: 'Fact-check pass (2026-09-07): re-fetched minibadge.wiki/2021.json directly and confirmed every populated field and body sentence against the RED TEAM record verbatim (author Jup1t3r, three LEDs D1-D3 with one resistor, jumper wording for solid-on vs. blinking, the all-three-pads warning, Beginner difficulty). Also downloaded both image URLs referenced by that record (images/2021/red-team-front.png, red-team-back.png) and confirmed pixel-for-pixel match to the two saved archive photos, so front/back captions are correct. The minibadge.wiki search-page source (accessed 2026-09-06) is client-rendered and shows nothing to a non-JS fetch, which matches the researcher''s original note and is why the JSON feed is the operative citation. Everything left in the entry is supported; status remains low-confidence only because description, category, quantity, board house, price, and acquisition details are genuinely blank at the source and no maker page for Jup1t3r was ever found (not because anything here is unverified).'
 last_modified_date: '2026-09-07'
 ---
 

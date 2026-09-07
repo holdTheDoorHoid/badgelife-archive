@@ -55,7 +55,7 @@ images:
     caption: "El Santo badge silkscreen artwork, a luchador mask design"
 contact: {}
 notes: []
-status: released
+status: unknown
 sources:
 - kind: url
   url: https://github.com/markwinap/Mexican_BadgeLife
@@ -71,15 +71,15 @@ sources:
   url: https://api.github.com/repos/markwinap/Mexican_BadgeLife/commits
   title: Mexican_BadgeLife commit history
   accessed: '2026-09-07'
-  note: 'Two commits from 2018-09-20 by Marco David Martinez (markwinap@gmail.com) and Francisco Gonzalez Canales, both using @SOAM.TCS.com company email addresses, adding the PCB and schematic. No mention of any specific conference.'
+  note: 'Two commits from 2018-09-20 add the PCB and schematic: one by Marco David Martinez (markwinap@gmail.com, personal address) and one by Francisco Gonzalez Canales (831919@SOAM.TCS.com, a company address). Two earlier commits on 2018-09-18 by Martinez created the repo. No mention of any specific conference.'
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-07'
-  notes: 'README.md in the repo contains only the project title, no descriptive text. No web presence beyond the GitHub repo was found (searches for "markwinap El_Santo badge" returned unrelated results). The design is a themed silkscreen mask of El Santo (a famous Mexican luchador) over a simple discrete 555-timer LED blinker, not a microcontroller-based board. No event, price, quantity, or distribution details could be found; this may have been a personal/hobby project rather than a badge distributed at a specific convention. Left event as "other" since no con is named in any source.'
+  notes: 'README.md in the repo contains only the project title, no descriptive text. No web presence beyond the GitHub repo was found (searches for "markwinap El_Santo badge" returned unrelated results). The design is a themed silkscreen mask of El Santo (a famous Mexican luchador) over a simple discrete 555-timer LED blinker, not a microcontroller-based board. No event, price, quantity, or distribution details could be found; this may have been a personal/hobby project rather than a badge distributed at a specific convention. Left event as "other" since no con is named in any source. Fact-check correction (2026-09-07): the prior draft claimed both 2018-09-20 commits used the same company email domain, but only Francisco Gonzalez Canales''s commit does (831919@SOAM.TCS.com) -- Marco David Martinez''s commits, including the same day''s, use his personal markwinap@gmail.com. Corrected that source note and removed the incorrect inference from the body. Also downgraded status from "released" to "unknown": the repo holds KiCad design files, generated Gerbers, and layer-export PNGs, but no photo of an assembled board, storefront listing, or any account of the badge being built or given out was found, so "released" (people have it) was not supported by any source read.'
 last_modified_date: '2026-09-07'
 ---
 
 The Mexican_BadgeLife repository by GitHub user markwinap (Marco David Martinez) holds a single badge design called "El Santo," named for and shaped like the mask of the legendary Mexican luchador of the same name. Rather than using a microcontroller, the board is a straightforward analog blinker: an ICM7555 timer chip wired as an astable oscillator drives two white 3mm through-hole LEDs, powered by a CR2032 coin cell in a BS-7 holder, with a 2N3904 transistor and a handful of resistors and capacitors rounding out the circuit.
 
-The KiCad project (PCB and schematic) plus Inkscape SVG artwork and PNG silkscreen/copper layer exports were committed to the repository on September 20, 2018 by markwinap and a collaborator, Francisco Gonzalez Canales; both commits use company email addresses from the same employer, suggesting this may have started as a personal or workplace project rather than a badge made for a specific hackercon. The repository's README contains only the project title, and no press coverage, storefront listing, or social posts about the badge could be found, so its distribution, pricing, and quantity remain unknown. The hardware files are published under the GPL-3.0 license, making the design open for anyone to build.
+The KiCad project (PCB and schematic) plus Inkscape SVG artwork and PNG silkscreen/copper layer exports were committed to the repository on September 20, 2018 by markwinap and a collaborator, Francisco Gonzalez Canales, whose commit uses a company email address; this, together with the lack of any mention of a specific hackercon, suggests it may have started as a personal or workplace project rather than a badge made for a con. The repository's README contains only the project title, and no press coverage, storefront listing, or social posts about the badge could be found, so its distribution, pricing, quantity, and whether any board was ever actually built and worn remain unknown. The hardware files are published under the GPL-3.0 license, making the design open for anyone to build.

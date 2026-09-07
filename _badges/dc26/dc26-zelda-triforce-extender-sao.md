@@ -70,10 +70,10 @@ sources:
   accessed: '2026-09-07'
   note: Downloaded and listed archive contents to verify it is Gerber-only (no schematic/firmware); files are internally dated 2018-07-23, i.e. made just before DEF CON 26 (Aug 2018), confirming the event/year despite the later hackaday.io upload date.
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-07'
-  notes: The parent "Harbinger Shitty Add-on Badges" project page (a DC26 badge-hacking roundup by awkward intelligence) does not mention the Triforce piece by name in its own description; it is known only from the file listing and archive contents. No maker photo of the assembled/populated board was found - the project's photo gallery has six images from the July 2018 upload batch but none are captioned, so none could be confidently identified as this specific piece and none were saved. The Gerbers contain no silkscreen text indicating an MCU or LEDs, and the archive has no schematic or BOM, so it reads as a passive PCB (likely just a shaped SAO extender board); tech fields are left null/none rather than guessed. Price, quantity, and availability were not stated anywhere found.
+  notes: 'Fact-check (2026-09-07): re-fetched both hackaday.io pages and re-downloaded shittytriforce.zip independently; all claims held up. The project page confirms Defcon 26 (2018) and awkward intelligence, and names the Gucci Mane tattoo badge, Shitty Calvin, Mr. Robopoly, Thereminion, and Galaxia as siblings in the same project, but indeed does not mention the Triforce piece by name. The files listing confirms shittytriforce.zip is titled "Zelda Shitty add-on extender," 233.52 kB, uploaded 2019-03-04. The zip itself contains exactly 9 Gerber/drill files (front/back copper, silkscreen, solder mask, edge cuts, drill map), all internally dated 2018-07-23, and the Gerber headers explicitly read "Created by KiCad (PCBNEW 4.0.7...)", directly confirming the eda_tool field. No schematic, BOM, or firmware present, supporting tech.mcu: none and make_your_own.open_source: partial. The parent "Harbinger Shitty Add-on Badges" project page (a DC26 badge-hacking roundup by awkward intelligence) does not mention the Triforce piece by name in its own description; it is known only from the file listing and archive contents. No maker photo of the assembled/populated board was found, and none is included in this entry. Price, quantity, and availability were not stated anywhere found and remain empty.'
 last_modified_date: '2026-09-07'
 ---
 

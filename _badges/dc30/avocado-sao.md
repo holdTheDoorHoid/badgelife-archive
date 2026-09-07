@@ -14,9 +14,11 @@ makers:
 summary: A googly-eyed avocado-shaped SAO with a squishy 3D-printed "pit" that hides a random-flashing RGB LED.
 functions: The RGB LED inside the squishy avocado pit flashes random colors when the SAO is powered through a host badge's SAO header.
 look:
-  colors: [green]
+  colors:
+  - green
   shape: avocado
-  themes: [food]
+  themes:
+  - food
 tech:
   mcu: none
   leds:
@@ -45,15 +47,18 @@ links:
 - label: www.tindie.com/products/twinkletwinkie/twinkletwinkies-avocado-sao
   url: https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-avocado-sao/
   kind: store
+  archived: https://web.archive.org/web/20260503133803/https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-avocado-sao/
 images:
-  - file: assets/images/badges/dc30/avocado-sao/c878f6f698.jpg
-    source: "https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-avocado-sao/"
-    credit: "Twinkle Twinkie"
-    caption: "The Avocado SAO with googly eyes and RGB LED seed, connected via SAO header"
-  - file: assets/images/badges/dc30/avocado-sao/de3da82a67.jpg
-    source: "https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-avocado-sao/"
-    credit: "Twinkle Twinkie"
-    caption: "Avocado SAO shown with its SAOv2 female connector"
+- file: assets/images/badges/dc30/avocado-sao/c878f6f698.jpg
+  source: https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-avocado-sao/
+  credit: Twinkle Twinkie
+  caption: The Avocado SAO with googly eyes and RGB LED seed, connected via SAO header
+  archived: https://web.archive.org/web/20260503133803/https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-avocado-sao/
+- file: assets/images/badges/dc30/avocado-sao/de3da82a67.jpg
+  source: https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-avocado-sao/
+  credit: Twinkle Twinkie
+  caption: Avocado SAO shown with its SAOv2 female connector
+  archived: https://web.archive.org/web/20260503133803/https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-avocado-sao/
 contact: {}
 notes:
 - Available 18Jul2022
@@ -65,9 +70,10 @@ sources:
   updated: '2022-07-09'
 - kind: url
   url: https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-avocado-sao/
-  title: "TwinkleTwinkie's Avocado SAO - Tindie"
+  title: TwinkleTwinkie's Avocado SAO - Tindie
   accessed: '2026-09-06'
   note: Product description, price, power spec, connector, and package contents; product photos.
+  archived: https://web.archive.org/web/20260503133803/https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-avocado-sao/
 research:
   status: researched
   confidence: medium

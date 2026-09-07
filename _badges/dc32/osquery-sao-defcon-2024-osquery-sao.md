@@ -12,7 +12,7 @@ makers:
 - name: muffins
   url: https://github.com/muffins
 summary: A small ATtiny85-based SAO that drives eight NeoPixel LEDs, made for DEF CON 32 (2024) and branded for the osquery project.
-functions: Runs custom AVR firmware to light a strip of 8 addressable RGB LEDs; no interactive functions beyond LED patterns are documented.
+functions: Runs custom AVR firmware that drives a strip of 8 addressable RGB LEDs through a handful of color/animation modes (solid colors, breathing fade, running-light chase), with the active mode selectable over an I2C control interface (slave address 0x42); no other interactive functions are documented.
 look:
   colors: []
   shape: null
@@ -23,10 +23,11 @@ tech:
   mcu: ATtiny85
   leds:
     count: 8
-    type: WS2812B
+    type: WS2812
     note: 5050 SMD NeoPixels
   display: none
-  connectivity: []
+  connectivity:
+  - i2c
   battery: LiPo via JST connector
   sao_version: null
 get_one:
@@ -62,16 +63,16 @@ sources:
   url: https://github.com/muffins/osquery-sao
   title: 'muffins/osquery-sao: Repo for the source code running on DEFCON 2024 osquery SAO badge'
   accessed: '2026-09-07'
-  note: 'README and repo contents: confirms ATtiny85 MCU, 8x WS2812 5050 NeoPixels, LiPo/JST power, SAO connector, avrdude flashing fuse settings, Apache-2.0 license, and a full BOM with vendor links. Repo contains only src/README/license — no hardware/PCB files or images.'
+  note: 'README, BOM, LICENSE, and src/main.cpp contents verified directly: confirms ATtiny85 MCU, 8x WS2812 (not WS2812B) 5050 NeoPixels, LiPo/JST power, SAO connector, avrdude flashing fuse settings, Apache-2.0 license, a full BOM with vendor links, and that the firmware selects its LED mode over an I2C interface (slave address 0x42). Repo contains only .gitignore/.pio/.vscode/LICENSE/README.md/platformio.ini/src(main.cpp) — no hardware/PCB files or images.'
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-07'
-  notes: 'The GitHub repo (firmware only) is the only source found; no press coverage, storefront, Hackaday page, or photos of the physical badge turned up in web searches ("osquery SAO DEF CON 32 muffins", "osquery-sao DEF CON 32 photo", "osquery SAO badge giveaway 2024"). Price, quantity made, availability, colors, and shape are unknown — nothing about the physical appearance or distribution (e.g. whether it was an osquery-project giveaway at a DEF CON village/booth) is documented anywhere found. No image of the item could be located, so images remain empty.'
+  notes: 'Every non-empty field and factual sentence was checked directly against the cited GitHub repo (README, BOM section, LICENSE, and src/main.cpp), fetched a second time for this pass. Two corrections: tech.leds.type was WS2812B but the repo and BOM both say plain "WS2812" (not the B variant), so the body and tech field were fixed; tech.connectivity was empty but main.cpp shows the firmware is an I2C slave (address 0x42) that receives its mode/color selection over I2C, so connectivity: [i2c] was added and the functions field updated to describe it. No press coverage, storefront, Hackaday page, or photos of the physical badge turned up in web searches ("osquery SAO DEF CON 32 muffins", "osquery-sao DEF CON 32 photo", "osquery SAO badge giveaway 2024"), so price, quantity, availability, colors, shape, and images remain empty — this is a real gap, not an oversight. Everything else in the entry is supported by the one available source (the maker''s own repo), so status is set to verified rather than researched.'
 last_modified_date: '2026-09-07'
 ---
 
-The osquery-sao is a Simple Add-On built for DEF CON 32 (2024) and branded for the osquery open-source endpoint-visibility project. It is a minimal blinky board: an ATtiny85 microcontroller drives eight WS2812B (NeoPixel 5050) addressable RGB LEDs, powered by a small LiPo battery through a JST connector, and it plugs into a host badge via a standard SAO connector.
+The osquery-sao is a Simple Add-On built for DEF CON 32 (2024) and branded for the osquery open-source endpoint-visibility project. It is a minimal blinky board: an ATtiny85 microcontroller drives eight WS2812 (NeoPixel 5050) addressable RGB LEDs, with the active color/animation mode set over an I2C control interface, powered by a small LiPo battery through a JST connector, and it plugs into a host badge via a standard SAO connector.
 
 The maker, a GitHub user going by "muffins" (also active in the osquery open-source community, maintaining several osquery-related tooling repos), published only the firmware source and a parts BOM — DigiKey listings for the ATtiny85, resistor, switch, and JST connector, an Adafruit link for the NeoPixels, and a Tindie link for the SAO connector — under an Apache-2.0 license. No schematic, PCB layout, Gerbers, or photos of the finished board were published in the repo, and no independent coverage, storefront listing, or images of the physical SAO could be found elsewhere, so details like color, exact quantity made, and how it was distributed at DEF CON remain unknown.
 

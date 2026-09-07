@@ -103,10 +103,10 @@ sources:
   note: Third-party hands-on review; confirmed look/colors (red PCB, gold-mirrored acrylic, laser-etched skull/gear face), APA-102 LEDs, USB-C mass storage, quantity ("a few hundred"), and free-drop distribution model.
   archived: https://web.archive.org/web/20260511031103/https://hackaday.com/2020/08/07/hands-on-andxor-unofficial-dc28-badge-embraces-the-acrylic-stackup/
 research:
-  status: researched
+  status: verified
   confidence: high
   last_checked: '2026-09-07'
-  notes: Price and exact LED count not stated by any source found; left empty. sao_version and sao_ports not applicable/found (no SAO header mentioned). Some sources say USB-C, others just USB; recorded as usb pending clarity on connector type.
+  notes: Price and exact LED count not stated by any source found; left empty. sao_version and sao_ports not applicable/found (no SAO header mentioned). Hackaday.com hands-on specifies USB-C; recorded generically as usb per the guide's connectivity vocabulary. All other populated fields (MCU, LEDs, displays, keyboard, battery, colors/shape/themes, CTF stats, distribution, quantity, open-source repo, both images) were independently confirmed against the three cited sources during verification on 2026-09-07.
 last_modified_date: '2026-09-07'
 ---
 

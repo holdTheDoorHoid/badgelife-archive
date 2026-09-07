@@ -39,10 +39,11 @@ links:
 - kind: website
   label: dc404.org
   url: https://www.dc404.org/
+  archived: https://web.archive.org/web/20260519004931/https://dc404.org/
 images: []
 contact: {}
 notes:
-- 'Community sheet listed only the group name for DEF CON 31, with no badge title or details.'
+- Community sheet listed only the group name for DEF CON 31, with no badge title or details.
 status: unknown
 sources:
 - kind: sheet
@@ -53,30 +54,23 @@ sources:
   url: https://www.dc404.org/
   title: dc404.org | District Caucus 404 | Atlanta Hacker Community
   accessed: '2026-09-06'
-  note: 'Group site; no post or archive page about a DEF CON 31 (2023) badge or SAO was found.'
+  note: Group site; no post or archive page about a DEF CON 31 (2023) badge or SAO was found.
+  archived: https://web.archive.org/web/20260519004931/https://dc404.org/
 - kind: url
   url: https://github.com/orgs/DC404/repositories
   title: DC404 GitHub organization
   accessed: '2026-09-06'
-  note: 'Org repos are meeting-intro and DC27-SAO (2019); nothing dated to 2023/DEF CON 31.'
+  note: Org repos are meeting-intro and DC27-SAO (2019); nothing dated to 2023/DEF CON 31.
 - kind: url
   url: https://github.com/seeigecannon/DC404TrainingBadge
   title: seeigecannon/DC404TrainingBadge
   accessed: '2026-09-06'
-  note: 'A DC404 learn-to-solder badge repo, last updated August 2021 (matches the separate dc30-dc404-training-badge entry, not DC31).'
+  note: A DC404 learn-to-solder badge repo, last updated August 2021 (matches the separate dc30-dc404-training-badge entry, not DC31).
 research:
   status: researched
   confidence: low
   last_checked: '2026-09-06'
-  notes: >-
-    The community sheet lists only "DC404" (the Atlanta DEF CON group) as present at DEF CON 31
-    (2023), with no badge/SAO title or description. Checked the group's own site, its GitHub org,
-    and the earlier known DC404 "Learn to Solder" badge repo (which is dated 2021 and already
-    covered by the separate dc30-dc404-training-badge entry), plus GitHub and Hackaday.io searches
-    for a 2023-specific project. No badge or SAO tied specifically to DEF CON 31 was found. It is
-    possible the group brought a variant of their recurring training/learn-to-solder badge, or
-    nothing badge-related at all (just a group listing), but neither can be confirmed from
-    available sources. Leaving as unknown rather than guessing.
+  notes: The community sheet lists only "DC404" (the Atlanta DEF CON group) as present at DEF CON 31 (2023), with no badge/SAO title or description. Checked the group's own site, its GitHub org, and the earlier known DC404 "Learn to Solder" badge repo (which is dated 2021 and already covered by the separate dc30-dc404-training-badge entry), plus GitHub and Hackaday.io searches for a 2023-specific project. No badge or SAO tied specifically to DEF CON 31 was found. It is possible the group brought a variant of their recurring training/learn-to-solder badge, or nothing badge-related at all (just a group listing), but neither can be confirmed from available sources. Leaving as unknown rather than guessing.
 last_modified_date: '2026-09-06'
 ---
 

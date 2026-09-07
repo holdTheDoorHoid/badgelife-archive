@@ -50,6 +50,7 @@ links:
 - label: sqearlsalazar's Tindie store
   url: https://www.tindie.com/stores/sqearlsalazar/
   kind: store
+  archived: https://web.archive.org/web/20260503113838/https://www.tindie.com/stores/sqearlsalazar/
 images: []
 contact: {}
 notes:

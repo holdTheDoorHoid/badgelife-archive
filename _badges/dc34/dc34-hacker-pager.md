@@ -12,7 +12,7 @@ makers:
 - name: exploitee.rs
   url: https://exploitee.rs/
 summary: 2026 edition of exploitee.rs's retro-styled LoRa/Meshtastic wireless messenger, sold as DEF CON 34 conference pickup with a new transparent SLA resin body and clear, fluorescent-yellow or fluorescent-orange acrylic panels, built on an ESP32-S3 and Semtech SX1262 with a 192x64 LCD and 36 RGB plus 12 UV LEDs.
-functions: 'Standalone Meshtastic messaging over LoRa with no phone required (a companion app is optional); .pcap packet capture for protocol analysis; spectrum analysis in the 850-950 MHz range; a built-in CHIP-8 virtual machine for retro games; BadUSB script support; custom notification melodies and channel configuration through its own on-device UI.'
+functions: Standalone Meshtastic messaging over LoRa with no phone required (a companion app is optional); .pcap packet capture for protocol analysis; spectrum analysis in the 850-950 MHz range; a built-in CHIP-8 virtual machine for retro games; BadUSB script support; custom notification melodies and channel configuration through its own on-device UI.
 look:
   colors:
   - clear
@@ -48,7 +48,7 @@ get_one:
   - purchase
   where: DEF CON 34 conference pickup (Aug 4 and 6, 2026) and shop.exploitee.rs; sold out as of the September 7, 2026 check, with online restocking for U.S. shipping planned for late September 2026.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/exploiteers/Electronics-Design-Exploiteers-Hacker-Pager
   firmware_url: https://github.com/exploiteers/Meshtastic-Exploiteers-Hacker-Pager
   eda_tool: null
@@ -70,13 +70,13 @@ links:
   kind: repo
 images:
 - file: assets/images/badges/dc34/dc34-hacker-pager/1ee1b0db34.jpg
-  source: "https://hackerpager.net/"
-  credit: "exploitee.rs"
-  caption: "The Hacker Pager, front view, clear resin body with LCD and RGB LED array"
+  source: https://hackerpager.net/
+  credit: exploitee.rs
+  caption: The Hacker Pager, front view, clear resin body with LCD and RGB LED array
 - file: assets/images/badges/dc34/dc34-hacker-pager/45e1a32df3.jpg
-  source: "https://hackerpager.net/"
-  credit: "exploitee.rs"
-  caption: "The Hacker Pager, back view showing internal PCB through clear resin body"
+  source: https://hackerpager.net/
+  credit: exploitee.rs
+  caption: The Hacker Pager, back view showing internal PCB through clear resin body
 contact: {}
 notes: []
 status: released
@@ -90,23 +90,26 @@ sources:
   url: https://hackerpager.net/
   title: The Hacker Pager | exploitee.rs
   accessed: '2026-09-07'
-  note: "Confirmed maker, features, MCU (ESP32-S3), radio (SX1262), display, LED counts, DEF CON 34 pickup dates, firmware repo link, and image URLs (dc34front.webp, dc34back.webp)."
+  note: Confirmed maker, features, MCU (ESP32-S3), radio (SX1262), display, LED counts, DEF CON 34 pickup dates, firmware repo link, and image URLs (dc34front.webp, dc34back.webp).
 - kind: url
   url: https://shop.exploitee.rs/shop/p/the-hacker-pager
   title: The Hacker Pager - exploitee.rs shop
   accessed: '2026-09-07'
-  note: "Confirmed price ($250, limit 2/order), sold-out status, restock timing, dimensions, color/finish options (clear standard, yellow/clear and orange/clear limited, Philanthropist blind-bag edition), Bluetooth/Wi-Fi connectivity, and box contents (microSD card, lanyard, desk stand)."
+  note: Confirmed price ($250, limit 2/order), sold-out status, restock timing, dimensions, color/finish options (clear standard, yellow/clear and orange/clear limited, Philanthropist blind-bag edition), Bluetooth/Wi-Fi connectivity, and box contents (microSD card, lanyard, desk stand).
 - kind: url
   url: https://github.com/exploiteers/Meshtastic-Exploiteers-Hacker-Pager
   title: exploiteers/Meshtastic-Exploiteers-Hacker-Pager
   accessed: '2026-09-07'
-  note: "Confirmed the firmware is an open-source fork of Meshtastic with hardware-specific modifications; repo includes a LICENSE file (specific license not read)."
+  note: Confirmed the firmware is an open-source fork of Meshtastic with hardware-specific modifications; repo includes a LICENSE file (specific license not read).
 research:
-  status: researched
+  status: verified
   confidence: high
   last_checked: '2026-09-07'
-  notes: "Quantity made is not stated anywhere found; the shop page gives a per-order limit (2) but not total units produced. Exact license text in the firmware repo's LICENSE file was not read (WebFetch summary only). This is exploitee.rs's second annual Hacker Pager; the DC33 edition has its own entry at _badges/dc33/hacker-pager.md, so this dc34 entry covers only the 2026/DC34 version (new transparent resin body, yellow/orange acrylic panel options, 48 total LEDs vs. earlier claims of 36+12 in some copy)."
+  notes: 'Fact-check pass (2026-09-07): re-fetched hackerpager.net, shop.exploitee.rs, and all three linked GitHub repos (firmware, electronics, case). Every non-empty field and body sentence is supported: maker, ESP32-S3 MCU, SX1262 radio, 192x64 LCD, 36 RGB + 12 UV LEDs, Bluetooth/Wi-Fi/USB-C/LiPo, functions (pcap capture, spectrum analysis, CHIP-8, BadUSB, custom melodies), price $250, sold_out status, Aug 4/6 2026 pickup, late-September restock, open-source hardware+firmware links, both saved images (front/back) match hackerpager.net''s own product photos. No corrections needed. Quantity made is still not stated anywhere found; exact firmware license text was not fully read. Incidentally confirmed but left unfilled per no-new-research scope: the electronics repo states KiCad as its EDA tool and CERN-OHL-S v2 as its hardware license (tech.eda_tool/license remain null/empty pending a dedicated research pass). This is exploitee.rs''s second annual Hacker Pager; the DC33 edition has its
+    own entry at _badges/dc33/hacker-pager.md.'
 last_modified_date: '2026-09-07'
+related:
+- dc33-hacker-pager
 ---
 
 The Hacker Pager is exploitee.rs's second annual conference wireless messenger, sold to DEF CON 34 attendees in August 2026 with online restocking to follow. It is a standalone LoRa/Meshtastic mesh-networking device built around an ESP32-S3 microcontroller and a Semtech SX1262 radio, with a 192x64 monochrome LCD, 36 addressable RGB LEDs plus 12 UV LEDs, Bluetooth and Wi-Fi, and USB-C-rechargeable LiPo power. Beyond messaging, it doubles as a LoRa toolkit: it can capture packets to .pcap files for analysis, run a spectrum analyzer across 850-950 MHz, execute BadUSB scripts, and run CHIP-8 games through a built-in virtual machine.

@@ -32,7 +32,7 @@ get_one:
   distribution: []
   where: ''
 make_your_own:
-  open_source: yes
+  open_source: partial
   hardware_url: https://hackaday.io/project/161117-nibbler
   firmware_url: null
   eda_tool: KiCad
@@ -60,10 +60,10 @@ sources:
   accessed: '2026-09-07'
   note: "Project page: maker's own summary (\"I only had a small handful of these at DEF CON. Now I'm making the files public so you can have your own made.\"), KiCad/Gerber file package (823.14 kB, uploaded 2018-09-10), and the single project photo used above. Page gives no MCU/LED/display/price/quantity details."
 research:
-  status: researched
+  status: verified
   confidence: medium
   last_checked: '2026-09-07'
-  notes: "The hackaday.io project page is very minimal (title, one-line description, one photo, and a KiCad/Gerber download) and gives no chip, LED, display, price, or exact-quantity details -- the maker only says it was a 'small handful' given out at DEF CON 26 (2018). No press coverage or storefront listing found. Event/year already matched (dc26 = DEF CON 26, 2018), no correction needed."
+  notes: "Fact-check pass (2026-09-07): re-fetched the hackaday.io project page and confirmed the og:title (\"Nibbler\"), og:description quote, the KiCad/Gerber download (823.14 kB, uploaded 2018-09-10), and that the saved image (assets/images/badges/dc26/nibbler-sao/d7de276711.jpg) is the same photo as the page's og:image (matched visually; the saved file is a higher-resolution/uncropped version of the 600x600 CDN thumbnail). Corrected make_your_own.open_source from 'yes' to 'partial' per the guide's vocabulary: only hardware (KiCad + Gerbers) is published, no firmware file is offered, so 'yes' (hardware and firmware) overstated it. All other non-empty fields and body sentences are supported by the cited hackaday.io page. The hackaday.io/hacker/308303-twinkletwinkie maker profile URL could not be independently re-verified -- Hackaday.io now redirects that profile URL to a login page for anonymous fetches -- but the username matches the project page's stated creator ('TwinkleTwinkie') and the link is not contradicted by anything found, so it was left in place. No press coverage or storefront listing found; the maker only says it was a 'small handful' given out at DEF CON 26 (2018). Event/year already matched (dc26 = DEF CON 26, 2018), no correction needed."
 last_modified_date: '2026-09-07'
 ---
 

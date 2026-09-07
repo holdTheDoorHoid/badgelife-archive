@@ -60,16 +60,16 @@ links:
   kind: website
 images:
 - file: assets/images/badges/dc31/shitpad-sao-cannot-wait-to-see-this-one/78f694f2d1.jpg
-  source: "https://www.tindie.com/products/dc_punks/shtpad-sao/"
-  credit: "DC Punks"
-  caption: "Sh*tPad SAO front, styled as an IBM/Lenovo ThinkPad X200 with a small screen and keyboard silkscreen"
+  source: https://www.tindie.com/products/dc_punks/shtpad-sao/
+  credit: DC Punks
+  caption: Sh*tPad SAO front, styled as an IBM/Lenovo ThinkPad X200 with a small screen and keyboard silkscreen
 - file: assets/images/badges/dc31/shitpad-sao-cannot-wait-to-see-this-one/7b52d5b12b.jpg
-  source: "https://www.tindie.com/products/dc_punks/shtpad-sao/"
-  credit: "DC Punks"
-  caption: "Sh*tPad SAO back, showing the Digispark (ATtiny85) module, 6-pin SAO header, and anti-Lenovo joke silkscreen"
+  source: https://www.tindie.com/products/dc_punks/shtpad-sao/
+  credit: DC Punks
+  caption: Sh*tPad SAO back, showing the Digispark (ATtiny85) module, 6-pin SAO header, and anti-Lenovo joke silkscreen
 contact: {}
 notes:
-- 'Sheet listed the title as "Shitpad SAO (cannot wait to see this one)"; the maker''s own product name is "Sh*tPad SAO", and the Tindie URL slug is "shtpad-sao" (no "i").'
+- Sheet listed the title as "Shitpad SAO (cannot wait to see this one)"; the maker's own product name is "Sh*tPad SAO", and the Tindie URL slug is "shtpad-sao" (no "i").
 status: released
 sources:
 - kind: sheet
@@ -80,7 +80,7 @@ sources:
   url: https://web.archive.org/web/20240526000820/https://www.tindie.com/products/dc_punks/shtpad-sao/
   title: Sh*tPad SAO from DC Punks on Tindie (Wayback Machine capture)
   accessed: '2026-09-07'
-  note: 'Confirmed maker, price ($23.00), product description ("bringing back the Sh*tpad SAO for DC31... 2x the stock"), features (super bright white LED, Linux kernel x86 boot entry running forever), category (Electronic Badges), and sold-out-since-2023-09-09 status.'
+  note: Confirmed maker, price ($23.00), product description ("bringing back the Sh*tpad SAO for DC31... 2x the stock"), features (super bright white LED, Linux kernel x86 boot entry running forever), category (Electronic Badges), and sold-out-since-2023-09-09 status.
 - kind: url
   url: https://www.tindie.com/products/dc_punks/shtpad-sao/
   title: Sh*tPad SAO from DC Punks on Tindie (live page)
@@ -95,18 +95,10 @@ research:
   status: researched
   confidence: high
   last_checked: '2026-09-07'
-  notes: >-
-    The community sheet's row for this entry was itself the joke title ("cannot
-    wait to see this one"); the item is real and documented on Tindie. This was
-    a rerun of an earlier "Sh*tPad SAO" the maker had sold before, brought back
-    with double the stock for DEF CON 31, and it sold out by September 9, 2023.
-    The back of the board identifies the MCU as a Digispark (ATtiny85) module
-    and shows a 6-pin SAO header (v2/v1.69bis style); the front carries a small
-    screen (not just an LED) that plays a scrolling fake Linux boot log, per
-    the maker's own "Linux Kernel x86 boot entry running forever" description.
-    Quantity made and open-source status were not stated anywhere found and are
-    left empty.
+  notes: The community sheet's row for this entry was itself the joke title ("cannot wait to see this one"); the item is real and documented on Tindie. This was a rerun of an earlier "Sh*tPad SAO" the maker had sold before, brought back with double the stock for DEF CON 31, and it sold out by September 9, 2023. The back of the board identifies the MCU as a Digispark (ATtiny85) module and shows a 6-pin SAO header (v2/v1.69bis style); the front carries a small screen (not just an LED) that plays a scrolling fake Linux boot log, per the maker's own "Linux Kernel x86 boot entry running forever" description. Quantity made and open-source status were not stated anywhere found and are left empty.
 last_modified_date: '2026-09-07'
+related:
+- dc30-sao-pad-shitty-addon-thinkpad
 ---
 
 DC Punks — the maker duo of Kay Kidoutai and NeonPlaidPants, based in the United States — brought back their "Sh*tPad SAO" for DEF CON 31, doubling the print run after fans of an earlier batch kept asking for it. The SAO is a tongue-in-cheek shrunken ThinkPad: a black PCB silkscreened with a keyboard and an "X200" badge on the front, topped with a small screen that endlessly loops a fake Linux kernel x86 boot log, lit by what the maker calls a "SUPER BRIGHT WHITE LED so you can type in the dark." The back leans further into the joke, with IBM and "Lenowo" logos, an anti-Lenovo jab ("thinkpads are shit. trust me I have three of them"), and the actual hardware: a Digispark (ATtiny85) module wired to a 6-pin SAO header.

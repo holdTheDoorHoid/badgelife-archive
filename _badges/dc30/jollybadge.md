@@ -43,18 +43,18 @@ get_one:
   price_usd: 25.0
   quantity: 50 for sale, plus additional units hidden around the venue as free finds
   availability: sold_out
-  availability_note: 'Sold out during DEF CON 30 (August 2022); checked 2026-09-07, no longer offered anywhere.'
+  availability_note: Sold out during DEF CON 30 (August 2022); checked 2026-09-07, no longer offered anywhere.
   distribution:
   - purchase
   - free_drop
-  where: 'Sold in person at DEF CON 30 for $25 (50 made), with more copies hidden around the con as a scavenger hunt; clues to the hidden badges were posted on the maker''s @GetJollyBadge account.'
+  where: Sold in person at DEF CON 30 for $25 (50 made), with more copies hidden around the con as a scavenger hunt; clues to the hidden badges were posted on the maker's @GetJollyBadge account.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/imjollyroger/JollyBadge_DC30/tree/main/hw/dc30
   firmware_url: https://github.com/imjollyroger/JollyBadge_DC30/tree/main/fw
   eda_tool: KiCad
   license: MIT
-  notes: 'Repo also includes a separate small "programmer" PCB (hw/programmer/dc30-programmer) used to flash badges. Firmware is Arduino/SAMD-based C++, split into per-challenge .ino files (NFC, Morse, binary, serial, data dump, crypto, temperature, spin, plus setup/state/animation).'
+  notes: Repo also includes a separate small "programmer" PCB (hw/programmer/dc30-programmer) used to flash badges. Firmware is Arduino/SAMD-based C++, split into per-challenge .ino files (NFC, Morse, binary, serial, data dump, crypto, temperature, spin, plus setup/state/animation).
 links:
 - label: twitter.com/GetJollyBadge
   url: https://twitter.com/GetJollyBadge
@@ -65,11 +65,12 @@ links:
 - label: jollybadge.com (current JollyBadge series site)
   url: https://www.jollybadge.com
   kind: website
+  archived: https://web.archive.org/web/20260422054154/https://www.jollybadge.com/
 images:
-  - file: assets/images/badges/dc30/jollybadge/2a0692fa1f.jpg
-    source: "https://twitter.com/GetJollyBadge/status/1554183524730580998"
-    credit: "Jolly Roger (@GetJollyBadge)"
-    caption: "JollyBadge_DC30 board: 8 addressable RGB LEDs ringing a skull-and-crossbones badge outline, powering on"
+- file: assets/images/badges/dc30/jollybadge/2a0692fa1f.jpg
+  source: https://twitter.com/GetJollyBadge/status/1554183524730580998
+  credit: Jolly Roger (@GetJollyBadge)
+  caption: 'JollyBadge_DC30 board: 8 addressable RGB LEDs ringing a skull-and-crossbones badge outline, powering on'
 contact: {}
 notes:
 - Follow @GetJollyBadge on twitter for free drop hints.
@@ -82,14 +83,14 @@ sources:
   updated: '2022-07-09'
 - kind: url
   url: https://twitter.com/GetJollyBadge
-  title: 'JollyBadge (@GetJollyBadge) / X'
+  title: JollyBadge (@GetJollyBadge) / X
   accessed: '2026-09-06'
   note: Current profile; confirms series continuity into DC32/DC33 and links to jollybadge.com.
 - kind: url
   url: https://web.archive.org/web/20220801191352/https://twitter.com/GetJollyBadge/status/1554183528501448706
-  title: 'JollyBadge_DC30 announcement thread (Aug 1, 2022)'
+  title: JollyBadge_DC30 announcement thread (Aug 1, 2022)
   accessed: '2026-09-06'
-  note: 'Confirms 8 sequential challenges, a prize for solving all before closing ceremonies, 50 for sale at $25, additional hidden badges, and CR2032 power.'
+  note: Confirms 8 sequential challenges, a prize for solving all before closing ceremonies, 50 for sale at $25, additional hidden badges, and CR2032 power.
 - kind: url
   url: https://web.archive.org/web/2022id_/https://twitter.com/GetJollyBadge/status/1546563923637420034
   title: JollyBadge power-management reply (Jul 2022, pre-con)
@@ -104,17 +105,18 @@ sources:
   url: https://github.com/imjollyroger/JollyBadge_DC30
   title: imjollyroger/JollyBadge_DC30 (GitHub)
   accessed: '2026-09-06'
-  note: 'Firmware (fw/a_GLOBAL, Arduino/SAMD C++ using Adafruit_NeoPixel, ArduinoLowPower, ST25DVSensor, MPU6050_light) and KiCad hardware (hw/dc30) under MIT license. Confirms SAMD21-class MCU, 8 NeoPixels, NFC (ST25DV) and IMU (MPU6050) peripherals.'
+  note: Firmware (fw/a_GLOBAL, Arduino/SAMD C++ using Adafruit_NeoPixel, ArduinoLowPower, ST25DVSensor, MPU6050_light) and KiCad hardware (hw/dc30) under MIT license. Confirms SAMD21-class MCU, 8 NeoPixels, NFC (ST25DV) and IMU (MPU6050) peripherals.
 - kind: url
   url: https://www.jollybadge.com
-  title: 'JollyBadge [V2] - The Final Batch'
+  title: JollyBadge [V2] - The Final Batch
   accessed: '2026-09-06'
   note: Current site for the V2/DC33 successor badge; used only to confirm the series and maker's ongoing branding, not for DC30-specific facts.
+  archived: https://web.archive.org/web/20260422054154/https://www.jollybadge.com/
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-06'
-  notes: 'Core facts (challenges, price, quantity, distribution, battery, MCU family, LED count, NFC/IMU peripherals, open-source hardware/firmware) confirmed directly from the maker''s own DC30-era tweets (via Wayback Machine, since the live account no longer shows 2022 posts without login) and the maker''s own GitHub repo. The IMU (MPU6050) is present in firmware but its initialization call is commented out in setup(), so it may not have been active in the shipped build; noted rather than guessed at. Exact PCB solder-mask color and precise LED part number (e.g. WS2812B vs SK6812) were not confirmed by a written source, only inferred from the board photo and the NeoPixel library choice, so colors/leds.type are left as best-supported approximations rather than exact. No individual review or press coverage (Hackaday, etc.) was found for this specific year''s badge.'
+  notes: Core facts (challenges, price, quantity, distribution, battery, MCU family, LED count, NFC/IMU peripherals, open-source hardware/firmware) confirmed directly from the maker's own DC30-era tweets (via Wayback Machine, since the live account no longer shows 2022 posts without login) and the maker's own GitHub repo. The IMU (MPU6050) is present in firmware but its initialization call is commented out in setup(), so it may not have been active in the shipped build; noted rather than guessed at. Exact PCB solder-mask color and precise LED part number (e.g. WS2812B vs SK6812) were not confirmed by a written source, only inferred from the board photo and the NeoPixel library choice, so colors/leds.type are left as best-supported approximations rather than exact. No individual review or press coverage (Hackaday, etc.) was found for this specific year's badge.
 last_modified_date: '2026-09-06'
 ---
 

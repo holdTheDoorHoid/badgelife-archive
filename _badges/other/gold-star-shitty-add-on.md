@@ -69,7 +69,7 @@ sources:
   accessed: '2026-09-07'
   note: 'gold-star.kicad_pcb is a 51-byte KiCad placeholder ("dummy file") with no actual board layout, so only the schematic and a star.svg graphic are real design content; no Gerbers or finished PCB exist in the repo.'
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-07'
   notes: >-

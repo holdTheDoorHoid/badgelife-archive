@@ -47,7 +47,7 @@ make_your_own:
   open_source: yes
   hardware_url: https://github.com/timonsku/Numberwang-Badge
   firmware_url: https://github.com/timonsku/Numberwang-Badge
-  eda_tool: null
+  eda_tool: Eagle
 links:
 - label: github.com/timonsku/Numberwang-Badge
   url: https://github.com/timonsku/Numberwang-Badge
@@ -65,10 +65,6 @@ images:
   source: "https://hackaday.io/project/167356-numberwang-badge"
   credit: "timonsku"
   caption: "The Numberwang Badge, lit up and worn on a lanyard at CCCamp19"
-- file: assets/images/badges/cccamp-2019/numberwang-badge/b2b0d62de2.jpg
-  source: "https://github.com/timonsku/Numberwang-Badge"
-  credit: "timonsku"
-  caption: "The assembled board, showing the bodge wire needed to fix a design bug in the audio amp connection"
 contact: {}
 notes: []
 status: released
@@ -90,16 +86,16 @@ sources:
   accessed: '2026-09-07'
   note: 'Confirms it was made for the Numberwang village at CCCamp19, "does blinkies and sound," and that unpopulated PCBs were handed out directly by the maker to interested attendees. Project cover photo saved as an image.'
 research:
-  status: researched
+  status: verified
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'Maker-published GitHub repo (BOM, schematics, firmware) confirms the core hardware facts. The board is Eagle-designed (.sch/.brd files), not KiCad, so eda_tool is left null rather than guessed. Quantity made and any price beyond "free" are not stated anywhere found. The Twitter/X status link (video demo) could not be fetched (HTTP 402 from x.com); left as an unreached social link. The BOM lists only two single-color discrete LEDs, which does not match a "DotStar LEDs" claim from the original community sheet import - that claim was dropped as unconfirmed. The Hackaday project cover photo shows the badge''s "numberwang" silkscreen text lit in a multicolor gradient; this may be a long-exposure/motion effect rather than evidence of addressable LEDs, since it is not supported by the BOM.'
+  notes: 'Fact-check pass (2026-09-07): re-fetched the GitHub repo (README, raw BOM.csv, PCB/ folder listing) and the Hackaday.io project page, and confirmed every remaining hardware/distribution claim (ATSAMD21G18, MAX98357A, W25Q16JVSSIQ flash, MCP73831T LiPo charger, AP2112K-3.3 regulator, reversed-polarity JST-PH 2.0, two discrete 0805 LEDs only, Eagle .sch/.brd files, "handed out unpopulated PCBs" distribution, village/CCCamp19 context, and the README''s own wording of the audio-bodge-wire bug). Corrected two errors found during this pass: (1) eda_tool had been set to null with a stated rationale that Eagle "is not one of the listed vocab options" - that is incorrect, Eagle is explicitly in the guide''s eda_tool vocabulary, so it is now set to Eagle. (2) The second image (b2b0d62de2.jpg, captioned as a photo of "the assembled board, showing the bodge wire") was actually the repo''s Bodge-Fix-Audio.png - an Eagle PCB-layout screenshot with an instructional text overlay ("Connect SAMD Pin 12 ... with wire"), not a photograph of a physically assembled board or a soldered bodge wire. Removed the image file and its entry; the guide requires photos of the item itself, and the caption misdescribed what the image actually showed. Corrected the body text''s "documented with a reference photo" to "documented with a reference diagram" to match. The remaining image (00ca752b29.jpg, the Hackaday cover photo of the badge lit up on a lanyard) was viewed directly and matches its caption and the multicolor-"numberwang"-text discrepancy already noted below. Quantity made and any price beyond "free" remain unstated in any source found. The Twitter/X status link (video demo) could not be fetched (HTTP 402 from x.com) and remains an unreached social link. The BOM lists only two single-color discrete LEDs, which does not match a "DotStar LEDs" claim from the original community-sheet import; that claim stays dropped as unconfirmed. The photo''s multicolor lit "numberwang" text is most likely a long-exposure/motion effect rather than evidence of addressable LEDs, since it is not supported by the BOM - noted here as a source disagreement, not stated as fact in the body.'
 last_modified_date: '2026-09-07'
 ---
 
 The Numberwang Badge was a self-described "stupid last minute project" that maker timonsku (GitHub) put together for the Numberwang village at CCCamp19 in 2019 - a village built as a running gag around the fictional game "Numberwang" from the British sketch show *That Mitchell and Webb Look*. Rather than selling or raffling the board, timonsku handed out unpopulated PCBs directly to anyone at camp who was interested, with the expectation that recipients would source parts themselves (mostly from LCSC or Mouser) and solder the board by hand.
 
-Electrically, the badge is close to a clone of Adafruit's Itsy Bitsy M0, built around an ATSAMD21G18 microcontroller with the same pinout, plus an added LiPo charge circuit (using a JST-PH 2.0 connector wired with reversed polarity to match batteries the maker could actually buy in Germany). A MAX98357A I2S amplifier drives audio playback of Numberwang sound clips, and a Winbond W25Q16 SPI flash chip stores data alongside the SAMD21's own flash. The board shipped with a known bug - a mis-named signal left the amp's input floating - fixed with a single bodge wire that the maker documented with a reference photo. Two discrete 0805 LEDs (an orange charge indicator and a red status LED) round out the board's visual feedback; no addressable LED strip appears in the bill of materials, despite a multicolor lit-up "numberwang" effect visible in the project's cover photo.
+Electrically, the badge is close to a clone of Adafruit's Itsy Bitsy M0, built around an ATSAMD21G18 microcontroller with the same pinout, plus an added LiPo charge circuit (using a JST-PH 2.0 connector wired with reversed polarity to match batteries the maker could actually buy in Germany). A MAX98357A I2S amplifier drives audio playback of Numberwang sound clips, and a Winbond W25Q16 SPI flash chip stores data alongside the SAMD21's own flash. The board shipped with a known bug - a mis-named signal left the amp's input floating - fixed with a single bodge wire that the maker documented with a reference diagram. Two discrete 0805 LEDs (an orange charge indicator and a red status LED) round out the board's visual feedback; no addressable LED strip appears in the bill of materials, despite a multicolor lit-up "numberwang" effect visible in the project's cover photo.
 
 ## Make your own
 

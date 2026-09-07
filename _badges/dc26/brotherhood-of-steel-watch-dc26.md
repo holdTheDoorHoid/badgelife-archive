@@ -72,10 +72,10 @@ sources:
   note: 'Re-read in full: confirms description, features (bubble displays, toggle switches, d-pad, laser diode, Adafruit GPS, Honeywell compass, NXP ARM MCU, 400 mAh LiPo), and the two photos used above. No maker name, project page, price, or availability info given anywhere on the page.'
   archived: https://web.archive.org/web/20260609122657/https://hackaday.com/2018/08/14/all-the-badges-of-def-con-26-vol-1/
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-07'
-  notes: Only source found is the single Hackaday roundup paragraph and its two photos; the article gives no maker name, no project/repo link, and no price/quantity/availability info. A web search for the maker or a dedicated project page (Hackaday.io, GitHub, Reddit) turned up nothing beyond this same article. Likely a one-off HHV build rather than a distributed badge, so get_one and make_your_own fields are left empty rather than guessed.
+  notes: 'Fact-check pass (2026-09-07): re-fetched the Hackaday article and confirmed every populated field and every sentence in the body against it verbatim (bubble displays, four toggle switches, d-pad, laser diode, Adafruit GPS, Honeywell compass, NXP ARM controller, 400 mAh LiPo, no maker/price/availability given). Both saved images match the two photos on the page (full device, and internals with case open). No contradictions found; nothing to remove. Confidence stays low because only one source exists and it lacks maker name, price, or availability info.'
 last_modified_date: '2026-09-07'
 ---
 

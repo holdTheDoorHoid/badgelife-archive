@@ -32,7 +32,7 @@ tech:
   battery: null
   sao_version: none
 get_one:
-  price: '$27.20 for a 3-board OSH Park order (community pricing)'
+  price: '$27.20 (OSH Park community order total; per-board/quantity breakdown not stated)'
   price_usd: 27.20
   quantity: 'several thousand'
   availability: unknown
@@ -43,7 +43,7 @@ make_your_own:
   open_source: yes
   hardware_url: https://hackaday.io/project/25150-the-official-hackaday-defcon-25-badge
   firmware_url: null
-  eda_tool: null
+  eda_tool: Eagle
   gerbers_url: https://oshpark.com/shared_projects/A3QUDyAk
 links:
 - label: hackaday.io/project/25150-the-official-hackaday-defcon-25-badge
@@ -82,12 +82,12 @@ sources:
   url: https://oshpark.com/shared_projects/A3QUDyAk
   title: OSH Park shared project - The Official Hackaday DEFCON 25 Badge
   accessed: '2026-09-07'
-  note: "Confirmed board dimensions (2-layer, 70.3 x 50.0 mm / 2.77 x 1.97 in), uploaded 2017-06-02, and community OSH Park order price of $27.20 for a standard 3-board run. Provided the two saved image URLs."
+  note: "Confirmed board dimensions (2-layer, 70.3 x 50.0 mm / 2.77 x 1.97 in), uploaded 2017-06-02, and a community OSH Park order total price of $27.20 (per-board/quantity breakdown not shown on page). Provided the two saved image URLs."
 research:
-  status: researched
+  status: verified
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'Core facts (maker, event/year, dimensions, non-functional artwork-only design, soldermask color options, OSH Park/Seeed manufacture, "several thousand" units) come from the maker''s own Hackaday.io project page and his OSH Park shared-project listing, so this is close to a maker-confirmed record; confidence is medium rather than high because neither page gives an exact quantity or a definitive statement of how badges were distributed to attendees (assumed free hand-out at DEF CON 25, consistent with it being Hackaday''s own joke badge, but not stated in so many words). No MCU, LEDs, or SAO header - this is a plain decorative PCB. Exact retail/hand-out price is unknown; the $27.20 figure is what OSH Park charges for a 3-board community order today, not what Hackaday paid for its bulk run via Seeed. No firmware exists (none needed). Could not run additional web searches to corroborate further (session search budget exhausted).'
+  notes: 'Re-verified 2026-09-07 by re-fetching both cited sources (Hackaday.io project page, OSH Park shared-project page) and inspecting both saved images. All non-empty fields and body sentences confirmed: maker team (Benchoff with Jasmine Brackett and Hyr0n), event/year, board dimensions (70.3 x 50.0 mm, 2-layer, matches OSH Park page exactly), non-functional artwork-only design, lanyard drill hole ("advanced lanyard technology"), soldermask colors (green, black, red confirmed as produced; purple and gold confirmed as OSH Park options - both images show purple/lavender boards, consistent), OSH Park/Seeed manufacture, "several thousand" units, and the attached files (StupidBadge.brd, StupidGerbers.zip, three .bmp art files) including the EDA tool (Eagle, from the .brd extension - added to make_your_own.eda_tool, previously left null). Corrected get_one.price: the OSH Park page shows a $27.20 total but does not state how many boards that covers, so the earlier "3-board order" wording was an unconfirmed assumption and has been softened. Confidence stays medium (not high) because no source gives an exact unit count or an explicit statement that badges were free at DEF CON 25 - that distribution detail remains a reasonable but unconfirmed inference. No MCU/LEDs/display/SAO - correctly left none/null. Contact left empty; nothing published by the maker to add.'
 last_modified_date: '2026-09-07'
 ---
 

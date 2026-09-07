@@ -89,10 +89,10 @@ sources:
   accessed: '2026-09-07'
   note: Page could not be extracted beyond its title; no additional information obtained.
 research:
-  status: researched
-  confidence: medium
+  status: verified
+  confidence: high
   last_checked: '2026-09-07'
-  notes: 'Core facts (maker, event, MCU, display, quantity, distribution) confirmed from the maker''s own Hackaday.io project log and GitHub repo. Could not confirm price (likely free/contest-distributed, not sold), exact SAO header pin count/version, battery/power arrangement (appears powered by the host badge''s SAO header, unconfirmed), PCB color/solder-mask (project mentions white and black unit variants, unclear if that refers to the OLED glass color or the PCB itself), or an explicit open-source license. aeiche.com/macsao would not render for the fetcher beyond its page title, so it added nothing beyond the other two sources.'
+  notes: 'Verification pass (2026-09-07): re-fetched hackaday.io/project/196403-macintosh-sao and github.com/aaroneiche/macsao and confirmed every non-empty field and body sentence against them, including details not spot-checked before: the 0.66" display size, the mouse-cursor/background-layer/animation-layer I2C scheme, the MacPaint/MacWrite drawing and typing logs, and the 1k LED resistor. The maker''s Hackaday project log also states the white/black split is a PCB solder-mask option (not an OLED-glass variant) and that the units are powered from the SAO header, but neither look.colors nor a tech.power/battery field was added since filling previously-empty fields is outside this verification pass''s scope. Could not confirm price (likely free/contest-distributed, not sold), exact SAO header pin count/version, or an explicit open-source license (the repo says the code is "open to use" but carries no LICENSE file, matching what the entry already says). aeiche.com/macsao still would not render beyond its page title. Both saved images were re-checked and clearly show the physical Macintosh SAO (front shells and populated PCB with maker signature), matching their captions.'
 last_modified_date: '2026-09-07'
 ---
 

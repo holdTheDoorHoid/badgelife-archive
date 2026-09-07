@@ -11,7 +11,7 @@ year: 0
 makers:
 - name: hyuma78 (thegizmolab)
   url: https://www.tindie.com/stores/gizmolab/
-summary: A He-Man-themed wearable electronic pin badge with reverse-mounted, charlieplexed LEDs that flash in random patterns, made by Italy-based maker GizmoLab.
+summary: A He-Man-themed wearable electronic pin badge with reverse-mounted, charlieplexed LEDs that flash in random patterns, made by GizmoLab.
 functions: LEDs flash in dynamic random patterns via charlieplexing; no other interactive functions described.
 look:
   colors: []
@@ -38,7 +38,7 @@ get_one:
   availability_note: 'Uberflux listing showed 4 remaining as of 2026-09-07.'
   distribution:
   - purchase
-  where: Sold assembled and tested via Uberflux and the maker's Tindie store.
+  where: Sold assembled and tested via Uberflux.
 make_your_own:
   open_source: null
   hardware_url: null
@@ -77,13 +77,13 @@ sources:
   accessed: '2026-09-07'
   note: Maker's own announcement post for a related He-Man badge, confirming SAO compatibility and Tindie storefront; used hashtags including #defcon but does not state the badge was made for a specific event/year.
 research:
-  status: researched
+  status: verified
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'GizmoLab (maker hyuma78, based in Italy) sells a line of 80s/pop-culture-themed electronic badges through Uberflux, Tindie, Lectronz, and BigCartel. No source ties this specific badge to a particular convention or year; it is sold as a general fan-art item, not con-exclusive. MCU, exact LED count, and open-source status were not disclosed on the listing.'
+  notes: 'GizmoLab (maker hyuma78 / thegizmolab) sells this badge through Uberflux, where it was confirmed for sale. The maker also links a Tindie storefront, but that page returned a 403 when checked and could not be confirmed to list this specific badge; the maker''s location (previously reported as Italy) and any Lectronz/BigCartel storefronts had no supporting source and were removed. No source ties this specific badge to a particular convention or year; the maker''s X/Twitter announcement of a related He-Man SAO used a #defcon hashtag but did not state it was made for that event. MCU, exact LED count, and open-source status were not disclosed on the listing.'
 last_modified_date: '2026-09-07'
 ---
 
-The He-Meme Man Electronic Pin Badge is a wearable electronic pin from GizmoLab, the workshop of Italy-based maker hyuma78, who produces a line of 80s- and pop-culture-themed electronic badges and keychains. This badge riffs on the He-Man character and the internet "Meme Man" format, and carries reverse-mounted LEDs wired with charlieplexing so they cycle through random flashing patterns.
+The He-Meme Man Electronic Pin Badge is a wearable electronic pin from GizmoLab, the workshop of maker hyuma78 (thegizmolab). This badge riffs on the He-Man character and the internet "Meme Man" format, and carries reverse-mounted LEDs wired with charlieplexing so they cycle through random flashing patterns.
 
-It ships fully assembled and tested, with a pin-back clip for wearing on a jacket, lanyard, or backpack. It can run off an onboard CR2032 coin cell or draw power from a host badge's SAO connector, though the maker's listing cautions that the board lacks a reverse-protection diode, so the coin cell needs to be removed before connecting SAO power to avoid overheating. It sold for $45 through Uberflux (with 4 units listed as remaining) and is also distributed through GizmoLab's Tindie, Lectronz, and BigCartel storefronts. No source found ties it to a specific convention or year; GizmoLab's badges, including a related He-Man SAO the maker announced on social media, appear to be sold as general fan-art rather than made for one particular event.
+It ships fully assembled and tested, with a pin-back clip for wearing on a jacket, lanyard, or backpack. It can run off an onboard CR2032 coin cell or draw power from a host badge's SAO connector, though the maker's listing cautions that the board lacks a reverse-protection diode, so the coin cell needs to be removed before connecting SAO power to avoid overheating. It sold for $45 through Uberflux, with 4 units listed as remaining. No source found ties it to a specific convention or year; the maker's own social-media announcement of a related He-Man SAO used a #defcon hashtag but did not state it was made for that event.

@@ -67,10 +67,10 @@ sources:
   accessed: '2026-09-07'
   note: 'README confirms it is a DIY badge for DEF CON 2019 (DC27), built on a Raspberry Pi 3 A+ with a 3.5" ILI9486/VMP400 display and an Anker PowerCore II Slim 10000 power bank; runs Chromium in kiosk mode over a Node/Express + React stack, hostapd as an access point, and arp-scan for LAN client scanning. Source of the two hardware photos.'
 research:
-  status: researched
+  status: verified
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'Single-source entry: the GitHub repo README is the only source found describing the build (a web search surfaced only the maker''s later, unrelated e-ink badge project and general DC27 badge coverage that does not mention defpi). No evidence it was sold, given away, or made in more than one unit — this reads as a personal one-off build, so availability is set to not_released/status released (the maker had and used it) rather than a produced/distributed item. No LED info, colors, or SAO header found; none is implied by the hardware described.'
+  notes: 'Fact-checked 2026-09-07: refetched github.com/Hacksore/defpi and re-viewed both saved photos; every non-empty field and every sentence in the body checks out against the README (Pi 3 A+, 3.5" ILI9486/VMP400 display, Anker PowerCore II Slim 10000, hostapd AP + arp-scan + Chromium/Node-Express/React kiosk, one-off personal build with no PCB/SAO/LED). Both images show the physical unit and its on-screen scan display, matching their captions and github.com/Hacksore/defpi/raw/master/pics/badge.jpg and .../scanning.jpg. Remains single-source (the GitHub repo README is the only source found describing the build; a web search surfaced only the maker''s later, unrelated e-ink badge project and general DC27 coverage that does not mention defpi), so confidence stays medium, but nothing in the entry is unsupported or contradicted.'
 last_modified_date: '2026-09-07'
 redirect_from:
 - /badges/other/defpi-silly-defcon-badge/

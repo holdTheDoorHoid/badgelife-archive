@@ -68,10 +68,10 @@ sources:
   accessed: '2026-09-07'
   note: 'Confirmed maker (Zalmotek, with Alexandra Covor), components (RGB self-blinking LED, CR2032 battery, slide switch, hand-fashioned sewing hooks from LED pins), posted June 2019. No repository or design files listed on the page. Sold via Tindie but exact listing URL not shown on the project page.'
 research:
-  status: researched
-  confidence: low
+  status: verified
+  confidence: medium
   last_checked: '2026-09-07'
-  notes: 'This is a general Hackaday.io project/build log, not tied to any specific hacker conference or event, so it is kept under "other". No price, quantity made, or design-file links were found. The exact Tindie listing URL could not be located on the fetched page. Maker is Zalmotek (team includes Alexandra Covor).'
+  notes: 'Fact-checked against the maker''s own Hackaday.io project page and Zalmotek''s Hackaday.io profile (which lists this project). All non-empty fields and body sentences are supported by those two pages: maker, June 2019 posting, no-MCU self-blinking RGB LED (OPTOSUPPLY OST1MA3131A), CR2032 battery, slide switch, hand-fashioned sewing hooks from the LED''s own leads, and Tindie sale link with no visible price/URL. This is a general Hackaday.io project/build log, not tied to any specific hacker conference, so it is kept under "other". No price, quantity made, or design-file links were found; those fields remain empty. The single saved image matches the badge shown on the project page.'
 last_modified_date: '2026-09-07'
 ---
 

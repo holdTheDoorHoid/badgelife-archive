@@ -79,10 +79,10 @@ sources:
   accessed: '2026-09-07'
   note: Confirms maker identity/handle.
 research:
-  status: researched
+  status: verified
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'No matching event id exists in _data/events.yml for MAGWest or MAGfest, so event is left as "other"; the con was MAGWest 2018 (west-coast MAGfest, a music-and-games festival, not a hacker con). No price, quantity, or open-source hardware/firmware files were found; it appears to have been distributed as free premium swag to badge holders rather than sold. LED count not stated. No storefront or repo located.'
+  notes: 'Verified against the Hackaday.io project page and maker profile: maker identity, event/year, ATtiny85 + WS2812 + CR2032, laser-cut acrylic construction with 3D-printed buttons, pairing-triggered animation change, and the NES-controller-license origin story all confirmed directly on the project page; maker handle/bio confirmed on the profile page. Both saved images match photos on the project page. No matching event id exists in _data/events.yml for MAGWest or MAGfest, so event is left as "other"; the con was MAGWest 2018 (west-coast MAGfest, a music-and-games festival, not a hacker con). No price, quantity, or open-source hardware/firmware files were found; it appears to have been distributed as free premium swag to badge holders rather than sold. LED count not stated. No storefront or repo located.'
 last_modified_date: '2026-09-07'
 ---
 

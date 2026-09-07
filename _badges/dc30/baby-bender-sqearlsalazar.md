@@ -51,19 +51,22 @@ links:
 - label: www.tindie.com/products/sqearlsalazar/badgelife-parallel-baby-robot-each
   url: https://www.tindie.com/products/sqearlsalazar/badgelife-parallel-baby-robot-each/
   kind: store
+  archived: https://web.archive.org/web/20260503115024/https://www.tindie.com/products/sqearlsalazar/badgelife-parallel-baby-robot-each/
 images:
-  - file: assets/images/badges/dc30/baby-bender-sqearlsalazar/77bdca1a73.jpg
-    source: "https://www.tindie.com/products/sqearlsalazar/badgelife-parallel-baby-robot-each/"
-    credit: "sqearlsalazar"
-    caption: "The Parallel Baby Robot SAO, product photo"
-  - file: assets/images/badges/dc30/baby-bender-sqearlsalazar/42f1d1fd92.jpg
-    source: "https://www.tindie.com/products/sqearlsalazar/badgelife-parallel-baby-robot-each/"
-    credit: "sqearlsalazar"
-    caption: "The Parallel Baby Robot SAO lit up, showing LED colors"
+- file: assets/images/badges/dc30/baby-bender-sqearlsalazar/77bdca1a73.jpg
+  source: https://www.tindie.com/products/sqearlsalazar/badgelife-parallel-baby-robot-each/
+  credit: sqearlsalazar
+  caption: The Parallel Baby Robot SAO, product photo
+  archived: https://web.archive.org/web/20260503115024/https://www.tindie.com/products/sqearlsalazar/badgelife-parallel-baby-robot-each/
+- file: assets/images/badges/dc30/baby-bender-sqearlsalazar/42f1d1fd92.jpg
+  source: https://www.tindie.com/products/sqearlsalazar/badgelife-parallel-baby-robot-each/
+  credit: sqearlsalazar
+  caption: The Parallel Baby Robot SAO lit up, showing LED colors
+  archived: https://web.archive.org/web/20260503115024/https://www.tindie.com/products/sqearlsalazar/badgelife-parallel-baby-robot-each/
 contact: {}
 notes:
 - The links to Tindie are so you can see what they look like. They will be available at the Hardware Hacking Village during D3FC0N.
-- 'Tindie lists the product under the name "#badgelife Parallel Baby Robot (each)"; the sheet''s title "Baby Bender" appears to be the maker/community nickname for the same robot-shaped SAO.'
+- Tindie lists the product under the name "#badgelife Parallel Baby Robot (each)"; the sheet's title "Baby Bender" appears to be the maker/community nickname for the same robot-shaped SAO.
 status: listed
 sources:
 - kind: sheet
@@ -72,20 +75,15 @@ sources:
   updated: '2022-07-28'
 - kind: url
   url: https://www.tindie.com/products/sqearlsalazar/badgelife-parallel-baby-robot-each/
-  title: "#badgelife Parallel Baby Robot (each) from sqearlsalazar on Tindie"
+  title: '#badgelife Parallel Baby Robot (each) from sqearlsalazar on Tindie'
   accessed: '2026-09-06'
   note: Confirms product name, $10 price, SAO type, "fast color changing" LEDs, color options (gold/silver/white), out-of-stock status, and product photos. Tagline "Bite my shiny SAO" is a Futurama/Bender reference matching the sheet title "Baby Bender."
+  archived: https://web.archive.org/web/20260503115024/https://www.tindie.com/products/sqearlsalazar/badgelife-parallel-baby-robot-each/
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-06'
-  notes: >-
-    Only source found is the maker's own Tindie listing (product photos dated 2019-2020,
-    predating DC30, so this SAO may have been an earlier design re-offered at the DC30
-    Hardware Hacking Village per the sheet). Could not find a Hackaday.io page, GitHub repo,
-    MCU/chip details, LED count/part number, or a quantity made. No press coverage found.
-    Web search budget was exhausted before additional searches (e.g. maker's social media,
-    Reddit r/badgelife) could be tried.
+  notes: Only source found is the maker's own Tindie listing (product photos dated 2019-2020, predating DC30, so this SAO may have been an earlier design re-offered at the DC30 Hardware Hacking Village per the sheet). Could not find a Hackaday.io page, GitHub repo, MCU/chip details, LED count/part number, or a quantity made. No press coverage found. Web search budget was exhausted before additional searches (e.g. maker's social media, Reddit r/badgelife) could be tried.
 last_modified_date: '2026-09-06'
 ---
 

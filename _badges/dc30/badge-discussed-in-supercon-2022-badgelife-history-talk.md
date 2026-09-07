@@ -48,9 +48,11 @@ links:
 - label: hackaday.com/2023/03/03/supercon-2022-michael-whiteley-saves-the-badge
   url: https://hackaday.com/2023/03/03/supercon-2022-michael-whiteley-saves-the-badge/
   kind: article
+  archived: https://web.archive.org/web/20260419014334/https://hackaday.com/2023/03/03/supercon-2022-michael-whiteley-saves-the-badge/
 - label: Tindie Blog - Badge Me if You Can - DEF CON 30
   url: https://blog.tindie.com/2022/08/badge-me-if-you-can-def-con-30/
   kind: article
+  archived: https://web.archive.org/web/20260114122305/https://blog.tindie.com/2022/08/badge-me-if-you-can-def-con-30/
 - label: DEF CON 30 Badge Instructions (defcon.org)
   url: https://defcon.org/badge/30/
   kind: doc
@@ -59,9 +61,10 @@ links:
   kind: video
 images:
 - file: assets/images/badges/dc30/badge-discussed-in-supercon-2022-badgelife-history-talk/d590d4d7ac.jpg
-  source: "https://blog.tindie.com/2022/08/badge-me-if-you-can-def-con-30/"
-  credit: "MK Factor / Tindie Blog"
-  caption: "The official DEF CON 30 badge, with its curved PCB face and capacitive touch keyboard"
+  source: https://blog.tindie.com/2022/08/badge-me-if-you-can-def-con-30/
+  credit: MK Factor / Tindie Blog
+  caption: The official DEF CON 30 badge, with its curved PCB face and capacitive touch keyboard
+  archived: https://web.archive.org/web/20260114122305/https://blog.tindie.com/2022/08/badge-me-if-you-can-def-con-30/
 contact: {}
 notes: []
 status: released
@@ -71,11 +74,13 @@ sources:
   title: 'Supercon 2022: Michael Whiteley Saves The Badge'
   accessed: '2026-09-07'
   note: Covers the Supercon 2022 talk about DC30 badge manufacturing problems (audio amplifier BGA rework, 25,000-unit run, chip-shortage redesigns).
+  archived: https://web.archive.org/web/20260419014334/https://hackaday.com/2023/03/03/supercon-2022-michael-whiteley-saves-the-badge/
 - kind: url
   url: https://blog.tindie.com/2022/08/badge-me-if-you-can-def-con-30/
   title: 'Tindie Blog: Badge Me if You Can - DEF CON 30'
   accessed: '2026-09-07'
   note: Describes the official DC30 badge's appearance (curved PCB face, capacitive touch keyboard, speaker/mic), maker (MK Factor / theMKFactor), and RP2040 chip; source of the badge photo.
+  archived: https://web.archive.org/web/20260114122305/https://blog.tindie.com/2022/08/badge-me-if-you-can-def-con-30/
 - kind: url
   url: https://defcon.org/badge/30/
   title: DEF CON 30 Badge Instructions

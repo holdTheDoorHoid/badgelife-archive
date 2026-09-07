@@ -16,9 +16,7 @@ functions: ''
 look:
   colors: []
   shape: cube
-  themes:
-  - kit
-  - learn to solder
+  themes: []
 tech:
   mcu: null
   leds: null
@@ -73,10 +71,10 @@ sources:
   accessed: '2026-09-07'
   note: 'Page blocked by Cloudflare bot protection when fetched directly; could not confirm tutorial content beyond the link itself.'
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-07'
-  notes: 'This is a personal tutorial/example repo rather than a badge sold or distributed at a specific event. The repo holds design files for one SAO, called "SAOcube" internally (file prefix SAO_MVP, with a "cube-cutout" footprint library suggesting a cube form factor), which appears to be the worked example for Alex Glow''s Hackster.io tutorial on designing SAOs in KiCad and milling them on a Bantam desktop PCB mill. No event, chip, LEDs, price, quantity, or photos of the finished board could be found — the repo contains only KiCad/Gerber/drill files, no renders or photos. The Hackster.io tutorial page itself could not be read (blocked by Cloudflare), so tutorial-side details (steps, finished-board photos) are unconfirmed. Left event as "other" since no con/year association was found; year is the repo''s creation year (2018), not a confirmed event year. Status set to "unknown" since there is no evidence this was ever released, sold, or given out versus remaining a personal design exercise.'
+  notes: 'Fact-check pass (2026-09-07): re-fetched the GitHub repo root, the SAOcube subfolder listing, the raw README, the commit history, and the Hackster.io article; confirmed via the GitHub API that the repo carries no license (404 on /license). All confirmed: repo created Oct 29 2018 (first/only commit), single folder "SAOcube" holding KiCad schematic/PCB/gerbers/drill file prefixed SAO_MVP plus footprint libraries "sao.pretty" and "cube-cutout.pretty", no images anywhere in the repo, one-line README ("SAOs... and more?" + the Hackster.io link, "Uses KiCad + Bantam desktop PCB mill"). The Hackster.io tutorial page itself is still Cloudflare-blocked and could not be read beyond its title/URL and the README''s description of it. One correction from the prior pass: look.themes ("kit", "learn to solder") had no support in any source read — nothing confirms this was sold/given as a kit or that it teaches soldering (the tutorial is about KiCad design and PCB milling) — so themes was cleared to empty. This is a personal tutorial/example repo rather than a badge sold or distributed at a specific event; no event, chip, LEDs, price, quantity, or finished-board photos were found. Event left as "other" (no con/year association found); year (2018) is the repo''s creation year, not a confirmed event year. Status left "unknown" since there is no evidence this was ever released, sold, or given out versus remaining a personal design exercise. Every remaining non-empty field is now supported by a source actually read, so research.status is set to verified.'
 last_modified_date: '2026-09-07'
 ---
 

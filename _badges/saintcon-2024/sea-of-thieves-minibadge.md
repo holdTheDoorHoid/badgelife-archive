@@ -25,7 +25,7 @@ tech:
   leds:
     count: 2
     type: discrete
-    note: 'Reverse-mount LEDs and two matching resistors, hand-soldered single-pad style.'
+    note: 'Two discrete LEDs and two matching resistors, hand-soldered single-pad style.'
   display: none
   connectivity: []
   battery: null
@@ -76,15 +76,15 @@ sources:
   accessed: '2026-09-07'
   note: 'The wiki''s search page renders client-side and did not return results by direct fetch; its underlying 2024 JSON data export lists the maker''s own submission for this badge, including description, soldering instructions, difficulty, category, rarity, how-to-acquire text, and front/back image paths.'
 research:
-  status: researched
+  status: verified
   confidence: high
   last_checked: '2026-09-07'
-  notes: 'Quantity made is recorded as 0 in the maker''s own data export, which reads as unfilled rather than a stated count, so quantity was left empty rather than guessed. No PCB color, shape, or open-source design-file info was published. This badge is one of six in the maker''s Sea of Thieves minibadge set for SAINTCON 2024 (the other five are faction badges: Gold Hoarder, Order of Souls, Merchant Alliance, Reaper''s Bones, and Athena''s Fortune) — see other_items_found in the research report.'
+  notes: 'Fact-check pass (2026-09-07): fetched minibadge.wiki/2024.json directly and located this badge''s exact entry (author Mister X, conferenceYear 2024). All remaining fields and body sentences are supported by that entry. One unsupported detail was removed: tech.leds.note and the body both described the LEDs as "reverse-mount," but the source''s soldering instructions never say this (they only confirm single-pad hand-soldering of two LEDs and two resistors) — changed to "discrete." Both saved images were re-fetched from minibadge.wiki/images/2024/sea-of-thieves-minibadge-{front,back}.png and are visually identical to the source. Quantity made is recorded as 0 in the maker''s own data export, which reads as unfilled rather than a stated count, so quantity was left empty rather than guessed. No PCB color, shape, or open-source design-file info was published. This badge is one of six in the maker''s Sea of Thieves minibadge set for SAINTCON 2024 (the other five are faction badges: Gold Hoarder, Order of Souls, Merchant Alliance, Reaper''s Bones, and Athena''s Fortune), all confirmed present in the same JSON export under the same author.'
 last_modified_date: '2026-09-07'
 ---
 
 The Sea of Thieves Minibadge is the flagship piece of a six-badge SAINTCON 2024 set made by a badge maker known as Mister X, themed around the video game Sea of Thieves by Rare Ltd. Where the other five badges in the set each represent one of the game's in-fiction factions, this one carries the game's own logo, described by the maker as a tribute after several years of playing the game.
 
-Like the rest of the set, it is a simple hand-solderable minibadge: two reverse-mount LEDs and two matching resistors, soldered single-pad style, plus four 2-position headers that let it link into a chain with neighboring minibadges — the standard SAINTCON minibadge stacking format. The maker rated it beginner difficulty and made it freely available at the con: attendees could trade another minibadge for it, or simply be given one if they had nothing to trade.
+Like the rest of the set, it is a simple hand-solderable minibadge: two discrete LEDs and two matching resistors, soldered single-pad style, plus four 2-position headers that let it link into a chain with neighboring minibadges — the standard SAINTCON minibadge stacking format. The maker rated it beginner difficulty and made it freely available at the con: attendees could trade another minibadge for it, or simply be given one if they had nothing to trade.
 
 The maker's own SAINTCON 2024 submission (surfaced through the MiniBadge Wiki's data export) is the only source found; no separate project page, repository, or store listing turned up.

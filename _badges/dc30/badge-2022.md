@@ -34,7 +34,7 @@ tech:
   battery: null
   sao_version: null
 get_one:
-  price: "$75"
+  price: $75
   price_usd: 75
   quantity: ''
   availability: sold_out
@@ -51,27 +51,31 @@ links:
 - label: defcon.org/html/defcon-30/dc-30-index.html
   url: https://defcon.org/html/defcon-30/dc-30-index.html
   kind: website
+  archived: https://web.archive.org/web/20260816172046/https://defcon.org/html/defcon-30/dc-30-index.html
 - label: DEF CON 30 Badge Instructions
   url: https://defcon.org/badge/30/
   kind: doc
 - label: 'Tindie Blog: Badge Me if You Can – DEF CON 30'
   url: https://blog.tindie.com/2022/08/badge-me-if-you-can-def-con-30/
   kind: article
-- label: 'DEFCON 30 - Making of the DEF CON Badge (Security Boulevard)'
+  archived: https://web.archive.org/web/20260114122305/https://blog.tindie.com/2022/08/badge-me-if-you-can-def-con-30/
+- label: DEFCON 30 - Making of the DEF CON Badge (Security Boulevard)
   url: https://securityboulevard.com/2022/09/defcon-30-the-dark-tangents-and-mk-factors-welcome-to-def-con-and-the-making-of-the-def-con-badge/
   kind: article
 - label: MK Factor
   url: https://mkfactor.com/
   kind: website
+  archived: https://web.archive.org/web/20260614164003/http://mkfactor.com/
 images:
 - file: assets/images/badges/dc30/badge-2022/70c74c044d.jpg
-  source: "https://blog.tindie.com/2022/08/badge-me-if-you-can-def-con-30/"
-  credit: "Tindie Blog"
-  caption: "The DEF CON 30 official human badge, showing its capacitive touch keys and curved PCB face."
+  source: https://blog.tindie.com/2022/08/badge-me-if-you-can-def-con-30/
+  credit: Tindie Blog
+  caption: The DEF CON 30 official human badge, showing its capacitive touch keys and curved PCB face.
+  archived: https://web.archive.org/web/20260114122305/https://blog.tindie.com/2022/08/badge-me-if-you-can-def-con-30/
 contact: {}
 notes:
 - Confirmed this session via defcon.org DC30 index page text naming MK Factor and The Dark Tangent as 'the badge creators.'
-- 'MK Factor also designed the DEF CON 29 badge; see "Designing the DEF CON 29 & 30 Badges (feat. MK Factor)" on YouTube.'
+- MK Factor also designed the DEF CON 29 badge; see "Designing the DEF CON 29 & 30 Badges (feat. MK Factor)" on YouTube.
 - Distinct attendee-type badge variants existed (Human, Contest, Goon, Artist, Press, Vendor, Speaker, Call for Papers); this entry covers the standard "Human" attendee badge (white soldermask/black silkscreen).
 status: released
 sources:
@@ -80,6 +84,7 @@ sources:
   title: DEF CON 30 Badge (2022)
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: official-badges); event read as ''DEF CON 30''.'
+  archived: https://web.archive.org/web/20260816172046/https://defcon.org/html/defcon-30/dc-30-index.html
 - kind: url
   url: https://defcon.org/badge/30/
   title: DEF CON 30 Badge Instructions
@@ -90,9 +95,10 @@ sources:
   title: 'Tindie Blog: Badge Me if You Can – DEF CON 30'
   accessed: '2026-09-07'
   note: Names MK Factor (@theMKFactor) as designer, confirms RP2040 MCU, capacitive touch keyboard, speaker/mic, curved PCB face holding a pressure-connected speaker; source of the saved photo.
+  archived: https://web.archive.org/web/20260114122305/https://blog.tindie.com/2022/08/badge-me-if-you-can-def-con-30/
 - kind: url
   url: https://securityboulevard.com/2022/09/defcon-30-the-dark-tangents-and-mk-factors-welcome-to-def-con-and-the-making-of-the-def-con-badge/
-  title: "DEFCON 30 - The Dark Tangent's And MK Factor's 'Welcome To DEF CON And The Making Of The DEF CON Badge'"
+  title: DEFCON 30 - The Dark Tangent's And MK Factor's 'Welcome To DEF CON And The Making Of The DEF CON Badge'
   accessed: '2026-09-07'
   note: Confirms the badge design talk given by The Dark Tangent and MK Factor; badge was themed around DEF CON 30's "Hacker Homecoming" theme.
 - kind: url
@@ -104,7 +110,7 @@ research:
   status: researched
   confidence: high
   last_checked: '2026-09-07'
-  notes: 'LED count/type, exact display info (a small status screen is mentioned in the instructions but its size/type is not specified), battery/power source, quantity made, and open-source hardware/firmware links were not found in the sources checked. The badge challenge/puzzle had a separate writeup repo (github.com/Kybr-git/DC30-Badge-Challenge-Writeup) not reviewed in depth here. Other attendee-type badge variants (Contest, Goon, Artist, Press, Vendor, Speaker, Call for Papers) exist but were not separately researched.'
+  notes: LED count/type, exact display info (a small status screen is mentioned in the instructions but its size/type is not specified), battery/power source, quantity made, and open-source hardware/firmware links were not found in the sources checked. The badge challenge/puzzle had a separate writeup repo (github.com/Kybr-git/DC30-Badge-Challenge-Writeup) not reviewed in depth here. Other attendee-type badge variants (Contest, Goon, Artist, Press, Vendor, Speaker, Call for Papers) exist but were not separately researched.
 last_modified_date: '2026-09-07'
 ---
 

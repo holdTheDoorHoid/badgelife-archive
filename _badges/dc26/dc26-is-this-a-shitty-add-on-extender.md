@@ -33,7 +33,7 @@ get_one:
   distribution: []
   where: ''
 make_your_own:
-  open_source: 'yes'
+  open_source: partial
   hardware_url: https://cdn.hackaday.io/files/1599526843386368/Isthisshitty.zip
   firmware_url: null
   eda_tool: null
@@ -77,10 +77,10 @@ sources:
   note: Confirms maker identity and Twitter handle (@awkwardai); no additional detail on this specific extender.
   archived: https://web.archive.org/web/20260307194059/https://hackaday.io/Awkwardai
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-07'
-  notes: Only source is the maker's own DEF CON 26 project page on Hackaday.io, which is an overview of a whole batch of "shitty add-on" boards; the page's log/description text never singles out this extender, so everything here comes from the file listing's own caption on Isthisshitty.zip. No chip, LED, price, quantity, or availability information was found anywhere, and no photo of the assembled board turned up (the project's header images are of other badges in the collection, not this one). The title's echo of the "Is this a pigeon?" meme format is a naming-convention observation, not something a source states outright. Treat mcu/leds/tech fields as genuinely unknown rather than presumed-passive, since the schematic inside the zip was not opened.
+  notes: 'Fact-check pass (2026-09-07): re-fetched all three cited sources and confirmed the file listing (Isthisshitty.zip, 302.76 kB, uploaded 03/04/2019, captioned "Is this a shitty add-on" extender), the parent project page (maker awkward intelligence, DEF CON 26, no other mention of this specific item, header images show other badges in the batch not this one), and the maker''s Hackaday.io profile (identity and @awkwardai handle). No images are claimed for this entry, so there was nothing to check against the folder or source pages there. One field was corrected: make_your_own.open_source was "yes" but only the hardware zip is published and no firmware exists or is mentioned — since tech.mcu is unknown rather than confirmed "none", firmware status cannot be ruled either way, so this is more accurately "partial" per the guide''s definition (both hardware and firmware published = yes). Everything else in the entry is supported by the cited sources or is correctly left null/empty. Only source is the maker''s own DEF CON 26 project page on Hackaday.io, which is an overview of a whole batch of "shitty add-on" boards; the page''s log/description text never singles out this extender, so everything here comes from the file listing''s own caption on Isthisshitty.zip. No chip, LED, price, quantity, or availability information was found anywhere, and no photo of the assembled board turned up. The title''s echo of the "Is this a pigeon?" meme format is a naming-convention observation, not something a source states outright. Treat mcu/leds/tech fields as genuinely unknown rather than presumed-passive, since the schematic inside the zip was not opened.'
 last_modified_date: '2026-09-07'
 ---
 

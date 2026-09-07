@@ -1,5 +1,5 @@
 ---
-title: "DN-Badge-12 (Darknet-NG DEF CON 31 Badge)"
+title: DN-Badge-12 (Darknet-NG DEF CON 31 Badge)
 id: dc31-badge-information-is-up-and-available-on-their-site
 layout: badge
 parent: DC31
@@ -12,7 +12,7 @@ makers:
 - name: Darknet-NG
   url: https://darknet-ng.network/
 summary: 'A stopgap offline-communicator badge from the Darknet-NG contest: a TTGO LoRa32 (Meshtastic) board dropped into a 3D-printed case, released as open hardware when the team''s own custom badge was not ready in time.'
-functions: 'Runs stock Meshtastic firmware on the TTGO LoRa32 board for long-range, off-grid text messaging over LoRa, paired to a phone app over Bluetooth; used by the Darknet-NG contest as its "Daemon" communication channel for DEF CON 31.'
+functions: Runs stock Meshtastic firmware on the TTGO LoRa32 board for long-range, off-grid text messaging over LoRa, paired to a phone app over Bluetooth; used by the Darknet-NG contest as its "Daemon" communication channel for DEF CON 31.
 look:
   colors: []
   shape: null
@@ -37,7 +37,7 @@ get_one:
   distribution:
   - purchase
   - kit
-  where: 'The Meshtastic-based TTGO LoRa32 mainboard was sourced from store.rokland.com; the case, face, back and power-bar are 3D-printed from STL files Darknet-NG published themselves (or via a local hackerspace/library printer). Darknet-NG stated only a limited number of assembled badges would be available at the con itself.'
+  where: The Meshtastic-based TTGO LoRa32 mainboard was sourced from store.rokland.com; the case, face, back and power-bar are 3D-printed from STL files Darknet-NG published themselves (or via a local hackerspace/library printer). Darknet-NG stated only a limited number of assembled badges would be available at the con itself.
 make_your_own:
   open_source: partial
   hardware_url: https://github.com/darknet-ng/Darknet-NG-12-Badge
@@ -48,27 +48,32 @@ links:
 - label: darknet-ng.network/darknet-ng-will-return-at-def-con-31
   url: https://darknet-ng.network/darknet-ng-will-return-at-def-con-31/
   kind: website
+  archived: https://web.archive.org/web/20251209105400/https://darknet-ng.network/darknet-ng-will-return-at-def-con-31/
 - label: store.rokland.com
   url: https://store.rokland.com
   kind: store
+  archived: https://web.archive.org/web/20260827005342/https://store.rokland.com/
 - label: darknet-ng.network/darknet-ng-12-badge-for-def-con-31-case
   url: https://darknet-ng.network/darknet-ng-12-badge-for-def-con-31-case/
   kind: website
+  archived: https://web.archive.org/web/20260422135443/https://darknet-ng.network/darknet-ng-12-badge-for-def-con-31-case/
 - label: darknet-ng.network/darknet-ng-badge-12-full-setup
   url: https://darknet-ng.network/darknet-ng-badge-12-full-setup/
   kind: doc
+  archived: https://web.archive.org/web/20260511203252/https://darknet-ng.network/darknet-ng-badge-12-full-setup/
 - label: github.com/darknet-ng/Darknet-NG-12-Badge
   url: https://github.com/darknet-ng/Darknet-NG-12-Badge
   kind: repo
 images:
 - file: assets/images/badges/dc31/badge-information-is-up-and-available-on-their-site/89e0612bd8.jpg
-  source: "https://darknet-ng.network/darknet-ng-12-badge-for-def-con-31-case/"
-  credit: "Darknet-NG (Gater)"
-  caption: "3D-printed DN-Badge-12 case housing a TTGO LoRa32 board"
+  source: https://darknet-ng.network/darknet-ng-12-badge-for-def-con-31-case/
+  credit: Darknet-NG (Gater)
+  caption: 3D-printed DN-Badge-12 case housing a TTGO LoRa32 board
+  archived: https://web.archive.org/web/20260422135443/https://darknet-ng.network/darknet-ng-12-badge-for-def-con-31-case/
 contact: {}
 notes:
 - This year it is a hands-on experience. Battery and LoRA board from https://store.rokland.com. Case is 3d printed.
-- 'Sheet title was a placeholder ("Badge information is up and available on their site"); the actual project is the DN-Badge-12 / DN-Badge-version-8.6.0 case for a TTGO LoRa32 Meshtastic board, designed by Darknet-NG members "Gater" and "Digital" starting December 2022.'
+- Sheet title was a placeholder ("Badge information is up and available on their site"); the actual project is the DN-Badge-12 / DN-Badge-version-8.6.0 case for a TTGO LoRa32 Meshtastic board, designed by Darknet-NG members "Gater" and "Digital" starting December 2022.
 status: released
 sources:
 - kind: sheet
@@ -77,29 +82,33 @@ sources:
   updated: '2023-06-25'
 - kind: url
   url: https://darknet-ng.network/darknet-ng-will-return-at-def-con-31/
-  title: "Darknet-NG will return at DEF CON 31"
+  title: Darknet-NG will return at DEF CON 31
   accessed: '2026-09-06'
-  note: "Explains the badge was a stopgap: Darknet-NG's own custom badge wasn't ready, so they adopted an open-source design from another team for offline (LoRa) communication, with only a limited number available at the con."
+  note: 'Explains the badge was a stopgap: Darknet-NG''s own custom badge wasn''t ready, so they adopted an open-source design from another team for offline (LoRa) communication, with only a limited number available at the con.'
+  archived: https://web.archive.org/web/20251209105400/https://darknet-ng.network/darknet-ng-will-return-at-def-con-31/
 - kind: url
   url: https://darknet-ng.network/darknet-ng-12-badge-for-def-con-31-case/
-  title: "Darknet-NG 12 Badge for DEF CON 31 Case"
+  title: Darknet-NG 12 Badge for DEF CON 31 Case
   accessed: '2026-09-06'
-  note: "Gives the badge/case name (DN-Badge-version-8.6.0 / Darknet-NG-12-Badge), credits designers Gater and Digital, and links the GitHub/Thingiverse/Printables/Tinkercad source files."
+  note: Gives the badge/case name (DN-Badge-version-8.6.0 / Darknet-NG-12-Badge), credits designers Gater and Digital, and links the GitHub/Thingiverse/Printables/Tinkercad source files.
+  archived: https://web.archive.org/web/20260422135443/https://darknet-ng.network/darknet-ng-12-badge-for-def-con-31-case/
 - kind: url
   url: https://darknet-ng.network/darknet-ng-badge-12-full-setup/
-  title: "Darknet-NG Badge 12 Full Setup"
+  title: Darknet-NG Badge 12 Full Setup
   accessed: '2026-09-06'
-  note: "Assembly/flashing walkthrough confirming the mainboard is a TTGO LoRa32 running Meshtastic firmware, paired to iOS/Android over Bluetooth."
+  note: Assembly/flashing walkthrough confirming the mainboard is a TTGO LoRa32 running Meshtastic firmware, paired to iOS/Android over Bluetooth.
+  archived: https://web.archive.org/web/20260511203252/https://darknet-ng.network/darknet-ng-badge-12-full-setup/
 - kind: url
   url: https://github.com/darknet-ng/Darknet-NG-12-Badge
-  title: "darknet-ng/Darknet-NG-12-Badge"
+  title: darknet-ng/Darknet-NG-12-Badge
   accessed: '2026-09-06'
-  note: "Confirms the repo holds only 3D-print STL files for the case/body/face/back/power-bar, not a custom PCB or firmware."
+  note: Confirms the repo holds only 3D-print STL files for the case/body/face/back/power-bar, not a custom PCB or firmware.
 - kind: url
   url: https://store.rokland.com
-  title: "Rokland store"
+  title: Rokland store
   accessed: '2026-09-06'
-  note: "Checked for the specific LoRa board/battery product; general storefront sells Meshtastic-compatible LoRa hardware and batteries but the exact SKU used could not be confirmed."
+  note: Checked for the specific LoRa board/battery product; general storefront sells Meshtastic-compatible LoRa hardware and batteries but the exact SKU used could not be confirmed.
+  archived: https://web.archive.org/web/20260827005342/https://store.rokland.com/
 research:
   status: researched
   confidence: medium

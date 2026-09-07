@@ -1,0 +1,2502 @@
+[
+ [
+  "CHV Main Badge (DC32)",
+  "https://github.com/car-hacking-village/DC32_CHV_Badge_Board",
+  "title ~ dc32-chv-main-badge"
+ ],
+ [
+  "DEF CON 34 \"INHUMAN\" badge",
+  "https://cheeso.io/defcon-34-badge",
+  "url matches dc34-badge-2026"
+ ],
+ [
+  "DEF CON 34 \"ARTIST\" badge",
+  "https://cheeso.io/defcon-34-badge",
+  "url matches dc34-badge-2026"
+ ],
+ [
+  "CPEC DEF CON 34 \"Mech\" badge",
+  "https://github.com/Cyber-Professionals-Enthusiast-Club/DC-34-Badge",
+  "url matches dc34-cpec-the-cheat"
+ ],
+ [
+  "DC-34-Mech-SAO / DC-34-Mech-SAO-Plugin-Demo",
+  "https://github.com/Cyber-Professionals-Enthusiast-Club/DC-34-Mech-SAO",
+  "url matches dc34-dc34-cpec-mech-sao"
+ ],
+ [
+  "DC-34-Badge (host badge hardware)",
+  "https://github.com/Cyber-Professionals-Enthusiast-Club/DC-34-Badge",
+  "url matches dc34-cpec-the-cheat"
+ ],
+ [
+  "It's 2 badges. A Zombie and a Survivor badge",
+  "https://www.h4irl1n3-m0gg3r5.com/",
+  "url matches dc34-h4irl1n3-m0gg3r5-brain-in-a-jar-sao"
+ ],
+ [
+  "DC31 SAO",
+  "https://hackaday.io/project/192013-dc31-sao",
+  "url matches dc31-plumbus-bfb"
+ ],
+ [
+  "Cereal Booper",
+  "https://defconfurs.gumroad.com/l/2022-badge-bundle",
+  "title ~ dc30-cereal-booper"
+ ],
+ [
+  "30-in-ONE Learn Electronics badge",
+  "https://hackaday.com/2022/12/09/nostalgic-30-in-one-electronics-badge-for-def-con-30/",
+  "url matches dc30-dczia-thirtyinone-30-in-one-badge"
+ ],
+ [
+  "DEF CON 29 Electronic Badge",
+  "https://defcon.org/html/defcon-29/dc-29-index.html",
+  "url matches dc29-badge-2021"
+ ],
+ [
+  "DC29 Hardware Badge (RISC-V)",
+  "https://defcon.org/html/defcon-29/dc-29-index.html",
+  "url matches dc29-badge-2021"
+ ],
+ [
+  "MakeItHackin DEF CON 29 Electronic Badge",
+  "https://www.tindie.com/products/makeithackin/makeithackin-def-con-29-electronic-badge/",
+  "url matches dc29-dc29-makeithackin-badge"
+ ],
+ [
+  "Interactive SAO for DC32 Badge",
+  "https://www.tindie.com/products/makeithackin/interactive-sao-for-dc32-badge/",
+  "url matches dc32-interactive-sao-for-dc32-badge"
+ ],
+ [
+  "Skull of Fate SAO",
+  "https://www.tindie.com/products/makeithackin/skull-of-fate-sao/",
+  "url matches supercon-2024-skull-of-fate-sao"
+ ],
+ [
+  "Tricorder SAO",
+  "https://www.tindie.com/products/makeithackin/tricorder-sao/",
+  "url matches dc34-original-series-tricorder-badge"
+ ],
+ [
+  "BadgeLife SAO Kit (with C0V1D CTF SAO)",
+  "https://www.tindie.com/products/makeithackin/badgelife-sao-kit/",
+  "url matches dc33-badgelife-sao-soldering-kit"
+ ],
+ [
+  "Bender SAO (AND!XOR DC27 companion add-on, hidden serial output)",
+  "https://hackaday.io/project/164346-andxor-dc27-badge",
+  "url matches dc27-and-xor-dc27-badge"
+ ],
+ [
+  "Audio Reactive SAO (AND!XOR DC27 companion add-on, rev 6)",
+  "https://hackaday.io/project/164346-andxor-dc27-badge",
+  "url matches dc27-and-xor-dc27-badge"
+ ],
+ [
+  "Doom SAO (AND!XOR DC27 companion add-on with screen and serial sniffer, rev 1)",
+  "https://hackaday.io/project/164346-andxor-dc27-badge",
+  "url matches dc27-and-xor-dc27-badge"
+ ],
+ [
+  "S7a73farm Unofficial DEF CON 27 Mega Badge",
+  "https://hackaday.io/project/166728-s7a73farm-unofficial-def-con-27-mega-badge",
+  "url matches dc27-beardo-badge"
+ ],
+ [
+  "Audio Reactive SAO (rev 6)",
+  "https://hackaday.com/2019/07/29/hands-on-andxor-def-con-27-badge-ditches-bender-adopts-light-pipes/",
+  "url matches dc27-and-xor-dc27-badge"
+ ],
+ [
+  "Doom SAO (rev 1)",
+  "https://hackaday.io/project/164346-andxor-dc27-badge/log/165849-dc27-doom-sao-hurt-me-plenty",
+  "duplicate url in sweep"
+ ],
+ [
+  "DCZia Laser Theremin Blank PCB",
+  "https://www.tindie.com/products/hamster/dczia-laser-theremin-blank-pcb/",
+  "url matches dc27-dc-zia-laser-theremin-badge"
+ ],
+ [
+  "Traffic Light Badge",
+  "https://www.carhackingvillage.com/events/2019/8/2/def-con",
+  "url matches dc27-car-hacking-village-badge-dc27"
+ ],
+ [
+  "DEF CON 27 Mooncake Shitty Add-On",
+  "https://www.pcbway.com/project/shareproject/DEF_CON_27_Mooncake_Shitty_Add_On.html",
+  "url matches dc27-mooncake-sao"
+ ],
+ [
+  "Shitty-Brooch",
+  "https://github.com/ANDnXOR/sao-reference-designs/tree/master/DC27/Shitty-Brooch",
+  "title ~ dc27-dc27-shitty-brooch"
+ ],
+ [
+  "GPIO-16-MCP23017 SAO",
+  "https://github.com/ANDnXOR/sao-reference-designs/tree/master/DC27/GPIO-16-MCP23017_sao1.69bis",
+  "url matches dc27-dc27-gpio-16-mcp23017-sao"
+ ],
+ [
+  "BobRoss SAO",
+  "https://github.com/zapp1337/sao-reference-designs/tree/master/DC27/BobRoss_sao1.69bis",
+  "url matches dc27-dc27-bob-ross-happy-trees-sao"
+ ],
+ [
+  "Arc Badge - DC27 Indie Badge",
+  "https://hackaday.io/project/165320-arc-badge-dc27-indie-badge",
+  "url matches dc27-arc-badge"
+ ],
+ [
+  "TV3Y3 Indie Badge for DEF CON 27",
+  "https://www.tindie.com/products/awkwardai/tv3y3-indie-badge-for-def-con-27/",
+  "url matches dc27-defcon-27-tv3y3-badge"
+ ],
+ [
+  "Arc Badge - DC27 Indie Badge",
+  "https://hackaday.io/project/165320-arc-badge-dc27-indie-badge",
+  "url matches dc27-arc-badge"
+ ],
+ [
+  "I'm 40% UFO! - DC27 SAO",
+  "https://hackaday.io/project/165318-im-40-ufo-dc27-sao",
+  "url matches dc27-im-40-ufo-sao"
+ ],
+ [
+  "Arc Badge - DC27 Indie Badge",
+  "https://hackaday.io/project/165320-arc-badge-dc27-indie-badge",
+  "url matches dc27-arc-badge"
+ ],
+ [
+  "DC27 Dumpster Fire SAO (fully assembled)",
+  "https://www.tindie.com/products/awkwardai/dc27-dumpster-fire-sao-fully-assembled/",
+  "duplicate url in sweep"
+ ],
+ [
+  "Lord Commander DEFCON 27 Shitty Add-On",
+  "https://www.pcbway.com/project/shareproject/Lord_Commander_DEFCON_27_Shitty_Add_On.html",
+  "url matches dc27-lord-commander-defcon-27-shitty-add-on"
+ ],
+ [
+  "DEFCON 27 Avocato Shitty Add-On",
+  "https://www.pcbway.com/project/shareproject/DEFCON_27_Avocato_Shitty_Add_On.html",
+  "url matches dc27-dc27-avocato-sao-2"
+ ],
+ [
+  "DC Zia",
+  "https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/",
+  "url matches dc27-arc-badge"
+ ],
+ [
+  "Defcon 27 Shitty Add-On's",
+  "https://hackaday.io/project/166344-defcon-27-shitty-add-ons",
+  "url matches dc27-shitty-add-on-s"
+ ],
+ [
+  "The Harbinger Shitty Add-on Badges",
+  "https://hackaday.io/project/159952-the-harbinger-shitty-add-on-badges",
+  "url matches dc26-dc26-zelda-triforce-extender-sao"
+ ],
+ [
+  "Bow Tie Badge Set",
+  "https://mkfactor.com/?p=67",
+  "url matches dc27-fifth-element-stones-badge-def-con-27"
+ ],
+ [
+  "GAT Nametag SC8",
+  "https://hackaday.io/project/198536-gat-nametag-sc8",
+  "url matches dc33-nametag-sc8-always-upright-nametag"
+ ],
+ [
+  "bigfuckingbadge (Kat's Midi Synth)",
+  "https://hackaday.io/project/166765-bigfuckingbadge-kats-midi-synth",
+  "url matches dc27-bigfuckingbadge-kat-s-midi-synth"
+ ],
+ [
+  "BigFuckingOOTBadge",
+  "https://hackaday.io/project/196537-bigfuckingootbadge",
+  "url matches dc32-bigfuckingootbadge"
+ ],
+ [
+  "Arc Badge",
+  "https://hackaday.io/project/165320-arc-badge-dc27-indie-badge",
+  "url matches dc27-arc-badge"
+ ],
+ [
+  "DC614 badge",
+  "https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/",
+  "url matches dc27-arc-badge"
+ ],
+ [
+  "Cylon badge",
+  "https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/",
+  "url matches dc27-arc-badge"
+ ],
+ [
+  "Internet of Batteries (IoB-DC28)",
+  "https://github.com/Aask42/IoB_DC28",
+  "url matches dc28-internet-of-batteries-quantum-badge-dc28"
+ ],
+ [
+  "Avocato SAO",
+  "https://www.pcbway.com/project/shareproject/DEFCON_27_Avocato_Shitty_Add_On.html",
+  "url matches dc27-dc27-avocato-sao-2"
+ ],
+ [
+  "Arc Badge",
+  "https://hackaday.io/twinkletwinkie",
+  "url matches other-the-child-sao"
+ ],
+ [
+  "Mad Cat (DC26 Shitty Add-on)",
+  "https://hackaday.io/twinkletwinkie",
+  "url matches other-the-child-sao"
+ ],
+ [
+  "Fat Pika (DC26 Shitty Add-on)",
+  "https://hackaday.io/twinkletwinkie",
+  "url matches other-the-child-sao"
+ ],
+ [
+  "Santa Bot",
+  "https://hackaday.io/twinkletwinkie",
+  "url matches other-the-child-sao"
+ ],
+ [
+  "Play Me (cassette-tape SAO add-on)",
+  "https://www.tindie.com/products/magicstonetech/saw-the-badge-defcon-27-indie-badge/",
+  "url matches dc27-saw-the-badge-def-con-27-indie-badge"
+ ],
+ [
+  "Dumpster Fire",
+  "https://hackaday.io/project/166344-defcon-27-shitty-add-ons/details",
+  "url matches dc27-shitty-add-on-s"
+ ],
+ [
+  "All out of Gum",
+  "https://hackaday.io/project/166344-defcon-27-shitty-add-ons/details",
+  "url matches dc27-shitty-add-on-s"
+ ],
+ [
+  "Def Con Air",
+  "https://hackaday.io/project/166344-defcon-27-shitty-add-ons/details",
+  "url matches dc27-shitty-add-on-s"
+ ],
+ [
+  "Shitty Semen Detector",
+  "https://hackaday.io/project/166344-defcon-27-shitty-add-ons/details",
+  "url matches dc27-shitty-add-on-s"
+ ],
+ [
+  "SPIvSPI Whitehat Spy SAO",
+  "https://github.com/SPIvSPI/dc27sao/tree/master/hardware/SPIvSPI_SAO_White",
+  "title ~ dc27-spivspi-whitehat-spy-sao"
+ ],
+ [
+  "Gucci Mane-inspired SAO (dual LED flasher)",
+  "https://hackaday.io/project/159952-the-harbinger-shitty-add-on-badges",
+  "url matches dc26-dc26-zelda-triforce-extender-sao"
+ ],
+ [
+  "Shitty Calvin",
+  "https://hackaday.io/project/159952-the-harbinger-shitty-add-on-badges",
+  "url matches dc26-dc26-zelda-triforce-extender-sao"
+ ],
+ [
+  "Mr Robopoly",
+  "https://hackaday.io/project/159952-the-harbinger-shitty-add-on-badges",
+  "url matches dc26-dc26-zelda-triforce-extender-sao"
+ ],
+ [
+  "Thereminion",
+  "https://hackaday.io/project/159952-the-harbinger-shitty-add-on-badges",
+  "url matches dc26-dc26-zelda-triforce-extender-sao"
+ ],
+ [
+  "The Galaxia",
+  "https://hackaday.io/project/159952-the-harbinger-shitty-add-on-badges",
+  "url matches dc26-dc26-zelda-triforce-extender-sao"
+ ],
+ [
+  "TV3Y3 augmented reality badge",
+  "https://hackaday.io/Awkwardai",
+  "url matches dc26-dc26-static-meeseeks-sao"
+ ],
+ [
+  "Minion SAO",
+  "https://hackaday.io/project/159952-the-harbinger-shitty-add-on-badges",
+  "url matches dc26-dc26-zelda-triforce-extender-sao"
+ ],
+ [
+  "Brrr ice cream cone SAO (Gucci Mane tattoo tribute)",
+  "https://hackaday.io/project/159952-the-harbinger-shitty-add-on-badges",
+  "url matches dc26-dc26-zelda-triforce-extender-sao"
+ ],
+ [
+  "Monopoly-man Bitcoin SAO",
+  "https://hackaday.io/project/159952-the-harbinger-shitty-add-on-badges",
+  "url matches dc26-dc26-zelda-triforce-extender-sao"
+ ],
+ [
+  "Calvin (Calvin and Hobbes) SAO with LED eye and mouth",
+  "https://hackaday.io/project/159952-the-harbinger-shitty-add-on-badges",
+  "url matches dc26-dc26-zelda-triforce-extender-sao"
+ ],
+ [
+  "Galaxia Wizard Badge / Sound-Circuits Lab prototyping board",
+  "https://hackaday.io/project/159952-the-harbinger-shitty-add-on-badges",
+  "url matches dc26-dc26-zelda-triforce-extender-sao"
+ ],
+ [
+  "RBG SAO",
+  "https://hackaday.io/project/161509-frida-sao",
+  "url matches dc26-dc26-frida-sao"
+ ],
+ [
+  "Shitty Calvin",
+  "https://hackaday.io/project/159952-the-harbinger-shitty-add-on-badges",
+  "url matches dc26-dc26-zelda-triforce-extender-sao"
+ ],
+ [
+  "Mr Robopoly",
+  "https://hackaday.io/project/159952-the-harbinger-shitty-add-on-badges",
+  "url matches dc26-dc26-zelda-triforce-extender-sao"
+ ],
+ [
+  "Thereminion",
+  "https://hackaday.io/project/159952-the-harbinger-shitty-add-on-badges",
+  "url matches dc26-dc26-zelda-triforce-extender-sao"
+ ],
+ [
+  "Nick Cage shitty add-on",
+  "https://hackaday.io/project/159952/files",
+  "url matches dc26-dc26-zelda-triforce-extender-sao"
+ ],
+ [
+  "Static Bob Ross Add-on",
+  "https://hackaday.io/project/159952/files",
+  "url matches dc26-dc26-zelda-triforce-extender-sao"
+ ],
+ [
+  "Pickle Rick Shitty add-on",
+  "https://hackaday.io/project/159952/files",
+  "url matches dc26-dc26-zelda-triforce-extender-sao"
+ ],
+ [
+  "Flower Power shitty add-on",
+  "https://hackaday.io/project/159952/files",
+  "url matches dc26-dc26-zelda-triforce-extender-sao"
+ ],
+ [
+  "3D Dice shitty add-on",
+  "https://hackaday.io/project/159952/files",
+  "url matches dc26-dc26-zelda-triforce-extender-sao"
+ ],
+ [
+  "Zelda Shitty add-on extender (shittytriforce.zip)",
+  "https://hackaday.io/project/159952/files",
+  "url matches dc26-dc26-zelda-triforce-extender-sao"
+ ],
+ [
+  "Static Rick and Morty Shitty Add-on",
+  "https://hackaday.io/project/159952/files",
+  "url matches dc26-dc26-zelda-triforce-extender-sao"
+ ],
+ [
+  "Brrr",
+  "https://hackaday.io/project/159952-the-harbinger-shitty-add-on-badges",
+  "url matches dc26-dc26-zelda-triforce-extender-sao"
+ ],
+ [
+  "Shitty Calvin",
+  "https://hackaday.io/project/159952-the-harbinger-shitty-add-on-badges",
+  "url matches dc26-dc26-zelda-triforce-extender-sao"
+ ],
+ [
+  "Thereminion",
+  "https://hackaday.io/project/159952-the-harbinger-shitty-add-on-badges",
+  "url matches dc26-dc26-zelda-triforce-extender-sao"
+ ],
+ [
+  "The Harbinger (badge)",
+  "https://hackaday.io/project/159952-the-harbinger-shitty-add-on-badges",
+  "url matches dc26-dc26-zelda-triforce-extender-sao"
+ ],
+ [
+  "Bob Ross Shitty Add-on",
+  "https://hackaday.io/project/159952/files",
+  "url matches dc26-dc26-zelda-triforce-extender-sao"
+ ],
+ [
+  "Pickle Rick Shitty Add-on",
+  "https://hackaday.io/project/159952/files",
+  "url matches dc26-dc26-zelda-triforce-extender-sao"
+ ],
+ [
+  "Shitty Calvin",
+  "https://hackaday.io/project/159952/files",
+  "url matches dc26-dc26-zelda-triforce-extender-sao"
+ ],
+ [
+  "Mr Robopoly",
+  "https://hackaday.io/project/159952/files",
+  "url matches dc26-dc26-zelda-triforce-extender-sao"
+ ],
+ [
+  "Thereminion",
+  "https://hackaday.io/project/159952/files",
+  "url matches dc26-dc26-zelda-triforce-extender-sao"
+ ],
+ [
+  "Galaxia Wizard Badge",
+  "https://hackaday.io/project/159952/files",
+  "url matches dc26-dc26-zelda-triforce-extender-sao"
+ ],
+ [
+  "Shitty Calvin",
+  "https://hackaday.io/project/159952-the-harbinger-shitty-add-on-badges",
+  "url matches dc26-dc26-zelda-triforce-extender-sao"
+ ],
+ [
+  "Nick Cage SAO",
+  "https://hackaday.io/project/159952/files",
+  "url matches dc26-dc26-zelda-triforce-extender-sao"
+ ],
+ [
+  "Bob Ross Add-on",
+  "https://hackaday.io/project/159952/files",
+  "url matches dc26-dc26-zelda-triforce-extender-sao"
+ ],
+ [
+  "Gucci Mane / Atlanta LED flasher badge",
+  "https://hackaday.io/project/159952-the-harbinger-shitty-add-on-badges",
+  "url matches dc26-dc26-zelda-triforce-extender-sao"
+ ],
+ [
+  "Mr Robopoly",
+  "https://hackaday.io/project/159952-the-harbinger-shitty-add-on-badges",
+  "url matches dc26-dc26-zelda-triforce-extender-sao"
+ ],
+ [
+  "Thereminion",
+  "https://hackaday.io/project/159952-the-harbinger-shitty-add-on-badges",
+  "url matches dc26-dc26-zelda-triforce-extender-sao"
+ ],
+ [
+  "Galaxia (build-your-own-badge prototyping platform)",
+  "https://hackaday.io/project/159952-the-harbinger-shitty-add-on-badges",
+  "url matches dc26-dc26-zelda-triforce-extender-sao"
+ ],
+ [
+  "Mr Robopoly",
+  "https://hackaday.io/project/159952-the-harbinger-shitty-add-on-badges",
+  "url matches dc26-dc26-zelda-triforce-extender-sao"
+ ],
+ [
+  "Thereminion",
+  "https://hackaday.io/project/159952-the-harbinger-shitty-add-on-badges",
+  "url matches dc26-dc26-zelda-triforce-extender-sao"
+ ],
+ [
+  "Brrr (Atlanta/Gucci Mane lightning flasher)",
+  "https://hackaday.io/project/159952-the-harbinger-shitty-add-on-badges",
+  "url matches dc26-dc26-zelda-triforce-extender-sao"
+ ],
+ [
+  "Brrr (Gucci Mane lightning flasher SAO)",
+  "https://hackaday.io/project/159952-the-harbinger-shitty-add-on-badges",
+  "url matches dc26-dc26-zelda-triforce-extender-sao"
+ ],
+ [
+  "Shitty Calvin",
+  "https://hackaday.io/project/159952-the-harbinger-shitty-add-on-badges",
+  "url matches dc26-dc26-zelda-triforce-extender-sao"
+ ],
+ [
+  "Mr Robopoly",
+  "https://hackaday.io/project/159952-the-harbinger-shitty-add-on-badges",
+  "url matches dc26-dc26-zelda-triforce-extender-sao"
+ ],
+ [
+  "Thereminion",
+  "https://hackaday.io/project/159952-the-harbinger-shitty-add-on-badges",
+  "url matches dc26-dc26-zelda-triforce-extender-sao"
+ ],
+ [
+  "The Harbinger Sound/Circuits Lab Prototyping board (Galaxia)",
+  "https://hackaday.io/project/159952-the-harbinger-shitty-add-on-badges",
+  "url matches dc26-dc26-zelda-triforce-extender-sao"
+ ],
+ [
+  "Defcon 27 TV3Y3 Badge",
+  "https://hackaday.io/Awkwardai",
+  "url matches dc26-dc26-static-meeseeks-sao"
+ ],
+ [
+  "Defcon 27 Shitty Add-Ons",
+  "https://hackaday.io/Awkwardai",
+  "url matches dc26-dc26-static-meeseeks-sao"
+ ],
+ [
+  "Hack Space Con 2024 Badge",
+  "https://hackaday.io/Awkwardai",
+  "url matches dc26-dc26-static-meeseeks-sao"
+ ],
+ [
+  "Learn to Solder Badge",
+  "https://hackaday.io/Awkwardai",
+  "url matches dc26-dc26-static-meeseeks-sao"
+ ],
+ [
+  "msFlipper (multi-use Flipper Zero board)",
+  "https://hackaday.io/Awkwardai",
+  "url matches dc26-dc26-static-meeseeks-sao"
+ ],
+ [
+  "Brrr",
+  "https://hackaday.io/project/159952-the-harbinger-shitty-add-on-badges",
+  "url matches dc26-dc26-zelda-triforce-extender-sao"
+ ],
+ [
+  "Shitty Calvin",
+  "https://hackaday.io/project/159952-the-harbinger-shitty-add-on-badges",
+  "url matches dc26-dc26-zelda-triforce-extender-sao"
+ ],
+ [
+  "Mr Robopoly",
+  "https://hackaday.io/project/159952-the-harbinger-shitty-add-on-badges",
+  "url matches dc26-dc26-zelda-triforce-extender-sao"
+ ],
+ [
+  "Harbinger Sound/Circuits Lab Prototyping Board",
+  "https://hackaday.io/project/159952-the-harbinger-shitty-add-on-badges",
+  "url matches dc26-dc26-zelda-triforce-extender-sao"
+ ],
+ [
+  "TwinkleTwinkie's Badgelife SAO Add-on #6",
+  "https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-badgelife-sao-add-on-6/",
+  "url matches dc26-dc26-twinkletwinkie-badgelife-sao-add-on-6"
+ ],
+ [
+  "TwinkleTwinkie's Badgelife SAO Add-on #8",
+  "https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-badgelife-sao-add-on-8/",
+  "title ~ dc26-dc26-twinkletwinkie-badgelife-sao-add-on-3"
+ ],
+ [
+  "Arc Badge - DC27 Indie Badge",
+  "https://www.tindie.com/products/twinkletwinkie/arc-badge-dc27-indie-badge/",
+  "url matches dc27-arc-badge"
+ ],
+ [
+  "TwinkleTwinkie's \"I'm 40% UFO!\" Badge SAO",
+  "https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-im-40-ufo-badge-sao/",
+  "url matches dc27-im-40-ufo-sao"
+ ],
+ [
+  "The Pumpkin Witch",
+  "https://www.tindie.com/products/twinkletwinkie/the-pumpkin-witch/",
+  "title ~ other-pumpkin-witch"
+ ],
+ [
+  "TwinkleTwinkie's \"Unicorn\" Badge SAO",
+  "https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-unicorn-badge-sao/",
+  "url matches dc27-dc27-unicorn-sao"
+ ],
+ [
+  "TwinkleTwinkie's \"Kupo!\" Badge SAO",
+  "https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-kupo-badge-sao/",
+  "url matches dc27-dc27-kupo-sao"
+ ],
+ [
+  "Gucci Mane tattoo dual-LED flasher",
+  "https://hackaday.io/project/159952-the-harbinger-shitty-add-on-badges",
+  "url matches dc26-dc26-zelda-triforce-extender-sao"
+ ],
+ [
+  "Shitty Calvin (4017B/555 LED sequencer)",
+  "https://hackaday.io/project/159952-the-harbinger-shitty-add-on-badges",
+  "url matches dc26-dc26-zelda-triforce-extender-sao"
+ ],
+ [
+  "Mr Robopoly",
+  "https://hackaday.io/project/159952-the-harbinger-shitty-add-on-badges",
+  "url matches dc26-dc26-zelda-triforce-extender-sao"
+ ],
+ [
+  "Thereminion",
+  "https://hackaday.io/project/159952-the-harbinger-shitty-add-on-badges",
+  "url matches dc26-dc26-zelda-triforce-extender-sao"
+ ],
+ [
+  "The Galaxia (prototyping/synth badge)",
+  "https://hackaday.io/project/159952-the-harbinger-shitty-add-on-badges",
+  "url matches dc26-dc26-zelda-triforce-extender-sao"
+ ],
+ [
+  "Krusty the It",
+  "https://hackaday.io/hacker/308303-twinkletwinkie",
+  "url matches dc27-dc27-iron-gauntlet-sao"
+ ],
+ [
+  "Baby Bender",
+  "https://hackaday.com/2018/06/21/this-is-the-year-conference-badges-get-their-own-badges/",
+  "url matches dc26-fry-add-on"
+ ],
+ [
+  "Frida SAO",
+  "https://hackaday.io/lemons4all1",
+  "url matches dc26-lsp-sao"
+ ],
+ [
+  "RBG SAO",
+  "https://hackaday.io/lemons4all1",
+  "url matches dc26-lsp-sao"
+ ],
+ [
+  "PlagueBadge (HFS 2019)",
+  "https://fxtwitter.com/hackforsatan/feed.atom.xml",
+  "url matches dc26-hack-for-satan-badge-dc26"
+ ],
+ [
+  "Biohazard Baphomet pin",
+  "https://fxtwitter.com/hackforsatan/feed.atom.xml",
+  "url matches dc26-hack-for-satan-badge-dc26"
+ ],
+ [
+  "DEF CON 26 Maneki-neko SAO",
+  "https://github.com/devoopes/defcon26-meow/tree/master/addon",
+  "title ~ dc26-meow"
+ ],
+ [
+  "DEF CON 26 official conference badge (human/goon/speaker variants)",
+  "https://hackaday.io/project/160333-def-con-26-official-badge-hacking",
+  "url matches dc26-official-badge-hacking"
+ ],
+ [
+  "LSP SAO",
+  "https://hackaday.io/lemons4all1",
+  "url matches dc26-lsp-sao"
+ ],
+ [
+  "Frida SAO",
+  "https://hackaday.io/lemons4all1",
+  "url matches dc26-lsp-sao"
+ ],
+ [
+  "THEFREEMAN SAO (matching Vortigaunt-head SAO)",
+  "https://hackaday.io/project/158663/files",
+  "url matches dc26-thefreeman-dc26-indie-badge"
+ ],
+ [
+  "Gizmo Duck SAO",
+  "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+  "url matches dc26-thelogicofpi-saoao-tiki"
+ ],
+ [
+  "Portal Gun + Portal BG SAO",
+  "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+  "url matches dc26-thelogicofpi-saoao-tiki"
+ ],
+ [
+  "Pickle-Rick + Portal BG SAO",
+  "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+  "url matches dc26-thelogicofpi-saoao-tiki"
+ ],
+ [
+  "Wizard Hat SAOAO",
+  "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+  "url matches dc26-thelogicofpi-saoao-tiki"
+ ],
+ [
+  "Megaseeds SAOAO",
+  "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+  "url matches dc26-thelogicofpi-saoao-tiki"
+ ],
+ [
+  "Slippery Stair SAOAO",
+  "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+  "url matches dc26-thelogicofpi-saoao-tiki"
+ ],
+ [
+  "Tiki SAO",
+  "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+  "url matches dc26-thelogicofpi-saoao-tiki"
+ ],
+ [
+  "Electro-storm (high voltage warning sign) SAO",
+  "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+  "url matches dc26-thelogicofpi-saoao-tiki"
+ ],
+ [
+  "Tiki",
+  "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+  "url matches dc26-thelogicofpi-saoao-tiki"
+ ],
+ [
+  "Darkwing Duck",
+  "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+  "url matches dc26-thelogicofpi-saoao-tiki"
+ ],
+ [
+  "Gizmo Duck",
+  "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+  "url matches dc26-thelogicofpi-saoao-tiki"
+ ],
+ [
+  "Portal Gun + Portal BG",
+  "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+  "url matches dc26-thelogicofpi-saoao-tiki"
+ ],
+ [
+  "Pickle-Rick + Portal BG",
+  "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+  "url matches dc26-thelogicofpi-saoao-tiki"
+ ],
+ [
+  "Wizard Hat SAOAO",
+  "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+  "url matches dc26-thelogicofpi-saoao-tiki"
+ ],
+ [
+  "Megaseeds SAOAO",
+  "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+  "url matches dc26-thelogicofpi-saoao-tiki"
+ ],
+ [
+  "Slippery Stair SAOAO",
+  "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+  "url matches dc26-thelogicofpi-saoao-tiki"
+ ],
+ [
+  "Leela (light-up eye, gun, armband)",
+  "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+  "url matches dc26-thelogicofpi-saoao-tiki"
+ ],
+ [
+  "Bender (w/ sunglasses, also GOLD variant)",
+  "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+  "url matches dc26-thelogicofpi-saoao-tiki"
+ ],
+ [
+  "Zoidberg (Alternate Universe - Purple)",
+  "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+  "url matches dc26-thelogicofpi-saoao-tiki"
+ ],
+ [
+  "Tubbs (nekoatsume)",
+  "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+  "url matches dc26-thelogicofpi-saoao-tiki"
+ ],
+ [
+  "THE_FREEMAN (full badge)",
+  "https://hackaday.io/project/158663-thefreeman-def-con-26-indie-badge",
+  "url matches dc26-thefreeman-dc26-indie-badge"
+ ],
+ [
+  "Leela (Light up eye and gun and armband)",
+  "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+  "url matches dc26-thelogicofpi-saoao-tiki"
+ ],
+ [
+  "Zoidberg (Alternate Universe - Purple)",
+  "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+  "url matches dc26-thelogicofpi-saoao-tiki"
+ ],
+ [
+  "Tubbs (nekoatsume)",
+  "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+  "url matches dc26-thelogicofpi-saoao-tiki"
+ ],
+ [
+  "Portal Gun + Portal BG",
+  "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+  "url matches dc26-thelogicofpi-saoao-tiki"
+ ],
+ [
+  "Darkwing Duck",
+  "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+  "url matches dc26-thelogicofpi-saoao-tiki"
+ ],
+ [
+  "Portal Gun + Portal BG",
+  "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+  "url matches dc26-thelogicofpi-saoao-tiki"
+ ],
+ [
+  "Pickle-Rick + Portal BG",
+  "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+  "url matches dc26-thelogicofpi-saoao-tiki"
+ ],
+ [
+  "Wizard Hat SAOAO",
+  "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+  "url matches dc26-thelogicofpi-saoao-tiki"
+ ],
+ [
+  "Megaseeds SAOAO",
+  "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+  "url matches dc26-thelogicofpi-saoao-tiki"
+ ],
+ [
+  "Slippery Stair SAOAO",
+  "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+  "url matches dc26-thelogicofpi-saoao-tiki"
+ ],
+ [
+  "Tiki",
+  "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+  "url matches dc26-thelogicofpi-saoao-tiki"
+ ],
+ [
+  "Electro-storm (high voltage warning sign)",
+  "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+  "url matches dc26-thelogicofpi-saoao-tiki"
+ ],
+ [
+  "Leela (Light up eye, gun, armband)",
+  "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+  "url matches dc26-thelogicofpi-saoao-tiki"
+ ],
+ [
+  "Bender (w/sunglasses, also GOLD)",
+  "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+  "url matches dc26-thelogicofpi-saoao-tiki"
+ ],
+ [
+  "Zoidberg (Alternate Universe - Purple)",
+  "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+  "url matches dc26-thelogicofpi-saoao-tiki"
+ ],
+ [
+  "Tubbs (nekoatsume)",
+  "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+  "url matches dc26-thelogicofpi-saoao-tiki"
+ ],
+ [
+  "Bender (alternate reality, w/sunglasses, gold PCB)",
+  "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+  "url matches dc26-thelogicofpi-saoao-tiki"
+ ],
+ [
+  "Zoidberg (alternate universe, purple PCB)",
+  "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+  "url matches dc26-thelogicofpi-saoao-tiki"
+ ],
+ [
+  "Tubbs (nekoatsume, gold bowl)",
+  "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+  "url matches dc26-thelogicofpi-saoao-tiki"
+ ],
+ [
+  "Wizard Hat SAOAO",
+  "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+  "url matches dc26-thelogicofpi-saoao-tiki"
+ ],
+ [
+  "Megaseeds SAOAO",
+  "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+  "url matches dc26-thelogicofpi-saoao-tiki"
+ ],
+ [
+  "Slippery Stair SAOAO",
+  "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+  "url matches dc26-thelogicofpi-saoao-tiki"
+ ],
+ [
+  "Electro-storm (high voltage warning sign)",
+  "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+  "url matches dc26-thelogicofpi-saoao-tiki"
+ ],
+ [
+  "Portal Gun + Portal BG / Pickle-Rick + Portal BG",
+  "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+  "url matches dc26-thelogicofpi-saoao-tiki"
+ ],
+ [
+  "Darkwing Duck / Gizmo Duck",
+  "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+  "url matches dc26-thelogicofpi-saoao-tiki"
+ ],
+ [
+  "Leela / Bender / Zoidberg / Tubbs basic SAOs",
+  "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+  "url matches dc26-thelogicofpi-saoao-tiki"
+ ],
+ [
+  "Wizard Hat SAOAO",
+  "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+  "url matches dc26-thelogicofpi-saoao-tiki"
+ ],
+ [
+  "Megaseeds SAOAO",
+  "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+  "url matches dc26-thelogicofpi-saoao-tiki"
+ ],
+ [
+  "Portal Gun + Portal BG",
+  "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+  "url matches dc26-thelogicofpi-saoao-tiki"
+ ],
+ [
+  "Pickle-Rick + Portal BG (in works)",
+  "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+  "url matches dc26-thelogicofpi-saoao-tiki"
+ ],
+ [
+  "Darkwing Duck (in works)",
+  "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+  "url matches dc26-thelogicofpi-saoao-tiki"
+ ],
+ [
+  "Gizmo Duck",
+  "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+  "url matches dc26-thelogicofpi-saoao-tiki"
+ ],
+ [
+  "Tiki (in works)",
+  "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+  "url matches dc26-thelogicofpi-saoao-tiki"
+ ],
+ [
+  "Electro-storm (high voltage warning sign) (in works)",
+  "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+  "url matches dc26-thelogicofpi-saoao-tiki"
+ ],
+ [
+  "Leela (light-up eye, gun, armband)",
+  "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+  "url matches dc26-thelogicofpi-saoao-tiki"
+ ],
+ [
+  "Bender (w/sunglasses, also gold variant)",
+  "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+  "url matches dc26-thelogicofpi-saoao-tiki"
+ ],
+ [
+  "Zoidberg (alternate universe, purple)",
+  "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+  "url matches dc26-thelogicofpi-saoao-tiki"
+ ],
+ [
+  "Tubbs (nekoatsume)",
+  "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+  "url matches dc26-thelogicofpi-saoao-tiki"
+ ],
+ [
+  "Alt Bender SAO (Gold)",
+  "https://hackaday.io/project/160014/log/150208-1st-order-placed",
+  "url matches dc26-thelogicofpi-zoidberg-purple-sao"
+ ],
+ [
+  "Leela SAO (light-up eye, gun, armband)",
+  "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+  "url matches dc26-thelogicofpi-saoao-tiki"
+ ],
+ [
+  "Tubbs (Neko Atsume) SAO",
+  "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+  "url matches dc26-thelogicofpi-saoao-tiki"
+ ],
+ [
+  "Alternate reality Bender (w/sunglasses, GOLD)",
+  "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+  "url matches dc26-thelogicofpi-saoao-tiki"
+ ],
+ [
+  "Zoidberg (Alternate Universe, purple - 'Why Not Zoidberg? Zoidberg Medical Offices')",
+  "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+  "url matches dc26-thelogicofpi-saoao-tiki"
+ ],
+ [
+  "Leela (light-up eye, gun, and armband, purple hair)",
+  "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+  "url matches dc26-thelogicofpi-saoao-tiki"
+ ],
+ [
+  "Darkwing Duck SAO (in works)",
+  "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+  "url matches dc26-thelogicofpi-saoao-tiki"
+ ],
+ [
+  "Gizmo Duck SAO",
+  "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+  "url matches dc26-thelogicofpi-saoao-tiki"
+ ],
+ [
+  "Portal Gun + Portal BG SAO",
+  "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+  "url matches dc26-thelogicofpi-saoao-tiki"
+ ],
+ [
+  "Pickle-Rick + Portal BG SAO (in works)",
+  "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+  "url matches dc26-thelogicofpi-saoao-tiki"
+ ],
+ [
+  "Megaseeds SAO",
+  "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+  "url matches dc26-thelogicofpi-saoao-tiki"
+ ],
+ [
+  "Slippery Stair SAO",
+  "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+  "url matches dc26-thelogicofpi-saoao-tiki"
+ ],
+ [
+  "Tiki SAO (in works)",
+  "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+  "url matches dc26-thelogicofpi-saoao-tiki"
+ ],
+ [
+  "Electro-storm high voltage warning sign (in works)",
+  "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+  "url matches dc26-thelogicofpi-saoao-tiki"
+ ],
+ [
+  "Leela SAO (light-up eye, gun, armband)",
+  "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+  "url matches dc26-thelogicofpi-saoao-tiki"
+ ],
+ [
+  "Bender SAO (with sunglasses, gold variant)",
+  "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+  "url matches dc26-thelogicofpi-saoao-tiki"
+ ],
+ [
+  "Zoidberg SAO (alternate universe, purple)",
+  "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+  "url matches dc26-thelogicofpi-saoao-tiki"
+ ],
+ [
+  "Tubbs SAO (nekoatsume)",
+  "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+  "url matches dc26-thelogicofpi-saoao-tiki"
+ ],
+ [
+  "AND!XOR DC26 Badge",
+  "https://hackaday.io/project/andxor-dc26-badge (slug referenced from the DC25 project page; exact numeric project id not confirmed)",
+  "title ~ dc26-andxor-dc26-badge"
+ ],
+ [
+  "AND!XOR DC27 Badge",
+  "https://hackaday.io/project/andxor-dc27-badge (slug referenced from the DC25 project page; exact numeric project id not confirmed)",
+  "title ~ dc27-and-xor-dc27-badge"
+ ],
+ [
+  "Simple-Add-ons-SAO series (25+ other SAO designs by davedarko, e.g. COVID-19 badge, Mr. Robot, Knight Rider/KITT, Flux Capacitor, SlothBadge, SoloCarbonite, MysterioSAO, Do Or Donut)",
+  "https://github.com/davedarko/Simple-Add-ons-SAO/tree/main",
+  "url matches hackaday-europe-2026-lecco-postcard-sao"
+ ],
+ [
+  "reDOT_smart",
+  "https://hackaday.io/tinyledmatrix",
+  "url matches supercon-2023-badge-to-eurorack"
+ ],
+ [
+  "2025 Hackaday Superconference Communicator Badge",
+  "_badges/supercon-2026/2025-hackaday-superconference-communicator-badge.md (already exists as a duplicate entry, misfiled under the supercon-2026 folder)",
+  "title ~ supercon-2025-hackaday-supercon-2025-communicator-badge"
+ ],
+ [
+  "duckJAWS SAO",
+  "https://github.com/astuder/duckglow",
+  "url matches supercon-2024-duckjaws-sao"
+ ],
+ [
+  "duckJAWS SAO",
+  "https://github.com/astuder/duckglow/tree/master/duckjaws",
+  "title ~ supercon-2024-duckjaws-sao"
+ ],
+ [
+  "duckBATH SAO",
+  "https://github.com/astuder/duckglow",
+  "url matches supercon-2024-duckjaws-sao"
+ ],
+ [
+  "duckBATH SAO",
+  "https://github.com/astuder/duckglow",
+  "url matches supercon-2024-duckjaws-sao"
+ ],
+ [
+  "SAO Demo Controller",
+  "https://www.tindie.com/products/36033/",
+  "title ~ supercon-2024-sao-demo-controller-v2"
+ ],
+ [
+  "One-Inch Fibonacci128",
+  "https://squidgeefish.com/projects/fibonacci128-sao/",
+  "url matches supercon-2024-fibonacci128-sao"
+ ],
+ [
+  "Touchwheel SAO",
+  "https://github.com/Hack-a-Day/2024-Supercon-8-Add-On-Badge",
+  "url matches supercon-2024-hackaday-supercon-2024-sao-badge-supercon-8-badge"
+ ],
+ [
+  "LED Spiral Petal Matrix SAO",
+  "https://github.com/Hack-a-Day/2024-Supercon-8-Add-On-Badge",
+  "url matches supercon-2024-hackaday-supercon-2024-sao-badge-supercon-8-badge"
+ ],
+ [
+  "I2C Proto Petal (CH32V003) SAO",
+  "https://github.com/Hack-a-Day/2024-Supercon-8-Add-On-Badge",
+  "url matches supercon-2024-hackaday-supercon-2024-sao-badge-supercon-8-badge"
+ ],
+ [
+  "Teardown 2019 Badge",
+  "https://upverter.com/design/gsteiert/teardown2019/",
+  "url matches supercon-2024-lollipop-sao-with-nfc"
+ ],
+ [
+  "duckGLOW",
+  "https://github.com/astuder/supercon8-sao-adapters",
+  "url matches supercon-2024-sao-bridge"
+ ],
+ [
+  "SAO Digital Multimeter",
+  "https://hackaday.io/contest/197237-supercon-8-add-on-contest",
+  "url matches supercon-2024-saop"
+ ],
+ [
+  "Etch sAo Sketch",
+  "https://hackaday.io/contest/197237-supercon-8-add-on-contest",
+  "url matches supercon-2024-saop"
+ ],
+ [
+  "Bendy SAO",
+  "https://hackaday.io/contest/197237-supercon-8-add-on-contest",
+  "url matches supercon-2024-saop"
+ ],
+ [
+  "Vectrex SAO",
+  "https://hackaday.io/contest/197237-supercon-8-add-on-contest",
+  "url matches supercon-2024-saop"
+ ],
+ [
+  "SAO Bridge",
+  "https://github.com/astuder/supercon8-sao-adapters/tree/main/sao-bridge",
+  "url matches supercon-2024-sao-bridge"
+ ],
+ [
+  "duckGLOW",
+  "https://hackaday.io/project/198918-duckglow-sao",
+  "url matches supercon-2024-duckjaws-sao"
+ ],
+ [
+  "TouchwheelSAO",
+  "https://github.com/todbot/TouchwheelSAO",
+  "url matches supercon-2024-touchwheel-sao"
+ ],
+ [
+  "i2c_proto_petal (CH32V003 protoboard SAO)",
+  "https://github.com/Hack-a-Day/2024-Supercon-8-Add-On-Badge/tree/main/hardware/sao/i2c_proto_petal",
+  "url matches supercon-2024-supercon-8-i2c-proto-petal"
+ ],
+ [
+  "Touchwheel Petal",
+  "https://github.com/Hack-a-Day/2024-Supercon-8-Add-On-Badge/tree/main/hardware/sao",
+  "duplicate url in sweep"
+ ],
+ [
+  "I2C Proto Petal",
+  "https://github.com/Hack-a-Day/2024-Supercon-8-Add-On-Badge/tree/main/hardware/sao",
+  "duplicate url in sweep"
+ ],
+ [
+  "Touchwheel Petal",
+  "https://github.com/Hack-a-Day/2024-Supercon-8-Add-On-Badge",
+  "url matches supercon-2024-hackaday-supercon-2024-sao-badge-supercon-8-badge"
+ ],
+ [
+  "LED Petal",
+  "https://github.com/Hack-a-Day/2024-Supercon-8-Add-On-Badge",
+  "url matches supercon-2024-hackaday-supercon-2024-sao-badge-supercon-8-badge"
+ ],
+ [
+  "I2C Protoboard Petal (CH32V003)",
+  "https://github.com/Hack-a-Day/2024-Supercon-8-Add-On-Badge",
+  "url matches supercon-2024-hackaday-supercon-2024-sao-badge-supercon-8-badge"
+ ],
+ [
+  "Iron Man SAOAO",
+  "https://hackaday.io/project/198060-yo-dawg-sao-introducing-saoao",
+  "url matches supercon-2024-yo-dawg-saoao-hackaday-logo"
+ ],
+ [
+  "Hackaday-logo SAOAO",
+  "https://hackaday.io/project/198060-yo-dawg-sao-introducing-saoao",
+  "url matches supercon-2024-yo-dawg-saoao-hackaday-logo"
+ ],
+ [
+  "Han SAOlo in carbonyte",
+  "https://hackaday.io/project/197803-han-saolo",
+  "url matches supercon-2024-han-saolo"
+ ],
+ [
+  "T.A.R.S. SAO",
+  "https://github.com/davedarko/TARS-SAO",
+  "url matches supercon-2024-tars-sao-2"
+ ],
+ [
+  "Iron Man SAOAO",
+  "https://github.com/davedarko/YoDawgSAO/tree/main/badges/IronMan",
+  "title ~ supercon-2024-yo-dawg-saoao-iron-man"
+ ],
+ [
+  "xHain Logo SAOAO",
+  "https://github.com/davedarko/YoDawgSAO/tree/main/badges/xHainLogo",
+  "url matches supercon-2024-yo-dawg-saoao-xhain-logo"
+ ],
+ [
+  "Super Cluster LED SAOAO (0805)",
+  "https://github.com/davedarko/YoDawgSAO/tree/main/badges/super_computer_custer_0805",
+  "url matches supercon-2024-yo-dawg-saoao-supercomputer-cluster"
+ ],
+ [
+  "Supercon 2023 Vectorscope Badge",
+  "https://hackaday.io/project/193312-hackaday-superconference-2023-badge-enclosure",
+  "url matches supercon-2023-hackaday-superconference-2023-badge-enclosure"
+ ],
+ [
+  "Iron Man SAOAO",
+  "https://github.com/davedarko/YoDawgSAO/tree/main/badges/IronMan",
+  "title ~ supercon-2024-yo-dawg-saoao-iron-man"
+ ],
+ [
+  "Hackaday Logo SAOAO",
+  "https://github.com/davedarko/YoDawgSAO/tree/main/badges/hackadayLogo",
+  "title ~ supercon-2024-yo-dawg-saoao-hackaday-logo"
+ ],
+ [
+  "Super Cluster SAOAO",
+  "https://github.com/davedarko/YoDawgSAO/tree/main/badges/super_computer_custer_0805",
+  "url matches supercon-2024-yo-dawg-saoao-supercomputer-cluster"
+ ],
+ [
+  "Iron Man SAOAO",
+  "https://github.com/davedarko/YoDawgSAO/tree/main/badges/IronMan",
+  "title ~ supercon-2024-yo-dawg-saoao-iron-man"
+ ],
+ [
+  "Hackaday Logo SAOAO",
+  "https://github.com/davedarko/YoDawgSAO/tree/main/badges/hackadayLogo",
+  "title ~ supercon-2024-yo-dawg-saoao-hackaday-logo"
+ ],
+ [
+  "xHain Logo SAOAO",
+  "https://github.com/davedarko/YoDawgSAO/tree/main/badges/xHainLogo",
+  "url matches supercon-2024-yo-dawg-saoao-xhain-logo"
+ ],
+ [
+  "Yo Dawg SAO baseplate",
+  "https://github.com/davedarko/YoDawgSAO",
+  "url matches supercon-2024-yo-dawg-saoao-hackaday-logo"
+ ],
+ [
+  "Hackaday logo SAOAO",
+  "https://github.com/davedarko/YoDawgSAO/tree/master/badges/hackadayLogo",
+  "title ~ supercon-2024-yo-dawg-saoao-hackaday-logo"
+ ],
+ [
+  "Supercon 2023 badge 3D-printable protective case",
+  "https://github.com/softegg/supercon-2023-badge-enclosure/",
+  "url matches supercon-2023-hackaday-superconference-2023-badge-enclosure"
+ ],
+ [
+  "BADGE FOR SUPERCON.6 / November 2022",
+  "already exists as supercon-2022-badge-for-supercon-6-november-2022 in this archive - the physical badge this guide documents",
+  "title ~ supercon-2022-badge-for-supercon-6-november-2022"
+ ],
+ [
+  "BASIC-2 enclosure",
+  "https://github.com/softegg/supercon-2023-badge-enclosure/tree/main/BASIC-2",
+  "url matches supercon-2023-vectorscope-badge"
+ ],
+ [
+  "BadgeIO: DAC/ADC/SigGen/Buffers for Supercon6",
+  "https://hackaday.io/project/188326-badgeio-dacadcsiggenbuffers-for-supercon6",
+  "url matches supercon-2022-badge-for-supercon-6-november-2022"
+ ],
+ [
+  "Punch-card reader add-on for the 2022 Supercon badge",
+  "https://hackaday.com/2022/11/17/supercon-badge-reads-a-punch-card/",
+  "url matches supercon-2022-hackaday-supercon-2022-badge-computing-history-handheld"
+ ],
+ [
+  "glowtieProgrammer",
+  "https://github.com/sphawes/glowtie/tree/master/programmer",
+  "url matches supercon-2019-badgerunner"
+ ],
+ [
+  "Penghicorn badge",
+  "https://hackaday.io/project/168037-mr-robot-shitty-addon/logs",
+  "url matches supercon-2019-mr-robot-shitty-addon"
+ ],
+ [
+  "Hackaday Superconference 2018 Badge Enclosure",
+  "https://hackaday.io/project/162134-hackaday-superconference-2018-badge-enclosure",
+  "url matches supercon-2018-hackaday-superconference-2018-badge-enclosure"
+ ],
+ [
+  "Badge for Hackaday Conference 2018 in Belgrade",
+  "https://hackaday.io/project/80627-badge-for-hackaday-conference-2018-in-belgrade",
+  "url matches other-badge-for-hackaday-conference-2018-in-belgrade"
+ ],
+ [
+  "Shift Register for Supercon Badge",
+  "https://hackaday.io/project/162054-shift-register-for-supercon-badge",
+  "url matches supercon-2018-shift-register-for-supercon-badge"
+ ],
+ [
+  "Minibadge Display Devboard",
+  "https://minibadge.wiki/2026.json (entry: Minibadge Display Devboard)",
+  "title ~ saintcon-2026-minibadge-display-devboard"
+ ],
+ [
+  "Minibadge chain",
+  "https://minibadge.wiki/2026.json (entry: Minibadge chain)",
+  "title ~ saintcon-2026-minibadge-chain"
+ ],
+ [
+  "ESP32 Meshtastic Minibadge",
+  "https://minibadge.wiki/2026.json",
+  "url matches saintcon-2025-pulp-fiction-jules-wallet"
+ ],
+ [
+  "Pipscat",
+  "https://minibadge.wiki/2026.json",
+  "url matches saintcon-2025-pulp-fiction-jules-wallet"
+ ],
+ [
+  "Crown Burger",
+  "https://minibadge.wiki/2026.json",
+  "url matches saintcon-2025-pulp-fiction-jules-wallet"
+ ],
+ [
+  "Minibadge chain",
+  "https://minibadge.wiki/2026.json",
+  "url matches saintcon-2025-pulp-fiction-jules-wallet"
+ ],
+ [
+  "Charger Minibadge",
+  "https://minibadge.wiki/2026.json",
+  "url matches saintcon-2025-pulp-fiction-jules-wallet"
+ ],
+ [
+  "5x5 Stackable Minibadge Display",
+  "https://minibadge.wiki/2026.json",
+  "url matches saintcon-2025-pulp-fiction-jules-wallet"
+ ],
+ [
+  "Glitch Gallery",
+  "https://minibadge.wiki/2026.json",
+  "url matches saintcon-2025-pulp-fiction-jules-wallet"
+ ],
+ [
+  "Crown Burger",
+  "https://minibadge.wiki/2026.json",
+  "url matches saintcon-2025-pulp-fiction-jules-wallet"
+ ],
+ [
+  "Minibadge chain",
+  "https://minibadge.wiki/2026.json",
+  "url matches saintcon-2025-pulp-fiction-jules-wallet"
+ ],
+ [
+  "ESP32 Meshtastic Minibadge",
+  "https://minibadge.wiki/2026.json",
+  "url matches saintcon-2025-pulp-fiction-jules-wallet"
+ ],
+ [
+  "IPEX to SMA adapter Minibadge",
+  "https://minibadge.wiki/2026.json",
+  "url matches saintcon-2025-pulp-fiction-jules-wallet"
+ ],
+ [
+  "Charger Minibadge",
+  "https://minibadge.wiki/2026.json",
+  "url matches saintcon-2025-pulp-fiction-jules-wallet"
+ ],
+ [
+  "5x5 Stackable Minibadge Display",
+  "https://minibadge.wiki/2026.json",
+  "url matches saintcon-2025-pulp-fiction-jules-wallet"
+ ],
+ [
+  "Perfboard prototyping minibadge",
+  "https://minibadge.wiki/2026.json",
+  "url matches saintcon-2025-pulp-fiction-jules-wallet"
+ ],
+ [
+  "Minibadge Display Devboard",
+  "https://minibadge.wiki/2026.json",
+  "url matches saintcon-2025-pulp-fiction-jules-wallet"
+ ],
+ [
+  "3x3 Minibadge Display",
+  "https://minibadge.wiki/?search=3x3%20Minibadge%20Display&year=2025",
+  "title ~ saintcon-2025-2x2-minibadge-display"
+ ],
+ [
+  "Factorio Rocket",
+  "https://minibadge.wiki/?search=Factorio%20Rocket&year=2025",
+  "url matches saintcon-2025-factorio-rocket"
+ ],
+ [
+  "Factorio Transport Belt",
+  "https://minibadge.wiki/?search=Factorio%20Transport%20Belt&year=2025",
+  "url matches saintcon-2025-factorio-transport-belt"
+ ],
+ [
+  "BornHack 2025 Badge",
+  "https://hackaday.com/2025/08/01/two-for-the-price-of-one-bornhack-2024-and-2025-badges/",
+  "url matches bornhack-2024-bornhack-2024-badge"
+ ],
+ [
+  "Flipper Blackhat",
+  "https://github.com/o7-machinehum/flipper-blackhat",
+  "url matches why-2025-why2025-flipper-blackhat-cyberdeck-badge-conversion"
+ ],
+ [
+  "Big Flamingo Gun (blaster_2024)",
+  "https://github.com/Fri3dCamp/blaster_2024",
+  "url matches fri3d-2024-fri3d-camp-2024-badge"
+ ],
+ [
+  "Communicator (communicator_2024)",
+  "https://github.com/Fri3dCamp/communicator_2024",
+  "url matches fri3d-2024-fri3d-camp-2024-badge"
+ ],
+ [
+  "DAU Cyber Training Range",
+  "https://raw.githubusercontent.com/Pips801/minibadges-site/main/2024.json",
+  "url matches saintcon-2024-2024-butterfly"
+ ],
+ [
+  "Portable minibadge holder (pendant or earring)",
+  "https://raw.githubusercontent.com/Pips801/minibadges-site/main/2024.json",
+  "url matches saintcon-2024-2024-butterfly"
+ ],
+ [
+  "4x4 Minibadge display with MDNC",
+  "https://raw.githubusercontent.com/Pips801/minibadges-site/main/2024.json",
+  "url matches saintcon-2024-2024-butterfly"
+ ],
+ [
+  "2024 Hardware Hacking Community MiniBadge",
+  "https://raw.githubusercontent.com/Pips801/minibadges-site/main/2024.json",
+  "url matches saintcon-2024-2024-butterfly"
+ ],
+ [
+  "The Dapper Minibadge Bowtie",
+  "https://raw.githubusercontent.com/Pips801/minibadges-site/main/2024.json",
+  "url matches saintcon-2024-2024-butterfly"
+ ],
+ [
+  "STARGATE Portal",
+  "https://minibadge.wiki/?search=STARGATE&year=2024",
+  "title ~ saintcon-2024-stargate-portal"
+ ],
+ [
+  "Gold Hoarder / Order of Souls / Merchant Alliance / Reaper's Bones minibadges (Sea of Thieves set)",
+  "https://minibadge.wiki/2024.json",
+  "url matches saintcon-2024-winter-is-coming"
+ ],
+ [
+  "Clever Girl",
+  "https://minibadge.wiki/2024.json",
+  "url matches saintcon-2024-winter-is-coming"
+ ],
+ [
+  "D20",
+  "https://minibadge.wiki/2024.json",
+  "url matches saintcon-2024-winter-is-coming"
+ ],
+ [
+  "Hacker Era",
+  "https://minibadge.wiki/2024.json",
+  "url matches saintcon-2024-winter-is-coming"
+ ],
+ [
+  "Hold Monster",
+  "https://minibadge.wiki/2024.json",
+  "url matches saintcon-2024-winter-is-coming"
+ ],
+ [
+  "Winter Is Coming",
+  "https://minibadge.wiki/2024.json",
+  "url matches saintcon-2024-winter-is-coming"
+ ],
+ [
+  "UNIX System",
+  "https://minibadge.wiki/2024.json",
+  "url matches saintcon-2024-winter-is-coming"
+ ],
+ [
+  "40oz Stanley Mug",
+  "https://minibadge.wiki/2024.json",
+  "url matches saintcon-2024-winter-is-coming"
+ ],
+ [
+  "DISA",
+  "https://minibadge.wiki/2024.json",
+  "url matches saintcon-2024-winter-is-coming"
+ ],
+ [
+  "doTERRA",
+  "https://minibadge.wiki/2024.json",
+  "url matches saintcon-2024-winter-is-coming"
+ ],
+ [
+  "Clever Girl",
+  "https://minibadge.wiki/?search=Clever+Girl&year=2024",
+  "title ~ saintcon-2024-clever-girl"
+ ],
+ [
+  "Deathly Hallows",
+  "https://minibadge.wiki/?search=Deathly+Hallows&year=2024",
+  "title ~ saintcon-2024-deathly-hallows"
+ ],
+ [
+  "Hacker Era",
+  "https://minibadge.wiki/?search=Hacker+Era&year=2024",
+  "title ~ saintcon-2024-hacker-era"
+ ],
+ [
+  "Hold Monster",
+  "https://minibadge.wiki/?search=Hold+Monster&year=2024",
+  "title ~ saintcon-2024-hold-monster"
+ ],
+ [
+  "Winter Is Coming",
+  "https://minibadge.wiki/?search=Winter+Is+Coming&year=2024",
+  "title ~ saintcon-2024-winter-is-coming"
+ ],
+ [
+  "UNIX System",
+  "https://minibadge.wiki/?search=UNIX+System&year=2024",
+  "title ~ saintcon-2024-unix-system"
+ ],
+ [
+  "40oz Stanley Mug",
+  "https://minibadge.wiki/?search=40oz+Stanley+Mug&year=2024",
+  "title ~ saintcon-2024-40oz-stanley-mug"
+ ],
+ [
+  "Gold Hoarder Badge",
+  "https://minibadge.wiki/?search=Gold%20Hoarder%20Badge&year=2024",
+  "url matches saintcon-2024-gold-hoarder-badge"
+ ],
+ [
+  "Merchant Alliance Badge",
+  "https://minibadge.wiki/?search=Merchant%20Alliance%20Badge&year=2024",
+  "url matches saintcon-2024-merchant-alliance-badge"
+ ],
+ [
+  "Reaper's Bones Badge",
+  "https://minibadge.wiki/?search=Reaper%27s%20Bones%20Badge&year=2024",
+  "url matches saintcon-2024-reaper-s-bones-badge"
+ ],
+ [
+  "Athena's Fortune Badge",
+  "https://minibadge.wiki/?search=Athena%27s%20Fortune%20Badge&year=2024",
+  "url matches saintcon-2024-athena-s-fortune-badge"
+ ],
+ [
+  "Sea of Thieves Minibadge",
+  "https://minibadge.wiki/?search=Sea%20of%20Thieves%20Minibadge&year=2024",
+  "url matches saintcon-2024-sea-of-thieves-minibadge"
+ ],
+ [
+  "Gold Hoarder Badge",
+  "https://minibadge.wiki/2024.json",
+  "url matches saintcon-2024-winter-is-coming"
+ ],
+ [
+  "Order of Souls Badge",
+  "https://minibadge.wiki/2024.json",
+  "url matches saintcon-2024-winter-is-coming"
+ ],
+ [
+  "Reaper's Bones Badge",
+  "https://minibadge.wiki/2024.json",
+  "url matches saintcon-2024-winter-is-coming"
+ ],
+ [
+  "Athena's Fortune Badge",
+  "https://minibadge.wiki/2024.json",
+  "url matches saintcon-2024-winter-is-coming"
+ ],
+ [
+  "Sea of Thieves Minibadge",
+  "https://minibadge.wiki/2024.json",
+  "url matches saintcon-2024-winter-is-coming"
+ ],
+ [
+  "Gold Hoarder Badge",
+  "https://minibadge.wiki/2024.json",
+  "url matches saintcon-2024-winter-is-coming"
+ ],
+ [
+  "Order of Souls Badge",
+  "https://minibadge.wiki/2024.json",
+  "url matches saintcon-2024-winter-is-coming"
+ ],
+ [
+  "Merchant Alliance Badge",
+  "https://minibadge.wiki/2024.json",
+  "url matches saintcon-2024-winter-is-coming"
+ ],
+ [
+  "Reaper's Bones Badge",
+  "https://minibadge.wiki/2024.json",
+  "url matches saintcon-2024-winter-is-coming"
+ ],
+ [
+  "Athena's Fortune Badge",
+  "https://minibadge.wiki/2024.json",
+  "url matches saintcon-2024-winter-is-coming"
+ ],
+ [
+  "ICS ESCAPE CHALLENGE - I FAILED BADGE",
+  "https://minibadge.wiki/?search=ICS%20ESCAPE%20CHALLENGE%20-%20I%20FAILED%20BADGE&year=2023",
+  "url matches saintcon-2023-ics-escape-challenge-i-failed-badge"
+ ],
+ [
+  "Lego",
+  "https://minibadge.wiki/2023.json",
+  "url matches saintcon-2023-homelabs-community-badge"
+ ],
+ [
+  "ID/10T COMMUNITY BADGE",
+  "https://minibadge.wiki/2023.json",
+  "url matches saintcon-2023-homelabs-community-badge"
+ ],
+ [
+  "BLUE TEAM COMMUNITY BADGE",
+  "https://minibadge.wiki/2023.json",
+  "url matches saintcon-2023-homelabs-community-badge"
+ ],
+ [
+  "TAMPER EVIDENT COMMUNITY BADGE",
+  "https://minibadge.wiki/2023.json",
+  "url matches saintcon-2023-homelabs-community-badge"
+ ],
+ [
+  "BRIEFS COMMUNITY BADGE",
+  "https://minibadge.wiki/2023.json",
+  "url matches saintcon-2023-homelabs-community-badge"
+ ],
+ [
+  "AI COMMUNITY BADGE",
+  "https://minibadge.wiki/2023.json",
+  "url matches saintcon-2023-homelabs-community-badge"
+ ],
+ [
+  "APPLICATION SECURITY COMMUNITY BADGE",
+  "https://minibadge.wiki/2023.json",
+  "url matches saintcon-2023-homelabs-community-badge"
+ ],
+ [
+  "RFID/NFC COMMUNITY BADGE",
+  "https://minibadge.wiki/2023.json",
+  "url matches saintcon-2023-homelabs-community-badge"
+ ],
+ [
+  "RFID Rocket",
+  "https://minibadge.wiki/2023.json",
+  "url matches saintcon-2023-homelabs-community-badge"
+ ],
+ [
+  "HOMELABS COMMUNITY BADGE",
+  "https://minibadge.wiki/2023.json",
+  "url matches saintcon-2023-homelabs-community-badge"
+ ],
+ [
+  "HEALTHCARE HACKING COMMUNITY BADGE",
+  "https://minibadge.wiki/2023.json",
+  "url matches saintcon-2023-homelabs-community-badge"
+ ],
+ [
+  "HARDWARE HACKING COMMUNITY BADGE",
+  "https://minibadge.wiki/2023.json",
+  "url matches saintcon-2023-homelabs-community-badge"
+ ],
+ [
+  "LOCKPICK COMMUNITY BADGE",
+  "https://minibadge.wiki/2023.json",
+  "url matches saintcon-2023-homelabs-community-badge"
+ ],
+ [
+  "BADGELIFE COMMUNITY BADGE",
+  "https://minibadge.wiki/2023.json",
+  "url matches saintcon-2023-homelabs-community-badge"
+ ],
+ [
+  "THE KEEP COMMUNITY BADGE",
+  "https://minibadge.wiki/2023.json",
+  "url matches saintcon-2023-homelabs-community-badge"
+ ],
+ [
+  "Family Night - Rocket Building",
+  "https://minibadge.wiki/2023.json",
+  "url matches saintcon-2023-homelabs-community-badge"
+ ],
+ [
+  "LAN PARTY EVENT BADGE",
+  "https://minibadge.wiki/?search=LAN%20PARTY%20EVENT%20BADGE&year=2023",
+  "url matches saintcon-2023-lan-party-event-badge"
+ ],
+ [
+  "GameOn add-on module",
+  "https://github.com/Fri3dCamp/gameon-2020",
+  "url matches fri3d-2022-fri3d-camp-2022-badge"
+ ],
+ [
+  "Time Blaster add-on module",
+  "https://github.com/Fri3dCamp/timeblaster-2020",
+  "url matches fri3d-2022-time-blaster"
+ ],
+ [
+  "GameOn",
+  "https://github.com/Fri3dCamp/gameon-2020",
+  "url matches fri3d-2022-fri3d-camp-2022-badge"
+ ],
+ [
+  "HACKERS CHALLENGE BADGE",
+  "https://minibadge.wiki/2022.json",
+  "url matches saintcon-2022-packet-capture-badge"
+ ],
+ [
+  "HARDWARE HACKING BADGE",
+  "https://minibadge.wiki/2022.json",
+  "url matches saintcon-2022-packet-capture-badge"
+ ],
+ [
+  "Hacker Skull",
+  "https://minibadge.wiki/2022.json",
+  "url matches saintcon-2022-packet-capture-badge"
+ ],
+ [
+  "HOMELABS CAT6 MINIBADGE",
+  "https://minibadge.wiki/2022.json",
+  "url matches saintcon-2022-packet-capture-badge"
+ ],
+ [
+  "Lego Badge with mini-figURE",
+  "https://minibadge.wiki/2022.json",
+  "url matches saintcon-2022-packet-capture-badge"
+ ],
+ [
+  "HOMELABS CAT6 MINIBADGE",
+  "https://minibadge.wiki/?search=HOMELABS%20CAT6%20MINIBADGE&year=2022",
+  "url matches saintcon-2022-homelabs-cat6-minibadge"
+ ],
+ [
+  "2022 TFHT Alternative",
+  "https://minibadge.wiki/2022.json",
+  "url matches saintcon-2022-packet-capture-badge"
+ ],
+ [
+  "PEOPLE BADGES",
+  "https://minibadge.wiki/2021.json",
+  "url matches saintcon-2021-private-lte"
+ ],
+ [
+  "TIN FOIL HAT TALKS",
+  "https://minibadge.wiki/2021.json",
+  "url matches saintcon-2021-private-lte"
+ ],
+ [
+  "PRIVATE LTE",
+  "https://minibadge.wiki/2021.json",
+  "url matches saintcon-2021-private-lte"
+ ],
+ [
+  "RFID/NFC BADGE",
+  "https://minibadge.wiki/2021.json",
+  "url matches saintcon-2021-private-lte"
+ ],
+ [
+  "HACK IN THE BOX",
+  "https://minibadge.wiki/2021.json",
+  "url matches saintcon-2021-private-lte"
+ ],
+ [
+  "RED TEAM",
+  "https://minibadge.wiki/2021.json",
+  "url matches saintcon-2021-private-lte"
+ ],
+ [
+  "HACKER CHALLENGE",
+  "https://minibadge.wiki/2021.json",
+  "url matches saintcon-2021-private-lte"
+ ],
+ [
+  "SCAVENGER HUNT",
+  "https://minibadge.wiki/2021.json",
+  "url matches saintcon-2021-private-lte"
+ ],
+ [
+  "THE VAULT",
+  "https://minibadge.wiki/2021.json",
+  "url matches saintcon-2021-private-lte"
+ ],
+ [
+  "STORE BADGE",
+  "https://minibadge.wiki/2021.json",
+  "url matches saintcon-2021-private-lte"
+ ],
+ [
+  "RADIATION BADGE",
+  "https://minibadge.wiki/2021.json",
+  "url matches saintcon-2021-private-lte"
+ ],
+ [
+  "GADSEN FLAG",
+  "https://minibadge.wiki/2021.json",
+  "url matches saintcon-2021-private-lte"
+ ],
+ [
+  "USA FLAG",
+  "https://minibadge.wiki/2021.json",
+  "url matches saintcon-2021-private-lte"
+ ],
+ [
+  "COMPUNET",
+  "https://minibadge.wiki/2021.json",
+  "url matches saintcon-2021-private-lte"
+ ],
+ [
+  "PEOPLE BADGES",
+  "https://minibadge.wiki/?search=PEOPLE%20BADGES&year=2021",
+  "url matches saintcon-2021-people-badges"
+ ],
+ [
+  "TIN FOIL HAT TALKS",
+  "https://minibadge.wiki/?search=TIN%20FOIL%20HAT%20TALKS&year=2021",
+  "url matches saintcon-2021-tin-foil-hat-talks"
+ ],
+ [
+  "PRIVATE LTE",
+  "https://minibadge.wiki/?search=PRIVATE%20LTE&year=2021",
+  "url matches saintcon-2021-private-lte"
+ ],
+ [
+  "RFID/NFC BADGE",
+  "https://minibadge.wiki/?search=RFID%2FNFC%20BADGE&year=2021",
+  "title ~ saintcon-2021-rfid-nfc-badge"
+ ],
+ [
+  "HACK IN THE BOX",
+  "https://minibadge.wiki/?search=HACK%20IN%20THE%20BOX&year=2021",
+  "url matches saintcon-2021-hack-in-the-box"
+ ],
+ [
+  "RED TEAM",
+  "https://minibadge.wiki/?search=RED%20TEAM&year=2021",
+  "url matches saintcon-2021-red-team"
+ ],
+ [
+  "SCAVENGER HUNT",
+  "https://minibadge.wiki/?search=SCAVENGER%20HUNT&year=2021",
+  "url matches saintcon-2021-scavenger-hunt"
+ ],
+ [
+  "THE VAULT",
+  "https://minibadge.wiki/?search=THE%20VAULT&year=2021",
+  "url matches saintcon-2021-the-vault"
+ ],
+ [
+  "STORE BADGE",
+  "https://minibadge.wiki/?search=STORE%20BADGE&year=2021",
+  "url matches saintcon-2021-store-badge"
+ ],
+ [
+  "RADIATION BADGE",
+  "https://minibadge.wiki/?search=RADIATION%20BADGE&year=2021",
+  "url matches saintcon-2021-radiation-badge"
+ ],
+ [
+  "GADSEN FLAG",
+  "https://minibadge.wiki/?search=GADSEN%20FLAG&year=2021",
+  "url matches saintcon-2021-gadsen-flag"
+ ],
+ [
+  "MATRIX BADGE",
+  "https://minibadge.wiki/?search=MATRIX%20BADGE&year=2021",
+  "url matches saintcon-2021-matrix-badge"
+ ],
+ [
+  "USA FLAG",
+  "https://minibadge.wiki/?search=USA%20FLAG&year=2021",
+  "url matches saintcon-2021-usa-flag"
+ ],
+ [
+  "COMPUNET",
+  "https://minibadge.wiki/?search=COMPUNET&year=2021",
+  "url matches saintcon-2021-compunet"
+ ],
+ [
+  "PEOPLE BADGES",
+  "https://minibadge.wiki/2021.json",
+  "url matches saintcon-2021-private-lte"
+ ],
+ [
+  "TIN FOIL HAT TALKS",
+  "https://minibadge.wiki/2021.json",
+  "url matches saintcon-2021-private-lte"
+ ],
+ [
+  "PRIVATE LTE",
+  "https://minibadge.wiki/2021.json",
+  "url matches saintcon-2021-private-lte"
+ ],
+ [
+  "HACK IN THE BOX",
+  "https://minibadge.wiki/2021.json",
+  "url matches saintcon-2021-private-lte"
+ ],
+ [
+  "RED TEAM",
+  "https://minibadge.wiki/2021.json",
+  "url matches saintcon-2021-private-lte"
+ ],
+ [
+  "HACKER CHALLENGE",
+  "https://minibadge.wiki/2021.json",
+  "url matches saintcon-2021-private-lte"
+ ],
+ [
+  "SCAVENGER HUNT",
+  "https://minibadge.wiki/2021.json",
+  "url matches saintcon-2021-private-lte"
+ ],
+ [
+  "THE VAULT",
+  "https://minibadge.wiki/2021.json",
+  "url matches saintcon-2021-private-lte"
+ ],
+ [
+  "STORE BADGE",
+  "https://minibadge.wiki/2021.json",
+  "url matches saintcon-2021-private-lte"
+ ],
+ [
+  "RADIATION BADGE",
+  "https://minibadge.wiki/2021.json",
+  "url matches saintcon-2021-private-lte"
+ ],
+ [
+  "GADSEN FLAG",
+  "https://minibadge.wiki/2021.json",
+  "url matches saintcon-2021-private-lte"
+ ],
+ [
+  "MATRIX BADGE",
+  "https://minibadge.wiki/2021.json",
+  "url matches saintcon-2021-private-lte"
+ ],
+ [
+  "USA FLAG",
+  "https://minibadge.wiki/2021.json",
+  "url matches saintcon-2021-private-lte"
+ ],
+ [
+  "COMPUNET",
+  "https://minibadge.wiki/2021.json",
+  "url matches saintcon-2021-private-lte"
+ ],
+ [
+  "PEOPLE BADGES",
+  "https://minibadge.wiki/2021.json",
+  "url matches saintcon-2021-private-lte"
+ ],
+ [
+  "PRIVATE LTE",
+  "https://minibadge.wiki/2021.json",
+  "url matches saintcon-2021-private-lte"
+ ],
+ [
+  "RFID/NFC BADGE",
+  "https://minibadge.wiki/2021.json",
+  "url matches saintcon-2021-private-lte"
+ ],
+ [
+  "HACK IN THE BOX",
+  "https://minibadge.wiki/2021.json",
+  "url matches saintcon-2021-private-lte"
+ ],
+ [
+  "RED TEAM",
+  "https://minibadge.wiki/2021.json",
+  "url matches saintcon-2021-private-lte"
+ ],
+ [
+  "PEOPLE BADGES",
+  "https://minibadge.wiki/2021.json",
+  "url matches saintcon-2021-private-lte"
+ ],
+ [
+  "GADSEN FLAG",
+  "https://minibadge.wiki/2021.json",
+  "url matches saintcon-2021-private-lte"
+ ],
+ [
+  "Coin (MPU-6050 accelerometer/gyro add-on)",
+  "https://github.com/jorisplusplus/MPU_Coin",
+  "url matches campzone-2019-i-pane-campzone-2019-badge"
+ ],
+ [
+  "Security B-Sides Orlando 2018 Badge",
+  "https://hackaday.io/project/160630-security-b-sides-orlando-2018-badge",
+  "url matches bsides-orlando-2018-security-b-sides-orlando-2018-badge"
+ ],
+ [
+  "Bot Jewel",
+  "https://github.com/Fri3dCamp/badge/tree/master/design/jewels/Bot.00",
+  "url matches fri3d-2018-fri3d-2018-bot-jewel"
+ ],
+ [
+  "Air Jewel",
+  "https://github.com/Fri3dCamp/badge/tree/master/design/jewels",
+  "url matches fri3d-2018-fri3d-2018-bot-jewel"
+ ],
+ [
+  "Air Jewel",
+  "https://hackaday.io/project/160451-ph0xx",
+  "url matches fri3d-2018-fri3d-2018-bot-jewel"
+ ],
+ [
+  "Bot Jewel",
+  "https://hackaday.io/project/160451-ph0xx",
+  "url matches fri3d-2018-fri3d-2018-bot-jewel"
+ ],
+ [
+  "Ph0xx badge",
+  "https://github.com/Fri3dCamp/Fri3dBadge",
+  "url matches fri3d-2018-fri3d-2018-ph0xx-air-jewel"
+ ],
+ [
+  "THOTCON 0x8 Badge",
+  "https://hackaday.io/project/... (linked as 'Similar Projects' from https://hackaday.io/project/981-thotcon-0x4-badge, exact URL not captured)",
+  "title ~ thotcon-2024-thotcon-0xd-badge"
+ ],
+ [
+  "AramCon Badge Keyboard Add-On (BB-Q10 Keyboard Shitty Add-On)",
+  "https://github.com/aramcon-badge/keyboard-addon",
+  "url matches other-keyboard-addon-bb-q10-keyboard-shitty-add-on"
+ ],
+ [
+  "Vectorscope (Supercon 2023 badge)",
+  "https://github.com/Hack-a-Day/Vectorscope",
+  "url matches supercon-2023-hack-a-sketch"
+ ],
+ [
+  "2018 Hackaday Superconference Badge (proto-board reverse engineering)",
+  "https://hackaday.io/xbeau",
+  "url matches other-charlie-badge"
+ ],
+ [
+  "DEF CON DarkNet Badge (DEF CON 23 / 2015 edition)",
+  "https://hackaday.com/2015/08/10/all-the-unofficial-electronic-badges-of-def-con/",
+  "url matches other-dc-darknet-id-badge"
+ ],
+ [
+  "DEFCON-Badge-2025",
+  "https://github.com/patridge/DEFCON-Badge-2025",
+  "url matches dc33-defcon-badge-2025-wilderness-labs-meadow-project-lab-badge"
+ ],
+ [
+  "Badge Launcher v2 \"Touch\"",
+  "https://github.com/RetiaLLC/badge-launcher",
+  "url matches dc34-defconbadge2026-retia"
+ ],
+ [
+  "DORS/CLUC 2024 Badge",
+  "https://hyperglitch.com/articles/dc2024-badge",
+  "title ~ other-dors-cluc-2025-badge"
+ ],
+ [
+  "Tamafoxi",
+  "https://hackaday.com/2019/11/03/eth0-autumn-2019-tiny-camp-creative-badge/",
+  "url matches other-eth0-2019-badge"
+ ],
+ [
+  "HaDge - The Hackaday Badge",
+  "https://hackaday.io/project/3009-hadge-the-hackaday-badge",
+  "url matches other-hadge-the-hackaday-badge"
+ ],
+ [
+  "Hackaday Belgrade conference badge (2016)",
+  "https://hackaday.io/contest/10521-belgrade-badge-demoscene",
+  "url matches other-flybadge"
+ ],
+ [
+  "SAO Multimeter",
+  "https://hackaday.com/2024/11/04/supercon-2024-badge-add-on-winners/",
+  "url matches supercon-2024-fuzzy-sao"
+ ],
+ [
+  "Etch sAo Sketch",
+  "https://hackaday.com/2024/11/04/supercon-2024-badge-add-on-winners/",
+  "url matches supercon-2024-fuzzy-sao"
+ ],
+ [
+  "Bendy SAO",
+  "https://hackaday.com/2024/11/04/supercon-2024-badge-add-on-winners/",
+  "url matches supercon-2024-fuzzy-sao"
+ ],
+ [
+  "Vectrex SAO",
+  "https://hackaday.com/2024/11/04/supercon-2024-badge-add-on-winners/",
+  "url matches supercon-2024-fuzzy-sao"
+ ],
+ [
+  "Flux Capacitor Badge",
+  "https://hackaday.io/project/187459-flux-capacitor-badge",
+  "title ~ dc31-flux-capacitor-sao"
+ ],
+ [
+  "K.I.T.T. Knight Rider Blinky LED Badge",
+  "https://www.tindie.com/products/davedarko/kitt-knight-rider-blinky-led-badge/",
+  "url matches other-knight-rider-kitt-badge"
+ ],
+ [
+  "Vectorscope",
+  "https://github.com/Hack-a-Day/Vectorscope",
+  "url matches supercon-2023-hack-a-sketch"
+ ],
+ [
+  "Agency Wand",
+  "https://uberflux.com/maker/000000widow",
+  "url matches dc34-hacker-boba"
+ ],
+ [
+  "Badge Crown SAO",
+  "https://uberflux.com/maker/000000widow",
+  "url matches dc34-hacker-boba"
+ ],
+ [
+  "He-Man Badge (SAO connector)",
+  "https://x.com/thegizmolab/status/1780486786231251273",
+  "url matches other-he-meme-man-electronic-pin-badge"
+ ],
+ [
+  "OBD II CAN Bus cable for layerOne 2017 badge",
+  "https://www.tindie.com/products/charliex6/obd-ii-can-bus-cable-for-layerone-2017-badge/",
+  "url matches other-layerone-2017"
+ ],
+ [
+  "LayerOne 2013 Conference Badge",
+  "https://hackaday.com/2013/05/21/meet-the-2013-layerone-conference-badge/",
+  "title ~ other-layerone-2014-conference-badge"
+ ],
+ [
+  "LayerOne 2017 Electronic Badge",
+  "https://www.tindie.com/products/charliex6/layerone-2017-electronic-badge/",
+  "url matches other-layerone-2017"
+ ],
+ [
+  "Lunar Lander SAO",
+  "https://github.com/lunarbadge/LunarLanderSAO",
+  "url matches dc27-lunar-lander-badge"
+ ],
+ [
+  "maibadge-machine (machine_v2)",
+  "https://github.com/maibadge/maibadge",
+  "url matches dc34-maibadge-cab"
+ ],
+ [
+  "MalO SAO",
+  "https://github.com/parallellogic-/MalO_SAO",
+  "url matches other-malo-sao-flasher-web-based-reflashing-animation-browser-for"
+ ],
+ [
+  "maibadge-bear",
+  "https://github.com/maibadge/maibadge",
+  "url matches dc34-maibadge-cab"
+ ],
+ [
+  "Individual minibadges built to the lukejenkins minibadge standard (over a dozen exist per Hackaday, built for SAINTCON badges)",
+  "https://github.com/lukejenkins/minibadge",
+  "url matches other-minibadge-lukejenkins"
+ ],
+ [
+  "Supercon Add-On Add-On (SAOAO) standard",
+  "https://hackaday.com/2019/03/20/introducing-the-shitty-add-on-v1-69bis-standard/",
+  "url matches other-shitty-add-on-panel-tileable-expansion-interface"
+ ],
+ [
+  "Other Simple Add-Ons in davedarko's repo",
+  "https://github.com/davedarko/Simple-Add-ons-SAO/tree/main",
+  "url matches hackaday-europe-2026-lecco-postcard-sao"
+ ],
+ [
+  "Ghibli/Soot Sprites SAO",
+  "https://github.com/davedarko/Simple-Add-ons-SAO",
+  "url matches other-flux-capacitor-trinket-pin"
+ ],
+ [
+  "Han SAOlo in carbonyte",
+  "https://hackaday.io/project/197803-han-saolo",
+  "url matches supercon-2024-han-saolo"
+ ],
+ [
+  "COVID-19 badge (SAO)",
+  "https://hackaday.io/project/187615-covid-19-sao-simple-add-on",
+  "url matches supercon-2022-covid-19-test-sao"
+ ],
+ [
+  "\"Hello my name is\" SAO",
+  "https://hackaday.io/project/197693-hello-my-name-is-sao",
+  "url matches supercon-2024-hello-my-name-is-sao"
+ ],
+ [
+  "MrAnderson SAO",
+  "https://github.com/davedarko/Simple-Add-ons-SAO",
+  "url matches other-flux-capacitor-trinket-pin"
+ ],
+ [
+  "Vendetta badge SAO",
+  "https://github.com/davedarko/Simple-Add-ons-SAO",
+  "url matches other-flux-capacitor-trinket-pin"
+ ],
+ [
+  "Do Or Donut SAO",
+  "https://hackaday.io/project/168597-do-or-donut-sao",
+  "url matches other-do-or-donut-sao"
+ ],
+ [
+  "YoDawgSAO",
+  "https://github.com/davedarko/Simple-Add-ons-SAO",
+  "url matches other-flux-capacitor-trinket-pin"
+ ],
+ [
+  "Mr. Robot Badge (Mk. 1)",
+  "https://hackaday.io/project/18508-mr-robot-badge",
+  "url matches dc25-mr-robot-badge"
+ ],
+ [
+  "Tide Pod Blockchain (SAO add-on)",
+  "https://hackaday.io/project/94291-mr-robot-badge-mk-2",
+  "url matches dc26-mr-robot-badge-mk-2"
+ ],
+ [
+  "hello my name is SAO",
+  "https://hackaday.io/project/197693-hello-my-name-is-sao",
+  "url matches supercon-2024-hello-my-name-is-sao"
+ ],
+ [
+  "SAO HackThePlanet",
+  "https://uberflux.com/product/HTP-DC34",
+  "url matches dc34-htp-graffiti"
+ ],
+ [
+  "DcZia Mk9",
+  "https://uberflux.com/product/HAMST-DCZIA-2026",
+  "url matches dc34-dczia-mk9"
+ ],
+ [
+  "Shitty Kitty V2",
+  "https://www.uberflux.com/product/UF-SK2",
+  "url matches dc34-shitty-kitty-v2"
+ ],
+ [
+  "Darknet-NG SMAO",
+  "https://uberflux.com/product/DNNG-SMAO",
+  "url matches dc34-darknet-ng-smao"
+ ],
+ [
+  "Penghicorn",
+  "https://hackaday.io/project/162293-penghicorn",
+  "url matches other-penghito-poco-sao"
+ ],
+ [
+  "Mr. Robot shitty addon",
+  "https://hackaday.io/project/168037-mr-robot-shitty-addon",
+  "url matches supercon-2019-mr-robot-sao"
+ ],
+ [
+  "Oshwi (original octopus IoT badge)",
+  "https://hackaday.io/project/116882-oshwi-the-octopus-iot-badge",
+  "url matches other-oshwi-badge-2019"
+ ],
+ [
+  "Pixel Badge (Shitty Pixel)",
+  "https://hackaday.io/project/164567-pixel-badge-shitty-pixel",
+  "url matches other-pixel-badge-2-dark-pixel"
+ ],
+ [
+  "RickBadge",
+  "https://github.com/soynerdito/RickBadge",
+  "url matches other-rickbadge-pcb-badge-for-puerto-rico-hacker-community-bsides"
+ ],
+ [
+  "NOPE SAO",
+  "https://uberflux.com/product/ZNJP-NOPE",
+  "url matches supercon-2026-nope-sao"
+ ],
+ [
+  "Social Battery SAO",
+  "https://uberflux.com/product/ZNJP-SOCIAL-BATTERY",
+  "url matches supercon-2026-social-battery-sao"
+ ],
+ [
+  "Pixel Badge 2: Dark Pixel",
+  "https://hackaday.io/project/167841-pixel-badge-2-dark-pixel",
+  "url matches other-pixel-badge-2-dark-pixel"
+ ],
+ [
+  "Robot Bank",
+  "https://www.tindie.com/products/blinkingthing/robot-bank-sao-badge-add-on/",
+  "duplicate url in sweep"
+ ],
+ [
+  "Badge Killer Shitty Add-On",
+  "https://hackaday.io/project/166163-badge-killer-shitty-add-on",
+  "url matches other-badge-killer-shitty-add-on"
+ ],
+ [
+  "Remoticon 2020 badge (unofficial)",
+  "https://github.com/flummer/remoticon2020-badge",
+  "url matches other-remoticon-2-badge"
+ ],
+ [
+  "Whiskey Pirates RAID (variant of Retro Memories 26)",
+  "https://basic.truecontrol.org/dc34/retro-memories/",
+  "duplicate url in sweep"
+ ],
+ [
+  "Spacehuhn Badge",
+  "https://www.tindie.com/products/spacehuhn/spacehuhn-badge/",
+  "url matches other-retro-spacehuhn-badge-pin"
+ ],
+ [
+  "K.I.T.T. Knight Rider Blinky LED Badge",
+  "https://www.tindie.com/products/davedarko/kitt-knight-rider-blinky-led-badge/",
+  "url matches other-knight-rider-kitt-badge"
+ ],
+ [
+  "MassHackers Badge 2015",
+  "https://github.com/TheDukeZip/MassHackersBadge2015",
+  "url matches dc26-samurai-ctf-badge"
+ ],
+ [
+  "SAO library stick short",
+  "https://github.com/davedarko/Simple-Add-ons-SAO/tree/main/SAO%20library%20stick%20short",
+  "url matches other-sao-library-stick"
+ ],
+ [
+  "SAO_stick_sideways",
+  "https://github.com/davedarko/Simple-Add-ons-SAO/tree/main/SAO_stick_sideways",
+  "url matches other-sao-library-stick"
+ ],
+ [
+  "Han SAOlo in carbonyte",
+  "https://hackaday.io/project/197803-han-saolo",
+  "url matches supercon-2024-han-saolo"
+ ],
+ [
+  "LECCO postcard",
+  "https://github.com/davedarko/Simple-Add-ons-SAO/tree/main/Lecco",
+  "url matches hackaday-europe-2026-lecco-postcard-sao"
+ ],
+ [
+  "T.A.R.S.",
+  "https://github.com/davedarko/TARS-SAO",
+  "url matches supercon-2024-tars-sao-2"
+ ],
+ [
+  "Fat Pika SAO",
+  "https://hackaday.io/project/158665-fat-pika",
+  "url matches dc26-fat-pika"
+ ],
+ [
+  "Core64 / SAO_CORE4 - A Nibble of Core Memory",
+  "https://github.com/ageppert/SAO_CORE4",
+  "url matches supercon-2024-sao-core4"
+ ],
+ [
+  "Fat Pika",
+  "https://hackaday.io/TwinkleTwinkie",
+  "url matches other-the-child-sao"
+ ],
+ [
+  "Mad Cat (Cheshire Cat SAO)",
+  "https://hackaday.io/TwinkleTwinkie",
+  "url matches other-the-child-sao"
+ ],
+ [
+  "Big Green",
+  "https://hackaday.io/TwinkleTwinkie",
+  "url matches other-the-child-sao"
+ ],
+ [
+  "Arc Badge (Infinity War Arc Reactor)",
+  "https://hackaday.io/TwinkleTwinkie",
+  "url matches other-the-child-sao"
+ ],
+ [
+  "Fat Pika",
+  "https://hackaday.io/twinkletwinkie",
+  "url matches other-the-child-sao"
+ ],
+ [
+  "Hackaday Belgrade 2018 Conference Badge",
+  "https://github.com/kramarb/basic-badge",
+  "url matches other-shoot-my-valentine"
+ ],
+ [
+  "Shitty Add-On Totem",
+  "https://hackaday.io/project/52950-shitty-add-ons",
+  "url matches other-shitty-add-ons"
+ ],
+ [
+  "Chain Chomp",
+  "https://hackaday.com/2019/03/20/introducing-the-shitty-add-on-v1-69bis-standard/",
+  "url matches other-shitty-add-on-panel-tileable-expansion-interface"
+ ],
+ [
+  "Twinkle Twinkie",
+  "https://hackaday.com/2019/03/20/introducing-the-shitty-add-on-v1-69bis-standard/",
+  "url matches other-shitty-add-on-panel-tileable-expansion-interface"
+ ],
+ [
+  "Baby Bender",
+  "https://hackaday.com/2019/03/20/introducing-the-shitty-add-on-v1-69bis-standard/",
+  "url matches other-shitty-add-on-panel-tileable-expansion-interface"
+ ],
+ [
+  "DeLorean SAO",
+  "https://hackaday.com/2019/03/20/introducing-the-shitty-add-on-v1-69bis-standard/",
+  "url matches other-shitty-add-on-panel-tileable-expansion-interface"
+ ],
+ [
+  "Cromulon Badge",
+  "https://hackaday.com/2019/03/20/introducing-the-shitty-add-on-v1-69bis-standard/",
+  "url matches other-shitty-add-on-panel-tileable-expansion-interface"
+ ],
+ [
+  "Just No SAO",
+  "https://uberflux.com/maker/znjp",
+  "url matches supercon-2026-social-battery-sao"
+ ],
+ [
+  "NOPE SAO",
+  "https://uberflux.com/maker/znjp",
+  "url matches supercon-2026-social-battery-sao"
+ ],
+ [
+  "Unbearable Sloth Badge (hair-clip variant)",
+  "https://www.tindie.com/products/davedarko/unbearable-sloth-badge--hair-clip/",
+  "url matches other-sloth-badge"
+ ],
+ [
+  "fuccs-shitty-addon-hw",
+  "https://github.com/jeffmakes/fuccs-shitty-addon-hw",
+  "url matches other-fuccs-shitty-addon-hw"
+ ]
+]

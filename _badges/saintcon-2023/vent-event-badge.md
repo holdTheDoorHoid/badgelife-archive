@@ -70,10 +70,10 @@ sources:
   accessed: '2026-09-07'
   note: 'Underlying JSON record behind the search page: description, soldering instructions/difficulty, category, rarity, and how-to-acquire text for the VENT EVENT BADGE by author SHIFTY. Confirms front/back image files.'
 research:
-  status: researched
+  status: verified
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'Only source is the community-run minibadge.wiki database (SAINTCON minibadges are typically community-documented rather than sold through a storefront). No maker page, repo, or chip/LED specifics found; quantity made recorded as 0 in the source data, which most likely means "not tracked" rather than zero produced, so quantity was left blank here rather than guessed. No independent confirmation of maker SHIFTY''s identity beyond this listing.'
+  notes: 'Fact-check pass (2026-09-07): confirmed every non-empty field and body sentence against the underlying minibadge.wiki/2023.json record (description, category, rarity, soldering difficulty/instructions, and how-to-acquire text all match verbatim/near-verbatim), and confirmed both saved images are the maker''s front/back photos of this exact badge (re-encoded by the fetch script but pixel-identical in content to minibadge.wiki/images/2023/vent-event-badge-front.png and -back.png). The search-page URL in links/sources is a client-rendered SPA that shows no content to a plain fetch (loads its data from the JSON endpoint via JS) - this is a rendering quirk of that site, not a contradiction of any fact in this entry. Only source remains the community-run minibadge.wiki database; no maker page, repo, or chip/LED specifics exist to check further. Quantity made recorded as 0 in the source data, most likely "not tracked" rather than zero produced, so left blank rather than guessed. No independent confirmation of maker SHIFTY''s identity beyond this listing.'
 last_modified_date: '2026-09-07'
 ---
 

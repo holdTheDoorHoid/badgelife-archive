@@ -12,8 +12,8 @@ series: eChallengeCoin
 makers:
 - name: Bradán Lane STUDIO
   url: https://www.bradanlane.com/
-summary: 'An interactive electronic challenge coin from Bradán Lane STUDIO, part of the "Adventures of Sara Cladlow" story series, solved using onboard LEDs, touch sensors, and a piezo buzzer.'
-functions: 'Three interactive LED/touch-sensor challenges, three story-based puzzles unlocked over UART, an IR transceiver for bonus device-to-device content, and demo modes including LED animations and a Craps game.'
+summary: An interactive electronic challenge coin from Bradán Lane STUDIO, part of the "Adventures of Sara Cladlow" story series, solved using onboard LEDs, touch sensors, and a piezo buzzer.
+functions: Three interactive LED/touch-sensor challenges, three story-based puzzles unlocked over UART, an IR transceiver for bonus device-to-device content, and demo modes including LED animations and a Craps game.
 look:
   colors: []
   shape: circle
@@ -38,7 +38,7 @@ get_one:
   price_usd: 40.0
   quantity: ''
   availability: sold_out
-  availability_note: 'Tindie listing shows as retired/no longer for sale, checked 2026-09-06.'
+  availability_note: Tindie listing shows as retired/no longer for sale, checked 2026-09-06.
   distribution:
   - purchase
   where: Online (Tindie Store)
@@ -47,20 +47,23 @@ make_your_own:
   hardware_url: null
   firmware_url: null
   eda_tool: null
-  notes: 'Documentation site (aosc.cc/eccn2022) shows schematic/board views via KiCanvas, but no repository link or license was found.'
+  notes: Documentation site (aosc.cc/eccn2022) shows schematic/board views via KiCanvas, but no repository link or license was found.
 links:
 - label: www.tindie.com/products/bradanlane/2022-echallengecoin
   url: https://www.tindie.com/products/bradanlane/2022-echallengecoin/
   kind: store
+  archived: https://web.archive.org/web/20260519052558/https://www.tindie.com/products/bradanlane/2022-echallengecoin/
 - label: aosc.cc/eccn2022 (documentation)
   url: https://aosc.cc/eccn2022
   kind: doc
   accessed: '2026-09-06'
+  archived: https://web.archive.org/web/20260519084516/https://aosc.cc/eccn2022
 images:
 - file: assets/images/badges/dc30/a-challenge-coin/d8743e2491.jpg
-  source: "https://www.tindie.com/products/bradanlane/2022-echallengecoin/"
-  credit: "Bradán Lane STUDIO"
-  caption: "Front face of the 2022 eChallengeCoin"
+  source: https://www.tindie.com/products/bradanlane/2022-echallengecoin/
+  credit: Bradán Lane STUDIO
+  caption: Front face of the 2022 eChallengeCoin
+  archived: https://web.archive.org/web/20260519052558/https://www.tindie.com/products/bradanlane/2022-echallengecoin/
 contact: {}
 notes:
 - Will also have a special SAO available in person
@@ -75,16 +78,18 @@ sources:
   title: 2022 eChallengeCoin - Tindie
   accessed: '2026-09-06'
   note: Maker identity, description, size, battery, price, retired/sold-out status
+  archived: https://web.archive.org/web/20260519052558/https://www.tindie.com/products/bradanlane/2022-echallengecoin/
 - kind: url
   url: https://aosc.cc/eccn2022
   title: 2022 eChallengeCoin Project documentation
   accessed: '2026-09-06'
   note: LED count/layout, touch sensor count, IR feature, UART protocol details
+  archived: https://web.archive.org/web/20260519084516/https://aosc.cc/eccn2022
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-06'
-  notes: 'The sheet listed only a garbled title ("A Challenge Coin...", maker "2022 sChallenge Coin"); identified as Bradán Lane STUDIO''s 2022 eChallengeCoin from the linked Tindie store, title corrected accordingly. MCU/chip was not disclosed on either the Tindie listing or the maker''s documentation site, so tech.mcu is left null. No hardware/firmware repository link was found despite the documentation mentioning open design-file viewing via KiCanvas, so make_your_own fields are left null aside from a note. This is part of a recurring "eChallengeCoin" series with later years (see dc32-echallenge-coin-2024, dc34-2026-echallengecoin) as separate entries; not a duplicate of those since each year is a distinct product.'
+  notes: The sheet listed only a garbled title ("A Challenge Coin...", maker "2022 sChallenge Coin"); identified as Bradán Lane STUDIO's 2022 eChallengeCoin from the linked Tindie store, title corrected accordingly. MCU/chip was not disclosed on either the Tindie listing or the maker's documentation site, so tech.mcu is left null. No hardware/firmware repository link was found despite the documentation mentioning open design-file viewing via KiCanvas, so make_your_own fields are left null aside from a note. This is part of a recurring "eChallengeCoin" series with later years (see dc32-echallenge-coin-2024, dc34-2026-echallengecoin) as separate entries; not a duplicate of those since each year is a distinct product.
 last_modified_date: '2026-09-06'
 ---
 

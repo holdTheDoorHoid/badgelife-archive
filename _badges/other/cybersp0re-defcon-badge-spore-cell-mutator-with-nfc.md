@@ -25,7 +25,6 @@ tech:
   display: TFT (via TFT_eSPI library; exact size not stated)
   connectivity:
   - nfc
-  - wifi
   battery: null
   sao_version: null
 get_one:
@@ -65,13 +64,26 @@ research:
   confidence: low
   last_checked: '2026-09-07'
   notes: >-
-    This is a solo hobby/firmware project self-described as "A DEFCON Badge Project" by GitHub user
-    newtnewtnewt (Noah Dunn), not a badge with confirmed distribution at any specific DEF CON. Commit
-    history runs September-November 2025, after DEF CON 33 (Aug 2025), so it does not match that
-    year's con; no source states a target year or confirms the badge was ever built as physical
-    hardware, worn, or given out. No hardware files (schematic/PCB/Gerbers), no images, no price or
-    quantity information, and no storefront were found. Left under the "other" event since no
-    specific con/year could be confirmed from sources.
+    Fact-check pass (2026-09-07): re-read the repo (README, CyberSp0re.ino source, commit history,
+    contents listing, maker's GitHub profile) via `gh api`. All retained fields/sentences confirmed
+    directly in source: Arduino Nano ESP32 / "nano_nora" build target (README), TFT_eSPI display
+    library (README), Adafruit_PN532 wired over SPI reading ISO14443A cards (source lines ~1-80),
+    SD card persistence over a second SPI bus (source), mutation logic keyed on scanned card UIDs
+    (source `mutateCreature`/`alreadyMutatedWith`), and commit dates spanning 2025-09-07 to
+    2025-11-19. One correction: removed "wifi" from tech.connectivity — the source `#include
+    <WiFi.h>` is never actually called (no WiFi.begin, no network code anywhere in the 543-line
+    file), so it is an unused header, not a real feature, and listing it would be inventing a
+    function the code doesn't perform. Repo contents (CyberSp0re.ino, README.md, and one duplicate
+    .ino in a subfolder) confirm no schematic/PCB/Gerbers/BOM and no images exist in the repo; no
+    other page (storefront, Hackaday, press) was found for this project, so price, quantity,
+    distribution, and images remain unsupported and stay empty. This is a solo hobby/firmware
+    project self-described as "A DEFCON Badge Project" by GitHub user newtnewtnewt (Noah Dunn), not
+    a badge with confirmed distribution at any specific DEF CON. Commit history runs
+    September-November 2025, after DEF CON 33 (Aug 2025), so it does not match that year's con; no
+    source states a target year or confirms the badge was ever built as physical hardware, worn, or
+    given out. Left under the "other" event since no specific con/year could be confirmed from
+    sources. Status kept at "researched" rather than "verified" because open questions remain
+    (whether any physical unit was built, target con year) that no available source resolves.
 last_modified_date: '2026-09-07'
 ---
 

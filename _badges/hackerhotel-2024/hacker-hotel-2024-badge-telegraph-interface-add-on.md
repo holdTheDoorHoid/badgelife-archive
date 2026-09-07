@@ -95,10 +95,10 @@ sources:
   accessed: '2026-09-07'
   note: Confirmed CERN-OHL-P open hardware license and maker credits (Tilde.industries, Nicolai Electronics).
 research:
-  status: researched
+  status: verified
   confidence: high
   last_checked: '2026-09-07'
-  notes: 'Price/quantity/exact LED count not published on any source found; left empty rather than guessed. The badge.team page and Hackaday article do not name an individual designer beyond the badge.team collective (Tilde.industries and Nicolai Electronics per the GitHub repo).'
+  notes: 'Fact-checked 2026-09-07: badge.team docs page, the Hackaday article, and the hardware/firmware GitHub repos were re-fetched and confirm every non-empty field and body sentence (MCU, e-paper spec, switches/relay, wifi/ble/i2c, USB-C battery, CERN-OHL-P/KiCad, puzzles, nonvolatile nametag, mesh Battleships game, both images). Price/quantity/exact LED count remain unpublished and are left empty rather than guessed. Note: a separate entry, telegraph-badge-hackerhotel-2024.md, covers the same physical badge from an independent discovery sweep with some differing details (e.g. sao_version v1, colors black/red, different maker-list phrasing) - left untouched per one-entry-per-task scope; worth reconciling or deduplicating in a follow-up.'
 last_modified_date: '2026-09-07'
 redirect_from:
 - /badges/other/hacker-hotel-2024-badge-telegraph-interface-add-on/

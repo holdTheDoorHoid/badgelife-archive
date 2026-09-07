@@ -56,7 +56,7 @@ images: []
 contact: {}
 notes:
 - 'GitHub repo title reads "2021 DEFCON Furs Badge"; DC29 corresponds to DEF CON 29, held August 2021.'
-status: released
+status: unknown
 sources:
 - kind: url
   url: https://github.com/defconfurs/dcfurs-badge-dc29
@@ -82,7 +82,7 @@ research:
   status: researched
   confidence: low
   last_checked: '2026-09-07'
-  notes: 'Could not determine the MCU part number, LED count, price, quantity made, or distribution method (free vs. sold) from any source found; the 2021.dcfurs.com event site did not resolve live and no Wayback snapshot was checked for badge-specific text. No photo of the physical badge was located (repo has no images; only a schematic PDF). look.shape, look.colors, tech.mcu, tech.display, tech.battery, and get_one fields left empty/null accordingly.'
+  notes: 'Fact-check pass (2026-09-07): confirmed the IS31FL3737 driver, I2C connectivity (driver source calls i2c_read_reg/i2c_write_reg), and the firmware animations against the actual .ino/.cpp source (raw.githubusercontent.com); firmware in fact addresses up to LED index 48, not just "24+", though "at least 24" as written is not contradicted. Corrected status from released to unknown: the only sources are a GitHub repo (schematic PDF + firmware) and dcfurs.com/2021.dcfurs.com, none of which confirm the badge was actually fabricated or handed out to attendees; "released" was an unsupported inference from the repo existing during the DEF CON 29 dates. Confirmed 2021.dcfurs.com still does not resolve (connection refused) and has no Wayback Machine snapshot, so no badge-specific distribution text exists anywhere checked. Could not determine the MCU part number, LED count, price, quantity made, or distribution method (free vs. sold) from any source found. No photo of the physical badge was located (repo has no images; only a schematic PDF). look.shape, look.colors, tech.mcu, tech.display, tech.battery, get_one, and status therefore remain empty/unknown.'
 last_modified_date: '2026-09-07'
 ---
 

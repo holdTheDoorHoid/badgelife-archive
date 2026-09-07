@@ -11,13 +11,12 @@ year: 2023
 makers:
 - name: SHIFTY
 summary: A UFO/conspiracy-themed SAINTCON minibadge with an X-Files-style "the truth is out there" premise.
-functions: 'Blinks LEDs; no other stated interactivity.'
+functions: 'Two LEDs and two resistors in a simple lit circuit (per the front/back board images); no microcontroller or blink/animation circuitry, and no other function is described in the source.'
 look:
   colors: []
   shape: null
   themes:
   - sci-fi
-  - conspiracy
   - meme
 tech:
   mcu: none
@@ -70,15 +69,15 @@ sources:
   accessed: '2026-09-07'
   note: 'Underlying data record for the search-page listing: description, soldering instructions/difficulty, category, rarity, quantity made (0, i.e. not recorded), and front/back image paths.'
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-07'
-  notes: 'Only source found is the community-run minibadge.wiki database; the maker "SHIFTY" has no discoverable profile page, storefront, or repo, and web search turned up nothing else under this title. "quantityMade" is recorded as 0 in the source data, which reads as "not recorded" rather than a real quantity, so get_one.quantity was left blank. "howToAcquire" is listed only as "~REDACTED INFORMATION~" on the community sheet, so availability/distribution/where are left unknown rather than guessed. No hardware/firmware files, price, LED count/type, or PCB color were stated anywhere found.'
+  notes: 'Fact-check pass (2026-09-07): confirmed the minibadge.wiki 2023.json record and both saved images against the entry. Corrected two unsupported claims from the prior pass: functions previously said "Blinks LEDs," but the source description never mentions blinking, and the board images show a plain LED+resistor circuit with no MCU or oscillator component, so it was reworded to describe only what the images and text actually show; the body''s "passive blinky minibadge" wording was fixed to "passive LED minibadge" for the same reason. Also removed "conspiracy" from look.themes since it is not in the guide''s controlled vocabulary; sci-fi and meme already cover the theme. Only source found is the community-run minibadge.wiki database; the maker "SHIFTY" has no discoverable profile page, storefront, or repo, and web search turned up nothing else under this title. "quantityMade" is recorded as 0 in the source data, which reads as "not recorded" rather than a real quantity, so get_one.quantity was left blank. "howToAcquire" is listed only as "~REDACTED INFORMATION~" on the community sheet, so availability/distribution/where are left unknown rather than guessed. No hardware/firmware files, price, LED count/type, or PCB color were stated anywhere found; the board images do show two LEDs (D1/D2) and two resistors (R1/R2) but no LED type/part marking, so tech.leds.count/type were left as null rather than guessed from the silkscreen alone.'
 last_modified_date: '2026-09-07'
 ---
 
 TFHT ("The Truth Is Out There...") is a SAINTCON 2023 minibadge by a maker credited as SHIFTY, playing on X-Files/UFO-conspiracy tropes. The community write-up leans fully into the bit, joking that the minibadge is itself proof of a conspiracy and doubles as a "tracker" for "mind control" — in keeping with the tongue-in-cheek tone typical of SAINTCON's minibadge culture.
 
-Build-wise, it's a simple beginner-level kit: solder LEDs and a resistor using the single-pad hand-soldering method, then attach pin headers. No microcontroller, display, or connectivity is indicated, consistent with a passive blinky minibadge rather than a programmable one.
+Build-wise, it's a simple beginner-level kit: solder LEDs and a resistor using the single-pad hand-soldering method, then attach pin headers. No microcontroller, display, or connectivity is indicated, consistent with a passive LED minibadge rather than a programmable one.
 
 The only source located is the community-maintained minibadge.wiki database, which lists the badge as "Uncommon" rarity under its "Event" category but redacts how it was actually distributed and does not record a quantity made. No maker page, storefront, repository, or price information could be found, so those fields are left empty.

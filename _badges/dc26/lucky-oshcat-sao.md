@@ -79,10 +79,10 @@ sources:
   accessed: '2026-09-07'
   note: Board is a 2-layer, 2.01 x 2.41 in PCB; OSHPark order price for a set of 3 boards is $24.20. This is the fab cost of ordering the bare board yourself, not a maker-set retail price for an assembled SAO.
 research:
-  status: researched
+  status: verified
   confidence: medium
   last_checked: '2026-09-07'
-  notes: No source states this was distributed at DEF CON 26 specifically or gives quantity made, an assembled price, or availability status; the hackaday.io project text only ties it to "badge/add-on community events like DEFCON" in general. Left get_one.availability as unknown and quantity/where sparse rather than guess. tech.leds count/type not stated beyond "1206/PLCC2 LEDs" (captured in functions); mcu set to none since this is a passive SAO with no chip mentioned. No web search was available this session (budget exhausted) beyond the two initial queries, which returned no results due to the limit; findings rely on the two linked pages only.
+  notes: Fact-check pass (2026-09-07) re-fetched both cited pages. Maker (TwinkleTwinkie), creation date (2018-07-19), the "Prince OSHCat" -> maneki-neko reimagining, and "1206/PLCC2 LEDs" under the coin are all confirmed verbatim on the Hackaday.io project page, which also links the OSH Park share and a KiCad+Gerbers zip, confirming make_your_own fields. OSH Park page confirms 2-layer, ~2.01x2.41in board and $24.20 for a set of 3, matching get_one.price/price_usd (labeled as fab cost, not retail, correctly). tech.mcu "none" is an inference (no chip, IC, or driver circuit mentioned anywhere in the project description, only passive LEDs) rather than an explicit maker statement, but is consistent with the guide's convention for passive boards and the evidence read. Saved image matches the project's own board photo and shows the described cat/coin design. No source states DEF CON 26 distribution specifically, quantity made, an assembled price, or availability, so those remain unknown/empty as before; not treated as a defect since nothing claims otherwise. No contradictions found between sources.
 last_modified_date: '2026-09-07'
 ---
 

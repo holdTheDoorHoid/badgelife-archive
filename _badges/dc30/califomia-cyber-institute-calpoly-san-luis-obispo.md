@@ -75,6 +75,7 @@ links:
 - label: California Cybersecurity Institute / Space Grand Challenge (now under Noyce School of Applied Computing)
   url: https://noyce.calpoly.edu/cybersecurity/space-grand-challenge-program/
   kind: website
+  archived: https://web.archive.org/web/20260607204329/https://noyce.calpoly.edu/cybersecurity/space-grand-challenge-program/
 images:
 - file: assets/images/badges/dc30/califomia-cyber-institute-calpoly-san-luis-obispo/43310a462e.jpg
   source: https://forum.defcon.org/node/240869
@@ -106,6 +107,7 @@ sources:
   title: Space Grand Challenge Program - Noyce School of Applied Computing
   accessed: '2026-09-07'
   note: Describes Space Grand Challenge as a free, virtual, game-based cybersecurity competition for middle/high schoolers built by Cal Poly students - the educational program behind the badge, not a description of the physical badge itself. Notes the Cybersecurity Institute has been "temporarily discontinued".
+  archived: https://web.archive.org/web/20260607204329/https://noyce.calpoly.edu/cybersecurity/space-grand-challenge-program/
 research:
   status: researched
   confidence: medium

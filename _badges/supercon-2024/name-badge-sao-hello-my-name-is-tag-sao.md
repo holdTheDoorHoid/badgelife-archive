@@ -69,7 +69,7 @@ sources:
   accessed: '2026-09-07'
   note: 'Repo description ("A shitty add-on that''s also a lovely Hello My Name Is tag"), commit history (3 commits, Nov 12-17 2023, moving from charlieplexed to a normal LED matrix on a new MCU), and pcb/ directory contents (KiCad project, no README, no firmware).'
 - kind: url
-  url: https://raw.githubusercontent.com/SurrealityLabs/name-badge-sao/main/pcb/name-badge-sao/name-badge-sao.kicad_sch
+  url: https://raw.githubusercontent.com/SurrealityLabs/name-badge-sao/master/pcb/name-badge-sao/name-badge-sao.kicad_sch
   title: name-badge-sao.kicad_sch (schematic source)
   accessed: '2026-09-07'
   note: 'Schematic parts list: STM32F030C8Tx MCU, 128 LED symbols (16x8), 16x MMBT3904 transistors, a 6-pin (2x3) SAO connector, 2 tactile switches, SWD programming pads. Confirms SAO v2 header and dot-matrix LED display.'
@@ -79,10 +79,10 @@ sources:
   accessed: '2026-09-07'
   note: 'Maker''s own blog post (Dec 2023) says he plans "a couple of SAO designs" and wants "a bunch of them to give away at Supercon next year" — i.e. Supercon 8 / Nov 2024. This is the basis for setting event to supercon-2024; it states intent, not confirmed completion or distribution.'
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-07'
-  notes: 'Event (supercon-2024) is based on the maker''s stated intent in a Dec 2023 blog post ("give away at Supercon next year"), not on a confirmed sighting at the con. The GitHub repo shows only 3 commits, all from Nov 12-17 2023, ending mid-design ("I think that''s an SAO") with no README, no firmware, and no later activity or release — there is no evidence the board was ever finished, fabricated in quantity, or actually distributed. No photos of an assembled unit were found anywhere (repo, blog, or web search), so images could not be filled in. Price, quantity, and availability are all genuinely unknown. LED color/part and battery are not stated in the schematic beyond generic "LED" symbols. Set status to announced rather than listed/released given the above. A different maker (davedarko) made an unrelated, non-electronic silkscreen "hello my name is" SAO for the same Supercon 8 (2024) contest — noted in `notes` so future research does not conflate the two.'
+  notes: 'Fact-check pass (2026-09-07): re-fetched all three cited sources and the raw schematic. Confirmed exactly: repo description ("A shitty add-on that''s also a lovely Hello My Name Is tag"); 3 commits dated 2023-11-12, 2023-11-16 ("Moving to an all-new circuit design (normal matrix, no charlieplexing) with a new MCU"), 2023-11-17 ("I think that''s an SAO"); repo tree has no README and no firmware, only a pcb/ KiCad project; schematic contains STM32F030C8Tx, 128 Device:LED symbols, 16 MMBT3904 transistors, one 2x3 (6-pin, SAO v2) connector, 2 tactile switches, and MCU SWDIO/SWCLK pins, with no battery or regulator parts (consistent with power drawn from the host badge); and the blog post''s exact line, "I want to have a bunch of them to give away at Supercon next year." One citation was corrected: the schematic source URL pointed at a non-existent "main" branch (404) — the repo''s actual default branch is "master"; fixed the URL, no factual change. Event (supercon-2024) remains inferred from the maker''s stated intent, not a confirmed sighting — this is disclosed above and in the body, not stated as fact. No unsupported claims found; everything else in this pass is unchanged.'
 last_modified_date: '2026-09-07'
 redirect_from:
 - /badges/other/name-badge-sao-hello-my-name-is-tag-sao/

@@ -23,7 +23,7 @@ tech:
   display: null
   connectivity: [i2c]
   battery: null
-  sao_version: v1.69bis
+  sao_version: null
 get_one:
   price: ''
   price_usd: null
@@ -75,10 +75,10 @@ sources:
   accessed: '2026-09-07'
   note: 'Confirmed the badge had 6 SAO slots (4 awkwardly angled, center unused), how SAO Bridge wires its center port, and that boards were fabbed green instead of black due to timeline.'
 research:
-  status: researched
+  status: verified
   confidence: high
   last_checked: '2026-09-07'
-  notes: 'No price, quantity, or sale listing found; these appear to be a design the maker published for others to fabricate rather than a sold product, so get_one fields are left mostly empty. No LED/display info applies (passive adapter PCBs, no MCU). Could not find a personal site/Hackaday.io profile for Adrian Studer beyond the GitHub repo link.'
+  notes: 'Verification pass 2026-09-07: re-fetched both cited sources (Hackaday article and the astuder/supercon8-sao-adapters GitHub README) and confirmed maker, both boards'' functions, the power/I2C wiring of the SAO Bridge center port, CERN-OHL-P license, KiCad files (sao-up.kicad_pcb/sao-bridge.kicad_pcb present in-repo), and the green-vs-black JLCPCB timeline detail, all word-for-word consistent with the entry. Both saved images were confirmed against their source pages: image 1 matches hackaday.com/wp-content/uploads/2025/01/saoadapt_feat.jpg exactly (same photo, same resolution) and image 2 matches a higher-resolution version of the GitHub repo''s img/s8-badge.jpg (same composite photo, downscaled) - both genuinely depict this item. Removed tech.sao_version (was set to v1.69bis): neither cited source names a SAO spec version, and the 2024 Supercon badge repo README/hardware folder available online does not confirm that label either, so it was an unsupported inference and has been blanked per the no-invent rule. No price, quantity, or sale listing found; these appear to be a design the maker published for others to fabricate rather than a sold product, so get_one fields are left mostly empty. No LED/display info applies (passive adapter PCBs, no MCU). Could not find a personal site/Hackaday.io profile for Adrian Studer beyond the GitHub repo link. Everything else in the entry is supported by the cited sources.'
 last_modified_date: '2026-09-07'
 ---
 

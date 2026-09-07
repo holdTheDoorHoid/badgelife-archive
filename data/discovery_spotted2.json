@@ -1,0 +1,4873 @@
+{
+ "results": [
+  {
+   "angle": "research-run2-spotted",
+   "candidates": [
+    {
+     "title": "CHV Main Badge (DC32)",
+     "maker": "Car Hacking Village",
+     "event_hint": "dc32",
+     "type": "badge",
+     "url": "https://github.com/car-hacking-village/DC32_CHV_Badge_Board",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Speedometer SAO (DC32)",
+     "maker": "uberwoozle / Car Hacking Village",
+     "event_hint": "dc32",
+     "type": "sao",
+     "url": "https://github.com/car-hacking-village/DC32_CHV_Speedometer_Firmware",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "DEF CON 34 \"INHUMAN\" badge",
+     "maker": "Team CHEESO / Andrew \"bunnie\" Huang",
+     "event_hint": "dc34",
+     "type": "badge",
+     "url": "https://cheeso.io/defcon-34-badge",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "DEF CON 34 \"ARTIST\" badge",
+     "maker": "Team CHEESO / Andrew \"bunnie\" Huang",
+     "event_hint": "dc34",
+     "type": "badge",
+     "url": "https://cheeso.io/defcon-34-badge",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Dabao (Baochip-1x dev board)",
+     "maker": "Andrew \"bunnie\" Huang",
+     "event_hint": "other",
+     "type": "kit",
+     "url": "https://www.hackster.io/news/andrew-bunnie-huang-prepares-the-dabao-a-dev-board-for-baochip-s-mostly-open-x1-risc-v-mcu-1b7cad7fa2ea",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "CPEC DEF CON 34 \"Mech\" badge",
+     "maker": "Cyber Professionals Enthusiast Club",
+     "event_hint": "dc34",
+     "type": "badge",
+     "url": "https://github.com/Cyber-Professionals-Enthusiast-Club/DC-34-Badge",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "DC-34-Mech-SAO / DC-34-Mech-SAO-Plugin-Demo",
+     "maker": "Cyber Professionals Enthusiast Club",
+     "event_hint": "dc34",
+     "type": "sao",
+     "url": "https://github.com/Cyber-Professionals-Enthusiast-Club/DC-34-Mech-SAO",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "DC34-CPEC-SAO",
+     "maker": "Cyber Professionals Enthusiast Club",
+     "event_hint": "dc34",
+     "type": "sao",
+     "url": "https://github.com/Cyber-Professionals-Enthusiast-Club/DC34-CPEC-SAO",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "DC32-SAO",
+     "maker": "Cyber Professionals Enthusiast Club",
+     "event_hint": "dc32",
+     "type": "sao",
+     "url": "https://github.com/Cyber-Professionals-Enthusiast-Club/DC32-SAO",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "DC-34-Badge (host badge hardware)",
+     "maker": "Cyber Professionals Enthusiast Club (CPEC)",
+     "event_hint": "dc34",
+     "type": "badge",
+     "url": "https://github.com/Cyber-Professionals-Enthusiast-Club/DC-34-Badge",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Official DEF CON 34 conference badge (Baochip-1x SoC, Xous OS)",
+     "maker": "DEF CON badge team (unattributed in this repo)",
+     "event_hint": "dc34",
+     "type": "badge",
+     "url": "",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "30-in-1 Badge (DCZia YOLO Badge)",
+     "maker": "DCZia",
+     "event_hint": "dc30",
+     "type": "badge",
+     "url": "https://www.hackster.io/news/dczia-s-30-in-one-badge-built-for-def-con-30-is-a-throwback-to-classic-educational-circuit-kits-f2f204d7aafe",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "It's 2 badges. A Zombie and a Survivor badge",
+     "maker": "H4irl1n3 M0gg3r5",
+     "event_hint": "dc34",
+     "type": "badge",
+     "url": "https://www.h4irl1n3-m0gg3r5.com/",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "SaO MANY SAOs (already catalogued as dc33-sao-many-saos)",
+     "maker": "Vortex Codes / Coruscant Ventures",
+     "event_hint": "dc33",
+     "type": "sao",
+     "url": "https://hackerwarehouse.com/product/sao-many-saos-badge/",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "vecdec (Vecdeck)",
+     "maker": "svenscore",
+     "event_hint": "DEF CON 34 (per a cyberdeck-competition mention; not confirmed as a con badge sheet item)",
+     "type": "sao",
+     "url": "https://github.com/svenscore/vecdec",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "DC31 SAO",
+     "maker": "hexum064 / BFB team",
+     "event_hint": "dc31",
+     "type": "sao",
+     "url": "https://hackaday.io/project/192013-dc31-sao",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Cereal Booper",
+     "maker": "DEFCON Furs",
+     "event_hint": "dc30",
+     "type": "badge",
+     "url": "https://defconfurs.gumroad.com/l/2022-badge-bundle",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "30-in-ONE Learn Electronics badge (throwback)",
+     "maker": "hamster / DC Zia crew",
+     "event_hint": "dc30",
+     "type": "badge",
+     "url": "",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Half-assed DC30 Hacker Homecoming Nametag",
+     "maker": "DC540 Nova",
+     "event_hint": "dc30",
+     "type": "badge/accessory",
+     "url": "https://www.tindie.com/products/dc540_nova/half-assed-dc30-hacker-homecoming-nametag/",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "30-in-ONE Learn Electronics badge",
+     "maker": "hamster / DC Zia crew",
+     "event_hint": "dc30",
+     "type": "kit",
+     "url": "https://hackaday.com/2022/12/09/nostalgic-30-in-one-electronics-badge-for-def-con-30/",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Big [Censored] Badge",
+     "maker": "Hexum064",
+     "event_hint": "dc30",
+     "type": "badge",
+     "url": "",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "DEF CON 29 Electronic Badge",
+     "maker": "AND!XOR",
+     "event_hint": "dc29",
+     "type": "badge",
+     "url": "https://defcon.org/html/defcon-29/dc-29-index.html",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "DC29 Hardware Badge (RISC-V)",
+     "maker": "Whiskey Pirates",
+     "event_hint": "dc29",
+     "type": "badge",
+     "url": "https://defcon.org/html/defcon-29/dc-29-index.html",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "MakeItHackin DEF CON 29 Electronic Badge",
+     "maker": "MakeItHackin",
+     "event_hint": "dc29",
+     "type": "badge",
+     "url": "https://www.tindie.com/products/makeithackin/makeithackin-def-con-29-electronic-badge/",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "SAO Adapter for DEF CON 31 Badge",
+     "maker": "MakeItHackin",
+     "event_hint": "dc31",
+     "type": "sao",
+     "url": "https://www.tindie.com/products/makeithackin/sao-adapter-for-def-con-31-badge/",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Interactive SAO for DC32 Badge",
+     "maker": "MakeItHackin",
+     "event_hint": "dc32",
+     "type": "sao",
+     "url": "https://www.tindie.com/products/makeithackin/interactive-sao-for-dc32-badge/",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Boozeboard - Alcohol Sensor SAO (DEF CON 30)",
+     "maker": "MakeItHackin",
+     "event_hint": "dc30",
+     "type": "sao",
+     "url": "https://www.tindie.com/products/makeithackin/def-con-30-boozeboard-alcohol-sensor-sao/",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Skull of Fate SAO",
+     "maker": "MakeItHackin",
+     "event_hint": "other",
+     "type": "sao",
+     "url": "https://www.tindie.com/products/makeithackin/skull-of-fate-sao/",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Tricorder SAO",
+     "maker": "MakeItHackin",
+     "event_hint": "other",
+     "type": "sao",
+     "url": "https://www.tindie.com/products/makeithackin/tricorder-sao/",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "BadgeLife SAO Kit (with C0V1D CTF SAO)",
+     "maker": "MakeItHackin",
+     "event_hint": "other",
+     "type": "sao",
+     "url": "https://www.tindie.com/products/makeithackin/badgelife-sao-kit/",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Bender SAO (AND!XOR DC27 companion add-on, hidden serial output)",
+     "maker": "AND!XOR",
+     "event_hint": "dc27",
+     "type": "sao",
+     "url": "https://hackaday.io/project/164346-andxor-dc27-badge",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Audio Reactive SAO (AND!XOR DC27 companion add-on, rev 6)",
+     "maker": "AND!XOR",
+     "event_hint": "dc27",
+     "type": "sao",
+     "url": "https://hackaday.io/project/164346-andxor-dc27-badge",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Doom SAO (AND!XOR DC27 companion add-on with screen and serial sniffer, rev 1)",
+     "maker": "AND!XOR",
+     "event_hint": "dc27",
+     "type": "sao",
+     "url": "https://hackaday.io/project/164346-andxor-dc27-badge",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "DC27 DOOM SAO - Hurt Me Plenty",
+     "maker": "AND!XOR",
+     "event_hint": "dc27",
+     "type": "sao",
+     "url": "https://hackaday.io/project/164346-andxor-dc27-badge/log/165849-dc27-doom-sao-hurt-me-plenty",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "DC801 Black Mage Badge - \"Bootleg Edition\"",
+     "maker": "redactd",
+     "event_hint": "dc28 (a reproduction, not tied to one specific con year)",
+     "type": "badge",
+     "url": "https://www.tindie.com/products/redactd/dc801-black-mage-badge-bootleg-edition/",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Arc Reactor badge Mark II",
+     "maker": "Ironwood Cyber",
+     "event_hint": "dc31",
+     "type": "badge",
+     "url": "",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Twinkle Twinkie (listed for DEF CON 31, no details)",
+     "maker": "Twinkle Twinkie",
+     "event_hint": "dc31",
+     "type": "unknown",
+     "url": "",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "S7a73farm Unofficial DEF CON 27 Mega Badge",
+     "maker": "s7a73farm",
+     "event_hint": "dc27",
+     "type": "other",
+     "url": "https://hackaday.io/project/166728-s7a73farm-unofficial-def-con-27-mega-badge",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Audio Reactive SAO (rev 6)",
+     "maker": "AND!XOR",
+     "event_hint": "dc27",
+     "type": "sao",
+     "url": "https://hackaday.com/2019/07/29/hands-on-andxor-def-con-27-badge-ditches-bender-adopts-light-pipes/",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Doom SAO (rev 1)",
+     "maker": "AND!XOR",
+     "event_hint": "dc27",
+     "type": "sao",
+     "url": "https://hackaday.io/project/164346-andxor-dc27-badge/log/165849-dc27-doom-sao-hurt-me-plenty",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "DCZia Laser Theremin Blank PCB",
+     "maker": "snurkle engineering / DC Zia",
+     "event_hint": "dc27",
+     "type": "accessory",
+     "url": "https://www.tindie.com/products/hamster/dczia-laser-theremin-blank-pcb/",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Traffic Light Badge",
+     "maker": "Car Hacking Village",
+     "event_hint": "dc27",
+     "type": "badge",
+     "url": "https://www.carhackingvillage.com/events/2019/8/2/def-con",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "The Ides of Defcon",
+     "maker": "John Adams / Team Ides",
+     "event_hint": "dc25",
+     "type": "badge",
+     "url": "https://ides.team/",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "DEF CON 27 Mooncake Shitty Add-On",
+     "maker": "unknown (surfaced in PCBWay search results alongside this entry)",
+     "event_hint": "dc27",
+     "type": "sao",
+     "url": "https://www.pcbway.com/project/shareproject/DEF_CON_27_Mooncake_Shitty_Add_On.html",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "DOOM SAO",
+     "maker": "AND!XOR / LonghornEngineer",
+     "event_hint": "dc27",
+     "type": "sao",
+     "url": "https://github.com/LonghornEngineer/DOOM_SAO",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Shitty-Brooch",
+     "maker": "AND!XOR",
+     "event_hint": "dc27",
+     "type": "sao",
+     "url": "https://github.com/ANDnXOR/sao-reference-designs/tree/master/DC27/Shitty-Brooch",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "GPIO-16-MCP23017 SAO",
+     "maker": "AND!XOR",
+     "event_hint": "dc27",
+     "type": "sao",
+     "url": "https://github.com/ANDnXOR/sao-reference-designs/tree/master/DC27/GPIO-16-MCP23017_sao1.69bis",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "BobRoss SAO",
+     "maker": "AND!XOR",
+     "event_hint": "dc27",
+     "type": "sao",
+     "url": "https://github.com/zapp1337/sao-reference-designs/tree/master/DC27/BobRoss_sao1.69bis",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Arc Badge - DC27 Indie Badge",
+     "maker": "TwinkleTwinkie (with Wire of the Tymkrs)",
+     "event_hint": "dc27",
+     "type": "badge",
+     "url": "https://hackaday.io/project/165320-arc-badge-dc27-indie-badge",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Thereminion SAO (bare board)",
+     "maker": "Harbinger LTD (Andrew Nicholson)",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://www.tindie.com/products/awkwardai/thereminion-sao-bare-board/",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "TV3Y3 Indie Badge for DEF CON 27",
+     "maker": "Harbinger LTD (Andrew Nicholson)",
+     "event_hint": "dc27",
+     "type": "badge",
+     "url": "https://www.tindie.com/products/awkwardai/tv3y3-indie-badge-for-def-con-27/",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "DC27 SAO Flavin Detector Bare Board & InvisibleInk",
+     "maker": "Harbinger LTD (Andrew Nicholson)",
+     "event_hint": "dc27",
+     "type": "sao",
+     "url": "https://www.tindie.com/products/awkwardai/dc27-sao-flavin-detector-bare-board-invisibleink/",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "DC26/27 Defcon Air SAO (fully assembled)",
+     "maker": "Harbinger LTD (Andrew Nicholson)",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://www.tindie.com/products/awkwardai/dc2627-defcon-air-sao-fully-assembled/",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "DC27 Taco Drone SAO (fully assembled)",
+     "maker": "Harbinger LTD (Andrew Nicholson)",
+     "event_hint": "dc27",
+     "type": "sao",
+     "url": "https://www.tindie.com/products/awkwardai/dc27-taco-drone-sao-fully-assembled/",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "DC27 Dumpster Fire SAO (fully assembled)",
+     "maker": "Harbinger LTD (Andrew Nicholson)",
+     "event_hint": "dc27",
+     "type": "sao",
+     "url": "https://www.tindie.com/products/awkwardai/dc27-dumpster-fire-sao-fully-assembled/",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Defcon 2020 SAO Collection (Cybertruck, Mr. Robopoly 2020, Dawn of the Karen)",
+     "maker": "Harbinger LTD (Andrew Nicholson)",
+     "event_hint": "dc28",
+     "type": "sao",
+     "url": "https://www.tindie.com/products/awkwardai/defcon-2020-sao-collection/",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "msFlipper, a Flipper Zero SAO & Badge dev board",
+     "maker": "Harbinger LTD (Andrew Nicholson)",
+     "event_hint": "unknown",
+     "type": "sao",
+     "url": "https://www.tindie.com/products/awkwardai/msflipper-a-flipper-zero-sao-badge-dev-board/",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Arc Badge - DC27 Indie Badge",
+     "maker": "TwinkleTwinkie",
+     "event_hint": "dc27",
+     "type": "badge",
+     "url": "https://hackaday.io/project/165320-arc-badge-dc27-indie-badge",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "I'm 40% UFO! - DC27 SAO",
+     "maker": "TwinkleTwinkie",
+     "event_hint": "dc27",
+     "type": "sao",
+     "url": "https://hackaday.io/project/165318-im-40-ufo-dc27-sao",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Arc Badge - DC27 Indie Badge",
+     "maker": "TwinkleTwinkie",
+     "event_hint": "dc27",
+     "type": "badge",
+     "url": "https://hackaday.io/project/165320-arc-badge-dc27-indie-badge",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "DC27 Dumpster Fire SAO (fully assembled)",
+     "maker": "Harbinger LTD",
+     "event_hint": "dc27",
+     "type": "sao",
+     "url": "https://www.tindie.com/products/awkwardai/dc27-dumpster-fire-sao-fully-assembled/",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Lord Commander DEFCON 27 Shitty Add-On",
+     "maker": "unknown (seen in PCBWay search results)",
+     "event_hint": "dc27",
+     "type": "sao",
+     "url": "https://www.pcbway.com/project/shareproject/Lord_Commander_DEFCON_27_Shitty_Add_On.html",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "DEFCON 27 Avocato Shitty Add-On",
+     "maker": "unknown (seen in PCBWay search results)",
+     "event_hint": "dc27",
+     "type": "sao",
+     "url": "https://www.pcbway.com/project/shareproject/DEFCON_27_Avocato_Shitty_Add_On.html",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "DC Zia",
+     "maker": "unknown / DEF CON badge community",
+     "event_hint": "dc27",
+     "type": "badge",
+     "url": "https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Punisher Badge SAO",
+     "maker": "s3gfault (TeamID64F)",
+     "event_hint": "dc27 (likely, unconfirmed)",
+     "type": "sao",
+     "url": "https://www.tindie.com/products/s3gfault/team-id64f-punisher-badge-sao/",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Pickle Rick Badge SAO",
+     "maker": "s3gfault (TeamID64F)",
+     "event_hint": "dc27 (likely, unconfirmed)",
+     "type": "sao",
+     "url": "https://www.tindie.com/products/s3gfault/team-id64f-pickle-rick-badge-sao/",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Red Stapler Badge SAO",
+     "maker": "s3gfault (TeamID64F)",
+     "event_hint": "dc27 (likely, unconfirmed)",
+     "type": "sao",
+     "url": "https://www.tindie.com/products/s3gfault/team-id64f-red-stapler-badge-sao/",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Windows Logo Badge SAO",
+     "maker": "s3gfault (TeamID64F)",
+     "event_hint": "dc27 (likely, unconfirmed)",
+     "type": "sao",
+     "url": "https://www.tindie.com/products/s3gfault/team-id64f-windows-logo-badge-sao/",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Defcon 27 Shitty Add-On's",
+     "maker": "awkward intelligence",
+     "event_hint": "dc27",
+     "type": "sao",
+     "url": "https://hackaday.io/project/166344-defcon-27-shitty-add-ons",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "The Harbinger Shitty Add-on Badges",
+     "maker": "Harbinger LTD / awkward intelligence",
+     "event_hint": "dc27",
+     "type": "sao",
+     "url": "https://hackaday.io/project/159952-the-harbinger-shitty-add-on-badges",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Bow Tie Badge Set",
+     "maker": "MKFactor/GoonBoxBadge",
+     "event_hint": "dc27",
+     "type": "badge",
+     "url": "https://mkfactor.com/?p=67",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "GAT Nametag SC8",
+     "maker": "true (Whiskey Pirate Crew)",
+     "event_hint": "Hackaday Supercon (year not confirmed)",
+     "type": "sao/accessory",
+     "url": "https://hackaday.io/project/198536-gat-nametag-sc8",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Skeletor Badge",
+     "maker": "Dr.n0psl3d",
+     "event_hint": "unknown",
+     "type": "badge",
+     "url": "https://github.com/DrN0psl3d/Skeletor",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "bigfuckingbadge (Kat's Midi Synth)",
+     "maker": "hexum064",
+     "event_hint": "dc27",
+     "type": "badge",
+     "url": "https://hackaday.io/project/166765-bigfuckingbadge-kats-midi-synth",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "BigFuckingOOTBadge",
+     "maker": "hexum064 or related",
+     "event_hint": "unknown",
+     "type": "badge",
+     "url": "https://hackaday.io/project/196537-bigfuckingootbadge",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "2019 DEFCON Furs Badge",
+     "maker": "DC Furs community / LoialOtter et al.",
+     "event_hint": "dc27",
+     "type": "badge",
+     "url": "https://www.strangeparts.com/debugging-the-coolest-def-con-badge/",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Arc Badge",
+     "maker": "TwinkleTwinkie and Wire",
+     "event_hint": "dc27",
+     "type": "badge",
+     "url": "https://hackaday.io/project/165320-arc-badge-dc27-indie-badge",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "DC614 badge",
+     "maker": "unknown / DC614 group",
+     "event_hint": "dc27",
+     "type": "badge",
+     "url": "https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Cylon badge",
+     "maker": "unknown",
+     "event_hint": "dc27",
+     "type": "badge",
+     "url": "https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Internet of Batteries (IoB-DC28)",
+     "maker": "Aask42",
+     "event_hint": "dc28",
+     "type": "sao",
+     "url": "https://github.com/Aask42/IoB_DC28",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Mooncake SAO",
+     "maker": "Jeremy Ward (cybr1d-cybr1d)",
+     "event_hint": "unknown (mentioned as this maker's first shitty add-on, likely also DEF CON era)",
+     "type": "sao",
+     "url": "",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Avocato SAO",
+     "maker": "unknown",
+     "event_hint": "dc27",
+     "type": "sao",
+     "url": "https://www.pcbway.com/project/shareproject/DEFCON_27_Avocato_Shitty_Add_On.html",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Arc Badge",
+     "maker": "TwinkleTwinkie",
+     "event_hint": "dc27",
+     "type": "badge",
+     "url": "https://hackaday.io/twinkletwinkie",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Mad Cat (DC26 Shitty Add-on)",
+     "maker": "TwinkleTwinkie",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/twinkletwinkie",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Fat Pika (DC26 Shitty Add-on)",
+     "maker": "TwinkleTwinkie",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/twinkletwinkie",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "THEFREEMAN - DEF CON 26 Indie Badge",
+     "maker": "TwinkleTwinkie",
+     "event_hint": "dc26",
+     "type": "badge",
+     "url": "https://www.tindie.com/products/twinkletwinkie/thefreeman-def-con-26-indie-badge/",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Santa Bot",
+     "maker": "TwinkleTwinkie",
+     "event_hint": "other",
+     "type": "other",
+     "url": "https://hackaday.io/twinkletwinkie",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Play Me (cassette-tape SAO add-on)",
+     "maker": "MagicStoneTech",
+     "event_hint": "dc27",
+     "type": "sao",
+     "url": "https://www.tindie.com/products/magicstonetech/saw-the-badge-defcon-27-indie-badge/",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Dumpster Fire",
+     "maker": "Awkward Intelligence",
+     "event_hint": "dc27",
+     "type": "sao",
+     "url": "https://hackaday.io/project/166344-defcon-27-shitty-add-ons/details",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "All out of Gum",
+     "maker": "Awkward Intelligence",
+     "event_hint": "dc27",
+     "type": "sao",
+     "url": "https://hackaday.io/project/166344-defcon-27-shitty-add-ons/details",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Def Con Air",
+     "maker": "Awkward Intelligence",
+     "event_hint": "dc27",
+     "type": "sao",
+     "url": "https://hackaday.io/project/166344-defcon-27-shitty-add-ons/details",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Shitty Semen Detector",
+     "maker": "Awkward Intelligence",
+     "event_hint": "dc27",
+     "type": "sao",
+     "url": "https://hackaday.io/project/166344-defcon-27-shitty-add-ons/details",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "SPIvSPI Whitehat Spy SAO",
+     "maker": "SPIvSPI (xres0nance, steve/corelit)",
+     "event_hint": "dc27",
+     "type": "sao",
+     "url": "https://github.com/SPIvSPI/dc27sao/tree/master/hardware/SPIvSPI_SAO_White",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Gucci Mane-inspired SAO (dual LED flasher)",
+     "maker": "awkward intelligence",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/159952-the-harbinger-shitty-add-on-badges",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Shitty Calvin",
+     "maker": "awkward intelligence",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/159952-the-harbinger-shitty-add-on-badges",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Mr Robopoly",
+     "maker": "awkward intelligence",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/159952-the-harbinger-shitty-add-on-badges",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Thereminion",
+     "maker": "awkward intelligence",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/159952-the-harbinger-shitty-add-on-badges",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "The Galaxia",
+     "maker": "awkward intelligence",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/159952-the-harbinger-shitty-add-on-badges",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "TV3Y3 augmented reality badge",
+     "maker": "awkward intelligence",
+     "event_hint": "dc27",
+     "type": "badge",
+     "url": "https://hackaday.io/Awkwardai",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Minion SAO",
+     "maker": "awkward intelligence",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/159952-the-harbinger-shitty-add-on-badges",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Brrr ice cream cone SAO (Gucci Mane tattoo tribute)",
+     "maker": "awkward intelligence",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/159952-the-harbinger-shitty-add-on-badges",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Monopoly-man Bitcoin SAO",
+     "maker": "awkward intelligence",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/159952-the-harbinger-shitty-add-on-badges",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Calvin (Calvin and Hobbes) SAO with LED eye and mouth",
+     "maker": "awkward intelligence",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/159952-the-harbinger-shitty-add-on-badges",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Galaxia Wizard Badge / Sound-Circuits Lab prototyping board",
+     "maker": "awkward intelligence",
+     "event_hint": "dc26",
+     "type": "badge",
+     "url": "https://hackaday.io/project/159952-the-harbinger-shitty-add-on-badges",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "RBG SAO",
+     "maker": "lemons4all",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/161509-frida-sao",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Avocado SAO",
+     "maker": "Twinkle Twinkie",
+     "event_hint": "dc30",
+     "type": "sao",
+     "url": "",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Black Cat SAO",
+     "maker": "Twinkle Twinkie",
+     "event_hint": "dc30",
+     "type": "sao",
+     "url": "",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Daft Helmet SAO",
+     "maker": "Twinkle Twinkie",
+     "event_hint": "dc30",
+     "type": "sao",
+     "url": "",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Mando Kitty SAO",
+     "maker": "Twinkle Twinkie",
+     "event_hint": "dc30",
+     "type": "sao",
+     "url": "",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Shitty Calvin",
+     "maker": "awkward intelligence",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/159952-the-harbinger-shitty-add-on-badges",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Mr Robopoly",
+     "maker": "awkward intelligence",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/159952-the-harbinger-shitty-add-on-badges",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Thereminion",
+     "maker": "awkward intelligence",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/159952-the-harbinger-shitty-add-on-badges",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Nick Cage shitty add-on",
+     "maker": "awkward intelligence",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/159952/files",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Static Bob Ross Add-on",
+     "maker": "awkward intelligence",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/159952/files",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Pickle Rick Shitty add-on",
+     "maker": "awkward intelligence",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/159952/files",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Flower Power shitty add-on",
+     "maker": "awkward intelligence",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/159952/files",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "3D Dice shitty add-on",
+     "maker": "awkward intelligence",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/159952/files",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Zelda Shitty add-on extender (shittytriforce.zip)",
+     "maker": "awkward intelligence",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/159952/files",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Static Rick and Morty Shitty Add-on",
+     "maker": "awkward intelligence",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/159952/files",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Eggplant SAO",
+     "maker": "Krux",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://github.com/thedarknet/dc26-badge/tree/master/hardware/dc26-sao/eggplant",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Brrr",
+     "maker": "awkward intelligence",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/159952-the-harbinger-shitty-add-on-badges",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Shitty Calvin",
+     "maker": "awkward intelligence",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/159952-the-harbinger-shitty-add-on-badges",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Thereminion",
+     "maker": "awkward intelligence",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/159952-the-harbinger-shitty-add-on-badges",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "The Harbinger (badge)",
+     "maker": "awkward intelligence",
+     "event_hint": "dc26",
+     "type": "badge",
+     "url": "https://hackaday.io/project/159952-the-harbinger-shitty-add-on-badges",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Bob Ross Shitty Add-on",
+     "maker": "awkward intelligence",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/159952/files",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Pickle Rick Shitty Add-on",
+     "maker": "awkward intelligence",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/159952/files",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Shitty Calvin",
+     "maker": "awkward intelligence",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/159952/files",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Mr Robopoly",
+     "maker": "awkward intelligence",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/159952/files",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Thereminion",
+     "maker": "awkward intelligence",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/159952/files",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Galaxia Wizard Badge",
+     "maker": "awkward intelligence",
+     "event_hint": "dc26",
+     "type": "badge",
+     "url": "https://hackaday.io/project/159952/files",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Shitty Calvin",
+     "maker": "awkward intelligence",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/159952-the-harbinger-shitty-add-on-badges",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Nick Cage SAO",
+     "maker": "awkward intelligence",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/159952/files",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Bob Ross Add-on",
+     "maker": "awkward intelligence",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/159952/files",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Gucci Mane / Atlanta LED flasher badge",
+     "maker": "awkward intelligence",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/159952-the-harbinger-shitty-add-on-badges",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Mr Robopoly",
+     "maker": "awkward intelligence",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/159952-the-harbinger-shitty-add-on-badges",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Thereminion",
+     "maker": "awkward intelligence",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/159952-the-harbinger-shitty-add-on-badges",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Galaxia (build-your-own-badge prototyping platform)",
+     "maker": "awkward intelligence",
+     "event_hint": "dc26",
+     "type": "kit",
+     "url": "https://hackaday.io/project/159952-the-harbinger-shitty-add-on-badges",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Mr Robopoly",
+     "maker": "awkward intelligence",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/159952-the-harbinger-shitty-add-on-badges",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Thereminion",
+     "maker": "awkward intelligence",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/159952-the-harbinger-shitty-add-on-badges",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Brrr (Atlanta/Gucci Mane lightning flasher)",
+     "maker": "awkward intelligence",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/159952-the-harbinger-shitty-add-on-badges",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Brrr (Gucci Mane lightning flasher SAO)",
+     "maker": "awkward intelligence",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/159952-the-harbinger-shitty-add-on-badges",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Shitty Calvin",
+     "maker": "awkward intelligence",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/159952-the-harbinger-shitty-add-on-badges",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Mr Robopoly",
+     "maker": "awkward intelligence",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/159952-the-harbinger-shitty-add-on-badges",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Thereminion",
+     "maker": "awkward intelligence",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/159952-the-harbinger-shitty-add-on-badges",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "The Harbinger Sound/Circuits Lab Prototyping board (Galaxia)",
+     "maker": "awkward intelligence",
+     "event_hint": "dc26",
+     "type": "other",
+     "url": "https://hackaday.io/project/159952-the-harbinger-shitty-add-on-badges",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Defcon 27 TV3Y3 Badge",
+     "maker": "awkward intelligence",
+     "event_hint": "dc27 (likely)",
+     "type": "badge",
+     "url": "https://hackaday.io/Awkwardai",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Defcon 27 Shitty Add-Ons",
+     "maker": "awkward intelligence",
+     "event_hint": "dc27 (likely)",
+     "type": "sao",
+     "url": "https://hackaday.io/Awkwardai",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Hack Space Con 2024 Badge",
+     "maker": "awkward intelligence",
+     "event_hint": "hackspacecon (unconfirmed id)",
+     "type": "badge",
+     "url": "https://hackaday.io/Awkwardai",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Learn to Solder Badge",
+     "maker": "awkward intelligence",
+     "event_hint": "unknown",
+     "type": "badge",
+     "url": "https://hackaday.io/Awkwardai",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "msFlipper (multi-use Flipper Zero board)",
+     "maker": "awkward intelligence",
+     "event_hint": "n/a (not a con badge)",
+     "type": "other",
+     "url": "https://hackaday.io/Awkwardai",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Brrr",
+     "maker": "awkward intelligence",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/159952-the-harbinger-shitty-add-on-badges",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Shitty Calvin",
+     "maker": "awkward intelligence",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/159952-the-harbinger-shitty-add-on-badges",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Mr Robopoly",
+     "maker": "awkward intelligence",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/159952-the-harbinger-shitty-add-on-badges",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Harbinger Sound/Circuits Lab Prototyping Board",
+     "maker": "awkward intelligence",
+     "event_hint": "dc26",
+     "type": "kit",
+     "url": "https://hackaday.io/project/159952-the-harbinger-shitty-add-on-badges",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "TwinkleTwinkie's Badgelife SAO Add-on #6",
+     "maker": "TwinkleTwinkie",
+     "event_hint": "other/unclear (seen on Tindie store listing, image dated 2018-07-13, likely DC26-era)",
+     "type": "sao",
+     "url": "https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-badgelife-sao-add-on-6/",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "TwinkleTwinkie's Badgelife SAO Add-on #8",
+     "maker": "TwinkleTwinkie",
+     "event_hint": "other/unclear (image dated 2018-10-02, possibly DC26 or later)",
+     "type": "sao",
+     "url": "https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-badgelife-sao-add-on-8/",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Arc Badge - DC27 Indie Badge",
+     "maker": "TwinkleTwinkie",
+     "event_hint": "dc27",
+     "type": "badge",
+     "url": "https://www.tindie.com/products/twinkletwinkie/arc-badge-dc27-indie-badge/",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "TwinkleTwinkie's \"I'm 40% UFO!\" Badge SAO",
+     "maker": "TwinkleTwinkie",
+     "event_hint": "unclear",
+     "type": "sao",
+     "url": "https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-im-40-ufo-badge-sao/",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "The Pumpkin Witch",
+     "maker": "TwinkleTwinkie",
+     "event_hint": "unclear (Halloween-themed, not con-specific)",
+     "type": "sao",
+     "url": "https://www.tindie.com/products/twinkletwinkie/the-pumpkin-witch/",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "TwinkleTwinkie's \"Unicorn\" Badge SAO",
+     "maker": "TwinkleTwinkie",
+     "event_hint": "unclear",
+     "type": "sao",
+     "url": "https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-unicorn-badge-sao/",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "TwinkleTwinkie's \"Kupo!\" Badge SAO",
+     "maker": "TwinkleTwinkie",
+     "event_hint": "unclear",
+     "type": "sao",
+     "url": "https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-kupo-badge-sao/",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Gucci Mane tattoo dual-LED flasher",
+     "maker": "awkward intelligence",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/159952-the-harbinger-shitty-add-on-badges",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Shitty Calvin (4017B/555 LED sequencer)",
+     "maker": "awkward intelligence",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/159952-the-harbinger-shitty-add-on-badges",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Mr Robopoly",
+     "maker": "awkward intelligence",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/159952-the-harbinger-shitty-add-on-badges",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Thereminion",
+     "maker": "awkward intelligence",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/159952-the-harbinger-shitty-add-on-badges",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "The Galaxia (prototyping/synth badge)",
+     "maker": "awkward intelligence",
+     "event_hint": "dc26",
+     "type": "badge",
+     "url": "https://hackaday.io/project/159952-the-harbinger-shitty-add-on-badges",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "LED Bangle (defconbangle)",
+     "maker": "Nisha K.",
+     "event_hint": "dc25 (DEF CON 25, 2017 - one-off made for a friend, precursor project to the DC503 Banglet)",
+     "type": "badge",
+     "url": "https://nishakm.github.io/things/defconbangle/",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "BlinkyBracelet",
+     "maker": "Nisha K.",
+     "event_hint": "other (personal learning project, 2016/2017, not made for a specific con)",
+     "type": "accessory",
+     "url": "https://nishakm.github.io/things/blinkybracelet/",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Krusty the It",
+     "maker": "TwinkleTwinkie",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/hacker/308303-twinkletwinkie",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Baby Bender",
+     "maker": "sqearlsalazar",
+     "event_hint": "dc26 (2018, per the same Hackaday gallery) -- possibly distinct from the archive's existing dc30-baby-bender-sqearlsalazar entry, which is filed under a different event/year and may need review",
+     "type": "sao",
+     "url": "https://hackaday.com/2018/06/21/this-is-the-year-conference-badges-get-their-own-badges/",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "SECKC Bob mascot coin",
+     "maker": "BadgePirates / SecKC",
+     "event_hint": "dc26",
+     "type": "other",
+     "url": "https://github.com/BadgePiratesLLC/DefCon_SecKC_26/tree/master/Coin",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "SecKC DC26 Daughter board (GPS/screen/buttons/sensors)",
+     "maker": "BadgePirates / SecKC",
+     "event_hint": "dc26",
+     "type": "unknown",
+     "url": "https://github.com/BadgePiratesLLC/DefCon_SecKC_26/tree/master/Gerbers",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Frida SAO",
+     "maker": "lemons4all",
+     "event_hint": "DEF CON 26 (2018)",
+     "type": "sao",
+     "url": "https://hackaday.io/lemons4all1",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "RBG SAO",
+     "maker": "lemons4all",
+     "event_hint": "DEF CON 26 (2018)",
+     "type": "sao",
+     "url": "https://hackaday.io/lemons4all1",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "PlagueBadge (HFS 2019)",
+     "maker": "Hack for Satan",
+     "event_hint": "dc27",
+     "type": "badge",
+     "url": "https://fxtwitter.com/hackforsatan/feed.atom.xml",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Biohazard Baphomet pin",
+     "maker": "Hack for Satan",
+     "event_hint": "dc27",
+     "type": "accessory",
+     "url": "https://fxtwitter.com/hackforsatan/feed.atom.xml",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "DEF CON 26 Maneki-neko SAO",
+     "maker": "Sean McCabe (devoopes) / Daniel Samarin",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://github.com/devoopes/defcon26-meow/tree/master/addon",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "DEF CON 26 official conference badge (human/goon/speaker variants)",
+     "maker": "DEF CON",
+     "event_hint": "dc26",
+     "type": "badge",
+     "url": "https://hackaday.io/project/160333-def-con-26-official-badge-hacking",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "LSP SAO",
+     "maker": "lemons4all",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/lemons4all1",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Frida SAO",
+     "maker": "lemons4all",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/lemons4all1",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "THEFREEMAN SAO (matching Vortigaunt-head SAO)",
+     "maker": "Twinkle Twinkie",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/158663/files",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Telephreak 12 Badge (Geiger counter for WiFi deauth frames)",
+     "maker": "dominotree",
+     "event_hint": "dc27 (DEF CON 27, 2019)",
+     "type": "badge",
+     "url": "https://spun.io/2019/07/26/a-geiger-counter-for-wifi-deauthentication-frames-the-telephreak-12-badge/",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Gizmo Duck SAO",
+     "maker": "thelogicofpi",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Portal Gun + Portal BG SAO",
+     "maker": "thelogicofpi",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Pickle-Rick + Portal BG SAO",
+     "maker": "thelogicofpi",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Wizard Hat SAOAO",
+     "maker": "thelogicofpi",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Megaseeds SAOAO",
+     "maker": "thelogicofpi",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Slippery Stair SAOAO",
+     "maker": "thelogicofpi",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Tiki SAO",
+     "maker": "thelogicofpi",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Electro-storm (high voltage warning sign) SAO",
+     "maker": "thelogicofpi",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Tiki",
+     "maker": "thelogicofpi",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Darkwing Duck",
+     "maker": "thelogicofpi",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Gizmo Duck",
+     "maker": "thelogicofpi",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Portal Gun + Portal BG",
+     "maker": "thelogicofpi",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Pickle-Rick + Portal BG",
+     "maker": "thelogicofpi",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Wizard Hat SAOAO",
+     "maker": "thelogicofpi",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Megaseeds SAOAO",
+     "maker": "thelogicofpi",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Slippery Stair SAOAO",
+     "maker": "thelogicofpi",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Leela (light-up eye, gun, armband)",
+     "maker": "thelogicofpi",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Bender (w/ sunglasses, also GOLD variant)",
+     "maker": "thelogicofpi",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Zoidberg (Alternate Universe - Purple)",
+     "maker": "thelogicofpi",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Tubbs (nekoatsume)",
+     "maker": "thelogicofpi",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "THE_FREEMAN (full badge)",
+     "maker": "Twinkle Twinkie",
+     "event_hint": "dc26",
+     "type": "badge",
+     "url": "https://hackaday.io/project/158663-thefreeman-def-con-26-indie-badge",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Leela (Light up eye and gun and armband)",
+     "maker": "thelogicofpi",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Zoidberg (Alternate Universe - Purple)",
+     "maker": "thelogicofpi",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Tubbs (nekoatsume)",
+     "maker": "thelogicofpi",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Portal Gun + Portal BG",
+     "maker": "thelogicofpi",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Darkwing Duck",
+     "maker": "thelogicofpi",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Portal Gun + Portal BG",
+     "maker": "thelogicofpi",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Pickle-Rick + Portal BG",
+     "maker": "thelogicofpi",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Wizard Hat SAOAO",
+     "maker": "thelogicofpi",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Megaseeds SAOAO",
+     "maker": "thelogicofpi",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Slippery Stair SAOAO",
+     "maker": "thelogicofpi",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Tiki",
+     "maker": "thelogicofpi",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Electro-storm (high voltage warning sign)",
+     "maker": "thelogicofpi",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Leela (Light up eye, gun, armband)",
+     "maker": "thelogicofpi",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Bender (w/sunglasses, also GOLD)",
+     "maker": "thelogicofpi",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Zoidberg (Alternate Universe - Purple)",
+     "maker": "thelogicofpi",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Tubbs (nekoatsume)",
+     "maker": "thelogicofpi",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Bender (alternate reality, w/sunglasses, gold PCB)",
+     "maker": "thelogicofpi",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Zoidberg (alternate universe, purple PCB)",
+     "maker": "thelogicofpi",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Tubbs (nekoatsume, gold bowl)",
+     "maker": "thelogicofpi",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Wizard Hat SAOAO",
+     "maker": "thelogicofpi",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Megaseeds SAOAO",
+     "maker": "thelogicofpi",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Slippery Stair SAOAO",
+     "maker": "thelogicofpi",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Electro-storm (high voltage warning sign)",
+     "maker": "thelogicofpi",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Portal Gun + Portal BG / Pickle-Rick + Portal BG",
+     "maker": "thelogicofpi",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Darkwing Duck / Gizmo Duck",
+     "maker": "thelogicofpi",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Leela / Bender / Zoidberg / Tubbs basic SAOs",
+     "maker": "thelogicofpi",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Wizard Hat SAOAO",
+     "maker": "thelogicofpi",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Megaseeds SAOAO",
+     "maker": "thelogicofpi",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Portal Gun + Portal BG",
+     "maker": "thelogicofpi",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Pickle-Rick + Portal BG (in works)",
+     "maker": "thelogicofpi",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Darkwing Duck (in works)",
+     "maker": "thelogicofpi",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Gizmo Duck",
+     "maker": "thelogicofpi",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Tiki (in works)",
+     "maker": "thelogicofpi",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Electro-storm (high voltage warning sign) (in works)",
+     "maker": "thelogicofpi",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Leela (light-up eye, gun, armband)",
+     "maker": "thelogicofpi",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Bender (w/sunglasses, also gold variant)",
+     "maker": "thelogicofpi",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Zoidberg (alternate universe, purple)",
+     "maker": "thelogicofpi",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Tubbs (nekoatsume)",
+     "maker": "thelogicofpi",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Alt Bender SAO (Gold)",
+     "maker": "thelogicofpi",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/160014/log/150208-1st-order-placed",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Leela SAO (light-up eye, gun, armband)",
+     "maker": "thelogicofpi",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Tubbs (Neko Atsume) SAO",
+     "maker": "thelogicofpi",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Alternate reality Bender (w/sunglasses, GOLD)",
+     "maker": "thelogicofpi",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Zoidberg (Alternate Universe, purple - 'Why Not Zoidberg? Zoidberg Medical Offices')",
+     "maker": "thelogicofpi",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Leela (light-up eye, gun, and armband, purple hair)",
+     "maker": "thelogicofpi",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Darkwing Duck SAO (in works)",
+     "maker": "thelogicofpi",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Gizmo Duck SAO",
+     "maker": "thelogicofpi",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Portal Gun + Portal BG SAO",
+     "maker": "thelogicofpi",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Pickle-Rick + Portal BG SAO (in works)",
+     "maker": "thelogicofpi",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Megaseeds SAO",
+     "maker": "thelogicofpi",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Slippery Stair SAO",
+     "maker": "thelogicofpi",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Tiki SAO (in works)",
+     "maker": "thelogicofpi",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Electro-storm high voltage warning sign (in works)",
+     "maker": "thelogicofpi",
+     "event_hint": "dc26",
+     "type": "other",
+     "url": "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Leela SAO (light-up eye, gun, armband)",
+     "maker": "thelogicofpi",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Bender SAO (with sunglasses, gold variant)",
+     "maker": "thelogicofpi",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Zoidberg SAO (alternate universe, purple)",
+     "maker": "thelogicofpi",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Tubbs SAO (nekoatsume)",
+     "maker": "thelogicofpi",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/160014-sao-badgelife-add-ons",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "AND!XOR DC26 Badge",
+     "maker": "AND!XOR",
+     "event_hint": "dc26",
+     "type": "badge",
+     "url": "https://hackaday.io/project/andxor-dc26-badge (slug referenced from the DC25 project page; exact numeric project id not confirmed)",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "AND!XOR DC27 Badge",
+     "maker": "AND!XOR",
+     "event_hint": "dc27",
+     "type": "badge",
+     "url": "https://hackaday.io/project/andxor-dc27-badge (slug referenced from the DC25 project page; exact numeric project id not confirmed)",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Team Ides DC27 Badge",
+     "maker": "John Adams / Team Ides",
+     "event_hint": "dc27 (check if it exists in events.yml)",
+     "type": "badge",
+     "url": "https://hackaday.io/project/161163-team-ides-dc27-badge",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Simple-Add-ons-SAO series (25+ other SAO designs by davedarko, e.g. COVID-19 badge, Mr. Robot, Knight Rider/KITT, Flux Capacitor, SlothBadge, SoloCarbonite, MysterioSAO, Do Or Donut)",
+     "maker": "davedarko",
+     "event_hint": "various",
+     "type": "sao",
+     "url": "https://github.com/davedarko/Simple-Add-ons-SAO/tree/main",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "reDOT_smart",
+     "maker": "Alex (tinyledmatrix)",
+     "event_hint": "unknown (predecessor project, likely an earlier Supercon SAO contest)",
+     "type": "sao",
+     "url": "https://hackaday.io/tinyledmatrix",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "2025 Hackaday Superconference Communicator Badge",
+     "maker": "Hackaday / Supplyframe Design Lab",
+     "event_hint": "supercon-2025",
+     "type": "badge",
+     "url": "_badges/supercon-2026/2025-hackaday-superconference-communicator-badge.md (already exists as a duplicate entry, misfiled under the supercon-2026 folder)",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "duckJAWS SAO",
+     "maker": "Adrian Studer / Marc Merlin",
+     "event_hint": "supercon-2024",
+     "type": "sao",
+     "url": "https://github.com/astuder/duckglow",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "duckJAWS SAO",
+     "maker": "Adrian Studer / Marc Merlin",
+     "event_hint": "supercon-2024",
+     "type": "sao",
+     "url": "https://github.com/astuder/duckglow/tree/master/duckjaws",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "duckBATH SAO",
+     "maker": "Adrian Studer (astuder) / Marc Merlin",
+     "event_hint": "supercon-2024",
+     "type": "sao",
+     "url": "https://github.com/astuder/duckglow",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "duckBATH SAO",
+     "maker": "Adrian Studer (astuder)",
+     "event_hint": "supercon-2024",
+     "type": "sao",
+     "url": "https://github.com/astuder/duckglow",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "SAO Demo Controller",
+     "maker": "Andy Geppert (ageppert)",
+     "event_hint": "unknown - host controller board sold on Tindie, referenced as a companion to Etch sAo Sketch",
+     "type": "sao",
+     "url": "https://www.tindie.com/products/36033/",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "One-Inch Fibonacci128",
+     "maker": "Jason Coon (Evil Genius Labs)",
+     "event_hint": "other",
+     "type": "other",
+     "url": "https://squidgeefish.com/projects/fibonacci128-sao/",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Touchwheel SAO",
+     "maker": "Todbot",
+     "event_hint": "supercon-2024",
+     "type": "sao",
+     "url": "https://github.com/Hack-a-Day/2024-Supercon-8-Add-On-Badge",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "LED Spiral Petal Matrix SAO",
+     "maker": "Voja Antonic / Hackaday",
+     "event_hint": "supercon-2024",
+     "type": "sao",
+     "url": "https://github.com/Hack-a-Day/2024-Supercon-8-Add-On-Badge",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "I2C Proto Petal (CH32V003) SAO",
+     "maker": "Hackaday",
+     "event_hint": "supercon-2024",
+     "type": "sao",
+     "url": "https://github.com/Hack-a-Day/2024-Supercon-8-Add-On-Badge",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Teardown 2019 Badge",
+     "maker": "gsteiert",
+     "event_hint": "likely Supercon 2019 (unconfirmed)",
+     "type": "badge",
+     "url": "https://upverter.com/design/gsteiert/teardown2019/",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "duckGLOW",
+     "maker": "astuder",
+     "event_hint": "supercon-2024",
+     "type": "sao",
+     "url": "https://github.com/astuder/supercon8-sao-adapters",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Hack-Man",
+     "maker": "InstantArcade",
+     "event_hint": "supercon-2024",
+     "type": "sao",
+     "url": "",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Featuring You!",
+     "maker": "Nanik Adnani",
+     "event_hint": "supercon-2024",
+     "type": "sao",
+     "url": "",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Yo Dawg",
+     "maker": "davedarko",
+     "event_hint": "supercon-2024",
+     "type": "sao",
+     "url": "",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Infinity Mirror",
+     "maker": "Scorch Works",
+     "event_hint": "supercon-2024",
+     "type": "sao",
+     "url": "",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Wolverine",
+     "maker": "Simen E. Sørensen",
+     "event_hint": "supercon-2024",
+     "type": "sao",
+     "url": "",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "SAO Digital Multimeter",
+     "maker": "Thomas Flummer",
+     "event_hint": "supercon-2024",
+     "type": "sao",
+     "url": "https://hackaday.io/contest/197237-supercon-8-add-on-contest",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Etch sAo Sketch",
+     "maker": "Andy Geppert",
+     "event_hint": "supercon-2024",
+     "type": "sao",
+     "url": "https://hackaday.io/contest/197237-supercon-8-add-on-contest",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Bendy SAO",
+     "maker": "Debraansell",
+     "event_hint": "supercon-2024",
+     "type": "sao",
+     "url": "https://hackaday.io/contest/197237-supercon-8-add-on-contest",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Vectrex SAO",
+     "maker": "Brett Walach",
+     "event_hint": "supercon-2024",
+     "type": "sao",
+     "url": "https://hackaday.io/contest/197237-supercon-8-add-on-contest",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "SAO Bridge",
+     "maker": "astuder",
+     "event_hint": "supercon-2024",
+     "type": "accessory",
+     "url": "https://github.com/astuder/supercon8-sao-adapters/tree/main/sao-bridge",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "duckGLOW",
+     "maker": "astuder",
+     "event_hint": "supercon-2024",
+     "type": "sao",
+     "url": "https://hackaday.io/project/198918-duckglow-sao",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "TouchwheelSAO",
+     "maker": "todbot",
+     "event_hint": "unclear (referenced as a compatible SAO, likely also Supercon-era)",
+     "type": "sao",
+     "url": "https://github.com/todbot/TouchwheelSAO",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "i2c_proto_petal (CH32V003 protoboard SAO)",
+     "maker": "Hackaday",
+     "event_hint": "supercon-2024",
+     "type": "sao",
+     "url": "https://github.com/Hack-a-Day/2024-Supercon-8-Add-On-Badge/tree/main/hardware/sao/i2c_proto_petal",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "LED Petal",
+     "maker": "Hackaday",
+     "event_hint": "supercon-2024",
+     "type": "sao",
+     "url": "https://github.com/Hack-a-Day/2024-Supercon-8-Add-On-Badge/tree/main/hardware/sao",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Touchwheel Petal",
+     "maker": "Hackaday",
+     "event_hint": "supercon-2024",
+     "type": "sao",
+     "url": "https://github.com/Hack-a-Day/2024-Supercon-8-Add-On-Badge/tree/main/hardware/sao",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "I2C Proto Petal",
+     "maker": "Hackaday",
+     "event_hint": "supercon-2024",
+     "type": "sao",
+     "url": "https://github.com/Hack-a-Day/2024-Supercon-8-Add-On-Badge/tree/main/hardware/sao",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Touchwheel Petal",
+     "maker": "Hackaday",
+     "event_hint": "supercon-2024",
+     "type": "sao",
+     "url": "https://github.com/Hack-a-Day/2024-Supercon-8-Add-On-Badge",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "LED Petal",
+     "maker": "Hackaday",
+     "event_hint": "supercon-2024",
+     "type": "sao",
+     "url": "https://github.com/Hack-a-Day/2024-Supercon-8-Add-On-Badge",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "I2C Protoboard Petal (CH32V003)",
+     "maker": "Hackaday",
+     "event_hint": "supercon-2024",
+     "type": "sao",
+     "url": "https://github.com/Hack-a-Day/2024-Supercon-8-Add-On-Badge",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Iron Man SAOAO",
+     "maker": "unknown contributor (community-made variant)",
+     "event_hint": "supercon-2024",
+     "type": "sao",
+     "url": "https://hackaday.io/project/198060-yo-dawg-sao-introducing-saoao",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Hackaday-logo SAOAO",
+     "maker": "unknown contributor (community-made variant)",
+     "event_hint": "supercon-2024",
+     "type": "sao",
+     "url": "https://hackaday.io/project/198060-yo-dawg-sao-introducing-saoao",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Han SAOlo in carbonyte",
+     "maker": "davedarko",
+     "event_hint": "unknown (ATtiny202 + RGB LEDs)",
+     "type": "sao",
+     "url": "https://hackaday.io/project/197803-han-saolo",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "T.A.R.S. SAO",
+     "maker": "davedarko",
+     "event_hint": "unknown",
+     "type": "sao",
+     "url": "https://github.com/davedarko/TARS-SAO",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "LECCO postcard SAO",
+     "maker": "davedarko",
+     "event_hint": "Hackaday Europe 2026 (Lecco, Italy)",
+     "type": "sao",
+     "url": "",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Iron Man SAOAO",
+     "maker": "davedarko",
+     "event_hint": "supercon-2024",
+     "type": "sao",
+     "url": "https://github.com/davedarko/YoDawgSAO/tree/main/badges/IronMan",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "xHain Logo SAOAO",
+     "maker": "davedarko",
+     "event_hint": "supercon-2024",
+     "type": "sao",
+     "url": "https://github.com/davedarko/YoDawgSAO/tree/main/badges/xHainLogo",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Super Cluster LED SAOAO (0805)",
+     "maker": "davedarko",
+     "event_hint": "supercon-2024",
+     "type": "sao",
+     "url": "https://github.com/davedarko/YoDawgSAO/tree/main/badges/super_computer_custer_0805",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Yo Dawg SAOAO baseplate/standard",
+     "maker": "davedarko",
+     "event_hint": "supercon-2024",
+     "type": "sao",
+     "url": "https://github.com/davedarko/YoDawgSAO/tree/main/StandardSAOAO",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Supercon 2023 Vectorscope Badge",
+     "maker": "Hackaday / Supercon",
+     "event_hint": "supercon-2023",
+     "type": "badge",
+     "url": "https://hackaday.io/project/193312-hackaday-superconference-2023-badge-enclosure",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Iron Man SAOAO",
+     "maker": "davedarko",
+     "event_hint": "supercon-2024",
+     "type": "minibadge",
+     "url": "https://github.com/davedarko/YoDawgSAO/tree/main/badges/IronMan",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Hackaday Logo SAOAO",
+     "maker": "davedarko",
+     "event_hint": "supercon-2024",
+     "type": "minibadge",
+     "url": "https://github.com/davedarko/YoDawgSAO/tree/main/badges/hackadayLogo",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Super Cluster SAOAO",
+     "maker": "davedarko",
+     "event_hint": "supercon-2024",
+     "type": "minibadge",
+     "url": "https://github.com/davedarko/YoDawgSAO/tree/main/badges/super_computer_custer_0805",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "sensaor (SAO with an adapted SAOAO header)",
+     "maker": "bwasserm",
+     "event_hint": "unknown",
+     "type": "sao",
+     "url": "https://github.com/bwasserm/sensaor",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Iron Man SAOAO",
+     "maker": "davedarko",
+     "event_hint": "supercon-2024",
+     "type": "minibadge",
+     "url": "https://github.com/davedarko/YoDawgSAO/tree/main/badges/IronMan",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Hackaday Logo SAOAO",
+     "maker": "davedarko",
+     "event_hint": "supercon-2024",
+     "type": "minibadge",
+     "url": "https://github.com/davedarko/YoDawgSAO/tree/main/badges/hackadayLogo",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "xHain Logo SAOAO",
+     "maker": "davedarko",
+     "event_hint": "supercon-2024",
+     "type": "minibadge",
+     "url": "https://github.com/davedarko/YoDawgSAO/tree/main/badges/xHainLogo",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Yo Dawg SAO baseplate",
+     "maker": "davedarko",
+     "event_hint": "supercon-2024",
+     "type": "sao",
+     "url": "https://github.com/davedarko/YoDawgSAO",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Hackaday logo SAOAO",
+     "maker": "davedarko",
+     "event_hint": "supercon-2024",
+     "type": "sao",
+     "url": "https://github.com/davedarko/YoDawgSAO/tree/master/badges/hackadayLogo",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Super Cluster (LED matrix SAOAO)",
+     "maker": "davedarko",
+     "event_hint": "supercon-2024",
+     "type": "sao",
+     "url": "https://github.com/davedarko/YoDawgSAO/tree/master/badges/super_computer_custer_0805",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "xHain hackspace logo SAOAO",
+     "maker": "davedarko",
+     "event_hint": "supercon-2024",
+     "type": "sao",
+     "url": "https://github.com/davedarko/YoDawgSAO/tree/master/badges/xHainLogo",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Supercon 2023 badge 3D-printable protective case",
+     "maker": "T.B. Trzepacz (softegg)",
+     "event_hint": "supercon-2023",
+     "type": "accessory",
+     "url": "https://github.com/softegg/supercon-2023-badge-enclosure/",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "BADGE FOR SUPERCON.6 / November 2022",
+     "maker": "Voja Antonic",
+     "event_hint": "supercon-2022",
+     "type": "badge",
+     "url": "already exists as supercon-2022-badge-for-supercon-6-november-2022 in this archive - the physical badge this guide documents",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "BASIC-2 enclosure",
+     "maker": "Tina Belmont / softegg",
+     "event_hint": "supercon-2023",
+     "type": "accessory",
+     "url": "https://github.com/softegg/supercon-2023-badge-enclosure/tree/main/BASIC-2",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "GAT Nametag Addon (DC27)",
+     "maker": "trueControl / true",
+     "event_hint": "dc27",
+     "type": "sao",
+     "url": "https://basic.truecontrol.org/dc27/gat-nametag/",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "AOA Disagree Addon (DC27) / AOA Disagree v2 (DC28)",
+     "maker": "trueControl / true",
+     "event_hint": "dc27",
+     "type": "sao",
+     "url": "https://basic.truecontrol.org/dc27/aoa-disagree/",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Retro Memories 26 Addon (DC34, includes Whiskey Pirates RAID, Retro Tech DC34 edition, Ultra Compact)",
+     "maker": "trueControl / Whiskey Pirates",
+     "event_hint": "other",
+     "type": "sao",
+     "url": "https://basic.truecontrol.org/dc34/retro-memories/",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "BadgeIO: DAC/ADC/SigGen/Buffers for Supercon6",
+     "maker": "unclear (community project built for the Supercon.6 badge)",
+     "event_hint": "supercon-2022",
+     "type": "accessory",
+     "url": "https://hackaday.io/project/188326-badgeio-dacadcsiggenbuffers-for-supercon6",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Punch-card reader add-on for the 2022 Supercon badge",
+     "maker": "Ben Hencke and Zach Fredin",
+     "event_hint": "supercon-2022",
+     "type": "accessory",
+     "url": "https://hackaday.com/2022/11/17/supercon-badge-reads-a-punch-card/",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Unofficial fan-made 2020 Remoticon badge design",
+     "maker": "Thomas Flummer",
+     "event_hint": "supercon-2020",
+     "type": "badge",
+     "url": "mentioned on https://hackaday.io/project/174089-2020-remoticon-pandemic-creativity-start-here (GitHub repo URL not confirmed/located)",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "glowtieProgrammer",
+     "maker": "sphawes (Claire Sun)",
+     "event_hint": "unknown",
+     "type": "accessory/tool",
+     "url": "https://github.com/sphawes/glowtie/tree/master/programmer",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Penghicorn badge",
+     "maker": "unidentified (mentioned only as the SAO's host badge at Supercon 2019)",
+     "event_hint": "supercon-2019",
+     "type": "badge",
+     "url": "https://hackaday.io/project/168037-mr-robot-shitty-addon/logs",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Hackaday Superconference 2018 Badge Enclosure",
+     "maker": "community (linked from main badge project)",
+     "event_hint": "supercon-2018",
+     "type": "accessory",
+     "url": "https://hackaday.io/project/162134-hackaday-superconference-2018-badge-enclosure",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "uBASIC game for Superconference badge",
+     "maker": "community",
+     "event_hint": "supercon-2018",
+     "type": "other",
+     "url": "https://hackaday.io/project/162149-ubasic-game-for-superconference-badge",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Badge for Hackaday Conference 2018 in Belgrade",
+     "maker": "Voja Antonic (likely)",
+     "event_hint": "other",
+     "type": "badge",
+     "url": "https://hackaday.io/project/80627-badge-for-hackaday-conference-2018-in-belgrade",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Shift Register for Supercon Badge",
+     "maker": "Mike (hackaday.io user referenced, exact handle not confirmed)",
+     "event_hint": "supercon-2018",
+     "type": "accessory",
+     "url": "https://hackaday.io/project/162054-shift-register-for-supercon-badge",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Minibadge Display Devboard",
+     "maker": "Pips",
+     "event_hint": "saintcon-2026",
+     "type": "accessory",
+     "url": "https://minibadge.wiki/2026.json (entry: Minibadge Display Devboard)",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Minibadge chain",
+     "maker": "Pips",
+     "event_hint": "saintcon-2026",
+     "type": "accessory",
+     "url": "https://minibadge.wiki/2026.json (entry: Minibadge chain)",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "ESP32 Meshtastic Minibadge",
+     "maker": "Pips",
+     "event_hint": "saintcon-2026",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/2026.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Pipscat",
+     "maker": "Pips",
+     "event_hint": "saintcon-2026",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/2026.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Crown Burger",
+     "maker": "Pips",
+     "event_hint": "saintcon-2026",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/2026.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Minibadge chain",
+     "maker": "Pips",
+     "event_hint": "saintcon-2026",
+     "type": "accessory",
+     "url": "https://minibadge.wiki/2026.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Charger Minibadge",
+     "maker": "Pips",
+     "event_hint": "saintcon-2026",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/2026.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "5x5 Stackable Minibadge Display",
+     "maker": "Pips",
+     "event_hint": "saintcon-2026",
+     "type": "minibadge/display (separate from the devboard)",
+     "url": "https://minibadge.wiki/2026.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Glitch Gallery",
+     "maker": "Pips",
+     "event_hint": "saintcon (2025/2026 event-themed for 801 Labs Glitch Gallery)",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/2026.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Crown Burger",
+     "maker": "Pips",
+     "event_hint": "saintcon-2026",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/2026.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Minibadge chain",
+     "maker": "Pips",
+     "event_hint": "saintcon-2026",
+     "type": "accessory",
+     "url": "https://minibadge.wiki/2026.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "ESP32 Meshtastic Minibadge",
+     "maker": "Pips",
+     "event_hint": "saintcon-2026",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/2026.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "IPEX to SMA adapter Minibadge",
+     "maker": "Pips",
+     "event_hint": "saintcon-2026",
+     "type": "accessory",
+     "url": "https://minibadge.wiki/2026.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Charger Minibadge",
+     "maker": "Pips",
+     "event_hint": "saintcon-2026",
+     "type": "accessory",
+     "url": "https://minibadge.wiki/2026.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "5x5 Stackable Minibadge Display",
+     "maker": "Pips",
+     "event_hint": "saintcon-2026",
+     "type": "accessory",
+     "url": "https://minibadge.wiki/2026.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Perfboard prototyping minibadge",
+     "maker": "Pips",
+     "event_hint": "saintcon-2026",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/2026.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Minibadge Display Devboard",
+     "maker": "Pips",
+     "event_hint": "saintcon-2026",
+     "type": "accessory",
+     "url": "https://minibadge.wiki/2026.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Beelzebub Minibadge Holder / Day of the Dead Turkey / Krampus Minibadge Holder",
+     "maker": "distinctm1nd",
+     "event_hint": "already in archive (dc34)",
+     "type": "note",
+     "url": "",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "3x3 Minibadge Display",
+     "maker": "Pips",
+     "event_hint": "saintcon-2025",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/?search=3x3%20Minibadge%20Display&year=2025",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Arctic Wolf MicroBadge Extender Display",
+     "maker": "Cyberm3n",
+     "event_hint": "saintcon-2025",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/?search=Arctic%20Wolf%20MicroBadge%20Extender%20Display&year=2025",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "2x4 Microbadge Display",
+     "maker": "Cyberm3n",
+     "event_hint": "saintcon-2025",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/?search=2x4%20Microbadge%20Display&year=2025",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Expandable Display",
+     "maker": "Cyberm3n",
+     "event_hint": "saintcon-2025",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/?search=Expandable%20Display&year=2025",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "10x10 Display Case",
+     "maker": "Cyberm3n",
+     "event_hint": "saintcon-2025",
+     "type": "accessory",
+     "url": "https://minibadge.wiki/?search=10x10%20Display%20Case&year=2025",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Factorio Rocket",
+     "maker": "slever",
+     "event_hint": "saintcon-2025",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/?search=Factorio%20Rocket&year=2025",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Factorio Transport Belt",
+     "maker": "slever",
+     "event_hint": "saintcon-2025",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/?search=Factorio%20Transport%20Belt&year=2025",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "BornHack 2025 Badge",
+     "maker": "unknown (mentioned alongside Thomas Flummer's 2024 badge in the same article)",
+     "event_hint": "bornhack-2025",
+     "type": "badge",
+     "url": "https://hackaday.com/2025/08/01/two-for-the-price-of-one-bornhack-2024-and-2025-badges/",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Flipper Blackhat",
+     "maker": "Rootkit Labs (o7-machinehum)",
+     "event_hint": "other",
+     "type": "accessory",
+     "url": "https://github.com/o7-machinehum/flipper-blackhat",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "wifiwart",
+     "maker": "Rootkit Labs (o7-machinehum)",
+     "event_hint": "other",
+     "type": "other",
+     "url": "https://github.com/o7-machinehum/wifiwart",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Big Flamingo Gun (blaster_2024)",
+     "maker": "Fri3d Camp",
+     "event_hint": "fri3d-2024",
+     "type": "accessory",
+     "url": "https://github.com/Fri3dCamp/blaster_2024",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Communicator (communicator_2024)",
+     "maker": "Fri3d Camp",
+     "event_hint": "fri3d-2024",
+     "type": "accessory",
+     "url": "https://github.com/Fri3dCamp/communicator_2024",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "DAU Cyber Training Range",
+     "maker": "RuShan",
+     "event_hint": "saintcon-2024",
+     "type": "minibadge",
+     "url": "https://raw.githubusercontent.com/Pips801/minibadges-site/main/2024.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Portable minibadge holder (pendant or earring)",
+     "maker": "RuShan",
+     "event_hint": "saintcon-2024",
+     "type": "accessory",
+     "url": "https://raw.githubusercontent.com/Pips801/minibadges-site/main/2024.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "4x4 Minibadge display with MDNC",
+     "maker": "RuShan",
+     "event_hint": "saintcon-2024",
+     "type": "accessory",
+     "url": "https://raw.githubusercontent.com/Pips801/minibadges-site/main/2024.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "2024 Hardware Hacking Community MiniBadge",
+     "maker": "RuShan",
+     "event_hint": "saintcon-2024",
+     "type": "minibadge",
+     "url": "https://raw.githubusercontent.com/Pips801/minibadges-site/main/2024.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "The Dapper Minibadge Bowtie",
+     "maker": "Hollyhacker & RuShan",
+     "event_hint": "saintcon-2024",
+     "type": "accessory",
+     "url": "https://raw.githubusercontent.com/Pips801/minibadges-site/main/2024.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "STARGATE Portal",
+     "maker": "SHIFTY",
+     "event_hint": "saintcon-2024",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/?search=STARGATE&year=2024",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Gold Hoarder / Order of Souls / Merchant Alliance / Reaper's Bones minibadges (Sea of Thieves set)",
+     "maker": "Mister X",
+     "event_hint": "saintcon-2024",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/2024.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Clever Girl",
+     "maker": "kittysedai",
+     "event_hint": "saintcon-2024",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/2024.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "D20",
+     "maker": "kittysedai",
+     "event_hint": "saintcon-2024",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/2024.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Hacker Era",
+     "maker": "kittysedai",
+     "event_hint": "saintcon-2024",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/2024.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Hold Monster",
+     "maker": "kittysedai",
+     "event_hint": "saintcon-2024",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/2024.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Winter Is Coming",
+     "maker": "kittysedai",
+     "event_hint": "saintcon-2024",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/2024.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "UNIX System",
+     "maker": "kittysedai",
+     "event_hint": "saintcon-2024",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/2024.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "40oz Stanley Mug",
+     "maker": "atticus & kittysedai",
+     "event_hint": "saintcon-2024",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/2024.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "DISA",
+     "maker": "kittysedai",
+     "event_hint": "saintcon-2024",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/2024.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "doTERRA",
+     "maker": "kittysedai",
+     "event_hint": "saintcon-2024",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/2024.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Clever Girl",
+     "maker": "kittysedai",
+     "event_hint": "saintcon-2024",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/?search=Clever+Girl&year=2024",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Deathly Hallows",
+     "maker": "kittysedai",
+     "event_hint": "saintcon-2024",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/?search=Deathly+Hallows&year=2024",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Hacker Era",
+     "maker": "kittysedai",
+     "event_hint": "saintcon-2024",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/?search=Hacker+Era&year=2024",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Hold Monster",
+     "maker": "kittysedai",
+     "event_hint": "saintcon-2024",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/?search=Hold+Monster&year=2024",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Winter Is Coming",
+     "maker": "kittysedai",
+     "event_hint": "saintcon-2024",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/?search=Winter+Is+Coming&year=2024",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "UNIX System",
+     "maker": "kittysedai",
+     "event_hint": "saintcon-2024",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/?search=UNIX+System&year=2024",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "40oz Stanley Mug",
+     "maker": "atticus & kittysedai",
+     "event_hint": "saintcon-2024",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/?search=40oz+Stanley+Mug&year=2024",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "DISA",
+     "maker": "kittysedai",
+     "event_hint": "saintcon-2024",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/?search=DISA&year=2024",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "doTERRA",
+     "maker": "kittysedai",
+     "event_hint": "saintcon-2024",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/?search=doTERRA&year=2024",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Gold Hoarder Badge",
+     "maker": "Mister X",
+     "event_hint": "saintcon-2024",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/?search=Gold%20Hoarder%20Badge&year=2024",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Merchant Alliance Badge",
+     "maker": "Mister X",
+     "event_hint": "saintcon-2024",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/?search=Merchant%20Alliance%20Badge&year=2024",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Reaper's Bones Badge",
+     "maker": "Mister X",
+     "event_hint": "saintcon-2024",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/?search=Reaper%27s%20Bones%20Badge&year=2024",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Athena's Fortune Badge",
+     "maker": "Mister X",
+     "event_hint": "saintcon-2024",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/?search=Athena%27s%20Fortune%20Badge&year=2024",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Sea of Thieves Minibadge",
+     "maker": "Mister X",
+     "event_hint": "saintcon-2024",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/?search=Sea%20of%20Thieves%20Minibadge&year=2024",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Gold Hoarder Badge",
+     "maker": "Mister X",
+     "event_hint": "saintcon-2024",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/2024.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Order of Souls Badge",
+     "maker": "Mister X",
+     "event_hint": "saintcon-2024",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/2024.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Reaper's Bones Badge",
+     "maker": "Mister X",
+     "event_hint": "saintcon-2024",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/2024.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Athena's Fortune Badge",
+     "maker": "Mister X",
+     "event_hint": "saintcon-2024",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/2024.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Sea of Thieves Minibadge",
+     "maker": "Mister X",
+     "event_hint": "saintcon-2024",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/2024.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Gold Hoarder Badge",
+     "maker": "Mister X",
+     "event_hint": "saintcon-2024",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/2024.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Order of Souls Badge",
+     "maker": "Mister X",
+     "event_hint": "saintcon-2024",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/2024.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Merchant Alliance Badge",
+     "maker": "Mister X",
+     "event_hint": "saintcon-2024",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/2024.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Reaper's Bones Badge",
+     "maker": "Mister X",
+     "event_hint": "saintcon-2024",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/2024.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Athena's Fortune Badge",
+     "maker": "Mister X",
+     "event_hint": "saintcon-2024",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/2024.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "BSidesJAX 2024 Badge",
+     "maker": "blackandwhitehat / Panda",
+     "event_hint": "bsides-jacksonville-2024 (if it exists) or other",
+     "type": "badge",
+     "url": "https://github.com/blackandwhitehat/BSidesJAX_2024_Badge",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "BSidesJAX 2024 Badge Challenge",
+     "maker": "blackandwhitehat",
+     "event_hint": "bsides-jacksonville-2024",
+     "type": "other",
+     "url": "https://github.com/blackandwhitehat/BSidesJAX_2024_Badge_Challenge",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "I SUCCEEDED badge (counterpart to this ICS Escape Challenge badge)",
+     "maker": "SHIFTY",
+     "event_hint": "saintcon-2023",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/2023.json (search the feed for the companion title; not confirmed to exist as a separate wiki entry, only referenced as '1 of our 2 challenge badges' in this badge's howToAcquire text)",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "ICS ESCAPE CHALLENGE - I FAILED BADGE",
+     "maker": "SHIFTY",
+     "event_hint": "saintcon-2023",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/?search=ICS%20ESCAPE%20CHALLENGE%20-%20I%20FAILED%20BADGE&year=2023",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Lego",
+     "maker": "Jup1t3r",
+     "event_hint": "saintcon-2023",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/2023.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "K-9",
+     "maker": "Ray-Man",
+     "event_hint": "saintcon-2023",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/?search=K-9&year=2023",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Marvin the Martian",
+     "maker": "Berly",
+     "event_hint": "saintcon-2023",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/?search=Marvin+the+Martian&year=2023",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "ID/10T COMMUNITY BADGE",
+     "maker": "SHIFTY",
+     "event_hint": "saintcon-2023",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/2023.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "BLUE TEAM COMMUNITY BADGE",
+     "maker": "SHIFTY",
+     "event_hint": "saintcon-2023",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/2023.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "TAMPER EVIDENT COMMUNITY BADGE",
+     "maker": "SHIFTY",
+     "event_hint": "saintcon-2023",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/2023.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "BRIEFS COMMUNITY BADGE",
+     "maker": "SHIFTY",
+     "event_hint": "saintcon-2023",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/2023.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "AI COMMUNITY BADGE",
+     "maker": "SHIFTY",
+     "event_hint": "saintcon-2023",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/2023.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "APPLICATION SECURITY COMMUNITY BADGE",
+     "maker": "SHIFTY",
+     "event_hint": "saintcon-2023",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/2023.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "RFID/NFC COMMUNITY BADGE",
+     "maker": "SHIFTY",
+     "event_hint": "saintcon-2023",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/2023.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "RFID Rocket",
+     "maker": "SHIFTY",
+     "event_hint": "saintcon-2023",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/2023.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "HOMELABS COMMUNITY BADGE",
+     "maker": "bfcoder",
+     "event_hint": "saintcon-2023",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/2023.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "HEALTHCARE HACKING COMMUNITY BADGE",
+     "maker": "Brucifer",
+     "event_hint": "saintcon-2023",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/2023.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "HARDWARE HACKING COMMUNITY BADGE",
+     "maker": "rogu3bull3t",
+     "event_hint": "saintcon-2023",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/2023.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "LOCKPICK COMMUNITY BADGE",
+     "maker": "Jup1t3r",
+     "event_hint": "saintcon-2023",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/2023.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "BADGELIFE COMMUNITY BADGE",
+     "maker": "Jup1t3r",
+     "event_hint": "saintcon-2023",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/2023.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "THE KEEP COMMUNITY BADGE",
+     "maker": "Jup1t3r",
+     "event_hint": "saintcon-2023",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/2023.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Family Night - Rocket Building",
+     "maker": "TGalvez",
+     "event_hint": "saintcon-2023",
+     "type": "minibadge (Event category)",
+     "url": "https://minibadge.wiki/2023.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "LAN PARTY EVENT BADGE",
+     "maker": "SHIFTY",
+     "event_hint": "saintcon-2023",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/?search=LAN%20PARTY%20EVENT%20BADGE&year=2023",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "GameOn add-on module",
+     "maker": "Fri3d Camp",
+     "event_hint": "fri3d-2022",
+     "type": "accessory",
+     "url": "https://github.com/Fri3dCamp/gameon-2020",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Time Blaster add-on module",
+     "maker": "Fri3d Camp",
+     "event_hint": "fri3d-2022",
+     "type": "accessory",
+     "url": "https://github.com/Fri3dCamp/timeblaster-2020",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "GameOn",
+     "maker": "Fri3d Camp",
+     "event_hint": "fri3d-2022 (originally prototyped for Fri3d Camp 2020)",
+     "type": "accessory",
+     "url": "https://github.com/Fri3dCamp/gameon-2020",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "HACKERS CHALLENGE BADGE",
+     "maker": "Zevlag",
+     "event_hint": "saintcon-2022",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/2022.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "HARDWARE HACKING BADGE",
+     "maker": "Hamster",
+     "event_hint": "saintcon-2022",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/2022.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Hacker Skull",
+     "maker": "Sh33pr0ck",
+     "event_hint": "saintcon-2022",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/2022.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "HOMELABS CAT6 MINIBADGE",
+     "maker": "bfcoder & klipper & v0rtex & yukia",
+     "event_hint": "saintcon-2022",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/2022.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Lego Badge with mini-figURE",
+     "maker": "Zevlag",
+     "event_hint": "saintcon-2022",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/2022.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "HOMELABS CAT6 MINIBADGE",
+     "maker": "bfcoder & klipper & v0rtex & yukia",
+     "event_hint": "saintcon-2022",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/?search=HOMELABS%20CAT6%20MINIBADGE&year=2022",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "2022 TFHT Alternative",
+     "maker": "Sh33prock",
+     "event_hint": "saintcon-2022",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/2022.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "PEOPLE BADGES",
+     "maker": "Jup1t3r",
+     "event_hint": "saintcon-2021",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/2021.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "TIN FOIL HAT TALKS",
+     "maker": "Jup1t3r",
+     "event_hint": "saintcon-2021",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/2021.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "PRIVATE LTE",
+     "maker": "Jup1t3r",
+     "event_hint": "saintcon-2021",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/2021.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "RFID/NFC BADGE",
+     "maker": "Jup1t3r",
+     "event_hint": "saintcon-2021",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/2021.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "HACK IN THE BOX",
+     "maker": "Jup1t3r",
+     "event_hint": "saintcon-2021",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/2021.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "RED TEAM",
+     "maker": "Jup1t3r",
+     "event_hint": "saintcon-2021",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/2021.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "HACKER CHALLENGE",
+     "maker": "Jup1t3r",
+     "event_hint": "saintcon-2021",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/2021.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "SCAVENGER HUNT",
+     "maker": "Jup1t3r",
+     "event_hint": "saintcon-2021",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/2021.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "THE VAULT",
+     "maker": "Jup1t3r",
+     "event_hint": "saintcon-2021",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/2021.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "STORE BADGE",
+     "maker": "Jup1t3r",
+     "event_hint": "saintcon-2021",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/2021.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "RADIATION BADGE",
+     "maker": "Jup1t3r",
+     "event_hint": "saintcon-2021",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/2021.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "GADSEN FLAG",
+     "maker": "Jup1t3r",
+     "event_hint": "saintcon-2021",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/2021.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "USA FLAG",
+     "maker": "Jup1t3r",
+     "event_hint": "saintcon-2021",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/2021.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "COMPUNET",
+     "maker": "Jup1t3r",
+     "event_hint": "saintcon-2021",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/2021.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "PEOPLE BADGES",
+     "maker": "Jup1t3r",
+     "event_hint": "saintcon-2021",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/?search=PEOPLE%20BADGES&year=2021",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "TIN FOIL HAT TALKS",
+     "maker": "Jup1t3r",
+     "event_hint": "saintcon-2021",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/?search=TIN%20FOIL%20HAT%20TALKS&year=2021",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "PRIVATE LTE",
+     "maker": "Jup1t3r",
+     "event_hint": "saintcon-2021",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/?search=PRIVATE%20LTE&year=2021",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "RFID/NFC BADGE",
+     "maker": "Jup1t3r",
+     "event_hint": "saintcon-2021",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/?search=RFID%2FNFC%20BADGE&year=2021",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "HACK IN THE BOX",
+     "maker": "Jup1t3r",
+     "event_hint": "saintcon-2021",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/?search=HACK%20IN%20THE%20BOX&year=2021",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "RED TEAM",
+     "maker": "Jup1t3r",
+     "event_hint": "saintcon-2021",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/?search=RED%20TEAM&year=2021",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "SCAVENGER HUNT",
+     "maker": "Jup1t3r",
+     "event_hint": "saintcon-2021",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/?search=SCAVENGER%20HUNT&year=2021",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "THE VAULT",
+     "maker": "Jup1t3r",
+     "event_hint": "saintcon-2021",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/?search=THE%20VAULT&year=2021",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "STORE BADGE",
+     "maker": "Jup1t3r",
+     "event_hint": "saintcon-2021",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/?search=STORE%20BADGE&year=2021",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "RADIATION BADGE",
+     "maker": "Jup1t3r",
+     "event_hint": "saintcon-2021",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/?search=RADIATION%20BADGE&year=2021",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "GADSEN FLAG",
+     "maker": "Jup1t3r",
+     "event_hint": "saintcon-2021",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/?search=GADSEN%20FLAG&year=2021",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "MATRIX BADGE",
+     "maker": "Jup1t3r",
+     "event_hint": "saintcon-2021",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/?search=MATRIX%20BADGE&year=2021",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "USA FLAG",
+     "maker": "Jup1t3r",
+     "event_hint": "saintcon-2021",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/?search=USA%20FLAG&year=2021",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "COMPUNET",
+     "maker": "Jup1t3r",
+     "event_hint": "saintcon-2021",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/?search=COMPUNET&year=2021",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "PEOPLE BADGES",
+     "maker": "Jup1t3r",
+     "event_hint": "saintcon-2021",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/2021.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "TIN FOIL HAT TALKS",
+     "maker": "Jup1t3r",
+     "event_hint": "saintcon-2021",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/2021.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "PRIVATE LTE",
+     "maker": "Jup1t3r",
+     "event_hint": "saintcon-2021",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/2021.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "HACK IN THE BOX",
+     "maker": "Jup1t3r",
+     "event_hint": "saintcon-2021",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/2021.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "RED TEAM",
+     "maker": "Jup1t3r",
+     "event_hint": "saintcon-2021",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/2021.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "HACKER CHALLENGE",
+     "maker": "Jup1t3r",
+     "event_hint": "saintcon-2021",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/2021.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "SCAVENGER HUNT",
+     "maker": "Jup1t3r",
+     "event_hint": "saintcon-2021",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/2021.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "THE VAULT",
+     "maker": "Jup1t3r",
+     "event_hint": "saintcon-2021",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/2021.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "STORE BADGE",
+     "maker": "Jup1t3r",
+     "event_hint": "saintcon-2021",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/2021.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "RADIATION BADGE",
+     "maker": "Jup1t3r",
+     "event_hint": "saintcon-2021",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/2021.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "GADSEN FLAG",
+     "maker": "Jup1t3r",
+     "event_hint": "saintcon-2021",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/2021.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "MATRIX BADGE",
+     "maker": "Jup1t3r",
+     "event_hint": "saintcon-2021",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/2021.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "USA FLAG",
+     "maker": "Jup1t3r",
+     "event_hint": "saintcon-2021",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/2021.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "COMPUNET",
+     "maker": "Jup1t3r",
+     "event_hint": "saintcon-2021",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/2021.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "PEOPLE BADGES",
+     "maker": "Jup1t3r",
+     "event_hint": "saintcon-2021",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/2021.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "PRIVATE LTE",
+     "maker": "Jup1t3r",
+     "event_hint": "saintcon-2021",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/2021.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "RFID/NFC BADGE",
+     "maker": "Jup1t3r",
+     "event_hint": "saintcon-2021",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/2021.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "HACK IN THE BOX",
+     "maker": "Jup1t3r",
+     "event_hint": "saintcon-2021",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/2021.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "RED TEAM",
+     "maker": "Jup1t3r",
+     "event_hint": "saintcon-2021",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/2021.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "PEOPLE BADGES",
+     "maker": "Jup1t3r",
+     "event_hint": "saintcon-2021",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/2021.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "GADSEN FLAG",
+     "maker": "Jup1t3r",
+     "event_hint": "saintcon-2021",
+     "type": "minibadge",
+     "url": "https://minibadge.wiki/2021.json",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Coin (MPU-6050 accelerometer/gyro add-on)",
+     "maker": "jorisplusplus",
+     "event_hint": "campzone-2019",
+     "type": "accessory",
+     "url": "https://github.com/jorisplusplus/MPU_Coin",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Security B-Sides Orlando 2018 Badge",
+     "maker": "Kirball",
+     "event_hint": "bsides-orlando-2018 (check exact id in events.yml)",
+     "type": "badge",
+     "url": "https://hackaday.io/project/160630-security-b-sides-orlando-2018-badge",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "#RescueOps Badge (unofficial DEF CON 26 badge)",
+     "maker": "Kirball",
+     "event_hint": "dc26",
+     "type": "badge",
+     "url": "https://hackaday.io/project/26214-rescueops-badge",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Hack FSCJ (fundraiser PCB badge)",
+     "maker": "Kirball",
+     "event_hint": "other (fundraiser, not a con)",
+     "type": "badge",
+     "url": "https://hackaday.io/project/26229-hack-fscj",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Bot Jewel",
+     "maker": "Fri3d Camp / Wim Van Gool / Bert Outtier",
+     "event_hint": "fri3d-2018",
+     "type": "sao/accessory",
+     "url": "https://github.com/Fri3dCamp/badge/tree/master/design/jewels/Bot.00",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Air Jewel",
+     "maker": "Fri3d Camp",
+     "event_hint": "fri3d-2018",
+     "type": "accessory",
+     "url": "https://github.com/Fri3dCamp/badge/tree/master/design/jewels",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Air Jewel",
+     "maker": "Fri3d Camp",
+     "event_hint": "fri3d-2018",
+     "type": "sao",
+     "url": "https://hackaday.io/project/160451-ph0xx",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Bot Jewel",
+     "maker": "Fri3d Camp",
+     "event_hint": "fri3d-2018",
+     "type": "sao",
+     "url": "https://hackaday.io/project/160451-ph0xx",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Ph0xx badge",
+     "maker": "Fri3d Camp",
+     "event_hint": "fri3d-2018",
+     "type": "badge",
+     "url": "https://github.com/Fri3dCamp/Fri3dBadge",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "bsidescpt2016badge",
+     "maker": "dodgymike",
+     "event_hint": "BSides Cape Town 2016 (no matching event id currently in events.yml)",
+     "type": "badge",
+     "url": "https://github.com/dodgymike/bsidescpt2016badge",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "AND!XOR DC24 Badge",
+     "maker": "dodgymike (hardware/software contributor)",
+     "event_hint": "DEF CON 24",
+     "type": "badge",
+     "url": "https://github.com/dodgymike/ANDnXOR_DC24_Badge",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "dc26-monero-badge-pcb",
+     "maker": "dodgymike",
+     "event_hint": "DEF CON 26",
+     "type": "badge",
+     "url": "https://github.com/dodgymike/dc26-monero-badge-pcb",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "THOTCON 0x8 Badge",
+     "maker": "Gigawatts",
+     "event_hint": "thotcon (likely thotcon-2017)",
+     "type": "badge",
+     "url": "https://hackaday.io/project/... (linked as 'Similar Projects' from https://hackaday.io/project/981-thotcon-0x4-badge, exact URL not captured)",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "AramCon Badge Keyboard Add-On (BB-Q10 Keyboard Shitty Add-On)",
+     "maker": "AramCon Badge Team",
+     "event_hint": "other",
+     "type": "sao",
+     "url": "https://github.com/aramcon-badge/keyboard-addon",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Vectorscope (Supercon 2023 badge)",
+     "maker": "Hackaday (Supercon 2023 badge team)",
+     "event_hint": "supercon-2023",
+     "type": "badge",
+     "url": "https://github.com/Hack-a-Day/Vectorscope",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Cornbadge",
+     "maker": "jamesdietle",
+     "event_hint": "unknown (not stated in repo)",
+     "type": "badge (SAO-compatible)",
+     "url": "https://github.com/jamesdietle/Cornbadge",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "2018 Hackaday Superconference Badge (proto-board reverse engineering)",
+     "maker": "xBeau",
+     "event_hint": "supercon-2018",
+     "type": "badge",
+     "url": "https://hackaday.io/xbeau",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "DEF CON DarkNet Badge (DEF CON 23 / 2015 edition)",
+     "maker": "Smitty and Krux",
+     "event_hint": "dc25 or earlier (not yet in events.yml, which starts at dc24/2016)",
+     "type": "badge",
+     "url": "https://hackaday.com/2015/08/10/all-the-unofficial-electronic-badges-of-def-con/",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "DEFCON-Badge-2025",
+     "maker": "patridge",
+     "event_hint": "dc33 (DEF CON 33, 2025)",
+     "type": "badge (same pattern, Meadow Project Lab firmware)",
+     "url": "https://github.com/patridge/DEFCON-Badge-2025",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Badge Launcher v2 \"Touch\"",
+     "maker": "Retia LLC",
+     "event_hint": "dc34",
+     "type": "firmware/launcher (not a standalone badge)",
+     "url": "https://github.com/RetiaLLC/badge-launcher",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Anemoia-DefconBadge (NES emulator)",
+     "maker": "Retia LLC / Shim06",
+     "event_hint": "dc34",
+     "type": "firmware (not a standalone badge)",
+     "url": "https://github.com/RetiaLLC/Anemoia-DefconBadge",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "keyboard (OzSecCon 2019 SAO)",
+     "maker": "digitalrane (ec0)",
+     "event_hint": "other",
+     "type": "sao",
+     "url": "https://github.com/digitalrane/badgelife/tree/master/OzSecCon2019/keyboard",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "mult (LSAO port multiplier, OzSecCon 2019)",
+     "maker": "digitalrane (ec0)",
+     "event_hint": "other",
+     "type": "accessory",
+     "url": "https://github.com/digitalrane/badgelife/tree/master/OzSecCon2019/mult",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "DORS/CLUC 2024 Badge",
+     "maker": "Hyperglitch",
+     "event_hint": "other (no DORS/CLUC id exists yet)",
+     "type": "badge",
+     "url": "https://hyperglitch.com/articles/dc2024-badge",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Tamafoxi",
+     "maker": "Fuchsia",
+     "event_hint": "other",
+     "type": "badge (attendee mod)",
+     "url": "https://hackaday.com/2019/11/03/eth0-autumn-2019-tiny-camp-creative-badge/",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "DIPSY",
+     "maker": "Antti Lukats",
+     "event_hint": "unknown",
+     "type": "sao/tiny-SoC",
+     "url": "https://hackaday.io/project/6592-dipsy",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "HaDge - The Hackaday Badge",
+     "maker": "Hackaday.io community",
+     "event_hint": "unknown",
+     "type": "badge",
+     "url": "https://hackaday.io/project/3009-hadge-the-hackaday-badge",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "The FALKEN Wombat Badge 2",
+     "maker": "Hackerware.io (Abhinav SP)",
+     "event_hint": "BSides Adelaide 2025 (no matching event id in events.yml)",
+     "type": "badge",
+     "url": "https://www.hackster.io/HacksFromPanda/the-falken-wombat-badge-2-bsides-adelaide-e15fbd",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Hackaday Belgrade conference badge (2016)",
+     "maker": "Voja Antonic",
+     "event_hint": "Hackaday Belgrade 2016 (no matching id in events.yml)",
+     "type": "badge",
+     "url": "https://hackaday.io/contest/10521-belgrade-badge-demoscene",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Flux Capacitor SAO",
+     "maker": "unknown (different from Arnov Sharma)",
+     "event_hint": "dc31",
+     "type": "sao",
+     "url": "",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "SAO Multimeter",
+     "maker": "Thomas Flummer",
+     "event_hint": "supercon-2024",
+     "type": "sao",
+     "url": "https://hackaday.com/2024/11/04/supercon-2024-badge-add-on-winners/",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Etch sAo Sketch",
+     "maker": "Andy Geppert",
+     "event_hint": "supercon-2024",
+     "type": "sao",
+     "url": "https://hackaday.com/2024/11/04/supercon-2024-badge-add-on-winners/",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Bendy SAO",
+     "maker": "debraansell",
+     "event_hint": "supercon-2024",
+     "type": "sao",
+     "url": "https://hackaday.com/2024/11/04/supercon-2024-badge-add-on-winners/",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Vectrex SAO",
+     "maker": "Brett Walach",
+     "event_hint": "supercon-2024",
+     "type": "sao",
+     "url": "https://hackaday.com/2024/11/04/supercon-2024-badge-add-on-winners/",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Flux Capacitor Badge",
+     "maker": "unknown (Hackaday.io project 187459)",
+     "event_hint": "unknown",
+     "type": "badge",
+     "url": "https://hackaday.io/project/187459-flux-capacitor-badge",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Flux Capacitor (Pin Badge/Keychain)",
+     "maker": "Curious Design Labs",
+     "event_hint": "unknown - Tindie storefront item, ~25 animated LEDs per search snippet",
+     "type": "accessory",
+     "url": "https://www.tindie.com/products/curiousdesignlabs/flux-capacitor-pin-badgekeychain/",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "K.I.T.T. Knight Rider Blinky LED Badge",
+     "maker": "davedarko",
+     "event_hint": "unknown",
+     "type": "badge",
+     "url": "https://www.tindie.com/products/davedarko/kitt-knight-rider-blinky-led-badge/",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Vectorscope",
+     "maker": "Hackaday badge team",
+     "event_hint": "supercon-2023",
+     "type": "badge",
+     "url": "https://github.com/Hack-a-Day/Vectorscope",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Agency Wand",
+     "maker": "Brooke's Bytes (000000widow)",
+     "event_hint": "unknown",
+     "type": "unknown",
+     "url": "https://uberflux.com/maker/000000widow",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Badge Crown SAO",
+     "maker": "Brooke's Bytes (000000widow)",
+     "event_hint": "unknown",
+     "type": "sao",
+     "url": "https://uberflux.com/maker/000000widow",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "SKELETOR Electronic Pin Badge",
+     "maker": "GizmoLab (hyuma78)",
+     "event_hint": "other",
+     "type": "badge",
+     "url": "https://lectronz.com/products/skeletor-electronic-pin-badge",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "He-Man Badge (SAO connector)",
+     "maker": "GizmoLab (hyuma78)",
+     "event_hint": "other",
+     "type": "sao",
+     "url": "https://x.com/thegizmolab/status/1780486786231251273",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Tank Girl Badge NSFW NEW EDITION",
+     "maker": "GizmoLab (hyuma78)",
+     "event_hint": "other",
+     "type": "badge",
+     "url": "https://lectronz.com/products/tank-girl-badge-nsfw-new-edition",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "HeartyPatch",
+     "maker": "ProtoCentral / Ashwin K Whitchurch",
+     "event_hint": "not a con badge (2017 Hackaday Prize entry, wearable ECG patch that HeartyBadge is based on)",
+     "type": "wearable",
+     "url": "https://hackaday.io/project/21046-heartypatch-a-single-lead-ecg-hr-patch-with-esp32",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "joco-2018-badge",
+     "maker": "phase4ground / Open Research Institute",
+     "event_hint": "other (JoCo Cruise 2018, no matching event id)",
+     "type": "badge",
+     "url": "https://github.com/phase4ground/joco-2018-badge",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "OBD II CAN Bus cable for layerOne 2017 badge",
+     "maker": "charliex",
+     "event_hint": "other (LayerOne)",
+     "type": "accessory",
+     "url": "https://www.tindie.com/products/charliex6/obd-ii-can-bus-cable-for-layerone-2017-badge/",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "LayerOne 2013 Conference Badge",
+     "maker": "charliex",
+     "event_hint": "LayerOne 2013 (no matching id in events.yml)",
+     "type": "badge",
+     "url": "https://hackaday.com/2013/05/21/meet-the-2013-layerone-conference-badge/",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "LayerOne 2017 Electronic Badge",
+     "maker": "charliex",
+     "event_hint": "LayerOne 2017 (no matching id in events.yml)",
+     "type": "badge",
+     "url": "https://www.tindie.com/products/charliex6/layerone-2017-electronic-badge/",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Lunar Lander SAO",
+     "maker": "Kate Morris / Rowan Phipps",
+     "event_hint": "dc27",
+     "type": "sao",
+     "url": "https://github.com/lunarbadge/LunarLanderSAO",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "maibadge-machine (machine_v2)",
+     "maker": "Hackin7 (HCKBADGES) / maibadge",
+     "event_hint": "dc34",
+     "type": "badge",
+     "url": "https://github.com/maibadge/maibadge",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "MalO SAO",
+     "maker": "ParallelLogic (schematic/layout), HotGlewd (artwork), BitAssembly (pixel art)",
+     "event_hint": "dc34",
+     "type": "sao",
+     "url": "https://github.com/parallellogic-/MalO_SAO",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "maibadge-bear",
+     "maker": "Hackin7 / MaiBadge project",
+     "event_hint": "dc34 (likely)",
+     "type": "badge",
+     "url": "https://github.com/maibadge/maibadge",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Meshanger Badge V",
+     "maker": "unclear/different Hackaday.io user",
+     "event_hint": "other",
+     "type": "badge",
+     "url": "https://hackaday.io/project/176020-meshanger-badge-v",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "ATtiny 816/1616 Minibadge Devboard",
+     "maker": "Pips801 / Pips Engineering",
+     "event_hint": "other",
+     "type": "sao (minibadge)",
+     "url": "https://www.tindie.com/products/pips/attiny-8161616-minibadge-devboard/",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Individual minibadges built to the lukejenkins minibadge standard (over a dozen exist per Hackaday, built for SAINTCON badges)",
+     "maker": "various SAINTCON badgelife makers",
+     "event_hint": "saintcon (various years)",
+     "type": "minibadge",
+     "url": "https://github.com/lukejenkins/minibadge",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Supercon Add-On Add-On (SAOAO) standard",
+     "maker": "community, inspired by lukejenkins minibadge",
+     "event_hint": "supercon",
+     "type": "spec/standard",
+     "url": "https://hackaday.com/2019/03/20/introducing-the-shitty-add-on-v1-69bis-standard/",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Other Simple Add-Ons in davedarko's repo",
+     "maker": "davedarko",
+     "event_hint": "unknown",
+     "type": "sao",
+     "url": "https://github.com/davedarko/Simple-Add-ons-SAO/tree/main",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Ghibli/Soot Sprites SAO",
+     "maker": "davedarko",
+     "event_hint": "other",
+     "type": "sao",
+     "url": "https://github.com/davedarko/Simple-Add-ons-SAO",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Han SAOlo in carbonyte",
+     "maker": "davedarko",
+     "event_hint": "other",
+     "type": "sao",
+     "url": "https://hackaday.io/project/197803-han-saolo",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "COVID-19 badge (SAO)",
+     "maker": "davedarko",
+     "event_hint": "other",
+     "type": "sao",
+     "url": "https://hackaday.io/project/187615-covid-19-sao-simple-add-on",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "\"Hello my name is\" SAO",
+     "maker": "davedarko",
+     "event_hint": "other",
+     "type": "sao",
+     "url": "https://hackaday.io/project/197693-hello-my-name-is-sao",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "MrAnderson SAO",
+     "maker": "davedarko",
+     "event_hint": "other",
+     "type": "sao",
+     "url": "https://github.com/davedarko/Simple-Add-ons-SAO",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Vendetta badge SAO",
+     "maker": "davedarko",
+     "event_hint": "other",
+     "type": "sao",
+     "url": "https://github.com/davedarko/Simple-Add-ons-SAO",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Do Or Donut SAO",
+     "maker": "davedarko",
+     "event_hint": "other",
+     "type": "sao",
+     "url": "https://hackaday.io/project/168597-do-or-donut-sao",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "YoDawgSAO",
+     "maker": "davedarko",
+     "event_hint": "other",
+     "type": "sao",
+     "url": "https://github.com/davedarko/Simple-Add-ons-SAO",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Mr. Robot Badge (Mk. 1)",
+     "maker": "Brian Benchoff",
+     "event_hint": "dc25 (DEF CON 25, 2017)",
+     "type": "badge",
+     "url": "https://hackaday.io/project/18508-mr-robot-badge",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Tide Pod Blockchain (SAO add-on)",
+     "maker": "unknown (third-party add-on bundled with Mr. Robot Badge Mk. 2)",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/project/94291-mr-robot-badge-mk-2",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "hello my name is SAO",
+     "maker": "davedarko",
+     "event_hint": "supercon-2024",
+     "type": "sao",
+     "url": "https://hackaday.io/project/197693-hello-my-name-is-sao",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "SAO HackThePlanet",
+     "maker": "unknown",
+     "event_hint": "dc34",
+     "type": "sao",
+     "url": "https://uberflux.com/product/HTP-DC34",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "DcZia Mk9",
+     "maker": "unknown",
+     "event_hint": "supercon-2026",
+     "type": "sao",
+     "url": "https://uberflux.com/product/HAMST-DCZIA-2026",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Shitty Kitty V2",
+     "maker": "unknown",
+     "event_hint": "unknown",
+     "type": "sao",
+     "url": "https://www.uberflux.com/product/UF-SK2",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Darknet-NG SMAO",
+     "maker": "unknown",
+     "event_hint": "unknown",
+     "type": "sao",
+     "url": "https://uberflux.com/product/DNNG-SMAO",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Penghicorn",
+     "maker": "davedarko (with deantonious, Stefan Kremser)",
+     "event_hint": "35C3 (2018, not in events.yml)",
+     "type": "badge",
+     "url": "https://hackaday.io/project/162293-penghicorn",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Mr. Robot shitty addon",
+     "maker": "davedarko",
+     "event_hint": "other",
+     "type": "sao",
+     "url": "https://hackaday.io/project/168037-mr-robot-shitty-addon",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Oshwi (original octopus IoT badge)",
+     "maker": "Gustavo Reynaga (hulkco)",
+     "event_hint": "oshwdem-2017",
+     "type": "badge",
+     "url": "https://hackaday.io/project/116882-oshwi-the-octopus-iot-badge",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Pixel Badge (Shitty Pixel)",
+     "maker": "blinkingthing",
+     "event_hint": "other",
+     "type": "sao",
+     "url": "https://hackaday.io/project/164567-pixel-badge-shitty-pixel",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Robot Bank - SAO Badge Add On",
+     "maker": "blinkingthing",
+     "event_hint": "other",
+     "type": "sao",
+     "url": "https://www.tindie.com/products/blinkingthing/robot-bank-sao-badge-add-on/",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "BSides20016Badge (STM32F0/Cortex-M0, LED matrix)",
+     "maker": "soynerdito",
+     "event_hint": "BSidesPR 2016",
+     "type": "badge",
+     "url": "https://github.com/soynerdito/BSides20016Badge",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "RickBadge",
+     "maker": "soynerdito",
+     "event_hint": "BSidesPR",
+     "type": "badge",
+     "url": "https://github.com/soynerdito/RickBadge",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "NOPE SAO",
+     "maker": "znjp",
+     "event_hint": "unknown (same Uberflux storefront)",
+     "type": "sao",
+     "url": "https://uberflux.com/product/ZNJP-NOPE",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Social Battery SAO",
+     "maker": "znjp",
+     "event_hint": "unknown (same Uberflux storefront)",
+     "type": "sao",
+     "url": "https://uberflux.com/product/ZNJP-SOCIAL-BATTERY",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Lee-La Futur-o-rama SAO",
+     "maker": "thelogicofpi (PCB PINS)",
+     "event_hint": "other",
+     "type": "sao",
+     "url": "https://www.tindie.com/products/thelogicofpi/lee-la-futur-o-rama-sao/",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Future-O-Rama Golden Bend-her Robot SAO",
+     "maker": "thelogicofpi (PCB PINS)",
+     "event_hint": "other",
+     "type": "sao",
+     "url": "https://www.tindie.com/products/thelogicofpi/future-o-rama-golden-bend-her-robot-sao/",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Why Not Zoid-Berg? Futur-o-rama SAO",
+     "maker": "thelogicofpi (PCB PINS)",
+     "event_hint": "other",
+     "type": "sao",
+     "url": "https://www.tindie.com/products/thelogicofpi/why-not-zoid-berg-futur-o-rama-sao/",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Pixel Badge 2: Dark Pixel",
+     "maker": "blinkingthing",
+     "event_hint": "unknown (post-DEF CON 27 continuation)",
+     "type": "sao/badge",
+     "url": "https://hackaday.io/project/167841-pixel-badge-2-dark-pixel",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Robot Bank",
+     "maker": "blinkingthing",
+     "event_hint": "unknown",
+     "type": "sao",
+     "url": "https://www.tindie.com/products/blinkingthing/robot-bank-sao-badge-add-on/",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Space Janitor Badge SAO Kit",
+     "maker": "blinkingthing",
+     "event_hint": "unknown",
+     "type": "sao/kit",
+     "url": "https://www.tindie.com/products/blinkingthing/space-janitor-badge-sao-kit/",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Badge Killer Shitty Add-On",
+     "maker": "unknown",
+     "event_hint": "unknown",
+     "type": "sao",
+     "url": "https://hackaday.io/project/166163-badge-killer-shitty-add-on",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Remoticon 2020 badge (unofficial)",
+     "maker": "Thomas Flummer",
+     "event_hint": "other (Hackaday Remoticon 2020)",
+     "type": "badge",
+     "url": "https://github.com/flummer/remoticon2020-badge",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Whiskey Pirates RAID (variant of Retro Memories 26)",
+     "maker": "true (trueControl)",
+     "event_hint": "dc34",
+     "type": "sao",
+     "url": "https://basic.truecontrol.org/dc34/retro-memories/",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Telephreak 19",
+     "maker": "true (trueControl)",
+     "event_hint": "dc34",
+     "type": "unknown",
+     "url": "https://basic.truecontrol.org/dc34/telephreak19/",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Cobalt DC34",
+     "maker": "true (trueControl)",
+     "event_hint": "dc34",
+     "type": "unknown",
+     "url": "https://basic.truecontrol.org/dc34/cobalt/",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "The Wand",
+     "maker": "true (trueControl)",
+     "event_hint": "dc34",
+     "type": "unknown",
+     "url": "https://basic.truecontrol.org/dc34/the-wand/",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Hackbutt v3 wifi testing badge",
+     "maker": "rot13labs / C0ldbru",
+     "event_hint": "dc31 (already has an entry: dc31-hackbutt-v-3-wifi-testing-badge)",
+     "type": "badge",
+     "url": "https://www.tindie.com/products/rot13labs/hackbutt-v3-wifi-testing-badge/",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Limited Ham Radio Fox Badge",
+     "maker": "rot13labs",
+     "event_hint": "unknown",
+     "type": "badge",
+     "url": "https://www.tindie.com/products/rot13labs/limited-ham-radio-fox-badge/",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Spacehuhn Badge",
+     "maker": "Spacehuhn Technologies",
+     "event_hint": "other",
+     "type": "unknown - possibly a re-listing or distinct variant of the same badge",
+     "url": "https://www.tindie.com/products/spacehuhn/spacehuhn-badge/",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "K.I.T.T. Knight Rider Blinky LED Badge",
+     "maker": "davedarko",
+     "event_hint": "other",
+     "type": "badge (similar hand-painted blinky style badge)",
+     "url": "https://www.tindie.com/products/davedarko/kitt-knight-rider-blinky-led-badge/",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "MassHackers Badge 2015",
+     "maker": "TheDukeZip",
+     "event_hint": "other (MassHackers meetup, not a con)",
+     "type": "badge",
+     "url": "https://github.com/TheDukeZip/MassHackersBadge2015",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "SAO library stick short",
+     "maker": "davedarko",
+     "event_hint": "other",
+     "type": "accessory",
+     "url": "https://github.com/davedarko/Simple-Add-ons-SAO/tree/main/SAO%20library%20stick%20short",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "SAO_stick_sideways",
+     "maker": "davedarko",
+     "event_hint": "other",
+     "type": "accessory",
+     "url": "https://github.com/davedarko/Simple-Add-ons-SAO/tree/main/SAO_stick_sideways",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Han SAOlo in carbonyte",
+     "maker": "davedarko",
+     "event_hint": "other",
+     "type": "sao",
+     "url": "https://hackaday.io/project/197803-han-saolo",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "LECCO postcard",
+     "maker": "davedarko",
+     "event_hint": "other",
+     "type": "sao",
+     "url": "https://github.com/davedarko/Simple-Add-ons-SAO/tree/main/Lecco",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "T.A.R.S.",
+     "maker": "davedarko",
+     "event_hint": "other",
+     "type": "sao",
+     "url": "https://github.com/davedarko/TARS-SAO",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Fat Pika SAO",
+     "maker": "unknown (credited on the SAO Master Badge project page as inspiration)",
+     "event_hint": "unknown",
+     "type": "sao",
+     "url": "https://hackaday.io/project/158665-fat-pika",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Core64 / SAO_CORE4 - A Nibble of Core Memory",
+     "maker": "Andy Geppert",
+     "event_hint": "unknown",
+     "type": "sao",
+     "url": "https://github.com/ageppert/SAO_CORE4",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "SAOfinity - An SAO Display solution with options",
+     "maker": "Andy Geppert",
+     "event_hint": "unknown",
+     "type": "sao",
+     "url": "https://github.com/ageppert/SAOfinity",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "SAO_Voja4_Adapter",
+     "maker": "Andy Geppert",
+     "event_hint": "unknown",
+     "type": "sao",
+     "url": "https://github.com/ageppert/SAO_Voja4_Adapter",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Fat Pika",
+     "maker": "TwinkleTwinkie",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/TwinkleTwinkie",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Mad Cat (Cheshire Cat SAO)",
+     "maker": "TwinkleTwinkie",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/TwinkleTwinkie",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Big Green",
+     "maker": "TwinkleTwinkie",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/TwinkleTwinkie",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Arc Badge (Infinity War Arc Reactor)",
+     "maker": "TwinkleTwinkie",
+     "event_hint": "dc27",
+     "type": "badge",
+     "url": "https://hackaday.io/TwinkleTwinkie",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Fat Pika",
+     "maker": "TwinkleTwinkie",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://hackaday.io/twinkletwinkie",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Hackaday Belgrade 2018 Conference Badge",
+     "maker": "Voja Antonic (hardware), Jaromir Sukuba (software)",
+     "event_hint": "Hackaday Belgrade Conference 2018 (no matching event id currently in events.yml)",
+     "type": "badge",
+     "url": "https://github.com/kramarb/basic-badge",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Shitty Add-On Totem",
+     "maker": "Benchoff / Shitty Add-Ons project",
+     "event_hint": "other",
+     "type": "reference hardware / power distribution board",
+     "url": "https://hackaday.io/project/52950-shitty-add-ons",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Chain Chomp",
+     "maker": "Potato Nightmare",
+     "event_hint": "other (photo dated 2018-08-09, likely DEF CON 26)",
+     "type": "sao",
+     "url": "https://hackaday.com/2019/03/20/introducing-the-shitty-add-on-v1-69bis-standard/",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Twinkle Twinkie",
+     "maker": "Twinkle Twinkie",
+     "event_hint": "other (same gallery)",
+     "type": "sao",
+     "url": "https://hackaday.com/2019/03/20/introducing-the-shitty-add-on-v1-69bis-standard/",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Baby Bender",
+     "maker": "sqearlsalazar",
+     "event_hint": "other (same gallery)",
+     "type": "sao",
+     "url": "https://hackaday.com/2019/03/20/introducing-the-shitty-add-on-v1-69bis-standard/",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "DeLorean SAO",
+     "maker": "@realanimationxp",
+     "event_hint": "other (same gallery)",
+     "type": "sao",
+     "url": "https://hackaday.com/2019/03/20/introducing-the-shitty-add-on-v1-69bis-standard/",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Cromulon Badge",
+     "maker": "@cromulonb",
+     "event_hint": "other (same gallery)",
+     "type": "badge",
+     "url": "https://hackaday.com/2019/03/20/introducing-the-shitty-add-on-v1-69bis-standard/",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Just No SAO",
+     "maker": "znjp",
+     "event_hint": "other",
+     "type": "sao",
+     "url": "https://uberflux.com/maker/znjp",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "NOPE SAO",
+     "maker": "znjp",
+     "event_hint": "other",
+     "type": "sao",
+     "url": "https://uberflux.com/maker/znjp",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Unbearable Sloth Badge (hair-clip variant)",
+     "maker": "davedarko",
+     "event_hint": "other",
+     "type": "accessory",
+     "url": "https://www.tindie.com/products/davedarko/unbearable-sloth-badge--hair-clip/",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "F5 CTF Badge",
+     "maker": "Abhinav SP / Hackerware.io",
+     "event_hint": "dc33 (existing entry: dc33-f5-ctf-badge)",
+     "type": "badge",
+     "url": "",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "fuccs-shitty-addon-hw",
+     "maker": "jeffmakes",
+     "event_hint": "unknown (a con whose acronym is 'fuccs')",
+     "type": "sao",
+     "url": "https://github.com/jeffmakes/fuccs-shitty-addon-hw",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    },
+    {
+     "title": "Troopers19 badge hardware (tr19-badge-hw-public)",
+     "maker": "jeffmakes",
+     "event_hint": "troopers-2019 (no matching id in events.yml)",
+     "type": "badge",
+     "url": "https://github.com/jeffmakes/tr19-badge-hw-public",
+     "note": "Spotted by a research agent while working on a neighbouring entry (run 2)."
+    }
+   ]
+  }
+ ]
+}

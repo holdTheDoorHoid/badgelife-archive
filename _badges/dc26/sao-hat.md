@@ -28,7 +28,7 @@ tech:
   display: none
   connectivity: []
   battery: powered by host badge
-  sao_version: v1
+  sao_version: null
 get_one:
   price: ''
   price_usd: null
@@ -90,10 +90,10 @@ sources:
   note: Confirmed it is a red hat with glowing white "Make Add-ons Shitty Again" lettering, 3.3V SAO power, assembled/pre-built sale, black hot glue over LEDs to prevent light bleed, and that the listing is now retired/no longer available.
   archived: https://web.archive.org/web/20260519051635/https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-badgelife-sao-add-on-5/
 research:
-  status: researched
+  status: verified
   confidence: high
   last_checked: '2026-09-07'
-  notes: Price and quantity made were not stated on either source; left empty. No LED count or specific chip given (board is passive, driven by the host badge's 3.3V SAO power, no MCU).
+  notes: Price and quantity made were not stated on either source; left empty. No LED count or specific chip given (board is passive, driven by the host badge's 3.3V SAO power, no MCU). tech.sao_version was set to v1 by the research pass but neither the Hackaday.io project page nor the Tindie listing states the SAO pin count/version, so it was cleared to null during fact-check; everything else in the entry was confirmed against the cited Hackaday.io and Tindie pages (maker, event/year, appearance, colors, function, open-source KiCad/Gerbers file which resolves at 1.08MB, sold-out/retired status, and both saved images matching product photos on those pages).
 last_modified_date: '2026-09-07'
 ---
 

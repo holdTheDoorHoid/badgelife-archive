@@ -11,7 +11,7 @@ year: 2022
 makers:
 - name: The Hebrew
 summary: A gold-plated novelty SAO shaped like a pile of poop, sold as "The Ultimate S#!tty Add-on."
-functions: 'A button cycles through 12 LED display modes, including Twinkle, Chase, and Marquee patterns, plus fixed brightness levels of 100%, 75%, 50%, 25%, or off.'
+functions: A button cycles through 12 LED display modes, including Twinkle, Chase, and Marquee patterns, plus fixed brightness levels of 100%, 75%, 50%, 25%, or off.
 look:
   colors:
   - gold
@@ -34,7 +34,7 @@ get_one:
   price_usd: 30.0
   quantity: ''
   availability: sold_out
-  availability_note: 'Only 2 left as of checking the Tindie listing on 2026-09-06; sheet noted "Only 6 left as of 30Jun2022."'
+  availability_note: Only 2 left as of checking the Tindie listing on 2026-09-06; sheet noted "Only 6 left as of 30Jun2022."
   distribution:
   - purchase
   where: Tindie storefront (thehebrew)
@@ -47,11 +47,13 @@ links:
 - label: www.tindie.com/products/thehebrew/golden-turd-sao
   url: https://www.tindie.com/products/thehebrew/golden-turd-sao/
   kind: store
+  archived: https://web.archive.org/web/20260503112425/https://www.tindie.com/products/thehebrew/golden-turd-sao/
 images:
 - file: assets/images/badges/dc30/golden-turd-sao/d4fa0a1cad.jpg
-  source: "https://www.tindie.com/products/thehebrew/golden-turd-sao/"
-  credit: "thehebrew"
-  caption: "Golden Turd SAO, gold ENIG plated PCB"
+  source: https://www.tindie.com/products/thehebrew/golden-turd-sao/
+  credit: thehebrew
+  caption: Golden Turd SAO, gold ENIG plated PCB
+  archived: https://web.archive.org/web/20260503112425/https://www.tindie.com/products/thehebrew/golden-turd-sao/
 contact: {}
 notes:
 - Only 6 left as of 30Jun2022
@@ -63,14 +65,15 @@ sources:
   updated: '2022-06-30'
 - kind: url
   url: https://www.tindie.com/products/thehebrew/golden-turd-sao/
-  title: "Golden Turd SAO by thehebrew - Tindie"
+  title: Golden Turd SAO by thehebrew - Tindie
   accessed: '2026-09-06'
   note: Confirmed maker, price, MCU, LED count/driving method, button-cycled display modes, ENIG gold finish, and stock level; source of the saved product photo.
+  archived: https://web.archive.org/web/20260503112425/https://www.tindie.com/products/thehebrew/golden-turd-sao/
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-06'
-  notes: 'Only source found was the maker''s own Tindie listing; no Hackaday.io project, GitHub repo, or press coverage located. Design files are not published there, so make_your_own is left null rather than guessed as closed/open. Exact quantity made is not stated anywhere. The Hebrew also has a stub entry for DEF CON 31 (dc31-the-hebrew-listed-for-def-con-31-no-details) that a future pass could try to fill in from this same Tindie account.'
+  notes: Only source found was the maker's own Tindie listing; no Hackaday.io project, GitHub repo, or press coverage located. Design files are not published there, so make_your_own is left null rather than guessed as closed/open. Exact quantity made is not stated anywhere. The Hebrew also has a stub entry for DEF CON 31 (dc31-the-hebrew-listed-for-def-con-31-no-details) that a future pass could try to fill in from this same Tindie account.
 last_modified_date: '2026-09-06'
 ---
 

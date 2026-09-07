@@ -13,7 +13,7 @@ makers:
 - name: NiCk
   url: https://www.tindie.com/stores/technick/
 summary: A 3D-printed, non-electronic novelty badge for DEF CON 30 depicting "Jack" wearing a jewel-encrusted crown, sold with a matching DEF CON 30 nameplate.
-functions: 'None; a wearable 3D-printed novelty piece, not an electronic badge.'
+functions: None; a wearable 3D-printed novelty piece, not an electronic badge.
 look:
   colors: []
   shape: null
@@ -32,7 +32,7 @@ get_one:
   price_usd: 25.0
   quantity: ''
   availability: sold_out
-  availability_note: 'Tindie listing shows out of stock as of the 2026-09-07 check; the maker''s notes on the listing say it went out of stock around July 28, 2023.'
+  availability_note: Tindie listing shows out of stock as of the 2026-09-07 check; the maker's notes on the listing say it went out of stock around July 28, 2023.
   distribution:
   - purchase
   where: Sold on Tindie by seller "technick"; pickup only, in person at DEF CON or BSides Las Vegas (no shipping offered).
@@ -45,15 +45,18 @@ links:
 - label: www.tindie.com/products/technick/king-jack-badge-defcon-30
   url: https://www.tindie.com/products/technick/king-jack-badge-defcon-30/
   kind: store
+  archived: https://web.archive.org/web/20260503115225/https://www.tindie.com/products/technick/king-jack-badge-defcon-30/
 images:
 - file: assets/images/badges/dc30/king-jack-badge/83a204ceb8.jpg
-  source: "https://www.tindie.com/products/technick/king-jack-badge-defcon-30/"
-  credit: "technick (NiCk)"
-  caption: "King Jack Badge, DEF CON 30 3D-printed crown badge"
+  source: https://www.tindie.com/products/technick/king-jack-badge-defcon-30/
+  credit: technick (NiCk)
+  caption: King Jack Badge, DEF CON 30 3D-printed crown badge
+  archived: https://web.archive.org/web/20260503115225/https://www.tindie.com/products/technick/king-jack-badge-defcon-30/
 - file: assets/images/badges/dc30/king-jack-badge/44d24f2285.jpg
-  source: "https://www.tindie.com/products/technick/king-jack-badge-defcon-30/"
-  credit: "technick (NiCk)"
-  caption: "King Jack Badge, DEF CON 30, worn view showing crown and nameplate"
+  source: https://www.tindie.com/products/technick/king-jack-badge-defcon-30/
+  credit: technick (NiCk)
+  caption: King Jack Badge, DEF CON 30, worn view showing crown and nameplate
+  archived: https://web.archive.org/web/20260503115225/https://www.tindie.com/products/technick/king-jack-badge-defcon-30/
 contact: {}
 notes:
 - Order it from Tindie for delivery during DEFCON 30
@@ -69,11 +72,12 @@ sources:
   title: King Jack Badge - Defcon 30
   accessed: '2026-09-07'
   note: Primary listing; confirmed it is a 3D-printed non-electronic badge, price $25 with volume discounts, pickup-only at DEF CON/BSides LV, out of stock, maker's own history of the "Jack" series, and product photos.
+  archived: https://web.archive.org/web/20260503115225/https://www.tindie.com/products/technick/king-jack-badge-defcon-30/
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-07'
-  notes: 'The maker''s own Tindie listing confirms this is a purely physical/3D-printed novelty badge with no electronics (no MCU, LEDs, or display), so those tech fields are set to none/empty rather than unknown. Exact quantity made is not stated anywhere found. No separate Hackaday, GitHub, or press coverage located for this specific item.'
+  notes: The maker's own Tindie listing confirms this is a purely physical/3D-printed novelty badge with no electronics (no MCU, LEDs, or display), so those tech fields are set to none/empty rather than unknown. Exact quantity made is not stated anywhere found. No separate Hackaday, GitHub, or press coverage located for this specific item.
 last_modified_date: '2026-09-07'
 ---
 

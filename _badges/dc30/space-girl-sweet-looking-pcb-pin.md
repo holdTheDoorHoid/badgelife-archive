@@ -39,7 +39,7 @@ get_one:
   price_usd: 9.95
   quantity: ''
   availability: available
-  availability_note: 'Listed in stock (17 units) on adafruit.com/product/5495 as of 2026-09-06.'
+  availability_note: Listed in stock (17 units) on adafruit.com/product/5495 as of 2026-09-06.
   distribution:
   - purchase
   where: Adafruit (adafruit.com/product/5495)
@@ -55,15 +55,16 @@ links:
 - label: Maker Queen (Steph Piper)
   url: https://makerqueen.com.au
   kind: website
+  archived: https://web.archive.org/web/20260511120543/https://www.makerqueen.com.au/
 images:
 - file: assets/images/badges/dc30/space-girl-sweet-looking-pcb-pin/b7a7201578.jpg
-  source: "https://www.adafruit.com/product/5495"
-  credit: "Maker Queen / Adafruit"
-  caption: "Space Girl PCB soldering badge, front view"
+  source: https://www.adafruit.com/product/5495
+  credit: Maker Queen / Adafruit
+  caption: Space Girl PCB soldering badge, front view
 - file: assets/images/badges/dc30/space-girl-sweet-looking-pcb-pin/0bdc2180d3.jpg
-  source: "https://www.adafruit.com/product/5495"
-  credit: "Maker Queen / Adafruit"
-  caption: "Space Girl PCB soldering badge, lit up"
+  source: https://www.adafruit.com/product/5495
+  credit: Maker Queen / Adafruit
+  caption: Space Girl PCB soldering badge, lit up
 contact: {}
 notes:
 - Outstanding art! Even though a pin, it deserves a spot here
@@ -76,7 +77,7 @@ sources:
   updated: '2022-07-09'
 - kind: url
   url: https://www.adafruit.com/product/5495
-  title: "Space Girl Badge Soldering Kit by Maker Queen - PRODUCT ID: 5495 - Adafruit Industries"
+  title: 'Space Girl Badge Soldering Kit by Maker Queen - PRODUCT ID: 5495 - Adafruit Industries'
   accessed: '2026-09-06'
   note: Confirmed price, in-stock quantity, PCB colors, LED/battery/switch details, product images, and that it won a 2019 ROAR! Award.
 - kind: url
@@ -84,11 +85,12 @@ sources:
   title: Maker Queen — Steph Piper
   accessed: '2026-09-06'
   note: Confirmed Steph Piper is the maker behind Maker Queen (no direct mention of the Space Girl badge or DEF CON on the site itself).
+  archived: https://web.archive.org/web/20260511120543/https://www.makerqueen.com.au/
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-06'
-  notes: 'Storefront (Adafruit) fully describes the physical badge, price, and stock. Could not find a maker page, Hackaday.io project, or press coverage tying it specifically to DEF CON 30, nor any hardware/firmware files — treated as closed/unpublished (open_source left null rather than guessed "no"). Could not reach learn.adafruit.com guide page (404) for build-guide detail. It is a passive soldering kit, not an SAO or powered "badge" in the con-badge sense, so type is set to accessory/pin-like wearable rather than badge; look.shape left null since sources describe the art (stained-glass space girl) but not a simple named silhouette.'
+  notes: Storefront (Adafruit) fully describes the physical badge, price, and stock. Could not find a maker page, Hackaday.io project, or press coverage tying it specifically to DEF CON 30, nor any hardware/firmware files — treated as closed/unpublished (open_source left null rather than guessed "no"). Could not reach learn.adafruit.com guide page (404) for build-guide detail. It is a passive soldering kit, not an SAO or powered "badge" in the con-badge sense, so type is set to accessory/pin-like wearable rather than badge; look.shape left null since sources describe the art (stained-glass space girl) but not a simple named silhouette.
 last_modified_date: '2026-09-06'
 ---
 

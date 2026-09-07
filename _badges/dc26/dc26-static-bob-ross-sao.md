@@ -63,10 +63,10 @@ sources:
   note: Confirms bobross.zip (216.61 kB), described only as "Static Bob Ross Add-on", uploaded 03/04/2019 — after the DC26 event itself.
   archived: https://web.archive.org/web/20260907115748/https://hackaday.io/project/159952/files
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-07'
-  notes: The Harbinger project's main description (the maker's "Brrr", Shitty Calvin, Mr Robopoly and Thereminion write-ups) never mentions the Bob Ross piece by name, and no photo of it specifically was found among the project's images — only the design-file listing confirms it exists. No chip, LED, price, or quantity information is published anywhere. "Static" in the title suggests the maker distinguished it from an animated/LED version, but no such companion piece was found. Event/year (DC26, 2018) comes from the parent project's own title and creation date, which match the entry.
+  notes: Fact-check pass (2026-09-07) re-fetched both cited pages and confirmed every remaining claim — bobross.zip (216.61 kB, uploaded 03/04/2019) on the files page; the project's own description text (Harbinger/Shitty Calvin/Mr Robopoly/Thereminion/Galaxia write-ups, "my home city Atlanta" line) never mentions Bob Ross by name; the project's 6-image gallery has no caption tying any photo to this item. No chip, LED, price, or quantity information is published anywhere, so those fields stay empty. "Static" in the title suggests the maker distinguished it from an animated/LED version, but no such companion piece was found. Event/year (DC26, 2018) comes from the parent project's own title and creation date, which match the entry. Confidence stays low since only the file listing and parent project metadata confirm this item exists at all.
 last_modified_date: '2026-09-07'
 ---
 

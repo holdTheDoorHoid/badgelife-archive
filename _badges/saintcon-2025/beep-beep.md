@@ -67,10 +67,10 @@ sources:
   accessed: '2026-09-07'
   note: 'The wiki front page is a JS app that loads its badge data from this JSON file; this record supplied the description, soldering instructions, category, rarity, quantity made, acquisition method, and the front/back image URLs.'
 research:
-  status: researched
+  status: verified
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'All facts trace to the single community-submitted record on minibadge.wiki (maker "Pips" self-reported); no independent maker page, storefront, or repo was found for this badge. Chip/LED specifics, colors, and price are not stated anywhere and are left empty. "Pips" also appears to be the wiki site''s own builder (site footer credits "Pips801"), but the submission record itself lists the badge author as "Pips" separately, so this is treated as the maker''s own self-reported data rather than third-party press.'
+  notes: 'Fact-checked 2026-09-07: fetched https://minibadge.wiki/2025.json directly and confirmed the BEEP BEEP/Pips record verbatim (description, quantity made 0, category Personal, rarity Super Rare, "Trade with me" acquisition, full soldering instructions including the R1/"NO R1" pad and extra-long pin headers). Confirmed the site footer credits "Built by Pips801" (github.com/Pips801/minibadges-site), supporting the note that the wiki''s own developer and the badge''s maker both go by "Pips". Confirmed the saved front/back images (2a5dda4b8a.png, dc2803d9e5.png) match the live minibadge.wiki image files pixel-dimension-for-dimension (883x871 and 832x856). The minibadge.wiki search page itself renders via client-side JS from 2025.json, so a plain fetch shows "no minibadges match" — expected and already noted in sources, not a contradiction. All facts trace to this single community-submitted, self-reported source; no independent maker page, storefront, or repo exists, so confidence stays medium and unstated specs (chip, LEDs, colors, price) remain empty.'
 last_modified_date: '2026-09-07'
 ---
 

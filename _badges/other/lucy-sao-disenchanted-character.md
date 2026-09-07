@@ -73,10 +73,10 @@ sources:
   accessed: '2026-09-07'
   note: 'Confirmed contents: schematic, PCB, CAM files, and a manufacturer/production files folder; PCB shows a 4-pin SAO header (J1) and a single resistor (R1), no MCU or LED footprints visible.'
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-07'
-  notes: 'No maker statement, storefront, or press coverage found beyond the bare GitHub repo (description: "a shitty add on of lucy from disenchanted"). No event, price, quantity, or distribution info exists anywhere found. The two committed images are Altium 3D/2D renders, not photos of an assembled unit, so it is unclear whether the board was ever fabricated or handed out at a con. Repo commits are dated 2023-04-26; no specific convention is named, so event is left as "other" per the research guide (no matching event id could be confirmed). LEDs: the board layout shows no LED footprints, only a 4-pin SAO connector (J1) and a single resistor (R1), consistent with a passive/decorative add-on; tech.leds left null rather than guessed as none-with-confidence.'
+  notes: 'Fact-check pass (2026-09-07): re-fetched the repo, its readme, commit history, and both folder listings directly via the GitHub API. Every populated field and factual sentence in the body is directly supported by the repo itself (description, commit dates, file listing, and the two images), so nothing was blanked or corrected. Confidence stays low because everything traces back to one bare repo with no maker statement, storefront, or press coverage found beyond it (description: "a shitty add on of lucy from disenchanted"). No event, price, quantity, or distribution info exists anywhere found. The two committed images are Altium 3D/2D renders, not photos of an assembled unit, so it is unclear whether the board was ever fabricated or handed out at a con. Repo commits are dated 2023-04-26; no specific convention is named, so event is left as "other" per the research guide (no matching event id could be confirmed). LEDs: the board layout shows no LED footprints, only a 4-pin SAO connector (J1) and a single resistor (R1), consistent with a passive/decorative add-on; tech.leds left null rather than guessed as none-with-confidence.'
 last_modified_date: '2026-09-07'
 ---
 

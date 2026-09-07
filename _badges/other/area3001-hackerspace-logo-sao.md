@@ -81,10 +81,10 @@ sources:
   accessed: '2026-09-07'
   note: README and repo contents confirm two board revisions (AREA3001_S with 2020 LEDs, AREA3001_L with 5050 LEDs), SAO v1.69bis compliance, and source of the two saved photos.
 research:
-  status: researched
+  status: verified
   confidence: medium
   last_checked: '2026-09-07'
-  notes: This is a one-off/small-batch board made by Area 3001 (a hackerspace in Leuven, Belgium) for its own use, not a badge produced for a specific convention, so no events.yml entry matches it and event is left as "other". No price, quantity, or MCU/chip is mentioned anywhere in the project page, repo, or README; the board is passive (LEDs only, driven by the host badge's SAO header) with no onboard microcontroller. Design files (KiCad/Gerber-style folders "AERA3001_L" and "AREA3001_S") are on GitHub but the README does not state a license or EDA tool, so open_source is marked partial rather than yes.
+  notes: Fact-check pass (2026-09-07) re-fetched the Hackaday.io project page, the GitHub repo README, and the linked YouTube video; every non-empty field and factual sentence in the body is supported by these sources. This is a one-off/small-batch board made by Area 3001 (a hackerspace in Leuven, Belgium) for its own use, not a badge produced for a specific convention, so no events.yml entry matches it and event is left as "other". No price, quantity, or MCU/chip is mentioned anywhere in the project page, repo, or README; the board is passive (LEDs only, driven by the host badge's SAO header) with no onboard microcontroller. Design files (KiCad/Gerber-style folders "AERA3001_L" and "AREA3001_S") are on GitHub but the README does not state a license or EDA tool, so open_source is marked partial rather than yes. tech.battery ("powered by host badge") is an inference from the board being a passive SAO with no onboard power source, not an explicit quote from a source.
 last_modified_date: '2026-09-07'
 ---
 

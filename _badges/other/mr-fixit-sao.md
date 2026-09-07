@@ -85,12 +85,17 @@ sources:
   url: https://talk.vanhack.ca/t/pcbs-for-tom-keddie-projects-free/11237
   title: PCB's for Tom Keddie Projects (Free) - VHS Talk - Vancouver Hack Space
   accessed: '2026-09-07'
-  note: Indicates Tom Keddie (Vancouver Hack Space member) has given away PCBs from his personal projects there; no mention of a specific convention tied to Mr Fixit, so event/price/quantity could not be confirmed.
+  note: Confirms Tom Keddie donated stock of his personal-project PCBs to Vancouver Hack Space for members to take for free; does not mention Mr Fixit by name or any convention, so event/price/quantity could not be confirmed from it.
+- kind: url
+  url: https://github.com/TomKeddie/prj-pcb-experiments/commits/master/mr-fixit
+  title: Commit history for mr-fixit at master · TomKeddie/prj-pcb-experiments
+  accessed: '2026-09-07'
+  note: "Verified directly. Commits dated 2019-11-22 (first pass at pcb; v1.0 as submitted, hasl copper outline with red mask internal + multimeter) and 2019-11-26 (v1.1 edge-cut fix) confirm the Nov 2019 date and red-mask/gold-HASL coloring; a 2024-09-16 commit is titled mrfixit: rev1.3 as sent for mfg, directly confirming the rev 1.3 / September 2024 respin. Also fetched mrfixit.sch directly: it contains exactly one LED (D1) wired to the +3.3V net with no MCU/IC of any kind, and connector J1's footprint is literally named PinSocket_2x03_P2.54mm_Vertical_SMD_SAO, confirming the single-LED/no-MCU/SAO-connector/3.3V-powered claims from the schematic itself rather than inference."
 research:
-  status: researched
-  confidence: low
+  status: verified
+  confidence: high
   last_checked: '2026-09-07'
-  notes: This is a personal hobby project in Tom Keddie's general PCB-experiments repo, not tied to any documented convention, storefront, or price/quantity information — extensive web searches (title+maker, maker+SAO, maker+badgelife) turned up nothing beyond the GitHub repo itself and one unrelated Vancouver Hack Space forum post about Keddie giving away PCBs generally. No README or project post describes what event, if any, it was made for, so event is left as "other" rather than guessed. The repo contains mrfixit-v1.0.zip and mrfixit-v1.1.zip (matching the Nov/Dec 2019 build) plus dated KiCad re-exports from September 2024, consistent with the "rev 1.3" respin mentioned in the pre-existing summary, but no changelog text was found to confirm what changed between revisions.
+  notes: "All fields and body sentences were re-verified against primary sources during fact-check. The GitHub commit history for the mr-fixit folder directly confirms both the Nov 2019 v1.0/v1.1 dates and the rev1.3 September 2024 respin (commit message mrfixit: rev1.3 as sent for mfg, 2024-09-16), which the prior pass had only inferred from dated file timestamps. The schematic file (mrfixit.sch) was fetched and inspected directly: it shows one LED wired to +3.3V, no MCU, and a connector footprint literally named ..._SMD_SAO, confirming functions/tech.mcu/tech.leds/tech.battery from the source rather than from photos alone. Both saved images were confirmed present in the repo's images/ folder (IMG_20191210_090121.jpg, dated Dec 10 2019; a silhouette artwork PNG matching the corrected character outline files) and visually match the described colors/shape/lit LED. No convention, storefront, price, or quantity information exists anywhere for this project (repo, commit history, or the one third-party Vancouver Hack Space forum post found), so those get_one fields remain correctly empty and event remains other rather than guessed."
 last_modified_date: '2026-09-07'
 ---
 

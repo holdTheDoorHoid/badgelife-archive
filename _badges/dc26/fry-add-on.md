@@ -69,10 +69,10 @@ sources:
   note: Photo caption identifies the maker as @sqearlsalazar and the piece as a "Fry add-on" made for DEF CON 26 (2018), a Futurama "shut up and take my money" SAO with a 2x2 header and one lit LED. The same maker also made a "Baby Bender" add-on shown in the same gallery. No dedicated project page, storefront, or repo was found for either.
   archived: https://web.archive.org/web/20260519005414/https://hackaday.com/2018/06/21/this-is-the-year-conference-badges-get-their-own-badges/
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-07'
-  notes: Only source found is the Hackaday roundup photo/caption; no maker project page, Hackaday.io profile, Twitter/X post, storefront, or repo could be located, so mcu, price, quantity, and availability are unknown. Shape/colors/LED read from the photo itself. The sheet-derived event (dc26 = DEF CON 26, 2018) matches the article date and is unchanged.
+  notes: 'Fact-checked 2026-09-07: fetched the Hackaday article directly (both live and via the archived snapshot text confirms the same caption) and confirmed the photo caption reads only "@sqearlsalazar''s Fry add-on" -- colors, shape, LED, and header count were not in the caption text but were verified by inspecting the saved photo itself (red/white PCB, Fry-shaped cutout, 2x2/4-pin header, one lit LED in the cash). The article''s companion "Baby Bender add-on" caption for the same maker was also confirmed, and the archive''s separate _badges/dc30/baby-bender-sqearlsalazar.md entry was confirmed to exist, supporting the body''s note that the two are likely distinct items. No maker project page, Hackaday.io profile, storefront, or repo was found, so mcu, price, quantity, and availability remain empty. The sheet-derived event (dc26 = DEF CON 26, 2018) matches the article date.'
 last_modified_date: '2026-09-07'
 ---
 

@@ -60,14 +60,14 @@ sources:
   note: Re-read project page and description. Confirms "Pickle-Rick + Portal BG (in works)" as a planned item on thelogicofpi's pre-DEF CON SAO to-do list, created 2018-07-26. No dedicated sub-page, photo, chip/LED/price details, or completion note exists for this specific item; the project's photos document other SAOs (Leela, Bender, Zoidberg, Tubbs) instead.
   archived: https://web.archive.org/web/20260504115728/https://hackaday.io/project/160014-sao-badgelife-add-ons
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-07'
-  notes: The maker's project page only lists this as one line item on a to-do list ("in works") among several other planned SAOs for DEF CON 26 (2018); it was never given its own writeup, photo, or completion log on the page, so there is no evidence it was ever finished or distributed. The maker's Hackaday.io profile page could not be read (requires login). No independent coverage, storefront listing, or image of this specific SAO was found elsewhere. Left tech/get_one/make_your_own fields empty rather than guess.
+  notes: 'Fact-check pass (2026-09-07) re-fetched the cited Hackaday.io project page directly and confirmed every remaining claim in the entry -- the "Pickle-Rick + Portal BG (in works)" line item, the project''s 2018-07-26 creation date, the absence of any chip/LED/price/photo/completion detail for this item, and that the page''s photos document other SAOs (Leela, Bender, Zoidberg, Tubbs) instead. Removed one sentence from the body that speculated the Pickle-Rick and Portal Gun items shared a "common Portal-themed backing PCB design" -- the page does not say this, it only lists them as adjacent to-do items. Note: a separate, apparently unrelated entry dc26-pickle-rick-sao.md also exists in this folder; not investigated further per one-entry-per-task rule. The maker''s Hackaday.io profile page still could not be read (requires login). Confidence stays low because this is only a to-do-list mention with no confirmation the item was ever built or distributed.'
 last_modified_date: '2026-09-07'
 ---
 
-thelogicofpi listed "Pickle-Rick + Portal BG (in works)" as one of several planned shitty add-ons (SAOs) on their Hackaday.io project page "SAO #Badgelife add-ons," a running to-do list of badges the maker intended to build before DEF CON 26 in August 2018. The entry sat next to a related item, "Portal Gun + Portal BG," suggesting the two shared a common Portal-themed backing PCB design with different character overlays (Rick Sanchez as a pickle from *Rick and Morty*, versus the portal gun itself).
+thelogicofpi listed "Pickle-Rick + Portal BG (in works)" as one of several planned shitty add-ons (SAOs) on their Hackaday.io project page "SAO #Badgelife add-ons," a running to-do list of badges the maker intended to build before DEF CON 26 in August 2018. The entry sat next to a related item, "Portal Gun + Portal BG," on the same to-do list — both referencing the "Portal BG" background, though the page gives no further detail on how (or whether) the two designs were related.
 
 The project page gives no further detail: no chip, LED, price, or quantity information was ever posted for this specific item, and unlike other SAOs documented on the same page (Leela, Bender, Zoidberg, Tubbs), no photo or build log exists for the Pickle-Rick version. It is marked "(in works)" rather than completed, so it is unclear whether it was ever built or handed out.
 

@@ -37,7 +37,7 @@ get_one:
   - free_drop
   where: Given to attendees of DEF CON 15 (Riviera Hotel and Casino, Las Vegas, August 3-5, 2007); roughly 6,800 badges were worn at the event per the designer's own account.
 make_your_own:
-  open_source: partial
+  open_source: yes
   hardware_url: https://media.defcon.org/DEF%20CON%2015/DEF%20CON%2015%20badge/
   firmware_url: https://media.defcon.org/DEF%20CON%2015/DEF%20CON%2015%20badge/Firmware/
   eda_tool: null
@@ -82,10 +82,10 @@ sources:
   accessed: '2026-09-07'
   note: "Confirms Joe Grand's talk 'Making of the DEF CON 15 Badge' at DC15 (Riviera Hotel and Casino, August 3-5, 2007) with the ode PDF as a presentation extra."
 research:
-  status: researched
+  status: verified
   confidence: high
   last_checked: '2026-09-07'
-  notes: 'Core facts (MCU, LED count/matrix, battery, UI, distribution as a free con badge, designer) confirmed directly from Joe Grand''s own PDF documentation and the official BOM hosted on media.defcon.org. Could not find price/quantity-made figures beyond the ~6,800-worn estimate in Grand''s own account (likely close to total attendance, not a separate production run figure). Could not find a photo of the assembled badge this session: media.defcon.org hosts only PDFs (BOM, schematic, PCB layout, assembly drawing, ode) under this badge folder, no product photo; Grand Idea Studio''s current portfolio site no longer has a dedicated DEF CON badges page (redirects/404), and a Wikimedia Commons search turned up nothing. look.shape and look.colors left conservative/empty since no photo was found to verify soldermask color or exact silhouette (the ode text mentions six text cutouts and soldermask colors, implying a colored board, but the specific color(s) were not confirmed).'
+  notes: 'Fact-check pass (2026-09-07): re-fetched all three cited sources (ode PDF, BOM PDF, DC archive page) and confirmed every non-empty field and every factual sentence in the body against them - MCU (MC9S08QG8 / MC9S08QG8CFFE), 95x red 0603 LEDs (Avago HSMH-C192) in a 5x19 matrix, 2x CR2032, QT100 capacitive-touch UI with 16-character custom message and POV mode, unpopulated MMA7260QT accelerometer and MC13191FC transceiver footprints, ~6,800 badges worn, DC15 dates/venue, and the "Making of the DEF CON 15 Badge" talk. One correction made: make_your_own.open_source was "partial" but the ode PDF states plainly that "Complete source code and schematics are on the DEFCON CD and also available at" Grand Idea Studio''s site - both hardware and firmware were released, so per the guide this is "yes", not "partial"; corrected. No images were present to check. Could not find price/quantity-made figures beyond the ~6,800-worn estimate (likely attendance-driven, not a separate production figure) or a photo of the assembled badge (media.defcon.org hosts only PDFs here; Grand Idea Studio''s current site no longer has a dedicated DC badges page); look.shape and look.colors correctly left empty for that reason.'
 last_modified_date: '2026-09-07'
 ---
 

@@ -12,7 +12,7 @@ makers:
 - name: TechGirl's House of Blinky
   url: https://www.tindie.com/stores/techgirlmn/
 summary: An unofficial DEF CON 30 badge for the Lonely Hackers Club (an online DC-group community), made of three independent letter mini-badges spelling L-H-C.
-functions: 'L plays a "popular block game" (Tetris-style); H shows a randomized LED light display; C transmits IR codes to turn IR-equipped devices on or off.'
+functions: L plays a "popular block game" (Tetris-style); H shows a randomized LED light display; C transmits IR codes to turn IR-equipped devices on or off.
 look:
   colors: []
   shape: text
@@ -33,7 +33,7 @@ get_one:
   price_usd: 50.0
   quantity: ''
   availability: unknown
-  availability_note: 'Tindie listing (checked 2026-09-06) said it would restock "after DC30" (2022); no evidence it was ever relisted.'
+  availability_note: Tindie listing (checked 2026-09-06) said it would restock "after DC30" (2022); no evidence it was ever relisted.
   distribution:
   - purchase
   where: Sold online via the maker's Tindie store (techgirlmn)
@@ -46,14 +46,17 @@ links:
 - label: www.tindie.com/products/techgirlmn/lhc-triple-threat
   url: https://www.tindie.com/products/techgirlmn/lhc-triple-threat/
   kind: store
+  archived: https://web.archive.org/web/20260503104853/https://www.tindie.com/products/techgirlmn/lhc-triple-threat/
 - label: www.tindie.com/stores/techgirlmn
   url: https://www.tindie.com/stores/techgirlmn/
   kind: store
+  archived: https://web.archive.org/web/20260503095213/https://www.tindie.com/stores/techgirlmn/
 images:
 - file: assets/images/badges/dc30/l0nely-hackers-triple-threat/c23d306014.png
-  source: "https://www.tindie.com/products/techgirlmn/lhc-triple-threat/"
-  credit: "TechGirl's House of Blinky"
-  caption: "LHC Triple Threat product photo showing the L, H, C mini-badge pieces"
+  source: https://www.tindie.com/products/techgirlmn/lhc-triple-threat/
+  credit: TechGirl's House of Blinky
+  caption: LHC Triple Threat product photo showing the L, H, C mini-badge pieces
+  archived: https://web.archive.org/web/20260503104853/https://www.tindie.com/products/techgirlmn/lhc-triple-threat/
 contact: {}
 notes:
 - https://www.tindie.com/stores/techgirlmn/
@@ -68,11 +71,12 @@ sources:
   title: LHC triple Threat from TechGirl's House of Blinky on Tindie
   accessed: '2026-09-06'
   note: Primary source for description, price, battery requirements, function of each letter, and product image.
+  archived: https://web.archive.org/web/20260503104853/https://www.tindie.com/products/techgirlmn/lhc-triple-threat/
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-06'
-  notes: 'The Tindie listing (maker''s own words) is the only source found; no Hackaday, GitHub, or press coverage located. MCU, LED count/type, display, exact quantity made, and hardware/firmware source status are not stated anywhere and were left empty rather than guessed. "L0nely" in the archive title/id reflects the sheet''s stylization; the maker''s own listing spells it "lonely."'
+  notes: The Tindie listing (maker's own words) is the only source found; no Hackaday, GitHub, or press coverage located. MCU, LED count/type, display, exact quantity made, and hardware/firmware source status are not stated anywhere and were left empty rather than guessed. "L0nely" in the archive title/id reflects the sheet's stylization; the maker's own listing spells it "lonely."
 last_modified_date: '2026-09-06'
 ---
 

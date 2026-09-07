@@ -80,10 +80,10 @@ sources:
   accessed: '2026-09-07'
   note: Confirmed repo contains separate duckjaws and duckbath KiCad projects, MIT license (firmware) plus CERN-OHL-P (hardware), and default I2C address 0x6C with jumper-selectable alternates.
 research:
-  status: researched
+  status: verified
   confidence: high
   last_checked: '2026-09-07'
-  notes: duckBATH is one of two PCB shapes in the duckGLOW project (the other being the shark-themed duckJAWS); both share the same CH32V003 firmware and I2C/WS2812 control scheme. Could not confirm a price, quantity made, or availability specific to duckBATH — the Tindie storefront found for the project sells the duckJAWS variant under that brand name, and it is unclear whether duckBATH was sold separately, given away at Supercon, or remains DIY-only (build-your-own from the open KiCad files). Left get_one fields empty rather than guess.
+  notes: 'Fact-check pass (2026-09-07): re-fetched both cited pages (hackaday.io project page, astuder/duckglow GitHub repo/README) and confirmed every non-empty field and body sentence — maker team, CH32V003, I2C default address 0x6C with jumper-selectable 0x6D-0x6F, WS2812 mode on GPIO2, 3.3V boost converter, Supercon 8 SAO Contest 2024, MIT (firmware) + CERN-OHL-P (hardware) licenses, KiCad files, per-channel brightness/fade/phase registers and power-on-default save register, Supercon-badge/Arduino example code, and the duckJAWS Tindie note. Both saved images verified to exist on disk and to correspond to maker-published files in the repo''s pictures/ folder specifically labeled for this variant (duckbath.jpg, duckbath-render.png), not the sibling duckJAWS shape. duckBATH is one of two PCB shapes in the duckGLOW project (the other being the shark-themed duckJAWS); both share the same CH32V003 firmware and I2C/WS2812 control scheme. Could not confirm a price, quantity made, or availability specific to duckBATH — the Tindie storefront found for the project sells the duckJAWS variant under that brand name, and it is unclear whether duckBATH was sold separately, given away at Supercon, or remains DIY-only (build-your-own from the open KiCad files). Left get_one fields empty rather than guess.'
 last_modified_date: '2026-09-07'
 ---
 

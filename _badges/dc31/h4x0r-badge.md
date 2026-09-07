@@ -63,18 +63,24 @@ sources:
   accessed: '2026-09-07'
   note: 'File listing shows only KiCad PCB/schematic files, SVG vector art, and gerbers for two board variants (H4X0R, H4X0R-small) plus a card-outline board; no README, no photos, no BOM.'
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-07'
   notes: >-
-    Only source found is the maker's own GitHub repo. The repo's description explicitly calls
-    this a "Non-Electronic Add-On" for the DEF CON 31 badge, and the KiCad files contain no
-    header/connector footprints, consistent with a passive decorative PCB rather than an SAO
-    or powered badge. No press coverage, storefront listing, social post, or photo of a finished
-    unit could be found, so price, quantity, distribution method, colors, and exact shape are
-    left blank rather than guessed. The repo includes two size variants (H4X0R and H4X0R-small)
-    and a separate "DC31BADGE-CARD-OUTLINE" board whose relationship to H4X0R (e.g. a matching
-    holder/frame) is not documented anywhere found.
+    Fact-check pass (2026-09-07): re-fetched all three cited sources directly. repos/NilbinSec/DC31H4X0R-Badge
+    confirms description "Upload of Non-Electronic Add-On For the Defcon31 Conference Badge" and
+    created_at 2023-05-31T00:26:13Z. The root file listing (via GitHub API) confirms only KiCad
+    project/PCB/library files, SVG artwork, and a gerbers folder for H4X0R, H4X0R-small, and a
+    separate DC31BADGE-CARD-OUTLINE board; no README, BOM, or photo file is present. Downloaded
+    H4X0R.kicad_pcb directly and confirmed zero `(footprint ...)` entries — the only placed
+    elements are graphic lines, and the referenced H4X0R.pretty library holds only per-layer
+    artwork modules, not header/connector footprints — supporting tech.mcu/sao_version: none and
+    type: accessory. gerbers/ was confirmed to contain gerber sets for all three boards. Only
+    source found remains the maker's own GitHub repo; no press coverage, storefront listing,
+    social post, or photo of a finished unit turned up, so price, quantity, distribution method,
+    colors, and exact shape stay blank. Confidence stays low for that reason even though every
+    remaining field is now independently verified against source content, not just the entry's
+    own citations.
 last_modified_date: '2026-09-07'
 ---
 

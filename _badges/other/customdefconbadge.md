@@ -66,18 +66,20 @@ sources:
   accessed: '2026-09-07'
   note: Maker's personal blog; no post mentions this project or a DEF CON badge.
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-07'
-  notes: Could not confirm this is an actual physical badge, and if so which chip,
-    display, DEF CON year, or how (or whether) it was distributed. The repository
-    contains only a GB Studio (Game Boy game maker) project file named "Badge" with
-    no README or description; it may be firmware/a game intended for a custom
-    Game-Boy-shaped badge, but nothing on GitHub, the maker's blog, or web search
-    confirms this or names an event/year. Left type as "badge" and open_source as
-    "partial" (game source present, no hardware files) since the repo name and file
-    are the only evidence available; all hardware fields left empty rather than
-    guessed. Event kept as "other" since no specific con/year could be verified.
+  notes: Fact-check pass (2026-09-07) confirmed every cited source directly. GitHub
+    API on the repo (repos/FoxMoss/CustomDefconBadge) shows description=null,
+    topics=[]; the commits endpoint shows a single "init" commit (2025-08-07) by
+    FoxMoss; the contents endpoint shows only Badge.gbsproj plus empty assets/,
+    build/, and plugins/ folders. foxmoss.com/blog and github.com/FoxMoss were
+    refetched and contain no mention of a DEF CON badge or this repo. No images
+    exist for this entry and none are cited. Could not confirm this is an actual
+    physical badge, and if so which chip, display, DEF CON year, or how (or
+    whether) it was distributed — nothing beyond the repo name and file supports
+    that. All hardware fields correctly left empty rather than guessed. Event kept
+    as "other" since no specific con/year could be verified.
 last_modified_date: '2026-09-07'
 ---
 

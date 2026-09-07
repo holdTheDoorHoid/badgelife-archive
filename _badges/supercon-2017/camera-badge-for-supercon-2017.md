@@ -44,7 +44,7 @@ get_one:
   - free_drop
   where: Given to all 2017 Supercon attendees; extras were later sold on Tindie (hackadaystore) but that listing is now unavailable.
 make_your_own:
-  open_source: partial
+  open_source: yes
   hardware_url: null
   firmware_url: null
   eda_tool: null
@@ -84,10 +84,10 @@ sources:
   accessed: '2026-09-07'
   note: 'Tindie listing: $99 price, currently unavailable ("seller is taking a break"), package included one assembled badge plus a 2GB microSD card with firmware; lists SRAM, LED flash, six buttons, and prototyping headers not mentioned on the Hackaday.io page.'
 research:
-  status: researched
+  status: verified
   confidence: high
   last_checked: '2026-09-07'
-  notes: 'Hackaday.io project page describes the OLED as "128x128 monochrome"; the Tindie listing describes it as "128x128 color". Kept as color per the maker''s own storefront listing but flagging the discrepancy here. Design files (firmware, bootloader, schematics PDF, DXF board layout) are referenced as present in the Hackaday.io project''s Files section but were not individually verified or linked (Hackaday.io does not expose a simple direct URL to that section), so make_your_own is marked partial with no hardware_url/firmware_url filled in. tech.leds not itemized by sources beyond "illuminator LED" / "LED flash" for the camera, so left null. Quantity made not stated by sources.'
+  notes: 'Verified against the Hackaday.io project page and the Tindie storefront directly. The Hackaday.io page itself only says "128x128 OLED display" without color/monochrome and mentions monochrome only as a video-capture mode, not the panel; the Tindie listing explicitly calls it a "128x128 color OLED display", and the badge photo saved from the project page shows a color (blue/purple) image on the screen, so color is corroborated rather than just asserted by one source. Confirmed on Hackaday.io: firmware (MPLABX projects, incl. a puzzle build and the bootloader) and hardware files (PDF schematic, Gerbers, DXF board outline) are both present in the project''s Files section, so make_your_own.open_source is set to yes; no direct per-file URL was found (Hackaday.io does not expose a simple link to that section) so hardware_url/firmware_url stay empty, and no license is stated anywhere on the page. "Everyone who goes to Supercon this year will get one of these badges" and "a limited number of the extra badges are available on Tindie" are both direct statements on the Hackaday.io page, confirming the free-to-attendees plus limited paid-extras distribution. 10+ hour battery life is from the maker''s own comment on the project page. tech.leds not itemized by sources beyond "illuminator LED" / "LED flash" for the camera, so left null. Quantity made not stated by sources.'
 last_modified_date: '2026-09-07'
 ---
 

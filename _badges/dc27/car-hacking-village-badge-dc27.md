@@ -25,7 +25,7 @@ tech:
     count: null
     type: RGB
     note: RGB LEDs mounted on PCB strips standing perpendicular to the main board.
-  display: 0.96" OLED
+  display: OLED
   connectivity:
   - bluetooth
   battery: null
@@ -35,15 +35,17 @@ get_one:
   price_usd: 95
   quantity: '350'
   availability: sold_out
+  availability_note: 'Checked 2026-09-07: one-time DEF CON 27 (2019) village sale, no ongoing storefront found.'
   distribution:
   - purchase
   - village
   where: Sold at the DEF CON 27 Car Hacking Village for $95 (a separate $30 "Traffic Light Badge" was also sold); hand-assembled in an approximately 4-hour build per unit to hit the con deadline.
 make_your_own:
-  open_source: partial
+  open_source: 'no'
   hardware_url: null
   firmware_url: https://github.com/lanrat/CHVBadge_19
   eda_tool: null
+  license: 'Proprietary (Specialized Solutions LLC License Agreement, found in the SUV SDK Rev 1 folder): non-commercial/educational use only, no redistribution or sublicensing, no reverse engineering.'
 links:
 - label: hackaday.com/wp-content/uploads/2019/08/Car-Hacking-Village-Badge-DC27.jpg
   url: https://hackaday.com/wp-content/uploads/2019/08/Car-Hacking-Village-Badge-DC27.jpg
@@ -95,14 +97,14 @@ sources:
   accessed: '2026-09-07'
   note: 'Confirms pricing: $95 for the Car Badge, $30 for a separate Traffic Light Badge, sold at the village.'
 research:
-  status: researched
+  status: verified
   confidence: medium
   last_checked: '2026-09-07'
-  notes: This entry covers the SUV-shaped "Car Badge" ($95); a separate $30 "Traffic Light Badge" was sold alongside it at the same village and is not the same item. The GitHub org ttepatti/Car-Hacking-Village-Badges lists lanrat/CHVBadge_19 as the SDK source for this year, with three sub-projects (Gauge, SUV, Stoplight SDKs), suggesting the badge may have shipped in more than one form factor/role; could not confirm from primary sources whether firmware for the SUV variant specifically is included versus just the SDK scaffolding, so open_source is marked partial. Exact NXP part number, LED count, and battery type were not stated in any source read and are left empty rather than guessed.
+  notes: 'Fact-check pass (2026-09-07): re-read the Hackaday article, the lanrat/CHVBadge_19 repo, and the carhackingvillage.com event page cited as sources. Two corrections made. (1) tech.display was "0.96\" OLED" but no source states a display size — the Hackaday article only says "OLED screen"; blanked to generic "OLED" (matching text also fixed in the body). (2) make_your_own.open_source was "partial"; opening the repo''s "CHV DC27 SUV SDK Rev 1" folder shows it contains both Hardware and Software subfolders plus a "Specialized Solutions LLC License Agreement.txt" that grants only a non-exclusive, non-commercial/educational-use license and explicitly forbids redistribution, sublicensing, and reverse engineering — that is a closed license despite the files being visible on GitHub, so open_source is corrected to "no" and the license text is now recorded in make_your_own.license. All other populated fields (summary, functions, tech.mcu, tech.leds, tech.connectivity, get_one pricing/quantity/distribution, and the body paragraphs) were checked against the same three sources and are supported, including the "craziest badge at DEF CON 27" characterization. Exact NXP part number, LED count, and battery type are still not stated in any source read and remain empty rather than guessed. hardware_url is left null since no source gives a direct link specifically to the hardware files (they sit inside the same firmware_url repo, mixed with the restrictively-licensed materials above).'
 last_modified_date: '2026-09-07'
 ---
 
-The DEF CON 27 Car Hacking Village badge, sometimes called the "Car Badge," departed from the usual wearable PCB format: it's a small SUV-shaped vehicle you could drive around by Bluetooth. A laser-cut and laser-etched acrylic shell — chosen over injection molding because only 350 were made — houses a DC motor turning the rear wheels through a worm gear, and a small hobby servo steering the front wheels via an acrylic lever. An NXP processor on the main PCB handles control, paired with a separate battery-management board, RGB LEDs mounted on PCB strips standing perpendicular to the body, a 0.96" OLED "windshield," and a spare tire on the back that doubles as a rotary-encoder input with a button.
+The DEF CON 27 Car Hacking Village badge, sometimes called the "Car Badge," departed from the usual wearable PCB format: it's a small SUV-shaped vehicle you could drive around by Bluetooth. A laser-cut and laser-etched acrylic shell — chosen over injection molding because only 350 were made — houses a DC motor turning the rear wheels through a worm gear, and a small hobby servo steering the front wheels via an acrylic lever. An NXP processor on the main PCB handles control, paired with a separate battery-management board, RGB LEDs mounted on PCB strips standing perpendicular to the body, an OLED "windshield," and a spare tire on the back that doubles as a rotary-encoder input with a button.
 
 The Car Hacking Village sold it at DEF CON 27 for $95, alongside a separate, cheaper $30 "Traffic Light Badge." Each Car Badge reportedly took about four hours to hand-assemble, a real crunch to have 350 of them ready for the con. Hackaday's "Badgies" roundup singled it out as the craziest badge of the year.
 

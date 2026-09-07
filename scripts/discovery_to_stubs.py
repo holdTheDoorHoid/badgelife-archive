@@ -93,6 +93,15 @@ def load_entry(path):
     m = re.match(r"^---\n(.*?)\n---\n?(.*)$", text, re.S)
     return yaml.safe_load(m.group(1)) or {}
 
+TYPE_VOCAB = ("minibadge", "sao", "badge", "kit", "accessory", "other", "unknown")
+def coerce_type(v):
+    """Agents write free text like 'sao/kit' or 'badge (SAO-compatible)'; keep the first vocabulary word found."""
+    s = norm(v).lower()
+    if s in TYPE_VOCAB: return s
+    for w in TYPE_VOCAB:
+        if w in s: return w
+    return "other" if s else "unknown"
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("discovery_json"); ap.add_argument("--name", required=True); ap.add_argument("--date", required=True)
@@ -153,7 +162,7 @@ def main():
                 if any(x in h for x in ("reddit", "forum.defcon", "twitter", "x.com", "bsky", "mastodon")): return "social"
                 return "website"
             stubs.append(OrderedDict([
-                ("id", eid), ("title", title), ("type", c.get("type") or "unknown"), ("event", ev), ("event_name", events[ev]["name"]),
+                ("id", eid), ("title", title), ("type", coerce_type(c.get("type"))), ("event", ev), ("event_name", events[ev]["name"]),
                 ("year", c.get("year") or events[ev].get("year")),
                 ("makers", [OrderedDict([("name", c["maker"].strip())])] if c.get("maker") else []),
                 ("summary", ""), ("functions", ""), ("notes", [c["note"]] if c.get("note") else []), ("how_to_get", ""), ("price", ""), ("price_usd", None),

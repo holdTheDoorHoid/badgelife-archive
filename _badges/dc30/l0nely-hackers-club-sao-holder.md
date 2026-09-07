@@ -49,9 +49,9 @@ links:
   kind: store
 images:
 - file: assets/images/badges/dc30/l0nely-hackers-club-sao-holder/e0a7ab6999.jpg
-  source: "https://www.tindie.com/products/h4r0ld/lonely-hackers-club-badge-sao-holder/"
-  credit: "H4r0ld & V3rbaal's House of Hacker Horrors"
-  caption: "L0nely Hackers Club SAO Holder badge, front view"
+  source: https://www.tindie.com/products/h4r0ld/lonely-hackers-club-badge-sao-holder/
+  credit: H4r0ld & V3rbaal's House of Hacker Horrors
+  caption: L0nely Hackers Club SAO Holder badge, front view
 contact: {}
 notes:
 - H4r0ld & V3rbaal's House of Hacker Horrors
@@ -63,7 +63,7 @@ sources:
   updated: '2022-07-07'
 - kind: url
   url: https://www.tindie.com/products/h4r0ld/lonely-hackers-club-badge-sao-holder/
-  title: "Lonely Hackers Club Badge & SAO Holder - Tindie"
+  title: Lonely Hackers Club Badge & SAO Holder - Tindie
   accessed: '2026-09-06'
   note: Primary source for description, price, LED/battery/connector specs, maker credit, and product photo.
 - kind: url
@@ -71,18 +71,12 @@ sources:
   title: Lonely Hackers Club
   accessed: '2026-09-06'
   note: Confirms LHC produces a custom hardware badge each year; no historical detail on the DC30 badge specifically.
+  archived: https://web.archive.org/web/20260411115539/https://lonelyhackers.club/
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-06'
-  notes: >-
-    Tindie listing (archived-style product page, still reachable) is the only detailed source found;
-    the Tindie store is currently "taking a break" and not accepting orders, so live availability is
-    unknown even though the listing itself is still up. Quantity made, PCB color/shape, and any
-    design files were not stated anywhere found. A single Tindie product photo was saved; no
-    additional maker photos, Hackaday.io project, or GitHub repo were located. Web search was
-    unavailable for this task (session search budget exhausted) so coverage beyond the Tindie
-    listing and the LHC homepage is limited.
+  notes: Tindie listing (archived-style product page, still reachable) is the only detailed source found; the Tindie store is currently "taking a break" and not accepting orders, so live availability is unknown even though the listing itself is still up. Quantity made, PCB color/shape, and any design files were not stated anywhere found. A single Tindie product photo was saved; no additional maker photos, Hackaday.io project, or GitHub repo were located. Web search was unavailable for this task (session search budget exhausted) so coverage beyond the Tindie listing and the LHC homepage is limited.
 last_modified_date: '2026-09-06'
 ---
 

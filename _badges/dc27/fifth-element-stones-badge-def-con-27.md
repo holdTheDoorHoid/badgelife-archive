@@ -26,7 +26,7 @@ tech:
   display: null
   connectivity: []
   battery: 2x AA
-  sao_version: v1
+  sao_version: null
 get_one:
   price: $100 assembled / $60 kit
   price_usd: 100
@@ -96,10 +96,10 @@ sources:
   accessed: '2026-09-07'
   note: Confirms this is the design-files repo for the DEF CON 27 badges (including the Fifth Element badge) and that kit assembly instructions are included; page excerpt did not surface further README detail.
 research:
-  status: researched
+  status: verified
   confidence: high
   last_checked: '2026-09-07'
-  notes: LED count/type and exact quantities of stone circuit boards (11 per stone) were not independently confirmed with a spec sheet; the badge platform itself is largely passive (an ATtiny84 base with resistive-divider stone detection), and no display or wireless connectivity is present. Storefront (Tindie) shows the badge as an "out of stock" leftover of the original 200-unit run rather than a separate release.
+  notes: Verification pass confirmed every non-empty field and body sentence against the Tindie listing, the mkfactor.com presale post, the compukidmike/dc27 GitHub repo, and the Hackaday DEF CON 27 roundup. tech.sao_version (previously "v1") was blanked to null since no source states the SAO header revision. LED count/type were not independently confirmed with a spec sheet, and the badge platform itself is largely passive (an ATtiny84 base with resistive-divider stone detection); no display or wireless connectivity is present. Storefront (Tindie) shows the badge as an "out of stock" leftover of the original 200-unit run rather than a separate release.
 last_modified_date: '2026-09-07'
 ---
 

@@ -75,15 +75,18 @@ links:
 - label: hackerboxes.com
   url: https://hackerboxes.com
   kind: store
+  archived: https://web.archive.org/web/20260523221904/https://hackerboxes.com/
 - label: 'HackerBox #0080 - Entropy (product page)'
   url: https://hackerboxes.com/products/hackerbox-0080-entropy
   kind: store
 - label: DC30 Badge Bundle
   url: https://hackerboxes.com/products/dc30-badge-bundle
   kind: store
+  archived: https://web.archive.org/web/20251018140050/https://hackerboxes.com/products/dc30-badge-bundle
 - label: 'HackerBox 0080: Entropy build guide (Instructables)'
   url: https://www.instructables.com/HackerBox-0080-Entropy/
   kind: doc
+  archived: https://web.archive.org/web/20250919023529/https://www.instructables.com/HackerBox-0080-Entropy/
 - label: FirewallDragon/amulet-of-entropy (firmware and docs)
   url: https://github.com/FirewallDragon/amulet-of-entropy
   kind: repo
@@ -105,9 +108,11 @@ links:
 - label: firewallsdontstopdragons.com
   url: https://firewallsdontstopdragons.com/
   kind: website
+  archived: https://web.archive.org/web/20260903150526/https://firewallsdontstopdragons.com/
 - label: podcast.firewallsdontstopdragons.com
   url: https://podcast.firewallsdontstopdragons.com/
   kind: website
+  archived: https://web.archive.org/web/20260413175920/https://podcast.firewallsdontstopdragons.com/
 images:
 - file: assets/images/badges/dc30/amulet-of-entropy/7a3bd84c77.jpg
   source: https://firewallsdontstopdragons.com/amulet-of-entropy/
@@ -117,10 +122,12 @@ images:
   source: https://www.instructables.com/HackerBox-0080-Entropy/
   credit: HackerBoxes
   caption: Assembled Amulet of Entropy on its lanyard with the round display and all eight LEDs lit
+  archived: https://web.archive.org/web/20250919023529/https://www.instructables.com/HackerBox-0080-Entropy/
 - file: assets/images/badges/dc30/amulet-of-entropy/1d4ac32124.jpg
   source: https://www.instructables.com/HackerBox-0080-Entropy/
   credit: HackerBoxes
   caption: 'Kit contents: the front Display Board with the four gold dragons, the rear Main Board, RP2040-Zero, GC9A01 round LCD, GY-521, MH-CD42, eight SK6812MINI-E LEDs and passives'
+  archived: https://web.archive.org/web/20250919023529/https://www.instructables.com/HackerBox-0080-Entropy/
 contact: {}
 notes:
 - They are $45 if you have the sub but $79 if alone/also there is a badge box available
@@ -142,11 +149,13 @@ sources:
   title: DC30 Badge Bundle - HackerBoxes
   accessed: '2026-09-06'
   note: $217 bundle of HackerBox
+  archived: https://web.archive.org/web/20251018140050/https://hackerboxes.com/products/dc30-badge-bundle
 - kind: url
   url: https://www.instructables.com/HackerBox-0080-Entropy/
   title: 'HackerBox 0080: Entropy : 13 Steps - Instructables'
   accessed: '2026-09-06'
   note: HackerBoxes build guide published 2022-07-04; full parts list, the four entropy sources and pins, two-board construction, LCD, battery notes, PCBWay sponsorship, schematic PDFs attached to step 3, and test sketches; source of two photos.
+  archived: https://web.archive.org/web/20250919023529/https://www.instructables.com/HackerBox-0080-Entropy/
 - kind: url
   url: https://github.com/FirewallDragon/amulet-of-entropy
   title: 'GitHub - FirewallDragon/amulet-of-entropy: Software for the HackerBoxes #0080 project - a DEF CON indie badge'

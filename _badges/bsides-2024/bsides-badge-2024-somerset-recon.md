@@ -76,10 +76,10 @@ sources:
   accessed: '2026-09-07'
   note: 'Confirmed maker, event (BSides San Diego 2024), 400 units distributed, ESP32-C3, BLE rock-paper-scissors gameplay, WOPR/UART CTF challenges, red attack-mode LED, KiCad hardware + Arduino firmware open source, flashing instructions.'
 research:
-  status: researched
+  status: verified
   confidence: high
   last_checked: '2026-09-07'
-  notes: 'No event id exists in events.yml for "BSides San Diego 2024" specifically (only the generic "bsides-2024"), so event was left as bsides-2024; the README confirms this badge was made for BSides San Diego 2024. Display hardware, exact LED part/type, SAO header version, battery, and price/cost were not stated in any source found and are left empty. Could not find a maker storefront, Hackaday page, or press coverage beyond the GitHub repo; web search budget for this session was exhausted before additional coverage could be checked.'
+  notes: 'Fact-check pass (2026-09-07): re-fetched the GitHub repo page and raw README and confirmed every populated field and every factual sentence in the body/Make-your-own section against them (event, maker, 400-unit free distribution, ESP32-C3, BLE rock-paper-scissors mechanic, red attack-mode LED, UART/SAO WOPR CTF with Global Thermonuclear War and Tic-Tac-Toe, open-source KiCad hardware + Arduino firmware, flashing steps, and the later-firmware glitch name display). Both saved images exist on disk and the repo page confirms it hosts front/back badge photos. No event id exists in events.yml for "BSides San Diego 2024" specifically (only the generic "bsides-2024"), so event was left as bsides-2024. Display hardware, exact LED part/type, SAO header version, battery, and price/cost remain unstated in any source found and are correctly left empty.'
 last_modified_date: '2026-09-07'
 ---
 

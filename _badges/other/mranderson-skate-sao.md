@@ -36,7 +36,7 @@ make_your_own:
   open_source: partial
   hardware_url: https://github.com/davedarko/Simple-Add-ons-SAO/tree/main/MrAnderson
   firmware_url: null
-  eda_tool: Eagle
+  eda_tool: KiCad
 links:
 - label: github.com/davedarko/Simple-Add-ons-SAO/tree/main
   url: https://github.com/davedarko/Simple-Add-ons-SAO/tree/main
@@ -68,18 +68,23 @@ sources:
   title: 2411_Skate.md (raw)
   accessed: '2026-09-07'
   note: 'Confirms description: proof of concept for using fingerboard trucks on PCBs, with an inspirational quote by Andy Anderson; idea stated as "Fingerboards have trucks, why not use them on a PCB instead."'
+- kind: url
+  url: https://api.github.com/repos/davedarko/Simple-Add-ons-SAO/contents/MrAnderson/MrAnderson
+  title: GitHub API directory listing for MrAnderson/MrAnderson
+  accessed: '2026-09-07'
+  note: 'Fact-check: confirms the design files are MrAnderson.kicad_sch, MrAnderson.kicad_pcb, MrAnderson.kicad_pro (KiCad only) — no Eagle files present, correcting eda_tool from Eagle to KiCad.'
 research:
   status: researched
   confidence: low
   last_checked: '2026-09-07'
-  notes: The maker's own repo confirms this is a proof-of-concept SAO (fingerboard trucks mounted on a PCB, Andy Anderson quote) with Eagle/KiCad design files but no README describing pricing, quantity, distribution, or a specific event/con it was made for. The "2411" folder-name prefix suggests November 2024, but no event is named anywhere in the sources, so event is left as "other." No chip, LEDs, or display are mentioned — this appears to be a passive/decorative board rather than an electronic one. No web search results beyond the maker's own repo turned up additional coverage.
+  notes: 'Fact-check pass (2026-09-07): confirmed via GitHub API directory listing that the MrAnderson subfolder contains only KiCad files (.kicad_sch, .kicad_pcb, .kicad_pro) — no Eagle files were found, so eda_tool was corrected from "Eagle" to "KiCad". (The maker''s 2411_Skate.md does say "Github with Eagle/KiCad files," but that line is a boilerplate link reused verbatim across other project folders in the same repo that do use Eagle, so it is not reliable evidence for this specific item; the actual file extensions are.) Removed "professional" as an unsupported descriptor for Andy Anderson — no cited source states his profession. Verified the saved image (4d9d7dfc93.jpg) matches the repo''s AndyAndersonBoard.jpg (same 1031x1200 dimensions and embedded eBay/ImageMagick processing comment; the maker appears to have sourced/re-saved the photo from an eBay listing). All other confirmed facts (proof-of-concept SAO, fingerboard trucks on PCB, Andy Anderson quote, no electronics, no pricing/quantity/distribution/event) still stand from the maker''s own repo. No pricing, quantity, distribution, or specific event was ever published, so those fields stay empty and status remains "researched" rather than "verified".'
 last_modified_date: '2026-09-07'
 ---
 
-MrAnderson is a proof-of-concept SAO (add-on board) by hardware maker davedarko, part of their ongoing Simple Add-ons repository of small PCB designs. Rather than functioning as an electronic gadget, it explores mounting real fingerboard trucks directly onto the PCB, paired with an inspirational quote from professional skateboarder Andy Anderson. The maker's own note frames the idea plainly: "Fingerboards have trucks, why not use them on a PCB instead."
+MrAnderson is a proof-of-concept SAO (add-on board) by hardware maker davedarko, part of their ongoing Simple Add-ons repository of small PCB designs. Rather than functioning as an electronic gadget, it explores mounting real fingerboard trucks directly onto the PCB, paired with an inspirational quote from skateboarder Andy Anderson. The maker's own note frames the idea plainly: "Fingerboards have trucks, why not use them on a PCB instead."
 
-The design files, in both Eagle and KiCad formats, are published in davedarko's Simple-Add-ons-SAO GitHub repository alongside a fingerboard-truck footprint library. No pricing, quantity, or distribution details were published, and no specific convention or year is named for the piece; the project folder is dated with a "2411" prefix (suggesting November 2024), but this could not be confirmed against any named event.
+The design files, in KiCad format (schematic, PCB, and a fingerboard-truck footprint library), are published in davedarko's Simple-Add-ons-SAO GitHub repository. No pricing, quantity, or distribution details were published, and no specific convention or year is named for the piece; the project folder is dated with a "2411" prefix (suggesting November 2024), but this could not be confirmed against any named event.
 
 ## Make your own
 
-Eagle and KiCad source files, along with a fingerboard-truck footprint library, are available in the [MrAnderson folder](https://github.com/davedarko/Simple-Add-ons-SAO/tree/main/MrAnderson) of davedarko's Simple-Add-ons-SAO repository.
+KiCad source files (schematic and PCB), along with a fingerboard-truck footprint library, are available in the [MrAnderson folder](https://github.com/davedarko/Simple-Add-ons-SAO/tree/main/MrAnderson) of davedarko's Simple-Add-ons-SAO repository.

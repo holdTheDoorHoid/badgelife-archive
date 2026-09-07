@@ -54,22 +54,26 @@ sources:
   url: https://x.com/_Kredence
   title: Kredence (@_Kredence) / X
   accessed: '2026-09-07'
-  note: 'Profile exists (handle confirmed, display name "Kredence", account since ~2019 per profile banner metadata) but the page is a client-rendered SPA that could not be fetched as text (WebFetch returned HTTP 402; the profile requires a logged-in session to read tweet content). Could not confirm any badge details from it.'
+  note: 'Profile exists (handle confirmed, display name "Kredence", 355 followers, joined December 2008 per page metadata) but the page is a client-rendered SPA gated for logged-out viewers, so no tweet content could be read (WebFetch returned HTTP 402; a direct curl fetch returned the full HTML shell/meta tags but no post text). No mention of "illuminati," "badge," "SAO," "badgelife," or "DEF CON" appears anywhere in the fetched HTML. Could not confirm any badge details from it.'
 research:
   status: researched
   confidence: low
   last_checked: '2026-09-07'
   notes: >-
-    Could not independently verify any details beyond what the original sheet import already
-    had. The only link is the maker's X/Twitter profile (@_Kredence), which is a JavaScript-rendered
-    single-page app that neither WebFetch nor curl could read as text (curl returns only the HTML
-    shell with no tweet content; WebFetch was refused with HTTP 402). Bing searches for
-    "kredence" + "illuminati badge", "kredence" + "badgelife" + "sao", and site:hackaday.io kredence
-    all returned unrelated results (a consumer-services company also named Kredence dominates the
-    index) with no hits for a Hackaday.io profile, storefront, press coverage, or forum posts.
-    No image of the badge was located. The existing note that this is "distinct from the DC27
-    Illuminati badge by the same maker" and the year 2018 could not be confirmed or contradicted
-    by any source read. Left almost all technical/commercial fields empty rather than guess.
+    Fact-check pass (2026-09-07): re-fetched both the twitter.com and x.com URLs (WebFetch and a
+    direct curl). Confirmed the profile exists, handle and display name match, and neither the
+    page's meta tags nor its HTML body mention "illuminati," "badge," "SAO," "badgelife," or
+    "DEF CON" anywhere — the page is gated for logged-out viewers and shows no tweet content, so
+    it cannot confirm or deny any badge detail. Corrected one inaccuracy in the source note: the
+    prior pass read the profile banner image's upload-timestamp filename as an account-creation
+    date ("since ~2019"); the page's own metadata actually states the account joined December
+    2008. No other non-empty field or sentence in this entry rests on a source that could be
+    re-checked and found wanting. Could not independently verify any details beyond what the
+    original sheet import already had. No image of the badge was located, and Hackaday.io/press
+    searches from the prior pass found nothing (unchanged from before; not re-run here). The
+    existing note that this is "distinct from the DC27 Illuminati badge by the same maker" and
+    the year 2018 remain unconfirmed and uncontradicted. Left almost all technical/commercial
+    fields empty rather than guess.
 last_modified_date: '2026-09-07'
 ---
 

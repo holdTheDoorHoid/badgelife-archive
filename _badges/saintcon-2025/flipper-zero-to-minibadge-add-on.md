@@ -17,7 +17,6 @@ look:
   shape: null
   themes:
   - hardware tool
-  - minibadge
 tech:
   mcu: null
   leds: null
@@ -69,10 +68,10 @@ sources:
   accessed: '2026-09-07'
   note: 'The wiki page renders from this JSON feed; used it to get the maker''s own description, soldering instructions/difficulty, category, quantity made (0), rarity, acquisition method ("Trade with me!"), and front/back image URLs.'
 research:
-  status: researched
+  status: verified
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'Only source is the maker''s own listing on the community minibadge.wiki database (via its underlying 2025.json data feed); no separate maker page, repo, or store listing was found. Chip/MCU, LEDs, display, power/battery, price, and open-source/design-file status are not stated anywhere and are left empty. "Quantity made" is listed as 0 on the source, which likely means the maker did not report a count rather than that none exist (it is a physical, tradeable minibadge per the listing); recorded as given rather than guessed.'
+  notes: 'Fact-check pass (2026-09-07): re-fetched https://minibadge.wiki/2025.json directly and confirmed every non-empty field (quantityMade: 0, category: Other, rarity: Rare, howToAcquire: "Trade with me!", the full soldering-instructions text) against the maker''s own JSON record. Confirmed both saved images (9f002c19e9.jpg front, bc8729ba0e.jpg back) are byte-for-byte the same artwork as frontImageUrl/backImageUrl on that record. Removed the "minibadge" look.theme tag: not in the guide''s shared vocabulary and redundant with type: minibadge. Only source is the maker''s own listing on the community minibadge.wiki database; no separate maker page, repo, or store listing was found. Chip/MCU, LEDs, display, power/battery, price, and open-source/design-file status are not stated anywhere and remain empty. "Quantity made" is listed as 0 on the source, which likely means the maker did not report a count rather than that none exist (it is a physical, tradeable minibadge per the listing); recorded as given rather than guessed.'
 last_modified_date: '2026-09-07'
 ---
 

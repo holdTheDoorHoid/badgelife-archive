@@ -12,8 +12,7 @@ makers:
 - name: Twinkle Twinkie
   url: https://hackaday.io/hacker/308303-twinkletwinkie
 - name: Wire (Tymkrs)
-  url: https://hackaday.io/hacker/308303-twinkletwinkie
-  role: firmware collaborator
+  url: ''
 summary: Chestoro is Twinkle Twinkie's third SAO of the DEF CON 27 badgelife season, a mashup of the Cheshire Cat and Totoro, built with seven side-view LEDs driven by a PIC16F1503 and made in collaboration with Wire of the Tymkrs.
 functions: Green eyes and a white mouth glow in animated patterns driven by the onboard MCU; a mode-select button toggles between animations, which after a short while begin rotating randomly.
 look:
@@ -87,13 +86,13 @@ sources:
   note: Confirmed it was sold via Tindie and is now retired/sold out; no price or quantity given on the current page.
   archived: https://web.archive.org/web/20260519051624/https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-chestoro-badge-sao/
 research:
-  status: researched
+  status: verified
   confidence: high
   last_checked: '2026-09-07'
-  notes: No price, quantity made, or open-source design files were found on either the Hackaday.io project page or the Tindie listing (listing shows only "no longer available for sale").
+  notes: Verified maker/collaborator, MCU, LED count/type/passives, SAO v1.69bis (backward compatible, 3.3V), colors/shape/themes, availability, and images against the Hackaday.io project page and the Tindie listing. Removed the "Wire (Tymkrs)" role of "firmware collaborator" and its maker url — the Hackaday page confirms only "second collaboration with Wire from the Tymkrs" with no role breakdown, and no separate profile link for Wire exists (the url on file duplicated Twinkle Twinkie's own profile). Also removed an unsupported body claim that this was Wire and Twinkle Twinkie's "second joint project after the Arc Badge" — no prior project is named in either source. No price, quantity made, or open-source design files were found on either page (listing shows only "no longer available for sale").
 last_modified_date: '2026-09-07'
 ---
 
-Chestoro was Twinkle Twinkie's third SAO release of the DEF CON 27 badgelife season, a mashup of the Cheshire Cat and Totoro built in collaboration with Wire of the Tymkrs — their second joint project after the Arc Badge. The design runs on a PIC16F1503 driving seven 1204 side-view LEDs that light the character's green eyes and white mouth; a mode-select button steps through animation patterns, which begin cycling randomly on their own after a short idle period.
+Chestoro was Twinkle Twinkie's third SAO release of the DEF CON 27 badgelife season, a mashup of the Cheshire Cat and Totoro built in collaboration with Wire of the Tymkrs — their second collaboration together. The design runs on a PIC16F1503 driving seven 1204 side-view LEDs that light the character's green eyes and white mouth; a mode-select button steps through animation patterns, which begin cycling randomly on their own after a short idle period.
 
 The SAO uses the newer v1.69bis (6-pin) standard while remaining backward compatible with the original 4-pin SAO header, and it runs at the standard's 3.3V. It was sold through TwinkleTwinkie's Tindie storefront alongside their other DC27-era add-ons; that listing is now marked as no longer available. No hardware or firmware files, pricing, or production quantity were published on the project's Hackaday.io page or its Tindie listing.

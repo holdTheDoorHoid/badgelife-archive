@@ -14,8 +14,8 @@ makers:
 - name: Wire (@wireengineer)
   url: https://github.com/Wireb
   role: software and bulk of the KiCad hardware design
-summary: An Infinity War-era Arc Reactor badge/prop made as a DEF CON 27 indie badge by TwinkleTwinkie (hardware, assembly) with Wire/@wireengineer (software, KiCad), built around a PIC16F15344 with RGB LEDs under a hot-glue diffuser, two SAO connectors and 2xAA power through a boost converter; 200 were sold on Tindie at $90 plus 20 kept for donation/trading, each shipped with the Iron Gauntlet SAO, a red lanyard and batteries.
-functions: 32 selectable color/animation modes (default "classic blue" arc-reactor look plus other colors and animated patterns), selected with a mode button that remembers the last-used display across power cycles; on/off toggle switch.
+summary: An Infinity War-era Arc Reactor badge/prop made as a DEF CON 27 indie badge by TwinkleTwinkie (hardware, assembly) with Wire/@wireengineer (software, KiCad), built around a PIC16F15344 with RGB LEDs under an FR4 diffuser layer, two SAO connectors and 2xAA power through a boost converter; roughly 200 were sold on Tindie at $90 plus 20 kept for donation/trading, each shipped with the Iron Gauntlet SAO, a red lanyard and batteries.
+functions: 30 selectable color/animation modes (modes 0-29 per the published firmware; default "classic blue" arc-reactor look plus other colors and animated patterns), selected with a mode button that remembers the last-used display across power cycles; on/off toggle switch.
 look:
   colors:
   - red
@@ -114,10 +114,36 @@ sources:
   accessed: '2026-09-07'
   note: Confirmed firmware is published (PIC16F15344, PicKit 4 programming) and credited Wire's KiCad hardware work.
 research:
-  status: researched
+  status: verified
   confidence: high
   last_checked: '2026-09-07'
-  notes: LED count not stated anywhere found (only LED type/size, 3528 non-addressable). Mode count is given as 32 on Hackaday.io/press but as 30 on the Tindie listing; left tech.leds.count empty rather than guess. Could not confirm a gerbers_url, bom_url, or license for the open-source files. Tindie store page itself (https://www.tindie.com/stores/twinkletwinkie/) returned 403 to automated fetch; individual product page worked.
+  notes: >-
+    Fact-check pass (2026-09-07) corrected two errors from the prior draft.
+    "Hot-glue diffuser" was unsupported; Hackaday.com actually describes
+    0.8mm FR4 as the diffuser, and the build log does not mention a diffuser
+    material at all. The mode count was listed as 32, but the two most
+    authoritative sources (the published GitHub firmware, whose code covers
+    modes 0 through 0x1D, i.e. 30 modes, and the maker's own Tindie listing)
+    both say 30; only the Hackaday.com press write-up says 32. Both fields
+    are now fixed to match the firmware and storefront. Quantity is hedged
+    as "~200 for sale, plus 20" per the maker's own stated goal on
+    Hackaday.io ("I'm aiming for 200 to sell and 20 for donations and
+    trading, final numbers will depend on final yield"); Hackaday.com press
+    coverage separately claims 248 were produced as a final count, which
+    cannot be confirmed against a maker source, so the maker's stated
+    target is kept and the discrepancy is flagged here rather than in the
+    summary. LED count still not stated anywhere found (only LED type and
+    size, 3528 non-addressable); tech.leds.count left empty. Checked the
+    GitHub repo directly via the GitHub API, which confirms it has no
+    LICENSE file, so make_your_own.license is correctly left empty. The
+    Hackaday.io project page does list downloadable Gerber and BOM/parts
+    list files, but only as attachments within the project page itself,
+    with no distinct URL beyond hardware_url to point gerbers_url or
+    bom_url at, so those stay empty rather than inventing a link. The
+    Tindie store page (https://www.tindie.com/stores/twinkletwinkie/)
+    returned 403 to automated fetch; the individual product page worked
+    fine. All other non-empty fields and sentences were checked against
+    their cited sources and confirmed.
 last_modified_date: '2026-09-07'
 ---
 

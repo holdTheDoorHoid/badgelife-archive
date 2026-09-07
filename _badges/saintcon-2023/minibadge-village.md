@@ -11,7 +11,7 @@ year: 2023
 makers:
 - name: SHIFTY
 summary: 'An unofficial fan-made minibadge for SAINTCON''s Minibadge Village, with a unique wavy-edge PCB cut and four ultra-bright white LEDs.'
-functions: 'Purely decorative/blinky: four white LEDs light up when powered, wired across two resistors so the top pair and bottom pair can be set to different brightness or current if desired.'
+functions: 'Purely decorative/blinky: four white LEDs light up when powered, wired across two resistors so the top pair and bottom pair could be swapped for different-colored LEDs if desired.'
 look:
   colors: [green, white, brown]
   shape: rectangle
@@ -21,7 +21,7 @@ tech:
   leds:
     count: 4
     type: discrete
-    note: 4 white through-hole LEDs across 2 resistors (top pair and bottom pair on separate resistors)
+    note: 4 white surface-mount LEDs across 2 resistors (top pair and bottom pair on separate resistors), assembled via single-pad soldering
   display: none
   connectivity: []
   battery: null
@@ -68,15 +68,15 @@ sources:
   accessed: '2026-09-07'
   note: 'The site''s underlying JSON data file for 2023 minibadges; supplied description, soldering instructions, difficulty, category, rarity, how-to-acquire text, and the front/back image URLs.'
 research:
-  status: researched
+  status: verified
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'The minibadge.wiki listing page renders via client-side JS and did not expose the record directly, so the underlying 2023.json data file (linked from the page''s own code.js) was fetched instead to confirm the details; this is still the maker-submitted community record, not a separate third-party source. No maker storefront, repo, or social presence was found beyond this listing, so price, exact quantity made, and open-source status are unknown. The listing calls it "unofficial" fan art for SAINTCON''s official Minibadge Village program, distributed only by in-person trade/barter, not sale.'
+  notes: 'Fact-check pass (2026-09-07): re-fetched https://minibadge.wiki/2023.json directly and confirmed the Minibadge Village record (author SHIFTY, description, soldering instructions, difficulty, category, rarity, howToAcquire text) matches this entry. Corrected one error: the LEDs and resistors are surface-mount parts assembled with the single-pad soldering method (confirmed both from the board photo and from the JSON''s soldering instructions), not through-hole as the previous draft stated; fixed in tech.leds.note, functions, and the body text. Also tightened the functions/body wording to match the source''s actual claim (separate resistors allow swapping in different-colored LEDs) rather than the previous draft''s invented claim about adjustable brightness/current. Verified the listing page itself is client-rendered and returns no results on a plain fetch, supporting the original note about needing the JSON file. Both images were confirmed as genuine photos of this badge''s front and back. No maker storefront, repo, or social presence was found beyond this listing, so price, exact quantity made, and open-source status remain unknown/empty, which is correct given no source states them.'
 last_modified_date: '2026-09-07'
 ---
 
 Minibadge Village is an unofficial, fan-made minibadge created by SHIFTY for SAINTCON 2023, paying tribute to SAINTCON's own official Minibadge Village program rather than being an official village badge itself. The board carries a wavy, non-rectangular edge cut and green-and-white artwork of a witch's hat, a mushroom cottage, and a small stone house, with "Minibadge Village" lettered across the front in an ornate typeface.
 
-Electrically it's a simple, beginner-friendly build: four ultra-bright white through-hole LEDs wired across two resistors, split so the top pair and bottom pair of LEDs can be run at different brightness or even swapped for different colors. The maker's instructions call for single-pad soldering, keeping assembly quick for a beginner-difficulty badge.
+Electrically it's a simple, beginner-friendly build: four ultra-bright white surface-mount LEDs wired across two resistors, split so the top pair and bottom pair could be swapped for different-colored LEDs if the builder chooses. The maker's instructions call for single-pad soldering, keeping assembly quick for a beginner-difficulty badge.
 
 SHIFTY made the badge for personal distribution rather than sale — it isn't listed with a price or a tracked production quantity, and the maker's own note on how to get one is simply to find them in person at the Badge Life Community and Trade area and offer a trade or barter. The minibadge.wiki community database marks it "Super Rare."

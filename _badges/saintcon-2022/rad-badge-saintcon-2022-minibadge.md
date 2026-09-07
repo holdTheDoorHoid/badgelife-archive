@@ -17,15 +17,14 @@ look:
   colors: []
   shape: null
   themes:
-  - radio
+  - measurement
   - hardware tool
   - minimalist
 tech:
   mcu: ATtiny85
   leds: null
   display: none
-  connectivity:
-  - usb
+  connectivity: []
   battery: null
   sao_version: null
 get_one:
@@ -68,10 +67,10 @@ sources:
   accessed: '2026-09-07'
   note: 'Confirmed maker, event/year, ATtiny85 MCU run at 16MHz, MIDI-playback and light-reactive "fake Geiger counter" functions, USBasp programming flow, open-source firmware/hardware in the same repo, and image files (assembly.jpeg, pcb.jpeg, schematic.jpeg).'
 research:
-  status: researched
-  confidence: medium
+  status: verified
+  confidence: high
   last_checked: '2026-09-07'
-  notes: 'Only source found is the maker''s own GitHub repo (README); no press coverage, storefront, or Hackaday post turned up. Maker describes it as "cobbled together at the last minute" as a prototype experiment, so price, quantity made, and distribution/availability are not stated anywhere and are left empty. LED count/type is not documented in the README (the "geiger counter" effect is light-reactive/sound-based per the README, and no explicit LED spec is given) so tech.leds is left null. Repo references saintcon.org''s 2021 official MINIBADGE guide and github.com/lukejenkins/minibadge as prior art, not as a joint release.'
+  notes: 'Fact-check pass (2026-09-07): re-fetched the README, the GitHub repo page/metadata, and the schematic/PCB/assembly images directly from then3rd/rad-badge and confirmed maker, event/year (repo description literally reads "Saintcon 2022 Minibadge"), ATtiny85 MCU at 16MHz via custom fuses, the MIDI-conversion (xxd) and USBasp/PlatformIO programming workflow, and open-source hardware+firmware in one repo. The two saved images are byte-identical in content to images/assembly.jpeg and images/pcb.jpeg in the repo (only re-encoded), confirming they show this item. Corrected tech.connectivity from [usb] to [] (empty): the README''s "USB" reference is to the USBasp programmer tool used to flash the chip over ICSP/SPI, not a USB port on the badge itself; the schematic shows only SPI programming test points (MOSI/MISO/SCK/RST) and SDA/SCL/VBATT lines to the host badge connector, no USB. Corrected look.themes: replaced "radio" (radio-communications theme) with "measurement", since the badge simulates a Geiger counter / radiation-measurement device, not a radio; "radio" was likely a radiation/radio mix-up. Confidence raised to high per the guide''s definition (the maker''s own repo/README/schematic directly confirmed the core facts) even though only one source exists; no press coverage, storefront, or Hackaday post was found for this prototype, so price, quantity, and distribution/availability correctly remain empty and LED count/type remains null (not itemized as a spec in the README).'
 last_modified_date: '2026-09-07'
 ---
 

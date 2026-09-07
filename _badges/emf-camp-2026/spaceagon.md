@@ -78,7 +78,7 @@ sources:
   accessed: '2026-09-07'
   note: 'Platform docs: ESP32-S3 MCU, 2MB PSRAM, 8MB flash, round display, six buttons, RGB LEDs, IMU, WiFi/BLE, USB-C, MicroPython firmware; confirms Spaceagon keeps the hexagonal six-hexpansion-slot form factor; links hardware repo emfcamp/badge-2024-hardware.'
 research:
-  status: researched
+  status: verified
   confidence: medium
   last_checked: '2026-09-07'
   notes: >-

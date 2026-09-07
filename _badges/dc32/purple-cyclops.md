@@ -17,8 +17,7 @@ look:
   colors:
   - purple
   shape: null
-  themes:
-  - sci-fi
+  themes: []
 tech:
   mcu: none
   leds:
@@ -49,11 +48,11 @@ images:
   - file: assets/images/badges/dc32/purple-cyclops/3736986300.jpg
     source: "https://hackaday.io/project/197216-purple-cyclops"
     credit: "Oakmizer"
-    caption: "Purple Cyclops SAO, side-view LED variant"
+    caption: "Purple Cyclops SAO, bottom-view LED variant PCB render"
   - file: assets/images/badges/dc32/purple-cyclops/1ade8b5775.jpg
     source: "https://hackaday.io/project/197216-purple-cyclops"
     credit: "Oakmizer"
-    caption: "Purple Cyclops SAO, bottom-view LED variant"
+    caption: "Purple Cyclops SAO, side-view LED variant PCB render"
 contact: {}
 notes:
 - 'Gerber files for both LED variants are linked from the Hackaday.io project page, in EasyEDA format; no separate firmware exists since the board has no MCU.'
@@ -73,7 +72,7 @@ research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'Price, quantity made, and distribution/availability are not stated on the project page. No storefront or additional press coverage was found; the Hackaday.io project page is the only source.'
+  notes: 'Fact-check (2026-09-07): confirmed maker, event, dimensions, LED count/parts (Inolux and Wurth SMD LEDs), 10-ohm resistor, EasyEDA Gerber files for both variants, no-MCU/no-firmware, and the side-view polarity bug by re-fetching the Hackaday.io project page directly. Found and fixed two errors: (1) the two saved images had swapped captions — the file hashed 3736986300 is actually the bottom-view PCB render and 1ade8b5775 is the side-view render, opposite of what was recorded; both are gerber/schematic renders from the page, not photos of an assembled badge, so captions were also updated to say so. (2) removed the "sci-fi" look.theme tag: the project page never describes the character thematically (it just says it is an AI-generated cyclops image), so that tag was an unsupported guess rather than something sourced. Everything else in the entry checked out. Price, quantity made beyond "two small batches," and distribution/availability are still not stated on the project page and remain blank; status "released" is inferred from the two batches having been fabricated for a specific past con rather than an explicit statement that attendees received one, so status is left as researched rather than verified.'
 last_modified_date: '2026-09-07'
 ---
 

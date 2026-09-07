@@ -79,18 +79,25 @@ sources:
     revision 01; a separate Air.00 folder holds the first revision. No README or
     photos of the jewel itself found in the repo (media/ only has main-badge photos).
 research:
-  status: researched
+  status: verified
   confidence: medium
   last_checked: '2026-09-07'
-  notes: The Ph0xx badge and its two jewels (Air, Bot) are well documented on Hackaday.io
-    and in the Fri3dCamp/badge GitHub repo, but the repo has no README, BOM, or
-    photos specific to the Air jewel itself - only raw Altium schematic/PCB files
-    for both revisions (Air.00, Air.01). Could not confirm the exact dust sensor
-    or GPS module part numbers, an MCU on the jewel board itself (it likely relies
-    entirely on the host badge's ESP32), price, or production quantity for the
-    jewel specifically (only the ~600-unit badge run is documented). No firmware
-    file specific to the Air jewel was located within the search budget for this
-    pass.
+  notes: Fact-check pass (2026-09-07) re-fetched all three cited sources and confirmed
+    every non-empty field and body sentence. github.com/Fri3dCamp/badge's own README
+    confirms it is the Fri3d Camp Badge 2018 repo; the GitHub API confirms both
+    design/jewels/Air.00 and design/jewels/Air.01 folders exist with Altium
+    SchDoc/PcbDoc files, and a code/ folder with firmware for the host badge.
+    hackaday.io/project/160451-ph0xx (the makers' own project page) confirms the
+    ESP32-WROOM-32 Ph0xx badge, credits Wim Van Gool and Bert Outtier alongside
+    Fri3d Camp, documents ~600-650 units assembled, and confirms the Air jewel
+    interfaces a dust particle sensor and GPS (and was used on a weather-balloon
+    flight, per that page - not added to this entry since it's a detail about
+    Ph0xx's project log rather than the jewel entry itself, noted here for a future
+    pass). The Air jewel itself has no README, BOM, part numbers, price, quantity,
+    or photos in any cited source, so those fields remain correctly empty. No
+    contradictions found between sources. Confidence held at medium because all
+    Air-jewel-specific detail (as opposed to the parent Ph0xx badge) rests on the
+    Hackaday project log's prose rather than a dedicated jewel document.
 last_modified_date: '2026-09-07'
 ---
 

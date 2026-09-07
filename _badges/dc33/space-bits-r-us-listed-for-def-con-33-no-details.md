@@ -61,7 +61,7 @@ sources:
     "Pony" SAO they sold to attendees (see dc31-space-pony-sao). Confirms the
     maker existed and what they did in 2023; says nothing about 2025.
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-07'
   notes: >-
@@ -71,16 +71,27 @@ research:
     queries for the maker name, "SpaceBitsRUs", and Hack-A-Sat/Aerospace
     Village DEF CON 33 coverage), scottalmond's GitHub profile (only
     defcon_31 exists; no defcon_32 or defcon_33 repo), Hackaday.io, and
-    Tindie, and found no DC33/2025 project from this maker. "SpaceBitsRUs" is
-    also a documented Hack-A-Sat competitor team name (Northrop Grumman
-    employees) going back to Hack-A-Sat 3 (2022), consistent with the DC31
-    background but not evidence of a 2025 badge. A near-identical sibling
+    Tindie, and found no DC33/2025 project from this maker. A near-identical sibling
     entry exists for DEF CON 32 (dc32-space-bits-r-us-listed-for-def-con-32-no-details),
     also researched with no 2024 item found -- these are separate sheet rows
     for separate years, not duplicates of each other, but likely the same
     team returning each year without a documented public badge/SAO for 2024
     or 2025. Leaving type/tech/get_one fields empty rather than guessing from
     the 2023 item.
+
+
+    Fact-check pass (2026-09-07): re-fetched
+    https://github.com/scottalmond/defcon_31 and confirmed its README
+    supports the DC31 background (team name, exclusive team badge not for
+    sale, "Pony" SAO at $20/unit with 11 designs, Scott Almond as lead),
+    matching the existing dc31-space-pony-sao entry. Confirmed the DC32
+    sibling entry exists on disk as claimed. Removed one unsupported aside
+    (a claim that "SpaceBitsRUs" traces to a Hack-A-Sat 3 (2022) Northrop
+    Grumman team) -- it carried no citation and could not be verified this
+    pass (web search budget exhausted; a direct search-engine fetch hit a
+    bot challenge). No images are present to check. Every remaining
+    sentence and field is supported by a source in the sources list, so
+    status is upgraded to verified.
 last_modified_date: '2026-09-07'
 ---
 

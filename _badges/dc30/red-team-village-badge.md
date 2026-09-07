@@ -31,7 +31,7 @@ get_one:
   price_usd: 75.0
   quantity: ''
   availability: sold_out
-  availability_note: 'Storefront (rtv-swag.myshopify.com) returns a 404/store-unavailable page as of 2026-09-06; no working Wayback Machine capture of the product page was found (the one archived crawl of the URL, from 2022-08-03, hit the shop''s password-gate redirect rather than the live listing).'
+  availability_note: Storefront (rtv-swag.myshopify.com) returns a 404/store-unavailable page as of 2026-09-06; no working Wayback Machine capture of the product page was found (the one archived crawl of the URL, from 2022-08-03, hit the shop's password-gate redirect rather than the live listing).
   distribution:
   - purchase
   where: Ordered online in advance and picked up at DEF CON 30 (Aug 12-14, 2022, Flamingo Las Vegas).
@@ -47,6 +47,7 @@ links:
 - label: Red Team Village official site
   url: https://redteamvillage.io/
   kind: website
+  archived: https://web.archive.org/web/20260825171226/https://redteamvillage.io/
 images: []
 contact: {}
 notes:
@@ -61,12 +62,13 @@ sources:
   url: https://redteamvillage.io/
   title: Red Team Village official site
   accessed: '2026-09-06'
-  note: 'Confirmed DEF CON 30 dates/location and village identity; site (current and 2022 Wayback captures) has no surviving mention of the badge or a link to the storefront.'
+  note: Confirmed DEF CON 30 dates/location and village identity; site (current and 2022 Wayback captures) has no surviving mention of the badge or a link to the storefront.
+  archived: https://web.archive.org/web/20260825171226/https://redteamvillage.io/
 - kind: url
   url: http://web.archive.org/cdx/search/cdx?url=rtv-swag.myshopify.com*
   title: Wayback Machine CDX index for rtv-swag.myshopify.com
   accessed: '2026-09-06'
-  note: 'Confirms the Shopify store existed in Aug 2022 and had a product page at this slug, but the only crawl of that page (2022-08-03) recorded a 302 to the shop''s password gate, so no product text or images were captured. The storefront itself is gone as of 2026-09-06 (Shopify "store unavailable").'
+  note: Confirms the Shopify store existed in Aug 2022 and had a product page at this slug, but the only crawl of that page (2022-08-03) recorded a 302 to the shop's password gate, so no product text or images were captured. The storefront itself is gone as of 2026-09-06 (Shopify "store unavailable").
 research:
   status: researched
   confidence: low

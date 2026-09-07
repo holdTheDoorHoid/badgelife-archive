@@ -16,7 +16,10 @@ functions: OLED menu system with scrolling, a built-in 'shoplifting' video game 
 look:
   colors: []
   shape: card
-  themes: [security, crime, retro computer]
+  themes:
+  - security
+  - crime
+  - retro computer
 tech:
   mcu: ATtiny85
   leds:
@@ -25,19 +28,22 @@ tech:
     note: NeoPixel/WS2812-style RGB LEDs; exact count not stated by the maker.
   display: 0.96" OLED
   connectivity: []
-  inputs: [button]
+  inputs:
+  - button
   battery: null
   sao_version: null
 get_one:
-  price: "$35 kit / $50 assembled"
+  price: $35 kit / $50 assembled
   price_usd: 50
   quantity: ''
   availability: sold_out
   availability_note: Tindie listing shows the product as retired/no longer available as of 2026-09-07.
-  distribution: [purchase, kit]
+  distribution:
+  - purchase
+  - kit
   where: Sold by the maker on Tindie, fully assembled or as a DIY kit (kit ships with the ATtiny85 in SOIC-8 and a 6-pin ISP header unsoldered).
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/MakeItHackin/DEFCON29Badge
   firmware_url: https://github.com/MakeItHackin/DEFCON29Badge
   eda_tool: null
@@ -45,6 +51,7 @@ links:
 - label: github.com/MakeItHackin/DEFCON29Badge
   url: https://github.com/MakeItHackin/DEFCON29Badge
   kind: repo
+  archived: https://web.archive.org/web/20260513103905/https://github.com/MakeItHackin/DEFCON29Badge/
 - label: www.tindie.com/products/makeithackin/makeithackin-def-con-29-electronic-badge
   url: https://www.tindie.com/products/makeithackin/makeithackin-def-con-29-electronic-badge/
   kind: store
@@ -56,13 +63,14 @@ links:
   kind: video
 images:
 - file: assets/images/badges/dc29/dc29-makeithackin-badge/488e5599e8.jpg
-  source: "https://www.tindie.com/products/makeithackin/makeithackin-def-con-29-electronic-badge/"
-  credit: "MakeItHackin"
-  caption: "The MakeItHackin DEF CON 29 badge, credit-card shaped with OLED display and security tags"
+  source: https://www.tindie.com/products/makeithackin/makeithackin-def-con-29-electronic-badge/
+  credit: MakeItHackin
+  caption: The MakeItHackin DEF CON 29 badge, credit-card shaped with OLED display and security tags
 - file: assets/images/badges/dc29/dc29-makeithackin-badge/6a95cd1912.jpg
-  source: "https://github.com/MakeItHackin/DEFCON29Badge"
-  credit: "MakeItHackin"
-  caption: "PCB render of the badge showing ATtiny85, OLED, and SAO connector layout"
+  source: https://github.com/MakeItHackin/DEFCON29Badge
+  credit: MakeItHackin
+  caption: PCB render of the badge showing ATtiny85, OLED, and SAO connector layout
+  archived: https://web.archive.org/web/20260513103905/https://github.com/MakeItHackin/DEFCON29Badge/
 contact: {}
 notes: []
 status: released
@@ -72,11 +80,13 @@ sources:
   title: DC 29 Badge and SAO (MakeItHackin/DEFCON29Badge)
   accessed: '2026-09-06'
   note: Found via the project's link list; intake pass identified this item here.
+  archived: https://web.archive.org/web/20260513103905/https://github.com/MakeItHackin/DEFCON29Badge/
 - kind: url
   url: https://github.com/MakeItHackin/DEFCON29Badge
   title: MakeItHackin/DEFCON29Badge README
   accessed: '2026-09-07'
   note: Confirms MCU, OLED, RGB LEDs, SAO connector, credit-card shape rationale, and dual security tags (8.2 MHz Checkpoint / 58 kHz Sensormatic); open-source hardware and firmware.
+  archived: https://web.archive.org/web/20260513103905/https://github.com/MakeItHackin/DEFCON29Badge/
 - kind: url
   url: https://www.tindie.com/products/makeithackin/makeithackin-def-con-29-electronic-badge/
   title: Anti-Theft Electronic Badge for DEF CON 29 (Tindie listing)

@@ -11,8 +11,8 @@ year: 2024
 makers:
 - name: davedarko
   url: https://github.com/davedarko
-summary: A deliberately minimal write-your-name-with-a-pen name-tag SAO with an optional single RGB LED, davedarko's first entry to the Supercon 2024 SAO contest, made in red, green and blue board variants.
-functions: 'A blank name-tag surface to hand-write on; the LED version adds one onboard RGB LED for a bit of blink without any programming.'
+summary: A deliberately minimal write-your-name-with-a-pen name-tag SAO with an optional set of four RGB LED faders, davedarko's first entry to the Supercon 2024 SAO contest, made in red, green and blue board variants.
+functions: 'A blank name-tag surface to hand-write on; the LED version adds four onboard RGB LED faders (auto color-cycling) for a bit of blink without any programming, though only one is reliably wired per board without manual rework.'
 look:
   colors: [red, green, blue, white]
   shape: rectangle
@@ -20,13 +20,13 @@ look:
 tech:
   mcu: none
   leds:
-    count: 1
+    count: 4
     type: RGB
-    note: 'LED version only ("blinkyparts style"); the plain version has no LED. Prototype boards had a wiring error where only one of four LEDs per panel was correctly connected.'
+    note: 'LED version only ("blinkyparts style"); the plain version has no LEDs. Board carries four discrete legged RGB LED faders (D1-D4, per the KiCad schematic); the maker''s errata says only one of the four is correctly connected on shipped boards, the other three needing manual rework.'
   display: none
   connectivity: []
   battery: null
-  sao_version: v1
+  sao_version: null
 get_one:
   price: ''
   price_usd: null
@@ -76,18 +76,18 @@ sources:
   url: https://github.com/davedarko/Simple-Add-ons-SAO/tree/main/HelloMyNameIs
   title: "Simple-Add-ons-SAO/HelloMyNameIs at main"
   accessed: '2026-09-07'
-  note: Confirms two variants (plain and LED/"blinkyparts style"), KiCad design files, and the prototype wiring errata (only 1 of 4 LEDs per panel wired correctly).
+  note: Confirms two variants (plain and LED/"blinkyparts style") and KiCad design files. The folder's ReadMe.md errata says boards have four LEDs and only one is correctly connected per board (not per panel); the KiCad schematic confirms four discrete LED parts (D1-D4).
 research:
-  status: researched
+  status: verified
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'Price and exact quantity distribution details (kit vs. assembled, cost) were not stated on either source. sao_version assumed v1 (4-pin) as no SAO version is specified by the maker; treat as unconfirmed. Firmware URL left null since the board is passive (LED driven by a coin cell / simple circuit, no MCU) and no firmware repo is referenced.'
+  notes: 'Fact-check correction (2026-09-07): the researcher''s draft described a single onboard RGB LED. The KiCad schematic in the HelloMyNameIs/henlo_blinkyparts_style folder shows four discrete "Device:LED" parts (D1-D4), and the maker calls them "legged RGB LED faders" and says only one of the four is correctly wired per board ("All of them only have one of the LEDs correctly connected, for the other three you have to botch a bit") - not "one of four per panel" as previously written. tech.leds, functions, summary, and body text corrected accordingly. The maker quote in the body was also tightened to match the source''s wording more closely. Price and exact per-kit cost were not stated on either source. sao_version assumed v1 (4-pin) as no SAO version is specified by the maker; treat as unconfirmed. Firmware URL left null since the board is passive (no MCU in the schematic) and no firmware repo is referenced. sao_version blanked to null (previously guessed as v1) since neither source states the connector version. All other fields (quantity ~90 kits, red/green/blue variants, KiCad, event, hardware_url, images) were confirmed directly against the cited Hackaday.io page and GitHub folder/readme.'
 last_modified_date: '2026-09-07'
 ---
 
-Hello My Name Is SAO is davedarko's first entry into the Supercon 8 SAO add-on contest at Supercon 2024. It leans hard into simplicity: the base idea is just a blank name-tag surface meant to be written on by hand, built as a deliberate rejection of the increasingly complex badges seen at the con. As the maker put it on the project's Hackaday.io page, "blinking an LED is already too much, and programming a badge is too much work while listening to amazing talks."
+Hello My Name Is SAO is davedarko's first entry into the Supercon 8 SAO add-on contest at Supercon 2024. It leans hard into simplicity: the base idea is just a blank name-tag surface meant to be written on by hand, built as a deliberate rejection of the increasingly complex badges seen at the con. As the maker put it on the project's Hackaday.io page, "I think that blinking an LED is already too much, and programming a badge is too much work while listening to amazing talks anyways."
 
-A "blinkyparts style" variant adds a single onboard RGB LED for a bit of visual interest without requiring any code — no microcontroller is involved. Around 90 kits were produced across red, green and blue PCB variants, bagged and tagged for handout to attendees at the event. The prototype run had a wiring slip: on panels of four, only one LED per panel was correctly connected, with the other three needing manual rework.
+A "blinkyparts style" variant adds four onboard RGB LED faders for a bit of visual interest without requiring any code — no microcontroller is involved. Around 90 kits were produced across red, green and blue PCB variants, bagged and tagged for handout to attendees at the event. The maker's own errata notes a wiring slip: on shipped boards, only one of the four LEDs was correctly connected, with the other three needing manual rework ("1 LED seems plenty strong already anyways," the readme adds).
 
 ## Make your own
 

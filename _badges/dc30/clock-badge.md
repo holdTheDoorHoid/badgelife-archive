@@ -39,6 +39,7 @@ links:
 - label: www.tindie.com/products/twinkletwinkie/twinkletwinkies-clock-badge
   url: https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-clock-badge/
   kind: store
+  archived: https://web.archive.org/web/20260503102753/https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-clock-badge/
 images: []
 contact: {}
 notes:
@@ -50,6 +51,7 @@ sources:
   title: Clock Badge
   accessed: '2026-09-07'
   note: 'Found by the archive''s discovery sweep (angle: sheet-research-spotted); event read as ''dc30''.'
+  archived: https://web.archive.org/web/20260503102753/https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-clock-badge/
 research:
   status: stub
   confidence: low

@@ -11,12 +11,16 @@ year: 2022
 makers:
 - name: Sqearsalazar
   url: https://www.tindie.com/stores/sqearlsalazar/
-summary: A metal dog tag that carries a CR2032 battery and a 2x3 female SAO header, letting it power and display any #badgelife SAO as jewelry.
+summary: A metal dog tag that carries a CR2032 battery and a 2x3 female SAO header, letting it power and display any
 functions: Powers a plugged-in SAO from its onboard CR2032 battery holder; doubles as wearable jewelry via a pin-and-clutch set, a lanyard, or an ornament string.
 look:
-  colors: [silver]
+  colors:
+  - silver
   shape: rectangle
-  themes: [jewelry, hardware tool, sao]
+  themes:
+  - jewelry
+  - hardware tool
+  - sao
   form_factor: accessory
 tech:
   mcu: none
@@ -30,7 +34,8 @@ get_one:
   price_usd: 10.0
   quantity: ''
   availability: unknown
-  distribution: [purchase]
+  distribution:
+  - purchase
   where: Hardware Hacking Village at D3FC0N; also sold via the maker's Tindie store
 make_your_own:
   open_source: null
@@ -41,15 +46,18 @@ links:
 - label: www.tindie.com/products/sqearlsalazar/badgelife-dog-tag-sao-holders
   url: https://www.tindie.com/products/sqearlsalazar/badgelife-dog-tag-sao-holders/
   kind: store
+  archived: https://web.archive.org/web/20260503104108/https://www.tindie.com/products/sqearlsalazar/badgelife-dog-tag-sao-holders/
 images:
 - file: assets/images/badges/dc30/dogtag-sao-holder/9be92b8e7f.jpg
-  source: "https://www.tindie.com/products/sqearlsalazar/badgelife-dog-tag-sao-holders/"
-  credit: "sqearlsalazar"
-  caption: "DogTag SAO holder dog tag with lanyard and pin/clutch set"
+  source: https://www.tindie.com/products/sqearlsalazar/badgelife-dog-tag-sao-holders/
+  credit: sqearlsalazar
+  caption: DogTag SAO holder dog tag with lanyard and pin/clutch set
+  archived: https://web.archive.org/web/20260503104108/https://www.tindie.com/products/sqearlsalazar/badgelife-dog-tag-sao-holders/
 - file: assets/images/badges/dc30/dogtag-sao-holder/5a815a6a58.jpg
-  source: "https://www.tindie.com/products/sqearlsalazar/badgelife-dog-tag-sao-holders/"
-  credit: "sqearlsalazar"
-  caption: "DogTag SAO holder with 2x3 SAO connector and CR2032 battery holder"
+  source: https://www.tindie.com/products/sqearlsalazar/badgelife-dog-tag-sao-holders/
+  credit: sqearlsalazar
+  caption: DogTag SAO holder with 2x3 SAO connector and CR2032 battery holder
+  archived: https://web.archive.org/web/20260503104108/https://www.tindie.com/products/sqearlsalazar/badgelife-dog-tag-sao-holders/
 contact: {}
 notes: []
 status: released
@@ -60,9 +68,10 @@ sources:
   updated: '2022-07-28'
 - kind: url
   url: https://www.tindie.com/products/sqearlsalazar/badgelife-dog-tag-sao-holders/
-  title: "#badgelife Dog Tag SAO Holders - sqearlsalazar - Tindie"
+  title: '#badgelife Dog Tag SAO Holders - sqearlsalazar - Tindie'
   accessed: '2026-09-06'
-  note: "Product description, contents list, price ($20 for 2), and product photos."
+  note: Product description, contents list, price ($20 for 2), and product photos.
+  archived: https://web.archive.org/web/20260503104108/https://www.tindie.com/products/sqearlsalazar/badgelife-dog-tag-sao-holders/
 research:
   status: researched
   confidence: medium

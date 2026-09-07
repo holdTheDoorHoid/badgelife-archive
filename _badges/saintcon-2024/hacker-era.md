@@ -81,16 +81,24 @@ sources:
     quantity made (0, i.e. not recorded), category, "how to acquire" (trade with maker),
     rarity, and front/back image URLs.'
 research:
-  status: researched
+  status: verified
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'All facts come from the maker''s own minibadge.wiki submission (front/back
-    images and JSON record); no independent maker page, storefront, or press coverage
-    was found. Quantity made is recorded as 0 on the source, which likely means "not
-    stated" rather than a literal zero, so get_one.quantity is left at that raw value
-    and price/price_usd are left empty since no price was ever listed (distribution
-    is trade-only). No MCU is present; the board is a passive LED+resistor circuit
-    per the back-of-board photo (parts D1, R1).'
+  notes: 'Fact-checked against the raw minibadge.wiki/2024.json record and both
+    saved photos. The JSON record confirms title, author (kittysedai), description
+    (white/black variant, Taylor Swift "Swiftie Era" reference), soldering
+    instructions/difficulty, category (Personal), rarity (Super Rare), quantityMade
+    (0), and the exact "Trade with me." acquisition quote. The front/back photos
+    (matching the two saved images pixel-for-pixel) independently confirm colors,
+    rectangle shape, and the passive D1 LED + R1 resistor circuit with no MCU,
+    display, connectivity, or SAO header visible. Quantity made is recorded as 0
+    on the source, which likely means "not stated" rather than a literal zero, so
+    get_one.quantity is left at that raw value and price/price_usd are left empty
+    since no price was ever listed (distribution is trade-only). tech.battery
+    ("powered by host badge") and tech.sao_version ("none") are reasonable
+    inferences from the photographed board (no battery or SAO connector visible,
+    only simple pin headers) rather than a directly stated spec, consistent with
+    how SAINTCON minibadges work; confidence is kept at medium for that reason.'
 last_modified_date: '2026-09-07'
 ---
 

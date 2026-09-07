@@ -12,7 +12,7 @@ makers:
 - name: Badge.Team, led by Niek Blankers and Sebastian Oort (Markus Bechtold, Bas van Sisseren, Jeroen Domburg/Sprite_tm, Renze Nicolai, et al.)
   url: https://badge.team/
 summary: A reprogrammable ESP32 conference badge with an e-paper display, built by Badge.Team for the SHA2017 "Still Hacking Anyway" camp in the Netherlands.
-functions: Runs MicroPython apps distributed through Badge.Team's "Hatchery" app repository; connects to the camp Wi-Fi; supports NFC-style capacitive touch input; drives an e-ink display and optional add-on LEDs and a vibration motor for notifications/games.
+functions: Runs MicroPython apps distributed through Badge.Team's "Hatchery" app repository; connects to the camp Wi-Fi; supports capacitive touch input (directional/menu buttons via an MPR121 controller); drives an e-ink display and optional add-on LEDs and a vibration motor for notifications/games.
 look:
   colors:
   - red
@@ -117,10 +117,10 @@ sources:
   accessed: '2026-09-07'
   note: Notes the badge required sponsorship/crowdfunding beyond ticket sales; no explicit price or quantity given.
 research:
-  status: researched
+  status: verified
   confidence: high
   last_checked: '2026-09-07'
-  notes: 'Maker''s own documentation (badge.team docs + SHA2017-badge GitHub org) confirmed hardware, firmware, and kit contents in detail. Not found anywhere: unit price, total quantity produced, and an explicit statement that every attendee received one for free vs. it being ticket-bundled. The exact firmware repo name (vs. the MicroPython port) was not pinned down precisely. A second flyer image (text-only, kit contents list) was fetched but not added to `images` since it does not show the badge itself.'
+  notes: 'Fact-checked 2026-09-07: reopened badge.team/docs (overview, hardware, getting_started), the SHA2017-badge/PCB repo, the SHA2017-badge GitHub org, the wiki Projects:Badge page, and Wikipedia''s Electronic badge article. All non-empty fields and body claims were confirmed by these maker/primary sources: ESP32 Wroom MCU, DEPG0290B1 e-paper (GDEH029A1 pinout-compatible alternative via the eink.dev.type NVS flag), 6x SK6812 RGBW LEDs as a DIY solder-on add-on, MPR121 touch/GPIO-expander controller with its IRQ on ESP32 IO25, LiPo 1000mAh/JST-PH3 battery charged via TP4056, CP2102 USB-serial bridge, Eagle 6.6 MIT-licensed PCB repo at rev1_0_1, the Hatchery app repo URL, and the wiki''s statement that parts/manufacturing were sponsor- and crowdfunding-supported beyond ticket sales rather than sold. The kit-contents list (badge, battery, hook-and-loop pad, 6x SK6812 LEDs, vibration motor, lanyard) was confirmed by reading the flyer image text directly (badge.team/docs/badges/sha2017/getting_started/), including that flyer''s own confirmation of the Hatchery, wiki, and GitHub-org URLs. One phrase was corrected: functions previously said touch input was "NFC-style", which no source supports (the hardware page describes ordinary MPR121 capacitive touch mapped to directional/menu buttons, with no mention of NFC anywhere) -- reworded to remove the inaccurate NFC description. The one saved image (eaef39e9a7.png) is confirmed to come from the cited getting_started page and does show badge hardware (LED strip, motor, battery mount). Still unresolved, as before: unit price, total quantity produced, and the precise firmware repo name (vs. the MicroPython port) -- these remain empty/unspecified because no source states them.'
 last_modified_date: '2026-09-07'
 ---
 

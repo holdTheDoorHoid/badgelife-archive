@@ -42,7 +42,7 @@ get_one:
   distribution:
   - free_drop
   - contest
-  where: 'Handed out by "5n4ck3y" in the DEF CON 31 Contest Area to people who solved enough challenges on the 5n4ck3y CTFd site (register, pass IRL physical verification, solve 2 challenges for an SAO or 3 for the badge); a batch also went out early to "Philanthropist" tier supporters starting 24 June 2023.'
+  where: Handed out by "5n4ck3y" in the DEF CON 31 Contest Area to people who solved enough challenges on the 5n4ck3y CTFd site (register, pass IRL physical verification, solve 2 challenges for an SAO or 3 for the badge); a batch also went out early to "Philanthropist" tier supporters starting 24 June 2023.
 make_your_own:
   open_source: partial
   hardware_url: null
@@ -52,11 +52,12 @@ make_your_own:
   eda_tool: null
   license: MIT
   fab_url: null
-  notes: 'GitHub repo is a "partial dump of source" (per the maintainers) covering the CircuitPython firmware, Ducky scripts, and ANSI art tools; no hardware design files (schematic/PCB/Gerbers) are published.'
+  notes: GitHub repo is a "partial dump of source" (per the maintainers) covering the CircuitPython firmware, Ducky scripts, and ANSI art tools; no hardware design files (schematic/PCB/Gerbers) are published.
 links:
 - label: twitter.com/ANDnXOR
   url: https://twitter.com/ANDnXOR
   kind: social
+  archived: https://web.archive.org/web/20260617181253/https://twitter.com/ANDnXOR
 - label: 'GitHub: ANDnXOR/ANDnXOR_DC31_Badge'
   url: https://github.com/ANDnXOR/ANDnXOR_DC31_Badge
   kind: repo
@@ -70,7 +71,7 @@ images: []
 contact: {}
 notes:
 - SOLD OUT!!!!!
-- 'Sheet title was "???"; badge is officially named 5n4ck3y-7r ("Snackey Jr") per the maker''s own RTFM.md.'
+- Sheet title was "???"; badge is officially named 5n4ck3y-7r ("Snackey Jr") per the maker's own RTFM.md.
 status: released
 sources:
 - kind: sheet
@@ -92,6 +93,7 @@ sources:
   title: AND!XOR
   accessed: '2026-09-07'
   note: Confirmed maker site is currently showcasing the DC30 badge; no DC31-specific storefront page found there.
+  archived: https://web.archive.org/web/20260821062441/https://www.andnxor.com/
 research:
   status: researched
   confidence: medium

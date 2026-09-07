@@ -71,10 +71,10 @@ sources:
   accessed: '2026-09-07'
   note: 'Maker name, event/year, MCU, LED, IR/touch functions, and SAO connector pinout confirmed from the Hackaday.io project page and its build logs.'
 research:
-  status: researched
+  status: verified
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'Made for the Supercon 8 (2024) SAO Contest, not Supercon 2025 as originally filed; event corrected to supercon-2024. Also uses a Microchip CAP1114 capacitive-touch/LED-driver IC alongside the ATtiny1614. Project logs describe prototype runs (5 PCBs + stencil from JLCPCB for ~$21; ~$120 in parts for 25 boards) but no finished price, quantity, or public release/availability was found, and no hardware/firmware repo link was found on the project page, so those fields are left empty. Still shown as an active Hackaday.io project (status kept as announced rather than released).'
+  notes: 'Fact-check pass 2026-09-07: re-fetched https://hackaday.io/project/197866-remote-control-sao and https://hackaday.io/unwiredben and confirmed maker name/handle, Supercon 8 (2024) SAO Contest event, IR/12-touch-pad function, ATtiny1614 MCU, CAP1114 touch/LED-driver IC, 2 red/green discrete LEDs, i2c+ir connectivity, host-powered battery field, and both saved gallery images (they are 3D CAD renders from the project gallery, not photographs, but they do show the actual board design front and back). Confirmed the page still has 0 files and no hardware/firmware repo link, and no stated price/quantity/availability, supporting the empty get_one and make_your_own fields. All remaining non-empty fields and both body paragraphs are supported by these sources; nothing needed to be removed or corrected beyond what the researcher already fixed.'
 last_modified_date: '2026-09-07'
 redirect_from:
 - /badges/supercon-2025/remote-control-sao/

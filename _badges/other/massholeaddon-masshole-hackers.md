@@ -60,18 +60,18 @@ sources:
   accessed: '2026-09-07'
   note: 'Maker profile lists no other badge/SAO-related repos and no mention of Masshole Hackers or an event/year.'
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-07'
   notes: >-
-    The GitHub repo is the only source found and contains nothing beyond a one-line README:
-    "Shitty Addon for Masshole Hackers #BadgeLife." No images, schematics, firmware, commit
-    history, or store listing exist in the repo. Web searches for "massholeAddon", "Masshole
-    Hackers" plus badge/SAO/badgelife terms, and the maker's GitHub/Hackaday presence turned up
-    no further pages, no event or year, no chip/LED specs, and no photos of the item. "Masshole
-    Hackers" could not be identified as a named convention in _data/events.yml or elsewhere, so
-    event is left as 'other'; it may be an informal regional hacker group rather than a
-    conference. Nearly every field remains empty because no source states it.
+    Re-checked all three cited sources on 2026-09-07: the GitHub repo (single commit, one file)
+    and its raw README both confirm the exact text "Shitty Addon for Masshole Hackers #BadgeLife"
+    and nothing else (no images, schematics, firmware, or further commits); adamjvr's GitHub
+    profile (Adam Vadala-Roth, GhostPCB LLC) confirms no other badge/SAO repos and no mention of
+    Masshole Hackers or an event/year. Every remaining field is empty because no source states it;
+    that is expected, not a gap. "Masshole Hackers" is not a named convention in _data/events.yml,
+    so event is left as 'other'; it may be an informal regional hacker group rather than a
+    conference.
 last_modified_date: '2026-09-07'
 ---
 

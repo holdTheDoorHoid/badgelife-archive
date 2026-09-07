@@ -11,7 +11,7 @@ year: 2025
 makers:
 - name: Pips
 summary: A SAINTCON 2025 minibadge with a scratch-and-sniff sticker overlaid on the front, made by Pips out of 801 Labs.
-functions: 'No electronics beyond pin headers; the "function" is the scent sticker. Each badge carries one of five scents themed on security jokes: DNS (wet dirt), TOR (onion), Zodiak''s Sandals (cheese), Magic Smoke (burnt rubber), and Vendor Call (manure).'
+functions: 'The maker''s only soldering instruction is the pin headers, and the "function" is the scent sticker; the back of the board also silkscreens an unpopulated resistor ("R1") and LED footprint that is not mentioned in the maker''s write-up. Each badge carries one of five scents themed on security jokes: DNS (wet dirt), TOR (onion), Zodiak''s Sandals (cheese), Magic Smoke (burnt rubber), and Vendor Call (manure).'
 look:
   colors: []
   shape: null
@@ -71,10 +71,10 @@ research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'Source is the maker''s own submission to the community minibadge.wiki database, so treated as first-party. No independent press coverage found (not searched due to session web-search budget limits; only the minibadge.wiki data was checked). No chip/LED/PCB-color/quantity data given by the maker — this appears to be a simple PCB with pin headers and a scent sticker, no active electronics. "quantityMade" was recorded as 0 in the source data, which reads as unset/not tracked rather than a real count, so quantity was left blank rather than reported as zero.'
+  notes: 'Fact-check (2026-09-07): re-fetched both cited sources and confirmed all quoted text (full description, soldering instructions/difficulty, category, rarity, acquisition method, quantityMade=0) verbatim against minibadge.wiki/2025.json. Both saved images exist on disk and match the source''s frontImageUrl/backImageUrl for this entry. Corrected one overclaim: the original write-up said "no electronics beyond pin headers," but the maker''s own back-of-board photo clearly silkscreens an unpopulated resistor ("R1") and LED footprint (with a diode symbol) under "Odorama / Smell-O-Vision" branding — not mentioned anywhere in the maker''s text. Softened functions/body to note this discrepancy rather than asserting "no electronics." Left tech.leds null rather than guessing a count/type, since it is unclear whether that footprint is populated on shipped units or is leftover template art; this is the one thing this pass could not resolve, so status stays researched rather than verified. Source is the maker''s own submission to the community minibadge.wiki database (first-party). No independent press coverage found (not searched, per task scope). "quantityMade" is recorded as 0 in the source data, which reads as unset/not tracked rather than a real count, so quantity was left blank rather than reported as zero.'
 last_modified_date: '2026-09-07'
 ---
 
-Scratch and Sniff is a SAINTCON 2025 minibadge made by Pips (from 801 Labs) as a self-described "stupid idea": a small PCB minibadge with a scratch-and-sniff sticker stuck to the front. Beyond pin headers there is no electronics to solder or power — the badge exists purely to carry a scent.
+Scratch and Sniff is a SAINTCON 2025 minibadge made by Pips (from 801 Labs) as a self-described "stupid idea": a small PCB minibadge with a scratch-and-sniff sticker stuck to the front. The maker's only soldering instruction is the pin headers. The back of the board also carries an unpopulated resistor ("R1") and LED footprint, printed under the "Odorama / Smell-O-Vision" branding, that the maker's write-up does not describe or explain.
 
 Each badge is stamped with one of five security-themed scents: DNS (wet dirt), TOR (onion), Zodiak's Sandals (cheese), Magic Smoke (burnt rubber), and Vendor Call (manure). By the maker's own admission, all five smell bad, which was the joke; they mention a possible second run with pleasant scents. It is a beginner-level build (just solder the header pins) and was distributed by trading directly with the maker rather than sold.

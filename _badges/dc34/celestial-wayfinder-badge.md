@@ -45,7 +45,7 @@ get_one:
   - purchase
   where: Sold directly via the maker's storefront at wyrdwyrks.com.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/WyrdWyrks/Wayfinder-CAD
   firmware_url: https://github.com/WyrdWyrks/Celestial-Wayfinder
   eda_tool: null
@@ -75,13 +75,13 @@ links:
   kind: repo
 images:
 - file: assets/images/badges/dc34/celestial-wayfinder-badge/3df887f2d2.png
-  source: "https://wyrdwyrks.com/celestial-wayfinder/"
-  credit: "WyrdWyrks"
-  caption: "Celestial Wayfinder V3 badge"
+  source: https://wyrdwyrks.com/celestial-wayfinder/
+  credit: WyrdWyrks
+  caption: Celestial Wayfinder V3 badge
 - file: assets/images/badges/dc34/celestial-wayfinder-badge/51edea7416.jpg
-  source: "https://wyrdwyrks.com/celestial-wayfinder/"
-  credit: "WyrdWyrks"
-  caption: "Close-up of the LED compass ring lit up"
+  source: https://wyrdwyrks.com/celestial-wayfinder/
+  credit: WyrdWyrks
+  caption: Close-up of the LED compass ring lit up
 contact:
   emails:
   - Blakeb130@gmail.com
@@ -105,20 +105,22 @@ sources:
   listing: Update to Existing
 - kind: url
   url: https://wyrdwyrks.com/celestial-wayfinder/
-  title: "Celestial Wayfinder - WyrdWyrks"
+  title: Celestial Wayfinder - WyrdWyrks
   accessed: '2026-09-06'
-  note: "Primary source for summary, features, LEDs, MCU, display, price, and gallery images."
+  note: Primary source for summary, features, LEDs, MCU, display, price, and gallery images.
 - kind: url
   url: https://github.com/WyrdWyrks/Celestial-Wayfinder
-  title: "WyrdWyrks/Celestial-Wayfinder"
+  title: WyrdWyrks/Celestial-Wayfinder
   accessed: '2026-09-06'
-  note: "Confirmed hardware revisions (v1-v3), LoRa module (SX127x, 915 MHz), power system, magnetometer options, MIT license; no BOM/Gerbers visible."
+  note: Confirmed hardware revisions (v1-v3), LoRa module (SX127x, 915 MHz), power system, magnetometer options, MIT license; no BOM/Gerbers visible.
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-06'
-  notes: 'Maker''s own store page and GitHub repo confirm core facts. Quantity made and current stock status not stated anywhere found; left empty. No SAO header mentioned by the maker, so tech.sao_version left null. Set status to "released" since the maker sells it directly and documents it as a finished v3 device; the community sheet listed it as "New" then "Update to Existing" for DC34 (2026).'
+  notes: Maker's own store page and GitHub repo confirm core facts. Quantity made and current stock status not stated anywhere found; left empty. No SAO header mentioned by the maker, so tech.sao_version left null. Set status to "released" since the maker sells it directly and documents it as a finished v3 device; the community sheet listed it as "New" then "Update to Existing" for DC34 (2026).
 last_modified_date: '2026-09-06'
+related:
+- dc33-celestial-wayfinder-badge
 ---
 
 The Celestial Wayfinder is a handheld, battery-powered LoRa mesh device from WyrdWyrks built for finding friends and sending short encrypted messages at festivals and outdoor events without needing a phone or cell signal, at roughly 750 meters of range. Its most distinctive feature is a ring of 61 WS2812B LEDs that lights up as a compass, pointing the wearer toward the location of another unit that pinged them.

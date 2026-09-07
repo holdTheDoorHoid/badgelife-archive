@@ -90,10 +90,10 @@ sources:
   accessed: '2026-09-07'
   note: Describes a community-made 3D-printable protective case for the badge by T.B. Trzepacz, with design files on GitHub (softegg/supercon-2023-badge-enclosure); confirms badge has SMD buttons and through-hole expansion headers.
 research:
-  status: researched
+  status: verified
   confidence: high
   last_checked: '2026-09-07'
-  notes: 'Core facts (hardware, chips, features, open-source status) confirmed by the maker''s own repo and the Hackaday announcement post. No stated retail price or exact production quantity was found - this was the standard conference badge given to Supercon 2023 attendees, not a for-sale item, so get_one.price/quantity are left empty. tech.eda_tool set to Altium since the repo README lists Altium first alongside KiCad files; both formats are present. LED count/type not mentioned in any source reviewed (badge appears to rely on its LCD rather than addressable LEDs) so tech.leds left null.'
+  notes: 'Fact-check pass (2026-09-07): re-fetched all four cited sources (Hack-a-Day/Vectorscope repo, davedarko/Vectorscope fork, both Hackaday.com articles). Every non-empty field and every factual sentence in the summary/functions/body/Make-your-own section is supported: RP2040 + round GC9A01 LCD + AK4619 ADC/DAC repurposed for analog input, MicroPython firmware, MIT-licensed hardware+firmware with schematics/Gerbers/Altium+KiCad published, free distribution to Supercon 2023 attendees, and the community 3D-printable case by T.B. Trzepacz (STL + Fusion 360, preserves buttons/expansion header, adds lanyard holes). Both saved images are sourced from the Hackaday announcement article, which shows photos of this badge. No stated retail price or production quantity exists in any source - this was the standard conference badge, not sold - so get_one.price/quantity remain empty; that is correct, not a gap. tech.eda_tool set to Altium since the repo README lists Altium (Circuit Maker) as the primary format alongside a work-in-progress KiCad conversion. LED count/type, connectivity, battery, sao_version, colors, and gerbers/bom/license sub-fields are not stated in any source reviewed, so they remain empty/null as required.'
 last_modified_date: '2026-09-07'
 ---
 

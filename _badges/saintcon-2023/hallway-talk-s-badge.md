@@ -21,11 +21,11 @@ tech:
   leds:
     count: 1
     type: discrete
-    note: Single through-hole LED (D1) in series with one resistor (R1); user-soldered.
+    note: Single surface-mount LED (D1) in series with one surface-mount resistor (R1); user-soldered.
   display: none
   connectivity: []
   battery: null
-  power: powered by host badge
+  power: null
   sao_version: none
 get_one:
   price: free
@@ -81,10 +81,10 @@ sources:
   accessed: '2026-09-07'
   note: Back photo of the badge showing the D1 LED and R1 resistor placement, saved locally.
 research:
-  status: researched
+  status: verified
   confidence: medium
   last_checked: '2026-09-07'
-  notes: "All facts come from the minibadge.wiki 2023 JSON data export, not from the maker's own page (SHIFTY has no separate storefront, Hackaday, or repo found). Quantity made was not usably stated (the export's quantityMade field reads 0, which reads as unset rather than an actual count of zero, so quantity is left blank). No design files, BOM, or EDA tool were found; make_your_own left empty rather than guessed. Power/interconnect details for how SAINTCON minibadges receive power from a lanyard rail were not independently confirmed for this specific badge, so tech.power is a reasonable inference from the visible pin headers and SAINTCON minibadge convention, not a maker statement -- flagged here rather than stated as fact in the summary."
+  notes: "Fact-check pass (2026-09-07): re-fetched the minibadge.wiki 2023.json export directly and confirmed maker, description, category (Event), rarity (Uncommon), quantityMade (0, unset), and how-to-acquire text verbatim. Both saved images were re-downloaded from minibadge.wiki/images/2023/ and are byte-identical in content to the source, and the back image confirms exactly one LED (D1) and one resistor (R1). Corrected one error found by inspecting the back image: the LED and resistor are surface-mount components (visible flat SMD packages), not through-hole as the initial pass stated. Also removed tech.power ('powered by host badge'), which was an uncited inference rather than something stated by any source -- per the research guide, unsupported fields are left blank rather than kept with a caveat. All facts come from the minibadge.wiki 2023 JSON data export, not from the maker's own page (SHIFTY has no separate storefront, Hackaday, or repo found). No design files, BOM, or EDA tool were found; make_your_own left empty rather than guessed. Everything remaining in the entry is now supported by a source actually read."
 last_modified_date: '2026-09-07'
 ---
 

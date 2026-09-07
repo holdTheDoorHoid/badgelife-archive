@@ -10,7 +10,7 @@ event: other
 year: 2016
 makers:
 - name: Gee Bartlett
-  url: https://hackaday.io/gee-bartlett
+  url: https://hackaday.io/RabidInventor
   role: ''
 summary: An ESP8266-based open-source off-network mesh messaging badge, inspired by the radio badges seen at EMF Camp and similar events.
 functions: Peer-to-peer text messaging over Wi-Fi without needing existing network infrastructure, aimed at conference/event use.
@@ -37,8 +37,8 @@ get_one:
   distribution: []
   where: ''
 make_your_own:
-  open_source: partial
-  hardware_url: https://hackaday.io/project/9777-meshenger-badge
+  open_source: null
+  hardware_url: null
   firmware_url: null
   eda_tool: null
 links:
@@ -49,11 +49,7 @@ images:
 - file: assets/images/badges/other/meshenger-badge/37e916a2cf.jpg
   source: "https://hackaday.io/project/9777-meshenger-badge"
   credit: "Gee Bartlett"
-  caption: "Meshenger Badge project image"
-- file: assets/images/badges/other/meshenger-badge/32729cb1d0.jpg
-  source: "https://hackaday.io/project/9777-meshenger-badge"
-  credit: "Gee Bartlett"
-  caption: "PCB board preview render"
+  caption: "PCB board preview render (boardprev1.png)"
 contact: {}
 notes: []
 status: unknown
@@ -68,23 +64,41 @@ sources:
   title: Meshenger Badge - Hackaday.io project page
   accessed: '2026-09-07'
   note: 'Primary source for description, maker, MCU, design goals, and open-source status.'
+- kind: url
+  url: https://hackaday.io/project/9777-meshenger-badge
+  title: Meshenger Badge - Hackaday.io project page (fact-check re-fetch)
+  accessed: '2026-09-07'
+  note: 'Fact-check pass: verified author profile link, confirmed the two saved images are duplicates of the single Files-section attachment, and confirmed no hardware/firmware design files (only a preview image) are actually published.'
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-07'
   notes: >-
-    This is a personal hobby project by Gee Bartlett (started Feb 2016 on Hackaday.io),
-    not a badge made for or distributed at a specific convention -- it says it was
-    inspired by the radio badges seen at EMF Camp and similar events, but does not
-    claim to have been made for or issued at any particular one. The project appears
-    to have been shelved without a completed build: no price, quantity, release, or
-    firmware repository was found, and the PCB spec (2-layer, max 50x50mm, single-side
-    SMT, BOM target under GBP10) reads as a design goal rather than a confirmed final
-    product. LED count, display type, and battery type are not specified on the source
-    page. No firmware link was found despite the page mentioning Arduino IDE compatibility.
-    A related follow-up project exists, "Meshanger Badge V" (hackaday.io/project/176020),
-    an ESP32-C3 reboot by a different/unclear author -- not the same item, noted here
-    as a possible separate entry.
+    Fact-check pass (2026-09-07) re-fetched the Hackaday.io source and made three
+    corrections to the prior research pass: (1) the maker's profile URL was wrong
+    (https://hackaday.io/gee-bartlett 404s) -- corrected to the actual author link
+    on the page, https://hackaday.io/RabidInventor (display name "Gee Bartlett").
+    (2) The two saved images were byte-identical duplicates of the single file the
+    project page actually offers (boardprev1.png, a PCB layout preview) -- one was
+    mislabeled "Meshenger Badge project image" as if it were a separate photo; the
+    duplicate file was deleted and the remaining image's caption corrected to match
+    what it actually shows. (3) make_your_own.open_source was set to "partial" and
+    hardware_url pointed at the project page, but the page's Files section contains
+    only that one preview image -- no schematic, gerbers, BOM, or firmware/GitHub
+    link is published, only a stated intent to be open source ("Open Source" is
+    listed as a design goal, caveated by ESP8266 libraries being closed). Neither
+    hardware nor firmware design files are actually available, so open_source and
+    hardware_url were both cleared to null.
+    Everything else in the entry (maker, MCU/ESP8266 via ESP-12F module, wifi
+    connectivity, unspecified display/battery, PCB spec of 2-layer/max 50x50mm/
+    single-side SMT/BOM target under GBP10, rounded-corner wearable design goals,
+    privacy/freedom-of-information motivation, EMF Camp-style inspiration, Feb 2016
+    posting date, and shelved/not_released status) was independently confirmed
+    against the source page and is unchanged. This remains a personal hobby project,
+    not a badge made for or distributed at a specific convention, so event: other is
+    correct. A related follow-up project, "Meshanger Badge V" (hackaday.io/project/176020),
+    an ESP32-C3 reboot by a different/unclear author, is not the same item and may
+    warrant its own entry.
 last_modified_date: '2026-09-07'
 ---
 

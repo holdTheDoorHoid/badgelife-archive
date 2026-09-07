@@ -69,10 +69,10 @@ sources:
   accessed: '2026-09-07'
   note: Mirror of the same writeup on the maker's personal site; no additional detail.
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-07'
-  notes: The maker's own writeup is the only source; it names no event, chip, LEDs, price, or quantity, and no image of the physical board could be found anywhere (GitHub repo tree has no image file for this item, and the maker's site mirror carries none either). The folder is named with a "2510" (October 2025) date prefix but the writeup itself does not tie the design to any specific convention - only "while I'm being in America" - so event is left as other rather than guessed.
+  notes: 'Fact-check pass (2026-09-07): re-fetched all three cited sources (GitHub repo root, Add-Ons folder listing, the item''s own writeup on GitHub raw and its davedarko.com mirror) and confirmed the writeup''s wording verbatim, including the "while I''m being in America" line and the Open Days of the Mouse / Bernd das Brot / John Oliver / OSH Park Afterdark details. Confirmed no image file exists for this item in the Add-Ons folder (only the three .md files: 2411_TARS.md, 2411_YoDAWG.md, 2510_Maus_und_Brot.md) and the local images/ directory has none either, so images: [] is correct. Confirmed the repo README describes SAOs generally but does not list or link "Maus und Brot" specifically and states no license, so make_your_own fields are correctly left null/empty rather than guessed. Every non-empty field in this entry is supported by a source that was read; nothing here was invented or contradicted. Confidence stays low because only one substantive source exists, no image, no chip/price/quantity, and no convention is named.'
 last_modified_date: '2026-09-07'
 ---
 

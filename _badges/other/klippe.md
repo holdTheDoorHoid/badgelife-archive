@@ -14,7 +14,8 @@ makers:
 summary: A small lanyard clip from GhostGlitch that carries a coin-cell battery holder and an SAO v2 header, letting a lanyard power and display an SAO without a host badge.
 functions: Holds a CR-series coin cell and breaks out an SAOv2 (6-pin) connector so any SAO can be worn and powered directly from a lanyard.
 look:
-  colors: []
+  colors:
+  - green
   shape: null
   themes:
   - hardware tool
@@ -69,13 +70,13 @@ sources:
   accessed: '2026-09-07'
   note: 'Maker site checked; its SAO listing page does not mention Klippe by name, and no specific con/year tie-in was found for this accessory.'
 research:
-  status: researched
+  status: verified
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'Confirmed via the Uberflux storefront that this is a lanyard-mounted SAO holder (coin-cell + SAOv2 port), not a badge or SAO itself. No maker page, event, or year could be found tying it to a specific convention; GhostGlitch''s other work (Blushy, Mr. Cactus, Badgelife Village SAOs) is tied to DEF CON, but Klippe itself is sold as a standalone accessory with no stated event. MCU, LED, and open-source fields left empty since no source describes any electronics beyond the battery holder and connector.'
+  notes: 'Fact-check pass (2026-09-07): re-fetched both cited sources. Uberflux confirms lanyard fastener, coin-cell holder, SAOv2 port, $5/$20 for 5+, $10 flat shipping, out of stock (0 remaining) - matches the entry. ghostglitch.net confirms Klippe is absent from its SAO listing (only Blushy, Magic Blue Ball, and eSAO Hats are listed there) and there is no DEF CON or other event mention anywhere on the site. The prior draft''s claim that GhostGlitch''s other work included "Mr. Cactus" and "Badgelife Village SAOs" and was "DEF CON-adjacent" was not supported by either cited source (or any source on the maker''s own site) and has been removed from the body and these notes. No specific convention or year can be tied to Klippe. MCU, LED, and open-source fields correctly left empty; no source describes electronics beyond the battery holder and connector. Photo confirmed against the storefront listing - a green PCB with a coin-cell holder and 6-pin SAO header, matching the description.'
 last_modified_date: '2026-09-07'
 ---
 
-Klippe is a small lanyard accessory from GhostGlitch, the maker behind several DEF CON-adjacent SAOs and badges (Blushy, Mr. Cactus, the Badgelife Village SAOs). Rather than being a badge or SAO in its own right, it is a clip that mounts on a lanyard and carries a coin-cell battery holder alongside an SAO v2 (6-pin) header, so a wearer can plug in and power any compatible SAO without needing a full badge underneath it.
+Klippe is a small lanyard accessory from GhostGlitch, the maker behind the Blushy and Magic Blue Ball SAOs. Rather than being a badge or SAO in its own right, it is a clip that mounts on a lanyard and carries a coin-cell battery holder alongside an SAO v2 (6-pin) header, so a wearer can plug in and power any compatible SAO without needing a full badge underneath it.
 
 It was sold through GhostGlitch's Uberflux storefront for $5 (or $20 for a pack of five-plus), with flat $10 shipping. As of research, the listing shows it sold out with zero units remaining. No specific convention or year is named on the product page or on GhostGlitch's own site, so it appears to have been offered as a general-purpose accessory for the badge-collecting community rather than tied to one event.

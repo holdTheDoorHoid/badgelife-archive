@@ -31,7 +31,7 @@ get_one:
   availability: unknown
   distribution:
   - kit
-  where: 'Given to attendees, volunteers, and speakers at BSides Jacksonville 2018; assembled as a solder-it-yourself kit at the con.'
+  where: 'Planned as a solder-it-yourself kit for attendees, volunteers, and speakers at BSides Jacksonville 2018, per the maker''s project page; it is unconfirmed whether the badges were ultimately completed and handed out.'
 make_your_own:
   open_source: null
   hardware_url: null
@@ -42,11 +42,7 @@ links:
   url: https://hackaday.io/project/161486-security-b-sides-jax-2018-badge
   kind: hackaday
   archived: https://web.archive.org/web/20251117045210/https://hackaday.io/project/161486-security-b-sides-jax-2018-badge
-images:
-- file: assets/images/badges/bsides-jacksonville-2018/security-b-sides-jax-2018-badge/fd751cd658.jpg
-  source: "https://hackaday.io/project/161486-security-b-sides-jax-2018-badge"
-  credit: "Kirball"
-  caption: "Security BSides Jax 2018 attendee/volunteer/speaker badge kit"
+images: []
 contact: {}
 notes: []
 status: listed
@@ -66,7 +62,7 @@ research:
   status: researched
   confidence: low
   last_checked: '2026-09-07'
-  notes: 'The Hackaday.io project page is a call for help/sponsors, not a build log: no technical specs (MCU, LEDs, display), no price, quantity, or design files were ever posted. Maker Kirball describes it as "3 similar but different badges for volunteers, speakers, and attendees," made as a solder-it-yourself kit, with possible sponsor/donor variants mentioned as a stretch goal. No confirmation was found that the badges were actually completed and distributed versus remaining at the fundraising/planning stage.'
+  notes: 'The Hackaday.io project page is a call for help/sponsors, not a build log: no technical specs (MCU, LEDs, display), no price, quantity, or design files were ever posted. Maker Kirball describes it as "3 similar but different badges for volunteers, speakers, and attendees," made as a solder-it-yourself kit, with possible sponsor/donor variants mentioned as a stretch goal. No confirmation was found that the badges were actually completed and distributed versus remaining at the fundraising/planning stage. Fact-check (2026-09-07): removed the previously-saved image (og:image from the project page) — it is a Snapchat screenshot of a backpack patch and a drink, not a photo of the badge itself, and does not belong in this entry per the research guide (images must show the item). No other image of the badge was found on the project page or Kirball''s profile, so `images` is now empty.'
 last_modified_date: '2026-09-07'
 ---
 

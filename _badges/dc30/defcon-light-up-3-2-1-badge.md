@@ -14,7 +14,7 @@ summary: A battery-powered LED PCB badge made for DEF CON 30, referencing the co
 functions: Lights up LEDs on the front; no interactive functions described.
 look:
   colors: []
-  shape: rectangle
+  shape: circle
   themes:
   - text
   - meme
@@ -28,7 +28,7 @@ tech:
 get_one:
   price: ''
   price_usd: null
-  quantity: '50+ planned'
+  quantity: 50+ planned
   availability: unknown
   distribution: []
   where: ''
@@ -37,20 +37,18 @@ make_your_own:
   hardware_url: null
   firmware_url: null
   eda_tool: null
-  notes: 'Pick-and-place file and BOM shared via MEGA links on the PCBWay project page; Gerbers offered on request by email. No public repo found.'
+  notes: Pick-and-place file and BOM shared via MEGA links on the PCBWay project page; Gerbers offered on request by email. No public repo found.
 links:
 - label: www.pcbway.com/project/sponsor/DEFCON_Light_Up_3_2_1_badge_3ffbf9a7.html
   url: https://www.pcbway.com/project/sponsor/DEFCON_Light_Up_3_2_1_badge_3ffbf9a7.html
   kind: fab
+  archived: https://web.archive.org/web/20251107184230/https://www.pcbway.com/project/sponsor/DEFCON_Light_Up_3_2_1_badge_3ffbf9a7.html
 images:
 - file: assets/images/badges/dc30/defcon-light-up-3-2-1-badge/737dfaaf8d.jpg
-  source: "https://www.pcbway.com/project/sponsor/DEFCON_Light_Up_3_2_1_badge_3ffbf9a7.html"
-  credit: "Joshua McCoy"
-  caption: "Front of the badge PCB with LEDs and text"
-- file: assets/images/badges/dc30/defcon-light-up-3-2-1-badge/bd6802c19d.jpg
-  source: "https://www.pcbway.com/project/sponsor/DEFCON_Light_Up_3_2_1_badge_3ffbf9a7.html"
-  credit: "Joshua McCoy"
-  caption: "Back of the badge PCB, designed for CR2032 battery placement"
+  source: https://www.pcbway.com/project/sponsor/DEFCON_Light_Up_3_2_1_badge_3ffbf9a7.html
+  credit: Joshua McCoy
+  caption: Front of the badge PCB with LEDs and text
+  archived: https://web.archive.org/web/20251107184230/https://www.pcbway.com/project/sponsor/DEFCON_Light_Up_3_2_1_badge_3ffbf9a7.html
 contact: {}
 notes:
 - Battery-powered (CR2032) LED badge referencing the '3 hrs sleep, 2 meals, 1 shower' DEF CON joke; maker is a 16-year-old student seeking PCBWay sponsorship for ~50 units; pick-and-place and BOM available via MEGA links, Gerbers on request.
@@ -61,16 +59,19 @@ sources:
   title: DEFCON Light Up 3, 2, 1 badge
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: fab-shares); event read as ''DEFCON 30''.'
+  archived: https://web.archive.org/web/20251107184230/https://www.pcbway.com/project/sponsor/DEFCON_Light_Up_3_2_1_badge_3ffbf9a7.html
 - kind: url
   url: https://www.pcbway.com/project/sponsor/DEFCON_Light_Up_3_2_1_badge_3ffbf9a7.html
   title: DEFCON Light Up 3, 2, 1 badge - Sponsor - PCBWay
   accessed: '2026-09-07'
-  note: 'Re-fetched for full research pass: confirmed maker, event/year, CR2032 power, 2-layer PCB, design-file links, and pulled the two project photos.'
+  note: 'Re-fetched for full research pass: confirmed maker, event/year, CR2032 power, 2-layer PCB, design-file links, and pulled the front project photo.'
+  archived: https://web.archive.org/web/20251107184230/https://www.pcbway.com/project/sponsor/DEFCON_Light_Up_3_2_1_badge_3ffbf9a7.html
 research:
-  status: researched
+  status: verified
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'Only source found is the PCBWay sponsorship listing itself; no maker social media, GitHub, Hackaday page, or press coverage turned up in web searches. LED count/type, price, and final distribution/availability outcome are not stated anywhere found, so those fields are left empty. Unclear whether the badge was ever actually sponsored/fabricated and handed out at DEF CON 30, or remained a sponsorship pitch.'
+  notes: 'Fact-check pass (2026-09-07): re-fetched the PCBWay page and confirmed maker, event, battery, layer count, planned quantity, and design-file access as reported. Corrected look.shape from ''rectangle'' to ''circle'' (the board is a round pendant, per both the page''s renders and its lanyard-hole description). The two saved images were byte-identical despite being captioned as front and back; the page in fact hosts a distinct back-side render (showing the CR2032 holder) at a different URL, so the mislabeled duplicate was deleted rather than swapped in, since sourcing a new image is outside this fact-check''s scope. Only one photo (front) remains. Only source found is the PCBWay sponsorship listing itself; no maker social media, GitHub, Hackaday page, or press coverage turned up. LED count/type, price, and final distribution/availability outcome are not stated anywhere found, so those fields remain empty. Unclear whether the badge was ever actually sponsored/fabricated and handed
+    out at DEF CON 30, or remained a sponsorship pitch.'
 last_modified_date: '2026-09-07'
 ---
 

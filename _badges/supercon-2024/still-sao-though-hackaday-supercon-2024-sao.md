@@ -74,10 +74,10 @@ sources:
   accessed: '2026-09-07'
   note: 'Maker''s personal site is just a contact-links page; no mention of this project, so no additional bio/context found there.'
 research:
-  status: researched
+  status: verified
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'Only source is the maker''s own GitHub repo (README + firmware); no press coverage, storefront, or Hackaday.io project page found. Price, quantity, and availability are not stated anywhere, so left empty/unknown. No LICENSE file in the repo, so exact license is unspecified even though hardware and firmware are both published. Board shape/colors not determinable without a photo of the physical PCB (only an LED-blink preview GIF was found, no full board photo).'
+  notes: 'Fact-check pass 2026-09-07: verified README, firmware source (raw main.cpp), hardware/ directory listing (KiCad files), repo metadata (license: null via GitHub API), and kantoniak.com against every non-empty field and body sentence; all confirmed. Saved image (6bd70a9441.gif) byte-size matches readme/preview.gif in the repo exactly. Only source is the maker''s own GitHub repo (README + firmware); no press coverage, storefront, or Hackaday.io project page found. Price, quantity, and availability are not stated anywhere, so left empty/unknown. No LICENSE file in the repo, so exact license is unspecified even though hardware and firmware are both published. Board shape/colors not determinable without a photo of the physical PCB (only an LED-blink preview GIF was found, no full board photo).'
 last_modified_date: '2026-09-07'
 ---
 

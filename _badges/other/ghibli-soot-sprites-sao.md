@@ -80,10 +80,10 @@ sources:
   accessed: '2026-09-07'
   note: "Davedarko's umbrella Hackaday.io page for the SAO standard and his badge collection; does not mention the Ghibli/Soot Sprites design specifically, but is the maker's own reference page for the standard this board uses."
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-07'
-  notes: "No event, year, price, quantity, or availability is stated anywhere for this item — it appears to be one of davedarko's many small personal-gift SAOs rather than something made for or sold at a specific convention, so event was left as \"other\" per the research guide. No photo of the assembled board was found; the repo only contains CAD/vector source files, so no images could be saved. The board schematic shows no on-PCB LED footprint (only a resistor, CR2032 battery holder, and SAO header), while a companion OpenSCAD file models an LED socket inside a 3D-printed \"Kompeito\" candy shape, suggesting a discrete leaded LED is wired in separately rather than reflow-soldered to the PCB — left tech.leds empty since this is inferred from design files rather than stated directly. The repo readme's own compatibility table claims this design is Eagle-only, which conflicts with the KiCad project files actually present in the folder; flagged in notes above rather than guessed at."
+  notes: "Fact-check pass (2026-09-07): re-fetched all cited sources (repo root, README table, the Ghibli/Soot Sprites folder and its nested soot/ subfolder and production/ subfolder, the soot.kicad_sch and soot.kicad_pcb source, and the Hackaday.io SAO page) and confirmed every remaining claim -- the README's Eagle-only claim for this design conflicting with the actual KiCad files present, the schematic/PCB parts list (BT1 CR2032 holder, R1, J1 2x3 header, TP1-4, no LED, no MCU), the production/ subfolder holding netlist.ipc and soot.zip, and the Kompeito.scad candy shell with an LED socket cutout. No event, year, price, quantity, or availability is stated anywhere for this item, so event was left as \"other\" per the research guide. No photo of the assembled board was found; the repo only contains CAD/vector source files, so no images could be saved. tech.leds is left empty since the discrete-LED-in-3D-printed-shell setup is inferred from separate design files rather than stated directly by the maker."
 last_modified_date: '2026-09-07'
 ---
 

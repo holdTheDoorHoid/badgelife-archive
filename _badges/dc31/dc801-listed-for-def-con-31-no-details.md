@@ -40,13 +40,14 @@ links:
 - kind: website
   label: DC801 (dc801.org)
   url: https://dc801.org/
+  archived: https://web.archive.org/web/20260223201759/http://www.dc801.org/
 - kind: repo
   label: DC801 GitHub organization
   url: https://github.com/DC801
 images: []
 contact: {}
 notes:
-- 'Sheet listed only the maker name for DEF CON 31 (2023), no badge details.'
+- Sheet listed only the maker name for DEF CON 31 (2023), no badge details.
 status: unknown
 sources:
 - kind: sheet
@@ -58,31 +59,22 @@ sources:
   title: DC801 (dc801.org)
   accessed: '2026-09-06'
   note: Site currently shows only an "under construction" placeholder; no badge history or 2023 item listed.
+  archived: https://web.archive.org/web/20260223201759/http://www.dc801.org/
 - kind: url
   url: https://github.com/DC801
   title: DC801 GitHub organization
   accessed: '2026-09-06'
-  note: 'Repo list checked for a DEF CON 31 / 2023 badge repo (following the naming pattern of DC24PartyBadge, DC25PartyBadge, DC26PartyBadge, DC27PartyBadge). None exists; the newest badge-platform repo is BM-Badge, described as "DC28+".'
+  note: Repo list checked for a DEF CON 31 / 2023 badge repo (following the naming pattern of DC24PartyBadge, DC25PartyBadge, DC26PartyBadge, DC27PartyBadge). None exists; the newest badge-platform repo is BM-Badge, described as "DC28+".
 - kind: repo
   url: https://github.com/DC801/BM-Badge
   title: 'DC801/BM-Badge: The DC801 Badge Platform for DC28+'
   accessed: '2026-09-06'
-  note: 'Ongoing badge platform (nRF52840, 2.4" TFT, KiCad). README references DC32 content but not DC31/2023; its tagged releases are a 2021 "Hex Quest Part 1" game release and a 2024 "Hex Quest Part 2" release, with nothing tagged for 2023, so it could not be confirmed as the DC31 item.'
+  note: Ongoing badge platform (nRF52840, 2.4" TFT, KiCad). README references DC32 content but not DC31/2023; its tagged releases are a 2021 "Hex Quest Part 1" game release and a 2024 "Hex Quest Part 2" release, with nothing tagged for 2023, so it could not be confirmed as the DC31 item.
 research:
   status: researched
   confidence: low
   last_checked: '2026-09-06'
-  notes: >-
-    Could not determine what, if anything, DC801 brought to DEF CON 31 (2023). The community
-    sheet only listed the maker's name for that year with no other details. DC801's own site
-    (dc801.org) is currently an "under construction" placeholder with no historical badge
-    content. Their GitHub organization has a dedicated repo for each past party badge
-    (DC24PartyBadge through DC27PartyBadge) but none for DC31/2023; their ongoing BM-Badge
-    platform ("DC28+") has no 2023-tagged release, so it cannot be confirmed as what they
-    handed out that year, or whether they had a new badge at all. General web search was not
-    usable this session (search engines returned CAPTCHA challenges or exhausted the session's
-    search budget). Left as unknown per the "listed, no details" special case rather than
-    guessing; a future pass with search access or a direct question to DC801 could resolve this.
+  notes: Could not determine what, if anything, DC801 brought to DEF CON 31 (2023). The community sheet only listed the maker's name for that year with no other details. DC801's own site (dc801.org) is currently an "under construction" placeholder with no historical badge content. Their GitHub organization has a dedicated repo for each past party badge (DC24PartyBadge through DC27PartyBadge) but none for DC31/2023; their ongoing BM-Badge platform ("DC28+") has no 2023-tagged release, so it cannot be confirmed as what they handed out that year, or whether they had a new badge at all. General web search was not usable this session (search engines returned CAPTCHA challenges or exhausted the session's search budget). Left as unknown per the "listed, no details" special case rather than guessing; a future pass with search access or a direct question to DC801 could resolve this.
 last_modified_date: '2026-09-06'
 ---
 

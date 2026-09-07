@@ -72,7 +72,7 @@ sources:
   accessed: '2026-09-07'
   note: 'Maker full store name and location (Belgrade, MT, USA); confirms CR2032 battery, black PCB with multi-color cycling eye LEDs, simple through-hole kit (4 component types, 6 components); listing retired/no longer for sale; explicit note it is not a counterfeit of the real DC14 badge; source of the product photo.'
 research:
-  status: researched
+  status: verified
   confidence: medium
   last_checked: '2026-09-07'
   notes: >-
@@ -84,6 +84,11 @@ research:
     it was sold at that specific convention, so year is recorded as the creation year
     (2018) and event is left as "other." Price and quantity made were not stated by
     the maker in the sources checked. No open-source hardware/firmware files were found.
+    Fact-check pass (2026-09-07): re-fetched both cited sources; maker, year, ATtiny MCU,
+    CR2032 battery, black PCB, multi-color cycling eye LEDs, through-hole kit (4 component
+    types / 6 parts), sold_out/retired status, "not a counterfeit" framing, and the maker's
+    own quote about the badge inspiring their entry into hardware were all directly
+    confirmed. No unsupported fields or images found; nothing changed.
 last_modified_date: '2026-09-07'
 ---
 

@@ -210,6 +210,13 @@ thotcon-2024:
   year: 2024
   family: other
   location: ''
+thotcon-2025:
+  name: THOTCON 0xD (2025)
+  short: THOTCON 0xD
+  year: 2025
+  family: other
+  dates: 2025-05-30 to 2025-05-31
+  location: Chicago, IL
 thotcon-2018:
   name: Thotcon 2018
   short: Thotcon 2018
@@ -448,5 +455,23 @@ bsidesdfw-2021:
   name: BSidesdfw 2021
   short: BSidesdfw 2021
   year: 2021
+  family: bsides
+  location: ''
+bsides-cape-town-2016:
+  name: BSides Cape Town 2016
+  short: BSides Cape Town 2016
+  year: 2016
+  family: bsides
+  location: ''
+bsides-adelaide-2025:
+  name: BSides Adelaide 2025
+  short: BSides Adelaide 2025
+  year: 2025
+  family: bsides
+  location: ''
+bsidespr-2016:
+  name: BSidespr 2016
+  short: BSidespr 2016
+  year: 2016
   family: bsides
   location: ''

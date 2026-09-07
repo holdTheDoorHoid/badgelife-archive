@@ -12,7 +12,7 @@ makers:
 - name: TwinkleTwinkie
   url: https://hackaday.io/twinkletwinkie
 summary: A Final Fantasy Moogle-shaped Shitty Add-on made by TwinkleTwinkie for DEF CON 27 in 2019, with four upside-down-mounted 1206 LEDs (three in the wings, one in the bobble) and two resistors; Gerber files are attached to the project page.
-functions: The bobble glows red and the wing glows pink/pink when powered; no other interactivity.
+functions: The bobble glows red and the wings glow pink when powered; no other interactivity.
 look:
   colors:
   - red
@@ -92,10 +92,10 @@ sources:
   note: Storefront listing; confirmed SAO v1.69bis compatibility, LED colors (bobble red, wing pink), and that it is sold assembled and no longer available for sale.
   archived: https://web.archive.org/web/20260519051612/https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-kupo-badge-sao/
 research:
-  status: researched
+  status: verified
   confidence: high
   last_checked: '2026-09-07'
-  notes: Maker's own Hackaday project page and Tindie storefront both confirm the core facts. Price and quantity made are not stated anywhere found. The Hackaday summary calls the character a "Moggle," which is the maker's own spelling for the Final Fantasy Moogle.
+  notes: Fact-check re-fetched the Hackaday project page, gallery, and Tindie listing. All non-empty fields and body sentences are supported (LED count/placement/type, "two resistors," SAO v1.69bis compatibility, LED colors, sold-out/on-break status, Gerber file, Moggle/Moogle spelling). Fixed a "pink/pink" typo in `functions`. Both saved images visually match the sourced pages (moogle-shaped PCB, red bobble LED, pink wing LEDs). Price and quantity made remain unstated in any source found.
 last_modified_date: '2026-09-07'
 ---
 

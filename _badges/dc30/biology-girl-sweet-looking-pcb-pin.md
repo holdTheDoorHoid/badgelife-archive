@@ -29,7 +29,7 @@ tech:
   leds:
     count: null
     type: null
-    note: 'LEDs light up when the badge is switched on; exact count/type not stated by the retailer.'
+    note: LEDs light up when the badge is switched on; exact count/type not stated by the retailer.
   display: none
   connectivity: []
   battery: coin cell (sold separately)
@@ -39,7 +39,7 @@ get_one:
   price_usd: 9.95
   quantity: ''
   availability: sold_out
-  availability_note: 'Adafruit product page (accessed 2026-09-06) lists it as no longer stocked, pointing buyers to the Space Girl badge instead.'
+  availability_note: Adafruit product page (accessed 2026-09-06) lists it as no longer stocked, pointing buyers to the Space Girl badge instead.
   distribution:
   - purchase
   where: Adafruit (also distributed via Mouser, BlinkyParts, and Elecrow per the maker's site)
@@ -52,19 +52,22 @@ links:
 - label: www.adafruit.com/product/5496
   url: https://www.adafruit.com/product/5496
   kind: website
+  archived: https://web.archive.org/web/20260829043801/https://www.adafruit.com/product/5496
 - label: Maker Queen (Steph Piper)
   url: https://www.makerqueen.com.au/
   kind: website
-  note: "Maker's own site; confirms she designs the Maker Queen line of soldering-kit badges including this one."
+  note: Maker's own site; confirms she designs the Maker Queen line of soldering-kit badges including this one.
+  archived: https://web.archive.org/web/20260511120543/https://www.makerqueen.com.au/
 images:
 - file: assets/images/badges/dc30/biology-girl-sweet-looking-pcb-pin/c4ed46cdfd.jpg
-  source: "https://www.adafruit.com/product/5496"
-  credit: "Maker Queen (Steph Piper)"
-  caption: "Biology Girl PCB soldering kit badge/pin"
+  source: https://www.adafruit.com/product/5496
+  credit: Maker Queen (Steph Piper)
+  caption: Biology Girl PCB soldering kit badge/pin
+  archived: https://web.archive.org/web/20260829043801/https://www.adafruit.com/product/5496
 contact: {}
 notes:
 - Outstanding art! Even though a pin, it deserves a spot here
-- 'Retitled from the sheet''s descriptive name "Biology Girl sweet looking PCB pin" to the maker''s product name, "Biology Girl Soldering Kit."'
+- Retitled from the sheet's descriptive name "Biology Girl sweet looking PCB pin" to the maker's product name, "Biology Girl Soldering Kit."
 status: released
 sources:
 - kind: sheet
@@ -73,19 +76,21 @@ sources:
   updated: '2022-07-09'
 - kind: url
   url: https://www.adafruit.com/product/5496
-  title: "Biology Girl Soldering Kit by Maker Queen - Adafruit product page"
+  title: Biology Girl Soldering Kit by Maker Queen - Adafruit product page
   accessed: '2026-09-06'
-  note: "Confirms product name, maker, price ($9.95), and that it is a PCB soldering kit with a badge pin/clasp; also notes it is a 2019 ROAR! Awards Gold Winner and is currently no longer stocked."
+  note: Confirms product name, maker, price ($9.95), and that it is a PCB soldering kit with a badge pin/clasp; also notes it is a 2019 ROAR! Awards Gold Winner and is currently no longer stocked.
+  archived: https://web.archive.org/web/20260829043801/https://www.adafruit.com/product/5496
 - kind: url
   url: https://www.makerqueen.com.au/
-  title: "Maker Queen - Steph Piper"
+  title: Maker Queen - Steph Piper
   accessed: '2026-09-06'
-  note: "Maker's own site; confirms she is the designer behind the Maker Queen soldering-kit badge line and lists her retail distributors."
+  note: Maker's own site; confirms she is the designer behind the Maker Queen soldering-kit badge line and lists her retail distributors.
+  archived: https://web.archive.org/web/20260511120543/https://www.makerqueen.com.au/
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-06'
-  notes: 'Adafruit confirms the product, maker, and price, but does not state LED count/type, PCB dimensions, or exact quantity made. Could not confirm whether this specific kit was sold on-site at DC30 versus simply listed by a fan; sheet entry treats it as a con item.'
+  notes: Adafruit confirms the product, maker, and price, but does not state LED count/type, PCB dimensions, or exact quantity made. Could not confirm whether this specific kit was sold on-site at DC30 versus simply listed by a fan; sheet entry treats it as a con item.
 last_modified_date: '2026-09-06'
 ---
 

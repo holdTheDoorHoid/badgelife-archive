@@ -65,20 +65,24 @@ sources:
   accessed: '2026-09-07'
   note: 'targetDevice entry gives the MCU as PIC18F2455; only a USB-serial firmware skeleton is present in the repo, no schematic/PCB/BOM files despite the repo description mentioning hardware.'
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-07'
   notes: >-
-    The repo (dodgymike/bsides-badge-2015) contains only an MPLAB X project for
-    PIC18F2455 USB-to-serial firmware (pic-usb-serial/usb-serial.X) plus a
-    two-line README; despite the repo description promising "software,
-    hardware and docs," no schematic, PCB, BOM, or image files were found in
-    the tree, and a web search for independent coverage could not be run
-    (session search budget was exhausted). No maker statement on functions,
-    LEDs, display, price, quantity, or availability was found, so those
-    fields are left empty. The maker (dodgymike, a South African security/SDR
-    researcher) also has a bsidescpt2016badge repo for the following year's
-    event, noted separately.
+    Fact-check pass (2026-09-07): re-fetched the repo root, README, the
+    full repo file tree via the GitHub API, the MPLAB X configurations.xml,
+    and dodgymike's GitHub profile/repo list; every remaining field and
+    body sentence is directly supported by these. The repo (dodgymike/bsides-badge-2015)
+    contains only an MPLAB X project for PIC18F2455 USB-to-serial firmware
+    (pic-usb-serial/usb-serial.X) plus a two-line README; despite the repo
+    description promising "software, hardware and docs," the full tree
+    listing confirms no schematic, PCB, BOM, or image files exist. dodgymike's
+    profile confirms a Cape Town base and SDR/security focus, and their repo
+    list confirms the AND!XOR DC24 badge, DC26 Monero badge PCB, and
+    bsidescpt2016badge repos cited in the body. No maker statement on
+    functions, LEDs, display, price, quantity, or availability was found, so
+    those fields stay empty; independent (non-GitHub) coverage was still not
+    searched this pass, which is why confidence stays low.
 last_modified_date: '2026-09-07'
 ---
 

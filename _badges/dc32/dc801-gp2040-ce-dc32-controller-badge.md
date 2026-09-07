@@ -47,7 +47,7 @@ links:
 images: []
 contact: {}
 notes: []
-status: released
+status: unknown
 sources:
 - kind: url
   url: https://github.com/dc801/GP2040-CE
@@ -65,10 +65,10 @@ sources:
   accessed: '2026-09-07'
   note: 'Lists the GP2040-CE fork among DC801''s repos; no separate hardware/schematic repo for this badge found.'
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-07'
-  notes: 'Only source available is the DC801 fork of GP2040-CE and its README; no dedicated hardware repo, storefront listing, photos, price, or quantity information was found via web search. Could not confirm LEDs, display, exact power/battery arrangement, or SAO header presence. The badge is a controller device (buttons/stick input) rather than a display badge, consistent with the GP2040-CE gamepad-firmware basis, but no image of the physical hardware was located to verify form factor.'
+  notes: 'Fact-check pass (2026-09-07): confirmed via the DC801 fork README (raw.githubusercontent.com/dc801/GP2040-CE/main/README.md) and repo/org pages that this is a GP2040-CE fork targeting an RP2040 on "the DC801 Defcon 32 Controller Badge", adding a TLA2528 ADC and an ESP32-C3 Super Mini for BLE, and listing the SOCD cleaning modes, per-button RGB, web configurator, and input modes (X-Input, Switch, PS4/5, Xbox One, D-Input, keyboard) described in functions/body. DC801''s Salt Lake City location and prior DC25-28 badges are confirmed from the GitHub org page. Corrected status from "released" to "unknown": no source found (README, repo, or org page) states the badge was actually manufactured or given to attendees rather than being a firmware project for a planned/prototype badge. Still no dedicated hardware repo, storefront listing, photos, price, or quantity found, so those fields stay empty and confidence stays low.'
 last_modified_date: '2026-09-07'
 ---
 

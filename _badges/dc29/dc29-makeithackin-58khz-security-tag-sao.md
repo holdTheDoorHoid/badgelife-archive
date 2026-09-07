@@ -11,7 +11,7 @@ year: 2021
 makers:
 - name: MakeItHackin
   url: https://github.com/MakeItHackin
-summary: 'Free companion SAO to MakeItHackin''s DEF CON 29 "Security Tag" badge, made for fans who did not get one of the 25 hand-numbered badges: a small board with a 2x3 SAO header, 4 NeoPixels and an LED, with a real 58 kHz Sensormatic security tag applied to it so it sets off retail anti-theft alarms.'
+summary: 'Free companion SAO to MakeItHackin''s DEF CON 29 "Security Tag" badge, made for fans who did not get one of the 25 badges: a small board with a 2x3 SAO header, 4 NeoPixels and an LED, with a real 58 kHz Sensormatic security tag applied to it so it sets off retail anti-theft alarms.'
 functions: 'Passive novelty add-on: drives 4 NeoPixels and an LED off the host badge''s SAO power/data lines. The applied 58 kHz Sensormatic tag will trip a store''s security gates, same as the badge.'
 look:
   colors: []
@@ -30,23 +30,25 @@ tech:
   battery: powered by host badge
   sao_version: v2
 get_one:
-  price: 'free'
+  price: free
   price_usd: 0
-  quantity: 'unstated (badge run was 25; SAO quantity not given)'
-  availability: sold_out
+  quantity: unstated (badge run was 25; SAO quantity not given)
+  availability: free
   distribution:
   - free_drop
-  where: Handed out at DEF CON 29 (2021) to fans who followed the maker's TikTok/security-tag content but did not receive one of the 25 numbered badges; announced on the DEF CON forums.
+  where: Handed out at DEF CON 29 (2021) to fans who followed the maker's TikTok/security-tag content but did not receive one of the 25 badges; announced on the DEF CON forums.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/MakeItHackin/DEFCON29Badge/tree/main/PCBFiles
   firmware_url: null
+  gerbers_url: https://github.com/MakeItHackin/DEFCON29Badge/blob/main/PCBFiles/SAO_3v2_2021-07-21.zip
   eda_tool: Eagle
 notes: []
 links:
 - label: github.com/MakeItHackin/DEFCON29Badge
   url: https://github.com/MakeItHackin/DEFCON29Badge
   kind: repo
+  archived: https://web.archive.org/web/20260513103905/https://github.com/MakeItHackin/DEFCON29Badge/
 - label: github.com/MakeItHackin/DEFCON29Badge/tree/main/PCBFiles
   url: https://github.com/MakeItHackin/DEFCON29Badge/tree/main/PCBFiles
   kind: repo
@@ -57,10 +59,11 @@ links:
   url: https://www.tindie.com/products/makeithackin/makeithackin-def-con-29-electronic-badge/
   kind: store
 images:
-  - file: assets/images/badges/dc29/dc29-makeithackin-58khz-security-tag-sao/39e613ed34.jpg
-    source: "https://github.com/MakeItHackin/DEFCON29Badge"
-    credit: "MakeItHackin"
-    caption: "The DEF CON 29 SAO with 58 kHz Sensormatic security tag footprint"
+- file: assets/images/badges/dc29/dc29-makeithackin-58khz-security-tag-sao/39e613ed34.jpg
+  source: https://github.com/MakeItHackin/DEFCON29Badge
+  credit: MakeItHackin
+  caption: The DEF CON 29 SAO with 58 kHz Sensormatic security tag footprint
+  archived: https://web.archive.org/web/20260513103905/https://github.com/MakeItHackin/DEFCON29Badge/
 contact: {}
 status: released
 sources:
@@ -69,6 +72,7 @@ sources:
   title: DC 29 Badge and SAO (MakeItHackin/DEFCON29Badge)
   accessed: '2026-09-06'
   note: Found via the project's link list; intake pass identified this item here.
+  archived: https://web.archive.org/web/20260513103905/https://github.com/MakeItHackin/DEFCON29Badge/
 - kind: url
   url: https://forum.defcon.org/node/238085
   title: The MakeItHackin Security Tag Badge and SAO - DEF CON Forums
@@ -83,35 +87,24 @@ sources:
   url: https://github.com/MakeItHackin/DEFCON29Badge/tree/main/PCBFiles
   title: PCBFiles directory listing
   accessed: '2026-09-07'
-  note: Confirms Eagle .sch/.brd files for SAO_3 and a dated archive SAO_3v2_2021-07-21.zip; no separate Gerber files found.
+  note: Confirms Eagle .sch/.brd files for SAO_3; the dated archive SAO_3v2_2021-07-21.zip contains actual Gerber (.gbr) files per PCBFiles/ReadMe.md and the zip's own contents.
 - kind: url
   url: https://www.tindie.com/products/makeithackin/makeithackin-def-con-29-electronic-badge/
   title: MakeItHackin DEF CON 29 Electronic Badge - Tindie
   accessed: '2026-09-07'
   note: Sibling storefront listing for the assembled badge/kit (not the SAO specifically); used only to confirm the badge's product photo/branding.
 research:
-  status: researched
+  status: verified
   confidence: high
   last_checked: '2026-09-07'
-  notes: >-
-    Core facts (maker's own words) confirmed via the maker's July 14, 2021 DEF CON
-    forum post announcing the project: 25 badges made and handed to fans at DEF CON
-    29, with SAOs (also carrying a security tag) made as a free alternative for fans
-    who didn't get a badge. The GitHub repo (README and PCBFiles/ReadMe.md) confirms
-    the badge/SAO pairing, the two security tags (Checkpoint 8.2 MHz on the badge,
-    Sensormatic 58 kHz — this SAO's tag), and that Eagle schematic/board files plus
-    dated zips (SAO_3v2_2021-07-21.zip) are published, though no separate Gerber
-    (.gbr) files were found, only Eagle source. Exact SAO quantity, firmware (the
-    SAO appears passive, driven by the badge), and whether it was ever sold
-    separately (vs. only given away) were not stated anywhere found. The Tindie
-    listing found is for the full assembled badge/kit, not the SAO alone.
+  notes: 'Core facts (maker''s own words) confirmed via the maker''s July 14, 2021 DEF CON forum post announcing the project: 25 badges made and handed to fans at DEF CON 29, with SAOs (also carrying a security tag) made as a free alternative for fans who didn''t get a badge. The GitHub repo (README and PCBFiles/ReadMe.md) confirms the badge carries both security tags (Checkpoint 8.2 MHz and Sensormatic 58 kHz), and the SAO''s own board silkscreen (SAO.jpg) explicitly labels it "DEF CON 29 SAO with 58 kHz Security Tag" and shows a 2x3 (6-pin) SAO header. Eagle schematic/board files plus dated zips (SAO_3v2_2021-07-21.zip) are published; the zip was opened directly and contains actual Gerber (.gbr) files, matching PCBFiles/ReadMe.md which says "these are the Gerber files." (An earlier pass had wrongly claimed no Gerbers were found; corrected on fact-check.) Also corrected on fact-check: no source states the 25 badges were "numbered" - that detail was unsupported and has been removed. Exact SAO quantity, firmware (the SAO appears passive, driven by the badge), and whether it was ever sold separately (vs. only given away) were not stated anywhere found. The Tindie listing found is for the full assembled badge/kit, not the SAO alone.'
 last_modified_date: '2026-09-07'
 ---
 
 MakeItHackin's DEF CON 29 project paired a credit-card-shaped badge with a matching SAO, both carrying real retail anti-theft security tags — a nod to the maker's TikTok content about security tags. The badge got a Checkpoint 8.2 MHz tag and a Sensormatic 58 kHz tag; this SAO carries the 58 kHz Sensormatic tag on its own small board, alongside a 2x3 SAO header, four NeoPixels, and an LED, all powered from the host badge.
 
-Per the maker's own July 2021 DEF CON forum post, this was their first badge design: 25 badges were hand-made and given to fans encountered at the con, and the SAO was created as a free consolation piece for fans who didn't land one of the 25 badges — "LIMITED EDITION... lol," in the maker's words. Both the badge and SAO Eagle design files (schematic and board, with a dated `SAO_3v2_2021-07-21.zip`) are published on GitHub, though no separately exported Gerber files were found in the repo, only the Eagle CAD source.
+Per the maker's own July 2021 DEF CON forum post, this was their first badge design: 25 badges were hand-made and given to fans encountered at the con, and the SAO was created as a free consolation piece for fans who didn't land one of the 25 badges — "LIMITED EDITION... lol," in the maker's words. Both the badge and SAO Eagle design files (schematic and board, plus a dated `SAO_3v2_2021-07-21.zip` containing ready-to-fab Gerber files) are published on GitHub.
 
 ## Make your own
 
-The repo's `PCBFiles/` directory holds Eagle `.sch`/`.brd` files for `SAO_3` plus a dated archive (`SAO_3v2_2021-07-21.zip`); load these in Eagle (or a compatible EDA tool) to regenerate manufacturing files. No firmware is published, consistent with the SAO having no onboard microcontroller — the NeoPixels/LED are driven by the host badge over the SAO header.
+The repo's `PCBFiles/` directory holds Eagle `.sch`/`.brd` source for `SAO_3`, plus a dated archive (`SAO_3v2_2021-07-21.zip`) with ready-to-fab Gerber files. No firmware is published, consistent with the SAO having no onboard microcontroller — the NeoPixels/LED are driven by the host badge over the SAO header.

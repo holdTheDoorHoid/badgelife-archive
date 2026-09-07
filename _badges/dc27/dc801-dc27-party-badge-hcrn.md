@@ -37,7 +37,7 @@ get_one:
   availability: unknown
   distribution:
   - free_drop
-  where: Given out at the DC801 party at DEF CON 27 (Planet Hollywood suite, Aug 10-11 2019).
+  where: Given out for free at DC801's party during DEF CON 27; specific venue and dates not confirmed by sources.
 make_your_own:
   open_source: true
   hardware_url: https://github.com/dc801/DC27PartyBadge/tree/master/Hardware
@@ -83,14 +83,14 @@ sources:
   note: Confirmed The Expanse theme, the ship-repair walking game, and that 375 badges were produced. Also supplied front/rear photos.
   archived: https://web.archive.org/web/20260513003300/https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/
 research:
-  status: researched
+  status: verified
   confidence: high
   last_checked: '2026-09-07'
-  notes: Price and LED details (if any) were not found in any source and are left empty. Distribution is inferred as a free party give-away at the DC801 DEF CON 27 suite party (per Hackaday and the DEF CON forums party listing); no separate sale was found. A DEF CON forums thread titled "DC801 Party" exists but was not fetched since the GitHub repo and Hackaday article already confirmed the core facts.
+  notes: Fact-check pass (2026-09-07) re-fetched the GitHub README (raw README.md, not just the repo landing page) and the full text of the Hackaday article. All hardware/software/team-credit claims in the body and Make-your-own section checked out verbatim against the maker's README. However, the prior draft's claim that the party was held "at Planet Hollywood suite, Aug 10-11 2019" was NOT supported by either cited source (confirmed by a full-text search of the Hackaday article) and appears to have been invented despite research.notes attributing it to Hackaday/DEF CON forums; that detail has been removed from the body and get_one.where. Price and LED details remain unconfirmed by any source and are left empty.
 last_modified_date: '2026-09-07'
 ---
 
-The DC801 DC27 Party Badge, nicknamed HCRN, was handed out at DC801's party during DEF CON 27 in August 2019, held in a 4,000 sq ft Planet Hollywood suite. Five members of the DC801 hacker collective designed the badge, with additional help from the group to assemble and package the roughly 375 units that were produced.
+The DC801 DC27 Party Badge, nicknamed HCRN, was handed out for free at DC801's party during DEF CON 27 (2019). Five members of the DC801 hacker collective designed the badge, with additional help from the group to assemble and package the roughly 375 units that were produced.
 
 The badge is built around a Rigado BMD-340 module (a Nordic nRF52840, 64 MHz Cortex-M4F with 1 MB flash and 256 KB RAM) and centers on a SPI LCD screen. Rather than just blinking, the badge runs a small game themed after the TV series *The Expanse*: the wearer walks a character around the screen to find and repair broken parts of the ship. Beyond the game, the board is a fairly full-featured BLE/NFC hardware platform, with a speaker, six buttons, a microSD slot, JTAG and UART breakouts, micro USB, and both SAO and minibadge expansion connectors.
 

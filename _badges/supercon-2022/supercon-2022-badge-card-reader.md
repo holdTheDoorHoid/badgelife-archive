@@ -72,7 +72,7 @@ sources:
   accessed: '2026-09-07'
   note: 'Primary source for makers, function, construction, LEDs, and open-source status; identified project page as the definitive source.'
 research:
-  status: researched
+  status: verified
   confidence: medium
   last_checked: '2026-09-07'
   notes: 'MCU is not a general-purpose microcontroller in the usual sense: the project uses a Pixelblaze Sensor Expansion Board (with a 12-bit, 1 Msps ADC and a transimpedance amplifier) to manage the LEDs and read the card, so tech.mcu is left null rather than guessed. Built point-to-point with 34 AWG magnet wire and cardboard shims rather than on a PCB. Schematics were captured after the fact by a community member and shared as a KiCad file via Google Drive, not published by the makers themselves, so open_source is marked partial with no direct hardware_url. No price/quantity/commercial availability info exists since this was a one-off demo build, not a sold or distributed item. No additional web search was possible (session search budget exhausted); relied on the Hackaday.io project page, which is the maker-authored primary source.'

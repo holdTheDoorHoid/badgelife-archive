@@ -14,9 +14,15 @@ makers:
 summary: A hand-assembled RISC-V nametag badge from the Whiskey Pirates crew, sandwiching a PCB between an etched acrylic faceplate and a clear, edge-lit backplate.
 functions: Shows a customizable name on its OLED display, with firmware that tilts the displayed letters to match the physical angle of the badge as it hangs. RGB "eye" LEDs flicker through selectable color programs, and edge-lit RGB LEDs shine through the clear acrylic backplate. A red LED doubles as an ambient-light sensor and low-battery indicator. Four acrylic button caps on the badge's cross-bone arms provide input.
 look:
-  colors: [black, clear]
+  colors:
+  - black
+  - clear
   shape: skull
-  themes: [pirate, skull, radio, hardware tool]
+  themes:
+  - pirate
+  - skull
+  - radio
+  - hardware tool
 tech:
   mcu: GD32VF103 (RISC-V)
   leds:
@@ -24,7 +30,8 @@ tech:
     type: RGB
     note: RGB "eye" LEDs plus edge-lit RGB LEDs firing into the clear acrylic backplate; a separate red LED serves as light sensor and low-battery indicator.
   display: OLED
-  connectivity: [usb]
+  connectivity:
+  - usb
   battery: 1x AAA
   sao_version: null
 get_one:
@@ -32,8 +39,9 @@ get_one:
   price_usd: null
   quantity: ''
   availability: free
-  distribution: [free_drop]
-  where: 'Given out by the Whiskey Pirates crew to people found in person at DEF CON 29; the maker''s site states "we don''t sell it" and getting one requires "just be cool. no guarantees."'
+  distribution:
+  - free_drop
+  where: Given out by the Whiskey Pirates crew to people found in person at DEF CON 29; the maker's site states "we don't sell it" and getting one requires "just be cool. no guarantees."
 make_your_own:
   open_source: partial
   hardware_url: null
@@ -43,24 +51,29 @@ links:
 - label: whiskeypirates.com
   url: http://whiskeypirates.com/
   kind: website
+  archived: https://web.archive.org/web/20260611230249/http://whiskeypirates.com/
 - label: hackaday.com/2021/08/06/hands-on-whiskey-pirates-dc29-hardware-badge-blings-with-risc-v
   url: https://hackaday.com/2021/08/06/hands-on-whiskey-pirates-dc29-hardware-badge-blings-with-risc-v/
   kind: article
+  archived: https://web.archive.org/web/20260723225621/https://hackaday.com/2021/08/06/hands-on-whiskey-pirates-dc29-hardware-badge-blings-with-risc-v/
 - label: dc29.whiskeypirates.com
   url: https://dc29.whiskeypirates.com/
   kind: website
+  archived: https://web.archive.org/web/20260124233811/https://dc29.whiskeypirates.com/
 - label: 'git.trueserve.org: WhiskeyPirates/dc29-whiskey-pirates-badge'
   url: https://git.trueserve.org/WhiskeyPirates/dc29-whiskey-pirates-badge
   kind: repo
 images:
 - file: assets/images/badges/dc29/whiskey-pirates-dc29-hardware-badge/5bf24e8a34.jpg
-  source: "https://hackaday.com/2021/08/06/hands-on-whiskey-pirates-dc29-hardware-badge-blings-with-risc-v/"
-  credit: "Hackaday / TrueControl"
-  caption: "Front of the badge showing the OLED nametag through the etched acrylic faceplate"
+  source: https://hackaday.com/2021/08/06/hands-on-whiskey-pirates-dc29-hardware-badge-blings-with-risc-v/
+  credit: Hackaday / TrueControl
+  caption: Front of the badge showing the OLED nametag through the etched acrylic faceplate
+  archived: https://web.archive.org/web/20260723225621/https://hackaday.com/2021/08/06/hands-on-whiskey-pirates-dc29-hardware-badge-blings-with-risc-v/
 - file: assets/images/badges/dc29/whiskey-pirates-dc29-hardware-badge/ac3372ce80.jpg
-  source: "https://hackaday.com/2021/08/06/hands-on-whiskey-pirates-dc29-hardware-badge-blings-with-risc-v/"
-  credit: "Hackaday / TrueControl"
-  caption: "Edge-lit RGB LEDs shining through the clear acrylic backplate"
+  source: https://hackaday.com/2021/08/06/hands-on-whiskey-pirates-dc29-hardware-badge-blings-with-risc-v/
+  credit: Hackaday / TrueControl
+  caption: Edge-lit RGB LEDs shining through the clear acrylic backplate
+  archived: https://web.archive.org/web/20260723225621/https://hackaday.com/2021/08/06/hands-on-whiskey-pirates-dc29-hardware-badge-blings-with-risc-v/
 contact: {}
 notes:
 - RISC-V (GD32VF103) badge with edge-lit acrylic sandwich, OLED display showing tilt-corrected name text, serialized hand-assembled units.
@@ -71,16 +84,19 @@ sources:
   title: Whiskey Pirates DC29 Hardware Badge
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: dc28-dc29); event read as ''DEF CON 29 (unofficial)''.'
+  archived: https://web.archive.org/web/20260611230249/http://whiskeypirates.com/
 - kind: url
   url: https://hackaday.com/2021/08/06/hands-on-whiskey-pirates-dc29-hardware-badge-blings-with-risc-v/
   title: 'Hands-On: Whiskey Pirates DC29 Hardware Badge Blings With RISC-V'
   accessed: '2026-09-07'
-  note: 'Primary source for chip (GD32VF103 RISC-V, plus a PDK13 Padauk chip and a CH552T USB debug chip), OLED tilt-text feature, RGB eye and edge LEDs, red light-sensor/low-battery LED, acrylic-PCB-acrylic construction, button caps, USB ports, AAA battery, hard power switch, serialization, and hand-assembly (~4 hours/badge). Also source of both saved images.'
+  note: Primary source for chip (GD32VF103 RISC-V, plus a PDK13 Padauk chip and a CH552T USB debug chip), OLED tilt-text feature, RGB eye and edge LEDs, red light-sensor/low-battery LED, acrylic-PCB-acrylic construction, button caps, USB ports, AAA battery, hard power switch, serialization, and hand-assembly (~4 hours/badge). Also source of both saved images.
+  archived: https://web.archive.org/web/20260723225621/https://hackaday.com/2021/08/06/hands-on-whiskey-pirates-dc29-hardware-badge-blings-with-risc-v/
 - kind: url
   url: https://dc29.whiskeypirates.com/
   title: WP DC29 - firmware and FAQ page
   accessed: '2026-09-07'
   note: 'Maker''s own DC29 badge page: confirms firmware/source download links, that the badge is not sold ("we don''t sell it"), and distribution by chance/social proximity at the con ("just be cool. no guarantees").'
+  archived: https://web.archive.org/web/20260124233811/https://dc29.whiskeypirates.com/
 - kind: url
   url: https://git.trueserve.org/WhiskeyPirates/dc29-whiskey-pirates-badge
   title: WhiskeyPirates/dc29-whiskey-pirates-badge - trueserve Git
@@ -90,7 +106,7 @@ research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'Maker''s own pages and Hackaday agree on construction and distribution. LED count, exact quantity made, and whether hardware design files (KiCad/Gerbers) are included in the linked repo could not be confirmed (the repo requires login to browse past the top-level page). No price - the maker states explicitly it is not sold, only given to people met in person at the con.'
+  notes: Maker's own pages and Hackaday agree on construction and distribution. LED count, exact quantity made, and whether hardware design files (KiCad/Gerbers) are included in the linked repo could not be confirmed (the repo requires login to browse past the top-level page). No price - the maker states explicitly it is not sold, only given to people met in person at the con.
 last_modified_date: '2026-09-07'
 ---
 

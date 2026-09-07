@@ -68,10 +68,10 @@ sources:
   accessed: '2026-09-07'
   note: 'Confirmed event/year, RFID interest-tag/location-based networking concept, opt-out (chip-free badge on request), and pulled the badge photo (hope-badge-rfid.jpg) from the article.'
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-07'
-  notes: 'Confirmed via Hackaday only; the maker''s own project page (thelasthope.org/amd.php) was unreachable (certificate mismatch, and no Wayback snapshot exists). Could not confirm chip/MCU, LEDs, exact quantity made, or a named individual designer. Left tech.* fields empty rather than guess.'
+  notes: 'Fact-check pass (2026-09-07): every non-empty field and prose sentence was checked against the Hackaday article and confirmed (interest tags/location-based networking, opt-out chip-free badge, tombstonian shape note, hope.net contact address, RFID connectivity, free distribution). Confidence stays low because only a single third-party source was reachable; the maker''s own project page (thelasthope.org/amd.php) remains unreachable (certificate mismatch, no Wayback snapshot). tech.mcu/leds/display/battery/sao_version, get_one.price/quantity, make_your_own.*, look.shape/colors, and contact remain empty for lack of a source.'
 last_modified_date: '2026-09-07'
 ---
 

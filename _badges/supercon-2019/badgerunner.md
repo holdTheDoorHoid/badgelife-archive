@@ -10,7 +10,7 @@ event: supercon-2019
 year: 2019
 makers:
 - name: Claire Sun
-  url: https://hackaday.io/claire-sun
+  url: https://hackaday.io/csun.codes
 - name: Stephen Hawes
   url: https://github.com/sphawes
 summary: A Blade Runner-themed badge for Hackaday Supercon 2019 shaped like the Tyrell Corporation's owl, with an ESP12 driving nine NeoPixels (eight on the front flashing a hidden message, one reversed to backlight the cybernetic eye), LiPo power with micro-USB charging, and an SAO header on each ear.
@@ -22,7 +22,6 @@ look:
   - sci-fi
   - cyberpunk
   - bird
-  - security
 tech:
   mcu: ESP12
   leds:
@@ -43,7 +42,7 @@ get_one:
   - purchase
   where: Sold in person at Supercon 2019; remaining stock was planned to go up on Tindie afterward, but no Tindie listing could be confirmed.
 make_your_own:
-  open_source: partial
+  open_source: yes
   hardware_url: https://github.com/sphawes/badgerunner
   firmware_url: https://github.com/sphawes/badgerunner
   gerbers_url: null
@@ -79,10 +78,10 @@ sources:
   accessed: '2026-09-07'
   note: Maker's own project writeup - origin story, event, ESP12/NeoPixel details, battery, SAO headers, and that it was sold at Supercon with leftover stock intended for Tindie.
 research:
-  status: researched
+  status: verified
   confidence: medium
   last_checked: '2026-09-07'
-  notes: Hackaday.io project page lists only Claire Sun as the creator; GitHub repo (hardware/firmware host) is owned by Stephen Hawes (sphawes), so both are credited as makers per the existing sheet entry. No price or production quantity could be confirmed from either source. Could not confirm whether the badge was ever actually listed on Tindie after Supercon. GitHub repo contains "art" and "pcb" folders (KiCad-based) but no explicit open-source license file was found, so make_your_own.open_source is marked "partial" rather than "yes".
+  notes: 'Fact-check pass (2026-09-07): re-fetched both cited sources and confirmed all non-empty fields and body sentences against them. Two corrections made. (1) The Claire Sun maker URL was dead (hackaday.io/claire-sun 404s); the Hackaday.io project page''s own author link resolves to hackaday.io/csun.codes, which is her real profile and does list this project - fixed. (2) make_your_own.open_source was "partial", reasoned from the absence of a LICENSE file in the repo; per this archive''s own field definition ("yes" if hardware and firmware are both published), the repo contains both the PCB/art files and the firmware sketch, and the maker''s own project page states outright that "this project is opensource and all the code and files needed to build your own Badgerunner is located on Github" - changed to "yes". Also removed the "security" look.theme tag: nothing in either source ties this badge to security/hacking function or theming beyond the general Blade Runner setting, and it does not fit the archive''s vocabulary as used elsewhere; "sci-fi", "cyberpunk", and "bird" are all directly supported. Independently confirmed via the GitHub API that the "sphawes" account name is in fact Stephen Hawes, matching the credited maker. Hackaday.io project page lists only Claire Sun as the creator; GitHub repo (hardware/firmware host) is under Stephen Hawes''s account, so both remain credited as makers per the sheet. No price or production quantity is stated anywhere. Could not confirm whether the badge was ever actually listed on Tindie after Supercon (no independent Tindie search was run for this pass). The saved image was checked against its cited Hackaday.io source page and clearly shows this badge (owl-shaped black PCB, visible ESP-12E module, 8 front NeoPixels, micro-USB jack, header pins on both ears).'
 last_modified_date: '2026-09-07'
 ---
 

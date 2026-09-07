@@ -95,6 +95,7 @@ sources:
   title: Original badge.life archive page
   accessed: '2026-09-06'
   note: Migrated from the badge.life Badge Archive; the original page is preserved as the entry body. Lists the maker/dev team and the seven original photo filenames (tron1-tron7.jpg), none of which resolve any longer.
+  archived: https://web.archive.org/web/20260811022040/https://badge.life/badges/dc30/iwc/
 - kind: url
   url: https://github.com/Ironwood-Cyber/dc30-badge-hw
   title: 'Ironwood-Cyber/dc30-badge-hw: Tron badge hardware schematics'

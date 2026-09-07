@@ -52,11 +52,11 @@ links:
   kind: doc
 images:
 - file: assets/images/badges/saintcon-2022/healthcare-community-badge/7071d064ba.jpg
-  source: "https://minibadge.wiki/data/"
+  source: "https://minibadge.wiki/images/2022/healthcare-community-badge-front.png"
   credit: "Jup1t3r"
   caption: "Front of the Healthcare Community minibadge"
 - file: assets/images/badges/saintcon-2022/healthcare-community-badge/2ba3f31689.jpg
-  source: "https://minibadge.wiki/data/"
+  source: "https://minibadge.wiki/images/2022/healthcare-community-badge-back.png"
   credit: "Jup1t3r"
   caption: "Back of the Healthcare Community minibadge, showing LED/resistor pads"
 contact: {}
@@ -75,10 +75,10 @@ sources:
   accessed: '2026-09-07'
   note: 'Underlying JSON record for this badge: maker, description, soldering instructions, category/rarity, and how-to-acquire text. The search-results page itself is client-rendered and returns no content when fetched directly.'
 research:
-  status: researched
+  status: verified
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'The minibadge.wiki listing (via its 2022.json data file, since the search page itself is JS-rendered and returns empty) is the only source found; no maker page, repo, or storefront located. quantityMade is recorded as 0 in the source data, which reads as "not stated" rather than a real quantity of zero, so get_one.quantity was left empty. Exact LED count and board colors are not stated in the source.'
+  notes: 'Fact-check pass (2026-09-07): re-fetched https://minibadge.wiki/2022.json directly and confirmed every populated field (title, maker, description, soldering instructions, category/rarity, howToAcquire) against the underlying JSON record verbatim. Fetched the actual image files at https://minibadge.wiki/images/2022/healthcare-community-badge-front.png and .../healthcare-community-badge-back.png and confirmed pixel-for-pixel they are the two saved images; corrected the images'' "source" URLs from a generic "https://minibadge.wiki/data/" placeholder to those real image URLs. The minibadge.wiki listing (via its 2022.json data file, since the search page itself is JS-rendered and returns empty) remains the only source found; no maker page, repo, or storefront located. quantityMade is recorded as 0 in the source data, which reads as "not stated" rather than a real quantity of zero, so get_one.quantity was correctly left empty. Exact LED count and board colors are not stated in the source, so those fields correctly remain empty/null. All body-text sentences check out against the source.'
 last_modified_date: '2026-09-07'
 ---
 

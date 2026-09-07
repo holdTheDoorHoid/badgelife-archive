@@ -15,8 +15,7 @@ functions: ''
 look:
   colors: []
   shape: null
-  themes:
-  - puzzle
+  themes: []
 tech:
   mcu: none
   leds:
@@ -70,13 +69,13 @@ sources:
   accessed: '2026-09-07'
   note: 'Raw JSON record for the badge: author Jup1t3r, conference year 2021, LED count and soldering instructions, front/back image URLs. No description, price, quantity, or acquisition method listed in the export.'
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-07'
-  notes: 'The minibadge.wiki search page itself is JavaScript-rendered and returned no content directly; the underlying data came from the site''s public 2021.json data export instead. That record has no description, category, quantity, or "how to acquire" field filled in, so summary/functions/theme/price/availability could not be confirmed beyond the soldering instructions and image evidence. A web search for the maker or badge could not be run (session search budget exhausted); a future pass could try again for more context on Jup1t3r and this minibadge series.'
+  notes: 'Fact-check pass (2026-09-07): re-fetched https://minibadge.wiki/2021.json directly and located the exact SCAVENGER HUNT record. It confirms author Jup1t3r, two LEDs (D1, D2) with "green dot toward the top" orientation, a single no-polarity resistor, and beginner soldering difficulty -- all matching what was in the entry. Its "category" field is empty (no theme documented), so the previously filled look.themes: [puzzle] was unsupported invention and has been blanked. The body''s claim that the LEDs are "through-hole" was also unsupported by the source text and was removed (the board render shows small chip-style LED footprints, not through-hole pads). Front/back images were re-downloaded from minibadge.wiki/images/2021/scavenger-hunt-front.png and -back.png and visually match the two saved files pixel-for-pixel in layout/content, confirming they depict this badge. The minibadge.wiki search page itself is still JavaScript-rendered and returns no content directly; the JSON export remains the only usable source. price/quantity/availability/functions genuinely have no documentation anywhere found, hence confidence stays low despite the remaining claims being verified.'
 last_modified_date: '2026-09-07'
 ---
 
-The Scavenger Hunt minibadge was made by Jup1t3r for SAINTCON 2021, part of the SAINTCON community's yearly minibadge tradition of trading small hand-built PCBs at the conference. It is a simple, beginner-level soldering kit: two through-hole LEDs (D1 and D2, oriented by a green dot marking) and a single non-polarized resistor, with no microcontroller.
+The Scavenger Hunt minibadge was made by Jup1t3r for SAINTCON 2021, part of the SAINTCON community's yearly minibadge tradition of trading small hand-built PCBs at the conference. It is a simple, beginner-level soldering kit: two LEDs (D1 and D2, oriented by a green dot marking) and a single non-polarized resistor, with no microcontroller.
 
 Beyond the physical build, little else is documented. The minibadge.wiki community database, which is the only source found for this badge, does not record a description, theme, price, quantity made, or how it was distributed — those fields are simply blank in the maker's own submission. The front and back board images from that database are the only other detail available.

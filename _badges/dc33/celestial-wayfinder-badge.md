@@ -42,7 +42,7 @@ get_one:
   - preorder
   where: Pre-ordered via the maker's storefront at wyrdwyrks.com/celestial-wayfinder/.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/WyrdWyrks/Wayfinder-CAD
   firmware_url: https://github.com/WyrdWyrks/Celestial-Wayfinder
   eda_tool: null
@@ -62,10 +62,7 @@ links:
 images: []
 contact: {}
 notes:
-- This is the same product already documented in full at dc34-celestial-wayfinder-badge.
-  This forum thread (posted July 2026, by a forum member "d3g3n" who is not the maker)
-  is a pre-order announcement for what became the DC34 (2026) release; the sweep's
-  "DEF CON 33" reading of the event was incorrect.
+- This is the same product already documented in full at dc34-celestial-wayfinder-badge. This forum thread (posted July 2026, by a forum member "d3g3n" who is not the maker) is a pre-order announcement for what became the DC34 (2026) release; the sweep's "DEF CON 33" reading of the event was incorrect.
 status: announced
 sources:
 - kind: url
@@ -77,18 +74,20 @@ sources:
   url: https://forum.defcon.org/node/255944
   title: Celestial Wayfinder badge - DEF CON Forums
   accessed: '2026-09-07'
-  note: 'Forum post dated July 5, 2026, by user d3g3n (a poster, not the maker), announcing pre-orders for WyrdWyrks'' Celestial Wayfinder ahead of DEF CON 34 (Aug 2026); gives price, features, and pre-order link.'
+  note: Forum post dated July 5, 2026, by user d3g3n (a poster, not the maker), announcing pre-orders for WyrdWyrks' Celestial Wayfinder ahead of DEF CON 34 (Aug 2026); gives price, features, and pre-order link.
 - kind: url
   url: https://wyrdwyrks.com/celestial-wayfinder/
   title: Celestial Wayfinder - WyrdWyrks
   accessed: '2026-09-07'
-  note: 'Maker storefront confirms product identity, ESP32-S3/OLED/LoRa/GPS/LED specs, and price; matches the already-researched dc34 entry.'
+  note: Maker storefront confirms product identity, ESP32-S3/OLED/LoRa/GPS/LED specs, and price; matches the already-researched dc34 entry.
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-07'
   notes: 'Duplicate of dc34-celestial-wayfinder-badge, which is already fully researched with images and repo details. This DC33-filed entry came from a forum thread whose event tag ("DEF CON 33") was misread by the discovery sweep: the thread is dated July 2026 and is a pre-order announcement for the device that actually shipped for DEF CON 34 (2026), matching the maker''s own dc34 storefront listing exactly (same price tiers, same specs). No DC33 (2025)-specific release of this badge was found. Left event as dc33 per instructions (not to move/rename the file) but this should be treated as a duplicate/misfile of the dc34 entry, which is the canonical record. status set to "announced" (pre-order stage) rather than "released" to reflect what this specific source actually shows.'
 last_modified_date: '2026-09-07'
+related:
+- dc34-celestial-wayfinder-badge
 ---
 
 The Celestial Wayfinder is a handheld LoRa mesh device from WyrdWyrks that lets festival- and conference-goers ping their location to friends and follow a ring of 61 WS2812B LEDs, which lights up as a compass pointing toward the sender. It runs on an ESP32-S3 with a 128x128 OLED display, GPS, a magnetometer/IMU, five mechanical switches, a rotary encoder, haptic feedback, and a buzzer, in a cyberpunk-styled 3D-printed case with carabiner and lanyard mounts.

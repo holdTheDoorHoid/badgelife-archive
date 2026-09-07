@@ -57,10 +57,6 @@ images:
     source: "https://hackaday.io/project/193538-hack-a-sketch"
     credit: "Jeremy Geppert / Andy Geppert"
     caption: "Hack-a-Sketch: a 3D-printed frame and dual potentiometer knobs added to a Supercon 2023 Vectorscope badge"
-  - file: assets/images/badges/supercon-2023/hack-a-sketch/8a5f5c0875.jpg
-    source: "https://hackaday.io/project/193538-hack-a-sketch"
-    credit: "Jeremy Geppert / Andy Geppert"
-    caption: "Etch-a-Sketch style drawing mode running on the modified Vectorscope badge display"
 contact: {}
 notes: []
 status: released
@@ -86,10 +82,10 @@ sources:
   accessed: '2026-09-07'
   note: 'Background on the host badge (RP2040-based Vectorscope) that Hack-a-Sketch was built on top of.'
 research:
-  status: researched
+  status: verified
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'This is a badge hack/mod built on top of the official Hackaday Supercon 2023 "Vectorscope" badge, not a standalone badge or SAO -- classified here as type: accessory since it requires the host badge and is a physical add-on (3D-printed frame + potentiometer knobs) plus a small firmware patch. Event corrected from "other" to "supercon-2023" per _data/events.yml, matching the con the Vectorscope badge (and this hack) was made for. No price, quantity, or sales info found -- it was a personal/collaborative con build, not sold. No dedicated GitHub repo for the Hack-a-Sketch mod itself was found; firmware and STL files are hosted as direct downloads on the Hackaday.io project page.'
+  notes: 'Fact-check pass (2026-09-07): re-fetched all three cited sources (Hackaday.io project page, Hack-a-Day/Vectorscope GitHub repo, hackaday.com article). Confirmed makers, event/year, mechanism (two potentiometers wired into the Vectorscope''s Lissajous/X-Y scope mode), the Friday-night firmware tweak and Saturday addition of a dedicated gray-background/black-line menu mode, the downloadable STL/gcode/firmware files, and that the Vectorscope is the official RP2040-based 2023 Supercon badge. The body''s "brother"/"nephew" wording matches the maker''s own project description ("collaboration project between my brother, nephew, myself and others"), though the page does not say by name which of Andy Geppert or pandiarajan2122 is the brother vs. the nephew -- the body''s pairing (Andy = brother, sharing the Geppert surname) is a reasonable but not explicitly confirmed inference. Removed a second saved image (8a5f5c0875.jpg) that turned out, on inspection, to show an unrelated white "Artemis Says" device, not Hack-a-Sketch or the Vectorscope -- likely mis-grabbed during image fetch; only one image (bbb652e85d.jpg, verified as the actual Hack-a-Sketch build) remains. This is a badge hack/mod built on top of the official Hackaday Supercon 2023 "Vectorscope" badge, not a standalone badge or SAO -- classified as type: accessory since it requires the host badge and is a physical add-on (3D-printed frame + potentiometer knobs) plus a small firmware patch. Event corrected from "other" to "supercon-2023" per _data/events.yml. No price, quantity, or sales info exists -- it was a personal/collaborative con build, not sold. No dedicated GitHub repo for the Hack-a-Sketch mod itself exists; firmware and STL files are hosted as direct downloads on the Hackaday.io project page.'
 last_modified_date: '2026-09-07'
 redirect_from:
 - /badges/other/hack-a-sketch/

@@ -16,8 +16,7 @@ functions: ''
 look:
   colors: []
   shape: null
-  themes:
-  - puzzle
+  themes: []
 tech:
   mcu: null
   leds: null
@@ -70,11 +69,31 @@ sources:
   note: 'Confirms three design files exist for the piece: dice-top.zip (57.19 kB, "Top of the 3D Dice shitty add-on"), dice-sides.zip (40.92 kB, "side of the 3D Dice shitty add-on"), and dice-bottom.zip (66.92 kB, "Bottom of the 3D Dice shitty add-on"). All three are timestamped 03/04/2019, i.e. uploaded as part of the maker''s post-con documentation update, not at DC26 itself. No thumbnail, description beyond the filenames, MCU/LED/price information, or photo of the assembled dice is present.'
   archived: https://web.archive.org/web/20260907115748/https://hackaday.io/project/159952/files
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-07'
-  notes: Only source is the maker's own Hackaday.io project page and its files listing; no press coverage, storefront, or social posts were found for this specific piece (a web search for "3D Dice" + awkward intelligence turned up nothing new before the session's search budget was exhausted). The dice is confirmed to exist only through three uploaded Gerber/design archives named for its top, side, and bottom PCBs - consistent with a small stack of separate boards soldered into a six-sided die shape, the way other "PCB dice" SAOs in the hobby are built - but the maker's own text never describes it, so function (blinky or passive), MCU, LEDs, colors, price, and quantity all remain unknown. The surrounding project is explicitly captioned "Shitty Add-On Collection for Defcon 26," which supports the existing event/year assignment. No photo of the assembled dice was found; the project's 6-image gallery was checked and shows five other SAOs from the same collection (a Minion, an ice-cream-cone
-    "Brrr" piece, a Monopoly-man Bitcoin design, a Calvin-and-Hobbes figure, and the Galaxia prototyping board) plus one duplicate, but not the dice, so no image was saved.
+  notes: Only source is the maker's own Hackaday.io project page and its files listing;
+      no press coverage, storefront, or social posts were found for this specific piece
+      (a web search for "3D Dice" + awkward intelligence turned up nothing new before
+      the session's search budget was exhausted). The dice is confirmed to exist only
+      through three uploaded Gerber/design archives named for its top, side, and bottom
+      PCBs - consistent with a small stack of separate boards soldered into a six-sided
+      die shape, the way other "PCB dice" SAOs in the hobby are built - but the maker's
+      own text never describes it, so function (blinky or passive), MCU, LEDs, colors,
+      price, and quantity all remain unknown. The surrounding project is explicitly captioned
+      "Shitty Add-On Collection for Defcon 26," which supports the existing event/year
+      assignment. No photo of the assembled dice was found; the project's 6-image gallery
+      was checked and shows five other SAOs from the same collection (a Minion, an ice-cream-cone
+      "Brrr" piece, a Monopoly-man Bitcoin design, a Calvin-and-Hobbes figure, and the
+      Galaxia prototyping board) plus one duplicate, but not the dice, so no image was
+      saved. Fact-check pass (2026-09-07) re-fetched both cited hackaday.io pages and
+      confirmed the project caption ("indie badges I made for Defcon 26," created 07/25/2018),
+      the maker's "won't be selling these individually, only with my Shitty Add-On sets"
+      quote, the three dice-top/dice-sides/dice-bottom.zip files with their exact sizes
+      and 03/04/2019 upload date, and that the maker's Hackaday.io profile (Awkwardai)
+      lists this same project. The look.themes "puzzle" tag from the prior pass was unsupported
+      by any source (no source describes the item's theme at all) and has been removed.
+      Everything remaining in the entry is now directly supported by the two cited sources.
 last_modified_date: '2026-09-07'
 ---
 

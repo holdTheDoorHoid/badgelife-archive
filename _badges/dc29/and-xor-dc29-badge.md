@@ -13,11 +13,19 @@ makers:
   url: https://andnxor.com
   role: Zapp and Hyr0n
 summary: 'A pure hardware-and-analog badge with no integrated circuits, made in response to the 2021 chip shortage: it ships unpopulated, and solving a glyph cipher printed on the back is required to identify which passive components go where before it can be soldered together.'
-functions: 'Ships as a self-contained challenge, not a working badge out of the box. Wearers must use a multimeter and/or magnifying glass to identify unmarked SMD resistors, capacitors and transistors and a through-hole trimpot, crack a 16-symbol glyph cipher on the back that encodes component identifiers and placement, trace continuity to reverse-engineer the circuit (no schematic or BOM was published), and hand-solder the main PCB and four daughter PCBs together. Can simply be worn unsoldered as a badge, or completed as a functional analog circuit usable in another hardware project.'
+functions: Ships as a self-contained challenge, not a working badge out of the box. Wearers must use a multimeter and/or magnifying glass to identify unmarked SMD resistors, capacitors and transistors and a through-hole trimpot, crack a 16-symbol glyph cipher on the back that encodes component identifiers and placement, trace continuity to reverse-engineer the circuit (no schematic or BOM was published), and hand-solder the main PCB and four daughter PCBs together. Can simply be worn unsoldered as a badge, or completed as a functional analog circuit usable in another hardware project.
 look:
-  colors: [black, gold, white, clear]
+  colors:
+  - black
+  - gold
+  - white
+  - clear
   shape: rectangle
-  themes: [puzzle, ctf, learn to solder, minimalist]
+  themes:
+  - puzzle
+  - ctf
+  - learn to solder
+  - minimalist
   form_factor: pcb badge
 tech:
   mcu: none
@@ -29,11 +37,13 @@ tech:
 get_one:
   price: ''
   price_usd: null
-  quantity: '800 kits'
+  quantity: 800 kits
   availability: sold_out
-  availability_note: 'About 400 sold through the AND!XOR online store, per the Aug 2021 Hackaday coverage; the rest distributed in person at DEF CON 29 and via local drops. Checked 2026-09-07 via secondary coverage; store page not directly verified.'
-  distribution: [purchase, free_drop]
-  where: 'AND!XOR online store (roughly half the run) plus in-person distribution at DEF CON 29 and "local drops" in other cities.'
+  availability_note: About 400 sold through the AND!XOR online store, per the Aug 2021 Hackaday coverage; the rest distributed in person at DEF CON 29 and via local drops. Checked 2026-09-07 via secondary coverage; store page not directly verified.
+  distribution:
+  - purchase
+  - free_drop
+  where: AND!XOR online store (roughly half the run) plus in-person distribution at DEF CON 29 and "local drops" in other cities.
 make_your_own:
   open_source: null
   hardware_url: null
@@ -43,6 +53,7 @@ links:
 - label: hackaday.io/project/180738-andxor-dc29-badge
   url: https://hackaday.io/project/180738-andxor-dc29-badge
   kind: hackaday
+  archived: https://web.archive.org/web/20260613060841/https://hackaday.io/project/180738-andxor-dc29-badge
 - label: 'Hackaday: AND!XOR''s DEF CON 29 Electronic Badge Is An Assembly Puzzle'
   url: https://hackaday.com/2021/08/02/andxors-def-con-29-electronic-badge-is-an-assembly-puzzle/
   kind: article
@@ -53,14 +64,14 @@ links:
   url: https://forum.defcon.org/node/237411
   kind: social
 images:
-  - file: assets/images/badges/dc29/and-xor-dc29-badge/ac3c9f45bf.jpg
-    source: "https://hackaday.com/2021/08/02/andxors-def-con-29-electronic-badge-is-an-assembly-puzzle/"
-    credit: "AND!XOR / Hackaday"
-    caption: "Front of the AND!XOR DC29 badge, unpopulated"
-  - file: assets/images/badges/dc29/and-xor-dc29-badge/3e825105bb.jpg
-    source: "https://hackaday.com/2021/08/02/andxors-def-con-29-electronic-badge-is-an-assembly-puzzle/"
-    credit: "AND!XOR / Hackaday"
-    caption: "Rear of the AND!XOR DC29 badge showing the glyph cipher component markings"
+- file: assets/images/badges/dc29/and-xor-dc29-badge/ac3c9f45bf.jpg
+  source: https://hackaday.com/2021/08/02/andxors-def-con-29-electronic-badge-is-an-assembly-puzzle/
+  credit: AND!XOR / Hackaday
+  caption: Front of the AND!XOR DC29 badge, unpopulated
+- file: assets/images/badges/dc29/and-xor-dc29-badge/3e825105bb.jpg
+  source: https://hackaday.com/2021/08/02/andxors-def-con-29-electronic-badge-is-an-assembly-puzzle/
+  credit: AND!XOR / Hackaday
+  caption: Rear of the AND!XOR DC29 badge showing the glyph cipher component markings
 contact: {}
 notes: []
 status: released
@@ -70,21 +81,22 @@ sources:
   title: AND!XOR DC29 Badge
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: maker-groups); event read as ''DEF CON 29''.'
+  archived: https://web.archive.org/web/20260613060841/https://hackaday.io/project/180738-andxor-dc29-badge
 - kind: url
   url: https://hackaday.com/2021/08/02/andxors-def-con-29-electronic-badge-is-an-assembly-puzzle/
-  title: "AND!XOR's DEF CON 29 Electronic Badge Is An Assembly Puzzle"
+  title: AND!XOR's DEF CON 29 Electronic Badge Is An Assembly Puzzle
   accessed: '2026-09-07'
-  note: 'Primary source for maker names (Zapp and Hyr0n), shape/finish details, quantity (800 kits, ~400 sold via store), OSH Park "After Dark" treatment, and the image files used.'
+  note: Primary source for maker names (Zapp and Hyr0n), shape/finish details, quantity (800 kits, ~400 sold via store), OSH Park "After Dark" treatment, and the image files used.
 - kind: url
   url: https://blog.oshpark.com/2021/08/06/andxors-def-con-29-electronic-badge-is-an-assembly-puzzle/
-  title: "AND!XOR's DEF CON 29 Electronic Badge is an Assembly Puzzle"
+  title: AND!XOR's DEF CON 29 Electronic Badge is an Assembly Puzzle
   accessed: '2026-09-07'
-  note: 'Confirmed the OSH Park "After Dark" fab treatment (black substrate, clear solder mask, ENIG gold pads, white solder mask) and the badge-as-puzzle framing.'
+  note: Confirmed the OSH Park "After Dark" fab treatment (black substrate, clear solder mask, ENIG gold pads, white solder mask) and the badge-as-puzzle framing.
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'Maker''s own Hackaday.io project page has little written detail beyond the gallery; most concrete facts (maker names, kit contents, quantity, sales split) come from the contemporaneous Hackaday.com article and were not independently re-confirmed on an AND!XOR-run page. No price, schematic, BOM, or gerber/firmware links were published by the maker as of these sources -- the whole point of the badge is that a schematic/BOM is withheld as part of the puzzle. Price not found; left empty. Could not verify whether the AND!XOR store still lists it (checked via secondary source only).'
+  notes: Maker's own Hackaday.io project page has little written detail beyond the gallery; most concrete facts (maker names, kit contents, quantity, sales split) come from the contemporaneous Hackaday.com article and were not independently re-confirmed on an AND!XOR-run page. No price, schematic, BOM, or gerber/firmware links were published by the maker as of these sources -- the whole point of the badge is that a schematic/BOM is withheld as part of the puzzle. Price not found; left empty. Could not verify whether the AND!XOR store still lists it (checked via secondary source only).
 last_modified_date: '2026-09-07'
 ---
 

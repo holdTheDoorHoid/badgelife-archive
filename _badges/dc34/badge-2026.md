@@ -21,7 +21,6 @@ look:
   - black
   - copper
   - silver
-  - gold
   shape: sun
   themes:
   - security
@@ -31,7 +30,10 @@ look:
   - wearable
 tech:
   mcu: Baochip-1x (Vexriscv RISC-V core + 4x PicoRV32 I/O cores, TSMC 22nm)
-  leds: null
+  leds:
+    count: null
+    type: RGB
+    note: 'Flashes in colors/patterns that vary by badge role (attendee, speaker, goon, Uber); badges can extend colors and build more complex patterns by exchanging light with other badges (WIRED).'
   display: 128x128 monochrome OLED
   connectivity:
   - usb
@@ -40,15 +42,14 @@ tech:
   sao_version: v1.69bis
   sao_ports: 2
 get_one:
-  price: Included with conference registration ($520 badge-guaranteed price); spare badges sold for $100 while supplies lasted
+  price: ''
   price_usd: null
   quantity: ''
-  availability: sold_out
-  availability_note: 'Distributed at DEF CON 34 (Aug 2026); spares reportedly sold out on-site. Checked 2026-09-07.'
+  availability: free
+  availability_note: 'Distributed to attendees at DEF CON 34 (Aug 2026) as part of registration. No price figure or spare-badge sale was confirmed in the sources checked (a prior draft''s "$520 / $100 spares" figures could not be verified and were removed). Checked 2026-09-07.'
   distribution:
-  - purchase
   - free_drop
-  where: Handed out at DEF CON 34 registration; extra badges sold at the DEF CON badge/merch area
+  where: Handed out to attendees at DEF CON 34 registration.
 make_your_own:
   open_source: partial
   hardware_url: https://github.com/baochip/baochip-1x
@@ -109,17 +110,17 @@ sources:
   url: https://www.hackster.io/news/the-def-con-34-badge-packs-a-surprise-andrew-bunnie-huang-s-mostly-open-baochip-x1-1e03307d4797
   title: 'The DEF CON 34 Badge Packs a Surprise: Andrew "bunnie" Huang''s "Mostly-Open" Baochip-x1'
   accessed: '2026-09-07'
-  note: 'Confirms chip specs (Vexriscv 350MHz, 4MB RRAM, 2MB SRAM, IRIS inspection) and DEF CON registration price/spare-badge pricing.'
+  note: 'Confirms chip specs (Vexriscv 350MHz, TSMC 22nm, 4MB RRAM, 2MB SRAM, quad 700MHz PicoRV32, IRIS inspection). Live page returns Cloudflare 403 to automated fetches; re-verified this session via the Wayback Machine capture (20260819020931) instead. Does NOT mention any registration price or spare-badge price.'
 - kind: url
   url: https://github.com/baochip/baochip-1x
   title: 'GitHub - baochip/baochip-1x: Baochip 1x Silicon'
   accessed: '2026-09-07'
   note: 'Confirms the chip RTL is published under CERN-OHL-W v2.'
 research:
-  status: researched
+  status: verified
   confidence: high
   last_checked: '2026-09-07'
-  notes: 'Core facts (maker, chip, OS, badge shape/materials, distribution) confirmed across the maker''s own project page (cheeso.io), official DEF CON media files, WIRED, and Hackster.io. Quantity made and any per-unit resale price beyond the $100 spare-badge figure were not found. The badge''s own PCB/case design files were not confirmed published, only the chip RTL and OS firmware, so open_source is marked "partial" rather than "yes". This entry covers the "HUMAN" badge tier; "INHUMAN" and "ARTIST" tiers seen on the maker''s page may warrant separate entries (see other_items_found).'
+  notes: 'Fact-check pass (2026-09-07): re-opened every cited source. Two errors found and fixed: (1) look.colors included "gold", but cheeso.io states gold inlay is exclusive to the INHUMAN/other tiers -- the HUMAN badge (which this entry covers) is black/copper/silver only; gold removed. (2) get_one had specific figures ("$520" registration price, "$100" spare badges, availability: sold_out) that do not appear on any of the four cited sources (WIRED, cheeso.io, media.defcon.org, Hackster.io) -- blanked price and changed availability to "free" (distributed with registration), with the discrepancy noted in availability_note. Added tech.leds (previously null): WIRED confirms the badges have LEDs that flash per badge role and exchange patterns with other badges, matching the "functions" field. Everything else checked out: chip specs (Vexriscv 350MHz, TSMC 22nm, 2MB SRAM/4MB RRAM, quad 700MHz PicoRV32) via archived Hackster.io and WIRED; OLED/camera/battery/SAO-port/Kingpin-homage/USB-C details and both photos'' captions via cheeso.io; firmware files and SAO spec sheet (which independently confirms I2C and a 6-pin/v1.69bis-style header) via media.defcon.org; chip RTL license (CERN-OHL-W-2.0) and Xous OS repo via GitHub. Hackster.io''s live page 403s to automated fetches (Cloudflare); verified instead via a Wayback Machine capture with matching content. Quantity made for this specific (HUMAN) tier is still not stated anywhere and remains blank -- WIRED gives "27,000" as the total DEF CON 34 badges across all tiers/roles combined, which is not specific enough to this entry to use. The badge''s own PCB/case design files remain unconfirmed as published (open_source: partial is correct). This entry covers the "HUMAN" badge tier only; "INHUMAN" and "ARTIST" tiers seen on the maker''s page may warrant separate entries (see other_items_found in the original research pass).'
 last_modified_date: '2026-09-07'
 ---
 
@@ -127,4 +128,4 @@ The DEF CON 34 badge (2026) was designed by Team CHEESO around Andrew "bunnie" H
 
 The badge shipped in at least two visual tiers built on the same electronics: a "HUMAN" badge (sun-shaped, 2-layer PCB, matte black front with a copper back and silver inlay) and an "INHUMAN" badge (cogwheel-shaped, 4-layer PCB in department-specific colors with gold inlay), both carrying a hexagon peacock emblem and two SAO ports; press photos of an "ARTIST" variant also appear on the maker's page. The badge body includes a 128x128 monochrome OLED display and a deliberately low-resolution camera used only for scanning QR codes (it stores no photos), supporting on-badge challenges and encrypted light-pattern exchanges between badges during the con. It runs on 2 AA batteries for about three days of intermittent use, with the back panel referencing Kingpin's original 2006 DEF CON electronic badge. After the conference, the Baochip-1x core doubles as a FIDO2/TOTP security key and password manager.
 
-Every attendee whose registration guaranteed a badge got one; DEF CON also sold a limited run of spare badges for $100 on-site once supplies allowed. The Baochip-1x silicon RTL is published on GitHub under the CERN-OHL-W v2 license, and the badge's firmware is built on the open-source `betrusted-io/xous-core` project; DEF CON's own media page hosts the firmware bundle (loader, swap, and OS images) plus a spec sheet for anyone building a third-party SAO for the badge's headers. Whether the badge's own PCB and enclosure files are published separately from the chip and OS repos was not confirmed in this pass.
+Every attendee whose registration guaranteed a badge got one; whether DEF CON separately sold spare badges, and at what price, was not confirmed in the sources checked. The Baochip-1x silicon RTL is published on GitHub under the CERN-OHL-W v2 license, and the badge's firmware is built on the open-source `betrusted-io/xous-core` project; DEF CON's own media page hosts the firmware bundle (loader, swap, and OS images) plus a spec sheet for anyone building a third-party SAO for the badge's headers. Whether the badge's own PCB and enclosure files are published separately from the chip and OS repos was not confirmed in this pass.

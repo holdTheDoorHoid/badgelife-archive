@@ -12,7 +12,7 @@ makers:
 - name: hexum064 and Erin
   url: https://hackaday.io/hacker/172907-hexum064
 summary: A large ESP32-based DEF CON 30 badge styled after Daft Punk's Random Access Memories helmet artwork that plays MP3s from an SD card to headphones, speakers or Bluetooth while over 500 WS2812B-2020 RGB LEDs in the mask show VU meters and equalizer bars.
-functions: 'MP3 playback from SD card, Bluetooth or speaker audio output via two 3W MAX98357A amplifiers, LED VU meter and equalizer visualizations across the mask, song/volume selection buttons, output-mode and display-mode switching, a status screen, and a "Nyan Cat mode."'
+functions: MP3 playback from SD card, Bluetooth or speaker audio output via two 3W MAX98357A amplifiers, LED VU meter and equalizer visualizations across the mask, song/volume selection buttons, output-mode and display-mode switching, a status screen, and a "Nyan Cat mode."
 look:
   colors: []
   shape: null
@@ -38,7 +38,7 @@ get_one:
   quantity: ''
   availability: unknown
   distribution: []
-  where: 'Worn by the makers at DEF CON 30 (2022); described as a limited run, not sold through a storefront.'
+  where: Worn by the makers at DEF CON 30 (2022); described as a limited run, not sold through a storefront.
 make_your_own:
   open_source: partial
   hardware_url: null
@@ -48,21 +48,25 @@ links:
 - label: hackaday.io/project/184321-dc30-big-fucking-daft-punk-badge
   url: https://hackaday.io/project/184321-dc30-big-fucking-daft-punk-badge
   kind: hackaday
+  archived: https://web.archive.org/web/20260114095335/https://hackaday.io/project/184321-dc30-big-fucking-daft-punk-badge
 - label: github.com/Hexum064/mp3-bt-sc-i2s-oled
   url: https://github.com/Hexum064/mp3-bt-sc-i2s-oled
   kind: repo
 - label: 'Tindie Blog: Badge Me if You Can – DEF CON 30'
   url: https://blog.tindie.com/2022/08/badge-me-if-you-can-def-con-30/
   kind: article
+  archived: https://web.archive.org/web/20260114122305/https://blog.tindie.com/2022/08/badge-me-if-you-can-def-con-30/
 images:
 - file: assets/images/badges/dc30/dc30-big-fucking-daft-punk-badge/ffc2b5bd72.jpg
-  source: "https://hackaday.io/project/184321-dc30-big-fucking-daft-punk-badge"
-  credit: "hexum064 and Erin"
-  caption: "The finished Daft Punk-styled badge worn at DEF CON 30"
+  source: https://hackaday.io/project/184321-dc30-big-fucking-daft-punk-badge
+  credit: hexum064 and Erin
+  caption: The finished Daft Punk-styled badge worn at DEF CON 30
+  archived: https://web.archive.org/web/20260114095335/https://hackaday.io/project/184321-dc30-big-fucking-daft-punk-badge
 - file: assets/images/badges/dc30/dc30-big-fucking-daft-punk-badge/be9eb3b90d.jpg
-  source: "https://hackaday.io/project/184321-dc30-big-fucking-daft-punk-badge"
-  credit: "hexum064 and Erin"
-  caption: "PCB and LED panel during assembly"
+  source: https://hackaday.io/project/184321-dc30-big-fucking-daft-punk-badge
+  credit: hexum064 and Erin
+  caption: PCB and LED panel during assembly
+  archived: https://web.archive.org/web/20260114095335/https://hackaday.io/project/184321-dc30-big-fucking-daft-punk-badge
 contact: {}
 notes: []
 status: released
@@ -72,6 +76,7 @@ sources:
   title: DC30 Big Fucking Daft Punk Badge
   accessed: '2026-09-06'
   note: Found via the project's link list; intake pass identified this item here.
+  archived: https://web.archive.org/web/20260114095335/https://hackaday.io/project/184321-dc30-big-fucking-daft-punk-badge
 - kind: url
   url: https://github.com/Hexum064/mp3-bt-sc-i2s-oled
   title: Hexum064/mp3-bt-sc-i2s-oled
@@ -82,9 +87,10 @@ sources:
   title: 'Tindie Blog: Badge Me if You Can – DEF CON 30'
   accessed: '2026-09-07'
   note: Press coverage confirming maker, three-PCB-stack build, two 3W speakers, 500+ LEDs, and that it was a limited run worn at the con.
+  archived: https://web.archive.org/web/20260114122305/https://blog.tindie.com/2022/08/badge-me-if-you-can-def-con-30/
 - kind: url
   url: https://hackaday.io/project/184321/gallery
-  title: 'Gallery | DC30 Big Fucking Daft Punk Badge | Hackaday.io'
+  title: Gallery | DC30 Big Fucking Daft Punk Badge | Hackaday.io
   accessed: '2026-09-07'
   note: Used to locate photo URLs of the finished badge and assembly.
 research:

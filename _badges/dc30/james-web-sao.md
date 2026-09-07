@@ -48,18 +48,21 @@ links:
 - label: www.tindie.com/products/sqearlsalazar/telescope-saos-hubble-james-webb
   url: https://www.tindie.com/products/sqearlsalazar/telescope-saos-hubble-james-webb/
   kind: store
+  archived: https://web.archive.org/web/20260503112957/https://www.tindie.com/products/sqearlsalazar/telescope-saos-hubble-james-webb/
 images:
 - file: assets/images/badges/dc30/james-web-sao/f38821354a.jpg
-  source: "https://www.tindie.com/products/sqearlsalazar/telescope-saos-hubble-james-webb/"
-  credit: "sqearlsalazar"
-  caption: "Hubble and James Webb telescope SAO pair, assembled with LEDs lit"
+  source: https://www.tindie.com/products/sqearlsalazar/telescope-saos-hubble-james-webb/
+  credit: sqearlsalazar
+  caption: Hubble and James Webb telescope SAO pair, assembled with LEDs lit
+  archived: https://web.archive.org/web/20260503112957/https://www.tindie.com/products/sqearlsalazar/telescope-saos-hubble-james-webb/
 - file: assets/images/badges/dc30/james-web-sao/46b3f6b1be.jpg
-  source: "https://www.tindie.com/products/sqearlsalazar/telescope-saos-hubble-james-webb/"
-  credit: "sqearlsalazar"
-  caption: "Telescope SAO pair, alternate angle"
+  source: https://www.tindie.com/products/sqearlsalazar/telescope-saos-hubble-james-webb/
+  credit: sqearlsalazar
+  caption: Telescope SAO pair, alternate angle
+  archived: https://web.archive.org/web/20260503112957/https://www.tindie.com/products/sqearlsalazar/telescope-saos-hubble-james-webb/
 contact: {}
 notes:
-- "Sheet title was 'James Web SAO' (typo for 'James Webb'); corrected here. Sheet also read 'D3FC0N', corrected to DEF CON."
+- Sheet title was 'James Web SAO' (typo for 'James Webb'); corrected here. Sheet also read 'D3FC0N', corrected to DEF CON.
 status: listed
 sources:
 - kind: sheet
@@ -68,26 +71,15 @@ sources:
   updated: '2022-07-28'
 - kind: url
   url: https://www.tindie.com/products/sqearlsalazar/telescope-saos-hubble-james-webb/
-  title: "Telescope SAOs - Hubble & James Webb by sqearlsalazar"
+  title: Telescope SAOs - Hubble & James Webb by sqearlsalazar
   accessed: '2026-09-07'
-  note: "Maker's Tindie listing: describes the pack as two pre-assembled SAO PCBs (Hubble with 4x yellow reverse-gullwing LEDs, James Webb with 1x red LED), each with a 2x3 male SAO header for use with a compatible badge or external 2x3 power supply. Listed price for the pair is $20; product photos are dated November 2019."
+  note: 'Maker''s Tindie listing: describes the pack as two pre-assembled SAO PCBs (Hubble with 4x yellow reverse-gullwing LEDs, James Webb with 1x red LED), each with a 2x3 male SAO header for use with a compatible badge or external 2x3 power supply. Listed price for the pair is $20; product photos are dated November 2019.'
+  archived: https://web.archive.org/web/20260503112957/https://www.tindie.com/products/sqearlsalazar/telescope-saos-hubble-james-webb/
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: >-
-    Only source found is the maker's own Tindie storefront, which sells the James Webb SAO
-    bundled with a matching Hubble SAO for $20/pair — not as a standalone $10 item as the
-    community sheet listed it. It's unclear whether sqearlsalazar also sold the James Webb
-    SAO separately at DEF CON 30's Hardware Hacking Village for $10, or whether the sheet
-    price reflects a per-unit share of the pair; left get_one.price as the sheet stated it
-    since no separate listing was found. The Tindie product photos are dated November 2019,
-    suggesting this SAO was originally made for DEF CON 27 and continued to be sold at HHV
-    in later years including DC30; kept event as dc30 per the sheet entry. No hardware
-    files, firmware, MCU details (the board appears passive, LED-only), or a Hackaday.io /
-    GitHub presence for the maker were found. A web search engine (DuckDuckGo) returned no
-    usable results during this pass; only the Tindie page and a Hackaday.io search (login
-    wall, no results) were reachable.
+  notes: Only source found is the maker's own Tindie storefront, which sells the James Webb SAO bundled with a matching Hubble SAO for $20/pair — not as a standalone $10 item as the community sheet listed it. It's unclear whether sqearlsalazar also sold the James Webb SAO separately at DEF CON 30's Hardware Hacking Village for $10, or whether the sheet price reflects a per-unit share of the pair; left get_one.price as the sheet stated it since no separate listing was found. The Tindie product photos are dated November 2019, suggesting this SAO was originally made for DEF CON 27 and continued to be sold at HHV in later years including DC30; kept event as dc30 per the sheet entry. No hardware files, firmware, MCU details (the board appears passive, LED-only), or a Hackaday.io / GitHub presence for the maker were found. A web search engine (DuckDuckGo) returned no usable results during this pass; only the Tindie page and a Hackaday.io search (login wall, no results) were reachable.
 last_modified_date: '2026-09-07'
 ---
 

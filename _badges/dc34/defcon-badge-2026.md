@@ -79,7 +79,7 @@ sources:
   accessed: '2026-09-07'
   note: 'Maker has no storefront, Hackaday.io project, or other public listing for this badge; their other repos are unrelated personal hobby projects. No press coverage or forum posts about this badge were found in web searches.'
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-07'
   notes: 'Corrected event from "other" to dc34 (DEF CON 34, 2026) per the maker''s own repo name and the entry''s prior source note. This is a personal, unofficial hardware project (not an official DEF CON badge, a store product, or a documented completed build) with no README, no announcement post, no images, and no evidence of release, sale, or quantity produced -- everything here comes from reading the repo''s file/folder/sheet names and commit log directly, since no maker-authored description exists. tech.leds, tech.display, tech.battery, look.colors and look.shape are left empty because no source states them; a "led.kicad_sch" schematic sheet exists in the repo but does not by itself establish LED count or type. get_one fields are left empty/unknown since this does not appear to be for sale. No other badges or SAOs were noticed during this research.'

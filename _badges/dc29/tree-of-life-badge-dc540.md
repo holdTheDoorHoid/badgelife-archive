@@ -39,7 +39,7 @@ get_one:
   price_usd: 65
   quantity: ''
   availability: sold_out
-  availability_note: 'Tindie listing showed sold out / seller "on a break" as of the page checked 2026-09-07; sold via preorder around DEF CON 29 (2021).'
+  availability_note: Tindie listing showed sold out / seller "on a break" as of the page checked 2026-09-07; sold via preorder around DEF CON 29 (2021).
   distribution:
   - preorder
   - purchase
@@ -52,32 +52,34 @@ make_your_own:
   eda_tool: null
   license: MIT
   fab_url: null
-  notes: 'Repo has pinout documentation and the stock .uf2 firmware (tolb_0.1.0.uf2); the maker explicitly declined to publish Gerbers ("Not on your life").'
+  notes: Repo has pinout documentation and the stock .uf2 firmware (tolb_0.1.0.uf2); the maker explicitly declined to publish Gerbers ("Not on your life").
 links:
 - label: github.com/DC540-Nova/DC29-Tree-of-Life-Badge
   url: https://github.com/DC540-Nova/DC29-Tree-of-Life-Badge
   kind: repo
-- label: 'DC540 Tree of Life Badge for DC29 (dc540.org)'
+- label: DC540 Tree of Life Badge for DC29 (dc540.org)
   url: https://dc540.org/xxx/2021/07/dc540-tree-of-life-badge-for-dc29/
   kind: article
-- label: 'Tree of Life Badge documentation released (dc540.org)'
+- label: Tree of Life Badge documentation released (dc540.org)
   url: https://dc540.org/xxx/2021/08/tree-of-life-badge-documentation-released/
   kind: article
-- label: 'DC540 Kabbalah (Tree of Life) Badge for DC29 (Tindie)'
+- label: DC540 Kabbalah (Tree of Life) Badge for DC29 (Tindie)
   url: https://www.tindie.com/products/dc540_nova/dc540-kabbalah-tree-of-life-badge-for-dc29/
   kind: store
-- label: "DC540's Tree of Life badge for DC29 (DEF CON Forums)"
+  archived: https://web.archive.org/web/20260503102450/https://www.tindie.com/products/dc540_nova/dc540-kabbalah-tree-of-life-badge-for-dc29/
+- label: DC540's Tree of Life badge for DC29 (DEF CON Forums)
   url: https://forum.defcon.org/node/238102
   kind: article
 images:
-  - file: assets/images/badges/dc29/tree-of-life-badge-dc540/37b91ea8c7.jpg
-    source: "https://dc540.org/xxx/2021/07/dc540-tree-of-life-badge-for-dc29/"
-    credit: "DC540 Defcon Group"
-    caption: "The assembled Tree of Life badge showing the two-board sandwich, OLED display, and RGB LEDs"
-  - file: assets/images/badges/dc29/tree-of-life-badge-dc540/e217a80695.jpg
-    source: "https://www.tindie.com/products/dc540_nova/dc540-kabbalah-tree-of-life-badge-for-dc29/"
-    credit: "DC540 Nova (Tindie)"
-    caption: "Tree of Life badge product photo lit up with RGB LEDs"
+- file: assets/images/badges/dc29/tree-of-life-badge-dc540/37b91ea8c7.jpg
+  source: https://dc540.org/xxx/2021/07/dc540-tree-of-life-badge-for-dc29/
+  credit: DC540 Defcon Group
+  caption: The assembled Tree of Life badge showing the two-board sandwich, OLED display, and RGB LEDs
+- file: assets/images/badges/dc29/tree-of-life-badge-dc540/e217a80695.jpg
+  source: https://www.tindie.com/products/dc540_nova/dc540-kabbalah-tree-of-life-badge-for-dc29/
+  credit: DC540 Nova (Tindie)
+  caption: Tree of Life badge product photo lit up with RGB LEDs
+  archived: https://web.archive.org/web/20260503102450/https://www.tindie.com/products/dc540_nova/dc540-kabbalah-tree-of-life-badge-for-dc29/
 contact: {}
 notes: []
 status: released
@@ -96,22 +98,23 @@ sources:
   url: https://dc540.org/xxx/2021/08/tree-of-life-badge-documentation-released/
   title: Tree of Life Badge documentation released - DC540 Defcon Group
   accessed: '2026-09-07'
-  note: 'Follow-up post referenced when searching; confirms public documentation/firmware release.'
+  note: Follow-up post referenced when searching; confirms public documentation/firmware release.
 - kind: url
   url: https://www.tindie.com/products/dc540_nova/dc540-kabbalah-tree-of-life-badge-for-dc29/
   title: DC540 Kabbalah (Tree of Life) badge for DC29 - Tindie
   accessed: '2026-09-07'
-  note: 'Price ($65), sold-out/on-break status, feature list, product photo.'
+  note: Price ($65), sold-out/on-break status, feature list, product photo.
+  archived: https://web.archive.org/web/20260503102450/https://www.tindie.com/products/dc540_nova/dc540-kabbalah-tree-of-life-badge-for-dc29/
 - kind: url
   url: https://forum.defcon.org/node/238102
-  title: "DC540's Tree of Life badge for DC29 - DEF CON Forums"
+  title: DC540's Tree of Life badge for DC29 - DEF CON Forums
   accessed: '2026-09-07'
-  note: 'Surfaced in search results as community discussion of the badge; not separately fetched for content.'
+  note: Surfaced in search results as community discussion of the badge; not separately fetched for content.
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-07'
-  notes: 'Quantity made was not disclosed in any source found. Gerbers/hardware design files were explicitly not published by the maker, so make_your_own.open_source is "partial" (firmware/pinout docs only). NRF24L01+ wireless transceiver was mentioned in maker posts and the GitHub repo pinouts but not consistently listed as a working/shipped feature (one source noted lower confidence in its functionality), so it was left out of tech.connectivity rather than guessed at; noted here instead.'
+  notes: Quantity made was not disclosed in any source found. Gerbers/hardware design files were explicitly not published by the maker, so make_your_own.open_source is "partial" (firmware/pinout docs only). NRF24L01+ wireless transceiver was mentioned in maker posts and the GitHub repo pinouts but not consistently listed as a working/shipped feature (one source noted lower confidence in its functionality), so it was left out of tech.connectivity rather than guessed at; noted here instead.
 last_modified_date: '2026-09-07'
 ---
 

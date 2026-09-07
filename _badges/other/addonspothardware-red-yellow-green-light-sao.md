@@ -50,7 +50,7 @@ links:
 images: []
 contact: {}
 notes: []
-status: released
+status: unknown
 sources:
 - kind: url
   url: https://github.com/straithe/AddOnSpotHardware
@@ -66,7 +66,7 @@ research:
   status: researched
   confidence: low
   last_checked: '2026-09-07'
-  notes: 'The repository is design files only (KiCad schematic, PCB, library, README) with no board photos, no storefront, no price/quantity, and no named event or year. The idea is credited in the README to a tweet by k8em0 and a color-changing-tiara project by elkentaro, but nothing ties this specific SAO to a con. Could not confirm whether it was ever fabricated/sold or only published as an open-source design; left status as released (hardware design is complete and public) but availability unknown. No further web search was possible this session (search budget exhausted) beyond the initial repo fetch.'
+  notes: 'Verified against the live repo (README, file listing, license) and all cited facts (LED/switch/GPIO behavior, credited inspiration, KiCad/BSD-3-Clause, no photos or event/price/quantity info) hold up. Corrected status from the researcher''s "released" to "unknown": the repo is design files only with no board photos, storefront, or any account of the SAO being fabricated or worn, so "released" (per the guide''s "people have it") is not supported by any source read — only that the open-source design itself is complete and public. The idea is credited in the README to a tweet by k8em0 and a color-changing-tiara project by elkentaro, but nothing ties this specific SAO to a con, so event/year remain unset. No further web search was possible this session (search budget exhausted) beyond the repo fetch.'
 last_modified_date: '2026-09-07'
 ---
 

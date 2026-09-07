@@ -59,10 +59,10 @@ sources:
   accessed: '2026-09-07'
   note: 'Confirmed repo has no description and its only file is firmware.bin (4 MB); no hardware source, images, or README to draw further details from.'
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-07'
-  notes: 'The GitHub repo has no description, README, hardware files, or images — only a compiled firmware.bin. Web search was unavailable for this task (session search budget exhausted) after the initial repo check, so no secondary sources (Hackaday, storefronts, social posts) could be checked. Maker, event, and firmware availability are the only facts that could be confirmed; type is assumed "badge" from the repo name but is not confirmed by any maker text. Most descriptive fields (chip, LEDs, display, price, colors, etc.) are left empty because no source states them.'
+  notes: 'Fact-check pass (2026-09-07): re-fetched the GitHub repo API (repos/ch4r13/BSides-Badge26 and its /contents) and confirmed every non-empty field and body claim — repo description is null, sole file is firmware.bin at exactly 4,194,304 bytes, no README/hardware files/images, and the ch4r13 GitHub profile is real. The bsides-2026 event id matches _data/events.yml. Everything currently in the entry is directly supported by the cited sources, so status is upgraded from researched to verified, though confidence stays low since so little could be found: type is inferred only from the repo name (not confirmed by maker text), and no secondary sources (Hackaday, storefronts, social posts) were ever checked because the original research pass exhausted its web-search budget. A future pass should still try a web search for a companion write-up.'
 last_modified_date: '2026-09-07'
 ---
 

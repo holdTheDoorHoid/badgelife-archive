@@ -14,9 +14,15 @@ makers:
 summary: A gold-and-black SAO shaped like a Daft Punk-style robot helmet, lit with a static rainbow glow.
 functions: 'Decorative lighting only: static rainbow-glowing LEDs, no interactivity or programming.'
 look:
-  colors: [gold, black, multicolor]
+  colors:
+  - gold
+  - black
+  - multicolor
   shape: helmet
-  themes: [music, pop culture, jewelry]
+  themes:
+  - music
+  - pop culture
+  - jewelry
 tech:
   mcu: none
   leds:
@@ -33,7 +39,8 @@ get_one:
   quantity: ''
   availability: unknown
   availability_note: 'Checked 2026-09-06: Tindie listing shows seller "on a break," item not currently orderable.'
-  distribution: [purchase]
+  distribution:
+  - purchase
   where: Tindie (TwinkleTwinkie's store)
 make_your_own:
   open_source: null
@@ -44,11 +51,13 @@ links:
 - label: www.tindie.com/products/twinkletwinkie/twinkletwinkies-daft-helmet-sao
   url: https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-daft-helmet-sao/
   kind: store
+  archived: https://web.archive.org/web/20260503095450/https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-daft-helmet-sao/
 images:
 - file: assets/images/badges/dc30/daft-helmet-sao/b728fa346d.jpg
-  source: "https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-daft-helmet-sao/"
-  credit: "TwinkleTwinkie"
-  caption: "Daft Helmet SAO, gold and black Daft Punk-inspired helmet with rainbow LED lighting"
+  source: https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-daft-helmet-sao/
+  credit: TwinkleTwinkie
+  caption: Daft Helmet SAO, gold and black Daft Punk-inspired helmet with rainbow LED lighting
+  archived: https://web.archive.org/web/20260503095450/https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-daft-helmet-sao/
 contact: {}
 notes:
 - Available 18Jul2025
@@ -63,6 +72,7 @@ sources:
   title: TwinkleTwinkie's "Daft Helmet" SAO - Tindie
   accessed: '2026-09-06'
   note: Confirmed maker, description, price, SAO v2 connector, 3.3V power, and current "on a break" listing status.
+  archived: https://web.archive.org/web/20260503095450/https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-daft-helmet-sao/
 research:
   status: researched
   confidence: medium

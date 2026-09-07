@@ -47,11 +47,13 @@ links:
 - label: www.tindie.com/products/twinkletwinkie/twinkletwinkies-mando-kitty-sao
   url: https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-mando-kitty-sao/
   kind: store
+  archived: https://web.archive.org/web/20260503114849/https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-mando-kitty-sao/
 images:
 - file: assets/images/badges/dc30/mando-kitty-sao/ba83a8c68b.png
-  source: "https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-mando-kitty-sao/"
-  credit: "Twinkle Twinkie"
-  caption: "Mando Kitty SAO, assembled, front view"
+  source: https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-mando-kitty-sao/
+  credit: Twinkle Twinkie
+  caption: Mando Kitty SAO, assembled, front view
+  archived: https://web.archive.org/web/20260503114849/https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-mando-kitty-sao/
 contact: {}
 notes:
 - Available 18Jul2024
@@ -63,23 +65,15 @@ sources:
   updated: '2022-07-09'
 - kind: url
   url: https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-mando-kitty-sao/
-  title: "TwinkleTwinkie's \"Mando Kitty\" SAO - Tindie"
+  title: TwinkleTwinkie's "Mando Kitty" SAO - Tindie
   accessed: '2026-09-06'
   note: Confirms maker, price, design details, connector type, and current availability.
+  archived: https://web.archive.org/web/20260503114849/https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-mando-kitty-sao/
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-06'
-  notes: >-
-    Confirmed via the maker's own Tindie listing. Tindie describes it as a cat-shaped SAO
-    combining a gold and purple Mandalorian helmet motif with glowing pink "This Is The Way"
-    text; it runs on 3.3V and ships pre-assembled with a SAOv2 (2x3 keyed) female connector,
-    noted as backwards-compatible with older 2x2 SAO badges. The listing gives no MCU, LED
-    part number, LED count, or units-made figure, and as of the last check the seller had
-    paused new orders on this listing (notify-me-only), so availability is left unknown rather
-    than assumed sold out. No Hackaday.io project, GitHub repo, or press coverage was found
-    for this specific SAO; a second product photo was seen (IMG_8948, IMG_8949) but only a
-    114x76 thumbnail URL was reachable, too low-resolution to save.
+  notes: Confirmed via the maker's own Tindie listing. Tindie describes it as a cat-shaped SAO combining a gold and purple Mandalorian helmet motif with glowing pink "This Is The Way" text; it runs on 3.3V and ships pre-assembled with a SAOv2 (2x3 keyed) female connector, noted as backwards-compatible with older 2x2 SAO badges. The listing gives no MCU, LED part number, LED count, or units-made figure, and as of the last check the seller had paused new orders on this listing (notify-me-only), so availability is left unknown rather than assumed sold out. No Hackaday.io project, GitHub repo, or press coverage was found for this specific SAO; a second product photo was seen (IMG_8948, IMG_8949) but only a 114x76 thumbnail URL was reachable, too low-resolution to save.
 last_modified_date: '2026-09-06'
 ---
 

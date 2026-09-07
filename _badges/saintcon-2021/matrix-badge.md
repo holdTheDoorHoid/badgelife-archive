@@ -70,10 +70,10 @@ sources:
   accessed: '2026-09-07'
   note: 'Structured record for the badge: author Jup1t3r, LED count/type/placement, soldering difficulty (Intermediate), special instruction that it requires a host badge with the Clock Pin enabled, and front/back image URLs. Description, category, board house, quantity made, and acquisition method were blank in the source record.'
 research:
-  status: researched
+  status: verified
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'The minibadge.wiki live search UI returns no results for this title (its filtered search view appears empty), but the site''s raw 2021.json data export contains the full record, which is the source used here. No maker page, repo, or storefront was found beyond minibadge.wiki, so price, quantity, and availability could not be confirmed and are left empty/unknown. No color information was given in the source (only LED colors, which are recorded under tech.leds).'
+  notes: 'Fact-check pass (2026-09-07): re-fetched minibadge.wiki/2021.json and confirmed maker (Jup1t3r), LED count/colors (2 red, 2 blue), the red/blue polarity-orientation note, soldering difficulty (Intermediate), and the clock-pin requirement all match the raw record. Confirmed both saved images (front/back) are byte-for-byte the same artwork as the source''s matrix-badge-front.png/back.png. Confirmed the minibadge.wiki live search UI genuinely returns "No minibadges match your filters yet." for this title, and confirmed Jup1t3r''s 2021 title list includes RFID/NFC Badge, Red Team, and The Vault (referenced in the body as other titles in the same series). No maker page, repo, or storefront was found beyond minibadge.wiki, so price, quantity, and availability remain unconfirmed and are left empty/unknown. No color information was given in the source (only LED colors, recorded under tech.leds); tech.mcu is left null (not "none") since the source never states outright there is no onboard MCU, though the clock-pin requirement strongly implies it.'
 last_modified_date: '2026-09-07'
 ---
 

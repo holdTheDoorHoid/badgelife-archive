@@ -69,10 +69,10 @@ sources:
   accessed: '2026-09-07'
   note: 'JSON record for the GADSEN FLAG minibadge: maker Jup1t3r, beginner soldering difficulty, two LEDs plus one non-polarized resistor, front/back image URLs. No description, quantity, price, or acquisition info was recorded in the export.'
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-07'
-  notes: 'The live search page on minibadge.wiki renders client-side and returned no results for this query via fetch, but the site''s raw 2021.json data export (linked from /data/) has a matching record. That record gives the soldering guide (two LEDs, one resistor, beginner difficulty) and front/back image URLs, but leaves description, category, quantity made, board house, rarity, and how-to-acquire fields blank, so those remain unknown here. No maker profile, storefront, or other page for Jup1t3r or this badge was found.'
+  notes: 'Fact-check pass (2026-09-07): re-fetched minibadge.wiki/2021.json and confirmed the GADSEN FLAG record matches the entry exactly (maker Jup1t3r, beginner difficulty, two LEDs, one non-polarized resistor, green-indicator-down-and-left placement note). Re-fetched the search-page link and confirmed it still renders client-side with no visible results, as already disclosed. Opened both saved images: the front photo shows the Dont Tread on Me Gadsden flag coiled-rattlesnake artwork as described, and the back photo shows Designed by Jup1t3r silkscreened next to the same snake silhouette with three visible components (two LEDs, one resistor), consistent with tech.leds and the note field. Every non-empty field and every sentence in the body is supported by these two sources; no unsupported claims or wrong images found. Description, category, quantity made, board house, rarity, price, and maker-profile fields remain genuinely absent from the source and are left blank/null.'
 last_modified_date: '2026-09-07'
 ---
 

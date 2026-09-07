@@ -39,6 +39,7 @@ links:
 - label: www.tindie.com/products/technick/monopoly-jack-badge-defcon-29
   url: https://www.tindie.com/products/technick/monopoly-jack-badge-defcon-29/
   kind: store
+  archived: https://web.archive.org/web/20260503115917/https://www.tindie.com/products/technick/monopoly-jack-badge-defcon-29/
 images: []
 contact: {}
 notes:
@@ -50,6 +51,7 @@ sources:
   title: Monopoly Jack Badge
   accessed: '2026-09-07'
   note: 'Found by the archive''s discovery sweep (angle: sheet-research-spotted); event read as ''DC29''.'
+  archived: https://web.archive.org/web/20260503115917/https://www.tindie.com/products/technick/monopoly-jack-badge-defcon-29/
 research:
   status: stub
   confidence: low

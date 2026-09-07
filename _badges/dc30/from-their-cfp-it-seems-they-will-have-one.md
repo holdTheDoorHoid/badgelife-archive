@@ -43,14 +43,16 @@ links:
 - kind: website
   label: Car Hacking Village
   url: https://carhackingvillage.com
+  archived: https://web.archive.org/web/20260810193641/https://www.carhackingvillage.com/
 - kind: doc
   label: 'DEF CON 30 talks: Getting naughty on CAN bus with CHV Badge'
   url: https://carhackingvillage.com/defcon30-talks
+  archived: https://web.archive.org/web/20260821062036/https://www.carhackingvillage.com/defcon30-talks
 images: []
 contact: {}
 notes:
 - $50 in person (later online)
-- 'The sheet only carried the note "From their CFP, it seems they will have one" with no title; the actual item is the Car Hacking Village''s DEF CON 30 badge, confirmed via a DC30 talk abstract titled "Getting naughty on CAN bus with CHV Badge."'
+- The sheet only carried the note "From their CFP, it seems they will have one" with no title; the actual item is the Car Hacking Village's DEF CON 30 badge, confirmed via a DC30 talk abstract titled "Getting naughty on CAN bus with CHV Badge."
 status: released
 sources:
 - kind: sheet
@@ -59,29 +61,21 @@ sources:
   updated: '2022-07-31'
 - kind: url
   url: https://carhackingvillage.com/defcon30-talks
-  title: 'DEF CON 30 Talks - Car Hacking Village'
+  title: DEF CON 30 Talks - Car Hacking Village
   accessed: '2026-09-06'
   note: Talk abstract for "Getting naughty on CAN bus with CHV Badge" confirming the badge exists, runs an RP2040, and generates CAN/digital-protocol waveforms with injectable errors.
+  archived: https://web.archive.org/web/20260821062036/https://www.carhackingvillage.com/defcon30-talks
 - kind: url
   url: https://carhackingvillage.com
   title: Car Hacking Village
   accessed: '2026-09-06'
   note: Maker homepage; confirms CHV as the organization and its ongoing SAO/badge program, but no DC30-specific product page or images found.
+  archived: https://web.archive.org/web/20260810193641/https://www.carhackingvillage.com/
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-06'
-  notes: >-
-    Title was a sheet placeholder ("From their CFP, it seems they will have one") naming only the
-    maker. Found the actual item via a DEF CON 30 talk description on carhackingvillage.com titled
-    "Getting naughty on CAN bus with CHV Badge," which confirms it is an RP2040-based badge that
-    generates CAN waveforms and other digital protocols (including ones with deliberate errors) to
-    disrupt vehicle networks, and that its waveform generation is interactive rather than a plain
-    analyzer. Could not find a dedicated product/store page, quantity made, LED/display specs, or
-    photos of the DC30 badge itself; CHV's public GitHub org (car-hacking-village) has badge
-    hardware/firmware repos starting at DC31 (DC31_CHV_Badge_Board etc.) but nothing for DC30, so
-    make_your_own is left empty rather than guessed. Web search quota was exhausted mid-task; only
-    WebFetch and curl were used for the later checks.
+  notes: Title was a sheet placeholder ("From their CFP, it seems they will have one") naming only the maker. Found the actual item via a DEF CON 30 talk description on carhackingvillage.com titled "Getting naughty on CAN bus with CHV Badge," which confirms it is an RP2040-based badge that generates CAN waveforms and other digital protocols (including ones with deliberate errors) to disrupt vehicle networks, and that its waveform generation is interactive rather than a plain analyzer. Could not find a dedicated product/store page, quantity made, LED/display specs, or photos of the DC30 badge itself; CHV's public GitHub org (car-hacking-village) has badge hardware/firmware repos starting at DC31 (DC31_CHV_Badge_Board etc.) but nothing for DC30, so make_your_own is left empty rather than guessed. Web search quota was exhausted mid-task; only WebFetch and curl were used for the later checks.
 last_modified_date: '2026-09-06'
 ---
 

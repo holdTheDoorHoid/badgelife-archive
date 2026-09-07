@@ -57,11 +57,6 @@ images:
   credit: thelogicofpi
   caption: Bender SAO lit up on a breadboard, sunglasses and mouth glowing red
   archived: https://web.archive.org/web/20260504115728/https://hackaday.io/project/160014-sao-badgelife-add-ons
-- file: assets/images/badges/dc26/thelogicofpi-bender-gold-sao/4cb1d3db87.jpg
-  source: https://hackaday.io/project/160014-sao-badgelife-add-ons
-  credit: thelogicofpi
-  caption: Bender SAO lit red alongside the Leela SAO on a breadboard
-  archived: https://web.archive.org/web/20260504115728/https://hackaday.io/project/160014-sao-badgelife-add-ons
 contact: {}
 notes: []
 status: released
@@ -84,10 +79,10 @@ sources:
   accessed: '2026-09-07'
   note: Log dated 07/31/2018 states the first 4 SAOs were ordered from OSH Park "especially suited for their purple and gold pcbs" and that this "Alternate reality Bender is Gold" (paired with a purple Zoidberg, purple-haired Leela, and a gold-bowl Tubbs).
 research:
-  status: researched
+  status: verified
   confidence: medium
   last_checked: '2026-09-07'
-  notes: The Hackaday.io project page and its single log entry are the only sources found; no chip, LED part number, price, quantity, or open-source design files are documented anywhere on the project. The maker's Hackaday.io profile and the project gallery carry no further detail beyond the photos used here. A web search budget limit was hit before additional maker posts, forum threads, or press coverage could be checked, so this should be revisited if that budget resets. Photos show the SAO glowing red when powered but do not make clear whether that is a single LED, several, or a specific part; left tech.leds empty rather than guess. event/year (dc26, 2018) already matched the sheet's entry and needed no correction.
+  notes: 'Fact-check pass (2026-09-07): the second image originally cited as "Bender SAO lit red alongside the Leela SAO" was verified against its source page and actually shows Leela and Zoidberg lit up together, with no Bender in frame at all — the caption was wrong and the photo does not depict this item, so it and its entry were removed; only the single verified Bender photo remains. The Hackaday.io project page and its single log entry are the only sources found; no chip, LED part number, price, quantity, or open-source design files are documented anywhere on the project. A web search budget limit was hit before additional maker posts, forum threads, or press coverage could be checked, so this should be revisited if that budget resets. Photos show the SAO glowing red when powered but do not make clear whether that is a single LED, several, or a specific part; left tech.leds empty rather than guess. event/year (dc26, 2018) already matched the sheet''s entry and needed no correction.'
 last_modified_date: '2026-09-07'
 ---
 

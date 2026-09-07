@@ -12,7 +12,7 @@ makers:
 - name: MK Factor (Michael and Katie Whiteley), with The Dark Tangent
   url: https://mkfactor.com/
 summary: 'The official human badge for DEF CON 29 (2021): a stacked-board electronic badge built around a networked "Simon Says"-style game with four RGB keys and touch sensors.'
-functions: 'A networked Simon Says game that scales across badges connected via the side male/female connectors or a special USB-A/USB-C lanyard cable; players sync progress through a web console reachable from a phone or laptop, and the badge hides an extensive CTF (ROT13/Vigenere/Ottendorf ciphers, solder-pad hardware hacking, and physical-design Easter eggs).'
+functions: A networked Simon Says game that scales across badges connected via the side male/female connectors or a special USB-A/USB-C lanyard cable; players sync progress through a web console reachable from a phone or laptop, and the badge hides an extensive CTF (ROT13/Vigenere/Ottendorf ciphers, solder-pad hardware hacking, and physical-design Easter eggs).
 look:
   colors: []
   shape: null
@@ -35,7 +35,7 @@ get_one:
   availability: unknown
   distribution:
   - free_drop
-  where: 'Given to DEF CON 29 attendees as the standard human conference badge.'
+  where: Given to DEF CON 29 attendees as the standard human conference badge.
 make_your_own:
   open_source: null
   hardware_url: null
@@ -45,24 +45,28 @@ links:
 - label: defcon.org/html/defcon-29/dc-29-index.html
   url: https://defcon.org/html/defcon-29/dc-29-index.html
   kind: website
-- label: 'DEFCON 29 - Badge Writeup (Science Viking Labs)'
+- label: DEFCON 29 - Badge Writeup (Science Viking Labs)
   url: https://sciencevikinglabs.com/blog/hardware/2021-08-14-DEFCON29-Badge-Writeup/
   kind: article
-- label: 'Making the DEF CON 29 Badge (talk, InfoconDB)'
+  archived: https://web.archive.org/web/20260524035125/https://sciencevikinglabs.com/blog/hardware/2021-08-14-DEFCON29-Badge-Writeup/
+- label: Making the DEF CON 29 Badge (talk, InfoconDB)
   url: https://infocondb.org/con/def-con/def-con-29/making-the-def-con-29-badge
   kind: video
 - label: MK Factor
   url: https://mkfactor.com/
   kind: website
+  archived: https://web.archive.org/web/20260614164003/http://mkfactor.com/
 images:
 - file: assets/images/badges/dc29/badge-2021/5a5251d376.jpg
-  source: "https://sciencevikinglabs.com/blog/hardware/2021-08-14-DEFCON29-Badge-Writeup/"
-  credit: "Science Viking Labs"
-  caption: "Front of the DEF CON 29 (2021) official badge"
+  source: https://sciencevikinglabs.com/blog/hardware/2021-08-14-DEFCON29-Badge-Writeup/
+  credit: Science Viking Labs
+  caption: Front of the DEF CON 29 (2021) official badge
+  archived: https://web.archive.org/web/20260524035125/https://sciencevikinglabs.com/blog/hardware/2021-08-14-DEFCON29-Badge-Writeup/
 - file: assets/images/badges/dc29/badge-2021/8e2a0129d5.jpg
-  source: "https://sciencevikinglabs.com/blog/hardware/2021-08-14-DEFCON29-Badge-Writeup/"
-  credit: "Science Viking Labs"
-  caption: "Back of the DEF CON 29 (2021) official badge"
+  source: https://sciencevikinglabs.com/blog/hardware/2021-08-14-DEFCON29-Badge-Writeup/
+  credit: Science Viking Labs
+  caption: Back of the DEF CON 29 (2021) official badge
+  archived: https://web.archive.org/web/20260524035125/https://sciencevikinglabs.com/blog/hardware/2021-08-14-DEFCON29-Badge-Writeup/
 contact: {}
 notes:
 - Confirmed this session via defcon.org DC29 index page text and linked Hacker Hangouts video 'Designing the DEF CON 29 and 30 Badges (featuring MK Factor)'.
@@ -75,24 +79,26 @@ sources:
   note: 'Found by the archive''s discovery sweep (angle: official-badges); event read as ''DEF CON 29''.'
 - kind: url
   url: https://sciencevikinglabs.com/blog/hardware/2021-08-14-DEFCON29-Badge-Writeup/
-  title: 'DEFCON 29 - Badge Writeup | Science Viking Labs'
+  title: DEFCON 29 - Badge Writeup | Science Viking Labs
   accessed: '2026-09-07'
   note: 'Primary source for physical description: stacked boards, four RGB keys, three touch sensors, USB-A/USB-C ports and lanyard, battery/USB charging, Simon Says game, CTF ciphers and hardware-hacking challenge; front/back photos.'
+  archived: https://web.archive.org/web/20260524035125/https://sciencevikinglabs.com/blog/hardware/2021-08-14-DEFCON29-Badge-Writeup/
 - kind: url
   url: https://infocondb.org/con/def-con/def-con-29/making-the-def-con-29-badge
   title: Making the DEF CON 29 Badge
   accessed: '2026-09-07'
-  note: 'Confirms makers Michael and Katie Whiteley of MK Factor and the presence of a companion DEF CON talk on the badge''s design and manufacture.'
+  note: Confirms makers Michael and Katie Whiteley of MK Factor and the presence of a companion DEF CON talk on the badge's design and manufacture.
 - kind: url
   url: https://mkfactor.com/
   title: MK Factor
   accessed: '2026-09-07'
-  note: 'Maker''s own site, used for the makers URL.'
+  note: Maker's own site, used for the makers URL.
+  archived: https://web.archive.org/web/20260614164003/http://mkfactor.com/
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-07'
-  notes: 'MCU (MC56F8006VLC) is stated by the Science Viking Labs writeup, which says it is the same part used in the DC17/DC18 badges; not independently cross-checked against a maker teardown. LED count/type, display, colors, and shape were not stated by any source found and are left empty. Price and quantity are not published anywhere found; distribution was free as the standard attendee badge. Two other DC29 badges exist as separate community entries (AND!XOR''s electronic badge, Whiskey Pirates'' RISC-V badge) and are not this one.'
+  notes: MCU (MC56F8006VLC) is stated by the Science Viking Labs writeup, which says it is the same part used in the DC17/DC18 badges; not independently cross-checked against a maker teardown. LED count/type, display, colors, and shape were not stated by any source found and are left empty. Price and quantity are not published anywhere found; distribution was free as the standard attendee badge. Two other DC29 badges exist as separate community entries (AND!XOR's electronic badge, Whiskey Pirates' RISC-V badge) and are not this one.
 last_modified_date: '2026-09-07'
 ---
 

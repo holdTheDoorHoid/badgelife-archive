@@ -61,16 +61,17 @@ sources:
   accessed: '2026-09-07'
   note: 'Confirmed maker (Andrew Nicholson), CC BY-SA 3.0 license, Gerbers available, 2-layer 30x40mm FR-4 board with white solder mask and black silkscreen, no active components (just traces and a meme silkscreen), meant for the "Shitty Add-ons" SAO spec on badges like the DEF CON 26 badge.'
 research:
-  status: researched
+  status: verified
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'Only source found is the maker''s own PCBWay shared-project page; no Hackaday, GitHub, storefront, or social presence located, and web search quota was exhausted before broader searches could run. The project page''s og:image and other candidate image URLs on the page all resolve to a dead/placeholder 3x3 pixel PNG, so no photo could be saved. Price, quantity, and exact distribution (given away vs sold) are not stated anywhere found. year/event set to dc26 (DEF CON 26, 2018) per the page''s own framing ("Defcon 26 badge"); the page also mentions compatibility with DEF CON 27-era badges but does not give a separate DC27 listing.'
+  notes: 'Verified against the maker''s PCBWay shared-project page (fetched directly): maker (Andrew Nicholson), CC BY-SA 3.0 license, Gerbers downloadable, 2-layer 30x40mm FR-4 board with white solder mask/black silkscreen, and the page''s own line "shitty add-on extender for electronic badges like the Defcon 26 badge and others" all confirmed verbatim. Page tags include both "26" and "27" but the only explicit sentence names only the Defcon 26 badge, so the body was trimmed to not claim DC27 compatibility. No Hackaday, GitHub, storefront, or social presence located; the page offers only Gerbers/blank-PCB fabrication, no finished-board sale, so price/quantity/distribution are correctly left empty. The page does show real board photos (top/bottom PCB views), but the specific image URLs tried all returned a dead 3x3 placeholder, so no image was saved.'
 last_modified_date: '2026-09-07'
+
 ---
 
 "Is this a Shitty Add-on Add-on" is a joke entry in the "Shitty Add-ons" (SAO) genre that badge hackers built for DEF CON 26 in 2018. Rather than adding any function, it is literally just a line of copper traces and a punny silkscreen graphic on a small (30x40mm, 2-layer FR-4) board, sized to plug into a badge's SAO header the same way any other add-on would. Maker Andrew Nicholson shared it on PCBWay as a fabrication project rather than through a storefront, with the Gerber files released under a CC BY-SA 3.0 license so anyone could order or reproduce the board themselves.
 
-Because it has no active components, it can be built either by soldering it directly (hardwired) to a badge or by installing male/female headers so it can be swapped between badges — functioning less as an accessory with a purpose and more as a self-aware commentary on the SAO trend of DEF CON 26 and 27, where badges sprouted more add-ons than function often warranted.
+Because it has no active components, it can be built either by soldering it directly (hardwired) to a badge or by installing male/female headers so it can be swapped between badges — functioning less as an accessory with a purpose and more as a self-aware commentary on the SAO trend of DEF CON 26, where badges sprouted more add-ons than function often warranted.
 
 ## Make your own
 
