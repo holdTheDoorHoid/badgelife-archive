@@ -46,10 +46,24 @@ sources:
   row: 28
   updated: ''
 research:
-  status: stub
+  status: researched
   confidence: low
-  last_checked: '2026-09-06'
-  notes: Imported from the community badge sheet; not yet researched.
-last_modified_date: '2026-09-06'
+  last_checked: '2026-09-07'
+  notes: >-
+    No maker name was recorded on the community sheet for this row, and the
+    entry had no starting links. Searched web/image results for "nuclear
+    badge" combined with "DEF CON 31", "DEF CON", "SAO", and "tindie", and
+    checked Hackaday.io's and Tindie's own search pages directly; none
+    surfaced a matching project, listing, or maker. The sheet's own note
+    ("Tindie store info will be made available when I get it") suggests the
+    maker had not yet published a storefront link at the time the sheet was
+    filled in, which is consistent with finding nothing since. Left all
+    descriptive fields empty rather than guess. Worth a follow-up pass later
+    in case a listing surfaces.
+last_modified_date: '2026-09-07'
 ---
+
+Little independently-published information could be found about this badge beyond its listing on the DEF CON 31 (2023) community badge sheet, where it appears under the name "Nuclear Badge" with a note that the maker's Tindie store link would be added later. No maker name, storefront, project page, or photos of the badge itself turned up in searches across Hackaday.io, Tindie, and general web search.
+
+This entry is left mostly blank rather than filled with guesses. If the maker's storefront or a project writeup surfaces later, it should be revisited.
 

@@ -47,10 +47,20 @@ sources:
   row: 69
   updated: '2023-07-25'
 research:
-  status: stub
+  status: researched
   confidence: low
-  last_checked: '2026-09-06'
-  notes: Imported from the community badge sheet; not yet researched.
-last_modified_date: '2026-09-06'
+  last_checked: '2026-09-07'
+  notes: >-
+    No web presence found for this item or for a maker going by "Reloadrtr." Tried the
+    maker's name paired with "skeleton badge," "DEF CON," and "badge" across web search
+    (budget exhausted for this session), Bing, DuckDuckGo, Ecosia, and Marginalia (all
+    blocked or bot-gated), plus Hackaday.io and Reddit r/Defcon search (no matches, no
+    login-gated results). No Hackaday project, GitHub repo, storefront, or press
+    coverage turned up. The entry rests entirely on the community sheet's own
+    description; nothing here could be independently confirmed or expanded.
+last_modified_date: '2026-09-07'
 ---
 
+A non-electronic badge described on the DEF CON 31 community badge sheet as a "badass skeleton" design, made by a hacker going by Reloadrtr. Per the sheet, it is metal, cut with a plasma cutter, sold for $30, and limited to 48 pieces total — 16 each in red, blue, and silver — with any additional units given away as awards rather than sold.
+
+No maker page, repo, storefront, or press coverage for this badge or for "Reloadrtr" could be located online; the record here is limited to what the community sheet itself reported.
