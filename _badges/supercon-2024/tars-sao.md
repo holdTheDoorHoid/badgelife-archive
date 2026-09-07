@@ -12,16 +12,23 @@ makers:
 - name: davedarko
   url: https://hackaday.io/davedarko
 summary: A Simple Add-on inspired by the TARS robot from Interstellar, built around an RP2040-Tiny module with a 160x80 ST7735S colour display, six capacitive touch buttons, a small speaker, a white NeoPixel LED and a QWIIC I2C port, running a menu of apps such as a six-note piano, I2C scanner, scrolling name tag, meme display and Snake; made for the Supercon 8 SAO Contest at Hackaday Supercon 2024.
-functions: ''
+functions: 'Menu-driven apps including a 6-note piano keyboard, a Nokia 3310-style tone composer, an I2C terminal/scanner for QWIIC sensors, a scrolling name tag, a "MemeSaver" image display, and Snake.'
 look:
   colors: []
   shape: null
-  themes: []
+  themes:
+  - robot
+  - movie
+  - sci-fi
 tech:
-  mcu: null
-  leds: null
-  display: null
-  connectivity: []
+  mcu: RP2040
+  leds:
+    count: 1
+    type: WS2812B
+    note: single white LED used as an activity/cue light, referencing TARS's status light in the film
+  display: 160x80 ST7735S color LCD
+  connectivity:
+  - i2c
   battery: null
   sao_version: null
 get_one:
@@ -29,13 +36,14 @@ get_one:
   price_usd: null
   quantity: ''
   availability: unknown
-  distribution: []
+  distribution:
+  - contest
   where: ''
 make_your_own:
-  open_source: null
-  hardware_url: null
-  firmware_url: null
-  eda_tool: null
+  open_source: yes
+  hardware_url: https://github.com/davedarko/TARS-SAO
+  firmware_url: https://github.com/davedarko/TARS-SAO
+  eda_tool: KiCad
 links:
 - label: github.com/davedarko/TARS-SAO
   url: https://github.com/davedarko/TARS-SAO
@@ -43,21 +51,44 @@ links:
 - label: hackaday.io/project/198001-tars-sao
   url: https://hackaday.io/project/198001-tars-sao
   kind: hackaday
-images: []
+images:
+  - file: assets/images/badges/supercon-2024/tars-sao/9a61d4a284.jpg
+    source: "https://hackaday.io/project/198001-tars-sao"
+    credit: "davedarko"
+    caption: "TARS SAO cover photo"
+  - file: assets/images/badges/supercon-2024/tars-sao/0a79b10983.jpg
+    source: "https://hackaday.io/project/198001-tars-sao"
+    credit: "davedarko"
+    caption: "TARS SAO with display and touch buttons"
 contact: {}
 notes: []
-status: listed
+status: released
 sources:
 - kind: url
   url: https://github.com/davedarko/TARS-SAO
   title: 'davedarko/TARS-SAO: A not so simple Add-On for badges'
   accessed: '2026-09-06'
   note: Found via the project's link list; intake pass identified this item here.
+- kind: url
+  url: https://github.com/davedarko/TARS-SAO
+  title: 'davedarko/TARS-SAO: A not so simple Add-On for badges'
+  accessed: '2026-09-07'
+  note: 'Confirmed open-source KiCad hardware design files (MIT license), 6 capacitive touch buttons, small speaker, LED indicator, small display.'
+- kind: url
+  url: https://hackaday.io/project/198001-tars-sao
+  title: TARS SAO project page on Hackaday.io
+  accessed: '2026-09-07'
+  note: 'Confirmed maker, RP2040-Tiny MCU, 160x80 ST7735S display, capacitive touch buttons (1M ohm resistors), 13x18mm PWM speaker, white activity LED, two QWIIC I2C connectors, menu apps (piano, composer, I2C terminal/scanner, name tag, MemeSaver, planned Snake); made for the Supercon 8 SAO Contest at Hackaday Supercon 2024, project dated September 17, 2024.'
 research:
-  status: stub
-  confidence: low
-  last_checked: '2026-09-06'
-  notes: Imported from the community badge sheet; not yet researched.
-last_modified_date: '2026-09-06'
+  status: researched
+  confidence: medium
+  last_checked: '2026-09-07'
+  notes: 'Both the GitHub repo and Hackaday.io project page confirm the hardware and software details in the existing summary. No pricing, quantity-made, or distribution/availability details were found on either page beyond it being a Supercon 8 SAO Contest entry; get_one fields left largely empty. No standalone storefront or press coverage located (web search budget was exhausted before a broader search could be run). LED count/type is an inference from "NeoPixel" phrasing in the original sheet summary and "LED indicator" on GitHub; Hackaday.io does not give an explicit LED part number, so tech.leds.type (WS2812B) carries medium confidence only.'
+last_modified_date: '2026-09-07'
 ---
 
+The TARS SAO is a Simple Add-On built by hacker davedarko for the Supercon 8 SAO Contest at Hackaday Supercon 2024, taking its name and cue-light styling from the TARS robot in the film *Interstellar*. It runs on an RP2040-Tiny module and carries a 160x80 ST7735S color LCD, six capacitive-touch buttons wired through 1M ohm resistors in place of physical switches, a small PWM-driven speaker, and a single white LED used as a status/activity indicator. Two QWIIC I2C connectors let it talk to other sensors and boards on a badge.
+
+Rather than doing one thing, the SAO boots into a menu of small apps: a six-note piano keyboard, a Nokia 3310-style tone composer, an I2C terminal and scanner for probing QWIIC devices, a scrolling name-tag display, a "MemeSaver" image viewer, and a planned Snake game. The firmware is written for the Arduino IDE using libraries such as TFT_eSPI and RP2040_PWM.
+
+Hardware (KiCad) and firmware are published on GitHub under an MIT license, making this an open-source build. Neither the GitHub repository nor the Hackaday.io project page states a price, production quantity, or how (or whether) units were distributed beyond the Supercon contest entry itself, so those fields are left blank pending further sources.

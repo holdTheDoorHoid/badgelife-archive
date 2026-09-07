@@ -11,8 +11,8 @@ year: 2018
 makers:
 - name: Hacker Warehouse
   url: https://hackerwarehouse.com
-summary: 'A multitool electronic badge for DEF CON 26 (2018) combining an ESP32 and an ATmega32u4 to act as a USB Rubber Ducky-style keystroke injector, Wi-Fi scanner/access point, small webserver, and Google Authenticator TOTP generator.'
-functions: 'Keyboard/mouse HID payload execution (Ducky Script-compatible), Wi-Fi scanning and monitoring, rogue access point creation, a built-in webserver, RGB LED light patterns, and TOTP codes as a Google Authenticator replacement.'
+summary: A multitool electronic badge for DEF CON 26 (2018) combining an ESP32 and an ATmega32u4 to act as a USB Rubber Ducky-style keystroke injector, Wi-Fi scanner/access point, small webserver, and Google Authenticator TOTP generator.
+functions: Keyboard/mouse HID payload execution (Ducky Script-compatible), Wi-Fi scanning and monitoring, rogue access point creation, a built-in webserver, RGB LED light patterns, and TOTP codes as a Google Authenticator replacement.
 look:
   colors: []
   shape: rectangle
@@ -25,7 +25,7 @@ tech:
   leds:
     count: 14
     type: WS2812B
-    note: "Described by the maker as 14 NeoPixel RGB LEDs; Hackaday's preview called them 'mini WS2812' without giving a count."
+    note: Described by the maker as 14 NeoPixel RGB LEDs; Hackaday's preview called them 'mini WS2812' without giving a count.
   display: 96x64 graphic full-color OLED
   connectivity:
   - wifi
@@ -36,21 +36,21 @@ tech:
   sao_version: v1
   sao_ports: 2
 get_one:
-  price: "$40+ (approx.; Hackaday described it as 'slightly more than' a USB Rubber Ducky, no exact figure given)"
+  price: $40+ (approx.; Hackaday described it as 'slightly more than' a USB Rubber Ducky, no exact figure given)
   price_usd: null
   quantity: ''
   availability: unknown
   distribution:
   - preorder
   - purchase
-  where: 'Preordered directly through Hacker Warehouse, with delivery at DEF CON 26 and post-convention shipping for remaining orders.'
+  where: Preordered directly through Hacker Warehouse, with delivery at DEF CON 26 and post-convention shipping for remaining orders.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/hackerwarehouse/HW-DC26-Badge
   firmware_url: https://github.com/hackerwarehouse/HW-DC26-Badge
   eda_tool: null
   license: GPL-3.0
-  notes: 'Both the PCB design and firmware are published in the same GitHub repo under GPL-3.0, with build/flashing documentation.'
+  notes: Both the PCB design and firmware are published in the same GitHub repo under GPL-3.0, with build/flashing documentation.
 links:
 - label: github.com/hackerwarehouse/HW-DC26-Badge
   url: https://github.com/hackerwarehouse/HW-DC26-Badge
@@ -58,6 +58,7 @@ links:
 - label: hackaday.com/2018/07/06/a-sneak-preview-of-the-hacker-warehouse-badge
   url: https://hackaday.com/2018/07/06/a-sneak-preview-of-the-hacker-warehouse-badge/
   kind: article
+  archived: https://web.archive.org/web/20260520171949/https://hackaday.com/2018/07/06/a-sneak-preview-of-the-hacker-warehouse-badge/
 images: []
 contact: {}
 notes: []
@@ -75,9 +76,10 @@ sources:
   note: 'Maker''s own repo: hardware/firmware specs, GPL-3.0 license, feature list, image URLs (badge-r1.jpg, button-labels.jpg).'
 - kind: url
   url: https://hackaday.com/2018/07/06/a-sneak-preview-of-the-hacker-warehouse-badge/
-  title: 'A Sneak Preview Of The Hacker Warehouse Badge (Hackaday)'
+  title: A Sneak Preview Of The Hacker Warehouse Badge (Hackaday)
   accessed: '2026-09-07'
-  note: 'Press preview confirming DEF CON 26/2018, preorder/pricing context, and feature description.'
+  note: Press preview confirming DEF CON 26/2018, preorder/pricing context, and feature description.
+  archived: https://web.archive.org/web/20260520171949/https://hackaday.com/2018/07/06/a-sneak-preview-of-the-hacker-warehouse-badge/
 research:
   status: researched
   confidence: high

@@ -40,14 +40,16 @@ links:
 - label: hackaday.io/project/161510-lsp-sao
   url: https://hackaday.io/project/161510-lsp-sao
   kind: hackaday
+  archived: https://web.archive.org/web/20251207043932/https://hackaday.io/project/161510-lsp-sao
 - label: cdn.hackaday.io/files/1615106910043840/lumpy_sao.zip
   url: https://cdn.hackaday.io/files/1615106910043840/lumpy_sao.zip
   kind: hackaday
 images:
 - file: assets/images/badges/dc26/lsp-sao/4d2e93a0fd.jpg
-  source: "https://hackaday.io/project/161510-lsp-sao"
-  credit: "lemons4all"
-  caption: "LSP SAO, featuring Lumpy Space Princess artwork"
+  source: https://hackaday.io/project/161510-lsp-sao
+  credit: lemons4all
+  caption: LSP SAO, featuring Lumpy Space Princess artwork
+  archived: https://web.archive.org/web/20251207043932/https://hackaday.io/project/161510-lsp-sao
 contact: {}
 notes: []
 status: listed
@@ -57,16 +59,18 @@ sources:
   title: LSP SAO
   accessed: '2026-09-06'
   note: Found via the project's link list; intake pass identified this item here.
+  archived: https://web.archive.org/web/20251207043932/https://hackaday.io/project/161510-lsp-sao
 - kind: url
   url: https://hackaday.io/lemons4all1
-  title: "lemons4all - Hackaday.io"
+  title: lemons4all - Hackaday.io
   accessed: '2026-09-07'
-  note: "Maker's profile; confirms two companion DEF CON 26 SAOs (Frida SAO, RBG SAO) and bio ('I enjoy making PCB art')."
+  note: Maker's profile; confirms two companion DEF CON 26 SAOs (Frida SAO, RBG SAO) and bio ('I enjoy making PCB art').
+  archived: https://web.archive.org/web/20260213191848/https://hackaday.io/lemons4all1
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: "Hackaday project page gives no technical details (MCU, LEDs, connectivity, price, quantity) - the maker's log only says 'art files will be added soon.' The design-file archive (lumpy_sao.zip) was not opened to inspect for schematics/BOM, so make_your_own fields beyond hardware_url are left empty rather than guessed."
+  notes: Hackaday project page gives no technical details (MCU, LEDs, connectivity, price, quantity) - the maker's log only says 'art files will be added soon.' The design-file archive (lumpy_sao.zip) was not opened to inspect for schematics/BOM, so make_your_own fields beyond hardware_url are left empty rather than guessed.
 last_modified_date: '2026-09-07'
 ---
 
