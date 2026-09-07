@@ -43,11 +43,11 @@ links:
 - label: hackaday.io/project/160014-sao-badgelife-add-ons
   url: https://hackaday.io/project/160014-sao-badgelife-add-ons
   kind: hackaday
+  archived: https://web.archive.org/web/20260504115728/https://hackaday.io/project/160014-sao-badgelife-add-ons
 images: []
 contact: {}
 notes:
-- 'Sheet name matched intake exactly ("Gizmo Duck"); the project also lists a separate,
-  unrelated "Darkwing Duck (in works)" item by the same maker.'
+- Sheet name matched intake exactly ("Gizmo Duck"); the project also lists a separate, unrelated "Darkwing Duck (in works)" item by the same maker.
 status: listed
 sources:
 - kind: url
@@ -55,33 +55,22 @@ sources:
   title: 'SAO #Badgelife add-ons'
   accessed: '2026-09-06'
   note: Found via the project's link list; intake pass identified this item here.
+  archived: https://web.archive.org/web/20260504115728/https://hackaday.io/project/160014-sao-badgelife-add-ons
 - kind: url
   url: https://hackaday.io/project/160014/log/150208-1st-order-placed
-  title: '1st Order Placed'
+  title: 1st Order Placed
   accessed: '2026-09-07'
-  note: 'Only build log on the project; covers an OSHPark order of 4 SAOs (Leela,
-    Bender, Zoidberg, Tubbs) in purple/gold. Gizmo Duck is not mentioned - it was
-    not part of the batch that got built.'
+  note: Only build log on the project; covers an OSHPark order of 4 SAOs (Leela, Bender, Zoidberg, Tubbs) in purple/gold. Gizmo Duck is not mentioned - it was not part of the batch that got built.
 - kind: url
   url: https://hackaday.io/project/160014/gallery
   title: 'SAO #Badgelife add-ons - gallery'
   accessed: '2026-09-07'
-  note: 'All 9 gallery photos and 4 uploaded files show only the completed Leela,
-    Bender and Zoidberg SAOs on a breadboard; none show a Gizmo Duck piece.'
+  note: All 9 gallery photos and 4 uploaded files show only the completed Leela, Bender and Zoidberg SAOs on a breadboard; none show a Gizmo Duck piece.
 research:
   status: researched
   confidence: low
   last_checked: '2026-09-07'
-  notes: 'The maker''s project page (created 07/26/2018, for DEF CON 26) lists "Gizmo
-    Duck" by name alongside other planned SAOs, separately from items explicitly
-    marked "(in works)" and separately from the "Completed basic SAO" section (Leela,
-    Bender, Zoidberg, Tubbs). The one build log and the full photo gallery only
-    document the four completed characters being ordered from OSHPark and lit up
-    on a breadboard - Gizmo Duck never appears in a photo, log entry, or file on
-    the page. No chip, LED, price, quantity, or distribution details were ever
-    published for it, and no other source (search engines exhausted their budget
-    this session) turned up a finished piece. Treating it as planned/unreleased
-    rather than confirmed released.'
+  notes: The maker's project page (created 07/26/2018, for DEF CON 26) lists "Gizmo Duck" by name alongside other planned SAOs, separately from items explicitly marked "(in works)" and separately from the "Completed basic SAO" section (Leela, Bender, Zoidberg, Tubbs). The one build log and the full photo gallery only document the four completed characters being ordered from OSHPark and lit up on a breadboard - Gizmo Duck never appears in a photo, log entry, or file on the page. No chip, LED, price, quantity, or distribution details were ever published for it, and no other source (search engines exhausted their budget this session) turned up a finished piece. Treating it as planned/unreleased rather than confirmed released.
 last_modified_date: '2026-09-07'
 ---
 

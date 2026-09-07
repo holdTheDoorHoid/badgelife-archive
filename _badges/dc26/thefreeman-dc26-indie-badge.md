@@ -12,11 +12,14 @@ makers:
 - name: Twinkle Twinkie
   url: https://hackaday.io/twinkletwinkie
 summary: A single-layer PCB-art indie badge shaped like a Half-Life 2 Vortigaunt head, with 5 OSRAM reverse-mount TOPLEDs (3 red, 2 orange) shining through the board to light the eyes, powered by a CR2032; about 40 were made for DEF CON 26 and the KiCad/Gerber files are posted.
-functions: 'Decorative wearable; LEDs illuminate the Vortigaunt eyes through the single-layer board. No interactive electronics beyond the lighting.'
+functions: Decorative wearable; LEDs illuminate the Vortigaunt eyes through the single-layer board. No interactive electronics beyond the lighting.
 look:
-  colors: [green]
+  colors:
+  - green
   shape: null
-  themes: [video games, pop culture]
+  themes:
+  - video games
+  - pop culture
 tech:
   mcu: none
   leds:
@@ -24,18 +27,19 @@ tech:
     type: reverse-mount
     note: 3x OSRAM TOPLED red (LS T776-P2S1-1-Z), 2x OSRAM TOPLED orange (LO T776-Q2T1-24-Z), mounted reverse-side so light shines through the single-layer PCB to backlight the eyes.
   display: none
-  connectivity: [none]
+  connectivity:
+  - none
   battery: CR2032
   sao_version: none
 get_one:
   price: ''
   price_usd: null
-  quantity: 'about 40'
+  quantity: about 40
   availability: unknown
   distribution: []
   where: ''
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://hackaday.io/project/158663/files
   firmware_url: null
   eda_tool: KiCad
@@ -43,6 +47,7 @@ links:
 - label: hackaday.io/project/158663-thefreeman-def-con-26-indie-badge
   url: https://hackaday.io/project/158663-thefreeman-def-con-26-indie-badge
   kind: hackaday
+  archived: https://web.archive.org/web/20260519083607/https://hackaday.io/project/158663-thefreeman-def-con-26-indie-badge
 - label: hackaday.io/project/158663/log/146964-a-quick-summary
   url: https://hackaday.io/project/158663/log/146964-a-quick-summary
   kind: hackaday
@@ -51,9 +56,10 @@ links:
   kind: hackaday
 images:
 - file: assets/images/badges/dc26/thefreeman-dc26-indie-badge/312168004e.jpg
-  source: "https://hackaday.io/project/158663-thefreeman-def-con-26-indie-badge"
-  credit: "Twinkle Twinkie"
-  caption: "THEFREEMAN indie badge, Vortigaunt-head PCB with reverse-mount LED eyes"
+  source: https://hackaday.io/project/158663-thefreeman-def-con-26-indie-badge
+  credit: Twinkle Twinkie
+  caption: THEFREEMAN indie badge, Vortigaunt-head PCB with reverse-mount LED eyes
+  archived: https://web.archive.org/web/20260519083607/https://hackaday.io/project/158663-thefreeman-def-con-26-indie-badge
 contact: {}
 notes: []
 status: released
@@ -63,14 +69,16 @@ sources:
   title: THEFREEMAN - DEF CON 26 INDIE BADGE
   accessed: '2026-09-06'
   note: Found via the project's link list; intake pass identified this item here.
+  archived: https://web.archive.org/web/20260519083607/https://hackaday.io/project/158663-thefreeman-def-con-26-indie-badge
 - kind: url
   url: https://hackaday.io/project/158663-thefreeman-def-con-26-indie-badge
   title: THEFREEMAN - DEF CON 26 INDIE BADGE (overview)
   accessed: '2026-09-07'
   note: Confirmed maker, event/year, LED part numbers, battery, quantity (~40), and that design files are free downloads.
+  archived: https://web.archive.org/web/20260519083607/https://hackaday.io/project/158663-thefreeman-def-con-26-indie-badge
 - kind: url
   url: https://hackaday.io/project/158663/log/146964-a-quick-summary
-  title: "A quick summary (project log)"
+  title: A quick summary (project log)
   accessed: '2026-09-07'
   note: Confirms ~40 boards for DEF CON 26; notes it is the second board revision, added copper fill for grounding, removed an unneeded resistor to improve battery life, and mentions a misspelled Twitter handle on this run.
 - kind: url

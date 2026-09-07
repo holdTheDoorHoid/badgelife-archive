@@ -33,7 +33,7 @@ tech:
 get_one:
   price: ''
   price_usd: null
-  quantity: '3 (one OSH Park batch)'
+  quantity: 3 (one OSH Park batch)
   availability: unknown
   distribution: []
   where: ''
@@ -46,6 +46,7 @@ links:
 - label: hackaday.io/project/160014-sao-badgelife-add-ons
   url: https://hackaday.io/project/160014-sao-badgelife-add-ons
   kind: hackaday
+  archived: https://web.archive.org/web/20260504115728/https://hackaday.io/project/160014-sao-badgelife-add-ons
 - label: hackaday.io/project/160014/log/150208-1st-order-placed
   url: https://hackaday.io/project/160014/log/150208-1st-order-placed
   kind: hackaday
@@ -53,10 +54,10 @@ links:
   url: https://hackaday.io/project/160014/gallery
   kind: hackaday
 images:
-  - file: assets/images/badges/dc26/thelogicofpi-tubbs-neko-atsume-sao/9d8abbe521.jpg
-    source: "https://hackaday.io/project/160014/log/150208-1st-order-placed"
-    credit: "thelogicofpi"
-    caption: "OSH Park order screenshot showing the Tubbs SAO PCB design, front and back (1.78 x 1.14 in)"
+- file: assets/images/badges/dc26/thelogicofpi-tubbs-neko-atsume-sao/9d8abbe521.jpg
+  source: https://hackaday.io/project/160014/log/150208-1st-order-placed
+  credit: thelogicofpi
+  caption: OSH Park order screenshot showing the Tubbs SAO PCB design, front and back (1.78 x 1.14 in)
 contact: {}
 notes: []
 status: listed
@@ -66,21 +67,23 @@ sources:
   title: 'SAO #Badgelife add-ons'
   accessed: '2026-09-06'
   note: Found via the project's link list; intake pass identified this item here.
+  archived: https://web.archive.org/web/20260504115728/https://hackaday.io/project/160014-sao-badgelife-add-ons
 - kind: url
   url: https://hackaday.io/project/160014-sao-badgelife-add-ons
   title: 'SAO #Badgelife add-ons'
   accessed: '2026-09-07'
-  note: "Project description lists Tubbs (nekoatsume) among 'Completed basic SAO', alongside Leela, Bender, and Zoidberg add-ons made for the same event."
+  note: Project description lists Tubbs (nekoatsume) among 'Completed basic SAO', alongside Leela, Bender, and Zoidberg add-ons made for the same event.
+  archived: https://web.archive.org/web/20260504115728/https://hackaday.io/project/160014-sao-badgelife-add-ons
 - kind: url
   url: https://hackaday.io/project/160014/log/150208-1st-order-placed
-  title: '1st Order Placed'
+  title: 1st Order Placed
   accessed: '2026-09-07'
-  note: "Maker's 07/31/2018 log entry: ordered the first 4 SAO designs from OSH Park's purple-and-gold PCB finish; 'tubbs eats out of a golden bowl'. Embedded OSH Park order screenshot names the file tubbs.kicad_pcb, 1.78 x 1.14 in (45.3 x 28.8 mm) 2-layer board, ordered in a batch of 3, with 'tubbs' and 'Now Loading' silkscreen text on the back."
+  note: 'Maker''s 07/31/2018 log entry: ordered the first 4 SAO designs from OSH Park''s purple-and-gold PCB finish; ''tubbs eats out of a golden bowl''. Embedded OSH Park order screenshot names the file tubbs.kicad_pcb, 1.78 x 1.14 in (45.3 x 28.8 mm) 2-layer board, ordered in a batch of 3, with ''tubbs'' and ''Now Loading'' silkscreen text on the back.'
 - kind: url
   url: https://hackaday.io/project/160014/gallery
   title: 'SAO #Badgelife add-ons - gallery'
   accessed: '2026-09-07'
-  note: "Checked all 9 gallery images; the photographed/lit boards visible are Leela, Zoidberg, and Bender variants (and the order-page render). No separate photo of an assembled/lit Tubbs board was found in the gallery."
+  note: Checked all 9 gallery images; the photographed/lit boards visible are Leela, Zoidberg, and Bender variants (and the order-page render). No separate photo of an assembled/lit Tubbs board was found in the gallery.
 research:
   status: researched
   confidence: medium

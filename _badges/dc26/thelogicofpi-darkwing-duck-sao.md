@@ -42,6 +42,7 @@ links:
 - label: hackaday.io/project/160014-sao-badgelife-add-ons
   url: https://hackaday.io/project/160014-sao-badgelife-add-ons
   kind: hackaday
+  archived: https://web.archive.org/web/20260504115728/https://hackaday.io/project/160014-sao-badgelife-add-ons
 images: []
 contact: {}
 notes: []
@@ -52,11 +53,13 @@ sources:
   title: 'SAO #Badgelife add-ons'
   accessed: '2026-09-06'
   note: Found via the project's link list; intake pass identified this item here.
+  archived: https://web.archive.org/web/20260504115728/https://hackaday.io/project/160014-sao-badgelife-add-ons
 - kind: url
   url: https://hackaday.io/project/160014-sao-badgelife-add-ons
   title: 'SAO #Badgelife add-ons'
   accessed: '2026-09-07'
-  note: 'Project description lists "Darkwing Duck (in works)" as one of several planned SAOs for DEF CON; no dedicated section, image, or completion note for it specifically. Page last updated ~8 years ago (i.e. around 2018).'
+  note: Project description lists "Darkwing Duck (in works)" as one of several planned SAOs for DEF CON; no dedicated section, image, or completion note for it specifically. Page last updated ~8 years ago (i.e. around 2018).
+  archived: https://web.archive.org/web/20260504115728/https://hackaday.io/project/160014-sao-badgelife-add-ons
 research:
   status: researched
   confidence: low

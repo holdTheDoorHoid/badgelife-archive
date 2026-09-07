@@ -40,6 +40,7 @@ links:
 - label: hackaday.io/project/160014-sao-badgelife-add-ons
   url: https://hackaday.io/project/160014-sao-badgelife-add-ons
   kind: hackaday
+  archived: https://web.archive.org/web/20260504115728/https://hackaday.io/project/160014-sao-badgelife-add-ons
 images: []
 contact: {}
 notes:
@@ -51,16 +52,18 @@ sources:
   title: 'SAO #Badgelife add-ons'
   accessed: '2026-09-06'
   note: Found via the project's link list; intake pass identified this item here.
+  archived: https://web.archive.org/web/20260504115728/https://hackaday.io/project/160014-sao-badgelife-add-ons
 - kind: url
   url: https://hackaday.io/project/160014-sao-badgelife-add-ons
   title: 'SAO #Badgelife add-ons'
   accessed: '2026-09-07'
-  note: 'Re-read project page and description. Confirms "Pickle-Rick + Portal BG (in works)" as a planned item on thelogicofpi''s pre-DEF CON SAO to-do list, created 2018-07-26. No dedicated sub-page, photo, chip/LED/price details, or completion note exists for this specific item; the project''s photos document other SAOs (Leela, Bender, Zoidberg, Tubbs) instead.'
+  note: Re-read project page and description. Confirms "Pickle-Rick + Portal BG (in works)" as a planned item on thelogicofpi's pre-DEF CON SAO to-do list, created 2018-07-26. No dedicated sub-page, photo, chip/LED/price details, or completion note exists for this specific item; the project's photos document other SAOs (Leela, Bender, Zoidberg, Tubbs) instead.
+  archived: https://web.archive.org/web/20260504115728/https://hackaday.io/project/160014-sao-badgelife-add-ons
 research:
   status: researched
   confidence: low
   last_checked: '2026-09-07'
-  notes: 'The maker''s project page only lists this as one line item on a to-do list ("in works") among several other planned SAOs for DEF CON 26 (2018); it was never given its own writeup, photo, or completion log on the page, so there is no evidence it was ever finished or distributed. The maker''s Hackaday.io profile page could not be read (requires login). No independent coverage, storefront listing, or image of this specific SAO was found elsewhere. Left tech/get_one/make_your_own fields empty rather than guess.'
+  notes: The maker's project page only lists this as one line item on a to-do list ("in works") among several other planned SAOs for DEF CON 26 (2018); it was never given its own writeup, photo, or completion log on the page, so there is no evidence it was ever finished or distributed. The maker's Hackaday.io profile page could not be read (requires login). No independent coverage, storefront listing, or image of this specific SAO was found elsewhere. Left tech/get_one/make_your_own fields empty rather than guess.
 last_modified_date: '2026-09-07'
 ---
 

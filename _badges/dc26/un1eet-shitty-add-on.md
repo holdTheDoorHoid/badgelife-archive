@@ -12,7 +12,7 @@ makers:
 - name: '|)3vice'
   url: https://hackaday.io/d3vice
 summary: 'A beginner-friendly Shitty Add-On that |)3vice made for DEF CON 26 (2018) while learning KiCad: a small ''#un1eet'' (leet) PCB-art board assembled from a single 0805 LED and resistor plus SAO header pins, later revised as the ''un1eet x2'' with a through-hole LED behind the hash symbol and I2C/SPI pads exposed for mods.'
-functions: 'Lights a single LED once the resistor and LED are hand-soldered on; the x2 revision exposes I2C and SPI pads for further mods.'
+functions: Lights a single LED once the resistor and LED are hand-soldered on; the x2 revision exposes I2C and SPI pads for further mods.
 look:
   colors: []
   shape: null
@@ -39,7 +39,7 @@ get_one:
   availability: unknown
   distribution:
   - purchase
-  where: 'Sold as an assemble-it-yourself kit through the maker''s Tindie store (dMaker); exact price and quantity not stated on the pages checked.'
+  where: Sold as an assemble-it-yourself kit through the maker's Tindie store (dMaker); exact price and quantity not stated on the pages checked.
 make_your_own:
   open_source: null
   hardware_url: null
@@ -49,6 +49,7 @@ links:
 - label: hackaday.io/project/160043-un1eet-shitty-add-on
   url: https://hackaday.io/project/160043-un1eet-shitty-add-on
   kind: hackaday
+  archived: https://web.archive.org/web/20260506171722/https://hackaday.io/project/160043-un1eet-shitty-add-on
 - label: hackaday.io/project/160043/instructions
   url: https://hackaday.io/project/160043/instructions
   kind: hackaday
@@ -56,14 +57,16 @@ links:
   url: https://www.tindie.com/stores/dMaker/
   kind: store
 images:
-  - file: assets/images/badges/dc26/un1eet-shitty-add-on/6566874adb.jpg
-    source: "https://hackaday.io/project/160043-un1eet-shitty-add-on"
-    credit: "|)3vice"
-    caption: "The #un1eet Shitty Add-On PCB"
-  - file: assets/images/badges/dc26/un1eet-shitty-add-on/0e5f6fe2cb.jpg
-    source: "https://hackaday.io/project/160043-un1eet-shitty-add-on"
-    credit: "|)3vice"
-    caption: "The #un1eet Shitty Add-On assembled on a badge"
+- file: assets/images/badges/dc26/un1eet-shitty-add-on/6566874adb.jpg
+  source: https://hackaday.io/project/160043-un1eet-shitty-add-on
+  credit: '|)3vice'
+  caption: 'The #un1eet Shitty Add-On PCB'
+  archived: https://web.archive.org/web/20260506171722/https://hackaday.io/project/160043-un1eet-shitty-add-on
+- file: assets/images/badges/dc26/un1eet-shitty-add-on/0e5f6fe2cb.jpg
+  source: https://hackaday.io/project/160043-un1eet-shitty-add-on
+  credit: '|)3vice'
+  caption: 'The #un1eet Shitty Add-On assembled on a badge'
+  archived: https://web.archive.org/web/20260506171722/https://hackaday.io/project/160043-un1eet-shitty-add-on
 contact: {}
 notes: []
 status: listed
@@ -73,21 +76,23 @@ sources:
   title: '#un1eet Shitty Add On'
   accessed: '2026-09-06'
   note: Found via the project's link list; intake pass identified this item here.
+  archived: https://web.archive.org/web/20260506171722/https://hackaday.io/project/160043-un1eet-shitty-add-on
 - kind: url
   url: https://hackaday.io/project/160043-un1eet-shitty-add-on
   title: '#un1eet Shitty Add On (project page)'
   accessed: '2026-09-07'
-  note: 'Confirmed maker, event/year (DEF CON 26, 2018), that it is a learning-focused SAO with an SMD LED and 0805 resistor, KiCad/Inkscape design tools, and sale via Tindie.'
+  note: Confirmed maker, event/year (DEF CON 26, 2018), that it is a learning-focused SAO with an SMD LED and 0805 resistor, KiCad/Inkscape design tools, and sale via Tindie.
+  archived: https://web.archive.org/web/20260506171722/https://hackaday.io/project/160043-un1eet-shitty-add-on
 - kind: url
   url: https://hackaday.io/project/160043/instructions
   title: '#un1eet Shitty Add On - instructions'
   accessed: '2026-09-07'
-  note: 'Assembly steps for the LED, 0805 resistor, and SAO headers; confirms the un1eet x2 revision has a through-hole LED behind the hash symbol and exposed I2C/SPI pads.'
+  note: Assembly steps for the LED, 0805 resistor, and SAO headers; confirms the un1eet x2 revision has a through-hole LED behind the hash symbol and exposed I2C/SPI pads.
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'The Tindie store page (tindie.com/stores/dMaker) returned a Cloudflare challenge page and could not be read, so price, quantity made, and current availability are unknown. No mcu is used (the board is a passive LED+resistor circuit); tech.mcu set to none accordingly.'
+  notes: The Tindie store page (tindie.com/stores/dMaker) returned a Cloudflare challenge page and could not be read, so price, quantity made, and current availability are unknown. No mcu is used (the board is a passive LED+resistor circuit); tech.mcu set to none accordingly.
 last_modified_date: '2026-09-07'
 ---
 

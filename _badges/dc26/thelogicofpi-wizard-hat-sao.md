@@ -42,6 +42,7 @@ links:
 - label: hackaday.io/project/160014-sao-badgelife-add-ons
   url: https://hackaday.io/project/160014-sao-badgelife-add-ons
   kind: hackaday
+  archived: https://web.archive.org/web/20260504115728/https://hackaday.io/project/160014-sao-badgelife-add-ons
 images: []
 contact: {}
 notes: []
@@ -52,30 +53,18 @@ sources:
   title: 'SAO #Badgelife add-ons'
   accessed: '2026-09-06'
   note: Found via the project's link list; intake pass identified this item here.
+  archived: https://web.archive.org/web/20260504115728/https://hackaday.io/project/160014-sao-badgelife-add-ons
 - kind: url
   url: https://hackaday.io/project/160014-sao-badgelife-add-ons
   title: 'SAO #Badgelife add-ons'
   accessed: '2026-09-07'
-  note: >-
-    Project description text confirms the project ("Many projects to build before
-    defcon", created 07/26/2018) lists "Wizard Hat SAOAO" among planned pieces.
-    Several sibling items are tagged "(in works)"; Wizard Hat is not, and it does
-    not appear in the page's separate "Completed basic SAO" list (Leela, Bender,
-    Zoidberg, Tubbs). The page's photo gallery holds 4 images with no captions
-    identifying any of them as the Wizard Hat, so no image could be confidently
-    attributed and saved.
+  note: Project description text confirms the project ("Many projects to build before defcon", created 07/26/2018) lists "Wizard Hat SAOAO" among planned pieces. Several sibling items are tagged "(in works)"; Wizard Hat is not, and it does not appear in the page's separate "Completed basic SAO" list (Leela, Bender, Zoidberg, Tubbs). The page's photo gallery holds 4 images with no captions identifying any of them as the Wizard Hat, so no image could be confidently attributed and saved.
+  archived: https://web.archive.org/web/20260504115728/https://hackaday.io/project/160014-sao-badgelife-add-ons
 research:
   status: researched
   confidence: low
   last_checked: '2026-09-07'
-  notes: >-
-    thelogicofpi's Hackaday.io profile page could not be loaded (login/captcha
-    wall blocked automated access), so no secondary confirmation was found. No
-    other web results turned up a completed Wizard Hat SAO by this maker. Nothing
-    on the project page gives chip, LEDs, price, quantity, or distribution
-    details for this specific item, and no photo on the page is identifiable as
-    the Wizard Hat. Treating this as a planned/unfinished design rather than a
-    confirmed released SAO.
+  notes: thelogicofpi's Hackaday.io profile page could not be loaded (login/captcha wall blocked automated access), so no secondary confirmation was found. No other web results turned up a completed Wizard Hat SAO by this maker. Nothing on the project page gives chip, LEDs, price, quantity, or distribution details for this specific item, and no photo on the page is identifiable as the Wizard Hat. Treating this as a planned/unfinished design rather than a confirmed released SAO.
 last_modified_date: '2026-09-07'
 ---
 

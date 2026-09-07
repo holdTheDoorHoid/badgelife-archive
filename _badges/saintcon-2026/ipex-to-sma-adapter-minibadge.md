@@ -10,14 +10,16 @@ event: saintcon-2026
 year: 2026
 makers:
 - name: Pips
-summary: ''
-functions: ''
+summary: 'A SAINTCON 2026 minibadge that adapts an I-PEX (U.FL) connector to SMA, letting a companion badge use a vertical SMA antenna.'
+functions: 'Passive RF adapter: solder in pin headers, plug in an I-PEX to I-PEX cable, and screw on an SMA antenna. Designed as an accessory for the maker''s ESP32 Meshtastic Minibadge.'
 look:
   colors: []
   shape: null
-  themes: []
+  themes:
+  - radio
+  - hardware tool
 tech:
-  mcu: null
+  mcu: none
   leds: null
   display: null
   connectivity: []
@@ -26,10 +28,11 @@ tech:
 get_one:
   price: ''
   price_usd: null
-  quantity: ''
+  quantity: '20'
   availability: unknown
-  distribution: []
-  where: ''
+  distribution:
+  - purchase
+  where: 'From the maker in person at SAINTCON 2026, or via their Tindie store.'
 make_your_own:
   open_source: null
   hardware_url: null
@@ -39,7 +42,18 @@ links:
 - label: minibadge.wiki/?search=IPEX%20to%20SMA%20adapter%20Minibadge&year=2026
   url: https://minibadge.wiki/?search=IPEX%20to%20SMA%20adapter%20Minibadge&year=2026
   kind: website
-images: []
+- label: minibadge.wiki 2026 data export
+  url: https://minibadge.wiki/2026.json
+  kind: doc
+images:
+  - file: assets/images/badges/saintcon-2026/ipex-to-sma-adapter-minibadge/29125d8778.jpg
+    source: "https://minibadge.wiki/2026.json"
+    credit: "Pips"
+    caption: "Front of the IPEX to SMA adapter minibadge"
+  - file: assets/images/badges/saintcon-2026/ipex-to-sma-adapter-minibadge/fbabd580a8.jpg
+    source: "https://minibadge.wiki/2026.json"
+    credit: "Pips"
+    caption: "Back of the IPEX to SMA adapter minibadge"
 contact: {}
 notes:
 - 'category: Personal; qty made: 20'
@@ -50,11 +64,19 @@ sources:
   title: IPEX to SMA adapter Minibadge
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: SAINTCON minibadges (via minibadge.wiki community database)); event read as ''SAINTCON 2026''.'
+- kind: url
+  url: https://minibadge.wiki/2026.json
+  title: MiniBadge Wiki 2026 data export (JSON)
+  accessed: '2026-09-07'
+  note: 'Raw community submission record for this badge: description, soldering instructions, board house (JLCPCB), quantity made (20), category (Personal), and acquisition note (in person at SAINTCON, or the maker''s Tindie store). Also supplied the front/back image URLs.'
 research:
-  status: stub
-  confidence: low
-  last_checked: '2026-09-06'
-  notes: Imported from the community badge sheet; not yet researched.
-last_modified_date: '2026-09-06'
+  status: researched
+  confidence: medium
+  last_checked: '2026-09-07'
+  notes: 'The live search page at minibadge.wiki renders client-side and returned no results when fetched directly; the underlying data came from the site''s raw 2026.json export instead, which carries the maker''s own submitted description. No independent Tindie listing, price, or availability status could be confirmed, so those fields are left empty/unknown. The maker (Pips) submitted several other SAINTCON 2026 minibadges to the same wiki, including an "ESP32 Meshtastic Minibadge" that this adapter is explicitly designed to pair with (see other_items_found in the research report).'
+last_modified_date: '2026-09-07'
 ---
 
+The IPEX to SMA adapter Minibadge is a small passive accessory board made by Pips for SAINTCON 2026. It solves one specific problem: it converts an I-PEX (U.FL) antenna connector to a standard SMA connector, so a badge or minibadge built around a U.FL-only radio module can use a normal screw-on vertical SMA antenna instead of a fragile flying lead. The maker built it specifically as a companion to their own ESP32 Meshtastic Minibadge from the same year.
+
+Assembly is minimal by design: the board comes pre-soldered, and the only steps left to the owner are fitting pin headers, connecting an I-PEX to I-PEX cable, and screwing in an SMA antenna. Twenty were made and fabricated through JLCPCB. The maker made them available in person at SAINTCON 2026 and also through their Tindie store, though no separate Tindie listing, price, or current stock could be independently confirmed.

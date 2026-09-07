@@ -29,7 +29,7 @@ tech:
 get_one:
   price: ''
   price_usd: null
-  quantity: 'over 200 (maker hand-assembled "over 200 Telephreak badges" for DC26; ~20 working plus ~15 failed kits noted in an Aug 2018 update)'
+  quantity: over 200 (maker hand-assembled "over 200 Telephreak badges" for DC26; ~20 working plus ~15 failed kits noted in an Aug 2018 update)
   availability: sold_out
   distribution:
   - kit
@@ -39,28 +39,33 @@ make_your_own:
   hardware_url: null
   firmware_url: https://gitlab.com/dominotree/telephreak-11-badge
   eda_tool: null
-  notes: 'The maker said they planned to release full schematics and source code after DEF CON 26. A GitLab repo (dominotree/telephreak-11-badge) is linked from a follow-up post; it could not be reached during research (Cloudflare challenge blocked automated access), so its contents are unverified.'
+  notes: The maker said they planned to release full schematics and source code after DEF CON 26. A GitLab repo (dominotree/telephreak-11-badge) is linked from a follow-up post; it could not be reached during research (Cloudflare challenge blocked automated access), so its contents are unverified.
 links:
 - label: spun.io
   url: http://spun.io
   kind: website
+  archived: https://web.archive.org/web/20260614104324/https://spun.io/
 - label: Telephreak 11 Badge Release Notes
   url: https://spun.io/2018/08/08/telephreak-11-badge-release-notes/
   kind: article
+  archived: https://web.archive.org/web/20260614103933/https://spun.io/2018/08/08/telephreak-11-badge-release-notes/
 - label: Telephreak 11 Badge Update (bugs)
   url: https://spun.io/2018/08/09/telephreak-11-badge-update-bugs/
   kind: article
+  archived: https://web.archive.org/web/20260614102740/https://spun.io/2018/08/09/telephreak-11-badge-update-bugs/
 - label: 'Lessons from Running a Small-Scale Electronics Factory in my Guest Bedroom (Part 1: Design)'
   url: https://spun.io/2018/12/15/lessons-from-running-a-small-scale-electronics-factory-in-my-guest-bedroom-part-1-design/
   kind: article
+  archived: https://web.archive.org/web/20260614103424/https://spun.io/2018/12/15/lessons-from-running-a-small-scale-electronics-factory-in-my-guest-bedroom-part-1-design/
 - label: telephreak-11-badge (GitLab, source repo)
   url: https://gitlab.com/dominotree/telephreak-11-badge
   kind: repo
 images:
-  - file: assets/images/badges/dc26/telephreak-eleven-badge-dc26/1307adc895.jpg
-    source: "https://spun.io/2018/08/08/telephreak-11-badge-release-notes/"
-    credit: "dominotree (Nick Price)"
-    caption: "Telephreak 11 badge photo shared with the release notes"
+- file: assets/images/badges/dc26/telephreak-eleven-badge-dc26/1307adc895.jpg
+  source: https://spun.io/2018/08/08/telephreak-11-badge-release-notes/
+  credit: dominotree (Nick Price)
+  caption: Telephreak 11 badge photo shared with the release notes
+  archived: https://web.archive.org/web/20260614103933/https://spun.io/2018/08/08/telephreak-11-badge-release-notes/
 contact: {}
 notes: []
 status: released
@@ -70,26 +75,30 @@ sources:
   title: Telephreak Eleven Badge (DC26)
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: dc26-dc27-sao-wave); event read as ''DEF CON 26''.'
+  archived: https://web.archive.org/web/20260614104324/https://spun.io/
 - kind: url
   url: https://spun.io/2018/08/08/telephreak-11-badge-release-notes/
   title: Telephreak 11 Badge Release Notes
   accessed: '2026-09-07'
   note: 'Maker''s own release-notes post: badge purpose (hackable packet radio / image-sharing over SPI flash + store-and-forward radio), first-electronics-project context, promise to release schematics/source after DEF CON.'
+  archived: https://web.archive.org/web/20260614103933/https://spun.io/2018/08/08/telephreak-11-badge-release-notes/
 - kind: url
   url: https://spun.io/2018/08/09/telephreak-11-badge-update-bugs/
   title: Telephreak 11 Badge Update (bugs)
   accessed: '2026-09-07'
-  note: 'Confirms unassembled kits handed out in swag boxes, wiring/assembly notes, ~20 working / ~15 failed kits at time of posting, and links the GitLab source repo.'
+  note: Confirms unassembled kits handed out in swag boxes, wiring/assembly notes, ~20 working / ~15 failed kits at time of posting, and links the GitLab source repo.
+  archived: https://web.archive.org/web/20260614102740/https://spun.io/2018/08/09/telephreak-11-badge-update-bugs/
 - kind: url
   url: https://spun.io/2018/12/15/lessons-from-running-a-small-scale-electronics-factory-in-my-guest-bedroom-part-1-design/
   title: 'Lessons from Running a Small-Scale Electronics Factory in my Guest Bedroom (Part 1: Design)'
   accessed: '2026-09-07'
-  note: 'Confirms maker hand-assembled "over 200" badges for DEF CON 26; badge included display, MCU, radio, and flash chip with SMD HC49 crystals; design retrospective, no exact chip model given.'
+  note: Confirms maker hand-assembled "over 200" badges for DEF CON 26; badge included display, MCU, radio, and flash chip with SMD HC49 crystals; design retrospective, no exact chip model given.
+  archived: https://web.archive.org/web/20260614103424/https://spun.io/2018/12/15/lessons-from-running-a-small-scale-electronics-factory-in-my-guest-bedroom-part-1-design/
 - kind: url
   url: https://gitlab.com/dominotree/telephreak-11-badge
   title: telephreak-11-badge (GitLab)
   accessed: '2026-09-07'
-  note: 'Source repo linked from the maker''s update post; could not be fetched (Cloudflare bot-check blocked both WebFetch and curl), so hardware/firmware details from it are not confirmed.'
+  note: Source repo linked from the maker's update post; could not be fetched (Cloudflare bot-check blocked both WebFetch and curl), so hardware/firmware details from it are not confirmed.
 research:
   status: researched
   confidence: medium

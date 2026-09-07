@@ -40,15 +40,11 @@ links:
 - label: hackaday.io/project/160014-sao-badgelife-add-ons
   url: https://hackaday.io/project/160014-sao-badgelife-add-ons
   kind: hackaday
+  archived: https://web.archive.org/web/20260504115728/https://hackaday.io/project/160014-sao-badgelife-add-ons
 images: []
 contact: {}
 notes:
-- 'Listed in the project description alongside other planned pieces: Darkwing
-  Duck (in works), Gizmo Duck, Pickle-Rick + Portal BG (in works), Wizard Hat
-  SAO, Megaseeds SAO, Slippery Stair SAO, Tiki (in works), and Electro-storm
-  (in works). Only four other SAOs from the same project (Leela, Bender,
-  Zoidberg, Tubbs) are documented as completed, with photos; Portal Gun +
-  Portal BG is not among them.'
+- 'Listed in the project description alongside other planned pieces: Darkwing Duck (in works), Gizmo Duck, Pickle-Rick + Portal BG (in works), Wizard Hat SAO, Megaseeds SAO, Slippery Stair SAO, Tiki (in works), and Electro-storm (in works). Only four other SAOs from the same project (Leela, Bender, Zoidberg, Tubbs) are documented as completed, with photos; Portal Gun + Portal BG is not among them.'
 status: listed
 sources:
 - kind: url
@@ -56,31 +52,18 @@ sources:
   title: 'SAO #Badgelife add-ons'
   accessed: '2026-09-06'
   note: Found via the project's link list; intake pass identified this item here.
+  archived: https://web.archive.org/web/20260504115728/https://hackaday.io/project/160014-sao-badgelife-add-ons
 - kind: url
   url: https://hackaday.io/project/160014-sao-badgelife-add-ons
   title: 'SAO #Badgelife add-ons'
   accessed: '2026-09-07'
-  note: 'Re-read project description and files list. "Portal Gun + Portal BG"
-    appears only as one line item in a list of pieces planned for DEF CON
-    2018; no project log, image, chip/LED spec, price, or completion note
-    names it specifically. The project''s four uploaded photos (dated
-    08/05/2018) are captioned "It''s Lit," "Leelas," and "Zoidbergs" and show
-    the Leela/Bender/Zoidberg/Tubbs SAOs, not the Portal Gun.'
+  note: Re-read project description and files list. "Portal Gun + Portal BG" appears only as one line item in a list of pieces planned for DEF CON 2018; no project log, image, chip/LED spec, price, or completion note names it specifically. The project's four uploaded photos (dated 08/05/2018) are captioned "It's Lit," "Leelas," and "Zoidbergs" and show the Leela/Bender/Zoidberg/Tubbs SAOs, not the Portal Gun.
+  archived: https://web.archive.org/web/20260504115728/https://hackaday.io/project/160014-sao-badgelife-add-ons
 research:
   status: researched
   confidence: low
   last_checked: '2026-09-07'
-  notes: 'The maker''s only public record of this piece is a one-line mention in
-    a to-build list on their "SAO #Badgelife add-ons" Hackaday.io project
-    (created 07/26/2018, for DEF CON 26 that August). No project log, photo,
-    schematic, price, or quantity ever names it, unlike the four SAOs from the
-    same project that are documented as completed with photos. It cannot be
-    confirmed whether Portal Gun + Portal BG was ever built past the design
-    stage. No separate Hackaday.io project page, storefront listing, or press
-    coverage was found for it; the maker''s hacker profile page requires login
-    and could not be read directly. A same-name "PORTAL gun SAO" exists in the
-    archive as dc34-portal-gun-sao by a different maker (BigFuckingBadge, DEF
-    CON 34) - unrelated, not a duplicate.'
+  notes: 'The maker''s only public record of this piece is a one-line mention in a to-build list on their "SAO #Badgelife add-ons" Hackaday.io project (created 07/26/2018, for DEF CON 26 that August). No project log, photo, schematic, price, or quantity ever names it, unlike the four SAOs from the same project that are documented as completed with photos. It cannot be confirmed whether Portal Gun + Portal BG was ever built past the design stage. No separate Hackaday.io project page, storefront listing, or press coverage was found for it; the maker''s hacker profile page requires login and could not be read directly. A same-name "PORTAL gun SAO" exists in the archive as dc34-portal-gun-sao by a different maker (BigFuckingBadge, DEF CON 34) - unrelated, not a duplicate.'
 last_modified_date: '2026-09-07'
 ---
 

@@ -11,7 +11,7 @@ year: 2018
 makers:
 - name: thelogicofpi
   url: https://hackaday.io/hacker/315117-thelogicofpi
-summary: "\"Slippery Stair SAOAO\" is one of several Rick and Morty-themed SAO add-ons that maker thelogicofpi listed as planned builds for DEF CON 26 (2018); no photo, build log, or completion record has been published for it."
+summary: '"Slippery Stair SAOAO" is one of several Rick and Morty-themed SAO add-ons that maker thelogicofpi listed as planned builds for DEF CON 26 (2018); no photo, build log, or completion record has been published for it.'
 functions: ''
 look:
   colors: []
@@ -41,6 +41,7 @@ links:
 - label: hackaday.io/project/160014-sao-badgelife-add-ons
   url: https://hackaday.io/project/160014-sao-badgelife-add-ons
   kind: hackaday
+  archived: https://web.archive.org/web/20260504115728/https://hackaday.io/project/160014-sao-badgelife-add-ons
 images: []
 contact: {}
 notes: []
@@ -50,17 +51,18 @@ sources:
   url: https://hackaday.io/project/160014-sao-badgelife-add-ons
   title: 'SAO #Badgelife add-ons'
   accessed: '2026-09-07'
-  note: "Maker's project page, dated 26 Jul 2018, is a to-do list of SAOs planned before that year's DEF CON. \"Slippery Stair SAOAO\" appears as one line item under a Rick and Morty grouping (with \"Wizard Hat SAOAO\" and \"Megaseeds SAOAO\"), with no further description, image, or notation that it was ever completed (unlike other list items marked \"(in works)\", it carries no status marker either way)."
+  note: Maker's project page, dated 26 Jul 2018, is a to-do list of SAOs planned before that year's DEF CON. "Slippery Stair SAOAO" appears as one line item under a Rick and Morty grouping (with "Wizard Hat SAOAO" and "Megaseeds SAOAO"), with no further description, image, or notation that it was ever completed (unlike other list items marked "(in works)", it carries no status marker either way).
+  archived: https://web.archive.org/web/20260504115728/https://hackaday.io/project/160014-sao-badgelife-add-ons
 - kind: url
   url: https://hackaday.io/hacker/315117-thelogicofpi
   title: thelogicofpi hacker profile
   accessed: '2026-09-07'
-  note: 'Could not be read past the site login wall; no additional project or profile detail retrieved.'
+  note: Could not be read past the site login wall; no additional project or profile detail retrieved.
 research:
   status: researched
   confidence: low
   last_checked: '2026-09-07'
-  notes: "The only source found is the maker's own project page, which lists \"Slippery Stair SAOAO\" by name only as one of several planned Rick and Morty SAO add-ons for DEF CON 26 (2018) — no dedicated project page, image, or build log for this specific item was found. Could not confirm whether it was ever built or distributed; \"SAOAO\" appears to be the maker's own label (an SAO-shaped add-on for another SAO) but this is not explained on the page. A web search for the title plus maker/event turned up nothing beyond the same Hackaday project page. No maker's Hackaday.io project specific to this item, no storefront, no repo, and no photos were located."
+  notes: The only source found is the maker's own project page, which lists "Slippery Stair SAOAO" by name only as one of several planned Rick and Morty SAO add-ons for DEF CON 26 (2018) — no dedicated project page, image, or build log for this specific item was found. Could not confirm whether it was ever built or distributed; "SAOAO" appears to be the maker's own label (an SAO-shaped add-on for another SAO) but this is not explained on the page. A web search for the title plus maker/event turned up nothing beyond the same Hackaday project page. No maker's Hackaday.io project specific to this item, no storefront, no repo, and no photos were located.
 last_modified_date: '2026-09-07'
 ---
 

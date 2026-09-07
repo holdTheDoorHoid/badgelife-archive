@@ -14,9 +14,12 @@ makers:
 summary: A Futurama Zoidberg shitty add-on done as a purple alternate-universe Zoidberg to match OSH Park's purple PCBs, completed before DEF CON 2018.
 functions: ''
 look:
-  colors: [purple]
+  colors:
+  - purple
   shape: character silhouette
-  themes: [pop culture, tv]
+  themes:
+  - pop culture
+  - tv
 tech:
   mcu: null
   leds: null
@@ -27,7 +30,7 @@ tech:
 get_one:
   price: ''
   price_usd: null
-  quantity: '3 (one batch)'
+  quantity: 3 (one batch)
   availability: unknown
   distribution: []
   where: ''
@@ -40,6 +43,7 @@ links:
 - label: hackaday.io/project/160014-sao-badgelife-add-ons
   url: https://hackaday.io/project/160014-sao-badgelife-add-ons
   kind: hackaday
+  archived: https://web.archive.org/web/20260504115728/https://hackaday.io/project/160014-sao-badgelife-add-ons
 - label: hackaday.io/project/160014/log/150208-1st-order-placed
   url: https://hackaday.io/project/160014/log/150208-1st-order-placed
   kind: hackaday
@@ -48,9 +52,9 @@ links:
   kind: hackaday
 images:
 - file: assets/images/badges/dc26/thelogicofpi-zoidberg-purple-sao/9d8abbe521.jpg
-  source: "https://hackaday.io/project/160014/log/150208-1st-order-placed"
-  credit: "thelogicofpi"
-  caption: "OSH Park order screenshot from the maker's log post, showing the purple zoidberg.kicad_pcb board alongside the other alternate-universe SAOs from the same batch"
+  source: https://hackaday.io/project/160014/log/150208-1st-order-placed
+  credit: thelogicofpi
+  caption: OSH Park order screenshot from the maker's log post, showing the purple zoidberg.kicad_pcb board alongside the other alternate-universe SAOs from the same batch
 contact: {}
 notes: []
 status: released
@@ -60,32 +64,22 @@ sources:
   title: 'SAO #Badgelife add-ons'
   accessed: '2026-09-06'
   note: Found via the project's link list; intake pass identified this item here.
+  archived: https://web.archive.org/web/20260504115728/https://hackaday.io/project/160014-sao-badgelife-add-ons
 - kind: url
   url: https://hackaday.io/project/160014/log/150208-1st-order-placed
-  title: '1st Order Placed | Details | Hackaday.io'
+  title: 1st Order Placed | Details | Hackaday.io
   accessed: '2026-09-07'
-  note: "Confirms the piece is a Futurama Zoidberg character SAO rendered purple to match OSH Park's purple PCB color, one of a first batch of four alternate-universe SAOs (Bender in gold, Zoidberg in purple, Leela, and Tubbs) ordered together; log dated July 31, 2018 places fabrication shortly before DEF CON 26."
+  note: Confirms the piece is a Futurama Zoidberg character SAO rendered purple to match OSH Park's purple PCB color, one of a first batch of four alternate-universe SAOs (Bender in gold, Zoidberg in purple, Leela, and Tubbs) ordered together; log dated July 31, 2018 places fabrication shortly before DEF CON 26.
 - kind: url
   url: https://hackaday.io/project/160014/gallery
   title: 'SAO #Badgelife add-ons - Gallery - Hackaday.io'
   accessed: '2026-09-07'
-  note: 'Gallery page confirmed to exist but is JavaScript-rendered; no additional captions could be extracted without a browser.'
+  note: Gallery page confirmed to exist but is JavaScript-rendered; no additional captions could be extracted without a browser.
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: >-
-    This is a personal/hobby project SAO (part of thelogicofpi's "SAO #Badgelife add-ons"
-    project for DEF CON 26, 2018), not a commercial product, so there is no storefront,
-    price, or public quantity figure beyond the OSH Park order screenshot, which shows
-    the zoidberg.kicad_pcb board ordered in a batch of three (per the standard OSH Park
-    batch-of-three panelization), alongside three companion boards (alt_bender_sao, leela,
-    tubbs) from the same order. No details were found on electronics (LEDs/MCU), an SAO
-    connector, or firmware — the board may be a passive/decorative PCB rather than an
-    electrically functional SAO; sources did not specify either way. No separate
-    maker-published source beyond the single Hackaday.io project and its "1st Order
-    Placed" log entry was found; a second web search pass could not be completed due to
-    the session's search budget being exhausted.
+  notes: 'This is a personal/hobby project SAO (part of thelogicofpi''s "SAO #Badgelife add-ons" project for DEF CON 26, 2018), not a commercial product, so there is no storefront, price, or public quantity figure beyond the OSH Park order screenshot, which shows the zoidberg.kicad_pcb board ordered in a batch of three (per the standard OSH Park batch-of-three panelization), alongside three companion boards (alt_bender_sao, leela, tubbs) from the same order. No details were found on electronics (LEDs/MCU), an SAO connector, or firmware — the board may be a passive/decorative PCB rather than an electrically functional SAO; sources did not specify either way. No separate maker-published source beyond the single Hackaday.io project and its "1st Order Placed" log entry was found; a second web search pass could not be completed due to the session''s search budget being exhausted.'
 last_modified_date: '2026-09-07'
 ---
 

@@ -40,6 +40,7 @@ links:
 - label: hackaday.io/project/160014-sao-badgelife-add-ons
   url: https://hackaday.io/project/160014-sao-badgelife-add-ons
   kind: hackaday
+  archived: https://web.archive.org/web/20260504115728/https://hackaday.io/project/160014-sao-badgelife-add-ons
 images: []
 contact: {}
 notes: []
@@ -50,6 +51,7 @@ sources:
   title: 'SAO #Badgelife add-ons'
   accessed: '2026-09-07'
   note: Re-checked the project description, file list, and build logs; "Tiki (in works)" appears only as a one-line entry in the project's task list, with no further description, no build-log entry, and no photo filed under it (unlike "Leela", "Zoidberg", or "Bender" on the same page, which do have photos attached).
+  archived: https://web.archive.org/web/20260504115728/https://hackaday.io/project/160014-sao-badgelife-add-ons
 research:
   status: researched
   confidence: low
