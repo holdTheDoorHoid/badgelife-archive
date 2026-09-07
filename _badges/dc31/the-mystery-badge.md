@@ -45,10 +45,35 @@ sources:
   row: 11
   updated: '2023-07-14'
 research:
-  status: stub
+  status: researched
   confidence: low
-  last_checked: '2026-09-06'
-  notes: Imported from the community badge sheet; not yet researched.
-last_modified_date: '2026-09-06'
+  last_checked: '2026-09-07'
+  notes: >-
+    The community badge sheet for DC31 lists only a name ("The Mystery
+    Badge!!"), a price ($100.00), and a date the row was last updated
+    (2023-07-14); the Maker, Link, and Notes columns for this row are all
+    blank in the source spreadsheet. No maker name, storefront, repo, or
+    photo was ever recorded, so there is nothing to search on beyond the
+    generic title itself. Web searches for the title alongside "DEF CON 31"
+    and "badgelife" turned up no matching project page, store listing, or
+    press coverage identifying who made this or what it was. It is possible
+    the sheet contributor genuinely did not know the maker's identity when
+    they added the row (hence the name), which would make this item
+    unidentifiable from public records short of finding the physical badge
+    or the original sheet contributor.
+last_modified_date: '2026-09-07'
 ---
+
+An entry from the crowdsourced DC31 (2023) badge-tracking sheet for an item
+its own submitter apparently could not further identify: the sheet gives it
+the placeholder name "The Mystery Badge!!," a listed price of $100, and a
+last-updated date of July 14, 2023, but leaves the maker, link, and notes
+columns empty. No independent web search turned up a matching maker page,
+storefront listing, Hackaday.io project, or press mention using the title
+alone, which is unsurprising given how generic and non-identifying it is.
+
+Nothing else about this badge — its appearance, electronics, or how it was
+distributed — is recorded anywhere found. Anyone with more information
+(a photo, the maker's name, or a link to where it was sold) would let this
+entry be filled in properly.
 
