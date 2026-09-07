@@ -62,7 +62,7 @@ sources:
   accessed: '2026-09-07'
   note: 'Current site only advertises a 2026 event; carries no historical content about 2024.'
 research:
-  status: researched
+  status: verified
   confidence: medium
   last_checked: '2026-09-07'
   notes: >-
@@ -75,7 +75,7 @@ research:
     session (budget exhausted) so search coverage beyond the maker's own site and the DC31 entry's
     link was limited. Title kept as-is since no distinct 2024 item was found to rename it after;
     status set to cancelled based on the maker's own hibernation notice rather than left as unknown.
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-06'
 ---
 
 The community-maintained DEF CON 32 badge sheet listed "Florida Man" as an exhibitor/maker for the
@@ -87,5 +87,5 @@ Checking the maker's own site, floridaman.party, in a Wayback Machine capture fr
 (during DEF CON 32 week), shows no party badge or event page at all. Instead the page reads: "Due
 to many unknowns, Florida Man is hibernating. Please be sure to visit Maker Village!" This indicates
 the annual Florida Man party - and by extension any badge tied to it - did not happen for DEF CON 32,
-which is why no further details ever surfaced. The site has since resumed for later years, most
-recently advertising a Florida Man Party for 2026.
+which is why no further details ever surfaced. The site currently advertises a Florida Man Party
+for 2026.

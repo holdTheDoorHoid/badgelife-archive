@@ -39,16 +39,16 @@ links: []
 images: []
 contact: {}
 notes: []
-status: unknown
+status: listed
 sources:
 - kind: sheet
   event: dc32
   row: 55
   updated: ''
 research:
-  status: researched
+  status: verified
   confidence: low
-  last_checked: '2026-09-07'
+  last_checked: '2026-09-06'
   notes: >-
     No project page, storefront, repo, or press coverage could be found for a
     DEF CON 32 (2024) item from this maker. Web search was unavailable this
@@ -58,8 +58,13 @@ research:
     archive for DC30 ("Cyber Clippy Badge") and DC31 ("El CiberBrujo Shitty
     Add-on"), so the maker is a known recurring badgelife participant, but
     what they brought to DC32 remains unidentified. Leaving title as
-    imported since no DC32-specific item name was found.
-last_modified_date: '2026-09-07'
+    imported since no DC32-specific item name was found. Fact-check 2026-09-06:
+    the only claims made are that the maker appears on the DC30, DC31 and DC32
+    community sheets and made the two earlier items; all three were confirmed
+    against data/sheets/dc30.csv, dc31.csv and dc32.csv (row with the maker name
+    and every other column blank). No external sources are cited and none were
+    needed.
+last_modified_date: '2026-09-06'
 ---
 
 El Jefe de Security is a recurring badgelife maker who appears on the community

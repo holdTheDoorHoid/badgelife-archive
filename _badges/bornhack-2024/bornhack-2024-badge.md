@@ -39,6 +39,7 @@ links:
 - label: hackaday.com/2025/08/01/two-for-the-price-of-one-bornhack-2024-and-2025-badges
   url: https://hackaday.com/2025/08/01/two-for-the-price-of-one-bornhack-2024-and-2025-badges/
   kind: article
+  archived: https://web.archive.org/web/20260717220115/https://hackaday.com/2025/08/01/two-for-the-price-of-one-bornhack-2024-and-2025-badges/
 images: []
 contact: {}
 notes:
@@ -50,6 +51,7 @@ sources:
   title: BornHack 2024 Badge
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: hackaday-press); event read as ''BornHack 2024''.'
+  archived: https://web.archive.org/web/20260717220115/https://hackaday.com/2025/08/01/two-for-the-price-of-one-bornhack-2024-and-2025-badges/
 research:
   status: stub
   confidence: low

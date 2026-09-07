@@ -34,7 +34,8 @@ CON_FAMILIES = [
 DEFCON_YEAR = {n: 1992 + n for n in range(1, 40)}  # DEF CON 1 = 1993 -> dc24 = 2016
 
 def norm(s):
-    s = unicodedata.normalize("NFKD", s or "").encode("ascii", "ignore").decode().lower()
+    s = "" if s is None else str(s)  # YAML can hand back bools/numbers for names like "Yes" or "42"
+    s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode().lower()
     s = re.sub(r"\b(the|a|an|badge|sao|shitty add[- ]?on|add[- ]?on|v\d+(\.\d+)?|dc\d+|def ?con \d+|20\d\d)\b", " ", s)
     return re.sub(r"[^a-z0-9]+", " ", s).strip()
 

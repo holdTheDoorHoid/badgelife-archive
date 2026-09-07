@@ -15,7 +15,7 @@ summary: A capacitive-touch, ESP32-based indie badge pitting cowboys against din
 functions: Five capacitive touch pads (Cowboys, Dinosaurs, 3000, Society, and a logo button) trigger LED animations and reactions; the badge also hosts its own Wi-Fi access point and web server for an adventure-game mode.
 look:
   colors: []
-  shape: card
+  shape: ''
   themes:
   - western
   - dinosaur
@@ -29,7 +29,7 @@ tech:
   display: none
   connectivity:
   - wifi
-  battery: LiPo (rechargeable, USB-C charging, onboard charge circuit)
+  battery: LiPo (rechargeable, charged over the dev board's USB-C port)
   sao_version: null
 get_one:
   price: $70.00
@@ -82,7 +82,7 @@ sources:
   url: https://altbier.us/
   title: "altbier.us"
   accessed: '2026-09-06'
-  note: Maker's landing page; links to the badge-specific documentation site and confirms the badge was made for "The 3000 Society 2024" con and DEF CON 32.
+  note: Maker's landing page; links to the badge-specific documentation site and lists the badge as "The 3000 Society 2024 Con badge".
 - kind: url
   url: https://cowboysvsdinos.altbier.us/
   title: "Cowboys vs Dinosaurs Badge - DEFCON 32"
@@ -94,23 +94,24 @@ sources:
   accessed: '2026-09-06'
   note: Confirms open-source hardware/firmware/art, MIT license, and KiCad 7.x EDA files under /eda/cowboys_vs_dinos/.
 research:
-  status: researched
+  status: verified
   confidence: high
   last_checked: '2026-09-06'
   notes: >-
     Core facts (maker, MCU, LEDs, inputs, battery, open-source status) confirmed on the maker's own
-    documentation site and GitHub repo. Exact quantity made and the assembled-badge price breakdown
-    beyond the $70 sheet figure were not stated anywhere found; left empty rather than guessed.
-    Could not confirm whether the badge has an SAO header, so tech.sao_version is left null.
-    The maker's Twitter/X account could not be fetched directly (login-walled); background on the
-    maker's badgelife history came from an archived 2023 Indiegogo page for their prior "Future
-    Badge" (DC31) campaign, which links to altbier.us.
+    documentation site and GitHub repo; both images matched files on the documentation site.
+    Exact quantity made and any price beyond the $70 sheet figure were not stated anywhere found;
+    left empty rather than guessed. Could not confirm whether the badge has an SAO header, so
+    tech.sao_version is left null. The docs site describes a "playing card background" for the
+    artwork but does not state the board outline, so look.shape is left empty. Indiegogo, sell-out
+    and Hacker Warehouse kit details come from the maker's community-sheet note (2024-07-25).
+    The maker's Twitter/X account could not be fetched directly (login-walled).
 last_modified_date: '2026-09-06'
 ---
 
 Cowboys vs. Dinosaurs is an ESP32-based indie badge by Alt_Bier (maker handle; GitHub credits "gowenrw"), built around a card-game standoff between cowboys and dinosaurs. Five capacitive touch pads — Cowboys, Dinosaurs, 3000, Society, and a logo button — drive a mix of six addressable NeoPixels and six traditional LEDs, and the badge doubles as its own tiny network: it broadcasts a Wi-Fi access point and runs a web server for an on-badge "adventure game" mode. It runs on a Wemos Lolin32 ESP32 dev board and charges over USB-C into an onboard LiPo battery, with a dedicated charge-indicator LED on the back.
 
-The badge was first shown at The 3000 Society's 2024 convention before being sold as a limited run for DEF CON 32 via an Indiegogo campaign at $70. The campaign sold out of fully-assembled units before the con; the badges that remained went out as unassembled kits at The Hacker Warehouse's vendor table in the DEF CON 32 vendor area. The maker released the full project — artwork, KiCad 7.x PCB design, 3D files, and firmware — as open source under the MIT license on GitHub.
+The badge was designed for The 3000 Society conference in May 2024 and then offered for DEF CON 32 as a limited run through an Indiegogo campaign at $70. The campaign sold out of fully-assembled units before the con; the badges that remained went out as unassembled kits at The Hacker Warehouse's vendor table in the DEF CON 32 vendor area. The maker released the full project — artwork, KiCad 7.x PCB design, 3D files, and firmware — as open source under the MIT license on GitHub.
 
 ## Make your own
 

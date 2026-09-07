@@ -28,7 +28,9 @@ get_one:
   price_usd: null
   quantity: ''
   availability: unknown
-  distribution: []
+  distribution:
+  - raffle
+  - contest
   where: Available at DEFCON through raffle and/or contests
 make_your_own:
   open_source: null
@@ -50,29 +52,29 @@ sources:
   row: 81
   updated: '2024-08-04'
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-07'
   notes: >-
-    Could not confirm any details beyond the community sheet. The maker's only listed
-    link is an X/Twitter account (x.com/security_otter); X pages are JavaScript-rendered
-    and returned no tweet content to either WebFetch or a plain HTTP fetch. Web searches
-    (this session's search budget was exhausted after one query) and fallback searches via
-    Bing, DuckDuckGo, and Reddit turned up no results for a "Darkstar" badge, SAO, or maker
-    named "Otter" / "security_otter" tied to DEF CON. No Hackaday.io project, GitHub repo,
-    storefront, or press coverage was found. Left tech, look, get_one, and make_your_own
-    fields as imported since nothing could be verified against a source.
+    Verified 2026-09-07 against the DC32 sheet row (data/sheets/dc32.csv line 109): maker Otter,
+    title Darkstar Badge, contact x.com/security_otter, "Available at DEFCON through raffle
+    and/or contests", note "Pay attention to twitter feed for info", updated 2024-08-04. Price,
+    functions and quantity columns are empty on the sheet. Nothing beyond the sheet could be
+    confirmed: x.com/security_otter is not fetchable without a browser session (HTTP 402 to
+    WebFetch, syndication endpoint empty, Nitter offline); no GitHub user or repo, Hackaday.io
+    profile, storefront, or press coverage for a DEF CON "Darkstar" badge or "security_otter"
+    was found. Distribution tags (raffle, contest) were derived from the sheet's own wording.
 last_modified_date: '2026-09-07'
 ---
 
 Darkstar Badge is listed on the DC32 (2024) community badge sheet, made by a hacker
 going by Otter (@security_otter on X/Twitter). The sheet gives no description of the
-badge's appearance, electronics, or price, and notes to watch the maker's Twitter feed
-for details closer to the con.
+badge's appearance, electronics, or price, and tells readers to watch the maker's Twitter
+feed for info.
 
-No independent confirmation of the badge could be found: the maker does not appear to
-have a Hackaday.io project, GitHub repo, or storefront listing for it, and their X
-account's posts were not retrievable through the tools available for this pass (X
-requires a JavaScript session to render tweets). The sheet's note that it was "Available
-at DEFCON through raffle and/or contests" is the only distribution detail on record.
+No independent confirmation of the badge has been found: no Hackaday.io profile, GitHub
+account or repo, storefront listing, or press coverage turned up for the badge or the
+maker, and the X account's posts cannot be read without a logged-in browser session. The
+sheet's note that it was "Available at DEFCON through raffle and/or contests" is the only
+distribution detail on record.
 

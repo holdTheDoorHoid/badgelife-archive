@@ -1,0 +1,2728 @@
+[
+ {
+  "id": "other-def-con-singapore-2026-official-badge",
+  "title": "DEF CON Singapore 2026 Official Badge",
+  "type": "badge",
+  "event": "other",
+  "event_name": "Other / unaffiliated",
+  "year": 0,
+  "makers": [
+   {
+    "name": "Dani Weidman (OpenLASIR-based)"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "Spotted by a research agent while working on a neighbouring entry."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://www.dani.pink/lasertag/archive-sing/about",
+    "kind": "website",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://www.dani.pink/lasertag/archive-sing/about",
+    "title": "DEF CON Singapore 2026 Official Badge",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: sheet-research-spotted); event read as 'unknown - DEF CON Singapore'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "dc33-sao-for-above-smartao",
+  "title": "SAO for above / SmartAO",
+  "type": "sao",
+  "event": "dc33",
+  "event_name": "DEF CON 33",
+  "year": 2025,
+  "makers": [
+   {
+    "name": "Coruscant Ventures"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "Spotted by a research agent while working on a neighbouring entry."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://coruscantventures.com/defcon-badges (companion SAO required to light the Many SAOs badge's edge LEDs; already has its own entry dc33-sao-for-above per existing_titles.txt, just flagging the connection)",
+    "kind": "website",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://coruscantventures.com/defcon-badges (companion SAO required to light the Many SAOs badge's edge LEDs; already has its own entry dc33-sao-for-above per existing_titles.txt, just flagging the connection)",
+    "title": "SAO for above / SmartAO",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: sheet-research-spotted); event read as 'dc33'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "dc34-concrud-zelda-rides",
+  "title": "ConCrud: Zelda Rides",
+  "type": "unknown",
+  "event": "dc34",
+  "event_name": "DEF CON 34",
+  "year": 2026,
+  "makers": [
+   {
+    "name": "GameChangersAI"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "Spotted by a research agent while working on a neighbouring entry."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://gamechangersai.org/games/concrud-zelda-rides/index.html",
+    "kind": "website",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://gamechangersai.org/games/concrud-zelda-rides/index.html",
+    "title": "ConCrud: Zelda Rides",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: sheet-research-spotted); event read as 'dc34'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "dc34-badge-workbench",
+  "title": "DC34 Badge Workbench",
+  "type": "unknown",
+  "event": "dc34",
+  "event_name": "DEF CON 34",
+  "year": 2026,
+  "makers": [
+   {
+    "name": "GameChangersAI"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "Spotted by a research agent while working on a neighbouring entry."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://gamechangersai.org/dc34badge",
+    "kind": "website",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://gamechangersai.org/dc34badge",
+    "title": "DC34 Badge Workbench",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: sheet-research-spotted); event read as 'dc34'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "dc33-submarine-badge-pirate-sao",
+  "title": "Submarine Badge & Pirate SAO",
+  "type": "unknown",
+  "event": "dc33",
+  "event_name": "DEF CON 33",
+  "year": 2025,
+  "makers": [
+   {
+    "name": "BigTaro's Badges"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "Spotted by a research agent while working on a neighbouring entry."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://www.tindie.com/products/bigtaro/submarine-badge-pirate-sao-defcon-badgelife/",
+    "kind": "store",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://www.tindie.com/products/bigtaro/submarine-badge-pirate-sao-defcon-badgelife/",
+    "title": "Submarine Badge & Pirate SAO",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: sheet-research-spotted); event read as 'possibly dc33 or dc34 (listed twice on Tindie under slightly different URLs)'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "dc33-surprise-retro-badge-addon-at-dc33",
+  "title": "Surprise Retro badge addon at DC33",
+  "type": "unknown",
+  "event": "dc33",
+  "event_name": "DEF CON 33",
+  "year": 2025,
+  "makers": [
+   {
+    "name": "Whiskey Pirates (trueControl shop)"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "Spotted by a research agent while working on a neighbouring entry."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://shop.truecontrol.org/index.php?route=product/product&path=59&product_id=430",
+    "kind": "store",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://shop.truecontrol.org/index.php?route=product/product&path=59&product_id=430",
+    "title": "Surprise Retro badge addon at DC33",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: sheet-research-spotted); event read as 'dc33'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "dc27-new-jack-badge-standard-custom-printed",
+  "title": "New Jack Badge (Standard/Custom Printed)",
+  "type": "badge",
+  "event": "dc27",
+  "event_name": "DEF CON 27",
+  "year": 2019,
+  "makers": [
+   {
+    "name": "technick"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "Spotted by a research agent while working on a neighbouring entry."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://www.tindie.com/products/technick/new-jack-badge-standard-printed-defcon-27/",
+    "kind": "store",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://www.tindie.com/products/technick/new-jack-badge-standard-printed-defcon-27/",
+    "title": "New Jack Badge (Standard/Custom Printed)",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: sheet-research-spotted); event read as 'DC27'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "dc29-monopoly-jack-badge",
+  "title": "Monopoly Jack Badge",
+  "type": "badge",
+  "event": "dc29",
+  "event_name": "DEF CON 29",
+  "year": 2021,
+  "makers": [
+   {
+    "name": "technick"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "Spotted by a research agent while working on a neighbouring entry."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://www.tindie.com/products/technick/monopoly-jack-badge-defcon-29/",
+    "kind": "store",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://www.tindie.com/products/technick/monopoly-jack-badge-defcon-29/",
+    "title": "Monopoly Jack Badge",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: sheet-research-spotted); event read as 'DC29'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "other-the-blockchain-badge",
+  "title": "The Blockchain Badge",
+  "type": "badge",
+  "event": "other",
+  "event_name": "Other / unaffiliated",
+  "year": 0,
+  "makers": [
+   {
+    "name": "Hackerware.io"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "Spotted by a research agent while working on a neighbouring entry."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://www.hackster.io/HacksFromPanda/the-blockchain-badge-93f659",
+    "kind": "article",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://www.hackster.io/HacksFromPanda/the-blockchain-badge-93f659",
+    "title": "The Blockchain Badge",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: sheet-research-spotted); event read as 'unclear'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "other-anime-ctf-badge",
+  "title": "Anime CTF Badge",
+  "type": "badge",
+  "event": "other",
+  "event_name": "Other / unaffiliated",
+  "year": 0,
+  "makers": [
+   {
+    "name": "Hackerware.io"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "Spotted by a research agent while working on a neighbouring entry."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://www.hackster.io/HacksFromPanda/anime-ctf-badge-afcb2c",
+    "kind": "article",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://www.hackster.io/HacksFromPanda/anime-ctf-badge-afcb2c",
+    "title": "Anime CTF Badge",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: sheet-research-spotted); event read as 'unclear'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "dc31-future-badge-the-future-will-prevail",
+  "title": "Future Badge (The Future will Prevail)",
+  "type": "badge",
+  "event": "dc31",
+  "event_name": "DEF CON 31",
+  "year": 2023,
+  "makers": [
+   {
+    "name": "Alt_Bier"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "Spotted by a research agent while working on a neighbouring entry."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://futurebadge.altbier.us/",
+    "kind": "website",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://futurebadge.altbier.us/",
+    "title": "Future Badge (The Future will Prevail)",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: sheet-research-spotted); event read as 'dc31'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "dc33-summer-camp-sao-soldering-kit",
+  "title": "Summer Camp SAO Soldering Kit",
+  "type": "kit",
+  "event": "dc33",
+  "event_name": "DEF CON 33",
+  "year": 2025,
+  "makers": [
+   {
+    "name": "Make it Hackin"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "Spotted by a research agent while working on a neighbouring entry."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://www.tindie.com/products/makeithackin/summer-camp-sao-soldering-kit/",
+    "kind": "store",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://www.tindie.com/products/makeithackin/summer-camp-sao-soldering-kit/",
+    "title": "Summer Camp SAO Soldering Kit",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: sheet-research-spotted); event read as 'unclear - may overlap with existing dc33-hacker-summer-camp-sao-soldering-kit entry, worth a cross-check but not created here'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "other-sao-holder-mac-version",
+  "title": "SAO Holder - Mac version",
+  "type": "accessory",
+  "event": "other",
+  "event_name": "Other / unaffiliated",
+  "year": 0,
+  "makers": [
+   {
+    "name": "BadgePirates"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "Spotted by a research agent while working on a neighbouring entry."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://www.tindie.com/products/badgepirates/sao-holder-mac-version/",
+    "kind": "store",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://www.tindie.com/products/badgepirates/sao-holder-mac-version/",
+    "title": "SAO Holder - Mac version",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: sheet-research-spotted); event read as 'general product'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "other-bsideskc-2025-badge",
+  "title": "BSidesKC 2025 badge",
+  "type": "badge",
+  "event": "other",
+  "event_name": "Other / unaffiliated",
+  "year": 0,
+  "makers": [
+   {
+    "name": "BadgePirates"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "Spotted by a research agent while working on a neighbouring entry."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://blog.badgepirates.com/BSidesKC-Badge-Shipping-Update/",
+    "kind": "website",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://blog.badgepirates.com/BSidesKC-Badge-Shipping-Update/",
+    "title": "BSidesKC 2025 badge",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: sheet-research-spotted); event read as 'bsideskc (2025)'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "other-magic-blue-ball",
+  "title": "Magic Blue Ball",
+  "type": "sao",
+  "event": "other",
+  "event_name": "Other / unaffiliated",
+  "year": 0,
+  "makers": [
+   {
+    "name": "GhostGlitch"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "Spotted by a research agent while working on a neighbouring entry."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://ghostglitch.net/sao/magicball",
+    "kind": "website",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://ghostglitch.net/sao/magicball",
+    "title": "Magic Blue Ball",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: sheet-research-spotted); event read as 'unclear - GhostGlitch's earliest SAO, predates Blushy per their blog, likely an earlier DEF CON not yet in the archive'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "dc33-pcb-blinky-badges",
+  "title": "PCB \"Blinky\" Badges",
+  "type": "badge",
+  "event": "dc33",
+  "event_name": "DEF CON 33",
+  "year": 2025,
+  "makers": [
+   {
+    "name": "Blacks in Cyber (BiC)"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "Spotted by a research agent while working on a neighbouring entry."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://blacksincyber.square.site/shop/badges/3",
+    "kind": "store",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://blacksincyber.square.site/shop/badges/3",
+    "title": "PCB \"Blinky\" Badges",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: sheet-research-spotted); event read as 'dc33 (ongoing merch, not year-specific)'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "dc32-night-of-the-evil-ai-expansion-board",
+  "title": "Night of the Evil AI Expansion Board",
+  "type": "unknown",
+  "event": "dc32",
+  "event_name": "DEF CON 32",
+  "year": 2024,
+  "makers": [
+   {
+    "name": "distinctm1nd"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "Spotted by a research agent while working on a neighbouring entry."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://github.com/distinctm1nd/night_evil_ai",
+    "kind": "repo",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://github.com/distinctm1nd/night_evil_ai",
+    "title": "Night of the Evil AI Expansion Board",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: sheet-research-spotted); event read as 'unclear (possibly dc32, 2024) — no archive entry found for it'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "dc33-year-one-coin",
+  "title": "Year One Coin",
+  "type": "unknown",
+  "event": "dc33",
+  "event_name": "DEF CON 33",
+  "year": 2025,
+  "makers": [
+   {
+    "name": "Aask"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "Spotted by a research agent while working on a neighbouring entry."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "http://aask.ltd/",
+    "kind": "website",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "http://aask.ltd/",
+    "title": "Year One Coin",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: sheet-research-spotted); event read as 'dc33'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "other-winter-hacker-fest-pin",
+  "title": "Winter Hacker Fest Pin",
+  "type": "unknown",
+  "event": "other",
+  "event_name": "Other / unaffiliated",
+  "year": 0,
+  "makers": [
+   {
+    "name": "KBEmbedded & hunny"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "Spotted by a research agent while working on a neighbouring entry."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://kbembedded.com/",
+    "kind": "website",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://kbembedded.com/",
+    "title": "Winter Hacker Fest Pin",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: sheet-research-spotted); event read as 'unknown'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "other-districtcon-badge",
+  "title": "DistrictCon Badge",
+  "type": "unknown",
+  "event": "other",
+  "event_name": "Other / unaffiliated",
+  "year": 0,
+  "makers": [
+   {
+    "name": "BigTaro's Badges"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "Spotted by a research agent while working on a neighbouring entry."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://bigtaro.net/discoone",
+    "kind": "website",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://bigtaro.net/discoone",
+    "title": "DistrictCon Badge",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: sheet-research-spotted); event read as 'unknown'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "dc30-scp-badge",
+  "title": "SCP Badge",
+  "type": "badge",
+  "event": "dc30",
+  "event_name": "DEF CON 30",
+  "year": 2022,
+  "makers": [
+   {
+    "name": "K4r4koyun"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "Spotted by a research agent while working on a neighbouring entry."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://github.com/k4r4koyun/DEFCON-30-SCP-Badge",
+    "kind": "repo",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://github.com/k4r4koyun/DEFCON-30-SCP-Badge",
+    "title": "SCP Badge",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: sheet-research-spotted); event read as 'dc30'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "dc34-mhv-dc34-sao-pirate-radar",
+  "title": "MHV DC34 SAO: Pirate Radar!",
+  "type": "sao",
+  "event": "dc34",
+  "event_name": "DEF CON 34",
+  "year": 2026,
+  "makers": [
+   {
+    "name": "Maritime Hacking Village"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "Spotted by a research agent while working on a neighbouring entry."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://maritimehackingvillage.com/shop/p/pirate-radar",
+    "kind": "store",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://maritimehackingvillage.com/shop/p/pirate-radar",
+    "title": "MHV DC34 SAO: Pirate Radar!",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: sheet-research-spotted); event read as 'dc34'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "dc33-retro-tech-dc33-addon",
+  "title": "Retro Tech DC33 Addon",
+  "type": "sao",
+  "event": "dc33",
+  "event_name": "DEF CON 33",
+  "year": 2025,
+  "makers": [
+   {
+    "name": "trueControl"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "Spotted by a research agent while working on a neighbouring entry."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://basic.truecontrol.org/dc33/retro-tech/",
+    "kind": "website",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://basic.truecontrol.org/dc33/retro-tech/",
+    "title": "Retro Tech DC33 Addon",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: sheet-research-spotted); event read as 'dc33'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "dc33-smartao-sao",
+  "title": "SmartAO SAO",
+  "type": "sao",
+  "event": "dc33",
+  "event_name": "DEF CON 33",
+  "year": 2025,
+  "makers": [
+   {
+    "name": "Coruscant Ventures"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "Spotted by a research agent while working on a neighbouring entry."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://coruscantventures.com/defcon-badges/p/smartao-sao",
+    "kind": "website",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://coruscantventures.com/defcon-badges/p/smartao-sao",
+    "title": "SmartAO SAO",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: sheet-research-spotted); event read as 'dc33'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "other-dragon-badge",
+  "title": "Dragon Badge",
+  "type": "badge",
+  "event": "other",
+  "event_name": "Other / unaffiliated",
+  "year": 0,
+  "makers": [
+   {
+    "name": "Abhinav Pandagale / Hackerware.io"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "Spotted by a research agent while working on a neighbouring entry."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://astikrawat.medium.com/sincon-sg-2025-ctf-walkthrough-of-dragon-badge-by-hackerware-io-1efb31322f10",
+    "kind": "website",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://astikrawat.medium.com/sincon-sg-2025-ctf-walkthrough-of-dragon-badge-by-hackerware-io-1efb31322f10",
+    "title": "Dragon Badge",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: sheet-research-spotted); event read as 'SINCON SG 2025'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "dc32-galactic-power-badge-kit",
+  "title": "Galactic Power Badge Kit",
+  "type": "badge",
+  "event": "dc32",
+  "event_name": "DEF CON 32",
+  "year": 2024,
+  "makers": [
+   {
+    "name": "HackerBoxes"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "Spotted by a research agent while working on a neighbouring entry."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://www.instructables.com/HackerBox-0104-Engage/#step6",
+    "kind": "website",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://www.instructables.com/HackerBox-0104-Engage/#step6",
+    "title": "Galactic Power Badge Kit",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: sheet-research-spotted); event read as 'dc32'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "dc32-tie-dye-bithead-sao",
+  "title": "Tie-Dye BitHead SAO",
+  "type": "sao",
+  "event": "dc32",
+  "event_name": "DEF CON 32",
+  "year": 2024,
+  "makers": [
+   {
+    "name": "HackerBoxes"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "Spotted by a research agent while working on a neighbouring entry."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://www.instructables.com/HackerBox-0104-Engage/#step7",
+    "kind": "website",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://www.instructables.com/HackerBox-0104-Engage/#step7",
+    "title": "Tie-Dye BitHead SAO",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: sheet-research-spotted); event read as 'dc32'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "dc32-highrollercon-duck-sao",
+  "title": "HighRollerCon Duck SAO",
+  "type": "sao",
+  "event": "dc32",
+  "event_name": "DEF CON 32",
+  "year": 2024,
+  "makers": [
+   {
+    "name": "Cyber Swamplords"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "Spotted by a research agent while working on a neighbouring entry."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://www.instructables.com/HackerBox-0104-Engage/#step8",
+    "kind": "website",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://www.instructables.com/HackerBox-0104-Engage/#step8",
+    "title": "HighRollerCon Duck SAO",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: sheet-research-spotted); event read as 'dc32'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "dc32-interactive-sao-for-dc32-badge",
+  "title": "Interactive SAO for DC32 Badge",
+  "type": "sao",
+  "event": "dc32",
+  "event_name": "DEF CON 32",
+  "year": 2024,
+  "makers": [
+   {
+    "name": "MakeItHackin"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "Spotted by a research agent while working on a neighbouring entry."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://www.tindie.com/products/makeithackin/interactive-sao-for-dc32-badge/",
+    "kind": "store",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://www.tindie.com/products/makeithackin/interactive-sao-for-dc32-badge/",
+    "title": "Interactive SAO for DC32 Badge",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: sheet-research-spotted); event read as 'dc32'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "dc31-sgc-aerospace-corporation",
+  "title": "SGC Aerospace Corporation",
+  "type": "badge",
+  "event": "dc31",
+  "event_name": "DEF CON 31",
+  "year": 2023,
+  "makers": [
+   {
+    "name": "California Cyber Institute CalPoly SLO"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "Spotted by a research agent while working on a neighbouring entry."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://github.com/cal-poly-cci/SGC-2023-Badge-Aerospacecorp",
+    "kind": "repo",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://github.com/cal-poly-cci/SGC-2023-Badge-Aerospacecorp",
+    "title": "SGC Aerospace Corporation",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: sheet-research-spotted); event read as 'dc31'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "dc32-micropython-dc32-unnamed-badge-firmware-project",
+  "title": "micropython-dc32 (unnamed badge/firmware project)",
+  "type": "unknown",
+  "event": "dc32",
+  "event_name": "DEF CON 32",
+  "year": 2024,
+  "makers": [
+   {
+    "name": "p0ns"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "Spotted by a research agent while working on a neighbouring entry."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://github.com/p0ns/micropython-dc32",
+    "kind": "repo",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://github.com/p0ns/micropython-dc32",
+    "title": "micropython-dc32 (unnamed badge/firmware project)",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: sheet-research-spotted); event read as 'dc32'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "other-2024-christmas-ornament-sara-and-the-christmas-maze",
+  "title": "2024 Christmas Ornament - Sara and the Christmas Maze",
+  "type": "unknown",
+  "event": "other",
+  "event_name": "Other / unaffiliated",
+  "year": 0,
+  "makers": [
+   {
+    "name": "Bradán Lane"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "Spotted by a research agent while working on a neighbouring entry."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://aosc.cc/bauble2024.php",
+    "kind": "website",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://aosc.cc/bauble2024.php",
+    "title": "2024 Christmas Ornament - Sara and the Christmas Maze",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: sheet-research-spotted); event read as 'n/a (Christmas 2024, not a con badge)'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "other-2025-echallengecoin-sara-and-the-jefferson-notebook",
+  "title": "2025 eChallengeCoin - Sara and the Jefferson Notebook",
+  "type": "badge",
+  "event": "other",
+  "event_name": "Other / unaffiliated",
+  "year": 0,
+  "makers": [
+   {
+    "name": "Bradán Lane"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "Spotted by a research agent while working on a neighbouring entry."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://aosc.cc/eccn2025.php",
+    "kind": "website",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://aosc.cc/eccn2025.php",
+    "title": "2025 eChallengeCoin - Sara and the Jefferson Notebook",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: sheet-research-spotted); event read as '2025 (unclear which con, if any)'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "other-2026-echallengecoin-sara-and-the-missing-artifacts",
+  "title": "2026 eChallengeCoin - Sara and the Missing Artifacts",
+  "type": "badge",
+  "event": "other",
+  "event_name": "Other / unaffiliated",
+  "year": 0,
+  "makers": [
+   {
+    "name": "Bradán Lane"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "Spotted by a research agent while working on a neighbouring entry."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://aosc.cc/eccn2026.php",
+    "kind": "website",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://aosc.cc/eccn2026.php",
+    "title": "2026 eChallengeCoin - Sara and the Missing Artifacts",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: sheet-research-spotted); event read as '2026 (unclear which con, if any)'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "other-pocket-enigma",
+  "title": "Pocket Enigma",
+  "type": "unknown",
+  "event": "other",
+  "event_name": "Other / unaffiliated",
+  "year": 0,
+  "makers": [
+   {
+    "name": "Bradán Lane"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "Spotted by a research agent while working on a neighbouring entry."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://aosc.cc/enigma.php",
+    "kind": "website",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://aosc.cc/enigma.php",
+    "title": "Pocket Enigma",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: sheet-research-spotted); event read as 'unknown'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "other-godzilla-vs-blade-runner-3kbadge",
+  "title": "Godzilla vs. Blade Runner (3kbadge)",
+  "type": "badge",
+  "event": "other",
+  "event_name": "Other / unaffiliated",
+  "year": 0,
+  "makers": [
+   {
+    "name": "Alt_Bier"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "Spotted by a research agent while working on a neighbouring entry."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://3kbadge.altbier.us/",
+    "kind": "website",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://3kbadge.altbier.us/",
+    "title": "Godzilla vs. Blade Runner (3kbadge)",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: sheet-research-spotted); event read as 'dc2021/3000 Society 2021'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "other-3d6-badge",
+  "title": "3d6 Badge",
+  "type": "badge",
+  "event": "other",
+  "event_name": "Other / unaffiliated",
+  "year": 0,
+  "makers": [
+   {
+    "name": "Alt_Bier"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "Spotted by a research agent while working on a neighbouring entry."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://3d6badge.altbier.us/",
+    "kind": "website",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://3d6badge.altbier.us/",
+    "title": "3d6 Badge",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: sheet-research-spotted); event read as '3000 Society / DEF CON 2021'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "bsidesdfw-2021-astable-badge",
+  "title": "Astable Badge",
+  "type": "badge",
+  "event": "bsidesdfw-2021",
+  "event_name": "BSidesdfw 2021",
+  "year": 2021,
+  "makers": [
+   {
+    "name": "Alt_Bier"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "Spotted by a research agent while working on a neighbouring entry."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://astablebadge.altbier.us/",
+    "kind": "website",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://astablebadge.altbier.us/",
+    "title": "Astable Badge",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: sheet-research-spotted); event read as 'BSidesDFW 2021'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "dc32-freewili",
+  "title": "DEFCON32_FREEWiLi",
+  "type": "unknown",
+  "event": "dc32",
+  "event_name": "DEF CON 32",
+  "year": 2024,
+  "makers": [
+   {
+    "name": "FreeWili"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "Spotted by a research agent while working on a neighbouring entry."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://web.archive.org/web/20241014122935/https://freewili.com/products/defcon32-badge/",
+    "kind": "website",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://web.archive.org/web/20241014122935/https://freewili.com/products/defcon32-badge/",
+    "title": "DEFCON32_FREEWiLi",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: sheet-research-spotted); event read as 'dc32'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "dc32-retro-tech-community-addon",
+  "title": "Retro Tech Community Addon",
+  "type": "sao",
+  "event": "dc32",
+  "event_name": "DEF CON 32",
+  "year": 2024,
+  "makers": [
+   {
+    "name": "Whiskey Pirate Crew (not badgelife)"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "Spotted by a research agent while working on a neighbouring entry."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://basic.truecontrol.org/database/dc32/retro-tech/",
+    "kind": "website",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://basic.truecontrol.org/database/dc32/retro-tech/",
+    "title": "Retro Tech Community Addon",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: sheet-research-spotted); event read as 'dc32'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "dc29-tor-lie-detector-badge-dc29-version",
+  "title": "TOR Lie Detector Badge (DC29 version)",
+  "type": "sao",
+  "event": "dc29",
+  "event_name": "DEF CON 29",
+  "year": 2021,
+  "makers": [
+   {
+    "name": "Seeess"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "Spotted by a research agent while working on a neighbouring entry."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://github.com/stevemats/lie_detector_badge",
+    "kind": "repo",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://github.com/stevemats/lie_detector_badge",
+    "title": "TOR Lie Detector Badge (DC29 version)",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: sheet-research-spotted); event read as 'dc29'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "other-arch-linux-sao",
+  "title": "Arch Linux SAO",
+  "type": "sao",
+  "event": "other",
+  "event_name": "Other / unaffiliated",
+  "year": 0,
+  "makers": [
+   {
+    "name": "Alee (Tindie: alee97422)"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "Spotted by a research agent while working on a neighbouring entry."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://www.tindie.com/products/alee97422/arch-linux-sao/",
+    "kind": "store",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://www.tindie.com/products/alee97422/arch-linux-sao/",
+    "title": "Arch Linux SAO",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: sheet-research-spotted); event read as 'not on any sheet; sold individually on Tindie mid-2024'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "other-ubuntu-sao",
+  "title": "Ubuntu SAO",
+  "type": "sao",
+  "event": "other",
+  "event_name": "Other / unaffiliated",
+  "year": 0,
+  "makers": [
+   {
+    "name": "Alee (Tindie: alee97422)"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "Spotted by a research agent while working on a neighbouring entry."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://www.tindie.com/products/alee97422/ubuntu-sao/",
+    "kind": "store",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://www.tindie.com/products/alee97422/ubuntu-sao/",
+    "title": "Ubuntu SAO",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: sheet-research-spotted); event read as 'not on any sheet; sold individually on Tindie mid-2024'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "other-docker-container-sao",
+  "title": "Docker Container SAO",
+  "type": "sao",
+  "event": "other",
+  "event_name": "Other / unaffiliated",
+  "year": 0,
+  "makers": [
+   {
+    "name": "Alee (Tindie: alee97422)"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "Spotted by a research agent while working on a neighbouring entry."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://www.tindie.com/products/alee97422/docker-containter-sao/",
+    "kind": "store",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://www.tindie.com/products/alee97422/docker-containter-sao/",
+    "title": "Docker Container SAO",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: sheet-research-spotted); event read as 'not on any sheet; sold individually on Tindie mid-2024'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "other-rocket-sao-v1-1",
+  "title": "Rocket SAO v1.1",
+  "type": "sao",
+  "event": "other",
+  "event_name": "Other / unaffiliated",
+  "year": 0,
+  "makers": [
+   {
+    "name": "Alee (Tindie: alee97422)"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "Spotted by a research agent while working on a neighbouring entry."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://www.tindie.com/products/alee97422/rocket-sao-v11/",
+    "kind": "store",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://www.tindie.com/products/alee97422/rocket-sao-v11/",
+    "title": "Rocket SAO v1.1",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: sheet-research-spotted); event read as 'not on any sheet; sold on Tindie late 2024'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "other-pcb-keychain-unicorn",
+  "title": "PCB Keychain Unicorn",
+  "type": "accessory",
+  "event": "other",
+  "event_name": "Other / unaffiliated",
+  "year": 0,
+  "makers": [
+   {
+    "name": "Alee (Tindie: alee97422)"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "Spotted by a research agent while working on a neighbouring entry."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://www.tindie.com/products/alee97422/pcb-keychain-unicorn/",
+    "kind": "store",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://www.tindie.com/products/alee97422/pcb-keychain-unicorn/",
+    "title": "PCB Keychain Unicorn",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: sheet-research-spotted); event read as 'not on any sheet; sold on Tindie mid-2024'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "other-cowboy-sao",
+  "title": "Cowboy SAO",
+  "type": "sao",
+  "event": "other",
+  "event_name": "Other / unaffiliated",
+  "year": 0,
+  "makers": [
+   {
+    "name": "Alee (Tindie: alee97422)"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "Spotted by a research agent while working on a neighbouring entry."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://www.tindie.com/products/alee97422/cowboy-sao/",
+    "kind": "store",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://www.tindie.com/products/alee97422/cowboy-sao/",
+    "title": "Cowboy SAO",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: sheet-research-spotted); event read as 'not on any sheet; sold on Tindie late 2024'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "dc30-mini-acrylic-sign-addon",
+  "title": "Mini Acrylic Sign Addon",
+  "type": "sao",
+  "event": "dc30",
+  "event_name": "DEF CON 30",
+  "year": 2022,
+  "makers": [
+   {
+    "name": "trueControl (true)"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "Spotted by a research agent while working on a neighbouring entry."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://basic.truecontrol.org/database/dc30/mini-acrylic-sign/",
+    "kind": "website",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://basic.truecontrol.org/database/dc30/mini-acrylic-sign/",
+    "title": "Mini Acrylic Sign Addon",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: sheet-research-spotted); event read as 'dc30'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "dc31-rgb-addon-addon-for-dc31-badge-true-s-addon-addon",
+  "title": "RGB Addon Addon for DC31 Badge (true's Addon Addon)",
+  "type": "sao",
+  "event": "dc31",
+  "event_name": "DEF CON 31",
+  "year": 2023,
+  "makers": [
+   {
+    "name": "trueControl (true)"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "Spotted by a research agent while working on a neighbouring entry."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://basic.truecontrol.org/database/dc31/addon-addon/",
+    "kind": "website",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://basic.truecontrol.org/database/dc31/addon-addon/",
+    "title": "RGB Addon Addon for DC31 Badge (true's Addon Addon)",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: sheet-research-spotted); event read as 'dc31'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "dc30-2022-diy-electronic-badge-kit-arcade-cabinet",
+  "title": "2022 DIY Electronic Badge Kit - arcade cabinet",
+  "type": "unknown",
+  "event": "dc30",
+  "event_name": "DEF CON 30",
+  "year": 2022,
+  "makers": [
+   {
+    "name": "The Diana Initiative"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "Spotted by a research agent while working on a neighbouring entry."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://web.archive.org/web/20230605181006/https://www.eventbrite.com/e/the-diana-initiative-2023-tickets-500510499377",
+    "kind": "website",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://web.archive.org/web/20230605181006/https://www.eventbrite.com/e/the-diana-initiative-2023-tickets-500510499377",
+    "title": "2022 DIY Electronic Badge Kit - arcade cabinet",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: sheet-research-spotted); event read as 'dc30 (2022)'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "dc33-vetcon-2025-badge-2",
+  "title": "VETCON 2025 Badge",
+  "type": "badge",
+  "event": "dc33",
+  "event_name": "DEF CON 33",
+  "year": 2025,
+  "makers": [
+   {
+    "name": "VetCON"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "Spotted by a research agent while working on a neighbouring entry."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://shop.threathunter.ai/collections/vetcon/products/vetcon-2025-badge-pre-pay-only-onsite-pickup-only",
+    "kind": "store",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://shop.threathunter.ai/collections/vetcon/products/vetcon-2025-badge-pre-pay-only-onsite-pickup-only",
+    "title": "VETCON 2025 Badge",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: sheet-research-spotted); event read as 'dc33 (or whichever DEF CON year corresponds to 2025)'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "other-vetcon-wall-flag-wall-flag-2-0",
+  "title": "Vetcon Wall Flag / Wall Flag 2.0",
+  "type": "other",
+  "event": "other",
+  "event_name": "Other / unaffiliated",
+  "year": 0,
+  "makers": [
+   {
+    "name": "VetCON"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "Spotted by a research agent while working on a neighbouring entry."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://shop.threathunter.ai/collections/vetcon/products/vetcon-wall-flag",
+    "kind": "store",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://shop.threathunter.ai/collections/vetcon/products/vetcon-wall-flag",
+    "title": "Vetcon Wall Flag / Wall Flag 2.0",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: sheet-research-spotted); event read as 'unknown'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "dc30-clock-badge",
+  "title": "Clock Badge",
+  "type": "badge",
+  "event": "dc30",
+  "event_name": "DEF CON 30",
+  "year": 2022,
+  "makers": [
+   {
+    "name": "TwinkleTwinkie & Wire"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "Spotted by a research agent while working on a neighbouring entry."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-clock-badge/",
+    "kind": "store",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-clock-badge/",
+    "title": "Clock Badge",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: sheet-research-spotted); event read as 'dc30'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "other-mini-fat-pika-rgb-sao",
+  "title": "Mini Fat Pika RGB SAO",
+  "type": "sao",
+  "event": "other",
+  "event_name": "Other / unaffiliated",
+  "year": 0,
+  "makers": [
+   {
+    "name": "Twinkle Twinkie"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "Spotted by a research agent while working on a neighbouring entry."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-mini-fat-pika-rgb-sao/",
+    "kind": "store",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-mini-fat-pika-rgb-sao/",
+    "title": "Mini Fat Pika RGB SAO",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: sheet-research-spotted); event read as 'unknown (product dated 2021-06)'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "other-the-child-sao-2",
+  "title": "The Child SAO",
+  "type": "sao",
+  "event": "other",
+  "event_name": "Other / unaffiliated",
+  "year": 0,
+  "makers": [
+   {
+    "name": "Twinkle Twinkie"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "Spotted by a research agent while working on a neighbouring entry."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-the-child-sao/",
+    "kind": "store",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-the-child-sao/",
+    "title": "The Child SAO",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: sheet-research-spotted); event read as 'unknown (product dated 2021-06)'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "other-bsides-kc-2022-badge-ray-gun-shaped-pcb",
+  "title": "BSides KC 2022 badge (ray-gun shaped PCB)",
+  "type": "badge",
+  "event": "other",
+  "event_name": "Other / unaffiliated",
+  "year": 0,
+  "makers": [
+   {
+    "name": "BadgePirates"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "Spotted by a research agent while working on a neighbouring entry."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://badgepirates.com/images/badges/Badge2022.png",
+    "kind": "website",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://badgepirates.com/images/badges/Badge2022.png",
+    "title": "BSides KC 2022 badge (ray-gun shaped PCB)",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: sheet-research-spotted); event read as 'not in this archive's event list (BSides KC)'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "dc30-hailsatan-sao-s",
+  "title": "HailSatan SAO(s)",
+  "type": "sao",
+  "event": "dc30",
+  "event_name": "DEF CON 30",
+  "year": 2022,
+  "makers": [
+   {
+    "name": "Sqearlsalazar"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "Spotted by a research agent while working on a neighbouring entry."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://www.tindie.com/products/sqearlsalazar/hailsatan-saos/",
+    "kind": "store",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://www.tindie.com/products/sqearlsalazar/hailsatan-saos/",
+    "title": "HailSatan SAO(s)",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: sheet-research-spotted); event read as 'unknown (pre-dates dc30, referenced as a companion piece)'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "dc30-blue-team-village-sao",
+  "title": "Blue Team Village SAO",
+  "type": "sao",
+  "event": "dc30",
+  "event_name": "DEF CON 30",
+  "year": 2022,
+  "makers": [
+   {
+    "name": "Blue Team Village"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "Spotted by a research agent while working on a neighbouring entry."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://www.eventbrite.com/e/blue-team-village-sao-def-con-vegas-pickup-only-tickets-397239031637",
+    "kind": "website",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://www.eventbrite.com/e/blue-team-village-sao-def-con-vegas-pickup-only-tickets-397239031637",
+    "title": "Blue Team Village SAO",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: sheet-research-spotted); event read as 'dc30'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ }
+]

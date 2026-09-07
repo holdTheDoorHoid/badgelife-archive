@@ -14,7 +14,9 @@ makers:
 summary: An SAO themed after the SCP Foundation's SCP-1471-A, packed with an OLED display, dozens of LEDs, and a grab-bag of sensors for puzzles and IR messaging between badges.
 functions: IR Chat; puzzles, games, and custom LED animations; capacitive touch buttons; battery/thermal monitoring; NFC/RFID tag support
 look:
-  colors: []
+  colors:
+  - black
+  - orange
   shape: null
   themes:
   - horror
@@ -25,7 +27,7 @@ tech:
   leds:
     count: 50
     type: null
-    note: 'Maker''s GitHub repo describes a red-green LED plus IR transmit/receive; the storefront listing advertises "over 50 LEDs" — sources disagree, see notes.'
+    note: Maker's GitHub repo describes a red-green LED plus IR transmit/receive; the storefront listing advertises "over 50 LEDs" — sources disagree, see notes.
   display: 1.5" 128x128 grayscale OLED (SSD1327)
   connectivity:
   - ir
@@ -33,21 +35,21 @@ tech:
   - rfid
   - usb
   battery: null
-  sao_version: null
+  sao_version: v2
 get_one:
   price: $50
   price_usd: 50.0
   quantity: 64
   availability: sold_out
-  availability_note: 'Uberflux listing showed 0 remaining, 64 sold, checked 2026-09-06.'
+  availability_note: Uberflux listing showed 0 remaining, 64 sold, checked 2026-09-06.
   distribution:
   - purchase
   where: Sold online via Uberflux (uberflux.com/product/PL-1471) and in person at DEF CON 34.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/parallellogic-/MalO_SAO
   firmware_url: https://github.com/parallellogic-/MalO_SAO
-  eda_tool: null
+  eda_tool: EasyEDA
   license: Creative Commons Attribution-ShareAlike 3.0 Unported License
   fab_url: null
   notes: Schematics, PCB layout, and firmware source are published together in the GitHub repo per the maker's own description.
@@ -66,18 +68,23 @@ links:
   kind: repo
 images:
 - file: assets/images/badges/dc34/malo-sao/ed18f94345.jpg
-  source: "https://uberflux.com/product/PL-1471"
-  credit: "ParallelLogic"
-  caption: "MalO SAO board, front view"
+  source: https://uberflux.com/product/PL-1471
+  credit: ParallelLogic
+  caption: MalO SAO board, front view
 - file: assets/images/badges/dc34/malo-sao/2e25200ad1.jpg
-  source: "https://uberflux.com/product/PL-1471"
-  credit: "ParallelLogic"
-  caption: "MalO SAO board, back view"
+  source: https://uberflux.com/product/PL-1471
+  credit: ParallelLogic
+  caption: MalO SAO board, back view
+- file: assets/images/badges/dc34/malo-sao/1fdfaaabf3.jpg
+  source: https://uberflux.com/product/PL-1471
+  credit: ParallelLogic
+  caption: MalO SAO product photo
 contact:
   discord: ParallelLogic
   emails:
   - parallellogic@gmail.com
-notes: []
+notes:
+- 'Duplicate: another archive entry (dc34-malo-sao) covers the same item.'
 status: released
 sources:
 - kind: sheet
@@ -87,29 +94,32 @@ sources:
   listing: Update to Existing
 - kind: url
   url: https://uberflux.com/product/PL-1471
-  title: "MalO SAO (ver1.0.0 Themed Artisan Electronics Circuit Board) - Uberflux"
+  title: MalO SAO (ver1.0.0 Themed Artisan Electronics Circuit Board) - Uberflux
   accessed: '2026-09-06'
   note: Price, quantity sold/remaining, features list, and images.
 - kind: url
   url: https://github.com/parallellogic-/MalO_SAO
-  title: "parallellogic-/MalO_SAO - GitHub"
+  title: parallellogic-/MalO_SAO - GitHub
   accessed: '2026-09-06'
   note: MCU, display, connectivity, sensor list, license, and confirmation that hardware and firmware files are both published.
+- kind: sheet
+  event: dc34
+  row: 21
+  updated: 6/19/2026 17:04:26
+  listing: New
+- kind: url
+  url: https://github.com/parallellogic-/
+  title: parallellogic- GitHub profile
+  accessed: '2026-09-06'
+  note: Confirms maker identity and repo listing; no additional DC34-specific details found.
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-06'
-  notes: >-
-    This entry duplicates dc34-malo (same maker ParallelLogic, same GitHub repo
-    MalO_SAO, same product); the sheet appears to have two rows for one item
-    (row 21 "New" vs row 58 "Update to Existing"). Filled in independently per
-    instructions. LED count/type is uncertain: the GitHub repo's own text
-    describes only a red-green LED plus IR transmit/receive, while the Uberflux
-    storefront advertises "over 50 LEDs" and customizable animations; could not
-    resolve which is accurate without opening the repo's schematic/BOM files,
-    so tech.leds.type is left null. tech.battery, tech.sao_version, and
-    look.colors/look.shape could not be confirmed from the sources checked.
+  notes: 'This entry duplicates dc34-malo (same maker ParallelLogic, same GitHub repo MalO_SAO, same product); the sheet appears to have two rows for one item (row 21 "New" vs row 58 "Update to Existing"). Filled in independently per instructions. LED count/type is uncertain: the GitHub repo''s own text describes only a red-green LED plus IR transmit/receive, while the Uberflux storefront advertises "over 50 LEDs" and customizable animations; could not resolve which is accurate without opening the repo''s schematic/BOM files, so tech.leds.type is left null. tech.battery, tech.sao_version, and look.colors/look.shape could not be confirmed from the sources checked. Merged with duplicate entry ''MalO SAO'' (dc34-malo).'
 last_modified_date: '2026-09-06'
+redirect_from:
+- /badges/dc34/malo/
 ---
 
 The MalO SAO is a shitty add-on from ParallelLogic themed on the SCP Foundation's SCP-1471-A, made for DEF CON 34. It centers on an RP2350B dual-core microcontroller driving a 1.5" 128x128 grayscale OLED, and layers on capacitive touch buttons, an IMU, a light sensor, a hall-effect sensor, a microphone, a buzzer, a vibration motor, and NFC/RFID support. A standout feature is infrared transmit/receive hardware used for an "IR Chat" mode, letting badges holding a MalO SAO exchange messages with each other over IR. The board is USB-C hackable and reprogrammable through the Arduino IDE.
@@ -121,3 +131,11 @@ This entry appears to duplicate `dc34-malo`, which was imported from an earlier 
 ## Make your own
 
 Schematics, PCB layout files, and firmware source are all published in the [MalO_SAO GitHub repo](https://github.com/parallellogic-/MalO_SAO) under a Creative Commons Attribution-ShareAlike 3.0 license, with documentation describing the build in the repo itself.
+
+## Notes merged from the duplicate entry "MalO SAO"
+
+MalO is an SAO themed around the SCP Foundation's "SCP-1471-A" entity, made by ParallelLogic and sold at DEF CON 34 in August 2026. It packs a 1.5" 128x128 grayscale OLED display and more than 50 onboard LEDs onto an RP2350B-based board, alongside a wide sensor suite: accelerometer/gyroscope, ambient light and thermal sensors, a microphone, capacitive touch buttons, and a rotary potentiometer. A buzzer and vibration motor add haptic and audio feedback, and a passive 13.56 MHz RFID/NFC tag and IR transmit/receive hardware (940 nm, 38 kHz, with a default single IR transmitter upgradeable to three via a solder jumper) let units talk to each other and to a host badge.
+
+The board runs mini-games, logic puzzles, and LED animations, with IR chat as a headline feature for interacting with other MalO units nearby. ParallelLogic sold 64 units for $50 each through their Uberflux storefront, and the listing was sold out as of research. Both the hardware design and firmware are published on GitHub under a Creative Commons Attribution-ShareAlike 3.0 Unported license, making it fully open source.
+
+This archive entry duplicates another entry for the same item, dc34-malo-sao, from the same maker and GitHub repository.

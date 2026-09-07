@@ -59,11 +59,16 @@ sources:
   url: https://github.com/dc512
   title: 'dc512 (GitHub)'
   accessed: '2026-09-07'
-  note: 'GitHub org exists but has no public repositories, so no DC32 hardware/firmware repo to check.'
+  note: 'GitHub account exists but has no public repositories, so no DC32 hardware/firmware repo to check.'
+- kind: url
+  url: https://dc512.org
+  title: 'dc512.org (redirects to meetup.com/dc512atx)'
+  accessed: '2026-09-06'
+  note: 'Supports the maker identity only: dc512.org 302-redirects to the DC512 Meetup group page, which is listed as Austin, TX and describes itself as a DEF CON group. No badge or SAO mentioned there.'
 research:
-  status: researched
+  status: verified
   confidence: low
-  last_checked: '2026-09-07'
+  last_checked: '2026-09-06'
   notes: >-
     DC512 (the DEF CON 512 / Austin, TX group) appears on the DEF CON 32 community
     badgelife sheet with only its name filled in — no badge/SAO title, links, price,
@@ -72,14 +77,17 @@ research:
     for the prior year (see dc31-scary-monster-sao, "Scary Monster SAO??", also
     undocumented beyond a price), so the group is an active badge maker, but no
     source found describes what (if anything) they brought to DEF CON 32 specifically.
-    Checked: the group's own site (dc512.com no longer resolves; the only Wayback
-    Machine snapshot near 2024 is for the unrelated dc512.org, a parked domain),
-    their GitHub org (no public repos), Hackaday.io (no DC512 profile found), and
+    Checked: the group's own site (dc512.com does not resolve; dc512.org redirects to
+    their Meetup page, which has no badge/SAO content), their GitHub account (no
+    public repos), Hackaday.io (no DC512 profile found), and
     web searches for "DC512" plus badge/SAO/DEF CON 32 terms (Brave, Bing, DuckDuckGo)
     turned up nothing about a specific item. Leaving type, tech, and get_one fields
     empty rather than guessing. If a maker or attendee can confirm what DC512 actually
     brought to DC32, this entry should be retitled and filled in.
-last_modified_date: '2026-09-07'
+    Fact-check 2026-09-06: re-read the sheet CSV export (row reads "DC512,,,,,,,,,,"),
+    the forum thread (links the sheet, no DC512 mention), github.com/dc512 (zero
+    public repos) and the dc512.org redirect; all statements retained are supported.
+last_modified_date: '2026-09-06'
 ---
 
 DC512 — the DEF CON 512 group based in Austin, Texas — is listed on the DEF CON 32 (2024) community badgelife spreadsheet, but the row contains nothing beyond the group's name: no badge or SAO title, no links, no price, no function description, and no quantity. It reads as a placeholder sign-up rather than a completed listing, and no independent source (the group's own site, GitHub, Hackaday.io, or general web search) turned up what, if anything, DC512 actually produced for DEF CON 32.

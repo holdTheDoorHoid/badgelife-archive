@@ -48,21 +48,23 @@ sources:
   row: 28
   updated: '2024-07-30'
 research:
-  status: researched
+  status: verified
   confidence: low
-  last_checked: '2026-09-07'
+  last_checked: '2026-09-06'
   notes: >-
-    No sources beyond the community sheet could be found. Searched web (title + maker,
-    title + "DEF CON 32", maker + badge/SAO), Hackaday.io, X/Twitter, and Reddit; none
-    turned up a project page, repo, storefront, or press mention for "D3cad3 Count3r"
-    or the maker "Blametheotherkyle" for DC32. The maker has two other entries in this
-    archive (dc31-secure-a-s-s-badge, dc32-burro-badge), also both thinly documented,
-    suggesting a low-profile/small-run badgelife maker rather than a missing search.
-    All fields left as imported from the sheet; none could be verified or expanded.
-last_modified_date: '2026-09-07'
+    Fact-check 2026-09-06: every non-empty field traces to data/sheets/dc32.csv row 28
+    (title, "Drops during DEFCON", Free, the Twitter #badgelife contact line, the
+    "Guess what it does lol" functions text, sheet date 2024-07-30). Caveat: the
+    creator cell on that row is blank; the maker attribution to Blametheotherkyle is
+    carried down from the row directly above (Burro Badge, row 27), the sheet's usual
+    convention for one maker listing several items. No source beyond the sheet was
+    found: web search (Bing), Hackaday.io (login-walled) and Reddit (unreachable)
+    turned up nothing for the title or maker. The maker has two other thinly
+    documented entries here (dc31-secure-a-s-s-badge, dc32-burro-badge). All
+    look/tech/make_your_own fields left empty; nothing was verified or expanded.
+last_modified_date: '2026-09-06'
 ---
 
-Blametheotherkyle listed a "D3cad3 Count3r SAO" on the DEF CON 32 community badge sheet, described as free and dropping during the con, with details to be announced on Twitter under the #badgelife hashtag. The functions field on the sheet is a joking non-answer ("Guess what it does lol"), and no further description, image, or specification was given.
+A "D3cad3 Count3r SAO" appears on the DEF CON 32 community badge sheet, listed as free and dropping during the con, with details to be announced on Twitter under the #badgelife hashtag. The creator cell on that row is blank; the sheet lists it directly under Blametheotherkyle's Burro Badge, which is why this archive attributes it to that maker. The functions field is a joking non-answer ("Guess what it does lol"), and no description, image, or specification was given.
 
-No independent confirmation of the badge's release, design, or specs could be found: extensive web, Hackaday.io, and social-media searches turned up nothing under this title or maker name for 2024. It's possible the piece was a small, informal drop that never got documented online, or that it appeared under a different name. This entry reflects only what the original sheet recorded.
-
+No independent confirmation of the SAO's release, design, or specs has been found online. It may have been a small, informal drop that never got documented, or it may have appeared under a different name. This entry reflects only what the sheet recorded.

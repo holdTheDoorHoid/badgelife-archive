@@ -48,15 +48,26 @@ links:
 - kind: store
   label: Hacker Warehouse product page
   url: https://hackerwarehouse.com/product/cicada-invada-diy-kit/
+- kind: video
+  label: Audio demo (YouTube Shorts)
+  url: https://youtube.com/shorts/7Asbn2EzBgU
 images:
 - file: assets/images/badges/dc32/diy-cicada-badge/c9dab2b816.jpg
-  source: "https://hackerwarehouse.com/product/cicada-invada-diy-kit/"
-  credit: "Hacker Warehouse"
-  caption: "Cicada Invada DIY Kit soldering badge, assembled"
+  source: https://hackerwarehouse.com/product/cicada-invada-diy-kit/
+  credit: Hacker Warehouse
+  caption: Cicada Invada DIY Kit soldering badge, assembled
 - file: assets/images/badges/dc32/diy-cicada-badge/884364a1ce.jpg
-  source: "https://hackerwarehouse.com/product/cicada-invada-diy-kit/"
-  credit: "Hacker Warehouse"
-  caption: "Cicada Invada DIY Kit, alternate view"
+  source: https://hackerwarehouse.com/product/cicada-invada-diy-kit/
+  credit: Hacker Warehouse
+  caption: Cicada Invada DIY Kit, alternate view
+- file: assets/images/badges/dc32/diy-cicada-badge/8b9f52ccbc.jpg
+  source: https://hackerwarehouse.com/product/cicada-invada-diy-kit/
+  credit: Hacker Warehouse
+  caption: Assembled Cicada Invada DIY soldering kit, DC32 2024
+- file: assets/images/badges/dc32/diy-cicada-badge/dcc5b02e65.jpg
+  source: https://hackerwarehouse.com/product/cicada-invada-diy-kit/
+  credit: Hacker Warehouse
+  caption: Unpopulated Cicada Invada PCB before assembly
 contact:
   emails:
   - questions@hak4kidz.com
@@ -74,12 +85,18 @@ sources:
   title: Cicada Invada DIY Kit - Hacker Warehouse
   accessed: '2026-09-06'
   note: Full product description, kit contents, price, and product photos, confirming this is the same item as another sheet row for this event.
+- kind: sheet
+  event: dc32
+  row: 66
+  updated: '2024-06-29'
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-06'
-  notes: This sheet row and dc32-cicada-invada-this-wins-the-badge-name-award-thus-far both describe the same Hak4Kidz "Cicada Invada" soldering kit sold at DC32 through Hacker Warehouse (SKU H4K-CI23) — same maker, same price, same product page. Treated as a duplicate; filled in from the same source rather than left as a stub. Could not find a quantity made or open-source design files.
+  notes: This sheet row and dc32-cicada-invada-this-wins-the-badge-name-award-thus-far both describe the same Hak4Kidz "Cicada Invada" soldering kit sold at DC32 through Hacker Warehouse (SKU H4K-CI23) — same maker, same price, same product page. Treated as a duplicate; filled in from the same source rather than left as a stub. Could not find a quantity made or open-source design files. Merged with duplicate entry 'Cicada Invada (<--- this wins the badge name award thus far)' (dc32-cicada-invada-this-wins-the-badge-name-award-thus-far).
 last_modified_date: '2026-09-06'
+redirect_from:
+- /badges/dc32/cicada-invada-this-wins-the-badge-name-award-thus-far/
 ---
 
 The DIY Cicada Badge is a soldering-practice kit shaped like a cicada, sold by Hacker Warehouse at DEF CON 32 (2024) to raise money for Hak4Kidz, the nonprofit that runs hands-on security and soldering activities for kids at DEF CON and other events. Hacker Warehouse lists the same product as the "Cicada Invada DIY Kit," an evolution of an earlier "Cricket Badge" design from the same program.
@@ -87,3 +104,9 @@ The DIY Cicada Badge is a soldering-practice kit shaped like a cicada, sold by H
 Builders solder a 555 timer, two red LEDs (the cicada's eyes), a potentiometer, a piezo buzzer, and a handful of passives onto the insect-shaped PCB, along with a 9V battery clip. The 555-timer astable circuit drives the piezo to produce a chirping tone, and the potentiometer lets the builder dial the pitch up or down; at low pitch it doubles as a prank noisemaker that can be hidden in a room to sound like a bug got inside. Assembly instructions are reached via a QR code printed on the badge itself, and the kit includes a Hak4Kidz-branded lanyard alongside the electronic parts. It sold for $30.
 
 This entry's sheet row appears to be an earlier, less-detailed listing of the same product — the sheet note ("Makers have just finished other projects and have started these. More to follow") reads like a status update from before the badge had a final name — while the sibling entry dc32-cicada-invada-this-wins-the-badge-name-award-thus-far carries the finished product's playful full name and a video demo.
+
+## Notes merged from the duplicate entry "Cicada Invada (<--- this wins the badge name award thus far)"
+
+The Cicada Invada is a soldering-practice kit shaped like a cicada, sold by Hacker Warehouse at DEF CON 32 to raise money for Hak4Kidz, the nonprofit that runs hands-on security and soldering activities for kids at DEF CON and other events. It is described as an evolution of an earlier "Cricket Badge" design from the same program.
+
+Builders solder a 555 timer, two red LEDs (the cicada's eyes), a potentiometer, a piezo buzzer, and a handful of passives onto the insect-shaped PCB, along with a 9V battery clip. The 555-timer astable circuit drives the piezo to produce a chirping tone, and the potentiometer lets the builder dial the pitch up or down; at low pitch it doubles as a prank noisemaker that can be hidden in a room to sound like a bug got inside. Assembly instructions are reached via a QR code printed on the badge itself, and the kit includes a soldering iron cleaner and a Hak4Kidz-branded lanyard alongside the electronic parts. It sold for $30.

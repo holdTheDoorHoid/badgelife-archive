@@ -72,9 +72,9 @@ sources:
   note: Maker's GitHub (Jeremy Wasson) lists only a DC31_Prismatic_Shard repo; no
     2024/DC32 project found.
 research:
-  status: researched
+  status: verified
   confidence: low
-  last_checked: '2026-09-06'
+  last_checked: '2026-09-07'
   notes: This row on the DC32 sheet names only the maker Cyber Circuitry, with no
     product details. Cyber Circuitry's own site (checked live and via a Wayback
     Machine snapshot from July 29 2024, days before DEF CON 32) shows only their
@@ -87,8 +87,10 @@ research:
     maker's own site/GitHub only and should be re-checked with search tools
     available. Left as unknown rather than guessing whether they released
     something new, sold remaining Prismatic Shard stock at DC32, or attended
-    without a new product.
-last_modified_date: '2026-09-06'
+    without a new product. Fact-check 2026-09-07 re-opened all three cited pages
+    (live site, Wayback snapshot, GitHub) and the DC32 sheet row; every statement
+    in this entry matched them.
+last_modified_date: '2026-09-07'
 ---
 
 The community sheet for DEF CON 32 (2024) lists Cyber Circuitry as a maker but gives no product name, description, or other details for that year's badge or SAO.

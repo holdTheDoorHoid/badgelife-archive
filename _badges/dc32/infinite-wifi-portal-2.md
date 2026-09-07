@@ -49,7 +49,7 @@ get_one:
   - purchase
   where: Made for and distributed at DEF CON 32 (Las Vegas, Aug 2024) by the makers directly; no ongoing storefront listing was found.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://git.trueserve.org/trueControl/dc32-infinite-wifi-portal
   firmware_url: https://github.com/Aask42/DC32_Infinite_Wifi_Portal
   eda_tool: null
@@ -71,18 +71,22 @@ links:
 - label: Whiskey Pirates (crew site)
   url: https://whiskeypirates.com
   kind: website
+- label: shop.truecontrol.org
+  url: https://shop.truecontrol.org
+  kind: store
 images:
-  - file: assets/images/badges/dc32/infinite-wifi-portal-2/9ff2a8bf36.jpg
-    source: "https://github.com/Aask42/DC32_Infinite_Wifi_Portal"
-    credit: "Aask / True"
-    caption: "The Infinite WiFi Portal medallion, worn on a retro-reflective lanyard"
-  - file: assets/images/badges/dc32/infinite-wifi-portal-2/d433372a37.png
-    source: "https://github.com/Aask42/DC32_Infinite_Wifi_Portal"
-    credit: "Aask / True"
-    caption: "The infinity-mirror LED ring and matrix face of the badge"
+- file: assets/images/badges/dc32/infinite-wifi-portal-2/9ff2a8bf36.jpg
+  source: https://github.com/Aask42/DC32_Infinite_Wifi_Portal
+  credit: Aask / True
+  caption: The Infinite WiFi Portal medallion, worn on a retro-reflective lanyard
+- file: assets/images/badges/dc32/infinite-wifi-portal-2/d433372a37.png
+  source: https://github.com/Aask42/DC32_Infinite_Wifi_Portal
+  credit: Aask / True
+  caption: The infinity-mirror LED ring and matrix face of the badge
 contact: {}
 notes:
 - Sheet listed the maker as "Whiskey Pirate Crew (not badgelife)"; the badge was actually a two-person collaboration between "True" (trueControl, of the Whiskey Pirates) who built the hardware, and Aask (aask.ltd), who wrote the firmware and led the concept.
+- Price is dependent on how much of the work is complete by the time DC starts
 status: released
 sources:
 - kind: sheet
@@ -96,49 +100,46 @@ sources:
   note: Current site index confirms the badge's existence and title, and links to the (now-404) dc32/infinite-wifi page and the crew's site.
 - kind: url
   url: http://web.archive.org/web/20240910151951/https://basic.truecontrol.org/database/dc32/infinite-wifi/
-  title: "Infinite WiFi Portal - trueControl BASIC (Wayback Machine, Sep 2024)"
+  title: Infinite WiFi Portal - trueControl BASIC (Wayback Machine, Sep 2024)
   accessed: '2026-09-07'
   note: Archived version of the badge's own page, live during DEF CON 32; links to both the hardware and firmware repos and names the two makers ("true" for hardware, "Aask and crew" for code).
 - kind: url
   url: https://github.com/Aask42/DC32_Infinite_Wifi_Portal
-  title: "GitHub - Aask42/DC32_Infinite_Wifi_Portal"
+  title: GitHub - Aask42/DC32_Infinite_Wifi_Portal
   accessed: '2026-09-07'
   note: Primary source for functions, hardware components (MCU, LED driver, sensors), firmware/flashing process, and maker credits. Also the source of both saved images.
 - kind: url
   url: https://git.trueserve.org/trueControl/dc32-infinite-wifi-portal
-  title: "trueControl/dc32-infinite-wifi-portal - trueserve Git"
+  title: trueControl/dc32-infinite-wifi-portal - trueserve Git
   accessed: '2026-09-07'
   note: Confirmed the hardware repo is still live and belongs to trueControl; page itself carries no further written detail beyond the repo file listing.
 - kind: url
   url: https://aask.ltd/iwp
-  title: "Infinite WiFi Portal - aask.ltd"
+  title: Infinite WiFi Portal - aask.ltd
   accessed: '2026-09-07'
   note: Confirms Aask (calling the outfit "Aask Labs") as co-maker and describes it as the fifth entry in an ongoing "Infinity Mirror" product series; page is an unfinished writeup with no price/quantity/availability info.
 - kind: url
   url: https://hackaday.com/2021/08/06/hands-on-whiskey-pirates-dc29-hardware-badge-blings-with-risc-v/
-  title: "Hands-On: Whiskey Pirates DC29 Hardware Badge Blings With RISC-V"
+  title: 'Hands-On: Whiskey Pirates DC29 Hardware Badge Blings With RISC-V'
   accessed: '2026-09-07'
   note: Background source confirming "Whiskey Pirates" as a DEF CON badge-making crew that describes itself as "adamantly not 'badgelife'" (matching the sheet's maker note) and led by trueControl ("true"); no DC32-specific content.
+- kind: sheet
+  event: dc32
+  row: 2
+  updated: ''
+- kind: url
+  url: https://shop.truecontrol.org
+  title: trueControl Shop
+  accessed: '2026-09-07'
+  note: 'Storefront home, Badges category, and the DEF CON 32 subcategory (2 items: "Peppercon9 Addon" and "Flames Plane-inspired Addon") were checked directly and by site search for "infinite", "wifi", "portal", and "aask" - no product matching this title or maker was found. This shop belongs to trueControl / Whiskey Pirates, not "Aask Labs".'
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: >-
-    This is the same physical badge as dc32-infinite-wifi-portal (that entry
-    credits it only to "Aask Labs"; this one, from a separate sheet row,
-    credits "Whiskey Pirate Crew (not badgelife)" - both are correct, it was
-    a two-person collaboration). Web search (WebSearch tool) was unavailable
-    for this task (session budget exhausted) and live search engines
-    (Google, Bing, DuckDuckGo) all blocked or failed automated fetches; the
-    Wayback Machine's archived copy of the badge's own now-404 project page
-    was the source that unlocked the hardware/firmware repo links and maker
-    attribution. Price ($120, from the sheet) could not be independently
-    confirmed - no live storefront listing was found for this item, and
-    quantity made, exact battery/power source, and open-source license are
-    not stated anywhere the makers published. The aask.ltd/iwp page is
-    itself an unfinished writeup and did not add facts beyond what the
-    GitHub README already gave.
+  notes: This is the same physical badge as dc32-infinite-wifi-portal (that entry credits it only to "Aask Labs"; this one, from a separate sheet row, credits "Whiskey Pirate Crew (not badgelife)" - both are correct, it was a two-person collaboration). Web search (WebSearch tool) was unavailable for this task (session budget exhausted) and live search engines (Google, Bing, DuckDuckGo) all blocked or failed automated fetches; the Wayback Machine's archived copy of the badge's own now-404 project page was the source that unlocked the hardware/firmware repo links and maker attribution. Price ($120, from the sheet) could not be independently confirmed - no live storefront listing was found for this item, and quantity made, exact battery/power source, and open-source license are not stated anywhere the makers published. The aask.ltd/iwp page is itself an unfinished writeup and did not add facts beyond what the GitHub README already gave. Merged with duplicate entry 'Infinite WiFi Portal' (dc32-infinite-wifi-portal).
 last_modified_date: '2026-09-07'
+redirect_from:
+- /badges/dc32/infinite-wifi-portal/
 ---
 
 The Infinite WiFi Portal is a hand-held infinity-mirror medallion made for DEF CON 32 (Las Vegas, August 2024), worn on a retro-reflective lanyard. It was a two-person build: "True," of the Whiskey Pirates crew ("adamantly not 'badgelife'"), designed and built the hardware, while Aask (aask.ltd) wrote the firmware and led the concept - the fifth badge in Aask's ongoing "Infinity Mirror" series of projects. An ESP32-N1-Mini drives an IS31FL3729 LED matrix (42 white, 1 green, 1 red LED in a 3x15 grid) behind the mirrored face, plus 36 separate RGB LEDs, alongside an accelerometer and a light sensor.

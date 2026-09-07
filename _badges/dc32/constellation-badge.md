@@ -53,33 +53,29 @@ research:
   confidence: low
   last_checked: '2026-09-07'
   notes: >-
-    Could not find any independent source for this badge. Checked
-    hackerware.io's current site (homepage/portfolio lists a dozen badges by
-    year but none called "Constellation" and none tied to DEF CON 32 or
-    Aerospace Village), Abhinav Panda's Hackster.io project list
-    (HacksFromPanda — includes Bug Bounty Village 2024/2025, AI Village,
-    Arcanum, Falken/Wombat, Nullbyte Zombie, SINCON Dragon badges, but no
-    Constellation Badge or Aerospace Village entry), and the Aerospace
-    Village site. Web search was unavailable (session search budget
-    exhausted) and Bing/DuckDuckGo scrape attempts returned no usable organic
-    results (DuckDuckGo served a bot challenge). No corroboration found for
-    maker attribution, CTF mechanics, quantity, or images; all fields left as
-    imported from the sheet. This may be an older/removed page on
-    hackerware.io, or the badge may be undocumented online.
-last_modified_date: '2026-09-07'
+    Every non-empty field comes from the DC32 community sheet (row 6); no
+    independent source was found. Maker attribution is a caveat: the sheet
+    row's "Creator / Team" cell is blank and "Abhinav Panda/Hackerware.io"
+    is carried down from the merged creator cell three rows above (the
+    Bug Bounty Village, Arcanum and Flare badge rows), which is the sheet's
+    grouping convention rather than an explicit credit. hackerware.io's
+    current portfolio (checked 2026-09-07) lists no "Constellation" badge
+    and nothing tied to DEF CON 32, Aerospace Village or Buddobot. Abhinav
+    Panda's Hackster.io profile could not be fetched (HTTP 403) and the
+    Aerospace Village DEF CON 32 event page returned 404, so those were not
+    checked; web search was unavailable (session quota). Nothing about the
+    CTF mechanics, quantity, hardware or appearance could be corroborated,
+    and no photos were found.
+last_modified_date: '2026-09-06'
 ---
 
-Listed on the DC32 community badge sheet as a free CTF badge distributed at
-the Aerospace Village, sponsored by Buddobot, and attributed to Abhinav
-Panda / Hackerware.io. Per the sheet, it is a full-colour badge with 12
-challenges that unlock constellations in a "badge universe," suggesting a
-space/astronomy theme layered over Hackerware's usual CTF-driven badge
-format.
+Listed on the DC32 community badge sheet as a free CTF badge, only available
+at the Aerospace Village and sponsored by Buddobot. The sheet describes it as
+a full-colour badge with 12 challenges to solve that unlock constellations in
+the "badge universe," and its contact note tells people to look out for
+contests in the Aerospace Village. The sheet groups it under Abhinav Panda /
+Hackerware.io's run of DC32 badges, though the row itself carries no explicit
+maker credit.
 
-No independent source — Hackerware's current site, Abhinav Panda's
-Hackster.io project list, or general web search — turned up a page, photo,
-or writeup matching this badge, so none of the technical fields (chip, LEDs,
-display, quantity) could be confirmed and are left empty. It is possible the
-listing refers to a badge that predates or postdates what is currently
-documented on hackerware.io, or that never got a public writeup.
-
+No independent page, photo or write-up of this badge was found, so the
+technical and appearance fields are left empty.

@@ -1,0 +1,2318 @@
+{
+ "dupes": {
+  "dc34-2026-choose-your-own-charity-echallengecoin": "dc34-2026-echallengecoin",
+  "dc34-eff-all-your-data-badgelife-def-con-33-rerun": "dc33-eff-nsa-eagle-all-your-data-badge",
+  "dc34-flare-blinky-badge": "dc34-flare-ctf-badge",
+  "dc34-eff-privacy-badger-badgelife-def-con-32-rerun": "dc31-eff-privacy-badger-badge",
+  "dc34-malo": "dc34-malo-sao",
+  "dc34-malo-sao": "dc34-malo",
+  "dc34-masonic33-puzzle-badge": "dc33-masonic33",
+  "dc34-monorail-con-badge": "dc34-monorail-badge-with-sphere-and-high-roller-sao",
+  "dc34-moth-updi-programmer-working-title": "dc34-updeedeei-sao",
+  "dc34-power-glove-re-release": "dc32-power-glove",
+  "dc34-sao-many-saos": "dc33-sao-many-saos",
+  "dc34-shitty-kitty-v2": "dc33-shitty-kitty-v2",
+  "dc34-star-trek-sao-phaser-v2-2": "dc31-star-trek-type-2-phaser-sao",
+  "dc34-tbd-2": "dc34-friend-or-foe-badge",
+  "dc34-updeedeei-sao": "dc34-moth-updi-programmer-working-title",
+  "dc34-viber-coder-dog-sao": "dc33-vibe-coder-sao",
+  "dc34-tipsy-badge": "dc33-tipsy-badge",
+  "dc33-abhinav-panda-listed-for-def-con-33-no-details": "dc33-bug-bounty-village-dc33-badge",
+  "dc33-ai-jack-badge": "dc33-new-ai-jack",
+  "dc33-aerospace-village-adsb-badge": "dc32-aerospace-village-unnamed-badge-sao",
+  "dc33-aerospace-village-listed-for-def-con-33-no-details": "dc33-aerospace-village-adsb-badge",
+  "dc33-bic-pick": "dc33-bic-pick-sao",
+  "dc33-bic-pick-sao": "dc33-bic-pick",
+  "dc33-blacks-in-cyber-village-badge": "dc33-bic-pick",
+  "dc33-coming-soon": "dc33-aerospace-village-adsb-badge",
+  "dc33-htp-graffiti": "dc34-htp-graffiti",
+  "dc33-new-ai-jack": "dc33-ai-jack-badge",
+  "dc33-masonic33": "dc34-masonic33-puzzle-badge",
+  "dc33-otter-listed-for-def-con-33-no-details": "dc32-darkstar-badge",
+  "dc33-sao-and-many-sao-badge": "dc33-sao-many-saos",
+  "dc33-sao-many-saos": "dc33-sao-and-many-sao-badge",
+  "dc33-sao-for-above": "dc33-sao-many-saos",
+  "dc33-the-mad-hatters-listed-for-def-con-33-no-details": "none",
+  "dc33-uberwoozle-listed-for-def-con-33-no-details": "none",
+  "dc33-unicorn-blinky-badge": "dc33-the-t-mobile-unicorn-badge",
+  "dc32-another-badge-similar-to-past-years": "dc32-secret-badge-no-info-at-all",
+  "dc32-black-panther-wakanda-forever": "dc30-blacks-in-cyber-badge",
+  "dc32-cicada-invada-this-wins-the-badge-name-award-thus-far": "dc32-diy-cicada-badge",
+  "dc32-diy-cicada-badge": "dc32-cicada-invada-this-wins-the-badge-name-award-thus-far",
+  "dc32-florida-man-listed-for-def-con-32-no-details": "dc31-the-party-badge",
+  "dc32-garrett-hacker-warehouse-listed-for-def-con-32-no-details": "possibly",
+  "dc32-h4rl0d-of-lhc-fame-and-other-fames-too-listed-for-def-con-32": "possible",
+  "dc32-infinite-wifi-portal": "dc32-infinite-wifi-portal-2",
+  "dc32-infinite-wifi-portal-2": "dc32-infinite-wifi-portal",
+  "dc32-make-it-hackin-listed-for-def-con-32-no-details": "dc33-flipboard-macropad-for-flipper-zero",
+  "dc32-secret-badge-no-info-at-all": "dc32-another-badge-similar-to-past-years",
+  "dc32-ticket-add-on-for-the-diana-initiative": "possibly",
+  "dc32-the-diana-initiative-listed-for-def-con-32-no-details": "dc32-ticket-add-on-for-the-diana-initiative",
+  "dc32-tor-project-listed-for-def-con-32-no-details": "possibly",
+  "dc32-verbaal-and-h4r0ld-house-of-hacker-horrors-listed-for-def-co": "dc31-eff-privacy-badger-badge",
+  "dc31-arc-reactor-badge-mark-ii": "dc31-ironwood-cyber-reactor-badge",
+  "dc31-awesome-peeps-from-blue-team-village-unnamed-badge-sao": "dc31-yay-they-finally-released-the-info",
+  "dc31-hackersnhops-listed-for-def-con-31-no-details": "dc30-hacker-and-hops-sao",
+  "dc31-ironwood-cyber-reactor-badge": "dc31-arc-reactor-badge-mark-ii",
+  "dc31-learn-to-solder-badge-2": "dc31-learn-to-solder-badge",
+  "dc31-learn-to-solder-badge": "dc31-learn-to-solder-badge-2",
+  "dc31-sao-boards-will-be-available": "dc30-black-badge-raffle-badge",
+  "dc31-sgc-aerospace-corporation": "dc31-space-grand-challenge-satellite-badge",
+  "dc31-star-trek-type-2-phaser-sao": "dc34-star-trek-sao-phaser-v2-2",
+  "dc31-yay-they-finally-released-the-info": "dc31-awesome-peeps-from-blue-team-village-unnamed-badge-sao",
+  "dc31-z80-retro-badge": "dc30-z80-retro-badge",
+  "dc30-califomia-cyber-institute-calpoly-san-luis-obispo": "dc31-space-grand-challenge-satellite-badge",
+  "dc30-ironwood-cyber-tron-badge": "dc30-tron-badge",
+  "dc30-tron-badge": "dc30-ironwood-cyber-tron-badge"
+ },
+ "not_an_item": [
+  "dc30-rumor-says-they-have-one",
+  "dc32-if-you-are-a-badgemaker-please-check-to-see-if-you-can-suppo",
+  "dc32-project-codeswitch",
+  "dc33-next-year"
+ ],
+ "others": [
+  {
+   "title": "2025 eChallengeCoin",
+   "maker": "Brad\u00e1n Lane STUDIO",
+   "event": "dc33",
+   "type": "badge",
+   "url": "https://aosc.cc/cyoc.html"
+  },
+  {
+   "title": "BTV SAO",
+   "maker": "Blue Team Village",
+   "event": "dc34",
+   "type": "sao",
+   "url": "https://www.eventbrite.com/e/1995859982936"
+  },
+  {
+   "title": "Sh1tty add-on (SAO)",
+   "maker": "Blue Team Village / Sh1tty",
+   "event": "dc34",
+   "type": "sao",
+   "url": "https://www.eventbrite.com/e/1995859982936"
+  },
+  {
+   "title": "PORTAL Badge",
+   "maker": "BigFuckingBadge",
+   "event": "dc34",
+   "type": "badge",
+   "url": "https://www.bigfuckingbadge.com"
+  },
+  {
+   "title": "PORTAL gun SAO",
+   "maker": "BigFuckingBadge",
+   "event": "dc34",
+   "type": "sao",
+   "url": "https://www.bigfuckingbadge.com"
+  },
+  {
+   "title": "IFLFU SAO",
+   "maker": "BigFuckingBadge",
+   "event": "dc34",
+   "type": "sao",
+   "url": "https://www.bigfuckingbadge.com"
+  },
+  {
+   "title": "\"fuck\" Note SAO",
+   "maker": "BigFuckingBadge",
+   "event": "dc34",
+   "type": "sao",
+   "url": "https://www.bigfuckingbadge.com"
+  },
+  {
+   "title": "Flare Blinky Badge",
+   "maker": "Abhinav Panda / Hackerware.io",
+   "event": "dc34",
+   "type": "badge",
+   "url": "https://x.com/TweetsFromPanda/status/2085872320854298753 (same tweet covers both badges); also https://www.linkedin.com/posts/abhinavpandagale_badgelife-ugcPost-7491636243009744897-nu2v/ \u2014 note: this already has its own stub entry at dc34-flare-blinky-badge, not modified here"
+  },
+  {
+   "title": "TBD",
+   "maker": "GameChangersAI",
+   "event": "dc34",
+   "type": "unknown",
+   "url": "existing archive entry id dc34-tbd-2 (found via data/existing_titles.txt) -- same maker as this badge, listed only as TBD; not researched or touched as part of this task"
+  },
+  {
+   "title": "EFF \"Electric Fist\" BadgeLife (DEF CON 34)",
+   "maker": "H4r0ld & V3rbaal's House Of Hacker Horrors",
+   "event": "dc34",
+   "type": "badge",
+   "url": "https://www.eventbrite.com/e/eff-electric-fist-badgelife-def-con-34-tickets-1990148316187"
+  },
+  {
+   "title": "DC34 PORTAL Badge",
+   "maker": "BigFuckingBadge",
+   "event": "dc34",
+   "type": "badge",
+   "url": "https://www.bigfuckingbadge.com"
+  },
+  {
+   "title": "PORTAL Gun SAO",
+   "maker": "BigFuckingBadge",
+   "event": "dc34",
+   "type": "sao",
+   "url": "https://www.bigfuckingbadge.com"
+  },
+  {
+   "title": "\"fuck\" Note SAO",
+   "maker": "BigFuckingBadge",
+   "event": "dc34",
+   "type": "sao",
+   "url": "https://www.bigfuckingbadge.com"
+  },
+  {
+   "title": "Brain in a Jar",
+   "maker": "Hairline Moggers",
+   "type": "sao",
+   "event": "dc34",
+   "url": ""
+  },
+  {
+   "title": "Laser* Tag Badge (2025 predecessor)",
+   "maker": "Dani Weidman",
+   "event": "dc33",
+   "type": "badge",
+   "url": "https://www.dani.pink/lasertag/archive-2025/about"
+  },
+  {
+   "title": "DEF CON Singapore 2026 Official Badge",
+   "maker": "Dani Weidman (OpenLASIR-based)",
+   "event": "unknown - DEF CON Singapore",
+   "type": "badge",
+   "url": "https://www.dani.pink/lasertag/archive-sing/about"
+  },
+  {
+   "title": "Vibe Coder SAO",
+   "maker": "coryallegory",
+   "event": "dc33",
+   "type": "sao",
+   "url": "https://x.com/coryallegory"
+  },
+  {
+   "title": "Viber Coder Dog SAO",
+   "maker": "coryallegory",
+   "event": "dc34",
+   "type": "sao",
+   "url": "https://x.com/coryallegory"
+  },
+  {
+   "title": "Laser* Tag Badge DS",
+   "maker": "dani.pink",
+   "event": "dc34",
+   "type": "badge",
+   "url": "https://store.dani.pink/products/laser-tag-badge-ds"
+  },
+  {
+   "title": "Speaker SAO (DFPlayer Mini MP3 module, part of the same monorail badge project)",
+   "maker": "Zach Resmer",
+   "event": "dc34",
+   "type": "sao",
+   "url": "https://resmer.co.za/ch/posts/monorail-badge/"
+  },
+  {
+   "title": "MF Doom SAO",
+   "maker": "Rex",
+   "event": "dc32",
+   "type": "sao",
+   "url": ""
+  },
+  {
+   "title": "Malware Monsters trading cards (404KeyLogger / Snake Keylogger, MalBun mascot)",
+   "maker": "Malware Village / illustrated by Lena Yu (LambdaMamba)",
+   "event": "dc34",
+   "type": "not a badge/SAO - collectible card, seen in the entry's linked tweet photo, not otherwise catalogued here",
+   "url": "https://x.com/MalwareVillage/status/2084504450207744455?s=20"
+  },
+  {
+   "title": "Soldering Canary",
+   "maker": "Xenu (Lepi Labs)",
+   "event": "dc34",
+   "type": "sao",
+   "url": "https://github.com/lepi-labs/5-dc34-canary-badge"
+  },
+  {
+   "title": "DC34 PORTAL Badge",
+   "maker": "BigFuckingBadge",
+   "event": "dc34",
+   "type": "badge",
+   "url": "https://www.bigfuckingbadge.com"
+  },
+  {
+   "title": "DFIU SAO",
+   "maker": "BigFuckingBadge",
+   "event": "dc34",
+   "type": "sao",
+   "url": "https://www.bigfuckingbadge.com"
+  },
+  {
+   "title": "IFLFY SAO",
+   "maker": "BigFuckingBadge",
+   "event": "dc34",
+   "type": "sao",
+   "url": "https://www.bigfuckingbadge.com"
+  },
+  {
+   "title": "\"fuck\" Note SAO",
+   "maker": "BigFuckingBadge",
+   "event": "dc34",
+   "type": "sao",
+   "url": "https://www.bigfuckingbadge.com"
+  },
+  {
+   "title": "Spectre Sniffer",
+   "maker": "NilbinSec",
+   "event": "dc34",
+   "type": "badge",
+   "url": "https://uberflux.com/product/NS-SpectreSniffer"
+  },
+  {
+   "title": "Root Access SAO",
+   "maker": "MakeItHackin and DannerCronise",
+   "event": "dc34",
+   "type": "sao",
+   "url": "https://github.com/MakeItHackin/RootAccess"
+  },
+  {
+   "title": "Hack 'Em Crack 'Em Robots (NilbinSec's first full badge)",
+   "maker": "NilbinSec",
+   "event": "dc34",
+   "type": "badge",
+   "url": "https://forum.defcon.org/node/253031"
+  },
+  {
+   "title": "SaO MANY SAOs (DC33 original)",
+   "maker": "Coruscant Ventures",
+   "event": "dc33",
+   "type": "duplicate note - not a new item",
+   "url": "n/a - already exists as dc33-sao-many-saos in existing_titles.txt; this dc34 entry appears to be a mis-filed duplicate of that DC33 item"
+  },
+  {
+   "title": "SAO for above / SmartAO",
+   "maker": "Coruscant Ventures",
+   "event": "dc33",
+   "type": "sao",
+   "url": "https://coruscantventures.com/defcon-badges (companion SAO required to light the Many SAOs badge's edge LEDs; already has its own entry dc33-sao-for-above per existing_titles.txt, just flagging the connection)"
+  },
+  {
+   "title": "F35",
+   "maker": "Lockheed Martin ACR",
+   "event": "dc33",
+   "type": "badge",
+   "url": ""
+  },
+  {
+   "title": "UPDeeDeeI SAO",
+   "maker": "Xenu (Lepi Labs)",
+   "event": "dc34",
+   "type": "sao",
+   "url": "https://uberflux.com/product/LEPI-dc34-moth"
+  },
+  {
+   "title": "Moth UPDI programmer (working title)",
+   "maker": "Xenu (Lepi Labs)",
+   "event": "dc34",
+   "type": "sao",
+   "url": "https://github.com/lepi-labs/6-dc34-moth-badge"
+  },
+  {
+   "title": "ConCrud: Zelda Rides",
+   "maker": "GameChangersAI",
+   "type": "browser game (not a physical badge/SAO)",
+   "event": "dc34",
+   "url": "https://gamechangersai.org/games/concrud-zelda-rides/index.html"
+  },
+  {
+   "title": "DC34 Badge Workbench",
+   "maker": "GameChangersAI",
+   "type": "software tool for the official DC34 badge (not a physical badge/SAO)",
+   "event": "dc34",
+   "url": "https://gamechangersai.org/dc34badge"
+  },
+  {
+   "title": "Submarine Badge & Pirate SAO",
+   "maker": "BigTaro's Badges",
+   "event": "possibly dc33 or dc34 (listed twice on Tindie under slightly different URLs)",
+   "type": "badge+sao",
+   "url": "https://www.tindie.com/products/bigtaro/submarine-badge-pirate-sao-defcon-badgelife/"
+  },
+  {
+   "title": "Surprise Retro badge addon at DC33",
+   "maker": "Whiskey Pirates (trueControl shop)",
+   "event": "dc33",
+   "type": "unknown, possibly SAO/addon",
+   "url": "https://shop.truecontrol.org/index.php?route=product/product&path=59&product_id=430"
+  },
+  {
+   "title": "New Jack Badge (Standard/Custom Printed)",
+   "maker": "technick",
+   "event": "DC27",
+   "type": "badge",
+   "url": "https://www.tindie.com/products/technick/new-jack-badge-standard-printed-defcon-27/"
+  },
+  {
+   "title": "Monopoly Jack Badge",
+   "maker": "technick",
+   "event": "DC29",
+   "type": "badge",
+   "url": "https://www.tindie.com/products/technick/monopoly-jack-badge-defcon-29/"
+  },
+  {
+   "title": "King Jack Badge",
+   "maker": "technick",
+   "event": "DC30",
+   "type": "badge",
+   "url": "https://www.tindie.com/products/technick/king-jack-badge-defcon-30/"
+  },
+  {
+   "title": "Pirate Jack Badge",
+   "maker": "technick",
+   "event": "DC31",
+   "type": "badge",
+   "url": "https://www.tindie.com/products/technick/pirate-jack-badge-defcon-31-2023/"
+  },
+  {
+   "title": "DC33 SAO (air-band/FM radio + OLED companion add-on)",
+   "maker": "Rare Circuits",
+   "event": "dc33",
+   "type": "sao",
+   "url": "https://www.aerospacevillage.org/dc33-badge"
+  },
+  {
+   "title": "Winnebago SAO",
+   "maker": "Aerospace Village",
+   "event": "dc33",
+   "type": "sao",
+   "url": "https://www.aerospacevillage.org/dc33-badge"
+  },
+  {
+   "title": "The AI Village Badge",
+   "maker": "Abhinav Panda / Hackerware.io",
+   "event": "dc32 (2024)",
+   "type": "badge",
+   "url": "https://www.hackster.io/HacksFromPanda/the-ai-village-badge-98ed97"
+  },
+  {
+   "title": "AI Village Blinky Badge & SAO",
+   "maker": "Abhinav Panda / Hackerware.io",
+   "event": "dc34 (2026)",
+   "type": "badge/sao",
+   "url": ""
+  },
+  {
+   "title": "Bug Bounty Village 2025 Badge",
+   "maker": "Abhinav SP / Hackerware.io",
+   "event": "unclear which con (2025)",
+   "type": "badge",
+   "url": "https://www.hackster.io/HacksFromPanda/bug-bounty-village-2025-badge-e1fe09"
+  },
+  {
+   "title": "The Blockchain Badge",
+   "maker": "Hackerware.io",
+   "event": "unclear",
+   "type": "badge",
+   "url": "https://www.hackster.io/HacksFromPanda/the-blockchain-badge-93f659"
+  },
+  {
+   "title": "Anime CTF Badge",
+   "maker": "Hackerware.io",
+   "event": "unclear",
+   "type": "badge",
+   "url": "https://www.hackster.io/HacksFromPanda/anime-ctf-badge-afcb2c"
+  },
+  {
+   "title": "Hom3c0ming Badge",
+   "maker": "Alt_Bier",
+   "event": "dc30",
+   "type": "badge",
+   "url": "https://homecoming.altbier.us/"
+  },
+  {
+   "title": "Future Badge (The Future will Prevail)",
+   "maker": "Alt_Bier",
+   "event": "dc31",
+   "type": "badge",
+   "url": "https://futurebadge.altbier.us/"
+  },
+  {
+   "title": "Cowboys vs Dinosaurs (limited run)",
+   "maker": "Alt_Bier",
+   "event": "dc32 / 3000 Society 2024",
+   "type": "badge",
+   "url": "https://cowboysvsdinos.altbier.us/"
+  },
+  {
+   "title": "G0dzilla VS Badge (with H3llo Kitty SAO addon)",
+   "maker": "Alt_Bier",
+   "event": "dc32",
+   "type": "badge",
+   "url": "https://g0dzilla.altbier.us/"
+  },
+  {
+   "title": "Birds Aren't Real broSAO",
+   "maker": "Antihacker Hacker Club",
+   "event": "unclear / general Tindie listing dated 2023-06-22, likely DC31",
+   "type": "sao",
+   "url": "https://www.tindie.com/products/0xahhc/birds-arent-real-brosao/"
+  },
+  {
+   "title": "Summer Camp SAO Soldering Kit",
+   "maker": "Make it Hackin",
+   "type": "kit",
+   "url": "https://www.tindie.com/products/makeithackin/summer-camp-sao-soldering-kit/",
+   "event": "unclear - may overlap with existing dc33-hacker-summer-camp-sao-soldering-kit entry, worth a cross-check but not created here"
+  },
+  {
+   "title": "Badge Pirates SAO v2",
+   "maker": "BadgePirates",
+   "event": "general/pandemic-era (not con-specific)",
+   "type": "sao",
+   "url": "https://www.tindie.com/products/badgepirates/badge-pirates-sao-v2/"
+  },
+  {
+   "title": "SAO Holder - Mac version",
+   "maker": "BadgePirates",
+   "event": "general product",
+   "type": "accessory",
+   "url": "https://www.tindie.com/products/badgepirates/sao-holder-mac-version/"
+  },
+  {
+   "title": "BSidesKC 2025 badge",
+   "maker": "BadgePirates",
+   "event": "bsideskc (2025)",
+   "type": "badge",
+   "url": "https://blog.badgepirates.com/BSidesKC-Badge-Shipping-Update/"
+  },
+  {
+   "title": "CactusCon 13 / CactusCon 14 badge",
+   "maker": "BadgePirates",
+   "event": "cactuscon",
+   "type": "badge",
+   "url": "https://github.com/badgePiratesLLC"
+  },
+  {
+   "title": "\"BIC Pick\" SAO",
+   "maker": "Blacks in Cyber (BiC)",
+   "event": "dc33",
+   "type": "sao",
+   "url": ""
+  },
+  {
+   "title": "HiVolt badge",
+   "maker": "Bens Badges",
+   "event": "dc32",
+   "type": "badge",
+   "url": "https://www.bensbadges.com/store/p/hivolt-badge"
+  },
+  {
+   "title": "BIC Pick",
+   "maker": "Blacks in Cyber (BiC)",
+   "event": "dc33",
+   "type": "badge",
+   "url": "http://blacksincyberconf.com/badge"
+  },
+  {
+   "title": "Blacks In Cyber Village Badge",
+   "maker": "Blacks In Cyber Village",
+   "event": "dc33",
+   "type": "badge",
+   "url": "http://blacksincyberconf.com/badge"
+  },
+  {
+   "title": "Soul Glo SAO",
+   "maker": "BIC Village",
+   "event": "dc34",
+   "type": "sao",
+   "url": ""
+  },
+  {
+   "title": "Puzzle SAO",
+   "maker": "BlackGirlsHack",
+   "event": "dc31",
+   "type": "sao",
+   "url": ""
+  },
+  {
+   "title": "Camera Badge",
+   "maker": "Blue Team Village",
+   "event": "dc32",
+   "type": "badge",
+   "url": "https://camerabadge.blueteamvillage.org"
+  },
+  {
+   "title": "BTV Camera Badge",
+   "maker": "Blue Team Village",
+   "event": "dc34",
+   "type": "badge",
+   "url": "https://www.eventbrite.com/e/1995859982936"
+  },
+  {
+   "title": "Bug Bounty Village Badge (DC32/DC34)",
+   "maker": "Abhinav Panda / Hackerware.io",
+   "event": "dc32/dc34",
+   "type": "badge",
+   "url": "https://hackerware.io"
+  },
+  {
+   "title": "Magic Blue Ball",
+   "maker": "GhostGlitch",
+   "type": "sao",
+   "event": "unclear - GhostGlitch's earliest SAO, predates Blushy per their blog, likely an earlier DEF CON not yet in the archive",
+   "url": "https://ghostglitch.net/sao/magicball"
+  },
+  {
+   "title": "SAO Marquee",
+   "maker": "Brock (Infosec Exchange)",
+   "event": "dc31",
+   "type": "sao",
+   "url": "_badges/dc31/sao-marquee.md (existing entry, still unresearched)"
+  },
+  {
+   "title": "Brock (Infosec Exchange) (listed for DEF CON 32, no details)",
+   "maker": "Brock (Infosec Exchange)",
+   "event": "dc32",
+   "type": "unknown",
+   "url": "_badges/dc32/brock-infosec-exchange-listed-for-def-con-32-no-details.md (existing stub entry, same unresolved pattern, out of scope for this task)"
+  },
+  {
+   "title": "PCB \"Blinky\" Badges",
+   "maker": "Blacks in Cyber (BiC)",
+   "event": "dc33 (ongoing merch, not year-specific)",
+   "type": "badge",
+   "url": "https://blacksincyber.square.site/shop/badges/3"
+  },
+  {
+   "title": "Bug Bounty Village Badge (DEF CON 34 / 2026)",
+   "maker": "Abhinav SP / Hackerware.io",
+   "event": "dc34",
+   "type": "badge",
+   "url": "https://hackerware.io/bbv2026"
+  },
+  {
+   "title": "Cyber Circuitry (listed for DEF CON 32, no details)",
+   "maker": "Cyber Circuitry",
+   "event": "dc32",
+   "type": "existing archive entry, not newly discovered",
+   "url": "n/a - see dc32-cyber-circuitry-listed-for-def-con-32-no-details.md in this archive"
+  },
+  {
+   "title": "Prismatic Shard SAO for DC XXXI badge",
+   "maker": "Cyber Circuitry",
+   "event": "dc31",
+   "type": "existing archive entry (also unresearched stub) that documents this maker's actual known product",
+   "url": "https://www.cybercircuitry.com"
+  },
+  {
+   "title": "Cyber City Circuits (listed for DEF CON 32, no details)",
+   "maker": "Cyber City Circuits",
+   "event": "dc32",
+   "type": "existing stub entry, not researched this pass",
+   "url": "_badges/dc32/cyber-city-circuits-listed-for-def-con-32-no-details.md"
+  },
+  {
+   "title": "Society of Shenanigans Badge",
+   "maker": "CyDefe Labs LLC",
+   "event": "dc32",
+   "type": "badge",
+   "url": "already exists as archive entry _badges/dc32/society-of-shenanigans-badge.md (also a stub needing research, not touched)"
+  },
+  {
+   "title": "DC512 (listed for DEF CON 32, no details)",
+   "maker": "DC512",
+   "event": "dc32",
+   "type": "existing archive entry (same maker, same unresolved-listing pattern, different year)",
+   "url": ""
+  },
+  {
+   "title": "Scary Monster SAO??",
+   "maker": "DC512",
+   "event": "dc31",
+   "type": "existing archive entry \u2014 an actual DC512 SAO from a prior year, useful context/lead for future research on this maker",
+   "url": ""
+  },
+  {
+   "title": "DC32 Chakra Badge",
+   "maker": "DC540",
+   "event": "dc32",
+   "type": "badge",
+   "url": "https://github.com/DC540-Nova/DC32-Chakra-Badge"
+  },
+  {
+   "title": "DC30 Tarot Badge",
+   "maker": "DC540",
+   "event": "dc30",
+   "type": "badge",
+   "url": "https://github.com/DC540-Nova/DC30-Tarot-Badge"
+  },
+  {
+   "title": "EFF \"Electric Fist\" BadgeLife (DEF CON 34)",
+   "maker": "H4r0ld & V3rbaal's House Of Hacker Horrors",
+   "event": "dc34",
+   "type": "badge",
+   "url": "already present in archive as dc34-eff-electric-fist-badgelife-def-con-34; flagged only as context, not a new find"
+  },
+  {
+   "title": "Beelzebub Minibadge Holder",
+   "maker": "distinctm1nd",
+   "event": "already filed as dc34",
+   "type": "accessory",
+   "url": "https://ghoul.lol/products/beelzebub-minibadge-holder"
+  },
+  {
+   "title": "Krampus Minibadge Holder",
+   "maker": "distinctm1nd",
+   "event": "already filed as dc34",
+   "type": "accessory",
+   "url": "https://ghoul.lol/"
+  },
+  {
+   "title": "Day of the Dead Turkey v1 / v2",
+   "maker": "distinctm1nd",
+   "event": "already filed as dc34",
+   "type": "accessory/art board",
+   "url": "https://ghoul.lol/"
+  },
+  {
+   "title": "Night of the Evil AI Expansion Board",
+   "maker": "distinctm1nd",
+   "event": "unclear (possibly dc32, 2024) \u2014 no archive entry found for it",
+   "type": "expansion board/minibadge set",
+   "url": "https://github.com/distinctm1nd/night_evil_ai"
+  },
+  {
+   "title": "Beelzebub Art Board",
+   "maker": "distinctm1nd",
+   "event": "unclear year",
+   "type": "accessory",
+   "url": "https://ghoul.lol/"
+  },
+  {
+   "title": "2025 Utahtastic BSides Badge",
+   "maker": "distinctm1nd",
+   "event": "BSides Utah 2025 (not DEF CON)",
+   "type": "badge",
+   "url": "https://github.com/distinctm1nd/2025_utahtastic_bsides_badge"
+  },
+  {
+   "title": "SR-71",
+   "maker": "Lockheed Martin - Aeronautics Cyber Range (ACR)",
+   "event": "dc34",
+   "type": "badge",
+   "url": ""
+  },
+  {
+   "title": "Year 1 Coin",
+   "maker": "ZapN'Stuff",
+   "event": "dc33",
+   "type": "coin",
+   "url": "http://web.archive.org/web/20260314162949/http://dcmakerscommunity.com/page3.html"
+  },
+  {
+   "title": "Year One Coin",
+   "maker": "Aask",
+   "event": "dc33",
+   "type": "coin",
+   "url": "http://aask.ltd/"
+  },
+  {
+   "title": "SA-Faux",
+   "maker": "hunny",
+   "event": "dc33",
+   "type": "sao (joke name, unconfirmed)",
+   "url": "http://web.archive.org/web/20260314162949/http://dcmakerscommunity.com/page3.html"
+  },
+  {
+   "title": "Winter Hacker Fest Pin",
+   "maker": "KBEmbedded & hunny",
+   "event": "unknown",
+   "type": "enamel pin",
+   "url": "https://kbembedded.com/"
+  },
+  {
+   "title": "FightDystopia Party Badge",
+   "maker": "BigTaro's Badges",
+   "event": "dc33",
+   "url": "https://bigtaro.net/fd25",
+   "type": "already tracked as dc33-fightdystopia-party-badge"
+  },
+  {
+   "title": "DistrictCon Badge",
+   "maker": "BigTaro's Badges",
+   "event": "unknown",
+   "url": "https://bigtaro.net/discoone",
+   "type": "not found in existing_titles.txt - may need a new entry"
+  },
+  {
+   "title": "Gunslinger-B-Gone / Sheriff SAO",
+   "maker": "BigTaro's Badges",
+   "event": "dc33",
+   "url": "https://bigtaro.net/wwhfbadge25",
+   "type": "already tracked as dc33-gunslinger-b-gone-and-sheriff-sao"
+  },
+  {
+   "title": "Submarine Badge / Pirate Flag SAO",
+   "maker": "BigTaro's Badges",
+   "event": "dc33",
+   "url": "https://bigtaro.net/sub",
+   "type": "already tracked as dc33-submarine-badge-and-pirate-flag-sao"
+  },
+  {
+   "title": "Wordweaving Badge",
+   "maker": "BigTaro's Badges",
+   "event": "dc34",
+   "url": "https://bigtaro.net/wordweaving-badge",
+   "type": "already tracked as dc34-wordweaving-badge, listed as new for 2026"
+  },
+  {
+   "title": "Floridaman 2026",
+   "maker": "Floridaman",
+   "event": "dc34",
+   "type": "badge",
+   "url": "https://floridaman.party/"
+  },
+  {
+   "title": "The Party Badge",
+   "maker": "Florida Man",
+   "event": "dc31",
+   "type": "badge",
+   "url": "https://floridaman.party"
+  },
+  {
+   "title": "Florida Man (listed for DEF CON 32, no details)",
+   "maker": "Florida Man",
+   "event": "dc32",
+   "type": "unknown",
+   "url": ""
+  },
+  {
+   "title": "FightDystopia Party Badge",
+   "maker": "BigTaro's Badges",
+   "event": "dc33 (already has its own entry: dc33-fightdystopia-party-badge)",
+   "type": "badge",
+   "url": "https://bigtaro.net/fd25"
+  },
+  {
+   "title": "Frogstar Badge",
+   "maker": "BigTaro's Badges",
+   "event": "unclear which con (already has its own entry: dc33-frogstar-badge)",
+   "type": "badge",
+   "url": "https://bigtaro.net/frogstar25"
+  },
+  {
+   "title": "Submarine Badge and Pirate Flag SAO",
+   "maker": "BigTaro's Badges",
+   "event": "already has its own entry: dc33-submarine-badge-and-pirate-flag-sao",
+   "type": "badge",
+   "url": "https://bigtaro.net/sub"
+  },
+  {
+   "title": "Wordweaving Badge",
+   "maker": "BigTaro's Badges",
+   "event": "dc34, new for 2026 (already has its own entry: dc34-wordweaving-badge)",
+   "type": "badge",
+   "url": "https://bigtaro.net/wordweaving-badge"
+  },
+  {
+   "title": "DistrictCon badge (Year 1)",
+   "maker": "BigTaro's Badges",
+   "event": "DistrictCon Year 1, Jan 2026 - not a DEF CON badge, may be worth its own entry if the archive covers DistrictCon",
+   "type": "badge",
+   "url": "https://bigtaro.net/discoone"
+  },
+  {
+   "title": "Hacker Mindset Badge",
+   "maker": "Garrett / Hacker Warehouse",
+   "event": "dc31",
+   "type": "badge",
+   "url": "already an existing archive entry: dc31-hacker-mindset-badge, noted here only as background context, not created/modified"
+  },
+  {
+   "title": "The Big Badge Game",
+   "maker": "TheBadgES",
+   "event": "dc33",
+   "type": "other",
+   "url": "already present in archive as dc33-the-big-badge-game; no new entry needed"
+  },
+  {
+   "title": "KernalKrash (listed for DEF CON 32, no details)",
+   "maker": "KernalKrash",
+   "event": "dc32",
+   "type": "existing archive entry, not new \u2014 noted for context: same maker, same no-details pattern, id dc32-kernalkrash-listed-for-def-con-32-no-details",
+   "url": ""
+  },
+  {
+   "title": "Laser* Tag Badge DS",
+   "maker": "dani.pink (Dani Weidman)",
+   "event": "dc34",
+   "type": "badge",
+   "url": "https://www.dani.pink/lasertag"
+  },
+  {
+   "title": "SCP Badge",
+   "maker": "K4r4koyun",
+   "event": "dc30",
+   "type": "badge",
+   "url": "https://github.com/k4r4koyun/DEFCON-30-SCP-Badge"
+  },
+  {
+   "title": "MHV DC34 SAO: Pirate Radar!",
+   "maker": "Maritime Hacking Village",
+   "event": "dc34",
+   "type": "sao",
+   "url": "https://maritimehackingvillage.com/shop/p/pirate-radar"
+  },
+  {
+   "title": "Retro Tech DC33 Addon",
+   "maker": "trueControl",
+   "event": "dc33",
+   "type": "sao",
+   "url": "https://basic.truecontrol.org/dc33/retro-tech/"
+  },
+  {
+   "title": "3 Stones SAO",
+   "maker": "Untitled Electronics",
+   "event": "dc33",
+   "type": "sao",
+   "url": "https://untitledelec.com/products/defcon-33-indy-badge-the-neosword"
+  },
+  {
+   "title": "DEFCON Subreddit SAO",
+   "maker": "MetaN3rd",
+   "event": "dc31",
+   "type": "sao",
+   "url": "already an existing archive entry: dc31-defcon-subreddit-sao (pre-existing stub, not modified)"
+  },
+  {
+   "title": "DC31 (listed for DEF CON 32, no details)",
+   "maker": "DC31",
+   "event": "dc32",
+   "type": "existing archive stub",
+   "url": "local: _badges/dc32/listed-for-def-con-32-no-details.md"
+  },
+  {
+   "title": "Darth Sphinx(??)",
+   "maker": "Nerfhammer",
+   "event": "dc30",
+   "type": "badge",
+   "url": "already exists as dc30-darth-sphinx.md"
+  },
+  {
+   "title": "Nerfhammer (listed for DEF CON 31, no details)",
+   "maker": "Nerfhammer",
+   "event": "dc31",
+   "type": "unknown",
+   "url": "already exists as dc31-nerfhammer-listed-for-def-con-31-no-details.md"
+  },
+  {
+   "title": "Nerfhammer (listed for DEF CON 32, no details)",
+   "maker": "Nerfhammer",
+   "event": "dc32",
+   "type": "unknown",
+   "url": "already exists as dc32-nerfhammer-listed-for-def-con-32-no-details.md"
+  },
+  {
+   "title": "Darkstar Badge",
+   "maker": "Otter",
+   "event": "dc32",
+   "type": "badge",
+   "url": "https://x.com/security_otter"
+  },
+  {
+   "title": "420 Bud SAO",
+   "maker": "p0ns/idk",
+   "event": "dc32",
+   "type": "sao",
+   "url": ""
+  },
+  {
+   "title": "Battery SAO",
+   "maker": "p0ns/idk",
+   "event": "dc32",
+   "type": "sao",
+   "url": ""
+  },
+  {
+   "title": "Disappointing Badge",
+   "maker": "p0ns/idk",
+   "event": "dc32",
+   "type": "badge",
+   "url": "https://idk.bz"
+  },
+  {
+   "title": "IDK SAO",
+   "maker": "p0ns/idk",
+   "event": "dc32",
+   "type": "sao",
+   "url": "https://idk.bz/idksao/"
+  },
+  {
+   "title": "The Duck Badge",
+   "maker": "Red String Studio x The Crow & Pigeon",
+   "event": "dc32",
+   "type": "badge",
+   "url": "/home/hoid/Desktop/badgelife-archive/_badges/dc32/the-duck-badge.md (already an existing archive entry, not created by this task; found via existing_titles.txt grep and used as research context)"
+  },
+  {
+   "title": "Red Team Village Badge",
+   "maker": "Red Team Village",
+   "event": "dc30",
+   "type": "badge",
+   "url": ""
+  },
+  {
+   "title": "DC31 RTV \"Pip-Boy\"",
+   "maker": "Red Team Village",
+   "event": "dc31",
+   "type": "badge",
+   "url": ""
+  },
+  {
+   "title": "RTV D20",
+   "maker": "Red Team Village",
+   "event": "dc34",
+   "type": "badge",
+   "url": ""
+  },
+  {
+   "title": "SmartAO SAO",
+   "maker": "Coruscant Ventures",
+   "event": "dc33",
+   "type": "sao",
+   "url": "https://coruscantventures.com/defcon-badges/p/smartao-sao"
+  },
+  {
+   "title": "SmartAO SAO",
+   "maker": "Coruscant Ventures",
+   "event": "dc33",
+   "type": "sao",
+   "url": "https://coruscantventures.com/defcon-badges/p/smartao-sao"
+  },
+  {
+   "title": "Gunslinger-B-Gone and Sheriff SAO",
+   "maker": "BigTaro's Badges",
+   "event": "dc33",
+   "type": "cross-reference only, already has its own archive entry (dc33-gunslinger-b-gone-and-sheriff-sao); mentioned as interoperable with the submarine badge",
+   "url": "https://bigtaro.net/sub"
+  },
+  {
+   "title": "Shitty Kitty (V1)",
+   "maker": "Uberfoo Heavy Industries",
+   "event": "unknown (2021 launch, likely DC29)",
+   "type": "badge",
+   "url": "https://uberfoo.net"
+  },
+  {
+   "title": "Shitty Kitty V2",
+   "maker": "Uberfoo Heavy Industries",
+   "event": "dc34",
+   "type": "badge",
+   "url": ""
+  },
+  {
+   "title": "UberBox Badge",
+   "maker": "Uberfoo Heavy Industries",
+   "event": "dc32",
+   "type": "badge",
+   "url": ""
+  },
+  {
+   "title": "Space Pony SAO",
+   "maker": "Space Bits 'R Us",
+   "event": "dc31",
+   "type": "sao",
+   "url": "https://www.youtube.com/watch?v=0cRPfB8QzD0&t=6s"
+  },
+  {
+   "title": "Mad Hatter Auto Revelator",
+   "maker": "The Mad Hatters",
+   "event": "dc32",
+   "type": "badge",
+   "url": "https://madhatters.lol"
+  },
+  {
+   "title": "Madragrammaton SAO",
+   "maker": "The Mad Hatters",
+   "event": "dc32",
+   "type": "sao",
+   "url": "https://madhatters.lol"
+  },
+  {
+   "title": "EZ Puzzle Blinky Badge",
+   "maker": "T9ck",
+   "event": "dc32",
+   "type": "badge",
+   "url": ""
+  },
+  {
+   "title": "BugZee",
+   "maker": "Abhinav Pandagale / Hackerware.io",
+   "event": "DEF CON China (Soldering Village)",
+   "type": "kit",
+   "url": "https://www.hackerware.io/"
+  },
+  {
+   "title": "Dragon Badge",
+   "maker": "Abhinav Pandagale / Hackerware.io",
+   "event": "SINCON SG 2025",
+   "type": "badge",
+   "url": "https://astikrawat.medium.com/sincon-sg-2025-ctf-walkthrough-of-dragon-badge-by-hackerware-io-1efb31322f10"
+  },
+  {
+   "title": "Bug Bounty Village Badge (OLED + programmable RGB)",
+   "maker": "Abhinav Pandagale / Hackerware.io",
+   "event": "unspecified (possibly DC33 Bug Bounty Village)",
+   "type": "badge",
+   "url": "https://www.hackerware.io/"
+  },
+  {
+   "title": "Prophet AI Badge",
+   "maker": "Abhinav Pandagale / Hackerware.io",
+   "event": "unspecified",
+   "type": "badge",
+   "url": "https://www.hackerware.io/"
+  },
+  {
+   "title": "The F5 Badge",
+   "maker": "Abhinav Pandagale / Hackerware.io",
+   "event": "unspecified",
+   "type": "badge",
+   "url": "https://www.hackerware.io/"
+  },
+  {
+   "title": "BSides Adelaide Badge",
+   "maker": "Abhinav Pandagale / Hackerware.io",
+   "event": "BSides Adelaide",
+   "type": "badge",
+   "url": "https://www.hackerware.io/"
+  },
+  {
+   "title": "Limited Edition Bug Bounty Village Badge (green Matrix-code-rain variant)",
+   "maker": "unspecified",
+   "event": "DC33 preorder",
+   "type": "badge",
+   "url": "https://forum.defcon.org/node/253153"
+  },
+  {
+   "title": "Original Series Tricorder badge",
+   "maker": "MakeItHackin",
+   "event": "dc34",
+   "type": "badge",
+   "url": "https://www.hackster.io/iwantmyspace2002/star-trek-s-tricorder-f8b53a"
+  },
+  {
+   "title": "VetCON Badge",
+   "maker": "ThreatHunter.ai / VetCON",
+   "event": "dc31",
+   "type": "badge",
+   "url": "already exists in archive as dc31-vetcon-badge"
+  },
+  {
+   "title": "Red Tape Badge (and damn does the military have a bunch of this)",
+   "maker": "VetCON",
+   "event": "dc32",
+   "type": "badge",
+   "url": "already exists in archive as dc32-red-tape-badge-and-damn-does-the-military-have-a-bunch-of-th"
+  },
+  {
+   "title": "Metropolis AI SAO",
+   "maker": "coryallegory",
+   "event": "dc34",
+   "type": "sao",
+   "url": "https://www.tindie.com/stores/coryallegory/"
+  },
+  {
+   "title": "Viber Coder Dog SAO",
+   "maker": "coryallegory",
+   "event": "dc34",
+   "type": "sao",
+   "url": "https://www.tindie.com/stores/coryallegory/"
+  },
+  {
+   "title": "Tor mini-badge / lie-detector series (Seeess) \u2014 no DC33 successor found",
+   "maker": "Seeess",
+   "event": "dc33",
+   "type": "sao",
+   "url": "https://github.com/seeess"
+  },
+  {
+   "title": "Speedometer SAO (not a cat)",
+   "maker": "Uberwoozle",
+   "event": "dc32",
+   "type": "sao",
+   "url": "https://www.carhackingvillage.com"
+  },
+  {
+   "title": "DC33 Aerospace Village ADSB Badge",
+   "maker": "Rare Circuits",
+   "event": "dc33",
+   "type": "badge",
+   "url": "https://www.aerospacevillage.org/dc33-badge",
+   "note": "already exists in archive as dc33-aerospace-village-adsb-badge per existing_titles.txt; no action needed"
+  },
+  {
+   "title": "Winnebago SAO / Drone SAO (Aerospace Village)",
+   "maker": "Aerospace Village",
+   "event": "dc32",
+   "type": "sao",
+   "url": "https://www.aerospacevillage.org/dc32-badge",
+   "note": "mentioned as separate SAOs sold alongside the DC32 badge; not confirmed to have their own archive entry, worth checking"
+  },
+  {
+   "title": "Boris the Spider Antenna kit",
+   "maker": "Airframes.io",
+   "event": "dc32",
+   "type": "kit",
+   "url": "https://www.aerospacevillage.org/dc32-badge",
+   "note": "an ADS-B antenna kit sold at Aerospace Village DC32; distinct maker (Airframes.io), may deserve its own entry"
+  },
+  {
+   "title": "Galactic Power Badge Kit",
+   "maker": "HackerBoxes",
+   "event": "dc32",
+   "type": "badge",
+   "url": "https://www.instructables.com/HackerBox-0104-Engage/#step6"
+  },
+  {
+   "title": "Tie-Dye BitHead SAO",
+   "maker": "HackerBoxes",
+   "event": "dc32",
+   "type": "sao",
+   "url": "https://www.instructables.com/HackerBox-0104-Engage/#step7"
+  },
+  {
+   "title": "Phreakin' Clowns SAO",
+   "maker": "HackerBoxes",
+   "event": "dc32",
+   "type": "sao",
+   "url": "https://www.instructables.com/HackerBox-0104-Engage/#step7"
+  },
+  {
+   "title": "All Your Base SAO",
+   "maker": "HackerBoxes",
+   "event": "dc32",
+   "type": "sao",
+   "url": "https://www.instructables.com/HackerBox-0104-Engage/#step7"
+  },
+  {
+   "title": "HighRollerCon Duck SAO",
+   "maker": "Cyber Swamplords",
+   "event": "dc32",
+   "type": "sao",
+   "url": "https://www.instructables.com/HackerBox-0104-Engage/#step8"
+  },
+  {
+   "title": "The Arcanum Gospel Badge",
+   "maker": "Abhinav Panda/Hackerware.io",
+   "event": "dc33",
+   "type": "badge",
+   "url": "https://www.hackster.io/HacksFromPanda/the-arcanum-gospel-badge-f8c3b0"
+  },
+  {
+   "title": "SAO Totem-Sword_v2",
+   "maker": "BadgePirates",
+   "event": "",
+   "type": "sao holder/accessory",
+   "url": "https://www.tindie.com/products/badgepirates/sao-totem-sword_v2/"
+  },
+  {
+   "title": "CactusCon 14 badge",
+   "maker": "BadgePirates",
+   "event": "cactuscon14",
+   "type": "badge",
+   "url": "https://github.com/badgePiratesLLC"
+  },
+  {
+   "title": "The Birds are not Real (broSAO)",
+   "maker": "Antihacker Hacker Club",
+   "type": "sao",
+   "event": "dc31",
+   "url": "https://www.tindie.com/products/0xahhc/birds-arent-real-brosao/"
+  },
+  {
+   "title": "TRON Badge / Ironwood Cyber Tron Badge",
+   "maker": "Ironwood Cyber",
+   "event": "dc30",
+   "type": "badge",
+   "url": "already archived as dc30-tron-badge / dc30-ironwood-cyber-tron-badge, no action needed"
+  },
+  {
+   "title": "Arc Reactor Badge Mark II / Ironwood Cyber Reactor Badge",
+   "maker": "Ironwood Cyber",
+   "event": "dc31",
+   "type": "badge",
+   "url": "already archived as dc31-arc-reactor-badge-mark-ii / dc31-ironwood-cyber-reactor-badge, no action needed"
+  },
+  {
+   "title": "Puzzle SAO",
+   "maker": "BlackGirlsHack",
+   "event": "dc31",
+   "type": "sao",
+   "url": "local entry: _badges/dc31/puzzle-sao.md (id dc31-puzzle-sao) \u2014 already exists in the archive as an unresearched stub, $25, sold with a companion 'Blinky Badge' and a surprise 'Mystery Badge' at DC31 (2023); confirms BlackGirlsHack has made physical SAOs in other years, just not (as far as found) at DC32"
+  },
+  {
+   "title": "Standard Art Badge",
+   "maker": "GothCon",
+   "event": "dc32",
+   "type": "badge",
+   "url": "https://gothconbadge.myshopify.com/"
+  },
+  {
+   "title": "Limited Edition Bug Bounty Village Badge (DC33)",
+   "maker": "Bug Bounty Village / Abhinav SP - Hackerware.io",
+   "event": "dc33",
+   "type": "badge",
+   "url": "https://forum.defcon.org/node/253153"
+  },
+  {
+   "title": "Bug Bounty Village 2025 Badge",
+   "maker": "Abhinav SP / Hackerware.io",
+   "event": "dc33 (2025)",
+   "type": "badge",
+   "url": "https://www.hackster.io/HacksFromPanda/bug-bounty-village-2025-badge-e1fe09"
+  },
+  {
+   "title": "SAO Marquee",
+   "maker": "Brock (Infosec Exchange)",
+   "event": "dc31",
+   "type": "sao",
+   "url": "https://twitter.com/INIT_6_"
+  },
+  {
+   "title": "Interactive SAO for DC32 Badge",
+   "maker": "MakeItHackin",
+   "event": "dc32",
+   "type": "sao",
+   "url": "https://www.tindie.com/products/makeithackin/interactive-sao-for-dc32-badge/"
+  },
+  {
+   "title": "DEFCON Furs Badge (DC32)",
+   "maker": "defconfurs",
+   "event": "dc32",
+   "type": "badge",
+   "url": "https://github.com/defconfurs/dcfurs-badge-dc32"
+  },
+  {
+   "title": "Aerospace Village Badge 2024 (ADS-B receiver badge)",
+   "maker": "Aerospace Village",
+   "event": "dc32",
+   "type": "badge",
+   "url": "https://github.com/AerospaceVillage/avBadge_2024"
+  },
+  {
+   "title": "Secure A.S.S. Badge",
+   "maker": "Blametheotherkyle",
+   "event": "dc31",
+   "type": "badge",
+   "url": ""
+  },
+  {
+   "title": "D3cad3 Count3r SAO",
+   "maker": "Blametheotherkyle",
+   "event": "dc32",
+   "type": "sao",
+   "url": ""
+  },
+  {
+   "title": "DIY Cicada Badge",
+   "maker": "Hak4Kidz",
+   "event": "dc32",
+   "type": "likely duplicate entry",
+   "url": "_badges/dc32/diy-cicada-badge.md"
+  },
+  {
+   "title": "SGC Aerospace Corporation",
+   "maker": "California Cyber Institute CalPoly SLO",
+   "event": "dc31",
+   "type": "badge",
+   "url": "https://github.com/cal-poly-cci/SGC-2023-Badge-Aerospacecorp"
+  },
+  {
+   "title": "mini_wardriver_rev2 (KiCad files, repo empty, created March 2024)",
+   "maker": "CoD_Segfault / CoD-Segfault",
+   "event": "unclear -- possibly dc32 but unconfirmed",
+   "type": "unknown/possibly wardriving hardware",
+   "url": "https://github.com/CoD-Segfault/mini_wardriver_rev2"
+  },
+  {
+   "title": "I have no idea",
+   "maker": "CoD_Segfault",
+   "event": "dc31",
+   "type": "existing stub entry, same maker, also unresearched (out of scope for this task)",
+   "url": "n/a - see /home/hoid/Desktop/badgelife-archive/_badges/dc31/i-have-no-idea.md"
+  },
+  {
+   "title": "WiFi Shuriken",
+   "maker": "CoD_Segfault / CoD-Segfault",
+   "event": "not DC32 (repo created 2026, well after DC32)",
+   "type": "distributed WiFi wardriving/scanning hardware system (RP2350 controller + ESP32-C5 scanners)",
+   "url": "https://github.com/CoD-Segfault/wifi-shuriken"
+  },
+  {
+   "title": "Prismatic Shard SAO for DC XXXI badge",
+   "maker": "Cyber Circuitry",
+   "event": "dc31",
+   "type": "sao",
+   "url": "https://www.cybercircuitry.com"
+  },
+  {
+   "title": "CHV DC31 badge / CAN-SAO spec (predecessor)",
+   "maker": "Car Hacking Village (linted / Mike Merrill)",
+   "event": "dc31",
+   "type": "badge/spec",
+   "url": "https://github.com/linted/CHV_badge_board"
+  },
+  {
+   "title": "Mass Relay Badge (Sorry, The Council denied permission)",
+   "maker": "DCEnterprise",
+   "event": "dc31",
+   "type": "badge",
+   "url": "already exists in archive as _badges/dc31/mass-relay-badge-sorry-the-council-denied-permission.md; noted here only because its notes suggest a DC32 repeat attempt, not reported as a new item"
+  },
+  {
+   "title": "IDK NFC badge",
+   "maker": "p0ns/idk",
+   "event": "unknown (not DC32 -- dated May 2025)",
+   "type": "badge",
+   "url": "https://idk.bz/idk-nfc/"
+  },
+  {
+   "title": "micropython-dc32 (unnamed badge/firmware project)",
+   "maker": "p0ns",
+   "event": "dc32",
+   "type": "unknown",
+   "url": "https://github.com/p0ns/micropython-dc32"
+  },
+  {
+   "title": "DCZia Electric Sampler",
+   "maker": "DCZIA",
+   "event": "dc31",
+   "type": "badge",
+   "url": "https://github.com/dczia/Defcon31-Badge"
+  },
+  {
+   "title": "DCZia Zippy Badge (Zip Disk)",
+   "maker": "DCZIA",
+   "event": "dc33",
+   "type": "badge",
+   "url": "https://github.com/dczia/zippy-badge"
+  },
+  {
+   "title": "DCZia MK9 Badge",
+   "maker": "DCZIA",
+   "event": "dc34",
+   "type": "badge",
+   "url": "https://github.com/dczia/mk9-badge"
+  },
+  {
+   "title": "DCZia 30-in-1 Badge",
+   "maker": "DCZIA",
+   "event": "unknown (2022, DEF CON per site)",
+   "type": "kit",
+   "url": "https://github.com/dczia/thirtyinone"
+  },
+  {
+   "title": "Scary Monster SAO??",
+   "maker": "DC512",
+   "event": "dc31",
+   "type": "sao",
+   "url": "already an existing archive entry: _badges/dc31/scary-monster-sao.md (also unresearched/stub \u2014 flagging only because it's the same maker and may be worth researching for cross-reference, not a new find)"
+  },
+  {
+   "title": "2024 Christmas Ornament - Sara and the Christmas Maze",
+   "maker": "Brad\u00e1n Lane",
+   "event": "n/a (Christmas 2024, not a con badge)",
+   "type": "coin/ornament",
+   "url": "https://aosc.cc/bauble2024.php"
+  },
+  {
+   "title": "2025 eChallengeCoin - Sara and the Jefferson Notebook",
+   "maker": "Brad\u00e1n Lane",
+   "event": "2025 (unclear which con, if any)",
+   "type": "badge",
+   "url": "https://aosc.cc/eccn2025.php"
+  },
+  {
+   "title": "2026 eChallengeCoin - Sara and the Missing Artifacts",
+   "maker": "Brad\u00e1n Lane",
+   "event": "2026 (unclear which con, if any)",
+   "type": "badge",
+   "url": "https://aosc.cc/eccn2026.php"
+  },
+  {
+   "title": "Pocket Enigma",
+   "maker": "Brad\u00e1n Lane",
+   "event": "unknown",
+   "type": "device",
+   "url": "https://aosc.cc/enigma.php"
+  },
+  {
+   "title": "Cyber Clippy Badge",
+   "maker": "El Jefe de Security",
+   "event": "dc30",
+   "type": "badge",
+   "url": ""
+  },
+  {
+   "title": "El CiberBrujo Shitty Add-on",
+   "maker": "El Jefe de Security",
+   "event": "dc31",
+   "type": "sao",
+   "url": ""
+  },
+  {
+   "title": "FLARE RACCOON PURPL3HAT Badge",
+   "maker": "Abhinav SP - Hackerware.io",
+   "event": "dc33",
+   "type": "badge (already has its own entry, previously researched)"
+  },
+  {
+   "title": "Flare Blinky Badge / Flare CTF Badge",
+   "maker": "Abhinav Panda / Hackerware.io",
+   "event": "dc34",
+   "type": "badge (already has its own entries; the Flare CTF Badge entry appears to correspond to the live page at hackerware.io/flare - a laser-cut acrylic skeleton badge with 5 letter LEDs and a Nuvoton MCU, dated 2026 on the maker's own site - useful context for whoever researches that entry)"
+  },
+  {
+   "title": "Hacker Mindset Badge",
+   "maker": "Garrett / Hacker Warehouse",
+   "event": "dc31 (already catalogued as dc31-hacker-mindset-badge)",
+   "type": "badge",
+   "url": "https://hackerwarehouse.com/product/hacker-mindset-badge/"
+  },
+  {
+   "title": "Cicada Invada DIY Kit",
+   "maker": "Hacker Warehouse (Hak4Kidz)",
+   "event": "unclear \u2014 likely 2023 charity/soldering-learning kit, not tied to a specific DEF CON year in sources found",
+   "type": "kit",
+   "url": "https://hackerwarehouse.com/product/cicada-invada-diy-kit/"
+  },
+  {
+   "title": "Godzilla vs. Blade Runner (3kbadge)",
+   "maker": "Alt_Bier",
+   "event": "dc2021/3000 Society 2021",
+   "type": "badge",
+   "url": "https://3kbadge.altbier.us/"
+  },
+  {
+   "title": "3d6 Badge",
+   "maker": "Alt_Bier",
+   "event": "3000 Society / DEF CON 2021",
+   "type": "badge",
+   "url": "https://3d6badge.altbier.us/"
+  },
+  {
+   "title": "Astable Badge",
+   "maker": "Alt_Bier",
+   "event": "BSidesDFW 2021",
+   "type": "badge",
+   "url": "https://astablebadge.altbier.us/"
+  },
+  {
+   "title": "LHC Meshtastic Badge",
+   "maker": "Lonely Hackers Club",
+   "event": "dc33",
+   "type": "badge",
+   "url": "https://lonelyhackers.club/badge/"
+  },
+  {
+   "title": "Jigglebilly",
+   "maker": "Shenanigans-R-Us",
+   "event": "dc32",
+   "type": "badge, already has its own entry (dc32-jigglebilly)"
+  },
+  {
+   "title": "Keanu is my homeboy v2",
+   "maker": "Shenanigans-R-Us",
+   "event": "dc32",
+   "type": "badge, already has its own entry (dc32-keanu-is-my-homeboy-v2)"
+  },
+  {
+   "title": "Tootsie Pop",
+   "maker": "Shenanigans-R-Us",
+   "event": "dc32",
+   "type": "badge, already has its own entry (dc32-tootsie-pop)"
+  },
+  {
+   "title": "Weiner",
+   "maker": "Shenanigans-R-Us",
+   "event": "dc32",
+   "type": "badge, already has its own entry (dc32-weiner)"
+  },
+  {
+   "title": "GrrCon 0xA 10th Anniversary Skull",
+   "maker": "GrrCON (designed by Hak4Kids)",
+   "event": "dc30",
+   "type": "badge",
+   "url": ""
+  },
+  {
+   "title": "DEFCON32_FREEWiLi",
+   "maker": "FreeWili",
+   "event": "dc32",
+   "type": "badge (firmware re-flash for the official DEF CON 32 conference badge, distinct product from the same maker)",
+   "url": "https://web.archive.org/web/20241014122935/https://freewili.com/products/defcon32-badge/"
+  },
+  {
+   "title": "I'm in my Defcon era",
+   "maker": "Shenanigans-R-Us",
+   "event": "dc32",
+   "type": "unknown - noted only because it already has a stub entry dc32-i-m-in-my-defcon-era, flagging as unresearched by same maker"
+  },
+  {
+   "title": "Keanu is my homeboy v2",
+   "maker": "Shenanigans-R-Us",
+   "event": "dc32",
+   "type": "unknown - existing stub entry dc32-keanu-is-my-homeboy-v2"
+  },
+  {
+   "title": "Tootsie Pop",
+   "maker": "Shenanigans-R-Us",
+   "event": "dc32",
+   "type": "unknown - existing stub entry dc32-tootsie-pop"
+  },
+  {
+   "title": "Weiner",
+   "maker": "Shenanigans-R-Us",
+   "event": "dc32",
+   "type": "unknown - existing stub entry dc32-weiner"
+  },
+  {
+   "title": "CHV Main Badge (already has its own entry: dc32-chv-main-badge)",
+   "maker": "Car Hacking Village",
+   "event": "dc32",
+   "type": "badge",
+   "url": "http://web.archive.org/web/20240811090612/https://www.carhackingvillage.com/"
+  },
+  {
+   "title": "Speedometer SAO (check for existing entry)",
+   "maker": "Car Hacking Village",
+   "event": "dc32",
+   "type": "sao",
+   "url": "http://web.archive.org/web/20240811090612/https://www.carhackingvillage.com/"
+  },
+  {
+   "title": "PRND SAO (already has its own entry: dc32-prnd-sao)",
+   "maker": "Car Hacking Village",
+   "event": "dc32",
+   "type": "sao",
+   "url": "http://web.archive.org/web/20240811090612/https://www.carhackingvillage.com/"
+  },
+  {
+   "title": "CHV Kids Badge",
+   "maker": "Car Hacking Village",
+   "event": "dc32",
+   "type": "badge",
+   "url": "http://web.archive.org/web/20240811090612/https://www.carhackingvillage.com/"
+  },
+  {
+   "title": "DC32 Engage (sticker/item, unidentified)",
+   "maker": "Make it Hackin",
+   "event": "dc32",
+   "type": "unknown",
+   "url": ""
+  },
+  {
+   "title": "MF Doom SAO v2",
+   "maker": "Rex",
+   "event": "dc34",
+   "type": "sao",
+   "url": "https://www.reddit.com/r/Defcon/comments/1ua4tk5/mf_doom_sao_v2/"
+  },
+  {
+   "title": "DEFCON Subreddit SAO",
+   "maker": "MetaN3rd",
+   "event": "dc31",
+   "type": "sao",
+   "url": "https://t.co/VkfMhE1Ifm"
+  },
+  {
+   "title": "JollyBadge V2 - The Final Batch",
+   "maker": "JollyBadge",
+   "event": "dc33 (2025, per the maker's own site copy)",
+   "type": "badge",
+   "url": "https://www.getjollybadge.com/"
+  },
+  {
+   "title": "G0dzilla VS Badge",
+   "maker": "alt_bier",
+   "event": "dc32",
+   "type": "badge",
+   "url": "https://g0dzilla.altbier.us/"
+  },
+  {
+   "title": "Darth Sphinx(??)",
+   "maker": "Nerfhammer",
+   "event": "dc30",
+   "type": "badge (unconfirmed)",
+   "url": ""
+  },
+  {
+   "title": "Nerfhammer (listed for DEF CON 31, no details)",
+   "maker": "Nerfhammer",
+   "event": "dc31",
+   "type": "unknown",
+   "url": ""
+  },
+  {
+   "title": "Retro Tech Community Addon",
+   "maker": "Whiskey Pirate Crew (not badgelife)",
+   "event": "dc32",
+   "type": "sao",
+   "url": "https://basic.truecontrol.org/database/dc32/retro-tech/"
+  },
+  {
+   "title": "Non-electronic. Badass Skeleton. badge (Skreech)",
+   "maker": "Reloadrtr",
+   "event": "dc31",
+   "type": "badge",
+   "url": ""
+  },
+  {
+   "title": "Cyber City Circuits (listed for DEF CON 32, no details)",
+   "maker": "Cyber City Circuits",
+   "event": "dc32",
+   "type": "special-case entry, likely duplicate",
+   "url": "https://www.se.community/2024-sec-phone-badge/"
+  },
+  {
+   "title": "SEC DTMF Phone badge",
+   "maker": "Social Engineering Community",
+   "event": "dc32",
+   "type": "badge",
+   "url": "https://www.se.community/"
+  },
+  {
+   "title": "Space Pony SAO",
+   "maker": "Space Bits 'R Us",
+   "event": "dc31",
+   "type": "sao",
+   "url": "https://github.com/scottalmond/defcon_31"
+  },
+  {
+   "title": "Peppy \"Kitty\" SAO",
+   "maker": "Th0m4s",
+   "event": "dc31",
+   "type": "sao",
+   "url": "already exists in archive as dc31-peppy-kitty-sao (also a stub needing research; may be same/related item worth cross-checking against DC32 sheet row 106 in a future pass)"
+  },
+  {
+   "title": "The Diana Initiative (listed for DEF CON 32, no details)",
+   "maker": "The Diana Initiative",
+   "event": "dc32",
+   "type": "unknown/possible duplicate",
+   "url": ""
+  },
+  {
+   "title": "Ticket add-on for the Diana Initiative",
+   "maker": "Diana Initiative/Chris aka TechgirlMN",
+   "event": "dc32",
+   "type": "sao",
+   "url": "https://dianainitiative.org"
+  },
+  {
+   "title": "TOR Lie Detector Badge (DC29 version)",
+   "maker": "Seeess",
+   "event": "dc29",
+   "type": "sao",
+   "url": "https://github.com/stevemats/lie_detector_badge"
+  },
+  {
+   "title": "TOR Mini Badge",
+   "maker": "Seeess",
+   "event": "dc32",
+   "type": "badge/sao",
+   "url": "https://github.com/seeess/Defcon-Tor-32"
+  },
+  {
+   "title": "Arch Linux SAO",
+   "maker": "Alee (Tindie: alee97422)",
+   "type": "sao",
+   "event": "not on any sheet; sold individually on Tindie mid-2024",
+   "url": "https://www.tindie.com/products/alee97422/arch-linux-sao/"
+  },
+  {
+   "title": "Ubuntu SAO",
+   "maker": "Alee (Tindie: alee97422)",
+   "type": "sao",
+   "event": "not on any sheet; sold individually on Tindie mid-2024",
+   "url": "https://www.tindie.com/products/alee97422/ubuntu-sao/"
+  },
+  {
+   "title": "Docker Container SAO",
+   "maker": "Alee (Tindie: alee97422)",
+   "type": "sao",
+   "event": "not on any sheet; sold individually on Tindie mid-2024",
+   "url": "https://www.tindie.com/products/alee97422/docker-containter-sao/"
+  },
+  {
+   "title": "Rocket SAO v1.1",
+   "maker": "Alee (Tindie: alee97422)",
+   "type": "sao",
+   "event": "not on any sheet; sold on Tindie late 2024",
+   "url": "https://www.tindie.com/products/alee97422/rocket-sao-v11/"
+  },
+  {
+   "title": "PCB Keychain Unicorn",
+   "maker": "Alee (Tindie: alee97422)",
+   "type": "accessory",
+   "event": "not on any sheet; sold on Tindie mid-2024",
+   "url": "https://www.tindie.com/products/alee97422/pcb-keychain-unicorn/"
+  },
+  {
+   "title": "Cowboy SAO",
+   "maker": "Alee (Tindie: alee97422)",
+   "type": "sao",
+   "event": "not on any sheet; sold on Tindie late 2024",
+   "url": "https://www.tindie.com/products/alee97422/cowboy-sao/"
+  },
+  {
+   "title": "Hackbutt V3 (wifi testing badge)",
+   "maker": "C0ldbru (Rot13 labs)",
+   "event": "dc31",
+   "type": "badge",
+   "url": "https://rot13labs.com"
+  },
+  {
+   "title": "Duckbutt SAO",
+   "maker": "C0ldbru (Rot13 labs)",
+   "event": "unclear from rot13labs.com portfolio (year not stated there; a dc32-veillid-sao and dc30-dickbutt-sao already exist in the archive for this maker, but Duckbutt appears distinct)",
+   "type": "sao",
+   "url": "https://rot13labs.com"
+  },
+  {
+   "title": "Missingno Badge",
+   "maker": "C0ldbru (Rot13 labs)",
+   "event": "unclear from rot13labs.com portfolio",
+   "type": "badge",
+   "url": "https://rot13labs.com"
+  },
+  {
+   "title": "Rumor says they have one",
+   "maker": "Whiskey Pirate Crew",
+   "event": "dc30",
+   "type": "sao",
+   "url": ""
+  },
+  {
+   "title": "Flames",
+   "maker": "Whiskey Pirate Crew",
+   "event": "dc32",
+   "type": "sao",
+   "url": ""
+  },
+  {
+   "title": "Infinite WiFi Portal",
+   "maker": "Whiskey Pirate Crew",
+   "event": "dc32",
+   "type": "sao",
+   "url": ""
+  },
+  {
+   "title": "PepperCon9",
+   "maker": "Whiskey Pirate Crew",
+   "event": "dc32",
+   "type": "sao",
+   "url": ""
+  },
+  {
+   "title": "What the Freq??",
+   "maker": "Wireless Village",
+   "event": "dc31",
+   "type": "unknown (unresearched stub, same maker, prior year -- not a duplicate of this DC32 entry)",
+   "url": ""
+  },
+  {
+   "title": "Mini Acrylic Sign Addon",
+   "maker": "trueControl (true)",
+   "event": "dc30",
+   "type": "sao",
+   "url": "https://basic.truecontrol.org/database/dc30/mini-acrylic-sign/"
+  },
+  {
+   "title": "RGB Addon Addon for DC31 Badge (true's Addon Addon)",
+   "maker": "trueControl (true)",
+   "event": "dc31",
+   "type": "sao",
+   "url": "https://basic.truecontrol.org/database/dc31/addon-addon/"
+  },
+  {
+   "title": "Pirate Puzzle Badge",
+   "maker": "trueControl (true) / Whiskey Pirates",
+   "event": "dc31",
+   "type": "badge",
+   "url": "https://basic.truecontrol.org/database/dc31/pirate-puzzle-badge/"
+  },
+  {
+   "title": "Badge #2",
+   "maker": "Blacks in Cyber (BiC)",
+   "event": "dc31",
+   "type": "badge",
+   "url": ""
+  },
+  {
+   "title": "EFF Certbot SAO",
+   "maker": "EFF",
+   "event": "dc31",
+   "type": "sao",
+   "url": "https://t.co/5oUTyTLm1A"
+  },
+  {
+   "title": "DC27-SAO",
+   "maker": "DC404",
+   "type": "sao",
+   "event": "dc27",
+   "url": "https://github.com/orgs/DC404/repositories"
+  },
+  {
+   "title": "BioHacking Village Badge (earlier, undated)",
+   "maker": "BadgePirates",
+   "event": "unknown - shown in BadgePirates' portfolio as predating the DC31 version, possibly DC30-era (a separate 'BiohackVillage_DC30' repo also exists in their GitHub org)",
+   "type": "badge",
+   "url": "https://badgepirates.com"
+  },
+  {
+   "title": "DEF CON / SecKC 26 Badge",
+   "maker": "BadgePirates",
+   "event": "dc26",
+   "type": "badge",
+   "url": "https://badgepirates.com"
+  },
+  {
+   "title": "DEF CON / SecKC 27 Badge",
+   "maker": "BadgePirates",
+   "event": "dc27",
+   "type": "badge",
+   "url": "https://badgepirates.com"
+  },
+  {
+   "title": "DEF CON / SecKC 25 Badge (hand-airbrushed, BadgePirates' first badge)",
+   "maker": "BadgePirates",
+   "event": "dc25",
+   "type": "badge",
+   "url": "https://badgepirates.com"
+  },
+  {
+   "title": "3-2-1 Badge",
+   "maker": "Ekho",
+   "event": "dc30",
+   "type": "badge",
+   "url": "https://t.co/qSVckVcM7Y (dead redirect to non-resolving www.ekhobadge.sbs)"
+  },
+  {
+   "title": "EFF \"Privacy Badger\" BadgeLife (DEF CON 32 Rerun)",
+   "maker": "H4r0ld & V3rbaal's House Of Hacker Horrors",
+   "event": "dc34",
+   "type": "badge",
+   "url": ""
+  },
+  {
+   "title": "30-in-One Badge",
+   "maker": "DC Zia",
+   "event": "dc30",
+   "type": "badge",
+   "url": "https://github.com/dczia/thirtyinone"
+  },
+  {
+   "title": "Ziatron",
+   "maker": "DC Zia",
+   "event": "dc32",
+   "type": "badge",
+   "url": "https://github.com/dczia/Defcon32-Badge"
+  },
+  {
+   "title": "Zippy Badge",
+   "maker": "DC Zia",
+   "event": "dc33",
+   "type": "badge",
+   "url": "https://github.com/dczia/zippy-badge"
+  },
+  {
+   "title": "MK9",
+   "maker": "DC Zia",
+   "event": "dc34 (2026)",
+   "type": "badge",
+   "url": "https://github.com/dczia/mk9-badge"
+  },
+  {
+   "title": "Gundam Morty SAO",
+   "maker": "Hak4Kidz",
+   "event": "dc32",
+   "type": "sao",
+   "url": ""
+  },
+  {
+   "title": "Duckbutt SAO",
+   "maker": "C0ldbru (Rot13 Labs)",
+   "event": "dc31 (likely, per maker's site: released the same year as Hackbutt v3, DEF CON 31/2023)",
+   "type": "sao",
+   "url": "https://rot13labs.com/"
+  },
+  {
+   "title": "TOR Lie Detector Badge",
+   "maker": "Seeess",
+   "event": "dc32",
+   "type": "badge",
+   "url": "already tracked as dc32-tor-lie-detector-badge in existing_titles.txt"
+  },
+  {
+   "title": "TOR Mini Badge",
+   "maker": "Seeess",
+   "event": "dc32",
+   "type": "badge",
+   "url": "already tracked as dc32-tor-mini-badge in existing_titles.txt"
+  },
+  {
+   "title": "DCEnterprise (listed for DEF CON 32, no details)",
+   "maker": "DCEnterprise",
+   "event": "dc32",
+   "type": "existing stub entry in archive, not newly discovered - flagged for cross-reference only",
+   "url": ""
+  },
+  {
+   "title": "Addon addon",
+   "maker": "True",
+   "event": "dc31",
+   "type": "already an existing separate stub entry (_badges/dc31/addon-addon.md), not created by me"
+  },
+  {
+   "title": "Pirate puzzle",
+   "maker": "True",
+   "event": "dc31",
+   "type": "already an existing separate stub entry (_badges/dc31/pirate-puzzle.md)"
+  },
+  {
+   "title": "Acrylic Sign Addons",
+   "maker": "True",
+   "event": "dc31",
+   "type": "already an existing separate stub entry (_badges/dc31/acrylic-sign-addons.md)"
+  },
+  {
+   "title": "Reloadrtr (listed for DEF CON 32, no details)",
+   "maker": "Reloadrtr",
+   "event": "dc32",
+   "type": "existing stub entry (dc32-reloadrtr-listed-for-def-con-32-no-details) not touched by this task; same maker returned for DC32 per the sheet but this task found no details on that either",
+   "url": ""
+  },
+  {
+   "title": "Cyber Circuitry (listed for DEF CON 32, no details)",
+   "maker": "Cyber Circuitry",
+   "event": "dc32",
+   "type": "pre-existing stub entry already in the archive (dc32-cyber-circuitry-listed-for-def-con-32-no-details); not touched, flagged only as a heads-up for whoever researches it",
+   "url": "https://www.cybercircuitry.com"
+  },
+  {
+   "title": "Poker Chip Badge",
+   "maker": "Rogue's Village",
+   "event": "dc30",
+   "type": "badge",
+   "url": "https://foursuits.co/shop-master/rogues-village-badge-defcon30"
+  },
+  {
+   "title": "Inter-Village Badge (with Monero Village)",
+   "maker": "Rogue's Village / Monero Village",
+   "event": "dc28",
+   "type": "badge"
+  },
+  {
+   "title": "2022 DIY Electronic Badge Kit - arcade cabinet",
+   "maker": "The Diana Initiative",
+   "event": "dc30 (2022)",
+   "type": "badge/kit",
+   "url": "https://web.archive.org/web/20230605181006/https://www.eventbrite.com/e/the-diana-initiative-2023-tickets-500510499377"
+  },
+  {
+   "title": "Blinky Badge",
+   "maker": "BlackGirlsHack",
+   "event": "dc31",
+   "type": "badge",
+   "url": ""
+  },
+  {
+   "title": "Mystery Badge",
+   "maker": "BlackGirlsHack",
+   "event": "dc31",
+   "type": "badge",
+   "url": ""
+  },
+  {
+   "title": "Space Bits 'R Us (team SAO)",
+   "maker": "Scott Almond / Space Bits 'R Us team",
+   "event": "dc31",
+   "type": "sao",
+   "url": "https://github.com/scottalmond/defcon_31"
+  },
+  {
+   "title": "Original Series Tricorder badge (Tricorder SAO)",
+   "maker": "MakeItHackin",
+   "event": "dc34 entry already exists per existing_titles.txt",
+   "type": "sao",
+   "url": "https://www.tindie.com/stores/makeithackin/"
+  },
+  {
+   "title": "L33T Badge",
+   "maker": "MakeItHackin",
+   "event": "unknown - seen as related product on Tindie store, not yet in archive",
+   "type": "badge",
+   "url": "https://www.tindie.com/stores/makeithackin/"
+  },
+  {
+   "title": "GPIO Diagnostics Board",
+   "maker": "MakeItHackin",
+   "event": "unknown - seen as related product on Tindie store, not yet in archive",
+   "type": "accessory",
+   "url": "https://www.tindie.com/stores/makeithackin/"
+  },
+  {
+   "title": "L0nely Hackers Triple Threat",
+   "maker": "TechGirl House of Blinky / TechGirlMN",
+   "event": "dc30",
+   "type": "badge",
+   "url": "https://www.tindie.com/products/techgirlmn/lhc-triple-threat/"
+  },
+  {
+   "title": "Sparkle Invader",
+   "maker": "TechGirl House of Blinky / TechGirlMN",
+   "event": "none (listed 2020, predates DC30/DC31 sheets)",
+   "type": "badge",
+   "url": "https://www.tindie.com/products/techgirlmn/sparkle-invader/"
+  },
+  {
+   "title": "CannaBadge",
+   "maker": "Rex",
+   "event": "dc32",
+   "type": "badge (already exists as dc32-cannabadge)",
+   "url": "https://www.tindie.com/stores/rex212/"
+  },
+  {
+   "title": "Biology Girl sweet looking PCB pin",
+   "maker": "Steph Piper (Elkei Education) / credited as Maker Queen on Adafruit",
+   "event": "dc30",
+   "type": "pcb pin / soldering kit",
+   "url": "https://www.adafruit.com/product/5496"
+  },
+  {
+   "title": "Space Girl sweet looking PCB pin",
+   "maker": "Steph Piper (Elkei Education) / credited as Maker Queen on Adafruit",
+   "event": "dc30",
+   "type": "pcb pin / soldering kit",
+   "url": "https://www.adafruit.com/product/5495"
+  },
+  {
+   "title": "VETCON 2025 Badge",
+   "maker": "VetCON",
+   "event": "dc33 (or whichever DEF CON year corresponds to 2025)",
+   "type": "badge",
+   "url": "https://shop.threathunter.ai/collections/vetcon/products/vetcon-2025-badge-pre-pay-only-onsite-pickup-only"
+  },
+  {
+   "title": "Vetcon Wall Flag / Wall Flag 2.0",
+   "maker": "VetCON",
+   "event": "unknown",
+   "type": "other",
+   "url": "https://shop.threathunter.ai/collections/vetcon/products/vetcon-wall-flag"
+  },
+  {
+   "title": "DEFCON Furs 2024 Badge (PCB Blank / Fully Assembled)",
+   "maker": "DEFCON Furs",
+   "event": "dc32",
+   "type": "badge",
+   "url": "https://donate.defconfurs.org"
+  },
+  {
+   "title": "DEFCON Furs 2023 Badge: Vixy - PCB Blank (build-it-yourself tier of the same badge)",
+   "maker": "DEFCON Furs",
+   "event": "dc31",
+   "type": "badge",
+   "url": "https://donate.defconfurs.org"
+  },
+  {
+   "title": "Two types of badge. One is blinky...",
+   "maker": "GothCon",
+   "event": "dc31",
+   "type": "badge",
+   "url": "https://x.com/dcgothcon",
+   "event_note": "Already exists in the archive as id dc31-two-types-of-badge-one-is-blinky (row 45 of the DC31 sheet); this is its sibling/companion variant, not a new item to create."
+  },
+  {
+   "title": "Clock Badge",
+   "maker": "TwinkleTwinkie & Wire",
+   "event": "dc30",
+   "type": "badge",
+   "url": "https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-clock-badge/"
+  },
+  {
+   "title": "Mini Fat Pika RGB SAO",
+   "maker": "Twinkle Twinkie",
+   "event": "unknown (product dated 2021-06)",
+   "type": "sao",
+   "url": "https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-mini-fat-pika-rgb-sao/"
+  },
+  {
+   "title": "The Child SAO",
+   "maker": "Twinkle Twinkie",
+   "event": "unknown (product dated 2021-06)",
+   "type": "sao",
+   "url": "https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-the-child-sao/"
+  },
+  {
+   "title": "2023 eChallengeCoin",
+   "maker": "Brad\u00e1n Lane STUDIO",
+   "event": "unknown (likely dc31)",
+   "type": "sao",
+   "url": "https://www.tindie.com/products/bradanlane/"
+  },
+  {
+   "title": "NeoSword",
+   "maker": "Untitled Electronics",
+   "event": "dc33",
+   "type": "sao",
+   "url": "https://untitledelec.com/products/defcon-33-indy-badge-the-neosword"
+  },
+  {
+   "title": "BSides KC 2022 badge (ray-gun shaped PCB)",
+   "maker": "BadgePirates",
+   "event": "not in this archive's event list (BSides KC)",
+   "type": "badge",
+   "url": "https://badgepirates.com/images/badges/Badge2022.png"
+  },
+  {
+   "title": "Space Girl Soldering Kit",
+   "maker": "Steph Piper (Maker Queen / Elkei Education)",
+   "event": "unknown - already has a separate archive entry (dc30-space-girl-sweet-looking-pcb-pin)",
+   "type": "kit",
+   "url": "https://www.adafruit.com/product/5496"
+  },
+  {
+   "title": "HailSatan SAO(s)",
+   "maker": "Sqearlsalazar",
+   "event": "unknown (pre-dates dc30, referenced as a companion piece)",
+   "type": "sao",
+   "url": "https://www.tindie.com/products/sqearlsalazar/hailsatan-saos/"
+  },
+  {
+   "title": "SAO boards will be available",
+   "maker": "Black Badge Raffle",
+   "event": "dc31",
+   "type": "sao",
+   "url": "https://twitter.com/DefconRaffle"
+  },
+  {
+   "title": "Black Badge Raffle (listed for DEF CON 32, no details)",
+   "maker": "Black Badge Raffle",
+   "event": "dc32",
+   "type": "unknown",
+   "url": ""
+  },
+  {
+   "title": "Baphomet SAO",
+   "maker": "Sqearlsalazar",
+   "event": "dc30",
+   "type": "sao",
+   "url": "already exists as dc30-baphomet-sao in the archive; noted for context only, not created"
+  },
+  {
+   "title": "Nerfhammer (listed for DEF CON 31, no details)",
+   "maker": "Nerfhammer",
+   "event": "dc31",
+   "type": "existing unresearched stub entry, not a new find"
+  },
+  {
+   "title": "Nerfhammer (listed for DEF CON 32, no details)",
+   "maker": "Nerfhammer",
+   "event": "dc32",
+   "type": "existing unresearched stub entry, not a new find"
+  },
+  {
+   "title": "Blue Team Village SAO",
+   "maker": "Blue Team Village",
+   "event": "dc30",
+   "type": "sao",
+   "url": "https://www.eventbrite.com/e/blue-team-village-sao-def-con-vegas-pickup-only-tickets-397239031637"
+  },
+  {
+   "title": "DEFCON26 middle finger badge (DC26fingerbadge)",
+   "maker": "El Jefe De Security",
+   "event": "dc26",
+   "type": "badge",
+   "url": "https://github.com/eljefedsecurit/DC26fingerbadge"
+  },
+  {
+   "title": "Hak4Kidz Learn to Solder Badge and SAO",
+   "maker": "Hak4Kidz Lab",
+   "event": "dc31",
+   "type": "badge/sao",
+   "url": "https://www.tindie.com/products/h4klab/hak4kidz-learn-to-solder-badge-and-sao/"
+  },
+  {
+   "title": "The Hebrew (listed for DEF CON 31, no details)",
+   "maker": "The Hebrew",
+   "event": "dc31",
+   "type": "existing stub entry, not filled in by this task",
+   "url": "https://www.tindie.com/products/thehebrew/"
+  },
+  {
+   "title": "787 Boeing logo / SR-71 / James Webb Space Telescope SAO designs",
+   "maker": "Aerospace Village",
+   "event": "dc30",
+   "type": "sao",
+   "url": "https://github.com/AerospaceVillage/avBadge_2022"
+  },
+  {
+   "title": "IWC - Reactor Badge",
+   "maker": "Ironwood Cyber Team",
+   "event": "dc31",
+   "type": "badge",
+   "url": "https://badge.life/badges/dc31/iwc/"
+  },
+  {
+   "title": "DC813 (listed for DEF CON 31, no details)",
+   "maker": "DC813",
+   "event": "dc31",
+   "type": "existing archive entry, not new",
+   "url": ""
+  },
+  {
+   "title": "New Jack Badge (Standard/Custom Printed)",
+   "maker": "technick (NiCk)",
+   "event": "dc27",
+   "type": "badge",
+   "url": "https://www.tindie.com/products/technick/new-jack-badge-standard-printed-defcon-27/"
+  },
+  {
+   "title": "Monopoly Jack Badge",
+   "maker": "technick (NiCk)",
+   "event": "dc29",
+   "type": "badge",
+   "url": "https://www.tindie.com/products/technick/monopoly-jack-badge-defcon-29/"
+  },
+  {
+   "title": "Hubble SAO (companion piece sold in the same Tindie pack)",
+   "maker": "sqearlsalazar",
+   "event": "dc30",
+   "type": "sao",
+   "url": "https://www.tindie.com/products/sqearlsalazar/telescope-saos-hubble-james-webb/"
+  },
+  {
+   "title": "Black Mage Badge (BM-Badge)",
+   "maker": "DC801",
+   "event": "dc28 (with later DC32 update)",
+   "type": "badge",
+   "url": "https://github.com/DC801/BM-Badge"
+  },
+  {
+   "title": "Biology Girl sweet looking PCB pin",
+   "maker": "Steph Piper (Elkei Education)",
+   "event": "dc30",
+   "type": "accessory (already an existing archive entry: dc30-biology-girl-sweet-looking-pcb-pin, no action needed)",
+   "url": ""
+  },
+  {
+   "title": "JollyBadge V2",
+   "maker": "Jolly Roger / Steve Jabs",
+   "event": "dc33",
+   "type": "badge",
+   "url": "https://www.jollybadge.com"
+  }
+ ]
+}

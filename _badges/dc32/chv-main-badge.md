@@ -11,7 +11,7 @@ year: 2024
 makers:
 - name: Car Hacking Village
   url: https://www.carhackingvillage.com
-summary: The Car Hacking Village's DEF CON 32 badge, a 150mm RP2040 board built around four onboard CAN networks with a dry CAN connector for tapping real vehicle buses, and four SAO headers for CHV's CAN-based add-on ecosystem.
+summary: The Car Hacking Village's DEF CON 32 badge, a 150mm-wide RP2040 board with four CAN networks, a dry CAN connector, four SAO headers using CHV's CAN-based SAO standard, and CTF challenges.
 functions: |-
   150mm Wide
   CTF Challenges
@@ -24,9 +24,9 @@ look:
   shape: null
   themes:
   - security
-  - radio
   - hardware tool
   - ctf
+  - village badge
 tech:
   mcu: RP2040
   leds: null
@@ -41,6 +41,7 @@ get_one:
   availability: unknown
   distribution:
   - purchase
+  - village
   where: Available at the Car Hacking Village (CHV) at DEF CON 32
 make_your_own:
   open_source: null
@@ -79,16 +80,17 @@ sources:
     design guide. Confirms the CAN-SAO concept referenced in the DC32 sheet entry
     but is documented for DC31, not DC32 specifically.'
 - kind: url
-  url: https://github.com/linted
-  title: linted (Mike Merrill) GitHub profile
-  accessed: '2026-09-06'
-  note: 'Maintainer of CHV''s badge repos (CHV_SAO_Specification, CHV_badge_board,
-    CHV_Badge_Firmware, and a can2040 fork for software CAN on RP2040). No repo
-    specifically for a DC32/2024 badge was found among their public repositories.'
+  url: https://github.com/linted?tab=repositories
+  title: linted (Mike Merrill) GitHub repositories
+  accessed: '2026-09-07'
+  note: 'Repository list shows CHV_SAO_Specification, CHV_badge_board (KiCad files
+    named CHV_DC31), CHV_Badge_Firmware ("firmware for emulating a car on a single
+    PCB", no year stated) and a fork of KevinOConnor/can2040 (software CAN for
+    RP2040). No repo specifically for a DC32/2024 badge was found.'
 research:
-  status: researched
+  status: verified
   confidence: low
-  last_checked: '2026-09-06'
+  last_checked: '2026-09-07'
   notes: >-
     Could not find a dedicated page, storefront listing, GitHub repo, or photo
     for this specific DC32 (2024) badge. Car Hacking Village's own site currently
@@ -102,15 +104,21 @@ research:
     functions field describes it as a 150mm board with SAO connectors and a
     CAN connector for tapping vehicle buses, i.e. a host badge rather than a
     plug-in SAO. tech.mcu (RP2040) is taken from the sheet's own functions
-    field, which is consistent with CHV's prior-year badges using can2040
-    (software CAN for RP2040). No image of the actual DC32 badge was found on
+    field; the maintainer also keeps a fork of can2040 (software CAN for
+    RP2040), but no source ties that fork to this badge. No image of the actual DC32 badge was found on
     the sites checked (carhackingvillage.com, swag.carhackingvillage.com,
     GitHub). Price ($100) and event association were already correct in the
     imported sheet data. Web search access was unavailable during this
     research pass, which limited coverage of press, forum, and social posts.
-last_modified_date: '2026-09-06'
+    Fact-check 2026-09-07: all cited sources re-opened; corrected the body's
+    claim that CAN replaces the I2C pins (the CHV spec puts CAN TX/RX on the
+    SAO GPIO1/GPIO2 pins and leaves I2C unconnected), removed the unsupported
+    "tapping real vehicle buses" interpretation, and dropped the "radio" theme.
+    Core specs (150mm, RP2040, 4 CAN networks, dry CAN connector, 4 SAO
+    connectors, $100, CTF) rest on the community sheet only.
+last_modified_date: '2026-09-07'
 ---
 
-The CHV Main Badge is the Car Hacking Village's badge for DEF CON 32 (2024): a 150mm-wide board built around an RP2040 microcontroller with four onboard CAN networks and a "dry" CAN connector, letting attendees tap into real automotive bus traffic as part of the village's CTF challenges. It carries four SAO headers using CHV's own CAN-based add-on standard, which repurposes the usual I2C SAO pins for CAN TX/RX so that add-ons can talk CAN directly to the badge rather than I2C.
+The CHV Main Badge is the Car Hacking Village's badge for DEF CON 32 (2024). According to the community badge sheet it is a 150mm-wide board built around an RP2040 microcontroller with four CAN networks, a "dry" CAN connector, four SAO connectors, and CTF challenges, and it was sold at the village for $100. Its SAO headers follow CHV's own CAN-based SAO standard, which exposes CAN TX and RX on the pins that the standard SAO v1.69bis layout reserves for GPIO1 and GPIO2 and leaves the I2C pins unconnected, so add-ons talk CAN directly to the badge.
 
-CHV has published hardware and a CAN-SAO specification for its badges on GitHub under the maintainer "linted" (Mike Merrill), including a CAN 2.0B-based SAO spec and board files explicitly labeled for the prior year's badge (DC31), which used three SAO connectors rather than this badge's four. No repository, storefront listing, or photo specific to the DC32 board was located, so this entry describes it using only the sheet's own listed specs plus the general CHV CAN-SAO context; the design files, exact quantity made, and current availability remain unconfirmed.
+CHV's badge hardware and the CAN-SAO specification are published on GitHub by maintainer "linted" (Mike Merrill). The spec and board files found there are explicitly labeled for the prior year's badge (DC31), which had three SAO connectors rather than this badge's four. No repository, storefront listing, or photo specific to the DC32 board was located, so this entry describes it using only the sheet's own listed specs plus the general CHV CAN-SAO context; the design files, exact quantity made, and current availability remain unconfirmed.

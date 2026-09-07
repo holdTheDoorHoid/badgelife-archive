@@ -11,13 +11,16 @@ year: 2025
 makers:
 - name: Coruscant Ventures
   url: https://coruscantventures.com
-  role: 'design/sale credited to vor_t3x1 (Discord) / u/MorningMother8622 (Reddit)'
+  role: design/sale credited to vor_t3x1 (Discord) / u/MorningMother8622 (Reddit)
 summary: A large host badge with 25 SAO ports that can power and display many add-on boards at once, sold alongside a companion "SmartAO" SAO that adds LED animation control.
 functions: Hosts and powers up to 25 SAOs simultaneously (about 300 mA @ 3.3V total, 30 mA if running off USB/barrel power alone); white perimeter LEDs are driven by whichever SAO is plugged into the top-left slot, with full animated control only available when the SmartAO SAO is installed there.
 look:
-  colors: [black, white]
+  colors:
+  - black
+  - white
   shape: rectangle
-  themes: [village badge]
+  themes:
+  - village badge
 tech:
   mcu: null
   leds:
@@ -29,11 +32,12 @@ tech:
   battery: 2x 18650 (pre-installed), charge/run via USB or barrel connector
   sao_version: null
 get_one:
-  price: '$100'
+  price: $100
   price_usd: 100.0
   quantity: ''
   availability: unknown
-  distribution: [purchase]
+  distribution:
+  - purchase
   where: Sold directly by Coruscant Ventures via their storefront (coruscantventures.com); at DEF CON 33 arrange payment/shipping via Discord, Reddit or email since the site's PayPal checkout was reported non-functional.
 make_your_own:
   open_source: partial
@@ -47,18 +51,25 @@ links:
 - label: 'GitHub: DC33-SaO-MANY-SAOs'
   url: https://github.com/vortexcodes/DC33-SaO-MANY-SAOs
   kind: repo
+- label: Coruscantventures.com
+  url: https://Coruscantventures.com
+  kind: website
 images:
 - file: assets/images/badges/dc33/sao-and-many-sao-badge/ed1e705536.jpg
-  source: "https://github.com/vortexcodes/DC33-SaO-MANY-SAOs"
-  credit: "Coruscant Ventures"
-  caption: "The SAO Many SAOs badge PCB, showing its 5x5 grid of 25 SAO header slots"
+  source: https://github.com/vortexcodes/DC33-SaO-MANY-SAOs
+  credit: Coruscant Ventures
+  caption: The SAO Many SAOs badge PCB, showing its 5x5 grid of 25 SAO header slots
 - file: assets/images/badges/dc33/sao-and-many-sao-badge/43793767aa.jpg
-  source: "https://github.com/vortexcodes/DC33-SaO-MANY-SAOs"
-  credit: "Coruscant Ventures"
-  caption: "The assembled badge with multiple SAOs plugged in"
+  source: https://github.com/vortexcodes/DC33-SaO-MANY-SAOs
+  credit: Coruscant Ventures
+  caption: The assembled badge with multiple SAOs plugged in
 contact:
   email: support@coruscantventures.com
-notes: []
+  emails:
+  - Ja@coruscantventures.com
+notes:
+- Holds and controls 25 SAOs, has already been released
+- This entry duplicates dc33-sao-and-many-sao-badge, which was independently researched from the same maker/product and carries the full write-up plus saved images; see that entry for photos.
 status: released
 sources:
 - kind: sheet
@@ -75,12 +86,23 @@ sources:
   title: 'GitHub: vortexcodes/DC33-SaO-MANY-SAOs'
   accessed: '2026-09-06'
   note: README and schematic/BOM/photos confirming power system (2x 18650, USB/barrel charging), 25-SAO capacity, perimeter LED behavior, and that gerbers were withheld until after the con.
+- kind: sheet
+  event: dc33
+  row: 47
+  updated: 8/13/2025 22:46:45
+- kind: url
+  url: https://coruscantventures.com
+  title: Coruscant Ventures
+  accessed: '2026-09-06'
+  note: Homepage confirms the company and that it sells DEF CON badges; no product-level detail beyond the product page above.
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-06'
-  notes: 'Sheet title "SAO and Many SAO Badge" corrected to the maker''s own "SAO Many SAOs Badge" / "SaO MANY SAOs" naming. MCU, exact LED count, quantity made, and current availability are not stated by the maker anywhere found; left empty rather than guessed. The product page notes checkout (PayPal) was broken and buyers had to arrange payment directly. This appears to duplicate an existing entry for the same product, dc33-sao-many-saos, which was filled in from the community sheet under a different title/row.'
+  notes: Sheet title "SAO and Many SAO Badge" corrected to the maker's own "SAO Many SAOs Badge" / "SaO MANY SAOs" naming. MCU, exact LED count, quantity made, and current availability are not stated by the maker anywhere found; left empty rather than guessed. The product page notes checkout (PayPal) was broken and buyers had to arrange payment directly. This appears to duplicate an existing entry for the same product, dc33-sao-many-saos, which was filled in from the community sheet under a different title/row. Merged with duplicate entry 'SaO MANY SAOs' (dc33-sao-many-saos).
 last_modified_date: '2026-09-06'
+redirect_from:
+- /badges/dc33/sao-many-saos/
 ---
 
 The SAO Many SAOs badge is a large host board from Coruscant Ventures built around one gimmick: it has 25 separate SAO header slots arranged in a 5x5 grid, so a badge collector can plug in nearly their entire haul of add-on boards at once. It runs off two pre-installed 18650 cells that can be charged over USB or a barrel jack, with onboard red/green LEDs to show charging status and built-in surge protection so it can survive being plugged into whatever DEF CON attendees plug things into.
@@ -88,3 +110,11 @@ The SAO Many SAOs badge is a large host board from Coruscant Ventures built arou
 A row of white LEDs runs around the board's perimeter, one near each SAO slot, but they are only driven by whatever is plugged into the top-left slot. Out of the box that just lights them; to get actual animations and color control, Coruscant Ventures sold a companion "SmartAO" SAO separately for that slot. The badge shipped assembled and tested, sold for $100 through the maker's Squarespace storefront, though at least some buyers reported the site's PayPal checkout was broken during the con and had to arrange payment directly via Discord, Reddit, or email instead.
 
 Schematics, a bill of materials, and build photos are published on GitHub, but the maker noted gerbers "may be released after DEF CON," and no firmware or MCU details were included in what was published as of this check.
+
+## Notes merged from the duplicate entry "SaO MANY SAOs"
+
+The SaO MANY SAOs badge is a large host board from Coruscant Ventures built around one gimmick: it has 25 separate SAO header slots arranged in a grid, so a badge collector can plug in nearly their entire haul of add-on boards at once. It runs off two pre-installed 18650 cells that can be charged over USB or a barrel jack, with onboard LEDs to show charging status and built-in surge protection.
+
+A row of white LEDs runs around the board's perimeter, one near each SAO slot, but they are only driven by whatever is plugged into the top-left slot. Out of the box that just lights them; to get actual animations and color control, Coruscant Ventures sold a companion "SmartAO" SAO separately for that slot. The badge shipped assembled and tested, sold for $100 through the maker's Squarespace storefront, though at least some buyers reported the site's PayPal checkout was broken during the con and had to arrange payment directly via Discord, Reddit, or email instead.
+
+Schematics, a bill of materials, and build photos are published on GitHub, but the maker noted gerbers "may be released after DEF CON," and no firmware or MCU details were published as of this check. This entry duplicates `dc33-sao-and-many-sao-badge`, which covers the same product and already has saved photos.

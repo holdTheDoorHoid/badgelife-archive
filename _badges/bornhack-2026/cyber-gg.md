@@ -39,6 +39,7 @@ links:
 - label: hackaday.com/2026/07/17/the-bornhack-2026-cyber-aegg-is-a-badge-with-a-life-afterwards
   url: https://hackaday.com/2026/07/17/the-bornhack-2026-cyber-aegg-is-a-badge-with-a-life-afterwards/
   kind: article
+  archived: https://web.archive.org/web/20260831031636/https://hackaday.com/2026/07/17/the-bornhack-2026-cyber-aegg-is-a-badge-with-a-life-afterwards/
 images: []
 contact: {}
 notes:
@@ -50,6 +51,7 @@ sources:
   title: Cyber Ægg
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: hackaday-press); event read as ''BornHack 2026''.'
+  archived: https://web.archive.org/web/20260831031636/https://hackaday.com/2026/07/17/the-bornhack-2026-cyber-aegg-is-a-badge-with-a-life-afterwards/
 research:
   status: stub
   confidence: low

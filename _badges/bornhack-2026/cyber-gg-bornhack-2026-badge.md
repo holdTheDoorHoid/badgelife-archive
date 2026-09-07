@@ -39,6 +39,7 @@ links:
 - label: badge.team/docs/badges/bornhack-2026
   url: https://badge.team/docs/badges/bornhack-2026/
   kind: website
+  archived: https://web.archive.org/web/20260717235018/https://badge.team/docs/badges/bornhack-2026/
 images: []
 contact: {}
 notes:
@@ -50,6 +51,7 @@ sources:
   title: Cyber Ægg (Bornhack 2026 badge)
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: eu-camps: European hacker camps/cons via badge.team (SHA2017, Hackerhotel, Disobey, CampZone, Fri3d Camp, MCH2022, WHY2025), EMF Camp TiLDA lineage, CCC card10, and BornHack); event read as ''BornHack 2026''.'
+  archived: https://web.archive.org/web/20260717235018/https://badge.team/docs/badges/bornhack-2026/
 research:
   status: stub
   confidence: low
