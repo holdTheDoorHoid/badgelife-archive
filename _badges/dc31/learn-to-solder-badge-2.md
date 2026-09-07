@@ -54,14 +54,17 @@ links:
 - label: www.hak4kidz.com
   url: https://www.hak4kidz.com
   kind: website
+  archived: https://web.archive.org/web/20260614072952/https://www.hak4kidz.com/
 - label: Hak4Kidz Learn to Solder Badge and SAO (Tindie)
   url: https://www.tindie.com/products/h4klab/hak4kidz-learn-to-solder-badge-and-sao/
   kind: store
+  archived: https://web.archive.org/web/20260503111225/https://www.tindie.com/products/h4klab/hak4kidz-learn-to-solder-badge-and-sao/
 images:
 - file: assets/images/badges/dc31/learn-to-solder-badge-2/1462b72936.png
   source: https://www.tindie.com/products/h4klab/hak4kidz-learn-to-solder-badge-and-sao/
   credit: Hak4Kidz Lab
   caption: Hak4Kidz Learn to Solder Badge and SAO with Tinker robot BOM/assembly graphic
+  archived: https://web.archive.org/web/20260503111225/https://www.tindie.com/products/h4klab/hak4kidz-learn-to-solder-badge-and-sao/
 contact: {}
 notes:
 - All proceeds go to the Hak4Kids mission. Please go check them out at https://www.hak4kidz.com.
@@ -78,6 +81,7 @@ sources:
   title: Hak4Kidz Learn to Solder Badge and SAO (Tindie)
   accessed: '2026-09-06'
   note: Product description, price, quantity/kit contents, SAO connector, LED and potentiometer details, maker location.
+  archived: https://web.archive.org/web/20260503111225/https://www.tindie.com/products/h4klab/hak4kidz-learn-to-solder-badge-and-sao/
 - kind: sheet
   event: dc31
   row: 35

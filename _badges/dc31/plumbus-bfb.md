@@ -15,8 +15,8 @@ makers:
   url: https://hackaday.io/pinguino
 - name: erin
   url: https://hackaday.io/hacker/489049-erin
-summary: 'An unofficial, independently-made electronic badge for DEF CON 31, built by the BFB team as a follow-up to their earlier "Big Fucking Badge" projects, deliberately made smaller, cheaper and less power-hungry.'
-functions: 'Four tactile dome-switch buttons and hall-effect sensors drive interactive game modes and a puzzle with a hidden prize/easter egg; LED lighting patterns; has an SAO connector for add-ons.'
+summary: An unofficial, independently-made electronic badge for DEF CON 31, built by the BFB team as a follow-up to their earlier "Big Fucking Badge" projects, deliberately made smaller, cheaper and less power-hungry.
+functions: Four tactile dome-switch buttons and hall-effect sensors drive interactive game modes and a puzzle with a hidden prize/easter egg; LED lighting patterns; has an SAO connector for add-ons.
 look:
   colors: []
   shape: null
@@ -33,10 +33,10 @@ tech:
 get_one:
   price: ''
   price_usd: null
-  quantity: '99 (plus one bad unit)'
+  quantity: 99 (plus one bad unit)
   availability: unknown
   distribution: []
-  where: 'Distributed by the BFB team at DEF CON 31, 2023.'
+  where: Distributed by the BFB team at DEF CON 31, 2023.
 make_your_own:
   open_source: null
   hardware_url: null
@@ -46,20 +46,23 @@ links:
 - label: hackaday.io/project/189615-dc31-plumbus-bfb
   url: https://hackaday.io/project/189615-dc31-plumbus-bfb
   kind: hackaday
+  archived: https://web.archive.org/web/20250917205600/https://hackaday.io/project/189615-dc31-plumbus-bfb
 - label: DC31 SAO (companion SAO by the same BFB team)
   url: https://hackaday.io/project/192013-dc31-sao
   kind: hackaday
 images:
 - file: assets/images/badges/dc31/plumbus-bfb/f44c9f4d86.jpg
-  source: "https://hackaday.io/project/189615-dc31-plumbus-bfb"
-  credit: "BFB team (hexum064)"
-  caption: "DC31 Plumbus BFB badge"
+  source: https://hackaday.io/project/189615-dc31-plumbus-bfb
+  credit: BFB team (hexum064)
+  caption: DC31 Plumbus BFB badge
+  archived: https://web.archive.org/web/20250917205600/https://hackaday.io/project/189615-dc31-plumbus-bfb
 - file: assets/images/badges/dc31/plumbus-bfb/21ae1a33fb.jpg
-  source: "https://hackaday.io/project/189615-dc31-plumbus-bfb"
-  credit: "BFB team (hexum064)"
-  caption: "DC31 Plumbus BFB badge, assembled"
+  source: https://hackaday.io/project/189615-dc31-plumbus-bfb
+  credit: BFB team (hexum064)
+  caption: DC31 Plumbus BFB badge, assembled
+  archived: https://web.archive.org/web/20250917205600/https://hackaday.io/project/189615-dc31-plumbus-bfb
 contact:
-  twitter: "@TeamBFBPublic"
+  twitter: '@TeamBFBPublic'
 notes: []
 status: released
 sources:
@@ -68,21 +71,24 @@ sources:
   title: DC31 Plumbus BFB
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: hackaday-list); event read as ''DEF CON 31''.'
+  archived: https://web.archive.org/web/20250917205600/https://hackaday.io/project/189615-dc31-plumbus-bfb
 - kind: url
   url: https://hackaday.io/project/189615-dc31-plumbus-bfb
   title: DC31 Plumbus BFB
   accessed: '2026-09-07'
-  note: 'Maker names, features (buttons, hall-effect sensors, LEDs, game/puzzle modes, no on-badge screen), MCU (xMega 32e5/16e5), quantity made (99 + 1 bad), manufactured via AllPCB, contact handles.'
+  note: Maker names, features (buttons, hall-effect sensors, LEDs, game/puzzle modes, no on-badge screen), MCU (xMega 32e5/16e5), quantity made (99 + 1 bad), manufactured via AllPCB, contact handles.
+  archived: https://web.archive.org/web/20250917205600/https://hackaday.io/project/189615-dc31-plumbus-bfb
 - kind: url
   url: https://hackaday.io/project/192013-dc31-sao
   title: DC31 SAO
   accessed: '2026-09-07'
-  note: 'Companion SAO project by the same BFB team (hexum064) for the DC31 badge slot -- a separate item, noted here for context, not folded into this entry.'
+  note: Companion SAO project by the same BFB team (hexum064) for the DC31 badge slot -- a separate item, noted here for context, not folded into this entry.
 research:
   status: verified
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'Fact-check pass (2026-09-07): re-fetched both cited Hackaday.io pages and the three makers'' profile pages against every non-empty field and body sentence. Corrections made: hexum064''s profile link was a dead vanity URL (404) and was replaced with the canonical https://hackaday.io/hacker/172907-hexum064; the "erin" maker link pointed to an unrelated Hackaday.io user (a different "erin" in Point Richmond, CA with no BFB connection) and was replaced with the correct https://hackaday.io/hacker/489049-erin, confirmed via the project''s team-member listing. Removed "standby/low-power operation" from `functions` and the body -- that behavior belongs to the companion CATSAO''s own standby mode, not the Plumbus badge itself, and no source describes a standby/sleep mode on this board. Softened get_one.where and the closing body paragraph: the project log never states the badges were free, given to attendees, or not sold -- it only says the team finished 99 (+1 bad) and were bringing them to the con -- so the "not a commercial product" / "rather than sold commercially" claims were removed as unsupported; get_one.availability stays `unknown` for the same reason. Confirmed as accurate: maker team and roles, event/year, MCU (xmega32e5/xmega16e5 sourcing difficulties, both explicitly named), no on-badge display (OLED used only on a dev rig), four dome-switch buttons + hall-effect sensors, game modes and a hidden-prize puzzle, SAO connector, unit count (99 + 1 bad), and the companion DC31 SAO/CATSAO (Nyan-cat-inspired, Simon-style game, $10 donation, distinct item). LED count/type, price, and open-source links remain empty because the sources genuinely do not give them. Both saved images were confirmed present on disk and match photos on the cited Hackaday project page (the badge itself, not a logo).'
+  notes: 'Fact-check pass (2026-09-07): re-fetched both cited Hackaday.io pages and the three makers'' profile pages against every non-empty field and body sentence. Corrections made: hexum064''s profile link was a dead vanity URL (404) and was replaced with the canonical https://hackaday.io/hacker/172907-hexum064; the "erin" maker link pointed to an unrelated Hackaday.io user (a different "erin" in Point Richmond, CA with no BFB connection) and was replaced with the correct https://hackaday.io/hacker/489049-erin, confirmed via the project''s team-member listing. Removed "standby/low-power operation" from `functions` and the body -- that behavior belongs to the companion CATSAO''s own standby mode, not the Plumbus badge itself, and no source describes a standby/sleep mode on this board. Softened get_one.where and the closing body paragraph: the project log never states the badges were free, given to attendees, or not sold -- it only says the team finished 99 (+1 bad) and were bringing them
+    to the con -- so the "not a commercial product" / "rather than sold commercially" claims were removed as unsupported; get_one.availability stays `unknown` for the same reason. Confirmed as accurate: maker team and roles, event/year, MCU (xmega32e5/xmega16e5 sourcing difficulties, both explicitly named), no on-badge display (OLED used only on a dev rig), four dome-switch buttons + hall-effect sensors, game modes and a hidden-prize puzzle, SAO connector, unit count (99 + 1 bad), and the companion DC31 SAO/CATSAO (Nyan-cat-inspired, Simon-style game, $10 donation, distinct item). LED count/type, price, and open-source links remain empty because the sources genuinely do not give them. Both saved images were confirmed present on disk and match photos on the cited Hackaday project page (the badge itself, not a logo).'
 last_modified_date: '2026-09-07'
 ---
 

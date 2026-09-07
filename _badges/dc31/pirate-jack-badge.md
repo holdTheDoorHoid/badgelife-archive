@@ -47,19 +47,22 @@ links:
 - label: Pirate Jack Badge - Defcon 31 (Tindie)
   url: https://www.tindie.com/products/technick/pirate-jack-badge-defcon-31-2023/
   kind: store
+  archived: https://web.archive.org/web/20260503122509/https://www.tindie.com/products/technick/pirate-jack-badge-defcon-31-2023/
 images:
-  - file: assets/images/badges/dc31/pirate-jack-badge/b23fab71bf.jpg
-    source: "https://www.tindie.com/products/technick/pirate-jack-badge-defcon-31-2023/"
-    credit: "technick"
-    caption: "Pirate Jack Badge, DEF CON 31, main listing photo"
-  - file: assets/images/badges/dc31/pirate-jack-badge/29c82778d0.jpg
-    source: "https://www.tindie.com/products/technick/pirate-jack-badge-defcon-31-2023/"
-    credit: "technick"
-    caption: "Pirate Jack Badge, DEF CON 31, alternate color/style option"
+- file: assets/images/badges/dc31/pirate-jack-badge/b23fab71bf.jpg
+  source: https://www.tindie.com/products/technick/pirate-jack-badge-defcon-31-2023/
+  credit: technick
+  caption: Pirate Jack Badge, DEF CON 31, main listing photo
+  archived: https://web.archive.org/web/20260503122509/https://www.tindie.com/products/technick/pirate-jack-badge-defcon-31-2023/
+- file: assets/images/badges/dc31/pirate-jack-badge/29c82778d0.jpg
+  source: https://www.tindie.com/products/technick/pirate-jack-badge-defcon-31-2023/
+  credit: technick
+  caption: Pirate Jack Badge, DEF CON 31, alternate color/style option
+  archived: https://web.archive.org/web/20260503122509/https://www.tindie.com/products/technick/pirate-jack-badge-defcon-31-2023/
 contact: {}
 notes:
 - Different styles to choose from.
-- 'The community sheet listed the maker as "NiCk"; the Tindie storefront (same person, later years'' badges list them as "technick") is used here as the maker name.'
+- The community sheet listed the maker as "NiCk"; the Tindie storefront (same person, later years' badges list them as "technick") is used here as the maker name.
 - 'Part of an annual "Jack" badge series by this maker: preceded by King Jack Badge (DC30) and followed by AI Jack Badge (DC33).'
 status: released
 sources:
@@ -72,6 +75,7 @@ sources:
   title: Pirate Jack Badge - Defcon 31 - 2023 (Tindie)
   accessed: '2026-09-06'
   note: Primary listing; confirmed maker, price, availability (sold out 2023-08-22), what's included, and color options.
+  archived: https://web.archive.org/web/20260503122509/https://www.tindie.com/products/technick/pirate-jack-badge-defcon-31-2023/
 research:
   status: researched
   confidence: medium

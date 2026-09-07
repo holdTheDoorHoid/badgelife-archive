@@ -42,6 +42,7 @@ links:
 - label: hackerware.io
   url: https://www.hackerware.io
   kind: website
+  archived: https://web.archive.org/web/20260523123718/https://hackerware.io/
 images: []
 contact: {}
 notes: []
@@ -53,34 +54,20 @@ sources:
   updated: '2023-07-25'
 - kind: url
   url: https://www.claranet.com/us/blackhat
-  title: 'Claranet / Black Hat page (redirect of claranetcybersecurity.com/blackhat)'
+  title: Claranet / Black Hat page (redirect of claranetcybersecurity.com/blackhat)
   accessed: '2026-09-06'
-  note: The sheet's original link now 301-redirects here; the current page covers
-    Black Hat USA 2026 training and has no record of a 2023 DEF CON 31 CTF badge.
+  note: The sheet's original link now 301-redirects here; the current page covers Black Hat USA 2026 training and has no record of a 2023 DEF CON 31 CTF badge.
 - kind: url
   url: https://www.hackerware.io
   title: Hackerware.io
   accessed: '2026-09-06'
-  note: Confirms Abhinav SP runs Hackerware.io, a badge-design studio with a long
-    track record of conference badges (RSA, HITB, F5, BSides, DEF CON China Soldering
-    Village) in the years around this one; no listing of the NotSoSecure badge
-    specifically.
+  note: Confirms Abhinav SP runs Hackerware.io, a badge-design studio with a long track record of conference badges (RSA, HITB, F5, BSides, DEF CON China Soldering Village) in the years around this one; no listing of the NotSoSecure badge specifically.
+  archived: https://web.archive.org/web/20260523123718/https://hackerware.io/
 research:
   status: researched
   confidence: low
   last_checked: '2026-09-06'
-  notes: Could not find a maker page, press coverage, or storefront listing specific
-    to this NotSoSecure/Claranet CTF badge for DC31. The sheet's own link
-    (claranetcybersecurity.com/blackhat) now redirects to Claranet's current
-    Black Hat landing page, which carries no historical 2023 content. Confirmed
-    the maker attribution is plausible - Hackerware.io (Abhinav SP) is a real,
-    active badge-design studio that made many later DEF CON badges (see
-    dc32/dc33/dc34 entries) - but found no independent source describing this
-    specific badge's chip, LEDs, price, quantity, or how it was earned, so those
-    fields are left empty rather than guessed. A web search budget limit was hit
-    partway through; a fresh search for "Hackerware NotSoSecure DEF CON 31" or
-    checking archived/cached versions of the old claranetcybersecurity.com/blackhat
-    page (e.g. via the Wayback Machine) might turn up more.
+  notes: Could not find a maker page, press coverage, or storefront listing specific to this NotSoSecure/Claranet CTF badge for DC31. The sheet's own link (claranetcybersecurity.com/blackhat) now redirects to Claranet's current Black Hat landing page, which carries no historical 2023 content. Confirmed the maker attribution is plausible - Hackerware.io (Abhinav SP) is a real, active badge-design studio that made many later DEF CON badges (see dc32/dc33/dc34 entries) - but found no independent source describing this specific badge's chip, LEDs, price, quantity, or how it was earned, so those fields are left empty rather than guessed. A web search budget limit was hit partway through; a fresh search for "Hackerware NotSoSecure DEF CON 31" or checking archived/cached versions of the old claranetcybersecurity.com/blackhat page (e.g. via the Wayback Machine) might turn up more.
 last_modified_date: '2026-09-06'
 ---
 

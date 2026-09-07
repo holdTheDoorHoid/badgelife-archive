@@ -66,12 +66,14 @@ links:
 - label: Ironwood Cyber
   url: https://www.ironwoodcyber.com
   kind: website
+  archived: https://web.archive.org/web/20260611104800/https://www.ironwoodcyber.com/
 - label: Ironwood Cyber - About / Milestones
   url: https://www.ironwoodcyber.com/about
   kind: doc
 - label: Ironwood-Cyber GitHub org
   url: https://github.com/Ironwood-Cyber
   kind: repo
+  archived: https://web.archive.org/web/20260208081048/https://github.com/Ironwood-Cyber
 - label: twitter.com/ironwoodcyber
   url: https://twitter.com/ironwoodcyber
   kind: social
@@ -90,6 +92,7 @@ sources:
   title: Original badge.life archive page
   accessed: '2026-09-06'
   note: Migrated from the badge.life Badge Archive; the original page is preserved as the entry body.
+  archived: https://web.archive.org/web/20260811022040/https://badge.life/badges/dc31/iwc/
 - kind: url
   url: https://www.ironwoodcyber.com/about
   title: About Ironwood Cyber | Defense-Grade Security Engineering
@@ -100,6 +103,7 @@ sources:
   title: Ironwood-Cyber GitHub org
   accessed: '2026-09-07'
   note: Org contains a DEF CON 30 (dc30-badge-hw) KiCad schematics repo but no DEF CON 31 badge repo, supporting that this badge's hardware/firmware were never published.
+  archived: https://web.archive.org/web/20260208081048/https://github.com/Ironwood-Cyber
 - kind: sheet
   event: dc31
   row: 55

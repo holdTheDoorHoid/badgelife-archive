@@ -42,7 +42,7 @@ get_one:
   availability_note: 'Checked 2026-09-06: Tindie listing (product 30972) shows the item as a past/limited listing; entry notes it also sold at Hacker Warehouse at DC31.'
   distribution:
   - purchase
-  where: 'Sold via the maker''s Tindie store ($35, learn-to-solder kit) and, per the entry''s original notes, also available at the Hacker Warehouse booth at DEF CON 31 for those who missed the Tindie drop. Slides into and electrifies a DEF CON 31 badge; kit ships with three AA batteries, stickers, googly eyes, and a mini lanyard for stability.'
+  where: Sold via the maker's Tindie store ($35, learn-to-solder kit) and, per the entry's original notes, also available at the Hacker Warehouse booth at DEF CON 31 for those who missed the Tindie drop. Slides into and electrifies a DEF CON 31 badge; kit ships with three AA batteries, stickers, googly eyes, and a mini lanyard for stability.
 make_your_own:
   open_source: partial
   hardware_url: https://github.com/MakeItHackin/L33TBadge
@@ -63,11 +63,12 @@ links:
 - label: GitHub (MakeItHackin/L33TBadge)
   url: https://github.com/MakeItHackin/L33TBadge
   kind: repo
+  archived: https://web.archive.org/web/20260509153820/https://github.com/MakeItHackin/L33TBadge
 images:
 - file: assets/images/badges/dc31/l33t-badge-add-on-for-def-con-31-badge/ee9b17329f.jpg
-  source: "https://www.tindie.com/products/30972/"
-  credit: "MakeItHackin"
-  caption: "L33T Badge Add-On slotted into a DEF CON 31 badge, displaying leet-speak on four 16-segment LED displays"
+  source: https://www.tindie.com/products/30972/
+  credit: MakeItHackin
+  caption: L33T Badge Add-On slotted into a DEF CON 31 badge, displaying leet-speak on four 16-segment LED displays
 contact: {}
 notes:
 - Currently on sale at Tindie... wait, sold out on Tindie. You have a second chance at DCXXXI at the Hacker Warehouse. May the odds be ever in your favor!!
@@ -87,6 +88,7 @@ sources:
   title: MakeItHackin/L33TBadge GitHub repository
   accessed: '2026-09-06'
   note: Confirmed parts list and that the repo is documentation/instructions rather than a full hardware+firmware release; no Gerbers, code, or license found.
+  archived: https://web.archive.org/web/20260509153820/https://github.com/MakeItHackin/L33TBadge
 research:
   status: researched
   confidence: high

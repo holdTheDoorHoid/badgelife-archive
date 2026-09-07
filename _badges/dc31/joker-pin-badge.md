@@ -11,8 +11,7 @@ year: 2023
 makers:
 - name: Abhinav Panda
   url: https://hackerware.io
-summary: A pin-style Joker badge from Abhinav Panda of Hackerware.io, a returning
-  design given out at the HackerWarehouse booth during DEF CON 31.
+summary: A pin-style Joker badge from Abhinav Panda of Hackerware.io, a returning design given out at the HackerWarehouse booth during DEF CON 31.
 functions: ''
 look:
   colors: []
@@ -47,17 +46,16 @@ links:
 - label: Hackerware.io
   url: https://hackerware.io
   kind: website
+  archived: https://web.archive.org/web/20260523123718/https://hackerware.io/
 images:
 - file: assets/images/badges/dc31/joker-pin-badge/e85fbc768d.jpg
-  source: "https://x.com/TweetsFromPanda/status/1686143468039725056"
-  credit: "Abhinav Panda (TweetsFromPanda)"
-  caption: "Joker pin badge shared by the maker on Twitter/X ahead of DEF CON 31"
+  source: https://x.com/TweetsFromPanda/status/1686143468039725056
+  credit: Abhinav Panda (TweetsFromPanda)
+  caption: Joker pin badge shared by the maker on Twitter/X ahead of DEF CON 31
 contact: {}
 notes:
 - Will be available at the HackerWarehouse Booth
-- 'Maker''s own caption for the announcement tweet: "Joker meets DEF CON Jack again!
-  Returning to Hacker Summer Camp this year at @hackerwarehouse booth. #badgelife" -
-  implying this is a repeat/sequel design from a prior year.'
+- 'Maker''s own caption for the announcement tweet: "Joker meets DEF CON Jack again! Returning to Hacker Summer Camp this year at @hackerwarehouse booth. #badgelife" - implying this is a repeat/sequel design from a prior year.'
 status: listed
 sources:
 - kind: sheet
@@ -66,30 +64,20 @@ sources:
   updated: '2023-08-01'
 - kind: url
   url: https://twitter.com/TweetsFromPanda/status/1686143468039725056
-  title: 'Abhinav Panda on X: "Joker meets DEF CON Jack again! Returning to Hacker
-    Summer Camp this year at @hackerwarehouse booth. #badgelife"'
+  title: 'Abhinav Panda on X: "Joker meets DEF CON Jack again! Returning to Hacker Summer Camp this year at @hackerwarehouse booth. #badgelife"'
   accessed: '2026-09-07'
-  note: Maker's own announcement tweet; confirms maker identity, that the item is
-    a pin sold/given at the HackerWarehouse booth at DEF CON 31, and its image.
+  note: Maker's own announcement tweet; confirms maker identity, that the item is a pin sold/given at the HackerWarehouse booth at DEF CON 31, and its image.
 - kind: url
   url: https://hackerware.io
-  title: Hackerware - #BadgeLife | Hardware Design, Security, & Research.
+  title: Hackerware -
   accessed: '2026-09-07'
-  note: Maker's studio site; confirms Abhinav Panda operates as Hackerware.io (same
-    maker credited on several other DC32/DC34 badges in this archive), though this
-    particular Joker pin is not listed in the current portfolio gallery.
+  note: Maker's studio site; confirms Abhinav Panda operates as Hackerware.io (same maker credited on several other DC32/DC34 badges in this archive), though this particular Joker pin is not listed in the current portfolio gallery.
+  archived: https://web.archive.org/web/20260523123718/https://hackerware.io/
 research:
   status: researched
   confidence: low
   last_checked: '2026-09-07'
-  notes: Could not find a dedicated project page, storefront listing, or press
-    coverage for this specific pin beyond the maker's own announcement tweet - it
-    does not appear in Hackerware.io's current portfolio gallery or the maker's
-    Hackster.io project list. Chip/LED/display specs, exact quantity, and current
-    availability are unconfirmed and left empty. The tweet's phrasing ("Joker meets
-    DEF CON Jack again") suggests this design (or a Joker/Jack pairing) was made
-    for an earlier DEF CON too, but no prior-year source was located to confirm
-    or link that.
+  notes: Could not find a dedicated project page, storefront listing, or press coverage for this specific pin beyond the maker's own announcement tweet - it does not appear in Hackerware.io's current portfolio gallery or the maker's Hackster.io project list. Chip/LED/display specs, exact quantity, and current availability are unconfirmed and left empty. The tweet's phrasing ("Joker meets DEF CON Jack again") suggests this design (or a Joker/Jack pairing) was made for an earlier DEF CON too, but no prior-year source was located to confirm or link that.
 last_modified_date: '2026-09-07'
 ---
 
