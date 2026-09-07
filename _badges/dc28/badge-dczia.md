@@ -38,7 +38,7 @@ get_one:
   - kit
   where: 'Not sold as an assembled unit: DCZia published a parts list (Raspberry Pi Zero W, Waveshare 1.44" LCD HAT, SD card) with Amazon links and a custom Raspbian image; people sourced the parts themselves and assembled it at home.'
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/dczia/Defcon28-Badge
   firmware_url: https://github.com/dczia/Defcon28-Badge
   eda_tool: null
@@ -46,12 +46,14 @@ links:
 - label: github.com/dczia/Defcon28-Badge
   url: https://github.com/dczia/Defcon28-Badge
   kind: repo
+  archived: https://web.archive.org/web/20260523084132/https://github.com/dczia/Defcon28-Badge
 - label: DCZia DEFCON 28 Badge Challenge write-up (devBioS)
   url: https://github.com/devBioS/DC28_DCZIA_BadgeChallengeSolver/blob/master/write-up.md
   kind: article
 - label: DCZia
   url: https://dczia.net/
   kind: website
+  archived: https://web.archive.org/web/20260514004509/https://dczia.net/
 images: []
 contact: {}
 notes: []
@@ -62,11 +64,12 @@ sources:
   title: Defcon28-Badge (DCZia)
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: github-topics); event read as ''DEF CON 28''.'
+  archived: https://web.archive.org/web/20260523084132/https://github.com/dczia/Defcon28-Badge
 - kind: url
   url: https://raw.githubusercontent.com/dczia/Defcon28-Badge/master/README.md
   title: 'DEFCON28-Badge README: DCZia 2020 Defcon 28 Badge - PiBadge Mini'
   accessed: '2026-09-07'
-  note: 'Maker''s own description, hardware list (Pi Zero W + Waveshare 1.44" LCD HAT), build guide, and note that this was a stand-in project because their original plan for the (virtual) 2020 con fell through.'
+  note: Maker's own description, hardware list (Pi Zero W + Waveshare 1.44" LCD HAT), build guide, and note that this was a stand-in project because their original plan for the (virtual) 2020 con fell through.
 - kind: url
   url: https://github.com/devBioS/DC28_DCZIA_BadgeChallengeSolver/blob/master/write-up.md
   title: DC28 DCZIA Build-Your-Own-Badge Challenge write-up
@@ -76,7 +79,7 @@ research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'No photos of an assembled unit were found (GitHub repo, dczia.net, and web search only surface generic OpenGraph link-preview cards, not device photos), so images stays empty. No price, quantity-made, or a clear stock/availability status is published anywhere found; it was a self-sourced parts kit rather than something DCZia sold or gave away as a finished item, so get_one.price/quantity are left blank and availability is "unknown". LEDs are not mentioned in any source. The GitHub topics/description tag this "#badgelife" and label it a "badge", though there is no custom PCB — it is Pi Zero W + off-the-shelf LCD HAT + 3D-printed case files, closer to a DIY kit than a traditional badge.'
+  notes: No photos of an assembled unit were found (GitHub repo, dczia.net, and web search only surface generic OpenGraph link-preview cards, not device photos), so images stays empty. No price, quantity-made, or a clear stock/availability status is published anywhere found; it was a self-sourced parts kit rather than something DCZia sold or gave away as a finished item, so get_one.price/quantity are left blank and availability is "unknown". LEDs are not mentioned in any source. The GitHub topics/description tag this "#badgelife" and label it a "badge", though there is no custom PCB — it is Pi Zero W + off-the-shelf LCD HAT + 3D-printed case files, closer to a DIY kit than a traditional badge.
 last_modified_date: '2026-09-07'
 ---
 

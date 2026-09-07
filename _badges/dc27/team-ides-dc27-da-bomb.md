@@ -14,8 +14,8 @@ makers:
   role: Team Ides
 - name: Bill Paul
   role: Team Ides
-summary: 'A rechargeable, BLE-linked electronic badge made by Team Ides for DEF CON 27, following their DC25 "Ides of Defcon" badge.'
-functions: 'RGB LED effects, stereo sound (up to 24-bit/96kHz) through PCB-mounted speakers, a small LCD, a Konami-code easter egg via its seven buttons, and BLE GATT-based multiplayer games between badges.'
+summary: A rechargeable, BLE-linked electronic badge made by Team Ides for DEF CON 27, following their DC25 "Ides of Defcon" badge.
+functions: RGB LED effects, stereo sound (up to 24-bit/96kHz) through PCB-mounted speakers, a small LCD, a Konami-code easter egg via its seven buttons, and BLE GATT-based multiplayer games between badges.
 look:
   colors: []
   shape: null
@@ -42,7 +42,7 @@ get_one:
   - crowdfunding
   where: Sold via a Kickstarter campaign and troupeit.com/badge.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/netik/dc27_badge
   firmware_url: https://github.com/netik/dc27_badge
   eda_tool: null
@@ -50,21 +50,25 @@ links:
 - label: hackaday.io/project/161163-team-ides-dc27-da-bomb
   url: https://hackaday.io/project/161163-team-ides-dc27-da-bomb
   kind: hackaday
+  archived: https://web.archive.org/web/20251105151814/https://hackaday.io/project/161163-team-ides-dc27-da-bomb
 - label: github.com/netik/dc27_badge
   url: https://github.com/netik/dc27_badge
   kind: repo
+  archived: https://web.archive.org/web/20260509062554/https://github.com/netik/dc27_badge
 images:
-  - file: assets/images/badges/dc27/team-ides-dc27-da-bomb/20ab33f703.jpg
-    source: "https://hackaday.io/project/161163-team-ides-dc27-da-bomb"
-    credit: "Team Ides (John Adams / Bill Paul)"
-    caption: "Da Bomb badge for DEF CON 27"
-  - file: assets/images/badges/dc27/team-ides-dc27-da-bomb/6d917f87a1.jpg
-    source: "https://hackaday.io/project/161163-team-ides-dc27-da-bomb"
-    credit: "Team Ides (John Adams / Bill Paul)"
-    caption: "3D render of the Da Bomb badge PCB"
+- file: assets/images/badges/dc27/team-ides-dc27-da-bomb/20ab33f703.jpg
+  source: https://hackaday.io/project/161163-team-ides-dc27-da-bomb
+  credit: Team Ides (John Adams / Bill Paul)
+  caption: Da Bomb badge for DEF CON 27
+  archived: https://web.archive.org/web/20251105151814/https://hackaday.io/project/161163-team-ides-dc27-da-bomb
+- file: assets/images/badges/dc27/team-ides-dc27-da-bomb/6d917f87a1.jpg
+  source: https://hackaday.io/project/161163-team-ides-dc27-da-bomb
+  credit: Team Ides (John Adams / Bill Paul)
+  caption: 3D render of the Da Bomb badge PCB
+  archived: https://web.archive.org/web/20251105151814/https://hackaday.io/project/161163-team-ides-dc27-da-bomb
 contact: {}
 notes:
-- 'Sheet listed a bare quantity of "500 units planned" and a Kickstarter goal of $35k-40k, with $15,000 in pledges reported reached during the campaign; exact final price per unit was not confirmed from the sources checked, so get_one.price is left blank.'
+- Sheet listed a bare quantity of "500 units planned" and a Kickstarter goal of $35k-40k, with $15,000 in pledges reported reached during the campaign; exact final price per unit was not confirmed from the sources checked, so get_one.price is left blank.
 status: released
 sources:
 - kind: url
@@ -72,16 +76,18 @@ sources:
   title: Team IDES DC27 Da Bomb
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: hackaday-list); event read as ''DEF CON 27''.'
+  archived: https://web.archive.org/web/20251105151814/https://hackaday.io/project/161163-team-ides-dc27-da-bomb
 - kind: url
   url: https://github.com/netik/dc27_badge
   title: netik/dc27_badge
   accessed: '2026-09-07'
   note: Confirms open-source hardware/firmware repo (Apache 2.0) with Kickstarter, artwork, hardware and software directories.
+  archived: https://web.archive.org/web/20260509062554/https://github.com/netik/dc27_badge
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'Core facts (maker, MCU, LEDs, BLE, sound, LCD, open-source repo) confirmed from the Hackaday.io project page and the maker''s GitHub repo. Could not confirm a per-unit retail price or exact LED count/type; the Kickstarter campaign page and troupeit.com/badge storefront both returned errors (403/404) when checked directly, so availability/current storefront status is unconfirmed and left as unknown.'
+  notes: Core facts (maker, MCU, LEDs, BLE, sound, LCD, open-source repo) confirmed from the Hackaday.io project page and the maker's GitHub repo. Could not confirm a per-unit retail price or exact LED count/type; the Kickstarter campaign page and troupeit.com/badge storefront both returned errors (403/404) when checked directly, so availability/current storefront status is unconfirmed and left as unknown.
 last_modified_date: '2026-09-07'
 ---
 

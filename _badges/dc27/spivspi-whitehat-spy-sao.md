@@ -43,6 +43,7 @@ links:
 - label: hackaday.io/project/166811-spivspi-sao-dc27-badge
   url: https://hackaday.io/project/166811-spivspi-sao-dc27-badge
   kind: hackaday
+  archived: https://web.archive.org/web/20251217031138/https://hackaday.io/project/166811-spivspi-sao-dc27-badge
 - label: twitter.com/SPIvSPI
   url: https://twitter.com/SPIvSPI
   kind: social

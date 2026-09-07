@@ -9,7 +9,7 @@ type: badge
 event: dc28
 year: 2020
 makers:
-- name: "Internet of Batteries (Whiskey Pirates crew: Aask, Lightning, true, RaigaHomsar42)"
+- name: 'Internet of Batteries (Whiskey Pirates crew: Aask, Lightning, true, RaigaHomsar42)'
   url: https://dc28.whiskeypirates.com/
 summary: A DEF CON 28 badge/SAO hybrid that back-powers add-on badges and tracks their power draw over a WiFi mesh network, rather than displaying its own light show.
 functions: Provides ~700mA at 3.3V to power other badges and SAOs through its four SAO-style headers; runs "Itero," a WiFi mesh network that lets up to 25 IoB units send broadcast or private text messages to each other; hosts a captive-portal web UI ("Captive Arcade") showing live power-consumption stats per port; can run standalone off its own battery.
@@ -37,7 +37,7 @@ get_one:
   price_usd: null
   quantity: about 50
   availability: sold_out
-  availability_note: 'Sold via shop.truecontrol.org during/after DC28 (Aug 2020); site now shows no listing for it as of 2026-09-07 check.'
+  availability_note: Sold via shop.truecontrol.org during/after DC28 (Aug 2020); site now shows no listing for it as of 2026-09-07 check.
   distribution:
   - purchase
   where: Sold by the Whiskey Pirates / trueControl crew through shop.truecontrol.org around DEF CON 28 (Aug 2020), with leftover stock earmarked for giveaways.
@@ -50,24 +50,30 @@ links:
 - label: hackaday.io/project/172036-internet-of-batteries-iob-dc28
   url: https://hackaday.io/project/172036-internet-of-batteries-iob-dc28
   kind: hackaday
+  archived: https://web.archive.org/web/20251211141115/https://hackaday.io/project/172036-internet-of-batteries-iob-dc28
 - label: hackaday.com/2020/08/09/hands-on-internet-of-batteries-quantum-badge-brings-badgelife-add-ons-the-power-and-internet-they-crave
   url: https://hackaday.com/2020/08/09/hands-on-internet-of-batteries-quantum-badge-brings-badgelife-add-ons-the-power-and-internet-they-crave/
   kind: article
+  archived: https://web.archive.org/web/20260419111826/https://hackaday.com/2020/08/09/hands-on-internet-of-batteries-quantum-badge-brings-badgelife-add-ons-the-power-and-internet-they-crave/
 - label: github.com/Aask42/IoB_DC28
   url: https://github.com/Aask42/IoB_DC28
   kind: repo
+  archived: https://web.archive.org/web/20251211045344/https://github.com/Aask42/IoB_DC28
 - label: dc28.whiskeypirates.com
   url: https://dc28.whiskeypirates.com/
   kind: website
+  archived: https://web.archive.org/web/20260519153316/https://dc28.whiskeypirates.com/
 images:
-  - file: assets/images/badges/dc28/internet-of-batteries-quantum-badge-dc28/cfa9ed69c2.jpg
-    source: "https://hackaday.io/project/172036-internet-of-batteries-iob-dc28"
-    credit: "Internet of Batteries / Whiskey Pirates team"
-    caption: "DEF CELL QUANTUM board powered on, green status LED lit"
-  - file: assets/images/badges/dc28/internet-of-batteries-quantum-badge-dc28/22d68b91db.jpg
-    source: "https://hackaday.io/project/172036-internet-of-batteries-iob-dc28"
-    credit: "Internet of Batteries / Whiskey Pirates team"
-    caption: "IoB2020 REV7 board showing the ESP32-WROOM-32 module and PSoC5 controller"
+- file: assets/images/badges/dc28/internet-of-batteries-quantum-badge-dc28/cfa9ed69c2.jpg
+  source: https://hackaday.io/project/172036-internet-of-batteries-iob-dc28
+  credit: Internet of Batteries / Whiskey Pirates team
+  caption: DEF CELL QUANTUM board powered on, green status LED lit
+  archived: https://web.archive.org/web/20251211141115/https://hackaday.io/project/172036-internet-of-batteries-iob-dc28
+- file: assets/images/badges/dc28/internet-of-batteries-quantum-badge-dc28/22d68b91db.jpg
+  source: https://hackaday.io/project/172036-internet-of-batteries-iob-dc28
+  credit: Internet of Batteries / Whiskey Pirates team
+  caption: IoB2020 REV7 board showing the ESP32-WROOM-32 module and PSoC5 controller
+  archived: https://web.archive.org/web/20251211141115/https://hackaday.io/project/172036-internet-of-batteries-iob-dc28
 contact: {}
 notes:
 - ESP32 + PSoC5 power/mesh-networking badge with 4 SAO ports, designed to power other badges' add-ons; gold-plated copper PCB front over red solder mask.
@@ -79,21 +85,25 @@ sources:
   title: Internet of Batteries (IoB-DC28) | Hackaday.io
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: dc28-dc29); event read as ''DEF CON 28 Safe Mode (unofficial)''.'
+  archived: https://web.archive.org/web/20251211141115/https://hackaday.io/project/172036-internet-of-batteries-iob-dc28
 - kind: url
   url: https://hackaday.com/2020/08/09/hands-on-internet-of-batteries-quantum-badge-brings-badgelife-add-ons-the-power-and-internet-they-crave/
   title: 'Hands-On: Internet Of Batteries Quantum Badge Brings Badgelife Add-Ons The Power And Internet They Crave'
   accessed: '2026-09-07'
   note: Confirmed maker (Whiskey Pirates/trueControl), ~50 units made, MCU (PSoC5 + ESP32), 9 RGB LEDs in 2x15 matrix on daughter board, LiPo battery, capacitive touch pads, colors/finish.
+  archived: https://web.archive.org/web/20260419111826/https://hackaday.com/2020/08/09/hands-on-internet-of-batteries-quantum-badge-brings-badgelife-add-ons-the-power-and-internet-they-crave/
 - kind: url
   url: https://github.com/Aask42/IoB_DC28
   title: 'GitHub - Aask42/IoB_DC28: Safe Mode w/ Networking'
   accessed: '2026-09-07'
   note: Repo holds both hardware and ESP32/PSoC5 firmware; PlatformIO-based build; no explicit license found.
+  archived: https://web.archive.org/web/20251211045344/https://github.com/Aask42/IoB_DC28
 - kind: url
   url: https://dc28.whiskeypirates.com/
   title: DC28 Pirate Projects - the whiskey pirates
   accessed: '2026-09-07'
-  note: 'Attempted fetch returned 403 (blocked); listed as the crew''s DC28 project hub in search results, cited here as the makers'' own site.'
+  note: Attempted fetch returned 403 (blocked); listed as the crew's DC28 project hub in search results, cited here as the makers' own site.
+  archived: https://web.archive.org/web/20260519153316/https://dc28.whiskeypirates.com/
 research:
   status: researched
   confidence: medium

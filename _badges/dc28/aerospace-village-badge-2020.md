@@ -11,8 +11,8 @@ year: 2020
 makers:
 - name: Aerospace Village
   url: https://www.aerospacevillage.org
-summary: 'An airplane-shaped badge/antenna that receives real ADS-B and ACARS aircraft transmissions, built for DEF CON 28''s Aerospace Village.'
-functions: 'Works as an SMA antenna to receive ADS-B (1090 MHz) and ACARS (131.550 MHz) transmissions from nearby aircraft for use with an external RTL-SDR dongle; also breaks out I2C for bus pirate-style device interaction and drives onboard lighting; can be worn as a lanyard.'
+summary: An airplane-shaped badge/antenna that receives real ADS-B and ACARS aircraft transmissions, built for DEF CON 28's Aerospace Village.
+functions: Works as an SMA antenna to receive ADS-B (1090 MHz) and ACARS (131.550 MHz) transmissions from nearby aircraft for use with an external RTL-SDR dongle; also breaks out I2C for bus pirate-style device interaction and drives onboard lighting; can be worn as a lanyard.
 look:
   colors: []
   shape: airplane
@@ -36,9 +36,9 @@ get_one:
   availability: unknown
   distribution:
   - kit
-  where: 'Distributed as a kit at Aerospace Village at DEF CON 28 (2020); assembly instructions reference Tindie.'
+  where: Distributed as a kit at Aerospace Village at DEF CON 28 (2020); assembly instructions reference Tindie.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/AerospaceVillage/avBadge_2020
   firmware_url: https://github.com/AerospaceVillage/avBadge_2020
   eda_tool: null
@@ -46,18 +46,22 @@ links:
 - label: github.com/AerospaceVillage/avBadge_2020
   url: https://github.com/AerospaceVillage/avBadge_2020
   kind: repo
-- label: 'DC28 Badge | Aerospace Village'
+  archived: https://web.archive.org/web/20260503194300/https://github.com/AerospaceVillage/avBadge_2020
+- label: DC28 Badge | Aerospace Village
   url: https://www.aerospacevillage.org/dc28-badge
   kind: website
+  archived: https://web.archive.org/web/20260520232307/https://www.aerospacevillage.org/dc28-badge
 images:
-  - file: assets/images/badges/dc28/aerospace-village-badge-2020/640649db6a.jpg
-    source: "https://github.com/AerospaceVillage/avBadge_2020"
-    credit: "Aerospace Village"
-    caption: "The airplane-shaped badge lit up in daytime mode"
-  - file: assets/images/badges/dc28/aerospace-village-badge-2020/2c7ec75148.gif
-    source: "https://github.com/AerospaceVillage/avBadge_2020"
-    credit: "Aerospace Village"
-    caption: "The airplane-shaped badge lit up in night mode showing its LEDs"
+- file: assets/images/badges/dc28/aerospace-village-badge-2020/640649db6a.jpg
+  source: https://github.com/AerospaceVillage/avBadge_2020
+  credit: Aerospace Village
+  caption: The airplane-shaped badge lit up in daytime mode
+  archived: https://web.archive.org/web/20260503194300/https://github.com/AerospaceVillage/avBadge_2020
+- file: assets/images/badges/dc28/aerospace-village-badge-2020/2c7ec75148.gif
+  source: https://github.com/AerospaceVillage/avBadge_2020
+  credit: Aerospace Village
+  caption: The airplane-shaped badge lit up in night mode showing its LEDs
+  archived: https://web.archive.org/web/20260503194300/https://github.com/AerospaceVillage/avBadge_2020
 contact: {}
 notes: []
 status: released
@@ -67,21 +71,24 @@ sources:
   title: Aerospace Village Badge 2020
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: villages-early: DEF CON village and DC-group badges, DEF CON 24-29 (2016-2021)); event read as ''DEF CON 28 (2020)''.'
+  archived: https://web.archive.org/web/20260503194300/https://github.com/AerospaceVillage/avBadge_2020
 - kind: url
   url: https://github.com/AerospaceVillage/avBadge_2020
   title: Aerospace Village Badge 2020 README
   accessed: '2026-09-07'
   note: 'Repo README: description, ATtiny85 MCU, I2C/bus pirate interaction, lighting packages, SMA antenna for ADS-B/ACARS, lanyard STL mod, Tindie kit assembly instructions, image URLs.'
+  archived: https://web.archive.org/web/20260503194300/https://github.com/AerospaceVillage/avBadge_2020
 - kind: url
   url: https://www.aerospacevillage.org/dc28-badge
-  title: 'DC28 Badge | Aerospace Village'
+  title: DC28 Badge | Aerospace Village
   accessed: '2026-09-07'
-  note: 'Maker''s own page confirming ADS-B (1090 MHz) and ACARS (131.550 MHz) reception via external RTL-SDR, and design credit to Richard Hansen, Zachary Klein, and Dan Allen.'
+  note: Maker's own page confirming ADS-B (1090 MHz) and ACARS (131.550 MHz) reception via external RTL-SDR, and design credit to Richard Hansen, Zachary Klein, and Dan Allen.
+  archived: https://web.archive.org/web/20260520232307/https://www.aerospacevillage.org/dc28-badge
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-07'
-  notes: 'Price, quantity made, and LED count/type are not stated on the GitHub repo or the Aerospace Village page and are left empty. The repo lists a secondary fork/contributor URL (github.com/daneallen/avBadge_2020) referenced in kit-assembly instruction links.'
+  notes: Price, quantity made, and LED count/type are not stated on the GitHub repo or the Aerospace Village page and are left empty. The repo lists a secondary fork/contributor URL (github.com/daneallen/avBadge_2020) referenced in kit-assembly instruction links.
 last_modified_date: '2026-09-07'
 ---
 

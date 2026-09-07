@@ -12,13 +12,7 @@ makers:
 - name: DC801
   url: https://dc801.store
 summary: A fully custom, open-source DEF CON party badge built around an nRF52840 SoC and a touchscreen, running a built-in game ("Hex Quest") where the hero's power is opening a hex editor and patching the game's own live memory.
-functions: >-
-  Runs a custom-built game engine playing "Hex Quest," a story-driven puzzle game whose
-  central mechanic is a live hex editor: the player edits RAM to manipulate the overworld,
-  NPCs, enemies, and their own character. Chapter 2 adds a USB-C serial console interface,
-  a "bling mode" with screensaver-style LED patterns, and a sandbox demo mode. Content is
-  authored in Tiled Map Editor plus a custom JSON scripting language, so owners can build
-  their own playable scenarios.
+functions: 'Runs a custom-built game engine playing "Hex Quest," a story-driven puzzle game whose central mechanic is a live hex editor: the player edits RAM to manipulate the overworld, NPCs, enemies, and their own character. Chapter 2 adds a USB-C serial console interface, a "bling mode" with screensaver-style LED patterns, and a sandbox demo mode. Content is authored in Tiled Map Editor plus a custom JSON scripting language, so owners can build their own playable scenarios.'
 look:
   colors: []
   shape: null
@@ -42,7 +36,7 @@ tech:
   sao_version: v1.69bis
   sao_ports: 1
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/DC801/BM-Badge/tree/main/Hardware
   firmware_url: https://github.com/DC801/BM-Badge
   eda_tool: KiCad
@@ -52,6 +46,7 @@ links:
 - label: github.com/dc801/BM-Badge
   url: https://github.com/dc801/BM-Badge
   kind: repo
+  archived: https://web.archive.org/web/20251106061234/https://github.com/DC801/BM-Badge
 - label: dc801.github.io/BM-Badge (play in browser)
   url: https://dc801.github.io/BM-Badge/
   kind: website
@@ -63,12 +58,12 @@ links:
   kind: article
 images:
 - file: assets/images/badges/dc28/dc801-bm-badge/7f6fbceec3.png
-  source: "https://dc801.store/products/dc801-black-mage-badge-2nd-batch"
-  credit: "DC801"
-  caption: "DC801 Black Mage Badge (2nd batch, 2022) product photo"
+  source: https://dc801.store/products/dc801-black-mage-badge-2nd-batch
+  credit: DC801
+  caption: DC801 Black Mage Badge (2nd batch, 2022) product photo
 contact: {}
 notes:
-- 'Sheet/sweep listed this generically as a "badge platform"; the maker calls it the "DC801 Black Mage Badge."'
+- Sheet/sweep listed this generically as a "badge platform"; the maker calls it the "DC801 Black Mage Badge."
 status: released
 sources:
 - kind: url
@@ -76,9 +71,10 @@ sources:
   title: DC801 BM-Badge
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: maker-groups); event read as ''DEF CON 28+ badge platform''.'
+  archived: https://web.archive.org/web/20251106061234/https://github.com/DC801/BM-Badge
 - kind: url
   url: https://github.com/DC801/BM-Badge/blob/main/README.md
-  title: 'BM-Badge README'
+  title: BM-Badge README
   accessed: '2026-09-07'
   note: Hardware spec list, SAO/MiniBadge/ART headers, open-source license, game engine and Chapter 1/2 description.
 - kind: url
@@ -95,15 +91,7 @@ research:
   status: researched
   confidence: high
   last_checked: '2026-09-07'
-  notes: >-
-    This entry covers the original DC28 (2020) "1st batch" Black Mage Badge. No source gave
-    the 1st-batch price or exact unit count, so get_one.price/price_usd/quantity are left
-    empty rather than guessed; the $801/$180 pricing found is specifically for the 2nd batch
-    (sold for DC30, 2022) and is not applied here. The badge line continued with new batches
-    and firmware chapters through at least DC32 (2024); those later releases belong to
-    separate history, not this DC28 entry. A different, unaffiliated maker ("redactd") sold a
-    "Bootleg Edition" reproduction of this badge on Tindie (black FR4, blue LEDs, $250,
-    out of stock since Aug 2022) — noted below as a possible separate entry, not folded in here.
+  notes: This entry covers the original DC28 (2020) "1st batch" Black Mage Badge. No source gave the 1st-batch price or exact unit count, so get_one.price/price_usd/quantity are left empty rather than guessed; the $801/$180 pricing found is specifically for the 2nd batch (sold for DC30, 2022) and is not applied here. The badge line continued with new batches and firmware chapters through at least DC32 (2024); those later releases belong to separate history, not this DC28 entry. A different, unaffiliated maker ("redactd") sold a "Bootleg Edition" reproduction of this badge on Tindie (black FR4, blue LEDs, $250, out of stock since Aug 2022) — noted below as a possible separate entry, not folded in here.
 last_modified_date: '2026-09-07'
 ---
 

@@ -11,18 +11,23 @@ year: 2019
 makers:
 - name: KeeperOfBits
   url: https://github.com/countmurphy
-summary: 'A Stargate-shaped LED badge with animated chevrons and a lit "wormhole" sequence, made for DEF CON 27.'
+summary: A Stargate-shaped LED badge with animated chevrons and a lit "wormhole" sequence, made for DEF CON 27.
 functions: 'Blinkenlights-style animations: chevrons light in rotating clockwise/counterclockwise sequences followed by a wormhole-style lighting effect across the ring of blue LEDs.'
 look:
-  colors: [blue]
-  shape: 'stargate ring'
-  themes: [sci-fi, space, movie, tv]
+  colors:
+  - blue
+  shape: stargate ring
+  themes:
+  - sci-fi
+  - space
+  - movie
+  - tv
 tech:
   mcu: NXP KL27
   leds:
     count: 104
     type: discrete
-    note: '38 side-mounted LEDs for the chevrons plus 66 blue LEDs for the ring, driven via 5x 74HC/HCT595 shift registers'
+    note: 38 side-mounted LEDs for the chevrons plus 66 blue LEDs for the ring, driven via 5x 74HC/HCT595 shift registers
   display: none
   connectivity: []
   battery: null
@@ -35,12 +40,12 @@ get_one:
   distribution: []
   where: ''
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/countmurphy/DoorwayToHeaven
   firmware_url: https://github.com/countmurphy/DoorwayToHeaven
   eda_tool: KiCad
   license: MIT
-  notes: 'Repo (DoorwayToHeaven) contains KiCad schematic/PCB files and firmware source, with build and flashing instructions in the README under software/.'
+  notes: Repo (DoorwayToHeaven) contains KiCad schematic/PCB files and firmware source, with build and flashing instructions in the README under software/.
 links:
 - label: random-hackery.net/post/stargate
   url: https://random-hackery.net/post/stargate/
@@ -48,15 +53,16 @@ links:
 - label: DoorwayToHeaven (GitHub)
   url: https://github.com/countmurphy/DoorwayToHeaven
   kind: repo
+  archived: https://web.archive.org/web/20251214150547/https://github.com/countmurphy/DoorwayToHeaven
 images:
-  - file: assets/images/badges/dc27/stargate-badge-dc27/9f8c6b259c.jpg
-    source: "https://random-hackery.net/post/stargate/"
-    credit: "KeeperOfBits (CountMurphy)"
-    caption: "The assembled Stargate-shaped PCB badge"
-  - file: assets/images/badges/dc27/stargate-badge-dc27/979724bfb5.jpg
-    source: "https://random-hackery.net/post/stargate/"
-    credit: "KeeperOfBits (CountMurphy)"
-    caption: "Badge worn on a custom lanyard"
+- file: assets/images/badges/dc27/stargate-badge-dc27/9f8c6b259c.jpg
+  source: https://random-hackery.net/post/stargate/
+  credit: KeeperOfBits (CountMurphy)
+  caption: The assembled Stargate-shaped PCB badge
+- file: assets/images/badges/dc27/stargate-badge-dc27/979724bfb5.jpg
+  source: https://random-hackery.net/post/stargate/
+  credit: KeeperOfBits (CountMurphy)
+  caption: Badge worn on a custom lanyard
 contact: {}
 notes: []
 status: released
@@ -75,12 +81,13 @@ sources:
   url: https://github.com/countmurphy/DoorwayToHeaven
   title: countmurphy/DoorwayToHeaven
   accessed: '2026-09-07'
-  note: 'Repo README states "This is the Stargate badge for DEF con 27"; confirms KiCad hardware files, firmware, and MIT license.'
+  note: Repo README states "This is the Stargate badge for DEF con 27"; confirms KiCad hardware files, firmware, and MIT license.
+  archived: https://web.archive.org/web/20251214150547/https://github.com/countmurphy/DoorwayToHeaven
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-07'
-  notes: 'Price and sale/distribution details (whether it was sold, given away, or contest-only) were not stated on the maker''s page or repo, so get_one.price/where/distribution/availability are left empty/unknown. The badge was also featured in a Hak5 segment with Shannon Morse per the maker''s writeup, but that video was not located to verify further details.'
+  notes: Price and sale/distribution details (whether it was sold, given away, or contest-only) were not stated on the maker's page or repo, so get_one.price/where/distribution/availability are left empty/unknown. The badge was also featured in a Hak5 segment with Shannon Morse per the maker's writeup, but that video was not located to verify further details.
 last_modified_date: '2026-09-07'
 ---
 

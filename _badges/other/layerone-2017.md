@@ -1,5 +1,5 @@
 ---
-title: LayerOne 2017
+title: LayerOne 2017 Electronic Badge
 id: other-layerone-2017
 layout: badge
 parent: Other
@@ -7,30 +7,40 @@ grand_parent: Badge Archive
 nav_exclude: true
 type: badge
 event: other
-year: 0
-makers: []
-summary: ''
-functions: ''
+year: 2017
+makers:
+- name: charliex
+  url: https://hackaday.io/charliex
+- name: mmca
+  role: battery design
+summary: 'A car-hacking educational badge for LayerOne 2017 built around dual CAN bus interfaces, letting attendees sniff, log, and replay CAN packets to learn vehicle-hacking techniques.'
+functions: 'CAN bus sniffing, logging, graphing and packet replay for vehicle-hacking games/education; runs a NES emulator; USB host/device; SD card storage; audio out.'
 look:
   colors: []
   shape: null
-  themes: []
+  themes:
+  - security
+  - hardware tool
+  - learn to solder
 tech:
-  mcu: null
+  mcu: STM32F446
   leds: null
-  display: null
-  connectivity: []
-  battery: null
+  display: 2.2-2.4" TFT LCD (ILI9341/45)
+  connectivity:
+  - usb
+  - sub-ghz
+  battery: 18650 Li-Ion, onboard charging via BQ24075
   sao_version: null
 get_one:
-  price: ''
-  price_usd: null
-  quantity: ''
-  availability: unknown
-  distribution: []
-  where: ''
+  price: $60
+  price_usd: 60
+  quantity: 'approximately 400 planned for the 2017 conference'
+  availability: sold_out
+  distribution:
+  - purchase
+  where: 'Sold via the maker''s Tindie store (charliex6); as of research date the seller listing shows "taking a break" / not accepting orders.'
 make_your_own:
-  open_source: null
+  open_source: yes
   hardware_url: null
   firmware_url: null
   eda_tool: null
@@ -38,21 +48,50 @@ links:
 - label: hackaday.io/project/13262-layerone-2017
   url: https://hackaday.io/project/13262-layerone-2017
   kind: hackaday
-images: []
+- label: tindie.com/products/charliex6/layerone-2017-electronic-badge
+  url: https://www.tindie.com/products/charliex6/layerone-2017-electronic-badge/
+  kind: store
+- label: 'OBD II CAN Bus cable for the badge (Tindie)'
+  url: https://www.tindie.com/products/charliex6/obd-ii-can-bus-cable-for-layerone-2017-badge/
+  kind: store
+images:
+  - file: assets/images/badges/other/layerone-2017/2c6a7c83c7.jpg
+    source: "https://www.tindie.com/products/charliex6/layerone-2017-electronic-badge/"
+    credit: "charliex"
+    caption: "LayerOne 2017 electronic badge, front view"
 contact: {}
-notes: []
-status: listed
+notes:
+- 'Made for the LayerOne conference (Los Angeles), which has no matching id in _data/events.yml.'
+status: released
 sources:
 - kind: url
   url: https://hackaday.io/project/13262-layerone-2017
   title: LayerOne 2017
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: hackaday-list); event read as ''LayerOne 2017''.'
+- kind: url
+  url: https://hackaday.io/project/13262-layerone-2017
+  title: LayerOne 2017 | Hackaday.io
+  accessed: '2026-09-07'
+  note: 'Confirmed maker (charliex, with mmca on battery design), MCU (STM32F446), display, CAN bus feature set, ~400 units planned, SVN design files.'
+- kind: url
+  url: https://www.tindie.com/products/charliex6/layerone-2017-electronic-badge/
+  title: layerOne 2017 Electronic Badge - Tindie
+  accessed: '2026-09-07'
+  note: 'Price ($60), seller currently not accepting orders, and product photo.'
+- kind: url
+  url: https://www.tindie.com/products/charliex6/obd-ii-can-bus-cable-for-layerone-2017-badge/
+  title: 'OBD II CAN Bus cable for layerOne 2017 badge - Tindie'
+  accessed: '2026-09-07'
+  note: 'Confirms accessory cable existed for OBD II / J2534 connections for the badge.'
 research:
-  status: stub
-  confidence: low
-  last_checked: '2026-09-06'
-  notes: Imported from the community badge sheet; not yet researched.
-last_modified_date: '2026-09-06'
+  status: researched
+  confidence: medium
+  last_checked: '2026-09-07'
+  notes: 'No matching LayerOne event id exists in _data/events.yml, so event is left as "other"; this badge was made for the LayerOne conference, 2017. LED count/type, exact hardware/firmware repo URLs, and EDA tool were not stated on the pages checked (design files were said to be kept in SVN, no public link found). Availability marked sold_out based on the Tindie listing being closed to new orders as of the check date, though this could also reflect a temporary seller break rather than a permanent sellout.'
+last_modified_date: '2026-09-07'
 ---
 
+The LayerOne 2017 badge was a car-hacking teaching tool built around an STM32F446 microcontroller and a 2.2–2.4" color TFT display, designed by Hackaday.io user charliex with mmca finishing the battery design. Its centerpiece is a dual CAN bus interface (SN65HVD230 transceivers, 1 Mbps) that let attendees sniff, log, graph, and replay CAN packets as a way of learning vehicle-hacking fundamentals, alongside more conventional badge features like USB host/device support, an SD card slot, a headphone jack, and an 18650 Li-Ion battery with onboard charging.
+
+Roughly 400 units were planned for the 2017 conference. The maker later sold badges directly through a Tindie store for $60, along with a companion OBD II/CAN bus cable accessory for connecting the badge to a real vehicle's OBD II port. As of this research, the Tindie listing shows the seller is not currently accepting orders. Design files were kept in an SVN repository rather than a public GitHub/GitLab link, and the project page mentions multiple firmware experiments, including a NES emulator adapted to use the CAN bus.

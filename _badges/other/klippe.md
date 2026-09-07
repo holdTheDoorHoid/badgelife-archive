@@ -9,27 +9,31 @@ type: accessory
 event: other
 year: 0
 makers:
-- name: ghostglitch (GhostGlitch)
-summary: ''
-functions: ''
+- name: GhostGlitch
+  url: https://ghostglitch.net
+summary: A small lanyard clip from GhostGlitch that carries a coin-cell battery holder and an SAO v2 header, letting a lanyard power and display an SAO without a host badge.
+functions: Holds a CR-series coin cell and breaks out an SAOv2 (6-pin) connector so any SAO can be worn and powered directly from a lanyard.
 look:
   colors: []
   shape: null
-  themes: []
+  themes:
+  - hardware tool
+  - wearable
 tech:
   mcu: null
   leds: null
   display: null
   connectivity: []
-  battery: null
-  sao_version: null
+  battery: coin cell
+  sao_version: v2
 get_one:
-  price: ''
-  price_usd: null
+  price: $5 (5+ units $20)
+  price_usd: 5
   quantity: ''
-  availability: unknown
-  distribution: []
-  where: ''
+  availability: sold_out
+  distribution:
+  - purchase
+  where: Sold through GhostGlitch's Uberflux storefront; listed as out of stock (0 remaining) with $10 flat shipping.
 make_your_own:
   open_source: null
   hardware_url: null
@@ -39,7 +43,11 @@ links:
 - label: uberflux.com/product/GG-KLIPPE-V001
   url: https://uberflux.com/product/GG-KLIPPE-V001
   kind: store
-images: []
+images:
+- file: assets/images/badges/other/klippe/0063ff9b03.jpg
+  source: "https://uberflux.com/product/GG-KLIPPE-V001"
+  credit: "GhostGlitch"
+  caption: "Klippe lanyard SAO clip"
 contact: {}
 notes:
 - 'Uberflux. $5, status: sold out.'
@@ -50,11 +58,24 @@ sources:
   title: Klippe
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: uberflux-shops); event read as ''unknown''.'
+- kind: url
+  url: https://uberflux.com/product/GG-KLIPPE-V001
+  title: Klippe - GG-KLIPPE-V001
+  accessed: '2026-09-07'
+  note: 'Product page confirms it is a lanyard accessory with a coin-cell holder and an SAOv2 port, priced $5 ($20 for 5+), currently out of stock; also source of the product photo.'
+- kind: url
+  url: https://ghostglitch.net
+  title: GhostGlitch
+  accessed: '2026-09-07'
+  note: 'Maker site checked; its SAO listing page does not mention Klippe by name, and no specific con/year tie-in was found for this accessory.'
 research:
-  status: stub
-  confidence: low
-  last_checked: '2026-09-06'
-  notes: Imported from the community badge sheet; not yet researched.
-last_modified_date: '2026-09-06'
+  status: researched
+  confidence: medium
+  last_checked: '2026-09-07'
+  notes: 'Confirmed via the Uberflux storefront that this is a lanyard-mounted SAO holder (coin-cell + SAOv2 port), not a badge or SAO itself. No maker page, event, or year could be found tying it to a specific convention; GhostGlitch''s other work (Blushy, Mr. Cactus, Badgelife Village SAOs) is tied to DEF CON, but Klippe itself is sold as a standalone accessory with no stated event. MCU, LED, and open-source fields left empty since no source describes any electronics beyond the battery holder and connector.'
+last_modified_date: '2026-09-07'
 ---
 
+Klippe is a small lanyard accessory from GhostGlitch, the maker behind several DEF CON-adjacent SAOs and badges (Blushy, Mr. Cactus, the Badgelife Village SAOs). Rather than being a badge or SAO in its own right, it is a clip that mounts on a lanyard and carries a coin-cell battery holder alongside an SAO v2 (6-pin) header, so a wearer can plug in and power any compatible SAO without needing a full badge underneath it.
+
+It was sold through GhostGlitch's Uberflux storefront for $5 (or $20 for a pack of five-plus), with flat $10 shipping. As of research, the listing shows it sold out with zero units remaining. No specific convention or year is named on the product page or on GhostGlitch's own site, so it appears to have been offered as a general-purpose accessory for the badge-collecting community rather than tied to one event.

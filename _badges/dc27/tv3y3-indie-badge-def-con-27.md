@@ -11,13 +11,19 @@ year: 2019
 makers:
 - name: Harbinger LTD
   url: https://www.tindie.com/stores/awkwardai/
-  role: "designer (Tindie/Hackaday.io handle: awkwardai / 'awkward intelligence')"
-summary: 'A DEF CON 27 badge shaped like a severed alien robotic eyeball, doubling as an image target for a companion AR app built with Vuforia; it carries a charlieplexed LED matrix run by a socketed ATtiny85.'
-functions: 'The front artwork is a printed AR marker recognized by a companion iOS/Android app (Vuforia-based image recognition, not facial recognition). On the back, an ATtiny85 in an 8-pin socket drives a charlieplexed 12-LED matrix with animations. Two SAO ports let other add-ons plug in, and exposed/hidden copper traces let owners cut into the board to reach spare microcontroller pins and the SAO data lines for hardware hacking.'
+  role: 'designer (Tindie/Hackaday.io handle: awkwardai / ''awkward intelligence'')'
+summary: A DEF CON 27 badge shaped like a severed alien robotic eyeball, doubling as an image target for a companion AR app built with Vuforia; it carries a charlieplexed LED matrix run by a socketed ATtiny85.
+functions: The front artwork is a printed AR marker recognized by a companion iOS/Android app (Vuforia-based image recognition, not facial recognition). On the back, an ATtiny85 in an 8-pin socket drives a charlieplexed 12-LED matrix with animations. Two SAO ports let other add-ons plug in, and exposed/hidden copper traces let owners cut into the board to reach spare microcontroller pins and the SAO data lines for hardware hacking.
 look:
-  colors: [black, gold, copper]
+  colors:
+  - black
+  - gold
+  - copper
   shape: other
-  themes: [robot, sci-fi, cyberpunk]
+  themes:
+  - robot
+  - sci-fi
+  - cyberpunk
 tech:
   mcu: ATtiny85
   leds:
@@ -34,32 +40,37 @@ get_one:
   price_usd: 50
   quantity: ''
   availability: sold_out
-  availability_note: 'Tindie listing shows availability "oos" (out of stock) as of 2026-09-07.'
-  distribution: [purchase]
-  where: 'Sold by Harbinger LTD (Tindie seller awkwardai) as a bare board, component kit, or fully assembled unit; each version shipped with a lanyard and one of three random companion SAOs.'
+  availability_note: Tindie listing shows availability "oos" (out of stock) as of 2026-09-07.
+  distribution:
+  - purchase
+  where: Sold by Harbinger LTD (Tindie seller awkwardai) as a bare board, component kit, or fully assembled unit; each version shipped with a lanyard and one of three random companion SAOs.
 make_your_own:
   open_source: partial
   hardware_url: https://hackaday.io/project/164210-defcon-27-tv3y3-badge
   firmware_url: null
   gerbers_url: https://hackaday.io/project/164210-defcon-27-tv3y3-badge
   eda_tool: null
-  notes: 'Final Gerbers and the AR image-target photos are published as downloads on the Hackaday.io project page (12 files total). No separate firmware/source code for the ATtiny85 animations was found published; units ship with the chip preprogrammed.'
+  notes: Final Gerbers and the AR image-target photos are published as downloads on the Hackaday.io project page (12 files total). No separate firmware/source code for the ATtiny85 animations was found published; units ship with the chip preprogrammed.
 links:
 - label: www.tindie.com/products/awkwardai/tv3y3-indie-badge-for-def-con-27
   url: https://www.tindie.com/products/awkwardai/tv3y3-indie-badge-for-def-con-27/
   kind: store
+  archived: https://web.archive.org/web/20260503123834/https://www.tindie.com/products/awkwardai/tv3y3-indie-badge-for-def-con-27/
 - label: 'Hackaday.io: Defcon 27 TV3Y3 Badge'
   url: https://hackaday.io/project/164210-defcon-27-tv3y3-badge
   kind: hackaday
+  archived: https://web.archive.org/web/20260508164750/https://hackaday.io/project/164210-defcon-27-tv3y3-badge
 images:
-  - file: assets/images/badges/dc27/tv3y3-indie-badge-def-con-27/7801f74b0f.jpg
-    source: "https://www.tindie.com/products/awkwardai/tv3y3-indie-badge-for-def-con-27/"
-    credit: "Harbinger LTD"
-    caption: "TV3Y3 Indie Badge, eyeball-styled PCB badge with exposed copper artwork and charlieplexed LED matrix"
-  - file: assets/images/badges/dc27/tv3y3-indie-badge-def-con-27/52fb6cea55.jpg
-    source: "https://www.tindie.com/products/awkwardai/tv3y3-indie-badge-for-def-con-27/"
-    credit: "Harbinger LTD"
-    caption: "TV3Y3 Indie Badge, showing the SAO adapters and battery holder on the back"
+- file: assets/images/badges/dc27/tv3y3-indie-badge-def-con-27/7801f74b0f.jpg
+  source: https://www.tindie.com/products/awkwardai/tv3y3-indie-badge-for-def-con-27/
+  credit: Harbinger LTD
+  caption: TV3Y3 Indie Badge, eyeball-styled PCB badge with exposed copper artwork and charlieplexed LED matrix
+  archived: https://web.archive.org/web/20260503123834/https://www.tindie.com/products/awkwardai/tv3y3-indie-badge-for-def-con-27/
+- file: assets/images/badges/dc27/tv3y3-indie-badge-def-con-27/52fb6cea55.jpg
+  source: https://www.tindie.com/products/awkwardai/tv3y3-indie-badge-for-def-con-27/
+  credit: Harbinger LTD
+  caption: TV3Y3 Indie Badge, showing the SAO adapters and battery holder on the back
+  archived: https://web.archive.org/web/20260503123834/https://www.tindie.com/products/awkwardai/tv3y3-indie-badge-for-def-con-27/
 contact: {}
 notes: []
 status: released
@@ -69,21 +80,24 @@ sources:
   title: TV3Y3 Indie Badge (DEF CON 27)
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: dc26-dc27-sao-wave); event read as ''DEF CON 27''.'
+  archived: https://web.archive.org/web/20260503123834/https://www.tindie.com/products/awkwardai/tv3y3-indie-badge-for-def-con-27/
 - kind: url
   url: https://www.tindie.com/products/awkwardai/tv3y3-indie-badge-for-def-con-27/
   title: TV3Y3 Indie Badge for DEF CON 27 from Harbinger LTD on Tindie
   accessed: '2026-09-07'
-  note: 'Confirmed maker (Harbinger LTD), price ($50), out-of-stock status, feature list, kit tiers, and the Hackaday.io documentation link.'
+  note: Confirmed maker (Harbinger LTD), price ($50), out-of-stock status, feature list, kit tiers, and the Hackaday.io documentation link.
+  archived: https://web.archive.org/web/20260503123834/https://www.tindie.com/products/awkwardai/tv3y3-indie-badge-for-def-con-27/
 - kind: url
   url: https://hackaday.io/project/164210-defcon-27-tv3y3-badge
-  title: 'Defcon 27 TV3Y3 Badge - Hackaday.io project page'
+  title: Defcon 27 TV3Y3 Badge - Hackaday.io project page
   accessed: '2026-09-07'
-  note: 'Confirmed AR/Vuforia companion-app concept, ATtiny85 + charlieplexed LED detail, and location of published Gerber/image-target files.'
+  note: Confirmed AR/Vuforia companion-app concept, ATtiny85 + charlieplexed LED detail, and location of published Gerber/image-target files.
+  archived: https://web.archive.org/web/20260508164750/https://hackaday.io/project/164210-defcon-27-tv3y3-badge
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-07'
-  notes: 'Quantity made and a firmware/code repository were not found published anywhere; left empty. No SAO header pin-count (v1 vs v2) is stated by the maker, so sao_version is left null.'
+  notes: Quantity made and a firmware/code repository were not found published anywhere; left empty. No SAO header pin-count (v1 vs v2) is stated by the maker, so sao_version is left null.
 last_modified_date: '2026-09-07'
 ---
 
