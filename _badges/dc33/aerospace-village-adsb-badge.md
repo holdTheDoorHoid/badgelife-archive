@@ -58,12 +58,15 @@ links:
 - label: github.com/AerospaceVillage/avBadge_2024
   url: https://github.com/AerospaceVillage/avBadge_2024
   kind: repo
+  archived: https://web.archive.org/web/20260510082248/https://github.com/AerospaceVillage/avBadge_2024/
 - label: Aerospace Village - DC33 Badge
   url: https://www.aerospacevillage.org/dc33-badge
   kind: website
+  archived: https://web.archive.org/web/20260520233012/https://www.aerospacevillage.org/dc33-badge
 - label: 2024 Aerospace Village Badge (Tindie, retired)
   url: https://www.tindie.com/products/aero_village/2024-aerospace-village-badge/
   kind: store
+  archived: https://web.archive.org/web/20260505022036/https://www.tindie.com/products/aero_village/2024-aerospace-village-badge/
 - label: The Aerospace Village DC33 Badge (HamRadio.my writeup)
   url: https://hamradio.my/aerospace-village-dc33-badge/
   kind: article
@@ -72,26 +75,32 @@ images:
   source: https://www.aerospacevillage.org/dc33-badge
   credit: Aerospace Village
   caption: Front of the badge, showing the display and antenna
+  archived: https://web.archive.org/web/20260520233012/https://www.aerospacevillage.org/dc33-badge
 - file: assets/images/badges/dc33/aerospace-village-adsb-badge/7b00734163.jpg
   source: https://www.aerospacevillage.org/dc33-badge
   credit: Aerospace Village
   caption: Back of the badge, showing the battery compartment and connectors
+  archived: https://web.archive.org/web/20260520233012/https://www.aerospacevillage.org/dc33-badge
 - file: assets/images/badges/dc33/aerospace-village-adsb-badge/ebc1b86606.jpg
   source: https://www.aerospacevillage.org/dc33-badge
   credit: Aerospace Village
   caption: Front view of the DC33 badge
+  archived: https://web.archive.org/web/20260520233012/https://www.aerospacevillage.org/dc33-badge
 - file: assets/images/badges/dc33/aerospace-village-adsb-badge/21308784a5.jpg
   source: https://www.aerospacevillage.org/dc33-badge
   credit: Rare Circuits / Aerospace Village
   caption: DC33 SAO with OLED display and antenna jacks
+  archived: https://web.archive.org/web/20260520233012/https://www.aerospacevillage.org/dc33-badge
 - file: assets/images/badges/dc33/aerospace-village-adsb-badge/e5717a9a23.jpg
   source: https://www.aerospacevillage.org/dc33-badge
   credit: Aerospace Village / Rare Circuits
   caption: Front of the DC33 SAO, showing the RARE CIRCUITS logo
+  archived: https://web.archive.org/web/20260520233012/https://www.aerospacevillage.org/dc33-badge
 - file: assets/images/badges/dc33/aerospace-village-adsb-badge/fc0b46eedc.jpg
   source: https://www.aerospacevillage.org/dc33-badge
   credit: Aerospace Village / Rare Circuits
   caption: Back of the DC33 SAO circuit board
+  archived: https://web.archive.org/web/20260520233012/https://www.aerospacevillage.org/dc33-badge
 contact:
   emails:
   - hcadam@proton.me
@@ -108,11 +117,13 @@ sources:
   title: DC33 Badge | Aerospace Village
   accessed: '2026-09-06'
   note: Maker, price tiers, distribution, SAO collaboration, and badge photos.
+  archived: https://web.archive.org/web/20260520233012/https://www.aerospacevillage.org/dc33-badge
 - kind: url
   url: https://github.com/AerospaceVillage/avBadge_2024
   title: GitHub - AerospaceVillage/avBadge_2024
   accessed: '2026-09-06'
   note: Confirms hardware spec (dual-core, 128MB DDR3, 8GB eMMC), software releases, SAO connector (I2C/UART/CAN).
+  archived: https://web.archive.org/web/20260510082248/https://github.com/AerospaceVillage/avBadge_2024/
 - kind: url
   url: https://hamradio.my/aerospace-village-dc33-badge/
   title: 'The Aerospace Village DC33 Badge: A Linux SDR That Tracks Aircraft in Real Time'
@@ -123,6 +134,7 @@ sources:
   title: 2024 Aerospace Village Badge
   accessed: '2026-09-06'
   note: Confirms the badge is now listed as retired/out of stock; open-source claim and SAO connector spec.
+  archived: https://web.archive.org/web/20260505022036/https://www.tindie.com/products/aero_village/2024-aerospace-village-badge/
 - kind: sheet
   event: dc33
   row: 5

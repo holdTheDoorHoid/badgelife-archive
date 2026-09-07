@@ -44,18 +44,21 @@ links:
 - label: Hackerware.io/gospel
   url: https://Hackerware.io/gospel
   kind: website
+  archived: https://web.archive.org/web/20251007151125/https://hackerware.io/gospel
 - label: x.com/arcanuminfosec
   url: https://x.com/arcanuminfosec
   kind: social
 - label: x.com/Jhaddix
   url: https://x.com/Jhaddix
   kind: social
+  archived: https://web.archive.org/web/20260602050916/https://x.com/jhaddix
 - label: The Arcanum Gospel Badge (Hackster.io)
   url: https://www.hackster.io/HacksFromPanda/the-arcanum-gospel-badge-f8c3b0
   kind: article
 - label: Hackerware.io
   url: https://www.hackerware.io/
   kind: website
+  archived: https://web.archive.org/web/20260523123718/https://hackerware.io/
 - label: www.hackerwares.in/gospel
   url: https://www.hackerwares.in/gospel
   kind: website
@@ -67,6 +70,7 @@ images:
   source: https://hackerware.io/gospel
   credit: Hackerware.io / Abhinav SP
   caption: The Arcanum Gospel Book badge, a light-up flexible-page PCB book worn on a lanyard
+  archived: https://web.archive.org/web/20251007151125/https://hackerware.io/gospel
 contact:
   raw:
   - Follow  &  for badge drops.
@@ -84,11 +88,13 @@ sources:
   title: Arcanum Gospel Badge - Hackerware.io
   accessed: '2026-09-06'
   note: Maker's own project page; confirms rigid cover + flexible "parchment" pages, MODE button, and binary-input CTF via a sigil button. No MCU/LED/price/quantity specs given.
+  archived: https://web.archive.org/web/20251007151125/https://hackerware.io/gospel
 - kind: url
   url: https://www.hackerware.io/
   title: 'Hackerware - #BadgeLife'
   accessed: '2026-09-06'
   note: Lists "The Gospel Book" among Hackerware's badges, describing rigid PCB cover, flexible-film pages, and crypto CTF; no DEF CON 33 specifics or pricing given.
+  archived: https://web.archive.org/web/20260523123718/https://hackerware.io/
 - kind: url
   url: https://www.hackster.io/HacksFromPanda/the-arcanum-gospel-badge-f8c3b0
   title: The Arcanum Gospel Badge - Hackster.io

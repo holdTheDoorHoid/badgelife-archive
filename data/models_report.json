@@ -267,12 +267,14 @@
   "src": "MrRobotBadge.brd"
  },
  "dc33-htp-graffiti": {
-  "status": "failed",
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 133172,
   "tried": [
    "kicad glb: glb export failed: Failed to load board: One or more items were found on undefined layers (Rescue). Open the board in the PCB Editor to resolve.\n",
-   "cleanup retry:  last):\n  File \"<string>\", line 18, in <module>\n    for it in items(b.GetDrawings): moved += fix(it)\n                   ",
-   "kicad gerbers: gerber export failed: Failed to load board: One or more items were found on undefined layers (Rescue). Open the board in the PCB Editor to resolve.\n"
-  ]
+   "retried with layer Rescue moved to Cmts.User"
+  ],
+  "src": "Black PCB DC34.kicad_pcb"
  },
  "fri3d-2024-fri3d-camp-2024-badge": {
   "status": "ok",
@@ -321,5 +323,41 @@
    "eagle->kicad ok"
   ],
   "src": "eggplant.brd"
+ },
+ "dc26-heartybadge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 661052,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "pc_badge_hrv.brd"
+ },
+ "dc27-dc27-multi-pass": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 718972,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "element.brd"
+ },
+ "dc29-dc29-makeithackin-58khz-security-tag-sao": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 71512,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "SAO_3.brd"
+ },
+ "dc29-dc29-makeithackin-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 71480,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "SAO_3.brd"
  }
 }

@@ -13,8 +13,8 @@ makers:
   url: https://hackaday.io/whitchurch
 - name: Archana Vijayan
   url: https://hackaday.io/Archie07
-summary: 'A single-lead ECG and heart-rate-variability monitor built into a DEF CON 26 conference badge, based on ProtoCentral''s HeartyPatch design.'
-functions: 'Records a single-lead ECG and derives heart-rate variability; pinching the two gold-plated electrode pads between thumb and forefinger triggers a heart-shaped animation on the LED matrix in time with the wearer''s heartbeat.'
+summary: A single-lead ECG and heart-rate-variability monitor built into a DEF CON 26 conference badge, based on ProtoCentral's HeartyPatch design.
+functions: Records a single-lead ECG and derives heart-rate variability; pinching the two gold-plated electrode pads between thumb and forefinger triggers a heart-shaped animation on the LED matrix in time with the wearer's heartbeat.
 look:
   colors:
   - black
@@ -45,7 +45,7 @@ get_one:
   distribution: []
   where: ''
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/Protocentral/HeartyBadge
   firmware_url: https://github.com/Protocentral/HeartyBadge
 links:
@@ -60,16 +60,16 @@ links:
   kind: article
 images:
 - file: assets/images/badges/dc26/heartybadge/efc40991c4.jpg
-  source: "https://hackaday.io/project/160846-heartybadge"
-  credit: "Ashwin K Whitchurch / Protocentral"
-  caption: "HeartyBadge PCB badge front"
+  source: https://hackaday.io/project/160846-heartybadge
+  credit: Ashwin K Whitchurch / Protocentral
+  caption: HeartyBadge PCB badge front
 - file: assets/images/badges/dc26/heartybadge/2ce6e536b9.gif
-  source: "https://hackaday.io/project/160846-heartybadge"
-  credit: "Ashwin K Whitchurch / Protocentral"
-  caption: "HeartyBadge LED heart animation"
+  source: https://hackaday.io/project/160846-heartybadge
+  credit: Ashwin K Whitchurch / Protocentral
+  caption: HeartyBadge LED heart animation
 contact: {}
 notes:
-- 'Sheet listed event as unknown; sources confirm it was built for DEF CON 26 (2018).'
+- Sheet listed event as unknown; sources confirm it was built for DEF CON 26 (2018).
 status: released
 sources:
 - kind: url
@@ -79,22 +79,28 @@ sources:
   note: 'Found by the archive''s discovery sweep (angle: hackaday-list); event read as ''unknown''.'
 - kind: url
   url: https://github.com/Protocentral/HeartyBadge
-  title: 'Protocentral/HeartyBadge on GitHub'
+  title: Protocentral/HeartyBadge on GitHub
   accessed: '2026-09-07'
-  note: 'Confirms open-source hardware and firmware (GPL-3.0), chip/LED/battery details.'
+  note: Confirms open-source hardware and firmware (GPL-3.0), chip/LED/battery details.
 - kind: url
   url: https://hackaday.com/2018/08/29/all-the-badges-of-def-con-26-vol-3/
-  title: 'All The Badges Of DEF CON 26 (vol 3) | Hackaday'
+  title: All The Badges Of DEF CON 26 (vol 3) | Hackaday
   accessed: '2026-09-07'
-  note: 'Confirms only two badges were made, worn by the maker at DEF CON 26 Breakfast meetup, describes the pinch-to-detect-heartbeat interaction.'
+  note: Confirms only two badges were made, worn by the maker at DEF CON 26 Breakfast meetup, describes the pinch-to-detect-heartbeat interaction.
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-07'
-  notes: 'Price and formal distribution not found; only two units were made by the maker for personal/demo use at DEF CON 26 rather than sold or given out widely, so availability is set to not_released. Repo does not state which EDA tool was used, left null. sao_version not applicable/unknown since this is a standalone badge, not confirmed to carry an SAO header.'
+  notes: Price and formal distribution not found; only two units were made by the maker for personal/demo use at DEF CON 26 rather than sold or given out widely, so availability is set to not_released. Repo does not state which EDA tool was used, left null. sao_version not applicable/unknown since this is a standalone badge, not confirmed to carry an SAO header.
 last_modified_date: '2026-09-07'
 redirect_from:
 - /badges/other/heartybadge/
+model:
+  file: assets/models/dc26/heartybadge.glb
+  method: kicad
+  source_file: pc_badge_hrv.brd
+  generated: '2026-09-07'
+  bytes: 661052
 ---
 
 HeartyBadge is a conference badge built by Ashwin K. Whitchurch of ProtoCentral (with Archana Vijayan) for DEF CON 26 in 2018, adapting the pair's existing HeartyPatch wearable ECG design into badge form just before the conference. It combines a MAX30003 single-lead ECG front end, an ESP32 with Wi-Fi and Bluetooth, and 144 APA102 RGB LEDs arranged mostly as a matrix. Two gold-plated pads etched into the PCB serve as electrodes: pinching them between thumb and forefinger lets the badge pick up the wearer's heartbeat and animate a heart shape on the LED matrix in time with it.

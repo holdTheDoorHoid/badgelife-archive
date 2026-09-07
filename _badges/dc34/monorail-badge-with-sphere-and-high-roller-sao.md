@@ -122,9 +122,15 @@ research:
   confidence: high
   last_checked: '2026-09-07'
   notes: 'Fact-checked 2026-09-07 against the maker''s writeup, the GitHub repo (readme.txt, credits.txt, file listing) and the Mastodon profile. Removed an unsupported claim of a spare SAO port for other people''s SAOs: the maker''s photo shows three SAO headers (SAO1 high roller, SAO2 sphere, SAO3) and the project ships three SAOs. Removed a second image that was a KiCad 3D render, not a photo of the badge. Price (~$50) is from the community sheet only; the repo credits mention a Shopify shop but no storefront URL was found. Quantity is not stated (the "about 30" reworked boards is a rework count, not a run size). Availability, exact LED counts and SAO header version are not stated. The sheet''s "zachr@infosec.exchange" is a Mastodon handle, not an email; moved to contact.mastodon. Event is DEF CON 34 per the sheet; the writeup (June 2026) says only "DEF CON". Merged with duplicate entry ''Monorail Con Badge'' (dc34-monorail-con-badge).'
-last_modified_date: '2026-09-06'
+last_modified_date: '2026-09-07'
 redirect_from:
 - /badges/dc34/monorail-con-badge/
+model:
+  file: assets/models/dc34/monorail-badge-with-sphere-and-high-roller-sao.glb
+  method: kicad
+  source_file: PCB/main-board/monorail-badge-bottom-part.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 293288
 ---
 
 Zach Resmer built this badge after riding the DEF CON monorail two years earlier, and it grew from a planned ticket-sized SAO into a full badge with its own SAOs. A small 3D-printed monorail car (two articulated cars, printed with an embedded magnet and a metal ring added mid-print) rolls along a PCB track; hall-effect switches at each station light side-mounted LEDs directly as the car passes, with no microcontroller involved anywhere in the design. The badge also holds a real monorail ticket in a bulldog clip, and its three SAO headers carry the project's own SAOs.

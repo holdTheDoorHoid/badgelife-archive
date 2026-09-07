@@ -112,6 +112,12 @@ research:
   last_checked: '2026-09-07'
   notes: Core specs (ESP32 WROOM, MPR121 touch, 2.9in e-paper, ATmega48 LED driver, 1000mAh LiPo, badge.team firmware) confirmed by the maker's own Hackaday.io and GitHub pages. Price per unit was not found on any source checked (Kickstarter page returned 403 to automated fetch; only search-result summaries were available, which did not state a pledge price). Quantity and "sold out" status come from a third-party Hackaday.com article, not the maker directly, though it lines up with the crowdfunding framing. Maker's given name (Bliss Jourdan) and handle (BoZe / CromulonB) both appear in search results; kept the sheet-provided "BoZe" alongside the fuller name.
 last_modified_date: '2026-09-07'
+model:
+  file: assets/models/dc27/dc27-multi-pass.glb
+  method: kicad
+  source_file: element.brd
+  generated: '2026-09-07'
+  bytes: 718972
 ---
 
 The DC27 MULTI PASS is an indie badge that Bliss Jourdan (known online as BoZe, or by their GitHub/Hackaday handle CromulonB) built for DEF CON 27 in 2019, recreating the "Multipass" ID card prop from *The Fifth Element*. It centers on an ESP32 WROOM module paired with a 2.9-inch e-paper display, so the screen holds its image with zero power draw between updates. Thirteen reverse-mount LEDs, driven by a separate ATmega48 controller, animate around the card, and capacitive touch (via an MPR121 controller) is implemented with a copper-mesh pattern on the top copper layer standing in for buttons, giving the badge a directional pad plus select/start/A/B controls without any physical switches.

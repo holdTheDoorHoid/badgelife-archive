@@ -58,15 +58,18 @@ links:
 - kind: website
   label: rot13labs
   url: https://rot13labs.com
+  archived: https://web.archive.org/web/20260615020751/https://rot13labs.com/
 images:
 - file: assets/images/badges/dc32/wifi-troll-badge/441ffdca00.jpg
   source: https://rot13labs.com
   credit: rot13labs
   caption: 'The Wifi Troll Badge: a white PCB cut into the shape of the "troll face" meme, worn on a lanyard printed "Rot13Labs / Y U mad bro?"'
+  archived: https://web.archive.org/web/20260615020751/https://rot13labs.com/
 - file: assets/images/badges/dc32/wifi-troll-badge/441ffdca00.jpg
   source: https://rot13labs.com/
   credit: rot13labs
   caption: The DC32 troll badge, photographed by its maker
+  archived: https://web.archive.org/web/20260615020751/https://rot13labs.com/
 contact: {}
 notes:
 - Duplicate of dc32-wifi-troll-badge, an existing, more fully researched entry for the same badge (same maker, same GitHub repo, same firmware).
@@ -81,6 +84,7 @@ sources:
   title: rot13labs — WE MAKE CHAOS
   accessed: '2026-09-06'
   note: Maker's own project page describing the troll badge's function, the 100-unit limited run, and its role in spoofing DEF CON's most common SSIDs; source of the badge photo.
+  archived: https://web.archive.org/web/20260615020751/https://rot13labs.com/
 - kind: url
   url: https://github.com/c0ldbru/trollbadge
   title: c0ldbru/trollbadge

@@ -47,35 +47,21 @@ sources:
   updated: ''
 - kind: url
   url: https://infosecmap.com/event/radio-frequency-village-def-con-32/
-  title: "Radio Frequency Village @ DEF CON 32 - InfoSecMap"
+  title: Radio Frequency Village @ DEF CON 32 - InfoSecMap
   accessed: '2026-09-07'
-  note: "Confirms Wireless Village operated at DC32 as 'RF Hackers Sanctuary presents: The Radio Frequency Village' -- no badge/SAO details given."
+  note: 'Confirms Wireless Village operated at DC32 as ''RF Hackers Sanctuary presents: The Radio Frequency Village'' -- no badge/SAO details given.'
 - kind: url
   url: https://grokipedia.com/page/wireless_village
-  title: "Wireless Village -- Grokipedia"
+  title: Wireless Village -- Grokipedia
   accessed: '2026-09-07'
-  note: "Background on the Wireless Village name/history at DEF CON; does not mention a DC32 badge or giveaway."
+  note: Background on the Wireless Village name/history at DEF CON; does not mention a DC32 badge or giveaway.
+  archived: https://web.archive.org/web/20260305060315/https://grokipedia.com/page/wireless_village
 research:
   status: researched
   confidence: low
   last_checked: '2026-09-07'
-  notes: >-
-    The community sheet only listed "Wireless Village" for DC32 (row 118) with no other
-    details, matching the "no details" title pattern. Wireless Village is the group also
-    known as RF Hackers Sanctuary, which ran the Radio Frequency Village at DEF CON 32 --
-    confirmed via InfoSecMap's village listing -- but no source found describes a physical
-    badge or SAO they made or distributed that year. Checked the group's own site
-    (rfhackers.com, a client-rendered Next.js page with no badge content in its static
-    HTML), Grokipedia's Wireless Village article (history only, no DC32 badge mention),
-    and DEF CON's own villages list page (mentions RF/Ham Radio villages generally but
-    nothing badge-specific). Web search was unavailable for most of this session (budget
-    exhausted) so coverage is thinner than usual; a maker's Twitter/X account or a DC32
-    Reddit/forum thread might still turn up a photo. Could not confirm whether this
-    village even produced a standalone badge (as opposed to running CTF/RF activities
-    only) for DC32, so left type, tech, and get_one fields empty rather than guess.
-    Noted for context: a same-maker DC31 (2023) entry exists, "What the Freq??"
-    (dc31-what-the-freq), also an unresearched stub -- not a duplicate of this DC32 row,
-    just the same village a year earlier.
+  notes: 'The community sheet only listed "Wireless Village" for DC32 (row 118) with no other details, matching the "no details" title pattern. Wireless Village is the group also known as RF Hackers Sanctuary, which ran the Radio Frequency Village at DEF CON 32 -- confirmed via InfoSecMap''s village listing -- but no source found describes a physical badge or SAO they made or distributed that year. Checked the group''s own site (rfhackers.com, a client-rendered Next.js page with no badge content in its static HTML), Grokipedia''s Wireless Village article (history only, no DC32 badge mention), and DEF CON''s own villages list page (mentions RF/Ham Radio villages generally but nothing badge-specific). Web search was unavailable for most of this session (budget exhausted) so coverage is thinner than usual; a maker''s Twitter/X account or a DC32 Reddit/forum thread might still turn up a photo. Could not confirm whether this village even produced a standalone badge (as opposed to running CTF/RF
+    activities only) for DC32, so left type, tech, and get_one fields empty rather than guess. Noted for context: a same-maker DC31 (2023) entry exists, "What the Freq??" (dc31-what-the-freq), also an unresearched stub -- not a duplicate of this DC32 row, just the same village a year earlier.'
 last_modified_date: '2026-09-07'
 ---
 

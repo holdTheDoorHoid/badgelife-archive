@@ -418,5 +418,39 @@
   "bytes": 231764,
   "tried": [],
   "src": "board/5-dc34-canary-badge.kicad_pcb"
+ },
+ "emf-camp-2026-spaceagon": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 746720,
+  "tried": [],
+  "src": "tildagon-base/tildagon-top.kicad_pcb"
+ },
+ "fri3d-2018-ph0xx": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 155540,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "fri3d-badge-2018.brd"
+ },
+ "fri3d-2022-fri3d-2022-badge": {
+  "status": "failed",
+  "tried": [
+   "gerber Gerber: outline polygon empty"
+  ]
+ },
+ "fri3d-2022-fri3d-badge-2020": {
+  "status": "failed",
+  "tried": [
+   "gerber Gerber: outline polygon empty"
+  ]
+ },
+ "fri3d-2022-fri3d-camp-2022-badge": {
+  "status": "failed",
+  "tried": [
+   "gerber Gerber: outline polygon empty"
+  ]
  }
 }

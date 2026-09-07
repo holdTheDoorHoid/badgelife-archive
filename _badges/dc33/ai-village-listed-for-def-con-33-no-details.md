@@ -51,25 +51,12 @@ sources:
   title: DEF CON 33 Villages
   accessed: '2026-09-06'
   note: Confirms AI Village ran as a village at DEF CON 33; the listing says nothing about a badge or SAO.
+  archived: https://web.archive.org/web/20260818221721/https://defcon.org/html/defcon-33/dc-33-villages.html
 research:
   status: researched
   confidence: low
   last_checked: '2026-09-06'
-  notes: >-
-    Could not confirm whether AI Village produced a dedicated badge or SAO for
-    DEF CON 33 (2025). The only fact confirmed from a source read directly is
-    that AI Village was a DEF CON 33 village (defcon.org villages page).
-    AI Village had a physical badge for DEF CON 32 (2024) by Abhinav Panda /
-    Hackerware.io and has a DEF CON 34 (2026) item by the same maker; both are
-    catalogued separately in this archive (dc32-ai-village-badge,
-    dc34-ai-village-blinky-badge-sao) and neither is this entry. No DC33/2025
-    project was found on Hackster.io, Hackaday.io, Tindie, GitHub,
-    badge.gallery, the DEF CON forums, or web search. Fact-check 2026-09-06:
-    hackster.io and aivillage.org returned HTTP 403 to automated fetches, and
-    hackerware.io's portfolio page shows no AI Village or DEF CON 33 item, so
-    the absence of a DC33 badge remains unconfirmed rather than established.
-    Kept as researched, not verified, because the negative claim cannot be
-    checked against the maker's own pages.
+  notes: 'Could not confirm whether AI Village produced a dedicated badge or SAO for DEF CON 33 (2025). The only fact confirmed from a source read directly is that AI Village was a DEF CON 33 village (defcon.org villages page). AI Village had a physical badge for DEF CON 32 (2024) by Abhinav Panda / Hackerware.io and has a DEF CON 34 (2026) item by the same maker; both are catalogued separately in this archive (dc32-ai-village-badge, dc34-ai-village-blinky-badge-sao) and neither is this entry. No DC33/2025 project was found on Hackster.io, Hackaday.io, Tindie, GitHub, badge.gallery, the DEF CON forums, or web search. Fact-check 2026-09-06: hackster.io and aivillage.org returned HTTP 403 to automated fetches, and hackerware.io''s portfolio page shows no AI Village or DEF CON 33 item, so the absence of a DC33 badge remains unconfirmed rather than established. Kept as researched, not verified, because the negative claim cannot be checked against the maker''s own pages.'
 last_modified_date: '2026-09-06'
 ---
 

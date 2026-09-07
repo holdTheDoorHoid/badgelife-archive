@@ -26,14 +26,14 @@ tech:
   leds:
     count: null
     type: addressable
-    note: 'GPIO15 drives the LED chain on the bear_v1 board; firmware supports rainbow, chase, comet and pulse animations.'
+    note: GPIO15 drives the LED chain on the bear_v1 board; firmware supports rainbow, chase, comet and pulse animations.
   display: 1.28" round LCD (GC9A01A controller)
   connectivity:
   - usb
   battery: null
   sao_version: null
 get_one:
-  price: '$20 (no display) / $35 (kit, MCU + display unsoldered) / $40 (fully soldered)'
+  price: $20 (no display) / $35 (kit, MCU + display unsoldered) / $40 (fully soldered)
   price_usd: 20
   quantity: ''
   availability: available
@@ -42,11 +42,11 @@ get_one:
   - purchase
   where: Sold via Hackin7's Uberflux storefront.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/maibadge/maibadge
   firmware_url: https://github.com/maibadge/maibadge/tree/main/code/circuitpython-full-slop-port
   eda_tool: null
-  notes: 'The maibadge GitHub repo covers two PCB shapes (bear_v1 and machine_v2) with a shared CircuitPython firmware port; the bear board uses GPIO15 for its LED chain.'
+  notes: The maibadge GitHub repo covers two PCB shapes (bear_v1 and machine_v2) with a shared CircuitPython firmware port; the bear board uses GPIO15 for its LED chain.
 links:
 - label: uberflux.com/product/HCK-maibadge-bear
   url: https://uberflux.com/product/HCK-maibadge-bear
@@ -55,14 +55,14 @@ links:
   url: https://github.com/maibadge/maibadge
   kind: repo
 images:
-  - file: assets/images/badges/dc34/maibadge-bear/2ee07fd76d.jpg
-    source: "https://uberflux.com/product/HCK-maibadge-bear"
-    credit: "Hackin7 / Uberflux"
-    caption: "maibadge-bear product photo"
-  - file: assets/images/badges/dc34/maibadge-bear/fccf82a7e3.jpg
-    source: "https://uberflux.com/product/HCK-maibadge-bear"
-    credit: "Hackin7 / Uberflux"
-    caption: "maibadge-bear, alternate view"
+- file: assets/images/badges/dc34/maibadge-bear/2ee07fd76d.jpg
+  source: https://uberflux.com/product/HCK-maibadge-bear
+  credit: Hackin7 / Uberflux
+  caption: maibadge-bear product photo
+- file: assets/images/badges/dc34/maibadge-bear/fccf82a7e3.jpg
+  source: https://uberflux.com/product/HCK-maibadge-bear
+  credit: Hackin7 / Uberflux
+  caption: maibadge-bear, alternate view
 contact: {}
 notes:
 - 'Uberflux. $20, status: upcoming drop.'
@@ -77,25 +77,31 @@ sources:
   url: https://uberflux.com/product/HCK-maibadge-bear
   title: maibadge-bear product page
   accessed: '2026-09-07'
-  note: 'Confirmed maker (Hackin7), event (DEF CON 34), pricing tiers and stock counts, and gathered product photos.'
+  note: Confirmed maker (Hackin7), event (DEF CON 34), pricing tiers and stock counts, and gathered product photos.
 - kind: url
   url: https://github.com/maibadge/maibadge
   title: maibadge/maibadge
   accessed: '2026-09-07'
-  note: 'Open-source hardware/firmware repo; confirms two PCB shapes (bear_v1, machine_v2) and CircuitPython firmware.'
+  note: Open-source hardware/firmware repo; confirms two PCB shapes (bear_v1, machine_v2) and CircuitPython firmware.
 - kind: url
   url: https://github.com/maibadge/maibadge/tree/main/code/circuitpython-full-slop-port
   title: circuitpython-full-slop-port
   accessed: '2026-09-07'
-  note: 'Confirms ESP32-S3 MCU, GC9A01A display controller, GPIO15 LED pin on the bear board, and supported LED animation modes.'
+  note: Confirms ESP32-S3 MCU, GC9A01A display controller, GPIO15 LED pin on the bear board, and supported LED animation modes.
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'Bear-shaped badge themed after the maimai arcade rhythm game, part of a maibadge line (bear + machine shapes) by Hackin7/HCKBADGES for DEF CON 34 (2026). Uberflux listing describes the fully-soldered variant loosely as "OLED"; the maibadge firmware repo instead documents a GC9A01A-driven round LCD, so the display line follows the repo. LED count is not stated anywhere found; only the driving GPIO and animation modes are documented. Quantity made overall is not stated, only per-tier remaining/sold counts on the storefront at time of check.'
+  notes: Bear-shaped badge themed after the maimai arcade rhythm game, part of a maibadge line (bear + machine shapes) by Hackin7/HCKBADGES for DEF CON 34 (2026). Uberflux listing describes the fully-soldered variant loosely as "OLED"; the maibadge firmware repo instead documents a GC9A01A-driven round LCD, so the display line follows the repo. LED count is not stated anywhere found; only the driving GPIO and animation modes are documented. Quantity made overall is not stated, only per-tier remaining/sold counts on the storefront at time of check.
 last_modified_date: '2026-09-07'
 redirect_from:
 - /badges/other/maibadge-bear/
+model:
+  file: assets/models/dc34/maibadge-bear.glb
+  method: kicad
+  source_file: pcbs/howard_flashlight schematic/flashlight schematic.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 52972
 ---
 
 The maibadge-bear is a bear-shaped electronic badge from Hackin7 (HCKBADGES), themed after maimai, the touch-panel arcade rhythm game, and sold for DEF CON 34 (2026) through Hackin7's Uberflux storefront. It ships in three tiers: a $20 board with no display that still runs LED animations and simple tone playback, a $35 kit with the ESP32-S3 and round display left for the buyer to solder, and a $40 fully-assembled version.

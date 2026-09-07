@@ -502,5 +502,68 @@
   "bytes": 94616,
   "tried": [],
   "src": "Clip-Boy/hardware/Gerber_Motherboard.zip"
+ },
+ "dc34-dc34-hacker-pager": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 816024,
+  "tried": [],
+  "src": "project/Exploiteers_Hacker_Pager.kicad_pcb"
+ },
+ "dc34-friend-or-foe-badge": {
+  "status": "ok",
+  "method": "gerber",
+  "bytes": 359752,
+  "tried": [],
+  "src": "hardware/badge/fabrication/friend-or-foe-badge-oshpark-panel-5-badges-2-cores.zip/fof4.2"
+ },
+ "dc34-ifixit-sao-2026": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 195000,
+  "tried": [],
+  "src": "pcb/iFixit-SAO-2026.kicad_pcb"
+ },
+ "dc34-maibadge-bear": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 52972,
+  "tried": [],
+  "src": "pcbs/howard_flashlight schematic/flashlight schematic.kicad_pcb"
+ },
+ "dc34-malo-sao": {
+  "status": "failed",
+  "tried": [
+   "gerber Gerber_PCB1_2026-03-30_unz: tracespace produced no board render: o `drill` and parse as a drill file\n  l\n  tracespace --quiet                        Do not print info to stderr\n\nYou may al",
+   "gerber Gerber_PCB1_2026-06-30_unz: render is empty",
+   "gerber Gerber_PCB1_2026-06-13_unz: tracespace produced no board render: o `drill` and parse as a drill file\n  l\n  tracespace --quiet                        Do not print info to stderr\n\nYou may al"
+  ]
+ },
+ "dc34-monorail-badge-with-sphere-and-high-roller-sao": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 293288,
+  "tried": [],
+  "src": "PCB/main-board/monorail-badge-bottom-part.kicad_pcb"
+ },
+ "dc34-moth-updi-programmer-working-title": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 281488,
+  "tried": [],
+  "src": "board/6-dc34-moth-badge.kicad_pcb"
+ },
+ "emf-camp-2024-tildagon-emf-camp-2024-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 746720,
+  "tried": [],
+  "src": "tildagon-base/tildagon-top.kicad_pcb"
+ },
+ "fri3d-2018-fri3d-2018-air-jewel": {
+  "status": "failed",
+  "tried": [
+   "gerber Gerber: outline polygon empty"
+  ]
  }
 }

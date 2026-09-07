@@ -110,6 +110,12 @@ research:
 last_modified_date: '2026-09-07'
 related:
 - dc33-hacker-pager
+model:
+  file: assets/models/dc34/dc34-hacker-pager.glb
+  method: kicad
+  source_file: project/Exploiteers_Hacker_Pager.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 816024
 ---
 
 The Hacker Pager is exploitee.rs's second annual conference wireless messenger, sold to DEF CON 34 attendees in August 2026 with online restocking to follow. It is a standalone LoRa/Meshtastic mesh-networking device built around an ESP32-S3 microcontroller and a Semtech SX1262 radio, with a 192x64 monochrome LCD, 36 addressable RGB LEDs plus 12 UV LEDs, Bluetooth and Wi-Fi, and USB-C-rechargeable LiPo power. Beyond messaging, it doubles as a LoRa toolkit: it can capture packets to .pcap files for analysis, run a spectrum analyzer across 850-950 MHz, execute BadUSB scripts, and run CHIP-8 games through a built-in virtual machine.

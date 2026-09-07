@@ -97,8 +97,15 @@ research:
   status: verified
   confidence: high
   last_checked: '2026-09-07'
-  notes: 'Core facts (maker''s own words) confirmed via the maker''s July 14, 2021 DEF CON forum post announcing the project: 25 badges made and handed to fans at DEF CON 29, with SAOs (also carrying a security tag) made as a free alternative for fans who didn''t get a badge. The GitHub repo (README and PCBFiles/ReadMe.md) confirms the badge carries both security tags (Checkpoint 8.2 MHz and Sensormatic 58 kHz), and the SAO''s own board silkscreen (SAO.jpg) explicitly labels it "DEF CON 29 SAO with 58 kHz Security Tag" and shows a 2x3 (6-pin) SAO header. Eagle schematic/board files plus dated zips (SAO_3v2_2021-07-21.zip) are published; the zip was opened directly and contains actual Gerber (.gbr) files, matching PCBFiles/ReadMe.md which says "these are the Gerber files." (An earlier pass had wrongly claimed no Gerbers were found; corrected on fact-check.) Also corrected on fact-check: no source states the 25 badges were "numbered" - that detail was unsupported and has been removed. Exact SAO quantity, firmware (the SAO appears passive, driven by the badge), and whether it was ever sold separately (vs. only given away) were not stated anywhere found. The Tindie listing found is for the full assembled badge/kit, not the SAO alone.'
+  notes: 'Core facts (maker''s own words) confirmed via the maker''s July 14, 2021 DEF CON forum post announcing the project: 25 badges made and handed to fans at DEF CON 29, with SAOs (also carrying a security tag) made as a free alternative for fans who didn''t get a badge. The GitHub repo (README and PCBFiles/ReadMe.md) confirms the badge carries both security tags (Checkpoint 8.2 MHz and Sensormatic 58 kHz), and the SAO''s own board silkscreen (SAO.jpg) explicitly labels it "DEF CON 29 SAO with 58 kHz Security Tag" and shows a 2x3 (6-pin) SAO header. Eagle schematic/board files plus dated zips (SAO_3v2_2021-07-21.zip) are published; the zip was opened directly and contains actual Gerber (.gbr) files, matching PCBFiles/ReadMe.md which says "these are the Gerber files." (An earlier pass had wrongly claimed no Gerbers were found; corrected on fact-check.) Also corrected on fact-check: no source states the 25 badges were "numbered" - that detail was unsupported and has been removed. Exact
+    SAO quantity, firmware (the SAO appears passive, driven by the badge), and whether it was ever sold separately (vs. only given away) were not stated anywhere found. The Tindie listing found is for the full assembled badge/kit, not the SAO alone.'
 last_modified_date: '2026-09-07'
+model:
+  file: assets/models/dc29/dc29-makeithackin-58khz-security-tag-sao.glb
+  method: kicad
+  source_file: SAO_3.brd
+  generated: '2026-09-07'
+  bytes: 71512
 ---
 
 MakeItHackin's DEF CON 29 project paired a credit-card-shaped badge with a matching SAO, both carrying real retail anti-theft security tags — a nod to the maker's TikTok content about security tags. The badge got a Checkpoint 8.2 MHz tag and a Sensormatic 58 kHz tag; this SAO carries the 58 kHz Sensormatic tag on its own small board, alongside a 2x3 SAO header, four NeoPixels, and an LED, all powered from the host badge.

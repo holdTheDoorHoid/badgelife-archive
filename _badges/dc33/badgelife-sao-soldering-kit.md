@@ -37,7 +37,7 @@ get_one:
   distribution:
   - purchase
   - kit
-  where: 'Sold by Make it Hackin on Tindie (https://www.tindie.com/products/makeithackin/badgelife-sao-kit/); listed at $5 on the DEF CON 33 community badge sheet and $10 on the current Tindie listing.'
+  where: Sold by Make it Hackin on Tindie (https://www.tindie.com/products/makeithackin/badgelife-sao-kit/); listed at $5 on the DEF CON 33 community badge sheet and $10 on the current Tindie listing.
 make_your_own:
   open_source: partial
   hardware_url: https://github.com/MakeItHackin/BadgeLifeSAO
@@ -47,21 +47,25 @@ links:
 - label: github.com/MakeItHackin/BadgeLifeSAO
   url: https://github.com/MakeItHackin/BadgeLifeSAO
   kind: repo
+  archived: https://web.archive.org/web/20260507140429/https://github.com/MakeItHackin/BadgeLifeSAO
 - label: BadgeLife SAO Kit on Tindie
   url: https://www.tindie.com/products/makeithackin/badgelife-sao-kit/
   kind: store
+  archived: https://web.archive.org/web/20260503114335/https://www.tindie.com/products/makeithackin/badgelife-sao-kit/
 - label: Assembly tutorial (YouTube)
   url: https://youtu.be/Q6jLFrrscGw?t=40
   kind: video
 images:
 - file: assets/images/badges/dc33/badgelife-sao-soldering-kit/e132b6c318.jpg
-  source: "https://github.com/MakeItHackin/BadgeLifeSAO"
-  credit: "Make it Hackin"
-  caption: "Assembled BadgeLife SAO kit with googly eyes and reverse-mount LEDs"
+  source: https://github.com/MakeItHackin/BadgeLifeSAO
+  credit: Make it Hackin
+  caption: Assembled BadgeLife SAO kit with googly eyes and reverse-mount LEDs
+  archived: https://web.archive.org/web/20260507140429/https://github.com/MakeItHackin/BadgeLifeSAO
 - file: assets/images/badges/dc33/badgelife-sao-soldering-kit/380894aa1c.jpg
-  source: "https://www.tindie.com/products/makeithackin/badgelife-sao-kit/"
-  credit: "Make it Hackin"
-  caption: "BadgeLife SAO Kit product photo on Tindie"
+  source: https://www.tindie.com/products/makeithackin/badgelife-sao-kit/
+  credit: Make it Hackin
+  caption: BadgeLife SAO Kit product photo on Tindie
+  archived: https://web.archive.org/web/20260503114335/https://www.tindie.com/products/makeithackin/badgelife-sao-kit/
 contact:
   emails:
   - andrew@makeithackin.com
@@ -75,29 +79,21 @@ sources:
   updated: 8/3/2025 10:45:44
 - kind: url
   url: https://github.com/MakeItHackin/BadgeLifeSAO
-  title: "MakeItHackin/BadgeLifeSAO on GitHub"
+  title: MakeItHackin/BadgeLifeSAO on GitHub
   accessed: '2026-09-06'
   note: Maker's own project page; kit contents, assembly notes, links to Tindie store and tutorial video.
+  archived: https://web.archive.org/web/20260507140429/https://github.com/MakeItHackin/BadgeLifeSAO
 - kind: url
   url: https://www.tindie.com/products/makeithackin/badgelife-sao-kit/
-  title: "BadgeLife SAO Kit from MakeItHackin on Tindie"
+  title: BadgeLife SAO Kit from MakeItHackin on Tindie
   accessed: '2026-09-06'
   note: Storefront listing; price ($10), kit contents, product photos, maker location (Huntsville, AL).
+  archived: https://web.archive.org/web/20260503114335/https://www.tindie.com/products/makeithackin/badgelife-sao-kit/
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-06'
-  notes: >-
-    The maker's GitHub repo and Tindie storefront both describe this exact kit
-    (BadgeLife circuit board, two 68 ohm resistors, two reverse-mount LEDs, 2x3
-    pin header, stickers, googly eyes) with a YouTube assembly tutorial. Could
-    not confirm quantity made, an exact DEF CON 33 tie-in beyond the sheet
-    listing, or whether this specific batch differs from the general Tindie
-    listing (Tindie currently lists it at $10 with a bonus "C0V1D CTF SAO"
-    while supplies last, versus $5 on the DEF CON 33 sheet) - noted as a price
-    discrepancy rather than resolved. No MCU is used; it is a passive LED
-    circuit. Design files (schematic/gerbers) were not found published in the
-    GitHub repo beyond images and the README.
+  notes: The maker's GitHub repo and Tindie storefront both describe this exact kit (BadgeLife circuit board, two 68 ohm resistors, two reverse-mount LEDs, 2x3 pin header, stickers, googly eyes) with a YouTube assembly tutorial. Could not confirm quantity made, an exact DEF CON 33 tie-in beyond the sheet listing, or whether this specific batch differs from the general Tindie listing (Tindie currently lists it at $10 with a bonus "C0V1D CTF SAO" while supplies last, versus $5 on the DEF CON 33 sheet) - noted as a price discrepancy rather than resolved. No MCU is used; it is a passive LED circuit. Design files (schematic/gerbers) were not found published in the GitHub repo beyond images and the README.
 last_modified_date: '2026-09-06'
 ---
 

@@ -132,9 +132,15 @@ research:
   confidence: medium
   last_checked: '2026-09-06'
   notes: Sheet listed only a working title ("Moth UPDI programmer"); found the actual project via the maker's GitHub org, titled "UPDeeDeeI Adapter SAO" (GitHub repo lepi-labs/6-dc34-moth-badge, described by the maker as "RGB SAO with onboard UPDI adapter"). Retitled per research-guide rules while keeping the original id/filename. Could not confirm quantity made, exact price, or a license for the open-source files; the maker's own shop no longer lists it as of this check, so exact current availability is unclear (marked unknown rather than guessed). No separate Hackaday.io or storefront listing found for this specific item. Merged with duplicate entry 'UPDeeDeeI SAO' (dc34-updeedeei-sao).
-last_modified_date: '2026-09-06'
+last_modified_date: '2026-09-07'
 redirect_from:
 - /badges/dc34/updeedeei-sao/
+model:
+  file: assets/models/dc34/moth-updi-programmer-working-title.glb
+  method: kicad
+  source_file: board/6-dc34-moth-badge.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 281488
 ---
 
 The UPDeeDeeI Adapter is a Simple Add-On sold by Lepi Labs (maker Xenu) at DEF CON 34. It was listed on the community badge sheet only under a working title, "Moth UPDI programmer," but the maker's own GitHub repository reveals its real name and a moth theme carried through in its two glowing RGB eyes, each a 90-degree LED behind a UV-resin diffuser, cycled through colors and effects with a mode button.

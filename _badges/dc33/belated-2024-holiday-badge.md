@@ -43,7 +43,7 @@ get_one:
   - purchase
   where: Sold through the MK Factor storefront and on Tindie as a soldering kit; surface-mount parts pre-soldered, buyer solders the through-hole parts.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/compukidmike/BCTDWDFK
   firmware_url: https://github.com/compukidmike/WLED-BCTDWDFK
   eda_tool: null
@@ -54,21 +54,24 @@ links:
 - label: compukidmike/BCTDWDFK (hardware/assembly)
   url: https://github.com/compukidmike/BCTDWDFK
   kind: repo
+  archived: https://web.archive.org/web/20260509030454/https://github.com/compukidmike/BCTDWDFK
 - label: compukidmike/WLED-BCTDWDFK (firmware)
   url: https://github.com/compukidmike/WLED-BCTDWDFK
   kind: repo
 - label: Holiday Soldering Kit on Tindie
   url: https://www.tindie.com/products/compukidmike/holiday-soldering-kit/
   kind: store
+  archived: https://web.archive.org/web/20260503125836/https://www.tindie.com/products/compukidmike/holiday-soldering-kit/
 images:
-  - file: assets/images/badges/dc33/belated-2024-holiday-badge/498d4815b7.jpg
-    source: "https://www.tindie.com/products/compukidmike/holiday-soldering-kit/"
-    credit: "MK Factor (klipper)"
-    caption: "The gingerbread-house-shaped 2024 Holiday Badge with dual window displays and RGB LEDs"
-  - file: assets/images/badges/dc33/belated-2024-holiday-badge/deaa3ddb3e.jpg
-    source: "https://mkfactor.com/shop/index.php?rt=product/product&product_id=132"
-    credit: "MK Factor (klipper)"
-    caption: "Assembled 2024 Holiday Badge in the MK Factor shop listing"
+- file: assets/images/badges/dc33/belated-2024-holiday-badge/498d4815b7.jpg
+  source: https://www.tindie.com/products/compukidmike/holiday-soldering-kit/
+  credit: MK Factor (klipper)
+  caption: The gingerbread-house-shaped 2024 Holiday Badge with dual window displays and RGB LEDs
+  archived: https://web.archive.org/web/20260503125836/https://www.tindie.com/products/compukidmike/holiday-soldering-kit/
+- file: assets/images/badges/dc33/belated-2024-holiday-badge/deaa3ddb3e.jpg
+  source: https://mkfactor.com/shop/index.php?rt=product/product&product_id=132
+  credit: MK Factor (klipper)
+  caption: Assembled 2024 Holiday Badge in the MK Factor shop listing
 contact:
   emails:
   - klipper@lgclassic.com
@@ -89,6 +92,7 @@ sources:
   title: compukidmike/BCTDWDFK (GitHub)
   accessed: '2026-09-06'
   note: Hardware/assembly repo; confirms ESP32, 25 addressable LEDs on GPIO17, button, SAO-compatible header, gingerbread-house PCB shape, schematic PDF.
+  archived: https://web.archive.org/web/20260509030454/https://github.com/compukidmike/BCTDWDFK
 - kind: url
   url: https://github.com/compukidmike/WLED-BCTDWDFK
   title: compukidmike/WLED-BCTDWDFK (GitHub)
@@ -99,6 +103,7 @@ sources:
   title: Holiday Soldering Kit - Tindie
   accessed: '2026-09-06'
   note: Same kit sold on Tindie as "Holiday Soldering Project - Gingerbread House with Advent LEDs and Screens in the Windows"; $40 (volume discounts for 2+), USA shipping only, seller MKFactor (Mike, Riverton UT), 52 orders at time of check.
+  archived: https://web.archive.org/web/20260503125836/https://www.tindie.com/products/compukidmike/holiday-soldering-kit/
 research:
   status: researched
   confidence: high

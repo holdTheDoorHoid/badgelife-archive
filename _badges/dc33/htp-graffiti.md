@@ -101,9 +101,15 @@ research:
   confidence: high
   last_checked: '2026-09-06'
   notes: 'Maker''s own GitHub repo (description "defcon 34 SAO") and Uberflux storefront (product code HTP-DC34, page titled "SAO HackThePlanet", README headed "HACK THE PLANET SAO — DEF CON 34") both identify this as a DEF CON 34 (2026) item, not DEF CON 33 (2025) despite being imported from the DC33 community sheet (dated 7/18/2025, before DC33 ran). No DC33-specific listing of this SAO was found. Left in the dc33 folder/event field to match the file location and pass the directory/event validation, but archive maintainers should consider moving this entry to _badges/dc34/. The Tindie link in the original entry (product 39459) could not be verified: Cloudflare blocked direct and curl fetches, and a proxy fetch returned either a 404 or an unrelated store''s content, so it may be stale or reassigned. SAO connector pin count (v1 vs v1.69bis/v2) is not stated by the maker, so tech.sao_version is left null.'
-last_modified_date: '2026-09-06'
+last_modified_date: '2026-09-07'
 related:
 - dc34-htp-graffiti
+model:
+  file: assets/models/dc33/htp-graffiti.glb
+  method: kicad
+  source_file: Black PCB DC34.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 133172
 ---
 
 HTP Graffiti (sold by the maker as "Hack the Planet SAO") is an all-analog SAO by HogFillet: a 555 timer clocks a 10-bit ripple counter, and eight of the counter's outputs drive eight LEDs that shine up through holes drilled into "Hack the Planet" graffiti-style artwork on the board. An onboard trimmer potentiometer sweeps the clock speed from a slow, heartbeat-like pulse to a fast strobe. There is no microcontroller and no firmware.

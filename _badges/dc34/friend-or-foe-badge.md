@@ -92,9 +92,18 @@ research:
   confidence: medium
   last_checked: '2026-09-06'
   notes: All hardware/software facts come from the maker's own GitHub repo (README and hardware/badge/README.md), which is a strong primary source, but no independent press, Hackaday, or storefront coverage was found to corroborate or add to it. No photos of the assembled badge were found anywhere in the repo (only unrelated aircraft-icon assets under android/app/src/main/assets/aircraft/), so images could not be filled in. No LED info given, so tech.leds is left null; the badge's awareness output appears to be entirely on its color display. look.colors/shape are unset since no photo or explicit description of the PCB art/colors was found. The maker's own sheet listed the same maker (GameChangersAI) with a second entry titled "TBD" (dc34-tbd-2); that is a different row and was not touched. Merged with duplicate entry 'Friend or Foe Badge' (dc34-tbd-2).
-last_modified_date: '2026-09-06'
+last_modified_date: '2026-09-07'
 redirect_from:
 - /badges/dc34/tbd-2/
+model:
+  file: assets/models/dc34/friend-or-foe-badge.glb
+  method: gerber
+  source_file: hardware/badge/fabrication/friend-or-foe-badge-oshpark-panel-5-badges-2-cores.zip/fof4.2
+  generated: '2026-09-07'
+  bytes: 359752
+  size_mm:
+  - 485.1
+  - 142.4
 ---
 
 Friend or Foe is a three-board ESP32-S3 handheld built by GameChangersAI for the DEF CON 34 Packet Hacking Village. One badge is really three Seeed Studio XIAO ESP32-S3 boards: an uplink board that drives a small 1.8" color display and handles USB-C control, plus two scanner boards (one BLE-primary, one Wi-Fi-primary) that run the same firmware image in different roles. Each radio has its own external 2.4 GHz patch antenna sitting over a copper ground-plane triangle worked into the badge's PCB art.

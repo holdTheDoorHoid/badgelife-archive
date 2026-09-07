@@ -11,8 +11,8 @@ year: 2026
 makers:
 - name: EMF Camp badge team
   url: https://www.emfcamp.org/badge
-summary: 'The official 2026 EMF Camp badge, a space-themed successor to the Tildagon platform with a round display, RGB LEDs, six hexpansion expansion slots, and a compass and joystick.'
-functions: 'General-purpose hackable badge running MicroPython; six hexpansion slots for add-ons (the first official one is a keyboard); IMU-driven motion sensing; WiFi/BLE for badge apps and networking.'
+summary: The official 2026 EMF Camp badge, a space-themed successor to the Tildagon platform with a round display, RGB LEDs, six hexpansion expansion slots, and a compass and joystick.
+functions: General-purpose hackable badge running MicroPython; six hexpansion slots for add-ons (the first official one is a keyboard); IMU-driven motion sensing; WiFi/BLE for badge apps and networking.
 look:
   colors: []
   shape: hexagon
@@ -35,7 +35,7 @@ get_one:
   availability: not_released
   distribution:
   - purchase
-  where: 'Sold to attendees at EMF Camp 2026; existing Tildagon owners can instead buy a Spaceagon front-board upgrade kit to swap onto their existing badge.'
+  where: Sold to attendees at EMF Camp 2026; existing Tildagon owners can instead buy a Spaceagon front-board upgrade kit to swap onto their existing badge.
 make_your_own:
   open_source: partial
   hardware_url: https://github.com/emfcamp/badge-2024-hardware
@@ -53,13 +53,13 @@ links:
   kind: doc
 images:
 - file: assets/images/badges/emf-camp-2026/spaceagon/f1b96653d3.jpg
-  source: "https://hackaday.com/2026/06/02/the-2026-emf-badge-arrives-with-an-add-on-as-expected-its-familiar/"
-  credit: "EMF Camp / Hackaday"
-  caption: "Prototype Spaceagon badge, the 2026 EMF Camp badge (final badge art differs from the prototype shown)"
+  source: https://hackaday.com/2026/06/02/the-2026-emf-badge-arrives-with-an-add-on-as-expected-its-familiar/
+  credit: EMF Camp / Hackaday
+  caption: Prototype Spaceagon badge, the 2026 EMF Camp badge (final badge art differs from the prototype shown)
 contact: {}
 notes:
 - Update to Tildagon; sold with an upgrade front panel for existing owners
-- 'Design for 2026 was not yet finalized as of the badge team''s own site; the Hackaday article notes the final badge art will differ from the prototype pictured.'
+- Design for 2026 was not yet finalized as of the badge team's own site; the Hackaday article notes the final badge art will differ from the prototype pictured.
 status: announced
 sources:
 - kind: url
@@ -71,7 +71,7 @@ sources:
   url: https://www.emfcamp.org/badge
   title: EMF Camp Badge
   accessed: '2026-09-07'
-  note: 'Official badge page; confirms Spaceagon is the space-themed 2026 badge and that an upgrade front-board kit is sold to returning Tildagon owners. States the 2026 design was not yet released at time of check.'
+  note: Official badge page; confirms Spaceagon is the space-themed 2026 badge and that an upgrade front-board kit is sold to returning Tildagon owners. States the 2026 design was not yet released at time of check.
 - kind: url
   url: https://tildagon.badge.emfcamp.org
   title: Tildagon badge documentation
@@ -81,16 +81,14 @@ research:
   status: verified
   confidence: medium
   last_checked: '2026-09-07'
-  notes: >-
-    Spaceagon is the 2026 EMF Camp badge, a space-themed iteration of the reusable Tildagon platform
-    (hexagonal, ESP32-S3, six hexpansion slots). Core MCU/platform specs come from the Tildagon project
-    docs (which describe the ongoing platform generally, not confirmed 2026-specific LED count/exact
-    display size). As of the last check the EMF Camp badge page itself said the 2026 design had not been
-    finalized/released, so pricing, quantity, and final art are unknown. The first official hexpansion
-    accessory is a rubber-keyboard add-on connecting via edge connector. hardware_url points to the
-    emfcamp/badge-2024-hardware repo referenced by the Tildagon docs; a 2026-specific hardware repo was
-    not located, so open_source is marked partial pending confirmation.
+  notes: Spaceagon is the 2026 EMF Camp badge, a space-themed iteration of the reusable Tildagon platform (hexagonal, ESP32-S3, six hexpansion slots). Core MCU/platform specs come from the Tildagon project docs (which describe the ongoing platform generally, not confirmed 2026-specific LED count/exact display size). As of the last check the EMF Camp badge page itself said the 2026 design had not been finalized/released, so pricing, quantity, and final art are unknown. The first official hexpansion accessory is a rubber-keyboard add-on connecting via edge connector. hardware_url points to the emfcamp/badge-2024-hardware repo referenced by the Tildagon docs; a 2026-specific hardware repo was not located, so open_source is marked partial pending confirmation.
 last_modified_date: '2026-09-07'
+model:
+  file: assets/models/emf-camp-2026/spaceagon.glb
+  method: kicad
+  source_file: tildagon-base/tildagon-top.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 746720
 ---
 
 The Spaceagon is the 2026 EMF Camp badge, the latest edition of the EMF badge team's Tildagon platform — a hexagonal, reusable badge design built so that software written for one year's badge keeps working on later ones. It keeps the Tildagon's core hardware: an ESP32-S3 microcontroller running MicroPython, a round display, RGB LEDs, six buttons, an IMU for motion sensing, WiFi and Bluetooth, and USB-C power (compatible with battery packs from the 2016 and 2018 EMF badges). Where earlier Tildagon badges carried a "solarpunk" design, Spaceagon swaps in a space theme, and adds a compass and joystick along with refined button, LED, and display mounting.
