@@ -39,17 +39,34 @@ links: []
 images: []
 contact: {}
 notes: []
-status: listed
+status: not_an_item
 sources:
 - kind: sheet
   event: dc32
   row: 119
   updated: ''
 research:
-  status: stub
-  confidence: low
-  last_checked: '2026-09-06'
-  notes: Imported from the community badge sheet; not yet researched.
-last_modified_date: '2026-09-06'
+  status: researched
+  confidence: high
+  last_checked: '2026-09-07'
+  notes: >-
+    This sheet row is a call-to-action to badgemakers ("If you are a
+    badgemaker, please check to see if you can support...") linking a
+    volunteer signup form (volunteersignup.org/JWYCP), not a badge or SAO.
+    The "maker" field is the signup URL itself, and there is no product name,
+    photo, or description of a physical item anywhere in the row. No further
+    research performed; leaving fields empty rather than guessing at a
+    badge that does not exist in this row.
+last_modified_date: '2026-09-07'
 ---
 
+This row in the DEF CON 32 community badge sheet is not a badge or SAO listing. It reads
+as a call-to-action aimed at badgemakers ("If you are a badgemaker, please check to see
+if you can support...") and links to a volunteer signup form
+(`volunteersignup.org/JWYCP`) rather than naming any product. There is no title, maker
+name, photo, or description of a physical item to research — it appears the row was
+meant for coordination among badgemakers (e.g. volunteering to help support the badge
+community at the con) and was swept into the sheet import along with actual badge
+entries.
+
+No further research was possible or appropriate here since there is no item to look up.

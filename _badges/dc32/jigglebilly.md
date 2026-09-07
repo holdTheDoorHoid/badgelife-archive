@@ -46,10 +46,18 @@ sources:
   row: 98
   updated: '2024-04-08'
 research:
-  status: stub
+  status: researched
   confidence: low
-  last_checked: '2026-09-06'
-  notes: Imported from the community badge sheet; not yet researched.
-last_modified_date: '2026-09-06'
+  last_checked: '2026-09-07'
+  notes: >-
+    No web presence found for "Jigglebilly" or maker "Shenanigans-R-Us". Checked
+    web search (DuckDuckGo/Google/Bing via fetch), Hackaday.io search, Tindie
+    search (403), and Etsy search (403); nothing matched either term. The
+    community sheet lists several other novelty items from the same maker for
+    dc32 ("I'm in my Defcon era", "Keanu is my homeboy v2", "Tootsie Pop",
+    "Weiner") suggesting a small-batch/in-person seller with no online storefront
+    or project page. Left all descriptive fields empty per the never-invent rule
+    rather than guess from the title alone.
+last_modified_date: '2026-09-07'
 ---
 
