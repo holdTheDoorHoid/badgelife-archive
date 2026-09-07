@@ -16,11 +16,16 @@ makers:
   url: https://uberflux.com/maker/hamster
   role: designer/seller
 summary: 'DCZia''s DEF CON 34 badge: a wearable, fully functional 3x3 mechanical macropad built on an RP2040 with nine MX-footprint switches, per-key WS2812 RGB plus SK6812 side-firing underglow, a 3-axis accelerometer, two SAO connectors, USB-C and 3xAAA power, shipping with CircuitPython/MicroPython firmware and designed for QMK reflashing; sold as a partial kit (user adds switches and battery box) with a bundled SAO add-on board that takes three more switches or an OLED.'
-functions: 'Nine independently programmable mechanical keys with per-key RGB; accelerometer-driven tilt/shake-reactive lighting patterns (rainbow wave, breathing pulse, sparkle); doubles as a real USB HID n-key-rollover macropad after the con; two SAO ports for add-ons.'
+functions: Nine independently programmable mechanical keys with per-key RGB; accelerometer-driven tilt/shake-reactive lighting patterns (rainbow wave, breathing pulse, sparkle); doubles as a real USB HID n-key-rollover macropad after the con; two SAO ports for add-ons.
 look:
-  colors: [black, blue]
+  colors:
+  - black
+  - blue
   shape: rectangle
-  themes: [hardware tool, learn to solder, keyboard]
+  themes:
+  - hardware tool
+  - learn to solder
+  - keyboard
 tech:
   mcu: RP2040
   leds:
@@ -28,20 +33,22 @@ tech:
     type: WS2812B/SK6812
     note: 9x WS2812B per-key RGB (one under each switch) plus 6x SK6812 side-firing underglow LEDs
   display: none
-  connectivity: [usb]
+  connectivity:
+  - usb
   battery: 3x AAA, or USB-C
   sao_version: v1
   sao_ports: 2
 get_one:
-  price: "$60"
+  price: $60
   price_usd: 60
   quantity: null
   availability: limited
-  availability_note: 'uberflux.com listing showed 2 remaining (72 sold) as of 2026-09-07'
-  distribution: [purchase]
-  where: 'Sold via the Uberflux storefront (uberflux.com/product/HAMST-DCZIA-2026), listed under maker "hamster" / Snurkle Engineering; shipped by USPS ($10) with in-person DEF CON pickup also offered.'
+  availability_note: uberflux.com listing showed 2 remaining (72 sold) as of 2026-09-07
+  distribution:
+  - purchase
+  where: Sold via the Uberflux storefront (uberflux.com/product/HAMST-DCZIA-2026), listed under maker "hamster" / Snurkle Engineering; shipped by USPS ($10) with in-person DEF CON pickup also offered.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/dczia/mk9-badge
   firmware_url: https://github.com/dczia/mk9-badge
   eda_tool: KiCad
@@ -62,14 +69,14 @@ links:
   url: https://dczia.net/
   kind: website
 images:
-  - file: assets/images/badges/dc34/dczia-mk9/30b29bb628.jpg
-    source: "https://uberflux.com/product/HAMST-DCZIA-2026"
-    credit: "DCZia (Snurkle Engineering)"
-    caption: "DCZia Mk9 badge, product listing photo"
-  - file: assets/images/badges/dc34/dczia-mk9/6627a588fe.jpg
-    source: "https://uberflux.com/product/HAMST-DCZIA-2026"
-    credit: "DCZia (Snurkle Engineering)"
-    caption: "DCZia Mk9 badge, additional product photo"
+- file: assets/images/badges/dc34/dczia-mk9/30b29bb628.jpg
+  source: https://uberflux.com/product/HAMST-DCZIA-2026
+  credit: DCZia (Snurkle Engineering)
+  caption: DCZia Mk9 badge, product listing photo
+- file: assets/images/badges/dc34/dczia-mk9/6627a588fe.jpg
+  source: https://uberflux.com/product/HAMST-DCZIA-2026
+  credit: DCZia (Snurkle Engineering)
+  caption: DCZia Mk9 badge, additional product photo
 contact: {}
 notes: []
 status: released
@@ -103,8 +110,14 @@ research:
   status: researched
   confidence: high
   last_checked: '2026-09-07'
-  notes: 'Price and stock count ($60, 2 of 74 remaining) are a live snapshot from the storefront on 2026-09-07 and will go stale. No stated total production quantity was found, only sold+remaining at time of check. License for the open-source files was not explicitly named on any source (repo said "committed to open source hardware and software" without naming a license). Individual member names behind "DCZia" were not published on any source checked. OnShape CAD link was in the entry but not independently verified beyond being reachable.'
+  notes: Price and stock count ($60, 2 of 74 remaining) are a live snapshot from the storefront on 2026-09-07 and will go stale. No stated total production quantity was found, only sold+remaining at time of check. License for the open-source files was not explicitly named on any source (repo said "committed to open source hardware and software" without naming a license). Individual member names behind "DCZia" were not published on any source checked. OnShape CAD link was in the entry but not independently verified beyond being reachable.
 last_modified_date: '2026-09-07'
+model:
+  file: assets/models/dc34/dczia-mk9.glb
+  method: kicad
+  source_file: hardware/SAO-adapter.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 128684
 ---
 
 DCZia's Mk9 is a wearable macropad built for DEF CON 34, continuing a badge series the group has run since forming around DEF CON 22. It packs nine real mechanical switches into a 3x3 grid on an RP2040, with a WS2812B RGB LED under every key and six SK6812 side-firing LEDs for underglow, plus an accelerometer that drives tilt- and shake-reactive lighting modes like a rainbow wave and a breathing pulse. Two SAO headers let it host add-ons, including a bundled expansion board that itself takes three more switches or an OLED. The badge ships as a partial kit — the buyer adds their own switches and battery box — and runs on USB-C or 3x AAA batteries.

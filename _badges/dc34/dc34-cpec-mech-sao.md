@@ -12,7 +12,7 @@ makers:
 - name: Cyber Professionals Enthusiast Club (CPEC)
   url: https://cpec.club
 summary: A family of five weapon-themed SAO plug-in boards (missile, gatling/machine gun, laser, fist, sword) for the CPEC DEF CON 34 "MechBattle" Badge; each runs the same ATtiny816 Adafruit-seesaw I2C firmware with its identity set by onboard ID resistors, so the badge's ESP32-S3 MCU can detect which weapon is plugged into each of its three SAO slots and feed that into a battle-calculator game.
-functions: 'Identifies itself over I2C (Adafruit seesaw protocol) to the host badge''s three SAO ports so the badge''s onboard "battle calculator" game logic knows which of five weapons (missile, gatling, laser, fist, sword) is plugged into each slot; purely a game-identity peripheral, no LEDs or display of its own confirmed.'
+functions: Identifies itself over I2C (Adafruit seesaw protocol) to the host badge's three SAO ports so the badge's onboard "battle calculator" game logic knows which of five weapons (missile, gatling, laser, fist, sword) is plugged into each slot; purely a game-identity peripheral, no LEDs or display of its own confirmed.
 look:
   colors: []
   shape: null
@@ -35,7 +35,7 @@ get_one:
   distribution: []
   where: ''
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/Cyber-Professionals-Enthusiast-Club/DC-34-Mech-SAO
   firmware_url: https://github.com/Cyber-Professionals-Enthusiast-Club/DC-34-Mech-SAO/tree/master/DC34-Mech-SAO-Firmware
   eda_tool: KiCad
@@ -81,7 +81,7 @@ sources:
   url: https://github.com/Cyber-Professionals-Enthusiast-Club/DC-34-Mech-SAO/tree/master
   title: DC-34-Mech-SAO file tree
   accessed: '2026-09-07'
-  note: 'Confirms five weapon PCB variants (fist-03, gatling-01, laser-02, missile-00, sword-04) plus a panel file, matching art assets fist/laser/machine_gun/missile_launcher/sword.svg; JLCPCB BOM lists "Attiny-816" as the MCU.'
+  note: Confirms five weapon PCB variants (fist-03, gatling-01, laser-02, missile-00, sword-04) plus a panel file, matching art assets fist/laser/machine_gun/missile_launcher/sword.svg; JLCPCB BOM lists "Attiny-816" as the MCU.
 - kind: url
   url: https://raw.githubusercontent.com/eggsactly/DcC4-Mech-SAO-Plugin-Demo/master/README.md
   title: DC34-Mech-SAO-Plugin-Demo README
@@ -106,19 +106,14 @@ research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: >-
-    Maker's own repos and READMEs confirm the concept, the five weapon variants, the
-    ATtiny816 MCU (per JLCPCB BOM) and seesaw I2C protocol, and the host badge (an
-    ESP32-S3 "MechBattle" badge with three SAO ports). No pricing, quantity made, or
-    distribution method found; CPEC's own site is still under construction and has no
-    shop listing or product photos yet, and no photos of an assembled SAO or badge
-    turned up in web/press search, so images and get_one fields are left empty rather
-    than guessed. tech.leds and tech.display left null: no LEDs or display are
-    mentioned for the SAO itself in any source (only the host badge has a display and
-    LEDs). Firmware README documentation references the "Adafruit ATtiny817-seesaw"
-    Arduino library/dependency page even though the actual BOM'd chip is an ATtiny816;
-    this discrepancy is in the maker's own materials, not introduced here.
+  notes: 'Maker''s own repos and READMEs confirm the concept, the five weapon variants, the ATtiny816 MCU (per JLCPCB BOM) and seesaw I2C protocol, and the host badge (an ESP32-S3 "MechBattle" badge with three SAO ports). No pricing, quantity made, or distribution method found; CPEC''s own site is still under construction and has no shop listing or product photos yet, and no photos of an assembled SAO or badge turned up in web/press search, so images and get_one fields are left empty rather than guessed. tech.leds and tech.display left null: no LEDs or display are mentioned for the SAO itself in any source (only the host badge has a display and LEDs). Firmware README documentation references the "Adafruit ATtiny817-seesaw" Arduino library/dependency page even though the actual BOM''d chip is an ATtiny816; this discrepancy is in the maker''s own materials, not introduced here.'
 last_modified_date: '2026-09-07'
+model:
+  file: assets/models/dc34/dc34-cpec-mech-sao.glb
+  method: kicad
+  source_file: DC34-Mech-SAO/DC34-Mech-SAO-panel.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 781624
 ---
 
 CPEC (Cyber Professionals Enthusiast Club) built a set of five interchangeable weapon-themed SAOs — missile, gatling/machine gun, laser, fist, and sword — for its DEF CON 34 "MechBattle" badge. Each weapon is its own small PCB carrying an ATtiny816 running Adafruit's seesaw I2C firmware, with onboard resistors setting a unique identity so the badge can tell which weapon occupies which of its three SAO slots. The host badge (documented in a separate CPEC repo) is an ESP32-S3 board with a 2.2" color display, WiFi/BLE, six LEDs, a rumble motor, and game/menu firmware described by the maker as a "battle calculator" for turning the plugged-in weapons into gameplay — CPEC's own README calls this second iteration of the firmware "not final."

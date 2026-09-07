@@ -46,7 +46,7 @@ get_one:
   - free_drop
   where: Given away free at DEF CON 31 (2023) drops announced over NilbinSec's Twitter/X account; 200 made.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/NilbinSec/E-Computer-SAO-DC31
   firmware_url: null
   gerbers_url: https://github.com/NilbinSec/E-Computer-SAO-DC31/tree/main/Gerbers
@@ -70,13 +70,13 @@ links:
   kind: social
 images:
 - file: assets/images/badges/dc31/e-computer-sao/3fa7365213.jpg
-  source: "https://github.com/NilbinSec/E-Computer-SAO-DC31"
-  credit: "NilbinSec"
-  caption: "The E-Computer SAO PCB, pink and blue soldermask with LED, from the GitHub repo README"
+  source: https://github.com/NilbinSec/E-Computer-SAO-DC31
+  credit: NilbinSec
+  caption: The E-Computer SAO PCB, pink and blue soldermask with LED, from the GitHub repo README
 - file: assets/images/badges/dc31/e-computer-sao/60a3b43de5.jpg
-  source: "https://twitter.com/NilbinSec/status/1678156364013527041"
-  credit: "NilbinSec"
-  caption: "NilbinSec's DEF CON 31 reveal tweet photo of the E-Computer SAO"
+  source: https://twitter.com/NilbinSec/status/1678156364013527041
+  credit: NilbinSec
+  caption: NilbinSec's DEF CON 31 reveal tweet photo of the E-Computer SAO
 contact: {}
 notes: []
 status: released
@@ -97,7 +97,7 @@ sources:
   note: BOM (LEDs, resistor, SAO adapter), gerbers/build files, credits design to 2PAC and Anxious Analyst.
 - kind: url
   url: https://www.pcbway.com/project/share/Defcon_31_E_Computer_SAO_13834c16.html
-  title: 'Defcon 31 E-Computer SAO - PCBWay project share'
+  title: Defcon 31 E-Computer SAO - PCBWay project share
   accessed: '2026-09-06'
   note: Confirms 200 units produced, ~3% failure rate (a via sheared during through-hole resistor trimming), pink/blue soldermask and silkscreen.
 research:
@@ -105,7 +105,13 @@ research:
   confidence: high
   last_checked: '2026-09-06'
   notes: The SAO is a fan tribute styled after the "E Computer," a prop computer from the DadFeels YouTube/web series (Bardo Industries, in-universe), not a real historical computer. It is a simple passive light-up board (no MCU) with one blue through-hole LED and two white side-view SMD LEDs, connecting via a shrouded 2x3-pin (v1.69bis/v2) SAO header. NilbinSec made 200 and gave them away free at DEF CON 31 drops announced on Twitter/X. Hardware files (BOM, gerbers) are public on GitHub, but no license is stated and there is no firmware since the board has no logic. Design credited to 2PAC and Anxious Analyst.
-last_modified_date: '2026-09-06'
+last_modified_date: '2026-09-07'
+model:
+  file: assets/models/dc31/e-computer-sao.glb
+  method: kicad
+  source_file: Build Files/AA Design THT Modify.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 67608
 ---
 
 NilbinSec's E-Computer SAO is a free giveaway plug-in add-on made for DEF CON 31 in 2023. Its shape and pink-and-blue color scheme are a tribute to the "E Computer," a fictional retro computer prop from Bardo Industries in the DadFeels YouTube/web series, rather than any real vintage machine. The board is entirely passive: one blue through-hole LED and two white side-view SMD LEDs are wired through a single current-limiting resistor, lit whenever the SAO is plugged into a badge's power rail, with no microcontroller or logic on board.

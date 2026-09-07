@@ -12,7 +12,7 @@ makers:
 - name: Hackin7 (HCKBADGES)
   url: https://github.com/maibadge
 summary: A maimai arcade-cabinet-shaped electronic badge from the MaiBadge project, sold by Hackin7 (HCKBADGES) via Uberflux for DEF CON 34.
-functions: 'OLED models cycle through character face art and GIFs and can play back songs; non-OLED models play simple tones. Two buttons ("ADVANCE" and "SELECT") drive an on-badge face/menu UI.'
+functions: OLED models cycle through character face art and GIFs and can play back songs; non-OLED models play simple tones. Two buttons ("ADVANCE" and "SELECT") drive an on-badge face/menu UI.
 look:
   colors: []
   shape: arcade cabinet
@@ -42,7 +42,7 @@ make_your_own:
   hardware_url: https://github.com/maibadge/maibadge_machine_pcb
   firmware_url: https://github.com/maibadge/maibadge/tree/main/code/circuitpython-full-slop-port
   eda_tool: KiCad
-  notes: 'Firmware is CircuitPython; select the "machine_v2" board profile (vs. the bear-shaped "bear_v1") in settings.toml before uploading. See MANUAL_UPLOAD.md in the firmware repo for install steps.'
+  notes: Firmware is CircuitPython; select the "machine_v2" board profile (vs. the bear-shaped "bear_v1") in settings.toml before uploading. See MANUAL_UPLOAD.md in the firmware repo for install steps.
 links:
 - label: uberflux.com/product/HCK-maibadge-cab
   url: https://uberflux.com/product/HCK-maibadge-cab
@@ -56,10 +56,10 @@ links:
   kind: repo
   note: KiCad PCB source for the machine (arcade-cabinet)-shaped variant that "maibadge-cab" is.
 images:
-  - file: assets/images/badges/dc34/maibadge-cab/96a0a30ca5.jpg
-    source: "https://uberflux.com/product/HCK-maibadge-cab"
-    credit: "Hackin7 / Uberflux"
-    caption: "maibadge-cab (machine-shaped MaiBadge) product listing photo"
+- file: assets/images/badges/dc34/maibadge-cab/96a0a30ca5.jpg
+  source: https://uberflux.com/product/HCK-maibadge-cab
+  credit: Hackin7 / Uberflux
+  caption: maibadge-cab (machine-shaped MaiBadge) product listing photo
 contact: {}
 notes:
 - 'Uberflux. $40, status: upcoming drop.'
@@ -74,22 +74,22 @@ sources:
   url: https://uberflux.com/product/HCK-maibadge-cab
   title: maibadge-cab - Uberflux product page
   accessed: '2026-09-07'
-  note: 'Confirmed DEF CON 34 event, $40/$20 two-variant pricing (OLED vs no-OLED), stock counts, and product photo.'
+  note: Confirmed DEF CON 34 event, $40/$20 two-variant pricing (OLED vs no-OLED), stock counts, and product photo.
 - kind: url
   url: https://github.com/maibadge/maibadge
   title: maibadge/maibadge - GitHub
   accessed: '2026-09-07'
-  note: 'Confirms open-source CircuitPython firmware, two board shapes (bear_v1, machine_v2), and project name "MaiBadge".'
+  note: Confirms open-source CircuitPython firmware, two board shapes (bear_v1, machine_v2), and project name "MaiBadge".
 - kind: url
   url: https://github.com/maibadge/maibadge/blob/main/code/circuitpython-full-slop-port/boards/machine_v2.py
   title: machine_v2.py board profile
   accessed: '2026-09-07'
-  note: 'Source of MCU (ESP32-S3 / YD ESP32-S3 N16R8), display/LED/buzzer pinout, and two-button (ADVANCE/SELECT) control scheme for the machine-shaped board.'
+  note: Source of MCU (ESP32-S3 / YD ESP32-S3 N16R8), display/LED/buzzer pinout, and two-button (ADVANCE/SELECT) control scheme for the machine-shaped board.
 - kind: url
   url: https://github.com/maibadge/maibadge_machine_pcb
   title: maibadge/maibadge_machine_pcb - GitHub
   accessed: '2026-09-07'
-  note: 'KiCad PCB source repo for the machine-shaped variant.'
+  note: KiCad PCB source repo for the machine-shaped variant.
 research:
   status: researched
   confidence: medium
@@ -98,6 +98,12 @@ research:
 last_modified_date: '2026-09-07'
 redirect_from:
 - /badges/other/maibadge-cab/
+model:
+  file: assets/models/dc34/maibadge-cab.glb
+  method: kicad
+  source_file: KICAD pcb/maibadge/maibadge_ver2.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 131948
 ---
 
 The maibadge-cab is the arcade-cabinet-shaped variant of MaiBadge, an open-source electronic badge project themed after Sega's maimai rhythm-game cabinets. It was made by Hackin7, operating the HCKBADGES storefront, and sold for DEF CON 34 (August 2026) through the Uberflux marketplace in two configurations: a $40 version with an OLED display that shows character faces and animated GIFs, and a cheaper $20 version without a display that instead plays simple tones through an onboard buzzer.

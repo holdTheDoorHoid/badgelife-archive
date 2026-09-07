@@ -35,7 +35,7 @@ get_one:
   availability: unknown
   distribution:
   - free_drop
-  where: 'Distributed in person at DEF CON 31 via surprise "badge drops" announced on social media by the maker (handle alt_bier). Sold mostly as DIY solder kits, with some pre-assembled units also given/sold out.'
+  where: Distributed in person at DEF CON 31 via surprise "badge drops" announced on social media by the maker (handle alt_bier). Sold mostly as DIY solder kits, with some pre-assembled units also given/sold out.
 make_your_own:
   open_source: 'yes'
   hardware_url: https://github.com/gowenrw/sailor_moon_badge
@@ -43,7 +43,7 @@ make_your_own:
   eda_tool: KiCad
 notes:
 - Available In-person at con wherever alt_bier is doing badge drops (look for tweets). Alt_bier likes to do drops right when you least expect it. Might as well remain awake for the entire con (1-2-3 rule).
-- 'The project site (sailormoon.altbier.us) spells the maker''s handle "Ninjician"; the community sheet spells it "Ninjaican." Kept the sheet spelling for the maker field.'
+- The project site (sailormoon.altbier.us) spells the maker's handle "Ninjician"; the community sheet spells it "Ninjaican." Kept the sheet spelling for the maker field.
 status: released
 sources:
 - kind: sheet
@@ -69,20 +69,26 @@ links:
   kind: repo
 images:
 - file: assets/images/badges/dc31/sailor-moon-badge/b14898a858.jpg
-  source: "https://sailormoon.altbier.us/"
-  credit: "Ninjaican"
-  caption: "Sailor Moon badge, front view showing artwork"
+  source: https://sailormoon.altbier.us/
+  credit: Ninjaican
+  caption: Sailor Moon badge, front view showing artwork
 - file: assets/images/badges/dc31/sailor-moon-badge/b475501480.jpg
-  source: "https://sailormoon.altbier.us/"
-  credit: "Ninjaican"
-  caption: "Sailor Moon badge, back view showing LED circuit"
+  source: https://sailormoon.altbier.us/
+  credit: Ninjaican
+  caption: Sailor Moon badge, back view showing LED circuit
 contact: {}
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-06'
   notes: 'Core facts (maker, circuit, LEDs, distribution, open-source repo) confirmed directly on the maker''s own project page and GitHub repo. Not found: exact quantity made, whether it was free or paid at the drop (the $40 price from the community sheet is unconfirmed elsewhere), and PCB colorway/shape details (no colors/shape stated on the source pages, left empty rather than guessed). The repo owner GitHub handle (gowenrw) differs from the maker handle used on the project site (alt_bier/Ninjician) and the sheet (Ninjaican); likely the same person or a close collaborator, but not stated explicitly, so makers.name was left as the sheet''s original spelling.'
-last_modified_date: '2026-09-06'
+last_modified_date: '2026-09-07'
+model:
+  file: assets/models/dc31/sailor-moon-badge.glb
+  method: kicad
+  source_file: eda/sailor_moon/sailor_moon.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 172768
 ---
 
 The Sailor Moon Badge is a DC31 (2023) indie badge by Ninjaican, distributed the way a lot of alt_bier's badges are: as a surprise in-person drop at the con, announced without much warning on social media, mostly as a DIY solder kit with a handful of pre-assembled units available for people who didn't want to build their own.

@@ -130,6 +130,12 @@ research:
 last_modified_date: '2026-09-07'
 redirect_from:
 - /badges/dc31/future-badge-the-future-will-prevail/
+model:
+  file: assets/models/dc31/the-future-will-prevail.glb
+  method: kicad
+  source_file: eda/future_badge/future_badge.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 607020
 ---
 
 The Future will Prevail was funded through a June–July 2023 Indiegogo campaign ("Future Badge: Wearable Art DEFCON #Badgelife") run by Richard Gowen with team members Alt_Bier and Brian Culver, aimed at DEF CON 31. The badge carries a laser-engraved Back to the Future scene — a DeLorean over a flame trail with a lightning bolt, plus a time-circuit-style trio of date readouts — on a navy PCB with gold traces, and RGB LEDs light up the flame and lightning accents. It clips on with carabiner-style hooks rather than a lanyard.

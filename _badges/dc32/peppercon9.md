@@ -52,6 +52,7 @@ links:
 - label: trueControl/dc32-peppercon9-addon (trueserve Git)
   url: https://git.trueserve.org/trueControl/dc32-peppercon9-addon
   kind: repo
+  archived: https://web.archive.org/web/20260417182626/https://git.trueserve.org/trueControl/dc32-peppercon9-addon
 - label: SCH_peppercon9_gat_REV1.pdf (schematic)
   url: https://git.trueserve.org/trueControl/dc32-peppercon9-addon/src/branch/master/hardware/SCH_peppercon9_gat_REV1.pdf
   kind: doc
@@ -82,6 +83,7 @@ sources:
   title: trueControl/dc32-peppercon9-addon - trueserve Git
   accessed: '2026-09-07'
   note: Confirms firmware (MounRiver Studio / WCH CH32V RISC-V project) and a hardware/ directory containing a board schematic; one tagged release, "v0.0.1-dc32 - Shipping Release," dated 2024-08-08, with compiled firmware binaries attached.
+  archived: https://web.archive.org/web/20260417182626/https://git.trueserve.org/trueControl/dc32-peppercon9-addon
 - kind: url
   url: https://git.trueserve.org/trueControl/dc32-peppercon9-addon/src/branch/master/hardware/SCH_peppercon9_gat_REV1.pdf
   title: SCH_peppercon9_gat_REV1.pdf
@@ -91,23 +93,8 @@ research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: >-
-    The maker's own trueControl BASIC page and git.trueserve.org repo confirm
-    the core technical facts (MCU, LED driver/count, sensors, UI, and that it
-    shipped for DEF CON 32), but no photo of the physical item was found
-    anywhere reachable: the trueControl page has no embedded images, no
-    Hackaday.io project exists for it (unlike the same maker's "Flames"
-    addon), and whiskeypirates.com could not be fetched (expired TLS
-    certificate). PCB/solder-mask color, exact quantity made, and current
-    availability are not stated by the maker anywhere found; the $40 price
-    and "cash on-site" distribution detail come only from the community
-    sheet and could not be independently confirmed. Session web-search
-    quota was exhausted and Google/Bing/DuckDuckGo/web.archive.org fetches
-    were all blocked or unusable for this task; the maker's own site
-    (found via a sibling entry, dc32-flames) was the actual source.
-    Connectivity/i2c was not explicitly stated on the maker's page for this
-    item (unlike the sibling "Flames" addon) so tech.connectivity is left
-    empty rather than assumed.
+  notes: 'The maker''s own trueControl BASIC page and git.trueserve.org repo confirm the core technical facts (MCU, LED driver/count, sensors, UI, and that it shipped for DEF CON 32), but no photo of the physical item was found anywhere reachable: the trueControl page has no embedded images, no Hackaday.io project exists for it (unlike the same maker''s "Flames" addon), and whiskeypirates.com could not be fetched (expired TLS certificate). PCB/solder-mask color, exact quantity made, and current availability are not stated by the maker anywhere found; the $40 price and "cash on-site" distribution detail come only from the community sheet and could not be independently confirmed. Session web-search quota was exhausted and Google/Bing/DuckDuckGo/web.archive.org fetches were all blocked or unusable for this task; the maker''s own site (found via a sibling entry, dc32-flames) was the actual source. Connectivity/i2c was not explicitly stated on the maker''s page for this item (unlike the sibling
+    "Flames" addon) so tech.connectivity is left empty rather than assumed.'
 last_modified_date: '2026-09-07'
 ---
 

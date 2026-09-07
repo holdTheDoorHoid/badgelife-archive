@@ -31,7 +31,7 @@ tech:
 get_one:
   price: ''
   price_usd: null
-  quantity: 'two small batches (exact count not stated)'
+  quantity: two small batches (exact count not stated)
   availability: unknown
   distribution: []
   where: ''
@@ -44,18 +44,21 @@ links:
 - label: hackaday.io/project/197216-purple-cyclops
   url: https://hackaday.io/project/197216-purple-cyclops
   kind: hackaday
+  archived: https://web.archive.org/web/20260206212708/https://hackaday.io/project/197216-purple-cyclops
 images:
-  - file: assets/images/badges/dc32/purple-cyclops/3736986300.jpg
-    source: "https://hackaday.io/project/197216-purple-cyclops"
-    credit: "Oakmizer"
-    caption: "Purple Cyclops SAO, bottom-view LED variant PCB render"
-  - file: assets/images/badges/dc32/purple-cyclops/1ade8b5775.jpg
-    source: "https://hackaday.io/project/197216-purple-cyclops"
-    credit: "Oakmizer"
-    caption: "Purple Cyclops SAO, side-view LED variant PCB render"
+- file: assets/images/badges/dc32/purple-cyclops/3736986300.jpg
+  source: https://hackaday.io/project/197216-purple-cyclops
+  credit: Oakmizer
+  caption: Purple Cyclops SAO, bottom-view LED variant PCB render
+  archived: https://web.archive.org/web/20260206212708/https://hackaday.io/project/197216-purple-cyclops
+- file: assets/images/badges/dc32/purple-cyclops/1ade8b5775.jpg
+  source: https://hackaday.io/project/197216-purple-cyclops
+  credit: Oakmizer
+  caption: Purple Cyclops SAO, side-view LED variant PCB render
+  archived: https://web.archive.org/web/20260206212708/https://hackaday.io/project/197216-purple-cyclops
 contact: {}
 notes:
-- 'Gerber files for both LED variants are linked from the Hackaday.io project page, in EasyEDA format; no separate firmware exists since the board has no MCU.'
+- Gerber files for both LED variants are linked from the Hackaday.io project page, in EasyEDA format; no separate firmware exists since the board has no MCU.
 status: released
 sources:
 - kind: url
@@ -63,16 +66,19 @@ sources:
   title: Purple Cyclops
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: hackaday-search); event read as ''DEF CON 32''.'
+  archived: https://web.archive.org/web/20260206212708/https://hackaday.io/project/197216-purple-cyclops
 - kind: url
   url: https://hackaday.io/project/197216-purple-cyclops
   title: Purple Cyclops
   accessed: '2026-09-07'
   note: 'Fetched project page for full write-up: maker (Oakmizer), event/year (DEF CON 32, 2024), components (JLCPCB multicolor silkscreen, 4 SMD LEDs, 10-ohm resistor, SMT 2x3 SAO header), two LED-layout variants, Gerber/EasyEDA files, and a noted polarity bug on the side-view variant.'
+  archived: https://web.archive.org/web/20260206212708/https://hackaday.io/project/197216-purple-cyclops
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'Fact-check (2026-09-07): confirmed maker, event, dimensions, LED count/parts (Inolux and Wurth SMD LEDs), 10-ohm resistor, EasyEDA Gerber files for both variants, no-MCU/no-firmware, and the side-view polarity bug by re-fetching the Hackaday.io project page directly. Found and fixed two errors: (1) the two saved images had swapped captions — the file hashed 3736986300 is actually the bottom-view PCB render and 1ade8b5775 is the side-view render, opposite of what was recorded; both are gerber/schematic renders from the page, not photos of an assembled badge, so captions were also updated to say so. (2) removed the "sci-fi" look.theme tag: the project page never describes the character thematically (it just says it is an AI-generated cyclops image), so that tag was an unsupported guess rather than something sourced. Everything else in the entry checked out. Price, quantity made beyond "two small batches," and distribution/availability are still not stated on the project page and remain blank; status "released" is inferred from the two batches having been fabricated for a specific past con rather than an explicit statement that attendees received one, so status is left as researched rather than verified.'
+  notes: 'Fact-check (2026-09-07): confirmed maker, event, dimensions, LED count/parts (Inolux and Wurth SMD LEDs), 10-ohm resistor, EasyEDA Gerber files for both variants, no-MCU/no-firmware, and the side-view polarity bug by re-fetching the Hackaday.io project page directly. Found and fixed two errors: (1) the two saved images had swapped captions — the file hashed 3736986300 is actually the bottom-view PCB render and 1ade8b5775 is the side-view render, opposite of what was recorded; both are gerber/schematic renders from the page, not photos of an assembled badge, so captions were also updated to say so. (2) removed the "sci-fi" look.theme tag: the project page never describes the character thematically (it just says it is an AI-generated cyclops image), so that tag was an unsupported guess rather than something sourced. Everything else in the entry checked out. Price, quantity made beyond "two small batches," and distribution/availability are still not stated on the project page and
+    remain blank; status "released" is inferred from the two batches having been fabricated for a specific past con rather than an explicit statement that attendees received one, so status is left as researched rather than verified.'
 last_modified_date: '2026-09-07'
 ---
 

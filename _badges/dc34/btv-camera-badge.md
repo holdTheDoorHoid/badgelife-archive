@@ -50,7 +50,7 @@ get_one:
   - kit
   where: Sold via Eventbrite for in-person pickup at the Blue Team Village infobooth, Las Vegas Convention Center West Hall, 2nd Floor, W213-215, during DEF CON 34
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/blueteamvillage/btv_dc32_badge
   firmware_url: https://github.com/blueteamvillage/btv_dc32_badge
   eda_tool: KiCad
@@ -71,9 +71,9 @@ links:
   kind: repo
 images:
 - file: assets/images/badges/dc34/btv-camera-badge/fb0a135ffa.jpg
-  source: "https://camerabadge.blueteamvillage.org"
-  credit: "Blue Team Village / alt_bier"
-  caption: "The BTV Camera Badge, front view"
+  source: https://camerabadge.blueteamvillage.org
+  credit: Blue Team Village / alt_bier
+  caption: The BTV Camera Badge, front view
 contact:
   emails:
   - info@blueteamvillage.org
@@ -87,7 +87,7 @@ sources:
   listing: New
 - kind: url
   url: https://www.eventbrite.com/e/1995859982936
-  title: "The BTV Camera Badge - DEF CON 34 BTV Fundraiser - VEGAS PICKUP ONLY"
+  title: The BTV Camera Badge - DEF CON 34 BTV Fundraiser - VEGAS PICKUP ONLY
   accessed: '2026-09-06'
   note: Full description, BOM, pricing ($120 assembled / $60 kit), pickup location and dates, designer credit (alt_bier), and related items (BTV SAO, Sh1tty add-on)
 - kind: url
@@ -104,8 +104,14 @@ research:
   status: researched
   confidence: high
   last_checked: '2026-09-06'
-  notes: 'Maker''s own Eventbrite listing and documentation site confirm the core facts. The DC34 listing directs buyers to camerabadge.blueteamvillage.org and the btv_dc32_badge GitHub repo, both of which describe the badge as designed for DEFCON 32 (2024) -- this appears to be the same camera badge design resold/rebuilt for DC34 in 2026 (see _badges/dc32/camera-badge.md, also currently a stub, for the earlier sale). Display type/size beyond "screen" is not specified anywhere found. Quantity made was not stated. Two related add-ons were also sold alongside this badge and are reported separately below (BTV SAO, Sh1tty add-on SAO) rather than filed here.'
-last_modified_date: '2026-09-06'
+  notes: Maker's own Eventbrite listing and documentation site confirm the core facts. The DC34 listing directs buyers to camerabadge.blueteamvillage.org and the btv_dc32_badge GitHub repo, both of which describe the badge as designed for DEFCON 32 (2024) -- this appears to be the same camera badge design resold/rebuilt for DC34 in 2026 (see _badges/dc32/camera-badge.md, also currently a stub, for the earlier sale). Display type/size beyond "screen" is not specified anywhere found. Quantity made was not stated. Two related add-ons were also sold alongside this badge and are reported separately below (BTV SAO, Sh1tty add-on SAO) rather than filed here.
+last_modified_date: '2026-09-07'
+model:
+  file: assets/models/dc34/btv-camera-badge.glb
+  method: kicad
+  source_file: eda/camera_badge/camera_badge.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 617648
 ---
 
 The BTV Camera Badge is a PCB badge cut into the shape of a vintage SLR camera, made by Blue Team Village (BTV) for DEF CON 34 in August 2026 and designed by BTV badgelife team member alt_bier (with De-CERT and emilia). It doesn't take photos -- instead, the round display set into the "lens" lights up to show when Wi-Fi deauthentication packets are being sent nearby or when a Flipper Zero is detected in range. It runs on an ESP32, which the maker notes leaves room for custom firmware, and the listing hints that "other goodies" are hidden inside the badge as well.

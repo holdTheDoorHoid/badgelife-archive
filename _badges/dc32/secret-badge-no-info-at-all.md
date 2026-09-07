@@ -47,21 +47,26 @@ links:
 - label: darknet-ng.network/darknet-ng-13-badge
   url: https://darknet-ng.network/darknet-ng-13-badge/
   kind: website
+  archived: https://web.archive.org/web/20260821062758/https://darknet-ng.network/darknet-ng-13-badge/
 - label: x.com/DarknetNG
   url: https://x.com/DarknetNG
   kind: social
 - label: defcon.social/@DarknetNG
   url: https://defcon.social/@DarknetNG
   kind: website
+  archived: https://web.archive.org/web/20260821062738/https://defcon.social/@DarknetNG
 - label: darknet-ng.network
   url: https://darknet-ng.network/
   kind: website
+  archived: https://web.archive.org/web/20260821062758/https://darknet-ng.network/
 - label: Darknet-NG 13 DIY Badge Case (assembly steps)
   url: https://darknet-ng.network/darknet-ng-13-diy-badge-case/
   kind: doc
+  archived: https://web.archive.org/web/20260821062818/https://darknet-ng.network/darknet-ng-13-diy-badge-case/
 - label: darknet-ng/Darknet-NG-13-Badge (GitHub)
   url: https://github.com/darknet-ng/Darknet-NG-13-Badge
   kind: repo
+  archived: https://web.archive.org/web/20251009025814/https://github.com/darknet-ng/Darknet-NG-13-Badge
 - label: Darknet-NG 13 Badge on Printables
   url: https://www.printables.com/model/943540-darknet-ng-13-badge
   kind: fab
@@ -73,14 +78,17 @@ images:
   source: https://darknet-ng.network/darknet-ng-13-badge/
   credit: Darknet-NG Operatives
   caption: 3D-printed case design for the Darknet-NG 13 DIY badge (2024)
+  archived: https://web.archive.org/web/20260821062758/https://darknet-ng.network/darknet-ng-13-badge/
 - file: assets/images/badges/dc32/secret-badge-no-info-at-all/2a18a6a226.jpg
   source: https://darknet-ng.network/darknet-ng-13-diy-badge-case/
   credit: Darknet-NG
   caption: Assembled Darknet-NG 13 badge case with Heltec WiFi LoRa 32 V3 board
+  archived: https://web.archive.org/web/20260821062818/https://darknet-ng.network/darknet-ng-13-diy-badge-case/
 - file: assets/images/badges/dc32/secret-badge-no-info-at-all/689bf4ddee.jpg
   source: https://darknet-ng.network/darknet-ng-13-diy-badge-case/
   credit: Darknet-NG
   caption: Development versions of the Darknet-NG 13 badge case
+  archived: https://web.archive.org/web/20260821062818/https://darknet-ng.network/darknet-ng-13-diy-badge-case/
 contact:
   raw:
   - "Twitter/X: \nMastodon \nFollow our blog for in-depth details\n"
@@ -101,16 +109,19 @@ sources:
   title: Darknet-NG 13 DIY Badge – Darknet-NG
   accessed: '2026-09-07'
   note: Confirms MCU (Heltec WiFi LoRa 32 V3, US915 MHz), battery, DIY assembly steps, forms a private LoRa mesh, and is categorized "DEF CON 32". Source of the case-design image.
+  archived: https://web.archive.org/web/20260821062758/https://darknet-ng.network/darknet-ng-13-badge/
 - kind: url
   url: https://darknet-ng.network/darknet-ng-13-diy-badge-case/
   title: Darknet-NG 13 DIY Badge Case – Darknet-NG
   accessed: '2026-09-07'
   note: Case assembly instructions, photos of the assembled unit, and STL/TinkerCAD links.
+  archived: https://web.archive.org/web/20260821062818/https://darknet-ng.network/darknet-ng-13-diy-badge-case/
 - kind: url
   url: https://github.com/darknet-ng/Darknet-NG-13-Badge
   title: darknet-ng/Darknet-NG-13-Badge
   accessed: '2026-09-07'
   note: Confirms GPL-3.0 license and that the repo holds only 3D-printed case files, no PCB or firmware.
+  archived: https://web.archive.org/web/20251009025814/https://github.com/darknet-ng/Darknet-NG-13-Badge
 - kind: sheet
   event: dc32
   row: 43

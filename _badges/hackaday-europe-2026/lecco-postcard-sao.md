@@ -37,7 +37,7 @@ get_one:
   distribution: []
   where: ''
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/davedarko/Simple-Add-ons-SAO/tree/main/Lecco
   firmware_url: null
   gerbers_url: null
@@ -67,41 +67,25 @@ sources:
   url: https://github.com/davedarko/Simple-Add-ons-SAO/tree/main/Lecco
   title: Simple-Add-ons-SAO/Lecco at main
   accessed: '2026-09-07'
-  note: "Design files for the LECCO postcard SAO: KiCad footprint files and a full KiCad PCB project (lecco.kicad_pcb)."
+  note: 'Design files for the LECCO postcard SAO: KiCad footprint files and a full KiCad PCB project (lecco.kicad_pcb).'
 - kind: url
   url: https://raw.githubusercontent.com/davedarko/Simple-Add-ons-SAO/main/Lecco/readme.md
   title: Lecco, IT — readme.md
   accessed: '2026-09-07'
-  note: "Maker's own description: a reminder token for Hackaday Europe 2026 in Lecco, Italy; needs one LED and a 2-row SMD header; footprint error means the LED has to be bodged on."
+  note: 'Maker''s own description: a reminder token for Hackaday Europe 2026 in Lecco, Italy; needs one LED and a 2-row SMD header; footprint error means the LED has to be bodged on.'
 research:
   status: verified
   confidence: medium
   last_checked: '2026-09-07'
-  notes: >-
-    Verified directly against the maker's own repo and the Lecco readme.md
-    (fetched raw). Both confirm this is a postcard-shaped SAO made as a reminder
-    token for Hackaday Europe 2026 in Lecco, Italy, part of davedarko's
-    long-running "Simple-Add-ons-SAO" series (roughly 20 designs listed in the
-    repo's tables, not the "25+" an earlier pass claimed - corrected). The Lecco
-    readme's exact wording is "you basically need an LED and a simple 2 row SMD
-    header ... but you have to botch the LED on it somehow," confirming the
-    single LED, the footprint error, and the bodge note; it does not give a
-    pin count, so an earlier "2x3"/v1 sao_version reading was invented and has
-    been removed - `sao_version` is left blank and the summary now says "2-row"
-    rather than "2x3." Fetching the folder directly (github.com/.../Lecco and
-    its lecco/ subdirectory via the GitHub API) confirms real KiCad project
-    files (lecco.kicad_pcb, lecco.kicad_pro, lecco.kicad_sch) plus the two
-    footprint files, so `eda_tool: KiCad` and the make_your_own notes stand -
-    note the repo's own top-level readme table marks this design "Eagle: yes /
-    Kicad: -", which conflicts with the actual file contents; the direct file
-    listing is treated as authoritative here. No pricing, quantity, distribution
-    method, or availability information was published anywhere, and no photos of
-    an assembled unit were found, so those fields and `images` stay empty.
-    Changed `status` from `released` to `announced`: the repo and readme
-    describe a finished design with production files, but nothing found confirms
-    the SAO was actually assembled or handed out to anyone, which "released"
-    would require.
+  notes: 'Verified directly against the maker''s own repo and the Lecco readme.md (fetched raw). Both confirm this is a postcard-shaped SAO made as a reminder token for Hackaday Europe 2026 in Lecco, Italy, part of davedarko''s long-running "Simple-Add-ons-SAO" series (roughly 20 designs listed in the repo''s tables, not the "25+" an earlier pass claimed - corrected). The Lecco readme''s exact wording is "you basically need an LED and a simple 2 row SMD header ... but you have to botch the LED on it somehow," confirming the single LED, the footprint error, and the bodge note; it does not give a pin count, so an earlier "2x3"/v1 sao_version reading was invented and has been removed - `sao_version` is left blank and the summary now says "2-row" rather than "2x3." Fetching the folder directly (github.com/.../Lecco and its lecco/ subdirectory via the GitHub API) confirms real KiCad project files (lecco.kicad_pcb, lecco.kicad_pro, lecco.kicad_sch) plus the two footprint files, so `eda_tool: KiCad`
+    and the make_your_own notes stand - note the repo''s own top-level readme table marks this design "Eagle: yes / Kicad: -", which conflicts with the actual file contents; the direct file listing is treated as authoritative here. No pricing, quantity, distribution method, or availability information was published anywhere, and no photos of an assembled unit were found, so those fields and `images` stay empty. Changed `status` from `released` to `announced`: the repo and readme describe a finished design with production files, but nothing found confirms the SAO was actually assembled or handed out to anyone, which "released" would require.'
 last_modified_date: '2026-09-07'
+model:
+  file: assets/models/hackaday-europe-2026/lecco-postcard-sao.glb
+  method: kicad
+  source_file: Lecco/lecco/lecco.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 219132
 ---
 
 The LECCO postcard is a small, deliberately minimal SAO that davedarko made as a keepsake for Hackaday Europe 2026, held in Lecco, Italy. It's part of his long-running Simple-Add-ons-SAO series — a personal catalog of around twenty small, often joke- or memory-themed add-ons made for various events. This one leans into the "postcard" idea: a card-shaped board meant as a memento of the trip rather than a feature-packed gadget.

@@ -23,7 +23,7 @@ tech:
   leds:
     count: 6
     type: discrete
-    note: 'AA/OH/SD/RTS/CTS/SYN, driven directly by power and I2C/GPIO signal lines rather than a microcontroller'
+    note: AA/OH/SD/RTS/CTS/SYN, driven directly by power and I2C/GPIO signal lines rather than a microcontroller
   display: none
   connectivity:
   - i2c
@@ -38,7 +38,7 @@ get_one:
   - purchase
   where: Sold through DEF CON's official online shop (shop.defcon.org); the product listing has since been taken down.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/hamster/defcon30/tree/main/modem
   firmware_url: null
   eda_tool: KiCad
@@ -54,13 +54,13 @@ links:
   kind: store
 images:
 - file: assets/images/badges/dc30/dc801-def-con-30-badge/6f2e621e46.jpg
-  source: "https://github.com/hamster/defcon30"
-  credit: "hamster"
-  caption: "SAO Modem 1.69bis, assembled and lit"
+  source: https://github.com/hamster/defcon30
+  credit: hamster
+  caption: SAO Modem 1.69bis, assembled and lit
 - file: assets/images/badges/dc30/dc801-def-con-30-badge/f86a1d1087.jpg
-  source: "https://github.com/hamster/defcon30"
-  credit: "hamster"
-  caption: "SAO Modem 1.69bis close-up of the six status LEDs"
+  source: https://github.com/hamster/defcon30
+  credit: hamster
+  caption: SAO Modem 1.69bis close-up of the six status LEDs
 contact: {}
 notes:
 - From the user's 'SAOs to buy' link list (2026-09-07).
@@ -85,7 +85,7 @@ sources:
   note: LED functions, no-MCU design, SAO connector assembly notes.
 - kind: url
   url: http://web.archive.org/web/20241210024140/https://shop.defcon.org/products/def-con-30-sao-modem
-  title: 'DEF CON 30 SAO Modem – DEF CON Merchandise (archived)'
+  title: DEF CON 30 SAO Modem – DEF CON Merchandise (archived)
   accessed: '2026-09-07'
   note: Confirms this SAO was sold officially through DEF CON's shop at $8.00; live page now 404s.
 - kind: url
@@ -102,8 +102,17 @@ research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'Sold officially through the DEF CON shop, which confirms the item and price, but quantity made and exact sell-out date are not published anywhere found. SAO version (4-pin vs 6-pin) is not stated in the README or repo and was left null rather than guessed. PCB color/finish not visible clearly enough in the available photos to state with confidence, so look.colors was left empty. A second SAO from the same repo and maker ("SAO Jack") was not written up as part of this entry; it deserves its own entry.'
+  notes: Sold officially through the DEF CON shop, which confirms the item and price, but quantity made and exact sell-out date are not published anywhere found. SAO version (4-pin vs 6-pin) is not stated in the README or repo and was left null rather than guessed. PCB color/finish not visible clearly enough in the available photos to state with confidence, so look.colors was left empty. A second SAO from the same repo and maker ("SAO Jack") was not written up as part of this entry; it deserves its own entry.
 last_modified_date: '2026-09-07'
+model:
+  file: assets/models/dc30/dc801-def-con-30-badge.glb
+  method: gerber
+  source_file: modem/modem-panel.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 467284
+  size_mm:
+  - 273.4
+  - 123.6
 ---
 
 This SAO was one of two DEF CON 30 add-ons designed by a maker known as "hamster" (who also sells hardware as "snurkle engineering" on Tindie, based in Sandy, UT). Styled as a miniature homage to the external Courier modems of the 1990s, it carries six LEDs labeled AA, OH, SD, RTS, CTS, and SYN, echoing the blinking status lights of a real modem. None of them actually indicate network activity; instead they light up from the host badge's power rail and from activity on the I2C and GPIO lines the SAO taps into, with a spare pad (SYN) left for the builder to wire up however they like. There is no microcontroller on the board.

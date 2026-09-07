@@ -35,7 +35,7 @@ get_one:
   - purchase
   where: sold only at the con
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/BigFuckingBadge/fuck-sao
   firmware_url: https://github.com/BigFuckingBadge/fuck-sao
   eda_tool: KiCad
@@ -47,14 +47,14 @@ links:
   url: https://github.com/BigFuckingBadge/fuck-sao
   kind: repo
 images:
-  - file: assets/images/badges/dc32/fuck-note-offensive-sao/f10467c610.jpg
-    source: "https://github.com/BigFuckingBadge/fuck-sao"
-    credit: "BigFuckingBadge"
-    caption: "The fuck note SAO board"
-  - file: assets/images/badges/dc32/fuck-note-offensive-sao/5b44deaf1c.jpg
-    source: "https://github.com/BigFuckingBadge/fuck-sao"
-    credit: "BigFuckingBadge"
-    caption: "Fuck note SAO prototype, lit up"
+- file: assets/images/badges/dc32/fuck-note-offensive-sao/f10467c610.jpg
+  source: https://github.com/BigFuckingBadge/fuck-sao
+  credit: BigFuckingBadge
+  caption: The fuck note SAO board
+- file: assets/images/badges/dc32/fuck-note-offensive-sao/5b44deaf1c.jpg
+  source: https://github.com/BigFuckingBadge/fuck-sao
+  credit: BigFuckingBadge
+  caption: Fuck note SAO prototype, lit up
 contact:
   emails:
   - bfb.team.public@gmail.com
@@ -80,7 +80,13 @@ research:
   confidence: medium
   last_checked: '2026-09-06'
   notes: Hardware and firmware are open source on GitHub (KiCad files, gerbers, BOM). Could not confirm LED type/count, exact price paid, or quantity made from the sources read; get_one.price/price_usd carry the sheet's original estimate rather than a maker-confirmed figure. Hackaday project log entries were not individually reachable to pin down a full build history beyond the v1 (button, ATtiny416) to v3 (touch, ATtiny1616) progression visible in the repo's folder names.
-last_modified_date: '2026-09-06'
+last_modified_date: '2026-09-07'
+model:
+  file: assets/models/dc32/fuck-note-offensive-sao.glb
+  method: kicad
+  source_file: fuck-sao.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 116972
 ---
 
 The "fuck" note SAO is a small add-on board from BigFuckingBadge (Hackaday handle hexum064) sold at DEF CON 32. A touch pad shaped like a meme figure lets the wearer cycle through 13 short phrases, each beginning with "FUCK," lighting an LED next to the selected line. It ships with an SAO connector for plugging into a host badge, plus a CR2032 battery clip, a power switch, and a magnetic lapel clip so it can also be worn as a standalone pin independent of any badge.

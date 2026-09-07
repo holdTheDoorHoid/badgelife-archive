@@ -41,7 +41,7 @@ get_one:
   - purchase
   where: Sold via the maker's Shopify store (ghoul.lol), with DEF CON pickup offered as a checkout option; comes assembled except for the minibadge headers and optional battery holder, which require soldering. Minibadges themselves are not included.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/distinctm1nd/beelzebub_minibadge_holder/tree/main/hardware
   firmware_url: https://github.com/distinctm1nd/beelzebub_minibadge_holder/tree/main/firmware
   eda_tool: null
@@ -54,18 +54,18 @@ links:
 - label: github.com/distinctm1nd/beelzebub_minibadge_holder
   url: https://github.com/distinctm1nd/beelzebub_minibadge_holder
   kind: repo
-- label: "Beelzebub Minibadge Holder (product page)"
+- label: Beelzebub Minibadge Holder (product page)
   url: https://ghoul.lol/products/beelzebub-minibadge-holder
   kind: store
 images:
 - file: assets/images/badges/dc34/beelzebub-minibadge-holder/f1a0d441c8.jpg
-  source: "https://github.com/distinctm1nd/beelzebub_minibadge_holder"
-  credit: "distinctm1nd"
-  caption: "Assembled Beelzebub minibadge holder with LEDs lit"
+  source: https://github.com/distinctm1nd/beelzebub_minibadge_holder
+  credit: distinctm1nd
+  caption: Assembled Beelzebub minibadge holder with LEDs lit
 - file: assets/images/badges/dc34/beelzebub-minibadge-holder/1d4c8bc8cc.png
-  source: "https://github.com/distinctm1nd/beelzebub_minibadge_holder"
-  credit: "distinctm1nd"
-  caption: "Beelzebub minibadge holder PCB front view"
+  source: https://github.com/distinctm1nd/beelzebub_minibadge_holder
+  credit: distinctm1nd
+  caption: Beelzebub minibadge holder PCB front view
 contact:
   discord: distinctm1nd
   emails:
@@ -80,20 +80,29 @@ sources:
   listing: New
 - kind: url
   url: https://github.com/distinctm1nd/beelzebub_minibadge_holder
-  title: "distinctm1nd/beelzebub_minibadge_holder"
+  title: distinctm1nd/beelzebub_minibadge_holder
   accessed: '2026-09-06'
-  note: "README and repo structure: ATtiny814 MCU, 3-pin UPDI programming connector, firmware/hardware/images directories."
+  note: 'README and repo structure: ATtiny814 MCU, 3-pin UPDI programming connector, firmware/hardware/images directories.'
 - kind: url
   url: https://ghoul.lol/products/beelzebub-minibadge-holder
-  title: "Beelzebub Minibadge Holder – Cabinet of Distinctm1nd"
+  title: Beelzebub Minibadge Holder – Cabinet of Distinctm1nd
   accessed: '2026-09-06'
-  note: "Price ($45), sold-out status, 24 NeoPixel LEDs, open source hardware/software claim, assembly and DEF CON pickup details."
+  note: Price ($45), sold-out status, 24 NeoPixel LEDs, open source hardware/software claim, assembly and DEF CON pickup details.
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-06'
   notes: Maker's GitHub repo and Shopify store agree on the core facts (ATtiny814, 24 NeoPixels, open source). No license file found in the repo despite the "open source" claim, so license is left empty. Quantity made is not stated anywhere found.
-last_modified_date: '2026-09-06'
+last_modified_date: '2026-09-07'
+model:
+  file: assets/models/dc34/beelzebub-minibadge-holder.glb
+  method: gerber
+  source_file: hardware/beelzebub_expansion_board.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 458808
+  size_mm:
+  - 142.5
+  - 141.9
 ---
 
 The Beelzebub Minibadge Holder is a horror-themed accessory by distinctm1nd, sold through their Cabinet of Distinctm1nd store for DEF CON 34. It mounts five SAINTCON-style minibadges behind a backlight of 24 addressable NeoPixel LEDs, driven by an ATtiny814 microcontroller. The board ships mostly assembled, with pre-programmed light themes ready to go out of the box, but the minibadge headers and an optional battery holder are left for the buyer to solder, and the minibadges themselves are sold separately.

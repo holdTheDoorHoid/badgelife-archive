@@ -47,6 +47,7 @@ links:
 - label: Tindie.com
   url: https://Tindie.com
   kind: store
+  archived: https://web.archive.org/web/20260626024032/https://www.tindie.com/
 - label: t.co/NbhHMKICJY
   url: https://t.co/NbhHMKICJY
   kind: website
@@ -54,10 +55,10 @@ links:
   url: https://linktr.ee/dcpunks
   kind: social
 images:
-  - file: assets/images/badges/dc32/rick-roll-sao/5d12b1f777.png
-    source: "https://www.tindie.com/products/dc_punks/rick-roll-sao/"
-    credit: "DC Punks"
-    caption: "Rick Roll SAO product photo"
+- file: assets/images/badges/dc32/rick-roll-sao/5d12b1f777.png
+  source: https://www.tindie.com/products/dc_punks/rick-roll-sao/
+  credit: DC Punks
+  caption: Rick Roll SAO product photo
 contact:
   raw:
   - (Linktree Link)
@@ -83,13 +84,7 @@ research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: >-
-    Core facts (maker, price, function) come from the maker's own Tindie listing.
-    Could not find an MCU, LED count/type, display spec, SAO header version, quantity made,
-    open-source hardware/firmware files, or a Hackaday.io/GitHub project page for this SAO;
-    the Tindie listing does not mention any of these. dcpunks.computer could not be reached
-    (TLS certificate mismatch for the domain). Availability left unknown since the listing's
-    current sold/in-stock state was not checked live during this research pass.
+  notes: Core facts (maker, price, function) come from the maker's own Tindie listing. Could not find an MCU, LED count/type, display spec, SAO header version, quantity made, open-source hardware/firmware files, or a Hackaday.io/GitHub project page for this SAO; the Tindie listing does not mention any of these. dcpunks.computer could not be reached (TLS certificate mismatch for the domain). Availability left unknown since the listing's current sold/in-stock state was not checked live during this research pass.
 last_modified_date: '2026-09-07'
 ---
 

@@ -137,6 +137,12 @@ research:
 last_modified_date: '2026-09-07'
 redirect_from:
 - /badges/dc31/badge-dczia/
+model:
+  file: assets/models/dc31/electric-sampler-badge.glb
+  method: kicad
+  source_file: Hardware/Final/dc31.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 503196
 ---
 
 DC Zia is a New-Mexico-rooted hacker collective that has built an independent DEF CON badge nearly every year since around DEF CON 22. For DEF CON 31 in 2023 they moved away from the retro "learn electronics" format of their 2022 30-in-One badge and built the Electric Sampler: a Raspberry Pi RP2040-powered badge shaped around Eurorack modular-synth conventions, with a 3.5mm audio output, 3.5mm MIDI in/out, 3.5mm sync in/out, a microSD slot, and a Eurorack power connector, alongside a 128x32 OLED screen, two rotary encoders, and eight key switches.

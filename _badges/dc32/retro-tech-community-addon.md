@@ -53,6 +53,7 @@ links:
 - label: git.trueserve.org/trueControl/dc32-retro-tech-addon
   url: https://git.trueserve.org/trueControl/dc32-retro-tech-addon
   kind: repo
+  archived: https://web.archive.org/web/20260307024806/https://git.trueserve.org/trueControl/dc32-retro-tech-addon
 - label: Retro Tech user manual (ASCII)
   url: https://basic.truecontrol.org/database/dc32/retro-tech-manual.txt
   kind: doc
@@ -72,6 +73,7 @@ sources:
   title: 'trueControl/dc32-retro-tech-addon: Retro Tech Community GAT addon at DEF CON 32'
   accessed: '2026-09-07'
   note: Confirms hardware/firmware are published (CH32V003F4P6, IS31FL3729, 9x RGB + 3x single-color LEDs); README describes build/flash process via MounRiver Studio or UART bootloader.
+  archived: https://web.archive.org/web/20260307024806/https://git.trueserve.org/trueControl/dc32-retro-tech-addon
 - kind: url
   url: https://basic.truecontrol.org/database/dc32/retro-tech-manual.txt
   title: Retro Tech Community GAT user manual v1
@@ -91,7 +93,8 @@ research:
   status: researched
   confidence: high
   last_checked: '2026-09-07'
-  notes: 'Maker corrected: the community sheet this entry was imported from attributes this and several other DC32 items to "Whiskey Pirate Crew (not badgelife)," but trueControl''s own site lists "Retro Tech Community addon" under its own DC32 designs, distinct from its separate "Whiskey Pirate Crew" badge list, and the firmware/hardware repo is under the trueControl git org. No photo of the assembled addon was found (the site has no item photos; the only image in the repo is a schematic, not a photo of the item, so no images were saved). Price, quantity made, and exact distribution method (village giveaway vs. limited drop) were not stated anywhere found; the item does not appear in trueControl''s own shop alongside the two DC32 items that were sold there. The "Retro Tech Community" is a recurring DEF CON village/community (also present at DC33 and DC34) celebrating vintage computing; this addon appears to have been made for that group specifically, per trueControl''s site organization, though no page states that relationship explicitly beyond the shared name.'
+  notes: 'Maker corrected: the community sheet this entry was imported from attributes this and several other DC32 items to "Whiskey Pirate Crew (not badgelife)," but trueControl''s own site lists "Retro Tech Community addon" under its own DC32 designs, distinct from its separate "Whiskey Pirate Crew" badge list, and the firmware/hardware repo is under the trueControl git org. No photo of the assembled addon was found (the site has no item photos; the only image in the repo is a schematic, not a photo of the item, so no images were saved). Price, quantity made, and exact distribution method (village giveaway vs. limited drop) were not stated anywhere found; the item does not appear in trueControl''s own shop alongside the two DC32 items that were sold there. The "Retro Tech Community" is a recurring DEF CON village/community (also present at DC33 and DC34) celebrating vintage computing; this addon appears to have been made for that group specifically, per trueControl''s site organization,
+    though no page states that relationship explicitly beyond the shared name.'
 last_modified_date: '2026-09-07'
 ---
 

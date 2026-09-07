@@ -43,7 +43,7 @@ get_one:
   distribution: []
   where: ''
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/spacemandev-git/solana-defcon-badge-26/tree/main/pcb
   firmware_url: https://github.com/spacemandev-git/solana-defcon-badge-26/tree/main/firmware
   eda_tool: KiCad
@@ -52,14 +52,14 @@ links:
   url: https://github.com/spacemandev-git/solana-defcon-badge-26
   kind: repo
 images:
-  - file: assets/images/badges/dc34/solana-defcon-badge-26/2a580407cc.jpg
-    source: "https://github.com/spacemandev-git/solana-defcon-badge-26"
-    credit: "spacemandev-git"
-    caption: "Front of the v1 Solana Badge PCB, showing the 2.8\" LCD, buttons, and RGB LEDs"
-  - file: assets/images/badges/dc34/solana-defcon-badge-26/91350579ac.jpg
-    source: "https://github.com/spacemandev-git/solana-defcon-badge-26"
-    credit: "spacemandev-git"
-    caption: "Back of the v1 Solana Badge PCB"
+- file: assets/images/badges/dc34/solana-defcon-badge-26/2a580407cc.jpg
+  source: https://github.com/spacemandev-git/solana-defcon-badge-26
+  credit: spacemandev-git
+  caption: Front of the v1 Solana Badge PCB, showing the 2.8" LCD, buttons, and RGB LEDs
+- file: assets/images/badges/dc34/solana-defcon-badge-26/91350579ac.jpg
+  source: https://github.com/spacemandev-git/solana-defcon-badge-26
+  credit: spacemandev-git
+  caption: Back of the v1 Solana Badge PCB
 contact: {}
 notes: []
 status: released
@@ -73,12 +73,12 @@ sources:
   url: https://raw.githubusercontent.com/spacemandev-git/solana-defcon-badge-26/main/README.md
   title: 'README: Solana Badge'
   accessed: '2026-09-07'
-  note: 'Full spec of the board (ESP32-S3-WROOM-1-N16R8, 2.8" ILI9341 LCD, six buttons via TCA9534, two mics, SE050 secure element, two WS2812B-compatible RGB LEDs, USB-C/LiPo), repo layout, Lua "Solana OS" app system, and the WPA2-Enterprise DEF CON Wi-Fi join flow referencing a "defcon34-wifi.crt" certificate, which places the badge at DEF CON 34.'
+  note: Full spec of the board (ESP32-S3-WROOM-1-N16R8, 2.8" ILI9341 LCD, six buttons via TCA9534, two mics, SE050 secure element, two WS2812B-compatible RGB LEDs, USB-C/LiPo), repo layout, Lua "Solana OS" app system, and the WPA2-Enterprise DEF CON Wi-Fi join flow referencing a "defcon34-wifi.crt" certificate, which places the badge at DEF CON 34.
 - kind: url
   url: https://api.github.com/repos/spacemandev-git/solana-defcon-badge-26
   title: GitHub repo metadata
   accessed: '2026-09-07'
-  note: 'Repo description reads "2026 Solana Defcon Badge," confirming the year/event as DEF CON 34 (2026).'
+  note: Repo description reads "2026 Solana Defcon Badge," confirming the year/event as DEF CON 34 (2026).
 research:
   status: researched
   confidence: medium
@@ -87,6 +87,12 @@ research:
 last_modified_date: '2026-09-07'
 redirect_from:
 - /badges/other/solana-defcon-badge-26/
+model:
+  file: assets/models/dc34/solana-defcon-badge-26.glb
+  method: kicad
+  source_file: pcb/solana_badge.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 835540
 ---
 
 The Solana Badge is an open-source, ESP32-S3-based conference badge built by developer spacemandev-git for DEF CON 34 (2026). It carries a 2.8" ILI9341 LCD, six push buttons behind an I2C expander, stereo PDM microphones, an NXP SE050 secure element, two addressable RGB LEDs, and USB-C charging for a LiPo battery, all on a two-layer KiCad board roughly 78 x 116 mm.

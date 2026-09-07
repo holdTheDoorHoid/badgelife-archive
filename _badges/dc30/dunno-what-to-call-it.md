@@ -98,7 +98,13 @@ research:
   confidence: medium
   last_checked: '2026-09-06'
   notes: Core facts (theme, base board + 3 SAOs, 5 SAO ports, v1.69 SAO standard, distribution at DEF CON 30, the Aztec-code puzzle) come from the maker's own site and GitHub repo. Chip/MCU, LED part and exact count, price, and quantity made are not stated anywhere found and are left empty. No maker-given product name beyond "DC30 Badge" was found, so the sheet's placeholder title was kept.
-last_modified_date: '2026-09-06'
+last_modified_date: '2026-09-07'
+model:
+  file: assets/models/dc30/dunno-what-to-call-it.glb
+  method: kicad
+  source_file: 787 with Boeing logo SAO extender/787.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 96736
 ---
 
 The Aerospace Village's DEF CON 30 badge is a modular, aerospace-themed SAO set rather than a single fixed board. The base piece is a half-dome "sky" board — a starfield and constellations up top, a blue daytime sky with clouds below, and a green ground strip with an air-traffic-control-tower silhouette at the bottom — lit with blue LEDs and carrying five SAO headers. It shipped with three matching SAOs: a die-cut NASA space shuttle, a gold "WARNING" tag, and a red "REMOVE BEFORE FLIGHT" tag, the last two nodding to real aviation ground-safety streamers. The GitHub repo for the project also contains several additional SAO designs (a Boeing 787 logo, an SR-71, the James Webb Space Telescope) that appear to have been designed but not confirmed as part of the badges actually handed out.

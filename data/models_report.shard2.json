@@ -374,5 +374,12 @@
    "kicad glb: glb export failed: Failed to load board: One or more items were found on undefined layers (UNDEFINED). Open the board in the PCB Editor to resolve.\n",
    "kicad gerbers: gerber export failed: Failed to load board: One or more items were found on undefined layers (UNDEFINED). Open the board in the PCB Editor to resolve.\n"
   ]
+ },
+ "dc30-dunno-what-to-call-it": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 96736,
+  "tried": [],
+  "src": "787 with Boeing logo SAO extender/787.kicad_pcb"
  }
 }

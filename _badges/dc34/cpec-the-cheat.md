@@ -37,7 +37,7 @@ get_one:
   distribution: []
   where: ''
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/Cyber-Professionals-Enthusiast-Club/DC34-CPEC-The-Cheat/tree/master/DC34-CPEC-The-Cheat-Board
   firmware_url: https://github.com/Cyber-Professionals-Enthusiast-Club/DC34-CPEC-The-Cheat/tree/master/DC34-CPEC-The-Cheat-Firmware
   eda_tool: KiCad
@@ -80,6 +80,12 @@ research:
   last_checked: '2026-09-07'
   notes: 'Core facts (MCU, LED behavior, open-source status, host badge) come from the maker''s own repos. Could not find: price, quantity made, distribution method, or whether it was ever actually handed out at DEF CON 34 versus only published as a design. No photos of the assembled board were found -- the repo''s /art directory only contains vector logo/QR/graphic SVGs (CPEC.svg, cpec_qr.svg, rat-bite-1-inch.svg, the_cheat.svg), not photos of the physical item, so none were saved per the image guidelines. No PCBWay/OSH Park shared-project page specific to this SAO was found (a PCBWay commit exists in the repo history but no public share link was located). No license file is present in the repo despite hardware and firmware both being published.'
 last_modified_date: '2026-09-07'
+model:
+  file: assets/models/dc34/cpec-the-cheat.glb
+  method: kicad
+  source_file: DC34-CPEC-The-Cheat-Board/DC34-CPEC-The-Cheat-Board.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 283640
 ---
 
 "The Cheat" is a Shitty Add-On (SAO) built by the Cyber Professionals Enthusiast Club (CPEC), a group that also designed its own independent "Mech" badge for DEF CON 34 complete with a 2.2" display and three SAO 1.69bis/I2C ports. The Cheat is meant to plug into that host badge (or any board with a compatible SAO header) and adds three LEDs driven by an ATtiny816 microcontroller.

@@ -38,7 +38,7 @@ tech:
   battery: 400mAh 3.7V LiPo (rechargeable)
   sao_version: null
 get_one:
-  price: '$120 (regular $801)'
+  price: $120 (regular $801)
   price_usd: 120.0
   quantity: ''
   availability: available
@@ -47,7 +47,7 @@ get_one:
   - purchase
   where: Sold directly through the DC801 storefront (dc801.store), with local pickup at 801 Labs or remote shipping.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/Pips801/Helgatchi/tree/main/Hardware
   firmware_url: https://github.com/Pips801/Helgatchi/tree/main/Software
   eda_tool: KiCad
@@ -68,14 +68,14 @@ links:
   kind: store
   note: Full description, specs, price, and images.
 images:
-  - file: assets/images/badges/dc34/helgatchi/ec7fce1fb9.jpg
-    source: "https://dc801.store/products/helgatchi"
-    credit: "DC801 / 801 Labs"
-    caption: "Helgatchi handheld BLE/WiFi scanner badge, front view with 1.69in screen"
-  - file: assets/images/badges/dc34/helgatchi/854002afb5.jpg
-    source: "https://dc801.store/products/helgatchi"
-    credit: "DC801 / 801 Labs"
-    caption: "Helgatchi badge, alternate angle showing antenna and enclosure"
+- file: assets/images/badges/dc34/helgatchi/ec7fce1fb9.jpg
+  source: https://dc801.store/products/helgatchi
+  credit: DC801 / 801 Labs
+  caption: Helgatchi handheld BLE/WiFi scanner badge, front view with 1.69in screen
+- file: assets/images/badges/dc34/helgatchi/854002afb5.jpg
+  source: https://dc801.store/products/helgatchi
+  credit: DC801 / 801 Labs
+  caption: Helgatchi badge, alternate angle showing antenna and enclosure
 contact:
   discord: Pips801
   emails:
@@ -107,14 +107,14 @@ research:
   status: researched
   confidence: high
   last_checked: '2026-09-06'
-  notes: >-
-    Core facts (chip, display, LEDs, battery, price, availability, open-source hardware/firmware)
-    confirmed directly from the maker's storefront listing and GitHub repo. Could not confirm:
-    quantity made, individual RGB LED chip part number, PCB solder-mask/silkscreen color (product
-    photos suggest a dark enclosure but this was not stated in text), gerbers/BOM download links,
-    and any software license for the repo (no LICENSE file found). The repo also references a
-    project site at helga.pet which was not fetched.
-last_modified_date: '2026-09-06'
+  notes: 'Core facts (chip, display, LEDs, battery, price, availability, open-source hardware/firmware) confirmed directly from the maker''s storefront listing and GitHub repo. Could not confirm: quantity made, individual RGB LED chip part number, PCB solder-mask/silkscreen color (product photos suggest a dark enclosure but this was not stated in text), gerbers/BOM download links, and any software license for the repo (no LICENSE file found). The repo also references a project site at helga.pet which was not fetched.'
+last_modified_date: '2026-09-07'
+model:
+  file: assets/models/dc34/helgatchi.glb
+  method: kicad
+  source_file: Hardware/Helgatchi front PCB/Helgatchi front PCB.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 241948
 ---
 
 The Helgatchi is a pocket-sized BLE and WiFi scanner made by DC801 and 801 Labs for DEF CON 34, sold through the DC801 storefront for $120 (marked down from a joke "regular price" of $801). Built around a Seeed XIAO ESP32-S3 with 8MB of flash, it drives a 1.69" rounded color LCD, six RGB LEDs, and a vibration motor, and connects to an external SMA-RP antenna for extra 2.4 GHz range. It runs on a 400mAh rechargeable LiPo and fits in a pocket.

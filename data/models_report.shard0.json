@@ -365,5 +365,143 @@
   "bytes": 759324,
   "tried": [],
   "src": "hardware/PCB/Uncut Gem.kicad_pcb"
+ },
+ "dc34-beelzebub-minibadge-holder": {
+  "status": "ok",
+  "method": "gerber",
+  "bytes": 458808,
+  "tried": [
+   "kicad glb: Command '['/home/hoid/Desktop/badgelife-archive/tools/node_modules/.bin/gltf-transform', 'optimize', '/home/hoid/Desktop/badgelife-archive/data/hw/dc34-beelzebu"
+  ],
+  "src": "hardware/beelzebub_expansion_board.kicad_pcb"
+ },
+ "dc34-btv-camera-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 617648,
+  "tried": [],
+  "src": "eda/camera_badge/camera_badge.kicad_pcb"
+ },
+ "dc34-cpec-the-cheat": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 283640,
+  "tried": [],
+  "src": "DC34-CPEC-The-Cheat-Board/DC34-CPEC-The-Cheat-Board.kicad_pcb"
+ },
+ "dc34-dc34-cpec-mech-sao": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 781624,
+  "tried": [],
+  "src": "DC34-Mech-SAO/DC34-Mech-SAO-panel.kicad_pcb"
+ },
+ "dc34-dczia-mk9": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 128684,
+  "tried": [],
+  "src": "hardware/SAO-adapter.kicad_pcb"
+ },
+ "dc34-helgatchi": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 241948,
+  "tried": [],
+  "src": "Hardware/Helgatchi front PCB/Helgatchi front PCB.kicad_pcb"
+ },
+ "dc34-hfsdr": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 693756,
+  "tried": [],
+  "src": "hardware/hfsdr.kicad_pcb"
+ },
+ "dc34-iflfu-sao": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 340880,
+  "tried": [],
+  "src": "i-fucking-love-fucking-you.kicad_pcb"
+ },
+ "dc34-maibadge-cab": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 131948,
+  "tried": [],
+  "src": "KICAD pcb/maibadge/maibadge_ver2.kicad_pcb"
+ },
+ "dc34-power-glove-re-release": {
+  "status": "ok",
+  "method": "gerber",
+  "bytes": 109984,
+  "tried": [],
+  "src": "gerbers/Edited Glove Gerbers.zip"
+ },
+ "dc34-shitty-add-on": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 48876,
+  "tried": [],
+  "src": "Untitled/Untitled.kicad_pcb"
+ },
+ "dc34-solana-defcon-badge-26": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 835540,
+  "tried": [],
+  "src": "pcb/solana_badge.kicad_pcb"
+ },
+ "emf-camp-2012-tilda-emf-camp-2012-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 314252,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "TiLDE.brd"
+ },
+ "fri3d-2018-fri3d-2018-bot-jewel": {
+  "status": "failed",
+  "tried": [
+   "gerber Gerber: outline polygon empty"
+  ]
+ },
+ "fri3d-2018-fri3d-2018-ph0xx-badge-2": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 155540,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "fri3d-badge-2018.brd"
+ },
+ "fri3d-2018-fri3d-2018-ph0xx-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 155556,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "fri3d-badge-2018.brd"
+ },
+ "fri3d-2022-time-blaster": {
+  "status": "failed",
+  "tried": [
+   "gerber Gerber: outline polygon empty"
+  ]
+ },
+ "fri3d-2024-fri3d-camp-2024-badge": {
+  "status": "failed",
+  "tried": [
+   "gerber Gerber: outline polygon empty"
+  ]
+ },
+ "hackaday-europe-2026-lecco-postcard-sao": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 219132,
+  "tried": [],
+  "src": "Lecco/lecco/lecco.kicad_pcb"
  }
 }

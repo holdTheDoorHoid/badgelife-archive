@@ -100,7 +100,13 @@ research:
   confidence: high
   last_checked: '2026-09-06'
   notes: Core facts confirmed on the maker's own project site and GitHub repo. Price, quantity produced, and precise availability (sold, given away, or con-exclusive) are not stated anywhere found, so those fields are left empty/unknown rather than guessed. The maker's Twitter/X account could not be fetched directly to check for further distribution details.
-last_modified_date: '2026-09-06'
+last_modified_date: '2026-09-07'
+model:
+  file: assets/models/dc32/godzilla-vs-will-have-3-or-4-sao-s-to-battle.glb
+  method: kicad
+  source_file: eda/g0dzilla_vs/g0dzilla_vs_middle.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 904632
 ---
 
 The G0dzilla VS Badge is Alt_Bier's DEF CON 32 entry: an ESP32-based badge built around Godzilla fighting a rotating cast of kaiju opponents, each one a separate Shitty Add-On (SAO). The main board runs on a Wemos Lolin32 ESP32 dev board and mixes eight addressable NeoPixels with eight traditional white LEDs, all powered by a rechargeable LiPo battery with an onboard charge circuit. Four SAO connectors sit on the badge — two powered ports on the front where Godzilla's opponent plugs in, and two unpowered "green room" ports on the back that act as holders for whichever monsters aren't currently in the fight. Each SAO reports its identity back to the main board over a GPIO pin at a specific voltage, letting the badge tell which of the four monsters — Mothra, King Ghidorah, Rodan, or Hedorah — is currently connected.

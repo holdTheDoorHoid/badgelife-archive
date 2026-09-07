@@ -262,5 +262,91 @@
   "bytes": 207316,
   "tried": [],
   "src": "Satellite_PCB.kicad_pcb"
+ },
+ "dc30-dc801-def-con-30-badge": {
+  "status": "ok",
+  "method": "gerber",
+  "bytes": 467284,
+  "tried": [
+   "kicad glb: Command '['/home/hoid/Desktop/badgelife-archive/tools/node_modules/.bin/gltf-transform', 'optimize', '/home/hoid/Desktop/badgelife-archive/data/hw/dc30-dc801-de"
+  ],
+  "src": "modem/modem-panel.kicad_pcb"
+ },
+ "dc31-dc-sdr-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 503804,
+  "tried": [],
+  "src": "dc_sdr.kicad_pcb"
+ },
+ "dc31-e-computer-sao": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 67608,
+  "tried": [],
+  "src": "Build Files/AA Design THT Modify.kicad_pcb"
+ },
+ "dc31-electric-sampler-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 503196,
+  "tried": [],
+  "src": "Hardware/Final/dc31.kicad_pcb"
+ },
+ "dc31-sailor-moon-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 172768,
+  "tried": [],
+  "src": "eda/sailor_moon/sailor_moon.kicad_pcb"
+ },
+ "dc31-space-grand-challenge-satellite-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 207316,
+  "tried": [],
+  "src": "Satellite_PCB.kicad_pcb"
+ },
+ "dc31-the-future-will-prevail": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 607020,
+  "tried": [],
+  "src": "eda/future_badge/future_badge.kicad_pcb"
+ },
+ "dc32-bigfuckingootbadge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 395772,
+  "tried": [],
+  "src": "_autosave-oot-badge.kicad_pcb"
+ },
+ "dc32-fuck-note-offensive-sao": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 116972,
+  "tried": [],
+  "src": "fuck-sao.kicad_pcb"
+ },
+ "dc32-godzilla-vs-will-have-3-or-4-sao-s-to-battle": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 904632,
+  "tried": [],
+  "src": "eda/g0dzilla_vs/g0dzilla_vs_middle.kicad_pcb"
+ },
+ "dc33-bradan-lane-listed-for-def-con-33-no-details": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 226136,
+  "tried": [],
+  "src": "hardware/project.kicad_pcb"
+ },
+ "dc33-htp-graffiti": {
+  "status": "failed",
+  "tried": [
+   "kicad glb: glb export failed: Failed to load board: One or more items were found on undefined layers (Rescue). Open the board in the PCB Editor to resolve.\n",
+   "kicad gerbers: gerber export failed: Failed to load board: One or more items were found on undefined layers (Rescue). Open the board in the PCB Editor to resolve.\n"
+  ]
  }
 }

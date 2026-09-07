@@ -40,6 +40,7 @@ links:
 - kind: website
   label: Red Team Village
   url: https://redteamvillage.io/
+  archived: https://web.archive.org/web/20260825171226/https://redteamvillage.io/
 images: []
 contact: {}
 notes: []
@@ -53,25 +54,13 @@ sources:
   url: https://redteamvillage.io/
   title: Red Team Village
   accessed: '2026-09-07'
-  note: 'Maker''s current site checked for any DEF CON 32 (2024) badge/SAO/swag mention; site content is current-year (DEF CON 34) focused and has no archived record of a 2024 badge.'
+  note: Maker's current site checked for any DEF CON 32 (2024) badge/SAO/swag mention; site content is current-year (DEF CON 34) focused and has no archived record of a 2024 badge.
+  archived: https://web.archive.org/web/20260825171226/https://redteamvillage.io/
 research:
   status: researched
   confidence: low
   last_checked: '2026-09-07'
-  notes: >-
-    The community sheet lists "Red Team Village" as present at DEF CON 32 with no
-    further detail on any physical badge or SAO. Could not determine whether Red
-    Team Village produced an electronic badge/SAO for DC32 (2024). Research was
-    hampered by tooling: this session's web search quota was exhausted before any
-    searches could run, and scripted fetches of Google, Bing, Brave Search,
-    DuckDuckGo, Reddit, and the Wayback Machine were all blocked, rate-limited, or
-    returned only JS shells with no results. Red Team Village's live website
-    (redteamvillage.io) currently shows only DEF CON 34-era content and has no
-    visible 2024 badge/swag page or archive. No maker's Hackaday.io project,
-    GitHub repo, or storefront listing for a DC32 item was found. Leaving status
-    as unknown rather than guessing; a follow-up pass with working search access
-    (or a direct check of Red Team Village's DEF CON 32 recap posts / Twitter-X
-    archive) is needed to resolve this.
+  notes: 'The community sheet lists "Red Team Village" as present at DEF CON 32 with no further detail on any physical badge or SAO. Could not determine whether Red Team Village produced an electronic badge/SAO for DC32 (2024). Research was hampered by tooling: this session''s web search quota was exhausted before any searches could run, and scripted fetches of Google, Bing, Brave Search, DuckDuckGo, Reddit, and the Wayback Machine were all blocked, rate-limited, or returned only JS shells with no results. Red Team Village''s live website (redteamvillage.io) currently shows only DEF CON 34-era content and has no visible 2024 badge/swag page or archive. No maker''s Hackaday.io project, GitHub repo, or storefront listing for a DC32 item was found. Leaving status as unknown rather than guessing; a follow-up pass with working search access (or a direct check of Red Team Village''s DEF CON 32 recap posts / Twitter-X archive) is needed to resolve this.'
 last_modified_date: '2026-09-07'
 ---
 

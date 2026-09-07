@@ -42,7 +42,7 @@ get_one:
   - free_drop
   where: Given to every attendee on arrival at EMF Camp 2012; sponsored by the UCL Institute of Making.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/emfcamp/TiLDA
   firmware_url: https://github.com/emfcamp/TiLDA-source
   eda_tool: null
@@ -50,7 +50,7 @@ links:
 - label: en.wikipedia.org/wiki/Electromagnetic_Field_(festival)
   url: https://en.wikipedia.org/wiki/Electromagnetic_Field_(festival)
   kind: website
-- label: 'Revealing TiLDA, our camp badge! (EMF Camp blog, 2012-08-02)'
+- label: Revealing TiLDA, our camp badge! (EMF Camp blog, 2012-08-02)
   url: https://blog.emfcamp.org/2012/08/02/revealing-tilda-our-camp-badge/
   kind: article
 - label: emfcamp/TiLDA (hardware, schematics, docs)
@@ -58,13 +58,13 @@ links:
   kind: repo
 images:
 - file: assets/images/badges/emf-camp-2012/tilda-emf-camp-2012-badge/466891b41a.jpg
-  source: "https://blog.emfcamp.org/2012/08/02/revealing-tilda-our-camp-badge/"
-  credit: "EMF Camp / Charles Yarnold"
-  caption: "TiLDA badge PCB, as revealed in the 2012 announcement post"
+  source: https://blog.emfcamp.org/2012/08/02/revealing-tilda-our-camp-badge/
+  credit: EMF Camp / Charles Yarnold
+  caption: TiLDA badge PCB, as revealed in the 2012 announcement post
 contact: {}
 notes:
 - Inaugural EMF badge; ATmega32U4-based, Arduino-compatible.
-- 'Based on the Arduino-compatible "Vinciduino" board per the maker''s announcement.'
+- Based on the Arduino-compatible "Vinciduino" board per the maker's announcement.
 status: released
 sources:
 - kind: url
@@ -74,20 +74,26 @@ sources:
   note: 'Found by the archive''s discovery sweep (angle: eu-camps: European hacker camps/cons via badge.team (SHA2017, Hackerhotel, Disobey, CampZone, Fri3d Camp, MCH2022, WHY2025), EMF Camp TiLDA lineage, CCC card10, and BornHack); event read as ''EMF Camp 2012''.'
 - kind: url
   url: https://blog.emfcamp.org/2012/08/02/revealing-tilda-our-camp-badge/
-  title: 'Revealing TiLDA, our camp badge!'
+  title: Revealing TiLDA, our camp badge!
   accessed: '2026-09-07'
   note: Maker's own 2012 announcement post; source for designer, chip, LEDs, connectivity, battery, price/distribution, open-source status, and the badge PCB image.
 - kind: url
   url: https://github.com/emfcamp/TiLDA
   title: emfcamp/TiLDA
   accessed: '2026-09-07'
-  note: "Confirms the repo holds documentation, schematics and libraries for the badge, with firmware in a linked TiLDA-source submodule; supports open_source: yes."
+  note: 'Confirms the repo holds documentation, schematics and libraries for the badge, with firmware in a linked TiLDA-source submodule; supports open_source: yes.'
 research:
   status: verified
   confidence: high
   last_checked: '2026-09-07'
   notes: Fact-check pass confirmed all populated fields and body sentences against the cited EMF Camp blog post, the emfcamp/TiLDA GitHub repo, and the Wikipedia festival article (designer, MCU, LEDs, connectivity, battery, button, free distribution, sponsor, open-source status, spare I/O pins, and the TiLDA naming lineage carried into later badge generations). Quantity made and an exact retail/BOM price were not stated anywhere found; badge was given free to attendees, so price/price_usd are left as free/null rather than guessed. No maker photo of the assembled/finished badge (only the pre-manufacture PCB layout image) was found as of this check.
 last_modified_date: '2026-09-07'
+model:
+  file: assets/models/emf-camp-2012/tilda-emf-camp-2012-badge.glb
+  method: kicad
+  source_file: TiLDE.brd
+  generated: '2026-09-07'
+  bytes: 314252
 ---
 
 TiLDA was the very first EMF Camp attendee badge, revealed on August 2, 2012, a few weeks before the inaugural event. Every attendee received one on arrival, hung on a lanyard. Sponsored by the UCL Institute of Making and designed by Charles Yarnold, the badge was built around an ATmega32U4 and based on the open-source, Arduino-compatible Vinciduino board, with two RGB LEDs, a single button, 2.4 GHz and infrared wireless links, and a rechargeable LiPo battery charged over microUSB.

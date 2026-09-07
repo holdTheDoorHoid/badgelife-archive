@@ -108,6 +108,12 @@ research:
   last_checked: '2026-09-07'
   notes: 'Fact-check 2026-09-07: repo README confirms 0-300MHz, 192kHz I/Q over USB, standalone FM mode, rotary encoder, CH32V305, KiCad, credits (rhgndf design, Hackin7 art/PCB layout, Hack & Roll). The Uberflux listing (already linked, not read by the first pass) confirms the DEF CON 34 tie, kit contents, screen, LiPo charger and prices, so earlier notes claiming no storefront was found were removed. Still unknown: total quantity made (only per-variant sold counts on the store), LED count, screen type/size, and license (no LICENSE file in the repo). PCB colors taken from the maker''s photo.'
 last_modified_date: '2026-09-07'
+model:
+  file: assets/models/dc34/hfsdr.glb
+  method: kicad
+  source_file: hardware/hfsdr.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 693756
 ---
 HFSDR is an open-source software-defined radio badge built around a CH32V305 microcontroller. It receives signals from 0-300MHz and streams 192kHz I/Q data over USB, either into the project's browser-based web UI or into GNU Radio through the Python host tools. A rotary encoder lets it run standalone as well, including a basic FM receiver mode with audio output, and the board carries a small screen for a waterfall/FFT view.
 
