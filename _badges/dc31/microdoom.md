@@ -9,7 +9,7 @@ type: unknown
 event: dc31
 year: 2023
 makers:
-- name: True
+- name: 'True'
   url: null
 summary: A $140 item sold in person at DEF CON 31 by a maker known as "True", part of the Whiskey Pirate Crew group.
 functions: ''

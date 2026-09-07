@@ -39,6 +39,7 @@ links:
 - label: github.com/distinctm1nd/2025_utahtastic_bsides_badge
   url: https://github.com/distinctm1nd/2025_utahtastic_bsides_badge
   kind: repo
+  archived: https://web.archive.org/web/20260907104757/https://github.com/distinctm1nd/2025_utahtastic_bsides_badge
 images: []
 contact: {}
 notes: []
@@ -49,6 +50,7 @@ sources:
   title: 2025_utahtastic_bsides_badge — BSides Lora Badge
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: github-topics); event read as ''BSides 2025 (Utah)''.'
+  archived: https://web.archive.org/web/20260907104757/https://github.com/distinctm1nd/2025_utahtastic_bsides_badge
 research:
   status: stub
   confidence: low

@@ -39,6 +39,7 @@ links:
 - label: github.com/Somerset-Recon/bsides-badge-2024
   url: https://github.com/Somerset-Recon/bsides-badge-2024
   kind: repo
+  archived: https://web.archive.org/web/20260907104727/https://github.com/Somerset-Recon/bsides-badge-2024
 images: []
 contact: {}
 notes: []
@@ -49,6 +50,7 @@ sources:
   title: bsides-badge-2024 (Somerset Recon)
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: github-topics); event read as ''BSides 2024''.'
+  archived: https://web.archive.org/web/20260907104727/https://github.com/Somerset-Recon/bsides-badge-2024
 research:
   status: stub
   confidence: low

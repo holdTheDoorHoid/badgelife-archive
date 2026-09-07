@@ -49,36 +49,38 @@ sources:
   url: https://grrcon.com/
   title: GrrCON
   accessed: '2026-09-06'
-  note: GrrCON's own site has no 2024 badge/merch page or DEF CON 32 mention; lists Hak4Kidz (hak4kidz.com) as a sponsor/partner, not "Hak4Kids".
+  note: Confirms GrrCON is held in Grand Rapids, Michigan (2026 dates Sept 24-25); lists Hak4Kidz ("H4K") among its sponsors, spelled Hak4Kidz not "Hak4Kids"; no badge, merch, or DEF CON 32 mention. Checked 2026-09-07.
 - kind: url
   url: https://www.hak4kidz.com/
   title: Hak4Kidz
   accessed: '2026-09-06'
-  note: Confirms Hak4Kidz is a youth ethical-hacking event tied to GrrCON in Grand Rapids; no badge, SAO, or DEF CON 32 content found.
+  note: Confirms Hak4Kidz is a Chicago-based youth ethical-hacking conference that also holds an event at GrrCON in Grand Rapids (2025 Oct 2-3, 2026 Sept 24-25); no badge, SAO, or DEF CON 32 content found. Checked 2026-09-07.
 research:
-  status: researched
+  status: verified
   confidence: low
-  last_checked: '2026-09-06'
+  last_checked: '2026-09-07'
   notes: >-
     Sheet row lists "GrrCON (designed by Hak4Kids)" as present for DEF CON 32
     (2024) with no other details, same as the identical dc31 stub row for the
-    prior year. GrrCON is a separate Grand Rapids, MI convention (run in
-    partnership with the Hak4Kidz youth hacking event) that has produced its
-    own badges before -- e.g. the "GrrCon 0xA 10th Anniversary Skull" sold via
-    a Google Form ahead of DC30 in 2022 -- but GrrCON itself runs after DEF
-    CON each year, so a 2024 GrrCON badge would not exist yet at DEF CON 32
-    time, and no separate item brought to DEF CON 32 itself was found. Checked
-    grrcon.com (current site, no archived 2024 badge/merch page found via the
-    Wayback CDX index either), hak4kidz.com, and web search engines (Bing,
-    DuckDuckGo -- both returned unusable/irrelevant results for this query;
-    session WebSearch quota was also exhausted); Reddit, archive.org full-text
+    prior year. GrrCON is a separate Grand Rapids, MI convention; the
+    Chicago-based Hak4Kidz youth hacking event holds a session at GrrCON and
+    is listed among GrrCON's sponsors. GrrCON has produced its own badges
+    before -- the archive's dc30 entry records the "GrrCon 0xA 10th
+    Anniversary Skull" ($60, ordered via a Google Form and hand delivered at
+    DC30) -- and GrrCON's recent dates fall after DEF CON (Oct 2-3 2025, Sept
+    24-25 2026), so no separate item brought to DEF CON 32 itself was found.
+    Checked grrcon.com (current site, no archived 2024 badge/merch page found
+    via the Wayback CDX index either) and hak4kidz.com; web search was largely
+    unavailable in the research pass, and Reddit, archive.org full-text
     search, and Hackaday.io search turned up nothing for "GrrCON"/"Hak4Kids"
-    tied to 2024. Leaving as unknown rather than guessing; a future pass could
-    retry with working search access or check the DEF CON 32 vendor list.
-last_modified_date: '2026-09-06'
+    tied to 2024. Fact-check 2026-09-07: both cited pages re-read and the
+    remaining statements confirmed; the item itself is still unidentified, so
+    it is left as unknown. A future pass could retry with working search
+    access or check the DEF CON 32 vendor list.
+last_modified_date: '2026-09-07'
 ---
 
-This row comes from the community badge sheet, which lists "GrrCON (designed by Hak4Kids)" as present at DEF CON 32 (2024) but captures no further detail about what, if anything, was brought or handed out. The same maker name appears with an identical no-details row for DEF CON 31 the year before, and with a fully described item for DEF CON 30: the "GrrCon 0xA 10th Anniversary Skull," a $60 badge sold ahead of that show via a Google Form.
+This row comes from the community badge sheet, which lists "GrrCON (designed by Hak4Kids)" as present at DEF CON 32 (2024) but captures no further detail about what, if anything, was brought or handed out. The same maker name appears with an identical no-details row for DEF CON 31 the year before, and with a priced item for DEF CON 30: the "GrrCon 0xA 10th Anniversary Skull," listed at $60, ordered via a Google Form and hand delivered at that show.
 
-GrrCON is an independent security conference held in Grand Rapids, Michigan, run in partnership with Hak4Kidz, a youth ethical-hacking event. GrrCON's own event dates fall after DEF CON each year, so a same-year GrrCON badge would not exist yet at DEF CON 32 time; it is possible the sheet entry reflects GrrCON/Hak4Kidz staff tabling or handing out older stock rather than a new 2024 item. No GrrCON or Hak4Kidz page, archived snapshot, storefront, or forum post describing a specific DEF CON 32 badge or SAO could be found with the sources available for this pass, so the item is left unresolved rather than guessed at.
+GrrCON is an independent security conference held in Grand Rapids, Michigan. Hak4Kidz, a Chicago-based youth ethical-hacking conference, holds an event at GrrCON and is listed among GrrCON's sponsors. GrrCON's recent event dates fall after DEF CON (early October in 2025, late September in 2026), so a same-year GrrCON badge would likely not exist yet at DEF CON time; it is possible the sheet entry reflects GrrCON/Hak4Kidz staff tabling or handing out older stock rather than a new 2024 item. No GrrCON or Hak4Kidz page, archived snapshot, storefront, or forum post describing a specific DEF CON 32 badge or SAO could be found with the sources available for this pass, so the item is left unresolved rather than guessed at.
 

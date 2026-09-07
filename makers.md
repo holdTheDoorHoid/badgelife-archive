@@ -10,7 +10,7 @@ Every person, team, village and company with at least one entry in the archive. 
 
 {%- assign listed = site.badges | where_exp: "e", "e.status != 'not_an_item'" %}
 {%- assign names = "" | split: "" %}
-{%- for e in listed %}{% for m in e.makers %}{% if m.name %}{% assign names = names | push: m.name %}{% endif %}{% endfor %}{% endfor %}
+{%- for e in listed %}{% for m in e.makers %}{% if m.name %}{% assign mn = m.name | append: "" %}{% assign names = names | push: mn %}{% endif %}{% endfor %}{% endfor %}
 {%- assign uniq = names | uniq | sort_natural %}
 
 <p class="muted">{{ uniq.size }} makers across {{ listed.size }} entries.</p>

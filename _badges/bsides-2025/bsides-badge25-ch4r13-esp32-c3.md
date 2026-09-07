@@ -39,6 +39,7 @@ links:
 - label: github.com/ch4r13/BSides-Badge25
   url: https://github.com/ch4r13/BSides-Badge25
   kind: repo
+  archived: https://web.archive.org/web/20260907104956/https://github.com/ch4r13/BSides-Badge25
 images: []
 contact: {}
 notes: []
@@ -49,6 +50,7 @@ sources:
   title: BSides-Badge25 (ch4r13, ESP32-C3)
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: github-topics); event read as ''BSides 2025''.'
+  archived: https://web.archive.org/web/20260907104956/https://github.com/ch4r13/BSides-Badge25
 research:
   status: stub
   confidence: low

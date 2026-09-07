@@ -49,26 +49,37 @@ sources:
 - kind: url
   url: https://lonelyhackers.club/badge/
   title: LHC Badge - Lonely Hackers Club
-  accessed: '2026-09-07'
+  accessed: '2026-09-06'
   note: 'LHC badge history page covers the 2025 Meshtastic badge and a teased 2027 badge; no 2024/DEF CON 32 badge is mentioned, and H4rl0d is not named.'
+- kind: url
+  url: https://lonelyhackers.club/
+  title: Lonely Hackers Club
+  accessed: '2026-09-06'
+  note: 'Describes LHC as a loose collective that grew out of r/defcon and has an official presence at DEF CON; says LHC makes a custom hardware badge each year but gives no 2024 details and does not name H4rl0d.'
+- kind: url
+  url: https://github.com/lonelyhackersclub
+  title: LonelyHackersClub on GitHub
+  accessed: '2026-09-06'
+  note: 'Org has two public Ruby repos last updated March 2014; no badge, SAO, or 2024 hardware repos.'
 research:
-  status: researched
+  status: verified
   confidence: low
-  last_checked: '2026-09-07'
+  last_checked: '2026-09-06'
   notes: >-
-    H4rl0d (of LHC/Lonely Hackers Club fame) has a separate confirmed entry for DEF CON 31
-    (CertBot SAO) and is associated with LHC's later Meshtastic badge (DEF CON 33), but no
+    H4rl0d (of LHC/Lonely Hackers Club fame) has a separate sheet-listed entry for DEF CON 31
+    (CertBot SAO, itself low-confidence) and another name-only sheet stub for DEF CON 33, but no
     source found ties a specific badge or SAO to H4rl0d for DEF CON 32 (2024). Checked
-    lonelyhackers.club (badge history page lists 2025 and 2027 badges only, nothing for 2024),
-    the LHC GitHub org (no relevant repos), and Hackaday.io (H4rl0d profile not found at the
-    expected URL). Web search quota was exhausted mid-task, limiting further lookups. Leaving
-    title and fields as originally listed rather than guessing; this could plausibly be the
-    same CertBot SAO relisted, or a different LHC-affiliated item, but nothing confirms either.
-last_modified_date: '2026-09-07'
+    lonelyhackers.club (badge history page lists 2025 and 2027 badges only, nothing for 2024,
+    and does not name H4rl0d), the LonelyHackersClub GitHub org (two dormant Ruby repos from
+    2014), and hackaday.io/H4rl0d (404). Fact-check 2026-09-06 re-opened each cited page and
+    confirmed the claims above; the sheet row is verified to carry only the maker name. Title
+    and fields are left as originally listed rather than guessed; whether this row is a relisting
+    of the CertBot SAO or a different item is unresolved.
+last_modified_date: '2026-09-06'
 ---
 
-The community badge sheet for DEF CON 32 (2024) lists H4rl0d only by name, with no title, description, or link for whatever badge or SAO they brought that year. H4rl0d is known in the archive from a separate entry: the CertBot SAO listed for DEF CON 31 (2023), and is credited on the community sheet as "of LHC fame," referring to the Lonely Hackers Club, a DEF CON community group.
+The community badge sheet for DEF CON 32 (2024) lists H4rl0d only by name, with no title, description, or link for whatever badge or SAO they brought that year. H4rl0d is known in the archive from a separate entry: the CertBot SAO listed for DEF CON 31 (2023), and is credited on the community sheet as "of LHC fame," referring to the Lonely Hackers Club, a collective that grew out of r/defcon and has an official presence at DEF CON.
 
-Research into what H4rl0d specifically produced for DEF CON 32 came up empty. Lonely Hackers Club's own badge history page covers their 2025 Meshtastic badge (an ESP32-S3 / SX1262 LoRa design) and teases a 2027 badge for the group's tenth anniversary, but has no entry for a 2024 badge, and does not mention H4rl0d by name. The LHC GitHub organization's public repositories are unrelated (old Ruby projects from the mid-2010s), and an expected Hackaday.io profile page for H4rl0d returned a 404. No storefront, press coverage, or social post naming a DEF CON 32 item from this maker was found before the session's web search allowance ran out.
+Research into what H4rl0d specifically produced for DEF CON 32 came up empty. Lonely Hackers Club's own badge history page covers their 2025 Meshtastic badge (an ESP32-S3 / SX1262 LoRa design) and teases a 2027 badge for the group's tenth anniversary, but has no entry for a 2024 badge, and does not mention H4rl0d by name. The LonelyHackersClub GitHub organization's public repositories are unrelated (two Ruby projects last touched in 2014), and hackaday.io/H4rl0d returns a 404. No storefront, press coverage, or social post naming a DEF CON 32 item from this maker was found.
 
-Given the lack of any confirming source, this entry is left with `unknown` availability and the maker's DEF CON 31 CertBot SAO stands as the only documented item from H4rl0d in this archive; whether the DEF CON 32 sheet entry refers to a repeat listing of that SAO or a separate, undocumented piece is unresolved.
+Given the lack of any confirming source, this entry is left with `unknown` availability and the maker's DEF CON 31 CertBot SAO stands as the only titled item from H4rl0d in this archive (a DEF CON 33 sheet row is likewise name-only); whether the DEF CON 32 sheet entry refers to a repeat listing of that SAO or a separate, undocumented piece is unresolved.

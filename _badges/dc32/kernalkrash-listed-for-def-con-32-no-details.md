@@ -48,14 +48,15 @@ sources:
 - kind: url
   url: https://kernalkrash.com
   title: 'kernalkrash.com (parked domain)'
-  accessed: '2026-09-07'
+  accessed: '2026-09-06'
   note: >-
     Domain resolves but redirects to a GoDaddy parking-lander page with no
-    content; not evidence of a real maker site or product.
+    content; not evidence of a real maker site or product. Re-checked
+    2026-09-06 by the fact-check pass: still parked.
 research:
-  status: researched
+  status: verified
   confidence: low
-  last_checked: '2026-09-07'
+  last_checked: '2026-09-06'
   notes: >-
     No independent trace of a maker or product called "KernalKrash" could be
     found. GitHub, Hackaday.io, X/Twitter, and a direct-domain guess
@@ -66,14 +67,18 @@ research:
     already exhausted before this entry could be researched), so a proper
     search-engine pass has not actually been completed and should be retried.
     Left as unknown rather than guessing at what this maker brought to DEF
-    CON 32.
-last_modified_date: '2026-09-07'
+    CON 32. Fact-check 2026-09-06: sheet row confirmed (dc32.csv, maker name
+    only, every other column blank); github.com/kernalkrash and
+    hackaday.io/kernalkrash confirmed 404; kernalkrash.com confirmed a
+    GoDaddy parking lander; WebSearch quota was still exhausted, so the
+    keyword-search gap remains open.
+last_modified_date: '2026-09-06'
 ---
 
 Only a maker name, "KernalKrash," appears on the DEF CON 32 (2024) community
 badge sheet, with no title, photo, or description recorded. No further trace
 of a maker or product by this name could be located during this pass: there
-is no matching Hackaday.io profile, GitHub account, or social presence, and
+is no matching Hackaday.io profile, GitHub account, or X/Twitter handle, and
 the closest guess at a maker domain (kernalkrash.com) is an inactive, parked
 web address unrelated to any hardware project. Web search engines could not
 be queried directly in this session (all attempts were blocked by anti-bot

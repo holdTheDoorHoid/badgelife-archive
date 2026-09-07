@@ -39,6 +39,10 @@ def main():
             errors.append(str(e)); continue
         for k in ("title", "event", "type"):
             if not fm.get(k): errors.append(f"{rel}: missing {k}")
+            elif not isinstance(fm.get(k), str): errors.append(f"{rel}: {k} must be a quoted string, got {type(fm.get(k)).__name__} ({fm.get(k)!r})")
+        for m in fm.get("makers") or []:
+            if not isinstance(m, dict) or not isinstance(m.get("name"), str):
+                errors.append(f"{rel}: maker name must be a quoted string, got {m!r}")
         ev = fm.get("event")
         if ev and ev not in EVENTS: errors.append(f"{rel}: unknown event '{ev}' (add to _data/events.yml)")
         if fm.get("type") not in TYPES: errors.append(f"{rel}: type '{fm.get('type')}' not in {sorted(TYPES)}")
@@ -102,7 +106,7 @@ def main():
             "link_count": len(links),
             "status": fm.get("status") or "listed",
             "research": rs,
-            "text": re.sub(r"\s+", " ", text_blob).strip()[:1500],
+            "text": re.sub(r"\s+", " ", text_blob).strip()[:500],
         }
         records.append(rec)
     for eid, n in ids.items():
