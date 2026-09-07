@@ -38,9 +38,9 @@ tech:
 get_one:
   price: $100.00
   price_usd: 100.0
-  quantity: 'Limited presale batch, planned around 25 (35 shown in stock during presale); total production run not stated'
+  quantity: Limited presale batch, planned around 25 (35 shown in stock during presale); total production run not stated
   availability: sold_out
-  availability_note: 'No longer listed in the DC540 shop as of 2026-09-06/07 (product page returns 404); last confirmed available during the 2024 presale.'
+  availability_note: No longer listed in the DC540 shop as of 2026-09-06/07 (product page returns 404); last confirmed available during the 2024 presale.
   distribution:
   - purchase
   - preorder
@@ -54,7 +54,8 @@ links:
 - label: dc540.org/xxx/shop
   url: https://dc540.org/xxx/shop/
   kind: store
-- label: 'Chakra Badge – 2024 (product page, via Wayback Machine)'
+  archived: https://web.archive.org/web/20260413082716/https://dc540.org/xxx/shop/
+- label: Chakra Badge – 2024 (product page, via Wayback Machine)
   url: http://web.archive.org/web/20240528213848/https://dc540.org/xxx/product/chakra-badge-2024/
   kind: store
 - label: DC540 Badge Announcement (2024-04-18)
@@ -62,16 +63,17 @@ links:
   kind: article
 images:
 - file: assets/images/badges/dc32/chakra-badge/7030ebdf86.jpg
-  source: "https://dc540.org/xxx/product/chakra-badge-2024/"
-  credit: "DC540"
-  caption: "The DC540 Chakra Badge, a round RP2040-powered badge with laser-cut acrylic wings"
+  source: https://dc540.org/xxx/product/chakra-badge-2024/
+  credit: DC540
+  caption: The DC540 Chakra Badge, a round RP2040-powered badge with laser-cut acrylic wings
+  archived: https://web.archive.org/web/20260309051759/https://dc540.org/xxx/product/chakra-badge-2024/
 contact:
   handles:
   - '@dc540_nova'
 notes:
 - The current price is $100 with $10 for shipping
-- 'Assembled in the USA by Bradan Lane Studio (per the maker''s product listing).'
-- 'The badge was originally planned for DEF CON 31 (2023) but slipped a year, per the maker.'
+- Assembled in the USA by Bradan Lane Studio (per the maker's product listing).
+- The badge was originally planned for DEF CON 31 (2023) but slipped a year, per the maker.
 status: released
 sources:
 - kind: sheet
@@ -80,9 +82,9 @@ sources:
   updated: '2024-06-01'
 - kind: url
   url: http://web.archive.org/web/20240528213848/https://dc540.org/xxx/product/chakra-badge-2024/
-  title: 'Chakra Badge – 2024 – DC540 Defcon Group'
+  title: Chakra Badge – 2024 – DC540 Defcon Group
   accessed: '2026-09-06'
-  note: 'Product description, spec list, price ($100), stock count (35) at presale time, and product photos; live page now 404s.'
+  note: Product description, spec list, price ($100), stock count (35) at presale time, and product photos; live page now 404s.
 - kind: url
   url: https://dc540.org/xxx/2024/04/badge-announcement/
   title: Badge Announcement – DC540
@@ -92,12 +94,12 @@ sources:
   url: https://dc540.org/xxx/wp-content/uploads/2024/04/chakrabadge.jpg
   title: Chakra Badge product photo
   accessed: '2026-09-06'
-  note: 'Saved as the entry image; shows the meditating-figure PCB shape, chakra points, acrylic wings, and lanyard.'
+  note: Saved as the entry image; shows the meditating-figure PCB shape, chakra points, acrylic wings, and lanyard.
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-06'
-  notes: 'Core facts confirmed on DC540''s own product listing (archived, since 404) and their badge-announcement post. LED count/type for the acrylic-wing "sidelights" is not specified anywhere found, so tech.leds is left empty. No public hardware/firmware repo was found for this badge (DC540''s GitHub org has no matching project), so make_your_own fields are left null rather than guessed. Display size (likely ~1.28" round, common for GC9A01) is not stated by the maker, so it was left out of tech.display rather than assumed.'
+  notes: Core facts confirmed on DC540's own product listing (archived, since 404) and their badge-announcement post. LED count/type for the acrylic-wing "sidelights" is not specified anywhere found, so tech.leds is left empty. No public hardware/firmware repo was found for this badge (DC540's GitHub org has no matching project), so make_your_own fields are left null rather than guessed. Display size (likely ~1.28" round, common for GC9A01) is not stated by the maker, so it was left out of tech.display rather than assumed.
 last_modified_date: '2026-09-06'
 ---
 

@@ -1,0 +1,16 @@
+{
+ "dc27-arc-badge": {
+  "status": "ok",
+  "method": "gerber",
+  "bytes": 542004,
+  "tried": [],
+  "src": "Arc_Bottom_JLC-20191203-1501.zip"
+ },
+ "bornhack-2019-bornhack-2019-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 413380,
+  "tried": [],
+  "src": "bh_2019_badge.kicad_pcb"
+ }
+}

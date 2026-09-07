@@ -41,7 +41,7 @@ get_one:
   - purchase
   where: Sold as a limited run via an Indiegogo campaign (fully assembled badges sold out); leftover kits were sold at The Hacker Warehouse's vendor table at DEF CON 32.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/gowenrw/cowboys_vs_dinosaurs/tree/main/eda/cowboys_vs_dinos
   firmware_url: https://github.com/gowenrw/cowboys_vs_dinosaurs/tree/main/code
   eda_tool: KiCad
@@ -54,6 +54,7 @@ links:
 - label: altbier.us
   url: https://altbier.us/
   kind: website
+  archived: https://web.archive.org/web/20260608053942/https://altbier.us/
 - label: Cowboys vs. Dinosaurs badge docs
   url: https://cowboysvsdinos.altbier.us/
   kind: doc
@@ -62,13 +63,13 @@ links:
   kind: repo
 images:
 - file: assets/images/badges/dc32/cowboys-vs-dinosaurs-limited-run/a60b5bbfe9.jpg
-  source: "https://cowboysvsdinos.altbier.us/"
-  credit: "Alt_Bier"
-  caption: "Assembled Cowboys vs. Dinosaurs badge, Cowboys touch area lit"
+  source: https://cowboysvsdinos.altbier.us/
+  credit: Alt_Bier
+  caption: Assembled Cowboys vs. Dinosaurs badge, Cowboys touch area lit
 - file: assets/images/badges/dc32/cowboys-vs-dinosaurs-limited-run/b81eed8603.jpg
-  source: "https://cowboysvsdinos.altbier.us/"
-  credit: "Alt_Bier"
-  caption: "Cowboys vs. Dinosaurs badge kit, unassembled parts"
+  source: https://cowboysvsdinos.altbier.us/
+  credit: Alt_Bier
+  caption: Cowboys vs. Dinosaurs badge kit, unassembled parts
 contact: {}
 notes:
 - Indiegogo link is now closed!! All fully assembled badges are sold out. Only ones left will be kits and will be available at The Hacker Warehouse in the Vendor Area at DEFCON 32.
@@ -80,32 +81,25 @@ sources:
   updated: '2024-07-25'
 - kind: url
   url: https://altbier.us/
-  title: "altbier.us"
+  title: altbier.us
   accessed: '2026-09-06'
   note: Maker's landing page; links to the badge-specific documentation site and lists the badge as "The 3000 Society 2024 Con badge".
+  archived: https://web.archive.org/web/20260608053942/https://altbier.us/
 - kind: url
   url: https://cowboysvsdinos.altbier.us/
-  title: "Cowboys vs Dinosaurs Badge - DEFCON 32"
+  title: Cowboys vs Dinosaurs Badge - DEFCON 32
   accessed: '2026-09-06'
   note: Primary documentation page; source for MCU, LED count/type, touch inputs, Wi-Fi adventure-game mode, battery, and photos.
 - kind: url
   url: https://github.com/gowenrw/cowboys_vs_dinosaurs
-  title: "gowenrw/cowboys_vs_dinosaurs"
+  title: gowenrw/cowboys_vs_dinosaurs
   accessed: '2026-09-06'
   note: Confirms open-source hardware/firmware/art, MIT license, and KiCad 7.x EDA files under /eda/cowboys_vs_dinos/.
 research:
   status: verified
   confidence: high
   last_checked: '2026-09-06'
-  notes: >-
-    Core facts (maker, MCU, LEDs, inputs, battery, open-source status) confirmed on the maker's own
-    documentation site and GitHub repo; both images matched files on the documentation site.
-    Exact quantity made and any price beyond the $70 sheet figure were not stated anywhere found;
-    left empty rather than guessed. Could not confirm whether the badge has an SAO header, so
-    tech.sao_version is left null. The docs site describes a "playing card background" for the
-    artwork but does not state the board outline, so look.shape is left empty. Indiegogo, sell-out
-    and Hacker Warehouse kit details come from the maker's community-sheet note (2024-07-25).
-    The maker's Twitter/X account could not be fetched directly (login-walled).
+  notes: Core facts (maker, MCU, LEDs, inputs, battery, open-source status) confirmed on the maker's own documentation site and GitHub repo; both images matched files on the documentation site. Exact quantity made and any price beyond the $70 sheet figure were not stated anywhere found; left empty rather than guessed. Could not confirm whether the badge has an SAO header, so tech.sao_version is left null. The docs site describes a "playing card background" for the artwork but does not state the board outline, so look.shape is left empty. Indiegogo, sell-out and Hacker Warehouse kit details come from the maker's community-sheet note (2024-07-25). The maker's Twitter/X account could not be fetched directly (login-walled).
 last_modified_date: '2026-09-06'
 ---
 

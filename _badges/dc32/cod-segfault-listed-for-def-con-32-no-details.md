@@ -46,6 +46,7 @@ links:
 - kind: social
   label: Bluesky (@se.gfau.lt)
   url: https://bsky.app/profile/se.gfau.lt
+  archived: https://web.archive.org/web/20260602042118/https://bsky.app/profile/se.gfau.lt
 images: []
 contact: {}
 notes: []
@@ -74,34 +75,13 @@ sources:
   url: https://github.com/CoD-Segfault/mini_wardriver_rev2
   title: mini_wardriver_rev2 (CoD-Segfault)
   accessed: '2026-09-06'
-  note: 'Repo created March 2024 (before DC32 in August 2024), described only as "KiCad files for the mini wardriver rev2" -- the repository itself is empty, so hardware details, price, and any DC32 connection could not be confirmed.'
+  note: Repo created March 2024 (before DC32 in August 2024), described only as "KiCad files for the mini wardriver rev2" -- the repository itself is empty, so hardware details, price, and any DC32 connection could not be confirmed.
 research:
   status: verified
   confidence: low
   last_checked: '2026-09-07'
-  notes: >-
-    Fact-check 2026-09-07: identity, location, social links, repo dates and the
-    empty mini_wardriver_rev2 repo were re-confirmed against GitHub's API and
-    the Bluesky public API. Corrected two overstatements: the DC27 repo is a
-    bare firmware binary (no writeup), and USBArmyKnife is a fork, not the
-    maker's project.
-    The community sheet only lists the maker's handle for DEF CON 32 with no
-    further detail, and no source found ties a specific badge/SAO to that year.
-    Identified the real person behind the handle: a Chicagoland-area hardware
-    hacker (GitHub: CoD-Segfault, X/Bluesky: CoD_Segfault / se.gfau.lt) whose
-    public work is mostly wardriving hardware (wardriver_rev3, mini_wardriver_rev2)
-    and WiFi tooling (wifi-shuriken, BW16-Open-AT), plus firmware dumps of the
-    official DEF CON 27 and 29 badges (the DC29 repo documents the SWD process;
-    the DC27 repo is just the binary). Their "mini_wardriver_rev2" KiCad repo was created in March
-    2024, months before DC32, making it a plausible candidate for what they
-    brought, but the repo is empty and no source confirms it was sold, given
-    away, or shown at DC32 specifically. Their later, better-documented WiFi Shuriken project (repo created March
-    2026) postdates DC32 and is not it; the USBArmyKnife repo on their account is
-    a fork of i-am-shodan/USBArmyKnife, not their own project. Left status as
-    unknown per the research guide's rule for listed-with-no-details entries
-    where the specific item can't be confirmed. A companion stub,
-    dc31-i-have-no-idea (same maker, DEF CON 31), is also unresearched but out
-    of scope for this task.
+  notes: 'Fact-check 2026-09-07: identity, location, social links, repo dates and the empty mini_wardriver_rev2 repo were re-confirmed against GitHub''s API and the Bluesky public API. Corrected two overstatements: the DC27 repo is a bare firmware binary (no writeup), and USBArmyKnife is a fork, not the maker''s project. The community sheet only lists the maker''s handle for DEF CON 32 with no further detail, and no source found ties a specific badge/SAO to that year. Identified the real person behind the handle: a Chicagoland-area hardware hacker (GitHub: CoD-Segfault, X/Bluesky: CoD_Segfault / se.gfau.lt) whose public work is mostly wardriving hardware (wardriver_rev3, mini_wardriver_rev2) and WiFi tooling (wifi-shuriken, BW16-Open-AT), plus firmware dumps of the official DEF CON 27 and 29 badges (the DC29 repo documents the SWD process; the DC27 repo is just the binary). Their "mini_wardriver_rev2" KiCad repo was created in March 2024, months before DC32, making it a plausible candidate
+    for what they brought, but the repo is empty and no source confirms it was sold, given away, or shown at DC32 specifically. Their later, better-documented WiFi Shuriken project (repo created March 2026) postdates DC32 and is not it; the USBArmyKnife repo on their account is a fork of i-am-shodan/USBArmyKnife, not their own project. Left status as unknown per the research guide''s rule for listed-with-no-details entries where the specific item can''t be confirmed. A companion stub, dc31-i-have-no-idea (same maker, DEF CON 31), is also unresearched but out of scope for this task.'
 last_modified_date: '2026-09-07'
 ---
 

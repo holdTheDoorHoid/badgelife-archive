@@ -48,9 +48,10 @@ sources:
   updated: ''
 - kind: url
   url: https://cybercitycircuits.com/
-  title: 'PCB Design, Assembly, & Rapid Prototyping for Small Business | Cyber City Circuits'
+  title: PCB Design, Assembly, & Rapid Prototyping for Small Business | Cyber City Circuits
   accessed: '2026-09-07'
   note: Confirms the maker exists (PCB design/assembly business, North Augusta SC, est. 2018) and offers custom event badges; no DEF CON 32 item named.
+  archived: https://web.archive.org/web/20260606142506/https://cybercitycircuits.com/
 - kind: url
   url: https://badgesbadgesbadges.com/
   title: BadgesBadgesBadges.com
@@ -60,16 +61,7 @@ research:
   status: verified
   confidence: low
   last_checked: '2026-09-07'
-  notes: >-
-    The maker is real: Cyber City Circuits LLC is a PCB design and assembly
-    business in North Augusta, SC (cybercitycircuits.com), which also runs a
-    custom event-badge service at badgesbadgesbadges.com. Neither site names
-    anything made for DEF CON 32; the only con reference found is a customer
-    review about badges made for RTV at DEF CON 33. The community sheet row
-    (row 40) names only the maker, with no title, link, price, or description.
-    What they brought to DEF CON 32, if anything, remains unknown. Fact-check
-    2026-09-07 corrected an earlier note claiming no trace of the maker existed
-    online. Dated 2026-09-07 rather than 2026-09-06 to match last_checked.
+  notes: 'The maker is real: Cyber City Circuits LLC is a PCB design and assembly business in North Augusta, SC (cybercitycircuits.com), which also runs a custom event-badge service at badgesbadgesbadges.com. Neither site names anything made for DEF CON 32; the only con reference found is a customer review about badges made for RTV at DEF CON 33. The community sheet row (row 40) names only the maker, with no title, link, price, or description. What they brought to DEF CON 32, if anything, remains unknown. Fact-check 2026-09-07 corrected an earlier note claiming no trace of the maker existed online. Dated 2026-09-07 rather than 2026-09-06 to match last_checked.'
 last_modified_date: '2026-09-07'
 ---
 

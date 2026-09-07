@@ -12,7 +12,7 @@ makers:
 - name: redactd
   url: https://www.tindie.com/stores/redactd/
 summary: A DEF CON 32 electronic badge with two-color solder mask, 60 LEDs across three connected circuit boards, and a running joke that it "sends you to the world famous strip club."
-functions: 'Blinky LED patterns across 60 onboard LEDs; has an SAO port for add-ons; maker describes a hidden "secret that connects you to another dimension."'
+functions: Blinky LED patterns across 60 onboard LEDs; has an SAO port for add-ons; maker describes a hidden "secret that connects you to another dimension."
 look:
   colors: []
   shape: null
@@ -35,7 +35,7 @@ get_one:
   price_usd: 100.0
   quantity: ''
   availability: sold_out
-  availability_note: 'Tindie listing showed 1 unit remaining as of 2026-09-06; original sheet price was $200, later listed at $100.'
+  availability_note: Tindie listing showed 1 unit remaining as of 2026-09-06; original sheet price was $200, later listed at $100.
   distribution:
   - purchase
   where: Sold directly by the maker on Tindie.
@@ -48,26 +48,30 @@ make_your_own:
   eda_tool: null
   license: null
   fab_url: null
-  notes: 'GitHub repo exists for firmware/documentation but was mostly a "coming soon" placeholder as of 2026-09-06; it describes UF2-based firmware flashing (1200-baud reset into bootloader, drag-and-drop UF2 file, or a boot button under the acrylic pre-sale case) but does not name the MCU or publish hardware files.'
+  notes: GitHub repo exists for firmware/documentation but was mostly a "coming soon" placeholder as of 2026-09-06; it describes UF2-based firmware flashing (1200-baud reset into bootloader, drag-and-drop UF2 file, or a boot button under the acrylic pre-sale case) but does not name the MCU or publish hardware files.
 links:
 - label: www.tindie.com/products/redactd/dantes-inferno-badge
   url: https://www.tindie.com/products/redactd/dantes-inferno-badge/
   kind: store
+  archived: https://web.archive.org/web/20260503124019/https://www.tindie.com/products/redactd/dantes-inferno-badge/
 - label: github.com/im-redactd/dantes_inferno
   url: https://github.com/im-redactd/dantes_inferno/
   kind: repo
+  archived: https://web.archive.org/web/20260508180613/https://github.com/im-redactd/dantes_inferno
 - label: x.com/boofintheface
   url: https://x.com/boofintheface
   kind: social
 images:
-  - file: assets/images/badges/dc32/dante-s-inferno-badge/520e732525.jpg
-    source: "https://www.tindie.com/products/redactd/dantes-inferno-badge/"
-    credit: "redactd"
-    caption: "Dante's Inferno Badge, front view"
-  - file: assets/images/badges/dc32/dante-s-inferno-badge/f0a85d5c09.jpg
-    source: "https://www.tindie.com/products/redactd/dantes-inferno-badge/"
-    credit: "redactd"
-    caption: "Dante's Inferno Badge, alternate view"
+- file: assets/images/badges/dc32/dante-s-inferno-badge/520e732525.jpg
+  source: https://www.tindie.com/products/redactd/dantes-inferno-badge/
+  credit: redactd
+  caption: Dante's Inferno Badge, front view
+  archived: https://web.archive.org/web/20260503124019/https://www.tindie.com/products/redactd/dantes-inferno-badge/
+- file: assets/images/badges/dc32/dante-s-inferno-badge/f0a85d5c09.jpg
+  source: https://www.tindie.com/products/redactd/dantes-inferno-badge/
+  credit: redactd
+  caption: Dante's Inferno Badge, alternate view
+  archived: https://web.archive.org/web/20260503124019/https://www.tindie.com/products/redactd/dantes-inferno-badge/
 contact: {}
 notes:
 - I do not know if it will be available at DC32 or not. The maker does discuss meeting the required timeline for shipping on tindie.
@@ -83,16 +87,18 @@ sources:
   title: Dante's Inferno Badge - Tindie
   accessed: '2026-09-06'
   note: Confirmed maker location, price ($100), LED count/board layout, battery, SAO port, packaging, stock level, and general description.
+  archived: https://web.archive.org/web/20260503124019/https://www.tindie.com/products/redactd/dantes-inferno-badge/
 - kind: url
   url: https://github.com/im-redactd/dantes_inferno/
   title: im-redactd/dantes_inferno GitHub repo
   accessed: '2026-09-06'
   note: Firmware flashing instructions (UF2, 1200-baud reset, boot button); repo otherwise a placeholder, no MCU name or hardware files published as of this check.
+  archived: https://web.archive.org/web/20260508180613/https://github.com/im-redactd/dantes_inferno
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-06'
-  notes: 'Maker (Tindie/GitHub) confirms core facts (LEDs, boards, battery, SAO port, price). Could not confirm the MCU, LED type/part number, quantity made, colors/shape, open-source hardware files, or theme tags beyond a general horror/strip-club joke; GitHub repo is largely unpopulated. x.com/boofintheface could not be checked (site returned HTTP 402 to the fetch tool). Left those fields null/empty rather than guess.'
+  notes: Maker (Tindie/GitHub) confirms core facts (LEDs, boards, battery, SAO port, price). Could not confirm the MCU, LED type/part number, quantity made, colors/shape, open-source hardware files, or theme tags beyond a general horror/strip-club joke; GitHub repo is largely unpopulated. x.com/boofintheface could not be checked (site returned HTTP 402 to the fetch tool). Left those fields null/empty rather than guess.
 last_modified_date: '2026-09-06'
 ---
 

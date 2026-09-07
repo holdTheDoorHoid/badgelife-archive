@@ -1,0 +1,11 @@
+<!doctype html><meta charset="utf-8"><title>model preview</title>
+<script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
+<style>body{margin:0;background:#1b1f27;color:#ddd;font:14px system-ui}model-viewer{width:100vw;height:90vh}</style>
+<model-viewer id="mv" camera-controls auto-rotate shadow-intensity="0.7" exposure="1.05" alt="preview"></model-viewer>
+<div id="info" style="padding:8px"></div>
+<script>
+const glb=new URLSearchParams(location.search).get('glb')||'';
+const mv=document.getElementById('mv'); mv.src='/'+glb.replace(/^\//,'');
+mv.addEventListener('load',()=>{document.getElementById('info').textContent='loaded '+glb;});
+mv.addEventListener('error',e=>{document.getElementById('info').textContent='ERROR '+JSON.stringify(e.detail||{});});
+</script>

@@ -117,34 +117,18 @@ research:
   status: verified
   confidence: high
   last_checked: '2026-09-07'
-  notes: >-
-    Fact-check pass (2026-09-07) corrected two errors from the prior draft.
-    "Hot-glue diffuser" was unsupported; Hackaday.com actually describes
-    0.8mm FR4 as the diffuser, and the build log does not mention a diffuser
-    material at all. The mode count was listed as 32, but the two most
-    authoritative sources (the published GitHub firmware, whose code covers
-    modes 0 through 0x1D, i.e. 30 modes, and the maker's own Tindie listing)
-    both say 30; only the Hackaday.com press write-up says 32. Both fields
-    are now fixed to match the firmware and storefront. Quantity is hedged
-    as "~200 for sale, plus 20" per the maker's own stated goal on
-    Hackaday.io ("I'm aiming for 200 to sell and 20 for donations and
-    trading, final numbers will depend on final yield"); Hackaday.com press
-    coverage separately claims 248 were produced as a final count, which
-    cannot be confirmed against a maker source, so the maker's stated
-    target is kept and the discrepancy is flagged here rather than in the
-    summary. LED count still not stated anywhere found (only LED type and
-    size, 3528 non-addressable); tech.leds.count left empty. Checked the
-    GitHub repo directly via the GitHub API, which confirms it has no
-    LICENSE file, so make_your_own.license is correctly left empty. The
-    Hackaday.io project page does list downloadable Gerber and BOM/parts
-    list files, but only as attachments within the project page itself,
-    with no distinct URL beyond hardware_url to point gerbers_url or
-    bom_url at, so those stay empty rather than inventing a link. The
-    Tindie store page (https://www.tindie.com/stores/twinkletwinkie/)
-    returned 403 to automated fetch; the individual product page worked
-    fine. All other non-empty fields and sentences were checked against
-    their cited sources and confirmed.
+  notes: Fact-check pass (2026-09-07) corrected two errors from the prior draft. "Hot-glue diffuser" was unsupported; Hackaday.com actually describes 0.8mm FR4 as the diffuser, and the build log does not mention a diffuser material at all. The mode count was listed as 32, but the two most authoritative sources (the published GitHub firmware, whose code covers modes 0 through 0x1D, i.e. 30 modes, and the maker's own Tindie listing) both say 30; only the Hackaday.com press write-up says 32. Both fields are now fixed to match the firmware and storefront. Quantity is hedged as "~200 for sale, plus 20" per the maker's own stated goal on Hackaday.io ("I'm aiming for 200 to sell and 20 for donations and trading, final numbers will depend on final yield"); Hackaday.com press coverage separately claims 248 were produced as a final count, which cannot be confirmed against a maker source, so the maker's stated target is kept and the discrepancy is flagged here rather than in the summary. LED count
+    still not stated anywhere found (only LED type and size, 3528 non-addressable); tech.leds.count left empty. Checked the GitHub repo directly via the GitHub API, which confirms it has no LICENSE file, so make_your_own.license is correctly left empty. The Hackaday.io project page does list downloadable Gerber and BOM/parts list files, but only as attachments within the project page itself, with no distinct URL beyond hardware_url to point gerbers_url or bom_url at, so those stay empty rather than inventing a link. The Tindie store page (https://www.tindie.com/stores/twinkletwinkie/) returned 403 to automated fetch; the individual product page worked fine. All other non-empty fields and sentences were checked against their cited sources and confirmed.
 last_modified_date: '2026-09-07'
+model:
+  file: assets/models/dc27/arc-badge.glb
+  method: gerber
+  source_file: Arc_Bottom_JLC-20191203-1501.zip
+  generated: '2026-09-07'
+  bytes: 542004
+  size_mm:
+  - 100.0
+  - 101.5
 ---
 
 The Arc Badge was an unofficial "indie" badge sold for DEF CON 27 (2019) by TwinkleTwinkie, reimagining Iron Man's Mk85 Nano Suit arc reactor as a wearable electronic prop. TwinkleTwinkie handled hardware sourcing and assembly while Wire (@wireengineer) wrote the firmware and did most of the KiCad layout. The badge is built as three stacked layers — a translucent "art" board on top, a 3D-printed spacer in the middle, and the electronics board underneath — with a triangular outline and two raised "ears" carrying a pair of SAOv1.69bis (6-pin) add-on headers. A PIC16F15344 microcontroller drives non-addressable 3528 RGB LEDs, overvolted to 5V for brightness, through roughly 30 selectable color and animation modes, defaulting to the reactor's familiar blue glow; a mode button remembers the last setting across power cycles, and the badge runs off two AA batteries.
