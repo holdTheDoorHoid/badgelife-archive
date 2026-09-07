@@ -42,9 +42,11 @@ links:
 - label: hackaday.io/project/159952-the-harbinger-shitty-add-on-badges
   url: https://hackaday.io/project/159952-the-harbinger-shitty-add-on-badges
   kind: hackaday
+  archived: https://web.archive.org/web/20260505144653/https://hackaday.io/project/159952-the-harbinger-shitty-add-on-badges
 - label: hackaday.io/project/159952/files
   url: https://hackaday.io/project/159952/files
   kind: hackaday
+  archived: https://web.archive.org/web/20260907115748/https://hackaday.io/project/159952/files
 images: []
 contact: {}
 notes: []
@@ -55,11 +57,13 @@ sources:
   title: The Harbinger Shitty Add-on Badges
   accessed: '2026-09-06'
   note: Found via the project's link list; intake pass identified this item here.
+  archived: https://web.archive.org/web/20260505144653/https://hackaday.io/project/159952-the-harbinger-shitty-add-on-badges
 - kind: url
   url: https://hackaday.io/project/159952/files
   title: 'Project file listing: shittytriforce.zip'
   accessed: '2026-09-07'
   note: File entry names it "Zelda Shitty add-on extender," uploaded 2019-03-04, 233.52 kB zip.
+  archived: https://web.archive.org/web/20260907115748/https://hackaday.io/project/159952/files
 - kind: url
   url: https://cdn.hackaday.io/files/1599526843386368/shittytriforce.zip
   title: shittytriforce.zip (design file contents)

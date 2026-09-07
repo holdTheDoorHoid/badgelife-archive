@@ -12,7 +12,7 @@ makers:
 - name: TwinkleTwinkie
   url: https://www.tindie.com/stores/twinkletwinkie/
 summary: Shitty Add-on for DEF CON 26 badges depicting a purple cat whose white eyes glow when powered, sold on Tindie by TwinkleTwinkie in 2018.
-functions: 'White LEDs light the cat''s eyes when powered over the SAO 3.3v connector; no other interactivity.'
+functions: White LEDs light the cat's eyes when powered over the SAO 3.3v connector; no other interactivity.
 look:
   colors:
   - purple
@@ -37,7 +37,7 @@ get_one:
   price_usd: null
   quantity: ''
   availability: sold_out
-  availability_note: 'Tindie listing shows "Product Retired" as of 2026-09-07; seller''s store page notes they were "taking a break."'
+  availability_note: Tindie listing shows "Product Retired" as of 2026-09-07; seller's store page notes they were "taking a break."
   distribution:
   - purchase
   where: Sold on Tindie by TwinkleTwinkie in 2018; shipped unsoldered with a separate 2x2 SAO header for the buyer to attach.
@@ -53,15 +53,18 @@ links:
 - label: www.tindie.com/products/twinkletwinkie/twinkletwinkies-badgelife-sao-add-on-4
   url: https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-badgelife-sao-add-on-4/
   kind: store
+  archived: https://web.archive.org/web/20260907120658/https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-badgelife-sao-add-on-4/
 images:
 - file: assets/images/badges/dc26/dc26-twinkletwinkie-badgelife-sao-add-on-4/61886e2fd7.jpg
-  source: "https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-badgelife-sao-add-on-4/"
-  credit: "TwinkleTwinkie"
-  caption: "The purple cat SAO with glowing white eyes"
+  source: https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-badgelife-sao-add-on-4/
+  credit: TwinkleTwinkie
+  caption: The purple cat SAO with glowing white eyes
+  archived: https://web.archive.org/web/20260907120658/https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-badgelife-sao-add-on-4/
 - file: assets/images/badges/dc26/dc26-twinkletwinkie-badgelife-sao-add-on-4/3baf1d236d.jpg
-  source: "https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-badgelife-sao-add-on-4/"
-  credit: "TwinkleTwinkie"
-  caption: "Additional angle of the purple cat SAO"
+  source: https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-badgelife-sao-add-on-4/
+  credit: TwinkleTwinkie
+  caption: Additional angle of the purple cat SAO
+  archived: https://web.archive.org/web/20260907120658/https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-badgelife-sao-add-on-4/
 contact: {}
 notes: []
 status: released
@@ -73,14 +76,15 @@ sources:
   note: Found via the project's link list; intake pass identified this item here.
 - kind: url
   url: https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-badgelife-sao-add-on-4/
-  title: TwinkleTwinkie's Badgelife SAO Add-on #4 - Tindie
+  title: TwinkleTwinkie's Badgelife SAO Add-on
   accessed: '2026-09-07'
   note: Maker's own storefront listing; confirmed item description, materials, contents, DEF CON 26/2018 context, and retired status. Also source of the two saved product photos.
+  archived: https://web.archive.org/web/20260907120658/https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-badgelife-sao-add-on-4/
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'The Tindie listing description mentions a companion HackaDay project ("Mad Cat") but that page could not be located/confirmed this pass, so hardware_url/firmware_url are left empty rather than guessed. LED count and exact price were not stated on the reachable pages, so left empty. The eBay listing (secondary market resale) returned HTTP 403 and could not be fetched directly; details are drawn from the Tindie listing instead.'
+  notes: The Tindie listing description mentions a companion HackaDay project ("Mad Cat") but that page could not be located/confirmed this pass, so hardware_url/firmware_url are left empty rather than guessed. LED count and exact price were not stated on the reachable pages, so left empty. The eBay listing (secondary market resale) returned HTTP 403 and could not be fetched directly; details are drawn from the Tindie listing instead.
 last_modified_date: '2026-09-07'
 ---
 

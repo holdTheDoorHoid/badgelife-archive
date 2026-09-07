@@ -12,11 +12,14 @@ makers:
 - name: TwinkleTwinkie
   url: https://www.tindie.com/stores/twinkletwinkie/
 summary: Shitty Add-on for DEF CON 26 badges depicting a big green alien whose eyes glow green when powered, made by TwinkleTwinkie (Duluth, GA) and sold on Tindie in 2018.
-functions: 'Green LED eyes light up when the SAO is powered over the 3.3v SAO header (or a breadboard/totem for demo purposes); no other interactivity.'
+functions: Green LED eyes light up when the SAO is powered over the 3.3v SAO header (or a breadboard/totem for demo purposes); no other interactivity.
 look:
-  colors: [green]
+  colors:
+  - green
   shape: null
-  themes: [space, sci-fi]
+  themes:
+  - space
+  - sci-fi
 tech:
   mcu: none
   leds:
@@ -32,8 +35,9 @@ get_one:
   price_usd: null
   quantity: ''
   availability: sold_out
-  availability_note: 'Tindie listing shows the seller "taking a break" and the product marked retired, checked 2026-09-07.'
-  distribution: [purchase]
+  availability_note: Tindie listing shows the seller "taking a break" and the product marked retired, checked 2026-09-07.
+  distribution:
+  - purchase
   where: Sold on Tindie by TwinkleTwinkie alongside DEF CON 26 in 2018; also resold as part of a badge set on eBay.
 make_your_own:
   open_source: null
@@ -47,11 +51,13 @@ links:
 - label: www.tindie.com/products/twinkletwinkie/twinkletwinkies-badgelife-sao-add-on-3
   url: https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-badgelife-sao-add-on-3/
   kind: store
+  archived: https://web.archive.org/web/20260510025609/https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-badgelife-sao-add-on-3/
 images:
 - file: assets/images/badges/dc26/dc26-twinkletwinkie-badgelife-sao-add-on-3/ae8d75896b.jpg
-  source: "https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-badgelife-sao-add-on-3/"
-  credit: "TwinkleTwinkie"
-  caption: "The Badgelife SAO Add-on #3, depicting a big green alien with glowing eyes"
+  source: https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-badgelife-sao-add-on-3/
+  credit: TwinkleTwinkie
+  caption: 'The Badgelife SAO Add-on #3, depicting a big green alien with glowing eyes'
+  archived: https://web.archive.org/web/20260510025609/https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-badgelife-sao-add-on-3/
 contact: {}
 notes: []
 status: released
@@ -63,9 +69,10 @@ sources:
   note: Found via the project's link list; intake pass identified this item here.
 - kind: url
   url: https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-badgelife-sao-add-on-3/
-  title: "TwinkleTwinkie's Badgelife SAO Add-on #3 - Tindie"
+  title: 'TwinkleTwinkie''s Badgelife SAO Add-on #3 - Tindie'
   accessed: '2026-09-07'
   note: 'Maker''s own storefront listing: confirms it is a DEF CON 26 (2018) SAO depicting a big green alien with glowing green eyes, powered over the standard 3.3v SAO connector; maker is based in Duluth, GA; listing now shows the product retired/seller on break.'
+  archived: https://web.archive.org/web/20260510025609/https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-badgelife-sao-add-on-3/
 research:
   status: researched
   confidence: medium

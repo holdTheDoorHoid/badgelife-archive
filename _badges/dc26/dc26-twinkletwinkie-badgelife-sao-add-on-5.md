@@ -12,7 +12,7 @@ makers:
 - name: TwinkleTwinkie
   url: https://www.tindie.com/stores/twinkletwinkie/
 summary: Shitty Add-on for DEF CON 26 badges shaped like a hat on which the words 'Make Add-ons Shitty Again' light up, sold on Tindie by TwinkleTwinkie in 2018.
-functions: 'Lights up white LED text reading "Make Add-ons Shitty Again" on a red hat-shaped PCB when powered from a host badge''s SAO header.'
+functions: Lights up white LED text reading "Make Add-ons Shitty Again" on a red hat-shaped PCB when powered from a host badge's SAO header.
 look:
   colors:
   - red
@@ -48,15 +48,18 @@ links:
 - label: www.tindie.com/products/twinkletwinkie/twinkletwinkies-badgelife-sao-add-on-5
   url: https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-badgelife-sao-add-on-5/
   kind: store
+  archived: https://web.archive.org/web/20260519051635/https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-badgelife-sao-add-on-5/
 images:
 - file: assets/images/badges/dc26/dc26-twinkletwinkie-badgelife-sao-add-on-5/b3b6918d47.jpg
-  source: "https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-badgelife-sao-add-on-5/"
-  credit: "TwinkleTwinkie"
-  caption: "The red hat-shaped SAO with 'Make Add-ons Shitty Again' text"
+  source: https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-badgelife-sao-add-on-5/
+  credit: TwinkleTwinkie
+  caption: The red hat-shaped SAO with 'Make Add-ons Shitty Again' text
+  archived: https://web.archive.org/web/20260519051635/https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-badgelife-sao-add-on-5/
 - file: assets/images/badges/dc26/dc26-twinkletwinkie-badgelife-sao-add-on-5/66ee26d321.jpg
-  source: "https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-badgelife-sao-add-on-5/"
-  credit: "TwinkleTwinkie"
-  caption: "The SAO lit up, showing the white LED text on the hat"
+  source: https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-badgelife-sao-add-on-5/
+  credit: TwinkleTwinkie
+  caption: The SAO lit up, showing the white LED text on the hat
+  archived: https://web.archive.org/web/20260519051635/https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-badgelife-sao-add-on-5/
 contact: {}
 notes: []
 status: released
@@ -68,9 +71,10 @@ sources:
   note: Found via the project's link list; intake pass identified this item here.
 - kind: url
   url: https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-badgelife-sao-add-on-5/
-  title: TwinkleTwinkie's Badgelife SAO Add-on #5 - Tindie
+  title: TwinkleTwinkie's Badgelife SAO Add-on
   accessed: '2026-09-07'
   note: 'Maker''s own storefront listing: confirms it is a red hat-shaped SAO with white LEDs spelling "Make Add-ons Shitty Again," made for DEF CON 26 in 2018, 3.3V/SAO powered, and now marked no longer available for sale. Source of the two product photos used here.'
+  archived: https://web.archive.org/web/20260519051635/https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-badgelife-sao-add-on-5/
 research:
   status: researched
   confidence: medium

@@ -44,11 +44,13 @@ links:
 - label: www.tindie.com/products/twinkletwinkie/twinkletwinkies-badgelife-sao-add-on-6
   url: https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-badgelife-sao-add-on-6/
   kind: store
+  archived: https://web.archive.org/web/20260510025613/https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-badgelife-sao-add-on-6/
 images:
-  - file: assets/images/badges/dc26/dc26-twinkletwinkie-badgelife-sao-add-on-6/26db087294.jpg
-    source: "https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-badgelife-sao-add-on-6/"
-    credit: "TwinkleTwinkie"
-    caption: "The assembled SAO add-on with unsoldered 2x2 header"
+- file: assets/images/badges/dc26/dc26-twinkletwinkie-badgelife-sao-add-on-6/26db087294.jpg
+  source: https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-badgelife-sao-add-on-6/
+  credit: TwinkleTwinkie
+  caption: The assembled SAO add-on with unsoldered 2x2 header
+  archived: https://web.archive.org/web/20260510025613/https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-badgelife-sao-add-on-6/
 contact: {}
 notes: []
 status: released
@@ -60,9 +62,10 @@ sources:
   note: Found via the project's link list; intake pass identified this item here.
 - kind: url
   url: https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-badgelife-sao-add-on-6/
-  title: "TwinkleTwinkie's Badgelife SAO Add-on #6 - Tindie"
+  title: 'TwinkleTwinkie''s Badgelife SAO Add-on #6 - Tindie'
   accessed: '2026-09-07'
   note: Maker's own storefront listing; confirmed description, features, 3.3V/SAO header details, sold-out status, and product photo. eBay listing returned HTTP 403 and could not be read directly.
+  archived: https://web.archive.org/web/20260510025613/https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-badgelife-sao-add-on-6/
 research:
   status: researched
   confidence: medium

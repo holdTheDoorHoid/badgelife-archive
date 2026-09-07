@@ -8,11 +8,11 @@ nav_exclude: true
 type: sao
 event: dc26
 year: 2018
-series: "Shitty Add-on"
+series: Shitty Add-on
 makers:
 - name: TwinkleTwinkie
   url: https://www.tindie.com/stores/twinkletwinkie/
-summary: "\"Fat Pika,\" a Pikachu-styled Shitty Add-on for DEF CON 26 (2018) with a yellow silkscreened PCB and red LED cheeks that light up when powered."
+summary: '"Fat Pika," a Pikachu-styled Shitty Add-on for DEF CON 26 (2018) with a yellow silkscreened PCB and red LED cheeks that light up when powered.'
 functions: 'No logic or buttons: the two red LEDs simply light up ("glow") whenever the SAO is powered from the host badge''s 3.3V rail.'
 look:
   colors:
@@ -34,11 +34,11 @@ tech:
   battery: powered by host badge
   sao_version: v1
 get_one:
-  price: "$20"
+  price: $20
   price_usd: 20.0
-  quantity: "50+"
+  quantity: 50+
   availability: sold_out
-  availability_note: 'Tindie listing shows the item as discontinued/out of stock (checked 2026-09-07).'
+  availability_note: Tindie listing shows the item as discontinued/out of stock (checked 2026-09-07).
   distribution:
   - purchase
   where: Sold on Tindie by TwinkleTwinkie in 2018; also appeared as a since-expired eBay listing.
@@ -56,24 +56,27 @@ links:
 - label: www.tindie.com/stores/twinkletwinkie
   url: https://www.tindie.com/stores/twinkletwinkie/
   kind: store
-- label: TwinkleTwinkie's Badgelife SAO Add-on #2 (Tindie product page)
+  archived: https://web.archive.org/web/20260503111119/https://www.tindie.com/stores/twinkletwinkie/
+- label: TwinkleTwinkie's Badgelife SAO Add-on
   url: https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-badgelife-sao-add-on-2/
   kind: store
+  archived: https://web.archive.org/web/20260510025609/https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-badgelife-sao-add-on-2/
 - label: Fat Pika - DEF CON 26 Shitty Add-on (Hackaday.io)
   url: https://hackaday.io/project/158665-fat-pika-def-con-26-shitty-add-on
   kind: hackaday
 images:
-  - file: assets/images/badges/dc26/dc26-twinkletwinkie-badgelife-sao-add-on-2/db2132b077.jpg
-    source: "https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-badgelife-sao-add-on-2/"
-    credit: "TwinkleTwinkie"
-    caption: "TwinkleTwinkie's Badgelife SAO Add-on #2 (Fat Pika), a Pikachu-themed SAO with glowing red LED cheeks"
-  - file: assets/images/badges/dc26/dc26-twinkletwinkie-badgelife-sao-add-on-2/b3999324c9.jpg
-    source: "https://hackaday.io/project/158665-fat-pika-def-con-26-shitty-add-on"
-    credit: "TwinkleTwinkie"
-    caption: "Fat Pika SAO on Hackaday.io, showing the yellow PCB shaped like Pikachu"
+- file: assets/images/badges/dc26/dc26-twinkletwinkie-badgelife-sao-add-on-2/db2132b077.jpg
+  source: https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-badgelife-sao-add-on-2/
+  credit: TwinkleTwinkie
+  caption: 'TwinkleTwinkie''s Badgelife SAO Add-on #2 (Fat Pika), a Pikachu-themed SAO with glowing red LED cheeks'
+  archived: https://web.archive.org/web/20260510025609/https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-badgelife-sao-add-on-2/
+- file: assets/images/badges/dc26/dc26-twinkletwinkie-badgelife-sao-add-on-2/b3999324c9.jpg
+  source: https://hackaday.io/project/158665-fat-pika-def-con-26-shitty-add-on
+  credit: TwinkleTwinkie
+  caption: Fat Pika SAO on Hackaday.io, showing the yellow PCB shaped like Pikachu
 contact: {}
 notes:
-- 'The Hackaday.io project nicknames the board "Fat Pika."'
+- The Hackaday.io project nicknames the board "Fat Pika."
 status: released
 sources:
 - kind: url
@@ -83,19 +86,20 @@ sources:
   note: Found via the project's link list; intake pass identified this item here.
 - kind: url
   url: https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-badgelife-sao-add-on-2/
-  title: "TwinkleTwinkie's Badgelife SAO Add-on #2 from TwinkleTwinkie on Tindie"
+  title: 'TwinkleTwinkie''s Badgelife SAO Add-on #2 from TwinkleTwinkie on Tindie'
   accessed: '2026-09-07'
   note: 'Maker''s own product listing: title, $20 price, "electrifying yellow rodent with glowing red cheeks" description, package contents (assembled SAO + 2x2 header), discontinued/out-of-stock status, link to Hackaday.io documentation.'
+  archived: https://web.archive.org/web/20260510025609/https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-badgelife-sao-add-on-2/
 - kind: url
   url: https://hackaday.io/project/158665-fat-pika-def-con-26-shitty-add-on
-  title: 'Fat Pika - DEF CON 26 Shitty Add-on | Hackaday.io'
+  title: Fat Pika - DEF CON 26 Shitty Add-on | Hackaday.io
   accessed: '2026-09-07'
-  note: 'Confirms DEF CON 26 (2018) event, red OSRAM TOPLED LEDs salvaged from earlier badge mods, 50+ units made, KiCad/Gerber files published in a downloadable zip.'
+  note: Confirms DEF CON 26 (2018) event, red OSRAM TOPLED LEDs salvaged from earlier badge mods, 50+ units made, KiCad/Gerber files published in a downloadable zip.
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-07'
-  notes: 'The original eBay listing (145940255791) no longer resolves (deleted/expired); the Tindie product page and the maker''s own Hackaday.io project page confirmed the core facts instead. No quantity price breakdown or exact LED forward-voltage specs were published beyond what is noted above. Series name "Shitty Add-on" reflects the badgelife community term the maker uses for this product line, not a formal series name.'
+  notes: The original eBay listing (145940255791) no longer resolves (deleted/expired); the Tindie product page and the maker's own Hackaday.io project page confirmed the core facts instead. No quantity price breakdown or exact LED forward-voltage specs were published beyond what is noted above. Series name "Shitty Add-on" reflects the badgelife community term the maker uses for this product line, not a formal series name.
 last_modified_date: '2026-09-07'
 ---
 
