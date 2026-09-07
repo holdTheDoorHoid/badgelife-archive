@@ -39,6 +39,7 @@ links:
 - label: badge.team/docs/badges/campzone-2020
   url: https://badge.team/docs/badges/campzone-2020/
   kind: website
+  archived: https://web.archive.org/web/20251008062420/https://badge.team/docs/badges/campzone-2020/
 images: []
 contact: {}
 notes:
@@ -50,6 +51,7 @@ sources:
   title: CampZone 2020 Badge
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: eu-camps: European hacker camps/cons via badge.team (SHA2017, Hackerhotel, Disobey, CampZone, Fri3d Camp, MCH2022, WHY2025), EMF Camp TiLDA lineage, CCC card10, and BornHack); event read as ''CampZone 2020''.'
+  archived: https://web.archive.org/web/20251008062420/https://badge.team/docs/badges/campzone-2020/
 research:
   status: stub
   confidence: low

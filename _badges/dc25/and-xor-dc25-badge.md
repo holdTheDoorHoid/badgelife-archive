@@ -39,6 +39,7 @@ links:
 - label: hackaday.io/project/19121-andxor-dc25-badge
   url: https://hackaday.io/project/19121-andxor-dc25-badge
   kind: hackaday
+  archived: https://web.archive.org/web/20251026123457/https://hackaday.io/project/19121-andxor-dc25-badge
 images: []
 contact: {}
 notes: []
@@ -49,6 +50,7 @@ sources:
   title: AND!XOR DC25 Badge
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: hackaday-list); event read as ''DEF CON 25''.'
+  archived: https://web.archive.org/web/20251026123457/https://hackaday.io/project/19121-andxor-dc25-badge
 research:
   status: stub
   confidence: low

@@ -40,15 +40,19 @@ links:
 - label: github.com/cryptovillage/badge2015
   url: https://github.com/cryptovillage/badge2015
   kind: repo
+  archived: https://web.archive.org/web/20260907111628/https://github.com/cryptovillage/badge2015
 - label: raw.githubusercontent.com/cryptovillage/badge2015/master/README.md
   url: https://raw.githubusercontent.com/cryptovillage/badge2015/master/README.md
   kind: website
+  archived: https://web.archive.org/web/20260907111701/https://raw.githubusercontent.com/cryptovillage/badge2015/master/README.md
 - label: raw.githubusercontent.com/cryptovillage/badge2015/master/docs/DC23CPV%20Badge%20No%20Flags.pdf
   url: https://raw.githubusercontent.com/cryptovillage/badge2015/master/docs/DC23CPV%20Badge%20No%20Flags.pdf
   kind: website
+  archived: https://web.archive.org/web/20260907111717/https://raw.githubusercontent.com/cryptovillage/badge2015/master/docs/DC23CPV%20Badge%20No%20Flags.pdf
 - label: raw.githubusercontent.com/cryptovillage/badge2015/master/hw/schematic.pdf
   url: https://raw.githubusercontent.com/cryptovillage/badge2015/master/hw/schematic.pdf
   kind: website
+  archived: https://web.archive.org/web/20260907111824/https://raw.githubusercontent.com/cryptovillage/badge2015/master/hw/schematic.pdf
 images: []
 contact: {}
 notes: []
@@ -59,6 +63,7 @@ sources:
   title: 'GitHub - cryptovillage/badge2015: Hardware, firmware, and documentation for the 2015 Crypto and Privacy Village Badge'
   accessed: '2026-09-06'
   note: Found via the project's link list; intake pass identified this item here.
+  archived: https://web.archive.org/web/20260907111628/https://github.com/cryptovillage/badge2015
 research:
   status: stub
   confidence: low

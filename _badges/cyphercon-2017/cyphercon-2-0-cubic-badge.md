@@ -39,6 +39,7 @@ links:
 - label: hackaday.com/2017/04/09/the-cubic-cyphercon-badge
   url: https://hackaday.com/2017/04/09/the-cubic-cyphercon-badge/
   kind: article
+  archived: https://web.archive.org/web/20260418165945/https://hackaday.com/2017/04/09/the-cubic-cyphercon-badge/
 images: []
 contact: {}
 notes:
@@ -50,6 +51,7 @@ sources:
   title: Cyphercon 2.0 Cubic Badge
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: bsides-regional (US regional hacker cons: BSides variants, ShmooCon, Thotcon, CypherCon, DerbyCon, CarolinaCon, GrrCON, ToorCon, HOPE, CactusCon, WWHF, Circle City Con, Layer8, Blue Team Con, ShellCon, NorthSec, Hackfest)); event read as ''CypherCon (Milwaukee, 2017)''.'
+  archived: https://web.archive.org/web/20260418165945/https://hackaday.com/2017/04/09/the-cubic-cyphercon-badge/
 research:
   status: stub
   confidence: low

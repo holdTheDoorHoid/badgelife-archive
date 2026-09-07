@@ -39,6 +39,7 @@ links:
 - label: github.com/blackandwhitehat/BSidesJAX_2023_Badge
   url: https://github.com/blackandwhitehat/BSidesJAX_2023_Badge
   kind: repo
+  archived: https://web.archive.org/web/20260907110102/https://github.com/blackandwhitehat/BSidesJAX_2023_Badge
 images: []
 contact: {}
 notes: []
@@ -49,6 +50,7 @@ sources:
   title: BSidesJAX_2023_Badge
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: github-topics); event read as ''BSides Jacksonville 2023''.'
+  archived: https://web.archive.org/web/20260907110102/https://github.com/blackandwhitehat/BSidesJAX_2023_Badge
 research:
   status: stub
   confidence: low

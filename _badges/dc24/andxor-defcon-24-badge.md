@@ -40,9 +40,11 @@ links:
 - label: hackaday.io/project/9064-andxor-defcon-24-badge
   url: https://hackaday.io/project/9064-andxor-defcon-24-badge
   kind: hackaday
+  archived: https://web.archive.org/web/20250911173920/https://hackaday.io/project/9064-andxor-defcon-24-badge/
 - label: github.com/ANDnXOR/ANDnXOR_DC24_Badge
   url: https://github.com/ANDnXOR/ANDnXOR_DC24_Badge
   kind: repo
+  archived: https://web.archive.org/web/20260907111848/https://github.com/ANDnXOR/ANDnXOR_DC24_Badge
 images: []
 contact: {}
 notes: []
@@ -53,6 +55,7 @@ sources:
   title: AND!XOR DEFCON 24 Badge
   accessed: '2026-09-06'
   note: Found via the project's link list; intake pass identified this item here.
+  archived: https://web.archive.org/web/20250911173920/https://hackaday.io/project/9064-andxor-defcon-24-badge/
 research:
   status: stub
   confidence: low

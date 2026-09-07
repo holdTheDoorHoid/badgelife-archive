@@ -38,6 +38,7 @@ links:
 - label: hackaday.io/project/25878-bb01-dc25-tribbletribb01-badge
   url: https://hackaday.io/project/25878-bb01-dc25-tribbletribb01-badge
   kind: hackaday
+  archived: https://web.archive.org/web/20251212042715/https://hackaday.io/project/25878-bb01-dc25-tribbletribb01-badge
 images: []
 contact: {}
 notes: []
@@ -48,6 +49,7 @@ sources:
   title: BB01 - DC25 Tribble/TriBB01 Badge
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: hackaday-search); event read as ''DEF CON 25''.'
+  archived: https://web.archive.org/web/20251212042715/https://hackaday.io/project/25878-bb01-dc25-tribbletribb01-badge
 research:
   status: stub
   confidence: low

@@ -39,6 +39,7 @@ links:
 - label: hackaday.com/2017/01/08/hackaday-links-january-8-2017
   url: https://hackaday.com/2017/01/08/hackaday-links-january-8-2017/
   kind: article
+  archived: https://web.archive.org/web/20260215080223/https://hackaday.com/2017/01/08/hackaday-links-january-8-2017/
 images: []
 contact: {}
 notes:
@@ -50,6 +51,7 @@ sources:
   title: DEF CON 25 Badge (2017)
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: official-badges); event read as ''DEF CON 25''.'
+  archived: https://web.archive.org/web/20260215080223/https://hackaday.com/2017/01/08/hackaday-links-january-8-2017/
 research:
   status: stub
   confidence: low

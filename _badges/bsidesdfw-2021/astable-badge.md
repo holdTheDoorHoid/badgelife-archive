@@ -39,6 +39,7 @@ links:
 - label: astablebadge.altbier.us
   url: https://astablebadge.altbier.us/
   kind: website
+  archived: https://web.archive.org/web/20260907110511/https://astablebadge.altbier.us/
 images: []
 contact: {}
 notes:
@@ -50,6 +51,7 @@ sources:
   title: Astable Badge
   accessed: '2026-09-07'
   note: 'Found by the archive''s discovery sweep (angle: sheet-research-spotted); event read as ''BSidesDFW 2021''.'
+  archived: https://web.archive.org/web/20260907110511/https://astablebadge.altbier.us/
 research:
   status: stub
   confidence: low

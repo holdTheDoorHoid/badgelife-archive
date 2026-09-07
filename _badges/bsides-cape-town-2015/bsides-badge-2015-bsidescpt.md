@@ -39,6 +39,7 @@ links:
 - label: github.com/dodgymike/bsides-badge-2015
   url: https://github.com/dodgymike/bsides-badge-2015
   kind: repo
+  archived: https://web.archive.org/web/20260907110030/https://github.com/dodgymike/bsides-badge-2015
 images: []
 contact: {}
 notes: []
@@ -49,6 +50,7 @@ sources:
   title: bsides-badge-2015 (BSidesCPT)
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: github-topics); event read as ''BSides Cape Town 2015''.'
+  archived: https://web.archive.org/web/20260907110030/https://github.com/dodgymike/bsides-badge-2015
 research:
   status: stub
   confidence: low

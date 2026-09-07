@@ -40,9 +40,11 @@ links:
 - label: github.com/timonsku/Numberwang-Badge
   url: https://github.com/timonsku/Numberwang-Badge
   kind: repo
+  archived: https://web.archive.org/web/20260907111136/https://github.com/timonsku/Numberwang-Badge
 - label: hackaday.io/project/167356-numberwang-badge
   url: https://hackaday.io/project/167356-numberwang-badge
   kind: hackaday
+  archived: https://web.archive.org/web/20260907111101/https://hackaday.io/project/167356-numberwang-badge
 - label: twitter.com/i/status/1162331672601403394
   url: https://twitter.com/i/status/1162331672601403394
   kind: social
@@ -56,6 +58,7 @@ sources:
   title: Numberwang Badge
   accessed: '2026-09-06'
   note: Found via the project's link list; intake pass identified this item here.
+  archived: https://web.archive.org/web/20260907111136/https://github.com/timonsku/Numberwang-Badge
 research:
   status: stub
   confidence: low

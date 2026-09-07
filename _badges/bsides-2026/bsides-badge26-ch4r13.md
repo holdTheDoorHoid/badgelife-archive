@@ -39,6 +39,7 @@ links:
 - label: github.com/ch4r13/BSides-Badge26
   url: https://github.com/ch4r13/BSides-Badge26
   kind: repo
+  archived: https://web.archive.org/web/20260907105908/https://github.com/ch4r13/BSides-Badge26
 images: []
 contact: {}
 notes: []
@@ -49,6 +50,7 @@ sources:
   title: BSides-Badge26 (ch4r13)
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: github-topics); event read as ''BSides 2026''.'
+  archived: https://web.archive.org/web/20260907105908/https://github.com/ch4r13/BSides-Badge26
 research:
   status: stub
   confidence: low

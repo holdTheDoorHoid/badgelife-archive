@@ -39,22 +39,33 @@ links:
 - label: forum.defcon.org/node/255995
   url: https://forum.defcon.org/node/255995
   kind: social
+- label: Uberflux.com
+  url: https://uberflux.com
+  kind: store
 images: []
 contact: {}
 notes:
-- Not a single badge — a new marketplace site announced in Badge Creators forum; listed in coverage_notes as a community resource rather than an item
-status: listed
+- Not a single badge — a new marketplace site announced in the Badge Creators forum; listed in coverage_notes as a community resource rather than an item
+status: not_an_item
 sources:
 - kind: url
   url: https://forum.defcon.org/node/255995
-  title: Uberflux.com Badge Marketplace
-  accessed: '2026-09-06'
-  note: 'Found by the archive''s discovery sweep (angle: forums-reddit); event read as ''DEF CON 33''.'
+  title: New Badge Marketplace (uberflux.com) - DEF CON Forums
+  accessed: '2026-09-07'
+  note: 'DEF CON forum post announcing the site: "Looking for badges? Be sure and check out https://uberflux.com for a bunch of cool badges and SAOs!" Not a description of a specific badge.'
+- kind: url
+  url: https://uberflux.com
+  title: Uberflux
+  accessed: '2026-09-07'
+  note: 'Site self-describes as "a storefront built for the #BadgeLife community" — a general marketplace listing badges/SAOs from multiple makers, not itself a badge or SAO.'
 research:
-  status: stub
-  confidence: low
-  last_checked: '2026-09-06'
-  notes: Imported from the community badge sheet; not yet researched.
-last_modified_date: '2026-09-06'
+  status: researched
+  confidence: high
+  last_checked: '2026-09-07'
+  notes: Confirmed this is a marketplace/storefront website (Uberflux.com), not a specific badge or SAO. The forum post is an announcement of the site, and the site itself describes itself as a storefront for the badgelife community selling items from various makers. No single item to catalog here.
+last_modified_date: '2026-09-07'
 ---
 
+[Uberflux.com](https://uberflux.com) is a storefront website built for the #BadgeLife community, announced via a September 2025 post on the DEF CON forums ("New Badge Marketplace (uberflux.com)"). It is not itself a badge or SAO but a marketplace aggregating listings from multiple badge and SAO makers.
+
+Because this entry describes a marketplace rather than a specific piece of hardware, no maker, chip, or pricing details apply. Individual badges and SAOs sold through the site would need their own entries if identified.

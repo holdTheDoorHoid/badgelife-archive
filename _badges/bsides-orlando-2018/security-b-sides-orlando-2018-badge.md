@@ -38,6 +38,7 @@ links:
 - label: hackaday.io/project/160630-security-b-sides-orlando-2018-badge
   url: https://hackaday.io/project/160630-security-b-sides-orlando-2018-badge
   kind: hackaday
+  archived: https://web.archive.org/web/20260907110153/https://hackaday.io/project/160630-security-b-sides-orlando-2018-badge
 images: []
 contact: {}
 notes: []
@@ -48,6 +49,7 @@ sources:
   title: Security B-Sides Orlando 2018 Badge
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: hackaday-search); event read as ''BSides Orlando 2018''.'
+  archived: https://web.archive.org/web/20260907110153/https://hackaday.io/project/160630-security-b-sides-orlando-2018-badge
 research:
   status: stub
   confidence: low

@@ -40,12 +40,14 @@ links:
 - label: hackaday.io/project/178378-carolina-con-online-badge
   url: https://hackaday.io/project/178378-carolina-con-online-badge
   kind: hackaday
+  archived: https://web.archive.org/web/20260907110632/https://hackaday.io/project/178378-carolina-con-online-badge
 - label: www.ebay.com/itm/313466298666
   url: https://www.ebay.com/itm/313466298666
   kind: website
 - label: carolinacon.org
   url: https://carolinacon.org/
   kind: website
+  archived: https://web.archive.org/web/20260904100156/http://carolinacon.org/
 images: []
 contact: {}
 notes: []
@@ -56,6 +58,7 @@ sources:
   title: Carolina Con Online Badge
   accessed: '2026-09-06'
   note: Found via the project's link list; intake pass identified this item here.
+  archived: https://web.archive.org/web/20260907110632/https://hackaday.io/project/178378-carolina-con-online-badge
 research:
   status: stub
   confidence: low

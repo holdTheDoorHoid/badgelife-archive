@@ -39,9 +39,11 @@ links:
 - label: hackaday.com/2019/04/12/cyphercon-badge-has-a-paper-tape-reader-built-in
   url: https://hackaday.com/2019/04/12/cyphercon-badge-has-a-paper-tape-reader-built-in/
   kind: article
+  archived: https://web.archive.org/web/20260607082900/https://hackaday.com/2019/04/12/cyphercon-badge-has-a-paper-tape-reader-built-in/
 - label: hackaday.com/2019/04/28/emulate-a-paper-tape-to-be-life-and-soul-of-the-cyphercon-party
   url: https://hackaday.com/2019/04/28/emulate-a-paper-tape-to-be-life-and-soul-of-the-cyphercon-party/
   kind: article
+  archived: https://web.archive.org/web/20260411171825/https://hackaday.com/2019/04/28/emulate-a-paper-tape-to-be-life-and-soul-of-the-cyphercon-party/
 images: []
 contact: {}
 notes:
@@ -53,6 +55,7 @@ sources:
   title: CypherCon Badge with Paper Tape Reader
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: bsides-regional (US regional hacker cons: BSides variants, ShmooCon, Thotcon, CypherCon, DerbyCon, CarolinaCon, GrrCON, ToorCon, HOPE, CactusCon, WWHF, Circle City Con, Layer8, Blue Team Con, ShellCon, NorthSec, Hackfest)); event read as ''CypherCon (Milwaukee, 2019)''.'
+  archived: https://web.archive.org/web/20260607082900/https://hackaday.com/2019/04/12/cyphercon-badge-has-a-paper-tape-reader-built-in/
 research:
   status: stub
   confidence: low

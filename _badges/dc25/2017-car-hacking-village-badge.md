@@ -39,6 +39,7 @@ links:
 - label: github.com/CanBusHack/2017carhackingvillagebadge
   url: https://github.com/CanBusHack/2017carhackingvillagebadge
   kind: repo
+  archived: https://web.archive.org/web/20260907112246/https://github.com/CanBusHack/2017carhackingvillagebadge
 images: []
 contact: {}
 notes:
@@ -50,6 +51,7 @@ sources:
   title: 2017 Car Hacking Village Badge
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: villages-early: DEF CON village and DC-group badges, DEF CON 24-29 (2016-2021)); event read as ''DEF CON 25 (2017)''.'
+  archived: https://web.archive.org/web/20260907112246/https://github.com/CanBusHack/2017carhackingvillagebadge
 research:
   status: stub
   confidence: low

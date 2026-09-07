@@ -5,54 +5,84 @@ layout: badge
 parent: DC32
 grand_parent: Badge Archive
 nav_exclude: true
-type: badge
+type: sao
 event: dc32
 year: 2024
-makers: []
-summary: ''
-functions: ''
+makers:
+- name: Oakmizer
+  url: https://hackaday.io/oakmizer
+summary: A ~45mm SAO with an AI-generated cyclops character rendered in JLCPCB multicolor silkscreen, built to compare how backlit LEDs diffuse through the PCB from two different mounting layouts.
+functions: 'No interactivity beyond lighting; the badge exists to compare LED diffusion through the PCB in two variants: bottom-facing LEDs and side-facing LEDs.'
 look:
-  colors: []
+  colors:
+  - purple
   shape: null
-  themes: []
+  themes:
+  - sci-fi
 tech:
-  mcu: null
-  leds: null
-  display: null
+  mcu: none
+  leds:
+    count: 4
+    type: discrete
+    note: 2 red and 2 amber SMD LEDs (Inolux and Wurth Elektronik), lit through the PCB from the backside; a 10-ohm resistor is used.
+  display: none
   connectivity: []
-  battery: null
-  sao_version: null
+  battery: powered by host badge
+  sao_version: v1
 get_one:
   price: ''
   price_usd: null
-  quantity: ''
+  quantity: 'two small batches (exact count not stated)'
   availability: unknown
   distribution: []
   where: ''
 make_your_own:
-  open_source: null
-  hardware_url: null
+  open_source: partial
+  hardware_url: https://hackaday.io/project/197216-purple-cyclops
   firmware_url: null
-  eda_tool: null
+  eda_tool: EasyEDA
 links:
 - label: hackaday.io/project/197216-purple-cyclops
   url: https://hackaday.io/project/197216-purple-cyclops
   kind: hackaday
-images: []
+images:
+  - file: assets/images/badges/dc32/purple-cyclops/3736986300.jpg
+    source: "https://hackaday.io/project/197216-purple-cyclops"
+    credit: "Oakmizer"
+    caption: "Purple Cyclops SAO, side-view LED variant"
+  - file: assets/images/badges/dc32/purple-cyclops/1ade8b5775.jpg
+    source: "https://hackaday.io/project/197216-purple-cyclops"
+    credit: "Oakmizer"
+    caption: "Purple Cyclops SAO, bottom-view LED variant"
 contact: {}
-notes: []
-status: listed
+notes:
+- 'Gerber files for both LED variants are linked from the Hackaday.io project page, in EasyEDA format; no separate firmware exists since the board has no MCU.'
+status: released
 sources:
 - kind: url
   url: https://hackaday.io/project/197216-purple-cyclops
   title: Purple Cyclops
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: hackaday-search); event read as ''DEF CON 32''.'
+- kind: url
+  url: https://hackaday.io/project/197216-purple-cyclops
+  title: Purple Cyclops
+  accessed: '2026-09-07'
+  note: 'Fetched project page for full write-up: maker (Oakmizer), event/year (DEF CON 32, 2024), components (JLCPCB multicolor silkscreen, 4 SMD LEDs, 10-ohm resistor, SMT 2x3 SAO header), two LED-layout variants, Gerber/EasyEDA files, and a noted polarity bug on the side-view variant.'
 research:
-  status: stub
-  confidence: low
-  last_checked: '2026-09-06'
-  notes: Imported from the community badge sheet; not yet researched.
-last_modified_date: '2026-09-06'
+  status: researched
+  confidence: medium
+  last_checked: '2026-09-07'
+  notes: 'Price, quantity made, and distribution/availability are not stated on the project page. No storefront or additional press coverage was found; the Hackaday.io project page is the only source.'
+last_modified_date: '2026-09-07'
 ---
 
+The Purple Cyclops is a Simple Add-On (SAO) made by Oakmizer for DEF CON 32 (2024). At about 45mm, it uses JLCPCB's multicolor silkscreen process to render an AI-generated cyclops character directly on the board, with four SMD LEDs (two red, two amber) lighting the design from behind through the PCB substrate.
+
+The project was explicitly an experiment in light diffusion: two small batches were made, one with LEDs facing the bottom of the board and one with LEDs facing the side (the side-facing variant was later improved with hot glue to spread the light more evenly). The side-view board has a documented LED polarity bug that builders need to check before assembly. The badge has no microcontroller — it's a passive, always-lit add-on powered through its SAO connector — so there is no firmware to speak of.
+
+Gerber files for both variants, designed in EasyEDA, are linked from the Hackaday.io project page. No pricing, production quantity, or distribution details (sale, giveaway, etc.) are given, and no storefront listing or other coverage of the badge was found.
+
+## Make your own
+
+Gerbers for both the bottom-view and side-view LED layouts are available on the [Hackaday.io project page](https://hackaday.io/project/197216-purple-cyclops), ready to send to a fab that supports JLCPCB-style multicolor silkscreen. Builders should double-check LED polarity on the side-view variant before soldering, per the maker's own note.

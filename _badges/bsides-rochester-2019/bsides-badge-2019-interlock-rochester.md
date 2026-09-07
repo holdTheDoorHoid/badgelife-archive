@@ -39,6 +39,7 @@ links:
 - label: github.com/Interlock-Rochester/BSides_badge_2019
   url: https://github.com/Interlock-Rochester/BSides_badge_2019
   kind: repo
+  archived: https://web.archive.org/web/20260907110407/https://github.com/Interlock-Rochester/BSides_badge_2019
 images: []
 contact: {}
 notes: []
@@ -49,6 +50,7 @@ sources:
   title: BSides_badge_2019 (Interlock Rochester)
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: github-topics); event read as ''BSides Rochester 2019''.'
+  archived: https://web.archive.org/web/20260907110407/https://github.com/Interlock-Rochester/BSides_badge_2019
 research:
   status: stub
   confidence: low

@@ -39,6 +39,7 @@ links:
 - label: github.com/lanrat/CHVBadge_16
   url: https://github.com/lanrat/CHVBadge_16
   kind: repo
+  archived: https://web.archive.org/web/20260907112022/https://github.com/lanrat/CHVBadge_16
 images: []
 contact: {}
 notes:
@@ -50,6 +51,7 @@ sources:
   title: CHV Badge 2016 (CHVBadge_16)
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: villages-early: DEF CON village and DC-group badges, DEF CON 24-29 (2016-2021)); event read as ''DEF CON 24 (2016), Car Hacking Village''.'
+  archived: https://web.archive.org/web/20260907112022/https://github.com/lanrat/CHVBadge_16
 research:
   status: stub
   confidence: low

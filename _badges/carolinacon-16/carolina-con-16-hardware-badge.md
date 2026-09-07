@@ -40,12 +40,15 @@ links:
 - label: hackaday.io/project/169988-carolina-con-16-hardware-badge
   url: https://hackaday.io/project/169988-carolina-con-16-hardware-badge
   kind: hackaday
+  archived: https://web.archive.org/web/20260410194223/https://hackaday.io/project/169988-carolina-con-16-hardware-badge
 - label: hackaday.io/project/169988/gallery
   url: https://hackaday.io/project/169988/gallery
   kind: hackaday
+  archived: https://web.archive.org/web/20260907110558/https://hackaday.io/project/169988/gallery#57e91a657ca1ed56c844138941bc4468
 - label: carolinacon.org
   url: https://carolinacon.org
   kind: website
+  archived: https://web.archive.org/web/20260904100156/http://carolinacon.org/
 images: []
 contact: {}
 notes: []
@@ -56,6 +59,7 @@ sources:
   title: Carolina Con 16 Hardware Badge
   accessed: '2026-09-06'
   note: Found via the project's link list; intake pass identified this item here.
+  archived: https://web.archive.org/web/20260410194223/https://hackaday.io/project/169988-carolina-con-16-hardware-badge
 research:
   status: stub
   confidence: low
