@@ -12,7 +12,7 @@ makers:
 - name: Corey Benn
   url: https://hackaday.io/hacker/220082-corey-benn
 summary: A DEF CON 27 "WeBadge" built around an ATSAMD21G18A running CircuitPython 4.0 that acts as a Shitty Add-On totem, hosting up to four SAO v1.69bis add-ons with I2C and GPIO on each connector, per-connector power control and PWM from Python, twelve bottom-entry LEDs, solder jumpers for always-on power and I2C pull-ups, and AA battery power through a Pololu 3.3V step-up regulator.
-functions: "Hosts and powers up to four SAO add-ons at once; each of the four connectors gets its own I2C bus access, GPIO, and independently switchable power (including PWM dimming/pulsing of add-on power via CircuitPython's PulseIO) so a wearer can display a stack of SAO bling from one badge without needing a host badge."
+functions: Hosts and powers up to four SAO add-ons at once; each of the four connectors gets its own I2C bus access, GPIO, and independently switchable power (including PWM dimming/pulsing of add-on power via CircuitPython's PulseIO) so a wearer can display a stack of SAO bling from one badge without needing a host badge.
 look:
   colors: []
   shape: null
@@ -50,15 +50,18 @@ links:
 - label: hackaday.io/project/166397-a-dc27-circuitpython-shitty-add-on-v169bis-totem
   url: https://hackaday.io/project/166397-a-dc27-circuitpython-shitty-add-on-v169bis-totem
   kind: hackaday
+  archived: https://web.archive.org/web/20260213195949/https://hackaday.io/project/166397-a-dc27-circuitpython-shitty-add-on-v169bis-totem
 images:
 - file: assets/images/badges/dc27/dc27-circuitpython-shitty-add-on-v169bis-totem/07c672d2c7.jpg
-  source: "https://hackaday.io/project/166397-a-dc27-circuitpython-shitty-add-on-v169bis-totem"
-  credit: "Corey Benn"
-  caption: "The DC27 CircuitPython Shitty Add-On V1.69BIS Totem board"
+  source: https://hackaday.io/project/166397-a-dc27-circuitpython-shitty-add-on-v169bis-totem
+  credit: Corey Benn
+  caption: The DC27 CircuitPython Shitty Add-On V1.69BIS Totem board
+  archived: https://web.archive.org/web/20260213195949/https://hackaday.io/project/166397-a-dc27-circuitpython-shitty-add-on-v169bis-totem
 - file: assets/images/badges/dc27/dc27-circuitpython-shitty-add-on-v169bis-totem/c1a346bf1b.jpg
-  source: "https://hackaday.io/project/166397-a-dc27-circuitpython-shitty-add-on-v169bis-totem"
-  credit: "Corey Benn"
-  caption: "Assembled totem board with LEDs and SAO connectors"
+  source: https://hackaday.io/project/166397-a-dc27-circuitpython-shitty-add-on-v169bis-totem
+  credit: Corey Benn
+  caption: Assembled totem board with LEDs and SAO connectors
+  archived: https://web.archive.org/web/20260213195949/https://hackaday.io/project/166397-a-dc27-circuitpython-shitty-add-on-v169bis-totem
 contact: {}
 notes: []
 status: released
@@ -68,21 +71,24 @@ sources:
   title: A DC27 CircuitPython Shitty Add-On V1.69BIS Totem
   accessed: '2026-09-06'
   note: Found via the project's link list; intake pass identified this item here.
+  archived: https://web.archive.org/web/20260213195949/https://hackaday.io/project/166397-a-dc27-circuitpython-shitty-add-on-v169bis-totem
 - kind: url
   url: https://hackaday.io/project/166397-a-dc27-circuitpython-shitty-add-on-v169bis-totem
   title: A DC27 CircuitPython Shitty Add-On V1.69BIS Totem (project page and logs)
   accessed: '2026-09-07'
-  note: "Confirmed maker, event/year, MCU, LED count/part, SAO connector count, power design, and quantity (~100 built for DC27); source of both saved photos."
+  note: Confirmed maker, event/year, MCU, LED count/part, SAO connector count, power design, and quantity (~100 built for DC27); source of both saved photos.
+  archived: https://web.archive.org/web/20260213195949/https://hackaday.io/project/166397-a-dc27-circuitpython-shitty-add-on-v169bis-totem
 - kind: url
   url: https://oshpark.com/shared_projects/uYwa5w3S
-  title: "DEFCON 26 Shitty Add-On Totem (OSH Park shared project)"
+  title: DEFCON 26 Shitty Add-On Totem (OSH Park shared project)
   accessed: '2026-09-07'
-  note: "Found while searching for design-file shares; this is a different, unrelated DEFCON 26 board by a different maker (Benchoff), not a fab share for this DC27 project. Checked and ruled out."
+  note: Found while searching for design-file shares; this is a different, unrelated DEFCON 26 board by a different maker (Benchoff), not a fab share for this DC27 project. Checked and ruled out.
+  archived: https://web.archive.org/web/20260421200800/https://oshpark.com/shared_projects/uYwa5w3S
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: "Core facts (maker, event/year, MCU, LED part/count, four SAO v1.69bis connectors with per-connector I2C/GPIO/power, AA + Pololu step-up power, CircuitPython 4.0) come from the maker's own Hackaday.io project page and logs. The project page mentions KiCad footprints for the LEDs but no complete published hardware/firmware repo was found, so make_your_own is marked partial rather than yes; hardware_url/firmware_url left empty. Price is not stated anywhere found; it was a free DEF CON handout so get_one.price is left blank rather than guessed. No separate storefront, video, or press coverage was located in the search budget."
+  notes: Core facts (maker, event/year, MCU, LED part/count, four SAO v1.69bis connectors with per-connector I2C/GPIO/power, AA + Pololu step-up power, CircuitPython 4.0) come from the maker's own Hackaday.io project page and logs. The project page mentions KiCad footprints for the LEDs but no complete published hardware/firmware repo was found, so make_your_own is marked partial rather than yes; hardware_url/firmware_url left empty. Price is not stated anywhere found; it was a free DEF CON handout so get_one.price is left blank rather than guessed. No separate storefront, video, or press coverage was located in the search budget.
 last_modified_date: '2026-09-07'
 ---
 

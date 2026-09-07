@@ -15,11 +15,15 @@ makers:
   url: https://hackaday.io/hacker/308303-twinkletwinkie
   role: firmware collaborator
 summary: Chestoro is Twinkle Twinkie's third SAO of the DEF CON 27 badgelife season, a mashup of the Cheshire Cat and Totoro, built with seven side-view LEDs driven by a PIC16F1503 and made in collaboration with Wire of the Tymkrs.
-functions: 'Green eyes and a white mouth glow in animated patterns driven by the onboard MCU; a mode-select button toggles between animations, which after a short while begin rotating randomly.'
+functions: Green eyes and a white mouth glow in animated patterns driven by the onboard MCU; a mode-select button toggles between animations, which after a short while begin rotating randomly.
 look:
-  colors: [purple]
+  colors:
+  - purple
   shape: cat
-  themes: [cat, animal, movie]
+  themes:
+  - cat
+  - animal
+  - movie
 tech:
   mcu: PIC16F1503
   leds:
@@ -36,7 +40,8 @@ get_one:
   quantity: ''
   availability: sold_out
   availability_note: 'Tindie listing checked 2026-09-07: "This product is no longer available for sale."'
-  distribution: [purchase]
+  distribution:
+  - purchase
   where: Sold via TwinkleTwinkie's Tindie storefront; now retired/out of stock.
 make_your_own:
   open_source: null
@@ -50,15 +55,17 @@ links:
 - label: Tindie - TwinkleTwinkie's "Chestoro" Badge SAO
   url: https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-chestoro-badge-sao/
   kind: store
+  archived: https://web.archive.org/web/20260519051624/https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-chestoro-badge-sao/
 images:
-  - file: assets/images/badges/dc27/dc27-chestoro-sao/38fe366918.jpg
-    source: "https://hackaday.io/project/165323-chestoro-dc27-sao"
-    credit: "TwinkleTwinkie"
-    caption: "Chestoro SAO, front view showing the Cheshire Cat/Totoro mashup face"
-  - file: assets/images/badges/dc27/dc27-chestoro-sao/5296466420.jpg
-    source: "https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-chestoro-badge-sao/"
-    credit: "TwinkleTwinkie"
-    caption: "Chestoro SAO product photo from the Tindie listing"
+- file: assets/images/badges/dc27/dc27-chestoro-sao/38fe366918.jpg
+  source: https://hackaday.io/project/165323-chestoro-dc27-sao
+  credit: TwinkleTwinkie
+  caption: Chestoro SAO, front view showing the Cheshire Cat/Totoro mashup face
+- file: assets/images/badges/dc27/dc27-chestoro-sao/5296466420.jpg
+  source: https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-chestoro-badge-sao/
+  credit: TwinkleTwinkie
+  caption: Chestoro SAO product photo from the Tindie listing
+  archived: https://web.archive.org/web/20260519051624/https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-chestoro-badge-sao/
 contact: {}
 notes: []
 status: released
@@ -78,6 +85,7 @@ sources:
   title: TwinkleTwinkie's "Chestoro" Badge SAO - Tindie
   accessed: '2026-09-07'
   note: Confirmed it was sold via Tindie and is now retired/sold out; no price or quantity given on the current page.
+  archived: https://web.archive.org/web/20260519051624/https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-chestoro-badge-sao/
 research:
   status: researched
   confidence: high

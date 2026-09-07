@@ -12,7 +12,7 @@ makers:
 - name: AND!XOR
   url: https://github.com/ANDnXOR
 summary: A simple I2C EEPROM SAO (AT24-family chip at address 0x50) that AND!XOR published for DEF CON 27 as the reference for their proposed EEPROM data format of DC year, maker ID, SAO type ID, then arbitrary data.
-functions: 'Lets a badge with I2C detect the SAO on the bus and read a small standardized header (DC year, maker ID, SAO type ID) followed by arbitrary data, so other makers'' SAOs can be recognized and reacted to automatically.'
+functions: Lets a badge with I2C detect the SAO on the bus and read a small standardized header (DC year, maker ID, SAO type ID) followed by arbitrary data, so other makers' SAOs can be recognized and reacted to automatically.
 look:
   colors: []
   shape: null
@@ -33,7 +33,7 @@ get_one:
   quantity: ''
   availability: unknown
   distribution: []
-  where: 'Not sold; published as an open reference design on GitHub for other badgelife makers to fabricate or adapt.'
+  where: Not sold; published as an open reference design on GitHub for other badgelife makers to fabricate or adapt.
 make_your_own:
   open_source: partial
   hardware_url: https://github.com/zapp1337/sao-reference-designs/tree/master/DC27/DC619-EEPROM_sao1.69bis
@@ -49,6 +49,7 @@ links:
 - label: AND!XOR DC27 Badge (Hackaday.io project)
   url: https://hackaday.io/project/164346-andxor-dc27-badge
   kind: hackaday
+  archived: https://web.archive.org/web/20260517132807/https://hackaday.io/project/164346-andxor-dc27-badge
 images: []
 contact: {}
 notes: []
@@ -63,12 +64,13 @@ sources:
   url: https://github.com/zapp1337/sao-reference-designs/tree/master/DC27/DC619-EEPROM_sao1.69bis
   title: 'zapp1337/sao-reference-designs: DC27/DC619-EEPROM_sao1.69bis'
   accessed: '2026-09-07'
-  note: 'README confirms chip (AT24C02N in this fork''s copy), I2C address 0x50 with address pins pulled low, and that the AND!XOR badge can only address the first 256 bytes; folder contains only a schematic image (dc619-eeprom-schematic.png), no assembled-board photo.'
+  note: README confirms chip (AT24C02N in this fork's copy), I2C address 0x50 with address pins pulled low, and that the AND!XOR badge can only address the first 256 bytes; folder contains only a schematic image (dc619-eeprom-schematic.png), no assembled-board photo.
 - kind: url
   url: https://hackaday.io/project/164346-andxor-dc27-badge
   title: AND!XOR DC27 Badge | Hackaday.io
   accessed: '2026-09-07'
-  note: 'Confirms the DC27 badge''s SAO v1.69bis standard, the EEPROM reference design based on AT24C32 at 7-bit address 0x50, and the DC Year/Maker ID/SAO Type ID/Data header format (DC27 = 0x1B, AND!XOR maker ID = 0x49).'
+  note: Confirms the DC27 badge's SAO v1.69bis standard, the EEPROM reference design based on AT24C32 at 7-bit address 0x50, and the DC Year/Maker ID/SAO Type ID/Data header format (DC27 = 0x1B, AND!XOR maker ID = 0x49).
+  archived: https://web.archive.org/web/20260517132807/https://hackaday.io/project/164346-andxor-dc27-badge
 research:
   status: researched
   confidence: medium

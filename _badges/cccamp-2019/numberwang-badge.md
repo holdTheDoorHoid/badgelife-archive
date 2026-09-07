@@ -11,30 +11,42 @@ year: 2019
 makers:
 - name: timonsku
   url: https://github.com/timonsku
-summary: A last-minute ATSAMD21G18 (Itsy Bitsy M0-compatible) badge with DotStar LEDs, an I2S audio amp and a LiPo charger, made for the Numberwang village at CCCamp19 and handed out as unpopulated PCBs with CircuitPython firmware that plays Numberwang sound clips and blinkies.
-functions: ''
+summary: A last-minute ATSAMD21G18 (Itsy Bitsy M0-compatible) badge with a MAX98357A I2S audio amp and a LiPo charger, made for the Numberwang village at CCCamp19 and handed out as unpopulated PCBs with CircuitPython firmware that plays Numberwang sound clips.
+functions: Plays audio clips through the onboard I2S amplifier and lights two status LEDs, letting the wearer "pretend to play Numberwang" (a running joke from the British comedy sketch of the same name) at the village built around it.
 look:
-  colors: []
-  shape: null
-  themes: []
+  colors:
+  - black
+  shape: rectangle
+  themes:
+  - meme
+  - tv
+  - text
+  - village badge
 tech:
-  mcu: null
-  leds: null
-  display: null
-  connectivity: []
-  battery: null
-  sao_version: null
+  mcu: ATSAMD21G18
+  leds:
+    count: 2
+    type: discrete
+    note: 'One orange charge-status LED (CHG1) and one red status LED (L1), both 0805; the released BOM lists no addressable LEDs.'
+  display: none
+  connectivity:
+  - audio
+  - usb
+  battery: LiPo, JST-PH 2.0 SMT right-angle connector (reversed polarity vs. Adafruit's convention)
+  sao_version: none
 get_one:
-  price: ''
+  price: free
   price_usd: null
   quantity: ''
-  availability: unknown
-  distribution: []
-  where: ''
+  availability: free
+  distribution:
+  - free_drop
+  - village
+  where: Handed out by the maker as unpopulated PCBs to attendees interested in the Numberwang village at CCCamp19; recipients self-assembled the board using the BOM and documentation on GitHub.
 make_your_own:
-  open_source: null
-  hardware_url: null
-  firmware_url: null
+  open_source: yes
+  hardware_url: https://github.com/timonsku/Numberwang-Badge
+  firmware_url: https://github.com/timonsku/Numberwang-Badge
   eda_tool: null
 links:
 - label: github.com/timonsku/Numberwang-Badge
@@ -48,10 +60,18 @@ links:
 - label: twitter.com/i/status/1162331672601403394
   url: https://twitter.com/i/status/1162331672601403394
   kind: social
-images: []
+images:
+- file: assets/images/badges/cccamp-2019/numberwang-badge/00ca752b29.jpg
+  source: "https://hackaday.io/project/167356-numberwang-badge"
+  credit: "timonsku"
+  caption: "The Numberwang Badge, lit up and worn on a lanyard at CCCamp19"
+- file: assets/images/badges/cccamp-2019/numberwang-badge/b2b0d62de2.jpg
+  source: "https://github.com/timonsku/Numberwang-Badge"
+  credit: "timonsku"
+  caption: "The assembled board, showing the bodge wire needed to fix a design bug in the audio amp connection"
 contact: {}
 notes: []
-status: listed
+status: released
 sources:
 - kind: url
   url: https://github.com/timonsku/Numberwang-Badge
@@ -59,11 +79,28 @@ sources:
   accessed: '2026-09-06'
   note: Found via the project's link list; intake pass identified this item here.
   archived: https://web.archive.org/web/20260907111136/https://github.com/timonsku/Numberwang-Badge
+- kind: url
+  url: https://github.com/timonsku/Numberwang-Badge
+  title: "Numberwang-Badge repo: readme, BOM.csv, PCB/ (Eagle .sch/.brd), CPY/ (CircuitPython), bootloader and UF2 files"
+  accessed: '2026-09-07'
+  note: 'Confirms MCU (ATSAMD21G18), audio amp (MAX98357A I2S 3.2W mono amp), flash (Winbond W25Q16JVSSIQ), LiPo charging with reversed-polarity JST-PH 2.0, a known audio-circuit bug fixed with a bodge wire, and that the design is Adafruit Itsy Bitsy M0-compatible. BOM lists only two discrete 0805 LEDs (orange charge indicator, red status), not an addressable strip. Hardware is Eagle (.sch/.brd), not KiCad; no license file present.'
+- kind: url
+  url: https://hackaday.io/project/167356-numberwang-badge
+  title: Numberwang Badge - Hackaday.io
+  accessed: '2026-09-07'
+  note: 'Confirms it was made for the Numberwang village at CCCamp19, "does blinkies and sound," and that unpopulated PCBs were handed out directly by the maker to interested attendees. Project cover photo saved as an image.'
 research:
-  status: stub
-  confidence: low
-  last_checked: '2026-09-06'
-  notes: Imported from the community badge sheet; not yet researched.
-last_modified_date: '2026-09-06'
+  status: researched
+  confidence: medium
+  last_checked: '2026-09-07'
+  notes: 'Maker-published GitHub repo (BOM, schematics, firmware) confirms the core hardware facts. The board is Eagle-designed (.sch/.brd files), not KiCad, so eda_tool is left null rather than guessed. Quantity made and any price beyond "free" are not stated anywhere found. The Twitter/X status link (video demo) could not be fetched (HTTP 402 from x.com); left as an unreached social link. The BOM lists only two single-color discrete LEDs, which does not match a "DotStar LEDs" claim from the original community sheet import - that claim was dropped as unconfirmed. The Hackaday project cover photo shows the badge''s "numberwang" silkscreen text lit in a multicolor gradient; this may be a long-exposure/motion effect rather than evidence of addressable LEDs, since it is not supported by the BOM.'
+last_modified_date: '2026-09-07'
 ---
 
+The Numberwang Badge was a self-described "stupid last minute project" that maker timonsku (GitHub) put together for the Numberwang village at CCCamp19 in 2019 - a village built as a running gag around the fictional game "Numberwang" from the British sketch show *That Mitchell and Webb Look*. Rather than selling or raffling the board, timonsku handed out unpopulated PCBs directly to anyone at camp who was interested, with the expectation that recipients would source parts themselves (mostly from LCSC or Mouser) and solder the board by hand.
+
+Electrically, the badge is close to a clone of Adafruit's Itsy Bitsy M0, built around an ATSAMD21G18 microcontroller with the same pinout, plus an added LiPo charge circuit (using a JST-PH 2.0 connector wired with reversed polarity to match batteries the maker could actually buy in Germany). A MAX98357A I2S amplifier drives audio playback of Numberwang sound clips, and a Winbond W25Q16 SPI flash chip stores data alongside the SAMD21's own flash. The board shipped with a known bug - a mis-named signal left the amp's input floating - fixed with a single bodge wire that the maker documented with a reference photo. Two discrete 0805 LEDs (an orange charge indicator and a red status LED) round out the board's visual feedback; no addressable LED strip appears in the bill of materials, despite a multicolor lit-up "numberwang" effect visible in the project's cover photo.
+
+## Make your own
+
+Hardware (Eagle schematic and board files) and firmware are both published in the [GitHub repo](https://github.com/timonsku/Numberwang-Badge), along with a BOM, a UF2-format CircuitPython build, and the Itsy Bitsy M0 bootloader binary. Anyone building one from scratch would need to: fabricate the board from the Eagle files, populate it per the BOM (noting that some passives are listed redundantly in both 0603 and 0805 footprints - either size works), flash the bootloader via the SWD test pads (pogo pins or a pressed header work), then load the provided CircuitPython UF2, and apply the audio bodge-wire fix described in the readme and shown in the reference photo.

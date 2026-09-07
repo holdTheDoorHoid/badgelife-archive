@@ -12,11 +12,13 @@ makers:
 - name: AND!XOR
   url: https://github.com/ANDnXOR
 summary: A purely decorative AND!XOR SAO for DEF CON 27, themed on Bob Ross, that does nothing electrically except frame another SAO, with a zip-tie hole for mounting to a badge; Gerbers were shared on OSH Park for easy manufacturing.
-functions: 'None (purely decorative); frames another SAO plugged behind it'
+functions: None (purely decorative); frames another SAO plugged behind it
 look:
   colors: []
   shape: null
-  themes: [art, minimalist]
+  themes:
+  - art
+  - minimalist
 tech:
   mcu: none
   leds: null
@@ -50,15 +52,18 @@ links:
 - label: oshpark.com/shared_projects/z3rmx0di
   url: https://oshpark.com/shared_projects/z3rmx0di
   kind: fab
+  archived: https://web.archive.org/web/20260118222114/https://oshpark.com/shared_projects/z3rmx0di
 images:
-  - file: assets/images/badges/dc27/dc27-bob-ross-happy-trees-sao/b892df9b82.png
-    source: "https://oshpark.com/shared_projects/z3rmx0di"
-    credit: "AND!XOR (zapp1337)"
-    caption: "Bob Ross Happy Trees SAO, front of PCB (OSH Park render)"
-  - file: assets/images/badges/dc27/dc27-bob-ross-happy-trees-sao/1244452d71.png
-    source: "https://oshpark.com/shared_projects/z3rmx0di"
-    credit: "AND!XOR (zapp1337)"
-    caption: "Bob Ross Happy Trees SAO, back of PCB (OSH Park render)"
+- file: assets/images/badges/dc27/dc27-bob-ross-happy-trees-sao/b892df9b82.png
+  source: https://oshpark.com/shared_projects/z3rmx0di
+  credit: AND!XOR (zapp1337)
+  caption: Bob Ross Happy Trees SAO, front of PCB (OSH Park render)
+  archived: https://web.archive.org/web/20260118222114/https://oshpark.com/shared_projects/z3rmx0di
+- file: assets/images/badges/dc27/dc27-bob-ross-happy-trees-sao/1244452d71.png
+  source: https://oshpark.com/shared_projects/z3rmx0di
+  credit: AND!XOR (zapp1337)
+  caption: Bob Ross Happy Trees SAO, back of PCB (OSH Park render)
+  archived: https://web.archive.org/web/20260118222114/https://oshpark.com/shared_projects/z3rmx0di
 contact: {}
 notes: []
 status: released
@@ -70,26 +75,20 @@ sources:
   note: Found via the project's link list; intake pass identified this item here.
 - kind: url
   url: https://raw.githubusercontent.com/zapp1337/sao-reference-designs/master/DC27/BobRoss_sao1.69bis/README.md
-  title: "BobRoss_sao1.69bis README (zapp1337/sao-reference-designs)"
+  title: BobRoss_sao1.69bis README (zapp1337/sao-reference-designs)
   accessed: '2026-09-07'
-  note: "Primary source: confirms the SAO is purely decorative (\"What does this SAO do? Nothing. Other than properly frame another SAO\"), has a zip-tie mounting hole, is a v1.69bis (6-pin) SAO, and was shared on OSH Park; recommends light soldermask with black silkscreen."
+  note: 'Primary source: confirms the SAO is purely decorative ("What does this SAO do? Nothing. Other than properly frame another SAO"), has a zip-tie mounting hole, is a v1.69bis (6-pin) SAO, and was shared on OSH Park; recommends light soldermask with black silkscreen.'
 - kind: url
   url: https://oshpark.com/shared_projects/z3rmx0di
-  title: "Bob Ross SAO 1.69bis - shared OSH Park project"
+  title: Bob Ross SAO 1.69bis - shared OSH Park project
   accessed: '2026-09-07'
-  note: "Confirms fab-house listing (2-layer, 61.2 x 40.2 mm, uploaded/shared April 20, 2019, $19.05 for 3 boards at time of check); source of the front/back board images."
+  note: Confirms fab-house listing (2-layer, 61.2 x 40.2 mm, uploaded/shared April 20, 2019, $19.05 for 3 boards at time of check); source of the front/back board images.
+  archived: https://web.archive.org/web/20260118222114/https://oshpark.com/shared_projects/z3rmx0di
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-07'
-  notes: >-
-    Design files live under user zapp1337's fork/copy of AND!XOR's sao-reference-designs repo
-    (the SAO itself is not present in the main ANDnXOR/sao-reference-designs repo, only linked
-    from it); OSH Park's own listing credits it to "ANDnXOR", so it is treated here as an
-    AND!XOR team release. No schematic or BOM was found (Gerbers only), and no independent
-    press coverage, price, or quantity-made figures turned up beyond the OSH Park fab listing.
-    Board colors/shape/LEDs left empty since no color photo of an assembled unit (as opposed to
-    the CAD renders) was located.
+  notes: Design files live under user zapp1337's fork/copy of AND!XOR's sao-reference-designs repo (the SAO itself is not present in the main ANDnXOR/sao-reference-designs repo, only linked from it); OSH Park's own listing credits it to "ANDnXOR", so it is treated here as an AND!XOR team release. No schematic or BOM was found (Gerbers only), and no independent press coverage, price, or quantity-made figures turned up beyond the OSH Park fab listing. Board colors/shape/LEDs left empty since no color photo of an assembled unit (as opposed to the CAD renders) was located.
 last_modified_date: '2026-09-07'
 ---
 

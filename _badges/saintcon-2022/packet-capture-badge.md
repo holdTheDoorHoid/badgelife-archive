@@ -10,12 +10,14 @@ event: saintcon-2022
 year: 2022
 makers:
 - name: Jup1t3r
-summary: ''
-functions: ''
+summary: A SAINTCON 2022 minibadge given out at the Packet Capture Community booth, a beginner-level solder kit with LEDs and pin headers for chaining to other minibadges.
+functions: 'No interactive functions beyond lighting up once soldered; it is a wearable minibadge, not a game or CTF piece.'
 look:
   colors: []
   shape: null
-  themes: []
+  themes:
+  - security
+  - hardware tool
 tech:
   mcu: null
   leds: null
@@ -28,8 +30,9 @@ get_one:
   price_usd: null
   quantity: ''
   availability: unknown
-  distribution: []
-  where: ''
+  distribution:
+  - free_drop
+  where: Given out at the Packet Capture Community booth at SAINTCON 2022.
 make_your_own:
   open_source: null
   hardware_url: null
@@ -39,7 +42,15 @@ links:
 - label: minibadge.wiki/?search=PACKET%20CAPTURE%20BADGE&year=2022
   url: https://minibadge.wiki/?search=PACKET%20CAPTURE%20BADGE&year=2022
   kind: website
-images: []
+images:
+  - file: assets/images/badges/saintcon-2022/packet-capture-badge/fbe97addbd.jpg
+    source: "https://minibadge.wiki/2022.json"
+    credit: "Jup1t3r"
+    caption: "Packet Capture Badge, front"
+  - file: assets/images/badges/saintcon-2022/packet-capture-badge/80347f0f43.jpg
+    source: "https://minibadge.wiki/2022.json"
+    credit: "Jup1t3r"
+    caption: "Packet Capture Badge, back"
 contact: {}
 notes:
 - 'category: Official; rarity: Common'
@@ -50,11 +61,19 @@ sources:
   title: PACKET CAPTURE BADGE
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: SAINTCON minibadges (via minibadge.wiki community database)); event read as ''SAINTCON 2022''.'
+- kind: url
+  url: https://minibadge.wiki/2022.json
+  title: MiniBadge Wiki 2022 data feed (PACKET CAPTURE BADGE entry)
+  accessed: '2026-09-07'
+  note: 'Underlying community-sheet record for this badge: author Jup1t3r, description, soldering instructions/difficulty, category/rarity, and the front/back image URLs. howToAcquire, boardHouse and quantityMade fields were blank/0 in the source (treated as unknown, not zero).'
 research:
-  status: stub
-  confidence: low
-  last_checked: '2026-09-06'
-  notes: Imported from the community badge sheet; not yet researched.
-last_modified_date: '2026-09-06'
+  status: researched
+  confidence: medium
+  last_checked: '2026-09-07'
+  notes: 'Only source is the community-run minibadge.wiki sheet; no maker page, repo, or storefront was found for Jup1t3r or this badge, so chip/LED count/type, price, quantity, and design files remain unknown. The sheet lists "quantityMade": 0 and blank "howToAcquire", which likely mean not recorded rather than zero made or unavailable, so get_one fields are left unknown rather than guessed. Soldering instructions mention LEDs, a resistor, and 3x 2-position headers (typical of SAINTCON minibadges strung on a lanyard chain, not an SAO), so sao_version is left null rather than assumed.'
+last_modified_date: '2026-09-07'
 ---
 
+The Packet Capture Badge is a SAINTCON 2022 minibadge created by Jup1t3r and handed out at the Packet Capture Community booth on the conference floor. Like other SAINTCON minibadges, it's a small beginner-friendly solder kit: the instructions call for soldering a set of LEDs and a resistor on the back side first, using the single-pad method, followed by three 2-position headers that let the badge link into a chain with other attendees' minibadges.
+
+No maker page, repository, or storefront for Jup1t3r or this specific badge turned up, so its chip (if any), LED count and color, and exact distribution numbers remain unrecorded. The only source found is the community-run minibadge.wiki sheet, which lists it under the "Official" category with "Common" rarity but leaves quantity made and acquisition method blank.

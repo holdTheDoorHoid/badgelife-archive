@@ -12,11 +12,16 @@ makers:
 - name: TwinkleTwinkie
   url: https://hackaday.io/hacker/308303-twinkletwinkie
 summary: A DEF CON 27 SAO by TwinkleTwinkie shaped like the Marvel Infinity Gauntlet, using seven 1204 side-view LEDs with a hot-glue diffuser to represent the six Infinity Stones, bundled exclusively with the maker's Arc Badge.
-functions: 'Lights up the six Infinity Stones using seven side-view LEDs (yellow used two LEDs to match the others'' glow distance); no interactivity beyond illumination.'
+functions: Lights up the six Infinity Stones using seven side-view LEDs (yellow used two LEDs to match the others' glow distance); no interactivity beyond illumination.
 look:
-  colors: [gold, multicolor]
+  colors:
+  - gold
+  - multicolor
   shape: null
-  themes: [movie, pop culture, jewelry]
+  themes:
+  - movie
+  - pop culture
+  - jewelry
 tech:
   mcu: none
   leds:
@@ -32,8 +37,9 @@ get_one:
   price_usd: null
   quantity: ''
   availability: sold_out
-  availability_note: 'Bundled exclusively with the Arc Badge, which its Tindie listing marks as its final, now sold-out run (checked 2026-09-07).'
-  distribution: [purchase]
+  availability_note: Bundled exclusively with the Arc Badge, which its Tindie listing marks as its final, now sold-out run (checked 2026-09-07).
+  distribution:
+  - purchase
   where: Bundled exclusively with TwinkleTwinkie's Arc Badge (DC27 indie badge), sold via Tindie; not sold separately.
 make_your_own:
   open_source: partial
@@ -44,7 +50,7 @@ make_your_own:
   eda_tool: KiCad
   license: null
   fab_url: null
-  notes: 'The project page offers a KiCad footprint library for the 1204 side-view LEDs (1204_SVLED.zip); full gerbers/schematics were not found published.'
+  notes: The project page offers a KiCad footprint library for the 1204 side-view LEDs (1204_SVLED.zip); full gerbers/schematics were not found published.
 links:
 - label: hackaday.io/project/165322-iron-gauntlet-dc27-sao
   url: https://hackaday.io/project/165322-iron-gauntlet-dc27-sao
@@ -55,11 +61,12 @@ links:
 - label: Arc Badge - DC27 Indie Badge (Tindie)
   url: https://www.tindie.com/products/twinkletwinkie/arc-badge-dc27-indie-badge/
   kind: store
+  archived: https://web.archive.org/web/20260510025611/https://www.tindie.com/products/twinkletwinkie/arc-badge-dc27-indie-badge/
 images:
 - file: assets/images/badges/dc27/dc27-iron-gauntlet-sao/0506da0c77.jpg
-  source: "https://hackaday.io/project/165322-iron-gauntlet-dc27-sao"
-  credit: "TwinkleTwinkie"
-  caption: "The Iron Gauntlet SAO, a DEF CON 27 accessory shaped like Marvel's Infinity Gauntlet"
+  source: https://hackaday.io/project/165322-iron-gauntlet-dc27-sao
+  credit: TwinkleTwinkie
+  caption: The Iron Gauntlet SAO, a DEF CON 27 accessory shaped like Marvel's Infinity Gauntlet
 contact: {}
 notes: []
 status: released
@@ -73,22 +80,23 @@ sources:
   url: https://hackaday.io/project/165322-iron-gauntlet-dc27-sao
   title: Iron Gauntlet - DC27 SAO
   accessed: '2026-09-07'
-  note: "Confirmed LED count/type (7x 1204 side-view LEDs), hot-glue diffuser technique, RGB->pink LED substitution due to a resistor error, and og:image photo of the item."
+  note: Confirmed LED count/type (7x 1204 side-view LEDs), hot-glue diffuser technique, RGB->pink LED substitution due to a resistor error, and og:image photo of the item.
 - kind: url
   url: https://hackaday.io/project/165322/files
   title: Files | Iron Gauntlet - DC27 SAO
   accessed: '2026-09-07'
-  note: "Only a KiCad footprint library for the 1204 side-view LEDs is published; no gerbers/schematics/license found."
+  note: Only a KiCad footprint library for the 1204 side-view LEDs is published; no gerbers/schematics/license found.
 - kind: url
   url: https://www.tindie.com/products/twinkletwinkie/arc-badge-dc27-indie-badge/
   title: Arc Badge - DC27 Indie Badge (Tindie)
   accessed: '2026-09-07'
-  note: "Confirms the SAO was bundled exclusively with the Arc Badge (not sold separately), and that the Arc Badge's final run is sold out."
+  note: Confirms the SAO was bundled exclusively with the Arc Badge (not sold separately), and that the Arc Badge's final run is sold out.
+  archived: https://web.archive.org/web/20260510025611/https://www.tindie.com/products/twinkletwinkie/arc-badge-dc27-indie-badge/
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: "Could not confirm quantity made, a separate price, or a full open-source hardware/firmware release beyond the KiCad footprint file. TwinkleTwinkie's Hackaday.io hacker profile page could not be read directly (returned a login wall), so bio/other-projects details are not included here."
+  notes: Could not confirm quantity made, a separate price, or a full open-source hardware/firmware release beyond the KiCad footprint file. TwinkleTwinkie's Hackaday.io hacker profile page could not be read directly (returned a login wall), so bio/other-projects details are not included here.
 last_modified_date: '2026-09-07'
 ---
 
