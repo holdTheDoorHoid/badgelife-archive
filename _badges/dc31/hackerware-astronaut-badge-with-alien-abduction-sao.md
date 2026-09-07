@@ -11,13 +11,8 @@ year: 2023
 makers:
 - name: Abhinav SP / Hackerware.io
   url: https://hackerwares.in/
-summary: A full-colour UV-printed astronaut CTF badge from Hackerware, originally
-  built for BSides SF's Badge Village and later offered at the Hackerware booth
-  at DEF CON 31.
-functions: A five-puzzle capture-the-flag played over a serial connection (micro-USB,
-  Arduino IDE serial monitor at 9600 baud); each correct flag permanently lights
-  up part of an astronaut/space-mission illustration. A slide switch gives a 3-second
-  preview of the lit-up artwork, and sending "blackhole" resets the badge.
+summary: A full-colour UV-printed astronaut CTF badge from Hackerware, originally built for BSides SF's Badge Village and later offered at the Hackerware booth at DEF CON 31.
+functions: A five-puzzle capture-the-flag played over a serial connection (micro-USB, Arduino IDE serial monitor at 9600 baud); each correct flag permanently lights up part of an astronaut/space-mission illustration. A slide switch gives a 3-second preview of the lit-up artwork, and sending "blackhole" resets the badge.
 look:
   colors: []
   shape: null
@@ -53,28 +48,28 @@ links:
 - label: 'Hackster.io: The Astronaut Badge at BSides SF'
   url: https://www.hackster.io/HacksFromPanda/the-astronaut-badge-at-bsides-sf-faee13
   kind: hackaday
-  archived: false
+  archived: https://web.archive.org/web/20260511114744/https://www.hackster.io/HacksFromPanda/the-astronaut-badge-at-bsides-sf-faee13
 - label: Astronaut Badge CTF Interfacing (PDF)
   url: https://hackerwares.in/Astronaut%20Badge%20CTF%20Interfacing.pdf
   kind: doc
-  archived: false
+  archived: https://web.archive.org/web/20260514070215/https://hackerwares.in/Astronaut%20Badge%20CTF%20Interfacing.pdf
 - label: Hackerware portfolio
   url: https://hackerwares.in/
   kind: website
-  archived: false
+  archived: https://web.archive.org/web/20260611200959/https://www.hackerwares.in/
 images:
 - file: assets/images/badges/dc31/hackerware-astronaut-badge-with-alien-abduction-sao/ca5b6c5c93.jpg
-  source: "https://hackerwares.in/astronaut"
-  credit: "Hackerware"
-  caption: "The Astronaut CTF Badge, full-colour UV printed"
+  source: https://hackerwares.in/astronaut
+  credit: Hackerware
+  caption: The Astronaut CTF Badge, full-colour UV printed
 - file: assets/images/badges/dc31/hackerware-astronaut-badge-with-alien-abduction-sao/44cd9bc33c.jpg
-  source: "https://hackerwares.in/"
-  credit: "Hackerware"
-  caption: "BSidesSF Astronaut Badge portfolio photo"
+  source: https://hackerwares.in/
+  credit: Hackerware
+  caption: BSidesSF Astronaut Badge portfolio photo
+  archived: https://web.archive.org/web/20260611200959/https://www.hackerwares.in/
 contact: {}
 notes:
-- Community sheet titled this "Hackerware Astronaut Badge with Alien Abduction SAO"
-  and listed it under DC31 at $70, sold at the Hackerware booth at DEFCON.
+- Community sheet titled this "Hackerware Astronaut Badge with Alien Abduction SAO" and listed it under DC31 at $70, sold at the Hackerware booth at DEFCON.
 status: listed
 sources:
 - kind: sheet
@@ -85,31 +80,18 @@ sources:
   url: https://hackerwares.in/astronaut
   title: Welcome To Hackerware - The Astronaut CTF Badge
   accessed: '2026-09-06'
-  note: Maker's own product page. Describes the badge as built for Badge Village
-    at BSides SF 2023; full puzzle/serial-interface mechanics, no mention of an
-    "Alien Abduction SAO" or of DEF CON.
+  note: Maker's own product page. Describes the badge as built for Badge Village at BSides SF 2023; full puzzle/serial-interface mechanics, no mention of an "Alien Abduction SAO" or of DEF CON.
 - kind: url
   url: https://hackerwares.in/
-  title: Hackerware - #BadgeLife | Hardware Design, Security, & Research
+  title: Hackerware -
   accessed: '2026-09-06'
-  note: Maker's portfolio page lists this item as the "BSidesSF Astronaut Badge",
-    Hackerware's first UV-printed full-colour badge; confirms maker name and links
-    back to the same astronaut product page. No alien-abduction SAO listed anywhere
-    on the site.
+  note: Maker's portfolio page lists this item as the "BSidesSF Astronaut Badge", Hackerware's first UV-printed full-colour badge; confirms maker name and links back to the same astronaut product page. No alien-abduction SAO listed anywhere on the site.
+  archived: https://web.archive.org/web/20260611200959/https://www.hackerwares.in/
 research:
   status: researched
   confidence: low
   last_checked: '2026-09-06'
-  notes: The maker's own site consistently identifies this as the "Astronaut CTF
-    Badge" / "BSidesSF Astronaut Badge" made for BSides SF's Badge Village, with
-    no mention anywhere of DEF CON or of an "Alien Abduction SAO." The community
-    sheet lists it under DC31 with a note that it would be sold at the Hackerware
-    booth at DEFCON, which is plausible (makers often resell a badge design at a
-    later con) but unconfirmed independently. Could not verify chip/MCU, LED count,
-    quantity made, or the alien-abduction SAO add-on specifically; left those fields
-    empty rather than guess. Kept the sheet's title and DC31 event assignment since
-    no contradicting DEF CON-specific source was found, but flagging the discrepancy
-    here for a future check.
+  notes: The maker's own site consistently identifies this as the "Astronaut CTF Badge" / "BSidesSF Astronaut Badge" made for BSides SF's Badge Village, with no mention anywhere of DEF CON or of an "Alien Abduction SAO." The community sheet lists it under DC31 with a note that it would be sold at the Hackerware booth at DEFCON, which is plausible (makers often resell a badge design at a later con) but unconfirmed independently. Could not verify chip/MCU, LED count, quantity made, or the alien-abduction SAO add-on specifically; left those fields empty rather than guess. Kept the sheet's title and DC31 event assignment since no contradicting DEF CON-specific source was found, but flagging the discrepancy here for a future check.
 last_modified_date: '2026-09-06'
 ---
 

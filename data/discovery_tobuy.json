@@ -1,0 +1,689 @@
+{
+ "results": [
+  {
+   "angle": "tobuy-linkfile",
+   "candidates": [
+    {
+     "title": "ShittyWall",
+     "maker": "bbenchoff",
+     "event_hint": "other",
+     "type": "accessory",
+     "url": "https://github.com/bbenchoff/ShittyWall",
+     "note": "From the user's 'SAOs to buy' link list (2026-09-07)."
+    },
+    {
+     "title": "SAO Nunchuck",
+     "maker": "ageppert",
+     "event_hint": "other",
+     "type": "sao",
+     "url": "https://github.com/ageppert/SAO_Nunchuck",
+     "note": "From the user's 'SAOs to buy' link list (2026-09-07)."
+    },
+    {
+     "title": "Brushless Motor Biz Card",
+     "maker": "ageppert",
+     "event_hint": "other",
+     "type": "other",
+     "url": "https://github.com/ageppert/Brushless-Motor-Biz-Card",
+     "note": "From the user's 'SAOs to buy' link list (2026-09-07)."
+    },
+    {
+     "title": "Core64 Interactive Core Memory Kit",
+     "maker": "ageppert",
+     "event_hint": "other",
+     "type": "kit",
+     "url": "https://github.com/ageppert/Core64",
+     "note": "From the user's 'SAOs to buy' link list (2026-09-07). Also sold at https://www.core64.io/buy/p/core64-interactive-core-memory-full-size-kit and https://www.core64.io/buy/p/core64c-interactive-core-memory-compact-kit"
+    },
+    {
+     "title": "Small Word Clock",
+     "maker": "",
+     "event_hint": "other",
+     "type": "other",
+     "url": "https://hackaday.io/project/164406-small-word-clock",
+     "note": "From the user's 'SAOs to buy' link list (2026-09-07)."
+    },
+    {
+     "title": "Light Rail",
+     "maker": "",
+     "event_hint": "other",
+     "type": "other",
+     "url": "https://hackaday.io/project/202885-light-rail",
+     "note": "From the user's 'SAOs to buy' link list (2026-09-07)."
+    },
+    {
+     "title": "MCH2022 Butterfly",
+     "maker": "tildeindustries",
+     "event_hint": "mch-2022",
+     "type": "sao",
+     "url": "https://github.com/tildeindustries/MCH2022-Butterfly",
+     "note": "From the user's 'SAOs to buy' link list (2026-09-07)."
+    },
+    {
+     "title": "Dupe SAO",
+     "maker": "deshipu",
+     "event_hint": "other",
+     "type": "sao",
+     "url": "https://github.com/deshipu/dupe-sao",
+     "note": "From the user's 'SAOs to buy' link list (2026-09-07)."
+    },
+    {
+     "title": "Llama SAO",
+     "maker": "compukidmike",
+     "event_hint": "dc26",
+     "type": "sao",
+     "url": "https://github.com/compukidmike/DC26/tree/master/Llama%20SAO",
+     "note": "From the user's 'SAOs to buy' link list (2026-09-07)."
+    },
+    {
+     "title": "NotCamera SAO (RMA Badge)",
+     "maker": "wrickert",
+     "event_hint": "other",
+     "type": "sao",
+     "url": "https://github.com/wrickert/RMABadge/tree/master/SAO/NotCamera",
+     "note": "From the user's 'SAOs to buy' link list (2026-09-07)."
+    },
+    {
+     "title": "NerdFlare Solder Challenge 26",
+     "maker": "NerdFlare",
+     "event_hint": "other",
+     "type": "other",
+     "url": "https://github.com/NerdFlare/NF-SolderChallenge26",
+     "note": "From the user's 'SAOs to buy' link list (2026-09-07)."
+    },
+    {
+     "title": "NerdFlare Badge 26",
+     "maker": "NerdFlare",
+     "event_hint": "other",
+     "type": "badge",
+     "url": "https://github.com/NerdFlare/NerdFlareBadge26",
+     "note": "From the user's 'SAOs to buy' link list (2026-09-07)."
+    },
+    {
+     "title": "Sparky SAO Display",
+     "maker": "NerdFlare",
+     "event_hint": "other",
+     "type": "sao",
+     "url": "https://github.com/NerdFlare/sparky-sao-display",
+     "note": "From the user's 'SAOs to buy' link list (2026-09-07)."
+    },
+    {
+     "title": "DXHub25",
+     "maker": "NerdFlare",
+     "event_hint": "other",
+     "type": "other",
+     "url": "https://github.com/NerdFlare/DXHub25",
+     "note": "From the user's 'SAOs to buy' link list (2026-09-07)."
+    },
+    {
+     "title": "NerdFlare Badge 25",
+     "maker": "NerdFlare",
+     "event_hint": "other",
+     "type": "badge",
+     "url": "https://github.com/NerdFlare/NerdFlareBadge25",
+     "note": "From the user's 'SAOs to buy' link list (2026-09-07)."
+    },
+    {
+     "title": "Sympetrum v2",
+     "maker": "borgel",
+     "event_hint": "other",
+     "type": "badge",
+     "url": "https://kitspace.org/borgel/sympetrum-v2",
+     "note": "From the user's 'SAOs to buy' link list (2026-09-07)."
+    },
+    {
+     "title": "Mad Cat Backpack",
+     "maker": "Wireb",
+     "event_hint": "dc26",
+     "type": "accessory",
+     "url": "https://github.com/Wireb/Mad_Cat_Backpack",
+     "note": "From the user's 'SAOs to buy' link list (2026-09-07)."
+    },
+    {
+     "title": "Mr Stash",
+     "maker": "Wireb",
+     "event_hint": "other",
+     "type": "sao",
+     "url": "https://github.com/Wireb/Mr_Stash",
+     "note": "From the user's 'SAOs to buy' link list (2026-09-07)."
+    },
+    {
+     "title": "TrevorForget",
+     "maker": "AND!XOR",
+     "event_hint": "other",
+     "type": "sao",
+     "url": "https://github.com/ANDnXOR/trevorforget",
+     "note": "From the user's 'SAOs to buy' link list (2026-09-07). Mirror: https://github.com/hamster/trevorforget"
+    },
+    {
+     "title": "DC24 Psychoholics Pin",
+     "maker": "krux702",
+     "event_hint": "dc24",
+     "type": "other",
+     "url": "https://github.com/krux702/dc24_psychoholics_pin",
+     "note": "From the user's 'SAOs to buy' link list (2026-09-07)."
+    },
+    {
+     "title": "DC801 DC24 Party Badge",
+     "maker": "DC801",
+     "event_hint": "dc24",
+     "type": "badge",
+     "url": "https://github.com/DC801/DC24PartyBadge",
+     "note": "From the user's 'SAOs to buy' link list (2026-09-07). Mirror: https://github.com/hamster/DC24PartyBadge"
+    },
+    {
+     "title": "Aerospace Village Badge 2023",
+     "maker": "Aerospace Village",
+     "event_hint": "dc31",
+     "type": "badge",
+     "url": "https://github.com/AerospaceVillage/avBadge_2023",
+     "note": "From the user's 'SAOs to buy' link list (2026-09-07)."
+    },
+    {
+     "title": "Dumb Badge",
+     "maker": "bbenchoff",
+     "event_hint": "other",
+     "type": "badge",
+     "url": "https://github.com/bbenchoff/Dumb-Badge",
+     "note": "From the user's 'SAOs to buy' link list (2026-09-07)."
+    },
+    {
+     "title": "ScryptKeeper",
+     "maker": "HTHackers",
+     "event_hint": "other",
+     "type": "badge",
+     "url": "https://github.com/HTHackers/ScryptKeeper",
+     "note": "From the user's 'SAOs to buy' link list (2026-09-07)."
+    },
+    {
+     "title": "HTH Elite 2019 Badge",
+     "maker": "HTHackers",
+     "event_hint": "other",
+     "type": "badge",
+     "url": "https://github.com/HTHackers/HTH-Elite-2019-Badge",
+     "note": "From the user's 'SAOs to buy' link list (2026-09-07)."
+    },
+    {
+     "title": "CypherCon 5.3 Badge (2022)",
+     "maker": "Wireb",
+     "event_hint": "cyphercon-2022",
+     "type": "badge",
+     "url": "https://github.com/Wireb/Cyphercon-5_3-2022",
+     "note": "From the user's 'SAOs to buy' link list (2026-09-07)."
+    },
+    {
+     "title": "Bowtie and Screwdriver Badge",
+     "maker": "compukidmike",
+     "event_hint": "dc27",
+     "type": "badge",
+     "url": "https://github.com/compukidmike/dc27/tree/master/Bowtie%20and%20Screwdriver%20Badge",
+     "note": "From the user's 'SAOs to buy' link list (2026-09-07)."
+    },
+    {
+     "title": "compukidmike DC28 badge",
+     "maker": "compukidmike",
+     "event_hint": "dc28",
+     "type": "badge",
+     "url": "https://github.com/compukidmike/dc28",
+     "note": "From the user's 'SAOs to buy' link list (2026-09-07)."
+    },
+    {
+     "title": "Minibadge specification",
+     "maker": "compukidmike",
+     "event_hint": "other",
+     "type": "other",
+     "url": "https://github.com/compukidmike/minibadge",
+     "note": "From the user's 'SAOs to buy' link list (2026-09-07)."
+    },
+    {
+     "title": "compukidmike DC29 badge",
+     "maker": "compukidmike",
+     "event_hint": "dc29",
+     "type": "badge",
+     "url": "https://github.com/compukidmike/Defcon29",
+     "note": "From the user's 'SAOs to buy' link list (2026-09-07)."
+    },
+    {
+     "title": "SAINTCON 2018 badge (compukidmike)",
+     "maker": "compukidmike",
+     "event_hint": "saintcon-2018",
+     "type": "badge",
+     "url": "https://github.com/compukidmike/Saintcon2018",
+     "note": "From the user's 'SAOs to buy' link list (2026-09-07)."
+    },
+    {
+     "title": "SAINTCON 2019 badge (compukidmike)",
+     "maker": "compukidmike",
+     "event_hint": "saintcon-2019",
+     "type": "badge",
+     "url": "https://github.com/compukidmike/Saintcon2019",
+     "note": "From the user's 'SAOs to buy' link list (2026-09-07)."
+    },
+    {
+     "title": "SAINTCON 2020 badge (compukidmike)",
+     "maker": "compukidmike",
+     "event_hint": "saintcon-2020",
+     "type": "badge",
+     "url": "https://github.com/compukidmike/Saintcon2020",
+     "note": "From the user's 'SAOs to buy' link list (2026-09-07)."
+    },
+    {
+     "title": "SAINTCON 2021 badge (compukidmike)",
+     "maker": "compukidmike",
+     "event_hint": "saintcon-2021",
+     "type": "badge",
+     "url": "https://github.com/compukidmike/Saintcon2021",
+     "note": "From the user's 'SAOs to buy' link list (2026-09-07)."
+    },
+    {
+     "title": "SAINTCON 2022 badge (compukidmike)",
+     "maker": "compukidmike",
+     "event_hint": "saintcon-2022",
+     "type": "badge",
+     "url": "https://github.com/compukidmike/saintcon2022",
+     "note": "From the user's 'SAOs to buy' link list (2026-09-07)."
+    },
+    {
+     "title": "SAINTCON 2023 badge (compukidmike)",
+     "maker": "compukidmike",
+     "event_hint": "saintcon-2023",
+     "type": "badge",
+     "url": "https://github.com/compukidmike/saintcon2023",
+     "note": "From the user's 'SAOs to buy' link list (2026-09-07)."
+    },
+    {
+     "title": "SAINTCON 2024 badge (compukidmike)",
+     "maker": "compukidmike",
+     "event_hint": "saintcon-2024",
+     "type": "badge",
+     "url": "https://github.com/compukidmike/Saintcon2024",
+     "note": "From the user's 'SAOs to buy' link list (2026-09-07)."
+    },
+    {
+     "title": "SAINTCON 2025 badge (compukidmike)",
+     "maker": "compukidmike",
+     "event_hint": "saintcon-2025",
+     "type": "badge",
+     "url": "https://github.com/compukidmike/Saintcon2025",
+     "note": "From the user's 'SAOs to buy' link list (2026-09-07)."
+    },
+    {
+     "title": "Untitled Electronics DEF CON 33 badge",
+     "maker": "wrickert",
+     "event_hint": "dc33",
+     "type": "badge",
+     "url": "https://github.com/wrickert/UntitledElectronics/tree/main/Badges/Defcon33",
+     "note": "From the user's 'SAOs to buy' link list (2026-09-07)."
+    },
+    {
+     "title": "Untitled Electronics DEF CON 32 badge",
+     "maker": "wrickert",
+     "event_hint": "dc32",
+     "type": "badge",
+     "url": "https://github.com/wrickert/UntitledElectronics/tree/main/Badges/Defcon32",
+     "note": "From the user's 'SAOs to buy' link list (2026-09-07)."
+    },
+    {
+     "title": "wrickert badge",
+     "maker": "wrickert",
+     "event_hint": "other",
+     "type": "badge",
+     "url": "https://github.com/wrickert/badge",
+     "note": "From the user's 'SAOs to buy' link list (2026-09-07)."
+    },
+    {
+     "title": "RickRio",
+     "maker": "wrickert",
+     "event_hint": "other",
+     "type": "badge",
+     "url": "https://github.com/wrickert/RickRio",
+     "note": "From the user's 'SAOs to buy' link list (2026-09-07)."
+    },
+    {
+     "title": "DEF CON 31 Tooth badge",
+     "maker": "wrickert",
+     "event_hint": "dc31",
+     "type": "badge",
+     "url": "https://github.com/wrickert/Defcon31-Tooth",
+     "note": "From the user's 'SAOs to buy' link list (2026-09-07)."
+    },
+    {
+     "title": "Uncut Gem (Quantum Village)",
+     "maker": "Quantum Village",
+     "event_hint": "other",
+     "type": "badge",
+     "url": "https://github.com/QuantumVillage/UncutGem",
+     "note": "From the user's 'SAOs to buy' link list (2026-09-07)."
+    },
+    {
+     "title": "NorthSec 2025 badge",
+     "maker": "NorthSec",
+     "event_hint": "northsec-2025",
+     "type": "badge",
+     "url": "https://github.com/nsec/nsec-badge/tree/nsec25",
+     "note": "From the user's 'SAOs to buy' link list (2026-09-07)."
+    },
+    {
+     "title": "NorthSec 2023 badge",
+     "maker": "NorthSec",
+     "event_hint": "northsec-2023",
+     "type": "badge",
+     "url": "https://github.com/nsec/badge-conf-2023",
+     "note": "From the user's 'SAOs to buy' link list (2026-09-07)."
+    },
+    {
+     "title": "DC Darknet DEF CON 25 badge",
+     "maker": "DC Darknet",
+     "event_hint": "dc25",
+     "type": "badge",
+     "url": "https://github.com/thedarknet/defcon25-badge",
+     "note": "From the user's 'SAOs to buy' link list (2026-09-07)."
+    },
+    {
+     "title": "DC Darknet 8 badge",
+     "maker": "DC Darknet",
+     "event_hint": "other",
+     "type": "badge",
+     "url": "https://github.com/thedarknet/darknet8-badge",
+     "note": "From the user's 'SAOs to buy' link list (2026-09-07)."
+    },
+    {
+     "title": "DC Darknet DEF CON 24 badge",
+     "maker": "DC Darknet",
+     "event_hint": "dc24",
+     "type": "badge",
+     "url": "https://github.com/thedarknet/defcon24",
+     "note": "From the user's 'SAOs to buy' link list (2026-09-07)."
+    },
+    {
+     "title": "BCoin 2024",
+     "maker": "youngd24",
+     "event_hint": "other",
+     "type": "other",
+     "url": "https://github.com/youngd24/BCoin2024",
+     "note": "From the user's 'SAOs to buy' link list (2026-09-07)."
+    },
+    {
+     "title": "Queercon 16 badge",
+     "maker": "duplico",
+     "event_hint": "queercon-2019",
+     "type": "badge",
+     "url": "https://github.com/duplico/qc16_badge",
+     "note": "From the user's 'SAOs to buy' link list (2026-09-07)."
+    },
+    {
+     "title": "DC SDR badge",
+     "maker": "AlexandreRouma",
+     "event_hint": "other",
+     "type": "badge",
+     "url": "https://github.com/AlexandreRouma/dc_sdr",
+     "note": "From the user's 'SAOs to buy' link list (2026-09-07)."
+    },
+    {
+     "title": "BornHack 2016 badge",
+     "maker": "BornHack",
+     "event_hint": "bornhack-2016",
+     "type": "badge",
+     "url": "https://github.com/bornhack/badge2016",
+     "note": "From the user's 'SAOs to buy' link list (2026-09-07)."
+    },
+    {
+     "title": "BornHack 2019 badge",
+     "maker": "BornHack",
+     "event_hint": "bornhack-2019",
+     "type": "badge",
+     "url": "https://github.com/bornhack/badge2019",
+     "note": "From the user's 'SAOs to buy' link list (2026-09-07)."
+    },
+    {
+     "title": "BornHack 2020 badge",
+     "maker": "BornHack",
+     "event_hint": "bornhack-2020",
+     "type": "badge",
+     "url": "https://github.com/bornhack/badge2020",
+     "note": "From the user's 'SAOs to buy' link list (2026-09-07)."
+    },
+    {
+     "title": "BornHack 2021 badge",
+     "maker": "BornHack",
+     "event_hint": "bornhack-2021",
+     "type": "badge",
+     "url": "https://github.com/bornhack/badge2021",
+     "note": "From the user's 'SAOs to buy' link list (2026-09-07)."
+    },
+    {
+     "title": "BornHack 2022 badge",
+     "maker": "BornHack",
+     "event_hint": "bornhack-2022",
+     "type": "badge",
+     "url": "https://github.com/bornhack/badge2022",
+     "note": "From the user's 'SAOs to buy' link list (2026-09-07)."
+    },
+    {
+     "title": "BornHack 2023 badge",
+     "maker": "BornHack",
+     "event_hint": "bornhack-2023",
+     "type": "badge",
+     "url": "https://github.com/bornhack/badge2023",
+     "note": "From the user's 'SAOs to buy' link list (2026-09-07)."
+    },
+    {
+     "title": "BornHack 2025 badge",
+     "maker": "BornHack",
+     "event_hint": "bornhack-2025",
+     "type": "badge",
+     "url": "https://github.com/bornhack/badge2025",
+     "note": "From the user's 'SAOs to buy' link list (2026-09-07)."
+    },
+    {
+     "title": "beepBadge",
+     "maker": "lle",
+     "event_hint": "other",
+     "type": "badge",
+     "url": "https://github.com/lle/beepBadge",
+     "note": "From the user's 'SAOs to buy' link list (2026-09-07)."
+    },
+    {
+     "title": "Flying Skull Badge",
+     "maker": "b1uN7",
+     "event_hint": "dc26",
+     "type": "badge",
+     "url": "https://github.com/b1uN7/DEFCON-26-Flying-Skull-Badge",
+     "note": "From the user's 'SAOs to buy' link list (2026-09-07)."
+    },
+    {
+     "title": "DEF CON Shoot 31 Badge",
+     "maker": "seeess",
+     "event_hint": "dc31",
+     "type": "badge",
+     "url": "https://github.com/seeess/Defcon-Shoot-31-Badge",
+     "note": "From the user's 'SAOs to buy' link list (2026-09-07)."
+    },
+    {
+     "title": "DEF CON Shoot 32 Badge",
+     "maker": "seeess",
+     "event_hint": "dc32",
+     "type": "badge",
+     "url": "https://github.com/seeess/Defcon-Shoot-32-Badge",
+     "note": "From the user's 'SAOs to buy' link list (2026-09-07)."
+    },
+    {
+     "title": "DEF CON Shoot 33 Badge",
+     "maker": "seeess",
+     "event_hint": "dc33",
+     "type": "badge",
+     "url": "https://github.com/seeess/Defcon-Shoot-33-Badge",
+     "note": "From the user's 'SAOs to buy' link list (2026-09-07)."
+    },
+    {
+     "title": "DC801 DEF CON 23 badge",
+     "maker": "DC801",
+     "event_hint": "dc23",
+     "type": "badge",
+     "url": "https://github.com/hamster/DefCon23",
+     "note": "From the user's 'SAOs to buy' link list (2026-09-07)."
+    },
+    {
+     "title": "DC801 SAINTCON badge",
+     "maker": "DC801",
+     "event_hint": "other",
+     "type": "badge",
+     "url": "https://github.com/hamster/SAINTCON",
+     "note": "From the user's 'SAOs to buy' link list (2026-09-07)."
+    },
+    {
+     "title": "DC801 DEF CON 30 badge",
+     "maker": "DC801",
+     "event_hint": "dc30",
+     "type": "badge",
+     "url": "https://github.com/hamster/defcon30",
+     "note": "From the user's 'SAOs to buy' link list (2026-09-07)."
+    },
+    {
+     "title": "DC801 DEF CON 27 badge",
+     "maker": "DC801",
+     "event_hint": "dc27",
+     "type": "badge",
+     "url": "https://github.com/hamster/Defcon27-Badge",
+     "note": "From the user's 'SAOs to buy' link list (2026-09-07)."
+    },
+    {
+     "title": "DC801 DEF CON 26 badge",
+     "maker": "DC801",
+     "event_hint": "dc26",
+     "type": "badge",
+     "url": "https://github.com/hamster/Defcon26-Badge",
+     "note": "From the user's 'SAOs to buy' link list (2026-09-07)."
+    },
+    {
+     "title": "DC801 DC22 Party Badge",
+     "maker": "DC801",
+     "event_hint": "dc22",
+     "type": "badge",
+     "url": "https://github.com/hamster/dc22-dc801-party-badge",
+     "note": "From the user's 'SAOs to buy' link list (2026-09-07)."
+    },
+    {
+     "title": "Mass Warp Gate Badge",
+     "maker": "seeigecannon",
+     "event_hint": "other",
+     "type": "badge",
+     "url": "https://github.com/seeigecannon/MassWarpGateBadge",
+     "note": "From the user's 'SAOs to buy' link list (2026-09-07)."
+    },
+    {
+     "title": "Austin Hackers Association badge",
+     "maker": "Austin Hackers Association",
+     "event_hint": "other",
+     "type": "badge",
+     "url": "https://github.com/AustinHackers/ahabadge",
+     "note": "From the user's 'SAOs to buy' link list (2026-09-07)."
+    },
+    {
+     "title": "Bike Badge",
+     "maker": "securelyfitz",
+     "event_hint": "other",
+     "type": "badge",
+     "url": "https://github.com/securelyfitz/bikebadge",
+     "note": "From the user's 'SAOs to buy' link list (2026-09-07)."
+    },
+    {
+     "title": "PnP Badge",
+     "maker": "securelyfitz",
+     "event_hint": "other",
+     "type": "badge",
+     "url": "https://github.com/securelyfitz/pnpbadge",
+     "note": "From the user's 'SAOs to buy' link list (2026-09-07)."
+    },
+    {
+     "title": "securelyfitz 2018 badge",
+     "maker": "securelyfitz",
+     "event_hint": "other",
+     "type": "badge",
+     "url": "https://github.com/securelyfitz/badge-2018",
+     "note": "From the user's 'SAOs to buy' link list (2026-09-07)."
+    },
+    {
+     "title": "TiaraCon 2016 badge",
+     "maker": "securelyfitz",
+     "event_hint": "tiaracon-2016",
+     "type": "badge",
+     "url": "https://github.com/securelyfitz/tiaracon2016",
+     "note": "From the user's 'SAOs to buy' link list (2026-09-07)."
+    },
+    {
+     "title": "Jar of Fireflies",
+     "maker": "securelyfitz",
+     "event_hint": "other",
+     "type": "other",
+     "url": "https://github.com/securelyfitz/JarOfFireflies",
+     "note": "From the user's 'SAOs to buy' link list (2026-09-07)."
+    },
+    {
+     "title": "Nyan Pirate",
+     "maker": "securelyfitz",
+     "event_hint": "other",
+     "type": "other",
+     "url": "https://github.com/securelyfitz/nyan-pirate",
+     "note": "From the user's 'SAOs to buy' link list (2026-09-07)."
+    },
+    {
+     "title": "Kermie",
+     "maker": "scdickson",
+     "event_hint": "other",
+     "type": "badge",
+     "url": "https://github.com/scdickson/Kermie",
+     "note": "From the user's 'SAOs to buy' link list (2026-09-07)."
+    },
+    {
+     "title": "DC32 Crest Badge",
+     "maker": "badgelife",
+     "event_hint": "dc32",
+     "type": "badge",
+     "url": "https://github.com/badgelife/dc32-crest-badge",
+     "note": "From the user's 'SAOs to buy' link list (2026-09-07)."
+    },
+    {
+     "title": "DCZia DEF CON 25 badge",
+     "maker": "DCZia",
+     "event_hint": "dc25",
+     "type": "badge",
+     "url": "https://github.com/dczia/Defcon25-Badge",
+     "note": "From the user's 'SAOs to buy' link list (2026-09-07)."
+    },
+    {
+     "title": "Waifu Badge",
+     "maker": "Waifus4Lifu",
+     "event_hint": "other",
+     "type": "badge",
+     "url": "https://github.com/Waifus4Lifu/waifu-badge",
+     "note": "From the user's 'SAOs to buy' link list (2026-09-07)."
+    },
+    {
+     "title": "OSH Park shared project xlZW21Nt",
+     "maker": "",
+     "event_hint": "other",
+     "type": "other",
+     "url": "https://oshpark.com/shared_projects/xlZW21Nt",
+     "note": "From the user's 'SAOs to buy' link list (2026-09-07)."
+    },
+    {
+     "title": "OSH Park shared project rb3WUxmT",
+     "maker": "",
+     "event_hint": "other",
+     "type": "other",
+     "url": "https://oshpark.com/shared_projects/rb3WUxmT",
+     "note": "From the user's 'SAOs to buy' link list (2026-09-07)."
+    },
+    {
+     "title": "Switch Ornament Reference",
+     "maker": "scottbez1",
+     "event_hint": "other",
+     "type": "other",
+     "url": "https://github.com/scottbez1/SwitchOrnamentReference",
+     "note": "From the user's 'SAOs to buy' link list (2026-09-07)."
+    }
+   ]
+  }
+ ]
+}

@@ -475,3 +475,105 @@ bsidespr-2016:
   year: 2016
   family: bsides
   location: ''
+mch-2022:
+  name: MCH2022 (May Contain Hackers)
+  short: MCH2022
+  year: 2022
+  family: camp
+  location: Zeewolde, Netherlands
+cyphercon-2022:
+  name: CypherCon 5.3 (2022)
+  short: CypherCon 5.3
+  year: 2022
+  family: other
+  location: Milwaukee, WI
+saintcon-2018:
+  name: SAINTCON 2018
+  short: SAINTCON 2018
+  year: 2018
+  family: other
+  location: Utah
+saintcon-2019:
+  name: SAINTCON 2019
+  short: SAINTCON 2019
+  year: 2019
+  family: other
+  location: Utah
+saintcon-2020:
+  name: SAINTCON 2020
+  short: SAINTCON 2020
+  year: 2020
+  family: other
+  location: Utah
+northsec-2025:
+  name: NorthSec 2025
+  short: NorthSec 2025
+  year: 2025
+  family: other
+  location: Montreal, QC
+northsec-2023:
+  name: NorthSec 2023
+  short: NorthSec 2023
+  year: 2023
+  family: other
+  location: Montreal, QC
+bornhack-2016:
+  name: BornHack 2016
+  short: BornHack 2016
+  year: 2016
+  family: camp
+  location: Denmark
+bornhack-2019:
+  name: BornHack 2019
+  short: BornHack 2019
+  year: 2019
+  family: camp
+  location: Denmark
+bornhack-2020:
+  name: BornHack 2020
+  short: BornHack 2020
+  year: 2020
+  family: camp
+  location: Denmark
+bornhack-2021:
+  name: BornHack 2021
+  short: BornHack 2021
+  year: 2021
+  family: camp
+  location: Denmark
+bornhack-2022:
+  name: BornHack 2022
+  short: BornHack 2022
+  year: 2022
+  family: camp
+  location: Denmark
+bornhack-2023:
+  name: BornHack 2023
+  short: BornHack 2023
+  year: 2023
+  family: camp
+  location: Denmark
+bornhack-2025:
+  name: BornHack 2025
+  short: BornHack 2025
+  year: 2025
+  family: camp
+  location: Denmark
+dc22:
+  name: DEF CON 22
+  short: DC22
+  year: 2014
+  family: defcon
+  location: Las Vegas, NV
+queercon-2019:
+  name: Queercon 16 (2019)
+  short: Queercon 16
+  year: 2019
+  family: other
+  location: Las Vegas, NV
+tiaracon-2016:
+  name: TiaraCon 2016
+  short: TiaraCon 2016
+  year: 2016
+  family: other
+  location: Las Vegas, NV

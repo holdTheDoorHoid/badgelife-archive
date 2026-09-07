@@ -51,14 +51,16 @@ links:
 - kind: website
   label: Rot13 Labs (maker portfolio)
   url: https://rot13labs.com
+  archived: https://web.archive.org/web/20260615020751/https://rot13labs.com/
 - kind: repo
   label: esp8266_deauther_hackbutt firmware (GitHub)
   url: https://github.com/c0ldbru/esp8266_deauther_hackbutt
 images:
 - file: assets/images/badges/dc31/hackbutt-v-3-wifi-testing-badge/6f66403cdc.png
-  source: "https://rot13labs.com/"
-  credit: "C0ldbru (Rot13 Labs)"
-  caption: "Hackbutt v3 badge and its retail-style packaging, as shown in the maker's portfolio"
+  source: https://rot13labs.com/
+  credit: C0ldbru (Rot13 Labs)
+  caption: Hackbutt v3 badge and its retail-style packaging, as shown in the maker's portfolio
+  archived: https://web.archive.org/web/20260615020751/https://rot13labs.com/
 contact: {}
 notes: []
 status: released
@@ -72,6 +74,7 @@ sources:
   title: Rot13 Labs — portfolio (C0ldbru)
   accessed: '2026-09-07'
   note: Confirms the Hackbutt V3 badge, describes the deauth/SSID-spoofing features it shares with the Duckbutt SAO, and supplied the product photo.
+  archived: https://web.archive.org/web/20260615020751/https://rot13labs.com/
 - kind: url
   url: https://github.com/c0ldbru/esp8266_deauther_hackbutt
   title: esp8266_deauther_hackbutt (GitHub)
@@ -81,7 +84,7 @@ research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: Confirmed via the maker's own portfolio (rot13labs.com) and GitHub repo, plus the maker's own product photo. Price, quantity made, and current availability are not published anywhere found, and it's unconfirmed whether the badge was sold or given away. The maker's portfolio also shows a second, unlabeled "Hackbutt Badge" (no version number, project #17) that may be a different hardware revision; it was not used for this entry since it could not be confirmed as the same v3 unit. The maker's sibling item, the "Duckbutt SAO" (also DEF CON 31, overlapping wifi-manipulation features), has no separate archive entry yet.
+  notes: Confirmed via the maker's own portfolio (rot13labs.com) and GitHub repo, plus the maker's own product photo. Price, quantity made, and current availability are not published anywhere found, and it's unconfirmed whether the badge was sold or given away. The maker's portfolio also shows a second, unlabeled "Hackbutt Badge" (no version number, project
 last_modified_date: '2026-09-07'
 ---
 

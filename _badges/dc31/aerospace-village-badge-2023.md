@@ -1,15 +1,15 @@
 ---
-title: DC26/27 Defcon Air SAO (fully assembled)
-id: dc26-27-defcon-air-sao-fully-assembled
+title: Aerospace Village Badge 2023
+id: dc31-aerospace-village-badge-2023
 layout: badge
-parent: DC26
+parent: DC31
 grand_parent: Badge Archive
 nav_exclude: true
-type: sao
-event: dc26
-year: 2018
+type: unknown
+event: dc31
+year: 2023
 makers:
-- name: Harbinger LTD (Andrew Nicholson)
+- name: Aerospace Village
 summary: ''
 functions: ''
 look:
@@ -36,20 +36,20 @@ make_your_own:
   firmware_url: null
   eda_tool: null
 links:
-- label: www.tindie.com/products/awkwardai/dc2627-defcon-air-sao-fully-assembled
-  url: https://www.tindie.com/products/awkwardai/dc2627-defcon-air-sao-fully-assembled/
-  kind: store
+- label: github.com/AerospaceVillage/avBadge_2023
+  url: https://github.com/AerospaceVillage/avBadge_2023
+  kind: repo
 images: []
 contact: {}
 notes:
-- Spotted by a research agent while working on a neighbouring entry (run 2).
+- From the user's 'SAOs to buy' link list (2026-09-07).
 status: listed
 sources:
 - kind: url
-  url: https://www.tindie.com/products/awkwardai/dc2627-defcon-air-sao-fully-assembled/
-  title: DC26/27 Defcon Air SAO (fully assembled)
+  url: https://github.com/AerospaceVillage/avBadge_2023
+  title: Aerospace Village Badge 2023
   accessed: '2026-09-07'
-  note: 'Found by the archive''s discovery sweep (angle: research-run2-spotted); event read as ''dc26''.'
+  note: 'Found by the archive''s discovery sweep (angle: tobuy-linkfile); event read as ''dc31''.'
 research:
   status: stub
   confidence: low

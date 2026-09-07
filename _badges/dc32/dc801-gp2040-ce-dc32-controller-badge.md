@@ -44,6 +44,9 @@ links:
 - label: github.com/dc801/GP2040-CE
   url: https://github.com/dc801/GP2040-CE
   kind: repo
+- label: Source files (GitHub)
+  url: https://github.com/hamster/Defcon32-Badge/tree/main/Hardware
+  kind: hardware
 images: []
 contact: {}
 notes: []
@@ -58,12 +61,12 @@ sources:
   url: https://raw.githubusercontent.com/dc801/GP2040-CE/main/README.md
   title: DC801 fork README — GP2040-CE
   accessed: '2026-09-07'
-  note: 'Confirms the fork targets an RP2040 chip on "the DC801 Defcon 32 Controller Badge", adding a TLA2528 ADC chip for analog inputs and an ESP32-C3 Super Mini module for Bluetooth controller support.'
+  note: Confirms the fork targets an RP2040 chip on "the DC801 Defcon 32 Controller Badge", adding a TLA2528 ADC chip for analog inputs and an ESP32-C3 Super Mini module for Bluetooth controller support.
 - kind: url
   url: https://github.com/dc801
   title: DC801 GitHub org
   accessed: '2026-09-07'
-  note: 'Lists the GP2040-CE fork among DC801''s repos; no separate hardware/schematic repo for this badge found.'
+  note: Lists the GP2040-CE fork among DC801's repos; no separate hardware/schematic repo for this badge found.
 research:
   status: verified
   confidence: low

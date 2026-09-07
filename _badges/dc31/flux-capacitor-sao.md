@@ -38,6 +38,7 @@ links:
 - label: www.carhackingvillage.com
   url: https://www.carhackingvillage.com
   kind: website
+  archived: https://web.archive.org/web/20260810193641/https://www.carhackingvillage.com/
 images: []
 contact: {}
 notes:
@@ -52,27 +53,18 @@ sources:
   url: https://www.carhackingvillage.com
   title: Car Hacking Village
   accessed: '2026-09-06'
-  note: 'Village''s own site has no mention of a "Flux Capacitor" SAO; only links
-    the CHV SAO header spec and general village info.'
+  note: Village's own site has no mention of a "Flux Capacitor" SAO; only links the CHV SAO header spec and general village info.
+  archived: https://web.archive.org/web/20260810193641/https://www.carhackingvillage.com/
 - kind: url
   url: https://github.com/linted/CHV_badge_board
   title: 'GitHub: linted/CHV_badge_board'
   accessed: '2026-09-06'
-  note: CHV's DC31 badge-board KiCad repo (filenames reference CHV_DC31); no mention
-    of a Flux Capacitor item, so likely a different piece of hardware than this SAO.
+  note: CHV's DC31 badge-board KiCad repo (filenames reference CHV_DC31); no mention of a Flux Capacitor item, so likely a different piece of hardware than this SAO.
 research:
   status: researched
   confidence: low
   last_checked: '2026-09-06'
-  notes: Could not find any page identifying a maker, chip, LEDs, or design files
-    for this specific SAO under the name "Flux capacitor" — the Car Hacking Village
-    site, its GitHub org (linted/CHV_badge_board, CHV_SAO_Specification), and
-    several web searches for the title turned up nothing. The sibling sheet row
-    (dc31-engine-block-badge, row 21, same "available in person at DC XXXI in the
-    CHV" wording and same $X.XX/$X.42-or-.69-for-credit-card pricing pattern) lists
-    its maker as "Car Hacking Village" itself, which suggests this SAO was also a
-    CHV-sold item rather than an outside vendor's, but that is inference, not a
-    confirmed fact, so makers is left empty rather than guessed.
+  notes: Could not find any page identifying a maker, chip, LEDs, or design files for this specific SAO under the name "Flux capacitor" — the Car Hacking Village site, its GitHub org (linted/CHV_badge_board, CHV_SAO_Specification), and several web searches for the title turned up nothing. The sibling sheet row (dc31-engine-block-badge, row 21, same "available in person at DC XXXI in the CHV" wording and same $X.XX/$X.42-or-.69-for-credit-card pricing pattern) lists its maker as "Car Hacking Village" itself, which suggests this SAO was also a CHV-sold item rather than an outside vendor's, but that is inference, not a confirmed fact, so makers is left empty rather than guessed.
 last_modified_date: '2026-09-06'
 ---
 

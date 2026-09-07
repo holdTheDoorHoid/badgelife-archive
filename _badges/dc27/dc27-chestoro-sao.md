@@ -55,6 +55,9 @@ links:
   url: https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-chestoro-badge-sao/
   kind: store
   archived: https://web.archive.org/web/20260519051624/https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-chestoro-badge-sao/
+- label: Source files (GitHub)
+  url: https://github.com/Wireb/TwinkleTwinkie_Chestoro
+  kind: hardware
 images:
 - file: assets/images/badges/dc27/dc27-chestoro-sao/38fe366918.jpg
   source: https://hackaday.io/project/165323-chestoro-dc27-sao

@@ -13,12 +13,8 @@ makers:
 - name: Linted
   url: https://github.com/linted
   role: hardware and firmware design
-summary: The DEF CON 31 Car Hacking Village badge, an RP2040 board shaped and silkscreened
-  like an engine block, built around a full CAN bus stack instead of the usual I2C SAO bus.
-functions: Speaks CAN 2.0B over four onboard MCP2558FD transceivers (one per SAO port
-  plus one for the badge's own bus), runs MicroPython with a REPL over USB-C, and exposes
-  an slcan interface so it can be used as a USB-to-CAN adapter for socketcan tools like
-  cansniffer.
+summary: The DEF CON 31 Car Hacking Village badge, an RP2040 board shaped and silkscreened like an engine block, built around a full CAN bus stack instead of the usual I2C SAO bus.
+functions: Speaks CAN 2.0B over four onboard MCP2558FD transceivers (one per SAO port plus one for the badge's own bus), runs MicroPython with a REPL over USB-C, and exposes an slcan interface so it can be used as a USB-to-CAN adapter for socketcan tools like cansniffer.
 look:
   colors:
   - red
@@ -33,8 +29,7 @@ tech:
   leds:
     count: 13
     type: mixed (1206 + reverse-mount)
-    note: 4 standard 1206 LEDs plus 9 reverse-mount LEDs (P2-1206RTCS2) laid out inside
-      the engine-cylinder silkscreen art.
+    note: 4 standard 1206 LEDs plus 9 reverse-mount LEDs (P2-1206RTCS2) laid out inside the engine-cylinder silkscreen art.
   display: none
   connectivity:
   - usb
@@ -50,8 +45,7 @@ get_one:
   availability: unknown
   distribution:
   - purchase
-  where: Sold in person at DEF CON 31 by the Car Hacking Village ($69.42 if paying by
-    credit card per the community sheet).
+  where: Sold in person at DEF CON 31 by the Car Hacking Village ($69.42 if paying by credit card per the community sheet).
 make_your_own:
   open_source: 'yes'
   hardware_url: https://github.com/linted/CHV_badge_board
@@ -59,12 +53,12 @@ make_your_own:
   gerbers_url: https://github.com/linted/CHV_badge_board/tree/main/plot
   eda_tool: KiCad
   license: null
-  notes: No explicit license file in either repo; both were public on GitHub as of the
-    2026-09-07 check.
+  notes: No explicit license file in either repo; both were public on GitHub as of the 2026-09-07 check.
 links:
 - label: www.carhackingvillage.com
   url: https://www.carhackingvillage.com
   kind: website
+  archived: https://web.archive.org/web/20260810193641/https://www.carhackingvillage.com/
 - label: CHV_badge_board (hardware, KiCad + Gerbers)
   url: https://github.com/linted/CHV_badge_board
   kind: repo
@@ -74,14 +68,14 @@ links:
 - label: CHV SAO Specification (CAN-over-SAO pinout used by this badge)
   url: https://github.com/linted/CHV_SAO_Specification
   kind: doc
-- label: "DC31 Car Hacking Village Badge and SAO (maker walkthrough video)"
+- label: DC31 Car Hacking Village Badge and SAO (maker walkthrough video)
   url: https://www.youtube.com/watch?v=yvvOl6LfodQ
   kind: video
 images:
 - file: assets/images/badges/dc31/engine-block-badge/9b02db17f6.jpg
-  source: "https://www.youtube.com/watch?v=yvvOl6LfodQ"
-  credit: "Car Hacking Village / Linted"
-  caption: "Presentation slide showing the front and back of the DC31 CHV badge (from the maker's video walkthrough)"
+  source: https://www.youtube.com/watch?v=yvvOl6LfodQ
+  credit: Car Hacking Village / Linted
+  caption: Presentation slide showing the front and back of the DC31 CHV badge (from the maker's video walkthrough)
 contact: {}
 notes:
 - $69.42 if using credit card
@@ -96,9 +90,10 @@ sources:
   title: Car Hacking Village
   accessed: '2026-09-07'
   note: 2023 Badge Overview section links to the SAO spec and the maker's badge walkthrough video; confirms the CAN-over-SAO change.
+  archived: https://web.archive.org/web/20260810193641/https://www.carhackingvillage.com/
 - kind: url
   url: https://www.youtube.com/watch?v=yvvOl6LfodQ
-  title: "DC31 Car Hacking Village Badge and SAO"
+  title: DC31 Car Hacking Village Badge and SAO
   accessed: '2026-09-07'
   note: Maker (Linted) walkthrough video, published 2023-08-10; slide lists full CAN bus, SAO connectors, MicroPython REPL, slcan interface. Thumbnail shows front/back photos of the physical badge.
 - kind: url
@@ -110,7 +105,7 @@ sources:
   url: https://github.com/linted/CHV_Badge_Firmware
   title: linted/CHV_Badge_Firmware
   accessed: '2026-09-07'
-  note: "README describes firmware for \"emulating a car on a single PCB\"; C and MicroPython implementations; slcan/cansniffer setup instructions."
+  note: README describes firmware for "emulating a car on a single PCB"; C and MicroPython implementations; slcan/cansniffer setup instructions.
 - kind: url
   url: https://github.com/linted/CHV_SAO_Specification
   title: linted/CHV_SAO_Specification
@@ -120,14 +115,7 @@ research:
   status: researched
   confidence: high
   last_checked: '2026-09-07'
-  notes: Core facts (MCU, LED count/types, SAO/CAN design, battery, connectors) come
-    straight from the maker's own KiCad BOM and firmware README, corroborated by the
-    maker's own walkthrough video. Could not find a storefront listing, so quantity
-    made and post-con availability are unknown - it appears to have been sold only
-    in person at DC31. No independent press coverage (hackaday.com, hackster.io) turned
-    up; web search was unavailable for part of this research (session search quota
-    exhausted, DuckDuckGo/Bing gave no usable results), so it is possible some coverage
-    exists that was not found.
+  notes: Core facts (MCU, LED count/types, SAO/CAN design, battery, connectors) come straight from the maker's own KiCad BOM and firmware README, corroborated by the maker's own walkthrough video. Could not find a storefront listing, so quantity made and post-con availability are unknown - it appears to have been sold only in person at DC31. No independent press coverage (hackaday.com, hackster.io) turned up; web search was unavailable for part of this research (session search quota exhausted, DuckDuckGo/Bing gave no usable results), so it is possible some coverage exists that was not found.
 last_modified_date: '2026-09-07'
 ---
 

@@ -57,6 +57,9 @@ links:
   url: https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/
   kind: article
   archived: https://web.archive.org/web/20260513003300/https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/
+- label: Source files (GitHub)
+  url: https://github.com/compukidmike/dc27/tree/master/Fifth%20Element%20Badge
+  kind: hardware
 images:
 - file: assets/images/badges/dc27/fifth-element-stones-badge-def-con-27/8e56933de9.jpg
   source: https://www.tindie.com/products/compukidmike/fifth-element-stones-badge-from-defcon-27/

@@ -64,6 +64,9 @@ links:
 - label: github.com/dczia/zippy-badge
   url: https://github.com/dczia/zippy-badge
   kind: repo
+- label: Source files (GitHub)
+  url: https://github.com/hamster/zippy-badge
+  kind: hardware
 images:
 - file: assets/images/badges/dc33/zippy/8a5c3f4dee.jpg
   source: https://www.tindie.com/products/hamster/2025-dczia-badge-zippy/

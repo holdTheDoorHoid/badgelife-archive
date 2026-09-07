@@ -55,19 +55,23 @@ links:
 - kind: store
   label: Hacker Mindset Badge — Hacker Warehouse
   url: https://hackerwarehouse.com/product/hacker-mindset-badge/
+  archived: https://web.archive.org/web/20260804172145/https://hackerwarehouse.com/product/hacker-mindset-badge/
 images:
 - file: assets/images/badges/dc31/hacker-mindset-badge/21ffd5af82.jpg
   source: https://hackerwarehouse.com/product/hacker-mindset-badge/
   credit: Hacker Warehouse
   caption: The Hacker Mindset Badge, front view showing RGB LEDs and artwork
+  archived: https://web.archive.org/web/20260804172145/https://hackerwarehouse.com/product/hacker-mindset-badge/
 - file: assets/images/badges/dc31/hacker-mindset-badge/6582272f33.jpg
   source: https://hackerwarehouse.com/product/hacker-mindset-badge/
   credit: Hacker Warehouse
   caption: The Hacker Mindset Badge, angled view showing SAO ports and buttons
+  archived: https://web.archive.org/web/20260804172145/https://hackerwarehouse.com/product/hacker-mindset-badge/
 - file: assets/images/badges/dc31/hacker-mindset-badge/21ffd5af82.jpg
   source: https://hackerwarehouse.com/product/hacker-mindset-badge/
   credit: Hacker Warehouse
   caption: The Hacker Mindset Badge, RP2040-based PCB badge
+  archived: https://web.archive.org/web/20260804172145/https://hackerwarehouse.com/product/hacker-mindset-badge/
 contact: {}
 notes:
 - rp2040 (<-- everyones favorite awesome plaything this year), 14 rgb leds, buttons, etc
@@ -89,11 +93,13 @@ sources:
   title: Hacker Mindset Badge — Hacker Warehouse (current listing)
   accessed: '2026-09-07'
   note: Confirms the badge is still listed for sale, now at $80.00.
+  archived: https://web.archive.org/web/20260804172145/https://hackerwarehouse.com/product/hacker-mindset-badge/
 - kind: url
   url: https://hackerwarehouse.com/couture/badgelife/
   title: Badgelife Archives - Hacker Warehouse
   accessed: '2026-09-07'
   note: Storefront category listing; no additional background, event, or designer credit for this badge found.
+  archived: https://web.archive.org/web/20260825155209/https://hackerwarehouse.com/couture/badgelife/
 research:
   status: researched
   confidence: high

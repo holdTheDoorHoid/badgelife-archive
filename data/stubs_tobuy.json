@@ -1,0 +1,3840 @@
+[
+ {
+  "id": "other-shittywall",
+  "title": "ShittyWall",
+  "type": "accessory",
+  "event": "other",
+  "event_name": "Other / unaffiliated",
+  "year": 0,
+  "makers": [
+   {
+    "name": "bbenchoff"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "From the user's 'SAOs to buy' link list (2026-09-07)."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://github.com/bbenchoff/ShittyWall",
+    "kind": "repo",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://github.com/bbenchoff/ShittyWall",
+    "title": "ShittyWall",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: tobuy-linkfile); event read as 'other'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "other-sao-nunchuck",
+  "title": "SAO Nunchuck",
+  "type": "unknown",
+  "event": "other",
+  "event_name": "Other / unaffiliated",
+  "year": 0,
+  "makers": [
+   {
+    "name": "ageppert"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "From the user's 'SAOs to buy' link list (2026-09-07)."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://github.com/ageppert/SAO_Nunchuck",
+    "kind": "repo",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://github.com/ageppert/SAO_Nunchuck",
+    "title": "SAO Nunchuck",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: tobuy-linkfile); event read as 'other'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "other-brushless-motor-biz-card",
+  "title": "Brushless Motor Biz Card",
+  "type": "other",
+  "event": "other",
+  "event_name": "Other / unaffiliated",
+  "year": 0,
+  "makers": [
+   {
+    "name": "ageppert"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "From the user's 'SAOs to buy' link list (2026-09-07)."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://github.com/ageppert/Brushless-Motor-Biz-Card",
+    "kind": "repo",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://github.com/ageppert/Brushless-Motor-Biz-Card",
+    "title": "Brushless Motor Biz Card",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: tobuy-linkfile); event read as 'other'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "other-core64-interactive-core-memory-kit",
+  "title": "Core64 Interactive Core Memory Kit",
+  "type": "kit",
+  "event": "other",
+  "event_name": "Other / unaffiliated",
+  "year": 0,
+  "makers": [
+   {
+    "name": "ageppert"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "From the user's 'SAOs to buy' link list (2026-09-07). Also sold at https://www.core64.io/buy/p/core64-interactive-core-memory-full-size-kit and https://www.core64.io/buy/p/core64c-interactive-core-memory-compact-kit"
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://github.com/ageppert/Core64",
+    "kind": "repo",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://github.com/ageppert/Core64",
+    "title": "Core64 Interactive Core Memory Kit",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: tobuy-linkfile); event read as 'other'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "other-small-word-clock",
+  "title": "Small Word Clock",
+  "type": "other",
+  "event": "other",
+  "event_name": "Other / unaffiliated",
+  "year": 0,
+  "makers": [],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "From the user's 'SAOs to buy' link list (2026-09-07)."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://hackaday.io/project/164406-small-word-clock",
+    "kind": "hackaday",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://hackaday.io/project/164406-small-word-clock",
+    "title": "Small Word Clock",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: tobuy-linkfile); event read as 'other'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "other-light-rail",
+  "title": "Light Rail",
+  "type": "other",
+  "event": "other",
+  "event_name": "Other / unaffiliated",
+  "year": 0,
+  "makers": [],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "From the user's 'SAOs to buy' link list (2026-09-07)."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://hackaday.io/project/202885-light-rail",
+    "kind": "hackaday",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://hackaday.io/project/202885-light-rail",
+    "title": "Light Rail",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: tobuy-linkfile); event read as 'other'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "mch-2022-mch2022-butterfly",
+  "title": "MCH2022 Butterfly",
+  "type": "unknown",
+  "event": "mch-2022",
+  "event_name": "MCH 2022",
+  "year": 2022,
+  "makers": [
+   {
+    "name": "tildeindustries"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "From the user's 'SAOs to buy' link list (2026-09-07)."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://github.com/tildeindustries/MCH2022-Butterfly",
+    "kind": "repo",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://github.com/tildeindustries/MCH2022-Butterfly",
+    "title": "MCH2022 Butterfly",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: tobuy-linkfile); event read as 'mch-2022'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "other-dupe-sao",
+  "title": "Dupe SAO",
+  "type": "unknown",
+  "event": "other",
+  "event_name": "Other / unaffiliated",
+  "year": 0,
+  "makers": [
+   {
+    "name": "deshipu"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "From the user's 'SAOs to buy' link list (2026-09-07)."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://github.com/deshipu/dupe-sao",
+    "kind": "repo",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://github.com/deshipu/dupe-sao",
+    "title": "Dupe SAO",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: tobuy-linkfile); event read as 'other'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "dc26-llama-sao",
+  "title": "Llama SAO",
+  "type": "unknown",
+  "event": "dc26",
+  "event_name": "DEF CON 26",
+  "year": 2018,
+  "makers": [
+   {
+    "name": "compukidmike"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "From the user's 'SAOs to buy' link list (2026-09-07)."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://github.com/compukidmike/DC26/tree/master/Llama%20SAO",
+    "kind": "repo",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://github.com/compukidmike/DC26/tree/master/Llama%20SAO",
+    "title": "Llama SAO",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: tobuy-linkfile); event read as 'dc26'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "other-notcamera-sao-rma-badge",
+  "title": "NotCamera SAO (RMA Badge)",
+  "type": "unknown",
+  "event": "other",
+  "event_name": "Other / unaffiliated",
+  "year": 0,
+  "makers": [
+   {
+    "name": "wrickert"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "From the user's 'SAOs to buy' link list (2026-09-07)."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://github.com/wrickert/RMABadge/tree/master/SAO/NotCamera",
+    "kind": "repo",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://github.com/wrickert/RMABadge/tree/master/SAO/NotCamera",
+    "title": "NotCamera SAO (RMA Badge)",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: tobuy-linkfile); event read as 'other'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "other-nerdflare-solder-challenge-26",
+  "title": "NerdFlare Solder Challenge 26",
+  "type": "other",
+  "event": "other",
+  "event_name": "Other / unaffiliated",
+  "year": 0,
+  "makers": [
+   {
+    "name": "NerdFlare"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "From the user's 'SAOs to buy' link list (2026-09-07)."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://github.com/NerdFlare/NF-SolderChallenge26",
+    "kind": "repo",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://github.com/NerdFlare/NF-SolderChallenge26",
+    "title": "NerdFlare Solder Challenge 26",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: tobuy-linkfile); event read as 'other'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "other-nerdflare-badge-26",
+  "title": "NerdFlare Badge 26",
+  "type": "unknown",
+  "event": "other",
+  "event_name": "Other / unaffiliated",
+  "year": 0,
+  "makers": [
+   {
+    "name": "NerdFlare"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "From the user's 'SAOs to buy' link list (2026-09-07)."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://github.com/NerdFlare/NerdFlareBadge26",
+    "kind": "repo",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://github.com/NerdFlare/NerdFlareBadge26",
+    "title": "NerdFlare Badge 26",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: tobuy-linkfile); event read as 'other'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "other-sparky-sao-display",
+  "title": "Sparky SAO Display",
+  "type": "unknown",
+  "event": "other",
+  "event_name": "Other / unaffiliated",
+  "year": 0,
+  "makers": [
+   {
+    "name": "NerdFlare"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "From the user's 'SAOs to buy' link list (2026-09-07)."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://github.com/NerdFlare/sparky-sao-display",
+    "kind": "repo",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://github.com/NerdFlare/sparky-sao-display",
+    "title": "Sparky SAO Display",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: tobuy-linkfile); event read as 'other'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "other-dxhub25",
+  "title": "DXHub25",
+  "type": "other",
+  "event": "other",
+  "event_name": "Other / unaffiliated",
+  "year": 0,
+  "makers": [
+   {
+    "name": "NerdFlare"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "From the user's 'SAOs to buy' link list (2026-09-07)."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://github.com/NerdFlare/DXHub25",
+    "kind": "repo",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://github.com/NerdFlare/DXHub25",
+    "title": "DXHub25",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: tobuy-linkfile); event read as 'other'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "other-sympetrum-v2",
+  "title": "Sympetrum v2",
+  "type": "unknown",
+  "event": "other",
+  "event_name": "Other / unaffiliated",
+  "year": 0,
+  "makers": [
+   {
+    "name": "borgel"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "From the user's 'SAOs to buy' link list (2026-09-07)."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://kitspace.org/borgel/sympetrum-v2",
+    "kind": "website",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://kitspace.org/borgel/sympetrum-v2",
+    "title": "Sympetrum v2",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: tobuy-linkfile); event read as 'other'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "dc26-mad-cat-backpack",
+  "title": "Mad Cat Backpack",
+  "type": "accessory",
+  "event": "dc26",
+  "event_name": "DEF CON 26",
+  "year": 2018,
+  "makers": [
+   {
+    "name": "Wireb"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "From the user's 'SAOs to buy' link list (2026-09-07)."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://github.com/Wireb/Mad_Cat_Backpack",
+    "kind": "repo",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://github.com/Wireb/Mad_Cat_Backpack",
+    "title": "Mad Cat Backpack",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: tobuy-linkfile); event read as 'dc26'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "other-mr-stash",
+  "title": "Mr Stash",
+  "type": "unknown",
+  "event": "other",
+  "event_name": "Other / unaffiliated",
+  "year": 0,
+  "makers": [
+   {
+    "name": "Wireb"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "From the user's 'SAOs to buy' link list (2026-09-07)."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://github.com/Wireb/Mr_Stash",
+    "kind": "repo",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://github.com/Wireb/Mr_Stash",
+    "title": "Mr Stash",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: tobuy-linkfile); event read as 'other'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "other-trevorforget",
+  "title": "TrevorForget",
+  "type": "unknown",
+  "event": "other",
+  "event_name": "Other / unaffiliated",
+  "year": 0,
+  "makers": [
+   {
+    "name": "AND!XOR"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "From the user's 'SAOs to buy' link list (2026-09-07). Mirror: https://github.com/hamster/trevorforget"
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://github.com/ANDnXOR/trevorforget",
+    "kind": "repo",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://github.com/ANDnXOR/trevorforget",
+    "title": "TrevorForget",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: tobuy-linkfile); event read as 'other'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "dc24-psychoholics-pin",
+  "title": "DC24 Psychoholics Pin",
+  "type": "other",
+  "event": "dc24",
+  "event_name": "DEF CON 24",
+  "year": 2016,
+  "makers": [
+   {
+    "name": "krux702"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "From the user's 'SAOs to buy' link list (2026-09-07)."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://github.com/krux702/dc24_psychoholics_pin",
+    "kind": "repo",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://github.com/krux702/dc24_psychoholics_pin",
+    "title": "DC24 Psychoholics Pin",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: tobuy-linkfile); event read as 'dc24'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "dc24-dc801-dc24-party-badge",
+  "title": "DC801 DC24 Party Badge",
+  "type": "unknown",
+  "event": "dc24",
+  "event_name": "DEF CON 24",
+  "year": 2016,
+  "makers": [
+   {
+    "name": "DC801"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "From the user's 'SAOs to buy' link list (2026-09-07). Mirror: https://github.com/hamster/DC24PartyBadge"
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://github.com/DC801/DC24PartyBadge",
+    "kind": "repo",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://github.com/DC801/DC24PartyBadge",
+    "title": "DC801 DC24 Party Badge",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: tobuy-linkfile); event read as 'dc24'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "dc31-aerospace-village-badge-2023",
+  "title": "Aerospace Village Badge 2023",
+  "type": "unknown",
+  "event": "dc31",
+  "event_name": "DEF CON 31",
+  "year": 2023,
+  "makers": [
+   {
+    "name": "Aerospace Village"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "From the user's 'SAOs to buy' link list (2026-09-07)."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://github.com/AerospaceVillage/avBadge_2023",
+    "kind": "repo",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://github.com/AerospaceVillage/avBadge_2023",
+    "title": "Aerospace Village Badge 2023",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: tobuy-linkfile); event read as 'dc31'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "other-dumb-badge",
+  "title": "Dumb Badge",
+  "type": "unknown",
+  "event": "other",
+  "event_name": "Other / unaffiliated",
+  "year": 0,
+  "makers": [
+   {
+    "name": "bbenchoff"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "From the user's 'SAOs to buy' link list (2026-09-07)."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://github.com/bbenchoff/Dumb-Badge",
+    "kind": "repo",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://github.com/bbenchoff/Dumb-Badge",
+    "title": "Dumb Badge",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: tobuy-linkfile); event read as 'other'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "other-scryptkeeper",
+  "title": "ScryptKeeper",
+  "type": "unknown",
+  "event": "other",
+  "event_name": "Other / unaffiliated",
+  "year": 0,
+  "makers": [
+   {
+    "name": "HTHackers"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "From the user's 'SAOs to buy' link list (2026-09-07)."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://github.com/HTHackers/ScryptKeeper",
+    "kind": "repo",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://github.com/HTHackers/ScryptKeeper",
+    "title": "ScryptKeeper",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: tobuy-linkfile); event read as 'other'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "other-hth-elite-2019-badge",
+  "title": "HTH Elite 2019 Badge",
+  "type": "unknown",
+  "event": "other",
+  "event_name": "Other / unaffiliated",
+  "year": 0,
+  "makers": [
+   {
+    "name": "HTHackers"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "From the user's 'SAOs to buy' link list (2026-09-07)."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://github.com/HTHackers/HTH-Elite-2019-Badge",
+    "kind": "repo",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://github.com/HTHackers/HTH-Elite-2019-Badge",
+    "title": "HTH Elite 2019 Badge",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: tobuy-linkfile); event read as 'other'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "cyphercon-2022-cyphercon-5-3-badge-2022",
+  "title": "CypherCon 5.3 Badge (2022)",
+  "type": "unknown",
+  "event": "cyphercon-2022",
+  "event_name": "Cyphercon 2022",
+  "year": 2022,
+  "makers": [
+   {
+    "name": "Wireb"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "From the user's 'SAOs to buy' link list (2026-09-07)."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://github.com/Wireb/Cyphercon-5_3-2022",
+    "kind": "repo",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://github.com/Wireb/Cyphercon-5_3-2022",
+    "title": "CypherCon 5.3 Badge (2022)",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: tobuy-linkfile); event read as 'cyphercon-2022'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "dc27-bowtie-and-screwdriver-badge",
+  "title": "Bowtie and Screwdriver Badge",
+  "type": "unknown",
+  "event": "dc27",
+  "event_name": "DEF CON 27",
+  "year": 2019,
+  "makers": [
+   {
+    "name": "compukidmike"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "From the user's 'SAOs to buy' link list (2026-09-07)."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://github.com/compukidmike/dc27/tree/master/Bowtie%20and%20Screwdriver%20Badge",
+    "kind": "repo",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://github.com/compukidmike/dc27/tree/master/Bowtie%20and%20Screwdriver%20Badge",
+    "title": "Bowtie and Screwdriver Badge",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: tobuy-linkfile); event read as 'dc27'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "dc28-compukidmike-dc28-badge",
+  "title": "compukidmike DC28 badge",
+  "type": "unknown",
+  "event": "dc28",
+  "event_name": "DEF CON 28 (Safe Mode)",
+  "year": 2020,
+  "makers": [
+   {
+    "name": "compukidmike"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "From the user's 'SAOs to buy' link list (2026-09-07)."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://github.com/compukidmike/dc28",
+    "kind": "repo",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://github.com/compukidmike/dc28",
+    "title": "compukidmike DC28 badge",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: tobuy-linkfile); event read as 'dc28'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "other-minibadge-specification",
+  "title": "Minibadge specification",
+  "type": "other",
+  "event": "other",
+  "event_name": "Other / unaffiliated",
+  "year": 0,
+  "makers": [
+   {
+    "name": "compukidmike"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "From the user's 'SAOs to buy' link list (2026-09-07)."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://github.com/compukidmike/minibadge",
+    "kind": "repo",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://github.com/compukidmike/minibadge",
+    "title": "Minibadge specification",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: tobuy-linkfile); event read as 'other'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "dc29-compukidmike-dc29-badge",
+  "title": "compukidmike DC29 badge",
+  "type": "unknown",
+  "event": "dc29",
+  "event_name": "DEF CON 29",
+  "year": 2021,
+  "makers": [
+   {
+    "name": "compukidmike"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "From the user's 'SAOs to buy' link list (2026-09-07)."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://github.com/compukidmike/Defcon29",
+    "kind": "repo",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://github.com/compukidmike/Defcon29",
+    "title": "compukidmike DC29 badge",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: tobuy-linkfile); event read as 'dc29'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "saintcon-2018-saintcon-2018-badge-compukidmike",
+  "title": "SAINTCON 2018 badge (compukidmike)",
+  "type": "unknown",
+  "event": "saintcon-2018",
+  "event_name": "Saintcon 2018",
+  "year": 2018,
+  "makers": [
+   {
+    "name": "compukidmike"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "From the user's 'SAOs to buy' link list (2026-09-07)."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://github.com/compukidmike/Saintcon2018",
+    "kind": "repo",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://github.com/compukidmike/Saintcon2018",
+    "title": "SAINTCON 2018 badge (compukidmike)",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: tobuy-linkfile); event read as 'saintcon-2018'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "saintcon-2019-saintcon-2019-badge-compukidmike",
+  "title": "SAINTCON 2019 badge (compukidmike)",
+  "type": "unknown",
+  "event": "saintcon-2019",
+  "event_name": "Saintcon 2019",
+  "year": 2019,
+  "makers": [
+   {
+    "name": "compukidmike"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "From the user's 'SAOs to buy' link list (2026-09-07)."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://github.com/compukidmike/Saintcon2019",
+    "kind": "repo",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://github.com/compukidmike/Saintcon2019",
+    "title": "SAINTCON 2019 badge (compukidmike)",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: tobuy-linkfile); event read as 'saintcon-2019'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "saintcon-2020-saintcon-2020-badge-compukidmike",
+  "title": "SAINTCON 2020 badge (compukidmike)",
+  "type": "unknown",
+  "event": "saintcon-2020",
+  "event_name": "Saintcon 2020",
+  "year": 2020,
+  "makers": [
+   {
+    "name": "compukidmike"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "From the user's 'SAOs to buy' link list (2026-09-07)."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://github.com/compukidmike/Saintcon2020",
+    "kind": "repo",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://github.com/compukidmike/Saintcon2020",
+    "title": "SAINTCON 2020 badge (compukidmike)",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: tobuy-linkfile); event read as 'saintcon-2020'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "saintcon-2021-saintcon-2021-badge-compukidmike",
+  "title": "SAINTCON 2021 badge (compukidmike)",
+  "type": "unknown",
+  "event": "saintcon-2021",
+  "event_name": "Saintcon 2021",
+  "year": 2021,
+  "makers": [
+   {
+    "name": "compukidmike"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "From the user's 'SAOs to buy' link list (2026-09-07)."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://github.com/compukidmike/Saintcon2021",
+    "kind": "repo",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://github.com/compukidmike/Saintcon2021",
+    "title": "SAINTCON 2021 badge (compukidmike)",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: tobuy-linkfile); event read as 'saintcon-2021'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "saintcon-2022-saintcon-2022-badge-compukidmike",
+  "title": "SAINTCON 2022 badge (compukidmike)",
+  "type": "unknown",
+  "event": "saintcon-2022",
+  "event_name": "Saintcon 2022",
+  "year": 2022,
+  "makers": [
+   {
+    "name": "compukidmike"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "From the user's 'SAOs to buy' link list (2026-09-07)."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://github.com/compukidmike/saintcon2022",
+    "kind": "repo",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://github.com/compukidmike/saintcon2022",
+    "title": "SAINTCON 2022 badge (compukidmike)",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: tobuy-linkfile); event read as 'saintcon-2022'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "saintcon-2023-saintcon-2023-badge-compukidmike",
+  "title": "SAINTCON 2023 badge (compukidmike)",
+  "type": "unknown",
+  "event": "saintcon-2023",
+  "event_name": "Saintcon 2023",
+  "year": 2023,
+  "makers": [
+   {
+    "name": "compukidmike"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "From the user's 'SAOs to buy' link list (2026-09-07)."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://github.com/compukidmike/saintcon2023",
+    "kind": "repo",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://github.com/compukidmike/saintcon2023",
+    "title": "SAINTCON 2023 badge (compukidmike)",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: tobuy-linkfile); event read as 'saintcon-2023'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "saintcon-2024-saintcon-2024-badge-compukidmike",
+  "title": "SAINTCON 2024 badge (compukidmike)",
+  "type": "unknown",
+  "event": "saintcon-2024",
+  "event_name": "Saintcon 2024",
+  "year": 2024,
+  "makers": [
+   {
+    "name": "compukidmike"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "From the user's 'SAOs to buy' link list (2026-09-07)."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://github.com/compukidmike/Saintcon2024",
+    "kind": "repo",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://github.com/compukidmike/Saintcon2024",
+    "title": "SAINTCON 2024 badge (compukidmike)",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: tobuy-linkfile); event read as 'saintcon-2024'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "saintcon-2025-saintcon-2025-badge-compukidmike",
+  "title": "SAINTCON 2025 badge (compukidmike)",
+  "type": "unknown",
+  "event": "saintcon-2025",
+  "event_name": "Saintcon 2025",
+  "year": 2025,
+  "makers": [
+   {
+    "name": "compukidmike"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "From the user's 'SAOs to buy' link list (2026-09-07)."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://github.com/compukidmike/Saintcon2025",
+    "kind": "repo",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://github.com/compukidmike/Saintcon2025",
+    "title": "SAINTCON 2025 badge (compukidmike)",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: tobuy-linkfile); event read as 'saintcon-2025'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "dc33-untitled-electronics-def-con-33-badge",
+  "title": "Untitled Electronics DEF CON 33 badge",
+  "type": "unknown",
+  "event": "dc33",
+  "event_name": "DEF CON 33",
+  "year": 2025,
+  "makers": [
+   {
+    "name": "wrickert"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "From the user's 'SAOs to buy' link list (2026-09-07)."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://github.com/wrickert/UntitledElectronics/tree/main/Badges/Defcon33",
+    "kind": "repo",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://github.com/wrickert/UntitledElectronics/tree/main/Badges/Defcon33",
+    "title": "Untitled Electronics DEF CON 33 badge",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: tobuy-linkfile); event read as 'dc33'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "dc32-untitled-electronics-def-con-32-badge",
+  "title": "Untitled Electronics DEF CON 32 badge",
+  "type": "unknown",
+  "event": "dc32",
+  "event_name": "DEF CON 32",
+  "year": 2024,
+  "makers": [
+   {
+    "name": "wrickert"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "From the user's 'SAOs to buy' link list (2026-09-07)."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://github.com/wrickert/UntitledElectronics/tree/main/Badges/Defcon32",
+    "kind": "repo",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://github.com/wrickert/UntitledElectronics/tree/main/Badges/Defcon32",
+    "title": "Untitled Electronics DEF CON 32 badge",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: tobuy-linkfile); event read as 'dc32'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "other-wrickert-badge",
+  "title": "wrickert badge",
+  "type": "unknown",
+  "event": "other",
+  "event_name": "Other / unaffiliated",
+  "year": 0,
+  "makers": [
+   {
+    "name": "wrickert"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "From the user's 'SAOs to buy' link list (2026-09-07)."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://github.com/wrickert/badge",
+    "kind": "repo",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://github.com/wrickert/badge",
+    "title": "wrickert badge",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: tobuy-linkfile); event read as 'other'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "other-rickrio",
+  "title": "RickRio",
+  "type": "unknown",
+  "event": "other",
+  "event_name": "Other / unaffiliated",
+  "year": 0,
+  "makers": [
+   {
+    "name": "wrickert"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "From the user's 'SAOs to buy' link list (2026-09-07)."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://github.com/wrickert/RickRio",
+    "kind": "repo",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://github.com/wrickert/RickRio",
+    "title": "RickRio",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: tobuy-linkfile); event read as 'other'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "dc31-tooth-badge",
+  "title": "DEF CON 31 Tooth badge",
+  "type": "unknown",
+  "event": "dc31",
+  "event_name": "DEF CON 31",
+  "year": 2023,
+  "makers": [
+   {
+    "name": "wrickert"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "From the user's 'SAOs to buy' link list (2026-09-07)."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://github.com/wrickert/Defcon31-Tooth",
+    "kind": "repo",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://github.com/wrickert/Defcon31-Tooth",
+    "title": "DEF CON 31 Tooth badge",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: tobuy-linkfile); event read as 'dc31'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "other-uncut-gem-quantum-village",
+  "title": "Uncut Gem (Quantum Village)",
+  "type": "unknown",
+  "event": "other",
+  "event_name": "Other / unaffiliated",
+  "year": 0,
+  "makers": [
+   {
+    "name": "Quantum Village"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "From the user's 'SAOs to buy' link list (2026-09-07)."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://github.com/QuantumVillage/UncutGem",
+    "kind": "repo",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://github.com/QuantumVillage/UncutGem",
+    "title": "Uncut Gem (Quantum Village)",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: tobuy-linkfile); event read as 'other'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "northsec-2025-northsec-2025-badge",
+  "title": "NorthSec 2025 badge",
+  "type": "unknown",
+  "event": "northsec-2025",
+  "event_name": "Northsec 2025",
+  "year": 2025,
+  "makers": [
+   {
+    "name": "NorthSec"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "From the user's 'SAOs to buy' link list (2026-09-07)."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://github.com/nsec/nsec-badge/tree/nsec25",
+    "kind": "repo",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://github.com/nsec/nsec-badge/tree/nsec25",
+    "title": "NorthSec 2025 badge",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: tobuy-linkfile); event read as 'northsec-2025'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "northsec-2023-northsec-2023-badge",
+  "title": "NorthSec 2023 badge",
+  "type": "unknown",
+  "event": "northsec-2023",
+  "event_name": "Northsec 2023",
+  "year": 2023,
+  "makers": [
+   {
+    "name": "NorthSec"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "From the user's 'SAOs to buy' link list (2026-09-07)."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://github.com/nsec/badge-conf-2023",
+    "kind": "repo",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://github.com/nsec/badge-conf-2023",
+    "title": "NorthSec 2023 badge",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: tobuy-linkfile); event read as 'northsec-2023'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "dc25-dc-darknet-def-con-25-badge",
+  "title": "DC Darknet DEF CON 25 badge",
+  "type": "unknown",
+  "event": "dc25",
+  "event_name": "DEF CON 25",
+  "year": 2017,
+  "makers": [
+   {
+    "name": "DC Darknet"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "From the user's 'SAOs to buy' link list (2026-09-07)."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://github.com/thedarknet/defcon25-badge",
+    "kind": "repo",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://github.com/thedarknet/defcon25-badge",
+    "title": "DC Darknet DEF CON 25 badge",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: tobuy-linkfile); event read as 'dc25'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "dc24-dc-darknet-def-con-24-badge",
+  "title": "DC Darknet DEF CON 24 badge",
+  "type": "unknown",
+  "event": "dc24",
+  "event_name": "DEF CON 24",
+  "year": 2016,
+  "makers": [
+   {
+    "name": "DC Darknet"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "From the user's 'SAOs to buy' link list (2026-09-07)."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://github.com/thedarknet/defcon24",
+    "kind": "repo",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://github.com/thedarknet/defcon24",
+    "title": "DC Darknet DEF CON 24 badge",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: tobuy-linkfile); event read as 'dc24'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "other-bcoin-2024",
+  "title": "BCoin 2024",
+  "type": "other",
+  "event": "other",
+  "event_name": "Other / unaffiliated",
+  "year": 0,
+  "makers": [
+   {
+    "name": "youngd24"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "From the user's 'SAOs to buy' link list (2026-09-07)."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://github.com/youngd24/BCoin2024",
+    "kind": "repo",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://github.com/youngd24/BCoin2024",
+    "title": "BCoin 2024",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: tobuy-linkfile); event read as 'other'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "other-queercon-16-badge",
+  "title": "Queercon 16 badge",
+  "type": "unknown",
+  "event": "other",
+  "event_name": "Other / unaffiliated",
+  "year": 0,
+  "makers": [
+   {
+    "name": "duplico"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "From the user's 'SAOs to buy' link list (2026-09-07)."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://github.com/duplico/qc16_badge",
+    "kind": "repo",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://github.com/duplico/qc16_badge",
+    "title": "Queercon 16 badge",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: tobuy-linkfile); event read as 'queercon-2019'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "other-dc-sdr-badge",
+  "title": "DC SDR badge",
+  "type": "unknown",
+  "event": "other",
+  "event_name": "Other / unaffiliated",
+  "year": 0,
+  "makers": [
+   {
+    "name": "AlexandreRouma"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "From the user's 'SAOs to buy' link list (2026-09-07)."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://github.com/AlexandreRouma/dc_sdr",
+    "kind": "repo",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://github.com/AlexandreRouma/dc_sdr",
+    "title": "DC SDR badge",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: tobuy-linkfile); event read as 'other'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "bornhack-2016-bornhack-2016-badge",
+  "title": "BornHack 2016 badge",
+  "type": "unknown",
+  "event": "bornhack-2016",
+  "event_name": "Bornhack 2016",
+  "year": 2016,
+  "makers": [
+   {
+    "name": "BornHack"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "From the user's 'SAOs to buy' link list (2026-09-07)."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://github.com/bornhack/badge2016",
+    "kind": "repo",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://github.com/bornhack/badge2016",
+    "title": "BornHack 2016 badge",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: tobuy-linkfile); event read as 'bornhack-2016'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "bornhack-2019-bornhack-2019-badge",
+  "title": "BornHack 2019 badge",
+  "type": "unknown",
+  "event": "bornhack-2019",
+  "event_name": "Bornhack 2019",
+  "year": 2019,
+  "makers": [
+   {
+    "name": "BornHack"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "From the user's 'SAOs to buy' link list (2026-09-07)."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://github.com/bornhack/badge2019",
+    "kind": "repo",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://github.com/bornhack/badge2019",
+    "title": "BornHack 2019 badge",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: tobuy-linkfile); event read as 'bornhack-2019'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "bornhack-2020-bornhack-2020-badge",
+  "title": "BornHack 2020 badge",
+  "type": "unknown",
+  "event": "bornhack-2020",
+  "event_name": "Bornhack 2020",
+  "year": 2020,
+  "makers": [
+   {
+    "name": "BornHack"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "From the user's 'SAOs to buy' link list (2026-09-07)."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://github.com/bornhack/badge2020",
+    "kind": "repo",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://github.com/bornhack/badge2020",
+    "title": "BornHack 2020 badge",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: tobuy-linkfile); event read as 'bornhack-2020'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "bornhack-2021-bornhack-2021-badge",
+  "title": "BornHack 2021 badge",
+  "type": "unknown",
+  "event": "bornhack-2021",
+  "event_name": "Bornhack 2021",
+  "year": 2021,
+  "makers": [
+   {
+    "name": "BornHack"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "From the user's 'SAOs to buy' link list (2026-09-07)."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://github.com/bornhack/badge2021",
+    "kind": "repo",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://github.com/bornhack/badge2021",
+    "title": "BornHack 2021 badge",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: tobuy-linkfile); event read as 'bornhack-2021'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "bornhack-2022-bornhack-2022-badge",
+  "title": "BornHack 2022 badge",
+  "type": "unknown",
+  "event": "bornhack-2022",
+  "event_name": "Bornhack 2022",
+  "year": 2022,
+  "makers": [
+   {
+    "name": "BornHack"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "From the user's 'SAOs to buy' link list (2026-09-07)."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://github.com/bornhack/badge2022",
+    "kind": "repo",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://github.com/bornhack/badge2022",
+    "title": "BornHack 2022 badge",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: tobuy-linkfile); event read as 'bornhack-2022'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "bornhack-2023-bornhack-2023-badge",
+  "title": "BornHack 2023 badge",
+  "type": "unknown",
+  "event": "bornhack-2023",
+  "event_name": "Bornhack 2023",
+  "year": 2023,
+  "makers": [
+   {
+    "name": "BornHack"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "From the user's 'SAOs to buy' link list (2026-09-07)."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://github.com/bornhack/badge2023",
+    "kind": "repo",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://github.com/bornhack/badge2023",
+    "title": "BornHack 2023 badge",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: tobuy-linkfile); event read as 'bornhack-2023'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "bornhack-2025-bornhack-2025-badge",
+  "title": "BornHack 2025 badge",
+  "type": "unknown",
+  "event": "bornhack-2025",
+  "event_name": "Bornhack 2025",
+  "year": 2025,
+  "makers": [
+   {
+    "name": "BornHack"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "From the user's 'SAOs to buy' link list (2026-09-07)."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://github.com/bornhack/badge2025",
+    "kind": "repo",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://github.com/bornhack/badge2025",
+    "title": "BornHack 2025 badge",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: tobuy-linkfile); event read as 'bornhack-2025'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "other-beepbadge",
+  "title": "beepBadge",
+  "type": "unknown",
+  "event": "other",
+  "event_name": "Other / unaffiliated",
+  "year": 0,
+  "makers": [
+   {
+    "name": "lle"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "From the user's 'SAOs to buy' link list (2026-09-07)."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://github.com/lle/beepBadge",
+    "kind": "repo",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://github.com/lle/beepBadge",
+    "title": "beepBadge",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: tobuy-linkfile); event read as 'other'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "dc26-flying-skull-badge",
+  "title": "Flying Skull Badge",
+  "type": "unknown",
+  "event": "dc26",
+  "event_name": "DEF CON 26",
+  "year": 2018,
+  "makers": [
+   {
+    "name": "b1uN7"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "From the user's 'SAOs to buy' link list (2026-09-07)."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://github.com/b1uN7/DEFCON-26-Flying-Skull-Badge",
+    "kind": "repo",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://github.com/b1uN7/DEFCON-26-Flying-Skull-Badge",
+    "title": "Flying Skull Badge",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: tobuy-linkfile); event read as 'dc26'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "dc31-def-con-shoot-31-badge",
+  "title": "DEF CON Shoot 31 Badge",
+  "type": "unknown",
+  "event": "dc31",
+  "event_name": "DEF CON 31",
+  "year": 2023,
+  "makers": [
+   {
+    "name": "seeess"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "From the user's 'SAOs to buy' link list (2026-09-07)."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://github.com/seeess/Defcon-Shoot-31-Badge",
+    "kind": "repo",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://github.com/seeess/Defcon-Shoot-31-Badge",
+    "title": "DEF CON Shoot 31 Badge",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: tobuy-linkfile); event read as 'dc31'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "dc32-def-con-shoot-32-badge",
+  "title": "DEF CON Shoot 32 Badge",
+  "type": "unknown",
+  "event": "dc32",
+  "event_name": "DEF CON 32",
+  "year": 2024,
+  "makers": [
+   {
+    "name": "seeess"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "From the user's 'SAOs to buy' link list (2026-09-07)."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://github.com/seeess/Defcon-Shoot-32-Badge",
+    "kind": "repo",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://github.com/seeess/Defcon-Shoot-32-Badge",
+    "title": "DEF CON Shoot 32 Badge",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: tobuy-linkfile); event read as 'dc32'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "dc33-def-con-shoot-33-badge",
+  "title": "DEF CON Shoot 33 Badge",
+  "type": "unknown",
+  "event": "dc33",
+  "event_name": "DEF CON 33",
+  "year": 2025,
+  "makers": [
+   {
+    "name": "seeess"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "From the user's 'SAOs to buy' link list (2026-09-07)."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://github.com/seeess/Defcon-Shoot-33-Badge",
+    "kind": "repo",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://github.com/seeess/Defcon-Shoot-33-Badge",
+    "title": "DEF CON Shoot 33 Badge",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: tobuy-linkfile); event read as 'dc33'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "other-dc801-def-con-23-badge",
+  "title": "DC801 DEF CON 23 badge",
+  "type": "unknown",
+  "event": "other",
+  "event_name": "Other / unaffiliated",
+  "year": 0,
+  "makers": [
+   {
+    "name": "DC801"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "From the user's 'SAOs to buy' link list (2026-09-07)."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://github.com/hamster/DefCon23",
+    "kind": "repo",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://github.com/hamster/DefCon23",
+    "title": "DC801 DEF CON 23 badge",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: tobuy-linkfile); event read as 'dc23'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "other-dc801-saintcon-badge",
+  "title": "DC801 SAINTCON badge",
+  "type": "unknown",
+  "event": "other",
+  "event_name": "Other / unaffiliated",
+  "year": 0,
+  "makers": [
+   {
+    "name": "DC801"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "From the user's 'SAOs to buy' link list (2026-09-07)."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://github.com/hamster/SAINTCON",
+    "kind": "repo",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://github.com/hamster/SAINTCON",
+    "title": "DC801 SAINTCON badge",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: tobuy-linkfile); event read as 'other'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "dc30-dc801-def-con-30-badge",
+  "title": "DC801 DEF CON 30 badge",
+  "type": "unknown",
+  "event": "dc30",
+  "event_name": "DEF CON 30",
+  "year": 2022,
+  "makers": [
+   {
+    "name": "DC801"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "From the user's 'SAOs to buy' link list (2026-09-07)."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://github.com/hamster/defcon30",
+    "kind": "repo",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://github.com/hamster/defcon30",
+    "title": "DC801 DEF CON 30 badge",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: tobuy-linkfile); event read as 'dc30'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "dc27-dc801-def-con-27-badge",
+  "title": "DC801 DEF CON 27 badge",
+  "type": "unknown",
+  "event": "dc27",
+  "event_name": "DEF CON 27",
+  "year": 2019,
+  "makers": [
+   {
+    "name": "DC801"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "From the user's 'SAOs to buy' link list (2026-09-07)."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://github.com/hamster/Defcon27-Badge",
+    "kind": "repo",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://github.com/hamster/Defcon27-Badge",
+    "title": "DC801 DEF CON 27 badge",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: tobuy-linkfile); event read as 'dc27'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "dc26-dc801-def-con-26-badge",
+  "title": "DC801 DEF CON 26 badge",
+  "type": "unknown",
+  "event": "dc26",
+  "event_name": "DEF CON 26",
+  "year": 2018,
+  "makers": [
+   {
+    "name": "DC801"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "From the user's 'SAOs to buy' link list (2026-09-07)."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://github.com/hamster/Defcon26-Badge",
+    "kind": "repo",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://github.com/hamster/Defcon26-Badge",
+    "title": "DC801 DEF CON 26 badge",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: tobuy-linkfile); event read as 'dc26'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "other-mass-warp-gate-badge",
+  "title": "Mass Warp Gate Badge",
+  "type": "unknown",
+  "event": "other",
+  "event_name": "Other / unaffiliated",
+  "year": 0,
+  "makers": [
+   {
+    "name": "seeigecannon"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "From the user's 'SAOs to buy' link list (2026-09-07)."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://github.com/seeigecannon/MassWarpGateBadge",
+    "kind": "repo",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://github.com/seeigecannon/MassWarpGateBadge",
+    "title": "Mass Warp Gate Badge",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: tobuy-linkfile); event read as 'other'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "other-austin-hackers-association-badge",
+  "title": "Austin Hackers Association badge",
+  "type": "unknown",
+  "event": "other",
+  "event_name": "Other / unaffiliated",
+  "year": 0,
+  "makers": [
+   {
+    "name": "Austin Hackers Association"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "From the user's 'SAOs to buy' link list (2026-09-07)."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://github.com/AustinHackers/ahabadge",
+    "kind": "repo",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://github.com/AustinHackers/ahabadge",
+    "title": "Austin Hackers Association badge",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: tobuy-linkfile); event read as 'other'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "other-bike-badge",
+  "title": "Bike Badge",
+  "type": "unknown",
+  "event": "other",
+  "event_name": "Other / unaffiliated",
+  "year": 0,
+  "makers": [
+   {
+    "name": "securelyfitz"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "From the user's 'SAOs to buy' link list (2026-09-07)."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://github.com/securelyfitz/bikebadge",
+    "kind": "repo",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://github.com/securelyfitz/bikebadge",
+    "title": "Bike Badge",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: tobuy-linkfile); event read as 'other'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "other-pnp-badge",
+  "title": "PnP Badge",
+  "type": "unknown",
+  "event": "other",
+  "event_name": "Other / unaffiliated",
+  "year": 0,
+  "makers": [
+   {
+    "name": "securelyfitz"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "From the user's 'SAOs to buy' link list (2026-09-07)."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://github.com/securelyfitz/pnpbadge",
+    "kind": "repo",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://github.com/securelyfitz/pnpbadge",
+    "title": "PnP Badge",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: tobuy-linkfile); event read as 'other'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "other-securelyfitz-2018-badge",
+  "title": "securelyfitz 2018 badge",
+  "type": "unknown",
+  "event": "other",
+  "event_name": "Other / unaffiliated",
+  "year": 0,
+  "makers": [
+   {
+    "name": "securelyfitz"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "From the user's 'SAOs to buy' link list (2026-09-07)."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://github.com/securelyfitz/badge-2018",
+    "kind": "repo",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://github.com/securelyfitz/badge-2018",
+    "title": "securelyfitz 2018 badge",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: tobuy-linkfile); event read as 'other'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "other-tiaracon-2016-badge",
+  "title": "TiaraCon 2016 badge",
+  "type": "unknown",
+  "event": "other",
+  "event_name": "Other / unaffiliated",
+  "year": 0,
+  "makers": [
+   {
+    "name": "securelyfitz"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "From the user's 'SAOs to buy' link list (2026-09-07)."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://github.com/securelyfitz/tiaracon2016",
+    "kind": "repo",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://github.com/securelyfitz/tiaracon2016",
+    "title": "TiaraCon 2016 badge",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: tobuy-linkfile); event read as 'tiaracon-2016'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "other-jar-of-fireflies",
+  "title": "Jar of Fireflies",
+  "type": "other",
+  "event": "other",
+  "event_name": "Other / unaffiliated",
+  "year": 0,
+  "makers": [
+   {
+    "name": "securelyfitz"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "From the user's 'SAOs to buy' link list (2026-09-07)."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://github.com/securelyfitz/JarOfFireflies",
+    "kind": "repo",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://github.com/securelyfitz/JarOfFireflies",
+    "title": "Jar of Fireflies",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: tobuy-linkfile); event read as 'other'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "other-nyan-pirate",
+  "title": "Nyan Pirate",
+  "type": "other",
+  "event": "other",
+  "event_name": "Other / unaffiliated",
+  "year": 0,
+  "makers": [
+   {
+    "name": "securelyfitz"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "From the user's 'SAOs to buy' link list (2026-09-07)."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://github.com/securelyfitz/nyan-pirate",
+    "kind": "repo",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://github.com/securelyfitz/nyan-pirate",
+    "title": "Nyan Pirate",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: tobuy-linkfile); event read as 'other'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "other-kermie",
+  "title": "Kermie",
+  "type": "unknown",
+  "event": "other",
+  "event_name": "Other / unaffiliated",
+  "year": 0,
+  "makers": [
+   {
+    "name": "scdickson"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "From the user's 'SAOs to buy' link list (2026-09-07)."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://github.com/scdickson/Kermie",
+    "kind": "repo",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://github.com/scdickson/Kermie",
+    "title": "Kermie",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: tobuy-linkfile); event read as 'other'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "dc32-crest-badge",
+  "title": "DC32 Crest Badge",
+  "type": "unknown",
+  "event": "dc32",
+  "event_name": "DEF CON 32",
+  "year": 2024,
+  "makers": [
+   {
+    "name": "badgelife"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "From the user's 'SAOs to buy' link list (2026-09-07)."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://github.com/badgelife/dc32-crest-badge",
+    "kind": "repo",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://github.com/badgelife/dc32-crest-badge",
+    "title": "DC32 Crest Badge",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: tobuy-linkfile); event read as 'dc32'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "dc25-dczia-def-con-25-badge",
+  "title": "DCZia DEF CON 25 badge",
+  "type": "unknown",
+  "event": "dc25",
+  "event_name": "DEF CON 25",
+  "year": 2017,
+  "makers": [
+   {
+    "name": "DCZia"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "From the user's 'SAOs to buy' link list (2026-09-07)."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://github.com/dczia/Defcon25-Badge",
+    "kind": "repo",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://github.com/dczia/Defcon25-Badge",
+    "title": "DCZia DEF CON 25 badge",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: tobuy-linkfile); event read as 'dc25'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "other-waifu-badge",
+  "title": "Waifu Badge",
+  "type": "unknown",
+  "event": "other",
+  "event_name": "Other / unaffiliated",
+  "year": 0,
+  "makers": [
+   {
+    "name": "Waifus4Lifu"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "From the user's 'SAOs to buy' link list (2026-09-07)."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://github.com/Waifus4Lifu/waifu-badge",
+    "kind": "repo",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://github.com/Waifus4Lifu/waifu-badge",
+    "title": "Waifu Badge",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: tobuy-linkfile); event read as 'other'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "other-osh-park-shared-project-xlzw21nt",
+  "title": "OSH Park shared project xlZW21Nt",
+  "type": "other",
+  "event": "other",
+  "event_name": "Other / unaffiliated",
+  "year": 0,
+  "makers": [],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "From the user's 'SAOs to buy' link list (2026-09-07)."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://oshpark.com/shared_projects/xlZW21Nt",
+    "kind": "fab",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://oshpark.com/shared_projects/xlZW21Nt",
+    "title": "OSH Park shared project xlZW21Nt",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: tobuy-linkfile); event read as 'other'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "other-osh-park-shared-project-rb3wuxmt",
+  "title": "OSH Park shared project rb3WUxmT",
+  "type": "other",
+  "event": "other",
+  "event_name": "Other / unaffiliated",
+  "year": 0,
+  "makers": [],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "From the user's 'SAOs to buy' link list (2026-09-07)."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://oshpark.com/shared_projects/rb3WUxmT",
+    "kind": "fab",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://oshpark.com/shared_projects/rb3WUxmT",
+    "title": "OSH Park shared project rb3WUxmT",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: tobuy-linkfile); event read as 'other'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "other-switch-ornament-reference",
+  "title": "Switch Ornament Reference",
+  "type": "other",
+  "event": "other",
+  "event_name": "Other / unaffiliated",
+  "year": 0,
+  "makers": [
+   {
+    "name": "scottbez1"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "From the user's 'SAOs to buy' link list (2026-09-07)."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://github.com/scottbez1/SwitchOrnamentReference",
+    "kind": "repo",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://github.com/scottbez1/SwitchOrnamentReference",
+    "title": "Switch Ornament Reference",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: tobuy-linkfile); event read as 'other'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ }
+]

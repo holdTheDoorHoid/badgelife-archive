@@ -12,7 +12,7 @@ makers:
 - name: DC801
   url: https://github.com/dc801
 summary: A BLE-enabled hardware badge DC801 built for DEF CON 26, built around a Rigado BMD-300 (Nordic nRF52832) module with an SPI LCD, speaker, seven buttons, microSD storage, and two SAO/minibadge headers.
-functions: 'Firmware and specific badge functions ("what''s it do? Awesome things") are not documented in the repo README beyond pointing to the Software directory; concrete functions such as games or CTF elements were not found.'
+functions: Firmware and specific badge functions ("what's it do? Awesome things") are not documented in the repo README beyond pointing to the Software directory; concrete functions such as games or CTF elements were not found.
 look:
   colors: []
   shape: null
@@ -36,7 +36,7 @@ get_one:
   distribution: []
   where: ''
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/dc801/DC26PartyBadge/tree/master/Hardware
   firmware_url: https://github.com/dc801/DC26PartyBadge/tree/master/Software
   eda_tool: KiCad
@@ -44,6 +44,9 @@ links:
 - label: github.com/dc801/DC26PartyBadge
   url: https://github.com/dc801/DC26PartyBadge
   kind: repo
+- label: Source files (GitHub)
+  url: https://github.com/hamster/DC26PartyBadge
+  kind: hardware
 images: []
 contact: {}
 notes: []
@@ -56,7 +59,7 @@ sources:
   note: 'Found by the archive''s discovery sweep (angle: maker-groups); event read as ''DEF CON 26''.'
 - kind: url
   url: https://raw.githubusercontent.com/dc801/DC26PartyBadge/master/README.md
-  title: 'DC801 DC26 Party Badge README'
+  title: DC801 DC26 Party Badge README
   accessed: '2026-09-07'
   note: Confirms hardware spec (Rigado BMD-300/nRF52832, SPI LCD, speaker, 6 buttons + 1 hidden, microSD, 2 SAO connectors, 2 minibadges, LiPo charger, KiCad design) and that firmware/hardware are both published open source; does not state price, quantity, or exact release date.
 - kind: url
@@ -68,7 +71,7 @@ research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'Only source found is the maker''s own GitHub repo; no press coverage, storefront, or photos of the assembled badge were located. Price, quantity made, and exact distribution method (party badge implies free/attendee giveaway at a DC801 event, but this is not stated by the source) are unknown. LED presence/count is not mentioned anywhere in the repo. The KiCad board file is named "dragon-joke" but no shape/theme claim is made from that alone. No image URLs were found to save.'
+  notes: Only source found is the maker's own GitHub repo; no press coverage, storefront, or photos of the assembled badge were located. Price, quantity made, and exact distribution method (party badge implies free/attendee giveaway at a DC801 event, but this is not stated by the source) are unknown. LED presence/count is not mentioned anywhere in the repo. The KiCad board file is named "dragon-joke" but no shape/theme claim is made from that alone. No image URLs were found to save.
 last_modified_date: '2026-09-07'
 ---
 

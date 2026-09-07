@@ -56,12 +56,15 @@ links:
 - kind: repo
   label: dczia/Defcon31-Badge on GitHub
   url: https://github.com/dczia/Defcon31-Badge
+  archived: https://web.archive.org/web/20260523084138/https://github.com/dczia/Defcon31-Badge
 - kind: website
   label: DC Zia
   url: https://dczia.net/
+  archived: https://web.archive.org/web/20260514004509/https://dczia.net/
 - kind: article
   label: 'Hackaday: Nostalgic 30-in-ONE Electronics Badge For DEF CON 30 (background on DC Zia)'
   url: https://hackaday.com/2022/12/09/nostalgic-30-in-one-electronics-badge-for-def-con-30/
+  archived: https://web.archive.org/web/20260411141156/https://hackaday.com/2022/12/09/nostalgic-30-in-one-electronics-badge-for-def-con-30/
 - label: 'Tindie: DCZia Electric Sampler'
   url: https://www.tindie.com/products/hamster/dczia-electric-sampler/
   kind: store
@@ -75,6 +78,7 @@ images:
   source: https://dczia.net/
   credit: DC Zia
   caption: The Electric Sampler badge, DC Zia's DEF CON 31 (2023) eurorack-format sampler/sequencer badge
+  archived: https://web.archive.org/web/20260514004509/https://dczia.net/
 - file: assets/images/badges/dc31/electric-sampler-badge/7f5ceab44c.jpg
   source: https://www.tindie.com/products/hamster/dczia-electric-sampler/
   credit: snurkle engineering / DCZia
@@ -100,16 +104,19 @@ sources:
   title: dczia/Defcon31-Badge - DCZia DC31 Badge
   accessed: '2026-09-06'
   note: Primary source for specs, README/build guide, hardware files (KiCad, BOM), and firmware/software organization.
+  archived: https://web.archive.org/web/20260523084138/https://github.com/dczia/Defcon31-Badge
 - kind: url
   url: https://dczia.net/
   title: DC Zia - Badge Creators
   accessed: '2026-09-06'
   note: Confirmed the Electric Sampler is DC Zia's 2023/DEF CON 31 badge, its one-paragraph description, and the source photo.
+  archived: https://web.archive.org/web/20260514004509/https://dczia.net/
 - kind: url
   url: https://hackaday.com/2022/12/09/nostalgic-30-in-one-electronics-badge-for-def-con-30/
   title: Nostalgic 30-in-ONE Electronics Badge For DEF CON 30
   accessed: '2026-09-06'
   note: Background on DC Zia as a group and led to their GitHub org/website (used to find the DC31 badge, since this article itself covers DC30).
+  archived: https://web.archive.org/web/20260411141156/https://hackaday.com/2022/12/09/nostalgic-30-in-one-electronics-badge-for-def-con-30/
 - kind: url
   url: https://www.tindie.com/products/hamster/dczia-electric-sampler/
   title: DCZia Electric Sampler - snurkle engineering

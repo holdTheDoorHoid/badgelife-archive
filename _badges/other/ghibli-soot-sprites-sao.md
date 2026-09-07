@@ -34,7 +34,7 @@ get_one:
   distribution: []
   where: ''
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/davedarko/Simple-Add-ons-SAO/tree/main/Ghibli/Soot%20Sprites
   firmware_url: null
   eda_tool: KiCad
@@ -48,6 +48,9 @@ links:
 - label: Simple Add-ons (SAO) — Hackaday.io
   url: https://hackaday.io/project/175182-simple-add-ons-sao
   kind: hackaday
+- label: Project page (Hackaday.io)
+  url: https://hackaday.io/project/205207-soot-sprite-simple-add-on-sao
+  kind: project
 images: []
 contact: {}
 notes:
@@ -63,7 +66,7 @@ sources:
   url: https://raw.githubusercontent.com/davedarko/Simple-Add-ons-SAO/main/README.md
   title: Simple-Add-ons-SAO README
   accessed: '2026-09-07'
-  note: 'Repo-wide table lists "Ghibli/Soot Sprites | SAO | yes(Eagle) | - | A susuwatari simple add-on"; describes the shared v1.69bis 2x3-pin SAO header used across all designs in the repo; no event/year given for this item.'
+  note: Repo-wide table lists "Ghibli/Soot Sprites | SAO | yes(Eagle) | - | A susuwatari simple add-on"; describes the shared v1.69bis 2x3-pin SAO header used across all designs in the repo; no event/year given for this item.
 - kind: url
   url: https://github.com/davedarko/Simple-Add-ons-SAO/tree/main/Ghibli/Soot%20Sprites
   title: Ghibli/Soot Sprites design folder
@@ -73,17 +76,18 @@ sources:
   url: https://raw.githubusercontent.com/davedarko/Simple-Add-ons-SAO/main/Ghibli/Soot%20Sprites/soot/soot.kicad_sch
   title: soot.kicad_sch (schematic source)
   accessed: '2026-09-07'
-  note: 'Schematic contains only a CR2032 battery holder (BT1), one resistor (R1), the 2x3 SAO header (J1), test points, and power symbols — no MCU and no LED footprint on the PCB itself, confirmed by cross-checking the .kicad_pcb footprint list.'
+  note: Schematic contains only a CR2032 battery holder (BT1), one resistor (R1), the 2x3 SAO header (J1), test points, and power symbols — no MCU and no LED footprint on the PCB itself, confirmed by cross-checking the .kicad_pcb footprint list.
 - kind: url
   url: https://hackaday.io/project/175182-simple-add-ons-sao
   title: Simple Add-ons (SAO) — Hackaday.io
   accessed: '2026-09-07'
-  note: "Davedarko's umbrella Hackaday.io page for the SAO standard and his badge collection; does not mention the Ghibli/Soot Sprites design specifically, but is the maker's own reference page for the standard this board uses."
+  note: Davedarko's umbrella Hackaday.io page for the SAO standard and his badge collection; does not mention the Ghibli/Soot Sprites design specifically, but is the maker's own reference page for the standard this board uses.
 research:
   status: verified
   confidence: low
   last_checked: '2026-09-07'
-  notes: "Fact-check pass (2026-09-07): re-fetched all cited sources (repo root, README table, the Ghibli/Soot Sprites folder and its nested soot/ subfolder and production/ subfolder, the soot.kicad_sch and soot.kicad_pcb source, and the Hackaday.io SAO page) and confirmed every remaining claim -- the README's Eagle-only claim for this design conflicting with the actual KiCad files present, the schematic/PCB parts list (BT1 CR2032 holder, R1, J1 2x3 header, TP1-4, no LED, no MCU), the production/ subfolder holding netlist.ipc and soot.zip, and the Kompeito.scad candy shell with an LED socket cutout. No event, year, price, quantity, or availability is stated anywhere for this item, so event was left as \"other\" per the research guide. No photo of the assembled board was found; the repo only contains CAD/vector source files, so no images could be saved. tech.leds is left empty since the discrete-LED-in-3D-printed-shell setup is inferred from separate design files rather than stated directly by the maker."
+  notes: 'Fact-check pass (2026-09-07): re-fetched all cited sources (repo root, README table, the Ghibli/Soot Sprites folder and its nested soot/ subfolder and production/ subfolder, the soot.kicad_sch and soot.kicad_pcb source, and the Hackaday.io SAO page) and confirmed every remaining claim -- the README''s Eagle-only claim for this design conflicting with the actual KiCad files present, the schematic/PCB parts list (BT1 CR2032 holder, R1, J1 2x3 header, TP1-4, no LED, no MCU), the production/ subfolder holding netlist.ipc and soot.zip, and the Kompeito.scad candy shell with an LED socket cutout. No event, year, price, quantity, or availability is stated anywhere for this item, so event was left as "other" per the research guide. No photo of the assembled board was found; the repo only contains CAD/vector source files, so no images could be saved. tech.leds is left empty since the discrete-LED-in-3D-printed-shell setup is inferred from separate design files rather than stated directly
+    by the maker.'
 last_modified_date: '2026-09-07'
 ---
 

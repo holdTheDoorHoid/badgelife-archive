@@ -46,6 +46,9 @@ links:
   url: https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/
   kind: article
   archived: https://web.archive.org/web/20260513003300/https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/
+- label: Source files (GitHub)
+  url: https://github.com/seeigecannon/DC27EnterpriseBadge
+  kind: hardware
 images:
 - file: assets/images/badges/dc27/enterprise-badge-dc27/280d61384a.jpg
   source: https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/

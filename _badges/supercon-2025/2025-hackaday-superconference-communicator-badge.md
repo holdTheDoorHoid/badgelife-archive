@@ -56,6 +56,9 @@ links:
 - label: hackaday.com/2025/10/27/the-supercon-2025-badge-is-built-to-be-customized
   url: https://hackaday.com/2025/10/27/the-supercon-2025-badge-is-built-to-be-customized/
   kind: article
+- label: Source files (GitHub)
+  url: https://github.com/eosti/2025-Communicator_Badge
+  kind: hardware
 images:
 - file: assets/images/badges/supercon-2025/2025-hackaday-superconference-communicator-badge/79db150746.png
   source: https://github.com/Hack-a-Day/2025-Communicator_Badge
