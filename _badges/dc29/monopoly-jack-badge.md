@@ -70,10 +70,21 @@ sources:
   accessed: '2026-09-07'
   note: Product description, price ($35), sold-out status, 3D-printed/no-electronics construction, filament/color options, seller location (Lakewood, CO).
 research:
-  status: researched
+  status: verified
   confidence: high
   last_checked: '2026-09-07'
-  notes: No hardware/firmware files exist since this is a plain 3D-printed piece with no electronics; make_your_own and tech fields left null/none accordingly. Exact production quantity for this specific design was not stated by the maker.
+  notes: >-
+    No hardware/firmware files exist since this is a plain 3D-printed piece with no electronics;
+    make_your_own and tech fields left null/none accordingly. Exact production quantity for this
+    specific design was not stated by the maker. Fact-check pass (2026-09-07) confirmed price,
+    sold-out status, the "3D Printing & CNC" category (no electronics), the HODL/crypto and
+    pandemic-quarantine framing, filament/color options, and nameplate customization directly
+    against the Tindie listing (fetched live and via raw HTML/JSON-LD), and confirmed the saved
+    photo matches (top hats, monocles, "DEFCON 29" text). The related Jack-series titles named in
+    the entry's notes were independently confirmed this pass -- New Jack (DC27) from a companion
+    research report, and King Jack (DC30), Pirate Jack (DC31), AI Jack (DC33) via search, all
+    matching technick Tindie listings -- but those series links are not yet added to sources or
+    links here, since this pass only verified the Monopoly Jack item itself.
 last_modified_date: '2026-09-07'
 ---
 

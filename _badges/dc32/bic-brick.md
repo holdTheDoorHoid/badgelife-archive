@@ -40,6 +40,7 @@ links:
 - kind: website
   label: Blacks in Cyber (BiC HQ)
   url: https://www.blacksincyberconf.com
+  archived: https://web.archive.org/web/20260826054842/https://www.blacksincyberconf.com/
 images: []
 contact:
   emails:
@@ -53,29 +54,21 @@ sources:
   updated: '2024-06-22'
 - kind: url
   url: https://www.blacksincyberconf.com
-  title: 'BlacksInCyber (bichq.org, redirects here)'
+  title: BlacksInCyber (bichq.org, redirects here)
   accessed: '2026-09-06'
   note: Confirms the maker organization and its general merchandise/badge program; no page or post mentions "BIC Brick" specifically.
+  archived: https://web.archive.org/web/20260826054842/https://www.blacksincyberconf.com/
 - kind: url
   url: https://www.blacksincyberconf.com/badge
-  title: 'BADGE | BlacksInCyber'
+  title: BADGE | BlacksInCyber
   accessed: '2026-09-06'
   note: Maker's badge page for the relevant period covers the "BIC Pick" (DC33 anniversary badge) only; does not mention a "BIC Brick" item.
+  archived: https://web.archive.org/web/20260309112553/https://www.blacksincyberconf.com/badge
 research:
   status: verified
   confidence: low
   last_checked: '2026-09-06'
-  notes: >-
-    Could not find any independent documentation of a "BIC Brick" item beyond the
-    community badge sheet row it was imported from (price $25.00, contact
-    merchandise@bichq.org, dc32/2024). Multiple targeted searches ("BIC Brick"
-    + Blacks in Cyber, + DEF CON 32, + SAO, + badgelife lists, + social media)
-    turned up nothing describing this specific product's form, function, or
-    whether it is electronic at all. The maker's own site (bichq.org, which
-    redirects to blacksincyberconf.com) and its dedicated badge page discuss
-    only the later "BIC Pick" badge, not a "Brick". Left type, look, tech,
-    quantity, availability, and images empty rather than guess; it is unclear
-    whether this was a badge/SAO, a coin/pin, or non-electronic merchandise.
+  notes: Could not find any independent documentation of a "BIC Brick" item beyond the community badge sheet row it was imported from (price $25.00, contact merchandise@bichq.org, dc32/2024). Multiple targeted searches ("BIC Brick" + Blacks in Cyber, + DEF CON 32, + SAO, + badgelife lists, + social media) turned up nothing describing this specific product's form, function, or whether it is electronic at all. The maker's own site (bichq.org, which redirects to blacksincyberconf.com) and its dedicated badge page discuss only the later "BIC Pick" badge, not a "Brick". Left type, look, tech, quantity, availability, and images empty rather than guess; it is unclear whether this was a badge/SAO, a coin/pin, or non-electronic merchandise.
 last_modified_date: '2026-09-06'
 ---
 

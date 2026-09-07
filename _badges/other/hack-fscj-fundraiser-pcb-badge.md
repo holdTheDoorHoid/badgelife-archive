@@ -83,10 +83,10 @@ sources:
   accessed: '2026-09-07'
   note: 'Preview link returned HTTP 403 (preview tokens require the creator''s session); could not confirm whether the campaign ever launched or what it offered.'
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-07'
-  notes: 'The Hackaday.io project page never grew past a stub: no build log, no photos of the actual badge, no specs, no confirmed price or quantity. Could not verify whether the Kickstarter campaign launched or the badge was ever produced/distributed. No matching event exists in events.yml for a Hack@FSCJ / FSCJ-specific event; this looks like a student-club fundraiser rather than a badge made for a named conference, so it is left under "other" and status set to unknown rather than listed/released.'
+  notes: 'Fact-check pass (2026-09-07): re-fetched the Hackaday.io project page directly (curl) and confirmed the exact og:description/twitter:description text (Facebook, Twitter, Kickstarter-preview, PayPal links), the "created on 08/04/2017" date, and all four team members with matching hacker profile URLs (Kirball as project owner/id 237349, adamcwhooper/id 238022, a.a.Ron aka aaron/id 238040, gabriel licina/id 344798) via the page''s own HTML. Note: the page labels Kirball "Project owner" rather than the entry''s "project lead" wording -- treated as equivalent since Kirball is the sole listed creator. Re-fetched facebook.com/HackFSCJ (confirms org name "Hack@FSCJ" and Jacksonville, FL location only, no post content) and re-attempted the Kickstarter preview link and twitter.com/hackfscj, both still unreachable (403/redirect-blocked) so the campaign''s launch status remains unconfirmed. All remaining non-empty fields and body sentences are supported by these sources; nothing was found to contradict or required blanking. The page never grew past a stub (no build log, no badge photos, no specs, no price/quantity), so those fields stay empty and status stays "unknown" rather than listed/released. No matching event exists in events.yml for a Hack@FSCJ-specific event, so it stays filed under "other".'
 last_modified_date: '2026-09-07'
 ---
 

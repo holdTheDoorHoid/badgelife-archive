@@ -72,34 +72,39 @@ sources:
   url: https://github.com/car-hacking-village/CHV_SAO_Specification
   title: CHV SAO Specification
   accessed: '2026-09-07'
-  note: 'CHV''s SAO connector is a 6-pin SAO bis v1.69 footprint repurposing the two I2C pins as CAN TX/RX, which is why this SAO talks CAN bus instead of I2C.'
+  note: 'CHV''s SAO connector is a 6-pin SAO bis v1.69 footprint: VCC/GND on pins 1-2, the normal I2C pins (3-4) are left not-connected, and CAN TX/RX are exposed on pins 5-6 (the standard''s GPIO1/GPIO2), which is why this SAO talks CAN bus instead of I2C.'
 - kind: url
   url: https://github.com/car-hacking-village
   title: Car Hacking Village GitHub org
   accessed: '2026-09-07'
   note: 'Confirmed the org''s badge lineage (DC31, DC32, DC33) and that DC32_CHV_Speedometer_Firmware is filed under the 2024/DC32 badge set, fixing the event/year as DC32 2024.'
 research:
-  status: researched
+  status: verified
   confidence: medium
   last_checked: '2026-09-07'
   notes: >-
-    Confirmed via the maker's own firmware repo and the Car Hacking Village CTF challenge writeup
-    that this is a DEF CON 32 (2024) Car Hacking Village SAO built on ESP32 with an ST7565 LCD,
-    made by Uberwoozle, with a "cat mode" battle feature (two SAOs fight over CAN bus) and a
-    speedometer display mode, and that it hosts the "RPS FTW (Speedometer SAO)" CTF challenge.
+    Fact-check pass (2026-09-07): re-fetched all four cited sources plus the raw firmware repo
+    tree/files on GitHub. Confirmed directly: ESP32 target (sdkconfig.defaults' "ESP32-specific"
+    section, main.c's ESP-IDF/FreeRTOS includes), the st7565.c/catface_helper.c/speedometer_helper.c/
+    can_helper.c/cat_battle_msgs.c file set, CAN bus via the ESP32 TWAI driver, a rock-paper-scissors
+    cat-battle exchange (cat_battle_msgs.c's get_rps/didWinRPS), a speedometer needle-angle lookup
+    table (speedometer_helper.c), the MIT license, the CTF challenge "RPS FTW (Speedometer SAO)"
+    submitted by Uberwoozle with a flag hidden in the on-board font library, and the org's DC31/32/33
+    badge lineage. One error was found and corrected: the CHV SAO spec does NOT repurpose the SAO's
+    I2C pins for CAN. Per the spec's own pin table, pins 3-4 (the normal I2C pins) are left
+    not-connected, and CAN TX/RX instead run on pins 5-6 (the standard's two general-purpose GPIOs).
+    Sources and body text were corrected accordingly.
     No hardware repo, price, quantity, LED count, board color/shape, or photo of the physical SAO
     was found; only firmware-embedded animation frames (image/*.bmp in the repo) were located, and
-    those are display assets, not photos of the item, so no image was saved.
-    This entry is very likely a duplicate of dc32-speedometer-sao-not-a-cat, which already carries a
-    $50 price, "village" distribution via the CHV booth, and near-identical functions (LCD display,
-    speedometer, cat battles) for the same maker (Uberwoozle) and event; that entry's price/vendor
-    details ($50, sold at the CHV booth) were not independently found in this run's sources, so they
-    were not copied over here, but the technical findings from the firmware repo (ESP32, ST7565 LCD,
-    CAN bus, MIT license) are new and not present in that other entry.
+    those are display assets, not photos of the item, so no image was saved. `tech.connectivity` is
+    left empty because CAN bus is not in the guide's allowed connectivity vocabulary.
+    This entry is very likely a duplicate of dc32-speedometer-sao-not-a-cat (same maker, event, LCD
+    display, and cat-battle function); left as a flagged duplicate per the researcher's note and the
+    guide's "do not touch other entries" rule — not merged or deleted here.
 last_modified_date: '2026-09-07'
 ---
 
-Uberwoozle's Speedometer SAO was made for the Car Hacking Village (CHV) at DEF CON 32 (2024). Under the hood it is an ESP32 driving a monochrome LCD through an ST7565 controller, and it talks CAN bus rather than I2C over its SAO connector — CHV's own SAO spec repurposes the usual I2C pins on the SAO bis v1.69 footprint for CAN TX/RX, so any two CHV SAOs (or a SAO and the CHV main badge) can exchange CAN messages. The badge has (at least) two modes: a straightforward speedometer readout on the LCD, and a "cat mode" where two Speedometer SAOs battle each other over CAN in a rock-paper-scissors-style exchange, complete with cat faces on the display.
+Uberwoozle's Speedometer SAO was made for the Car Hacking Village (CHV) at DEF CON 32 (2024). Under the hood it is an ESP32 driving a monochrome LCD through an ST7565 controller, and it talks CAN bus rather than I2C over its SAO connector — CHV's own SAO spec leaves the usual I2C pins on the SAO bis v1.69 footprint unconnected and instead runs CAN TX/RX over the pins normally used for two general-purpose GPIOs, so any two CHV SAOs (or a SAO and the CHV main badge) can exchange CAN messages. The badge has (at least) two modes: a straightforward speedometer readout on the LCD, and a "cat mode" where two Speedometer SAOs battle each other over CAN in a rock-paper-scissors-style exchange, complete with cat faces on the display.
 
 The SAO also doubles as a CTF puzzle. Car Hacking Village's DC32 challenge set lists "RPS FTW (Speedometer SAO)," submitted by Uberwoozle, as a medium/hard reverse-engineering and exploitation challenge: competitors are given the firmware and have to work out how sending a crafted speed value and a bad rock-paper-scissors response can be used to leak a flag that is hidden as offsets into the badge's own font library, decoded by reading what gets printed to the LCD. The firmware for the SAO is published on GitHub under the MIT license and includes both the CTF problem and the intended solution notes; no separate hardware/Gerbers repository for the board itself was found.
 

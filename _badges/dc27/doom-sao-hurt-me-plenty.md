@@ -76,15 +76,16 @@ sources:
   accessed: '2026-09-07'
   note: Hardware/firmware repo; confirms chip (ATSAMD21G18A), display (ST7789 1.3" 240x240), I2C address 0x50, license.
 research:
-  status: researched
+  status: verified
   confidence: high
   last_checked: '2026-09-07'
-  notes: Price and quantity made were not stated on either the Hackaday.io log or the GitHub repo, so those fields are left empty. The board has no addressable/discrete LEDs of its own (all visual output is via the LCD), so tech.leds is left null rather than guessed.
+  notes: >-
+    Price and quantity made were not stated on either the Hackaday.io log or the GitHub repo, so those fields are left empty. The board has no addressable/discrete LEDs of its own (all visual output is via the LCD), so tech.leds is left null rather than guessed. Fact-check found one of the two saved images (5d7167109e.jpg) was not a photo of this SAO at all -- it was an unrelated AND!XOR badge packaging/warning-label graphic -- so it was deleted and removed from the entry; only the genuine board photo (f24f10311b.jpg, showing the ATSAMD21 MCU, USB-C connector, and "DOOM"/"Longhorn 2018" silkscreen) remains. The "where sold" text was also corrected -- the Hackaday.io log says remaining stock went to the Hacker Warehouse vendor booth at DEF CON 27, not AND!XOR's own vendor table. All other fields (maker, MCU, display, connectivity, SAO version, I2C address, functions/auto-mode/health/anger/EEPROM/I2C+UART sniffing, license, open-source status) were directly confirmed against the Hackaday.io log and the GitHub repo README.
 last_modified_date: '2026-09-07'
 ---
 
 The DOOM SAO "Hurt Me Plenty" is a Shitty Add-On built by Parker Dillmann (LonghornEngineer, working under the handle Cr4bf04m) for AND!XOR's DEF CON 27 badge in 2019. Rather than being a purely decorative add-on, it's a hardware-hacking tool disguised as a game reference: a 1.3" color LCD renders an animated DOOM Guy face whose expression and "health" respond to real I2C traffic passing across the SAO bus, while the board simultaneously acts as a passive sniffer for the I2C and UART lines connecting the host badge to its other add-ons.
 
-Under the hood it runs an Arduino-compatible Microchip ATSAMD21G18A, talks over the SAO v1.69bis (6-pin) standard, and exposes a USB-C connector for a serial terminal used to configure it and view sniffed traffic. Settings and captured state are held in EEPROM, and the board can also run standalone in an "auto mode" when it isn't attached to a badge. It was sold through AND!XOR's own shop and at their DEF CON 27 vendor table.
+Under the hood it runs an Arduino-compatible Microchip ATSAMD21G18A, talks over the SAO v1.69bis (6-pin) standard, and exposes a USB-C connector for a serial terminal used to configure it and view sniffed traffic. Settings and captured state are held in EEPROM, and the board can also run standalone in an "auto mode" when it isn't attached to a badge. It was sold through AND!XOR's own shop, with remaining stock taken to the Hacker Warehouse vendor booth at DEF CON 27.
 
 Hardware and firmware are both open source on GitHub under the Apache License 2.0 (released after a short embargo following DEF CON 27), making it a documented, buildable reference design for anyone who wants a bus-sniffing SAO of their own.

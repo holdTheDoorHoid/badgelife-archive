@@ -12,7 +12,7 @@ makers:
 - name: Cyber Professionals Enthusiast Club
   url: https://cpec.club
 summary: An open-source SAO carrying the Cyber Professionals Enthusiast Club (CPEC) logo, made for DEF CON 34.
-functions: 'Six discrete red LEDs cycle through button-selectable patterns (clockwise, counterclockwise, flash, random), with the current mode saved to EEPROM.'
+functions: 'Four of the board''s six red LEDs cycle through button-selectable patterns (clockwise, counterclockwise, flash, random), with the current mode saved to EEPROM; the firmware code does not appear to drive the remaining two LEDs.'
 look:
   colors: []
   shape: null
@@ -23,7 +23,7 @@ tech:
   leds:
     count: 6
     type: discrete
-    note: 0603 SMD red LEDs (D1-D6)
+    note: 0603 SMD red LEDs (D1-D6); firmware only actively drives D1-D4 in the flash-pattern logic
   display: none
   connectivity: []
   battery: null
@@ -51,7 +51,7 @@ images: []
 contact: {}
 notes:
 - Spotted by a research agent while working on a neighbouring entry (run 2).
-status: released
+status: announced
 sources:
 - kind: url
   url: https://github.com/Cyber-Professionals-Enthusiast-Club/DC34-CPEC-SAO
@@ -79,13 +79,13 @@ sources:
   accessed: '2026-09-07'
   note: 'Club''s own site (under construction) confirms the club name and IRC/community focus; no pricing, quantity, or photos of the SAO.'
 research:
-  status: researched
+  status: verified
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'Design files (KiCad board/schematic, Arduino firmware, BOM, art) are fully published on GitHub, confirming this is a real, built SAO rather than a concept, so status was raised to "released". No photo of the assembled board was found anywhere (the repo only has vector logo art), and no source states price, quantity made, or how it was distributed at DEF CON 34 -- those fields are left empty rather than guessed. The club''s own site (cpec.club) is a bare "under construction" placeholder with no badge information.'
+  notes: 'Fact-check pass corrected two points from the prior research draft. (1) status was changed from "released" back to "announced": the repo publishes complete design files, but per the guide''s own vocabulary "released" means people have the item, and no source (repo or cpec.club) shows a photo of an assembled unit or any distribution/sale detail -- publishing files is not the same as confirmed distribution. (2) The claim that "six" LEDs cycle through the flash patterns was not supported: the firmware (DC34-CPEC-SAO-Firmware.ino) only calls digitalWrite on GPIO 0-3 (four pins) inside the pattern logic, while the schematic shows six LEDs (D1-D6) and net labels IO1-IO5, so D5 and D6 are not part of the animation the firmware drives. Also worth noting: the firmware file''s own header comments describe it as "DC34-Mech-SAO-Firmware ... for the small mech weapon boards ... configured by different resistors on individual boards" -- likely reused/copy-pasted from the club''s separate Mech-SAO product (a different entry in this archive) rather than written fresh for this board, though the README and repo structure do specifically tie this repository to the CPEC logo SAO for DEF CON 34. No photo of the assembled board was found anywhere (the repo only has vector logo art), and no source states price, quantity made, or distribution at DEF CON 34 -- those fields remain empty. The club''s own site (cpec.club) is a bare "under construction" placeholder with no badge information. With these two corrections, everything remaining in the entry is supported by a source that was read.'
 last_modified_date: '2026-09-07'
 ---
 
-The DC34-CPEC-SAO is a Shitty Add-On badge carrying the logo of the Cyber Professionals Enthusiast Club (CPEC), designed for DEF CON 34. The board is built around an Adafruit-style ATtiny816 (programmed over UPDI with megaTinyCore), driving six discrete 0603 red LEDs. A single button cycles the LED animation through four modes -- clockwise, counterclockwise, flash, and random -- with the selected mode persisted to EEPROM so it survives a power cycle.
+The DC34-CPEC-SAO is a Shitty Add-On badge carrying the logo of the Cyber Professionals Enthusiast Club (CPEC), designed for DEF CON 34. The board is built around an Adafruit-style ATtiny816 (programmed over UPDI with megaTinyCore) and populates six discrete 0603 red LEDs, though the published firmware's animation logic only drives four of them. A single button cycles the LED animation through four modes -- clockwise, counterclockwise, flash, and random -- with the selected mode persisted to EEPROM so it survives a power cycle.
 
 CPEC published the complete design as open hardware and firmware on GitHub: a KiCad 6 board and schematic, an Arduino sketch, a JLCPCB-formatted BOM and pick-and-place file, and the vector art used for the CPEC logo silkscreen/panel. No photos of an assembled unit, pricing, quantity produced, or distribution details (e.g. free giveaway vs. sold) were found in the repository or on the club's own site, which was still a bare "under construction" placeholder at time of research.

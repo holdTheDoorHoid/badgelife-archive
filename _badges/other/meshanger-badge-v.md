@@ -45,11 +45,7 @@ links:
 - label: hackaday.io/project/9777-meshenger-badge (original project)
   url: https://hackaday.io/project/9777-meshenger-badge
   kind: hackaday
-images:
-- file: assets/images/badges/other/meshanger-badge-v/6958262819.jpg
-  source: "https://hackaday.io/project/176020-meshanger-badge-v"
-  credit: "Gee Bartlett"
-  caption: "Meshanger Badge V project image"
+images: []
 contact: {}
 notes:
 - Spotted by a research agent while working on a neighbouring entry (run 2).
@@ -71,18 +67,21 @@ sources:
   accessed: '2026-09-07'
   note: The earlier ESP8266-based project this one reboots; notes it was inspired by radio badges seen at EMF Camp and other events, but was never a badge made for a specific con.
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-07'
   notes: >-
-    This is a personal Hackaday.io project, not a con-distributed badge: no price, quantity made,
-    or availability is stated, and there is no evidence it was produced or handed out at any event.
-    The maker's original 2016 Meshenger Badge (ESP8266) says it was "inspired by the radio badges
-    from EFM/EMF Camp and other events," but that is inspiration, not a commission for EMF Camp, so
-    event is left as 'other' rather than corrected to an EMF Camp id. LEDs, display, battery, price,
-    and design-file links are not stated on the project page and are left empty. Fields left empty:
-    tech.leds, tech.display, tech.battery, tech.sao_version, get_one.price/quantity/where,
-    make_your_own.* (no repo or gerbers linked).
+    Fact-check pass (2026-09-07): re-fetched both hackaday.io project pages and confirmed maker
+    (Gee Bartlett), MCU (ESP32-C3 with WiFi/BLE 5.0), and that Meshanger Badge V is a reboot of the
+    maker's 2016 ESP8266 Meshenger Badge, which the maker describes as "inspired by the radio badges
+    from EFM Camp and other events" (not a commission for EMF Camp), so event correctly stays 'other'.
+    Removed the one saved image (6958262819.jpg): its id does not appear anywhere in either project
+    page's HTML (checked via curl), and the picture itself shows a PCB silkscreened "ESP12-F" and
+    "CH340G" — an ESP8266/USB-serial layout, not the ESP32-C3 this entry is about — so it was
+    mis-sourced and could not be verified as depicting this item; images field is now empty. This is
+    a personal Hackaday.io project, not a con-distributed badge: no price, quantity, availability,
+    LEDs, display, battery, or design-file links are stated on either source page, so those fields
+    stay empty. Remaining fields/sentences are all supported by the two cited source pages.
 last_modified_date: '2026-09-07'
 ---
 

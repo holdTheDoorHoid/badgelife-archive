@@ -86,10 +86,10 @@ sources:
   accessed: '2026-09-07'
   note: 'The maker''s actual live project page (correct path includes /database/); source of concept, three-variant split, personalities/controls, hardware specs, and firmware/schematic links.'
 research:
-  status: researched
+  status: verified
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'Maker''s own project page confirms hardware, firmware, and functions in detail, so most fields are high-confidence, but nothing on the page states price, quantity made, or how/whether it was distributed (sold, given away, contest), hence availability stays unknown and confidence is capped at medium. No photo of the physical board was found anywhere in the linked sources. look.colors/shape and get_one fields left empty for the same reason.'
+  notes: 'Fact-check pass (2026-09-07): re-fetched both cited sources. Confirmed the sheet''s original URL (https://basic.truecontrol.org/dc34/retro-memories/) 404s, and confirmed the live project page (https://basic.truecontrol.org/database/dc34/retro-memories/) supports every populated field -- MCU (RP2350A), LEDs (4x rear-firing RGB), display (1bpp OLED), USB-C power, accelerometer/magnetometer inputs, the three personalities and their controls (nametag/screensaver unfinished, Mac/After Dark emulator, magnet-controlled DOOM), the three artwork variants (Retro Tech, Whiskey Pirates, Ultra Compact), DEF CON 34 event/year, and all four linked repos (hardware + 3 firmware), which were also checked directly and all return HTTP 200. No price, quantity, or distribution info appears anywhere, and no product photos of the physical board exist in either source, so those fields correctly stay empty. Confidence held at medium (not high) because price/quantity/availability/distribution remain unknown and no photo could be found, per the research guide. Note for a future pass: a separate entry at _badges/dc34/retro-memories-26-addon.md appears to cover this same physical item (same maker/MCU/LEDs/display, sourced from Uberflux with photos, price $55, and sold-out status) -- likely a duplicate that should be merged or cross-referenced, but out of scope for this fact-check task.'
 last_modified_date: '2026-09-07'
 redirect_from:
 - /badges/other/retro-memories-26-addon-dc34-includes-whiskey-pirates-raid-r/

@@ -10,8 +10,8 @@ event: dc27
 year: 2019
 makers:
 - name: s3gfault (TeamID64F)
-summary: A Punisher-skull-themed SAO made by TeamID64F for DEF CON 27, one of a series of movie/meme-themed SAOs the team sold that year.
-functions: Powers on with a preloaded light sequence; no interactive functions beyond its LED animation.
+summary: A Punisher-skull-themed SAO made by TeamID64F for DEF CON 27, sold alongside a DeadPool-themed SAO from the same maker.
+functions: Lights blue on the body and green for the eyes on power-up via a preloaded ATtiny85 light sequence; can also be driven directly from a host badge's MCP23017 LED driver if the badge supports it.
 look:
   colors: []
   shape: skull
@@ -21,19 +21,23 @@ look:
   - pop culture
 tech:
   mcu: ATtiny85
-  leds: null
-  display: null
+  leds:
+    count: 16
+    type: discrete
+    note: 10x blue and 6x green 1206 LEDs, driven by the ATtiny85's preloaded sequence or via an onboard MCP23017 I/O expander if the host badge supports it.
+  display: none
   connectivity: []
   battery: powered by host badge
-  sao_version: null
+  sao_version: v1.69bis
 get_one:
-  price: ''
-  price_usd: null
+  price: $10
+  price_usd: 10
   quantity: ''
   availability: sold_out
+  availability_note: Listing shows "Sold out since Jan 16, 2022"; the live product URL now 302-redirects to the store's front page (checked 2026-09-07), confirmed via an Internet Archive snapshot of the listing since the live page is blocked by Cloudflare.
   distribution:
   - purchase
-  where: Sold via TeamID64F's Tindie store (s3gfault); listing is no longer active/purchasable.
+  where: Sold via TeamID64F's Tindie store (s3gfault) for $10; listing is no longer active/purchasable.
 make_your_own:
   open_source: null
   hardware_url: null
@@ -53,20 +57,30 @@ sources:
   url: https://www.tindie.com/products/s3gfault/team-id64f-punisher-badge-sao/
   title: Punisher Badge SAO
   accessed: '2026-09-07'
-  note: 'Found by the archive''s discovery sweep (angle: research-run2-spotted); event read as ''dc27 (likely, unconfirmed)''.'
+  note: 'Found by the archive''s discovery sweep (angle: research-run2-spotted); event read as ''dc27 (likely, unconfirmed)''. Live page is Cloudflare-blocked and now 302-redirects to the store front page; content verified instead via the Internet Archive snapshot below.'
 - kind: url
   url: https://www.tindie.com/stores/s3gfault/
   title: 'Browse products by TeamID64F on Tindie'
   accessed: '2026-09-07'
-  note: 'Confirms maker TeamID64F/s3gfault and their other DC27-era SAO lineup (Red Stapler, Windows Logo, Pickle Rick, DeadPool).'
+  note: 'Live store page is Cloudflare-blocked; verified instead via the Internet Archive snapshot below, which shows only three current listings for this maker (Punisher SAO, DeadPool SAO, and a "SAO Package") — it does NOT show a Red Stapler or Windows Logo SAO, so those two could not be confirmed and were removed from the body text.'
+- kind: url
+  url: http://web.archive.org/web/20221224183500/https://www.tindie.com/products/s3gfault/team-id64f-punisher-badge-sao/
+  title: 'Team ID64F "Punisher" Badge SAO from TeamID64F on Tindie (archived Dec 2022)'
+  accessed: '2026-09-07'
+  note: 'Archived copy of the live listing, read directly (not a search snippet). Confirms: made for DefCon27; $10.00 price; "Sold out since Jan 16, 2022"; ATtiny85 microcontroller plus an MCP23017 LED driver; 10x blue + 6x green 1206 LEDs, lighting blue on the body and green for the eyes; SAO v1.69bis connector, 3.3V, compatible with "last year''s badge."'
+- kind: url
+  url: http://web.archive.org/web/20221126082446/https://www.tindie.com/stores/s3gfault/
+  title: TeamID64F Tindie store (archived Nov 2022)
+  accessed: '2026-09-07'
+  note: 'Archived copy of the store front page, read directly. Lists only the Punisher SAO, a DeadPool SAO, and a "SAO Package" bundle at that time — no Red Stapler, Windows Logo, or Pickle Rick items are shown.'
 research:
-  status: researched
-  confidence: medium
+  status: verified
+  confidence: high
   last_checked: '2026-09-07'
-  notes: 'The Tindie listing itself is behind Cloudflare bot protection and could not be fetched directly (WebFetch 403, curl returned a JS challenge page). Facts here come from search-engine indexed/cached snippets of the listing, which describe it as made for DEF CON 27, using an ATtiny85 with a preloaded light sequence (LEDs light blue on the body, green for the eyes), running on SAO 3.3V power, and no longer available for purchase. Exact price, LED count/type, and quantity made were not recoverable from the accessible snippets. No product photos could be retrieved (image URLs were not exposed in any accessible source). Event/year (DC27, 2019) matches what was already on file and is corroborated by the product being listed alongside other TeamID64F DC27 SAOs.'
+  notes: 'Fact-check pass (2026-09-07): the live Tindie listing and store page remain Cloudflare-blocked (WebFetch 403, curl returns a JS challenge; the direct product URL also 302-redirects to the store front page, consistent with the listing no longer being live). Internet Archive snapshots of both pages (Dec 2022 and Nov 2022) were read directly and confirm every fact now recorded: DEF CON 27, ATtiny85 + MCP23017 LED driver, 10 blue + 6 green 1206 LEDs, blue body/green eyes light pattern, SAO v1.69bis connector, $10 price, and "Sold out since Jan 16, 2022." The prior draft''s claim (sourced from search-engine snippets) that TeamID64F also made a Red Stapler, Windows Logo, and Pickle Rick SAO alongside this one could NOT be corroborated: the archived store page from the same era lists only this SAO, a DeadPool SAO, and a bundle "SAO Package." That sentence and those product names have been removed from the body. The DeadPool SAO mention is retained since it does appear in the archived store snapshot. LED count/type, price, and SAO version, previously left blank, are now filled in with confidence since they come from the maker''s own listing text.'
 last_modified_date: '2026-09-07'
 ---
 
-The Punisher Badge SAO is a Punisher-skull-themed add-on made by TeamID64F (Tindie seller s3gfault) for DEF CON 27 in 2019, part of a small line of movie- and meme-themed SAOs the team produced that year alongside pieces like their Red Stapler, Windows Logo, Pickle Rick, and DeadPool badges. It runs on an ATtiny85 and, per the listing, lights up on power-up with a preloaded animation — described as blue for the body with green eyes — rather than offering any interactive functions.
+The Punisher Badge SAO is a Punisher-skull-themed add-on made by TeamID64F (Tindie seller s3gfault) for DEF CON 27 in 2019, sold alongside a DeadPool-themed SAO from the same maker. It carries an ATtiny85 plus an MCP23017 LED driver feeding 10 blue and 6 green 1206 LEDs, and lights up on power-up with a preloaded animation — blue for the body, green for the eyes. If the host badge supports the MCP23017 driver, the LEDs can also be programmed directly rather than relying on the preloaded sequence. It uses a SAO v1.69bis connector at 3.3V.
 
-The SAO was sold through TeamID64F's Tindie storefront but the listing is no longer active, indicating it sold out or was otherwise discontinued after the DC27 run. No hardware or firmware files, pricing, or production-quantity figures were recoverable from available sources; the Tindie page itself sits behind bot-detection that blocked direct retrieval, so this entry relies on indexed snippets of that page plus the seller's storefront listing of contemporaneous SAOs.
+The SAO sold for $10 through TeamID64F's Tindie storefront; the listing shows it as sold out since January 16, 2022, and the listing itself is no longer reachable directly (it now redirects to the store's front page). No hardware or firmware files, or production-quantity figures, were recoverable from available sources. The live Tindie pages sit behind Cloudflare bot-detection, so this entry's facts come from Internet Archive snapshots of the product listing and storefront rather than the live pages.

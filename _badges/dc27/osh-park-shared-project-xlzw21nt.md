@@ -80,6 +80,16 @@ research:
     lists other DC26/DC27-era SAOs (Mad Cat, Fat Pika, Arc Badge) but no "OSHCat" or
     "Prince" project, so it could not be cross-referenced there. Shape/theme (cat) is
     inferred from the "OSHCat" name and the PCB silhouette visible in the saved images.
+
+    Fact-check (2026-09-07): title, maker, PCB dimensions (1.97 x 2.72 in, 2-layer), and
+    upload date were re-confirmed directly against the OSH Park page, which titles the
+    project "Prince OSHCat DEF CON 27 SAO" (kept as the entry title). However, the board's
+    own silkscreen art, visible in the saved bottom-side render, reads "Pharoah OSHCat
+    [TwinkleTwinkie - @MrTwinkleTwink]" rather than "Prince OSHCat" -- the maker's on-board
+    naming and the shared-project page's title disagree. TwinkleTwinkie's Hackaday.io
+    profile was independently re-checked and does list Mad Cat, Fat Pika, and Arc Badge but
+    no OSHCat/Prince/Pharoah project, confirming the earlier note. All other populated
+    fields and both saved images check out against their cited sources.
 last_modified_date: '2026-09-07'
 redirect_from:
 - /badges/other/osh-park-shared-project-xlzw21nt/

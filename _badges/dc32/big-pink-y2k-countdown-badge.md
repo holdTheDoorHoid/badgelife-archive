@@ -48,21 +48,23 @@ links:
 - label: Tindie.com
   url: https://Tindie.com
   kind: store
+  archived: https://web.archive.org/web/20260626024032/https://www.tindie.com/
 - label: t.co/iDbzAkaN83
   url: https://t.co/iDbzAkaN83
   kind: website
 - label: DCPunks on DEF CON Social (Mastodon)
   url: https://defcon.social/@defconpunks
   kind: social
+  archived: https://web.archive.org/web/20260506061900/https://defcon.social/@defconpunks
 images:
 - file: assets/images/badges/dc32/big-pink-y2k-countdown-badge/c1b658df9f.png
-  source: "https://www.tindie.com/products/dc_punks/dcpunks-countdown-to-y2k-badge/"
-  credit: "DC Punks"
-  caption: "DCPunks Countdown to Y2K badge, pink PCB with blue lettering"
+  source: https://www.tindie.com/products/dc_punks/dcpunks-countdown-to-y2k-badge/
+  credit: DC Punks
+  caption: DCPunks Countdown to Y2K badge, pink PCB with blue lettering
 - file: assets/images/badges/dc32/big-pink-y2k-countdown-badge/9e11ac2dce.jpg
-  source: "https://www.tindie.com/products/dc_punks/dcpunks-countdown-to-y2k-badge/"
-  credit: "DC Punks"
-  caption: "DCPunks Countdown to Y2K badge, hero product photo"
+  source: https://www.tindie.com/products/dc_punks/dcpunks-countdown-to-y2k-badge/
+  credit: DC Punks
+  caption: DCPunks Countdown to Y2K badge, hero product photo
 contact:
   raw:
   - (Mastadon Link)
@@ -76,31 +78,19 @@ sources:
   updated: ''
 - kind: url
   url: https://www.tindie.com/products/dc_punks/dcpunks-countdown-to-y2k-badge/
-  title: "DCPunks Countdown to Y2K Badge - Tindie"
+  title: DCPunks Countdown to Y2K Badge - Tindie
   accessed: '2026-09-06'
-  note: "Confirmed title, maker, price ($33.33), pink PCB with blue lettering, countdown-clock function, includes 9V battery and lanyard, sold with DEF CON 32 pickup."
+  note: Confirmed title, maker, price ($33.33), pink PCB with blue lettering, countdown-clock function, includes 9V battery and lanyard, sold with DEF CON 32 pickup.
 - kind: url
   url: https://t.co/iDbzAkaN83
-  title: "t.co redirect to defcon.social/@defconpunks"
+  title: t.co redirect to defcon.social/@defconpunks
   accessed: '2026-09-06'
-  note: "The sheet's website link is a shortened URL that redirects to the DC Punks Mastodon account; confirms the social handle."
+  note: The sheet's website link is a shortened URL that redirects to the DC Punks Mastodon account; confirms the social handle.
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-06'
-  notes: >-
-    Tindie listing confirms the badge itself (title, price, pink/blue color
-    scheme, countdown function, 9V battery + lanyard). Could not confirm the
-    MCU, LED type/count, display technology, exact quantity made, open-source
-    status, or current stock/availability - the product page did not mention
-    a chip, LED part, or display, and the DC Punks Mastodon account
-    (defcon.social/@defconpunks) returned a 403 to automated fetches, so
-    those details are left empty rather than guessed. A web search summary
-    described this as "the official DEF CON 32 badge," but that appears to
-    be a search-engine misreading of DC Punks' own Y2K theming (which
-    matches DEF CON 32's Y2K visual identity) rather than a maker or DEF CON
-    claim; it is not repeated here since it could not be verified against a
-    primary source and DEF CON's own badge is a separate, distinct item.
+  notes: Tindie listing confirms the badge itself (title, price, pink/blue color scheme, countdown function, 9V battery + lanyard). Could not confirm the MCU, LED type/count, display technology, exact quantity made, open-source status, or current stock/availability - the product page did not mention a chip, LED part, or display, and the DC Punks Mastodon account (defcon.social/@defconpunks) returned a 403 to automated fetches, so those details are left empty rather than guessed. A web search summary described this as "the official DEF CON 32 badge," but that appears to be a search-engine misreading of DC Punks' own Y2K theming (which matches DEF CON 32's Y2K visual identity) rather than a maker or DEF CON claim; it is not repeated here since it could not be verified against a primary source and DEF CON's own badge is a separate, distinct item.
 last_modified_date: '2026-09-06'
 ---
 

@@ -87,10 +87,10 @@ sources:
   accessed: '2026-09-07'
   note: 'Repo confirms Trinket M0 MCU, KiCad PCB design files, Python firmware, and MIT license.'
 research:
-  status: researched
+  status: verified
   confidence: medium
   last_checked: '2026-09-07'
-  notes: Could not confirm LED count/type, display, price, quantity made, or current availability from any source. Exact interactive functions beyond "blinkey lights" are not spelled out on the maker's page. Event assignment (dc27 vs. an unlisted 3000 Society id) is a judgment call; see notes above.
+  notes: Fact-checked 2026-09-07 by re-fetching all three cited sources (maker's page via curl, GitHub repo via API/README) and comparing the two saved images against the originals hosted on the maker's page (DC27_Badge_bg.jpg and 3kbadge.JPG) — both match. Every non-empty field is directly supported. Could not confirm LED count/type, display, price, or quantity made — none of the sources state them, so those fields remain empty/null, which is correct per the guide. Exact interactive functions beyond "blinkey lights" are not spelled out on the maker's page (it only says a photo "doesn't capture ... the blinkey lights"). Event assignment (dc27 vs. an unlisted 3000 Society id) remains a judgment call; see notes above.
 last_modified_date: '2026-09-07'
 redirect_from:
 - /badges/other/godzilla-vs-blade-runner-3kbadge/

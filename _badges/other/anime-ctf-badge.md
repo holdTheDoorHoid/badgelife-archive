@@ -81,10 +81,10 @@ sources:
   accessed: '2026-09-07'
   note: 'Live hackster.io page returned a Cloudflare block; used this archived snapshot for the write-up, components list, maker credit, event/maker context, and image URLs (published date, MCU, LEDs, CTF mechanics).'
 research:
-  status: researched
+  status: verified
   confidence: high
   last_checked: '2026-09-07'
-  notes: 'Maker''s own Hackster.io project page (via Wayback Machine, live site blocked by Cloudflare) confirms maker (Abhinav SP / Hackerware.io), the Raytheon/Texas Cyber Summit context, components, and CTF mechanics. No pricing, quantity-made, or distribution details were given by the source, so those fields are left empty. No SAO header is mentioned; treated as a standalone badge. Design files (hardware/firmware) are not published as far as this source shows.'
+  notes: 'Fact-check pass (2026-09-07): re-fetched the Wayback snapshot directly (WebFetch could not reach web.archive.org, so used curl) and confirmed maker (Abhinav SP / Hackerware.io, "College dropout artist, hacker and entrepreneur ... Founder, Hackerware.io"), full CTF mechanics (9600 baud, Both NL & CR, "***" to start, filesystem theme, RESET to factory-reset, secret flag unlocks blinky mode, reinsert coin cell), and the full components list (custom PCB, micro-USB B, 2 red/4 yellow/4 blue SMD LEDs reverse-mounted, CH340G SOIC16, 12.000 MHz crystal, ABOV A96S174, CR2032 holder) verbatim against the "Things used" and "Story" sections. Publish date (September 22, 2022) confirms year 2022. The Raytheon Intelligence & Space "CODEX" branding is not named anywhere in the archived page text (only generic "Raytheon" appears) but is directly visible, legibly, in the rear-PCB photo (silkscreen reading "CODEX" with the Raytheon Intelligence & Space logo) saved as this entry''s second image, so that detail is confirmed by the photo rather than the prose. No pricing, quantity-made, or distribution details were given by the source, so those fields are left empty. No SAO header is mentioned; treated as a standalone badge. Design files (hardware/firmware) are not published as far as this source shows. Both saved images were matched against attachments on the same project page.'
 last_modified_date: '2026-09-07'
 ---
 

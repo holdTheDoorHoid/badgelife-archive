@@ -35,7 +35,7 @@ tech:
   display: none
   connectivity:
   - usb
-  battery: CR2032 coin cell
+  battery: coin cell
   sao_version: null
 get_one:
   price: ''
@@ -93,21 +93,21 @@ sources:
   url: https://www.hackerware.io/sincon-dragon-solder.pdf
   title: The SINCON Dragon Badge - Soldering Tutorial
   accessed: '2026-09-07'
-  note: Confirms the badge ships pre-soldered except for the 1206 SMD LEDs attendees solder themselves; shows silkscreen text "SINCON 2025 Badge By Hackerware.io", CR2032 coin cell, USB-C port, and on/off switch.
+  note: Confirms the badge ships pre-soldered except for the 1206 SMD LEDs attendees solder themselves; shows silkscreen text "SINCON 2025 Badge By Hackerware.io", a coin-cell battery holder (size not stated), and an on/off switch. Oddly, this PDF's own text says "connecting via a micro-USB cable" even though its photos show a USB-C-shaped connector and the companion CTF PDF explicitly says "USB-C cable" three times — treated as a typo in this doc; see research.notes.
 - kind: url
   url: https://www.hackerware.io/sincon-dragon-ctf.pdf
   title: The SINCON Dragon Badge - CTF Interfacing
   accessed: '2026-09-07'
   note: Confirms 8 challenges/8 LEDs, USB-C + Arduino IDE serial monitor at 9600 baud, and the RESET command.
 research:
-  status: researched
-  confidence: medium
+  status: verified
+  confidence: high
   last_checked: '2026-09-07'
-  notes: Core facts (maker, event, year, CTF mechanics, LED count, battery, connector) confirmed from the maker's own project page and PDFs plus a detailed third-party walkthrough. No storefront, price, quantity made, MCU part number, or open-source design files were found, so those fields are left empty. No matching SINCON event id exists in _data/events.yml.
+  notes: 'Fact-check pass (2026-09-07): re-fetched hackerware.io/sincon2025 (confirmed "third conference badge" wording and the front photo, byte-for-byte the same JPEG as our saved image d11acba280.jpg, just re-encoded), both PDFs (soldering tutorial and CTF setup guide), and the Medium walkthrough via a jina.ai reader proxy (still Cloudflare-blocked for direct fetch). All 8 CTF stages/ciphers, the LED count, the soldering-then-CTF flow, the 3-second preview, the SINCON 2025 silkscreen text, USB-C + Arduino IDE + 9600 baud + RESET, and the free registration-desk distribution all check out against these sources. One correction made: the battery was listed as "CR2032 coin cell" but no source states the CR2032 size specifically (only "coin cell"/"coin battery" is shown/said) — softened to "coin cell" in tech.battery and the body. One internal disagreement noted, not treated as reason to change the entry: the soldering PDF''s own text says "connecting via a micro-USB cable" even though its photos and the companion CTF PDF (which says "USB-C cable" three times) show/state USB-C — kept USB-C as stated in functions/body since it is the better-supported reading, but flagged in the source note. No storefront, price, quantity made, MCU part number, or open-source design files were found in any source, so those fields stay empty. No matching SINCON event id exists in _data/events.yml, so it stays filed under "other" as before.'
 last_modified_date: '2026-09-07'
 ---
 
-The Dragon Badge is the third conference badge made by Hackerware.io (Abhinav Pandagale) for SINCON Singapore, issued at the 2025 event. Shaped like a stylized dragon in orange and white silkscreen, it runs on a CR2032 coin cell behind an on/off switch and connects to a computer over USB-C. Rather than shipping fully assembled, attendees solder their own row of eight 1206 SMD LEDs onto the underside at a conference soldering table before the badge does anything.
+The Dragon Badge is the third conference badge made by Hackerware.io (Abhinav Pandagale) for SINCON Singapore, issued at the 2025 event. Shaped like a stylized dragon in orange and white silkscreen, it runs on a coin cell behind an on/off switch and connects to a computer over USB-C. Rather than shipping fully assembled, attendees solder their own row of eight 1206 SMD LEDs onto the underside at a conference soldering table before the badge does anything.
 
 Once soldered, the badge only flashes its LEDs for a three-second preview until the attached CTF is solved. Plugging it into a computer (with the badge switched off first) and opening a serial terminal at 9600 baud unlocks an 8-stage puzzle trail mixing classic ciphers (Bacon, ROT13, a runic alphabet, rail-fence, a T9-style phone cipher), a semaphore-flag image, hidden text buried in the badge's own published Gerber files, and steganography hidden in an audio file of a dragon roar. Each correct answer lights one more LED, and the puzzle trail traces a tribute to Toa Payoh's real-world Dragon Playground in Singapore.
 

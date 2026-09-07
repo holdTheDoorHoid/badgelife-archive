@@ -47,44 +47,39 @@ sources:
   updated: ''
 - kind: url
   url: https://badgepirates.com/
-  title: "Badge Pirates — Making badges for fun and no profit"
+  title: Badge Pirates — Making badges for fun and no profit
   accessed: '2026-09-06'
   note: Maker's homepage ("Est. 2016"); portfolio lists DEF CON/SecKC 25, 26, 27 and 29, BSides KC through 2025 and CactusCon 11-14, but no DEF CON 32 (2024) badge or SAO.
+  archived: https://web.archive.org/web/20260810184033/https://badgepirates.com/
 - kind: url
   url: https://blog.badgepirates.com/Badge_Tracker/
   title: Badge Tracker / Database - badgepirates
   accessed: '2026-09-06'
   note: Maker's own badge-tracking blog post; no mention of a DEF CON 32 / 2024 badge or SAO.
+  archived: https://web.archive.org/web/20251015144653/https://blog.badgepirates.com/Badge_Tracker/
 - kind: url
   url: https://blog.badgepirates.com/
   title: BadgePirates blog index
   accessed: '2026-09-06'
   note: Post titles list checked (posts are undated); most recent DEF CON reference found is the DEF CON 30 Biohacking Village badge, nothing for DEF CON 32 / 2024.
+  archived: https://web.archive.org/web/20260508181057/https://blog.badgepirates.com/
 - kind: url
   url: https://www.tindie.com/products/badgepirates/sao-totem-sword_v2/
   title: SAO Totem-Sword_v2 from BadgePirates on Tindie
   accessed: '2026-09-06'
   note: A general-purpose 2024 SAO totem/holder accessory sold on Tindie; not tied to DEF CON 32 specifically, so not used to fill this entry.
+  archived: https://web.archive.org/web/20260503114803/https://www.tindie.com/products/badgepirates/sao-totem-sword_v2/
 - kind: url
   url: https://github.com/badgePiratesLLC
   title: BadgePiratesLLC on GitHub
   accessed: '2026-09-06'
   note: Org repo list checked (10 of 60 shown); no repo named for DEF CON 32 or a 2024 DEF CON badge/SAO.
+  archived: https://web.archive.org/web/20260523082542/https://github.com/BadgePiratesLLC
 research:
   status: verified
   confidence: low
   last_checked: '2026-09-06'
-  notes: >-
-    Sheet only listed BadgePirates as present at DEF CON 32 with no further detail. Checked the
-    maker's own site, blog, Tindie store, and GitHub org for a DEF CON 32 (2024) specific badge or
-    SAO and found none; their documented 2024 output (SAO Totem-Sword_v2, an SAO holder accessory,
-    "New for 2024" on Tindie) is not tied to a specific event, and the homepage's DEF CON/SecKC list
-    stops at DEF CON 29 while continuing with BSides KC 2024/2025 and CactusCon 13/14. Could not
-    confirm what, if anything, BadgePirates specifically brought to DEF CON 32. Fact-check 2026-09-06:
-    all five sources re-opened and their notes confirmed; removed two unsupported year attributions.
-    Leaving as unknown rather than guessing; a companion entry (dc31-badgepirates-listed-for-def-con-31-no-details)
-    has the same "listed, no details" pattern for DEF CON 31, and dc30-arrr-badge-verified-no-details-released
-    is BadgePirates' DEF CON 30 item, so this maker recurs across years without much public detail.
+  notes: 'Sheet only listed BadgePirates as present at DEF CON 32 with no further detail. Checked the maker''s own site, blog, Tindie store, and GitHub org for a DEF CON 32 (2024) specific badge or SAO and found none; their documented 2024 output (SAO Totem-Sword_v2, an SAO holder accessory, "New for 2024" on Tindie) is not tied to a specific event, and the homepage''s DEF CON/SecKC list stops at DEF CON 29 while continuing with BSides KC 2024/2025 and CactusCon 13/14. Could not confirm what, if anything, BadgePirates specifically brought to DEF CON 32. Fact-check 2026-09-06: all five sources re-opened and their notes confirmed; removed two unsupported year attributions. Leaving as unknown rather than guessing; a companion entry (dc31-badgepirates-listed-for-def-con-31-no-details) has the same "listed, no details" pattern for DEF CON 31, and dc30-arrr-badge-verified-no-details-released is BadgePirates'' DEF CON 30 item, so this maker recurs across years without much public detail.'
 last_modified_date: '2026-09-06'
 ---
 

@@ -77,10 +77,10 @@ sources:
   accessed: '2026-09-07'
   note: 'Confirms Cyber Swamplords is a crew from Jolly Media Group, Rot13Labs, and The Moth and Mantis (Central Florida) who make custom badges, quirky SAOs, and PCB jewelry, and ran a DEF CON 32 vendor booth with duck/"#quack" branding.'
 research:
-  status: researched
+  status: verified
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'No dedicated project page, repo, or storefront listing for this SAO was found, so technical specs (MCU, LEDs, colors) and design files remain unknown. Rot13Labs (part of Cyber Swamplords) organizes HighRollerCon and separately sells an ESP8266-based "Duckbutt" wireless-testing SAO on Tindie, but that is a distinct, differently-named product and was not assumed to be the same item. Six different Duck SAO designs exist per HackerBoxes; it is unconfirmed which one(s) this entry covers.'
+  notes: 'No dedicated project page, repo, or storefront listing for this SAO was found, so technical specs (MCU, LEDs, colors) and design files remain unknown. Six different Duck SAO designs exist per HackerBoxes; it is unconfirmed which one(s) this entry covers. A prior draft claimed Rot13Labs organizes HighRollerCon and separately sells a "Duckbutt" SAO on Tindie; neither claim could be verified against any cited source (the DEF CON 32 vendors page and HighRollerCon''s own site do not say this), so it was removed rather than left in unsupported.'
 last_modified_date: '2026-09-07'
 ---
 
@@ -88,4 +88,4 @@ The HighRollerCon Duck SAO is a duck-shaped Standardized Add-On handed out for f
 
 According to HackerBoxes' writeup of HackerBox #0104 ("Engage"), the Cyber Swamplords planned to disperse "several thousand" Duck SAOs at the event to spread the word about HighRollerCon. The SAO also circulated beyond the party itself: HackerBox #0104 included a "Mystery High Roller Con #QuackedOut SAO Kit," described as a random sample from six different Duck SAO designs, as one of that month's bonus items.
 
-No dedicated project page, GitHub repository, or storefront listing turned up for the SAO, so its chip, LED count, colors, and other technical details could not be confirmed from any source and are left blank. It should not be confused with Rot13Labs' separately-branded "Duckbutt," an ESP8266-based wireless-testing SAO sold on Tindie, which appears to be a different product despite the shared maker and duck theme.
+No dedicated project page, GitHub repository, or storefront listing turned up for the SAO, so its chip, LED count, colors, and other technical details could not be confirmed from any source and are left blank.

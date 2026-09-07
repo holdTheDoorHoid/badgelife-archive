@@ -69,29 +69,36 @@ sources:
   accessed: '2026-09-07'
   note: "Hackaday's write-up of the same project, revisited roughly a year later; states the badge was not completed in time for the intended DEF CON event, leaving its final production/distribution status unclear."
 research:
-  status: researched
+  status: verified
   confidence: medium
   last_checked: '2026-09-07'
   notes: >
-    Made by Nick Price (handle dominotree) for the Telephreak party at DEF CON 27 (2019), as
-    a follow-up to his Telephreak 11 badge (2018, ATmega328-based). Concept: a directional
-    detector that chirps when it senses WiFi deauthentication frames, like a Geiger counter
-    for deauth attacks. Built around a custom ESP32 board that replicates Adafruit's HUZZAH32
-    Feather design, described by the maker as a hackable, Arduino/Feather-compatible platform.
-    Directionality came from wrapping the PCB's omnidirectional antenna in a copper pipe end
-    cap rather than the originally-planned (impractical) PCB Yagi antenna. No LED, display, or
-    battery details were given in either source. No source repository (hardware or firmware)
-    was found despite the "hackable platform" framing, so make_your_own fields are left empty.
-    Quantity produced, final price, and whether it was actually distributed/sold at DEF CON 27
-    are unknown: the spun.io post (July 2019) describes the badge still being finished, and
-    Hackaday's later piece (June 2020) states it was not completed in time for its intended
-    DEF CON event, so status is left as "unknown" rather than "released". No Tindie/storefront,
-    Hackaday.io project page, or GitHub/GitLab repo for this specific badge (as distinct from
-    the Telephreak 11 badge repo) was located.
+    Made by Nick Price (handle dominotree) for the Telephreak party at DEF CON 27 (2019), as a
+    follow-up to an earlier Telephreak badge from the previous year (2018) — the maker's own post
+    refers only to "last year's badge" and does not name it or state its chip, so this entry does
+    not assert a name or chip for that predecessor. (A web search separately turned up a maker
+    repo titled "Telephreak 11 Badge" for dc26; that is reported as a possible related entry below,
+    not asserted as fact here since it could not be independently confirmed — gitlab.com returned
+    403 Forbidden.) Concept: a directional detector that chirps when it senses WiFi deauthentication
+    frames, like a Geiger counter for deauth attacks; the maker says the idea came to him while
+    watching the Chernobyl miniseries. Built around a custom ESP32 board that replicates Adafruit's
+    HUZZAH32 Feather design, explicitly built to work as an Arduino IDE target and with the full
+    Adafruit Feather ecosystem. Directionality came from wrapping the PCB's omnidirectional antenna
+    in a copper pipe end cap rather than the originally-planned, impractically large/expensive PCB
+    Yagi antenna. No LED, display, or battery details were given in either source. No source
+    repository (hardware or firmware) was found despite the "hackable platform" framing, so
+    make_your_own fields are left empty. Quantity produced, final price, and whether it was actually
+    distributed/sold at DEF CON 27 are unknown: the spun.io post (July 2019) describes the badge
+    still being finished, and Hackaday's later piece (June 2020) states it was not completed in time
+    for its intended DEF CON event, so status is left as "unknown" rather than "released". No
+    Tindie/storefront or Hackaday.io project page for this specific badge was located. All fields
+    and sentences remaining in this entry are supported by the two cited sources (spun.io and
+    Hackaday), both fetched and confirmed on 2026-09-07; the one saved image matches the aspect
+    ratio of the primary photo (IMG_8845.jpg) on the spun.io page.
 last_modified_date: '2026-09-07'
 ---
 
-The Telephreak 12 badge was Nick Price's (dominotree) 2019 follow-up to his Telephreak 11 badge, made for the Telephreak party at DEF CON 27. Instead of a conventional badge, he built a directional detector for WiFi deauthentication frames: point it at a source of deauth packets and it chirps, the same way a Geiger counter clicks faster near a source of radiation. The idea reportedly came to him while watching a TV miniseries about the Chernobyl disaster.
+The Telephreak 12 badge was Nick Price's (dominotree) 2019 follow-up to an earlier Telephreak badge from the previous year, made for the Telephreak party at DEF CON 27. Instead of a conventional badge, he built a directional detector for WiFi deauthentication frames: point it at a source of deauth packets and it chirps, the same way a Geiger counter clicks faster near a source of radiation. The idea reportedly came to him while watching a TV miniseries about the Chernobyl disaster.
 
 Under the hood the badge is a custom ESP32 board designed to replicate Adafruit's HUZZAH32 Feather, which the maker pitched as a hackable platform buildable with the Arduino IDE. To get directionality out of the board's PCB antenna without resorting to an oversized, expensive four-layer PCB Yagi antenna, he instead soldered a copper pipe end cap (sourced from a hardware store's plumbing aisle) around the antenna's ground plane.
 

@@ -61,25 +61,31 @@ sources:
   accessed: '2026-09-07'
   note: 'The dedicated telephreak19 page returns HTTP 404 (site says "Most pages here are empty. true is working on it, lol."). The site homepage confirms the item exists: under "DC34 @ LVCC" it lists "Telephreak 19 (private group)" alongside other DC34-era items (Retro Memories 26 addon, Cobalt DC34 corporate commission, The Wand private commission), made by true / trueControl.'
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-07'
   notes: >-
-    The item's own project page (basic.truecontrol.org/dc34/telephreak19/) currently
-    returns a 404; the maker's homepage explains most individual pages on the site are
-    not yet built out. The homepage listing confirms Telephreak 19 is a real DC34-era
-    item by true (trueControl), parenthetically marked "(private group)" alongside two
-    other DC34 items marked as commissions ("Cobalt DC34" - corporate commission, "The
-    Wand" - private commission), suggesting Telephreak 19 was made for the Telephreak
-    phone-phreak community rather than sold or given away generally. No technical
-    details (MCU, LEDs, display, price, quantity) or photos could be confirmed from any
-    reachable source; a general web search for corroborating coverage could not be
-    performed (session search budget exhausted) and no Wayback Machine snapshot of the
-    page exists. Type (badge vs. SAO vs. addon) is left unknown because the source does
-    not say which.
+    Fact-check pass (2026-09-07): re-fetched both cited sources directly. The item's own
+    project page (basic.truecontrol.org/dc34/telephreak19/) returns a genuine HTTP 404
+    with an empty body (confirmed via headers, not just a redirect). The homepage
+    (basic.truecontrol.org/, which redirects to /database/) confirms, under its "DC34 @
+    LVCC" heading, the line "Telephreak 19 (private group)" alongside "Retro Memories 26"
+    addon, "Cobalt DC34" (corporate commission), and "The Wand" (private commission) —
+    matching what the entry claims. The "Most pages here are empty. true is working on
+    it, lol." line is on the homepage itself (not a custom 404 page as the wording could
+    be misread to suggest); the body text has been left accurate on this point. Removed
+    one unsupported sentence from the body that characterized Telephreak as "a
+    long-running phone-phreaking community associated with DEF CON" — neither cited
+    source makes this claim, so it was deleted per the no-invention rule rather than kept
+    as unsourced background. No images exist for this entry (images: [] correctly; no
+    photos found on either source, and the project page 404s). No technical details
+    (MCU, LEDs, display, price, quantity) or type (badge/SAO/addon) are confirmed by any
+    reachable source, so those fields remain empty/unknown, which is the correct state
+    per the guide's "empty is correct" rule. Everything remaining in the entry is now
+    directly supported by the two cited sources.
 last_modified_date: '2026-09-07'
 ---
 
-"Telephreak 19" is a DEF CON 34 (2026) item made by true, the badge maker behind trueControl BASIC, for the Telephreak group — a long-running phone-phreaking community associated with DEF CON. It's listed on true's project site under the "DC34 @ LVCC" section, parenthetically noted as "(private group)," alongside two other DC34 items marked as commissions, which suggests it was produced specifically for Telephreak members rather than offered to the general DEF CON badge market.
+"Telephreak 19" is a DEF CON 34 (2026) item made by true, the badge maker behind trueControl BASIC, for the Telephreak group. It's listed on true's project site under the "DC34 @ LVCC" section, parenthetically noted as "(private group)," alongside two other DC34 items marked as commissions, which suggests it was produced specifically for Telephreak members rather than offered to the general DEF CON badge market.
 
 Beyond that listing, hard details are unavailable: the item's own project page on basic.truecontrol.org returns a 404, and the site's homepage notes that "most pages here are empty" while true continues building out documentation. No chip, LED, display, price, or quantity information could be confirmed, and no photos of the piece were found.

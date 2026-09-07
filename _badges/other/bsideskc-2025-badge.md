@@ -70,17 +70,24 @@ sources:
   accessed: '2026-09-07'
   note: Confirms the badge exists in BadgePirates' portfolio gallery ("BSides KC 2025"), tagged under their BSides category, with a photo (BSideKC25.jpg) but no written specs. No dedicated GitHub repo for the 2025 badge was found (their public repo list runs BSidesKC_2018 through BsidesKC_2024, plus DefCon_SecKC_25/26/27; nothing for 2025 KC).
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-07'
   notes: >-
-    Only two sources surfaced: BadgePirates' own shipping-update blog post and their portfolio
-    site. Neither states the badge's functions, MCU, LEDs, display, price, or quantity made.
-    A photo was recovered from the portfolio gallery. No GitHub repo, Tindie listing, or press
-    coverage was found for this specific badge (BadgePirates' public GitHub org has repos for
-    BSidesKC 2018-2024 but none yet for 2025). Event id 'bsideskc' does not exist in
-    _data/events.yml, so this stays filed under 'other'; the con is BSidesKC (Kansas City,
-    Missouri), 2025.
+    Fact-check pass (2026-09-07): both cited sources were re-fetched and support every
+    non-empty field and sentence in this entry — the shipping-update blog post confirms the
+    maker, the BSidesKC 2025 customs delay, and the SecKC/BSidesDSM pickup or mail-shipping
+    options; the portfolio site confirms the badge's existence, its photo, and the run of
+    BSidesKC badges from 2018-2025. The saved image byte-matches badgepirates.com's own
+    BSideKC25.jpg. A GitHub search independently confirmed the org (BadgePiratesLLC) has
+    repos for BSidesKC 2018-2024 but none for 2025, and 'bsideskc' does not appear in
+    _data/events.yml, so 'other' stays correct. Confidence remains low only because the two
+    sources genuinely say nothing about functions, MCU, LEDs, display, price, or quantity —
+    not because anything here is in doubt. Note for a future pass: the recovered photo itself
+    shows a color LCD (rendering a "Kansas City BSIDES 2025" badge logo), a 6-pin header
+    resembling an SAO port, and a lit green LED, none of which are described in text by either
+    source, so tech fields were left blank per the no-invention rule rather than inferred from
+    the image.
 last_modified_date: '2026-09-07'
 ---
 

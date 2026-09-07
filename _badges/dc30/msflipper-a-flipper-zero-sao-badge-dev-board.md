@@ -9,8 +9,8 @@ type: sao
 event: dc30
 year: 2022
 makers:
-- name: Harbinger LTD (Andrew Nicholson)
-  url: https://hackaday.io/awkward-intelligence
+- name: Harbinger LTD
+  url: https://hackaday.io/hacker/332977-awkward-intelligence
 summary: A modular expansion board that lets a Flipper Zero talk to SAO and badge headers, breaking out both SAO and Flipper GPIO pins for sniffing, emulating, or driving badge add-ons.
 functions: Exposes mirrored Flipper GPIO and SAO/badge pinouts side by side so a Flipper Zero can sniff SAO/badge communications, emulate an SAO, or drive external components; includes an optional back-side resistor and LED for basic signal testing.
 look:
@@ -25,10 +25,8 @@ tech:
     type: null
     note: Optional LED and resistor footprint on the back for basic signal indication; the board itself has no MCU.
   display: none
-  connectivity:
-  - uart
-  - i2c
-  sao_version: v1
+  connectivity: []
+  sao_version: null
 make_your_own:
   open_source: partial
   hardware_url: https://hackaday.io/project/186736-msflipper
@@ -75,10 +73,24 @@ sources:
   accessed: '2026-09-07'
   note: Maker's own project page; confirms creation date (Aug 2022), ToorCamp/DEF CON distribution, open Gerber files, and board photos.
 research:
-  status: researched
+  status: verified
   confidence: medium
   last_checked: '2026-09-07'
-  notes: Maker is listed on Hackaday.io as "awkward-intelligence" (Andrew Nicholson, Harbinger LTD, per the Tindie storefront "awkwardai"). The Tindie listing says it was "Originally created for DEFCON 30" as a free giveaway; the Hackaday.io project page says it was created Aug 2022 and distributed at ToorCamp and intended for DEF CON, consistent with DEF CON 30 (Aug 2022). Hardware Gerbers are shared on the Hackaday.io page (msflipperDoen.zip) but no schematic/source design files or firmware were found, so open_source is marked partial rather than yes. No MCU/chip is on the board itself (LED/resistor only); it relies on the host Flipper Zero. Quantity made and current stock are not stated anywhere found.
+  notes: 'Fact-check pass (2026-09-07): re-fetched both cited sources and made three
+    corrections. (1) The maker''s personal name "Andrew Nicholson" was not supported
+    by either source (Tindie names the seller only as "Harbinger LTD" / "awkwardai";
+    Hackaday.io names only the handle "awkward-intelligence") and has been removed
+    from makers.name. (2) The makers.url pointed to https://hackaday.io/awkward-intelligence,
+    which 404s; corrected to the working profile URL https://hackaday.io/hacker/332977-awkward-intelligence.
+    (3) tech.connectivity (uart, i2c) and tech.sao_version (v1) were not stated by
+    either source -- both pages describe only generic "GPIO"/"SAO pinout" breakout
+    with no protocol or pin-count specifics -- so both were cleared. Everything else
+    (Harbinger LTD as manufacturer, Aug 2022 creation date, ToorCamp prototype /
+    DEF CON 30 free-giveaway distribution, MS Paint name origin, $1 kit price via
+    Tindie, "on a break" listing status, Gerbers-only open-source status, no
+    MCU/board is passive) was confirmed against the Tindie listing and the
+    Hackaday.io project page and left as reported. Quantity made and a firm
+    availability status are still not stated anywhere found.'
 last_modified_date: '2026-09-07'
 redirect_from:
 - /badges/other/msflipper-a-flipper-zero-sao-badge-dev-board/

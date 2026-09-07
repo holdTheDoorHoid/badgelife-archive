@@ -74,10 +74,10 @@ sources:
   accessed: '2026-09-07'
   note: 'Layer filenames include "DX hackathon", "aws", "nerdflare", and "Noyce", indicating AWS and NerdFlare branding on a board made for a "DX Hub"-named hackathon.'
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-07'
-  notes: 'The GitHub repo (files, BOM, commit history) is the only source found; it has no README or description, so the exact event name/host, distribution, price and quantity could not be confirmed beyond what the file names and BOM show. No photo of the assembled board was found anywhere in the repo (only KiCad/EasyEDA source files, SVG art layers, and Gerbers), so no images could be saved. web search budget was exhausted before outside coverage (press, socials, storefronts) could be checked.'
+  notes: 'Fact-check (2026-09-07) re-fetched all four cited GitHub sources directly (repo root, bom.csv, commits, svg/layers) plus the pcb/V1 and pcb/V2 directory listings and the raw gerbers_url/bom_url links; every field and body sentence is supported: BOM matches exactly (1 BS-24-B4AK014 coin-cell holder, 3 resistors, 1 MSK12C02 pushbutton, 3 XL-3210SYGC yellow LEDs, no MCU), commit dates/messages match (June 2025, "added hole for lanyard"), SVG layer filenames match (DX hackathon/aws/nerdflare/Noyce), V1 and V2 folders exist with V2 containing a re-exported easyeda2kicad.kicad_sym library, and the gerbers/BOM raw URLs both return HTTP 200. Confirmed the repo has no README/description and no matching "DX Hub" event exists in events.yml, so event=other and the unresolved fields (price, quantity, availability, distribution, where, images) are correctly left empty/unknown rather than guessed. Confidence stays low only because the sole source is the repo itself -- no press, social, or storefront coverage was checked (researcher''s stated web-search budget was exhausted), so the event''s host/name and distribution details are not independently corroborated.'
 last_modified_date: '2026-09-07'
 ---
 

@@ -50,6 +50,7 @@ make_your_own:
   open_source: partial
   hardware_url: https://github.com/hamster/DefCon23
   firmware_url: https://github.com/hamster/DefCon23
+  bom_url: https://github.com/hamster/DefCon23/tree/master/Hardware
   eda_tool: EAGLE
 links:
 - label: github.com/hamster/DefCon23
@@ -69,7 +70,7 @@ images:
 - file: assets/images/badges/dc23/dc801-def-con-23-badge/3f72fd0c60.jpg
   source: "https://github.com/hamster/DefCon23"
   credit: "DC801 / theTransistor"
-  caption: "Badge PCB/enclosure design render"
+  caption: "The assembled badge in its acrylic case with dual joysticks"
 contact:
   irc: '#thetransistor on freenode'
   email: d3c4f [at] thetransistor [dot] com
@@ -93,10 +94,10 @@ sources:
   accessed: '2026-09-07'
   note: Confirmed this is the original (upstream) project repo that the linked entry forks from; same README content.
 research:
-  status: researched
+  status: verified
   confidence: high
   last_checked: '2026-09-07'
-  notes: 'Event corrected from "other" to dc23 (DEF CON 23, 2015) based on the repo README title and year. Price/quantity not stated anywhere; it was a party giveaway, not sold, so get_one.price is left empty. No SAO header mentioned in the source; sao_version left null rather than guessing "none" since the badge predates common SAO convention and the README does not address it explicitly.'
+  notes: 'Event corrected from "other" to dc23 (DEF CON 23, 2015) based on the repo README title and year. Price/quantity not stated anywhere; it was a party giveaway, not sold, so get_one.price is left empty. No SAO header mentioned in the source; sao_version left null rather than guessing "none" since the badge predates common SAO convention and the README does not address it explicitly. Fact-check pass (2026-09-07): re-fetched both repo READMEs and the Hardware directory listing. All front-matter fields and body sentences confirmed against the cited sources, with two corrections: the "Make your own" section had wrongly stated no BOM was found — the repo Hardware directory actually contains "BOM - LED Board.xlsx" and "BOM - Mainboard.xlsx", so a make_your_own.bom_url was added and the sentence fixed; and the caption on the second image ("Badge PCB/enclosure design render") was wrong — the photo is an actual assembled unit with green joysticks, not a render, so the caption was corrected. No Gerbers or fab-house link found, confirmed. dc801.org currently shows an "under construction" placeholder page (checked 2026-09-07); it is kept only as a website link, not cited as a factual source, so this does not affect confidence.'
 last_modified_date: '2026-09-07'
 redirect_from:
 - /badges/other/dc801-def-con-23-badge/
@@ -108,4 +109,4 @@ The badge was designed by D3c4f with electronics engineering by Compukidmike, ca
 
 ## Make your own
 
-Hardware design files (Eagle format) and starter firmware/example software are published at both github.com/hamster/DefCon23 and the upstream github.com/thetransistor/DefCon23, under the MIT license. No bill of materials, Gerbers, or fab-house share link were found in the repo.
+Hardware design files (Eagle format), bills of materials for both the mainboard and LED board, and starter firmware/example software are published at both github.com/hamster/DefCon23 and the upstream github.com/thetransistor/DefCon23, under the MIT license. No Gerbers or fab-house share link were found in the repo.

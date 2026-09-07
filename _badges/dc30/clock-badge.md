@@ -84,7 +84,7 @@ sources:
   accessed: '2026-09-07'
   note: Press coverage confirming the badge's fuzzy-character aesthetic and that the maker's Tindie store was on a break around the DEF CON 30 timeframe.
 research:
-  status: researched
+  status: verified
   confidence: medium
   last_checked: '2026-09-07'
   notes: 'MCU, exact LED part number, display technology/panel type, quantity made, and open-source status were not stated on any source found (Tindie listing, maker''s Hackaday.io project page, or Tindie blog coverage). Availability could not be confirmed as of this check since the Tindie listing showed the seller "taking a break" with no current stock status.'

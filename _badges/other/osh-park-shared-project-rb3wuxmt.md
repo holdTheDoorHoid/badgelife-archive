@@ -23,7 +23,6 @@ look:
   shape: cat
   themes:
   - cat
-  - luck
 tech:
   mcu: null
   leds: null
@@ -78,21 +77,30 @@ sources:
   accessed: '2026-09-07'
   note: 'Confirmed project name "lucky oshcat badgelife SAO board", shared by user fustini on 2018-08-15, 2-layer board 2.01x2.41in, price $24.20, links to a twinkletwink tweet.'
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-07'
   notes: >-
-    Could not confirm which badgelife-era con (if any) this SAO was made for, so it stays
-    filed under "other" — the OSH Park listing and the linked tweet (2018-07-26, unreachable
-    text-only) don't name an event. No MCU, LEDs, or SAO header version could be confirmed;
-    the board reads as a purely passive/decorative PCB SAO shape (a maneki-neko/"lucky cat")
-    with no visible components in the shared Gerber preview beyond two small SAO-header-style
-    footprints, so tech fields are left empty rather than guessed. Web search was unavailable
-    for this task (session search budget exhausted) and a DuckDuckGo fallback hit a bot
-    CAPTCHA, so no secondary/press coverage of twinkletwink or "oshcat" could be checked.
-    Attribution: the OSH Park share is credited to user "fustini" (who has shared many other
-    badgelife SAO designs on OSH Park on behalf of various designers), but the board's own
-    silkscreen credits "twinkletwink" as the maker/designer; both are recorded above.
+    Fact-check pass (2026-09-07): re-fetched the OSH Park listing directly and confirmed
+    project name "lucky oshcat badgelife SAO board", sharer "fustini", share date
+    2018-08-15, 2-layer board 2.01 x 2.41 in, price $24.20, and the linked twinkletwink
+    tweet URL. Confirmed the "purple" color, "cat" (maneki-neko) shape, and the
+    "LUCKY OSHCAT / MADE BY TWINKLETWINK" silkscreen directly from the two saved board
+    images. Removed the "luck" look.themes tag — not in the guide's controlled vocabulary
+    and "cat" already covers the maneki-neko theme. Removed an unsourced specific date
+    (2018-07-26) that had been attached to the linked tweet in an earlier draft of these
+    notes; the tweet itself could not be fetched (X/Twitter returned HTTP 402 for this
+    session), so no date or content claim about it is asserted beyond its URL being the
+    one the OSH Park listing links to. Could not confirm which badgelife-era con (if any)
+    this SAO was made for — the OSH Park listing does not name one — so it stays filed
+    under "other". No MCU, LEDs, or SAO header version could be confirmed; the board reads
+    as a passive/decorative PCB SAO shape with two small header-style footprints visible
+    in the images, so tech fields are left empty rather than guessed. Web search quota was
+    exhausted this session, so no secondary/press coverage of twinkletwink or "oshcat"
+    could be checked; this keeps confidence at "low" despite verified status. Attribution:
+    the OSH Park share is credited to user "fustini", while the board's own silkscreen
+    credits "twinkletwink" as the maker/designer; both are recorded above and both are
+    supported by primary sources (the listing and the board photos respectively).
 last_modified_date: '2026-09-07'
 ---
 

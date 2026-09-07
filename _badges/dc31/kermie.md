@@ -83,10 +83,10 @@ sources:
   accessed: '2026-09-07'
   note: 'Confirms full Gerber/fab files are published in the repo alongside the frog_spread.jpg and pcb_image.png photos used for the entry images.'
 research:
-  status: researched
+  status: verified
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'The maker''s own repo README and firmware source confirm this was the official DEF CON 31 (2023) badge, built around an ESP32 with a TFT_eSPI color display, SD-card image storage, Wi-Fi sharing, and an AHT10 sensor. frogbadge.com (the badge''s dedicated site, linked from the README) no longer resolves and has no Wayback Machine snapshot, so price, quantity made, and current availability could not be confirmed from any source. LED count/type, exact display size, and battery/power details are not stated in the repo and were left empty rather than guessed.'
+  notes: 'Fact-check pass (2026-09-07): every non-empty field and factual sentence was re-checked against the cited sources (README.md, FrogBadge.ino, and the Gerber Files directory listing, all fetched directly from the repo) and confirmed. FrogBadge.ino confirms ESP32 (FreeRTOS/WiFi.h), TFT_eSPI display driving, SD-card image storage, and an Adafruit AHT10 sensor. README.md confirms the DC31/2023 framing, 12+1 GIF slots, amphibian-taxonomy naming, the Wi-Fi sharing/8-badge/hibernate unlock mechanics, the AES/SHA256/WPA2-ECC security details, the NFC tag, and the Custom Image/SD-card-formatting instructions used in the Make your own section. The Gerber Files listing confirms standard KiCad-style gerber/drill naming (F_Cu, B_Cu, Edge_Cuts, .gbrjob) supporting eda_tool: KiCad, and that frog_spread.jpg and pcb_image.png (the two saved images) originate from that same folder. frogbadge.com was independently re-confirmed as non-resolving with no Wayback Machine snapshot (archive.org availability API returned an empty result), supporting the empty price/quantity/availability fields. No corrections were needed; confidence stays medium because price, quantity, availability, LEDs, exact display size, and battery details remain unconfirmed by any source and are correctly left empty.'
 last_modified_date: '2026-09-07'
 redirect_from:
 - /badges/other/kermie/

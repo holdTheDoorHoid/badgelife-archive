@@ -12,7 +12,7 @@ makers:
 - name: Andy Geppert
 - name: Koppany Horvath
 summary: A small adapter board that lets the Voja4 badge speak I2C (and possibly SPI) over a standard 6-pin SAO socket.
-functions: Bridges the Voja4 badge's native interface to a full 6-pin SAO port using discrete transistors, so the badge does not need its own I2C address; provides separate, mutually-exclusive I2C and SPI wiring zones and configurable GPIO1/GPIO2 (input, output, or UART) via solder jumpers, plus an optional 3.3V regulator for alternate power input.
+functions: Bridges the Voja4 badge's native interface to a full 6-pin SAO port using discrete transistors, so the badge does not need its own I2C address; provides separate, mutually-exclusive I2C and SPI wiring zones and configurable GPIO1/GPIO2 (input or output) via solder jumpers, plus an optional 3.3V regulator for alternate power input.
 look:
   colors: []
   shape: null
@@ -75,15 +75,15 @@ sources:
   accessed: '2026-09-07'
   note: "Confirmed the project was submitted to the Supercon 8 (2024) SAO Contest, with a goal of prototypes ready for Supercon 2024; named the second maker Koppany Horvath; described solder-jumper configurable I2C/SPI zones and GPIO1/2, and an optional 3.3V regulator; hardware is open (Documentation, Electronic Design, Firmware, and Manufacturing Output folders on GitHub)."
 research:
-  status: researched
-  confidence: medium
+  status: verified
+  confidence: high
   last_checked: '2026-09-07'
-  notes: This is an SAO accessory adapter (not itself a con badge) that adds a 6-pin SAO socket to the Voja4 badge, made for the Supercon 8 (2024) SAO Contest. The Voja4 badge itself is a separate, third-party badge and was not otherwise investigated here. No MCU is on the adapter itself (it's passive/discrete-transistor logic), so tech.mcu is set to "none". EDA tool, license, price, and quantity made were not stated in the repo or Hackaday.io page and are left empty. The repo folder structure (Documentation/Electronic Design/Firmware/Manufacturing Output) implies open hardware, but no explicit license was found, so open_source is marked "partial" rather than "yes".
+  notes: This is an SAO accessory adapter (not itself a con badge) that adds a 6-pin SAO socket to the Voja4 badge, made for the Supercon 8 (2024) SAO Contest. The Voja4 badge itself is a separate, third-party badge and was not otherwise investigated here. No MCU is on the adapter itself (it's passive/discrete-transistor logic), so tech.mcu is set to "none". EDA tool, license, price, and quantity made were not stated in the repo or Hackaday.io page and are left empty. Removed an unsupported claim that GPIO1/GPIO2 could be configured for UART; only input/output selection is documented. The repo also contains firmware (asm/hex) for a separate SAO OLED demo device used to test the adapter, not for the adapter itself (which has no MCU); make_your_own.firmware_url is left empty and open_source kept "partial" on that basis, since no explicit license was found for the hardware design either. Verified against the maker's own GitHub repo/README and Hackaday.io project page; both saved images were confirmed present in the repo's Images folder with matching dimensions.
 last_modified_date: '2026-09-07'
 redirect_from:
 - /badges/other/sao-voja4-adapter/
 ---
 
-The SAO Voja4 Adapter is a small accessory board by Andy Geppert and Koppany Horvath that gives the Voja4 badge a standard 6-pin Simple Add-On (SAO) socket. Rather than exposing the badge's own I2C address, the adapter uses discrete transistors to bridge the badge's native interface out to full SAO-compatible I2C, with an alternate SPI wiring path (the two are mutually exclusive, selected with solder jumpers). GPIO1 and GPIO2 can likewise be configured as inputs, outputs, or UART, and an optional onboard 3.3V regulator supports powering the adapter from an alternate source.
+The SAO Voja4 Adapter is a small accessory board by Andy Geppert and Koppany Horvath that gives the Voja4 badge a standard 6-pin Simple Add-On (SAO) socket. Rather than exposing the badge's own I2C address, the adapter uses discrete transistors to bridge the badge's native interface out to full SAO-compatible I2C, with an alternate SPI wiring path (the two are mutually exclusive, selected with solder jumpers). GPIO1 and GPIO2 can likewise be configured as inputs or outputs, and an optional onboard 3.3V regulator supports powering the adapter from an alternate source.
 
 The project was entered in the Supercon 8 (2024) SAO Contest, with the team aiming to have working prototypes on hand for testing at Hackaday Supercon 2024. It is documented on Hackaday.io (project #198394) and on GitHub, where the repository is organized into Documentation, Electronic Design, Firmware, and Manufacturing Output folders — suggesting the hardware design was intended to be shared, though no explicit open-source license was located. No pricing, production quantity, or ongoing availability information was found.

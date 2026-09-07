@@ -57,10 +57,10 @@ sources:
   accessed: '2026-09-07'
   note: 'The dedicated /dc34/cobalt/ page returns 404 ("Most pages here are empty. true is working on it, lol."). The maker''s site index confirms the item exists, lists it under "DC34 @ LVCC" as "Cobalt DC34 (corporate commission)", credits it to true/trueControl, and places it alongside other DC34 items (Retro Memories 26, Telephreak 19, The Wand).'
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-07'
-  notes: 'The maker''s own dedicated page for this item (basic.truecontrol.org/dc34/cobalt/) does not exist yet — the site itself says most pages are still empty. The only confirmed facts come from the site''s index page: it is a DC34 (2026, LVCC) item made by true/trueControl as a "corporate commission." No further detail (type, appearance, electronics, price, distribution, images) could be found via web search (search budget was exhausted before additional queries could run) or on any other page of the maker''s site. Left type as unknown since sources do not say whether it is a full badge or an SAO/addon. Two other unrelated DC34 items appear on the same maker index and may warrant their own entries: "Telephreak 19" (private group) and "The Wand" (private commission) — both also currently 404 as dedicated pages.'
+  notes: 'Fact-checked 2026-09-07: re-fetched both cited sources directly. basic.truecontrol.org/dc34/cobalt/ returns HTTP 404 (confirmed dead, as claimed). basic.truecontrol.org/database/ was re-fetched and confirmed to list, under a "DC34 @ LVCC" heading, "Cobalt DC34 (corporate commission)" alongside "Telephreak 19 (private group)" and "The Wand (private commission)" (and separately "Retro Memories 26"), attributed to trueControl/true — matching every claim in this entry''s summary and body. No other page or search turned up additional detail (type, appearance, electronics, price, distribution, images), so those fields remain empty/null as before. Left type as unknown since sources do not say whether it is a full badge or an SAO/addon. Two other unrelated DC34 items appear on the same maker index and may warrant their own entries: "Telephreak 19" (private group) and "The Wand" (private commission) — both also currently 404 as dedicated pages.'
 last_modified_date: '2026-09-07'
 ---
 

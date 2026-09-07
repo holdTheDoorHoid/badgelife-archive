@@ -124,10 +124,10 @@ sources:
   accessed: '2026-09-07'
   note: Describes the Space Grand Challenge as an annual game-based cybersecurity competition for middle/high schoolers built by Cal Poly students; no mention of this PCB badge specifically.
 research:
-  status: researched
-  confidence: medium
+  status: verified
+  confidence: high
   last_checked: '2026-09-07'
-  notes: No price, quantity, or confirmation that the badge was actually distributed at DEF CON 31 was found in any source; get_one fields left empty/unknown accordingly. The 2023 repo linked from this entry's own sheet row has no schematic or BOM, only a PCB file and a video; hardware/BOM links above point to the fuller 2022 Alpenglow-derived repo, which matches the 2023 board's footprints component-for-component. This entry duplicates dc31-space-grand-challenge-satellite-badge (same badge, listed separately on the community sheet under maker "Aerospace Village"); that entry has more extensive sourcing including the challenge website and forum announcements.
+  notes: 'Fact-check pass (2026-09-07): re-fetched all five cited sources and independently downloaded and grepped the raw defcon-badge-hw.kicad_pcb file. Confirmed exactly: 13 LED_1206 footprints, 17 resistors, 2 capacitors, 2 SOT-23 transistors, 1 CR2032 SMT holder, 2 slide switches, no MCU/IC footprint, a satellite-dish footprint, and CCI/Aerospace-Corp logo footprints. Confirmed the README''s exact wording ("Created for CCI and DEFCON 31", KiCad 6 not 7) and confirmed the Alpenglow-derived repo has Gerbers, a BOM csv, a schematic PDF, and an MIT LICENSE file. Visually confirmed the saved image shows the dish text "ZNL RZVG QVTVGNY QHFG", the Cal Poly CCI logo, purple PCB, and gold wings with yellow LEDs. The "BLINK/SOLID" second-switch detail could not be independently re-derived from the raw PCB file (its silkscreen text is drawn as vector-art footprints, not parseable as plain text; net names /Blink One and /Blink Two on that switch are consistent with it) — kept because the more deeply-sourced duplicate entry (dc31-space-grand-challenge-satellite-badge) independently states the same detail. No price, quantity, or confirmation the badge was actually distributed at DEF CON 31 was found in any source; get_one fields correctly left empty/unknown. This entry duplicates dc31-space-grand-challenge-satellite-badge (same badge, listed separately on the community sheet under maker "Aerospace Village"); that entry has more extensive sourcing including the challenge website and forum announcements.'
 last_modified_date: '2026-09-07'
 ---
 

@@ -70,10 +70,10 @@ sources:
   accessed: '2026-09-07'
   note: 'Repo root README: "hardware CAD files for ec0''s various badge mods," organized by con/year folders; no pricing or distribution info given.'
 research:
-  status: researched
-  confidence: low
+  status: verified
+  confidence: medium
   last_checked: '2026-09-07'
-  notes: 'No matching event id exists in events.yml for "OzSecCon" (a small Australian security conference) — left event as "other" and named the con here as instructed. The repo folder is dated 2019 (OzSecCon2019), taken as the year made-for. KiCad schematic/PCB/BOM files are published, but no firmware repo or README beyond the one-line description was found, so open_source is "partial" rather than "yes". No photos of the assembled board were found anywhere in the repo (no images folder, no README image) or via the maker''s GitHub profile, so images/get_one/contact remain empty. Web search budget was exhausted before broader searches (Hackaday, Twitter/Bluesky, OzSecCon program) could be run to corroborate price, quantity, or distribution — those remain unconfirmed.'
+  notes: 'Fact-check (2026-09-07): re-fetched all three cited sources directly. The OzSecCon2019/keyboard folder was confirmed to contain keyboard.sch, keyboard.kicad_pcb, keyboard.pro, keyboard-BOM.csv, LSAO.lib/.dcm/.bck (confirming the LSAO/v1.69bis footprint), a gerbs subdirectory, and no firmware or README — matching the "partial" open_source call and the "no firmware found" claim. The BOM CSV was confirmed line-by-line: U1 MCP23017 (SOIC), SW1-SW16 sixteen Cherry MX switches, D1 one LED (0805), R1-R3 three resistors (2x1k, 1x470ohm), J1 a 2x5 LSAO pin socket — matching functions, tech.leds, and tech.sao_version exactly. The repo root README was confirmed to read "hardware CAD files for ec0''s various badge mods," organized by con/year folders including OzSecCon2019, with no pricing/distribution/year statement — matching the sources note and the entry''s silence on those fields. No matching event id exists in events.yml for "OzSecCon" (a small Australian security conference) — left event as "other" and named the con here as instructed. No images exist for this entry (images: [] — nothing to verify or remove). Raising confidence from low to medium: the guide ties confidence to how well the maker''s own pages confirm the core facts, and the mechanism/components/footprint are now directly confirmed against the maker''s repo and BOM; it stays below "high" because price, quantity, distribution, and photos remain entirely unconfirmed (no maker post or third-party coverage was found describing them). All body-text sentences are supported by the confirmed sources; none were removed.'
 last_modified_date: '2026-09-07'
 ---
 

@@ -22,9 +22,8 @@ look:
   - silver
   themes:
   - space
-  - retro computer
   - pop culture
-  - security
+  - village badge
   form_factor: pcb badge
 tech:
   mcu: ESP32
@@ -91,10 +90,10 @@ sources:
   accessed: '2026-09-07'
   note: Storefront for the separate Wright Flyer badge ($250, ESP32-S2, two SAO slots); confirms this is a different item from the one documented in this entry.
 research:
-  status: researched
+  status: verified
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'The repo README and the maker''s own dc31-badge page make clear this GitHub repo covers two separate badges plus SAOs. This entry was written for "The Wright Stuff," the general-admission $80-donation village badge (ESP32, one SAO slot), since it best matches a single generic "Aerospace Village Badge 2023" title. "The Wright Flyer" is a distinct 50-unit limited-edition badge (ESP32-S2, two SAO slots, propellers, sold via Tindie for $250) and is reported separately as a candidate for its own entry. LED count, exact PCB colors beyond black/silver, and battery/power details were not stated in any source found and are left empty rather than guessed. No secondary storefront or attendee report of the Wright Stuff badge was found beyond the maker''s own page.'
+  notes: 'Fact-check pass (2026-09-07): re-fetched aerospacevillage.org/dc31-badge and the avBadge_2023 repo/WrightSpace folder and confirmed title, maker/artist credit, summary, MCU (ESP32), one SAO slot, $80 minimum donation, distribution, functions quotes ("numerous intriguing Easter eggs", "modern technology and interactivity"), 120-years/5th-anniversary framing, KiCad+Arduino file structure, open-source status, and the saved photo (which does show pink/RGB LEDs lit in the satellite dish, matching the caption). Removed "retro computer" and "security" from look.themes: neither term appears on the maker''s page or in any source and neither is visually supported by the artwork; replaced with "village badge", which the source explicitly supports (general-admission badge for the Village). The repo README and the maker''s own dc31-badge page make clear this GitHub repo covers two separate badges plus SAOs. This entry was written for "The Wright Stuff," the general-admission $80-donation village badge (ESP32, one SAO slot), since it best matches a single generic "Aerospace Village Badge 2023" title. "The Wright Flyer" is a distinct 50-unit limited-edition badge (ESP32-S2, two SAO slots, propellers, sold via Tindie for $250) and is reported separately as a candidate for its own entry. LED count, exact PCB colors beyond black/silver, and battery/power details were not stated in any source found and are left empty rather than guessed. No secondary storefront or attendee report of the Wright Stuff badge was found beyond the maker''s own page.'
 last_modified_date: '2026-09-07'
 ---
 
