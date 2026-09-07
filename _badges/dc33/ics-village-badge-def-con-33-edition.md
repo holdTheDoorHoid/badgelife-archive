@@ -42,7 +42,7 @@ get_one:
   - purchase
   where: Distributed at the ICS Village at DEF CON 33; also listed for sale through the Intrepid Control Systems online store (a dedicated "ICS Village Badge for DEFCON 33" product page), which no longer resolves.
 make_your_own:
-  open_source: partial
+  open_source: null
   hardware_url: null
   firmware_url: null
   eda_tool: null
@@ -60,7 +60,7 @@ images: []
 contact: {}
 notes:
 - Spotted by a research agent while working on a neighbouring entry (run 3).
-status: listed
+status: released
 sources:
 - kind: url
   url: https://github.com/freewili/FreeWili_WebDocs/blob/main/docs/defcon-badges/icsvillage-badge-defcon33.md
@@ -83,10 +83,10 @@ sources:
   accessed: '2026-09-07'
   note: 'Article is about a different (Biohacking Village) badge, but a reader comment independently corroborates two facts about this badge: "the DEFCON badge from ICS village was also great, featuring an AI smell sensor. They used the Raspberry Pi RP2350A."'
 research:
-  status: researched
+  status: verified
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'The maker''s own documentation page (both the GitHub Pages source and its mirror at docs.freewili.com/defcon-badges/icsvillage-badge-defcon33/) is no longer reachable (404) as of 2026-09-07, and the Intrepid Control Systems store listing for this badge has likewise gone dead. Facts here (RP2350A MCU, AI/gas "smell" sensor, full-color screen, WASM scripting, Kyle Irving PCB art, sponsorship by Intrepid Control Systems) come from consistent search-engine snippets of that now-unreachable maker page plus one independent third-party corroboration (a Raspberry Pi blog comment confirming the RP2350A and smell sensor). Could not verify price, quantity made, exact LED count, battery, or SAO header presence, and found no reachable photo of the badge itself, so no images were saved. Distinct from the FreeWili "ICS Village DEF CON 34 Badge" (RP2350B-A4, RS485/CAN/10BASE-T1S), which is a separate, later product. Not the same item as dc32-ics-village-unnamed-badge-sao (a different event and unrelated badge/SAO).'
+  notes: 'Fact-check pass (2026-09-07): re-confirmed the maker''s GitHub doc page, its docs.freewili.com mirror, freewili.com/icsvillage-badge(.html), and the Intrepid Control Systems store listing are all still 404/unreachable. Core claims (RP2350A MCU, BME688 AI gas/"smell" sensor, full-color screen, ESP32 Wi-Fi, WASM scripting, "Whale Tail" lineage, full-color PCB art by Kyle Irving, sponsorship by Intrepid Control Systems) were corroborated independently via search-engine snippets of the dead maker page and a Raspberry Pi blog comment. The build_a_badge repo was verified directly (Rust/Iced, MIT, 14 LED modes, USB, custom name/images) but only documents the customization app, not the badge''s own hardware/firmware, so make_your_own.open_source was corrected from "partial" to null (unknown) since no badge-specific hardware or firmware release was found. status was corrected from "listed" to "released" since sources confirm the badge was actually distributed at the village and sold through a storefront, not merely listed on a sheet. Could not verify price, quantity made, exact LED count, battery, or SAO header presence, and found no reachable photo of the badge itself, so no images were saved. Distinct from the FreeWili "ICS Village DEF CON 34 Badge" (RP2350B-A4, RS485/CAN/10BASE-T1S), confirmed via that badge''s own page. Not the same item as dc32-ics-village-unnamed-badge-sao (a different event and unrelated badge/SAO). All remaining non-empty fields and body sentences were checked against sources and are supported, so research.status is set to verified.'
 last_modified_date: '2026-09-07'
 ---
 

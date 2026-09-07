@@ -39,7 +39,7 @@ get_one:
   distribution: []
   where: ''
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/compukidmike/dc27/tree/master/Bowtie%20and%20Screwdriver%20Badge
   firmware_url: https://github.com/compukidmike/dc27/tree/master/Bowtie%20and%20Screwdriver%20Badge
   eda_tool: KiCad
@@ -85,8 +85,14 @@ research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'Confirmed via the maker''s own GitHub repo (KiCad hardware + AVR firmware for both boards, both ATtiny84A). Could not find a storefront listing, price, quantity made, distribution method, or any photo of the finished badges - searched Tindie (compukidmike/MKFactor store; direct product-page and store-page fetches were blocked or returned no results), Hackaday''s DEF CON 27 badge round-ups (checked the Sept 2019 pictorial guide and Aug 2019 breakfast-hardware post directly; neither mentions this badge by name), and MKFactor''s own blog (no matching post found). A web search summary claimed specific details (Michael/Katie Whiteley as makers, a photo, a description matching Hackaday''s pictorial guide) but those details could not be verified in the actual page text, so they were not used. left get_one and look.colors empty rather than guess.'
+  notes: Confirmed via the maker's own GitHub repo (KiCad hardware + AVR firmware for both boards, both ATtiny84A). Could not find a storefront listing, price, quantity made, distribution method, or any photo of the finished badges - searched Tindie (compukidmike/MKFactor store; direct product-page and store-page fetches were blocked or returned no results), Hackaday's DEF CON 27 badge round-ups (checked the Sept 2019 pictorial guide and Aug 2019 breakfast-hardware post directly; neither mentions this badge by name), and MKFactor's own blog (no matching post found). A web search summary claimed specific details (Michael/Katie Whiteley as makers, a photo, a description matching Hackaday's pictorial guide) but those details could not be verified in the actual page text, so they were not used. left get_one and look.colors empty rather than guess.
 last_modified_date: '2026-09-07'
+model:
+  file: assets/models/dc27/bowtie-and-screwdriver-badge.glb
+  method: kicad
+  source_file: Bowtie and Screwdriver Badge/BowTie/Hardware/BowTie/BowTie.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 238040
 ---
 
 The BowTie and Screwdriver Badge is a two-piece hardware badge compukidmike made for DEF CON 27 (2019), with both parts built around an ATtiny84A microcontroller and designed in KiCad. The BowTie board wears like a bow tie and charlieplexes 20 LEDs into a ring, cycling through animation patterns - a chasing ring, a four-wide chase, and a symmetric wave among them - with a single push button, and it also carries an IR receiver so it can react to a signal from its companion piece.

@@ -39,6 +39,7 @@ links:
 - label: idk.bz
   url: https://idk.bz
   kind: website
+  archived: https://web.archive.org/web/20251128205942/https://idk.bz/
 - label: twitter.com/p0ns
   url: https://twitter.com/p0ns
   kind: social
@@ -61,6 +62,7 @@ sources:
   title: IDK (p0ns blog)
   accessed: '2026-09-07'
   note: No post or page uses the title "Disappointing Badge". The only 2024 posts are "IDK SAO" (May 16, 2024; Attiny Series 0/1 chip) and "Dang" (Aug 6, 2024; page has no body text).
+  archived: https://web.archive.org/web/20251128205942/https://idk.bz/
 - kind: url
   url: https://idk.bz/idksao/
   title: IDK SAO
@@ -70,34 +72,19 @@ sources:
   url: https://defcon.social/@p0ns
   title: p0ns on defcon.social
   accessed: '2026-09-07'
-  note: Public timeline (via Mastodon API) checked for DEF CON 32 era posts; two March 2024 photo posts tagged #badgelife #DefCon32 (captions "#badgelife #DefCon32" and "via salad") found, neither names this item. No later 2024 post mentions a badge by this name.
+  note: Public timeline (via Mastodon API) checked for DEF CON 32 era posts; two March 2024 photo posts tagged
 - kind: url
   url: https://github.com/p0ns
   title: p0ns GitHub profile
   accessed: '2026-09-07'
   note: Repo list checked; no repo named or clearly related to "Disappointing Badge". A repo "micropython-dc32" (created 2024-08-15, no description; README covers building MicroPython for RP2350 with the st7789 driver and flashing "the badge") exists but does not name the badge.
+  archived: https://web.archive.org/web/20260709143554/https://github.com/p0ns
 research:
   status: researched
   confidence: low
   last_checked: '2026-09-07'
-  notes: >-
-    Could not find any source that uses the title "Disappointing Badge" for a
-    specific item. p0ns/idk (maker of idk.bz) made several other named SAOs
-    for DC32 (IDK SAO, 420 Bud SAO, Battery SAO, all separate archive
-    entries), so this is likely a fourth, distinct item from the same maker
-    that year, but no page, post, or repo naming it was located. idk.bz has
-    two 2024 posts, "IDK SAO" (May 16, 2024; Attiny404, 4x SK6812-mini LEDs,
-    first batch of 24) and "Dang" (Aug 6, 2024; no body text); the maker's
-    defcon.social account posted two uncaptioned photos tagged #DefCon32 in
-    March 2024 with nothing tying either to this title, so they were not used
-    as images for this entry. A GitHub repo (p0ns/micropython-dc32, created
-    2024-08-15; README describes an RP2350 badge with an st7789 display)
-    exists but nothing ties it to this title either. Left title, summary, and
-    technical fields empty rather than guess which of the maker's DC32
-    projects this sheet row refers to. Fact-check 2026-09-06: sources
-    re-opened; wording corrected (no KiCad screenshots were confirmed, the
-    March 2024 posts are photos), status stays researched because the
-    title itself is only attested by the community sheet.
+  notes: 'Could not find any source that uses the title "Disappointing Badge" for a specific item. p0ns/idk (maker of idk.bz) made several other named SAOs for DC32 (IDK SAO, 420 Bud SAO, Battery SAO, all separate archive entries), so this is likely a fourth, distinct item from the same maker that year, but no page, post, or repo naming it was located. idk.bz has two 2024 posts, "IDK SAO" (May 16, 2024; Attiny404, 4x SK6812-mini LEDs, first batch of 24) and "Dang" (Aug 6, 2024; no body text); the maker''s defcon.social account posted two uncaptioned photos tagged #DefCon32 in March 2024 with nothing tying either to this title, so they were not used as images for this entry. A GitHub repo (p0ns/micropython-dc32, created 2024-08-15; README describes an RP2350 badge with an st7789 display) exists but nothing ties it to this title either. Left title, summary, and technical fields empty rather than guess which of the maker''s DC32 projects this sheet row refers to. Fact-check 2026-09-06: sources
+    re-opened; wording corrected (no KiCad screenshots were confirmed, the March 2024 posts are photos), status stays researched because the title itself is only attested by the community sheet.'
 last_modified_date: '2026-09-06'
 ---
 

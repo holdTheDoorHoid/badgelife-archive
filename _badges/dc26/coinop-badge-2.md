@@ -93,6 +93,12 @@ research:
   last_checked: '2026-09-07'
   notes: Maker's own Hackaday.io project log and GitHub repo confirm the core hardware facts (chip, LED split, battery, button count, 59 units assembled). Neither source states a price or explicitly says the badges were given away free vs. sold; a commenter on the project log asked if extras would be listed on Tindie but the maker did not answer publicly. Left get_one.price, get_one.availability, and get_one.distribution unfilled rather than guess. No license file was found in the repo, so make_your_own.license is left empty. Event/year already matched DEF CON 26 (2018) correctly; no correction needed.
 last_modified_date: '2026-09-07'
+model:
+  file: assets/models/dc26/coinop-badge-2.glb
+  method: kicad
+  source_file: board/coinop-badge.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 205788
 ---
 
 The CoinOp Badge is Mike Szczys's homage to the Galaga arcade spaceship: a white, pixel-art-styled PCB cut into the ship's silhouette. An ATmega48 drives 18 red and 4 blue charlieplexed LEDs to produce animations, including a laser-fire effect, with two buttons letting the wearer cycle through modes. Careful power management — roughly 4.3 microamps asleep and 0.1 microamps fully off — was built in to stretch the life of the single CR2032 coin cell running the board.

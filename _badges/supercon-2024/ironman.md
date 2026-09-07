@@ -26,7 +26,7 @@ tech:
   leds:
     count: 2
     type: discrete
-    note: '1206 SMD LEDs (through-hole handsolder footprint), not addressable'
+    note: '1206 SMD LEDs (hand-solder-friendly pad footprint), not addressable'
   display: none
   connectivity: []
   battery: powered by host board
@@ -59,7 +59,7 @@ images:
   - file: assets/images/badges/supercon-2024/ironman/81423ef002.jpg
     source: "https://hackaday.io/project/198060/log/233016-panels"
     credit: "davedarko"
-    caption: "JLCPCB panel photo showing a lit Iron Man SAOAO board (red, top right) alongside davedarko's other SAOAO designs"
+    caption: "Bench photo from the 'panels' project log showing four lit, assembled SAOAO boards, including the red Iron Man board (top right), alongside davedarko's other SAOAO designs"
 contact: {}
 notes:
 - Spotted by a research agent while working on a neighbouring entry (run 3).
@@ -91,10 +91,10 @@ sources:
   accessed: '2026-09-07'
   note: 'Log entry stating "100 SAO PCBs, 100 red Iron Man boards with ENIG and 100 hackaday logo boards" were ordered from JLCPCB; source of the saved panel photo.'
 research:
-  status: researched
+  status: verified
   confidence: high
   last_checked: '2026-09-07'
-  notes: 'The GitHub repo folder itself carries no README or images for this specific board; quantity, distribution, and fabrication details came from davedarko''s Hackaday.io project page and log for the SAOAO line as a whole (the IronMan board is one of several SAOAO designs, alongside a Hackaday-logo board and a "Super Cluster" board). Price/price_usd left empty since it was a free giveaway, not sold. No firmware exists since the board has no MCU. sao_version left null: the connector is a nonstandard 3-pin (GND-VCC-GND) 1.27mm header specific to the SAOAO sub-standard, not a v1 or v1.69bis/v2 SAO header.'
+  notes: 'Fact-checked against all five cited sources: GitHub repo file listing, YoDawgSAO README, IronMan.kicad_sch, the Hackaday.io SAOAO project page, and the "panels" project log all confirm the claims made (2 discrete 1206 LEDs, no MCU, 3-pin 1.27mm GND-VCC-GND header, 19x19mm SAOAO format, 100 red ENIG Iron Man boards ordered via JLCPCB alongside 100 SAO baseplates and 100 Hackaday-logo boards, free distribution at Supercon 2024). The GitHub repo folder itself carries no README for this specific board; quantity, distribution, and fabrication details came from davedarko''s Hackaday.io project page and log for the SAOAO line as a whole. Price/price_usd left empty since it was a free giveaway, not sold. No firmware exists since the board has no MCU. sao_version left null: the connector is a nonstandard 3-pin (GND-VCC-GND) 1.27mm header specific to the SAOAO sub-standard, not a v1 or v1.69bis/v2 SAO header. Two corrections made during verification: the LED footprint note previously said "through-hole handsolder footprint" but the schematic shows an SMD 1206 footprint with a hand-solder-friendly pad variant, not through-hole; and the saved image caption called the photo a "JLCPCB panel photo" but it actually shows four already-assembled, lit boards on a workbench, not a bare fabrication panel — both fixed. All other fields and sentences in the body confirmed as written.'
 last_modified_date: '2026-09-07'
 redirect_from:
 - /badges/other/ironman/

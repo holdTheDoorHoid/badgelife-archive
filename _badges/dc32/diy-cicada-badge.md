@@ -49,6 +49,7 @@ links:
 - kind: store
   label: Hacker Warehouse product page
   url: https://hackerwarehouse.com/product/cicada-invada-diy-kit/
+  archived: https://web.archive.org/web/20260612081526/https://hackerwarehouse.com/product/cicada-invada-diy-kit/
 - kind: video
   label: Audio demo (YouTube Shorts)
   url: https://youtube.com/shorts/7Asbn2EzBgU
@@ -60,18 +61,22 @@ images:
   source: https://hackerwarehouse.com/product/cicada-invada-diy-kit/
   credit: Hacker Warehouse
   caption: Cicada Invada DIY Kit soldering badge, assembled
+  archived: https://web.archive.org/web/20260612081526/https://hackerwarehouse.com/product/cicada-invada-diy-kit/
 - file: assets/images/badges/dc32/diy-cicada-badge/884364a1ce.jpg
   source: https://hackerwarehouse.com/product/cicada-invada-diy-kit/
   credit: Hacker Warehouse
   caption: Cicada Invada DIY Kit, alternate view
+  archived: https://web.archive.org/web/20260612081526/https://hackerwarehouse.com/product/cicada-invada-diy-kit/
 - file: assets/images/badges/dc32/diy-cicada-badge/8b9f52ccbc.jpg
   source: https://hackerwarehouse.com/product/cicada-invada-diy-kit/
   credit: Hacker Warehouse
   caption: Assembled Cicada Invada DIY soldering kit, DC32 2024
+  archived: https://web.archive.org/web/20260612081526/https://hackerwarehouse.com/product/cicada-invada-diy-kit/
 - file: assets/images/badges/dc32/diy-cicada-badge/dcc5b02e65.jpg
   source: https://hackerwarehouse.com/product/cicada-invada-diy-kit/
   credit: Hacker Warehouse
   caption: Unpopulated Cicada Invada PCB before assembly
+  archived: https://web.archive.org/web/20260612081526/https://hackerwarehouse.com/product/cicada-invada-diy-kit/
 contact:
   emails:
   - questions@hak4kidz.com
@@ -91,6 +96,7 @@ sources:
   title: Cicada Invada DIY Kit - Hacker Warehouse
   accessed: '2026-09-06'
   note: Full product description, kit contents, price, and product photos, confirming this is the same item as another sheet row for this event.
+  archived: https://web.archive.org/web/20260612081526/https://hackerwarehouse.com/product/cicada-invada-diy-kit/
 - kind: sheet
   event: dc32
   row: 66

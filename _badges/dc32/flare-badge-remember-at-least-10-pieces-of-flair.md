@@ -43,6 +43,7 @@ links:
 - label: Hackerware.io
   url: https://hackerware.io
   kind: website
+  archived: https://web.archive.org/web/20260523123718/https://hackerware.io/
 images: []
 contact:
   raw:
@@ -60,38 +61,19 @@ sources:
   title: 'Hackerware - #BadgeLife | Hardware Design, Security, & Research.'
   accessed: '2026-09-06'
   note: Confirms Hackerware.io as a real badge-design studio (contact listed as abhinav@hackerwares.in; twelve badge projects in its portfolio); the portfolio does not list this DEF CON 32 item, Flare, or a raccoon by name, so no independent confirmation of chip, LEDs, or quantity was found.
+  archived: https://web.archive.org/web/20260523123718/https://hackerware.io/
 - kind: url
   url: https://flare-on.com
   title: Flare-On Challenge
   accessed: '2026-09-06'
   note: Confirms Flare-On is the FLARE team's annual reverse-engineering CTF; the site does not mention a raccoon mascot, a DEF CON 32 badge, Hackerware, or "10 pieces of flair", so it neither confirms nor rules out this badge's "Flare".
+  archived: https://web.archive.org/web/20260904101141/http://flare-on.com/
 research:
   status: verified
   confidence: low
   last_checked: '2026-09-07'
-  notes: >-
-    Could not find a dedicated project page, photo, or spec sheet for this
-    specific badge. Hackerware.io's own portfolio does not list it by name, and
-    general web search (Bing, DuckDuckGo) returned no matching results for
-    "Flare Badge" + DEF CON 32 + raccoon; this session's WebSearch quota was
-    also exhausted partway through the task. The existing-titles list shows a
-    same-maker "FLARE RACCOON PURPL3HAT Badge" at DEF CON 33 (2025) and later
-    "Flare Blinky Badge" / "Flare CTF Badge" entries at DEF CON 34 (2026),
-    confirming this DC32 item is the first of a recurring FLARE-branded series
-    by Hackerware, but no source confirms whether "Flare" here is Mandiant's
-    FLARE reverse-engineering team (which runs the Flare-On CTF) or the
-    cybersecurity company flare.io - both are plausible sources for a raccoon
-    mascot and neither site confirms or denies the badge. Chip, LED count,
-    quantity made, and design files remain unconfirmed and left empty.
-    Fact-check 2026-09-07: the sheet row itself has a blank creator column;
-    the maker name is inherited from the row above (Bug Bounty Village Badge,
-    "Abhinav Panda/Hackerware.io"), a sheet convention corroborated by the
-    DC33 sheet naming Hackerware.io for the FLARE RACCOON badge. The DC33
-    sheet's own link for that sequel is flare.io/discord, which points
-    toward Flare Systems (flare.io) rather than Mandiant/Google's FLARE team,
-    but nothing ties this DC32 row to either. Removed the earlier claim that
-    the badge was made "for the FLARE team" and that flare.io is a confirmed
-    Hackerware client; neither is supported by the sheet or hackerware.io.
+  notes: 'Could not find a dedicated project page, photo, or spec sheet for this specific badge. Hackerware.io''s own portfolio does not list it by name, and general web search (Bing, DuckDuckGo) returned no matching results for "Flare Badge" + DEF CON 32 + raccoon; this session''s WebSearch quota was also exhausted partway through the task. The existing-titles list shows a same-maker "FLARE RACCOON PURPL3HAT Badge" at DEF CON 33 (2025) and later "Flare Blinky Badge" / "Flare CTF Badge" entries at DEF CON 34 (2026), confirming this DC32 item is the first of a recurring FLARE-branded series by Hackerware, but no source confirms whether "Flare" here is Mandiant''s FLARE reverse-engineering team (which runs the Flare-On CTF) or the cybersecurity company flare.io - both are plausible sources for a raccoon mascot and neither site confirms or denies the badge. Chip, LED count, quantity made, and design files remain unconfirmed and left empty. Fact-check 2026-09-07: the sheet row itself has a blank
+    creator column; the maker name is inherited from the row above (Bug Bounty Village Badge, "Abhinav Panda/Hackerware.io"), a sheet convention corroborated by the DC33 sheet naming Hackerware.io for the FLARE RACCOON badge. The DC33 sheet''s own link for that sequel is flare.io/discord, which points toward Flare Systems (flare.io) rather than Mandiant/Google''s FLARE team, but nothing ties this DC32 row to either. Removed the earlier claim that the badge was made "for the FLARE team" and that flare.io is a confirmed Hackerware client; neither is supported by the sheet or hackerware.io.'
 last_modified_date: '2026-09-07'
 ---
 

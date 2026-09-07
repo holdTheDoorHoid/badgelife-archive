@@ -54,6 +54,7 @@ links:
 - label: hackaday.io/project/198535-flames
   url: https://hackaday.io/project/198535-flames
   kind: hackaday
+  archived: https://web.archive.org/web/20260310103338/https://hackaday.io/project/198535-flames
 - label: hackaday.io/project/198535/logs
   url: https://hackaday.io/project/198535/logs
   kind: hackaday
@@ -63,18 +64,21 @@ links:
 - label: git.trueserve.org/trueControl/dc32-flames-addon
   url: https://git.trueserve.org/trueControl/dc32-flames-addon
   kind: website
+  archived: https://web.archive.org/web/20260417182652/https://git.trueserve.org/trueControl/dc32-flames-addon
 - label: cdn.hackaday.io/files/1985358494121440/SCH_flames_gat_REV1.pdf
   url: https://cdn.hackaday.io/files/1985358494121440/SCH_flames_gat_REV1.pdf
   kind: hackaday
 images:
 - file: assets/images/badges/dc32/flames/05ba189a16.jpg
-  source: "https://hackaday.io/project/198535-flames"
-  credit: "trueControl (Whiskey Pirate Crew)"
-  caption: "Flames SAO, plane-shaped Boeing-satire addon"
+  source: https://hackaday.io/project/198535-flames
+  credit: trueControl (Whiskey Pirate Crew)
+  caption: Flames SAO, plane-shaped Boeing-satire addon
+  archived: https://web.archive.org/web/20260310103338/https://hackaday.io/project/198535-flames
 - file: assets/images/badges/dc32/flames/2fd376740f.jpg
-  source: "https://hackaday.io/project/198535-flames"
-  credit: "trueControl (Whiskey Pirate Crew)"
-  caption: "Flames SAO, alternate angle showing the flame acrylic and Boeing tail logo"
+  source: https://hackaday.io/project/198535-flames
+  credit: trueControl (Whiskey Pirate Crew)
+  caption: Flames SAO, alternate angle showing the flame acrylic and Boeing tail logo
+  archived: https://web.archive.org/web/20260310103338/https://hackaday.io/project/198535-flames
 contact: {}
 notes: []
 status: released
@@ -88,6 +92,7 @@ sources:
   title: '"Flames" - Hackaday.io project page'
   accessed: '2026-09-06'
   note: Description, maker (user "true"), MCU/LED-driver specs, event context (Supercon 8 SAO contest), and project photos.
+  archived: https://web.archive.org/web/20260310103338/https://hackaday.io/project/198535-flames
 - kind: url
   url: https://hackaday.io/project/198535/logs
   title: '"Flames" - Hackaday.io build logs'

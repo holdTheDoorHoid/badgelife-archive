@@ -58,21 +58,26 @@ links:
 - label: github.com/dczia/Defcon32-Badge
   url: https://github.com/dczia/Defcon32-Badge
   kind: repo
+  archived: https://web.archive.org/web/20260613202450/https://github.com/dczia/Defcon32-Badge
 - kind: store
   label: 2024 DCZia Badge - The Ziatron (Tindie)
   url: https://www.tindie.com/products/hamster/2024-dczia-badge-the-ziatron/
+  archived: https://web.archive.org/web/20260503101630/https://www.tindie.com/products/hamster/2024-dczia-badge-the-ziatron/
 - kind: website
   label: DCZia badge history
   url: https://dczia.net
+  archived: https://web.archive.org/web/20260514004509/https://dczia.net/
 images:
 - file: assets/images/badges/dc32/dczia-defcon32-badge/f4b2ba85ba.jpg
   source: https://www.tindie.com/products/hamster/2024-dczia-badge-the-ziatron/
   credit: snurkle engineering (hamster)
   caption: The DCZia Ziatron, DEF CON 32 badge, product photo from Tindie listing
+  archived: https://web.archive.org/web/20260503101630/https://www.tindie.com/products/hamster/2024-dczia-badge-the-ziatron/
 - file: assets/images/badges/dc32/dczia-defcon32-badge/93601d2403.jpg
   source: https://dczia.net/
   credit: DCZia
   caption: The DCZia Ziatron, DCZia's DEF CON 32 badge
+  archived: https://web.archive.org/web/20260514004509/https://dczia.net/
 contact:
   handles:
   - '@dczia505'
@@ -90,21 +95,25 @@ sources:
   title: DCZia Defcon32-Badge
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: maker-groups); event read as ''DEF CON 32''.'
+  archived: https://web.archive.org/web/20260613202450/https://github.com/dczia/Defcon32-Badge
 - kind: url
   url: https://github.com/dczia/Defcon32-Badge
   title: dczia/Defcon32-Badge README - GitHub
   accessed: '2026-09-07'
   note: Primary source for badge name ("The Ziatron"), specs (LCD, Pico W, LEDs, mic, speaker, batteries), features, and build guide text.
+  archived: https://web.archive.org/web/20260613202450/https://github.com/dczia/Defcon32-Badge
 - kind: url
   url: https://www.tindie.com/products/hamster/2024-dczia-badge-the-ziatron/
   title: 2024 DCZia Badge - The Ziatron
   accessed: '2026-09-07'
   note: Confirms maker (snurkle engineering / hamster), price ($100), sold-out status, DEF CON 32 free-pickup/USPS-shipping distribution, and source of the product photo.
+  archived: https://web.archive.org/web/20260503101630/https://www.tindie.com/products/hamster/2024-dczia-badge-the-ziatron/
 - kind: url
   url: https://dczia.net/about.html
   title: DCZia - About
   accessed: '2026-09-07'
   note: Background on DCZia as a badge-making crew (est. ~2013, formalized 2016), confirming it makes badges annually for DEF CON and its own ZiaCon.
+  archived: https://web.archive.org/web/20260514012540/https://dczia.net/about.html
 - kind: sheet
   event: dc32
   row: 51
@@ -114,6 +123,7 @@ sources:
   title: DCZia
   accessed: '2026-09-06'
   note: Maker's own badge history page; confirms the Ziatron description and links to the GitHub repo; source of the badge photo.
+  archived: https://web.archive.org/web/20260514004509/https://dczia.net/
 research:
   status: researched
   confidence: high

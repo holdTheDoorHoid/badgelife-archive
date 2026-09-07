@@ -1,0 +1,193 @@
+{
+ "bornhack-2022-bornhack-2022-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 440924,
+  "tried": [],
+  "src": "game-on.kicad_pcb"
+ },
+ "bornhack-2023-bornhack-2023-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 340572,
+  "tried": [],
+  "src": "nfc_reader/nfc_reader.kicad_pcb"
+ },
+ "dc23-dc801-def-con-23-badge": {
+  "status": "failed",
+  "tried": [
+   "eagle: eagle import failed: "
+  ]
+ },
+ "dc24-austin-hackers-association-badge": {
+  "status": "failed",
+  "tried": [
+   "eagle: eagle import failed: "
+  ]
+ },
+ "dc24-dc-darknet-def-con-24-badge": {
+  "status": "failed",
+  "tried": [
+   "eagle: eagle import failed: "
+  ]
+ },
+ "dc24-dc801-dc24-party-badge": {
+  "status": "failed",
+  "tried": [
+   "eagle: eagle import failed: "
+  ]
+ },
+ "dc25-1bitsy-1up": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 510008,
+  "tried": [],
+  "src": "hardware/V0.1/1bitsy-1up.kicad_pcb"
+ },
+ "dc25-darknet-badge": {
+  "status": "failed",
+  "tried": [
+   "eagle: eagle import failed: "
+  ]
+ },
+ "dc25-dc-darknet-def-con-25-badge": {
+  "status": "failed",
+  "tried": [
+   "eagle: eagle import failed: "
+  ]
+ },
+ "dc25-hardware-hacking-village-dc25-re-challenge-badge": {
+  "status": "failed",
+  "tried": [
+   "eagle: eagle import failed: "
+  ]
+ },
+ "dc25-led-bangle-defconbangle": {
+  "status": "failed",
+  "tried": [
+   "eagle: eagle import failed: "
+  ]
+ },
+ "dc25-official-hackaday-defcon-25-badge": {
+  "status": "ok",
+  "method": "gerber",
+  "bytes": 313312,
+  "tried": [
+   "eagle: eagle import failed: "
+  ],
+  "src": "StupidGerbers.zip/StupidBadge"
+ },
+ "dc26-coinop-badge-2": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 205796,
+  "tried": [],
+  "src": "board/coinop-badge.kicad_pcb"
+ },
+ "dc26-coinop-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 205792,
+  "tried": [],
+  "src": "board/coinop-badge.kicad_pcb"
+ },
+ "dc26-dc26-nick-cage-sao": {
+  "status": "ok",
+  "method": "gerber",
+  "bytes": 189728,
+  "tried": [],
+  "src": "gerbersfixxxx.zip/gerbersfixxxx"
+ },
+ "dc26-dc26-pickle-rick-sao": {
+  "status": "ok",
+  "method": "gerber",
+  "bytes": 189728,
+  "tried": [],
+  "src": "gerbersfixxxx.zip/gerbersfixxxx"
+ },
+ "dc26-dc503-sao-dc503-s-shitty-add-on-for-defcon-26": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 214128,
+  "tried": [],
+  "src": "HW/DC503_SAO.kicad_pcb"
+ },
+ "dc26-dc801-dc26-party-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 475040,
+  "tried": [],
+  "src": "Hardware/dragon.kicad_pcb"
+ },
+ "dc26-dc801-def-con-26-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 536860,
+  "tried": [],
+  "src": "Hardware/KeyGridBadge/KeyGridBadge.kicad_pcb"
+ },
+ "dc26-hardware-hacking-village-dc26-re-challenge-badge": {
+  "status": "failed",
+  "tried": [
+   "eagle: eagle import failed: "
+  ]
+ },
+ "dc26-jr-bob-dobbs-sao": {
+  "status": "failed",
+  "tried": [
+   "eagle: eagle import failed: "
+  ]
+ },
+ "dc26-monero-badge-pcb": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 2343760,
+  "tried": [],
+  "src": "dc26.kicad_pcb"
+ },
+ "dc26-mooncake-addon-final-space-def-con-26-sao": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 93512,
+  "tried": [],
+  "src": "mooncake_RevC.kicad_pcb"
+ },
+ "dc26-mr-robot-badge-mk-2": {
+  "status": "failed",
+  "tried": [
+   "eagle->kicad ok",
+   "kicad glb: glb export failed: Failed to load board: One or more items were found on undefined layers (UNDEFINED). Open the board in the PCB Editor to resolve.\n",
+   "kicad gerbers: gerber export failed: Failed to load board: One or more items were found on undefined layers (UNDEFINED). Open the board in the PCB Editor to resolve.\n"
+  ]
+ },
+ "dc26-mrmeeseeks-addon-def-con-26-sao": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 86720,
+  "tried": [],
+  "src": "mrmeeseeks_RevE.kicad_pcb"
+ },
+ "dc26-samurai-ctf-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 116100,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "MassHackersBadge2015.brd"
+ },
+ "dc27-bigfuckingbadge-kat-s-midi-synth": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 236196,
+  "tried": [],
+  "src": "TestBoard.kicad_pcb"
+ },
+ "dc27-bowtie-and-screwdriver-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 238040,
+  "tried": [],
+  "src": "Bowtie and Screwdriver Badge/BowTie/Hardware/BowTie/BowTie.kicad_pcb"
+ }
+}

@@ -34,7 +34,7 @@ get_one:
   price_usd: 22.22
   quantity: ''
   availability: available
-  availability_note: 'In stock on Tindie as of 2026-09-06 (124 orders completed).'
+  availability_note: In stock on Tindie as of 2026-09-06 (124 orders completed).
   distribution:
   - purchase
   where: Sold on Tindie, with pickup available at DEF CON 32.
@@ -47,18 +47,22 @@ links:
 - label: www.tindie.com/products/dc_punks/edgerunner-license
   url: https://www.tindie.com/products/dc_punks/edgerunner-license/
   kind: store
+  archived: https://web.archive.org/web/20260503102936/https://www.tindie.com/products/dc_punks/edgerunner-license/
 - label: Tindie.com
   url: https://Tindie.com
   kind: store
+  archived: https://web.archive.org/web/20260626024032/https://www.tindie.com/
 images:
 - file: assets/images/badges/dc32/edgerunner-license/853c5dd7a1.png
-  source: "https://www.tindie.com/products/dc_punks/edgerunner-license/"
-  credit: "DC Punks"
-  caption: "Edgerunner License badge, back showing blue PCB"
+  source: https://www.tindie.com/products/dc_punks/edgerunner-license/
+  credit: DC Punks
+  caption: Edgerunner License badge, back showing blue PCB
+  archived: https://web.archive.org/web/20260503102936/https://www.tindie.com/products/dc_punks/edgerunner-license/
 - file: assets/images/badges/dc32/edgerunner-license/1a8a4c0390.jpg
-  source: "https://www.tindie.com/products/dc_punks/edgerunner-license/"
-  credit: "DC Punks"
-  caption: "Edgerunner License badge, front"
+  source: https://www.tindie.com/products/dc_punks/edgerunner-license/
+  credit: DC Punks
+  caption: Edgerunner License badge, front
+  archived: https://web.archive.org/web/20260503102936/https://www.tindie.com/products/dc_punks/edgerunner-license/
 contact:
   handles:
   - '@defconpunks'
@@ -76,12 +80,13 @@ sources:
   url: https://www.tindie.com/products/dc_punks/edgerunner-license/
   title: Edgerunner License by DC Punks on Tindie
   accessed: '2026-09-06'
-  note: 'Confirmed maker, price ($22.22), materials (laser cut chrome mirrored acrylic and blue PCB), NFC light-up function, in-stock status, and product images.'
+  note: Confirmed maker, price ($22.22), materials (laser cut chrome mirrored acrylic and blue PCB), NFC light-up function, in-stock status, and product images.
+  archived: https://web.archive.org/web/20260503102936/https://www.tindie.com/products/dc_punks/edgerunner-license/
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-06'
-  notes: 'Tindie listing confirms the item and its NFC light-up gimmick but gives no MCU/LED chip detail, no quantity made, and no design files. No maker-run project page, Hackaday.io entry, or GitHub repo was found beyond the Tindie storefront. Web search budget was exhausted before additional press or social coverage could be checked.'
+  notes: Tindie listing confirms the item and its NFC light-up gimmick but gives no MCU/LED chip detail, no quantity made, and no design files. No maker-run project page, Hackaday.io entry, or GitHub repo was found beyond the Tindie storefront. Web search budget was exhausted before additional press or social coverage could be checked.
 last_modified_date: '2026-09-06'
 ---
 

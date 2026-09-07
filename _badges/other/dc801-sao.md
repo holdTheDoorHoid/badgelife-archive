@@ -1,6 +1,6 @@
 ---
-title: Thing 0x01 - Shitty Pixel
-id: other-thing-0x01-shitty-pixel
+title: DC801 SAO
+id: other-dc801-sao
 layout: badge
 parent: Other
 grand_parent: Badge Archive
@@ -9,7 +9,7 @@ type: unknown
 event: other
 year: 0
 makers:
-- name: blinkingthing
+- name: snurkle engineering / hamster
 summary: ''
 functions: ''
 look:
@@ -36,20 +36,20 @@ make_your_own:
   firmware_url: null
   eda_tool: null
 links:
-- label: blinkingthing.github.io/docs/W220497AXS14.pdf
-  url: https://blinkingthing.github.io/docs/W220497AXS14.pdf
-  kind: website
+- label: www.tindie.com/products/hamster/dc801-sao-badgelife-addon
+  url: https://www.tindie.com/products/hamster/dc801-sao-badgelife-addon/
+  kind: store
 images: []
 contact: {}
 notes:
-- Spotted by a research agent while working on a neighbouring entry (run 3).
+- Spotted by a research agent while working on a neighbouring entry (run 4).
 status: listed
 sources:
 - kind: url
-  url: https://blinkingthing.github.io/docs/W220497AXS14.pdf
-  title: Thing 0x01 - Shitty Pixel
+  url: https://www.tindie.com/products/hamster/dc801-sao-badgelife-addon/
+  title: DC801 SAO
   accessed: '2026-09-07'
-  note: 'Found by the archive''s discovery sweep (angle: research-run3-spotted); event read as ''other''.'
+  note: 'Found by the archive''s discovery sweep (angle: research-run4-spotted); event read as ''unknown''.'
 research:
   status: stub
   confidence: low

@@ -11,7 +11,7 @@ year: 2023
 makers:
 - name: BornHack
 summary: 'A two-part NFC badge set for BornHack 2023: an NFC reader badge built around an RP2040 and NXP PN7150, and a companion NFC tag badge using an NXP NTAG I2C Plus chip, connected by a Qwiic/STEMMA QT cable.'
-functions: 'The reader badge does NFC reading and card emulation via the PN7150 controller and runs preloaded CircuitPython for hacking; the tag badge is a passive NTAG I2C Plus tag. The two connect together over a Qwiic/STEMMA QT-style cable.'
+functions: The reader badge does NFC reading and card emulation via the PN7150 controller and runs preloaded CircuitPython for hacking; the tag badge is a passive NTAG I2C Plus tag. The two connect together over a Qwiic/STEMMA QT-style cable.
 look:
   colors: []
   shape: null
@@ -37,13 +37,13 @@ get_one:
   - free_drop
   where: Handed out to BornHack 2023 attendees as the conference badge.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/bornhack/badge2023
   firmware_url: https://github.com/bornhack/badge2023/tree/circuitpython
   eda_tool: KiCad
 notes:
 - From the user's 'SAOs to buy' link list (2026-09-07).
-- 'KiCad v7 (or a nightly build) is required to open the design; v5/v6 will not open it, per the repo README.'
+- KiCad v7 (or a nightly build) is required to open the design; v5/v6 will not open it, per the repo README.
 - 'Main chips: RP2040 (reader MCU), NXP PN7150 (NFC reader/controller), Winbond W25Q128JV (16MB QSPI flash), NXP NT3H2211W0FTT / NTAG I2C Plus 2K (tag chip).'
 - No price, quantity made, or LED details were found in the sources checked.
 status: released
@@ -55,48 +55,54 @@ sources:
   note: 'Found by the archive''s discovery sweep (angle: tobuy-linkfile); event read as ''bornhack-2023''.'
 - kind: url
   url: https://raw.githubusercontent.com/bornhack/badge2023/main/README.md
-  title: 'bornhack/badge2023 README.md'
+  title: bornhack/badge2023 README.md
   accessed: '2026-09-07'
-  note: 'Confirmed two-badge design (NFC reader + NFC tag), RP2040/PN7150/NTAG I2C Plus/W25Q128JV chips, CircuitPython firmware, CC-BY-SA-4.0 hardware and MIT firmware licenses, KiCad v7 requirement, and image file locations.'
+  note: Confirmed two-badge design (NFC reader + NFC tag), RP2040/PN7150/NTAG I2C Plus/W25Q128JV chips, CircuitPython firmware, CC-BY-SA-4.0 hardware and MIT firmware licenses, KiCad v7 requirement, and image file locations.
 - kind: url
   url: https://blog.adafruit.com/2023/08/02/bornhack-2023-makes-nfc-badges-badgelife-rp2040-bornhackbadge-raspberry_pi/
-  title: 'BornHack 2023 makes NFC badges - Adafruit blog'
+  title: BornHack 2023 makes NFC badges - Adafruit blog
   accessed: '2026-09-07'
-  note: 'Confirmed the reader/tag pair connect over a Qwiic/STEMMA QT-compatible cable; general summary of the two-badge concept.'
+  note: Confirmed the reader/tag pair connect over a Qwiic/STEMMA QT-compatible cable; general summary of the two-badge concept.
 - kind: url
   url: https://bornhack.dk/bornhack-2023/program/this-years-bornhack-badge-with-nfc/
-  title: 'This years BornHack badge with NFC - BornHack 2023 program'
+  title: This years BornHack badge with NFC - BornHack 2023 program
   accessed: '2026-09-07'
-  note: 'Conference talk page about the badge by Thomas Flummer; no price/quantity information, links back to the same GitHub repo and a slide deck.'
+  note: Conference talk page about the badge by Thomas Flummer; no price/quantity information, links back to the same GitHub repo and a slide deck.
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-07'
-  notes: 'Hardware and firmware are open source and well documented in the maker''s own repo. Could not find a stated price, production quantity, or LED presence in any source checked; BornHack badges are traditionally included with conference admission, but no source stated this explicitly for 2023, so get_one.price/quantity are left empty and distribution is set to free_drop based on the standard con-badge pattern combined with the "handed out" phrasing in the README image caption context.'
+  notes: Hardware and firmware are open source and well documented in the maker's own repo. Could not find a stated price, production quantity, or LED presence in any source checked; BornHack badges are traditionally included with conference admission, but no source stated this explicitly for 2023, so get_one.price/quantity are left empty and distribution is set to free_drop based on the standard con-badge pattern combined with the "handed out" phrasing in the README image caption context.
 last_modified_date: '2026-09-07'
 images:
-  - file: assets/images/badges/bornhack-2023/bornhack-2023-badge/14db33a3f1.jpg
-    source: "https://github.com/bornhack/badge2023"
-    credit: "BornHack"
-    caption: "The BornHack 2023 NFC reader and tag badges, back side"
-  - file: assets/images/badges/bornhack-2023/bornhack-2023-badge/6d4bc29524.jpg
-    source: "https://github.com/bornhack/badge2023"
-    credit: "BornHack"
-    caption: "The BornHack 2023 NFC reader and tag badges, front side, showing the PCB art"
+- file: assets/images/badges/bornhack-2023/bornhack-2023-badge/14db33a3f1.jpg
+  source: https://github.com/bornhack/badge2023
+  credit: BornHack
+  caption: The BornHack 2023 NFC reader and tag badges, back side
+- file: assets/images/badges/bornhack-2023/bornhack-2023-badge/6d4bc29524.jpg
+  source: https://github.com/bornhack/badge2023
+  credit: BornHack
+  caption: The BornHack 2023 NFC reader and tag badges, front side, showing the PCB art
 links:
 - label: github.com/bornhack/badge2023
   url: https://github.com/bornhack/badge2023
   kind: repo
-- label: 'BornHack 2023 makes NFC badges (Adafruit blog)'
+- label: BornHack 2023 makes NFC badges (Adafruit blog)
   url: https://blog.adafruit.com/2023/08/02/bornhack-2023-makes-nfc-badges-badgelife-rp2040-bornhackbadge-raspberry_pi/
   kind: article
-- label: 'This years BornHack badge with NFC (talk, program page)'
+- label: This years BornHack badge with NFC (talk, program page)
   url: https://bornhack.dk/bornhack-2023/program/this-years-bornhack-badge-with-nfc/
   kind: doc
-- label: 'BornHack 2023 NFC Badges talk slides (Thomas Flummer)'
+- label: BornHack 2023 NFC Badges talk slides (Thomas Flummer)
   url: https://thomasflummer.com/slides/nfc_badge_2023.pdf
   kind: doc
 contact: {}
+model:
+  file: assets/models/bornhack-2023/bornhack-2023-badge.glb
+  method: kicad
+  source_file: nfc_reader/nfc_reader.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 340572
 ---
 
 The BornHack 2023 conference badge was actually a pair of connected boards themed around NFC: a reader badge and a tag badge, wired together with a small Qwiic/STEMMA QT-style cable. The reader badge is built around a Raspberry Pi RP2040 (dual-core Cortex-M0+) with 16MB of Winbond QSPI flash and an NXP PN7150 NFC controller capable of both reading tags and doing card emulation; it shipped preloaded with CircuitPython so attendees could start experimenting over USB-C with just a text editor. The companion tag badge is a simpler board built around an NXP NTAG I2C Plus (NT3H2211) chip, giving attendees a physical NFC tag to read, write, and clone with the reader badge.

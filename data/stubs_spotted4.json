@@ -1,0 +1,660 @@
+[
+ {
+  "id": "dc26-sympetrum-v3-dragonfly-badge",
+  "title": "Sympetrum v3 (Dragonfly badge)",
+  "type": "unknown",
+  "event": "dc26",
+  "event_name": "DEF CON 26",
+  "year": 2018,
+  "makers": [
+   {
+    "name": "borgel (Kerry Scharfglass)"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "Spotted by a research agent while working on a neighbouring entry (run 4)."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://github.com/borgel/sympetrum-v3",
+    "kind": "repo",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://github.com/borgel/sympetrum-v3",
+    "title": "Sympetrum v3 (Dragonfly badge)",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: research-run4-spotted); event read as 'dc26'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "dc27-seckc-defcon-party-badge-sao",
+  "title": "SecKC Defcon Party Badge - SAO",
+  "type": "unknown",
+  "event": "dc27",
+  "event_name": "DEF CON 27",
+  "year": 2019,
+  "makers": [
+   {
+    "name": "BadgePirates"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "Spotted by a research agent while working on a neighbouring entry (run 4)."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://store.badgepirates.com/product/preorder-seckc-defcon-party-badge-sao/",
+    "kind": "store",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://store.badgepirates.com/product/preorder-seckc-defcon-party-badge-sao/",
+    "title": "SecKC Defcon Party Badge - SAO",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: research-run4-spotted); event read as 'dc27'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "dc27-seckc-party-star",
+  "title": "DefCon 27 SecKC Party Star",
+  "type": "other",
+  "event": "dc27",
+  "event_name": "DEF CON 27",
+  "year": 2019,
+  "makers": [
+   {
+    "name": "BadgePirates"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "Spotted by a research agent while working on a neighbouring entry (run 4)."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://www.tindie.com/products/badgepirates/defcon-27-seckc-party-star/",
+    "kind": "store",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://www.tindie.com/products/badgepirates/defcon-27-seckc-party-star/",
+    "title": "DefCon 27 SecKC Party Star",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: research-run4-spotted); event read as 'dc27'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "dc31-crew-sao",
+  "title": "crew SAO",
+  "type": "unknown",
+  "event": "dc31",
+  "event_name": "DEF CON 31",
+  "year": 2023,
+  "makers": [
+   {
+    "name": "Aerospace Village"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "Spotted by a research agent while working on a neighbouring entry (run 4)."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://github.com/AerospaceVillage/avBadge_2023/tree/main/crew%20SAO",
+    "kind": "repo",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://github.com/AerospaceVillage/avBadge_2023/tree/main/crew%20SAO",
+    "title": "crew SAO",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: research-run4-spotted); event read as 'dc31'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "dc31-space-shuttle-sao",
+  "title": "space_shuttle_SAO",
+  "type": "unknown",
+  "event": "dc31",
+  "event_name": "DEF CON 31",
+  "year": 2023,
+  "makers": [
+   {
+    "name": "Aerospace Village"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "Spotted by a research agent while working on a neighbouring entry (run 4)."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://github.com/AerospaceVillage/avBadge_2023/tree/main/space_shuttle_SAO",
+    "kind": "repo",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://github.com/AerospaceVillage/avBadge_2023/tree/main/space_shuttle_SAO",
+    "title": "space_shuttle_SAO",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: research-run4-spotted); event read as 'dc31'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "dc31-speaker-sao",
+  "title": "speaker SAO",
+  "type": "unknown",
+  "event": "dc31",
+  "event_name": "DEF CON 31",
+  "year": 2023,
+  "makers": [
+   {
+    "name": "Aerospace Village"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "Spotted by a research agent while working on a neighbouring entry (run 4)."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://github.com/AerospaceVillage/avBadge_2023/tree/main/speaker%20SAO",
+    "kind": "repo",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://github.com/AerospaceVillage/avBadge_2023/tree/main/speaker%20SAO",
+    "title": "speaker SAO",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: research-run4-spotted); event read as 'dc31'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "dc34-ics-village-def-con-34-badge",
+  "title": "ICS Village DEF CON 34 Badge",
+  "type": "unknown",
+  "event": "dc34",
+  "event_name": "DEF CON 34",
+  "year": 2026,
+  "makers": [
+   {
+    "name": "FreeWili"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "Spotted by a research agent while working on a neighbouring entry (run 4)."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://freewili.com/ics-village-defcon-34-badge.html",
+    "kind": "website",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://freewili.com/ics-village-defcon-34-badge.html",
+    "title": "ICS Village DEF CON 34 Badge",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: research-run4-spotted); event read as 'dc34'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "other-dc801-sao",
+  "title": "DC801 SAO",
+  "type": "unknown",
+  "event": "other",
+  "event_name": "Other / unaffiliated",
+  "year": 0,
+  "makers": [
+   {
+    "name": "snurkle engineering / hamster"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "Spotted by a research agent while working on a neighbouring entry (run 4)."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://www.tindie.com/products/hamster/dc801-sao-badgelife-addon/",
+    "kind": "store",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://www.tindie.com/products/hamster/dc801-sao-badgelife-addon/",
+    "title": "DC801 SAO",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: research-run4-spotted); event read as 'unknown'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "other-witch-hat-for-joule-thief-cat",
+  "title": "Witch Hat for Joule Thief Cat",
+  "type": "accessory",
+  "event": "other",
+  "event_name": "Other / unaffiliated",
+  "year": 0,
+  "makers": [
+   {
+    "name": "tilde.industries"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "Spotted by a research agent while working on a neighbouring entry (run 4)."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://www.tindie.com/products/tilde/witch-hat/",
+    "kind": "store",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://www.tindie.com/products/tilde/witch-hat/",
+    "title": "Witch Hat for Joule Thief Cat",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: research-run4-spotted); event read as 'other'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "other-hth-general-badge",
+  "title": "HTH-General-Badge",
+  "type": "unknown",
+  "event": "other",
+  "event_name": "Other / unaffiliated",
+  "year": 0,
+  "makers": [
+   {
+    "name": "syn-ack-zack"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "Spotted by a research agent while working on a neighbouring entry (run 4)."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://github.com/syn-ack-zack/HTH-General-Badge",
+    "kind": "repo",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://github.com/syn-ack-zack/HTH-General-Badge",
+    "title": "HTH-General-Badge",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: research-run4-spotted); event read as 'other'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "other-hth-elite-2019-badge-2",
+  "title": "HTH-Elite-2019-Badge",
+  "type": "unknown",
+  "event": "other",
+  "event_name": "Other / unaffiliated",
+  "year": 0,
+  "makers": [
+   {
+    "name": "syn-ack-zack"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "Spotted by a research agent while working on a neighbouring entry (run 4)."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://github.com/syn-ack-zack/HTH-Elite-2019-Badge",
+    "kind": "repo",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://github.com/syn-ack-zack/HTH-Elite-2019-Badge",
+    "title": "HTH-Elite-2019-Badge",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: research-run4-spotted); event read as 'other'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "dc31-true-s-rgb-addon-addon-for-dc31-badge",
+  "title": "true's RGB Addon Addon for DC31 Badge",
+  "type": "unknown",
+  "event": "dc31",
+  "event_name": "DEF CON 31",
+  "year": 2023,
+  "makers": [
+   {
+    "name": "trueControl"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "Spotted by a research agent while working on a neighbouring entry (run 4)."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://shop.truecontrol.org/index.php?route=product%2Fproduct&product_id=133",
+    "kind": "store",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://shop.truecontrol.org/index.php?route=product%2Fproduct&product_id=133",
+    "title": "true's RGB Addon Addon for DC31 Badge",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: research-run4-spotted); event read as 'dc31'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "saintcon-2023-saintcon-2023-minibadge-rp2040-72-led-matrix",
+  "title": "Saintcon 2023 Minibadge (RP2040, 72-LED matrix)",
+  "type": "minibadge",
+  "event": "saintcon-2023",
+  "event_name": "Saintcon 2023",
+  "year": 2023,
+  "makers": [
+   {
+    "name": "redactd"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "Spotted by a research agent while working on a neighbouring entry (run 4)."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://www.tindie.com/products/redactd/saintcon-2023-minibadge/",
+    "kind": "store",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://www.tindie.com/products/redactd/saintcon-2023-minibadge/",
+    "title": "Saintcon 2023 Minibadge (RP2040, 72-LED matrix)",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: research-run4-spotted); event read as 'saintcon-2023'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ },
+ {
+  "id": "other-saintconminibadges",
+  "title": "SaintConMinibadges",
+  "type": "minibadge",
+  "event": "other",
+  "event_name": "Other / unaffiliated",
+  "year": 0,
+  "makers": [
+   {
+    "name": "CompuDocUt"
+   }
+  ],
+  "summary": "",
+  "functions": "",
+  "notes": [
+   "Spotted by a research agent while working on a neighbouring entry (run 4)."
+  ],
+  "how_to_get": "",
+  "price": "",
+  "price_usd": null,
+  "quantity": "",
+  "availability": "unknown",
+  "status": "listed",
+  "links": [
+   {
+    "url": "https://github.com/CompuDocUt/SaintConMinibadges",
+    "kind": "repo",
+    "from": "discovery"
+   }
+  ],
+  "contact": {},
+  "sources": [
+   {
+    "kind": "url",
+    "url": "https://github.com/CompuDocUt/SaintConMinibadges",
+    "title": "SaintConMinibadges",
+    "accessed": "2026-09-07",
+    "note": "Found by the archive's discovery sweep (angle: research-run4-spotted); event read as 'saintcon'."
+   }
+  ],
+  "research": {
+   "status": "stub"
+  },
+  "intake": {
+   "image_urls": []
+  }
+ }
+]

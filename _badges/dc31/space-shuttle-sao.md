@@ -1,15 +1,15 @@
 ---
-title: TEST-O Robot Buddy Addon Continuity Tester
-id: other-test-o-robot-buddy-addon-continuity-tester
+title: space_shuttle_SAO
+id: dc31-space-shuttle-sao
 layout: badge
-parent: Other
+parent: DC31
 grand_parent: Badge Archive
 nav_exclude: true
 type: unknown
-event: other
-year: 0
+event: dc31
+year: 2023
 makers:
-- name: trueControl
+- name: Aerospace Village
 summary: ''
 functions: ''
 look:
@@ -36,20 +36,20 @@ make_your_own:
   firmware_url: null
   eda_tool: null
 links:
-- label: basic.truecontrol.org/database/sc7/testo-qs
-  url: https://basic.truecontrol.org/database/sc7/testo-qs/
-  kind: website
+- label: github.com/AerospaceVillage/avBadge_2023/tree/main/space_shuttle_SAO
+  url: https://github.com/AerospaceVillage/avBadge_2023/tree/main/space_shuttle_SAO
+  kind: repo
 images: []
 contact: {}
 notes:
-- Spotted by a research agent while working on a neighbouring entry (run 3).
+- Spotted by a research agent while working on a neighbouring entry (run 4).
 status: listed
 sources:
 - kind: url
-  url: https://basic.truecontrol.org/database/sc7/testo-qs/
-  title: TEST-O Robot Buddy Addon Continuity Tester
+  url: https://github.com/AerospaceVillage/avBadge_2023/tree/main/space_shuttle_SAO
+  title: space_shuttle_SAO
   accessed: '2026-09-07'
-  note: 'Found by the archive''s discovery sweep (angle: research-run3-spotted); event read as ''supercon-2023''.'
+  note: 'Found by the archive''s discovery sweep (angle: research-run4-spotted); event read as ''dc31''.'
 research:
   status: stub
   confidence: low

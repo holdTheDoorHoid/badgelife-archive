@@ -78,6 +78,15 @@ research:
   last_checked: '2026-09-07'
   notes: The project page and file listing confirm this is a genuine item from awkward intelligence's DEF CON 26 "Harbinger" Shitty Add-On collection, with Gerber/design files published as "pickle rick sao.zip" (2019-03-04). No page gives a specific description, chip, LED count, colors, or dimensions for the Pickle Rick piece itself (other pieces in the same collection are documented in more detail); no photo clearly showing the Pickle Rick SAO specifically was found (the project's cover photo shows a different piece from the same set, "Shitty Calvin"). The maker states the whole batch of add-ons was given away free with purchase of the set rather than sold individually, which was used for get_one fields. type/sao_version/mcu/leds left as in the original stub since no source confirms them for this specific piece.
 last_modified_date: '2026-09-07'
+model:
+  file: assets/models/dc26/dc26-pickle-rick-sao.glb
+  method: gerber
+  source_file: gerbersfixxxx.zip/gerbersfixxxx
+  generated: '2026-09-07'
+  bytes: 189728
+  size_mm:
+  - 81.9
+  - 75.6
 ---
 
 Pickle Rick is one of several Rick and Morty-adjacent add-ons in awkward intelligence's "Harbinger" collection of Shitty Add-Ons made for DEF CON 26 (2018), a set that also included pieces styled after Nick Cage, Bob Ross, and the maker's earlier "Shitty Calvin" design. The maker's Hackaday.io project page for the collection lists a "pickle rick sao.zip" design file, uploaded in March 2019, described simply as "Pickle Rick Shitty add-on."

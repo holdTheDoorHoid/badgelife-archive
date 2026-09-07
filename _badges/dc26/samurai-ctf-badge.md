@@ -11,8 +11,8 @@ year: 2018
 makers:
 - name: Silas Cutler
   url: https://hackaday.io/silas-cutler
-summary: 'A circular independent badge made for DEF CON 26 (2018), cut with the Japanese kanji for "samurai" (侍) and built on RGB-LED electronics reused from an earlier MassHackers badge design.'
-functions: 'Programmable RGB LED color rotation and fade effects along two LED strips, with a button to switch between lighting modes. No CTF/game logic of its own beyond the "CTF" in its name; the electronics were adapted from a Massachusetts hacker meetup badge.'
+summary: A circular independent badge made for DEF CON 26 (2018), cut with the Japanese kanji for "samurai" (侍) and built on RGB-LED electronics reused from an earlier MassHackers badge design.
+functions: Programmable RGB LED color rotation and fade effects along two LED strips, with a button to switch between lighting modes. No CTF/game logic of its own beyond the "CTF" in its name; the electronics were adapted from a Massachusetts hacker meetup badge.
 look:
   colors:
   - black
@@ -27,7 +27,7 @@ tech:
   leds:
     count: 6
     type: RGB
-    note: 'Two strips of surface-mount RGB LEDs along the badge edge, driven with the SoftPWM library for smooth color fades; inherited from the MassHackers 2015 badge base design.'
+    note: Two strips of surface-mount RGB LEDs along the badge edge, driven with the SoftPWM library for smooth color fades; inherited from the MassHackers 2015 badge base design.
   display: none
   connectivity: []
   battery: null
@@ -38,7 +38,7 @@ get_one:
   quantity: ''
   availability: unknown
   distribution: []
-  where: 'Made by Silas Cutler ("Team Samurai") as a personal DEF CON 26 badge build; no evidence it was sold or widely distributed.'
+  where: Made by Silas Cutler ("Team Samurai") as a personal DEF CON 26 badge build; no evidence it was sold or widely distributed.
 make_your_own:
   open_source: partial
   hardware_url: https://github.com/TheDukeZip/MassHackersBadge2015
@@ -53,13 +53,13 @@ links:
   kind: repo
 images:
 - file: assets/images/badges/dc26/samurai-ctf-badge/644fb006a1.jpg
-  source: "https://hackaday.io/project/160469-samurai-ctf-badge"
-  credit: "Silas Cutler"
-  caption: "Samurai CTF Badge - circular PCB with Japanese kanji for samurai (侍), LED strips, and carabiner clip"
+  source: https://hackaday.io/project/160469-samurai-ctf-badge
+  credit: Silas Cutler
+  caption: Samurai CTF Badge - circular PCB with Japanese kanji for samurai (侍), LED strips, and carabiner clip
 - file: assets/images/badges/dc26/samurai-ctf-badge/686cb38043.jpg
-  source: "https://hackaday.io/project/160469-samurai-ctf-badge"
-  credit: "Silas Cutler"
-  caption: "Underside of the Samurai CTF Badge showing component placement and LED strips"
+  source: https://hackaday.io/project/160469-samurai-ctf-badge
+  credit: Silas Cutler
+  caption: Underside of the Samurai CTF Badge showing component placement and LED strips
 contact: {}
 notes: []
 status: released
@@ -73,7 +73,7 @@ sources:
   url: https://hackaday.io/project/160469-samurai-ctf-badge
   title: Samurai CTF Badge - project page
   accessed: '2026-09-07'
-  note: 'Confirmed maker Silas Cutler, event DEF CON 26 (2018), that it reuses TheDukeZip/MassHackers electronics, and pulled the two gallery photos of the badge.'
+  note: Confirmed maker Silas Cutler, event DEF CON 26 (2018), that it reuses TheDukeZip/MassHackers electronics, and pulled the two gallery photos of the badge.
 - kind: url
   url: https://github.com/TheDukeZip/MassHackersBadge2015
   title: TheDukeZip/MassHackersBadge2015
@@ -87,6 +87,12 @@ research:
 last_modified_date: '2026-09-07'
 redirect_from:
 - /badges/other/samurai-ctf-badge/
+model:
+  file: assets/models/dc26/samurai-ctf-badge.glb
+  method: kicad
+  source_file: MassHackersBadge2015.brd
+  generated: '2026-09-07'
+  bytes: 116100
 ---
 
 The Samurai CTF Badge is an independent hardware badge made by Silas Cutler for DEF CON 26 in 2018, under the name "Team Samurai." It is a circular black PCB cut through with the Japanese kanji for "samurai" (侍) in white silkscreen, worn on a carabiner clip. Cutler describes it on Hackaday.io as his first full DEF CON badge build.

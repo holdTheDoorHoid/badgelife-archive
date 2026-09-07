@@ -12,7 +12,7 @@ makers:
 - name: d4rkwyng
   url: https://github.com/d4rkwyng
 - name: SparX
-summary: A #badgelife shitty addon (SAO) built for DEF CON 26, using an MCP23017 I/O expander to drive eight LEDs through the standard 2x2 "shitty" connector.
+summary: A
 functions: Lights eight 1206 LEDs, driven over the SAO connector by an MCP23017 I/O expander rather than direct microcontroller pins.
 look:
   colors: []
@@ -38,29 +38,29 @@ get_one:
   distribution: []
   where: ''
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/d4rkwyng/mrmeeseeks-addon
   firmware_url: null
   eda_tool: KiCad
   license: MIT
   fab_url: null
-  notes: 'Repo includes KiCad schematic/PCB/netlist files, a BOM, and Gerbers for revisions D and E (five revisions, A-E, total). No firmware is needed or published; the addon is passive logic driven by the host badge.'
+  notes: Repo includes KiCad schematic/PCB/netlist files, a BOM, and Gerbers for revisions D and E (five revisions, A-E, total). No firmware is needed or published; the addon is passive logic driven by the host badge.
 links:
 - label: github.com/d4rkwyng/mrmeeseeks-addon
   url: https://github.com/d4rkwyng/mrmeeseeks-addon
   kind: repo
 images:
 - file: assets/images/badges/dc26/mrmeeseeks-addon-def-con-26-sao/18bd4aaca4.jpg
-  source: "https://github.com/d4rkwyng/mrmeeseeks-addon"
-  credit: "d4rkwyng"
-  caption: "Front of the Mr. MeeSeeks shitty addon PCB"
+  source: https://github.com/d4rkwyng/mrmeeseeks-addon
+  credit: d4rkwyng
+  caption: Front of the Mr. MeeSeeks shitty addon PCB
 - file: assets/images/badges/dc26/mrmeeseeks-addon-def-con-26-sao/c8f045ee35.jpg
-  source: "https://github.com/d4rkwyng/mrmeeseeks-addon"
-  credit: "d4rkwyng"
-  caption: "Back of the Mr. MeeSeeks shitty addon PCB"
+  source: https://github.com/d4rkwyng/mrmeeseeks-addon
+  credit: d4rkwyng
+  caption: Back of the Mr. MeeSeeks shitty addon PCB
 contact: {}
 notes:
-- 'Sheet title lacked "Shitty Addon" wording; expanded per the maker''s own README title "Mr MeeSeeks Shitty Addon".'
+- Sheet title lacked "Shitty Addon" wording; expanded per the maker's own README title "Mr MeeSeeks Shitty Addon".
 status: released
 sources:
 - kind: url
@@ -72,13 +72,19 @@ sources:
   url: https://raw.githubusercontent.com/d4rkwyng/mrmeeseeks-addon/master/README.md
   title: mrmeeseeks-addon README
   accessed: '2026-09-07'
-  note: 'Confirmed maker credits (d4rkwyng and SparX, with a nod to AND!XOR for a schematics tutorial), BOM (MCP23017, 8x LED, 8x resistor, shitty connector), five PCB revisions A-E, KiCad/MIT open-source status, and front/back preview image paths.'
+  note: Confirmed maker credits (d4rkwyng and SparX, with a nod to AND!XOR for a schematics tutorial), BOM (MCP23017, 8x LED, 8x resistor, shitty connector), five PCB revisions A-E, KiCad/MIT open-source status, and front/back preview image paths.
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-07'
-  notes: 'Maker''s own repo and README confirm all core facts. No pricing, quantity-made, or distribution details were published anywhere in the repo, and no storefront, Hackaday, or social-media presence was found for this specific project, so get_one fields are left empty. Web search budget for this session was exhausted before a broader search (e.g. for AND!XOR mentions or forum posts) could be run.'
+  notes: Maker's own repo and README confirm all core facts. No pricing, quantity-made, or distribution details were published anywhere in the repo, and no storefront, Hackaday, or social-media presence was found for this specific project, so get_one fields are left empty. Web search budget for this session was exhausted before a broader search (e.g. for AND!XOR mentions or forum posts) could be run.
 last_modified_date: '2026-09-07'
+model:
+  file: assets/models/dc26/mrmeeseeks-addon-def-con-26-sao.glb
+  method: kicad
+  source_file: mrmeeseeks_RevE.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 86720
 ---
 
 The Mr. MeeSeeks Shitty Addon is a DEF CON 26 (2018) SAO made by d4rkwyng and SparX, part of the badgelife scene's tradition of small "shitty addon" boards that plug into a host badge's 2x2 SAO header. It carries eight 1206 LEDs, each behind its own 220 ohm resistor, switched through an MCP23017 I/O expander rather than driven straight from a microcontroller — the board has no MCU of its own and relies entirely on the host badge for logic and power. The maker's README credits AND!XOR's instructional video on shitty-addon schematics as a reference for the design.

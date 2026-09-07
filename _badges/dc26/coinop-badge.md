@@ -99,6 +99,12 @@ research:
   last_checked: '2026-09-07'
   notes: Blue LED count disagrees between sources — Hackaday.io project page says 4 blue LEDs (matching the earlier sheet import), the Hackaday.com DEF CON 26 roundup article says 3 blue LEDs. Left tech.leds.count at 22 total (18 red + 4 blue, the maker's own project page) and noted the discrepancy rather than guess which is correct. No Gerber-specific share link or BOM found; hardware/firmware are both in the GitHub repo. No evidence of any commercial sale — distributed free at DEF CON 26.
 last_modified_date: '2026-09-07'
+model:
+  file: assets/models/dc26/coinop-badge.glb
+  method: kicad
+  source_file: board/coinop-badge.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 205788
 ---
 
 Mike Szczys built the CoinOp Badge as a personal tribute to the arcade game Galaga, shaping the PCB itself like the game's spaceship. An ATmega48 microcontroller charlieplexes 18 red and a handful of blue 0603 LEDs (sources differ on whether it's 3 or 4) across the board, scanning them at a 1kHz, 1/6 duty cycle to keep current draw low. Two momentary push buttons let the wearer fire "lasers," cycle through LED animation modes, and put the badge to sleep; a CR2032 coin cell powers the whole thing, with the firmware dropping to roughly 4.3 microamps in sleep and 0.1 microamps when switched fully off.

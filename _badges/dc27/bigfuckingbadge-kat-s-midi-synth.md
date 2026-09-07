@@ -48,7 +48,7 @@ get_one:
   distribution: []
   where: ''
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/Hexum064/BFB-DC27-Board-and-Circuit
   firmware_url: https://github.com/Hexum064/ATTINY412_MIDI_BASIC
   eda_tool: null
@@ -70,9 +70,9 @@ links:
   kind: website
 images:
 - file: assets/images/badges/dc27/bigfuckingbadge-kat-s-midi-synth/4eee53b2de.jpg
-  source: "https://hackaday.io/project/166765-bigfuckingbadge-kats-midi-synth"
-  credit: "hexum064"
-  caption: "The BigFuckingBadge: Kat's MIDI Synth, an oversized DEF CON 27 badge"
+  source: https://hackaday.io/project/166765-bigfuckingbadge-kats-midi-synth
+  credit: hexum064
+  caption: 'The BigFuckingBadge: Kat''s MIDI Synth, an oversized DEF CON 27 badge'
 contact: {}
 notes: []
 status: released
@@ -91,10 +91,16 @@ research:
   status: researched
   confidence: high
   last_checked: '2026-09-07'
-  notes: 'Named after hexum064''s daughter Katerina. Maker describes the project as built with "no budget" for the event as a one-off; no price, quantity, or general public availability/distribution info found, so those fields are left empty. Exact LED count not stated. The project creator noted in an April 2025 discussion that the linked files "are all over the place," so the three GitHub repos above may not be fully organized.'
+  notes: Named after hexum064's daughter Katerina. Maker describes the project as built with "no budget" for the event as a one-off; no price, quantity, or general public availability/distribution info found, so those fields are left empty. Exact LED count not stated. The project creator noted in an April 2025 discussion that the linked files "are all over the place," so the three GitHub repos above may not be fully organized.
 last_modified_date: '2026-09-07'
 redirect_from:
 - /badges/other/bigfuckingbadge-kat-s-midi-synth/
+model:
+  file: assets/models/dc27/bigfuckingbadge-kat-s-midi-synth.glb
+  method: kicad
+  source_file: TestBoard.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 236196
 ---
 
 The BigFuckingBadge: Kat's MIDI Synth is an intentionally oversized conference badge built for DEF CON 27 (2019) by a four-person team — hexum064 (lead), pinguino, Bunny1billion, and Erin — as a joke about making something "really, really big" with no budget and little time. It's dedicated to hexum064's daughter, Katerina.

@@ -1,13 +1,13 @@
 ---
-title: The GAT Stand - Badge Addon Holder
-id: other-the-gat-stand-badge-addon-holder
+title: true's RGB Addon Addon for DC31 Badge
+id: dc31-true-s-rgb-addon-addon-for-dc31-badge
 layout: badge
-parent: Other
+parent: DC31
 grand_parent: Badge Archive
 nav_exclude: true
-type: accessory
-event: other
-year: 0
+type: unknown
+event: dc31
+year: 2023
 makers:
 - name: trueControl
 summary: ''
@@ -36,20 +36,20 @@ make_your_own:
   firmware_url: null
   eda_tool: null
 links:
-- label: hackaday.io/project/198570-the-gat-stand-badge-addon-holder
-  url: https://hackaday.io/project/198570-the-gat-stand-badge-addon-holder
-  kind: hackaday
+- label: shop.truecontrol.org/index.php?route=product%2Fproduct&product_id=133
+  url: https://shop.truecontrol.org/index.php?route=product%2Fproduct&product_id=133
+  kind: store
 images: []
 contact: {}
 notes:
-- Spotted by a research agent while working on a neighbouring entry (run 3).
+- Spotted by a research agent while working on a neighbouring entry (run 4).
 status: listed
 sources:
 - kind: url
-  url: https://hackaday.io/project/198570-the-gat-stand-badge-addon-holder
-  title: The GAT Stand - Badge Addon Holder
+  url: https://shop.truecontrol.org/index.php?route=product%2Fproduct&product_id=133
+  title: true's RGB Addon Addon for DC31 Badge
   accessed: '2026-09-07'
-  note: 'Found by the archive''s discovery sweep (angle: research-run3-spotted); event read as ''unknown''.'
+  note: 'Found by the archive''s discovery sweep (angle: research-run4-spotted); event read as ''dc31''.'
 research:
   status: stub
   confidence: low

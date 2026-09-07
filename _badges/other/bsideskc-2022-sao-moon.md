@@ -61,7 +61,7 @@ sources:
   accessed: '2026-09-07'
   note: 'Maker''s own writeup of the BSidesKC 2022 badge (ESP32-S2 WROOM safe-themed badge, 20 reverse-gullwing LEDs, six role-based color variants). Describes a Participant SAO (T-shirt graphic, no electronics) and special SAOs for Solder Village volunteers and sponsors (Arista-TGS, Corelight, Red Canary, Tines); does not mention a "Moon" SAO by name.'
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-07'
   notes: 'This entry exists only as a folder of KiCad PCB design files (BsidesKC SAO - Moon.kicad_pcb) inside BadgePirates'' "CAD - Prototypes" directory for their BSidesKC 2022 badge repo. No README, blog post, storefront listing, or photo of the assembled board could be found anywhere, including on the BadgePirates blog post that otherwise documents the 2022 badge and its various SAOs (Participant, Solder Village, sponsor SAOs) in detail without naming a "Moon" variant. It is unclear whether this design was ever fabricated, distributed, or was purely a prototype/concept that did not make it past CAD. No matching "bsideskc" event exists in this archive''s events.yml, so the event is left as "other"; the con is BSidesKC 2022 (Kansas City, Sept 23-24, 2022).'

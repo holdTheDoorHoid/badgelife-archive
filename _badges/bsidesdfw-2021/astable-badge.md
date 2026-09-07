@@ -11,8 +11,8 @@ year: 2021
 makers:
 - name: Alt_Bier
   url: https://github.com/gowenrw
-summary: 'A through-hole soldering-education badge built around an astable multivibrator circuit that blinks LEDs using two transistors instead of an IC.'
-functions: 'Blinks two user-chosen LEDs via a two-transistor astable multivibrator; adjustable-speed blinking via onboard trim potentiometers; test points let builders probe the circuit with a logic analyzer.'
+summary: A through-hole soldering-education badge built around an astable multivibrator circuit that blinks LEDs using two transistors instead of an IC.
+functions: Blinks two user-chosen LEDs via a two-transistor astable multivibrator; adjustable-speed blinking via onboard trim potentiometers; test points let builders probe the circuit with a logic analyzer.
 look:
   colors: []
   shape: null
@@ -25,7 +25,7 @@ tech:
   leds:
     count: 2
     type: discrete
-    note: 'Kit ships with five 3mm THT LEDs (red, green, blue, yellow, white); builder solders in two of their choice.'
+    note: Kit ships with five 3mm THT LEDs (red, green, blue, yellow, white); builder solders in two of their choice.
   display: none
   connectivity: []
   battery: CR2032
@@ -36,7 +36,7 @@ get_one:
   quantity: ''
   availability: unknown
   distribution: []
-  where: 'Distributed at BSidesDFW 2021, associated with the Hardware Hacking Village (HHV) badge-soldering session.'
+  where: Distributed at BSidesDFW 2021, associated with the Hardware Hacking Village (HHV) badge-soldering session.
 make_your_own:
   open_source: 'yes'
   hardware_url: https://github.com/gowenrw/astable_badge
@@ -58,13 +58,13 @@ links:
   kind: website
 images:
 - file: assets/images/badges/bsidesdfw-2021/astable-badge/f01da05c77.jpg
-  source: "https://astablebadge.altbier.us/"
-  credit: "Alt_Bier (gowenrw)"
-  caption: "Assembled Astable Badge with Cyber-Dolphin artwork"
+  source: https://astablebadge.altbier.us/
+  credit: Alt_Bier (gowenrw)
+  caption: Assembled Astable Badge with Cyber-Dolphin artwork
 - file: assets/images/badges/bsidesdfw-2021/astable-badge/f5bcc7b6c9.jpg
-  source: "https://astablebadge.altbier.us/"
-  credit: "Alt_Bier (gowenrw)"
-  caption: "Front of the unpopulated Astable Badge PCB"
+  source: https://astablebadge.altbier.us/
+  credit: Alt_Bier (gowenrw)
+  caption: Front of the unpopulated Astable Badge PCB
 contact: {}
 notes:
 - Spotted by a research agent while working on a neighbouring entry.
@@ -80,23 +80,29 @@ sources:
   url: https://github.com/gowenrw/astable_badge
   title: gowenrw/astable_badge
   accessed: '2026-09-07'
-  note: 'Confirms open-source hardware (KiCad, Gerbers, art files) under an MIT license.'
+  note: Confirms open-source hardware (KiCad, Gerbers, art files) under an MIT license.
 - kind: url
   url: https://altbier.us/bsidesdfw/
   title: BSidesDFW - altbier.us
   accessed: '2026-09-07'
-  note: 'Confirms the badge was associated with the BSidesDFW 2021 Hardware Hacking Village and its kit/instructions pages.'
+  note: Confirms the badge was associated with the BSidesDFW 2021 Hardware Hacking Village and its kit/instructions pages.
 - kind: url
   url: https://astablebadge.altbier.us/badgekit.html
   title: Astable Badge kit instructions
   accessed: '2026-09-07'
-  note: 'Kit contents (PCB, lanyard, sticker, CR2032, 5 THT LEDs of different colors, resistors, capacitors, 2x 2N2222A transistors, battery holder, optional headers) and assembly steps.'
+  note: Kit contents (PCB, lanyard, sticker, CR2032, 5 THT LEDs of different colors, resistors, capacitors, 2x 2N2222A transistors, battery holder, optional headers) and assembly steps.
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'Price, quantity made, and exact PCB solder-mask color were not stated on any source checked. Maker''s site says the badge was designed to avoid using an IC due to the 2021 global chip shortage, and its Cyber-Dolphin artwork is themed after Johnny Mnemonic (which is set in the year the badge was made). The badge was tied to a BSidesDFW 2021 Hardware Hacking Village session on the astable multivibrator circuit. Maker (Alt_Bier / gowenrw) has other entries in this archive from later DEF CONs (dc30, dc31, dc32).'
+  notes: Price, quantity made, and exact PCB solder-mask color were not stated on any source checked. Maker's site says the badge was designed to avoid using an IC due to the 2021 global chip shortage, and its Cyber-Dolphin artwork is themed after Johnny Mnemonic (which is set in the year the badge was made). The badge was tied to a BSidesDFW 2021 Hardware Hacking Village session on the astable multivibrator circuit. Maker (Alt_Bier / gowenrw) has other entries in this archive from later DEF CONs (dc30, dc31, dc32).
 last_modified_date: '2026-09-07'
+model:
+  file: assets/models/bsidesdfw-2021/astable-badge.glb
+  method: kicad
+  source_file: eda/astable_badge/astable_badge.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 291220
 ---
 
 The Astable Badge is a soldering-education badge Alt_Bier (gowenrw on GitHub) built for BSidesDFW 2021 at the request of CyberLowdown, who asked for a badge tied to the con. Rather than use a microcontroller, the badge is built around a classic two-transistor astable multivibrator: with no IC in the design, builders solder in resistors, capacitors, two 2N2222A transistors, and two of five included 3mm LEDs (red, green, blue, yellow, or white) themselves, then use onboard trim potentiometers to adjust the blink speed and test points to probe the circuit with a logic analyzer. The maker has said the IC-free design was a deliberate choice made in response to the global chip shortage happening at the time.

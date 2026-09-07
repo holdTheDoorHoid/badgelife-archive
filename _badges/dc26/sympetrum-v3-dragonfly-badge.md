@@ -1,15 +1,15 @@
 ---
-title: Whale Tail Badge
-id: other-whale-tail-badge
+title: Sympetrum v3 (Dragonfly badge)
+id: dc26-sympetrum-v3-dragonfly-badge
 layout: badge
-parent: Other
+parent: DC26
 grand_parent: Badge Archive
 nav_exclude: true
 type: unknown
-event: other
-year: 0
+event: dc26
+year: 2018
 makers:
-- name: FreeWili (with DEF CON ICS Village)
+- name: borgel (Kerry Scharfglass)
 summary: ''
 functions: ''
 look:
@@ -36,20 +36,20 @@ make_your_own:
   firmware_url: null
   eda_tool: null
 links:
-- label: whaletail.freewili.com/introduction-and-overview
-  url: https://whaletail.freewili.com/introduction-and-overview/
-  kind: website
+- label: github.com/borgel/sympetrum-v3
+  url: https://github.com/borgel/sympetrum-v3
+  kind: repo
 images: []
 contact: {}
 notes:
-- Spotted by a research agent while working on a neighbouring entry (run 3).
+- Spotted by a research agent while working on a neighbouring entry (run 4).
 status: listed
 sources:
 - kind: url
-  url: https://whaletail.freewili.com/introduction-and-overview/
-  title: Whale Tail Badge
+  url: https://github.com/borgel/sympetrum-v3
+  title: Sympetrum v3 (Dragonfly badge)
   accessed: '2026-09-07'
-  note: 'Found by the archive''s discovery sweep (angle: research-run3-spotted); event read as ''unknown''.'
+  note: 'Found by the archive''s discovery sweep (angle: research-run4-spotted); event read as ''dc26''.'
 research:
   status: stub
   confidence: low

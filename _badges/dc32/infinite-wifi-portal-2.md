@@ -62,6 +62,7 @@ links:
 - label: Infinite WiFi Portal hardware (trueserve Git)
   url: https://git.trueserve.org/trueControl/dc32-infinite-wifi-portal
   kind: repo
+  archived: https://web.archive.org/web/20260509160246/https://git.trueserve.org/trueControl/dc32-infinite-wifi-portal
 - label: aask.ltd/iwp (project page)
   url: https://aask.ltd/iwp
   kind: website
@@ -74,6 +75,7 @@ links:
 - label: shop.truecontrol.org
   url: https://shop.truecontrol.org
   kind: store
+  archived: https://web.archive.org/web/20251102092120/https://shop.truecontrol.org/
 images:
 - file: assets/images/badges/dc32/infinite-wifi-portal-2/9ff2a8bf36.jpg
   source: https://github.com/Aask42/DC32_Infinite_Wifi_Portal
@@ -113,6 +115,7 @@ sources:
   title: trueControl/dc32-infinite-wifi-portal - trueserve Git
   accessed: '2026-09-07'
   note: Confirmed the hardware repo is still live and belongs to trueControl; page itself carries no further written detail beyond the repo file listing.
+  archived: https://web.archive.org/web/20260509160246/https://git.trueserve.org/trueControl/dc32-infinite-wifi-portal
 - kind: url
   url: https://aask.ltd/iwp
   title: Infinite WiFi Portal - aask.ltd
@@ -123,6 +126,7 @@ sources:
   title: 'Hands-On: Whiskey Pirates DC29 Hardware Badge Blings With RISC-V'
   accessed: '2026-09-07'
   note: Background source confirming "Whiskey Pirates" as a DEF CON badge-making crew that describes itself as "adamantly not 'badgelife'" (matching the sheet's maker note) and led by trueControl ("true"); no DC32-specific content.
+  archived: https://web.archive.org/web/20260723225621/https://hackaday.com/2021/08/06/hands-on-whiskey-pirates-dc29-hardware-badge-blings-with-risc-v/
 - kind: sheet
   event: dc32
   row: 2
@@ -132,6 +136,7 @@ sources:
   title: trueControl Shop
   accessed: '2026-09-07'
   note: 'Storefront home, Badges category, and the DEF CON 32 subcategory (2 items: "Peppercon9 Addon" and "Flames Plane-inspired Addon") were checked directly and by site search for "infinite", "wifi", "portal", and "aask" - no product matching this title or maker was found. This shop belongs to trueControl / Whiskey Pirates, not "Aask Labs".'
+  archived: https://web.archive.org/web/20251102092120/https://shop.truecontrol.org/
 research:
   status: researched
   confidence: medium

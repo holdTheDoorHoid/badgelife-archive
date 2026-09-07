@@ -15,10 +15,8 @@ makers:
 - name: hamster (snurkle engineering)
   url: https://www.tindie.com/stores/hamster/
   role: designer / seller
-summary: A 4x4 grid of mechanical Gateron Blue keyswitches with RGB LEDs and transparent
-  keycaps underneath, topped with a small OLED, built by the DCZia crew for DEF CON 26.
-functions: Lights up its 16 keyswitches with RGB effects, shows menus and a light
-  show on the OLED, and advertises over BLE with a DEF CON-specific manufacturer ID.
+summary: A 4x4 grid of mechanical Gateron Blue keyswitches with RGB LEDs and transparent keycaps underneath, topped with a small OLED, built by the DCZia crew for DEF CON 26.
+functions: Lights up its 16 keyswitches with RGB effects, shows menus and a light show on the OLED, and advertises over BLE with a DEF CON-specific manufacturer ID.
 look:
   colors:
   - black
@@ -50,10 +48,9 @@ get_one:
   availability_note: Tindie listing for the assembled/kitted version shows "no longer available" (checked 2026-09-07).
   distribution:
   - purchase
-  where: Sold by hamster's snurkle engineering shop on Tindie, with the ESP32 and
-    other SMD parts pre-populated and the through-hole parts kitted for the buyer to solder.
+  where: Sold by hamster's snurkle engineering shop on Tindie, with the ESP32 and other SMD parts pre-populated and the through-hole parts kitted for the buyer to solder.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/hamster/Defcon26-Badge
   firmware_url: https://github.com/hamster/Defcon26-Badge
   gerbers_url: null
@@ -74,22 +71,16 @@ links:
   kind: store
 images:
 - file: assets/images/badges/dc26/dc801-def-con-26-badge/fff1e117c8.jpg
-  source: "https://www.tindie.com/products/hamster/dczia-defcon-26-mechanical-keyboard-badge/"
-  credit: "snurkle engineering (hamster)"
-  caption: "DCZia DEF CON 26 badge: 4x4 mechanical keyswitch grid with RGB backlighting"
+  source: https://www.tindie.com/products/hamster/dczia-defcon-26-mechanical-keyboard-badge/
+  credit: snurkle engineering (hamster)
+  caption: 'DCZia DEF CON 26 badge: 4x4 mechanical keyswitch grid with RGB backlighting'
 - file: assets/images/badges/dc26/dc801-def-con-26-badge/488e63d96c.jpg
-  source: "https://www.tindie.com/products/hamster/dczia-defcon-26-mechanical-keyboard-badge/"
-  credit: "snurkle engineering (hamster)"
-  caption: "DCZia DEF CON 26 badge, assembled with keycaps and OLED lit"
+  source: https://www.tindie.com/products/hamster/dczia-defcon-26-mechanical-keyboard-badge/
+  credit: snurkle engineering (hamster)
+  caption: DCZia DEF CON 26 badge, assembled with keycaps and OLED lit
 contact: {}
 notes:
-- The community sheet titled this "DC801 DEF CON 26 badge"; the maker's own README
-  and the Tindie listing both name it the "DCZia 2018" / "DCZia DEF CON 26" badge.
-  The designer (hamster) is DC801-affiliated (Sandy, UT / snurkle engineering also
-  sells separate DC801-branded SAOs), but this specific board is DCZia's, not the
-  unrelated DC801 "party badge" (nRF52832/BMD-300, LCD, tic-tac-toe) covered the
-  same year by Hackaday's DEF CON 26 badge roundup — that is a different item, see
-  other_items_found.
+- The community sheet titled this "DC801 DEF CON 26 badge"; the maker's own README and the Tindie listing both name it the "DCZia 2018" / "DCZia DEF CON 26" badge. The designer (hamster) is DC801-affiliated (Sandy, UT / snurkle engineering also sells separate DC801-branded SAOs), but this specific board is DCZia's, not the unrelated DC801 "party badge" (nRF52832/BMD-300, LCD, tic-tac-toe) covered the same year by Hackaday's DEF CON 26 badge roundup — that is a different item, see other_items_found.
 status: released
 sources:
 - kind: url
@@ -116,12 +107,14 @@ research:
   status: researched
   confidence: high
   last_checked: '2026-09-07'
-  notes: Maker's README and the Tindie storefront agree on the core facts. Price
-    and exact production quantity are not stated anywhere found. Tindie's listing
-    text loosely describes a "128x60 OLED" while the maker's own README specifies
-    a 0.91" 128x32 SSD1306; the README is treated as authoritative since it is the
-    maker's own build documentation written throughout development.
+  notes: Maker's README and the Tindie storefront agree on the core facts. Price and exact production quantity are not stated anywhere found. Tindie's listing text loosely describes a "128x60 OLED" while the maker's own README specifies a 0.91" 128x32 SSD1306; the README is treated as authoritative since it is the maker's own build documentation written throughout development.
 last_modified_date: '2026-09-07'
+model:
+  file: assets/models/dc26/dc801-def-con-26-badge.glb
+  method: kicad
+  source_file: Hardware/KeyGridBadge/KeyGridBadge.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 536836
 ---
 
 The DCZia badge was DEF CON 26's entry in an annual line of mechanical-keyswitch badges built by the DCZia crew (with hamster of Salt Lake City's snurkle engineering doing the hardware design). It packs a 4x4 grid of Gateron Blue keyswitches, each lit from underneath by a mini RGB LED and topped with a clear 3D-printed keycap, plus a small SSD1306 OLED at the top for menus and status. An ESP32 drives the whole thing, talking BLE (and possibly Wi-Fi) and advertising with a DEF CON 26-specific manufacturer ID so badges could recognize each other on the floor.

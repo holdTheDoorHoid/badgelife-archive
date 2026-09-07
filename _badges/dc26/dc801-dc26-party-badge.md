@@ -73,6 +73,12 @@ research:
   last_checked: '2026-09-07'
   notes: Only source found is the maker's own GitHub repo; no press coverage, storefront, or photos of the assembled badge were located. Price, quantity made, and exact distribution method (party badge implies free/attendee giveaway at a DC801 event, but this is not stated by the source) are unknown. LED presence/count is not mentioned anywhere in the repo. The KiCad board file is named "dragon-joke" but no shape/theme claim is made from that alone. No image URLs were found to save.
 last_modified_date: '2026-09-07'
+model:
+  file: assets/models/dc26/dc801-dc26-party-badge.glb
+  method: kicad
+  source_file: Hardware/dragon.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 475040
 ---
 
 The DC801 DC26 Party Badge is a Bluetooth Low Energy hardware badge that the Denver-area hacker group DC801 built for DEF CON 26 (2018). It is built around a Rigado BMD-300 module (a Nordic nRF52832 with a 16 MHz Cortex-M4F core, 512 kB flash, 64 kB RAM) and packs in a fair amount of I/O for a party badge: an SPI LCD screen, a speaker, six buttons plus one hidden button, a microSD card slot, micro USB, a JTAG header, and two SAO connectors alongside two minibadge headers. Power comes from a LiPo battery managed by an MCP73831 charger.

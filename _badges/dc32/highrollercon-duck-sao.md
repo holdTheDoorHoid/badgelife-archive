@@ -10,7 +10,7 @@ event: dc32
 year: 2024
 makers:
 - name: Cyber Swamplords
-summary: 'A duck-shaped SAO given away by the thousands at HighRollerCon 2024, an unofficial DEF CON 32 party atop the LINQ High Roller wheel in Las Vegas.'
+summary: A duck-shaped SAO given away by the thousands at HighRollerCon 2024, an unofficial DEF CON 32 party atop the LINQ High Roller wheel in Las Vegas.
 functions: ''
 look:
   colors: []
@@ -28,7 +28,7 @@ tech:
 get_one:
   price: free
   price_usd: null
-  quantity: 'several thousand'
+  quantity: several thousand
   availability: free
   distribution:
   - free_drop
@@ -42,14 +42,16 @@ links:
 - label: www.instructables.com/HackerBox-0104-Engage/#step8
   url: https://www.instructables.com/HackerBox-0104-Engage/#step8
   kind: website
-- label: HackerBox #0104 - Engage (HackerBoxes product page)
+  archived: https://web.archive.org/web/20260606133950/https://www.instructables.com/HackerBox-0104-Engage/
+- label: HackerBox
   url: https://hackerboxes.com/products/hackerbox-0104-engage
   kind: store
 images:
-  - file: assets/images/badges/dc32/highrollercon-duck-sao/f32a00c9b1.jpg
-    source: "https://www.instructables.com/HackerBox-0104-Engage/#step8"
-    credit: "HackerBoxes / Cyber Swamplords"
-    caption: "HighRollerCon Duck SAO as pictured in HackerBox #0104"
+- file: assets/images/badges/dc32/highrollercon-duck-sao/f32a00c9b1.jpg
+  source: https://www.instructables.com/HackerBox-0104-Engage/#step8
+  credit: HackerBoxes / Cyber Swamplords
+  caption: 'HighRollerCon Duck SAO as pictured in HackerBox #0104'
+  archived: https://web.archive.org/web/20260606133950/https://www.instructables.com/HackerBox-0104-Engage/
 contact: {}
 notes:
 - Spotted by a research agent while working on a neighbouring entry.
@@ -61,11 +63,13 @@ sources:
   title: HighRollerCon Duck SAO
   accessed: '2026-09-07'
   note: 'Found by the archive''s discovery sweep (angle: sheet-research-spotted); event read as ''dc32''.'
+  archived: https://web.archive.org/web/20260606133950/https://www.instructables.com/HackerBox-0104-Engage/
 - kind: url
   url: https://www.instructables.com/HackerBox-0104-Engage/
   title: 'HackerBox 0104: Engage (step 8, "HighRollerCon Duck SAOs")'
   accessed: '2026-09-07'
-  note: 'Confirms event (HighRollerCon 2024 / DEF CON 32), maker (Cyber Swamplords), venue and date (LINQ High Roller, 10 Aug 2024), and that "several thousand" Duck SAOs were distributed for free.'
+  note: Confirms event (HighRollerCon 2024 / DEF CON 32), maker (Cyber Swamplords), venue and date (LINQ High Roller, 10 Aug 2024), and that "several thousand" Duck SAOs were distributed for free.
+  archived: https://web.archive.org/web/20260606133950/https://www.instructables.com/HackerBox-0104-Engage/
 - kind: url
   url: https://hackerboxes.com/products/hackerbox-0104-engage
   title: 'HackerBox #0104 - Engage'
@@ -75,12 +79,13 @@ sources:
   url: https://defcon.org/html/defcon-32/dc-32-vendors.html
   title: 'DEF CON 32 Vendors: Cyber Swamplords'
   accessed: '2026-09-07'
-  note: 'Confirms Cyber Swamplords is a crew from Jolly Media Group, Rot13Labs, and The Moth and Mantis (Central Florida) who make custom badges, quirky SAOs, and PCB jewelry, and ran a DEF CON 32 vendor booth with duck/"#quack" branding.'
+  note: Confirms Cyber Swamplords is a crew from Jolly Media Group, Rot13Labs, and The Moth and Mantis (Central Florida) who make custom badges, quirky SAOs, and PCB jewelry, and ran a DEF CON 32 vendor booth with duck/"#quack" branding.
+  archived: https://web.archive.org/web/20260821061641/https://defcon.org/html/defcon-32/dc-32-vendors.html
 research:
   status: verified
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'No dedicated project page, repo, or storefront listing for this SAO was found, so technical specs (MCU, LEDs, colors) and design files remain unknown. Six different Duck SAO designs exist per HackerBoxes; it is unconfirmed which one(s) this entry covers. A prior draft claimed Rot13Labs organizes HighRollerCon and separately sells a "Duckbutt" SAO on Tindie; neither claim could be verified against any cited source (the DEF CON 32 vendors page and HighRollerCon''s own site do not say this), so it was removed rather than left in unsupported.'
+  notes: No dedicated project page, repo, or storefront listing for this SAO was found, so technical specs (MCU, LEDs, colors) and design files remain unknown. Six different Duck SAO designs exist per HackerBoxes; it is unconfirmed which one(s) this entry covers. A prior draft claimed Rot13Labs organizes HighRollerCon and separately sells a "Duckbutt" SAO on Tindie; neither claim could be verified against any cited source (the DEF CON 32 vendors page and HighRollerCon's own site do not say this), so it was removed rather than left in unsupported.
 last_modified_date: '2026-09-07'
 ---
 

@@ -26,7 +26,7 @@ tech:
   display: none
   connectivity: []
   battery: null
-  sao_version: v1
+  sao_version: null
 get_one:
   price: ''
   price_usd: null
@@ -75,7 +75,7 @@ research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'This is an attendee mod of the official BornHack 2021 badge, not a standalone commercial product, so price/quantity/availability fields do not apply and were left empty. The bubble mechanism''s own firmware/hardware files were not found published (only the base badge repo was located). Component list per Hackaday: 1x NeoPixel, 2x TIP120 transistors, 3x 1A Schottky diodes, 19 parts total.'
+  notes: 'This is an attendee mod of the official BornHack 2021 badge, not a standalone commercial product, so price/quantity/availability fields do not apply and were left empty. The bubble mechanism''s own firmware/hardware files were not found published (only the base badge repo was located). Component list per Hackaday: 1x NeoPixel, 2x TIP120 transistors, 3x 1A Schottky diodes, 19 parts total. Fact-check pass: tech.sao_version was blanked from ''v1'' to null - neither the Hackaday project page nor the badge2021 repo states an SAO pin count/version, only that the base badge has an SAO/Qwiic breakout. Everything else in the entry was verified against the two cited sources and left as-is.'
 last_modified_date: '2026-09-07'
 ---
 

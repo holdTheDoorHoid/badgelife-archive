@@ -12,5 +12,78 @@
   "bytes": 413380,
   "tried": [],
   "src": "bh_2019_badge.kicad_pcb"
+ },
+ "dc27-2019-defcon-furs-badge": {
+  "status": "failed",
+  "tried": []
+ },
+ "bornhack-2016-bornhack-2016-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 171672,
+  "tried": [],
+  "src": "pcb/Badge_init.kicad_pcb"
+ },
+ "bornhack-2023-bornhack-2023-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 340572,
+  "tried": [],
+  "src": "nfc_reader/nfc_reader.kicad_pcb"
+ },
+ "dc25-official-hackaday-defcon-25-badge": {
+  "status": "ok",
+  "method": "gerber",
+  "bytes": 313312,
+  "tried": [
+   "eagle->kicad ok",
+   "kicad glb: glb export failed: Failed to load board: One or more items were found on undefined layers (UNDEFINED). Open the board in the PCB Editor to resolve.\n",
+   "kicad gerbers: gerber export failed: Failed to load board: One or more items were found on undefined layers (UNDEFINED). Open the board in the PCB Editor to resolve.\n"
+  ],
+  "src": "StupidBadge.brd"
+ },
+ "bornhack-2024-bornhack-2024-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 309372,
+  "tried": [],
+  "src": "pov_badge.kicad_pcb"
+ },
+ "dc26-dc503-sao-dc503-s-shitty-add-on-for-defcon-26": {
+  "status": "ok",
+  "method": "gerber",
+  "bytes": 186752,
+  "tried": [
+   "kicad glb: glb export failed: ot found: ${KISYS3DMOD}/Resistors_SMD.3dshapes/R_0805.wrl\nCould not add 3D model for U1.\nFile not found: ${KISYS3DMOD}/Housings_SOIC.3dshapes"
+  ],
+  "src": "HW/DC503_SAO.kicad_pcb"
+ },
+ "dc26-dc26-nick-cage-sao": {
+  "status": "ok",
+  "method": "gerber",
+  "bytes": 189728,
+  "tried": [],
+  "src": "gerbersfixxxx.zip/gerbersfixxxx"
+ },
+ "dc26-dc801-def-con-26-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 536836,
+  "tried": [],
+  "src": "Hardware/KeyGridBadge/KeyGridBadge.kicad_pcb"
+ },
+ "dc26-coinop-badge-2": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 205788,
+  "tried": [],
+  "src": "board/coinop-badge.kicad_pcb"
+ },
+ "dc26-coinop-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 205788,
+  "tried": [],
+  "src": "board/coinop-badge.kicad_pcb"
  }
 }

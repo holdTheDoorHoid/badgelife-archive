@@ -44,12 +44,15 @@ links:
 - label: hackaday.com/2024/11/21/free-wili-turns-dc32-badge-into-hardware-dev-tool
   url: https://hackaday.com/2024/11/21/free-wili-turns-dc32-badge-into-hardware-dev-tool/
   kind: article
+  archived: https://web.archive.org/web/20260607141141/https://hackaday.com/2024/11/21/free-wili-turns-dc32-badge-into-hardware-dev-tool/
 - label: freewili/freewili-firmware (GitHub)
   url: https://github.com/freewili/freewili-firmware
   kind: repo
+  archived: https://web.archive.org/web/20260509165927/https://github.com/freewili/freewili-firmware
 - label: FREE-WILi project site
   url: https://freewili.com/
   kind: website
+  archived: https://web.archive.org/web/20260906194519/https://freewili.com/
 images: []
 contact: {}
 notes:
@@ -61,16 +64,19 @@ sources:
   title: FREE-WILi DC32 Badge Firmware
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: hackaday-press); event read as ''DEF CON 32''.'
+  archived: https://web.archive.org/web/20260607141141/https://hackaday.com/2024/11/21/free-wili-turns-dc32-badge-into-hardware-dev-tool/
 - kind: url
   url: https://hackaday.com/2024/11/21/free-wili-turns-dc32-badge-into-hardware-dev-tool/
-  title: 'FREE-WILi Turns DC32 Badge Into Hardware Dev Tool'
+  title: FREE-WILi Turns DC32 Badge Into Hardware Dev Tool
   accessed: '2026-09-07'
   note: Confirmed it is firmware (not a physical item) for the stock RP2350 DC32 badge; MCU, features (GPIO/I2C/IR/SAO debugging), ~30,000 DC32 badges in circulation, GitHub repo has binaries only (no published source at time of writing).
+  archived: https://web.archive.org/web/20260607141141/https://hackaday.com/2024/11/21/free-wili-turns-dc32-badge-into-hardware-dev-tool/
 - kind: url
   url: https://github.com/freewili/freewili-firmware
   title: 'GitHub - freewili/freewili-firmware: Firmware files for Free-WILi'
   accessed: '2026-09-07'
   note: Firmware repository referenced as the source of the DC32 badge build; contents not verified to include full source for the DC32-specific build.
+  archived: https://web.archive.org/web/20260509165927/https://github.com/freewili/freewili-firmware
 research:
   status: researched
   confidence: high

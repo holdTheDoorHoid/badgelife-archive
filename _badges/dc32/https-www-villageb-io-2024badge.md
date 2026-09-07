@@ -1,5 +1,5 @@
 ---
-title: "First to Rescue"
+title: First to Rescue
 id: dc32-https-www-villageb-io-2024badge
 layout: badge
 parent: DC32
@@ -62,13 +62,13 @@ links:
   url: https://365.altium.com/files/9CA5ACBF-76BB-4CD4-BA4E-9E25169BB9EB?openedFrom=files&variant=[No+Variations]
 images:
 - file: assets/images/badges/dc32/https-www-villageb-io-2024badge/b70ff92bff.jpg
-  source: "https://github.com/Biohacking-Village-CTF/BHV_Badge_2024"
-  credit: "SolaSec / Biohacking Village"
-  caption: "Front PCB art of the 2024 Biohacking Village badge, styled as an ambulance"
+  source: https://github.com/Biohacking-Village-CTF/BHV_Badge_2024
+  credit: SolaSec / Biohacking Village
+  caption: Front PCB art of the 2024 Biohacking Village badge, styled as an ambulance
 - file: assets/images/badges/dc32/https-www-villageb-io-2024badge/3a81e74a8c.jpg
-  source: "https://www.villageb.io/2024badge"
-  credit: "Biohacking Village"
-  caption: "Exploded render of the badge enclosure, breathalyzer sensor tube, and PCB"
+  source: https://www.villageb.io/2024badge
+  credit: Biohacking Village
+  caption: Exploded render of the badge enclosure, breathalyzer sensor tube, and PCB
 contact: {}
 notes:
 - The sheet listed only the URL "https://www.villageb.io/2024badge" as the title; that route no longer resolves on the current (2026) villageb.io site, which has since been rebuilt on a different platform. Content was recovered from Wayback Machine snapshots taken August-December 2024.
@@ -81,19 +81,20 @@ sources:
   updated: ''
 - kind: url
   url: https://web.archive.org/web/20240813021244/https://www.villageb.io/2024badge
-  title: "2024 Badge | Villageb.io (Wayback Machine snapshot, Aug 13 2024)"
+  title: 2024 Badge | Villageb.io (Wayback Machine snapshot, Aug 13 2024)
   accessed: '2026-09-06'
   note: Confirmed badge name "First to Rescue," theme, one-line description ("hackable breathalyzer with an embedded access point and flags to capture"), conceptualization credited to Nina Alli, and link to the GitHub repo.
 - kind: url
   url: https://github.com/Biohacking-Village-CTF/BHV_Badge_2024
-  title: "Biohacking-Village-CTF/BHV_Badge_2024"
+  title: Biohacking-Village-CTF/BHV_Badge_2024
   accessed: '2026-09-06'
   note: README confirms MQ-3 BAC sensor, Raspberry Pi Pico W, Wi-Fi AP with per-badge password and QR pairing, micro-USB charging, Altium 365 hardware files, and the CC BY-NC-ND 4.0 license. Badge art in images/image.png shows "'24," "BIOHACKING VILLAGE," "SOLASEC," and maker handles @So1lDeoGloria, @Nate_Sm1th, @headinthebooth, @Kshockles.
 - kind: url
   url: https://www.villageb.io/Badges
-  title: "Biohacking Village - Badges (current site, 2026)"
+  title: Biohacking Village - Badges (current site, 2026)
   accessed: '2026-09-06'
   note: Current site's "Badge Legacy" section lists an undated "Ambulance Badge" by SolaSec with a matching description, but no 2024-specific page remains live.
+  archived: https://web.archive.org/web/20260511223900/https://www.villageb.io/badges
 research:
   status: researched
   confidence: medium

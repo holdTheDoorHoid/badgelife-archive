@@ -41,7 +41,7 @@ get_one:
   distribution: []
   where: Distributed at DEF CON 32 (August 2024); the sheet's original listing anticipated "3 or 4 SAOs to battle," matching the four monster SAOs (Mothra, King Ghidorah, Rodan, Hedorah) that shipped with the badge.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/gowenrw/g0dzilla_vs
   firmware_url: https://github.com/gowenrw/g0dzilla_vs
   eda_tool: KiCad
@@ -60,18 +60,19 @@ links:
 - label: altbier.us
   url: https://altbier.us/
   kind: website
+  archived: https://web.archive.org/web/20260608053942/https://altbier.us/
 images:
 - file: assets/images/badges/dc32/godzilla-vs-will-have-3-or-4-sao-s-to-battle/23066589c1.jpg
-  source: "https://g0dzilla.altbier.us/"
-  credit: "Alt_Bier"
-  caption: "Assembled G0dzilla VS badge with SAO monster addons attached"
+  source: https://g0dzilla.altbier.us/
+  credit: Alt_Bier
+  caption: Assembled G0dzilla VS badge with SAO monster addons attached
 - file: assets/images/badges/dc32/godzilla-vs-will-have-3-or-4-sao-s-to-battle/afde1b6db0.jpg
-  source: "https://g0dzilla.altbier.us/"
-  credit: "Alt_Bier"
-  caption: "Mothra SAO, one of the four interchangeable monster add-ons"
+  source: https://g0dzilla.altbier.us/
+  credit: Alt_Bier
+  caption: Mothra SAO, one of the four interchangeable monster add-ons
 contact: {}
 notes:
-- 'Sheet title was literal at import time ("will have 3 or 4 SAO''s to battle"); the finished badge shipped with four monster SAOs, so the title has been updated to the maker''s own name for the project, "G0dzilla VS Badge."'
+- Sheet title was literal at import time ("will have 3 or 4 SAO's to battle"); the finished badge shipped with four monster SAOs, so the title has been updated to the maker's own name for the project, "G0dzilla VS Badge."
 status: released
 sources:
 - kind: sheet
@@ -80,28 +81,25 @@ sources:
   updated: ''
 - kind: url
   url: https://g0dzilla.altbier.us/
-  title: "G0dzilla VS Badge - DEFCON 32"
+  title: G0dzilla VS Badge - DEFCON 32
   accessed: '2026-09-06'
   note: Maker's own project page; source for MCU, LED counts, SAO mechanism (GPIO voltage detection), Wi-Fi/silkscreen crypto challenges, battery, and photos.
 - kind: url
   url: https://github.com/gowenrw/g0dzilla_vs
-  title: "gowenrw/g0dzilla_vs"
+  title: gowenrw/g0dzilla_vs
   accessed: '2026-09-06'
   note: Confirms open-source hardware (KiCad) and firmware under MIT license, DC32 badge.
 - kind: url
   url: https://altbier.us/
-  title: "altbier.us"
+  title: altbier.us
   accessed: '2026-09-06'
   note: Maker's landing page listing all of Alt_Bier's badges, linking to g0dzilla.altbier.us for this one.
+  archived: https://web.archive.org/web/20260608053942/https://altbier.us/
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-06'
-  notes: >-
-    Core facts confirmed on the maker's own project site and GitHub repo. Price, quantity produced,
-    and precise availability (sold, given away, or con-exclusive) are not stated anywhere found, so
-    those fields are left empty/unknown rather than guessed. The maker's Twitter/X account could not
-    be fetched directly to check for further distribution details.
+  notes: Core facts confirmed on the maker's own project site and GitHub repo. Price, quantity produced, and precise availability (sold, given away, or con-exclusive) are not stated anywhere found, so those fields are left empty/unknown rather than guessed. The maker's Twitter/X account could not be fetched directly to check for further distribution details.
 last_modified_date: '2026-09-06'
 ---
 

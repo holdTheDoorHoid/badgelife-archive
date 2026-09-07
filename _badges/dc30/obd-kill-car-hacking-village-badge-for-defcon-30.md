@@ -29,7 +29,6 @@ tech:
   display: none
   connectivity:
   - usb
-  - uart
   battery: 'CR2032 (optional; badge also runs from Micro USB)'
   sao_version: null
 get_one:
@@ -44,10 +43,10 @@ get_one:
   where: 'Sold in person at the Car Hacking Village at DEF CON 30 (Las Vegas, 2022).'
 make_your_own:
   open_source: partial
-  hardware_url: https://github.com/intrepidcs/obd-kill
+  hardware_url: null
   firmware_url: https://github.com/intrepidcs/obd-kill
   eda_tool: null
-  notes: 'Maker publishes an open-source schematic and example MicroPython/C programs via GitHub and a GitBook-style guide; no Gerbers or full CAD files were found.'
+  notes: 'The GitHub repo and GitBook guide contain example MicroPython programs (Pin/Signal/UART usage) and the CANHack MicroPython SDK writeup, confirmed by direct inspection. The maker''s feature list claims an "open source schematic" but no schematic, PCB/CAD files, Gerbers, or BOM could be found in the repo, its assets folder, or on the guide site - only two block-diagram illustrations and product photos. Only a compiled UF2 firmware image is downloadable (cdn.intrepidcs.net), not firmware source.'
 links:
 - label: store.intrepidcs.com/product/chv-badge-30
   url: https://store.intrepidcs.com/product/chv-badge-30
@@ -96,17 +95,17 @@ sources:
   accessed: '2026-09-07'
   note: 'Repository hosting the badge documentation/guide source and example code; confirms CANHack MicroPython SDK.'
 research:
-  status: researched
+  status: verified
   confidence: high
   last_checked: '2026-09-07'
-  notes: 'Core facts (maker, event, year, MCU, LED count, price, functions) confirmed on the maker''s own guide and announcement pages. Could not find: exact LED part number, SAO header presence (none mentioned in maker docs, so likely absent), quantity produced, or a Gerbers/EDA-file link (only a schematic and example code are published). The original store listing is dead as of this check.'
+  notes: 'Verification pass (2026-09-07): confirmed maker, event, year, MCU, price, functions, battery, connectivity, and DIP switch/buzzer/button details directly against the maker''s GitHub-hosted guide source (introduction-and-overview.md, a-tour-of-obd-kill-hardware.md, hardware-and-software-setup.md) and the intrepidcs.com announcement post. Corrected two issues: (1) removed "uart" from tech.connectivity - the only UART reference found is a generic RP2040/MicroPython library tutorial snippet, not documentation of a UART interface on the badge itself; (2) blanked make_your_own.hardware_url and revised its notes - the repo and guide contain no schematic, PCB/CAD, Gerber, or BOM files despite the maker''s feature list claiming an "open source schematic" (only two block-diagram graphics and product photos exist). Noted but did not change: the maker''s own "Summary of Key Features" list states 12 LEDs (matches this entry), but a-tour-of-obd-kill-hardware.md says "13 LEDs" in its opening sentence - a genuine disagreement between two of the maker''s own pages; 12 is kept as it comes from the canonical feature-list page. Both images verified to match product photos hosted in the maker''s own GitHub repo (front = DIP-switch/button side, back = Pico-mounted side). Store listing (store.intrepidcs.com/product/chv-badge-30) re-confirmed dead. Still could not find: exact LED part number, SAO header presence (none shown in pinout diagrams, so likely absent), quantity produced, or any Gerbers/EDA-file link.'
 last_modified_date: '2026-09-07'
 ---
 
 The OBD-Kill badge is the official Car Hacking Village badge for DEF CON 30 (2022), made by Intrepid Control Systems, an automotive network tools company based in Troy, Michigan. Rather than a passive wearable, it's a functional CAN bus hacking tool built around a Raspberry Pi Pico: a single CAN channel lets the wearer generate arbitrary CAN messages (down to 8ns timing resolution, via a companion USB console app), while 12 programmable LEDs, a PWM buzzer, two programmable buttons, and a DIP switch round out the interactive side. It runs from either a Micro USB cable or an onboard CR2032 coin cell.
 
-It was sold in person at the Car Hacking Village at DEF CON 30 in Las Vegas for $50 cash or $55 by credit card. Intrepid Control Systems published an open-source schematic and example programs (C/C++ and MicroPython, including a CANHack MicroPython SDK) through a GitHub repository and an accompanying documentation site, positioning the badge as a teaching platform for automotive network security rather than a one-off giveaway. The original storefront listing has since gone dead, and no information on total production quantity was found.
+It was sold in person at the Car Hacking Village at DEF CON 30 in Las Vegas for $50 cash or $55 by credit card. Intrepid Control Systems published example MicroPython programs and a CANHack MicroPython SDK (C/C++ and MicroPython) through a GitHub repository and an accompanying documentation site, positioning the badge as a teaching platform for automotive network security rather than a one-off giveaway. The maker's own feature list also advertises an "open source schematic," but no schematic, PCB/CAD files, or BOM were actually found published anywhere. The original storefront listing has since gone dead, and no information on total production quantity was found.
 
 ## Make your own
 
-Intrepid Control Systems' guide (linked above) and the `intrepidcs/obd-kill` GitHub repository provide an open-source schematic and example firmware for the Raspberry Pi Pico, along with a CANHack MicroPython SDK for driving the badge's CAN channel. No Gerbers or full CAD/BOM files were found published alongside the schematic.
+Intrepid Control Systems' guide (linked above) and the `intrepidcs/obd-kill` GitHub repository provide example MicroPython programs for the Raspberry Pi Pico, along with a CANHack MicroPython SDK for driving the badge's CAN channel. The maker advertises an open-source schematic as a feature, but no schematic, Gerbers, or other CAD/BOM files could be located in the repository, its guide site, or elsewhere.

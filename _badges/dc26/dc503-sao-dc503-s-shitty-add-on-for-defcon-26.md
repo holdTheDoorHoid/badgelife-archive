@@ -42,7 +42,7 @@ get_one:
   distribution: []
   where: ''
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/office-deskjet/DC503_SAO/tree/master/HW
   firmware_url: https://github.com/office-deskjet/DC503_SAO/tree/master/FW
   gerbers_url: https://github.com/office-deskjet/DC503_SAO/tree/master/HW/GERBERS
@@ -53,9 +53,9 @@ links:
   kind: repo
 images:
 - file: assets/images/badges/dc26/dc503-sao-dc503-s-shitty-add-on-for-defcon-26/709e4299e9.jpg
-  source: "https://github.com/office-deskjet/DC503_SAO"
-  credit: "DC503 (office-deskjet)"
-  caption: "Assembled DC503 SAO: Oregon-shaped PCB with 12 charlieplexed LEDs behind Portland-themed icons and a center pushbutton"
+  source: https://github.com/office-deskjet/DC503_SAO
+  credit: DC503 (office-deskjet)
+  caption: 'Assembled DC503 SAO: Oregon-shaped PCB with 12 charlieplexed LEDs behind Portland-themed icons and a center pushbutton'
 contact: {}
 notes: []
 status: released
@@ -67,30 +67,39 @@ sources:
   note: 'Found by the archive''s discovery sweep (angle: github-topics); event read as ''DEF CON 26''.'
 - kind: url
   url: https://raw.githubusercontent.com/office-deskjet/DC503_SAO/master/README.md
-  title: 'DC503_SAO README'
+  title: DC503_SAO README
   accessed: '2026-09-07'
-  note: 'Confirms project name and repo layout (ART/FW/HW folders); links the assembled-board photo SOA.png.'
+  note: Confirms project name and repo layout (ART/FW/HW folders); links the assembled-board photo SOA.png.
 - kind: url
   url: https://raw.githubusercontent.com/office-deskjet/DC503_SAO/master/FW/DC503_SAO_FW/DC503_SAO_FW.ino
-  title: 'DC503_SAO_FW.ino'
+  title: DC503_SAO_FW.ino
   accessed: '2026-09-07'
-  note: 'Firmware source confirms ATtiny85 target (F_CPU 8MHz), 12 charlieplexed LEDs across 4 pins, one pushbutton on a pin-change interrupt cycling five blink/random speed states.'
+  note: Firmware source confirms ATtiny85 target (F_CPU 8MHz), 12 charlieplexed LEDs across 4 pins, one pushbutton on a pin-change interrupt cycling five blink/random speed states.
 - kind: url
   url: https://raw.githubusercontent.com/office-deskjet/DC503_SAO/master/HW/README.md
-  title: 'DC503_SAO HW README'
+  title: DC503_SAO HW README
   accessed: '2026-09-07'
-  note: 'Confirms KiCad (v4.07, upgraded to v5.0) as the EDA tool and links a charlieplexing tutorial, corroborating the LED wiring.'
+  note: Confirms KiCad (v4.07, upgraded to v5.0) as the EDA tool and links a charlieplexing tutorial, corroborating the LED wiring.
 - kind: url
   url: https://raw.githubusercontent.com/office-deskjet/DC503_SAO/master/SOA.png
-  title: 'SOA.png (assembled board photo)'
+  title: SOA.png (assembled board photo)
   accessed: '2026-09-07'
   note: 'Source photo of the assembled SAO: Oregon-outline PCB (purple/black soldermask, gold-plated pads), Portland-themed icon set (bike, beer, donut, bridge, rain cloud, bearded hipster), heart-shaped button cutout, LiPo pouch cell visible in the background.'
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-07'
-  notes: 'DC503 is the DEF CON group for the Portland, Oregon area (area code 503); the SAO''s Oregon-state outline and local-culture icon set (bike, beer, Voodoo-style donut, bridge, rain, hipster beard) reflect that. No price, quantity made, or distribution channel found anywhere in the repo; this looks like a group-made giveaway/trade SAO rather than a sold item, but that is inferred, not stated, so get_one fields are left empty. No separate storefront, Hackaday.io page, or press coverage found. Web search budget was exhausted before additional corroborating searches could run.'
+  notes: DC503 is the DEF CON group for the Portland, Oregon area (area code 503); the SAO's Oregon-state outline and local-culture icon set (bike, beer, Voodoo-style donut, bridge, rain, hipster beard) reflect that. No price, quantity made, or distribution channel found anywhere in the repo; this looks like a group-made giveaway/trade SAO rather than a sold item, but that is inferred, not stated, so get_one fields are left empty. No separate storefront, Hackaday.io page, or press coverage found. Web search budget was exhausted before additional corroborating searches could run.
 last_modified_date: '2026-09-07'
+model:
+  file: assets/models/dc26/dc503-sao-dc503-s-shitty-add-on-for-defcon-26.glb
+  method: gerber
+  source_file: HW/DC503_SAO.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 186752
+  size_mm:
+  - 63.1
+  - 45.1
 ---
 
 DC503_SAO is a Shitty Add-On made for DEF CON 26 (2018) by DC503, the DEF CON group for the Portland, Oregon area (the group's name comes from the 503 area code). The PCB is cut in the outline of the state of Oregon, finished in a purple-and-black soldermask with gold-plated pads, and it carries twelve round icon pads celebrating Portland-area culture: a bicycle, a beer mug, a donut, a bridge, a rain cloud, and a bearded, glasses-wearing hipster, alongside pads reading "DC503." A pushbutton sits inside a heart-shaped cutout at the center of the board.

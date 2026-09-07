@@ -35,7 +35,7 @@ get_one:
   distribution: []
   where: Given to BornHack 2021 attendees as the year's conference badge.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/bornhack/badge2021
   firmware_url: null
   eda_tool: KiCad
@@ -47,9 +47,9 @@ links:
   kind: repo
 images:
 - file: assets/images/badges/bornhack-2021/bornhack-2021-badge/d7275caa09.png
-  source: "https://github.com/bornhack/badge2021"
-  credit: "BornHack"
-  caption: "KiCad render of the BornHack 2021 SAO prototyping board badge"
+  source: https://github.com/bornhack/badge2021
+  credit: BornHack
+  caption: KiCad render of the BornHack 2021 SAO prototyping board badge
 contact: {}
 notes:
 - From the user's 'SAOs to buy' link list (2026-09-07).
@@ -62,7 +62,7 @@ sources:
   note: 'Found by the archive''s discovery sweep (angle: tobuy-linkfile); event read as ''bornhack-2021''.'
 - kind: url
   url: https://hackaday.com/2021/09/03/the-bornhack-badge-gets-a-bubble/
-  title: 'The BornHack Badge Gets A Bubble | Hackaday'
+  title: The BornHack Badge Gets A Bubble | Hackaday
   accessed: '2026-09-07'
   note: Confirms the 2021 badge was an SAO prototyping board (not a powered electronic badge) due to the chip shortage, and that attendees hacked on it at the camp.
 - kind: url
@@ -74,8 +74,14 @@ research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'The 2021 badge was designed as a bare SAO prototyping board rather than a chip-based electronic badge, reportedly because of the semiconductor shortage that year (per Hackaday coverage) and because most attendees already had SAO-capable badges from 2019/2020. No MCU, LED, price, or production-quantity figures are published anywhere found. Designer is credited to the BornHack org account on GitHub; individual designer name not confirmed in sources checked.'
+  notes: The 2021 badge was designed as a bare SAO prototyping board rather than a chip-based electronic badge, reportedly because of the semiconductor shortage that year (per Hackaday coverage) and because most attendees already had SAO-capable badges from 2019/2020. No MCU, LED, price, or production-quantity figures are published anywhere found. Designer is credited to the BornHack org account on GitHub; individual designer name not confirmed in sources checked.
 last_modified_date: '2026-09-07'
+model:
+  file: assets/models/bornhack-2021/bornhack-2021-badge.glb
+  method: kicad
+  source_file: hex_diy.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 352272
 ---
 
 The BornHack 2021 badge broke from the event's usual pattern of a microcontroller-driven electronic badge. Facing the global chip shortage, the organizers instead handed out a bare prototyping board: a PCB with an SAO (Shitty/Simple Add-On) connector footprint and a Qwiic/STEMMA QT I2C connector, its signal lines broken out to a grid of through-hole and SMD prototyping pads. The reasoning, per contemporary Hackaday coverage, was partly necessity and partly practicality — most returning attendees already carried an SAO-equipped badge from BornHack 2019 or 2020, so a plain expansion platform let them keep building without needing new silicon.

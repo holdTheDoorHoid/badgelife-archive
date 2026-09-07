@@ -10,8 +10,8 @@ event: bornhack-2024
 year: 2024
 makers:
 - name: Thomas Flummer
-summary: 'A slim rectangular ESP32-C3 badge for BornHack 2024 with a row of addressable LEDs for persistence-of-vision effects and an NFC chip used for an onsite game.'
-functions: 'Persistence-of-vision LED effects and light shows; NFC tag (readable and, via the NT3H2x11, writable) used for an onsite game; expandable over SAO and QWiC connectors and GPIO pads.'
+summary: A slim rectangular ESP32-C3 badge for BornHack 2024 with a row of addressable LEDs for persistence-of-vision effects and an NFC chip used for an onsite game.
+functions: Persistence-of-vision LED effects and light shows; NFC tag (readable and, via the NT3H2x11, writable) used for an onsite game; expandable over SAO and QWiC connectors and GPIO pads.
 look:
   colors: []
   shape: rectangle
@@ -39,7 +39,7 @@ get_one:
   - free_drop
   where: Given to BornHack 2024 ticket holders as the event badge.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/bornhack/badge2024
   firmware_url: https://github.com/bornhack/badge2024
   eda_tool: KiCad
@@ -56,10 +56,10 @@ links:
   url: https://github.com/Pwnies/bornhack-badge-esp32-c3-rust
   kind: repo
 images:
-  - file: assets/images/badges/bornhack-2024/bornhack-2024-badge/b119efb2cd.jpg
-    source: "https://hackaday.com/2025/08/01/two-for-the-price-of-one-bornhack-2024-and-2025-badges/"
-    credit: "Hackaday"
-    caption: "Both sides of the BornHack 2024 badge PCB"
+- file: assets/images/badges/bornhack-2024/bornhack-2024-badge/b119efb2cd.jpg
+  source: https://hackaday.com/2025/08/01/two-for-the-price-of-one-bornhack-2024-and-2025-badges/
+  credit: Hackaday
+  caption: Both sides of the BornHack 2024 badge PCB
 contact: {}
 notes:
 - ESP32-C3 Mini, NT3H2x11 NFC chip, LIS2DH accelerometer, SAO and QWiC connectors, POV LED display
@@ -90,8 +90,14 @@ research:
   status: researched
   confidence: high
   last_checked: '2026-09-07'
-  notes: 'No price or production-quantity figures found; it was distributed as the standard event badge to BornHack 2024 ticket holders rather than sold, so get_one.price is left empty. Display field left as none since the LEDs form a linear PoV strip rather than a matrix/screen; not stated as a dedicated display component. SAO header count not explicitly stated in sources checked; recorded as 1 based on "SAO and QWiC connectors" phrasing (singular SAO, singular QWiC) — flagged as inferred rather than directly confirmed.'
+  notes: No price or production-quantity figures found; it was distributed as the standard event badge to BornHack 2024 ticket holders rather than sold, so get_one.price is left empty. Display field left as none since the LEDs form a linear PoV strip rather than a matrix/screen; not stated as a dedicated display component. SAO header count not explicitly stated in sources checked; recorded as 1 based on "SAO and QWiC connectors" phrasing (singular SAO, singular QWiC) — flagged as inferred rather than directly confirmed.
 last_modified_date: '2026-09-07'
+model:
+  file: assets/models/bornhack-2024/bornhack-2024-badge.glb
+  method: kicad
+  source_file: pov_badge.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 309372
 ---
 
 The BornHack 2024 badge was designed by Thomas Flummer as the standard event badge for BornHack 2024, the Danish outdoor hacker camp. It is a slim rectangular PCB, roughly 140 by 45 mm, built around an ESP32-C3 Mini module with a row of 16 WS2812B addressable LEDs used to create persistence-of-vision light effects. An NT3H2x11 NFC chip doubles as a passive tag and an addressable component, which the organizers used for an onsite game, and an LIS2DH accelerometer supports motion-based effects. The badge is expandable through a SAO connector, a QWiC connector, and general GPIO pads, and it runs from a LiPo battery with charging and power circuitry on the rear of the board.

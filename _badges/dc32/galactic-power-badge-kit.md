@@ -11,7 +11,7 @@ year: 2024
 makers:
 - name: HackerBoxes
   url: https://hackerboxes.com/
-summary: A coin-cell-powered SAO host badge from HackerBox #0104 "Engage" (June 2024), with a full-color PCB, several white LED "stars," and a single SAO header.
+summary: A coin-cell-powered SAO host badge from HackerBox
 functions: Lights several onboard white LED "stars" and supplies power to one plugged-in SAO through its SAO header. No microcontroller of its own.
 look:
   colors:
@@ -27,7 +27,7 @@ tech:
   leds:
     count: null
     type: null
-    note: 'Several white "star" LEDs (a mix of two whitish LED types per the build guide); exact count not stated by the maker.'
+    note: Several white "star" LEDs (a mix of two whitish LED types per the build guide); exact count not stated by the maker.
   display: none
   connectivity: []
   battery: 2x coin cell (CR-series, exact model not stated)
@@ -50,6 +50,7 @@ links:
 - label: www.instructables.com/HackerBox-0104-Engage/#step6
   url: https://www.instructables.com/HackerBox-0104-Engage/#step6
   kind: website
+  archived: https://web.archive.org/web/20260606133950/https://www.instructables.com/HackerBox-0104-Engage/
 - label: hackerboxes.com/products/galactic-power-badge-kit
   url: https://hackerboxes.com/products/galactic-power-badge-kit
   kind: store
@@ -57,14 +58,15 @@ links:
   url: https://hackerboxes.com/products/hackerbox-0104-engage
   kind: store
 images:
-  - file: assets/images/badges/dc32/galactic-power-badge-kit/8653f4e69f.png
-    source: "https://hackerboxes.com/products/galactic-power-badge-kit"
-    credit: "HackerBoxes"
-    caption: "Galactic Power Badge Kit, assembled, with LED stars lit"
-  - file: assets/images/badges/dc32/galactic-power-badge-kit/ccd9a3fcdc.jpg
-    source: "https://www.instructables.com/HackerBox-0104-Engage/#step6"
-    credit: "HackerBoxes / Instructables"
-    caption: "Galactic Power Badge Kit build step, showing coin cell holder, LED stars, and SAO header"
+- file: assets/images/badges/dc32/galactic-power-badge-kit/8653f4e69f.png
+  source: https://hackerboxes.com/products/galactic-power-badge-kit
+  credit: HackerBoxes
+  caption: Galactic Power Badge Kit, assembled, with LED stars lit
+- file: assets/images/badges/dc32/galactic-power-badge-kit/ccd9a3fcdc.jpg
+  source: https://www.instructables.com/HackerBox-0104-Engage/#step6
+  credit: HackerBoxes / Instructables
+  caption: Galactic Power Badge Kit build step, showing coin cell holder, LED stars, and SAO header
+  archived: https://web.archive.org/web/20260606133950/https://www.instructables.com/HackerBox-0104-Engage/
 contact: {}
 notes:
 - Spotted by a research agent while working on a neighbouring entry.
@@ -75,38 +77,28 @@ sources:
   title: Galactic Power Badge Kit
   accessed: '2026-09-07'
   note: 'Found by the archive''s discovery sweep (angle: sheet-research-spotted); event read as ''dc32''.'
+  archived: https://web.archive.org/web/20260606133950/https://www.instructables.com/HackerBox-0104-Engage/
 - kind: url
   url: https://www.instructables.com/HackerBox-0104-Engage/
   title: 'HackerBox 0104: Engage : 10 Steps - Instructables'
   accessed: '2026-09-07'
-  note: 'Build-guide step 6 confirms the kit uses a single coin cell to light LED "stars" and power an SAO header; step 1 ties the box to DEF CON 32 / Hacker Summer Camp, June 2024.'
+  note: Build-guide step 6 confirms the kit uses a single coin cell to light LED "stars" and power an SAO header; step 1 ties the box to DEF CON 32 / Hacker Summer Camp, June 2024.
+  archived: https://web.archive.org/web/20260606133950/https://www.instructables.com/HackerBox-0104-Engage/
 - kind: url
   url: https://hackerboxes.com/products/hackerbox-0104-engage
   title: 'HackerBox #0104 - Engage – HackerBoxes'
   accessed: '2026-09-07'
-  note: 'Confirms the Galactic Power Badge Kit shipped as one of several kits (alongside the Alien Robot Badge Kit, Tie-Dye BitHead SAO, Phreakin'' Clowns SAO, All Your Base SAO, and mystery HighRollerCon Quacked-Out SAO kits) in the June 2024 box.'
+  note: Confirms the Galactic Power Badge Kit shipped as one of several kits (alongside the Alien Robot Badge Kit, Tie-Dye BitHead SAO, Phreakin' Clowns SAO, All Your Base SAO, and mystery HighRollerCon Quacked-Out SAO kits) in the June 2024 box.
 - kind: url
   url: https://web.archive.org/web/20250620041651/https://hackerboxes.com/products/galactic-power-badge-kit
-  title: 'Galactic Power Badge Kit – HackerBoxes (archived)'
+  title: Galactic Power Badge Kit – HackerBoxes (archived)
   accessed: '2026-09-07'
   note: 'Archived June 2025 snapshot of the live product page: $19, free domestic shipping, "Full Color PCB / Multiple White LED stars / Powers One SAO," included an exclusive Engage-themed lanyard and two coin cells. Current live page (checked 2026-09-07) returns 404, so it may since have been discontinued or delisted as a standalone add-on.'
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: >-
-    Core facts (price, contents, coin-cell power, single SAO header, LED stars) come from
-    HackerBoxes' own product copy (via an archived snapshot, since the live page 404s) and
-    the maker's own Instructables build guide, so treated as reliable despite the page being
-    gone. Could not confirm: exact LED count/part number, exact coin-cell model (CR2032 vs.
-    other), SAO header version (v1 vs v2), quantity made, current availability, or whether
-    hardware/firmware files were published (none found; likely a passive/no-firmware kit
-    since it has no MCU). "kit" was chosen over "sao"/"badge" because it hosts a SAO rather
-    than being one, and is sold/assembled as a build-it-yourself kit. Other kits from the
-    same HackerBox #0104 box (Tie-Dye BitHead SAO, Phreakin' Clowns SAO, All Your Base SAO,
-    and the HighRollerCon "Quacked-Out" duck SAOs) are not yet in the archive and are
-    reported separately; the Alien Robot Badge Kit from the same box already has its own
-    entry (dc32-alien-robot-badge).
+  notes: 'Core facts (price, contents, coin-cell power, single SAO header, LED stars) come from HackerBoxes'' own product copy (via an archived snapshot, since the live page 404s) and the maker''s own Instructables build guide, so treated as reliable despite the page being gone. Could not confirm: exact LED count/part number, exact coin-cell model (CR2032 vs. other), SAO header version (v1 vs v2), quantity made, current availability, or whether hardware/firmware files were published (none found; likely a passive/no-firmware kit since it has no MCU). "kit" was chosen over "sao"/"badge" because it hosts a SAO rather than being one, and is sold/assembled as a build-it-yourself kit. Other kits from the same HackerBox #0104 box (Tie-Dye BitHead SAO, Phreakin'' Clowns SAO, All Your Base SAO, and the HighRollerCon "Quacked-Out" duck SAOs) are not yet in the archive and are reported separately; the Alien Robot Badge Kit from the same box already has its own entry (dc32-alien-robot-badge).'
 last_modified_date: '2026-09-07'
 ---
 

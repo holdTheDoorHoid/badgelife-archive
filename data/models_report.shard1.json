@@ -1,0 +1,32 @@
+{
+ "bornhack-2021-bornhack-2021-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 352272,
+  "tried": [],
+  "src": "hex_diy.kicad_pcb"
+ },
+ "bornhack-2024-bornhack-2024-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 309372,
+  "tried": [],
+  "src": "pov_badge.kicad_pcb"
+ },
+ "bsides-2025-2025-utahtastic-bsides-badge-bsides-lora-badge": {
+  "status": "ok",
+  "method": "gerber",
+  "bytes": 361544,
+  "tried": [
+   "kicad glb: Command '['/home/hoid/Desktop/badgelife-archive/tools/node_modules/.bin/gltf-transform', 'optimize', '/home/hoid/Desktop/badgelife-archive/data/hw/bsides-2025-2"
+  ],
+  "src": "hardware/2025_bsides_badge_v2.kicad_pcb"
+ },
+ "bsidesdfw-2021-astable-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 291220,
+  "tried": [],
+  "src": "eda/astable_badge/astable_badge.kicad_pcb"
+ }
+}

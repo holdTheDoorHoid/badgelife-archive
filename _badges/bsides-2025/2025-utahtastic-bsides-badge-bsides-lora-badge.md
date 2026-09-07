@@ -11,8 +11,8 @@ year: 2025
 makers:
 - name: distinctm1nd
   url: https://github.com/distinctm1nd
-summary: 'A LoRa mesh-networking badge made for BSides Utah 2025, running a custom Meshtastic firmware over Bluetooth-paired phone control.'
-functions: 'Sends and receives text messages over a LoRa mesh network (Meshtastic), navigated with a 5-way joystick and shown on a TFT screen; pairs to the Meshtastic phone app over Bluetooth to change settings such as ambient LED color and brightness. Holds 3 minibadges on expansion headers.'
+summary: A LoRa mesh-networking badge made for BSides Utah 2025, running a custom Meshtastic firmware over Bluetooth-paired phone control.
+functions: Sends and receives text messages over a LoRa mesh network (Meshtastic), navigated with a 5-way joystick and shown on a TFT screen; pairs to the Meshtastic phone app over Bluetooth to change settings such as ambient LED color and brightness. Holds 3 minibadges on expansion headers.
 look:
   colors: []
   shape: null
@@ -39,9 +39,9 @@ get_one:
   quantity: ''
   availability: unknown
   distribution: []
-  where: 'Distributed to attendees at BSides Utah 2025; not sold as a standalone product.'
+  where: Distributed to attendees at BSides Utah 2025; not sold as a standalone product.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/distinctm1nd/2025_utahtastic_bsides_badge/tree/functional/hardware
   firmware_url: https://github.com/distinctm1nd/2025_utahtastic_bsides_badge/tree/functional/software
   eda_tool: null
@@ -58,13 +58,13 @@ links:
   kind: fab
 images:
 - file: assets/images/badges/bsides-2025/2025-utahtastic-bsides-badge-bsides-lora-badge/26ace32ddb.png
-  source: "https://github.com/distinctm1nd/2025_utahtastic_bsides_badge"
-  credit: "distinctm1nd"
-  caption: "Front of the BSides Utah 2025 LoRa badge, showing the TFT display, 5-way joystick, and minibadge headers"
+  source: https://github.com/distinctm1nd/2025_utahtastic_bsides_badge
+  credit: distinctm1nd
+  caption: Front of the BSides Utah 2025 LoRa badge, showing the TFT display, 5-way joystick, and minibadge headers
 - file: assets/images/badges/bsides-2025/2025-utahtastic-bsides-badge-bsides-lora-badge/4f421e05a3.png
-  source: "https://github.com/distinctm1nd/2025_utahtastic_bsides_badge"
-  credit: "distinctm1nd"
-  caption: "Back of the BSides Utah 2025 LoRa badge, showing the moon LED diffuser and lanyard post"
+  source: https://github.com/distinctm1nd/2025_utahtastic_bsides_badge
+  credit: distinctm1nd
+  caption: Back of the BSides Utah 2025 LoRa badge, showing the moon LED diffuser and lanyard post
 contact: {}
 notes: []
 status: released
@@ -79,13 +79,22 @@ sources:
   url: https://github.com/distinctm1nd/2025_utahtastic_bsides_badge
   title: 2025_utahtastic_bsides_badge README
   accessed: '2026-09-07'
-  note: 'README and hardware/software folders read for specs, assembly instructions, and image files (utah_bsides_front.png, utah_bsides_back.png).'
+  note: README and hardware/software folders read for specs, assembly instructions, and image files (utah_bsides_front.png, utah_bsides_back.png).
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'Made for BSides Utah 2025 (no bsides-utah event id exists in events.yml, so the entry stays under the generic bsides-2025 id; noted here per research guide). Repository is the maker''s own project page and is the primary source; no independent press coverage, storefront, or price/quantity information was found. Availability set to unknown since this appears to have been a conference giveaway/build, not a sale; get_one.where reflects that. Hardware/firmware are both published (Meshtastic-based custom firmware, KiCad-style hardware folder not explicitly labeled with an EDA tool), so open_source is yes though the specific EDA tool used was not stated.'
+  notes: Made for BSides Utah 2025 (no bsides-utah event id exists in events.yml, so the entry stays under the generic bsides-2025 id; noted here per research guide). Repository is the maker's own project page and is the primary source; no independent press coverage, storefront, or price/quantity information was found. Availability set to unknown since this appears to have been a conference giveaway/build, not a sale; get_one.where reflects that. Hardware/firmware are both published (Meshtastic-based custom firmware, KiCad-style hardware folder not explicitly labeled with an EDA tool), so open_source is yes though the specific EDA tool used was not stated.
 last_modified_date: '2026-09-07'
+model:
+  file: assets/models/bsides-2025/2025-utahtastic-bsides-badge-bsides-lora-badge.glb
+  method: gerber
+  source_file: hardware/2025_bsides_badge_v2.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 361544
+  size_mm:
+  - 138.2
+  - 111.8
 ---
 
 The 2025 Utahtastic BSides Badge is a LoRa mesh-networking badge made by distinctm1nd for BSides Utah 2025. Built around an ESP32-S3-WROOM with a LoRa radio, it runs a custom Meshtastic firmware, letting attendees send and receive short text messages across a mesh network using a 5-way joystick to navigate a TFT display, or by pairing the badge to the official Meshtastic phone app over Bluetooth. The badge carries 25 addressable LEDs, including moon-shaped LEDs on the back lit through a 3D-printed diffuser whose color and brightness can be tuned from the app's ambient lighting settings.
