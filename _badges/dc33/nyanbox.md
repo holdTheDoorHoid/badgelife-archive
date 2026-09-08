@@ -14,24 +14,33 @@ makers:
 summary: 'A handheld ESP32-based wireless security toolkit from Nyan Devices, worn/carried around DEF CON 33 and tagged by its makers as part of #BadgeLife.'
 functions: WiFi Deauther, WLAN Jammer, Beacon Spam, BLE Jammer, BLE Spammer, BLE Scan, Flipper Scan, WiFi Scan, BLE Spoofer, Scanner, Analyzer, Proto Kill Mode, Sour Apple
 look:
-  colors: [multicolor, black]
+  colors:
+  - multicolor
+  - black
   shape: rectangle
-  themes: [radio, security, hardware tool]
+  themes:
+  - radio
+  - security
+  - hardware tool
 tech:
   mcu: ESP32-WROOM-32U
   leds: null
   display: 0.96" OLED
-  connectivity: [wifi, ble, bluetooth]
+  connectivity:
+  - wifi
+  - ble
+  - bluetooth
   battery: LiPo 2500 mAh
   sao_version: none
 get_one:
-  price: '$220 assembled / $330 complete kit'
+  price: $220 assembled / $330 complete kit
   price_usd: null
   quantity: ''
   availability: available
-  availability_note: 'Listed for sale on shop.nyandevices.com as of 2026-09-06.'
-  distribution: [purchase]
-  where: 'Purchased directly from shop.nyandevices.com (Nyan Devices).'
+  availability_note: Listed for sale on shop.nyandevices.com as of 2026-09-06.
+  distribution:
+  - purchase
+  where: Purchased directly from shop.nyandevices.com (Nyan Devices).
 make_your_own:
   open_source: partial
   hardware_url: null
@@ -41,21 +50,26 @@ links:
 - label: github.com/jbohack/nyanBOX
   url: https://github.com/jbohack/nyanBOX/
   kind: repo
+  archived: https://web.archive.org/web/20260802144141/https://github.com/jbohack/nyanBOX
 - label: nyandevices.com
   url: https://nyandevices.com
   kind: website
+  archived: https://web.archive.org/web/20260728020024/https://nyandevices.com/
 - label: shop.nyandevices.com
   url: https://shop.nyandevices.com
   kind: store
+  archived: https://web.archive.org/web/20260521051829/https://shop.nyandevices.com/
 images:
-  - file: assets/images/badges/dc33/nyanbox/fce017f6ce.jpg
-    source: "https://shop.nyandevices.com"
-    credit: "Nyan Devices"
-    caption: "nyanBOX device, multicolor edition"
-  - file: assets/images/badges/dc33/nyanbox/8b1188153a.jpg
-    source: "https://shop.nyandevices.com"
-    credit: "Nyan Devices"
-    caption: "nyanBOX device, black edition"
+- file: assets/images/badges/dc33/nyanbox/fce017f6ce.jpg
+  source: https://shop.nyandevices.com
+  credit: Nyan Devices
+  caption: nyanBOX device, multicolor edition
+  archived: https://web.archive.org/web/20260521051829/https://shop.nyandevices.com/
+- file: assets/images/badges/dc33/nyanbox/8b1188153a.jpg
+  source: https://shop.nyandevices.com
+  credit: Nyan Devices
+  caption: nyanBOX device, black edition
+  archived: https://web.archive.org/web/20260521051829/https://shop.nyandevices.com/
 contact:
   emails:
   - jbohack@lullaby.cafe
@@ -72,31 +86,24 @@ sources:
   title: 'jbohack/nyanBOX: GitHub repository'
   accessed: '2026-09-06'
   note: 'Confirmed maker names, MCU (ESP32-WROOM-32U), display, feature list, and #badgelife/defcon33 topic tags on the repo.'
+  archived: https://web.archive.org/web/20260802144141/https://github.com/jbohack/nyanBOX
 - kind: url
   url: https://nyandevices.com
-  title: 'Nyan Devices'
+  title: Nyan Devices
   accessed: '2026-09-06'
-  note: 'Confirmed battery (2500 mAh, full-day runtime), USB-C charging, $220 price, and availability.'
+  note: Confirmed battery (2500 mAh, full-day runtime), USB-C charging, $220 price, and availability.
+  archived: https://web.archive.org/web/20260728020024/https://nyandevices.com/
 - kind: url
   url: https://shop.nyandevices.com
-  title: 'Nyan Devices shop'
+  title: Nyan Devices shop
   accessed: '2026-09-06'
-  note: 'Confirmed $330.03 price for the "Complete Kit" listing, in-stock status, and product photos (multicolor and black editions).'
+  note: Confirmed $330.03 price for the "Complete Kit" listing, in-stock status, and product photos (multicolor and black editions).
+  archived: https://web.archive.org/web/20260521051829/https://shop.nyandevices.com/
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-06'
-  notes: >-
-    The maker's own site and GitHub repo confirm the device and its specs, but neither
-    explicitly documents its role at DEF CON 33 beyond the GitHub topic tags "badge",
-    "badgelife", and "defcon33" — no photo or post was found showing it worn or sold
-    on-site. Two different prices are advertised ($220 for an assembled unit on the
-    main site vs $330.03 for a "Complete Kit" on the storefront); both are recorded
-    rather than picking one. LED count/type, hardware open-source status (gerbers/BOM),
-    EDA tool, license, and quantity made were not stated anywhere found and are left
-    empty. The three onboard NRF24 modules mentioned by the maker are not captured
-    under tech.connectivity because they don't map cleanly to the controlled vocabulary
-    (they're 2.4GHz RF, not sub-ghz).
+  notes: The maker's own site and GitHub repo confirm the device and its specs, but neither explicitly documents its role at DEF CON 33 beyond the GitHub topic tags "badge", "badgelife", and "defcon33" — no photo or post was found showing it worn or sold on-site. Two different prices are advertised ($220 for an assembled unit on the main site vs $330.03 for a "Complete Kit" on the storefront); both are recorded rather than picking one. LED count/type, hardware open-source status (gerbers/BOM), EDA tool, license, and quantity made were not stated anywhere found and are left empty. The three onboard NRF24 modules mentioned by the maker are not captured under tech.connectivity because they don't map cleanly to the controlled vocabulary (they're 2.4GHz RF, not sub-ghz).
 last_modified_date: '2026-09-06'
 ---
 

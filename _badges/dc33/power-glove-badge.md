@@ -33,7 +33,7 @@ get_one:
   price_usd: 60.0
   quantity: ''
   availability: available
-  availability_note: 'Tindie listing showed 6 units remaining as of 2026-09-06.'
+  availability_note: Tindie listing showed 6 units remaining as of 2026-09-06.
   distribution:
   - purchase
   where: Sold on Tindie, shipped from Fossombrone, Italy.
@@ -46,6 +46,7 @@ links:
 - label: www.tindie.com/products/gizmolab/the-power-glove-badge-with-oled-screen
   url: https://www.tindie.com/products/gizmolab/the-power-glove-badge-with-oled-screen/
   kind: store
+  archived: https://web.archive.org/web/20260503111934/https://www.tindie.com/products/gizmolab/the-power-glove-badge-with-oled-screen/
 - label: instagram.com/thegizmolab
   url: https://www.instagram.com/thegizmolab/
   kind: social
@@ -54,13 +55,15 @@ links:
   kind: social
 images:
 - file: assets/images/badges/dc33/power-glove-badge/a2077fc381.jpg
-  source: "https://www.tindie.com/products/gizmolab/the-power-glove-badge-with-oled-screen/"
-  credit: "GizmoLab"
-  caption: "The Power Glove Badge with OLED screen, product photo"
+  source: https://www.tindie.com/products/gizmolab/the-power-glove-badge-with-oled-screen/
+  credit: GizmoLab
+  caption: The Power Glove Badge with OLED screen, product photo
+  archived: https://web.archive.org/web/20260503111934/https://www.tindie.com/products/gizmolab/the-power-glove-badge-with-oled-screen/
 - file: assets/images/badges/dc33/power-glove-badge/31e44f5bfe.jpg
-  source: "https://www.tindie.com/products/gizmolab/the-power-glove-badge-with-oled-screen/"
-  credit: "GizmoLab"
-  caption: "Power Glove Badge, alternate angle showing OLED display and buttons"
+  source: https://www.tindie.com/products/gizmolab/the-power-glove-badge-with-oled-screen/
+  credit: GizmoLab
+  caption: Power Glove Badge, alternate angle showing OLED display and buttons
+  archived: https://web.archive.org/web/20260503111934/https://www.tindie.com/products/gizmolab/the-power-glove-badge-with-oled-screen/
 contact:
   handles:
   - '@thegizmolab'
@@ -77,6 +80,7 @@ sources:
   title: The Power Glove Badge with OLED Screen - GizmoLab - Tindie
   accessed: '2026-09-06'
   note: Confirmed maker, price, display size, buttons, battery requirement (LIR2032), included 3D-printed case, stock count, and store location.
+  archived: https://web.archive.org/web/20260503111934/https://www.tindie.com/products/gizmolab/the-power-glove-badge-with-oled-screen/
 - kind: url
   url: https://www.instagram.com/thegizmolab/
   title: GizmoLab (@thegizmolab) - Instagram

@@ -57,6 +57,7 @@ links:
 - label: untitledelec.com/products/defcon-33-indy-badge-the-neosword
   url: https://untitledelec.com/products/defcon-33-indy-badge-the-neosword
   kind: website
+  archived: https://web.archive.org/web/20260122102330/https://untitledelec.com/products/defcon-33-indy-badge-the-neosword
 - label: bsky.app/profile/untitledelec.bsky.social
   url: https://bsky.app/profile/untitledelec.bsky.social
   kind: social
@@ -66,23 +67,28 @@ links:
 - label: 'Tindie: NeoSword Defcon33 Badge'
   url: https://www.tindie.com/products/untitledelec/neosword-defcon33-badge/
   kind: store
+  archived: https://web.archive.org/web/20260503131113/https://www.tindie.com/products/untitledelec/neosword-defcon33-badge/
 images:
 - file: assets/images/badges/dc33/neosword/6b5490302a.jpg
   source: https://untitledelec.com/products/defcon-33-indy-badge-the-neosword
   credit: Untitled Electronics
   caption: The NeoSword DC33 SAO totem
+  archived: https://web.archive.org/web/20260122102330/https://untitledelec.com/products/defcon-33-indy-badge-the-neosword
 - file: assets/images/badges/dc33/neosword/9191db8430.jpg
   source: https://untitledelec.com/products/defcon-33-indy-badge-the-neosword
   credit: Untitled Electronics
   caption: Two NeoSword variants (green PCB blade with purple 3D-printed hilt and handle)
+  archived: https://web.archive.org/web/20260122102330/https://untitledelec.com/products/defcon-33-indy-badge-the-neosword
 - file: assets/images/badges/dc33/neosword/6b5490302a.jpg
   source: https://untitledelec.com/products/defcon-33-indy-badge-the-neosword
   credit: Untitled Electronics
   caption: The NeoSword badge, front view
+  archived: https://web.archive.org/web/20260122102330/https://untitledelec.com/products/defcon-33-indy-badge-the-neosword
 - file: assets/images/badges/dc33/neosword/5527bd0301.jpg
   source: https://untitledelec.com/products/defcon-33-indy-badge-the-neosword
   credit: Untitled Electronics
   caption: The NeoSword badge illuminated
+  archived: https://web.archive.org/web/20260122102330/https://untitledelec.com/products/defcon-33-indy-badge-the-neosword
 contact: {}
 notes:
 - From the user's 'SAOs to buy' link list (2026-09-07).
@@ -98,6 +104,7 @@ sources:
   title: 'Defcon 33 Indy badge: The NeoSword!'
   accessed: '2026-09-06'
   note: Primary source for price, description, features, battery, license, images, and pickup/shipping details.
+  archived: https://web.archive.org/web/20260122102330/https://untitledelec.com/products/defcon-33-indy-badge-the-neosword
 - kind: url
   url: https://github.com/wrickert/UntitledElectronics/tree/main/Badges/Defcon33
   title: Untitled Electronics DEF CON 33 badge
@@ -108,6 +115,7 @@ sources:
   title: NeoSword Defcon33 Badge
   accessed: '2026-09-07'
   note: Secondary storefront listing; confirms maker location, features, and sold-out/inactive status.
+  archived: https://web.archive.org/web/20260503131113/https://www.tindie.com/products/untitledelec/neosword-defcon33-badge/
 research:
   status: verified
   confidence: high

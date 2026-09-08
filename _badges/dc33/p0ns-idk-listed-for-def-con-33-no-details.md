@@ -48,6 +48,7 @@ links:
 - label: idk.bz
   url: https://idk.bz
   kind: website
+  archived: https://web.archive.org/web/20251128205942/https://idk.bz/
 - label: idk.bz/idk-nfc (project writeup)
   url: https://idk.bz/idk-nfc/
   kind: article
@@ -61,17 +62,17 @@ links:
   url: https://defcon.social/p0ns
   kind: social
 images:
-  - file: assets/images/badges/dc33/p0ns-idk-listed-for-def-con-33-no-details/effae759e7.jpg
-    source: "https://idk.bz/idk-nfc/"
-    credit: "p0ns/idk"
-    caption: "IDK NFC badge PCB, front"
-  - file: assets/images/badges/dc33/p0ns-idk-listed-for-def-con-33-no-details/5c5b811a7e.jpg
-    source: "https://idk.bz/idk-nfc/"
-    credit: "p0ns/idk"
-    caption: "IDK NFC badge schematic"
+- file: assets/images/badges/dc33/p0ns-idk-listed-for-def-con-33-no-details/effae759e7.jpg
+  source: https://idk.bz/idk-nfc/
+  credit: p0ns/idk
+  caption: IDK NFC badge PCB, front
+- file: assets/images/badges/dc33/p0ns-idk-listed-for-def-con-33-no-details/5c5b811a7e.jpg
+  source: https://idk.bz/idk-nfc/
+  credit: p0ns/idk
+  caption: IDK NFC badge schematic
 contact: {}
 notes:
-- 'Sheet listed only the maker ("p0ns/idk") for DEF CON 33 with no badge title; the title above was recovered from the maker''s site.'
+- Sheet listed only the maker ("p0ns/idk") for DEF CON 33 with no badge title; the title above was recovered from the maker's site.
 status: released
 sources:
 - kind: sheet
@@ -81,9 +82,10 @@ sources:
   updated: ''
 - kind: url
   url: https://idk.bz
-  title: "IDK (p0ns's site)"
+  title: IDK (p0ns's site)
   accessed: '2026-09-06'
   note: Home page lists "IDK NFC badge" (May 17, 2025) as the featured project, by p0ns, alongside prior years' DC31 SAO and DC32 IDK SAO.
+  archived: https://web.archive.org/web/20251128205942/https://idk.bz/
 - kind: url
   url: https://idk.bz/idk-nfc/
   title: IDK NFC badge - IDK

@@ -51,18 +51,12 @@ sources:
   title: Office of the National Cyber Director | The White House
   accessed: '2026-09-07'
   note: ONCD's official page; checked 2026-09-07, no mention of DEF CON, badges or coins.
+  archived: https://web.archive.org/web/20260907162600/https://www.whitehouse.gov/oncd/
 research:
   status: verified
   confidence: low
   last_checked: '2026-09-07'
-  notes: >-
-    Fact-check 2026-09-07: the only supported facts are that this maker name
-    appears as row 64 of the DC33 "2025 (expected makers)" sheet tab and that
-    ONCD's official page (whitehouse.gov/oncd) does not mention DEF CON, badges
-    or coins. Nothing confirms that ONCD distributed any badge, SAO or coin at
-    DEF CON 33; all descriptive fields are deliberately empty. Prior searches
-    (Hackaday.io; search engines via fetcher) found nothing. Revisit with
-    working web search or a firsthand attendee report.
+  notes: 'Fact-check 2026-09-07: the only supported facts are that this maker name appears as row 64 of the DC33 "2025 (expected makers)" sheet tab and that ONCD''s official page (whitehouse.gov/oncd) does not mention DEF CON, badges or coins. Nothing confirms that ONCD distributed any badge, SAO or coin at DEF CON 33; all descriptive fields are deliberately empty. Prior searches (Hackaday.io; search engines via fetcher) found nothing. Revisit with working web search or a firsthand attendee report.'
 last_modified_date: '2026-09-07'
 ---
 

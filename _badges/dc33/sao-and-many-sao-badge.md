@@ -48,6 +48,7 @@ links:
 - label: coruscantventures.com/defcon-badges/p/sao-many-saos
   url: https://coruscantventures.com/defcon-badges/p/sao-many-saos
   kind: website
+  archived: https://web.archive.org/web/20260506040947/https://coruscantventures.com/defcon-badges/p/sao-many-saos
 - label: 'GitHub: DC33-SaO-MANY-SAOs'
   url: https://github.com/vortexcodes/DC33-SaO-MANY-SAOs
   kind: repo
@@ -81,6 +82,7 @@ sources:
   title: SaO MANY SAOs - Coruscant Ventures
   accessed: '2026-09-06'
   note: Product page confirming maker, price ($100), features, and that this is the host badge for the SmartAO add-on.
+  archived: https://web.archive.org/web/20260506040947/https://coruscantventures.com/defcon-badges/p/sao-many-saos
 - kind: url
   url: https://github.com/vortexcodes/DC33-SaO-MANY-SAOs
   title: 'GitHub: vortexcodes/DC33-SaO-MANY-SAOs'

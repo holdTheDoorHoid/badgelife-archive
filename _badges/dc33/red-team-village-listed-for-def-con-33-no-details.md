@@ -40,9 +40,11 @@ links:
 - kind: website
   url: https://redteamvillage.io
   label: Red Team Village official site
+  archived: https://web.archive.org/web/20260825171226/https://redteamvillage.io/
 - kind: store
   url: http://redteamvillage.promostore.com/
   label: Red Team Village promo store (apparel only, no badge found)
+  archived: https://web.archive.org/web/20260825171226/https://redteamvillage.promostore.com/
 images: []
 contact: {}
 notes: []
@@ -57,27 +59,19 @@ sources:
   url: https://redteamvillage.io
   title: Red Team Village official site
   accessed: '2026-09-06'
-  note: 'Checked nav/site for any DC33 (2025) badge, SAO, or hardware mention; found none. Site lists Schedule, Team, Sponsors, RTV CRON, RTV Overflow, Events, and a Swag link to their promo store.'
+  note: Checked nav/site for any DC33 (2025) badge, SAO, or hardware mention; found none. Site lists Schedule, Team, Sponsors, RTV CRON, RTV Overflow, Events, and a Swag link to their promo store.
+  archived: https://web.archive.org/web/20260825171226/https://redteamvillage.io/
 - kind: url
   url: http://redteamvillage.promostore.com/
   title: Red Team Village promo store
   accessed: '2026-09-06'
-  note: 'Store sells only apparel and accessories (shirts, hoodies, bags, headwear) — no electronic badge or SAO listed.'
+  note: Store sells only apparel and accessories (shirts, hoodies, bags, headwear) — no electronic badge or SAO listed.
+  archived: https://web.archive.org/web/20260825171226/https://redteamvillage.promostore.com/
 research:
   status: verified
   confidence: low
   last_checked: '2026-09-06'
-  notes: >-
-    Sheet lists Red Team Village as an expected DC33 (2025) maker with no further
-    detail. Checked the village's official site and its promo store: no badge, SAO,
-    or any hardware item is mentioned or sold there, and general web searches for
-    "Red Team Village" + "DEF CON 33" + badge/SAO turned up nothing relevant (search
-    engines returned unrelated results). Red Team Village has fielded electronic
-    badges in other years on this sheet (DC30 "Red Team Village Badge", DC31 RTV
-    "Pip-Boy", DC34 "RTV D20"), and DC32 has the same unresolved "no details" entry,
-    so a DC33 badge may exist but was not found. Left as status: unknown per the
-    research guide rather than guessing; no confirmed maker page, image, or spec
-    was located.
+  notes: 'Sheet lists Red Team Village as an expected DC33 (2025) maker with no further detail. Checked the village''s official site and its promo store: no badge, SAO, or any hardware item is mentioned or sold there, and general web searches for "Red Team Village" + "DEF CON 33" + badge/SAO turned up nothing relevant (search engines returned unrelated results). Red Team Village has fielded electronic badges in other years on this sheet (DC30 "Red Team Village Badge", DC31 RTV "Pip-Boy", DC34 "RTV D20"), and DC32 has the same unresolved "no details" entry, so a DC33 badge may exist but was not found. Left as status: unknown per the research guide rather than guessing; no confirmed maker page, image, or spec was located.'
 last_modified_date: '2026-09-06'
 ---
 

@@ -39,7 +39,7 @@ get_one:
   distribution:
   - preorder
   - free_drop
-  where: 'Preordered through the trueControl webshop for pickup at DEF CON 33 (August 2025); trueControl said they would freely give away roughly 2/3 to 3/4 of the units made to attendees at the Retro Tech Community, with preorders funding the run and guaranteeing pickup.'
+  where: Preordered through the trueControl webshop for pickup at DEF CON 33 (August 2025); trueControl said they would freely give away roughly 2/3 to 3/4 of the units made to attendees at the Retro Tech Community, with preorders funding the run and guaranteeing pickup.
 make_your_own:
   open_source: partial
   hardware_url: null
@@ -52,17 +52,19 @@ links:
 - label: basic.truecontrol.org/database/dc33/retro-tech (specs & manual)
   url: https://basic.truecontrol.org/database/dc33/retro-tech/
   kind: doc
+  archived: https://web.archive.org/web/20251113211705/https://basic.truecontrol.org/database/dc33/retro-tech/
 - label: git.trueserve.org/trueControl/dc33-retro-tech-addon (firmware)
   url: https://git.trueserve.org/trueControl/dc33-retro-tech-addon
   kind: repo
+  archived: https://web.archive.org/web/20260214163754/https://git.trueserve.org/trueControl/dc33-retro-tech-addon
 - label: trueControl Shop listing
   url: https://shop.truecontrol.org/index.php?route=product/product&path=83&product_id=430
   kind: store
 images:
 - file: assets/images/badges/dc33/retro-tech-dc33-addon/2c69c5d591.jpg
-  source: "https://shop.truecontrol.org/index.php?route=product/product&path=83&product_id=430"
-  credit: "trueControl"
-  caption: "Retro Tech Community GAT addon for DEF CON 33"
+  source: https://shop.truecontrol.org/index.php?route=product/product&path=83&product_id=430
+  credit: trueControl
+  caption: Retro Tech Community GAT addon for DEF CON 33
 contact: {}
 notes:
 - Spotted by a research agent while working on a neighbouring entry.
@@ -80,11 +82,13 @@ sources:
   title: Retro Tech DC33 Addon - trueControl BASIC
   accessed: '2026-09-07'
   note: Working replacement for the dead link above; gave specs (MCU, LEDs, interface), firmware repo link, and manual link.
+  archived: https://web.archive.org/web/20251113211705/https://basic.truecontrol.org/database/dc33/retro-tech/
 - kind: url
   url: https://git.trueserve.org/trueControl/dc33-retro-tech-addon
   title: trueControl/dc33-retro-tech-addon - trueserve Git
   accessed: '2026-09-07'
   note: Firmware repo README; confirmed hardware specs and gave build/flash instructions (MounRiver Studio II, WCH-LinkE). No hardware design files (schematic/PCB) found in the repo, only firmware.
+  archived: https://web.archive.org/web/20260214163754/https://git.trueserve.org/trueControl/dc33-retro-tech-addon
 - kind: url
   url: https://shop.truecontrol.org/index.php?route=product/product&path=83&product_id=430
   title: Surprise Retro badge addon at DC33 - trueControl Shop
@@ -94,7 +98,7 @@ research:
   status: researched
   confidence: high
   last_checked: '2026-09-07'
-  notes: 'Maker''s own pages (BASIC docs site, firmware repo, and webshop) all agree on specs and event. Exact quantity made was not stated anywhere found, so get_one.quantity is left empty. No hardware design files (schematic/PCB/Gerbers) were found, only the firmware repo, so make_your_own.open_source is "partial" rather than "yes". look.colors and look.shape were not stated by any source and the single product photo shows the addon in its final case, so left as found rather than guessed from the image.'
+  notes: Maker's own pages (BASIC docs site, firmware repo, and webshop) all agree on specs and event. Exact quantity made was not stated anywhere found, so get_one.quantity is left empty. No hardware design files (schematic/PCB/Gerbers) were found, only the firmware repo, so make_your_own.open_source is "partial" rather than "yes". look.colors and look.shape were not stated by any source and the single product photo shows the addon in its final case, so left as found rather than guessed from the image.
 last_modified_date: '2026-09-07'
 ---
 

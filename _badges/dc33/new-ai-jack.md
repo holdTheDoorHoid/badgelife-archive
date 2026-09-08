@@ -52,15 +52,18 @@ links:
 - label: www.tindie.com/products/technick/ai-jack-badge-defcon-33
   url: https://www.tindie.com/products/technick/ai-jack-badge-defcon-33/
   kind: store
+  archived: https://web.archive.org/web/20260503101325/https://www.tindie.com/products/technick/ai-jack-badge-defcon-33/
 images:
 - file: assets/images/badges/dc33/ai-jack-badge/3eb027ec5a.jpg
   source: https://www.tindie.com/products/technick/ai-jack-badge-defcon-33/
   credit: technick
   caption: The AI Jack Badge, DEF CON 33 (3D-printed, glow-in-the-dark)
+  archived: https://web.archive.org/web/20260503101325/https://www.tindie.com/products/technick/ai-jack-badge-defcon-33/
 - file: assets/images/badges/dc33/new-ai-jack/3eb027ec5a.jpg
   source: https://www.tindie.com/products/technick/ai-jack-badge-defcon-33/
   credit: technick
   caption: The AI Jack Badge, DEF CON 33 (3D-printed, glow-in-the-dark)
+  archived: https://web.archive.org/web/20260503101325/https://www.tindie.com/products/technick/ai-jack-badge-defcon-33/
 contact:
   handles:
   - '@technick'
@@ -76,6 +79,7 @@ sources:
   title: AI Jack Badge - Defcon 33 (Tindie listing)
   accessed: '2026-09-06'
   note: Confirms this row and dc33-ai-jack-badge describe the same product (same maker, same Tindie link, same $25 price, different sheet rows).
+  archived: https://web.archive.org/web/20260503101325/https://www.tindie.com/products/technick/ai-jack-badge-defcon-33/
 - kind: sheet
   event: dc33
   row: 49
