@@ -54,9 +54,11 @@ links:
 - label: shop.bugbountydefcon.com
   url: https://shop.bugbountydefcon.com/
   kind: store
+  archived: https://web.archive.org/web/20260511153619/https://shop.bugbountydefcon.com/
 - label: Limited Edition BBV Blinky Badge – Green (product page)
   url: https://shop.bugbountydefcon.com/products/limited-edition-bbv-blinky-badge-green-pickup-only-def-con
   kind: store
+  archived: https://web.archive.org/web/20260210153120/https://shop.bugbountydefcon.com/products/limited-edition-bbv-blinky-badge-green-pickup-only-def-con
 - label: DEF CON Forums - Limited Edition Bug Bounty Village Badge
   url: https://forum.defcon.org/node/253153
   kind: article
@@ -68,18 +70,22 @@ images:
   source: https://shop.bugbountydefcon.com/products/limited-edition-bbv-blinky-badge-green-pickup-only-def-con
   credit: Bug Bounty Village
   caption: The green BBV Blinky Badge with matrix-style code rain LED artwork, LEDs off
+  archived: https://web.archive.org/web/20260210153120/https://shop.bugbountydefcon.com/products/limited-edition-bbv-blinky-badge-green-pickup-only-def-con
 - file: assets/images/badges/dc33/bug-bounty-village-dc33-badge/ea4e31eb71.jpg
   source: https://shop.bugbountydefcon.com/products/limited-edition-bbv-blinky-badge-green-pickup-only-def-con
   credit: Bug Bounty Village
   caption: The badge lit up, showing the cascading LED code-rain effect
+  archived: https://web.archive.org/web/20260210153120/https://shop.bugbountydefcon.com/products/limited-edition-bbv-blinky-badge-green-pickup-only-def-con
 - file: assets/images/badges/dc33/bug-bounty-village-dc33-badge/d122e621cf.jpg
   source: https://shop.bugbountydefcon.com/
   credit: Bug Bounty Village
   caption: Bug Bounty Village DC33 badge, powered on, showing green LED matrix code-rain effect
+  archived: https://web.archive.org/web/20260511153619/https://shop.bugbountydefcon.com/
 - file: assets/images/badges/dc33/bug-bounty-village-dc33-badge/79c2bc0409.jpg
   source: https://shop.bugbountydefcon.com/
   credit: Bug Bounty Village
   caption: Back side of the Bug Bounty Village DC33 badge showing battery compartment
+  archived: https://web.archive.org/web/20260511153619/https://shop.bugbountydefcon.com/
 contact:
   emails:
   - contact@bugbountydefcon.com
@@ -99,6 +105,7 @@ sources:
   title: Limited Edition BBV Blinky Badge – GREEN (Pickup Only @ DEF CON)
   accessed: '2026-09-06'
   note: Confirmed maker (Bug Bounty Village + Abhinav Panda), specs (ATmega16A, 41 SMD LEDs, 4 buttons, 3xAAA batteries), price, distribution terms, and sold-out status; source of product photos.
+  archived: https://web.archive.org/web/20260210153120/https://shop.bugbountydefcon.com/products/limited-edition-bbv-blinky-badge-green-pickup-only-def-con
 - kind: sheet
   event: dc33
   row: 3
@@ -109,6 +116,7 @@ sources:
   title: Bug Bounty Village Shop
   accessed: '2026-09-06'
   note: Price, chip, LED count, battery, buttons, CTF challenge count, sold-out status, and product photos.
+  archived: https://web.archive.org/web/20260511153619/https://shop.bugbountydefcon.com/
 - kind: url
   url: https://forum.defcon.org/node/253153
   title: Limited Edition Bug Bounty Village Badge - Available for Pre-Order

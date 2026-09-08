@@ -40,6 +40,7 @@ links:
 - label: www.cybercircuitry.com
   url: https://www.cybercircuitry.com
   kind: website
+  archived: https://web.archive.org/web/20260213122552/https://www.cybercircuitry.com
 - label: darthdebugger (GitHub)
   url: https://github.com/darthdebugger
   kind: repo
@@ -60,26 +61,18 @@ sources:
   url: https://www.cybercircuitry.com
   title: Cyber Circuitry LLC
   accessed: '2026-09-06'
-  note: 'Only product shown is the Prismatic Shard, an "unofficial, Defcon 31 compatible
-    electronic shard" (2023), marked sold out; no mention of any 2024 or 2025 (DC32/DC33)
-    product. Links to GitHub (darthdebugger) and Twitter/X (@darthdebugger).'
+  note: Only product shown is the Prismatic Shard, an "unofficial, Defcon 31 compatible electronic shard" (2023), marked sold out; no mention of any 2024 or 2025 (DC32/DC33) product. Links to GitHub (darthdebugger) and Twitter/X (@darthdebugger).
+  archived: https://web.archive.org/web/20260213122552/https://www.cybercircuitry.com
 - kind: url
   url: https://github.com/darthdebugger?tab=repositories
   title: darthdebugger (GitHub repositories)
   accessed: '2026-09-06'
-  note: Only two public repos, a personal site and DC31_Prismatic_Shard (last updated
-    August 2023); no repo for a 2024 or 2025 badge.
+  note: Only two public repos, a personal site and DC31_Prismatic_Shard (last updated August 2023); no repo for a 2024 or 2025 badge.
 research:
   status: verified
   confidence: low
   last_checked: '2026-09-06'
-  notes: This maker (Jeremy Wasson / "DarthDebugger", Cyber Circuitry) was expected
-    at DEF CON 33 per the community sheet, but no source found describes what they
-    actually brought that year. Their storefront and GitHub only show the Prismatic
-    Shard add-on made for DEF CON 31 (2023, sold out), with no later product, repo,
-    or announcement for DC32 or DC33. Twitter/X could not be checked (login-walled).
-    Status left as unknown rather than guessed. Fact-check 2026-09-06 re-read the storefront, GitHub profile and DC31_Prismatic_Shard README and confirmed every claim here; the X account still could not be read; see also the similarly bare DC32
-    stub for the same maker (dc32-cyber-circuitry-listed-for-def-con-32-no-details).
+  notes: This maker (Jeremy Wasson / "DarthDebugger", Cyber Circuitry) was expected at DEF CON 33 per the community sheet, but no source found describes what they actually brought that year. Their storefront and GitHub only show the Prismatic Shard add-on made for DEF CON 31 (2023, sold out), with no later product, repo, or announcement for DC32 or DC33. Twitter/X could not be checked (login-walled). Status left as unknown rather than guessed. Fact-check 2026-09-06 re-read the storefront, GitHub profile and DC31_Prismatic_Shard README and confirmed every claim here; the X account still could not be read; see also the similarly bare DC32 stub for the same maker (dc32-cyber-circuitry-listed-for-def-con-32-no-details).
 last_modified_date: '2026-09-06'
 ---
 

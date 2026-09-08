@@ -46,7 +46,7 @@ get_one:
   - free_drop
   where: Given to attendees of Fri3d Camp 2022 as the official conference badge; the same board design was reused from the 2020 edition.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/Fri3dCamp/badge-2020
   firmware_url: https://github.com/Fri3dCamp/Badge2020_micropython
   eda_tool: null
@@ -68,13 +68,13 @@ links:
   kind: website
 images:
 - file: assets/images/badges/fri3d-2022/fri3d-2022-badge/1d07ef73fa.jpg
-  source: "https://github.com/Fri3dCamp/badge-2020"
-  credit: "Fri3d Camp"
-  caption: "Front view of the Fri3d 2022 badge PCB"
+  source: https://github.com/Fri3dCamp/badge-2020
+  credit: Fri3d Camp
+  caption: Front view of the Fri3d 2022 badge PCB
 - file: assets/images/badges/fri3d-2022/fri3d-2022-badge/776f752a54.jpg
-  source: "https://github.com/Fri3dCamp/badge-2020"
-  credit: "Fri3d Camp"
-  caption: "Close-up of the Fri3d 2022 badge, showing the display and expansion connector"
+  source: https://github.com/Fri3dCamp/badge-2020
+  credit: Fri3d Camp
+  caption: Close-up of the Fri3d 2022 badge, showing the display and expansion connector
 contact: {}
 notes: []
 status: released
@@ -86,7 +86,7 @@ sources:
   note: Found via the project's link list; intake pass identified this item here.
 - kind: url
   url: https://github.com/Fri3dCamp/badge-2020
-  title: "Fri3dCamp/badge-2020: Fri3dBadge 2020 version"
+  title: 'Fri3dCamp/badge-2020: Fri3dBadge 2020 version'
   accessed: '2026-09-07'
   note: Confirms this hardware design was used for both the 2020 and 2022 badges; hardware and firmware both published (open source); lists the micro:bit V2 edge connector, accelerometer wake-on-movement, and optional CO2/temp-humidity add-ons.
 - kind: url
@@ -105,6 +105,16 @@ research:
   last_checked: '2026-09-07'
   notes: The Hackaday.io project page and the badge-2020 GitHub repo (whose hardware design was reused unchanged for 2022) confirm the chip, display, sensors, USB bridge, and micro:bit-style expansion connector. Price paid by attendees and exact distribution mechanics (e.g. included with a ticket) were not stated on any source checked, so those fields are left empty. Team credited on the Hackaday.io project page (Wim Van Gool, Hans Polders, Fri3d Camp org account, Bart Cerneels, Toon) added as additional makers. No LED count/type was found in any source, so tech.leds is left null. EDA tool for the PCB design was not stated in the fetched summaries.
 last_modified_date: '2026-09-07'
+model:
+  file: assets/models/fri3d-2022/fri3d-2022-badge.glb
+  method: gerber
+  source_file: design/Fri3D_2020_00/OUTPUT/Gerber
+  generated: '2026-09-07'
+  bytes: 53800
+  size_mm:
+  - 420.0
+  - 297.0
+  note: The published files have no board outline, so the model is shown on a rectangular board.
 ---
 
 The Fri3d 2022 Badge was the official attendee badge given to participants of Fri3d Camp 2022, a Belgian hacker camp held in August 2022. Rather than a new design, the badge reused the hardware from the Fri3d Camp 2020 edition: an ESP32-WROVER module with 4MB of PSRAM and 16MB of flash, driving a 240x240 IPS LCD built around an ST7789v controller. It also carries a LIS2DH12 three-axis accelerometer (wired to wake the board on movement), an IR receiver, and a CP2102N USB-to-UART bridge for programming. More than 700 units were produced.

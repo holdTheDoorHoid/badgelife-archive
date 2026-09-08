@@ -40,11 +40,13 @@ links:
 - kind: website
   label: Car Hacking Village
   url: https://www.carhackingvillage.com/
+  archived: https://web.archive.org/web/20260810193641/https://www.carhackingvillage.com/
 - kind: store
   label: CHV Swag Store
   url: https://swag.carhackingvillage.com/
+  archived: https://web.archive.org/web/20260821062036/https://swag.carhackingvillage.com/
 - kind: repo
-  label: 'CHV SAO Specification (GitHub, linted)'
+  label: CHV SAO Specification (GitHub, linted)
   url: https://github.com/linted/CHV_SAO_Specification
 images: []
 contact: {}
@@ -61,16 +63,19 @@ sources:
   title: Car Hacking Village
   accessed: '2026-09-06'
   note: Main site checked for a DEF CON 33 / 2025 badge or SAO announcement; found none. Only badge-related content is a 2023 note about the SAO spec adding CAN TX/RX.
+  archived: https://web.archive.org/web/20260810193641/https://www.carhackingvillage.com/
 - kind: url
   url: https://www.carhackingvillage.com/defcon-33-talks
   title: 'Car Hacking Village: DEF CON 33 talks'
   accessed: '2026-09-06'
   note: DEF CON 33 (Aug 8-10 2025) talks page; lists presentations only, no mention of a village badge or SAO for that year.
+  archived: https://web.archive.org/web/20260821062036/https://www.carhackingvillage.com/defcon-33-talks
 - kind: url
   url: https://swag.carhackingvillage.com/
   title: CHV Swag Store
   accessed: '2026-09-06'
   note: Store carries apparel, drinkware, and stickers only; no badge or SAO for sale as of this check.
+  archived: https://web.archive.org/web/20260821062036/https://swag.carhackingvillage.com/
 - kind: url
   url: https://github.com/linted/CHV_SAO_Specification
   title: linted/CHV_SAO_Specification
@@ -80,20 +85,8 @@ research:
   status: verified
   confidence: low
   last_checked: '2026-09-06'
-  notes: >-
-    The community sheet lists Car Hacking Village as an expected maker for DEF CON 33
-    (2025) with no further detail. Checked CHV's own site (main page, about, DEF CON 33
-    talks page), their swag store, their GitHub account (linted), and their public SAO
-    specification repo (CHV_SAO_Specification, CHV_badge_board, CHV_Badge_Firmware,
-    CHVpi) — none show a badge or SAO release for 2025; the most recent hardware-related
-    activity found dates to 2023 (DC31-era SAO spec and firmware/board repos). Web
-    search was unavailable for this task (session search budget exhausted), so this
-    could not be cross-checked against press coverage, Reddit, or social media. Could
-    not confirm whether CHV skipped a badge/SAO for DC33 or simply has not published
-    details anywhere findable. Leaving as unknown rather than guessing; a future pass
-    with search access should recheck Twitter/X, Bluesky, and Hackaday.io for a DC33
-    CHV badge. Fact-check 2026-09-06: all four cited pages re-opened and confirmed; an
-    unsourced body claim about specific DC31/DC32 badges and SAOs was removed.
+  notes: 'The community sheet lists Car Hacking Village as an expected maker for DEF CON 33 (2025) with no further detail. Checked CHV''s own site (main page, about, DEF CON 33 talks page), their swag store, their GitHub account (linted), and their public SAO specification repo (CHV_SAO_Specification, CHV_badge_board, CHV_Badge_Firmware, CHVpi) — none show a badge or SAO release for 2025; the most recent hardware-related activity found dates to 2023 (DC31-era SAO spec and firmware/board repos). Web search was unavailable for this task (session search budget exhausted), so this could not be cross-checked against press coverage, Reddit, or social media. Could not confirm whether CHV skipped a badge/SAO for DC33 or simply has not published details anywhere findable. Leaving as unknown rather than guessing; a future pass with search access should recheck Twitter/X, Bluesky, and Hackaday.io for a DC33 CHV badge. Fact-check 2026-09-06: all four cited pages re-opened and confirmed; an unsourced
+    body claim about specific DC31/DC32 badges and SAOs was removed.'
 last_modified_date: '2026-09-06'
 ---
 

@@ -40,9 +40,11 @@ links:
 - label: www.hackster.io/HacksFromPanda/projects
   url: https://www.hackster.io/HacksFromPanda/projects
   kind: website
+  archived: https://web.archive.org/web/20260613054721/https://www.hackster.io/HacksFromPanda/projects
 - label: Hackerware.io
   url: https://hackerware.io
   kind: website
+  archived: https://web.archive.org/web/20260523123718/https://hackerware.io/
 images: []
 contact: {}
 notes:
@@ -58,11 +60,13 @@ sources:
   title: Hackerware.io
   accessed: '2026-09-06'
   note: Confirms Hackerware.io as an India-based (Gurgaon / Nanded) badge design and manufacturing studio with DEF CON and RSA Conference badge work, and lists Bugcrowd among its clients; no mention of an Ingenuity Award badge. Contact is abhinav@hackerwares.in; the name "Abhinav SP" itself comes from the sheet.
+  archived: https://web.archive.org/web/20260523123718/https://hackerware.io/
 - kind: url
   url: https://hackerwares.in/about-us.html
   title: Hackerware - About Us
   accessed: '2026-09-06'
   note: Lists Hackerware's conference presence and a "Hackster's Badge Of Hope" award, but no Bugcrowd or DEF CON 33 Ingenuity Award specifics.
+  archived: https://web.archive.org/web/20260514074635/https://hackerwares.in/about-us.html
 - kind: url
   url: https://hackerware.io/bbv2026
   title: Hackerware - Bug Bounty Village badge (2026)
@@ -72,24 +76,8 @@ research:
   status: verified
   confidence: low
   last_checked: '2026-09-06'
-  notes: >
-    Could not find a dedicated page, photo, or press mention of the Bugcrowd
-    "Ingenuity Award" badge itself. Hackster.io (where the maker's DC33
-    project write-ups would normally live) returned HTTP 403/Cloudflare
-    blocks on every fetch attempt, including the maker's own projects page
-    and a directly-linked project page for another of their DC33 badges;
-    web search was unavailable for this task. Confirmed only that
-    Hackerware.io is a working India-based badge-design studio that lists
-    Bugcrowd as a client and has DEF CON and RSA badge history, and that it
-    built a separate, later "Bug Bounty Village" badge for DEF CON 34/2026
-    (that page does not mention Bugcrowd) — a different item, not this one.
-    No chip, LED count, price, quantity, or images could be sourced, so
-    those fields are left empty rather than guessed. The sheet's description
-    ("Blinky with acrylic") and note ("Not sold, to be earned!") are the
-    only characterization of the badge. Fact-check 2026-09-07: all three
-    cited pages re-opened and every remaining statement matched; the
-    Bug Bounty Village badge was originally described as a Bugcrowd badge,
-    which the page does not support, so that claim was removed.
+  notes: |
+    Could not find a dedicated page, photo, or press mention of the Bugcrowd "Ingenuity Award" badge itself. Hackster.io (where the maker's DC33 project write-ups would normally live) returned HTTP 403/Cloudflare blocks on every fetch attempt, including the maker's own projects page and a directly-linked project page for another of their DC33 badges; web search was unavailable for this task. Confirmed only that Hackerware.io is a working India-based badge-design studio that lists Bugcrowd as a client and has DEF CON and RSA badge history, and that it built a separate, later "Bug Bounty Village" badge for DEF CON 34/2026 (that page does not mention Bugcrowd) — a different item, not this one. No chip, LED count, price, quantity, or images could be sourced, so those fields are left empty rather than guessed. The sheet's description ("Blinky with acrylic") and note ("Not sold, to be earned!") are the only characterization of the badge. Fact-check 2026-09-07: all three cited pages re-opened and every remaining statement matched; the Bug Bounty Village badge was originally described as a Bugcrowd badge, which the page does not support, so that claim was removed.
 last_modified_date: '2026-09-07'
 ---
 

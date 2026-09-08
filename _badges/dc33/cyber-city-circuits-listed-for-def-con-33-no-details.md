@@ -41,13 +41,15 @@ links:
 - kind: website
   label: Cyber City Circuits
   url: https://cybercitycircuits.com
+  archived: https://web.archive.org/web/20260606142506/https://cybercitycircuits.com/
 - kind: store
   label: Cyber City Circuits event badge storefront (BadgesBadgesBadges.com)
   url: https://badgesbadgesbadges.com
+  archived: https://web.archive.org/web/20260614134519/https://badgesbadgesbadges.com/
 images: []
 contact: {}
 notes:
-- "Sheet listed only the maker name with no badge details; this was DEF CON 33's version of the same open item as the dc32 entry for this maker."
+- Sheet listed only the maker name with no badge details; this was DEF CON 33's version of the same open item as the dc32 entry for this maker.
 status: released
 sources:
 - kind: sheet
@@ -59,33 +61,20 @@ sources:
   url: https://cybercitycircuits.com
   title: Cyber City Circuits — home page
   accessed: '2026-09-06'
-  note: "Confirms CCC is a PCB design/assembly/rapid-prototyping shop ('Est. 2018 in Augusta, Ga', address in N Augusta, SC, 'Service Connected Disabled Veteran Owned Small Business') that offers 'Custom PCB Event Badges' via BadgesBadgesBadges.com; a customer review by Brian Sak states CCC 'produced three amazing badges for RTV at DEF CON 33'. Verified 2026-09-07."
+  note: Confirms CCC is a PCB design/assembly/rapid-prototyping shop ('Est. 2018 in Augusta, Ga', address in N Augusta, SC, 'Service Connected Disabled Veteran Owned Small Business') that offers 'Custom PCB Event Badges' via BadgesBadgesBadges.com; a customer review by Brian Sak states CCC 'produced three amazing badges for RTV at DEF CON 33'. Verified 2026-09-07.
+  archived: https://web.archive.org/web/20260606142506/https://cybercitycircuits.com/
 - kind: url
   url: https://badgesbadgesbadges.com
   title: BadgesBadgesBadges.com — Cyber City Circuits' event-badge storefront
   accessed: '2026-09-06'
-  note: "Repeats the same DEF CON 33 / RTV review; lists CCC's general customizable badge spec (up to 4 RGB LEDs, up to 12 patterns, onboard microprocessor, USB-C, single battery, gold or silver lead-free finish, $24.99 each at 100 pieces) but has no page specific to the DEF CON 33 / RTV badges themselves. Verified 2026-09-07."
+  note: Repeats the same DEF CON 33 / RTV review; lists CCC's general customizable badge spec (up to 4 RGB LEDs, up to 12 patterns, onboard microprocessor, USB-C, single battery, gold or silver lead-free finish, $24.99 each at 100 pieces) but has no page specific to the DEF CON 33 / RTV badges themselves. Verified 2026-09-07.
+  archived: https://web.archive.org/web/20260614134519/https://badgesbadgesbadges.com/
 research:
   status: researched
   confidence: low
   last_checked: '2026-09-06'
-  notes: >-
-    "Cyber City Circuits" (CCC) is a contract PCB design/assembly business, not a
-    hobbyist badge line, which is why the sheet only had a maker name and no
-    other details. The only corroborating source is a customer review by Brian
-    Sak, shown on both cybercitycircuits.com and badgesbadgesbadges.com, saying
-    CCC "produced three amazing badges for RTV at DEF CON 33." Fact-check
-    2026-09-07 re-read both pages and confirmed that quote and the company
-    background. The expansion of "RTV" to Red Team Village is the archive's
-    reading (RTV is the usual abbreviation for that DEF CON village), not stated
-    in the review, and no Red Team Village or press page confirming the badges
-    was found, so the entry stays at `researched` / low confidence. "Three
-    badges" most likely means three designs, not three units, so
-    `get_one.quantity` is left null; nothing states how or whether the badges
-    were handed out, so `distribution` is empty. No design, chip, LED, look
-    or photo information exists for the actual RTV badges; the generic spec on
-    BadgesBadgesBadges.com is not copied into `tech` because it is CCC's
-    standard product line, not confirmed to be what RTV received.
+  notes: '"Cyber City Circuits" (CCC) is a contract PCB design/assembly business, not a hobbyist badge line, which is why the sheet only had a maker name and no other details. The only corroborating source is a customer review by Brian Sak, shown on both cybercitycircuits.com and badgesbadgesbadges.com, saying CCC "produced three amazing badges for RTV at DEF CON 33." Fact-check 2026-09-07 re-read both pages and confirmed that quote and the company background. The expansion of "RTV" to Red Team Village is the archive''s reading (RTV is the usual abbreviation for that DEF CON village), not stated in the review, and no Red Team Village or press page confirming the badges was found, so the entry stays at `researched` / low confidence. "Three badges" most likely means three designs, not three units, so `get_one.quantity` is left null; nothing states how or whether the badges were handed out, so `distribution` is empty. No design, chip, LED, look or photo information exists for the actual RTV
+    badges; the generic spec on BadgesBadgesBadges.com is not copied into `tech` because it is CCC''s standard product line, not confirmed to be what RTV received.'
 last_modified_date: '2026-09-07'
 ---
 

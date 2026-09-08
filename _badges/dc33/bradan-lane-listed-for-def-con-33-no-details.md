@@ -61,6 +61,7 @@ links:
 - label: Maker's link page
   url: https://bradanlane.com
   kind: website
+  archived: https://web.archive.org/web/20260509140218/https://bradanlane.com/
 images:
 - file: assets/images/badges/dc33/bradan-lane-listed-for-def-con-33-no-details/a91fba0c04.png
   source: https://gitlab.com/bradanlane/dcng02
@@ -95,11 +96,13 @@ sources:
   title: Bradán Lane - link directory
   accessed: '2026-09-06'
   note: Maker's personal link page (studio, GitLab, Tindie, social); did not itself mention the DC33 project by name.
+  archived: https://web.archive.org/web/20260509140218/https://bradanlane.com/
 - kind: url
   url: https://hackaday.io/BradanLane
   title: Bradán Lane - Hackaday.io
   accessed: '2026-09-06'
   note: Only project listed is 'Pocket Enigma' (2022); no DC33 project posted there.
+  archived: https://web.archive.org/web/20260521010327/https://hackaday.io/bradanlane
 research:
   status: researched
   confidence: medium

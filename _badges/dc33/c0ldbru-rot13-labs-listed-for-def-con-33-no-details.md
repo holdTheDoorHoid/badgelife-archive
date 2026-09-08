@@ -40,6 +40,7 @@ links:
 - kind: website
   label: rot13labs
   url: https://rot13labs.com
+  archived: https://web.archive.org/web/20260615020751/https://rot13labs.com/
 images: []
 contact: {}
 notes: []
@@ -54,11 +55,8 @@ sources:
   url: https://rot13labs.com
   title: rot13labs — home
   accessed: '2026-09-06'
-  note: >-
-    Maker's own site; confirms C0ldbru operates as rot13labs and lists past
-    projects (DEFCON 32 Troll Badge, Duckbutt SAO, Hackbutt badges, etc.) but
-    the shop is described as "currently being rebuilt from the ground up" and
-    no DEF CON 33 / 2025 product is mentioned anywhere on the site.
+  note: Maker's own site; confirms C0ldbru operates as rot13labs and lists past projects (DEFCON 32 Troll Badge, Duckbutt SAO, Hackbutt badges, etc.) but the shop is described as "currently being rebuilt from the ground up" and no DEF CON 33 / 2025 product is mentioned anywhere on the site.
+  archived: https://web.archive.org/web/20260615020751/https://rot13labs.com/
 - kind: url
   url: https://rot13labs.com/blogs/news
   title: rot13labs — news
@@ -73,28 +71,8 @@ research:
   status: verified
   confidence: low
   last_checked: '2026-09-06'
-  notes: >-
-    The community sheet only listed the maker's name (C0ldbru / Rot13 labs)
-    for DEF CON 33 with no title or details for what they brought. C0ldbru is
-    a known recurring badgelife maker under the Rot13 labs name, with
-    prior entries in this archive: the Dickbutt Badge and Dickbutt
-    SAO (DC30), the Hackbutt v.3 wifi testing badge (DC31), and the Veilid
-    SAO and Wifi Troll Badge (DC32). Checked the maker's own site
-    (rot13labs.com), its news/blog page, and its shop/collections page for any
-    2025 product; none mention DEF CON 33 or list a new item for that year,
-    and the shop itself says it is "being rebuilt from the ground up." A
-    Hackaday.io search and web searches for "c0ldbru" and "rot13labs" +
-    "DEF CON 33" turned up nothing (web search quota for this session was
-    also exhausted partway through, and DuckDuckGo blocked automated queries
-    with a bot challenge). Could not confirm what, if anything, C0ldbru
-    brought to DEF CON 33; leaving type, look, tech, and get_one fields empty
-    per the "never invent" rule. Status kept as unknown rather than
-    retitled, since no specific item could be identified. Fact-check
-    2026-09-06: re-opened rot13labs.com home, news and collections pages;
-    all three show the same 17-project list, name only DEFCON 32 as the
-    latest event, carry no 2025/DEF CON 33 item, and state the shop is
-    "currently being rebuilt from the ground up." The Veilid SAO spelling
-    was corrected to match the DC32 archive entry.
+  notes: 'The community sheet only listed the maker''s name (C0ldbru / Rot13 labs) for DEF CON 33 with no title or details for what they brought. C0ldbru is a known recurring badgelife maker under the Rot13 labs name, with prior entries in this archive: the Dickbutt Badge and Dickbutt SAO (DC30), the Hackbutt v.3 wifi testing badge (DC31), and the Veilid SAO and Wifi Troll Badge (DC32). Checked the maker''s own site (rot13labs.com), its news/blog page, and its shop/collections page for any 2025 product; none mention DEF CON 33 or list a new item for that year, and the shop itself says it is "being rebuilt from the ground up." A Hackaday.io search and web searches for "c0ldbru" and "rot13labs" + "DEF CON 33" turned up nothing (web search quota for this session was also exhausted partway through, and DuckDuckGo blocked automated queries with a bot challenge). Could not confirm what, if anything, C0ldbru brought to DEF CON 33; leaving type, look, tech, and get_one fields empty per the "never
+    invent" rule. Status kept as unknown rather than retitled, since no specific item could be identified. Fact-check 2026-09-06: re-opened rot13labs.com home, news and collections pages; all three show the same 17-project list, name only DEFCON 32 as the latest event, carry no 2025/DEF CON 33 item, and state the shop is "currently being rebuilt from the ground up." The Veilid SAO spelling was corrected to match the DC32 archive entry.'
 last_modified_date: '2026-09-06'
 ---
 

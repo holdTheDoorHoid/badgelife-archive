@@ -359,5 +359,61 @@
    "eagle->kicad ok"
   ],
   "src": "SAO_3.brd"
+ },
+ "dc27-def-con-furs-badge-dc27": {
+  "status": "failed",
+  "tried": []
+ },
+ "dc32-purple-cyclops": {
+  "status": "failed",
+  "tried": [
+   "gerber Gerber_Purple_Cyclops_Bottom_View_LEDs_unz: render is empty",
+   "gerber Gerber_Purple_Cyclops_Side_View_LEDs_unz: tracespace produced no board render: o `drill` and parse as a drill file\n  l\n  tracespace --quiet                        Do not print info to stderr\n\nYou may al"
+  ]
+ },
+ "dc34-malo-sao": {
+  "status": "failed",
+  "tried": [
+   "gerber Gerber_PCB1_2026-03-30_unz: tracespace produced no board render: o `drill` and parse as a drill file\n  l\n  tracespace --quiet                        Do not print info to stderr\n\nYou may al",
+   "gerber Gerber_PCB1_2026-06-30_unz: render is empty",
+   "gerber Gerber_PCB1_2026-06-13_unz: tracespace produced no board render: o `drill` and parse as a drill file\n  l\n  tracespace --quiet                        Do not print info to stderr\n\nYou may al"
+  ]
+ },
+ "fri3d-2018-fri3d-2018-air-jewel": {
+  "status": "ok",
+  "method": "gerber",
+  "bytes": 49572,
+  "tried": [],
+  "src": "design/jewels/Air.01/OUTPUT/Gerber"
+ },
+ "fri3d-2022-fri3d-2022-badge": {
+  "status": "ok",
+  "method": "gerber",
+  "bytes": 53800,
+  "tried": [],
+  "src": "design/Fri3D_2020_00/OUTPUT/Gerber"
+ },
+ "fri3d-2022-fri3d-badge-2020": {
+  "status": "ok",
+  "method": "gerber",
+  "bytes": 53800,
+  "tried": [],
+  "src": "design/Fri3D_2020_00/OUTPUT/Gerber"
+ },
+ "fri3d-2022-fri3d-camp-2022-badge": {
+  "status": "ok",
+  "method": "gerber",
+  "bytes": 53800,
+  "tried": [],
+  "src": "design/Fri3D_2020_00/OUTPUT/Gerber"
+ },
+ "northsec-2023-northsec-2023-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 230764,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "confBadgeV1.brd"
  }
 }

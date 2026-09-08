@@ -11,7 +11,7 @@ year: 2025
 makers:
 - name: Darknet-NG
   url: https://darknet-ng.network/
-summary: 'A DIY, buy-your-own-parts Meshtastic mesh-networking badge from Darknet-NG, offered as three build paths of increasing difficulty for DEF CON 33.'
+summary: A DIY, buy-your-own-parts Meshtastic mesh-networking badge from Darknet-NG, offered as three build paths of increasing difficulty for DEF CON 33.
 functions: Level 1 is an easy Meshtastic starter build on a Heltec V3 board, flashed with DEF CON 33 firmware. Level 2 is a solderless breadboard build on a Seeed Xiao ESP32-S3 with a Wio-SX1262 LoRa module. Level 3 is the same Xiao ESP32-S3 / SX1262 hardware fully soldered into a permanent build. All three join the same LoRa mesh for direct peer-to-peer messaging between agents without cell service or internet, reportedly over several miles line-of-sight.
 look:
   colors: []
@@ -48,21 +48,26 @@ links:
 - label: darknet-ng.network/badge
   url: https://darknet-ng.network/badge/
   kind: website
+  archived: https://web.archive.org/web/20260821062747/https://darknet-ng.network/badge/
 - label: Darknet-NG 14 DIY Badge Level 2 (build page)
   url: https://darknet-ng.network/darknet-ng-14-diy-badge-level-2/
   kind: doc
+  archived: https://web.archive.org/web/20260821062758/https://darknet-ng.network/darknet-ng-14-diy-badge-level-2/
 - label: Darknet-NG 14 DIY Badge Level 3 (build page)
   url: https://darknet-ng.network/darknet-ng-14-diy-badge-level-3/
   kind: doc
+  archived: https://web.archive.org/web/20260821062758/https://darknet-ng.network/darknet-ng-14-diy-badge-level-3/
 images:
 - file: assets/images/badges/dc33/darknet-ng-14-badge-levels-1-2-3/f57d489851.jpg
-  source: "https://darknet-ng.network/badge/"
-  credit: "Darknet-NG Operatives"
-  caption: "Darknet-NG 14 badge build photo"
+  source: https://darknet-ng.network/badge/
+  credit: Darknet-NG Operatives
+  caption: Darknet-NG 14 badge build photo
+  archived: https://web.archive.org/web/20260821062747/https://darknet-ng.network/badge/
 - file: assets/images/badges/dc33/darknet-ng-14-badge-levels-1-2-3/7328d9052f.jpg
-  source: "https://darknet-ng.network/badge/"
-  credit: "Darknet-NG Operatives"
-  caption: "Darknet-NG 14 badge components/build"
+  source: https://darknet-ng.network/badge/
+  credit: Darknet-NG Operatives
+  caption: Darknet-NG 14 badge components/build
+  archived: https://web.archive.org/web/20260821062747/https://darknet-ng.network/badge/
 contact:
   emails:
   - thegaterbyte@gmail.com
@@ -76,14 +81,16 @@ sources:
   updated: 7/31/2025 22:09:34
 - kind: url
   url: https://darknet-ng.network/badge/
-  title: "Darknet-NG 14 Badge: Signal in the Noise"
+  title: 'Darknet-NG 14 Badge: Signal in the Noise'
   accessed: '2026-09-06'
   note: Live site now shows DC34 content; used the 2025-07-18 Wayback Machine snapshot (20250803111808) for the DC33-era text describing all three badge levels.
+  archived: https://web.archive.org/web/20260821062747/https://darknet-ng.network/badge/
 - kind: url
   url: https://darknet-ng.network/darknet-ng-14-diy-badge-level-3/
   title: Darknet-NG 14 DIY Badge Level 3
   accessed: '2026-09-06'
   note: Wayback snapshot (20250803111839) of the Level 3 build/parts page; gave the SX1262/US915 LoRa module, OLED, battery, and GPS parts list. Note the page's body text is a copy-paste of the Level 2 description despite the Level 3 title.
+  archived: https://web.archive.org/web/20260821062758/https://darknet-ng.network/darknet-ng-14-diy-badge-level-3/
 research:
   status: researched
   confidence: medium

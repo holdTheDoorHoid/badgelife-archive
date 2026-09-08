@@ -12,7 +12,7 @@ makers:
 - name: Fri3d Camp
   url: https://fri3d.be/
 summary: The official ESP32-WROVER attendee badge of Fri3d Camp 2022 in Belgium (designed from 2020 for the postponed camp), with a 240x240 ST7789 IPS LCD, LIS2DH12 accelerometer, IR receiver, BadgeLink inter-badge link, a BBC micro:bit V2 edge connector for add-ons, and optional CO2 and temperature/humidity sensor footprints; over 700 units were built and shipped with MicroPython firmware.
-functions: 'Programmable via MicroPython or Arduino; games and demos on the LCD (including a companion "GameOn" joystick/audio add-on originally built for the 2020 prototype badge); BadgeLink lets badges exchange data over a wired inter-badge link; accelerometer-based wake from sleep for battery saving.'
+functions: Programmable via MicroPython or Arduino; games and demos on the LCD (including a companion "GameOn" joystick/audio add-on originally built for the 2020 prototype badge); BadgeLink lets badges exchange data over a wired inter-badge link; accelerometer-based wake from sleep for battery saving.
 look:
   colors:
   - green
@@ -36,13 +36,13 @@ tech:
 get_one:
   price: ''
   price_usd: null
-  quantity: '750+'
+  quantity: 750+
   availability: free
   distribution:
   - free_drop
   where: Given to attendees of Fri3d Camp 2022 as the event's official badge.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/Fri3dCamp/badge-2020
   firmware_url: https://github.com/Fri3dCamp/badge-2020
   eda_tool: null
@@ -61,9 +61,9 @@ links:
   kind: repo
 images:
 - file: assets/images/badges/fri3d-2022/fri3d-badge-2020/b5372ebc64.jpg
-  source: "https://hackaday.io/project/169741-fri3d-2022-badge"
-  credit: "Fri3d Camp"
-  caption: "The production octopus-shaped Fri3d Camp badge, front side, with its 1.54\" IPS LCD and micro:bit-style edge connector"
+  source: https://hackaday.io/project/169741-fri3d-2022-badge
+  credit: Fri3d Camp
+  caption: The production octopus-shaped Fri3d Camp badge, front side, with its 1.54" IPS LCD and micro:bit-style edge connector
 contact: {}
 notes: []
 status: released
@@ -99,6 +99,16 @@ research:
   last_checked: '2026-09-07'
   notes: LED count/type not stated anywhere found (the badge appears to have no addressable LEDs beyond the LCD and possibly status LEDs on the buttons, not confirmed). Exact per-unit price not found; badge was given free to attendees as part of registration/ticket, not separately sold, so price is left blank. Maker team members named on Hackaday (Wim Van Gool, Hans Polders, Bart Cerneels) but the entry keeps "Fri3d Camp" as the maker per the org convention used elsewhere in the archive; individual names noted here for reference.
 last_modified_date: '2026-09-07'
+model:
+  file: assets/models/fri3d-2022/fri3d-badge-2020.glb
+  method: gerber
+  source_file: design/Fri3D_2020_00/OUTPUT/Gerber
+  generated: '2026-09-07'
+  bytes: 53800
+  size_mm:
+  - 420.0
+  - 297.0
+  note: The published files have no board outline, so the model is shown on a rectangular board.
 ---
 
 The Fri3d Badge 2020 is the official electronic badge of Fri3d Camp, a biennial family-friendly hacker/maker festival in Belgium. Despite the name, it was actually worn at Fri3d Camp 2022: the badge was designed and prototyped in 2020 for that year's camp, but the event itself was postponed (COVID-era disruption), so the design carried over and the final production run — REV 03 — shipped to attendees at the rescheduled 2022 camp, held 12-14 August. The board is cut in the shape of an octopus, with a 1.54" 240x240 IPS LCD (ST7789 driver) mounted in the "head" and five tactile buttons along the bottom edge doubling as a BBC micro:bit V2-style edge connector for pin access.
