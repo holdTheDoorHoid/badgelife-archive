@@ -67,7 +67,7 @@ sources:
   accessed: '2026-09-08'
   note: Recorded studio session title confirms the badge and Techmaker's involvement; page content (footer only) yielded no additional detail.
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-08'
   notes: >-

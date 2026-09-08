@@ -677,5 +677,68 @@
   "event": "h2hc-2018",
   "type": "badge",
   "url": "https://security-bits.de/electronics/badges/"
+ },
+ {
+  "title": "Troopers 2023 badge (Shitty Add-On + badge firmware)",
+  "maker": "jeffmakes / Badge.Team",
+  "event": "troopers-2023",
+  "type": "sao/badge",
+  "url": "https://github.com/badgeteam/troopers-2023-firmware"
+ },
+ {
+  "title": "Troopers 24 badge firmware",
+  "maker": "Badge.Team",
+  "event": "troopers-2024 (may not exist yet as an event id)",
+  "type": "badge",
+  "url": "https://github.com/badgeteam/troopers24-firmware"
+ },
+ {
+  "title": "Kernelcon 2020 Hack-Master Badge",
+  "maker": "ZonkSec",
+  "event": "kernelcon-2020",
+  "type": "badge",
+  "url": "https://github.com/ZonkSec/kernelcon-2020-badge"
+ },
+ {
+  "title": "LayerOne 2018 Badge (Mr. Meeseeks)",
+  "maker": "charlie-x",
+  "event": "layerone-2018",
+  "type": "badge",
+  "url": "already present in archive as layerone-2018-layerone-2018-badge-mr-meeseeks; no action needed"
+ },
+ {
+  "title": "Queercon 16 badge",
+  "maker": "duplico (George Louthan)",
+  "event": "queercon-2019",
+  "type": "badge",
+  "url": "https://github.com/duplico/qc16_badge"
+ },
+ {
+  "title": "HITBSecConf2018 Amsterdam Badge",
+  "maker": "Qihoo360 Unicorn Team",
+  "event": "hitb-2018 (Amsterdam)",
+  "type": "badge",
+  "url": "https://badge.gallery/series/hitb"
+ },
+ {
+  "title": "UnicornCUBE/HackCUBE device",
+  "maker": "Qihoo360 Unicorn Team",
+  "event": "hitb-2018",
+  "type": "other",
+  "url": "https://archive.conference.hitb.org/hitbsecconf2018ams/commsec-village/"
+ },
+ {
+  "title": "HITBSecConf2018 Amsterdam Badge",
+  "maker": "Qihoo360 Unicorn Team",
+  "event": "hitb-2018",
+  "type": "already has its own archive entry (hitb-2018-hitbsecconf2018-amsterdam-badge); noted only because it shares a maker/team with this entry, not a new find",
+  "url": ""
+ },
+ {
+  "title": "Simple Solder (2017 learn-to-solder kit)",
+  "maker": "Ruxcon Hardware Hacking Village / darkglade",
+  "event": "ruxcon-2017",
+  "type": "kit",
+  "url": "https://ruxconhhv.darkglade.com/2017/SimpleSolder.pdf"
  }
 ]

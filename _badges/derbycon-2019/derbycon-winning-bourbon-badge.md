@@ -64,10 +64,10 @@ sources:
   accessed: '2026-09-08'
   note: 'Confirmed maker (technick, Lakewood CO), price ($15), materials (3D print + wood base), sold-out status, pickup-only distribution at the final DerbyCon, and the "Winner" theme.'
 research:
-  status: researched
+  status: verified
   confidence: high
   last_checked: '2026-09-08'
-  notes: 'Tindie listing is the only source found; no maker blog, Hackaday, or press coverage turned up. No electronics of any kind are mentioned or shown - purely a 3D-printed/wood physical keepsake, so tech fields are left null rather than guessed. Exact quantity made is not stated.'
+  notes: 'Fact-checked 2026-09-08: re-fetched the Tindie listing and cross-checked with a web search. Every non-empty field and every sentence in the body is directly supported by the listing text ("wood base and highlighted in black", "$15.00", pickup-only, order cutoff before 12:01am MT Sept 3 2019, "Winner" wordplay, technick giving out small runs of printed badges at DEF CON, sold out) and the saved photo, which shows the physical piece and a bottle-neck-shaped silhouette matching look.shape: bottle. No electronics are mentioned or shown, so tech.* stays null. Exact quantity made is still not stated anywhere. A related but distinct listing, "Derbycon Custom Printed Bourbon Badge" by the same maker (technick), turned up in the search - reported separately, not merged into this entry.'
 last_modified_date: '2026-09-08'
 ---
 

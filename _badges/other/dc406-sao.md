@@ -9,10 +9,10 @@ type: sao
 event: other
 year: 2018
 makers:
-- name: "|)3vice Makers |{its"
+- name: '|)3vice Makers |{its'
   url: https://hackaday.io/d3vice
-summary: 'An LED-backlit SAO with a sunrise-over-mountains design, made for the DC406 (Montana) DEF CON group community.'
-functions: 'A single LED lights up behind the mountain artwork to look like a rising sun when powered; the board also carries a simple crypto puzzle.'
+summary: An LED-backlit SAO with a sunrise-over-mountains design, made for the DC406 (Montana) DEF CON group community.
+functions: A single LED lights up behind the mountain artwork to look like a rising sun when powered; the board also carries a simple crypto puzzle.
 look:
   colors: []
   shape: null
@@ -32,7 +32,7 @@ tech:
   battery: powered by host badge
   sao_version: v1
 get_one:
-  price: "$20 (1-19 units), $33 (20+)"
+  price: $20 (1-19 units), $33 (20+)
   price_usd: 20
   quantity: ''
   availability: sold_out
@@ -51,11 +51,12 @@ links:
 - label: tindie.com/products/dMaker/dc406-sao-badgelife-addon
   url: https://www.tindie.com/products/dMaker/dc406-sao-badgelife-addon/
   kind: store
+  archived: https://web.archive.org/web/20260518175632/https://www.tindie.com/products/dMaker/dc406-sao-badgelife-addon/
 images:
 - file: assets/images/badges/other/dc406-sao/11337ff75f.jpg
-  source: "https://hackaday.io/project/160047-dc406-sao"
-  credit: "3vice"
-  caption: "DC406 SAO, a sunrise-over-mountains LED add-on"
+  source: https://hackaday.io/project/160047-dc406-sao
+  credit: 3vice
+  caption: DC406 SAO, a sunrise-over-mountains LED add-on
 contact: {}
 notes: []
 status: released
@@ -69,17 +70,18 @@ sources:
   url: https://hackaday.io/project/160047-dc406-sao
   title: DC406 SAO | Hackaday.io
   accessed: '2026-09-07'
-  note: 'Maker handle, description ("just an LED and a resistor," sunrise-over-mountains theme), posted 2018-07-28, no files published.'
+  note: Maker handle, description ("just an LED and a resistor," sunrise-over-mountains theme), posted 2018-07-28, no files published.
 - kind: url
   url: https://www.tindie.com/products/dMaker/dc406-sao-badgelife-addon/
-  title: DC406 SAO #badgelife addon from |)3vice Makers |{its on Tindie
+  title: DC406 SAO
   accessed: '2026-09-07'
-  note: 'Pricing ($20 for 1-19, $33 for 20+), size (1.75"x1.75"), 2x2 DefCon SAO (v1, 4-pin) interface, 3v3 power, crypto puzzle, listing now sold out/retired, maker based in Belgrade, Montana.'
+  note: Pricing ($20 for 1-19, $33 for 20+), size (1.75"x1.75"), 2x2 DefCon SAO (v1, 4-pin) interface, 3v3 power, crypto puzzle, listing now sold out/retired, maker based in Belgrade, Montana.
+  archived: https://web.archive.org/web/20260518175632/https://www.tindie.com/products/dMaker/dc406-sao-badgelife-addon/
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'DC406 is a local DEF CON group based in Belgrade, Montana (area code 406), not a numbered/dated convention, so there is no matching id in events.yml; left event as "other". Year taken from the Hackaday project post date (2018-07-28). Quantity made is not stated anywhere found. No hardware/firmware files are published.'
+  notes: DC406 is a local DEF CON group based in Belgrade, Montana (area code 406), not a numbered/dated convention, so there is no matching id in events.yml; left event as "other". Year taken from the Hackaday project post date (2018-07-28). Quantity made is not stated anywhere found. No hardware/firmware files are published.
 last_modified_date: '2026-09-07'
 ---
 

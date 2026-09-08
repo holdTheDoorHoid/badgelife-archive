@@ -65,10 +65,10 @@ sources:
   accessed: '2026-09-08'
   note: 'Confirms maker (ZonkSec), ESP8266 MCU, watch form factor, deauther-derived Wi-Fi firmware, Arduino IDE build steps; no schematic/BOM/photos in repo.'
 research:
-  status: researched
+  status: verified
   confidence: medium
   last_checked: '2026-09-08'
-  notes: 'Confirmed as a real, released item via the maker''s own GitHub repo and badge.gallery listing. No maker-published photo of the physical badge was found (repo only contains a screenshot of Arduino IDE settings, not the item), so images were left empty. Price, quantity, LEDs, and display are undocumented in the available sources. ZonkSec is Tyler Rosonke, per this maker''s other Kernelcon badge entries (2019-2026), though this specific repo does not name him directly.'
+  notes: 'Fact-check pass (2026-09-08): re-fetched both cited sources (badge.gallery listing and the ZonkSec/kernelcon-2022-badge GitHub repo) and confirmed maker, ESP8266 MCU, watch form factor, wifi.h/Arduino IDE/ArduinoJson build steps, SpacehuhnTech deauther lineage, and the absence of schematic/BOM/Gerbers/photos in the repo, matching the entry. Independently verified the March 30-April 2, 2022, Omaha dates via a web search (badge.gallery/events/kernelcon-2022, Bellevue University cybersecurity blog, and Kernelcon''s own YouTube promo, which also calls it a "smartwatch badge"). No image exists locally or on either source page, consistent with images: []. ZonkSec = Tyler Rosonke is corroborated by the maker''s other Kernelcon entries in this archive (2019, 2020, 2025), which cite the same GitHub org/badge site for that identification; this specific repo does not name him. Price, quantity, LEDs, display, battery, sao_version, colors, and shape remain undocumented in any source found and are left empty, as is correct. No contradictions found.'
 last_modified_date: '2026-09-08'
 ---
 

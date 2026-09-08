@@ -43,9 +43,7 @@ links:
 images: []
 contact: {}
 notes:
-- The repository has no README, description, or topics on GitHub, and no other page
-  (GitHub profile, personal blog at foxmoss.com, web search) mentions this project
-  or any physical badge.
+- The repository has no README, description, or topics on GitHub, and no other page (GitHub profile, personal blog at foxmoss.com, web search) mentions this project or any physical badge.
 status: unknown
 sources:
 - kind: url
@@ -55,31 +53,20 @@ sources:
   note: 'Found by the archive''s discovery sweep (angle: github-topics); event read as ''unknown''.'
 - kind: url
   url: https://github.com/FoxMoss/CustomDefconBadge
-  title: 'FoxMoss/CustomDefconBadge (repo contents and commit history)'
+  title: FoxMoss/CustomDefconBadge (repo contents and commit history)
   accessed: '2026-09-07'
-  note: Confirmed the repo has no README/description/topics; contains only a single
-    "init" commit (Aug 2025) adding Badge.gbsproj (a GB Studio game project file)
-    plus empty assets/build/plugins folders. No images, no hardware details.
+  note: Confirmed the repo has no README/description/topics; contains only a single "init" commit (Aug 2025) adding Badge.gbsproj (a GB Studio game project file) plus empty assets/build/plugins folders. No images, no hardware details.
 - kind: url
   url: https://foxmoss.com/blog/
   title: Fox Ellison-Taylor's Blog
   accessed: '2026-09-07'
   note: Maker's personal blog; no post mentions this project or a DEF CON badge.
+  archived: https://web.archive.org/web/20260627203053/https://foxmoss.com/blog/
 research:
   status: verified
   confidence: low
   last_checked: '2026-09-07'
-  notes: Fact-check pass (2026-09-07) confirmed every cited source directly. GitHub
-    API on the repo (repos/FoxMoss/CustomDefconBadge) shows description=null,
-    topics=[]; the commits endpoint shows a single "init" commit (2025-08-07) by
-    FoxMoss; the contents endpoint shows only Badge.gbsproj plus empty assets/,
-    build/, and plugins/ folders. foxmoss.com/blog and github.com/FoxMoss were
-    refetched and contain no mention of a DEF CON badge or this repo. No images
-    exist for this entry and none are cited. Could not confirm this is an actual
-    physical badge, and if so which chip, display, DEF CON year, or how (or
-    whether) it was distributed — nothing beyond the repo name and file supports
-    that. All hardware fields correctly left empty rather than guessed. Event kept
-    as "other" since no specific con/year could be verified.
+  notes: Fact-check pass (2026-09-07) confirmed every cited source directly. GitHub API on the repo (repos/FoxMoss/CustomDefconBadge) shows description=null, topics=[]; the commits endpoint shows a single "init" commit (2025-08-07) by FoxMoss; the contents endpoint shows only Badge.gbsproj plus empty assets/, build/, and plugins/ folders. foxmoss.com/blog and github.com/FoxMoss were refetched and contain no mention of a DEF CON badge or this repo. No images exist for this entry and none are cited. Could not confirm this is an actual physical badge, and if so which chip, display, DEF CON year, or how (or whether) it was distributed — nothing beyond the repo name and file supports that. All hardware fields correctly left empty rather than guessed. Event kept as "other" since no specific con/year could be verified.
 last_modified_date: '2026-09-07'
 ---
 

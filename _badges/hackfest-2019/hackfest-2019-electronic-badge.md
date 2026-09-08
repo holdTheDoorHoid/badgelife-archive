@@ -69,7 +69,7 @@ sources:
   accessed: '2026-09-08'
   note: Official 2019 CTF recap listing "Hardware Badge" as one of the challenge categories; no further detail.
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-08'
   notes: 'Confirmed real via Hackfest''s own history page and 2019 CTF recap, both of which mention the electronic badge only in passing. No schematic, PCB, BOM, firmware, chip, LED, display, price, or quantity information was found anywhere. No image of the badge itself was located.'

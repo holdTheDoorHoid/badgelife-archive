@@ -5,7 +5,7 @@ parent: Badge Archive
 has_children: true
 has_toc: false
 nav_order: 7978
-nav_exclude: false
+nav_exclude: true
 event: texas-cyber-summit-2022
 ---
 # Texas Cyber Summit 2022

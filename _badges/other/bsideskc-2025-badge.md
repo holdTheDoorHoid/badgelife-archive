@@ -41,14 +41,15 @@ links:
 - label: blog.badgepirates.com/BSidesKC-Badge-Shipping-Update
   url: https://blog.badgepirates.com/BSidesKC-Badge-Shipping-Update/
   kind: website
+  archived: https://web.archive.org/web/20250917022414/https://blog.badgepirates.com/BSidesKC-Badge-Shipping-Update/
 - label: badgepirates.com (portfolio)
   url: https://badgepirates.com
   kind: website
 images:
 - file: assets/images/badges/other/bsideskc-2025-badge/d9e613be3b.jpg
-  source: "https://badgepirates.com"
-  credit: "BadgePirates"
-  caption: "BSidesKC 2025 badge"
+  source: https://badgepirates.com
+  credit: BadgePirates
+  caption: BSidesKC 2025 badge
 contact: {}
 notes:
 - Spotted by a research agent while working on a neighbouring entry.
@@ -59,11 +60,13 @@ sources:
   title: BSidesKC 2025 badge
   accessed: '2026-09-07'
   note: 'Found by the archive''s discovery sweep (angle: sheet-research-spotted); event read as ''bsideskc (2025)''.'
+  archived: https://web.archive.org/web/20250917022414/https://blog.badgepirates.com/BSidesKC-Badge-Shipping-Update/
 - kind: url
   url: https://blog.badgepirates.com/BSidesKC-Badge-Shipping-Update/
   title: BSidesKC Badge Shipping Update
   accessed: '2026-09-07'
   note: Confirms maker (BadgePirates) and that badges were held up at U.S. Customs; describes distribution as local pickup at SecKC/BSidesDSM or mail shipping once cleared. No technical specs, price, or quantity given.
+  archived: https://web.archive.org/web/20250917022414/https://blog.badgepirates.com/BSidesKC-Badge-Shipping-Update/
 - kind: url
   url: https://badgepirates.com
   title: Badge Pirates portfolio site
@@ -73,21 +76,8 @@ research:
   status: verified
   confidence: low
   last_checked: '2026-09-07'
-  notes: >-
-    Fact-check pass (2026-09-07): both cited sources were re-fetched and support every
-    non-empty field and sentence in this entry — the shipping-update blog post confirms the
-    maker, the BSidesKC 2025 customs delay, and the SecKC/BSidesDSM pickup or mail-shipping
-    options; the portfolio site confirms the badge's existence, its photo, and the run of
-    BSidesKC badges from 2018-2025. The saved image byte-matches badgepirates.com's own
-    BSideKC25.jpg. A GitHub search independently confirmed the org (BadgePiratesLLC) has
-    repos for BSidesKC 2018-2024 but none for 2025, and 'bsideskc' does not appear in
-    _data/events.yml, so 'other' stays correct. Confidence remains low only because the two
-    sources genuinely say nothing about functions, MCU, LEDs, display, price, or quantity —
-    not because anything here is in doubt. Note for a future pass: the recovered photo itself
-    shows a color LCD (rendering a "Kansas City BSIDES 2025" badge logo), a 6-pin header
-    resembling an SAO port, and a lit green LED, none of which are described in text by either
-    source, so tech fields were left blank per the no-invention rule rather than inferred from
-    the image.
+  notes: 'Fact-check pass (2026-09-07): both cited sources were re-fetched and support every non-empty field and sentence in this entry — the shipping-update blog post confirms the maker, the BSidesKC 2025 customs delay, and the SecKC/BSidesDSM pickup or mail-shipping options; the portfolio site confirms the badge''s existence, its photo, and the run of BSidesKC badges from 2018-2025. The saved image byte-matches badgepirates.com''s own BSideKC25.jpg. A GitHub search independently confirmed the org (BadgePiratesLLC) has repos for BSidesKC 2018-2024 but none for 2025, and ''bsideskc'' does not appear in _data/events.yml, so ''other'' stays correct. Confidence remains low only because the two sources genuinely say nothing about functions, MCU, LEDs, display, price, or quantity — not because anything here is in doubt. Note for a future pass: the recovered photo itself shows a color LCD (rendering a "Kansas City BSIDES 2025" badge logo), a 6-pin header resembling an SAO port, and a lit green
+    LED, none of which are described in text by either source, so tech fields were left blank per the no-invention rule rather than inferred from the image.'
 last_modified_date: '2026-09-07'
 ---
 

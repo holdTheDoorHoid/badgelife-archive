@@ -61,10 +61,10 @@ sources:
   accessed: '2026-09-08'
   note: 'Primary source confirming the special-edition electronic badge and Badge Village reprogramming activity; no technical specs, images, maker credit beyond HITB, or pricing/quantity given.'
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-08'
-  notes: 'Confirmed as a real item via both badge.gallery and the official HITB conference archive page, which independently describe the same special-edition electronic badge and Badge Village reprogramming activity. However, no primary source discloses the MCU, LEDs, display, connectivity, price, production quantity, or a specific designer/maker beyond Hack In The Box itself as event organizer. badge.gallery states no photo could be paired with a reusable license, and none was found elsewhere. No design files or firmware repo located.'
+  notes: 'Fact-checked by re-fetching both cited sources. badge.gallery and the official HITB conference archive (archive.conference.hitb.org/hitbsecconf2019ams) both independently confirm: a special-edition electronic badge for the 10th-anniversary HITBSecConf2019 Amsterdam, reprogrammable/hackable via the on-site Badge Village to unlock secret features and challenges, conference dates 6-10 May 2019 at DoubleTree by Hilton / Beurs van Berlage, and no maker/designer credit beyond Hack In The Box as organizer. Neither source discloses MCU, LEDs, display, connectivity, price, production quantity, or design files, and no licensable photo exists on badge.gallery, consistent with all those fields being left empty. Confidence kept low given the thin technical record.'
 last_modified_date: '2026-09-08'
 ---
 

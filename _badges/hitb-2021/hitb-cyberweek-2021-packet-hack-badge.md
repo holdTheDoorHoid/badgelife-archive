@@ -23,7 +23,7 @@ look:
   - village badge
   - security
 tech:
-  mcu: AVR
+  mcu: ATmega32
   leds: null
   display: OLED
   connectivity:
@@ -39,7 +39,7 @@ get_one:
   - village
   where: Distributed at the Packet Hack Village, HITB+CyberWeek 2021, Abu Dhabi (Nov 21-25, 2021).
 make_your_own:
-  open_source: yes
+  open_source: partial
   hardware_url: null
   firmware_url: https://github.com/lanrat/PacketHackVillageHitBBadge2021
   eda_tool: null
@@ -83,10 +83,10 @@ sources:
   accessed: '2026-09-08'
   note: Public firmware repo (AVR, avrdude, oled.h) confirming open-source firmware and providing a badge photo.
 research:
-  status: researched
+  status: verified
   confidence: medium
   last_checked: '2026-09-08'
-  notes: Confirmed as a real, distributed badge for the Packet Hack Village at HITB+CyberWeek 2021 Abu Dhabi via the maker's Hackster page and firmware repo. Price, quantity made, and PCB colors were not stated in any source found and are left empty. Hardware design files (Gerbers/schematic) were not located, only firmware; open_source is marked "yes" on the strength of the published firmware, but no hardware repo was found. Exact AVR part number not confirmed.
+  notes: "Fact-check pass (2026-09-08) verified the entry against its own cited sources and the firmware repo's file listing. Corrections made - two fields were wrong per the guide's own rules, not contradicted facts. tech.mcu was the generic \"AVR\" though the repo's own Makefile states \"MCU = atmega32\", so this is now ATmega32. make_your_own.open_source was \"yes\" but the guide requires both hardware and firmware published for \"yes\" - only firmware was found (no Gerbers/schematic), so this is now \"partial\". Independently confirmed via the repo's source (badge.c, phv_ctf.h) - OLED display driven over TWI, S1/S2 switches, binary-entry keys wired to PA0/PA1 (1/0), CTF code-entry routine, and handle/logo display on boot - matching the body and functions text. The event's Nov 21-25 2021 Abu Dhabi dates were independently corroborated via press coverage (securitymea.com, mediaoffice.abudhabi) since the cited HITB news article blocks automated fetches; the article's existence and topic were confirmed via a site index page. The saved badge photo was cross-checked and clearly shows the HITB+CyberWeek 2021 branding, OLED, and S1/S2 buttons described. Price, quantity made, and PCB colors remain unstated in any source found. Exact AVR part is now confirmed as ATmega32 from the maker's own Makefile."
 last_modified_date: '2026-09-08'
 ---
 
