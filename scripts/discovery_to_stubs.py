@@ -47,12 +47,22 @@ def slugify(s):
     s = re.sub(r"^(def-?con-?|dc-?)(\d{2})-", "", s)
     return re.sub(r"-{2,}", "-", s)[:60].strip("-") or "untitled"
 
+KNOWN_CONS_PATH = os.path.join(ROOT, "data", "sweep_cons.json")
+KNOWN_CONS = json.load(open(KNOWN_CONS_PATH)) if os.path.exists(KNOWN_CONS_PATH) else {}
+
 def resolve_event(hint, year, events, new_events):
-    h = (hint or "").lower()
+    h = (hint or "").lower().strip()
+    if h in events: return h  # agents may hand back an exact event id
     m = re.search(CON_FAMILIES[0][0], h)
     if m:
         n = int(m.group(2))
-        if 24 <= n <= 40: return f"dc{n}"
+        if 14 <= n <= 40: return ensure(events, new_events, f"dc{n}", f"DEF CON {n}", 1992 + n, "defcon", "Las Vegas, NV")
+    # cons authorised by the sweep plan (data/sweep_cons.json): "<Con name> <year>" -> <base>-<year>
+    ym = re.search(r"\b(20\d\d)\b", h)
+    yr = int(ym.group(1)) if ym else (year if year and 2000 <= int(year) <= 2030 else None)
+    for name, c in sorted(KNOWN_CONS.items(), key=lambda kv: -len(kv[0])):
+        if re.search(r"(?<![a-z0-9])" + re.escape(name) + r"(?![a-z0-9])", h) and yr and c["base"] not in ("bsides",):
+            return ensure(events, new_events, f"{c['base']}-{yr}", f"{name_pretty(name)} {yr}", yr, c["family"], c.get("location", ""))
     m = re.search(CON_FAMILIES[1][0], h)
     if m: return ensure(events, new_events, f"supercon-{m.group(1)}", f"Hackaday Supercon {m.group(1)}", int(m.group(1)), "supercon", "Pasadena, CA")
     m = re.search(CON_FAMILIES[2][0], h)
@@ -80,6 +90,19 @@ def resolve_event(hint, year, events, new_events):
         n = year - 1992
         if 24 <= n <= 40: return f"dc{n}"
     return "other"
+
+def name_pretty(n):
+    fixed = {"def con": "DEF CON", "hackaday supercon": "Hackaday Supercon", "supercon": "Hackaday Supercon", "emf camp": "EMF Camp", "electromagnetic field": "EMF Camp",
+             "cccamp": "Chaos Communication Camp", "hitb": "HITB", "poc": "POC", "avtokyo": "AVTokyo", "hope": "HOPE", "har": "HAR", "ohm": "OHM", "sha": "SHA", "mch": "MCH", "why": "WHY",
+             "mrmcd": "MRMCD", "gpn": "GPN", "oshwdem": "OSHWDem", "saintcon": "SAINTCON", "thotcon": "THOTCON", "cyphercon": "CypherCon", "carolinacon": "CarolinaCon", "northsec": "NorthSec",
+             "shmoocon": "ShmooCon", "bornhack": "BornHack", "hackerhotel": "HackerHotel", "campzone": "CampZone", "fri3d camp": "Fri3d Camp", "fri3d": "Fri3d Camp", "layerone": "LayerOne",
+             "shellcon": "ShellCon", "cactuscon": "CactusCon", "derbycon": "DerbyCon", "grrcon": "GrrCON", "circlecitycon": "CircleCityCon", "kernelcon": "Kernelcon", "dakotacon": "DakotaCon",
+             "toorcon": "ToorCon", "toorcamp": "ToorCamp", "hushcon": "HushCon", "rvasec": "RVAsec", "kiwicon": "Kiwicon", "crikeycon": "CrikeyCon", "ruxcon": "Ruxcon", "brucon": "BruCON",
+             "hack.lu": "Hack.lu", "lehack": "leHACK", "44con": "44CON", "steelcon": "SteelCon", "securi-tay": "Securi-Tay", "balccon": "BalCCon", "hitcon": "HITCON", "h2hc": "H2HC", "rootedcon": "RootedCON",
+             "h-c0n": "h-c0n", "phdays": "PHDays", "zeronights": "ZeroNights", "offzone": "OFFZONE", "sector": "SecTor", "nolacon": "NolaCon", "pancakescon": "PancakesCon", "sec-t": "Sec-T", "t2": "T2"}
+    if n in fixed: return fixed[n]
+    if n.startswith("dc") and n[2:].isdigit(): return n.upper()
+    return " ".join(w if w.isupper() else w.capitalize() for w in n.split()).replace("Bsides", "BSides")
 
 def ensure(events, new_events, eid, name, year, family, location):
     eid = re.sub(r"[^a-z0-9-]", "-", eid.lower()).strip("-")

@@ -1,0 +1,732 @@
+{
+ "def con": {
+  "base": "dc",
+  "family": "defcon",
+  "location": "Las Vegas, NV"
+ },
+ "hackaday supercon": {
+  "base": "supercon",
+  "family": "supercon",
+  "location": "Pasadena, CA"
+ },
+ "supercon": {
+  "base": "supercon",
+  "family": "supercon",
+  "location": "Pasadena, CA"
+ },
+ "hackaday europe": {
+  "base": "hackaday-europe",
+  "family": "supercon",
+  "location": "Berlin, Germany"
+ },
+ "hackaday berlin": {
+  "base": "hackaday-berlin",
+  "family": "supercon",
+  "location": "Berlin, Germany"
+ },
+ "hackaday belgrade": {
+  "base": "hackaday-belgrade",
+  "family": "supercon",
+  "location": "Belgrade, Serbia"
+ },
+ "saintcon": {
+  "base": "saintcon",
+  "family": "other",
+  "location": "Utah"
+ },
+ "bornhack": {
+  "base": "bornhack",
+  "family": "camp",
+  "location": "Denmark"
+ },
+ "emf camp": {
+  "base": "emf-camp",
+  "family": "camp",
+  "location": "Eastnor, UK"
+ },
+ "electromagnetic field": {
+  "base": "emf-camp",
+  "family": "camp",
+  "location": "Eastnor, UK"
+ },
+ "chaos communication camp": {
+  "base": "cccamp",
+  "family": "camp",
+  "location": "Mildenberg, Germany"
+ },
+ "cccamp": {
+  "base": "cccamp",
+  "family": "camp",
+  "location": "Mildenberg, Germany"
+ },
+ "chaos communication congress": {
+  "base": "ccc-congress",
+  "family": "camp",
+  "location": "Germany"
+ },
+ "gpn": {
+  "base": "gpn",
+  "family": "camp",
+  "location": "Karlsruhe, Germany"
+ },
+ "easterhegg": {
+  "base": "easterhegg",
+  "family": "camp",
+  "location": "Germany"
+ },
+ "mrmcd": {
+  "base": "mrmcd",
+  "family": "camp",
+  "location": "Darmstadt, Germany"
+ },
+ "har": {
+  "base": "har",
+  "family": "camp",
+  "location": "Vierhouten, NL"
+ },
+ "ohm": {
+  "base": "ohm",
+  "family": "camp",
+  "location": "Geestmerambacht, NL"
+ },
+ "sha": {
+  "base": "sha",
+  "family": "camp",
+  "location": "Zeewolde, NL"
+ },
+ "mch": {
+  "base": "mch",
+  "family": "camp",
+  "location": "Zeewolde, NL"
+ },
+ "why": {
+  "base": "why",
+  "family": "camp",
+  "location": "Biddinghuizen, NL"
+ },
+ "campzone": {
+  "base": "campzone",
+  "family": "camp",
+  "location": "Netherlands"
+ },
+ "hackerhotel": {
+  "base": "hackerhotel",
+  "family": "camp",
+  "location": "Netherlands"
+ },
+ "fri3d camp": {
+  "base": "fri3d",
+  "family": "camp",
+  "location": "Belgium"
+ },
+ "fri3d": {
+  "base": "fri3d",
+  "family": "camp",
+  "location": "Belgium"
+ },
+ "thotcon": {
+  "base": "thotcon",
+  "family": "other",
+  "location": "Chicago, IL"
+ },
+ "cyphercon": {
+  "base": "cyphercon",
+  "family": "other",
+  "location": "Milwaukee, WI"
+ },
+ "carolinacon": {
+  "base": "carolinacon",
+  "family": "other",
+  "location": "North Carolina"
+ },
+ "northsec": {
+  "base": "northsec",
+  "family": "other",
+  "location": "Montreal, QC"
+ },
+ "queercon": {
+  "base": "queercon",
+  "family": "other",
+  "location": "Las Vegas, NV"
+ },
+ "tiaracon": {
+  "base": "tiaracon",
+  "family": "other",
+  "location": "Las Vegas, NV"
+ },
+ "shmoocon": {
+  "base": "shmoocon",
+  "family": "other",
+  "location": "Washington, DC"
+ },
+ "hope": {
+  "base": "hope",
+  "family": "other",
+  "location": "New York, NY"
+ },
+ "oshwdem": {
+  "base": "oshwdem",
+  "family": "other",
+  "location": "A Coruña, Spain"
+ },
+ "bsides cape town": {
+  "base": "bsides-cape-town",
+  "family": "bsides",
+  "location": ""
+ },
+ "bsides orlando": {
+  "base": "bsides-orlando",
+  "family": "bsides",
+  "location": ""
+ },
+ "bsides jacksonville": {
+  "base": "bsides-jacksonville",
+  "family": "bsides",
+  "location": ""
+ },
+ "bsides rochester": {
+  "base": "bsides-rochester",
+  "family": "bsides",
+  "location": ""
+ },
+ "bsides iowa": {
+  "base": "bsides-iowa",
+  "family": "bsides",
+  "location": ""
+ },
+ "bsides dfw": {
+  "base": "bsidesdfw",
+  "family": "bsides",
+  "location": ""
+ },
+ "bsides adelaide": {
+  "base": "bsides-adelaide",
+  "family": "bsides",
+  "location": ""
+ },
+ "bsides puerto rico": {
+  "base": "bsidespr",
+  "family": "bsides",
+  "location": ""
+ },
+ "bsides salt lake city": {
+  "base": "bsides-slc",
+  "family": "bsides",
+  "location": ""
+ },
+ "bsides san diego": {
+  "base": "bsides-san-diego",
+  "family": "bsides",
+  "location": ""
+ },
+ "bsides tallinn": {
+  "base": "bsides-tallinn",
+  "family": "bsides",
+  "location": ""
+ },
+ "bsides las vegas": {
+  "base": "bsides-las-vegas",
+  "family": "bsides",
+  "location": ""
+ },
+ "bsides san francisco": {
+  "base": "bsides-san-francisco",
+  "family": "bsides",
+  "location": ""
+ },
+ "bsides seattle": {
+  "base": "bsides-seattle",
+  "family": "bsides",
+  "location": ""
+ },
+ "bsides canberra": {
+  "base": "bsides-canberra",
+  "family": "bsides",
+  "location": ""
+ },
+ "bsides melbourne": {
+  "base": "bsides-melbourne",
+  "family": "bsides",
+  "location": ""
+ },
+ "bsides perth": {
+  "base": "bsides-perth",
+  "family": "bsides",
+  "location": ""
+ },
+ "bsides philadelphia": {
+  "base": "bsides-philadelphia",
+  "family": "bsides",
+  "location": ""
+ },
+ "bsides delaware": {
+  "base": "bsides-delaware",
+  "family": "bsides",
+  "location": ""
+ },
+ "bsides charm": {
+  "base": "bsides-charm",
+  "family": "bsides",
+  "location": ""
+ },
+ "bsides portland": {
+  "base": "bsides-portland",
+  "family": "bsides",
+  "location": ""
+ },
+ "bsides denver": {
+  "base": "bsides-denver",
+  "family": "bsides",
+  "location": ""
+ },
+ "bsides boise": {
+  "base": "bsides-boise",
+  "family": "bsides",
+  "location": ""
+ },
+ "bsides augusta": {
+  "base": "bsides-augusta",
+  "family": "bsides",
+  "location": ""
+ },
+ "bsides tampa": {
+  "base": "bsides-tampa",
+  "family": "bsides",
+  "location": ""
+ },
+ "bsides nashville": {
+  "base": "bsides-nashville",
+  "family": "bsides",
+  "location": ""
+ },
+ "bsides huntsville": {
+  "base": "bsides-huntsville",
+  "family": "bsides",
+  "location": ""
+ },
+ "bsides atlanta": {
+  "base": "bsides-atlanta",
+  "family": "bsides",
+  "location": ""
+ },
+ "bsides charleston": {
+  "base": "bsides-charleston",
+  "family": "bsides",
+  "location": ""
+ },
+ "bsides boston": {
+  "base": "bsides-boston",
+  "family": "bsides",
+  "location": ""
+ },
+ "bsides nova": {
+  "base": "bsides-nova",
+  "family": "bsides",
+  "location": ""
+ },
+ "bsides ottawa": {
+  "base": "bsides-ottawa",
+  "family": "bsides",
+  "location": ""
+ },
+ "bsides kansas city": {
+  "base": "bsides-kansas-city",
+  "family": "bsides",
+  "location": ""
+ },
+ "bsides cleveland": {
+  "base": "bsides-cleveland",
+  "family": "bsides",
+  "location": ""
+ },
+ "bsides columbus": {
+  "base": "bsides-columbus",
+  "family": "bsides",
+  "location": ""
+ },
+ "bsides detroit": {
+  "base": "bsides-detroit",
+  "family": "bsides",
+  "location": ""
+ },
+ "bsides chicago": {
+  "base": "bsides-chicago",
+  "family": "bsides",
+  "location": ""
+ },
+ "bsides vancouver": {
+  "base": "bsides-vancouver",
+  "family": "bsides",
+  "location": ""
+ },
+ "bsides london": {
+  "base": "bsides-london",
+  "family": "bsides",
+  "location": ""
+ },
+ "bsides manchester": {
+  "base": "bsides-manchester",
+  "family": "bsides",
+  "location": ""
+ },
+ "bsides munich": {
+  "base": "bsides-munich",
+  "family": "bsides",
+  "location": ""
+ },
+ "bsides singapore": {
+  "base": "bsides-singapore",
+  "family": "bsides",
+  "location": ""
+ },
+ "bsides tokyo": {
+  "base": "bsides-tokyo",
+  "family": "bsides",
+  "location": ""
+ },
+ "bsides dublin": {
+  "base": "bsides-dublin",
+  "family": "bsides",
+  "location": ""
+ },
+ "layerone": {
+  "base": "layerone",
+  "family": "other",
+  "location": "Los Angeles, CA"
+ },
+ "shellcon": {
+  "base": "shellcon",
+  "family": "other",
+  "location": "Los Angeles, CA"
+ },
+ "cactuscon": {
+  "base": "cactuscon",
+  "family": "other",
+  "location": "Arizona"
+ },
+ "derbycon": {
+  "base": "derbycon",
+  "family": "other",
+  "location": "Louisville, KY"
+ },
+ "grrcon": {
+  "base": "grrcon",
+  "family": "other",
+  "location": "Grand Rapids, MI"
+ },
+ "circlecitycon": {
+  "base": "circlecitycon",
+  "family": "other",
+  "location": "Indianapolis, IN"
+ },
+ "kernelcon": {
+  "base": "kernelcon",
+  "family": "other",
+  "location": "Omaha, NE"
+ },
+ "wild west hackin' fest": {
+  "base": "wild-west-hackin-fest",
+  "family": "other",
+  "location": "Deadwood, SD"
+ },
+ "dakotacon": {
+  "base": "dakotacon",
+  "family": "other",
+  "location": "Madison, SD"
+ },
+ "toorcon": {
+  "base": "toorcon",
+  "family": "other",
+  "location": "San Diego, CA"
+ },
+ "toorcamp": {
+  "base": "toorcamp",
+  "family": "other",
+  "location": "Washington"
+ },
+ "hushcon": {
+  "base": "hushcon",
+  "family": "other",
+  "location": "Seattle, WA"
+ },
+ "blue team con": {
+  "base": "blue-team-con",
+  "family": "other",
+  "location": "Chicago, IL"
+ },
+ "hackers teaching hackers": {
+  "base": "hackers-teaching-hackers",
+  "family": "other",
+  "location": "Columbus, OH"
+ },
+ "texas cyber summit": {
+  "base": "texas-cyber-summit",
+  "family": "other",
+  "location": "Texas"
+ },
+ "rvasec": {
+  "base": "rvasec",
+  "family": "other",
+  "location": "Richmond, VA"
+ },
+ "hack red con": {
+  "base": "hack-red-con",
+  "family": "other",
+  "location": "Louisville, KY"
+ },
+ "hack west": {
+  "base": "hack-west",
+  "family": "other",
+  "location": ""
+ },
+ "dc801": {
+  "base": "dc801",
+  "family": "other",
+  "location": "Salt Lake City, UT"
+ },
+ "dc540": {
+  "base": "dc540",
+  "family": "other",
+  "location": "Baltimore, MD"
+ },
+ "dc503": {
+  "base": "dc503",
+  "family": "other",
+  "location": "Portland, OR"
+ },
+ "dc303": {
+  "base": "dc303",
+  "family": "other",
+  "location": "Denver, CO"
+ },
+ "dc404": {
+  "base": "dc404",
+  "family": "other",
+  "location": "Atlanta, GA"
+ },
+ "dc858": {
+  "base": "dc858",
+  "family": "other",
+  "location": "San Diego, CA"
+ },
+ "dc406": {
+  "base": "dc406",
+  "family": "other",
+  "location": "Montana"
+ },
+ "dc612": {
+  "base": "dc612",
+  "family": "other",
+  "location": "Minneapolis, MN"
+ },
+ "dc414": {
+  "base": "dc414",
+  "family": "other",
+  "location": "Milwaukee, WI"
+ },
+ "dc416": {
+  "base": "dc416",
+  "family": "other",
+  "location": "Toronto, ON"
+ },
+ "def con china": {
+  "base": "def-con-china",
+  "family": "other",
+  "location": "Beijing, China"
+ },
+ "kiwicon": {
+  "base": "kiwicon",
+  "family": "other",
+  "location": "Wellington, NZ"
+ },
+ "crikeycon": {
+  "base": "crikeycon",
+  "family": "other",
+  "location": "Brisbane, AU"
+ },
+ "ruxcon": {
+  "base": "ruxcon",
+  "family": "other",
+  "location": "Melbourne, AU"
+ },
+ "troopers": {
+  "base": "troopers",
+  "family": "other",
+  "location": "Heidelberg, Germany"
+ },
+ "hitb": {
+  "base": "hitb",
+  "family": "other",
+  "location": "Amsterdam, NL"
+ },
+ "nullcon": {
+  "base": "nullcon",
+  "family": "other",
+  "location": "Goa, India"
+ },
+ "disobey": {
+  "base": "disobey",
+  "family": "other",
+  "location": "Helsinki, Finland"
+ },
+ "sec-t": {
+  "base": "sec-t",
+  "family": "other",
+  "location": "Stockholm, Sweden"
+ },
+ "t2": {
+  "base": "t2",
+  "family": "other",
+  "location": "Helsinki, Finland"
+ },
+ "brucon": {
+  "base": "brucon",
+  "family": "other",
+  "location": "Belgium"
+ },
+ "hack.lu": {
+  "base": "hack-lu",
+  "family": "other",
+  "location": "Luxembourg"
+ },
+ "lehack": {
+  "base": "lehack",
+  "family": "other",
+  "location": "Paris, France"
+ },
+ "44con": {
+  "base": "44con",
+  "family": "other",
+  "location": "London, UK"
+ },
+ "steelcon": {
+  "base": "steelcon",
+  "family": "other",
+  "location": "Sheffield, UK"
+ },
+ "securi-tay": {
+  "base": "securi-tay",
+  "family": "other",
+  "location": "Dundee, UK"
+ },
+ "balccon": {
+  "base": "balccon",
+  "family": "other",
+  "location": "Novi Sad, Serbia"
+ },
+ "hacktivity": {
+  "base": "hacktivity",
+  "family": "other",
+  "location": "Budapest, Hungary"
+ },
+ "insomni'hack": {
+  "base": "insomni-hack",
+  "family": "other",
+  "location": "Geneva, Switzerland"
+ },
+ "hitcon": {
+  "base": "hitcon",
+  "family": "other",
+  "location": "Taipei, Taiwan"
+ },
+ "poc": {
+  "base": "poc",
+  "family": "other",
+  "location": "Seoul, Korea"
+ },
+ "avtokyo": {
+  "base": "avtokyo",
+  "family": "other",
+  "location": "Tokyo, Japan"
+ },
+ "ekoparty": {
+  "base": "ekoparty",
+  "family": "other",
+  "location": "Buenos Aires, Argentina"
+ },
+ "h2hc": {
+  "base": "h2hc",
+  "family": "other",
+  "location": "São Paulo, Brazil"
+ },
+ "roadsec": {
+  "base": "roadsec",
+  "family": "other",
+  "location": "Brazil"
+ },
+ "open sauce": {
+  "base": "open-sauce",
+  "family": "other",
+  "location": "San Francisco, CA"
+ },
+ "maker faire": {
+  "base": "maker-faire",
+  "family": "other",
+  "location": ""
+ },
+ "teardown": {
+  "base": "teardown",
+  "family": "other",
+  "location": "Portland, OR"
+ },
+ "navaja negra": {
+  "base": "navaja-negra",
+  "family": "other",
+  "location": "Albacete, Spain"
+ },
+ "rootedcon": {
+  "base": "rootedcon",
+  "family": "other",
+  "location": "Madrid, Spain"
+ },
+ "h-c0n": {
+  "base": "h-c0n",
+  "family": "other",
+  "location": "Madrid, Spain"
+ },
+ "phdays": {
+  "base": "phdays",
+  "family": "other",
+  "location": "Moscow, Russia"
+ },
+ "zeronights": {
+  "base": "zeronights",
+  "family": "other",
+  "location": "Moscow, Russia"
+ },
+ "offzone": {
+  "base": "offzone",
+  "family": "other",
+  "location": "Moscow, Russia"
+ },
+ "hackfest": {
+  "base": "hackfest",
+  "family": "other",
+  "location": "Quebec City, QC"
+ },
+ "sector": {
+  "base": "sector",
+  "family": "other",
+  "location": "Toronto, ON"
+ },
+ "converge": {
+  "base": "converge",
+  "family": "other",
+  "location": "Detroit, MI"
+ },
+ "nolacon": {
+  "base": "nolacon",
+  "family": "other",
+  "location": "New Orleans, LA"
+ },
+ "pancakescon": {
+  "base": "pancakescon",
+  "family": "other",
+  "location": "Online"
+ },
+ "hackers next door": {
+  "base": "hackers-next-door",
+  "family": "other",
+  "location": "New York, NY"
+ }
+}
