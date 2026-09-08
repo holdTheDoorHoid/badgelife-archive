@@ -40,6 +40,7 @@ links:
 - label: Dcmakerscommunity.com
   url: https://Dcmakerscommunity.com
   kind: website
+  archived: https://web.archive.org/web/20260513170012/https://www.dcmakerscommunity.com/
 - label: DC Makers Community (archived, DC33 site)
   url: http://web.archive.org/web/20260513170012/https://www.dcmakerscommunity.com/
   kind: website
@@ -64,31 +65,22 @@ sources:
   title: Dcmakerscommunity.com
   accessed: '2026-09-06'
   note: Live site now returns HTTP 403 (server-level block); could not fetch current content directly.
+  archived: https://web.archive.org/web/20260513170012/https://www.dcmakerscommunity.com/
 - kind: url
   url: http://web.archive.org/web/20260513170012/https://www.dcmakerscommunity.com/
-  title: 'DC Makers Community — Home (Wayback Machine snapshot)'
+  title: DC Makers Community — Home (Wayback Machine snapshot)
   accessed: '2026-09-06'
-  note: 'Confirms the group is a community makerspace/village (badges, stickers, 3D printing, laser cutting) that ran craft tables and workshops at DEF CON 33, including a Saturday session "Building the Maker''s Community Badge" (15:00-17:00) and a "Badge & Circuit Repair" table. Contact DCMakersCommunity@proton.me.'
+  note: Confirms the group is a community makerspace/village (badges, stickers, 3D printing, laser cutting) that ran craft tables and workshops at DEF CON 33, including a Saturday session "Building the Maker's Community Badge" (15:00-17:00) and a "Badge & Circuit Repair" table. Contact DCMakersCommunity@proton.me.
 - kind: url
   url: http://web.archive.org/web/20260314162949/http://dcmakerscommunity.com/page3.html
-  title: 'DC Makers Community — Projects and Makers (Wayback Machine snapshot)'
+  title: DC Makers Community — Projects and Makers (Wayback Machine snapshot)
   accessed: '2026-09-06'
-  note: 'Community showcase page captions "ZapN''Stuff''s Year 1 Coin" (photo shows a coin with circuit-trace texture reading "Maker''s Community Year 1") and "Aask''s Year One Coin 3D", plus other member projects (hunny''s SA-Faux, Cannibal''s Flipper Zero Cookie Cutters, KBEmbedded & hunny''s Winter Hacker Fest Pin). Page footer links mailto:DCMakersCommunity@proton.me. None of the photos or captions are labeled specifically "DcMc SAO", so this could not be confirmed as the exact item named on the source sheet.'
+  note: Community showcase page captions "ZapN'Stuff's Year 1 Coin" (photo shows a coin with circuit-trace texture reading "Maker's Community Year 1") and "Aask's Year One Coin 3D", plus other member projects (hunny's SA-Faux, Cannibal's Flipper Zero Cookie Cutters, KBEmbedded & hunny's Winter Hacker Fest Pin). Page footer links mailto:DCMakersCommunity@proton.me. None of the photos or captions are labeled specifically "DcMc SAO", so this could not be confirmed as the exact item named on the source sheet.
 research:
   status: verified
   confidence: low
   last_checked: '2026-09-06'
-  notes: >-
-    Fact-checked 2026-09-07 against the two Wayback snapshots (live site still HTTP 403).
-    Confirmed: the group calls itself "Maker's Community"/DC Makers Community, ran craft
-    tables (Hacker Arts & Crafts, Vinyl & Wood Cutting, Textile Customization, Badge &
-    Circuit Repair) and registered workshops Fri-Sun at DEF CON 33, including Saturday
-    1500-1700 "Building the Maker's Community Badge"; contact DCMakersCommunity@proton.me
-    is on the maker's own site. Not found anywhere: a product named "DcMc SAO", its MCU,
-    LEDs, price, quantity, distribution, or source files, so those fields are empty.
-    Title, "Blinkie", price 0, "Designed by Alee" and Thatgirlhunny@proton.me come only
-    from the community sheet. Removed the earlier guesses that it was a kit handed out at
-    workshops and that "Alee" might be the member "Aask"; neither is supported.
+  notes: 'Fact-checked 2026-09-07 against the two Wayback snapshots (live site still HTTP 403). Confirmed: the group calls itself "Maker''s Community"/DC Makers Community, ran craft tables (Hacker Arts & Crafts, Vinyl & Wood Cutting, Textile Customization, Badge & Circuit Repair) and registered workshops Fri-Sun at DEF CON 33, including Saturday 1500-1700 "Building the Maker''s Community Badge"; contact DCMakersCommunity@proton.me is on the maker''s own site. Not found anywhere: a product named "DcMc SAO", its MCU, LEDs, price, quantity, distribution, or source files, so those fields are empty. Title, "Blinkie", price 0, "Designed by Alee" and Thatgirlhunny@proton.me come only from the community sheet. Removed the earlier guesses that it was a kit handed out at workshops and that "Alee" might be the member "Aask"; neither is supported.'
 last_modified_date: '2026-09-07'
 ---
 

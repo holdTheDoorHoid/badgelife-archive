@@ -48,14 +48,15 @@ links:
 - label: dc801.party
   url: https://dc801.party
   kind: website
+  archived: https://web.archive.org/web/20260312044119/https://dc801.party/
 - label: DC801 Tariff Badge (PayPal listing)
   url: https://www.paypal.com/ncp/payment/BC5AKHTEJEN7Q
   kind: store
 images:
 - file: assets/images/badges/dc33/dc801-tariff-badge/80973c0f37.jpg
-  source: "https://www.paypal.com/ncp/payment/BC5AKHTEJEN7Q"
-  credit: "DC801"
-  caption: "Hand-branded wooden DC801 Tariff Badge with a red LED"
+  source: https://www.paypal.com/ncp/payment/BC5AKHTEJEN7Q
+  credit: DC801
+  caption: Hand-branded wooden DC801 Tariff Badge with a red LED
 contact:
   emails:
   - kimber@801labs.org
@@ -69,31 +70,20 @@ sources:
   row: 31
   updated: 7/20/2025 20:58:36
 - kind: url
-  url: "https://www.paypal.com/ncp/payment/BC5AKHTEJEN7Q"
+  url: https://www.paypal.com/ncp/payment/BC5AKHTEJEN7Q
   title: DC801 Tariff Badge - PayPal listing
   accessed: '2026-09-06'
   note: Maker's own product description, price ($50), pickup/shipping logistics, and the only known photo of the badge; retrieved via the page's embedded metadata since the checkout UI itself is JS-rendered.
 - kind: url
-  url: "http://web.archive.org/web/20250809032609/https://dc801.party/"
-  title: "SIGNAL_801 | Underground Frequency (DC801 party site, Aug 2025 snapshot)"
+  url: http://web.archive.org/web/20250809032609/https://dc801.party/
+  title: SIGNAL_801 | Underground Frequency (DC801 party site, Aug 2025 snapshot)
   accessed: '2026-09-06'
   note: Wayback Machine snapshot of dc801.party from Aug 9 2025 (during DEF CON 33); its bundled JS contains the "Support us with a DC801 tariff badge" call-to-action linking to the PayPal listing.
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-06'
-  notes: >-
-    Core facts (what it is, price, maker, distribution) come straight from the maker's own PayPal
-    listing description, which is high-confidence for content but the listing itself is a
-    third-party checkout page rather than a dedicated project/press page, hence "medium" rather
-    than "high". dc801.party is a JS-rendered SPA that render tools could not read directly, so
-    the current live site was accessed only via its 2025 archived JS bundle. No maker's own photo
-    gallery, GitHub repo, Hackaday.io project, or press coverage was found for this specific badge
-    (DC801's GitHub org has repos for several other-year DC801 badges, e.g. BM-Badge, DC25/26/27
-    PartyBadge, but none for the 2025 Tariff Badge). Quantity made and whether it sold out are not
-    stated anywhere found. No MCU is implied by the "No PCB, just blinking lights" description, so
-    tech.mcu is set to "none" and leds.type to "discrete" as the most defensible reading rather than
-    a guess at a specific driver circuit.
+  notes: Core facts (what it is, price, maker, distribution) come straight from the maker's own PayPal listing description, which is high-confidence for content but the listing itself is a third-party checkout page rather than a dedicated project/press page, hence "medium" rather than "high". dc801.party is a JS-rendered SPA that render tools could not read directly, so the current live site was accessed only via its 2025 archived JS bundle. No maker's own photo gallery, GitHub repo, Hackaday.io project, or press coverage was found for this specific badge (DC801's GitHub org has repos for several other-year DC801 badges, e.g. BM-Badge, DC25/26/27 PartyBadge, but none for the 2025 Tariff Badge). Quantity made and whether it sold out are not stated anywhere found. No MCU is implied by the "No PCB, just blinking lights" description, so tech.mcu is set to "none" and leds.type to "discrete" as the most defensible reading rather than a guess at a specific driver circuit.
 last_modified_date: '2026-09-06'
 ---
 

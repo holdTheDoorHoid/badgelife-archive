@@ -37,13 +37,13 @@ make_your_own:
   eda_tool: null
 links:
 - kind: website
-  label: 'DC512 (Austin) meetup group'
+  label: DC512 (Austin) meetup group
   url: https://www.meetup.com/dc512atx/
-  archived: false
+  archived: https://web.archive.org/web/20260908003229/https://www.meetup.com/dc512atx/
 images: []
 contact: {}
 notes:
-- 'DC512 is the DEF CON group meetup community for Austin, TX (meets monthly at Celis Brewery). The community sheet lists them as an expected badge maker for DEF CON 33 (2025), but no independent source describing an actual badge or SAO from them was found.'
+- DC512 is the DEF CON group meetup community for Austin, TX (meets monthly at Celis Brewery). The community sheet lists them as an expected badge maker for DEF CON 33 (2025), but no independent source describing an actual badge or SAO from them was found.
 status: unknown
 sources:
 - kind: sheet
@@ -53,25 +53,15 @@ sources:
   updated: ''
 - kind: url
   url: https://www.meetup.com/dc512atx/
-  title: 'DC512 (Austin DEF CON group) - Meetup'
+  title: DC512 (Austin DEF CON group) - Meetup
   accessed: '2026-09-06'
-  note: 'Confirms DC512 is the Austin, TX DEF CON group community; page covers monthly meetups and talks, with no mention of a DEF CON 33 badge or SAO.'
+  note: Confirms DC512 is the Austin, TX DEF CON group community; page covers monthly meetups and talks, with no mention of a DEF CON 33 badge or SAO.
+  archived: https://web.archive.org/web/20260908003229/https://www.meetup.com/dc512atx/
 research:
   status: verified
   confidence: low
   last_checked: '2026-09-06'
-  notes: >-
-    Could not confirm what, if anything, DC512 brought to DEF CON 33. Checked the DC512
-    meetup/community page (no badge content), searched for a dc512.com domain (none
-    resolves), and looked for a DC512 Hackaday.io project, GitHub repo, or storefront
-    tied to a DEF CON 33 badge; nothing conclusive turned up. Web search engines
-    (DuckDuckGo, Bing, Google) returned bot-challenge pages or unrelated results rather
-    than usable listings during this pass, so this should be re-checked with a working
-    search tool before being marked otherwise. Leaving type/tech/look/get_one fields
-    empty rather than guessing. Fact-check pass 2026-09-06: re-opened the meetup page
-    (confirms Austin DC group, first Monday monthly at Celis Brewery, no badge/SAO
-    content), confirmed sheet row 34 on the 2025 (expected makers) tab lists only the
-    name "DC512", and confirmed dc512.com does not resolve. Nothing unsupported remained.
+  notes: 'Could not confirm what, if anything, DC512 brought to DEF CON 33. Checked the DC512 meetup/community page (no badge content), searched for a dc512.com domain (none resolves), and looked for a DC512 Hackaday.io project, GitHub repo, or storefront tied to a DEF CON 33 badge; nothing conclusive turned up. Web search engines (DuckDuckGo, Bing, Google) returned bot-challenge pages or unrelated results rather than usable listings during this pass, so this should be re-checked with a working search tool before being marked otherwise. Leaving type/tech/look/get_one fields empty rather than guessing. Fact-check pass 2026-09-06: re-opened the meetup page (confirms Austin DC group, first Monday monthly at Celis Brewery, no badge/SAO content), confirmed sheet row 34 on the 2025 (expected makers) tab lists only the name "DC512", and confirmed dc512.com does not resolve. Nothing unsupported remained.'
 last_modified_date: '2026-09-06'
 ---
 

@@ -40,12 +40,11 @@ links:
 - kind: website
   label: Embedded Systems Village
   url: https://embeddedvillage.org/
+  archived: https://web.archive.org/web/20260614132551/https://embeddedvillage.org/
 images: []
 contact: {}
 notes:
-- Embedded Systems Village ran a "Badge Shop" at shop.embeddedvillage.org, but the
-  storefront returns a "this store is unavailable" error as of the check date, so
-  no product listing could be recovered from it.
+- Embedded Systems Village ran a "Badge Shop" at shop.embeddedvillage.org, but the storefront returns a "this store is unavailable" error as of the check date, so no product listing could be recovered from it.
 status: unknown
 sources:
 - kind: sheet
@@ -57,29 +56,18 @@ sources:
   url: https://embeddedvillage.org/
   title: Embedded Systems Village
   accessed: '2026-09-06'
-  note: 'Official village site: no DEF CON 33 / 2025 event page exists (its published event
-    pages are "Defcon 2024", "DEF CON 31" and "HackFest"; the events list shows no upcoming
-    events), and an on-site search for "badge" returns zero results. The nav links a "Badge
-    Shop" at shop.embeddedvillage.org. Re-checked 2026-09-07.'
+  note: 'Official village site: no DEF CON 33 / 2025 event page exists (its published event pages are "Defcon 2024", "DEF CON 31" and "HackFest"; the events list shows no upcoming events), and an on-site search for "badge" returns zero results. The nav links a "Badge Shop" at shop.embeddedvillage.org. Re-checked 2026-09-07.'
+  archived: https://web.archive.org/web/20260614132551/https://embeddedvillage.org/
 - kind: url
   url: https://shop.embeddedvillage.org
   title: ESV Badge Shop (unavailable)
   accessed: '2026-09-06'
-  note: 'The storefront subdomain returns an HTTP 404 "This store is unavailable" page
-    served by Shopify, so no product details could be retrieved. Re-checked 2026-09-07.'
+  note: The storefront subdomain returns an HTTP 404 "This store is unavailable" page served by Shopify, so no product details could be retrieved. Re-checked 2026-09-07.
 research:
   status: verified
   confidence: low
   last_checked: '2026-09-07'
-  notes: Could not confirm what, if anything, Embedded Systems Village brought to
-    DEF CON 33 (2025). The village's own site (embeddedvillage.org) has no DEF CON
-    33/2025 event page and its site search for "badge" returns no results; the
-    linked badge storefront (shop.embeddedvillage.org) is down with a Shopify
-    "This store is unavailable" 404. Only the village's own site and storefront were
-    checked; no web search, Hackaday.io, press, or social lookup was done. Fact-check
-    2026-09-07 re-opened both cited sources and confirmed every remaining claim.
-    Leaving status as unknown rather than guessing; a future pass with web search,
-    or a working shop.embeddedvillage.org, may resolve this.
+  notes: Could not confirm what, if anything, Embedded Systems Village brought to DEF CON 33 (2025). The village's own site (embeddedvillage.org) has no DEF CON 33/2025 event page and its site search for "badge" returns no results; the linked badge storefront (shop.embeddedvillage.org) is down with a Shopify "This store is unavailable" 404. Only the village's own site and storefront were checked; no web search, Hackaday.io, press, or social lookup was done. Fact-check 2026-09-07 re-opened both cited sources and confirmed every remaining claim. Leaving status as unknown rather than guessing; a future pass with web search, or a working shop.embeddedvillage.org, may resolve this.
 last_modified_date: '2026-09-07'
 ---
 

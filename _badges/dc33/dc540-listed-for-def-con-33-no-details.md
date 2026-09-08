@@ -45,17 +45,20 @@ links:
 - kind: website
   label: DC540 METRO Analog Badge (DC33-2025) — project page
   url: https://dc540.org/xxx/dc540-badges-for-def-con/metro-analog-badge-dc33-2025/
+  archived: https://web.archive.org/web/20260413082911/https://dc540.org/xxx/dc540-badges-for-def-con/metro-analog-badge-dc33-2025/
 - kind: article
-  label: "DC540 has a badge for DEFCON this year (blog post)"
+  label: DC540 has a badge for DEFCON this year (blog post)
   url: https://dc540.org/xxx/2025/07/dc540-has-a-badge-for-defcon-this-year/
 - kind: social
   label: DC540 on Mastodon (defcon.social)
   url: https://defcon.social/@dc540
+  archived: https://web.archive.org/web/20260606172302/https://defcon.social/@dc540
 images:
 - file: assets/images/badges/dc33/dc540-listed-for-def-con-33-no-details/edbc8432eb.jpg
-  source: "https://dc540.org/xxx/dc540-badges-for-def-con/metro-analog-badge-dc33-2025/"
-  credit: "DC540"
-  caption: "The DC540 METRO Analog Badge for DEF CON 33, a paper/card badge styled after the DC Metro system map"
+  source: https://dc540.org/xxx/dc540-badges-for-def-con/metro-analog-badge-dc33-2025/
+  credit: DC540
+  caption: The DC540 METRO Analog Badge for DEF CON 33, a paper/card badge styled after the DC Metro system map
+  archived: https://web.archive.org/web/20260413082911/https://dc540.org/xxx/dc540-badges-for-def-con/metro-analog-badge-dc33-2025/
 contact: {}
 notes:
 - Sheet listed only "DC540" for DC33 with no other details; the badge itself was identified through DC540's own blog and Mastodon posts.
@@ -70,24 +73,27 @@ sources:
   updated: ''
 - kind: url
   url: https://dc540.org/xxx/2025/07/dc540-has-a-badge-for-defcon-this-year/
-  title: "DC540 has a badge for DEFCON this year. – DC540"
+  title: DC540 has a badge for DEFCON this year. – DC540
   accessed: '2026-09-06'
-  note: "Announcement post; confirms the badge exists, is deliberately simple (no blink, no screen), and links to the project page."
+  note: Announcement post; confirms the badge exists, is deliberately simple (no blink, no screen), and links to the project page.
 - kind: url
   url: https://dc540.org/xxx/dc540-badges-for-def-con/metro-analog-badge-dc33-2025/
-  title: "DC540 METRO Analog Badge (DC33-2025)"
+  title: DC540 METRO Analog Badge (DC33-2025)
   accessed: '2026-09-06'
-  note: "Primary source: badge concept (DC Metro homage), RFID/decode game mechanics, free distribution, quantity (a few hundred), and the cipher strips file link."
+  note: 'Primary source: badge concept (DC Metro homage), RFID/decode game mechanics, free distribution, quantity (a few hundred), and the cipher strips file link.'
+  archived: https://web.archive.org/web/20260413082911/https://dc540.org/xxx/dc540-badges-for-def-con/metro-analog-badge-dc33-2025/
 - kind: url
   url: https://defcon.social/@dc540
-  title: "DC540 (@dc540@defcon.social)"
+  title: DC540 (@dc540@defcon.social)
   accessed: '2026-09-06'
-  note: "Confirmed DC540's identity/location (Northern Virginia group) and surfaced the DC33 badge announcement post via its status history."
+  note: Confirmed DC540's identity/location (Northern Virginia group) and surfaced the DC33 badge announcement post via its status history.
+  archived: https://web.archive.org/web/20260606172302/https://defcon.social/@dc540
 - kind: url
   url: https://github.com/DC540-Nova
-  title: "DC540-Nova · GitHub"
+  title: DC540-Nova · GitHub
   accessed: '2026-09-06'
-  note: "Org repos show DC540's past badge projects (DC29 Tree of Life, DC30/Tarot, DC32 Chakra) but no DC33 repo — consistent with DC33 being a non-electronic badge."
+  note: Org repos show DC540's past badge projects (DC29 Tree of Life, DC30/Tarot, DC32 Chakra) but no DC33 repo — consistent with DC33 being a non-electronic badge.
+  archived: https://web.archive.org/web/20260908003415/https://github.com/DC540-Nova
 research:
   status: researched
   confidence: high

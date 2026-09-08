@@ -41,24 +41,27 @@ get_one:
   distribution: []
   where: ''
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: null
   firmware_url: https://github.com/patridge/DEFCON-Badge-2025
   eda_tool: null
   license: Apache-2.0
-  notes: 'Firmware/software is open source (C#/.NET, Meadow platform); the underlying hardware is Wilderness Labs'' own commercial "Project Lab v3" dev board (https://store.wildernesslabs.co/products/project-lab-board), not a custom PCB designed for this project.'
+  notes: Firmware/software is open source (C#/.NET, Meadow platform); the underlying hardware is Wilderness Labs' own commercial "Project Lab v3" dev board (https://store.wildernesslabs.co/products/project-lab-board), not a custom PCB designed for this project.
 links:
 - label: github.com/patridge/DEFCON-Badge-2025
   url: https://github.com/patridge/DEFCON-Badge-2025
   kind: repo
+  archived: https://web.archive.org/web/20260908003626/https://github.com/patridge/DEFCON-Badge-2025
 - label: Wilderness Labs Project Lab v3 (store)
   url: https://store.wildernesslabs.co/products/project-lab-board
   kind: store
+  archived: https://web.archive.org/web/20251014091500/https://store.wildernesslabs.co/products/project-lab-board
 images:
 - file: assets/images/badges/dc33/defcon-badge-2025-wilderness-labs-meadow-project-lab-badge/6e33347f61.jpg
-  source: "https://store.wildernesslabs.co/products/project-lab-board"
-  credit: "Wilderness Labs"
-  caption: "Wilderness Labs Project Lab v3 board, the hardware patridge's DEF CON 33 badge firmware runs on"
+  source: https://store.wildernesslabs.co/products/project-lab-board
+  credit: Wilderness Labs
+  caption: Wilderness Labs Project Lab v3 board, the hardware patridge's DEF CON 33 badge firmware runs on
+  archived: https://web.archive.org/web/20251014091500/https://store.wildernesslabs.co/products/project-lab-board
 contact: {}
 notes: []
 status: released
@@ -68,41 +71,46 @@ sources:
   title: DEFCON-Badge-2025 — Wilderness Labs Meadow Project Lab badge
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: github-topics); event read as ''DEF CON 33/2025''.'
+  archived: https://web.archive.org/web/20260908003626/https://github.com/patridge/DEFCON-Badge-2025
 - kind: url
   url: https://raw.githubusercontent.com/patridge/DEFCON-Badge-2025/main/README.md
-  title: 'DEFCON-Badge-2025 README'
+  title: DEFCON-Badge-2025 README
   accessed: '2026-09-07'
-  note: 'One-line README confirming maker, event, and that it is a Meadow Project Lab based badge.'
+  note: One-line README confirming maker, event, and that it is a Meadow Project Lab based badge.
 - kind: url
   url: https://raw.githubusercontent.com/patridge/DEFCON-Badge-2025/main/DefConBadge2025/MeadowApp.cs
-  title: 'MeadowApp.cs source'
+  title: MeadowApp.cs source
   accessed: '2026-09-07'
-  note: 'Confirmed F7CoreComputeV2 MCU, ProjectLab.Create() hardware abstraction, RGB LED behavior, page-cycling logic, ambient-light-based display brightness.'
+  note: Confirmed F7CoreComputeV2 MCU, ProjectLab.Create() hardware abstraction, RGB LED behavior, page-cycling logic, ambient-light-based display brightness.
+  archived: https://web.archive.org/web/20260908003920/https://raw.githubusercontent.com/patridge/DEFCON-Badge-2025/main/DefConBadge2025/MeadowApp.cs
 - kind: url
   url: https://raw.githubusercontent.com/patridge/DEFCON-Badge-2025/main/DefConBadge2025/Pages/EnvironmentPage.cs
-  title: 'EnvironmentPage.cs source'
+  title: EnvironmentPage.cs source
   accessed: '2026-09-07'
-  note: 'Confirmed temperature, barometric pressure, humidity, and light sensor readouts.'
+  note: Confirmed temperature, barometric pressure, humidity, and light sensor readouts.
 - kind: url
   url: https://raw.githubusercontent.com/patridge/DEFCON-Badge-2025/main/DefConBadge2025/Pages/WiFiTrackerPage.cs
-  title: 'WiFiTrackerPage.cs source'
+  title: WiFiTrackerPage.cs source
   accessed: '2026-09-07'
-  note: 'Confirmed this page is an empty stub with no implemented logic.'
+  note: Confirmed this page is an empty stub with no implemented logic.
+  archived: https://web.archive.org/web/20260908004110/https://raw.githubusercontent.com/patridge/DEFCON-Badge-2025/main/DefConBadge2025/Pages/WiFiTrackerPage.cs
 - kind: url
   url: https://raw.githubusercontent.com/patridge/DEFCON-Badge-2025/main/LICENSE
-  title: 'LICENSE'
+  title: LICENSE
   accessed: '2026-09-07'
-  note: 'Confirmed Apache-2.0 license.'
+  note: Confirmed Apache-2.0 license.
 - kind: url
   url: https://github.com/WildernessLabs/Meadow.ProjectLab
-  title: 'WildernessLabs/Meadow.ProjectLab'
+  title: WildernessLabs/Meadow.ProjectLab
   accessed: '2026-09-07'
   note: 'Confirmed Project Lab board specs: F7FeatherV2/Meadow MCU family, ILI9341 320x240 display, BMI270/BH1750/BME688 sensors over I2C, 4 buttons.'
+  archived: https://web.archive.org/web/20260517012714/https://github.com/WildernessLabs/Meadow.ProjectLab
 - kind: url
   url: https://store.wildernesslabs.co/products/project-lab-board
-  title: 'Project Lab v3 — Wilderness Labs Store'
+  title: Project Lab v3 — Wilderness Labs Store
   accessed: '2026-09-07'
-  note: 'Product photo used for images; confirmed Project Lab v3 retail price ($250) for the base dev board (not the badge itself, which was not sold).'
+  note: Product photo used for images; confirmed Project Lab v3 retail price ($250) for the base dev board (not the badge itself, which was not sold).
+  archived: https://web.archive.org/web/20251014091500/https://store.wildernesslabs.co/products/project-lab-board
 research:
   status: verified
   confidence: medium
