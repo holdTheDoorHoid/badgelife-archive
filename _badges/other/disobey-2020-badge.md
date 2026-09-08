@@ -51,11 +51,12 @@ links:
 - label: ESP32-platform-firmware (badgeteam)
   url: https://github.com/badgeteam/ESP32-platform-firmware
   kind: repo
+  archived: https://web.archive.org/web/20260508163633/https://github.com/badgeteam/ESP32-platform-firmware
 images:
 - file: assets/images/badges/other/disobey-2020-badge/7799eeaf08.jpg
-  source: "https://badge.team/docs/badges/disobey-2020/"
-  credit: "Badge.Team"
-  caption: "Disobey 2020 badge"
+  source: https://badge.team/docs/badges/disobey-2020/
+  credit: Badge.Team
+  caption: Disobey 2020 badge
 contact: {}
 notes:
 - Gameboy-style touch button layout (Start/A/B/Select/D-pad), USB-serial at 115200 8n1, Hatchery app store, nickname/WiFi config apps.
@@ -76,11 +77,12 @@ sources:
   title: 'GitHub - badgeteam/ESP32-platform-firmware: Universal badge platform for ESP32 based devices! Runs on the event badges from SHA2017, HackerHotel 2019, Disobey 2019, CampZone 2019, Disobey 2020 and more!'
   accessed: '2026-09-07'
   note: Confirms the Disobey 2020 badge runs on this shared ESP32 firmware platform (open source firmware).
+  archived: https://web.archive.org/web/20260508163633/https://github.com/badgeteam/ESP32-platform-firmware
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'No event id for "Disobey" exists yet in _data/events.yml, so event is left as "other"; the con is Disobey, a hacker conference in Helsinki, Finland, held in 2020. No dedicated hardware/schematic repo for the 2020 badge specifically was found (a disobey-badge-2019 repo exists on GitHub but is not confirmed to be the same hardware as the 2020 badge, so hardware_url is left empty rather than guessed). Price, quantity made, exact LED count/type, display, and battery were not stated on the sources checked and are left empty.'
+  notes: No event id for "Disobey" exists yet in _data/events.yml, so event is left as "other"; the con is Disobey, a hacker conference in Helsinki, Finland, held in 2020. No dedicated hardware/schematic repo for the 2020 badge specifically was found (a disobey-badge-2019 repo exists on GitHub but is not confirmed to be the same hardware as the 2020 badge, so hardware_url is left empty rather than guessed). Price, quantity made, exact LED count/type, display, and battery were not stated on the sources checked and are left empty.
 last_modified_date: '2026-09-07'
 ---
 

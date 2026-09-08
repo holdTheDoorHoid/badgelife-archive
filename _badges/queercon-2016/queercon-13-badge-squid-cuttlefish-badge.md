@@ -29,7 +29,8 @@ tech:
   display: none
   connectivity:
   - radio
-  battery: null
+  - i2c
+  battery: 2x AA
   sao_version: null
   sao_ports: 2
 get_one:
@@ -41,10 +42,10 @@ get_one:
   - purchase
   where: Sold to Queercon attendees at DEF CON 24 (2016).
 make_your_own:
-  open_source: null
+  open_source: partial
   hardware_url: null
   firmware_url: null
-  eda_tool: null
+  eda_tool: Altium Designer
 links:
 - label: hackaday.com/2016/08/10/what-we-learned-from-the-2016-queercon-badge
   url: https://hackaday.com/2016/08/10/what-we-learned-from-the-2016-queercon-badge/
@@ -69,9 +70,9 @@ status: listed
 sources:
 - kind: url
   url: https://hackaday.com/2016/08/10/what-we-learned-from-the-2016-queercon-badge/
-  title: Queercon 13 badge (squid/cuttlefish badge)
-  accessed: '2026-09-07'
-  note: 'Found by the archive''s discovery sweep (angle: sweep:queercon); event read as ''queercon-2016''.'
+  title: What We Learned From The 2016 Queercon Badge
+  accessed: '2026-09-08'
+  note: 'Confirmed maker names, event/year, 60 cyan eye LEDs + RGB tentacle LEDs, 2.4GHz radio "mating" between badges, phototransistor auto-brightness, power switch, 2x AA battery power, Altium Designer 13 PCB design with edge-defined arcs, and that hardware design files were published at blinkylights.ninja (site unreachable when checked, so hardware_url left empty).'
 - kind: url
   url: https://www.vice.com/en/article/a-history-of-badgelife-def-cons-unlikely-obsession-with-artistic-circuit-boards/
   title: Queer Con Squid Badge
@@ -88,11 +89,22 @@ sources:
   accessed: '2026-09-08'
   note: Independently dates the squid/cuttlefish badge with hat expansion ports to "the 2016 Queercon badge."
 research:
-  status: stub
-  confidence: low
-  last_checked: '2026-09-07'
-  notes: Imported from the community badge sheet; not yet researched. Merged with duplicate entry 'Queercon 13 Badge (squid/cuttlefish badge)' (dc24-queer-con-squid-badge). Merged with duplicate entry 'Queercon 13 Badge (2016 cephalopod/squid badge)' (queercon-2016-queercon-13-badge-2016-cephalopod-squid-badge).
-last_modified_date: '2026-09-07'
+  status: researched
+  confidence: high
+  last_checked: '2026-09-08'
+  notes: >-
+    Core facts (makers, event/year, LED counts, radio "mating", expansion ports,
+    phototransistor auto-brightness) confirmed by Hackaday's contemporaneous coverage,
+    which is the maker team's own account of the design (Hackaday runs an annual guest
+    post from the Queercon badge team). Added battery (2x AA), power switch, and
+    Altium Designer 13 as the EDA tool from that same article. The article says hardware
+    design files were published at blinkylights.ninja, but that site did not respond
+    when checked, so hardware_url is left empty rather than guessed. Price, quantity,
+    and MCU are not stated anywhere found and are left empty. Merged with duplicate entry
+    'Queercon 13 Badge (squid/cuttlefish badge)' (dc24-queer-con-squid-badge). Merged with
+    duplicate entry 'Queercon 13 Badge (2016 cephalopod/squid badge)'
+    (queercon-2016-queercon-13-badge-2016-cephalopod-squid-badge).
+last_modified_date: '2026-09-08'
 redirect_from:
 - /badges/dc24/queer-con-squid-badge/
 - /badges/queercon-2016/queercon-13-badge-2016-cephalopod-squid-badge/
@@ -101,7 +113,7 @@ redirect_from:
 
 ## Notes merged from the duplicate entry "Queercon 13 Badge (squid/cuttlefish badge)"
 
-The 2016 Queercon badge - the badge produced for Queercon 13, the LGBTQ+ village at DEF CON 24 - is shaped like a squid (also described as a cuttlefish), with a clear solder mask over black FR4 and smooth, organic curved traces. Its eyes are built from sixty cyan LEDs that can form different expressions, while RGB LEDs along the tentacles cycle through selectable light patterns. An onboard 2.4 GHz radio lets nearby badges "mate" and exchange patterns, and a phototransistor automatically adjusts LED brightness for the room. The badge was designed by Evan Mackay, George Louthan, Jonathan Nelson, and Jason Painter.
+The 2016 Queercon badge - the badge produced for Queercon 13, the LGBTQ+ village at DEF CON 24 - is shaped like a squid (also described as a cuttlefish), with a clear solder mask over black FR4 and smooth, organic curved traces. Its eyes are built from sixty cyan LEDs that can form different expressions, while RGB LEDs along the tentacles cycle through selectable light patterns. An onboard 2.4 GHz radio lets nearby badges "mate" and exchange patterns, and a phototransistor automatically adjusts LED brightness for the room; it also has a physical power switch, runs on two AA batteries, and was laid out in Altium Designer 13. The badge was designed by Evan Mackay, George Louthan, Jonathan Nelson, and Jason Painter, who say the hardware design files were published at blinkylights.ninja (unreachable as of this check).
 
 Two small expansion ports on the squid's head carried power, ground, and an I2C bus on a 1x4 connector, letting attendees plug in "hats" such as a light-up unicorn horn, an emo haircut, or an LED-studded top hat - one of several independent conference badge add-on schemes cited in the community's own history of what later became the standardized "shitty add-on" (SAO) connector.
 

@@ -5,7 +5,7 @@ parent: Badge Archive
 has_children: true
 has_toc: false
 nav_order: 7985
-nav_exclude: true
+nav_exclude: false
 event: kiwicon-2015
 ---
 # Kiwicon 2015
