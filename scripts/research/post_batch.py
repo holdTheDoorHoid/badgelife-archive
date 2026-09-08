@@ -5,6 +5,7 @@ entries, validate, regenerate event pages and titles, and print the next batch o
 """
 import json,glob,os,re,subprocess,sys,collections
 ROOT='/home/hoid/Desktop/badgelife-archive'; os.chdir(ROOT)
+OUT=os.environ.get('NEXT_BATCH_FILE', os.path.join(ROOT,'data','next_batch.txt'))
 D=sys.argv[1]; N=int(sys.argv[sys.argv.index('--next')+1]) if '--next' in sys.argv else 60
 res={}
 for line in open(D+'/journal.jsonl'):
