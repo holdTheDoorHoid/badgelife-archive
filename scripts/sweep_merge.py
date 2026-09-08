@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Fold an event-year sweep workflow's results into the archive's inputs.
 
-  scripts/sweep_merge.py <workflow transcript dir> [--name sweep] [--min-year 2006]
+  scripts/sweep_merge.py <workflow transcript dir>... [--name sweep] [--min-year 2006]
 
 Reads journal.jsonl (type=result records from the sweep agents), then:
   1. writes data/discovery_<name>.json in the shape discovery_to_stubs.py expects (one result block per task);
@@ -33,9 +33,10 @@ def results_from_journal(d):
     return out
 
 def main():
-    ap = argparse.ArgumentParser(); ap.add_argument("run_dir"); ap.add_argument("--name", default="sweep"); ap.add_argument("--min-year", type=int, default=2006)
+    ap = argparse.ArgumentParser(); ap.add_argument("run_dir", nargs="+", help="one or more workflow transcript dirs; later dirs override earlier results for the same task key"); ap.add_argument("--name", default="sweep"); ap.add_argument("--min-year", type=int, default=2006)
     ap.add_argument("--dry-run", action="store_true"); a = ap.parse_args()
-    res = results_from_journal(a.run_dir)
+    res = {}
+    for d in a.run_dir: res.update(results_from_journal(d))
     plan = {t["key"]: t for t in json.load(open(os.path.join(ROOT, "data", "sweep_plan.json")))}
     missing = sorted(set(plan) - set(res))
     print(f"{len(res)} task results of {len(plan)} planned; missing: {missing if len(missing) <= 20 else str(len(missing)) + ' tasks'}")
