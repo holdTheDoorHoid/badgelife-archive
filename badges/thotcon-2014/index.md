@@ -1,5 +1,5 @@
 ---
-title: Thotcon 2014
+title: THOTCON 0x5
 layout: default
 parent: Badge Archive
 has_children: true

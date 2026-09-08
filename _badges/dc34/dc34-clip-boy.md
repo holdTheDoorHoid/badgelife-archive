@@ -62,6 +62,7 @@ links:
 - label: tropicsquirrel.github.io/shop
   url: https://tropicsquirrel.github.io/shop/
   kind: store
+  archived: https://web.archive.org/web/20260829171455/https://tropicsquirrel.github.io/shop/
 - label: brycebadges.com
   url: https://brycebadges.com
   kind: website
@@ -80,6 +81,7 @@ images:
   source: https://tropicsquirrel.github.io/shop/
   credit: Bryce / Coruscant Productions, LLC
   caption: Clip-Boy badge, Fallout-inspired hero image
+  archived: https://web.archive.org/web/20260829171455/https://tropicsquirrel.github.io/shop/
 contact: {}
 notes:
 - The badge's own promotional copy describes it as a "parody badge...Fallout-inspired, not affiliated with Bethesda or Valve."
@@ -100,6 +102,7 @@ sources:
   title: 'Clip-Boy: The Unofficial DEF CON 34 Electronic Badge — Pre-Order'
   accessed: '2026-09-07'
   note: 'Maker''s own storefront: identifies maker as Bryce (high school junior, San Antonio TX), unit counts, pricing, second-run pre-order details, and product photos.'
+  archived: https://web.archive.org/web/20260829171455/https://tropicsquirrel.github.io/shop/
 - kind: url
   url: https://safehazard.github.io/Clip-Boy
   title: Clip-Boy documentation

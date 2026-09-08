@@ -5,7 +5,7 @@ parent: Badge Archive
 has_children: true
 has_toc: false
 nav_order: 7984
-nav_exclude: true
+nav_exclude: false
 event: saintcon-2016
 ---
 # SAINTCON 2016

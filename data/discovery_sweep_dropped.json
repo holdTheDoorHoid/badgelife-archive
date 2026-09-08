@@ -1,0 +1,627 @@
+[
+ [
+  "MassHackers Badge 2015",
+  "https://github.com/TheDukeZip/MassHackersBadge2015",
+  "url matches dc26-samurai-ctf-badge"
+ ],
+ [
+  "DarkNet Badge / HHV Learn-to-Solder Kit (hhvkit)",
+  "https://github.com/thedarknet/hhvkit",
+  "url matches dc23-hardware-hacking-village-learn-to-solder-kit"
+ ],
+ [
+  "Team Bazooka VFD Badge",
+  "https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/",
+  "title ~ dc25-team-bazooka-vfd-badge-dc25"
+ ],
+ [
+  "Hacker Warehouse Badge",
+  "https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/",
+  "title ~ dc25-hacker-warehouse-badge"
+ ],
+ [
+  "DC503 Badge",
+  "https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/",
+  "duplicate title in sweep"
+ ],
+ [
+  "Dragonfly Badge",
+  "https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/",
+  "duplicate title in sweep"
+ ],
+ [
+  "Puffy Badge",
+  "https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/",
+  "duplicate title in sweep"
+ ],
+ [
+  "Megabling Badge",
+  "https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/",
+  "title ~ dc25-megabling-badge"
+ ],
+ [
+  "Red's LoRa Badge",
+  "https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/",
+  "title ~ dc25-red-s-lora-badge"
+ ],
+ [
+  "Quadcopter Badge",
+  "https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/",
+  "title ~ dc25-quadcopter-badge"
+ ],
+ [
+  "Car Hacking Village Badge (DC26)",
+  "https://github.com/ttepatti/Car-Hacking-Village-Badges",
+  "url matches dc33-uberwoozle-listed-for-def-con-33-no-details"
+ ],
+ [
+  "LineCon Badge",
+  "https://hackaday.com/2018/08/14/all-the-badges-of-def-con-26-vol-1/",
+  "title ~ dc26-linecon-badge"
+ ],
+ [
+  "DeLorean Add-On",
+  "https://hackaday.com/2018/08/14/all-the-badges-of-def-con-26-vol-1/",
+  "title ~ dc26-delorean-add-on"
+ ],
+ [
+  "DEAUTH Badge",
+  "https://hackaday.com/2018/08/21/all-the-badges-of-def-con-26-vol-2/",
+  "title ~ dc26-deauth-badge"
+ ],
+ [
+  "NoodleCon Badge",
+  "https://hackaday.com/2018/09/05/all-the-badges-of-def-con-26-vol-4/",
+  "title ~ dc26-noodlecon-badge"
+ ],
+ [
+  "Cockroach Badge",
+  "https://hackaday.com/2018/09/05/all-the-badges-of-def-con-26-vol-4/",
+  "title ~ dc26-cockroach-badge"
+ ],
+ [
+  "Queercon 15 Badge",
+  "https://hackaday.com/2018/08/11/teardown-queercon-15-badge-and-the-game-hidden-within/",
+  "title ~ queercon-2018-queercon-15-badge"
+ ],
+ [
+  "Car Hacking Village Badge (DC26)",
+  "https://hackaday.com/2018/08/14/all-the-badges-of-def-con-26-vol-1/",
+  "title ~ dc26-car-hacking-village-badge-dc26"
+ ],
+ [
+  "LineCon Badge",
+  "https://hackaday.com/2018/08/14/all-the-badges-of-def-con-26-vol-1/",
+  "title ~ dc26-linecon-badge"
+ ],
+ [
+  "DeLorean Add-on SAO",
+  "https://hackaday.com/2018/08/14/all-the-badges-of-def-con-26-vol-1/",
+  "title ~ dc26-delorean-add-on"
+ ],
+ [
+  "uBadge",
+  "https://hackaday.com/2018/08/14/all-the-badges-of-def-con-26-vol-1/",
+  "title ~ dc26-ubadge-badge"
+ ],
+ [
+  "DEAUTH Badge",
+  "https://hackaday.com/2018/08/21/all-the-badges-of-def-con-26-vol-2/",
+  "title ~ dc26-deauth-badge"
+ ],
+ [
+  "Crazy Name-Tag Badge",
+  "https://hackaday.com/2018/08/21/all-the-badges-of-def-con-26-vol-2/",
+  "title ~ dc26-crazy-name-tag-badge"
+ ],
+ [
+  "GoodFear Blimp Badge",
+  "https://hackaday.com/2018/08/21/all-the-badges-of-def-con-26-vol-2/",
+  "title ~ dc26-goodfear-blimp"
+ ],
+ [
+  "Amulet Clock",
+  "https://hackaday.com/2018/08/21/all-the-badges-of-def-con-26-vol-2/",
+  "title ~ dc26-amulet-clock"
+ ],
+ [
+  "E-Paper Badge",
+  "https://hackaday.com/2018/08/29/all-the-badges-of-def-con-26-vol-3/",
+  "title ~ dc26-e-paper-badge"
+ ],
+ [
+  "Cromulon Badge",
+  "https://hackaday.com/2018/08/29/all-the-badges-of-def-con-26-vol-3/",
+  "title ~ dc26-cromulon-badge"
+ ],
+ [
+  "Skully Badge",
+  "https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/",
+  "title ~ dc27-skully-badge-dc27"
+ ],
+ [
+  "Popcorn Bucket Badge",
+  "https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/",
+  "title ~ dc27-popcorn-bucket-badge"
+ ],
+ [
+  "Monarch and Sovereign Badges",
+  "https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/",
+  "title ~ dc27-monarch-and-sovereign-badges-dc27"
+ ],
+ [
+  "Cylon Badge",
+  "https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/",
+  "title ~ dc27-cylon-badge-dc27"
+ ],
+ [
+  "DEFCON Furs Badge DC28",
+  "https://github.com/defconfurs/dcfurs-badge-dc28",
+  "duplicate url in sweep"
+ ],
+ [
+  "DEF CON 28 Safe Mode Official Badge (Cassette Tape)",
+  "https://hackaday.com/2020/07/24/hands-on-the-pandemic-def-con-badge-is-an-audio-cassette/",
+  "duplicate title in sweep"
+ ],
+ [
+  "DC28 Jam Con Badge",
+  "https://hackaday.io/project/167265-dc28-jam-con-badge",
+  "duplicate url in sweep"
+ ],
+ [
+  "Queercon 16 C Badge",
+  "https://hackaday.com/2019/08/16/hands-on-queercon-16-hardware-badge-shows-off-custom-membrane-keyboard/",
+  "title ~ queercon-2019-queercon-16-q-badge"
+ ],
+ [
+  "TRON Badge (DC27)",
+  "https://hackaday.io/project/164774-def-con-27-tron-badge",
+  "title ~ dc27-tron-badge"
+ ],
+ [
+  "S7a73farm Unofficial DEF CON 27 Mega Badge",
+  "https://hackaday.io/project/166728-s7a73farm-unofficial-def-con-27-mega-badge/",
+  "url matches dc27-beardo-badge"
+ ],
+ [
+  "DC Shoot Badge",
+  "https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/",
+  "title ~ dc27-dc-shoot-badge"
+ ],
+ [
+  "White Dragon Noodle Bar Badge",
+  "https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/",
+  "duplicate title in sweep"
+ ],
+ [
+  "Skully Badge",
+  "https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/",
+  "title ~ dc27-skully-badge-dc27"
+ ],
+ [
+  "Popcorn Bucket Badge",
+  "https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/",
+  "duplicate title in sweep"
+ ],
+ [
+  "Monarch and Sovereign Badges",
+  "https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/",
+  "title ~ dc27-monarch-and-sovereign-badges-dc27"
+ ],
+ [
+  "Cylon Badge",
+  "https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/",
+  "title ~ dc27-cylon-badge-dc27"
+ ],
+ [
+  "MadLabs Badge",
+  "https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/",
+  "title ~ dc27-madlabs-badge-dc27"
+ ],
+ [
+  "Defcon-Tor-30 SAO/Badge",
+  "https://github.com/seeess/Defcon-Tor-30",
+  "url matches dc30-onion-sao"
+ ],
+ [
+  "DC801 Black Mage Badge",
+  "https://github.com/DC801/BM-Badge",
+  "url matches dc30-one-will-be-there-but-they-are-being-cagey-with-the-details"
+ ],
+ [
+  "DEF CON Furs 2023 Badge",
+  "https://github.com/defconfurs/dcfurs-badge-dc31-public",
+  "url matches dc31-vixy"
+ ],
+ [
+  "Defcon-Tor-30 (Tor Project SAO/Badge)",
+  "https://github.com/seeess/Defcon-Tor-30",
+  "url matches dc30-onion-sao"
+ ],
+ [
+  "DEF CON Furs 2022 Badge (DCF30)",
+  "https://github.com/defconfurs/dcfurs-badge-dc30",
+  "url matches dc30-cereal-booper"
+ ],
+ [
+  "DC31 SAO (Nyan Cat / Simon game)",
+  "https://hackaday.io/project/192013-dc31-sao",
+  "url matches dc31-plumbus-bfb"
+ ],
+ [
+  "DEF CON 31 Mini Badge",
+  "https://github.com/h4ck3rb0x/defcon31",
+  "url matches dc31-hackerboxes-bananajr-listed-for-def-con-31-no-details"
+ ],
+ [
+  "Atomic SAO",
+  "https://github.com/h4ck3rb0x/defcon31",
+  "url matches dc31-hackerboxes-bananajr-listed-for-def-con-31-no-details"
+ ],
+ [
+  "Space Sloth SAO",
+  "https://github.com/h4ck3rb0x/defcon31",
+  "url matches dc31-hackerboxes-bananajr-listed-for-def-con-31-no-details"
+ ],
+ [
+  "Octopus SAO",
+  "https://github.com/h4ck3rb0x/defcon31",
+  "url matches dc31-hackerboxes-bananajr-listed-for-def-con-31-no-details"
+ ],
+ [
+  "Artemis SAO",
+  "https://github.com/h4ck3rb0x/defcon31",
+  "url matches dc31-hackerboxes-bananajr-listed-for-def-con-31-no-details"
+ ],
+ [
+  "BitHead SAO",
+  "https://github.com/h4ck3rb0x/defcon31",
+  "url matches dc31-hackerboxes-bananajr-listed-for-def-con-31-no-details"
+ ],
+ [
+  "Guy Fawkes SAO",
+  "https://github.com/h4ck3rb0x/defcon31",
+  "url matches dc31-hackerboxes-bananajr-listed-for-def-con-31-no-details"
+ ],
+ [
+  "Shroom SAO",
+  "https://github.com/h4ck3rb0x/defcon31",
+  "url matches dc31-hackerboxes-bananajr-listed-for-def-con-31-no-details"
+ ],
+ [
+  "Cyber Power Disc Badge",
+  "https://github.com/h4ck3rb0x/defcon31",
+  "url matches dc31-hackerboxes-bananajr-listed-for-def-con-31-no-details"
+ ],
+ [
+  "HackerBox SAO Totem",
+  "https://github.com/h4ck3rb0x/defcon31",
+  "url matches dc31-hackerboxes-bananajr-listed-for-def-con-31-no-details"
+ ],
+ [
+  "DC31 SAO (CATSAO / Nyan Simon Game SAO)",
+  "https://hackaday.io/project/192013-dc31-sao",
+  "url matches dc31-plumbus-bfb"
+ ],
+ [
+  "Cicada Invada DC32 2024 Badge",
+  "https://www.tindie.com/products/h4klab/cicada-invada-dc32-2024-badge/",
+  "url matches dc32-diy-cicada-badge"
+ ],
+ [
+  "Build-A-Badge (FreeWili)",
+  "https://github.com/freewili/build_a_badge",
+  "url matches dc33-ics-village-badge-def-con-33-edition"
+ ],
+ [
+  "Hackaday Remoticon 2020 Unofficial Badge",
+  "https://github.com/flummer/remoticon2020-badge",
+  "url matches other-remoticon-2-badge"
+ ],
+ [
+  "GAT Nametag SC8",
+  "https://hackaday.io/project/198536-gat-nametag-sc8",
+  "url matches dc33-nametag-sc8-always-upright-nametag"
+ ],
+ [
+  "Supercon 2023 Vectorscope Badge Enclosure (BASIC-2)",
+  "https://github.com/softegg/supercon-2023-badge-enclosure",
+  "url matches supercon-2023-hackaday-superconference-2023-badge-enclosure"
+ ],
+ [
+  "Hackaday Europe 2024 Vectorscope Badge",
+  "https://github.com/Hack-a-Day/Vectorscope",
+  "url matches supercon-2023-hack-a-sketch"
+ ],
+ [
+  "Hackaday Europe 2025 SAO Badge",
+  "https://github.com/Hack-a-Day/2024-Supercon-8-Add-On-Badge",
+  "url matches supercon-2024-hackaday-supercon-2024-sao-badge-supercon-8-badge"
+ ],
+ [
+  "Hackaday Europe 2026 Communicator Badge",
+  "https://github.com/Hack-a-Day/2025-Communicator_Badge",
+  "url matches supercon-2025-2025-hackaday-superconference-communicator-badge"
+ ],
+ [
+  "Compukidmike Heart Minibadge",
+  "https://github.com/compukidmike/saintcon2022",
+  "url matches saintcon-2022-saintcon-2022-official-attendee-badge"
+ ],
+ [
+  "K-Pop minibadge",
+  "https://github.com/cyberm3n-org/SC_2025",
+  "url matches saintcon-2025-expandable-display"
+ ],
+ [
+  "Gears of War minibadge",
+  "https://github.com/cyberm3n-org/SC_2025",
+  "url matches saintcon-2025-expandable-display"
+ ],
+ [
+  "Arctic Wolf minibadge",
+  "https://github.com/cyberm3n-org/SC_2025",
+  "url matches saintcon-2025-expandable-display"
+ ],
+ [
+  "Nuke minibadge",
+  "https://github.com/cyberm3n-org/SC_2025",
+  "url matches saintcon-2025-expandable-display"
+ ],
+ [
+  "Power Helmet minibadge",
+  "https://github.com/cyberm3n-org/SC_2025",
+  "url matches saintcon-2025-expandable-display"
+ ],
+ [
+  "TARDIS (Bad Wolf) minibadge",
+  "https://github.com/cyberm3n-org/SC_2025",
+  "url matches saintcon-2025-expandable-display"
+ ],
+ [
+  "Arcticus minibadge",
+  "https://github.com/cyberm3n-org/SC_2025",
+  "url matches saintcon-2025-expandable-display"
+ ],
+ [
+  "AW 25 minibadge",
+  "https://github.com/cyberm3n-org/SC_2025",
+  "url matches saintcon-2025-expandable-display"
+ ],
+ [
+  "Awareness minibadge",
+  "https://github.com/cyberm3n-org/SC_2025",
+  "url matches saintcon-2025-expandable-display"
+ ],
+ [
+  "Fun Run minibadge",
+  "https://github.com/cyberm3n-org/SC_2025",
+  "url matches saintcon-2025-expandable-display"
+ ],
+ [
+  "Hacker1337 minibadge",
+  "https://github.com/cyberm3n-org/SC_2025",
+  "url matches saintcon-2025-expandable-display"
+ ],
+ [
+  "CapSense_addon (BornHack 2018 badge breakout board)",
+  "https://github.com/bornhack/badge2018/tree/breakoutboards",
+  "duplicate url in sweep"
+ ],
+ [
+  "LED_addon (BornHack 2018 badge breakout board)",
+  "https://github.com/bornhack/badge2018/tree/breakoutboards",
+  "duplicate url in sweep"
+ ],
+ [
+  "Lora_breakout (BornHack 2018 badge breakout board)",
+  "https://github.com/bornhack/badge2018/tree/breakoutboards",
+  "duplicate url in sweep"
+ ],
+ [
+  "NFC_addon (BornHack 2018 badge breakout board)",
+  "https://github.com/bornhack/badge2018/tree/breakoutboards",
+  "duplicate url in sweep"
+ ],
+ [
+  "PTH_breakout (BornHack 2018 badge breakout board)",
+  "https://github.com/bornhack/badge2018/tree/breakoutboards",
+  "duplicate url in sweep"
+ ],
+ [
+  "temperature_breakout (BornHack 2018 badge breakout board)",
+  "https://github.com/bornhack/badge2018/tree/breakoutboards",
+  "duplicate url in sweep"
+ ],
+ [
+  "TiDAL",
+  "https://badge.emfcamp.org/TiDAL/",
+  "title ~ emf-camp-2022-tidal"
+ ],
+ [
+  "Penghicorn (unofficial 35C3 badge)",
+  "https://hackaday.io/project/162293-penghicorn",
+  "url matches other-penghito-poco-sao"
+ ],
+ [
+  "Queercon 10 badge",
+  "https://github.com/duplico",
+  "duplicate title in sweep"
+ ],
+ [
+  "Queercon 11 badge",
+  "https://hackaday.com/2014/09/15/the-queercon-11-badge/",
+  "title ~ queercon-2014-queercon-11-badge"
+ ],
+ [
+  "Queercon 15 badge",
+  "https://hackaday.com/2018/08/11/teardown-queercon-15-badge-and-the-game-hidden-within/",
+  "duplicate title in sweep"
+ ],
+ [
+  "ShmooCon 2018 Official Badge",
+  "https://hackaday.io/project/94291-mr-robot-badge-mk-2/",
+  "url matches dc26-mr-robot-badge-mk-2"
+ ],
+ [
+  "BSides Jacksonville 2024 Hydra Badge",
+  "https://github.com/blackandwhitehat/BSidesJAX_2024_Badge",
+  "url matches other-bsidesjax-2024-badge-challenge"
+ ],
+ [
+  "Pepita Badge Shield (codename Pepita)",
+  "https://github.com/soynerdito/PepitaBadgeShieldCompatible",
+  "url matches other-pepitabadgeshieldcompatible-bsides-badge-pepita"
+ ],
+ [
+  "BSides Tallinn 2026 Badge (Snake multiplayer badge)",
+  "https://github.com/BSides-Tallinn/bsides_badge",
+  "url matches bsides-tallinn-2025-bsides-badge-bsides-tallinn"
+ ],
+ [
+  "BSidesKC Kids 2019 (Baby Shark Badge)",
+  "https://www.tindie.com/products/BadgePirates/bsides-kc-shark-laser-tag-badge/",
+  "duplicate url in sweep"
+ ],
+ [
+  "BSidesKC 2021 (Project Aragorn / SAO-BP)",
+  "https://www.tindie.com/products/badgepirates/bsides-kc-2021-badge/",
+  "duplicate url in sweep"
+ ],
+ [
+  "BSidesCHS 2022 (BSides Charleston)",
+  "https://github.com/BadgePiratesLLC/BSidesCHS_2022",
+  "duplicate url in sweep"
+ ],
+ [
+  "BSidesKC 2026 / BSideKC25-26 Electronic Badge (Lunar Lander, ESP32-S3)",
+  "https://www.tindie.com/products/badgepirates/bsidekc25-26-electronic-badge/",
+  "duplicate url in sweep"
+ ],
+ [
+  "BSidesSF 2024 Badge",
+  "https://github.com/BSidesSF/badge-2024",
+  "duplicate url in sweep"
+ ],
+ [
+  "SAO BadgePirates (2022 DefCon add-on)",
+  "https://github.com/BadgePiratesLLC/SAO_BadgePirates",
+  "url matches other-sao-badgepirates"
+ ],
+ [
+  "Tindie Blinky LED Badge (LayerOne badge hack)",
+  "https://hackaday.io/project/26056-tindie-blinky-led-badge",
+  "url matches other-hackaday-blinky-led-badge"
+ ],
+ [
+  "Hackers Teaching Hackers 2019 Elite Badge",
+  "https://github.com/HTHackers/HTH-Elite-2019-Badge",
+  "url matches other-hth-elite-2019-badge"
+ ],
+ [
+  "ScryptKeeper (HTH 2021 Badge)",
+  "https://github.com/HTHackers/ScryptKeeper",
+  "url matches other-scouter-sao"
+ ],
+ [
+  "DEF CON China 1.0 FPC Shield",
+  "https://grandideastudio.com/portfolio/other/defcon-china-2019-badge/",
+  "duplicate url in sweep"
+ ],
+ [
+  "DEF CON China 1.0 FPC Breakout",
+  "https://grandideastudio.com/portfolio/other/defcon-china-2019-badge/",
+  "duplicate url in sweep"
+ ],
+ [
+  "DC406 SAO",
+  "https://hackaday.io/project/160047-dc406-sao",
+  "url matches other-dc406-sao"
+ ],
+ [
+  "DEF CON 14 Badge",
+  "https://badge.gallery/badges/def-con-14-badge",
+  "duplicate title in sweep"
+ ],
+ [
+  "DEF CON 16 Badge",
+  "https://badge.gallery/badges/def-con-16-badge",
+  "duplicate title in sweep"
+ ],
+ [
+  "DEF CON 18 Badge",
+  "https://badge.gallery/badges/def-con-18-badge",
+  "duplicate title in sweep"
+ ],
+ [
+  "DEF CON 23 Badge",
+  "https://badge.gallery/badges/def-con-23-badge",
+  "duplicate title in sweep"
+ ],
+ [
+  "Clock Badge",
+  "https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-clock-badge/",
+  "url matches dc30-clock-badge"
+ ],
+ [
+  "Big F***ing Daft Punk Badge",
+  "https://hackaday.io/project/184321-dc30-big-fucking-daft-punk-badge",
+  "url matches dc30-dc30-big-fucking-daft-punk-badge"
+ ],
+ [
+  "Skully SAO",
+  "https://www.tindie.com/products/nerfhammer/skully/",
+  "title ~ dc30-skully-sao"
+ ],
+ [
+  "Artful Joker SAO",
+  "http://www.deepnet.store",
+  "title ~ dc30-artful-joker-sao"
+ ],
+ [
+  "THOTCON 0xA / Infinity Badge",
+  "https://badge.gallery/badges/thotcon-0xa-infinity-badge",
+  "duplicate title in sweep"
+ ],
+ [
+  "LayerOne 2019 Badge (Voight-Kampff)",
+  "https://github.com/charlie-x/layerone2019",
+  "duplicate title in sweep"
+ ],
+ [
+  "Disobey 2019 Badge",
+  "https://github.com/disobeyfi/badge-2019",
+  "duplicate title in sweep"
+ ],
+ [
+  "LayerOne 2025 GLiTCh BadgE",
+  "https://github.com/charlie-x/LayerOne_2025",
+  "duplicate title in sweep"
+ ],
+ [
+  "39C3 CDC Badge",
+  "https://github.com/riatlabs/cdc-badge",
+  "duplicate url in sweep"
+ ],
+ [
+  "GrrCon 2025 Badge (GrrConBadge)",
+  "https://github.com/danlacher/GrrConBadge",
+  "duplicate url in sweep"
+ ],
+ [
+  "SAO Many SAOs Badge",
+  "https://www.tindie.com/products/coruscant_ventures/sao-many-saos-badge/",
+  "url matches dc34-sao-many-saos"
+ ],
+ [
+  "44CON 2025 RF Detector Badge",
+  "https://badge.gallery/years/2025",
+  "title ~ 44con-2025-44con-2025-rf-detector-badge"
+ ],
+ [
+  "BSides Bournemouth 2025 Skull Badge",
+  "https://badge.gallery/years/2025",
+  "title ~ bsides-bournemouth-2025-bsides-bournemouth-2025-skull-badge"
+ ]
+]

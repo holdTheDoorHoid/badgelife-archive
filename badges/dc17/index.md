@@ -5,7 +5,7 @@ parent: Badge Archive
 has_children: true
 has_toc: false
 nav_order: 7991
-nav_exclude: true
+nav_exclude: false
 event: dc17
 ---
 # DEF CON 17

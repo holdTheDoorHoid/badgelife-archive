@@ -1,0 +1,63 @@
+---
+title: OFFZONE 2025 Angel and Devil add-on
+id: offzone-2025-offzone-2025-angel-and-devil-add-on
+layout: badge
+parent: OFFZONE 2025
+grand_parent: Badge Archive
+nav_exclude: true
+type: sao
+event: offzone-2025
+year: 2025
+makers:
+- name: BI.ZONE / Craft.Zone
+summary: ''
+functions: ''
+look:
+  colors: []
+  shape: null
+  themes: []
+tech:
+  mcu: null
+  leds: null
+  display: null
+  connectivity: []
+  battery: null
+  sao_version: null
+get_one:
+  price: ''
+  price_usd: null
+  quantity: ''
+  availability: unknown
+  distribution: []
+  where: ''
+make_your_own:
+  open_source: null
+  hardware_url: null
+  firmware_url: null
+  eda_tool: null
+links:
+- label: github.com/bi-zone/offzone-hw/tree/main/2025/angelanddevil_addon
+  url: https://github.com/bi-zone/offzone-hw/tree/main/2025/angelanddevil_addon
+  kind: repo
+- label: 2025.offzone.moscow/badge-and-offcoins
+  url: https://2025.offzone.moscow/badge-and-offcoins/
+  kind: website
+images: []
+contact: {}
+notes:
+- Angel-and-devil-themed add-on board for the OFFZONE 2025 badge. Found by the event-year sweep, task con-phdays.
+status: listed
+sources:
+- kind: url
+  url: https://github.com/bi-zone/offzone-hw/tree/main/2025/angelanddevil_addon
+  title: OFFZONE 2025 Angel and Devil add-on
+  accessed: '2026-09-07'
+  note: 'Found by the archive''s discovery sweep (angle: sweep:con-phdays); event read as ''OFFZONE 2025''.'
+research:
+  status: stub
+  confidence: low
+  last_checked: '2026-09-07'
+  notes: Imported from the community badge sheet; not yet researched.
+last_modified_date: '2026-09-07'
+---
+

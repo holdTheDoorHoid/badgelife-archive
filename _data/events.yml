@@ -89,30 +89,35 @@ supercon-2017:
   year: 2017
   family: supercon
   location: Pasadena, CA
+  dates: November 11-12, 2017 (some sources say Nov 10-12)
 supercon-2018:
   name: Hackaday Superconference 2018
   short: Supercon 2018
   year: 2018
   family: supercon
   location: Pasadena, CA
+  dates: November 2-4, 2018
 supercon-2019:
   name: Hackaday Superconference 2019
   short: Supercon 2019
   year: 2019
   family: supercon
   location: Pasadena, CA
+  dates: November 15-17, 2019
 supercon-2022:
   name: Hackaday Superconference 2022
   short: Supercon 2022
   year: 2022
   family: supercon
   location: Pasadena, CA
+  dates: November 4-6, 2022
 supercon-2023:
   name: Hackaday Superconference 2023
   short: Supercon 2023
   year: 2023
   family: supercon
   location: Pasadena, CA
+  dates: November 3-5, 2023
 supercon-2024:
   name: Hackaday Supercon 8 (2024)
   short: Supercon 2024
@@ -120,12 +125,14 @@ supercon-2024:
   family: supercon
   location: Pasadena, CA
   notes: Supercon 8 had a dedicated SAO contest and the Add-On Badge.
+  dates: November 1-3, 2024
 supercon-2025:
   name: Hackaday Supercon 9 (2025)
   short: Supercon 2025
   year: 2025
   family: supercon
   location: Pasadena, CA
+  dates: October 31 - November 2, 2025
 other:
   name: Other / unaffiliated
   short: Other
@@ -138,24 +145,28 @@ dc23:
   year: 2015
   family: defcon
   location: Paris & Bally's, Las Vegas, NV
+  dates: August 6-9, 2015
 fri3d-2022:
   name: Fri3d Camp 2022
   short: Fri3d 2022
   year: 2022
   family: camp
   location: Hopper Youth Residence De Kluis, Sint-Joris-Weert, Belgium (August 12-14, 2022)
+  dates: 12–14 August 2022 (per Espressif article)
 fri3d-2018:
   name: Fri3d Camp 2018
   short: Fri3d 2018
   year: 2018
   family: camp
   location: Belgium
+  dates: '2018'
 hackaday-europe-2026:
   name: Hackaday Europe 2026
   short: Hackaday Europe 2026
   year: 2026
   family: supercon
   location: Lecco, Italy
+  dates: May 16-17, 2026
 oshwdem-2017:
   name: OSHWDem 2017
   short: OSHWDem 2017
@@ -168,6 +179,7 @@ cccamp-2019:
   year: 2019
   family: camp
   location: Ziegeleipark Mildenberg, Zehdenick, Germany
+  dates: August 21-25, 2019
 carolinacon-2020:
   name: CarolinaCon 16
   short: CC16
@@ -186,30 +198,25 @@ hackaday-europe-2025:
   year: 2025
   family: supercon
   location: Berlin, Germany
+  dates: '2025'
 bsides-orlando-2018:
   name: BSides Orlando 2018
   short: BSides Orlando 2018
   year: 2018
   family: bsides
-  location: ''
+  location: Orlando, FL
 bsides-orlando-2019:
   name: BSides Orlando 2019
   short: BSides Orlando 2019
   year: 2019
   family: bsides
-  location: ''
+  location: Orlando, FL
 bsides-jacksonville-2018:
   name: BSides Jacksonville 2018
   short: BSides Jacksonville 2018
   year: 2018
   family: bsides
-  location: ''
-thotcon-2024:
-  name: Thotcon 2024
-  short: Thotcon 2024
-  year: 2024
-  family: other
-  location: ''
+  location: Jacksonville, FL
 thotcon-2025:
   name: THOTCON 0xD (2025)
   short: THOTCON 0xD
@@ -218,77 +225,74 @@ thotcon-2025:
   dates: 2025-05-30 to 2025-05-31
   location: Chicago, IL
 thotcon-2018:
-  name: Thotcon 2018
-  short: Thotcon 2018
+  name: THOTCON 0x9
+  short: THOTCON 0x9
   year: 2018
   family: other
-  location: ''
+  location: Irish American Heritage Center, Chicago, IL
+  dates: May 5-6, 2018
 thotcon-2017:
-  name: Thotcon 2017
-  short: Thotcon 2017
+  name: THOTCON 0x8
+  short: THOTCON 0x8
   year: 2017
   family: other
-  location: ''
+  location: Ravenswood Event Center, Chicago
+  dates: May 4-5, 2017
 thotcon-2013:
-  name: Thotcon 2013
-  short: Thotcon 2013
+  name: THOTCON 0x4
+  short: THOTCON 0x4
   year: 2013
   family: other
-  location: ''
+  location: Ravenswood Event Center, Chicago
+  dates: April 26, 2013
 thotcon-2014:
-  name: Thotcon 2014
-  short: Thotcon 2014
+  name: THOTCON 0x5
+  short: THOTCON 0x5
   year: 2014
   family: other
-  location: ''
+  location: Ravenswood Event Center, Chicago
+  dates: April 25, 2014
 supercon-2020:
   name: Hackaday Supercon 2020
   short: Hackaday Supercon 2020
   year: 2020
   family: supercon
   location: Pasadena, CA
+  dates: November 6-8, 2020
 supercon-2026:
   name: Hackaday Supercon 2026
   short: Hackaday Supercon 2026
   year: 2026
   family: supercon
   location: Pasadena, CA
+  dates: November 6-8, 2026
 bsides-jacksonville-2023:
   name: BSides Jacksonville 2023
   short: BSides Jacksonville 2023
   year: 2023
   family: bsides
-  location: ''
+  location: Jacksonville, FL
 saintcon-2017:
   name: Saintcon 2017
   short: Saintcon 2017
   year: 2017
   family: other
-  location: ''
+  location: Utah Valley Convention Center, Provo, UT
+  dates: October 10-13, 2017
 saintcon-2022:
   name: Saintcon 2022
   short: Saintcon 2022
   year: 2022
   family: other
-  location: ''
+  location: Utah Valley Convention Center, 220 West Center Street, Provo, UT 84601
+  dates: October 25-28, 2022
 saintcon-2023:
   name: Saintcon 2023
   short: Saintcon 2023
   year: 2023
   family: other
-  location: ''
-bsides-2016:
-  name: BSides 2016
-  short: BSides 2016
-  year: 2016
-  family: bsides
-  location: ''
-bsides-2024:
-  name: BSides 2024
-  short: BSides 2024
-  year: 2024
-  family: bsides
-  location: ''
+  location: Utah Valley Convention Center, Provo, Utah
+  dates: October 24-27, 2023
 bsides-2025:
   name: BSides 2025
   short: BSides 2025
@@ -300,7 +304,8 @@ bsides-rochester-2019:
   short: BSides Rochester 2019
   year: 2019
   family: bsides
-  location: ''
+  location: RIT Inn, Rochester NY
+  dates: March 23, 2019
 bsides-2026:
   name: BSides 2026
   short: BSides 2026
@@ -312,61 +317,66 @@ bsides-cape-town-2015:
   short: BSides Cape Town 2015
   year: 2015
   family: bsides
-  location: ''
+  location: Dimension Data, Cape Town
 bornhack-2026:
   name: Bornhack 2026
   short: Bornhack 2026
   year: 2026
   family: camp
-  location: ''
+  location: Funen, Denmark (BornHack venue)
+  dates: July 15–22, 2026
 emf-camp-2026:
   name: EMF Camp 2026
   short: EMF Camp 2026
   year: 2026
   family: camp
-  location: ''
+  location: Eastnor Castle Deer Park, Ledbury, UK
+  dates: May 2026 (per Hackaday coverage June 2026)
 why-2025:
   name: Why 2025
   short: Why 2025
   year: 2025
   family: camp
-  location: ''
+  location: Geestmerambacht, Netherlands
+  dates: August 8-12, 2025
 bornhack-2024:
   name: Bornhack 2024
   short: Bornhack 2024
   year: 2024
   family: camp
-  location: ''
+  location: Funen, Denmark
+  dates: July 17–24, 2024
 emf-camp-2024:
   name: EMF Camp 2024
   short: EMF Camp 2024
   year: 2024
   family: camp
-  location: ''
+  location: Eastnor Castle Deer Park, Ledbury, UK
+  dates: May 31 - June 3, 2024
 hackerhotel-2024:
   name: Hackerhotel 2024
   short: Hackerhotel 2024
   year: 2024
   family: camp
-  location: ''
+  location: Hotel De Werelt, Garderen, Netherlands
 hackerhotel-2020:
   name: Hackerhotel 2020
   short: Hackerhotel 2020
   year: 2020
   family: camp
-  location: ''
+  location: Hotel De Werelt, Garderen, Netherlands
 hackerhotel-2019:
   name: Hackerhotel 2019
   short: Hackerhotel 2019
   year: 2019
   family: camp
-  location: ''
+  location: Hotel De Werelt, Garderen, Netherlands
 campzone-2020:
   name: Campzone 2020
   short: Campzone 2020
   year: 2020
   family: camp
-  location: ''
+  location: online (in-person event not organized due to COVID)
 campzone-2019:
   name: Campzone 2019
   short: Campzone 2019
@@ -378,133 +388,151 @@ sha-2017:
   short: Sha 2017
   year: 2017
   family: camp
-  location: ''
+  location: Scoutinglandgoed Zeewolde, Netherlands
+  dates: August 4-8, 2017
 emf-camp-2012:
   name: EMF Camp 2012
   short: EMF Camp 2012
   year: 2012
   family: camp
-  location: ''
+  location: Pineham Park, Milton Keynes, UK
+  dates: 31 Aug - 2 Sep 2012
 fri3d-2024:
   name: Fri3D 2024
   short: Fri3D 2024
   year: 2024
   family: camp
-  location: ''
+  location: Belgium
+  dates: '2024'
 saintcon-2026:
   name: Saintcon 2026
   short: Saintcon 2026
   year: 2026
   family: other
-  location: ''
+  location: Utah Valley Convention Center, Provo, UT
+  dates: October 27–30, 2026
 saintcon-2025:
   name: Saintcon 2025
   short: Saintcon 2025
   year: 2025
   family: other
-  location: ''
+  location: Utah Valley Convention Center, Provo, Utah
+  dates: October 21-24, 2025
 saintcon-2024:
   name: Saintcon 2024
   short: Saintcon 2024
   year: 2024
   family: other
-  location: ''
+  location: Utah Valley Convention Center, Provo, Utah
+  dates: October 22-25, 2024 (trainings Oct 21)
 saintcon-2021:
   name: Saintcon 2021
   short: Saintcon 2021
   year: 2021
   family: other
-  location: ''
+  location: Utah Valley Convention Center, Provo, UT
+  dates: October 19-22, 2021
 supercon-2016:
   name: Hackaday Supercon 2016
   short: Hackaday Supercon 2016
   year: 2016
   family: supercon
   location: Pasadena, CA
+  dates: November 5-6, 2016
 supercon-2021:
   name: Hackaday Supercon 2021
   short: Hackaday Supercon 2021
   year: 2021
   family: supercon
   location: Pasadena, CA
+  dates: November 19-20, 2021
 cyphercon-2017:
   name: Cyphercon 2017
   short: Cyphercon 2017
   year: 2017
   family: other
-  location: ''
+  location: Milwaukee, WI
+  dates: March 30-31, 2017
 cyphercon-2019:
   name: Cyphercon 2019
   short: Cyphercon 2019
   year: 2019
   family: other
-  location: ''
+  location: Milwaukee, WI
+  dates: April 11-12, 2019
 shmoocon-2006:
   name: Shmoocon 2006
   short: Shmoocon 2006
   year: 2006
   family: other
-  location: ''
+  location: Washington, D.C. (Marriott Wardman Park)
 hope-2008:
   name: Hope 2008
   short: Hope 2008
   year: 2008
   family: other
-  location: ''
+  location: Hotel Pennsylvania, Manhattan, NYC
+  dates: July 18-20, 2008
 bsidesdfw-2021:
   name: BSidesdfw 2021
   short: BSidesdfw 2021
   year: 2021
   family: bsides
-  location: ''
+  location: Dallas-Fort Worth, TX
 bsides-cape-town-2016:
   name: BSides Cape Town 2016
   short: BSides Cape Town 2016
   year: 2016
   family: bsides
-  location: ''
+  location: Dimension Data, Cape Town
 bsides-adelaide-2025:
   name: BSides Adelaide 2025
   short: BSides Adelaide 2025
   year: 2025
   family: bsides
-  location: ''
+  location: Adelaide, South Australia
+  dates: '2025'
 bsidespr-2016:
   name: BSidespr 2016
   short: BSidespr 2016
   year: 2016
   family: bsides
-  location: ''
+  location: Puerto Rico
 mch-2022:
   name: MCH2022 (May Contain Hackers)
   short: MCH2022
   year: 2022
   family: camp
   location: Zeewolde, Netherlands
+  dates: July 22-26, 2022
 cyphercon-2022:
   name: CypherCon 5.3 (2022)
   short: CypherCon 5.3
   year: 2022
   family: other
   location: Milwaukee, WI
+  dates: April 28-29, 2022
 saintcon-2018:
   name: SAINTCON 2018
   short: SAINTCON 2018
   year: 2018
   family: other
   location: Utah
+  dates: 2018 (Provo SAINTCON schedule page lists it between 2017 and 2019; CFP mail-archive posting cites Sep 25-28 2018 as a call date)
 saintcon-2019:
   name: SAINTCON 2019
   short: SAINTCON 2019
   year: 2019
   family: other
   location: Utah
+  dates: October 22-25, 2019
 saintcon-2020:
   name: SAINTCON 2020
   short: SAINTCON 2020
   year: 2020
   family: other
   location: Utah
+  dates: October 27-30, 2020
 northsec-2025:
   name: NorthSec 2025
   short: NorthSec 2025
@@ -523,60 +551,70 @@ bornhack-2016:
   year: 2016
   family: camp
   location: Denmark
+  dates: August 27 – September 3, 2016
 bornhack-2019:
   name: BornHack 2019
   short: BornHack 2019
   year: 2019
   family: camp
   location: Denmark
+  dates: August 8-15, 2019
 bornhack-2020:
   name: BornHack 2020
   short: BornHack 2020
   year: 2020
   family: camp
   location: Denmark
+  dates: August 11-18, 2020
 bornhack-2021:
   name: BornHack 2021
   short: BornHack 2021
   year: 2021
   family: camp
   location: Denmark
+  dates: August 19-26, 2021
 bornhack-2022:
   name: BornHack 2022
   short: BornHack 2022
   year: 2022
   family: camp
   location: Denmark
+  dates: August 2022 (7-day camp)
 bornhack-2023:
   name: BornHack 2023
   short: BornHack 2023
   year: 2023
   family: camp
   location: Denmark
+  dates: August 2-9, 2023
 bornhack-2025:
   name: BornHack 2025
   short: BornHack 2025
   year: 2025
   family: camp
   location: Denmark
+  dates: July 26 - August 2, 2025 (approx, 10th BornHack)
 dc22:
   name: DEF CON 22
   short: DC22
   year: 2014
   family: defcon
   location: Las Vegas, NV
+  dates: August 7-10, 2014
 queercon-2019:
   name: Queercon 16 (2019)
   short: Queercon 16
   year: 2019
   family: other
   location: Las Vegas, NV
+  dates: DEF CON 27 week, Aug 2019
 tiaracon-2016:
   name: TiaraCon 2016
   short: TiaraCon 2016
   year: 2016
   family: other
   location: Las Vegas, NV
+  dates: DEF CON 24 week, Aug 2016
 bsides-iowa-2019:
   name: BSides Iowa 2019
   short: BSides Iowa 2019
@@ -589,48 +627,56 @@ dc14:
   year: 2006
   family: defcon
   location: Las Vegas, NV
+  dates: August 4-6, 2006
 dc15:
   name: DEF CON 15
   short: DC15
   year: 2007
   family: defcon
   location: Las Vegas, NV
+  dates: August 3-5, 2007
 dc16:
   name: DEF CON 16
   short: DC16
   year: 2008
   family: defcon
   location: Las Vegas, NV
+  dates: August 8-10, 2008
 dc17:
   name: DEF CON 17
   short: DC17
   year: 2009
   family: defcon
   location: Las Vegas, NV
+  dates: July 31 - August 2, 2009
 dc18:
   name: DEF CON 18
   short: DC18
   year: 2010
   family: defcon
   location: Las Vegas, NV
+  dates: July 30 – August 1, 2010
 dc19:
   name: DEF CON 19
   short: DC19
   year: 2011
   family: defcon
   location: Las Vegas, NV
+  dates: August 4-7, 2011
 dc20:
   name: DEF CON 20
   short: DC20
   year: 2012
   family: defcon
   location: Las Vegas, NV
+  dates: July 26-29, 2012
 dc21:
   name: DEF CON 21
   short: DC21
   year: 2013
   family: defcon
   location: Las Vegas, NV
+  dates: August 1-4, 2013
 bsides-san-diego-2024:
   name: BSides San Diego 2024
   short: BSides San Diego 2024
@@ -649,3 +695,1967 @@ bsides-tallinn-2025:
   year: 2025
   family: bsides
   location: Tallinn, Estonia
+  dates: 2025 (already in archive as 'BSides 25 Badge')
+supercon-2015:
+  name: Hackaday SuperConference 2015
+  short: Hackaday SuperConference 2015
+  year: 2015
+  family: supercon
+  location: Pasadena, CA
+  dates: November 13-15, 2015
+saintcon-2014:
+  name: SAINTCON 2014
+  short: SAINTCON 2014
+  year: 2014
+  family: other
+  location: Utah
+  dates: October 20-23, 2014
+saintcon-2015:
+  name: SAINTCON 2015
+  short: SAINTCON 2015
+  year: 2015
+  family: other
+  location: Utah
+  dates: October 27-30, 2015
+saintcon-2016:
+  name: SAINTCON 2016
+  short: SAINTCON 2016
+  year: 2016
+  family: other
+  location: Utah
+  dates: October 11-14, 2016
+hackaday-belgrade-2016:
+  name: Hackaday Belgrade 2016
+  short: Hackaday Belgrade 2016
+  year: 2016
+  family: supercon
+  location: Belgrade, Serbia
+  dates: April 9, 2016
+hackaday-belgrade-2018:
+  name: Hackaday Belgrade 2018
+  short: Hackaday Belgrade 2018
+  year: 2018
+  family: supercon
+  location: Belgrade, Serbia
+  dates: '2018'
+hackaday-berlin-2023:
+  name: Hackaday Berlin 2023
+  short: Hackaday Berlin 2023
+  year: 2023
+  family: supercon
+  location: Berlin, Germany
+  dates: March 2023
+hackaday-europe-2024:
+  name: Hackaday Europe 2024 (Berlin)
+  short: Hackaday Europe 2024 (Berlin)
+  year: 2024
+  family: supercon
+  location: Berlin, Germany
+  dates: '2024'
+bornhack-2017:
+  name: BornHack 2017
+  short: BornHack 2017
+  year: 2017
+  family: camp
+  location: Denmark
+  dates: August 19–26, 2017
+bornhack-2018:
+  name: BornHack 2018
+  short: BornHack 2018
+  year: 2018
+  family: camp
+  location: Denmark
+  dates: August 16-23, 2018
+emf-camp-2014:
+  name: EMF Camp 2014
+  short: EMF Camp 2014
+  year: 2014
+  family: camp
+  location: Eastnor, UK
+  dates: 29-31 Aug 2014
+emf-camp-2016:
+  name: EMF Camp 2016
+  short: EMF Camp 2016
+  year: 2016
+  family: camp
+  location: Eastnor, UK
+  dates: August 5-7, 2016
+emf-camp-2018:
+  name: EMF Camp 2018
+  short: EMF Camp 2018
+  year: 2018
+  family: camp
+  location: Eastnor, UK
+  dates: August 31 - September 2, 2018
+emf-camp-2022:
+  name: EMF Camp 2022
+  short: EMF Camp 2022
+  year: 2022
+  family: camp
+  location: Eastnor, UK
+  dates: June 2-5, 2022
+cccamp-2007:
+  name: Chaos Communication Camp 2007
+  short: Chaos Communication Camp 2007
+  year: 2007
+  family: camp
+  location: Mildenberg, Germany
+  dates: August 8-12, 2007
+cccamp-2011:
+  name: Chaos Communication Camp 2011
+  short: Chaos Communication Camp 2011
+  year: 2011
+  family: camp
+  location: Mildenberg, Germany
+  dates: August 10-14, 2011
+cccamp-2015:
+  name: Chaos Communication Camp 2015
+  short: Chaos Communication Camp 2015
+  year: 2015
+  family: camp
+  location: Mildenberg, Germany
+  dates: August 13-17, 2015
+cccamp-2023:
+  name: Chaos Communication Camp 2023
+  short: Chaos Communication Camp 2023
+  year: 2023
+  family: camp
+  location: Mildenberg, Germany
+  dates: August 15-19, 2023
+fri3d-2016:
+  name: Fri3d Camp 2016
+  short: Fri3d Camp 2016
+  year: 2016
+  family: camp
+  location: Belgium
+  dates: '2016'
+fri3d-2026:
+  name: Fri3d Camp 2026
+  short: Fri3d Camp 2026
+  year: 2026
+  family: camp
+  location: Belgium
+  dates: August 14-16, 2026
+35c3-2018:
+  name: 35C3
+  short: 35C3
+  year: 2018
+  family: camp
+  location: Leipzig
+  dates: 27-30 Dec 2018
+36c3-2019:
+  name: 36C3
+  short: 36C3
+  year: 2019
+  family: camp
+  location: Leipzig
+  dates: 27-30 Dec 2019
+37c3-2023:
+  name: 37C3
+  short: 37C3
+  year: 2023
+  family: camp
+  location: Hamburg
+  dates: 27-30 Dec 2023
+38c3-2024:
+  name: 38C3
+  short: 38C3
+  year: 2024
+  family: camp
+  location: Hamburg
+  dates: 27-30 Dec 2024
+39c3-2025:
+  name: 39C3
+  short: 39C3
+  year: 2025
+  family: camp
+  location: Hamburg
+  dates: 27-30 Dec 2025
+hackerhotel-2023:
+  name: HackerHotel 2023
+  short: HackerHotel 2023
+  year: 2023
+  family: camp
+  location: Netherlands
+hackerhotel-2025:
+  name: HackerHotel 2025
+  short: HackerHotel 2025
+  year: 2025
+  family: camp
+  location: Netherlands
+  dates: February 14-16, 2025
+thotcon-2019:
+  name: THOTCON 0xA
+  short: THOTCON 0xA
+  year: 2019
+  family: other
+  location: Chicago, IL
+  dates: May 3-4, 2019
+thotcon-2021:
+  name: THOTCON 0xB (actually held Oct 8-9, 2021, not 2022)
+  short: THOTCON 0xB (actually held Oct 8-9, 2021, not 2022)
+  year: 2021
+  family: other
+  location: Chicago, IL
+  dates: October 8-9, 2021
+thotcon-2023:
+  name: THOTCON 0xC
+  short: THOTCON 0xC
+  year: 2023
+  family: other
+  location: Chicago, IL
+  dates: May 19-20, 2023
+thotcon-2015:
+  name: THOTCON 0x6
+  short: THOTCON 0x6
+  year: 2015
+  family: other
+  location: Chicago, IL
+  dates: May 14-15, 2015
+cyphercon-2016:
+  name: CypherCon 1.0
+  short: CypherCon 1.0
+  year: 2016
+  family: other
+  location: Milwaukee, WI
+  dates: March 11-12, 2016
+cyphercon-2018:
+  name: CypherCon 3.0
+  short: CypherCon 3.0
+  year: 2018
+  family: other
+  location: Milwaukee, WI
+  dates: April 12-13, 2018
+cyphercon-2023:
+  name: CypherCon 6.0
+  short: CypherCon 6.0
+  year: 2023
+  family: other
+  location: Milwaukee, WI
+  dates: March 30-31, 2023
+cyphercon-2024:
+  name: CypherCon 7.0
+  short: CypherCon 7.0
+  year: 2024
+  family: other
+  location: Milwaukee, WI
+  dates: April 4-5, 2024
+cyphercon-2025:
+  name: CypherCon 8.0
+  short: CypherCon 8.0
+  year: 2025
+  family: other
+  location: Milwaukee, WI
+  dates: April 3-4, 2025
+cyphercon-2026:
+  name: CypherCon 9.0
+  short: CypherCon 9.0
+  year: 2026
+  family: other
+  location: Milwaukee, WI
+  dates: April 1-2, 2026
+northsec-2015:
+  name: NorthSec 2015
+  short: NorthSec 2015
+  year: 2015
+  family: other
+  location: Montreal, QC
+northsec-2016:
+  name: NorthSec 2016
+  short: NorthSec 2016
+  year: 2016
+  family: other
+  location: Montreal, QC
+northsec-2017:
+  name: NorthSec 2017
+  short: NorthSec 2017
+  year: 2017
+  family: other
+  location: Montreal, QC
+northsec-2018:
+  name: NorthSec 2018
+  short: NorthSec 2018
+  year: 2018
+  family: other
+  location: Montreal, QC
+northsec-2019:
+  name: NorthSec 2019
+  short: NorthSec 2019
+  year: 2019
+  family: other
+  location: Montreal, QC
+northsec-2021:
+  name: NorthSec 2021 (remote/virtual)
+  short: NorthSec 2021 (remote/virtual)
+  year: 2021
+  family: other
+  location: Montreal, QC
+northsec-2022:
+  name: NorthSec 2022
+  short: NorthSec 2022
+  year: 2022
+  family: other
+  location: Montreal, QC
+northsec-2024:
+  name: NorthSec 2024
+  short: NorthSec 2024
+  year: 2024
+  family: other
+  location: Montreal, QC
+northsec-2026:
+  name: NorthSec 2026
+  short: NorthSec 2026
+  year: 2026
+  family: other
+  location: Montreal, QC
+carolinacon-2016:
+  name: CarolinaCon 12
+  short: CarolinaCon 12
+  year: 2016
+  family: other
+  location: North Carolina
+carolinacon-2019:
+  name: CarolinaCon 15
+  short: CarolinaCon 15
+  year: 2019
+  family: other
+  location: North Carolina
+carolinacon-2022:
+  name: CarolinaCon Online 2
+  short: CarolinaCon Online 2
+  year: 2022
+  family: other
+  location: North Carolina
+  dates: April 29-30, 2022
+carolinacon-2023:
+  name: CarolinaCon Online 3 (CarolinaCon 2023)
+  short: CarolinaCon Online 3 (CarolinaCon 2023)
+  year: 2023
+  family: other
+  location: North Carolina
+  dates: April 21-23, 2023
+queercon-2012:
+  name: Queercon 2012 (part of DEF CON 20)
+  short: Queercon 2012 (part of DEF CON 20)
+  year: 2012
+  family: other
+  location: Las Vegas, NV
+  dates: DEF CON 20 week
+queercon-2013:
+  name: Queercon 10 (2013)
+  short: Queercon 10 (2013)
+  year: 2013
+  family: other
+  location: Las Vegas, NV
+  dates: DEF CON 21 week
+queercon-2014:
+  name: Queercon 11 (2014)
+  short: Queercon 11 (2014)
+  year: 2014
+  family: other
+  location: Las Vegas, NV
+  dates: DEF CON 22 week
+queercon-2015:
+  name: Queercon 12 (2015)
+  short: Queercon 12 (2015)
+  year: 2015
+  family: other
+  location: Las Vegas, NV
+  dates: DEF CON 23 week
+queercon-2016:
+  name: Queercon 13 (2016)
+  short: Queercon 13 (2016)
+  year: 2016
+  family: other
+  location: Las Vegas, NV
+  dates: DEF CON 24 week, Aug 2016
+queercon-2017:
+  name: Queercon 14 (2017)
+  short: Queercon 14 (2017)
+  year: 2017
+  family: other
+  location: Las Vegas, NV
+  dates: DEF CON 25 week, Jul 2017
+queercon-2018:
+  name: Queercon 15 (2018)
+  short: Queercon 15 (2018)
+  year: 2018
+  family: other
+  location: Las Vegas, NV
+  dates: DEF CON 26 week, Aug 2018
+queercon-2022:
+  name: Queercon 2022
+  short: Queercon 2022
+  year: 2022
+  family: other
+  location: Las Vegas, NV
+  dates: DEF CON 30 week, Aug 2022
+tiaracon-2017:
+  name: 'TiaraCon 2017: Alliances!'
+  short: 'TiaraCon 2017: Alliances!'
+  year: 2017
+  family: other
+  location: Las Vegas, NV
+  dates: July 27-28, 2017 (Caesars, DEF CON 25 week)
+shmoocon-2009:
+  name: ShmooCon V (2009)
+  short: ShmooCon V (2009)
+  year: 2009
+  family: other
+  location: Washington, DC
+shmoocon-2010:
+  name: ShmooCon 2010
+  short: ShmooCon 2010
+  year: 2010
+  family: other
+  location: Washington, DC
+shmoocon-2012:
+  name: ShmooCon 8 (2012)
+  short: ShmooCon 8 (2012)
+  year: 2012
+  family: other
+  location: Washington, DC
+  dates: January 27-29, 2012
+shmoocon-2018:
+  name: ShmooCon 2018
+  short: ShmooCon 2018
+  year: 2018
+  family: other
+  location: Washington, DC
+shmoocon-2024:
+  name: ShmooCon 2024
+  short: ShmooCon 2024
+  year: 2024
+  family: other
+  location: Washington, DC
+  dates: January 12-14, 2024
+shmoocon-2025:
+  name: ShmooCon XX / 2025 (final ShmooCon)
+  short: ShmooCon XX / 2025 (final ShmooCon)
+  year: 2025
+  family: other
+  location: Washington, DC
+  dates: January 10-12, 2025
+bsides-cape-town-2017:
+  name: BSides Cape Town 2017
+  short: BSides Cape Town 2017
+  year: 2017
+  family: bsides
+  location: Dimension Data, Cape Town
+  dates: December 2, 2017
+bsides-cape-town-2019:
+  name: BSides Cape Town 2019
+  short: BSides Cape Town 2019
+  year: 2019
+  family: bsides
+  location: Dimension Data, Cape Town
+oshwdem-2019:
+  name: OSHWDem 2019
+  short: OSHWDem 2019
+  year: 2019
+  family: other
+  location: A Coruña, Spain
+  dates: November 9, 2019
+bsides-orlando-2023:
+  name: 'BSides Orlando 2023: Rise of the Robots'
+  short: 'BSides Orlando 2023: Rise of the Robots'
+  year: 2023
+  family: bsides
+  location: Orlando, FL
+  dates: October 6-7, 2023
+bsides-orlando-2024:
+  name: BSides Orlando 2024
+  short: BSides Orlando 2024
+  year: 2024
+  family: bsides
+  location: Full Sail University, Orlando/Winter Park FL
+bsides-orlando-2025:
+  name: BSides Orlando 2025
+  short: BSides Orlando 2025
+  year: 2025
+  family: bsides
+  location: Full Sail University, Winter Park, FL
+  dates: September 26-27, 2025
+bsides-orlando-2026:
+  name: BSides Orlando 2026
+  short: BSides Orlando 2026
+  year: 2026
+  family: bsides
+  location: Full Sail Live Venue, Winter Park, FL
+  dates: September 25-26, 2026
+hope-2010:
+  name: The Next HOPE
+  short: The Next HOPE
+  year: 2010
+  family: other
+  location: New York, NY
+  dates: July 16-18, 2010
+hope-2014:
+  name: HOPE X
+  short: HOPE X
+  year: 2014
+  family: other
+  location: New York, NY
+  dates: July 18-20, 2014
+hope-2020:
+  name: HOPE 2020
+  short: HOPE 2020
+  year: 2020
+  family: other
+  location: New York, NY
+  dates: July 25 - August 2, 2020
+hope-2024:
+  name: HOPE XV
+  short: HOPE XV
+  year: 2024
+  family: other
+  location: New York, NY
+  dates: July 12-14, 2024
+bsides-jacksonville-2024:
+  name: BSides Jacksonville 2024
+  short: BSides Jacksonville 2024
+  year: 2024
+  family: bsides
+  location: Jacksonville, FL
+bsides-jacksonville-2025:
+  name: BSides Jacksonville 2025
+  short: BSides Jacksonville 2025
+  year: 2025
+  family: bsides
+  location: UNF, Jacksonville, FL
+  dates: November 15, 2025
+bsides-adelaide-2024:
+  name: BSides Adelaide 2024
+  short: BSides Adelaide 2024
+  year: 2024
+  family: bsides
+  location: Lot Fourteen, Adelaide SA, Australia
+  dates: Friday 17th May 2024
+bsides-adelaide-2026:
+  name: BSides Adelaide 2026
+  short: BSides Adelaide 2026
+  year: 2026
+  family: bsides
+  location: Amora Hotel Adelaide (previously Hilton Adelaide), 233 Victoria Square, Adelaide SA 5000, Australia
+  dates: Monday 27th July 2026
+bsides-iowa-2018:
+  name: BSides Iowa 2018
+  short: BSides Iowa 2018
+  year: 2018
+  family: bsides
+  location: Iowa
+bsides-rochester-2024:
+  name: BSides Rochester 2024
+  short: BSides Rochester 2024
+  year: 2024
+  family: bsides
+  location: Rochester, NY / RIT area
+  dates: Saturday, spring 2024 (per Reddit posts)
+bsidesdfw-2018:
+  name: BSides Dfw 2018
+  short: BSides Dfw 2018
+  year: 2018
+  family: bsides
+  location: Dallas-Fort Worth, TX
+bsidesdfw-2019:
+  name: BSides Dfw 2019
+  short: BSides Dfw 2019
+  year: 2019
+  family: bsides
+  location: Dallas-Fort Worth, TX
+bsidesdfw-2022:
+  name: BSides Dfw 2022
+  short: BSides Dfw 2022
+  year: 2022
+  family: bsides
+  location: Dallas-Fort Worth, TX
+bsidesdfw-2024:
+  name: BSides Dfw 2024
+  short: BSides Dfw 2024
+  year: 2024
+  family: bsides
+  location: Dallas-Fort Worth, TX
+bsidespr-2019:
+  name: BSides Puerto Rico 2019
+  short: BSides Puerto Rico 2019
+  year: 2019
+  family: bsides
+  location: Puerto Rico
+bsidespr-2024:
+  name: BSides Puerto Rico 2024
+  short: BSides Puerto Rico 2024
+  year: 2024
+  family: bsides
+  location: San Juan, Puerto Rico
+  dates: April 2024
+bsides-san-diego-2020:
+  name: BSides San Diego 2020
+  short: BSides San Diego 2020
+  year: 2020
+  family: bsides
+  location: San Diego, CA
+bsides-san-diego-2025:
+  name: BSides San Diego 2025
+  short: BSides San Diego 2025
+  year: 2025
+  family: bsides
+  location: San Diego, CA
+  dates: March 29, 2025
+bsides-san-diego-2026:
+  name: BSides San Diego 2026
+  short: BSides San Diego 2026
+  year: 2026
+  family: bsides
+  location: San Diego State University, San Diego, CA
+  dates: April 4, 2026
+bsides-tallinn-2022:
+  name: BSides Tallinn 2022
+  short: BSides Tallinn 2022
+  year: 2022
+  family: bsides
+  location: Tallinn, Estonia
+  dates: September 22, 2022
+bsides-tallinn-2026:
+  name: BSides Tallinn 2026
+  short: BSides Tallinn 2026
+  year: 2026
+  family: bsides
+  location: Tallinn, Estonia
+  dates: September 25, 2026 (workshops Sept 24; badge flashing party originally Sept 3, postponed)
+bsides-slc-2015:
+  name: BSides Slc 2015
+  short: BSides Slc 2015
+  year: 2015
+  family: bsides
+  location: Salt Lake City, UT
+bsides-slc-2019:
+  name: BSides Slc 2019
+  short: BSides Slc 2019
+  year: 2019
+  family: bsides
+  location: Salt Lake City, UT
+bsides-canberra-2016:
+  name: BSides Canberra 2016
+  short: BSides Canberra 2016
+  year: 2016
+  family: bsides
+  location: Canberra, Australia
+bsides-canberra-2018:
+  name: BSides Canberra 2018
+  short: BSides Canberra 2018
+  year: 2018
+  family: bsides
+  location: Canberra, Australia
+bsides-canberra-2019:
+  name: BSides Canberra 2019
+  short: BSides Canberra 2019
+  year: 2019
+  family: bsides
+  location: Canberra, Australia
+bsides-canberra-2021:
+  name: BSides Canberra 2021
+  short: BSides Canberra 2021
+  year: 2021
+  family: bsides
+  location: Canberra, Australia
+bsides-canberra-2023:
+  name: BSides Canberra 2023
+  short: BSides Canberra 2023
+  year: 2023
+  family: bsides
+  location: Canberra, Australia
+bsides-canberra-2024:
+  name: BSides Canberra 2024
+  short: BSides Canberra 2024
+  year: 2024
+  family: bsides
+  location: Canberra, Australia
+  dates: 26-28 September 2024
+bsides-canberra-2025:
+  name: BSides Canberra 2025
+  short: BSides Canberra 2025
+  year: 2025
+  family: bsides
+  location: Canberra, Australia
+bsides-perth-2017:
+  name: BSides Perth 2017
+  short: BSides Perth 2017
+  year: 2017
+  family: bsides
+  location: Perth, Australia
+bsides-perth-2018:
+  name: BSides Perth 2018
+  short: BSides Perth 2018
+  year: 2018
+  family: bsides
+  location: UWA Business School, Perth, Australia
+  dates: 15-16 September 2018
+bsides-perth-2025:
+  name: BSides Perth 2025
+  short: BSides Perth 2025
+  year: 2025
+  family: bsides
+  location: Perth, Australia
+bsides-las-vegas-2017:
+  name: BSides Las Vegas 2017
+  short: BSides Las Vegas 2017
+  year: 2017
+  family: bsides
+  location: Las Vegas, NV
+bsides-san-francisco-2017:
+  name: BSides San Francisco 2017
+  short: BSides San Francisco 2017
+  year: 2017
+  family: bsides
+  location: San Francisco, CA
+bsides-san-francisco-2023:
+  name: BSides San Francisco 2023
+  short: BSides San Francisco 2023
+  year: 2023
+  family: bsides
+  location: San Francisco, CA
+bsides-san-francisco-2024:
+  name: BSides San Francisco 2024
+  short: BSides San Francisco 2024
+  year: 2024
+  family: bsides
+  location: San Francisco, CA
+bsides-seattle-2018:
+  name: BSides Seattle 2018
+  short: BSides Seattle 2018
+  year: 2018
+  family: bsides
+  location: Seattle, WA
+bsides-seattle-2025:
+  name: BSides Seattle 2025
+  short: BSides Seattle 2025
+  year: 2025
+  family: bsides
+  location: Seattle, WA
+bsides-portland-2017:
+  name: BSidesPDX 2017
+  short: BSidesPDX 2017
+  year: 2017
+  family: bsides
+  location: Oregon Convention Center, Portland, OR
+  dates: October 20-21, 2017
+bsides-boise-2017:
+  name: BSides Boise 2017
+  short: BSides Boise 2017
+  year: 2017
+  family: bsides
+  location: Boise, ID
+bsides-philadelphia-2023:
+  name: BSidesPhilly 2023
+  short: BSidesPhilly 2023
+  year: 2023
+  family: bsides
+  location: Philadelphia, PA
+bsides-augusta-2019:
+  name: BSides Augusta 2019
+  short: BSides Augusta 2019
+  year: 2019
+  family: bsides
+  location: Augusta, GA
+bsides-augusta-2021:
+  name: BSides Augusta 2021
+  short: BSides Augusta 2021
+  year: 2021
+  family: bsides
+  location: Augusta, GA
+bsides-augusta-2023:
+  name: BSides Augusta 2023
+  short: BSides Augusta 2023
+  year: 2023
+  family: bsides
+  location: Augusta, GA
+bsides-tampa-2018:
+  name: BSides Tampa 2018
+  short: BSides Tampa 2018
+  year: 2018
+  family: bsides
+  location: Tampa, FL
+bsides-tampa-2025:
+  name: BSides Tampa 2025
+  short: BSides Tampa 2025
+  year: 2025
+  family: bsides
+  location: Tampa, FL
+bsides-tampa-2026:
+  name: BSides Tampa 2026
+  short: BSides Tampa 2026
+  year: 2026
+  family: bsides
+  location: Tampa, FL
+  dates: May 16, 2026
+bsides-nashville-2025:
+  name: BSides Nashville 2025
+  short: BSides Nashville 2025
+  year: 2025
+  family: bsides
+  location: The Factory, Franklin, TN
+  dates: May 10, 2025
+bsides-nashville-2026:
+  name: BSides Nashville 2026
+  short: BSides Nashville 2026
+  year: 2026
+  family: bsides
+  location: Nashville, TN area
+bsides-charleston-2019:
+  name: BSides Charleston 2019
+  short: BSides Charleston 2019
+  year: 2019
+  family: bsides
+  location: College of Charleston, SC
+bsides-charleston-2022:
+  name: BSides Charleston 2022
+  short: BSides Charleston 2022
+  year: 2022
+  family: bsides
+  location: College of Charleston, SC
+bsides-dublin-2026:
+  name: BSides Dublin 2026
+  short: BSides Dublin 2026
+  year: 2026
+  family: bsides
+  location: Trinity Business School, Trinity College Dublin, Dublin, Ireland
+  dates: May 23, 2026
+bsides-kansas-city-2019:
+  name: BSidesKC 2019
+  short: BSidesKC 2019
+  year: 2019
+  family: bsides
+  location: Kansas City, USA
+bsides-kansas-city-2021:
+  name: BSidesKC 2021
+  short: BSidesKC 2021
+  year: 2021
+  family: bsides
+  location: Kansas City, USA
+bsides-kansas-city-2023:
+  name: BSidesKC 2023
+  short: BSidesKC 2023
+  year: 2023
+  family: bsides
+  location: Kansas City, USA
+bsides-kansas-city-2025:
+  name: BSidesKC 2025
+  short: BSidesKC 2025
+  year: 2025
+  family: bsides
+  location: Kansas City, USA
+  dates: April 25-26, 2025
+bsides-kansas-city-2026:
+  name: BSidesKC 2026 (unofficial)
+  short: BSidesKC 2026 (unofficial)
+  year: 2026
+  family: bsides
+  location: Kansas City, USA
+bsides-cleveland-2026:
+  name: BSidesCLE 2026 Annual Conference
+  short: BSidesCLE 2026 Annual Conference
+  year: 2026
+  family: bsides
+  location: Tinkham Veale University Center, CWRU, Cleveland OH
+  dates: September 26, 2026
+bsides-chicago-2026:
+  name: BSides312 2026
+  short: BSides312 2026
+  year: 2026
+  family: bsides
+  location: Irish American Heritage Center, Chicago, IL
+  dates: May 16, 2026
+bsides-vancouver-2019:
+  name: BSides Vancouver 2019
+  short: BSides Vancouver 2019
+  year: 2019
+  family: bsides
+  location: Vancouver, BC
+bsides-vancouver-2025:
+  name: BSides Vancouver 2025
+  short: BSides Vancouver 2025
+  year: 2025
+  family: bsides
+  location: Vancouver, BC
+layerone-2014:
+  name: LayerOne 2014
+  short: LayerOne 2014
+  year: 2014
+  family: other
+  location: Los Angeles, CA
+  dates: May 2014
+layerone-2015:
+  name: LayerOne 2015
+  short: LayerOne 2015
+  year: 2015
+  family: other
+  location: Los Angeles, CA
+  dates: May 2015
+layerone-2016:
+  name: LayerOne 2016
+  short: LayerOne 2016
+  year: 2016
+  family: other
+  location: Los Angeles, CA
+layerone-2017:
+  name: LayerOne 2017
+  short: LayerOne 2017
+  year: 2017
+  family: other
+  location: Los Angeles, CA
+layerone-2018:
+  name: LayerOne 2018
+  short: LayerOne 2018
+  year: 2018
+  family: other
+  location: Los Angeles, CA
+  dates: May 2018
+layerone-2019:
+  name: LayerOne 2019 (Blade Runner theme)
+  short: LayerOne 2019 (Blade Runner theme)
+  year: 2019
+  family: other
+  location: Los Angeles, CA
+  dates: May 2019
+layerone-2023:
+  name: LayerOne 2023
+  short: LayerOne 2023
+  year: 2023
+  family: other
+  location: Los Angeles, CA
+layerone-2024:
+  name: LayerOne 2024
+  short: LayerOne 2024
+  year: 2024
+  family: other
+  location: Los Angeles, CA
+layerone-2025:
+  name: LayerOne 2025
+  short: LayerOne 2025
+  year: 2025
+  family: other
+  location: Los Angeles, CA
+  dates: May 24-25, 2025
+layerone-2026:
+  name: LayerOne 2026
+  short: LayerOne 2026
+  year: 2026
+  family: other
+  location: Los Angeles, CA
+  dates: May 2026
+cactuscon-2014:
+  name: CactusCon 2014
+  short: CactusCon 2014
+  year: 2014
+  family: other
+  location: Arizona
+cactuscon-2017:
+  name: CactusCon 2017
+  short: CactusCon 2017
+  year: 2017
+  family: other
+  location: Arizona
+cactuscon-2018:
+  name: CactusCon 2018
+  short: CactusCon 2018
+  year: 2018
+  family: other
+  location: Arizona
+cactuscon-2019:
+  name: CactusCon 8 (2019)
+  short: CactusCon 8 (2019)
+  year: 2019
+  family: other
+  location: Arizona
+cactuscon-2023:
+  name: CactusCon 11 (2023)
+  short: CactusCon 11 (2023)
+  year: 2023
+  family: other
+  location: Arizona
+cactuscon-2024:
+  name: CactusCon 12 (2024)
+  short: CactusCon 12 (2024)
+  year: 2024
+  family: other
+  location: Arizona
+cactuscon-2025:
+  name: CactusCon 13 (2025)
+  short: CactusCon 13 (2025)
+  year: 2025
+  family: other
+  location: Arizona
+cactuscon-2026:
+  name: CactusCon 14 (2026)
+  short: CactusCon 14 (2026)
+  year: 2026
+  family: other
+  location: Arizona
+  dates: February 2026
+rvasec-2012:
+  name: RVAsec 2012
+  short: RVAsec 2012
+  year: 2012
+  family: other
+  location: Richmond, VA
+  dates: 2012 (first RVAsec, keynote by Marcus Ranum)
+rvasec-2013:
+  name: RVAsec 2013
+  short: RVAsec 2013
+  year: 2013
+  family: other
+  location: Richmond, VA
+  dates: May 31 - June 1, 2013
+rvasec-2014:
+  name: RVAsec 2014
+  short: RVAsec 2014
+  year: 2014
+  family: other
+  location: Richmond, VA
+  dates: '2014'
+rvasec-2015:
+  name: RVAsec 2015
+  short: RVAsec 2015
+  year: 2015
+  family: other
+  location: Richmond, VA
+  dates: '2015'
+rvasec-2016:
+  name: RVAsec 2016
+  short: RVAsec 2016
+  year: 2016
+  family: other
+  location: Richmond, VA
+  dates: '2016'
+rvasec-2017:
+  name: RVAsec 2017
+  short: RVAsec 2017
+  year: 2017
+  family: other
+  location: Richmond, VA
+  dates: '2017'
+rvasec-2018:
+  name: RVAsec 2018
+  short: RVAsec 2018
+  year: 2018
+  family: other
+  location: Richmond, VA
+  dates: '2018'
+rvasec-2019:
+  name: RVAsec 2019
+  short: RVAsec 2019
+  year: 2019
+  family: other
+  location: Richmond, VA
+  dates: '2019'
+rvasec-2021:
+  name: RVAsec 2021
+  short: RVAsec 2021
+  year: 2021
+  family: other
+  location: Richmond, VA
+  dates: '2021'
+rvasec-2022:
+  name: RVAsec 2022
+  short: RVAsec 2022
+  year: 2022
+  family: other
+  location: Richmond, VA
+  dates: '2022'
+rvasec-2023:
+  name: RVAsec 2023
+  short: RVAsec 2023
+  year: 2023
+  family: other
+  location: Richmond, VA
+  dates: '2023'
+rvasec-2024:
+  name: RVAsec 2024
+  short: RVAsec 2024
+  year: 2024
+  family: other
+  location: Richmond, VA
+  dates: '2024'
+rvasec-2025:
+  name: RVAsec 2025
+  short: RVAsec 2025
+  year: 2025
+  family: other
+  location: Richmond, VA
+  dates: '2025'
+rvasec-2026:
+  name: RVAsec 2026
+  short: RVAsec 2026
+  year: 2026
+  family: other
+  location: Richmond, VA
+  dates: June 9-10, 2026
+derbycon-2012:
+  name: DerbyCon 2.0 "Reunion"
+  short: DerbyCon 2.0 "Reunion"
+  year: 2012
+  family: other
+  location: Louisville, KY
+  dates: September 27–30, 2012
+derbycon-2013:
+  name: DerbyCon 3.0 "All in the Family"
+  short: DerbyCon 3.0 "All in the Family"
+  year: 2013
+  family: other
+  location: Louisville, KY
+  dates: September 27–30, 2013
+derbycon-2016:
+  name: DerbyCon 6.0 "Recharge"
+  short: DerbyCon 6.0 "Recharge"
+  year: 2016
+  family: other
+  location: Louisville, KY
+  dates: September 21–25, 2016
+derbycon-2017:
+  name: DerbyCon 7.0 "Legacy"
+  short: DerbyCon 7.0 "Legacy"
+  year: 2017
+  family: other
+  location: Louisville, KY
+  dates: September 20–24, 2017
+derbycon-2019:
+  name: DerbyCon 9.0 "Finish Line" (final edition)
+  short: DerbyCon 9.0 "Finish Line" (final edition)
+  year: 2019
+  family: other
+  location: Louisville, KY
+  dates: September 4–8, 2019
+grrcon-2013:
+  name: GrrCON 2013
+  short: GrrCON 2013
+  year: 2013
+  family: other
+  location: Grand Rapids, MI
+grrcon-2021:
+  name: GrrCON 0xA (10th anniversary)
+  short: GrrCON 0xA (10th anniversary)
+  year: 2021
+  family: other
+  location: Grand Rapids, MI
+  dates: September 16–17, 2021
+grrcon-2024:
+  name: GrrCON 2024
+  short: GrrCON 2024
+  year: 2024
+  family: other
+  location: Grand Rapids, MI
+grrcon-2025:
+  name: GrrCON 2025
+  short: GrrCON 2025
+  year: 2025
+  family: other
+  location: Grand Rapids, MI
+blue-team-con-2022:
+  name: Blue Team Con 2022
+  short: Blue Team Con 2022
+  year: 2022
+  family: other
+  location: Chicago, IL
+hackers-teaching-hackers-2019:
+  name: Hackers Teaching Hackers 2019
+  short: Hackers Teaching Hackers 2019
+  year: 2019
+  family: other
+  location: Columbus, OH
+hackers-teaching-hackers-2021:
+  name: Hackers Teaching Hackers 2021
+  short: Hackers Teaching Hackers 2021
+  year: 2021
+  family: other
+  location: Columbus, OH
+hackers-teaching-hackers-2024:
+  name: Hackers Teaching Hackers 2024
+  short: Hackers Teaching Hackers 2024
+  year: 2024
+  family: other
+  location: Columbus, OH
+hackers-teaching-hackers-2025:
+  name: 'HTH 2025: Short Circuit'
+  short: 'HTH 2025: Short Circuit'
+  year: 2025
+  family: other
+  location: Columbus, OH
+hackers-teaching-hackers-2026:
+  name: Hardware the Hard Way 2026 (HTH 2026)
+  short: Hardware the Hard Way 2026 (HTH 2026)
+  year: 2026
+  family: other
+  location: Columbus, OH
+texas-cyber-summit-2022:
+  name: Texas Cyber Summit 2022
+  short: Texas Cyber Summit 2022
+  year: 2022
+  family: other
+  location: Texas
+  dates: September 22-24, 2022
+kernelcon-2019:
+  name: Kernelcon 2019
+  short: Kernelcon 2019
+  year: 2019
+  family: other
+  location: Omaha, NE
+  dates: April 5-6, 2019
+kernelcon-2020:
+  name: Kernelcon 2020
+  short: Kernelcon 2020
+  year: 2020
+  family: other
+  location: Omaha, NE
+  dates: '2020 (theme: Vision)'
+kernelcon-2021:
+  name: Kernelcon 2021
+  short: Kernelcon 2021
+  year: 2021
+  family: other
+  location: Omaha, NE
+  dates: '2021'
+kernelcon-2022:
+  name: Kernelcon 2022
+  short: Kernelcon 2022
+  year: 2022
+  family: other
+  location: Omaha, NE
+  dates: March 30-April 2, 2022
+kernelcon-2023:
+  name: Kernelcon 2023
+  short: Kernelcon 2023
+  year: 2023
+  family: other
+  location: Omaha, NE
+  dates: '2023'
+kernelcon-2024:
+  name: Kernelcon 2024
+  short: Kernelcon 2024
+  year: 2024
+  family: other
+  location: Omaha, NE
+  dates: '2024'
+kernelcon-2025:
+  name: Kernelcon 2025
+  short: Kernelcon 2025
+  year: 2025
+  family: other
+  location: Omaha, NE
+  dates: '2025'
+kernelcon-2026:
+  name: Kernelcon 2026
+  short: Kernelcon 2026
+  year: 2026
+  family: other
+  location: Omaha, NE
+  dates: April 7-10, 2026 (main conference April 9-10)
+wild-west-hackin-fest-2024:
+  name: Wild West Hackin' Fest 2024
+  short: Wild West Hackin' Fest 2024
+  year: 2024
+  family: other
+  location: Deadwood, SD
+  dates: October 2024
+wild-west-hackin-fest-2025:
+  name: Wild West Hackin' Fest 2025
+  short: Wild West Hackin' Fest 2025
+  year: 2025
+  family: other
+  location: Deadwood, SD
+  dates: October 8-10, 2025
+toorcon-2010:
+  name: ToorCon 12
+  short: ToorCon 12
+  year: 2010
+  family: other
+  location: San Diego, CA
+toorcon-2011:
+  name: ToorCon 13
+  short: ToorCon 13
+  year: 2011
+  family: other
+  location: San Diego, CA
+toorcon-2012:
+  name: ToorCon 14
+  short: ToorCon 14
+  year: 2012
+  family: other
+  location: San Diego, CA
+hushcon-2016:
+  name: HushCon 2016
+  short: HushCon 2016
+  year: 2016
+  family: other
+  location: Seattle, WA
+toorcamp-2018:
+  name: ToorCamp 2018
+  short: ToorCamp 2018
+  year: 2018
+  family: other
+  location: Washington
+toorcon-2018:
+  name: ToorCon 20
+  short: ToorCon 20
+  year: 2018
+  family: other
+  location: San Diego, CA
+toorcamp-2022:
+  name: ToorCamp 2022
+  short: ToorCamp 2022
+  year: 2022
+  family: other
+  location: Washington
+hushcon-2023:
+  name: HushCon West 2023 (Winter)
+  short: HushCon West 2023 (Winter)
+  year: 2023
+  family: other
+  location: Seattle, WA
+  dates: December 2023
+toorcamp-2024:
+  name: ToorCamp 2024
+  short: ToorCamp 2024
+  year: 2024
+  family: other
+  location: Washington
+  dates: June 26-30, 2024
+def-con-china-2019:
+  name: DEF CON China 1.0
+  short: DEF CON China 1.0
+  year: 2019
+  family: other
+  location: Beijing, China
+  dates: 31 May - 2 June 2019
+kiwicon-2013:
+  name: Kiwicon 2013
+  short: Kiwicon 2013
+  year: 2013
+  family: other
+  location: Wellington, NZ
+  dates: Nov 9-10, 2013
+kiwicon-2015:
+  name: Kiwicon 2015
+  short: Kiwicon 2015
+  year: 2015
+  family: other
+  location: Wellington, NZ
+  dates: Dec 10-11, 2015
+kiwicon-2016:
+  name: Kiwicon 2016
+  short: Kiwicon 2016
+  year: 2016
+  family: other
+  location: Wellington, NZ
+  dates: Nov 15-18, 2016 (Kiwicon X)
+kiwicon-2018:
+  name: Kiwicon 2018
+  short: Kiwicon 2018
+  year: 2018
+  family: other
+  location: Wellington, NZ
+  dates: Nov 16-17, 2018 (Kiwicon 2038AD)
+troopers-2011:
+  name: Troopers 2011
+  short: Troopers 2011
+  year: 2011
+  family: other
+  location: Heidelberg, Germany
+troopers-2019:
+  name: Troopers 2019
+  short: Troopers 2019
+  year: 2019
+  family: other
+  location: Heidelberg, Germany
+troopers-2020:
+  name: Troopers 2020
+  short: Troopers 2020
+  year: 2020
+  family: other
+  location: Heidelberg, Germany
+troopers-2022:
+  name: Troopers 2022
+  short: Troopers 2022
+  year: 2022
+  family: other
+  location: Heidelberg, Germany
+troopers-2023:
+  name: Troopers 2023
+  short: Troopers 2023
+  year: 2023
+  family: other
+  location: Heidelberg, Germany
+troopers-2025:
+  name: Troopers 2025
+  short: Troopers 2025
+  year: 2025
+  family: other
+  location: Heidelberg, Germany
+hitb-2018:
+  name: Hitbsecconf 2018
+  short: Hitbsecconf 2018
+  year: 2018
+  family: other
+  location: Amsterdam, Netherlands
+hitb-2019:
+  name: Hitbsecconf 2019
+  short: Hitbsecconf 2019
+  year: 2019
+  family: other
+  location: Amsterdam, Netherlands
+  dates: May 6-10, 2019
+hitb-2021:
+  name: HITB 2021
+  short: HITB 2021
+  year: 2021
+  family: other
+  location: Amsterdam, NL
+hitb-2024:
+  name: Hitbsecconf 2024
+  short: Hitbsecconf 2024
+  year: 2024
+  family: other
+  location: Bangkok, Thailand
+nullcon-2014:
+  name: Nullcon 2014
+  short: Nullcon 2014
+  year: 2014
+  family: other
+  location: Goa, India
+disobey-2017:
+  name: Disobey 2017
+  short: Disobey 2017
+  year: 2017
+  family: other
+  location: Helsinki, Finland
+disobey-2018:
+  name: Disobey 2018
+  short: Disobey 2018
+  year: 2018
+  family: other
+  location: Helsinki, Finland
+disobey-2019:
+  name: Disobey 2019
+  short: Disobey 2019
+  year: 2019
+  family: other
+  location: Helsinki, Finland
+  dates: January 11-12, 2019
+disobey-2020:
+  name: Disobey 2020
+  short: Disobey 2020
+  year: 2020
+  family: other
+  location: Helsinki, Finland
+disobey-2023:
+  name: Disobey 2023
+  short: Disobey 2023
+  year: 2023
+  family: other
+  location: Helsinki, Finland
+disobey-2024:
+  name: Disobey 2024
+  short: Disobey 2024
+  year: 2024
+  family: other
+  location: Helsinki, Finland
+disobey-2025:
+  name: Disobey 2025
+  short: Disobey 2025
+  year: 2025
+  family: other
+  location: Helsinki, Finland
+  dates: 14-15 February 2025
+disobey-2026:
+  name: Disobey 2026
+  short: Disobey 2026
+  year: 2026
+  family: other
+  location: Helsinki, Finland
+  dates: 13-14 February 2026
+sec-t-2024:
+  name: SEC-T 2024
+  short: SEC-T 2024
+  year: 2024
+  family: other
+  location: Stockholm, Sweden
+44con-2016:
+  name: 44CON 2016
+  short: 44CON 2016
+  year: 2016
+  family: other
+  location: London, UK
+44con-2017:
+  name: 44CON 2017
+  short: 44CON 2017
+  year: 2017
+  family: other
+  location: London, UK
+44con-2025:
+  name: 44CON 2025
+  short: 44CON 2025
+  year: 2025
+  family: other
+  location: London, UK
+  dates: 18-19 September 2025
+steelcon-2018:
+  name: SteelCon 2018
+  short: SteelCon 2018
+  year: 2018
+  family: other
+  location: Sheffield, UK
+brucon-2018:
+  name: BruCON 0x0A
+  short: BruCON 0x0A
+  year: 2018
+  family: other
+  location: Belgium
+  dates: October 2018
+brucon-2019:
+  name: BruCON 2019
+  short: BruCON 2019
+  year: 2019
+  family: other
+  location: Belgium
+brucon-2021:
+  name: BruCON 2021
+  short: BruCON 2021
+  year: 2021
+  family: other
+  location: Belgium
+brucon-2024:
+  name: BruCON 0x10
+  short: BruCON 0x10
+  year: 2024
+  family: other
+  location: Belgium
+  dates: 16-19 April (spring training) and September 2024
+lehack-2023:
+  name: leHACK 2023
+  short: leHACK 2023
+  year: 2023
+  family: other
+  location: Paris, France
+lehack-2024:
+  name: leHACK 2024
+  short: leHACK 2024
+  year: 2024
+  family: other
+  location: Paris, France
+hitcon-2017:
+  name: Hitcon Cmt 2017
+  short: Hitcon Cmt 2017
+  year: 2017
+  family: other
+  location: Taipei, Taiwan
+hitcon-2018:
+  name: Hitcon Cmt 2018
+  short: Hitcon Cmt 2018
+  year: 2018
+  family: other
+  location: Taipei, Taiwan
+hitcon-2019:
+  name: Hitcon Cmt 2019
+  short: Hitcon Cmt 2019
+  year: 2019
+  family: other
+  location: Taipei, Taiwan
+hitcon-2023:
+  name: Hitcon Cmt 2023
+  short: Hitcon Cmt 2023
+  year: 2023
+  family: other
+  location: Academia Sinica, Taipei, Taiwan
+hitcon-2024:
+  name: Hitcon Cmt 2024
+  short: Hitcon Cmt 2024
+  year: 2024
+  family: other
+  location: Academia Sinica, Taipei, Taiwan
+hitcon-2025:
+  name: HITCON 2025
+  short: HITCON 2025
+  year: 2025
+  family: other
+  location: Taipei, Taiwan
+hitcon-2026:
+  name: HITCON 2026
+  short: HITCON 2026
+  year: 2026
+  family: other
+  location: Taipei, Taiwan
+balccon-2016:
+  name: BalCCon2k16 - Time is an illusion
+  short: BalCCon2k16 - Time is an illusion
+  year: 2016
+  family: other
+  location: Novi Sad, Serbia
+balccon-2023:
+  name: BalCCon2k23 - System Failure
+  short: BalCCon2k23 - System Failure
+  year: 2023
+  family: other
+  location: Novi Sad, Serbia
+balccon-2024:
+  name: BalCCon2k24 - Invisible Path
+  short: BalCCon2k24 - Invisible Path
+  year: 2024
+  family: other
+  location: Novi Sad, Serbia
+rootedcon-2025:
+  name: RootedCON Madrid 2025
+  short: RootedCON Madrid 2025
+  year: 2025
+  family: other
+  location: Madrid, Spain
+h-c0n-2026:
+  name: h-c0n 2026 (VI edicion)
+  short: h-c0n 2026 (VI edicion)
+  year: 2026
+  family: other
+  location: Madrid, Spain
+  dates: February 5-7, 2026 (badge/CTF ran Feb 6-13, 2026)
+ekoparty-2021:
+  name: Ekoparty 2021
+  short: Ekoparty 2021
+  year: 2021
+  family: other
+  location: Buenos Aires, Argentina
+ekoparty-2023:
+  name: Ekoparty 2023
+  short: Ekoparty 2023
+  year: 2023
+  family: other
+  location: Buenos Aires, Argentina
+  dates: September 2023
+ekoparty-2024:
+  name: Ekoparty 2024
+  short: Ekoparty 2024
+  year: 2024
+  family: other
+  location: Buenos Aires, Argentina
+ekoparty-2025:
+  name: Ekoparty 2025
+  short: Ekoparty 2025
+  year: 2025
+  family: other
+  location: Buenos Aires, Argentina
+h2hc-2013:
+  name: H2HC 2013
+  short: H2HC 2013
+  year: 2013
+  family: other
+  location: São Paulo, Brazil
+h2hc-2015:
+  name: H2HC 2015
+  short: H2HC 2015
+  year: 2015
+  family: other
+  location: São Paulo, Brazil
+h2hc-2017:
+  name: H2HC 2017
+  short: H2HC 2017
+  year: 2017
+  family: other
+  location: São Paulo, Brazil
+h2hc-2018:
+  name: H2HC 2018
+  short: H2HC 2018
+  year: 2018
+  family: other
+  location: São Paulo, Brazil
+h2hc-2022:
+  name: H2HC 2022
+  short: H2HC 2022
+  year: 2022
+  family: other
+  location: São Paulo, Brazil
+h2hc-2023:
+  name: H2HC 2023
+  short: H2HC 2023
+  year: 2023
+  family: other
+  location: São Paulo, Brazil
+h2hc-2024:
+  name: H2HC 2024
+  short: H2HC 2024
+  year: 2024
+  family: other
+  location: São Paulo, Brazil
+  dates: December 14-15, 2024 (also reported Dec 16-17)
+hackfest-2019:
+  name: Hackfest 2019
+  short: Hackfest 2019
+  year: 2019
+  family: other
+  location: Quebec City, QC
+  dates: October 31 - November 2, 2019
+phdays-2024:
+  name: Phdays Fest 2024
+  short: Phdays Fest 2024
+  year: 2024
+  family: other
+  location: Moscow, Luzhniki
+  dates: May 2024
+phdays-2025:
+  name: Phdays Fest 2025
+  short: Phdays Fest 2025
+  year: 2025
+  family: other
+  location: Moscow, Luzhniki
+  dates: May 22-24, 2025
+zeronights-2016:
+  name: ZeroNights 2016
+  short: ZeroNights 2016
+  year: 2016
+  family: other
+  location: Moscow, Russia
+  dates: November 2016
+offzone-2018:
+  name: OFFZONE 2018
+  short: OFFZONE 2018
+  year: 2018
+  family: other
+  location: Moscow, Russia
+offzone-2019:
+  name: OFFZONE 2019
+  short: OFFZONE 2019
+  year: 2019
+  family: other
+  location: Moscow, Russia
+offzone-2022:
+  name: OFFZONE 2022
+  short: OFFZONE 2022
+  year: 2022
+  family: other
+  location: Moscow, Russia
+offzone-2023:
+  name: OFFZONE 2023
+  short: OFFZONE 2023
+  year: 2023
+  family: other
+  location: Moscow, Russia
+offzone-2024:
+  name: OFFZONE 2024
+  short: OFFZONE 2024
+  year: 2024
+  family: other
+  location: Moscow, Russia
+  dates: August 22-23, 2024
+offzone-2025:
+  name: OFFZONE 2025
+  short: OFFZONE 2025
+  year: 2025
+  family: other
+  location: Moscow, Russia
+nolacon-2018:
+  name: NolaCon 2018
+  short: NolaCon 2018
+  year: 2018
+  family: other
+  location: New Orleans, LA
+nolacon-2023:
+  name: NolaCon 2023
+  short: NolaCon 2023
+  year: 2023
+  family: other
+  location: New Orleans, LA
+  dates: May 2023
+nolacon-2024:
+  name: NolaCon 2024
+  short: NolaCon 2024
+  year: 2024
+  family: other
+  location: New Orleans, LA
+nolacon-2025:
+  name: NolaCon 2025
+  short: NolaCon 2025
+  year: 2025
+  family: other
+  location: New Orleans, LA
+ccc-congress-2025:
+  name: Chaos Communication Congress 2025
+  short: Chaos Communication Congress 2025
+  year: 2025
+  family: camp
+  location: Germany
+  dates: December 27-30, 2025
+gpn-2022:
+  name: GPN 2022
+  short: GPN 2022
+  year: 2022
+  family: camp
+  location: Karlsruhe, Germany
+easterhegg-2024:
+  name: Easterhegg 2024
+  short: Easterhegg 2024
+  year: 2024
+  family: camp
+  location: Germany
+bsides-portland-2015:
+  name: BSidespdx 2015
+  short: BSidespdx 2015
+  year: 2015
+  family: bsides
+  location: ''
+bsides-portland-2016:
+  name: BSidespdx 2016
+  short: BSidespdx 2016
+  year: 2016
+  family: bsides
+  location: ''
+bsides-portland-2018:
+  name: BSidespdx 2018
+  short: BSidespdx 2018
+  year: 2018
+  family: bsides
+  location: ''
+bsides-portland-2019:
+  name: BSidespdx 2019
+  short: BSidespdx 2019
+  year: 2019
+  family: bsides
+  location: ''
+bsides-portland-2020:
+  name: BSidespdx 2020
+  short: BSidespdx 2020
+  year: 2020
+  family: bsides
+  location: ''
+bsides-portland-2024:
+  name: BSidespdx 2024
+  short: BSidespdx 2024
+  year: 2024
+  family: bsides
+  location: ''
+bsides-kansas-city-2018:
+  name: BSides Kansas City 2018
+  short: BSides Kansas City 2018
+  year: 2018
+  family: bsides
+  location: ''
+bsides-st-louis-2019:
+  name: BSides St. Louis 2019
+  short: BSides St. Louis 2019
+  year: 2019
+  family: bsides
+  location: ''
+bsides-st-louis-2023:
+  name: BSides St. Louis 2023
+  short: BSides St. Louis 2023
+  year: 2023
+  family: bsides
+  location: ''
+bsides-kansas-city-2024:
+  name: BSides Kansas City 2024
+  short: BSides Kansas City 2024
+  year: 2024
+  family: bsides
+  location: ''
+bsides-cz-2025:
+  name: BSides Cz 2025
+  short: BSides Cz 2025
+  year: 2025
+  family: bsides
+  location: ''
+bsides-vilnius-2026:
+  name: BSides Vilnius 2026
+  short: BSides Vilnius 2026
+  year: 2026
+  family: bsides
+  location: ''
+bsides-bournemouth-2025:
+  name: BSides Bournemouth 2025
+  short: BSides Bournemouth 2025
+  year: 2025
+  family: bsides
+  location: ''
+bsides-cheltenham-2024:
+  name: BSides Cheltenham 2024
+  short: BSides Cheltenham 2024
+  year: 2024
+  family: bsides
+  location: ''
+bsides-cdmx-2024:
+  name: BSides Cdmx 2024
+  short: BSides Cdmx 2024
+  year: 2024
+  family: bsides
+  location: ''
+bsides-cdmx-2025:
+  name: BSides Cdmx 2025
+  short: BSides Cdmx 2025
+  year: 2025
+  family: bsides
+  location: ''
+rvasec-2020:
+  name: RVAsec 2020
+  short: RVAsec 2020
+  year: 2020
+  family: other
+  location: Richmond, VA
+ruxcon-2015:
+  name: Ruxcon 2015
+  short: Ruxcon 2015
+  year: 2015
+  family: other
+  location: Melbourne, AU
+ruxcon-2016:
+  name: Ruxcon 2016
+  short: Ruxcon 2016
+  year: 2016
+  family: other
+  location: Melbourne, AU
+ruxcon-2017:
+  name: Ruxcon 2017
+  short: Ruxcon 2017
+  year: 2017
+  family: other
+  location: Melbourne, AU
+crikeycon-2022:
+  name: CrikeyCon 2022
+  short: CrikeyCon 2022
+  year: 2022
+  family: other
+  location: Brisbane, AU
+open-sauce-2024:
+  name: Open Sauce 2024
+  short: Open Sauce 2024
+  year: 2024
+  family: other
+  location: San Francisco, CA
+open-sauce-2025:
+  name: Open Sauce 2025
+  short: Open Sauce 2025
+  year: 2025
+  family: other
+  location: San Francisco, CA
+open-sauce-2026:
+  name: Open Sauce 2026
+  short: Open Sauce 2026
+  year: 2026
+  family: other
+  location: San Francisco, CA
+ekoparty-2026:
+  name: Ekoparty 2026
+  short: Ekoparty 2026
+  year: 2026
+  family: other
+  location: Buenos Aires, Argentina
+roadsec-2017:
+  name: Roadsec 2017
+  short: Roadsec 2017
+  year: 2017
+  family: other
+  location: Brazil
+offzone-2020:
+  name: OFFZONE 2020
+  short: OFFZONE 2020
+  year: 2020
+  family: other
+  location: Moscow, Russia
+bsides-connecticut-2020:
+  name: BSides Connecticut 2020
+  short: BSides Connecticut 2020
+  year: 2020
+  family: bsides
+  location: ''
