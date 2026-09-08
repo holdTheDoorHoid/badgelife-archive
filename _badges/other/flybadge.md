@@ -58,17 +58,11 @@ sources:
   title: Belgrade Badge Demoscene | Hackaday.io
   accessed: '2026-09-07'
   note: Confirms the Demoscene contest context for the 2016 Hackaday Belgrade badge (designed by Voja Antonic), which FlyBadge was written to run on.
+  archived: https://web.archive.org/web/20251014131129/https://hackaday.io/contest/10521-belgrade-badge-demoscene
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-07'
-  notes: >-
-    FlyBadge is not a badge or SAO in its own right. It is a demoscene-contest firmware
-    submission (a Flappy-Bird-style game) written by Hackaday.io user "deurknop" for the
-    2016 Hackaday Belgrade conference badge, playable either on the physical badge or an
-    SDL-based emulator. The actual hardware it targets is the 2016 Hackaday Belgrade badge
-    designed by Voja Antonic, which does not yet have its own archive entry (see report).
-    No event id for a 2016 Hackaday Belgrade con was found in _data/events.yml, so this
-    could not be reassigned even if it were an item.
+  notes: FlyBadge is not a badge or SAO in its own right. It is a demoscene-contest firmware submission (a Flappy-Bird-style game) written by Hackaday.io user "deurknop" for the 2016 Hackaday Belgrade conference badge, playable either on the physical badge or an SDL-based emulator. The actual hardware it targets is the 2016 Hackaday Belgrade badge designed by Voja Antonic, which does not yet have its own archive entry (see report). No event id for a 2016 Hackaday Belgrade con was found in _data/events.yml, so this could not be reassigned even if it were an item.
 last_modified_date: '2026-09-07'
 ---
