@@ -1,12 +1,12 @@
 ---
 title: defcon_badgetag — Defcon 22 badge laser tag
-id: other-defcon-badgetag-defcon-22-badge-laser-tag
+id: dc22-defcon-badgetag-defcon-22-badge-laser-tag
 layout: badge
-parent: Other
+parent: DC22
 grand_parent: Badge Archive
 nav_exclude: true
 type: other
-event: other
+event: dc22
 year: 2014
 makers:
 - name: mrisher
@@ -88,6 +88,8 @@ research:
   last_checked: '2026-09-07'
   notes: 'No dc22/DEF CON 22 event id exists in _data/events.yml (the events list starts at dc24/2016), so event is left as "other" rather than corrected. This is a firmware modification of the stock official DEF CON 22 badge (not a standalone physical badge/SAO), so no images of a distinct physical item were found or saved — the hardware is the standard DC22 badge PCB, which this entry does not depict. Price, quantity, and distribution are not applicable/unknown since this was a free community firmware hack, not a sold item. Battery/power spec for the underlying DC22 badge was not confirmed in sources checked.'
 last_modified_date: '2026-09-07'
+redirect_from:
+- /badges/other/defcon-badgetag-defcon-22-badge-laser-tag/
 ---
 
 `defcon_badgetag` is a custom game firmware built by mrisher and Josh Cano ("joshcano") for the official DEF CON 22 attendee badge, distributed to roughly 14,000 attendees in August 2014. The stock badge — designed and manufactured by Parallax around a Propeller 1 (P8X32A) microcontroller — already carried IR transmit/receive hardware, touch-pad buttons, and eight LEDs as part of DEF CON's annual badge hacking challenge. Rather than building new hardware, mrisher and joshcano rewrote the badge's Spin firmware (based on the original badge code by Jon "JonnyMac" McPhalen and Ryan "1o57" Clarke) into a laser-tag game: pressing different touch-pad combinations fires distinct IR "blast" codes at other badges, triggers LED chase/police-light animations, and other badges respond to being "hit" over IR.

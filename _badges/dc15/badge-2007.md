@@ -1,12 +1,12 @@
 ---
 title: DEF CON 15 Badge (2007)
-id: other-badge-2007
+id: dc15-badge-2007
 layout: badge
-parent: Other
+parent: DC15
 grand_parent: Badge Archive
 nav_exclude: true
 type: badge
-event: other
+event: dc15
 year: 2007
 makers:
 - name: Joe Grand (Grand Idea Studio)
@@ -87,6 +87,8 @@ research:
   last_checked: '2026-09-07'
   notes: 'Fact-check pass (2026-09-07): re-fetched all three cited sources (ode PDF, BOM PDF, DC archive page) and confirmed every non-empty field and every factual sentence in the body against them - MCU (MC9S08QG8 / MC9S08QG8CFFE), 95x red 0603 LEDs (Avago HSMH-C192) in a 5x19 matrix, 2x CR2032, QT100 capacitive-touch UI with 16-character custom message and POV mode, unpopulated MMA7260QT accelerometer and MC13191FC transceiver footprints, ~6,800 badges worn, DC15 dates/venue, and the "Making of the DEF CON 15 Badge" talk. One correction made: make_your_own.open_source was "partial" but the ode PDF states plainly that "Complete source code and schematics are on the DEFCON CD and also available at" Grand Idea Studio''s site - both hardware and firmware were released, so per the guide this is "yes", not "partial"; corrected. No images were present to check. Could not find price/quantity-made figures beyond the ~6,800-worn estimate (likely attendance-driven, not a separate production figure) or a photo of the assembled badge (media.defcon.org hosts only PDFs here; Grand Idea Studio''s current site no longer has a dedicated DC badges page); look.shape and look.colors correctly left empty for that reason.'
 last_modified_date: '2026-09-07'
+redirect_from:
+- /badges/other/badge-2007/
 ---
 
 The DEF CON 15 badge was designed by Joe Grand (aka Kingpin) of Grand Idea Studio for the August 2007 conference at the Riviera Hotel and Casino in Las Vegas. It is a battery-powered PCB badge built around a Freescale MC9S08QG8 microcontroller, driving a matrix of 95 discrete red LEDs (5 columns by 19 rows) to display scrolling text. On power-up the badge stays asleep until the wearer touches one of two capacitive-touch icons, which step through modes: a default scrolling message, a custom-message editor (up to 16 characters, entered letter-by-letter through the two touch icons), a scroll-speed selector, and a persistence-of-vision mode that reveals a hidden message when the badge is waved through the air. It runs on two CR2032 coin-cell batteries.

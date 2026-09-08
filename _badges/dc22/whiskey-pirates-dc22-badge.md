@@ -1,12 +1,12 @@
 ---
 title: Whiskey Pirates DC22 Badge
-id: other-whiskey-pirates-dc22-badge
+id: dc22-whiskey-pirates-dc22-badge
 layout: badge
-parent: Other
+parent: DC22
 grand_parent: Badge Archive
 nav_exclude: true
 type: badge
-event: other
+event: dc22
 year: 2014
 makers:
 - name: Whiskey Pirate Crew
@@ -70,6 +70,8 @@ research:
   last_checked: '2026-09-07'
   notes: 'This badge was made for DEF CON 22 (2014), but events.yml has no dc22 entry (its DEF CON ids start at dc24), so event is left as "other". No photo of the physical badge, LED/display details, price, or quantity could be found; the repo contains only firmware source, compiled binaries, and a schematic PDF, no images. The Whiskey Pirate Crew is a social/hacking group (not a commercial badgelife maker) that has made a badge nearly every DEF CON year since; other entries in existing_titles.txt note their later badges as "not badgelife", consistent with this one being a gift/learning project rather than a sold item.'
 last_modified_date: '2026-09-07'
+redirect_from:
+- /badges/other/whiskey-pirates-dc22-badge/
 ---
 
 The Whiskey Pirates DC22 Badge, internally codenamed "Three Kings," was made by the Whiskey Pirate Crew for DEF CON 22 in 2014. It is a dual-microcontroller design pairing an STM32 with an ATtiny88, built explicitly as a learning project so a crew member could understand the hardware and firmware end to end. The maker's own notes describe it self-deprecatingly as a first attempt at low-level electrical design, with firmware developed in CooCox IDE/GCC for the STM32 side and Atmel Studio 6.2 for the ATtiny88 side.

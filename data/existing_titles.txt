@@ -35,8 +35,13 @@ cccamp-2019-numberwang-badge | Numberwang Badge | timonsku
 cyphercon-2017-cyphercon-2-0-cubic-badge | Cyphercon 2.0 Cubic Badge | Tymkrs
 cyphercon-2019-cyphercon-badge-with-paper-tape-reader | CypherCon Badge with Paper Tape Reader | tymkrs
 cyphercon-2022-cyphercon-5-3-badge-2022 | CypherCon 5.3 Badge (2022) | TYMKRS, Peter Shabino
+dc15-badge-2007 | DEF CON 15 Badge (2007) | Joe Grand (Grand Idea Studio)
+dc22-dc-darknet-id-badge | DEFCON 22 DC Darknet ID Badge | feather (oshwlab handle)
+dc22-defcon-badgetag-defcon-22-badge-laser-tag | defcon_badgetag — Defcon 22 badge laser tag | mrisher, joshcano
+dc22-whiskey-pirates-dc22-badge | Whiskey Pirates DC22 Badge | Whiskey Pirate Crew
 dc23-dc23-crypto-and-privacy-village-badge | DEF CON 23 Crypto and Privacy Village Badge | Crypto and Privacy Village (Karl Koscher, Jorge Lacoste)
 dc23-dc801-def-con-23-badge | DC801 2015 DEF CON VIP Party Badge | DC801, theTransistor
+dc23-hardware-hacking-village-learn-to-solder-kit | DEF CON 23 Hardware Hacking Village Learn-to-Solder Kit | Smitty, Krux, Cmdc0de
 dc23-shoot-electronic-badge | DEF CON 23 Shoot Electronic Badge | seeess
 dc24-and-xor-dc24-badge | AND!XOR DC24 Badge | AND!XOR
 dc24-andxor-defcon-24-badge | AND!XOR DEFCON 24 Badge | AND!XOR
@@ -890,7 +895,6 @@ other-attiny-816-1616-minibadge-devboard | ATtiny 816/1616 Minibadge Devboard | 
 other-audio-spectrum-analyzer-a-supercon-badge | Audio Spectrum Analyzer: A SuperCon Badge | Nathaniel Quillin
 other-avnet-badge | Avnet Badge | Avnet
 other-back-to-the-future-flux-capacitor-badge | Back to the Future Flux Capacitor Badge | Pedro Minatel
-other-badge-2007 | DEF CON 15 Badge (2007) | Joe Grand (Grand Idea Studio)
 other-badge-for-hackaday-belgrade-conference | Badge for Hackaday Belgrade Conference | Voja Antonic
 other-badge-for-hackaday-conference-2018-in-belgrade | Badge for Hackaday Conference 2018 in Belgrade | Voja Antonic
 other-badge-killer-shitty-add-on | Badge Killer Shitty Add-On | Gerben
@@ -923,14 +927,12 @@ other-cowboy-sao | Cowboy SAO | Alee (Tindie: alee97422)
 other-customdefconbadge | CustomDefconBadge | FoxMoss
 other-cybersp0re-defcon-badge-spore-cell-mutator-with-nfc | CyberSp0re — DEFCON badge Spore cell mutator with NFC | newtnewtnewt
 other-dabao-baochip-1x-dev-board | Dabao (Baochip-1x dev board) | Andrew "bunnie" Huang
-other-dc-darknet-id-badge | DEFCON 22 DC Darknet ID Badge | feather (oshwlab handle)
 other-dc225-sao-2024-firmware | DC225 SAO 2024 | DC225
 other-dc406-sao | DC406 SAO | |)3vice Makers |{its
 other-dc801-sao | DC801 SAO | snurkle engineering / hamster
 other-dczia-yolobadge-ziacon-2 | DCZia yolobadge (Ziacon 2) | DCZia
 other-def-con-singapore-2026-official-badge | DEF CON Singapore 2026 Official Badge | Circuit Crafters, Dani Weidman, Zach Resmer
 other-defcon-badge-pic16f1508 | DEFCON_BADGE (PIC16F1508) | InfinityBuzz
-other-defcon-badgetag-defcon-22-badge-laser-tag | defcon_badgetag — Defcon 22 badge laser tag | mrisher, joshcano
 other-defcon-sao-alexrojasx | Defcon-SAO (AlexRojasx) | AlexRojasx
 other-dial-badge | Dial-Badge | Michael Möller
 other-digitalrane-badgelife-ec0-s-sao-lsao-badge-addons | digitalrane/badgelife — ec0's SAO/LSAO badge addons | digitalrane (ec0)
@@ -966,7 +968,6 @@ other-hackaday-2025-sao-badge | Vince SAO Badge | dtwprojects
 other-hackaday-blinky-led-badge | Hackaday Blinky LED Badge | Brian Benchoff, Lutetium
 other-hacker-hotel-2023-badge | Hacker Hotel 2023 Badge | Pim, Sake, Nikolett S.
 other-hadge-the-hackaday-badge | Hadge, the Hackaday Badge | Anool Mahidharia, Michele Perla, Hack-a-Day / Hackaday.io community (51-member collaborative team, incl. Mike Szczys, Benchoff)
-other-hardware-hacking-village-learn-to-solder-kit | DEF CON 23 Hardware Hacking Village Learn-to-Solder Kit | Smitty, Krux, Cmdc0de
 other-he-meme-man-electronic-pin-badge | He-Meme Man Electronic Pin Badge | hyuma78 (thegizmolab)
 other-hello-my-name-is-pcb-badge | Hello-My-Name-Is-PCB-Badge | MitchellStride
 other-hhw-hackconrd2024 | HackConRD 2024 Badge | jrgdiaz
@@ -1079,7 +1080,6 @@ other-uhl-minibadge-2022-utah-home-labs-minibadge | UHL-minibadge-2022 — Utah 
 other-unofficial-fan-made-2020-remoticon-badge-design | Unofficial fan-made 2020 Remoticon badge design | Thomas Flummer
 other-waifu-badge | Waifu Badge | Waifus4Lifu
 other-wargames-sao | WarGames_SAO | joshajohnson
-other-whiskey-pirates-dc22-badge | Whiskey Pirates DC22 Badge | Whiskey Pirate Crew
 other-winter-hacker-fest-pin | Winter Hacker Fest Pin | KBEmbedded & hunny
 other-witch-hat-for-joule-thief-cat | Witch Hat for Joule Thief Cat | tilde.industries
 other-xmas-id-badge-flair | xmas id badge (flair) | tactical_snacks

@@ -1,12 +1,12 @@
 ---
 title: DEFCON 22 DC Darknet ID Badge
-id: other-dc-darknet-id-badge
+id: dc22-dc-darknet-id-badge
 layout: badge
-parent: Other
+parent: DC22
 grand_parent: Badge Archive
 nav_exclude: true
 type: badge
-event: other
+event: dc22
 year: 2014
 makers:
 - name: feather (oshwlab handle)
@@ -91,6 +91,8 @@ research:
     found; every remaining non-empty field and sentence is supported by its
     cited source.
 last_modified_date: '2026-09-07'
+redirect_from:
+- /badges/other/dc-darknet-id-badge/
 ---
 
 This is an independent, unofficial ID badge made for the "DC Darknet" community at DEF CON 22 (2014), shared publicly on OSHWLab under the user handle "feather." The OSHWLab listing itself is minimal — no bill of materials, no generated board preview, and no attachments — so the specific hardware on this particular PCB (microcontroller, LEDs, connectivity) could not be confirmed from the primary source.

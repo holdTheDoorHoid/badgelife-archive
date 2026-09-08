@@ -1,12 +1,12 @@
 ---
 title: DEF CON 23 Hardware Hacking Village Learn-to-Solder Kit
-id: other-hardware-hacking-village-learn-to-solder-kit
+id: dc23-hardware-hacking-village-learn-to-solder-kit
 layout: badge
-parent: Other
+parent: DC23
 grand_parent: Badge Archive
 nav_exclude: true
 type: kit
-event: other
+event: dc23
 year: 2015
 makers:
 - name: Smitty
@@ -57,11 +57,11 @@ links:
   url: https://hackaday.com/2015/08/10/all-the-unofficial-electronic-badges-of-def-con/
   kind: article
 images:
-  - file: assets/images/badges/other/hardware-hacking-village-learn-to-solder-kit/9f071b48c8.jpg
+  - file: assets/images/badges/dc23/hardware-hacking-village-learn-to-solder-kit/9f071b48c8.jpg
     source: "https://hackaday.com/2015/08/10/all-the-unofficial-electronic-badges-of-def-con/"
     credit: "Hackaday"
     caption: "DEF CON DarkNet Hardware Hacking Village badge, assembled"
-  - file: assets/images/badges/other/hardware-hacking-village-learn-to-solder-kit/f281f39c87.jpg
+  - file: assets/images/badges/dc23/hardware-hacking-village-learn-to-solder-kit/f281f39c87.jpg
     source: "https://hackaday.com/2015/08/10/all-the-unofficial-electronic-badges-of-def-con/"
     credit: "Hackaday"
     caption: "DEF CON DarkNet Hardware Hacking Village badge kit parts/board"
@@ -97,6 +97,8 @@ research:
   last_checked: '2026-09-07'
   notes: 'Core facts (event/year, makers, platform, function, price, open-source status) confirmed directly from the maker''s own GitHub README plus a contemporaneous Hackaday article. LED count/type and exact battery/power arrangement are not stated in any source found and are left empty. The original dcdark.net assembly-instruction pages (linked from the README) now return 404, so build-a-badge instructions beyond the GitHub firmware/BOM could not be verified live. No matching sub-event id for "DEF CON Hardware Hacking Village" exists in events.yml (only whole-con ids like dc23 exist), so event was left as ''other'' rather than guessed onto dc23, which represents the whole convention, not the village. Quantity is stated only loosely across sources (over 300 chips programmed per the firmware README''s build tooling; ~350+ sold per the Hackaday sellout numbers) so get_one.quantity is reported as a range/description rather than a single figure.'
 last_modified_date: '2026-09-07'
+redirect_from:
+- /badges/other/hardware-hacking-village-learn-to-solder-kit/
 ---
 
 The DEF CON 23 Hardware Hacking Village Learn-to-Solder Kit was a self-assembly "DarkNet ID Badge" sold at DEF CON 23 in Las Vegas in August 2015. Built around an Arduino-compatible ATmega microcontroller with a small SSD1306-based OLED display daughterboard, the badge used an infrared LED to exchange a unique identifier with any other assembled badge it was pointed at, feeding into DEF CON's ongoing "DarkNet" puzzle challenge that ran across multiple years. It also doubled as a USB keyboard via a modified vusb-for-arduino library. The kit sold for $25 at the Hardware Hacking Village and was popular enough to sell out on the first day, with roughly 200 more made available the next morning.

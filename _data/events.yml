@@ -583,3 +583,51 @@ bsides-iowa-2019:
   year: 2019
   family: bsides
   location: Des Moines, IA
+dc14:
+  name: DEF CON 14
+  short: DC14
+  year: 2006
+  family: defcon
+  location: Las Vegas, NV
+dc15:
+  name: DEF CON 15
+  short: DC15
+  year: 2007
+  family: defcon
+  location: Las Vegas, NV
+dc16:
+  name: DEF CON 16
+  short: DC16
+  year: 2008
+  family: defcon
+  location: Las Vegas, NV
+dc17:
+  name: DEF CON 17
+  short: DC17
+  year: 2009
+  family: defcon
+  location: Las Vegas, NV
+dc18:
+  name: DEF CON 18
+  short: DC18
+  year: 2010
+  family: defcon
+  location: Las Vegas, NV
+dc19:
+  name: DEF CON 19
+  short: DC19
+  year: 2011
+  family: defcon
+  location: Las Vegas, NV
+dc20:
+  name: DEF CON 20
+  short: DC20
+  year: 2012
+  family: defcon
+  location: Las Vegas, NV
+dc21:
+  name: DEF CON 21
+  short: DC21
+  year: 2013
+  family: defcon
+  location: Las Vegas, NV

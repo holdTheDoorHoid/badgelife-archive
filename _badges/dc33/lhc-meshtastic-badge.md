@@ -50,15 +50,18 @@ links:
 - label: lonelyhackers.club/badge
   url: https://lonelyhackers.club/badge
   kind: website
+  archived: https://web.archive.org/web/20251028203507/https://lonelyhackers.club/badge/
 images:
 - file: assets/images/badges/dc33/lhc-meshtastic-badge/c243c66a02.png
-  source: "https://lonelyhackers.club/badge"
-  credit: "Lonely Hackers Club"
-  caption: "LHC Meshtastic Badge 2025, front"
+  source: https://lonelyhackers.club/badge
+  credit: Lonely Hackers Club
+  caption: LHC Meshtastic Badge 2025, front
+  archived: https://web.archive.org/web/20251028203507/https://lonelyhackers.club/badge/
 - file: assets/images/badges/dc33/lhc-meshtastic-badge/d6c0063ee9.png
-  source: "https://lonelyhackers.club/badge"
-  credit: "Lonely Hackers Club"
-  caption: "LHC Meshtastic Badge 2025, back"
+  source: https://lonelyhackers.club/badge
+  credit: Lonely Hackers Club
+  caption: LHC Meshtastic Badge 2025, back
+  archived: https://web.archive.org/web/20251028203507/https://lonelyhackers.club/badge/
 contact:
   emails:
   - lhcbadge@grink.solutions
@@ -72,9 +75,10 @@ sources:
   updated: 7/11/2025 12:14:21
 - kind: url
   url: https://lonelyhackers.club/badge
-  title: "LHC Badge :: Lonely Hackers Club"
+  title: 'LHC Badge :: Lonely Hackers Club'
   accessed: '2026-09-06'
-  note: "Maker's own product page: full specs, features, price/quantity (in a commented-out sold-out notice), pairing instructions, pickup logistics, and badge photos."
+  note: 'Maker''s own product page: full specs, features, price/quantity (in a commented-out sold-out notice), pairing instructions, pickup logistics, and badge photos.'
+  archived: https://web.archive.org/web/20251028203507/https://lonelyhackers.club/badge/
 research:
   status: researched
   confidence: medium

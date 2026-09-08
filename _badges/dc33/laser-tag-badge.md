@@ -46,10 +46,7 @@ make_your_own:
   hardware_url: null
   firmware_url: null
   eda_tool: null
-  notes: >-
-    The maker documents the badge's IR tagging protocol as "OpenLASIR" at
-    github.com/danielweidman/OpenLASIR (hardware/firmware for the badge itself is not published;
-    a third-party Rust reimplementation of the protocol exists at github.com/rjzak/openlasir-rs).
+  notes: The maker documents the badge's IR tagging protocol as "OpenLASIR" at github.com/danielweidman/OpenLASIR (hardware/firmware for the badge itself is not published; a third-party Rust reimplementation of the protocol exists at github.com/rjzak/openlasir-rs).
 links:
 - label: www.dani.pink/lasertag
   url: https://www.dani.pink/lasertag
@@ -57,19 +54,19 @@ links:
 - label: 2025 (DC33) archive page
   url: https://www.dani.pink/lasertag/archive-2025/about
   kind: website
-  archived: false
+  archived: https://web.archive.org/web/20260430093235/https://www.dani.pink/lasertag/archive-2025/about
 - label: OpenLASIR protocol (GitHub)
   url: https://github.com/danielweidman/OpenLASIR
   kind: repo
 images:
 - file: assets/images/badges/dc33/laser-tag-badge/281e39ccfc.jpg
-  source: "https://www.dani.pink/lasertag/archive-2025"
-  credit: "Dani Weidman"
-  caption: "Laser* Tag Badge, front view"
+  source: https://www.dani.pink/lasertag/archive-2025
+  credit: Dani Weidman
+  caption: Laser* Tag Badge, front view
 - file: assets/images/badges/dc33/laser-tag-badge/c3e6183951.jpg
-  source: "https://www.dani.pink/lasertag/archive-2025"
-  credit: "Dani Weidman"
-  caption: "Laser* Tag Badge, angled view"
+  source: https://www.dani.pink/lasertag/archive-2025
+  credit: Dani Weidman
+  caption: Laser* Tag Badge, angled view
 contact:
   emails:
   - palm12341@gmail.com
@@ -83,20 +80,15 @@ sources:
   updated: 6/18/2025 10:06:42
 - kind: url
   url: https://www.dani.pink/lasertag
-  title: "Laser* Tag Badge DS - dani.pink"
+  title: Laser* Tag Badge DS - dani.pink
   accessed: '2026-09-06'
   note: Current landing page (now describes the DC34/2026 successor, "Laser* Tag Badge DS"); confirms maker and general concept.
 - kind: url
   url: https://www.dani.pink/lasertag/archive-2025/about
-  title: "Laser* Tag Badge - About (archived 2025 / DC33 page)"
+  title: Laser* Tag Badge - About (archived 2025 / DC33 page)
   accessed: '2026-09-06'
-  note: >-
-    Primary source for the DC33 (2025) badge specifically: hardware list (RP2350 on a Waveshare
-    RP2350-Zero daughterboard, VSLY5940 IR emitter + IR receiver, 30 RGB LEDs, 1.28" round GC9A01
-    LCD, 5-way switch + SYNC button, 18650 battery, vibration motor, piezo buzzer, 2 power-only SAO
-    ports), gameplay rules, and confirmation that 2025 scoring was manual QR-code sync only (no
-    LoRa auto-sync, which was added for the 2026/DC34 successor). No price, quantity, or color
-    options were stated on this page.
+  note: 'Primary source for the DC33 (2025) badge specifically: hardware list (RP2350 on a Waveshare RP2350-Zero daughterboard, VSLY5940 IR emitter + IR receiver, 30 RGB LEDs, 1.28" round GC9A01 LCD, 5-way switch + SYNC button, 18650 battery, vibration motor, piezo buzzer, 2 power-only SAO ports), gameplay rules, and confirmation that 2025 scoring was manual QR-code sync only (no LoRa auto-sync, which was added for the 2026/DC34 successor). No price, quantity, or color options were stated on this page.'
+  archived: https://web.archive.org/web/20260430093235/https://www.dani.pink/lasertag/archive-2025/about
 - kind: url
   url: https://github.com/danielweidman/OpenLASIR
   title: danielweidman/OpenLASIR
@@ -106,14 +98,7 @@ research:
   status: researched
   confidence: medium
   last_checked: '2026-09-06'
-  notes: >-
-    Core hardware and gameplay confirmed from the maker's own archived 2025 page. Price ($45) and
-    the "reserve via Google Form" note come from the original community sheet and could not be
-    independently re-verified (the live site no longer shows 2025 pricing/ordering, and no
-    storefront/press coverage of the 2025 sale was found). Quantity made, exact PCB colors beyond
-    the visible black solder mask, and open hardware/firmware files for the badge itself (as
-    opposed to the OpenLASIR protocol docs) were not found. A 2026/DC34 successor, "Laser* Tag
-    Badge DS," already has its own archive entry (dc34-laser-tag-ds) and is not this item.
+  notes: Core hardware and gameplay confirmed from the maker's own archived 2025 page. Price ($45) and the "reserve via Google Form" note come from the original community sheet and could not be independently re-verified (the live site no longer shows 2025 pricing/ordering, and no storefront/press coverage of the 2025 sale was found). Quantity made, exact PCB colors beyond the visible black solder mask, and open hardware/firmware files for the badge itself (as opposed to the OpenLASIR protocol docs) were not found. A 2026/DC34 successor, "Laser* Tag Badge DS," already has its own archive entry (dc34-laser-tag-ds) and is not this item.
 last_modified_date: '2026-09-06'
 ---
 
