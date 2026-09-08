@@ -10,28 +10,36 @@ event: dc27
 year: 2019
 makers:
 - name: Gigs (@gigstaggart)
-summary: ''
-functions: ''
+  url: https://gigsatdc.com/
+summary: 'An independent DEF CON 27 badge built as a personal shot timer and shot
+  counter for the shooting range, reissuing (with permission) the DEF CON 23 shoot
+  badge designed by SeeEss.'
+functions: 'Shot timer with random-delay start, impulse/shot counter, audio level
+  display with adjustable detection threshold, a reaction-time game, a dodging game,
+  morse code display, and sound visualization on its 4-digit 7-segment display.'
 look:
   colors: []
   shape: null
-  themes: []
+  themes:
+  - security
+  - hardware tool
+  - measurement
 tech:
-  mcu: null
+  mcu: PIC16F1709
   leds: null
-  display: null
+  display: 4-digit 7-segment LED display
   connectivity: []
   battery: null
   sao_version: null
 get_one:
   price: ''
   price_usd: null
-  quantity: ''
+  quantity: '250'
   availability: unknown
   distribution: []
   where: ''
 make_your_own:
-  open_source: null
+  open_source: partial
   hardware_url: null
   firmware_url: null
   eda_tool: null
@@ -39,22 +47,73 @@ links:
 - label: hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27
   url: https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/
   kind: article
-images: []
+- label: gigsatdc.com/dc27/shootbadge_manual.php
+  url: https://gigsatdc.com/dc27/shootbadge_manual.php
+  kind: doc
+- label: gigsatdc.com/dc27/shootbadge_walkthrough.php
+  url: https://gigsatdc.com/dc27/shootbadge_walkthrough.php
+  kind: doc
+- label: gigsatdc.com
+  url: https://gigsatdc.com/
+  kind: website
+images:
+- file: assets/images/badges/dc27/dc-shoot-badge/ab8a665c79.jpg
+  source: "https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/"
+  credit: "Hackaday / Gigs (gigstaggart)"
+  caption: "Front of the DC Shoot Badge, DEF CON 27"
+- file: assets/images/badges/dc27/dc-shoot-badge/b71225aa01.jpg
+  source: "https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/"
+  credit: "Hackaday / Gigs (gigstaggart)"
+  caption: "Rear of the DC Shoot Badge, DEF CON 27"
 contact: {}
 notes:
 - Independent DC27 badge, 250 units produced, a reissue of a DC23 design, per Hackaday's DC27 unofficial-badge roundup. Found by the event-year sweep, task dc27-indie.
-status: listed
+- 'Sweep imported the title as written; the maker''s own manual uses the same name
+  ("DEF CON 27 Electronic Shoot Badge"), so no title correction was needed.'
+status: released
 sources:
 - kind: url
   url: https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/
   title: DC Shoot Badge
   accessed: '2026-09-07'
   note: 'Found by the archive''s discovery sweep (angle: sweep:dc27-indie); event read as ''dc27''.'
+- kind: url
+  url: https://gigsatdc.com/dc27/shootbadge_manual.php
+  title: DEF CON 27 Electronic Shoot Badge User/Hacker Manual
+  accessed: '2026-09-08'
+  note: 'Maker''s own manual: MCU (PIC16F1709), display (4-digit 7-segment), controls,
+    modes/functions, and explicit credit to SeeEss''s DC23 shoot badge as the basis
+    for the hardware and (largely compatible) firmware.'
+- kind: url
+  url: https://gigsatdc.com/dc27/shootbadge_walkthrough.php
+  title: DEF CON 27 Electronic Shoot Badge Challenge Walkthrough
+  accessed: '2026-09-08'
+  note: Confirms the badge carried a crypto/puzzle challenge starting from the lanyard.
+- kind: url
+  url: https://gigsatdc.com/
+  title: Gigs at DEF CON (or other cons)
+  accessed: '2026-09-08'
+  note: Maker's index page confirming the DC27 shoot badge alongside their other
+    badge projects (DC29 Tor Badge, DC31 Sneaky Badge).
 research:
-  status: stub
-  confidence: low
-  last_checked: '2026-09-07'
-  notes: Imported from the community badge sheet; not yet researched.
-last_modified_date: '2026-09-07'
+  status: researched
+  confidence: medium
+  last_checked: '2026-09-08'
+  notes: 'Core facts (MCU, display, functions, 250-unit run, DC23 lineage) confirmed
+    by both Hackaday''s roundup and the maker''s own manual/site, so this is more
+    than a single source but the maker never published price, exact distribution
+    method, or a firmware/hardware repo link for this specific badge (the manual
+    only points to SeeEss''s DC23 repo, which was not located). LED count/type not
+    stated anywhere found. tech.battery left null: the manual mentions configurable
+    voltage regulation (3.3V or unregulated) but not a specific battery type/cell.
+    make_your_own.open_source set to partial because the firmware is described as
+    "largely compatible" with SeeEss''s published DC23 firmware, not a from-scratch
+    open release of this badge''s own files.'
+last_modified_date: '2026-09-08'
 ---
 
+The DC Shoot Badge is an independent DEF CON 27 badge made by Gigs (@gigstaggart) as a personal electronic shot timer and counter for use at a shooting range. It is an explicit reissue of the DEF CON 23 shoot badge designed by SeeEss, reusing much of that badge's hardware layout and firmware, which Gigs credits directly in the badge's manual. Roughly 250 units were produced, with final assembly reportedly involving about 5,000 hand-soldered joints completed the week of the con.
+
+Built around a PIC16F1709 microcontroller, the badge uses a 4-digit 7-segment LED display alongside a microphone (for shot detection) and a mechanical tilt sensor (for screen orientation), with two buttons for control. Beyond its shooting-range functions — a shot timer with randomized start delay, an impulse/shot counter, and an adjustable audio detection threshold — it also runs a handful of recreational modes: a reaction-time game, a dodging game, a morse code display, and a sound-level visualizer. The badge additionally carried a crypto/puzzle challenge, with a public walkthrough later posted by the maker.
+
+No price, exact production/distribution method, or hardware/firmware repository specific to the DC27 build were found; the maker's manual instead points back to SeeEss's original DC23 project as the firmware's basis.

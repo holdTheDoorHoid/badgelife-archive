@@ -65,6 +65,7 @@ links:
 - label: github.com/Hackin7
   url: https://github.com/Hackin7
   kind: repo
+  archived: https://web.archive.org/web/20251107212119/https://github.com/Hackin7
 images:
 - file: assets/images/badges/dc34/hfsdr/025f17e18b.png
   source: https://github.com/rhgndf/hfsdr
@@ -92,6 +93,7 @@ sources:
   title: Hackin7 (Terence Chan Zun Mun) - GitHub
   accessed: '2026-09-06'
   note: Confirms maker identity behind the Hackin7 handle; no DEF CON or badge mention on the profile itself.
+  archived: https://web.archive.org/web/20251107212119/https://github.com/Hackin7
 - kind: url
   url: https://rhgndf.github.io/hfsdr/
   title: HFSDR web UI

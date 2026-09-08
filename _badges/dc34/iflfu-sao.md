@@ -47,6 +47,7 @@ links:
 - label: www.bigfuckingbadge.com
   url: https://www.bigfuckingbadge.com
   kind: store
+  archived: https://web.archive.org/web/20260729001940/https://www.bigfuckingbadge.com/
 - label: github.com/Hexum064/iflfu-v2-pfc161
   url: https://github.com/Hexum064/iflfu-v2-pfc161
   kind: repo
@@ -58,6 +59,7 @@ images:
   source: https://www.bigfuckingbadge.com
   credit: BigFuckingBadge
   caption: The IFLFY/IFLFU SAO, a backlit rectangle SAO from BigFuckingBadge's OffensiveSAO lineup
+  archived: https://web.archive.org/web/20260729001940/https://www.bigfuckingbadge.com/
 contact:
   discord: Hexum064
   emails:
@@ -76,6 +78,7 @@ sources:
   title: BIGFUCKINGBADGE.COM — Defcon 34 Badges and SAOs
   accessed: '2026-09-06'
   note: 'Maker''s own presale page: confirms this is the "IFLFY SAO" ($20), ''the original and first SAO in BigFuckingBadge''s OffensiveSAO lineup'', a simple backlit rectangle sending a random romantic/raunchy message; presale open for DEF CON 34, Aug 2026, quantities limited, drops scheduled in the BadgeLife Village.'
+  archived: https://web.archive.org/web/20260729001940/https://www.bigfuckingbadge.com/
 - kind: url
   url: https://github.com/Hexum064/iflfu-v2-pfc161
   title: Hexum064/iflfu-v2-pfc161

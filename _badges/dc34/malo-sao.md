@@ -57,6 +57,7 @@ links:
 - label: www.youtube.com/watch?v=lrK-HDk0pKE
   url: https://www.youtube.com/watch?v=lrK-HDk0pKE
   kind: video
+  archived: https://web.archive.org/web/20260804011640/https://www.youtube.com/watch?v=lrK-HDk0pKE
 - label: uberflux.com/product/PL-1471
   url: https://uberflux.com/product/PL-1471
   kind: store
