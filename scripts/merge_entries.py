@@ -38,6 +38,8 @@ def merge(keep_id, drop_id, dry=False):
     shave = {canon(s.get("url")) for s in k.get("sources") or [] if s.get("url")}
     for s in d.get("sources") or []:
         if s.get("kind") == "sheet" or canon(s.get("url")) not in shave: k.setdefault("sources", []).append(s)
+    for e in (k, d):  # coerce notes written as a plain string
+        if isinstance(e.get("notes"), str): e["notes"] = [e["notes"]]
     for n in d.get("notes") or []:
         if n not in (k.get("notes") or []): k.setdefault("notes", []).append(n)
     kev, kslug = k["event"], os.path.basename(kp)[:-3]
