@@ -1,12 +1,12 @@
 ---
 title: BSidesBadge2016 (AndrewMohawk)
-id: bsides-2016-bsidesbadge2016-andrewmohawk
+id: bsides-cape-town-2016-bsidesbadge2016-andrewmohawk
 layout: badge
-parent: BSides 2016
+parent: BSides Cape Town 2016
 grand_parent: Badge Archive
 nav_exclude: true
 type: badge
-event: bsides-2016
+event: bsides-cape-town-2016
 year: 2016
 makers:
 - name: AndrewMohawk
@@ -84,6 +84,8 @@ research:
   last_checked: '2026-09-07'
   notes: 'The GitHub repo (firmware, a Python client, and a companion server component) is the only source found; there is no maker blog post, storefront, or press coverage, so price, quantity, LED count/type, battery, and which specific BSides city/chapter this was made for are unknown. No photo of the physical badge was found -- the only image on the repo page is GitHub''s auto-generated link-preview screenshot, not a picture of the item. Repo has no releases/tags; last activity per GitHub UI predates this check. status set to released on the assumption a badge with working, checked-in firmware and a pinout doc was built and used, but this is not confirmed by a photo or announcement.'
 last_modified_date: '2026-09-07'
+redirect_from:
+- /badges/bsides-2016/bsidesbadge2016-andrewmohawk/
 ---
 
 AndrewMohawk's BSidesBadge2016 is a WiFi-enabled electronic conference badge built around an ESP8266, with an I2C OLED display, an IR transmitter/receiver pair, and an LED array driven through shift registers. The firmware (published on GitHub along with a Python client and a small companion server) lets badges recognize and log each other, either over IR in person or by syncing "seen" lists with a server over WiFi.

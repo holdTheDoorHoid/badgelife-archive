@@ -1,12 +1,12 @@
 ---
 title: bsides-badge-2024 (Somerset Recon)
-id: bsides-2024-bsides-badge-2024-somerset-recon
+id: bsides-san-diego-2024-bsides-badge-2024-somerset-recon
 layout: badge
-parent: BSides 2024
+parent: BSides San Diego 2024
 grand_parent: Badge Archive
 nav_exclude: true
 type: badge
-event: bsides-2024
+event: bsides-san-diego-2024
 year: 2024
 makers:
 - name: Somerset Recon
@@ -52,11 +52,11 @@ links:
   kind: repo
   archived: https://web.archive.org/web/20260907104727/https://github.com/Somerset-Recon/bsides-badge-2024
 images:
-- file: assets/images/badges/bsides-2024/bsides-badge-2024-somerset-recon/f86208f12d.jpg
+- file: assets/images/badges/bsides-san-diego-2024/bsides-badge-2024-somerset-recon/f86208f12d.jpg
   source: https://github.com/Somerset-Recon/bsides-badge-2024
   credit: Somerset Recon
   caption: Front of the BSides San Diego 2024 badge
-- file: assets/images/badges/bsides-2024/bsides-badge-2024-somerset-recon/7c24076c42.jpg
+- file: assets/images/badges/bsides-san-diego-2024/bsides-badge-2024-somerset-recon/7c24076c42.jpg
   source: https://github.com/Somerset-Recon/bsides-badge-2024
   credit: Somerset Recon
   caption: Back of the BSides San Diego 2024 badge
@@ -87,6 +87,8 @@ model:
   source_file: kiCad/rps_v4.0.0/rps_v4.0.0.kicad_pcb
   generated: '2026-09-07'
   bytes: 255176
+redirect_from:
+- /badges/bsides-2024/bsides-badge-2024-somerset-recon/
 ---
 
 Somerset Recon built this badge for BSides San Diego 2024, distributing 400 units to attendees. It runs on an ESP32-C3 and centers on a wireless rock-paper-scissors game played over Bluetooth Low Energy: a red LED marks a badge as being in "attack" mode, and pressing the scan button lets it search out and connect to nearby badges sitting in "defend" mode, scoring points for time spent connected to a target.

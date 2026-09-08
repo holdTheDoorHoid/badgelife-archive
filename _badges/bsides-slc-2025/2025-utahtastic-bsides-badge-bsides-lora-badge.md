@@ -1,12 +1,12 @@
 ---
 title: 2025 Utahtastic BSides Badge — BSides Lora Badge
-id: bsides-2025-2025-utahtastic-bsides-badge-bsides-lora-badge
+id: bsides-slc-2025-2025-utahtastic-bsides-badge-bsides-lora-badge
 layout: badge
-parent: BSides 2025
+parent: BSides SLC 2025
 grand_parent: Badge Archive
 nav_exclude: true
 type: badge
-event: bsides-2025
+event: bsides-slc-2025
 year: 2025
 makers:
 - name: distinctm1nd
@@ -57,11 +57,11 @@ links:
   url: https://www.printables.com/model/1166783-moon-led-diffuser-for-b-sides-utah-2025-badge
   kind: fab
 images:
-- file: assets/images/badges/bsides-2025/2025-utahtastic-bsides-badge-bsides-lora-badge/26ace32ddb.png
+- file: assets/images/badges/bsides-slc-2025/2025-utahtastic-bsides-badge-bsides-lora-badge/26ace32ddb.png
   source: https://github.com/distinctm1nd/2025_utahtastic_bsides_badge
   credit: distinctm1nd
   caption: Front of the BSides Utah 2025 LoRa badge, showing the TFT display, 5-way joystick, and minibadge headers
-- file: assets/images/badges/bsides-2025/2025-utahtastic-bsides-badge-bsides-lora-badge/4f421e05a3.png
+- file: assets/images/badges/bsides-slc-2025/2025-utahtastic-bsides-badge-bsides-lora-badge/4f421e05a3.png
   source: https://github.com/distinctm1nd/2025_utahtastic_bsides_badge
   credit: distinctm1nd
   caption: Back of the BSides Utah 2025 LoRa badge, showing the moon LED diffuser and lanyard post
@@ -95,6 +95,8 @@ model:
   size_mm:
   - 138.2
   - 111.8
+redirect_from:
+- /badges/bsides-2025/2025-utahtastic-bsides-badge-bsides-lora-badge/
 ---
 
 The 2025 Utahtastic BSides Badge is a LoRa mesh-networking badge made by distinctm1nd for BSides Utah 2025. Built around an ESP32-S3-WROOM with a LoRa radio, it runs a custom Meshtastic firmware, letting attendees send and receive short text messages across a mesh network using a 5-way joystick to navigate a TFT display, or by pairing the badge to the official Meshtastic phone app over Bluetooth. The badge carries 25 addressable LEDs, including moon-shaped LEDs on the back lit through a 3D-printed diffuser whose color and brightness can be tuned from the app's ambient lighting settings.

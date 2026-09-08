@@ -1,12 +1,12 @@
 ---
 title: BSides 25 Badge
-id: bsides-2025-bsides-badge-bsides-tallinn
+id: bsides-tallinn-2025-bsides-badge-bsides-tallinn
 layout: badge
-parent: BSides 2025
+parent: BSides Tallinn 2025
 grand_parent: Badge Archive
 nav_exclude: true
 type: badge
-event: bsides-2025
+event: bsides-tallinn-2025
 year: 2025
 makers:
 - name: BSides Tallinn
@@ -77,6 +77,7 @@ research:
   notes: 'Repo README titles the project "BSides 25 badge" and confirms it was made for BSides 2025, but does not name a city. The GitHub org name "BSides-Tallinn" strongly implies BSides Tallinn 2025; matched to the generic bsides-2025 event id in events.yml since no location-specific "bsides-tallinn-2025" entry exists there. No price, quantity, availability, or distribution info is published in the repo. No photos of the assembled badge were found (repo contains only a schematics PDF, no image files); could not search further because this session''s web search budget was exhausted after the first search.'
 last_modified_date: '2026-09-07'
 redirect_from:
+- /badges/bsides-2025/bsides-badge-bsides-tallinn/
 - /badges/other/bsides-badge-bsides-tallinn/
 ---
 

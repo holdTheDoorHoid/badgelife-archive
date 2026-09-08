@@ -9,13 +9,10 @@ bornhack-2024-bornhack-2024-badge | BornHack 2024 Badge | Thomas Flummer
 bornhack-2025-bornhack-2025-badge | BornHack 2025 badge | BornHack, Thomas Flummer
 bornhack-2026-cyber-gg-bornhack-2026-badge | Cyber Ægg (Bornhack 2026 badge) | Badge.Team
 bornhack-2026-cyber-gg | Cyber Ægg | badge.team, Thomas Flummer
-bsides-2016-bsidesbadge2016-andrewmohawk | BSidesBadge2016 (AndrewMohawk) | AndrewMohawk
-bsides-2024-bsides-badge-2024-somerset-recon | bsides-badge-2024 (Somerset Recon) | Somerset Recon
-bsides-2025-2025-utahtastic-bsides-badge-bsides-lora-badge | 2025 Utahtastic BSides Badge — BSides Lora Badge | distinctm1nd
-bsides-2025-bsides-badge-bsides-tallinn | BSides 25 Badge | BSides Tallinn
 bsides-2026-bsides-badge26-ch4r13 | BSides-Badge26 (ch4r13) | ch4r13
 bsides-adelaide-2025-the-falken-wombat-badge-2 | The FALKEN Wombat Badge 2 | Hackerware.io (Abhinav SP)
 bsides-cape-town-2015-bsides-badge-2015-bsidescpt | bsides-badge-2015 (BSidesCPT) | dodgymike
+bsides-cape-town-2016-bsidesbadge2016-andrewmohawk | BSidesBadge2016 (AndrewMohawk) | AndrewMohawk
 bsides-cape-town-2016-bsidescpt2016badge | bsidescpt2016badge | Andrew Mohawk, dodgymike (Mike Davis / @ElasticNinja)
 bsides-iowa-2019-wrickert-badge | BSidesIowa 2019 Badge | wrickert
 bsides-jacksonville-2018-security-b-sides-jax-2018-badge | Security b sides Jax 2018 Badge | Kirball
@@ -23,6 +20,9 @@ bsides-jacksonville-2023-bsidesjax-2023-badge | BSidesJAX 2023 Badge | Panda (@h
 bsides-orlando-2018-security-b-sides-orlando-2018-badge | Security B-Sides Orlando 2018 Badge | Jonathan Singer, Heather Lawrence
 bsides-orlando-2019-security-b-sides-orlando-2019-badge | Security B-Sides Orlando 2019 Badge | Jonathan Singer
 bsides-rochester-2019-bsides-badge-2019-interlock-rochester | BSides_badge_2019 (Interlock Rochester) | Interlock Rochester
+bsides-san-diego-2024-bsides-badge-2024-somerset-recon | bsides-badge-2024 (Somerset Recon) | Somerset Recon
+bsides-slc-2025-2025-utahtastic-bsides-badge-bsides-lora-badge | 2025 Utahtastic BSides Badge — BSides Lora Badge | distinctm1nd
+bsides-tallinn-2025-bsides-badge-bsides-tallinn | BSides 25 Badge | BSides Tallinn
 bsidesdfw-2021-astable-badge | Astable Badge | Alt_Bier
 bsidespr-2016-bsides20016badge-stm32f0-cortex-m0-led-matrix | BSides20016Badge (STM32F0/Cortex-M0, LED matrix) | soynerdito
 campzone-2019-i-pane-campzone-2019-badge | I-Pane (CampZone 2019 badge) | Badge.Team (Tom Clement, Roel Harbers)

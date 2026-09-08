@@ -89,35 +89,30 @@ supercon-2017:
   year: 2017
   family: supercon
   location: Pasadena, CA
-  dates: November 11-12, 2017 (some sources say Nov 10-12)
 supercon-2018:
   name: Hackaday Superconference 2018
   short: Supercon 2018
   year: 2018
   family: supercon
   location: Pasadena, CA
-  dates: November 2-4, 2018
 supercon-2019:
   name: Hackaday Superconference 2019
   short: Supercon 2019
   year: 2019
   family: supercon
   location: Pasadena, CA
-  dates: November 15-17, 2019
 supercon-2022:
   name: Hackaday Superconference 2022
   short: Supercon 2022
   year: 2022
   family: supercon
   location: Pasadena, CA
-  dates: November 4-6, 2022
 supercon-2023:
   name: Hackaday Superconference 2023
   short: Supercon 2023
   year: 2023
   family: supercon
   location: Pasadena, CA
-  dates: November 3-5, 2023
 supercon-2024:
   name: Hackaday Supercon 8 (2024)
   short: Supercon 2024
@@ -125,14 +120,12 @@ supercon-2024:
   family: supercon
   location: Pasadena, CA
   notes: Supercon 8 had a dedicated SAO contest and the Add-On Badge.
-  dates: November 1-3, 2024
 supercon-2025:
   name: Hackaday Supercon 9 (2025)
   short: Supercon 2025
   year: 2025
   family: supercon
   location: Pasadena, CA
-  dates: October 31 - November 2, 2025
 other:
   name: Other / unaffiliated
   short: Other
@@ -145,7 +138,6 @@ dc23:
   year: 2015
   family: defcon
   location: Paris & Bally's, Las Vegas, NV
-  dates: August 6-9, 2015
 fri3d-2022:
   name: Fri3d Camp 2022
   short: Fri3d 2022
@@ -164,7 +156,6 @@ hackaday-europe-2026:
   year: 2026
   family: supercon
   location: Lecco, Italy
-  dates: May 16-17, 2026
 oshwdem-2017:
   name: OSHWDem 2017
   short: OSHWDem 2017
@@ -195,7 +186,6 @@ hackaday-europe-2025:
   year: 2025
   family: supercon
   location: Berlin, Germany
-  dates: '2025'
 bsides-orlando-2018:
   name: BSides Orlando 2018
   short: BSides Orlando 2018
@@ -257,14 +247,12 @@ supercon-2020:
   year: 2020
   family: supercon
   location: Pasadena, CA
-  dates: November 6-8, 2020
 supercon-2026:
   name: Hackaday Supercon 2026
   short: Hackaday Supercon 2026
   year: 2026
   family: supercon
   location: Pasadena, CA
-  dates: November 6-8, 2026
 bsides-jacksonville-2023:
   name: BSides Jacksonville 2023
   short: BSides Jacksonville 2023
@@ -276,22 +264,19 @@ saintcon-2017:
   short: Saintcon 2017
   year: 2017
   family: other
-  location: Utah Valley Convention Center, Provo, UT
-  dates: October 10-13, 2017
+  location: ''
 saintcon-2022:
   name: Saintcon 2022
   short: Saintcon 2022
   year: 2022
   family: other
-  location: Utah Valley Convention Center, 220 West Center Street, Provo, UT 84601
-  dates: October 25-28, 2022
+  location: ''
 saintcon-2023:
   name: Saintcon 2023
   short: Saintcon 2023
   year: 2023
   family: other
-  location: Utah Valley Convention Center, Provo, Utah
-  dates: October 24-27, 2023
+  location: ''
 bsides-2016:
   name: BSides 2016
   short: BSides 2016
@@ -423,29 +408,25 @@ saintcon-2024:
   short: Saintcon 2024
   year: 2024
   family: other
-  location: Utah Valley Convention Center, Provo, Utah
-  dates: October 22-25, 2024 (trainings Oct 21)
+  location: ''
 saintcon-2021:
   name: Saintcon 2021
   short: Saintcon 2021
   year: 2021
   family: other
-  location: Utah Valley Convention Center, Provo, UT
-  dates: October 19-22, 2021
+  location: ''
 supercon-2016:
   name: Hackaday Supercon 2016
   short: Hackaday Supercon 2016
   year: 2016
   family: supercon
   location: Pasadena, CA
-  dates: November 5-6, 2016
 supercon-2021:
   name: Hackaday Supercon 2021
   short: Hackaday Supercon 2021
   year: 2021
   family: supercon
   location: Pasadena, CA
-  dates: November 19-20, 2021
 cyphercon-2017:
   name: Cyphercon 2017
   short: Cyphercon 2017
@@ -512,7 +493,6 @@ saintcon-2018:
   year: 2018
   family: other
   location: Utah
-  dates: 2018 (Provo SAINTCON schedule page lists it between 2017 and 2019; CFP mail-archive posting cites Sep 25-28 2018 as a call date)
 saintcon-2019:
   name: SAINTCON 2019
   short: SAINTCON 2019
@@ -525,7 +505,6 @@ saintcon-2020:
   year: 2020
   family: other
   location: Utah
-  dates: October 27-30, 2020
 northsec-2025:
   name: NorthSec 2025
   short: NorthSec 2025
@@ -544,7 +523,6 @@ bornhack-2016:
   year: 2016
   family: camp
   location: Denmark
-  dates: August 27 – September 3, 2016
 bornhack-2019:
   name: BornHack 2019
   short: BornHack 2019
@@ -587,7 +565,6 @@ dc22:
   year: 2014
   family: defcon
   location: Las Vegas, NV
-  dates: August 7-10, 2014
 queercon-2019:
   name: Queercon 16 (2019)
   short: Queercon 16
@@ -612,81 +589,63 @@ dc14:
   year: 2006
   family: defcon
   location: Las Vegas, NV
-  dates: August 4-6, 2006
 dc15:
   name: DEF CON 15
   short: DC15
   year: 2007
   family: defcon
   location: Las Vegas, NV
-  dates: August 3-5, 2007
 dc16:
   name: DEF CON 16
   short: DC16
   year: 2008
   family: defcon
   location: Las Vegas, NV
-  dates: August 8-10, 2008
 dc17:
   name: DEF CON 17
   short: DC17
   year: 2009
   family: defcon
   location: Las Vegas, NV
-  dates: July 31 - August 2, 2009
 dc18:
   name: DEF CON 18
   short: DC18
   year: 2010
   family: defcon
   location: Las Vegas, NV
-  dates: July 30 – August 1, 2010
 dc19:
   name: DEF CON 19
   short: DC19
   year: 2011
   family: defcon
   location: Las Vegas, NV
-  dates: August 4-7, 2011
 dc20:
   name: DEF CON 20
   short: DC20
   year: 2012
   family: defcon
   location: Las Vegas, NV
-  dates: July 26-29, 2012
 dc21:
   name: DEF CON 21
   short: DC21
   year: 2013
   family: defcon
   location: Las Vegas, NV
-  dates: August 1-4, 2013
-supercon-2015:
-  name: Hackaday SuperConference 2015
-  short: Hackaday SuperConference 2015
-  year: 2015
-  family: supercon
-  location: Pasadena, CA
-  dates: November 13-15, 2015
-saintcon-2014:
-  name: SAINTCON 2014
-  short: SAINTCON 2014
-  year: 2014
-  family: other
-  location: Utah
-  dates: October 20-23, 2014
-saintcon-2015:
-  name: SAINTCON 2015
-  short: SAINTCON 2015
-  year: 2015
-  family: other
-  location: Utah
-  dates: October 27-30, 2015
-saintcon-2016:
-  name: SAINTCON 2016
-  short: SAINTCON 2016
-  year: 2016
-  family: other
-  location: Utah
-  dates: October 11-14, 2016
+bsides-san-diego-2024:
+  name: BSides San Diego 2024
+  short: BSides San Diego 2024
+  year: 2024
+  family: bsides
+  location: San Diego, CA
+bsides-slc-2025:
+  name: BSides SLC 2025
+  short: BSides SLC 2025
+  year: 2025
+  family: bsides
+  location: Salt Lake City, UT
+bsides-tallinn-2025:
+  name: BSides Tallinn 2025
+  short: BSides Tallinn 2025
+  year: 2025
+  family: bsides
+  location: Tallinn, Estonia
