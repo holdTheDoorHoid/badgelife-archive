@@ -53,9 +53,9 @@ links:
   kind: website
 images:
 - file: assets/images/badges/dc33/f5-ctf-badge/9ff83703e4.jpg
-  source: "https://hackerware.io/f5"
-  credit: "Hackerwares (Abhinav SP)"
-  caption: "The F5 CTF badge as shown on the maker's site"
+  source: https://hackerware.io/f5
+  credit: Hackerwares (Abhinav SP)
+  caption: The F5 CTF badge as shown on the maker's site
 contact: {}
 notes:
 - Visit F5 booth at Blackhat.
@@ -67,7 +67,7 @@ sources:
   updated: 8/4/2025
 - kind: url
   url: https://hackerware.io/f5
-  title: "Welcome To Hackerware — The F5 CTF Badge"
+  title: Welcome To Hackerware — The F5 CTF Badge
   accessed: '2026-09-06'
   note: Maker's own page describing the badge's gameplay (slide switch preview, binary flag entry via CTF/MODE/1/0 keys, booth-unlock mechanic) and the badge photo (f5.JPG).
 - kind: url
@@ -77,23 +77,15 @@ sources:
   note: The CTF puzzle page itself (four challenges — Delivery, Security, XOps, Deployment); no hardware specs.
 - kind: url
   url: https://hackerware.io/index.html
-  title: "Hackerware - #BadgeLife | Hardware Design, Security, & Research."
+  title: 'Hackerware - #BadgeLife | Hardware Design, Security, & Research.'
   accessed: '2026-09-06'
   note: Site root lists the F5 badge in the Hackerware portfolio ("A CTF badge built around F5's platform offerings") and gives an abhinav@ contact address, consistent with the sheet's "Abhinav SP - Hackerware.io".
+  archived: https://web.archive.org/web/20260210085905/https://www.hackerware.io/index.html
 research:
   status: verified
   confidence: high
   last_checked: '2026-09-06'
-  notes: >-
-    Fact-checked 2026-09-06 against the maker's pages and the sheet row.
-    "Giveaway at Black Hat" and "Visit F5 booth" come from the maker's own
-    sheet submission; the maker's page confirms Black Hat 2025 partner-booth
-    unlocks and every control described in functions. Colors are read from
-    the maker's photo (black PCB with pink ring and purple/blue/green/orange
-    lobes). Not a DEF CON floor drop; kept under dc33 as imported from the
-    sheet. No source gives the MCU, LED count/type, battery, quantity, or any
-    hardware/firmware release; no Hackaday, press, or storefront coverage was
-    found for this badge.
+  notes: Fact-checked 2026-09-06 against the maker's pages and the sheet row. "Giveaway at Black Hat" and "Visit F5 booth" come from the maker's own sheet submission; the maker's page confirms Black Hat 2025 partner-booth unlocks and every control described in functions. Colors are read from the maker's photo (black PCB with pink ring and purple/blue/green/orange lobes). Not a DEF CON floor drop; kept under dc33 as imported from the sheet. No source gives the MCU, LED count/type, battery, quantity, or any hardware/firmware release; no Hackaday, press, or storefront coverage was found for this badge.
 last_modified_date: '2026-09-06'
 ---
 

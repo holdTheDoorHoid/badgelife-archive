@@ -52,9 +52,11 @@ links:
 - label: github.com/MakeItHackin/FlipBoard
   url: https://github.com/MakeItHackin/FlipBoard
   kind: repo
+  archived: https://web.archive.org/web/20260521001303/https://github.com/MakeItHackin/FlipBoard
 - label: github.com/jamisonderek/flipboard
   url: https://github.com/jamisonderek/flipboard
   kind: repo
+  archived: https://web.archive.org/web/20260507191850/https://github.com/jamisonderek/flipboard
 - label: Tindie listing
   url: https://www.tindie.com/products/32844/
   kind: store
@@ -82,6 +84,7 @@ sources:
   title: MakeItHackin/FlipBoard (GitHub)
   accessed: '2026-09-06'
   note: Overview, features, mechanical hot-swap switches, blinky mode, macro count, assembly options, store links
+  archived: https://web.archive.org/web/20260521001303/https://github.com/MakeItHackin/FlipBoard
 - kind: url
   url: https://www.tindie.com/products/32844/
   title: FlipBoard MacroPad Keyboard for Flipper Zero (Tindie)
@@ -92,6 +95,7 @@ sources:
   title: jamisonderek/flipboard (GitHub)
   accessed: '2026-09-06'
   note: Companion apps (FlipKeyboard, FlipBlinky, FlipSignal, Simon), GPL-3.0 license, confirms maker/store links
+  archived: https://web.archive.org/web/20260507191850/https://github.com/jamisonderek/flipboard
 research:
   status: researched
   confidence: medium

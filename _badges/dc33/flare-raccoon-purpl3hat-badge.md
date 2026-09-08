@@ -56,11 +56,13 @@ sources:
   title: 'Hackerware - #BadgeLife | Hardware Design, Security, & Research.'
   accessed: '2026-09-06'
   note: Confirms Abhinav (Hackerware.io) as a working badge designer; the maker's own portfolio page lists twelve badge projects but does not include this DEF CON 33 FLARE item by name, so no independent confirmation of its specs was found here.
+  archived: https://web.archive.org/web/20260523123718/https://hackerware.io/
 - kind: url
   url: https://flare.io
   title: Flare Systems, Inc.
   accessed: '2026-09-07'
   note: The "Flare" behind the sheet's own link (flare.io/discord) is Flare Systems, a Montreal threat-intelligence company, not Mandiant/Google's FLARE reverse-engineering team; the site itself does not mention DEF CON, a badge, a raccoon, or "Hacker Week".
+  archived: https://web.archive.org/web/20260901094243/https://flare.io/
 - kind: url
   url: https://flare.io/discord
   title: Flare Discord invite (redirects to discord.com/invite/2kycr3DvK7)
@@ -70,24 +72,8 @@ research:
   status: researched
   confidence: low
   last_checked: '2026-09-06'
-  notes: >-
-    Could not find a dedicated page for this specific badge. Hackerware.io's own
-    portfolio (the maker's site) does not list a "FLARE RACCOON PURPL3HAT" item,
-    and their Twitter/X (@TweetsFromPanda) and Facebook accounts were not reachable
-    for scraping. Hackaday.io search requires a login and could not be checked.
-    General web search engines either returned no results or blocked automated
-    queries. Fact-check 2026-09-07: an earlier draft identified "FLARE" as
-    Mandiant's Flare-On CTF team; that is contradicted by the sheet's own link
-    (flare.io/discord), which belongs to Flare Systems, a Montreal
-    threat-intelligence company, so that claim and the flare-on.com source were
-    removed. The Discord invite page could not be read without joining. The
-    archive holds other Hackerware/FLARE badges (dc32-flare-badge-remember-at-least-10-pieces-of-flair,
-    which calls the artwork "a full-colour hacker raccoon"; dc34-flare-blinky-badge;
-    dc34-flare-ctf-badge), all sheet-derived; only the sheet's own title supports
-    the "animal" theme tag here. Type, MCU, LED count, display, colors, shape,
-    price, quantity, availability, and images remain unconfirmed and are left
-    empty rather than guessed. Status stays researched, not verified, because no
-    maker page documents this specific badge.
+  notes: 'Could not find a dedicated page for this specific badge. Hackerware.io''s own portfolio (the maker''s site) does not list a "FLARE RACCOON PURPL3HAT" item, and their Twitter/X (@TweetsFromPanda) and Facebook accounts were not reachable for scraping. Hackaday.io search requires a login and could not be checked. General web search engines either returned no results or blocked automated queries. Fact-check 2026-09-07: an earlier draft identified "FLARE" as Mandiant''s Flare-On CTF team; that is contradicted by the sheet''s own link (flare.io/discord), which belongs to Flare Systems, a Montreal threat-intelligence company, so that claim and the flare-on.com source were removed. The Discord invite page could not be read without joining. The archive holds other Hackerware/FLARE badges (dc32-flare-badge-remember-at-least-10-pieces-of-flair, which calls the artwork "a full-colour hacker raccoon"; dc34-flare-blinky-badge; dc34-flare-ctf-badge), all sheet-derived; only the sheet''s own title
+    supports the "animal" theme tag here. Type, MCU, LED count, display, colors, shape, price, quantity, availability, and images remain unconfirmed and are left empty rather than guessed. Status stays researched, not verified, because no maker page documents this specific badge.'
 last_modified_date: '2026-09-07'
 ---
 

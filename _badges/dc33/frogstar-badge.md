@@ -55,9 +55,11 @@ links:
 - label: bigtaro.net/frogstar25
   url: https://bigtaro.net/frogstar25
   kind: website
+  archived: https://web.archive.org/web/20260507095715/https://bigtaro.net/frogstar25/
 - label: Tindie listing
   url: https://www.tindie.com/products/bigtaro/frogstar-badge/
   kind: store
+  archived: https://web.archive.org/web/20260503113524/https://www.tindie.com/products/bigtaro/frogstar-badge/
 - label: UberFlux listing
   url: https://uberflux.com/product/BT-frogstar
   kind: store
@@ -66,9 +68,10 @@ links:
   kind: social
 images:
 - file: assets/images/badges/dc33/frogstar-badge/b38eb78a61.jpg
-  source: "https://bigtaro.net/frogstar25"
-  credit: "BigTaro's Badges"
-  caption: "FrogStar 2025 hardware badge with round LCD display"
+  source: https://bigtaro.net/frogstar25
+  credit: BigTaro's Badges
+  caption: FrogStar 2025 hardware badge with round LCD display
+  archived: https://web.archive.org/web/20260507095715/https://bigtaro.net/frogstar25/
 contact:
   emails:
   - psymastr@hotmail.com
@@ -82,9 +85,10 @@ sources:
   updated: 7/10/2025 11:23:38
 - kind: url
   url: https://bigtaro.net/frogstar25
-  title: "BigTaro's FrogStar 2025 Badge"
+  title: BigTaro's FrogStar 2025 Badge
   accessed: '2026-09-06'
   note: Maker's own project page; features, specs, firmware download, store links.
+  archived: https://web.archive.org/web/20260507095715/https://bigtaro.net/frogstar25/
 - kind: url
   url: https://uberflux.com/product/BT-frogstar
   title: FrogStar Badge - UberFlux
@@ -95,11 +99,12 @@ sources:
   title: FrogStar Badge - Tindie
   accessed: '2026-09-06'
   note: Confirms price ($80), seller location (Denver, CO), unofficial-badge disclaimer.
+  archived: https://web.archive.org/web/20260503113524/https://www.tindie.com/products/bigtaro/frogstar-badge/
 research:
   status: verified
   confidence: high
   last_checked: '2026-09-07'
-  notes: 'Price differs from the community sheet ($120) vs. the maker''s own stores (Tindie and UberFlux both list $80); used the maker''s stores as the more authoritative current price. LED count not stated anywhere found. No hardware design files (schematics/Gerbers) found published, only compiled firmware (.uf2); open_source set to partial on that basis. Total run size not stated by the maker; UberFlux stock snapshot kept in availability_note only. Colors/shape taken from the maker''s own photo (black PCB, frog skull-and-crossbones), no text source states them. Verified 2026-09-07 against all three cited pages.'
+  notes: Price differs from the community sheet ($120) vs. the maker's own stores (Tindie and UberFlux both list $80); used the maker's stores as the more authoritative current price. LED count not stated anywhere found. No hardware design files (schematics/Gerbers) found published, only compiled firmware (.uf2); open_source set to partial on that basis. Total run size not stated by the maker; UberFlux stock snapshot kept in availability_note only. Colors/shape taken from the maker's own photo (black PCB, frog skull-and-crossbones), no text source states them. Verified 2026-09-07 against all three cited pages.
 last_modified_date: '2026-09-06'
 ---
 
