@@ -73,6 +73,7 @@ links:
 - label: labs.com
   url: https://labs.com
   kind: website
+  archived: https://web.archive.org/web/20260823230112/https://labs.com/
 images:
 - file: assets/images/badges/dc34/moth-updi-programmer-working-title/e4381b1a17.jpg
   source: https://github.com/lepi-labs/6-dc34-moth-badge

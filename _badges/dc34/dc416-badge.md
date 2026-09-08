@@ -12,7 +12,7 @@ makers:
 - name: TribeElectromech
   url: https://github.com/TribeElectromech
 summary: A never-finished badge project for DC416, the Toronto DEF CON local group, with only a color-mixing LED prototype ever published.
-functions: 'Prototype Arduino sketch that fades/blends two RGB LEDs toward each other''s color using a simple averaging algorithm; no other functions are documented.'
+functions: 'Prototype Arduino sketch that alternately displays two randomly-generated colors on a single RGB LED and blends them toward each other over 100 iterations using a simple averaging algorithm; no other functions are documented.'
 look:
   colors: []
   shape: null
@@ -74,16 +74,16 @@ sources:
   accessed: '2026-09-08'
   note: 'Maker''s own site: describes the group as hardware/software/infosec hobbyists who collaborate with "Defcon Toronto" (the DC416 group). Confirms DC416 is a local DEF CON meetup group, not a numbered DEF CON convention. No mention of a badge project, its status, or specs.'
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-08'
-  notes: 'DC416 is the Toronto DEF CON local-group name, not the numbered convention "DEF CON 34" (dc34) this entry is filed under; no event id for a Toronto DC416 meetup exists in _data/events.yml, so the event field is left as dc34 per the research guide even though it does not match. The repo itself (created Nov 2017, last commit Dec 2017) is real, but it contains only a generic Arduino color-mixing prototype sketch and a two-line readme -- no PCB files, schematics, BOM, photos, or any evidence a physical badge was ever fabricated or distributed. Status set to rumored rather than listed/released because no source confirms a finished, physical item exists. Could not determine MCU, LED count/part, display, price, quantity, or availability from any source found.'
+  notes: 'Fact-check pass (2026-09-08): re-fetched all four cited sources (GitHub repo page, GitHub API, raw rgb_led.ino, emt416.com) and confirmed every claim -- repo created 2017-11-18 / last pushed 2017-12-22 with only a Readme.md and RGBLED/rgb_led.ino, no PCB/schematic/BOM/photo anywhere, and emt416.com confirms DC416 is the Toronto DEF CON meetup group with no mention of a badge project. Corrected one inaccuracy: the code drives a single RGB LED (3 pins: 11/10/9) that alternately displays two randomly-generated colors and averages them together over 100 iterations -- the previous wording ("two RGB LEDs") wrongly implied two physical LEDs. DC416 is the Toronto DEF CON local-group name, not the numbered convention "DEF CON 34" (dc34) this entry is filed under; no event id for a Toronto DC416 meetup exists in _data/events.yml, so the event field is left as dc34 per the research guide even though it does not match. Status remains rumored rather than listed/released because no source confirms a finished, physical item exists. Could not determine MCU, LED count/part, display, price, quantity, or availability from any source found; confidence stays low given how little material exists.'
 last_modified_date: '2026-09-08'
 ---
 
 DC416 Badge is a from-scratch hardware badge that TribeElectromech, a Toronto-based hardware/security hobbyist group ([emt416.com](https://emt416.com/)), started building for DC416 -- the local DEF CON meetup group in Toronto, not a numbered DEF CON convention. The project's GitHub repository was created in November 2017 and last touched in December 2017, and describes itself as holding "source code, design files, tutorials, etc." for the badge.
 
-In practice, the only thing published is a short Arduino sketch (`RGBLED/rgb_led.ino`) that PWM-drives three discrete RGB LED pins and blends two colors toward each other using a simple averaging algorithm -- a proof-of-concept for a badge's LED behavior, not a finished board. No schematic, PCB layout, bill of materials, enclosure design, or photo of an assembled badge could be found on the repo, the group's website, or elsewhere. With no fabrication or distribution details on record, it is unclear whether a physical DC416 badge was ever built beyond this early prototype.
+In practice, the only thing published is a short Arduino sketch (`RGBLED/rgb_led.ino`) that PWM-drives a single discrete RGB LED (three pins) and alternately fades two randomly-generated colors toward each other, averaging their RGB values together over 100 iterations -- a proof-of-concept for a badge's LED behavior, not a finished board. No schematic, PCB layout, bill of materials, enclosure design, or photo of an assembled badge could be found on the repo, the group's website, or elsewhere. With no fabrication or distribution details on record, it is unclear whether a physical DC416 badge was ever built beyond this early prototype.
 
 ## Make your own
 

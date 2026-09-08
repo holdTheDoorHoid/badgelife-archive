@@ -34,9 +34,9 @@ tech:
 get_one:
   price: '20'
   price_usd: 20.0
-  quantity: '49 sold'
+  quantity: 49 sold
   availability: sold_out
-  availability_note: 'Uberflux listing showed 0 in stock as of 2026-09-06; page notes stock may return post-DEF CON for postal delivery.'
+  availability_note: Uberflux listing showed 0 in stock as of 2026-09-06; page notes stock may return post-DEF CON for postal delivery.
   distribution:
   - purchase
   where: Sold through the maker's Uberflux storefront at DEF CON 34.
@@ -52,18 +52,19 @@ links:
 - label: x.com/coryallegory
   url: https://x.com/coryallegory
   kind: social
+  archived: https://web.archive.org/web/20260505003011/https://x.com/coryallegory
 - label: bsky.app/profile/coryallegory.bsky.social
   url: https://bsky.app/profile/coryallegory.bsky.social
   kind: social
 images:
 - file: assets/images/badges/dc34/metropolis-ai-sao/05f5ace0f6.jpg
-  source: "https://uberflux.com/product/CGORY-METROPOLISSAO"
-  credit: "coryallegory / Uberflux"
-  caption: "Metropolis AI SAO, art deco automaton design with red eye LED"
+  source: https://uberflux.com/product/CGORY-METROPOLISSAO
+  credit: coryallegory / Uberflux
+  caption: Metropolis AI SAO, art deco automaton design with red eye LED
 - file: assets/images/badges/dc34/metropolis-ai-sao/52092e949e.jpg
-  source: "https://uberflux.com/product/CGORY-METROPOLISSAO"
-  credit: "coryallegory / Uberflux"
-  caption: "Metropolis AI SAO, alternate product photo"
+  source: https://uberflux.com/product/CGORY-METROPOLISSAO
+  credit: coryallegory / Uberflux
+  caption: Metropolis AI SAO, alternate product photo
 contact:
   discord: coryallegory
   emails:
@@ -78,7 +79,7 @@ sources:
   listing: New
 - kind: url
   url: https://uberflux.com/product/CGORY-METROPOLISSAO
-  title: 'METROPOLIS AI SAO - Uberflux product page'
+  title: METROPOLIS AI SAO - Uberflux product page
   accessed: '2026-09-06'
   note: Confirmed maker, theme/inspiration, price, sold-out status (49 sold, 0 in stock), fully assembled unit, SAO 2x3 header, red glowing eye LED, and product photos.
 research:

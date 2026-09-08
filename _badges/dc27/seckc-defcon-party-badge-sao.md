@@ -80,24 +80,24 @@ sources:
   url: https://github.com/BadgePiratesLLC/DefCon_SecKCPartyStar_27
   title: BadgePiratesLLC/DefCon_SecKCPartyStar_27
   accessed: '2026-09-08'
-  note: Maker's own repo, KiCad hardware files and footprints only (no firmware); describes it as the "Party Star 'badge' for the DEFCON 27 SecKC Party"; source of the promo banner image.
+  note: Maker's own repo; contains a full KiCad schematic, PCB layout, footprints, gerbers, and a BOM (ibom.html), but no firmware; describes it as the "Party Star 'badge' for the DEFCON 27 SecKC Party"; source of the promo banner image.
 - kind: url
   url: https://docs.badgepirates.com/catalog/
   title: Catalog - BadgePirates Documents
   accessed: '2026-09-08'
   note: BadgePirates' own catalog lists this as a "Conference badge variant" / "Party variant of the DC27 SecKC badge", supporting type badge rather than sao.
 research:
-  status: researched
+  status: verified
   confidence: medium
   last_checked: '2026-09-08'
-  notes: 'Confirmed via the maker''s Tindie listing, GitHub repo, and documentation catalog; the original preorder storefront link no longer resolves. Original production quantity, price, and exact distribution method (giveaway vs. purchase) at the 2019 SecKC party are not documented anywhere found; LED count/type and whether it carries an MCU are undocumented. This is likely a duplicate of the dc27-seckc-party-star stub entry, which points at the same Tindie listing.'
+  notes: 'Fact-check pass (2026-09-08): confirmed Tindie listing (product name, $4.99 price, broken/bare-board resale stock, star shape with blinking LEDs), GitHub repo (archived, "Party Star ''badge''" per README), and docs.badgepirates.com catalog ("Party Star variant" of the DC27 conference badge). Corrected a factual error: the prior draft claimed the GitHub repo held only KiCad footprints with no schematic or BOM; the repo actually contains a full schematic, PCB layout, gerbers, and a BOM (ibom.html) -- only firmware is genuinely absent, consistent with the board carrying no MCU. store.badgepirates.com still does not resolve (confirmed again). Original production quantity, price, and exact distribution method at the 2019 SecKC party remain undocumented; LED count/driver type undocumented (left blank rather than read off raw schematic files, which would be new research beyond this pass). Likely a duplicate of the dc27-seckc-party-star stub entry, which points at the same Tindie listing -- flagged for a human to dedupe, not resolved here.'
 last_modified_date: '2026-09-08'
 ---
 
 BadgePirates made this sheriff-star-shaped party badge for the SecKC crew's gathering at DEF CON 27 in 2019. The design is a gold-plated star on black PCB reading "SECKC" and "The World Again" around a circuit-board-styled crest, with lights built into the star's points; BadgePirates' own project catalog files it as a "party variant" of that year's SecKC conference badge rather than as a plug-in SAO, despite the promotional artwork in the GitHub repo being named as if it were one.
 
-The hardware files (KiCad footprints only, no firmware or schematic beyond that) are published on GitHub, but the repo is archived and gives no further build detail. In 2021, BadgePirates resold a small remaining stock of these badges on Tindie at $4.99 each — some non-working assembled units, some bare unpopulated boards — as leftovers found in storage, rather than as new production. The original 2019 preorder page on BadgePirates' own storefront is referenced in the archive but the domain no longer resolves, so its listed price and quantity could not be confirmed independently.
+The hardware files (KiCad schematic, PCB layout, footprints, gerbers, and a bill of materials, but no firmware) are published on GitHub; the repo is archived and gives no further build narrative. In 2021, BadgePirates resold a small remaining stock of these badges on Tindie at $4.99 each — some non-working assembled units, some bare unpopulated boards — as leftovers found in storage, rather than as new production. The original 2019 preorder page on BadgePirates' own storefront is referenced in the archive but the domain no longer resolves, so its listed price and quantity could not be confirmed independently.
 
 ## Make your own
 
-KiCad footprint files and a documents folder are available in the maker's repo (github.com/BadgePiratesLLC/DefCon_SecKCPartyStar_27), but no schematic, BOM, or firmware is included, so it is not a complete build package.
+The maker's repo (github.com/BadgePiratesLLC/DefCon_SecKCPartyStar_27) includes a KiCad schematic, PCB layout, custom footprints, gerbers, and a bill of materials (as an interactive BOM HTML file), but no firmware — consistent with the board carrying no MCU.

@@ -56,6 +56,7 @@ links:
 - label: maritimehackingvillage.com/shop/p/mhv-dc34-sao
   url: https://maritimehackingvillage.com/shop/p/mhv-dc34-sao
   kind: store
+  archived: https://web.archive.org/web/20260731191702/https://maritimehackingvillage.com/shop/p/mhv-dc34-sao
 - label: github.com/Maritime-Hacking-Village/SAO-2026-Radar
   url: https://github.com/Maritime-Hacking-Village/SAO-2026-Radar
   kind: repo
@@ -64,10 +65,12 @@ images:
   source: https://maritimehackingvillage.com/shop/p/mhv-dc34-sao
   credit: Maritime Hacking Village
   caption: Product photo of the Pirate Radar SAO
+  archived: https://web.archive.org/web/20260731191702/https://maritimehackingvillage.com/shop/p/mhv-dc34-sao
 - file: assets/images/badges/dc34/mhv-dc34-sao-pirate-radar/1c1e90fea9.gif
   source: https://maritimehackingvillage.com/shop/p/mhv-dc34-sao
   credit: Maritime Hacking Village
   caption: Animated GIF of the radar LED animation in action
+  archived: https://web.archive.org/web/20260731191702/https://maritimehackingvillage.com/shop/p/mhv-dc34-sao
 contact: {}
 notes:
 - Spotted by a research agent while working on a neighbouring entry.
@@ -84,6 +87,7 @@ sources:
   title: 'MHV DC34 SAO: Pirate Radar! (live product page, embedded shop-collection JSON)'
   accessed: '2026-09-07'
   note: Confirmed price ($50), stock (100, not sold out), description, images, and GitHub link. Fetched via curl since the original sheet URL 404s; product data recovered from the /shop collection JSON.
+  archived: https://web.archive.org/web/20260731191702/https://maritimehackingvillage.com/shop/p/mhv-dc34-sao
 - kind: url
   url: https://github.com/Maritime-Hacking-Village/SAO-2026-Radar
   title: Maritime-Hacking-Village/SAO-2026-Radar

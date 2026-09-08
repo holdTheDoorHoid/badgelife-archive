@@ -16,8 +16,7 @@ functions: 'Press the SPDT switch to light a single LED, powered by its own coin
 look:
   colors: []
   shape: null
-  themes:
-  - space
+  themes: []
 tech:
   mcu: none
   leds:
@@ -73,15 +72,22 @@ research:
   confidence: low
   last_checked: '2026-09-08'
   notes: >-
-    Confirmed real via the maker's own GitHub repo and KiCad source files (not just a search
-    snippet). No README, blog post, or press coverage names a specific price, quantity, or
-    distribution method for this SAO specifically, and no photo of the assembled board could be
-    found — the only image in the repo's images/ folder is a decorative "runway markings" SVG
-    graphic, not a photo of the item. The "speaker" in the title likely refers to this being
-    given to DEF CON 31 speakers (a guess, not confirmed by any source, so left out of the
-    write-up). Gerbers and KiCad source are published, so hardware_url/open_source are filled in
-    as partial (no firmware, since there is no MCU). Event/year (DEF CON 31, 2023) already
-    matched the entry and needed no correction.
+    Fact-check pass (2026-09-08): re-verified all cited sources directly (repo file listing,
+    root README, and the raw .kicad_sch schematic) rather than trusting the prior summary, and
+    confirmed the folder/README/schematic claims all hold up — the lib_symbols in the schematic
+    are exactly Connector_Generic (2x3, 6-pin), Battery_Cell, LED, R, and SW_SPDT with no MCU
+    symbol, matching the "none" mcu / single discrete LED / coin-cell / v2 6-pin write-up. The
+    gerbers_zipped folder does contain AVspeaker2023_v1.zip, and the images/ folder does contain
+    only the decorative "Runway_markings_no_words - 31.svg" graphic, not a photo of the item. A
+    fresh search for press coverage of this SAO also returned nothing. One field was corrected:
+    look.themes had 'space' with nothing in any source tying this specific SAO (a plain
+    switch/LED board with no artwork beyond the shared runway graphic) to a space theme — that
+    looks like an inference from the Aerospace Village name and its sibling "space_shuttle_SAO",
+    not a documented fact about this item, so it has been blanked. No README, blog post, or press
+    coverage names a specific price, quantity, or distribution method for this SAO specifically.
+    The "speaker" in the title likely refers to this being given to DEF CON 31 speakers (a guess,
+    not confirmed by any source, so left out of the write-up). Event/year (DEF CON 31, 2023)
+    already matched the entry and needed no correction.
 last_modified_date: '2026-09-08'
 ---
 

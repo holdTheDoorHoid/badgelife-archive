@@ -10,12 +10,15 @@ event: dc26
 year: 2018
 makers:
 - name: CromulonBadge
-summary: ''
+summary: 'A DEF CON 26 badge made purely to hold and power other Shitty Add-Ons, produced in multiple novelty shapes (a Minecraft sword, and an "It''s Always Sunny in Philadelphia" themed design).'
 functions: ''
 look:
   colors: []
   shape: null
-  themes: []
+  themes:
+  - meme
+  - pop culture
+  - tv
 tech:
   mcu: null
   leds: null
@@ -39,10 +42,18 @@ links:
 - label: hackaday.com/2018/08/29/all-the-badges-of-def-con-26-vol-3
   url: https://hackaday.com/2018/08/29/all-the-badges-of-def-con-26-vol-3/
   kind: article
-images: []
+- label: twitter.com/CromulonB
+  url: https://twitter.com/cromulonb
+  kind: social
+images:
+- file: assets/images/badges/dc26/cromulon-badge/024817eb1b.jpg
+  source: "https://hackaday.com/2018/08/29/all-the-badges-of-def-con-26-vol-3/"
+  credit: "Hackaday / CromulonBadge"
+  caption: "Cromulon add-on holder badge photographed at DEF CON 26"
 contact: {}
 notes:
-- Badge listed in Hackaday's DEF CON 26 roundup vol.3; a later 'Multi Pass' badge by the same maker (CromulonB) exists in the archive for DC27, this looks like an earlier/separate DC26 piece. Found by the event-year sweep, task dc26-saos.
+- Badge listed in Hackaday's DEF CON 26 roundup vol.3; a later 'Multi Pass' badge by the same maker (CromulonB, real name Bliss Jourdan / BoZe) exists in the archive for DC27, this looks like an earlier/separate DC26 piece. Found by the event-year sweep, task dc26-saos.
+- 'Sheet listed the maker as "CromulonBadge"; the Hackaday article credits the Twitter handle @CromulonBadge for the concept. The maker''s later DC27 work is credited to Bliss Jourdan (CromulonB / BoZe) - likely the same person, but the DC26 article does not use that name, so it is not added to `makers` here.'
 status: listed
 sources:
 - kind: url
@@ -50,11 +61,27 @@ sources:
   title: Cromulon Badge
   accessed: '2026-09-07'
   note: 'Found by the archive''s discovery sweep (angle: sweep:dc26-saos); event read as ''dc26''.'
+- kind: url
+  url: https://hackaday.com/2018/08/29/all-the-badges-of-def-con-26-vol-3/
+  title: "All The Badges Of DEF CON 26 (vol 3) - Hackaday"
+  accessed: '2026-09-08'
+  note: 'Confirmed the item is real: a badge series made only to hold and power add-ons, shown in a Minecraft-sword shape (holding three add-ons) and an "Always Sunny In Philadelphia" theme; credited to @CromulonBadge on Twitter. No specs, price, quantity or availability given.'
 research:
-  status: stub
+  status: researched
   confidence: low
-  last_checked: '2026-09-07'
-  notes: Imported from the community badge sheet; not yet researched.
-last_modified_date: '2026-09-07'
+  last_checked: '2026-09-08'
+  notes: >-
+    Only source found is the single Hackaday roundup paragraph; no maker storefront, GitHub, or
+    Hackaday.io project page turned up in search. The maker's Twitter/X account (@CromulonB) could
+    not be fetched (paywalled by the fetch tool), so any further posts about this badge are
+    unverified. No technical details (MCU, LEDs, display, SAO header), pricing, quantity, or
+    availability were found anywhere - left empty per the "never invent" rule. `type` is `badge`
+    (it hosts add-ons rather than being one), and `look.shape`/`look.colors` are left blank since
+    the article describes two different shapes (Minecraft sword, Always Sunny In Philadelphia) with
+    no shared visual description.
+last_modified_date: '2026-09-08'
 ---
 
+The Cromulon Badge is not a single design but a small line of DEF CON 26 badges made for one purpose: holding and powering other people's Shitty Add-Ons (SAOs). Rather than being a themed badge that happens to carry a header or two, it was built around the add-on slots themselves, letting a wearer mount and light up several SAOs at once.
+
+Hackaday's DEF CON 26 badge roundup (vol. 3) documented two shapes from the line: a Minecraft-sword-shaped badge that holds three add-ons, and a design themed around "It's Always Sunny in Philadelphia." Both are credited to the Twitter account @CromulonBadge. No storefront, GitHub repository, or further write-up for either design has been located, so hardware details, pricing, and production numbers remain unknown.

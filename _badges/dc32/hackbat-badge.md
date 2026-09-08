@@ -83,11 +83,12 @@ sources:
   accessed: '2026-09-08'
   note: Maker's own repo README and files; confirmed MCU, LEDs, display, buttons, power, distribution at DEF CON 32, license, and open-source hardware/firmware files.
 research:
-  status: researched
+  status: verified
   confidence: high
   last_checked: '2026-09-08'
   notes: Maker's own Hackaday.io page and GitHub repo agree on all core specs. No price or production quantity is published anywhere; badge appears to have been a free give-away at DEF CON 32 rather than sold (repo has a section addressed to people who "received your Hackbat Badge at DEFCON32"), with a known hardware revision fixing a D9 diode placement defect in the convention-distributed batch. A related entry, dc32-hackbat-dc32-badge-variant (maker "Pablo Trujillo"), already exists in the archive for what looks like the same person's badge variant — left untouched per scope.
 last_modified_date: '2026-09-08'
+
 ---
 
 The Hackbat Badge is an independently designed, unofficial badge made for DEF CON 32 by a maker known as Pablo (GitHub handle thehackbat). It takes visual cues from the Game Boy, with a six-button directional-pad-and-two-face-button layout, a 1.3" OLED display in the "screen" position, and the ESP32-C3's USB port and power switch along the bottom edge. Four WS2812 addressable LEDs add color, and the board's backside holds a compartment for three AA cells so it can run untethered from a badge lanyard.

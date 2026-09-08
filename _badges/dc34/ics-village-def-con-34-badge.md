@@ -22,7 +22,6 @@ look:
   themes:
   - security
   - hardware tool
-  - radio
 tech:
   mcu: RP2350B-A4
   leds:
@@ -66,7 +65,7 @@ images:
   - file: assets/images/badges/dc34/ics-village-def-con-34-badge/c479fe8b94.jpg
     source: "https://freewili.com/ics-village-defcon-34-badge.html"
     credit: "FreeWili"
-    caption: "ICS Village DEF CON 34 badge, end view showing DB15 connector"
+    caption: "ICS Village DEF CON 34 badge, end view showing USB-C connector"
 contact: {}
 notes:
 - Spotted by a research agent while working on a neighbouring entry (run 4).
@@ -99,10 +98,24 @@ sources:
   accessed: '2026-09-08'
   note: Firmware repository for the FreeWili platform this badge runs on; no separate hardware/gerbers repo found, so open_source is marked partial.
 research:
-  status: researched
+  status: verified
   confidence: high
   last_checked: '2026-09-08'
-  notes: Maker's own product page plus FreeWili's LinkedIn/Instagram announcements and the ICS Village DEF CON 34 schedule page all corroborate the item, event and feature list. Price and quantity made were not published anywhere found. Could not confirm whether the hardware design (schematics/gerbers) is published, only the firmware repo; open_source recorded as partial. No exact "SAO" claim was made anywhere - this is a standalone battery-powered badge, not an SAO plug-in, so sao_version is set to none.
+  notes: >-
+    Fact-check pass (2026-09-08) re-fetched all four cited sources
+    (freewili.com product page, icsvillage.com/defcon-34, the LinkedIn post,
+    and the freewili-firmware GitHub repo) and confirmed maker, MCU, display,
+    LED count, connectivity claims, battery, distribution, and event dates.
+    Two corrections made. The second saved photo was captioned as showing the
+    DB15 connector, but the image actually shows the USB-C end, not the DB15
+    side, so the caption was corrected. The radio theme tag was removed from
+    look.themes because no source describes any RF or wireless capability,
+    only wired buses (RS485, CAN, single-pair Ethernet, USB), so the tag was
+    unsupported. Price and quantity made were not published anywhere found.
+    Could not confirm whether the hardware design (schematics/gerbers) is
+    published, only the firmware repo, so open_source is recorded as partial.
+    No exact SAO claim was made anywhere; this is a standalone
+    battery-powered badge, not an SAO plug-in, so sao_version is set to none.
 last_modified_date: '2026-09-08'
 ---
 
