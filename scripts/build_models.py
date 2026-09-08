@@ -21,6 +21,7 @@ MODELS = os.path.join(ROOT, "assets", "models"); REPORT = os.path.join(ROOT, "da
 KICAD_CLI = ["flatpak", "run", "--filesystem=home", "--command=kicad-cli", "org.kicad.KiCad"]
 KICAD_PY = ["flatpak", "run", "--filesystem=home", "--command=python3", "org.kicad.KiCad"]
 THICK = 1.6; TEX_MAX = 1024; FULL_GLB_MAX = 6 * 1024 * 1024
+BUILD_DIR = [None]  # set per entry so kicad exports stay out of assets/ until finished
 GERBER_EXT = (".gbr", ".gtl", ".gbl", ".gko", ".gm1", ".gm2", ".gbs", ".gts", ".gbo", ".gto", ".gbp", ".gtp", ".drl", ".xln", ".txt", ".gml", ".gd1", ".g2", ".g3")
 
 yaml.add_representer(OrderedDict, lambda d, x: d.represent_mapping("tag:yaml.org,2002:map", x.items()))
@@ -127,7 +128,15 @@ def build_slab(top_svg, bot_svg, out_glb):
     mask = (np.asarray(top)[..., 3] > 40)
     if mask.mean() < 0.02: raise RuntimeError("render is empty")
     color = board_color(top)
-    polys = contours_mm(mask, scale, h_px)
+    note = ""
+    try:
+        polys = contours_mm(mask, scale, h_px)
+    except RuntimeError:
+        from shapely.geometry import box
+        ys, xs = np.where(mask)
+        if len(xs) < 50: raise
+        x0, x1, y0, y1 = xs.min() / scale, (xs.max() + 1) / scale, (h_px - ys.max() - 1) / scale, (h_px - ys.min()) / scale
+        polys = [box(x0, y0, x1, y1)]; note = "The published files have no board outline, so the model is shown on a rectangular board."
     # atlas: top over bottom, transparent pixels filled with the board colour
     bg = Image.new("RGBA", (w_px, h_px), color + (255,))
     top_f = Image.alpha_composite(bg, top).convert("RGB"); bot_f = Image.alpha_composite(bg, bot).convert("RGB")
@@ -160,7 +169,7 @@ def build_slab(top_svg, bot_svg, out_glb):
     scene.apply_transform(T)
     os.makedirs(os.path.dirname(out_glb), exist_ok=True)
     with open(out_glb, "wb") as f: f.write(scene.export(file_type="glb"))
-    return {"size_mm": [round(w_mm, 1), round(h_mm, 1)], "board_color": "#%02x%02x%02x" % color, "pieces": len(polys)}
+    return {"size_mm": [round(w_mm, 1), round(h_mm, 1)], "board_color": "#%02x%02x%02x" % color, "pieces": len(polys), "note": note}
 
 # ---------- kicad ----------
 _kicad_help = {}
@@ -180,19 +189,48 @@ def kicad_glb(board, out_glb):
     help_ = kicad_flags("glb")
     want = ["--subst-models", "--include-tracks", "--include-pads", "--include-zones", "--include-silkscreen", "--include-soldermask", "--force"]
     flags = [f for f in want if f in help_]
-    rc, out = run(KICAD_CLI + ["pcb", "export", "glb", "-o", out_glb] + flags + [board], timeout=1200)
-    if rc != 0 or not os.path.exists(out_glb): raise RuntimeError("glb export failed: " + out[-300:])
-    # compress in place (Draco) when the CLI is available
-    tmp = out_glb + ".draco.glb"
-    rc, out = run(node_bin("gltf-transform", "@gltf-transform/cli") + ["optimize", out_glb, tmp, "--compress", "draco", "--simplify", "false"], timeout=900)
-    if rc == 0 and os.path.exists(tmp) and os.path.getsize(tmp) > 1000: shutil.move(tmp, out_glb)
-    elif os.path.exists(tmp): os.remove(tmp)
-    return os.path.getsize(out_glb)
+    # export and compress inside the entry's _build folder; only the finished, compressed file lands in assets/models
+    raw = os.path.join(os.path.dirname(board) if "_build" in board else os.path.join(os.path.dirname(os.path.dirname(out_glb)), "..", "..", "data", "hw"), "_raw_export.glb")
+    raw = os.path.join(BUILD_DIR[0], "raw_export.glb") if BUILD_DIR[0] else raw
+    rc, out = run(KICAD_CLI + ["pcb", "export", "glb", "-o", raw] + flags + [board], timeout=1200)
+    if rc != 0 or not os.path.exists(raw): raise RuntimeError("glb export failed: " + out[-300:])
+    tmp = raw + ".draco.glb"
+    rc, out = run(node_bin("gltf-transform", "@gltf-transform/cli") + ["optimize", raw, tmp, "--compress", "draco", "--simplify", "false"], timeout=900)
+    final = tmp if (rc == 0 and os.path.exists(tmp) and os.path.getsize(tmp) > 1000) else raw
+    size = os.path.getsize(final)
+    if size > FULL_GLB_MAX: raise RuntimeError(f"glb too large after compression ({size // 1024} KB)")
+    os.makedirs(os.path.dirname(out_glb), exist_ok=True); shutil.copyfile(final, out_glb)
+    return size
+
+EAGLE_IMPORT_CODE = r"""
+import pcbnew, sys
+mgr = getattr(pcbnew, 'PCB_IO_MGR', None) or getattr(pcbnew, 'IO_MGR', None)
+b = pcbnew.LoadBoard(sys.argv[1], mgr.EAGLE) if mgr is not None else pcbnew.LoadBoard(sys.argv[1])
+# Eagle imports leave some items on undefined layers, which kicad-cli refuses to load. Removing them crashes the
+# bindings, so park them on a comment layer that the 3D export ignores.
+PARK = pcbnew.Cmts_User
+def fix(it):
+    try:
+        if it.GetLayer() < 0 or it.GetLayer() == pcbnew.UNDEFINED_LAYER:
+            it.SetLayer(PARK); return 1
+    except Exception: pass
+    return 0
+def items(getter):
+    try: return list(getter())
+    except Exception: return []
+moved = 0
+for it in items(b.GetDrawings): moved += fix(it)
+for it in items(b.GetTracks): moved += fix(it)
+for z in items(b.Zones): moved += fix(z)
+for fp in items(b.GetFootprints):
+    for it in items(fp.GraphicalItems): moved += fix(it)
+    for fld in items(getattr(fp, 'GetFields', lambda: [])): moved += fix(fld)
+pcbnew.SaveBoard(sys.argv[2], b)
+print('moved', moved)
+"""
 
 def eagle_to_kicad(brd, out_pcb):
-    code = ("import pcbnew,sys\n"
-            "b=pcbnew.LoadBoard(sys.argv[1], pcbnew.IO_MGR.EAGLE) if hasattr(pcbnew,'IO_MGR') else pcbnew.LoadBoard(sys.argv[1])\n"
-            "pcbnew.SaveBoard(sys.argv[2], b)\n")
+    code = EAGLE_IMPORT_CODE
     rc, out = run(KICAD_PY + ["-c", code, brd, out_pcb], timeout=600)
     if rc != 0 or not os.path.exists(out_pcb): raise RuntimeError("eagle import failed: " + out[-300:])
     return out_pcb
@@ -217,8 +255,11 @@ def build_entry(eid, today, force=False, methods=("kicad", "gerber")):
     if not path: return {"status": "no_entry"}
     ev, slug = os.path.basename(os.path.dirname(path)), os.path.basename(path)[:-3]
     out_glb = os.path.join(MODELS, ev, slug + ".glb")
-    if os.path.exists(out_glb) and not force: return {"status": "exists"}
-    build = os.path.join(root, "_build"); shutil.rmtree(build, ignore_errors=True); os.makedirs(build)
+    if os.path.exists(out_glb) and not force:
+        fm_text = open(path, encoding="utf-8").read(3000)
+        if os.path.relpath(out_glb, ROOT) in fm_text: return {"status": "exists"}
+        os.remove(out_glb)  # orphan from an interrupted run: rebuild so the entry gets its model block
+    build = os.path.join(root, "_build"); shutil.rmtree(build, ignore_errors=True); os.makedirs(build); BUILD_DIR[0] = build
     tried = []
     boards = kicad_boards(root)
     if not boards and "kicad" in methods:
@@ -236,10 +277,22 @@ def build_entry(eid, today, force=False, methods=("kicad", "gerber")):
     if boards and "kicad" in methods:
         board = boards[0]; src = os.path.relpath(board, root).replace("_build/eagle_import.kicad_pcb", os.path.basename(eagle_boards(root)[0]) if eagle_boards(root) else "board")
         try:
-            size = kicad_glb(board, out_glb)
-            if size <= FULL_GLB_MAX: method = "kicad"; info = {"bytes": size}
-            else: tried.append(f"kicad glb too large ({size // 1024} KB)"); os.remove(out_glb)
-        except Exception as e: tried.append(f"kicad glb: {str(e)[:160]}")
+            size = kicad_glb(board, out_glb); method = "kicad"; info = {"bytes": size}
+        except Exception as e:
+            tried.append(f"kicad glb: {str(e)[:160]}")
+            m_layer = re.search(r"undefined layers \(([^)]+)\)", str(e))
+            if m_layer:
+                # KiCad refuses boards that reference a layer missing from their layer table (typically "Rescue").
+                # Re-point those items at a comment layer in a copy of the file and export that.
+                try:
+                    cleaned = os.path.join(build, "cleaned.kicad_pcb"); name = m_layer.group(1).strip()
+                    text = open(board, encoding="utf-8", errors="ignore").read()
+                    text = re.sub(r'\(layer "' + re.escape(name) + r'"\)', '(layer "Cmts.User")', text)
+                    text = re.sub(r'\(layer ' + re.escape(name) + r'\)', '(layer Cmts.User)', text)
+                    text = re.sub(r'"' + re.escape(name) + r'"', '"Cmts.User"', text)
+                    open(cleaned, "w", encoding="utf-8").write(text)
+                    size = kicad_glb(cleaned, out_glb); method = "kicad"; info = {"bytes": size}; tried.append(f"retried with layer {name} moved to Cmts.User")
+                except Exception as e2: tried.append(f"cleanup retry: {str(e2)[:120]}")
         if not method:
             try: gdirs = [kicad_gerbers(board, os.path.join(build, "gerbers"))] + gdirs
             except Exception as e: tried.append(f"kicad gerbers: {str(e)[:160]}")
@@ -256,22 +309,32 @@ def build_entry(eid, today, force=False, methods=("kicad", "gerber")):
     if not method: return {"status": "failed", "tried": tried}
     model = OrderedDict([("file", os.path.relpath(out_glb, ROOT)), ("method", method), ("source_file", src or ""), ("generated", today), ("bytes", os.path.getsize(out_glb))])
     if info.get("size_mm"): model["size_mm"] = info["size_mm"]
+    if info.get("note"): model["note"] = info["note"]
     write_model(path, dict(model))
     return {"status": "ok", "method": method, "bytes": model["bytes"], "tried": tried, "src": src}
 
 def main():
     ap = argparse.ArgumentParser(); ap.add_argument("--id"); ap.add_argument("--all", action="store_true"); ap.add_argument("--limit", type=int, default=0)
     ap.add_argument("--force", action="store_true"); ap.add_argument("--methods", default="kicad,gerber"); ap.add_argument("--today", default=datetime.date.today().isoformat())
+    ap.add_argument("--shard", default="", help="K/N: only process ids whose crc32 %% N == K; report goes to models_report.shardK.json")
     a = ap.parse_args()
+    import zlib
     manifest = json.load(open(MANIFEST)) if os.path.exists(MANIFEST) else {}
-    report = json.load(open(REPORT)) if os.path.exists(REPORT) else {}
+    shard_k, shard_n = (int(x) for x in a.shard.split("/")) if a.shard else (0, 1)
+    report_path = REPORT.replace(".json", f".shard{shard_k}.json") if a.shard else REPORT
+    done = {}
+    for rp in glob.glob(os.path.join(ROOT, "data", "models_report*.json")):
+        try: done.update({i: r for i, r in json.load(open(rp)).items() if r.get("status") in ("ok", "failed")})
+        except Exception: pass
+    report = json.load(open(report_path)) if os.path.exists(report_path) else {}
     ids = [a.id] if a.id else [k for k, v in manifest.items() if v.get("ok")]
     n = 0
     for eid in ids:
-        if not a.id and eid in report and report[eid].get("status") in ("ok", "failed") and not a.force: continue
+        if a.shard and zlib.crc32(eid.encode()) % shard_n != shard_k: continue
+        if not a.id and eid in done and not a.force: continue
         try: r = build_entry(eid, a.today, force=a.force, methods=tuple(a.methods.split(",")))
         except Exception as e: r = {"status": "error", "error": str(e)[:200]}
-        report[eid] = r; json.dump(report, open(REPORT, "w"), indent=1)
+        report[eid] = r; json.dump(report, open(report_path, "w"), indent=1)
         log(f"{r.get('status'):7s} {eid} {r.get('method','')} {r.get('bytes','')} {('| ' + '; '.join(r.get('tried', []))) if r.get('tried') else ''}"[:300])
         n += 1
         if a.limit and n >= a.limit: break
