@@ -40,6 +40,7 @@ links:
 - label: aask.ltd
   url: http://aask.ltd/
   kind: website
+  archived: https://web.archive.org/web/20260317054337/https://aask.ltd/
 images: []
 contact: {}
 notes:
@@ -51,11 +52,12 @@ sources:
   title: Year One Coin
   accessed: '2026-09-07'
   note: 'Found by the archive''s discovery sweep (angle: sheet-research-spotted); event read as ''dc33''.'
+  archived: https://web.archive.org/web/20260317054337/https://aask.ltd/
 - kind: url
   url: https://aask.ltd/about/
-  title: 'About - Aask Questions!'
+  title: About - Aask Questions!
   accessed: '2026-09-07'
-  note: 'Maker bio page; confirms Aask has been a DEF CON NFO goon since 2018 and has built badges/hardware for the team (DEFCELL/Internet of Batteries with Whiskey Pirates, a 2022 team badge), but does not mention any item called "Year One Coin."'
+  note: Maker bio page; confirms Aask has been a DEF CON NFO goon since 2018 and has built badges/hardware for the team (DEFCELL/Internet of Batteries with Whiskey Pirates, a 2022 team badge), but does not mention any item called "Year One Coin."
 - kind: url
   url: https://aask.ltd/posts/defcon_coin_challenge/
   title: DEF CON Coin Challenge
@@ -65,27 +67,14 @@ sources:
   url: https://github.com/aask42
   title: aask42 (GitHub)
   accessed: '2026-09-07'
-  note: 'Checked for a matching repo; found only older DEF CON projects (InternetOfBatteries_DC27, IoB_DC28, WannaCryVUBadge), nothing for DC33 or a "Year One Coin."'
+  note: Checked for a matching repo; found only older DEF CON projects (InternetOfBatteries_DC27, IoB_DC28, WannaCryVUBadge), nothing for DC33 or a "Year One Coin."
+  archived: https://web.archive.org/web/20251126121240/https://github.com/Aask42
 research:
   status: researched
   confidence: low
   last_checked: '2026-09-07'
-  notes: >-
-    Could not confirm this item exists as described. The entry's only source, aask.ltd, is
-    maker "Aask"'s personal portfolio homepage; it does not mention a "Year One Coin" anywhere,
-    and a site-wide check of every post/page (about, posts index, and each individual post)
-    turned up no reference to that title either. The closest related content is a DEF CON 32
-    (2024) workshop called "DEF CON Coin Challenge," where attendees learned to design their
-    own challenge coins with OpenSCAD — a class, not a discrete badge/SAO product, and tied to
-    DC32/2024 rather than DC33/2025. Web searches for "Year One Coin" plus "Aask" or "DEF CON"
-    surfaced an unrelated item: a 2024 DCG862 (a DEF CON group) first-anniversary challenge coin
-    tied to a CTF passphrase, with no visible connection to Aask. Aask is a real, active maker
-    (DEF CON NFO goon since 2018, built the DEFCELL/Internet of Batteries project and a 2022
-    team badge; also made the archive's dc32-infinite-wifi-portal entry as "Aask Labs"), so a
-    DC33 item from them is plausible, but nothing found supports the title, description, chip,
-    price, or availability given here. Left all specifics empty rather than guess. If the sheet
-    this entry came from has a direct product/listing URL (not just the maker's homepage), that
-    would need to be checked next.
+  notes: 'Could not confirm this item exists as described. The entry''s only source, aask.ltd, is maker "Aask"''s personal portfolio homepage; it does not mention a "Year One Coin" anywhere, and a site-wide check of every post/page (about, posts index, and each individual post) turned up no reference to that title either. The closest related content is a DEF CON 32 (2024) workshop called "DEF CON Coin Challenge," where attendees learned to design their own challenge coins with OpenSCAD — a class, not a discrete badge/SAO product, and tied to DC32/2024 rather than DC33/2025. Web searches for "Year One Coin" plus "Aask" or "DEF CON" surfaced an unrelated item: a 2024 DCG862 (a DEF CON group) first-anniversary challenge coin tied to a CTF passphrase, with no visible connection to Aask. Aask is a real, active maker (DEF CON NFO goon since 2018, built the DEFCELL/Internet of Batteries project and a 2022 team badge; also made the archive''s dc32-infinite-wifi-portal entry as "Aask Labs"), so a
+    DC33 item from them is plausible, but nothing found supports the title, description, chip, price, or availability given here. Left all specifics empty rather than guess. If the sheet this entry came from has a direct product/listing URL (not just the maker''s homepage), that would need to be checked next.'
 last_modified_date: '2026-09-07'
 ---
 

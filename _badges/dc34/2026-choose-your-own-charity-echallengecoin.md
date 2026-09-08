@@ -54,32 +54,39 @@ links:
 - label: aosc.cc/eccn2026
   url: https://aosc.cc/eccn2026
   kind: website
+  archived: https://web.archive.org/web/20260201224727/https://aosc.cc/eccn2026
 - label: circuitpython.org board page
   url: https://circuitpython.org/board/bradanlanestudio_coin_m0/
   kind: doc
+  archived: https://web.archive.org/web/20260414215005/https://circuitpython.org/board/bradanlanestudio_coin_m0/
 - label: aosc.cc/cyoc.html
   url: https://aosc.cc/cyoc.html
   kind: store
 - label: aosc.cc/eccn2026.php
   url: https://aosc.cc/eccn2026.php
   kind: website
+  archived: https://web.archive.org/web/20260123174243/https://aosc.cc/eccn2026.php
 images:
 - file: assets/images/badges/dc34/2026-choose-your-own-charity-echallengecoin/70ad594ed4.jpg
   source: https://aosc.cc/eccn2026
   credit: Bradán Lane STUDIO
   caption: Front face of the 2026 eChallengeCoin brass coin
+  archived: https://web.archive.org/web/20260201224727/https://aosc.cc/eccn2026
 - file: assets/images/badges/dc34/2026-choose-your-own-charity-echallengecoin/d5e7309bc6.jpg
   source: https://aosc.cc/eccn2026
   credit: Bradán Lane STUDIO
   caption: Back face of the 2026 eChallengeCoin brass coin
+  archived: https://web.archive.org/web/20260201224727/https://aosc.cc/eccn2026
 - file: assets/images/badges/dc34/2026-choose-your-own-charity-echallengecoin/70ad594ed4.jpg
   source: https://aosc.cc/eccn2026
   credit: Bradán Lane STUDIO
   caption: Front face of the 2026 eChallengeCoin brass badge
+  archived: https://web.archive.org/web/20260201224727/https://aosc.cc/eccn2026
 - file: assets/images/badges/dc34/2026-choose-your-own-charity-echallengecoin/d5e7309bc6.jpg
   source: https://aosc.cc/eccn2026
   credit: Bradán Lane STUDIO
   caption: Back of the 2026 eChallengeCoin showing the touch pad and Neopixels
+  archived: https://web.archive.org/web/20260201224727/https://aosc.cc/eccn2026
 contact:
   discord: bradanlane
   emails:
@@ -100,11 +107,13 @@ sources:
   title: 2026 eChallengeCoin — AoSC
   accessed: '2026-09-06'
   note: Primary source for description, features, donation-based distribution, quantity (40 brass units, first 20 as student-machined blanks), and photos.
+  archived: https://web.archive.org/web/20260201224727/https://aosc.cc/eccn2026
 - kind: url
   url: https://circuitpython.org/board/bradanlanestudio_coin_m0/
   title: Bradán Lane STUDIO Coin M0 — CircuitPython board page
   accessed: '2026-09-06'
   note: Confirms MCU (ATSAMD21G1A / SAMD21, Cortex-M0+), CircuitPython support, three groups of NeoPixels, touch pads, speaker; lists USB-C where the maker page says Micro-USB.
+  archived: https://web.archive.org/web/20260414215005/https://circuitpython.org/board/bradanlanestudio_coin_m0/
 - kind: sheet
   event: dc34
   row: 17
@@ -120,11 +129,13 @@ sources:
   title: 2026 eChallengeCoin - Sara and the Missing Artifacts
   accessed: '2026-09-07'
   note: 'Found by the archive''s discovery sweep (angle: sheet-research-spotted); event read as ''2026 (unclear which con, if any)''.'
+  archived: https://web.archive.org/web/20260123174243/https://aosc.cc/eccn2026.php
 - kind: url
   url: https://aosc.cc/eccn2026.php
   title: 2026 eChallengeCoin — AoSC
   accessed: '2026-09-07'
   note: Confirms this is the 2026 eChallengeCoin, "Sara and the Missing Artifacts," a brass CircuitPython coin from Bradán Lane STUDIO made with T.E.C. (Tod Troche, Lory Ester, Sara Cladlow) for DEF CON 34, given as a thank-you for $100+ charity donations; limited to 40 brass units; ATSAMD21G1A MCU, three groups of NeoPixels, speaker, capacitive touch pad, micro-USB, no battery.
+  archived: https://web.archive.org/web/20260123174243/https://aosc.cc/eccn2026.php
 - kind: url
   url: https://aosc.cc/
   title: AoSC — Adventures of Sara Cladlow

@@ -42,8 +42,9 @@ links:
 - kind: website
   label: Hackerware.io (maker's site)
   url: https://www.hackerware.io
+  archived: https://web.archive.org/web/20260523123718/https://hackerware.io/
 - kind: article
-  label: "The AI Village Badge (Hackster.io project, DC32/2024 edition)"
+  label: The AI Village Badge (Hackster.io project, DC32/2024 edition)
   url: https://www.hackster.io/HacksFromPanda/the-ai-village-badge-98ed97
 images: []
 contact:
@@ -62,9 +63,10 @@ sources:
   listing: New
 - kind: url
   url: https://www.hackerware.io
-  title: Hackerware - #BadgeLife | Hardware Design, Security, & Research.
+  title: Hackerware -
   accessed: '2026-09-06'
   note: Maker's portfolio site; confirms Abhinav Panda / Hackerware.io as a working badge designer, but the current portfolio grid does not list a DC34/2026 AI Village badge.
+  archived: https://web.archive.org/web/20260523123718/https://hackerware.io/
 - kind: url
   url: https://www.hackster.io/HacksFromPanda/the-ai-village-badge-98ed97
   title: The AI Village Badge (Hackster.io)
@@ -75,23 +77,13 @@ sources:
   title: HacksFromPanda (Abhinav SP) - Hackster.io projects
   accessed: '2026-09-06'
   note: Full project list for the maker; no DC34/2026-specific AI Village badge or SAO write-up found as of check date.
+  archived: https://web.archive.org/web/20260613054721/https://www.hackster.io/HacksFromPanda/projects
 research:
   status: researched
   confidence: low
   last_checked: '2026-09-06'
-  notes: >-
-    Could not find a DC34/2026-specific source for this item. The maker, Abhinav Panda / Hackerware.io,
-    designed AI Village's DEF CON 32 (2024) badge - see the separate archive entry dc32-ai-village-badge
-    (robot-dog design, RGB dog-tag/eye lighting, two CR2032 cells, written up on Hackster.io). That
-    write-up was deliberately not used to fill this entry's colors/tech/pricing fields, since a different
-    year's specs would be a guess; for the same reason look.themes was cleared on fact-check (it had been
-    guessed from the 2024 design). Hackerware's portfolio site (hackerware.io) does not list a DC34/2026
-    AI Village item, and no press, storefront, or fabrication-share page was found. Fact-check 2026-09-07:
-    hackerware.io re-confirmed (portfolio, email, Twitter handle); both Hackster.io pages returned
-    403/Cloudflare blocks and could not be re-read, so the 2024-edition details rest on the researcher's
-    earlier read and the dc32 entry. Left empty: functions, look.*, tech.*, get_one.price/quantity,
-    make_your_own.*, images. Contact block unchanged from the sheet import. Revisit if a maker post or
-    photo from DC34 (Aug 2026) surfaces.
+  notes: 'Could not find a DC34/2026-specific source for this item. The maker, Abhinav Panda / Hackerware.io, designed AI Village''s DEF CON 32 (2024) badge - see the separate archive entry dc32-ai-village-badge (robot-dog design, RGB dog-tag/eye lighting, two CR2032 cells, written up on Hackster.io). That write-up was deliberately not used to fill this entry''s colors/tech/pricing fields, since a different year''s specs would be a guess; for the same reason look.themes was cleared on fact-check (it had been guessed from the 2024 design). Hackerware''s portfolio site (hackerware.io) does not list a DC34/2026 AI Village item, and no press, storefront, or fabrication-share page was found. Fact-check 2026-09-07: hackerware.io re-confirmed (portfolio, email, Twitter handle); both Hackster.io pages returned 403/Cloudflare blocks and could not be re-read, so the 2024-edition details rest on the researcher''s earlier read and the dc32 entry. Left empty: functions, look.*, tech.*, get_one.price/quantity,
+    make_your_own.*, images. Contact block unchanged from the sheet import. Revisit if a maker post or photo from DC34 (Aug 2026) surfaces.'
 last_modified_date: '2026-09-07'
 ---
 

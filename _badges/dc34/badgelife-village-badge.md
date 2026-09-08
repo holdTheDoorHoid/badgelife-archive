@@ -63,6 +63,7 @@ links:
 - label: PlatformIO Core installation
   url: https://docs.platformio.org/en/latest/core/installation/index.html
   kind: doc
+  archived: https://web.archive.org/web/20260825224541/https://docs.platformio.org/en/latest/core/installation/index.html
 - label: BigTaro
   url: https://bigtaro.net
   kind: website

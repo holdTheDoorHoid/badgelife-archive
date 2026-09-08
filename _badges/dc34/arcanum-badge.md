@@ -62,11 +62,12 @@ links:
 - label: Arcanum Security (client)
   url: https://arcanum-sec.com/
   kind: website
+  archived: https://web.archive.org/web/20260814141750/https://arcanum-sec.com/
 images:
 - file: assets/images/badges/dc34/arcanum-badge/3e153314f4.jpg
-  source: "https://hackerware.io/arcanum"
-  credit: "Hackerware"
-  caption: "The finished Arcanum badge lit up, showing glowing filament spokes, RGB LEDs and set gemstones under clear acrylic"
+  source: https://hackerware.io/arcanum
+  credit: Hackerware
+  caption: The finished Arcanum badge lit up, showing glowing filament spokes, RGB LEDs and set gemstones under clear acrylic
 contact:
   discord: abhinav_panda
   emails:
@@ -83,21 +84,14 @@ sources:
   listing: New
 - kind: url
   url: https://hackerware.io/arcanum
-  title: "Arcanum — Hackerware"
+  title: Arcanum — Hackerware
   accessed: '2026-09-06'
   note: Maker's own product page; source for name, maker, MCU (ATmega32), build (3 acrylic layers, servo disc), lighting (filament + RGB + gemstones), four operating modes, vibration motor, and 3xAAA power.
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-06'
-  notes: >-
-    Core facts confirmed on the maker's own product page (hackerware.io/arcanum), which also names the client,
-    "Arcanum" (arcanum-sec.com), a cybersecurity consulting/training firm this badge was made for. This continues
-    a yearly series - dc32-arcanum-badge and dc33-arcanum-gospel-book-badge are the same maker/client line at
-    earlier DEF CONs. Could not verify the linked tweet (x.com/TweetsFromPanda/status/2085874637951373502) - X
-    returned an HTTP 402 payment-required error to automated fetches. No price, exact LED count, or production
-    quantity is published; it is described only as a free giveaway tied to following the Arcanum and Jhaddix
-    social handles.
+  notes: Core facts confirmed on the maker's own product page (hackerware.io/arcanum), which also names the client, "Arcanum" (arcanum-sec.com), a cybersecurity consulting/training firm this badge was made for. This continues a yearly series - dc32-arcanum-badge and dc33-arcanum-gospel-book-badge are the same maker/client line at earlier DEF CONs. Could not verify the linked tweet (x.com/TweetsFromPanda/status/2085874637951373502) - X returned an HTTP 402 payment-required error to automated fetches. No price, exact LED count, or production quantity is published; it is described only as a free giveaway tied to following the Arcanum and Jhaddix social handles.
 last_modified_date: '2026-09-06'
 ---
 

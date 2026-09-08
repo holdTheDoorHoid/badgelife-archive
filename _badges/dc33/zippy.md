@@ -61,9 +61,11 @@ links:
 - label: www.tindie.com/products/hamster/2025-dczia-badge-zippy
   url: https://www.tindie.com/products/hamster/2025-dczia-badge-zippy/
   kind: store
+  archived: https://web.archive.org/web/20260503124518/https://www.tindie.com/products/hamster/2025-dczia-badge-zippy/
 - label: github.com/dczia/zippy-badge
   url: https://github.com/dczia/zippy-badge
   kind: repo
+  archived: https://web.archive.org/web/20260607065346/https://github.com/dczia/zippy-badge
 - label: Source files (GitHub)
   url: https://github.com/hamster/zippy-badge
   kind: hardware
@@ -72,6 +74,7 @@ images:
   source: https://www.tindie.com/products/hamster/2025-dczia-badge-zippy/
   credit: snurkle engineering
   caption: The Zippy badge glowing through its translucent Zip-disk-style shell
+  archived: https://web.archive.org/web/20260503124518/https://www.tindie.com/products/hamster/2025-dczia-badge-zippy/
 contact: {}
 notes: []
 status: released
@@ -85,11 +88,13 @@ sources:
   title: 2025 DCZia Badge - Zippy from snurkle engineering on Tindie
   accessed: '2026-09-06'
   note: Maker's storefront listing; price, specs, contents, sound/motion-reactive modes, translucent shell, stock count.
+  archived: https://web.archive.org/web/20260503124518/https://www.tindie.com/products/hamster/2025-dczia-badge-zippy/
 - kind: url
   url: https://github.com/dczia/zippy-badge
   title: GitHub - dczia/zippy-badge
   accessed: '2026-09-06'
   note: Confirms open-source hardware and CircuitPython firmware repo with Hardware/Software/Shells folders; no license file found.
+  archived: https://web.archive.org/web/20260607065346/https://github.com/dczia/zippy-badge
 research:
   status: researched
   confidence: high
