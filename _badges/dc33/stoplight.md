@@ -50,31 +50,14 @@ sources:
   url: https://en.wikipedia.org/wiki/The_Diana_Initiative
   title: The Diana Initiative - Wikipedia
   accessed: '2026-09-07'
-  note: Confirms the Diana Initiative is a Las Vegas infosec conference supporting
-    underrepresented people, held in conjunction with DEF CON; supports the
-    background sentence in the body.
+  note: Confirms the Diana Initiative is a Las Vegas infosec conference supporting underrepresented people, held in conjunction with DEF CON; supports the background sentence in the body.
+  archived: https://web.archive.org/web/20260304164651/https://en.wikipedia.org/wiki/The_Diana_Initiative
 research:
   status: researched
   confidence: low
   last_checked: '2026-09-07'
-  notes: >-
-    Fact-check pass: no independent source could be reached that confirms this
-    specific item exists or matches the sheet's description. dianainitiative.org
-    returned SSL_ERROR_SYSCALL on every fetch attempt (both WebFetch and curl),
-    the TechGirlMN Tindie storefront still returns HTTP 403, web.archive.org is
-    blocked in this environment, and the session's web-search budget was
-    exhausted before any new searches could run this pass. One check did
-    resolve: the front-matter contact email "Chris@dianainitiatve.org" points to
-    a domain that does not resolve in DNS at all (getaddrinfo ENOTFOUND) -
-    almost certainly a transposed-letter typo for dianainitiative.org - so it
-    has been blanked rather than published as a live contact address. Added an
-    independent Wikipedia source confirming the general Diana
-    Initiative/DEF CON background claim in the body; all item-specific fields
-    (functions, price, maker attribution, look/tech) remain sourced only to the
-    community sheet and unverified by any maker page, storefront, or press
-    coverage, matching the prior research pass and the same dead end hit by the
-    sibling entry dc33-game-over-bun. Status kept at researched, not verified,
-    since the core sheet claims lack independent confirmation.
+  notes: 'Fact-check pass: no independent source could be reached that confirms this specific item exists or matches the sheet''s description. dianainitiative.org returned SSL_ERROR_SYSCALL on every fetch attempt (both WebFetch and curl), the TechGirlMN Tindie storefront still returns HTTP 403, web.archive.org is blocked in this environment, and the session''s web-search budget was exhausted before any new searches could run this pass. One check did resolve: the front-matter contact email "Chris@dianainitiatve.org" points to a domain that does not resolve in DNS at all (getaddrinfo ENOTFOUND) - almost certainly a transposed-letter typo for dianainitiative.org - so it has been blanked rather than published as a live contact address. Added an independent Wikipedia source confirming the general Diana Initiative/DEF CON background claim in the body; all item-specific fields (functions, price, maker attribution, look/tech) remain sourced only to the community sheet and unverified by any maker
+    page, storefront, or press coverage, matching the prior research pass and the same dead end hit by the sibling entry dc33-game-over-bun. Status kept at researched, not verified, since the core sheet claims lack independent confirmation.'
 last_modified_date: '2026-09-07'
 ---
 

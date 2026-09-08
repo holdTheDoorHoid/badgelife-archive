@@ -60,40 +60,50 @@ links:
 - label: github.com/seeess
   url: https://github.com/seeess
   kind: repo
+  archived: https://web.archive.org/web/20260802214119/https://github.com/seeess
 - label: Defcon-Tipsy-33-Badge repo (README, firmware, STLs)
   url: https://github.com/seeess/Defcon-Tipsy-33-Badge
   kind: repo
+  archived: https://web.archive.org/web/20251118070519/https://github.com/seeess/Defcon-Tipsy-33-Badge
 - label: Tipsy Electronic Badge thread on the DEF CON forums
   url: https://forum.defcon.org/node/253193
   kind: social
+  archived: https://web.archive.org/web/20251123193801/https://forum.defcon.org/node/253193
 - label: Hacker Warehouse listing
   url: https://hackerwarehouse.com/product/tipsy-badge/
   kind: store
+  archived: https://web.archive.org/web/20260804172132/https://hackerwarehouse.com/product/tipsy-badge/
 - label: seeess on X, sale announcement
   url: https://x.com/see_ess/status/1953718808105169371
   kind: social
 - label: Defcon Tipsy Electronic Badge Overview (maker's video)
   url: https://www.youtube.com/watch?v=kScSm-BZAsY
   kind: video
+  archived: https://web.archive.org/web/20251119180320/https://www.youtube.com/watch?v=kScSm-BZAsY
 - label: DEF CON 33 Video Team - TipsyBadge
   url: https://www.youtube.com/watch?v=hKLow2hkLxQ
   kind: video
+  archived: https://web.archive.org/web/20251001185515/https://www.youtube.com/watch?v=hKLow2hkLxQ
 - label: Electronic Tipsy Badge at DEF CON (Deviant Ollam)
   url: https://www.youtube.com/watch?v=lD6AmXMeXt0
   kind: video
+  archived: https://web.archive.org/web/20260323150909/https://www.youtube.com/watch?v=lD6AmXMeXt0
 images:
 - file: assets/images/badges/dc33/tipsy-badge/readme-front.png
   source: https://github.com/seeess/Defcon-Tipsy-33-Badge
   credit: seeess
   caption: 'Front of the badge from the project README: bottle-shaped black PCB with yellow edge, yellow ZAP!! button, A/B buttons, 1.77" TFT, four-button d-pad and SAO header.'
+  archived: https://web.archive.org/web/20251118070519/https://github.com/seeess/Defcon-Tipsy-33-Badge
 - file: assets/images/badges/dc33/tipsy-badge/hw-headon.jpg
   source: https://hackerwarehouse.com/product/tipsy-badge/
   credit: Hacker Warehouse
   caption: Head-on product photo of the front, with the "Volt 4.5" silkscreen and the striped bottle-cap at the neck.
+  archived: https://web.archive.org/web/20260804172132/https://hackerwarehouse.com/product/tipsy-badge/
 - file: assets/images/badges/dc33/tipsy-badge/hw-1490.jpg
   source: https://hackerwarehouse.com/product/tipsy-badge/
   credit: Hacker Warehouse
   caption: Back of the badge showing the 2x AAA holder, USB-C port and the 3.5mm electrode jack at the neck.
+  archived: https://web.archive.org/web/20260804172132/https://hackerwarehouse.com/product/tipsy-badge/
 contact:
   emails:
   - seeess@riseup.net
@@ -112,21 +122,25 @@ sources:
   title: seeess - GitHub profile
   accessed: '2026-09-06'
   note: Pinned Defcon-Tipsy-33-Badge repo; profile links to twitter.com/see_ess; other DEF CON badge repos by the same maker.
+  archived: https://web.archive.org/web/20260802214119/https://github.com/seeess
 - kind: url
   url: https://github.com/seeess/Defcon-Tipsy-33-Badge
   title: 'GitHub - seeess/Defcon-Tipsy-33-Badge: Defcon Tipsy Badge / Volt 4.5 ma'
   accessed: '2026-09-06'
   note: README supported the modes, hardware specs (RP2040, 2 MB flash, 2x AAA, one 1.69bis SAO port, USB-C, 1.77" 160x128 TFT), safety limits, included items, Tor donation, custom-photo and flashing steps; file tree and CC BY-NC 4.0 LICENSE; repo created 2025-07-18. Fact-check also read tipsy/led.cpp (12 orange charlieplexed LEDs) and tipsy/tipsy.ino (USB warning screen with hold-to-override).
+  archived: https://web.archive.org/web/20251118070519/https://github.com/seeess/Defcon-Tipsy-33-Badge
 - kind: url
   url: https://forum.defcon.org/node/253193
   title: Tipsy Electronic Badge - DEF CON Forums
   accessed: '2026-09-06'
   note: Maker's post of 23 July 2025 (user seeess) in
+  archived: https://web.archive.org/web/20251123193801/https://forum.defcon.org/node/253193
 - kind: url
   url: https://hackerwarehouse.com/product/tipsy-badge/
   title: Tipsy Badge - Hacker Warehouse
   accessed: '2026-09-06'
   note: 'Product listing: $100 marked down to $75, Out of stock, SKU SS-TB, RP2040, color TFT, 1x SAO 1.69bis port, 2 MB flash with USB mass storage, open source; source of two product photos. Read via WebFetch; direct curl was blocked by Cloudflare.'
+  archived: https://web.archive.org/web/20260804172132/https://hackerwarehouse.com/product/tipsy-badge/
 - kind: url
   url: https://x.com/see_ess/status/1953718808105169371
   title: seeess on X, 8 Aug 2025 - Defcon Tipsy Badge is going on sale tomorrow
@@ -137,16 +151,19 @@ sources:
   title: Defcon Tipsy Electronic Badge Overview (YouTube, channel 533ess)
   accessed: '2026-09-06'
   note: Maker's overview video linked from the README and forum post; published 2025-07-23, description is just the repo link. Title, channel and date confirmed from the watch page; video not watched.
+  archived: https://web.archive.org/web/20251119180320/https://www.youtube.com/watch?v=kScSm-BZAsY
 - kind: url
   url: https://www.youtube.com/watch?v=hKLow2hkLxQ
   title: DEF CON 33 Video Team - TipsyBadge (YouTube, DEFCONConference)
   accessed: '2026-09-06'
   note: Published 2025-09-09; description says the badge can set your gait to wobble mode using Galvanic Vestibular Stimulation. Video not watched.
+  archived: https://web.archive.org/web/20251001185515/https://www.youtube.com/watch?v=hKLow2hkLxQ
 - kind: url
   url: https://www.youtube.com/watch?v=lD6AmXMeXt0
   title: Electronic Tipsy Badge at DEF CON (YouTube, DeviantOllam)
   accessed: '2026-09-06'
   note: Third-party video published 2025-08-20; its description calls it a DEF CON 33 video about a friend's badge and relays the maker's note that badges were still available and would be on hackerwarehouse.com within a week. Title, date and description read from the watch page; video not watched.
+  archived: https://web.archive.org/web/20260323150909/https://www.youtube.com/watch?v=lD6AmXMeXt0
 research:
   status: verified
   confidence: high

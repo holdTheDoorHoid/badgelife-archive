@@ -45,18 +45,20 @@ links:
 - label: github.com/MakeItHackin/tricorderSAO
   url: https://github.com/MakeItHackin/tricorderSAO
   kind: repo
+  archived: https://web.archive.org/web/20260509064117/https://github.com/MakeItHackin/tricorderSAO/
 - label: Tricorder SAO on Tindie
   url: https://www.tindie.com/products/makeithackin/tricorder-sao/
   kind: store
 images:
 - file: assets/images/badges/dc33/tricorder-sao/71f536ae23.jpg
-  source: "https://www.tindie.com/products/makeithackin/tricorder-sao/"
-  credit: "Make it Hackin"
-  caption: "Front view of the Tricorder SAO"
+  source: https://www.tindie.com/products/makeithackin/tricorder-sao/
+  credit: Make it Hackin
+  caption: Front view of the Tricorder SAO
 - file: assets/images/badges/dc33/tricorder-sao/a3f9004843.jpg
-  source: "https://github.com/MakeItHackin/tricorderSAO"
-  credit: "Make it Hackin"
-  caption: "Back of the badge-powered SAO version showing the SAO connector"
+  source: https://github.com/MakeItHackin/tricorderSAO
+  credit: Make it Hackin
+  caption: Back of the badge-powered SAO version showing the SAO connector
+  archived: https://web.archive.org/web/20260509064117/https://github.com/MakeItHackin/tricorderSAO/
 contact:
   emails:
   - Andrew@makeithackin.com
@@ -70,12 +72,13 @@ sources:
   updated: 8/3/2025 10:35:40
 - kind: url
   url: https://github.com/MakeItHackin/tricorderSAO
-  title: "MakeItHackin/tricorderSAO"
+  title: MakeItHackin/tricorderSAO
   accessed: '2026-09-06'
   note: Repo README describes the two hardware versions, contents of the bag, and how power/LEDs work; no schematic, firmware, or BOM published in the repo.
+  archived: https://web.archive.org/web/20260509064117/https://github.com/MakeItHackin/tricorderSAO/
 - kind: url
   url: https://www.tindie.com/products/makeithackin/tricorder-sao/
-  title: "Tricorder SAO - MakeItHackin - Tindie"
+  title: Tricorder SAO - MakeItHackin - Tindie
   accessed: '2026-09-06'
   note: Storefront listing gives price ($35 for the SAO-connector listing) and live stock counts.
 research:

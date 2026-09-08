@@ -42,6 +42,7 @@ links:
 - label: Uberflux.com
   url: https://uberflux.com
   kind: store
+  archived: https://web.archive.org/web/20260726000122/https://uberflux.com/
 images: []
 contact: {}
 notes:
@@ -58,6 +59,7 @@ sources:
   title: Uberflux
   accessed: '2026-09-07'
   note: 'Site self-describes as "a storefront built for the #BadgeLife community" — a general marketplace listing badges/SAOs from multiple makers, not itself a badge or SAO.'
+  archived: https://web.archive.org/web/20260726000122/https://uberflux.com/
 research:
   status: researched
   confidence: high

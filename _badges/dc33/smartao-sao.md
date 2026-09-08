@@ -13,7 +13,7 @@ makers:
   url: https://coruscantventures.com
   role: design/sale credited to vor_t3x1 (Discord) / u/MorningMother8622 (Reddit)
 summary: A companion SAO from Coruscant Ventures that plugs into the top-left slot of their "SAO Many SAOs" host badge to power and drive its perimeter ARGB LEDs.
-functions: 'Supplies power and animation/color control to the ARGB LEDs on the outside edge of the "SAO Many SAOs" badge; without it those LEDs light only in a fixed, uncontrolled state.'
+functions: Supplies power and animation/color control to the ARGB LEDs on the outside edge of the "SAO Many SAOs" badge; without it those LEDs light only in a fixed, uncontrolled state.
 look:
   colors:
   - orange
@@ -38,7 +38,7 @@ get_one:
   price_usd: 30.0
   quantity: ''
   availability: available
-  availability_note: 'Listed "IN STOCK" on the maker storefront as of 2026-09-07; the site''s PayPal checkout is broken, so the maker asks buyers to contact them directly via Discord, Reddit, or the site contact form to arrange payment and shipping.'
+  availability_note: Listed "IN STOCK" on the maker storefront as of 2026-09-07; the site's PayPal checkout is broken, so the maker asks buyers to contact them directly via Discord, Reddit, or the site contact form to arrange payment and shipping.
   distribution:
   - purchase
   where: Sold directly by Coruscant Ventures via their storefront (coruscantventures.com); also listed on eBay under the title "SmartAO DEF CON SAO, Rp2040 SAO."
@@ -56,9 +56,9 @@ links:
   kind: store
 images:
 - file: assets/images/badges/dc33/smartao-sao/34dee4d759.jpg
-  source: "https://coruscantventures.com/defcon-badges/p/smartao-sao"
-  credit: "Coruscant Ventures"
-  caption: "SmartAO SAO product photo"
+  source: https://coruscantventures.com/defcon-badges/p/smartao-sao
+  credit: Coruscant Ventures
+  caption: SmartAO SAO product photo
 contact: {}
 notes:
 - Spotted by a research agent while working on a neighbouring entry.
@@ -74,29 +74,18 @@ sources:
   url: https://www.ebay.com/itm/178319882205
   title: SmartAO DEF CON SAO, Rp2040 SAO.
   accessed: '2026-09-07'
-  note: 'eBay listing title names the chip as RP2040; the listing page itself returned an error to automated fetches (both WebFetch and curl), so only the title text could be confirmed.'
+  note: eBay listing title names the chip as RP2040; the listing page itself returned an error to automated fetches (both WebFetch and curl), so only the title text could be confirmed.
 - kind: url
   url: https://www.tindie.com/products/coruscant_ventures/sao-many-saos-badge/
   title: SAO Many SAOs Badge from coruscant ventures on Tindie
   accessed: '2026-09-07'
   note: Confirms the SmartAO SAO is required for "cool LED animations and actual control" of the host badge's white perimeter LEDs.
+  archived: https://web.archive.org/web/20260503104002/https://www.tindie.com/products/coruscant_ventures/sao-many-saos-badge/
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: >-
-    This is a standalone product page for the SmartAO SAO itself, distinct from
-    Coruscant Ventures' "SAO Many SAOs" host badge, which already has entries at
-    dc33-sao-and-many-sao-badge and dc33-sao-for-above (both cover the 25-slot
-    carrier board, not this add-on). MCU is given as RP2040 only by the title of
-    an eBay listing that could not otherwise be fetched (403/error on both
-    WebFetch and curl); left as the best available evidence rather than
-    dropped, but flagged here since it is a title-only source. LED count,
-    battery/power draw of the SmartAO board itself, quantity made, dimensions,
-    and open-source status were not stated on the maker's product page or any
-    other source found. There is also an unresearched stub,
-    dc33-sao-for-above-smartao, that appears to describe this same product;
-    left untouched per the one-entry-per-task rule.
+  notes: This is a standalone product page for the SmartAO SAO itself, distinct from Coruscant Ventures' "SAO Many SAOs" host badge, which already has entries at dc33-sao-and-many-sao-badge and dc33-sao-for-above (both cover the 25-slot carrier board, not this add-on). MCU is given as RP2040 only by the title of an eBay listing that could not otherwise be fetched (403/error on both WebFetch and curl); left as the best available evidence rather than dropped, but flagged here since it is a title-only source. LED count, battery/power draw of the SmartAO board itself, quantity made, dimensions, and open-source status were not stated on the maker's product page or any other source found. There is also an unresearched stub, dc33-sao-for-above-smartao, that appears to describe this same product; left untouched per the one-entry-per-task rule.
 last_modified_date: '2026-09-07'
 ---
 

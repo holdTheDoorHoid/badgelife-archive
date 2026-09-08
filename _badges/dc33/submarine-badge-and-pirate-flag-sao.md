@@ -45,9 +45,11 @@ links:
 - label: bigtaro.net/sub
   url: https://bigtaro.net/sub
   kind: website
+  archived: https://web.archive.org/web/20260506164918/https://bigtaro.net/sub/
 - label: Tindie - Submarine Badge & Pirate SAO
   url: https://www.tindie.com/products/bigtaro/submarine-badge-pirate-sao/
   kind: store
+  archived: https://web.archive.org/web/20260503110237/https://www.tindie.com/products/bigtaro/submarine-badge-pirate-sao/
 - label: uberflux.com/product/BT-submarine
   url: https://uberflux.com/product/BT-submarine
   kind: store
@@ -59,10 +61,12 @@ images:
   source: https://www.tindie.com/products/bigtaro/submarine-badge-pirate-sao/
   credit: BigTaro's Badges
   caption: Submarine Badge and Pirate Flag SAO, product photo
+  archived: https://web.archive.org/web/20260503110237/https://www.tindie.com/products/bigtaro/submarine-badge-pirate-sao/
 - file: assets/images/badges/dc33/submarine-badge-and-pirate-flag-sao/0b88070a51.jpg
   source: https://www.tindie.com/products/bigtaro/submarine-badge-pirate-sao/
   credit: BigTaro's Badges
   caption: Submarine Badge and Pirate Flag SAO, additional product photo (thumbnail resolution only)
+  archived: https://web.archive.org/web/20260503110237/https://www.tindie.com/products/bigtaro/submarine-badge-pirate-sao/
 - file: assets/images/badges/dc33/submarine-badge-and-pirate-flag-sao/2757bda22c.jpg
   source: https://uberflux.com/product/BT-submarine
   credit: BigTaro's Badges
@@ -91,11 +95,13 @@ sources:
   title: BigTaro's Submarine 2025 Badge
   accessed: '2026-09-06'
   note: Maker's own product page; confirms it is an interactive submarine-themed badge with heading/depth/radar-style controls, sold via Tindie, Bluesky, or Signal during cons.
+  archived: https://web.archive.org/web/20260506164918/https://bigtaro.net/sub/
 - kind: url
   url: https://www.tindie.com/products/bigtaro/submarine-badge-pirate-sao/
   title: Submarine Badge & Pirate SAO - Tindie
   accessed: '2026-09-06'
   note: 'Storefront listing: $90 price, description of gameplay/CTF features, round display, 6+ buttons, SAO port, exposed programmable GPIO, bundled Pirate Flag SAO and stickers, compatibility with Gunslinger-B-Gone badge, and product photos.'
+  archived: https://web.archive.org/web/20260503110237/https://www.tindie.com/products/bigtaro/submarine-badge-pirate-sao/
 - kind: url
   url: https://uberflux.com/product/BT-submarine
   title: Submarine Badge & Pirate SAO

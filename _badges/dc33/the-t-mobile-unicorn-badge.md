@@ -40,9 +40,11 @@ links:
 - label: www.hackster.io/HacksFromPanda/projects
   url: https://www.hackster.io/HacksFromPanda/projects
   kind: website
+  archived: https://web.archive.org/web/20260613054721/https://www.hackster.io/HacksFromPanda/projects
 - label: Hackerware.io
   url: https://www.hackerware.io/
   kind: website
+  archived: https://web.archive.org/web/20260523123718/https://hackerware.io/
 images: []
 contact:
   handles:
@@ -61,11 +63,13 @@ sources:
   title: Abhinav SP - Hackster.io
   accessed: '2026-09-07'
   note: Page header confirms the profile belongs to "Abhinav SP" (36 projects). The project list itself is JavaScript-rendered and could not be read (WebFetch got HTTP 403; curl got the shell only), so no unicorn project could be confirmed or ruled out.
+  archived: https://web.archive.org/web/20260613054721/https://www.hackster.io/HacksFromPanda/projects
 - kind: url
   url: https://www.hackerware.io/
   title: 'Hackerware - #BadgeLife | Hardware Design, Security, & Research.'
   accessed: '2026-09-07'
   note: Maker portfolio site; contact email abhinav@hackerwares.in. Lists other badges (Prophet AI, The F5 Badge, BSides Adelaide Badge, a Bug Bounty Village Badge with OLED + RGB and a CTF, The BugZee, The Nutanix Badge, The Radware Badge, and more). No mention of "Unicorn", "T-Mobile" or DEF CON 33 anywhere on the page. The page does not give the maker's full name.
+  archived: https://web.archive.org/web/20260523123718/https://hackerware.io/
 - kind: sheet
   event: dc33
   row: 55
@@ -75,11 +79,13 @@ sources:
   title: Home | Bug Bounty Village
   accessed: '2026-09-06'
   note: 'Checked 2026-09-07: the village site lists sponsors by tier (T-Mobile appears as a Silver sponsor) and links a "BBV Badge 2025" page, but names no badge and mentions no unicorn item.'
+  archived: https://web.archive.org/web/20260509232338/https://www.bugbountydefcon.com/
 - kind: url
   url: https://shop.bugbountydefcon.com/
   title: Bug Bounty Village Shop
   accessed: '2026-09-06'
   note: 'Checked 2026-09-07: the only product is the "Limited Edition BBV Blinky Badge - GREEN" ($99.99, sold out, ATmega16A, 41 SMD LEDs, 3xAAA), credited to the BBV team and Abhinav Panda. No unicorn or T-Mobile item is listed.'
+  archived: https://web.archive.org/web/20260511153619/https://shop.bugbountydefcon.com/
 research:
   status: verified
   confidence: low

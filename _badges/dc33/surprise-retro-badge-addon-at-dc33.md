@@ -11,12 +11,12 @@ year: 2025
 makers:
 - name: Whiskey Pirates (trueControl shop)
   url: https://shop.truecontrol.org/
-- name: "true"
+- name: 'true'
   role: circuit, layout, design and code
 - name: Cprossu
   role: concept inspiration
 summary: A DC33 "Retro Tech Community" badge addon from trueControl (true and Cprossu), themed around retrocomputing, with a retro peripheral port and RGB LEDs.
-functions: 'Includes at least one antiquated-but-still-usable computer peripheral port, knobs/switches/buttons with a virtual toggle system, and RGB LEDs; a companion manual was required reading to program it. The visual design was kept secret before the con.'
+functions: Includes at least one antiquated-but-still-usable computer peripheral port, knobs/switches/buttons with a virtual toggle system, and RGB LEDs; a companion manual was required reading to program it. The visual design was kept secret before the con.
 look:
   colors: []
   shape: null
@@ -47,7 +47,7 @@ get_one:
   distribution:
   - purchase
   - free_drop
-  where: 'Pre-order online for pickup in person at DEF CON 33, or given away free at the con to interested retrocomputing attendees.'
+  where: Pre-order online for pickup in person at DEF CON 33, or given away free at the con to interested retrocomputing attendees.
 links:
 - label: shop.truecontrol.org/index.php?route=product/product&path=59&product_id=430
   url: https://shop.truecontrol.org/index.php?route=product/product&path=59&product_id=430
@@ -55,11 +55,12 @@ links:
 - label: git.trueserve.org/trueControl/dc33-retro-tech-addon
   url: https://git.trueserve.org/trueControl/dc33-retro-tech-addon
   kind: repo
+  archived: https://web.archive.org/web/20260214163754/https://git.trueserve.org/trueControl/dc33-retro-tech-addon
 images:
 - file: assets/images/badges/dc33/surprise-retro-badge-addon-at-dc33/4d42425205.jpg
-  source: "https://shop.truecontrol.org/index.php?route=product/product&path=59&product_id=430"
-  credit: "trueControl"
-  caption: "The Surprise Retro badge addon"
+  source: https://shop.truecontrol.org/index.php?route=product/product&path=59&product_id=430
+  credit: trueControl
+  caption: The Surprise Retro badge addon
 contact: {}
 notes:
 - Spotted by a research agent while working on a neighbouring entry.
@@ -72,9 +73,10 @@ sources:
   note: 'Found by the archive''s discovery sweep (angle: sheet-research-spotted); event read as ''dc33''.'
 - kind: url
   url: https://git.trueserve.org/trueControl/dc33-retro-tech-addon
-  title: 'trueControl/dc33-retro-tech-addon - trueserve Git'
+  title: trueControl/dc33-retro-tech-addon - trueserve Git
   accessed: '2026-09-07'
-  note: 'Repo page/description confirms MCU (CH32X033), USB, and LED count (9x RGB + 3x single-color).'
+  note: Repo page/description confirms MCU (CH32X033), USB, and LED count (9x RGB + 3x single-color).
+  archived: https://web.archive.org/web/20260214163754/https://git.trueserve.org/trueControl/dc33-retro-tech-addon
 research:
   status: researched
   confidence: medium

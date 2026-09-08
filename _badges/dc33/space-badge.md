@@ -50,11 +50,13 @@ links:
 - label: www.kickstarter.com/projects/o-n/space-badge-the-next-generation-of-defcon-badges
   url: https://www.kickstarter.com/projects/o-n/space-badge-the-next-generation-of-defcon-badges
   kind: website
+  archived: https://web.archive.org/web/20260816144548/https://www.kickstarter.com/projects/o-n/space-badge-the-next-generation-of-defcon-badges
 images:
 - file: assets/images/badges/dc33/space-badge/6479fc6802.png
   source: https://www.kickstarter.com/projects/o-n/space-badge-the-next-generation-of-defcon-badges
   credit: Owen (dat-a)
   caption: Space Badge project image from the Kickstarter campaign
+  archived: https://web.archive.org/web/20260816144548/https://www.kickstarter.com/projects/o-n/space-badge-the-next-generation-of-defcon-badges
 contact:
   emails:
   - deluge01+kickstarter@gmail.com
@@ -71,6 +73,7 @@ sources:
   title: 'Space Badge: The Next Generation of DEFCON Badges by Owen — Kickstarter'
   accessed: '2026-09-07'
   note: Live page returned a Cloudflare challenge to automated fetches; confirmed via an archive.org snapshot instead. Blurb, creator name "Owen", funding numbers ($5,000 goal, $10,938 pledged, 218%, 57 backers), campaign dates (launched 2025-06-24, deadline 2025-07-25) read from the page's embedded analytics data.
+  archived: https://web.archive.org/web/20260816144548/https://www.kickstarter.com/projects/o-n/space-badge-the-next-generation-of-defcon-badges
 - kind: url
   url: https://forum.defcon.org/node/252978
   title: 2025 / DEF CON 33 / Space Badge - The Next Generation - DEF CON Forums
@@ -81,6 +84,7 @@ sources:
   title: 'Space Badge: The Next Generation of DEFCON Badges by Owen :: Kicktraq'
   accessed: '2026-09-07'
   note: Third-party tracker confirming funding stats (goal $5,000, raised $10,838-10,938 depending on snapshot, 56-57 backers, 216-218% funded, 31-day campaign June 24 - July 25 2025) and mentions three unlocked stretch goals (an avatar system, custom lanyards, additional features).
+  archived: https://web.archive.org/web/20260117152934/http://kicktraq.com/projects/o-n/space-badge-the-next-generation-of-defcon-badges/
 research:
   status: researched
   confidence: medium

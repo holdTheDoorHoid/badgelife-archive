@@ -42,6 +42,7 @@ links:
 - kind: website
   label: Telecom Village
   url: https://www.telecomvillage.com/
+  archived: https://web.archive.org/web/20260217050418/https://www.telecomvillage.com/
 contact:
   handles:
   - '@TelecomVillage'
@@ -56,11 +57,8 @@ sources:
   url: https://www.telecomvillage.com/
   title: Telecom Village | Telecom Security Events & Community
   accessed: '2026-09-06'
-  note: >-
-    Confirms Telecom Village ran at DEF CON 31, 32 and 33 and describes talks, CTFs, panels
-    and workshops on telecom/5G security; lists X handle @TelecomVillage; its sponsorship
-    page names PCBWay as "Badge Sponsor" (for the upcoming DEF CON 34), but no page, photo
-    or specs for a DEF CON 33 badge.
+  note: Confirms Telecom Village ran at DEF CON 31, 32 and 33 and describes talks, CTFs, panels and workshops on telecom/5G security; lists X handle @TelecomVillage; its sponsorship page names PCBWay as "Badge Sponsor" (for the upcoming DEF CON 34), but no page, photo or specs for a DEF CON 33 badge.
+  archived: https://web.archive.org/web/20260217050418/https://www.telecomvillage.com/
 - kind: url
   url: https://forum.defcon.org/node/248919
   title: Telecom Village - DEF CON Forums
@@ -70,18 +68,7 @@ research:
   status: researched
   confidence: low
   last_checked: '2026-09-06'
-  notes: >-
-    Confirmed Telecom Village is a real DEF CON village (present at DC31-33, focused on
-    telecom/5G security, talks/CTFs/workshops), but could not find any page, photo, or
-    post describing a physical badge or SAO they distributed at DC33 specifically —
-    no chip/LED/display/price/quantity info, and no image located. The sheet row (7/31/2025)
-    gives only the maker, the title, "no link", "no price" and the X handle. Checked
-    telecomvillage.com, the DEF CON forum thread, Twitter/X (@TelecomVillage, blocked by
-    paywall), and general web/Hackaday/Tindie searches. Fact-check 2026-09-06: removed
-    the "handed out" wording, the "village" distribution value and the "radio" theme, none
-    of which any source states; telecomvillage.com does list PCBWay as a "Badge Sponsor",
-    which supports a badge program in general but not DC33 specifics. Kept at researched
-    because the badge itself is attested only by the sheet.
+  notes: 'Confirmed Telecom Village is a real DEF CON village (present at DC31-33, focused on telecom/5G security, talks/CTFs/workshops), but could not find any page, photo, or post describing a physical badge or SAO they distributed at DC33 specifically — no chip/LED/display/price/quantity info, and no image located. The sheet row (7/31/2025) gives only the maker, the title, "no link", "no price" and the X handle. Checked telecomvillage.com, the DEF CON forum thread, Twitter/X (@TelecomVillage, blocked by paywall), and general web/Hackaday/Tindie searches. Fact-check 2026-09-06: removed the "handed out" wording, the "village" distribution value and the "radio" theme, none of which any source states; telecomvillage.com does list PCBWay as a "Badge Sponsor", which supports a badge program in general but not DC33 specifics. Kept at researched because the badge itself is attested only by the sheet.'
 last_modified_date: '2026-09-06'
 ---
 

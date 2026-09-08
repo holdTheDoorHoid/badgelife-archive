@@ -35,7 +35,7 @@ get_one:
   price_usd: 20.0
   quantity: ''
   availability: sold_out
-  availability_note: 'Tindie listing showed out of stock when checked 2026-09-06; the listing states it has been sold out since 2025-08-06.'
+  availability_note: Tindie listing showed out of stock when checked 2026-09-06; the listing states it has been sold out since 2025-08-06.
   distribution:
   - purchase
   where: Sold via Tindie, purchase restricted to DEF CON 33 attendees with delivery in person at the conference.
@@ -48,14 +48,17 @@ links:
 - label: www.tindie.com/products/thebadges/the-big-badge-game
   url: https://www.tindie.com/products/thebadges/the-big-badge-game/
   kind: store
+  archived: https://web.archive.org/web/20260503114400/https://www.tindie.com/products/thebadges/the-big-badge-game/
 - label: TheBadg.ES
   url: https://thebadg.es/
   kind: website
+  archived: https://web.archive.org/web/20260515222208/https://www.thebadg.es/
 images:
 - file: assets/images/badges/dc33/the-big-badge-game/a533612ef8.jpg
-  source: "https://www.tindie.com/products/thebadges/the-big-badge-game/"
-  credit: "TheBadgES"
-  caption: "The Big Badge Game PCB badge"
+  source: https://www.tindie.com/products/thebadges/the-big-badge-game/
+  credit: TheBadgES
+  caption: The Big Badge Game PCB badge
+  archived: https://web.archive.org/web/20260503114400/https://www.tindie.com/products/thebadges/the-big-badge-game/
 contact:
   emails:
   - info@thebadg.es
@@ -71,11 +74,13 @@ sources:
   title: The Big Badge Game - TheBadgES on Tindie
   accessed: '2026-09-06'
   note: Confirms maker, price ($20), DEF-CON-33-only purchase/delivery restriction, sold-out status, and product photo.
+  archived: https://web.archive.org/web/20260503114400/https://www.tindie.com/products/thebadges/the-big-badge-game/
 - kind: url
   url: https://thebadg.es/
   title: TheBadg.ES
   accessed: '2026-09-06'
   note: Maker's own site; lists their current product lineup (Battery Flash Badge, InfoBadge2040) but does not mention The Big Badge Game specifically, so no technical spec (MCU/LEDs) could be confirmed from it.
+  archived: https://web.archive.org/web/20260515222208/https://www.thebadg.es/
 research:
   status: verified
   confidence: low

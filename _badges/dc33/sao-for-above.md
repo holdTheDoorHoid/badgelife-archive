@@ -31,7 +31,7 @@ get_one:
   price_usd: 100.0
   quantity: ''
   availability: available
-  availability_note: 'Listed "IN STOCK" on the maker storefront as of 2026-09-06; PayPal checkout on the page is broken, maker asks buyers to contact them directly via Discord/Reddit/contact form.'
+  availability_note: Listed "IN STOCK" on the maker storefront as of 2026-09-06; PayPal checkout on the page is broken, maker asks buyers to contact them directly via Discord/Reddit/contact form.
   distribution:
   - purchase
   where: Sold directly from the maker's Coruscant Ventures storefront (coruscantventures.com), by contacting the maker to arrange payment outside the broken checkout.
@@ -41,23 +41,25 @@ make_your_own:
   firmware_url: null
   gerbers_url: null
   eda_tool: null
-  notes: 'GitHub repo has schematics (as SVG sheets), a BOM, and assembly photos; maker notes Gerbers "may be released after DEF CON."'
+  notes: GitHub repo has schematics (as SVG sheets), a BOM, and assembly photos; maker notes Gerbers "may be released after DEF CON."
 links:
 - label: coruscantventures.com/defcon-badges/p/sao-many-saos
   url: https://coruscantventures.com/defcon-badges/p/sao-many-saos
   kind: website
+  archived: https://web.archive.org/web/20260506040947/https://coruscantventures.com/defcon-badges/p/sao-many-saos
 - label: GitHub - vortexcodes/DC33-SaO-MANY-SAOs
   url: https://github.com/vortexcodes/DC33-SaO-MANY-SAOs
   kind: repo
 images:
 - file: assets/images/badges/dc33/sao-for-above/aa920f25c4.jpg
-  source: "https://coruscantventures.com/defcon-badges/p/sao-many-saos"
-  credit: "Coruscant Ventures"
-  caption: "SAO Many SAOs badge product photo"
+  source: https://coruscantventures.com/defcon-badges/p/sao-many-saos
+  credit: Coruscant Ventures
+  caption: SAO Many SAOs badge product photo
+  archived: https://web.archive.org/web/20260506040947/https://coruscantventures.com/defcon-badges/p/sao-many-saos
 contact: {}
 notes:
 - SmartAO SAO required to make the LEDs around the edge light up.
-- 'Sheet listed the title as "SAO for above"; retitled to match the maker''s product name, "SAO Many SAOs Badge," per the linked storefront page.'
+- Sheet listed the title as "SAO for above"; retitled to match the maker's product name, "SAO Many SAOs Badge," per the linked storefront page.
 status: released
 sources:
 - kind: sheet
@@ -69,16 +71,17 @@ sources:
   title: SAO Many SAOs Badge DEFCON 33 — Coruscant Ventures
   accessed: '2026-09-06'
   note: Maker's storefront listing; confirmed name, price ($100, not the $35 on the sheet), in-stock status, SmartAO dependency, and GitHub link.
+  archived: https://web.archive.org/web/20260506040947/https://coruscantventures.com/defcon-badges/p/sao-many-saos
 - kind: url
   url: https://github.com/vortexcodes/DC33-SaO-MANY-SAOs
-  title: 'GitHub - vortexcodes/DC33-SaO-MANY-SAOs'
+  title: GitHub - vortexcodes/DC33-SaO-MANY-SAOs
   accessed: '2026-09-06'
   note: Maker's repo; confirmed 25-slot SAO carrier design, dual 18650 battery power, fused/surge-protected slots, edge LEDs driven by the top-left slot, and that Gerbers were withheld until after the con.
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-06'
-  notes: 'This entry duplicates an existing entry for the same product, dc33-sao-many-saos (and possibly dc33-sao-and-many-sao-badge). The community sheet''s title "SAO for above" does not match any product name on the maker''s site or repo; the linked URL (coruscantventures.com/defcon-badges/p/sao-many-saos) is unambiguously the "SAO Many SAOs Badge," so the title was corrected to match. Price on the sheet ($35) does not match the current storefront listing ($100); kept the storefront figure since it is the maker''s own current price and noted the discrepancy here. MCU/chip was not named in either the storefront copy or the visible README text. Quantity made was not stated anywhere found.'
+  notes: This entry duplicates an existing entry for the same product, dc33-sao-many-saos (and possibly dc33-sao-and-many-sao-badge). The community sheet's title "SAO for above" does not match any product name on the maker's site or repo; the linked URL (coruscantventures.com/defcon-badges/p/sao-many-saos) is unambiguously the "SAO Many SAOs Badge," so the title was corrected to match. Price on the sheet ($35) does not match the current storefront listing ($100); kept the storefront figure since it is the maker's own current price and noted the discrepancy here. MCU/chip was not named in either the storefront copy or the visible README text. Quantity made was not stated anywhere found.
 last_modified_date: '2026-09-06'
 ---
 

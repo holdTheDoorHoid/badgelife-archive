@@ -38,7 +38,7 @@ make_your_own:
   eda_tool: null
 links:
 - kind: website
-  label: "Tor Project: DEF CON 33, Las Vegas"
+  label: 'Tor Project: DEF CON 33, Las Vegas'
   url: https://blog.torproject.org/event/defcon-2025/
 images: []
 contact: {}
@@ -52,7 +52,7 @@ sources:
   updated: ''
 - kind: url
   url: https://blog.torproject.org/event/defcon-2025/
-  title: "DEF CON 33, Las Vegas | The Tor Project"
+  title: DEF CON 33, Las Vegas | The Tor Project
   accessed: '2026-09-06'
   note: Tor Project's own DEF CON 33 event post; says only "come by our booth and check out new Tor merch," no mention of an electronic badge or SAO.
 - kind: url
@@ -60,6 +60,7 @@ sources:
   title: seeess (GitHub profile)
   accessed: '2026-09-06'
   note: Maker behind the prior Tor-branded electronic badges/SAOs (repos Defcon-Tor-27, -29-Badge, -30, -31-Badge, -32); no Defcon-Tor-33 repository exists as of this check. Their 2025 repo Defcon-Tipsy-33-Badge is a different (non-Tor-branded) badge whose README says half of its sale profits go to the Tor Project.
+  archived: https://web.archive.org/web/20260802214119/https://github.com/seeess
 - kind: url
   url: https://github.com/seeess/Defcon-Tor-27
   title: Defcon 27 Tor Badge / SAO Manual (GitHub)
@@ -75,26 +76,13 @@ sources:
   title: Defcon-Tipsy-33-Badge (GitHub)
   accessed: '2026-09-06'
   note: Seeess's DEF CON 33 badge; not Tor-branded, but README says half of sale profits go to the Tor Project.
+  archived: https://web.archive.org/web/20251118070519/https://github.com/seeess/Defcon-Tipsy-33-Badge
 research:
   status: verified
   confidence: low
   last_checked: '2026-09-06'
-  notes: >-
-    Could not confirm what, if anything, the Tor Project brought/gave out at DEF CON 33
-    beyond the booth itself. In 2019, 2021, 2022, 2023, and 2024 a community maker known
-    as Seeess produced a series of Tor-branded electronic SAOs/badges (see dc32-tor-mini-badge,
-    dc32-tor-lie-detector-badge); the DC27 README says they were given to Tor to sell as a
-    fundraiser, and the DC32 README says the mini-badge was sold at the Tor vendor booth. No
-    "Defcon-Tor-33" successor exists on Seeess's GitHub. The Tor Project's blog post for the
-    event mentions only a booth with "new Tor merch", with no electronic hardware described.
-    Seeess's 2025 repo (Defcon-Tipsy-33-Badge) is not Tor-branded but its README says half of
-    its sale profits go to the Tor Project; whether it was sold at the Tor booth is not stated
-    there. It is possible a 2025 Tor SAO exists but is not yet documented online, or that the
-    sheet row reflects the booth/merch presence rather than a distinct badge/SAO. Leaving fields
-    empty rather than guessing; retitling was not done since no specific item was identified.
-    Fact-check 2026-09-06: removed an unsupported "purple onion" description and an
-    unsupported "giving away" / stickers-and-shirts claim; corrected the note that the Tipsy
-    badge was unrelated to Tor.
+  notes: 'Could not confirm what, if anything, the Tor Project brought/gave out at DEF CON 33 beyond the booth itself. In 2019, 2021, 2022, 2023, and 2024 a community maker known as Seeess produced a series of Tor-branded electronic SAOs/badges (see dc32-tor-mini-badge, dc32-tor-lie-detector-badge); the DC27 README says they were given to Tor to sell as a fundraiser, and the DC32 README says the mini-badge was sold at the Tor vendor booth. No "Defcon-Tor-33" successor exists on Seeess''s GitHub. The Tor Project''s blog post for the event mentions only a booth with "new Tor merch", with no electronic hardware described. Seeess''s 2025 repo (Defcon-Tipsy-33-Badge) is not Tor-branded but its README says half of its sale profits go to the Tor Project; whether it was sold at the Tor booth is not stated there. It is possible a 2025 Tor SAO exists but is not yet documented online, or that the sheet row reflects the booth/merch presence rather than a distinct badge/SAO. Leaving fields empty rather
+    than guessing; retitling was not done since no specific item was identified. Fact-check 2026-09-06: removed an unsupported "purple onion" description and an unsupported "giving away" / stickers-and-shirts claim; corrected the note that the Tipsy badge was unrelated to Tor.'
 last_modified_date: '2026-09-06'
 ---
 
