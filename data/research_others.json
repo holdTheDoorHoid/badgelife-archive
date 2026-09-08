@@ -1,0 +1,226 @@
+[
+ {
+  "title": "crew SAO",
+  "maker": "Aerospace Village",
+  "event": "dc31",
+  "type": "sao",
+  "url": "https://github.com/AerospaceVillage/avBadge_2023/tree/main/crew%20SAO"
+ },
+ {
+  "title": "space_shuttle_SAO",
+  "maker": "Aerospace Village",
+  "event": "dc31",
+  "type": "sao",
+  "url": "https://github.com/AerospaceVillage/avBadge_2023/tree/main/space%20shuttle%20SAO"
+ },
+ {
+  "title": "Sympetrum v2",
+  "maker": "borgel (Kerry Scharfglass)",
+  "event": "dc25",
+  "type": "badge",
+  "url": "https://github.com/borgel/sympetrum-v2"
+ },
+ {
+  "title": "The Wright Stuff",
+  "maker": "Aerospace Village, flysurreal.com",
+  "event": "dc31",
+  "type": "badge",
+  "url": "https://github.com/AerospaceVillage/avBadge_2023/tree/main/Badge/WrightSpace"
+ },
+ {
+  "title": "crew SAO",
+  "maker": "Aerospace Village",
+  "event": "dc31",
+  "type": "sao",
+  "url": "https://github.com/AerospaceVillage/avBadge_2023"
+ },
+ {
+  "title": "speaker SAO",
+  "maker": "Aerospace Village",
+  "event": "dc31",
+  "type": "sao",
+  "url": "https://github.com/AerospaceVillage/avBadge_2023"
+ },
+ {
+  "title": "space_shuttle_SAO",
+  "maker": "Aerospace Village",
+  "event": "dc31",
+  "url": "https://github.com/AerospaceVillage/avBadge_2023",
+  "type": "already has its own entry (dc31-space-shuttle-sao) - noted only, not created"
+ },
+ {
+  "title": "BESD Train Mini Badge",
+  "maker": "CompuDocUt",
+  "event": "saintcon-2022",
+  "type": "minibadge",
+  "url": "https://github.com/CompuDocUt/SaintConMinibadges/blob/main/BESD%20Train%20Mini%20Badge%20assembly%20instructions.pdf"
+ },
+ {
+  "title": "CompuDoc Mini Badge",
+  "maker": "CompuDocUt",
+  "event": "saintcon-2022",
+  "type": "minibadge",
+  "url": "https://github.com/CompuDocUt/SaintConMinibadges/blob/main/CompuDocMini%20Badge%20assembly%20instructions.pdf"
+ },
+ {
+  "title": "Grateful Dead Mini Badge (2022)",
+  "maker": "CompuDocUt",
+  "event": "saintcon-2022",
+  "type": "minibadge",
+  "url": "https://github.com/CompuDocUt/SaintConMinibadges/blob/main/Grateful%20Dead%20Mini%20Badge%202022%20assembly%20instructions%20.pdf"
+ },
+ {
+  "title": "Grateful Dead Mini Badge (2023)",
+  "maker": "CompuDocUt",
+  "event": "saintcon-2023",
+  "type": "minibadge",
+  "url": "https://github.com/CompuDocUt/SaintConMinibadges/blob/main/Grateful%20Dead%20Mini%20Badge%202023%20Assembly%20instructions.pdf"
+ },
+ {
+  "title": "Cargo Cult",
+  "maker": "ray-goldman",
+  "event": "dc32",
+  "type": "firmware/companion project",
+  "url": "https://github.com/ray-goldman/cargo-cult"
+ },
+ {
+  "title": "Cargo Cult Multi-Adv",
+  "maker": "ray-goldman",
+  "event": "dc34",
+  "type": "firmware/companion project",
+  "url": "https://github.com/ray-goldman/cargo-cult-multiadv"
+ },
+ {
+  "title": "The Cyber Owl",
+  "maker": "Recon Village",
+  "event": "dc33 (DEF CON 33, 2025)",
+  "type": "badge",
+  "url": "https://reconvillage.org/badgelife"
+ },
+ {
+  "title": "Foxx SAO",
+  "maker": "Rabbit-Labs",
+  "event": "dc33",
+  "type": "sao",
+  "url": "https://rabbit-labs.com/product/the-rabbit-labs-the-pirates-plunder-badge/"
+ },
+ {
+  "title": "BioHacking Village Badge (DEF CON 31)",
+  "maker": "Badge Pirates",
+  "event": "dc31",
+  "type": "badge",
+  "url": "https://docs.badgepirates.com/bg/BioHackingBadgeSoldering/"
+ },
+ {
+  "title": "The Buddobot OLED Badge",
+  "maker": "Abhinav Pandagale / Hackerware.io",
+  "event": "BSidesSF Hardware Challenge Village, 2024 (no matching event id found in events.yml)",
+  "type": "badge",
+  "url": "https://www.hackster.io/HacksFromPanda/the-buddobot-oled-badge-38be31"
+ },
+ {
+  "title": "Defcon 31 Badge Chamber (DC31) for SOA (unofficial)",
+  "maker": "skippymcneal",
+  "event": "dc31",
+  "type": "accessory",
+  "url": ""
+ },
+ {
+  "title": "DC 29 Tor Badge",
+  "maker": "Gigs (@gigstaggart)",
+  "event": "dc29",
+  "type": "badge",
+  "url": "https://gigsatdc.com/dc29/torbadge_walkthrough.php"
+ },
+ {
+  "title": "DC 31 Sneaky Badge",
+  "maker": "Gigs (@gigstaggart)",
+  "event": "dc31",
+  "type": "badge",
+  "url": "https://gigsbadge.com/product/sneakybadge/"
+ },
+ {
+  "title": "DC503 Wagon Party Badge (2017)",
+  "maker": "PDX Badgers / DC503",
+  "event": "not in events.yml as a distinct id (DEF CON 25 timeframe party badge)",
+  "type": "badge",
+  "url": "https://github.com/pdxbadgers/wagonparty"
+ },
+ {
+  "title": "DC503 Banglet (DEF CON 26, 2018)",
+  "maker": "Nisha Kumar / r00tkillah / DC503",
+  "event": "dc26",
+  "type": "badge",
+  "url": "https://github.com/pdxbadgers/2018-banglet"
+ },
+ {
+  "title": "Popcorn SAO",
+  "maker": "Kredence",
+  "event": "dc27",
+  "type": "sao",
+  "url": "https://github.com/Kredence/DC27_Popcorn_SAO"
+ },
+ {
+  "title": "Illuminati Badge (DC27 version, LED eye badge with offset header and 3D-printed baffles)",
+  "maker": "Kredence",
+  "event": "dc27",
+  "type": "badge",
+  "url": "https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/illuminati-badge-dc27/"
+ },
+ {
+  "title": "Popcorn Bucket badge (backlit popcorn box with 12 add-on headers)",
+  "maker": "Kredence, Ajax_409",
+  "event": "dc27",
+  "type": "badge",
+  "url": "https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/"
+ },
+ {
+  "title": "Popcorn SAO ($10, sold alongside a $40 'Monarch Badge' per a Kredence DEF CON-era post)",
+  "maker": "Kredence",
+  "event": "dc27",
+  "type": "sao",
+  "url": "https://x.com/_kredence"
+ },
+ {
+  "title": "Hack for Satan devilbadge (DC25)",
+  "maker": "Hack For Satan team",
+  "event": "dc25",
+  "type": "badge",
+  "url": "https://github.com/hackforsatan/devilbadge"
+ },
+ {
+  "title": "2018 Car Hacking Village SDK/design files (private Google Drive, listed in a community index repo)",
+  "maker": "Car Hacking Village",
+  "event": "dc26",
+  "type": "other",
+  "url": "https://github.com/ttepatti/Car-Hacking-Village-Badges/tree/master"
+ },
+ {
+  "title": "DEF CON 26 main con badge",
+  "maker": "Tymkrs",
+  "event": "dc26",
+  "type": "badge",
+  "url": "https://defcon.org/html/links/dc-badge.html"
+ },
+ {
+  "title": "DEF CON 26 Stamp Badge",
+  "maker": "elkentaro",
+  "event": "dc26",
+  "type": "unknown",
+  "url": "https://www.thingiverse.com/thing:2996291"
+ },
+ {
+  "title": "El Kentaro's Deauth Detector",
+  "maker": "El Kentaro",
+  "event": "dc27",
+  "type": "other",
+  "url": "https://www.youtube.com/watch?v=daLhn8lIbGo"
+ },
+ {
+  "title": "2018 Open Hardware Summit collaborative badge",
+  "maker": "group of Hackaday.io contributors, inspired by Drew Fustini",
+  "event": "Open Hardware Summit (MIT, Sept 27 2018) - not in events.yml",
+  "type": "badge",
+  "url": "https://hackaday.com/2018/08/29/all-the-badges-of-def-con-26-vol-3/"
+ }
+]
