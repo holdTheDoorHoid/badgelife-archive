@@ -389,6 +389,276 @@
   "family": "bsides",
   "location": ""
  },
+ "bsidespdx": {
+  "base": "bsides-portland",
+  "family": "bsides",
+  "location": ""
+ },
+ "bsideskc": {
+  "base": "bsides-kansas-city",
+  "family": "bsides",
+  "location": ""
+ },
+ "bsidesslc": {
+  "base": "bsides-slc",
+  "family": "bsides",
+  "location": ""
+ },
+ "bsides slc": {
+  "base": "bsides-slc",
+  "family": "bsides",
+  "location": ""
+ },
+ "bsideslv": {
+  "base": "bsides-las-vegas",
+  "family": "bsides",
+  "location": ""
+ },
+ "bsidessf": {
+  "base": "bsides-san-francisco",
+  "family": "bsides",
+  "location": ""
+ },
+ "bsidescbr": {
+  "base": "bsides-canberra",
+  "family": "bsides",
+  "location": ""
+ },
+ "bsidesroc": {
+  "base": "bsides-rochester",
+  "family": "bsides",
+  "location": ""
+ },
+ "bsidesjax": {
+  "base": "bsides-jacksonville",
+  "family": "bsides",
+  "location": ""
+ },
+ "bsideschs": {
+  "base": "bsides-charleston",
+  "family": "bsides",
+  "location": ""
+ },
+ "bsidesphilly": {
+  "base": "bsides-philadelphia",
+  "family": "bsides",
+  "location": ""
+ },
+ "bsidesmuc": {
+  "base": "bsides-munich",
+  "family": "bsides",
+  "location": ""
+ },
+ "bsidesbos": {
+  "base": "bsides-boston",
+  "family": "bsides",
+  "location": ""
+ },
+ "bsidesstl": {
+  "base": "bsides-st-louis",
+  "family": "bsides",
+  "location": ""
+ },
+ "bsides st. louis": {
+  "base": "bsides-st-louis",
+  "family": "bsides",
+  "location": ""
+ },
+ "bsides st louis": {
+  "base": "bsides-st-louis",
+  "family": "bsides",
+  "location": ""
+ },
+ "bsidescle": {
+  "base": "bsides-cleveland",
+  "family": "bsides",
+  "location": ""
+ },
+ "bsidesnash": {
+  "base": "bsides-nashville",
+  "family": "bsides",
+  "location": ""
+ },
+ "bsideshsv": {
+  "base": "bsides-huntsville",
+  "family": "bsides",
+  "location": ""
+ },
+ "bsidestpa": {
+  "base": "bsides-tampa",
+  "family": "bsides",
+  "location": ""
+ },
+ "bsidesatl": {
+  "base": "bsides-atlanta",
+  "family": "bsides",
+  "location": ""
+ },
+ "bsidesnova": {
+  "base": "bsides-nova",
+  "family": "bsides",
+  "location": ""
+ },
+ "bsidesorl": {
+  "base": "bsides-orlando",
+  "family": "bsides",
+  "location": ""
+ },
+ "bsidesdc": {
+  "base": "bsides-dc",
+  "family": "bsides",
+  "location": ""
+ },
+ "bsides dc": {
+  "base": "bsides-dc",
+  "family": "bsides",
+  "location": ""
+ },
+ "bsidesla": {
+  "base": "bsides-los-angeles",
+  "family": "bsides",
+  "location": ""
+ },
+ "bsides los angeles": {
+  "base": "bsides-los-angeles",
+  "family": "bsides",
+  "location": ""
+ },
+ "bsidesctba": {
+  "base": "bsides-cape-town",
+  "family": "bsides",
+  "location": ""
+ },
+ "bsides ct": {
+  "base": "bsides-cape-town",
+  "family": "bsides",
+  "location": ""
+ },
+ "bsidesadl": {
+  "base": "bsides-adelaide",
+  "family": "bsides",
+  "location": ""
+ },
+ "bsidesmel": {
+  "base": "bsides-melbourne",
+  "family": "bsides",
+  "location": ""
+ },
+ "bsidesperth": {
+  "base": "bsides-perth",
+  "family": "bsides",
+  "location": ""
+ },
+ "bsidesbne": {
+  "base": "bsides-brisbane",
+  "family": "bsides",
+  "location": ""
+ },
+ "bsides brisbane": {
+  "base": "bsides-brisbane",
+  "family": "bsides",
+  "location": ""
+ },
+ "bsides sydney": {
+  "base": "bsides-sydney",
+  "family": "bsides",
+  "location": ""
+ },
+ "bsidessd": {
+  "base": "bsides-san-diego",
+  "family": "bsides",
+  "location": ""
+ },
+ "bsidesyyc": {
+  "base": "bsides-calgary",
+  "family": "bsides",
+  "location": ""
+ },
+ "bsides calgary": {
+  "base": "bsides-calgary",
+  "family": "bsides",
+  "location": ""
+ },
+ "bsides edmonton": {
+  "base": "bsides-edmonton",
+  "family": "bsides",
+  "location": ""
+ },
+ "bsidesto": {
+  "base": "bsides-toronto",
+  "family": "bsides",
+  "location": ""
+ },
+ "bsides toronto": {
+  "base": "bsides-toronto",
+  "family": "bsides",
+  "location": ""
+ },
+ "bsidespr": {
+  "base": "bsidespr",
+  "family": "bsides",
+  "location": ""
+ },
+ "bsides pr": {
+  "base": "bsidespr",
+  "family": "bsides",
+  "location": ""
+ },
+ "bsides cymru": {
+  "base": "bsides-cymru",
+  "family": "bsides",
+  "location": ""
+ },
+ "bsides leeds": {
+  "base": "bsides-leeds",
+  "family": "bsides",
+  "location": ""
+ },
+ "bsides newcastle": {
+  "base": "bsides-newcastle",
+  "family": "bsides",
+  "location": ""
+ },
+ "bsides bristol": {
+  "base": "bsides-bristol",
+  "family": "bsides",
+  "location": ""
+ },
+ "bsides cheltenham": {
+  "base": "bsides-cheltenham",
+  "family": "bsides",
+  "location": ""
+ },
+ "bsides exeter": {
+  "base": "bsides-exeter",
+  "family": "bsides",
+  "location": ""
+ },
+ "bsides zurich": {
+  "base": "bsides-zurich",
+  "family": "bsides",
+  "location": ""
+ },
+ "bsides lisbon": {
+  "base": "bsides-lisbon",
+  "family": "bsides",
+  "location": ""
+ },
+ "bsides athens": {
+  "base": "bsides-athens",
+  "family": "bsides",
+  "location": ""
+ },
+ "bsides delhi": {
+  "base": "bsides-delhi",
+  "family": "bsides",
+  "location": ""
+ },
+ "bsides bangalore": {
+  "base": "bsides-bangalore",
+  "family": "bsides",
+  "location": ""
+ },
  "layerone": {
   "base": "layerone",
   "family": "other",

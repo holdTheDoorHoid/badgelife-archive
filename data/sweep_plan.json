@@ -1746,7 +1746,9 @@
    2025,
    2026
   ],
-  "ids": [],
+  "ids": [
+   "bsides-slc-2025"
+  ],
   "angle": "every BSides Salt Lake City conference badge (electronic or notable), SAO and community badge, by year",
   "hints": ""
  },
@@ -1771,7 +1773,9 @@
    2025,
    2026
   ],
-  "ids": [],
+  "ids": [
+   "bsides-san-diego-2024"
+  ],
   "angle": "every BSides San Diego conference badge (electronic or notable), SAO and community badge, by year",
   "hints": ""
  },
@@ -1796,7 +1800,9 @@
    2025,
    2026
   ],
-  "ids": [],
+  "ids": [
+   "bsides-tallinn-2025"
+  ],
   "angle": "every BSides Tallinn conference badge (electronic or notable), SAO and community badge, by year",
   "hints": ""
  },

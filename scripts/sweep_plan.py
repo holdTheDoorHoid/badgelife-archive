@@ -103,6 +103,20 @@ BS_GROUPS = [["Las Vegas", "San Francisco", "Seattle"], ["Canberra", "Melbourne"
 for g in BS_GROUPS:
     for city in g: con(f"BSides {city}", "bsides-" + re.sub(r"[^a-z0-9]+", "-", city.lower().split(" (")[0]).strip("-"), "bsides")
     task("bsides-" + re.sub(r"[^a-z0-9]+", "-", g[0].lower()), "BSides " + " / ".join(g), "BSides", list(range(2012, 2027)), [], f"every conference badge, SAO and community badge made for BSides {', '.join(g)} in any year")
+# abbreviations agents use for BSides cities, so "BSidesPDX 2017" and "BSides Portland 2017" land on one event id
+for abbr, base in {"bsidespdx": "bsides-portland", "bsideskc": "bsides-kansas-city", "bsidesslc": "bsides-slc", "bsides salt lake city": "bsides-slc", "bsides slc": "bsides-slc",
+                   "bsideslv": "bsides-las-vegas", "bsidessf": "bsides-san-francisco", "bsidescbr": "bsides-canberra", "bsidesroc": "bsides-rochester", "bsidesjax": "bsides-jacksonville",
+                   "bsideschs": "bsides-charleston", "bsidesphilly": "bsides-philadelphia", "bsidesmuc": "bsides-munich", "bsidesbos": "bsides-boston", "bsidesstl": "bsides-st-louis",
+                   "bsides st. louis": "bsides-st-louis", "bsides st louis": "bsides-st-louis", "bsidescle": "bsides-cleveland", "bsidesnash": "bsides-nashville", "bsideshsv": "bsides-huntsville",
+                   "bsidestpa": "bsides-tampa", "bsidesatl": "bsides-atlanta", "bsidesnova": "bsides-nova", "bsidesorl": "bsides-orlando", "bsidesdc": "bsides-dc", "bsides dc": "bsides-dc",
+                   "bsidesla": "bsides-los-angeles", "bsides los angeles": "bsides-los-angeles", "bsidesctba": "bsides-cape-town", "bsides ct": "bsides-cape-town", "bsidesadl": "bsides-adelaide",
+                   "bsidesmel": "bsides-melbourne", "bsidesperth": "bsides-perth", "bsidesbne": "bsides-brisbane", "bsides brisbane": "bsides-brisbane", "bsides sydney": "bsides-sydney",
+                   "bsidessd": "bsides-san-diego", "bsidesyyc": "bsides-calgary", "bsides calgary": "bsides-calgary", "bsides edmonton": "bsides-edmonton", "bsidesto": "bsides-toronto", "bsides toronto": "bsides-toronto",
+                   "bsides dfw": "bsidesdfw", "bsides puerto rico": "bsidespr", "bsidespr": "bsidespr", "bsides pr": "bsidespr", "bsides cymru": "bsides-cymru", "bsides leeds": "bsides-leeds",
+                   "bsides manchester": "bsides-manchester", "bsides newcastle": "bsides-newcastle", "bsides bristol": "bsides-bristol", "bsides cheltenham": "bsides-cheltenham", "bsides exeter": "bsides-exeter",
+                   "bsides zurich": "bsides-zurich", "bsides lisbon": "bsides-lisbon", "bsides athens": "bsides-athens", "bsides delhi": "bsides-delhi", "bsides bangalore": "bsides-bangalore",
+                   "bsides tokyo": "bsides-tokyo", "bsides tallinn": "bsides-tallinn", "bsides orlando": "bsides-orlando", "bsides rochester": "bsides-rochester", "bsides iowa": "bsides-iowa"}.items():
+    con(abbr, base, "bsides")
 task("bsides-any", "BSides badges anywhere else", "BSides", list(range(2012, 2027)), [], "BSides badges from any other city worldwide (search 'BSides badge' by year, github 'bsides badge', hackaday.io 'bsides', badge.team, Tindie)")
 
 # --- badge-producing cons not in the archive yet (grouped by region/affinity)
