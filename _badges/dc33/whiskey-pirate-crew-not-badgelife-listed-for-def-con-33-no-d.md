@@ -39,13 +39,15 @@ make_your_own:
   eda_tool: null
 links:
 - kind: website
-  label: "the whiskey pirates"
+  label: the whiskey pirates
   url: http://whiskeypirates.com/
+  archived: https://web.archive.org/web/20260611230249/http://whiskeypirates.com/
 - kind: hackaday
-  label: "Whiskey Pirates tag - Hackaday"
+  label: Whiskey Pirates tag - Hackaday
   url: https://hackaday.com/tag/whiskey-pirates/
+  archived: https://web.archive.org/web/20260421173118/https://hackaday.com/tag/whiskey-pirates/
 - kind: doc
-  label: "Whiskey Pirates badges by year - trueControl BASIC"
+  label: Whiskey Pirates badges by year - trueControl BASIC
   url: https://basic.truecontrol.org/database/wp-badges/
 images: []
 contact: {}
@@ -62,11 +64,13 @@ sources:
   title: the whiskey pirates
   accessed: '2026-09-06'
   note: Maker's main site (TLS certificate expired, content still loads). Lists "badge info by year" for dc22, dc23, dc24, dc27-dc32 with no DC33 item; front page now carries a DC34 message. Supports maker name and site URL.
+  archived: https://web.archive.org/web/20260611230249/http://whiskeypirates.com/
 - kind: url
   url: https://hackaday.com/tag/whiskey-pirates/
   title: whiskey pirates - Hackaday
   accessed: '2026-09-06'
   note: Hackaday's Whiskey Pirates tag; five posts (DC22/23, DC27, DC28, DC29), most recent covers the DC29 (2021) RISC-V badge, nothing for DC33/2025. The DC29 post's comments carry the maker's "adamantly not badgelife" statement and note the badges were assembled by hand with trueControl.
+  archived: https://web.archive.org/web/20260421173118/https://hackaday.com/tag/whiskey-pirates/
 - kind: url
   url: https://basic.truecontrol.org/database/
   title: Home - trueControl BASIC
@@ -81,16 +85,7 @@ research:
   status: verified
   confidence: high
   last_checked: '2026-09-06'
-  notes: >-
-    Sheet row lists only the maker name for DC33, with no title/description. trueControl's
-    Whiskey Pirates badge page (linked from whiskeypirates.com as the crew's badge info)
-    states plainly that the crew had no badges at DEF CON 33 (2025), so status is set to
-    cancelled rather than unknown. The same page shows the planned "WP Booze Badge" slipping
-    from DC30 past DC32, DC33 and DC34, which may be what the sheet anticipated. Fact-check
-    2026-09-06: removed an unsupported "based out of Las Vegas" claim (Las Vegas is only the
-    con location) and a claim that the DC32 Flames/PepperCon9/Infinite WiFi Portal addons
-    were Whiskey Pirates items (trueControl credits them to itself and Aask, and says there
-    were no WP badges at DC32). Title kept as imported since no specific item exists.
+  notes: 'Sheet row lists only the maker name for DC33, with no title/description. trueControl''s Whiskey Pirates badge page (linked from whiskeypirates.com as the crew''s badge info) states plainly that the crew had no badges at DEF CON 33 (2025), so status is set to cancelled rather than unknown. The same page shows the planned "WP Booze Badge" slipping from DC30 past DC32, DC33 and DC34, which may be what the sheet anticipated. Fact-check 2026-09-06: removed an unsupported "based out of Las Vegas" claim (Las Vegas is only the con location) and a claim that the DC32 Flames/PepperCon9/Infinite WiFi Portal addons were Whiskey Pirates items (trueControl credits them to itself and Aask, and says there were no WP badges at DC32). Title kept as imported since no specific item exists.'
 last_modified_date: '2026-09-06'
 ---
 

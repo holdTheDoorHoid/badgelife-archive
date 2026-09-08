@@ -49,18 +49,22 @@ links:
 - label: VetCON collection on ThreatHunter.ai
   url: https://shop.threathunter.ai/collections/vetcon
   kind: store
+  archived: https://web.archive.org/web/20251012072605/https://shop.threathunter.ai/collections/vetcon
 - label: shop.threathunter.ai/collections/vetcon/products/vetcon-2025-badge-pre-pay-only-onsite-pickup-only
   url: https://shop.threathunter.ai/collections/vetcon/products/vetcon-2025-badge-pre-pay-only-onsite-pickup-only
   kind: store
+  archived: https://web.archive.org/web/20251012075736/https://shop.threathunter.ai/collections/vetcon/products/vetcon-2025-badge-pre-pay-only-onsite-pickup-only
 images:
 - file: assets/images/badges/dc33/vetcon-2025-badge/b6b8b197c9.jpg
   source: https://shop.threathunter.ai/products/vetcon-2025-badge-pre-pay-only-onsite-pickup-only
   credit: ThreatHunter.ai
   caption: VetCon 2025 badge, front view
+  archived: https://web.archive.org/web/20250908003958/https://shop.threathunter.ai/products/vetcon-2025-badge-pre-pay-only-onsite-pickup-only
 - file: assets/images/badges/dc33/vetcon-2025-badge/8e78cc51db.jpg
   source: https://shop.threathunter.ai/products/vetcon-2025-badge-pre-pay-only-onsite-pickup-only
   credit: ThreatHunter.ai
   caption: VetCon 2025 badge, alternate view
+  archived: https://web.archive.org/web/20250908003958/https://shop.threathunter.ai/products/vetcon-2025-badge-pre-pay-only-onsite-pickup-only
 contact: {}
 notes:
 - Pre-Order only with pick up at DC33
@@ -77,16 +81,19 @@ sources:
   title: VETCON 2025 BADGE - PRE PAY ONLY - ONSITE PICKUP ONLY AT DEFCON VETCON 33
   accessed: '2026-09-06'
   note: 'Product listing text and images: maker, ESP32/BlackBerry Q10 keyboard/LCD design, SINCGARS homage, price, pickup-only distribution.'
+  archived: https://web.archive.org/web/20250908003958/https://shop.threathunter.ai/products/vetcon-2025-badge-pre-pay-only-onsite-pickup-only
 - kind: url
   url: https://shop.threathunter.ai/collections/vetcon/products/vetcon-2025-badge-pre-pay-only-onsite-pickup-only
   title: VETCON 2025 Badge
   accessed: '2026-09-07'
   note: 'Found by the archive''s discovery sweep (angle: sheet-research-spotted); event read as ''dc33 (or whichever DEF CON year corresponds to 2025)''.'
+  archived: https://web.archive.org/web/20251012075736/https://shop.threathunter.ai/collections/vetcon/products/vetcon-2025-badge-pre-pay-only-onsite-pickup-only
 - kind: url
   url: https://shop.threathunter.ai/collections/vetcon/products/vetcon-2025-badge-pre-pay-only-onsite-pickup-only
   title: VETCON 2025 Badge - Pre Pay Only - Onsite Pickup Only
   accessed: '2026-09-07'
   note: Store listing confirms maker (ThreatHunter.ai), ESP32 + recycled BlackBerry Q10 keyboard + LCD, Wi-Fi P2P messaging, price $103.37, pickup-only at VetCON during DEF CON 33.
+  archived: https://web.archive.org/web/20251012075736/https://shop.threathunter.ai/collections/vetcon/products/vetcon-2025-badge-pre-pay-only-onsite-pickup-only
 research:
   status: researched
   confidence: medium

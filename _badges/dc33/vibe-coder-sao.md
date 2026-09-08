@@ -56,11 +56,13 @@ links:
   title: 'Vibe Coder SAO #badgelife addon - coryallegory - Tindie'
   accessed: '2026-09-06'
   note: Confirms price ($15), out-of-stock status, LED count/behavior, and DEF CON 34 pre-order note.
+  archived: https://web.archive.org/web/20260503100758/https://www.tindie.com/products/coryallegory/vibe-coder-sao-badgelife-addon/
 images:
 - file: assets/images/badges/dc33/vibe-coder-sao/5099fde60f.jpg
   source: https://www.tindie.com/products/coryallegory/vibe-coder-sao-badgelife-addon/
   credit: coryallegory
   caption: Vibe Coder SAO product photo showing the coder-dog artwork and keyboard LEDs
+  archived: https://web.archive.org/web/20260503100758/https://www.tindie.com/products/coryallegory/vibe-coder-sao-badgelife-addon/
 contact:
   emails:
   - corymetcalfe@gmail.com

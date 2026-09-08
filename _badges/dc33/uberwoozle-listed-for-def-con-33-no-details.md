@@ -39,7 +39,7 @@ links: []
 images: []
 contact: {}
 notes:
-- 'Community sheet listed only the maker name for DEF CON 33, with no item details.'
+- Community sheet listed only the maker name for DEF CON 33, with no item details.
 status: unknown
 sources:
 - kind: sheet
@@ -52,6 +52,7 @@ sources:
   title: 2026 Call for Challenges (CFC) — Car Hacking Village
   accessed: '2026-09-06'
   note: Confirms Uberwoozle as the Car Hacking Village CTF contact for challenge submissions; no mention of a badge or SAO credit.
+  archived: https://web.archive.org/web/20250924194429/https://www.carhackingvillage.com/cfc
 - kind: url
   url: https://x.com/CarHackVillage/status/1666836733378584576
   title: 'Car Hacking Village on X: announcing the 2023 CHV Badge and SAO'
@@ -64,30 +65,15 @@ sources:
   note: Firmware repo for the 2025 (DC33) Car Hacking Village badge; no author/designer credit or mention of Uberwoozle found in the visible content.
 - kind: url
   url: https://github.com/ttepatti/Car-Hacking-Village-Badges
-  title: 'GitHub - ttepatti/Car-Hacking-Village-Badges'
+  title: GitHub - ttepatti/Car-Hacking-Village-Badges
   accessed: '2026-09-06'
   note: Historical list of CHV badges by year; the DC33 (2025) entry names no designer.
 research:
   status: verified
   confidence: low
   last_checked: '2026-09-06'
-  notes: >-
-    Could not confirm what, if anything, Uberwoozle brought to DEF CON 33 (2025).
-    Uberwoozle is a real, identifiable person in the badgelife/CHV world: they run
-    challenge submissions for the Car Hacking Village CTF (contact for the CFC),
-    were given a "special thanks" credit on the 2023 (DEF CON 31) Car Hacking
-    Village badge and SAO, and separately made their own "Speedometer SAO (not a
-    cat)" sold at CHV for DEF CON 32 in 2024 (see dc32-speedometer-sao-not-a-cat).
-    Despite that track record, no source found ties them to a specific badge or
-    SAO release for DEF CON 33 — the DC33 CHV badge firmware repo and the
-    historical CHV badge list on GitHub name no individual designer, and no
-    storefront, Hackaday.io project, or social post surfaced for a 2025
-    Uberwoozle item. Left as unknown per the "listed, no details" special case
-    rather than guessing this is the same CHV badge or a new Speedometer SAO.
-    Fact-check 2026-09-06: all four URL sources re-read and confirmed (X post fetched via
-    the syndication endpoint, since x.com blocks direct fetches). The Speedometer SAO details
-    (LCD, "cat battles", $50) come from this archive's dc32-speedometer-sao-not-a-cat entry,
-    which is itself sheet-derived and uncorroborated.
+  notes: 'Could not confirm what, if anything, Uberwoozle brought to DEF CON 33 (2025). Uberwoozle is a real, identifiable person in the badgelife/CHV world: they run challenge submissions for the Car Hacking Village CTF (contact for the CFC), were given a "special thanks" credit on the 2023 (DEF CON 31) Car Hacking Village badge and SAO, and separately made their own "Speedometer SAO (not a cat)" sold at CHV for DEF CON 32 in 2024 (see dc32-speedometer-sao-not-a-cat). Despite that track record, no source found ties them to a specific badge or SAO release for DEF CON 33 — the DC33 CHV badge firmware repo and the historical CHV badge list on GitHub name no individual designer, and no storefront, Hackaday.io project, or social post surfaced for a 2025 Uberwoozle item. Left as unknown per the "listed, no details" special case rather than guessing this is the same CHV badge or a new Speedometer SAO. Fact-check 2026-09-06: all four URL sources re-read and confirmed (X post fetched via the syndication
+    endpoint, since x.com blocks direct fetches). The Speedometer SAO details (LCD, "cat battles", $50) come from this archive''s dc32-speedometer-sao-not-a-cat entry, which is itself sheet-derived and uncorroborated.'
 last_modified_date: '2026-09-06'
 ---
 
