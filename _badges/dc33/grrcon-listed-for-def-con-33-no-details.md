@@ -51,24 +51,13 @@ sources:
   title: GrrCON
   accessed: '2026-09-07'
   note: Maker's own site; only about their Grand Rapids, MI conference, no badge/SAO/DEF CON content.
+  archived: https://web.archive.org/web/20260802055825/https://grrcon.com/
 research:
   status: verified
   confidence: low
   last_checked: '2026-09-07'
-  notes: >-
-    Could not find what, if anything, GrrCON brought to DEF CON 33. GrrCON's own site
-    (grrcon.com) is only about their own Grand Rapids conference and has no badge or
-    SAO content. No Hackaday.io project, Hackaday.com article, Tindie listing, or
-    general web search turned up a GrrCON hardware badge for 2025. This is the same
-    unresolved pattern as prior years: dc31-grrcon-designed-by-hak4kids-listed-for-def-con-31-no-details
-    and dc32-grrcon-designed-by-hak4kids-listed-for-def-con-32-no-details are also
-    still stubs with no details found, so GrrCON may simply be listed as an expected
-    vendor/attendee each year without ever having a documented independent badge.
-    Leaving status unknown rather than guessing. Fact-check 2026-09-07: grrcon.com
-    re-checked and confirms it is a Grand Rapids, MI conference with no badge or
-    DEF CON content (the site now shows the 2026 dates, so the earlier "Oct 2-3, 2025"
-    date claim could not be re-confirmed and was removed). Nothing left to verify
-    beyond the sheet listing itself.
+  notes: 'Could not find what, if anything, GrrCON brought to DEF CON 33. GrrCON''s own site (grrcon.com) is only about their own Grand Rapids conference and has no badge or SAO content. No Hackaday.io project, Hackaday.com article, Tindie listing, or general web search turned up a GrrCON hardware badge for 2025. This is the same unresolved pattern as prior years: dc31-grrcon-designed-by-hak4kids-listed-for-def-con-31-no-details and dc32-grrcon-designed-by-hak4kids-listed-for-def-con-32-no-details are also still stubs with no details found, so GrrCON may simply be listed as an expected vendor/attendee each year without ever having a documented independent badge. Leaving status unknown rather than guessing. Fact-check 2026-09-07: grrcon.com re-checked and confirms it is a Grand Rapids, MI conference with no badge or DEF CON content (the site now shows the 2026 dates, so the earlier "Oct 2-3, 2025" date claim could not be re-confirmed and was removed). Nothing left to verify beyond the sheet
+    listing itself.'
 last_modified_date: '2026-09-07'
 ---
 

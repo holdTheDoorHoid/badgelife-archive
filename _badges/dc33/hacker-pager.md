@@ -64,6 +64,7 @@ links:
 - label: github.com/exploiteers/Meshtastic-Exploiteers-Hacker-Pager
   url: https://github.com/exploiteers/Meshtastic-Exploiteers-Hacker-Pager
   kind: repo
+  archived: https://web.archive.org/web/20260405111401/https://github.com/exploiteers/Meshtastic-Exploiteers-Hacker-Pager/
 - label: github.com/exploiteers/Electronics-Design-Exploiteers-Hacker-Pager
   url: https://github.com/exploiteers/Electronics-Design-Exploiteers-Hacker-Pager
   kind: repo
@@ -73,6 +74,7 @@ links:
 - label: hackaday.com/2025/07/31/hands-on-the-hacker-pager
   url: https://hackaday.com/2025/07/31/hands-on-the-hacker-pager/
   kind: article
+  archived: https://web.archive.org/web/20260818182426/https://hackaday.com/2025/07/31/hands-on-the-hacker-pager/
 images: []
 contact:
   raw:
@@ -100,6 +102,7 @@ sources:
   title: exploiteers/Meshtastic-Exploiteers-Hacker-Pager
   accessed: '2026-09-06'
   note: Firmware repo; confirms it is a fork of Meshtastic and links the separate electronics and case repos.
+  archived: https://web.archive.org/web/20260405111401/https://github.com/exploiteers/Meshtastic-Exploiteers-Hacker-Pager/
 - kind: url
   url: https://github.com/exploiteers/Electronics-Design-Exploiteers-Hacker-Pager
   title: exploiteers/Electronics-Design-Exploiteers-Hacker-Pager
@@ -115,6 +118,7 @@ sources:
   title: 'Hands-On: The Hacker Pager'
   accessed: '2026-09-06'
   note: 'DEF CON 33 (2025) details: $200 Green/Black, $250 Pink/Black and Orange/Black, sold-out pre-orders with units at DC33, CERN OHL v2, 36 RGB + 12 UV LEDs, 192x64 LCD, ambient clock mode, vibration/audible alerts, laser-cut acrylic + 3D-printed body.'
+  archived: https://web.archive.org/web/20260818182426/https://hackaday.com/2025/07/31/hands-on-the-hacker-pager/
 research:
   status: verified
   confidence: medium

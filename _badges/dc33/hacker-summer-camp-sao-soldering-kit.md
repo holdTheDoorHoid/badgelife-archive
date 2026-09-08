@@ -49,25 +49,30 @@ links:
 - label: github.com/MakeItHackin/SummerCampSAO
   url: https://github.com/MakeItHackin/SummerCampSAO
   kind: repo
+  archived: https://web.archive.org/web/20260505134208/https://github.com/MakeItHackin/SummerCampSAO
 - label: Assembly tutorial (YouTube)
   url: https://youtu.be/E3vtrzXdGKo
   kind: video
 - label: www.tindie.com/products/makeithackin/summer-camp-sao-soldering-kit
   url: https://www.tindie.com/products/makeithackin/summer-camp-sao-soldering-kit/
   kind: store
+  archived: https://web.archive.org/web/20260503101944/https://www.tindie.com/products/makeithackin/summer-camp-sao-soldering-kit/
 images:
 - file: assets/images/badges/dc33/hacker-summer-camp-sao-soldering-kit/9bb538c890.jpg
   source: https://github.com/MakeItHackin/SummerCampSAO
   credit: Make it Hackin
   caption: Assembled Hacker Summer Camp SAO, front, unpowered
+  archived: https://web.archive.org/web/20260505134208/https://github.com/MakeItHackin/SummerCampSAO
 - file: assets/images/badges/dc33/hacker-summer-camp-sao-soldering-kit/0684ca08c0.jpg
   source: https://github.com/MakeItHackin/SummerCampSAO
   credit: Make it Hackin
   caption: Kit contents laid out before assembly
+  archived: https://web.archive.org/web/20260505134208/https://github.com/MakeItHackin/SummerCampSAO
 - file: assets/images/badges/dc33/hacker-summer-camp-sao-soldering-kit/913715de87.jpg
   source: https://www.tindie.com/products/makeithackin/summer-camp-sao-soldering-kit/
   credit: Make it Hackin
   caption: 'All kit items laid out: board, LEDs, resistor, stickers'
+  archived: https://web.archive.org/web/20260503101944/https://www.tindie.com/products/makeithackin/summer-camp-sao-soldering-kit/
 contact:
   emails:
   - andrew@makeithackin.com
@@ -85,21 +90,25 @@ sources:
   title: MakeItHackin/SummerCampSAO
   accessed: '2026-09-07'
   note: 'README lists the kit''s contents (board, 4 RGB LEDs, 1 resistor, 1 SAO connector, stickers, googly eyes), assembly order, and says it lights up from the badge''s power with slow-changing RGB LEDs. Repo holds only the README and photos: no design files, no license. Repo created July 2024; stickers reference DC32.'
+  archived: https://web.archive.org/web/20260505134208/https://github.com/MakeItHackin/SummerCampSAO
 - kind: url
   url: https://www.youtube.com/watch?v=E3vtrzXdGKo
   title: How to Assemble and Solder Your Hacker Summer Camp SAO | DEF CON 32
   accessed: '2026-09-07'
   note: Maker's assembly video on the Make It Hackin channel, published 2024-08-05; the title places the kit at DEF CON 32.
+  archived: https://web.archive.org/web/20260222114510/https://www.youtube.com/watch?v=E3vtrzXdGKo
 - kind: url
   url: https://www.tindie.com/products/makeithackin/summer-camp-sao-soldering-kit/
   title: Summer Camp SAO Soldering Kit
   accessed: '2026-09-07'
   note: 'Found by the archive''s discovery sweep (angle: sheet-research-spotted); event read as ''unclear - may overlap with existing dc33-hacker-summer-camp-sao-soldering-kit entry, worth a cross-check but not created here''.'
+  archived: https://web.archive.org/web/20260503101944/https://www.tindie.com/products/makeithackin/summer-camp-sao-soldering-kit/
 - kind: url
   url: https://www.tindie.com/products/makeithackin/summer-camp-sao-soldering-kit/
   title: Summer Camp SAO Soldering Kit (Tindie listing)
   accessed: '2026-09-07'
   note: Tindie listing gives price $10, describes 4 RGB LEDs / 1 resistor / 1 SAO connector kit, links the GitHub repo, and hosts product photos dated 2024-08-05 (product id 845303) matching the DEF CON 32 timeframe.
+  archived: https://web.archive.org/web/20260503101944/https://www.tindie.com/products/makeithackin/summer-camp-sao-soldering-kit/
 research:
   status: verified
   confidence: medium

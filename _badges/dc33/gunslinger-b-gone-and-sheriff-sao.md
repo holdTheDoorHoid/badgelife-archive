@@ -49,24 +49,29 @@ links:
 - label: Gunslinger-B-Gone & Sheriff SAO badge page
   url: https://bigtaro.net/wwhfbadge25
   kind: website
+  archived: https://web.archive.org/web/20260508142717/https://bigtaro.net/wwhfbadge25/
 - label: Sheriff SAO standalone build guide
   url: https://bigtaro.net/wwhfbadge25/sheriffguide.html
   kind: doc
+  archived: https://web.archive.org/web/20251208141217/https://bigtaro.net/wwhfbadge25/sheriffguide.html
 - label: BigTaro on Tindie
   url: https://www.tindie.com/stores/bigtaro/
   kind: store
+  archived: https://web.archive.org/web/20260503101828/https://www.tindie.com/stores/bigtaro/
 - label: BigTaro on Bluesky
   url: https://bsky.app/profile/bigtaro.bsky.social
   kind: social
 images:
-  - file: assets/images/badges/dc33/gunslinger-b-gone-and-sheriff-sao/de8ef8f815.jpg
-    source: "https://bigtaro.net/wwhfbadge25"
-    credit: "BigTaro's Badges"
-    caption: "Gunslinger-B-Gone badge, front"
-  - file: assets/images/badges/dc33/gunslinger-b-gone-and-sheriff-sao/962938f417.jpg
-    source: "https://bigtaro.net/wwhfbadge25/sheriffguide.html"
-    credit: "BigTaro's Badges"
-    caption: "Sheriff SAO worn standalone with battery kit"
+- file: assets/images/badges/dc33/gunslinger-b-gone-and-sheriff-sao/de8ef8f815.jpg
+  source: https://bigtaro.net/wwhfbadge25
+  credit: BigTaro's Badges
+  caption: Gunslinger-B-Gone badge, front
+  archived: https://web.archive.org/web/20260508142717/https://bigtaro.net/wwhfbadge25/
+- file: assets/images/badges/dc33/gunslinger-b-gone-and-sheriff-sao/962938f417.jpg
+  source: https://bigtaro.net/wwhfbadge25/sheriffguide.html
+  credit: BigTaro's Badges
+  caption: Sheriff SAO worn standalone with battery kit
+  archived: https://web.archive.org/web/20251208141217/https://bigtaro.net/wwhfbadge25/sheriffguide.html
 contact:
   emails:
   - psymastr@hotmail.com
@@ -87,11 +92,13 @@ sources:
   title: Gunslinger-B-Gone Badge & Sheriff SAO
   accessed: '2026-09-06'
   note: Primary source for functions, controls, firmware update process (UF2 drag-and-drop), known issues (linear charger caution), distribution (Hacker Warehouse vendor hall at DEF CON 33, Tindie leftovers, Bluesky/Signal drop announcements), and front/back badge photos.
+  archived: https://web.archive.org/web/20260508142717/https://bigtaro.net/wwhfbadge25/
 - kind: url
   url: https://bigtaro.net/wwhfbadge25/sheriffguide.html
   title: Gunslinger-B-Gone Sheriff SAO Standalone Build Guide
   accessed: '2026-09-06'
   note: Confirms the Sheriff SAO's MCU is an RP2040 ("stick a pad to the back of the rp2040 chip on the board"), the CR2032/LIR2032 standalone battery kit, the SAO connector attachment, and provided a photo of the worn Sheriff SAO.
+  archived: https://web.archive.org/web/20251208141217/https://bigtaro.net/wwhfbadge25/sheriffguide.html
 research:
   status: researched
   confidence: medium
