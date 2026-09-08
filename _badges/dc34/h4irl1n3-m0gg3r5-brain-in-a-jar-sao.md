@@ -25,7 +25,7 @@ tech:
   leds:
     count: 2
     type: null
-    note: 'Board silkscreen labels two LED pads, LED1 and LED2; specific LED part not stated.'
+    note: Board silkscreen labels two LED pads, LED1 and LED2; specific LED part not stated.
   display: null
   connectivity: []
   battery: null
@@ -37,7 +37,7 @@ get_one:
   availability: free
   distribution:
   - free_drop
-  where: 'Not sold; the maker''s site says badges "drop throughout the conference" at DEF CON 34 and to watch their socials (r/Defcon, @Zeroo_patient on X). The site does not separately confirm the SAO followed the same drop model, but it is presented alongside the Zombie/Survivor badges under the same acquisition section.'
+  where: Not sold; the maker's site says badges "drop throughout the conference" at DEF CON 34 and to watch their socials (r/Defcon, @Zeroo_patient on X). The site does not separately confirm the SAO followed the same drop model, but it is presented alongside the Zombie/Survivor badges under the same acquisition section.
 make_your_own:
   open_source: null
   hardware_url: null
@@ -53,14 +53,15 @@ links:
 - label: r/Defcon
   url: https://www.reddit.com/r/Defcon/
   kind: social
+  archived: https://web.archive.org/web/20260110021523/https://www.reddit.com/r/Defcon/
 - label: '@Zeroo_patient'
   url: https://x.com/zeroo_patient
   kind: social
 images:
 - file: assets/images/badges/dc34/h4irl1n3-m0gg3r5-brain-in-a-jar-sao/584bb42042.jpg
-  source: "https://www.h4irl1n3-m0gg3r5.com/"
-  credit: "H4irl1n3 M0gg3r5"
-  caption: "Brain in a Jar SAO circuit board: mason jar silhouette with a brain split half organic, half machine, LED1 and LED2 pads, and BRAAAINS... silkscreened at the bottom"
+  source: https://www.h4irl1n3-m0gg3r5.com/
+  credit: H4irl1n3 M0gg3r5
+  caption: 'Brain in a Jar SAO circuit board: mason jar silhouette with a brain split half organic, half machine, LED1 and LED2 pads, and BRAAAINS... silkscreened at the bottom'
 contact: {}
 notes: []
 status: released
@@ -74,12 +75,12 @@ sources:
   url: https://www.h4irl1n3-m0gg3r5.com/content.js
   title: H4IRL1N3 M0GG3R5 site content data
   accessed: '2026-09-07'
-  note: 'Site''s editable-copy data file; contains the actual SAO section text (section title BRAIN_IN_A_JAR.sao, image alt text, warning, and tap function) plus the acquisition/distribution model for the maker''s DC34 drop.'
+  note: Site's editable-copy data file; contains the actual SAO section text (section title BRAIN_IN_A_JAR.sao, image alt text, warning, and tap function) plus the acquisition/distribution model for the maker's DC34 drop.
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'Maker''s own site confirms the item, its DC34/2026 context, the tap-triggers-effect-on-Zombie-Badges function, the two LED pads, and the warning label. No MCU, exact LED part, price, quantity made, or open-source files are published anywhere on the site. The site frames this as a free drop at the con rather than a sale ("You can''t buy these"), but that line sits under the general acquisition section covering all their DC34 items, not the SAO specifically, so availability/distribution are inferred by association rather than a direct statement about the SAO. A companion pair of badges by the same maker (the Zombie Badge and Survivor Badge) already has its own archive entry (dc34-it-s-2-badges-a-zombie-and-a-survivor-badge) and was not duplicated here.'
+  notes: Maker's own site confirms the item, its DC34/2026 context, the tap-triggers-effect-on-Zombie-Badges function, the two LED pads, and the warning label. No MCU, exact LED part, price, quantity made, or open-source files are published anywhere on the site. The site frames this as a free drop at the con rather than a sale ("You can't buy these"), but that line sits under the general acquisition section covering all their DC34 items, not the SAO specifically, so availability/distribution are inferred by association rather than a direct statement about the SAO. A companion pair of badges by the same maker (the Zombie Badge and Survivor Badge) already has its own archive entry (dc34-it-s-2-badges-a-zombie-and-a-survivor-badge) and was not duplicated here.
 last_modified_date: '2026-09-07'
 ---
 

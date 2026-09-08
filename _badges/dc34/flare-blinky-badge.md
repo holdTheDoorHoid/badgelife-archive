@@ -61,9 +61,11 @@ links:
 - label: Hackerware.io
   url: https://hackerware.io
   kind: website
+  archived: https://web.archive.org/web/20260523123718/https://hackerware.io/
 - label: Flare (@flaresystems on X)
   url: https://x.com/flaresystems
   kind: social
+  archived: https://web.archive.org/web/20260113000256/https://x.com/FlareSystems
 images:
 - file: assets/images/badges/dc34/flare-blinky-badge/f87e2e21e1.jpg
   source: https://www.linkedin.com/posts/abhinavpandagale_badgelife-ugcPost-7491636243009744897-nu2v/
@@ -102,6 +104,7 @@ sources:
   title: Flare
   accessed: '2026-09-06'
   note: Confirms Flare describes itself as a cyber threat intelligence and digital risk protection platform (supports "threat-intelligence company" in the summary).
+  archived: https://web.archive.org/web/20260901094243/https://flare.io/
 - kind: sheet
   event: dc34
   row: 66
@@ -117,11 +120,13 @@ sources:
   title: 'Hackerware - #BadgeLife | Hardware Design, Security, & Research.'
   accessed: '2026-09-06'
   note: Maker's portfolio site; confirms the Hackerware.io identity and that the company builds custom conference/CTF badges. The dedicated page for this badge is at /flare (separate source).
+  archived: https://web.archive.org/web/20260523123718/https://hackerware.io/
 - kind: url
   url: https://x.com/flaresystems
   title: Flare (@flaresystems) / X
   accessed: '2026-09-06'
   note: Page title "Flare (@flaresystems) / X" confirms the account the maker tagged is named Flare. The flare.io identity is supported by "flare.io" printed on the badge in the maker's photo and by the maker's project page.
+  archived: https://web.archive.org/web/20260113000256/https://x.com/FlareSystems
 research:
   status: verified
   confidence: high

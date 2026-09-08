@@ -41,7 +41,7 @@ get_one:
   price_usd: 80.0
   quantity: ''
   availability: limited
-  availability_note: 'As of 2026-09-06, the Shopify store still lists leftover post-con inventory at $40, capped at 2 per order (USPS flat-rate box); no international shipping due to the battery.'
+  availability_note: As of 2026-09-06, the Shopify store still lists leftover post-con inventory at $40, capped at 2 per order (USPS flat-rate box); no international shipping due to the battery.
   distribution:
   - purchase
   - crowdfunding
@@ -66,6 +66,7 @@ links:
 - label: imgur.com/a/z90WSN9
   url: https://imgur.com/a/z90WSN9
   kind: video
+  archived: https://web.archive.org/web/20260723210416/https://imgur.com/a/z90WSN9
 - label: x.com/@dcgothcon
   url: https://x.com/@dcgothcon
   kind: social
@@ -74,9 +75,9 @@ links:
   kind: social
 images:
 - file: assets/images/badges/dc34/gothcon-2026-badge/4ad79cbdd4.jpg
-  source: "https://gothconbadge.myshopify.com/"
-  credit: "Gothcon"
-  caption: "Gothcon 2026 bat-shaped LED badge with acrylic shield"
+  source: https://gothconbadge.myshopify.com/
+  credit: Gothcon
+  caption: Gothcon 2026 bat-shaped LED badge with acrylic shield
 contact:
   discord: '@vylanis'
   emails:
@@ -103,7 +104,7 @@ research:
   status: researched
   confidence: high
   last_checked: '2026-09-06'
-  notes: 'Core facts (maker, MCU, LEDs, battery, price, functions) confirmed directly from the maker''s Shopify store and GitHub firmware repo. Could not reach the imgur album, x.com (paywalled), or bsky.app links to corroborate further or find additional photos; quantity made was not stated anywhere found. Open-source hardware files (schematic/gerbers) were not located, only firmware.'
+  notes: Core facts (maker, MCU, LEDs, battery, price, functions) confirmed directly from the maker's Shopify store and GitHub firmware repo. Could not reach the imgur album, x.com (paywalled), or bsky.app links to corroborate further or find additional photos; quantity made was not stated anywhere found. Open-source hardware files (schematic/gerbers) were not located, only firmware.
 last_modified_date: '2026-09-06'
 ---
 
