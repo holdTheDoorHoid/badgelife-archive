@@ -46,6 +46,13 @@ def main():
         cands = []
         for c in r.get("candidates") or []:
             c = dict(c); c["note"] = (c.get("note") or "").strip()
+            # Queercon and TiaraCon run during DEF CON week but are filed under their own events, whatever the task hinted
+            tm = re.search(r"\b(queercon|tiaracon)\b", (c.get("title") or "") + " " + (c.get("maker") or ""), re.I)
+            if tm:
+                yr = c.get("year")
+                dm = re.match(r"^dc(\d\d)$", (c.get("event_hint") or "").strip().lower())
+                if dm: yr = 1992 + int(dm.group(1))
+                if yr: c["event_hint"] = f"{tm.group(1).lower()}-{yr}"
             if c.get("evidence") == "snippet": c["note"] = (c["note"] + " (seen only in a search snippet; unconfirmed)").strip()
             c["note"] = (c["note"] + f" Found by the event-year sweep, task {k}.").strip()
             cands.append(c)
