@@ -59,11 +59,13 @@ links:
 - label: Hackerware.io / Hackerwares.in (maker portfolio)
   url: https://hackerwares.in
   kind: website
+  archived: https://web.archive.org/web/20260611200959/https://www.hackerwares.in/
 images:
 - file: assets/images/badges/dc34/bug-bounty-village-badge/7438068d90.jpg
-  source: "https://hackerwares.in"
-  credit: "Hackerware.io / Abhinav Panda"
-  caption: "Bug Bounty Village badge: hooded masked figure design with RGB LED ring, OLED display, and MENU/CTF/0/1 buttons"
+  source: https://hackerwares.in
+  credit: Hackerware.io / Abhinav Panda
+  caption: 'Bug Bounty Village badge: hooded masked figure design with RGB LED ring, OLED display, and MENU/CTF/0/1 buttons'
+  archived: https://web.archive.org/web/20260611200959/https://www.hackerwares.in/
 contact:
   discord: abhinav_panda
   emails:
@@ -80,7 +82,7 @@ sources:
   listing: New
 - kind: url
   url: https://x.com/BugBountyDEFCON/status/2085018218762997884?s=20
-  title: "Bug Bounty Village on X: announcing the DEF CON 34 badge"
+  title: 'Bug Bounty Village on X: announcing the DEF CON 34 badge'
   accessed: '2026-09-06'
   note: Announcement post confirming Intigriti sponsorship and free in-person giveaway; carries an og:image video thumbnail of the badge.
 - kind: url
@@ -93,6 +95,7 @@ sources:
   title: Hackerware.io portfolio
   accessed: '2026-09-06'
   note: Confirms the badge is by Hackerware.io/Abhinav Panda and provided the gallery photo (g-bbv.jpg) used above.
+  archived: https://web.archive.org/web/20260611200959/https://www.hackerwares.in/
 research:
   status: researched
   confidence: high

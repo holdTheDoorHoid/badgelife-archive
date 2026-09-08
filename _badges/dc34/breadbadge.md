@@ -54,14 +54,17 @@ links:
 - label: Uberflux store listing
   url: https://uberflux.com/product/TW0N-breadbadge
   kind: store
+  archived: https://web.archive.org/web/20260727052656/https://uberflux.com/product/TW0N-breadbadge
 - label: Tw0nkus on Uberflux
   url: https://uberflux.com/maker/tw0nkus
   kind: store
+  archived: https://web.archive.org/web/20260727052709/https://uberflux.com/maker/tw0nkus
 images:
 - file: assets/images/badges/dc34/breadbadge/78b8032493.jpg
-  source: "https://uberflux.com/product/TW0N-breadbadge"
-  credit: "Tw0nkus (Uberflux listing)"
-  caption: "Breadbadge, from the Uberflux store listing"
+  source: https://uberflux.com/product/TW0N-breadbadge
+  credit: Tw0nkus (Uberflux listing)
+  caption: Breadbadge, from the Uberflux store listing
+  archived: https://web.archive.org/web/20260727052656/https://uberflux.com/product/TW0N-breadbadge
 contact:
   emails:
   - Alee97422@gmail.com
@@ -79,11 +82,13 @@ sources:
   title: Breadbadge - Uberflux
   accessed: '2026-09-07'
   note: Price, event (Defcon34), hardware list (RP2354A, INA3221, ST7789 SPI display, 6 WS2812 RGB LEDs, joystick and back button, breakouts), firmware features, stock (0 remaining, 5 sold of 5) and product photo.
+  archived: https://web.archive.org/web/20260727052656/https://uberflux.com/product/TW0N-breadbadge
 - kind: url
   url: https://uberflux.com/maker/tw0nkus
   title: Tw0nkus - Uberflux
   accessed: '2026-09-07'
   note: Maker page listing Breadbadge ($80) and Rust Crab Badge ($35).
+  archived: https://web.archive.org/web/20260727052709/https://uberflux.com/maker/tw0nkus
 research:
   status: verified
   confidence: high

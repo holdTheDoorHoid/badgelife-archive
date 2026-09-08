@@ -12,7 +12,7 @@ makers:
 - name: uberwoozle
   url: https://github.com/car-hacking-village
 summary: The DEF CON 34 Car Hacking Village main badge, an automotive-themed board built around real CAN bus tooling that can emulate a car's network on a single PCB.
-functions: 'Runs a MicroPython REPL shell with autocomplete; speaks CAN 2.0/FD over a DB9 connector and over USB (SLCAN protocol); can emulate a virtual ECU, scan for DTCs, and run CAN deauthentication attacks as part of the village CTF; has two CAN-enabled SAO expansion slots and programmable LED "blinkies".'
+functions: Runs a MicroPython REPL shell with autocomplete; speaks CAN 2.0/FD over a DB9 connector and over USB (SLCAN protocol); can emulate a virtual ECU, scan for DTCs, and run CAN deauthentication attacks as part of the village CTF; has two CAN-enabled SAO expansion slots and programmable LED "blinkies".
 look:
   colors: []
   shape: null
@@ -56,11 +56,12 @@ links:
 - label: Car Hacking Village
   url: https://www.carhackingvillage.com/
   kind: website
+  archived: https://web.archive.org/web/20260810193641/https://www.carhackingvillage.com/
 images:
 - file: assets/images/badges/dc34/car-hacking-village-dc34-main-badge/9d500bd652.jpg
-  source: "https://uberflux.com/product/WOOZL-DC34-CHV-BADGE"
-  credit: "uberwoozle / Uberflux"
-  caption: "Car Hacking Village DC34 main badge product photo"
+  source: https://uberflux.com/product/WOOZL-DC34-CHV-BADGE
+  credit: uberwoozle / Uberflux
+  caption: Car Hacking Village DC34 main badge product photo
 contact: {}
 notes:
 - 'Uberflux. $115, status: sold out.'
@@ -75,22 +76,23 @@ sources:
   url: https://github.com/car-hacking-village/Main-Badge-Firmware
   title: car-hacking-village/Main-Badge-Firmware
   accessed: '2026-09-07'
-  note: 'Confirms RP2040 + MCP251863 CAN transceiver; described as base firmware for the CHV main badge (2026+), emulating a car on a single PCB.'
+  note: Confirms RP2040 + MCP251863 CAN transceiver; described as base firmware for the CHV main badge (2026+), emulating a car on a single PCB.
 - kind: url
   url: https://github.com/car-hacking-village/chv_badgetools
   title: car-hacking-village/chv_badgetools
   accessed: '2026-09-07'
-  note: 'Host-side Python CAN utilities for talking to the DC34 badge over USB (SLCAN).'
+  note: Host-side Python CAN utilities for talking to the DC34 badge over USB (SLCAN).
 - kind: url
   url: https://www.carhackingvillage.com/
   title: Car Hacking Village
   accessed: '2026-09-07'
-  note: 'Organizer site, used to confirm the village/org identity.'
+  note: Organizer site, used to confirm the village/org identity.
+  archived: https://web.archive.org/web/20260810193641/https://www.carhackingvillage.com/
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'The Uberflux storefront calls it an "ESP32-class board", but the Car Hacking Village org''s own Main-Badge-Firmware repo (base firmware for the "CHV main badge (2026+)") targets an RP2040 with an MCP251863 CAN transceiver, which is the value recorded here since it is the maker''s own source. No dedicated hardware/schematic repo for the DC34 board was found (only DC32-era hardware repos exist in the org), so hardware_url, LED count/type, and quantity made are left empty. Firmware is public on GitHub; the storefront also says software will be made fully open source after DEF CON, so open_source is marked partial pending that release.'
+  notes: The Uberflux storefront calls it an "ESP32-class board", but the Car Hacking Village org's own Main-Badge-Firmware repo (base firmware for the "CHV main badge (2026+)") targets an RP2040 with an MCP251863 CAN transceiver, which is the value recorded here since it is the maker's own source. No dedicated hardware/schematic repo for the DC34 board was found (only DC32-era hardware repos exist in the org), so hardware_url, LED count/type, and quantity made are left empty. Firmware is public on GitHub; the storefront also says software will be made fully open source after DEF CON, so open_source is marked partial pending that release.
 last_modified_date: '2026-09-07'
 ---
 
