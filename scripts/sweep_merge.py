@@ -41,10 +41,16 @@ def main():
     missing = sorted(set(plan) - set(res))
     print(f"{len(res)} task results of {len(plan)} planned; missing: {missing if len(missing) <= 20 else str(len(missing)) + ' tasks'}")
     # 1. discovery json
-    blocks = []
+    blocks = []; software = []
+    SOFT = re.compile(r"\b(game|emulator|firmware|app|apps|software|program|demo|port of|ascii|qr code generator|hack(?:ing)?|bsod|display driver|library|tutorial|write-?up|talk|workshop|video)\b", re.I)
+    HARD = re.compile(r"\b(pcb|board|add-?on|sao|cartridge|enclosure|case|cover|holder|hat|shield|expansion|hexpansion|module|kit|badge for|breakout|sensor|antenna|lanyard|minibadge)\b", re.I)
     for k, r in res.items():
         cands = []
         for c in r.get("candidates") or []:
+            # badge *hacks* (firmware, games, enclosures printed at home) are not archive items unless they are hardware add-ons
+            blob = (c.get("title") or "") + " " + (c.get("note") or "")
+            if c.get("type") in ("other", "accessory", "unknown") and SOFT.search(blob) and not HARD.search(blob):
+                software.append((k, c.get("title"))); continue
             c = dict(c); c["note"] = (c.get("note") or "").strip()
             # Queercon and TiaraCon run during DEF CON week but are filed under their own events, whatever the task hinted
             tm = re.search(r"\b(queercon|tiaracon)\b", (c.get("title") or "") + " " + (c.get("maker") or ""), re.I)
@@ -59,7 +65,8 @@ def main():
         blocks.append({"angle": "sweep:" + k, "candidates": cands})
     disc = os.path.join(ROOT, "data", f"discovery_{a.name}.json")
     if not a.dry_run: json.dump({"results": blocks}, open(disc, "w"), indent=1, ensure_ascii=False)
-    print(f"candidates: {sum(len(b['candidates']) for b in blocks)} -> {disc}")
+    print(f"candidates: {sum(len(b['candidates']) for b in blocks)} -> {disc}; skipped as software/badge hacks: {len(software)}")
+    for k, t in software: print(f"   skipped [{k}] {t}")
     # 2. events
     import discovery_to_stubs as dts
     events = yaml.safe_load(open(EVENTS_PATH)); new_events = []
