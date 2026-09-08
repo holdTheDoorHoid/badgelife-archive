@@ -60,6 +60,7 @@ KNOWN_CONS = json.load(open(KNOWN_CONS_PATH)) if os.path.exists(KNOWN_CONS_PATH)
 def resolve_event(hint, year, events, new_events):
     h = (hint or "").lower().strip()
     if h in events: return h  # agents may hand back an exact event id
+    h = re.sub(r"[-_]+", " ", h)  # planned ids like "emf-camp-2014" or "hackaday-belgrade-2016" match their con names below
     m = re.search(CON_FAMILIES[0][0], h)
     if m:
         n = int(m.group(2))
@@ -84,8 +85,8 @@ def resolve_event(hint, year, events, new_events):
             name = m.group(1).strip()
             name = {"fri3d camp": "fri3d", "chaos communication camp": "cccamp", "chaos communication congress": "ccc-congress", "cccamp": "cccamp"}.get(name, name)
             yr = m.group(2) if m.lastindex and m.lastindex >= 2 else None
-            if yr and yr.startswith("0x"):  # THOTCON hex numbering: 0x1 = 2010 ... 0xA = 2019, 0xB = 2022 (2020-21 skipped), 0xC = 2023 ...
-                n = int(yr, 16); yr = str(2009 + n) if n <= 10 else str(2011 + n)
+            if yr and yr.startswith("0x"):  # THOTCON hex numbering: 0x1 = 2010 ... 0xA = 2019; 0xB = Oct 2021, 0xC = 2023, 0xD = 2025 (no 2020, 2022, 2024)
+                n = int(yr, 16); yr = str(2009 + n) if n <= 10 else str({11: 2021, 12: 2023, 13: 2025}.get(n, 2011 + n))
             if yr and len(yr) <= 2 and yr.isdigit() and year: yr = str(year)  # a bare edition number: fall back to the candidate's year
             yr = yr or (str(year) if year else "")
             if not yr: return "other"  # no year at all: do not invent an event

@@ -10,7 +10,7 @@ Reads journal.jsonl (type=result records from the sweep agents), then:
      listed, never created; existing events are never removed.
   3. writes data/sweep_<name>_events.json with everything the agents said about each edition, for review.
 """
-import argparse, json, os, re, sys
+import argparse, glob, json, os, re, sys
 from collections import OrderedDict, defaultdict
 import yaml
 
@@ -64,32 +64,53 @@ def main():
             cands.append(c)
         blocks.append({"angle": "sweep:" + k, "candidates": cands})
     disc = os.path.join(ROOT, "data", f"discovery_{a.name}.json")
-    if not a.dry_run: json.dump({"results": blocks}, open(disc, "w"), indent=1, ensure_ascii=False)
     print(f"candidates: {sum(len(b['candidates']) for b in blocks)} -> {disc}; skipped as software/badge hacks: {len(software)}")
     for k, t in software: print(f"   skipped [{k}] {t}")
     # 2. events
     import discovery_to_stubs as dts
+    ALIAS = {"thotcon-2022": "thotcon-2021"}  # THOTCON 0xB ran in October 2021; the plan guessed 2022
+    for b in blocks:
+        for c in b["candidates"]:
+            if (c.get("event_hint") or "").strip().lower() in ALIAS: c["event_hint"] = ALIAS[c["event_hint"].strip().lower()]
+    if not a.dry_run: json.dump({"results": blocks}, open(disc, "w"), indent=1, ensure_ascii=False)
     events = yaml.safe_load(open(EVENTS_PATH)); new_events = []
+    # which events will actually receive candidates (resolved on a scratch copy so nothing is created here)
+    scratch = dict(events); scratch_new = []
+    with_cands = set()
+    for b in blocks:
+        for c in b["candidates"]:
+            with_cands.add(dts.resolve_event(c.get("event_hint"), c.get("year"), scratch, scratch_new))
     seen = defaultdict(list)
     for k, r in res.items():
         for e in r.get("events") or []:
-            hint = (e.get("hint") or "").strip()
+            raw = (e.get("hint") or "").strip().lower()
+            hint = ALIAS.get(raw, (e.get("hint") or "").strip())
+            if raw in ALIAS: e = dict(e, held=True, year=int(hint.rsplit("-", 1)[1]))  # aliased because the con really ran that year
             year = e.get("year")
             if not hint or not year or int(year) < a.min_year: continue
             eid = dts.resolve_event(hint, int(year), events, new_events)
             if eid == "other": seen["?" + hint].append(e); continue
             seen[eid].append(e)
-    created, filled, not_held = [], [], []
+    created, filled, not_held, no_badge, removed = [], [], [], [], []
     for eid, reports in seen.items():
         if eid.startswith("?"): continue
         held = any(x.get("held") for x in reports)
+        badge = any((x.get("had_badge") or "") == "yes" for x in reports)
         best = max(reports, key=lambda x: (bool(x.get("dates")), bool(x.get("location")), bool(x.get("name"))))
         ev = events.get(eid)
         if not ev: continue
         if eid in new_events:
             if not held:
                 not_held.append(eid); del events[eid]; new_events.remove(eid); continue
+            if not badge and eid not in with_cands:
+                # the con ran, but nobody reports a badge and the sweep found nothing for it: no empty page
+                no_badge.append(eid); del events[eid]; new_events.remove(eid); continue
             created.append(eid)
+        elif not held and not glob.glob(os.path.join(ROOT, "_badges", eid, "*.md")):
+            removed.append(eid); del events[eid]
+            page = os.path.join(ROOT, "badges", eid, "index.md")
+            if not a.dry_run and os.path.exists(page): os.remove(page)
+            continue
         # only name events we just created, or resolver-made placeholders like "Thotcon 2024"; shared folders such as "BSides 2025" keep their names
         if best.get("name") and (eid in created or ev.get("name", "").startswith("Thotcon ")): ev["name"] = best["name"]; ev["short"] = best["name"]
         for f in ("dates", "location"):
@@ -104,6 +125,8 @@ def main():
     print(f"events created: {len(created)} {created}")
     print(f"fields filled on existing events: {len(filled)}")
     print(f"reported not held (not created): {not_held}")
+    print(f"ran but no badge reported and no candidates (not created): {no_badge}")
+    print(f"existing empty events reported not held (removed): {removed}")
     print(f"unresolved hints: {[k[1:] for k in seen if k.startswith('?')]}")
 
 if __name__ == "__main__":
