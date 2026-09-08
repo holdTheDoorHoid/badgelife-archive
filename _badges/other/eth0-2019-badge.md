@@ -10,9 +10,9 @@ event: other
 year: 2019
 makers:
 - name: 'Badge.Team (art: Nikolett; PCB: Renze)'
-  url: 'https://badge.team/'
-summary: 'A bare protoboard badge for ETH0 Autumn 2019, a small informal Dutch hacker camp, letting attendees build their own SMD/through-hole circuits instead of running pre-made firmware.'
-functions: 'No built-in function; it is a blank prototyping platform. Attendees soldered their own circuits onto it, from simple CR2032 LED badges to a 4093-based astable-oscillator blinker and a Neopixel badge; the standout build was a fan-made "Tamafoxi" Tamagotchi clone with an OLED display, buttons, and an added ESP32 board running badge.team firmware.'
+  url: https://badge.team/
+summary: A bare protoboard badge for ETH0 Autumn 2019, a small informal Dutch hacker camp, letting attendees build their own SMD/through-hole circuits instead of running pre-made firmware.
+functions: No built-in function; it is a blank prototyping platform. Attendees soldered their own circuits onto it, from simple CR2032 LED badges to a 4093-based astable-oscillator blinker and a Neopixel badge; the standout build was a fan-made "Tamafoxi" Tamagotchi clone with an OLED display, buttons, and an added ESP32 board running badge.team firmware.
 look:
   colors: []
   shape: null
@@ -33,14 +33,14 @@ get_one:
   quantity: ''
   availability: unknown
   distribution: []
-  where: 'Distributed to attendees of ETH0 Autumn 2019'
+  where: Distributed to attendees of ETH0 Autumn 2019
 make_your_own:
   open_source: partial
-  hardware_url: 'https://github.com/electroniceel'
+  hardware_url: https://github.com/electroniceel
   firmware_url: null
   eda_tool: null
   license: CC-BY
-  notes: 'The board is not a badge.team original design; it reuses a CC-BY protoboard layout by Electronic Eel, made for both SMD and through-hole parts.'
+  notes: The board is not a badge.team original design; it reuses a CC-BY protoboard layout by Electronic Eel, made for both SMD and through-hole parts.
 links:
 - label: badge.team/docs/badges/eth0-2019
   url: https://badge.team/docs/badges/eth0-2019/
@@ -48,11 +48,12 @@ links:
 - label: 'Hackaday: Eth0 Autumn 2019: Tiny Camp, Creative Badge'
   url: https://hackaday.com/2019/11/03/eth0-autumn-2019-tiny-camp-creative-badge/
   kind: article
+  archived: https://web.archive.org/web/20260114235338/https://hackaday.com/2019/11/03/eth0-autumn-2019-tiny-camp-creative-badge/
 images: []
 contact: {}
 notes:
 - DIY protoboard badge adapted from an Electronic Eel CC-licensed prototyping board layout, for building your own SMD circuits.
-- 'ETH0 is a small, informal Dutch hacker camp with no fixed schedule; the badge itself carries no ESP32 or badge.team firmware, unlike most badge.team badges.'
+- ETH0 is a small, informal Dutch hacker camp with no fixed schedule; the badge itself carries no ESP32 or badge.team firmware, unlike most badge.team badges.
 status: released
 sources:
 - kind: url
@@ -64,12 +65,13 @@ sources:
   url: https://hackaday.com/2019/11/03/eth0-autumn-2019-tiny-camp-creative-badge/
   title: 'Eth0 Autumn 2019: Tiny Camp, Creative Badge'
   accessed: '2026-09-07'
-  note: 'Event context (small informal Dutch hacker camp near Lichtenvoorde, NL), badge description, and examples of attendee-built circuits including the Tamafoxi.'
+  note: Event context (small informal Dutch hacker camp near Lichtenvoorde, NL), badge description, and examples of attendee-built circuits including the Tamafoxi.
+  archived: https://web.archive.org/web/20260114235338/https://hackaday.com/2019/11/03/eth0-autumn-2019-tiny-camp-creative-badge/
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'ETH0 is an informal, recurring Dutch hacker camp series with no fixed venue and no listing in events.yml, so event is left as other; this specific gathering was "ETH0 Autumn 2019" near Lichtenvoorde, Netherlands. No price, quantity, MCU/LED specs, or photo of the badge itself were found in the available sources (only a line-art SVG outline, which fetch_image.py cannot save as it is not a raster image). No dedicated Electronic Eel repo URL for the exact protoboard layout was confirmed beyond their GitHub org page.'
+  notes: ETH0 is an informal, recurring Dutch hacker camp series with no fixed venue and no listing in events.yml, so event is left as other; this specific gathering was "ETH0 Autumn 2019" near Lichtenvoorde, Netherlands. No price, quantity, MCU/LED specs, or photo of the badge itself were found in the available sources (only a line-art SVG outline, which fetch_image.py cannot save as it is not a raster image). No dedicated Electronic Eel repo URL for the exact protoboard layout was confirmed beyond their GitHub org page.
 last_modified_date: '2026-09-07'
 ---
 

@@ -101,22 +101,32 @@ sources:
   accessed: '2026-09-08'
   note: 'Third-party catalog entry; credits design to "Jup1t3r" rather than lukejenkins and could not find a public source repo (unaware of the lukejenkins GitHub repo). Treated as lower-confidence than the primary sources above.'
 research:
-  status: researched
+  status: verified
   confidence: medium
   last_checked: '2026-09-08'
   notes: >-
-    Core hardware facts (Pi Zero W, 2.8" 320x240 TFT, SNES buttons, wifi/BLE,
-    ~5.7"x5" PCB) confirmed across the official SAINTCON archive page and the
-    assembly guide. Price and quantity made were never published anywhere
-    found; get_one.quantity/price left empty. badge.gallery attributes the
-    design to "Jup1t3r" instead of lukejenkins/SAINTCON, but the GitHub repo
-    and SAINTCON's own gitlab.io docs consistently credit lukejenkins, so
-    that name is kept as primary maker and the discrepancy is noted here
-    rather than guessed at. Could not confirm whether the PCB design (as
-    opposed to the Pi/PiTFT assembly) was fully custom versus using
-    off-the-shelf carrier boards; hardware_url points to the repo with
-    schematic/board files, but no confirmation the repo contains 100% of
-    what was fabricated.
+    Fact-check pass 2026-09-08: re-fetched all four cited sources
+    (lukejenkins/SAINTCON-2017-Badge repo, saintcon.gitlab.io/Badge2017
+    assembly guide, the archived official saintcon.zip badge page, and
+    badge.gallery) plus both saved photos. Every non-empty field and every
+    factual sentence in the summary/functions/body/tech/get_one/make_your_own
+    fields checked out against these sources: Pi Zero W + 2.8" 320x240 TFT +
+    SNES buttons + 2 reserved LEDs + wifi/BLE 4.1/USB + ~5.7"x5" PCB, Eagle
+    schematic/board files and PDF schematic in the GitHub repo, MiniBadge
+    spec compatibility, Etcher-flashed latest.img.xz image, the board-
+    orientation warning quote, the RetroPie-after-the-con note, and the
+    limited-stock/attendance-forecast distribution note. Both saved photos
+    show the actual yellow SAINTCON badge PCB with Pi Zero W and SNES-style
+    buttons, matching their captions and source page. Price and quantity
+    made were never published anywhere found; get_one.quantity/price left
+    empty, correctly. badge.gallery attributes the design to "Jup1t3r"
+    instead of lukejenkins/SAINTCON, but the GitHub repo and SAINTCON's own
+    gitlab.io docs consistently credit lukejenkins, so that name is kept as
+    primary maker and the discrepancy is noted here rather than guessed at.
+    No corrections were needed. Confidence held at medium (not high) because
+    whether the PCB design itself was fully custom versus built on an
+    off-the-shelf carrier board was never independently confirmed beyond the
+    repo's own files.
 last_modified_date: '2026-09-08'
 ---
 

@@ -54,6 +54,7 @@ links:
 - label: astikrawat.medium.com/sincon-sg-2025-ctf-walkthrough-of-dragon-badge-by-hackerware-io-1efb31322f10
   url: https://astikrawat.medium.com/sincon-sg-2025-ctf-walkthrough-of-dragon-badge-by-hackerware-io-1efb31322f10
   kind: website
+  archived: https://web.archive.org/web/20260525202931/https://astikrawat.medium.com/sincon-sg-2025-ctf-walkthrough-of-dragon-badge-by-hackerware-io-1efb31322f10
 - label: hackerware.io/sincon2025
   url: https://hackerware.io/sincon2025
   kind: website
@@ -64,18 +65,19 @@ links:
   url: https://www.hackerware.io/sincon-dragon-ctf.pdf
   kind: doc
 images:
-  - file: assets/images/badges/other/dragon-badge/d11acba280.jpg
-    source: "https://hackerware.io/sincon2025"
-    credit: "Hackerware.io"
-    caption: "The SINCON 2025 Dragon Badge, front"
-  - file: assets/images/badges/other/dragon-badge/babd10469b.png
-    source: "https://astikrawat.medium.com/sincon-sg-2025-ctf-walkthrough-of-dragon-badge-by-hackerware-io-1efb31322f10"
-    credit: "Astik Rawat"
-    caption: "Dragon Badge with all 8 LEDs lit after completing the CTF"
+- file: assets/images/badges/other/dragon-badge/d11acba280.jpg
+  source: https://hackerware.io/sincon2025
+  credit: Hackerware.io
+  caption: The SINCON 2025 Dragon Badge, front
+- file: assets/images/badges/other/dragon-badge/babd10469b.png
+  source: https://astikrawat.medium.com/sincon-sg-2025-ctf-walkthrough-of-dragon-badge-by-hackerware-io-1efb31322f10
+  credit: Astik Rawat
+  caption: Dragon Badge with all 8 LEDs lit after completing the CTF
+  archived: https://web.archive.org/web/20260525202931/https://astikrawat.medium.com/sincon-sg-2025-ctf-walkthrough-of-dragon-badge-by-hackerware-io-1efb31322f10
 contact: {}
 notes:
 - Spotted by a research agent while working on a neighbouring entry.
-- 'Made for SINCON Singapore 2025 (May 2025); no matching event id exists yet in _data/events.yml, so this stays filed under "other". Silkscreen on the board reads "SINCON 2025 Badge By Hackerware.io".'
+- Made for SINCON Singapore 2025 (May 2025); no matching event id exists yet in _data/events.yml, so this stays filed under "other". Silkscreen on the board reads "SINCON 2025 Badge By Hackerware.io".
 - Exact MCU/USB-serial chip part numbers are not legible/stated in any source found; left blank rather than guessed.
 status: released
 sources:
@@ -84,6 +86,7 @@ sources:
   title: 'SINCON SG 2025: CTF Walkthrough of Dragon Badge by hackerware.io'
   accessed: '2026-09-07'
   note: 'Found by the archive''s discovery sweep (angle: sheet-research-spotted); event read as ''SINCON SG 2025''. Full walkthrough of the 8 CTF stages, soldering step, and badge photos.'
+  archived: https://web.archive.org/web/20260525202931/https://astikrawat.medium.com/sincon-sg-2025-ctf-walkthrough-of-dragon-badge-by-hackerware-io-1efb31322f10
 - kind: url
   url: https://hackerware.io/sincon2025
   title: Welcome To Hackerware - The SINCON Dragon CTF Badge
@@ -103,7 +106,8 @@ research:
   status: verified
   confidence: high
   last_checked: '2026-09-07'
-  notes: 'Fact-check pass (2026-09-07): re-fetched hackerware.io/sincon2025 (confirmed "third conference badge" wording and the front photo, byte-for-byte the same JPEG as our saved image d11acba280.jpg, just re-encoded), both PDFs (soldering tutorial and CTF setup guide), and the Medium walkthrough via a jina.ai reader proxy (still Cloudflare-blocked for direct fetch). All 8 CTF stages/ciphers, the LED count, the soldering-then-CTF flow, the 3-second preview, the SINCON 2025 silkscreen text, USB-C + Arduino IDE + 9600 baud + RESET, and the free registration-desk distribution all check out against these sources. One correction made: the battery was listed as "CR2032 coin cell" but no source states the CR2032 size specifically (only "coin cell"/"coin battery" is shown/said) — softened to "coin cell" in tech.battery and the body. One internal disagreement noted, not treated as reason to change the entry: the soldering PDF''s own text says "connecting via a micro-USB cable" even though its photos and the companion CTF PDF (which says "USB-C cable" three times) show/state USB-C — kept USB-C as stated in functions/body since it is the better-supported reading, but flagged in the source note. No storefront, price, quantity made, MCU part number, or open-source design files were found in any source, so those fields stay empty. No matching SINCON event id exists in _data/events.yml, so it stays filed under "other" as before.'
+  notes: 'Fact-check pass (2026-09-07): re-fetched hackerware.io/sincon2025 (confirmed "third conference badge" wording and the front photo, byte-for-byte the same JPEG as our saved image d11acba280.jpg, just re-encoded), both PDFs (soldering tutorial and CTF setup guide), and the Medium walkthrough via a jina.ai reader proxy (still Cloudflare-blocked for direct fetch). All 8 CTF stages/ciphers, the LED count, the soldering-then-CTF flow, the 3-second preview, the SINCON 2025 silkscreen text, USB-C + Arduino IDE + 9600 baud + RESET, and the free registration-desk distribution all check out against these sources. One correction made: the battery was listed as "CR2032 coin cell" but no source states the CR2032 size specifically (only "coin cell"/"coin battery" is shown/said) — softened to "coin cell" in tech.battery and the body. One internal disagreement noted, not treated as reason to change the entry: the soldering PDF''s own text says "connecting via a micro-USB cable" even though its
+    photos and the companion CTF PDF (which says "USB-C cable" three times) show/state USB-C — kept USB-C as stated in functions/body since it is the better-supported reading, but flagged in the source note. No storefront, price, quantity made, MCU part number, or open-source design files were found in any source, so those fields stay empty. No matching SINCON event id exists in _data/events.yml, so it stays filed under "other" as before.'
 last_modified_date: '2026-09-07'
 ---
 

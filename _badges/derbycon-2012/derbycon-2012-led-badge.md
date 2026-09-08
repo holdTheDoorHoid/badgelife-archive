@@ -11,23 +11,24 @@ year: 2012
 makers:
 - name: Mr & Mrs Make It Urz
 summary: A laser-cut two-layer acrylic con badge with a concealed battery and LED, made for DerbyCon 2012.
-functions: 'Lights up via a concealed battery and LED; purely decorative/wearable, no interactive functions described.'
+functions: 'Lights up via a concealed battery and LED(s); purely decorative/wearable, no interactive functions described.'
 look:
   colors:
   - clear
   - black
+  - multicolor
   shape: null
   themes:
   - wearable
 tech:
   mcu: none
   leds:
-    count: 1
+    count: null
     type: null
-    note: Single LED, exact type not specified.
+    note: Caption confirms LEDs are present but does not state how many per badge; the maker's photo shows each badge glowing a single color, consistent with (but not proof of) one LED each.
   display: null
   connectivity: []
-  battery: coin cell (unspecified)
+  battery: unspecified type
   sao_version: null
 get_one:
   price: ''

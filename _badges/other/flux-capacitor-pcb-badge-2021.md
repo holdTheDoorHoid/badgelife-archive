@@ -12,7 +12,7 @@ makers:
 - name: Arnov Sharma
   url: https://www.pcbway.com/project/member/?bmbno=068786DB-1EF6-44
 summary: A wearable PCB badge replicating the Back to the Future flux capacitor, driven by an ATtiny85 chasing 12 LEDs through four 8205S MOSFETs and powered by a CR2032 coin cell or micro-USB, shared on PCBWay by Arnov Sharma in June 2021 under CC BY-SA 3.0 with Gerbers, schematic, Arduino sketch and an STL.
-functions: 'LED chaser animation across 12 LEDs, mimicking the film prop''s light sequence.'
+functions: LED chaser animation across 12 LEDs, mimicking the film prop's light sequence.
 look:
   colors: []
   shape: null
@@ -37,7 +37,7 @@ get_one:
   quantity: ''
   availability: unknown
   distribution: []
-  where: 'Design shared publicly on PCBWay; not sold as a product. Files available for anyone to fabricate.'
+  where: Design shared publicly on PCBWay; not sold as a product. Files available for anyone to fabricate.
 make_your_own:
   open_source: 'yes'
   hardware_url: https://www.pcbway.com/project/shareproject/Flux_Capacitor_PCB_Badge.html
@@ -45,26 +45,30 @@ make_your_own:
   eda_tool: null
   license: CC BY-SA 3.0
   fab_url: https://www.pcbway.com/project/shareproject/Flux_Capacitor_PCB_Badge.html
-  notes: 'Gerbers, schematic (fluxcapsch.pdf), a modified Arduino chaser sketch, and a 3D-printable enclosure (badge.stl) are all shared on the PCBWay project page. Designed in OrCAD Cadence and Autodesk Fusion 360.'
+  notes: Gerbers, schematic (fluxcapsch.pdf), a modified Arduino chaser sketch, and a 3D-printable enclosure (badge.stl) are all shared on the PCBWay project page. Designed in OrCAD Cadence and Autodesk Fusion 360.
 links:
 - label: www.pcbway.com/project/shareproject/Flux_Capacitor_PCB_Badge.html
   url: https://www.pcbway.com/project/shareproject/Flux_Capacitor_PCB_Badge.html
   kind: fab
+  archived: https://web.archive.org/web/20260908155927/https://www.pcbway.com/project/shareproject/Flux_Capacitor_PCB_Badge.html
 - label: www.youtube.com/watch?v=efD6QN1S20o
   url: https://www.youtube.com/watch?v=efD6QN1S20o
   kind: video
 - label: www.hackster.io/Arnov_Sharma_makes
   url: https://www.hackster.io/Arnov_Sharma_makes
   kind: article
+  archived: https://web.archive.org/web/20260703003654/https://www.hackster.io/Arnov_Sharma_makes
 images:
 - file: assets/images/badges/other/flux-capacitor-pcb-badge-2021/007c9b23fc.jpg
-  source: "https://www.pcbway.com/project/shareproject/Flux_Capacitor_PCB_Badge.html"
-  credit: "Arnov Sharma"
-  caption: "The assembled Flux Capacitor PCB badge"
+  source: https://www.pcbway.com/project/shareproject/Flux_Capacitor_PCB_Badge.html
+  credit: Arnov Sharma
+  caption: The assembled Flux Capacitor PCB badge
+  archived: https://web.archive.org/web/20260908155927/https://www.pcbway.com/project/shareproject/Flux_Capacitor_PCB_Badge.html
 - file: assets/images/badges/other/flux-capacitor-pcb-badge-2021/3eddb10514.jpg
-  source: "https://www.pcbway.com/project/shareproject/Flux_Capacitor_PCB_Badge.html"
-  credit: "Arnov Sharma"
-  caption: "The badge with LEDs lit"
+  source: https://www.pcbway.com/project/shareproject/Flux_Capacitor_PCB_Badge.html
+  credit: Arnov Sharma
+  caption: The badge with LEDs lit
+  archived: https://web.archive.org/web/20260908155927/https://www.pcbway.com/project/shareproject/Flux_Capacitor_PCB_Badge.html
 contact: {}
 notes: []
 status: released
@@ -74,11 +78,13 @@ sources:
   title: Flux Capacitor PCB Badge - Share Project - PCBWay
   accessed: '2026-09-06'
   note: Found via the project's link list; intake pass identified this item here.
+  archived: https://web.archive.org/web/20260908155927/https://www.pcbway.com/project/shareproject/Flux_Capacitor_PCB_Badge.html
 - kind: url
   url: https://www.pcbway.com/project/shareproject/Flux_Capacitor_PCB_Badge.html
   title: Flux Capacitor PCB Badge - Share Project - PCBWay
   accessed: '2026-09-07'
   note: Primary source for maker, date, event, chip, LEDs, power, license, and shared files (Gerbers, schematic, Arduino sketch, STL).
+  archived: https://web.archive.org/web/20260908155927/https://www.pcbway.com/project/shareproject/Flux_Capacitor_PCB_Badge.html
 research:
   status: researched
   confidence: high

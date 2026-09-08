@@ -13,7 +13,7 @@ makers:
   url: https://hyperglitch.com
   role: Igor Brkić
 summary: The official electronic badge for DORS/CLUC 2025 (Zagreb, Croatia), a 9-segment alphanumeric display with a logo-shaped LED matrix and an NFC reader/writer used for an on-site treasure hunt and badge-to-badge data exchange.
-functions: 'Shows a user-set name or custom text (up to 30 characters) on a simulated six-character 9-segment display; runs conference quests via NFC (collect nine hidden tags around the venue to light up the logo matrix); tracks badge-to-badge taps/interactions between attendees; after the con doubles as a USB desktop notifier, a clock, or a simple game device. Two buttons and a hold-to-configure mode set text and brightness/scroll speed.'
+functions: Shows a user-set name or custom text (up to 30 characters) on a simulated six-character 9-segment display; runs conference quests via NFC (collect nine hidden tags around the venue to light up the logo matrix); tracks badge-to-badge taps/interactions between attendees; after the con doubles as a USB desktop notifier, a clock, or a simple game device. Two buttons and a hold-to-configure mode set text and brightness/scroll speed.
 look:
   colors: []
   shape: null
@@ -51,28 +51,34 @@ links:
 - label: hackaday.com/2025/06/01/plenty-of-leds-and-useful-too-the-2025-dors-cluc-badge
   url: https://hackaday.com/2025/06/01/plenty-of-leds-and-useful-too-the-2025-dors-cluc-badge/
   kind: article
+  archived: https://web.archive.org/web/20260516053921/https://hackaday.com/2025/06/01/plenty-of-leds-and-useful-too-the-2025-dors-cluc-badge/
 - label: hyperglitch.com/articles/dc2025-badge
   url: https://hyperglitch.com/articles/dc2025-badge
   kind: website
+  archived: https://web.archive.org/web/20251120131132/https://hyperglitch.com/articles/dc2025-badge
 - label: gitlab.com/hyperglitch/dc2025badge
   url: https://gitlab.com/hyperglitch/dc2025badge
   kind: repo
+  archived: https://web.archive.org/web/20251120153915/https://gitlab.com/hyperglitch/dc2025badge
 - label: dorscluc.org/badge
   url: https://www.dorscluc.org/badge/
   kind: website
+  archived: https://web.archive.org/web/20251120134608/https://www.dorscluc.org/badge/
 images:
 - file: assets/images/badges/other/dors-cluc-2025-badge/f33e7efe10.jpg
-  source: "https://hyperglitch.com/articles/dc2025-badge"
-  credit: "Hyperglitch (Igor Brkić)"
-  caption: "DORS/CLUC 2025 badge showing custom text on its 9-segment display"
+  source: https://hyperglitch.com/articles/dc2025-badge
+  credit: Hyperglitch (Igor Brkić)
+  caption: DORS/CLUC 2025 badge showing custom text on its 9-segment display
+  archived: https://web.archive.org/web/20251120131132/https://hyperglitch.com/articles/dc2025-badge
 - file: assets/images/badges/other/dors-cluc-2025-badge/52299f6137.jpg
-  source: "https://hyperglitch.com/articles/dc2025-badge"
-  credit: "Hyperglitch (Igor Brkić)"
-  caption: "Two DORS/CLUC 2025 badges tapped together to exchange NFC data"
+  source: https://hyperglitch.com/articles/dc2025-badge
+  credit: Hyperglitch (Igor Brkić)
+  caption: Two DORS/CLUC 2025 badges tapped together to exchange NFC data
+  archived: https://web.archive.org/web/20251120131132/https://hyperglitch.com/articles/dc2025-badge
 contact: {}
 notes:
 - STM32L073 (upgraded mid-project from an STM32L053 for more memory), IS31FL3731 LED matrix/charlieplex driver, ST25R3916 NFC reader/writer, USB port used for configuration and desktop-notifier passthrough.
-- 'DORS/CLUC is a long-running open-source/security conference in Zagreb, Croatia (this was its 30th edition); no matching event id exists yet in _data/events.yml, so event is left as "other" — a new id such as `dors-cluc-2025` should be added.'
+- DORS/CLUC is a long-running open-source/security conference in Zagreb, Croatia (this was its 30th edition); no matching event id exists yet in _data/events.yml, so event is left as "other" — a new id such as `dors-cluc-2025` should be added.
 status: released
 sources:
 - kind: url
@@ -80,21 +86,25 @@ sources:
   title: DORS/CLUC 2025 Badge
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: hackaday-press); event read as ''DORS/CLUC 2025 (Croatia)''.'
+  archived: https://web.archive.org/web/20260516053921/https://hackaday.com/2025/06/01/plenty-of-leds-and-useful-too-the-2025-dors-cluc-badge/
 - kind: url
   url: https://hyperglitch.com/articles/dc2025-badge
-  title: 'DORS/CLUC 2025 Badge | HYPERGLITCH'
+  title: DORS/CLUC 2025 Badge | HYPERGLITCH
   accessed: '2026-09-07'
   note: Maker's own project writeup; primary source for functions, chip changes, quantity (100), sold-out-day-one, images, and open-source repo link.
+  archived: https://web.archive.org/web/20251120131132/https://hyperglitch.com/articles/dc2025-badge
 - kind: url
   url: https://www.dorscluc.org/badge/
-  title: 'Conference badge (2025) - DORS/CLUC'
+  title: Conference badge (2025) - DORS/CLUC
   accessed: '2026-09-07'
   note: Confirms designer (Igor Brkić / Hyperglitch), feature list (9-segment display, logo LED matrix, NFC reader/writer, two buttons, USB), treasure hunt and text customization details.
+  archived: https://web.archive.org/web/20251120134608/https://www.dorscluc.org/badge/
 - kind: url
   url: https://gitlab.com/hyperglitch/dc2025badge
   title: DC2025badge - GitLab
   accessed: '2026-09-07'
   note: Open-source hardware/firmware repository referenced by the maker; page only exposed project metadata (22 commits) to the fetcher, not full README.
+  archived: https://web.archive.org/web/20251120153915/https://gitlab.com/hyperglitch/dc2025badge
 research:
   status: researched
   confidence: high

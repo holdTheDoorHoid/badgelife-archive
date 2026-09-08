@@ -93,10 +93,10 @@ sources:
   accessed: '2026-09-08'
   note: 'Press coverage confirming distribution split (attendees solder their own; speakers/staff receive the Linux badge) and the "earn your hacker cred" soldering-village framing.'
 research:
-  status: researched
+  status: verified
   confidence: medium
   last_checked: '2026-09-08'
-  notes: 'Core facts (two distinct badges, chips, LED count, distribution split) confirmed by the maker''s own Hackaday.io project and independently by Hackaday.com press coverage. Price and production quantity are not stated anywhere found. No public repo located for the speaker/staff VoCore/OpenWRT badge - only the attendee LED badge''s firmware/hardware is open-sourced. No photo of the speaker/staff network badge was found; both saved images show the attendee LED badge.'
+  notes: 'Fact-check pass (2026-09-08): all four cited sources (Hackaday.io project 4207, the charlie-x/psoc4-esp8266-ws1812 GitHub repo, the Hackaday.com Hardware Hacking Village article, and badge.gallery''s own writeup) were re-fetched and independently confirm every non-empty field and body sentence - PSoC4+ESP8266+22x WS2812B+2x CR123A on the attendee badge, VoCore/RT5350F+OpenWRT+dual Ethernet on the speaker/staff badge, the solder-it-yourself vs pre-built distribution split, and the Unlicense on the attendee badge''s repo. No contradictions found. Price and production quantity remain unstated anywhere found, correctly left blank. Both saved images were re-verified against their source pages and correctly show only the attendee LED badge (no speaker/staff photo exists in any source found).'
 last_modified_date: '2026-09-08'
 ---
 

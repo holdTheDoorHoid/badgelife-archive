@@ -10,8 +10,8 @@ event: northsec-2015
 year: 2015
 makers:
 - name: NorthSec
-summary: 'A hardware badge issued one per CTF team (not per attendee) at NorthSec 2015, tied into the CTF''s network, IPv6, RF-monitoring, and smartcard challenge tracks.'
-functions: 'Integrated into the NorthSec CTF as a team artifact for challenges spanning networking, an IPv6 workstation, RF monitoring, and smartcard interaction.'
+summary: 'A hardware badge issued one per CTF team (not per attendee) at NorthSec 2015, the event''s first year with a hardware badge.'
+functions: null
 look:
   colors: []
   shape: null
@@ -31,7 +31,7 @@ get_one:
   availability: unknown
   distribution:
   - contest
-  where: 'Issued one per CTF team (54 teams of eight) at the 2015 NorthSec event in Montreal.'
+  where: 'Issued one per CTF team at the 2015 NorthSec event in Montreal.'
 make_your_own:
   open_source: null
   hardware_url: null
@@ -64,15 +64,15 @@ sources:
   url: https://badge.gallery/series/northsec
   title: 'NorthSec - Hacker Con Badges'
   accessed: '2026-09-08'
-  note: 'Third-party compendium citing the same official past-editions page; describes the badge as tied to network, IPv6 workstation, RF-monitoring, smartcard, and related challenge paths for a 54-team, teams-of-eight CTF structure. States no image is published due to lacking a rights-cleared source.'
+  note: 'Third-party compendium claiming to cite NorthSec''s official past-editions page for specifics (54 teams of eight; challenge ties to network, IPv6 workstation, RF-monitoring, smartcard; Bonsecours venue). Checked the actual past-editions page directly and none of those specifics appear there — only the badge-per-team fact and attendee count are on the primary source. Kept only for the badge''s bare existence/no-image note; did not use its uncorroborated specifics.'
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-08'
-  notes: 'Existence confirmed by NorthSec''s own past-editions page ("gave a hardware badge per CTF team" in 2015), so this is a real item, not just a search snippet. However no maker/designer beyond the NorthSec organization itself, no photo, and no technical specifications (MCU, LEDs, display, colors, price, quantity beyond "54 teams of eight") could be found anywhere, including the maker''s own site, GitHub (the nsec/nsec-badge repo describes a much later USB-C/Espressif badge, not this one), and badge.gallery, which explicitly notes no rights-cleared image exists for this year. Left most tech/look/get_one fields empty rather than guess.'
+  notes: 'Existence confirmed by NorthSec''s own past-editions page ("gave a hardware badge per CTF team" in 2015, ~400 attendees, theme "Rao''s Intricate Kingdom" - the only page content actually available under the 2015 heading). No maker/designer beyond the NorthSec organization, no photo, and no technical specifications could be found anywhere, including GitHub (nsec/nsec-badge covers a much later USB-C/Espressif badge, not this one). Removed several previously-added claims (54 teams of eight, Marché Bonsecours venue, ties to network/IPv6/RF-monitoring/smartcard challenges) after checking their only source, badge.gallery: that page asserts these come from "NorthSec''s official past-editions page," but a direct fetch of that page shows no such content under the 2015 section - it contains only the badge-per-team sentence, the attendance figure, and the CTF theme name and top-3 teams. Since the third-party source misrepresents its own primary citation, its uncorroborated specifics are not trustworthy and have been dropped rather than repeated. Left most tech/look/get_one fields empty rather than guess.'
 last_modified_date: '2026-09-08'
 ---
 
-NorthSec added a hardware badge to its Capture the Flag competition starting in 2015, the event's first year to also run alongside a two-day conference. Rather than one badge per attendee, NorthSec gave a single hardware badge to each competing CTF team — that year the competition (built around a "Rao's Intricate Kingdom" theme at the Marché Bonsecours in Montreal) fielded 54 teams organized in groups of eight. The badge was woven into the CTF itself, tied to challenge paths covering networking, an IPv6 workstation, RF monitoring, and smartcard interaction.
+NorthSec added a hardware badge to its Capture the Flag competition starting in 2015, the same year it began pairing the CTF with a two-day conference. Rather than one badge per attendee, NorthSec gave a single hardware badge to each competing CTF team, at an event that drew around 400 infosec professionals, students, and enthusiasts to Montreal. That year's CTF ran on a "Rao's Intricate Kingdom" theme.
 
-Beyond that, almost nothing about the badge's physical design has survived online. NorthSec's own site and GitHub organization document later years' badges in detail (chips, firmware repos, displays) but neither the official past-editions page nor any third-party badge compendium could point to a schematic, repository, or photo for the 2015 unit specifically — badge.gallery notes outright that it has no rights-cleared image for this year. The entry here reflects only what NorthSec's own history page and its CTF write-ups confirm: that the badge existed, was CTF-integrated, and was distributed per team rather than per person.
+Beyond that, almost nothing about the badge's physical design or in-competition role has survived online in a form that checks out. NorthSec's own site and GitHub organization document later years' badges in detail (chips, firmware repos, displays), but the official past-editions page says nothing more about the 2015 badge than that it existed and went one-per-team. A third-party badge compendium (badge.gallery) adds specifics — a 54-team, teams-of-eight structure, a Marché Bonsecours venue, and challenge ties to networking, an IPv6 workstation, RF monitoring, and a smartcard — while claiming these come from NorthSec's own history page; they do not appear there, so they are omitted here rather than repeated on trust. No schematic, repository, or photo of the 2015 badge has turned up anywhere, and badge.gallery separately notes it has no rights-cleared image for this year. The entry reflects only what NorthSec's own history page confirms: that the badge existed, was distributed per team rather than per person, and was issued at the 2015 event alongside a "Rao's Intricate Kingdom"-themed CTF.

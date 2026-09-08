@@ -11,8 +11,8 @@ year: 2017
 makers:
 - name: Michael Teeuw
   url: https://michaelteeuw.nl/tag/electrocard/
-summary: 'A PCB business card with an embedded OLED display that plays a simple horizontal Tetris game via three push buttons.'
-functions: 'Powers up to show Michael Teeuw''s contact details on a 128x32 OLED and to play a homebrew horizontal Tetris game controlled with three SMD push switches.'
+summary: A PCB business card with an embedded OLED display that plays a simple horizontal Tetris game via three push buttons.
+functions: Powers up to show Michael Teeuw's contact details on a 128x32 OLED and to play a homebrew horizontal Tetris game controlled with three SMD push switches.
 look:
   colors: []
   shape: card
@@ -28,12 +28,12 @@ tech:
   battery: CR2032
   sao_version: none
 get_one:
-  price: '$8 (assembled, maker estimate)'
+  price: $8 (assembled, maker estimate)
   price_usd: 8
   quantity: ''
   availability: unknown
   distribution: []
-  where: 'Given out by Michael Teeuw as his personal business card; unpopulated boards served as the plain version, assembled/populated boards went to select contacts. Not sold commercially.'
+  where: Given out by Michael Teeuw as his personal business card; unpopulated boards served as the plain version, assembled/populated boards went to select contacts. Not sold commercially.
 make_your_own:
   open_source: partial
   hardware_url: null
@@ -46,17 +46,20 @@ links:
 - label: github.com/MichMich/Electrocard
   url: https://github.com/MichMich/Electrocard
   kind: repo
+  archived: https://web.archive.org/web/20251115145526/https://github.com/MichMich/Electrocard
 - label: 'michaelteeuw.nl - Electrocard: The Design'
   url: https://michaelteeuw.nl/post/163129358212/electrocard-part-1-the-design/
   kind: article
-- label: 'michaelteeuw.nl - Electrocard tag'
+  archived: https://web.archive.org/web/20251019143914/https://michaelteeuw.nl/post/163129358212/electrocard-part-1-the-design/
+- label: michaelteeuw.nl - Electrocard tag
   url: https://michaelteeuw.nl/tag/electrocard/
   kind: article
+  archived: https://web.archive.org/web/20260312081928/https://michaelteeuw.nl/tag/electrocard
 images:
-  - file: assets/images/badges/other/electrocard/05c8acd727.jpg
-    source: "https://hackaday.io/project/28909-electrocard"
-    credit: "Michael Teeuw"
-    caption: "The Electrocard PCB business card with OLED display"
+- file: assets/images/badges/other/electrocard/05c8acd727.jpg
+  source: https://hackaday.io/project/28909-electrocard
+  credit: Michael Teeuw
+  caption: The Electrocard PCB business card with OLED display
 contact: {}
 notes: []
 status: released
@@ -70,17 +73,19 @@ sources:
   url: https://hackaday.io/project/28909-electrocard
   title: Electrocard
   accessed: '2026-09-07'
-  note: 'Confirmed maker (Michael Teeuw), MCU (ATtiny85), OLED display, CR2032 battery, price estimate, and that it was a Coin Cell Challenge entry, not a conference badge.'
+  note: Confirmed maker (Michael Teeuw), MCU (ATtiny85), OLED display, CR2032 battery, price estimate, and that it was a Coin Cell Challenge entry, not a conference badge.
 - kind: url
   url: https://github.com/MichMich/Electrocard
-  title: 'MichMich/Electrocard on GitHub'
+  title: MichMich/Electrocard on GitHub
   accessed: '2026-09-07'
-  note: 'Confirmed repo contains only PlatformIO firmware (src/lib/flash.sh), no hardware/Gerber files, so hardware is not published even though firmware is.'
+  note: Confirmed repo contains only PlatformIO firmware (src/lib/flash.sh), no hardware/Gerber files, so hardware is not published even though firmware is.
+  archived: https://web.archive.org/web/20251115145526/https://github.com/MichMich/Electrocard
 - kind: url
   url: https://michaelteeuw.nl/tag/electrocard/
-  title: 'Electrocard tag - michaelteeuw.nl'
+  title: Electrocard tag - michaelteeuw.nl
   accessed: '2026-09-07'
-  note: 'Confirmed the build was documented in a blog series (design, soldering, software) and that KiCad was used for the PCB design.'
+  note: Confirmed the build was documented in a blog series (design, soldering, software) and that KiCad was used for the PCB design.
+  archived: https://web.archive.org/web/20260312081928/https://michaelteeuw.nl/tag/electrocard
 research:
   status: researched
   confidence: high

@@ -12,7 +12,7 @@ makers:
 - name: davedarko
   url: https://github.com/davedarko
 summary: A donut-shaped SAO with a matrix of surface-mount LEDs driven by an IS31FL3731 controller, arranged around and across the ring like sprinkles on a donut.
-functions: 'Lights up an LED matrix arranged in a donut shape; no other interactive functions documented.'
+functions: Lights up an LED matrix arranged in a donut shape; no other interactive functions documented.
 look:
   colors: []
   shape: circle
@@ -47,18 +47,21 @@ links:
 - label: hackaday.io/project/168597-do-or-donut-sao
   url: https://hackaday.io/project/168597-do-or-donut-sao
   kind: hackaday
+  archived: https://web.archive.org/web/20251210174801/https://hackaday.io/project/168597-do-or-donut-sao
 - label: github.com/davedarko/Simple-Add-ons-SAO/tree/main/Do%20Or%20DoNut
   url: https://github.com/davedarko/Simple-Add-ons-SAO/tree/main/Do%20Or%20DoNut
   kind: repo
 images:
 - file: assets/images/badges/other/do-or-donut-sao/d3b20f13de.png
-  source: "https://hackaday.io/project/168597-do-or-donut-sao"
-  credit: "davedarko"
-  caption: "Do or Donut SAO with donut-shaped LED matrix"
+  source: https://hackaday.io/project/168597-do-or-donut-sao
+  credit: davedarko
+  caption: Do or Donut SAO with donut-shaped LED matrix
+  archived: https://web.archive.org/web/20251210174801/https://hackaday.io/project/168597-do-or-donut-sao
 - file: assets/images/badges/other/do-or-donut-sao/dd71631df7.png
-  source: "https://hackaday.io/project/168597-do-or-donut-sao"
-  credit: "davedarko"
-  caption: "Do or Donut SAO PCB layout / lit LED matrix detail"
+  source: https://hackaday.io/project/168597-do-or-donut-sao
+  credit: davedarko
+  caption: Do or Donut SAO PCB layout / lit LED matrix detail
+  archived: https://web.archive.org/web/20251210174801/https://hackaday.io/project/168597-do-or-donut-sao
 contact: {}
 notes: []
 status: listed
@@ -73,6 +76,7 @@ sources:
   title: Do or Donut SAO | Hackaday.io
   accessed: '2026-09-07'
   note: Hackaday.io project page; confirms creator, creation date (Nov 2019), IS31FL3731 driver chip, ~800 0603 LEDs ordered in multiple colors, BOM ~7 EUR per unit, and 5 white JLCPCB test boards ordered. No event is named on the page.
+  archived: https://web.archive.org/web/20251210174801/https://hackaday.io/project/168597-do-or-donut-sao
 - kind: url
   url: https://github.com/davedarko/Simple-Add-ons-SAO/tree/main/Do%20Or%20DoNut
   title: davedarko/Simple-Add-ons-SAO — Do Or DoNut
