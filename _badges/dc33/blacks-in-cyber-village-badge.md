@@ -52,12 +52,15 @@ links:
 - label: BADGE | BlacksInCyber
   url: https://www.blacksincyberconf.com/badge
   kind: website
+  archived: https://web.archive.org/web/20260309112553/https://www.blacksincyberconf.com/badge
 - label: BIC Village | BlacksInCyber
   url: https://www.blacksincyberconf.com/bic-village
   kind: website
+  archived: https://web.archive.org/web/20260824120017/https://www.blacksincyberconf.com/bic-village
 - label: DEF CON 33 - BiC Village - B I C Pick DEF CON 33 Badge Walkthrough - Eli McRae
   url: https://www.youtube.com/watch?v=BczXjBh6bsM
   kind: video
+  archived: https://web.archive.org/web/20251208110115/https://www.youtube.com/watch?v=BczXjBh6bsM
 - label: 'Eli McRae: BIC Village "B.I.C. Pick" DEF CON 33 Badge Walkthrough (YouTube)'
   url: https://www.youtube.com/watch?v=IvZhTutdqDM
   kind: video
@@ -72,10 +75,12 @@ images:
   source: https://www.blacksincyberconf.com/badge
   credit: Blacks in Cyber (BiC)
   caption: BIC Village medallion badge, Afro-pick-shaped, made for the BIC Village's five-year anniversary at DEF CON 33
+  archived: https://web.archive.org/web/20260309112553/https://www.blacksincyberconf.com/badge
 - file: assets/images/badges/dc33/blacks-in-cyber-village-badge/25b62bb733.jpg
   source: https://www.blacksincyberconf.com/badge
   credit: Blacks In Cyber
   caption: BIC Pick badge, an Afro-pick-shaped PCB badge made for the BIC Village's fifth anniversary at DEF CON 33
+  archived: https://web.archive.org/web/20260309112553/https://www.blacksincyberconf.com/badge
 contact:
   handles:
   - '@BlackInCyberCo1'
@@ -97,11 +102,13 @@ sources:
   title: BADGE | BlacksInCyber
   accessed: '2026-09-06'
   note: 'Maker''s own page: badge is an Afro-pick-shaped item made for the B.I.C. Village''s five-year anniversary at DEF CON 33; sold/traded on-site only, with off-site sales "to be announced" (none confirmed since). No price, tech specs, or non-logo photos on the page; source of the medallion image used here.'
+  archived: https://web.archive.org/web/20260309112553/https://www.blacksincyberconf.com/badge
 - kind: url
   url: https://www.blacksincyberconf.com/bic-village
   title: BIC Village | BlacksInCyber
   accessed: '2026-09-06'
   note: Confirms the B.I.C. (Blacks In Cybersecurity) Village exists at DEF CON 33 as a talks-and-CTF village; general village context, no badge-specific detail.
+  archived: https://web.archive.org/web/20260824120017/https://www.blacksincyberconf.com/bic-village
 - kind: sheet
   event: dc33
   row: 40
@@ -111,6 +118,7 @@ sources:
   title: DEF CON 33 - BiC Village - B I C Pick DEF CON 33 Badge Walkthrough - Eli McRae
   accessed: '2026-09-06'
   note: Title and uploader (DEFCONConference channel) confirmed via YouTube oEmbed; the video content was not viewed, so it is listed as a link only and not used as a source for specs.
+  archived: https://web.archive.org/web/20251208110115/https://www.youtube.com/watch?v=BczXjBh6bsM
 - kind: sheet
   event: dc33
   row: 39

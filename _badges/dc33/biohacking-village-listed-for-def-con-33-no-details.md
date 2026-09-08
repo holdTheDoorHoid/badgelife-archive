@@ -18,13 +18,8 @@ makers:
 - name: Biohacking Village
   url: https://villageb.io
   role: commissioning village
-summary: The DEF CON 33 Biohacking Village badge, built around a Raspberry Pi Compute
-  Module 5 running PamirAI's Distiller platform, gives the wearer a pocket-sized,
-  fully offline AI medical chatbot that listens to spoken questions and answers on
-  an e-ink screen.
-functions: Runs local LLMs entirely on-device (no internet connection) as a voice-driven
-  medical-question chatbot; listens via a built-in microphone and responds with
-  treatment suggestions on an e-ink screen.
+summary: The DEF CON 33 Biohacking Village badge, built around a Raspberry Pi Compute Module 5 running PamirAI's Distiller platform, gives the wearer a pocket-sized, fully offline AI medical chatbot that listens to spoken questions and answers on an e-ink screen.
+functions: Runs local LLMs entirely on-device (no internet connection) as a voice-driven medical-question chatbot; listens via a built-in microphone and responds with treatment suggestions on an e-ink screen.
 look:
   colors:
   - green
@@ -37,14 +32,11 @@ tech:
   leds:
     count: null
     type: RGB
-    note: A power-indicator LED on the back plus a side-firing RGB LED that stays lit
-      after shutdown; LED colors are customizable through the UI or the on-badge
-      AI assistant.
+    note: A power-indicator LED on the back plus a side-firing RGB LED that stays lit after shutdown; LED colors are customizable through the UI or the on-badge AI assistant.
   display: e-ink (non-touch, navigated with physical buttons)
   connectivity:
   - wifi
-  battery: USB-C, requires a USB-PD charger rated 9V/3A minimum; auto-shuts down
-    below 1% battery and won't power on below 3%
+  battery: USB-C, requires a USB-PD charger rated 9V/3A minimum; auto-shuts down below 1% battery and won't power on below 3%
   sao_version: null
 get_one:
   price: ''
@@ -53,46 +45,43 @@ get_one:
   availability: unknown
   distribution:
   - village
-  where: Given out at the DEF CON 33 Biohacking Village in Las Vegas, August 2025;
-    exact distribution method (all attendees vs. contest/volunteer only) not stated
-    in sources found.
+  where: Given out at the DEF CON 33 Biohacking Village in Las Vegas, August 2025; exact distribution method (all attendees vs. contest/volunteer only) not stated in sources found.
 make_your_own:
   open_source: partial
   hardware_url: null
   firmware_url: https://github.com/Pamir-AI/distiller-cm5-sdk
   eda_tool: null
-  notes: PamirAI's Distiller SDK (Python, Apache-2.0) is public; the docs.pamir.ai/bhv
-    user guide points to a "BHV branch" of both distiller-cm5-sdk and
-    distiller-cm5-python, but the repo's default page fetched here did not show
-    that branch. No hardware/Gerber files were found.
+  notes: PamirAI's Distiller SDK (Python, Apache-2.0) is public; the docs.pamir.ai/bhv user guide points to a "BHV branch" of both distiller-cm5-sdk and distiller-cm5-python, but the repo's default page fetched here did not show that branch. No hardware/Gerber files were found.
 links:
 - label: Raspberry Pi blog post
   url: https://www.raspberrypi.com/news/creating-the-most-advanced-event-badge-yet-for-the-biohacking-village-at-def-con/
   kind: article
+  archived: https://web.archive.org/web/20260531142306/https://www.raspberrypi.com/news/creating-the-most-advanced-event-badge-yet-for-the-biohacking-village-at-def-con/
 - label: Distiller BHV Edition user guide
   url: https://docs.pamir.ai/bhv
   kind: doc
+  archived: https://web.archive.org/web/20260510140351/https://docs.pamir.ai/bhv
 - label: Biohacking Village badges page
   url: https://villageb.io/Badges
   kind: website
+  archived: https://web.archive.org/web/20260511223900/https://www.villageb.io/badges
 - label: distiller-cm5-sdk (GitHub)
   url: https://github.com/Pamir-AI/distiller-cm5-sdk
   kind: repo
 images:
 - file: assets/images/badges/dc33/biohacking-village-listed-for-def-con-33-no-details/1c5214ceee.jpg
-  source: "https://www.raspberrypi.com/news/creating-the-most-advanced-event-badge-yet-for-the-biohacking-village-at-def-con/"
-  credit: "Raspberry Pi (raspberrypi.com)"
-  caption: "Front of the Distiller BHV Edition badge: green 3D-printed enclosure and e-ink screen showing the medical chatbot"
+  source: https://www.raspberrypi.com/news/creating-the-most-advanced-event-badge-yet-for-the-biohacking-village-at-def-con/
+  credit: Raspberry Pi (raspberrypi.com)
+  caption: 'Front of the Distiller BHV Edition badge: green 3D-printed enclosure and e-ink screen showing the medical chatbot'
+  archived: https://web.archive.org/web/20260531142306/https://www.raspberrypi.com/news/creating-the-most-advanced-event-badge-yet-for-the-biohacking-village-at-def-con/
 - file: assets/images/badges/dc33/biohacking-village-listed-for-def-con-33-no-details/d46094e0cf.jpg
-  source: "https://www.raspberrypi.com/news/creating-the-most-advanced-event-badge-yet-for-the-biohacking-village-at-def-con/"
-  credit: "Raspberry Pi (raspberrypi.com)"
-  caption: "Back of the Distiller BHV Edition badge's green 3D-printed enclosure"
+  source: https://www.raspberrypi.com/news/creating-the-most-advanced-event-badge-yet-for-the-biohacking-village-at-def-con/
+  credit: Raspberry Pi (raspberrypi.com)
+  caption: Back of the Distiller BHV Edition badge's green 3D-printed enclosure
+  archived: https://web.archive.org/web/20260531142306/https://www.raspberrypi.com/news/creating-the-most-advanced-event-badge-yet-for-the-biohacking-village-at-def-con/
 contact: {}
 notes:
-- Sheet listed only "BioHacking Village" with no badge details; the badge was
-  identified as the "Distiller BHV Edition" via PamirAI/SolaSec press coverage
-  and PamirAI's own documentation. The village's own site lists it as "AI Chatbot
-  Badge (2025)" by PamirAI & SolaSec; the Raspberry Pi article does not name it.
+- Sheet listed only "BioHacking Village" with no badge details; the badge was identified as the "Distiller BHV Edition" via PamirAI/SolaSec press coverage and PamirAI's own documentation. The village's own site lists it as "AI Chatbot Badge (2025)" by PamirAI & SolaSec; the Raspberry Pi article does not name it.
 status: released
 sources:
 - kind: sheet
@@ -102,41 +91,32 @@ sources:
   updated: ''
 - kind: url
   url: https://www.raspberrypi.com/news/creating-the-most-advanced-event-badge-yet-for-the-biohacking-village-at-def-con/
-  title: Creating the most advanced event badge yet for the Biohacking Village at
-    DEF CON
+  title: Creating the most advanced event badge yet for the Biohacking Village at DEF CON
   accessed: '2026-09-06'
-  note: Maker names (PamirAI, SolaSec), Compute Module 5 basis, offline AI chatbot
-    function, badge photos
+  note: Maker names (PamirAI, SolaSec), Compute Module 5 basis, offline AI chatbot function, badge photos
+  archived: https://web.archive.org/web/20260531142306/https://www.raspberrypi.com/news/creating-the-most-advanced-event-badge-yet-for-the-biohacking-village-at-def-con/
 - kind: url
   url: https://docs.pamir.ai/bhv
   title: Distiller BHV Edition User Guide
   accessed: '2026-09-06'
-  note: Detailed hardware specs - RP2040 board manager, e-ink display, side-firing
-    RGB LED, USB-C/PD power requirements, SDK links
+  note: Detailed hardware specs - RP2040 board manager, e-ink display, side-firing RGB LED, USB-C/PD power requirements, SDK links
+  archived: https://web.archive.org/web/20260510140351/https://docs.pamir.ai/bhv
 - kind: url
   url: https://villageb.io/Badges
   title: Badges — Biohacking Village
   accessed: '2026-09-06'
-  note: Lists the 2025 badge as "AI Chatbot Badge (2025)" by PamirAI & SolaSec, a
-    pocket-sized medical chatbot running three AI models on a Raspberry Pi CM5;
-    page content is mostly about the 2026 badge
+  note: Lists the 2025 badge as "AI Chatbot Badge (2025)" by PamirAI & SolaSec, a pocket-sized medical chatbot running three AI models on a Raspberry Pi CM5; page content is mostly about the 2026 badge
+  archived: https://web.archive.org/web/20260511223900/https://www.villageb.io/badges
 - kind: url
   url: https://github.com/Pamir-AI/distiller-cm5-sdk
   title: Pamir-AI/distiller-cm5-sdk
   accessed: '2026-09-06'
-  note: Confirms public Apache-2.0 Python SDK for the Distiller platform used by
-    the badge
+  note: Confirms public Apache-2.0 Python SDK for the Distiller platform used by the badge
 research:
   status: verified
   confidence: medium
   last_checked: '2026-09-06'
-  notes: Fact-checked 2026-09-06 against all four cited pages; unsupported theme
-    tags and image credits were corrected. Retitled from "BioHacking Village (listed for DEF CON 33, no details)"
-    after identifying the actual badge as the Distiller BHV Edition. Maker's own
-    documentation (docs.pamir.ai) confirms hardware details, so core specs are
-    solid, but price, exact quantity made, precise distribution rules, and hardware
-    (as opposed to firmware) open-source files were not found, so confidence is
-    medium rather than high. LED count and SAO header presence are unknown.
+  notes: Fact-checked 2026-09-06 against all four cited pages; unsupported theme tags and image credits were corrected. Retitled from "BioHacking Village (listed for DEF CON 33, no details)" after identifying the actual badge as the Distiller BHV Edition. Maker's own documentation (docs.pamir.ai) confirms hardware details, so core specs are solid, but price, exact quantity made, precise distribution rules, and hardware (as opposed to firmware) open-source files were not found, so confidence is medium rather than high. LED count and SAO header presence are unknown.
 last_modified_date: '2026-09-06'
 ---
 

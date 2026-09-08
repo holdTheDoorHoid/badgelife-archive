@@ -33,7 +33,7 @@ get_one:
   distribution: []
   where: ''
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/9a/3ch_pwm_sao_badge/tree/main/sao_kicad_files
   firmware_url: https://github.com/9a/3ch_pwm_sao_badge/blob/main/sao_3ch_pwm.ino
   eda_tool: KiCad
@@ -42,14 +42,14 @@ links:
   url: https://github.com/9a/3ch_pwm_sao_badge
   kind: repo
 images:
-  - file: assets/images/badges/other/3ch-pwm-sao-badge/b4cf05d135.jpg
-    source: "https://github.com/9a/3ch_pwm_sao_badge"
-    credit: "9a"
-    caption: "Top side of the 3ch PWM SAO badge"
-  - file: assets/images/badges/other/3ch-pwm-sao-badge/86f22a30a5.jpg
-    source: "https://github.com/9a/3ch_pwm_sao_badge"
-    credit: "9a"
-    caption: "Bottom side of the 3ch PWM SAO badge"
+- file: assets/images/badges/other/3ch-pwm-sao-badge/b4cf05d135.jpg
+  source: https://github.com/9a/3ch_pwm_sao_badge
+  credit: 9a
+  caption: Top side of the 3ch PWM SAO badge
+- file: assets/images/badges/other/3ch-pwm-sao-badge/86f22a30a5.jpg
+  source: https://github.com/9a/3ch_pwm_sao_badge
+  credit: 9a
+  caption: Bottom side of the 3ch PWM SAO badge
 contact: {}
 notes:
 - 3ch PWM LED SAO on ATtiny402
@@ -71,6 +71,12 @@ research:
   last_checked: '2026-09-07'
   notes: This reads as a personal open-hardware SAO project shared on GitHub, not tied to any specific convention or year -- the repo, README, and maker's GitHub profile give no event, date, price, or distribution details. Left event as "other" and year as 0 since no con could be identified. No license file is present in the repo, so make_your_own.license is left empty rather than guessed. LED count/type and PCB color are not stated in the repo or images closely enough to state with confidence, so left empty.
 last_modified_date: '2026-09-07'
+model:
+  file: assets/models/other/3ch-pwm-sao-badge.glb
+  method: kicad
+  source_file: sao_kicad_files/sao_pcb.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 107652
 ---
 
 The 3ch PWM SAO badge is a small SAO (Shitty Add-On) board by GitHub user 9a, built around an ATtiny402 microcontroller. It provides three independent PWM-controlled channels, intended to drive LEDs or flexible "LED noodle" strips -- the kind used in 3D-printed mini neon sign projects such as the Printables "LED Noodle Ghost" and "LED Noodle Animated Cat" designs the maker links to in the README.

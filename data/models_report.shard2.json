@@ -565,5 +565,43 @@
   "tried": [
    "gerber Gerber: outline polygon empty"
   ]
+ },
+ "hackerhotel-2024-hacker-hotel-2024-badge-telegraph-interface-add-on": {
+  "status": "ok",
+  "method": "gerber",
+  "bytes": 345304,
+  "tried": [
+   "kicad glb: Command '['/home/hoid/Desktop/badgelife-archive/tools/node_modules/.bin/gltf-transform', 'optimize', '/home/hoid/Desktop/badgelife-archive/data/hw/hackerhotel-2"
+  ],
+  "src": "hh2024.kicad_pcb"
+ },
+ "northsec-2023-northsec-2023-badge": {
+  "status": "failed",
+  "tried": [
+   "eagle->kicad ok",
+   "kicad glb: glb export failed: Failed to load board: One or more items were found on undefined layers (UNDEFINED). Open the board in the PCB Editor to resolve.\n",
+   "kicad gerbers: gerber export failed: Failed to load board: One or more items were found on undefined layers (UNDEFINED). Open the board in the PCB Editor to resolve.\n"
+  ]
+ },
+ "oshwdem-2017-oshwi-badge-2017": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 225320,
+  "tried": [],
+  "src": "2017/Hackster_Version/001.kicad_pcb"
+ },
+ "other-2018-open-hardware-summit-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 412132,
+  "tried": [],
+  "src": "oshw2018badgeprototype.kicad_pcb"
+ },
+ "other-3ch-pwm-sao-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 107652,
+  "tried": [],
+  "src": "sao_kicad_files/sao_pcb.kicad_pcb"
  }
 }

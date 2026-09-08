@@ -44,7 +44,7 @@ get_one:
   - purchase
   where: Distributed to attendees of Hackerhotel 2024; not otherwise sold that we found.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/badgeteam/hackerhotel-2024-hardware
   firmware_url: https://github.com/badgeteam/hackerhotel-2024-firmware-esp32c6
   eda_tool: KiCad
@@ -75,18 +75,18 @@ links:
 - label: hackerhotel-2024-sao (GitHub)
   url: https://github.com/badgeteam/hackerhotel-2024-sao
   kind: repo
-- label: "Hackerhotel 2024 badge cover and lanyard adapter (Printables)"
+- label: Hackerhotel 2024 badge cover and lanyard adapter (Printables)
   url: https://www.printables.com/model/744855-hackerhotel-2024-badge-cover-and-lanyard-adapter
   kind: fab
 images:
-  - file: assets/images/badges/hackerhotel-2024/telegraph-badge-hackerhotel-2024/fda087b89f.jpg
-    source: "https://badge.team/docs/badges/hackerhotel-2024/"
-    credit: "Badge.Team"
-    caption: "Telegraph badge front, e-paper display and five three-way switches"
-  - file: assets/images/badges/hackerhotel-2024/telegraph-badge-hackerhotel-2024/962284ae57.jpg
-    source: "https://badge.team/docs/badges/hackerhotel-2024/"
-    credit: "Badge.Team"
-    caption: "Close-up of the badge's e-paper screen"
+- file: assets/images/badges/hackerhotel-2024/telegraph-badge-hackerhotel-2024/fda087b89f.jpg
+  source: https://badge.team/docs/badges/hackerhotel-2024/
+  credit: Badge.Team
+  caption: Telegraph badge front, e-paper display and five three-way switches
+- file: assets/images/badges/hackerhotel-2024/telegraph-badge-hackerhotel-2024/962284ae57.jpg
+  source: https://badge.team/docs/badges/hackerhotel-2024/
+  credit: Badge.Team
+  caption: Close-up of the badge's e-paper screen
 contact: {}
 notes:
 - Victorian telegraph theme, ESP32-C6, 296x128 red/black e-paper, five 3-way switches for Cooke & Wheatstone-style typing mode, SAO + QWIIC connectors.
@@ -99,20 +99,29 @@ sources:
   note: 'Found by the archive''s discovery sweep (angle: eu-camps: European hacker camps/cons via badge.team (SHA2017, Hackerhotel, Disobey, CampZone, Fri3d Camp, MCH2022, WHY2025), EMF Camp TiLDA lineage, CCC card10, and BornHack); event read as ''Hackerhotel 2024''.'
 - kind: url
   url: https://badge.team/docs/badges/hackerhotel-2024/
-  title: "Hackerhotel 2024 | Badge.Team"
+  title: Hackerhotel 2024 | Badge.Team
   accessed: '2026-09-07'
-  note: "Maker's own handbook page: theme, MCU, display, switches, SAO/QWIIC connectors, USB-C charging, list of maker volunteers."
+  note: 'Maker''s own handbook page: theme, MCU, display, switches, SAO/QWIIC connectors, USB-C charging, list of maker volunteers.'
 - kind: url
   url: https://github.com/badgeteam/hackerhotel-2024-hardware
   title: badgeteam/hackerhotel-2024-hardware
   accessed: '2026-09-07'
-  note: "Confirmed hardware is open source (KiCad design files, gerbers, schematic PDF), under CERN-OHL-P license."
+  note: Confirmed hardware is open source (KiCad design files, gerbers, schematic PDF), under CERN-OHL-P license.
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-07'
-  notes: "LED count/type for the telegraph-keyboard matrix was not stated on the maker's page or in the hardware repo description; left empty. No price or production quantity found (badge was distributed to Hackerhotel 2024 attendees, not sold separately as far as we could find), so get_one.price/quantity/availability are left unfilled/unknown."
+  notes: LED count/type for the telegraph-keyboard matrix was not stated on the maker's page or in the hardware repo description; left empty. No price or production quantity found (badge was distributed to Hackerhotel 2024 attendees, not sold separately as far as we could find), so get_one.price/quantity/availability are left unfilled/unknown.
 last_modified_date: '2026-09-07'
+model:
+  file: assets/models/hackerhotel-2024/telegraph-badge-hackerhotel-2024.glb
+  method: gerber
+  source_file: hh2024.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 345304
+  size_mm:
+  - 90.4
+  - 114.0
 ---
 
 The Telegraph badge was Badge.Team's official badge for Hackerhotel 2024, built by a volunteer crew (Nikolett, Guru-san, Renze, Tom Clement, CH23, Norbert, Zac, SqyD, Martijn, Julian, Dimitri, and Yvo) around a Victorian-telegraph theme. Rather than a keyboard, text is entered through five three-way switches in a Cooke & Wheatstone-inspired scheme, shown on a 296x128 red/black e-paper display. An ESP32-C6 (Wi-Fi 6, BLE, 802.15.4) runs the main firmware, with a CH32V003 as a co-processor; the badge also carries an SAO header, a QWIIC connector, and a LiPo battery charged over USB-C.

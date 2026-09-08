@@ -66,17 +66,17 @@ links:
   url: https://github.com/badgeteam/hackerhotel-2024-firmware-ch32v003
   kind: repo
 images:
-  - file: assets/images/badges/hackerhotel-2024/hacker-hotel-2024-badge-telegraph-interface-add-on/fda087b89f.jpg
-    source: "https://badge.team/docs/badges/hackerhotel-2024/"
-    credit: "badge.team"
-    caption: "Hackerhotel 2024 badge front, showing the telegraph-style LED grid and switches"
-  - file: assets/images/badges/hackerhotel-2024/hacker-hotel-2024-badge-telegraph-interface-add-on/962284ae57.jpg
-    source: "https://badge.team/docs/badges/hackerhotel-2024/"
-    credit: "badge.team"
-    caption: "Hackerhotel 2024 badge e-paper display close-up"
+- file: assets/images/badges/hackerhotel-2024/hacker-hotel-2024-badge-telegraph-interface-add-on/fda087b89f.jpg
+  source: https://badge.team/docs/badges/hackerhotel-2024/
+  credit: badge.team
+  caption: Hackerhotel 2024 badge front, showing the telegraph-style LED grid and switches
+- file: assets/images/badges/hackerhotel-2024/hacker-hotel-2024-badge-telegraph-interface-add-on/962284ae57.jpg
+  source: https://badge.team/docs/badges/hackerhotel-2024/
+  credit: badge.team
+  caption: Hackerhotel 2024 badge e-paper display close-up
 contact: {}
 notes:
-- 'Original sheet/sweep entry described this as a "Telegraph Interface add-on"; research found the telegraph interface is not a separate add-on but the input mechanism built into the Hackerhotel 2024 conference badge itself. Retitled and retyped accordingly (event corrected from ''other'' to hackerhotel-2024).'
+- Original sheet/sweep entry described this as a "Telegraph Interface add-on"; research found the telegraph interface is not a separate add-on but the input mechanism built into the Hackerhotel 2024 conference badge itself. Retitled and retyped accordingly (event corrected from 'other' to hackerhotel-2024).
 status: released
 sources:
 - kind: url
@@ -86,12 +86,12 @@ sources:
   note: 'Found by the archive''s discovery sweep (angle: hackaday-press); event read as ''Hacker Hotel 2024''.'
 - kind: url
   url: https://badge.team/docs/badges/hackerhotel-2024/
-  title: 'Hackerhotel 2024 | Badge.Team'
+  title: Hackerhotel 2024 | Badge.Team
   accessed: '2026-09-07'
   note: Maker's own documentation page; source for specs, images, distribution, and firmware/hardware repo links.
 - kind: url
   url: https://github.com/badgeteam/hackerhotel-2024-hardware
-  title: 'GitHub - badgeteam/hackerhotel-2024-hardware'
+  title: GitHub - badgeteam/hackerhotel-2024-hardware
   accessed: '2026-09-07'
   note: Confirmed CERN-OHL-P open hardware license and maker credits (Tilde.industries, Nicolai Electronics).
 research:
@@ -102,6 +102,15 @@ research:
 last_modified_date: '2026-09-07'
 redirect_from:
 - /badges/other/hacker-hotel-2024-badge-telegraph-interface-add-on/
+model:
+  file: assets/models/hackerhotel-2024/hacker-hotel-2024-badge-telegraph-interface-add-on.glb
+  method: gerber
+  source_file: hh2024.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 345304
+  size_mm:
+  - 90.4
+  - 114.0
 ---
 
 The Hackerhotel 2024 badge, made by badge.team (Tilde.industries and Nicolai Electronics), builds its entire interaction model around a 19th-century Cooke and Wheatstone telegraph. Instead of a keyboard, five three-way switches let the wearer rotate a diamond-shaped grid of LEDs to point at letters the way the original telegraph's five needles did; a small relay clicks audibly on each confirmed keystroke purely for tactile feedback. An ESP32-C6 handles processing and wireless (Wi-Fi 6, BLE, 802.15.4 mesh), while a CH32V003 co-processor manages the switch and LED I/O. A 296x128 red/black e-paper display, salvaged from surplus German supermarket shelf-edge labels, shows the nametag and puzzle state, and the badge exposes SAO and Qwiic connectors for add-ons.

@@ -51,6 +51,7 @@ sources:
   title: BlackGirlsHack — official site
   accessed: '2026-09-07'
   note: No mention of DEF CON, a badge, or an SAO on the main site; events listed are SquadCon (billed as "GirlsHackVillage Presents SquadCon"), a 2025 fundraising gala, webinars, and trainings. A "Hacker Summer Camp Scholarship" appears among donation options but names no badge.
+  archived: https://web.archive.org/web/20260723024105/https://www.blackgirlshack.org/
 - kind: url
   url: https://blackgirlshack.org/shop/
   title: BGH Store
@@ -65,17 +66,7 @@ research:
   status: verified
   confidence: low
   last_checked: '2026-09-07'
-  notes: >-
-    BlackGirlsHack was listed as an expected maker for DEF CON 33 on the community sheet with no
-    further detail. Checked their official site, online store, and Linktree (all re-read on
-    2026-09-07); found no mention of a DEF CON 33 badge or SAO, and the store carries no hardware
-    item. Only BlackGirlsHack's own pages were consulted; no broader web search or third-party
-    coverage was checked, so an item could still exist unannounced on these pages. A same-named
-    DC32 stub (dc32-blackgirlshack-listed-for-def-con-32-no-details) and a DC31 "Puzzle SAO"
-    (dc31-puzzle-sao) credited to BlackGirlsHack exist in the archive; the DC31 item shows they
-    have made an SAO before, but nothing found ties a specific item to DEF CON 33. Title and data
-    fields left as-is per the "listed, no details" convention. Fact-check 2026-09-07: an earlier
-    claim that Instagram was checked had no cited source and was removed.
+  notes: 'BlackGirlsHack was listed as an expected maker for DEF CON 33 on the community sheet with no further detail. Checked their official site, online store, and Linktree (all re-read on 2026-09-07); found no mention of a DEF CON 33 badge or SAO, and the store carries no hardware item. Only BlackGirlsHack''s own pages were consulted; no broader web search or third-party coverage was checked, so an item could still exist unannounced on these pages. A same-named DC32 stub (dc32-blackgirlshack-listed-for-def-con-32-no-details) and a DC31 "Puzzle SAO" (dc31-puzzle-sao) credited to BlackGirlsHack exist in the archive; the DC31 item shows they have made an SAO before, but nothing found ties a specific item to DEF CON 33. Title and data fields left as-is per the "listed, no details" convention. Fact-check 2026-09-07: an earlier claim that Instagram was checked had no cited source and was removed.'
 last_modified_date: '2026-09-07'
 ---
 

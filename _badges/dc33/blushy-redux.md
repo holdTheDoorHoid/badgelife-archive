@@ -52,24 +52,29 @@ links:
 - label: ghostglitch.net
   url: https://ghostglitch.net
   kind: website
+  archived: https://web.archive.org/web/20251014071724/https://ghostglitch.net/
 - label: Blushy SAO page
   url: https://ghostglitch.net/sao/blushy
   kind: website
+  archived: https://web.archive.org/web/20251213162553/https://ghostglitch.net/sao/blushy
 - label: eSAO Hats page
   url: https://ghostglitch.net/sao/hats
   kind: website
-- label: "Blog: Making Friends by Ghosting Strangers"
+  archived: https://web.archive.org/web/20251213161720/https://ghostglitch.net/sao/hats
+- label: 'Blog: Making Friends by Ghosting Strangers'
   url: https://ghostglitch.net/blog/2025/jan/10
   kind: article
 images:
-  - file: assets/images/badges/dc33/blushy-redux/55779c3fa3.jpg
-    source: "https://ghostglitch.net/sao/blushy"
-    credit: "GhostGlitch"
-    caption: "Blushy SAO, front"
-  - file: assets/images/badges/dc33/blushy-redux/b0f783a348.jpg
-    source: "https://ghostglitch.net/sao/hats"
-    credit: "GhostGlitch"
-    caption: "Blushy with eSAO hat accessories attached"
+- file: assets/images/badges/dc33/blushy-redux/55779c3fa3.jpg
+  source: https://ghostglitch.net/sao/blushy
+  credit: GhostGlitch
+  caption: Blushy SAO, front
+  archived: https://web.archive.org/web/20251213162553/https://ghostglitch.net/sao/blushy
+- file: assets/images/badges/dc33/blushy-redux/b0f783a348.jpg
+  source: https://ghostglitch.net/sao/hats
+  credit: GhostGlitch
+  caption: Blushy with eSAO hat accessories attached
+  archived: https://web.archive.org/web/20251213161720/https://ghostglitch.net/sao/hats
 contact:
   emails:
   - contact@ghostglitch.net
@@ -83,39 +88,33 @@ sources:
   updated: 7/25/2025 22:21:35
 - kind: url
   url: https://ghostglitch.net/sao/blushy
-  title: "Blushy the Blushing Ghost | GhostGlitch"
+  title: Blushy the Blushing Ghost | GhostGlitch
   accessed: '2026-09-06'
   note: Current description of the Blushy SAO (capacitive-touch boop behavior, analog design); confirms shape and general concept, though the page does not distinguish the "Redux" revision by name.
+  archived: https://web.archive.org/web/20251213162553/https://ghostglitch.net/sao/blushy
 - kind: url
   url: https://ghostglitch.net/sao/hats
-  title: "eSAO Hats! | GhostGlitch"
+  title: eSAO Hats! | GhostGlitch
   accessed: '2026-09-06'
   note: Describes the eSAO (even Shittier Add-On) 3-pin accessory header referenced in the sheet's "ghost of many hats" description.
+  archived: https://web.archive.org/web/20251213161720/https://ghostglitch.net/sao/hats
 - kind: url
   url: https://ghostglitch.net/sao
-  title: "All the SAOs | GhostGlitch"
+  title: All the SAOs | GhostGlitch
   accessed: '2026-09-06'
   note: Defines the eSAO connector pinout (data, ground, 3.3V) and lists GhostGlitch's SAO lineup.
+  archived: https://web.archive.org/web/20251014075544/https://ghostglitch.net/sao
 - kind: url
   url: https://ghostglitch.net/blog/2025/jan/10
-  title: "Making Friends by Ghosting Strangers"
+  title: Making Friends by Ghosting Strangers
   accessed: '2026-09-06'
   note: Origin story of Blushy — fully analog design (no microcontroller, low pin-count capacitive touch IC, transistors), and manufacturing history (an earlier batch of ~150 boards); does not mention the DC33 Redux revision specifically.
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-06'
-  notes: >
-    Maker's own site (ghostglitch.net) confirms Blushy is a fully analog SAO (no
-    microcontroller) with capacitive-touch "boop" interaction and an eSAO 3-pin
-    accessory header for "hats," matching the sheet's description of this DC33
-    entry as an updated ("Redux") version with always-on LEDs. However, the
-    site's current Blushy/hats pages describe the SAO generally and do not call
-    out a distinct "Redux" revision by name, so revision-specific details
-    (exact LED behavior change, quantity made for DC33, SAO header version,
-    open-source status of hardware/firmware files) could not be confirmed and
-    are left empty rather than guessed. LED count (6) and colors (white PCB,
-    pink under lighting) are read directly from the maker's own product photo.
+  notes: |
+    Maker's own site (ghostglitch.net) confirms Blushy is a fully analog SAO (no microcontroller) with capacitive-touch "boop" interaction and an eSAO 3-pin accessory header for "hats," matching the sheet's description of this DC33 entry as an updated ("Redux") version with always-on LEDs. However, the site's current Blushy/hats pages describe the SAO generally and do not call out a distinct "Redux" revision by name, so revision-specific details (exact LED behavior change, quantity made for DC33, SAO header version, open-source status of hardware/firmware files) could not be confirmed and are left empty rather than guessed. LED count (6) and colors (white PCB, pink under lighting) are read directly from the maker's own product photo.
 last_modified_date: '2026-09-06'
 ---
 

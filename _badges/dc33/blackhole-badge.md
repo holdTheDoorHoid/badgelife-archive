@@ -12,7 +12,7 @@ makers:
 - name: Kaizen Labs
   url: https://kaizenlabs.uk/
 summary: A DEF CON 33 "proof of concept" badge built around an ESP32 with a pair of nRF24 modules, sold as a short-range (about 6 inch) 2.4GHz jammer/spectrum-testing platform for Bluetooth, Wi-Fi, BLE and similar devices.
-functions: 'Runs third-party ESP32/nRF24 jamming firmware (not preloaded) to disrupt or test 2.4GHz devices (Bluetooth, Wi-Fi, BLE, RC, IoT) at close range; an optional add-on OLED screen shows status.'
+functions: Runs third-party ESP32/nRF24 jamming firmware (not preloaded) to disrupt or test 2.4GHz devices (Bluetooth, Wi-Fi, BLE, RC, IoT) at close range; an optional add-on OLED screen shows status.
 look:
   colors: []
   shape: null
@@ -23,7 +23,7 @@ look:
 tech:
   mcu: ESP32
   leds: null
-  display: 'optional add-on OLED (sold separately)'
+  display: optional add-on OLED (sold separately)
   connectivity:
   - wifi
   - ble
@@ -43,39 +43,46 @@ make_your_own:
   hardware_url: null
   firmware_url: null
   eda_tool: null
-  notes: "Ships with no firmware installed (\"for regulatory reasons\"). The product page lists four third-party open-source firmware projects buyers can flash themselves: nrfBlueNullifier (github.com/wirebits/nrfBlueNullifier), ESP32-BlueJammer (github.com/EmenstaNougat/ESP32-BlueJammer, the maker's recommended option), NRF24-BlueJammer (github.com/jbalagiya/NRF24-BlueJammer), and RF-Clown (github.com/cifertech/RF-Clown). These are independent community projects, not Kaizen Labs' own hardware/firmware release for this board."
+  notes: 'Ships with no firmware installed ("for regulatory reasons"). The product page lists four third-party open-source firmware projects buyers can flash themselves: nrfBlueNullifier (github.com/wirebits/nrfBlueNullifier), ESP32-BlueJammer (github.com/EmenstaNougat/ESP32-BlueJammer, the maker''s recommended option), NRF24-BlueJammer (github.com/jbalagiya/NRF24-BlueJammer), and RF-Clown (github.com/cifertech/RF-Clown). These are independent community projects, not Kaizen Labs'' own hardware/firmware release for this board.'
 links:
 - label: kaizenlabs.uk/product/defcon-blackhole-badge
   url: https://kaizenlabs.uk/product/defcon-blackhole-badge/
   kind: website
-- label: 'Wayback Machine capture, 2025-12-15 (site returns a database error as of 2026-09-06)'
+  archived: https://web.archive.org/web/20251215000314/https://kaizenlabs.uk/product/defcon-blackhole-badge/
+- label: Wayback Machine capture, 2025-12-15 (site returns a database error as of 2026-09-06)
   url: http://web.archive.org/web/20251215000314/https://kaizenlabs.uk/product/defcon-blackhole-badge/
   kind: website
-- label: 'ESP32-BlueJammer (recommended flashable firmware, third-party)'
+- label: ESP32-BlueJammer (recommended flashable firmware, third-party)
   url: https://github.com/EmenstaNougat/ESP32-BlueJammer
   kind: repo
-- label: 'nrfBlueNullifier (alternative firmware, third-party)'
+  archived: https://web.archive.org/web/20260831174517/https://github.com/EmenstaNougat/ESP32-BlueJammer
+- label: nrfBlueNullifier (alternative firmware, third-party)
   url: https://github.com/wirebits/nrfBlueNullifier
   kind: repo
-- label: 'NRF24-BlueJammer (alternative firmware, third-party)'
+  archived: https://web.archive.org/web/20251124165234/https://github.com/wirebits/nrfBlueNullifier
+- label: NRF24-BlueJammer (alternative firmware, third-party)
   url: https://github.com/jbalagiya/NRF24-BlueJammer
   kind: repo
-- label: 'RF-Clown (alternative firmware, third-party)'
+  archived: https://web.archive.org/web/20260304063553/https://github.com/jbalagiya/NRF24-BlueJammer
+- label: RF-Clown (alternative firmware, third-party)
   url: https://github.com/cifertech/RF-Clown
   kind: repo
+  archived: https://web.archive.org/web/20260826034733/https://github.com/cifertech/RF-Clown
 images:
 - file: assets/images/badges/dc33/blackhole-badge/78dcefe703.jpg
-  source: "https://kaizenlabs.uk/product/defcon-blackhole-badge/"
-  credit: "Kaizen Labs"
-  caption: "Blackhole Badge PCB, front view"
+  source: https://kaizenlabs.uk/product/defcon-blackhole-badge/
+  credit: Kaizen Labs
+  caption: Blackhole Badge PCB, front view
+  archived: https://web.archive.org/web/20251215000314/https://kaizenlabs.uk/product/defcon-blackhole-badge/
 - file: assets/images/badges/dc33/blackhole-badge/7b74d9da48.jpg
-  source: "https://kaizenlabs.uk/product/defcon-blackhole-badge/"
-  credit: "Kaizen Labs"
-  caption: "Blackhole Badge, back render showing components"
+  source: https://kaizenlabs.uk/product/defcon-blackhole-badge/
+  credit: Kaizen Labs
+  caption: Blackhole Badge, back render showing components
+  archived: https://web.archive.org/web/20251215000314/https://kaizenlabs.uk/product/defcon-blackhole-badge/
 contact: {}
 notes:
 - Assembled Badge $175, Badge Kit $100, Board Only $50
-- 'Maker markets it as "Signal Terminator" / "weaponized ESP32 platform" and warns RF jamming is legally gray depending on jurisdiction; range is hardware-limited to roughly 6 inches for compliance.'
+- Maker markets it as "Signal Terminator" / "weaponized ESP32 platform" and warns RF jamming is legally gray depending on jurisdiction; range is hardware-limited to roughly 6 inches for compliance.
 status: listed
 sources:
 - kind: sheet
@@ -84,14 +91,14 @@ sources:
   updated: 7/28/2025
 - kind: url
   url: http://web.archive.org/web/20251215000314/https://kaizenlabs.uk/product/defcon-blackhole-badge/
-  title: 'Blackhole Badge - Kaizen Labs (Wayback Machine capture)'
+  title: Blackhole Badge - Kaizen Labs (Wayback Machine capture)
   accessed: '2026-09-06'
-  note: 'Primary source for description, specs, price tiers, firmware links, and images. Live site (kaizenlabs.uk and kaizentechlabs.us) returned server/database errors on 2026-09-06, so the December 2025 archive snapshot was used; product images at kaizentechlabs.us/wp-content/uploads/ were still reachable directly.'
+  note: Primary source for description, specs, price tiers, firmware links, and images. Live site (kaizenlabs.uk and kaizentechlabs.us) returned server/database errors on 2026-09-06, so the December 2025 archive snapshot was used; product images at kaizentechlabs.us/wp-content/uploads/ were still reachable directly.
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-06'
-  notes: 'Live product page is currently broken (database error on kaizenlabs.uk, 403 on kaizentechlabs.us); all detail comes from a Wayback Machine capture dated 2025-12-15, so current stock/availability could not be confirmed firsthand. No Hackaday.io project, GitHub repo, or press coverage specific to this badge was found — the four GitHub links on the product page are third-party firmware projects the buyer is pointed to, not a release by Kaizen Labs itself, so make_your_own.open_source is left null. LED count/type and exact quantity made are not stated anywhere found.'
+  notes: Live product page is currently broken (database error on kaizenlabs.uk, 403 on kaizentechlabs.us); all detail comes from a Wayback Machine capture dated 2025-12-15, so current stock/availability could not be confirmed firsthand. No Hackaday.io project, GitHub repo, or press coverage specific to this badge was found — the four GitHub links on the product page are third-party firmware projects the buyer is pointed to, not a release by Kaizen Labs itself, so make_your_own.open_source is left null. LED count/type and exact quantity made are not stated anywhere found.
 last_modified_date: '2026-09-06'
 ---
 

@@ -39,7 +39,7 @@ get_one:
   - free_drop
   where: Given by tilde.industries as a thank-you gift to Badge.Team around MCH2022; not confirmed as generally sold.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/tildeindustries/MCH2022-Butterfly/tree/main/Hardware
   firmware_url: https://github.com/tildeindustries/MCH2022-Butterfly/tree/main/Arduino%20Sketches
   eda_tool: KiCad
@@ -47,18 +47,18 @@ links:
 - label: github.com/tildeindustries/MCH2022-Butterfly
   url: https://github.com/tildeindustries/MCH2022-Butterfly
   kind: repo
-- label: "MCH2022 Butterfly SAO – tilde.industries"
+- label: MCH2022 Butterfly SAO – tilde.industries
   url: https://tilde.industries/mch2022-butterfly/
   kind: website
 images:
 - file: assets/images/badges/mch-2022/mch2022-butterfly/1b1205a9d3.jpg
-  source: "https://tilde.industries/mch2022-butterfly/"
-  credit: "tilde.industries"
-  caption: "The MCH2022 Butterfly SAO, soldered"
+  source: https://tilde.industries/mch2022-butterfly/
+  credit: tilde.industries
+  caption: The MCH2022 Butterfly SAO, soldered
 - file: assets/images/badges/mch-2022/mch2022-butterfly/b93d407434.jpg
-  source: "https://tilde.industries/mch2022-butterfly/"
-  credit: "tilde.industries"
-  caption: "MCH2022 Butterfly SAO plugged into a badge"
+  source: https://tilde.industries/mch2022-butterfly/
+  credit: tilde.industries
+  caption: MCH2022 Butterfly SAO plugged into a badge
 contact: {}
 notes:
 - From the user's 'SAOs to buy' link list (2026-09-07).
@@ -73,18 +73,24 @@ sources:
   url: https://raw.githubusercontent.com/tildeindustries/MCH2022-Butterfly/main/Arduino%20Sketches/Demo_butterfly_animation/Demo_butterfly_animation.ino
   title: Demo_butterfly_animation.ino
   accessed: '2026-09-07'
-  note: "Firmware source confirms ATtiny85 MCU, Adafruit_NeoPixel driving 5 LEDs on pin A3, I2C EEPROM read for a butterfly ID."
+  note: Firmware source confirms ATtiny85 MCU, Adafruit_NeoPixel driving 5 LEDs on pin A3, I2C EEPROM read for a butterfly ID.
 - kind: url
   url: https://tilde.industries/mch2022-butterfly/
   title: MCH2022 Butterfly SAO
   accessed: '2026-09-07'
-  note: "Maker's own product page: soldering instructions (reverse-mount LEDs, no soldermask, watch EEPROM orientation), and MCH2022 badge app install steps via the 'Hatchery' app store; source of both saved photos."
+  note: 'Maker''s own product page: soldering instructions (reverse-mount LEDs, no soldermask, watch EEPROM orientation), and MCH2022 badge app install steps via the ''Hatchery'' app store; source of both saved photos.'
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-07'
-  notes: "Repo description (via GitHub org page) states it was made 'as thanks for Badge.Team~', so it may not have had a general public sale; price, quantity made, and current availability are not stated anywhere found. sao_version (4-pin vs 6-pin) is not specified in the repo or product page."
+  notes: Repo description (via GitHub org page) states it was made 'as thanks for Badge.Team~', so it may not have had a general public sale; price, quantity made, and current availability are not stated anywhere found. sao_version (4-pin vs 6-pin) is not specified in the repo or product page.
 last_modified_date: '2026-09-07'
+model:
+  file: assets/models/mch-2022/mch2022-butterfly.glb
+  method: kicad
+  source_file: Hardware/Butterfly_Badge_Addon.kicad_pcb
+  generated: '2026-09-07'
+  bytes: 76936
 ---
 
 The MCH2022 Butterfly is a butterfly-shaped SAO (shitty add-on) made by tilde.industries for May Contain Hackers 2022, the Dutch outdoor hacker camp. By the maker's own account it was created as a thank-you gift for Badge.Team, the group behind the MCH2022 badge platform, rather than as a general retail product.
