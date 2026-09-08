@@ -1,12 +1,12 @@
 ---
 title: Carolina Con Online Badge
-id: carolinacon-online-2021-carolina-con-online-badge
+id: carolinacon-2021-carolina-con-online-badge
 layout: badge
 parent: CarolinaCon Online
 grand_parent: Badge Archive
 nav_exclude: true
 type: badge
-event: carolinacon-online-2021
+event: carolinacon-2021
 year: 2021
 makers:
 - name: Matt Agius
@@ -57,11 +57,11 @@ links:
   kind: website
   archived: https://web.archive.org/web/20260904100156/http://carolinacon.org/
 images:
-- file: assets/images/badges/carolinacon-online-2021/carolina-con-online-badge/14f2f56216.jpg
+- file: assets/images/badges/carolinacon-2021/carolina-con-online-badge/14f2f56216.jpg
   source: "https://hackaday.io/project/178378-carolina-con-online-badge"
   credit: "Matt Agius"
   caption: "The Carolina Con Online 2021 badge, BBQ-themed PCB art with pig eyes and IR LED"
-- file: assets/images/badges/carolinacon-online-2021/carolina-con-online-badge/cbf917dca9.jpg
+- file: assets/images/badges/carolinacon-2021/carolina-con-online-badge/cbf917dca9.jpg
   source: "https://hackaday.io/project/178378-carolina-con-online-badge"
   credit: "Matt Agius"
   caption: "Carolina Con Online 2021 badge detail photo"
@@ -91,6 +91,8 @@ research:
   last_checked: '2026-09-07'
   notes: "Core facts (maker, event, MCU, LED/feature details, price) confirmed on the maker's own Hackaday.io project page. Could not access the eBay listing directly (403 Forbidden to automated fetch), so current availability/sold-out status is unknown and quantity made is not stated anywhere found. No hardware/firmware repo or design files were found on the project page."
 last_modified_date: '2026-09-07'
+redirect_from:
+- /badges/carolinacon-online-2021/carolina-con-online-badge/
 ---
 
 Matt Agius designed this North Carolina BBQ-themed badge as the official item for CarolinaCon Online 2021, the virtual edition of the volunteer-run North Carolina hacker con held April 23-25, 2021. The PCB art carries the con's logo along with a pig graphic; an ATTINY45 microcontroller drives five visible LEDs and one IR LED, with two of the LEDs positioned behind the pig's eyes so they light up as glowing red X's. A photoresistor on the board senses when the room goes dark and reveals a hidden message printed underneath the silkscreen.

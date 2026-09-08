@@ -1,12 +1,12 @@
 ---
 title: Carolina Con 16 Hardware Badge
-id: carolinacon-16-carolina-con-16-hardware-badge
+id: carolinacon-2020-carolina-con-16-hardware-badge
 layout: badge
 parent: CC16
 grand_parent: Badge Archive
 nav_exclude: true
 type: badge
-event: carolinacon-16
+event: carolinacon-2020
 year: 2020
 makers:
 - name: Matt Agius
@@ -52,11 +52,11 @@ links:
   kind: website
   archived: https://web.archive.org/web/20260904100156/http://carolinacon.org/
 images:
-  - file: assets/images/badges/carolinacon-16/carolina-con-16-hardware-badge/9382ead222.jpg
+  - file: assets/images/badges/carolinacon-2020/carolina-con-16-hardware-badge/9382ead222.jpg
     source: "https://hackaday.io/project/169988-carolina-con-16-hardware-badge"
     credit: "Matt Agius"
     caption: "The front of the CarolinaCon 16 badge, an octopus-shaped PCB outlining North Carolina (LEDs unlit in this photo)"
-  - file: assets/images/badges/carolinacon-16/carolina-con-16-hardware-badge/84847cdcea.jpg
+  - file: assets/images/badges/carolinacon-2020/carolina-con-16-hardware-badge/84847cdcea.jpg
     source: "https://hackaday.io/project/169988-carolina-con-16-hardware-badge"
     credit: "Matt Agius"
     caption: "The back of the badge, showing the CR2032 battery, power switch, and Matt Agius / Katie Dorn credits"
@@ -81,6 +81,8 @@ research:
   last_checked: '2026-09-07'
   notes: Hackaday.io project page (established Feb 17, 2020) confirms maker Matt Agius (verified against his hackaday.io/mtagius profile, which lists this project), event CarolinaCon 16, artwork by Katie Dorn (also visible in the maker's silkscreen credit on the back of the badge), glowing red LED eyes, and only six solder points aimed at teaching beginners SMD soldering. The page itself states the project was "not finished" at time of posting and gives no price, quantity, MCU/LED part numbers, or design-file links, so tech, get_one, and make_your_own fields are left empty rather than guessed. Fact-check pass (2026-09-07) corrected the two image captions - the saved photos show the badge unpowered, so they do not actually depict glowing/red eyes or a countable six solder points, even though the project text describes both; captions were reworded to describe only what the photos show. The gallery page text itself only says "PCB art and glowing eyes," without confirming color, so that page supports the images but not the red-eye detail (the red-eye detail rests on the main project page's text alone). No independent press coverage or maker storefront was found; a web search budget limit was hit before broader searches (e.g. for a CarolinaCon 16 recap post or forum thread) could be run, so this entry may be revisitable later for more detail.
 last_modified_date: '2026-09-07'
+redirect_from:
+- /badges/carolinacon-16/carolina-con-16-hardware-badge/
 ---
 
 The CarolinaCon 16 hardware badge is a PCB-art badge made for CarolinaCon, a volunteer-run hacker conference based in North Carolina, held in 2020. Matt Agius designed and produced the badge, translating artwork by Katie Dorn into a PCB layout with glowing red LED eyes.

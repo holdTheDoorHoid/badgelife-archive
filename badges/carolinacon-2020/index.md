@@ -6,12 +6,12 @@ has_children: true
 has_toc: false
 nav_order: 7980
 nav_exclude: false
-event: carolinacon-16
+event: carolinacon-2020
 ---
 # CarolinaCon 16
 
 Charlotte, NC
 
 <!-- archive:entries:start -->
-{% include event_entries.html event="carolinacon-16" %}
+{% include event_entries.html event="carolinacon-2020" %}
 <!-- archive:entries:end -->
