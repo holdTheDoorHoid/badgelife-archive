@@ -39,7 +39,7 @@ get_one:
   distribution: []
   where: ''
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://git.trueserve.org/trueControl/sc8-nametag
   firmware_url: https://git.trueserve.org/trueControl/sc8-nametag
   eda_tool: null
@@ -61,13 +61,13 @@ links:
   kind: hackaday
 images:
 - file: assets/images/badges/dc33/nametag-sc8-always-upright-nametag/b3ce3434a9.jpg
-  source: "https://hackaday.io/project/198536-gat-nametag-sc8"
-  credit: "trueControl (true)"
-  caption: "GAT Nametag SC8 main project image"
+  source: https://hackaday.io/project/198536-gat-nametag-sc8
+  credit: trueControl (true)
+  caption: GAT Nametag SC8 main project image
 - file: assets/images/badges/dc33/nametag-sc8-always-upright-nametag/5abe6ce4a3.jpg
-  source: "https://hackaday.io/project/198536-gat-nametag-sc8"
-  credit: "trueControl (true)"
-  caption: "GAT Nametag SC8 hardware detail photo"
+  source: https://hackaday.io/project/198536-gat-nametag-sc8
+  credit: trueControl (true)
+  caption: GAT Nametag SC8 hardware detail photo
 contact:
   emails:
   - true_dc33list@trueserve.org
@@ -80,48 +80,31 @@ sources:
   updated: 7/15/2025 22:14:54
 - kind: url
   url: https://hackaday.io/project/198536-gat-nametag-sc8
-  title: "GAT Nametag SC8 - Hackaday.io"
+  title: GAT Nametag SC8 - Hackaday.io
   accessed: '2026-09-06'
-  note: "Project description, maker (trueControl/true), MCU, LEDs, features, images."
+  note: Project description, maker (trueControl/true), MCU, LEDs, features, images.
 - kind: url
   url: https://basic.truecontrol.org/database/sc8/nametag/
-  title: "About true's Nametag SC8 - trueControl BASIC"
+  title: About true's Nametag SC8 - trueControl BASIC
   accessed: '2026-09-06'
-  note: "Full spec sheet (MCU, sub-MCU, LED driver, IrDA module), feature list, and confirmation the addon was made for Hackaday Supercon 8 (2024)."
+  note: Full spec sheet (MCU, sub-MCU, LED driver, IrDA module), feature list, and confirmation the addon was made for Hackaday Supercon 8 (2024).
 - kind: url
   url: https://basic.truecontrol.org
-  title: "trueControl BASIC (site index)"
+  title: trueControl BASIC (site index)
   accessed: '2026-09-06'
-  note: "Site navigation confirms the GAT Nametag SC8 is filed under 'Hackaday Supercon > Supercon 8 (2024)', not under any DC33 project listing; trueControl's separate DC33 project is 'Retro Tech DC33 Addon'."
+  note: Site navigation confirms the GAT Nametag SC8 is filed under 'Hackaday Supercon > Supercon 8 (2024)', not under any DC33 project listing; trueControl's separate DC33 project is 'Retro Tech DC33 Addon'.
 - kind: url
   url: https://git.trueserve.org/trueControl/sc8-nametag
-  title: "trueControl/sc8-nametag - trueserve Git"
+  title: trueControl/sc8-nametag - trueserve Git
   accessed: '2026-09-06'
-  note: "Confirms open hardware+firmware repo ('Firmware for true's GAT Nametag, released at Supercon 8'), includes a hardware/ folder (KiCad-style project files) and firmware, with a licenses.txt."
+  note: Confirms open hardware+firmware repo ('Firmware for true's GAT Nametag, released at Supercon 8'), includes a hardware/ folder (KiCad-style project files) and firmware, with a licenses.txt.
+  archived: https://web.archive.org/web/20260214165806/https://git.trueserve.org/trueControl/sc8-nametag
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-06'
-  notes: >-
-    Important discrepancy: this item was designed for and released at Hackaday
-    Supercon 8 (November 2024), not DEF CON 33. The maker's own site
-    (basic.truecontrol.org) files it exclusively under "Hackaday Supercon >
-    Supercon 8 (2024)"; their DC33 (2025) project listed separately on the same
-    site is an unrelated addon called "Retro Tech DC33 Addon." It appears on
-    the DC33 community badge sheet likely because the maker (or someone else)
-    wore/brought this SAO to DEF CON 33 as well, but no DC33-specific source
-    was found. Left event as dc33 per the archive's stub/file location since
-    moving entries between events is out of scope for this pass; flagging for a
-    maintainer to consider whether it should be re-homed under a "sc8" event
-    or cross-referenced. Price of $40 and battery type carried over from the
-    original sheet import were not independently confirmed by any source found
-    (no store/preorder page was located); price left as-is since it is
-    plausible but unverified, and could not find a definitive battery
-    chemistry/capacity (device appears USB-powered per the maker's usage
-    notes, so `battery` is left as "USB-powered" rather than invented).
-    Availability, quantity precision, and whether any units remain
-    unclaimed/for sale could not be determined - no storefront or auction
-    listing was found.
+  notes: 'Important discrepancy: this item was designed for and released at Hackaday Supercon 8 (November 2024), not DEF CON 33. The maker''s own site (basic.truecontrol.org) files it exclusively under "Hackaday Supercon > Supercon 8 (2024)"; their DC33 (2025) project listed separately on the same site is an unrelated addon called "Retro Tech DC33 Addon." It appears on the DC33 community badge sheet likely because the maker (or someone else) wore/brought this SAO to DEF CON 33 as well, but no DC33-specific source was found. Left event as dc33 per the archive''s stub/file location since moving entries between events is out of scope for this pass; flagging for a maintainer to consider whether it should be re-homed under a "sc8" event or cross-referenced. Price of $40 and battery type carried over from the original sheet import were not independently confirmed by any source found (no store/preorder page was located); price left as-is since it is plausible but unverified, and could not find
+    a definitive battery chemistry/capacity (device appears USB-powered per the maker''s usage notes, so `battery` is left as "USB-powered" rather than invented). Availability, quantity precision, and whether any units remain unclaimed/for sale could not be determined - no storefront or auction listing was found.'
 last_modified_date: '2026-09-06'
 ---
 
