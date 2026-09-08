@@ -62,6 +62,7 @@ links:
 - label: github.com/exploiteers/Meshtastic-Exploiteers-Hacker-Pager
   url: https://github.com/exploiteers/Meshtastic-Exploiteers-Hacker-Pager
   kind: repo
+  archived: https://web.archive.org/web/20260405111401/https://github.com/exploiteers/Meshtastic-Exploiteers-Hacker-Pager/
 - label: github.com/exploiteers/Electronics-Design-Exploiteers-Hacker-Pager
   url: https://github.com/exploiteers/Electronics-Design-Exploiteers-Hacker-Pager
   kind: repo
@@ -101,6 +102,7 @@ sources:
   title: exploiteers/Meshtastic-Exploiteers-Hacker-Pager
   accessed: '2026-09-07'
   note: Confirmed the firmware is an open-source fork of Meshtastic with hardware-specific modifications; repo includes a LICENSE file (specific license not read).
+  archived: https://web.archive.org/web/20260405111401/https://github.com/exploiteers/Meshtastic-Exploiteers-Hacker-Pager/
 research:
   status: verified
   confidence: high
