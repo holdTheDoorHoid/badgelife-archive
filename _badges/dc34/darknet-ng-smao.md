@@ -30,7 +30,7 @@ tech:
 get_one:
   price: $55
   price_usd: 55.0
-  quantity: '125 units (presale)'
+  quantity: 125 units (presale)
   availability: sold_out
   availability_note: 'Checked 2026-09-07: uberflux.com shows 125 sold, 0 remaining. Was a presale, pickup-only at DEF CON 34, no shipping.'
   distribution:
@@ -46,18 +46,21 @@ links:
 - label: uberflux.com/product/DNNG-SMAO
   url: https://uberflux.com/product/DNNG-SMAO
   kind: store
+  archived: https://web.archive.org/web/20260821062758/https://uberflux.com/product/DNNG-SMAO
 - label: discord.gg/BgQMDABx3v
   url: https://discord.gg/BgQMDABx3v
   kind: social
 images:
 - file: assets/images/badges/dc34/darknet-ng-smao/82e3354171.jpg
-  source: "https://uberflux.com/product/DNNG-SMAO"
-  credit: "Darknet-NG"
-  caption: "Darknet-NG SMAO product photo"
+  source: https://uberflux.com/product/DNNG-SMAO
+  credit: Darknet-NG
+  caption: Darknet-NG SMAO product photo
+  archived: https://web.archive.org/web/20260821062758/https://uberflux.com/product/DNNG-SMAO
 - file: assets/images/badges/dc34/darknet-ng-smao/8abd0657ea.jpg
-  source: "https://uberflux.com/product/DNNG-SMAO"
-  credit: "Darknet-NG"
-  caption: "Darknet-NG SMAO detail photo"
+  source: https://uberflux.com/product/DNNG-SMAO
+  credit: Darknet-NG
+  caption: Darknet-NG SMAO detail photo
+  archived: https://web.archive.org/web/20260821062758/https://uberflux.com/product/DNNG-SMAO
 contact:
   discord: Boko
   emails:
@@ -72,9 +75,10 @@ sources:
   listing: New
 - kind: url
   url: https://uberflux.com/product/DNNG-SMAO
-  title: "Darknet-NG SMAO – Uberflux"
+  title: Darknet-NG SMAO – Uberflux
   accessed: '2026-09-06'
-  note: "Source for maker name, specs (nRF52840/RAK4630 module, SX1262 LoRa radio, dual Johanson chip antennas), power/pairing behavior, price, presale quantity (125 units), pickup-only terms, and sold-out status (125 sold, 0 remaining when re-checked 2026-09-07). Both images are this page's product renders."
+  note: Source for maker name, specs (nRF52840/RAK4630 module, SX1262 LoRa radio, dual Johanson chip antennas), power/pairing behavior, price, presale quantity (125 units), pickup-only terms, and sold-out status (125 sold, 0 remaining when re-checked 2026-09-07). Both images are this page's product renders.
+  archived: https://web.archive.org/web/20260821062758/https://uberflux.com/product/DNNG-SMAO
 research:
   status: verified
   confidence: medium

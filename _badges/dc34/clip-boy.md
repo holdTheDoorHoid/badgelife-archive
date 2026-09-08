@@ -80,6 +80,7 @@ images:
   source: https://tropicsquirrel.github.io/shop/
   credit: Coruscant Productions, LLC
   caption: Clip-Boy Mk2 emerging from a vault door, hero shot
+  archived: https://web.archive.org/web/20260829171455/https://tropicsquirrel.github.io/shop/
 contact:
   discord: n/a
   emails:
