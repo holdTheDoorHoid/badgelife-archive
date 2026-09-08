@@ -60,7 +60,7 @@ sources:
   accessed: '2026-09-08'
   note: Syndicated copy of the same Engadget article; confirms the same quote about ch0l0man and the analog badge, no new detail.
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-08'
   notes: 'Confirmed via Engadget''s 2016 DEF CON badge roundup that Telephreak made an "analog badge" for DEF CON 24, one of whose designers goes by ch0l0man, and that the team started working on it during the drive home from DEF CON 23. Could not independently confirm the specific "motorcycle vest" form factor or the area-code detail in the current title/notes -- no fetched source describes the vest, only "analog badge." Searches for Telephreak''s own social accounts (Facebook, X/Twitter) turned up the group''s badge project generally but nothing specific to the 2016 item or a photo of it. Left type as "other" and all tech/look/get_one fields empty since no source states them; left event as dc24 (matches _data/events.yml, year 2016).'

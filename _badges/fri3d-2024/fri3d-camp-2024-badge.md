@@ -46,29 +46,36 @@ links:
 - label: fri3d.be/badge/2024
   url: https://fri3d.be/badge/2024/
   kind: website
+  archived: https://web.archive.org/web/20260622193604/https://fri3d.be/badge/2024/
 - label: Badge 2024 documentation
   url: https://fri3dcamp.github.io/badge_2024/
   kind: doc
+  archived: https://web.archive.org/web/20260310151333/https://fri3dcamp.github.io/badge_2024/
 - label: badge_2024_hw (hardware design files)
   url: https://github.com/Fri3dCamp/badge_2024_hw
   kind: repo
 - label: badge_2024_micropython (standard firmware)
   url: https://github.com/Fri3dCamp/badge_2024_micropython
   kind: repo
+  archived: https://web.archive.org/web/20260226020945/https://github.com/Fri3dCamp/badge_2024_micropython
 - label: badge_2024_arduino (Arduino firmware)
   url: https://github.com/Fri3dCamp/badge_2024_arduino
   kind: repo
+  archived: https://web.archive.org/web/20260203195932/https://github.com/Fri3dCamp/badge_2024_arduino
 - label: blaster_2024 (Big Flamingo Gun add-on)
   url: https://github.com/Fri3dCamp/blaster_2024
   kind: repo
+  archived: https://web.archive.org/web/20260224124952/https://github.com/Fri3dCamp/blaster_2024
 - label: communicator_2024 (Communicator add-on)
   url: https://github.com/Fri3dCamp/communicator_2024
   kind: repo
+  archived: https://web.archive.org/web/20260203223323/https://github.com/Fri3dCamp/communicator_2024
 images:
 - file: assets/images/badges/fri3d-2024/fri3d-camp-2024-badge/ecd4763899.jpg
   source: https://fri3d.be/badge/2024/
   credit: Fri3d Camp
   caption: Fri3d Camp 2024 badge with 2 inch IPS display
+  archived: https://web.archive.org/web/20260622193604/https://fri3d.be/badge/2024/
 contact: {}
 notes:
 - Screen-equipped programmable badge (MicroPython/Arduino); add-ons include Big Flamingo Gun blaster and Communicator module.
@@ -79,11 +86,13 @@ sources:
   title: Fri3d Camp 2024 Badge
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: eu-camps: European hacker camps/cons via badge.team (SHA2017, Hackerhotel, Disobey, CampZone, Fri3d Camp, MCH2022, WHY2025), EMF Camp TiLDA lineage, CCC card10, and BornHack); event read as ''Fri3d Camp 2024''.'
+  archived: https://web.archive.org/web/20260622193604/https://fri3d.be/badge/2024/
 - kind: url
   url: https://fri3dcamp.github.io/badge_2024/
   title: Fri3d Camp 2024 Badge documentation
   accessed: '2026-09-07'
   note: Confirmed doc hub lists Badge 2024, Flamingo blaster, Noisy Cricket, and Communicator boards; did not itself carry detailed specs.
+  archived: https://web.archive.org/web/20260310151333/https://fri3dcamp.github.io/badge_2024/
 - kind: url
   url: https://github.com/Fri3dCamp/badge_2024_hw
   title: Fri3dCamp/badge_2024_hw
@@ -94,6 +103,7 @@ sources:
   title: Fri3dCamp/badge_2024_micropython
   accessed: '2026-09-07'
   note: Standard firmware shipped on the badge, referenced from the badge page.
+  archived: https://web.archive.org/web/20260226020945/https://github.com/Fri3dCamp/badge_2024_micropython
 research:
   status: researched
   confidence: high

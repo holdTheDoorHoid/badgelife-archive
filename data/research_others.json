@@ -222,5 +222,201 @@
   "event": "Open Hardware Summit (MIT, Sept 27 2018) - not in events.yml",
   "type": "badge",
   "url": "https://hackaday.com/2018/08/29/all-the-badges-of-def-con-26-vol-3/"
+ },
+ {
+  "title": "LineCon (2017 edition)",
+  "maker": "Team MissingNo.",
+  "event": "dc25 (possible, unconfirmed)",
+  "type": "badge",
+  "url": "https://x.com/badgec0n"
+ },
+ {
+  "title": "GoodFear Blimp",
+  "maker": "Chris Gammell",
+  "event": "dc26",
+  "type": "badge",
+  "url": "https://hackaday.com/2018/08/21/all-the-badges-of-def-con-26-vol-2/"
+ },
+ {
+  "title": "SAO arms (human/robo1/robo2/tent1/tent2/bug1/bug2)",
+  "maker": "Joe Fitz (securelyfitz)",
+  "event": "dc26",
+  "type": "accessory",
+  "url": "https://github.com/securelyfitz/sao-arms"
+ },
+ {
+  "title": "SAO faces (terminator, badgewife, smiley)",
+  "maker": "Joe Fitz (securelyfitz)",
+  "event": "dc26",
+  "type": "sao",
+  "url": "https://github.com/securelyfitz/sao-faces"
+ },
+ {
+  "title": "SAO adapters: sao-iic, sao-stripper, sao-flipper, sao-rotate, sao-45",
+  "maker": "Joe Fitz (securelyfitz)",
+  "event": "dc26",
+  "type": "accessory",
+  "url": "https://github.com/securelyfitz/sao-iic"
+ },
+ {
+  "title": "DerbyCon 2016 Black Badge",
+  "maker": "Blenster (Ben Hibben)",
+  "event": "derbycon-2016 (no matching event id found in events.yml as checked)",
+  "type": "badge",
+  "url": "https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/ (same article, 'Megabling and Derbycon Black Badge' section, image: derbycon-black-badge.jpg)"
+ },
+ {
+  "title": "DC503 Badge (bicycle-shaped)",
+  "maker": "Joe Fitz / DC503",
+  "event": "dc23",
+  "url": "https://hackaday.com/2015/08/10/all-the-unofficial-electronic-badges-of-def-con/",
+  "type": "badge"
+ },
+ {
+  "title": "DC503 DEF CON 26 VIP Banglet",
+  "maker": "Nisha Kumar / DC503",
+  "event": "dc26",
+  "url": "https://badge.gallery/series/dc503",
+  "type": "badge"
+ },
+ {
+  "title": "5ohBEE (DC503 Party Pager)",
+  "maker": "PDX Badgers",
+  "event": "dc27",
+  "url": "https://badge.gallery/series/dc503",
+  "type": "badge"
+ },
+ {
+  "title": "Ohm the Tindie Dog solder-kit badge",
+  "maker": "Brian Benchoff (PCB design); handed out by Tindie's Jasmine Brackett and Shulie Tornel",
+  "event": "dc25",
+  "type": "badge",
+  "url": "https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/"
+ },
+ {
+  "title": "SecKC Badge (PCB devboard)",
+  "maker": "SecKC (Kansas City infosec meetup)",
+  "event": "dc25",
+  "type": "badge",
+  "url": "https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/"
+ },
+ {
+  "title": "SecKC Acrylic Badge",
+  "maker": "SecKC (Kansas City infosec group)",
+  "event": "dc25",
+  "type": "badge",
+  "url": "https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/"
+ },
+ {
+  "title": "CHV Badge 2016 (CHVBadge_16)",
+  "maker": "lanrat",
+  "event": "dc24",
+  "type": "badge",
+  "url": ""
+ },
+ {
+  "title": "2017 Car Hacking Village Badge",
+  "maker": "CanBusHack",
+  "event": "dc25",
+  "type": "badge",
+  "url": ""
+ },
+ {
+  "title": "DEF CON 23 Uber Badge (Lichtenberg figure / radioactive)",
+  "maker": "L0stBoy (Ryan \"1o57\" Clarke)",
+  "event": "dc23",
+  "type": "badge",
+  "url": "https://defcon.org/html/links/dc-badge.html"
+ },
+ {
+  "title": "Whiskey Pirates DC22 Badge",
+  "maker": "Whiskey Pirate Crew",
+  "event": "dc22",
+  "type": "badge",
+  "url": "already exists in archive as dc22-whiskey-pirates-dc22-badge, no action needed"
+ },
+ {
+  "title": "DEF CON 19 Badge",
+  "maker": "Ryan Clarke (1o57/LosT), with Jeff Moss",
+  "event": "dc19",
+  "type": "duplicate entry already in archive",
+  "url": "https://badge.gallery/badges/def-con-19-badge"
+ },
+ {
+  "title": "Ninja Networks 2011 Party Badge (unofficial)",
+  "maker": "Ninja Networks",
+  "event": "dc19",
+  "type": "already an existing entry, noted only for completeness",
+  "url": ""
+ },
+ {
+  "title": "GoatBar UPC-A/UPC-E Barcode Writer/Emulator",
+  "maker": "Brad Threatt",
+  "event": "dc18",
+  "type": "accessory",
+  "url": "https://ehq.com/GoatBar.zip"
+ },
+ {
+  "title": "DEFCON 18 Badge Image Editor for Python / Image Writer",
+  "maker": "pflarr / Brad Isbell",
+  "event": "dc18",
+  "type": "other",
+  "url": "https://www.musatcha.com/software/DC18BadgeImageWriter/"
+ },
+ {
+  "title": "Ninja Networks DEF CON 17 Party Badge",
+  "maker": "Ninja Networks",
+  "event": "dc17",
+  "type": "badge",
+  "url": "already has its own entry: dc17-ninja-networks-def-con-17-party-badge"
+ },
+ {
+  "title": "Ninja Networks DEF CON 17 Party Badge (Simon-Says segmented-LED badge, 2009)",
+  "maker": "Ninja Networks (Amanda Wozniak, Brandon Creighton)",
+  "event": "dc17",
+  "type": "badge",
+  "url": "https://makezine.com/article/technology/ninja-badges-at-defcon/"
+ },
+ {
+  "title": "DEF CON 20 Badge",
+  "maker": "Parallax (manufacturer); Ryan Clarke / LosT (designer)",
+  "event": "dc20",
+  "type": "badge",
+  "url": ""
+ },
+ {
+  "title": "Front Row Badge (DC16 Badge Hacking Contest entry)",
+  "maker": "BonzoESC, Sterling, Critta, Jymbolia",
+  "event": "dc16",
+  "type": "accessory/mod",
+  "url": "https://github.com/bkerley/dc16_badge/"
+ },
+ {
+  "title": "DEFCON 14 Homage Indie Badge",
+  "maker": "|)3vice Makers",
+  "event": "dc14",
+  "type": "badge",
+  "url": ""
+ },
+ {
+  "title": "Clip-Boy Mk2",
+  "maker": "Coruscant Productions, LLC (niko)",
+  "event": "dc34",
+  "type": "badge",
+  "url": "https://tropicsquirrel.github.io/shop/"
+ },
+ {
+  "title": "Middle finger SAO (bundled with a resold quadcopter badge kit)",
+  "maker": "unknown / possibly b1uN7 or Whiskey Pirate crew",
+  "event": "dc25",
+  "type": "sao",
+  "url": "https://www.ebay.com/itm/277473567569"
+ },
+ {
+  "title": "Schedule SAO",
+  "maker": "davedarko",
+  "event": "",
+  "type": "sao",
+  "url": ""
  }
 ]

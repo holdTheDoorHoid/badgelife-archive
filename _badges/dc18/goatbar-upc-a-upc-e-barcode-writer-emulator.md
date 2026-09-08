@@ -95,10 +95,10 @@ sources:
   accessed: '2026-09-08'
   note: 'Video transcript of the maker demoing the barcode writer on camera, confirming it is a real, working entry.'
 research:
-  status: researched
+  status: verified
   confidence: medium
   last_checked: '2026-09-08'
-  notes: 'Confirmed as the real 1st-place DC18 Badge Hacking Contest entry via multiple independent sources (DEF CON, Nuts & Volts, DEF CON forums, media.defcon.org). It is a firmware modification of the official DEF CON 18 badge (Freescale MC56F8006, 128x32 LCD), not a standalone PCB/kit, so hardware fields (leds, connectivity, battery, form factor) reflect the host badge or are left empty since GoatBar itself adds no new hardware. No photo of the badge running GoatBar was found (the only visual record located is a video, not a still image), so images could not be saved. Quantity made, price, and exact contest date/placement year beyond "2010/DC18" are not stated anywhere found.'
+  notes: 'Fact-check pass (2026-09-08): re-fetched all 6 cited sources directly. defcon.org contest-results page, the DEF CON forums thread (forum.defcon.org/node/12829, fetched via curl after a WebFetch 403), the Nuts & Volts PDF (text-extracted with pdftotext), and the media.defcon.org .eng.srt transcript all independently confirm: 1st place in the DC18 (2010) Badge Hacking Contest, maker Brad Threatt, and the UPC-A/UPC-E barcode entry/self-checkout-scanner description. Grand Idea Studio''s DC18 badge page confirms the host badge''s MCU (Freescale MC56F8006), display (Kent Displays 128x32 reflective ChLCD), and that 7,780 badges were made (a host-badge fact, correctly left out of get_one.quantity since it is not a GoatBar-specific figure). ehq.com/GoatBar.zip returns HTTP 200 (a real zip file), matching the firmware_url and repo link. No unsupported claims found; every non-empty field and body sentence traces to a source that was actually read. Hardware fields (leds, connectivity, battery, sao_version) remain empty/null because GoatBar is a firmware-only hack on the host badge and adds no hardware of its own. No photo of the badge running GoatBar was found (only a video record), so images remain unset. Quantity made, price, and exact contest date beyond "2010/DC18" remain unstated in any source found.'
 last_modified_date: '2026-09-08'
 ---
 

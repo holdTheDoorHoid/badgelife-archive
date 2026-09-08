@@ -14,7 +14,7 @@ makers:
 - name: Fri3d Camp
   url: https://github.com/Fri3dCamp
 summary: An air-quality expansion "jewel" for the Fri3d Camp 2018 Ph0xx badge, adding a particulate-matter sensor, an environmental sensor, and GPS so a badge could be turned into a portable air-quality monitor.
-functions: 'Measures fine dust/particulate matter and ambient pressure, humidity, temperature and gas via onboard sensors, with GPS for location-tagging readings; plugs into and is powered from the Ph0xx badge.'
+functions: Measures fine dust/particulate matter and ambient pressure, humidity, temperature and gas via onboard sensors, with GPS for location-tagging readings; plugs into and is powered from the Ph0xx badge.
 look:
   colors: []
   shape: null
@@ -36,7 +36,7 @@ get_one:
   availability: unknown
   distribution:
   - kit
-  where: 'Built by attendees in a Fri3d Camp 2018 workshop as an add-on to the Ph0xx badge; not sold separately as far as sources show.'
+  where: Built by attendees in a Fri3d Camp 2018 workshop as an add-on to the Ph0xx badge; not sold separately as far as sources show.
 make_your_own:
   open_source: null
   hardware_url: null
@@ -49,6 +49,7 @@ links:
 - label: hackaday.io/project/160534-ph0xx-air-jewel
   url: https://hackaday.io/project/160534-ph0xx-air-jewel
   kind: hackaday
+  archived: https://web.archive.org/web/20260122045256/https://hackaday.io/project/160534-ph0xx-air-jewel
 - label: web.archive.org/web/2019/wiki2018.fri3d.be/index.php?title=Badge
   url: https://web.archive.org/web/2019/http://wiki2018.fri3d.be/index.php?title=Badge
   kind: website
@@ -57,9 +58,10 @@ links:
   kind: website
 images:
 - file: assets/images/badges/fri3d-2018/fri3d-2018-ph0xx-air-jewel/178257e7f7.jpg
-  source: "https://hackaday.io/project/160534-ph0xx-air-jewel"
-  credit: "Wim Van Gool / Fri3d Camp"
-  caption: "The Ph0xx Air Jewel expansion board"
+  source: https://hackaday.io/project/160534-ph0xx-air-jewel
+  credit: Wim Van Gool / Fri3d Camp
+  caption: The Ph0xx Air Jewel expansion board
+  archived: https://web.archive.org/web/20260122045256/https://hackaday.io/project/160534-ph0xx-air-jewel
 contact: {}
 notes: []
 status: released
@@ -74,19 +76,13 @@ sources:
   title: Ph0xx Air Jewel project page (Hackaday.io)
   accessed: '2026-09-07'
   note: 'Main source: maker (Wim Van Gool), sensors (SDS011 particulate sensor, BME680/BMP680 environmental sensor, SX1308 step-up converter), GPS capability, and the weather-balloon flight where the dust sensor failed below -61C. Also source of the project photo used here.'
+  archived: https://web.archive.org/web/20260122045256/https://hackaday.io/project/160534-ph0xx-air-jewel
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: >
-    Could not reach www.dustcube.be (DNS failure) or the archived wiki2018.fri3d.be page
-    (fetch tool blocked web.archive.org) to cross-check the Dutch-language coverage, so
-    price, quantity built, and exact distribution method remain unconfirmed. The
-    Fri3dCamp/Fri3dBadge and Fri3dCamp/badge GitHub repos do not appear to contain
-    Air Jewel-specific hardware/firmware files (search of repo contents found no
-    "jewel"/"dust"/"GPS"-named files), so make_your_own fields are left empty rather
-    than guessed. Hackaday.io project is the primary source; it doesn't state MCU,
-    LED, price or quantity, so those stay null/empty.
+  notes: |
+    Could not reach www.dustcube.be (DNS failure) or the archived wiki2018.fri3d.be page (fetch tool blocked web.archive.org) to cross-check the Dutch-language coverage, so price, quantity built, and exact distribution method remain unconfirmed. The Fri3dCamp/Fri3dBadge and Fri3dCamp/badge GitHub repos do not appear to contain Air Jewel-specific hardware/firmware files (search of repo contents found no "jewel"/"dust"/"GPS"-named files), so make_your_own fields are left empty rather than guessed. Hackaday.io project is the primary source; it doesn't state MCU, LED, price or quantity, so those stay null/empty.
 last_modified_date: '2026-09-07'
 ---
 

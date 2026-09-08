@@ -60,15 +60,19 @@ links:
 - label: hackerwarehouse.com/product/tipsy-badge
   url: https://hackerwarehouse.com/product/tipsy-badge/
   kind: store
+  archived: https://web.archive.org/web/20260804172132/https://hackerwarehouse.com/product/tipsy-badge/
 - label: github.com/seeess/Defcon-Tipsy-33-Badge
   url: https://github.com/seeess/Defcon-Tipsy-33-Badge
   kind: repo
+  archived: https://web.archive.org/web/20251118070519/https://github.com/seeess/Defcon-Tipsy-33-Badge
 - label: www.youtube.com/watch?v=PIN-Ia04JUs
   url: https://www.youtube.com/watch?v=PIN-Ia04JUs
   kind: video
+  archived: https://web.archive.org/web/20250920211316/https://www.youtube.com/watch?v=PIN-Ia04JUs
 - label: Tipsy Electronic Badge thread on the DEF CON forums
   url: https://forum.defcon.org/node/253193
   kind: social
+  archived: https://web.archive.org/web/20251123193801/https://forum.defcon.org/node/253193
 images: []
 contact:
   discord: seeess
@@ -92,11 +96,13 @@ sources:
   title: Tipsy Badge - Hacker Warehouse
   accessed: '2026-09-06'
   note: 'Product listing: RP2040-based, color TFT, 1x SAO 1.69bis port, 2MB flash with USB mass storage, open source; $100 marked down to $75, Out of stock; product photos dated wp-content/uploads/2025/09. Read via WebFetch (direct curl was blocked by Cloudflare).'
+  archived: https://web.archive.org/web/20260804172132/https://hackerwarehouse.com/product/tipsy-badge/
 - kind: url
   url: https://github.com/seeess/Defcon-Tipsy-33-Badge
   title: 'GitHub - seeess/Defcon-Tipsy-33-Badge: Defcon Tipsy Badge / Volt 4.5 ma'
   accessed: '2026-09-06'
   note: Repo name and README describe this as the DEF CON 33 badge; supports MCU, display, memory, connectivity, modes, and license (CC BY-NC 4.0). Same repo already cited on the dc33-tipsy-badge entry.
+  archived: https://web.archive.org/web/20251118070519/https://github.com/seeess/Defcon-Tipsy-33-Badge
 - kind: url
   url: https://x.com/see_ess/status/1953718808105169371
   title: seeess on X, 8 Aug 2025, tagged
@@ -107,6 +113,7 @@ sources:
   title: Tipsy Electronic Badge - DEF CON Forums
   accessed: '2026-09-06'
   note: Maker's post (user seeess), same content already used for the dc33 entry; $100 price, Hacker Warehouse booth, open source, half of profits to Tor.
+  archived: https://web.archive.org/web/20251123193801/https://forum.defcon.org/node/253193
 research:
   status: researched
   confidence: low

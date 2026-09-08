@@ -43,9 +43,11 @@ links:
 - label: hackaday.io/project/167668-time-blaster
   url: https://hackaday.io/project/167668-time-blaster
   kind: hackaday
+  archived: https://web.archive.org/web/20251208051150/https://hackaday.io/project/167668-time-blaster
 - label: github.com/Fri3dCamp/timeblaster-2020
   url: https://github.com/Fri3dCamp/timeblaster-2020
   kind: repo
+  archived: https://web.archive.org/web/20250917100443/https://github.com/Fri3dCamp/timeblaster-2020
 - label: github.com/area3001/Timeblaster
   url: https://github.com/area3001/Timeblaster
   kind: repo
@@ -54,10 +56,12 @@ images:
   source: https://github.com/Fri3dCamp/timeblaster-2020
   credit: Fri3d Camp
   caption: Assembled Time Blaster kit
+  archived: https://web.archive.org/web/20250917100443/https://github.com/Fri3dCamp/timeblaster-2020
 - file: assets/images/badges/fri3d-2022/time-blaster/48191e870c.jpg
   source: https://github.com/Fri3dCamp/timeblaster-2020
   credit: Fri3d Camp
   caption: Time Blaster PCB, full assembly
+  archived: https://web.archive.org/web/20250917100443/https://github.com/Fri3dCamp/timeblaster-2020
 contact: {}
 notes: []
 status: released
@@ -67,16 +71,19 @@ sources:
   title: Time Blaster
   accessed: '2026-09-06'
   note: Found via the project's link list; intake pass identified this item here.
+  archived: https://web.archive.org/web/20251208051150/https://hackaday.io/project/167668-time-blaster
 - kind: url
   url: https://hackaday.io/project/167668-time-blaster
   title: Time Blaster - Hackaday.io
   accessed: '2026-09-07'
   note: Confirmed maker names, event, IR/RGB/buzzer/USB features, ATmega328 chip, OSHWA cert BE000005, and that units were available at Fri3d Camp shop.
+  archived: https://web.archive.org/web/20251208051150/https://hackaday.io/project/167668-time-blaster
 - kind: url
   url: https://github.com/Fri3dCamp/timeblaster-2020
   title: 'Fri3dCamp/timeblaster-2020: Hardware for the time blaster'
   accessed: '2026-09-07'
   note: Confirmed the kit was designed for Fri3d Camp 2020 (not 2022), GPL-3.0 hardware license, multiple PCB revisions, and grip/LED-protector design files; source of the two saved images.
+  archived: https://web.archive.org/web/20250917100443/https://github.com/Fri3dCamp/timeblaster-2020
 - kind: url
   url: https://github.com/area3001/Timeblaster
   title: area3001/Timeblaster

@@ -67,10 +67,10 @@ sources:
   accessed: '2026-09-08'
   note: 'Confirmed item description, price ($20), sold-out status, maker''s own name for the item ("fuck" Note SAO), and image URL (images/fucknote.jpg).'
 research:
-  status: researched
+  status: verified
   confidence: medium
   last_checked: '2026-09-08'
-  notes: 'Confirmed via the maker''s own site: description, price, and sold-out status all check out. No chip/LED/display specs were disclosed anywhere on the site, and no design files were found, so tech.* and make_your_own.* stay empty. Quantity made is not stated.'
+  notes: 'Fact-check pass 2026-09-08: re-fetched bigfuckingbadge.com directly (raw HTML, not just a summarizer) and confirmed every non-empty field and body sentence — item name (`"fuck" Note SAO`), $20 price, dual SAO/standalone-lapel-badge function with magnetic clip and selectable mood, sold-out status (page literally reads "SOLD THE FUCK OUT!"), presale email, BadgeLife Village drop, the 5-item DEF CON 34 lineup and OffensiveSAO series framing, and the dc32-fuck-note-offensive-sao cross-reference (that entry exists and is a separate item). Saved image visually matches the maker''s own photo of this exact item. No chip/LED/display specs or design files are published anywhere on the site, so tech.* and make_your_own.* correctly stay empty. Both `sources` entries point to the same single page (no independent second source exists), which is why confidence stays medium despite everything checking out.'
 last_modified_date: '2026-09-08'
 ---
 

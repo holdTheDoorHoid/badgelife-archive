@@ -53,6 +53,7 @@ links:
 - label: hackaday.io/project/169741-fri3d-2022-badge
   url: https://hackaday.io/project/169741-fri3d-2022-badge
   kind: hackaday
+  archived: https://web.archive.org/web/20251005200153/https://hackaday.io/project/169741-fri3d-2022-badge
 - label: www.espressif.com/en/news/Fri3d_Camp_badge
   url: https://www.espressif.com/en/news/Fri3d_Camp_badge
   kind: website
@@ -64,6 +65,7 @@ images:
   source: https://hackaday.io/project/169741-fri3d-2022-badge
   credit: Fri3d Camp
   caption: The production octopus-shaped Fri3d Camp badge, front side, with its 1.54" IPS LCD and micro:bit-style edge connector
+  archived: https://web.archive.org/web/20251005200153/https://hackaday.io/project/169741-fri3d-2022-badge
 contact: {}
 notes: []
 status: released
@@ -83,6 +85,7 @@ sources:
   title: Fri3d 2022 badge project on Hackaday.io
   accessed: '2026-09-07'
   note: Confirmed ESP32-WROVER (4MB PSRAM/16MB flash), 240x240 ST7789 IPS LCD, LIS2DH12 accelerometer, IR receiver, CP2102N USB-UART bridge, MicroPython+Arduino firmware, and "mass production of 750+ PCBs"; credits Wim Van Gool, Hans Polders, Bart Cerneels and others as the design team. Also the source of the badge photo used here.
+  archived: https://web.archive.org/web/20251005200153/https://hackaday.io/project/169741-fri3d-2022-badge
 - kind: url
   url: https://www.espressif.com/en/news/Fri3d_Camp_badge
   title: 'Espressif news: Fri3d Camp badge'

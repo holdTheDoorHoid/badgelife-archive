@@ -61,17 +61,17 @@ sources:
   url: https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/
   title: All The Hardware Badges Of DEF CON 25
   accessed: '2026-09-08'
-  note: 'Confirms the acrylic badge as a distinct "punt" item: "The SecKC folks built a badge ... but couldn''t produce enough in time so they showed up with edge-lit acrylic badges." Also describes the main PCB badge (SparkFun ESP32/nRF devboard, OLED, 50-60 built) which belongs to the separate dc25-seckc-badge entry, not this one.'
+  note: 'Confirms the acrylic badge as a distinct "punt" item: "There was demand for more but they couldn''t get the boards fast enough so they made the acrylic badges." Also describes the main PCB badge ("based it around an NRF module from Sparkfun," preorder of 50, 60 built) which belongs to the separate dc25-seckc-badge entry, not this one; no OLED or ESP32 is mentioned in the article.'
 - kind: url
   url: https://github.com/SecKC/Badge-DC25
   title: 'SecKC/Badge-DC25: The SecKC Unofficial DEF CON 25 Badge (archived repo)'
   accessed: '2026-09-08'
   note: 'This is SecKC''s repo for the main PCB devboard badge (BadgeCode/Files/Images folders; points to badgepirates.com), not the acrylic fallback badge. No separate repo or design files were found for the acrylic version.'
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-08'
-  notes: 'No photo specific to the acrylic badge itself was located (the images available from Hackaday and the SecKC GitHub repo show the PCB devboard badge instead, so none were saved here to avoid mislabeling). No price, exact quantity, or maker photo of the acrylic version was found. Left tech/look fields minimal since the acrylic badge appears to have been a passive laser-cut/edge-lit piece with no confirmed electronics, distinct from the group''s main NRF/ESP32 devboard badge.'
+  notes: 'Fact-checked 2026-09-08: re-fetched the Hackaday article and the SecKC/Badge-DC25 GitHub repo. The article confirms the acrylic badge as a fallback ("couldn''t get the boards fast enough so they made the acrylic badges") and describes the PCB badge as built around "an NRF module from Sparkfun" with a preorder of 50 and 60 built -- corrected the sources note, which had drifted to claiming an "ESP32" and an OLED display for that PCB badge, neither of which the article mentions. No photo specific to the acrylic badge itself was located (the images available from Hackaday and the SecKC GitHub repo show the PCB devboard badge instead, so none were saved here to avoid mislabeling). No price, exact quantity, or maker photo of the acrylic version was found. Left tech/look fields minimal since the acrylic badge appears to have been a passive laser-cut/edge-lit piece with no confirmed electronics, distinct from the group''s main NRF devboard badge.'
 last_modified_date: '2026-09-08'
 ---
 

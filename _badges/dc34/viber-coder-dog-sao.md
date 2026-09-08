@@ -48,18 +48,22 @@ links:
 - label: uberflux.com/product/CGORY-VIBECODERDOG
   url: https://uberflux.com/product/CGORY-VIBECODERDOG
   kind: store
+  archived: https://web.archive.org/web/20260727052606/https://uberflux.com/product/CGORY-VIBECODERDOG
 - label: Vibe Coder SAO on Tindie
   url: https://www.tindie.com/products/coryallegory/vibe-coder-sao-badgelife-addon/
   kind: store
+  archived: https://web.archive.org/web/20260503100758/https://www.tindie.com/products/coryallegory/vibe-coder-sao-badgelife-addon/
 images:
 - file: assets/images/badges/dc34/viber-coder-dog-sao/45dea67178.jpg
   source: https://uberflux.com/product/CGORY-VIBECODERDOG
   credit: coryallegory
   caption: Vibe Coder Dog SAO, assembled with keyboard LEDs
+  archived: https://web.archive.org/web/20260727052606/https://uberflux.com/product/CGORY-VIBECODERDOG
 - file: assets/images/badges/dc34/viber-coder-dog-sao/0b624c8eb5.jpg
   source: https://www.tindie.com/products/coryallegory/vibe-coder-sao-badgelife-addon/
   credit: coryallegory
   caption: Vibe Coder SAO Tindie listing photo
+  archived: https://web.archive.org/web/20260503100758/https://www.tindie.com/products/coryallegory/vibe-coder-sao-badgelife-addon/
 contact:
   discord: coryallegory
   emails:
@@ -83,11 +87,13 @@ sources:
   title: Vibe Coder Dog SAO — Uberflux
   accessed: '2026-09-06'
   note: Product description, price, LED behavior, stock status (0 in stock, 5 sold), maker's own framing that it was originally made for DEFCON 33.
+  archived: https://web.archive.org/web/20260727052606/https://uberflux.com/product/CGORY-VIBECODERDOG
 - kind: url
   url: https://www.tindie.com/products/coryallegory/vibe-coder-sao-badgelife-addon/
   title: Vibe Coder SAO
   accessed: '2026-09-06'
   note: Confirms maker location (Winnipeg, Canada), 4-LED count, $15 price, sold out since 2025-09-13, and DEF CON 34 preorder note.
+  archived: https://web.archive.org/web/20260503100758/https://www.tindie.com/products/coryallegory/vibe-coder-sao-badgelife-addon/
 research:
   status: researched
   confidence: medium

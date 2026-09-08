@@ -58,10 +58,10 @@ sources:
   accessed: '2026-09-08'
   note: 'Confirms the badge exists and is the only source found; supplied all tech/function details (Propeller chip, ESP8266, LoRa module, dual screens, momentary + DIP switches, firmware written on the plane before the con).'
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-08'
-  notes: Only one source found (the Hackaday DC25 badge roundup); no maker page, storefront, repo, or additional photo could be located despite two searches. Price, quantity, availability, LED info, and design files are not stated anywhere and are left empty. No image of the badge itself accompanies the article's text (the LoRa badge paragraph has no attached gallery), so no photo was saved.
+  notes: Only one source exists (the Hackaday DC25 badge roundup); fact-check confirmed every non-empty field and body sentence against the article's text directly, and a further search turned up no maker page, storefront, repo, or additional photo. Price, quantity, availability, LED info, and design files are not stated anywhere and are correctly left empty. No image of the badge itself accompanies the article's text (the LoRa badge paragraph has no attached gallery), so no photo was saved. Confidence stays low because only one, third-party source exists.
 last_modified_date: '2026-09-08'
 ---
 

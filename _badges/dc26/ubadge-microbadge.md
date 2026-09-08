@@ -35,13 +35,13 @@ tech:
 get_one:
   price: ''
   price_usd: null
-  quantity: '1100 (11 panels of a 10x10 panelized grid)'
+  quantity: 1100 (11 panels of a 10x10 panelized grid)
   availability: unknown
   distribution:
   - free_drop
   where: Given out by Joe Fitz (securelyfitz) at DEF CON 26, 2018.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/securelyfitz/microbadge
   firmware_url: null
   gerbers_url: https://github.com/securelyfitz/microbadge/tree/master/hardware/gerbers
@@ -51,24 +51,34 @@ links:
 - label: github.com/securelyfitz/microbadge
   url: https://github.com/securelyfitz/microbadge
   kind: repo
-- label: "Hackaday: All The Badges Of DEF CON 26, Vol 1 (uBadge section)"
+- label: 'Hackaday: All The Badges Of DEF CON 26, Vol 1 (uBadge section)'
   url: https://hackaday.com/2018/08/14/all-the-badges-of-def-con-26-vol-1/
   kind: article
 images:
 - file: assets/images/badges/dc26/ubadge-microbadge/6faa6f202a.jpg
-  source: "https://hackaday.com/2018/08/14/all-the-badges-of-def-con-26-vol-1/"
-  credit: "Hackaday"
-  caption: "The microbadge shown for scale, roughly 1cm square"
+  source: https://hackaday.com/2018/08/14/all-the-badges-of-def-con-26-vol-1/
+  credit: Hackaday
+  caption: The microbadge shown for scale, roughly 1cm square
 - file: assets/images/badges/dc26/ubadge-microbadge/ba665d009e.jpg
-  source: "https://hackaday.com/2018/08/14/all-the-badges-of-def-con-26-vol-1/"
-  credit: "Hackaday"
-  caption: "Microbadge fitted with a set of plug-together SAO 'arms'"
+  source: https://hackaday.com/2018/08/14/all-the-badges-of-def-con-26-vol-1/
+  credit: Hackaday
+  caption: Microbadge fitted with a set of plug-together SAO 'arms'
+- file: assets/images/badges/dc26/ubadge-microbadge/6faa6f202a.jpg
+  source: https://hackaday.com/2018/08/14/all-the-badges-of-def-con-26-vol-1/
+  credit: Hackaday
+  caption: The uBadge, a Digispark/ATtiny85-based add-on
+- file: assets/images/badges/dc26/ubadge-microbadge/a77589b691.jpg
+  source: https://hackaday.com/2018/08/14/all-the-badges-of-def-con-26-vol-1/
+  credit: Hackaday
+  caption: Multiple uBadges linked via extended add-on header arms
 contact: {}
 notes:
-- 'Sweep imported this as "uBadge (microbadge)"; the maker''s own README titles the repo just "microbadge" ("functional badge in 1 square centimeter"), and Hackaday''s coverage calls it "uBadge." Kept both names in the title since sources use them interchangeably.'
-- 'Likely the same physical item as dc26-ubadge-badge ("uBadge (μBadge)"), a separate stub entry from the same maker/event pulled from the same Hackaday article — see duplicate_of in the research report.'
+- Sweep imported this as "uBadge (microbadge)"; the maker's own README titles the repo just "microbadge" ("functional badge in 1 square centimeter"), and Hackaday's coverage calls it "uBadge." Kept both names in the title since sources use them interchangeably.
+- Likely the same physical item as dc26-ubadge-badge ("uBadge (μBadge)"), a separate stub entry from the same maker/event pulled from the same Hackaday article — see duplicate_of in the research report.
 - No price is stated anywhere found; it was handed out for free at the con rather than sold.
 - No explicit software/hardware license found in the repo (no LICENSE file), though the design files (Eagle schematic/board/gerbers) are published in the open GitHub repo.
+- Minimalist DC26 badge built on a Digispark/ATtiny85 board with a custom SAO add-on header. Found by the event-year sweep, task dc26-indie.
+- This appears to be the same project as the archive's dc26-ubadge-microbadge entry (same maker, same ATtiny85/Digispark description, same ~1100-unit DEF CON 26 build); see duplicate note in research.notes.
 status: released
 sources:
 - kind: url
@@ -78,20 +88,22 @@ sources:
   note: 'Found by the archive''s discovery sweep (angle: sweep:dc26-saos); event read as ''dc26''.'
 - kind: url
   url: https://github.com/securelyfitz/microbadge
-  title: "microbadge README"
+  title: microbadge README
   accessed: '2026-09-08'
   note: Maker's own description of design, chip, assembly (1100 units via 1BitSquared/Piotr), BOM cost, and add-on ecosystem.
 - kind: url
   url: https://hackaday.com/2018/08/14/all-the-badges-of-def-con-26-vol-1/
-  title: "All The Badges Of DEF CON 26, Vol 1 - uBadge section"
+  title: All The Badges Of DEF CON 26, Vol 1 - uBadge section
   accessed: '2026-09-08'
   note: Independent confirmation of the item (called "uBadge"), photos, and the 10x10 panel / 11 panel production detail.
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-08'
-  notes: 'Core facts (maker, event/year, chip, SAO design, ~1100 units, free distribution) confirmed by both the maker''s own GitHub README and independent Hackaday coverage. No price, license, or firmware repo found. Likely duplicates dc26-ubadge-badge — see research report.'
+  notes: Core facts (maker, event/year, chip, SAO design, ~1100 units, free distribution) confirmed by both the maker's own GitHub README and independent Hackaday coverage. No price, license, or firmware repo found. Likely duplicates dc26-ubadge-badge — see research report. Merged with duplicate entry 'uBadge (μBadge)' (dc26-ubadge-badge).
 last_modified_date: '2026-09-08'
+redirect_from:
+- /badges/dc26/ubadge-badge/
 ---
 
 The microbadge (also called the uBadge by Hackaday and in DEF CON badge roundups) is a functional electronic badge shrunk down to about one square centimeter, made by Joe Fitz (securelyfitz) for DEF CON 26 in 2018. It strips a Digispark ATtiny85 board down to the essentials — dropping the USB-A connector, voltage regulator, and 3.3V protection diodes in favor of a MicroUSB header and a single SAO (Shitty Add-On) connector carrying power, ground, and I2C. Because it has no onboard regulator, it needs external 3.3V power, typically supplied by whatever "arm," "face," or other add-on is plugged into its SAO header rather than a battery on the badge itself, though there is a pad for an edge-mounted CR2032 holder.
@@ -101,3 +113,15 @@ Joe designed the microbadge as the hub of a wider system of interchangeable SAO 
 ## Make your own
 
 The hardware — Eagle schematic, board file, and gerbers — is published in the [GitHub repo](https://github.com/securelyfitz/microbadge). No firmware repo or license file was found; the README documents the BOM (under $1 per unit excluding add-ons) and walks through assembling a full badge from a microbadge, a face, arms, and a battery holder, plus how to reprogram the ATtiny85 over USB with the Digispark/micronucleus toolchain.
+
+## Notes merged from the duplicate entry "uBadge (μBadge)"
+
+The uBadge (also called μBadge or microbadge) is Joe Fitz's (securelyfitz) minimalist add-on for DEF CON 26, built around a stripped-down Digispark/ATtiny85 board roughly a centimeter square. Fitz removed the USB-A connector and onboard voltage regulator from the standard Digispark design to shrink the footprint and cost, leaving a bare-minimum board that programs over micro-USB using the Arduino-compatible micronucleus bootloader and runs on external 3.3V power.
+
+The real hook is the SAO-style add-on header: uBadges are meant to plug together with matching "arm," "face," and adapter pieces (including NeoPixel strips, I2C breakouts, and orientation rotators), letting several units link up and share power. Roughly 1,100 were assembled for DEF CON 26 — Hackaday describes them as panelized in a 10x10 grid, with 11 panels populated — and Fitz's own repo refers to the run as "defcoin."
+
+Hardware design files live in Fitz's `securelyfitz/microbadge` GitHub repo under a `/hardware` directory, though no explicit open-source license was found there. No firmware repo, price, or storefront information turned up in the sources checked.
+
+## Make your own
+
+Hardware files (schematic/board) are published in the `/hardware` directory of the [microbadge GitHub repo](https://github.com/securelyfitz/microbadge); no separate firmware repo or BOM link was found.

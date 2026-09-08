@@ -10,9 +10,7 @@ event: dc34
 year: 2026
 makers:
 - name: BigTaro's Badges
-summary: A top-down adventure RPG badge with an OLED screen, styled as an ornate
-  gold scroll, built around a CTF campaign against "eldritch horror-inspired" AI
-  bosses.
+summary: A top-down adventure RPG badge with an OLED screen, styled as an ornate gold scroll, built around a CTF campaign against "eldritch horror-inspired" AI bosses.
 functions: Connect with other word weaving badges, full gameboy-style adventure game, CTF and more!
 look:
   colors:
@@ -41,9 +39,7 @@ get_one:
   availability: limited
   distribution:
   - purchase
-  where: Sold via Tindie (only 9 left in stock as of research date) and via Uberflux
-    with DEF CON drop/on-site shipping; also listed for sale and giveaway at DEF
-    CON 34 itself.
+  where: Sold via Tindie (only 9 left in stock as of research date) and via Uberflux with DEF CON drop/on-site shipping; also listed for sale and giveaway at DEF CON 34 itself.
 make_your_own:
   open_source: null
   hardware_url: null
@@ -53,14 +49,15 @@ links:
 - label: bigtaro.net/wordweaving-badge
   url: https://bigtaro.net/wordweaving-badge
   kind: store
+  archived: https://web.archive.org/web/20260822043335/https://bigtaro.net/wordweaving-badge/
 - label: Wordweaving Badge on Tindie
   url: https://www.tindie.com/products/bigtaro/wordweaving-badge-defcon-badgelife/
   kind: store
 images:
 - file: assets/images/badges/dc34/wordweaving-badge/180ea85cbf.png
-  source: "https://www.tindie.com/products/bigtaro/wordweaving-badge-defcon-badgelife/"
-  credit: "BigTaro's Badges"
-  caption: "Wordweaving Badge product photo"
+  source: https://www.tindie.com/products/bigtaro/wordweaving-badge-defcon-badgelife/
+  credit: BigTaro's Badges
+  caption: Wordweaving Badge product photo
 contact:
   discord: bigtaro
   emails:
@@ -75,29 +72,20 @@ sources:
   listing: New
 - kind: url
   url: https://bigtaro.net/wordweaving-badge
-  title: "Wordweaving Badge — CTF Adventure Badge"
+  title: Wordweaving Badge — CTF Adventure Badge
   accessed: '2026-09-06'
-  note: Maker's own product page; confirmed MCU, display, LED count, battery, connectivity,
-    and CTF/game concept.
+  note: Maker's own product page; confirmed MCU, display, LED count, battery, connectivity, and CTF/game concept.
+  archived: https://web.archive.org/web/20260822043335/https://bigtaro.net/wordweaving-badge/
 - kind: url
   url: https://www.tindie.com/products/bigtaro/wordweaving-badge-defcon-badgelife/
   title: Wordweaving Badge (Defcon Badgelife) from BigTaro's Badges on Tindie
   accessed: '2026-09-06'
-  note: Storefront listing; confirmed price ($120), stock level (9 left), full spec
-    line (RP2350 + 4MB flash, 16 RGB LEDs, 128x128 grayscale display, SAO port,
-    OpenLASIR compatible), and product photo.
+  note: Storefront listing; confirmed price ($120), stock level (9 left), full spec line (RP2350 + 4MB flash, 16 RGB LEDs, 128x128 grayscale display, SAO port, OpenLASIR compatible), and product photo.
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-06'
-  notes: Core facts confirmed on both the maker's own page and the Tindie storefront.
-    Exact production quantity not stated anywhere found (only remaining Tindie stock,
-    which is not the same number and changes over time, so left blank). No hardware/firmware
-    repo or design files were found, so make_your_own fields are left null rather
-    than guessed. tech.connectivity left empty because sources describe multiplayer
-    "wordweaving" link-up and OpenLASIR compatibility (a laser-tag/badge-to-badge
-    protocol) without naming an underlying physical layer (e.g. IR vs RF) precisely
-    enough to place in the controlled vocabulary.
+  notes: Core facts confirmed on both the maker's own page and the Tindie storefront. Exact production quantity not stated anywhere found (only remaining Tindie stock, which is not the same number and changes over time, so left blank). No hardware/firmware repo or design files were found, so make_your_own fields are left null rather than guessed. tech.connectivity left empty because sources describe multiplayer "wordweaving" link-up and OpenLASIR compatibility (a laser-tag/badge-to-badge protocol) without naming an underlying physical layer (e.g. IR vs RF) precisely enough to place in the controlled vocabulary.
 last_modified_date: '2026-09-06'
 ---
 

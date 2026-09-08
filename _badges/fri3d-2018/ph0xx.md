@@ -47,20 +47,24 @@ links:
 - label: hackaday.io/project/160451-ph0xx
   url: https://hackaday.io/project/160451-ph0xx
   kind: hackaday
+  archived: https://web.archive.org/web/20260904220754/https://hackaday.io/project/160451-ph0xx
 - label: github.com/Fri3dCamp/badge
   url: https://github.com/Fri3dCamp/badge
   kind: repo
+  archived: https://web.archive.org/web/20260312123042/https://github.com/Fri3dCamp/badge
 - label: github.com/Fri3dCamp/Fri3dBadge
   url: https://github.com/Fri3dCamp/Fri3dBadge
   kind: repo
 - label: fri3d.be
   url: http://fri3d.be/
   kind: website
+  archived: https://web.archive.org/web/20260829200552/https://fri3d.be/
 images:
 - file: assets/images/badges/fri3d-2018/ph0xx/c9b8bf3af3.jpg
   source: https://hackaday.io/project/160451-ph0xx
   credit: Fri3d Camp
   caption: The Ph0xx badge with its two 5x7 LED matrices
+  archived: https://web.archive.org/web/20260904220754/https://hackaday.io/project/160451-ph0xx
 contact: {}
 notes: []
 status: released
@@ -70,16 +74,19 @@ sources:
   title: Ph0xx
   accessed: '2026-09-06'
   note: Found via the project's link list; intake pass identified this item here.
+  archived: https://web.archive.org/web/20260904220754/https://hackaday.io/project/160451-ph0xx
 - kind: url
   url: https://hackaday.io/project/160451-ph0xx
   title: Ph0xx
   accessed: '2026-09-07'
   note: 'Maker''s own project page; confirmed maker names, event/year, ESP32-WROOM-32, two 5x7 LED matrices, ADXL345, 18650/TP4056/DW01-P power, touch buttons, buzzer, Lego Technic holes, and the Area 3001 web animation tool. Project logs give two different counts: close to 600 camp attendees expected to receive a badge, and 650 boards built/tested for production, with 460 assembled in one day at More-at-Mere after hand-placed/reflowed prototypes; one log also shows the LED color-swap was the designer''s own single badge, not a wider batch change. Source of the saved photo.'
+  archived: https://web.archive.org/web/20260904220754/https://hackaday.io/project/160451-ph0xx
 - kind: url
   url: https://github.com/Fri3dCamp/badge
   title: Fri3dCamp/badge
   accessed: '2026-09-07'
   note: Hardware design repo for the Fri3d Camp 2018 badge; confirms design files/datasheets are published there and points to fri3d.be/badge and the 2018 camp wiki for more detail.
+  archived: https://web.archive.org/web/20260312123042/https://github.com/Fri3dCamp/badge
 - kind: url
   url: https://github.com/Fri3dCamp/Fri3dBadge
   title: Fri3dCamp/Fri3dBadge

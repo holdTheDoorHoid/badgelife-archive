@@ -58,11 +58,13 @@ links:
 - label: tindie.com/products/h4klab/star-trek-sao-phaser-v22
   url: https://www.tindie.com/products/h4klab/star-trek-sao-phaser-v22/
   kind: store
+  archived: https://web.archive.org/web/20260503133430/https://www.tindie.com/products/h4klab/star-trek-sao-phaser-v22/
 images:
 - file: assets/images/badges/dc34/star-trek-sao-phaser-v2-2/d2177b30f2.png
   source: https://www.tindie.com/products/h4klab/star-trek-sao-phaser-v22/
   credit: Hak4Kidz Lab
   caption: Star Trek SAO Phaser v2.2 with front tracer LED lit
+  archived: https://web.archive.org/web/20260503133430/https://www.tindie.com/products/h4klab/star-trek-sao-phaser-v22/
 contact:
   discord: healwhans
   emails:
@@ -81,6 +83,7 @@ sources:
   title: Star Trek SAO Phaser v2.2 from Hak4Kidz Lab on Tindie
   accessed: '2026-09-06'
   note: Primary source for description, features, price ($30), SAO connector type, and product photos.
+  archived: https://web.archive.org/web/20260503133430/https://www.tindie.com/products/h4klab/star-trek-sao-phaser-v22/
 - kind: url
   url: https://youtube.com/shorts/N2FldDU5t80?feature=share
   title: Star Trek SAO Phaser v2.2 (YouTube Short)

@@ -38,7 +38,7 @@ get_one:
   - purchase
   where: Sold via a Stripe payment link (billing.calltheory.com) linked from the Call Center Village community sheet entry; page did not render enough for automated review to confirm stock.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://git.calltheory.com/callcentervillage/shitty-add-on
   firmware_url: null
   eda_tool: KiCad
@@ -53,6 +53,7 @@ links:
 - label: Call Center Village
   url: https://www.callcentervillage.com/
   kind: website
+  archived: https://web.archive.org/web/20260405034041/https://www.callcentervillage.com/
 images: []
 contact:
   discord: Patrick
@@ -82,6 +83,7 @@ sources:
   title: Call Center Village
   accessed: '2026-09-06'
   note: Confirms Call Center Village as a voice-based social-engineering CTF run by Patrick Labbett (Call Theory / NotifiUs, LLC), with a defcon.social account; no SAO page, price, or DEF CON 34 detail found there.
+  archived: https://web.archive.org/web/20260405034041/https://www.callcentervillage.com/
 research:
   status: researched
   confidence: medium

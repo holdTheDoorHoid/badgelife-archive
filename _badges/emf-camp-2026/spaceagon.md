@@ -45,17 +45,20 @@ links:
 - label: hackaday.com/2026/06/02/the-2026-emf-badge-arrives-with-an-add-on-as-expected-its-familiar
   url: https://hackaday.com/2026/06/02/the-2026-emf-badge-arrives-with-an-add-on-as-expected-its-familiar/
   kind: article
+  archived: https://web.archive.org/web/20260831031638/https://hackaday.com/2026/06/02/the-2026-emf-badge-arrives-with-an-add-on-as-expected-its-familiar/
 - label: emfcamp.org/badge
   url: https://www.emfcamp.org/badge
   kind: website
 - label: tildagon.badge.emfcamp.org
   url: https://tildagon.badge.emfcamp.org
   kind: doc
+  archived: https://web.archive.org/web/20260715082014/https://tildagon.badge.emfcamp.org/
 images:
 - file: assets/images/badges/emf-camp-2026/spaceagon/f1b96653d3.jpg
   source: https://hackaday.com/2026/06/02/the-2026-emf-badge-arrives-with-an-add-on-as-expected-its-familiar/
   credit: EMF Camp / Hackaday
   caption: Prototype Spaceagon badge, the 2026 EMF Camp badge (final badge art differs from the prototype shown)
+  archived: https://web.archive.org/web/20260831031638/https://hackaday.com/2026/06/02/the-2026-emf-badge-arrives-with-an-add-on-as-expected-its-familiar/
 contact: {}
 notes:
 - Update to Tildagon; sold with an upgrade front panel for existing owners
@@ -67,6 +70,7 @@ sources:
   title: Spaceagon
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: hackaday-press); event read as ''EMF Camp 2026''.'
+  archived: https://web.archive.org/web/20260831031638/https://hackaday.com/2026/06/02/the-2026-emf-badge-arrives-with-an-add-on-as-expected-its-familiar/
 - kind: url
   url: https://www.emfcamp.org/badge
   title: EMF Camp Badge
@@ -77,6 +81,7 @@ sources:
   title: Tildagon badge documentation
   accessed: '2026-09-07'
   note: 'Platform docs: ESP32-S3 MCU, 2MB PSRAM, 8MB flash, round display, six buttons, RGB LEDs, IMU, WiFi/BLE, USB-C, MicroPython firmware; confirms Spaceagon keeps the hexagonal six-hexpansion-slot form factor; links hardware repo emfcamp/badge-2024-hardware.'
+  archived: https://web.archive.org/web/20260715082014/https://tildagon.badge.emfcamp.org/
 research:
   status: verified
   confidence: medium

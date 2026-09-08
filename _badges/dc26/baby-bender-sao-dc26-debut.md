@@ -63,10 +63,10 @@ sources:
   accessed: '2026-09-08'
   note: Confirms the Baby Bender SAO was built by sqearlsalazar and photographed at DEF CON 26 (2018); no technical specs, price, or availability given. Photo used for images.
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-08'
-  notes: Only source found is the single Hackaday roundup photo and caption; no maker page, Tindie listing, Hackaday.io project, or GitHub repo turned up for this 2018 piece specifically. A later item from the same maker, sold at DEF CON 30 under the Tindie listing "#badgelife Parallel Baby Robot (each)" (archive entry dc30-baby-bender-sqearlsalazar, tagline "Bite my shiny SAO"), is very likely the same robot-shaped SAO design carried forward or re-offered years later — kept as a separate entry here since this one documents the 2018 DC26 appearance specifically, with no evidence of a DC26 sale, price, or quantity. MCU, LEDs, and distribution details for the DC26 piece remain unconfirmed.
+  notes: Fact-checked 2026-09-08 by re-fetching the cited Hackaday article (image filename "10-baby-bender-sao.jpg" confirms the saved photo is the one used in the piece, and the article itself labels it an "SAO"). All claims in the body and fields are supported by that single article — maker sqearlsalazar, Futurama/Bender theme tied to AND!XOR's DC26 badge, the note about fans producing bejeweled Bender-dance pins. The DC26-year 2018 date matches the article's publish date. No maker page, Tindie listing, Hackaday.io project, or GitHub repo turned up for this 2018 piece specifically, so price/quantity/tech fields stay empty. The DC30 cross-reference (dc30-baby-bender-sqearlsalazar, Tindie "#badgelife Parallel Baby Robot (each)," tagline "Bite my shiny SAO") was confirmed to exist in the archive under the same maker and is phrased as a likely-same-design inference, not a fact claim, so it stands. Two `sources` entries cite the identical URL (the researcher's own choice); left as-is since it is not inaccurate, just redundant.
 last_modified_date: '2026-09-08'
 ---
 

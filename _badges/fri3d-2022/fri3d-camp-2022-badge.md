@@ -46,9 +46,11 @@ links:
 - label: fri3d.be/badge/2022
   url: https://fri3d.be/badge/2022/
   kind: website
+  archived: https://web.archive.org/web/20260622193521/https://fri3d.be/badge/2022/
 - label: Hackaday project - Fri3d 2022 Badge
   url: https://hackaday.io/project/169741-fri3d-2022-badge
   kind: hackaday
+  archived: https://web.archive.org/web/20251005200153/https://hackaday.io/project/169741-fri3d-2022-badge
 - label: Badge hardware (badge-2020 repo)
   url: https://github.com/Fri3dCamp/badge-2020
   kind: repo
@@ -64,11 +66,13 @@ links:
 - label: Time Blaster add-on module
   url: https://github.com/Fri3dCamp/timeblaster-2020
   kind: repo
+  archived: https://web.archive.org/web/20250917100443/https://github.com/Fri3dCamp/timeblaster-2020
 images:
 - file: assets/images/badges/fri3d-2022/fri3d-camp-2022-badge/6243ee5140.jpg
   source: https://fri3d.be/badge/2022/
   credit: Fri3d Camp
   caption: Fri3d Camp 2022 badge with color LCD screen
+  archived: https://web.archive.org/web/20260622193521/https://fri3d.be/badge/2022/
 contact: {}
 notes:
 - Screen-equipped wearable badge; GameOn and Time Blaster add-on modules; MicroPython/Arduino firmware, Hackaday project page for specs.
@@ -80,11 +84,13 @@ sources:
   title: Fri3d Camp 2022 Badge
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: eu-camps: European hacker camps/cons via badge.team (SHA2017, Hackerhotel, Disobey, CampZone, Fri3d Camp, MCH2022, WHY2025), EMF Camp TiLDA lineage, CCC card10, and BornHack); event read as ''Fri3d Camp 2022''.'
+  archived: https://web.archive.org/web/20260622193521/https://fri3d.be/badge/2022/
 - kind: url
   url: https://hackaday.io/project/169741-fri3d-2022-badge
   title: Fri3d 2022 Badge - Hackaday.io project
   accessed: '2026-09-07'
   note: MCU (ESP32-WROVER, 4MB PSRAM, 16MB flash), display (240x240 ST7789v IPS LCD), LIS2DH12 accelerometer, IR receiver, CP2102N USB-UART bridge, quantity (700+ units), open-source status.
+  archived: https://web.archive.org/web/20251005200153/https://hackaday.io/project/169741-fri3d-2022-badge
 - kind: url
   url: https://github.com/Fri3dCamp/badge-2020
   title: Fri3dCamp/badge-2020 hardware repo

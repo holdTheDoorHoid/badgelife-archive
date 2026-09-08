@@ -59,9 +59,11 @@ links:
 - label: github.com/Fri3dCamp/badge
   url: https://github.com/Fri3dCamp/badge
   kind: repo
+  archived: https://web.archive.org/web/20260312123042/https://github.com/Fri3dCamp/badge
 - label: hackaday.io/project/160451-ph0xx
   url: https://hackaday.io/project/160451-ph0xx
   kind: hackaday
+  archived: https://web.archive.org/web/20260904220754/https://hackaday.io/project/160451-ph0xx
 - label: web.archive.org/web/2019/wiki2018.fri3d.be/index.php?title=Badge
   url: https://web.archive.org/web/2019/http://wiki2018.fri3d.be/index.php?title=Badge
   kind: website
@@ -70,10 +72,12 @@ images:
   source: https://hackaday.io/project/160451-ph0xx
   credit: Wim Van Gool / Fri3d Camp
   caption: Ph0xx badge, ESP32-WROOM-32 attendee badge for Fri3d Camp 2018
+  archived: https://web.archive.org/web/20260904220754/https://hackaday.io/project/160451-ph0xx
 - file: assets/images/badges/fri3d-2018/fri3d-2018-ph0xx-badge-2/4727e9aab7.jpg
   source: https://hackaday.io/project/160451-ph0xx
   credit: Wim Van Gool / Fri3d Camp
   caption: Ph0xx badge with two 5x7 LED matrices and touch buttons
+  archived: https://web.archive.org/web/20260904220754/https://hackaday.io/project/160451-ph0xx
 contact: {}
 notes:
 - The Fri3dCamp/badge repository (hardware/design files) shows GitHub topics including ATmega32u4/AVR/IR in web search summaries, which conflicts with the ESP32-WROOM-32 chip confirmed on the maker's Hackaday.io project page; this may reflect an early prototype revision or repo mislabeling. Not resolved from available sources.
@@ -89,11 +93,13 @@ sources:
   title: Ph0xx - Hackaday.io
   accessed: '2026-09-07'
   note: Maker's project page; confirmed ESP32-WROOM-32 chip, makers Wim Van Gool and Bert Outtier, ~600 attendees, ~650 boards manufactured, features, and provided gallery photos.
+  archived: https://web.archive.org/web/20260904220754/https://hackaday.io/project/160451-ph0xx
 - kind: url
   url: https://github.com/Fri3dCamp/badge
   title: Fri3dCamp/badge - hardware design repository
   accessed: '2026-09-07'
   note: Hardware/design-files repo; description mentions Dutch tagline about needing a camp badge and prototype photos, but did not yield chip/LED/price specifics beyond what Hackaday confirmed.
+  archived: https://web.archive.org/web/20260312123042/https://github.com/Fri3dCamp/badge
 research:
   status: researched
   confidence: high

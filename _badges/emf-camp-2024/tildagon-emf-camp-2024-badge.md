@@ -45,24 +45,29 @@ links:
 - label: hackaday.com/2024/06/01/hands-on-with-the-electromagnetic-field-2024-badge
   url: https://hackaday.com/2024/06/01/hands-on-with-the-electromagnetic-field-2024-badge/
   kind: article
+  archived: https://web.archive.org/web/20260723062448/https://hackaday.com/2024/06/01/hands-on-with-the-electromagnetic-field-2024-badge/
 - label: hackaday.com/2024/03/23/the-electromagnetic-field-2024-badge-is-a-little-different
   url: https://hackaday.com/2024/03/23/the-electromagnetic-field-2024-badge-is-a-little-different/
   kind: article
+  archived: https://web.archive.org/web/20260521102348/https://hackaday.com/2024/03/23/the-electromagnetic-field-2024-badge-is-a-little-different/
 - label: github.com/emfcamp/badge-2024-hardware
   url: https://github.com/emfcamp/badge-2024-hardware
   kind: repo
 - label: github.com/emfcamp/badge-2024-software
   url: https://github.com/emfcamp/badge-2024-software
   kind: repo
+  archived: https://web.archive.org/web/20260715081242/https://github.com/emfcamp/badge-2024-software
 images:
 - file: assets/images/badges/emf-camp-2024/tildagon-emf-camp-2024-badge/c6a2b3c93c.jpg
   source: https://hackaday.com/2024/06/01/hands-on-with-the-electromagnetic-field-2024-badge/
   credit: Hackaday
   caption: The Tildagon hexagonal badge with round LCD display and hexpansion edge connectors
+  archived: https://web.archive.org/web/20260723062448/https://hackaday.com/2024/06/01/hands-on-with-the-electromagnetic-field-2024-badge/
 - file: assets/images/badges/emf-camp-2024/tildagon-emf-camp-2024-badge/11a12d4238.jpg
   source: https://hackaday.com/2024/06/01/hands-on-with-the-electromagnetic-field-2024-badge/
   credit: Hackaday
   caption: The Tildagon's two PCBs (front and rear) linked by a ribbon cable
+  archived: https://web.archive.org/web/20260723062448/https://hackaday.com/2024/06/01/hands-on-with-the-electromagnetic-field-2024-badge/
 contact: {}
 notes:
 - Hexagonal badge with Hexpansion add-on slots; also announced in https://hackaday.com/2024/03/23/the-electromagnetic-field-2024-badge-is-a-little-different/
@@ -73,11 +78,13 @@ sources:
   title: Tildagon (EMF Camp 2024 Badge)
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: hackaday-press); event read as ''EMF Camp 2024''.'
+  archived: https://web.archive.org/web/20260723062448/https://hackaday.com/2024/06/01/hands-on-with-the-electromagnetic-field-2024-badge/
 - kind: url
   url: https://hackaday.com/2024/03/23/the-electromagnetic-field-2024-badge-is-a-little-different/
   title: The Electromagnetic Field 2024 Badge Is A Little Different
   accessed: '2026-09-07'
   note: Earlier announcement piece; confirms ESP32-S3 MCU, round LCD, hexagonal edge-connector "hexpansion" design, and that this was the first EMF badge with an added charge.
+  archived: https://web.archive.org/web/20260521102348/https://hackaday.com/2024/03/23/the-electromagnetic-field-2024-badge-is-a-little-different/
 - kind: url
   url: https://github.com/emfcamp/badge-2024-hardware
   title: emfcamp/badge-2024-hardware
@@ -88,6 +95,7 @@ sources:
   title: emfcamp/badge-2024-software
   accessed: '2026-09-07'
   note: Official firmware repo README; confirms MicroPython firmware for ESP32-S3, MIT-licensed, built via Docker/ESP-IDF v5.5.1, with a web flasher at emfcamp.github.io/badge-2024-software/.
+  archived: https://web.archive.org/web/20260715081242/https://github.com/emfcamp/badge-2024-software
 research:
   status: researched
   confidence: medium

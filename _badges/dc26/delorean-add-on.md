@@ -62,7 +62,7 @@ sources:
   accessed: '2026-09-08'
   note: 'Confirmed the SAO exists, its makers, and pulled a maker comment (Drew Alden / @ReanimationXP) describing the design and a possible second run; also sourced the photo used in images.'
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-08'
   notes: >-

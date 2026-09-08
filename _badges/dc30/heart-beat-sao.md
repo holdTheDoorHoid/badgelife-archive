@@ -58,13 +58,14 @@ links:
   kind: article
 images:
 - file: assets/images/badges/dc30/heart-beat-sao/0844eb6dfb.jpg
-  source: "https://www.tindie.com/products/nerfhammer/hearty-backlit-badge/"
-  credit: "nerfhammer"
-  caption: "Hearty Backlit Badge, heart-shaped tap-activated LED SAO"
+  source: https://www.tindie.com/products/nerfhammer/hearty-backlit-badge/
+  credit: nerfhammer
+  caption: Hearty Backlit Badge, heart-shaped tap-activated LED SAO
 contact: {}
 notes:
 - 'Likely the same item as dc30-heart-tap-sensor-sao: Tindie''s DEF CON 30 roundup post describes a Nerfhammer SAO with "a tap sensor to control an LED to mimic the beating of a heart" alongside Skully; that description matches the maker''s "Hearty Backlit Badge" (and its self-assembly-kit variant), a heart-shaped, tap/vibration-activated backlit badge with a SAO header. No product on Nerfhammer''s Tindie store is literally titled "Heart Beat SAO" -- that name appears to be the sweep''s own paraphrase of the roundup post''s description, not a maker-used title. Title corrected to the maker''s actual product name, "Hearty Backlit Badge."'
-- 'Product photos on Tindie date to August 2018, so this design predates DEF CON 30; it was evidently still being sold (or re-offered) at DC30 2022 per the Tindie roundup post. No DC30-specific confirmation beyond that mention.'
+- Product photos on Tindie date to August 2018, so this design predates DEF CON 30; it was evidently still being sold (or re-offered) at DC30 2022 per the Tindie roundup post. No DC30-specific confirmation beyond that mention.
+- Nerfhammer SAO using a tap sensor to trigger an LED animation mimicking a heartbeat, featured at DEF CON 30. Found by the event-year sweep, task dc30-saos.
 status: listed
 sources:
 - kind: url
@@ -74,7 +75,7 @@ sources:
   note: 'Found by the archive''s discovery sweep (angle: sweep:general-2020); event read as ''DEF CON 30 2022''.'
 - kind: url
   url: https://blog.tindie.com/2022/08/badge-me-if-you-can-def-con-30/
-  title: 'Badge Me if You Can - DEF CON 30'
+  title: Badge Me if You Can - DEF CON 30
   accessed: '2026-09-08'
   note: Source of the "tap sensor... mimic the beating of a heart" description that the sweep paraphrased as "Heart Beat SAO"; lists it alongside Skully.
 - kind: url
@@ -91,10 +92,18 @@ research:
   status: researched
   confidence: medium
   last_checked: '2026-09-08'
-  notes: 'Could not confirm an exact maker-titled product called "Heart Beat SAO"; matched by description to the "Hearty Backlit Badge" / "Hearty Badge self-assembly kit" listings, which are almost certainly the same item Tindie''s DEF CON 30 roundup was describing. This is likely a duplicate of dc30-heart-tap-sensor-sao, which cites the same roundup post. tech.mcu/leds inferred from the maker''s described circuit (discrete transistor, no MCU); could not verify sao_version (4-pin vs 6-pin) or exact DC30 sale price/quantity. The nerfhammer.tindie.com store itself is behind a Cloudflare challenge and could not be fetched directly.'
+  notes: Could not confirm an exact maker-titled product called "Heart Beat SAO"; matched by description to the "Hearty Backlit Badge" / "Hearty Badge self-assembly kit" listings, which are almost certainly the same item Tindie's DEF CON 30 roundup was describing. This is likely a duplicate of dc30-heart-tap-sensor-sao, which cites the same roundup post. tech.mcu/leds inferred from the maker's described circuit (discrete transistor, no MCU); could not verify sao_version (4-pin vs 6-pin) or exact DC30 sale price/quantity. The nerfhammer.tindie.com store itself is behind a Cloudflare challenge and could not be fetched directly. Merged with duplicate entry 'Heart Tap Sensor SAO' (dc30-heart-tap-sensor-sao).
 last_modified_date: '2026-09-08'
+redirect_from:
+- /badges/dc30/heart-tap-sensor-sao/
 ---
 
 The Hearty Backlit Badge is a small heart-shaped PCB piece by Nerfhammer (San Francisco) with an etched anatomical heart cut into the silkscreen. A single LED behind the cutout is driven by a simple discrete circuit -- one transistor, one resistor, one capacitor, and a vibration/tap switch -- so tapping or shaking the badge makes the LED flicker in a heartbeat-like pattern. There is no microcontroller and no on/off switch; the circuit draws negligible power at rest. It runs on a CR2032 coin cell and includes a SAO header beneath the battery connector, so it can be worn as a stand-alone pin or plugged into a host badge as an add-on.
 
 Tindie's own August 2022 roundup of DEF CON 30 badges, "Badge Me if You Can," names Nerfhammer alongside their better-known Skully SAO and describes "another SAO [that] features a tap sensor to control an LED to mimic the beating of a heart" as one of their DEF CON 30 offerings. No listing on Nerfhammer's Tindie store is titled exactly "Heart Beat SAO"; that appears to be the archive sweep's own paraphrase of the roundup's description. The closest match is the "Hearty Backlit Badge" ($20 assembled) and its "Hearty Badge self-assembly kit" ($10) variant -- both heart-shaped, tap-activated designs whose product photos date to 2018, suggesting the design predates DEF CON 30 and was carried forward or re-offered that year. This entry is likely describing the same physical item as the archive's separate dc30-heart-tap-sensor-sao entry, which cites the same source post.
+
+## Notes merged from the duplicate entry "Heart Tap Sensor SAO"
+
+Nerfhammer, a regular DEF CON 30 badgelife maker, produced an add-on (SAO) that uses a tap sensor: tapping or sharply jostling the board triggers an LED to flash in a pattern mimicking a heartbeat. It was one of several Nerfhammer pieces (alongside a Skully SAO and other DC30 add-ons) sold through their Tindie store around the August 2022 DEF CON 30 timeframe, per Tindie's own "badge me if you can" roundup post covering that year's badgelife scene.
+
+Beyond that one-sentence description, no dedicated product page, image, or maker interview specific to this item could be located. Nerfhammer's Tindie storefront blocks automated fetches with a Cloudflare challenge, and searches turned up no press coverage, Hackaday post, or repo for it. This entry is very likely describing the same object as the separately-swept `dc30-heart-beat-sao` entry - both cite the same maker, event, and tap-to-heartbeat behavior from the same source sentence - so no chip, LED, or pricing details have been guessed here.

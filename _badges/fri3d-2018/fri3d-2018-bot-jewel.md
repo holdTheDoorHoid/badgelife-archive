@@ -41,12 +41,14 @@ links:
 - label: github.com/Fri3dCamp/badge
   url: https://github.com/Fri3dCamp/badge
   kind: repo
+  archived: https://web.archive.org/web/20260312123042/https://github.com/Fri3dCamp/badge
 - label: github.com/Fri3dCamp/badge/tree/master/design/jewels/Bot.00
   url: https://github.com/Fri3dCamp/badge/tree/master/design/jewels/Bot.00
   kind: repo
 - label: hackaday.io/project/160451-ph0xx
   url: https://hackaday.io/project/160451-ph0xx
   kind: hackaday
+  archived: https://web.archive.org/web/20260904220754/https://hackaday.io/project/160451-ph0xx
 images: []
 contact: {}
 notes: []
@@ -57,11 +59,13 @@ sources:
   title: Fri3dCamp/badge - Elk hacker/maker/DIY Kamp heeft zijn eigen badge nodig...
   accessed: '2026-09-06'
   note: Found via the project's link list; intake pass identified this item here.
+  archived: https://web.archive.org/web/20260312123042/https://github.com/Fri3dCamp/badge
 - kind: url
   url: https://hackaday.io/project/160451-ph0xx
   title: Ph0xx | Hackaday.io
   accessed: '2026-09-07'
   note: 'Project description confirms the Bot jewel''s function: ''boosts the power to drive 4 large servos and is used as building block of the bi-pedal robot.'' Also gives Ph0xx badge specs (ESP32-WROOM-32, two 5x7 LED arrays, ADXL345 accelerometer, 18650 battery, Lego Technic-compatible holes) and credits Wim Van Gool (Hackaday.io user Brubacker) as project lead for Fri3d Camp.'
+  archived: https://web.archive.org/web/20260904220754/https://hackaday.io/project/160451-ph0xx
 - kind: url
   url: https://github.com/Fri3dCamp/badge/tree/master/design/jewels/Bot.00
   title: badge/design/jewels/Bot.00 at master - Fri3dCamp/badge

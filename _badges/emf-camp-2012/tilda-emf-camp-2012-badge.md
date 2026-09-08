@@ -50,17 +50,21 @@ links:
 - label: en.wikipedia.org/wiki/Electromagnetic_Field_(festival)
   url: https://en.wikipedia.org/wiki/Electromagnetic_Field_(festival)
   kind: website
+  archived: https://web.archive.org/web/20260801223626/https://en.wikipedia.org/wiki/Electromagnetic_Field_(festival)
 - label: Revealing TiLDA, our camp badge! (EMF Camp blog, 2012-08-02)
   url: https://blog.emfcamp.org/2012/08/02/revealing-tilda-our-camp-badge/
   kind: article
+  archived: https://web.archive.org/web/20260715092711/https://blog.emfcamp.org/2012/08/02/revealing-tilda-our-camp-badge/
 - label: emfcamp/TiLDA (hardware, schematics, docs)
   url: https://github.com/emfcamp/TiLDA
   kind: repo
+  archived: https://web.archive.org/web/20260715081707/https://github.com/emfcamp/TiLDA
 images:
 - file: assets/images/badges/emf-camp-2012/tilda-emf-camp-2012-badge/466891b41a.jpg
   source: https://blog.emfcamp.org/2012/08/02/revealing-tilda-our-camp-badge/
   credit: EMF Camp / Charles Yarnold
   caption: TiLDA badge PCB, as revealed in the 2012 announcement post
+  archived: https://web.archive.org/web/20260715092711/https://blog.emfcamp.org/2012/08/02/revealing-tilda-our-camp-badge/
 contact: {}
 notes:
 - Inaugural EMF badge; ATmega32U4-based, Arduino-compatible.
@@ -72,16 +76,19 @@ sources:
   title: TiLDA (EMF Camp 2012 badge)
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: eu-camps: European hacker camps/cons via badge.team (SHA2017, Hackerhotel, Disobey, CampZone, Fri3d Camp, MCH2022, WHY2025), EMF Camp TiLDA lineage, CCC card10, and BornHack); event read as ''EMF Camp 2012''.'
+  archived: https://web.archive.org/web/20260801223626/https://en.wikipedia.org/wiki/Electromagnetic_Field_(festival)
 - kind: url
   url: https://blog.emfcamp.org/2012/08/02/revealing-tilda-our-camp-badge/
   title: Revealing TiLDA, our camp badge!
   accessed: '2026-09-07'
   note: Maker's own 2012 announcement post; source for designer, chip, LEDs, connectivity, battery, price/distribution, open-source status, and the badge PCB image.
+  archived: https://web.archive.org/web/20260715092711/https://blog.emfcamp.org/2012/08/02/revealing-tilda-our-camp-badge/
 - kind: url
   url: https://github.com/emfcamp/TiLDA
   title: emfcamp/TiLDA
   accessed: '2026-09-07'
   note: 'Confirms the repo holds documentation, schematics and libraries for the badge, with firmware in a linked TiLDA-source submodule; supports open_source: yes.'
+  archived: https://web.archive.org/web/20260715081707/https://github.com/emfcamp/TiLDA
 research:
   status: verified
   confidence: high

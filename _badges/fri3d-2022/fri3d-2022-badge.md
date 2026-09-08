@@ -54,6 +54,7 @@ links:
 - label: hackaday.io/project/169741-fri3d-2022-badge
   url: https://hackaday.io/project/169741-fri3d-2022-badge
   kind: hackaday
+  archived: https://web.archive.org/web/20251005200153/https://hackaday.io/project/169741-fri3d-2022-badge
 - label: github.com/Fri3dCamp/badge-2020
   url: https://github.com/Fri3dCamp/badge-2020
   kind: repo
@@ -66,6 +67,7 @@ links:
 - label: fri3d.be/badge
   url: https://fri3d.be/badge/
   kind: website
+  archived: https://web.archive.org/web/20260622193534/https://fri3d.be/badge/
 images:
 - file: assets/images/badges/fri3d-2022/fri3d-2022-badge/1d07ef73fa.jpg
   source: https://github.com/Fri3dCamp/badge-2020
@@ -84,6 +86,7 @@ sources:
   title: Fri3d 2022 Badge
   accessed: '2026-09-06'
   note: Found via the project's link list; intake pass identified this item here.
+  archived: https://web.archive.org/web/20251005200153/https://hackaday.io/project/169741-fri3d-2022-badge
 - kind: url
   url: https://github.com/Fri3dCamp/badge-2020
   title: 'Fri3dCamp/badge-2020: Fri3dBadge 2020 version'
@@ -99,6 +102,7 @@ sources:
   title: Fri3d Camp badge page
   accessed: '2026-09-07'
   note: Current badge overview page; describes the current-year (2026) badge program rather than the 2022 badge specifically, so not used for hardware specs.
+  archived: https://web.archive.org/web/20260622193534/https://fri3d.be/badge/
 research:
   status: researched
   confidence: high

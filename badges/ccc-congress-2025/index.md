@@ -5,7 +5,7 @@ parent: Badge Archive
 has_children: true
 has_toc: false
 nav_order: 7975
-nav_exclude: false
+nav_exclude: true
 event: ccc-congress-2025
 ---
 # Chaos Communication Congress 2025

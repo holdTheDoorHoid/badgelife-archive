@@ -31,12 +31,12 @@ get_one:
   price: $40
   price_usd: 40
   quantity: '40'
-  availability: sold_out
+  availability: unknown
   distribution:
   - purchase
   where: Sold in person at DEF CON 25; buyers could also reach the maker by email or on Twitter (@dorkengine).
 make_your_own:
-  open_source: partial
+  open_source: 'yes'
   hardware_url: null
   firmware_url: null
   eda_tool: KiCad
@@ -73,15 +73,15 @@ sources:
   accessed: '2026-09-08'
   note: Primary source for maker, event, chip, price, quantity, connectivity, and repo link.
 research:
-  status: researched
+  status: verified
   confidence: medium
   last_checked: '2026-09-08'
-  notes: 'Confirmed via Hackaday''s 2017 coverage rather than the original shiftj.is post, which no longer resolves (DNS failure at time of research). Maker is credited only by the handle "dorkengine" (also seen as Twitter @dorkengine); no real name or personal site found. The KiCad/software repo the article links to (gitla.in/darkengine/puffy) also does not resolve today, so hardware_url/firmware_url are left empty rather than pointing to a dead link; open_source is marked "partial" on the article''s word alone. PCB soldermask color, LED count, and SAO header presence are not stated in the source and are left empty. Price/quantity are the maker''s stated plan ($40 each, 40 boards) at time of the DEF CON 25 con; not confirmed whether all sold.'
+  notes: 'Fact-check pass (2026-09-08): re-fetched the Hackaday article and confirmed the original shiftj.is post still fails DNS resolution. Verified maker handle "dorkengine" (Hackaday''s own bracket notation, not an artifact), event/year, VoCore2 chip, wifi, USB port, serial console, GPIO, blinkenlights, $40/40-unit price and quantity, and the exact repo URL text ("has the KiCad files and software available" at gitla.in/darkengine/puffy — note the repo path reads "darkengine", not "dorkengine"; both are the same maker per the article, not a separate person). Corrected make_your_own.open_source from "partial" to "yes": the article states the same repo held both the KiCad (hardware) files and the software together, meeting the guide''s bar for "yes"; hardware_url/firmware_url remain empty since the repo itself is dead. Corrected get_one.availability from "sold_out" to "unknown": the cited article is contemporaneous (published as the maker was about to sell at the con) and never states the run actually sold out; no other source was found confirming final sales status. Removed an invented body detail ("roughly inch-square") describing the VoCore2''s size that was not supported by either cited source. Both saved images were confirmed to be from the cited Hackaday article and both show the actual badge. PCB soldermask color, LED count/type, display, battery, and SAO header presence remain unstated in the sources and are correctly left empty.'
 last_modified_date: '2026-09-08'
 ---
 
-The Puffy Badge is an independent hardware badge created by a maker known as dorkengine for DEF CON 25 (2017). Its design riffs on "Puffy," the pufferfish mascot of the OpenBSD project, rendered in soldermask and silkscreen with an exaggerated, stylized pout. Unlike most SAO-style blinky badges of that era, Puffy is built around a VoCore2 — a roughly inch-square Linux-capable system-on-module with WiFi — meaning the badge boots a full Linux userspace rather than running MCU firmware. It exposes a USB port, a serial console, and GPIO pins for further hacking, plus onboard "blinkenlights."
+The Puffy Badge is an independent hardware badge created by a maker known as dorkengine for DEF CON 25 (2017). Its design riffs on "Puffy," the pufferfish mascot of the OpenBSD project, rendered in soldermask and silkscreen with an exaggerated, stylized pout. Unlike most SAO-style blinky badges of that era, Puffy is built around a VoCore2 — a small Linux-capable system-on-module with WiFi — meaning the badge boots a full Linux userspace rather than running MCU firmware. It exposes a USB port, a serial console, and GPIO pins for further hacking, plus onboard "blinkenlights."
 
-Dorkengine had 40 working PCBs made and planned to sell them for $40 apiece in person at the con, with the VoCore2 module itself costing around $17 to source. The maker made the KiCad design files and software available in a public repository at the time, though that repository link no longer resolves as of this research pass.
+Dorkengine had 40 working PCBs made and planned to sell them for $40 apiece in person at the con, with the VoCore2 module itself costing around $17 to source. The maker made the KiCad design files and software available together in a public repository (gitla.in/darkengine/puffy) at the time, though that repository link no longer resolves as of this research pass, so whether any units remained unsold is unknown.
 
 The community sheet's own source page for this entry (shiftj.is/post/puffy) could not be reached during this research (DNS failure), so the details above are drawn from Hackaday's contemporaneous write-up, which independently corroborates the sweep's one-line description of a fish-shaped, Linux-running badge made in a run of 40.

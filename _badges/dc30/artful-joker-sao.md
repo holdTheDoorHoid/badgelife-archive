@@ -62,16 +62,23 @@ sources:
   accessed: '2026-09-08'
   note: 'Confirmed the item is real and pulled the description, photo, and maker attribution. No dedicated maker product page or storefront listing was found (Deepnet.store had not launched its Tindie store yet as of this August 2022 article).'
 research:
-  status: researched
-  confidence: low
+  status: verified
+  confidence: medium
   last_checked: '2026-09-08'
   notes: >-
-    Only source found is the Tindie roundup blog post covering DEF CON 30 badges; it confirms the
-    item exists and describes its look (red LED eyes, blue teardrop animation) but gives no price,
-    quantity, availability, chip, or SAO header version. Searches for a Deepnet.store product page,
-    storefront listing, or GitHub/Hackaday project for this SAO turned up nothing beyond the current
-    Deepnet.store cybersecurity-merch shop, which has no visible listing for it. Left tech/get_one
-    fields empty rather than guess.
+    Fact-check pass (2026-09-08): re-fetched the Tindie roundup article and confirmed every claim in
+    the entry against it word-for-word — maker attribution to Deepnet.store, the graffiti/old-timey
+    comic-book description, red LED eyes, blue teardrop animation, the white-and-black official-badge
+    complement, and the "Tindie store very soon" line (no store had launched at time of writing). The
+    saved photo was checked against the article's own image asset (same fedora/split-face SAO on a host
+    badge) and is correctly sourced. Re-ran a search for a Deepnet.store product page or storefront
+    listing for this specific item; only the current general Deepnet.store shop turned up, with no
+    listing for this SAO, so tech/get_one/make_your_own fields stay empty. Only source found is the
+    Tindie roundup blog post covering DEF CON 30 badges; it confirms the item exists and describes its
+    look (red LED eyes, blue teardrop animation) but gives no price, quantity, availability, chip, or
+    SAO header version. Confidence raised from low to medium per the guide's rubric: this is a
+    third-party source (not the maker's own page) but it directly confirms the core facts (existence,
+    look, maker attribution), which is the guide's definition of medium confidence.
 last_modified_date: '2026-09-08'
 ---
 

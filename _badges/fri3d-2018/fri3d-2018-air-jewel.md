@@ -47,12 +47,14 @@ links:
 - label: github.com/Fri3dCamp/badge
   url: https://github.com/Fri3dCamp/badge
   kind: repo
+  archived: https://web.archive.org/web/20260312123042/https://github.com/Fri3dCamp/badge
 - label: github.com/Fri3dCamp/badge/tree/master/design/jewels/Air.01
   url: https://github.com/Fri3dCamp/badge/tree/master/design/jewels/Air.01
   kind: repo
 - label: hackaday.io/project/160451-ph0xx
   url: https://hackaday.io/project/160451-ph0xx
   kind: hackaday
+  archived: https://web.archive.org/web/20260904220754/https://hackaday.io/project/160451-ph0xx
 images: []
 contact: {}
 notes: []
@@ -63,11 +65,13 @@ sources:
   title: Fri3dCamp/badge - Elk hacker/maker/DIY Kamp heeft zijn eigen badge nodig...
   accessed: '2026-09-06'
   note: Found via the project's link list; intake pass identified this item here.
+  archived: https://web.archive.org/web/20260312123042/https://github.com/Fri3dCamp/badge
 - kind: url
   url: https://hackaday.io/project/160451-ph0xx
   title: 'Ph0xx: Fri3d Camp 2018 badge project page'
   accessed: '2026-09-07'
   note: Confirms the Ph0xx badge is ESP32-WROOM-32 based, credits Wim Van Gool and Bert Outtier alongside Fri3d Camp, ~600 badges made, and lists the Air jewel (dust sensor + GPS) and Bot jewel (servo power for a bipedal robot build) as the two expansion jewels.
+  archived: https://web.archive.org/web/20260904220754/https://hackaday.io/project/160451-ph0xx
 - kind: url
   url: https://github.com/Fri3dCamp/badge/tree/master/design/jewels/Air.01
   title: badge/design/jewels/Air.01 at master - Fri3dCamp/badge
