@@ -28,7 +28,7 @@ bornhack-2026-cyber-gg | Cyber Ægg | badge.team, Thomas Flummer
 brucon-2018-brucon-0x0a-badge | BruCON 0x0A Badge | Jean-George (Jegeva)
 brucon-2019-brucon-2019-badge-custom-firmware | BruCON 2019 badge / custom firmware | virtualabs (community firmware for the official BruCON 2019 badge)
 brucon-2021-brucon-2021-badge | BruCON 2021 badge | Jegeva (design/firmware), artwork by Ray Harvey
-brucon-2024-brucon-0x10-badge-2024 | BruCON 0x10 Badge (2024) | Joris Witteman and Tom Clement (hardware/software), PCB art by Nikolett S.
+brucon-2024-brucon-0x10-badge-2024 | BruCON 0x10 Badge (2024) | Joris Witteman (curious.supplies), Tom Clement (curious.supplies), Nikolett S. (ankhaneko.art), Norbert (Allnet China)
 bsides-2025-bsides-badge25-ch4r13-esp32-c3 | BSides-Badge25 (ch4r13, ESP32-C3) | ch4r13
 bsides-2026-bsides-badge26-ch4r13 | BSides-Badge26 (ch4r13) | ch4r13
 bsides-adelaide-2025-the-falken-wombat-badge-2 | The FALKEN Wombat Badge 2 | Hackerware.io (Abhinav SP)
@@ -142,7 +142,7 @@ carolinacon-2019-carolinacon-15-badge | CarolinaCon 15 Badge | 49th Security Div
 carolinacon-2020-carolina-con-16-hardware-badge | Carolina Con 16 Hardware Badge | Matt Agius
 carolinacon-2021-carolina-con-online-badge | Carolina Con Online Badge | Matt Agius
 carolinacon-2022-carolinacon-online-2-badge | CarolinaCon Online 2 Badge | Matt Agius
-carolinacon-2023-carolinacon-online-3-badge-carolinacon-19-badge | Carolinacon Online 3 Badge (Carolinacon 19 Badge) | pettym / 49th Security Division
+carolinacon-2023-carolinacon-online-3-badge-carolinacon-19-badge | CarolinaCon 19 Badge (CarolinaCon Online 3) | pettym / 49th Security Division
 cccamp-2007-sputnik-openbeacon | Sputnik (OpenBeacon) | Milosch Meriac / OpenBeacon project (Bitmanufaktur)
 cccamp-2011-r0ket | r0ket | Team r0ket (hme et al.)
 cccamp-2019-card10 | card10 | Chaos Computer Club community
@@ -158,10 +158,8 @@ cyphercon-2018-cyphercon-3-0-badge-lineman-s-confone | CypherCon 3.0 Badge (Line
 cyphercon-2018-cyphercon-3-0-badge-usb-modem-lineman-s-handset-2018 | CypherCon 3.0 Badge (USB Modem / Lineman's Handset, 2018) | TYMKRS
 cyphercon-2019-cyphercon-badge-with-paper-tape-reader | CypherCon Badge with Paper Tape Reader | tymkrs
 cyphercon-2022-cyphercon-5-3-badge-2022 | CypherCon 5.3 Badge (2022) | TYMKRS, Peter Shabino
-cyphercon-2023-cyphercon-6-0-2023-badge | CypherCon 6.0 (2023) Badge | TYMKRS
-cyphercon-2023-e-ink-ai-adventure-badge-cyphercon-6-0-2023 | e-ink AI Adventure Badge (CypherCon 6.0, 2023) | TYMKRS
+cyphercon-2023-cyphercon-6-0-2023-badge | CypherCon 6.0 e-ink AI Adventure Badge | TYMKRS
 cyphercon-2024-cyphercon-7-0-2024-slot-machine-badge | CypherCon 7.0 (2024) Slot Machine Badge | TYMKRS
-cyphercon-2024-the-slot-machine-badge-cyphercon-7-0-2024 | The Slot Machine Badge (CypherCon 7.0, 2024) | TYMKRS
 cyphercon-2025-bubble-wrap-cheese-grater-badge-cyphercon-8-0-2025 | Bubble Wrap / Cheese Grater Badge (CypherCon 8.0, 2025) | TYMKRS
 cyphercon-2026-the-beeper-cyphercon-9-0-2026 | The Beeper (CypherCon 9.0, 2026) | TYMKRS
 dc14-badge | DEF CON 14 Badge | Grand Idea Studio (Joe Grand / Kingpin)
@@ -1105,7 +1103,7 @@ easterhegg-2024-eh21badge-easterhegg-2024-rca-badge | eh21badge | x70b1
 ekoparty-2021-ekoparty-2021-badge-artwork-set | Ekoparty 2021 Badge Artwork Set | Ekoparty
 ekoparty-2023-ekoparty-2023-electronic-badge | Ekoparty 2023 Electronic Badge | Electronic Cats
 ekoparty-2024-ekoparty-2024-official-badge | Ekoparty 2024 Official Badge | Electronic Cats
-ekoparty-2025-ekoparty-2025-badge | Ekoparty 2025 Badge | Lucas Leal, Nico Restbergs (Fábrica Marciana), Jorge Crowe (monstruoMIDI)
+ekoparty-2025-ekoparty-2025-badge | Ekoparty Badge 2025 | Lucas Leal, Jorge Crowe (monstruoMIDI), Nico Restbergs (Fábrica Marciana)
 ekoparty-2026-ekoparty-2026-champion-electronic-badge | Ekoparty 2026 Champion Electronic Badge | Ekoparty
 emf-camp-2012-tilda-emf-camp-2012-badge | TiLDA (EMF Camp 2012 badge) | Charles Yarnold, EMF Camp / Electromagnetic Field
 emf-camp-2014-tilda-mke | TiLDA MKe | EMF Camp badge team
@@ -1154,9 +1152,9 @@ h2hc-2013-h2hc-2013-badge | H2HC 2013 Badge | Unspecified (H2HC)
 h2hc-2015-h2hc-2015-badge | H2HC 2015 Badge | security-bits.de (Brian)
 h2hc-2017-h2hc-2017-badge | H2HC 2017 Badge | Unspecified (H2HC)
 h2hc-2018-h2hc-2018-badge | H2HC 2018 Badge | security-bits.de (Brian)
-h2hc-2022-h2hc-2022-badge | H2HC 2022 Badge | Unspecified
-h2hc-2023-h2hc-2023-game-boy-badge | H2HC 2023 Game Boy Badge | Unspecified
-h2hc-2024-h2hc-2024-hacker-id-card | H2HC 2024 Hacker ID Card | Unspecified
+h2hc-2022-h2hc-2022-badge | H2HC 2022 Badge | security-bits.de (Brian)
+h2hc-2023-h2hc-2023-game-boy-badge | H2HC 2023 Game Boy Badge | brian
+h2hc-2024-h2hc-2024-hacker-id-card | H2HC 2024 Hacker ID Card | security-bits.de (Brian)
 hackaday-berlin-2023-hackaday-berlin-2023-voja4-badge | Hackaday Berlin 2023 Voja4 Badge | Voja Antonic
 hackaday-europe-2024-vectorscope-synth | Vectorscope-Synth | softegg
 hackaday-europe-2024-vectorscopemusicaddon | VectorScopeMusicAddon | davedarko
@@ -1170,8 +1168,8 @@ hackerhotel-2024-telegraph-badge-hackerhotel-2024 | Telegraph Badge (Hackerhotel
 hackerhotel-2025-hackerhotel-2025-badge | HackerHotel 2025 Badge | Badge.Team
 hackers-teaching-hackers-2019-hackers-teaching-hackers-2019-general-sao-totem-badge | Hackers Teaching Hackers 2019 General (SAO Totem) Badge | mcm3nac3
 hackers-teaching-hackers-2019-hth-elite-2019-badge-2 | HTH Elite 2019 Badge | syn-ack-zack
-hackers-teaching-hackers-2024-terminator-01-hth-2024-badge | Terminator-01 (HTH 2024 Badge) | syn-ack-zack / HTHackers
-hackers-teaching-hackers-2025-johnny-5-shortcircuit-hth-2025-badge | Johnny 5 ShortCircuit (HTH 2025 Badge) | HTHackers
+hackers-teaching-hackers-2024-terminator-01-hth-2024-badge | Terminator-01 | syn-ack-zack / HTHackers
+hackers-teaching-hackers-2025-johnny-5-shortcircuit-hth-2025-badge | Johnny 5 (2025 HTH Badge) | HTHackers
 hackers-teaching-hackers-2026-eagle-5-hardware-the-hard-way-hth-2026-badge | Eagle 5 (Hardware the Hard Way / HTH 2026 Badge) | syn-ack-zack
 hackfest-2019-hackfest-2019-electronic-badge | Hackfest 2019 Electronic Badge | Hackfest (official)
 hitb-2018-hitbsecconf2018-amsterdam-badge | HITBSecConf2018 Amsterdam Badge | Qihoo360 Unicorn Team
@@ -1181,30 +1179,28 @@ hitb-2019-hitbsecconf2019-amsterdam-badge | HITBSecConf2019 Amsterdam Badge | Ha
 hitb-2021-hitb-cyberweek-2021-packet-hack-badge | HITB+CyberWeek 2021 Packet Hack Badge | Hack In The Box
 hitb-2021-hitb-electronic-badge-hitbsecconf2021-singapore | HITB Electronic Badge (HITBSecConf2021 Singapore) | Techmaker
 hitb-2024-hitbsecconf2024-bangkok-badge-village-device | HITBSecConf2024 Bangkok Badge Village Device | Hack In The Box
-hitb-2024-hitbsecconf2024-bangkok-saikoctf-badge | HITBSecConf2024 Bangkok SaikoCTF Badge | Hack In The Box
+hitb-2024-hitbsecconf2024-bangkok-saikoctf-badge | HITBSecConf2024 Bangkok SaikoCTF Badge | Hack In The Box, SRI International, IHMC, HackRocks, Flagyard
 hitcon-2017-hitcon-cmt-2017-mediatek-badge | HITCON CMT 2017 MediaTek Badge | HITCON / MediaTek (HITCON Activity Team)
 hitcon-2018-hitcon-cmt-2018-wallet-badge-cold-wallet-badge | HITCON CMT 2018 Wallet Badge (Cold Wallet Badge) | will127534 (OSSLab Geek Lab)
 hitcon-2019-hitcon-cmt-2019-badge-trustzone-challenge | HITCON CMT 2019 Badge (TrustZone Challenge) | HITCON / yuawn (Alan Lee)
 hitcon-2023-hitcon-cmt-2023-nfc-badge | HITCON CMT 2023 NFC Badge | HITCON Activity Team
 hitcon-2024-hitcon-cmt-2024-pcb-badge | HITCON CMT 2024 PCB Badge | HITCON Activity Team / hacksintaiwan
 hitcon-2025-hitcon-2025-pcb-badge | HITCON 2025 PCB Badge | HITCON
-hitcon-2025-hitcon-2025-pcb-badge-hacker-pet | HITCON 2025 PCB Badge (Hacker Pet) | Justin (aoaaceai) and the HITCON team
 hitcon-2026-hitcon-2026-ntag215-nfc-attendee-badge | HITCON 2026 NTAG215 NFC Attendee Badge | HITCON
 hope-2008-the-last-hope-attendee-meta-data-amd-badge | The Last HOPE Attendee Meta-Data (AMD) Badge | HOPE conference organizers (hope.net)
 hope-2010-the-next-hope-badge | The Next HOPE Badge | HOPE / OpenAMD badge committee
 hope-2014-hope-x-badge | HOPE X Badge | HOPE conference organizers (hope.net / 2600)
 hope-2020-hope-2020-conference-badge | HOPE 2020 conference badge | HOPE conference organizers (2600)
 hope-2024-hope-xv-electronic-badge | HOPE XV Electronic Badge | HOPE Badge Team (HBT) with Novel Circuits
-hope-2024-hope-xv-electronic-badge-hope-16 | HOPE XV Electronic Badge (HOPE_16) | tidklaas (Open Hardware repo maintainer) / HOPE badge team
 hushcon-2016-hushcon-2016-wifi-pager-badge | Hushcon 2016 WiFi Pager Badge | whitey
-hushcon-2023-hushcon-monkey-badge | HushCon Monkey Badge | PacketChat
+hushcon-2023-hushcon-monkey-badge | Monkey Badge | PacketChat
 kernelcon-2019-kernelcon-2019-k-badge | Kernelcon 2019 K Badge | ZonkSec (Tyler Rosonke)
 kernelcon-2020-kernelcon-2020-hack-master-badge | Kernelcon 2020 Hack-Master Badge | ZonkSec
 kernelcon-2021-kernelcon-2021-hacker-hotkey | Kernelcon 2021 Hacker HotKey | Kernelcon
 kernelcon-2022-kernelcon-2022-watch-badge | Kernelcon 2022 Watch Badge | ZonkSec
-kernelcon-2023-kernelcon-2023-1337-khz-radio-badge | Kernelcon 2023 1337 kHz Radio Badge | Kernelcon
-kernelcon-2024-kernelcon-2024-a-nalyze-i-nternet-badge | Kernelcon 2024 [a]nalyze [i]nternet Badge | Kernelcon
-kernelcon-2025-kernelcon-2025-race-condition-badge | Kernelcon 2025 Race Condition Badge | Kernelcon
+kernelcon-2023-kernelcon-2023-1337-khz-radio-badge | Kernelcon 2023 1337 kHz Radio Badge | Kevin Neubauer (bl4cksmith), Tyler Rosonke (zonksec)
+kernelcon-2024-kernelcon-2024-a-nalyze-i-nternet-badge | Kernelcon 2024 [a]nalyze [i]nternet Badge | zonksec (Tyler Rosonke), Cyber City Circuits
+kernelcon-2025-kernelcon-2025-race-condition-badge | Kernelcon 2025 Race Condition Badge | ZonkSec
 kernelcon-2026-kernelcon-2026-off-grid-badge | Kernelcon 2026 Off Grid Badge | ZonkSec / Kernelcon Badge Team
 layerone-2015-layerone-2015-dual-electronic-badges-attendee-speaker-staff | LayerOne 2015 Dual Electronic Badges (Attendee + Speaker/Staff) | charliex, null space labs
 layerone-2015-layerone-demoscene-demoboard | LayerOne Demoscene Demoboard | null space labs
@@ -1220,9 +1216,8 @@ lehack-2023-lehack-2023-access-badge | leHACK 2023 Access Badge | Energumene
 lehack-2024-cool-kid-s-badge | Cool Kid's Badge | Tixlegeek (cyberpunk.company)
 mch-2022-mch2022-butterfly | MCH2022 Butterfly | tilde.industries
 nolacon-2018-nolacon-2018-badge-dead10c5-nola-con | NolaCon_2018 badge ("DEAD10C5 NOLA CON") | r00k5A58
-nolacon-2024-nolacon-2024-official-badge-voodoo-heart-series-badge-1 | NolaCon 2024 official badge (Voodoo Heart series, badge #1) | NolaCon (badge maker credited as CylentK/cyl3ntkn1ght)
+nolacon-2024-nolacon-2024-official-badge-voodoo-heart-series-badge-1 | NolaCon 2024 official badge (Voodoo Heart series, badge #1) | NolaCon (badge maker credited as CylentK/cyl3ntkn1ght, aka Jack Lambert)
 nolacon-2025-nolacon-2025-patches-badge | NolaCon 2025 Patches Badge | Voodoo Heart series
-nolacon-2025-patches-voodoo-heart-series-badge-2 | Patches (Voodoo Heart series, badge #2) | CylentK / cyl3ntkn1ght (NolaCon badge maker)
 northsec-2015-northsec-2015-badge | NorthSec 2015 Badge | NorthSec
 northsec-2016-northsec-2016-badge | NorthSec 2016 Badge | NorthSec
 northsec-2017-northsec-2017-badge | NorthSec 2017 Badge | NorthSec
@@ -1255,7 +1250,7 @@ offzone-2025-offzone-2025-bear-add-on | OFFZONE 2025 Bear add-on | BI.ZONE / Cra
 offzone-2025-offzone-2025-boombox-add-on | OFFZONE 2025 Boombox add-on | BI.ZONE / Craft.Zone
 offzone-2025-offzone-2025-main-badge | OFFZONE 2025 Main Badge | BI.ZONE
 offzone-2025-offzone-2025-terminal-add-on | OFFZONE 2025 Terminal add-on | BI.ZONE / Craft.Zone
-open-sauce-2024-open-sauce-2024-badge | Open Sauce 2024 Badge | DC Punks (Pawprint Prototyping)
+open-sauce-2024-open-sauce-2024-badge | Open Sauce 2024 Badge | DC Punks
 open-sauce-2025-open-sauce-2025-badge | Open Sauce 2025 Badge | Open Sauce (with DigiKey/PCBWay)
 open-sauce-2026-knitronics-add-on-badge-for-open-sauce-2026 | Knitronics Add-on Badge for Open Sauce 2026 | knitronics
 open-sauce-2026-open-sauce-2026-badge | Open Sauce 2026 Badge | Caleb Marting (with Gerard Hudson)
@@ -1483,7 +1478,7 @@ other-tubecube-minibadge | TubeCube Minibadge | hamster
 other-ubasic-game-for-superconference-badge | uBASIC game for Superconference badge | Kojoe
 other-ubuntu-sao | Ubuntu SAO | Alee (Tindie: alee97422)
 other-uhl-minibadge-2022-utah-home-labs-minibadge | UHL-minibadge-2022 — Utah Home Labs Minibadge | James Carbine (klipperx / Utah Home Labs)
-other-universe-2025-tufty-edition-badge | Universe 2025 (Tufty Edition) Badge | Pimoroni (for GitHub)
+other-universe-2025-tufty-edition-badge | Badger 2350 (GitHub Universe 2025 Badge) | Pimoroni
 other-unofficial-fan-made-2020-remoticon-badge-design | Unofficial fan-made 2020 Remoticon badge design | Thomas Flummer
 other-vetcon-wall-flag-wall-flag-2-0 | Vetcon Wall Flag / Wall Flag 2.0 | VetCON
 other-waifu-badge | Waifu Badge | Waifus4Lifu
@@ -1509,7 +1504,7 @@ queercon-2019-queercon-16-badge | Queercon 16 badge | duplico
 queercon-2019-queercon-16-q-badge | Queercon 16 Q Badge | Evan Mackay, George Louthan, Tara Scape, Subterfuge
 queercon-2022-queercon-18-badge | Queercon 18 Badge | Queercon
 roadsec-2017-roadsec-black-badge-customization | RoadSec Black Badge Customization | Londrina Hacker Club
-rootedcon-2025-toadsec-badge-rootedcon | ToadSec Badge RootedCON | Toad Security (PCB design by Snoody / Alejandro Torres)
+rootedcon-2025-toadsec-badge-rootedcon | ToadSec Badge RootedCON | Toad Security, Snoody
 ruxcon-2015-ruxcon-2015-hhv-badge | Ruxcon 2015 HHV Badge | Peter Fillmore / Ruxcon Hardware Hacking Village
 ruxcon-2016-ruxcon-2016-hhv-badge | Ruxcon 2016 HHV Badge | darkglade (Morgan) / Ruxcon Hardware Hacking Village
 ruxcon-2017-ruxcon-2017-hhv-badge | Ruxcon 2017 HHV Badge | darkglade (Morgan) / Ruxcon Hardware Hacking Village
@@ -1525,9 +1520,9 @@ rvasec-2020-rvasec-2020-badge | RVAsec 2020 Badge | HackRVA
 rvasec-2021-rvasec-2021-badge | RVAsec 2021 Badge | HackRVA
 rvasec-2022-rvasec-2022-badge | RVAsec 2022 Badge | HackRVA
 rvasec-2023-rvasec-2023-badge | RVAsec 2023 Badge | HackRVA
-rvasec-2024-rvasec-2024-badge | RVAsec 2024 Badge | HackRVA
+rvasec-2024-rvasec-2024-badge | R.O.V.E.R. (RVAsec 2024 Badge) | HackRVA
 rvasec-2025-rvasec-2025-badge | RVAsec 2025 Badge | HackRVA
-rvasec-2026-rvasec-2026-badge | RVAsec 2026 Badge | HackRVA
+rvasec-2026-rvasec-2026-badge | RVAsec 2026 Badge: BadgeMan | HackRVA
 saintcon-2014-saintcon-2014-badge | SAINTCON 2014 Badge | Luke Jenkins and Klint Holmes
 saintcon-2014-saintcon-2014-blinky-daughterboard | SAINTCON 2014 Blinky Daughterboard | Matt Lorimer
 saintcon-2015-saintcon-2015-badge-uberdice | SAINTCON 2015 Badge (UberDice) | Luke Jenkins
@@ -1976,6 +1971,6 @@ why-2025-why-2025-badge | WHY 2025 Badge | WHY 2025 badge team (organizers, name
 why-2025-why2025-badge | WHY2025 Badge | Team:Badge (WHY2025), repo at gitlab.com/why2025/team-badge
 why-2025-why2025-flipper-blackhat-cyberdeck-badge-conversion | Blackpants (WHY2025 badge / Flipper Blackhat cyberdeck conversion) | Rootkit Labs
 why-2025-why2025-sao-adapter | WHY2025 SAO Adapter | a-little-wifi
-wild-west-hackin-fest-2024-wild-west-hackin-fest-2024-foalmoon2-badge | Wild West Hackin' Fest 2024 FoalMoon2 Badge | Wild West Hackin' Fest / Black Hills Information Security
+wild-west-hackin-fest-2024-wild-west-hackin-fest-2024-foalmoon2-badge | Wild West Hackin' Fest 2024 Attendee Badge (FoalMoon2) | ustayready
 wild-west-hackin-fest-2025-wild-west-hackin-fest-deadwood-2025-e-badge | Wild West Hackin' Fest Deadwood 2025 E-Badge | Wild West Hackin' Fest (sponsored by Antisyphon Training)
 zeronights-2016-zeronights-badge-zerobadge | ZeroNights Badge (ZeroBadge) | ZeroNights

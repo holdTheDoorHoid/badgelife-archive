@@ -74,10 +74,10 @@ sources:
   accessed: '2026-09-08'
   note: 'README and repo contents: identifies badge as the HTH 2019 general attendee badge with 4 SAO ports, GPL-3.0, KiCad + gerber + BOM files, and a known switch-trace bug.'
 research:
-  status: stub
-  confidence: low
-  last_checked: '2026-09-07'
-  notes: Imported from the community badge sheet; not yet researched. Merged with duplicate entry 'HTH General (SAO Totem) Badge' (hackers-teaching-hackers-2019-hth-general-badge).
+  status: researched
+  confidence: medium
+  last_checked: '2026-09-08'
+  notes: 'Confirmed via the maker''s own GitHub repo (syn-ack-zack/HTH-General-Badge): README, KiCad source, gerbers, and BOM all check out. No pricing, quantity, or distribution details found anywhere -- no press coverage or storefront listing turned up in search. Merged with duplicate entry ''HTH General (SAO Totem) Badge'' (hackers-teaching-hackers-2019-hth-general-badge).'
 last_modified_date: '2026-09-08'
 redirect_from:
 - /badges/hackers-teaching-hackers-2019/hth-general-badge/

@@ -11,11 +11,8 @@ year: 2017
 makers:
 - name: w4ilun (squarofumi)
   url: https://hackaday.io/w4ilun
-summary: A rechargeable, coin-cell-powered e-paper WiFi badge/name-tag built around
-  an ESP8266, designed as an open hardware alternative to a printed name badge.
-functions: Shows a name-tag or any custom e-paper content; can act as a WiFi smart-home
-  remote, weather/news display, scoreboard, or "deauther" via its ESP8266, with
-  OTA updates, a WYSIWYG designer GUI, and IFTTT support.
+summary: A rechargeable, coin-cell-powered e-paper WiFi badge/name-tag built around an ESP8266, designed as an open hardware alternative to a printed name badge.
+functions: Shows a name-tag or any custom e-paper content; can act as a WiFi smart-home remote, weather/news display, scoreboard, or "deauther" via its ESP8266, with OTA updates, a WYSIWYG designer GUI, and IFTTT support.
 look:
   colors:
   - black
@@ -40,10 +37,9 @@ get_one:
   availability: sold_out
   distribution:
   - purchase
-  where: Sold assembled via the maker's Tindie store (squarofumi); out of stock
-    since December 2019.
+  where: Sold assembled via the maker's Tindie store (squarofumi); out of stock since December 2019.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/sqfmi/badgy
   firmware_url: https://github.com/sqfmi/badgy
   eda_tool: KiCad
@@ -51,21 +47,24 @@ links:
 - label: hackaday.io/project/28800-badgy
   url: https://hackaday.io/project/28800-badgy
   kind: hackaday
+  archived: https://web.archive.org/web/20251005110119/https://hackaday.io/project/28800-badgy
 - label: github.com/sqfmi/badgy
   url: https://github.com/sqfmi/badgy
   kind: repo
+  archived: https://web.archive.org/web/20260616225051/https://github.com/sqfmi/badgy
 - label: Tindie - Badgy IoT Badge
   url: https://www.tindie.com/products/squarofumi/badgy-iot-badge/
   kind: store
 images:
 - file: assets/images/badges/other/badgy/1205928af3.jpg
-  source: "https://www.tindie.com/products/squarofumi/badgy-iot-badge/"
-  credit: "squarofumi (w4ilun)"
-  caption: "Badgy IoT badge product photo, e-ink display showing badge name"
+  source: https://www.tindie.com/products/squarofumi/badgy-iot-badge/
+  credit: squarofumi (w4ilun)
+  caption: Badgy IoT badge product photo, e-ink display showing badge name
 - file: assets/images/badges/other/badgy/125c184d4f.jpg
-  source: "https://hackaday.io/project/28800-badgy"
-  credit: "w4ilun"
-  caption: "Badgy e-ink WiFi badge, Hackaday.io project photo"
+  source: https://hackaday.io/project/28800-badgy
+  credit: w4ilun
+  caption: Badgy e-ink WiFi badge, Hackaday.io project photo
+  archived: https://web.archive.org/web/20251005110119/https://hackaday.io/project/28800-badgy
 contact: {}
 notes: []
 status: released
@@ -75,16 +74,19 @@ sources:
   title: Badgy
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: hackaday-list); event read as ''unknown''.'
+  archived: https://web.archive.org/web/20251005110119/https://hackaday.io/project/28800-badgy
 - kind: url
   url: https://hackaday.io/project/28800-badgy
   title: badgy | Hackaday.io
   accessed: '2026-09-07'
   note: Confirmed description, maker (w4ilun), submission date (2017-12-28), header/og image.
+  archived: https://web.archive.org/web/20251005110119/https://hackaday.io/project/28800-badgy
 - kind: url
   url: https://github.com/sqfmi/badgy
   title: sqfmi/badgy
   accessed: '2026-09-07'
   note: Hardware/firmware repo; MCU, display, battery, MIT license, hardware revisions Rev 1 through Rev 2C (Sept 2019).
+  archived: https://web.archive.org/web/20260616225051/https://github.com/sqfmi/badgy
 - kind: url
   url: https://www.tindie.com/products/squarofumi/badgy-iot-badge/
   title: Badgy - IoT Badge (Tindie)
@@ -94,12 +96,7 @@ research:
   status: researched
   confidence: high
   last_checked: '2026-09-07'
-  notes: Badgy was not made for a specific hacker convention; it was submitted to
-    Hackaday's "Coin Cell Challenge" contest (a Hackaday.io online competition, not
-    a physical con) on 2017-12-28, then sold as a general-purpose IoT name badge
-    on Tindie. No matching event exists in events.yml, so event is left as "other".
-    LED count/type not stated by any source (device has no addressable LEDs, only
-    the e-paper display). Quantity made not stated.
+  notes: Badgy was not made for a specific hacker convention; it was submitted to Hackaday's "Coin Cell Challenge" contest (a Hackaday.io online competition, not a physical con) on 2017-12-28, then sold as a general-purpose IoT name badge on Tindie. No matching event exists in events.yml, so event is left as "other". LED count/type not stated by any source (device has no addressable LEDs, only the e-paper display). Quantity made not stated.
 last_modified_date: '2026-09-07'
 ---
 

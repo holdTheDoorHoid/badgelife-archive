@@ -537,5 +537,145 @@
   "event": "disobey-2026",
   "type": "other",
   "url": "https://github.com/shadikka/disobey-badge-2026-tutorial"
+ },
+ {
+  "title": "Knitronics Add-on Badge for Open Sauce 2026",
+  "maker": "knitronics",
+  "event": "open-sauce-2026",
+  "type": "sao",
+  "url": "https://deveco.io/u/knitronics/project/knitronics-add-on-badge-for-open-sauce-2026"
+ },
+ {
+  "title": "CypherCon8-Badge (unofficial community firmware repo, not a distinct physical item)",
+  "maker": "EekRats (community, not TYMKRS)",
+  "event": "cyphercon-2025",
+  "type": "firmware repo",
+  "url": "https://github.com/EekRats/CypherCon8-Badge"
+ },
+ {
+  "title": "Kernelcon 2026 Off Grid Badge",
+  "maker": "ZonkSec / Kernelcon Badge Team",
+  "event": "kernelcon-2026",
+  "type": "badge",
+  "url": "https://github.com/ZonkSec/kernelcon-2026-badge"
+ },
+ {
+  "title": "NolaCon 2024 official badge (Voodoo Heart series, badge #1)",
+  "maker": "CylentK / cyl3ntkn1ght",
+  "event": "nolacon-2024",
+  "type": "badge",
+  "url": "already has an archive entry: nolacon-2024-nolacon-2024-official-badge-voodoo-heart-series-badge-1"
+ },
+ {
+  "title": "BugCON 2025 Badge Add-On",
+  "maker": "Electronic Cats",
+  "event": "other (BugCON 2025)",
+  "type": "accessory",
+  "url": "https://github.com/ElectronicCats/badge-bugcon-2025/tree/main/hardware/Add_On_Bugcon_2025"
+ },
+ {
+  "title": "PHDays Badge (2024)",
+  "maker": "Positive Labs / Positive Technologies",
+  "event": "phdays-2024",
+  "type": "badge",
+  "url": "https://habr.com/ru/companies/pt/articles/890296/"
+ },
+ {
+  "title": "DOOM on Brucon Badge",
+  "maker": "Teodor Trotea",
+  "event": "brucon-2024",
+  "type": "firmware/software project (not a separate physical badge)",
+  "url": "https://teodor-trotea.com/projects/brucon-doom"
+ },
+ {
+  "title": "Backpack of Shame",
+  "maker": "CynicalSignals (ickfosec)",
+  "event": "grrcon-2024",
+  "type": "accessory",
+  "url": "https://github.com/ickfosec/esp"
+ },
+ {
+  "title": "HITBSecConf2024 Bangkok Badge Village Device (Raspberry Pi Pico fault-injection village device)",
+  "maker": "Hack In The Box",
+  "event": "hitb-2024",
+  "url": "https://badge.gallery/badges/hitbsecconf-2024-bangkok-badge-village-device",
+  "type": "other"
+ },
+ {
+  "title": "SaikoCTF hardware badges from other conferences (SRI International's ASCEND program ran SaikoCTF at multiple conferences and online)",
+  "maker": "SRI International / IHMC",
+  "event": "unknown - needs research per conference",
+  "url": "https://www.sri.com/ascend/",
+  "type": "badge"
+ },
+ {
+  "title": "BalCCon Cyberdeck 0o27 (BCD-0o27)",
+  "maker": "Florian Euchner / CH405 Labs",
+  "event": "balccon-2023",
+  "type": "badge",
+  "url": "https://ch405-labs.com/bcd-0o27-balccon2k23-firmware-copy/"
+ },
+ {
+  "title": "HITCON 2025 PCB Badge (Hacker Pet)",
+  "maker": "Justin (aoaaceai) and the HITCON team",
+  "event": "hitcon-2025",
+  "type": "badge",
+  "url": "https://github.com/hacksintaiwan/hitcon-pcb-badge (V2.x hardware, already has its own archive entry)"
+ },
+ {
+  "title": "Patches (NolaCon 2025 badge, Voodoo Heart series #2)",
+  "maker": "CylentK / cyl3ntkn1ght",
+  "event": "nolacon-2025",
+  "type": "badge",
+  "url": "https://nolacon.com/badge/"
+ },
+ {
+  "title": "PHDays Badge 2025",
+  "maker": "Positive Labs / Positive Technologies",
+  "event": "phdays-2025",
+  "type": "badge",
+  "url": "https://github.com/Ushinbuy/PHD_Badge_2025"
+ },
+ {
+  "title": "BalCCon Mini Cyberdeck 0o00 (MC-0o00)",
+  "maker": "CH405 Labs",
+  "event": "balccon-2024",
+  "type": "badge",
+  "url": ""
+ },
+ {
+  "title": "PacketChat Mesh / PacketChat Trek",
+  "maker": "PacketChat",
+  "event": "",
+  "type": "radio (not a con badge \u2014 off-grid mesh comms radio, field-tested at a youth campout in 2025)",
+  "url": "http://packetchat.com/trek-radio.html"
+ },
+ {
+  "title": "Carolina Con 16 Hardware Badge",
+  "maker": "Matt Agius",
+  "event": "carolinacon-2020",
+  "type": "badge",
+  "url": "already in archive (carolinacon-2020-carolina-con-16-hardware-badge)"
+ },
+ {
+  "title": "Carolina Con Online Badge",
+  "maker": "Matt Agius",
+  "event": "carolinacon-2021",
+  "type": "badge",
+  "url": "already in archive (carolinacon-2021-carolina-con-online-badge)"
+ },
+ {
+  "title": "H2HC 2015 Badge",
+  "maker": "security-bits.de (Brian)",
+  "event": "h2hc-2015",
+  "type": "badge",
+  "url": "https://security-bits.de/electronics/badges/"
+ },
+ {
+  "title": "H2HC 2018 Badge",
+  "maker": "security-bits.de (Brian)",
+  "event": "h2hc-2018",
+  "type": "badge",
+  "url": "https://security-bits.de/electronics/badges/"
  }
 ]

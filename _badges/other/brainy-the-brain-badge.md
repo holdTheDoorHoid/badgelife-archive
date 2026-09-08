@@ -12,7 +12,7 @@ makers:
 - name: Danny Fernandez Raygoza
   url: https://github.com/Danny24
 summary: A brain-shaped PCB pin badge with a smiling face and band-aid, driven by a PIC12LF1822 with 8 charlieplexed white LEDs (6 front, 2 back) that mimic neuron activity, powered by a CR2032 and made in 2020 to commemorate the maker's recovery from brain surgery.
-functions: 'Button-controlled LED animation patterns simulating neuron activity, plus a low-power mode; an ICSP connector allows uploading custom animations/firmware.'
+functions: Button-controlled LED animation patterns simulating neuron activity, plus a low-power mode; an ICSP connector allows uploading custom animations/firmware.
 look:
   colors: []
   shape: brain
@@ -34,12 +34,12 @@ get_one:
   price_usd: 24.45
   quantity: ''
   availability: sold_out
-  availability_note: 'Tindie listing showed out of stock as of Sep 27, 2023 (checked 2026-09-07).'
+  availability_note: Tindie listing showed out of stock as of Sep 27, 2023 (checked 2026-09-07).
   distribution:
   - purchase
   where: Sold directly by the maker (2BRobots, Mexico) via Tindie, to help cover ongoing medical expenses.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/Danny24/brainyBadge
   firmware_url: https://github.com/Danny24/brainyBadge
   gerbers_url: null
@@ -47,7 +47,7 @@ make_your_own:
   eda_tool: Eagle
   license: null
   fab_url: https://www.pcbway.com/project/shareproject/Brainy___The_Brain_badge.html
-  notes: 'Board outline traced from a vector graphic using Inkscape and svgtoeagle; Gerbers also shared as brain_badge_v1.zip on the PCBWay project page.'
+  notes: Board outline traced from a vector graphic using Inkscape and svgtoeagle; Gerbers also shared as brain_badge_v1.zip on the PCBWay project page.
 links:
 - label: www.pcbway.com/project/shareproject/Brainy___The_Brain_badge.html
   url: https://www.pcbway.com/project/shareproject/Brainy___The_Brain_badge.html
@@ -55,21 +55,24 @@ links:
 - label: github.com/Danny24/brainyBadge
   url: https://github.com/Danny24/brainyBadge
   kind: repo
+  archived: https://web.archive.org/web/20260509103823/https://github.com/Danny24/brainyBadge
 - label: hackaday.io/project/170993-brainy-the-pcb-badge
   url: https://hackaday.io/project/170993-brainy-the-pcb-badge
   kind: hackaday
 - label: www.tindie.com/products/danny024/brainy-the-brain-badge
   url: https://www.tindie.com/products/danny024/brainy-the-brain-badge/
   kind: store
+  archived: https://web.archive.org/web/20260503131451/https://www.tindie.com/products/danny024/brainy-the-brain-badge/
 images:
-  - file: assets/images/badges/other/brainy-the-brain-badge/8c0660ad08.jpg
-    source: "https://www.tindie.com/products/danny024/brainy-the-brain-badge/"
-    credit: "Danny Fernandez Raygoza / 2BRobots"
-    caption: "Brainy the brain-shaped PCB badge"
-  - file: assets/images/badges/other/brainy-the-brain-badge/0c91cee592.jpg
-    source: "https://hackaday.io/project/170993-brainy-the-pcb-badge"
-    credit: "Danny Fernandez Raygoza"
-    caption: "Brainy PCB layout / assembled badge on Hackaday project page"
+- file: assets/images/badges/other/brainy-the-brain-badge/8c0660ad08.jpg
+  source: https://www.tindie.com/products/danny024/brainy-the-brain-badge/
+  credit: Danny Fernandez Raygoza / 2BRobots
+  caption: Brainy the brain-shaped PCB badge
+  archived: https://web.archive.org/web/20260503131451/https://www.tindie.com/products/danny024/brainy-the-brain-badge/
+- file: assets/images/badges/other/brainy-the-brain-badge/0c91cee592.jpg
+  source: https://hackaday.io/project/170993-brainy-the-pcb-badge
+  credit: Danny Fernandez Raygoza
+  caption: Brainy PCB layout / assembled badge on Hackaday project page
 contact: {}
 notes: []
 status: released
@@ -83,22 +86,24 @@ sources:
   url: https://hackaday.io/project/170993-brainy-the-pcb-badge
   title: Brainy - The PCB Badge - Hackaday.io
   accessed: '2026-09-07'
-  note: 'Backstory (2020 brain surgery for a tectal plate tumor / hydrocephalus, VP shunt), design process (Eagle, Inkscape, svgtoeagle), assembly details, and gallery images.'
+  note: Backstory (2020 brain surgery for a tectal plate tumor / hydrocephalus, VP shunt), design process (Eagle, Inkscape, svgtoeagle), assembly details, and gallery images.
 - kind: url
   url: https://github.com/Danny24/brainyBadge
   title: Danny24/brainyBadge - GitHub
   accessed: '2026-09-07'
-  note: 'Confirmed open-source Firmware/Hardware/Pictures repo structure and a LICENSE file; maker dedication to those who helped during recovery.'
+  note: Confirmed open-source Firmware/Hardware/Pictures repo structure and a LICENSE file; maker dedication to those who helped during recovery.
+  archived: https://web.archive.org/web/20260509103823/https://github.com/Danny24/brainyBadge
 - kind: url
   url: https://www.tindie.com/products/danny024/brainy-the-brain-badge/
   title: Brainy - The Brain Badge by danny024 on Tindie
   accessed: '2026-09-07'
-  note: 'Price ($24.45), out-of-stock status (since Sep 27, 2023), seller location (2BRobots, Mexico), and a product photo.'
+  note: Price ($24.45), out-of-stock status (since Sep 27, 2023), seller location (2BRobots, Mexico), and a product photo.
+  archived: https://web.archive.org/web/20260503131451/https://www.tindie.com/products/danny024/brainy-the-brain-badge/
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-07'
-  notes: 'This is a personal/community project rather than a badge made for a specific convention, so it has no matching id in events.yml and stays under "other" (its maker made and sold it independently via Tindie/PCBWay/Hackaday, not tied to one con). Exact quantity made and a Gerbers direct link were not stated on any source checked; left empty. PCBWay page mentions an 11-vote community rating (9.27/10), not otherwise recorded in the schema.'
+  notes: This is a personal/community project rather than a badge made for a specific convention, so it has no matching id in events.yml and stays under "other" (its maker made and sold it independently via Tindie/PCBWay/Hackaday, not tied to one con). Exact quantity made and a Gerbers direct link were not stated on any source checked; left empty. PCBWay page mentions an 11-vote community rating (9.27/10), not otherwise recorded in the schema.
 last_modified_date: '2026-09-07'
 ---
 

@@ -31,7 +31,7 @@ tech:
   - ble
   - i2c
   - uart
-  battery: 2x AA
+  battery: 3x AA
   sao_version: null
 get_one:
   price: ''
@@ -71,21 +71,31 @@ sources:
   url: https://github.com/ElectronicCats/badge-ekoparty2023
   title: 'ElectronicCats/badge-ekoparty2023 README'
   accessed: '2026-09-08'
-  note: 'Maker''s own README (Spanish): confirms CH32V208CBU6 RISC-V chip, BLE/I2C/UART/SPI/CAN, OLED, WS2812B LEDs, 2x AA power, the removable "mask" accessory, CERN OHL v1.2 hardware license and GPL-3.0 firmware, and "Sept 2023" date.'
+  note: 'Maker''s own README (Spanish): confirms CH32V208CBU6 RISC-V chip, BLE/I2C/UART/SPI/CAN, OLED, the removable "mask" accessory, CERN OHL v1.2 hardware license, and "Sept 2023" date. README only says generic "Baterias AA" (no count) and does not name GPL for firmware; those two points are confirmed separately (repo license API, BOM) below.'
+- kind: url
+  url: https://github.com/ElectronicCats/badge-ekoparty2023/blob/main/hardware/ekoparty2023.csv
+  title: 'badge-ekoparty2023 hardware BOM (ekoparty2023.csv)'
+  accessed: '2026-09-08'
+  note: 'BOM line "J1, Battery, Ekoparty:BAT_12BH331P-GR" identifies the battery holder as Eagle Plastic Devices/EPD part 12BH331P-GR, which Mouser/Jotrin/JAK Electronics listings describe as a 3xAA PC-pin holder - corrects the entry from an unsupported "2x AA" to "3x AA". Repo folder listing (via gh api tree) also corroborates WS2812B and SSD1306 driver folders under firmware/ and a WS2812B footprint under hardware/Library, supporting the leds.type and display fields.'
+- kind: url
+  url: https://api.github.com/repos/ElectronicCats/badge-ekoparty2023
+  title: 'GitHub repo API record for badge-ekoparty2023'
+  accessed: '2026-09-08'
+  note: 'Confirms repo-level license is GPL-3.0 (supports make_your_own.open_source firmware licensing, which the README text itself does not state).'
 - kind: url
   url: https://badge.gallery/series/ekoparty
   title: 'Ekoparty · Hacker Con Badges (badge.gallery)'
   accessed: '2026-09-08'
   note: 'Third-party aggregator; states the 2023 badge was "capped at 500 units" and describes it as the first limited Ekoparty electronic badge. No photo of the 2023 unit shown on that page; not corroborated by the maker, so quantity is flagged as unconfirmed.'
 research:
-  status: researched
-  confidence: medium
+  status: verified
+  confidence: high
   last_checked: '2026-09-08'
-  notes: 'Core specs (chip, connectivity, display, battery, open-source status) confirmed from the maker''s own repo README and firmware folder (an SSD1306 driver folder and a WS2812B driver folder corroborate the display/LED claims). Could not find price, exact LED count, distribution method (free vs. paid, included with registration vs. separate), or any photo of the assembled badge within the research budget - the repo has no image files, and no maker photo, Hackaday coverage, or storefront listing turned up in two searches. The "500 units" quantity comes only from a third-party badge-tracking site (badge.gallery), not from Electronic Cats or Ekoparty directly, so it is reported but not treated as confirmed. A duplicate/mirror repo exists at github.com/ElectronicCats/ekobadge2023 with the same README and license files; not added as a separate source since it appears to be the same project, not a distinct item.'
+  notes: 'Fact-check pass (2026-09-08): corrected tech.battery and the body text from an unsupported "2x AA" to "3x AA" - the maker''s README only says generic "Baterias AA" with no count, but the maker''s own hardware BOM (hardware/ekoparty2023.csv) specifies battery holder part 12BH331P-GR, which independent distributor listings (Mouser, Jotrin, JAK Electronics) identify as a 3xAA PC-pin holder. Re-verified chip, BLE/I2C/UART/SPI/CAN, OLED/SSD1306, WS2812B LEDs (firmware folder names and a hardware/Library WS2812B footprint corroborate this), CERN OHL v1.2 hardware license (README) and GPL-3.0 firmware license (repo license API record), the "mask" accessory, KiCad tooling, and the YouTube talk title/link - all check out against the maker''s own repo. The badge.gallery "500 units" figure remains a third-party, unconfirmed claim (that page also calls it a "paid support option," which is new but does not contradict the entry''s blank price/availability fields, so left as-is). Could not find price, exact LED count, distribution method, or any photo of the assembled badge - the repo has no image files and no other coverage turned up in searches. With the battery correction made, everything remaining in the entry is now supported by a source that was actually read.'
 last_modified_date: '2026-09-08'
 ---
 
-The Ekoparty 2023 Electronic Badge was Electronic Cats' first official electronic badge for Ekoparty, the large annual hacking conference in Buenos Aires, Argentina. It is built around a WCH CH32V208CBU6, a RISC-V microcontroller with built-in Bluetooth Low Energy, and pairs it with an OLED display and WS2812B addressable LEDs. The badge runs on two AA batteries and exposes I2C, UART, SPI, and CAN on its GPIO pins for anyone who wants to go beyond the stock firmware.
+The Ekoparty 2023 Electronic Badge was Electronic Cats' first official electronic badge for Ekoparty, the large annual hacking conference in Buenos Aires, Argentina. It is built around a WCH CH32V208CBU6, a RISC-V microcontroller with built-in Bluetooth Low Energy, and pairs it with an OLED display and WS2812B addressable LEDs. The badge runs on three AA batteries and exposes I2C, UART, SPI, and CAN on its GPIO pins for anyone who wants to go beyond the stock firmware.
 
 A distinctive feature is the badge's removable "mask" accessory: Electronic Cats released the mechanical design (with PCB thickness and mounting details) so attendees could design and fabricate their own custom mask to change the badge's look, using tools like KiCad, Inkscape, and svg2shenzhen/svg2mod to convert artwork into a mountable board. The hardware and firmware are both open source - hardware under the CERN Open Hardware Licence v1.2, firmware under GPL-3.0 - with example firmware provided for driving the LEDs, BLE, and OLED.
 

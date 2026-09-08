@@ -12,7 +12,7 @@ makers:
 - name: Voja Antonic
   url: https://hackaday.io/voja-antonic
 summary: A conference badge for BalCCon0x7DB (2016, Novi Sad, Serbia) with synchronized infrared LED patterns, a built-in TV-B-Gone, and a USB password manager.
-functions: 'Runs pre-defined LED patterns that play at random; when two or more badges see each other over an infrared port they sync up and play the same pattern together. Also includes a TV-B-Gone universal remote (based on Mitch Altman''s original design) and a password manager that stores up to 10 passwords (15-20 characters each) and types them out over USB as a HID keyboard.'
+functions: Runs pre-defined LED patterns that play at random; when two or more badges see each other over an infrared port they sync up and play the same pattern together. Also includes a TV-B-Gone universal remote (based on Mitch Altman's original design) and a password manager that stores up to 10 passwords (15-20 characters each) and types them out over USB as a HID keyboard.
 look:
   colors: []
   shape: null
@@ -24,7 +24,7 @@ tech:
   leds:
     count: 13
     type: null
-    note: '12 individual red/green/blue LEDs plus one RGB LED in the center'
+    note: 12 individual red/green/blue LEDs plus one RGB LED in the center
   display: null
   connectivity:
   - ir
@@ -47,15 +47,18 @@ links:
 - label: hackaday.io/project/13300-balccon-2016-badge
   url: https://hackaday.io/project/13300-balccon-2016-badge
   kind: hackaday
+  archived: https://web.archive.org/web/20260616190520/https://hackaday.io/project/13300-balccon-2016-badge
 images:
 - file: assets/images/badges/other/balccon-2016-badge/a6089f2c48.jpg
-  source: "https://hackaday.io/project/13300-balccon-2016-badge"
-  credit: "Voja Antonic"
-  caption: "BalCCon 2016 badge PCB"
+  source: https://hackaday.io/project/13300-balccon-2016-badge
+  credit: Voja Antonic
+  caption: BalCCon 2016 badge PCB
+  archived: https://web.archive.org/web/20260616190520/https://hackaday.io/project/13300-balccon-2016-badge
 - file: assets/images/badges/other/balccon-2016-badge/59862b3dc0.jpg
-  source: "https://hackaday.io/project/13300-balccon-2016-badge"
-  credit: "Voja Antonic"
-  caption: "BalCCon 2016 badge detail"
+  source: https://hackaday.io/project/13300-balccon-2016-badge
+  credit: Voja Antonic
+  caption: BalCCon 2016 badge detail
+  archived: https://web.archive.org/web/20260616190520/https://hackaday.io/project/13300-balccon-2016-badge
 contact: {}
 notes: []
 status: listed
@@ -65,16 +68,18 @@ sources:
   title: BALCCon 2016 Badge
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: hackaday-list); event read as ''BalCCon 2016''.'
+  archived: https://web.archive.org/web/20260616190520/https://hackaday.io/project/13300-balccon-2016-badge
 - kind: url
   url: https://hackaday.io/project/13300-balccon-2016-badge
   title: BALCCon 2016 Badge
   accessed: '2026-09-07'
-  note: 'Confirmed maker (Voja Antonic), event (BalCCon0x7DB, Novi Sad, Sept 9-11 2016), and feature set (synced IR LED patterns, TV-B-Gone, USB password manager).'
+  note: Confirmed maker (Voja Antonic), event (BalCCon0x7DB, Novi Sad, Sept 9-11 2016), and feature set (synced IR LED patterns, TV-B-Gone, USB password manager).
+  archived: https://web.archive.org/web/20260616190520/https://hackaday.io/project/13300-balccon-2016-badge
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'Made for BalCCon0x7DB, September 9-11 2016, Novi Sad, Serbia (organized by LUGoNS and the Wau Holland Foundation). No matching event exists in _data/events.yml (only DEF CON/US-con style ids are defined), so event is left as "other". MCU, exact LED part number, price, quantity, availability, and open-source status were not stated on the Hackaday.io project page and were left empty rather than guessed. A PDF manual is referenced on the project page but was not reachable via fetch to confirm further technical details.'
+  notes: Made for BalCCon0x7DB, September 9-11 2016, Novi Sad, Serbia (organized by LUGoNS and the Wau Holland Foundation). No matching event exists in _data/events.yml (only DEF CON/US-con style ids are defined), so event is left as "other". MCU, exact LED part number, price, quantity, availability, and open-source status were not stated on the Hackaday.io project page and were left empty rather than guessed. A PDF manual is referenced on the project page but was not reachable via fetch to confirm further technical details.
 last_modified_date: '2026-09-07'
 ---
 

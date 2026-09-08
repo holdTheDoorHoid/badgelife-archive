@@ -42,7 +42,7 @@ links:
 images: []
 contact: {}
 notes:
-- 'Repo description on GitHub reads only "Badge work."'
+- Repo description on GitHub reads only "Badge work."
 status: not_an_item
 sources:
 - kind: url
@@ -54,17 +54,18 @@ sources:
   url: https://github.com/jamesdietle/BadgeLife
   title: jamesdietle/BadgeLife on GitHub
   accessed: '2026-09-07'
-  note: 'Confirmed the repository is empty (no commits, files, README, or releases); only a one-line description "Badge work." No specific badge/SAO to document.'
+  note: Confirmed the repository is empty (no commits, files, README, or releases); only a one-line description "Badge work." No specific badge/SAO to document.
 - kind: url
   url: https://github.com/jamesdietle
   title: jamesdietle GitHub profile
   accessed: '2026-09-07'
-  note: 'Profile lists a separate, populated repo "Cornbadge" (an ATTiny85 SAO-protocol badge) — a different project from this empty BadgeLife repo; flagged separately, not folded into this entry.'
+  note: Profile lists a separate, populated repo "Cornbadge" (an ATTiny85 SAO-protocol badge) — a different project from this empty BadgeLife repo; flagged separately, not folded into this entry.
+  archived: https://web.archive.org/web/20260101021705/https://github.com/jamesdietle
 research:
   status: researched
   confidence: low
   last_checked: '2026-09-07'
-  notes: 'The linked repo jamesdietle/BadgeLife is empty (0 commits, no files) with no README or project page describing a specific badge — there is nothing here to identify as a badge or SAO. This appears to be a placeholder repo, not a shippable item. This maker does have a real badge project, "Cornbadge" (github.com/jamesdietle/Cornbadge, ATTiny85, uses the badgelife SAO/"Shitty Addon" protocol), which is a different repository and may warrant its own entry — see other_items_found in the research report rather than this record.'
+  notes: The linked repo jamesdietle/BadgeLife is empty (0 commits, no files) with no README or project page describing a specific badge — there is nothing here to identify as a badge or SAO. This appears to be a placeholder repo, not a shippable item. This maker does have a real badge project, "Cornbadge" (github.com/jamesdietle/Cornbadge, ATTiny85, uses the badgelife SAO/"Shitty Addon" protocol), which is a different repository and may warrant its own entry — see other_items_found in the research report rather than this record.
 last_modified_date: '2026-09-07'
 ---
 
