@@ -389,6 +389,56 @@
   "family": "bsides",
   "location": ""
  },
+ "hitbsecconf": {
+  "base": "hitb",
+  "family": "other",
+  "location": ""
+ },
+ "hitb secconf": {
+  "base": "hitb",
+  "family": "other",
+  "location": ""
+ },
+ "hack in the box": {
+  "base": "hitb",
+  "family": "other",
+  "location": ""
+ },
+ "sec-t": {
+  "base": "sec-t",
+  "family": "other",
+  "location": "Stockholm, Sweden"
+ },
+ "hackers teaching hackers": {
+  "base": "hackers-teaching-hackers",
+  "family": "other",
+  "location": "Columbus, OH"
+ },
+ "hth": {
+  "base": "hackers-teaching-hackers",
+  "family": "other",
+  "location": ""
+ },
+ "phdays fest": {
+  "base": "phdays",
+  "family": "other",
+  "location": ""
+ },
+ "hitcon cmt": {
+  "base": "hitcon",
+  "family": "other",
+  "location": ""
+ },
+ "roadsec": {
+  "base": "roadsec",
+  "family": "other",
+  "location": "Brazil"
+ },
+ "def con china beta": {
+  "base": "def-con-china",
+  "family": "other",
+  "location": ""
+ },
  "bsidespdx": {
   "base": "bsides-portland",
   "family": "bsides",
@@ -724,11 +774,6 @@
   "family": "other",
   "location": "Chicago, IL"
  },
- "hackers teaching hackers": {
-  "base": "hackers-teaching-hackers",
-  "family": "other",
-  "location": "Columbus, OH"
- },
  "texas cyber summit": {
   "base": "texas-cyber-summit",
   "family": "other",
@@ -839,11 +884,6 @@
   "family": "other",
   "location": "Helsinki, Finland"
  },
- "sec-t": {
-  "base": "sec-t",
-  "family": "other",
-  "location": "Stockholm, Sweden"
- },
  "t2": {
   "base": "t2",
   "family": "other",
@@ -918,11 +958,6 @@
   "base": "h2hc",
   "family": "other",
   "location": "São Paulo, Brazil"
- },
- "roadsec": {
-  "base": "roadsec",
-  "family": "other",
-  "location": "Brazil"
  },
  "open sauce": {
   "base": "open-sauce",

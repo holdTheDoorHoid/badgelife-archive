@@ -69,7 +69,8 @@ def resolve_event(hint, year, events, new_events):
     ym = re.search(r"\b(20\d\d)\b", h)
     yr = int(ym.group(1)) if ym else (year if year and 2000 <= int(year) <= 2030 else None)
     for name, c in sorted(KNOWN_CONS.items(), key=lambda kv: -len(kv[0])):
-        if re.search(r"(?<![a-z0-9])" + re.escape(name) + r"(?![a-z0-9])", h) and yr and c["base"] not in ("bsides",):
+        nm = re.sub(r"[-_]+", " ", name)  # hint hyphens were normalised to spaces above; edition numbers may follow the name (GPN20, SHA2017)
+        if re.search(r"(?<![a-z0-9])" + re.escape(nm) + r"(?![a-z])", h) and yr and c["base"] not in ("bsides",):
             return ensure(events, new_events, f"{c['base']}-{yr}", f"{name_pretty(name)} {yr}", yr, c["family"], c.get("location", ""))
     m = re.search(CON_FAMILIES[1][0], h)
     if m: return ensure(events, new_events, f"supercon-{m.group(1)}", f"Hackaday Supercon {m.group(1)}", int(m.group(1)), "supercon", "Pasadena, CA")

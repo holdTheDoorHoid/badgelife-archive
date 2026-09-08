@@ -103,6 +103,8 @@ BS_GROUPS = [["Las Vegas", "San Francisco", "Seattle"], ["Canberra", "Melbourne"
 for g in BS_GROUPS:
     for city in g: con(f"BSides {city}", "bsides-" + re.sub(r"[^a-z0-9]+", "-", city.lower().split(" (")[0]).strip("-"), "bsides")
     task("bsides-" + re.sub(r"[^a-z0-9]+", "-", g[0].lower()), "BSides " + " / ".join(g), "BSides", list(range(2012, 2027)), [], f"every conference badge, SAO and community badge made for BSides {', '.join(g)} in any year")
+for nm, base in (("HITBSecConf", "hitb"), ("HITB SecConf", "hitb"), ("Hack In The Box", "hitb"), ("Sec-T", "sec-t"), ("SEC-T", "sec-t"), ("Hackers Teaching Hackers", "hackers-teaching-hackers"), ("HTH", "hackers-teaching-hackers"),
+                 ("PHDays Fest", "phdays"), ("HITCON CMT", "hitcon"), ("Roadsec", "roadsec"), ("RoadSec", "roadsec"), ("DEF CON China Beta", "def-con-china")): con(nm, base, "other")
 # abbreviations agents use for BSides cities, so "BSidesPDX 2017" and "BSides Portland 2017" land on one event id
 for abbr, base in {"bsidespdx": "bsides-portland", "bsideskc": "bsides-kansas-city", "bsidesslc": "bsides-slc", "bsides salt lake city": "bsides-slc", "bsides slc": "bsides-slc",
                    "bsideslv": "bsides-las-vegas", "bsidessf": "bsides-san-francisco", "bsidescbr": "bsides-canberra", "bsidesroc": "bsides-rochester", "bsidesjax": "bsides-jacksonville",
