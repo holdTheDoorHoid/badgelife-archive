@@ -68,6 +68,8 @@ def resolve_event(hint, year, events, new_events):
     # cons authorised by the sweep plan (data/sweep_cons.json): "<Con name> <year>" -> <base>-<year>
     ym = re.search(r"\b(20\d\d)\b", h)
     yr = int(ym.group(1)) if ym else (year if year and 2000 <= int(year) <= 2030 else None)
+    if re.match(r"^dc\d{3}\b", h) and yr and 14 <= yr - 1992 <= 40:  # DEF CON groups (DC801, DC540...) make badges for DEF CON itself
+        return ensure(events, new_events, f"dc{yr - 1992}", f"DEF CON {yr - 1992}", yr, "defcon", "Las Vegas, NV")
     for name, c in sorted(KNOWN_CONS.items(), key=lambda kv: -len(kv[0])):
         nm = re.sub(r"[-_]+", " ", name)  # hint hyphens were normalised to spaces above; edition numbers may follow the name (GPN20, SHA2017)
         if re.search(r"(?<![a-z0-9])" + re.escape(nm) + r"(?![a-z])", h) and yr and c["base"] not in ("bsides",):

@@ -148,6 +148,7 @@ OTHERS = [
 ]
 for names, locs in OTHERS:
     for n, l in zip(names, locs.split("|")):
+        if re.match(r"^DC\d{3}$", n): continue  # DEF CON groups do not run cons; their badges file under the DEF CON year (resolver handles "DC801 2019")
         con(n, re.sub(r"[^a-z0-9]+", "-", n.lower()).strip("-"), "other", l)
     task("con-" + re.sub(r"[^a-z0-9]+", "-", names[0].lower()).strip("-"), " / ".join(names), names[0], list(range(2006, 2027)), [],
          f"every electronic or notable conference badge, SAO, minibadge or kit made for {', '.join(names)} in any year; confirm each event's year, dates and city")

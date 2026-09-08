@@ -794,56 +794,6 @@
   "family": "other",
   "location": ""
  },
- "dc801": {
-  "base": "dc801",
-  "family": "other",
-  "location": "Salt Lake City, UT"
- },
- "dc540": {
-  "base": "dc540",
-  "family": "other",
-  "location": "Baltimore, MD"
- },
- "dc503": {
-  "base": "dc503",
-  "family": "other",
-  "location": "Portland, OR"
- },
- "dc303": {
-  "base": "dc303",
-  "family": "other",
-  "location": "Denver, CO"
- },
- "dc404": {
-  "base": "dc404",
-  "family": "other",
-  "location": "Atlanta, GA"
- },
- "dc858": {
-  "base": "dc858",
-  "family": "other",
-  "location": "San Diego, CA"
- },
- "dc406": {
-  "base": "dc406",
-  "family": "other",
-  "location": "Montana"
- },
- "dc612": {
-  "base": "dc612",
-  "family": "other",
-  "location": "Minneapolis, MN"
- },
- "dc414": {
-  "base": "dc414",
-  "family": "other",
-  "location": "Milwaukee, WI"
- },
- "dc416": {
-  "base": "dc416",
-  "family": "other",
-  "location": "Toronto, ON"
- },
  "def con china": {
   "base": "def-con-china",
   "family": "other",
