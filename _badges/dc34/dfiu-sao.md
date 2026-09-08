@@ -11,7 +11,7 @@ year: 2026
 makers:
 - name: BigFuckingBadge
   url: https://www.bigfuckingbadge.com
-summary: 'A face-shaped SAO bearing "Lintile", inspired by DEF CON''s Hacker Jeopardy, that plays a "Don''t Fuck It Up" chant.'
+summary: A face-shaped SAO bearing "Lintile", inspired by DEF CON's Hacker Jeopardy, that plays a "Don't Fuck It Up" chant.
 functions: If you touch Lintile's face, it plays the "don't fuck it up" chant. It can also be left playing the chant on a loop.
 look:
   colors:
@@ -37,7 +37,7 @@ get_one:
   distribution:
   - purchase
   - preorder
-  where: 'Presale by request via email (bfb.team.public@gmail.com), paid over Venmo/PayPal/Cashapp/cash; drops at DEF CON 34''s BadgeLife Village.'
+  where: Presale by request via email (bfb.team.public@gmail.com), paid over Venmo/PayPal/Cashapp/cash; drops at DEF CON 34's BadgeLife Village.
 make_your_own:
   open_source: null
   hardware_url: null
@@ -47,6 +47,7 @@ links:
 - label: www.bigfuckingbadge.com
   url: https://www.bigfuckingbadge.com
   kind: store
+  archived: https://web.archive.org/web/20260729001940/https://www.bigfuckingbadge.com/
 - label: github.com/Hexum064/dfiu-ch32v003-pcb
   url: https://github.com/Hexum064/dfiu-ch32v003-pcb
   kind: repo
@@ -55,9 +56,10 @@ links:
   kind: repo
 images:
 - file: assets/images/badges/dc34/dfiu-sao/c63d23d966.jpg
-  source: "https://www.bigfuckingbadge.com"
-  credit: "BigFuckingBadge"
-  caption: "DFIU SAO, featuring Lintile's face"
+  source: https://www.bigfuckingbadge.com
+  credit: BigFuckingBadge
+  caption: DFIU SAO, featuring Lintile's face
+  archived: https://web.archive.org/web/20260729001940/https://www.bigfuckingbadge.com/
 contact:
   discord: Hexum064
   emails:
@@ -72,22 +74,15 @@ sources:
   listing: New
 - kind: url
   url: https://www.bigfuckingbadge.com
-  title: "BIGFUCKINGBADGE.COM — Defcon 34 Badges and SAOs"
+  title: BIGFUCKINGBADGE.COM — Defcon 34 Badges and SAOs
   accessed: '2026-09-06'
-  note: "Confirms price ($20), description, presale/order process, DEF CON 34 BadgeLife Village drop times, and the item photo."
+  note: Confirms price ($20), description, presale/order process, DEF CON 34 BadgeLife Village drop times, and the item photo.
+  archived: https://web.archive.org/web/20260729001940/https://www.bigfuckingbadge.com/
 research:
   status: researched
   confidence: low
   last_checked: '2026-09-06'
-  notes: >-
-    Maker's storefront confirms the item, price, and presale process, but gives no chip,
-    LED, or quantity specifics. Both linked GitHub repos (dfiu-ch32v003-pcb,
-    dfiu-ch32v003-code) return 404 as of 2026-09-06, so they could not be used to verify
-    hardware/firmware details or confirm open-source status; their names suggest a
-    CH32V003 MCU but this is unconfirmed and was left blank rather than guessed. Photo
-    shows a face-shaped PCB (gold immersion finish over white silkscreen halftone
-    portrait) with star-shaped cutouts that light up, implying onboard LEDs, but count
-    and type are not stated anywhere and were left null.
+  notes: Maker's storefront confirms the item, price, and presale process, but gives no chip, LED, or quantity specifics. Both linked GitHub repos (dfiu-ch32v003-pcb, dfiu-ch32v003-code) return 404 as of 2026-09-06, so they could not be used to verify hardware/firmware details or confirm open-source status; their names suggest a CH32V003 MCU but this is unconfirmed and was left blank rather than guessed. Photo shows a face-shaped PCB (gold immersion finish over white silkscreen halftone portrait) with star-shaped cutouts that light up, implying onboard LEDs, but count and type are not stated anywhere and were left null.
 last_modified_date: '2026-09-06'
 ---
 

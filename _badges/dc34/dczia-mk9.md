@@ -68,6 +68,7 @@ links:
 - label: dczia.net
   url: https://dczia.net/
   kind: website
+  archived: https://web.archive.org/web/20260514004509/https://dczia.net/
 images:
 - file: assets/images/badges/dc34/dczia-mk9/30b29bb628.jpg
   source: https://uberflux.com/product/HAMST-DCZIA-2026
@@ -101,6 +102,7 @@ sources:
   title: DCZia
   accessed: '2026-09-07'
   note: DCZia group background (formed around DEF CON 22, NM ties); confirms Mk9 has 9 neopixels, 6 RGB sidelights, accelerometer, custom 3-piece shell, and calls it a throwback to their 2018 keygrid badge.
+  archived: https://web.archive.org/web/20260514004509/https://dczia.net/
 - kind: url
   url: https://github.com/lithochasm/dczia2026-mk9-badge
   title: lithochasm/dczia2026-mk9-badge
