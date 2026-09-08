@@ -5,7 +5,7 @@ layout: badge
 parent: DC26
 grand_parent: Badge Archive
 nav_exclude: true
-type: unknown
+type: badge
 event: dc26
 year: 2018
 makers:

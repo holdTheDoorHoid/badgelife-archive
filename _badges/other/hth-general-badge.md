@@ -5,7 +5,7 @@ layout: badge
 parent: Other
 grand_parent: Badge Archive
 nav_exclude: true
-type: unknown
+type: badge
 event: other
 year: 0
 makers:

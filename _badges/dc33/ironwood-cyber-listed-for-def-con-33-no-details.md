@@ -40,6 +40,7 @@ links:
 - label: Ironwood-Cyber GitHub org
   url: https://github.com/Ironwood-Cyber
   kind: repo
+  archived: https://web.archive.org/web/20260208081048/https://github.com/Ironwood-Cyber
 - label: SplinterOps Discord (formerly "IronwoodCyber SummerGames")
   url: https://discord.gg/nsQrmVc7H3
   kind: social
@@ -65,11 +66,13 @@ sources:
   title: Ironwood-Cyber GitHub Pages site
   accessed: '2026-09-07'
   note: Same GitHub org that hosts the DC30 badge hardware repo now serves documentation for "Enlight," an autonomous pentesting product, with no badge or DEF CON 33 content.
+  archived: https://web.archive.org/web/20260421123818/https://ironwood-cyber.github.io/
 - kind: url
   url: https://ironwoodcyber.com
   title: Ironwood Cyber (Enlight autonomous pentesting platform)
   accessed: '2026-09-07'
-  note: 'Current ironwoodcyber.com is a cybersecurity company site (Fort Worth, TX) for the "Enlight" autonomous pentesting product; its social links use the @IronwoodCyber handle and it links to ironwood-cyber.github.io as its docs. No mention of DEF CON, badges, or SAOs.'
+  note: Current ironwoodcyber.com is a cybersecurity company site (Fort Worth, TX) for the "Enlight" autonomous pentesting product; its social links use the @IronwoodCyber handle and it links to ironwood-cyber.github.io as its docs. No mention of DEF CON, badges, or SAOs.
+  archived: https://web.archive.org/web/20260611104800/https://www.ironwoodcyber.com/
 - kind: url
   url: https://discord.com/invite/nsQrmVc7H3
   title: SplinterOps Discord (formerly IronwoodCyber SummerGames)
@@ -84,19 +87,7 @@ research:
   status: verified
   confidence: low
   last_checked: '2026-09-07'
-  notes: >-
-    The community sheet lists "Ironwood Cyber" as an expected DC33 maker but gives no
-    details, and no badge for DEF CON 33 (2025) could be found. Ironwood Cyber has
-    separate entries in this archive for DC30 (Tron Badge), DC31 (Reactor Badge / Arc
-    Reactor Mark II) and DC32 (Crest Badge). Their GitHub org (github.com/Ironwood-Cyber)
-    holds only one badge repo (dc30-badge-hw); its newer repos are product documentation
-    and code templates. Both Discord invites used by the earlier badges now show
-    "SplinterOps (Previously: IronwoodCyber SummerGames)" with nothing about a 2025
-    badge visible from outside. ironwoodcyber.com is a cybersecurity company site for an
-    autonomous pentesting product ("Enlight") that uses the @IronwoodCyber handle and
-    hosts its docs on the same GitHub org as the DC30 badge repo, but carries no DEF CON
-    or badge content. Verified 2026-09-07 against every cited URL; all cited sources
-    confirm only the absence of a DC33 badge, so status stays unknown and confidence low.
+  notes: 'The community sheet lists "Ironwood Cyber" as an expected DC33 maker but gives no details, and no badge for DEF CON 33 (2025) could be found. Ironwood Cyber has separate entries in this archive for DC30 (Tron Badge), DC31 (Reactor Badge / Arc Reactor Mark II) and DC32 (Crest Badge). Their GitHub org (github.com/Ironwood-Cyber) holds only one badge repo (dc30-badge-hw); its newer repos are product documentation and code templates. Both Discord invites used by the earlier badges now show "SplinterOps (Previously: IronwoodCyber SummerGames)" with nothing about a 2025 badge visible from outside. ironwoodcyber.com is a cybersecurity company site for an autonomous pentesting product ("Enlight") that uses the @IronwoodCyber handle and hosts its docs on the same GitHub org as the DC30 badge repo, but carries no DEF CON or badge content. Verified 2026-09-07 against every cited URL; all cited sources confirm only the absence of a DC33 badge, so status stays unknown and confidence low.'
 last_modified_date: '2026-09-07'
 ---
 

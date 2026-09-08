@@ -5,7 +5,7 @@ layout: badge
 parent: DC34
 grand_parent: Badge Archive
 nav_exclude: true
-type: unknown
+type: badge
 event: dc34
 year: 2026
 makers:

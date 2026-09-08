@@ -5,7 +5,7 @@ layout: badge
 parent: DC27
 grand_parent: Badge Archive
 nav_exclude: true
-type: unknown
+type: sao
 event: dc27
 year: 2019
 makers:

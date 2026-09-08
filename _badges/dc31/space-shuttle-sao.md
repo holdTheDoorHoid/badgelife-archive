@@ -5,7 +5,7 @@ layout: badge
 parent: DC31
 grand_parent: Badge Archive
 nav_exclude: true
-type: unknown
+type: sao
 event: dc31
 year: 2023
 makers:

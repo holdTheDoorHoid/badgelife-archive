@@ -13,11 +13,8 @@ makers:
 - name: Steve Jabs
   url: https://github.com/stevejabs
   role: maker (Jolly Media Group, LLC)
-summary: >-
-  JollyBadge [V2] is a standalone electronic puzzle badge with eight sequential
-  challenges spanning observational, programming, OSINT, and hardware-hacking
-  skills; the DC33 run raised the difficulty and shipped as "the final batch" of 50 units.
-functions: 'Eight sequential puzzle challenges covering observation, programming/software tooling, OSINT, and hardware hacking; DC33 firmware increases challenge complexity over the original V2 release.'
+summary: JollyBadge [V2] is a standalone electronic puzzle badge with eight sequential challenges spanning observational, programming, OSINT, and hardware-hacking skills; the DC33 run raised the difficulty and shipped as "the final batch" of 50 units.
+functions: Eight sequential puzzle challenges covering observation, programming/software tooling, OSINT, and hardware hacking; DC33 firmware increases challenge complexity over the original V2 release.
 look:
   colors: []
   shape: null
@@ -29,13 +26,14 @@ tech:
   mcu: null
   leds: null
   display: null
-  connectivity: [usb]
+  connectivity:
+  - usb
   battery: null
   sao_version: null
 get_one:
   price: ''
   price_usd: null
-  quantity: '50 (final batch)'
+  quantity: 50 (final batch)
   availability: sold_out
   distribution:
   - purchase
@@ -49,20 +47,20 @@ links:
 - kind: website
   label: JollyBadge site
   url: https://jollybadge.com
+  archived: https://web.archive.org/web/20260422054154/https://www.jollybadge.com/
 - kind: repo
   label: jollybadge-v2 (firmware builds + flashing instructions)
   url: https://github.com/stevejabs/jollybadge-v2
 images:
 - file: assets/images/badges/dc33/jollybadge-listed-for-def-con-33-no-details/22d1aeb739.jpg
-  source: "https://jollybadge.com"
-  credit: "Jolly Media Group, LLC"
-  caption: "JollyBadge V2 (DC33 firmware batch) hero photo"
+  source: https://jollybadge.com
+  credit: Jolly Media Group, LLC
+  caption: JollyBadge V2 (DC33 firmware batch) hero photo
+  archived: https://web.archive.org/web/20260422054154/https://www.jollybadge.com/
 contact: {}
 notes:
-- The community sheet listed only the maker name "JollyBadge" for DC33 with no
-  other details; retitled after finding the maker's own site and GitHub repo.
-- Part of a recurring JollyBadge series; see also dc30-jollybadge, dc31-jolly-roger-listed-for-def-con-31-no-details,
-  and dc32-name-not-released-as-of-yet (also credited to "JollyBadge"/"Jolly Roger").
+- The community sheet listed only the maker name "JollyBadge" for DC33 with no other details; retitled after finding the maker's own site and GitHub repo.
+- Part of a recurring JollyBadge series; see also dc30-jollybadge, dc31-jolly-roger-listed-for-def-con-31-no-details, and dc32-name-not-released-as-of-yet (also credited to "JollyBadge"/"Jolly Roger").
 status: released
 sources:
 - kind: sheet
@@ -72,9 +70,10 @@ sources:
   updated: ''
 - kind: url
   url: https://jollybadge.com
-  title: "JollyBadge [V2] - The Final Batch"
+  title: JollyBadge [V2] - The Final Batch
   accessed: '2026-09-06'
   note: Maker's storefront page; confirms DC33 firmware upgrade, final batch of 50, sold out, free shipping, ships-before-Aug-1 shipping-only terms, and hero photo.
+  archived: https://web.archive.org/web/20260422054154/https://www.jollybadge.com/
 - kind: url
   url: https://github.com/stevejabs/jollybadge-v2
   title: stevejabs/jollybadge-v2
@@ -84,16 +83,7 @@ research:
   status: researched
   confidence: medium
   last_checked: '2026-09-06'
-  notes: >-
-    Maker's own site and GitHub repo confirm this is a real, released, sold-out
-    badge (not a stub) and give the puzzle theme, batch size, and firmware/flashing
-    details. Could not confirm exact MCU family, LED count/type, price, PCB color,
-    physical shape, or SAO header presence/absence from any source read -- the
-    repo ships only compiled .bin firmware and a flashing README, no schematic,
-    BOM, or hardware source, so make_your_own.open_source is set to "partial"
-    (firmware binaries and flashing docs public; hardware design and firmware
-    source not published). No press coverage or third-party photos were found
-    in the sources checked.
+  notes: Maker's own site and GitHub repo confirm this is a real, released, sold-out badge (not a stub) and give the puzzle theme, batch size, and firmware/flashing details. Could not confirm exact MCU family, LED count/type, price, PCB color, physical shape, or SAO header presence/absence from any source read -- the repo ships only compiled .bin firmware and a flashing README, no schematic, BOM, or hardware source, so make_your_own.open_source is set to "partial" (firmware binaries and flashing docs public; hardware design and firmware source not published). No press coverage or third-party photos were found in the sources checked.
 last_modified_date: '2026-09-06'
 ---
 JollyBadge [V2] is a self-contained electronic puzzle badge built around eight

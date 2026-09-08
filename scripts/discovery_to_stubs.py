@@ -39,6 +39,13 @@ def norm(s):
     s = re.sub(r"\b(the|a|an|badge|sao|shitty add[- ]?on|add[- ]?on|v\d+(\.\d+)?|dc\d+|def ?con \d+|20\d\d)\b", " ", s)
     return re.sub(r"[^a-z0-9]+", " ", s).strip()
 
+PROJECT_URL = re.compile(r"^(github\.com/[^/]+/[^/]+|gitlab\.com/[^/]+/[^/]+|hackaday\.io/project/\d+|tindie\.com/products/[^/]+/[^/]+|etsy\.com/listing/\d+|kickstarter\.com/projects/[^/]+/[^/]+|"
+                         r"indiegogo\.com/projects/[^/]+|oshpark\.com/shared_projects/[^/]+|pcbway\.com/project/shareproject/[^/]+|hackster\.io/[^/]+/[^/]+|ninjas\.org/badges/[^/]+|grandideastudio\.com/portfolio/[^/]+/[^/]+|"
+                         r"[^/]+/(product|products|shop|store|listing)/[^/]+)")
+def project_url(cu):
+    """True for URLs that identify one specific item (a repo, a hackaday.io project, a store listing); article, roundup and forum URLs are shared by many items."""
+    return bool(PROJECT_URL.match(cu))
+
 def canon(u): return re.sub(r"^https?://(www\.)?", "", (u or "").strip().rstrip("/")).lower()
 
 def slugify(s):
@@ -118,8 +125,9 @@ def load_entry(path):
 
 TYPE_VOCAB = ("minibadge", "sao", "badge", "kit", "accessory", "other", "unknown")
 def coerce_type(v):
-    """Agents write free text like 'sao/kit' or 'badge (SAO-compatible)'; keep the first vocabulary word found."""
-    s = norm(v).lower()
+    """Agents write free text like 'sao/kit' or 'badge (SAO-compatible)'; keep the first vocabulary word found.
+    (Do not run this through norm(): it strips the words 'badge' and 'sao'.)"""
+    s = re.sub(r"[^a-z0-9]+", " ", str(v or "").lower()).strip()
     if s in TYPE_VOCAB: return s
     for w in TYPE_VOCAB:
         if w in s: return w
@@ -153,8 +161,9 @@ def main():
             url = (c.get("url") or "").strip()
             if not title or not url: continue
             cu = canon(url)
-            if cu in url_index: dropped.append((title, url, "url matches " + url_index[cu])); continue
-            if cu in seen_urls: dropped.append((title, url, "duplicate url in sweep")); continue
+            if project_url(cu):
+                if cu in url_index: dropped.append((title, url, "url matches " + url_index[cu])); continue
+                if cu in seen_urls: dropped.append((title, url, "duplicate url in sweep")); continue
             ev = resolve_event(c.get("event_hint"), c.get("year"), events, new_events)
             nt, nm = norm(title), norm(c.get("maker"))
             hit = None
