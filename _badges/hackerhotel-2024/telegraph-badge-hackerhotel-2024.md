@@ -54,6 +54,7 @@ links:
 - label: badge.team/docs/badges/hackerhotel-2024
   url: https://badge.team/docs/badges/hackerhotel-2024/
   kind: website
+  archived: https://web.archive.org/web/20260610151123/https://badge.team/docs/badges/hackerhotel-2024/
 - label: badge.team/docs/badges/hackerhotel-2024/badge1.jpg
   url: https://badge.team/docs/badges/hackerhotel-2024/badge1.jpg
   kind: website
@@ -83,10 +84,12 @@ images:
   source: https://badge.team/docs/badges/hackerhotel-2024/
   credit: Badge.Team
   caption: Telegraph badge front, e-paper display and five three-way switches
+  archived: https://web.archive.org/web/20260610151123/https://badge.team/docs/badges/hackerhotel-2024/
 - file: assets/images/badges/hackerhotel-2024/telegraph-badge-hackerhotel-2024/962284ae57.jpg
   source: https://badge.team/docs/badges/hackerhotel-2024/
   credit: Badge.Team
   caption: Close-up of the badge's e-paper screen
+  archived: https://web.archive.org/web/20260610151123/https://badge.team/docs/badges/hackerhotel-2024/
 contact: {}
 notes:
 - Victorian telegraph theme, ESP32-C6, 296x128 red/black e-paper, five 3-way switches for Cooke & Wheatstone-style typing mode, SAO + QWIIC connectors.
@@ -97,11 +100,13 @@ sources:
   title: Telegraph Badge (Hackerhotel 2024)
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: eu-camps: European hacker camps/cons via badge.team (SHA2017, Hackerhotel, Disobey, CampZone, Fri3d Camp, MCH2022, WHY2025), EMF Camp TiLDA lineage, CCC card10, and BornHack); event read as ''Hackerhotel 2024''.'
+  archived: https://web.archive.org/web/20260610151123/https://badge.team/docs/badges/hackerhotel-2024/
 - kind: url
   url: https://badge.team/docs/badges/hackerhotel-2024/
   title: Hackerhotel 2024 | Badge.Team
   accessed: '2026-09-07'
   note: 'Maker''s own handbook page: theme, MCU, display, switches, SAO/QWIIC connectors, USB-C charging, list of maker volunteers.'
+  archived: https://web.archive.org/web/20260610151123/https://badge.team/docs/badges/hackerhotel-2024/
 - kind: url
   url: https://github.com/badgeteam/hackerhotel-2024-hardware
   title: badgeteam/hackerhotel-2024-hardware

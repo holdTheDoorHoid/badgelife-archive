@@ -52,6 +52,7 @@ links:
 - label: hackaday.io/project/112222-2018-open-hardware-summit-badge
   url: https://hackaday.io/project/112222-2018-open-hardware-summit-badge
   kind: hackaday
+  archived: https://web.archive.org/web/20260506042650/https://hackaday.io/project/112222-2018-open-hardware-summit-badge
 - label: 'GitHub: OSHPark/ohs18badge (hardware design files)'
   url: https://github.com/OSHPark/ohs18badge
   kind: repo
@@ -61,15 +62,18 @@ links:
 - label: Official badge documentation site
   url: http://oshwabadge2018.github.io/
   kind: website
+  archived: https://web.archive.org/web/20260506042646/https://oshwabadge2018.github.io/
 images:
 - file: assets/images/badges/other/2018-open-hardware-summit-badge/0937766332.jpg
   source: https://hackaday.io/project/112222-2018-open-hardware-summit-badge
   credit: OSH Park / Open Hardware Summit 2018 team
   caption: The 2018 Open Hardware Summit badge
+  archived: https://web.archive.org/web/20260506042650/https://hackaday.io/project/112222-2018-open-hardware-summit-badge
 - file: assets/images/badges/other/2018-open-hardware-summit-badge/a8da5ef495.png
   source: http://oshwabadge2018.github.io/
   credit: Open Hardware Summit 2018 team
   caption: Badge board render/illustration
+  archived: https://web.archive.org/web/20260506042646/https://oshwabadge2018.github.io/
 contact: {}
 notes: []
 status: released
@@ -79,6 +83,7 @@ sources:
   title: 2018 Open Hardware Summit Badge
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: hackaday-list); event read as ''Open Hardware Summit 2018''.'
+  archived: https://web.archive.org/web/20260506042650/https://hackaday.io/project/112222-2018-open-hardware-summit-badge
 - kind: url
   url: https://github.com/OSHPark/ohs18badge
   title: OSHPark/ohs18badge on GitHub
@@ -89,6 +94,7 @@ sources:
   title: OSHWA 2018 Badge documentation site
   accessed: '2026-09-07'
   note: Confirms event name, links to GitHub/Twitter/Hackaday; source of badge.png image.
+  archived: https://web.archive.org/web/20260506042646/https://oshwabadge2018.github.io/
 research:
   status: verified
   confidence: high

@@ -76,10 +76,10 @@ sources:
   accessed: '2026-09-08'
   note: Confirmed maker, event/year, MCU (ATmega32U4/Arduino Pro Micro style), IR transmitter/receiver, RGB LED, USB programming, and open hardware (Eagle) + firmware files. Repo is archived (read-only) as of 2023-10-28.
 research:
-  status: researched
+  status: verified
   confidence: medium
   last_checked: '2026-09-08'
-  notes: Maker's own christophe.vg page could not be fetched (Cloudflare challenge blocked both WebFetch and curl), so confirmation relies on the maker's GitHub repo, which is consistent with the sweep's summary. Price, exact quantity made, and distribution method (free vs included in event fee) are not stated anywhere found. No photos of an assembled/soldered badge were found, only board render/schematic images from the design folder.
+  notes: Fact-check pass (2026-09-08) re-fetched the GitHub repo, its design/eagle and src subfolders, the design/media image folder, and the repo README, confirming maker, event/year, MCU (Arduino Micro/ATmega32U4), IR tx/rx, RGB LED, USB, the open Eagle hardware files and firmware/bootloader files, and the "Fri3d Camp 2016 app" for IR badge-to-badge interaction plus the TV-B-Gone tribute described in the body and functions field. The design/media folder was confirmed to contain fri3d-badge-v1.png and fri3d-badge-v2.png, matching the two saved images' captions. The maker's own christophe.vg page still returns a Cloudflare JS challenge to both WebFetch and curl and could not be read directly, but a search-engine snippet of https://christophe.vg/ independently corroborates the maker, "300 participants," and the infrared feature, consistent with what's already in the entry. Price, exact quantity, and distribution method remain unstated in any source read and are correctly left empty. No photos of an assembled badge were found, only the two board renders used.
 last_modified_date: '2026-09-08'
 ---
 

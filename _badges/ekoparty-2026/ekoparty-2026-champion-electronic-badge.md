@@ -72,17 +72,17 @@ sources:
   url: https://ekoparty.org/badge/
   title: 'Badge | ekoparty'
   accessed: '2026-09-08'
-  note: 'Currently only documents the prior Ekoparty 2025 badge (RP2040, I2S DAC audio, USB-C rechargeable, NeoPixel LEDs; team Jorge Crowe, Lucas Leal, Nico Restbergs/Fábrica Marciana); has not yet been updated with a 2026 badge page.'
+  note: 'Currently only documents the prior Ekoparty 2025 badge: described only as an "artistic and sound" (artístico y sonoro), customizable badge, with team Jorge Crowe (concept/coordination), Lucas Leal (hardware & software), and Nico Restbergs/Fábrica Marciana (PCB graphic design), sponsor YAELTEX. No chip, LED, or connectivity specs are given on the page (an earlier draft of this note incorrectly attributed RP2040/I2S/NeoPixel/USB-C specs to it; corrected on fact-check). Has not yet been updated with a 2026 badge page.'
 - kind: url
   url: https://www.instagram.com/p/DcwjCySj92s/
   title: 'Ekoparty Instagram teaser, Sept 1 2026'
   accessed: '2026-09-08'
   note: 'Caption (via search snippet, page itself not text-readable via fetch) reads "Nueva necesidad desbloqueada: el EKO Badge 2026... Esta vez, no es solo una credencial", confirming a 2026 badge is being teased separately from the 2025 design; no specs given.'
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-08'
-  notes: 'Confirmed as a real, maker-announced item (not just a search-snippet artifact): ekoparty.org''s own ticketing and social channels describe a Champion-tier electronic badge for the 2026 event, and a Sept 1 2026 Instagram teaser calls it "el EKO Badge 2026" and says it is "not just a credential." No hardware specs, imagery, maker credits, price, or quantity have been published yet -- the conference has not happened (Oct 7-9, 2026) and past years'' badge pages (see ekoparty.org/badge/, which still only documents 2025) are typically only filled in after the event. Set status to announced rather than rumored since the item is confirmed on the maker''s own site/ticketing, not just a third-party snippet. tech/look/make_your_own fields left empty pending an official reveal; revisit after the conference.'
+  notes: 'Fact-checked 2026-09-08: re-fetched vamosplan.com (confirms Oct 7-9 dates and the exact Legacy AR$85,000 / Champion AR$265,000-rising-to-AR$280,000 tier split, with the badge tied to Champion), ekoparty.org/ekoparty-buenos-aires-2026/ (confirms dates, defers ticket tiers to Eventbrite), and ekoparty.org/badge/ (only documents the 2025 badge). The Instagram teaser text could not be fetched directly (Instagram blocks scraping) but was independently reconfirmed via a search-snippet re-query matching the quoted caption verbatim. Corrected one error found in the ekoparty.org/badge/ source note: an earlier pass had attributed specific 2025 hardware specs (RP2040, I2S DAC, USB-C, NeoPixel) to that page which the page does not actually state -- the page only says the 2025 badge is "artistic and sound" (customizable) and names the team (Jorge Crowe, Lucas Leal, Nico Restbergs/Fábrica Marciana) and sponsor (YAELTEX); the fabricated specs were removed from the note. Also independently confirmed the body''s claim that Ekoparty''s 2023 and 2024 badges were made by Electronic Cats (GitHub repos ElectronicCats/ekobadge2023, badge.gallery credits page). All remaining non-empty fields and sentences in this entry are now supported by a source that was actually read. tech/look/make_your_own fields remain empty pending an official 2026 reveal.'
 last_modified_date: '2026-09-08'
 ---
 

@@ -40,7 +40,7 @@ get_one:
   - free_drop
   where: Given to attendees of the Hackaday Belgrade 2016 conference; not sold commercially.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://hackaday.io/project/9509-badge-for-hackaday-belgrade-conference
   firmware_url: https://github.com/Hack-a-Day/hackaday-belgrade-badge-MPLABX
   eda_tool: null
@@ -48,18 +48,21 @@ links:
 - label: hackaday.io/project/9509-badge-for-hackaday-belgrade-conference
   url: https://hackaday.io/project/9509-badge-for-hackaday-belgrade-conference
   kind: hackaday
+  archived: https://web.archive.org/web/20260213190635/https://hackaday.io/project/9509-badge-for-hackaday-belgrade-conference
 - label: Hack-a-Day/hackaday-belgrade-badge-MPLABX (GitHub)
   url: https://github.com/Hack-a-Day/hackaday-belgrade-badge-MPLABX
   kind: repo
 images:
 - file: assets/images/badges/other/badge-for-hackaday-belgrade-conference/c425327ea2.jpg
-  source: "https://hackaday.io/project/9509-badge-for-hackaday-belgrade-conference"
-  credit: "Voja Antonic"
-  caption: "Hackaday Belgrade 2016 conference badge, assembled with LED matrix display"
+  source: https://hackaday.io/project/9509-badge-for-hackaday-belgrade-conference
+  credit: Voja Antonic
+  caption: Hackaday Belgrade 2016 conference badge, assembled with LED matrix display
+  archived: https://web.archive.org/web/20260213190635/https://hackaday.io/project/9509-badge-for-hackaday-belgrade-conference
 - file: assets/images/badges/other/badge-for-hackaday-belgrade-conference/6f86d13a3c.jpg
-  source: "https://hackaday.io/project/9509-badge-for-hackaday-belgrade-conference"
-  credit: "Voja Antonic"
-  caption: "Hackaday Belgrade 2016 badge PCB detail"
+  source: https://hackaday.io/project/9509-badge-for-hackaday-belgrade-conference
+  credit: Voja Antonic
+  caption: Hackaday Belgrade 2016 badge PCB detail
+  archived: https://web.archive.org/web/20260213190635/https://hackaday.io/project/9509-badge-for-hackaday-belgrade-conference
 contact: {}
 notes: []
 status: released
@@ -69,16 +72,18 @@ sources:
   title: Badge for Hackaday Belgrade Conference
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: hackaday-list); event read as ''Hackaday Belgrade''.'
+  archived: https://web.archive.org/web/20260213190635/https://hackaday.io/project/9509-badge-for-hackaday-belgrade-conference
 - kind: url
   url: https://hackaday.io/project/9509-badge-for-hackaday-belgrade-conference
   title: Badge for Hackaday Belgrade Conference - project page
   accessed: '2026-09-07'
-  note: 'Confirmed maker (Voja Antonic), event/year (Hackaday Belgrade 2016), MCU (PIC18LF25K50), display (8x16 LED matrix, two TA15-11SRWA blocks), power (2x AAA), USB bootloader, IR transmit/receive, Tetris/message-display firmware, and free distribution to attendees.'
+  note: Confirmed maker (Voja Antonic), event/year (Hackaday Belgrade 2016), MCU (PIC18LF25K50), display (8x16 LED matrix, two TA15-11SRWA blocks), power (2x AAA), USB bootloader, IR transmit/receive, Tetris/message-display firmware, and free distribution to attendees.
+  archived: https://web.archive.org/web/20260213190635/https://hackaday.io/project/9509-badge-for-hackaday-belgrade-conference
 - kind: url
   url: https://github.com/Hack-a-Day/hackaday-belgrade-badge-MPLABX
   title: Hack-a-Day/hackaday-belgrade-badge-MPLABX
   accessed: '2026-09-07'
-  note: 'Firmware/source repository linked from the project page.'
+  note: Firmware/source repository linked from the project page.
 research:
   status: researched
   confidence: high

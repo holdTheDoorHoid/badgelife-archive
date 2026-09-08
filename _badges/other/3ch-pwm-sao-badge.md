@@ -41,15 +41,18 @@ links:
 - label: github.com/9a/3ch_pwm_sao_badge
   url: https://github.com/9a/3ch_pwm_sao_badge
   kind: repo
+  archived: https://web.archive.org/web/20260219212635/https://github.com/9a/3ch_pwm_sao_badge
 images:
 - file: assets/images/badges/other/3ch-pwm-sao-badge/b4cf05d135.jpg
   source: https://github.com/9a/3ch_pwm_sao_badge
   credit: 9a
   caption: Top side of the 3ch PWM SAO badge
+  archived: https://web.archive.org/web/20260219212635/https://github.com/9a/3ch_pwm_sao_badge
 - file: assets/images/badges/other/3ch-pwm-sao-badge/86f22a30a5.jpg
   source: https://github.com/9a/3ch_pwm_sao_badge
   credit: 9a
   caption: Bottom side of the 3ch PWM SAO badge
+  archived: https://web.archive.org/web/20260219212635/https://github.com/9a/3ch_pwm_sao_badge
 contact: {}
 notes:
 - 3ch PWM LED SAO on ATtiny402
@@ -60,11 +63,13 @@ sources:
   title: 3ch_pwm_sao_badge
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: github-topics); event read as ''unknown''.'
+  archived: https://web.archive.org/web/20260219212635/https://github.com/9a/3ch_pwm_sao_badge
 - kind: url
   url: https://github.com/9a/3ch_pwm_sao_badge
   title: 9a/3ch_pwm_sao_badge - GitHub
   accessed: '2026-09-07'
   note: 'README and repo contents confirm: ATtiny402-based 3-channel PWM SAO for driving 3D-printed LED noodle badges (linked Printables designs: LED Noodle Ghost and Animated Cat mini neon signs); KiCad 7.0 hardware files, Arduino .ino firmware, BOM, schematic PDF and Gerbers included in the repo (no explicit license file); no price, quantity, con/event, or year stated anywhere in the repo.'
+  archived: https://web.archive.org/web/20260219212635/https://github.com/9a/3ch_pwm_sao_badge
 research:
   status: researched
   confidence: medium

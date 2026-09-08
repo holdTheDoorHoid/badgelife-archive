@@ -1,8 +1,8 @@
-35c3-2018-35c3-labitat-indie-badge | 35C3 Labitat Indie Badge | Labitat
+35c3-2018-35c3-labitat-indie-badge | 35C3 Labitat Indie Badge | Thomas Flummer
 36c3-2019-unofficial-36c3-badge | Unofficial 36C3 Badge | Thomas Flummer
 37c3-2023-37c3-nfc-badge | 37c3 NFC Badge | Thomas Flummer
-39c3-2025-39c3-critical-decentralization-cluster-cdc-badge | 39C3 Critical Decentralization Cluster (CDC) Badge | RIAT Institute / CDC assembly
-39c3-2025-39c3-cyberwatch-badge | 39C3 Cyberwatch Badge | Cyberwatch project contributors
+39c3-2025-39c3-critical-decentralization-cluster-cdc-badge | CDC Badge | RIAT, dllud, Pavel Polach, bobotronic
+39c3-2025-39c3-cyberwatch-badge | 39C3 Cyberwatch Badge | Fachschaft GAF∧Friends (LMU München)
 44con-2016-44con-2016-hidiot-0-7-badge | 44CON 2016 HIDIOT 0.7 Badge | HIDIOT
 44con-2017-44con-2017-hidiot-1-0-badge | 44CON 2017 HIDIOT 1.0 Badge | Raw Hex / HIDIOT
 44con-2025-44con-2025-rf-detector-badge | 44CON 2025 RF Detector Badge | Electronic Cats
@@ -21,7 +21,6 @@ bornhack-2021-bornhack-2021-badge | BornHack 2021 badge | BornHack
 bornhack-2021-bornhack-bubble-badge | BornHack Bubble Badge | Inne (attendee project)
 bornhack-2022-bornhack-2022-badge | BornHack 2022 badge | BornHack
 bornhack-2023-bornhack-2023-badge | BornHack 2023 badge | BornHack
-bornhack-2023-bornhack-2023-nfc-tag-badge | BornHack 2023 NFC Tag Badge | BornHack
 bornhack-2024-bornhack-2024-badge | BornHack 2024 Badge | Thomas Flummer
 bornhack-2025-bornhack-2025-badge | BornHack 2025 badge | BornHack, Thomas Flummer
 bornhack-2025-emf-explorer-badge | EMF Explorer Badge | Darcy Neal (SporkLogic)
@@ -144,7 +143,6 @@ carolinacon-2020-carolina-con-16-hardware-badge | Carolina Con 16 Hardware Badge
 carolinacon-2021-carolina-con-online-badge | Carolina Con Online Badge | Matt Agius
 carolinacon-2022-carolinacon-online-2-badge | CarolinaCon Online 2 Badge | Matt Agius
 carolinacon-2023-carolinacon-online-3-badge-carolinacon-19-badge | Carolinacon Online 3 Badge (Carolinacon 19 Badge) | pettym / 49th Security Division
-ccc-congress-2025-39c3-cyberwatch-badge | 39C3 Cyberwatch Badge | Cyberwatch project contributors
 cccamp-2007-sputnik-openbeacon | Sputnik (OpenBeacon) | Milosch Meriac / OpenBeacon project (Bitmanufaktur)
 cccamp-2011-r0ket | r0ket | Team r0ket (hme et al.)
 cccamp-2019-card10 | card10 | Chaos Computer Club community
@@ -1102,8 +1100,8 @@ derbycon-2019-derbycon-winning-bourbon-badge | DerbyCon Winning Bourbon Badge | 
 disobey-2017-disobey-2017-badge | Disobey 2017 Badge | Disobey
 disobey-2018-disobey-2018-badge | Disobey 2018 Badge | Disobey
 disobey-2019-disobey-2019-badge | Disobey 2019 Badge | Disobey / badge.team
-disobey-2026-disobey-2025-2026-badge | Disobey 2025/2026 Badge | Disobey
-easterhegg-2024-eh21badge-easterhegg-2024-rca-badge | eh21badge (Easterhegg 2024 RCA Badge) | x70b1
+disobey-2026-disobey-2025-2026-badge | Disobey 2026 Badge | Disobey Badge Team
+easterhegg-2024-eh21badge-easterhegg-2024-rca-badge | eh21badge | x70b1
 ekoparty-2021-ekoparty-2021-badge-artwork-set | Ekoparty 2021 Badge Artwork Set | Ekoparty
 ekoparty-2023-ekoparty-2023-electronic-badge | Ekoparty 2023 Electronic Badge | Electronic Cats
 ekoparty-2024-ekoparty-2024-official-badge | Ekoparty 2024 Official Badge | Electronic Cats
@@ -1111,24 +1109,22 @@ ekoparty-2025-ekoparty-2025-badge | Ekoparty 2025 Badge | Lucas Leal, Nico Restb
 ekoparty-2026-ekoparty-2026-champion-electronic-badge | Ekoparty 2026 Champion Electronic Badge | Ekoparty
 emf-camp-2012-tilda-emf-camp-2012-badge | TiLDA (EMF Camp 2012 badge) | Charles Yarnold, EMF Camp / Electromagnetic Field
 emf-camp-2014-tilda-mke | TiLDA MKe | EMF Camp badge team
-emf-camp-2016-tilda-mk3 | TiLDA Mk3 | EMF Camp badge team
 emf-camp-2016-tilda-mk3-mk | TiLDA Mk3 (Mkπ) | EMF Camp badge team
 emf-camp-2018-tilda-mk4 | TiLDA Mk4 | EMF Camp badge team
-emf-camp-2018-tilda-mk4-mk | TiLDA Mk4 (Mkδ) | EMF Camp badge team
 emf-camp-2022-tidal | TiDAL | EMF Camp badge team
 emf-camp-2024-emf-badge-interposer-hexpansion | EMF Badge Interposer Hexpansion | Gavin's Creations (gjchester)
 emf-camp-2024-flandre-scarlet-3d-printed-wings-hexpansion | Flandre Scarlet 3D-Printed Wings hexpansion | DanNixon
-emf-camp-2024-gps-hexpansion | GPS Hexpansion | Mat Booth
 emf-camp-2024-le-carnard-de-bleu-hexpansion | Le Carnard de Bleu hexpansion | DanNixon
 emf-camp-2024-rabbit-hexpansion | Rabbit hexpansion | DanNixon
 emf-camp-2024-screen-hexpansion | Screen Hexpansion | Mat Booth
-emf-camp-2024-sound-to-light-for-emf-tildagon-badge | Sound to Light for EMF Tildagon Badge | Tony Goacher
 emf-camp-2024-tildagon-emf-camp-2024-badge | Tildagon (EMF Camp 2024 Badge) | EMF Camp badge team
 emf-camp-2024-tildagon-qwerty-hexpansion | Tildagon QWERTY Hexpansion | Alex (EastMakes)
+emf-camp-2026-gps-hexpansion | GPS Hexpansion | TechCabin, The Machine Shop
 emf-camp-2026-protoboard-hexpansion | Protoboard Hexpansion | Jake Walker
+emf-camp-2026-sound-to-light-for-emf-tildagon-badge | Sound to Light for EMF Tildagon Badge | Tony Goacher
 emf-camp-2026-spaceagon | Spaceagon | EMF Camp badge team
-emf-camp-2026-tildagon-hexpansion-keyboard | Tildagon Hexpansion Keyboard | davedarko, with rubber keypad/dome-sticker parts by Arturo182 (solder.party), for EMF Camp badge team
-fri3d-2016-fri3d-2016-badge | Fri3d 2016 Badge | Christophe VG / Fri3d Camp
+emf-camp-2026-tildagon-hexpansion-keyboard | Keebdexpansion (Tildagon Hexpansion Keyboard) | davedarko, sodoku, kliment, Arturo182 (solder.party)
+fri3d-2016-fri3d-2016-badge | Fri3d Camp 2016 Badge | Christophe VG / Fri3d Camp
 fri3d-2018-fri3d-2018-air-jewel | Air Jewel | Fri3d Camp, Wim Van Gool, Bert Outtier
 fri3d-2018-fri3d-2018-bot-jewel | Bot Jewel | Fri3d Camp
 fri3d-2018-fri3d-2018-ph0xx-air-jewel | Ph0xx Air Jewel | Wim Van Gool, Fri3d Camp
@@ -1149,7 +1145,7 @@ fri3d-2026-fri3d-camp-2026-badge | Fri3d Camp 2026 Badge | Fri3d Camp
 fri3d-2026-lora-expansion-2026-wio-sx1262 | LoRa Expansion (2026, Wio-SX1262) | Fri3d Camp / Seeed Studio
 fri3d-2026-sao-mirror-2026 | SAO Mirror (2026) | Fri3d Camp
 fri3d-2026-tof-add-on-2026 | ToF Add-on (2026) | Fri3d Camp
-gpn-2022-teebeutel-gpn20-conference-badge | Teebeutel (GPN20 conference badge) | Entropia e.V.
+gpn-2022-teebeutel-gpn20-conference-badge | Teebeutel | Entropia e.V.
 grrcon-2013-grrcon-2013-badge | GrrCON 2013 Badge | GRMakers
 grrcon-2024-grrcon-2024-badgebuddy | GrrCON 2024 BadgeBuddy | CynicalSignals (ickfosec)
 grrcon-2025-grrcon-2025-badge-dev-null | GrrCon 2025 Badge (/dev/null) | Dan Lacher
@@ -1169,7 +1165,6 @@ hackaday-europe-2026-lecco-postcard-sao | LECCO postcard | davedarko
 hackerhotel-2019-hackerhotel-2019-badge | HackerHotel 2019 Badge | Badge.Team (Tom Clement, Raboof, Renze Nicolai, Anne Jan Brouwer, Bas van Sisseren)
 hackerhotel-2020-hackerhotel-2020-badge | Hackerhotel 2020 Badge | Badge.Team (Renze Nicolai, Nikolett S., Sake, Glu)
 hackerhotel-2023-hacker-hotel-2023-hardware-hh2023hardware | Hacker Hotel 2023 Hardware (hh2023hardware) | AnesidoraCorporation / badge.team
-hackerhotel-2023-hackerhotel-2023-badge | HackerHotel 2023 Badge | badge.team (Pim, Sake, Nikolett S.)
 hackerhotel-2024-hacker-hotel-2024-badge-telegraph-interface-add-on | Hackerhotel 2024 Badge | badge.team
 hackerhotel-2024-telegraph-badge-hackerhotel-2024 | Telegraph Badge (Hackerhotel 2024) | Badge.Team (Nikolett, Guru-san, Renze, Tom Clement, CH23, Norbert, Zac, SqyD, Martijn, Julian, Dimitri, Yvo)
 hackerhotel-2025-hackerhotel-2025-badge | HackerHotel 2025 Badge | Badge.Team
@@ -1316,6 +1311,7 @@ other-clack-clack-sao | Clack Clack SAO | TwinkleTwinkie
 other-core64-interactive-core-memory-kit | Core64 Interactive Core Memory Kit | ageppert
 other-cornbadge | Cornbadge | jamesdietle
 other-cowboy-sao | Cowboy SAO | Alee (Tindie: alee97422)
+other-ctf-shitty-add-on | CTF Shitty Add-On | Uri Shaked
 other-customdefconbadge | CustomDefconBadge | FoxMoss
 other-cybersp0re-defcon-badge-spore-cell-mutator-with-nfc | CyberSp0re — DEFCON badge Spore cell mutator with NFC | newtnewtnewt
 other-dabao-baochip-1x-dev-board | Dabao (Baochip-1x dev board) | Andrew "bunnie" Huang
@@ -1825,8 +1821,7 @@ supercon-2019-2019-superconference-badge-enclosure | 2019 Superconference Badge 
 supercon-2019-badge-runner | Badge Runner | Claire Sun
 supercon-2019-badgerunner | Badgerunner | Claire Sun, Stephen Hawes
 supercon-2019-barcode-reader-cartridge-for-the-2019-hackaday-superconferen | Barcode Reader Cartridge for the 2019 Hackaday Superconference Badge | Thomas Flummer
-supercon-2019-ctf-shitty-add-on | CTF Shitty Add-On | Uri Shaked
-supercon-2019-hackaday-superconference-2019-badge-enclosure | Hackaday Superconference 2019 Badge Enclosure | Tim Trzepacz (rhythmcorealpha)
+supercon-2019-hackaday-superconference-2019-badge-enclosure | Hackaday Superconference 2019 Badge Enclosure | Tina Belmont (SoftEgg), Sprite_tm
 supercon-2019-hackaday-superconference-badge-2019-fpga-game-boy | Hackaday Superconference Badge 2019 (FPGA Game Boy) | Jeroen "Sprite_TM" Domburg
 supercon-2019-hadbadge-2019-sdram-cartridge | HaDBadge 2019 SDRAM Cartridge | Jacob Creedon
 supercon-2019-mr-robot-sao | Mr. Robot | davedarko
@@ -1846,7 +1841,7 @@ supercon-2022-covid-19-test-sao | COVID-19 test SAO | davedarko
 supercon-2022-hackaday-supercon-2022-badge-computing-history-handheld | Hackaday Supercon 2022 Badge (computing history handheld) | Voja Antonic, Hackaday badge team
 supercon-2022-jolly-wrencher-sao | Jolly Wrencher SAO | Arya Voronova
 supercon-2022-supercon-2022-badge-card-reader | Supercon 2022 Badge Card Reader | Zach Fredin, Ben Hencke
-supercon-2022-supercon-2022-badge-programming-adapter | Supercon 2022 Badge Programming Adapter | brokebit
+supercon-2022-supercon-2022-badge-programming-adapter | 2022 SuperCon Badge USB Programing Add-On | brokebit
 supercon-2022-vectrex-sao | Vectrex SAO | Brett Walach (@Technobly)
 supercon-2022-vectrex-sao-2 | Vectrex SAO | Brett Walach (Technobly)
 supercon-2023-badge-to-eurorack | Badge to Eurorack | Alex (tinyledmatrix)
@@ -1952,7 +1947,7 @@ supercon-2025-communicator-badge-full-rgb-keyboard | Communicator Badge Full RGB
 supercon-2025-custom-case-with-led-noods-for-the-supercon-2025-badge | Custom case with LED "nOOds" for the Supercon 2025 badge | thzinc
 supercon-2025-saofinity-an-sao-display-solution-with-options | SAOfinity - An SAO Display solution with options | Andy Geppert
 supercon-2025-synthy-add-on | Synthy Add-On | incanus (Justin Miller)
-supercon-2025-tos-communicator-case-for-supercon-9-badge | TOS Communicator Case for Supercon 9 Badge | Thomas Flummer
+supercon-2025-tos-communicator-case-for-supercon-9-badge | TOS Communicator Case for Supercon.9 Communicator Badge | Thomas Flummer
 supercon-2026-no-just-no-sao | No, Just No SAO | znjp
 supercon-2026-nope-sao | NOPE SAO | znjp
 supercon-2026-social-battery-sao | Social Battery SAO | znjp

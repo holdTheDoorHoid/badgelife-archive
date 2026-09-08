@@ -12,7 +12,7 @@ makers:
 - name: Zalmotek
   url: https://hackaday.io/Zalmotek
 summary: A small electronic badge in the shape of an alpaca, lit by a single self-blinking color-changing RGB LED.
-functions: 'The RGB LED cycles through colors on its own (no microcontroller); a slide switch turns it on and off.'
+functions: The RGB LED cycles through colors on its own (no microcontroller); a slide switch turns it on and off.
 look:
   colors: []
   shape: null
@@ -45,14 +45,17 @@ links:
 - label: hackaday.io/project/166292-alpaca-electronic-badge
   url: https://hackaday.io/project/166292-alpaca-electronic-badge
   kind: hackaday
+  archived: https://web.archive.org/web/20251030183048/https://hackaday.io/project/166292-alpaca-electronic-badge
 - label: Zalmotek on Hackaday.io
   url: https://hackaday.io/Zalmotek
   kind: hackaday
+  archived: https://web.archive.org/web/20260516184313/https://hackaday.io/Zalmotek
 images:
 - file: assets/images/badges/other/alpaca-electronic-badge/8d5a325a96.jpg
-  source: "https://hackaday.io/project/166292-alpaca-electronic-badge"
-  credit: "Zalmotek"
-  caption: "The Alpaca Electronic Badge with color-changing RGB LED"
+  source: https://hackaday.io/project/166292-alpaca-electronic-badge
+  credit: Zalmotek
+  caption: The Alpaca Electronic Badge with color-changing RGB LED
+  archived: https://web.archive.org/web/20251030183048/https://hackaday.io/project/166292-alpaca-electronic-badge
 contact: {}
 notes: []
 status: released
@@ -62,11 +65,13 @@ sources:
   title: Alpaca Electronic Badge
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: hackaday-list); event read as ''unknown''.'
+  archived: https://web.archive.org/web/20251030183048/https://hackaday.io/project/166292-alpaca-electronic-badge
 - kind: url
   url: https://hackaday.io/project/166292-alpaca-electronic-badge
   title: Alpaca Electronic Badge - Hackaday.io
   accessed: '2026-09-07'
-  note: 'Confirmed maker (Zalmotek, with Alexandra Covor), components (RGB self-blinking LED, CR2032 battery, slide switch, hand-fashioned sewing hooks from LED pins), posted June 2019. No repository or design files listed on the page. Sold via Tindie but exact listing URL not shown on the project page.'
+  note: Confirmed maker (Zalmotek, with Alexandra Covor), components (RGB self-blinking LED, CR2032 battery, slide switch, hand-fashioned sewing hooks from LED pins), posted June 2019. No repository or design files listed on the page. Sold via Tindie but exact listing URL not shown on the project page.
+  archived: https://web.archive.org/web/20251030183048/https://hackaday.io/project/166292-alpaca-electronic-badge
 research:
   status: verified
   confidence: medium

@@ -11,8 +11,8 @@ year: 2018
 makers:
 - name: Pedro Minatel
   url: https://hackaday.io/pedrominatel
-summary: 'A wearable electronic recreation of the Back to the Future flux capacitor, built as a personal hobby project rather than for any specific convention.'
-functions: 'Lights up to mimic the film prop; no further behavior documented by the maker.'
+summary: A wearable electronic recreation of the Back to the Future flux capacitor, built as a personal hobby project rather than for any specific convention.
+functions: Lights up to mimic the film prop; no further behavior documented by the maker.
 look:
   colors: []
   shape: null
@@ -42,15 +42,18 @@ links:
 - label: hackaday.io/project/158005-back-to-the-future-flux-capacitor-badge
   url: https://hackaday.io/project/158005-back-to-the-future-flux-capacitor-badge
   kind: hackaday
+  archived: https://web.archive.org/web/20251024105358/https://hackaday.io/project/158005-back-to-the-future-flux-capacitor-badge
 images:
 - file: assets/images/badges/other/back-to-the-future-flux-capacitor-badge/306c3ad1f9.jpg
-  source: "https://hackaday.io/project/158005-back-to-the-future-flux-capacitor-badge"
-  credit: "Pedro Minatel"
-  caption: "The Flux Capacitor badge, lit up"
+  source: https://hackaday.io/project/158005-back-to-the-future-flux-capacitor-badge
+  credit: Pedro Minatel
+  caption: The Flux Capacitor badge, lit up
+  archived: https://web.archive.org/web/20251024105358/https://hackaday.io/project/158005-back-to-the-future-flux-capacitor-badge
 - file: assets/images/badges/other/back-to-the-future-flux-capacitor-badge/24dc40f12a.jpg
-  source: "https://hackaday.io/project/158005-back-to-the-future-flux-capacitor-badge"
-  credit: "Pedro Minatel"
-  caption: "The Flux Capacitor badge, alternate view"
+  source: https://hackaday.io/project/158005-back-to-the-future-flux-capacitor-badge
+  credit: Pedro Minatel
+  caption: The Flux Capacitor badge, alternate view
+  archived: https://web.archive.org/web/20251024105358/https://hackaday.io/project/158005-back-to-the-future-flux-capacitor-badge
 contact: {}
 notes: []
 status: released
@@ -60,21 +63,24 @@ sources:
   title: Back to the Future Flux Capacitor Badge
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: hackaday-search); event read as ''unknown''.'
+  archived: https://web.archive.org/web/20251024105358/https://hackaday.io/project/158005-back-to-the-future-flux-capacitor-badge
 - kind: url
   url: https://hackaday.io/project/158005-back-to-the-future-flux-capacitor-badge
   title: Back to the Future Flux Capacitor Badge (project page and discussion)
   accessed: '2026-09-07'
-  note: 'Description, creator identity, project date (created 05/05/2018), power source (18650 lithium cell) from a discussion reply, image gallery, and confirmation that no hardware/firmware files were ever published (only a demo video).'
+  note: Description, creator identity, project date (created 05/05/2018), power source (18650 lithium cell) from a discussion reply, image gallery, and confirmation that no hardware/firmware files were ever published (only a demo video).
+  archived: https://web.archive.org/web/20251024105358/https://hackaday.io/project/158005-back-to-the-future-flux-capacitor-badge
 - kind: url
   url: https://hackaday.io/pedrominatel
   title: Pedro Minatel - Hackaday.io profile
   accessed: '2026-09-07'
   note: 'Confirmed maker identity: developer advocate at Espressif, member of Laboratório Hacker de Campinas hackerspace in Brazil; no convention/badgelife affiliation found.'
+  archived: https://web.archive.org/web/20260122040615/https://hackaday.io/pedrominatel
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'This is a personal hobby project posted to Hackaday.io in May 2018, not made for any specific convention or badgelife event, so it stays under "other" (no matching event in events.yml). The maker promised to "publish the details soon" in a comment but never did on the project page — no chip, LED, price, quantity, or open-source files were ever posted, and the project has no logs/components/instructions sections. Not to be confused with the unrelated "Flux capacitor SAO" (dc31-flux-capacitor-sao), a different item by a different maker.'
+  notes: This is a personal hobby project posted to Hackaday.io in May 2018, not made for any specific convention or badgelife event, so it stays under "other" (no matching event in events.yml). The maker promised to "publish the details soon" in a comment but never did on the project page — no chip, LED, price, quantity, or open-source files were ever posted, and the project has no logs/components/instructions sections. Not to be confused with the unrelated "Flux capacitor SAO" (dc31-flux-capacitor-sao), a different item by a different maker.
 last_modified_date: '2026-09-07'
 ---
 

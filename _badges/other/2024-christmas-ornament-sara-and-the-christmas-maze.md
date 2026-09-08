@@ -12,7 +12,7 @@ makers:
 - name: Bradán Lane STUDIO
   url: https://bradanlane.com
 summary: A coin-shaped, gold-clad Christmas ornament that doubles as a USB text-adventure game and a CircuitPython macro-pad.
-functions: 'Runs a built-in text-adventure game ("Sara and the Christmas Maze," an adaptation of the 2024 eChallengeCoin''s "Sara and the Dark Labyrinth") over a USB serial terminal; can instead be reflashed with CircuitPython and used as a 3-touch-pad USB macro-pad with LEDs and a small speaker.'
+functions: Runs a built-in text-adventure game ("Sara and the Christmas Maze," an adaptation of the 2024 eChallengeCoin's "Sara and the Dark Labyrinth") over a USB serial terminal; can instead be reflashed with CircuitPython and used as a 3-touch-pad USB macro-pad with LEDs and a small speaker.
 look:
   colors:
   - gold
@@ -46,22 +46,26 @@ links:
 - label: aosc.cc/bauble2024.php
   url: https://aosc.cc/bauble2024.php
   kind: website
+  archived: https://web.archive.org/web/20260508141258/https://aosc.cc/bauble2024.php
 - label: CircuitPython board page (bradanlanestudio_coin_m0)
   url: https://circuitpython.org/board/bradanlanestudio_coin_m0/
   kind: doc
+  archived: https://web.archive.org/web/20260414215005/https://circuitpython.org/board/bradanlanestudio_coin_m0/
 images:
 - file: assets/images/badges/other/2024-christmas-ornament-sara-and-the-christmas-maze/279a033b3f.jpg
-  source: "https://aosc.cc/bauble2024.php"
-  credit: "Bradán Lane STUDIO"
-  caption: "Gold-clad face of the 2024 Christmas ornament coin"
+  source: https://aosc.cc/bauble2024.php
+  credit: Bradán Lane STUDIO
+  caption: Gold-clad face of the 2024 Christmas ornament coin
+  archived: https://web.archive.org/web/20260508141258/https://aosc.cc/bauble2024.php
 - file: assets/images/badges/other/2024-christmas-ornament-sara-and-the-christmas-maze/f41580a0e0.jpg
-  source: "https://aosc.cc/bauble2024.php"
-  credit: "Bradán Lane STUDIO"
-  caption: "Clear acrylic back of the ornament showing the electronics"
+  source: https://aosc.cc/bauble2024.php
+  credit: Bradán Lane STUDIO
+  caption: Clear acrylic back of the ornament showing the electronics
+  archived: https://web.archive.org/web/20260508141258/https://aosc.cc/bauble2024.php
 contact: {}
 notes:
 - Spotted by a research agent while working on a neighbouring entry.
-- 'Part of the "Adventures of Sara Cladlow" (AoSC) universe run by Bradán Lane STUDIO, the same maker behind the DEF CON eChallengeCoin series (see dc34-2026-echallengecoin). This ornament is a Christmas-2024 spin-off, not made for a specific convention, so it is filed under the "other" event; no matching event id exists in events.yml.'
+- Part of the "Adventures of Sara Cladlow" (AoSC) universe run by Bradán Lane STUDIO, the same maker behind the DEF CON eChallengeCoin series (see dc34-2026-echallengecoin). This ornament is a Christmas-2024 spin-off, not made for a specific convention, so it is filed under the "other" event; no matching event id exists in events.yml.
 status: released
 sources:
 - kind: url
@@ -69,11 +73,13 @@ sources:
   title: 2024 Christmas Ornament - Sara and the Christmas Maze
   accessed: '2026-09-07'
   note: 'Found by the archive''s discovery sweep (angle: sheet-research-spotted); event read as ''n/a (Christmas 2024, not a con badge)''.'
+  archived: https://web.archive.org/web/20260508141258/https://aosc.cc/bauble2024.php
 - kind: url
   url: https://aosc.cc/bauble2024.php
   title: AoSC - 2024 Christmas Ornament
   accessed: '2026-09-07'
   note: Primary source for description, maker, MCU (SAMD21), functions, LED behavior, CircuitPython instructions, and photos. No price, quantity, or availability was published on the page.
+  archived: https://web.archive.org/web/20260508141258/https://aosc.cc/bauble2024.php
 research:
   status: researched
   confidence: medium

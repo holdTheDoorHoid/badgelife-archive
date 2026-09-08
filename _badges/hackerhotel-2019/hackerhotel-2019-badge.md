@@ -43,6 +43,7 @@ links:
 - label: badge.team/docs/badges/hackerhotel-2019
   url: https://badge.team/docs/badges/hackerhotel-2019/
   kind: website
+  archived: https://web.archive.org/web/20260513013152/https://badge.team/docs/badges/hackerhotel-2019/
 images: []
 contact: {}
 notes:
@@ -54,11 +55,13 @@ sources:
   title: HackerHotel 2019 Badge
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: eu-camps: European hacker camps/cons via badge.team (SHA2017, Hackerhotel, Disobey, CampZone, Fri3d Camp, MCH2022, WHY2025), EMF Camp TiLDA lineage, CCC card10, and BornHack); event read as ''Hackerhotel 2019''.'
+  archived: https://web.archive.org/web/20260513013152/https://badge.team/docs/badges/hackerhotel-2019/
 - kind: url
   url: https://badge.team/docs/badges/hackerhotel-2019/
   title: Hackerhotel 2019 | Badge.Team
   accessed: '2026-09-07'
-  note: 'Confirmed maker credits, ESP32 base, extra 8MB PSRAM (4MB addressable), IR transceiver, stereo audio with a reversed-jack design flaw, Grove I2C, and SAO connector; only image found is an SVG illustration (hh2019.svg), not a photo, so no image was saved.'
+  note: Confirmed maker credits, ESP32 base, extra 8MB PSRAM (4MB addressable), IR transceiver, stereo audio with a reversed-jack design flaw, Grove I2C, and SAO connector; only image found is an SVG illustration (hh2019.svg), not a photo, so no image was saved.
+  archived: https://web.archive.org/web/20260513013152/https://badge.team/docs/badges/hackerhotel-2019/
 research:
   status: researched
   confidence: medium

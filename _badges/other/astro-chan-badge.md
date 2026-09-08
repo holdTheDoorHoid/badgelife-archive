@@ -48,15 +48,18 @@ links:
 - label: hackaday.io/project/192761-astro-chan-badge
   url: https://hackaday.io/project/192761-astro-chan-badge
   kind: hackaday
+  archived: https://web.archive.org/web/20260521052452/https://hackaday.io/project/192761-astro-chan-badge
 images:
 - file: assets/images/badges/other/astro-chan-badge/e63bef191f.jpg
-  source: "https://hackaday.io/project/192761-astro-chan-badge"
-  credit: "deʃhipu"
-  caption: "The Astro-chan badge with its round display showing the astronaut character"
+  source: https://hackaday.io/project/192761-astro-chan-badge
+  credit: deʃhipu
+  caption: The Astro-chan badge with its round display showing the astronaut character
+  archived: https://web.archive.org/web/20260521052452/https://hackaday.io/project/192761-astro-chan-badge
 - file: assets/images/badges/other/astro-chan-badge/9d5d9f7984.jpg
-  source: "https://hackaday.io/project/192761-astro-chan-badge"
-  credit: "deʃhipu"
-  caption: "Back of the Astro-chan badge showing the battery holder and dev board footprint"
+  source: https://hackaday.io/project/192761-astro-chan-badge
+  credit: deʃhipu
+  caption: Back of the Astro-chan badge showing the battery holder and dev board footprint
+  archived: https://web.archive.org/web/20260521052452/https://hackaday.io/project/192761-astro-chan-badge
 contact: {}
 notes: []
 status: unknown
@@ -66,21 +69,18 @@ sources:
   title: Astro-chan Badge
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: hackaday-search); event read as ''unknown''.'
+  archived: https://web.archive.org/web/20260521052452/https://hackaday.io/project/192761-astro-chan-badge
 - kind: url
   url: https://hackaday.io/project/192761-astro-chan-badge
   title: Astro-chan Badge
   accessed: '2026-09-07'
-  note: 'Maker''s own project page; confirmed maker, form factor, display, LEDs, battery, accelerometer, and CircuitPython software.'
+  note: Maker's own project page; confirmed maker, form factor, display, LEDs, battery, accelerometer, and CircuitPython software.
+  archived: https://web.archive.org/web/20260521052452/https://hackaday.io/project/192761-astro-chan-badge
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: >-
-    Made by deʃhipu (hackaday.io/dehipu), posted September 11, 2023. The project page does not
-    say it was made for any specific convention, so it is left under the "other" event rather
-    than corrected. No price, quantity, or availability is stated; no GitHub/hardware repo link
-    was found on the project page. The MCU is described only as a "Xiao-compatible" dev-board
-    footprint, with an ESP32-S3 board mentioned as the intended part; not a confirmed onboard chip.
+  notes: Made by deʃhipu (hackaday.io/dehipu), posted September 11, 2023. The project page does not say it was made for any specific convention, so it is left under the "other" event rather than corrected. No price, quantity, or availability is stated; no GitHub/hardware repo link was found on the project page. The MCU is described only as a "Xiao-compatible" dev-board footprint, with an ESP32-S3 board mentioned as the intended part; not a confirmed onboard chip.
 last_modified_date: '2026-09-07'
 ---
 

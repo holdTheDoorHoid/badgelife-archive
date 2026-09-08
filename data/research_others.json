@@ -418,5 +418,124 @@
   "event": "",
   "type": "sao",
   "url": ""
+ },
+ {
+  "title": "Vectorscope Badge",
+  "maker": "Hackaday, Voja Antonic",
+  "event": "supercon-2023 / hackaday-europe-2024",
+  "type": "badge",
+  "url": "https://github.com/Hack-a-Day/Vectorscope"
+ },
+ {
+  "title": "Tiny Tesla Coil badge",
+  "maker": "Sprite_tm (Jeroen Domburg) with Radu Motisan",
+  "event": "supercon-2015",
+  "type": "badge",
+  "url": "https://hackaday.com/2015/12/09/the-best-badges-of-the-supercon/"
+ },
+ {
+  "title": "Hackaday Superconference 2019 Badge Enclosure",
+  "maker": "Tim Trzepacz (rhythmcorealpha)",
+  "event": "supercon-2019",
+  "type": "note: this is already an existing archive entry (id supercon-2019-hackaday-superconference-2019-badge-enclosure), mentioned only for context as a similar/separate enclosure project, not a newly discovered item",
+  "url": ""
+ },
+ {
+  "title": "Barcode Reader Cartridge for the 2019 Hackaday Superconference Badge",
+  "maker": "Thomas Flummer",
+  "event": "supercon-2019",
+  "type": "accessory",
+  "url": "already present in archive as supercon-2019-barcode-reader-cartridge-for-the-2019-hackaday-superconferen"
+ },
+ {
+  "title": "DJ Controller (2026 add-on)",
+  "maker": "Fri3d Camp",
+  "event": "fri3d-2026",
+  "type": "accessory",
+  "url": "https://fri3dcamp.github.io/badge_2026/en/"
+ },
+ {
+  "title": "Tildagon",
+  "maker": "EMF Camp badge team",
+  "event": "emf-camp-2024",
+  "type": "badge",
+  "url": "https://developer.emfcamp.org/badge/"
+ },
+ {
+  "title": "TiLDA (EMF Camp 2012 badge)",
+  "maker": "Charles Yarnold / EMF Camp",
+  "event": "emf-camp-2012",
+  "type": "badge",
+  "url": "https://badge.emfcamp.org/"
+ },
+ {
+  "title": "TiLDA Mk3 (Mkpi)",
+  "maker": "EMF Camp badge team",
+  "event": "emf-camp-2016",
+  "type": "badge",
+  "url": "https://badge.emfcamp.org/"
+ },
+ {
+  "title": "Tildagon QWERTY Hexpansion",
+  "maker": "Alex (EastMakes)",
+  "event": "emf-camp-2024",
+  "type": "already has its own entry (emf-camp-2024-tildagon-qwerty-hexpansion) \u2014 noted only for context, not a new find",
+  "url": ""
+ },
+ {
+  "title": "OpenBeacon-EasyReader (with PoE)",
+  "maker": "OpenBeacon project",
+  "event": "cccamp-2007",
+  "type": "accessory",
+  "url": "https://events.ccc.de/camp/2007/Sputnik/"
+ },
+ {
+  "title": "rad1o",
+  "maker": "CCC / rad1o project",
+  "event": "cccamp-2015",
+  "type": "badge",
+  "url": "https://badge.gallery/series/ccc-camp"
+ },
+ {
+  "title": "card10",
+  "maker": "CCC / card10 project",
+  "event": "36c3-2019 or similar",
+  "type": "badge",
+  "url": "https://badge.gallery/series/ccc-camp"
+ },
+ {
+  "title": "flow3r",
+  "maker": "CCC / flow3r project",
+  "event": "cccamp-2023",
+  "type": "badge",
+  "url": "https://badge.gallery/series/ccc-camp"
+ },
+ {
+  "title": "Teebeutel-Expansion (add-on boards for the Teebeutel badge's expansion header)",
+  "maker": "Entropia e.V.",
+  "event": "gpn-2022",
+  "type": "accessory",
+  "url": "https://github.com/entropia/Teebeutel-Expansion"
+ },
+ {
+  "title": "CapSense_addon",
+  "maker": "BornHack",
+  "event": "bornhack-2018",
+  "type": "sao",
+  "url": "https://github.com/bornhack/badge2018/tree/breakoutboards/CapSense_addon"
+ },
+ {
+  "title": "LED_addon",
+  "maker": "BornHack",
+  "event": "bornhack-2018",
+  "type": "sao",
+  "url": "https://github.com/bornhack/badge2018/tree/breakoutboards/LED_addon"
+ },
+ {
+  "title": "shadikka/disobey-badge-2026-tutorial",
+  "maker": "shadikka",
+  "event": "disobey-2026",
+  "type": "other",
+  "url": "https://github.com/shadikka/disobey-badge-2026-tutorial"
  }
 ]

@@ -56,7 +56,7 @@ sources:
   accessed: '2026-09-08'
   note: 'GitHub repo README ("SAO adapter for the WHY 2025 badge... Readme and pictures coming later, enjoy the camp!") and file listing (KiCad schematic/PCB/project files); confirms the item is a real, open-source hardware project, but no pictures, chip/LED/display specs, price, or quantity are published.'
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-08'
   notes: 'The maker''s GitHub repo confirms this is a real KiCad-designed SAO adapter board for the WHY2025 badge, shared during camp (August 2025), but the README explicitly says "Readme and pictures coming later" and was never filled in — no photos, no chip/LED/display details, no price or quantity, and no indication it was ever sold (looks like a free/DIY share, not a product). Could not determine what specifically the adapter does (e.g. adds extra SAO ports, or adapts a different connector to SAO) without more documentation. No web search results beyond the repo itself and generic/unrelated hits for "wireless adapter" terms.'

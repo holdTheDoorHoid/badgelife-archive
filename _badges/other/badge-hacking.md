@@ -38,6 +38,7 @@ links:
 - label: hackaday.io/project/173977-def-con-28-badge-hacking
   url: https://hackaday.io/project/173977-def-con-28-badge-hacking
   kind: hackaday
+  archived: https://web.archive.org/web/20260521134321/https://hackaday.io/project/173977-def-con-28-badge-hacking
 images: []
 contact: {}
 notes:
@@ -49,24 +50,18 @@ sources:
   title: DEF CON 28 Badge Hacking
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: hackaday-search); event read as ''unknown''.'
+  archived: https://web.archive.org/web/20260521134321/https://hackaday.io/project/173977-def-con-28-badge-hacking
 - kind: url
   url: https://hackaday.io/project/173977-def-con-28-badge-hacking
   title: DEF CON 28 Badge Hacking
   accessed: '2026-09-07'
-  note: 'Confirmed this is a community puzzle-solving writeup project, not a badge/SAO hardware design.'
+  note: Confirmed this is a community puzzle-solving writeup project, not a badge/SAO hardware design.
+  archived: https://web.archive.org/web/20260521134321/https://hackaday.io/project/173977-def-con-28-badge-hacking
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-07'
-  notes: >-
-    This Hackaday.io page is a collaborative writeup/solve-log for the puzzles embedded in
-    the official DEF CON 28 Safe Mode (Aug 2020, virtual) badge, which was itself an audio
-    cassette with liner-note ciphers designed by DEF CON puzzlemaster 1o57. The project was
-    led by Mike Szczys with 27+ contributors decoding substitution and Vigenere ciphers,
-    color-coded blocks, and lanyard symbols. It is not a badge or SAO hardware design and
-    has no maker, chip, or PCB of its own, so no item fields can be filled. Not a duplicate
-    of the actual DC28 official badge entry (if one exists) since this page documents the
-    puzzle-solving effort rather than the hardware.
+  notes: This Hackaday.io page is a collaborative writeup/solve-log for the puzzles embedded in the official DEF CON 28 Safe Mode (Aug 2020, virtual) badge, which was itself an audio cassette with liner-note ciphers designed by DEF CON puzzlemaster 1o57. The project was led by Mike Szczys with 27+ contributors decoding substitution and Vigenere ciphers, color-coded blocks, and lanyard symbols. It is not a badge or SAO hardware design and has no maker, chip, or PCB of its own, so no item fields can be filled. Not a duplicate of the actual DC28 official badge entry (if one exists) since this page documents the puzzle-solving effort rather than the hardware.
 last_modified_date: '2026-09-07'
 ---
 

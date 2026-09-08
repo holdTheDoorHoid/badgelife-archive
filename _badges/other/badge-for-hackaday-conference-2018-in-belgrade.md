@@ -11,8 +11,8 @@ year: 2018
 makers:
 - name: Voja Antonic
   url: https://hackaday.io/voja-antonic
-summary: 'A standalone retro-computer badge given to attendees of Hackaday Belgrade 2018, with a color LCD, a full mechanical keyboard, and a BASIC/CP-M software stack.'
-functions: 'Runs a BASIC interpreter (based on and expanded from the uBASIC project) and a Z80 CP/M emulation environment; plays 3-voice polyphonic music through an onboard speaker; talks badge-to-badge or badge-to-computer over a 3.3V serial UART on its expansion header.'
+summary: A standalone retro-computer badge given to attendees of Hackaday Belgrade 2018, with a color LCD, a full mechanical keyboard, and a BASIC/CP-M software stack.
+functions: Runs a BASIC interpreter (based on and expanded from the uBASIC project) and a Z80 CP/M emulation environment; plays 3-voice polyphonic music through an onboard speaker; talks badge-to-badge or badge-to-computer over a 3.3V serial UART on its expansion header.
 look:
   colors: []
   shape: null
@@ -34,9 +34,9 @@ get_one:
   availability: free
   distribution:
   - free_drop
-  where: 'Given to all ticketed attendees of Hackaday Belgrade 2018 as their conference badge; a limited number of extras may have been offered for purchase afterward, per the project page.'
+  where: Given to all ticketed attendees of Hackaday Belgrade 2018 as their conference badge; a limited number of extras may have been offered for purchase afterward, per the project page.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://hackaday.io/project/80627-badge-for-hackaday-conference-2018-in-belgrade
   firmware_url: https://github.com/Hack-a-Day/basic-badge
   eda_tool: null
@@ -44,18 +44,22 @@ links:
 - label: hackaday.io/project/80627-badge-for-hackaday-conference-2018-in-belgrade
   url: https://hackaday.io/project/80627-badge-for-hackaday-conference-2018-in-belgrade
   kind: hackaday
+  archived: https://web.archive.org/web/20260214124318/https://hackaday.io/project/80627-badge-for-hackaday-conference-2018-in-belgrade
 - label: Hack-a-Day/basic-badge (firmware repo)
   url: https://github.com/Hack-a-Day/basic-badge
   kind: repo
+  archived: https://web.archive.org/web/20260301172349/https://github.com/Hack-a-Day/basic-badge
 images:
-  - file: assets/images/badges/other/badge-for-hackaday-conference-2018-in-belgrade/143408fa8c.jpg
-    source: "https://hackaday.io/project/80627-badge-for-hackaday-conference-2018-in-belgrade"
-    credit: "Voja Antonic"
-    caption: "The Hackaday Belgrade 2018 conference badge"
-  - file: assets/images/badges/other/badge-for-hackaday-conference-2018-in-belgrade/b905cf9207.jpg
-    source: "https://hackaday.io/project/80627-badge-for-hackaday-conference-2018-in-belgrade"
-    credit: "Voja Antonic"
-    caption: "Badge PCB detail, Hackaday Belgrade 2018"
+- file: assets/images/badges/other/badge-for-hackaday-conference-2018-in-belgrade/143408fa8c.jpg
+  source: https://hackaday.io/project/80627-badge-for-hackaday-conference-2018-in-belgrade
+  credit: Voja Antonic
+  caption: The Hackaday Belgrade 2018 conference badge
+  archived: https://web.archive.org/web/20260214124318/https://hackaday.io/project/80627-badge-for-hackaday-conference-2018-in-belgrade
+- file: assets/images/badges/other/badge-for-hackaday-conference-2018-in-belgrade/b905cf9207.jpg
+  source: https://hackaday.io/project/80627-badge-for-hackaday-conference-2018-in-belgrade
+  credit: Voja Antonic
+  caption: Badge PCB detail, Hackaday Belgrade 2018
+  archived: https://web.archive.org/web/20260214124318/https://hackaday.io/project/80627-badge-for-hackaday-conference-2018-in-belgrade
 contact: {}
 notes: []
 status: released
@@ -65,26 +69,18 @@ sources:
   title: Badge for Hackaday Conference 2018 in Belgrade
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: hackaday-list); event read as ''Hackaday Belgrade 2018''.'
+  archived: https://web.archive.org/web/20260214124318/https://hackaday.io/project/80627-badge-for-hackaday-conference-2018-in-belgrade
 - kind: url
   url: https://hackaday.io/project/80627-badge-for-hackaday-conference-2018-in-belgrade
   title: Badge for Hackaday Conference 2018 in Belgrade
   accessed: '2026-09-07'
-  note: 'Confirmed maker (Voja Antonic, with ~9 project contributors), event (Hackaday Belgrade, held May 26, 2018), hardware (PIC32MX370F512H, 320x240 TFT, 55-key mechanical keyboard, speaker, RGB LED, UART expansion header), firmware (BASIC interpreter + Z80 CP/M emulation, MIT licensed), design file availability (Gerbers + Circuit Studio PCB files, firmware on GitHub), and distribution (given to all ticketed attendees).'
+  note: Confirmed maker (Voja Antonic, with ~9 project contributors), event (Hackaday Belgrade, held May 26, 2018), hardware (PIC32MX370F512H, 320x240 TFT, 55-key mechanical keyboard, speaker, RGB LED, UART expansion header), firmware (BASIC interpreter + Z80 CP/M emulation, MIT licensed), design file availability (Gerbers + Circuit Studio PCB files, firmware on GitHub), and distribution (given to all ticketed attendees).
+  archived: https://web.archive.org/web/20260214124318/https://hackaday.io/project/80627-badge-for-hackaday-conference-2018-in-belgrade
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: >-
-    Event corrected: this "other" entry is for Hackaday Belgrade 2018, a one-off European
-    Hackaday conference. No matching id exists in _data/events.yml (which only lists
-    Hackaday Superconference/Supercon USA years and Hackaday Europe 2025/2026), so event
-    is left as "other" with the specific con named here. Confidence is medium: the
-    project page itself is thorough and appears to be the maker's own writeup, but no
-    independent third-party source (press coverage, forum posts) was checked to
-    corroborate quantity made or LED count/type, which the page did not state explicitly
-    beyond "RGB LED" (count/part number not given, so tech.leds left null). No price is
-    listed since it was distributed free with conference admission; get_one.price left
-    empty rather than guessed.
+  notes: 'Event corrected: this "other" entry is for Hackaday Belgrade 2018, a one-off European Hackaday conference. No matching id exists in _data/events.yml (which only lists Hackaday Superconference/Supercon USA years and Hackaday Europe 2025/2026), so event is left as "other" with the specific con named here. Confidence is medium: the project page itself is thorough and appears to be the maker''s own writeup, but no independent third-party source (press coverage, forum posts) was checked to corroborate quantity made or LED count/type, which the page did not state explicitly beyond "RGB LED" (count/part number not given, so tech.leds left null). No price is listed since it was distributed free with conference admission; get_one.price left empty rather than guessed.'
 last_modified_date: '2026-09-07'
 ---
 

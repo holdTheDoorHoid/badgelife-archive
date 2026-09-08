@@ -46,6 +46,7 @@ links:
 - label: hackaday.io/project/167548-sao-v169b-hackerspace-logo
   url: https://hackaday.io/project/167548-sao-v169b-hackerspace-logo
   kind: hackaday
+  archived: https://web.archive.org/web/20251015020946/https://hackaday.io/project/167548-sao-v169b-hackerspace-logo
 - label: github.com/area3001/SAO-LOGO
   url: https://github.com/area3001/SAO-LOGO
   kind: repo
@@ -54,13 +55,13 @@ links:
   kind: video
 images:
 - file: assets/images/badges/other/area3001-hackerspace-logo-sao/756e7cc0c0.jpg
-  source: "https://github.com/area3001/SAO-LOGO"
-  credit: "Wim Van Gool / Area 3001"
-  caption: "The final 5050-LED version of the Area 3001 logo SAO lit up in color"
+  source: https://github.com/area3001/SAO-LOGO
+  credit: Wim Van Gool / Area 3001
+  caption: The final 5050-LED version of the Area 3001 logo SAO lit up in color
 - file: assets/images/badges/other/area3001-hackerspace-logo-sao/6b0330c7ed.jpg
-  source: "https://github.com/area3001/SAO-LOGO"
-  credit: "Wim Van Gool / Area 3001"
-  caption: "The stack of separate FR-4 PCB layers that make up the 5050-LED version, unpowered"
+  source: https://github.com/area3001/SAO-LOGO
+  credit: Wim Van Gool / Area 3001
+  caption: The stack of separate FR-4 PCB layers that make up the 5050-LED version, unpowered
 contact: {}
 notes: []
 status: released
@@ -70,11 +71,13 @@ sources:
   title: SAO v1.69b Hackerspace Logo
   accessed: '2026-09-06'
   note: Found via the project's link list; intake pass identified this item here.
+  archived: https://web.archive.org/web/20251015020946/https://hackaday.io/project/167548-sao-v169b-hackerspace-logo
 - kind: url
   url: https://hackaday.io/project/167548-sao-v169b-hackerspace-logo
   title: SAO v1.69b Hackerspace Logo
   accessed: '2026-09-07'
   note: Confirmed maker (Wim Van Gool, Area 3001 hackerspace), creation date (Sept 2019), FR-4 stacked-PCB light-pipe construction, and the switch from 2020 to 5050 LEDs.
+  archived: https://web.archive.org/web/20251015020946/https://hackaday.io/project/167548-sao-v169b-hackerspace-logo
 - kind: url
   url: https://github.com/area3001/SAO-LOGO
   title: area3001/SAO-LOGO on GitHub

@@ -47,6 +47,7 @@ links:
 - label: hackaday.io/project/116882-oshwi-the-octopus-iot-badge
   url: https://hackaday.io/project/116882-oshwi-the-octopus-iot-badge
   kind: hackaday
+  archived: https://web.archive.org/web/20260519183849/https://hackaday.io/project/116882-oshwi-the-octopus-iot-badge
 - label: github.com/hulkco/oshwi_2017
   url: https://github.com/hulkco/oshwi_2017
   kind: repo
@@ -55,6 +56,7 @@ images:
   source: https://hackaday.io/project/116882-oshwi-the-octopus-iot-badge
   credit: Gustavo Reynaga (Hulkco)
   caption: Oshwi octopus-shaped IoT badge PCB
+  archived: https://web.archive.org/web/20260519183849/https://hackaday.io/project/116882-oshwi-the-octopus-iot-badge
 contact: {}
 notes: []
 status: released
@@ -64,11 +66,13 @@ sources:
   title: Oshwi, the octopus IoT Badge
   accessed: '2026-09-06'
   note: Found via the project's link list; intake pass identified this item here.
+  archived: https://web.archive.org/web/20260519183849/https://hackaday.io/project/116882-oshwi-the-octopus-iot-badge
 - kind: url
   url: https://hackaday.io/project/116882-oshwi-the-octopus-iot-badge
   title: Oshwi, the octopus IoT Badge
   accessed: '2026-09-07'
   note: Confirmed maker, event, ESP-12/ESP8266 MCU, five WS2812B Neopixels, KiCad/Inkscape design tools, and Hackaday Prize/Open Hardware Design Challenge submission; sourced the badge photo.
+  archived: https://web.archive.org/web/20260519183849/https://hackaday.io/project/116882-oshwi-the-octopus-iot-badge
 - kind: url
   url: https://github.com/hulkco/oshwi_2017
   title: hulkco/oshwi_2017 (GitHub)
