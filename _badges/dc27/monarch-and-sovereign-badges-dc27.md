@@ -74,10 +74,10 @@ sources:
   accessed: '2026-09-08'
   note: 'Could not load tweet content directly (JS-rendered, fetch blocked); a search-engine snippet quotes a tweet mentioning a "$40 Monarch Badge" but it could not be confirmed as this DC27 item, so not used for get_one fields.'
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-08'
-  notes: 'Existence and maker confirmed by a real, photographed Hackaday article. Beyond that, almost nothing is documented: no chip/LED/display specs, no confirmed price or quantity, and no storefront or repo found. A possibly-related tweet ($40 "Monarch Badge") could not be verified as referring to this same pair, so pricing was left blank rather than guessed.'
+  notes: 'Fact-check pass (2026-09-08): re-fetched both Hackaday URLs and confirmed the article text verbatim ("The monarch and sovereign badges are a nice middle-ground between electronic and non-electronic badges."), confirmed the DC27/2019 event mapping against events.yml, and confirmed both saved images exist on disk. Existence and maker confirmed by a real, photographed Hackaday article. Beyond that, almost nothing is documented: no chip/LED/display specs, no confirmed price or quantity, and no storefront or repo found. A possibly-related tweet ($40 "Monarch Badge") could not be verified as referring to this same pair, so pricing was left blank rather than guessed - correctly excluded from the record.'
 last_modified_date: '2026-09-08'
 ---
 

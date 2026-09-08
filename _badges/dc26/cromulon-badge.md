@@ -16,7 +16,6 @@ look:
   colors: []
   shape: null
   themes:
-  - meme
   - pop culture
   - tv
 tech:
@@ -67,18 +66,27 @@ sources:
   accessed: '2026-09-08'
   note: 'Confirmed the item is real: a badge series made only to hold and power add-ons, shown in a Minecraft-sword shape (holding three add-ons) and an "Always Sunny In Philadelphia" theme; credited to @CromulonBadge on Twitter. No specs, price, quantity or availability given.'
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-08'
   notes: >-
-    Only source found is the single Hackaday roundup paragraph; no maker storefront, GitHub, or
-    Hackaday.io project page turned up in search. The maker's Twitter/X account (@CromulonB) could
-    not be fetched (paywalled by the fetch tool), so any further posts about this badge are
-    unverified. No technical details (MCU, LEDs, display, SAO header), pricing, quantity, or
-    availability were found anywhere - left empty per the "never invent" rule. `type` is `badge`
-    (it hosts add-ons rather than being one), and `look.shape`/`look.colors` are left blank since
-    the article describes two different shapes (Minecraft sword, Always Sunny In Philadelphia) with
-    no shared visual description.
+    Fact-checked 2026-09-08: re-fetched the Hackaday DEF CON 26 roundup (vol. 3) directly and
+    confirmed the exact paragraph on CromulonBadge - the Minecraft-sword badge holding three
+    add-ons, the "It's Always Sunny In Philadelphia" badge, the purpose statement ("badges for the
+    sole purpose of holding and powering [add-ons]"), and the @cromulonb Twitter credit all match
+    the article verbatim. Downloaded the article's own cromulon-badge.jpg and byte-compared it
+    against the saved image file - they match, confirming the photo is genuinely from this source
+    and shows the Minecraft-sword design. Removed the `meme` theme tag: the article supports
+    `pop culture` and `tv` (via the Always Sunny reference) but nothing in the source calls either
+    design a meme, so it was an unsupported addition. Only source found is the single Hackaday
+    roundup paragraph; no maker storefront, GitHub, or Hackaday.io project page turned up in
+    search. The maker's Twitter/X account (@CromulonB) could not be fetched (paywalled by the
+    fetch tool), so any further posts about this badge remain unverified - the link is kept as an
+    unconfirmed reference only. No technical details (MCU, LEDs, display, SAO header), pricing,
+    quantity, or availability were found anywhere - left empty per the "never invent" rule. `type`
+    is `badge` (it hosts add-ons rather than being one), and `look.shape`/`look.colors` are left
+    blank since the article describes two different shapes (Minecraft sword, Always Sunny In
+    Philadelphia) with no shared visual description.
 last_modified_date: '2026-09-08'
 ---
 

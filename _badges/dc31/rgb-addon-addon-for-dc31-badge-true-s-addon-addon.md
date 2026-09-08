@@ -31,7 +31,7 @@ tech:
   - buttons
   - accelerometer
   battery: rechargeable via USB-C (5V or USB PD); capacity not stated
-  sao_version: null
+  sao_version: v1.69bis
 get_one:
   price: $60.00 (marked down to $30.00 as of research date)
   price_usd: 30.0
@@ -62,6 +62,12 @@ links:
 - label: Addon Addon user manual
   url: https://dc31.truecontrol.org/yearsite/manual/addon-addon
   kind: doc
+- label: shop.truecontrol.org/index.php?route=product%2Fproduct&product_id=133
+  url: https://shop.truecontrol.org/index.php?route=product%2Fproduct&product_id=133
+  kind: store
+- label: dc31.whiskeypirates.com
+  url: https://dc31.whiskeypirates.com/
+  kind: website
 images:
 - file: assets/images/badges/dc31/rgb-addon-addon-for-dc31-badge-true-s-addon-addon/ea9f8429b6.jpg
   source: https://shop.truecontrol.org/index.php?product_id=133&route=product%2Fproduct
@@ -73,9 +79,19 @@ images:
   credit: trueControl (true)
   caption: The Addon Addon inserted into a DEF CON 31 badge
   archived: https://web.archive.org/web/20260216202719/https://shop.truecontrol.org/index.php?route=product/product&product_id=133
+- file: assets/images/badges/dc31/rgb-addon-addon-for-dc31-badge-true-s-addon-addon/a59c7f968a.jpg
+  source: https://shop.truecontrol.org/index.php?route=product%2Fproduct&product_id=133
+  credit: trueControl
+  caption: Addon Addon RGB board installed inside a DC31 badge
+- file: assets/images/badges/dc31/rgb-addon-addon-for-dc31-badge-true-s-addon-addon/6d88384d7d.jpg
+  source: https://shop.truecontrol.org/index.php?route=product%2Fproduct&product_id=133
+  credit: trueControl
+  caption: Addon Addon RGB board, standalone
 contact: {}
 notes:
 - Spotted by a research agent while working on a neighbouring entry.
+- Spotted by a research agent while working on a neighbouring entry (run 4).
+- The sweep title matches the storefront's page <title> exactly ("true's RGB Addon Addon for DC31 Badge"); the storefront's own product heading and breadcrumb instead read "RGB Addon Addon for DC31 Badge" (no "true's").
 status: released
 sources:
 - kind: url
@@ -100,14 +116,31 @@ sources:
   accessed: '2026-09-07'
   note: Confirms price ($60 marked to $30), 13 in stock, fully assembled, insertion instructions, and product photos used for images.
   archived: https://web.archive.org/web/20260216202719/https://shop.truecontrol.org/index.php?route=product/product&product_id=133
+- kind: url
+  url: https://shop.truecontrol.org/index.php?route=product%2Fproduct&product_id=133
+  title: true's RGB Addon Addon for DC31 Badge
+  accessed: '2026-09-07'
+  note: 'Found by the archive''s discovery sweep (angle: research-run4-spotted); event read as ''dc31''.'
+- kind: url
+  url: https://shop.truecontrol.org/index.php?route=product%2Fproduct&product_id=133
+  title: RGB Addon Addon for DC31 Badge - trueControl Webshop
+  accessed: '2026-09-08'
+  note: Confirmed the product exists; supplied summary, functions, LED count/layout, battery, price, stock count, availability, distribution, links, and product photos.
+- kind: url
+  url: https://dc31.whiskeypirates.com/
+  title: whiskey pirates
+  accessed: '2026-09-08'
+  note: Linked from the storefront as the DC31 badge/info site; confirms the Whiskey Pirate Crew / trueControl connection but a splash page with no addon-specific content.
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-07'
-  notes: 'Maker''s own project page, user manual, firmware repo README, and shop listing all agree on the core facts. Not found: total quantity ever made, exact battery capacity, hardware/schematic files (promised "coming soon" on the shop page but not linked), and LED part number (site just says "addressable RGBLED"). Possible duplicate: _badges/dc31/addon-addon.md ("Addon addon", id dc31-addon-addon) has the same generic title but attributes the maker as "Whiskey Pirate Crew" and lists price $70 — unclear whether that is the same item misattributed on the community sheet or a distinct addon; left untouched per one-entry-per-task rule.'
-last_modified_date: '2026-09-07'
+  notes: 'Maker''s own project page, user manual, firmware repo README, and shop listing all agree on the core facts. Not found: total quantity ever made, exact battery capacity, hardware/schematic files (promised "coming soon" on the shop page but not linked), and LED part number (site just says "addressable RGBLED"). Possible duplicate: _badges/dc31/addon-addon.md ("Addon addon", id dc31-addon-addon) has the same generic title but attributes the maker as "Whiskey Pirate Crew" and lists price $70 — unclear whether that is the same item misattributed on the community sheet or a distinct addon; left untouched per one-entry-per-task rule. Merged with duplicate entry ''true''s RGB Addon Addon for DC31 Badge'' (dc31-true-s-rgb-addon-addon-for-dc31-badge).'
+last_modified_date: '2026-09-08'
 related:
 - dc31-addon-addon
+redirect_from:
+- /badges/dc31/true-s-rgb-addon-addon-for-dc31-badge/
 ---
 
 true's Addon Addon is an RGB lighting add-on built for the official DEF CON 31 badge. It plugs into the badge's addon slot and, unusually for a shard, also carries its own header that hosts a second GAT- or v1.69bis-compliant addon, so a DC31 badge wearer could run the Addon Addon's own light shows while still keeping another shard plugged in and powered (with its LEDs off if the wearer wants). It runs on an HK32F030MF4P6 microcontroller and drives 8 addressable RGB LEDs — 5 front-firing, 2 side-firing, and 1 rear-firing — split into 3 independently configurable zones, plus an onboard accelerometer for two motion-reactive lighting modes. Three front buttons (MODE, PROG, SET) step through more than six programs (twinkle, rainbow, flicker, a moving trail effect, color toggling, and the accelerometer modes), each with adjustable parameters saved to EEPROM, and a fourth press cycles brightness.
@@ -119,3 +152,11 @@ The Addon Addon has continued to be sold well after DEF CON 31 itself — as of 
 ## Make your own
 
 Firmware source and build notes are at the [dc31-addon-addon-badge-firmware repo](https://git.trueserve.org/trueControl/dc31-addon-addon-badge-firmware): clone it, build with STM32CubeIDE (patched per the repo's `hax/` directory) or program via J-Link, or push updates in the field over the Type-C XMODEM bootloader. No hardware/schematic files were found published at research time.
+
+## Notes merged from the duplicate entry "true's RGB Addon Addon for DC31 Badge"
+
+trueControl's "Addon Addon" is an RGB LED SAO built to plug into the official DEF CON 31 badge using a GAT (v1.69bis) addon header. It carries 8 RGB LEDs arranged across three zones (five front-firing, two side-firing, one rear-firing) and offers more than six selectable lighting programs, including accelerometer-driven and power-saving modes, all user-configurable, with brightness adjusted by a button press. It also passes power through to whatever addon is plugged into it even when its own LEDs are switched off.
+
+The board runs on a rechargeable LiPo battery and is designed to be charged in place; the maker's listing warns that the power switch is a mechanical weak point and to avoid pressure on it during installation or handling. It was designed, assembled, and coded by "true" of the Whiskey Pirate Crew / trueControl. As of this research pass the trueControl webshop still lists it for $30 (marked down from $60) with 13 units in stock, though the listing notes orders are for pickup at DEF CON 33 with shipping available roughly a week later.
+
+This entry is a duplicate of an existing archive record, `dc31-rgb-addon-addon-for-dc31-badge-true-s-addon-addon`, which should be treated as canonical.

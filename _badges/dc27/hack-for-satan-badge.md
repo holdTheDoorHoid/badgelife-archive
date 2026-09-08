@@ -12,8 +12,9 @@ makers:
 - name: Hack For Satan team
   url: https://hackforsatan.github.io/
 summary: 'An independent DEF CON 27 badge from the Hack For Satan team, a recurring
-  "unofficial" badge series (previously seen at DC24-26). It is coin-cell powered
-  and uses a Rigado Bluetooth module for interactivity between units.'
+  "unofficial" badge series (a DC25 edition, "devilbadge," is documented on the
+  team''s GitHub). It is coin-cell powered and uses a Rigado Bluetooth module for
+  interactivity between units.'
 functions: 'Interactive via a Rigado BLE module; attendees reported the badges being
   gathered in groups of five to trigger interactive elements.'
 look:
@@ -97,25 +98,35 @@ sources:
   note: 'Confirms the team''s prior (DC25) badge repo exists; no DC27-specific
     hardware/firmware repo was found under the hackforsatan GitHub org.'
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-08'
-  notes: 'Confirmed the badge is real via Hackaday''s DC27 roundup (front/rear
-    photos saved). Could not find the maker''s own DC27-specific writeup, chip,
-    LED count/type, display, price, quantity, or distribution method - the
-    team''s DC25 GitHub repo (devilbadge) and DC27 teaser site do not cover
-    the DC27 hardware in detail, and no DC27-specific repo was found under the
-    hackforsatan GitHub org. Left those fields empty rather than guess. An
-    eBay resale listing calls this specific badge "Hack 4 Satan 3 Virus Badge"
-    (implying it is the third badge in the series) but eBay listings are not
-    used as a factual source here, only noted.'
+  notes: 'Fact-check pass (2026-09-08): re-fetched all three cited sources and
+    confirmed each claim they support - Hackaday''s roundup confirms coin-cell
+    power, the Rigado BLE module, and badges gathered in groups of five (front/rear
+    photos verified against the article and confirmed to show this badge, including
+    a rear shot reading "SUMMONED BY HACK FOR SATAN" with a coin cell and BLE
+    module); hackforsatan.github.io confirms the team and its DC27 teaser;
+    devilbadge confirms the team''s DC25 repo. Removed one unsupported claim: the
+    summary and body previously said the series was "seen at DC24-26" / included a
+    "DC26 ImpBadge," but no source in this entry supports DC24 or DC26 - only the
+    cited DC25 repo is backed by a source here, so those references were narrowed
+    to DC25 only. (A DC26 "impbadge" repo does appear to exist on the same GitHub
+    org, but since it was not part of the cited sources for this entry it was left
+    out rather than added as new research.) Could not find the maker''s own
+    DC27-specific writeup, chip, LED count/type, display, price, quantity, or
+    distribution method - left those fields empty rather than guess. An eBay
+    resale listing calls this specific badge "Hack 4 Satan 3 Virus Badge" (and,
+    confusingly, one such listing''s title says "DC 26" while its own description
+    says "Defcon 27") but eBay listings are not used as a factual source here,
+    only noted.'
 last_modified_date: '2026-09-08'
 ---
 
 The Hack For Satan badge is an independent, unofficial badge made by the "Hack For
 Satan" team for DEF CON 27 (2019), part of a recurring series the team has produced
-across several DEF CONs (a DC25 hardware repo and a DC26 "ImpBadge" edition are
-documented elsewhere). It is coin-cell powered and includes a Rigado Bluetooth
+across several DEF CONs (a DC25 hardware repo, "devilbadge," is public on the
+team's GitHub). It is coin-cell powered and includes a Rigado Bluetooth
 module that lets badges interact with one another; Hackaday's roundup of DC27
 badges noted attendees clustering the badges in groups of five to trigger
 interactive effects.

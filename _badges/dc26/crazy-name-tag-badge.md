@@ -66,10 +66,10 @@ sources:
   accessed: '2026-09-08'
   note: Confirmed the badge is a real, physically-seen item (Hackaday's own photos of front and rear), not just a listing; supplied construction details (67 LEDs in parallel, no resistors, four batteries, two supercapacitors) and the maker's one-week build timeline.
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-08'
-  notes: Only one source found (the Hackaday roundup article) despite additional searches for the maker and title; no maker storefront, repo, or social post turned up. Price, quantity, availability, and design-file status are not stated anywhere and are left empty rather than guessed.
+  notes: Fact-checked against the Hackaday article directly (WebFetch) and re-searched for other sources; only the Hackaday roundup exists. All non-empty fields (67 LEDs, parallel wiring, no resistors, four batteries, two supercapacitors, protoboard construction, one-week build, no MCU) and both saved images (front/rear) matched the source. Price, quantity, availability, and design-file status remain unstated anywhere and are left empty rather than guessed.
 last_modified_date: '2026-09-08'
 ---
 

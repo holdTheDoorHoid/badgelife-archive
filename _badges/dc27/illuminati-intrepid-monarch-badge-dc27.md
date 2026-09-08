@@ -95,10 +95,10 @@ sources:
   accessed: '2026-09-08'
   note: Maker's current site; confirms Kredence is "best known for designing and building the annual Illuminati Party badge."
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-08'
-  notes: 'Confirmed the badge exists and identified its maker (Kredence) and event (DEF CON 27, 2019) via GitHub and Hackaday. Could not confirm MCU/LEDs/display, price, quantity made, availability, or open-source status of hardware/firmware -- the only primary source is a GitHub repo holding a single photo and a one-line description. The photo shows no visible electronic components, consistent with Hackaday''s framing of this badge line as "a nice middle-ground between electronic and non-electronic badges," but this was not directly confirmed for this specific card.'
+  notes: 'Confirmed the badge exists and identified its maker (Kredence) and event (DEF CON 27, 2019) via GitHub and Hackaday. Could not confirm MCU/LEDs/display, price, quantity made, availability, or open-source status of hardware/firmware -- the only primary source is a GitHub repo holding a single photo and a one-line description. The photo shows no visible electronic components, consistent with Hackaday''s framing of this badge line as "a nice middle-ground between electronic and non-electronic badges," but this was not directly confirmed for this specific card. 2026-09-08 fact-check pass: re-fetched the GitHub repo, kredence.net, and the Hackaday article and confirmed each cited claim (description text, "best known for... annual Illuminati Party badge" quote, "middle-ground" quote) against the live pages; viewed the saved photo directly and confirmed title banner, owl motif, Illuminati wordmark, maxim text, and black/white/copper coloring. The X post cited in sources (a "Monarch Badge" for $40 / "popcorn SAO" for $10) could not be independently re-verified -- x.com blocked automated fetch (HTTP 402) and the nitter mirror used as a fallback is offline -- but this claim is not used to populate any field (price/quantity/availability are left blank) and is already flagged in these notes as inconclusive, so it does not affect the verified fields. All populated fields and body sentences check out against their cited sources.'
 last_modified_date: '2026-09-08'
 ---
 

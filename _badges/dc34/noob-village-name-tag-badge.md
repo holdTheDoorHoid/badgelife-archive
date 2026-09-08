@@ -62,15 +62,16 @@ links:
 - label: Hackerware.io
   url: https://hackerware.io
   kind: website
+  archived: https://web.archive.org/web/20260523123718/https://hackerware.io/
 images:
-  - file: assets/images/badges/dc34/noob-village-name-tag-badge/a333a5a030.jpg
-    source: "https://www.noobvillage.org/badges"
-    credit: "Hackerware.io"
-    caption: "Five Noob Village badge color variants: staff (yellow), attendee (pink), volunteer (blue), speaker (green), and Octopus Game (magenta)"
-  - file: assets/images/badges/dc34/noob-village-name-tag-badge/628b1bc1de.jpg
-    source: "https://www.noobvillage.org/badges"
-    credit: "Hackerware.io"
-    caption: "PCB layout render showing the solder points (D5-D8 LEDs, R1-R5 resistors), coin cell holder, slide switch, and NFC tag area"
+- file: assets/images/badges/dc34/noob-village-name-tag-badge/a333a5a030.jpg
+  source: https://www.noobvillage.org/badges
+  credit: Hackerware.io
+  caption: 'Five Noob Village badge color variants: staff (yellow), attendee (pink), volunteer (blue), speaker (green), and Octopus Game (magenta)'
+- file: assets/images/badges/dc34/noob-village-name-tag-badge/628b1bc1de.jpg
+  source: https://www.noobvillage.org/badges
+  credit: Hackerware.io
+  caption: PCB layout render showing the solder points (D5-D8 LEDs, R1-R5 resistors), coin cell holder, slide switch, and NFC tag area
 contact:
   discord: abhinav_panda
   emails:
@@ -87,22 +88,19 @@ sources:
   listing: New
 - kind: url
   url: https://www.noobvillage.org/badges
-  title: "NOOBVILLAGE.ORG - Badges"
+  title: NOOBVILLAGE.ORG - Badges
   accessed: '2026-09-06'
-  note: "Confirms the badge redirects to a Hackerware-built microsite; page itself is a Google Sites shell."
+  note: Confirms the badge redirects to a Hackerware-built microsite; page itself is a Google Sites shell.
 - kind: url
   url: https://sites.google.com/view/noobvillage/badges
-  title: "Noob Village Badge · Hackerware"
+  title: Noob Village Badge · Hackerware
   accessed: '2026-09-06'
-  note: "Full product microsite: features, build steps, LED/resistor placement, NFC behavior, coin cell power, five role-based color variants, and both photos used above."
+  note: 'Full product microsite: features, build steps, LED/resistor placement, NFC behavior, coin cell power, five role-based color variants, and both photos used above.'
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-06'
-  notes: >-
-    Maker's own microsite (embedded in the Noob Village site) fully describes the badge; no third-party
-    coverage found. Quantity made and any hardware/firmware file releases are not stated anywhere found,
-    so those fields are left empty. No open-source design files (Gerbers, BOM, etc.) were located.
+  notes: Maker's own microsite (embedded in the Noob Village site) fully describes the badge; no third-party coverage found. Quantity made and any hardware/firmware file releases are not stated anywhere found, so those fields are left empty. No open-source design files (Gerbers, BOM, etc.) were located.
 last_modified_date: '2026-09-06'
 ---
 

@@ -10,10 +10,11 @@ event: dc27
 year: 2019
 makers:
 - name: Greymanhw (@greymanhw)
-summary: 'A repurposed green PCB of unknown origin, given to the maker by another attendee at DEF CON 26, hacked into a badge with a 555 timer and shift register driving ten point-to-point wired LEDs.'
-functions: 'Blinks ten LEDs, driven by a 555 timer astable circuit feeding a shift register.'
+summary: A repurposed green PCB of unknown origin, given to the maker by another attendee at DEF CON 26, hacked into a badge with a 555 timer and shift register driving ten point-to-point wired LEDs.
+functions: Blinks ten LEDs, driven by a 555 timer astable circuit feeding a shift register.
 look:
-  colors: [green]
+  colors:
+  - green
   shape: null
   themes: []
 tech:
@@ -32,7 +33,7 @@ get_one:
   quantity: ''
   availability: unknown
   distribution: []
-  where: 'One-off personal project; not sold or distributed.'
+  where: One-off personal project; not sold or distributed.
 make_your_own:
   open_source: null
   hardware_url: null
@@ -52,14 +53,20 @@ links:
   url: https://github.com/greymanhw
   kind: repo
 images:
-  - file: assets/images/badges/dc27/555-timer-shift-register-badge/f73004ca45.jpg
-    source: "https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/"
-    credit: "Hackaday / Greymanhw"
-    caption: "A repurposed green PCB hosting a 555 timer, shift register, and 10 point-to-point wired LEDs"
+- file: assets/images/badges/dc27/555-timer-shift-register-badge/f73004ca45.jpg
+  source: https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/
+  credit: Hackaday / Greymanhw
+  caption: A repurposed green PCB hosting a 555 timer, shift register, and 10 point-to-point wired LEDs
+- file: assets/images/badges/dc27/555-timer-shift-register-badge/f73004ca45.jpg
+  source: https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/
+  credit: Hackaday / Greymanhw
+  caption: A repurposed green PCB hosting a 555 timer, shift register, and 10 point-to-point wired LEDs
 contact: {}
 notes:
 - A repurposed-green-PCB independent badge for DC27 built around a 555 timer and shift register, per Hackaday's roundup. Found by the event-year sweep, task dc27-indie.
 - 'Duplicate: this entry describes the same badge as dc27-random-board-555-badge (same maker, same event, same Hackaday source). Both entries were created independently by the discovery sweep; consider merging.'
+- 555-timer-based independent badge by Greymanhw shown at DEF CON 27. Found by the event-year sweep, task dc27-badges.
+- 'Duplicate: this entry describes the same badge as dc27-555-timer-shift-register-badge (same maker, same event, same Hackaday source, same photo). That entry was researched more fully; consider merging into it.'
 status: listed
 sources:
 - kind: url
@@ -71,23 +78,25 @@ sources:
   url: https://forum.defcon.org/node/229873
   title: 'Hackaday: Mike Szczys, DEF CON 27: Pictorial Guide To ...'
   accessed: '2026-09-08'
-  note: 'Repost of the same Hackaday text on the DEF CON forums; confirms the badge description, no new details.'
+  note: Repost of the same Hackaday text on the DEF CON forums; confirms the badge description, no new details.
 - kind: url
   url: https://x.com/greymanhw
   title: greymanhw unlocking hardware features! (@greymanhw) / X
   accessed: '2026-09-08'
-  note: "Maker's own account; checked for badge photos/details, none specific to this DC27 badge found in the fetched content."
+  note: Maker's own account; checked for badge photos/details, none specific to this DC27 badge found in the fetched content.
 - kind: url
   url: https://github.com/greymanhw
   title: greymanhw (GitHub)
   accessed: '2026-09-08'
-  note: "Maker's repos (tft_wifi_ble_scanner, gold-star, esp32scratches) do not include this badge; it does not appear to be open-sourced."
+  note: Maker's repos (tft_wifi_ble_scanner, gold-star, esp32scratches) do not include this badge; it does not appear to be open-sourced.
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-08'
-  notes: 'Confirmed by Hackaday''s DC27 badge roundup (and its DEF CON forum repost), both citing the same original text/photo, so effectively one source. The maker calls it a scrap PCB of unknown origin repurposed with a 555 timer, shift register, and 10 point-to-point wired LEDs; no title of the maker''s own is known, so the sweep''s descriptive title is kept. No price, quantity, or distribution info exists because this reads as a one-off personal project, not something sold or given away. Maker''s GitHub and X were checked; neither turned up build files or additional photos of this specific badge. This entry duplicates dc27-random-board-555-badge, created independently by an earlier sweep pass from the same source.'
+  notes: Confirmed by Hackaday's DC27 badge roundup (and its DEF CON forum repost), both citing the same original text/photo, so effectively one source. The maker calls it a scrap PCB of unknown origin repurposed with a 555 timer, shift register, and 10 point-to-point wired LEDs; no title of the maker's own is known, so the sweep's descriptive title is kept. No price, quantity, or distribution info exists because this reads as a one-off personal project, not something sold or given away. Maker's GitHub and X were checked; neither turned up build files or additional photos of this specific badge. This entry duplicates dc27-random-board-555-badge, created independently by an earlier sweep pass from the same source. Merged with duplicate entry 'Random Board 555 Badge' (dc27-random-board-555-badge).
 last_modified_date: '2026-09-08'
+redirect_from:
+- /badges/dc27/random-board-555-badge/
 ---
 
 A one-off DEF CON 27 badge by the maker known as Greymanhw, built from a mystery green PCB someone else handed them at DEF CON 26. Not knowing what the board was originally meant to do, Greymanhw repurposed it, wiring in a 555 timer and a shift register to drive ten LEDs connected point-to-point. It appeared in Hackaday's September 2019 pictorial roundup of DEF CON 27's independent ("badgelife") badges, which is the only documentation found of it.
@@ -95,3 +104,11 @@ A one-off DEF CON 27 badge by the maker known as Greymanhw, built from a mystery
 No evidence turned up that the badge was sold, kitted, or open-sourced — it reads as a scrappy, one-off hack rather than a distributed badge. The maker's GitHub (tft_wifi_ble_scanner, gold-star, esp32scratches) and X account do not reference this specific board.
 
 This entry appears to duplicate `dc27-random-board-555-badge`, an earlier sweep entry describing the same badge from the same source; the two likely should be merged.
+
+## Notes merged from the duplicate entry "Random Board 555 Badge"
+
+A one-off DEF CON 27 badge by the maker known as Greymanhw, built from a mystery green PCB someone else handed them at DEF CON 26. Not knowing what the board was originally meant to do, Greymanhw repurposed it, wiring in a 555 timer and a shift register to drive ten LEDs connected point-to-point. It appeared in Hackaday's September 2019 pictorial roundup of DEF CON 27's independent ("badgelife") badges, which is the only documentation found of it.
+
+No evidence turned up that the badge was sold, kitted, or open-sourced — it reads as a scrappy, one-off hack rather than a distributed badge.
+
+This entry duplicates `dc27-555-timer-shift-register-badge`, an entry describing the same badge from the same source and photo; that entry has additional research (maker's GitHub/X checked, a DEF CON forum repost of the source found) and is the better one to keep if the two are merged.

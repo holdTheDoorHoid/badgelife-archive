@@ -6,6 +6,7 @@
 44con-2016-44con-2016-hidiot-0-7-badge | 44CON 2016 HIDIOT 0.7 Badge | HIDIOT
 44con-2017-44con-2017-hidiot-1-0-badge | 44CON 2017 HIDIOT 1.0 Badge | Raw Hex / HIDIOT
 44con-2025-44con-2025-rf-detector-badge | 44CON 2025 RF Detector Badge | Electronic Cats
+None | The Floppy | Uri Shaked
 balccon-2023-balccon-cyberdeck-0o27-bcd-0o27 | BalCCon Cyberdeck 0o27 (BCD-0o27) | Florian Euchner / CH405 Labs
 balccon-2024-balccon-mini-cyberdeck-0o00-mc-0o00 | BalCCon Mini Cyberdeck 0o00 (MC-0o00) | CH405 Labs
 blue-team-con-2022-hak4kidz-blue-team-con-2022-badge-soldering-kit | Hak4Kidz Blue Team Con 2022 Badge Soldering Kit | Hak4Kidz
@@ -29,6 +30,7 @@ brucon-2018-brucon-0x0a-badge | BruCON 0x0A Badge | Jean-George (Jegeva)
 brucon-2019-brucon-2019-badge-custom-firmware | BruCON 2019 badge / custom firmware | virtualabs (community firmware for the official BruCON 2019 badge)
 brucon-2021-brucon-2021-badge | BruCON 2021 badge | Jegeva (design/firmware), artwork by Ray Harvey
 brucon-2024-brucon-0x10-badge-2024 | BruCON 0x10 Badge (2024) | Joris Witteman and Tom Clement (hardware/software), PCB art by Nikolett S.
+bsides-2025-bsides-badge25-ch4r13-esp32-c3 | BSides-Badge25 (ch4r13, ESP32-C3) | ch4r13
 bsides-2026-bsides-badge26-ch4r13 | BSides-Badge26 (ch4r13) | ch4r13
 bsides-adelaide-2025-the-falken-wombat-badge-2 | The FALKEN Wombat Badge 2 | Hackerware.io (Abhinav SP)
 bsides-adelaide-2026-wombat-3 | Wombat 3 | Hackerware.io
@@ -146,8 +148,8 @@ ccc-congress-2025-39c3-cyberwatch-badge | 39C3 Cyberwatch Badge | Cyberwatch pro
 cccamp-2007-sputnik-openbeacon | Sputnik (OpenBeacon) | Milosch Meriac / OpenBeacon project (Bitmanufaktur)
 cccamp-2011-r0ket | r0ket | Team r0ket (hme et al.)
 cccamp-2019-card10 | card10 | Chaos Computer Club community
-cccamp-2019-numberwang-badge-2 | Numberwang Badge | timonsku
 cccamp-2019-numberwang-badge | Numberwang Badge | timonsku
+cccamp-2019-numberwang-badge-2 | Numberwang Badge | timonsku
 cccamp-2023-anal0g-flow3r | anal0g flow3r | wenzellabs
 cccamp-2023-flow3r | flow3r | CCCamp23 Badge Team (Süd Ost Chaos)
 crikeycon-2022-crikeycon-8-badge | CrikeyCon 8 Badge | CrikeyCon
@@ -239,8 +241,8 @@ dc25-seckc-acrylic-badge | SecKC Acrylic Badge | SecKC (Kansas City infosec grou
 dc25-seckc-badge | SecKC Badge | SecKC (Kansas City infosec meetup)
 dc25-sympetrum-v2 | Sympetrum v2 | borgel
 dc25-team-bazooka-vfd-badge-dc25 | Team Bazooka VFD Badge (DC25) | Team Bazooka
-dc25-the-ides-of-defcon-an-unofficial-electronic-badge | The ides of DEFCON: An Unofficial Electronic Badge | John Adams
 dc25-the-ides-of-defcon | The Ides of Defcon | John Adams, Bill Paul, Egan Hirvela, Matthew Harris
+dc25-the-ides-of-defcon-an-unofficial-electronic-badge | The ides of DEFCON: An Unofficial Electronic Badge | John Adams
 dc25-tindie-3d-printed-def-con-25-badge | Tindie 3D Printed DEF CON 25 Badge | Sean McCabe
 dc25-tindie-blinky-led-badge-v1 | Tindie Blinky LED Badge v1 | Jasmine Brackett, Shulie Tornel
 dc25-tindie-hackaday-robodog-head-badge-a-k-a-blinky-led-badge | Tindie/Hackaday Robodog Head Badge (a.k.a. Blinky LED Badge) | Brian Benchoff / Hackaday-Tindie
@@ -259,8 +261,8 @@ dc26-car-hacking-village-badge-dc26 | Car Hacking Village Badge (DC26) | Car Hac
 dc26-challenge-coin-pcb | DC26 Monero Badge Challenge coin PCB | dodgymike, elasticninja, tonym128, fluffypony
 dc26-cl4p-tp-shitty-add-on-dc26-shitty-add-on-board | CL4P-TP-Shitty-Add-On — DC26 Shitty Add-On Board | Sparx50
 dc26-cockroach-badge | Cockroach Badge | Red (noidd)
-dc26-coinop-badge-2 | CoinOp Badge | Mike Szczys
 dc26-coinop-badge | CoinOp Badge | Mike Szczys
+dc26-coinop-badge-2 | CoinOp Badge | Mike Szczys
 dc26-crazy-name-tag-badge | Crazy Name-Tag Badge | Gigs (gigstaggart)
 dc26-cromulon-badge | Cromulon Badge | CromulonBadge
 dc26-dc-darknet-badge-conrad-personal-communicator-dc26 | DC Darknet Badge / Conrad Personal Communicator (DC26) | cmdc0de, Krux, Gourry, Bunni
@@ -292,13 +294,12 @@ dc26-dc503-banglet-badge-dc26 | DC503 Banglet Badge (DC26) | Nisha K., r00tkilla
 dc26-dc503-sao-dc503-s-shitty-add-on-for-defcon-26 | DC503_SAO — DC503's Shitty Add-On for Defcon 26 | DC503
 dc26-dc801-dc26-party-badge | DC801 DC26 Party Badge | DC801
 dc26-dc801-def-con-26-badge | DCZia DEF CON 26 badge | DCZia, hamster (snurkle engineering)
+dc26-dc801-sao | DC801 SAO | snurkle engineering / hamster
 dc26-dc858-619-beach-day-badge | DC858/619 "Beach Day" Unofficial DEF CON 26 badge | DC858/619 (DEF CON Group San Diego) / ellwood
-dc26-dc858-619-unofficial-def-con-badge-beach-day-badge | DC858/619 Unofficial DEF CON Badge ("Beach Day Badge") | phelgon (El Cajon, CA)
 dc26-dczia-defcon26-badge-keygrid | DCZia Defcon26-Badge (KeyGrid) | DCZia
 dc26-deauth-badge | DEAUTH Badge | El Kentaro
 dc26-def-con-furs-badge-dc26 | DEF CON Furs Badge DC26 | DEF CON Furs (defconfurs org)
-dc26-def-con-shoot-badge-banana-mag | DEF CON Shoot Badge (Banana Mag) | bmp51
-dc26-def-con-shoot-badge | DEF CON Shoot Badge | unnamed
+dc26-def-con-shoot-badge | DEF CON Shoot Badge (Banana Mag) | Matt
 dc26-defcon-seckc-26 | DefCon_SecKC_26 | BadgePirates / SecKC
 dc26-defcon26-middle-finger-badge | The DEFCON26 Middle Finger Badge | El Jefe de Security
 dc26-delorean-add-on | DeLorean Add-On | reanimationxp, tr_h, ssldemon
@@ -309,8 +310,8 @@ dc26-florida-man-badge-2018 | FLORIDA_MAN Badge 2018 | Jonathan Singer
 dc26-flying-skull-badge | Flying Skull Badge | b1uN7
 dc26-fry-add-on | Fry Add-On | sqearlsalazar
 dc26-future-o-rama-golden-bend-her-robot-sao | Future-O-Rama Golden Bend-her Robot SAO | PCB PINS
-dc26-goodfear-blimp-this-is-not-a-camera-surveillance-add-on | GoodFear Blimp / "This is Not a Camera" surveillance add-on | Chris Gammell
 dc26-goodfear-blimp | GoodFear Blimp | Chris Gammell
+dc26-goodfear-blimp-this-is-not-a-camera-surveillance-add-on | GoodFear Blimp / "This is Not a Camera" surveillance add-on | Chris Gammell
 dc26-goon-box-badge-dc26 | Goon Box Badge (DC26) | GoonBoxBadge (MK Factor)
 dc26-hack-for-satan-badge-dc26 | ImpBadge (Hack for Satan, DC26) | Hack for Satan, Ryan Sheffield
 dc26-hacker-warehouse-badge-dc26 | Hacker Warehouse Badge (DC26) | Hacker Warehouse
@@ -360,6 +361,7 @@ dc26-shitty-add-on-totem | Defcon 26 Shitty Add-On Totem | Benchoff
 dc26-skeletor-badge | Skeletor Badge | Dr.n0psl3d
 dc26-sympetrum-v3-dragonfly-badge | Sympetrum v3 (Dragonfly badge) | borgel (Kerry Scharfglass)
 dc26-telephreak-eleven-badge-dc26 | Telephreak Eleven Badge (DC26) | dominotree
+dc26-terrible-ideas-badge | Terrible Ideas Badge | unspecified
 dc26-thats-a-big-twinkie | That's A Big Twinkie | TwinkleTwinkie
 dc26-thefreeman-dc26-indie-badge | THEFREEMAN - DEF CON 26 Indie Badge | Twinkle Twinkie
 dc26-thefreeman-def-con-26-indie-badge | THEFREEMAN - DEF CON 26 Indie Badge | TwinkleTwinkie
@@ -400,7 +402,6 @@ dc27-beardo-badge | Beardo Badge | s7a73farm, gr3yR0n1n, Compukidmike
 dc27-bender-sao-and-xor-dc27 | Bender SAO (AND!XOR DC27) | AND!XOR
 dc27-bigfuckingbadge-kat-s-midi-synth | BigFuckingBadge: Kat's MIDI Synth | hexum064, pinguino, Bunny1billion, Erin
 dc27-biohacking-village-tamagotchi-badge | Biogotchi (BioHacking Village Tamagotchi Badge) | Biohacking Village
-dc27-black-uber-conference-badge | DEF CON 27 Black/Uber Conference Badge | Joe Grand (Grand Idea Studio) / DEF CON
 dc27-blue-team-village-badge-btvbadge | Blue Team Village Badge (btvbadge) | fyrm
 dc27-blueteam-village-badge-dc27 | Blueteam Village Badge (DC27) | Jeff Yestrumskas
 dc27-bowtie-and-screwdriver-badge | Bowtie and Screwdriver Badge | compukidmike
@@ -409,8 +410,8 @@ dc27-cylon-badge-dc27 | Cylon Badge (DC27) | TeamBazooka
 dc27-da-bomb-badge-dc27 | da Bomb! Badge (DC27) | Team Ides
 dc27-dc-shoot-badge | DC Shoot Badge | Gigs (@gigstaggart)
 dc27-dc-zia-laser-theremin-badge | DC Zia Laser Theremin Badge | DC Zia, snurkle engineering
-dc27-dc27-avocato-sao-2 | DEFCON 27 Avocato Shitty Add-On | Jeremy Ward
 dc27-dc27-avocato-sao | Avocato SAO | cybr1d-cybr1d
+dc27-dc27-avocato-sao-2 | DEFCON 27 Avocato Shitty Add-On | Jeremy Ward
 dc27-dc27-bob-ross-happy-trees-sao | Bob Ross Happy Trees SAO | AND!XOR
 dc27-dc27-chestoro-sao | Chestoro | Twinkle Twinkie, Wire (Tymkrs)
 dc27-dc27-circuitpython-shitty-add-on-v169bis-totem | A DC27 CircuitPython Shitty Add-On V1.69BIS Totem | Corey Benn
@@ -423,7 +424,7 @@ dc27-dc27-mooncake-sao | DEF CON 27 Mooncake Shitty Add-On | Jeremy Ward (cybr1d
 dc27-dc27-multi-pass | DC27 MULTI PASS | Bliss Jourdan (BoZe / CromulonB)
 dc27-dc27-shitty-brooch | Shitty Brooch | AND!XOR
 dc27-dc27-unicorn-sao | Unicorn - DC27 SAO | TwinkleTwinkie
-dc27-dc503-badge-dc27 | DC503 Badge (DC27) | DC503 group
+dc27-dc503-badge-dc27 | 5ohBEE (DC503 Party Pager, DC27) | PDX Badgers
 dc27-dc614-badge-dc27 | DC614 Badge (DC27) | DC614
 dc27-dc801-dc27-party-badge-hcrn | DC801 DC27 Party Badge (HCRN) | DC801
 dc27-dc801-def-con-27-badge | DCZia Laser Theremin Synth Badge | DCZia
@@ -433,22 +434,21 @@ dc27-def-con-furs-badge-dc27 | DEF CON Furs Badge DC27 | DEF CON Furs (defconfur
 dc27-defcon-27-tv3y3-badge | Defcon 27 TV3Y3 Badge | awkward intelligence
 dc27-defcon-tor-27-sao-badge | Defcon-Tor-27 SAO/Badge | seeess
 dc27-defpi-silly-defcon-badge | defpi — silly defcon badge | Hacksore
-dc27-doom-sao-hurt-me-plenty | DC27 DOOM SAO - Hurt Me Plenty | AND!XOR, LonghornEngineer (Parker Dillmann / Cr4bf04m)
 dc27-doom-sao | DOOM SAO | AND!XOR / LonghornEngineer
+dc27-doom-sao-hurt-me-plenty | DC27 DOOM SAO - Hurt Me Plenty | AND!XOR, LonghornEngineer (Parker Dillmann / Cr4bf04m)
 dc27-dumpster-fire-sao-fully-assembled | DC27 Dumpster Fire SAO (fully assembled) | Harbinger LTD (Andrew Nicholson)
-dc27-electronic-shoot-badge | DEF CON 27 Electronic Shoot Badge | Gigs
 dc27-enterprise-badge-dc27 | Enterprise Badge (DC27) | Enterprise Badge team
-dc27-excellent-dude-dc27-badge | Excellent Dude DC27 Badge | individual maker (hackaday.io user)
+dc27-excellent-dude-dc27-badge | Excellent Dude DC27 Badge | jdwaller
 dc27-fifth-element-stones-badge-def-con-27 | Fifth Element Stones Badge (DEF CON 27) | GoonBoxBadge team
 dc27-frankenbadge-dc27 | Frankenbadge (DC27) | Dr.n0psl3d
 dc27-gat-nametag-addon-dc27 | GAT Nametag Addon (DC27) | true
 dc27-gat-nametag-dc27-addon | GAT Nametag DC27 Addon | true (Whiskey Pirate Crew)
 dc27-godzilla-vs-blade-runner-3kbadge | Godzilla vs. Blade Runner (3kbadge) | Alt_Bier, r3x3r, t3hub3rk1tten
-dc27-hack-4-kids-badge | Hack 4 Kids Badge | GrrCON organizers
+dc27-hack-4-kids-badge | Hak4Kidz DEF CON 27 Badge | Hak4Kidz
 dc27-hack-for-satan-badge | Hack For Satan Badge | Hack For Satan team
 dc27-huge-grumpy-cat-badge | Huge Grumpy Cat Badge | Scotty Allen / strangeparts
 dc27-illuminati-badge | Illuminati Badge | Kredence
-dc27-illuminati-intrepid-monarch-badge-dc27 | Illuminati Intrepid Monarch Badge (DC27) | Kredence
+dc27-illuminati-intrepid-monarch-badge-dc27 | Intrepid Monarch | Kredence
 dc27-im-40-ufo-sao | I'm 40% UFO! - DC27 SAO | TwinkleTwinkie
 dc27-internet-of-batteries-dc27 | Internet of Batteries (DC27) | Aask42 / Whiskey Pirate Crew
 dc27-iron-gauntlet-sao | Iron Gauntlet | TwinkleTwinkie
@@ -468,16 +468,14 @@ dc27-pickle-rick-badge-sao | Pickle Rick Badge SAO | s3gfault (TeamID64F)
 dc27-pixel-badge-shitty-pixel | Pixel Badge (Shitty Pixel) | blinkingthing
 dc27-popcorn-bucket-badge | Popcorn Bucket Badge | Kredence, Ajax_409
 dc27-punisher-badge-sao | Punisher Badge SAO | s3gfault (TeamID64F)
-dc27-random-board-555-badge | Random Board 555 Badge | Greymanhw
-dc27-recon-village-2019-skull-badge | Recon Village 2019 Skull Badge | Recon Village
+dc27-recon-village-2019-skull-badge | The Skull Badge | Recon Village
 dc27-red-stapler-badge-sao | Red Stapler Badge SAO | s3gfault (TeamID64F)
 dc27-reddit-defcon-meetup-sao | reddit-defcon-meetup-SAO | patrickrb
 dc27-sao-flavin-detector-bare-board-invisibleink | DC27 SAO Flavin Detector Bare Board & InvisibleInk | Harbinger LTD (Andrew Nicholson)
 dc27-sao-shitty-add-on-for-defcon-27 | DC27-SAO — Shitty Add-on for DefCon 27 | DC404
 dc27-saw-the-badge-def-con-27-indie-badge | Saw the Badge (DEF CON 27 Indie Badge) | MagicStoneTech
 dc27-seckc-badge-dc27 | SecKC Badge (DC27) | SecKC / Badge Pirates (@badgepirates)
-dc27-seckc-defcon-party-badge-sao | SecKC Defcon Party Badge - SAO | BadgePirates
-dc27-seckc-party-star | DefCon 27 SecKC Party Star | BadgePirates
+dc27-seckc-defcon-party-badge-sao | DefCon 27 SecKC Party Star | BadgePirates
 dc27-shitty-add-on-s | Defcon 27 Shitty Add-On's | Awkward Intelligence
 dc27-shittyaddons-deadpool-punisher-pickle-rick-windows | DC27_ShittyAddons (Deadpool, Punisher, Pickle Rick, Windows) | ID64F
 dc27-skully-badge-dc27 | Skully Badge (DC27) | Nick Pisarro
@@ -490,9 +488,7 @@ dc27-taco-drone-sao-fully-assembled | DC27 Taco Drone SAO (fully assembled) | Ha
 dc27-team-ides-dc27-badge | da Bomb! (Team Ides DC27 Badge) | John Adams / Team Ides, Bill Paul
 dc27-team-ides-dc27-da-bomb | Team IDES DC27 Da Bomb | John Adams, Bill Paul
 dc27-telephreak-12-badge-geiger-counter-for-wifi-deauth-frames | Telephreak 12 Badge (Geiger counter for WiFi deauth frames) | Nick Price (dominotree)
-dc27-terrible-ideas-badge | Terrible Ideas Badge | unspecified
 dc27-thing-0x01-shitty-pixel | Thing 0x01 - Shitty Pixel | blinkingthing
-dc27-tron-badge-recognizer | Tron Badge (Recognizer) | Sodium_Hydrogen
 dc27-tron-badge | Tron Badge | Sodium_Hydrogen (@sodium_hydrogen)
 dc27-tv3y3-indie-badge-def-con-27 | TV3Y3 Indie Badge (DEF CON 27) | Harbinger LTD
 dc27-white-dragon-noodle-bar-badge | White Dragon Noodle Bar Badge | unnamed
@@ -503,19 +499,19 @@ dc28-badge-dczia | PiBadge Mini (DCZia) | DCZia
 dc28-compukidmike-dc28-badge | DEF CON 28 Car Hacking Village Badge | compukidmike, MK Factor
 dc28-dc801-black-mage-badge-bootleg-edition | DC801 Black Mage Badge - "Bootleg Edition" | redactd
 dc28-dc801-bm-badge | DC801 Black Mage Badge | DC801
-dc28-def-con-safe-mode-official-badge | DEF CON Safe Mode Official Badge | LostboY (DEF CON)
 dc28-defcon-2020-sao-collection-cybertruck-mr-robopoly-2020-dawn | Defcon 2020 SAO Collection (Cybertruck, Mr. Robopoly 2020, Dawn of the Karen) | Harbinger LTD (Andrew Nicholson)
-dc28-defcon-furs-badge-dc28 | DEFCON Furs Badge DC28 | DEFCON Furs (defconfurs)
+dc28-defcon-furs-badge-dc28 | DEFCON Furs Badge DC28 (Boop Blocker) | DEFCON Furs (defconfurs)
 dc28-galaxia-art-badge-2020-free-sao | Galaxia Art Badge 2020 & Free SAO | Harbinger LTD (AwkwardAI)
 dc28-internet-of-batteries-quantum-badge-dc28 | Internet of Batteries QUANTUM Badge (DC28) | Internet of Batteries (Whiskey Pirates crew: Aask, Lightning, true, RaigaHomsar42)
 dc28-iob-quantum | IoB Quantum | trueControl
 dc28-jam-con-badge | DC28 Jam Con Badge | Robb (dogweather)
-dc28-safe-mode-official-badge-cassette-tape | DEF CON 28 Safe Mode Official Badge (Cassette Tape) | DEF CON / 1o57 (puzzle content)
+dc28-safe-mode-official-badge-cassette-tape | DEF CON 28 Safe Mode Official Badge (Cassette Tape) | LostboY (Ryan Clarke) — badge design, 1o57 (Ryan Clarke) — puzzle content
 dc29-3d6-badge | 3d6 Badge | Alt_Bier
 dc29-aerospace-village-badge-2021 | Aerospace Village Badge 2021 | Aerospace Village, Dan Allen
 dc29-and-xor-dc29-badge | AND!XOR DC29 Badge | AND!XOR
-dc29-badge-2021 | DEF CON 29 Badge (2021) | MK Factor (Michael and Katie Whiteley), with The Dark Tangent
 dc29-badge | DEF CON 29 Badge | MK Factor
+dc29-badge-2021 | DEF CON 29 Badge (2021) | MK Factor (Michael and Katie Whiteley), with The Dark Tangent
+dc29-badge-stuff-custom-music-mod-for-the-dc29-badge | dc29-badge-stuff (custom music mod for the DC29 badge) | duk-37
 dc29-compukidmike-dc29-badge | DEF CON 29 Official Badge | compukidmike (MK Factor)
 dc29-dc29-makeithackin-58khz-security-tag-sao | DEF CON 29 SAO with 58 kHz Security Tag | MakeItHackin
 dc29-dc29-makeithackin-badge | MakeItHackin DEF CON 29 Badge | MakeItHackin
@@ -538,7 +534,7 @@ dc30-baby-bender-sqearlsalazar | Baby Bender Sqearlsalazar | Sqearsalazar
 dc30-badge-2022 | DEF CON 30 Badge (2022) | MK Factor (with The Dark Tangent)
 dc30-badge-discussed-in-supercon-2022-badgelife-history-talk | DEF CON 30 Official Badge | Michael Whiteley, Katie Whiteley
 dc30-baphomet-sao | Baphomet SAO | Sqearlsalazar
-dc30-biohacking-village-badge-dc30 | Biohacking Village Badge (DC30) | Badge Pirates (BadgePiratesLLC)
+dc30-biohacking-village-badge-dc30 | Biohacking Village Badge (DC30) | Badge Pirates
 dc30-biology-girl-sweet-looking-pcb-pin | Biology Girl Soldering Kit | Steph Piper (Elkei Education)
 dc30-black-badge-raffle-badge | Black Badge Raffle Badge | Black Badge Raffle
 dc30-black-cat-sao | Black Cat SAO | Twinkle Twinkie
@@ -596,6 +592,7 @@ dc30-one-will-be-there-but-they-are-being-cagey-with-the-details | One will be t
 dc30-onion-sao | Onion SAO | seeess
 dc30-poker-chip-badge | Poker Chip Badge | Rogue's Village
 dc30-red-team-village-badge | Red Team Village Badge | Red Team Village
+dc30-rumor-says-they-have-one | Rumor says they have one | Whiskey Pirate Crew
 dc30-sao-jack | Jack SAO | hamster
 dc30-sao-pad-shitty-addon-thinkpad | sao_pad — shitty addon thinkpad | kaybarkbark
 dc30-scp-badge | SCP Badge | K4r4koyun
@@ -604,7 +601,6 @@ dc30-skully-sao | Skully SAO | Nerfhammer
 dc30-smd-badge | SMD Badge | 
 dc30-space-girl-sweet-looking-pcb-pin | Space Girl sweet looking PCB pin | Steph Piper (Elkei Education)
 dc30-tarot-badge-dc540 | DC30-Tarot-Badge (DC540) | DC540 Defcon Group
-dc30-tron-inspired-badge | Tron-inspired Badge | Ironwood Cyber
 dc30-z80-retro-badge | Z80 Retro Badge | Uberfoo Heavy Industries
 dc31-2023-echallege-coin | 2023 eChallengeCoin | Bradán Lane
 dc31-acrylic-sign-addons | Acrylic Sign Addons | trueControl (true)
@@ -619,7 +615,7 @@ dc31-badge-3 | Badge #3 | Blacks in Cyber (BiC)
 dc31-badge-chamber-dc31-for-soa-unofficial | Defcon 31 Badge Chamber (DC31) for SOA (unofficial) | skippymcneal
 dc31-badgepirates-listed-for-def-con-31-no-details | BioHacking Village Badge (DEF CON 31) | BadgePirates
 dc31-blinky-badge | Blinky Badge | 
-dc31-buddo-badge | Buddo Badge | Abhinav Panda / Hackerware.io
+dc31-buddo-badge | The Buddobot Badge | Abhinav Pandagale / Hackerware.io
 dc31-certbot-sao | CertBot SAO | H4rl0d (of LHC fame...and other fames too)
 dc31-crew-sao | crew SAO | Aerospace Village
 dc31-darknet-ng-12-badge | Darknet-NG 12 Badge | Darknet-NG
@@ -666,7 +662,7 @@ dc31-nerfhammer-listed-for-def-con-31-no-details | Nerfhammer (listed for DEF CO
 dc31-non-electronic-badass-skeleton-badge-skreech | Non-electronic. Badass Skeleton. badge (Skreech) | Reloadrtr
 dc31-notsosecure-ctf-badge | NotSoSecure CTF Badge | Abhinav SP / Hackerware.io
 dc31-nuclear-badge | DC XXXI Nuclear Badge | 
-dc31-official-def-con-31-badge-human-badge | Official DEF CON 31 Badge (Human Badge) | DEF CON (badge team led by MK Factor)
+dc31-official-def-con-31-badge-human-badge | Official DEF CON 31 Badge (Human Badge) | Mar Williams
 dc31-pair-o-dice-badge | "Pair-o-Dice" Badge | The Diana Initiative
 dc31-peppy-kitty-sao | Peppy "Kitty" SAO | Th0m4s
 dc31-pirate-jack-badge | Pirate Jack Badge | technick
@@ -711,7 +707,6 @@ dc31-the-party-badge | The Party Badge | Florida Man, Nothingness
 dc31-the-piratebox-badge | The PirateBox Badge | Bogon
 dc31-the-wright-flyer-badge | The Wright Flyer Badge | Aerospace Village
 dc31-tooth-badge | DEF CON 31 Tooth badge | wrickert
-dc31-true-s-rgb-addon-addon-for-dc31-badge | true's RGB Addon Addon for DC31 Badge | trueControl
 dc31-twinkle-twinkie-listed-for-def-con-31-no-details | Twinkle Twinkie (listed for DEF CON 31, no details) | Twinkle Twinkie
 dc31-two-types-of-badge-and-the-other-is-art-themed | Two types of badge. ... and the other is art themed | GothCon
 dc31-two-types-of-badge-one-is-blinky | Two types of badge. One is blinky... | GothCon
@@ -778,6 +773,8 @@ dc32-ez-puzzle-blinky-badge | EZ Puzzle Blinky Badge | T9ck
 dc32-flames | Flames | Whiskey Pirate Crew (not badgelife)
 dc32-flare-badge-remember-at-least-10-pieces-of-flair | Flare Badge (remember... at least 10 pieces of Flair) | Abhinav Panda/Hackerware.io
 dc32-florida-man-listed-for-def-con-32-no-details | Florida Man (listed for DEF CON 32, no details) | Florida Man
+dc32-free-wili-dc32-badge-firmware | FREE-WILi DC32 Badge Firmware | FREE-WILi project team
+dc32-freewili | DEFCON32_FREEWiLi | FreeWili
 dc32-fuck-note-offensive-sao | "fuck" note offensive SAO | BigFuckingBadge
 dc32-galactic-power-badge-kit | Galactic Power Badge Kit | HackerBoxes
 dc32-garrett-hacker-warehouse-listed-for-def-con-32-no-details | Garrett / Hacker Warehouse (listed for DEF CON 32, no details) | Garrett / Hacker Warehouse
@@ -786,7 +783,7 @@ dc32-godzilla-vs-will-have-3-or-4-sao-s-to-battle | G0dzilla VS Badge | Alt_Bier
 dc32-grrcon-designed-by-hak4kids-listed-for-def-con-32-no-details | GrrCON (designed by Hak4Kids) (listed for DEF CON 32, no details) | GrrCON (designed by Hak4Kids)
 dc32-gundam-morty-sao | Gundam Morty SAO | Hak4Kidz
 dc32-h4rl0d-of-lhc-fame-and-other-fames-too-listed-for-def-con-32 | H4rl0d (of LHC fame...and other fames too) (listed for DEF CON 32, no details) | H4rl0d (of LHC fame...and other fames too)
-dc32-hackbat-badge | Hackbat Badge | Pablo
+dc32-hackbat-badge | Hackbat Badge | Pablo (thehackbat)
 dc32-hackbat-dc32-badge-variant | Hackbat DC32 Badge Variant | Pablo Trujillo
 dc32-highrollercon-duck-sao | HighRollerCon Duck SAO | Cyber Swamplords
 dc32-highrollercon-quacked-out-duck-sao-mystery-six-variants | HighRollerCon Quacked-Out Duck SAO (mystery, six variants) | Cyber Swamplords
@@ -795,6 +792,7 @@ dc32-human-badge-official-def-con-32-conference-badge | DC32 Human Badge (offici
 dc32-i-m-in-my-defcon-era | I'm in my Defcon era | Shenanigans-R-Us
 dc32-ics-village-unnamed-badge-sao | Free-WiLi Whale Tail Badge | FreeWili
 dc32-idk-sao | IDK SAO | p0ns/idk
+dc32-if-you-are-a-badgemaker-please-check-to-see-if-you-can-suppo | <-- If you are a badgemaker, please check to see if you can support. | https://volunteersignup.org/JWYCP
 dc32-infinite-wifi-portal-2 | Infinite WiFi Portal | Whiskey Pirate Crew (not badgelife), Aask
 dc32-interactive-sao-for-dc32-badge | Interactive SAO for DC32 Badge | MakeItHackin
 dc32-jigglebilly | Jigglebilly | Shenanigans-R-Us
@@ -808,6 +806,7 @@ dc32-make-it-hackin-listed-for-def-con-32-no-details | FlipBoard Macropad for Fl
 dc32-mch2022-badge | MCH2022 Badge | Badge.team
 dc32-metan3rd-listed-for-def-con-32-no-details | MetaN3rd (listed for DEF CON 32, no details) | MetaN3rd
 dc32-mf-doom-sao | MF Doom SAO | Rex
+dc32-micropython-dc32-unnamed-badge-firmware-project | micropython-dc32 (unnamed badge/firmware project) | p0ns
 dc32-mini-emp-ray-gun | Mini EMP Ray-gun!!! | Embedded Systems Village
 dc32-name-not-released-as-of-yet | Name not released as of yet | JollyBadge
 dc32-nerfhammer-listed-for-def-con-32-no-details | Nerfhammer (listed for DEF CON 32, no details) | Nerfhammer
@@ -817,6 +816,7 @@ dc32-osquery-sao-defcon-2024-osquery-sao | osquery-sao — DEFCON 2024 osquery S
 dc32-peppercon9 | PepperCon9 | Whiskey Pirate Crew (not badgelife)
 dc32-power-glove | Power Glove | NilbinSec
 dc32-prnd-sao | PRND SAO | Car Hacking Village
+dc32-project-codeswitch | Project CODESWITCH | Uh...me? (funny..now tell me who you are so I can put a real name)
 dc32-purple-cyclops | Purple Cyclops | Oakmizer
 dc32-red-society-club-listed-for-def-con-32-no-details | Red Society Club (listed for DEF CON 32, no details) | Red Society Club
 dc32-red-tape-badge-and-damn-does-the-military-have-a-bunch-of-th | Red Tape Badge (and damn does the military have a bunch of this) | VetCON
@@ -917,6 +917,7 @@ dc33-floridaman-2025-badge | Floridaman 2025 Badge | joehacksalot
 dc33-frogstar-badge | Frogstar Badge | BigTaro's Badges
 dc33-game-hacking-village-badge | Game Hacking Village Badge | Game Hacking Village
 dc33-game-over-bun | Game over bun | TechGirlMN
+dc33-garrett-gee-hacker-mindset-author-hacker-warehouse-founder-b | Garrett Gee: Hacker Mindset Author, Hacker Warehouse Founder & Badgelife Champion | DEF CON 33 | Garrett Gee
 dc33-garrett-hacker-warehouse-listed-for-def-con-33-no-details | Garrett / Hacker Warehouse (listed for DEF CON 33, no details) | Garrett / Hacker Warehouse
 dc33-gigageiger | GigaGeiger | HackMy
 dc33-goblin | Goblin | Team x 👿 devil
@@ -950,6 +951,7 @@ dc33-nametag-sc8-always-upright-nametag | Nametag SC8 - Always Upright Nametag |
 dc33-neosword | NeoSword | Untitled Electronics
 dc33-nerfhammer-listed-for-def-con-33-no-details | Nerfhammer (listed for DEF CON 33, no details) | Nerfhammer
 dc33-new-ai-jack | New AI Jack | technick
+dc33-next-year | Next year | California Cyber Institute CalPoly SLO / Hankashyyyk
 dc33-ninjaican-listed-for-def-con-33-no-details | Ninjaican (listed for DEF CON 33, no details) | Ninjaican
 dc33-nyanbox | nyanBOX | jbohack & zr_crackiin
 dc33-o-r-e-o | O.R.E.O. | Social Engineering Community Village
@@ -970,8 +972,8 @@ dc33-retro-tech-dc33-addon | Retro Tech DC33 Addon | trueControl
 dc33-rex-listed-for-def-con-33-no-details | Rex (listed for DEF CON 33, no details) | Rex
 dc33-ror3-sao-reali7y-over-run | ror3-sao — Reali7y Over Run | Reali7y Over Run
 dc33-sao-and-many-sao-badge | SAO Many SAOs Badge | Coruscant Ventures
-dc33-sao-for-above-smartao | SmartAO SAO | Coruscant Ventures
 dc33-sao-for-above | SAO Many SAOs Badge | Coruscant Ventures
+dc33-sao-for-above-smartao | SmartAO SAO | Coruscant Ventures
 dc33-sao-many-saos-already-catalogued-as-dc33-sao-many-saos | SaO MANY SAOs | Coruscant Ventures
 dc33-shenanigans-r-us-listed-for-def-con-33-no-details | Shenanigans-R-Us (listed for DEF CON 33, no details) | Shenanigans-R-Us
 dc33-shitty-kitty-v2 | Shitty Kitty V2 | Uberfoo Heavy Industries
@@ -986,11 +988,12 @@ dc33-telecom-village-badge | Telecom Village Badge | Telecom Village
 dc33-th0m4s-listed-for-def-con-33-no-details | Th0m4s (listed for DEF CON 33, no details) | Th0m4s
 dc33-the-big-badge-game | The Big Badge Game | TheBadgES
 dc33-the-mad-hatters-listed-for-def-con-33-no-details | The Mad Hatters (listed for DEF CON 33, no details) | The Mad Hatters
-dc33-the-pirates-plunder-rabbit-labs-def-con-33-badge | The Pirates' Plunder - Rabbit-Labs DEF CON 33 Badge | Rabbit Labs / RocketGod (RocketGod-git), Pirates Plunder
+dc33-the-pirates-plunder-rabbit-labs-def-con-33-badge | The Rabbit-Labs & The Pirates Plunder Badge | Rabbit-Labs, RocketGod (RocketGod-git), zR_CrackiiN / JBOHack, neednotapply, Talking Sasquatch, Frank, HamSpiced, AWOK, JCMK
 dc33-the-t-mobile-unicorn-badge | The T-Mobile Unicorn Badge | Abhinav SP - Hackerware.io
 dc33-tipsy-badge | Tipsy Badge | seeess
 dc33-tor-project-listed-for-def-con-33-no-details | Tor Project (listed for DEF CON 33, no details) | Tor Project
 dc33-tricorder-sao | Tricorder SAO | Make it Hackin
+dc33-uberflux-com-badge-marketplace | Uberflux.com Badge Marketplace | uberfoo
 dc33-uberwoozle-listed-for-def-con-33-no-details | Uberwoozle (listed for DEF CON 33, no details) | Uberwoozle
 dc33-uncut-gem-quantum-village | Uncut Gem (Quantum Village) | Quantum Village
 dc33-vetcon-2025-badge | VETCON 2025 Badge | ThreatHunter.ai
@@ -1003,9 +1006,11 @@ dc34-10x-pack-180-degree-sao-adapter | 10x pack! 180 Degree SAO Adapter | bud-li
 dc34-2026-choose-your-own-charity-echallengecoin | 2026 “Choose Your Own Charity” eChallengeCoin | Bradán Lane STUDIO
 dc34-agency-wand | Agency Wand | 000000widow (Brooke's Bytes)
 dc34-ai-village-blinky-badge-sao | AI Village Blinky Badge & SAO | Abhinav Panda / Hackerware.io
+dc34-anemoia-defconbadge-nes-emulator | Anemoia-DefconBadge (NES emulator) | Retia LLC / Shim06
 dc34-arcanum-badge | Arcanum Badge | Abhinav Panda / Hackerware.io
 dc34-badge-2026 | DEF CON 34 Badge (2026) | Andrew "bunnie" Huang, Team CHEESO
 dc34-badge-crown-sao | Badge Crown SAO | 000000widow (Brooke's Bytes)
+dc34-badge-workbench | DC34 Badge Workbench | GameChangersAI
 dc34-badgelife-village-badge | Badgelife Village Badge (DC34 / 2026) | Jeff "BigTaro", Badgelife Village
 dc34-badgelife-village-saos | Badgelife Village SAOs (DC34 / 2026) | Ozma of Oz, GhostGlitch team (Vynra, Zedish, Kitsu), iFixit
 dc34-beelzebub-minibadge-holder | Beelzebub Minibadge Holder | distinctm1nd
@@ -1019,6 +1024,7 @@ dc34-celestial-wayfinder-badge | Celestial Wayfinder Badge | WyrdWyrks
 dc34-chiikawav1 | ChiikawaV1 | umecider
 dc34-clip-boy | Clip-Boy | Coruscant Productions, LLC
 dc34-cobalt-dc34 | Cobalt DC34 | true (trueControl)
+dc34-concrud-zelda-rides | ConCrud: Zelda Rides | GameChangersAI
 dc34-countdown-to-singularity | DC-34-Countdown-To-Singularity | eggsactly
 dc34-cpec-sao | DC34-CPEC-SAO | Cyber Professionals Enthusiast Club
 dc34-cpec-the-cheat | DC34-CPEC-The-Cheat | Cyber Professionals Enthusiast Club
@@ -1038,7 +1044,6 @@ dc34-dfiu-sao | DFIU SAO | BigFuckingBadge
 dc34-eff-all-your-data-badgelife-def-con-33-rerun | EFF "All Your Data" BadgeLife (DEF CON 33 Rerun) | H4r0ld & V3rbaal's House Of Hacker Horrors
 dc34-eff-electric-fist-badgelife-def-con-34 | EFF "Electric Fist" BadgeLife (DEF CON 34) | H4r0ld & V3rbaal's House Of Hacker Horrors
 dc34-eff-privacy-badger-badgelife-def-con-32-rerun | EFF "Privacy Badger" BadgeLife (DEF CON 31 Rerun) | H4r0ld & V3rbaal's House Of Hacker Horrors
-dc34-f5-badge-f5-ctf-badge | F5 Badge (F5 CTF Badge) | F5, made by Hackerware.io
 dc34-firefly-jar-sao | Firefly Jar SAO | Lepi Labs
 dc34-flare-blinky-badge | Flare Blinky Badge | Abhinav Panda / Hackerware.io
 dc34-floridaman-2026 | Floridaman 2026 | Floridaman
@@ -1047,6 +1052,7 @@ dc34-fuck-note-sao | Fuck Note SAO | BigFuckingBadge
 dc34-gothcon-2026-badge | Gothcon 2026 Blinky Badge | Gothcon
 dc34-h4irl1n3-m0gg3r5-brain-in-a-jar-sao | Brain in a Jar SAO | H4irl1n3 M0gg3r5
 dc34-hacker-boba | Hacker Boba | 000000widow (Brooke's Bytes)
+dc34-hacker-summer-camp-2026-badgelife-segment | Hacker Summer Camp 2026 badgelife segment | unattributed / general village roundup
 dc34-helgatchi | Helgatchi | DC801 + 801 Labs
 dc34-hfsdr | HFSDR | Hackin7
 dc34-htp-graffiti | HTP Graffiti | HogFillet
@@ -1079,8 +1085,8 @@ dc34-portal-gun-sao | PORTAL Gun SAO | BigFuckingBadge
 dc34-power-glove-re-release | Power Glove Re-release | NilbinSec
 dc34-prophet-ai-badge | Prophet AI Badge | Abhinav Panda / Hackerware.io
 dc34-puzzled-hackers-x-r-defcon-subreddit-meetup | Puzzled Hackers x /r/DEFCON Subreddit Meetup | Puzzled Hackers
-dc34-retro-memories-26-addon-dc34-includes-whiskey-pirates-raid-r | Retro Memories 26 | trueControl
 dc34-retro-memories-26-addon | Retro Memories 26 addon | true (trueControl)
+dc34-retro-memories-26-addon-dc34-includes-whiskey-pirates-raid-r | Retro Memories 26 | trueControl
 dc34-root-access-sao | Root Access SAO | MakeItHackin and DannerCronise
 dc34-rtv-d20 | RTV D20 | Red Team Village
 dc34-sao-many-saos | SaO MANY SAOs | Coruscant Ventures
@@ -1098,6 +1104,7 @@ dc34-the-call-center-village-telephone-booth-sao | The Call Center Village Telep
 dc34-the-wand | The Wand | true (trueControl)
 dc34-tipsy-badge | Tipsy Badge | seeess + gigs
 dc34-usb-c-power-back-for-saos | USB-C Power Back for SAOs | caelyb (trueControl)
+dc34-vecdec-vecdeck | vecdec (Vecdeck) | svenscore
 dc34-viber-coder-dog-sao | Vibe Coder Dog SAO | coryallegory
 dc34-whose-slide-is-it-anyway-10-year-anniversary-badge | Whose Slide Is It Anyway? 10 Year Anniversary Badge | Whose Slide Is It Anyway?
 dc34-wordweaving-badge | Wordweaving Badge | BigTaro's Badges
@@ -1117,10 +1124,10 @@ ekoparty-2025-ekoparty-2025-badge | Ekoparty 2025 Badge | Lucas Leal, Nico Restb
 ekoparty-2026-ekoparty-2026-champion-electronic-badge | Ekoparty 2026 Champion Electronic Badge | Ekoparty
 emf-camp-2012-tilda-emf-camp-2012-badge | TiLDA (EMF Camp 2012 badge) | Charles Yarnold, EMF Camp / Electromagnetic Field
 emf-camp-2014-tilda-mke | TiLDA MKe | EMF Camp badge team
-emf-camp-2016-tilda-mk3-mk | TiLDA Mk3 (Mkπ) | EMF Camp badge team
 emf-camp-2016-tilda-mk3 | TiLDA Mk3 | EMF Camp badge team
-emf-camp-2018-tilda-mk4-mk | TiLDA Mk4 (Mkδ) | EMF Camp badge team
+emf-camp-2016-tilda-mk3-mk | TiLDA Mk3 (Mkπ) | EMF Camp badge team
 emf-camp-2018-tilda-mk4 | TiLDA Mk4 | EMF Camp badge team
+emf-camp-2018-tilda-mk4-mk | TiLDA Mk4 (Mkδ) | EMF Camp badge team
 emf-camp-2022-tidal | TiDAL | EMF Camp badge team
 emf-camp-2024-emf-badge-interposer-hexpansion | EMF Badge Interposer Hexpansion | Gavin's Creations (gjchester)
 emf-camp-2024-flandre-scarlet-3d-printed-wings-hexpansion | Flandre Scarlet 3D-Printed Wings hexpansion | DanNixon
@@ -1138,8 +1145,8 @@ fri3d-2016-fri3d-2016-badge | Fri3d 2016 Badge | Christophe VG / Fri3d Camp
 fri3d-2018-fri3d-2018-air-jewel | Air Jewel | Fri3d Camp, Wim Van Gool, Bert Outtier
 fri3d-2018-fri3d-2018-bot-jewel | Bot Jewel | Fri3d Camp
 fri3d-2018-fri3d-2018-ph0xx-air-jewel | Ph0xx Air Jewel | Wim Van Gool, Fri3d Camp
-fri3d-2018-fri3d-2018-ph0xx-badge-2 | Ph0xx (Fri3d Camp 2018 Badge) | Fri3d Camp
 fri3d-2018-fri3d-2018-ph0xx-badge | Ph0xx (Fri3d Camp 2018 Badge) | Fri3d Camp (Wim Van Gool, Bert Outtier)
+fri3d-2018-fri3d-2018-ph0xx-badge-2 | Ph0xx (Fri3d Camp 2018 Badge) | Fri3d Camp
 fri3d-2018-fri3d-2018-ph0xx-bot-jewel | Ph0xx Bot Jewel | Fri3d Camp, Wim Van Gool
 fri3d-2018-ph0xx | Ph0xx | Fri3d Camp
 fri3d-2022-fri3d-2022-badge | Fri3d 2022 Badge | Fri3d Camp (Wim Van Gool), Hans Polders, Bart Cerneels, Toon
@@ -1180,6 +1187,7 @@ hackerhotel-2024-hacker-hotel-2024-badge-telegraph-interface-add-on | Hackerhote
 hackerhotel-2024-telegraph-badge-hackerhotel-2024 | Telegraph Badge (Hackerhotel 2024) | Badge.Team (Nikolett, Guru-san, Renze, Tom Clement, CH23, Norbert, Zac, SqyD, Martijn, Julian, Dimitri, Yvo)
 hackerhotel-2025-hackerhotel-2025-badge | HackerHotel 2025 Badge | Badge.Team
 hackers-teaching-hackers-2019-hackers-teaching-hackers-2019-general-sao-totem-badge | Hackers Teaching Hackers 2019 General (SAO Totem) Badge | mcm3nac3
+hackers-teaching-hackers-2019-hth-elite-2019-badge-2 | HTH Elite 2019 Badge | syn-ack-zack
 hackers-teaching-hackers-2024-terminator-01-hth-2024-badge | Terminator-01 (HTH 2024 Badge) | syn-ack-zack / HTHackers
 hackers-teaching-hackers-2025-johnny-5-shortcircuit-hth-2025-badge | Johnny 5 ShortCircuit (HTH 2025 Badge) | HTHackers
 hackers-teaching-hackers-2026-eagle-5-hardware-the-hard-way-hth-2026-badge | Eagle 5 (Hardware the Hard Way / HTH 2026 Badge) | syn-ack-zack
@@ -1197,15 +1205,15 @@ hitcon-2018-hitcon-cmt-2018-wallet-badge-cold-wallet-badge | HITCON CMT 2018 Wal
 hitcon-2019-hitcon-cmt-2019-badge-trustzone-challenge | HITCON CMT 2019 Badge (TrustZone Challenge) | HITCON / yuawn (Alan Lee)
 hitcon-2023-hitcon-cmt-2023-nfc-badge | HITCON CMT 2023 NFC Badge | HITCON Activity Team
 hitcon-2024-hitcon-cmt-2024-pcb-badge | HITCON CMT 2024 PCB Badge | HITCON Activity Team / hacksintaiwan
-hitcon-2025-hitcon-2025-pcb-badge-hacker-pet | HITCON 2025 PCB Badge (Hacker Pet) | Justin (aoaaceai) and the HITCON team
 hitcon-2025-hitcon-2025-pcb-badge | HITCON 2025 PCB Badge | HITCON
+hitcon-2025-hitcon-2025-pcb-badge-hacker-pet | HITCON 2025 PCB Badge (Hacker Pet) | Justin (aoaaceai) and the HITCON team
 hitcon-2026-hitcon-2026-ntag215-nfc-attendee-badge | HITCON 2026 NTAG215 NFC Attendee Badge | HITCON
 hope-2008-the-last-hope-attendee-meta-data-amd-badge | The Last HOPE Attendee Meta-Data (AMD) Badge | HOPE conference organizers (hope.net)
 hope-2010-the-next-hope-badge | The Next HOPE Badge | HOPE / OpenAMD badge committee
 hope-2014-hope-x-badge | HOPE X Badge | HOPE conference organizers (hope.net / 2600)
 hope-2020-hope-2020-conference-badge | HOPE 2020 conference badge | HOPE conference organizers (2600)
-hope-2024-hope-xv-electronic-badge-hope-16 | HOPE XV Electronic Badge (HOPE_16) | tidklaas (Open Hardware repo maintainer) / HOPE badge team
 hope-2024-hope-xv-electronic-badge | HOPE XV Electronic Badge | HOPE Badge Team (HBT) with Novel Circuits
+hope-2024-hope-xv-electronic-badge-hope-16 | HOPE XV Electronic Badge (HOPE_16) | tidklaas (Open Hardware repo maintainer) / HOPE badge team
 hushcon-2016-hushcon-2016-wifi-pager-badge | Hushcon 2016 WiFi Pager Badge | whitey
 hushcon-2023-hushcon-monkey-badge | HushCon Monkey Badge | PacketChat
 kernelcon-2019-kernelcon-2019-k-badge | Kernelcon 2019 K Badge | ZonkSec (Tyler Rosonke)
@@ -1289,14 +1297,17 @@ other-avnet-badge | Avnet Badge | Avnet
 other-back-to-the-future-flux-capacitor-badge | Back to the Future Flux Capacitor Badge | Pedro Minatel
 other-badge-for-hackaday-belgrade-conference | Badge for Hackaday Belgrade Conference | Voja Antonic
 other-badge-for-hackaday-conference-2018-in-belgrade | Badge for Hackaday Conference 2018 in Belgrade | Voja Antonic
+other-badge-hacking | DEF CON 28 Badge Hacking | 
 other-badge-killer-shitty-add-on | Badge Killer Shitty Add-On | Gerben
 other-badge-owasp-latam-mexico-2020 | badge-owasp-latam-mexico-2020 | Electronic Cats
 other-badgelife-alexglow-saos-and-more | SAOcube (badgelife) | alexglow
+other-badgelife-jamesdietle | BadgeLife (jamesdietle) | jamesdietle
 other-badger | BADGEr | Anool Mahidharia
 other-badgy | Badgy | w4ilun (squarofumi)
 other-balccon-2016-badge | BALCCon 2016 Badge | Voja Antonic
 other-bcoin-2024 | BCoin 2024 | youngd24
 other-beepbadge | beepBadge | lle
+other-bgd-badges-and-gadgets-of-defcon | BGD — Badges and Gadgets of Defcon | DefconParrot
 other-big-deal-with-it-foot | Big Deal With It Foot | TwinkleTwinkie
 other-bike-badge | 503 Party Bike Badge | securelyfitz
 other-biohack-me-badge | biohack.me badge | tekniklr (oshwlab handle)
@@ -1307,8 +1318,8 @@ other-bsides-indore-badge | BSides Indore Badge | Panda (HacksFromPanda) for Adi
 other-bsides-kc-2022-badge-ray-gun-shaped-pcb | BSides KC 2022 badge (ray-gun shaped PCB) | BadgePirates
 other-bsidesbasic-2017 | Flux Capacitor Badge (BsidesBASIC-2017) | Dale Nunns
 other-bsidesif-badge-2022 | bsidesif-badge-2022 | wrigjl
-other-bsidesjax-2024-badge-challenge | BSidesJAX 2024 Hydra Badge Challenge | blackandwhitehat
 other-bsidesjax-2024-badge | BSidesJAX 2024 Hydra Badge | blackandwhitehat / Panda
+other-bsidesjax-2024-badge-challenge | BSidesJAX 2024 Hydra Badge Challenge | blackandwhitehat
 other-bsideskc-2022-sao-moon | BSidesKC 2022 SAO - Moon | BadgePirates
 other-bsideskc-2025-badge | BSidesKC 2025 badge | BadgePirates
 other-bugcon-2025-linux-badge | BugCON 2025 Linux Badge | Electronic Cats
@@ -1323,22 +1334,24 @@ other-cybersp0re-defcon-badge-spore-cell-mutator-with-nfc | CyberSp0re — DEFCO
 other-dabao-baochip-1x-dev-board | Dabao (Baochip-1x dev board) | Andrew "bunnie" Huang
 other-dc225-sao-2024-firmware | DC225 SAO 2024 | DC225
 other-dc406-sao | DC406 SAO | |)3vice Makers |{its
-other-dc801-sao | DC801 SAO | snurkle engineering / hamster
+other-dc801-saintcon-badge | DC801 SAINTCON badge | DC801
 other-dczia-yolobadge-ziacon-2 | DCZia yolobadge (Ziacon 2) | DCZia
 other-def-con-singapore-2026-official-badge | DEF CON Singapore 2026 Official Badge | Circuit Crafters, Dani Weidman, Zach Resmer
 other-defcon-badge-pic16f1508 | DEFCON_BADGE (PIC16F1508) | InfinityBuzz
 other-defcon-sao-alexrojasx | Defcon-SAO (AlexRojasx) | AlexRojasx
 other-dial-badge | Dial-Badge | Michael Möller
 other-digitalrane-badgelife-ec0-s-sao-lsao-badge-addons | digitalrane/badgelife — ec0's SAO/LSAO badge addons | digitalrane (ec0)
+other-dipsy | DIPSY | Antti Lukats
 other-disobey-2020-badge | Disobey 2020 Badge | Badge.Team
 other-districtcon-badge | DistrictCon Year 1 Badge | BigTaro's Badges
-other-do-or-donut-sao-2 | Do or Donut SAO | davedarko
 other-do-or-donut-sao | Do Or Donut | davedarko
+other-do-or-donut-sao-2 | Do or Donut SAO | davedarko
 other-docker-container-sao | Docker Container SAO | Alee (Tindie: alee97422)
 other-doom-badge | DOOM Badge | avr
 other-dors-cluc-2025-badge | DORS/CLUC 2025 Badge | Hyperglitch
 other-dragon-badge | Dragon Badge | Abhinav Pandagale / Hackerware.io
 other-duckbutt-wireless-testing-sao | Duckbutt Wireless Testing SAO | rot13labs
+other-dumb-badge | Dumb Badge | bbenchoff
 other-dumpster-fire-sao | Dumpster Fire SAO | Untitled Electronics
 other-dupe-sao | Dupe SAO | deshipu
 other-dxhub25 | DXHub25 | NerdFlare
@@ -1346,7 +1359,6 @@ other-egdah-ala-hadge | EgDah ala HaDge | Antti Lukats
 other-electrocard | Electrocard | Michael Teeuw
 other-eth0-2019-badge | ETH0 2019 Badge | Badge.Team (art: Nikolett; PCB: Renze)
 other-falken-wombat-badge-bsides-adelaide | Falken Wombat Badge (BSides Adelaide) | Hackerware.io
-None | The Floppy | Uri Shaked
 other-flux-capacitor-pcb-badge-2021 | Flux Capacitor PCB Badge | Arnov Sharma
 other-flux-capacitor-pin-badge-keychain | Flux Capacitor (Pin Badge/Keychain) | Curious Design Labs
 other-flux-capacitor-trinket-pin | FLUX capacitor trinket | davedarko
@@ -1364,14 +1376,12 @@ other-hacker-hotel-2023-badge | Hacker Hotel 2023 Badge | Pim, Sake, Nikolett S.
 other-hackgdl-2025-minino-badge | HackGDL 2025 Minino Badge | Electronic Cats
 other-hadge-the-hackaday-badge | Hadge, the Hackaday Badge | Anool Mahidharia, Michele Perla, Hack-a-Day / Hackaday.io community (51-member collaborative team, incl. Mike Szczys, Benchoff)
 other-he-meme-man-electronic-pin-badge | He-Meme Man Electronic Pin Badge | hyuma78 (thegizmolab)
+other-heartypatch | HeartyPatch | ProtoCentral / Ashwin K Whitchurch
 other-hello-my-name-is-pcb-badge | Hello-My-Name-Is-PCB-Badge | MitchellStride
 other-hhw-hackconrd2024 | HackConRD 2024 Badge | jrgdiaz
 other-hillhacks-badge | HillHacks Badge | Tavish Naruka
 other-hnr26-badge-quacknroll-hack-roll-2026-badge | hnr26-badge-quacknroll — Hack&Roll 2026 badge | NUS Hackers
 other-homage-indie-badge | DEFCON 14 Homage Indie Badge | |)3vice Makers |{its
-other-hth-elite-2019-badge-2 | HTH-Elite-2019-Badge | syn-ack-zack
-other-hth-elite-2019-badge | HTH Elite 2019 Badge | HTHackers
-other-hth-general-badge | HTH-General-Badge | syn-ack-zack
 other-ita-sao-bag | ITA SAO BAG | davedarko
 other-jar-of-fireflies | Jar of Fireflies | securelyfitz
 other-jawncon-0x1-badge-modem-themed | JawnCon 0x1 Badge (modem-themed) | JawnCon organizers
@@ -1392,6 +1402,7 @@ other-light-rail | Light Rail | Nick Brown
 other-lit-christmas-ornament-badge | Lit Christmas Ornament/Badge | Jeff Wurz (thelogicofpi)
 other-lucy-sao-disenchanted-character | lucy-sao (Disenchanted character) | ly7erg1c
 other-magwest-8-bit-blinky-heart-couples-pendant | MAGWest 8-Bit Blinky Heart Couples Pendant | Tina Belmont (SoftEgg)
+other-malo-sao-flasher-web-based-reflashing-animation-browser-for | malo-sao-flasher — Web-based reflashing/animation browser for MalO SAO | BenHaddley
 other-map4 | MAP4 | Anool Mahidharia, Vaibhav Chhabra
 other-mass-warp-gate-badge | Mass Warp Gate Badge | seeigecannon
 other-massholeaddon-masshole-hackers | massholeAddon — Masshole Hackers | adamjvr
@@ -1402,6 +1413,8 @@ other-mexican-badgelife | Mexican_BadgeLife | markwinap, Francisco Gonzalez Cana
 other-mini-fat-pika-rgb-sao | Mini Fat Pika RGB SAO | TwinkleTwinkie
 other-minibadge-display-devboard | Minibadge Display Devboard | Pips801
 other-minibadge-endsummercamp | End Summer Camp Mini Badge 2024 | End Summer Camp
+other-minibadge-lukejenkins | minibadge (lukejenkins) | lukejenkins
+other-minibadge-specification | Minibadge specification | compukidmike
 other-mr-fixit-sao | Mr Fixit | Tom Keddie
 other-mranderson-skate-sao | MrAnderson | davedarko
 other-mult-lsao-port-multiplier-ozseccon-2019 | mult (LSAO port multiplier, OzSecCon 2019) | digitalrane (ec0)
@@ -1410,6 +1423,7 @@ other-nerdflare-badge-26 | NerdFlare Badge 26 | NerdFlare
 other-nerdflare-solder-challenge-26 | NerdFlare Solder Challenge 26 | NerdFlare
 other-nerdflarebadge25 | NerdFlareBadge25 | NerdFlare
 other-notcamera-sao-rma-badge | NotCamera SAO (RMA Badge) | wrickert
+other-nyan-pirate | Nyan Pirate | securelyfitz
 other-nyansao | nyanSAO | Nyan Devices
 other-open-sauce-vu-meter-badge | Open Sauce VU Meter Badge | miekush
 other-osh-park-shared-project-rb3wuxmt | Lucky Oshcat | twinkletwink, fustini
@@ -1431,6 +1445,7 @@ other-rc2014-assembly-badge-v1-0 | RC2014 Assembly Badge v1.0 | Spencer (RC2014 
 other-remoticon-2-badge | Remoticon 2 badge | Thomas Flummer
 other-retro-spacehuhn-badge-pin | Spacehuhn Blinky LED Badge | davedarko, Stefan Kremser (Spacehuhn)
 other-rickbadge-pcb-badge-for-puerto-rico-hacker-community-bsides | RickBadge — PCB Badge for Puerto Rico hacker community BSides | soynerdito
+other-rickrio | RickRio | wrickert
 other-robot-bank-sao-badge-add-on | Robot Bank - SAO Badge Add On | blinkingthing
 other-rocket-sao-v1-1 | Rocket SAO v1.1 | Alee (Tindie: alee97422)
 other-rootcon-19-badge | ROOTCON 19 Badge | ROOTCON
@@ -1453,36 +1468,48 @@ other-secretcon-2023-badge-1-0 | SecretCon 2023 Badge (1.0) | TYMKRS (for Korgo'
 other-securelyfitz-2018-badge | BSides PDX 2018 badge | pdxbadgers
 other-sensaor-sao-with-an-adapted-saoao-header | senSAOr (SAO with an adapted SAOAO header) | bwasserm
 other-shitty-add-on-panel-tileable-expansion-interface | Shitty Add-On Panel (tileable expansion interface) | bbenchoff
+other-shitty-add-ons | Shitty Add-Ons | 
 other-shitty-addon-extension-and-adapter | Shitty Addon extension and adapter | Killergeek
+other-shittywall | ShittyWall | bbenchoff
+other-shoot-my-valentine | Shoot My Valentine | 
 other-shy-guy-sao | Shy Guy SAO | Potato Nightmare
-other-skeletor-electronic-pin-badge-2 | SKELETOR Electronic Pin Badge | TheGizmolab (GizmoLab / hyuma78)
+other-simple-add-ons-sao | Simple Add-ons (SAO) | 
 other-skeletor-electronic-pin-badge | Skeletor Electronic Pin BADGE | hyuma78 (thegizmolab)
-other-sloth-badge-pin | sloth badge | davedarko
+other-skeletor-electronic-pin-badge-2 | SKELETOR Electronic Pin Badge | TheGizmolab (GizmoLab / hyuma78)
 other-sloth-badge | Sloth Badge | davedarko
+other-sloth-badge-pin | sloth badge | davedarko
 other-small-word-clock | Small Word Clock | Shawn Maxwell
+other-solo-nixie | Solo-Nixie | 
 other-space-janitor-badge-sao-kit | Space Janitor Badge SAO Kit | blinkingthing
 other-sparky-sao-display | Sparky SAO Display | NerdFlare
 other-stm8-minibadges | stm8_minibadges | Professor-plum
+other-switch-ornament-reference | Switch Ornament Reference | scottbez1
 other-tank-girl-badge-nsfw-new-edition | Tank Girl Badge NSFW NEW EDITION | TheGizmolab (GizmoLab / hyuma78)
 other-the-badge-of-the-lands | The Badge of the Lands | Sabas, Eden Candelas, Eduardo Wero, Gustavo Reynaga
-other-the-child-sao-2 | The Child SAO | TwinkleTwinkie
 other-the-child-sao | The Child SAO | TwinkleTwinkie
+other-the-child-sao-2 | The Child SAO | TwinkleTwinkie
+other-the-f5-badge | The F5 Badge | Hackerware.io
 other-tr23-sao-hw-troopers-2023-shitty-add-on | tr23-sao-hw — Troopers 2023 Shitty Add-On | jeffmakes
 other-tr25-sao-hw-troopers-25-shitty-add-on | tr25-sao-hw — Troopers 25 Shitty Add-On | jeffmakes
 other-trevorforget | TrevorForget | hamster, AND!XOR
+other-troll-bait | Troll Bait | 
 other-troopers-20-badge-hardware | TR20 badge | jeffmakes
 other-troopers19-badge-hardware-tr19-badge-hw-public | Troopers19 badge hardware (tr19-badge-hw-public) | jeffmakes
 other-tubecube-iv-17-vfd-tube-driver-minibadge | TubeCube — IV-17 VFD tube driver minibadge | hamster
 other-tubecube-minibadge | TubeCube Minibadge | hamster
+other-ubasic-game-for-superconference-badge | uBASIC game for Superconference badge | Kojoe
 other-ubuntu-sao | Ubuntu SAO | Alee (Tindie: alee97422)
 other-uhl-minibadge-2022-utah-home-labs-minibadge | UHL-minibadge-2022 — Utah Home Labs Minibadge | James Carbine (klipperx / Utah Home Labs)
 other-universe-2025-tufty-edition-badge | Universe 2025 (Tufty Edition) Badge | Pimoroni (for GitHub)
 other-unofficial-fan-made-2020-remoticon-badge-design | Unofficial fan-made 2020 Remoticon badge design | Thomas Flummer
+other-vetcon-wall-flag-wall-flag-2-0 | Vetcon Wall Flag / Wall Flag 2.0 | VetCON
 other-waifu-badge | Waifu Badge | Waifus4Lifu
 other-wargames-sao | WarGames_SAO | joshajohnson
+other-wifiwart | wifiwart | Rootkit Labs (o7-machinehum)
 other-winter-hacker-fest-pin | Winter Hacker Fest Pin | KBEmbedded & hunny
 other-witch-hat-for-joule-thief-cat | Witch Hat for Joule Thief Cat | tilde.industries
 other-xmas-id-badge-flair | xmas id badge (flair) | tactical_snacks
+other-yo-dawg-saoao-baseplate-standard | Yo Dawg SAOAO baseplate/standard | davedarko
 phdays-2024-phdays-badge-2024 | PHDays Badge (2024) | Positive Labs / Positive Technologies
 phdays-2025-phdays-badge-2025 | PHDays Badge 2025 | Positive Labs / Positive Technologies
 queercon-2012-queercon-gaydar-badge | Queercon "GayDar" Badge | Queercon
@@ -1493,8 +1520,8 @@ queercon-2015-queercon-12-badge-qc12 | Queercon 12 badge (QC12) | George Louthan
 queercon-2016-queercon-13-badge-2016-cephalopod-squid-badge | Queercon 13 Badge (2016 cephalopod/squid badge) | Evan Mackay, George Louthan, Jonathan Nelson, Jason Painter
 queercon-2016-queercon-13-badge-squid-cuttlefish-badge | Queercon 13 badge (squid/cuttlefish badge) | Evan Mackay, George Louthan, Jonathan Nelson, Jason Painter
 queercon-2016-queercon-13-unicorn-horn-add-on | Queercon 13 unicorn horn add-on | Queercon badge team
-queercon-2017-queercon-14-badge-cube-companion-cube-badge | Queercon 14 badge (cube/Companion Cube badge) | Queercon badge team (incl. UI/UX designer "Jonathan")
 queercon-2017-queercon-14-badge | Queercon 14 Badge | Queercon
+queercon-2017-queercon-14-badge-cube-companion-cube-badge | Queercon 14 badge (cube/Companion Cube badge) | Queercon badge team (incl. UI/UX designer "Jonathan")
 queercon-2018-queercon-15-badge | Queercon 15 Badge | MaraJade
 queercon-2019-queercon-16-badge | Queercon 16 badge | duplico
 queercon-2019-queercon-16-q-badge | Queercon 16 Q Badge | Evan Mackay, George Louthan, Tara Scape, Subterfuge
@@ -1771,6 +1798,7 @@ saintcon-2026-ipex-to-sma-adapter-minibadge | IPEX to SMA adapter Minibadge | Pi
 saintcon-2026-minibadge-chain | Minibadge chain | Pips
 saintcon-2026-minibadge-display-devboard | Minibadge Display Devboard | Pips
 saintcon-2026-minibadge-smd-challenge-dice | Minibadge SMD Challenge Dice | RuShan
+saintcon-2026-minibadge-wiki | Minibadge.wiki | Pips
 saintcon-2026-minirack-minibadge-display | Minirack Minibadge Display | Herushan
 saintcon-2026-perfboard-prototyping-minibadge | Perfboard prototyping minibadge | Pips
 saintcon-2026-pipscat | Pipscat | Pips
@@ -1824,15 +1852,17 @@ supercon-2019-protoboard-cartridge-for-hackaday-supercon-2019 | Protoboard Cartr
 supercon-2019-shirtty-addon | shIRtty addon | Thomas Sarlandie
 supercon-2019-supercon-2019-wireshark-0x4e00 | Wireshark 0x4e00 | TwinkleTwinkie & Nick Pisarro
 supercon-2019-ws2812-rgb-led-array-badge-hack | WS2812 RGB LED Array badge hack | Thomas Sarlandie
+supercon-2020-2020-remoticon-pandemic-creativity-start-here | 2020 Remoticon: Pandemic Creativity! (start here) | Hackaday community (no physical badge; virtual event hub)
 supercon-2021-hackaday-remoticon-2-badge-2021 | Hackaday Remoticon 2 Badge (2021) | Thomas Flummer
+supercon-2022-2022-hackaday-supercon-6-badge-guide | 2022 Hackaday Supercon 6 Badge Guide | Lutetium, Tom Nardi, Elliot Williams, Al Williams, Bogdan Roșu
 supercon-2022-badge-for-supercon-6-november-2022 | BADGE FOR SUPERCON.6 / November 2022 | Voja Antonic, drwass3, hwang_hoyoen, Nesib Fiso
 supercon-2022-covid-19-test-sao | COVID-19 test SAO | davedarko
 supercon-2022-hackaday-supercon-2022-badge-computing-history-handheld | Hackaday Supercon 2022 Badge (computing history handheld) | Voja Antonic, Hackaday badge team
 supercon-2022-jolly-wrencher-sao | Jolly Wrencher SAO | Arya Voronova
 supercon-2022-supercon-2022-badge-card-reader | Supercon 2022 Badge Card Reader | Zach Fredin, Ben Hencke
 supercon-2022-supercon-2022-badge-programming-adapter | Supercon 2022 Badge Programming Adapter | brokebit
-supercon-2022-vectrex-sao-2 | Vectrex SAO | Brett Walach (Technobly)
 supercon-2022-vectrex-sao | Vectrex SAO | Brett Walach (@Technobly)
+supercon-2022-vectrex-sao-2 | Vectrex SAO | Brett Walach (Technobly)
 supercon-2023-badge-to-eurorack | Badge to Eurorack | Alex (tinyledmatrix)
 supercon-2023-cyberdeck-sao | Cyberdeck SAO | Tom Nardi
 supercon-2023-hack-a-sketch | Hack-a-Sketch | Jeremy Geppert, Andy Geppert, pandiarajan2122
@@ -1849,24 +1879,24 @@ supercon-2024-blinkencap | Blinkencap | Pat Deegan
 supercon-2024-blinky-loop-sao | Blinky Loop SAO | Thomas Flummer
 supercon-2024-co2-traffic-light-sao | CO2 Traffic Light SAO | David Bryant
 supercon-2024-cyberathena | CyberAthena | ndGarage
-supercon-2024-duckbath-sao-2 | duckBATH SAO | Adrian Studer (astuder), Marc Merlin
 supercon-2024-duckbath-sao | duckBATH SAO | Adrian Studer (astuder), Marc Merlin
-supercon-2024-duckjaws-sao-2 | duckJAWS SAO | Adrian Studer (astuder)
+supercon-2024-duckbath-sao-2 | duckBATH SAO | Adrian Studer (astuder), Marc Merlin
 supercon-2024-duckjaws-sao | duckJAWS SAO | Adrian Studer (astuder), Marc Merlin
-supercon-2024-etch-sao-sketch-2 | Etch sAo Sketch | Andy Geppert (ageppert)
+supercon-2024-duckjaws-sao-2 | duckJAWS SAO | Adrian Studer (astuder)
 supercon-2024-etch-sao-sketch | Etch sAo Sketch | Andy Geppert (ageppert)
-supercon-2024-featuring-you-sao-2 | Featuring You! | Nanik Adnani
+supercon-2024-etch-sao-sketch-2 | Etch sAo Sketch | Andy Geppert (ageppert)
 supercon-2024-featuring-you-sao | Featuring You! | Nanik Adnani (nanikgeorge)
+supercon-2024-featuring-you-sao-2 | Featuring You! | Nanik Adnani
 supercon-2024-fibonacci128-sao | Fibonacci128 SAO | Squidgeefish
 supercon-2024-fuzzy-sao | Fuzzy SAO | Laura (ellemef)
 supercon-2024-hack-man-sao | Hack-Man SAO | InstantArcade (Bob)
 supercon-2024-hackaday-supercon-2024-sao-badge-supercon-8-badge | Hackaday Supercon 2024 SAO Badge (Supercon 8 Badge) | Hackaday
 supercon-2024-hackadaylogo | hackadayLogo | davedarko
-supercon-2024-han-saolo-in-carbonyte-sao | Han SAOlo in carbonyte | davedarko
 supercon-2024-han-saolo | Han SAOlo | davedarko
+supercon-2024-han-saolo-in-carbonyte-sao | Han SAOlo in carbonyte | davedarko
 supercon-2024-hello-my-name-is-sao | Hello My Name Is SAO | davedarko
-supercon-2024-hubble-sao-2 | Hubble SAO | pdulab
 supercon-2024-hubble-sao | Hubble SAO | pdulab
+supercon-2024-hubble-sao-2 | Hubble SAO | pdulab
 supercon-2024-infrared-communication-sao | Infrared Communication SAO | Alec Probst, Dmitry Pustovit
 supercon-2024-ironman | IronMan | davedarko
 supercon-2024-jolly-tagger-sao | The Jolly Tagger SAO | Phil Weasel
@@ -1885,20 +1915,20 @@ supercon-2024-remote-control-sao | Remote Control SAO | Ben Combee
 supercon-2024-sao-bridge | SAO Bridge | astuder
 supercon-2024-sao-core4 | SAO Core4 - A Nibble of Core Memory with I2C | Andy Geppert, Koppany Horvath
 supercon-2024-sao-demo-controller-v2 | SAO Demo Controller V2 | Andy Geppert, VinicioGonzalez
-supercon-2024-sao-digital-multimeter-2 | SAO Digital Multimeter | Thomas Flummer
 supercon-2024-sao-digital-multimeter | SAO Digital Multimeter | Thomas Flummer
+supercon-2024-sao-digital-multimeter-2 | SAO Digital Multimeter | Thomas Flummer
 supercon-2024-sao-infinity-mirror | SAO Infinity Mirror | Scorch Works
 supercon-2024-sao-lora-walkie-talkie | SAO Lora Walkie Talkie | Jeremy Geppert (JayGee)
 supercon-2024-sao-nunchuck | SAO Nunchuck | Andy Geppert
-supercon-2024-sao-oled-sao-badge-with-i2c-oled-64x128 | SAO_OLED — SAO Badge with I2C OLED 64x128 | Andy Geppert
 supercon-2024-sao-oled | SAO OLED | Andy Geppert
+supercon-2024-sao-oled-sao-badge-with-i2c-oled-64x128 | SAO_OLED — SAO Badge with I2C OLED 64x128 | Andy Geppert
 supercon-2024-sao-speak-and-spell | SAO Speak and Spell | Jeremy Geppert
-supercon-2024-sao-up-sao-bridge-supercon-2024-badge-adapter-pcbs | SAO Up / SAO Bridge (Supercon 2024 badge adapter PCBs) | Adrian Studer
 supercon-2024-sao-up | SAO Up | astuder
+supercon-2024-sao-up-sao-bridge-supercon-2024-badge-adapter-pcbs | SAO Up / SAO Bridge (Supercon 2024 badge adapter PCBs) | Adrian Studer
 supercon-2024-sao-voja4-adapter | SAO Voja4 Adapter | Andy Geppert, Koppany Horvath
 supercon-2024-saognr-a-ham-radio-sao-supercon-add-on | SAOGNR - A Ham Radio SAO (Supercon Add On) | Al Williams (wd5gnr)
-supercon-2024-saop-2 | SAOP | Chris Wilson (Common Ground Electronics)
 supercon-2024-saop | SAOP | Chris Wilson (Common Ground Electronics)
+supercon-2024-saop-2 | SAOP | Chris Wilson (Common Ground Electronics)
 supercon-2024-saout-of-this-world | SAOut Of This World | Todd Zebert & Koppany Horvath (koppanyh)
 supercon-2024-skate-sao | Skate SAO | davedarko
 supercon-2024-skull-of-fate-sao | Skull of Fate SAO | MakeItHackin and p1x317h13f
@@ -1909,11 +1939,12 @@ supercon-2024-supercon-8-add-on-badge | Supercon Add-On Badge | Hackaday
 supercon-2024-supercon-8-i2c-proto-petal | I2C Proto Petal | Hackaday
 supercon-2024-supercon-8-pure-proto-petal | Pure Proto Petal | Hackaday
 supercon-2024-supercon-8-spiral-matrix-petal | Spiral Matrix Petal | Hackaday
+supercon-2024-supercon-badge-unspecified-year-hackaday-podcast-badge-hacki | Supercon badge (unspecified year) — Hackaday Podcast badge-hacking roundup | Hackaday / Supercon badge team
 supercon-2024-supercon-sao-disquisitioner | Supercon-SAO (disquisitioner) | disquisitioner
 supercon-2024-superxbit192 | SuperXBit192 | Kevin Juszczyk
+supercon-2024-tars-sao | TARS SAO | davedarko
 supercon-2024-tars-sao-2 | T.A.R.S. | davedarko
 supercon-2024-tars-sao-3 | TARS SAO | davedarko
-supercon-2024-tars-sao | TARS SAO | davedarko
 supercon-2024-the-gat-stand-badge-addon-holder | The GAT Stand - Badge Addon Holder | trueControl
 supercon-2024-the-schedule-sao | The Schedule SAO | davedarko
 supercon-2024-touchwheel-sao | Touchwheel SAO | todbot
@@ -1922,8 +1953,8 @@ supercon-2024-ultra-tiny-smart-sao | Ultra Tiny Smart SAO | Alex
 supercon-2024-video-button-sao | Video Button SAO | Ben Combee (unwiredben)
 supercon-2024-wolverine-sao | Wolverine SAO | Simen E. Sørensen
 supercon-2024-xhain-hackspace-logo-saoao | xHain hackspace logo SAOAO | davedarko
-supercon-2024-yo-dawg-sao-2 | YoDawgSAO | davedarko
 supercon-2024-yo-dawg-sao | Yo Dawg SAO | davedarko
+supercon-2024-yo-dawg-sao-2 | YoDawgSAO | davedarko
 supercon-2024-yo-dawg-saoao-hackaday-logo | Hackaday Logo SAOAO | davedarko
 supercon-2024-yo-dawg-saoao-iron-man | Iron Man SAOAO | davedarko
 supercon-2024-yo-dawg-saoao-supercomputer-cluster | Supercomputer Cluster SAOAO | davedarko

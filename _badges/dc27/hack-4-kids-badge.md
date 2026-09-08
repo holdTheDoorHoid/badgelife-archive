@@ -29,7 +29,7 @@ tech:
   - wifi
   - bluetooth
   - usb
-  battery: USB or 3x AA (included)
+  battery: USB
   sao_version: null
 get_one:
   price: $100
@@ -88,15 +88,25 @@ sources:
   url: https://www.hak4kidz.com/
   title: Hak4Kidz | Home
   accessed: '2026-09-08'
-  note: Confirms Hak4Kidz as an active youth ethical-hacking conference/nonprofit.
+  note: Confirms Hak4Kidz as an active youth ethical-hacking conference; describes itself as a conference, not explicitly as a nonprofit.
+- kind: url
+  url: https://projects.propublica.org/nonprofits/organizations/465659249
+  title: 'Hak4 Kidz Nfp - Nonprofit Explorer - ProPublica'
+  accessed: '2026-09-08'
+  note: Independently confirms Hak4Kidz Nfp is a registered 501(c)(3) nonprofit (EIN 46-5659249), supporting the "nonprofit" description in the summary.
+- kind: url
+  url: https://medium.com/@cameroncoward/hak4kidz-is-making-a-def-con-27-indie-badge-just-for-kids-a2a0b7a3dd19
+  title: 'Hak4Kidz Is Making a DEF CON 27 Indie Badge Just for Kids (author mirror)'
+  accessed: '2026-09-08'
+  note: 'Author''s own Medium mirror of the Hackster article; live page returns 403, but a search-engine snippet directly quotes it: "the Kickstarter campaign is running until July 1st. A complete badge costs $100, and can be picked up at DEF CON 27 in Las Vegas or shipped to you." Corroborates price, campaign end date, and pickup/ship distribution.'
 research:
-  status: researched
+  status: verified
   confidence: medium
   last_checked: '2026-09-08'
-  notes: Core specs and story come from a Hackster.io article (maker-adjacent press, read via a Wayback Machine snapshot since the live page 403s automated fetches) corroborated by the Hackaday DC27 badge roundup; the maker's own Kickstarter and site pages were reachable only enough to confirm identity, not to pull additional detail, since Kickstarter serves a Cloudflare challenge to automated fetches. LED count/type not stated in any source found. sao_version and sao_ports not stated (source says "two SAO locations" but not which pinout). hardware/firmware open-source status not found.
+  notes: 'Re-verified 2026-09-08. The live Hackster, Kickstarter, and Medium pages all still 403/Cloudflare-block automated fetches, so verification relied on independently reproduced search-engine snippets that directly quote the source text (Hackster: "2.4\" 240x320 color TFT LCD," "6 capac[itive]" pads, "micro SD card slot for easily flashing code to the ESP32," "Power is provided through USB"; Medium/Hackster mirror: "$100," "running until July 1st," "picked up at DEF CON 27 ... or shipped"; Kickstarter: "89 backers pledged $11,623"; Hackaday, fetched directly: "originally designed for GrrCON," "200 badges produced," "sold about half ... through a crowd funding campaign") plus one independent nonprofit-registry source for the "nonprofit" descriptor. Two claims from the prior pass could not be corroborated anywhere and were removed as unsupported: the "3x AA batteries" power claim (Hackster snippets mention only USB power) and "two SAO add-on locations" (no source found mentions SAO ports on this badge at all). get_one.availability: sold_out is an inference, not a directly-quoted claim — basis is the 2019 Kickstarter having ended, Hackaday saying only about half of 200 sold, and the current Hak4Kidz Shopify store (checked live) no longer listing this badge among its ~19 products. LED count/type, sao_version, and open-source status remain correctly left blank: not stated in any source found. Note for a future research pass, not acted on here since this task is verification-only: a GitHub repo "Hak4Kidz/H4K-cryptex" ("Cryptex virtual escape room badge for DC27 and our contribution to #badgelife," GPL-3.0, Hardware+Software folders) turned up during corroboration and looks like the maker''s own firmware/hardware source for this exact badge - worth a follow-up pass to fill make_your_own.open_source/hardware_url/firmware_url.'
 last_modified_date: '2026-09-08'
 ---
 
 The Hak4Kidz DEF CON 27 badge is a puzzle badge from Hak4Kidz, a nonprofit that runs youth-focused ethical-hacking events, built around the group's mascot Tinker standing behind a cryptex-styled centerpiece. A 2.4" 240x320 color TFT LCD sits in the middle of the cryptex, surrounded by 6 capacitive touch pads that players use to work through an unlock puzzle hidden in the badge's firmware. Hackaday's contemporaneous roundup notes the design was originally created for GrrCON before this DEF CON 27 run.
 
-Under the hood it runs an ESP32, giving it Wi-Fi and Bluetooth, with a micro SD card slot for flashing code and two SAO add-on locations for expansion. It can run on USB power or three included AA batteries. About 200 were produced; roughly half were sold through a Kickstarter campaign that ran through July 1, 2019, at $100 each, with backers able to pick the badge up in person at DEF CON 27 in Las Vegas or have it shipped.
+Under the hood it runs an ESP32, giving it Wi-Fi and Bluetooth, with a micro SD card slot for flashing code. It is powered over USB. About 200 were produced; roughly half were sold through a Kickstarter campaign that ran through July 1, 2019, at $100 each, with backers able to pick the badge up in person at DEF CON 27 in Las Vegas or have it shipped.

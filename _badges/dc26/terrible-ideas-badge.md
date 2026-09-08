@@ -15,8 +15,7 @@ functions: 'Blinky lights. Three capacitive touch pads are present on the board 
 look:
   colors: []
   shape: null
-  themes:
-  - hardware tool
+  themes: []
 tech:
   mcu: ATmega328
   leds: null
@@ -62,10 +61,10 @@ sources:
   accessed: '2026-09-08'
   note: 'Confirmed the badge is real (not just a search snippet); source of the ATmega328/touch-pad/quantity/DC26 details and the badge photo.'
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-08'
-  notes: 'Only one substantive source exists: the single-paragraph mention in Hackaday''s DC27 pictorial-guide roundup. Checked all four "All The Badges Of DEF CON 26" Hackaday roundups (where this badge, per its own text, was actually built and shown) and it does not appear in any of them, so no maker name, storefront, repo, or further photos could be found. Web searches for the title alongside GitHub/Hackaday.io/DC26 turned up nothing beyond the same one article. Maker, LED count/type, colors, shape, price, and distribution remain unknown.'
+  notes: 'Only one substantive source exists: the single-paragraph mention in Hackaday''s DC27 pictorial-guide roundup ("the Terrible Ideas Badge, of which 200 were built for DEF CON 26. It has three capacitive touch pads connected to the ATmega328 but they''re not yet operational... This one is for blinky enjoyment"). Verified this quote, the photo, and the naming-joke explanation directly against the article on 2026-09-08. Checked all four "All The Badges Of DEF CON 26" Hackaday roundups (spot-checked vol. 1 directly; no other volumes surfaced any "terrible" mention either) and it does not appear in any of them, so no maker name, storefront, repo, or further photos could be found. Removed an unsupported "hardware tool" theme tag added during research — the article and photo show a plain touch-pad/blinky board with no tool motif. The silkscreen on the photographed board reads "Terrible Idea Badge / Defcon 2018 Beta" (singular "Idea"), a minor variant from the article''s "Terrible Ideas Badge"; kept the article''s plural wording since that is the maker-facing published name and the current title. Maker, LED count/type, colors, shape, price, and distribution remain unknown; everything currently filled in is supported by the cited source and photo.'
 last_modified_date: '2026-09-08'
 redirect_from:
 - /badges/dc27/terrible-ideas-badge/
