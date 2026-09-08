@@ -60,16 +60,17 @@ links:
 - label: SAO Many SAOs Badge (Tindie)
   url: https://www.tindie.com/products/coruscant_ventures/sao-many-saos-badge/
   kind: store
-  archived: false
+  archived: https://web.archive.org/web/20260503104002/https://www.tindie.com/products/coruscant_ventures/sao-many-saos-badge/
 - label: SAO Many SAOs (Coruscant Ventures store)
   url: https://coruscantventures.com/defcon-badges/p/sao-many-saos
   kind: store
-  archived: false
+  archived: https://web.archive.org/web/20260506040947/https://coruscantventures.com/defcon-badges/p/sao-many-saos
 images:
 - file: assets/images/badges/dc34/sao-many-saos/e67715c0b9.jpg
   source: https://www.tindie.com/products/coruscant_ventures/sao-many-saos-badge/
   credit: Coruscant Ventures
   caption: The SAO Many SAOs badge, a wearable ring board with 25 SAO slots
+  archived: https://web.archive.org/web/20260503104002/https://www.tindie.com/products/coruscant_ventures/sao-many-saos-badge/
 contact:
   discord: vor_t3x1
   emails:
@@ -89,11 +90,13 @@ sources:
   title: SAO Many SAOs Badge from coruscant ventures on Tindie
   accessed: '2026-09-06'
   note: Confirmed price ($80), 25-SAO slot count, dual 18650 battery, edge LEDs needing a SmartAO, and current "taking a break" unavailable status.
+  archived: https://web.archive.org/web/20260503104002/https://www.tindie.com/products/coruscant_ventures/sao-many-saos-badge/
 - kind: url
   url: https://coruscantventures.com/defcon-badges/p/sao-many-saos
   title: SAO Many SAOs Badge - DEFCON 33 — Coruscant Ventures
   accessed: '2026-09-06'
   note: Maker's own product page; lists price as $100 there and notes checkout is broken; identifies the badge as a DEFCON 33 item and names the maker as a 14-year-old self-taught PCB designer.
+  archived: https://web.archive.org/web/20260506040947/https://coruscantventures.com/defcon-badges/p/sao-many-saos
 - kind: url
   url: https://github.com/vortexcodes/DC33-SaO-MANY-SAOs
   title: DC33-SaO-MANY-SAOs (GitHub)

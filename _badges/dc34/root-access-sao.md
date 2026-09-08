@@ -62,6 +62,7 @@ links:
 - label: www.youtube.com/watch?v=q30KheOV6QE
   url: https://www.youtube.com/watch?v=q30KheOV6QE
   kind: video
+  archived: https://web.archive.org/web/20260805152608/https://www.youtube.com/watch?v=q30KheOV6QE
 images:
 - file: assets/images/badges/dc34/root-access-sao/ddbcc11091.jpg
   source: https://makeithackin.myshopify.com/products/root-access-sao

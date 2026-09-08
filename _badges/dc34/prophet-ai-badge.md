@@ -14,9 +14,15 @@ makers:
 summary: A hand-built puzzle badge Hackerware.io made for Prophet AI, styled as a "temporal energy cell" with three cipher-locked LED sets unlocked through a CTF.
 functions: Three separate locked puzzles; solvers decode ciphers printed on the lanyard, convert the answers to 7-bit binary keys, and tap each bit in on the badge while holding the CTF key to light each LED set in turn. A buzzer with an on/off switch gives audio feedback.
 look:
-  colors: [white, red, yellow]
+  colors:
+  - white
+  - red
+  - yellow
   shape: rectangle
-  themes: [sci-fi, ctf, puzzle]
+  themes:
+  - sci-fi
+  - ctf
+  - puzzle
 tech:
   mcu: Nuvoton
   leds:
@@ -24,7 +30,8 @@ tech:
     type: discrete
     note: Three red-and-yellow LED sets, each unlocked by solving one puzzle stage; count per set not stated.
   display: none
-  connectivity: [audio]
+  connectivity:
+  - audio
   battery: 2x coin cell
   sao_version: none
 get_one:
@@ -32,7 +39,8 @@ get_one:
   price_usd: 0.0
   quantity: ''
   availability: free
-  distribution: [free_drop]
+  distribution:
+  - free_drop
   where: Listed on the community sheet as a free giveaway; the maker's pages do not say where or when it was handed out.
 make_your_own:
   open_source: null
@@ -49,16 +57,16 @@ links:
 - label: Hackerware.io
   url: https://www.hackerware.io/
   kind: website
-  archived: false
+  archived: https://web.archive.org/web/20260523123718/https://hackerware.io/
 - label: 'Facebook: Prophet AI Badge announcement'
   url: https://www.facebook.com/Hackerware/posts/prophet-ai-badge-is-a-hand-built-temporal-energy-cellsolve-ctf-challenges-and-un/1461017809384107/
   kind: social
   archived: false
 images:
 - file: assets/images/badges/dc34/prophet-ai-badge/195725f59e.jpg
-  source: "https://www.facebook.com/Hackerware/posts/prophet-ai-badge-is-a-hand-built-temporal-energy-cellsolve-ctf-challenges-and-un/1461017809384107/"
-  credit: "Hackerware.io"
-  caption: "Prophet AI Badge, a hand-built temporal energy cell badge"
+  source: https://www.facebook.com/Hackerware/posts/prophet-ai-badge-is-a-hand-built-temporal-energy-cellsolve-ctf-challenges-and-un/1461017809384107/
+  credit: Hackerware.io
+  caption: Prophet AI Badge, a hand-built temporal energy cell badge
 contact:
   discord: abhinav_panda
   emails:
@@ -80,9 +88,10 @@ sources:
   note: Maker's product page. Says the badge was designed for Prophet AI; describes it as a hand-built temporal energy cell; lists Nuvoton MCU, 2x coin cell, buzzer with on/off switch, cream 3D-printed hand-openable enclosure, three red/yellow LED sets unlocked via CTF puzzles using ciphers on the lanyard converted to 7-bit binary keys. Does not give event, date, price, quantity or open-source status.
 - kind: url
   url: https://www.hackerware.io/
-  title: Hackerware - #BadgeLife | Hardware Design, Security, & Research.
+  title: Hackerware -
   accessed: '2026-09-06'
   note: Hackerware portfolio page; lists the Prophet AI Badge with the "temporal energy cell" blurb and links to the product page. Carries the abhinav@hackerwares.in contact.
+  archived: https://web.archive.org/web/20260523123718/https://hackerware.io/
 - kind: url
   url: https://www.facebook.com/Hackerware/posts/prophet-ai-badge-is-a-hand-built-temporal-energy-cellsolve-ctf-challenges-and-un/1461017809384107/
   title: 'Hackerware Facebook: Prophet AI Badge announcement'

@@ -10,12 +10,14 @@ event: dc26
 year: 2018
 makers:
 - name: sqearlsalazar
-summary: ''
+summary: A small robot-shaped SAO themed after Bender from Futurama, built as fan hardware for the AND!XOR DEF CON 26 badge and shown off at the con.
 functions: ''
 look:
   colors: []
-  shape: null
-  themes: []
+  shape: robot
+  themes:
+  - robot
+  - pop culture
 tech:
   mcu: null
   leds: null
@@ -39,10 +41,15 @@ links:
 - label: hackaday.com/2018/09/05/all-the-badges-of-def-con-26-vol-4
   url: https://hackaday.com/2018/09/05/all-the-badges-of-def-con-26-vol-4/
   kind: article
-images: []
+images:
+- file: assets/images/badges/dc26/baby-bender-sao-dc26-debut/8ce81eef05.jpg
+  source: https://hackaday.com/2018/09/05/all-the-badges-of-def-con-26-vol-4/
+  credit: Hackaday / sqearlsalazar
+  caption: The Baby Bender SAO photographed at DEF CON 26, 2018
 contact: {}
 notes:
 - Futurama Bender-themed SAO by the Fry Add-On maker, shown at DEF CON 26; archive currently only has a DC30 listing under this maker. Found by the event-year sweep, task dc26-indie.
+- The sheet/sweep title "Baby Bender SAO (DC26 debut)" matches how Hackaday refers to it ("the Baby Bender badge"); no maker-published name was found, so the sweep's title is kept.
 status: listed
 sources:
 - kind: url
@@ -50,11 +57,19 @@ sources:
   title: Baby Bender SAO (DC26 debut)
   accessed: '2026-09-07'
   note: 'Found by the archive''s discovery sweep (angle: sweep:dc26-indie); event read as ''dc26''.'
+- kind: url
+  url: https://hackaday.com/2018/09/05/all-the-badges-of-def-con-26-vol-4/
+  title: All The Badges Of DEF CON 26 (vol 4) - Hackaday
+  accessed: '2026-09-08'
+  note: Confirms the Baby Bender SAO was built by sqearlsalazar and photographed at DEF CON 26 (2018); no technical specs, price, or availability given. Photo used for images.
 research:
-  status: stub
+  status: researched
   confidence: low
-  last_checked: '2026-09-07'
-  notes: Imported from the community badge sheet; not yet researched.
-last_modified_date: '2026-09-07'
+  last_checked: '2026-09-08'
+  notes: Only source found is the single Hackaday roundup photo and caption; no maker page, Tindie listing, Hackaday.io project, or GitHub repo turned up for this 2018 piece specifically. A later item from the same maker, sold at DEF CON 30 under the Tindie listing "#badgelife Parallel Baby Robot (each)" (archive entry dc30-baby-bender-sqearlsalazar, tagline "Bite my shiny SAO"), is very likely the same robot-shaped SAO design carried forward or re-offered years later — kept as a separate entry here since this one documents the 2018 DC26 appearance specifically, with no evidence of a DC26 sale, price, or quantity. MCU, LEDs, and distribution details for the DC26 piece remain unconfirmed.
+last_modified_date: '2026-09-08'
 ---
 
+The Baby Bender SAO is a small robot-shaped Shitty Add-On built by sqearlsalazar, styled after Bender from *Futurama* and made as fan hardware to complement AND!XOR's Futurama-themed DEF CON 26 badge. It appeared in Hackaday's September 2018 roundup of DEF CON 26 badges, which shows a photo of the piece and credits sqearlsalazar as its builder, alongside a note that fans of the badge also produced bejeweled Bender-dance pins.
+
+No maker storefront, Hackaday.io page, or repository specific to this 2018 piece could be found, so its price, quantity, distribution, MCU, and LED details are unconfirmed. A visually similar robot-shaped SAO from the same maker was later sold at DEF CON 30 (2022) via Tindie under the name "#badgelife Parallel Baby Robot (each)," with the tagline "Bite my shiny SAO" — almost certainly the same design resurfacing — but that sale is documented separately in this archive since it carries its own price, finish options, and photos distinct from the DC26 appearance.

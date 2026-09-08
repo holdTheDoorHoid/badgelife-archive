@@ -35,7 +35,7 @@ get_one:
   distribution:
   - preorder
   - purchase
-  where: 'Presale via bigfuckingbadge.com (Venmo/PayPal/Cash App/cash); at-con sales through Hacker Warehouse and drops at BadgeLife Village (Fri 3pm, Sat 11:30am and 5pm, Sun 11am, per the maker''s site as of the accessed date).'
+  where: Presale via bigfuckingbadge.com (Venmo/PayPal/Cash App/cash); at-con sales through Hacker Warehouse and drops at BadgeLife Village (Fri 3pm, Sat 11:30am and 5pm, Sun 11am, per the maker's site as of the accessed date).
 make_your_own:
   open_source: null
   hardware_url: null
@@ -45,14 +45,16 @@ links:
 - label: www.bigfuckingbadge.com
   url: https://www.bigfuckingbadge.com
   kind: store
+  archived: https://web.archive.org/web/20260729001940/https://www.bigfuckingbadge.com/
 - label: gitlab.com/hexum-public-share/bfb/dc34/public/badge/portal-badge
   url: https://gitlab.com/hexum-public-share/bfb/dc34/public/badge/portal-badge
   kind: repo
 images:
 - file: assets/images/badges/dc34/portal-badge/7159c6717c.png
-  source: "https://www.bigfuckingbadge.com"
-  credit: "BigFuckingBadge"
-  caption: "DC34 PORTAL badge, Companion Cube shaped"
+  source: https://www.bigfuckingbadge.com
+  credit: BigFuckingBadge
+  caption: DC34 PORTAL badge, Companion Cube shaped
+  archived: https://web.archive.org/web/20260729001940/https://www.bigfuckingbadge.com/
 contact:
   discord: Hexum064
   emails:
@@ -68,14 +70,15 @@ sources:
   listing: New
 - kind: url
   url: https://www.bigfuckingbadge.com
-  title: "BIGFUCKINGBADGE.COM — Defcon 34 Badges and SAOs"
+  title: BIGFUCKINGBADGE.COM — Defcon 34 Badges and SAOs
   accessed: '2026-09-06'
-  note: "Maker's own presale page: confirms shape (Companion Cube), size (14x14 in), price ($120 presale / $150 at con through Hacker Warehouse), touch activation, games/sounds from Portal, easter eggs, limited quantity, BadgeLife Village drop times, and the companion PORTAL Gun SAO ($20)."
+  note: 'Maker''s own presale page: confirms shape (Companion Cube), size (14x14 in), price ($120 presale / $150 at con through Hacker Warehouse), touch activation, games/sounds from Portal, easter eggs, limited quantity, BadgeLife Village drop times, and the companion PORTAL Gun SAO ($20).'
+  archived: https://web.archive.org/web/20260729001940/https://www.bigfuckingbadge.com/
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-06'
-  notes: 'Maker''s own site confirmed shape, size, price, features, and distribution. The linked GitLab repo would not render its README via fetch/curl (JS-rendered page with no accessible content), so no confirmation of open-source status, MCU, or LEDs was found; those fields are left empty. No independent (non-maker) coverage found. Quantity is described only as "limited" with no number given.'
+  notes: Maker's own site confirmed shape, size, price, features, and distribution. The linked GitLab repo would not render its README via fetch/curl (JS-rendered page with no accessible content), so no confirmation of open-source status, MCU, or LEDs was found; those fields are left empty. No independent (non-maker) coverage found. Quantity is described only as "limited" with no number given.
 last_modified_date: '2026-09-06'
 ---
 

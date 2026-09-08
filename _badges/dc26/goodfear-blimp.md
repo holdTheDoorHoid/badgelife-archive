@@ -69,10 +69,10 @@ sources:
   accessed: '2026-09-08'
   note: 'Confirmed the item exists and pulled its description: a Goodyear-Blimp-shaped lanyard badge, ~7 inches across, several hundred LEDs, hardware complete but firmware never finished before the con; maker is Chris Gammell (@Chris_Gammell), who also built a companion "This is Not a Camera" surveillance-camera add-on and handed out boards of that add-on at DC26. Source is the only coverage found; no maker-run page, store, or repo for this specific badge turned up in two searches.'
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-08'
-  notes: 'Only one source found (the Hackaday DC26 roundup); no Chris Gammell blog post, Hackaday.io project, GitHub repo, or storefront listing for the blimp badge specifically turned up. His personal site (chrisgammell.com, "Chris Gammell''s Analog Life") exists but a targeted search did not surface a post about this badge. Status set to cancelled/not_released because Hackaday explicitly says the firmware was never finished and the hardware never became a working badge; it is unclear whether any assembled units were ever distributed. LED count, MCU, and price/quantity are not stated anywhere found and are left empty rather than guessed. "GoodFear" appears to be the maker''s own name for the project, unrelated to the goodfear.com creative-agency site (a different person) that turned up in search.'
+  notes: 'Fact-check pass (2026-09-08): re-fetched the Hackaday article directly and every non-empty field and factual sentence in this entry is supported verbatim by it (shape/size/~7in/several hundred LEDs, firmware never finished though hardware complete, lanyard-mounted, maker Chris Gammell / @Chris_Gammell, companion "This is Not a Camera" add-on handed out at DC26). A repeat web search for "Chris Gammell GoodFear Blimp DEF CON 26" still surfaced no second source, so confidence stays low even though nothing was found to be wrong. The saved image (570b18dce8.jpg) exists on disk. Twitter/X profile link could not be independently re-verified (x.com blocks automated fetches), but the handle itself is stated in the Hackaday article, which is sufficient sourcing. Status set to cancelled/not_released because Hackaday explicitly says the firmware was never finished and the hardware never became a working badge. LED count, MCU, and price/quantity remain correctly left empty; nothing found states them.'
 last_modified_date: '2026-09-08'
 ---
 

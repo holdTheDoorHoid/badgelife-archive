@@ -47,6 +47,7 @@ links:
 - label: www.bigfuckingbadge.com
   url: https://www.bigfuckingbadge.com
   kind: store
+  archived: https://web.archive.org/web/20260729001940/https://www.bigfuckingbadge.com/
 - label: github.com/Hexum064/portal-gun-sao-dc33
   url: https://github.com/Hexum064/portal-gun-sao-dc33
   kind: repo
@@ -54,14 +55,16 @@ links:
   url: https://github.com/Hexum064/portal-gun-sao-dc33-code
   kind: repo
 images:
-  - file: assets/images/badges/dc34/portal-gun-sao/ff0c1a8aa0.jpg
-    source: "https://www.bigfuckingbadge.com"
-    credit: "BigFuckingBadge"
-    caption: "PORTAL Gun SAO, blue portal mode"
-  - file: assets/images/badges/dc34/portal-gun-sao/a808413672.jpg
-    source: "https://www.bigfuckingbadge.com"
-    credit: "BigFuckingBadge"
-    caption: "PORTAL Gun SAO, orange portal mode"
+- file: assets/images/badges/dc34/portal-gun-sao/ff0c1a8aa0.jpg
+  source: https://www.bigfuckingbadge.com
+  credit: BigFuckingBadge
+  caption: PORTAL Gun SAO, blue portal mode
+  archived: https://web.archive.org/web/20260729001940/https://www.bigfuckingbadge.com/
+- file: assets/images/badges/dc34/portal-gun-sao/a808413672.jpg
+  source: https://www.bigfuckingbadge.com
+  credit: BigFuckingBadge
+  caption: PORTAL Gun SAO, orange portal mode
+  archived: https://web.archive.org/web/20260729001940/https://www.bigfuckingbadge.com/
 contact:
   discord: Hexum064
   emails:
@@ -76,25 +79,15 @@ sources:
   listing: New
 - kind: url
   url: https://www.bigfuckingbadge.com
-  title: "BIGFUCKINGBADGE.COM — Defcon 34 Badges and SAOs"
+  title: BIGFUCKINGBADGE.COM — Defcon 34 Badges and SAOs
   accessed: '2026-09-06'
-  note: "Maker's own DC34 presale page: confirms product name 'PORTAL Gun SAO', $20 price, blue/orange/off modes, that it pairs with the DC34 PORTAL badge, presale status (limited quantities), and BadgeLife Village drop times. Source of both product photos."
+  note: 'Maker''s own DC34 presale page: confirms product name ''PORTAL Gun SAO'', $20 price, blue/orange/off modes, that it pairs with the DC34 PORTAL badge, presale status (limited quantities), and BadgeLife Village drop times. Source of both product photos.'
+  archived: https://web.archive.org/web/20260729001940/https://www.bigfuckingbadge.com/
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-06'
-  notes: >-
-    Maker's own presale page confirms the product name, price, and lighting-mode
-    functions, but does not disclose MCU, LED part, quantity made, or SAO header
-    version, so those fields are left empty rather than guessed. The two GitHub
-    links from the sheet (Hexum064/portal-gun-sao-dc33 and
-    Hexum064/portal-gun-sao-dc33-code) both 404 and do not appear in Hexum064's
-    public repo list as of this check; kept in links per the "leave what's there"
-    rule but they look stale or mistyped (possibly a prior year's private repo,
-    or a naming holdover from a DC33 prototype that was never made public).
-    No open-source hardware/firmware could be verified, so make_your_own fields
-    are left null. Companion item dc34-portal-badge (the DC34 PORTAL badge) is
-    a separate archive entry for the same maker/event.
+  notes: Maker's own presale page confirms the product name, price, and lighting-mode functions, but does not disclose MCU, LED part, quantity made, or SAO header version, so those fields are left empty rather than guessed. The two GitHub links from the sheet (Hexum064/portal-gun-sao-dc33 and Hexum064/portal-gun-sao-dc33-code) both 404 and do not appear in Hexum064's public repo list as of this check; kept in links per the "leave what's there" rule but they look stale or mistyped (possibly a prior year's private repo, or a naming holdover from a DC33 prototype that was never made public). No open-source hardware/firmware could be verified, so make_your_own fields are left null. Companion item dc34-portal-badge (the DC34 PORTAL badge) is a separate archive entry for the same maker/event.
 last_modified_date: '2026-09-06'
 ---
 
