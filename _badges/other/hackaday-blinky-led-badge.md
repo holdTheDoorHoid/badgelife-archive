@@ -14,7 +14,7 @@ makers:
 - name: Lutetium
   url: https://hackaday.io/lutetium
 summary: A learn-to-solder wearable lapel pin with the Hackaday skull-and-wrenches (Jolly Wrencher) artwork, using two self-blinking slow-fade RGB LEDs, a slide switch and a CR1220 coin cell, derived from the earlier Tindie Blinky LED Badge circuit.
-functions: 'Two self-blinking RGB LEDs slow-fade through colors for a "sparkly eyed" effect; a slide switch turns the badge on and off.'
+functions: Two self-blinking RGB LEDs slow-fade through colors for a "sparkly eyed" effect; a slide switch turns the badge on and off.
 look:
   colors: []
   shape: skull
@@ -41,7 +41,7 @@ get_one:
   distribution: []
   where: ''
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/bbenchoff/Hackaday-Pin
   firmware_url: null
   eda_tool: Eagle
@@ -52,6 +52,7 @@ links:
 - label: hackaday.io/project/161358-hackaday-blinky-led-badge
   url: https://hackaday.io/project/161358-hackaday-blinky-led-badge
   kind: hackaday
+  archived: https://web.archive.org/web/20260907110647/https://hackaday.io/project/161358-hackaday-blinky-led-badge
 - label: hackaday.io/project/161358/instructions
   url: https://hackaday.io/project/161358/instructions
   kind: hackaday
@@ -60,13 +61,15 @@ links:
   kind: hackaday
 images:
 - file: assets/images/badges/other/hackaday-blinky-led-badge/cbb9f7ac21.jpg
-  source: "https://hackaday.io/project/161358-hackaday-blinky-led-badge"
-  credit: "Brian Benchoff"
-  caption: "Assembled Hackaday Blinky LED Badge lapel pin"
+  source: https://hackaday.io/project/161358-hackaday-blinky-led-badge
+  credit: Brian Benchoff
+  caption: Assembled Hackaday Blinky LED Badge lapel pin
+  archived: https://web.archive.org/web/20260907110647/https://hackaday.io/project/161358-hackaday-blinky-led-badge
 - file: assets/images/badges/other/hackaday-blinky-led-badge/9e173bde3e.jpg
-  source: "https://hackaday.io/project/161358-hackaday-blinky-led-badge"
-  credit: "Brian Benchoff"
-  caption: "Hackaday Blinky LED Badge kit parts and assembly"
+  source: https://hackaday.io/project/161358-hackaday-blinky-led-badge
+  credit: Brian Benchoff
+  caption: Hackaday Blinky LED Badge kit parts and assembly
+  archived: https://web.archive.org/web/20260907110647/https://hackaday.io/project/161358-hackaday-blinky-led-badge
 contact: {}
 notes: []
 status: released
@@ -81,6 +84,7 @@ sources:
   title: Hackaday Blinky LED Badge | Hackaday.io
   accessed: '2026-09-07'
   note: Project overview - creators (Benchoff and Lutetium), creation date (09/19/2018), kit contents (slide switch, pin and clasp, battery holder, CR1220 battery), design derived from Tindie Blinky LED Badge; source of og:image photos.
+  archived: https://web.archive.org/web/20260907110647/https://hackaday.io/project/161358-hackaday-blinky-led-badge
 - kind: url
   url: https://hackaday.io/project/161358/instructions
   title: Instructions | Hackaday Blinky LED Badge | Hackaday.io

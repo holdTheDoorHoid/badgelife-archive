@@ -48,6 +48,7 @@ links:
 - label: Simple Add-ons (SAO) — Hackaday.io
   url: https://hackaday.io/project/175182-simple-add-ons-sao
   kind: hackaday
+  archived: https://web.archive.org/web/20260523064211/https://hackaday.io/project/175182-simple-add-ons-sao
 - label: Project page (Hackaday.io)
   url: https://hackaday.io/project/205207-soot-sprite-simple-add-on-sao
   kind: project
@@ -82,6 +83,7 @@ sources:
   title: Simple Add-ons (SAO) — Hackaday.io
   accessed: '2026-09-07'
   note: Davedarko's umbrella Hackaday.io page for the SAO standard and his badge collection; does not mention the Ghibli/Soot Sprites design specifically, but is the maker's own reference page for the standard this board uses.
+  archived: https://web.archive.org/web/20260523064211/https://hackaday.io/project/175182-simple-add-ons-sao
 research:
   status: verified
   confidence: low
