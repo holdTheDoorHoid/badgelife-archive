@@ -45,11 +45,11 @@ links:
   url: https://saintcon.zip/SAINTCON_2015-2022/archive.saintcon.org/2022/saintcon.org/wp-content/uploads/2022/10/MiniBadges-of-2022-v2.pdf
   kind: doc
 images:
-  - file: assets/images/badges/saintcon-2022/uetn-sponsor-badge/fdb5826685.jpg
+  - file: assets/images/badges/saintcon-2022/uetn-sponsor-badge/ffb1e11097.jpg
     source: "https://saintcon.zip/SAINTCON_2015-2022/archive.saintcon.org/2022/saintcon.org/wp-content/uploads/2022/10/MiniBadges-of-2022-v2.pdf"
     credit: "Jup1t3r / UETN"
     caption: "Front of the UETN Sponsor minibadge, showing the UETN mountain logo"
-  - file: assets/images/badges/saintcon-2022/uetn-sponsor-badge/ffb1e11097.jpg
+  - file: assets/images/badges/saintcon-2022/uetn-sponsor-badge/fdb5826685.jpg
     source: "https://saintcon.zip/SAINTCON_2015-2022/archive.saintcon.org/2022/saintcon.org/wp-content/uploads/2022/10/MiniBadges-of-2022-v2.pdf"
     credit: "Jup1t3r / UETN"
     caption: "Back of the UETN Sponsor minibadge, with a QR code to uetn.org"
@@ -70,10 +70,10 @@ sources:
   accessed: '2026-09-10'
   note: 'Confirmed the badge exists, designer (Jup1t3r), description, distribution method (find a UETN employee), difficulty (beginner) and rarity (rare) rating, assembly steps (LEDs, one resistor, 4x 2-position headers), and pulled the front/back photos from the PDF page image.'
 research:
-  status: researched
+  status: verified
   confidence: medium
   last_checked: '2026-09-10'
-  notes: 'Confirmed via the official SAINTCON 2022 MiniBadge Assembly Guide PDF (the entry''s only source, extracted with pdftotext/pdfimages since the page is a large scanned PDF that a generic web fetch could not read as text). Could not find a maker storefront, repo, or third-party coverage specific to this badge, so mcu/leds/tech.sao_version/quantity/eda_tool are left null or unknown beyond what the guide states (it is a passive LED board with no MCU, per its assembly instructions listing only LEDs, a resistor and headers). "Availability" is read as a free trade-only give-out (find a UETN employee), not a store sale, so no price_usd. LED count and shape/color reading are taken directly from the two page-scan photos, not from any spec sheet, so left approximate (see images).'
+  notes: 'Fact-check pass (2026-09-10): re-fetched the cited PDF and re-extracted page 39 with pdftotext/pdfimages/pdftoppm; every non-empty field and body sentence checks out against that page (designer Jup1t3r, description, "finding a UETN employee and interacting with them," difficulty BEGINNER, rarity RARE, assembly of LEDs + one resistor + 4x 2-position headers, front side first). One error found and fixed: the two images'' front/back captions were swapped relative to their actual file content (fdb5826685.jpg is the QR-code back, ffb1e11097.jpg is the mountain-logo front, per the rendered page 39 layout, which shows the logo image on top labeled front-first and the QR image below labeled back) - captions and list order corrected, no files changed. Could not find a maker storefront, repo, or third-party coverage specific to this badge (a supplementary search turned up only badge.gallery/minibadge.wiki aggregator pages citing the same PDF), so mcu/leds/tech.sao_version/quantity/eda_tool remain null/unknown beyond what the guide states (a passive LED board with no MCU, per its assembly instructions). "Availability" is read as a free trade-only give-out (find a UETN employee), not a store sale, so no price_usd.'
 last_modified_date: '2026-09-10'
 ---
 

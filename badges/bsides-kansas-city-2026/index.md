@@ -5,7 +5,7 @@ parent: Badge Archive
 has_children: true
 has_toc: false
 nav_order: 7974
-nav_exclude: false
+nav_exclude: true
 event: bsides-kansas-city-2026
 ---
 # BSidesKC 2026 (unofficial)

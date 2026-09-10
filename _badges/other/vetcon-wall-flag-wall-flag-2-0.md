@@ -39,6 +39,7 @@ links:
 - label: shop.threathunter.ai/collections/vetcon/products/vetcon-wall-flag
   url: https://shop.threathunter.ai/collections/vetcon/products/vetcon-wall-flag
   kind: store
+  archived: https://web.archive.org/web/20251012070831/https://shop.threathunter.ai/collections/vetcon/products/vetcon-wall-flag
 images: []
 contact: {}
 notes:
@@ -50,11 +51,13 @@ sources:
   title: Vetcon Wall Flag / Wall Flag 2.0
   accessed: '2026-09-07'
   note: 'Found by the archive''s discovery sweep (angle: sheet-research-spotted); event read as ''unknown''.'
+  archived: https://web.archive.org/web/20251012070831/https://shop.threathunter.ai/collections/vetcon/products/vetcon-wall-flag
 - kind: url
   url: https://shop.threathunter.ai/collections/vetcon/products/vetcon-wall-flag
   title: VETCON Wall Flag - shop.threathunter.ai
   accessed: '2026-09-07'
-  note: 'Confirms this is a 36"x60" polyester knit fabric wall flag ($25), not an electronic badge or SAO - merch item, no chip/LEDs.'
+  note: Confirms this is a 36"x60" polyester knit fabric wall flag ($25), not an electronic badge or SAO - merch item, no chip/LEDs.
+  archived: https://web.archive.org/web/20251012070831/https://shop.threathunter.ai/collections/vetcon/products/vetcon-wall-flag
 research:
   status: researched
   confidence: high

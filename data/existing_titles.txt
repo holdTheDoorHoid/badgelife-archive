@@ -51,7 +51,7 @@ bsides-cape-town-2017-black-flux-capacitor-esp-badge-bsides-cape-town-2017 | Bla
 bsides-cape-town-2017-red-cc1111-rfcat-rf-badge-bsides-cape-town-2017 | Red CC1111 RFCat RF badge (BSides Cape Town 2017) | BSides Cape Town 2017 event team
 bsides-cape-town-2019-bsides-cape-town-2019-badge | BSides Cape Town 2019 badge | BSides Cape Town event team
 bsides-cdmx-2024-badge-bsides-cdmx-2024 | Badge bsides CDMX 2024 | Electronic Cats
-bsides-cdmx-2025-bsides-cdmx-2025-badge | BSides CDMX 2025 Badge | badge-gallery / BSides CDMX community
+bsides-cdmx-2025-bsides-cdmx-2025-badge | Security BSides CDMX 2025 Badge | Electronic Cats
 bsides-charleston-2019-bsides-charleston-lock-sao | BSides Charleston Lock SAO | Badge Pirates
 bsides-charleston-2022-bsides-charleston-2022-badge | BSides Charleston 2022 Badge | Badge Pirates
 bsides-cheltenham-2024-bsides-cheltenham-2024-ufo-badge | BSides Cheltenham 2024 UFO Badge | Punk Security
@@ -70,7 +70,6 @@ bsides-kansas-city-2021-bsides-kc-2021-badge-w-stand | BSides KC 2021 Badge w/ S
 bsides-kansas-city-2023-bsideskc-2023-attendee-elect-badge | BSidesKC 2023 Attendee Elect Badge | BadgePirates
 bsides-kansas-city-2023-bsideskc-2023-bsides23 | BSidesKC 2023 (BSides23) | BadgePirates
 bsides-kansas-city-2024-bsideskc-2024-bsides24 | BSidesKC 2024 (BSides24) | BadgePirates
-bsides-kansas-city-2026-bsidekc25-26-electronic-badge | BSideKC25/26 Electronic Badge | BadgePirates
 bsides-las-vegas-2017-tikibadge | TikiBadge | r3dct3d (redacted)
 bsides-nashville-2025-bsides-nashville-2025-electronic-badge | BSides Nashville 2025 Electronic Badge | Fox Pick
 bsides-nashville-2026-bsides-nashville-2026-conference-badge | BSides Nashville 2026 Conference Badge | Camille Louise
@@ -113,8 +112,7 @@ bsides-st-louis-2023-bsidesstl-2023-bsidesstl-23 | BSidesSTL 2023 (BSidesSTL 23)
 bsides-tallinn-2022-bsides-tallinn-2022-legacy-diy-soldering-badge | BSides Tallinn 2022 Legacy DIY Soldering Badge | Konstantin Shibin / BSides Tallinn
 bsides-tallinn-2025-bsides-badge-bsides-tallinn | BSides 25 Badge | BSides Tallinn
 bsides-tampa-2018-bsides-tampa-2018-badge | BSides Tampa 2018 Badge | BSides Tampa / Tampa Bay (ISC)2 chapter
-bsides-tampa-2026-bsides-tampa-2026-badge-uber-badge-challenge | BSides Tampa 2026 Badge / Uber Badge Challenge | BSides Tampa
-bsides-tampa-2026-bsides-tampa-2026-badge-unlucky-13 | BSides Tampa 2026 Badge (Unlucky 13) | Joshua Grose
+bsides-tampa-2026-bsides-tampa-2026-badge-unlucky-13 | BSides Tampa 2026 Badge (Unlucky 13) | Joshua Grose, c0ldbru
 bsides-vancouver-2019-bsides-vancouver-2019-badge | BSides Vancouver 2019 Badge | TwinkleTwinkie
 bsides-vancouver-2025-b-sides-vancouver-2025-badge | B|Sides Vancouver 2025 Badge | BSides Vancouver community
 bsides-vancouver-2025-bsides-vancouver-2025-badge | BSides Vancouver 2025 Badge | Nick Maltchev (maltchev)
@@ -1525,23 +1523,22 @@ saintcon-2016-saintcon-2016-badge | SAINTCON 2016 Badge | SAINTCON (badge team)
 saintcon-2017-a-luke-official-minibadge | A - Luke (official minibadge) | lukejenkins
 saintcon-2017-dc801-minibadge | DC801 Minibadge | snurkle engineering / hamster
 saintcon-2017-dc801-saintcon2017-minibadge | DC801-SAINTCON2017-Minibadge | hamster
-saintcon-2017-hackers-challenge-official-minibadge | Hackers Challenge (official minibadge) | unknown
+saintcon-2017-hackers-challenge-official-minibadge | Hackers Challenge (official minibadge) | SAINTCON
 saintcon-2017-hhv-protoboard-official-minibadge | HHV - Protoboard (official minibadge) | unknown
-saintcon-2017-hitbutt-minibadge | HITBUTT Minibadge | compukidmike
+saintcon-2017-hitbutt-minibadge | HITB Minibadge | compukidmike
 saintcon-2017-lpv-lock-pick-official-minibadge | LPV - Lock Pick (official minibadge) | unknown
 saintcon-2017-saintcon-2017-208-mini-badge | SAINTCON 2017 208 Mini Badge | phrackd
 saintcon-2017-saintcon-2017-badge-raspberry-pi-zero-w | SAINTCON 2017 Badge (Raspberry Pi Zero W) | lukejenkins / SAINTCON
-saintcon-2017-speaker-official-minibadge | Speaker (official minibadge) | unknown
-saintcon-2017-staff-block-s-official-minibadge | Staff - Block S (official minibadge) | unknown
+saintcon-2017-speaker-official-minibadge | Speaker (official minibadge) | SAINTCON
+saintcon-2017-staff-block-s-official-minibadge | Staff - Block S (official minibadge) | SAINTCON
 saintcon-2017-tfht-alien-head-mini-badge | TFHT - Alien Head Mini-Badge | Sodium-Hydrogen
 saintcon-2017-vault-key-hole-official-minibadge | Vault - Key Hole (official minibadge) | unknown
-saintcon-2017-x-jupiter-official-minibadge | X - Jupiter (official minibadge) | Jup1t3r
+saintcon-2017-x-jupiter-official-minibadge | X - Jupiter | 
 saintcon-2018-bashninja-minibadge-saintcon-2018 | bashNinja minibadge (SAINTCON 2018) | bashNinja
 saintcon-2018-hakinthebox-com-minibadge | hakinthebox.com minibadge | hakinthebox.com
 saintcon-2018-professor-plum-minibadge-saintcon-2018 | Professor Plum minibadge (SAINTCON 2018) | Professor Plum
 saintcon-2018-saintcon-2018-badge-compukidmike | SAINTCON 2018 badge (compukidmike) | compukidmike
 saintcon-2019-saintcon-2019-badge-compukidmike | SAINTCON 2019 Enigma Badge | compukidmike, _bashNinja, Sodium_Hydrogen, risenrigel
-saintcon-2019-tubecube-minibadge | TubeCube Minibadge | hamster (cavehamster)
 saintcon-2020-saintcon-2020-badge-compukidmike | SAINTCON 2020 badge (compukidmike) | compukidmike
 saintcon-2021-compunet | COMPUNET | Jup1t3r
 saintcon-2021-eduroam-minibadge | Eduroam minibadge | unknown
@@ -1564,16 +1561,16 @@ saintcon-2021-store-badge | STORE BADGE | Jup1t3r
 saintcon-2021-the-vault | THE VAULT | Jup1t3r
 saintcon-2021-tin-foil-hat-talks | TIN FOIL HAT TALKS | Jup1t3r
 saintcon-2021-usa-flag | USA FLAG | Jup1t3r
-saintcon-2021-wicys-minibadge | WiCyS minibadge | unknown
+saintcon-2021-wicys-minibadge | WiCyS Badge | Jup1t3r
 saintcon-2022-appsec-community-badge | APPSEC COMMUNITY BADGE | Jup1t3r
-saintcon-2022-arctic-wolf-minibadge-2022 | ARCTIC WOLF MINIBADGE (2022) | Jup1t3r
+saintcon-2022-arctic-wolf-minibadge-2022 | ARCTIC WOLF MINIBADGE | Jup1t3r
 saintcon-2022-baby-yoda-badge | BABY YODA BADGE | Mr. & Mrs bfcoder
 saintcon-2022-bear-jump-badge | BEAR JUMP BADGE | B3rJmp
 saintcon-2022-checking-logs-badge | CHECKING LOGS BADGE | RuShan & hollyhacker
 saintcon-2022-checkpoint-minibadge-2022 | CHECKPOINT MINIBADGE (2022) | Jup1t3r
 saintcon-2022-circuit-assembly-badge | CIRCUIT ASSEMBLY BADGE | Jup1t3r
-saintcon-2022-compukidmike-badge-minibadge | COMPUKIDMIKE Badge (minibadge) | CompuKidMike
-saintcon-2022-dragonfly-badge | DragonFly Badge | Z1Dragonfly
+saintcon-2022-compukidmike-badge-minibadge | CompuKidMike Personal Minibadge | CompuKidMike
+saintcon-2022-dragonfly-badge | DragonFly | Z1Dragonfly
 saintcon-2022-fluxcapacitor-minibadge | FluxCapacitor-Minibadge | selftaught
 saintcon-2022-hack-minibadges | HACK MINIBADGES | Jup1t3r
 saintcon-2022-hackers-challenge-badge | HACKERS CHALLENGE BADGE | Zevlag
@@ -1586,9 +1583,9 @@ saintcon-2022-honki-badge | HONKI Badge | C0n4rt15t & CompuKidMike
 saintcon-2022-infobooth-badge | INFOBOOTH BADGE | SHIFTY
 saintcon-2022-iot-community-minibadge | IOT COMMUNITY MINIBADGE | Jup1t3r
 saintcon-2022-killer-whale-badge | Killer Whale Badge | Z2Orca
-saintcon-2022-kitt-badge | KITT Badge | Sh33pr0ck
+saintcon-2022-kitt-badge | KITT BADGE | Sh33pr0ck
 saintcon-2022-leadership-badge | LEADERSHIP BADGE | Handsomkab & Jup1t3r
-saintcon-2022-learn-2-solder-badge | LEARN 2 SOLDER BADGE | r0gu3bull3t
+saintcon-2022-learn-2-solder-badge | I Learned to Solder | Katie Lunceford (r0gu3bull3t)
 saintcon-2022-lockpicking-badge | LOCKPICKING BADGE | Redactd
 saintcon-2022-los-santos-challenge | LOS SANTOS CHALLENGE | Jup1t3r
 saintcon-2022-minibadge-dice-saintcon-d6-roller-minibadge | minibadge-dice — SaintCon D6 roller minibadge | Professor-plum
@@ -1598,26 +1595,25 @@ saintcon-2022-people-badge | PEOPLE BADGE | Jup1t3r
 saintcon-2022-portal-2-badge | PORTAL 2 BADGE | bfcoder
 saintcon-2022-private-lte-badge | PRIVATE LTE BADGE | Jup1t3r
 saintcon-2022-rad-badge-saintcon-2022-minibadge | rad-badge — Saintcon 2022 Minibadge | then3rd
-saintcon-2022-ray-man-badge-2022-collab | RAY-MAN Badge (2022 collab) | CompuKidMike & Ray-Man
-saintcon-2022-red-team-minibadge-2022 | RED TEAM MINIBADGE (2022) | Jup1t3r
-saintcon-2022-rfid-nfc-community-badge-2022 | RFID/NFC Community Badge (2022) | Jup1t3r
+saintcon-2022-ray-man-badge-2022-collab | RAY-MAN Badge | CompuKidMike & Ray-Man
+saintcon-2022-red-team-minibadge-2022 | Red Team MiniBadge | Jup1t3r
+saintcon-2022-rfid-nfc-community-badge-2022 | RFID NFC Community Badge | Jup1t3r
 saintcon-2022-saintcon-2022-badge-compukidmike | SAINTCON 2022 badge (compukidmike) | compukidmike
 saintcon-2022-saintcon-2022-minibadge-extension-cover | Saintcon 2022 Minibadge Extension Cover | (Thingiverse user, uploader of thing:5573684)
 saintcon-2022-saintcon-2022-official-attendee-badge | SAINTCON 2022 official attendee badge | compukidmike
-saintcon-2022-scavenger-hunt-badge-2022 | SCAVENGER HUNT BADGE (2022) | Jup1t3r
+saintcon-2022-scavenger-hunt-badge-2022 | Scavenger Hunt Badge (2022) | Jup1t3r
 saintcon-2022-smd-challenge-badge | SMD Challenge BADGE | Jup1t3r
 saintcon-2022-store-minibadge | STORE MINIBADGE | Pali
-saintcon-2022-tamper-evident-badge | Tamper Evident BADGE | Jup1t3r
+saintcon-2022-tamper-evident-badge | Tamper Evident Badge | Jup1t3r
 saintcon-2022-twss-badge | TWSS Badge | Katie, Berly, Lynsey
-saintcon-2022-uetn-sponsor-badge | UETN SPONSOR BADGE | Jup1t3r
+saintcon-2022-uetn-sponsor-badge | UETN Sponsor Badge | Jup1t3r
 saintcon-2022-undisclosed-badge | UNDISCLOSED BADGE | Sh33pr0ck
-saintcon-2022-unikitty-badge | UniKitty Badge | Z3Thunder
-saintcon-2022-utah-home-labs-badge | UTAH HOME LABS BADGE | bfcoder, klipper, v0rtex
+saintcon-2022-unikitty-badge | UniKitty | Z3Thunder
 saintcon-2022-utah-state-university-minibadge | Utah State University Minibadge | Ay.Aitch
 saintcon-2022-uvu-minibadge | UVU Minibadge | Brian Peterson
 saintcon-2022-valcom-sponsor-badge | VALCOM SPONSOR BADGE | Jup1t3r
 saintcon-2022-vault-badge-2022 | VAULT BADGE (2022) | Jup1t3r
-saintcon-2022-vent-event-badge-2022 | VENT EVENT BADGE (2022) | Jup1t3r
+saintcon-2022-vent-event-badge-2022 | VENT EVENT BADGE | Jup1t3r
 saintcon-2022-widow-badge | WIDOW BADGE | Jup1t3r
 saintcon-2023-ai-community-badge | AI Community Badge | SHIFTY
 saintcon-2023-application-security-challenge-badge | Application Security Challenge Badge | SHIFTY
@@ -1717,7 +1713,7 @@ saintcon-2024-personal-berlymib-minibadge | BerlyMIB minibadge | Berly
 saintcon-2024-reaper-s-bones-badge | Reaper's Bones Badge | Mister X
 saintcon-2024-rfid-nfc-2024-minibadge | RFID/NFC 2024 minibadge | ICEMAN, GOBO42
 saintcon-2024-saintcon-2024-badge-compukidmike | SAINTCON 2024 badge (compukidmike) | compukidmike
-saintcon-2024-saintcon-2024-minibadge-expansion-board-cover | SAINTCON 2024 Minibadge Expansion Board Cover | unconfirmed (Printables user)
+saintcon-2024-saintcon-2024-minibadge-expansion-board-cover | SAINTCON 2024 Minibadge Expansion Board Cover | unconfirmed (likely compukidmike; see research notes)
 saintcon-2024-saintsays-minibadge | SaintSays MiniBadge | durkinza (Zane Durkin)
 saintcon-2024-sea-of-thieves-minibadge | Sea of Thieves Minibadge | Mister X
 saintcon-2024-space-community-minibadge-2024 | Space Community minibadge (2024) | SHIFTY

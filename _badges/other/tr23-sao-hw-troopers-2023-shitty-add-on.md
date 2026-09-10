@@ -38,7 +38,7 @@ get_one:
   distribution: []
   where: ''
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/jeffmakes/tr23-sao-hw
   firmware_url: null
   eda_tool: KiCad
@@ -70,22 +70,25 @@ sources:
   url: https://raw.githubusercontent.com/jeffmakes/tr23-sao-hw/main/r1/src/tr23-sao-r1.csv
   title: tr23-sao-hw — r1 factory BOM (KiCad-generated)
   accessed: '2026-09-07'
-  note: 'Confirms the only factory-placed part is U1, a Kinetic Technologies KTD2052AEVAA-TR RGB LED driver in a DFN-8 package; BOM source path shows the local project folder was "2023/tr23-badge/repos/tr23-sao-hw", tying the project to a 2023 badge effort.'
+  note: Confirms the only factory-placed part is U1, a Kinetic Technologies KTD2052AEVAA-TR RGB LED driver in a DFN-8 package; BOM source path shows the local project folder was "2023/tr23-badge/repos/tr23-sao-hw", tying the project to a 2023 badge effort.
 - kind: url
   url: https://github.com/jeffmakes
   title: jeffmakes — GitHub profile
   accessed: '2026-09-07'
-  note: 'Confirms jeffmakes also published hardware for the Troopers19 badge (tr19-badge-hw-public) and a separate "fuccs-shitty-addon-hw" SAO, i.e. a track record of making Troopers conference badge hardware, supporting the Troopers 2023 event attribution. No mention of tr23-sao specifically, and no personal site or blog listed.'
+  note: Confirms jeffmakes also published hardware for the Troopers19 badge (tr19-badge-hw-public) and a separate "fuccs-shitty-addon-hw" SAO, i.e. a track record of making Troopers conference badge hardware, supporting the Troopers 2023 event attribution. No mention of tr23-sao specifically, and no personal site or blog listed.
+  archived: https://web.archive.org/web/20260211045445/https://github.com/jeffmakes
 - kind: url
   url: https://www.troopers.de/troopers23/
   title: TROOPERS23 conference page
   accessed: '2026-09-07'
-  note: 'Checked for any mention of a conference badge or SAO; the page covers dates, training and CFP only and does not discuss badges or their makers.'
+  note: Checked for any mention of a conference badge or SAO; the page covers dates, training and CFP only and does not discuss badges or their makers.
+  archived: https://web.archive.org/web/20260819165414/https://troopers.de/troopers23/
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'No prose write-up or announcement page was found for this SAO — everything here is inferred from the maker''s own GitHub repository (jeffmakes/tr23-sao-hw): its description ("Shitty Add-On 2023"), an included ERNW logo (ERNW organizes the Troopers security conference in Heidelberg), and an internal build-folder path reading ".../2023/tr23-badge/repos/tr23-sao-hw" in the generated BOM. The `_data/events.yml` vocabulary has no Troopers event id yet (checked, none found for "troopers"), so `event` is left as `other`; if an id such as `troopers-2023` is ever added, this entry should move under it. Confirmed: it is a 6-pin-header-style RGB SAO where only the KTD2052 I2C LED driver chip is factory-assembled and the rest (LEDs, resistors) is meant to be hand-soldered by the recipient — a "build it yourself" kit rather than a finished blinky. Not found: price, quantity made, how/whether it was distributed to Troopers 2023 attendees, SAO header pin count, a license for the hardware files (no LICENSE file in the repo), and any photograph of an assembled unit. A Nintendo Game Boy product photo and a Wii-nunchuck-connector 3D model sit in the repo''s design folder as apparent visual/mechanical references (theme/fit checks), not photos of the finished board, so no images were saved for this entry.'
+  notes: 'No prose write-up or announcement page was found for this SAO — everything here is inferred from the maker''s own GitHub repository (jeffmakes/tr23-sao-hw): its description ("Shitty Add-On 2023"), an included ERNW logo (ERNW organizes the Troopers security conference in Heidelberg), and an internal build-folder path reading ".../2023/tr23-badge/repos/tr23-sao-hw" in the generated BOM. The `_data/events.yml` vocabulary has no Troopers event id yet (checked, none found for "troopers"), so `event` is left as `other`; if an id such as `troopers-2023` is ever added, this entry should move under it. Confirmed: it is a 6-pin-header-style RGB SAO where only the KTD2052 I2C LED driver chip is factory-assembled and the rest (LEDs, resistors) is meant to be hand-soldered by the recipient — a "build it yourself" kit rather than a finished blinky. Not found: price, quantity made, how/whether it was distributed to Troopers 2023 attendees, SAO header pin count, a license for the hardware files
+    (no LICENSE file in the repo), and any photograph of an assembled unit. A Nintendo Game Boy product photo and a Wii-nunchuck-connector 3D model sit in the repo''s design folder as apparent visual/mechanical references (theme/fit checks), not photos of the finished board, so no images were saved for this entry.'
 last_modified_date: '2026-09-07'
 ---
 

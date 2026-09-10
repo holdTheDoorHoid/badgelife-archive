@@ -63,10 +63,10 @@ sources:
   accessed: '2026-09-10'
   note: '2023 edition by maker handle "EDU-ROMEO", same description of Eduroam; confirms the line continued past 2021 but does not confirm 2021 specifics.'
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-10'
-  notes: 'Existence in 2021 is confirmed only by the badge.gallery archive page for SAINTCON 2021''s unofficial/booth minibadges, which names "Eduroam" in a list but gives no maker, image, or specs for that year. minibadge.wiki (a community-submitted catalog) has no 2021 record at all for Eduroam, only 2022 and 2023 editions with different maker handles each year and their own photos - these look like a recurring annual line rather than one fixed design, so those details were not applied to this 2021 entry. Left empty: makers.name, look.colors/shape/themes, tech.mcu/leds/display, get_one.quantity, images. Reported the 2022 and 2023 editions separately as they likely warrant their own entries.'
+  notes: 'Fact-check pass (2026-09-10): re-fetched all three cited sources and confirmed each claim. badge.gallery''s unofficial/booth minibadge page for SAINTCON 2021 lists "Eduroam" among WiCyS, USA, Gadsen, Matrix, Private LTE, CompuNet, and Radiation with booth/sponsor/contact acquisition notes, and gives no maker, image, or spec detail for it. minibadge.wiki''s 2022.json and 2023.json each carry one "EDUROAM MINIBADGE" record: 2022 by "Jup1t3r" (rarity Rare, quantityMade 0, front/back PNGs, LED+resistor soldering instructions, acquired via a UETN employee), 2023 by "EDU-ROMEO" (rarity Uncommon, quantityMade 0, own front/back PNGs and soldering steps, acquired via a "state Eduroam purveyor"). Confirmed minibadge.wiki''s 2021.json (15 entries) has no Eduroam record at all, matching the claim that 2021-specific details are unconfirmed. All non-empty fields and body sentences trace to these sources; nothing was contradicted or unsupported, so status is raised to verified despite low confidence (only a bare listing exists for the 2021 edition itself). Left empty: makers.name, look.colors/shape/themes, tech.mcu/leds/display, get_one.quantity, images - correctly, since no 2021-specific source supports them. Reported the 2022 and 2023 editions separately as they likely warrant their own entries.'
 last_modified_date: '2026-09-10'
 ---
 

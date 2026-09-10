@@ -38,7 +38,7 @@ get_one:
   availability: free
   distribution:
   - free_drop
-  where: Given out at the Arctic Wolf sponsor booth at SAINTCON 2022 (Salt Lake City, UT).
+  where: Given out at the Arctic Wolf sponsor booth at SAINTCON 2022 (Provo, UT).
 make_your_own:
   open_source: null
   hardware_url: null
@@ -74,10 +74,10 @@ sources:
   accessed: '2026-09-10'
   note: Confirmed the badge exists, its description, designer (Jup1t3r), difficulty (beginner), rarity (common), distribution (Arctic Wolf sponsor booth), LED/resistor colors, and front/back photos.
 research:
-  status: researched
+  status: verified
   confidence: medium
   last_checked: '2026-09-10'
-  notes: Only source found is the official SAINTCON 2022 Minibadge Assembly Guide itself (page 36); no separate maker page, storefront, or social post exists for this sponsor minibadge, which is typical for SAINTCON minibadges (they are distributed in person, not sold online). No quantity made or exact distribution dates are stated. No MCU/microcontroller — the "clock" mentioned in the guide is a simple oscillator/555-style timing circuit for the two LEDs, not a programmable chip; left as null since the guide does not name a specific part.
+  notes: Fact-check pass (2026-09-10) re-extracted PDF page 36 text and rendered it as an image; confirmed title, designer (Jup1t3r), summary, functions, LED colors/count, difficulty/rarity language, distribution, and that the saved front/back images match the guide's own photos. Corrected get_one.where, which stated SAINTCON 2022 was in "Salt Lake City, UT" — a websearch confirmed SAINTCON 2022 was held at the Utah Valley Convention Center in Provo, UT, not Salt Lake City; fixed to "Provo, UT". Only source found is the official SAINTCON 2022 Minibadge Assembly Guide itself (page 36); no separate maker page, storefront, or social post exists for this sponsor minibadge, which is typical for SAINTCON minibadges (they are distributed in person, not sold online). No quantity made or exact distribution dates are stated. No MCU/microcontroller — the "clock" mentioned in the guide is a simple oscillator/555-style timing circuit for the two LEDs, not a programmable chip; left as null since the guide does not name a specific part.
 last_modified_date: '2026-09-10'
 ---
 

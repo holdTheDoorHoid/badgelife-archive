@@ -36,7 +36,7 @@ get_one:
   distribution: []
   where: ''
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/hamster/TubeCube
   firmware_url: https://github.com/hamster/TubeCube/tree/master/Software
   eda_tool: null
@@ -46,6 +46,7 @@ links:
 - label: github.com/hamster/TubeCube
   url: https://github.com/hamster/TubeCube
   kind: repo
+  archived: https://web.archive.org/web/20260309115640/https://github.com/hamster/TubeCube
 images: []
 contact: {}
 notes: []
@@ -56,21 +57,23 @@ sources:
   title: TubeCube — IV-17 VFD tube driver minibadge
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: github-topics); event read as ''unknown''.'
+  archived: https://web.archive.org/web/20260309115640/https://github.com/hamster/TubeCube
 - kind: url
   url: https://raw.githubusercontent.com/hamster/TubeCube/master/README.md
-  title: 'hamster/TubeCube README'
+  title: hamster/TubeCube README
   accessed: '2026-09-07'
-  note: 'Primary source for hardware description, chip, tube, chaining behavior, and power figures.'
+  note: Primary source for hardware description, chip, tube, chaining behavior, and power figures.
 - kind: url
   url: https://api.github.com/repos/hamster/TubeCube
-  title: 'hamster/TubeCube repository metadata'
+  title: hamster/TubeCube repository metadata
   accessed: '2026-09-07'
-  note: 'Confirmed MIT license, repo created 2019-10-23, single maker (hamster), no listed topics or homepage.'
+  note: Confirmed MIT license, repo created 2019-10-23, single maker (hamster), no listed topics or homepage.
 research:
   status: verified
   confidence: low
   last_checked: '2026-09-07'
-  notes: 'Fact-check pass (2026-09-07): re-fetched all three cited sources (repo homepage, raw README, GitHub API metadata) and confirmed every populated field and body sentence — MCU (ATtiny1616), tube (IV-17, 16 elements + 2 dots), UART/I2C connectivity, chaining behavior, ~90mA/~40mA power figures, MIT license, repo file listing (TubeCube.pdf, IV-17.pdf, Software/), the Adafruit Ice Tube Clock and dmadison/Segmented-LED-Display-ASCII credits, the four-board solder-bridge stackup, and the "few bucks a tube... from Ukraine" eBay sourcing. Removed an unsupported "Soviet-era" characterization of the tube from the body text — no cited source states this. No source states which conference or year this was made for, and no price, quantity, or availability information was found anywhere; event stays other. The repo''s two images (tube.PNG, HVPS.PNG) are schematic/datasheet diagrams, not photos of the assembled physical badge, so images remain empty. Repo created 2019-10-23, last pushed 2019-10-23 (single burst of work). NOTE: found a separate, more complete existing entry for the apparent same project at _badges/other/tubecube-minibadge.md (id other-tubecube-minibadge, year 2019, maker link to hackaday.io/hacker/277672-hamster) — likely a duplicate; flagged in report, not touched per one-entry-per-task rule.'
+  notes: 'Fact-check pass (2026-09-07): re-fetched all three cited sources (repo homepage, raw README, GitHub API metadata) and confirmed every populated field and body sentence — MCU (ATtiny1616), tube (IV-17, 16 elements + 2 dots), UART/I2C connectivity, chaining behavior, ~90mA/~40mA power figures, MIT license, repo file listing (TubeCube.pdf, IV-17.pdf, Software/), the Adafruit Ice Tube Clock and dmadison/Segmented-LED-Display-ASCII credits, the four-board solder-bridge stackup, and the "few bucks a tube... from Ukraine" eBay sourcing. Removed an unsupported "Soviet-era" characterization of the tube from the body text — no cited source states this. No source states which conference or year this was made for, and no price, quantity, or availability information was found anywhere; event stays other. The repo''s two images (tube.PNG, HVPS.PNG) are schematic/datasheet diagrams, not photos of the assembled physical badge, so images remain empty. Repo created 2019-10-23, last pushed 2019-10-23
+    (single burst of work). NOTE: found a separate, more complete existing entry for the apparent same project at _badges/other/tubecube-minibadge.md (id other-tubecube-minibadge, year 2019, maker link to hackaday.io/hacker/277672-hamster) — likely a duplicate; flagged in report, not touched per one-entry-per-task rule.'
 last_modified_date: '2026-09-07'
 ---
 
