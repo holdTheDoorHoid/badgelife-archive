@@ -49,9 +49,11 @@ links:
 - label: github.com/ageppert/SAO_Etch_sAo_Sketch
   url: https://github.com/ageppert/SAO_Etch_sAo_Sketch
   kind: repo
+  archived: https://web.archive.org/web/20260509151701/https://github.com/ageppert/SAO_Etch_sAo_Sketch
 - label: hackaday.io/project/197581-etch-sao-sketch
   url: https://hackaday.io/project/197581-etch-sao-sketch
   kind: hackaday
+  archived: https://web.archive.org/web/20260509151703/https://hackaday.io/project/197581-etch-sao-sketch
 - label: www.tindie.com/products/36383
   url: https://www.tindie.com/products/36383/
   kind: store
@@ -63,6 +65,7 @@ images:
   source: https://github.com/ageppert/SAO_Etch_sAo_Sketch
   credit: Andy Geppert (ageppert)
   caption: Etch sAo Sketch V1.0, shared at Hackaday Supercon 8 (2024)
+  archived: https://web.archive.org/web/20260509151701/https://github.com/ageppert/SAO_Etch_sAo_Sketch
 - file: assets/images/badges/supercon-2024/etch-sao-sketch/10bec6ebca.jpg
   source: https://www.tindie.com/products/36383/
   credit: Andy Geppert (ageppert)
@@ -71,6 +74,7 @@ images:
   source: https://hackaday.io/project/197581-etch-sao-sketch
   credit: Andy Geppert
   caption: Etch sAo Sketch SAO with OLED display and knobs
+  archived: https://web.archive.org/web/20260509151703/https://hackaday.io/project/197581-etch-sao-sketch
 - file: assets/images/badges/supercon-2024/etch-sao-sketch/5ca5e164b0.jpg
   source: https://www.tindie.com/products/36383/
   credit: Machine Ideas, LLC
@@ -84,16 +88,19 @@ sources:
   title: Etch sAo Sketch
   accessed: '2026-09-06'
   note: Found via the project's link list; intake pass identified this item here.
+  archived: https://web.archive.org/web/20260509151701/https://github.com/ageppert/SAO_Etch_sAo_Sketch
 - kind: url
   url: https://github.com/ageppert/SAO_Etch_sAo_Sketch
   title: 'ageppert/SAO_Etch_sAo_Sketch: README'
   accessed: '2026-09-07'
   note: Confirmed version history (V1.0 through V1.3), event tie-ins, I2C pull-up resistor errata, open-source status, and image files.
+  archived: https://web.archive.org/web/20260509151701/https://github.com/ageppert/SAO_Etch_sAo_Sketch
 - kind: url
   url: https://hackaday.io/project/197581-etch-sao-sketch
   title: Etch sAo Sketch - Hackaday.io
   accessed: '2026-09-07'
   note: Confirmed submission to the Supercon 8 SAO contest, PCB dimensions (40x50mm, 2-layer), copper-ball alignment spheres, and October 2024 prototype status.
+  archived: https://web.archive.org/web/20260509151703/https://hackaday.io/project/197581-etch-sao-sketch
 - kind: url
   url: https://www.tindie.com/products/36383/
   title: SAO Etch sAo Sketch OLED (WITH CASE AND ASSEMBLED) - Tindie

@@ -12,7 +12,7 @@ makers:
 - name: Squidgeefish
   url: https://squidgeefish.com/projects/fibonacci128-sao/
 summary: A one-inch circular SAO packing 128 addressable RGB LEDs into a Fibonacci spiral, recreating Jason Coon's Fibonacci128 LED art as a wearable add-on for Supercon 2024.
-functions: 'Drives animated patterns (pinwheel, horizontal/vertical rainbow, Fibonacci-mapped effects) across the 128-LED spiral. An onboard I2C slave (address 0x37, 256 registers) lets a host badge select patterns, set brightness, and stream live framebuffer updates.'
+functions: Drives animated patterns (pinwheel, horizontal/vertical rainbow, Fibonacci-mapped effects) across the 128-LED spiral. An onboard I2C slave (address 0x37, 256 registers) lets a host badge select patterns, set brightness, and stream live framebuffer updates.
 look:
   colors: []
   shape: circle
@@ -46,21 +46,26 @@ links:
 - label: hackaday.com/2024/12/16/building-the-spectacular-fibonacci128-simple-add-on
   url: https://hackaday.com/2024/12/16/building-the-spectacular-fibonacci128-simple-add-on/
   kind: article
+  archived: https://web.archive.org/web/20260516052449/https://hackaday.com/2024/12/16/building-the-spectacular-fibonacci128-simple-add-on/
 - label: squidgeefish.com/projects/fibonacci128-sao
   url: https://squidgeefish.com/projects/fibonacci128-sao/
   kind: website
+  archived: https://web.archive.org/web/20260104015317/https://squidgeefish.com/projects/fibonacci128-sao/
 - label: squidgeefish.com/otterwork
   url: https://squidgeefish.com/otterwork/
   kind: doc
+  archived: https://web.archive.org/web/20260227080727/https://squidgeefish.com/otterwork/
 images:
-  - file: assets/images/badges/supercon-2024/fibonacci128-sao/016a428d7f.jpg
-    source: "https://squidgeefish.com/projects/fibonacci128-sao/"
-    credit: "Squidgeefish"
-    caption: "Five assembled Fibonacci128 SAO boards"
-  - file: assets/images/badges/supercon-2024/fibonacci128-sao/233a667d0c.jpg
-    source: "https://hackaday.com/2024/12/16/building-the-spectacular-fibonacci128-simple-add-on/"
-    credit: "Squidgeefish / Hackaday"
-    caption: "Fibonacci128 SAO with 128 RGB LEDs lit in a spiral pattern"
+- file: assets/images/badges/supercon-2024/fibonacci128-sao/016a428d7f.jpg
+  source: https://squidgeefish.com/projects/fibonacci128-sao/
+  credit: Squidgeefish
+  caption: Five assembled Fibonacci128 SAO boards
+  archived: https://web.archive.org/web/20260104015317/https://squidgeefish.com/projects/fibonacci128-sao/
+- file: assets/images/badges/supercon-2024/fibonacci128-sao/233a667d0c.jpg
+  source: https://hackaday.com/2024/12/16/building-the-spectacular-fibonacci128-simple-add-on/
+  credit: Squidgeefish / Hackaday
+  caption: Fibonacci128 SAO with 128 RGB LEDs lit in a spiral pattern
+  archived: https://web.archive.org/web/20260516052449/https://hackaday.com/2024/12/16/building-the-spectacular-fibonacci128-simple-add-on/
 contact: {}
 notes:
 - 128 RGB LEDs on 1-inch PCB in Fibonacci spiral, I2C controlled; includes boost-converter backpack PCB
@@ -71,21 +76,24 @@ sources:
   title: Fibonacci128 SAO
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: hackaday-press); event read as ''Hackaday Supercon 2024''.'
+  archived: https://web.archive.org/web/20260516052449/https://hackaday.com/2024/12/16/building-the-spectacular-fibonacci128-simple-add-on/
 - kind: url
   url: https://squidgeefish.com/projects/fibonacci128-sao/
   title: Fibonacci128 SAO project page
   accessed: '2026-09-07'
   note: Maker's own project writeup; confirmed LED count/type, MCU, I2C address/register scheme, boost-converter backpack, KiCad image-import design process, and image assets.
+  archived: https://web.archive.org/web/20260104015317/https://squidgeefish.com/projects/fibonacci128-sao/
 - kind: url
   url: https://squidgeefish.com/otterwork/
   title: Otterwork
   accessed: '2026-09-07'
-  note: 'Maker''s firmware/build page for the STM8S001J3 + WS2812 I2C driver used on this SAO; confirms firmware is documented/available, hardware files are not.'
+  note: Maker's firmware/build page for the STM8S001J3 + WS2812 I2C driver used on this SAO; confirms firmware is documented/available, hardware files are not.
+  archived: https://web.archive.org/web/20260227080727/https://squidgeefish.com/otterwork/
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-07'
-  notes: 'Maker (Squidgeefish) declined to open-source the hardware design files out of respect for Jason Coon (Evil Genius Labs), whose original one-inch Fibonacci128 LED art this SAO recreates via KiCad image import; firmware/build details are documented on the "otterwork" page. Only five prototype units were assembled, with no stated price or commercial release, so get_one fields beyond quantity are left empty. No maker contact details were found on their own pages.'
+  notes: Maker (Squidgeefish) declined to open-source the hardware design files out of respect for Jason Coon (Evil Genius Labs), whose original one-inch Fibonacci128 LED art this SAO recreates via KiCad image import; firmware/build details are documented on the "otterwork" page. Only five prototype units were assembled, with no stated price or commercial release, so get_one fields beyond quantity are left empty. No maker contact details were found on their own pages.
 last_modified_date: '2026-09-07'
 ---
 

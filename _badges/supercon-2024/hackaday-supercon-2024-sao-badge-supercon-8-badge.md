@@ -40,7 +40,7 @@ get_one:
   - free_drop
   where: Given to attendees of Hackaday Supercon 8 (2024); design files published for anyone to build their own.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/Hack-a-Day/2024-Supercon-8-Add-On-Badge
   firmware_url: https://github.com/Hack-a-Day/2024-Supercon-8-Add-On-Badge
   eda_tool: null
@@ -48,18 +48,21 @@ links:
 - label: hackaday.com/2024/10/22/the-2024-hackaday-supercon-sao-badge-reveal
   url: https://hackaday.com/2024/10/22/the-2024-hackaday-supercon-sao-badge-reveal/
   kind: article
+  archived: https://web.archive.org/web/20260420162303/https://hackaday.com/2024/10/22/the-2024-hackaday-supercon-sao-badge-reveal/
 - label: Hack-a-Day/2024-Supercon-8-Add-On-Badge (GitHub)
   url: https://github.com/Hack-a-Day/2024-Supercon-8-Add-On-Badge
   kind: repo
 images:
 - file: assets/images/badges/supercon-2024/hackaday-supercon-2024-sao-badge-supercon-8-badge/418bf4f81d.jpg
-  source: "https://hackaday.com/2024/10/22/the-2024-hackaday-supercon-sao-badge-reveal/"
-  credit: "Hackaday"
-  caption: "Supercon 8 SAO badge, front, six-petal radial layout"
+  source: https://hackaday.com/2024/10/22/the-2024-hackaday-supercon-sao-badge-reveal/
+  credit: Hackaday
+  caption: Supercon 8 SAO badge, front, six-petal radial layout
+  archived: https://web.archive.org/web/20260420162303/https://hackaday.com/2024/10/22/the-2024-hackaday-supercon-sao-badge-reveal/
 - file: assets/images/badges/supercon-2024/hackaday-supercon-2024-sao-badge-supercon-8-badge/7c2170ef4d.jpg
-  source: "https://hackaday.com/2024/10/22/the-2024-hackaday-supercon-sao-badge-reveal/"
-  credit: "Hackaday"
-  caption: "Supercon 8 SAO badge, back side"
+  source: https://hackaday.com/2024/10/22/the-2024-hackaday-supercon-sao-badge-reveal/
+  credit: Hackaday
+  caption: Supercon 8 SAO badge, back side
+  archived: https://web.archive.org/web/20260420162303/https://hackaday.com/2024/10/22/the-2024-hackaday-supercon-sao-badge-reveal/
 contact: {}
 notes:
 - Six-SAO-port radial 'electronic flower' design
@@ -70,16 +73,18 @@ sources:
   title: Hackaday Supercon 2024 SAO Badge (Supercon 8 Badge)
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: hackaday-press); event read as ''Hackaday Supercon 2024''.'
+  archived: https://web.archive.org/web/20260420162303/https://hackaday.com/2024/10/22/the-2024-hackaday-supercon-sao-badge-reveal/
 - kind: url
   url: https://hackaday.com/2024/10/22/the-2024-hackaday-supercon-sao-badge-reveal/
-  title: "The 2024 Hackaday Supercon SAO Badge Reveal"
+  title: The 2024 Hackaday Supercon SAO Badge Reveal
   accessed: '2026-09-07'
-  note: 'Confirmed Pico W MCU, six SAO slots, AA battery, four starter add-ons, free distribution to attendees, and design-file release.'
+  note: Confirmed Pico W MCU, six SAO slots, AA battery, four starter add-ons, free distribution to attendees, and design-file release.
+  archived: https://web.archive.org/web/20260420162303/https://hackaday.com/2024/10/22/the-2024-hackaday-supercon-sao-badge-reveal/
 - kind: url
   url: https://github.com/Hack-a-Day/2024-Supercon-8-Add-On-Badge
-  title: "Hack-a-Day/2024-Supercon-8-Add-On-Badge"
+  title: Hack-a-Day/2024-Supercon-8-Add-On-Badge
   accessed: '2026-09-07'
-  note: 'Confirmed open hardware/firmware repo; CH32V003 chip used on the I2C proto petal add-on; badge described as "a simple hub for six SAOs".'
+  note: Confirmed open hardware/firmware repo; CH32V003 chip used on the I2C proto petal add-on; badge described as "a simple hub for six SAOs".
 research:
   status: researched
   confidence: high

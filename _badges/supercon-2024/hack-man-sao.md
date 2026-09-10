@@ -12,7 +12,7 @@ makers:
 - name: InstantArcade (Bob)
   url: https://hackaday.io/hacker/179291-instantarcade-bob
 summary: A Pac-Man themed SAO built around the ten-cent Puya PY32F002A Cortex-M0+ microcontroller with five side-firing SK6805 RGB LEDs, whose default mode replays the Pac-Man arcade attract sequence, with button-selectable hue-cycle and Larson-scanner modes and an I2C command mode (address 0x1A) for control from a host badge; entered in the Supercon 8 SAO Contest.
-functions: 'Default mode plays a simulation of the original Pac-Man arcade attract-mode animation. Buttons switch to a slow hue-cycle mode, a discrete Larson-scanner mode with shifting hue, and a slower Larson-scanner mode using the ghost/Pac-Man actor colors with fade. An I2C command mode (device address 0x1A, 4-byte commands) lets a host badge set LED colors, set global brightness (0-255), clear/latch colors, and read back status. On boot the five LEDs flash the firmware revision number in binary.'
+functions: Default mode plays a simulation of the original Pac-Man arcade attract-mode animation. Buttons switch to a slow hue-cycle mode, a discrete Larson-scanner mode with shifting hue, and a slower Larson-scanner mode using the ghost/Pac-Man actor colors with fade. An I2C command mode (device address 0x1A, 4-byte commands) lets a host badge set LED colors, set global brightness (0-255), clear/latch colors, and read back status. On boot the five LEDs flash the firmware revision number in binary.
 look:
   colors: []
   shape: null
@@ -48,6 +48,7 @@ links:
 - label: hackaday.io/project/198301-hack-man-sao
   url: https://hackaday.io/project/198301-hack-man-sao
   kind: hackaday
+  archived: https://web.archive.org/web/20260415034852/https://hackaday.io/project/198301-hack-man-sao
 - label: hackaday.io/project/198301-hack-man-sao/details
   url: https://hackaday.io/project/198301-hack-man-sao/details
   kind: hackaday
@@ -56,13 +57,15 @@ links:
   kind: hackaday
 images:
 - file: assets/images/badges/supercon-2024/hack-man-sao/a4b2f3dfeb.jpg
-  source: "https://hackaday.io/project/198301-hack-man-sao"
-  credit: "InstantArcade (Bob)"
-  caption: "Hack-Man SAO main project photo"
+  source: https://hackaday.io/project/198301-hack-man-sao
+  credit: InstantArcade (Bob)
+  caption: Hack-Man SAO main project photo
+  archived: https://web.archive.org/web/20260415034852/https://hackaday.io/project/198301-hack-man-sao
 - file: assets/images/badges/supercon-2024/hack-man-sao/919bad1807.jpg
-  source: "https://hackaday.io/project/198301-hack-man-sao"
-  credit: "InstantArcade (Bob)"
-  caption: "Hack-Man SAO board detail"
+  source: https://hackaday.io/project/198301-hack-man-sao
+  credit: InstantArcade (Bob)
+  caption: Hack-Man SAO board detail
+  archived: https://web.archive.org/web/20260415034852/https://hackaday.io/project/198301-hack-man-sao
 contact: {}
 notes: []
 status: listed
@@ -72,11 +75,13 @@ sources:
   title: Hack-Man SAO
   accessed: '2026-09-06'
   note: Found via the project's link list; intake pass identified this item here.
+  archived: https://web.archive.org/web/20260415034852/https://hackaday.io/project/198301-hack-man-sao
 - kind: url
   url: https://hackaday.io/project/198301-hack-man-sao
   title: Hack-Man SAO (project page)
   accessed: '2026-09-07'
   note: Confirmed maker, contest entry (Supercon 8 SAO Contest), chip, LED type/count, I2C address, modes; page has no pricing, quantity, or sale info; sourced project photos via og:image and inline log images.
+  archived: https://web.archive.org/web/20260415034852/https://hackaday.io/project/198301-hack-man-sao
 - kind: url
   url: https://hackaday.io/project/198301-hack-man-sao/details
   title: Hack-Man SAO details
@@ -91,7 +96,7 @@ research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'Maker''s own Hackaday.io project page and its five build logs confirm the chip, LED count/type, contest entry, and functional modes described in the existing summary. No pricing, unit quantity, sale/availability, or open-source hardware/firmware repo link were found anywhere on the project pages — this appears to be a contest-entry writeup rather than a product for sale, so those fields are left empty rather than guessed. No separate GitHub repo, store listing, or press coverage was located.'
+  notes: Maker's own Hackaday.io project page and its five build logs confirm the chip, LED count/type, contest entry, and functional modes described in the existing summary. No pricing, unit quantity, sale/availability, or open-source hardware/firmware repo link were found anywhere on the project pages — this appears to be a contest-entry writeup rather than a product for sale, so those fields are left empty rather than guessed. No separate GitHub repo, store listing, or press coverage was located.
 last_modified_date: '2026-09-07'
 ---
 

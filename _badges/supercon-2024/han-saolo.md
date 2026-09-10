@@ -41,9 +41,9 @@ make_your_own:
 get_one:
   price: ''
   price_usd: null
-  quantity: '~30'
+  quantity: ~30
   availability: sold_out
-  availability_note: 'Hand-assembled batch of about 30 given away at Supercon 8 (2024); checked 2026-09-07, no ongoing sale found.'
+  availability_note: Hand-assembled batch of about 30 given away at Supercon 8 (2024); checked 2026-09-07, no ongoing sale found.
   distribution:
   - contest
   - free_drop
@@ -52,14 +52,16 @@ links:
 - label: hackaday.io/project/197803-han-saolo
   url: https://hackaday.io/project/197803-han-saolo
   kind: hackaday
+  archived: https://web.archive.org/web/20260311225117/https://hackaday.io/project/197803-han-saolo
 - label: github.com/davedarko/Simple-Add-ons-SAO/tree/main/SoloCarbonite
   url: https://github.com/davedarko/Simple-Add-ons-SAO/tree/main/SoloCarbonite
   kind: repo
 images:
-  - file: assets/images/badges/supercon-2024/han-saolo/40249f99d2.jpg
-    source: "https://hackaday.io/project/197803-han-saolo"
-    credit: "davedarko"
-    caption: "Han SAOlo front and back: exposed-copper carbonite artwork and the ATtiny412/SK6805 PCB"
+- file: assets/images/badges/supercon-2024/han-saolo/40249f99d2.jpg
+  source: https://hackaday.io/project/197803-han-saolo
+  credit: davedarko
+  caption: 'Han SAOlo front and back: exposed-copper carbonite artwork and the ATtiny412/SK6805 PCB'
+  archived: https://web.archive.org/web/20260311225117/https://hackaday.io/project/197803-han-saolo
 contact: {}
 notes: []
 status: released
@@ -69,26 +71,28 @@ sources:
   title: Han SAOlo
   accessed: '2026-09-06'
   note: Found via the project's link list; intake pass identified this item here.
+  archived: https://web.archive.org/web/20260311225117/https://hackaday.io/project/197803-han-saolo
 - kind: url
   url: https://hackaday.io/project/197803-han-saolo
   title: Han SAOlo
   accessed: '2026-09-07'
   note: 'Maker''s Hackaday.io project page: confirms Supercon 8 SAO Contest, ATtiny412, 5x SK6805-EC3210R LEDs, ~30 units hand-assembled and sponsored/populated by JLCPCB, described as the most popular SAO given away at the event.'
+  archived: https://web.archive.org/web/20260311225117/https://hackaday.io/project/197803-han-saolo
 - kind: url
   url: https://github.com/davedarko/Simple-Add-ons-SAO/tree/main/SoloCarbonite
-  title: 'Simple-Add-ons-SAO / SoloCarbonite'
+  title: Simple-Add-ons-SAO / SoloCarbonite
   accessed: '2026-09-07'
-  note: 'Repo folder holding the project writeup; confirmed design files live here, but no KiCad/Gerber files were visible in the folder listing itself.'
+  note: Repo folder holding the project writeup; confirmed design files live here, but no KiCad/Gerber files were visible in the folder listing itself.
 - kind: url
   url: https://raw.githubusercontent.com/davedarko/Simple-Add-ons-SAO/main/SoloCarbonite/2411_Hans_SAOLO.md
-  title: 'Hans SAOLO (repo writeup)'
+  title: Hans SAOLO (repo writeup)
   accessed: '2026-09-07'
-  note: 'Maker''s short writeup; says the blinking is done "thanks to the help of an Attiny13", which conflicts with the ATtiny412 named on the Hackaday.io page and silkscreened on the PCB photo. Treated as an early/loose draft; ATtiny412 is used in tech.mcu since it is confirmed by both the Hackaday page and the board photo itself.'
+  note: Maker's short writeup; says the blinking is done "thanks to the help of an Attiny13", which conflicts with the ATtiny412 named on the Hackaday.io page and silkscreened on the PCB photo. Treated as an early/loose draft; ATtiny412 is used in tech.mcu since it is confirmed by both the Hackaday page and the board photo itself.
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-07'
-  notes: 'Core facts (event, maker, MCU, LED count/type, connector, ~30 units, JLCPCB sponsorship) confirmed by the maker''s own Hackaday.io project page and by a photo of the physical board. The repo''s short writeup names an ATtiny13 instead of ATtiny412 for the blinking logic -- likely a stale/imprecise note, since the board silkscreen in the photo reads "AT-ATtiny412". Price was never advertised since this was a contest giveaway, not a sale, so get_one.price is left empty. No separate firmware or Gerber files were found in the linked repo folder beyond the writeup markdown, so firmware_url is left null and open_source is "partial".'
+  notes: Core facts (event, maker, MCU, LED count/type, connector, ~30 units, JLCPCB sponsorship) confirmed by the maker's own Hackaday.io project page and by a photo of the physical board. The repo's short writeup names an ATtiny13 instead of ATtiny412 for the blinking logic -- likely a stale/imprecise note, since the board silkscreen in the photo reads "AT-ATtiny412". Price was never advertised since this was a contest giveaway, not a sale, so get_one.price is left empty. No separate firmware or Gerber files were found in the linked repo folder beyond the writeup markdown, so firmware_url is left null and open_source is "partial".
 last_modified_date: '2026-09-07'
 ---
 

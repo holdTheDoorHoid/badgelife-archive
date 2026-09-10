@@ -47,6 +47,7 @@ links:
 - label: hackaday.io/project/198924-featuring-you
   url: https://hackaday.io/project/198924-featuring-you
   kind: hackaday
+  archived: https://web.archive.org/web/20251112011013/https://hackaday.io/project/198924-featuring-you
 - label: github.com/nanikgeorge/FeaturingYouSAO
   url: https://github.com/nanikgeorge/FeaturingYouSAO
   kind: repo
@@ -61,6 +62,7 @@ images:
   source: https://hackaday.io/project/198924-featuring-you
   credit: Nanik Adnani
   caption: The Featuring You! SAO, a red flashing arrow with space to write your name
+  archived: https://web.archive.org/web/20251112011013/https://hackaday.io/project/198924-featuring-you
 contact: {}
 notes: []
 status: released
@@ -70,11 +72,13 @@ sources:
   title: Featuring You!
   accessed: '2026-09-06'
   note: Found via the project's link list; intake pass identified this item here.
+  archived: https://web.archive.org/web/20251112011013/https://hackaday.io/project/198924-featuring-you
 - kind: url
   url: https://hackaday.io/project/198924-featuring-you
   title: Featuring You! - Hackaday.io project page
   accessed: '2026-09-07'
   note: Confirmed maker, event (Supercon 8 SAO contest), circuit description (astable multivibrator with BJT LED drivers), JLCPCB economic assembly, free giveaway plan, and pulled the project photo.
+  archived: https://web.archive.org/web/20251112011013/https://hackaday.io/project/198924-featuring-you
 - kind: url
   url: https://github.com/nanikgeorge/FeaturingYouSAO
   title: nanikgeorge/FeaturingYouSAO

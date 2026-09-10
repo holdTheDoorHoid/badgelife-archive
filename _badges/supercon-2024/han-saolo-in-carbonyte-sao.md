@@ -12,7 +12,7 @@ makers:
 - name: davedarko
   url: https://github.com/davedarko
 summary: A Han Solo frozen in carbonite SAO by davedarko that uses exposed HASL copper for the silver slab look and silkscreen for a 3D "dimetric" effect, with an ATtiny412 driving five side-glow LEDs through a defreeze-scene blink animation; made for the Supercon 8 (2024) SAO contest and handed out there.
-functions: 'Plays a scheduled RGB blink animation on five side-glow LEDs, timed to roughly follow the carbonite defreezing scene from Return of the Jedi. The black solder mask is see-through where there is no copper behind it, so Han''s face appears to glow during the animation.'
+functions: Plays a scheduled RGB blink animation on five side-glow LEDs, timed to roughly follow the carbonite defreezing scene from Return of the Jedi. The black solder mask is see-through where there is no copper behind it, so Han's face appears to glow during the animation.
 look:
   colors:
   - black
@@ -44,7 +44,7 @@ get_one:
   - contest
   where: Handed out by the maker at Supercon 8 (2024); JLCPCB sponsored assembly of 30 units.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/davedarko/Simple-Add-ons-SAO/tree/main/SoloCarbonite
   firmware_url: null
   eda_tool: null
@@ -55,18 +55,21 @@ links:
 - label: hackaday.io/project/197803-han-saolo
   url: https://hackaday.io/project/197803-han-saolo
   kind: hackaday
+  archived: https://web.archive.org/web/20260311225117/https://hackaday.io/project/197803-han-saolo
 - label: github.com/davedarko/Simple-Add-ons-SAO/tree/main/SoloCarbonite
   url: https://github.com/davedarko/Simple-Add-ons-SAO/tree/main/SoloCarbonite
   kind: repo
 images:
-  - file: assets/images/badges/supercon-2024/han-saolo-in-carbonyte-sao/40249f99d2.jpg
-    source: "https://hackaday.io/project/197803-han-saolo"
-    credit: "davedarko"
-    caption: "Han SAOlo in Carbonite SAO, populated board"
-  - file: assets/images/badges/supercon-2024/han-saolo-in-carbonyte-sao/7ac6225c6a.jpg
-    source: "https://hackaday.io/project/197803-han-saolo"
-    credit: "davedarko"
-    caption: "Han SAOlo project cover image"
+- file: assets/images/badges/supercon-2024/han-saolo-in-carbonyte-sao/40249f99d2.jpg
+  source: https://hackaday.io/project/197803-han-saolo
+  credit: davedarko
+  caption: Han SAOlo in Carbonite SAO, populated board
+  archived: https://web.archive.org/web/20260311225117/https://hackaday.io/project/197803-han-saolo
+- file: assets/images/badges/supercon-2024/han-saolo-in-carbonyte-sao/7ac6225c6a.jpg
+  source: https://hackaday.io/project/197803-han-saolo
+  credit: davedarko
+  caption: Han SAOlo project cover image
+  archived: https://web.archive.org/web/20260311225117/https://hackaday.io/project/197803-han-saolo
 contact: {}
 notes:
 - The maker's own Hackaday.io components list gives ATtiny412 as the final MCU; a short project readme in the GitHub repo (2411_Hans_SAOLO.md) mentions an ATtiny13 from an earlier idea stage. The Hackaday.io page (with a bill of materials and build logs describing JLCPCB assembly) is treated as authoritative for the shipped version.
@@ -82,6 +85,7 @@ sources:
   title: Han SAOlo by davedarko - Hackaday.io
   accessed: '2026-09-07'
   note: Primary source; description, build logs, components (1x ATtiny412, 5x SK6805-EC3210R), Supercon 8 SAO contest submission, JLCPCB-sponsored assembly of 30 units, connector details (JST-SH and 2x3 header), and photos.
+  archived: https://web.archive.org/web/20260311225117/https://hackaday.io/project/197803-han-saolo
 - kind: url
   url: https://raw.githubusercontent.com/davedarko/Simple-Add-ons-SAO/main/SoloCarbonite/2411_Hans_SAOLO.md
   title: Hans SAOLO project note (davedarko/Simple-Add-ons-SAO repo)
