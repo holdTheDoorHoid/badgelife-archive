@@ -12,7 +12,7 @@ makers:
 - name: davedarko
   url: https://github.com/davedarko
 summary: A work-in-progress proof-of-concept SAO by davedarko that mounts real fingerboard trucks on the PCB, paired with an inspirational quote from skateboarder Andy Anderson.
-functions: 'None (passive/decorative proof of concept; no electronics function described)'
+functions: None (passive/decorative proof of concept; no electronics function described)
 look:
   colors: []
   shape: null
@@ -45,10 +45,10 @@ links:
   url: https://github.com/davedarko/Simple-Add-ons-SAO/tree/main/MrAnderson
   kind: repo
 images:
-  - file: assets/images/badges/other/mranderson-skate-sao/4d9d7dfc93.jpg
-    source: "https://github.com/davedarko/Simple-Add-ons-SAO/tree/main/MrAnderson"
-    credit: "davedarko"
-    caption: "Prototype Skate SAO PCB with fingerboard trucks mounted"
+- file: assets/images/badges/other/mranderson-skate-sao/4d9d7dfc93.jpg
+  source: https://github.com/davedarko/Simple-Add-ons-SAO/tree/main/MrAnderson
+  credit: davedarko
+  caption: Prototype Skate SAO PCB with fingerboard trucks mounted
 contact: {}
 notes: []
 status: listed
@@ -77,8 +77,15 @@ research:
   status: researched
   confidence: low
   last_checked: '2026-09-07'
-  notes: 'Fact-check pass (2026-09-07): confirmed via GitHub API directory listing that the MrAnderson subfolder contains only KiCad files (.kicad_sch, .kicad_pcb, .kicad_pro) — no Eagle files were found, so eda_tool was corrected from "Eagle" to "KiCad". (The maker''s 2411_Skate.md does say "Github with Eagle/KiCad files," but that line is a boilerplate link reused verbatim across other project folders in the same repo that do use Eagle, so it is not reliable evidence for this specific item; the actual file extensions are.) Removed "professional" as an unsupported descriptor for Andy Anderson — no cited source states his profession. Verified the saved image (4d9d7dfc93.jpg) matches the repo''s AndyAndersonBoard.jpg (same 1031x1200 dimensions and embedded eBay/ImageMagick processing comment; the maker appears to have sourced/re-saved the photo from an eBay listing). All other confirmed facts (proof-of-concept SAO, fingerboard trucks on PCB, Andy Anderson quote, no electronics, no pricing/quantity/distribution/event) still stand from the maker''s own repo. No pricing, quantity, distribution, or specific event was ever published, so those fields stay empty and status remains "researched" rather than "verified".'
-last_modified_date: '2026-09-07'
+  notes: 'Fact-check pass (2026-09-07): confirmed via GitHub API directory listing that the MrAnderson subfolder contains only KiCad files (.kicad_sch, .kicad_pcb, .kicad_pro) — no Eagle files were found, so eda_tool was corrected from "Eagle" to "KiCad". (The maker''s 2411_Skate.md does say "Github with Eagle/KiCad files," but that line is a boilerplate link reused verbatim across other project folders in the same repo that do use Eagle, so it is not reliable evidence for this specific item; the actual file extensions are.) Removed "professional" as an unsupported descriptor for Andy Anderson — no cited source states his profession. Verified the saved image (4d9d7dfc93.jpg) matches the repo''s AndyAndersonBoard.jpg (same 1031x1200 dimensions and embedded eBay/ImageMagick processing comment; the maker appears to have sourced/re-saved the photo from an eBay listing). All other confirmed facts (proof-of-concept SAO, fingerboard trucks on PCB, Andy Anderson quote, no electronics, no pricing/quantity/distribution/event)
+    still stand from the maker''s own repo. No pricing, quantity, distribution, or specific event was ever published, so those fields stay empty and status remains "researched" rather than "verified".'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/other/mranderson-skate-sao.glb
+  method: kicad
+  source_file: MrAnderson/MrAnderson/MrAnderson.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 34756
 ---
 
 MrAnderson is a proof-of-concept SAO (add-on board) by hardware maker davedarko, part of their ongoing Simple Add-ons repository of small PCB designs. Rather than functioning as an electronic gadget, it explores mounting real fingerboard trucks directly onto the PCB, paired with an inspirational quote from skateboarder Andy Anderson. The maker's own note frames the idea plainly: "Fingerboards have trucks, why not use them on a PCB instead."

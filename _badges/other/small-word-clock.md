@@ -39,7 +39,7 @@ get_one:
   - kit
   where: Sold as a DIY or pre-assembled kit through Makerfabs (partnership announced December 2019); design files are also free to build yourself.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://hackaday.io/project/164406-small-word-clock
   firmware_url: https://hackaday.io/project/164406-small-word-clock
   eda_tool: null
@@ -49,9 +49,9 @@ links:
   kind: hackaday
 images:
 - file: assets/images/badges/other/small-word-clock/3105be0b00.jpg
-  source: "https://hackaday.io/project/164406-small-word-clock"
-  credit: "Shawn Maxwell (sjm4306)"
-  caption: "Assembled Small Word Clock with LED word-display and 3D-printed light box"
+  source: https://hackaday.io/project/164406-small-word-clock
+  credit: Shawn Maxwell (sjm4306)
+  caption: Assembled Small Word Clock with LED word-display and 3D-printed light box
 contact: {}
 notes:
 - From the user's 'SAOs to buy' link list (2026-09-07).
@@ -72,7 +72,13 @@ research:
   confidence: medium
   last_checked: '2026-09-07'
   notes: This is not a hacker-conference badge or SAO -- it is Shawn Maxwell's (sjm4306) entry in the 2019 Hackaday Prize "Tell Time" contest, later sold as a DIY/assembled kit by Makerfabs. No matching con/event exists in events.yml, so event is left as "other". Could not confirm a current price or units-made figure; the Makerfabs product page returned a 404 when checked directly, so price/availability could not be independently verified beyond the project page's mention of the partnership.
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/other/small-word-clock.glb
+  method: kicad
+  source_file: wordclock.brd
+  generated: '2026-09-10'
+  bytes: 354536
 ---
 
 The Small Word Clock is a desktop clock by Shawn Maxwell (Hackaday.io user sjm4306), built for the 2019 Hackaday Prize's "Tell Time" contest. Instead of digits, it spells out the time in illuminated words behind a laser- or PCB-cut lettering mask, using a 12x10 LED matrix driven by a PIC16F887 microcontroller. A DS1302 real-time clock with a CR1220 backup battery keeps time when the clock is unplugged, while the LEDs themselves run off USB 5V power. Three buttons let the owner set the hour and minute and cycle through seven idle animation modes -- chase, random, twinkle, pong, rain, bouncing ball, and ripple.

@@ -43,7 +43,7 @@ get_one:
   - membership
   where: Distributed to NerdFlare club members/participants at Cal Poly SLO (e.g. an IEEE x NerdFlare soldering competition); not sold to the public as far as sources indicate.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/NerdFlare/NerdFlareBadge25/tree/main/pcb
   firmware_url: https://github.com/NerdFlare/NerdFlareBadge25/tree/main/src
   eda_tool: KiCad
@@ -100,7 +100,13 @@ research:
   confidence: medium
   last_checked: '2026-09-07'
   notes: 'NerdFlare is a Cal Poly San Luis Obispo student club/initiative (per its GitHub org name "Cal Poly NerdFlare" and a 2025 Hackaday Supercon talk by Zachary Peterson, "NerdFlare: Bringing #badgelife to Academia"), not a hacker-convention badge, so no matching id exists in events.yml; leaving event as ''other''. The repo name and firmware banner both read "NerdFlare25" for "24-25 AY" (academic year), read here as year 2025. No README, license, or price/quantity/distribution details were published in the repo; get_one.where is inferred from IEEE Cal Poly''s mention of an "IEEE x NerdFlare Soldering Competition" and could not be confirmed as the only distribution channel. No photos of an assembled badge were found (repo only contains a KiCad PCB, BOM, MicroPython source, and one Cal Poly shield SVG logo), so images could not be saved.'
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/other/nerdflarebadge25.glb
+  method: kicad
+  source_file: pcb/NerdFlare25.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 133316
 ---
 
 NerdFlareBadge25 is a member/participant badge from NerdFlare, a PCB-art and electronics club at Cal Poly San Luis Obispo, made for the 2024-25 academic year. It is built around a Raspberry Pi Pico 2 W running MicroPython, with ten discrete LEDs (seven red, three yellow) driven by PWM for several light patterns, a single push button to cycle modes, and a two-AA battery holder for standalone power. NerdFlare describes itself as bringing "badgelife" PCB-art culture into a university setting, and the badge appears to have circulated through club activities such as an IEEE-co-hosted soldering competition, though no README or public sale listing spells out exact distribution numbers or price.

@@ -38,7 +38,7 @@ get_one:
   distribution: []
   where: ''
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/bwasserm/sensaor/tree/main/pcba/sensaor
   firmware_url: https://github.com/bwasserm/sensaor/tree/main/src
   eda_tool: KiCad
@@ -68,7 +68,13 @@ research:
   confidence: medium
   last_checked: '2026-09-07'
   notes: Maker's own README and repo metadata confirm what it is, the event it was built for (Hackaday Supercon 2024), the MCU (CH32V003, RISC-V), and LED/sensor behavior. No photos of the assembled board were found in the repo or turned up by search; SAO header pin count/version, price, quantity made, and distribution method (beyond the README's stated goal of making "a bunch" to trade) are not stated anywhere found. WebSearch was unavailable (session search budget exhausted) so press/forum coverage could not be checked.
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/other/sensaor-sao-with-an-adapted-saoao-header.glb
+  method: kicad
+  source_file: pcba/sensaor/sensaor.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 171248
 ---
 
 senSAOr is a Simple Add-On (SAO) that maker bwasserm designed and built in time for Hackaday Supercon 2024. It centers on a CH32V003 RISC-V microcontroller, chosen deliberately (the maker's stated project goals were to use a RISC-V chip and write the firmware in Rust) and reads an analog sensor voltage on an input pin to drive three onboard WS2812/WS2811 addressable LEDs, cycling colors up the board each update. Dedicated input pins let the color mix, update speed, and a sine-wave blending ("shape" and "phase") be set independently, and unused I2C and GPIO pins are broken out for future use.

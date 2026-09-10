@@ -12,7 +12,7 @@ makers:
 - name: HTHackers
   url: https://hthackers.com
 summary: A CircuitPython-powered HID badge made for the 2021 Hackers Teaching Hackers conference in Columbus, Ohio. It starts locked behind a set of on-board challenges shown on its "brain" LEDs, and once unlocked doubles as a full keyboard/mouse emulator.
-functions: 'Ships locked with four challenge gates (binary, cryptography, Morse code, UART protocol discovery, plus a steganography step) that must be solved over a 9600-baud serial connection to unlock full functionality. Unlocked, it offers a CircuitPython Python REPL over USB-C, "Bling Mode" RGB LED animations, a "Mouse Jiggler" that nudges the mouse periodically, and a "Ducky Payload" mode that plays back USB Rubber Ducky-style HID attacks from an editable duckyscript.txt file. Modes are triggered by capacitive touch zones on the board (front brain, nose, mouth).'
+functions: Ships locked with four challenge gates (binary, cryptography, Morse code, UART protocol discovery, plus a steganography step) that must be solved over a 9600-baud serial connection to unlock full functionality. Unlocked, it offers a CircuitPython Python REPL over USB-C, "Bling Mode" RGB LED animations, a "Mouse Jiggler" that nudges the mouse periodically, and a "Ducky Payload" mode that plays back USB Rubber Ducky-style HID attacks from an editable duckyscript.txt file. Modes are triggered by capacitive touch zones on the board (front brain, nose, mouth).
 look:
   colors:
   - black
@@ -31,7 +31,7 @@ tech:
   leds:
     count: null
     type: RGB
-    note: 'Called "brain LEDs" by the maker; used as binary/progress indicators for each challenge (pulsing red while locked) and for the RGB "Bling Mode" animations. Exact count and LED part number not stated.'
+    note: Called "brain LEDs" by the maker; used as binary/progress indicators for each challenge (pulsing red while locked) and for the RGB "Bling Mode" animations. Exact count and LED part number not stated.
   display: none
   connectivity:
   - usb
@@ -49,7 +49,7 @@ get_one:
   distribution: []
   where: ''
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/HTHackers/ScryptKeeper/tree/main/ScryptKeeper/Badge%20Source
   firmware_url: https://github.com/HTHackers/ScryptKeeper/tree/main/ScryptKeeper/Firmware
   gerbers_url: https://github.com/HTHackers/ScryptKeeper/tree/main/ScryptKeeper/Gerber%20Fabrication%20Files
@@ -69,9 +69,9 @@ links:
   kind: website
 images:
 - file: assets/images/badges/other/scryptkeeper/f802d11918.jpg
-  source: "https://github.com/HTHackers/ScryptKeeper"
-  credit: "HTHackers"
-  caption: "The ScryptKeeper badge, lit up, showing its printed monster-face artwork, brain LEDs, and lanyard"
+  source: https://github.com/HTHackers/ScryptKeeper
+  credit: HTHackers
+  caption: The ScryptKeeper badge, lit up, showing its printed monster-face artwork, brain LEDs, and lanyard
 contact: {}
 notes:
 - From the user's 'SAOs to buy' link list (2026-09-07).
@@ -84,25 +84,35 @@ sources:
   note: 'Found by the archive''s discovery sweep (angle: tobuy-linkfile); event read as ''other''.'
 - kind: url
   url: https://raw.githubusercontent.com/HTHackers/ScryptKeeper/main/README.md
-  title: 'The ScryptKeeper (README)'
+  title: The ScryptKeeper (README)
   accessed: '2026-09-07'
-  note: 'Confirms it was made for the 2021 Hackers Teaching Hackers badge; describes CircuitPython HID features, Bling/Jiggler/Ducky modes, and touch zones; source of the badge photo.'
+  note: Confirms it was made for the 2021 Hackers Teaching Hackers badge; describes CircuitPython HID features, Bling/Jiggler/Ducky modes, and touch zones; source of the badge photo.
 - kind: url
   url: https://github.com/syn-ack-zack/ScryptKeeper/wiki/Badge-Walkthrough
   title: Badge Walkthrough wiki
   accessed: '2026-09-07'
-  note: 'Confirms ATSAMD21E MCU, the four/five challenge steps (binary, crypto, Morse, UART, steganography), brain LEDs, lanyard hole, and touch zones. No price, quantity, or battery info given.'
+  note: Confirms ATSAMD21E MCU, the four/five challenge steps (binary, crypto, Morse, UART, steganography), brain LEDs, lanyard hole, and touch zones. No price, quantity, or battery info given.
 - kind: url
   url: https://hthackers.com
   title: Hackers Teaching Hackers
   accessed: '2026-09-07'
-  note: 'Confirms Hackers Teaching Hackers is an annual infosec conference in Columbus, Ohio (est. 2014, held at BrewDog DogTap); no matching event id exists in events.yml.'
+  note: Confirms Hackers Teaching Hackers is an annual infosec conference in Columbus, Ohio (est. 2014, held at BrewDog DogTap); no matching event id exists in events.yml.
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-07'
-  notes: 'No matching event id in events.yml for "Hackers Teaching Hackers" (a small annual Columbus, OH con, not DEF CON) -- event left as "other"; the con and year are recorded here and in the summary/year field instead. Price, quantity made, and availability were not stated anywhere found. The repo also contains a second item, a "Scouter-SAO" (an SAO-style daughterboard, visible plugged into the badge in the photo), which is a separate item and was not researched further -- see other_items_found.'
-last_modified_date: '2026-09-07'
+  notes: No matching event id in events.yml for "Hackers Teaching Hackers" (a small annual Columbus, OH con, not DEF CON) -- event left as "other"; the con and year are recorded here and in the summary/year field instead. Price, quantity made, and availability were not stated anywhere found. The repo also contains a second item, a "Scouter-SAO" (an SAO-style daughterboard, visible plugged into the badge in the photo), which is a separate item and was not researched further -- see other_items_found.
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/other/scryptkeeper.glb
+  method: gerber
+  source_file: ScryptKeeper/Gerber Fabrication Files
+  generated: '2026-09-10'
+  bytes: 184572
+  size_mm:
+  - 103.9
+  - 114.5
+  note: The published files have no board outline, so the model is shown on a rectangular board.
 ---
 
 The ScryptKeeper is a CircuitPython-powered HID badge that HTHackers (Hackers Teaching Hackers) made for their 2021 conference in Columbus, Ohio. It is printed as a snarling green monster face on a round black PCB, with a set of "brain" LEDs standing in for both decoration and a progress meter: the badge ships locked, pulsing red until its wearer solves a chain of on-board challenges over a 9600-baud serial link -- binary, cryptography, Morse code, a UART protocol puzzle, and steganography.

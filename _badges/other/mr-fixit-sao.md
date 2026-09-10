@@ -98,7 +98,13 @@ research:
   last_checked: '2026-09-07'
   notes: 'All fields and body sentences were re-verified against primary sources during fact-check. The GitHub commit history for the mr-fixit folder directly confirms both the Nov 2019 v1.0/v1.1 dates and the rev1.3 September 2024 respin (commit message mrfixit: rev1.3 as sent for mfg, 2024-09-16), which the prior pass had only inferred from dated file timestamps. The schematic file (mrfixit.sch) was fetched and inspected directly: it shows one LED wired to +3.3V, no MCU, and a connector footprint literally named ..._SMD_SAO, confirming functions/tech.mcu/tech.leds/tech.battery from the source rather than from photos alone. Both saved images were confirmed present in the repo''s images/ folder (IMG_20191210_090121.jpg, dated Dec 10 2019; a silhouette artwork PNG matching the corrected character outline files) and visually match the described colors/shape/lit LED. No convention, storefront, price, or quantity information exists anywhere for this project (repo, commit history, or the one
     third-party Vancouver Hack Space forum post found), so those get_one fields remain correctly empty and event remains other rather than guessed.'
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/other/mr-fixit-sao.glb
+  method: kicad
+  source_file: mr-fixit/mrfixit.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 475608
 ---
 
 Mr Fixit is a small single-LED art SAO by Tom Keddie (Vancouver-based hobbyist and hardware engineer), cut into the outline of a cartoon repairman in red solder mask with a gold HASL/ENIG finish tracing his overalls, hair, and tool belt. He holds up a handheld multimeter whose display is a cutout window backed by one LED; plugged into a host badge's SAO header, the 3.3 V rail lights that single LED so the "screen" glows, giving the character the look of taking a reading. There is no microcontroller, driver chip, or other logic on the board — it is a passive decorative add-on.

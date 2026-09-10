@@ -89,7 +89,13 @@ research:
   last_checked: '2026-09-07'
   notes: 'No prose write-up or announcement page was found for this SAO — everything here is inferred from the maker''s own GitHub repository (jeffmakes/tr23-sao-hw): its description ("Shitty Add-On 2023"), an included ERNW logo (ERNW organizes the Troopers security conference in Heidelberg), and an internal build-folder path reading ".../2023/tr23-badge/repos/tr23-sao-hw" in the generated BOM. The `_data/events.yml` vocabulary has no Troopers event id yet (checked, none found for "troopers"), so `event` is left as `other`; if an id such as `troopers-2023` is ever added, this entry should move under it. Confirmed: it is a 6-pin-header-style RGB SAO where only the KTD2052 I2C LED driver chip is factory-assembled and the rest (LEDs, resistors) is meant to be hand-soldered by the recipient — a "build it yourself" kit rather than a finished blinky. Not found: price, quantity made, how/whether it was distributed to Troopers 2023 attendees, SAO header pin count, a license for the hardware files
     (no LICENSE file in the repo), and any photograph of an assembled unit. A Nintendo Game Boy product photo and a Wii-nunchuck-connector 3D model sit in the repo''s design folder as apparent visual/mechanical references (theme/fit checks), not photos of the finished board, so no images were saved for this entry.'
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/other/tr23-sao-hw-troopers-2023-shitty-add-on.glb
+  method: kicad
+  source_file: r1/src/tr23-sao-r1.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 28036
 ---
 
 TR23 is a shitty add-on that jeffmakes designed for Troopers 2023, the ERNW-run security conference in Heidelberg, Germany — identified from the ERNW logo bundled in the project's design files and from a build path recorded in the generated bill of materials. Rather than shipping as a finished blinky, the board is a build-it-yourself kit: only a Kinetic Technologies KTD2052 I2C RGB LED driver chip (in a tiny DFN-8 package) comes assembled from the factory, and the recipient hand-solders their own choice of LEDs onto the remaining unpopulated footprints. The two-layer FR4 board uses a white soldermask with black silkscreen on both sides.

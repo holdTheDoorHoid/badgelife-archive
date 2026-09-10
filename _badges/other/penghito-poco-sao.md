@@ -37,7 +37,7 @@ get_one:
   distribution: []
   where: ''
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/davedarko/Simple-Add-ons-SAO/tree/main/Penghito%20Poco
   firmware_url: null
   eda_tool: Eagle
@@ -53,9 +53,9 @@ links:
   kind: hackaday
 images:
 - file: assets/images/badges/other/penghito-poco-sao/2245dbe626.png
-  source: "https://github.com/davedarko/Simple-Add-ons-SAO/tree/main/Penghito%20Poco"
-  credit: "davedarko"
-  caption: "OSH Park render of the Penghito Poco SAO board"
+  source: https://github.com/davedarko/Simple-Add-ons-SAO/tree/main/Penghito%20Poco
+  credit: davedarko
+  caption: OSH Park render of the Penghito Poco SAO board
 contact: {}
 notes: []
 status: listed
@@ -67,20 +67,26 @@ sources:
   note: Found via the project's link list; intake pass identified this item here.
 - kind: url
   url: https://raw.githubusercontent.com/davedarko/Simple-Add-ons-SAO/main/Penghito%20Poco/readme.md
-  title: "Penghito Poco readme (Simple-Add-ons-SAO repo)"
+  title: Penghito Poco readme (Simple-Add-ons-SAO repo)
   accessed: '2026-09-07'
-  note: "Maker's own description: \"Small version of the Phengicorn Badge as a somple Add-on, made in Eagle\"; confirms Eagle CAD files (.sch/.brd) and the OSH Park render image."
+  note: 'Maker''s own description: "Small version of the Phengicorn Badge as a somple Add-on, made in Eagle"; confirms Eagle CAD files (.sch/.brd) and the OSH Park render image.'
 - kind: url
   url: https://hackaday.io/project/162293-penghicorn
   title: Penghicorn | Hackaday.io
   accessed: '2026-09-07'
-  note: "Parent full-size badge this SAO is a mini version of. Built by davedarko with deantonious and Stefan Kremser for 35C3 (2018): ESP8266, 1.3in OLED, NRF24L01, CC1101, WS2812 LED, ATtiny45 touch controller. The Poco SAO itself is a simplified, passive board and does not carry these components."
+  note: 'Parent full-size badge this SAO is a mini version of. Built by davedarko with deantonious and Stefan Kremser for 35C3 (2018): ESP8266, 1.3in OLED, NRF24L01, CC1101, WS2812 LED, ATtiny45 touch controller. The Poco SAO itself is a simplified, passive board and does not carry these components.'
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: "No event or year is stated for the Penghito Poco SAO itself, so event is left as 'other' rather than assumed. The parent full badge (Penghicorn) was made for 35C3 (Chaos Communication Congress, Dec 2018) but events.yml has no 35C3 entry and there is no guarantee the SAO was made for the same con/year, so it is not carried over to the event field. The board (from the OSH Park render) shows a 2x3 (6-pin) header on the flipper, consistent with an SAO connector, but the maker's files do not label a SAO version so tech.sao_version is left null rather than guessed. No MCU, LEDs, price, quantity, or availability information is published anywhere found; this appears to be a simple/passive decorative SAO with no active electronics shown in the render."
-last_modified_date: '2026-09-07'
+  notes: No event or year is stated for the Penghito Poco SAO itself, so event is left as 'other' rather than assumed. The parent full badge (Penghicorn) was made for 35C3 (Chaos Communication Congress, Dec 2018) but events.yml has no 35C3 entry and there is no guarantee the SAO was made for the same con/year, so it is not carried over to the event field. The board (from the OSH Park render) shows a 2x3 (6-pin) header on the flipper, consistent with an SAO connector, but the maker's files do not label a SAO version so tech.sao_version is left null rather than guessed. No MCU, LEDs, price, quantity, or availability information is published anywhere found; this appears to be a simple/passive decorative SAO with no active electronics shown in the render.
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/other/penghito-poco-sao.glb
+  method: kicad
+  source_file: penghitopoco.brd
+  generated: '2026-09-10'
+  bytes: 41996
 ---
 
 Penghito Poco is a small Simple Add-on (SAO) by davedarko, described in its own repository as "a small version of the Phengicorn Badge." It takes the penguin-with-a-unicorn-horn mascot of davedarko's full-size Penghicorn conference badge and renders it as a compact purple PCB, complete with the horn, beak, and flipper feet, with a 2x3 pin header on one flipper for plugging into a host badge.

@@ -73,6 +73,7 @@ sources:
   title: Metro-Addon firmware main.c
   accessed: '2026-09-10'
   note: Shows 3 discrete LEDs on GPIO PA1/PA3/PA4 driven in hard-coded blink sequences (train-window-light effect); no display or wireless hardware referenced.
+  archived: https://web.archive.org/web/20260910225725/https://raw.githubusercontent.com/ElectronicCats/Badge-bsides-cdmx-2025/main/hardware/Metro-Addon/firmware/User/main.c
 research:
   status: researched
   confidence: medium

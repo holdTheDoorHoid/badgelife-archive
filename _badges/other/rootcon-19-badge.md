@@ -39,9 +39,9 @@ get_one:
   availability: unknown
   distribution:
   - free_drop
-  where: 'Distributed on-site at ROOTCON 19 (2025) check-in on a first-come, first-served basis; guaranteed for Human+ and Blackcard tier attendees. Other attendees received a simpler non-electronic "Type-B" fallback badge instead.'
+  where: Distributed on-site at ROOTCON 19 (2025) check-in on a first-come, first-served basis; guaranteed for Human+ and Blackcard tier attendees. Other attendees received a simpler non-electronic "Type-B" fallback badge instead.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/ROOTCONLabs/RC19/tree/main/hardware
   firmware_url: https://github.com/ROOTCONLabs/RC19/tree/main/firmware
   eda_tool: KiCad
@@ -80,13 +80,20 @@ sources:
   url: https://media.rootcon.org/ROOTCON%2019/Badge/?C=M&O=A
   title: ROOTCON Media Server - ROOTCON 19 / Badge
   accessed: '2026-09-10'
-  note: 'Mirror hosting firmware.zip and hardware.zip for the badge; no badge photos present in this directory.'
+  note: Mirror hosting firmware.zip and hardware.zip for the badge; no badge photos present in this directory.
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-10'
-  notes: 'Confirmed via the maker''s own GitHub repo (ROOTCONLabs/RC19) and ROOTCON''s media mirror, not just the badge.gallery snippet, so this is a real, documented item. No official photo of the assembled badge was found (GitHub repo has no images beyond schematics/PCB source files; badge.gallery pages carried no image either), so no images could be saved. LED count and any details of the "hidden message" or single-button interactions are not documented by the maker. No matching event id exists in _data/events.yml for ROOTCON, so event is left as "other"; this item was made for ROOTCON 19 (ROOTCON''s 2025 conference), Philippines. Title corrected from the sweep''s "ROOTCON 19 Badge" to the maker''s own repo title "ROOTCON 2025 Badge" (both names are used interchangeably by ROOTCON/Electronic Cats for the same event); original sweep wording kept in the notes list above. Distribution model (first-come at check-in, guaranteed for premium tiers, Type-B non-electronic fallback for others) corroborated by badge.gallery and a Philippine IT Security Forums Facebook post.'
+  notes: Confirmed via the maker's own GitHub repo (ROOTCONLabs/RC19) and ROOTCON's media mirror, not just the badge.gallery snippet, so this is a real, documented item. No official photo of the assembled badge was found (GitHub repo has no images beyond schematics/PCB source files; badge.gallery pages carried no image either), so no images could be saved. LED count and any details of the "hidden message" or single-button interactions are not documented by the maker. No matching event id exists in _data/events.yml for ROOTCON, so event is left as "other"; this item was made for ROOTCON 19 (ROOTCON's 2025 conference), Philippines. Title corrected from the sweep's "ROOTCON 19 Badge" to the maker's own repo title "ROOTCON 2025 Badge" (both names are used interchangeably by ROOTCON/Electronic Cats for the same event); original sweep wording kept in the notes list above. Distribution model (first-come at check-in, guaranteed for premium tiers, Type-B non-electronic fallback for others) corroborated
+    by badge.gallery and a Philippine IT Security Forums Facebook post.
 last_modified_date: '2026-09-10'
+model:
+  file: assets/models/other/rootcon-19-badge.glb
+  method: kicad
+  source_file: hardware/Badge_Rootcon.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 331672
 ---
 
 The ROOTCON 19 badge is an interactive electronic badge that Electronic Cats designed for ROOTCON's 2025 conference, the Philippines' largest hacking event. Built around a CH32V003 microcontroller with Neopixel RGB LEDs and running off two AAA batteries, the badge doubles as a small game console: holding both of its buttons for half a second launches a Ping Pong minigame, while single-button presses trigger other interactions the maker left for attendees to discover, alongside a hidden message embedded somewhere in the badge's behavior.

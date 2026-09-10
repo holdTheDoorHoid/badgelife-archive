@@ -14,7 +14,7 @@ makers:
 - name: mcm3nac3
   url: https://github.com/mcm3nac3
 summary: A simple passive shitty-add-on (SAO) with four LEDs, designed to plug into the 2021 Hackers Teaching Hackers "ScryptKeeper" conference badge.
-functions: 'Lights four LEDs, powered from the host badge''s SAO header; no onboard microcontroller or independent logic.'
+functions: Lights four LEDs, powered from the host badge's SAO header; no onboard microcontroller or independent logic.
 look:
   colors: []
   shape: null
@@ -52,7 +52,7 @@ images: []
 contact: {}
 notes:
 - Spotted by a research agent while working on a neighbouring entry (run 3).
-- 'Made for Hackers Teaching Hackers (HTH), an annual InfoSec conference in Columbus, Ohio; no matching event id exists in _data/events.yml, so event is left as "other". HTH 2021 was the "ScryptKeeper" badge year, which is where the Scouter-SAO folder lives in the HTHackers/ScryptKeeper repo.'
+- Made for Hackers Teaching Hackers (HTH), an annual InfoSec conference in Columbus, Ohio; no matching event id exists in _data/events.yml, so event is left as "other". HTH 2021 was the "ScryptKeeper" badge year, which is where the Scouter-SAO folder lives in the HTHackers/ScryptKeeper repo.
 status: listed
 sources:
 - kind: url
@@ -69,7 +69,7 @@ sources:
   url: https://raw.githubusercontent.com/HTHackers/ScryptKeeper/main/Scouter-SAO/ScryptKeeper-Scouter.zip
   title: ScryptKeeper-Scouter.zip (KiCad project archive)
   accessed: '2026-09-07'
-  note: 'KiCad schematic/PCB (TFTS-HTH-SAO-Scout-IS) shows a v1.69bis 6-pin SAO connector (X1), one resistor (R1), and four LEDs (D1-D4); board silkscreen reads "HACKERS TEACHING HACKERS" and credits "@syn-ack-zack" and "@mcm3nac3".'
+  note: KiCad schematic/PCB (TFTS-HTH-SAO-Scout-IS) shows a v1.69bis 6-pin SAO connector (X1), one resistor (R1), and four LEDs (D1-D4); board silkscreen reads "HACKERS TEACHING HACKERS" and credits "@syn-ack-zack" and "@mcm3nac3".
 - kind: url
   url: https://github.com/syn-ack-zack
   title: syn-ack-zack (Zack Nagaich) - GitHub
@@ -79,17 +79,17 @@ research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: >-
-    No dedicated README, storefront, or announcement post exists for the Scouter-SAO
-    itself; everything here comes from reading the KiCad source files (schematic,
-    netlist, PCB silkscreen text) in the repo. Could not confirm price, quantity made,
-    availability, distribution method, or the board's shape/colors/artwork theme (no
-    photo or rendered board image was found anywhere online). The "Scouter" name
-    suggests a sci-fi/wearable-device visual theme but that is not confirmed by any
-    source read, so look.shape and look.themes are left empty rather than guessed.
-    Hackers Teaching Hackers (HTH) is a real, ongoing Columbus, Ohio InfoSec
-    conference but has no entry in _data/events.yml, so event stays "other".
-last_modified_date: '2026-09-07'
+  notes: No dedicated README, storefront, or announcement post exists for the Scouter-SAO itself; everything here comes from reading the KiCad source files (schematic, netlist, PCB silkscreen text) in the repo. Could not confirm price, quantity made, availability, distribution method, or the board's shape/colors/artwork theme (no photo or rendered board image was found anywhere online). The "Scouter" name suggests a sci-fi/wearable-device visual theme but that is not confirmed by any source read, so look.shape and look.themes are left empty rather than guessed. Hackers Teaching Hackers (HTH) is a real, ongoing Columbus, Ohio InfoSec conference but has no entry in _data/events.yml, so event stays "other".
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/other/scouter-sao.glb
+  method: gerber
+  source_file: Scouter-SAO/gerber
+  generated: '2026-09-10'
+  bytes: 100012
+  size_mm:
+  - 43.9
+  - 42.9
 ---
 
 The Scouter-SAO is a shitty add-on (SAO) built to plug into the ScryptKeeper, the 2021 Hackers Teaching Hackers (HTH) conference badge designed by syn-ack-zack (Zack Nagaich). Unlike the ScryptKeeper itself, which runs CircuitPython on a full microcontroller, the Scouter-SAO is a passive board: its schematic shows nothing more than a standard v1.69bis 6-pin SAO connector, one resistor, and four LEDs, all powered straight off the host badge's SAO header with no onboard logic of its own.

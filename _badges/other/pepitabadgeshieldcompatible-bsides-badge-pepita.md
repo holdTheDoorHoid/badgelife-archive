@@ -76,7 +76,13 @@ research:
   confidence: medium
   last_checked: '2026-09-07'
   notes: No confirmed event id for BSidesPR exists in _data/events.yml, so event is left as "other"; this badge was made for BSidesPR (BSides Puerto Rico) 2015, per the repo's Arduino board manager entry ("BSides Badge 2015") and soynerdito's other BSidesPR-focused repos (e.g. BSides20016Badge, RickBadge). No price, quantity, LED count, or display info is stated anywhere found; no actual photograph of an assembled/soldered board was located, only the maker's concept/PCB-layout sketch (concept.png) saved as the entry image. Maker's own site (blog.soynerdito.com) and GitHub are the only sources found; no press coverage or storefront listing exists.
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/other/pepitabadgeshieldcompatible-bsides-badge-pepita.glb
+  method: kicad
+  source_file: PenMega.brd
+  generated: '2026-09-10'
+  bytes: 53324
 ---
 
 The Pepita badge is an Arduino shield-compatible electronic badge that soynerdito built for BSidesPR (BSides Puerto Rico) 2015. Instead of shipping as a sealed novelty, it is designed to be reprogrammed like any other Arduino board: it runs an ATmega328P at 16 MHz, and the README walks through wiring an external USBasp programmer at 5V (bypassing the badge's onboard 3.3V regulator) to flash new sketches or update the AVR fuses. The repository ships a custom Arduino IDE board-manager package so the badge shows up as "BSides Badge 2015" in the Tools menu, alongside precompiled firmware hex files and both standard and "XL" hardware variants.

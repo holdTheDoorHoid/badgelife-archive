@@ -13,7 +13,7 @@ makers:
   role: PCB/hardware design
 - name: AND!XOR
   role: firmware (2018 and 2019 revisions)
-summary: A memorial PCB badge made for the DerbyCon community in honor of a member named Trevor, who died September 23, 2017. It carries a cartoon cockroach mascot and the hashtag #trevorforget.
+summary: A memorial PCB badge made for the DerbyCon community in honor of a member named Trevor, who died September 23, 2017. It carries a cartoon cockroach mascot and the hashtag
 functions: ''
 look:
   colors:
@@ -25,7 +25,7 @@ look:
   - mascot
   - animal
 tech:
-  mcu: 'ATtiny816 (2018 revision); ATtiny3217 (2019 revision)'
+  mcu: ATtiny816 (2018 revision); ATtiny3217 (2019 revision)
   leds: null
   display: null
   connectivity: []
@@ -51,14 +51,14 @@ links:
   url: https://github.com/hamster/trevorforget
   kind: repo
 images:
-  - file: assets/images/badges/other/trevorforget/f7fe29952b.jpg
-    source: "https://github.com/hamster/trevorforget"
-    credit: "hamster"
-    caption: "TrevorForget PCB badge, front"
-  - file: assets/images/badges/other/trevorforget/f9d3c40906.jpg
-    source: "https://github.com/hamster/trevorforget"
-    credit: "hamster"
-    caption: "TrevorForget PCB badge, back"
+- file: assets/images/badges/other/trevorforget/f7fe29952b.jpg
+  source: https://github.com/hamster/trevorforget
+  credit: hamster
+  caption: TrevorForget PCB badge, front
+- file: assets/images/badges/other/trevorforget/f9d3c40906.jpg
+  source: https://github.com/hamster/trevorforget
+  credit: hamster
+  caption: TrevorForget PCB badge, back
 contact: {}
 notes:
 - 'From the user''s ''SAOs to buy'' link list (2026-09-07). Mirror: https://github.com/hamster/trevorforget'
@@ -73,18 +73,25 @@ sources:
   url: https://github.com/hamster/trevorforget
   title: trevorforget (hamster/trevorforget)
   accessed: '2026-09-07'
-  note: 'Original hardware repo. README states the board was made for @grifter801 by @hamster for @derbycon, with front/back renders showing "R.I.P. 9/23/17" and credits to @derbycon, @Grifter801, and @hamster. KiCad source and Gerbers included; license text asks makers not to sell for profit.'
+  note: Original hardware repo. README states the board was made for @grifter801 by @hamster for @derbycon, with front/back renders showing "R.I.P. 9/23/17" and credits to @derbycon, @Grifter801, and @hamster. KiCad source and Gerbers included; license text asks makers not to sell for profit.
 - kind: url
   url: https://raw.githubusercontent.com/ANDnXOR/trevorforget/master/README.md
-  title: 'ANDnXOR/trevorforget README'
+  title: ANDnXOR/trevorforget README
   accessed: '2026-09-07'
   note: 'Confirms two firmware revisions: ATtiny816 for 2018, ATtiny3217 for 2019, flashed via Atmel Ice/UPDI (2019 adds a Tag Connect 2050 pogo-pin adapter).'
 research:
   status: verified
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'Made for DerbyCon (no DerbyCon entry exists in _data/events.yml, so event is left as "other"; the con and approximate year are DerbyCon, 2018-2019). Two related repos exist: hamster/trevorforget (original 2018 KiCad hardware, per its README made "for @grifter801 by @hamster for @derbycon") and ANDnXOR/trevorforget (firmware only, covering a 2018 ATtiny816 build and a 2019 ATtiny3217 revision). Neither repo documents what the firmware actually does, so functions is left empty. The back-of-board render shows a coin-shaped footprint, a single LED/diode symbol, and pads for a small MCU, consistent with a simple blinking memorial badge, but no source spells out the LED count/type or battery type, so tech.leds and tech.battery are left null rather than guessed. Price, quantity made, and how it was distributed are not stated anywhere found; get_one fields are left empty/unknown. No image could be confirmed as an in-hand photo — both saved images are CAD/rendering-tool screenshots of the PCB design from the hamster/trevorforget repo, which is the best material available. Fact-check pass (2026-09-07): re-fetched both github.com/hamster/trevorforget and github.com/ANDnXOR/trevorforget and viewed both saved images directly. README quotes ("made for @grifter801 by @hamster for @derbycon", "don''t sell these for profit", ATtiny816/ATtiny3217, Atmel Ice/UPDI, Tag Connect 2050, pyupdi) all confirmed verbatim. Both images visually confirmed on-badge: front shows the cockroach mascot in a bowler hat holding a cup and "#TREVORFORGET" text; back shows "R.I.P. 9/23/17" plus "@derbycon/@Grifter801/@hamster" and a coin-cell footprint with a diode symbol, matching colors (black/gold/white), shape (rectangle), and themes (mascot, animal). No unsupported claims or wrong images found; all populated fields are backed by the cited sources.'
-last_modified_date: '2026-09-07'
+  notes: 'Made for DerbyCon (no DerbyCon entry exists in _data/events.yml, so event is left as "other"; the con and approximate year are DerbyCon, 2018-2019). Two related repos exist: hamster/trevorforget (original 2018 KiCad hardware, per its README made "for @grifter801 by @hamster for @derbycon") and ANDnXOR/trevorforget (firmware only, covering a 2018 ATtiny816 build and a 2019 ATtiny3217 revision). Neither repo documents what the firmware actually does, so functions is left empty. The back-of-board render shows a coin-shaped footprint, a single LED/diode symbol, and pads for a small MCU, consistent with a simple blinking memorial badge, but no source spells out the LED count/type or battery type, so tech.leds and tech.battery are left null rather than guessed. Price, quantity made, and how it was distributed are not stated anywhere found; get_one fields are left empty/unknown. No image could be confirmed as an in-hand photo — both saved images are CAD/rendering-tool screenshots of the
+    PCB design from the hamster/trevorforget repo, which is the best material available. Fact-check pass (2026-09-07): re-fetched both github.com/hamster/trevorforget and github.com/ANDnXOR/trevorforget and viewed both saved images directly. README quotes ("made for @grifter801 by @hamster for @derbycon", "don''t sell these for profit", ATtiny816/ATtiny3217, Atmel Ice/UPDI, Tag Connect 2050, pyupdi) all confirmed verbatim. Both images visually confirmed on-badge: front shows the cockroach mascot in a bowler hat holding a cup and "#TREVORFORGET" text; back shows "R.I.P. 9/23/17" plus "@derbycon/@Grifter801/@hamster" and a coin-cell footprint with a diode symbol, matching colors (black/gold/white), shape (rectangle), and themes (mascot, animal). No unsupported claims or wrong images found; all populated fields are backed by the cited sources.'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/other/trevorforget.glb
+  method: kicad
+  source_file: trevor.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 52680
 ---
 
 TrevorForget is a memorial PCB badge made for the DerbyCon community. According to the original hardware repository (github.com/hamster/trevorforget), the boards were "made for @grifter801 by @hamster for @derbycon," and the board itself is marked "R.I.P. 9/23/17" on the back along with the handles @derbycon, @Grifter801, and @hamster — indicating it commemorates a community member named Trevor who died on that date. The front carries a cartoon cockroach mascot in a bowler hat holding a drink cup, with the hashtag #TREVORFORGET printed below it. The hardware design (KiCad source and Gerbers) was released by hamster with the requests "please don't sell these for profit" and "let us know if you are using them."

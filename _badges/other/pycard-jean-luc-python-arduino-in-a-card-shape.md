@@ -77,7 +77,13 @@ research:
   confidence: medium
   last_checked: '2026-09-07'
   notes: This is a general-purpose hobby/dev-board project (submitted to the 2017 Hackaday Prize and Sci-Fi Contest), not a badge or SAO made for a specific hacker convention, so no event correction was made and it stays filed under 'other'. The name 'Jean-Luc' is a Star Trek Jean-Luc Picard pun on 'card.' Quantity made and current availability are not stated anywhere found; the Tindie storefront could not be checked directly (Cloudflare blocked automated access), so availability is left unknown. No dedicated GitHub repo for this specific project was located (only files hosted directly on the Hackaday.io project page - schematic, board file, firmware, BOM); open_source is marked 'partial' since design files are published but no explicit license is stated.
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/other/pycard-jean-luc-python-arduino-in-a-card-shape.glb
+  method: kicad
+  source_file: PYcARD.brd
+  generated: '2026-09-10'
+  bytes: 314956
 ---
 
 PYcARD (Jean-Luc) is a wallet/card-sized development board designed by Peter Misenko, who goes by bobricius, and posted to Hackaday.io in January 2017 as an entry in that year's Hackaday Prize and Sci-Fi Contest. It is built around a SAMD21 microcontroller and can be programmed either as an Arduino board or in CircuitPython/MicroPython, with scripts editable directly through the USB mass-storage interface the board presents when plugged in. The name is a nod to Star Trek's Jean-Luc Picard, playing on "card."

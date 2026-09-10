@@ -90,7 +90,13 @@ research:
   confidence: medium
   last_checked: '2026-09-07'
   notes: OSHWDem is an annual open-source hardware maker event in A Coruña, Spain; Oshwi is its octopus mascot. The original Oshwi badge (ESP8266/ESP-12, 5 addressable RGB LEDs) was made by Gustavo Reynaga for OSHWDem 2017 and is documented on Hackaday.io and OSH Park's blog. This entry covers the repo's separate "2019" folder, which holds a redesign with new ESP32 and SAMD21 (M0) boards plus an ESP8266 LoRa variant, WS2812-2020 reverse-mount LEDs, and a reverse-mount 0.96" IPS TFT shield. No page names an "OSHWDem 2019" event or confirms these boards were built and distributed as badges that year; there is also no matching event id in _data/events.yml (only oshwdem-2017 exists), so event is left as "other". No photos of the assembled 2019 boards were found, only KiCad source files, SVG artwork, and screenshots of the design software; firmware for the 2019 variant was not located either. Price, quantity, and availability are unknown.
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/other/oshwi-badge-2019.glb
+  method: kicad
+  source_file: 2019/Huzzah_ESP32/Adafruit ESP32 Huzzah Breakout.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 203120
 ---
 
 Oshwi is the octopus mascot of OSHWDem, an annual open-source hardware event held in A Coruña, Spain. Mexican maker Gustavo Reynaga (hulkco) designed the original Oshwi badge for OSHWDem 2017: an ESP8266 (ESP-12 module) board in an octopus-shaped PCB, carrying five addressable WS2812 RGB LEDs and running on a small LiPo cell, entered into the 2018 Hackaday Prize's Open Hardware Design Challenge and shared as an OSH Park project.

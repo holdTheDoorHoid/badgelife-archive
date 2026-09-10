@@ -111,7 +111,13 @@ research:
   confidence: medium
   last_checked: '2026-09-07'
   notes: 'Made for no specific con — a tribute badge started after a badge-design chat at 34C3 (Dec 2017/Jan 2018), so event stays "other" (34C3 is not in events.yml and the maker explicitly says it was not made for that event). Price and quantity made were not stated on any source found. A second Tindie listing exists under "Spacehuhn Technologies" (spacehuhn/spacehuhn-badge) which may be a re-listing of the same item or a related product; not confirmed as distinct. Hardware files (Eagle schematic/board, rev2/rev3) are published in the linked repo; no firmware exists since the board has no MCU (tech.mcu: none, passive RGB blink circuit).'
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/other/retro-spacehuhn-badge-pin.glb
+  method: kicad
+  source_file: badge_spacehuhn.brd
+  generated: '2026-09-10'
+  bytes: 34356
 ---
 
 The Spacehuhn Blinky LED Badge is a small pin-style tribute badge honoring Stefan Kremser ("Spacehuhn"), author of the ESP8266 deauther project. Maker davedarko started the badge in January 2018 after the two discussed badge designs at 34C3 (the 34th Chaos Communication Congress); it was not made for any specific convention, but as a standalone project. The badge depicts Spacehuhn's chicken-in-a-space-helmet logo on a roughly 5cm x 5cm PCB, with two fading RGB LEDs standing in for the character's eyes.

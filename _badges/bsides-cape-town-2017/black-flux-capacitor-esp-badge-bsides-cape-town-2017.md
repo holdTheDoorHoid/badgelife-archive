@@ -11,17 +11,22 @@ year: 2017
 makers:
 - name: SensePost
   url: https://sensepost.com
-summary: 'The WiFi half of BSides Cape Town 2017''s two-part RFCat challenge badge, built around an ESP module with power-bank/USB charging and two rear buttons.'
-functions: 'Paired with the red CC1111 RFCat badge as one side of an RF communication challenge run at the con; the ESP''s WiFi capability supported the challenge''s network/web side while the red badge handled sub-GHz RF.'
+summary: The WiFi half of BSides Cape Town 2017's two-part RFCat challenge badge, built around an ESP module with power-bank/USB charging and two rear buttons.
+functions: Paired with the red CC1111 RFCat badge as one side of an RF communication challenge run at the con; the ESP's WiFi capability supported the challenge's network/web side while the red badge handled sub-GHz RF.
 look:
-  colors: [black]
+  colors:
+  - black
   shape: null
-  themes: [radio, hardware tool, ctf]
+  themes:
+  - radio
+  - hardware tool
+  - ctf
 tech:
   mcu: ESP (2AL3B)
   leds: null
   display: null
-  connectivity: [wifi]
+  connectivity:
+  - wifi
   battery: power bank via USB
   sao_version: null
 get_one:
@@ -30,7 +35,7 @@ get_one:
   quantity: ''
   availability: unknown
   distribution: []
-  where: 'Distributed to attendees at BSides Cape Town 2017 as part of the con''s RFCat challenge badge set.'
+  where: Distributed to attendees at BSides Cape Town 2017 as part of the con's RFCat challenge badge set.
 make_your_own:
   open_source: null
   hardware_url: null
@@ -43,19 +48,22 @@ links:
 - label: 'SensePost: Building the BSidesCPT17 RFChallenge'
   url: https://sensepost.com/blog/2017/building-the-bsidescpt17-rfchallenge/
   kind: article
+  archived: https://web.archive.org/web/20260130140502/https://sensepost.com/blog/2017/building-the-bsidescpt17-rfchallenge/
 images:
-  - file: assets/images/badges/bsides-cape-town-2017/black-flux-capacitor-esp-badge-bsides-cape-town-2017/51c7e83404.jpg
-    source: "https://sensepost.com/blog/2017/building-the-bsidescpt17-rfchallenge/"
-    credit: "SensePost"
-    caption: "Front view of the black flux-capacitor ESP badge"
-  - file: assets/images/badges/bsides-cape-town-2017/black-flux-capacitor-esp-badge-bsides-cape-town-2017/4ce22cdb7f.jpg
-    source: "https://sensepost.com/blog/2017/building-the-bsidescpt17-rfchallenge/"
-    credit: "SensePost"
-    caption: "Back of the badge showing the power bank/USB charging wiring"
+- file: assets/images/badges/bsides-cape-town-2017/black-flux-capacitor-esp-badge-bsides-cape-town-2017/51c7e83404.jpg
+  source: https://sensepost.com/blog/2017/building-the-bsidescpt17-rfchallenge/
+  credit: SensePost
+  caption: Front view of the black flux-capacitor ESP badge
+  archived: https://web.archive.org/web/20260130140502/https://sensepost.com/blog/2017/building-the-bsidescpt17-rfchallenge/
+- file: assets/images/badges/bsides-cape-town-2017/black-flux-capacitor-esp-badge-bsides-cape-town-2017/4ce22cdb7f.jpg
+  source: https://sensepost.com/blog/2017/building-the-bsidescpt17-rfchallenge/
+  credit: SensePost
+  caption: Back of the badge showing the power bank/USB charging wiring
+  archived: https://web.archive.org/web/20260130140502/https://sensepost.com/blog/2017/building-the-bsidescpt17-rfchallenge/
 contact: {}
 notes:
 - 'Half of a two-part 2017 badge system: a black ESP-based (2AL3B ESP chip) badge with WiFi, power-bank wiring/USB charging, and rear buttons. Found by the event-year sweep, task bsides-bsides-cape-town.'
-- 'Maker attribution corrected from the sweep''s placeholder "BSides Cape Town 2017 event team" to SensePost, the security firm that built and wrote up the RFCat challenge on their blog.'
+- Maker attribution corrected from the sweep's placeholder "BSides Cape Town 2017 event team" to SensePost, the security firm that built and wrote up the RFCat challenge on their blog.
 status: released
 sources:
 - kind: url
@@ -65,14 +73,15 @@ sources:
   note: 'Found by the archive''s discovery sweep (angle: sweep:bsides-bsides-cape-town); event read as ''BSides Cape Town 2017''.'
 - kind: url
   url: https://sensepost.com/blog/2017/building-the-bsidescpt17-rfchallenge/
-  title: 'Building the BSidesCPT17 RFChallenge'
+  title: Building the BSidesCPT17 RFChallenge
   accessed: '2026-09-10'
-  note: 'Maker''s own write-up confirming the ESP chip (2AL3B), WiFi, power-bank/USB wiring, two rear buttons, and that this badge paired with a red CC1111 RFCat badge as a two-part challenge; source of both photos.'
+  note: Maker's own write-up confirming the ESP chip (2AL3B), WiFi, power-bank/USB wiring, two rear buttons, and that this badge paired with a red CC1111 RFCat badge as a two-part challenge; source of both photos.
+  archived: https://web.archive.org/web/20260130140502/https://sensepost.com/blog/2017/building-the-bsidescpt17-rfchallenge/
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-10'
-  notes: 'Confirmed on SensePost''s own blog post, which describes building the challenge but does not state price, quantity made, or whether hardware/firmware files were published. No repo or Gerbers found; the post links only to a GitHub gist of challenge/server code, not badge design files, so make_your_own is left empty rather than guessed.'
+  notes: Confirmed on SensePost's own blog post, which describes building the challenge but does not state price, quantity made, or whether hardware/firmware files were published. No repo or Gerbers found; the post links only to a GitHub gist of challenge/server code, not badge design files, so make_your_own is left empty rather than guessed.
 last_modified_date: '2026-09-10'
 ---
 

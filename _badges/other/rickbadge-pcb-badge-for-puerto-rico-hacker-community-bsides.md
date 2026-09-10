@@ -11,8 +11,8 @@ year: 2019
 makers:
 - name: soynerdito
   url: https://github.com/soynerdito
-summary: 'A Rick-and-Morty-themed PCB badge designed by soynerdito for the Puerto Rico hacker community, made for a BSides Puerto Rico "#BadgeLife" event.'
-functions: 'Lights 8 LEDs driven through a 74HC164 shift register from an ATtiny13A microcontroller.'
+summary: A Rick-and-Morty-themed PCB badge designed by soynerdito for the Puerto Rico hacker community, made for a BSides Puerto Rico "#BadgeLife" event.
+functions: Lights 8 LEDs driven through a 74HC164 shift register from an ATtiny13A microcontroller.
 look:
   colors:
   - blue
@@ -58,13 +58,13 @@ sources:
   note: 'README and repo contents: describes a Rick-and-Morty-themed PCB badge for the Puerto Rico hacker community #BadgeLife BSides; ATtiny13A-SU + 74164 shift register driving 8 LEDs, CR2032 battery; KiCad source files named "Badge2019", commits dated March-June 2019; author notes the circuit "has never been tested" as of publication.'
 images:
 - file: assets/images/badges/other/rickbadge-pcb-badge-for-puerto-rico-hacker-community-bsides/4cfb31026d.jpg
-  source: "https://github.com/soynerdito/RickBadge"
-  credit: "soynerdito"
-  caption: "3D render of the RickBadge PCB, front view"
+  source: https://github.com/soynerdito/RickBadge
+  credit: soynerdito
+  caption: 3D render of the RickBadge PCB, front view
 - file: assets/images/badges/other/rickbadge-pcb-badge-for-puerto-rico-hacker-community-bsides/49a1e32c7b.jpg
-  source: "https://github.com/soynerdito/RickBadge"
-  credit: "soynerdito"
-  caption: "3D render of the RickBadge PCB, back view"
+  source: https://github.com/soynerdito/RickBadge
+  credit: soynerdito
+  caption: 3D render of the RickBadge PCB, back view
 contact: {}
 links:
 - label: github.com/soynerdito/RickBadge
@@ -74,8 +74,14 @@ research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'No "BSides Puerto Rico" event exists in events.yml, so event is left as other; the con is BSides Puerto Rico (BSidesPR), and the KiCad project files are named "Badge2019" with all commits dated March-June 2019, indicating it was made for the 2019 event. No pricing, quantity, or availability information was published anywhere found; the maker states in the repo that the circuit "has never been tested," so it is unclear whether it was ever fabricated or distributed at the con. No dedicated firmware repository was found (make_your_own.open_source set to partial since only hardware/KiCad files are published).'
-last_modified_date: '2026-09-07'
+  notes: No "BSides Puerto Rico" event exists in events.yml, so event is left as other; the con is BSides Puerto Rico (BSidesPR), and the KiCad project files are named "Badge2019" with all commits dated March-June 2019, indicating it was made for the 2019 event. No pricing, quantity, or availability information was published anywhere found; the maker states in the repo that the circuit "has never been tested," so it is unclear whether it was ever fabricated or distributed at the con. No dedicated firmware repository was found (make_your_own.open_source set to partial since only hardware/KiCad files are published).
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/other/rickbadge-pcb-badge-for-puerto-rico-hacker-community-bsides.glb
+  method: kicad
+  source_file: Badge2019.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 344984
 ---
 
 RickBadge is a Rick-and-Morty-themed PCB badge designed by soynerdito, a member of the Puerto Rico hacker community, for a BSides Puerto Rico "#BadgeLife" event. The board is built around an ATtiny13A-SU microcontroller paired with a 74164 8-bit serial-to-parallel shift register, which drives 8 discrete LEDs; power comes from a CR2032 coin cell. The KiCad project files in the repository are named "Badge2019," and all commits to the repo fall between March and June 2019, indicating it was made for that year's event.

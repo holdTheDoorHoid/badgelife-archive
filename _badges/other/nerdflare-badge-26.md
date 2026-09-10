@@ -12,7 +12,7 @@ series: NerdFlare Badge
 makers:
 - name: NerdFlare
   url: https://nerdflare.github.io
-summary: 'The 2025-26 club/team badge of NerdFlare, a Cal Poly (San Luis Obispo) student club "dedicated to making art from technology." It runs CircuitPython, carries a level-based game mode, and continues an annual team-badge series the club started with NerdFlareBadge25.'
+summary: The 2025-26 club/team badge of NerdFlare, a Cal Poly (San Luis Obispo) student club "dedicated to making art from technology." It runs CircuitPython, carries a level-based game mode, and continues an annual team-badge series the club started with NerdFlareBadge25.
 functions: Runs a "sparkle" LED animation mode and a "game" mode that tracks a saved progress level (settings persisted to onboard storage as JSON); colors are shuffled per-badge using the microcontroller's unique ID as a random seed.
 look:
   colors: []
@@ -38,7 +38,7 @@ get_one:
   distribution: []
   where: Made for NerdFlare's own club members, not sold to the public.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/NerdFlare/NerdFlareBadge26/tree/main/pcb
   firmware_url: https://github.com/NerdFlare/NerdFlareBadge26/tree/main/code
   eda_tool: KiCad
@@ -70,7 +70,7 @@ sources:
   url: https://api.github.com/orgs/NerdFlare
   title: NerdFlare GitHub organization
   accessed: '2026-09-07'
-  note: 'Identifies NerdFlare as "Cal Poly NerdFlare," a student organization.'
+  note: Identifies NerdFlare as "Cal Poly NerdFlare," a student organization.
 - kind: url
   url: https://nerdflare.github.io
   title: Cal Poly NerdFlare club site
@@ -85,25 +85,15 @@ research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: >-
-    NerdFlareBadge26 is the 2025-26 team/club badge of NerdFlare, a Cal Poly
-    San Luis Obispo student club ("dedicated to making art from technology")
-    that also makes SAOs and other badgelife projects (an SAO footprint/symbol
-    library, an iFixit DEFCON 2026 SAO, the "sparky-sao-display", and an
-    annual NerdFlare Soldering Challenge). It continues a series that began
-    with NerdFlareBadge25 (2024-25 AY). The repo (art/code/pcb folders) has no
-    README or BOM, so the exact MCU, LED count, colorway, price, quantity, and
-    distribution could not be confirmed; firmware imports point to a
-    CircuitPython-capable microcontroller driving NeoPixels and separate
-    digital LEDs. No photo of NerdFlareBadge26 itself was found (the club's
-    gallery site currently only shows photos of the prior year's
-    NerdFlareBadge25); GitHub's repo social-preview image is a generic
-    OG card, not a badge photo, so no image was saved. Not sold to the
-    public as far as sources indicate, so this does not match the sheet's
-    framing as something "to buy." Event kept as "other": this is a club
-    badge, not made for a specific hacker convention, so no events.yml id
-    applies.
-last_modified_date: '2026-09-07'
+  notes: 'NerdFlareBadge26 is the 2025-26 team/club badge of NerdFlare, a Cal Poly San Luis Obispo student club ("dedicated to making art from technology") that also makes SAOs and other badgelife projects (an SAO footprint/symbol library, an iFixit DEFCON 2026 SAO, the "sparky-sao-display", and an annual NerdFlare Soldering Challenge). It continues a series that began with NerdFlareBadge25 (2024-25 AY). The repo (art/code/pcb folders) has no README or BOM, so the exact MCU, LED count, colorway, price, quantity, and distribution could not be confirmed; firmware imports point to a CircuitPython-capable microcontroller driving NeoPixels and separate digital LEDs. No photo of NerdFlareBadge26 itself was found (the club''s gallery site currently only shows photos of the prior year''s NerdFlareBadge25); GitHub''s repo social-preview image is a generic OG card, not a badge photo, so no image was saved. Not sold to the public as far as sources indicate, so this does not match the sheet''s framing
+    as something "to buy." Event kept as "other": this is a club badge, not made for a specific hacker convention, so no events.yml id applies.'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/other/nerdflare-badge-26.glb
+  method: kicad
+  source_file: pcb/NerdFlareBadge26.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 243144
 ---
 
 NerdFlareBadge26 is the 2025-26 academic-year team badge of NerdFlare, a student club at Cal Poly San Luis Obispo that describes itself as being "dedicated to making art from technology." It's the latest entry in an annual internal badge series that started with NerdFlareBadge25 the year before, made for the club's own members rather than sold or distributed at a convention.

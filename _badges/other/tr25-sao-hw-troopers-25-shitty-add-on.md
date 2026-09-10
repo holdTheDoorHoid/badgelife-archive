@@ -14,9 +14,15 @@ makers:
 summary: A passive 4-LED SAO made for TROOPERS 25 (ERNW's security conference), shaped as a UFO abducting a cow.
 functions: Lights up in RGB via its four addressable LEDs, driven entirely by the host TROOPERS 25 badge (no onboard microcontroller).
 look:
-  colors: [white]
+  colors:
+  - white
   shape: ufo
-  themes: [sci-fi, space, animal, cow, meme]
+  themes:
+  - sci-fi
+  - space
+  - animal
+  - cow
+  - meme
 tech:
   mcu: none
   leds:
@@ -33,9 +39,9 @@ get_one:
   quantity: '420'
   availability: unknown
   distribution: []
-  where: 'Made for attendees of TROOPERS 25 (ERNW), the badge''s host conference; distribution method to attendees not confirmed from available sources.'
+  where: Made for attendees of TROOPERS 25 (ERNW), the badge's host conference; distribution method to attendees not confirmed from available sources.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/jeffmakes/tr25-sao-hw
   firmware_url: null
   eda_tool: KiCad
@@ -44,17 +50,17 @@ links:
   url: https://github.com/jeffmakes/tr25-sao-hw
   kind: repo
 images:
-  - file: assets/images/badges/other/tr25-sao-hw-troopers-25-shitty-add-on/aba0e24047.jpg
-    source: "https://github.com/jeffmakes/tr25-sao-hw"
-    credit: "jeffmakes (Jeff Gough)"
-    caption: "Front of the SAO: a UFO abducting a cow, PCB rendering"
-  - file: assets/images/badges/other/tr25-sao-hw-troopers-25-shitty-add-on/100c62f33d.jpg
-    source: "https://github.com/jeffmakes/tr25-sao-hw"
-    credit: "jeffmakes (Jeff Gough)"
-    caption: "Back of the SAO: TROOPERS 25 / ERNW branding, Jeff Gough @jeffmakes, Monad 2025"
+- file: assets/images/badges/other/tr25-sao-hw-troopers-25-shitty-add-on/aba0e24047.jpg
+  source: https://github.com/jeffmakes/tr25-sao-hw
+  credit: jeffmakes (Jeff Gough)
+  caption: 'Front of the SAO: a UFO abducting a cow, PCB rendering'
+- file: assets/images/badges/other/tr25-sao-hw-troopers-25-shitty-add-on/100c62f33d.jpg
+  source: https://github.com/jeffmakes/tr25-sao-hw
+  credit: jeffmakes (Jeff Gough)
+  caption: 'Back of the SAO: TROOPERS 25 / ERNW branding, Jeff Gough @jeffmakes, Monad 2025'
 contact: {}
 notes:
-  - "Repo has no README; all facts below are drawn from the KiCad schematic, board renders, and PCB fab job specification committed to the repository."
+- Repo has no README; all facts below are drawn from the KiCad schematic, board renders, and PCB fab job specification committed to the repository.
 status: released
 sources:
 - kind: url
@@ -66,12 +72,12 @@ sources:
   url: https://github.com/jeffmakes/tr25-sao-hw/blob/main/r1/build/tr25-sao-r1-sch.pdf
   title: tr25-sao-r1 schematic (KiCad export)
   accessed: '2026-09-07'
-  note: 'Confirms 4x SK6812SMINI-ER RGB LEDs, no MCU, standard 6-pin (v1.69bis) SAO header, and a design note that the host TROOPERS 25 badge uses its ESP32-S3 to drive the LEDs non-standardly through IO2 (audio DAC/SPKR on IO1).'
+  note: Confirms 4x SK6812SMINI-ER RGB LEDs, no MCU, standard 6-pin (v1.69bis) SAO header, and a design note that the host TROOPERS 25 badge uses its ESP32-S3 to drive the LEDs non-standardly through IO2 (audio DAC/SPKR on IO1).
 - kind: url
   url: https://github.com/jeffmakes/tr25-sao-hw/blob/main/r1/build/tr25-sao-job-specification.txt
   title: tr25-sao-r1 PCB fab job specification
   accessed: '2026-09-07'
-  note: 'Confirms production quantity of 420pcs, 2-layer 1.6mm FR4, white soldermask, black silkscreen, HASL finish.'
+  note: Confirms production quantity of 420pcs, 2-layer 1.6mm FR4, white soldermask, black silkscreen, HASL finish.
 - kind: url
   url: https://github.com/jeffmakes/tr25-sao-hw/blob/main/r1/build/tr25-sao-r1-front.png
   title: tr25-sao-r1 front render
@@ -87,7 +93,13 @@ research:
   confidence: high
   last_checked: '2026-09-07'
   notes: 'Event corrected from "other" (Troopers 2025) — no matching id exists yet in _data/events.yml for TROOPERS (ERNW''s Heidelberg, Germany conference), so event is left as other and the con is named here: this SAO was made for TROOPERS 25 (2025). No README, storefront, or social post was found describing price or exact distribution method to attendees; the repo (design files, schematic, and fab job spec) was the only available source. Web search was unavailable for this task (session search budget exhausted) so third-party coverage could not be checked.'
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/other/tr25-sao-hw-troopers-25-shitty-add-on.glb
+  method: kicad
+  source_file: r1/src/tr25-sao-r1/tr25-sao-r1.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 76372
 ---
 
 The tr25-sao-hw is a Shitty Add-On made by Jeff Gough (jeffmakes, trading as Monad) for TROOPERS 25, the ERNW-run security conference. It has no onboard microcontroller: four SK6812SMINI-ER addressable RGB LEDs are wired in a chain straight to a standard 6-pin (v1.69bis) SAO header, so all the animation logic lives on the host TROOPERS 25 conference badge rather than on the add-on itself. The schematic notes a quirk of that host badge: its ESP32-S3 drives the SAO's LEDs over IO2 instead of the standard IO1, because IO1 doubles as the badge's audio DAC/speaker output, and a resistor is added so a spec-compliant badge could still drive the LEDs through IO1 without attenuating the speaker signal.

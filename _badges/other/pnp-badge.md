@@ -47,9 +47,9 @@ links:
   kind: repo
 images:
 - file: assets/images/badges/other/pnp-badge/a1171a7ee4.jpg
-  source: "https://github.com/securelyfitz/pnpbadge"
-  credit: "Joe FitzPatrick (securelyfitz)"
-  caption: "PnP Badge PCB render/photo"
+  source: https://github.com/securelyfitz/pnpbadge
+  credit: Joe FitzPatrick (securelyfitz)
+  caption: PnP Badge PCB render/photo
 contact: {}
 notes:
 - From the user's 'SAOs to buy' link list (2026-09-07).
@@ -74,15 +74,14 @@ research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: >-
-    The repo's own description is "Simple badge for learning to set up and operate a PnP machine" --
-    it is a practice/demo PCB (25 LEDs + resistors, coin-cell battery, switch, no microcontroller)
-    for learning pick-and-place assembly, not a badge made for a specific hacker convention. No
-    README, license, price, quantity, or storefront was found, so those fields are left empty.
-    Maker is Joe FitzPatrick (securelyfitz / securinghardware.com), a hardware security trainer;
-    the board may be used in his training courses but no source confirms that. No event match
-    found in _data/events.yml, so event is left as "other".
-last_modified_date: '2026-09-07'
+  notes: The repo's own description is "Simple badge for learning to set up and operate a PnP machine" -- it is a practice/demo PCB (25 LEDs + resistors, coin-cell battery, switch, no microcontroller) for learning pick-and-place assembly, not a badge made for a specific hacker convention. No README, license, price, quantity, or storefront was found, so those fields are left empty. Maker is Joe FitzPatrick (securelyfitz / securinghardware.com), a hardware security trainer; the board may be used in his training courses but no source confirms that. No event match found in _data/events.yml, so event is left as "other".
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/other/pnp-badge.glb
+  method: kicad
+  source_file: pnpbadge.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 96032
 ---
 
 The PnP Badge is a small open-source PCB by Joe FitzPatrick (securelyfitz), published as a bare KiCad project on GitHub. Its stated purpose is to teach someone how to set up and operate a pick-and-place (PnP) machine: the board holds 25 LEDs, each with its own resistor, plus a coin-cell battery holder and a switch, so a successful build lights up all 25 LEDs and visibly demonstrates that the PnP machine placed and reflowed every part correctly.

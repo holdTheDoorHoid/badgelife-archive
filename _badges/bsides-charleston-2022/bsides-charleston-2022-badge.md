@@ -52,6 +52,7 @@ links:
 - label: docs.badgepirates.com/catalog
   url: https://docs.badgepirates.com/catalog/
   kind: website
+  archived: https://web.archive.org/web/20260910225903/https://docs.badgepirates.com/catalog/#help-us-fill-the-gaps
 images:
 - file: assets/images/badges/bsides-charleston-2022/bsides-charleston-2022-badge/2d577a8140.jpg
   source: https://github.com/BadgePiratesLLC/BSidesCHS_2022
@@ -82,11 +83,13 @@ sources:
   title: CAD folder (BsidesCHS-2022-Badge KiCad project)
   accessed: '2026-09-10'
   note: Confirms KiCad project files and a gerbers folder are published alongside the firmware.
+  archived: https://web.archive.org/web/20260910230048/https://github.com/BadgePiratesLLC/BSidesCHS_2022/tree/main/CAD
 - kind: url
   url: https://docs.badgepirates.com/catalog/
   title: Badge Pirates catalog
   accessed: '2026-09-10'
   note: Lists the badge under BSides Charleston 2022 with a link back to the same GitHub repo; no additional specs, price, quantity, or images.
+  archived: https://web.archive.org/web/20260910225903/https://docs.badgepirates.com/catalog/#help-us-fill-the-gaps
 research:
   status: researched
   confidence: medium

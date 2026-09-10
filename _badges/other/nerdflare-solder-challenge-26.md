@@ -37,7 +37,7 @@ get_one:
   distribution: []
   where: ''
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/NerdFlare/NF-SolderChallenge26/tree/main/pcb
   firmware_url: https://github.com/NerdFlare/NF-SolderChallenge26/tree/main/code/nf-solderchallenge26
   eda_tool: KiCad
@@ -84,7 +84,13 @@ research:
   confidence: medium
   last_checked: '2026-09-07'
   notes: NerdFlare is Cal Poly's electronics-art club (not a hacker-con vendor), and this board is an internal 2026 soldering challenge/practice piece rather than something sold or distributed at a convention, so no matching event id exists in events.yml and it stays filed under "other". No product photos, price, quantity, distribution details, or PCB color were found anywhere in the repo or the club site; the repo has no README. Battery cell type and board shape/color are unconfirmed since no images exist. The club's other repos (NerdFlareBadge25, NerdFlareBadge26, sparky-sao-display, iFixit-SAO-2026) look like separate badge/SAO projects that could merit their own entries.
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/other/nerdflare-solder-challenge-26.glb
+  method: kicad
+  source_file: pcb/NerdFlare-solder-challenge26.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 84744
 ---
 
 The NerdFlare Solder Challenge 26 is a small practice PCB built by Cal Poly's NerdFlare club — a student group described on its own site as being "dedicated to making art from technology" — for its 2026 soldering challenge. Rather than being a badge worn at a hacker conference, it's a teaching/testing board: five LEDs, one each in through-hole, 1206, 0805, 0603, and 0402 package sizes, are wired to an ATtiny85V microcontroller that lights them one after another. A builder who solders all five joints correctly sees the chase run cleanly across every package size, from the easiest (THT) down to the smallest (0402), making it a self-checking exercise in solder precision.

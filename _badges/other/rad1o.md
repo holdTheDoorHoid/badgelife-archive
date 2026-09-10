@@ -99,7 +99,13 @@ research:
   last_checked: '2026-09-07'
   notes: 'Made by Chaos Computer Club Munich as the official badge of Chaos Communication Camp 2015 (a camp, not a Congress, correcting the sweep''s original guess); the archive''s events.yml has no cccamp-2015 entry (only cccamp-2019 exists), so event is left as "other" pending that event being added. 4,500 units were made and given away free to attendees; none are for sale now. LED count/type not documented in sources reviewed. EDA tool for hardware is Eagle CAD per the GitHub repo, but not stated as such by the maker in prose, so left out of tech.eda_tool per the "never invent" / prefer explicit statement caution; noted in notes instead. The rad1o is the direct successor to the r0ket badge (CCCamp 2011). Fact-check pass (2026-09-07): corrected "full-duplex" to "half-duplex" in functions (both hackaday.io and the official wiki explicitly call it a half-duplex transceiver); removed an unsupported claim about community-written games (no source mentions games); removed an invented "second
     USB port" detail from the body (only one USB connection is documented, used for both charging and data/firmware); changed get_one.availability from sold_out to free per the guide''s vocabulary, since this was a giveaway, never a sale. NXP LPC4330 is confirmed only indirectly, via an LPC4350/30/20/10 datasheet filed in the GitHub hardware repo''s datasheets folder; no source states "LPC4330" in prose. All other fields and sentences were confirmed against the cited maker/press sources and left as-is.'
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/other/rad1o.glb
+  method: kicad
+  source_file: badge_V2.brd
+  generated: '2026-09-10'
+  bytes: 2411440
 ---
 
 The rad1o is a wearable software-defined radio transceiver built by members of Chaos Computer Club Munich as the official conference badge of Chaos Communication Camp 2015. Around 4,500 units were manufactured and given free to camp attendees. Built around an NXP LPC4330 (ARM Cortex-M4) microcontroller paired with a wideband RF transceiver, it tunes roughly 50 MHz to 4000 MHz and is software-compatible with the open-source HackRF platform, letting owners boot it either into HackRF-compatible firmware or into custom rad1o firmware that exercises the badge's own peripherals.

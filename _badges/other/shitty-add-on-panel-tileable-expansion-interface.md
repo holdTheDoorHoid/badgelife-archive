@@ -66,7 +66,13 @@ research:
   confidence: medium
   last_checked: '2026-09-07'
   notes: 'Fact-check pass re-verified every non-empty field and body sentence against the GitHub repo (API-confirmed README text, file listing, created/pushed dates, star count, empty topics, zero releases) and, this time with web access available, against Hackaday: Brian Benchoff (the GitHub profile''s display name) wrote Hackaday''s own March 2019 article introducing the V1.69bis standard, confirming the "closely associated with the SAO standard" claim the original researcher could not check. No maker bio, event, price, quantity, or photos exist anywhere in the repo or its metadata, so those fields stay empty/null and event stays "other" - nothing found ties this panel to a specific convention or year. Confidence raised from low to medium (not high) because event/price/quantity/images remain entirely unfound rather than confirmed absent.'
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/other/shitty-add-on-panel-tileable-expansion-interface.glb
+  method: kicad
+  source_file: ShittyPanel.brd
+  generated: '2026-09-10'
+  bytes: 72480
 ---
 
 This is a bare, unpopulated expansion panel rather than a badge or SAO in the usual sense: a 60mm x 60mm board that carries 3.3V power through a Shitty Add-On V1.69bis (6-pin) connector and is designed to be tiled end-to-end with identical panels, using M3 standoff holes for mounting. It has no microcontroller, LEDs, or display of its own — it is infrastructure for building larger panel arrays out of SAO-compliant boards.

@@ -1937,5 +1937,282 @@
   "bytes": 244816,
   "tried": [],
   "src": "antani_hw/antani_hw.kicad_pcb"
+ },
+ "other-mr-fixit-sao": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 475608,
+  "tried": [],
+  "src": "mr-fixit/mrfixit.kicad_pcb"
+ },
+ "other-mranderson-skate-sao": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 34756,
+  "tried": [],
+  "src": "MrAnderson/MrAnderson/MrAnderson.kicad_pcb"
+ },
+ "other-mult-lsao-port-multiplier-ozseccon-2019": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 213992,
+  "tried": [],
+  "src": "OzSecCon2019/mult/mult.kicad_pcb"
+ },
+ "other-mysterio-sao": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 105356,
+  "tried": [],
+  "src": "MysterioSAO/mysterio/mysterio.kicad_pcb"
+ },
+ "other-nerdflare-badge-26": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 243144,
+  "tried": [],
+  "src": "pcb/NerdFlareBadge26.kicad_pcb"
+ },
+ "other-nerdflare-solder-challenge-26": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 84744,
+  "tried": [],
+  "src": "pcb/NerdFlare-solder-challenge26.kicad_pcb"
+ },
+ "other-nerdflarebadge25": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 133316,
+  "tried": [],
+  "src": "pcb/NerdFlare25.kicad_pcb"
+ },
+ "other-notcamera-sao-rma-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 46440,
+  "tried": [],
+  "src": "SAO/NotCamera/Schematics/Camera.kicad_pcb"
+ },
+ "other-oshwi-badge-2019": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 203120,
+  "tried": [],
+  "src": "2019/Huzzah_ESP32/Adafruit ESP32 Huzzah Breakout.kicad_pcb"
+ },
+ "other-penghicorn": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 259100,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "penghis_cahn.brd"
+ },
+ "other-penghito-poco-sao": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 41996,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "penghitopoco.brd"
+ },
+ "other-penguin-learn-to-solder-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 140156,
+  "tried": [],
+  "src": "KiCad/_autosave-Penguin_Learn_to_Solder_Badge.kicad_pcb"
+ },
+ "other-pepitabadgeshieldcompatible-bsides-badge-pepita": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 53324,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "PenMega.brd"
+ },
+ "other-pnp-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 96032,
+  "tried": [],
+  "src": "pnpbadge.kicad_pcb"
+ },
+ "other-pumpkin-witch": {
+  "status": "ok",
+  "method": "gerber",
+  "bytes": 156212,
+  "tried": [],
+  "src": "PumpkinWitch_Gerbers_Public.zip"
+ },
+ "other-pycard-jean-luc-python-arduino-in-a-card-shape": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 314956,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "PYcARD.brd"
+ },
+ "other-rad1o": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 2411440,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "badge_V2.brd"
+ },
+ "other-remoticon-2-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 351568,
+  "tried": [],
+  "src": "remoticon.2.badge.kicad_pcb"
+ },
+ "other-retro-spacehuhn-badge-pin": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 34356,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "badge_spacehuhn.brd"
+ },
+ "other-rickbadge-pcb-badge-for-puerto-rico-hacker-community-bsides": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 344984,
+  "tried": [],
+  "src": "Badge2019.kicad_pcb"
+ },
+ "other-rootcon-19-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 331672,
+  "tried": [],
+  "src": "hardware/Badge_Rootcon.kicad_pcb"
+ },
+ "other-sam-badge-dulces-suenos": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 70736,
+  "tried": [],
+  "src": "Hardware/BadgeSam.kicad_pcb"
+ },
+ "other-sao-badgepirates": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 37800,
+  "tried": [],
+  "src": "Bsides-KC-2021-SAO-BP.kicad_pcb"
+ },
+ "other-sao-library-stick": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 314068,
+  "tried": [],
+  "src": "SAO library stick/SAO_library.kicad_pcb"
+ },
+ "other-sao-to-minibadge-universal-adapter": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 101892,
+  "tried": [],
+  "src": "SAO_MB_adapter.kicad_pcb"
+ },
+ "other-scouter-sao": {
+  "status": "ok",
+  "method": "gerber",
+  "bytes": 100012,
+  "tried": [],
+  "src": "Scouter-SAO/gerber"
+ },
+ "other-scryptkeeper": {
+  "status": "ok",
+  "method": "gerber",
+  "bytes": 184572,
+  "tried": [],
+  "src": "ScryptKeeper/Gerber Fabrication Files"
+ },
+ "other-securelyfitz-2018-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 462348,
+  "tried": [],
+  "src": "HW/BSidesPDX_2018/BSidesPDX_2018.kicad_pcb"
+ },
+ "other-sensaor-sao-with-an-adapted-saoao-header": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 171248,
+  "tried": [],
+  "src": "pcba/sensaor/sensaor.kicad_pcb"
+ },
+ "other-shitty-add-on-panel-tileable-expansion-interface": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 72480,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "ShittyPanel.brd"
+ },
+ "other-small-word-clock": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 354536,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "wordclock.brd"
+ },
+ "other-sparky-sao-display": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 297052,
+  "tried": [],
+  "src": "pcb/sparky sao display.kicad_pcb"
+ },
+ "other-stm8-minibadges": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 34240,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "saint lcd.brd"
+ },
+ "other-the-badge-of-the-lands": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 328392,
+  "tried": [],
+  "src": "BENOTL-HW/Chica/talentBadge.kicad_pcb"
+ },
+ "other-tr23-sao-hw-troopers-2023-shitty-add-on": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 28036,
+  "tried": [],
+  "src": "r1/src/tr23-sao-r1.kicad_pcb"
+ },
+ "other-tr25-sao-hw-troopers-25-shitty-add-on": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 76372,
+  "tried": [],
+  "src": "r1/src/tr25-sao-r1/tr25-sao-r1.kicad_pcb"
+ },
+ "other-trevorforget": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 52680,
+  "tried": [],
+  "src": "trevor.kicad_pcb"
  }
 }

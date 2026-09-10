@@ -82,7 +82,13 @@ research:
   last_checked: '2026-09-07'
   notes: 'Fact-check pass (2026-09-07): re-fetched all four cited sources directly. GitHub repo confirmed archived, README confirmed genuinely empty (just an "# SAO_BadgePirates" heading), repo contains exactly one KiCad PCB project (Bsides-KC-2021-SAO-BP.kicad_pcb/.sch/.pro/.prl, one footprint library folder named "...SVG2Shenzen v1_00.pretty", a gerbers folder) and no firmware, matching the open_source/eda_tool/hardware_url fields. Org page and badgepirates.com both confirmed as described. One inaccuracy found and corrected: the prior summary/body called this "a pair of SAO add-ons," but the site''s own gallery caption is plural ("BSides KC 2021 SAOs") and its photo (assets/images/badges/other/sao-badgepirates/17a45a0420.png) shows at least 7-8 distinct role-labeled variants (Sponsor, Village, Organizer, Participant, Speaker, Volunteer, Badge Pirates, plus a differently-shaped "RF Village" piece), not two — "pair" was unsupported and has been replaced with "set"/"variants" language grounded
     in the photo. No matching "BSides KC" event exists in _data/events.yml, so event is correctly left as "other"; the con is BSides KC 2021, noted here and in the body for a future event addition. No Hackaday.io page, store listing, price, or quantity was found anywhere, so those fields correctly stay empty.'
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/other/sao-badgepirates.glb
+  method: kicad
+  source_file: Bsides-KC-2021-SAO-BP.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 37800
 ---
 
 BadgePirates is a Midwest-based, non-profit badge-making collective ("Making Badges for Fun not Profit") that has designed 60+ conference badges since 2016, including this SAO add-on made for BSides KC 2021. The badgepirates.com gallery photo for this entry shows several role-labeled variants (e.g. Sponsor, Organizer, Participant, Speaker, Volunteer, plus a separately shaped "RF Village" piece) built around the same design, distributed to go with BadgePirates' main BSides KC 2021 conference badge that year. The GitHub repo's KiCad project is named "Bsides-KC-2021-SAO-BP", with a sub-library called "SVG2Shenzen v1_00".

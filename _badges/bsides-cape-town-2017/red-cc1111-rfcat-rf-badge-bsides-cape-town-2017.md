@@ -49,18 +49,21 @@ links:
 - label: 'SensePost: building the bsidescpt17 rfchallenge'
   url: https://sensepost.com/blog/2017/building-the-bsidescpt17-rfchallenge/
   kind: article
-- label: 'BSides CPT 2017 - RFCat Challenge Server and Client Sources'
+  archived: https://web.archive.org/web/20260130140502/https://sensepost.com/blog/2017/building-the-bsidescpt17-rfchallenge/
+- label: BSides CPT 2017 - RFCat Challenge Server and Client Sources
   url: https://gist.github.com/minkione/042c5792389803eec59064939f263198
   kind: repo
 images:
 - file: assets/images/badges/bsides-cape-town-2017/red-cc1111-rfcat-rf-badge-bsides-cape-town-2017/0695361ef8.jpg
-  source: "https://sensepost.com/blog/2017/building-the-bsidescpt17-rfchallenge/"
-  credit: "SensePost / Leon Jacobs"
-  caption: "Front of the red RF badge, showing the CC1111 chip, USB port, GoodFET and expansion headers, and antenna pads"
+  source: https://sensepost.com/blog/2017/building-the-bsidescpt17-rfchallenge/
+  credit: SensePost / Leon Jacobs
+  caption: Front of the red RF badge, showing the CC1111 chip, USB port, GoodFET and expansion headers, and antenna pads
+  archived: https://web.archive.org/web/20260130140502/https://sensepost.com/blog/2017/building-the-bsidescpt17-rfchallenge/
 - file: assets/images/badges/bsides-cape-town-2017/red-cc1111-rfcat-rf-badge-bsides-cape-town-2017/35c4109c7f.jpg
-  source: "https://sensepost.com/blog/2017/building-the-bsidescpt17-rfchallenge/"
-  credit: "SensePost / Leon Jacobs"
-  caption: "Back of the red RF badge, with only test-point contacts exposed"
+  source: https://sensepost.com/blog/2017/building-the-bsidescpt17-rfchallenge/
+  credit: SensePost / Leon Jacobs
+  caption: Back of the red RF badge, with only test-point contacts exposed
+  archived: https://web.archive.org/web/20260130140502/https://sensepost.com/blog/2017/building-the-bsidescpt17-rfchallenge/
 contact: {}
 notes:
 - Companion half of the 2017 two-part badge system, built around a CC1111 RFCat-compatible radio with USB port, button, and exposed RF contacts for an 868MHz broadcast-chat challenge. Found by the event-year sweep, task bsides-bsides-cape-town.
@@ -75,14 +78,15 @@ sources:
   note: 'Found by the archive''s discovery sweep (angle: sweep:bsides-bsides-cape-town); event read as ''BSides Cape Town 2017''.'
 - kind: url
   url: https://sensepost.com/blog/2017/building-the-bsidescpt17-rfchallenge/
-  title: 'building the bsidescpt17 rfchallenge - SensePost'
+  title: building the bsidescpt17 rfchallenge - SensePost
   accessed: '2026-09-10'
-  note: 'Maker''s own writeup (author Leon Jacobs, SensePost) with photos of both badges; confirms the red badge''s CC1111 chip, USB port, button, exposed-contact back, that it was given to attendees, and the RF broadcast-chat challenge design.'
+  note: Maker's own writeup (author Leon Jacobs, SensePost) with photos of both badges; confirms the red badge's CC1111 chip, USB port, button, exposed-contact back, that it was given to attendees, and the RF broadcast-chat challenge design.
+  archived: https://web.archive.org/web/20260130140502/https://sensepost.com/blog/2017/building-the-bsidescpt17-rfchallenge/
 - kind: url
   url: https://gist.github.com/minkione/042c5792389803eec59064939f263198
-  title: 'BSides CPT 2017 - RFCat Challenge Server and Client Sources'
+  title: BSides CPT 2017 - RFCat Challenge Server and Client Sources
   accessed: '2026-09-10'
-  note: 'Challenge source code referenced from the SensePost post; confirms the challenge software exists publicly, though badge hardware design files were not found.'
+  note: Challenge source code referenced from the SensePost post; confirms the challenge software exists publicly, though badge hardware design files were not found.
 research:
   status: researched
   confidence: medium

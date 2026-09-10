@@ -84,7 +84,13 @@ research:
   confidence: medium
   last_checked: '2026-09-07'
   notes: Not made for a specific hacker convention; the repo and OSHWA record both describe it as made for beginner soldering workshops at two India-based hardware/Linux user groups (India Linux User Group Delhi, Hardware Hackers Club Delhi), so it is kept under the "other" event. Price, quantity made, and availability are not stated anywhere found. The repo lists through-hole, 555-timer blinky, and SAO versions as "coming soon" as of the README's last update, so tech.mcu/leds are left null since no built electronic variant is documented — only the plain PCB-art soldering-practice board is confirmed to exist (see Images/front.JPG, back.JPG in the repo).
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/other/penguin-learn-to-solder-badge.glb
+  method: kicad
+  source_file: KiCad/_autosave-Penguin_Learn_to_Solder_Badge.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 140156
 ---
 
 The Penguin Learn to Solder Badge is an open-source PCB art badge made by Ayan Pahwa (GitHub: iayanpahwa) for beginner soldering workshops run by the India Linux User Group Delhi and the Hardware Hackers Club Delhi. It is OSHWA-certified (UID IN000014, certified May 11, 2020) and registered as a "PCB Art soldering badge for workshops."

@@ -47,18 +47,22 @@ links:
 - label: blog.badgepirates.com/BsidesCHS-SOA-Assembly
   url: https://blog.badgepirates.com/BsidesCHS-SOA-Assembly/
   kind: website
+  archived: https://web.archive.org/web/20260611125024/https://blog.badgepirates.com/BsidesCHS-SOA-Assembly/
 - label: BadgePiratesLLC on GitHub
   url: https://github.com/BadgePiratesLLC
   kind: repo
+  archived: https://web.archive.org/web/20260523082542/https://github.com/BadgePiratesLLC
 images:
-  - file: assets/images/badges/bsides-charleston-2019/bsides-charleston-lock-sao/0dae0d88f1.jpg
-    source: "https://blog.badgepirates.com/BsidesCHS-SOA-Assembly/"
-    credit: "Badge Pirates"
-    caption: "BSides Charleston 2019 badge with the Lock SAO attached"
-  - file: assets/images/badges/bsides-charleston-2019/bsides-charleston-lock-sao/ed60857f4e.jpg
-    source: "https://blog.badgepirates.com/BsidesCHS-SOA-Assembly/"
-    credit: "Badge Pirates"
-    caption: "Lock SAO with LED and header, front view during assembly"
+- file: assets/images/badges/bsides-charleston-2019/bsides-charleston-lock-sao/0dae0d88f1.jpg
+  source: https://blog.badgepirates.com/BsidesCHS-SOA-Assembly/
+  credit: Badge Pirates
+  caption: BSides Charleston 2019 badge with the Lock SAO attached
+  archived: https://web.archive.org/web/20260611125024/https://blog.badgepirates.com/BsidesCHS-SOA-Assembly/
+- file: assets/images/badges/bsides-charleston-2019/bsides-charleston-lock-sao/ed60857f4e.jpg
+  source: https://blog.badgepirates.com/BsidesCHS-SOA-Assembly/
+  credit: Badge Pirates
+  caption: Lock SAO with LED and header, front view during assembly
+  archived: https://web.archive.org/web/20260611125024/https://blog.badgepirates.com/BsidesCHS-SOA-Assembly/
 contact: {}
 notes:
 - A lock-shaped SAO kit (LED + keyed headers) that attendees assembled themselves at BSides Charleston 2019, documented in a Badge Pirates assembly guide. Found by the event-year sweep, task bsides-huntsville.
@@ -70,21 +74,24 @@ sources:
   title: BSides Charleston Lock SAO
   accessed: '2026-09-07'
   note: 'Found by the archive''s discovery sweep (angle: sweep:bsides-huntsville); event read as ''BSides Charleston 2019''.'
+  archived: https://web.archive.org/web/20260611125024/https://blog.badgepirates.com/BsidesCHS-SOA-Assembly/
 - kind: url
   url: https://blog.badgepirates.com/BsidesCHS-SOA-Assembly/
   title: BsidesCHS SAO Assembly guide
   accessed: '2026-09-10'
   note: Maker's own assembly-instructions page; confirms maker, event/year, LED assembly detail, SAO v1.69bis header, and kit distribution at the event. Also source of both saved images.
+  archived: https://web.archive.org/web/20260611125024/https://blog.badgepirates.com/BsidesCHS-SOA-Assembly/
 - kind: url
   url: https://github.com/BadgePiratesLLC
   title: BadgePiratesLLC GitHub org
   accessed: '2026-09-10'
   note: Linked from the assembly page's social links; no repo specific to this SAO was found there.
+  archived: https://web.archive.org/web/20260523082542/https://github.com/BadgePiratesLLC
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-10'
-  notes: 'Confirmed on the maker''s own assembly-instructions page, which describes the kit and its LED wiring but gives no chip, price, quantity made, or design-file links, so those fields stay empty. No storefront or standalone product page was found, only the assembly guide, so quantity/availability/price could not be pinned down.'
+  notes: Confirmed on the maker's own assembly-instructions page, which describes the kit and its LED wiring but gives no chip, price, quantity made, or design-file links, so those fields stay empty. No storefront or standalone product page was found, only the assembly guide, so quantity/availability/price could not be pinned down.
 last_modified_date: '2026-09-10'
 ---
 

@@ -99,7 +99,13 @@ research:
   confidence: medium
   last_checked: '2026-09-07'
   notes: This is Hackaday's own Remoticon (a virtual Hackaday conference held in place of Supercon during the pandemic), not Hackaday Superconference - no matching event id exists in events.yml for "Remoticon 2021" or "Remoticon 2", so event is left as "other". Price, quantity made, and exact LED/battery details were not stated in any source found; left empty rather than guessed. A separate, unrelated "remoticon2020-badge" repo by the same maker exists for the prior year's event and should not be merged with this entry.
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/other/remoticon-2-badge.glb
+  method: kicad
+  source_file: remoticon.2.badge.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 351568
 ---
 
 For Hackaday's 2021 Remoticon 2 - a virtual conference run in place of an in-person Supercon during the pandemic - designer Thomas Flummer took an unusual approach to the "no physical badge distribution is possible" problem: instead of shipping an assembled badge, he released a KiCad design for a purple, OSH Park-style PCB with a grid of 0.1" pads that attendees could order from any fab and populate with whatever parts they already had. The goal was a board that fit Remoticon's visual identity while leaving the actual build entirely up to the maker.
