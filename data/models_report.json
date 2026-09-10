@@ -510,5 +510,30 @@
   "bytes": 1208448,
   "tried": [],
   "src": "pcb/BruCON_0x0a.kicad_pcb"
+ },
+ "brucon-2021-brucon-2021-badge": {
+  "status": "ok",
+  "method": "gerber",
+  "bytes": 831560,
+  "tried": [
+   "kicad glb: Command '['flatpak', 'run', '--filesystem=home', '--command=kicad-cli', 'org.kicad.KiCad', 'pcb', 'export', 'glb', '-o', '/home/hoid/Desktop/badgelife-archive/d"
+  ],
+  "src": "pcb/gasmask_pcb.kicad_pcb"
+ },
+ "bsides-bournemouth-2025-bsides-bournemouth-2025-skull-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 32272,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "main.brd"
+ },
+ "bsides-canberra-2019-nopia-1337": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 224392,
+  "tried": [],
+  "src": "BSidesCBR2019.kicad_pcb"
  }
 }

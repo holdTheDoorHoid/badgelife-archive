@@ -58,9 +58,11 @@ links:
 - label: events.ccc.de talk listing - The CDC Badge
   url: https://events.ccc.de/congress/2025/hub/en/event/detail/the-cdc-badge-conference-badge-devboard-with-tropi
   kind: doc
+  archived: https://web.archive.org/web/20260101124924/https://events.ccc.de/congress/2025/hub/en/event/detail/the-cdc-badge-conference-badge-devboard-with-tropi
 - label: decentral.community/39C3
   url: https://decentral.community/39C3/
   kind: website
+  archived: https://web.archive.org/web/20260705210337/https://decentral.community/39C3/
 - label: cdc-badge-nametag firmware
   url: https://github.com/riatlabs/cdc-badge-nametag
   kind: repo
@@ -87,11 +89,13 @@ sources:
   title: 'The CDC Badge: conference badge & devboard with TROPIC01 and ESP32-S3'
   accessed: '2026-09-08'
   note: 39C3 talk listing confirming presenters dllud, Pavel Polach, bobotronic, and that the badge is designed with KiCad and released as open hardware.
+  archived: https://web.archive.org/web/20260101124924/https://events.ccc.de/congress/2025/hub/en/event/detail/the-cdc-badge-conference-badge-devboard-with-tropi
 - kind: url
   url: https://decentral.community/39C3/
   title: 39C3 - decentral.community
   accessed: '2026-09-08'
   note: Confirms the CDC assembly ran at 39C3 in Hamburg, Germany, Dec 27-30 2025.
+  archived: https://web.archive.org/web/20260705210337/https://decentral.community/39C3/
 - kind: url
   url: https://github.com/riatlabs/cdc-badge-nametag
   title: 'riatlabs/cdc-badge-nametag: CDC Badge Firmware'

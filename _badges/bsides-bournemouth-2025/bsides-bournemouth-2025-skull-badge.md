@@ -12,8 +12,8 @@ series: Punk Security Skull/UFO Badge
 makers:
 - name: Punk Security
   url: https://github.com/punk-security
-summary: 'A UV full-colour silkscreened, skull-shaped electronic badge with an addressable RGB LED, made by Punk Security for BSides Bournemouth 2025.'
-functions: 'Runs Arduino-style firmware (via MegaTinyCore) that drives a single addressable Neopixel LED for lighting effects, triggered/controlled with an onboard button.'
+summary: A UV full-colour silkscreened, skull-shaped electronic badge with an addressable RGB LED, made by Punk Security for BSides Bournemouth 2025.
+functions: Runs Arduino-style firmware (via MegaTinyCore) that drives a single addressable Neopixel LED for lighting effects, triggered/controlled with an onboard button.
 look:
   colors:
   - black
@@ -26,13 +26,13 @@ tech:
   leds:
     count: 1
     type: WS2812B
-    note: 'Neopixel 5050 addressable RGB LED'
+    note: Neopixel 5050 addressable RGB LED
   display: none
   connectivity:
   - uart
   inputs:
   - buttons
-  battery: '2x CR2032 (surface-mount clips, 6V total)'
+  battery: 2x CR2032 (surface-mount clips, 6V total)
   sao_version: null
 get_one:
   price: ''
@@ -47,24 +47,24 @@ make_your_own:
   firmware_url: https://github.com/punk-security/bsides-bournemouth-2025-badge/blob/main/bsides-bournemouth-2025-badge.ino
   gerbers_url: https://github.com/punk-security/bsides-bournemouth-2025-badge/blob/main/gerber-files.zip
   eda_tool: EasyEDA
-  notes: 'PCB was designed first in AutoCAD EAGLE (schematic/board files provided), then exported for fabrication at JLCPCB via EasyEDA. Firmware is written for the Arduino IDE using MegaTinyCore, flashed over UPDI through the SAO connector.'
+  notes: PCB was designed first in AutoCAD EAGLE (schematic/board files provided), then exported for fabrication at JLCPCB via EasyEDA. Firmware is written for the Arduino IDE using MegaTinyCore, flashed over UPDI through the SAO connector.
 links:
 - label: github.com/punk-security/bsides-bournemouth-2025-badge
   url: https://github.com/punk-security/bsides-bournemouth-2025-badge
   kind: repo
 images:
-  - file: assets/images/badges/bsides-bournemouth-2025/bsides-bournemouth-2025-skull-badge/94eda2c821.png
-    source: "https://github.com/punk-security/bsides-bournemouth-2025-badge"
-    credit: "Punk Security"
-    caption: "The assembled skull badge PCB with UV full-colour silkscreen"
-  - file: assets/images/badges/bsides-bournemouth-2025/bsides-bournemouth-2025-skull-badge/f657cb5d94.jpg
-    source: "https://github.com/punk-security/bsides-bournemouth-2025-badge"
-    credit: "Punk Security"
-    caption: "Silkscreen artwork for the skull badge as ordered from JLCPCB"
+- file: assets/images/badges/bsides-bournemouth-2025/bsides-bournemouth-2025-skull-badge/94eda2c821.png
+  source: https://github.com/punk-security/bsides-bournemouth-2025-badge
+  credit: Punk Security
+  caption: The assembled skull badge PCB with UV full-colour silkscreen
+- file: assets/images/badges/bsides-bournemouth-2025/bsides-bournemouth-2025-skull-badge/f657cb5d94.jpg
+  source: https://github.com/punk-security/bsides-bournemouth-2025-badge
+  credit: Punk Security
+  caption: Silkscreen artwork for the skull badge as ordered from JLCPCB
 contact: {}
 notes:
 - Official electronic PCB skull badge sponsored/made by Punk Security for BSides Bournemouth's 2025 edition. Found by the event-year sweep, task bsides-any.
-- "Punk Security's README says the bill of materials is shared with their BSides Cheltenham 2024 badge (\"this is the list for the BSIDES Cheltenham 2024 badge, but it is the same bits\"), and the firmware file even carries a leftover reference to a \"bsides-cheltenham-2024-badge.ino\" filename in its setup instructions - this appears to be one board in a recurring series of similarly-built Punk Security con badges (Cheltenham 2024 UFO badge is already a separate archive entry). Price, quantity made, and availability/distribution (e.g. sponsor giveaway vs. sold) are not stated anywhere in the repo and were left empty."
+- Punk Security's README says the bill of materials is shared with their BSides Cheltenham 2024 badge ("this is the list for the BSIDES Cheltenham 2024 badge, but it is the same bits"), and the firmware file even carries a leftover reference to a "bsides-cheltenham-2024-badge.ino" filename in its setup instructions - this appears to be one board in a recurring series of similarly-built Punk Security con badges (Cheltenham 2024 UFO badge is already a separate archive entry). Price, quantity made, and availability/distribution (e.g. sponsor giveaway vs. sold) are not stated anywhere in the repo and were left empty.
 status: listed
 sources:
 - kind: url
@@ -76,13 +76,19 @@ sources:
   url: https://github.com/punk-security/bsides-bournemouth-2025-badge/blob/main/README.md
   title: 'punk-security/bsides-bournemouth-2025-badge: README'
   accessed: '2026-09-10'
-  note: 'Confirmed maker, event, MCU (ATtiny402), LED (Neopixel 5050/WS2812B-compatible), battery (2x CR2032), button, UV full-colour silkscreen, EAGLE/EasyEDA/JLCPCB fabrication, and MegaTinyCore/Arduino firmware flashed via UPDI over the SAO connector. Also notes the BOM is shared with the BSides Cheltenham 2024 badge.'
+  note: Confirmed maker, event, MCU (ATtiny402), LED (Neopixel 5050/WS2812B-compatible), battery (2x CR2032), button, UV full-colour silkscreen, EAGLE/EasyEDA/JLCPCB fabrication, and MegaTinyCore/Arduino firmware flashed via UPDI over the SAO connector. Also notes the BOM is shared with the BSides Cheltenham 2024 badge.
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-10'
-  notes: 'Maker''s own GitHub repo (code, gerbers, EAGLE files, README) confirms the badge exists and gives hardware/firmware detail. No storefront, price, quantity, or distribution info was found anywhere (likely a free sponsor giveaway at the con, but that is not stated, so left as unknown/empty rather than guessed). No SAO header pinout is documented beyond "SAO connector for programming," so sao_version was left null.'
+  notes: Maker's own GitHub repo (code, gerbers, EAGLE files, README) confirms the badge exists and gives hardware/firmware detail. No storefront, price, quantity, or distribution info was found anywhere (likely a free sponsor giveaway at the con, but that is not stated, so left as unknown/empty rather than guessed). No SAO header pinout is documented beyond "SAO connector for programming," so sao_version was left null.
 last_modified_date: '2026-09-10'
+model:
+  file: assets/models/bsides-bournemouth-2025/bsides-bournemouth-2025-skull-badge.glb
+  method: kicad
+  source_file: main.brd
+  generated: '2026-09-10'
+  bytes: 32272
 ---
 
 Punk Security built this UV full-colour silkscreened, skull-shaped electronic badge for BSides Bournemouth's 2025 edition. It is a small standalone board powered by an ATtiny402 microcontroller, with a single Neopixel 5050 (WS2812B-compatible) addressable RGB LED and a surface-mount button, running on two CR2032 coin cells wired through surface-mount clips for 6V of headroom. The board is programmed and flashed over UPDI through its SAO connector, using Arduino IDE firmware built on MegaTinyCore.

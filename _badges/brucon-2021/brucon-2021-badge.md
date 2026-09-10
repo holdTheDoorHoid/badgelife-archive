@@ -13,8 +13,8 @@ makers:
   role: design/firmware
 - name: Ray Harvey
   role: artwork
-summary: 'ESP32-based electronic badge for BruCON 0x0D (2021), styled around a backlit gasmask graphic, with a Nokia-style LCD, a D-pad/button menu, RGB LEDs, and an onboard alcohol sensor.'
-functions: 'A menu-driven badge (D-pad + A/B buttons) showing a conference schedule and venue map on a Nokia 6100-style LCD; connects to a badge backend over WiFi/MQTT using per-attendee TLS client certificates; drives RGB LEDs behind the gasmask artwork; includes a heated gas sensor used as an onboard breathalyzer/"ALC" reading, a nod to the con''s Westvleteren beer tradition; runs on battery with charge sensing.'
+summary: ESP32-based electronic badge for BruCON 0x0D (2021), styled around a backlit gasmask graphic, with a Nokia-style LCD, a D-pad/button menu, RGB LEDs, and an onboard alcohol sensor.
+functions: A menu-driven badge (D-pad + A/B buttons) showing a conference schedule and venue map on a Nokia 6100-style LCD; connects to a badge backend over WiFi/MQTT using per-attendee TLS client certificates; drives RGB LEDs behind the gasmask artwork; includes a heated gas sensor used as an onboard breathalyzer/"ALC" reading, a nod to the con's Westvleteren beer tradition; runs on battery with charge sensing.
 look:
   colors: []
   shape: null
@@ -56,7 +56,7 @@ images: []
 contact: {}
 notes:
 - ESP32-based BruCON 2021 electronic conference badge with LEDs, backlight and sensor integration, decorated with gasmask artwork. Found by the event-year sweep, task con-brucon.
-- 'Sweep title matched the maker''s own; no rewording needed.'
+- Sweep title matched the maker's own; no rewording needed.
 status: released
 sources:
 - kind: url
@@ -66,30 +66,39 @@ sources:
   note: 'Found by the archive''s discovery sweep (angle: sweep:con-brucon); event read as ''BruCON 2021''.'
 - kind: url
   url: https://raw.githubusercontent.com/Jegeva/BruCON_2021/main/README.md
-  title: 'Jegeva/BruCON_2021 README'
+  title: Jegeva/BruCON_2021 README
   accessed: '2026-09-08'
-  note: 'Confirms maker, event, ESP32 firmware/PCB under CERN-OHL-P, gasmask art credited to Ray Harvey (CC/NA), and two documented fab mistakes.'
+  note: Confirms maker, event, ESP32 firmware/PCB under CERN-OHL-P, gasmask art credited to Ray Harvey (CC/NA), and two documented fab mistakes.
 - kind: url
   url: https://raw.githubusercontent.com/Jegeva/BruCON_2021/main/firmware/main/nokialcd.h
-  title: 'firmware/main/nokialcd.h'
+  title: firmware/main/nokialcd.h
   accessed: '2026-09-08'
-  note: 'Confirms a Nokia 6100-family SPI LCD driver plus D-pad (up/down/left/right) and A/B button pin definitions, backlight enable pin, and a charging-detect pin.'
+  note: Confirms a Nokia 6100-family SPI LCD driver plus D-pad (up/down/left/right) and A/B button pin definitions, backlight enable pin, and a charging-detect pin.
 - kind: url
   url: https://raw.githubusercontent.com/Jegeva/BruCON_2021/main/firmware/main/sensor.h
-  title: 'firmware/main/sensor.h'
+  title: firmware/main/sensor.h
   accessed: '2026-09-08'
-  note: 'Confirms an onboard ADC-read, heated gas sensor with an "ALC" calibration task, i.e. an alcohol/breathalyzer-style sensor.'
+  note: Confirms an onboard ADC-read, heated gas sensor with an "ALC" calibration task, i.e. an alcohol/breathalyzer-style sensor.
 - kind: url
   url: https://api.github.com/repos/Jegeva/BruCON_2021/git/trees/main?recursive=1
-  title: 'Repo file tree (Jegeva/BruCON_2021, main branch)'
+  title: Repo file tree (Jegeva/BruCON_2021, main branch)
   accessed: '2026-09-08'
-  note: 'Confirms wifi.c, mqtt.c, leds.c, menu.c/menu.json (schedule), touch.c, battery.c, and a PHP+MQTT conference backend with per-client TLS certs; no photos of the assembled badge were found in the repo, only PCB/silkscreen design files (pcb/gasmask*.svg).'
+  note: Confirms wifi.c, mqtt.c, leds.c, menu.c/menu.json (schedule), touch.c, battery.c, and a PHP+MQTT conference backend with per-client TLS certs; no photos of the assembled badge were found in the repo, only PCB/silkscreen design files (pcb/gasmask*.svg).
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-08'
   notes: 'Core facts (maker, event, MCU, display, LEDs, sensor, connectivity, open-source status) confirmed directly from the maker''s own repo (README + firmware source). Not found anywhere: price, quantity made, how/whether it was distributed to all attendees or sold, and PCB colors/shape. No assembled-badge photos exist in the repo to save (only PCB design SVGs and cropped silkscreen-layer PNGs, which are design files, not photos of the item) — images left empty rather than guessed.'
-last_modified_date: '2026-09-08'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/brucon-2021/brucon-2021-badge.glb
+  method: gerber
+  source_file: pcb/gasmask_pcb.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 831560
+  size_mm:
+  - 335.0
+  - 300.0
 ---
 
 The BruCON 2021 badge (BruCON 0x0D) was designed by Jegeva, with gasmask artwork by Ray Harvey, for the October 2021 edition of the Belgian security conference. It is built around an ESP32 driving a Nokia 6100-style SPI LCD, a D-pad and two buttons for menu navigation, and RGB LEDs lit behind the gasmask graphic on the PCB.
