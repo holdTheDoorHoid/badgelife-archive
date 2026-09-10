@@ -11,8 +11,8 @@ year: 2026
 makers:
 - name: Pips
   url: https://github.com/Pips801
-summary: 'A small PCB accessory that lets SAINTCON minibadges be chained together into one display, wired end to end with lengths of wire and pin sockets.'
-functions: 'Links multiple minibadges together into a single powered chain/display; carries power (3.3V/5V) between boards.'
+summary: A small PCB accessory that lets SAINTCON minibadges be chained together into one display, wired end to end with lengths of wire and pin sockets.
+functions: Links multiple minibadges together into a single powered chain/display; carries power (3.3V/5V) between boards.
 look:
   colors: []
   shape: null
@@ -33,7 +33,7 @@ get_one:
   availability: unknown
   distribution:
   - purchase
-  where: "Maker's Tindie store (per the minibadge.wiki listing); page could not be reached directly (Cloudflare-blocked) to confirm price or current stock."
+  where: Maker's Tindie store (per the minibadge.wiki listing); page could not be reached directly (Cloudflare-blocked) to confirm price or current stock.
 make_your_own:
   open_source: null
   hardware_url: null
@@ -46,18 +46,19 @@ links:
 - label: minibadge.wiki data (2026.json)
   url: https://minibadge.wiki/2026.json
   kind: doc
+  archived: https://web.archive.org/web/20260611102319/http://minibadge.wiki/2026.json
 - label: minibadge-wiki source (GitHub, Pips801)
   url: https://github.com/Pips801/minibadges-site
   kind: repo
 images:
 - file: assets/images/badges/saintcon-2026/minibadge-chain/b9144ea2f0.jpg
-  source: "https://minibadge.wiki/?search=Minibadge%20chain&year=2026"
-  credit: "Pips"
-  caption: "Minibadge chain board, front"
+  source: https://minibadge.wiki/?search=Minibadge%20chain&year=2026
+  credit: Pips
+  caption: Minibadge chain board, front
 - file: assets/images/badges/saintcon-2026/minibadge-chain/213f2e5d44.jpg
-  source: "https://minibadge.wiki/?search=Minibadge%20chain&year=2026"
-  credit: "Pips"
-  caption: "Minibadge chain board, back"
+  source: https://minibadge.wiki/?search=Minibadge%20chain&year=2026
+  credit: Pips
+  caption: Minibadge chain board, back
 contact: {}
 notes:
 - 'category: Badge Accessory; qty made: 200'
@@ -75,16 +76,18 @@ sources:
   title: minibadge.wiki 2026 data file
   accessed: '2026-09-07'
   note: 'JSON record backing the listing page (the page itself is client-rendered from this file): description, maker, soldering difficulty, quantity made (200), board house (JLCPCB), acquisition method (Tindie store), and front/back image paths.'
+  archived: https://web.archive.org/web/20260611102319/http://minibadge.wiki/2026.json
 - kind: url
   url: https://minibadge.wiki/stats/
   title: MiniBadge Wiki stats page
   accessed: '2026-09-07'
   note: 'Confirms the wiki was built by "Pips801" (GitHub: github.com/Pips801/minibadges-site), matching the maker name "Pips" on the listing.'
+  archived: https://web.archive.org/web/20260611104637/http://minibadge.wiki/stats/
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'Core facts (maker, description, quantity, difficulty, board house, acquisition route, images) come from the community wiki''s own data file, which is a reasonably authoritative community source but not the maker''s own storefront or a project page. Could not reach the maker''s Tindie store directly (Cloudflare 403) to confirm price, current stock, or additional photos/specs. No chip/LED/display info given because the item is a passive wiring/chaining board, not a powered badge itself. No independent maker page or repo for the item specifically was found beyond the wiki''s own GitHub source.'
+  notes: Core facts (maker, description, quantity, difficulty, board house, acquisition route, images) come from the community wiki's own data file, which is a reasonably authoritative community source but not the maker's own storefront or a project page. Could not reach the maker's Tindie store directly (Cloudflare 403) to confirm price, current stock, or additional photos/specs. No chip/LED/display info given because the item is a passive wiring/chaining board, not a powered badge itself. No independent maker page or repo for the item specifically was found beyond the wiki's own GitHub source.
 last_modified_date: '2026-09-07'
 ---
 
