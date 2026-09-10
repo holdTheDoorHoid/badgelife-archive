@@ -47,12 +47,14 @@ links:
 - label: github.com/hulkco/oshwi
   url: https://github.com/hulkco/oshwi
   kind: repo
+  archived: https://web.archive.org/web/20251008100422/https://github.com/hulkco/oshwi
 - label: github.com/hulkco/oshwi/tree/master/2019
   url: https://github.com/hulkco/oshwi/tree/master/2019
   kind: repo
 - label: 'Hackaday.io: Oshwi, the octopus IoT Badge'
   url: https://hackaday.io/project/116882-oshwi-the-octopus-iot-badge
   kind: hackaday
+  archived: https://web.archive.org/web/20260519183849/https://hackaday.io/project/116882-oshwi-the-octopus-iot-badge
 - label: 'OSH Park blog: OSHWi Octopus Badge by Gustavo Reynaga'
   url: https://blog.oshpark.com/2017/12/24/oshwi-octopus-badge-by-gustavo-reynaga/
   kind: article
@@ -66,6 +68,7 @@ sources:
   title: hulkco/oshwi - Upload "Oshwi" Badge for OshwDem 2017 a Coruña
   accessed: '2026-09-06'
   note: Found via the project's link list; intake pass identified this item here.
+  archived: https://web.archive.org/web/20251008100422/https://github.com/hulkco/oshwi
 - kind: url
   url: https://github.com/hulkco/oshwi/tree/master/2019
   title: hulkco/oshwi, 2019 directory listing
@@ -73,9 +76,10 @@ sources:
   note: Confirmed the 2019 folder contains Oshwi_ESP32, Oshwi_M0, and Oshwi_ESP8266_LORA KiCad board variants, plus WS2812-2020 LED and 0.96in reverse-mount TFT reference designs; no assembled-board photos or firmware, just KiCad sources, SVG artwork and screenshots.
 - kind: url
   url: https://hackaday.io/project/116882-oshwi-the-octopus-iot-badge
-  title: 'Oshwi, the octopus IoT Badge | Hackaday.io'
+  title: Oshwi, the octopus IoT Badge | Hackaday.io
   accessed: '2026-09-07'
   note: Describes the original Oshwi badge (maker Gustavo Reynaga, Mazatlan, Mexico) as an ESP8266/ESP-12 board with 5 addressable Neopixel LEDs, made for the OSHWDem maker event mascot (La Coruna, Spain); entered in the 2018 Hackaday Prize Open Hardware Design Challenge.
+  archived: https://web.archive.org/web/20260519183849/https://hackaday.io/project/116882-oshwi-the-octopus-iot-badge
 - kind: url
   url: https://blog.oshpark.com/2017/12/24/oshwi-octopus-badge-by-gustavo-reynaga/
   title: OSHWi Octopus Badge by Gustavo Reynaga - OSH Park
@@ -85,19 +89,7 @@ research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: >-
-    OSHWDem is an annual open-source hardware maker event in A Coruña, Spain; Oshwi is
-    its octopus mascot. The original Oshwi badge (ESP8266/ESP-12, 5 addressable RGB
-    LEDs) was made by Gustavo Reynaga for OSHWDem 2017 and is documented on Hackaday.io
-    and OSH Park's blog. This entry covers the repo's separate "2019" folder, which
-    holds a redesign with new ESP32 and SAMD21 (M0) boards plus an ESP8266 LoRa
-    variant, WS2812-2020 reverse-mount LEDs, and a reverse-mount 0.96" IPS TFT shield.
-    No page names an "OSHWDem 2019" event or confirms these boards were built and
-    distributed as badges that year; there is also no matching event id in
-    _data/events.yml (only oshwdem-2017 exists), so event is left as "other". No
-    photos of the assembled 2019 boards were found, only KiCad source files, SVG
-    artwork, and screenshots of the design software; firmware for the 2019 variant
-    was not located either. Price, quantity, and availability are unknown.
+  notes: OSHWDem is an annual open-source hardware maker event in A Coruña, Spain; Oshwi is its octopus mascot. The original Oshwi badge (ESP8266/ESP-12, 5 addressable RGB LEDs) was made by Gustavo Reynaga for OSHWDem 2017 and is documented on Hackaday.io and OSH Park's blog. This entry covers the repo's separate "2019" folder, which holds a redesign with new ESP32 and SAMD21 (M0) boards plus an ESP8266 LoRa variant, WS2812-2020 reverse-mount LEDs, and a reverse-mount 0.96" IPS TFT shield. No page names an "OSHWDem 2019" event or confirms these boards were built and distributed as badges that year; there is also no matching event id in _data/events.yml (only oshwdem-2017 exists), so event is left as "other". No photos of the assembled 2019 boards were found, only KiCad source files, SVG artwork, and screenshots of the design software; firmware for the 2019 variant was not located either. Price, quantity, and availability are unknown.
 last_modified_date: '2026-09-07'
 ---
 

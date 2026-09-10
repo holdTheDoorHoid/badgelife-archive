@@ -740,5 +740,376 @@
   "event": "ruxcon-2017",
   "type": "kit",
   "url": "https://ruxconhhv.darkglade.com/2017/SimpleSolder.pdf"
+ },
+ {
+  "title": "44CON 2017 HIDIOT 1.0 Badge",
+  "maker": "Raw Hex",
+  "event": "44con-2017",
+  "type": "badge",
+  "url": "https://badge.gallery/badges/44con-2017-hidiot-1-0-badge"
+ },
+ {
+  "title": "Queercon 12 badge base stations (qc12base)",
+  "maker": "George Louthan (duplico)",
+  "event": "queercon-2015",
+  "type": "accessory/other",
+  "url": "https://github.com/duplico/qc12base"
+ },
+ {
+  "title": "rvasec-badge-2015 (no \"-early\" suffix)",
+  "maker": "HackRVA",
+  "event": "rvasec-2015",
+  "type": "badge",
+  "url": "https://github.com/HackRVA/rvasec-badge-2015"
+ },
+ {
+  "title": "uberdice",
+  "maker": "Peter",
+  "event": "unrelated to SAINTCON",
+  "type": "other",
+  "url": "https://hackaday.io/project/1599-uberdice"
+ },
+ {
+  "title": "SAINTCON 2014 Blinky Daughterboard",
+  "maker": "Matt Lorimer",
+  "event": "saintcon-2014",
+  "type": "accessory/kit",
+  "url": "https://datko.net/2014/10/24/hacking_saintcon_badge/"
+ },
+ {
+  "title": "Queercon 11 Badge (duplicate entry, misfiled)",
+  "maker": "Queercon",
+  "event": "listed under folder queercon-2015 but event field says queercon-2014",
+  "type": "badge",
+  "url": "N/A - internal duplicate: _badges/queercon-2015/queercon-11-badge.md"
+ },
+ {
+  "title": "ToorCon 13 Spectrum Analyzer Badge",
+  "maker": "Great Scott Gadgets",
+  "event": "toorcon-2011",
+  "url": "https://greatscottgadgets.com/tc13badge/",
+  "type": "already exists in archive per existing_titles.txt, no action needed"
+ },
+ {
+  "title": "ToorCamp 2018 Badge (electronic jar of fireflies)",
+  "maker": "Great Scott Gadgets",
+  "event": "toorcamp-2018",
+  "url": "",
+  "type": "already exists in archive per existing_titles.txt, no action needed"
+ },
+ {
+  "title": "Ubertooth small/large hacking kit (badge add-ons)",
+  "maker": "Great Scott Gadgets",
+  "event": "toorcon-2011",
+  "type": "accessory",
+  "url": "https://badge.gallery/addons/toorcon-13-spectrum-analyzer-badge/ubertooth-large-hacking-kit"
+ },
+ {
+  "title": "ShmooCon V (2009) Badge Puzzle Badge",
+  "maker": "G. Mark Hardy",
+  "event": "shmoocon-2009",
+  "type": "badge",
+  "url": "https://darthnull.org/fun/archives/"
+ },
+ {
+  "title": "OFFZONE 2025 Bear add-on",
+  "maker": "BI.ZONE / Craft.Zone",
+  "event": "offzone-2025",
+  "url": "https://github.com/bi-zone/offzone-hw/tree/master/2025/bear_addon",
+  "type": "sao"
+ },
+ {
+  "title": "OFFZONE 2025 Boombox add-on",
+  "maker": "BI.ZONE / Craft.Zone",
+  "event": "offzone-2025",
+  "url": "https://github.com/bi-zone/offzone-hw/tree/master/2025/boombox_addon",
+  "type": "sao"
+ },
+ {
+  "title": "OFFZONE 2025 Terminal add-on",
+  "maker": "BI.ZONE / Craft.Zone",
+  "event": "offzone-2025",
+  "url": "https://github.com/bi-zone/offzone-hw/tree/master/2025/terminal_addon",
+  "type": "sao"
+ },
+ {
+  "title": "OFFZONE 2025 Anonymous add-on",
+  "maker": "BI.ZONE / Craft.Zone",
+  "event": "offzone-2025",
+  "url": "https://github.com/bi-zone/offzone-hw/tree/master/2025/anonymous_addon",
+  "type": "sao"
+ },
+ {
+  "title": "OFFZONE 2025 Angel and Devil add-on",
+  "maker": "BI.ZONE / Craft.Zone",
+  "event": "offzone-2025",
+  "url": "https://github.com/bi-zone/offzone-hw/tree/master/2025/angelanddevil_addon",
+  "type": "sao"
+ },
+ {
+  "title": "OFFZONE 2025 Bear add-on",
+  "maker": "BI.ZONE / Craft.Zone",
+  "event": "offzone-2025",
+  "url": "https://github.com/bi-zone/offzone-hw/tree/master/2025/bear_addon",
+  "type": "sao"
+ },
+ {
+  "title": "OFFZONE 2025 Boombox add-on",
+  "maker": "BI.ZONE / Craft.Zone",
+  "event": "offzone-2025",
+  "url": "https://github.com/bi-zone/offzone-hw/tree/master/2025/boombox_addon",
+  "type": "sao"
+ },
+ {
+  "title": "OFFZONE 2025 Terminal add-on",
+  "maker": "BI.ZONE / Craft.Zone",
+  "event": "offzone-2025",
+  "url": "https://github.com/bi-zone/offzone-hw/tree/master/2025/terminal_addon",
+  "type": "sao"
+ },
+ {
+  "title": "OFFZONE 2025 Angel and Devil add-on",
+  "maker": "BI.ZONE / Craft.Zone",
+  "event": "offzone-2025",
+  "type": "sao",
+  "url": "https://github.com/bi-zone/offzone-hw/tree/master/2025/angelanddevil_addon"
+ },
+ {
+  "title": "OFFZONE 2025 Anonymous add-on",
+  "maker": "BI.ZONE / Craft.Zone",
+  "event": "offzone-2025",
+  "type": "sao",
+  "url": "https://github.com/bi-zone/offzone-hw/tree/master/2025/anonymous_addon"
+ },
+ {
+  "title": "OFFZONE 2025 Bear add-on",
+  "maker": "BI.ZONE / Craft.Zone",
+  "event": "offzone-2025",
+  "type": "sao",
+  "url": "https://github.com/bi-zone/offzone-hw/tree/master/2025/bear_addon"
+ },
+ {
+  "title": "OFFZONE 2025 Boombox add-on",
+  "maker": "BI.ZONE / Craft.Zone",
+  "event": "offzone-2025",
+  "type": "sao",
+  "url": "https://github.com/bi-zone/offzone-hw/tree/master/2025/boombox_addon"
+ },
+ {
+  "title": "OFFZONE 2025 Angel and Devil add-on",
+  "maker": "BI.ZONE / Craft.Zone",
+  "event": "offzone-2025",
+  "type": "sao",
+  "url": "https://github.com/bi-zone/offzone-hw/tree/master/2025/angelanddevil_addon"
+ },
+ {
+  "title": "OFFZONE 2025 Anonymous add-on",
+  "maker": "BI.ZONE / Craft.Zone",
+  "event": "offzone-2025",
+  "type": "sao",
+  "url": "https://github.com/bi-zone/offzone-hw/tree/master/2025/anonymous_addon"
+ },
+ {
+  "title": "OFFZONE 2025 Boombox add-on",
+  "maker": "BI.ZONE / Craft.Zone",
+  "event": "offzone-2025",
+  "type": "sao",
+  "url": "https://github.com/bi-zone/offzone-hw/tree/master/2025/boombox_addon"
+ },
+ {
+  "title": "OFFZONE 2025 Terminal add-on",
+  "maker": "BI.ZONE / Craft.Zone",
+  "event": "offzone-2025",
+  "type": "sao",
+  "url": "https://github.com/bi-zone/offzone-hw/tree/master/2025/terminal_addon"
+ },
+ {
+  "title": "DC503 Defcon party badge (ATtiny85)",
+  "maker": "@securelyfitz / DC503",
+  "event": "unknown - a Defcon-area party badge Fillmore picked up before designing this one; not confirmed which Defcon year",
+  "type": "badge",
+  "url": ""
+ },
+ {
+  "title": "Kiwicon Intro to Badge Hacking (training badge/kit)",
+  "maker": "unknown - not attributed in the README skim",
+  "event": "kiwicon-2018 (repo references Kiwicon 2038, the con's 2018 edition name)",
+  "type": "kit",
+  "url": "https://github.com/kiwicon-badge/badge"
+ },
+ {
+  "title": "OFFZONE 2024 Cube Blue add-on",
+  "maker": "BI.ZONE / Craft.Zone",
+  "event": "offzone-2024",
+  "url": "https://github.com/bi-zone/offzone-hw/tree/master/2024/cube_blue_addon",
+  "type": "sao"
+ },
+ {
+  "title": "OFFZONE 2024 Cube Green add-on",
+  "maker": "BI.ZONE / Craft.Zone",
+  "event": "offzone-2024",
+  "url": "https://github.com/bi-zone/offzone-hw/tree/master/2024/cube_green_addon",
+  "type": "sao"
+ },
+ {
+  "title": "OFFZONE 2024 Seal add-on",
+  "maker": "BI.ZONE / Craft.Zone",
+  "event": "offzone-2024",
+  "url": "https://github.com/bi-zone/offzone-hw/tree/master/2024/seal_addon",
+  "type": "sao"
+ },
+ {
+  "title": "OFFZONE 2024 This Is Fine add-on",
+  "maker": "BI.ZONE / Craft.Zone",
+  "event": "offzone-2024",
+  "url": "https://github.com/bi-zone/offzone-hw/tree/master/2024/thisisfine_addon",
+  "type": "sao"
+ },
+ {
+  "title": "OFFZONE 2024 ZIL add-on",
+  "maker": "BI.ZONE / Craft.Zone",
+  "event": "offzone-2024",
+  "url": "https://github.com/bi-zone/offzone-hw/tree/master/2024/zil_addon",
+  "type": "sao"
+ },
+ {
+  "title": "OFFZONE 2024 Cube Blue add-on",
+  "maker": "BI.ZONE / Craft.Zone",
+  "event": "offzone-2024",
+  "type": "sao",
+  "url": "https://github.com/bi-zone/offzone-hw/tree/master/2024/cube_blue_addon"
+ },
+ {
+  "title": "OFFZONE 2024 Cube Green add-on",
+  "maker": "BI.ZONE / Craft.Zone",
+  "event": "offzone-2024",
+  "type": "sao",
+  "url": "https://github.com/bi-zone/offzone-hw/tree/master/2024/cube_green_addon"
+ },
+ {
+  "title": "OFFZONE 2024 Lamp add-on",
+  "maker": "BI.ZONE / Craft.Zone",
+  "event": "offzone-2024",
+  "type": "sao",
+  "url": "https://github.com/bi-zone/offzone-hw/tree/master/2024/lamp_addon"
+ },
+ {
+  "title": "OFFZONE 2024 Seal add-on",
+  "maker": "BI.ZONE / Craft.Zone",
+  "event": "offzone-2024",
+  "type": "sao",
+  "url": "https://github.com/bi-zone/offzone-hw/tree/master/2024/seal_addon"
+ },
+ {
+  "title": "OFFZONE 2024 ZIL add-on",
+  "maker": "BI.ZONE / Craft.Zone",
+  "event": "offzone-2024",
+  "type": "sao",
+  "url": "https://github.com/bi-zone/offzone-hw/tree/master/2024/zil_addon"
+ },
+ {
+  "title": "OFFZONE 2024 Cube Blue/Cube Green/Lamp/Seal/This Is Fine add-ons",
+  "maker": "BI.ZONE / Craft.Zone",
+  "event": "offzone-2024",
+  "type": "sao",
+  "url": "https://github.com/bi-zone/offzone-hw/tree/master/2024"
+ },
+ {
+  "title": "OFFZONE 2023 Cat add-on",
+  "maker": "BI.ZONE / Craft.Zone",
+  "event": "offzone-2023",
+  "type": "sao",
+  "url": "https://github.com/bi-zone/offzone-hw/tree/master/2023/cat_addon"
+ },
+ {
+  "title": "OFFZONE 2023 Iron add-on",
+  "maker": "BI.ZONE / Craft.Zone",
+  "event": "offzone-2023",
+  "type": "sao",
+  "url": "https://github.com/bi-zone/offzone-hw/tree/master/2023/iron_addon"
+ },
+ {
+  "title": "OFFZONE 2023 Lighthouse add-on",
+  "maker": "BI.ZONE / Craft.Zone",
+  "event": "offzone-2023",
+  "type": "sao",
+  "url": "https://github.com/bi-zone/offzone-hw/tree/master/2023/lighthouse_addon"
+ },
+ {
+  "title": "ikarus_addon",
+  "maker": "BI.ZONE / Craft.Zone",
+  "event": "offzone-2023",
+  "type": "sao",
+  "url": "https://github.com/bi-zone/offzone-hw/tree/master/2023/ikarus_addon"
+ },
+ {
+  "title": "iron_addon",
+  "maker": "BI.ZONE / Craft.Zone",
+  "event": "offzone-2023",
+  "type": "sao",
+  "url": "https://github.com/bi-zone/offzone-hw/tree/master/2023/iron_addon"
+ },
+ {
+  "title": "lighthouse_addon",
+  "maker": "BI.ZONE / Craft.Zone",
+  "event": "offzone-2023",
+  "type": "sao",
+  "url": "https://github.com/bi-zone/offzone-hw/tree/master/2023/lighthouse_addon"
+ },
+ {
+  "title": "OFFZONE 2023 Cat add-on",
+  "maker": "BI.ZONE / Craft.Zone",
+  "event": "offzone-2023",
+  "url": "https://github.com/bi-zone/offzone-hw/tree/master/2023/cat_addon",
+  "type": "already has its own archive entry (offzone-2023-offzone-2023-cat-add-on); flagged only because its stored source link likely has the same main-vs-master 404 issue found on this entry"
+ },
+ {
+  "title": "OFFZONE 2023 Ikarus add-on",
+  "maker": "BI.ZONE / Craft.Zone",
+  "event": "offzone-2023",
+  "url": "https://github.com/bi-zone/offzone-hw/tree/master/2023/ikarus_addon",
+  "type": "already has its own archive entry; same potential main-vs-master link issue"
+ },
+ {
+  "title": "OFFZONE 2023 Iron add-on",
+  "maker": "BI.ZONE / Craft.Zone",
+  "event": "offzone-2023",
+  "url": "https://github.com/bi-zone/offzone-hw/tree/master/2023/iron_addon",
+  "type": "already has its own archive entry; same potential main-vs-master link issue"
+ },
+ {
+  "title": "Iron v2 add-on (unreleased revision, folder named nevermadeit/iron_v2_addon)",
+  "maker": "BI.ZONE / Craft.Zone",
+  "event": "offzone (year unclear, same repo but a separate unreleased folder)",
+  "type": "sao",
+  "url": "https://github.com/bi-zone/offzone-hw/tree/master/nevermadeit/iron_v2_addon"
+ },
+ {
+  "title": "HITBSecConf2024 Bangkok SaikoCTF Badge",
+  "maker": "Hack In The Box, SRI International, IHMC, HackRocks, Flagyard",
+  "event": "hitb-2024",
+  "type": "badge",
+  "url": "https://badge.gallery/series/hitb"
+ },
+ {
+  "title": "MiniBadge Community Bingo BLACKOUT MiniBadge",
+  "maker": "DistinctM1nd",
+  "event": "saintcon-2025",
+  "type": "minibadge",
+  "url": "https://raw.githubusercontent.com/Pips801/minibadge-wiki/main/2025.json"
+ },
+ {
+  "title": "Minibadge 10x10 display case",
+  "maker": "compukidmike",
+  "event": "saintcon (recurring)",
+  "type": "accessory",
+  "url": "https://saintcon.org/minibadges/"
+ },
+ {
+  "title": "Butterfly Minibadge",
+  "maker": "unknown (YouTube assembly guide creator)",
+  "event": "saintcon-2025",
+  "type": "minibadge",
+  "url": "https://www.youtube.com/watch?v=6iBI0gCmr90"
  }
 ]

@@ -11,8 +11,8 @@ year: 0
 makers:
 - name: Bradán Lane
   url: https://bradanlane.com
-summary: 'A full-functioning electronic Enigma cipher machine repurposed from a SMART Response XE classroom clicker, built by Bradán Lane as part of his "Adventures of Sara Cladlow" story project.'
-functions: 'Encodes and decodes Enigma-style messages compatible with historical WWII Enigma machines, Enigma simulators, and online role-playing games. Can send and receive coded messages wirelessly over short range using a built-in 2.4GHz RF transceiver, or exchange messages with other Pocket Enigma units.'
+summary: A full-functioning electronic Enigma cipher machine repurposed from a SMART Response XE classroom clicker, built by Bradán Lane as part of his "Adventures of Sara Cladlow" story project.
+functions: Encodes and decodes Enigma-style messages compatible with historical WWII Enigma machines, Enigma simulators, and online role-playing games. Can send and receive coded messages wirelessly over short range using a built-in 2.4GHz RF transceiver, or exchange messages with other Pocket Enigma units.
 look:
   colors: []
   shape: rectangle
@@ -42,29 +42,35 @@ links:
 - label: aosc.cc/enigma.php
   url: https://aosc.cc/enigma.php
   kind: website
+  archived: https://web.archive.org/web/20260410230344/https://aosc.cc/enigma.php
 - label: Pocket Enigma Documentation
   url: https://aosc.cc/enigmadoc.php
   kind: doc
+  archived: https://web.archive.org/web/20260410234349/https://aosc.cc/enigmadoc.php
 - label: Enigma API (gitlab)
   url: https://gitlab.com/bradanlane/enigma
   kind: repo
+  archived: https://web.archive.org/web/20260519084511/https://gitlab.com/bradanlane/enigma
 - label: SRXEcore library (gitlab)
   url: https://gitlab.com/bradanlane/srxecore
   kind: repo
+  archived: https://web.archive.org/web/20260511011525/https://gitlab.com/bradanlane/srxecore
 images:
-  - file: assets/images/badges/other/pocket-enigma/51b21abf85.png
-    source: "https://aosc.cc/enigma.php"
-    credit: "Bradán Lane"
-    caption: "Pocket Enigma home screen"
-  - file: assets/images/badges/other/pocket-enigma/1ba61e4360.png
-    source: "https://aosc.cc/enigma.php"
-    credit: "Bradán Lane"
-    caption: "Pocket Enigma Enigma-machine setup screen"
+- file: assets/images/badges/other/pocket-enigma/51b21abf85.png
+  source: https://aosc.cc/enigma.php
+  credit: Bradán Lane
+  caption: Pocket Enigma home screen
+  archived: https://web.archive.org/web/20260410230344/https://aosc.cc/enigma.php
+- file: assets/images/badges/other/pocket-enigma/1ba61e4360.png
+  source: https://aosc.cc/enigma.php
+  credit: Bradán Lane
+  caption: Pocket Enigma Enigma-machine setup screen
+  archived: https://web.archive.org/web/20260410230344/https://aosc.cc/enigma.php
 contact: {}
 notes:
 - Not made for any specific convention; it is a standalone hobbyist project tied to the maker's ongoing "Adventures of Sara Cladlow" fiction/puzzle story, done under the name T.E.C. (with collaborators Tod Troche and Lory Ester credited on the story side).
 - No price, quantity-made, or availability/sale information is published on the maker's site; it reads as a personal build documented for others to replicate rather than something sold.
-- 'Connectivity is a built-in 2.4GHz RF transceiver for short-range device-to-device messaging; this does not map cleanly to the archive''s connectivity vocabulary (not standard wifi/ble/zigbee), so it is left out of tech.connectivity and noted here instead.'
+- Connectivity is a built-in 2.4GHz RF transceiver for short-range device-to-device messaging; this does not map cleanly to the archive's connectivity vocabulary (not standard wifi/ble/zigbee), so it is left out of tech.connectivity and noted here instead.
 - Hardware is a repurposed SMART Response XE (a classroom "clicker" device), not an original PCB design; open-source firmware is published (SRXEcore library and Enigma API on GitLab) but there is no separate hardware/gerbers repo since the base hardware is the pre-existing commercial clicker unit.
 status: listed
 sources:
@@ -73,16 +79,18 @@ sources:
   title: Pocket Enigma
   accessed: '2026-09-07'
   note: 'Found by the archive''s discovery sweep (angle: sheet-research-spotted); event read as ''unknown''.'
+  archived: https://web.archive.org/web/20260410230344/https://aosc.cc/enigma.php
 - kind: url
   url: https://aosc.cc/enigmadoc.php
   title: AoSC - Pocket Enigma Documentation
   accessed: '2026-09-07'
-  note: 'Hardware specs (display, battery, dimensions), software repo links, and confirmation the base hardware is a repurposed SMART Response XE.'
+  note: Hardware specs (display, battery, dimensions), software repo links, and confirmation the base hardware is a repurposed SMART Response XE.
+  archived: https://web.archive.org/web/20260410234349/https://aosc.cc/enigmadoc.php
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'Maker''s own project page and documentation confirm what the device is and how it works, but there is no year, price, quantity, or distribution information published anywhere on the site, and no evidence it was made for or given out at a convention. Left event as "other" since no con could be identified.'
+  notes: Maker's own project page and documentation confirm what the device is and how it works, but there is no year, price, quantity, or distribution information published anywhere on the site, and no evidence it was made for or given out at a convention. Left event as "other" since no con could be identified.
 last_modified_date: '2026-09-07'
 ---
 

@@ -44,6 +44,7 @@ links:
 - label: nyandevices.com
   url: https://nyandevices.com
   kind: website
+  archived: https://web.archive.org/web/20260728020024/https://nyandevices.com/
 images: []
 contact: {}
 notes:
@@ -57,19 +58,20 @@ sources:
   note: 'Found by the archive''s discovery sweep (angle: github-topics); event read as ''unknown''.'
 - kind: url
   url: https://github.com/jbohack/nyanSAO
-  title: 'GitHub - jbohack/nyanSAO'
+  title: GitHub - jbohack/nyanSAO
   accessed: '2026-09-07'
-  note: 'README confirms it is an ESP32-powered DEF CON SAO (v1.69bis standard) by Nyan Devices, status "In Development", with details to be announced via Discord.'
+  note: README confirms it is an ESP32-powered DEF CON SAO (v1.69bis standard) by Nyan Devices, status "In Development", with details to be announced via Discord.
 - kind: url
   url: https://nyandevices.com
   title: Nyan Devices
   accessed: '2026-09-07'
-  note: 'Maker''s storefront; sells nyanBOX ($220) but does not yet mention nyanSAO, confirming it is unreleased.'
+  note: Maker's storefront; sells nyanBOX ($220) but does not yet mention nyanSAO, confirming it is unreleased.
+  archived: https://web.archive.org/web/20260728020024/https://nyandevices.com/
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'The repo README confirms nyanSAO is an ESP32-powered SAO (v1.69bis) made for DEF CON, but is explicitly "In Development" with no specs, price, quantity, or release date announced yet (maker says details will post to their Discord). No specific DEF CON year is stated anywhere, so event is left as "other" rather than guessed. No photos of the physical item exist yet; the only image on the GitHub page is a generic auto-generated OpenGraph card, not a photo of the SAO, so no images were saved. LED count/type and battery/power details are not published.'
+  notes: The repo README confirms nyanSAO is an ESP32-powered SAO (v1.69bis) made for DEF CON, but is explicitly "In Development" with no specs, price, quantity, or release date announced yet (maker says details will post to their Discord). No specific DEF CON year is stated anywhere, so event is left as "other" rather than guessed. No photos of the physical item exist yet; the only image on the GitHub page is a generic auto-generated OpenGraph card, not a photo of the SAO, so no images were saved. LED count/type and battery/power details are not published.
 last_modified_date: '2026-09-07'
 ---
 

@@ -11,7 +11,7 @@ year: 2015
 makers:
 - name: soynerdito
 summary: An Arduino shield-compatible electronic badge made by soynerdito (codename "Pepita") for BSidesPR 2015, built around an ATmega328P and reprogrammable with an external USBasp programmer.
-functions: 'Runs custom Arduino sketches flashed via USBasp; the board itself doubles as an Arduino-compatible target rather than shipping with a fixed game or light show.'
+functions: Runs custom Arduino sketches flashed via USBasp; the board itself doubles as an Arduino-compatible target rather than shipping with a fixed game or light show.
 look:
   colors: []
   shape: null
@@ -33,7 +33,7 @@ get_one:
   distribution: []
   where: ''
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/soynerdito/PepitaBadgeShieldCompatible
   firmware_url: https://github.com/soynerdito/PepitaBadgeShieldCompatible
   eda_tool: Eagle
@@ -41,17 +41,18 @@ links:
 - label: github.com/soynerdito/PepitaBadgeShieldCompatible
   url: https://github.com/soynerdito/PepitaBadgeShieldCompatible
   kind: repo
-- label: "Soynerdito's Blog: Badge as USBASP (very badly explained)"
+- label: 'Soynerdito''s Blog: Badge as USBASP (very badly explained)'
   url: http://blog.soynerdito.com/2015/11/badge-as-usbasp-verry-badly-explained.html
   kind: article
+  archived: https://web.archive.org/web/20260515102201/http://blog.soynerdito.com/2015/11/badge-as-usbasp-verry-badly-explained.html
 images:
-  - file: assets/images/badges/other/pepitabadgeshieldcompatible-bsides-badge-pepita/484ca107be.png
-    source: "https://github.com/soynerdito/PepitaBadgeShieldCompatible"
-    credit: "soynerdito"
-    caption: "Concept sketch of the Pepita badge PCB shape, showing the USB programming header and bottom edge connector"
+- file: assets/images/badges/other/pepitabadgeshieldcompatible-bsides-badge-pepita/484ca107be.png
+  source: https://github.com/soynerdito/PepitaBadgeShieldCompatible
+  credit: soynerdito
+  caption: Concept sketch of the Pepita badge PCB shape, showing the USB programming header and bottom edge connector
 contact: {}
 notes:
-- "Sheet listed this as an untitled 'BSides' entry; the repo names it codename Pepita and the Arduino IDE board manager package inside the repo identifies it as the 'BSides Badge 2015' board, which is why year is set to 2015."
+- Sheet listed this as an untitled 'BSides' entry; the repo names it codename Pepita and the Arduino IDE board manager package inside the repo identifies it as the 'BSides Badge 2015' board, which is why year is set to 2015.
 status: released
 sources:
 - kind: url
@@ -63,17 +64,18 @@ sources:
   url: https://github.com/soynerdito/PepitaBadgeShieldCompatible
   title: soynerdito/PepitaBadgeShieldCompatible README
   accessed: '2026-09-07'
-  note: 'Confirms ATmega328P, Arduino-shield compatibility, USBasp programming instructions, and the "BSides Badge 2015" Arduino board name.'
+  note: Confirms ATmega328P, Arduino-shield compatibility, USBasp programming instructions, and the "BSides Badge 2015" Arduino board name.
 - kind: url
   url: http://blog.soynerdito.com/2015/11/badge-as-usbasp-verry-badly-explained.html
-  title: "Soynerdito's Blog: Badge as USBASP verry badly explained"
+  title: 'Soynerdito''s Blog: Badge as USBASP verry badly explained'
   accessed: '2026-09-07'
-  note: 'Companion post (Nov 2015) on using the same ATmega328P BSides badge as a USBasp programmer; no additional badge photo found.'
+  note: Companion post (Nov 2015) on using the same ATmega328P BSides badge as a USBasp programmer; no additional badge photo found.
+  archived: https://web.archive.org/web/20260515102201/http://blog.soynerdito.com/2015/11/badge-as-usbasp-verry-badly-explained.html
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'No confirmed event id for BSidesPR exists in _data/events.yml, so event is left as "other"; this badge was made for BSidesPR (BSides Puerto Rico) 2015, per the repo''s Arduino board manager entry ("BSides Badge 2015") and soynerdito''s other BSidesPR-focused repos (e.g. BSides20016Badge, RickBadge). No price, quantity, LED count, or display info is stated anywhere found; no actual photograph of an assembled/soldered board was located, only the maker''s concept/PCB-layout sketch (concept.png) saved as the entry image. Maker''s own site (blog.soynerdito.com) and GitHub are the only sources found; no press coverage or storefront listing exists.'
+  notes: No confirmed event id for BSidesPR exists in _data/events.yml, so event is left as "other"; this badge was made for BSidesPR (BSides Puerto Rico) 2015, per the repo's Arduino board manager entry ("BSides Badge 2015") and soynerdito's other BSidesPR-focused repos (e.g. BSides20016Badge, RickBadge). No price, quantity, LED count, or display info is stated anywhere found; no actual photograph of an assembled/soldered board was located, only the maker's concept/PCB-layout sketch (concept.png) saved as the entry image. Maker's own site (blog.soynerdito.com) and GitHub are the only sources found; no press coverage or storefront listing exists.
 last_modified_date: '2026-09-07'
 ---
 

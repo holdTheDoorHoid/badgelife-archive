@@ -12,7 +12,7 @@ makers:
 - name: thelogicofpi
   url: https://hackaday.io/hacker/315117-thelogicofpi
 summary: A Futurama Planet Express ship shaped desk/shelf display board that powers up to four SAO v1.69bis add-ons and blinks 32 LEDs in eleven selectable patterns, driven by an ATtiny85 and two MCP23017 I2C expanders on two AAA batteries.
-functions: 'Holds and powers up to 4 SAO v1.69bis add-ons while driving 32 LEDs through eleven display modes (including all-on, flashing, alternating, binary counter, Knight Rider scanner, and random flashing); a power switch toggles between mode-selection and normal display.'
+functions: Holds and powers up to 4 SAO v1.69bis add-ons while driving 32 LEDs through eleven display modes (including all-on, flashing, alternating, binary counter, Knight Rider scanner, and random flashing); a power switch toggles between mode-selection and normal display.
 look:
   colors: []
   shape: spaceship
@@ -33,7 +33,7 @@ tech:
   battery: 2x AAA
   sao_version: v1.69bis
 get_one:
-  price: "$65"
+  price: $65
   price_usd: 65
   quantity: ''
   availability: sold_out
@@ -52,21 +52,24 @@ links:
 - label: github.com/jeffwurz/Saoship
   url: https://github.com/jeffwurz/Saoship
   kind: repo
+  archived: https://web.archive.org/web/20260506131644/https://github.com/jeffwurz/Saoship
 - label: youtu.be/PobDxoNRZ2U
   url: https://youtu.be/PobDxoNRZ2U
   kind: video
 - label: tindie.com/products/thelogicofpi/planet-express-saoship
   url: https://www.tindie.com/products/thelogicofpi/planet-express-saoship/
   kind: store
+  archived: https://web.archive.org/web/20260503105605/https://www.tindie.com/products/thelogicofpi/planet-express-saoship/
 images:
-  - file: assets/images/badges/other/planet-express-saoship/1de36fe789.jpg
-    source: "https://www.tindie.com/products/thelogicofpi/planet-express-saoship/"
-    credit: "thelogicofpi (PCB PINS)"
-    caption: "Planet Express SAOship board holding SAOs, LEDs lit"
-  - file: assets/images/badges/other/planet-express-saoship/aba4dee5aa.jpg
-    source: "https://hackaday.io/project/166236-planet-express-saoship"
-    credit: "thelogicofpi"
-    caption: "Planet Express SAOship, Futurama-themed SAO holder board"
+- file: assets/images/badges/other/planet-express-saoship/1de36fe789.jpg
+  source: https://www.tindie.com/products/thelogicofpi/planet-express-saoship/
+  credit: thelogicofpi (PCB PINS)
+  caption: Planet Express SAOship board holding SAOs, LEDs lit
+  archived: https://web.archive.org/web/20260503105605/https://www.tindie.com/products/thelogicofpi/planet-express-saoship/
+- file: assets/images/badges/other/planet-express-saoship/aba4dee5aa.jpg
+  source: https://hackaday.io/project/166236-planet-express-saoship
+  credit: thelogicofpi
+  caption: Planet Express SAOship, Futurama-themed SAO holder board
 contact: {}
 notes: []
 status: released
@@ -86,11 +89,13 @@ sources:
   title: jeffwurz/Saoship - LED drivers for SAOship
   accessed: '2026-09-07'
   note: Repo described as "led drivers for SAOship"; confirms firmware source is public, but README had no further hardware detail retrievable.
+  archived: https://web.archive.org/web/20260506131644/https://github.com/jeffwurz/Saoship
 - kind: url
   url: https://www.tindie.com/products/thelogicofpi/planet-express-saoship/
   title: Planet Express SAOship from PCB PINS on Tindie
   accessed: '2026-09-07'
   note: Confirms price ($65), sold-out status since Feb 20 2020, shop name PCB PINS (Sacramento, CA), and provided the product photo used here.
+  archived: https://web.archive.org/web/20260503105605/https://www.tindie.com/products/thelogicofpi/planet-express-saoship/
 research:
   status: researched
   confidence: medium
