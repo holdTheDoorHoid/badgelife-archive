@@ -22,9 +22,17 @@ seen={(o.get('title','').lower(),o.get('url','')) for o in old}
 new=[o for o in others if (o.get('title','').lower(),o.get('url',''))not in seen]
 json.dump(old+new,open(p,'w'),indent=1); print('others saved:',len(new),'total',len(old)+len(new))
 ALL=glob.glob('_badges/*/*.md')
+DIRS=sorted(os.listdir('_badges'), key=len, reverse=True)
 def find(eid):
     r=subprocess.run(['grep','-rlx',f'id: {eid}','_badges'],capture_output=True,text=True).stdout.split()
     if r: return r[0], eid
+    # relocated by the publisher loop after an event correction (possibly with a -2 collision suffix)
+    corr=(res.get(eid) or {}).get('event_corrected_to')
+    if corr:
+        slug=next((eid[len(e)+1:] for e in DIRS if eid.startswith(e+'-')), None)
+        for cand in ([f"{corr}-{slug}", f"{corr}-{slug}-2"] if slug else []):
+            r=subprocess.run(['grep','-rlx',f'id: {cand}','_badges'],capture_output=True,text=True).stdout.split()
+            if r: return r[0], cand
     c=[f for f in ALL if os.path.exists(f) and eid.endswith('-'+os.path.basename(f)[:-3])]
     if len(c)==1:
         m=re.search(r'^id: (.+)$',open(c[0]).read(),re.M); return c[0], m.group(1).strip()
