@@ -38,7 +38,7 @@ get_one:
   - free_drop
   where: Distributed to attendees of Security BSides CDMX 2025 (July 18, 2025, Ex Fabrica MX, Mexico City); role-specific PCB variants for staff, speakers, sponsors, guests, and community.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/ElectronicCats/Badge-bsides-cdmx-2025
   firmware_url: https://github.com/ElectronicCats/Badge-bsides-cdmx-2025/tree/main/firmware
   eda_tool: KiCad
@@ -46,7 +46,7 @@ make_your_own:
   bom_url: null
   license: CERN-OHL-1.2 (hardware)
   fab_url: null
-  notes: 'Repo includes KiCad source, board rasters, silkscreen/edge-cut SVGs per role variant, footprints, STEP models, and manufacturing outputs.'
+  notes: Repo includes KiCad source, board rasters, silkscreen/edge-cut SVGs per role variant, footprints, STEP models, and manufacturing outputs.
 links:
 - label: github.com/badge-gallery/badge-bsides-cdmx-2025
   url: https://github.com/badge-gallery/badge-bsides-cdmx-2025
@@ -59,18 +59,18 @@ links:
   kind: repo
   note: Maker's own repository (the original design source; badge-gallery's copy is a mirror/listing).
 images:
-  - file: assets/images/badges/bsides-cdmx-2025/bsides-cdmx-2025-badge/66b44000fa.jpg
-    source: "https://github.com/ElectronicCats/Badge-bsides-cdmx-2025"
-    credit: "Electronic Cats"
-    caption: "Community-role variant of the BSides CDMX 2025 badge PCB render"
-  - file: assets/images/badges/bsides-cdmx-2025/bsides-cdmx-2025-badge/03e27c7e81.jpg
-    source: "https://github.com/ElectronicCats/Badge-bsides-cdmx-2025"
-    credit: "Electronic Cats"
-    caption: "Staff-role variant of the BSides CDMX 2025 badge PCB render"
+- file: assets/images/badges/bsides-cdmx-2025/bsides-cdmx-2025-badge/66b44000fa.jpg
+  source: https://github.com/ElectronicCats/Badge-bsides-cdmx-2025
+  credit: Electronic Cats
+  caption: Community-role variant of the BSides CDMX 2025 badge PCB render
+- file: assets/images/badges/bsides-cdmx-2025/bsides-cdmx-2025-badge/03e27c7e81.jpg
+  source: https://github.com/ElectronicCats/Badge-bsides-cdmx-2025
+  credit: Electronic Cats
+  caption: Staff-role variant of the BSides CDMX 2025 badge PCB render
 contact: {}
 notes:
 - 2025 BSides Mexico City badge with OLED display, NeoPixels, AAA power and an SAO connector. Found by the event-year sweep, task bsides-any.
-- 'The sweep''s sheet used the plain title "BSides CDMX 2025 Badge"; the maker''s own README and repo title it "Security BSides CDMX 2025 Badge".'
+- The sweep's sheet used the plain title "BSides CDMX 2025 Badge"; the maker's own README and repo title it "Security BSides CDMX 2025 Badge".
 status: released
 sources:
 - kind: url
@@ -92,8 +92,14 @@ research:
   status: researched
   confidence: high
   last_checked: '2026-09-10'
-  notes: 'Confirmed via the maker''s own GitHub repo (ElectronicCats/Badge-bsides-cdmx-2025) and its badge.gallery listing. Could not find price, quantity produced, or a specific availability/resale status (likely free-drop only, not sold) — left as unknown/blank rather than guessed. No dedicated Hackaday.io page or press coverage found.'
+  notes: Confirmed via the maker's own GitHub repo (ElectronicCats/Badge-bsides-cdmx-2025) and its badge.gallery listing. Could not find price, quantity produced, or a specific availability/resale status (likely free-drop only, not sold) — left as unknown/blank rather than guessed. No dedicated Hackaday.io page or press coverage found.
 last_modified_date: '2026-09-10'
+model:
+  file: assets/models/bsides-cdmx-2025/bsides-cdmx-2025-badge.glb
+  method: kicad
+  source_file: hardware/Badge-bsides-cdmx-2025-community/Badge-bsides-cdmx-2025.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 175236
 ---
 
 The Security BSides CDMX 2025 badge was designed by Electronic Cats for the fifth edition of Security BSides CDMX, held July 18, 2025 at Ex Fabrica MX in Mexico City. It carries a Puya PY32F030F28U6TR microcontroller, an OLED display, NeoPixel RGB LEDs, a 2x AAA battery holder for standalone power, and a Shitty Add-On (SAO) connector for further expansion. The badge ships with pre-installed firmware and can be reprogrammed using the hex binaries published in the project's GitHub releases.

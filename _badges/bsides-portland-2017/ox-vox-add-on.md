@@ -34,9 +34,9 @@ get_one:
   quantity: ''
   availability: not_released
   distribution: []
-  where: 'Not sold; a one-off add-on Rehrig built and demoed himself, with design files released on GitHub for anyone to build their own.'
+  where: Not sold; a one-off add-on Rehrig built and demoed himself, with design files released on GitHub for anyone to build their own.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/mediumrehr/oxvox
   firmware_url: https://github.com/mediumrehr/oxvox
   eda_tool: Eagle
@@ -55,13 +55,13 @@ links:
   kind: video
 images:
 - file: assets/images/badges/bsides-portland-2017/ox-vox-add-on/5f162d190c.jpg
-  source: "https://www.robrehrig.com/ox_vox"
-  credit: "Rob Rehrig"
-  caption: "Ox Vox v2 mounted on a BSidesPDX 2017 badge, OLED reading THE OX VOX"
+  source: https://www.robrehrig.com/ox_vox
+  credit: Rob Rehrig
+  caption: Ox Vox v2 mounted on a BSidesPDX 2017 badge, OLED reading THE OX VOX
 - file: assets/images/badges/bsides-portland-2017/ox-vox-add-on/455a1ac8a0.jpg
-  source: "https://www.robrehrig.com/ox_vox"
-  credit: "Rob Rehrig"
-  caption: "Ox Vox v2 board, front and back, silkscreened OX VOX v2 / BSIDES PDX / 2017"
+  source: https://www.robrehrig.com/ox_vox
+  credit: Rob Rehrig
+  caption: Ox Vox v2 board, front and back, silkscreened OX VOX v2 / BSIDES PDX / 2017
 contact: {}
 notes:
 - Add-on built for the (then-unreleased) BSidesPDX 2017 badge, presented by Rob Rehrig at the con. Found by the event-year sweep, task bsides-portland.
@@ -86,20 +86,26 @@ sources:
   note: 'Source repo: BMD-300/nRF52832 host chip, Eagle hardware files, nRF5 SDK firmware, MIT license, button/speaker/amplifier details, and the "BSides PDX 2018 badges" wording that conflicts with the board silkscreen.'
 - kind: url
   url: https://badge.gallery/series/bsidespdx
-  title: 'BSidesPDX · Hacker Con Badges (badge.gallery)'
+  title: BSidesPDX · Hacker Con Badges (badge.gallery)
   accessed: '2026-09-10'
-  note: 'Confirms the BMD-300 badge is the 2017 BSidesPDX badge and that Rehrig presented Ox-Vox at the 2017 conference targeting that badge.'
+  note: Confirms the BMD-300 badge is the 2017 BSidesPDX badge and that Rehrig presented Ox-Vox at the 2017 conference targeting that badge.
 - kind: url
   url: https://allbsides.com/talk/ko67pbjqiME.html
   title: 'Rob Rehrig - Ox-Vox: Hacking Con Badges Before the Con'
   accessed: '2026-09-10'
-  note: 'Talk describing the reverse-engineering process (built from a single photo before the badge was released) and the eight-key/sine-wave/nRF52 design.'
+  note: Talk describing the reverse-engineering process (built from a single photo before the badge was released) and the eight-key/sine-wave/nRF52 design.
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-10'
-  notes: 'Core facts (maker, what it does, chip, event) confirmed on the maker''s own page, GitHub repo, and a board photo. Left quantity/price empty — this was a personal build/demo, not sold, and no quantity is stated anywhere. One unresolved disagreement about badge year across sources; see notes above for how it was resolved.'
+  notes: Core facts (maker, what it does, chip, event) confirmed on the maker's own page, GitHub repo, and a board photo. Left quantity/price empty — this was a personal build/demo, not sold, and no quantity is stated anywhere. One unresolved disagreement about badge year across sources; see notes above for how it was resolved.
 last_modified_date: '2026-09-10'
+model:
+  file: assets/models/bsides-portland-2017/ox-vox-add-on.glb
+  method: kicad
+  source_file: oxvox.brd
+  generated: '2026-09-10'
+  bytes: 135688
 ---
 
 The Ox Vox is an ox-and-wagon-shaped add-on built by Rob Rehrig (@mediumrehr) for the BSidesPDX 2017 badge, itself built around a Nordic BMD-300 (nRF52832) module. It replaces the badge's two joystick inputs with eight momentary push buttons wired as a full musical octave (C to C), generating notes as wavetables on a PWM pin, smoothing them into a sine wave, and pushing the result through an LM4861 amplifier into a small onboard speaker; the host badge's OLED is repurposed to show "THE OX VOX" and the currently played note.

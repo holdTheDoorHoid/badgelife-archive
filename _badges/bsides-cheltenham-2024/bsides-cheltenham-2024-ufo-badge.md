@@ -12,7 +12,7 @@ makers:
 - name: Punk Security
   url: https://github.com/punk-security
 summary: A UFO-shaped electronic badge made by Punk Security for BSides Cheltenham 2024, with a single addressable RGB LED, a button, and a Morse-code game explained in a printed instructional booklet handed out on the day.
-functions: 'Button-driven Morse code interaction (an instructional booklet with the codes was distributed at the event); runs open Arduino firmware that attendees can modify and reflash over the SAO connector.'
+functions: Button-driven Morse code interaction (an instructional booklet with the codes was distributed at the event); runs open Arduino firmware that attendees can modify and reflash over the SAO connector.
 look:
   colors: []
   shape: spaceship
@@ -41,7 +41,7 @@ get_one:
   - free_drop
   where: Given out to attendees at BSides Cheltenham 2024.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/punk-security/bsides-cheltenham-2024-badge/tree/main/eagle-files
   firmware_url: https://github.com/punk-security/bsides-cheltenham-2024-badge/blob/main/bsides-cheltenham-2024-badge.ino
   gerbers_url: https://github.com/punk-security/bsides-cheltenham-2024-badge/blob/main/gerber_files.zip
@@ -70,24 +70,19 @@ sources:
   url: https://github.com/punk-security/bsides-cheltenham-2024-badge
   title: punk-security/bsides-cheltenham-2024-badge README
   accessed: '2026-09-10'
-  note: 'Confirmed maker, event, MCU (ATtiny402), single Neopixel 5050 LED, CR2032 power, SAO-connector UPDI flashing, Eagle design files, gerbers, BOM link, and the Morse-code instructional booklet.'
+  note: Confirmed maker, event, MCU (ATtiny402), single Neopixel 5050 LED, CR2032 power, SAO-connector UPDI flashing, Eagle design files, gerbers, BOM link, and the Morse-code instructional booklet.
 research:
   status: verified
   confidence: medium
   last_checked: '2026-09-10'
-  notes: >-
-    Re-fetched the maker's GitHub README, the repo's file listing (API), and the eagle-files
-    subfolder; every non-empty field and factual sentence in the entry is supported (MCU, LED,
-    battery, button, UPDI/SAO flashing via jtag2updi, Eagle files, gerber_files.zip, DigiKey BOM
-    link, morse-code booklet, STL case, SVG artwork). GitHub reports no license file, which
-    matches the empty license field. No photos of the assembled badge exist in the repo (only
-    ufo.svg and GitHub's auto social-card image), so images stays empty. Price and quantity made
-    are still not stated anywhere; distribution is inferred as free_drop from the README's note
-    about the flyer given out on the day plus the con context, not an explicit maker statement, so
-    get_one price/quantity, tech.sao_version, make_your_own.fab_url, and contact remain correctly
-    empty. Confidence held at medium because free_drop/price/quantity rest on inference rather
-    than an explicit statement.
+  notes: Re-fetched the maker's GitHub README, the repo's file listing (API), and the eagle-files subfolder; every non-empty field and factual sentence in the entry is supported (MCU, LED, battery, button, UPDI/SAO flashing via jtag2updi, Eagle files, gerber_files.zip, DigiKey BOM link, morse-code booklet, STL case, SVG artwork). GitHub reports no license file, which matches the empty license field. No photos of the assembled badge exist in the repo (only ufo.svg and GitHub's auto social-card image), so images stays empty. Price and quantity made are still not stated anywhere; distribution is inferred as free_drop from the README's note about the flyer given out on the day plus the con context, not an explicit maker statement, so get_one price/quantity, tech.sao_version, make_your_own.fab_url, and contact remain correctly empty. Confidence held at medium because free_drop/price/quantity rest on inference rather than an explicit statement.
 last_modified_date: '2026-09-10'
+model:
+  file: assets/models/bsides-cheltenham-2024/bsides-cheltenham-2024-ufo-badge.glb
+  method: kicad
+  source_file: ufo.brd
+  generated: '2026-09-10'
+  bytes: 25936
 ---
 
 The BSides Cheltenham 2024 UFO Badge is an open-hardware electronic badge made by the UK security consultancy Punk Security for attendees of BSides Cheltenham in 2024. It is built around an ATtiny402 microcontroller, a single Neopixel 5050 addressable RGB LED, a push button, and a CR2032 coin cell, all shaped into a flying-saucer PCB outline. Attendees received a printed Morse code instructional booklet on the day, pairing the badge's button/LED interaction with a simple code-learning game.

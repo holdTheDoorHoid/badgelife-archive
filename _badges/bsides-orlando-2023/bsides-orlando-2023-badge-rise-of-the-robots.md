@@ -25,7 +25,7 @@ tech:
   leds:
     count: 4
     type: discrete
-    note: 'Three self-flashing "Fast Blink 3mm LED" units and one "Breathing 3mm LED" unit (designators D1-D4); no microcontroller drives them. All four use a KiCad footprint named "LED_D3.0mm_IRBlack," which is a mechanical/package designation (black-tinted 3mm dome) shared by generic and IR LED parts alike, not evidence of an actual infrared emitter -- there is no fifth, separately-valued IR LED on the board.'
+    note: Three self-flashing "Fast Blink 3mm LED" units and one "Breathing 3mm LED" unit (designators D1-D4); no microcontroller drives them. All four use a KiCad footprint named "LED_D3.0mm_IRBlack," which is a mechanical/package designation (black-tinted 3mm dome) shared by generic and IR LED parts alike, not evidence of an actual infrared emitter -- there is no fifth, separately-valued IR LED on the board.
   display: none
   connectivity: []
   battery: CR2032 (Keystone 3002 coin-cell holder)
@@ -39,7 +39,7 @@ get_one:
   distribution: []
   where: ''
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/bsidesorlando/2023-badge/tree/main/bsidesorl-v1
   firmware_url: null
   eda_tool: KiCad
@@ -67,23 +67,30 @@ sources:
   url: https://bsidesorlando.org/conference-23-announcement/
   title: 2023 BSides Orlando Dates - Security BSides Orlando
   accessed: '2026-09-10'
-  note: 'Confirms only the "Rise of the Robots" 2023 conference theme and Oct 6-7, 2023 dates; this page does not name the venue.'
+  note: Confirms only the "Rise of the Robots" 2023 conference theme and Oct 6-7, 2023 dates; this page does not name the venue.
 - kind: url
   url: https://2023.bsidesorlando.org/
   title: BSides Orlando Security Conference 2023
   accessed: '2026-09-10'
-  note: 'Confirms the Oct 6-7, 2023 dates and venue, Full Sail Live, plus the "Rise of the Robots" theme.'
+  note: Confirms the Oct 6-7, 2023 dates and venue, Full Sail Live, plus the "Rise of the Robots" theme.
 - kind: url
   url: https://docs.badgepirates.com/catalog/
   title: Badge Catalog - BadgePirates Documents
   accessed: '2026-09-10'
-  note: 'BadgePirates'' own badge catalog has no BSides Orlando 2023 entry, ruling out the sweep''s tentative BadgePirates attribution.'
+  note: BadgePirates' own badge catalog has no BSides Orlando 2023 entry, ruling out the sweep's tentative BadgePirates attribution.
 research:
   status: verified
   confidence: medium
   last_checked: '2026-09-10'
-  notes: 'Confirmed as a real, released badge via its own KiCad hardware repo, whose PCB silkscreen credits a badge team (handles @infosecanon, @notthatguy, @joehacksalot) rather than an outside vendor -- verified directly against a re-downloaded copy of bsidesorl-v1.kicad_pcb. No README, storefront, press writeup, or photo of the assembled badge was found, so price, quantity, distribution method, exact board shape/color, and PCB image remain unconfirmed. Corrected during verification: the file has only 4 LED footprints (3x "Fast Blink" + 1x "Breathing"), not 5 -- the earlier "1x IR LED" reading mistook a shared KiCad footprint name ("LED_D3.0mm_IRBlack," a package/mechanical designation) for a distinct infrared-emitting component; leds.count and connectivity were corrected accordingly and the IR/infrared mentions removed from functions and the body. Also corrected: the Full Sail Live venue detail is real but was not actually supported by the cited bsidesorlando.org/conference-23-announcement page (which gives dates and theme only, no venue); a second source, 2023.bsidesorlando.org, was added to support it. The repo folder also contains several other SAO board files (dc239-sao, dc321-sao, dc321-2-sao, dc407-sao, iwc-iron-sao, bsidesorl-otgg-sao, bsidesorl-speaker-sao, bsidesorl-sponsor-sao, bsidesorl-staff-sao) that are separate items from this main badge; see reported "other items."'
+  notes: 'Confirmed as a real, released badge via its own KiCad hardware repo, whose PCB silkscreen credits a badge team (handles @infosecanon, @notthatguy, @joehacksalot) rather than an outside vendor -- verified directly against a re-downloaded copy of bsidesorl-v1.kicad_pcb. No README, storefront, press writeup, or photo of the assembled badge was found, so price, quantity, distribution method, exact board shape/color, and PCB image remain unconfirmed. Corrected during verification: the file has only 4 LED footprints (3x "Fast Blink" + 1x "Breathing"), not 5 -- the earlier "1x IR LED" reading mistook a shared KiCad footprint name ("LED_D3.0mm_IRBlack," a package/mechanical designation) for a distinct infrared-emitting component; leds.count and connectivity were corrected accordingly and the IR/infrared mentions removed from functions and the body. Also corrected: the Full Sail Live venue detail is real but was not actually supported by the cited bsidesorlando.org/conference-23-announcement
+    page (which gives dates and theme only, no venue); a second source, 2023.bsidesorlando.org, was added to support it. The repo folder also contains several other SAO board files (dc239-sao, dc321-sao, dc321-2-sao, dc407-sao, iwc-iron-sao, bsidesorl-otgg-sao, bsidesorl-speaker-sao, bsidesorl-sponsor-sao, bsidesorl-staff-sao) that are separate items from this main badge; see reported "other items."'
 last_modified_date: '2026-09-10'
+model:
+  file: assets/models/bsides-orlando-2023/bsides-orlando-2023-badge-rise-of-the-robots.glb
+  method: kicad
+  source_file: bsidesorl-v1/bsidesorl-v1.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 128672
 ---
 
 The BSides Orlando 2023 badge was made for that year's conference, themed "Rise of the Robots," held October 6-7, 2023 at Full Sail Live. Its hardware design is published as a KiCad project on the BSides Orlando GitHub organization, in a folder alongside several related SAO boards. The badge itself carries no microcontroller: it is a coin-cell-powered board with a slide switch, three self-flashing LEDs, and one "breathing" LED, all firing on their own without any firmware driving them. A 2x3 header gives it a standard SAO port so attendees could plug in add-on boards.

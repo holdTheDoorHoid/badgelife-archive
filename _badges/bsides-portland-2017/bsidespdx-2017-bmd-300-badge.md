@@ -67,8 +67,14 @@ research:
   status: verified
   confidence: low
   last_checked: '2026-09-10'
-  notes: 'Existence and specs confirmed by badge.gallery and independently by the pdxbadgers/pcb-2017 GitHub repo, including its bom.csv (BMD-300 SoC, Harwin CR2032 holder, ALPS SSSS810701 slide-type power switch, an AliExpress-linked 0.96" 128x64 OLED module, a Harwin 4-pin 2.54mm right-angle header, and two ALPS SKRHABE010 nav switches). Neither source gives price, quantity made, or distribution method, and no photo of the assembled badge could be located, so those fields are left empty. The four-pin right-angle header is confirmed to exist and to be used for Rob Rehrig''s "Ox-Vox" add-on, but nothing ties it to the SAO connector standard, so tech.sao_version stays null and the summary was reworded to drop an unsupported "SAO-style" characterization. The two navigation switches are corroborated by the BOM but tech.inputs is left unset since the guide has no confirmed-but-uncatalogued convention for it here.'
+  notes: Existence and specs confirmed by badge.gallery and independently by the pdxbadgers/pcb-2017 GitHub repo, including its bom.csv (BMD-300 SoC, Harwin CR2032 holder, ALPS SSSS810701 slide-type power switch, an AliExpress-linked 0.96" 128x64 OLED module, a Harwin 4-pin 2.54mm right-angle header, and two ALPS SKRHABE010 nav switches). Neither source gives price, quantity made, or distribution method, and no photo of the assembled badge could be located, so those fields are left empty. The four-pin right-angle header is confirmed to exist and to be used for Rob Rehrig's "Ox-Vox" add-on, but nothing ties it to the SAO connector standard, so tech.sao_version stays null and the summary was reworded to drop an unsupported "SAO-style" characterization. The two navigation switches are corroborated by the BOM but tech.inputs is left unset since the guide has no confirmed-but-uncatalogued convention for it here.
 last_modified_date: '2026-09-10'
+model:
+  file: assets/models/bsides-portland-2017/bsidespdx-2017-bmd-300-badge.glb
+  method: kicad
+  source_file: bsides2017.brd
+  generated: '2026-09-10'
+  bytes: 147992
 ---
 
 The BSidesPDX 2017 BMD-300 Badge is a conference badge built by the PDX Badgers group for BSidesPDX, held October 20-21, 2017 at the Oregon Convention Center in Portland, Oregon. It is built around a Nordic BMD-300 Bluetooth Low Energy SoC module and includes a small OLED display, a CR2032 coin-cell power supply with a slide switch, and a four-pin SMD right-angle header used to connect an expansion add-on.

@@ -39,7 +39,7 @@ get_one:
   - kit
   where: Distributed as a self-assembled component kit to BSides Perth 2025 attendees; parts sourced from AliExpress per the repo's parts list.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/badges4dotcom/bsidesperth2025badge
   firmware_url: https://github.com/badges4dotcom/bsidesperth2025badge/tree/main/Template
   eda_tool: null
@@ -52,13 +52,13 @@ links:
   kind: website
 images:
 - file: assets/images/badges/bsides-perth-2025/bsides-perth-2025-badge/76fb819cc5.png
-  source: "https://github.com/badges4dotcom/bsidesperth2025badge"
-  credit: "badges4dotcom"
-  caption: "The assembled BSides Perth 2025 physical badge on an ESP32 DevKit with 1.8-inch LCD"
+  source: https://github.com/badges4dotcom/bsidesperth2025badge
+  credit: badges4dotcom
+  caption: The assembled BSides Perth 2025 physical badge on an ESP32 DevKit with 1.8-inch LCD
 - file: assets/images/badges/bsides-perth-2025/bsides-perth-2025-badge/c17c1d5a4f.jpg
-  source: "https://github.com/badges4dotcom/bsidesperth2025badge"
-  credit: "badges4dotcom"
-  caption: "Front view of the assembled BSides Perth 2025 physical badge"
+  source: https://github.com/badges4dotcom/bsidesperth2025badge
+  credit: badges4dotcom
+  caption: Front view of the assembled BSides Perth 2025 physical badge
 contact: {}
 notes:
 - Sweep's line called it an attendee-assembled badge with a companion virtual badge and 3D-printable holder; confirmed against the maker's own GitHub repo. Found by the event-year sweep, task bsides-canberra.
@@ -80,6 +80,12 @@ research:
   last_checked: '2026-09-10'
   notes: Price and quantity made are not stated anywhere in the repo; distribution details beyond "kit built by attendees" are not documented. LED presence/count is not mentioned in the repo (no LEDs appear to be part of the BOM). Could not find a separate storefront, press coverage, or social posts about the badge.
 last_modified_date: '2026-09-10'
+model:
+  file: assets/models/bsides-perth-2025/bsides-perth-2025-badge.glb
+  method: kicad
+  source_file: PCBDesign/bsides_perth_2025/bsides_perth_2025.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 155044
 ---
 
 The BSides Perth 2025 badge is a self-assembly electronics kit built by badges4dotcom for the 2025 BSides Perth conference. It centers on an ESP32 DOIT DevKit v1 paired with a 1.8-inch LCD TFT display and four tactile push buttons, and attendees solder the header pins, buttons, and resistors themselves following the maker's assembly instructions. Once built, the badge runs a button-sequence puzzle game with offline challenges, plus online challenges added via a companion API from November 2025 onward.

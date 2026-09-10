@@ -82,6 +82,12 @@ research:
 last_modified_date: '2026-09-10'
 redirect_from:
 - /badges/bsides-san-francisco-2024/bsidessf-2024-badge-opentaxus-platform-reuse/
+model:
+  file: assets/models/bsides-portland-2024/bsidespdx-2024-opentaxus-badge.glb
+  method: kicad
+  source_file: hardware/OpenTaxus.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 262644
 ---
 
 The OpenTaxus Badge was BSidesPDX 2024's electronic conference badge, designed by Joe FitzPatrick (@securityfitz) and published through the PDX Badgers GitHub organization. It runs on a Raspberry Pi RP2040, with a 128x64 OLED display, two NeoPixel LEDs, a five-way directional pad, and an IR emitter/phototransistor pair used for two attendee-vs-attendee games: "The Attribution Game," a Clue-style deduction game, and "Trick or Treat," a virtual candy-trading game. It can run on a single AA battery through a boost converter or over USB-C.

@@ -45,7 +45,7 @@ get_one:
   distribution: []
   where: ''
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/ElectronicCats/badge-bsides-sandiego-2026/tree/main/hardware
   firmware_url: https://github.com/ElectronicCats/badge-bsides-sandiego-2026/tree/main/Firmware
   eda_tool: KiCad
@@ -64,7 +64,7 @@ images: []
 contact: {}
 notes:
 - Official BSides San Diego 2026 conference badge, a Cyberpunk Bunny-shaped ESP32-C6 device with OLED display, joystick, addressable LEDs, BLE co-op cryptography CTF and a hidden 'Forbidden Shake' easter-egg mode. Found by the event-year sweep, task bsides-bsides-san-diego.
-- 'Title confirmed as-is; the sweep''s wording matched the maker''s own README title ("Badge BSides San Diego 2026") and the con site''s "Cyberpunk Bunny" framing, so no correction was needed.'
+- Title confirmed as-is; the sweep's wording matched the maker's own README title ("Badge BSides San Diego 2026") and the con site's "Cyberpunk Bunny" framing, so no correction was needed.
 status: listed
 sources:
 - kind: url
@@ -88,6 +88,12 @@ research:
   last_checked: '2026-09-10'
   notes: The maker's repo and the con's own activity page both confirm the badge is real and describe it consistently; confidence is medium rather than high because neither source states price, quantity produced, availability, or battery/power details, and no photo of the physical badge could be located (only the Electronic Cats logo appears in the repo, and the con's badge-challenge page is a JS-rendered Google Sites page that did not yield an identifiable product photo within the research budget). look.shape was inferred as "rabbit" from the "Cyberpunk Bunny" name plus the con page's description, not from a photo, so should be reweighted if a photo later shows otherwise.
 last_modified_date: '2026-09-10'
+model:
+  file: assets/models/bsides-san-diego-2026/bsides-san-diego-2026-cyberpunk-bunny-badge.glb
+  method: kicad
+  source_file: hardware/Badge-Bsides-Sandiego-2026.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 408792
 ---
 
 Electronic Cats built the BSides San Diego 2026 conference badge as a standalone cryptography-challenge device shaped like a "Cyberpunk Bunny." It runs on an ESP32-C6 with a small SH1106G OLED display, a 4-axis joystick and boot button for navigation, an onboard accelerometer for shake detection, and two WS2812B addressable LEDs that report status (blue at boot, red when idle, rainbow once the advanced challenges are cleared).

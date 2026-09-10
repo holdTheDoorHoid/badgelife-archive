@@ -86,6 +86,12 @@ research:
 last_modified_date: '2026-09-10'
 redirect_from:
 - /badges/bsides-kansas-city-2023/bsideskc-2023-bsides23/
+model:
+  file: assets/models/bsides-kansas-city-2023/bsideskc-2023-attendee-elect-badge.glb
+  method: kicad
+  source_file: CAD - BadgePirate/BSidesKC23_BadgePirate.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 547840
 ---
 
 The BSidesKC 2023 Attendee Elect Badge is an ESP32-S3 electronic conference badge made by BadgePirates (Lee's Summit, MO) for BSidesKC 2023. It runs on a rechargeable LiPo battery charged over USB-C and was used during the conference to collect Badge CTF flags, with the seller noting a post-conference CTF may also be available to badge holders.

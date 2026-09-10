@@ -1,5 +1,5 @@
 ---
-title: 'BSidesKC 2024 Learn to Solder Badge (Down the Rabbit Hole)'
+title: BSidesKC 2024 Learn to Solder Badge (Down the Rabbit Hole)
 id: bsides-kansas-city-2024-bsideskc-2024-bsides24
 layout: badge
 parent: BSides Kansas City 2024
@@ -39,7 +39,7 @@ get_one:
   distribution: []
   where: ''
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/BadgePiratesLLC/BsidesKC_2024/tree/main/CAD/BsidesKC24-Inkscape
   firmware_url: null
   eda_tool: KiCad
@@ -53,13 +53,13 @@ links:
   kind: doc
 images:
 - file: assets/images/badges/bsides-kansas-city-2024/bsideskc-2024-bsides24/de90649304.jpg
-  source: "https://github.com/BadgePiratesLLC/BsidesKC_2024/tree/main/Artwork"
-  credit: "BadgePirates"
-  caption: "CAD render of the front of the BSidesKC 2024 Learn to Solder badge, a rabbit-head 'Down the Rabbit Hole' design"
+  source: https://github.com/BadgePiratesLLC/BsidesKC_2024/tree/main/Artwork
+  credit: BadgePirates
+  caption: CAD render of the front of the BSidesKC 2024 Learn to Solder badge, a rabbit-head 'Down the Rabbit Hole' design
 contact: {}
 notes:
 - 2024 BSidesKC badge from BadgePirates' catalog. Found by the event-year sweep, task bsides-any.
-- 'The sweep''s original title was "BSidesKC 2024 (BSides24)"; the repo and its instructions PDF identify it as this year''s "Learn to Solder" kit, so the title was updated to match.'
+- The sweep's original title was "BSidesKC 2024 (BSides24)"; the repo and its instructions PDF identify it as this year's "Learn to Solder" kit, so the title was updated to match.
 status: released
 sources:
 - kind: url
@@ -88,6 +88,12 @@ research:
   last_checked: '2026-09-10'
   notes: No maker's-own price, quantity, or distribution details were found (likely handed out free at the con's Learn to Solder table, but that is not stated anywhere in the sources, so get_one fields are left empty). No firmware is involved — the board is passive (two LEDs, a switch, and a battery holder), so tech.mcu is 'none' and make_your_own.firmware_url is left null. Could not confirm whether the badge was also distributed to non-attendees or sold separately.
 last_modified_date: '2026-09-10'
+model:
+  file: assets/models/bsides-kansas-city-2024/bsideskc-2024-bsides24.glb
+  method: kicad
+  source_file: CAD/BsidesKC24-Inkscape/BSidesKC24-L2S.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 103760
 ---
 
 BadgePirates built this board as BSidesKC 2024's "Learn to Solder" kit: a beginner soldering exercise handed out (or run as a workshop station) at the con rather than a standalone attendee badge. The front carries a black-and-gold rabbit-head graphic with "Down the Rabbit Hole" and "BSides Kansas City" lettering; the back is where the soldering happens.

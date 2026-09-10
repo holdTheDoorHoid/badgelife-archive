@@ -100,10 +100,10 @@ research:
   notes: 'Fact-check pass (2026-09-07): re-fetched the GitHub repo page and raw README and confirmed every populated field and every factual sentence in the body/Make-your-own section against them (event, maker, 400-unit free distribution, ESP32-C3, BLE rock-paper-scissors mechanic, red attack-mode LED, UART/SAO WOPR CTF with Global Thermonuclear War and Tic-Tac-Toe, open-source KiCad hardware + Arduino firmware, flashing steps, and the later-firmware glitch name display). Both saved images exist on disk and the repo page confirms it hosts front/back badge photos. No event id exists in events.yml for "BSides San Diego 2024" specifically (only the generic "bsides-2024"), so event was left as bsides-2024. Display hardware, exact LED part/type, SAO header version, battery, and price/cost remain unstated in any source found and are correctly left empty. Merged with duplicate entry ''BSides San Diego 2024 Badge'' (bsides-san-diego-2024-bsides-orlando-2024-badge).'
 last_modified_date: '2026-09-10'
 model:
-  file: assets/models/bsides-2024/bsides-badge-2024-somerset-recon.glb
+  file: assets/models/bsides-san-diego-2024/bsides-badge-2024-somerset-recon.glb
   method: kicad
   source_file: kiCad/rps_v4.0.0/rps_v4.0.0.kicad_pcb
-  generated: '2026-09-07'
+  generated: '2026-09-10'
   bytes: 255176
 redirect_from:
 - /badges/bsides-2024/bsides-badge-2024-somerset-recon/

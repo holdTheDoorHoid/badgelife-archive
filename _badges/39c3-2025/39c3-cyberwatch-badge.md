@@ -52,21 +52,26 @@ links:
 - label: codeberg.org/cyberwatch/39C3-release_board
   url: https://codeberg.org/cyberwatch/39C3-release_board
   kind: repo
+  archived: https://web.archive.org/web/20260101173217/https://codeberg.org/cyberwatch/39C3-release_board
 - label: 'events.ccc.de: Cyberwatch Badge project page'
   url: https://events.ccc.de/congress/2025/hub/en/project/detail/assembly/cyberwatch-badge-96/
   kind: doc
+  archived: https://web.archive.org/web/20260417145325/https://events.ccc.de/congress/2025/hub/en/project/detail/assembly/cyberwatch-badge-96/
 - label: Cyberwatch homepage & docs
   url: https://cyberwatch.codeberg.page/
   kind: website
+  archived: https://web.archive.org/web/20260102065444/https://cyberwatch.codeberg.page/
 images:
 - file: assets/images/badges/39c3-2025/39c3-cyberwatch-badge/76841c0a89.jpg
   source: https://cyberwatch.codeberg.page/
   credit: Cyberwatch team
   caption: KiCad 3D render of the assembled front of the Cyberwatch motherboard and a shard daughterboard, showing the SD-card-style edge connectors
+  archived: https://web.archive.org/web/20260102065444/https://cyberwatch.codeberg.page/
 - file: assets/images/badges/39c3-2025/39c3-cyberwatch-badge/3dc9fd3c83.jpg
   source: https://cyberwatch.codeberg.page/
   credit: Cyberwatch team
   caption: Back-side PCB layout with the 39C3 'Power Cycles' congress art and pinout labels
+  archived: https://web.archive.org/web/20260102065444/https://cyberwatch.codeberg.page/
 contact: {}
 notes:
 - Modular solderable smartwatch-style badge with swappable SD-card-form-factor 'shard' add-on boards and optional LoRa/Meshtastic radio, built for 39C3. Found by the event-year sweep, task ccc-adjacent.
@@ -80,6 +85,7 @@ sources:
   title: 39C3 Cyberwatch Badge
   accessed: '2026-09-07'
   note: 'Found by the archive''s discovery sweep (angle: sweep:ccc-adjacent); event read as ''39C3 2025''.'
+  archived: https://web.archive.org/web/20260101173217/https://codeberg.org/cyberwatch/39C3-release_board
 - kind: url
   url: https://codeberg.org/cyberwatch/39C3-release_board/raw/branch/main/README.md
   title: Cyberwatch Base README
@@ -90,6 +96,7 @@ sources:
   title: Conference 39th Chaos Communications Congress - Project Cyberwatch Badge
   accessed: '2026-09-08'
   note: Confirms the maker/team name (Fachschaft GAF∧Friends - LMU München) and that the project carries LoRa/Meshtastic tags on the official 39C3 hub.
+  archived: https://web.archive.org/web/20260417145325/https://events.ccc.de/congress/2025/hub/en/project/detail/assembly/cyberwatch-badge-96/
 - kind: url
   url: https://codeberg.org/api/v1/repos/cyberwatch/39C3-release_board/contents/Resources
   title: Repository Resources directory listing
@@ -100,6 +107,7 @@ sources:
   title: Cyberwatch homepage
   accessed: '2026-09-08'
   note: Confirmed features (shards, LoRa/Meshtastic shard, LED, display), on-site kit component shortage, and image URLs (front render, layout render).
+  archived: https://web.archive.org/web/20260102065444/https://cyberwatch.codeberg.page/
 research:
   status: researched
   confidence: medium

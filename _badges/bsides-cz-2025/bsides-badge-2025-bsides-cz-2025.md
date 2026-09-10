@@ -55,7 +55,7 @@ images: []
 contact: {}
 notes:
 - ESP32-based BSides Czech Republic 2025 badge with a 1.28-inch round display. Found by the event-year sweep, task bsides-any.
-- 'Sweep imported the fork (sorooris/bsides-badge-2025) as the title; the maker''s own repo is bsidescz/badge-2025, described only as "Repo containing all the badge bits and pieces" (no proper name given), so this entry uses a descriptive title.'
+- Sweep imported the fork (sorooris/bsides-badge-2025) as the title; the maker's own repo is bsidescz/badge-2025, described only as "Repo containing all the badge bits and pieces" (no proper name given), so this entry uses a descriptive title.
 status: listed
 sources:
 - kind: url
@@ -77,23 +77,31 @@ sources:
   url: https://raw.githubusercontent.com/bsidescz/badge-2025/main/mainboard/HW/kicad/bsides25-badge-mainboard-v1.1.kicad_sch
   title: mainboard schematic (KiCad source)
   accessed: '2026-09-10'
-  note: 'lib_id references confirm MCU_WCH_CH32V0:CH32V003FxPx, AMS1117-3.3 regulator, MLT-5030 buzzer, MMBT3906 transistor on the mainboard.'
+  note: lib_id references confirm MCU_WCH_CH32V0:CH32V003FxPx, AMS1117-3.3 regulator, MLT-5030 buzzer, MMBT3906 transistor on the mainboard.
 - kind: url
   url: https://raw.githubusercontent.com/bsidescz/badge-2025/main/key/HW/kicad/bsides25-key.kicad_sch
   title: key module schematic (KiCad source)
   accessed: '2026-09-10'
-  note: 'lib_id references confirm CH32V003, a WS2812B-2020 LED, and an SKRHABE010 SMD tactile switch on each key module, connecting via an "EDGE_BADGE" edge connector.'
+  note: lib_id references confirm CH32V003, a WS2812B-2020 LED, and an SKRHABE010 SMD tactile switch on each key module, connecting via an "EDGE_BADGE" edge connector.
 - kind: url
   url: https://api.github.com/repos/bsidescz/badge-2025/git/trees/main?recursive=1
   title: repo file tree (GitHub API)
   accessed: '2026-09-10'
-  note: 'head/HW/ contains only the vendor SDK/demo tree for a commercial "1.28inch_ESP32-2424S012" round-display module (ESP32-C3-MINI-1U), confirming the head unit''s chip and display; no separate custom firmware source was found for mainboard or key.'
+  note: head/HW/ contains only the vendor SDK/demo tree for a commercial "1.28inch_ESP32-2424S012" round-display module (ESP32-C3-MINI-1U), confirming the head unit's chip and display; no separate custom firmware source was found for mainboard or key.
 research:
   status: verified
   confidence: medium
   last_checked: '2026-09-10'
-  notes: "Fact-check pass (2026-09-10): every non-empty field and factual sentence in this entry was re-checked against its cited source. Confirmed via GitHub API/raw fetches: bsidescz org description and BSidesPrague link; sorooris/bsides-badge-2025 is a fork with bsidescz/badge-2025 as parent; the repo's README is exactly the one-line \"Repo containing all the badge bits and pieces\"; the file tree has only mainboard/HW, key/HW, head/HW (no firmware source directories); mainboard schematic lib_ids confirm CH32V0:CH32V003FxPx, AMS1117-3.3, MMBT3906, and MLT-5030 buzzer; key schematic confirms CH32V0:CH32V003FxPx, a WS2812B-2020 LED, an SKRHABE010 SMD switch, and an EDGE_BADGE connector, plus a real STL (key/HW/stl/badge-key-cover.stl) supporting the 'STL for a cover' claim; head/HW contains only the vendor 1.28inch_ESP32-2424S012 SDK/demo tree, no custom firmware. events.yml has no separate BSides Prague id, only bsides-cz-2025, confirming the event assignment. Re-fetched badge.gallery's BSides Prague 2025 page: it does describe a 'modular artifact powered by multiple processors' with attendee chip-based challenges, and does state no assembled-badge photo could be published — both matching what this entry already said about that secondary source. No contradictions found; nothing needed correcting or removing. Confidence stays medium (not high) because no photo of an assembled badge exists anywhere and price/quantity/availability/exact on-badge functions remain undocumented by any source. Left empty: get_one.* (price/quantity/availability/where), tech.connectivity (ESP32-C3 supports wifi/ble but usage on this badge is unconfirmed), tech.battery, look.colors/shape, functions detail beyond hardware structure. `status: listed` (inherited from the original sweep entry) was not upgraded to `released` — the only signal that the badge was actually built and distributed at the event is the secondary badge.gallery/organizer-retrospective account, which per policy was not used to fill fields; a primary source (e.g. the organizer's own retrospective or event photos) would be needed to confirm status:released."
+  notes: 'Fact-check pass (2026-09-10): every non-empty field and factual sentence in this entry was re-checked against its cited source. Confirmed via GitHub API/raw fetches: bsidescz org description and BSidesPrague link; sorooris/bsides-badge-2025 is a fork with bsidescz/badge-2025 as parent; the repo''s README is exactly the one-line "Repo containing all the badge bits and pieces"; the file tree has only mainboard/HW, key/HW, head/HW (no firmware source directories); mainboard schematic lib_ids confirm CH32V0:CH32V003FxPx, AMS1117-3.3, MMBT3906, and MLT-5030 buzzer; key schematic confirms CH32V0:CH32V003FxPx, a WS2812B-2020 LED, an SKRHABE010 SMD switch, and an EDGE_BADGE connector, plus a real STL (key/HW/stl/badge-key-cover.stl) supporting the ''STL for a cover'' claim; head/HW contains only the vendor 1.28inch_ESP32-2424S012 SDK/demo tree, no custom firmware. events.yml has no separate BSides Prague id, only bsides-cz-2025, confirming the event assignment. Re-fetched badge.gallery''s
+    BSides Prague 2025 page: it does describe a ''modular artifact powered by multiple processors'' with attendee chip-based challenges, and does state no assembled-badge photo could be published — both matching what this entry already said about that secondary source. No contradictions found; nothing needed correcting or removing. Confidence stays medium (not high) because no photo of an assembled badge exists anywhere and price/quantity/availability/exact on-badge functions remain undocumented by any source. Left empty: get_one.* (price/quantity/availability/where), tech.connectivity (ESP32-C3 supports wifi/ble but usage on this badge is unconfirmed), tech.battery, look.colors/shape, functions detail beyond hardware structure. `status: listed` (inherited from the original sweep entry) was not upgraded to `released` — the only signal that the badge was actually built and distributed at the event is the secondary badge.gallery/organizer-retrospective account, which per policy was not used
+    to fill fields; a primary source (e.g. the organizer''s own retrospective or event photos) would be needed to confirm status:released.'
 last_modified_date: '2026-09-10'
+model:
+  file: assets/models/bsides-cz-2025/bsides-badge-2025-bsides-cz-2025.glb
+  method: kicad
+  source_file: key/HW/kicad/bsides25-key.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 76500
 ---
 
 The BSides Prague 2025 badge (BSides Czech z.s.'s repo names it only "badge-2025") is a three-piece electronic badge built around two different microcontroller families. A mainboard carries a CH32V003 RISC-V microcontroller, a piezo buzzer, and edge connectors; small "key" modules — each with their own CH32V003, a WS2812B RGB LED, and a tactile button — plug into those connectors. A separate head unit adds a 1.28-inch round LCD, built on a commercial ESP32-C3 display module (the same "GC9A01-class" round-screen boards sold widely as "1.28inch ESP32-2424S012").

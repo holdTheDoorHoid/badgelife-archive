@@ -12,7 +12,7 @@ makers:
 - name: PDX Badgers
   url: https://github.com/pdxbadgers
 summary: An ESP8266-based hands-on hacking badge built by PDX Badgers for a BSidesPDX 2015 workshop, running a web UI over its own Wi-Fi hotspot.
-functions: 'Runs an onboard HTTP server with a /flag endpoint for storing and updating CTF flags and a /leds endpoint for controlling LED state, color, and animation mode (blink, chase, twinkle, all, none). Broadcasts its own Wi-Fi hotspot ("BadgerNet") with mDNS discovery.'
+functions: Runs an onboard HTTP server with a /flag endpoint for storing and updating CTF flags and a /leds endpoint for controlling LED state, color, and animation mode (blink, chase, twinkle, all, none). Broadcasts its own Wi-Fi hotspot ("BadgerNet") with mDNS discovery.
 look:
   colors: []
   shape: badger
@@ -44,7 +44,7 @@ make_your_own:
   hardware_url: https://github.com/pdxbadgers/pcb-2015
   firmware_url: https://github.com/pdxbadgers/fw-2015
   eda_tool: Eagle
-  notes: 'Hardware repo (PCB, Gerbers, OSH Park design rules) is licensed CC BY-SA 3.0; the firmware repo carries no explicit license statement.'
+  notes: Hardware repo (PCB, Gerbers, OSH Park design rules) is licensed CC BY-SA 3.0; the firmware repo carries no explicit license statement.
 links:
 - label: badge.gallery/badges/bsidespdx-2015-badger-badge
   url: https://badge.gallery/badges/bsidespdx-2015-badger-badge
@@ -59,7 +59,7 @@ images: []
 contact: {}
 notes:
 - ESP8266-based hackable conference badge for BSidesPDX 2015. Found by the event-year sweep, task bsides-portland.
-- 'The workshop was presented by Michael Leibowitz; the public hardware and firmware repos are published under the PDX Badgers GitHub org.'
+- The workshop was presented by Michael Leibowitz; the public hardware and firmware repos are published under the PDX Badgers GitHub org.
 status: released
 sources:
 - kind: url
@@ -81,8 +81,14 @@ research:
   status: researched
   confidence: medium
   last_checked: '2026-09-10'
-  notes: 'No documentary photo of the assembled/soldered badge was found on badge.gallery or in either GitHub repo (only conference logo art and PCB design assets); images left empty rather than guessed. Price, quantity made, and battery details are not documented anywhere found. Distribution context (workshop-based hands-out) does not map cleanly to the controlled distribution vocabulary, so get_one.distribution was left empty and described in get_one.where instead.'
+  notes: No documentary photo of the assembled/soldered badge was found on badge.gallery or in either GitHub repo (only conference logo art and PCB design assets); images left empty rather than guessed. Price, quantity made, and battery details are not documented anywhere found. Distribution context (workshop-based hands-out) does not map cleanly to the controlled distribution vocabulary, so get_one.distribution was left empty and described in get_one.where instead.
 last_modified_date: '2026-09-10'
+model:
+  file: assets/models/bsides-portland-2015/bsidespdx-2015-badger-badge.glb
+  method: kicad
+  source_file: badger.brd
+  generated: '2026-09-10'
+  bytes: 175452
 ---
 
 The Badger Badge was built by PDX Badgers for a hands-on hardware hacking workshop at BSidesPDX 2015, presented by Michael Leibowitz. It is an ESP8266-based board that runs its own web server and broadcasts a Wi-Fi hotspot nicknamed "BadgerNet," so attendees could connect and interact with the badge over HTTP rather than a serial console. Onboard are four monochrome LEDs (tail, feet, nose) and one RGB LED for the eye, all controllable through a `/leds` endpoint that supports several animation modes (blink, chase, twinkle) alongside solid colors.

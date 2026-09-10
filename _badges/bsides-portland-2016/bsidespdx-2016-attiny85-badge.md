@@ -10,8 +10,8 @@ event: bsides-portland-2016
 year: 2016
 makers:
 - name: PDX Badgers
-summary: 'A capacitive-touch LED badge with a 36-LED array, made by PDX Badgers for BSidesPDX 2016.'
-functions: 'Runs a four-step LED pattern animation plus an alternate sine/cosine analogWrite loop; a capacitive touch pad changes the pattern.'
+summary: A capacitive-touch LED badge with a 36-LED array, made by PDX Badgers for BSidesPDX 2016.
+functions: Runs a four-step LED pattern animation plus an alternate sine/cosine analogWrite loop; a capacitive touch pad changes the pattern.
 look:
   colors: []
   shape: null
@@ -35,9 +35,9 @@ get_one:
   availability: free
   distribution:
   - free_drop
-  where: 'Given away to attendees at BSidesPDX 2016; a Calagator listing for the con mentions PCB badges, T-shirts, and bags to give away, with donors prioritized, but no confirmed final quantity.'
+  where: Given away to attendees at BSidesPDX 2016; a Calagator listing for the con mentions PCB badges, T-shirts, and bags to give away, with donors prioritized, but no confirmed final quantity.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/pdxbadgers/pcb-2016
   firmware_url: https://github.com/pdxbadgers/pcb-2016
   eda_tool: Eagle
@@ -63,7 +63,7 @@ sources:
   url: https://badge.gallery/badges/bsidespdx-2016-attiny85-badge
   title: BSidesPDX 2016 ATTiny85 Badge
   accessed: '2026-09-10'
-  note: 'Confirmed chip (ATTINY85-20SUR @ 1MHz), 36 yellow 0603 LEDs, CR2032 power, capacitive touch input, and the PDX Badgers GitHub repo as the design-file source; no photo of the physical badge could be recovered.'
+  note: Confirmed chip (ATTINY85-20SUR @ 1MHz), 36 yellow 0603 LEDs, CR2032 power, capacitive touch input, and the PDX Badgers GitHub repo as the design-file source; no photo of the physical badge could be recovered.
 - kind: url
   url: https://github.com/pdxbadgers/pcb-2016
   title: pdxbadgers/pcb-2016
@@ -73,8 +73,14 @@ research:
   status: researched
   confidence: medium
   last_checked: '2026-09-10'
-  notes: 'No maker photo of the physical badge could be found; images left empty rather than guessed. Price and exact production quantity are not stated anywhere found; get_one.where reflects the only distribution detail located (a Calagator con listing). GitHub repo file contents (BoM, schematic, firmware) were not individually opened to verify every technical claim beyond what badge.gallery already summarized from them.'
+  notes: No maker photo of the physical badge could be found; images left empty rather than guessed. Price and exact production quantity are not stated anywhere found; get_one.where reflects the only distribution detail located (a Calagator con listing). GitHub repo file contents (BoM, schematic, firmware) were not individually opened to verify every technical claim beyond what badge.gallery already summarized from them.
 last_modified_date: '2026-09-10'
+model:
+  file: assets/models/bsides-portland-2016/bsidespdx-2016-attiny85-badge.glb
+  method: kicad
+  source_file: badge.brd
+  generated: '2026-09-10'
+  bytes: 146864
 ---
 
 The BSidesPDX 2016 badge is an ATtiny85-based PCB badge made by PDX Badgers, the volunteer group behind BSidesPDX's badge program, for the 2016 event at the Oregon Convention Center in Portland. It carries a 36-LED array of yellow 0603 LEDs driven by the ATtiny85's PWM outputs, runs off a CR2032 coin cell, and uses a capacitive touch pad to switch between a four-step LED animation and an alternate sine/cosine fade pattern.

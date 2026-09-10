@@ -41,7 +41,7 @@ get_one:
   distribution: []
   where: ''
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/pdxbadgers/badge-2018/tree/master/HW
   firmware_url: https://github.com/pdxbadgers/badge-2018/tree/master/FW
   eda_tool: KiCad
@@ -54,17 +54,17 @@ links:
   kind: repo
 images:
 - file: assets/images/badges/bsides-portland-2018/bsidespdx-2018-attiny861-badge/51317151de.jpg
-  source: "https://github.com/pdxbadgers/badge-2018"
-  credit: "PDX Badgers"
-  caption: "BSidesPDX 2018 ATtiny861 badge, front (Oregon-shaped purple PCB with charlieplexed icon LEDs)"
+  source: https://github.com/pdxbadgers/badge-2018
+  credit: PDX Badgers
+  caption: BSidesPDX 2018 ATtiny861 badge, front (Oregon-shaped purple PCB with charlieplexed icon LEDs)
 - file: assets/images/badges/bsides-portland-2018/bsidespdx-2018-attiny861-badge/cb6ed58025.jpg
-  source: "https://github.com/pdxbadgers/badge-2018"
-  credit: "PDX Badgers"
-  caption: "BSidesPDX 2018 ATtiny861 badge, back (sponsor logo panel)"
+  source: https://github.com/pdxbadgers/badge-2018
+  credit: PDX Badgers
+  caption: BSidesPDX 2018 ATtiny861 badge, back (sponsor logo panel)
 contact: {}
 notes:
 - ATTiny861-based LED badge with SAO header for BSidesPDX 2018. Found by the event-year sweep, task bsides-portland.
-- 'Sweep/aggregator title used "ATTiny861" (all-caps); the maker''s own repo and datasheet spell the chip "ATtiny861", used here as the title.'
+- Sweep/aggregator title used "ATTiny861" (all-caps); the maker's own repo and datasheet spell the chip "ATtiny861", used here as the title.
 status: released
 sources:
 - kind: url
@@ -83,6 +83,12 @@ research:
   last_checked: '2026-09-10'
   notes: Price, quantity made, and how it was distributed (free with badge registration vs. sold) are not stated anywhere found; get_one fields left empty. tech.sao_version not confirmed from available sources (repo mentions a SAO connector but not which pinout revision), left null.
 last_modified_date: '2026-09-10'
+model:
+  file: assets/models/bsides-portland-2018/bsidespdx-2018-attiny861-badge.glb
+  method: kicad
+  source_file: HW/BSidesPDX_2018/BSidesPDX_2018.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 462348
 ---
 
 The BSidesPDX 2018 badge is an Oregon-state-shaped PCB built by the PDX Badgers, the volunteer group behind Portland's BSides hardware badges, around an Atmel ATtiny861 microcontroller. Twelve small icons cut into the silkscreen — a mountain, a coffee cup, rain, a bridge, a sasquatch, a book, a train, a beard, a bike, a donut, a rose, and a beer — are lit by charlieplexed yellow LEDs, and four additional RGB LEDs are driven with PWM for color effects. The board charges from USB Micro-B through a Micronucleus bootloader, runs off a CR2032 coin cell, has two switches for mode control, and carries a SAO connector so other badges could plug into it.

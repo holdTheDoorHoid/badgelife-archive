@@ -38,7 +38,7 @@ get_one:
   distribution: []
   where: ''
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/ElectronicCats/bsides-seattle-2025/tree/main/hardware
   firmware_url: https://github.com/ElectronicCats/bsides-seattle-2025/tree/main/firmware
   eda_tool: KiCad
@@ -79,6 +79,12 @@ research:
   last_checked: '2026-09-10'
   notes: Maker's own GitHub repo confirms the badge is real and describes its features in detail, so confidence is medium rather than low. Could not find price, quantity, availability, LED count/type, display, battery, SAO support, board color/shape, or any photo of the assembled physical badge from the maker or press; those fields are left empty/unknown. No storefront or press coverage was found beyond the repo itself.
 last_modified_date: '2026-09-10'
+model:
+  file: assets/models/bsides-seattle-2025/bsides-seattle-2025-badge.glb
+  method: kicad
+  source_file: hardware/bsides-seattle-2025.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 195316
 ---
 
 The BSides Seattle 2025 badge is Electronic Cats' official electronic badge for the 2025 edition of BSides Seattle, built on an ESP32-S3 and released as open hardware (KiCad design files) under the CERN Open Hardware Licence v1.2, with open firmware under an ESP-IDF project.

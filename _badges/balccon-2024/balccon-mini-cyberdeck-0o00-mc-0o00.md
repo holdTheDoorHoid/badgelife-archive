@@ -48,9 +48,11 @@ links:
 - label: ch405labs.net/mc-0o00
   url: https://ch405labs.net/mc-0o00/
   kind: website
+  archived: https://web.archive.org/web/20260412120148/https://ch405labs.net/mc-0o00/
 - label: MCD 0o00 Hardware Design (GitLab)
   url: https://gitlab.com/ch405labs/badgelife/mcd-0o00/mcd-0o00-hardware-design
   kind: repo
+  archived: https://web.archive.org/web/20260614203904/https://gitlab.com/ch405labs/badgelife/mcd-0o00/mcd-0o00-hardware-design
 - label: CB Pong addon page (badge.gallery)
   url: https://badge.gallery/addons/balccon-2024-mc-0o00/cb-pong
   kind: website
@@ -76,11 +78,13 @@ sources:
   title: Mini Cyberdeck 0o00 - ch405labs.net
   accessed: '2026-09-08'
   note: 'This is the maker''s real, currently live project page (search-index snippet corroborates the badge.gallery description: "badge for the BalCCon 2k24 conference... CH32V003 processor... ST7735 lcd display, a piezoelectric buzzer and 6 buttons"). Could not be fetched directly this session (both WebFetch and curl timed out against ch405labs.net), so only the indexed snippet was read, not the full live page. The entry''s existing link ch405-labs.com/mc-0o00/ (note the hyphen) loads as empty/unreachable and appears to be a dead or unrelated domain, not the maker''s actual site.'
+  archived: https://web.archive.org/web/20260412120148/https://ch405labs.net/mc-0o00/
 - kind: url
   url: https://gitlab.com/ch405labs/badgelife/mcd-0o00/mcd-0o00-hardware-design
   title: MCD 0o00 Hardware Design - GitLab
   accessed: '2026-09-08'
   note: Confirms a hardware-design repo exists for the badge (created Dec 2024, has a README); could not confirm license or EDA tool from the page excerpt available, so make_your_own.eda_tool and license were left blank.
+  archived: https://web.archive.org/web/20260614203904/https://gitlab.com/ch405labs/badgelife/mcd-0o00/mcd-0o00-hardware-design
 - kind: url
   url: https://badge.gallery/addons/balccon-2024-mc-0o00/cb-pong
   title: CB Pong · Hacker Con Badges

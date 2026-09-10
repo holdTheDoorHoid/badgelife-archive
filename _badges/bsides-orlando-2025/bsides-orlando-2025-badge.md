@@ -41,7 +41,7 @@ make_your_own:
   firmware_url: null
   eda_tool: KiCad
   fab_url: https://www.pcbway.com/project/share/BSides_Orlando_2025_Badge_Prototype_f4d9394c.html
-  notes: 'Repo contains only bare KiCad source (bsidesorl-v1.kicad_sch/.kicad_pcb) with no README, BOM, or renders; no firmware because the board has no MCU.'
+  notes: Repo contains only bare KiCad source (bsidesorl-v1.kicad_sch/.kicad_pcb) with no README, BOM, or renders; no firmware because the board has no MCU.
 links:
 - label: www.pcbway.com/project/share/BSides_Orlando_2025_Badge_Prototype_f4d9394c.html
   url: https://www.pcbway.com/project/share/BSides_Orlando_2025_Badge_Prototype_f4d9394c.html
@@ -53,7 +53,7 @@ images: []
 contact: {}
 notes:
 - PCBWay-hosted prototype listing for the official BSides Orlando 2025 badge, designed by Jose Rodriguez; companion KiCad source also published at github.com/bsidesorlando/2025-badge. Found by the event-year sweep, task bsides-bsides-orlando.
-- 'Search also surfaced github.com/sorooris/bsides-badge-2025, but that repo is a fork of bsidescz/badge-2025 (BSides Czech) with no confirmed link to BSides Orlando — not used as a source here.'
+- Search also surfaced github.com/sorooris/bsides-badge-2025, but that repo is a fork of bsidescz/badge-2025 (BSides Czech) with no confirmed link to BSides Orlando — not used as a source here.
 status: announced
 sources:
 - kind: url
@@ -65,13 +65,19 @@ sources:
   url: https://github.com/bsidesorlando/2025-badge
   title: bsidesorlando/2025-badge
   accessed: '2026-09-10'
-  note: 'KiCad source repo (single commit "introduce badge files" by Jose Rodriguez, 2025-09-05). Schematic shows a battery, slide switch, 4 discrete LEDs, and a 6-pin (Conn_02x03) SAO header; no MCU present.'
+  note: KiCad source repo (single commit "introduce badge files" by Jose Rodriguez, 2025-09-05). Schematic shows a battery, slide switch, 4 discrete LEDs, and a 6-pin (Conn_02x03) SAO header; no MCU present.
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-10'
-  notes: 'Confirmed the badge exists and is real via the maker''s own GitHub org (bsidesorlando) and the matching PCBWay prototype share, both attributing it to Jose Rodriguez. The schematic establishes it as a passive (no-MCU) LED badge with a 6-pin SAO header, but no README, photos, BOM, price, quantity, or distribution details were published anywhere found. Could not confirm whether it was actually distributed at the September 27, 2025 event, so left get_one and status conservative (announced rather than released). No usable product photo was found — the PCBWay page''s image gallery loads via JS/API and did not appear in the static HTML fetch.'
+  notes: Confirmed the badge exists and is real via the maker's own GitHub org (bsidesorlando) and the matching PCBWay prototype share, both attributing it to Jose Rodriguez. The schematic establishes it as a passive (no-MCU) LED badge with a 6-pin SAO header, but no README, photos, BOM, price, quantity, or distribution details were published anywhere found. Could not confirm whether it was actually distributed at the September 27, 2025 event, so left get_one and status conservative (announced rather than released). No usable product photo was found — the PCBWay page's image gallery loads via JS/API and did not appear in the static HTML fetch.
 last_modified_date: '2026-09-10'
+model:
+  file: assets/models/bsides-orlando-2025/bsides-orlando-2025-badge.glb
+  method: kicad
+  source_file: bsidesorl-v1.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 59340
 ---
 
 The BSides Orlando 2025 badge is a straightforward, passive electronic badge designed by Jose Rodriguez for the September 2025 BSides Orlando conference. Its KiCad source (published under the event's own `bsidesorlando` GitHub organization) shows a simple board with a coin-cell battery holder, a slide switch, four discrete LEDs, and a 6-pin SAO header — there is no microcontroller, so any onboard behavior is fixed rather than programmable. The badge was manufactured as a prototype through PCBWay, where the shared listing describes it as built "to spec" with good quality.

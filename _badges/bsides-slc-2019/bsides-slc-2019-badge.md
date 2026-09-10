@@ -34,7 +34,7 @@ get_one:
   distribution: []
   where: ''
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/Professor-plum/BSides-SLC-Badge-2019/tree/master/eagle
   firmware_url: https://github.com/Professor-plum/BSides-SLC-Badge-2019/tree/master/src
   eda_tool: Eagle
@@ -53,7 +53,7 @@ images: []
 contact: {}
 notes:
 - STM32F103CB-based conference badge with touchscreen and serial flash storage, source/design files published by Professor-plum; badge's 12 challenges were later walked through by bashNinja/801Labs. Found by the event-year sweep, task bsides-bsides-slc.
-- 'Sweep imported the title as "BSides SLC 2019 Badge"; the maker''s own repo/README use the same wording, so no title change was needed.'
+- Sweep imported the title as "BSides SLC 2019 Badge"; the maker's own repo/README use the same wording, so no title change was needed.
 status: listed
 sources:
 - kind: url
@@ -68,20 +68,26 @@ sources:
   note: Confirms MCU (STM32F103CB, Arduino_STM32 core), touchscreen (XPT2046) and serial flash storage; MIT license; build instructions.
 - kind: url
   url: https://www.youtube.com/watch?v=G3LeRYf3Ors
-  title: 'Solving the BSidesSLC 2019 Badge by bashNinja'
+  title: Solving the BSidesSLC 2019 Badge by bashNinja
   accessed: '2026-09-10'
   note: Confirms the badge shipped with 12 challenges and that bashNinja (801 Labs) designed and later walked through the solutions.
 - kind: url
   url: https://securityboulevard.com/2019/05/bsides-slc-2019-bashninjas-solving-the-bsidesslc-2019-badge/
-  title: 'BSides SLC 2019, bashNinja''s ''Solving The BSidesSLC 2019 Badge'''
+  title: BSides SLC 2019, bashNinja's 'Solving The BSidesSLC 2019 Badge'
   accessed: '2026-09-10'
   note: Cross-posted coverage of the same walkthrough talk, corroborating the challenge-design credit.
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-10'
-  notes: 'The maker''s GitHub repo (README, Eagle files, Arduino source, a schematic PDF) confirms the hardware and firmware, and a separate walkthrough talk confirms the 12-challenge design credited to bashNinja. No price, production quantity, distribution method, or LED info is stated anywhere found; get_one fields and tech.leds are left empty rather than guessed. The repo''s img/ and gifs/ folders hold in-game UI bitmaps (arcade, DJ mixer, TV, etc.) used by the touchscreen challenges, not photos of the physical badge, so no images were saved for this entry — a real photo would need to come from a con recap or social post not found in this pass.'
+  notes: The maker's GitHub repo (README, Eagle files, Arduino source, a schematic PDF) confirms the hardware and firmware, and a separate walkthrough talk confirms the 12-challenge design credited to bashNinja. No price, production quantity, distribution method, or LED info is stated anywhere found; get_one fields and tech.leds are left empty rather than guessed. The repo's img/ and gifs/ folders hold in-game UI bitmaps (arcade, DJ mixer, TV, etc.) used by the touchscreen challenges, not photos of the physical badge, so no images were saved for this entry — a real photo would need to come from a con recap or social post not found in this pass.
 last_modified_date: '2026-09-10'
+model:
+  file: assets/models/bsides-slc-2019/bsides-slc-2019-badge.glb
+  method: kicad
+  source_file: Badge Proto.brd
+  generated: '2026-09-10'
+  bytes: 195196
 ---
 
 The BSides SLC 2019 badge is a touchscreen conference badge built by Professor-plum around an STM32F103CB microcontroller (Arduino_STM32 core), an XPT2046 resistive touchscreen, and serial flash for storage. Rather than a simple blinky badge, it runs a small on-screen "world" — an arcade, a DJ mixer, a TV, a phone dialer, a street/alley scene, a market — built from custom bitmap and GIF assets, with WAV audio cues played from the flash chip.

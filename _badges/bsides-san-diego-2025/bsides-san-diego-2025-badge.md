@@ -34,7 +34,7 @@ get_one:
   distribution: []
   where: ''
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/ElectronicCats/badge-bsides-sandiego-2025
   firmware_url: null
   eda_tool: KiCad
@@ -56,7 +56,7 @@ sources:
   note: 'Found by the archive''s discovery sweep (angle: sweep:bsides-bsides-san-diego); event read as ''BSides San Diego 2025''.'
 - kind: url
   url: https://github.com/ElectronicCats/badge-bsides-sandiego-2025/blob/main/README.md
-  title: 'Badge bsides San Diego 2025 (README)'
+  title: Badge bsides San Diego 2025 (README)
   accessed: '2026-09-10'
   note: Confirms maker, CH32V003 MCU, LEDs, OLED display, 2x AAA battery holder, SAO ("Shitty Addon Connector"), and CERN-OHL-1.2 hardware license. No price, quantity, or availability given.
 - kind: url
@@ -70,6 +70,12 @@ research:
   last_checked: '2026-09-10'
   notes: The maker's GitHub repo and README confirm the core facts already in the sweep notes (CH32V003, OLED, LEDs, 2x AAA, SAO connector, CERN-OHL-1.2). Could not find price, quantity made, availability/distribution, LED count/type, SAO connector version, or any photo of the physical badge (the repo has no image assets; only a generic GitHub social-card og:image was found, not a photo of the item, so no images were saved). Note that BSides San Diego's own site currently promotes a different "Cyberpunk Bunny" ESP32 badge described as this year's badge challenge, which appears to be a distinct (likely 2026) item, not this one; that Electronic Cats CH32V003 badge is unambiguously tied to the 2025 event by the repo name and README title.
 last_modified_date: '2026-09-10'
+model:
+  file: assets/models/bsides-san-diego-2025/bsides-san-diego-2025-badge.glb
+  method: kicad
+  source_file: hardware/Bsides_sandiego_2025.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 139456
 ---
 
 The BSides San Diego 2025 badge is an open-source hardware conference badge designed by Electronic Cats for the 2025 edition of BSides San Diego. It is built around a CH32V003 RISC-V microcontroller and includes an OLED display and LEDs, runs on a 2x AAA battery holder, and carries a "Shitty Addon Connector" (SAO) header so attendees could plug in add-on boards.

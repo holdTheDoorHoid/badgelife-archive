@@ -37,7 +37,7 @@ get_one:
   distribution: []
   where: ''
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/blackcatlabs/bsidesiowa2018/blob/master/badge.brd
   firmware_url: https://github.com/blackcatlabs/bsidesiowa2018/blob/master/badge.c
   eda_tool: Eagle
@@ -52,7 +52,7 @@ images: []
 contact: {}
 notes:
 - BSides Iowa's first electronic badge, an ATtiny85-based board with 12 charlieplexed LEDs powered by a CR2032 coin cell, documented on GitHub. Found by the event-year sweep, task bsides-bsides-iowa.
-- 'The sweep title matched the maker''s own README title ("B-Sides Iowa Badge"/"B-Sides Iowa 2018 Badge"); kept as-is.'
+- The sweep title matched the maker's own README title ("B-Sides Iowa Badge"/"B-Sides Iowa 2018 Badge"); kept as-is.
 status: listed
 sources:
 - kind: url
@@ -76,6 +76,12 @@ research:
   last_checked: '2026-09-10'
   notes: Only source found is the maker's own GitHub repo, which is thorough on hardware/firmware but does not state price, quantity made, or distribution/availability, and contains no photo of the assembled board. A web search turned up no press coverage, storefront, or additional images beyond the repo itself, so no images could be saved.
 last_modified_date: '2026-09-10'
+model:
+  file: assets/models/bsides-iowa-2018/b-sides-iowa-2018-badge.glb
+  method: kicad
+  source_file: badge.brd
+  generated: '2026-09-10'
+  bytes: 46240
 ---
 
 BSides Iowa's first electronic badge was designed by G Rice of Black Cat Labs with two goals in mind: keep manufacturing costs low for a small non-profit conference, and make the board friendly for attendees to hack on. The result is a simple ATtiny85-based badge with 12 charlieplexed LEDs, 8K of flash, and a CR2032 coin cell for power, fabricated through Seeed Fusion PCB.

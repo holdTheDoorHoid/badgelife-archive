@@ -10,8 +10,8 @@ event: bsides-dublin-2026
 year: 2026
 makers:
 - name: BSides Dublin organizers
-summary: 'The official electronic conference badge for BSides Dublin 2026, built around an STM32L053R8Tx with capacitive touch, LEDs, a buzzer, and a hidden CTF.'
-functions: 'Six capacitive touch strings play notes on a two-octave piezo buzzer, with 7 PWM-driven LEDs and a USB serial CLI (type `help`); 4 CTF flags are hidden in the badge.'
+summary: The official electronic conference badge for BSides Dublin 2026, built around an STM32L053R8Tx with capacitive touch, LEDs, a buzzer, and a hidden CTF.
+functions: Six capacitive touch strings play notes on a two-octave piezo buzzer, with 7 PWM-driven LEDs and a USB serial CLI (type `help`); 4 CTF flags are hidden in the badge.
 look:
   colors: []
   shape: null
@@ -38,7 +38,7 @@ get_one:
   distribution: []
   where: ''
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/BSidesDublin/HardwareBadge2026/tree/main/production_files
   firmware_url: https://github.com/BSidesDublin/HardwareBadge2026/tree/main/firmware
   eda_tool: null
@@ -59,15 +59,24 @@ sources:
   note: 'Found by the archive''s discovery sweep (angle: sweep:bsides-singapore); event read as ''BSides Dublin 2026''.'
 - kind: url
   url: https://raw.githubusercontent.com/BSidesDublin/HardwareBadge2026/main/README.md
-  title: 'BSidesDublin/HardwareBadge2026 README'
+  title: BSidesDublin/HardwareBadge2026 README
   accessed: '2026-09-10'
-  note: 'Confirmed hardware specs, firmware/hardware being open source, CTF flags, and repo layout.'
+  note: Confirmed hardware specs, firmware/hardware being open source, CTF flags, and repo layout.
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-10'
-  notes: 'Repo confirms the badge exists and its hardware/firmware are fully open source, but has no price, production quantity, availability, or photos of the assembled board, and no maker name beyond "BSides Dublin" organizers as a group. No storefront, Hackaday, or press coverage found. Left get_one fields and images empty rather than guess; shape/colors left empty since no photo was found.'
+  notes: Repo confirms the badge exists and its hardware/firmware are fully open source, but has no price, production quantity, availability, or photos of the assembled board, and no maker name beyond "BSides Dublin" organizers as a group. No storefront, Hackaday, or press coverage found. Left get_one fields and images empty rather than guess; shape/colors left empty since no photo was found.
 last_modified_date: '2026-09-10'
+model:
+  file: assets/models/bsides-dublin-2026/bsides-dublin-2026-harp-badge.glb
+  method: gerber
+  source_file: production_files/PCB/gerber.zip/Gerber
+  generated: '2026-09-10'
+  bytes: 174076
+  size_mm:
+  - 55.7
+  - 93.9
 ---
 
 The Harp Badge is the official electronic conference badge for BSides Dublin 2026, designed and built by the conference's organizers. It centers on an STM32L053R8Tx (Cortex-M0+) microcontroller driving six capacitive touch strings that play notes on a two-octave piezo buzzer, evoking the badge's namesake instrument, alongside seven PWM-controlled yellow LEDs. The badge is powered by either a CR2032 coin cell or USB-C, with automatic source detection, and exposes a USB serial CLI for interacting with the device.

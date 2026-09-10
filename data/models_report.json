@@ -535,5 +535,238 @@
   "bytes": 224392,
   "tried": [],
   "src": "BSidesCBR2019.kicad_pcb"
+ },
+ "bsides-canberra-2023-bpod": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 589424,
+  "tried": [],
+  "src": "hardware/bpod/bpod.kicad_pcb"
+ },
+ "bsides-cdmx-2024-badge-bsides-cdmx-2024": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 327312,
+  "tried": [],
+  "src": "hardware/Bsides_2024_Community/Bsides_2024_Community.kicad_pcb"
+ },
+ "bsides-cdmx-2025-bsides-cdmx-2025-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 175236,
+  "tried": [],
+  "src": "hardware/Badge-bsides-cdmx-2025-community/Badge-bsides-cdmx-2025.kicad_pcb"
+ },
+ "bsides-charleston-2022-bsides-charleston-2022-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 262076,
+  "tried": [],
+  "src": "CAD/BsidesCHS-2022-Badge.kicad_pcb"
+ },
+ "bsides-cheltenham-2024-bsides-cheltenham-2024-ufo-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 25936,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "ufo.brd"
+ },
+ "bsides-connecticut-2020-bsidesct-2020-electronic-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 318588,
+  "tried": [],
+  "src": "Hardware/Schematics/bsidesct2019.kicad_pcb"
+ },
+ "bsides-cz-2025-bsides-badge-2025-bsides-cz-2025": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 76500,
+  "tried": [],
+  "src": "key/HW/kicad/bsides25-key.kicad_pcb"
+ },
+ "bsides-dublin-2026-bsides-dublin-2026-harp-badge": {
+  "status": "ok",
+  "method": "gerber",
+  "bytes": 174076,
+  "tried": [],
+  "src": "production_files/PCB/gerber.zip/Gerber"
+ },
+ "bsides-iowa-2018-b-sides-iowa-2018-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 46240,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "badge.brd"
+ },
+ "bsides-kansas-city-2019-bsideskc-2019": {
+  "status": "ok",
+  "method": "gerber",
+  "bytes": 128036,
+  "tried": [],
+  "src": "gerber/Prototype_v0.3_gerber.zip"
+ },
+ "bsides-kansas-city-2021-bsides-kc-2021-badge-w-stand": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 279524,
+  "tried": [],
+  "src": "Badge/Bsides-KC.kicad_pcb"
+ },
+ "bsides-kansas-city-2023-bsideskc-2023-attendee-elect-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 547840,
+  "tried": [],
+  "src": "CAD - BadgePirate/BSidesKC23_BadgePirate.kicad_pcb"
+ },
+ "bsides-kansas-city-2024-bsideskc-2024-bsides24": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 103760,
+  "tried": [],
+  "src": "CAD/BsidesKC24-Inkscape/BSidesKC24-L2S.kicad_pcb"
+ },
+ "bsides-orlando-2023-bsides-orlando-2023-badge-rise-of-the-robots": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 128672,
+  "tried": [],
+  "src": "bsidesorl-v1/bsidesorl-v1.kicad_pcb"
+ },
+ "bsides-orlando-2025-bsides-orlando-2025-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 59340,
+  "tried": [],
+  "src": "bsidesorl-v1.kicad_pcb"
+ },
+ "bsides-orlando-2026-bsides-orlando-2026-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 238380,
+  "tried": [],
+  "src": "hardware/bsidesorl-v1.kicad_pcb"
+ },
+ "bsides-perth-2025-bsides-perth-2025-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 155044,
+  "tried": [],
+  "src": "PCBDesign/bsides_perth_2025/bsides_perth_2025.kicad_pcb"
+ },
+ "bsides-portland-2015-bsidespdx-2015-badger-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 175452,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "badger.brd"
+ },
+ "bsides-portland-2016-bsidespdx-2016-attiny85-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 146864,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "badge.brd"
+ },
+ "bsides-portland-2017-bsidespdx-2017-bmd-300-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 147992,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "bsides2017.brd"
+ },
+ "bsides-portland-2017-ox-vox-add-on": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 135688,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "oxvox.brd"
+ },
+ "bsides-portland-2018-bsidespdx-2018-attiny861-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 462348,
+  "tried": [],
+  "src": "HW/BSidesPDX_2018/BSidesPDX_2018.kicad_pcb"
+ },
+ "bsides-portland-2019-bsidespdx-2019-multnomah-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 282420,
+  "tried": [],
+  "src": "multnomah.kicad_pcb"
+ },
+ "bsides-portland-2024-bsidespdx-2024-opentaxus-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 262644,
+  "tried": [],
+  "src": "hardware/OpenTaxus.kicad_pcb"
+ },
+ "bsides-san-diego-2024-bsides-badge-2024-somerset-recon": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 255176,
+  "tried": [],
+  "src": "kiCad/rps_v4.0.0/rps_v4.0.0.kicad_pcb"
+ },
+ "bsides-san-diego-2025-bsides-san-diego-2025-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 139456,
+  "tried": [],
+  "src": "hardware/Bsides_sandiego_2025.kicad_pcb"
+ },
+ "bsides-san-diego-2026-bsides-san-diego-2026-cyberpunk-bunny-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 408792,
+  "tried": [],
+  "src": "hardware/Badge-Bsides-Sandiego-2026.kicad_pcb"
+ },
+ "bsides-san-francisco-2024-bsidessf-2024-electronic-badge-attribution-game": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 270644,
+  "tried": [],
+  "src": "hardware/bsidessf-24.kicad_pcb"
+ },
+ "bsides-seattle-2025-bsides-seattle-2025-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 195316,
+  "tried": [],
+  "src": "hardware/bsides-seattle-2025.kicad_pcb"
+ },
+ "bsides-slc-2015-bsidesslc-2015-electronic-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 164284,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "BSides 2015 RevA.brd"
+ },
+ "bsides-slc-2019-bsides-slc-2019-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 195196,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "Badge Proto.brd"
  }
 }

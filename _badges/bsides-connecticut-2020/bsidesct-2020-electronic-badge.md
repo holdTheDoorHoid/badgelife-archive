@@ -39,7 +39,7 @@ get_one:
   - free_drop
   where: Distributed to BSidesCT 2020 conference attendees.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/BSides-CT/2020-Badge
   firmware_url: https://github.com/BSides-CT/2020-Badge
   eda_tool: null
@@ -49,9 +49,9 @@ links:
   kind: repo
 images:
 - file: assets/images/badges/bsides-connecticut-2020/bsidesct-2020-electronic-badge/17699e109c.jpg
-  source: "https://github.com/BSides-CT/2020-Badge"
-  credit: "BSides-CT"
-  caption: "Assembled 2020 BSidesCT badge PCB showing the SAM D11 MCU, CR95HF NFC reader, and USB-C port"
+  source: https://github.com/BSides-CT/2020-Badge
+  credit: BSides-CT
+  caption: Assembled 2020 BSidesCT badge PCB showing the SAM D11 MCU, CR95HF NFC reader, and USB-C port
 contact: {}
 notes:
 - Electronic badge for BSides Connecticut 2020 with an NFC reader (SAM D11 + CR95HF), distributed despite unresolved USB/NFC bugs. Found by the event-year sweep, task general-2020.
@@ -74,6 +74,12 @@ research:
   last_checked: '2026-09-10'
   notes: Only source found is the maker's own GitHub repo (no press coverage, storefront, or photos of the fully assembled/worn badge — only component/schematic images in the repo, one of which is used above). Repo says the badge was originally designed for BSidesCT 2019 and delayed to 2020; kept the event as bsides-connecticut-2020 since that is when it was actually distributed. Exact quantity made and LED count/type not stated anywhere found.
 last_modified_date: '2026-09-10'
+model:
+  file: assets/models/bsides-connecticut-2020/bsidesct-2020-electronic-badge.glb
+  method: kicad
+  source_file: Hardware/Schematics/bsidesct2019.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 318588
 ---
 
 The 2020 BSidesCT electronic badge is a conference badge built around an Atmel SAM D11 D14AM microcontroller, given out to attendees of BSides Connecticut. According to its GitHub repository, the design was originally started for the 2019 event but wasn't finished in time, so the BSides-CT team completed and distributed it in 2020 instead.

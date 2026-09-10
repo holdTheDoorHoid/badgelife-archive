@@ -18,7 +18,7 @@ makers:
 - name: securelyfitz
   role: software
 summary: The official BSidesSF 2024 conference badge, built to run the "Attribution Game," an infrared card-trading CTF where attendees deduce a threat actor, tool, and victim.
-functions: 'Players enter a handle on first boot, then use an onboard IR transceiver to trade cryptographically-signed "clue" cards and contact info with other attendees. Collecting enough clues lets a player attribute an attack across each of six rounds; a game organizer verifies the win. After the con the badge doubles as a CircuitPython learning platform.'
+functions: Players enter a handle on first boot, then use an onboard IR transceiver to trade cryptographically-signed "clue" cards and contact info with other attendees. Collecting enough clues lets a player attribute an attack across each of six rounds; a game organizer verifies the win. After the con the badge doubles as a CircuitPython learning platform.
 look:
   colors: []
   shape: null
@@ -51,7 +51,7 @@ get_one:
   - free_drop
   where: Distributed to attendees of BSidesSF 2024.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/BSidesSF/badge-2024/tree/main/hardware
   firmware_url: https://github.com/BSidesSF/badge-2024/tree/main/software
   eda_tool: KiCad
@@ -65,7 +65,7 @@ images: []
 contact: {}
 notes:
 - Official BSidesSF 2024 conference electronic badge built around an 'Attribution Game' CTF challenge (identify threat actor, tool, and victim), source and hardware/firmware docs on GitHub. Found by the event-year sweep, task bsides-las-vegas.
-- 'Sheet/sweep title matches the maker''s own README title, no change needed.'
+- Sheet/sweep title matches the maker's own README title, no change needed.
 status: released
 sources:
 - kind: url
@@ -77,23 +77,29 @@ sources:
   url: https://raw.githubusercontent.com/BSidesSF/badge-2024/master/README.md
   title: 'badge-2024: README'
   accessed: '2026-09-10'
-  note: 'Confirms maker, game concept, that hardware is based on the LABScon badge, and CC BY-SA 4.0 license.'
+  note: Confirms maker, game concept, that hardware is based on the LABScon badge, and CC BY-SA 4.0 license.
 - kind: url
   url: https://raw.githubusercontent.com/BSidesSF/badge-2024/master/docs/HARDWARE.md
   title: 'badge-2024: Hardware docs'
   accessed: '2026-09-10'
-  note: 'MCU (RP2040/Xiao-derived), 16MB flash, SH1106 OLED, IR PHY on UART, 5-way d-pad, 2x neopixel, AA battery + boost, USB-C.'
+  note: MCU (RP2040/Xiao-derived), 16MB flash, SH1106 OLED, IR PHY on UART, 5-way d-pad, 2x neopixel, AA battery + boost, USB-C.
 - kind: url
   url: https://raw.githubusercontent.com/BSidesSF/badge-2024/master/docs/BADGE.md
   title: 'badge-2024: Using the Badge'
   accessed: '2026-09-10'
-  note: 'Confirms IR-based card trading mechanics, 6 rounds of the game, and post-con CircuitPython reuse.'
+  note: Confirms IR-based card trading mechanics, 6 rounds of the game, and post-con CircuitPython reuse.
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-10'
-  notes: 'No photo of the assembled badge was found (the GitHub repo has no images of the physical unit, only KiCad source files and an .xcf card-art file; a search turned up only text coverage). Price and quantity made are not stated anywhere found; distribution is free to attendees per the docs, so availability is recorded as free rather than unknown. A LABScon 2023 badge (pdxbadgers/badge-2024 fork notes it was "designed for LABScon 2023 and then revised... for BSidesSF 2024") is the direct ancestor design and may deserve its own entry under a different event.'
+  notes: No photo of the assembled badge was found (the GitHub repo has no images of the physical unit, only KiCad source files and an .xcf card-art file; a search turned up only text coverage). Price and quantity made are not stated anywhere found; distribution is free to attendees per the docs, so availability is recorded as free rather than unknown. A LABScon 2023 badge (pdxbadgers/badge-2024 fork notes it was "designed for LABScon 2023 and then revised... for BSidesSF 2024") is the direct ancestor design and may deserve its own entry under a different event.
 last_modified_date: '2026-09-10'
+model:
+  file: assets/models/bsides-san-francisco-2024/bsidessf-2024-electronic-badge-attribution-game.glb
+  method: kicad
+  source_file: hardware/bsidessf-24.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 270644
 ---
 
 The 2024 BSidesSF badge was designed by Joe FitzPatrick (securityfitz) as a favor to the conference, reusing a LABScon badge as its hardware base; the firmware is a CircuitPython fork of the LABScon badge software, further developed by rlc4, lanrat, and securelyfitz. Rather than a simple wearable, the badge is the vehicle for the "Attribution Game," a Clue-like CTF: attendees pick a handle on first boot, then hold badges edge-to-edge to trade infrared "clue" cards and contact info. Each of six rounds asks players to deduce a threat actor, an attack tool, and a victim from the clues they've collected; a completed set is checked by a game organizer.
