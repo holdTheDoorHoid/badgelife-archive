@@ -12,7 +12,7 @@ makers:
 - name: trueControl
   url: https://basic.truecontrol.org
 summary: TEST-O is a robot-shaped SAO from true / trueControl (Whiskey Pirates) that tests continuity, diodes and LEDs through alligator-clip arms while its RGB eyes run knob-selected light programs; it was released for Hackaday Supercon 7 (2023) and sold on trueControl's own webshop.
-functions: 'Bottom switch selects continuity test, diode test, or fun (light-show) modes. Knobs on the body select RGB eye program and features. Top button toggles the continuity beep and RGB brightness. Rear switch chooses battery or SAO-header power. Dangly alligator-clip arms probe circuits or pinch its own cheeks; continuity-test contacts are in the cheeks and a test diode sits between the antennas.'
+functions: Bottom switch selects continuity test, diode test, or fun (light-show) modes. Knobs on the body select RGB eye program and features. Top button toggles the continuity beep and RGB brightness. Rear switch chooses battery or SAO-header power. Dangly alligator-clip arms probe circuits or pinch its own cheeks; continuity-test contacts are in the cheeks and a test diode sits between the antennas.
 look:
   colors:
   - black
@@ -41,7 +41,7 @@ get_one:
   - contest
   where: Assembled units were available in person at Supercon 7 (2023) and later entered in the Supercon 8 SAO contest; also sold assembled through trueControl's own webshop (shop.truecontrol.org), which showed only 1 unit in stock as of 2026-09-07. Blank boards/BOM for self-assembly were also offered.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://basic.truecontrol.org/sc7/testo-dev/
   firmware_url: https://basic.truecontrol.org/sc7/testo-dev/
   eda_tool: null
@@ -49,27 +49,32 @@ links:
 - label: hackaday.io/project/198571-test-o-the-test-robot-addon
   url: https://hackaday.io/project/198571-test-o-the-test-robot-addon
   kind: hackaday
+  archived: https://web.archive.org/web/20251105121751/https://hackaday.io/project/198571-test-o-the-test-robot-addon
 - label: basic.truecontrol.org
   url: https://basic.truecontrol.org
   kind: website
 - label: shop.truecontrol.org
   url: https://shop.truecontrol.org
   kind: store
+  archived: https://web.archive.org/web/20251102092120/https://shop.truecontrol.org/
 - label: 'shop.truecontrol.org: TEST-O Robot Buddy Addon Continuity Tester (product page)'
   url: https://shop.truecontrol.org/index.php?route=product/product&path=59&product_id=148
   kind: store
+  archived: https://web.archive.org/web/20260216202540/https://shop.truecontrol.org/index.php?route=product/product&path=59&product_id=148
 - label: 'basic.truecontrol.org: TEST-O code, schematics, etc'
   url: https://basic.truecontrol.org/sc7/testo-dev/
   kind: doc
 images:
 - file: assets/images/badges/supercon-2023/supercon-2023-test-o-the-test-robot-addon/6bd3f9fc97.jpg
-  source: "https://hackaday.io/project/198571-test-o-the-test-robot-addon"
-  credit: "true (trueControl)"
-  caption: "TEST-O Robot Buddy addon with RGB eyes and alligator-clip probe arms"
+  source: https://hackaday.io/project/198571-test-o-the-test-robot-addon
+  credit: true (trueControl)
+  caption: TEST-O Robot Buddy addon with RGB eyes and alligator-clip probe arms
+  archived: https://web.archive.org/web/20251105121751/https://hackaday.io/project/198571-test-o-the-test-robot-addon
 - file: assets/images/badges/supercon-2023/supercon-2023-test-o-the-test-robot-addon/cd08fc0c58.jpg
-  source: "https://shop.truecontrol.org/index.php?route=product/product&path=59&product_id=148"
-  credit: "trueControl"
-  caption: "TEST-O product photo showing knob, switches and probe leads"
+  source: https://shop.truecontrol.org/index.php?route=product/product&path=59&product_id=148
+  credit: trueControl
+  caption: TEST-O product photo showing knob, switches and probe leads
+  archived: https://web.archive.org/web/20260216202540/https://shop.truecontrol.org/index.php?route=product/product&path=59&product_id=148
 contact: {}
 notes: []
 status: released
@@ -79,11 +84,13 @@ sources:
   title: TEST-O the Test Robot Addon
   accessed: '2026-09-06'
   note: Found via the project's link list; intake pass identified this item here.
+  archived: https://web.archive.org/web/20251105121751/https://hackaday.io/project/198571-test-o-the-test-robot-addon
 - kind: url
   url: https://hackaday.io/project/198571-test-o-the-test-robot-addon
   title: TEST-O the Test Robot Addon (Hackaday.io project page)
   accessed: '2026-09-07'
   note: Confirmed function (diode/continuity/LED tester, RGB eyes), event history (Supercon 7 release, Supercon 8 SAO contest entry), open-source code/schematics, and provided the hero image URL.
+  archived: https://web.archive.org/web/20251105121751/https://hackaday.io/project/198571-test-o-the-test-robot-addon
 - kind: url
   url: https://basic.truecontrol.org
   title: trueControl BASIC (badge/addon documentation hub)
@@ -94,11 +101,12 @@ sources:
   title: 'trueControl Shop: TEST-O Robot Buddy Addon Continuity Tester'
   accessed: '2026-09-07'
   note: Source for price ($35), SKU, MCU (PY32F003), PlatformIO/end-user-programmable firmware, GAT/SAO or CR2032 power, package contents, credits (concept by rCON, circuit/layout/design/code by true, hand-assembled in Las Vegas), and two additional product photos.
+  archived: https://web.archive.org/web/20260216202540/https://shop.truecontrol.org/index.php?route=product/product&path=59&product_id=148
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-07'
-  notes: 'The maker''s own webshop and documentation hub confirm the core facts. Could not reach the dedicated sub-pages basic.truecontrol.org/sc7/testo-dev/ or /sc7/testo-qs/ directly (403/404 depending on client) to pull firmware repo specifics or exact quantity made, so hardware_url/firmware_url point to the listed doc page but its content was not independently verified; quantity made is unstated anywhere found. Shop listed only 1 unit in stock at time of check, so availability is recorded as "limited" rather than a firm sold_out/available call.'
+  notes: The maker's own webshop and documentation hub confirm the core facts. Could not reach the dedicated sub-pages basic.truecontrol.org/sc7/testo-dev/ or /sc7/testo-qs/ directly (403/404 depending on client) to pull firmware repo specifics or exact quantity made, so hardware_url/firmware_url point to the listed doc page but its content was not independently verified; quantity made is unstated anywhere found. Shop listed only 1 unit in stock at time of check, so availability is recorded as "limited" rather than a firm sold_out/available call.
 last_modified_date: '2026-09-07'
 ---
 

@@ -13,8 +13,8 @@ makers:
   url: https://hackaday.io/zakqwy
 - name: Ben Hencke
   url: https://hackaday.io/ben-hencke
-summary: 'A hand-built optical card reader that loads Sharpie-marked paper "programs" onto the Supercon 2022 badge over UART.'
-functions: 'Reads hand-marked paper cards optically and transfers the encoded program to the Supercon 2022 badge over UART. Users draw sync bars and data marks on printed cards with a Sharpie and feed the card through the reader by hand.'
+summary: A hand-built optical card reader that loads Sharpie-marked paper "programs" onto the Supercon 2022 badge over UART.
+functions: Reads hand-marked paper cards optically and transfers the encoded program to the Supercon 2022 badge over UART. Users draw sync bars and data marks on printed cards with a Sharpie and feed the card through the reader by hand.
 look:
   colors: []
   shape: null
@@ -26,7 +26,7 @@ tech:
   leds:
     count: 26
     type: discrete
-    note: 'Two arrays of thirteen salvaged red LEDs (harvested from donor badges), charlieplexed and scanned sequentially to illuminate the card as it passes through.'
+    note: Two arrays of thirteen salvaged red LEDs (harvested from donor badges), charlieplexed and scanned sequentially to illuminate the card as it passes through.
   display: none
   connectivity:
   - uart
@@ -35,10 +35,10 @@ tech:
 get_one:
   price: ''
   price_usd: null
-  quantity: '1 (one-off build)'
+  quantity: 1 (one-off build)
   availability: not_released
   distribution: []
-  where: 'Not distributed; a single unit built and demoed at Supercon 2022.'
+  where: Not distributed; a single unit built and demoed at Supercon 2022.
 make_your_own:
   open_source: partial
   hardware_url: null
@@ -48,15 +48,18 @@ links:
 - label: hackaday.io/project/188133-supercon-2022-badge-card-reader
   url: https://hackaday.io/project/188133-supercon-2022-badge-card-reader
   kind: hackaday
+  archived: https://web.archive.org/web/20260511182930/https://hackaday.io/project/188133-supercon-2022-badge-card-reader
 images:
-  - file: assets/images/badges/supercon-2022/supercon-2022-badge-card-reader/ced079b68d.jpg
-    source: "https://hackaday.io/project/188133-supercon-2022-badge-card-reader"
-    credit: "Zach Fredin / Ben Hencke"
-    caption: "Supercon 2022 Badge Card Reader with a marked program card"
-  - file: assets/images/badges/supercon-2022/supercon-2022-badge-card-reader/2578e35e7d.jpg
-    source: "https://hackaday.io/project/188133-supercon-2022-badge-card-reader"
-    credit: "Zach Fredin / Ben Hencke"
-    caption: "Card reader attached to the Supercon 2022 badge"
+- file: assets/images/badges/supercon-2022/supercon-2022-badge-card-reader/ced079b68d.jpg
+  source: https://hackaday.io/project/188133-supercon-2022-badge-card-reader
+  credit: Zach Fredin / Ben Hencke
+  caption: Supercon 2022 Badge Card Reader with a marked program card
+  archived: https://web.archive.org/web/20260511182930/https://hackaday.io/project/188133-supercon-2022-badge-card-reader
+- file: assets/images/badges/supercon-2022/supercon-2022-badge-card-reader/2578e35e7d.jpg
+  source: https://hackaday.io/project/188133-supercon-2022-badge-card-reader
+  credit: Zach Fredin / Ben Hencke
+  caption: Card reader attached to the Supercon 2022 badge
+  archived: https://web.archive.org/web/20260511182930/https://hackaday.io/project/188133-supercon-2022-badge-card-reader
 contact: {}
 notes: []
 status: released
@@ -66,11 +69,13 @@ sources:
   title: Supercon 2022 Badge Card Reader
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: hackaday-list); event read as ''Supercon 2022''.'
+  archived: https://web.archive.org/web/20260511182930/https://hackaday.io/project/188133-supercon-2022-badge-card-reader
 - kind: url
   url: https://hackaday.io/project/188133-supercon-2022-badge-card-reader
   title: Supercon 2022 Badge Card Reader (Hackaday.io project log)
   accessed: '2026-09-07'
-  note: 'Primary source for makers, function, construction, LEDs, and open-source status; identified project page as the definitive source.'
+  note: Primary source for makers, function, construction, LEDs, and open-source status; identified project page as the definitive source.
+  archived: https://web.archive.org/web/20260511182930/https://hackaday.io/project/188133-supercon-2022-badge-card-reader
 research:
   status: verified
   confidence: medium

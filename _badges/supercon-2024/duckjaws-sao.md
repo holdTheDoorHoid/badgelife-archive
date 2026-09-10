@@ -59,12 +59,15 @@ links:
 - label: github.com/astuder/duckglow
   url: https://github.com/astuder/duckglow
   kind: repo
+  archived: https://web.archive.org/web/20260506012935/https://github.com/astuder/duckglow
 - label: hackaday.io/project/198918-duckglow-sao
   url: https://hackaday.io/project/198918-duckglow-sao
   kind: hackaday
+  archived: https://web.archive.org/web/20260506012946/https://hackaday.io/project/198918-duckglow-sao
 - label: www.tindie.com/products/astuder/duckjaws-sao
   url: https://www.tindie.com/products/astuder/duckjaws-sao/
   kind: store
+  archived: https://web.archive.org/web/20260503103513/https://www.tindie.com/products/astuder/duckjaws-sao/
 - label: www.youtube.com/watch?v=yjSSQkx-x7U
   url: https://www.youtube.com/watch?v=yjSSQkx-x7U
   kind: video
@@ -73,18 +76,22 @@ images:
   source: https://www.tindie.com/products/astuder/duckjaws-sao/
   credit: Adrian Studer (astuder)
   caption: 'duckJAWS SAO: shark-shaped PCB with rubber duck and red LED teeth'
+  archived: https://web.archive.org/web/20260503103513/https://www.tindie.com/products/astuder/duckjaws-sao/
 - file: assets/images/badges/supercon-2024/duckjaws-sao/dfe953f24e.jpg
   source: https://hackaday.io/project/198918-duckglow-sao
   credit: Adrian Studer (astuder)
   caption: duckGLOW/duckJAWS SAO project photo
+  archived: https://web.archive.org/web/20260506012946/https://hackaday.io/project/198918-duckglow-sao
 - file: assets/images/badges/supercon-2024/duckjaws-sao/602dd4c0e4.jpg
   source: https://www.tindie.com/products/astuder/duckjaws-sao/
   credit: Adrian Studer / Wegmatt LLC
   caption: The duckJAWS SAO, a shark-shaped PCB with a rubber duck in its jaws
+  archived: https://web.archive.org/web/20260503103513/https://www.tindie.com/products/astuder/duckjaws-sao/
 - file: assets/images/badges/supercon-2024/duckjaws-sao/dfe953f24e.jpg
   source: https://hackaday.io/project/198918-duckglow-sao
   credit: Adrian Studer
   caption: duckGLOW SAO project photo showing the duckJAWS and duckBATH variants
+  archived: https://web.archive.org/web/20260506012946/https://hackaday.io/project/198918-duckglow-sao
 contact: {}
 notes: []
 status: released
@@ -99,16 +106,19 @@ sources:
   title: 'astuder/duckglow: A set of basic SAOs with glowing rubber duckies'
   accessed: '2026-09-07'
   note: Confirmed project scope (duckGLOW family, duckJAWS and duckBATH variants), I2C behavior, LED options, and open-source repo hosting both hardware and firmware.
+  archived: https://web.archive.org/web/20260506012935/https://github.com/astuder/duckglow
 - kind: url
   url: https://hackaday.io/project/198918-duckglow-sao
   title: duckGLOW SAO project page
   accessed: '2026-09-07'
   note: Confirmed makers (Adrian Studer and Marc Merlin), Supercon 8 SAO Contest / October 2024 timing, CH32V003 MCU, boost converter, and duck/LED assembly details; source of one project photo.
+  archived: https://web.archive.org/web/20260506012946/https://hackaday.io/project/198918-duckglow-sao
 - kind: url
   url: https://www.tindie.com/products/astuder/duckjaws-sao/
   title: duckJAWS SAO - Tindie listing (Wegmatt LLC)
   accessed: '2026-09-07'
   note: Confirmed price ($10), assembled/hot-glue-duck construction, default yellow pulse behavior, and that the storefront is currently paused; source of the product photo.
+  archived: https://web.archive.org/web/20260503103513/https://www.tindie.com/products/astuder/duckjaws-sao/
 research:
   status: researched
   confidence: high

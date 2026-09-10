@@ -12,8 +12,8 @@ makers:
 - name: Voja Antonic
   role: hardware/firmware designer
 - name: Hackaday badge team
-summary: 'A handheld badge that simulates a hypothetical 4-bit CPU, letting attendees hand-enter and run programs bit by bit and watch memory light up on an 8x16 LED array, echoing early microcomputers like the Altair 8800 and IMSAI 8080.'
-functions: 'Bit-by-bit program entry and execution on a simulated 4-bit CPU (31 opcodes, 4,096 x 12-bit instruction memory, 256 x 4-bit data memory, 5-deep stack); adjustable clock speed from 0.5 Hz up to about 250 KHz (0.1 MIPS); up to 15 programs stored in onboard flash; code can also be loaded/saved over UART via a USB-to-serial adapter; a 12-pin expansion connector let attendees build add-ons, including a punch-card reader hack built during the con.'
+summary: A handheld badge that simulates a hypothetical 4-bit CPU, letting attendees hand-enter and run programs bit by bit and watch memory light up on an 8x16 LED array, echoing early microcomputers like the Altair 8800 and IMSAI 8080.
+functions: Bit-by-bit program entry and execution on a simulated 4-bit CPU (31 opcodes, 4,096 x 12-bit instruction memory, 256 x 4-bit data memory, 5-deep stack); adjustable clock speed from 0.5 Hz up to about 250 KHz (0.1 MIPS); up to 15 programs stored in onboard flash; code can also be loaded/saved over UART via a USB-to-serial adapter; a 12-pin expansion connector let attendees build add-ons, including a punch-card reader hack built during the con.
 look:
   colors: []
   shape: rectangle
@@ -42,32 +42,36 @@ get_one:
   availability: free
   distribution:
   - free_drop
-  where: 'Given to attendees of the 2022 Hackaday Superconference (November 4-6, 2022).'
+  where: Given to attendees of the 2022 Hackaday Superconference (November 4-6, 2022).
 make_your_own:
   open_source: null
   hardware_url: null
   firmware_url: null
   eda_tool: null
-  notes: 'Hackaday''s badge-reveal post said design files, Gerbers, an emulator, and firmware were planned for public release; no confirmed repo/Gerber link was found this session.'
+  notes: Hackaday's badge-reveal post said design files, Gerbers, an emulator, and firmware were planned for public release; no confirmed repo/Gerber link was found this session.
 links:
 - label: hackaday.com/2022/10/12/the-2022-supercon-badge-is-a-handheld-trip-through-computing-history
   url: https://hackaday.com/2022/10/12/the-2022-supercon-badge-is-a-handheld-trip-through-computing-history/
   kind: article
+  archived: https://web.archive.org/web/20260730121929/https://hackaday.com/2022/10/12/the-2022-supercon-badge-is-a-handheld-trip-through-computing-history/
 - label: hackaday.com/2022/11/17/supercon-badge-reads-a-punch-card
   url: https://hackaday.com/2022/11/17/supercon-badge-reads-a-punch-card/
   kind: article
+  archived: https://web.archive.org/web/20260306180035/https://hackaday.com/2022/11/17/supercon-badge-reads-a-punch-card/
 images:
 - file: assets/images/badges/supercon-2022/hackaday-supercon-2022-badge-computing-history-handheld/543e11afc4.jpg
-  source: "https://hackaday.com/2022/11/17/supercon-badge-reads-a-punch-card/"
-  credit: "Hackaday"
-  caption: "The 2022 Supercon badge with an attendee-built punch-card reader attachment"
+  source: https://hackaday.com/2022/11/17/supercon-badge-reads-a-punch-card/
+  credit: Hackaday
+  caption: The 2022 Supercon badge with an attendee-built punch-card reader attachment
+  archived: https://web.archive.org/web/20260306180035/https://hackaday.com/2022/11/17/supercon-badge-reads-a-punch-card/
 - file: assets/images/badges/supercon-2022/hackaday-supercon-2022-badge-computing-history-handheld/c24f94501a.jpg
-  source: "https://hackaday.com/2022/10/12/the-2022-supercon-badge-is-a-handheld-trip-through-computing-history/"
-  credit: "Elliot Williams / Hackaday"
-  caption: "The 2022 Supercon badge, an 8x16 LED array simulating a 4-bit CPU"
+  source: https://hackaday.com/2022/10/12/the-2022-supercon-badge-is-a-handheld-trip-through-computing-history/
+  credit: Elliot Williams / Hackaday
+  caption: The 2022 Supercon badge, an 8x16 LED array simulating a 4-bit CPU
+  archived: https://web.archive.org/web/20260730121929/https://hackaday.com/2022/10/12/the-2022-supercon-badge-is-a-handheld-trip-through-computing-history/
 contact: {}
 notes:
-- 'See also hackaday.com/2022/11/17/supercon-badge-reads-a-punch-card/, which covers an attendee-built optical punch-card reader add-on (Ben Hencke and Zach Fredin) that plugged into the badge''s expansion connector and read encoded programs via charlieplexed LEDs used as photodiodes.'
+- See also hackaday.com/2022/11/17/supercon-badge-reads-a-punch-card/, which covers an attendee-built optical punch-card reader add-on (Ben Hencke and Zach Fredin) that plugged into the badge's expansion connector and read encoded programs via charlieplexed LEDs used as photodiodes.
 status: released
 sources:
 - kind: url
@@ -75,16 +79,19 @@ sources:
   title: Hackaday Supercon 2022 Badge (computing history handheld)
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: official-badges); event read as ''Hackaday Supercon 2022''.'
+  archived: https://web.archive.org/web/20260730121929/https://hackaday.com/2022/10/12/the-2022-supercon-badge-is-a-handheld-trip-through-computing-history/
 - kind: url
   url: https://hackaday.com/2022/10/12/the-2022-supercon-badge-is-a-handheld-trip-through-computing-history/
   title: The 2022 Supercon Badge Is A Handheld Trip Through Computing History
   accessed: '2026-09-07'
-  note: 'Confirmed designer (Voja Antonic), MCU (PIC24FJ256GA704), CPU simulation details, LED matrix, clock speed range, flash program storage, and planned open-source release.'
+  note: Confirmed designer (Voja Antonic), MCU (PIC24FJ256GA704), CPU simulation details, LED matrix, clock speed range, flash program storage, and planned open-source release.
+  archived: https://web.archive.org/web/20260730121929/https://hackaday.com/2022/10/12/the-2022-supercon-badge-is-a-handheld-trip-through-computing-history/
 - kind: url
   url: https://hackaday.com/2022/11/17/supercon-badge-reads-a-punch-card/
   title: Supercon Badge Reads A Punch Card
   accessed: '2026-09-07'
-  note: 'Confirmed the badge''s 12-pin expansion connector and an attendee hack (punch-card reader) built at the con; provided a photo of the badge.'
+  note: Confirmed the badge's 12-pin expansion connector and an attendee hack (punch-card reader) built at the con; provided a photo of the badge.
+  archived: https://web.archive.org/web/20260306180035/https://hackaday.com/2022/11/17/supercon-badge-reads-a-punch-card/
 research:
   status: researched
   confidence: medium

@@ -48,12 +48,15 @@ links:
 - label: github.com/Hack-a-Day/Vectorscope
   url: https://github.com/Hack-a-Day/Vectorscope
   kind: repo
+  archived: https://web.archive.org/web/20260419062358/https://github.com/Hack-a-Day/Vectorscope
 - label: hackaday.com/2023/10/18/2023-hackaday-supercon-badge-welcome-to-the-vectorscope
   url: https://hackaday.com/2023/10/18/2023-hackaday-supercon-badge-welcome-to-the-vectorscope/
   kind: article
+  archived: https://web.archive.org/web/20260708121204/https://hackaday.com/2023/10/18/2023-hackaday-supercon-badge-welcome-to-the-vectorscope/
 - label: hackaday.com/2023/10/29/packing-for-supercon-heres-a-printable-case-for-your-badge
   url: https://hackaday.com/2023/10/29/packing-for-supercon-heres-a-printable-case-for-your-badge/
   kind: article
+  archived: https://web.archive.org/web/20260305212909/https://hackaday.com/2023/10/29/packing-for-supercon-heres-a-printable-case-for-your-badge/
 - label: github.com/softegg/supercon-2023-badge-enclosure/tree/main/BASIC-2
   url: https://github.com/softegg/supercon-2023-badge-enclosure/tree/main/BASIC-2
   kind: repo
@@ -68,18 +71,22 @@ images:
   source: https://hackaday.com/2023/10/18/2023-hackaday-supercon-badge-welcome-to-the-vectorscope/
   credit: Hackaday
   caption: The Vectorscope badge displaying a round vector waveform on its GC9A01 IPS screen
+  archived: https://web.archive.org/web/20260708121204/https://hackaday.com/2023/10/18/2023-hackaday-supercon-badge-welcome-to-the-vectorscope/
 - file: assets/images/badges/supercon-2023/vectorscope-badge/d6f3ae7c55.jpg
   source: https://hackaday.com/2023/10/18/2023-hackaday-supercon-badge-welcome-to-the-vectorscope/
   credit: Hackaday
   caption: The Vectorscope badge front panel with joystick and buttons
+  archived: https://web.archive.org/web/20260708121204/https://hackaday.com/2023/10/18/2023-hackaday-supercon-badge-welcome-to-the-vectorscope/
 - file: assets/images/badges/supercon-2023/vectorscope-badge/d6f3ae7c55.jpg
   source: https://hackaday.com/2023/10/18/2023-hackaday-supercon-badge-welcome-to-the-vectorscope/
   credit: Hackaday
   caption: The Vectorscope badge with its round display
+  archived: https://web.archive.org/web/20260708121204/https://hackaday.com/2023/10/18/2023-hackaday-supercon-badge-welcome-to-the-vectorscope/
 - file: assets/images/badges/supercon-2023/vectorscope-badge/0f3b7426e2.jpg
   source: https://hackaday.com/2023/10/18/2023-hackaday-supercon-badge-welcome-to-the-vectorscope/
   credit: Hackaday
   caption: The Vectorscope badge, close-up view
+  archived: https://web.archive.org/web/20260708121204/https://hackaday.com/2023/10/18/2023-hackaday-supercon-badge-welcome-to-the-vectorscope/
 contact: {}
 notes: []
 status: released
@@ -89,16 +96,19 @@ sources:
   title: Hack-a-Day/Vectorscope — Vectorscope badge for the 2023 Hackaday Supercon and beyond!
   accessed: '2026-09-06'
   note: Found via the project's link list; intake pass identified this item here.
+  archived: https://web.archive.org/web/20260419062358/https://github.com/Hack-a-Day/Vectorscope
 - kind: url
   url: https://github.com/Hack-a-Day/Vectorscope
   title: Hack-a-Day/Vectorscope README
   accessed: '2026-09-07'
   note: 'Confirmed hardware/firmware details: RP2040, GC9A01 display, AK4619 ADC/DAC, Altium design with WIP KiCad conversion, MIT license, Gerbers/BOM/schematics included, image of finished badge (DSC_0146_featured.png).'
+  archived: https://web.archive.org/web/20260419062358/https://github.com/Hack-a-Day/Vectorscope
 - kind: url
   url: https://hackaday.com/2023/10/18/2023-hackaday-supercon-badge-welcome-to-the-vectorscope/
   title: '2023 Hackaday Supercon Badge: Welcome To The Vectorscope'
   accessed: '2026-09-07'
   note: Confirmed hardware designer (Voja Antonic), functions (vector scope + waveform generator, Lissajous figures, four memory slots, joystick), and approximate production quantity (about 550 badges for attendees).
+  archived: https://web.archive.org/web/20260708121204/https://hackaday.com/2023/10/18/2023-hackaday-supercon-badge-welcome-to-the-vectorscope/
 - kind: url
   url: https://github.com/davedarko/Vectorscope
   title: davedarko/Vectorscope — fork of Hack-a-Day/Vectorscope (2023 Hackaday Supercon badge)
@@ -109,6 +119,7 @@ sources:
   title: Packing For Supercon? Here's A Printable Case For Your Badge
   accessed: '2026-09-07'
   note: Describes a community-made 3D-printable protective case for the badge by T.B. Trzepacz, with design files on GitHub (softegg/supercon-2023-badge-enclosure); confirms badge has SMD buttons and through-hole expansion headers.
+  archived: https://web.archive.org/web/20260305212909/https://hackaday.com/2023/10/29/packing-for-supercon-heres-a-printable-case-for-your-badge/
 research:
   status: researched
   confidence: high

@@ -51,9 +51,11 @@ links:
 - label: github.com/astuder/duckglow
   url: https://github.com/astuder/duckglow
   kind: repo
+  archived: https://web.archive.org/web/20260506012935/https://github.com/astuder/duckglow
 - label: hackaday.io/project/198918-duckglow-sao
   url: https://hackaday.io/project/198918-duckglow-sao
   kind: hackaday
+  archived: https://web.archive.org/web/20260506012946/https://hackaday.io/project/198918-duckglow-sao
 - label: www.youtube.com/watch?v=yjSSQkx-x7U
   url: https://www.youtube.com/watch?v=yjSSQkx-x7U
   kind: video
@@ -62,18 +64,22 @@ images:
   source: https://github.com/astuder/duckglow
   credit: Adrian Studer
   caption: duckBATH SAO with rubber duck lit by RGB LED
+  archived: https://web.archive.org/web/20260506012935/https://github.com/astuder/duckglow
 - file: assets/images/badges/supercon-2024/duckbath-sao/e207bef018.png
   source: https://github.com/astuder/duckglow
   credit: Adrian Studer
   caption: duckBATH SAO PCB render, bathtub shape
+  archived: https://web.archive.org/web/20260506012935/https://github.com/astuder/duckglow
 - file: assets/images/badges/supercon-2024/duckbath-sao/1b51655f98.jpg
   source: https://github.com/astuder/duckglow
   credit: Adrian Studer
   caption: duckBATH SAO, assembled, with rubber duck
+  archived: https://web.archive.org/web/20260506012935/https://github.com/astuder/duckglow
 - file: assets/images/badges/supercon-2024/duckbath-sao/e207bef018.png
   source: https://github.com/astuder/duckglow
   credit: Adrian Studer
   caption: duckBATH PCB render
+  archived: https://web.archive.org/web/20260506012935/https://github.com/astuder/duckglow
 contact: {}
 notes: []
 status: released
@@ -88,11 +94,13 @@ sources:
   title: astuder/duckglow
   accessed: '2026-09-07'
   note: Confirmed chip (CH32V003), I2C control, WS2812-compatible mode, LED types, MIT license, and that duckJAWS units were sold assembled on Tindie.
+  archived: https://web.archive.org/web/20260506012935/https://github.com/astuder/duckglow
 - kind: url
   url: https://hackaday.io/project/198918-duckglow-sao
   title: duckGLOW SAO - Hackaday.io
   accessed: '2026-09-07'
   note: Confirmed makers (Adrian Studer and Marc Merlin), submission to the Supercon 8 SAO Contest in October 2024, and that duckBATH/duckJAWS are the two PCB shapes in the duckGLOW family.
+  archived: https://web.archive.org/web/20260506012946/https://hackaday.io/project/198918-duckglow-sao
 research:
   status: researched
   confidence: medium

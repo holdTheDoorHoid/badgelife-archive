@@ -35,26 +35,29 @@ get_one:
   quantity: ''
   availability: unknown
   distribution: []
-  where: 'Not sold; a personal badge-hack project built by the maker for their own 2023 Supercon badge.'
+  where: Not sold; a personal badge-hack project built by the maker for their own 2023 Supercon badge.
 make_your_own:
   open_source: partial
   hardware_url: https://hackaday.io/project/193633-led-frame-for-the-2023-supercon-badge
   firmware_url: null
   eda_tool: Fusion 360
-  notes: 'The frame is a resin-printed STL (designed in Fusion360) shared on the Hackaday.io project page; a companion LiPo battery holder is shared separately on Printables. Firmware source was not published on the project page, only that it runs Micropython with a neopixel library.'
+  notes: The frame is a resin-printed STL (designed in Fusion360) shared on the Hackaday.io project page; a companion LiPo battery holder is shared separately on Printables. Firmware source was not published on the project page, only that it runs Micropython with a neopixel library.
 links:
 - label: hackaday.io/project/193633-led-frame-for-the-2023-supercon-badge
   url: https://hackaday.io/project/193633-led-frame-for-the-2023-supercon-badge
   kind: hackaday
+  archived: https://web.archive.org/web/20260508140805/https://hackaday.io/project/193633-led-frame-for-the-2023-supercon-badge
 images:
 - file: assets/images/badges/supercon-2023/led-frame-for-the-2023-supercon-badge/25d03998ce.png
-  source: "https://hackaday.io/project/193633-led-frame-for-the-2023-supercon-badge"
-  credit: "makeTVee"
-  caption: "The LED frame lit up on the 2023 Supercon badge"
+  source: https://hackaday.io/project/193633-led-frame-for-the-2023-supercon-badge
+  credit: makeTVee
+  caption: The LED frame lit up on the 2023 Supercon badge
+  archived: https://web.archive.org/web/20260508140805/https://hackaday.io/project/193633-led-frame-for-the-2023-supercon-badge
 - file: assets/images/badges/supercon-2023/led-frame-for-the-2023-supercon-badge/1bf37c3a10.jpg
-  source: "https://hackaday.io/project/193633-led-frame-for-the-2023-supercon-badge"
-  credit: "makeTVee"
-  caption: "The resin-printed LED frame during assembly"
+  source: https://hackaday.io/project/193633-led-frame-for-the-2023-supercon-badge
+  credit: makeTVee
+  caption: The resin-printed LED frame during assembly
+  archived: https://web.archive.org/web/20260508140805/https://hackaday.io/project/193633-led-frame-for-the-2023-supercon-badge
 contact: {}
 notes: []
 status: released
@@ -64,16 +67,18 @@ sources:
   title: LED Frame for the 2023 Supercon Badge
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: hackaday-list); event read as ''Supercon 2023''.'
+  archived: https://web.archive.org/web/20260508140805/https://hackaday.io/project/193633-led-frame-for-the-2023-supercon-badge
 - kind: url
   url: https://hackaday.io/project/193633-led-frame-for-the-2023-supercon-badge
   title: LED Frame for the 2023 Supercon Badge
   accessed: '2026-09-07'
-  note: 'Primary source for maker (makeTVee), components (280x WS2812B-1010, Raspberry Pi Pico, GPIO28), Micropython/neopixel firmware, Fusion360-designed resin-printed frame, LiPo battery holder shared on Printables, and build story (hand-soldered at the con over 1.5 days).'
+  note: Primary source for maker (makeTVee), components (280x WS2812B-1010, Raspberry Pi Pico, GPIO28), Micropython/neopixel firmware, Fusion360-designed resin-printed frame, LiPo battery holder shared on Printables, and build story (hand-soldered at the con over 1.5 days).
+  archived: https://web.archive.org/web/20260508140805/https://hackaday.io/project/193633-led-frame-for-the-2023-supercon-badge
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'This is a badge-hack accessory (an LED add-on frame) built by an attendee for the official 2023 Supercon badge, not a commercially distributed badge/SAO itself, so price/quantity/availability fields do not apply and are left empty. The firmware source code was not found published (only the language/library used); the Printables battery-holder link was mentioned but its URL was not given on the project page and could not be confirmed. No independent third-party coverage (press, forums) was found beyond the maker''s own Hackaday.io project page.'
+  notes: This is a badge-hack accessory (an LED add-on frame) built by an attendee for the official 2023 Supercon badge, not a commercially distributed badge/SAO itself, so price/quantity/availability fields do not apply and are left empty. The firmware source code was not found published (only the language/library used); the Printables battery-holder link was mentioned but its URL was not given on the project page and could not be confirmed. No independent third-party coverage (press, forums) was found beyond the maker's own Hackaday.io project page.
 last_modified_date: '2026-09-07'
 ---
 

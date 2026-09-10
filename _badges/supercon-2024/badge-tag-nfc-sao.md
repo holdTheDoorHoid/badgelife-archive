@@ -12,7 +12,7 @@ makers:
 - name: Thomas Flummer
   url: https://hackaday.io/tf
 summary: A credential-card-shaped Simple Add-On built around an NXP NTAG I2C Plus 2K NFC chip that lets a badge show a name and share contact details, readable by a smartphone without power and accessible over I2C when mounted, entered in the Supercon 8 SAO Contest.
-functions: 'Shares the wearer''s name, contact details, and interests over NFC (tap with a phone, no power needed) or over I2C when plugged into a host badge.'
+functions: Shares the wearer's name, contact details, and interests over NFC (tap with a phone, no power needed) or over I2C when plugged into a host badge.
 look:
   colors: []
   shape: card
@@ -29,7 +29,7 @@ tech:
   battery: null
   sao_version: v1.69bis
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/flummer/badge-tag-sao
   firmware_url: null
   eda_tool: KiCad
@@ -37,18 +37,21 @@ links:
 - label: hackaday.io/project/198165-badge-tag-nfc-sao
   url: https://hackaday.io/project/198165-badge-tag-nfc-sao
   kind: hackaday
+  archived: https://web.archive.org/web/20251108163957/https://hackaday.io/project/198165-badge-tag-nfc-sao
 - label: github.com/flummer/badge-tag-sao
   url: https://github.com/flummer/badge-tag-sao
   kind: repo
 images:
-  - file: assets/images/badges/supercon-2024/badge-tag-nfc-sao/68996d3676.jpg
-    source: "https://hackaday.io/project/198165-badge-tag-nfc-sao"
-    credit: "Thomas Flummer"
-    caption: "Badge Tag NFC SAO card-shaped module"
-  - file: assets/images/badges/supercon-2024/badge-tag-nfc-sao/482257adbd.jpg
-    source: "https://hackaday.io/project/198165-badge-tag-nfc-sao"
-    credit: "Thomas Flummer"
-    caption: "Badge Tag NFC SAO assembled board detail"
+- file: assets/images/badges/supercon-2024/badge-tag-nfc-sao/68996d3676.jpg
+  source: https://hackaday.io/project/198165-badge-tag-nfc-sao
+  credit: Thomas Flummer
+  caption: Badge Tag NFC SAO card-shaped module
+  archived: https://web.archive.org/web/20251108163957/https://hackaday.io/project/198165-badge-tag-nfc-sao
+- file: assets/images/badges/supercon-2024/badge-tag-nfc-sao/482257adbd.jpg
+  source: https://hackaday.io/project/198165-badge-tag-nfc-sao
+  credit: Thomas Flummer
+  caption: Badge Tag NFC SAO assembled board detail
+  archived: https://web.archive.org/web/20251108163957/https://hackaday.io/project/198165-badge-tag-nfc-sao
 contact: {}
 notes: []
 status: released
@@ -58,11 +61,13 @@ sources:
   title: Badge Tag NFC SAO
   accessed: '2026-09-06'
   note: Found via the project's link list; intake pass identified this item here.
+  archived: https://web.archive.org/web/20251108163957/https://hackaday.io/project/198165-badge-tag-nfc-sao
 - kind: url
   url: https://hackaday.io/project/198165-badge-tag-nfc-sao
   title: Badge Tag NFC SAO
   accessed: '2026-09-07'
   note: Confirmed maker, event (Supercon 8 SAO Contest, submitted 09/28/2024), NFC chip, form factor, SAO connector, and open-source status; source for both saved images.
+  archived: https://web.archive.org/web/20251108163957/https://hackaday.io/project/198165-badge-tag-nfc-sao
 - kind: url
   url: https://github.com/flummer/badge-tag-sao
   title: flummer/badge-tag-sao

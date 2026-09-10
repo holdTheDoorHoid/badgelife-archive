@@ -55,6 +55,7 @@ links:
 - label: hackaday.io/project/197854-vectrex-sao
   url: https://hackaday.io/project/197854-vectrex-sao
   kind: hackaday
+  archived: https://web.archive.org/web/20251117210844/https://hackaday.io/project/197854-vectrex-sao
 - label: github.com/technobly/vectrex-sao
   url: https://github.com/technobly/vectrex-sao
   kind: repo
@@ -70,6 +71,7 @@ images:
   source: https://hackaday.io/project/197854-vectrex-sao
   credit: Brett Walach (Technobly)
   caption: Vectrex SAO project photo on Hackaday.io
+  archived: https://web.archive.org/web/20251117210844/https://hackaday.io/project/197854-vectrex-sao
 - file: assets/images/badges/supercon-2022/vectrex-sao-2/20d34785b4.jpg
   source: https://github.com/technobly/vectrex-sao
   credit: Brett Walach (technobly)
@@ -83,11 +85,13 @@ sources:
   title: Vectrex SAO
   accessed: '2026-09-06'
   note: Found via the project's link list; intake pass identified this item here.
+  archived: https://web.archive.org/web/20251117210844/https://hackaday.io/project/197854-vectrex-sao
 - kind: url
   url: https://hackaday.io/project/197854-vectrex-sao
   title: Vectrex SAO
   accessed: '2026-09-07'
   note: Confirmed maker (Brett Walach / Technobly), that it was made for Hackaday Supercon 2022 and later entered in the Supercon 8 SAO Contest (project page dated Sept 2024), MCU, display, controller, speaker, and open-source status; no price/quantity/availability info given.
+  archived: https://web.archive.org/web/20251117210844/https://hackaday.io/project/197854-vectrex-sao
 - kind: url
   url: https://github.com/technobly/vectrex-sao
   title: 'GitHub: technobly/vectrex-sao'

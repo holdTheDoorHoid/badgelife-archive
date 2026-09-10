@@ -12,7 +12,7 @@ makers:
 - name: Tina Belmont
   url: https://hackaday.io/SoftEgg
 summary: A free, 3D-printable enclosure for the official Hackaday Supercon 2023 Vectorscope badge, released ahead of the con for attendees to print and remix.
-functions: 'Houses and protects the Supercon 2023 Vectorscope badge; the "BASIC" version is intentionally the simplest shape that fits the badge, meant as a starting point for others to remix.'
+functions: Houses and protects the Supercon 2023 Vectorscope badge; the "BASIC" version is intentionally the simplest shape that fits the badge, meant as a starting point for others to remix.
 look:
   colors: []
   shape: null
@@ -34,7 +34,7 @@ get_one:
   - free_drop
   where: Free STL download from the Hackaday.io project page and GitHub; anyone could 3D print their own before or during Supercon 2023.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/softegg/supercon-2023-badge-enclosure
   firmware_url: null
   eda_tool: null
@@ -42,14 +42,16 @@ links:
 - label: hackaday.io/project/193312-hackaday-superconference-2023-badge-enclosure
   url: https://hackaday.io/project/193312-hackaday-superconference-2023-badge-enclosure
   kind: hackaday
+  archived: https://web.archive.org/web/20260517143552/https://hackaday.io/project/193312-hackaday-superconference-2023-badge-enclosure
 - label: github.com/softegg/supercon-2023-badge-enclosure
   url: https://github.com/softegg/supercon-2023-badge-enclosure
   kind: repo
 images:
 - file: assets/images/badges/supercon-2023/hackaday-superconference-2023-badge-enclosure/c6e5f6b013.png
-  source: "https://hackaday.io/project/193312-hackaday-superconference-2023-badge-enclosure"
-  credit: "Tina Belmont (SoftEgg)"
-  caption: "3D-printed enclosure for the Supercon 2023 Vectorscope badge"
+  source: https://hackaday.io/project/193312-hackaday-superconference-2023-badge-enclosure
+  credit: Tina Belmont (SoftEgg)
+  caption: 3D-printed enclosure for the Supercon 2023 Vectorscope badge
+  archived: https://web.archive.org/web/20260517143552/https://hackaday.io/project/193312-hackaday-superconference-2023-badge-enclosure
 contact: {}
 notes: []
 status: released
@@ -59,16 +61,18 @@ sources:
   title: Hackaday Superconference 2023 Badge Enclosure
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: hackaday-list); event read as ''Supercon 2023''.'
+  archived: https://web.archive.org/web/20260517143552/https://hackaday.io/project/193312-hackaday-superconference-2023-badge-enclosure
 - kind: url
   url: https://hackaday.io/project/193312-hackaday-superconference-2023-badge-enclosure
   title: Hackaday Superconference 2023 Badge Enclosure (project page)
   accessed: '2026-09-07'
   note: Confirmed it is a 3D-printable enclosure for the Supercon 2023 Vectorscope badge, by Tina Belmont (SoftEgg); CC BY-NC-SA 4.0; free STL files; also found GitHub repo and og:image.
+  archived: https://web.archive.org/web/20260517143552/https://hackaday.io/project/193312-hackaday-superconference-2023-badge-enclosure
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-07'
-  notes: 'This is an accessory (enclosure), not the badge itself. The Vectorscope badge it fits does not appear to have its own entry in the archive yet -- reported as a related item. No price/quantity applies since files are a free download; "quantity" left blank as no print run count is stated.'
+  notes: This is an accessory (enclosure), not the badge itself. The Vectorscope badge it fits does not appear to have its own entry in the archive yet -- reported as a related item. No price/quantity applies since files are a free download; "quantity" left blank as no print run count is stated.
 last_modified_date: '2026-09-07'
 ---
 

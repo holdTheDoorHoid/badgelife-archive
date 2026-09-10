@@ -14,9 +14,13 @@ makers:
 summary: A COVID-19 rapid-test-shaped SAO whose result strip blinks via a 555 timer on the back, made as a give-away for internet friends at Supercon 2022.
 functions: Blinks two red LEDs (mounted upside down) at roughly 2-3 Hz via an LMC555 astable timer circuit, mimicking a test-strip result line.
 look:
-  colors: [red]
+  colors:
+  - red
   shape: null
-  themes: [meme, pop culture, minimalist]
+  themes:
+  - meme
+  - pop culture
+  - minimalist
 tech:
   mcu: none
   leds:
@@ -33,10 +37,11 @@ get_one:
   quantity: ''
   availability: free
   availability_note: 'Checked 2026-09-07: given away at events, not sold.'
-  distribution: [free_drop]
+  distribution:
+  - free_drop
   where: Handed out as a give-away to friends at Supercon 2022, and again at 37C3 (Congress) in December 2023.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/davedarko/Simple-Add-ons-SAO/tree/main/COVID-19%20Test%20SAO
   firmware_url: null
   gerbers_url: null
@@ -52,18 +57,21 @@ links:
 - label: hackaday.io/project/187615-covid-19-sao-simple-add-on
   url: https://hackaday.io/project/187615-covid-19-sao-simple-add-on
   kind: hackaday
+  archived: https://web.archive.org/web/20251217070056/https://hackaday.io/project/187615-covid-19-sao-simple-add-on
 - label: github.com/davedarko/Simple-Add-ons-SAO/tree/main/COVID-19%20Test%20SAO
   url: https://github.com/davedarko/Simple-Add-ons-SAO/tree/main/COVID-19%20Test%20SAO
   kind: repo
 images:
-  - file: assets/images/badges/supercon-2022/covid-19-test-sao/ec0c50a30b.jpg
-    source: "https://hackaday.io/project/187615-covid-19-sao-simple-add-on"
-    credit: "davedarko"
-    caption: "COVID-19 Test SAO board"
-  - file: assets/images/badges/supercon-2022/covid-19-test-sao/867f8e16a7.jpg
-    source: "https://hackaday.io/project/187615-covid-19-sao-simple-add-on"
-    credit: "davedarko"
-    caption: "COVID-19 Test SAO lit up"
+- file: assets/images/badges/supercon-2022/covid-19-test-sao/ec0c50a30b.jpg
+  source: https://hackaday.io/project/187615-covid-19-sao-simple-add-on
+  credit: davedarko
+  caption: COVID-19 Test SAO board
+  archived: https://web.archive.org/web/20251217070056/https://hackaday.io/project/187615-covid-19-sao-simple-add-on
+- file: assets/images/badges/supercon-2022/covid-19-test-sao/867f8e16a7.jpg
+  source: https://hackaday.io/project/187615-covid-19-sao-simple-add-on
+  credit: davedarko
+  caption: COVID-19 Test SAO lit up
+  archived: https://web.archive.org/web/20251217070056/https://hackaday.io/project/187615-covid-19-sao-simple-add-on
 contact: {}
 notes: []
 status: released
@@ -78,6 +86,7 @@ sources:
   title: COVID-19 SAO (Simple Add-on) - Hackaday.io
   accessed: '2026-09-07'
   note: Confirmed maker, Supercon 2022 give-away context, 37C3 (2023) re-distribution, 555-timer LED blink concept, and photos.
+  archived: https://web.archive.org/web/20251217070056/https://hackaday.io/project/187615-covid-19-sao-simple-add-on
 - kind: url
   url: https://github.com/davedarko/Simple-Add-ons-SAO/tree/main/COVID-19%20Test%20SAO
   title: Simple-Add-ons-SAO/COVID-19 Test SAO at main
@@ -87,7 +96,7 @@ research:
   status: researched
   confidence: high
   last_checked: '2026-09-07'
-  notes: 'No price/quantity figures found; it was a free give-away, not sold, so price/quantity fields are left empty/free rather than guessed. No firmware (none needed — pure 555 analog circuit) and no explicit license found in the repo.'
+  notes: No price/quantity figures found; it was a free give-away, not sold, so price/quantity fields are left empty/free rather than guessed. No firmware (none needed — pure 555 analog circuit) and no explicit license found in the repo.
 last_modified_date: '2026-09-07'
 ---
 
