@@ -182,7 +182,7 @@ dc23-car-hacking-village-badge-chvbadge-15 | DEF CON 23 Car Hacking Village Badg
 dc23-dc23-crypto-and-privacy-village-badge | DEF CON 23 Crypto and Privacy Village Badge | Crypto and Privacy Village (Karl Koscher, Jorge Lacoste)
 dc23-dc503-badge-bicycle-shaped | DC503 Badge (bicycle-shaped) | Joe Fitz / DC503
 dc23-dc801-def-con-23-badge | DC801 2015 DEF CON VIP Party Badge | DC801, theTransistor
-dc23-def-con-23-uber-badge-lichtenberg-figure-radioactive | DEF CON 23 Uber Badge (Lichtenberg figure / radioactive) | L0stBoy (Ryan "1o57" Clarke)
+dc23-def-con-23-uber-badge-lichtenberg-figure-radioactive | DEF CON 23 Uber Badge (Lichtenberg Figure / Radioactive) | L0stBoy (Ryan "1o57" Clarke)
 dc23-hardware-hacking-village-learn-to-solder-kit | DEF CON 23 Hardware Hacking Village Learn-to-Solder Kit | Smitty, Krux, Cmdc0de
 dc23-official-badge-human-badge-playable-vinyl-lp-plus-uber-press | DEF CON 23 Official Badge ("Human Badge" / playable vinyl LP, plus Uber/Press/Goon variants) | 1o57 (Ryan Clarke) / DEF CON
 dc23-shoot-electronic-badge | DEF CON 23 Shoot Electronic Badge | seeess
@@ -218,7 +218,7 @@ dc25-led-bangle-defconbangle | LED Bangle (defconbangle) | Nisha K.
 dc25-megabling-badge | Megabling Badge | Blenster
 dc25-mr-robot-badge | Mr Robot Badge | Benchoff
 dc25-official-hackaday-defcon-25-badge | The Official Hackaday DEFCON 25 Badge | Benchoff (Hackaday)
-dc25-ohm-the-tindie-dog-solder-kit-badge | Ohm the Tindie Dog solder-kit badge | Brian Benchoff (PCB design); handed out by Tindie's Jasmine Brackett and Shulie Tornel
+dc25-ohm-the-tindie-dog-solder-kit-badge | Tindie Blinky LED Badge v1 | Brian Benchoff, Jasmine Brackett
 dc25-puffy-badge | Puffy Badge | dorkengine
 dc25-quadcopter-badge | Quadcopter Badge | b1uN7
 dc25-red-s-lora-badge | Red's LoRa Badge | Red (SkyDogCon)
@@ -418,7 +418,7 @@ dc27-dc801-def-con-27-badge | DCZia Laser Theremin Synth Badge | DCZia
 dc27-deadpool-mini-badge-sao | DEADPOOL Mini Badge / SAO | s3gfault
 dc27-def-con-furs-badge-dc27 | DEF CON Furs Badge DC27 | DEF CON Furs (defconfurs org)
 dc27-defcon-27-tv3y3-badge | Defcon 27 TV3Y3 Badge | awkward intelligence
-dc27-defcon-seckcpartystar-27 | DefCon_SecKCPartyStar_27 | BadgePirates / SecKC
+dc27-defcon-seckcpartystar-27 | DefCon 27 SecKC Party Star | BadgePirates
 dc27-defcon-tor-27-sao-badge | Defcon-Tor-27 SAO/Badge | seeess
 dc27-defpi-silly-defcon-badge | defpi — silly defcon badge | Hacksore
 dc27-doom-sao | DOOM SAO | AND!XOR / LonghornEngineer
@@ -497,10 +497,9 @@ dc28-safe-mode-official-badge-cassette-tape | DEF CON 28 Safe Mode Official Badg
 dc29-3d6-badge | 3d6 Badge | Alt_Bier
 dc29-aerospace-village-badge-2021 | Aerospace Village Badge 2021 | Aerospace Village, Dan Allen
 dc29-and-xor-dc29-badge | AND!XOR DC29 Badge | AND!XOR
-dc29-badge-2021 | DEF CON 29 Badge (2021) | MK Factor (Michael and Katie Whiteley), with The Dark Tangent
 dc29-badge-stuff-custom-music-mod-for-the-dc29-badge | dc29-badge-stuff (custom music mod for the DC29 badge) | duk-37
 dc29-compukidmike-dc29-badge | DEF CON 29 Official Badge | compukidmike (MK Factor)
-dc29-dc-29-tor-badge | DC 29 Tor Badge | Gigs (@gigstaggart)
+dc29-dc-29-tor-badge | Tor Polygraph (Lie Detector) Badge | Gigs (@gigstaggart), SeeEss (@see_ess)
 dc29-dc29-makeithackin-58khz-security-tag-sao | DEF CON 29 SAO with 58 kHz Security Tag | MakeItHackin
 dc29-dc29-makeithackin-badge | MakeItHackin DEF CON 29 Badge | MakeItHackin
 dc29-def-con-furs-badge-dc29 | DEF CON Furs Badge DC29 | DEF CON Furs (defconfurs org)
@@ -605,7 +604,7 @@ dc31-buddo-badge | The Buddobot Badge | Abhinav Pandagale / Hackerware.io
 dc31-certbot-sao | CertBot SAO | H4rl0d (of LHC fame...and other fames too)
 dc31-crew-sao | crew SAO | Aerospace Village
 dc31-darknet-ng-12-badge | Darknet-NG 12 Badge | Darknet-NG
-dc31-dc-31-sneaky-badge | DC 31 Sneaky Badge | Gigs (@gigstaggart)
+dc31-dc-31-sneaky-badge | Sneaky Badge | Gigs (@gigstaggart)
 dc31-dc-sdr-badge | DC SDR badge | Alexandre Rouma
 dc31-dc404-listed-for-def-con-31-no-details | DC404 (listed for DEF CON 31, no details) | DC404
 dc31-dc540-listed-for-def-con-31-no-details | DC540 (listed for DEF CON 31, no details) | DC540

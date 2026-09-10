@@ -63,6 +63,13 @@ links:
   url: https://forum.defcon.org/node/238291
   kind: website
   archived: https://web.archive.org/web/20250917120037/https://forum.defcon.org/node/238291
+- label: defcon.org/html/defcon-29/dc-29-index.html
+  url: https://defcon.org/html/defcon-29/dc-29-index.html
+  kind: website
+- label: DEFCON 29 - Badge Writeup (Science Viking Labs)
+  url: https://sciencevikinglabs.com/blog/hardware/2021-08-14-DEFCON29-Badge-Writeup/
+  kind: article
+  archived: https://web.archive.org/web/20260524035125/https://sciencevikinglabs.com/blog/hardware/2021-08-14-DEFCON29-Badge-Writeup/
 images:
 - file: assets/images/badges/dc29/compukidmike-dc29-badge/46e884c0c9.jpg
   source: https://github.com/compukidmike/Defcon29
@@ -78,11 +85,22 @@ images:
   credit: Hackaday
   caption: Rear of the DEF CON 29 badge showing the PCB
   archived: https://web.archive.org/web/20260825225844/https://hackaday.com/2021/08/05/hands-on-def-con-29-badge-embraces-the-new-normal/
+- file: assets/images/badges/dc29/compukidmike-dc29-badge/5a5251d376.jpg
+  source: https://sciencevikinglabs.com/blog/hardware/2021-08-14-DEFCON29-Badge-Writeup/
+  credit: Science Viking Labs
+  caption: Front of the DEF CON 29 (2021) official badge
+  archived: https://web.archive.org/web/20260524035125/https://sciencevikinglabs.com/blog/hardware/2021-08-14-DEFCON29-Badge-Writeup/
+- file: assets/images/badges/dc29/compukidmike-dc29-badge/8e2a0129d5.jpg
+  source: https://sciencevikinglabs.com/blog/hardware/2021-08-14-DEFCON29-Badge-Writeup/
+  credit: Science Viking Labs
+  caption: Back of the DEF CON 29 (2021) official badge
+  archived: https://web.archive.org/web/20260524035125/https://sciencevikinglabs.com/blog/hardware/2021-08-14-DEFCON29-Badge-Writeup/
 contact: {}
 notes:
 - From the user's 'SAOs to buy' link list (2026-09-07).
 - This is the official DEF CON 29 conference badge itself, not a third-party SAO or add-on.
 - Hacker Hangouts podcast episode 'Designing the DEF CON 29 & 30 Badges (feat. MK Factor)', released 2022-07-16; covers the DEF CON Call for Badge Makers process, idea generation, hardware/software design and logistics for the official DEF CON 29 badge.
+- Confirmed this session via defcon.org DC29 index page text and linked Hacker Hangouts video 'Designing the DEF CON 29 and 30 Badges (featuring MK Factor)'.
 status: released
 sources:
 - kind: url
@@ -120,14 +138,26 @@ sources:
   title: SkarDude/DC29-Badge (GitHub)
   accessed: '2026-09-07'
   note: Checked for an official hardware/firmware repo; this is a third-party puzzle-solving writeup, not MK Factor's own files, so make_your_own fields were left empty.
+- kind: url
+  url: https://defcon.org/html/defcon-29/dc-29-index.html
+  title: DEF CON 29 Badge (2021)
+  accessed: '2026-09-06'
+  note: 'Found by the archive''s discovery sweep (angle: official-badges); event read as ''DEF CON 29''.'
+- kind: url
+  url: https://sciencevikinglabs.com/blog/hardware/2021-08-14-DEFCON29-Badge-Writeup/
+  title: DEFCON 29 - Badge Writeup | Science Viking Labs
+  accessed: '2026-09-07'
+  note: 'Primary source for physical description: stacked boards, four RGB keys, three touch sensors, USB-A/USB-C ports and lanyard, battery/USB charging, Simon Says game, CTF ciphers and hardware-hacking challenge; front/back photos.'
+  archived: https://web.archive.org/web/20260524035125/https://sciencevikinglabs.com/blog/hardware/2021-08-14-DEFCON29-Badge-Writeup/
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-07'
-  notes: This entry, sourced from a "SAOs to buy" link list, actually documents the official DEF CON 29 conference badge (not a standalone SAO or a third-party add-on) designed by Michael "compukidmike" and Katie Whiteley under the MK Factor name. Quantity produced was not found in available sources; $300 price is widely reported as the in-person badge price for DC29 but could not be confirmed on a maker storefront since it was sold directly at the con. Merged with duplicate entry 'DEF CON 29 Badge' (dc29-badge).
+  notes: This entry, sourced from a "SAOs to buy" link list, actually documents the official DEF CON 29 conference badge (not a standalone SAO or a third-party add-on) designed by Michael "compukidmike" and Katie Whiteley under the MK Factor name. Quantity produced was not found in available sources; $300 price is widely reported as the in-person badge price for DC29 but could not be confirmed on a maker storefront since it was sold directly at the con. Merged with duplicate entry 'DEF CON 29 Badge' (dc29-badge). Merged with duplicate entry 'DEF CON 29 Badge (2021)' (dc29-badge-2021).
 last_modified_date: '2026-09-07'
 redirect_from:
 - /badges/dc29/badge/
+- /badges/dc29/badge-2021/
 ---
 
 The DEF CON 29 badge was the official electronic conference badge for DEF CON's 2021 event, designed by Michael "compukidmike" and Katie Whiteley, who work together as MK Factor — one of badgelife's best-known husband-and-wife design teams. Built around an Atmel/Microchip ATSAMD21G16B (a 32-bit Cortex-M0+ chip with 64KB flash and 8KB RAM), the badge takes the form of a four-key RGB mechanical macro pad using hot-swappable Gateron Blue switches, with three capacitive touch pads for volume control. Out of the box it was configured as a Discord control pad (mute, push-to-talk, emotes), but it enumerates as a USB serial device with its own configuration interface, letting owners remap each key's function and RGB color.
@@ -145,3 +175,11 @@ The DEF CON 29 (2021) human badge was designed by MK Factor, the husband-and-wif
 Under the hood is an Atmel/Microchip ATSAMD21G16B, a 32-bit ARM Cortex-M0+ microcontroller, running on a CR2032 coin cell and updated via drag-and-drop UF2 firmware files. Edge connectors on the badge's sides let units link to each other (or connect over USB) as part of an on-badge hacking puzzle that attendees worked through during the conference, and MK Factor later discussed the badge's design and production, including chip-shortage era manufacturing constraints, on the DEF CON 29 stage and in a 2022 podcast interview.
 
 No maker-published hardware or firmware repository, retail price, or production quantity was found; the badge was distributed to registered in-person attendees as their conference badge rather than sold as a separate product. The GitHub repo often linked alongside this badge (`SkarDude/DC29-Badge`) is a third party's writeup of solving the badge puzzle, not MK Factor's own design files.
+
+## Notes merged from the duplicate entry "DEF CON 29 Badge (2021)"
+
+The DEF CON 29 (2021) official human badge was designed and built by MK Factor — the husband-and-wife badgemaking team of Michael and Katie Whiteley — working with The Dark Tangent, and was handed out to attendees as the standard conference badge. It is a stacked-board electronic badge with four RGB keys and three touch sensors on the front, side male/female connectors for daisy-chaining badges together, and USB-A and USB-C ports on the bottom; a special lanyard cable terminated in USB-A and USB-C plugs let badges talk to each other directly. It runs on a rechargeable battery that can be topped up through either USB port.
+
+The badge's core game is a networked version of Simon Says that scales as more badges are linked together, with progress tracked through a web console reachable from a phone or laptop. Underneath that sits a much larger CTF: classic ciphers (ROT13, Vigenère, Ottendorf), a hardware-hacking step that requires soldering onto specific pads, and Easter eggs worked into the badge's physical design that require reverse engineering to find. The Whiteleys detailed the badge's creation — including pandemic-era chip shortages and delayed parts — in a DEF CON 29 talk, "Making the DEF CON 29 Badge."
+
+This is the official DEF CON 29 human badge; two other well-known DC29 badges from the same year (AND!XOR's electronic badge and the Whiskey Pirates' RISC-V badge) are separate community badges and are not covered by this entry.

@@ -35,7 +35,7 @@ get_one:
   quantity: '3'
   availability: unknown
   distribution: []
-  where: 'Described by the maker as "secret prototype minibadges"; not a general distribution/sale.'
+  where: Described by the maker as "secret prototype minibadges"; not a general distribution/sale.
 make_your_own:
   open_source: null
   hardware_url: null
@@ -48,15 +48,18 @@ links:
 - label: minibadge.wiki 2026 data export (JSON)
   url: https://minibadge.wiki/2026.json
   kind: doc
+  archived: https://web.archive.org/web/20260611102319/http://minibadge.wiki/2026.json
 images:
-  - file: assets/images/badges/saintcon-2026/esp32-meshtastic-minibadge/52b211bf5b.jpg
-    source: "https://minibadge.wiki/data/"
-    credit: "Pips"
-    caption: "Front of the ESP32 Meshtastic Minibadge, with XIAO ESP32 module mounted"
-  - file: assets/images/badges/saintcon-2026/esp32-meshtastic-minibadge/b23b6e2c88.jpg
-    source: "https://minibadge.wiki/data/"
-    credit: "Pips"
-    caption: "Back of the ESP32 Meshtastic Minibadge showing pin headers and jumper pads"
+- file: assets/images/badges/saintcon-2026/esp32-meshtastic-minibadge/52b211bf5b.jpg
+  source: https://minibadge.wiki/data/
+  credit: Pips
+  caption: Front of the ESP32 Meshtastic Minibadge, with XIAO ESP32 module mounted
+  archived: https://web.archive.org/web/20260611104315/http://minibadge.wiki/data/
+- file: assets/images/badges/saintcon-2026/esp32-meshtastic-minibadge/b23b6e2c88.jpg
+  source: https://minibadge.wiki/data/
+  credit: Pips
+  caption: Back of the ESP32 Meshtastic Minibadge showing pin headers and jumper pads
+  archived: https://web.archive.org/web/20260611104315/http://minibadge.wiki/data/
 contact: {}
 notes:
 - 'category: Personal; qty made: 3'
@@ -73,11 +76,12 @@ sources:
   title: MiniBadge Wiki 2026 data export
   accessed: '2026-09-07'
   note: 'The search page itself is client-side JS with no server-rendered results; found the underlying JSON data export (linked from minibadge.wiki/data/) and located this badge''s record there: description, soldering instructions, quantity made (3), board house (OSHPark), category (Personal), acquisition note ("secret prototype minibadges"), and front/back image URLs.'
+  archived: https://web.archive.org/web/20260611102319/http://minibadge.wiki/2026.json
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'Only source is the community-run minibadge.wiki database entry (submitted by the maker or a third party); no maker-owned page, repo, or storefront was found for this badge. Price, LED info, display, battery, SAO header, and open-source/design-file status are not stated anywhere and are left empty. "Secret prototype minibadges" suggests very limited/informal distribution rather than a public sale.'
+  notes: Only source is the community-run minibadge.wiki database entry (submitted by the maker or a third party); no maker-owned page, repo, or storefront was found for this badge. Price, LED info, display, battery, SAO header, and open-source/design-file status are not stated anywhere and are left empty. "Secret prototype minibadges" suggests very limited/informal distribution rather than a public sale.
 last_modified_date: '2026-09-07'
 ---
 

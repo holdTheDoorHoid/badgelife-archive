@@ -12,7 +12,7 @@ makers:
 - name: Pips
   url: https://www.tindie.com/stores/pips/
 summary: A 5x5 grid PCB for mounting and powering a wall/shelf of standard minibadges as one stacked display.
-functions: 'Holds and powers a 5x5 array of minibadges as a single stackable display board.'
+functions: Holds and powers a 5x5 array of minibadges as a single stackable display board.
 look:
   colors: []
   shape: null
@@ -33,7 +33,7 @@ get_one:
   availability: unknown
   distribution:
   - purchase
-  where: "Sold directly by the maker (Pips); listed alongside their other minibadge accessories, which are also carried on their Tindie store."
+  where: Sold directly by the maker (Pips); listed alongside their other minibadge accessories, which are also carried on their Tindie store.
 make_your_own:
   open_source: null
   hardware_url: null
@@ -46,15 +46,16 @@ links:
 - label: Pips on Tindie
   url: https://www.tindie.com/stores/pips/
   kind: store
+  archived: https://web.archive.org/web/20251212232747/https://www.tindie.com/stores/pips/
 images:
-  - file: assets/images/badges/saintcon-2026/5x5-stackable-minibadge-display/053b538516.jpg
-    source: "https://minibadge.wiki/?search=5x5%20Stackable%20Minibadge%20Display&year=2026"
-    credit: "Pips"
-    caption: "Front of the 5x5 Stackable Minibadge Display board"
-  - file: assets/images/badges/saintcon-2026/5x5-stackable-minibadge-display/9de3855202.jpg
-    source: "https://minibadge.wiki/?search=5x5%20Stackable%20Minibadge%20Display&year=2026"
-    credit: "Pips"
-    caption: "Back of the 5x5 Stackable Minibadge Display board"
+- file: assets/images/badges/saintcon-2026/5x5-stackable-minibadge-display/053b538516.jpg
+  source: https://minibadge.wiki/?search=5x5%20Stackable%20Minibadge%20Display&year=2026
+  credit: Pips
+  caption: Front of the 5x5 Stackable Minibadge Display board
+- file: assets/images/badges/saintcon-2026/5x5-stackable-minibadge-display/9de3855202.jpg
+  source: https://minibadge.wiki/?search=5x5%20Stackable%20Minibadge%20Display&year=2026
+  credit: Pips
+  caption: Back of the 5x5 Stackable Minibadge Display board
 contact: {}
 notes:
 - 'category: Badge Accessory'
@@ -69,17 +70,20 @@ sources:
   url: https://minibadge.wiki/2026.json
   title: Minibadge Wiki 2026 data (JSON)
   accessed: '2026-09-07'
-  note: "The site's underlying data file: confirms maker (Pips), category (Badge Accessory), conference year 2026, soldering difficulty (Beginner), quantityMade listed as 0, and howToAcquire text ('Buy it from me!'). Description field on the wiki entry itself was blank."
+  note: 'The site''s underlying data file: confirms maker (Pips), category (Badge Accessory), conference year 2026, soldering difficulty (Beginner), quantityMade listed as 0, and howToAcquire text (''Buy it from me!''). Description field on the wiki entry itself was blank.'
+  archived: https://web.archive.org/web/20260611102319/http://minibadge.wiki/2026.json
 - kind: url
   url: https://www.tindie.com/stores/pips/
   title: Pips - Tindie store
   accessed: '2026-09-07'
-  note: "Maker's storefront, referenced by other Pips listings in the same dataset as where their minibadge accessories are sold; page itself is behind a Cloudflare bot check and could not be read directly, so price/availability for this specific item could not be confirmed here."
+  note: Maker's storefront, referenced by other Pips listings in the same dataset as where their minibadge accessories are sold; page itself is behind a Cloudflare bot check and could not be read directly, so price/availability for this specific item could not be confirmed here.
+  archived: https://web.archive.org/web/20251212232747/https://www.tindie.com/stores/pips/
 research:
   status: verified
   confidence: low
   last_checked: '2026-09-07'
-  notes: "The minibadge.wiki community database confirms this is a real, distinct item by maker Pips for SAINTCON 2026 (category 'Badge Accessory'), matching the same maker's other 2026 accessories (Minibadge chain, Minibadge Display Devboard). The wiki's own description field for this entry is empty, and quantityMade is listed as 0, which reads as not-yet-filled-in rather than a confirmed run size. No price, chip/LED specs, dimensions, or confirmed availability were found; the maker's Tindie store (where sibling products in this dataset are sold) could not be reached directly due to a Cloudflare challenge. Inferred purpose (holds/powers a 5x5 grid of minibadges) is drawn from the title and the maker's closely related 'Minibadge chain' and 'Minibadge Display Devboard' listings, not from a direct description of this item, so summary/functions should be treated as low-confidence until a firsthand source is found. Fact-check pass (2026-09-07): re-fetched 2026.json and reconfirmed every field cited (maker, category, difficulty, empty description, quantityMade 0, howToAcquire text); reconfirmed the Tindie store still 403s behind Cloudflare; downloaded the JSON's actual front/back render image URLs and confirmed the two saved images are the same renders (re-encoded, not altered); and confirmed via the minibadge.wiki page footer ('Built by Pips801') that Pips is indeed the site's own creator, supporting that claim in the body. The saved renders carry a 'PROTOTYPE' watermark and the maker handle 'Pips801' baked into the back-side art, not previously noted in the front matter; this doesn't contradict any existing field (status 'listed' and availability 'unknown' are already conservative) so it is recorded here rather than changing a field. No unsupported claims or images found; all sources hold up, so status is set to verified."
+  notes: 'The minibadge.wiki community database confirms this is a real, distinct item by maker Pips for SAINTCON 2026 (category ''Badge Accessory''), matching the same maker''s other 2026 accessories (Minibadge chain, Minibadge Display Devboard). The wiki''s own description field for this entry is empty, and quantityMade is listed as 0, which reads as not-yet-filled-in rather than a confirmed run size. No price, chip/LED specs, dimensions, or confirmed availability were found; the maker''s Tindie store (where sibling products in this dataset are sold) could not be reached directly due to a Cloudflare challenge. Inferred purpose (holds/powers a 5x5 grid of minibadges) is drawn from the title and the maker''s closely related ''Minibadge chain'' and ''Minibadge Display Devboard'' listings, not from a direct description of this item, so summary/functions should be treated as low-confidence until a firsthand source is found. Fact-check pass (2026-09-07): re-fetched 2026.json and reconfirmed
+    every field cited (maker, category, difficulty, empty description, quantityMade 0, howToAcquire text); reconfirmed the Tindie store still 403s behind Cloudflare; downloaded the JSON''s actual front/back render image URLs and confirmed the two saved images are the same renders (re-encoded, not altered); and confirmed via the minibadge.wiki page footer (''Built by Pips801'') that Pips is indeed the site''s own creator, supporting that claim in the body. The saved renders carry a ''PROTOTYPE'' watermark and the maker handle ''Pips801'' baked into the back-side art, not previously noted in the front matter; this doesn''t contradict any existing field (status ''listed'' and availability ''unknown'' are already conservative) so it is recorded here rather than changing a field. No unsupported claims or images found; all sources hold up, so status is set to verified.'
 last_modified_date: '2026-09-07'
 ---
 
