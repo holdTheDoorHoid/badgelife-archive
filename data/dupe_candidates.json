@@ -1,0 +1,842 @@
+[
+ {
+  "score": 1.0,
+  "event": "dc30",
+  "a": "dc30-badge-discussed-in-supercon-2022-badgelife-history-talk",
+  "a_title": "DEF CON 30 Official Badge",
+  "b": "dc30-badge-2022",
+  "b_title": "DEF CON 30 Badge (2022)"
+ },
+ {
+  "score": 1.0,
+  "event": "dc30",
+  "a": "dc30-dickbutt-badge",
+  "a_title": "Dickbutt Badge",
+  "b": "dc30-dickbutt-sao",
+  "b_title": "Dickbutt SAO"
+ },
+ {
+  "score": 1.0,
+  "event": "supercon-2023",
+  "a": "supercon-2023-vectorscope-badge",
+  "a_title": "Vectorscope Badge",
+  "b": "supercon-2023-supercon-2023-vectorscope",
+  "b_title": "Vectorscope Badge"
+ },
+ {
+  "score": 1.0,
+  "event": "other",
+  "a": "other-the-child-sao-2",
+  "a_title": "The Child SAO",
+  "b": "other-the-child-sao",
+  "b_title": "The Child SAO"
+ },
+ {
+  "score": 1.0,
+  "event": "other",
+  "a": "other-sloth-badge",
+  "a_title": "Sloth Badge",
+  "b": "other-sloth-badge-pin",
+  "b_title": "sloth badge"
+ },
+ {
+  "score": 1.0,
+  "event": "other",
+  "a": "other-skeletor-electronic-pin-badge",
+  "a_title": "Skeletor Electronic Pin BADGE",
+  "b": "other-skeletor-electronic-pin-badge-2",
+  "b_title": "SKELETOR Electronic Pin Badge"
+ },
+ {
+  "score": 1.0,
+  "event": "other",
+  "a": "other-do-or-donut-sao",
+  "a_title": "Do Or Donut",
+  "b": "other-do-or-donut-sao-2",
+  "b_title": "Do or Donut SAO"
+ },
+ {
+  "score": 1.0,
+  "event": "dc25",
+  "a": "dc25-and-xor-dc25-badge",
+  "a_title": "AND!XOR DC25 Badge",
+  "b": "dc25-badge-2017",
+  "b_title": "AND!XOR DC25 Badge (2017)"
+ },
+ {
+  "score": 1.0,
+  "event": "dc34",
+  "a": "dc34-retro-memories-26-addon-dc34-includes-whiskey-pirates-raid-r",
+  "a_title": "Retro Memories 26",
+  "b": "dc34-retro-memories-26-addon",
+  "b_title": "Retro Memories 26 addon"
+ },
+ {
+  "score": 1.0,
+  "event": "dc34",
+  "a": "dc34-dc34-clip-boy",
+  "a_title": "Clip-Boy",
+  "b": "dc34-clip-boy",
+  "b_title": "Clip-Boy"
+ },
+ {
+  "score": 1.0,
+  "event": "fri3d-2018",
+  "a": "fri3d-2018-fri3d-2018-ph0xx-badge-2",
+  "a_title": "Ph0xx (Fri3d Camp 2018 Badge)",
+  "b": "fri3d-2018-fri3d-2018-ph0xx-badge",
+  "b_title": "Ph0xx (Fri3d Camp 2018 Badge)"
+ },
+ {
+  "score": 1.0,
+  "event": "fri3d-2022",
+  "a": "fri3d-2022-fri3d-badge-2020",
+  "a_title": "Fri3d Badge 2020",
+  "b": "fri3d-2022-fri3d-2022-badge",
+  "b_title": "Fri3d 2022 Badge"
+ },
+ {
+  "score": 1.0,
+  "event": "supercon-2024",
+  "a": "supercon-2024-hubble-sao",
+  "a_title": "Hubble SAO",
+  "b": "supercon-2024-hubble-sao-2",
+  "b_title": "Hubble SAO"
+ },
+ {
+  "score": 1.0,
+  "event": "supercon-2024",
+  "a": "supercon-2024-duckjaws-sao",
+  "a_title": "duckJAWS SAO",
+  "b": "supercon-2024-duckjaws-sao-2",
+  "b_title": "duckJAWS SAO"
+ },
+ {
+  "score": 1.0,
+  "event": "supercon-2024",
+  "a": "supercon-2024-etch-sao-sketch-2",
+  "a_title": "Etch sAo Sketch",
+  "b": "supercon-2024-etch-sao-sketch",
+  "b_title": "Etch sAo Sketch"
+ },
+ {
+  "score": 1.0,
+  "event": "supercon-2024",
+  "a": "supercon-2024-featuring-you-sao",
+  "a_title": "Featuring You!",
+  "b": "supercon-2024-featuring-you-sao-2",
+  "b_title": "Featuring You!"
+ },
+ {
+  "score": 1.0,
+  "event": "supercon-2024",
+  "a": "supercon-2024-saop",
+  "a_title": "SAOP",
+  "b": "supercon-2024-saop-2",
+  "b_title": "SAOP"
+ },
+ {
+  "score": 1.0,
+  "event": "supercon-2024",
+  "a": "supercon-2024-tars-sao",
+  "a_title": "TARS SAO",
+  "b": "supercon-2024-tars-sao-3",
+  "b_title": "TARS SAO"
+ },
+ {
+  "score": 1.0,
+  "event": "supercon-2024",
+  "a": "supercon-2024-sao-digital-multimeter-2",
+  "a_title": "SAO Digital Multimeter",
+  "b": "supercon-2024-sao-digital-multimeter",
+  "b_title": "SAO Digital Multimeter"
+ },
+ {
+  "score": 1.0,
+  "event": "supercon-2024",
+  "a": "supercon-2024-duckbath-sao-2",
+  "a_title": "duckBATH SAO",
+  "b": "supercon-2024-duckbath-sao",
+  "b_title": "duckBATH SAO"
+ },
+ {
+  "score": 1.0,
+  "event": "dc27",
+  "a": "dc27-gat-nametag-dc27-addon",
+  "a_title": "GAT Nametag DC27 Addon",
+  "b": "dc27-gat-nametag-addon-dc27",
+  "b_title": "GAT Nametag Addon (DC27)"
+ },
+ {
+  "score": 1.0,
+  "event": "dc27",
+  "a": "dc27-and-xor-dc27-badge",
+  "a_title": "AND!XOR DC27 Badge",
+  "b": "dc27-and-xor-badge-year-unspecified",
+  "b_title": "AND!XOR DC27 Badge"
+ },
+ {
+  "score": 1.0,
+  "event": "dc27",
+  "a": "dc27-dc27-iron-gauntlet-sao",
+  "a_title": "Iron Gauntlet",
+  "b": "dc27-iron-gauntlet-sao",
+  "b_title": "Iron Gauntlet"
+ },
+ {
+  "score": 1.0,
+  "event": "dc27",
+  "a": "dc27-dc27-multi-pass",
+  "a_title": "DC27 MULTI PASS",
+  "b": "dc27-mooltipass-badge",
+  "b_title": "DC27 MULTI PASS"
+ },
+ {
+  "score": 1.0,
+  "event": "dc27",
+  "a": "dc27-deadpool-badge-sao",
+  "a_title": "DeadPool Badge SAO",
+  "b": "dc27-deadpool-mini-badge-sao",
+  "b_title": "DEADPOOL Mini Badge / SAO"
+ },
+ {
+  "score": 1.0,
+  "event": "dc29",
+  "a": "dc29-compukidmike-dc29-badge",
+  "a_title": "DEF CON 29 Official Badge",
+  "b": "dc29-badge",
+  "b_title": "DEF CON 29 Badge"
+ },
+ {
+  "score": 1.0,
+  "event": "dc29",
+  "a": "dc29-compukidmike-dc29-badge",
+  "a_title": "DEF CON 29 Official Badge",
+  "b": "dc29-badge-2021",
+  "b_title": "DEF CON 29 Badge (2021)"
+ },
+ {
+  "score": 1.0,
+  "event": "dc29",
+  "a": "dc29-badge",
+  "a_title": "DEF CON 29 Badge",
+  "b": "dc29-badge-2021",
+  "b_title": "DEF CON 29 Badge (2021)"
+ },
+ {
+  "score": 1.0,
+  "event": "cccamp-2019",
+  "a": "cccamp-2019-numberwang-badge-2",
+  "a_title": "Numberwang Badge",
+  "b": "cccamp-2019-numberwang-badge",
+  "b_title": "Numberwang Badge"
+ },
+ {
+  "score": 1.0,
+  "event": "dc26",
+  "a": "dc26-thefreeman-dc26-indie-badge",
+  "a_title": "THEFREEMAN - DEF CON 26 Indie Badge",
+  "b": "dc26-thefreeman-def-con-26-indie-badge",
+  "b_title": "THEFREEMAN - DEF CON 26 Indie Badge"
+ },
+ {
+  "score": 1.0,
+  "event": "dc26",
+  "a": "dc26-coinop-badge-2",
+  "a_title": "CoinOp Badge",
+  "b": "dc26-coinop-badge",
+  "b_title": "CoinOp Badge"
+ },
+ {
+  "score": 1.0,
+  "event": "supercon-2022",
+  "a": "supercon-2022-vectrex-sao-2",
+  "a_title": "Vectrex SAO",
+  "b": "supercon-2022-vectrex-sao",
+  "b_title": "Vectrex SAO"
+ },
+ {
+  "score": 1.0,
+  "event": "dc33",
+  "a": "dc33-sao-and-many-sao-badge",
+  "a_title": "SAO Many SAOs Badge",
+  "b": "dc33-sao-for-above",
+  "b_title": "SAO Many SAOs Badge"
+ },
+ {
+  "score": 1.0,
+  "event": "dc33",
+  "a": "dc33-sao-and-many-sao-badge",
+  "a_title": "SAO Many SAOs Badge",
+  "b": "dc33-sao-many-saos-already-catalogued-as-dc33-sao-many-saos",
+  "b_title": "SaO MANY SAOs"
+ },
+ {
+  "score": 1.0,
+  "event": "dc33",
+  "a": "dc33-smartao-sao",
+  "a_title": "SmartAO SAO",
+  "b": "dc33-sao-for-above-smartao",
+  "b_title": "SmartAO SAO"
+ },
+ {
+  "score": 1.0,
+  "event": "dc33",
+  "a": "dc33-sao-for-above",
+  "a_title": "SAO Many SAOs Badge",
+  "b": "dc33-sao-many-saos-already-catalogued-as-dc33-sao-many-saos",
+  "b_title": "SaO MANY SAOs"
+ },
+ {
+  "score": 0.96,
+  "event": "dc31",
+  "a": "dc31-dc540-listed-for-def-con-31-no-details",
+  "a_title": "DC540 (listed for DEF CON 31, no details)",
+  "b": "dc31-dc404-listed-for-def-con-31-no-details",
+  "b_title": "DC404 (listed for DEF CON 31, no details)"
+ },
+ {
+  "score": 0.96,
+  "event": "dc31",
+  "a": "dc31-dc801-listed-for-def-con-31-no-details",
+  "a_title": "DC801 (listed for DEF CON 31, no details)",
+  "b": "dc31-dc813-listed-for-def-con-31-no-details",
+  "b_title": "DC813 (listed for DEF CON 31, no details)"
+ },
+ {
+  "score": 0.96,
+  "event": "dc26",
+  "a": "dc26-dc26-twinkletwinkie-badgelife-sao-add-on-3",
+  "a_title": "TwinkleTwinkie's Badgelife SAO Add-on #3",
+  "b": "dc26-dc26-twinkletwinkie-badgelife-sao-add-on-5",
+  "b_title": "TwinkleTwinkie's Badgelife SAO Add-on #5"
+ },
+ {
+  "score": 0.96,
+  "event": "dc26",
+  "a": "dc26-dc26-twinkletwinkie-badgelife-sao-add-on-3",
+  "a_title": "TwinkleTwinkie's Badgelife SAO Add-on #3",
+  "b": "dc26-dc26-twinkletwinkie-badgelife-sao-add-on-6",
+  "b_title": "TwinkleTwinkie's Badgelife SAO Add-on #6"
+ },
+ {
+  "score": 0.96,
+  "event": "dc26",
+  "a": "dc26-dc26-twinkletwinkie-badgelife-sao-add-on-3",
+  "a_title": "TwinkleTwinkie's Badgelife SAO Add-on #3",
+  "b": "dc26-dc26-twinkletwinkie-badgelife-sao-add-on-2",
+  "b_title": "TwinkleTwinkie's Badgelife SAO Add-on #2"
+ },
+ {
+  "score": 0.96,
+  "event": "dc26",
+  "a": "dc26-dc26-twinkletwinkie-badgelife-sao-add-on-3",
+  "a_title": "TwinkleTwinkie's Badgelife SAO Add-on #3",
+  "b": "dc26-dc26-twinkletwinkie-badgelife-sao-add-on-4",
+  "b_title": "TwinkleTwinkie's Badgelife SAO Add-on #4"
+ },
+ {
+  "score": 0.96,
+  "event": "dc26",
+  "a": "dc26-dc26-twinkletwinkie-badgelife-sao-add-on-3",
+  "a_title": "TwinkleTwinkie's Badgelife SAO Add-on #3",
+  "b": "dc26-dc26-twinkletwinkie-badgelife-sao-add-on-1",
+  "b_title": "TwinkleTwinkie's Badgelife SAO Add-on #1"
+ },
+ {
+  "score": 0.96,
+  "event": "dc26",
+  "a": "dc26-dc26-twinkletwinkie-badgelife-sao-add-on-5",
+  "a_title": "TwinkleTwinkie's Badgelife SAO Add-on #5",
+  "b": "dc26-dc26-twinkletwinkie-badgelife-sao-add-on-6",
+  "b_title": "TwinkleTwinkie's Badgelife SAO Add-on #6"
+ },
+ {
+  "score": 0.96,
+  "event": "dc26",
+  "a": "dc26-dc26-twinkletwinkie-badgelife-sao-add-on-5",
+  "a_title": "TwinkleTwinkie's Badgelife SAO Add-on #5",
+  "b": "dc26-dc26-twinkletwinkie-badgelife-sao-add-on-2",
+  "b_title": "TwinkleTwinkie's Badgelife SAO Add-on #2"
+ },
+ {
+  "score": 0.96,
+  "event": "dc26",
+  "a": "dc26-dc26-twinkletwinkie-badgelife-sao-add-on-5",
+  "a_title": "TwinkleTwinkie's Badgelife SAO Add-on #5",
+  "b": "dc26-dc26-twinkletwinkie-badgelife-sao-add-on-4",
+  "b_title": "TwinkleTwinkie's Badgelife SAO Add-on #4"
+ },
+ {
+  "score": 0.96,
+  "event": "dc26",
+  "a": "dc26-dc26-twinkletwinkie-badgelife-sao-add-on-5",
+  "a_title": "TwinkleTwinkie's Badgelife SAO Add-on #5",
+  "b": "dc26-dc26-twinkletwinkie-badgelife-sao-add-on-1",
+  "b_title": "TwinkleTwinkie's Badgelife SAO Add-on #1"
+ },
+ {
+  "score": 0.96,
+  "event": "dc26",
+  "a": "dc26-dc26-twinkletwinkie-badgelife-sao-add-on-6",
+  "a_title": "TwinkleTwinkie's Badgelife SAO Add-on #6",
+  "b": "dc26-dc26-twinkletwinkie-badgelife-sao-add-on-2",
+  "b_title": "TwinkleTwinkie's Badgelife SAO Add-on #2"
+ },
+ {
+  "score": 0.96,
+  "event": "dc26",
+  "a": "dc26-dc26-twinkletwinkie-badgelife-sao-add-on-6",
+  "a_title": "TwinkleTwinkie's Badgelife SAO Add-on #6",
+  "b": "dc26-dc26-twinkletwinkie-badgelife-sao-add-on-4",
+  "b_title": "TwinkleTwinkie's Badgelife SAO Add-on #4"
+ },
+ {
+  "score": 0.96,
+  "event": "dc26",
+  "a": "dc26-dc26-twinkletwinkie-badgelife-sao-add-on-6",
+  "a_title": "TwinkleTwinkie's Badgelife SAO Add-on #6",
+  "b": "dc26-dc26-twinkletwinkie-badgelife-sao-add-on-1",
+  "b_title": "TwinkleTwinkie's Badgelife SAO Add-on #1"
+ },
+ {
+  "score": 0.96,
+  "event": "dc26",
+  "a": "dc26-dc26-twinkletwinkie-badgelife-sao-add-on-2",
+  "a_title": "TwinkleTwinkie's Badgelife SAO Add-on #2",
+  "b": "dc26-dc26-twinkletwinkie-badgelife-sao-add-on-4",
+  "b_title": "TwinkleTwinkie's Badgelife SAO Add-on #4"
+ },
+ {
+  "score": 0.96,
+  "event": "dc26",
+  "a": "dc26-dc26-twinkletwinkie-badgelife-sao-add-on-2",
+  "a_title": "TwinkleTwinkie's Badgelife SAO Add-on #2",
+  "b": "dc26-dc26-twinkletwinkie-badgelife-sao-add-on-1",
+  "b_title": "TwinkleTwinkie's Badgelife SAO Add-on #1"
+ },
+ {
+  "score": 0.96,
+  "event": "dc26",
+  "a": "dc26-dc26-twinkletwinkie-badgelife-sao-add-on-4",
+  "a_title": "TwinkleTwinkie's Badgelife SAO Add-on #4",
+  "b": "dc26-dc26-twinkletwinkie-badgelife-sao-add-on-1",
+  "b_title": "TwinkleTwinkie's Badgelife SAO Add-on #1"
+ },
+ {
+  "score": 0.95,
+  "event": "dc33",
+  "a": "dc33-ics-village-listed-for-def-con-33-no-details",
+  "a_title": "ICS Village (listed for DEF CON 33, no details)",
+  "b": "dc33-ai-village-listed-for-def-con-33-no-details",
+  "b_title": "AI Village (listed for DEF CON 33, no details)"
+ },
+ {
+  "score": 0.94,
+  "event": "dc32",
+  "a": "dc32-listed-for-def-con-32-no-details",
+  "a_title": "DC31 (listed for DEF CON 32, no details)",
+  "b": "dc32-dc512-listed-for-def-con-32-no-details",
+  "b_title": "DC512 (listed for DEF CON 32, no details)"
+ },
+ {
+  "score": 0.94,
+  "event": "dc33",
+  "a": "dc33-listed-for-def-con-33-no-details",
+  "a_title": "DC31 (listed for DEF CON 33, no details)",
+  "b": "dc33-dc512-listed-for-def-con-33-no-details",
+  "b_title": "DC512 (listed for DEF CON 33, no details)"
+ },
+ {
+  "score": 0.93,
+  "event": "dc33",
+  "a": "dc33-blue-team-village-listed-for-def-con-33-no-details",
+  "a_title": "Blue Team Village (listed for DEF CON 33, no details)",
+  "b": "dc33-red-team-village-listed-for-def-con-33-no-details",
+  "b_title": "Red Team Village (listed for DEF CON 33, no details)"
+ },
+ {
+  "score": 0.92,
+  "event": "dc31",
+  "a": "dc31-dc540-listed-for-def-con-31-no-details",
+  "a_title": "DC540 (listed for DEF CON 31, no details)",
+  "b": "dc31-dc801-listed-for-def-con-31-no-details",
+  "b_title": "DC801 (listed for DEF CON 31, no details)"
+ },
+ {
+  "score": 0.92,
+  "event": "dc31",
+  "a": "dc31-dc404-listed-for-def-con-31-no-details",
+  "a_title": "DC404 (listed for DEF CON 31, no details)",
+  "b": "dc31-dc801-listed-for-def-con-31-no-details",
+  "b_title": "DC801 (listed for DEF CON 31, no details)"
+ },
+ {
+  "score": 0.92,
+  "event": "queercon-2019",
+  "a": "queercon-2019-queercon-16-q-badge",
+  "a_title": "Queercon 16 Q Badge",
+  "b": "queercon-2019-queercon-16-badge",
+  "b_title": "Queercon 16 badge"
+ },
+ {
+  "score": 0.91,
+  "event": "dc33",
+  "a": "dc33-grrcon-listed-for-def-con-33-no-details",
+  "a_title": "GrrCON (listed for DEF CON 33, no details)",
+  "b": "dc33-gothcon-listed-for-def-con-33-no-details",
+  "b_title": "GothCon (listed for DEF CON 33, no details)"
+ },
+ {
+  "score": 0.9,
+  "event": "other",
+  "a": "other-tr23-sao-hw-troopers-2023-shitty-add-on",
+  "a_title": "tr23-sao-hw \u2014 Troopers 2023 Shitty Add-On",
+  "b": "other-tr25-sao-hw-troopers-25-shitty-add-on",
+  "b_title": "tr25-sao-hw \u2014 Troopers 25 Shitty Add-On"
+ },
+ {
+  "score": 0.9,
+  "event": "dc34",
+  "a": "dc34-badgelife-village-badge",
+  "a_title": "Badgelife Village Badge (DC34 / 2026)",
+  "b": "dc34-badgelife-village-saos",
+  "b_title": "Badgelife Village SAOs (DC34 / 2026)"
+ },
+ {
+  "score": 0.9,
+  "event": "dc33",
+  "a": "dc33-rex-listed-for-def-con-33-no-details",
+  "a_title": "Rex (listed for DEF CON 33, no details)",
+  "b": "dc33-badge-team-listed-for-def-con-33-no-details",
+  "b_title": "Badge.team (listed for DEF CON 33, no details)"
+ },
+ {
+  "score": 0.9,
+  "event": "dc33",
+  "a": "dc33-wireless-village-listed-for-def-con-33-no-details",
+  "a_title": "Wireless Village (listed for DEF CON 33, no details)",
+  "b": "dc33-ics-village-listed-for-def-con-33-no-details",
+  "b_title": "ICS Village (listed for DEF CON 33, no details)"
+ },
+ {
+  "score": 0.9,
+  "event": "dc33",
+  "a": "dc33-badge-team-listed-for-def-con-33-no-details",
+  "a_title": "Badge.team (listed for DEF CON 33, no details)",
+  "b": "dc33-otter-listed-for-def-con-33-no-details",
+  "b_title": "Otter (listed for DEF CON 33, no details)"
+ },
+ {
+  "score": 0.89,
+  "event": "dc32",
+  "a": "dc32-cyber-circuitry-listed-for-def-con-32-no-details",
+  "a_title": "Cyber Circuitry (listed for DEF CON 32, no details)",
+  "b": "dc32-cyber-city-circuits-listed-for-def-con-32-no-details",
+  "b_title": "Cyber City Circuits (listed for DEF CON 32, no details)"
+ },
+ {
+  "score": 0.88,
+  "event": "dc31",
+  "a": "dc31-dc540-listed-for-def-con-31-no-details",
+  "a_title": "DC540 (listed for DEF CON 31, no details)",
+  "b": "dc31-dc813-listed-for-def-con-31-no-details",
+  "b_title": "DC813 (listed for DEF CON 31, no details)"
+ },
+ {
+  "score": 0.88,
+  "event": "dc31",
+  "a": "dc31-dc404-listed-for-def-con-31-no-details",
+  "a_title": "DC404 (listed for DEF CON 31, no details)",
+  "b": "dc31-dc813-listed-for-def-con-31-no-details",
+  "b_title": "DC813 (listed for DEF CON 31, no details)"
+ },
+ {
+  "score": 0.88,
+  "event": "dc33",
+  "a": "dc33-listed-for-def-con-33-no-details",
+  "a_title": "DC31 (listed for DEF CON 33, no details)",
+  "b": "dc33-t9ck-listed-for-def-con-33-no-details",
+  "b_title": "T9ck (listed for DEF CON 33, no details)"
+ },
+ {
+  "score": 0.88,
+  "event": "dc33",
+  "a": "dc33-rex-listed-for-def-con-33-no-details",
+  "a_title": "Rex (listed for DEF CON 33, no details)",
+  "b": "dc33-redactd-listed-for-def-con-33-no-details",
+  "b_title": "redactd (listed for DEF CON 33, no details)"
+ },
+ {
+  "score": 0.88,
+  "event": "dc33",
+  "a": "dc33-rex-listed-for-def-con-33-no-details",
+  "a_title": "Rex (listed for DEF CON 33, no details)",
+  "b": "dc33-otter-listed-for-def-con-33-no-details",
+  "b_title": "Otter (listed for DEF CON 33, no details)"
+ },
+ {
+  "score": 0.88,
+  "event": "dc33",
+  "a": "dc33-wireless-village-listed-for-def-con-33-no-details",
+  "a_title": "Wireless Village (listed for DEF CON 33, no details)",
+  "b": "dc33-ai-village-listed-for-def-con-33-no-details",
+  "b_title": "AI Village (listed for DEF CON 33, no details)"
+ },
+ {
+  "score": 0.88,
+  "event": "dc33",
+  "a": "dc33-badge-team-listed-for-def-con-33-no-details",
+  "a_title": "Badge.team (listed for DEF CON 33, no details)",
+  "b": "dc33-th0m4s-listed-for-def-con-33-no-details",
+  "b_title": "Th0m4s (listed for DEF CON 33, no details)"
+ },
+ {
+  "score": 0.88,
+  "event": "dc33",
+  "a": "dc33-badge-team-listed-for-def-con-33-no-details",
+  "a_title": "Badge.team (listed for DEF CON 33, no details)",
+  "b": "dc33-t9ck-listed-for-def-con-33-no-details",
+  "b_title": "T9ck (listed for DEF CON 33, no details)"
+ },
+ {
+  "score": 0.88,
+  "event": "dc33",
+  "a": "dc33-ai-village-listed-for-def-con-33-no-details",
+  "a_title": "AI Village (listed for DEF CON 33, no details)",
+  "b": "dc33-red-team-village-listed-for-def-con-33-no-details",
+  "b_title": "Red Team Village (listed for DEF CON 33, no details)"
+ },
+ {
+  "score": 0.87,
+  "event": "saintcon-2023",
+  "a": "saintcon-2023-ics-escape-challenge-i-failed-badge",
+  "a_title": "ICS ESCAPE CHALLENGE - I FAILED BADGE",
+  "b": "saintcon-2023-ics-escape-challenge-i-survived-badge",
+  "b_title": "ICS ESCAPE CHALLENGE - I SURVIVED BADGE"
+ },
+ {
+  "score": 0.87,
+  "event": "supercon-2024",
+  "a": "supercon-2024-touchwheel-sao",
+  "a_title": "Touchwheel SAO",
+  "b": "supercon-2024-touchwheelsao",
+  "b_title": "TouchwheelSAO"
+ },
+ {
+  "score": 0.87,
+  "event": "dc33",
+  "a": "dc33-listed-for-def-con-33-no-details",
+  "a_title": "DC31 (listed for DEF CON 33, no details)",
+  "b": "dc33-redactd-listed-for-def-con-33-no-details",
+  "b_title": "redactd (listed for DEF CON 33, no details)"
+ },
+ {
+  "score": 0.87,
+  "event": "dc33",
+  "a": "dc33-alt-bier-listed-for-def-con-33-no-details",
+  "a_title": "Alt_Bier (listed for DEF CON 33, no details)",
+  "b": "dc33-otter-listed-for-def-con-33-no-details",
+  "b_title": "Otter (listed for DEF CON 33, no details)"
+ },
+ {
+  "score": 0.87,
+  "event": "dc33",
+  "a": "dc33-redactd-listed-for-def-con-33-no-details",
+  "a_title": "redactd (listed for DEF CON 33, no details)",
+  "b": "dc33-badge-team-listed-for-def-con-33-no-details",
+  "b_title": "Badge.team (listed for DEF CON 33, no details)"
+ },
+ {
+  "score": 0.87,
+  "event": "dc33",
+  "a": "dc33-blue-team-village-listed-for-def-con-33-no-details",
+  "a_title": "Blue Team Village (listed for DEF CON 33, no details)",
+  "b": "dc33-ai-village-listed-for-def-con-33-no-details",
+  "b_title": "AI Village (listed for DEF CON 33, no details)"
+ },
+ {
+  "score": 0.87,
+  "event": "dc33",
+  "a": "dc33-car-hacking-village-listed-for-def-con-33-no-details",
+  "a_title": "Car Hacking Village (listed for DEF CON 33, no details)",
+  "b": "dc33-ai-village-listed-for-def-con-33-no-details",
+  "b_title": "AI Village (listed for DEF CON 33, no details)"
+ },
+ {
+  "score": 0.87,
+  "event": "dc33",
+  "a": "dc33-gothcon-listed-for-def-con-33-no-details",
+  "a_title": "GothCon (listed for DEF CON 33, no details)",
+  "b": "dc33-t9ck-listed-for-def-con-33-no-details",
+  "b_title": "T9ck (listed for DEF CON 33, no details)"
+ },
+ {
+  "score": 0.86,
+  "event": "dc32",
+  "a": "dc32-red-team-village-listed-for-def-con-32-no-details",
+  "a_title": "Red Team Village (listed for DEF CON 32, no details)",
+  "b": "dc32-wireless-village-listed-for-def-con-32-no-details",
+  "b_title": "Wireless Village (listed for DEF CON 32, no details)"
+ },
+ {
+  "score": 0.86,
+  "event": "dc24",
+  "a": "dc24-andxor-defcon-24-badge",
+  "a_title": "AND!XOR DEFCON 24 Badge",
+  "b": "dc24-and-xor-dc24-badge",
+  "b_title": "AND!XOR DC24 Badge"
+ },
+ {
+  "score": 0.86,
+  "event": "saintcon-2023",
+  "a": "saintcon-2023-minibadge-community-badge",
+  "a_title": "Minibadge Community Badge",
+  "b": "saintcon-2023-ai-community-badge",
+  "b_title": "AI Community Badge"
+ },
+ {
+  "score": 0.86,
+  "event": "saintcon-2023",
+  "a": "saintcon-2023-application-security-community-badge",
+  "a_title": "Application Security Community Badge",
+  "b": "saintcon-2023-education-security-community-badge",
+  "b_title": "Education Security Community Badge"
+ },
+ {
+  "score": 0.86,
+  "event": "dc33",
+  "a": "dc33-listed-for-def-con-33-no-details",
+  "a_title": "DC31 (listed for DEF CON 33, no details)",
+  "b": "dc33-rex-listed-for-def-con-33-no-details",
+  "b_title": "Rex (listed for DEF CON 33, no details)"
+ },
+ {
+  "score": 0.86,
+  "event": "dc33",
+  "a": "dc33-h4rl0d-listed-for-def-con-33-no-details",
+  "a_title": "H4rl0d (listed for DEF CON 33, no details)",
+  "b": "dc33-rex-listed-for-def-con-33-no-details",
+  "b_title": "Rex (listed for DEF CON 33, no details)"
+ },
+ {
+  "score": 0.86,
+  "event": "dc33",
+  "a": "dc33-the-mad-hatters-listed-for-def-con-33-no-details",
+  "a_title": "The Mad Hatters (listed for DEF CON 33, no details)",
+  "b": "dc33-otter-listed-for-def-con-33-no-details",
+  "b_title": "Otter (listed for DEF CON 33, no details)"
+ },
+ {
+  "score": 0.86,
+  "event": "dc33",
+  "a": "dc33-grrcon-listed-for-def-con-33-no-details",
+  "a_title": "GrrCON (listed for DEF CON 33, no details)",
+  "b": "dc33-rex-listed-for-def-con-33-no-details",
+  "b_title": "Rex (listed for DEF CON 33, no details)"
+ },
+ {
+  "score": 0.86,
+  "event": "dc33",
+  "a": "dc33-rex-listed-for-def-con-33-no-details",
+  "a_title": "Rex (listed for DEF CON 33, no details)",
+  "b": "dc33-t9ck-listed-for-def-con-33-no-details",
+  "b_title": "T9ck (listed for DEF CON 33, no details)"
+ },
+ {
+  "score": 0.86,
+  "event": "dc33",
+  "a": "dc33-redactd-listed-for-def-con-33-no-details",
+  "a_title": "redactd (listed for DEF CON 33, no details)",
+  "b": "dc33-reloadrtr-listed-for-def-con-33-no-details",
+  "b_title": "Reloadrtr (listed for DEF CON 33, no details)"
+ },
+ {
+  "score": 0.86,
+  "event": "dc33",
+  "a": "dc33-wireless-village-listed-for-def-con-33-no-details",
+  "a_title": "Wireless Village (listed for DEF CON 33, no details)",
+  "b": "dc33-red-team-village-listed-for-def-con-33-no-details",
+  "b_title": "Red Team Village (listed for DEF CON 33, no details)"
+ },
+ {
+  "score": 0.86,
+  "event": "dc33",
+  "a": "dc33-badge-team-listed-for-def-con-33-no-details",
+  "a_title": "Badge.team (listed for DEF CON 33, no details)",
+  "b": "dc33-nerfhammer-listed-for-def-con-33-no-details",
+  "b_title": "Nerfhammer (listed for DEF CON 33, no details)"
+ },
+ {
+  "score": 0.86,
+  "event": "dc33",
+  "a": "dc33-t9ck-listed-for-def-con-33-no-details",
+  "a_title": "T9ck (listed for DEF CON 33, no details)",
+  "b": "dc33-dc512-listed-for-def-con-33-no-details",
+  "b_title": "DC512 (listed for DEF CON 33, no details)"
+ },
+ {
+  "score": 0.86,
+  "event": "dc33",
+  "a": "dc33-t9ck-listed-for-def-con-33-no-details",
+  "a_title": "T9ck (listed for DEF CON 33, no details)",
+  "b": "dc33-otter-listed-for-def-con-33-no-details",
+  "b_title": "Otter (listed for DEF CON 33, no details)"
+ },
+ {
+  "score": 0.85,
+  "event": "saintcon-2023",
+  "a": "saintcon-2023-hardware-hacking-community-badge-2023-portal-theme",
+  "a_title": "Hardware Hacking Community Badge",
+  "b": "saintcon-2023-healthcare-hacking-community-badge",
+  "b_title": "Healthcare Hacking Community Badge"
+ },
+ {
+  "score": 0.85,
+  "event": "dc33",
+  "a": "dc33-h4rl0d-listed-for-def-con-33-no-details",
+  "a_title": "H4rl0d (listed for DEF CON 33, no details)",
+  "b": "dc33-th0m4s-listed-for-def-con-33-no-details",
+  "b_title": "Th0m4s (listed for DEF CON 33, no details)"
+ },
+ {
+  "score": 0.85,
+  "event": "dc33",
+  "a": "dc33-rex-listed-for-def-con-33-no-details",
+  "a_title": "Rex (listed for DEF CON 33, no details)",
+  "b": "dc33-reloadrtr-listed-for-def-con-33-no-details",
+  "b_title": "Reloadrtr (listed for DEF CON 33, no details)"
+ },
+ {
+  "score": 0.85,
+  "event": "dc33",
+  "a": "dc33-redactd-listed-for-def-con-33-no-details",
+  "a_title": "redactd (listed for DEF CON 33, no details)",
+  "b": "dc33-dc512-listed-for-def-con-33-no-details",
+  "b_title": "DC512 (listed for DEF CON 33, no details)"
+ },
+ {
+  "score": 0.85,
+  "event": "dc33",
+  "a": "dc33-embedded-systems-village-listed-for-def-con-33-no-details",
+  "a_title": "Embedded Systems Village (listed for DEF CON 33, no details)",
+  "b": "dc33-red-team-village-listed-for-def-con-33-no-details",
+  "b_title": "Red Team Village (listed for DEF CON 33, no details)"
+ },
+ {
+  "score": 0.85,
+  "event": "dc33",
+  "a": "dc33-badge-team-listed-for-def-con-33-no-details",
+  "a_title": "Badge.team (listed for DEF CON 33, no details)",
+  "b": "dc33-bitefl0w-listed-for-def-con-33-no-details",
+  "b_title": "Bitefl0w (listed for DEF CON 33, no details)"
+ },
+ {
+  "score": 0.85,
+  "event": "dc33",
+  "a": "dc33-gothcon-listed-for-def-con-33-no-details",
+  "a_title": "GothCon (listed for DEF CON 33, no details)",
+  "b": "dc33-otter-listed-for-def-con-33-no-details",
+  "b_title": "Otter (listed for DEF CON 33, no details)"
+ }
+]
