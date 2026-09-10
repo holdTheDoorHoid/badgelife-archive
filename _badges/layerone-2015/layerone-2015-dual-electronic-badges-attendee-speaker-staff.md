@@ -37,13 +37,13 @@ get_one:
   availability: unknown
   distribution:
   - free_drop
-  where: 'Given to conference attendees (as a bare PCB + parts bag to solder) and separately to speakers/staff (pre-built) at LayerOne 2015, May 23-24, 2015, Sheraton Gateway LAX, Los Angeles.'
+  where: Given to conference attendees (as a bare PCB + parts bag to solder) and separately to speakers/staff (pre-built) at LayerOne 2015, May 23-24, 2015, Sheraton Gateway LAX, Los Angeles.
 make_your_own:
   open_source: partial
   hardware_url: https://github.com/charlie-x/psoc4-esp8266-ws1812
   firmware_url: https://github.com/charlie-x/psoc4-esp8266-ws1812
   eda_tool: null
-  notes: 'GitHub repo (charlie-x/psoc4-esp8266-ws1812, released under The Unlicense) covers the attendee LED badge only; no public repo found for the speaker/staff VoCore/OpenWRT badge.'
+  notes: GitHub repo (charlie-x/psoc4-esp8266-ws1812, released under The Unlicense) covers the attendee LED badge only; no public repo found for the speaker/staff VoCore/OpenWRT badge.
 links:
 - label: badge.gallery/badges/layerone-2015-dual-electronic-badges
   url: https://badge.gallery/badges/layerone-2015-dual-electronic-badges
@@ -54,22 +54,22 @@ links:
 - label: charlie-x/psoc4-esp8266-ws1812 (GitHub)
   url: https://github.com/charlie-x/psoc4-esp8266-ws1812
   kind: repo
-- label: 'LayerOne Hardware Hacking Village - Hackaday.com'
+- label: LayerOne Hardware Hacking Village - Hackaday.com
   url: https://hackaday.com/2015/05/24/layerone-hardware-hacking-village/
   kind: article
 images:
 - file: assets/images/badges/layerone-2015/layerone-2015-dual-electronic-badges-attendee-speaker-staff/081c72176a.jpg
-  source: "https://hackaday.io/project/4207-layerone-2015-badge"
-  credit: "charlie-x / Hackaday.io"
-  caption: "LayerOne 2015 attendee badge with PSoC4, ESP8266, and WS2812B LEDs"
+  source: https://hackaday.io/project/4207-layerone-2015-badge
+  credit: charlie-x / Hackaday.io
+  caption: LayerOne 2015 attendee badge with PSoC4, ESP8266, and WS2812B LEDs
 - file: assets/images/badges/layerone-2015/layerone-2015-dual-electronic-badges-attendee-speaker-staff/9b14ab5718.jpg
-  source: "https://hackaday.io/project/4207/gallery"
-  credit: "charlie-x / Hackaday.io"
-  caption: "LayerOne 2015 badge project gallery photo"
+  source: https://hackaday.io/project/4207/gallery
+  credit: charlie-x / Hackaday.io
+  caption: LayerOne 2015 badge project gallery photo
 contact: {}
 notes:
 - Attendee badge used a PSoC4 driving 22 addressable RGB LEDs plus an ESP8266, while the speaker/staff badge was a Linux-on-a-badge with two Ethernet ports running OpenWRT. Found by the event-year sweep, task con-layerone.
-- 'Sweep''s source title matched the maker''s own naming closely; title kept as-is.'
+- Sweep's source title matched the maker's own naming closely; title kept as-is.
 status: released
 sources:
 - kind: url
@@ -81,23 +81,29 @@ sources:
   url: https://hackaday.io/project/4207-layerone-2015-badge
   title: LayerOne 2015 Badge - Hackaday.io
   accessed: '2026-09-08'
-  note: 'Maker''s own project page; confirms PSoC4/ESP8266/WS2812B attendee badge and VoCore/OpenWRT RT5350F speaker/staff badge, and provided the gallery photos.'
+  note: Maker's own project page; confirms PSoC4/ESP8266/WS2812B attendee badge and VoCore/OpenWRT RT5350F speaker/staff badge, and provided the gallery photos.
 - kind: url
   url: https://github.com/charlie-x/psoc4-esp8266-ws1812
   title: charlie-x/psoc4-esp8266-ws1812
   accessed: '2026-09-08'
-  note: 'Open-source hardware/firmware repo (The Unlicense) for the attendee LED badge only.'
+  note: Open-source hardware/firmware repo (The Unlicense) for the attendee LED badge only.
 - kind: url
   url: https://hackaday.com/2015/05/24/layerone-hardware-hacking-village/
   title: LayerOne Hardware Hacking Village
   accessed: '2026-09-08'
-  note: 'Press coverage confirming distribution split (attendees solder their own; speakers/staff receive the Linux badge) and the "earn your hacker cred" soldering-village framing.'
+  note: Press coverage confirming distribution split (attendees solder their own; speakers/staff receive the Linux badge) and the "earn your hacker cred" soldering-village framing.
 research:
   status: verified
   confidence: medium
   last_checked: '2026-09-08'
   notes: 'Fact-check pass (2026-09-08): all four cited sources (Hackaday.io project 4207, the charlie-x/psoc4-esp8266-ws1812 GitHub repo, the Hackaday.com Hardware Hacking Village article, and badge.gallery''s own writeup) were re-fetched and independently confirm every non-empty field and body sentence - PSoC4+ESP8266+22x WS2812B+2x CR123A on the attendee badge, VoCore/RT5350F+OpenWRT+dual Ethernet on the speaker/staff badge, the solder-it-yourself vs pre-built distribution split, and the Unlicense on the attendee badge''s repo. No contradictions found. Price and production quantity remain unstated anywhere found, correctly left blank. Both saved images were re-verified against their source pages and correctly show only the attendee LED badge (no speaker/staff photo exists in any source found).'
-last_modified_date: '2026-09-08'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/layerone-2015/layerone-2015-dual-electronic-badges-attendee-speaker-staff.glb
+  method: kicad
+  source_file: esp8266.brd
+  generated: '2026-09-10'
+  bytes: 77760
 ---
 
 LayerOne 2015 broke from the usual one-badge-per-attendee model and ran two different electronic badges side by side. General attendees got a bare PCB and a bag of parts, and had to hand-solder their own badge - including fine-pitch QFP and SOT-23 components - at the con's Hardware Hacking Village before it would work, in keeping with LayerOne's ethos of earning your badge rather than buying pre-made "hacker cred." That attendee badge is built around a Cypress PSoC4 paired with an ESP8266 Wi-Fi module, driving 22 individually addressable WS2812B RGB LEDs and running off two CR123A batteries.

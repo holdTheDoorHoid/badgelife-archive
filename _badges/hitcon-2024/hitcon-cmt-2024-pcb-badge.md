@@ -14,9 +14,13 @@ makers:
 summary: The official attendee badge for HITCON Community 2024 (HITCON's 20th anniversary), a PCB name badge built around an STM32 MCU with an LED matrix, IR badge-to-badge docking, onboard games, and a BadUSB mode.
 functions: Score accrual over the two-day event (attending talks, visiting community booths, docking with other badges via IR), single- and two-player games (Tetris, Snake, Dino), a name/score display, and a documented BadUSB mode that lets the badge act as a USB HID keystroke-injection device.
 look:
-  colors: [black]
+  colors:
+  - black
   shape: rectangle
-  themes: [ctf, hardware tool, puzzle]
+  themes:
+  - ctf
+  - hardware tool
+  - puzzle
 tech:
   mcu: STM32F103C8T6
   leds:
@@ -24,8 +28,11 @@ tech:
     type: discrete
     note: Row/column-scanned LED matrix (0603 discrete LEDs per the bill of materials); exact matrix dimensions not confirmed by sources.
   display: LED matrix
-  connectivity: [ir, usb]
-  inputs: [buttons]
+  connectivity:
+  - ir
+  - usb
+  inputs:
+  - buttons
   battery: AAA battery
   sao_version: none
 get_one:
@@ -33,10 +40,11 @@ get_one:
   price_usd: null
   quantity: ''
   availability: unknown
-  distribution: [free_drop]
+  distribution:
+  - free_drop
   where: Handed to attendees, speakers, and staff as their conference ID/badge at HITCON Community 2024, Aug 23-24 2024, Academia Sinica, Taipei.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/hacksintaiwan/hitcon-pcb-badge/tree/main/pcb
   firmware_url: https://github.com/hacksintaiwan/hitcon-pcb-badge/tree/main/fw
   gerbers_url: null
@@ -59,7 +67,7 @@ images: []
 contact: {}
 notes:
 - STM32F103C8T6 PCB badge with 16x16 LED matrix, IR badge-docking, BadUSB and games (Tetris/Snake/Dino). Found by the event-year sweep, task con-hitcon.
-- 'Sweep title matched the maker''s own naming. LED matrix size could not be confirmed as 16x16 from primary sources; the repo README documents a 4-row / up-to-8-column scanned matrix, so the sweep''s figure is left out of tech.leds pending a source that states it directly.'
+- Sweep title matched the maker's own naming. LED matrix size could not be confirmed as 16x16 from primary sources; the repo README documents a 4-row / up-to-8-column scanned matrix, so the sweep's figure is left out of tech.leds pending a source that states it directly.
 - No rights-cleared photo of the badge itself was found: the manual site (pcb.hitcon.org) is behind Cloudflare's bot check and returned no content, and the only maker-posted image found (an Instagram promo graphic for the BadUSB challenge) is a text-overlaid announcement graphic rather than a clean product photo, so no image was saved.
 status: released
 sources:
@@ -92,13 +100,19 @@ sources:
   url: https://hitcon.org/2024/CMT/events/
   title: Events | HITCON CMT 2024
   accessed: '2026-09-08'
-  note: 'Confirms (search snippet, page itself 403s to fetch) every attendee''s ID at HITCON CMT 2024 was this PCB, that its score rises over the event via talks/booths/docking, and that it plays games.'
+  note: Confirms (search snippet, page itself 403s to fetch) every attendee's ID at HITCON CMT 2024 was this PCB, that its score rises over the event via talks/booths/docking, and that it plays games.
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-08'
   notes: 'Core facts (maker, event, MCU, IR docking, BadUSB, games, open-source license) confirmed directly from the maker''s own GitHub repo. Could not confirm: exact LED matrix dimensions (sweep notes said 16x16; not stated in any source read), battery count/holder type beyond "AAA", quantity made, and whether it was sold separately or only given to registered attendees. The official 2024 user-manual site (pcb.hitcon.org/2024/) is behind Cloudflare and could not be fetched directly; used only via search snippet. No rights-cleared photo of the badge itself was found.'
-last_modified_date: '2026-09-08'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/hitcon-2024/hitcon-cmt-2024-pcb-badge.glb
+  method: kicad
+  source_file: pcb/kicad/pcb_badge/pcb_badge.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 693080
 ---
 
 The HITCON CMT 2024 PCB Badge was the official conference ID for HITCON Community 2024, held August 23-24, 2024 at Academia Sinica in Taipei to mark HITCON's 20th anniversary. Every speaker, paid attendee, and staff member wore one instead of a printed badge. Built around an STM32F103C8T6 microcontroller, it drives a row/column-scanned LED matrix for its name and score display, reads input from a row of buttons, and talks to other badges over IR for badge-to-badge "docking." A knowledge score accrues over the two days as attendees watch talks, visit community booths, and dock with other badges, and the badge doubles as a small game console with single-player Tetris, Snake, and Dino, plus two-player Tetris, Snake, and an "xchg" mode played over the IR/UART link.

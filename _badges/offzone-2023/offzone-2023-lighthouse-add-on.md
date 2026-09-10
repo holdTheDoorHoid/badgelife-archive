@@ -38,7 +38,7 @@ get_one:
   distribution: []
   where: ''
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/bi-zone/offzone-hw/tree/master/2023/lighthouse_addon
   firmware_url: null
   eda_tool: KiCad
@@ -47,14 +47,14 @@ links:
   url: https://github.com/bi-zone/offzone-hw/tree/master/2023/lighthouse_addon
   kind: repo
 images:
-  - file: assets/images/badges/offzone-2023/offzone-2023-lighthouse-add-on/c374614219.png
-    source: "https://github.com/bi-zone/offzone-hw/tree/master/2023/lighthouse_addon"
-    credit: "BI.ZONE / Craft.Zone"
-    caption: "PCB render of the Lighthouse add-on"
-  - file: assets/images/badges/offzone-2023/offzone-2023-lighthouse-add-on/030d98fe3e.jpg
-    source: "https://github.com/bi-zone/offzone-hw/tree/master/2023/lighthouse_addon"
-    credit: "BI.ZONE / Craft.Zone"
-    caption: "Assembled Lighthouse add-on, front side, LEDs lit"
+- file: assets/images/badges/offzone-2023/offzone-2023-lighthouse-add-on/c374614219.png
+  source: https://github.com/bi-zone/offzone-hw/tree/master/2023/lighthouse_addon
+  credit: BI.ZONE / Craft.Zone
+  caption: PCB render of the Lighthouse add-on
+- file: assets/images/badges/offzone-2023/offzone-2023-lighthouse-add-on/030d98fe3e.jpg
+  source: https://github.com/bi-zone/offzone-hw/tree/master/2023/lighthouse_addon
+  credit: BI.ZONE / Craft.Zone
+  caption: Assembled Lighthouse add-on, front side, LEDs lit
 contact: {}
 notes:
 - Lighthouse-themed add-on board for the OFFZONE 2023 badge. Found by the event-year sweep, task con-phdays.
@@ -70,18 +70,24 @@ sources:
   url: https://github.com/bi-zone/offzone-hw/tree/master/2023/lighthouse_addon
   title: lighthouse_addon (bi-zone/offzone-hw)
   accessed: '2026-09-08'
-  note: "Corrected repo URL (branch is master, not main). Directory listing and README: 2-layer FR4 PCB, black soldermask/white silkscreen; BOM of 2x 3mm white LEDs, 2x 220 ohm resistors, 2x 100k ohm resistors, 2x BC807-25 transistors, 2x SMD electrolytic capacitors, 1x PLD-4 connector; step-by-step soldering instructions; KiCad source files and Gerbers provided."
+  note: 'Corrected repo URL (branch is master, not main). Directory listing and README: 2-layer FR4 PCB, black soldermask/white silkscreen; BOM of 2x 3mm white LEDs, 2x 220 ohm resistors, 2x 100k ohm resistors, 2x BC807-25 transistors, 2x SMD electrolytic capacitors, 1x PLD-4 connector; step-by-step soldering instructions; KiCad source files and Gerbers provided.'
 - kind: url
   url: https://raw.githubusercontent.com/bi-zone/offzone-hw/master/README.md
   title: offzone-hw repo README
   accessed: '2026-09-08'
-  note: "Repo-level context: BI.ZONE publishes yearly OFFZONE/Craft.Zone add-on boards as solder-it-yourself kits with Gerbers and BOMs, meant to be beginner-friendly."
+  note: 'Repo-level context: BI.ZONE publishes yearly OFFZONE/Craft.Zone add-on boards as solder-it-yourself kits with Gerbers and BOMs, meant to be beginner-friendly.'
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-08'
-  notes: "Confirmed to exist via the maker's own GitHub repo (hardware files, BOM, assembly instructions, and a preview render/photo). No storefront, price, quantity, or distribution details found — likely distributed as a free solder-your-own kit at the OFFZONE 2023 / Craft.Zone village, but this is not confirmed by a source, so get_one fields are left empty. No SAO connector standard confirmed (BOM lists a 'PLD-4' connector, not a documented 4/6-pin SAO header), so tech.sao_version and connectivity are left unset rather than guessed. type is recorded as 'sao' per the archive's existing sibling entries for this same OFFZONE 2023 add-on series (cat/ikarus/iron add-ons), consistent with it being a small plug-in add-on board, but no source explicitly calls it an SAO."
-last_modified_date: '2026-09-08'
+  notes: Confirmed to exist via the maker's own GitHub repo (hardware files, BOM, assembly instructions, and a preview render/photo). No storefront, price, quantity, or distribution details found — likely distributed as a free solder-your-own kit at the OFFZONE 2023 / Craft.Zone village, but this is not confirmed by a source, so get_one fields are left empty. No SAO connector standard confirmed (BOM lists a 'PLD-4' connector, not a documented 4/6-pin SAO header), so tech.sao_version and connectivity are left unset rather than guessed. type is recorded as 'sao' per the archive's existing sibling entries for this same OFFZONE 2023 add-on series (cat/ikarus/iron add-ons), consistent with it being a small plug-in add-on board, but no source explicitly calls it an SAO.
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/offzone-2023/offzone-2023-lighthouse-add-on.glb
+  method: kicad
+  source_file: 2023/lighthouse_addon/lighthouse_addon.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 35656
 ---
 
 The Lighthouse add-on is one of a small family of solder-it-yourself add-on boards BI.ZONE's Craft.Zone published for OFFZONE 2023, alongside sibling Cat, Ikarus, and Iron add-ons from the same event. It is a lighthouse-shaped PCB with a black soldermask and white silkscreen, built for hobbyists and newcomers to hand-solder themselves rather than something sold pre-assembled.

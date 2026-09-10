@@ -40,7 +40,7 @@ get_one:
   - contest
   where: ''
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/bi-zone/offzone-hw/tree/master/2023/cat_addon
   firmware_url: null
   eda_tool: KiCad
@@ -52,18 +52,18 @@ links:
   url: https://habr.com/ru/companies/bizone/news/737540/
   kind: website
 images:
-  - file: assets/images/badges/offzone-2023/offzone-2023-cat-add-on/17bf08de89.jpg
-    source: "https://github.com/bi-zone/offzone-hw/tree/master/2023/cat_addon"
-    credit: "BI.ZONE"
-    caption: "Assembled cat add-on, front, showing eye LEDs"
-  - file: assets/images/badges/offzone-2023/offzone-2023-cat-add-on/5553784a0f.jpg
-    source: "https://github.com/bi-zone/offzone-hw/tree/master/2023/cat_addon"
-    credit: "BI.ZONE"
-    caption: "Assembled cat add-on, back, showing PLD-4 connector"
+- file: assets/images/badges/offzone-2023/offzone-2023-cat-add-on/17bf08de89.jpg
+  source: https://github.com/bi-zone/offzone-hw/tree/master/2023/cat_addon
+  credit: BI.ZONE
+  caption: Assembled cat add-on, front, showing eye LEDs
+- file: assets/images/badges/offzone-2023/offzone-2023-cat-add-on/5553784a0f.jpg
+  source: https://github.com/bi-zone/offzone-hw/tree/master/2023/cat_addon
+  credit: BI.ZONE
+  caption: Assembled cat add-on, back, showing PLD-4 connector
 contact: {}
 notes:
 - Cat-themed add-on board for the OFFZONE 2023 badge, from BI.ZONE's Craft.Zone add-on contest. Found by the event-year sweep, task con-phdays.
-- 'The sweep''s notes described the Habr article as being about this specific add-on; the article it linked is actually BI.ZONE''s general call for Craft.Zone add-on contest entries (deadline June 26, 5x5cm max, 100mA/3.3V, I2C, single/double-sided PCB) and does not name or picture the cat add-on itself.'
+- The sweep's notes described the Habr article as being about this specific add-on; the article it linked is actually BI.ZONE's general call for Craft.Zone add-on contest entries (deadline June 26, 5x5cm max, 100mA/3.3V, I2C, single/double-sided PCB) and does not name or picture the cat add-on itself.
 status: listed
 sources:
 - kind: url
@@ -75,7 +75,7 @@ sources:
   url: https://github.com/bi-zone/offzone-hw/tree/master/2023/cat_addon
   title: cat_addon — bi-zone/offzone-hw
   accessed: '2026-09-08'
-  note: 'Repo default branch is master, not main; confirmed the folder contents (README, KiCad source, Gerbers, BOM, preview image, cat_eyeset sub-board).'
+  note: Repo default branch is master, not main; confirmed the folder contents (README, KiCad source, Gerbers, BOM, preview image, cat_eyeset sub-board).
 - kind: url
   url: https://raw.githubusercontent.com/bi-zone/offzone-hw/master/2023/cat_addon/README.md
   title: cat_addon README
@@ -85,13 +85,19 @@ sources:
   url: https://habr.com/ru/companies/bizone/news/737540/
   title: BI.ZONE Craft.Zone add-on contest announcement (Habr)
   accessed: '2026-09-08'
-  note: 'This is the general contest call-for-entries, not coverage of this specific add-on; it gives the contest''s technical constraints (max 5x5cm, 100mA at 3.3V, I2C interface, Gerber submission) that entries like this one had to meet.'
+  note: This is the general contest call-for-entries, not coverage of this specific add-on; it gives the contest's technical constraints (max 5x5cm, 100mA at 3.3V, I2C interface, Gerber submission) that entries like this one had to meet.
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-08'
-  notes: 'Confirmed as a real, built board via the maker''s own repo (KiCad source, Gerbers, BOM, README with assembly steps and photos) — not just a search snippet. No maker statement was found on price, quantity made, or how/whether it was distributed to attendees; treated as a contest entry rather than a mass-distributed badge since it came out of the Craft.Zone add-on contest. No MCU is on the board itself — it is a passive LED add-on wired via I2C to the host OFFZONE 2023 badge, matching the contest''s stated interface. Could not confirm whether "BI.ZONE / Craft.Zone" or an individual contestant is the actual designer; the repo is BI.ZONE''s official OFFZONE hardware archive but this could be a submitted community entry archived there.'
-last_modified_date: '2026-09-08'
+  notes: Confirmed as a real, built board via the maker's own repo (KiCad source, Gerbers, BOM, README with assembly steps and photos) — not just a search snippet. No maker statement was found on price, quantity made, or how/whether it was distributed to attendees; treated as a contest entry rather than a mass-distributed badge since it came out of the Craft.Zone add-on contest. No MCU is on the board itself — it is a passive LED add-on wired via I2C to the host OFFZONE 2023 badge, matching the contest's stated interface. Could not confirm whether "BI.ZONE / Craft.Zone" or an individual contestant is the actual designer; the repo is BI.ZONE's official OFFZONE hardware archive but this could be a submitted community entry archived there.
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/offzone-2023/offzone-2023-cat-add-on.glb
+  method: kicad
+  source_file: 2023/cat_addon/cat_addon.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 34808
 ---
 
 The cat add-on is a small SAO built for OFFZONE 2023's Craft.Zone add-on contest, in which BI.ZONE invited attendees to design their own custom add-ons (max 5x5 cm, 3.3 V, 100 mA, I2C) for the con's badge. It ships as two boards: a white-soldermask main body carrying three red 1206 LEDs, and a separate blue-soldermask "cat_eyeset" board carrying a single blue 1206 LED that solders on top of a plastic spacer to form the cat's eye. Both boards are 2-layer FR4, 1.5 mm thick, and connect to the host badge through a PLD-4 connector.

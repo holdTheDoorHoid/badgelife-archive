@@ -12,7 +12,7 @@ makers:
 - name: NorthSec
   url: https://github.com/nsec/nsec-badge
 summary: The official electronic badge for NorthSec 2024 (Montreal), an ESP32-S3 board with 16 NeoPixels, six buttons, and four SAO ports, built by NorthSec's Team Badge and used both as the conference badge and a CTF platform.
-functions: 'Conference badge with separate "conference", "CTF", and "addon" firmware targets; the CTF firmware ties the badge into NorthSec''s on-site capture-the-flag competition, and NeoPixels/buttons support badge-to-badge interaction via the two pairing connectors.'
+functions: Conference badge with separate "conference", "CTF", and "addon" firmware targets; the CTF firmware ties the badge into NorthSec's on-site capture-the-flag competition, and NeoPixels/buttons support badge-to-badge interaction via the two pairing connectors.
 look:
   colors: []
   shape: null
@@ -56,9 +56,9 @@ links:
   kind: repo
 images:
 - file: assets/images/badges/northsec-2024/northsec-2024-badge/456e706759.jpg
-  source: "https://github.com/nsec/nsec-badge/tree/2024/hw/2024"
-  credit: "NorthSec / nsec-badge repo"
-  caption: "Animated badge cell from the official nsec-badge 2024 repository (MIT licensed)"
+  source: https://github.com/nsec/nsec-badge/tree/2024/hw/2024
+  credit: NorthSec / nsec-badge repo
+  caption: Animated badge cell from the official nsec-badge 2024 repository (MIT licensed)
 contact: {}
 notes:
 - Official NorthSec 2024 badge supporting SAO v1.69bis connectors; source on the 2024 branch of nsec/nsec-badge. Found by the event-year sweep, task northsec.
@@ -84,7 +84,13 @@ research:
   confidence: high
   last_checked: '2026-09-08'
   notes: Maker's own repo and README confirm all core specs. Price, quantity made, and exact attendee-distribution details (e.g. whether it was included with registration or sold separately) were not stated anywhere found; left empty rather than guessed.
-last_modified_date: '2026-09-08'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/northsec-2024/northsec-2024-badge.glb
+  method: kicad
+  source_file: hw/2024/sao/sponsor/sponsor_v1.0.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 106664
 ---
 
 The NorthSec 2024 badge is the official electronic badge for NorthSec, the applied security conference held annually in Montreal, built by the event's volunteer Team Badge. It is based on an ESP32-S3-WROOM-1-N8R8 module and carries sixteen addressable NeoPixel RGB LEDs, six input buttons, two pairing connectors for badge-to-badge interaction, and four SAO v1.69bis expansion headers. It can run on USB-C power or three AAA batteries.

@@ -29,7 +29,7 @@ tech:
   battery: battery-powered (cell, exact type not stated)
   sao_version: null
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/charlie-x/LayerOne_2024
   firmware_url: https://github.com/charlie-x/LayerOne_2024
   eda_tool: KiCad
@@ -48,10 +48,10 @@ links:
   url: https://github.com/charlie-x/LayerOne_2024
   kind: repo
 images:
-  - file: assets/images/badges/layerone-2024/layerone-2024-pov-spinner-badge/3a00061d75.jpg
-    source: "https://github.com/charlie-x/LayerOne_2024"
-    credit: "charlie-x"
-    caption: "POV spinner badge PCB with 12-LED strip"
+- file: assets/images/badges/layerone-2024/layerone-2024-pov-spinner-badge/3a00061d75.jpg
+  source: https://github.com/charlie-x/LayerOne_2024
+  credit: charlie-x
+  caption: POV spinner badge PCB with 12-LED strip
 contact: {}
 notes:
 - Persistence-of-vision spinning-display badge for LayerOne 2024. (seen only in a search snippet; unconfirmed) Found by the event-year sweep, task con-layerone.
@@ -79,6 +79,12 @@ research:
   last_checked: '2026-09-10'
   notes: Price, quantity made, and exact battery type were not stated in either source. Note discrepancy - badge.gallery's summary said "Eagle board/schematic files" but the actual repo uses KiCad files (spin_pov_LDO.sch/.brd); the repo is treated as authoritative.
 last_modified_date: '2026-09-10'
+model:
+  file: assets/models/layerone-2024/layerone-2024-pov-spinner-badge.glb
+  method: kicad
+  source_file: spin_pov_LDO.brd
+  generated: '2026-09-10'
+  bytes: 136628
 ---
 
 The LayerOne 2024 POV Spinner Badge is a fidget-spinner-style electronic badge made by charliex (of null space labs, a longtime LayerOne badge contributor) for LayerOne 2024, held May 25-26, 2024 in Pasadena, California. Instead of a static display, the badge uses a 12-LED strip mounted along one arm of the spinner; as the badge is spun by hand, the LEDs blink in a timed sequence to draw text and patterns in the air via persistence of vision.

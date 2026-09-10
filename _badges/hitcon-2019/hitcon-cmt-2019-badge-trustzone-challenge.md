@@ -55,7 +55,7 @@ images: []
 contact: {}
 notes:
 - Taiwan-shaped ARM TrustZone challenge badge, M2351-class MCU, 24 unlockable LEDs, sponsor-booth exploitation stages. Found by the event-year sweep, task con-hitcon.
-- 'Sweep title was "HITCON CMT 2019 Badge (TrustZone Challenge)"; the maker''s own README titles it simply "HITCON Badge 2019" — kept the sweep''s descriptive wording as the entry title since it is more identifying, but note the maker''s own name here.'
+- Sweep title was "HITCON CMT 2019 Badge (TrustZone Challenge)"; the maker's own README titles it simply "HITCON Badge 2019" — kept the sweep's descriptive wording as the entry title since it is more identifying, but note the maker's own name here.
 status: released
 sources:
 - kind: url
@@ -65,15 +65,21 @@ sources:
   note: 'Found by the archive''s discovery sweep (angle: sweep:con-hitcon); event read as ''HITCON CMT 2019''.'
 - kind: url
   url: https://raw.githubusercontent.com/yuawn/HITCON-badge-2019/master/README.md
-  title: 'yuawn/HITCON-badge-2019 README'
+  title: yuawn/HITCON-badge-2019 README
   accessed: '2026-09-08'
-  note: 'Maker''s own description of the MCU, four badge pages, Snake game, CLI, and the three TrustZone challenge stages; confirms MIT license and open hardware/firmware directories.'
+  note: Maker's own description of the MCU, four badge pages, Snake game, CLI, and the three TrustZone challenge stages; confirms MIT license and open hardware/firmware directories.
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-08'
-  notes: 'Confirmed via the maker''s own repo and README. No price, quantity, or shape/color details are published anywhere in the repo, and no photos of the physical badge were found (the repo has no image assets; the GitHub og:image is only an auto-generated social card, not a photo). Left those fields empty rather than guessing. The "Taiwan-shaped" claim from the sweep notes could not be confirmed or denied — no photo exists to check it, so look.shape was left null.'
-last_modified_date: '2026-09-08'
+  notes: Confirmed via the maker's own repo and README. No price, quantity, or shape/color details are published anywhere in the repo, and no photos of the physical badge were found (the repo has no image assets; the GitHub og:image is only an auto-generated social card, not a photo). Left those fields empty rather than guessing. The "Taiwan-shaped" claim from the sweep notes could not be confirmed or denied — no photo exists to check it, so look.shape was left null.
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/hitcon-2019/hitcon-cmt-2019-badge-trustzone-challenge.glb
+  method: kicad
+  source_file: Badge_V3.brd
+  generated: '2026-09-10'
+  bytes: 272468
 ---
 
 The HITCON Badge 2019 was the official conference badge for HITCON CMT 2019 in Taipei, designed by yuawn (Alan Lee) around a Nuvoton M2351ZIAAE microcontroller — one of the first ARM Cortex-M23 chips with TrustZone-M, hardware-enforced separation between "secure" and "non-secure" execution worlds. The badge carries 24 RGB LEDs and a directional-pad-plus-two-button interface driving four on-device pages: an LED status view, a pattern browser, a freeform paint mode, and a Snake game reachable over a micro-USB serial console complete with its own toy command-line shell.

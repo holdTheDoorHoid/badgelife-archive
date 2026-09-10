@@ -23,7 +23,7 @@ tech:
   leds:
     count: 8
     type: null
-    note: 'Firmware source folder is named "405rgt6_final", suggesting an STM32F405RGT6 MCU, but this is not stated explicitly anywhere in the repo — left unconfirmed.'
+    note: Firmware source folder is named "405rgt6_final", suggesting an STM32F405RGT6 MCU, but this is not stated explicitly anywhere in the repo — left unconfirmed.
   display: null
   connectivity:
   - audio
@@ -37,7 +37,7 @@ get_one:
   distribution: []
   where: ''
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/bi-zone/offzone-hw/tree/master/2025/boombox_addon
   firmware_url: https://github.com/bi-zone/offzone-hw/tree/master/2025/boombox_addon/405rgt6_final
   eda_tool: Altium
@@ -50,18 +50,18 @@ links:
   kind: repo
   note: 'Corrected URL: the repo''s default branch is "master", not "main"; the original link 404s.'
 images:
-  - file: assets/images/badges/offzone-2025/offzone-2025-boombox-add-on/9819e3a927.jpg
-    source: "https://github.com/bi-zone/offzone-hw/tree/master/2025/boombox_addon"
-    credit: "BI.ZONE / Craft.Zone"
-    caption: "Assembled boombox add-on, overview"
-  - file: assets/images/badges/offzone-2025/offzone-2025-boombox-add-on/9b88681e71.jpg
-    source: "https://github.com/bi-zone/offzone-hw/tree/master/2025/boombox_addon"
-    credit: "BI.ZONE / Craft.Zone"
-    caption: "Topplate board with buttons, LEDs and speakers, assembled"
+- file: assets/images/badges/offzone-2025/offzone-2025-boombox-add-on/9819e3a927.jpg
+  source: https://github.com/bi-zone/offzone-hw/tree/master/2025/boombox_addon
+  credit: BI.ZONE / Craft.Zone
+  caption: Assembled boombox add-on, overview
+- file: assets/images/badges/offzone-2025/offzone-2025-boombox-add-on/9b88681e71.jpg
+  source: https://github.com/bi-zone/offzone-hw/tree/master/2025/boombox_addon
+  credit: BI.ZONE / Craft.Zone
+  caption: Topplate board with buttons, LEDs and speakers, assembled
 contact: {}
 notes:
 - Boombox-themed add-on board for the OFFZONE 2025 badge. Found by the event-year sweep, task con-phdays.
-- 'The maker''s README does not give this a distinct display title; "Boombox add-on" (as used in the sheet and repo folder name "boombox_addon") is kept as-is.'
+- The maker's README does not give this a distinct display title; "Boombox add-on" (as used in the sheet and repo folder name "boombox_addon") is kept as-is.
 status: released
 sources:
 - kind: url
@@ -73,29 +73,28 @@ sources:
   url: https://github.com/bi-zone/offzone-hw/tree/master/2025/boombox_addon
   title: 'bi-zone/offzone-hw: 2025/boombox_addon'
   accessed: '2026-09-08'
-  note: 'Repo tree on the actual default branch (master); confirms this is a two-board SAO add-on for the OFFZONE 2025 badge with an SD-card MP3 player, 3 buttons, 8 LEDs, and 2 speakers.'
+  note: Repo tree on the actual default branch (master); confirms this is a two-board SAO add-on for the OFFZONE 2025 badge with an SD-card MP3 player, 3 buttons, 8 LEDs, and 2 speakers.
 - kind: url
   url: https://raw.githubusercontent.com/bi-zone/offzone-hw/master/2025/boombox_addon/README.md
   title: boombox_addon README.md
   accessed: '2026-09-08'
-  note: 'Primary source for functions, board layout, assembly, and firmware/order details.'
+  note: Primary source for functions, board layout, assembly, and firmware/order details.
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-08'
-  notes: >-
-    Confirmed via the maker's own repo (README + file listing) rather than a search snippet.
-    The linked URL in the original entry used the "main" branch and 404s; the repo's actual
-    default branch is "master" — added the working link and kept the original for reference.
-    MCU could not be confirmed: the firmware source folder is named "405rgt6_final", which
-    strongly suggests an STM32F405RGT6, but the README/schematics were not opened at pin
-    level and nothing states the chip by name, so tech.mcu is left null rather than guessed.
-    LED type (WS2812B vs discrete, etc.) is not stated. No price, quantity, or availability
-    info was published — this looks like a conference-distributed add-on for OFFZONE 2025
-    attendees/CTF rather than a public sale, so get_one fields are left unknown. Design files
-    (Altium schematic/PCB, Gerbers, BOM, assembly PDF) and firmware binary are all present in
-    the repo, so make_your_own.open_source is "yes".
-last_modified_date: '2026-09-08'
+  notes: 'Confirmed via the maker''s own repo (README + file listing) rather than a search snippet. The linked URL in the original entry used the "main" branch and 404s; the repo''s actual default branch is "master" — added the working link and kept the original for reference. MCU could not be confirmed: the firmware source folder is named "405rgt6_final", which strongly suggests an STM32F405RGT6, but the README/schematics were not opened at pin level and nothing states the chip by name, so tech.mcu is left null rather than guessed. LED type (WS2812B vs discrete, etc.) is not stated. No price, quantity, or availability info was published — this looks like a conference-distributed add-on for OFFZONE 2025 attendees/CTF rather than a public sale, so get_one fields are left unknown. Design files (Altium schematic/PCB, Gerbers, BOM, assembly PDF) and firmware binary are all present in the repo, so make_your_own.open_source is "yes".'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/offzone-2025/offzone-2025-boombox-add-on.glb
+  method: gerber
+  source_file: 2025/boombox_addon/boombox_topplate/boombox_topplate_outputs
+  generated: '2026-09-10'
+  bytes: 63656
+  size_mm:
+  - 51.1
+  - 31.1
+  note: The published files have no board outline, so the model is shown on a rectangular board.
 ---
 
 The Boombox add-on is one of several themed SAOs BI.ZONE / Craft.Zone produced for the OFFZONE 2025 badge (alongside Bear, Anonymous, Angel and Devil, and Terminal add-ons for the same event). It is built from two stacked PCBs — a topplate carrying three buttons, eight LEDs, and two small speakers, and a bottomplate carrying the microcontroller, a microSD card slot, and the connector that plugs into the main badge — joined by a 1x10 header and held together by a 3D-printed case (STL included in the repo). Load MP3 files onto a microSD card, insert it into the slot, and the three buttons step through previous track, play/pause, and next track.

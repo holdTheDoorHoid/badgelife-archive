@@ -11,7 +11,7 @@ year: 2024
 makers:
 - name: BI.ZONE / Craft.Zone
 summary: A small green-solder-mask SAO add-on shaped as a cube, one of several add-on designs made for OFFZONE 2024.
-functions: 'Three green LEDs light up; no other interactive functions documented.'
+functions: Three green LEDs light up; no other interactive functions documented.
 look:
   colors:
   - green
@@ -37,7 +37,7 @@ get_one:
   distribution: []
   where: ''
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/bi-zone/offzone-hw/tree/main/2024/cube_green_addon
   firmware_url: null
   eda_tool: KiCad
@@ -49,14 +49,14 @@ links:
   url: https://github.com/bi-zone/offzone-hw/tree/main/2024/cube_green_addon
   kind: repo
 images:
-  - file: assets/images/badges/offzone-2024/offzone-2024-cube-green-add-on/1375d63381.jpg
-    source: "https://github.com/bi-zone/offzone-hw/tree/main/2024/cube_green_addon"
-    credit: "BI.ZONE / Craft.Zone"
-    caption: "Cube Green add-on, front"
-  - file: assets/images/badges/offzone-2024/offzone-2024-cube-green-add-on/cb017f6952.jpg
-    source: "https://github.com/bi-zone/offzone-hw/tree/main/2024/cube_green_addon"
-    credit: "BI.ZONE / Craft.Zone"
-    caption: "Cube Green add-on, back"
+- file: assets/images/badges/offzone-2024/offzone-2024-cube-green-add-on/1375d63381.jpg
+  source: https://github.com/bi-zone/offzone-hw/tree/main/2024/cube_green_addon
+  credit: BI.ZONE / Craft.Zone
+  caption: Cube Green add-on, front
+- file: assets/images/badges/offzone-2024/offzone-2024-cube-green-add-on/cb017f6952.jpg
+  source: https://github.com/bi-zone/offzone-hw/tree/main/2024/cube_green_addon
+  credit: BI.ZONE / Craft.Zone
+  caption: Cube Green add-on, back
 contact: {}
 notes:
 - Green-cube-themed add-on board for the OFFZONE 2024 badge. Found by the event-year sweep, task con-phdays.
@@ -76,8 +76,17 @@ research:
   status: researched
   confidence: medium
   last_checked: '2026-09-08'
-  notes: 'Confirmed via the maker''s own GitHub repo (bi-zone/offzone-hw), which is the primary and only source found. No press coverage, storefront, price, quantity, or distribution details turned up in a couple of targeted searches, so those fields are left empty. The board carries no MCU; it is a passive SAO with three LEDs wired through a single resistor, powered/lit presumably by the host badge''s SAO header (exact SAO pinout/version not stated in the repo). One of at least six 2024 OFFZONE add-ons (Cube Blue, Lamp, Seal, This Is Fine, ZIL are the sibling entries already in the archive).'
-last_modified_date: '2026-09-08'
+  notes: Confirmed via the maker's own GitHub repo (bi-zone/offzone-hw), which is the primary and only source found. No press coverage, storefront, price, quantity, or distribution details turned up in a couple of targeted searches, so those fields are left empty. The board carries no MCU; it is a passive SAO with three LEDs wired through a single resistor, powered/lit presumably by the host badge's SAO header (exact SAO pinout/version not stated in the repo). One of at least six 2024 OFFZONE add-ons (Cube Blue, Lamp, Seal, This Is Fine, ZIL are the sibling entries already in the archive).
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/offzone-2024/offzone-2024-cube-green-add-on.glb
+  method: gerber
+  source_file: 2024/cube_green_addon/cube_green_addon_gbr
+  generated: '2026-09-10'
+  bytes: 128872
+  size_mm:
+  - 40.5
+  - 38.5
 ---
 
 The Cube Green add-on is one of a set of small SAO-style add-ons that BI.ZONE and Craft.Zone produced for OFFZONE 2024, sold or distributed alongside the main conference badge. It is a simple, passive PCB accessory shaped like a cube: a 2-layer FR4 board with green soldermask and black silkscreen, populated with three 1206-package green LEDs run through a single 100-ohm resistor and connected to the host badge through a PLD-4 connector. There is no microcontroller, display, or onboard power — the LEDs simply light when connected to a powered SAO header.

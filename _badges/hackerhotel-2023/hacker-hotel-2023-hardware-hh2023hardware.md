@@ -98,6 +98,12 @@ research:
 last_modified_date: '2026-09-10'
 redirect_from:
 - /badges/hackerhotel-2023/hackerhotel-2023-badge/
+model:
+  file: assets/models/hackerhotel-2023/hacker-hotel-2023-hardware-hh2023hardware.glb
+  method: kicad
+  source_file: anesidoraMk1.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 739924
 ---
 
 

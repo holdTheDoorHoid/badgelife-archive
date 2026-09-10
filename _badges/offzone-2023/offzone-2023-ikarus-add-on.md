@@ -97,6 +97,12 @@ research:
 last_modified_date: '2026-09-10'
 redirect_from:
 - /badges/offzone-2023/ikarus-addon/
+model:
+  file: assets/models/offzone-2023/offzone-2023-ikarus-add-on.glb
+  method: kicad
+  source_file: 2023/ikarus_addon/ikarus_addon.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 50204
 ---
 
 The Ikarus add-on is one of four small companion boards BI.ZONE and Craft.Zone published for the OFFZONE 2023 conference badge (alongside cat, iron, and lighthouse add-ons from the same year). It is a simple, unpowered PCB: two white 1206 LEDs and two orange 0805 LEDs, each fed through its own 220 ohm resistor, wired through a PLD-4 connector so it draws power from the host badge rather than carrying its own microcontroller or battery.

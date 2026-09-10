@@ -53,13 +53,13 @@ links:
   kind: doc
 images:
 - file: assets/images/badges/offzone-2024/offzone-2024-lamp-add-on/ebbeba18ee.jpg
-  source: "https://github.com/bi-zone/offzone-hw/blob/master/2024/lamp_addon/README.md"
-  credit: "BI.ZONE / Craft.Zone"
-  caption: "Front of the lamp add-on SAO, showing the potentiometer knob and LEDs"
+  source: https://github.com/bi-zone/offzone-hw/blob/master/2024/lamp_addon/README.md
+  credit: BI.ZONE / Craft.Zone
+  caption: Front of the lamp add-on SAO, showing the potentiometer knob and LEDs
 - file: assets/images/badges/offzone-2024/offzone-2024-lamp-add-on/9b6ac9abfc.jpg
-  source: "https://github.com/bi-zone/offzone-hw/blob/master/2024/lamp_addon/README.md"
-  credit: "BI.ZONE / Craft.Zone"
-  caption: "Back of the lamp add-on SAO"
+  source: https://github.com/bi-zone/offzone-hw/blob/master/2024/lamp_addon/README.md
+  credit: BI.ZONE / Craft.Zone
+  caption: Back of the lamp add-on SAO
 contact: {}
 notes:
 - Lamp-themed add-on board for the OFFZONE 2024 badge. Found by the event-year sweep, task con-phdays.
@@ -72,15 +72,21 @@ sources:
   note: 'Found by the archive''s discovery sweep (angle: sweep:con-phdays); event read as ''OFFZONE 2024''.'
 - kind: url
   url: https://github.com/bi-zone/offzone-hw/blob/master/2024/lamp_addon/README.md
-  title: "lamp_addon README, bi-zone/offzone-hw"
+  title: lamp_addon README, bi-zone/offzone-hw
   accessed: '2026-09-08'
-  note: "Maker's assembly README (Russian): PCB spec (2-layer FR4, red soldermask, black silkscreen), BOM (red + yellow 5730 LEDs, two 100-ohm resistors, a 2M-ohm potentiometer, a PLD-4 connector), assembly steps, and a 3D-printed knob (lamp_addon_knob.stl) for the potentiometer. Confirms front/back photos."
+  note: 'Maker''s assembly README (Russian): PCB spec (2-layer FR4, red soldermask, black silkscreen), BOM (red + yellow 5730 LEDs, two 100-ohm resistors, a 2M-ohm potentiometer, a PLD-4 connector), assembly steps, and a 3D-printed knob (lamp_addon_knob.stl) for the potentiometer. Confirms front/back photos.'
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-08'
-  notes: 'One of six OFFZONE 2024 add-ons in the same repo (cube_blue, cube_green, seal, thisisfine, zil - each likely deserving its own entry, see report). No price, quantity, or distribution details found on the repo; OFFZONE add-ons are typically given out rather than sold, but this was not confirmed anywhere. PLD-4 is a 4-pin SAO connector, so sao_version is recorded as v1. No dedicated theme tag fit the vocabulary list (closest would be a new "lantern"/"fire" tag), so themes was left empty rather than guessed. License for the hardware files was not stated in the repo.'
-last_modified_date: '2026-09-08'
+  notes: One of six OFFZONE 2024 add-ons in the same repo (cube_blue, cube_green, seal, thisisfine, zil - each likely deserving its own entry, see report). No price, quantity, or distribution details found on the repo; OFFZONE add-ons are typically given out rather than sold, but this was not confirmed anywhere. PLD-4 is a 4-pin SAO connector, so sao_version is recorded as v1. No dedicated theme tag fit the vocabulary list (closest would be a new "lantern"/"fire" tag), so themes was left empty rather than guessed. License for the hardware files was not stated in the repo.
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/offzone-2024/offzone-2024-lamp-add-on.glb
+  method: kicad
+  source_file: 2024/lamp_addon/lamp_addon.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 43540
 ---
 
 The Lamp add-on is one of a set of SAO-style plug-in boards BI.ZONE / Craft.Zone made for the OFFZONE 2024 conference badge. The PCB itself is cut into the silhouette of an oil lantern: a red top and base, a white/silver body, and a black knob housing, with a red and a yellow 5730-package LED glowing behind a teardrop-shaped cutout to suggest a flame. A 3D-printed knob, mounted on a 2 MΩ potentiometer, lets the wearer turn the flame's glow up or down; the board connects to the host badge through a 4-pin PLD-4 (SAO v1) header.

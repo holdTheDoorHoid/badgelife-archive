@@ -49,19 +49,21 @@ links:
 - label: www.hackster.io/HacksFromPanda/the-falken-wombat-badge-2-bsides-adelaide-e15fbd
   url: https://www.hackster.io/HacksFromPanda/the-falken-wombat-badge-2-bsides-adelaide-e15fbd
   kind: article
+  archived: https://web.archive.org/web/20260313073435/https://www.hackster.io/HacksFromPanda/the-falken-wombat-badge-2-bsides-adelaide-e15fbd
 - label: hackerware.io/wombat2
   url: https://hackerware.io/wombat2
   kind: website
-  archived: false
+  archived: https://web.archive.org/web/20251013151351/https://www.hackerware.io/wombat2
 - label: 'semaja2.net: BSides Adelaide 2025 Hardware Badge Writeup'
   url: https://semaja2.net/2025/05/14/bsides-adelaide-2025-badge-writeup/
   kind: article
   archived: false
 images:
 - file: assets/images/badges/bsides-adelaide-2025/the-falken-wombat-badge-2/5937669d7d.jpg
-  source: "https://hackerware.io/wombat2"
-  credit: "Hackerware.io"
-  caption: "The FALKEN Wombat Badge 2, BSides Adelaide 2025"
+  source: https://hackerware.io/wombat2
+  credit: Hackerware.io
+  caption: The FALKEN Wombat Badge 2, BSides Adelaide 2025
+  archived: https://web.archive.org/web/20251013151351/https://www.hackerware.io/wombat2
 contact: {}
 notes:
 - Spotted by a research agent while working on a neighbouring entry (run 2).
@@ -72,21 +74,23 @@ sources:
   title: The FALKEN Wombat Badge 2
   accessed: '2026-09-07'
   note: 'Found by the archive''s discovery sweep (angle: research-run2-spotted); event read as ''BSides Adelaide 2025 (no matching event id in events.yml)''.'
+  archived: https://web.archive.org/web/20260313073435/https://www.hackster.io/HacksFromPanda/the-falken-wombat-badge-2-bsides-adelaide-e15fbd
 - kind: url
   url: https://hackerware.io/wombat2
   title: The BSides Adelaide Wombat-2 CTF Badge
   accessed: '2026-09-07'
-  note: "Maker's own page; confirms maker, CTF mechanic, LED layout (7 solder-your-own challenge LEDs + 1 two-pin RGB LED), buttons, reset gesture, hidden challenge, and image."
+  note: Maker's own page; confirms maker, CTF mechanic, LED layout (7 solder-your-own challenge LEDs + 1 two-pin RGB LED), buttons, reset gesture, hidden challenge, and image.
+  archived: https://web.archive.org/web/20251013151351/https://www.hackerware.io/wombat2
 - kind: url
   url: https://semaja2.net/2025/05/14/bsides-adelaide-2025-badge-writeup/
   title: BSides Adelaide 2025 Hardware Badge Writeup
   accessed: '2026-09-07'
-  note: "Third-party attendee writeup; confirms 7 challenges (A-G) plus secret 8th, cipher types used (Morse, Bacon, Brainfuck, Vigenere), and that badges were distributed at the con."
+  note: Third-party attendee writeup; confirms 7 challenges (A-G) plus secret 8th, cipher types used (Morse, Bacon, Brainfuck, Vigenere), and that badges were distributed at the con.
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'The hackster.io story page (original source) returned a Cloudflare block and could not be read directly; content was instead confirmed via the maker''s own hackerware.io/wombat2 page and a third-party attendee writeup. MCU/chip, display, connectivity, power/battery, SAO support, price, quantity made, and open-source status are not stated on either accessible source and are left empty. The event id bsides-adelaide-2025 already exists in events.yml and matches, so no correction was needed. This is the second badge in the Wombat series; the original 2024 Wombat Badge (also by Hackerware.io) is a separate item — see other_items_found.'
+  notes: The hackster.io story page (original source) returned a Cloudflare block and could not be read directly; content was instead confirmed via the maker's own hackerware.io/wombat2 page and a third-party attendee writeup. MCU/chip, display, connectivity, power/battery, SAO support, price, quantity made, and open-source status are not stated on either accessible source and are left empty. The event id bsides-adelaide-2025 already exists in events.yml and matches, so no correction was needed. This is the second badge in the Wombat series; the original 2024 Wombat Badge (also by Hackerware.io) is a separate item — see other_items_found.
 last_modified_date: '2026-09-07'
 ---
 

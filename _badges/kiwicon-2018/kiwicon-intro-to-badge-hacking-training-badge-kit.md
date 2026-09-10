@@ -12,7 +12,7 @@ makers:
 - name: kiwicon-badge (GitHub org; course instructor writes in first person, not named in the README)
   url: https://github.com/kiwicon-badge
 summary: 'A learn-to-solder training kit built for the "Intro to Badge Hacking" course at Kiwicon 2038AD (2018): a round green PCB with a 5x4 charlieplexed LED matrix, built up through six hands-on labs.'
-functions: 'Alternately/individually flashes 20 green LEDs in a charlieplexed 5x4 matrix, driven by a hand-written ATtiny13A program the student loads themselves via USBAsp/ISP; the course also has students breadboard a simple 2-LED microcontroller circuit before soldering the final badge.'
+functions: Alternately/individually flashes 20 green LEDs in a charlieplexed 5x4 matrix, driven by a hand-written ATtiny13A program the student loads themselves via USBAsp/ISP; the course also has students breadboard a simple 2-LED microcontroller circuit before soldering the final badge.
 look:
   colors:
   - green
@@ -40,7 +40,7 @@ get_one:
   - kit
   where: Handed out to attendees of the "Intro to Badge Hacking" training session at Kiwicon 2038AD (Nov 16-17, 2018); not sold separately.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/kiwicon-badge/badge
   firmware_url: https://github.com/kiwicon-badge/badge/tree/master/lab-06
   eda_tool: null
@@ -53,17 +53,18 @@ links:
   kind: website
 images:
 - file: assets/images/badges/kiwicon-2018/kiwicon-intro-to-badge-hacking-training-badge-kit/ecb57523a7.jpg
-  source: "https://github.com/kiwicon-badge/badge"
-  credit: "kiwicon-badge (course instructor)"
-  caption: "Badge PCB design with 20-LED charlieplexed matrix"
+  source: https://github.com/kiwicon-badge/badge
+  credit: kiwicon-badge (course instructor)
+  caption: Badge PCB design with 20-LED charlieplexed matrix
 - file: assets/images/badges/kiwicon-2018/kiwicon-intro-to-badge-hacking-training-badge-kit/a1a1084600.png
-  source: "https://github.com/kiwicon-badge/badge"
-  credit: "kiwicon-badge (course instructor)"
-  caption: "Assembled training badge, final step"
+  source: https://github.com/kiwicon-badge/badge
+  credit: kiwicon-badge (course instructor)
+  caption: Assembled training badge, final step
 contact: {}
 notes:
 - Sweep's title used the sheet's generic wording; the repo/README does not give the kit a distinct product name beyond describing it as the badge for the "Intro to Badge Hacking" course, so the existing title is kept.
-- The repo's own text calls the event "Kiwicon 2038" (Kiwicon's stylized name for 2018), which matches _data/events.yml's kiwicon-2018 (dates: Nov 16-17, 2018, "Kiwicon 2038AD"); no event correction needed.
+- ? The repo's own text calls the event "Kiwicon 2038" (Kiwicon's stylized name for 2018), which matches _data/events.yml's kiwicon-2018 (dates
+  : Nov 16-17, 2018, "Kiwicon 2038AD"); no event correction needed.
 - The instructor is not named in the README (writes in first person); the GitHub repo's sole non-org contributor is "JeromeVanRooijen", but this is not confirmed as the instructor/designer by any maker statement, so makers.name records the org handle rather than guessing an identity.
 status: released
 sources:
@@ -88,6 +89,12 @@ research:
   last_checked: '2026-09-10'
   notes: 'Core technical facts (MCU, LEDs, battery, programming method, course structure) are confirmed straight from the maker''s own repo, so those are solid. Left unresolved: the instructor/designer''s name (not stated in the README), whether the training badge was ever sold or given beyond the workshop, quantity made, and whether the design files are licensed for reuse (no LICENSE file found in a quick repo skim). Kiwicon''s own training page (kiwicon.org) was linked but not independently confirmed to still describe this exact course; treated as supporting, not primary.'
 last_modified_date: '2026-09-10'
+model:
+  file: assets/models/kiwicon-2018/kiwicon-intro-to-badge-hacking-training-badge-kit.glb
+  method: kicad
+  source_file: ATtiny LED badge.brd
+  generated: '2026-09-10'
+  bytes: 106704
 ---
 
 The "Intro to Badge Hacking" badge is the take-home kit for Kiwicon's hands-on soldering and electronics course, run at Kiwicon 2038AD (the con's playful name for its 2018 edition, held Nov 16-17 in Wellington). Students work through six labs — circuits, microcontrollers, programming, soldering, badge assembly, and finally reprogramming their own badge — ending with a round green PCB carrying 20 green LEDs. The LEDs are wired in a 5x4 charlieplexed matrix so that an ATtiny13A, using only 5 of its I/O pins, can address each one individually; power comes from a CR2025/CR2032 coin cell on the back.

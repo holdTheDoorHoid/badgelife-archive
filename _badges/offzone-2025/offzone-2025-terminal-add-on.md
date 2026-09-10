@@ -38,9 +38,9 @@ get_one:
   availability: unknown
   distribution:
   - kit
-  where: 'Distributed as a DIY kit/build at OFFZONE 2025 (Craft.Zone add-on line); the maker''s repo gives PCB order specs and a BOM rather than a storefront listing.'
+  where: Distributed as a DIY kit/build at OFFZONE 2025 (Craft.Zone add-on line); the maker's repo gives PCB order specs and a BOM rather than a storefront listing.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/bi-zone/offzone-hw/tree/master/2025/terminal_addon
   firmware_url: null
   eda_tool: KiCad
@@ -50,13 +50,13 @@ links:
   kind: repo
 images:
 - file: assets/images/badges/offzone-2025/offzone-2025-terminal-add-on/13d1441d3e.png
-  source: "https://github.com/bi-zone/offzone-hw/tree/master/2025/terminal_addon"
-  credit: "BI.ZONE / Craft.Zone"
-  caption: "Terminal add-on PCB preview render"
+  source: https://github.com/bi-zone/offzone-hw/tree/master/2025/terminal_addon
+  credit: BI.ZONE / Craft.Zone
+  caption: Terminal add-on PCB preview render
 - file: assets/images/badges/offzone-2025/offzone-2025-terminal-add-on/a46bc844e9.jpg
-  source: "https://github.com/bi-zone/offzone-hw/tree/master/2025/terminal_addon"
-  credit: "BI.ZONE / Craft.Zone"
-  caption: "Assembled terminal add-on, front"
+  source: https://github.com/bi-zone/offzone-hw/tree/master/2025/terminal_addon
+  credit: BI.ZONE / Craft.Zone
+  caption: Assembled terminal add-on, front
 contact: {}
 notes:
 - Terminal/console-themed add-on board for the OFFZONE 2025 badge. Found by the event-year sweep, task con-phdays.
@@ -71,18 +71,24 @@ sources:
   url: https://github.com/bi-zone/offzone-hw/tree/master/2025/terminal_addon
   title: offzone-hw / 2025 / terminal_addon (README, BOM, KiCad files)
   accessed: '2026-09-08'
-  note: 'Repo default branch is master (the entry''s original "main" link 404s but the GitHub UI auto-redirects); README gives PCB order spec, BOM, and assembly steps confirming an LMC555-driven 3-LED SAO with a PLD-6 connector.'
+  note: Repo default branch is master (the entry's original "main" link 404s but the GitHub UI auto-redirects); README gives PCB order spec, BOM, and assembly steps confirming an LMC555-driven 3-LED SAO with a PLD-6 connector.
 - kind: url
   url: https://raw.githubusercontent.com/bi-zone/offzone-hw/master/README.md
   title: offzone-hw repository root README
   accessed: '2026-09-08'
-  note: 'Confirms the repo is BI.ZONE/Craft.Zone''s public archive of OFFZONE add-on boards, published as DIY solder kits (order PCB via Gerbers, source parts via the linked BOM).'
+  note: Confirms the repo is BI.ZONE/Craft.Zone's public archive of OFFZONE add-on boards, published as DIY solder kits (order PCB via Gerbers, source parts via the linked BOM).
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-08'
-  notes: 'Confirmed via the maker''s own repo (README, BOM, KiCad schematic/PCB files) rather than a storefront or press writeup, so no independent price, quantity, or distribution-event confirmation exists beyond the repo itself. No maker website beyond GitHub was found. Could not confirm price, quantity made, or exact distribution method (kit sold at the con vs. free build station) - repo is written as a DIY-at-home guide, but Craft.Zone add-ons are historically handed out/sold at OFFZONE itself, so distribution is left as kit/unknown pending a firsthand report. SAO connector is a 6-pin PLD-6 header per the BOM, read as SAO v1.69bis (6-pin) per the archive''s vocabulary, though the repo does not name it as an SAO standard explicitly.'
-last_modified_date: '2026-09-08'
+  notes: Confirmed via the maker's own repo (README, BOM, KiCad schematic/PCB files) rather than a storefront or press writeup, so no independent price, quantity, or distribution-event confirmation exists beyond the repo itself. No maker website beyond GitHub was found. Could not confirm price, quantity made, or exact distribution method (kit sold at the con vs. free build station) - repo is written as a DIY-at-home guide, but Craft.Zone add-ons are historically handed out/sold at OFFZONE itself, so distribution is left as kit/unknown pending a firsthand report. SAO connector is a 6-pin PLD-6 header per the BOM, read as SAO v1.69bis (6-pin) per the archive's vocabulary, though the repo does not name it as an SAO standard explicitly.
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/offzone-2025/offzone-2025-terminal-add-on.glb
+  method: kicad
+  source_file: 2025/terminal_addon/terminal_addon.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 54064
 ---
 
 The Terminal add-on is one of several add-on boards BI.ZONE / Craft.Zone published for OFFZONE 2025, styled to look like a small computer terminal. It has no microcontroller: an LMC555 timer chip runs in astable mode to blink three white 1206 LEDs, one aimed downward like a screen cursor and two aimed sideways as status lights. The board is black FR4 with white silkscreen and connects to a host badge through a 6-pin PLD connector.

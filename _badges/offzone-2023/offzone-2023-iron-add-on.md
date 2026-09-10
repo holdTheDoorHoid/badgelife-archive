@@ -108,6 +108,12 @@ research:
 last_modified_date: '2026-09-10'
 redirect_from:
 - /badges/offzone-2023/iron-addon/
+model:
+  file: assets/models/offzone-2023/offzone-2023-iron-add-on.glb
+  method: kicad
+  source_file: 2023/iron_addon/iron_addon.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 37096
 ---
 
 The Iron add-on is one of several small SAO-style boards BI.ZONE's Craft.Zone project released for OFFZONE 2023, styled after a household clothes iron. Unlike a microcontroller-driven SAO, it runs entirely on discrete components: two red 0805 LEDs are driven by a simple two-transistor (BC807-25) astable blinker circuit, with a pair of resistors and electrolytic capacitors setting the timing, and a single PLD-4 connector to plug into a host badge.

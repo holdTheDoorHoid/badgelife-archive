@@ -129,9 +129,15 @@ research:
   confidence: medium
   last_checked: '2026-09-08'
   notes: 'Core facts (MCU, LEDs, distribution, pricing, open-source repo) confirmed on the official HOPE wiki page and corroborated by a 2600.com store post about leftover kits. Total quantity made is not stated anywhere found. The wiki page itself flags the linked GitLab repo as not explicitly HOPE-branded, so hardware_url/firmware_url are given with that caveat. A near-duplicate entry already exists in the archive: hope-2024-hope-xv-electronic-badge-hope-16 (same badge, credited to "tidklaas (Open Hardware repo maintainer) / HOPE badge team") — flagged as duplicate_of, not merged per task rules. Merged with duplicate entry ''HOPE XV Electronic Badge'' (hope-2024-hope-xv-electronic-badge-hope-16).'
-last_modified_date: '2026-09-08'
+last_modified_date: '2026-09-10'
 redirect_from:
 - /badges/hope-2024/hope-xv-electronic-badge-hope-16/
+model:
+  file: assets/models/hope-2024/hope-xv-electronic-badge.glb
+  method: kicad
+  source_file: hardware/hipstenc.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 1785364
 ---
 
 The HOPE XV Electronic Badge was the official badge handed to in-person attendees of HOPE XV (2024) at registration, with a "pro" version carrying extra populated components sold on-site at the Badge Clinic for $100–$150. Attendee boards are purple; pro boards are black, with pink, green, or black cases. It is built around an ESP32-C3 microcontroller with 16 WS2812-style addressable LEDs, LiPo charging via an MCP73871 controller, an IR emitter for badge-to-badge interaction, NFC, an ATECC608B crypto element, and SAO/JTAG/FFC expansion connectors, though a number of the fancier parts (microphone, gas sensor, vibration motor) are only populated on the pro boards.

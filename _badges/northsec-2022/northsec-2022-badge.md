@@ -11,8 +11,8 @@ year: 2022
 makers:
 - name: NorthSec
   url: https://nsec.io/
-summary: 'The official electronic badge for NorthSec 2022, the conference''s return to in-person format at Marché Bonsecours in Montreal.'
-functions: 'Runs conference challenges/CTF content on the ESP32; RGB LED effects.'
+summary: The official electronic badge for NorthSec 2022, the conference's return to in-person format at Marché Bonsecours in Montreal.
+functions: Runs conference challenges/CTF content on the ESP32; RGB LED effects.
 look:
   colors: []
   shape: null
@@ -39,7 +39,7 @@ get_one:
   distribution: []
   where: ''
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/nsec/nsec-badge/tree/2024/hw/2022
   firmware_url: https://github.com/nsec/nsec-badge
   eda_tool: Eagle
@@ -69,18 +69,24 @@ sources:
   url: https://github.com/nsec/nsec-badge
   title: 'nsec/nsec-badge: Software from the NorthSec badge'
   accessed: '2026-09-08'
-  note: 'Repository root; no dedicated 2022 branch exists (branches are 2017/2018/2019/2021/2024/master), but the 2024 branch contains a hw/2022 directory with Eagle schematics/boards and per-revision BOMs for the 2022 badge (versions 3e/3f/3g/3j), confirming ESP32 WROOM32 + CH340C USB serial + MCP73831 LiPo charging + AP2112 3.3V regulator + 24x WS2811/5050 RGB LEDs.'
+  note: Repository root; no dedicated 2022 branch exists (branches are 2017/2018/2019/2021/2024/master), but the 2024 branch contains a hw/2022 directory with Eagle schematics/boards and per-revision BOMs for the 2022 badge (versions 3e/3f/3g/3j), confirming ESP32 WROOM32 + CH340C USB serial + MCP73831 LiPo charging + AP2112 3.3V regulator + 24x WS2811/5050 RGB LEDs.
 - kind: url
   url: https://badge.gallery/issues/northsec-2022-badge/retrospective-archive-caveat
   title: Retrospective archive caveat for the 2022 badge record
   accessed: '2026-09-08'
-  note: 'Confirms the 2022 hardware files were recovered from the repo''s 2024 branch rather than a dedicated 2022 branch, and that NorthSec''s official past-editions page documents 2022 as the return-to-in-person edition at Marché Bonsecours.'
+  note: Confirms the 2022 hardware files were recovered from the repo's 2024 branch rather than a dedicated 2022 branch, and that NorthSec's official past-editions page documents 2022 as the return-to-in-person edition at Marché Bonsecours.
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-08'
-  notes: 'No maker-published photo of the physical 2022 badge was found (badge.gallery explicitly states none is published there for licensing reasons, and no photo turned up in the hw/2022 repo directory - only schematics, BOM spreadsheets, and unrelated challenge-puzzle images). Price, quantity made, and current availability are not stated anywhere found; SAO header version/count not confirmed. The nsec-badge GitHub repo has no branch literally named 2022 - the 2022 hardware lives under hw/2022/ on the 2024 branch, so treat hardware provenance as repository-archive-backed rather than a contemporaneous 2022 release tag.'
-last_modified_date: '2026-09-08'
+  notes: No maker-published photo of the physical 2022 badge was found (badge.gallery explicitly states none is published there for licensing reasons, and no photo turned up in the hw/2022 repo directory - only schematics, BOM spreadsheets, and unrelated challenge-puzzle images). Price, quantity made, and current availability are not stated anywhere found; SAO header version/count not confirmed. The nsec-badge GitHub repo has no branch literally named 2022 - the 2022 hardware lives under hw/2022/ on the 2024 branch, so treat hardware provenance as repository-archive-backed rather than a contemporaneous 2022 release tag.
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/northsec-2022/northsec-2022-badge.glb
+  method: kicad
+  source_file: version3j.brd
+  generated: '2026-09-10'
+  bytes: 194020
 ---
 
 The 2022 NorthSec badge was the conference's electronic badge for its return to an in-person event at Marché Bonsecours in Montreal after the pandemic disruption. It is built around an ESP32-WROOM-32 module with a CH340C USB-serial chip, MCP73831 LiPo charge management, and an AP2112 3.3V regulator, and it carries twenty-four WS2811/5050 RGB LEDs alongside smaller discrete status LEDs.

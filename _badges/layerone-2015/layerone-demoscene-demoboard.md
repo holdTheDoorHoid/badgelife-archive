@@ -36,7 +36,7 @@ get_one:
   - purchase
   where: Sold via the Hackaday Store and Tindie around the board's 2015 introduction; a Hackaday article from that year says it could no longer be bought.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/arkorobotics/L1DemosceneBoard
   firmware_url: https://github.com/arkorobotics/L1DemosceneBoard
   eda_tool: null
@@ -55,9 +55,9 @@ links:
   kind: repo
 images:
 - file: assets/images/badges/layerone-2015/layerone-demoscene-demoboard/c60a6237d2.jpg
-  source: "https://hackaday.io/project/3877-layerone-demoscene-board/"
-  credit: "arko"
-  caption: "The LayerOne Demoscene Board"
+  source: https://hackaday.io/project/3877-layerone-demoscene-board/
+  credit: arko
+  caption: The LayerOne Demoscene Board
 contact: {}
 notes:
 - A PIC24F-based demoboard with VGA and 1/8" mono audio out, built for a LayerOne demoscene party. Found by the event-year sweep, task con-layerone.
@@ -85,7 +85,13 @@ research:
   confidence: high
   last_checked: '2026-09-08'
   notes: Core facts (designer, chip, event, I/O) confirmed via Hackaday coverage, the maker's own Hackaday.io project page, and the linked GitHub repo. Price and exact quantity made were not found in the sources checked, so those fields are left empty.
-last_modified_date: '2026-09-08'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/layerone-2015/layerone-demoscene-demoboard.glb
+  method: kicad
+  source_file: L1Demoscene_v4.brd
+  generated: '2026-09-10'
+  bytes: 309096
 ---
 
 The LayerOne Demoscene Board is a small PIC24F-based coding platform designed by "arko" (Arko Robotics) for the LayerOne demo party, first introduced in early 2015. Built around a PIC24FJ256DA206 (16-bit core with an on-chip GFX accelerator, 96K SRAM, 256K flash), it outputs 16-bit VGA video up to 640x480 and 8-bit audio through a 3.5mm jack, and is programmed and powered over a USB Micro-AB connector.

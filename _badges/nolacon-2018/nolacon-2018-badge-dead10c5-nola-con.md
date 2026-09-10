@@ -1,5 +1,5 @@
 ---
-title: 'NolaCon 2018 badge ("@nola_con")'
+title: NolaCon 2018 badge ("@nola_con")
 id: nolacon-2018-nolacon-2018-badge-dead10c5-nola-con
 layout: badge
 parent: NolaCon 2018
@@ -43,7 +43,7 @@ get_one:
   - free_drop
   where: Given to NolaCon 2018 attendees as the conference badge.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/pale-shadow/badge-2018-nolacon/tree/main/eagle
   firmware_url: https://github.com/pale-shadow/badge-2018-nolacon/tree/main/src/nola_con
   eda_tool: Eagle
@@ -57,17 +57,17 @@ links:
   note: Fuller development mirror of the same project (Eagle and later KiCad PCB files, BOM, Gerbers, multiple firmware revisions, build photos); appears to be the maker team's working repo, r00k5A58's repo the public release copy.
 images:
 - file: assets/images/badges/nolacon-2018/nolacon-2018-badge-dead10c5-nola-con/4a7ea40b8f.jpg
-  source: "https://github.com/pale-shadow/badge-2018-nolacon"
-  credit: "DEAD10C5 / @thedevilsvoice"
-  caption: "Assembled fleur-de-lis PCBs fresh from Seeed fabrication, before component population"
+  source: https://github.com/pale-shadow/badge-2018-nolacon
+  credit: DEAD10C5 / @thedevilsvoice
+  caption: Assembled fleur-de-lis PCBs fresh from Seeed fabrication, before component population
 - file: assets/images/badges/nolacon-2018/nolacon-2018-badge-dead10c5-nola-con/71011efae0.jpg
-  source: "https://github.com/pale-shadow/badge-2018-nolacon"
-  credit: "DEAD10C5 / @thedevilsvoice"
-  caption: "Eagle PCB layout of the fleur-de-lis badge showing the ESP-12E module, four buttons (LEFT/RIGHT/BACK/ENTER), and 8 APA102 LED pads"
+  source: https://github.com/pale-shadow/badge-2018-nolacon
+  credit: DEAD10C5 / @thedevilsvoice
+  caption: Eagle PCB layout of the fleur-de-lis badge showing the ESP-12E module, four buttons (LEFT/RIGHT/BACK/ENTER), and 8 APA102 LED pads
 contact: {}
 notes:
 - Official NolaCon 2018 electronic conference badge with Arduino firmware and Eagle PCB design files, mirrored also at https://github.com/pale-shadow/badge-2018-nolacon. Found by the event-year sweep, task con-nolacon.
-- 'The sweep''s title quoted the repo''s ASCII-art wordmark ("DEAD10C5 NOLA CON") rather than a title the maker actually uses anywhere; the firmware and menu code instead identify the badge by the handle "@nola_con", which is used here instead. DEAD10C5 is the maker team''s name (credited in the firmware header as @theDevilsVoice, @p0lr_, @mzbat, @dead10c5), not the badge''s title.'
+- The sweep's title quoted the repo's ASCII-art wordmark ("DEAD10C5 NOLA CON") rather than a title the maker actually uses anywhere; the firmware and menu code instead identify the badge by the handle "@nola_con", which is used here instead. DEAD10C5 is the maker team's name (credited in the firmware header as @theDevilsVoice, @p0lr_, @mzbat, @dead10c5), not the badge's title.
 status: released
 sources:
 - kind: url
@@ -95,7 +95,13 @@ research:
   confidence: medium
   last_checked: '2026-09-08'
   notes: 'Confirmed via the maker team''s own repos (firmware source, PCB footprints, and fabrication photos): ESP8266/ESP-12E MCU, SSD1306 OLED, 8x APA102 LEDs, 4-button menu with a Pong game and LED animation modes, Eagle/KiCad design files all public. No pricing, quantity-made, or battery/power-source details were stated anywhere in either repo or its (empty) wiki, so those are left blank. Not confirmed by any third-party press coverage or a maker storefront listing (this was a free con badge, so none was expected). "Medium" confidence rather than "high" because the core facts come from source code and PCB files rather than an explicit specs page or announcement.'
-last_modified_date: '2026-09-08'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/nolacon-2018/nolacon-2018-badge-dead10c5-nola-con.glb
+  method: kicad
+  source_file: nola6.brd
+  generated: '2026-09-10'
+  bytes: 153260
 ---
 
 The NolaCon 2018 badge is a free electronic conference badge shaped like a fleur-de-lis, designed and built by the DEAD10C5 team (credited in the firmware as @theDevilsVoice, @p0lr_, @mzbat, and @dead10c5) for NolaCon in New Orleans. It runs on an ESP8266 (ESP-12E module) and pairs a 128x64 SSD1306 OLED display with an 8-pixel APA102 addressable LED strip, all driven by a small cooperative-multitasking firmware (using the Arduino `Thread`/`ThreadController` libraries) written in C for the Arduino core.

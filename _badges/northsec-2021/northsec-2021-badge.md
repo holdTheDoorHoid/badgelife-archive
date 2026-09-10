@@ -11,8 +11,8 @@ year: 2021
 makers:
 - name: NorthSec
   url: https://nsec.io/
-summary: 'The official electronic badge for NorthSec 2021, an ESP32-based board with a color screen and an onboard RPG-style CTF hiding ten flags.'
-functions: 'Boots into a medieval-themed RPG-style game on its color screen; ten hidden flags spread across the game map and a CLI reachable over serial, solvable for Discord roles without giving any advantage in the main NorthSec CTF.'
+summary: The official electronic badge for NorthSec 2021, an ESP32-based board with a color screen and an onboard RPG-style CTF hiding ten flags.
+functions: Boots into a medieval-themed RPG-style game on its color screen; ten hidden flags spread across the game map and a CLI reachable over serial, solvable for Discord roles without giving any advantage in the main NorthSec CTF.
 look:
   colors: []
   shape: null
@@ -35,13 +35,13 @@ tech:
   battery: null
   sao_version: null
 get_one:
-  price: "$60"
+  price: $60
   price_usd: 60
   quantity: ''
   availability: sold_out
   distribution:
   - purchase
-  where: 'Sold through NorthSec''s online shop around the (remote) 2021 event.'
+  where: Sold through NorthSec's online shop around the (remote) 2021 event.
 make_your_own:
   open_source: partial
   hardware_url: https://github.com/nsec/nsec-badge
@@ -62,9 +62,9 @@ links:
   kind: article
 images:
 - file: assets/images/badges/northsec-2021/northsec-2021-badge/a5afab531f.jpg
-  source: "https://nsec.io/badge2021/"
-  credit: "NorthSec"
-  caption: "Official NorthSec 2021 electronic badge"
+  source: https://nsec.io/badge2021/
+  credit: NorthSec
+  caption: Official NorthSec 2021 electronic badge
 contact: {}
 notes:
 - Official NorthSec 2021 badge, issued despite the conference running fully remote for the second year of the pandemic; formed the basis of a set of badge-specific CTF challenges. Found by the event-year sweep, task northsec.
@@ -78,25 +78,31 @@ sources:
   note: 'Found by the archive''s discovery sweep (angle: sweep:northsec); event read as ''northsec-2021''.'
 - kind: url
   url: https://nsec.io/badge2021/
-  title: 'Badge 2021 • NorthSec'
+  title: Badge 2021 • NorthSec
   accessed: '2026-09-08'
   note: 'Maker''s own badge page: ESP32, 15 NeoPixels, color display, WiFi/BLE/classic BT, unlocked flash, firmware/schematics promised on GitHub after the event.'
 - kind: url
   url: https://github.com/nsec/nsec-badge
   title: nsec/nsec-badge
   accessed: '2026-09-08'
-  note: 'NorthSec badge repo (open source, multiple licenses); default branch currently documents the 2025 hardware revision, not 2021.'
+  note: NorthSec badge repo (open source, multiple licenses); default branch currently documents the 2025 hardware revision, not 2021.
 - kind: url
   url: https://erichogue.ca/2021/05/NorthSec2021BadgeFirstFlags/
-  title: 'NorthSec 2021 Badge Writeup - Part 1 - First Flags'
+  title: NorthSec 2021 Badge Writeup - Part 1 - First Flags
   accessed: '2026-09-08'
-  note: 'Confirms $60 price sold through NorthSec''s online shop, and the RPG game / ten-flag CTF layer separate from the main competition.'
+  note: Confirms $60 price sold through NorthSec's online shop, and the RPG game / ten-flag CTF layer separate from the main competition.
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-08'
-  notes: 'Core facts (MCU, LEDs, display, connectivity, price, CTF structure) confirmed by NorthSec''s own 2021 badge page plus two independent attendee writeups. Exact LED type model (NeoPixel is a brand, not a specific part number), display panel size/part, button count, battery/power option, EDA tool, and quantity made were not stated by any source found and are left empty rather than guessed. availability set to sold_out since this was a one-time 2021 event sale with no indication of ongoing sales.'
-last_modified_date: '2026-09-08'
+  notes: Core facts (MCU, LEDs, display, connectivity, price, CTF structure) confirmed by NorthSec's own 2021 badge page plus two independent attendee writeups. Exact LED type model (NeoPixel is a brand, not a specific part number), display panel size/part, button count, battery/power option, EDA tool, and quantity made were not stated by any source found and are left empty rather than guessed. availability set to sold_out since this was a one-time 2021 event sale with no indication of ongoing sales.
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/northsec-2021/northsec-2021-badge.glb
+  method: kicad
+  source_file: hw/2025/nsec-badge-2025.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 566028
 ---
 
 NorthSec held its 2021 edition fully remotely for the second year running, but the crew built and sold a real electronic badge anyway: an ESP32-based board with a color screen, 15 NeoPixel RGB LEDs, Wi-Fi and both classic and low-energy Bluetooth, and a UART serial port left open for tinkering (NorthSec noted the flash was not locked, inviting custom firmware). It sold through NorthSec's online shop for $60 around the event.

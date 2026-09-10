@@ -42,7 +42,7 @@ get_one:
   - purchase
   where: Distributed to all registered HITBSecConf2018 Amsterdam attendees at the CommSec Village; a limited number sold on-site to walk-ins.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/hackersbadge/hitb2018ams/tree/master/pcb
   firmware_url: https://github.com/hackersbadge/hitb2018ams/tree/master/src
   eda_tool: null
@@ -58,13 +58,13 @@ links:
   kind: website
 images:
 - file: assets/images/badges/hitb-2018/hitbsecconf2018-amsterdam-badge/3718a11278.jpg
-  source: "https://github.com/hackersbadge/hitb2018ams"
-  credit: "hackersbadge (WhiteA10n3/KLKS/xwings)"
-  caption: "Assembled HITB2018 Amsterdam badge PCB"
+  source: https://github.com/hackersbadge/hitb2018ams
+  credit: hackersbadge (WhiteA10n3/KLKS/xwings)
+  caption: Assembled HITB2018 Amsterdam badge PCB
 - file: assets/images/badges/hitb-2018/hitbsecconf2018-amsterdam-badge/c1ddd67424.jpg
-  source: "https://github.com/hackersbadge/hitb2018ams"
-  credit: "hackersbadge (WhiteA10n3/KLKS/xwings)"
-  caption: "HITB2018 Amsterdam badge, alternate angle"
+  source: https://github.com/hackersbadge/hitb2018ams
+  credit: hackersbadge (WhiteA10n3/KLKS/xwings)
+  caption: HITB2018 Amsterdam badge, alternate angle
 contact: {}
 notes:
 - Electronic HITB Amsterdam 2018 badge tied to the Badge Village games. Found by the event-year sweep, task con-troopers.
@@ -78,7 +78,7 @@ sources:
   note: 'Found by the archive''s discovery sweep (angle: sweep:con-troopers); event read as ''HITBSecConf 2018 Amsterdam''.'
 - kind: url
   url: https://archive.conference.hitb.org/hitbsecconf2018ams/commsec-village/
-  title: 'Technology Exhibition / CommSec Village « HITBSecConf2018 - Amsterdam'
+  title: Technology Exhibition / CommSec Village « HITBSecConf2018 - Amsterdam
   accessed: '2026-09-08'
   note: Official conference page confirming maker, free distribution to attendees, €35 walk-in price, and Badge Village game concept.
 - kind: url
@@ -91,7 +91,13 @@ research:
   confidence: high
   last_checked: '2026-09-08'
   notes: Core facts (maker, hardware, distribution) confirmed by the official HITB conference page and the maker's own open-source GitHub repo. Exact production quantity and post-event availability status not stated anywhere found, left empty/unknown.
-last_modified_date: '2026-09-08'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/hitb-2018/hitbsecconf2018-amsterdam-badge.glb
+  method: kicad
+  source_file: HITB_AMS_V1.3.brd
+  generated: '2026-09-10'
+  bytes: 175328
 ---
 
 The HITBSecConf2018 Amsterdam badge was the official electronic badge for the conference's CommSec Village, designed by the Qihoo360 Unicorn Team and given free to every registered attendee (a limited run was also sold on-site to walk-ins for €35). Built around an STM32F103 microcontroller with a 1.3" OLED display, W25Q32 flash, a 433MHz RF receiver, an IR receiver, six directional buttons, and six RGB LEDs, the badge doubled as a game piece: attendees used it in the Badge Village to decode 433MHz and IR packets, chase hidden challenges, and unlock mini-games.

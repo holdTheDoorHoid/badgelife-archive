@@ -89,10 +89,16 @@ research:
   confidence: medium
   last_checked: '2026-09-08'
   notes: 'Duplicate of entry other-hth-elite-2019-badge: same badge, same README/repo content, just fetched from @syn-ack-zack''s personal GitHub fork/mirror instead of the HTHackers org repo. Corrected event from "other" to hackers-teaching-hackers-2019 (present in _data/events.yml) since the badge was made for that specific con. No pricing, quantity, or availability info found. Only one photo (an Imgur link in the README) was located; not re-saved here since it is already attached to the other-hth-elite-2019-badge entry. Merged with duplicate entry ''HTH Elite 2019 Badge'' (other-hth-elite-2019-badge).'
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-10'
 redirect_from:
 - /badges/other/hth-elite-2019-badge-2/
 - /badges/other/hth-elite-2019-badge/
+model:
+  file: assets/models/hackers-teaching-hackers-2019/hth-elite-2019-badge-2.glb
+  method: kicad
+  source_file: HTH-2019-Badge-PROD-RC1.brd
+  generated: '2026-09-10'
+  bytes: 484212
 ---
 
 The HTH Elite 2019 Badge was made by contributor @syn-ack-zack for the 2019 Hackers Teaching Hackers (HTH) event. It pairs an ESP32 with a secondary Atmel 32u4, driving a 96x64 color OLED display and 19 mini NeoPixel RGB LEDs, and runs on 2 AA batteries or USB power.

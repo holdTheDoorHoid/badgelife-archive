@@ -77,6 +77,12 @@ research:
   last_checked: '2026-09-10'
   notes: Confirmed as a real, released badge with an open-source repo by the maker (charliex). No price, quantity made, or distribution method found in either source. No photo of the assembled badge was found (repo has no images; badge.gallery page has none either), so images list is empty.
 last_modified_date: '2026-09-10'
+model:
+  file: assets/models/layerone-2023/layerone-2023-pic-hid-badge.glb
+  method: kicad
+  source_file: okkb-pic-badge.brd
+  generated: '2026-09-10'
+  bytes: 82128
 ---
 
 The LayerOne 2023 PIC HID Badge is a small USB badge designed by charliex, a longtime LayerOne badge maker (also behind the 2014, 2015, and 2017 LayerOne badges), for the 2023 conference at the Hilton Pasadena. Built around a PIC16F1455 microcontroller, it enumerates as a USB HID keyboard and types out a stored text macro (LayerOne 2023 by default) when its button is pressed. The macro can be rewritten over a generic HID interface, and the badge also drives a run of WS2812B/SK6812 addressable LEDs for programmable lighting effects.

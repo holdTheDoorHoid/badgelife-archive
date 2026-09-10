@@ -10,8 +10,7 @@ event: offzone-2025
 year: 2025
 makers:
 - name: BI.ZONE / Craft.Zone
-summary: A bear-shaped SAO add-on for the OFFZONE 2025 badge, one of several add-on
-  boards Craft.Zone designed for the con that year.
+summary: A bear-shaped SAO add-on for the OFFZONE 2025 badge, one of several add-on boards Craft.Zone designed for the con that year.
 functions: Lights three white LEDs; no microcontroller, so no other behavior.
 look:
   colors:
@@ -39,7 +38,7 @@ get_one:
   distribution: []
   where: ''
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/bi-zone/offzone-hw/tree/master/2025/bear_addon
   firmware_url: null
   eda_tool: KiCad
@@ -76,31 +75,26 @@ links:
   kind: repo
 images:
 - file: assets/images/badges/offzone-2025/offzone-2025-bear-add-on/2abab8aa7c.jpg
-  source: "https://github.com/bi-zone/offzone-hw/tree/master/2025/bear_addon"
-  credit: "BI.ZONE / Craft.Zone"
-  caption: "Bear add-on front, assembled with three white LEDs"
+  source: https://github.com/bi-zone/offzone-hw/tree/master/2025/bear_addon
+  credit: BI.ZONE / Craft.Zone
+  caption: Bear add-on front, assembled with three white LEDs
 - file: assets/images/badges/offzone-2025/offzone-2025-bear-add-on/597d936997.jpg
-  source: "https://github.com/bi-zone/offzone-hw/tree/master/2025/bear_addon"
-  credit: "BI.ZONE / Craft.Zone"
-  caption: "Bear add-on back, showing solder connections and PLD-4 connector"
+  source: https://github.com/bi-zone/offzone-hw/tree/master/2025/bear_addon
+  credit: BI.ZONE / Craft.Zone
+  caption: Bear add-on back, showing solder connections and PLD-4 connector
 contact: {}
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-08'
-  notes: The original repo link in the sweep pointed at the `main` branch, which
-    does not exist; the repo's default branch is `master`, and the same path
-    resolves there. Confirmed via the repo's README, BOM, and Gerbers that this is
-    a real, open-source bear-shaped SAO add-on, one of five 2025 add-ons Craft.Zone
-    made alongside the OFFZONE 2025 main badge (angel-and-devil, anonymous,
-    boombox, terminal). No storefront, price, quantity, or distribution details
-    were found; these badges are typically given to attendees/speakers at the
-    Russian OFFZONE conference rather than sold, but that is not confirmed by a
-    primary source here, so availability is left unknown. No firmware exists (the
-    board has no MCU, just three LEDs and resistors driven directly off the SAO
-    header). KiCad hardware files, Gerbers, and BOM are published in the repo, so
-    open_source is yes for hardware; there is no firmware to publish.
-last_modified_date: '2026-09-08'
+  notes: The original repo link in the sweep pointed at the `main` branch, which does not exist; the repo's default branch is `master`, and the same path resolves there. Confirmed via the repo's README, BOM, and Gerbers that this is a real, open-source bear-shaped SAO add-on, one of five 2025 add-ons Craft.Zone made alongside the OFFZONE 2025 main badge (angel-and-devil, anonymous, boombox, terminal). No storefront, price, quantity, or distribution details were found; these badges are typically given to attendees/speakers at the Russian OFFZONE conference rather than sold, but that is not confirmed by a primary source here, so availability is left unknown. No firmware exists (the board has no MCU, just three LEDs and resistors driven directly off the SAO header). KiCad hardware files, Gerbers, and BOM are published in the repo, so open_source is yes for hardware; there is no firmware to publish.
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/offzone-2025/offzone-2025-bear-add-on.glb
+  method: kicad
+  source_file: 2025/bear_addon/bear_addon.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 98392
 ---
 
 The Bear add-on is one of five SAO-style add-on boards Craft.Zone produced to go with the OFFZONE 2025 main badge for BI.ZONE's OFFZONE security conference (the others being Angel and Devil, Anonymous, Boombox, and Terminal). It is a small bear-shaped PCB carrying three 1206 white LEDs and matching 220 ohm resistors, wired straight to a 4-pin PLD-4 connector with no microcontroller in the loop — the LEDs simply light whenever the host badge supplies power through the SAO header.

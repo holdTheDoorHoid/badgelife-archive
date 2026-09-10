@@ -78,9 +78,15 @@ research:
   confidence: medium
   last_checked: '2026-09-08'
   notes: 'Confirmed via the maker''s own GitHub repo (syn-ack-zack/HTH-General-Badge): README, KiCad source, gerbers, and BOM all check out. No pricing, quantity, or distribution details found anywhere -- no press coverage or storefront listing turned up in search. Merged with duplicate entry ''HTH General (SAO Totem) Badge'' (hackers-teaching-hackers-2019-hth-general-badge).'
-last_modified_date: '2026-09-08'
+last_modified_date: '2026-09-10'
 redirect_from:
 - /badges/hackers-teaching-hackers-2019/hth-general-badge/
+model:
+  file: assets/models/hackers-teaching-hackers-2019/hackers-teaching-hackers-2019-general-sao-totem-badge.glb
+  method: kicad
+  source_file: KiCad_HTH/HTHBadgeFinal.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 160144
 ---
 
 

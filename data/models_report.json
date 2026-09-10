@@ -1277,5 +1277,304 @@
   "bytes": 88436,
   "tried": [],
   "src": "KiCad PCB files/VectorScopeMusicAddon.kicad_pcb"
+ },
+ "hackerhotel-2023-hacker-hotel-2023-hardware-hh2023hardware": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 739924,
+  "tried": [],
+  "src": "anesidoraMk1.kicad_pcb"
+ },
+ "hackers-teaching-hackers-2019-hackers-teaching-hackers-2019-general-sao-totem-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 160144,
+  "tried": [],
+  "src": "KiCad_HTH/HTHBadgeFinal.kicad_pcb"
+ },
+ "hackers-teaching-hackers-2019-hth-elite-2019-badge-2": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 484212,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "HTH-2019-Badge-PROD-RC1.brd"
+ },
+ "hitb-2018-hitbsecconf2018-amsterdam-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 175328,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "HITB_AMS_V1.3.brd"
+ },
+ "hitb-2018-jd-hitbsecconf2018-beijing-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 294924,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "HITB_PEK_2018_V1.2.brd"
+ },
+ "hitcon-2018-hitcon-cmt-2018-wallet-badge-cold-wallet-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 537580,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "HitconBadge2018.brd"
+ },
+ "hitcon-2019-hitcon-cmt-2019-badge-trustzone-challenge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 272468,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "Badge_V3.brd"
+ },
+ "hitcon-2024-hitcon-cmt-2024-pcb-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 693080,
+  "tried": [],
+  "src": "pcb/kicad/pcb_badge/pcb_badge.kicad_pcb"
+ },
+ "hitcon-2025-hitcon-2025-pcb-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 693080,
+  "tried": [],
+  "src": "pcb/kicad/pcb_badge/pcb_badge.kicad_pcb"
+ },
+ "hope-2024-hope-xv-electronic-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 1785364,
+  "tried": [],
+  "src": "hardware/hipstenc.kicad_pcb"
+ },
+ "kernelcon-2026-kernelcon-2026-off-grid-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 439340,
+  "tried": [],
+  "src": "pcb/weatherV3-kernelcon2026/weatherV3-kernelcon2026.kicad_pcb"
+ },
+ "kiwicon-2015-kiwicon-quackery-badge": {
+  "status": "ok",
+  "method": "gerber",
+  "bytes": 138872,
+  "tried": [],
+  "src": "pcb/production"
+ },
+ "kiwicon-2018-kiwicon-intro-to-badge-hacking-training-badge-kit": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 106704,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "ATtiny LED badge.brd"
+ },
+ "layerone-2015-layerone-2015-dual-electronic-badges-attendee-speaker-staff": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 77760,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "esp8266.brd"
+ },
+ "layerone-2015-layerone-demoscene-demoboard": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 309096,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "L1Demoscene_v4.brd"
+ },
+ "layerone-2023-layerone-2023-pic-hid-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 82128,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "okkb-pic-badge.brd"
+ },
+ "layerone-2024-layerone-2024-pov-spinner-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 136628,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "spin_pov_LDO.brd"
+ },
+ "nolacon-2018-nolacon-2018-badge-dead10c5-nola-con": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 153260,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "nola6.brd"
+ },
+ "northsec-2021-northsec-2021-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 566028,
+  "tried": [],
+  "src": "hw/2025/nsec-badge-2025.kicad_pcb"
+ },
+ "northsec-2022-northsec-2022-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 194020,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "version3j.brd"
+ },
+ "northsec-2024-northsec-2024-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 106664,
+  "tried": [],
+  "src": "hw/2024/sao/sponsor/sponsor_v1.0.kicad_pcb"
+ },
+ "northsec-2026-northsec-2026-badge": {
+  "status": "ok",
+  "method": "gerber",
+  "bytes": 197988,
+  "tried": [
+   "kicad glb: glb export failed:  result\nOCC exception building shape segment: GC_MakeCircle::Value() - no result\nOCC exception building shape segment: GC_MakeCircle::Value()"
+  ],
+  "src": "hardware/badge/nsec-badge-2026.kicad_pcb"
+ },
+ "offzone-2023-offzone-2023-cat-add-on": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 34808,
+  "tried": [],
+  "src": "2023/cat_addon/cat_addon.kicad_pcb"
+ },
+ "offzone-2023-offzone-2023-ikarus-add-on": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 50204,
+  "tried": [],
+  "src": "2023/ikarus_addon/ikarus_addon.kicad_pcb"
+ },
+ "offzone-2023-offzone-2023-iron-add-on": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 37096,
+  "tried": [],
+  "src": "2023/iron_addon/iron_addon.kicad_pcb"
+ },
+ "offzone-2023-offzone-2023-lighthouse-add-on": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 35656,
+  "tried": [],
+  "src": "2023/lighthouse_addon/lighthouse_addon.kicad_pcb"
+ },
+ "offzone-2024-offzone-2024-cube-green-add-on": {
+  "status": "ok",
+  "method": "gerber",
+  "bytes": 128872,
+  "tried": [],
+  "src": "2024/cube_green_addon/cube_green_addon_gbr"
+ },
+ "offzone-2024-offzone-2024-lamp-add-on": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 43540,
+  "tried": [],
+  "src": "2024/lamp_addon/lamp_addon.kicad_pcb"
+ },
+ "offzone-2024-offzone-2024-seal-add-on": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 75136,
+  "tried": [],
+  "src": "2024/seal_addon/seal_addon.kicad_pcb"
+ },
+ "offzone-2024-offzone-2024-this-is-fine-add-on": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 57384,
+  "tried": [],
+  "src": "2024/thisisfine_addon/thisisfine_addon.kicad_pcb"
+ },
+ "offzone-2024-offzone-2024-zil-add-on": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 52724,
+  "tried": [],
+  "src": "2024/zil_addon/zil_addon.kicad_pcb"
+ },
+ "offzone-2025-offzone-2025-angel-and-devil-add-on": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 92092,
+  "tried": [],
+  "src": "2025/angelanddevil_addon/angelanddevil_addon.kicad_pcb"
+ },
+ "offzone-2025-offzone-2025-anonymous-add-on": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 45888,
+  "tried": [],
+  "src": "2025/anonymous_addon/anonymous_addon.kicad_pcb"
+ },
+ "offzone-2025-offzone-2025-bear-add-on": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 98392,
+  "tried": [],
+  "src": "2025/bear_addon/bear_addon.kicad_pcb"
+ },
+ "offzone-2025-offzone-2025-boombox-add-on": {
+  "status": "ok",
+  "method": "gerber",
+  "bytes": 63656,
+  "tried": [],
+  "src": "2025/boombox_addon/boombox_topplate/boombox_topplate_outputs"
+ },
+ "offzone-2025-offzone-2025-terminal-add-on": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 54064,
+  "tried": [],
+  "src": "2025/terminal_addon/terminal_addon.kicad_pcb"
+ },
+ "open-sauce-2026-open-sauce-2026-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 587420,
+  "tried": [],
+  "src": "Board Files/Bop It Kicad/Bop It.kicad_pcb"
+ },
+ "oshwdem-2019-oshwdem-2019-badge-oshwi-2019": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 182592,
+  "tried": [],
+  "src": "OSHWI19.kicad_pcb"
+ },
+ "other-addonspothardware-red-yellow-green-light-sao": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 47020,
+  "tried": [],
+  "src": "AddOnSpot.kicad_pcb"
  }
 }
