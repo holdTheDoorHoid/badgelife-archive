@@ -168,6 +168,7 @@ def main():
     manifest = json.load(open(MANIFEST)) if os.path.exists(MANIFEST) else {}
     n = 0
     for path in sorted(glob.glob(os.path.join(ROOT, "_badges", (a.only + "*") if a.only else "*", "*.md"))):
+        if not os.path.exists(path): continue  # merged or relocated since the folder was listed
         text = open(path, encoding="utf-8").read(); m = re.match(r"^---\n(.*?)\n---", text, re.S)
         try: fm = yaml.safe_load(m.group(1))
         except Exception: continue
