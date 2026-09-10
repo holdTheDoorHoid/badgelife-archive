@@ -11,8 +11,8 @@ year: 2024
 makers:
 - name: kantoniak
   url: https://github.com/kantoniak
-summary: 'A minimal SAO (v1.69bis) built around an ATtiny85 with two bottom-throwing LEDs that blink in an alternating pattern; made for Hackaday Supercon 2024 and also carried to Hackaday Europe 2025.'
-functions: 'Two LEDs alternate on/off every 750ms (no buttons or other inputs); firmware is a simple Arduino sketch.'
+summary: A minimal SAO (v1.69bis) built around an ATtiny85 with two bottom-throwing LEDs that blink in an alternating pattern; made for Hackaday Supercon 2024 and also carried to Hackaday Europe 2025.
+functions: Two LEDs alternate on/off every 750ms (no buttons or other inputs); firmware is a simple Arduino sketch.
 look:
   colors: []
   shape: null
@@ -22,7 +22,7 @@ tech:
   leds:
     count: 2
     type: discrete
-    note: 'bottom-throwing (board-edge/downward facing) LEDs, alternating blink pattern'
+    note: bottom-throwing (board-edge/downward facing) LEDs, alternating blink pattern
   display: none
   connectivity: []
   battery: null
@@ -35,20 +35,20 @@ get_one:
   distribution: []
   where: ''
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/kantoniak/still-sao-though/tree/main/hardware
   firmware_url: https://github.com/kantoniak/still-sao-though/tree/main/software
   eda_tool: KiCad
-  notes: 'Hardware is KiCad (.kicad_pcb/.kicad_sch); firmware is a PlatformIO/Arduino sketch for ATtiny85. No LICENSE file found in the repo.'
+  notes: Hardware is KiCad (.kicad_pcb/.kicad_sch); firmware is a PlatformIO/Arduino sketch for ATtiny85. No LICENSE file found in the repo.
 links:
 - label: github.com/kantoniak/still-sao-though
   url: https://github.com/kantoniak/still-sao-though
   kind: repo
 images:
 - file: assets/images/badges/supercon-2024/still-sao-though-hackaday-supercon-2024-sao/6bd70a9441.gif
-  source: "https://github.com/kantoniak/still-sao-though"
-  credit: "kantoniak"
-  caption: "Animated preview of the still-sao-though SAO's two alternating LEDs"
+  source: https://github.com/kantoniak/still-sao-though
+  credit: kantoniak
+  caption: Animated preview of the still-sao-though SAO's two alternating LEDs
 contact: {}
 notes: []
 status: released
@@ -62,17 +62,18 @@ sources:
   url: https://github.com/kantoniak/still-sao-though
   title: 'kantoniak/still-sao-though: README'
   accessed: '2026-09-07'
-  note: 'README confirms ATtiny85, two bottom-throwing LEDs, made for Hackaday Supercon 2024 and also shown at Hackaday Europe 2025; describes an attempted (failed) I2C add-on via TinyWireS.'
+  note: README confirms ATtiny85, two bottom-throwing LEDs, made for Hackaday Supercon 2024 and also shown at Hackaday Europe 2025; describes an attempted (failed) I2C add-on via TinyWireS.
 - kind: url
   url: https://raw.githubusercontent.com/kantoniak/still-sao-though/main/software/src/main.cpp
   title: still-sao-though firmware source
   accessed: '2026-09-07'
-  note: 'Firmware toggles two LEDs (pins 1 and 4) in alternating fashion every 750ms; no buttons.'
+  note: Firmware toggles two LEDs (pins 1 and 4) in alternating fashion every 750ms; no buttons.
 - kind: url
   url: https://kantoniak.com/
   title: kantoniak.com
   accessed: '2026-09-07'
-  note: 'Maker''s personal site is just a contact-links page; no mention of this project, so no additional bio/context found there.'
+  note: Maker's personal site is just a contact-links page; no mention of this project, so no additional bio/context found there.
+  archived: https://web.archive.org/web/20260614051509/https://kantoniak.com/
 research:
   status: verified
   confidence: medium

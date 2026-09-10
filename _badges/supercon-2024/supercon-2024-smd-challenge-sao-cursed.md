@@ -12,7 +12,7 @@ makers:
 - name: Tom Nardi
   url: https://hackaday.io/hacker/1022-tom-nardi
 summary: An SAO version of the Supercon SMD soldering challenge board (ATtiny85 plus LEDs, powered from the SAO header instead of a CR2032) made for Supercon 2024, but the ATtiny85 power and ground pins were inverted, so the 150+ boards fabricated were pulled from the competition and later handed out at events as a curiosity.
-functions: 'Intended fading/chasing LED patterns driven by the ATtiny85, like the original SMD soldering-challenge board it was adapted from.'
+functions: Intended fading/chasing LED patterns driven by the ATtiny85, like the original SMD soldering-challenge board it was adapted from.
 look:
   colors: []
   shape: null
@@ -29,7 +29,7 @@ tech:
 get_one:
   price: ''
   price_usd: null
-  quantity: '150+'
+  quantity: 150+
   availability: free
   distribution:
   - free_drop
@@ -43,15 +43,18 @@ links:
 - label: hackaday.io/project/198225-supercon-2024-smd-challenge-sao-cursed
   url: https://hackaday.io/project/198225-supercon-2024-smd-challenge-sao-cursed
   kind: hackaday
+  archived: https://web.archive.org/web/20251111231018/https://hackaday.io/project/198225-supercon-2024-smd-challenge-sao-cursed
 images:
 - file: assets/images/badges/supercon-2024/supercon-2024-smd-challenge-sao-cursed/3032e0c6c9.png
-  source: "https://hackaday.io/project/198225-supercon-2024-smd-challenge-sao-cursed"
-  credit: "Tom Nardi"
-  caption: "The Supercon 2024 SMD Challenge SAO board"
+  source: https://hackaday.io/project/198225-supercon-2024-smd-challenge-sao-cursed
+  credit: Tom Nardi
+  caption: The Supercon 2024 SMD Challenge SAO board
+  archived: https://web.archive.org/web/20251111231018/https://hackaday.io/project/198225-supercon-2024-smd-challenge-sao-cursed
 - file: assets/images/badges/supercon-2024/supercon-2024-smd-challenge-sao-cursed/1adb3f2094.jpg
-  source: "https://hackaday.io/project/198225-supercon-2024-smd-challenge-sao-cursed"
-  credit: "Tom Nardi"
-  caption: "Close-up of the SAO board showing the ATtiny85 and LEDs"
+  source: https://hackaday.io/project/198225-supercon-2024-smd-challenge-sao-cursed
+  credit: Tom Nardi
+  caption: Close-up of the SAO board showing the ATtiny85 and LEDs
+  archived: https://web.archive.org/web/20251111231018/https://hackaday.io/project/198225-supercon-2024-smd-challenge-sao-cursed
 contact: {}
 notes: []
 status: released
@@ -61,16 +64,18 @@ sources:
   title: Supercon 2024 SMD Challenge SAO (Cursed)
   accessed: '2026-09-06'
   note: Found via the project's link list; intake pass identified this item here.
+  archived: https://web.archive.org/web/20251111231018/https://hackaday.io/project/198225-supercon-2024-smd-challenge-sao-cursed
 - kind: url
   url: https://hackaday.io/project/198225-supercon-2024-smd-challenge-sao-cursed
   title: Supercon 2024 SMD Challenge SAO (Cursed)
   accessed: '2026-09-07'
-  note: 'Confirmed maker (Tom Nardi), event/year, ATtiny85 MCU, SAO-header power in place of CR2032, the inverted power/ground pin defect, ~150+ boards fabricated and pulled from competition, and free distribution at later events.'
+  note: Confirmed maker (Tom Nardi), event/year, ATtiny85 MCU, SAO-header power in place of CR2032, the inverted power/ground pin defect, ~150+ boards fabricated and pulled from competition, and free distribution at later events.
+  archived: https://web.archive.org/web/20251111231018/https://hackaday.io/project/198225-supercon-2024-smd-challenge-sao-cursed
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'Only source available is the maker''s own Hackaday.io project page, which confirms the core story but does not give an LED count/type, exact quantity beyond "150+", or any published design files. Web search was unavailable this session (budget exhausted), so press coverage or forum discussion of the "cursed" batch could not be checked.'
+  notes: Only source available is the maker's own Hackaday.io project page, which confirms the core story but does not give an LED count/type, exact quantity beyond "150+", or any published design files. Web search was unavailable this session (budget exhausted), so press coverage or forum discussion of the "cursed" batch could not be checked.
 last_modified_date: '2026-09-07'
 ---
 
