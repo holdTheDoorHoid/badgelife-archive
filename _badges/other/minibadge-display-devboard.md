@@ -11,7 +11,7 @@ year: 0
 makers:
 - name: Pips801
   url: https://pips.engineering
-summary: 'A small development PCB that supplies power, battery charging, and a clock signal to custom-built SAINTCON minibadge displays.'
+summary: A small development PCB that supplies power, battery charging, and a clock signal to custom-built SAINTCON minibadge displays.
 functions: 'Powers a custom minibadge display board: provides 3x 3.3V@1A outputs, a clock signal, LiPo battery charge/use via USB-C, and ground/VBATT, so a builder does not have to design their own power circuitry.'
 look:
   colors: []
@@ -28,14 +28,14 @@ tech:
   battery: LiPo (charged via USB-C, up to 800mA)
   sao_version: null
 get_one:
-  price: "$25 (5-9 units $22 each, 10+ $20 each)"
+  price: $25 (5-9 units $22 each, 10+ $20 each)
   price_usd: 25
   quantity: ''
   availability: sold_out
-  availability_note: 'Listed as "Out of Stock" on Tindie, checked 2026-09-07.'
+  availability_note: Listed as "Out of Stock" on Tindie, checked 2026-09-07.
   distribution:
   - purchase
-  where: 'Sold via the maker''s Tindie store (Pips Engineering / Beehive Engineering); design files free on GitHub.'
+  where: Sold via the maker's Tindie store (Pips Engineering / Beehive Engineering); design files free on GitHub.
 make_your_own:
   open_source: 'yes'
   hardware_url: https://github.com/Pips801/Minibadge-Display-Devboard
@@ -45,21 +45,25 @@ links:
 - label: github.com/Pips801/Minibadge-Display-Devboard
   url: https://github.com/Pips801/Minibadge-Display-Devboard
   kind: repo
+  archived: https://web.archive.org/web/20260507163112/https://github.com/Pips801/Minibadge-Display-Devboard
 - label: Minibadge Display Devboard - Pips Engineering
   url: https://pips.engineering/minibadge-display-devboard/
   kind: website
 - label: Minibadge Display Devboard on Tindie
   url: https://www.tindie.com/products/pips/minibadge-display-devboard/
   kind: store
+  archived: https://web.archive.org/web/20251215050357/https://www.tindie.com/products/pips/minibadge-display-devboard/
 images:
-  - file: assets/images/badges/other/minibadge-display-devboard/9011dd4f1a.jpg
-    source: "https://github.com/Pips801/Minibadge-Display-Devboard"
-    credit: "Pips801"
-    caption: "Minibadge Display Devboard, top view"
-  - file: assets/images/badges/other/minibadge-display-devboard/2eb71738a1.jpg
-    source: "https://github.com/Pips801/Minibadge-Display-Devboard"
-    credit: "Pips801"
-    caption: "Minibadge Display Devboard, alternate view"
+- file: assets/images/badges/other/minibadge-display-devboard/9011dd4f1a.jpg
+  source: https://github.com/Pips801/Minibadge-Display-Devboard
+  credit: Pips801
+  caption: Minibadge Display Devboard, top view
+  archived: https://web.archive.org/web/20260507163112/https://github.com/Pips801/Minibadge-Display-Devboard
+- file: assets/images/badges/other/minibadge-display-devboard/2eb71738a1.jpg
+  source: https://github.com/Pips801/Minibadge-Display-Devboard
+  credit: Pips801
+  caption: Minibadge Display Devboard, alternate view
+  archived: https://web.archive.org/web/20260507163112/https://github.com/Pips801/Minibadge-Display-Devboard
 contact: {}
 notes:
 - host board for displaying minibadges
@@ -70,26 +74,29 @@ sources:
   title: Minibadge-Display-Devboard
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: github-topics); event read as ''unknown''.'
+  archived: https://web.archive.org/web/20260507163112/https://github.com/Pips801/Minibadge-Display-Devboard
 - kind: url
   url: https://github.com/Pips801/Minibadge-Display-Devboard
   title: Minibadge-Display-Devboard README
   accessed: '2026-09-07'
-  note: 'README specs, assembly steps, and datasheet links; confirmed open-source KiCad design and image URLs.'
+  note: README specs, assembly steps, and datasheet links; confirmed open-source KiCad design and image URLs.
+  archived: https://web.archive.org/web/20260507163112/https://github.com/Pips801/Minibadge-Display-Devboard
 - kind: url
   url: https://pips.engineering/minibadge-display-devboard/
   title: Minibadge Display Devboard - Pips Engineering
   accessed: '2026-09-07'
-  note: 'Maker''s own blog post about the board, posted 2026-01-05; links to Tindie store.'
+  note: Maker's own blog post about the board, posted 2026-01-05; links to Tindie store.
 - kind: url
   url: https://www.tindie.com/products/pips/minibadge-display-devboard/
   title: Minibadge Display Devboard - Tindie
   accessed: '2026-09-07'
-  note: 'Price ($25, volume discounts) and out-of-stock status.'
+  note: Price ($25, volume discounts) and out-of-stock status.
+  archived: https://web.archive.org/web/20251215050357/https://www.tindie.com/products/pips/minibadge-display-devboard/
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'This is a general-purpose development board for the SAINTCON minibadge ecosystem, not something made for one specific convention or year -- it is a tool for builders creating their own minibadge displays, sold year-round via Tindie rather than tied to a single event. No event correction applies; left under "other". No LEDs or display of its own (it is a power/support board for other people''s minibadge boards), so tech.leds and tech.display are left empty. Maker also sells a related "ATtiny 816/1616 Minibadge Devboard" on Tindie -- a different product, not this one.'
+  notes: This is a general-purpose development board for the SAINTCON minibadge ecosystem, not something made for one specific convention or year -- it is a tool for builders creating their own minibadge displays, sold year-round via Tindie rather than tied to a single event. No event correction applies; left under "other". No LEDs or display of its own (it is a power/support board for other people's minibadge boards), so tech.leds and tech.display are left empty. Maker also sells a related "ATtiny 816/1616 Minibadge Devboard" on Tindie -- a different product, not this one.
 last_modified_date: '2026-09-07'
 ---
 

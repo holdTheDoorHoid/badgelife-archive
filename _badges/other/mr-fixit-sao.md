@@ -53,15 +53,16 @@ links:
 - label: github.com/TomKeddie
   url: https://github.com/TomKeddie
   kind: repo
+  archived: https://web.archive.org/web/20260601073246/https://github.com/TomKeddie
 images:
-  - file: assets/images/badges/other/mr-fixit-sao/8e1f5cecb2.jpg
-    source: "https://github.com/TomKeddie/prj-pcb-experiments/tree/master/mr-fixit"
-    credit: "Tom Keddie"
-    caption: "Assembled Mr Fixit SAO, lit up"
-  - file: assets/images/badges/other/mr-fixit-sao/0b13e2f741.png
-    source: "https://github.com/TomKeddie/prj-pcb-experiments/tree/master/mr-fixit"
-    credit: "Tom Keddie"
-    caption: "Mr Fixit PCB artwork (silkscreen/mask study)"
+- file: assets/images/badges/other/mr-fixit-sao/8e1f5cecb2.jpg
+  source: https://github.com/TomKeddie/prj-pcb-experiments/tree/master/mr-fixit
+  credit: Tom Keddie
+  caption: Assembled Mr Fixit SAO, lit up
+- file: assets/images/badges/other/mr-fixit-sao/0b13e2f741.png
+  source: https://github.com/TomKeddie/prj-pcb-experiments/tree/master/mr-fixit
+  credit: Tom Keddie
+  caption: Mr Fixit PCB artwork (silkscreen/mask study)
 contact: {}
 notes: []
 status: released
@@ -90,12 +91,13 @@ sources:
   url: https://github.com/TomKeddie/prj-pcb-experiments/commits/master/mr-fixit
   title: Commit history for mr-fixit at master · TomKeddie/prj-pcb-experiments
   accessed: '2026-09-07'
-  note: "Verified directly. Commits dated 2019-11-22 (first pass at pcb; v1.0 as submitted, hasl copper outline with red mask internal + multimeter) and 2019-11-26 (v1.1 edge-cut fix) confirm the Nov 2019 date and red-mask/gold-HASL coloring; a 2024-09-16 commit is titled mrfixit: rev1.3 as sent for mfg, directly confirming the rev 1.3 / September 2024 respin. Also fetched mrfixit.sch directly: it contains exactly one LED (D1) wired to the +3.3V net with no MCU/IC of any kind, and connector J1's footprint is literally named PinSocket_2x03_P2.54mm_Vertical_SMD_SAO, confirming the single-LED/no-MCU/SAO-connector/3.3V-powered claims from the schematic itself rather than inference."
+  note: 'Verified directly. Commits dated 2019-11-22 (first pass at pcb; v1.0 as submitted, hasl copper outline with red mask internal + multimeter) and 2019-11-26 (v1.1 edge-cut fix) confirm the Nov 2019 date and red-mask/gold-HASL coloring; a 2024-09-16 commit is titled mrfixit: rev1.3 as sent for mfg, directly confirming the rev 1.3 / September 2024 respin. Also fetched mrfixit.sch directly: it contains exactly one LED (D1) wired to the +3.3V net with no MCU/IC of any kind, and connector J1''s footprint is literally named PinSocket_2x03_P2.54mm_Vertical_SMD_SAO, confirming the single-LED/no-MCU/SAO-connector/3.3V-powered claims from the schematic itself rather than inference.'
 research:
   status: verified
   confidence: high
   last_checked: '2026-09-07'
-  notes: "All fields and body sentences were re-verified against primary sources during fact-check. The GitHub commit history for the mr-fixit folder directly confirms both the Nov 2019 v1.0/v1.1 dates and the rev1.3 September 2024 respin (commit message mrfixit: rev1.3 as sent for mfg, 2024-09-16), which the prior pass had only inferred from dated file timestamps. The schematic file (mrfixit.sch) was fetched and inspected directly: it shows one LED wired to +3.3V, no MCU, and a connector footprint literally named ..._SMD_SAO, confirming functions/tech.mcu/tech.leds/tech.battery from the source rather than from photos alone. Both saved images were confirmed present in the repo's images/ folder (IMG_20191210_090121.jpg, dated Dec 10 2019; a silhouette artwork PNG matching the corrected character outline files) and visually match the described colors/shape/lit LED. No convention, storefront, price, or quantity information exists anywhere for this project (repo, commit history, or the one third-party Vancouver Hack Space forum post found), so those get_one fields remain correctly empty and event remains other rather than guessed."
+  notes: 'All fields and body sentences were re-verified against primary sources during fact-check. The GitHub commit history for the mr-fixit folder directly confirms both the Nov 2019 v1.0/v1.1 dates and the rev1.3 September 2024 respin (commit message mrfixit: rev1.3 as sent for mfg, 2024-09-16), which the prior pass had only inferred from dated file timestamps. The schematic file (mrfixit.sch) was fetched and inspected directly: it shows one LED wired to +3.3V, no MCU, and a connector footprint literally named ..._SMD_SAO, confirming functions/tech.mcu/tech.leds/tech.battery from the source rather than from photos alone. Both saved images were confirmed present in the repo''s images/ folder (IMG_20191210_090121.jpg, dated Dec 10 2019; a silhouette artwork PNG matching the corrected character outline files) and visually match the described colors/shape/lit LED. No convention, storefront, price, or quantity information exists anywhere for this project (repo, commit history, or the one
+    third-party Vancouver Hack Space forum post found), so those get_one fields remain correctly empty and event remains other rather than guessed.'
 last_modified_date: '2026-09-07'
 ---
 

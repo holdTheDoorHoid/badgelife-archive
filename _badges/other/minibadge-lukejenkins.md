@@ -39,6 +39,7 @@ links:
 - label: github.com/lukejenkins/minibadge
   url: https://github.com/lukejenkins/minibadge
   kind: repo
+  archived: https://web.archive.org/web/20260510061822/https://github.com/lukejenkins/minibadge
 images: []
 contact: {}
 notes: []
@@ -49,21 +50,24 @@ sources:
   title: minibadge (lukejenkins)
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: github-topics); event read as ''unknown''.'
+  archived: https://web.archive.org/web/20260510061822/https://github.com/lukejenkins/minibadge
 - kind: url
   url: https://github.com/lukejenkins/minibadge
-  title: 'GitHub - lukejenkins/minibadge'
+  title: GitHub - lukejenkins/minibadge
   accessed: '2026-09-07'
-  note: 'Repo README confirms this is the minibadge connector specification/component library (v2.0), not a single physical badge or SAO. Apache-2.0 licensed, KiCad/Eagle library files, I2C protocol, CLK sync pin, PROG pin for AVR ISP/ST-Link SWD/PIC ICSP/UART.'
+  note: Repo README confirms this is the minibadge connector specification/component library (v2.0), not a single physical badge or SAO. Apache-2.0 licensed, KiCad/Eagle library files, I2C protocol, CLK sync pin, PROG pin for AVR ISP/ST-Link SWD/PIC ICSP/UART.
+  archived: https://web.archive.org/web/20260510061822/https://github.com/lukejenkins/minibadge
 - kind: url
   url: https://hackaday.com/2019/03/20/introducing-the-shitty-add-on-v1-69bis-standard/
-  title: 'Introducing The Shitty Add-On V1.69bis Standard | Hackaday'
+  title: Introducing The Shitty Add-On V1.69bis Standard | Hackaday
   accessed: '2026-09-07'
-  note: 'Confirms Luke Jenkins'' minibadge standard originated for SAINTCON (used with 5V/3V3/I2C/SPI in under a square inch, over a dozen minibadges built against it) and inspired the Supercon Add-On Add-On (SAOAO) standard.'
+  note: Confirms Luke Jenkins' minibadge standard originated for SAINTCON (used with 5V/3V3/I2C/SPI in under a square inch, over a dozen minibadges built against it) and inspired the Supercon Add-On Add-On (SAOAO) standard.
+  archived: https://web.archive.org/web/20260516210428/https://hackaday.com/2019/03/20/introducing-the-shitty-add-on-v1-69bis-standard/
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-07'
-  notes: 'This is a connector/electrical specification and KiCad/Eagle component library for a minibadge standard (v2.0, Apache-2.0), not a single physical badge or SAO product, so it does not fit this archive''s per-item schema. The standard was created by Luke Jenkins for SAINTCON badges (used with I2C, CLK sync, and a PROG pin for AVR ISP/ST-Link SWD/PIC ICSP/UART), and later inspired the separate Supercon Add-On Add-On (SAOAO) standard. Individual minibadges built to this spec (over a dozen exist per Hackaday) are the kind of items that would deserve their own entries, not this spec repo itself.'
+  notes: This is a connector/electrical specification and KiCad/Eagle component library for a minibadge standard (v2.0, Apache-2.0), not a single physical badge or SAO product, so it does not fit this archive's per-item schema. The standard was created by Luke Jenkins for SAINTCON badges (used with I2C, CLK sync, and a PROG pin for AVR ISP/ST-Link SWD/PIC ICSP/UART), and later inspired the separate Supercon Add-On Add-On (SAOAO) standard. Individual minibadges built to this spec (over a dozen exist per Hackaday) are the kind of items that would deserve their own entries, not this spec repo itself.
 last_modified_date: '2026-09-07'
 ---
 

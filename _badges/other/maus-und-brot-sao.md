@@ -68,11 +68,13 @@ sources:
   title: davedarko.com mirror of the Maus und Brot writeup
   accessed: '2026-09-07'
   note: Mirror of the same writeup on the maker's personal site; no additional detail.
+  archived: https://web.archive.org/web/20260514231025/https://davedarko.com/index.php?page=content/Simple_Add-ons/Add-Ons/2510_Maus_und_Brot.md
 research:
   status: verified
   confidence: low
   last_checked: '2026-09-07'
-  notes: 'Fact-check pass (2026-09-07): re-fetched all three cited sources (GitHub repo root, Add-Ons folder listing, the item''s own writeup on GitHub raw and its davedarko.com mirror) and confirmed the writeup''s wording verbatim, including the "while I''m being in America" line and the Open Days of the Mouse / Bernd das Brot / John Oliver / OSH Park Afterdark details. Confirmed no image file exists for this item in the Add-Ons folder (only the three .md files: 2411_TARS.md, 2411_YoDAWG.md, 2510_Maus_und_Brot.md) and the local images/ directory has none either, so images: [] is correct. Confirmed the repo README describes SAOs generally but does not list or link "Maus und Brot" specifically and states no license, so make_your_own fields are correctly left null/empty rather than guessed. Every non-empty field in this entry is supported by a source that was read; nothing here was invented or contradicted. Confidence stays low because only one substantive source exists, no image, no chip/price/quantity, and no convention is named.'
+  notes: 'Fact-check pass (2026-09-07): re-fetched all three cited sources (GitHub repo root, Add-Ons folder listing, the item''s own writeup on GitHub raw and its davedarko.com mirror) and confirmed the writeup''s wording verbatim, including the "while I''m being in America" line and the Open Days of the Mouse / Bernd das Brot / John Oliver / OSH Park Afterdark details. Confirmed no image file exists for this item in the Add-Ons folder (only the three .md files: 2411_TARS.md, 2411_YoDAWG.md, 2510_Maus_und_Brot.md) and the local images/ directory has none either, so images: [] is correct. Confirmed the repo README describes SAOs generally but does not list or link "Maus und Brot" specifically and states no license, so make_your_own fields are correctly left null/empty rather than guessed. Every non-empty field in this entry is supported by a source that was read; nothing here was invented or contradicted. Confidence stays low because only one substantive source exists, no image, no chip/price/quantity,
+    and no convention is named.'
 last_modified_date: '2026-09-07'
 ---
 

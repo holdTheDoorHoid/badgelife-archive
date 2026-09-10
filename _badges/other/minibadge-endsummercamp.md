@@ -12,7 +12,7 @@ makers:
 - name: End Summer Camp
   url: https://github.com/endsummercamp
 summary: 'The first official End Summer Camp badge with a microcontroller: an RP2040-powered board with 9 RGB(W) LEDs, IR badge-to-badge communication, and a library of built-in light animations.'
-functions: 'Cycles through 12+ built-in light animation effects (selected with a user button), IR remote control and badge-to-badge communication over infrared (NEC/Samsung NEC protocols), USB CDC for debug/control, and USB MIDI so the lights can be driven by standard MIDI messages. Includes automatic over-temperature protection and a torchlight mode (hold the button while powering on).'
+functions: Cycles through 12+ built-in light animation effects (selected with a user button), IR remote control and badge-to-badge communication over infrared (NEC/Samsung NEC protocols), USB CDC for debug/control, and USB MIDI so the lights can be driven by standard MIDI messages. Includes automatic over-temperature protection and a torchlight mode (hold the button while powering on).
 look:
   colors: []
   shape: null
@@ -39,7 +39,7 @@ get_one:
   distribution: []
   where: ''
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/endsummercamp/minibadge/tree/master/antani_hw
   firmware_url: https://github.com/endsummercamp/minibadge/tree/master/antani_sw
   eda_tool: KiCad
@@ -47,15 +47,18 @@ links:
 - label: github.com/endsummercamp/minibadge
   url: https://github.com/endsummercamp/minibadge
   kind: repo
+  archived: https://web.archive.org/web/20251226225553/https://github.com/endsummercamp/minibadge
 images:
-  - file: assets/images/badges/other/minibadge-endsummercamp/e941f90e40.jpg
-    source: "https://github.com/endsummercamp/minibadge"
-    credit: "End Summer Camp"
-    caption: "3D render of the End Summer Camp 2024 minibadge"
-  - file: assets/images/badges/other/minibadge-endsummercamp/2d80121836.jpg
-    source: "https://github.com/endsummercamp/minibadge"
-    credit: "End Summer Camp"
-    caption: "Front view of the End Summer Camp 2024 minibadge PCB"
+- file: assets/images/badges/other/minibadge-endsummercamp/e941f90e40.jpg
+  source: https://github.com/endsummercamp/minibadge
+  credit: End Summer Camp
+  caption: 3D render of the End Summer Camp 2024 minibadge
+  archived: https://web.archive.org/web/20251226225553/https://github.com/endsummercamp/minibadge
+- file: assets/images/badges/other/minibadge-endsummercamp/2d80121836.jpg
+  source: https://github.com/endsummercamp/minibadge
+  credit: End Summer Camp
+  caption: Front view of the End Summer Camp 2024 minibadge PCB
+  archived: https://web.archive.org/web/20251226225553/https://github.com/endsummercamp/minibadge
 contact: {}
 notes: []
 status: released
@@ -65,16 +68,17 @@ sources:
   title: minibadge (endsummercamp)
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: github-topics); event read as ''unknown''.'
+  archived: https://web.archive.org/web/20251226225553/https://github.com/endsummercamp/minibadge
 - kind: url
   url: https://raw.githubusercontent.com/endsummercamp/minibadge/master/README.md
-  title: 'End Summer Camp - Mini Badge 2024 (README)'
+  title: End Summer Camp - Mini Badge 2024 (README)
   accessed: '2026-09-07'
-  note: 'Confirms event/year (End Summer Camp 2024), RP2040 MCU, 9 RGB(W) LEDs, IR comms, USB CDC/MIDI, licensing (GPLv3 firmware, CERN-OHL-P hardware), and full credits list.'
+  note: Confirms event/year (End Summer Camp 2024), RP2040 MCU, 9 RGB(W) LEDs, IR comms, USB CDC/MIDI, licensing (GPLv3 firmware, CERN-OHL-P hardware), and full credits list.
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'Made for "End Summer Camp" (ESC), an Italian hacker camp/CHAOS-style event; no matching event id exists in _data/events.yml, so event is left as "other". Price, quantity made, and distribution/availability were not stated anywhere in the repo or its docs; left empty. No storefront or press coverage found in a short search beyond the GitHub repo itself.'
+  notes: Made for "End Summer Camp" (ESC), an Italian hacker camp/CHAOS-style event; no matching event id exists in _data/events.yml, so event is left as "other". Price, quantity made, and distribution/availability were not stated anywhere in the repo or its docs; left empty. No storefront or press coverage found in a short search beyond the GitHub repo itself.
 last_modified_date: '2026-09-07'
 ---
 

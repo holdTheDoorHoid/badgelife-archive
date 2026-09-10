@@ -14,25 +14,30 @@ makers:
 summary: A miniaturized, Pikachu-themed "Shitty Add-On" with fast, randomly flashing RGB LEDs, built to the SAOv2 (6-pin) connector standard.
 functions: Fast random RGB LED flashing; no other interactivity described.
 look:
-  colors: [yellow]
+  colors:
+  - yellow
   shape: null
-  themes: [animal, mascot, pop culture]
+  themes:
+  - animal
+  - mascot
+  - pop culture
 tech:
   mcu: null
   leds:
     count: null
     type: RGB
-    note: "Described only as \"fast random flashing RGB LEDs\"; exact LED count/part not stated by the maker."
+    note: Described only as "fast random flashing RGB LEDs"; exact LED count/part not stated by the maker.
   display: none
   connectivity: []
   battery: powered by host badge
   sao_version: v2
 get_one:
-  price: '$20'
+  price: $20
   price_usd: 20
   quantity: ''
   availability: unknown
-  distribution: [purchase]
+  distribution:
+  - purchase
   where: Sold on the maker's Tindie store; listing was marked "on a break" (not accepting orders) when checked in September 2026.
 make_your_own:
   open_source: null
@@ -43,11 +48,13 @@ links:
 - label: www.tindie.com/products/twinkletwinkie/twinkletwinkies-mini-fat-pika-rgb-sao
   url: https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-mini-fat-pika-rgb-sao/
   kind: store
+  archived: https://web.archive.org/web/20260503095255/https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-mini-fat-pika-rgb-sao/
 images:
 - file: assets/images/badges/other/mini-fat-pika-rgb-sao/efd96a8649.jpg
-  source: "https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-mini-fat-pika-rgb-sao/"
-  credit: "TwinkleTwinkie"
-  caption: "Mini Fat Pika RGB SAO, product photo"
+  source: https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-mini-fat-pika-rgb-sao/
+  credit: TwinkleTwinkie
+  caption: Mini Fat Pika RGB SAO, product photo
+  archived: https://web.archive.org/web/20260503095255/https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-mini-fat-pika-rgb-sao/
 contact: {}
 notes:
 - Spotted by a research agent while working on a neighbouring entry.
@@ -58,21 +65,18 @@ sources:
   title: Mini Fat Pika RGB SAO
   accessed: '2026-09-07'
   note: 'Found by the archive''s discovery sweep (angle: sheet-research-spotted); event read as ''unknown (product dated 2021-06)''.'
+  archived: https://web.archive.org/web/20260503095255/https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-mini-fat-pika-rgb-sao/
 - kind: url
   url: https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-mini-fat-pika-rgb-sao/
   title: Mini Fat Pika RGB SAO - product listing
   accessed: '2026-09-07'
-  note: "Confirmed price ($20), SAOv2 connector, 3.3v/powered-by-host operation, 46x50mm size, 'fast random flashing RGB LEDs', and that it is a ~30% smaller remake of an earlier 2018 'Fat Pika' SAO; listing shows 'On A Break' (not currently orderable)."
+  note: Confirmed price ($20), SAOv2 connector, 3.3v/powered-by-host operation, 46x50mm size, 'fast random flashing RGB LEDs', and that it is a ~30% smaller remake of an earlier 2018 'Fat Pika' SAO; listing shows 'On A Break' (not currently orderable).
+  archived: https://web.archive.org/web/20260503095255/https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-mini-fat-pika-rgb-sao/
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: >-
-    Maker's Tindie listing is the only reachable source (store front page was blocked by
-    Cloudflare, and web search was unavailable this session). No event/con affiliation is
-    stated anywhere on the listing, so it is left as "other". LED count/part number, MCU,
-    and quantity made are not given by the maker and are left empty rather than guessed.
-    Product image filenames are dated 2021-06-29, used as the best estimate of listing year.
+  notes: Maker's Tindie listing is the only reachable source (store front page was blocked by Cloudflare, and web search was unavailable this session). No event/con affiliation is stated anywhere on the listing, so it is left as "other". LED count/part number, MCU, and quantity made are not given by the maker and are left empty rather than guessed. Product image filenames are dated 2021-06-29, used as the best estimate of listing year.
 last_modified_date: '2026-09-07'
 ---
 
