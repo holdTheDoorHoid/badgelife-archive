@@ -10,8 +10,8 @@ event: saintcon-2023
 year: 2023
 makers:
 - name: bfcoder
-summary: 'A SAINTCON 2023 minibadge for the Home Labs Community, a group that grew out of a 2019 SAINTCON talk into a following of hardware and software enthusiasts, hackers, recyclers, coders, and network people.'
-functions: 'A single through-hole LED, resistor, and header pins to solder; no other electronic function beyond a beginner soldering exercise.'
+summary: A SAINTCON 2023 minibadge for the Home Labs Community, a group that grew out of a 2019 SAINTCON talk into a following of hardware and software enthusiasts, hackers, recyclers, coders, and network people.
+functions: A single through-hole LED, resistor, and header pins to solder; no other electronic function beyond a beginner soldering exercise.
 look:
   colors:
   - white
@@ -39,7 +39,7 @@ get_one:
   availability: free
   distribution:
   - free_drop
-  where: 'Given out at the Home Labs Community table/area at SAINTCON 2023; per the maker, "the only requirement is that you bring yourself and your curiosity."'
+  where: Given out at the Home Labs Community table/area at SAINTCON 2023; per the maker, "the only requirement is that you bring yourself and your curiosity."
 make_your_own:
   open_source: null
   hardware_url: null
@@ -52,19 +52,20 @@ links:
 - label: minibadge.wiki 2023 data export (JSON)
   url: https://minibadge.wiki/2023.json
   kind: doc
+  archived: https://web.archive.org/web/20260611102022/http://minibadge.wiki/2023.json
 images:
-  - file: assets/images/badges/saintcon-2023/homelabs-community-badge/e0a9093b39.png
-    source: "https://minibadge.wiki/?search=HOMELABS%20COMMUNITY%20BADGE&year=2023"
-    credit: "bfcoder"
-    caption: "HOMELABS Community Badge, front"
-  - file: assets/images/badges/saintcon-2023/homelabs-community-badge/02545495ea.png
-    source: "https://minibadge.wiki/?search=HOMELABS%20COMMUNITY%20BADGE&year=2023"
-    credit: "bfcoder"
-    caption: "HOMELABS Community Badge, back"
+- file: assets/images/badges/saintcon-2023/homelabs-community-badge/e0a9093b39.png
+  source: https://minibadge.wiki/?search=HOMELABS%20COMMUNITY%20BADGE&year=2023
+  credit: bfcoder
+  caption: HOMELABS Community Badge, front
+- file: assets/images/badges/saintcon-2023/homelabs-community-badge/02545495ea.png
+  source: https://minibadge.wiki/?search=HOMELABS%20COMMUNITY%20BADGE&year=2023
+  credit: bfcoder
+  caption: HOMELABS Community Badge, back
 contact: {}
 notes:
 - 'category: Community; rarity: Common'
-- 'Soldering difficulty listed as Beginner on minibadge.wiki.'
+- Soldering difficulty listed as Beginner on minibadge.wiki.
 status: released
 sources:
 - kind: url
@@ -77,11 +78,12 @@ sources:
   title: MiniBadge Wiki 2023 data export
   accessed: '2026-09-07'
   note: 'The search page itself renders via JS and shows no results without a live filter match; the underlying 2023.json data export (linked from minibadge.wiki/data/) has the full record: maker, description, soldering instructions/difficulty, category, rarity, and front/back image URLs.'
+  archived: https://web.archive.org/web/20260611102022/http://minibadge.wiki/2023.json
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'Only source found is the minibadge.wiki community database entry (self-reported by the maker/submitter, not independently corroborated elsewhere). Price, quantity made, PCB manufacturer, and any hardware/design files are not stated anywhere found. A short web search for independent coverage of the Home Labs Community at SAINTCON did not turn up additional sources (search budget for this task was limited).'
+  notes: Only source found is the minibadge.wiki community database entry (self-reported by the maker/submitter, not independently corroborated elsewhere). Price, quantity made, PCB manufacturer, and any hardware/design files are not stated anywhere found. A short web search for independent coverage of the Home Labs Community at SAINTCON did not turn up additional sources (search budget for this task was limited).
 last_modified_date: '2026-09-07'
 ---
 

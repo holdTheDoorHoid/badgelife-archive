@@ -10,18 +10,24 @@ event: saintcon-2022
 year: 2022
 makers:
 - name: Jup1t3r
-summary: 'A SAINTCON 2022 minibadge promoting the use of LTE technology in private networks, built around a single LED and resistor.'
-functions: 'Lights a single LED once soldered; carries the "PRIVATE LTE - ARE YOU CONNECTED?" graphic and a wifi/signal icon.'
+summary: A SAINTCON 2022 minibadge promoting the use of LTE technology in private networks, built around a single LED and resistor.
+functions: Lights a single LED once soldered; carries the "PRIVATE LTE - ARE YOU CONNECTED?" graphic and a wifi/signal icon.
 look:
-  colors: [black, yellow]
+  colors:
+  - black
+  - yellow
   shape: rectangle
-  themes: [radio, hardware tool, learn to solder, logo]
+  themes:
+  - radio
+  - hardware tool
+  - learn to solder
+  - logo
 tech:
   mcu: none
   leds:
     count: 1
     type: discrete
-    note: 'Through-hole LED (D1); short leg toward the pad marked RED, long leg toward the pad marked BLUE.'
+    note: Through-hole LED (D1); short leg toward the pad marked RED, long leg toward the pad marked BLUE.
   display: none
   connectivity: []
   battery: null
@@ -31,8 +37,9 @@ get_one:
   price_usd: null
   quantity: ''
   availability: unknown
-  distribution: [village]
-  where: 'Given/traded by people promoting private LTE technology, who "hang out in the Leadership Track" at SAINTCON.'
+  distribution:
+  - village
+  where: Given/traded by people promoting private LTE technology, who "hang out in the Leadership Track" at SAINTCON.
 make_your_own:
   open_source: null
   hardware_url: null
@@ -45,19 +52,22 @@ links:
 - label: minibadge.wiki 2022 data (JSON)
   url: https://minibadge.wiki/2022.json
   kind: doc
+  archived: https://web.archive.org/web/20260611101915/http://minibadge.wiki/2022.json
 images:
 - file: assets/images/badges/saintcon-2022/private-lte-badge/fed0b2dc40.jpg
-  source: "https://minibadge.wiki/2022.json"
-  credit: "Jup1t3r"
-  caption: "Component side: black PCB with a yellow silkscreened 'TE' logo, R1 resistor and D1 LED pads, and three 2-position through headers."
+  source: https://minibadge.wiki/2022.json
+  credit: Jup1t3r
+  caption: 'Component side: black PCB with a yellow silkscreened ''TE'' logo, R1 resistor and D1 LED pads, and three 2-position through headers.'
+  archived: https://web.archive.org/web/20260611101915/http://minibadge.wiki/2022.json
 - file: assets/images/badges/saintcon-2022/private-lte-badge/2ea25a3b6d.jpg
-  source: "https://minibadge.wiki/2022.json"
-  credit: "Jup1t3r"
-  caption: "Graphic side: 'PRIVATE LTE - ARE YOU CONNECTED?' text with a wifi-signal icon in yellow and white on black."
+  source: https://minibadge.wiki/2022.json
+  credit: Jup1t3r
+  caption: 'Graphic side: ''PRIVATE LTE - ARE YOU CONNECTED?'' text with a wifi-signal icon in yellow and white on black.'
+  archived: https://web.archive.org/web/20260611101915/http://minibadge.wiki/2022.json
 contact: {}
 notes:
 - 'category: Official; rarity: Rare'
-- 'minibadge.wiki lists soldering difficulty as Intermediate and quantityMade as 0 (not disclosed).'
+- minibadge.wiki lists soldering difficulty as Intermediate and quantityMade as 0 (not disclosed).
 status: listed
 sources:
 - kind: url
@@ -67,14 +77,15 @@ sources:
   note: 'Found by the archive''s discovery sweep (angle: SAINTCON minibadges (via minibadge.wiki community database)); event read as ''SAINTCON 2022''.'
 - kind: url
   url: https://minibadge.wiki/2022.json
-  title: 'MiniBadge Wiki 2022 data feed'
+  title: MiniBadge Wiki 2022 data feed
   accessed: '2026-09-07'
   note: 'Full record for this badge: maker, description, soldering instructions/difficulty, category, rarity, how to acquire, and front/back image URLs. The search-results page itself is client-rendered and does not carry the record.'
+  archived: https://web.archive.org/web/20260611101915/http://minibadge.wiki/2022.json
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'All facts sourced to the maker-submitted minibadge.wiki community record; no independent maker page, repo, or storefront was found for this specific badge or for "Jup1t3r." Price, quantity made, and open-source status are not disclosed anywhere found.'
+  notes: All facts sourced to the maker-submitted minibadge.wiki community record; no independent maker page, repo, or storefront was found for this specific badge or for "Jup1t3r." Price, quantity made, and open-source status are not disclosed anywhere found.
 last_modified_date: '2026-09-07'
 ---
 

@@ -80,12 +80,22 @@ sources:
   title: AnesidoraCorporation/hh2023hardware
   accessed: '2026-09-08'
   note: Confirms RP2040 hardware design files in KiCad for the Anesidora Mk1.
+- kind: url
+  url: https://badge.team/docs/badges/hackerhotel-2023/
+  title: Hackerhotel 2023 Badge (Anesidora Mk1)
+  accessed: '2026-09-10'
+  note: 'Confirms MCU, power (USB-C + CR2032), MicroPython firmware, and team credits (Pim: hardware/software lead; Sake: challenges; Nikolett S.: artwork). No price, quantity, or images given.'
+- kind: url
+  url: https://github.com/AnesidoraCorporation/hh2023documentation
+  title: AnesidoraCorporation/hh2023documentation
+  accessed: '2026-09-10'
+  note: Puzzle-hunt documentation (memo to visitors, location markers); contains no photos of the badge itself.
 research:
-  status: stub
-  confidence: low
-  last_checked: '2026-09-07'
-  notes: Imported from the community badge sheet; not yet researched. Merged with duplicate entry 'Anesidora Mk1' (hackerhotel-2023-hackerhotel-2023-badge).
-last_modified_date: '2026-09-08'
+  status: researched
+  confidence: high
+  last_checked: '2026-09-10'
+  notes: 'Core facts (MCU, power, firmware, purpose, team) are confirmed by both the maker''s GitHub org and badge.team''s own writeup, which agree. No price or quantity-made figure was published anywhere found. No photo of the physical badge turned up: the hardware repo has KiCad/Gerber files but no rendered images, the documentation repo has only puzzle-hunt PDFs/ODTs, and no image URLs were found on the badge.team page or via search. Left images empty rather than guess.'
+last_modified_date: '2026-09-10'
 redirect_from:
 - /badges/hackerhotel-2023/hackerhotel-2023-badge/
 ---

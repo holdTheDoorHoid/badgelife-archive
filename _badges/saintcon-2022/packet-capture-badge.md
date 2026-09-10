@@ -11,7 +11,7 @@ year: 2022
 makers:
 - name: Jup1t3r
 summary: A SAINTCON 2022 minibadge given out at the Packet Capture Community booth, a beginner-level solder kit with LEDs and pin headers for chaining to other minibadges.
-functions: 'No interactive functions beyond lighting up once soldered; it is a wearable minibadge, not a game or CTF piece.'
+functions: No interactive functions beyond lighting up once soldered; it is a wearable minibadge, not a game or CTF piece.
 look:
   colors: []
   shape: null
@@ -43,14 +43,16 @@ links:
   url: https://minibadge.wiki/?search=PACKET%20CAPTURE%20BADGE&year=2022
   kind: website
 images:
-  - file: assets/images/badges/saintcon-2022/packet-capture-badge/fbe97addbd.jpg
-    source: "https://minibadge.wiki/2022.json"
-    credit: "Jup1t3r"
-    caption: "Packet Capture Badge, front"
-  - file: assets/images/badges/saintcon-2022/packet-capture-badge/80347f0f43.jpg
-    source: "https://minibadge.wiki/2022.json"
-    credit: "Jup1t3r"
-    caption: "Packet Capture Badge, back"
+- file: assets/images/badges/saintcon-2022/packet-capture-badge/fbe97addbd.jpg
+  source: https://minibadge.wiki/2022.json
+  credit: Jup1t3r
+  caption: Packet Capture Badge, front
+  archived: https://web.archive.org/web/20260611101915/http://minibadge.wiki/2022.json
+- file: assets/images/badges/saintcon-2022/packet-capture-badge/80347f0f43.jpg
+  source: https://minibadge.wiki/2022.json
+  credit: Jup1t3r
+  caption: Packet Capture Badge, back
+  archived: https://web.archive.org/web/20260611101915/http://minibadge.wiki/2022.json
 contact: {}
 notes:
 - 'category: Official; rarity: Common'
@@ -66,6 +68,7 @@ sources:
   title: MiniBadge Wiki 2022 data feed (PACKET CAPTURE BADGE entry)
   accessed: '2026-09-07'
   note: 'Underlying community-sheet record for this badge: author Jup1t3r, description, soldering instructions/difficulty, category/rarity, and the front/back image URLs. howToAcquire, boardHouse and quantityMade fields were blank/0 in the source (treated as unknown, not zero).'
+  archived: https://web.archive.org/web/20260611101915/http://minibadge.wiki/2022.json
 research:
   status: researched
   confidence: medium

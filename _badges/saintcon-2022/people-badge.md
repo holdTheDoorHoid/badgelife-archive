@@ -11,17 +11,22 @@ year: 2022
 makers:
 - name: Jup1t3r
 summary: A SAINTCON 2022 minibadge with a fingerprint graphic, issued in different solder-mask colors for each involvement level (attendee, staff, volunteer, speaker).
-functions: 'No interactive function beyond a single onboard LED (D1); it identifies the wearer''s role at the conference by color.'
+functions: No interactive function beyond a single onboard LED (D1); it identifies the wearer's role at the conference by color.
 look:
-  colors: [black, green, yellow]
+  colors:
+  - black
+  - green
+  - yellow
   shape: rectangle
-  themes: [security, minibadge]
+  themes:
+  - security
+  - minibadge
 tech:
   mcu: none
   leds:
     count: 1
     type: null
-    note: 'Silkscreen shows one LED (D1) and a resistor (R1); exact lighting behavior is not documented by the maker.'
+    note: Silkscreen shows one LED (D1) and a resistor (R1); exact lighting behavior is not documented by the maker.
   display: none
   connectivity: []
   battery: null
@@ -31,7 +36,8 @@ get_one:
   price_usd: 0
   quantity: ''
   availability: free
-  distribution: [free_drop]
+  distribution:
+  - free_drop
   where: 'Given out at SAINTCON 2022 based on involvement level: everyone received an ATTENDEE version, with separate STAFF, VOLUNTEER, and SPEAKER variants for those roles.'
 make_your_own:
   open_source: null
@@ -43,14 +49,14 @@ links:
   url: https://minibadge.wiki/?search=PEOPLE%20BADGE&year=2022
   kind: website
 images:
-  - file: assets/images/badges/saintcon-2022/people-badge/ebee0313d3.jpg
-    source: "https://minibadge.wiki/?search=PEOPLE%20BADGE&year=2022"
-    credit: "Jup1t3r"
-    caption: "Front of the STAFF-color PEOPLE minibadge"
-  - file: assets/images/badges/saintcon-2022/people-badge/e0d131051b.jpg
-    source: "https://minibadge.wiki/?search=PEOPLE%20BADGE&year=2022"
-    credit: "Jup1t3r"
-    caption: "Back of the ATTENDEE-color PEOPLE minibadge"
+- file: assets/images/badges/saintcon-2022/people-badge/ebee0313d3.jpg
+  source: https://minibadge.wiki/?search=PEOPLE%20BADGE&year=2022
+  credit: Jup1t3r
+  caption: Front of the STAFF-color PEOPLE minibadge
+- file: assets/images/badges/saintcon-2022/people-badge/e0d131051b.jpg
+  source: https://minibadge.wiki/?search=PEOPLE%20BADGE&year=2022
+  credit: Jup1t3r
+  caption: Back of the ATTENDEE-color PEOPLE minibadge
 contact: {}
 notes:
 - 'category: Official; rarity: Common; soldering difficulty: Beginner (per minibadge.wiki)'
@@ -63,14 +69,15 @@ sources:
   note: 'Found by the archive''s discovery sweep (angle: SAINTCON minibadges (via minibadge.wiki community database)); event read as ''SAINTCON 2022''.'
 - kind: url
   url: https://minibadge.wiki/2022.json
-  title: 'minibadge.wiki 2022 data feed (PEOPLE BADGE entry)'
+  title: minibadge.wiki 2022 data feed (PEOPLE BADGE entry)
   accessed: '2026-09-07'
-  note: 'Underlying JSON the site''s search page renders from; supplied description, category, rarity, soldering difficulty, and front/back image URLs. The visible search page itself is client-rendered and returns no listings to a plain fetch.'
+  note: Underlying JSON the site's search page renders from; supplied description, category, rarity, soldering difficulty, and front/back image URLs. The visible search page itself is client-rendered and returns no listings to a plain fetch.
+  archived: https://web.archive.org/web/20260611101915/http://minibadge.wiki/2022.json
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'All facts trace to the maker''s own minibadge.wiki submission (via its JSON data feed), so this is a primary source, but it is the only source found — no independent confirmation (Hackaday, forums, photos elsewhere) turned up. Quantity made and exact acquisition mechanics (e.g. whether staff/volunteers self-selected a color or were handed one) are not stated. LED behavior is inferred from the PCB silkscreen (a D1/R1 pair) and not documented in the text description, so left partly unconfirmed. No repository, Gerbers, or BOM were found, so make_your_own is empty; the maker mentions a QR-code-linked assembly video but no direct link was recovered.'
+  notes: All facts trace to the maker's own minibadge.wiki submission (via its JSON data feed), so this is a primary source, but it is the only source found — no independent confirmation (Hackaday, forums, photos elsewhere) turned up. Quantity made and exact acquisition mechanics (e.g. whether staff/volunteers self-selected a color or were handed one) are not stated. LED behavior is inferred from the PCB silkscreen (a D1/R1 pair) and not documented in the text description, so left partly unconfirmed. No repository, Gerbers, or BOM were found, so make_your_own is empty; the maker mentions a QR-code-linked assembly video but no direct link was recovered.
 last_modified_date: '2026-09-07'
 ---
 

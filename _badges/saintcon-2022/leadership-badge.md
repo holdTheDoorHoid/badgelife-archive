@@ -10,8 +10,8 @@ event: saintcon-2022
 year: 2022
 makers:
 - name: Handsomkab & Jup1t3r
-summary: 'A SAINTCON 2022 minibadge for the Leadership Community, a track for C-level executives attending the conference.'
-functions: 'A single-LED indicator badge; the LED mounts on the back of the board with a standoff so it can be bent to face outward for a lighting effect.'
+summary: A SAINTCON 2022 minibadge for the Leadership Community, a track for C-level executives attending the conference.
+functions: A single-LED indicator badge; the LED mounts on the back of the board with a standoff so it can be bent to face outward for a lighting effect.
 look:
   colors: []
   shape: null
@@ -22,7 +22,7 @@ tech:
   leds:
     count: 1
     type: discrete
-    note: 'Through-hole LED, hand-soldered on the back of the board with a minimum 1/2" standoff and bent inward; hot glue can be used over the LED for a diffusion effect.'
+    note: Through-hole LED, hand-soldered on the back of the board with a minimum 1/2" standoff and bent inward; hot glue can be used over the LED for a diffusion effect.
   display: null
   connectivity: []
   battery: null
@@ -34,7 +34,7 @@ get_one:
   availability: unknown
   distribution:
   - free_drop
-  where: 'Given to participants in SAINTCON''s Leadership Community, a track for C-level executives.'
+  where: Given to participants in SAINTCON's Leadership Community, a track for C-level executives.
 make_your_own:
   open_source: null
   hardware_url: null
@@ -45,14 +45,14 @@ links:
   url: https://minibadge.wiki/?search=LEADERSHIP%20BADGE&year=2022
   kind: website
 images:
-  - file: assets/images/badges/saintcon-2022/leadership-badge/6e2cfe5cf0.jpg
-    source: "https://minibadge.wiki/?search=LEADERSHIP%20BADGE&year=2022"
-    credit: "Handsomkab & Jup1t3r"
-    caption: "Front of the LEADERSHIP BADGE minibadge"
-  - file: assets/images/badges/saintcon-2022/leadership-badge/3c9c6d2fd8.jpg
-    source: "https://minibadge.wiki/?search=LEADERSHIP%20BADGE&year=2022"
-    credit: "Handsomkab & Jup1t3r"
-    caption: "Back of the LEADERSHIP BADGE minibadge showing soldering points"
+- file: assets/images/badges/saintcon-2022/leadership-badge/6e2cfe5cf0.jpg
+  source: https://minibadge.wiki/?search=LEADERSHIP%20BADGE&year=2022
+  credit: Handsomkab & Jup1t3r
+  caption: Front of the LEADERSHIP BADGE minibadge
+- file: assets/images/badges/saintcon-2022/leadership-badge/3c9c6d2fd8.jpg
+  source: https://minibadge.wiki/?search=LEADERSHIP%20BADGE&year=2022
+  credit: Handsomkab & Jup1t3r
+  caption: Back of the LEADERSHIP BADGE minibadge showing soldering points
 contact: {}
 notes:
 - 'category: Official; rarity: Uncommon'
@@ -65,9 +65,10 @@ sources:
   note: 'Found by the archive''s discovery sweep (angle: SAINTCON minibadges (via minibadge.wiki community database)); event read as ''SAINTCON 2022''.'
 - kind: url
   url: https://minibadge.wiki/2022.json
-  title: 'MiniBadge Wiki data feed (2022.json)'
+  title: MiniBadge Wiki data feed (2022.json)
   accessed: '2026-09-07'
-  note: 'The underlying JSON record behind the minibadge.wiki search page; supplied description, category (Official), rarity (Uncommon), soldering difficulty (Beginner), soldering instructions, how-to-acquire text, and front/back image URLs. quantityMade was recorded as 0, which the site appears to use as "unknown" rather than a literal zero, so quantity was left blank.'
+  note: The underlying JSON record behind the minibadge.wiki search page; supplied description, category (Official), rarity (Uncommon), soldering difficulty (Beginner), soldering instructions, how-to-acquire text, and front/back image URLs. quantityMade was recorded as 0, which the site appears to use as "unknown" rather than a literal zero, so quantity was left blank.
+  archived: https://web.archive.org/web/20260611101915/http://minibadge.wiki/2022.json
 research:
   status: researched
   confidence: medium

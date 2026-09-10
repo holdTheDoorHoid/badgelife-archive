@@ -10,8 +10,8 @@ event: saintcon-2023
 year: 2023
 makers:
 - name: SHIFTY
-summary: 'A SAINTCON 2023 contest minibadge for the "ICS Escape Challenge," an industrial-control-systems escape-room contest run by team SHIFTY.'
-functions: 'Given out to participants of the ICS Escape Challenge contest room at SAINTCON 2023; no interactive electronic function beyond its two LEDs.'
+summary: A SAINTCON 2023 contest minibadge for the "ICS Escape Challenge," an industrial-control-systems escape-room contest run by team SHIFTY.
+functions: Given out to participants of the ICS Escape Challenge contest room at SAINTCON 2023; no interactive electronic function beyond its two LEDs.
 look:
   colors:
   - red
@@ -27,7 +27,7 @@ tech:
   leds:
     count: 2
     type: discrete
-    note: 'D1 is a white LED, D2 is a red LED, per the maker''s soldering instructions.'
+    note: D1 is a white LED, D2 is a red LED, per the maker's soldering instructions.
   display: null
   connectivity: []
   battery: null
@@ -39,7 +39,7 @@ get_one:
   availability: unknown
   distribution:
   - contest
-  where: 'Given to participants who came to play the ICS Escape Challenge contest room at SAINTCON 2023 ("Come participate to get 1 of our 2 challenge badges.").'
+  where: Given to participants who came to play the ICS Escape Challenge contest room at SAINTCON 2023 ("Come participate to get 1 of our 2 challenge badges.").
 make_your_own:
   open_source: null
   hardware_url: null
@@ -51,17 +51,17 @@ links:
   kind: website
 images:
 - file: assets/images/badges/saintcon-2023/ics-escape-challenge-i-failed-badge/0057c92244.png
-  source: "https://minibadge.wiki/?search=ICS%20ESCAPE%20CHALLENGE%20-%20I%20FAILED%20BADGE&year=2023"
-  credit: "SHIFTY"
-  caption: "Front of the ICS Escape Challenge - I Failed badge"
+  source: https://minibadge.wiki/?search=ICS%20ESCAPE%20CHALLENGE%20-%20I%20FAILED%20BADGE&year=2023
+  credit: SHIFTY
+  caption: Front of the ICS Escape Challenge - I Failed badge
 - file: assets/images/badges/saintcon-2023/ics-escape-challenge-i-failed-badge/2bc54996ea.png
-  source: "https://minibadge.wiki/?search=ICS%20ESCAPE%20CHALLENGE%20-%20I%20FAILED%20BADGE&year=2023"
-  credit: "SHIFTY"
-  caption: "Back of the ICS Escape Challenge - I Failed badge"
+  source: https://minibadge.wiki/?search=ICS%20ESCAPE%20CHALLENGE%20-%20I%20FAILED%20BADGE&year=2023
+  credit: SHIFTY
+  caption: Back of the ICS Escape Challenge - I Failed badge
 contact: {}
 notes:
 - 'category: Contest; rarity: Uncommon'
-- 'Minibadge Wiki lists quantityMade as 0, which appears to mean "not recorded" rather than none were made, since the badge was reportedly handed out to contest participants; left get_one.quantity empty rather than guessing.'
+- Minibadge Wiki lists quantityMade as 0, which appears to mean "not recorded" rather than none were made, since the badge was reportedly handed out to contest participants; left get_one.quantity empty rather than guessing.
 status: listed
 sources:
 - kind: url
@@ -71,14 +71,15 @@ sources:
   note: 'Found by the archive''s discovery sweep (angle: SAINTCON minibadges (via minibadge.wiki community database)); event read as ''SAINTCON 2023''.'
 - kind: url
   url: https://minibadge.wiki/2023.json
-  title: 'Minibadge Wiki 2023 data feed (JSON entry for this badge)'
+  title: Minibadge Wiki 2023 data feed (JSON entry for this badge)
   accessed: '2026-09-07'
   note: 'Underlying data record behind the search page: description, soldering instructions (LED colors/positions), category, quantityMade, rarity, and how-to-acquire text.'
+  archived: https://web.archive.org/web/20260611102022/http://minibadge.wiki/2023.json
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'Only source is the community-run Minibadge Wiki (submitted by or on behalf of the maker, SHIFTY); no maker-owned page, repo, or storefront was found for this specific badge. Price, quantity made, board house, and any open-source design files are not stated anywhere found.'
+  notes: Only source is the community-run Minibadge Wiki (submitted by or on behalf of the maker, SHIFTY); no maker-owned page, repo, or storefront was found for this specific badge. Price, quantity made, board house, and any open-source design files are not stated anywhere found.
 last_modified_date: '2026-09-07'
 ---
 

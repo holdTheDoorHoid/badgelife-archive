@@ -5,7 +5,7 @@ parent: Badge Archive
 has_children: true
 has_toc: false
 nav_order: 7982
-nav_exclude: true
+nav_exclude: false
 event: hackaday-belgrade-2018
 ---
 # Hackaday Belgrade 2018

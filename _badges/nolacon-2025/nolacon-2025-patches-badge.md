@@ -8,6 +8,7 @@ nav_exclude: true
 type: badge
 event: nolacon-2025
 year: 2025
+series: Voodoo Heart
 makers:
 - name: Voodoo Heart series
 summary: 'The official NolaCon 2025 Learn-to-Solder badge: a voodoo-doll-themed PCB named "Patches" with swappable limb modules and addressable LEDs, the second entry in the multi-year Voodoo Heart badge series.'
@@ -85,11 +86,11 @@ sources:
   accessed: '2026-09-08'
   note: Confirms the "Patches" narrative framing and links back to the badge page; no additional hardware specifics.
 research:
-  status: stub
-  confidence: low
-  last_checked: '2026-09-07'
-  notes: 'Imported from the community badge sheet; not yet researched. Merged with duplicate entry ''Patches (Voodoo Heart series, badge #2)'' (nolacon-2025-patches-voodoo-heart-series-badge-2).'
-last_modified_date: '2026-09-08'
+  status: researched
+  confidence: medium
+  last_checked: '2026-09-10'
+  notes: 'Confirmed as the real NolaCon 2025 Learn-to-Solder badge via nolacon.com/badge/ and the maker''s VoodooHeart GitHub repo (LED firmware only). No schematic, MCU, PCB files, price, or production quantity have surfaced publicly, so tech.mcu, get_one fields, and hardware_url stay empty. Merged with duplicate entry ''Patches (Voodoo Heart series, badge #2)'' (nolacon-2025-patches-voodoo-heart-series-badge-2). Added series: Voodoo Heart to match the 2024 badge #1 entry, which already carries that field.'
+last_modified_date: '2026-09-10'
 redirect_from:
 - /badges/nolacon-2025/patches-voodoo-heart-series-badge-2/
 ---

@@ -46,6 +46,7 @@ links:
 - label: minibadge.wiki 2023 data feed
   url: https://minibadge.wiki/2023.json
   kind: website
+  archived: https://web.archive.org/web/20260611102022/http://minibadge.wiki/2023.json
 images:
 - file: assets/images/badges/saintcon-2023/ics-escape-challenge-i-survived-badge/3706ea8b11.png
   source: https://minibadge.wiki/?search=ICS%20ESCAPE%20CHALLENGE%20-%20I%20SURVIVED%20BADGE&year=2023
@@ -74,6 +75,7 @@ sources:
   title: minibadge.wiki 2023 data feed
   accessed: '2026-09-07'
   note: 'JSON record backing the search-page listing: description, soldering instructions/difficulty, category, rarity, quantityMade, howToAcquire, and front/back image paths for this badge and its "I FAILED" companion.'
+  archived: https://web.archive.org/web/20260611102022/http://minibadge.wiki/2023.json
 research:
   status: researched
   confidence: medium

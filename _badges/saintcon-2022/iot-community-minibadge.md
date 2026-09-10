@@ -46,15 +46,18 @@ links:
 - label: minibadge.wiki 2022 data (JSON)
   url: https://minibadge.wiki/2022.json
   kind: doc
+  archived: https://web.archive.org/web/20260611101915/http://minibadge.wiki/2022.json
 images:
-  - file: assets/images/badges/saintcon-2022/iot-community-minibadge/0b394cea35.jpg
-    source: "https://minibadge.wiki/2022.json"
-    credit: "minibadge.wiki (Jup1t3r)"
-    caption: "IOT Community minibadge, front"
-  - file: assets/images/badges/saintcon-2022/iot-community-minibadge/67cf79e853.jpg
-    source: "https://minibadge.wiki/2022.json"
-    credit: "minibadge.wiki (Jup1t3r)"
-    caption: "IOT Community minibadge, back"
+- file: assets/images/badges/saintcon-2022/iot-community-minibadge/0b394cea35.jpg
+  source: https://minibadge.wiki/2022.json
+  credit: minibadge.wiki (Jup1t3r)
+  caption: IOT Community minibadge, front
+  archived: https://web.archive.org/web/20260611101915/http://minibadge.wiki/2022.json
+- file: assets/images/badges/saintcon-2022/iot-community-minibadge/67cf79e853.jpg
+  source: https://minibadge.wiki/2022.json
+  credit: minibadge.wiki (Jup1t3r)
+  caption: IOT Community minibadge, back
+  archived: https://web.archive.org/web/20260611101915/http://minibadge.wiki/2022.json
 contact: {}
 notes:
 - 'category: Official; rarity: Common'
@@ -70,12 +73,13 @@ sources:
   url: https://minibadge.wiki/2022.json
   title: minibadge.wiki 2022 data export
   accessed: '2026-09-07'
-  note: 'Confirmed maker (Jup1t3r), category/rarity, description, soldering difficulty, and front/back image filenames for the 2022 IOT Community minibadge.'
+  note: Confirmed maker (Jup1t3r), category/rarity, description, soldering difficulty, and front/back image filenames for the 2022 IOT Community minibadge.
+  archived: https://web.archive.org/web/20260611101915/http://minibadge.wiki/2022.json
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'The search-filter page at minibadge.wiki renders its listing client-side via JavaScript and shows no results when fetched statically; the underlying 2022.json data export had the actual entry. No maker page, repo, or independent coverage of this specific minibadge was found beyond the minibadge.wiki community database, so price/quantity beyond "free drop" and any electrical details (LED type/count) remain unconfirmed. Assembly notes mention a single LED and resistor with four 2-position headers, consistent with a simple SAINTCON minibadge design, but tech.leds count/type is left null since the source did not state a component count or LED type explicitly.'
+  notes: The search-filter page at minibadge.wiki renders its listing client-side via JavaScript and shows no results when fetched statically; the underlying 2022.json data export had the actual entry. No maker page, repo, or independent coverage of this specific minibadge was found beyond the minibadge.wiki community database, so price/quantity beyond "free drop" and any electrical details (LED type/count) remain unconfirmed. Assembly notes mention a single LED and resistor with four 2-position headers, consistent with a simple SAINTCON minibadge design, but tech.leds count/type is left null since the source did not state a component count or LED type explicitly.
 last_modified_date: '2026-09-07'
 ---
 
