@@ -13,7 +13,7 @@ makers:
 - name: davedarko
   url: https://hackaday.io/davedarko
 summary: A 19x19 mm Iron Man themed Simple Add-on Add-on (red PCB with ENIG finish and a backlit gold Iron Man helmet mask) that plugs into the Yo Dawg SAO baseplate via a 1.27 mm 3-pin header; KiCad files live in the repo's badges/IronMan folder.
-functions: 'Backlit LED graphic (Iron Man helmet face lights up amber/gold); nests onto the Yo Dawg SAO mainboard alongside other SAOAOs (hackaday logo, skull-and-wrenches, LED matrix, etc).'
+functions: Backlit LED graphic (Iron Man helmet face lights up amber/gold); nests onto the Yo Dawg SAO mainboard alongside other SAOAOs (hackaday logo, skull-and-wrenches, LED matrix, etc).
 look:
   colors:
   - red
@@ -51,18 +51,21 @@ links:
 - label: hackaday.io/project/198060-yo-dawg-sao-introducing-saoao
   url: https://hackaday.io/project/198060-yo-dawg-sao-introducing-saoao
   kind: hackaday
-- label: "Marc Merlin: Pasadena Hackaday Supercon 2024 Yo Dawg Micro SAO and SMD Soldering"
+  archived: https://web.archive.org/web/20260219013204/https://hackaday.io/project/198060-yo-dawg-sao-introducing-saoao
+- label: 'Marc Merlin: Pasadena Hackaday Supercon 2024 Yo Dawg Micro SAO and SMD Soldering'
   url: https://marc.merlins.org/perso/electronics/post_2024-11-02_Pasadena-Hackaday-Supercon-2024-Yo-Dawg-Micro-SAO-and-SMD-Soldering.html
   kind: article
 images:
 - file: assets/images/badges/supercon-2024/yo-dawg-saoao-iron-man/81423ef002.jpg
-  source: "https://hackaday.io/project/198060-yo-dawg-sao-introducing-saoao"
-  credit: "davedarko"
-  caption: "Assembled Iron Man SAOAO lit up, alongside other SAOAO designs from the Yo Dawg SAO project"
+  source: https://hackaday.io/project/198060-yo-dawg-sao-introducing-saoao
+  credit: davedarko
+  caption: Assembled Iron Man SAOAO lit up, alongside other SAOAO designs from the Yo Dawg SAO project
+  archived: https://web.archive.org/web/20260219013204/https://hackaday.io/project/198060-yo-dawg-sao-introducing-saoao
 - file: assets/images/badges/supercon-2024/yo-dawg-saoao-iron-man/79e728088a.png
-  source: "https://hackaday.io/project/198060-yo-dawg-sao-introducing-saoao"
-  credit: "davedarko"
-  caption: "Bare red ENIG Iron Man SAOAO PCBs fresh from the panel, alongside other Yo Dawg SAOAO designs"
+  source: https://hackaday.io/project/198060-yo-dawg-sao-introducing-saoao
+  credit: davedarko
+  caption: Bare red ENIG Iron Man SAOAO PCBs fresh from the panel, alongside other Yo Dawg SAOAO designs
+  archived: https://web.archive.org/web/20260219013204/https://hackaday.io/project/198060-yo-dawg-sao-introducing-saoao
 contact: {}
 notes: []
 status: released
@@ -74,29 +77,30 @@ sources:
   note: Found via the project's link list; intake pass identified this item here.
 - kind: url
   url: https://hackaday.io/project/198060-yo-dawg-sao-introducing-saoao
-  title: "Yo Dawg SAO - introducing SAOAO"
+  title: Yo Dawg SAO - introducing SAOAO
   accessed: '2026-09-07'
-  note: "Project logs confirm davedarko ordered 100 red Iron Man SAOAO boards with ENIG finish from JLCPCB for Supercon 2024 (Supercon 8), alongside 100 Yo Dawg SAO baseplates and 100 hackaday-logo SAOAOs; brought 100 SAOs and 200 SAOAOs total to give away/trade at the con. Source of both saved images."
+  note: Project logs confirm davedarko ordered 100 red Iron Man SAOAO boards with ENIG finish from JLCPCB for Supercon 2024 (Supercon 8), alongside 100 Yo Dawg SAO baseplates and 100 hackaday-logo SAOAOs; brought 100 SAOs and 200 SAOAOs total to give away/trade at the con. Source of both saved images.
+  archived: https://web.archive.org/web/20260219013204/https://hackaday.io/project/198060-yo-dawg-sao-introducing-saoao
 - kind: url
   url: https://raw.githubusercontent.com/davedarko/YoDawgSAO/master/README.md
-  title: "YoDawgSAO README"
+  title: YoDawgSAO README
   accessed: '2026-09-07'
-  note: "Confirms 19x19mm size, 1.27mm 3-pin GND-VCC-GND header standard, and that the project was made for the 2024 Hackaday Supercon add-on contest."
+  note: Confirms 19x19mm size, 1.27mm 3-pin GND-VCC-GND header standard, and that the project was made for the 2024 Hackaday Supercon add-on contest.
 - kind: url
   url: https://api.github.com/repos/davedarko/YoDawgSAO/commits?path=badges/IronMan
-  title: "Commit history for badges/IronMan"
+  title: Commit history for badges/IronMan
   accessed: '2026-09-07'
-  note: "Single commit by davedarko (2024-10-11) confirms he authored the Iron Man board files (KiCad project, netlist, production zip)."
+  note: Single commit by davedarko (2024-10-11) confirms he authored the Iron Man board files (KiCad project, netlist, production zip).
 - kind: url
   url: https://marc.merlins.org/perso/electronics/post_2024-11-02_Pasadena-Hackaday-Supercon-2024-Yo-Dawg-Micro-SAO-and-SMD-Soldering.html
-  title: "Pasadena Hackaday Supercon 2024 Yo Dawg Micro SAO and SMD Soldering"
+  title: Pasadena Hackaday Supercon 2024 Yo Dawg Micro SAO and SMD Soldering
   accessed: '2026-09-07'
-  note: "Marc Merlin's comment on the Hackaday.io project thanks davedarko for donating him one of the SAOAOs and confirms it was received at Supercon 2024; his blog post documents soldering a Yo Dawg micro SAO (theme of the specific unit he soldered is not confirmed as Iron Man in the post's surviving text)."
+  note: Marc Merlin's comment on the Hackaday.io project thanks davedarko for donating him one of the SAOAOs and confirms it was received at Supercon 2024; his blog post documents soldering a Yo Dawg micro SAO (theme of the specific unit he soldered is not confirmed as Iron Man in the post's surviving text).
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-07'
-  notes: 'MCU/LED chip type not stated anywhere found; davedarko himself noted in the 09/30/2024 log that he was not sure he had "the LEDs" for all 100 Iron Man boards, suggesting a simple discrete LED behind the mask rather than an addressable chip -- left tech.leds empty rather than guessing. Price is inferred as free from the give-away/trade framing in the project logs (no listed sale price found). Quantity of 100 is the number of bare PCBs ordered; unclear how many were actually assembled and handed out. No separate storefront or listing exists -- this was a con giveaway/trade item, not sold.'
+  notes: MCU/LED chip type not stated anywhere found; davedarko himself noted in the 09/30/2024 log that he was not sure he had "the LEDs" for all 100 Iron Man boards, suggesting a simple discrete LED behind the mask rather than an addressable chip -- left tech.leds empty rather than guessing. Price is inferred as free from the give-away/trade framing in the project logs (no listed sale price found). Quantity of 100 is the number of bare PCBs ordered; unclear how many were actually assembled and handed out. No separate storefront or listing exists -- this was a con giveaway/trade item, not sold.
 last_modified_date: '2026-09-07'
 ---
 

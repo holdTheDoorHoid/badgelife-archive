@@ -15,9 +15,15 @@ makers:
 summary: An unofficial, firmware-free badge built by Danish hackerspace Labitat for 35C3, implementing a discrete SR-latch (flip-flop) one-bit memory circuit behind Congress-themed artwork.
 functions: Two push buttons set/reset a one-bit SR-latch memory made of discrete transistors; two orange LEDs show the current state, while 20 reverse-mounted green and blue LEDs backlight the front artwork. No microcontroller or firmware; the "hack" is assembly and understanding the circuit.
 look:
-  colors: [green, blue, orange]
+  colors:
+  - green
+  - blue
+  - orange
   shape: rectangle
-  themes: [hardware tool, learn to solder, ctf]
+  themes:
+  - hardware tool
+  - learn to solder
+  - ctf
 tech:
   mcu: none
   leds:
@@ -35,9 +41,9 @@ get_one:
   quantity: ''
   availability: unknown
   distribution: []
-  where: 'Distributed to Labitat-affiliated attendees at 35C3 (Leipzig, Dec 2018); exact channel not documented in the sources found.'
+  where: Distributed to Labitat-affiliated attendees at 35C3 (Leipzig, Dec 2018); exact channel not documented in the sources found.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/flummer/35c3-badge
   firmware_url: null
   gerbers_url: https://github.com/flummer/35c3-badge
@@ -52,13 +58,13 @@ links:
   kind: repo
 images:
 - file: assets/images/badges/35c3-2018/35c3-labitat-indie-badge/6c59de962c.jpg
-  source: "https://github.com/flummer/35c3-badge"
-  credit: "Thomas Flummer"
-  caption: "Assembled 35C3 Labitat Indie Badge showing SR-latch circuit and LED artwork"
+  source: https://github.com/flummer/35c3-badge
+  credit: Thomas Flummer
+  caption: Assembled 35C3 Labitat Indie Badge showing SR-latch circuit and LED artwork
 contact: {}
 notes:
 - Unofficial SR-latch PCB conference badge brought to 35C3 by Danish hackerspace Labitat. Found by the event-year sweep, task ccc-adjacent.
-- 'Sweep listed the maker only as "Labitat"; the badge.gallery writeup and the linked GitHub repo credit designer Thomas Flummer (working for/with Labitat) as the individual creator.'
+- Sweep listed the maker only as "Labitat"; the badge.gallery writeup and the linked GitHub repo credit designer Thomas Flummer (working for/with Labitat) as the individual creator.
 status: listed
 sources:
 - kind: url
@@ -80,8 +86,14 @@ research:
   status: researched
   confidence: medium
   last_checked: '2026-09-08'
-  notes: 'Core facts (maker, function, hardware) confirmed by badge.gallery and the maker''s own GitHub repo. Could not find price, quantity made, distribution channel, BOM, or a license for the design files. No independent photo of the badge beyond the one in the repo''s PHOTOS folder was found.'
-last_modified_date: '2026-09-08'
+  notes: Core facts (maker, function, hardware) confirmed by badge.gallery and the maker's own GitHub repo. Could not find price, quantity made, distribution channel, BOM, or a license for the design files. No independent photo of the badge beyond the one in the repo's PHOTOS folder was found.
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/35c3-2018/35c3-labitat-indie-badge.glb
+  method: kicad
+  source_file: 35c3_badge.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 483760
 ---
 
 The 35C3 Labitat Indie Badge is an unofficial, hacker-made badge that Danish hackerspace Labitat brought to the 35th Chaos Communication Congress in Leipzig in December 2018, designed by Thomas Flummer. Unlike most badgelife projects of the era, it carries no microcontroller or firmware at all: the badge is a discrete-component SR-latch (flip-flop) circuit built from transistors, resistors, and two push buttons, with two orange LEDs showing which state the latch is holding. The rest of its 22 LEDs — ten green and ten blue, reverse-mounted so their light shines through the board — backlight Congress-themed artwork on the front of the PCB.

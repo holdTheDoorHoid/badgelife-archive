@@ -35,7 +35,7 @@ get_one:
   distribution: []
   where: ''
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/unwiredben/button-video
   firmware_url: https://github.com/unwiredben/button-video
   eda_tool: null
@@ -51,9 +51,9 @@ links:
   kind: website
 images:
 - file: assets/images/badges/supercon-2024/video-button-sao/1c61defa01.jpg
-  source: "https://hackaday.io/project/197669-video-button-sao"
-  credit: "Ben Combee"
-  caption: "Video Button SAO assembled from a WaveShare RP2040-LCD-0.99-B module and Adafruit ISP adapter, playing video on its round display"
+  source: https://hackaday.io/project/197669-video-button-sao
+  credit: Ben Combee
+  caption: Video Button SAO assembled from a WaveShare RP2040-LCD-0.99-B module and Adafruit ISP adapter, playing video on its round display
 contact: {}
 notes: []
 status: released
@@ -77,12 +77,14 @@ sources:
   url: https://hackaday.io/project/197669-video-button-sao/details
   title: Video Button SAO (project details / log)
   accessed: '2026-09-07'
-  note: "Fact-check pass. Confirms Supercon 8 SAO Contest context. Its \"Connectivity Problems\" section states the IMU and SAO I2C connector share the RP2040's I2C1 peripheral and can't be used simultaneously, so IMU-over-SAO was attempted but not functional. Confirms the final build ran at 125MHz/~24fps/2.95V/40mA after an earlier 270-275MHz overclock proved too power-hungry for the badge."
+  note: Fact-check pass. Confirms Supercon 8 SAO Contest context. Its "Connectivity Problems" section states the IMU and SAO I2C connector share the RP2040's I2C1 peripheral and can't be used simultaneously, so IMU-over-SAO was attempted but not functional. Confirms the final build ran at 125MHz/~24fps/2.95V/40mA after an earlier 270-275MHz overclock proved too power-hungry for the badge.
+  archived: https://web.archive.org/web/20260516212648/https://hackaday.io/project/197669-video-button-sao/details
 research:
   status: verified
   confidence: high
   last_checked: '2026-09-07'
-  notes: Fact-check pass corrected two overstated claims from the prior research pass. (1) The entry had stated the SAO "exposes" the WaveShare module's accelerometer/gyroscope IMU to the host badge over I2C as a working feature; the hackaday.io project log's "Connectivity Problems" section (details subpage) says the maker found the IMU and the SAO connector share the RP2040's I2C1 peripheral and "can't really use the IMU while processing requests from the badge" — so this was an attempted, non-functional feature, not a delivered one. Corrected summary, functions, and body accordingly. (2) The body had stated flatly that the RP2040 "is overclocked to 275MHz to keep video playback smooth"; the hackaday.io log and GitHub README together show the final SAO build actually ran at the standard 125MHz (~24fps, 2.95V/40mA) because the 270-275MHz overclock drew too much current for the badge's power pins — corrected to describe both stages. (3) The second saved image (688ecdc3fe.jpg) was a hand-drawn I2C pinout sketch mislabeled as "playing video on its round display"; it did not show the item and was removed, and the caption on the remaining photo was corrected to describe what it actually shows. All other non-empty fields (maker, event, MCU, display module/resolution, connectivity, MIT license and repo links, shape, status) were confirmed directly against the hackaday.io project page and the unwiredben/button-video GitHub repo/README. Slides.com deck (slides.com/unwiredben/tinyplayer) still returns a 404 and could not be checked. Price, quantity made, and availability remain unstated anywhere found; left empty rather than guessed.
+  notes: Fact-check pass corrected two overstated claims from the prior research pass. (1) The entry had stated the SAO "exposes" the WaveShare module's accelerometer/gyroscope IMU to the host badge over I2C as a working feature; the hackaday.io project log's "Connectivity Problems" section (details subpage) says the maker found the IMU and the SAO connector share the RP2040's I2C1 peripheral and "can't really use the IMU while processing requests from the badge" — so this was an attempted, non-functional feature, not a delivered one. Corrected summary, functions, and body accordingly. (2) The body had stated flatly that the RP2040 "is overclocked to 275MHz to keep video playback smooth"; the hackaday.io log and GitHub README together show the final SAO build actually ran at the standard 125MHz (~24fps, 2.95V/40mA) because the 270-275MHz overclock drew too much current for the badge's power pins — corrected to describe both stages. (3) The second saved image (688ecdc3fe.jpg) was a hand-drawn
+    I2C pinout sketch mislabeled as "playing video on its round display"; it did not show the item and was removed, and the caption on the remaining photo was corrected to describe what it actually shows. All other non-empty fields (maker, event, MCU, display module/resolution, connectivity, MIT license and repo links, shape, status) were confirmed directly against the hackaday.io project page and the unwiredben/button-video GitHub repo/README. Slides.com deck (slides.com/unwiredben/tinyplayer) still returns a 404 and could not be checked. Price, quantity made, and availability remain unstated anywhere found; left empty rather than guessed.
 last_modified_date: '2026-09-07'
 ---
 

@@ -35,7 +35,7 @@ get_one:
   - free_drop
   where: Hand-soldered by davedarko and brought to Supercon 2024 for people to trade onto their Yo Dawg SAO baseplate; not sold.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/davedarko/YoDawgSAO/tree/main/badges/xHainLogo
   firmware_url: null
   eda_tool: KiCad
@@ -46,6 +46,7 @@ links:
 - label: hackaday.io/project/198060-yo-dawg-sao-introducing-saoao
   url: https://hackaday.io/project/198060-yo-dawg-sao-introducing-saoao
   kind: hackaday
+  archived: https://web.archive.org/web/20260219013204/https://hackaday.io/project/198060-yo-dawg-sao-introducing-saoao
 images: []
 contact: {}
 notes: []
@@ -63,14 +64,16 @@ sources:
   note: Confirms the xHainLogo SAOAO has its own KiCad PCB, production Gerber zip, and reference SVG artwork (xHainLogo.svg, silkscreen and soldermask-stop variants) in the repo; no photo of the assembled board is present.
 - kind: url
   url: https://hackaday.io/project/198060-yo-dawg-sao-introducing-saoao
-  title: 'Yo Dawg SAO - introducing SAOAO (Hackaday.io project 198060)'
+  title: Yo Dawg SAO - introducing SAOAO (Hackaday.io project 198060)
   accessed: '2026-09-07'
   note: 'Project description, dimensions/pinout, and a 09/30/2024 log entry: "100 yo-dawg baseplates ... 100 iron man add-ons ... and some with the logo of my favorite hackspace on it" and a 09/25/2024 log stating "I''m bringing 100 SAOs and 200 SAOAOs to supercon."'
+  archived: https://web.archive.org/web/20260219013204/https://hackaday.io/project/198060-yo-dawg-sao-introducing-saoao
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: The Hackaday.io project page and repo confirm the xHain-logo variant exists among the SAOAO batch davedarko brought to Supercon 8 (2024), but neither source gives it a named quantity the way the Iron Man and Hackaday-logo variants got ("100" each) — the log only says "some with the logo of my favorite hackspace on it," so quantity is left blank rather than guessed. No LED/chip is mentioned for this specific variant (only the Iron Man and Hackaday-logo boards are described as getting RGB LEDs/faders), so tech fields are set to none/null. No photo of the assembled xHainLogo board was found — the repo's xHainLogo.svg/xHainLogoSilk.svg/xHainLogoStop.svg are vector artwork sources for the PCB, not photos, and the project's cover photo (showing Super Cluster, Iron Man, and a skull-and-wrenches badge) does not include the xHain logo design, so no image was saved. PCB color/finish for this specific variant is not stated (only the Iron Man boards are noted as ordered in red with ENIG), so look.colors is left empty.
+  notes: The Hackaday.io project page and repo confirm the xHain-logo variant exists among the SAOAO batch davedarko brought to Supercon 8 (2024), but neither source gives it a named quantity the way the Iron Man and Hackaday-logo variants got ("100" each) — the log only says "some with the logo of my favorite hackspace on it," so quantity is left blank rather than guessed. No LED/chip is mentioned for this specific variant (only the Iron Man and Hackaday-logo boards are described as getting RGB LEDs/faders), so tech fields are set to none/null. No photo of the assembled xHainLogo board was found — the repo's xHainLogo.svg/xHainLogoSilk.svg/xHainLogoStop.svg are vector artwork sources for the PCB, not photos, and the project's cover photo (showing Super Cluster, Iron Man, and a skull-and-wrenches badge) does not include the xHain logo design, so no image was saved. PCB color/finish for this specific variant is not stated (only the Iron Man boards are noted as ordered in red with ENIG), so
+    look.colors is left empty.
 last_modified_date: '2026-09-07'
 ---
 

@@ -42,18 +42,20 @@ links:
 - label: mastodon.social/@simenzhor/113266947534371773
   url: https://mastodon.social/@simenzhor/113266947534371773
   kind: social
+  archived: https://web.archive.org/web/20260310043648/https://mastodon.social/@simenzhor/113266947534371773
 - label: mastodon.social/@simenzhor/113269966183426558
   url: https://mastodon.social/@simenzhor/113269966183426558
   kind: social
 images:
 - file: assets/images/badges/supercon-2024/wolverine-sao/9ea6bd1e8e.jpg
-  source: "https://mastodon.social/@simenzhor/113269966183426558"
-  credit: "Simen E. Sørensen"
-  caption: "Close-up of the milled Wolverine SAO showing the razor-thin claws and steep inner-angle routing"
+  source: https://mastodon.social/@simenzhor/113269966183426558
+  credit: Simen E. Sørensen
+  caption: Close-up of the milled Wolverine SAO showing the razor-thin claws and steep inner-angle routing
 - file: assets/images/badges/supercon-2024/wolverine-sao/d9addaf965.jpg
-  source: "https://mastodon.social/@simenzhor/113266947534371773"
-  credit: "Simen E. Sørensen"
-  caption: "Video still of the finished Wolverine SAO fabricated by PCBWay"
+  source: https://mastodon.social/@simenzhor/113266947534371773
+  credit: Simen E. Sørensen
+  caption: Video still of the finished Wolverine SAO fabricated by PCBWay
+  archived: https://web.archive.org/web/20260310043648/https://mastodon.social/@simenzhor/113266947534371773
 contact: {}
 notes: []
 status: listed
@@ -63,21 +65,23 @@ sources:
   title: 'Simen E. Sørensen: "The absolute madlads at PCBWay went full send and…" - Mastodon'
   accessed: '2026-09-06'
   note: Found via the project's link list; intake pass identified this item here.
+  archived: https://web.archive.org/web/20260310043648/https://mastodon.social/@simenzhor/113266947534371773
 - kind: url
   url: https://mastodon.social/@simenzhor/113266947534371773
   title: 'Simen E. Sørensen: "The absolute madlads at PCBWay went full send and…" - Mastodon'
   accessed: '2026-09-07'
-  note: "Post text (2024-10-07): PCBWay fabricated the razor-thin claws the maker designed; he had put off ordering for half a year expecting them to refuse the job. Hashtags #hackaday #supercon #sao #pcbart. Attached video shows the finished part; not sponsored."
+  note: 'Post text (2024-10-07): PCBWay fabricated the razor-thin claws the maker designed; he had put off ordering for half a year expecting them to refuse the job. Hashtags #hackaday #supercon #sao #pcbart. Attached video shows the finished part; not sponsored.'
+  archived: https://web.archive.org/web/20260310043648/https://mastodon.social/@simenzhor/113266947534371773
 - kind: url
   url: https://mastodon.social/@simenzhor/113269966183426558
   title: 'Simen E. Sørensen: "Not sure how well the absolute manufacturing nigh…" - Mastodon'
   accessed: '2026-09-07'
-  note: "Follow-up post (2024-10-08) with a close-up photo: calls out the steep inner-angle milling between head and blade and a small hole between hand and face/connector, remarking on how tiny the routing bit must have been."
+  note: 'Follow-up post (2024-10-08) with a close-up photo: calls out the steep inner-angle milling between head and blade and a small hole between hand and face/connector, remarking on how tiny the routing bit must have been.'
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: Both sources are the maker's own Mastodon posts (high trust for what they cover), but neither states price, quantity made, distribution method, availability, MCU/LEDs/SAO header version, or open-source status, so those fields are left empty rather than guessed. No Hackaday.io page, storefront, repo, or Marvel-SAO "series" reference was found in the material reachable this pass (web search quota was exhausted mid-task, so a broader search for a store listing or project repo was not completed). The #supercon hashtag and October 2024 posting date support the supercon-2024 event assignment, but neither post explicitly names Supercon by year.
+  notes: Both sources are the maker's own Mastodon posts (high trust for what they cover), but neither states price, quantity made, distribution method, availability, MCU/LEDs/SAO header version, or open-source status, so those fields are left empty rather than guessed. No Hackaday.io page, storefront, repo, or Marvel-SAO "series" reference was found in the material reachable this pass (web search quota was exhausted mid-task, so a broader search for a store listing or project repo was not completed). The
 last_modified_date: '2026-09-07'
 ---
 

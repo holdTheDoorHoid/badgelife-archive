@@ -36,7 +36,7 @@ get_one:
   distribution: []
   where: ''
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/flummer/37c3
   firmware_url: null
   eda_tool: KiCad
@@ -57,16 +57,22 @@ sources:
   note: Confirmed maker, chip (NXP NT3H2111W0FHKH NTAG I2C Plus 1K), StemmaQT/Qwiic I2C connector, KiCad v7 design tool, CC BY-SA 4.0 license, and that it is inspired by/copied from the BornHack 2023 badge electronics.
 images:
 - file: assets/images/badges/37c3-2023/37c3-nfc-badge/361a443b42.jpg
-  source: "https://github.com/flummer/37c3"
-  credit: "Thomas Flummer"
-  caption: "37c3 NFC badge, front and back, standing"
+  source: https://github.com/flummer/37c3
+  credit: Thomas Flummer
+  caption: 37c3 NFC badge, front and back, standing
 contact: {}
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-08'
   notes: Maker's own GitHub repo confirms the badge, chip, connector, license, and design tool. No price, quantity made, or distribution details are published anywhere in the repo, so those fields are left empty. No independent press coverage (Hackaday, Tindie, etc.) was found; confidence is medium rather than high because everything traces to the one repo.
-last_modified_date: '2026-09-08'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/37c3-2023/37c3-nfc-badge.glb
+  method: kicad
+  source_file: 37c3_badge.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 80648
 ---
 
 The 37c3 NFC Badge is a small, independent hardware badge that Thomas Flummer designed for the Chaos Communication Congress 37C3 in 2023. It is built around an NXP NTAG I2C Plus (NT3H2111W0FHKH) chip, giving it a passive NFC interface alongside a StemmaQT/Qwiic-compatible I2C connector for wired communication with other boards. The badge ships preloaded with an NDEF link record pointing back to its own GitHub repository, and its 1K of onboard memory can be rewritten with apps such as NXP's TagWriter, with optional register-level write protection on the RF and I2C interfaces independently.

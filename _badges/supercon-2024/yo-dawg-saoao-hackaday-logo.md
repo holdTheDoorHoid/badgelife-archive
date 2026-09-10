@@ -40,7 +40,7 @@ get_one:
   - free_drop
   where: Handed out at Supercon 2024 alongside the other Yo Dawg SAOAO boards; davedarko brought "100 SAOs and 200 SAOAOs" to the con, including 100 of this hackaday-logo variant.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/davedarko/YoDawgSAO/tree/main/badges/hackadayLogo
   firmware_url: null
   eda_tool: KiCad
@@ -54,6 +54,7 @@ links:
 - label: hackaday.io/project/198060-yo-dawg-sao-introducing-saoao
   url: https://hackaday.io/project/198060-yo-dawg-sao-introducing-saoao
   kind: hackaday
+  archived: https://web.archive.org/web/20260219013204/https://hackaday.io/project/198060-yo-dawg-sao-introducing-saoao
 images: []
 contact: {}
 notes: []
@@ -71,9 +72,10 @@ sources:
   note: 'Design brief: 19x19mm SAOAO concept for the Supercon 2024 add-on contest, 1.27mm GND-VCC-GND 3-pin header, MIT license.'
 - kind: url
   url: https://hackaday.io/project/198060-yo-dawg-sao-introducing-saoao
-  title: 'Yo Dawg SAO -- introducing SAOAO! - Hackaday.io'
+  title: Yo Dawg SAO -- introducing SAOAO! - Hackaday.io
   accessed: '2026-09-07'
   note: Team (davedarko, Marc MERLIN), Supercon 2024 contest entry, and mention of "100 hackaday logo boards" ordered plus "100 SAOs and 200 SAOAOs" brought to Supercon.
+  archived: https://web.archive.org/web/20260219013204/https://hackaday.io/project/198060-yo-dawg-sao-introducing-saoao
 - kind: url
   url: https://raw.githubusercontent.com/davedarko/YoDawgSAO/main/badges/hackadayLogo/hackadayLogo.kicad_sch
   title: hackadayLogo.kicad_sch
@@ -83,7 +85,7 @@ research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'No photo of the assembled/soldered board was found anywhere in the repo or on the Hackaday.io project page -- only KiCad source files and a reference SVG of the Hackaday jolly-wrencher artwork (the design source, not a picture of the item), so images is left empty. Price and current availability were not stated anywhere; these were free giveaways at Supercon rather than a sold item, so price/price_usd are left blank and availability is unknown post-event. The repo folder for this variant is named "hackadayLogo" but the board is officially called a "SAOAO" (Simple Add-on Add-on); series field added since the repo documents several sibling SAOAO designs (Iron Man, xHain logo, LED super-cluster) under the same Yo Dawg concept.'
+  notes: No photo of the assembled/soldered board was found anywhere in the repo or on the Hackaday.io project page -- only KiCad source files and a reference SVG of the Hackaday jolly-wrencher artwork (the design source, not a picture of the item), so images is left empty. Price and current availability were not stated anywhere; these were free giveaways at Supercon rather than a sold item, so price/price_usd are left blank and availability is unknown post-event. The repo folder for this variant is named "hackadayLogo" but the board is officially called a "SAOAO" (Simple Add-on Add-on); series field added since the repo documents several sibling SAOAO designs (Iron Man, xHain logo, LED super-cluster) under the same Yo Dawg concept.
 last_modified_date: '2026-09-07'
 ---
 

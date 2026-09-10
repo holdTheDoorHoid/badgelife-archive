@@ -12,7 +12,7 @@ makers:
 - name: davedarko
   url: https://hackaday.io/davedarko
 summary: A Supercon 2024 add-on-contest SAO baseplate with room for three tiny 19x19 mm 'Simple Add-on Add-ons' (SAOAOs) on 1.27 mm GND-VCC-GND 3-pin headers, riffing on the 'Yo Dawg, I heard you like add-ons on your badges' meme; davedarko brought about 100 baseplates to Supercon.
-functions: 'Baseplate for mounting up to three tiny SAOAO modules; individual SAOAO modules are typically simple LED add-ons (blinky/meme boards), with no I2C requirement.'
+functions: Baseplate for mounting up to three tiny SAOAO modules; individual SAOAO modules are typically simple LED add-ons (blinky/meme boards), with no I2C requirement.
 look:
   colors: []
   shape: null
@@ -29,14 +29,14 @@ tech:
 get_one:
   price: ''
   price_usd: null
-  quantity: 'davedarko brought about 100 Yo Dawg SAO baseplates and 200 SAOAOs to Supercon 2024'
+  quantity: davedarko brought about 100 Yo Dawg SAO baseplates and 200 SAOAOs to Supercon 2024
   availability: free
   distribution:
   - contest
   - free_drop
-  where: 'Handed out / built at Hackaday Supercon 2024 as part of the SAO add-on contest; open design so others can also fab their own.'
+  where: Handed out / built at Hackaday Supercon 2024 as part of the SAO add-on contest; open design so others can also fab their own.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/davedarko/YoDawgSAO
   firmware_url: null
   eda_tool: KiCad
@@ -47,17 +47,20 @@ links:
 - label: hackaday.io/project/198060-yo-dawg-sao-introducing-saoao
   url: https://hackaday.io/project/198060-yo-dawg-sao-introducing-saoao
   kind: hackaday
+  archived: https://web.archive.org/web/20260219013204/https://hackaday.io/project/198060-yo-dawg-sao-introducing-saoao
 - label: hackaday.com/2024/10/01/2024-sao-contest-weve-got-saos-for-your-saos
   url: https://hackaday.com/2024/10/01/2024-sao-contest-weve-got-saos-for-your-saos/
   kind: article
+  archived: https://web.archive.org/web/20260307052723/https://hackaday.com/2024/10/01/2024-sao-contest-weve-got-saos-for-your-saos/
 - label: marc.merlins.org/perso/electronics/post_2024-11-02_Pasadena-Hackaday-Supercon-2024-Yo-Dawg-Micro-SAO-and-SMD-Soldering.html
   url: https://marc.merlins.org/perso/electronics/post_2024-11-02_Pasadena-Hackaday-Supercon-2024-Yo-Dawg-Micro-SAO-and-SMD-Soldering.html
   kind: website
 images:
 - file: assets/images/badges/supercon-2024/yo-dawg-sao/873acad980.png
-  source: "https://hackaday.com/2024/10/01/2024-sao-contest-weve-got-saos-for-your-saos/"
-  credit: "davedarko / Hackaday"
-  caption: "Supercon Add-On Add-Ons (SAOAOs) in production"
+  source: https://hackaday.com/2024/10/01/2024-sao-contest-weve-got-saos-for-your-saos/
+  credit: davedarko / Hackaday
+  caption: Supercon Add-On Add-Ons (SAOAOs) in production
+  archived: https://web.archive.org/web/20260307052723/https://hackaday.com/2024/10/01/2024-sao-contest-weve-got-saos-for-your-saos/
 contact: {}
 notes: []
 status: released
@@ -71,27 +74,29 @@ sources:
   url: https://github.com/davedarko/YoDawgSAO
   title: davedarko/YoDawgSAO - Simple Add-on Add-ons
   accessed: '2026-09-07'
-  note: 'Confirmed dimensions (19x19mm), 1.27mm GND-VCC-GND header, MIT-licensed KiCad hardware files.'
+  note: Confirmed dimensions (19x19mm), 1.27mm GND-VCC-GND header, MIT-licensed KiCad hardware files.
 - kind: url
   url: https://hackaday.io/project/198060-yo-dawg-sao-introducing-saoao
-  title: 'Yo Dawg SAO - introducing SAOAO'
+  title: Yo Dawg SAO - introducing SAOAO
   accessed: '2026-09-07'
   note: 'Maker project page: team includes Marc MERLIN, pinout description (VCC middle, GND outer pins for mirror-protection), 100 baseplates / 200 SAOAOs brought to Supercon, PCBs ordered from JLCPCB, multiple SAOAO variants (Iron Man, Hackaday logo) made by contributors.'
+  archived: https://web.archive.org/web/20260219013204/https://hackaday.io/project/198060-yo-dawg-sao-introducing-saoao
 - kind: url
   url: https://hackaday.com/2024/10/01/2024-sao-contest-weve-got-saos-for-your-saos/
   title: '2024 SAO Contest: We''ve Got SAOs For Your SAOs'
   accessed: '2026-09-07'
-  note: 'Hackaday coverage of the 2024 Supercon SAO contest confirming quantities brought and that the standard is open for anyone to fabricate their own; source of the production photo used here.'
+  note: Hackaday coverage of the 2024 Supercon SAO contest confirming quantities brought and that the standard is open for anyone to fabricate their own; source of the production photo used here.
+  archived: https://web.archive.org/web/20260307052723/https://hackaday.com/2024/10/01/2024-sao-contest-weve-got-saos-for-your-saos/
 - kind: url
   url: https://marc.merlins.org/perso/electronics/post_2024-11-02_Pasadena-Hackaday-Supercon-2024-Yo-Dawg-Micro-SAO-and-SMD-Soldering.html
   title: 'Pasadena Hackaday Supercon 2024: Yo Dawg Micro SAO and SMD Soldering'
   accessed: '2026-09-07'
-  note: 'A builder''s account of soldering a Yo Dawg Micro SAO/SAOAO by hand; confirms the tiny modules were fiddly SMD work and lacked clear polarity marking on some units.'
+  note: A builder's account of soldering a Yo Dawg Micro SAO/SAOAO by hand; confirms the tiny modules were fiddly SMD work and lacked clear polarity marking on some units.
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-07'
-  notes: 'Price is not stated anywhere found - these were given out/self-assembled at Supercon rather than sold, so get_one.price is left empty and availability set to free. No LED count/type or specific SAOAO circuit details found since SAOAO is an open standard for third-party add-on modules rather than a fixed product; tech.leds left null accordingly. No dedicated storefront exists.'
+  notes: Price is not stated anywhere found - these were given out/self-assembled at Supercon rather than sold, so get_one.price is left empty and availability set to free. No LED count/type or specific SAOAO circuit details found since SAOAO is an open standard for third-party add-on modules rather than a fixed product; tech.leds left null accordingly. No dedicated storefront exists.
 last_modified_date: '2026-09-07'
 ---
 

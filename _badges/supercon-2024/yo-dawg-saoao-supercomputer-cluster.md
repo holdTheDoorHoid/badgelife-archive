@@ -12,7 +12,7 @@ makers:
 - name: davedarko
   url: https://hackaday.io/davedarko
 summary: A 19x19 mm supercomputer-cluster themed Simple Add-on Add-on (SAOAO) built entirely from 0805 LEDs and resistors, made for davedarko's Yo Dawg SAO project at the Supercon 2024 add-on contest.
-functions: 'Self-blinking LEDs meant to mimic the flickering status lights of a rack of computers; no microcontroller, driven directly off the SAOAO connector.'
+functions: Self-blinking LEDs meant to mimic the flickering status lights of a rack of computers; no microcontroller, driven directly off the SAOAO connector.
 look:
   colors: []
   shape: null
@@ -39,7 +39,7 @@ get_one:
   - contest
   where: Handed out/traded at Supercon 2024 alongside the rest of the Yo Dawg SAOAO batch; the maker brought extras and encouraged attendees to make their own from the published files.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/davedarko/YoDawgSAO/tree/main/badges/super_computer_custer_0805
   firmware_url: null
   eda_tool: KiCad
@@ -50,15 +50,16 @@ links:
 - label: hackaday.io/project/198060-yo-dawg-sao-introducing-saoao
   url: https://hackaday.io/project/198060-yo-dawg-sao-introducing-saoao
   kind: hackaday
+  archived: https://web.archive.org/web/20260219013204/https://hackaday.io/project/198060-yo-dawg-sao-introducing-saoao
 images:
 - file: assets/images/badges/supercon-2024/yo-dawg-saoao-supercomputer-cluster/79e728088a.png
-  source: "https://hackaday.io/project/198060-yo-dawg-sao-introducing-saoao/log/233282-i-dont-think"
-  credit: "davedarko"
-  caption: "Bare, unpopulated SAOAO PCBs fresh from fabrication, including the supercomputer-cluster design"
+  source: https://hackaday.io/project/198060-yo-dawg-sao-introducing-saoao/log/233282-i-dont-think
+  credit: davedarko
+  caption: Bare, unpopulated SAOAO PCBs fresh from fabrication, including the supercomputer-cluster design
 - file: assets/images/badges/supercon-2024/yo-dawg-saoao-supercomputer-cluster/9c82b683d8.jpg
-  source: "https://hackaday.io/project/198060-yo-dawg-sao-introducing-saoao/log/233282-i-dont-think"
-  credit: "davedarko"
-  caption: "Assembled, working Simple Add-on Add-ons from the same batch, LEDs lit"
+  source: https://hackaday.io/project/198060-yo-dawg-sao-introducing-saoao/log/233282-i-dont-think
+  credit: davedarko
+  caption: Assembled, working Simple Add-on Add-ons from the same batch, LEDs lit
 contact: {}
 notes: []
 status: released
@@ -77,7 +78,7 @@ sources:
   url: https://raw.githubusercontent.com/davedarko/YoDawgSAO/main/badges/super_computer_custer_0805/super_computer_custer_0805.kicad_sch
   title: super_computer_custer_0805.kicad_sch (raw)
   accessed: '2026-09-07'
-  note: "Schematic symbol count gives parts: 32x Device:LED, 4x Device:R, one 3-pin SAOAO connector, no MCU."
+  note: 'Schematic symbol count gives parts: 32x Device:LED, 4x Device:R, one 3-pin SAOAO connector, no MCU.'
 - kind: url
   url: https://raw.githubusercontent.com/davedarko/YoDawgSAO/main/README.md
   title: YoDawgSAO README
@@ -85,14 +86,15 @@ sources:
   note: Project background - 19x19mm size, 1.27mm 3-pin GND-VCC-GND header, made for the Supercon 2024 (Supercon 8) add-on contest.
 - kind: url
   url: https://hackaday.io/project/198060-yo-dawg-sao-introducing-saoao/log/233282-i-dont-think
-  title: "Yo Dawg SAO project log: \"I don't think\" (09/30/2024)"
+  title: 'Yo Dawg SAO project log: "I don''t think" (09/30/2024)'
   accessed: '2026-09-07'
   note: Maker's own account that 10 "supercomputer" boards were made using self-blinking LEDs, alongside 100 baseplates, hackaday-logo, Iron Man, and hackspace-logo variants; source of both saved photos.
 research:
   status: verified
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'Fact-check pass (2026-09-07): re-fetched all four cited sources plus the GitHub commit API for the badge folder and the project''s main Hackaday.io page. All confirmed as written - sole commit by davedarko (2024-10-11); schematic has exactly 32x Device:LED, 4x Device:R, a 3-pin Conn_01x03_Socket, no MCU; README gives 19x19mm size and 1.27mm GND-VCC-GND header for the "Hackaday Supercon add-on contest 2024"; the log post''s own text says "10 supercomputers where I''m going to ise self blinking LEDs" alongside 100 baseplates, iron-man, hackaday-logo and hackspace-logo variants; the production/ subfolder does contain netlist.ipc and a fabrication zip as described. Went further on the two saved images than the original pass did: pixel comparison against the live Hackaday.io log images confirms they are the same photos, and zooming into the bare-PCB shot shows several boards printed "SUPER ... CLUSTER" and the lit-board shot shows that same amber "SUPER CLUSTER" LED matrix lit up on the stack - so, better than "wider batch only," both images do specifically show this design, not just the batch it shipped with. The get_one distribution/where text (contest give-away, brought to Supercon to hand out) remains an inference from the project''s general "bringing 100 SAOs and 200 SAOAOs to supercon, feel free to make your own" note rather than a per-board confirmation, and no individual storefront or price listing exists for this specific SAO - kept at medium confidence for that reason. No contradictions found; nothing needed to be blanked or corrected.'
+  notes: 'Fact-check pass (2026-09-07): re-fetched all four cited sources plus the GitHub commit API for the badge folder and the project''s main Hackaday.io page. All confirmed as written - sole commit by davedarko (2024-10-11); schematic has exactly 32x Device:LED, 4x Device:R, a 3-pin Conn_01x03_Socket, no MCU; README gives 19x19mm size and 1.27mm GND-VCC-GND header for the "Hackaday Supercon add-on contest 2024"; the log post''s own text says "10 supercomputers where I''m going to ise self blinking LEDs" alongside 100 baseplates, iron-man, hackaday-logo and hackspace-logo variants; the production/ subfolder does contain netlist.ipc and a fabrication zip as described. Went further on the two saved images than the original pass did: pixel comparison against the live Hackaday.io log images confirms they are the same photos, and zooming into the bare-PCB shot shows several boards printed "SUPER ... CLUSTER" and the lit-board shot shows that same amber "SUPER CLUSTER" LED matrix lit up on
+    the stack - so, better than "wider batch only," both images do specifically show this design, not just the batch it shipped with. The get_one distribution/where text (contest give-away, brought to Supercon to hand out) remains an inference from the project''s general "bringing 100 SAOs and 200 SAOAOs to supercon, feel free to make your own" note rather than a per-board confirmation, and no individual storefront or price listing exists for this specific SAO - kept at medium confidence for that reason. No contradictions found; nothing needed to be blanked or corrected.'
 last_modified_date: '2026-09-07'
 ---
 

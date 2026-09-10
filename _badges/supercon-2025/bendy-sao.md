@@ -11,8 +11,8 @@ year: 2024
 makers:
 - name: debraansell
   url: https://hackaday.io/debraansell
-summary: 'An articulated PCB "balloon man" SAO built from multiple hinged boards that flex and twist while staying electrically connected through spring-contact slip rings.'
-functions: 'Twelve WS2812-compatible LEDs light up inside the translucent segments and animate as the boards are bent or twisted; runs standalone off the SAO connector or with an attached XIAO/QT Py microcontroller.'
+summary: An articulated PCB "balloon man" SAO built from multiple hinged boards that flex and twist while staying electrically connected through spring-contact slip rings.
+functions: Twelve WS2812-compatible LEDs light up inside the translucent segments and animate as the boards are bent or twisted; runs standalone off the SAO connector or with an attached XIAO/QT Py microcontroller.
 look:
   colors: []
   shape: null
@@ -38,7 +38,7 @@ get_one:
   - contest
   where: ''
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/geekmomprojects/BendySAO
   firmware_url: https://github.com/geekmomprojects/BendySAO
   eda_tool: null
@@ -46,18 +46,21 @@ links:
 - label: hackaday.io/project/198408-bendy-sao
   url: https://hackaday.io/project/198408-bendy-sao
   kind: hackaday
+  archived: https://web.archive.org/web/20251119164527/https://hackaday.io/project/198408-bendy-sao
 - label: github.com/geekmomprojects/BendySAO
   url: https://github.com/geekmomprojects/BendySAO
   kind: repo
 images:
-  - file: assets/images/badges/supercon-2025/bendy-sao/936afa7f06.jpg
-    source: "https://hackaday.io/project/198408-bendy-sao"
-    credit: "Debra Ansell"
-    caption: "The Bendy SAO, an articulated PCB balloon-man figure that flexes while staying electrically connected"
-  - file: assets/images/badges/supercon-2025/bendy-sao/77fc0fea23.jpg
-    source: "https://hackaday.io/project/198408-bendy-sao"
-    credit: "Debra Ansell"
-    caption: "Close-up of the Bendy SAO's articulated PCB joints and spring-contact slip rings"
+- file: assets/images/badges/supercon-2025/bendy-sao/936afa7f06.jpg
+  source: https://hackaday.io/project/198408-bendy-sao
+  credit: Debra Ansell
+  caption: The Bendy SAO, an articulated PCB balloon-man figure that flexes while staying electrically connected
+  archived: https://web.archive.org/web/20251119164527/https://hackaday.io/project/198408-bendy-sao
+- file: assets/images/badges/supercon-2025/bendy-sao/77fc0fea23.jpg
+  source: https://hackaday.io/project/198408-bendy-sao
+  credit: Debra Ansell
+  caption: Close-up of the Bendy SAO's articulated PCB joints and spring-contact slip rings
+  archived: https://web.archive.org/web/20251119164527/https://hackaday.io/project/198408-bendy-sao
 contact: {}
 notes: []
 status: released
@@ -67,28 +70,23 @@ sources:
   title: Bendy SAO
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: supercon-addons); event read as ''Supercon 8 Add-On Contest — Fine Art category winner''.'
+  archived: https://web.archive.org/web/20251119164527/https://hackaday.io/project/198408-bendy-sao
 - kind: url
   url: https://hackaday.io/project/198408-bendy-sao
   title: Bendy SAO project page
   accessed: '2026-09-07'
   note: 'Core facts: maker (Debra Ansell), made for Supercon 8 (2024) SAO contest, ATtiny3224, 12 WS2812 LEDs, spring-contact hinge design, open-source design/firmware on GitHub.'
+  archived: https://web.archive.org/web/20251119164527/https://hackaday.io/project/198408-bendy-sao
 - kind: url
   url: https://github.com/geekmomprojects/BendySAO
   title: geekmomprojects/BendySAO
   accessed: '2026-09-07'
-  note: 'Confirms open-source hardware and firmware; notes the design differs between a SuperCon America 2024 version and a SuperCon Europe 2025 version.'
+  note: Confirms open-source hardware and firmware; notes the design differs between a SuperCon America 2024 version and a SuperCon Europe 2025 version.
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: >-
-    Made for the Supercon 8 (2024) SAO contest, but the maker's repo also documents a
-    distinct revision released at SuperCon Europe 2025 — kept under this archive's
-    supercon-2025 event folder since that is where it was already filed, but the
-    original/primary version is the 2024 one. Price, quantity made, and current
-    availability were not stated on either the Hackaday.io project page or the GitHub
-    repo, so those fields are left empty. PCB color/shape were not clearly described in
-    the text sources reviewed; left empty rather than guessed from thumbnails.
+  notes: Made for the Supercon 8 (2024) SAO contest, but the maker's repo also documents a distinct revision released at SuperCon Europe 2025 — kept under this archive's supercon-2025 event folder since that is where it was already filed, but the original/primary version is the 2024 one. Price, quantity made, and current availability were not stated on either the Hackaday.io project page or the GitHub repo, so those fields are left empty. PCB color/shape were not clearly described in the text sources reviewed; left empty rather than guessed from thumbnails.
 last_modified_date: '2026-09-07'
 ---
 

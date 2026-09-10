@@ -415,5 +415,19 @@
    "eagle->kicad ok"
   ],
   "src": "confBadgeV1.brd"
+ },
+ "35c3-2018-35c3-labitat-indie-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 483760,
+  "tried": [],
+  "src": "35c3_badge.kicad_pcb"
+ },
+ "37c3-2023-37c3-nfc-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 80648,
+  "tried": [],
+  "src": "37c3_badge.kicad_pcb"
  }
 }

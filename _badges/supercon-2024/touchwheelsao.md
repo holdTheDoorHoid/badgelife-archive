@@ -47,9 +47,11 @@ links:
 - label: hackaday.io/project/199100-touchwheelsao
   url: https://hackaday.io/project/199100-touchwheelsao
   kind: hackaday
+  archived: https://web.archive.org/web/20260419022058/https://hackaday.io/project/199100-touchwheelsao
 - label: github.com/todbot/TouchwheelSAO
   url: https://github.com/todbot/TouchwheelSAO/
   kind: repo
+  archived: https://web.archive.org/web/20250918122417/https://github.com/todbot/TouchwheelSAO
 - label: TouchwheelSAO gerbers (production files)
   url: https://todbot.github.io/TouchwheelSAO/schematics/TouchwheelSAO/production/TouchWheelSAO.zip
   kind: fab
@@ -64,18 +66,22 @@ images:
   source: https://github.com/todbot/TouchwheelSAO/
   credit: todbot
   caption: Render of the TouchwheelSAO board
+  archived: https://web.archive.org/web/20250918122417/https://github.com/todbot/TouchwheelSAO
 - file: assets/images/badges/supercon-2024/touchwheelsao/6c091a95e4.jpg
   source: https://github.com/todbot/TouchwheelSAO/
   credit: todbot
   caption: Render of the TouchwheelSAO board showing the touch pads and LEDs
+  archived: https://web.archive.org/web/20250918122417/https://github.com/todbot/TouchwheelSAO
 - file: assets/images/badges/supercon-2024/touchwheelsao/3ec72ad4a2.jpg
   source: https://github.com/todbot/TouchwheelSAO
   credit: todbot
   caption: 3D render of the Touchwheel SAO board, front view
+  archived: https://web.archive.org/web/20250918122417/https://github.com/todbot/TouchwheelSAO
 - file: assets/images/badges/supercon-2024/touchwheelsao/6c091a95e4.jpg
   source: https://github.com/todbot/TouchwheelSAO
   credit: todbot
   caption: 3D render of the Touchwheel SAO board, alternate angle
+  archived: https://web.archive.org/web/20250918122417/https://github.com/todbot/TouchwheelSAO
 contact: {}
 notes: []
 status: released
@@ -85,11 +91,13 @@ sources:
   title: TouchwheelSAO
   accessed: '2026-09-06'
   note: Found via the project's link list; intake pass identified this item here.
+  archived: https://web.archive.org/web/20260419022058/https://hackaday.io/project/199100-touchwheelsao
 - kind: url
   url: https://github.com/todbot/TouchwheelSAO/
   title: todbot/TouchwheelSAO
   accessed: '2026-09-07'
   note: Repo README and firmware confirm features, ATtiny816 MCU, three RGB LEDs plus a rear status LED, I2C register map, GPL-3.0 license, and links to gerbers/BOM/schematic. Design notes show the chip package was switched from QFN to SOIC and back to QFN during design (Sep 2024).
+  archived: https://web.archive.org/web/20250918122417/https://github.com/todbot/TouchwheelSAO
 - kind: url
   url: https://api.github.com/repos/todbot/TouchwheelSAO
   title: todbot/TouchwheelSAO (GitHub API metadata)
