@@ -35,7 +35,7 @@ get_one:
   price_usd: 45
   quantity: ''
   availability: available
-  availability_note: 'Uberflux listing showed 4 remaining as of 2026-09-07.'
+  availability_note: Uberflux listing showed 4 remaining as of 2026-09-07.
   distribution:
   - purchase
   where: Sold assembled and tested via Uberflux.
@@ -51,19 +51,20 @@ links:
 - label: GizmoLab on Tindie
   url: https://www.tindie.com/stores/gizmolab/
   kind: store
+  archived: https://web.archive.org/web/20260503125321/https://www.tindie.com/stores/gizmolab/
 images:
-  - file: assets/images/badges/other/he-meme-man-electronic-pin-badge/dbf056dea3.jpg
-    source: "https://uberflux.com/product/GZL-2"
-    credit: "GizmoLab (hyuma78)"
-    caption: "He-Meme Man electronic pin badge, front view"
-  - file: assets/images/badges/other/he-meme-man-electronic-pin-badge/40fa67d2ea.jpg
-    source: "https://uberflux.com/product/GZL-2"
-    credit: "GizmoLab (hyuma78)"
-    caption: "He-Meme Man electronic pin badge, alternate view"
+- file: assets/images/badges/other/he-meme-man-electronic-pin-badge/dbf056dea3.jpg
+  source: https://uberflux.com/product/GZL-2
+  credit: GizmoLab (hyuma78)
+  caption: He-Meme Man electronic pin badge, front view
+- file: assets/images/badges/other/he-meme-man-electronic-pin-badge/40fa67d2ea.jpg
+  source: https://uberflux.com/product/GZL-2
+  credit: GizmoLab (hyuma78)
+  caption: He-Meme Man electronic pin badge, alternate view
 contact: {}
 notes:
 - 'Uberflux. $45, status: ships.'
-- 'Powered by either a CR2032 coin cell or a host badge''s SAO connector; the maker''s listing warns there is no reverse-protection diode, so the coin cell must be removed before plugging into SAO power to avoid overheating.'
+- Powered by either a CR2032 coin cell or a host badge's SAO connector; the maker's listing warns there is no reverse-protection diode, so the coin cell must be removed before plugging into SAO power to avoid overheating.
 status: released
 sources:
 - kind: url
@@ -73,9 +74,9 @@ sources:
   note: Primary product listing; price, quantity remaining, power options, and warning about missing reverse-protection diode.
 - kind: url
   url: https://x.com/thegizmolab/status/1780486786231251273
-  title: "thegizmolab on X: My new He-Man badge, compatible with SAO connector"
+  title: 'thegizmolab on X: My new He-Man badge, compatible with SAO connector'
   accessed: '2026-09-07'
-  note: Maker's own announcement post for a related He-Man badge, confirming SAO compatibility and Tindie storefront; used hashtags including #defcon but does not state the badge was made for a specific event/year.
+  note: Maker's own announcement post for a related He-Man badge, confirming SAO compatibility and Tindie storefront; used hashtags including
 research:
   status: verified
   confidence: medium

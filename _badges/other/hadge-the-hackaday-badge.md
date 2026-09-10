@@ -14,8 +14,8 @@ makers:
 - name: Michele Perla
   role: hardware design lead
 - name: Hack-a-Day / Hackaday.io community (51-member collaborative team, incl. Mike Szczys, Benchoff)
-summary: 'HaDge is a community-designed wearable badge built by Hackaday.io contributors as "a physical extension of the hackaday.io community," meant to form a mesh network (the "Sub-Etha network") between wearers at events.'
-functions: 'Displays user profile info and messages from the Hackaday community; mesh-networks with other HaDge badges over radio (with a planned internet gateway); IR transmit/receive; touch buttons for interaction.'
+summary: HaDge is a community-designed wearable badge built by Hackaday.io contributors as "a physical extension of the hackaday.io community," meant to form a mesh network (the "Sub-Etha network") between wearers at events.
+functions: Displays user profile info and messages from the Hackaday community; mesh-networks with other HaDge badges over radio (with a planned internet gateway); IR transmit/receive; touch buttons for interaction.
 look:
   colors: []
   shape: null
@@ -24,7 +24,7 @@ look:
   - logo
 tech:
   mcu: Atmel SAM D21 (later revised toward SAM R21 with integrated radio)
-  leds: 
+  leds:
     type: WS2812B
     note: multiple RGB LEDs
   display: 2.4" color TFT LCD (240x320)
@@ -38,9 +38,9 @@ get_one:
   quantity: ''
   availability: unknown
   distribution: []
-  where: 'Intended for distribution to Hackaday.io community members at conferences Hackaday attended; no evidence of general retail sale.'
+  where: Intended for distribution to Hackaday.io community members at conferences Hackaday attended; no evidence of general retail sale.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/Hack-a-Day/HaDge_HW
   firmware_url: null
   eda_tool: KiCad
@@ -54,11 +54,12 @@ links:
 - label: 'Developed on Hackaday: It''s a Badge. No, It''s the HaDge (Hackaday.com)'
   url: https://hackaday.com/2015/10/26/developed-on-hackaday-its-a-badge-no-its-the-hadge/
   kind: article
+  archived: https://web.archive.org/web/20260420095651/https://hackaday.com/2015/10/26/developed-on-hackaday-its-a-badge-no-its-the-hadge/
 images:
 - file: assets/images/badges/other/hadge-the-hackaday-badge/dec7a912b9.png
-  source: "https://hackaday.io/project/3009-hadge-the-hackaday-badge"
-  credit: "Anool Mahidharia / HaDge team"
-  caption: "HaDge project render/photo"
+  source: https://hackaday.io/project/3009-hadge-the-hackaday-badge
+  credit: Anool Mahidharia / HaDge team
+  caption: HaDge project render/photo
 contact: {}
 notes:
 - 'Not tied to a single named convention: the project was designed as a general Hackaday-community badge meant to be deployed at "every event" Hackaday attended, so no single event id in _data/events.yml matches it. Left under event: other.'
@@ -76,9 +77,10 @@ sources:
   note: 'Project overview: maker, features (TFT display, WS2812B LEDs, touch, IR, mesh radio), SAM D21 MCU, $35 BOM target, LiPo battery, KiCad hardware/firmware/software repos.'
 - kind: url
   url: https://hackaday.com/2015/10/26/developed-on-hackaday-its-a-badge-no-its-the-hadge/
-  title: 'Developed On Hackaday – It''s A Badge. No, It''s The HaDge | Hackaday'
+  title: Developed On Hackaday – It's A Badge. No, It's The HaDge | Hackaday
   accessed: '2026-09-07'
-  note: 'Confirms Michele Perla as hardware design lead and Anool Mahidharia coordinating; describes Sub-Etha mesh network concept and a SAM R21-based HACK dev kit; article dated Oct 2015, still in design/announcement stage.'
+  note: Confirms Michele Perla as hardware design lead and Anool Mahidharia coordinating; describes Sub-Etha mesh network concept and a SAM R21-based HACK dev kit; article dated Oct 2015, still in design/announcement stage.
+  archived: https://web.archive.org/web/20260420095651/https://hackaday.com/2015/10/26/developed-on-hackaday-its-a-badge-no-its-the-hadge/
 - kind: url
   url: https://github.com/Hack-a-Day/HaDge_HW
   title: 'GitHub - Hack-a-Day/HaDge_HW: A wearable thing for Hackaday folks.'
@@ -88,7 +90,7 @@ research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'Core facts (maker, MCU, display, LEDs, battery, $35 BOM target, KiCad hardware files) confirmed on the maker''s own Hackaday.io project page and a Hackaday.com "Developed on Hackaday" article. Could not find a firmware repo URL, a final production quantity, actual distribution event(s)/dates, or confirmation the badge was ever finished and handed out versus remaining a community design project (sources describe it as still in development as of late 2015). look.colors and look.shape left empty since no clear photo of a finished physical unit with colors was found beyond the project render. Price is a target BOM cost, not a retail/sale price, so get_one.price left blank and price_usd holds the $35 figure with that caveat in mind.'
+  notes: Core facts (maker, MCU, display, LEDs, battery, $35 BOM target, KiCad hardware files) confirmed on the maker's own Hackaday.io project page and a Hackaday.com "Developed on Hackaday" article. Could not find a firmware repo URL, a final production quantity, actual distribution event(s)/dates, or confirmation the badge was ever finished and handed out versus remaining a community design project (sources describe it as still in development as of late 2015). look.colors and look.shape left empty since no clear photo of a finished physical unit with colors was found beyond the project render. Price is a target BOM cost, not a retail/sale price, so get_one.price left blank and price_usd holds the $35 figure with that caveat in mind.
 last_modified_date: '2026-09-07'
 ---
 

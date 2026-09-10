@@ -11,8 +11,8 @@ year: 2024
 makers:
 - name: jrgdiaz
   url: https://github.com/jrgdiaz
-summary: 'The official first-ever conference badge for HackConRD (Dominican Republic), an ATtiny85-based badge with addressable RGB LEDs and a buzzer, worn on a lanyard with embedded challenges.'
-functions: 'Runs event-specific firmware with hidden challenges and secrets; drives 9 onboard addressable RGB LEDs (expandable with external aRGB strips) with custom animation patterns; plays melodies through an onboard buzzer. Fully reprogrammable, including the bootloader, over a USB-TTL serial interface.'
+summary: The official first-ever conference badge for HackConRD (Dominican Republic), an ATtiny85-based badge with addressable RGB LEDs and a buzzer, worn on a lanyard with embedded challenges.
+functions: Runs event-specific firmware with hidden challenges and secrets; drives 9 onboard addressable RGB LEDs (expandable with external aRGB strips) with custom animation patterns; plays melodies through an onboard buzzer. Fully reprogrammable, including the bootloader, over a USB-TTL serial interface.
 look:
   colors: []
   shape: null
@@ -25,7 +25,7 @@ tech:
   leds:
     count: 9
     type: RGB
-    note: 'Addressable (aRGB) LEDs driven from physical PIN 2; three pins broken out next to D9 allow chaining external aRGB LEDs.'
+    note: Addressable (aRGB) LEDs driven from physical PIN 2; three pins broken out next to D9 allow chaining external aRGB LEDs.
   display: none
   connectivity:
   - uart
@@ -37,9 +37,9 @@ get_one:
   quantity: ''
   availability: unknown
   distribution: []
-  where: 'Distributed to attendees of HackConRD 2024, a hacking conference in the Dominican Republic.'
+  where: Distributed to attendees of HackConRD 2024, a hacking conference in the Dominican Republic.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/jrgdiaz/HHW_HackConRD2024
   firmware_url: https://github.com/jrgdiaz/HHW_HackConRD2024
   eda_tool: KiCad
@@ -49,13 +49,13 @@ links:
   kind: repo
 images:
 - file: assets/images/badges/other/hhw-hackconrd2024/2ad46bf5a1.png
-  source: "https://github.com/jrgdiaz/HHW_HackConRD2024"
-  credit: "jrgdiaz"
-  caption: "3D rendering of the HackConRD 2024 badge PCB"
+  source: https://github.com/jrgdiaz/HHW_HackConRD2024
+  credit: jrgdiaz
+  caption: 3D rendering of the HackConRD 2024 badge PCB
 - file: assets/images/badges/other/hhw-hackconrd2024/077ef317e9.jpg
-  source: "https://github.com/jrgdiaz/HHW_HackConRD2024"
-  credit: "jrgdiaz"
-  caption: "Physical HackConRD 2024 badge connected via USB-TTL serial interface"
+  source: https://github.com/jrgdiaz/HHW_HackConRD2024
+  credit: jrgdiaz
+  caption: Physical HackConRD 2024 badge connected via USB-TTL serial interface
 contact: {}
 notes: []
 status: released
@@ -72,14 +72,15 @@ sources:
   note: 'Full README (bilingual ES/EN): chip specs, LED/buzzer pin usage, bootloader instructions, KiCad manufacturing files, image URLs.'
 - kind: url
   url: https://verpent.co/posts/hackconrd2024
-  title: 'HackConRD 2024 Badge Features - Verpent'
+  title: HackConRD 2024 Badge Features - Verpent
   accessed: '2026-09-07'
-  note: 'Third-party summary of the same GitHub README; confirmed chip/LED/buzzer details, no pricing or quantity found.'
+  note: Third-party summary of the same GitHub README; confirmed chip/LED/buzzer details, no pricing or quantity found.
+  archived: https://web.archive.org/web/20260209091126/https://verpent.co/posts/hackconrd2024
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'HackConRD is a hacking conference held in the Dominican Republic; no matching event id exists in _data/events.yml (searched for "hackconrd" and "dominican" with no hits), so event is left as "other" per instructions. This is described in the README as the first-ever official HackConRD badge, marking the start of Badgelife in that community. No pricing, production quantity, or storefront was found anywhere; it appears to have been given to conference attendees rather than sold, so get_one.price/quantity/availability are left empty/unknown. No PCB solder-mask color or shape could be confirmed from the 3D-render image alone with confidence, so look.colors/shape are left empty.'
+  notes: HackConRD is a hacking conference held in the Dominican Republic; no matching event id exists in _data/events.yml (searched for "hackconrd" and "dominican" with no hits), so event is left as "other" per instructions. This is described in the README as the first-ever official HackConRD badge, marking the start of Badgelife in that community. No pricing, production quantity, or storefront was found anywhere; it appears to have been given to conference attendees rather than sold, so get_one.price/quantity/availability are left empty/unknown. No PCB solder-mask color or shape could be confirmed from the 3D-render image alone with confidence, so look.colors/shape are left empty.
 last_modified_date: '2026-09-07'
 ---
 

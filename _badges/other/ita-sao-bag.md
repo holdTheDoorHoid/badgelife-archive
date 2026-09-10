@@ -43,15 +43,18 @@ links:
 - label: hackaday.io/project/197959-ita-sao-bag
   url: https://hackaday.io/project/197959-ita-sao-bag
   kind: hackaday
+  archived: https://web.archive.org/web/20260312162709/https://hackaday.io/project/197959-ita-sao-bag
 images:
 - file: assets/images/badges/other/ita-sao-bag/df9046fdba.jpg
-  source: "https://hackaday.io/project/197959-ita-sao-bag"
-  credit: "davedarko"
-  caption: "ITA SAO BAG project cover image"
+  source: https://hackaday.io/project/197959-ita-sao-bag
+  credit: davedarko
+  caption: ITA SAO BAG project cover image
+  archived: https://web.archive.org/web/20260312162709/https://hackaday.io/project/197959-ita-sao-bag
 - file: assets/images/badges/other/ita-sao-bag/a9dced87c0.jpg
-  source: "https://hackaday.io/project/197959-ita-sao-bag"
-  credit: "davedarko"
-  caption: "ITA SAO BAG construction detail"
+  source: https://hackaday.io/project/197959-ita-sao-bag
+  credit: davedarko
+  caption: ITA SAO BAG construction detail
+  archived: https://web.archive.org/web/20260312162709/https://hackaday.io/project/197959-ita-sao-bag
 contact: {}
 notes:
 - Bag/carrier accessory for badges and SAOs, not a badge itself
@@ -62,11 +65,13 @@ sources:
   title: ITA SAO BAG
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: maker-groups); event read as ''unknown''.'
+  archived: https://web.archive.org/web/20260312162709/https://hackaday.io/project/197959-ita-sao-bag
 - kind: url
   url: https://hackaday.io/project/197959-ita-sao-bag
   title: ITA SAO BAG (project page, refetched)
   accessed: '2026-09-07'
   note: Confirms maker (davedarko), build concept, RP2040-based power/I2C distribution boards, welt-pocket-sewn canvas inlay with 44 connector openings for 5x5cm SAO compartments, and clear protective overlay. Project created September 13, 2024; logged as an ongoing build with no completion, price, or distribution announced.
+  archived: https://web.archive.org/web/20260312162709/https://hackaday.io/project/197959-ita-sao-bag
 - kind: url
   url: https://github.com/davedarko/Simple-Add-ons-SAO
   title: davedarko/Simple-Add-ons-SAO (GitHub)

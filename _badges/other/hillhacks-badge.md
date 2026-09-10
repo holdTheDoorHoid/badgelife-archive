@@ -12,7 +12,7 @@ makers:
 - name: Tavish Naruka
   url: https://hackaday.io/ntavish
 summary: A simple, cheap ATtiny85-based conference badge made for HillHacks 2016, designed to be end-user assemblable and USB-programmable without extra programmer hardware.
-functions: 'Runs Arduino sketches on an ATtiny85; can be flashed with a Trinket/Micronucleus bootloader for USB programming, or use V-USB code to act as a custom USB device (e.g. keyboard or mouse). Has a pushbutton and a status LED, plus a small prototyping area on the board.'
+functions: Runs Arduino sketches on an ATtiny85; can be flashed with a Trinket/Micronucleus bootloader for USB programming, or use V-USB code to act as a custom USB device (e.g. keyboard or mouse). Has a pushbutton and a status LED, plus a small prototyping area on the board.
 look:
   colors: []
   shape: null
@@ -35,7 +35,7 @@ get_one:
   distribution: []
   where: ''
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/ntavish/hillhacks2016_badge
   firmware_url: https://github.com/ntavish/hillhacks2016_badge
   eda_tool: KiCad
@@ -43,18 +43,21 @@ links:
 - label: hackaday.io/project/9926-hillhacks-badge
   url: https://hackaday.io/project/9926-hillhacks-badge
   kind: hackaday
+  archived: https://web.archive.org/web/20251118223057/https://hackaday.io/project/9926-hillhacks-badge
 - label: github.com/ntavish/hillhacks2016_badge
   url: https://github.com/ntavish/hillhacks2016_badge
   kind: repo
 images:
 - file: assets/images/badges/other/hillhacks-badge/6c38b47f37.jpg
-  source: "https://hackaday.io/project/9926-hillhacks-badge"
-  credit: "Tavish Naruka"
-  caption: "The HillHacks 2016 badge PCB"
+  source: https://hackaday.io/project/9926-hillhacks-badge
+  credit: Tavish Naruka
+  caption: The HillHacks 2016 badge PCB
+  archived: https://web.archive.org/web/20251118223057/https://hackaday.io/project/9926-hillhacks-badge
 - file: assets/images/badges/other/hillhacks-badge/87f3fc30be.jpg
-  source: "https://hackaday.io/project/9926-hillhacks-badge"
-  credit: "Tavish Naruka"
-  caption: "The HillHacks 2016 badge, assembled"
+  source: https://hackaday.io/project/9926-hillhacks-badge
+  credit: Tavish Naruka
+  caption: The HillHacks 2016 badge, assembled
+  archived: https://web.archive.org/web/20251118223057/https://hackaday.io/project/9926-hillhacks-badge
 contact: {}
 notes: []
 status: released
@@ -64,6 +67,7 @@ sources:
   title: HillHacks Badge
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: hackaday-list); event read as ''HillHacks''.'
+  archived: https://web.archive.org/web/20251118223057/https://hackaday.io/project/9926-hillhacks-badge
 - kind: url
   url: https://github.com/ntavish/hillhacks2016_badge
   title: ntavish/hillhacks2016_badge
@@ -73,7 +77,7 @@ research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'Made by Tavish Naruka for HillHacks, a hacker/maker gathering held in the Himalayas (India) in 2016 - no matching event id exists in events.yml, so this stays filed under "other". No price, production quantity, or LED count found on either the Hackaday.io project or the GitHub repo. Naruka also gave a "Making a PCB Badge" talk at the HillHacks pre-event (30 April 2016) covering this design.'
+  notes: Made by Tavish Naruka for HillHacks, a hacker/maker gathering held in the Himalayas (India) in 2016 - no matching event id exists in events.yml, so this stays filed under "other". No price, production quantity, or LED count found on either the Hackaday.io project or the GitHub repo. Naruka also gave a "Making a PCB Badge" talk at the HillHacks pre-event (30 April 2016) covering this design.
 last_modified_date: '2026-09-07'
 ---
 

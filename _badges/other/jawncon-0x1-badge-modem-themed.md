@@ -14,9 +14,13 @@ makers:
 summary: A wearable badge that replicates the Hayes SmartModem 1200 in miniature, built around an ESP32 running the open-source RetroWiFiModem firmware.
 functions: Simulates the Hayes AT command set so attendees can dial into early-internet-style services (BBSes) over Wi-Fi from a modern computer; vintage red LEDs light up to show modem activity/status the way the original Hayes modem's did.
 look:
-  colors: [silver, red]
+  colors:
+  - silver
+  - red
   shape: rectangle
-  themes: [retro computer, wearable]
+  themes:
+  - retro computer
+  - wearable
   form_factor: pcb badge
 tech:
   mcu: ESP32
@@ -25,15 +29,17 @@ tech:
     type: discrete
     note: Vintage 1980s-era through-hole red LEDs, hand-installed and bent to right angles to mimic the original Hayes SmartModem's indicator lights.
   display: none
-  connectivity: [wifi]
+  connectivity:
+  - wifi
   battery: null
   sao_version: none
 get_one:
   price: ''
   price_usd: null
-  quantity: '~200-250'
+  quantity: ~200-250
   availability: free
-  distribution: [free_drop]
+  distribution:
+  - free_drop
   where: Given to attendees of JawnCon 0x1 (Philadelphia-area hacker con, general admission $100, free for students) on October 11-12, 2024.
 make_your_own:
   open_source: partial
@@ -44,21 +50,26 @@ links:
 - label: hackaday.com/2024/09/16/the-jawncon-0x1-badge-dials-up-a-simpler-time
   url: https://hackaday.com/2024/09/16/the-jawncon-0x1-badge-dials-up-a-simpler-time/
   kind: article
-- label: "JawnCon0x1: The Modem Badge"
+  archived: https://web.archive.org/web/20260613094339/https://hackaday.com/2024/09/16/the-jawncon-0x1-badge-dials-up-a-simpler-time/
+- label: 'JawnCon0x1: The Modem Badge'
   url: https://jawncon.org/0x1-modem.html
   kind: website
-- label: "RetroWiFiModem firmware (mecparts/RetroWiFiModem)"
+  archived: https://web.archive.org/web/20260804191757/https://jawncon.org/0x1-modem.html
+- label: RetroWiFiModem firmware (mecparts/RetroWiFiModem)
   url: https://github.com/mecparts/RetroWiFiModem
   kind: repo
+  archived: https://web.archive.org/web/20260328084705/https://github.com/mecparts/RetroWiFiModem
 images:
-  - file: assets/images/badges/other/jawncon-0x1-badge-modem-themed/d5e8afcb07.jpg
-    source: "https://jawncon.org/0x1-modem.html"
-    credit: "JawnCon"
-    caption: "The JawnCon 0x1 modem badge"
-  - file: assets/images/badges/other/jawncon-0x1-badge-modem-themed/9b2c29fc23.jpg
-    source: "https://jawncon.org/0x1-modem.html"
-    credit: "JawnCon"
-    caption: "Isometric CAD view of the badge case"
+- file: assets/images/badges/other/jawncon-0x1-badge-modem-themed/d5e8afcb07.jpg
+  source: https://jawncon.org/0x1-modem.html
+  credit: JawnCon
+  caption: The JawnCon 0x1 modem badge
+  archived: https://web.archive.org/web/20260804191757/https://jawncon.org/0x1-modem.html
+- file: assets/images/badges/other/jawncon-0x1-badge-modem-themed/9b2c29fc23.jpg
+  source: https://jawncon.org/0x1-modem.html
+  credit: JawnCon
+  caption: Isometric CAD view of the badge case
+  archived: https://web.archive.org/web/20260804191757/https://jawncon.org/0x1-modem.html
 contact: {}
 notes:
 - Hayes SmartModem replica wearable, ESP32 + RetroWiFiModem, ~200-250 hand-soldered units.
@@ -69,21 +80,24 @@ sources:
   title: JawnCon 0x1 Badge (modem-themed)
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: hackaday-press); event read as ''JawnCon 0x1 (Philadelphia, Oct 11-12 2024)''.'
+  archived: https://web.archive.org/web/20260613094339/https://hackaday.com/2024/09/16/the-jawncon-0x1-badge-dials-up-a-simpler-time/
 - kind: url
   url: https://jawncon.org/0x1-modem.html
-  title: "JawnCon0x1: The Modem Badge"
+  title: 'JawnCon0x1: The Modem Badge'
   accessed: '2026-09-07'
-  note: "Maker's own project page: chip (ESP32), LED details, quantity (~200-250), 3D-printed case construction, distribution, and image URLs."
+  note: 'Maker''s own project page: chip (ESP32), LED details, quantity (~200-250), 3D-printed case construction, distribution, and image URLs.'
+  archived: https://web.archive.org/web/20260804191757/https://jawncon.org/0x1-modem.html
 - kind: url
   url: https://github.com/mecparts/RetroWiFiModem
-  title: "GitHub - mecparts/RetroWiFiModem"
+  title: GitHub - mecparts/RetroWiFiModem
   accessed: '2026-09-07'
-  note: "Confirms the firmware running on the badge is open source; hardware/PCB design files were not found published."
+  note: Confirms the firmware running on the badge is open source; hardware/PCB design files were not found published.
+  archived: https://web.archive.org/web/20260328084705/https://github.com/mecparts/RetroWiFiModem
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-07'
-  notes: 'MCU corrected from ESP8266 (per Hackaday summary) to ESP32, per the maker''s own jawncon.org page, which is more authoritative. LED count not stated by any source. No PCB/hardware design files found published (only the RetroWiFiModem firmware repo, which is a general-purpose project, not JawnCon-specific hardware). Price not disclosed anywhere found; badge was a free con giveaway. No event id exists yet in _data/events.yml for "JawnCon" or "jawncon-0x1" -- event left as "other"; this item was made for JawnCon 0x1, Philadelphia, October 11-12 2024.'
+  notes: MCU corrected from ESP8266 (per Hackaday summary) to ESP32, per the maker's own jawncon.org page, which is more authoritative. LED count not stated by any source. No PCB/hardware design files found published (only the RetroWiFiModem firmware repo, which is a general-purpose project, not JawnCon-specific hardware). Price not disclosed anywhere found; badge was a free con giveaway. No event id exists yet in _data/events.yml for "JawnCon" or "jawncon-0x1" -- event left as "other"; this item was made for JawnCon 0x1, Philadelphia, October 11-12 2024.
 last_modified_date: '2026-09-07'
 ---
 

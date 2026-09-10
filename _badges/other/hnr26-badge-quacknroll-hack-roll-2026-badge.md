@@ -10,8 +10,8 @@ event: other
 year: 2026
 makers:
 - name: NUS Hackers
-summary: 'The "Quack & Roll" badge given to attendees of Hack&Roll 2026, NUS Hackers'' annual student hackathon in Singapore; it was the organization''s first custom PCB conference badge.'
-functions: 'Buttons light up onboard LEDs; a demo firmware lights the LEDs (arranged like dice pips) depending on which buttons are pressed. Attendees could reprogram the ESP32-C3 themselves during the event.'
+summary: The "Quack & Roll" badge given to attendees of Hack&Roll 2026, NUS Hackers' annual student hackathon in Singapore; it was the organization's first custom PCB conference badge.
+functions: Buttons light up onboard LEDs; a demo firmware lights the LEDs (arranged like dice pips) depending on which buttons are pressed. Attendees could reprogram the ESP32-C3 themselves during the event.
 look:
   colors: []
   shape: null
@@ -29,7 +29,7 @@ tech:
 get_one:
   price: free
   price_usd: null
-  quantity: '1,000+'
+  quantity: 1,000+
   availability: free
   distribution:
   - free_drop
@@ -43,26 +43,32 @@ links:
 - label: github.com/nushackers/hnr26-badge-quacknroll
   url: https://github.com/nushackers/hnr26-badge-quacknroll
   kind: repo
+  archived: https://web.archive.org/web/20260119145746/https://github.com/nushackers/hnr26-badge-quacknroll
 - label: github.com/nushackers/hnr26-badge-workshop
   url: https://github.com/nushackers/hnr26-badge-workshop
   kind: repo
 - label: HnR'26 badge I/O component library docs
   url: https://nushackers.github.io/hnr26-badge-workshop/hnr26-badge/html/
   kind: doc
-- label: 'Hack&Roll 2026 recap (NUS Hackers blog)'
+  archived: https://web.archive.org/web/20260207220425/https://nushackers.github.io/hnr26-badge-workshop/hnr26-badge/html/
+- label: Hack&Roll 2026 recap (NUS Hackers blog)
   url: https://www.nushackers.org/2026/02/15/hnr2026/
   kind: article
+  archived: https://web.archive.org/web/20260513130105/https://www.nushackers.org/2026/02/15/hnr2026/
 - label: 'Friday Hacks #287: NUSMods and Hack&Roll Badges talk'
   url: https://www.nushackers.org/2026/01/friday-hacks-287
   kind: article
+  archived: https://web.archive.org/web/20260312164823/https://www.nushackers.org/2026/01/friday-hacks-287/
 - label: Hack&Roll 2026 event site
   url: https://hacknroll.nushackers.org/
   kind: website
+  archived: https://web.archive.org/web/20260905203103/https://hacknroll.nushackers.org/
 images:
 - file: assets/images/badges/other/hnr26-badge-quacknroll-hack-roll-2026-badge/6616610ddb.jpg
-  source: "https://www.nushackers.org/2026/02/15/hnr2026/"
-  credit: "NUS Hackers"
-  caption: "Colored PCB Quack & Roll badges from Hack&Roll 2026"
+  source: https://www.nushackers.org/2026/02/15/hnr2026/
+  credit: NUS Hackers
+  caption: Colored PCB Quack & Roll badges from Hack&Roll 2026
+  archived: https://web.archive.org/web/20260513130105/https://www.nushackers.org/2026/02/15/hnr2026/
 contact: {}
 notes:
 - 'Badge team credited by NUS Hackers: Terence Chan (PCB design), Tan Le Yew (NFC controller firmware), Lim Yik Jin (hardware), Park Youngseo (artwork), and Koh Chan Hong "Ravern" / Tan Rongwen "Daren" as Espressif liaisons. The ESP32-C3-WROOM-02-N4 modules were sponsored by Espressif Systems.'
@@ -73,21 +79,24 @@ sources:
   title: hnr26-badge-quacknroll — Hack&Roll 2026 badge
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: github-topics); event read as ''Hack&Roll 2026''.'
+  archived: https://web.archive.org/web/20260119145746/https://github.com/nushackers/hnr26-badge-quacknroll
 - kind: url
   url: https://github.com/nushackers/hnr26-badge-workshop
   title: hnr26-badge-workshop — Hack&Roll 2026 firmware workshop repo
   accessed: '2026-09-07'
-  note: 'Confirms LEDs, buttons, AW9523 GPIO expander, ESP32-C3-WROOM-02-N4 sponsored by Espressif; demo firmware lights LEDs based on button presses (dice-style).'
+  note: Confirms LEDs, buttons, AW9523 GPIO expander, ESP32-C3-WROOM-02-N4 sponsored by Espressif; demo firmware lights LEDs based on button presses (dice-style).
 - kind: url
   url: https://www.nushackers.org/2026/02/15/hnr2026/
-  title: 'Hack&Roll 2026 recap — NUS Hackers'
+  title: Hack&Roll 2026 recap — NUS Hackers
   accessed: '2026-09-07'
-  note: 'Confirms this was NUS Hackers'' first custom PCB badge, given to attendees, who personalized/hacked them during the event; source of the badge photo.'
+  note: Confirms this was NUS Hackers' first custom PCB badge, given to attendees, who personalized/hacked them during the event; source of the badge photo.
+  archived: https://web.archive.org/web/20260513130105/https://www.nushackers.org/2026/02/15/hnr2026/
 - kind: url
   url: https://www.nushackers.org/2026/01/friday-hacks-287
   title: 'Friday Hacks #287: NUSMods and Hack&Roll Badges'
   accessed: '2026-09-07'
-  note: 'Confirms over 1,000 badges were assembled and programmed; badge team (Terence and Yik Jin) previously built GreyCTF electronic badges; NFC controller mentioned via repo README.'
+  note: Confirms over 1,000 badges were assembled and programmed; badge team (Terence and Yik Jin) previously built GreyCTF electronic badges; NFC controller mentioned via repo README.
+  archived: https://web.archive.org/web/20260312164823/https://www.nushackers.org/2026/01/friday-hacks-287/
 research:
   status: researched
   confidence: medium
