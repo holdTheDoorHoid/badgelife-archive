@@ -11,7 +11,7 @@ year: 2021
 makers:
 - name: Jup1t3r
 summary: A SAINTCON 2021 minibadge with a Matrix-themed design that lights RED and BLUE LEDs, requiring a host badge with a clock pin.
-functions: 'Lights four LEDs (2 red, 2 blue) driven off a host badge''s clock pin; no onboard microcontroller.'
+functions: Lights four LEDs (2 red, 2 blue) driven off a host badge's clock pin; no onboard microcontroller.
 look:
   colors: []
   shape: null
@@ -22,7 +22,7 @@ tech:
   leds:
     count: 4
     type: discrete
-    note: 'Two red and two blue LEDs; reds mount with the green indicator facing down, blues with it facing up.'
+    note: Two red and two blue LEDs; reds mount with the green indicator facing down, blues with it facing up.
   display: null
   connectivity: []
   battery: null
@@ -46,15 +46,18 @@ links:
 - label: minibadge.wiki 2021 data export
   url: https://minibadge.wiki/2021.json
   kind: doc
+  archived: https://web.archive.org/web/20260611101844/http://minibadge.wiki/2021.json
 images:
-  - file: assets/images/badges/saintcon-2021/matrix-badge/0a394c5349.jpg
-    source: "https://minibadge.wiki/2021.json"
-    credit: "Jup1t3r"
-    caption: "Matrix Badge minibadge, front"
-  - file: assets/images/badges/saintcon-2021/matrix-badge/d90aacc480.jpg
-    source: "https://minibadge.wiki/2021.json"
-    credit: "Jup1t3r"
-    caption: "Matrix Badge minibadge, back"
+- file: assets/images/badges/saintcon-2021/matrix-badge/0a394c5349.jpg
+  source: https://minibadge.wiki/2021.json
+  credit: Jup1t3r
+  caption: Matrix Badge minibadge, front
+  archived: https://web.archive.org/web/20260611101844/http://minibadge.wiki/2021.json
+- file: assets/images/badges/saintcon-2021/matrix-badge/d90aacc480.jpg
+  source: https://minibadge.wiki/2021.json
+  credit: Jup1t3r
+  caption: Matrix Badge minibadge, back
+  archived: https://web.archive.org/web/20260611101844/http://minibadge.wiki/2021.json
 contact: {}
 notes: []
 status: listed
@@ -66,14 +69,16 @@ sources:
   note: 'Found by the archive''s discovery sweep (angle: SAINTCON minibadges (via minibadge.wiki community database)); event read as ''SAINTCON 2021''.'
 - kind: url
   url: https://minibadge.wiki/2021.json
-  title: 'MiniBadge Wiki 2021 data export (MATRIX BADGE record)'
+  title: MiniBadge Wiki 2021 data export (MATRIX BADGE record)
   accessed: '2026-09-07'
   note: 'Structured record for the badge: author Jup1t3r, LED count/type/placement, soldering difficulty (Intermediate), special instruction that it requires a host badge with the Clock Pin enabled, and front/back image URLs. Description, category, board house, quantity made, and acquisition method were blank in the source record.'
+  archived: https://web.archive.org/web/20260611101844/http://minibadge.wiki/2021.json
 research:
   status: verified
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'Fact-check pass (2026-09-07): re-fetched minibadge.wiki/2021.json and confirmed maker (Jup1t3r), LED count/colors (2 red, 2 blue), the red/blue polarity-orientation note, soldering difficulty (Intermediate), and the clock-pin requirement all match the raw record. Confirmed both saved images (front/back) are byte-for-byte the same artwork as the source''s matrix-badge-front.png/back.png. Confirmed the minibadge.wiki live search UI genuinely returns "No minibadges match your filters yet." for this title, and confirmed Jup1t3r''s 2021 title list includes RFID/NFC Badge, Red Team, and The Vault (referenced in the body as other titles in the same series). No maker page, repo, or storefront was found beyond minibadge.wiki, so price, quantity, and availability remain unconfirmed and are left empty/unknown. No color information was given in the source (only LED colors, recorded under tech.leds); tech.mcu is left null (not "none") since the source never states outright there is no onboard MCU, though the clock-pin requirement strongly implies it.'
+  notes: 'Fact-check pass (2026-09-07): re-fetched minibadge.wiki/2021.json and confirmed maker (Jup1t3r), LED count/colors (2 red, 2 blue), the red/blue polarity-orientation note, soldering difficulty (Intermediate), and the clock-pin requirement all match the raw record. Confirmed both saved images (front/back) are byte-for-byte the same artwork as the source''s matrix-badge-front.png/back.png. Confirmed the minibadge.wiki live search UI genuinely returns "No minibadges match your filters yet." for this title, and confirmed Jup1t3r''s 2021 title list includes RFID/NFC Badge, Red Team, and The Vault (referenced in the body as other titles in the same series). No maker page, repo, or storefront was found beyond minibadge.wiki, so price, quantity, and availability remain unconfirmed and are left empty/unknown. No color information was given in the source (only LED colors, recorded under tech.leds); tech.mcu is left null (not "none") since the source never states outright there is no onboard
+    MCU, though the clock-pin requirement strongly implies it.'
 last_modified_date: '2026-09-07'
 ---
 

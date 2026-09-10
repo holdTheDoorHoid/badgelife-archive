@@ -11,7 +11,7 @@ year: 2017
 makers:
 - name: hamster
   url: https://github.com/hamster
-summary: 'A small DC801-themed SAINTCON 2017 minibadge with two automatic slow-cycling RGB LEDs, usable as a minibadge or a shirt pin.'
+summary: A small DC801-themed SAINTCON 2017 minibadge with two automatic slow-cycling RGB LEDs, usable as a minibadge or a shirt pin.
 functions: 'No interactivity: two 3mm RGB LEDs with built-in auto-color-cycling ICs light up automatically when powered, no MCU or programming involved.'
 look:
   colors:
@@ -23,11 +23,11 @@ tech:
   mcu: none
   leds:
     count: 2
-    type: 'discrete (3mm auto-cycling RGB, self-contained IC per LED)'
+    type: discrete (3mm auto-cycling RGB, self-contained IC per LED)
     note: 'LED brightness set by choice of R1: 0 ohm (brightest, 20-55mA), 470 ohm (bright, 3-4mA), or 1k ohm (dim, 1.5-2mA).'
   display: none
   connectivity: []
-  battery: 'none (minibadge mode, powered by host SAINTCON badge); optional coin-cell holder board included for standalone shirt-pin mode'
+  battery: none (minibadge mode, powered by host SAINTCON badge); optional coin-cell holder board included for standalone shirt-pin mode
   sao_version: null
 get_one:
   price: ''
@@ -37,25 +37,28 @@ get_one:
   distribution: []
   where: ''
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/hamster/DC801-SAINTCON2017-Minibadge
   firmware_url: null
   eda_tool: KiCad
   license: MIT
-  notes: 'Repo includes KiCad PCB files, 3D renders, a BOM (per-unit cost ~$0.91 at 100-unit pricing as of 10/2017), assembly instructions, instruction cards, and a separate battery-holder board for shirt-pin mode.'
+  notes: Repo includes KiCad PCB files, 3D renders, a BOM (per-unit cost ~$0.91 at 100-unit pricing as of 10/2017), assembly instructions, instruction cards, and a separate battery-holder board for shirt-pin mode.
 links:
 - label: github.com/hamster/DC801-SAINTCON2017-Minibadge
   url: https://github.com/hamster/DC801-SAINTCON2017-Minibadge
   kind: repo
+  archived: https://web.archive.org/web/20260510061812/https://github.com/hamster/DC801-SAINTCON2017-Minibadge
 images:
-  - file: assets/images/badges/saintcon-2017/dc801-saintcon2017-minibadge/1530c0055b.jpg
-    source: "https://github.com/hamster/DC801-SAINTCON2017-Minibadge"
-    credit: "hamster"
-    caption: "Front of the assembled DC801 SAINTCON 2017 minibadge"
-  - file: assets/images/badges/saintcon-2017/dc801-saintcon2017-minibadge/e54e04fd37.jpg
-    source: "https://github.com/hamster/DC801-SAINTCON2017-Minibadge"
-    credit: "hamster"
-    caption: "Powered DC801 minibadge showing the RGB LEDs lit"
+- file: assets/images/badges/saintcon-2017/dc801-saintcon2017-minibadge/1530c0055b.jpg
+  source: https://github.com/hamster/DC801-SAINTCON2017-Minibadge
+  credit: hamster
+  caption: Front of the assembled DC801 SAINTCON 2017 minibadge
+  archived: https://web.archive.org/web/20260510061812/https://github.com/hamster/DC801-SAINTCON2017-Minibadge
+- file: assets/images/badges/saintcon-2017/dc801-saintcon2017-minibadge/e54e04fd37.jpg
+  source: https://github.com/hamster/DC801-SAINTCON2017-Minibadge
+  credit: hamster
+  caption: Powered DC801 minibadge showing the RGB LEDs lit
+  archived: https://web.archive.org/web/20260510061812/https://github.com/hamster/DC801-SAINTCON2017-Minibadge
 contact: {}
 notes: []
 status: released
@@ -65,16 +68,18 @@ sources:
   title: DC801-SAINTCON2017-Minibadge
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: github-topics); event read as ''SAINTCON 2017''.'
+  archived: https://web.archive.org/web/20260510061812/https://github.com/hamster/DC801-SAINTCON2017-Minibadge
 - kind: url
   url: https://github.com/hamster/DC801-SAINTCON2017-Minibadge
   title: DC801-SAINTCON2017-Minibadge README
   accessed: '2026-09-07'
   note: 'README and BOM: confirms DC801 theme, two auto-cycling RGB LEDs, minibadge/shirt-pin modes, KiCad files, MIT license, BOM cost ~$0.91/unit at 100 qty (10/2017), battery holder board for shirt-pin mode.'
+  archived: https://web.archive.org/web/20260510061812/https://github.com/hamster/DC801-SAINTCON2017-Minibadge
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-07'
-  notes: 'Maker''s own repo confirms design and BOM. No quantity manufactured, sale price, or distribution method (e.g. free drop vs. sold) is stated anywhere in the repo, so get_one fields are left empty. No MCU is used; the LEDs are self-contained auto-cycling parts, not driven by a controller.'
+  notes: Maker's own repo confirms design and BOM. No quantity manufactured, sale price, or distribution method (e.g. free drop vs. sold) is stated anywhere in the repo, so get_one fields are left empty. No MCU is used; the LEDs are self-contained auto-cycling parts, not driven by a controller.
 last_modified_date: '2026-09-07'
 ---
 

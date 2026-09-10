@@ -21,7 +21,7 @@ tech:
   leds:
     count: 2
     type: null
-    note: 'D1 and D2; oriented with the green dot toward the top of the board'
+    note: D1 and D2; oriented with the green dot toward the top of the board
   display: null
   connectivity:
   - nfc
@@ -46,15 +46,18 @@ links:
 - label: minibadge.wiki 2021 data export (JSON)
   url: https://minibadge.wiki/2021.json
   kind: doc
+  archived: https://web.archive.org/web/20260611101844/http://minibadge.wiki/2021.json
 images:
-  - file: assets/images/badges/saintcon-2021/rfid-nfc-badge/a3bec66f78.jpg
-    source: "https://minibadge.wiki/data/"
-    credit: "Jup1t3r"
-    caption: "Front of the RFID/NFC minibadge"
-  - file: assets/images/badges/saintcon-2021/rfid-nfc-badge/f5eabaac38.jpg
-    source: "https://minibadge.wiki/data/"
-    credit: "Jup1t3r"
-    caption: "Back of the RFID/NFC minibadge"
+- file: assets/images/badges/saintcon-2021/rfid-nfc-badge/a3bec66f78.jpg
+  source: https://minibadge.wiki/data/
+  credit: Jup1t3r
+  caption: Front of the RFID/NFC minibadge
+  archived: https://web.archive.org/web/20260611104315/http://minibadge.wiki/data/
+- file: assets/images/badges/saintcon-2021/rfid-nfc-badge/f5eabaac38.jpg
+  source: https://minibadge.wiki/data/
+  credit: Jup1t3r
+  caption: Back of the RFID/NFC minibadge
+  archived: https://web.archive.org/web/20260611104315/http://minibadge.wiki/data/
 contact: {}
 notes: []
 status: listed
@@ -69,11 +72,12 @@ sources:
   title: MiniBadge Wiki 2021 data export
   accessed: '2026-09-07'
   note: 'Raw JSON record for this badge: author Jup1t3r, soldering instructions (two LEDs D1/D2, single resistor, headers trimmed flush, NFC sticker centered on top), soldering difficulty Intermediate. quantityMade, category, and howToAcquire fields were present but empty in the export.'
+  archived: https://web.archive.org/web/20260611101844/http://minibadge.wiki/2021.json
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'The live search page at minibadge.wiki renders client-side and returned no visible data on fetch; the underlying 2021.json data export (linked from minibadge.wiki/data/) carries the actual record and was used instead. It gives build/soldering instructions and front/back images but no maker bio, price, quantity made, or acquisition method, and no separate maker page or repo was found. Jup1t3r designed a large slate of SAINTCON 2021 minibadges (e.g. Private LTE, Red Team, Hacker Challenge) alongside this one.'
+  notes: The live search page at minibadge.wiki renders client-side and returned no visible data on fetch; the underlying 2021.json data export (linked from minibadge.wiki/data/) carries the actual record and was used instead. It gives build/soldering instructions and front/back images but no maker bio, price, quantity made, or acquisition method, and no separate maker page or repo was found. Jup1t3r designed a large slate of SAINTCON 2021 minibadges (e.g. Private LTE, Red Team, Hacker Challenge) alongside this one.
 last_modified_date: '2026-09-07'
 ---
 

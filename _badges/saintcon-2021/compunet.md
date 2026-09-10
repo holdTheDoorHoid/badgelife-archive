@@ -11,7 +11,7 @@ year: 2021
 makers:
 - name: Jup1t3r
 summary: A small SAINTCON 2021 minibadge with a stylized copper-colored swoosh over the "CompuNet" name, built around two LEDs and a single resistor.
-functions: 'Lights two LEDs (D1, D2) through a single current-limiting resistor (R1); no other electronics.'
+functions: Lights two LEDs (D1, D2) through a single current-limiting resistor (R1); no other electronics.
 look:
   colors:
   - white
@@ -26,7 +26,7 @@ tech:
   leds:
     count: 2
     type: reverse-mount
-    note: 'Soldering guide instructs orienting each LED by a green dot marking, consistent with reverse-mount chip LEDs.'
+    note: Soldering guide instructs orienting each LED by a green dot marking, consistent with reverse-mount chip LEDs.
   display: none
   connectivity: []
   battery: null
@@ -48,14 +48,14 @@ links:
   url: https://minibadge.wiki/?search=COMPUNET&year=2021
   kind: website
 images:
-  - file: assets/images/badges/saintcon-2021/compunet/646e70126d.jpg
-    source: "https://minibadge.wiki/?search=COMPUNET&year=2021"
-    credit: "Jup1t3r"
-    caption: "COMPUNET minibadge, front"
-  - file: assets/images/badges/saintcon-2021/compunet/5f28185560.jpg
-    source: "https://minibadge.wiki/?search=COMPUNET&year=2021"
-    credit: "Jup1t3r"
-    caption: "COMPUNET minibadge, back"
+- file: assets/images/badges/saintcon-2021/compunet/646e70126d.jpg
+  source: https://minibadge.wiki/?search=COMPUNET&year=2021
+  credit: Jup1t3r
+  caption: COMPUNET minibadge, front
+- file: assets/images/badges/saintcon-2021/compunet/5f28185560.jpg
+  source: https://minibadge.wiki/?search=COMPUNET&year=2021
+  credit: Jup1t3r
+  caption: COMPUNET minibadge, back
 contact: {}
 notes: []
 status: listed
@@ -67,14 +67,15 @@ sources:
   note: 'Found by the archive''s discovery sweep (angle: SAINTCON minibadges (via minibadge.wiki community database)); event read as ''SAINTCON 2021''.'
 - kind: url
   url: https://minibadge.wiki/2021.json
-  title: 'MiniBadge Wiki 2021 data export'
+  title: MiniBadge Wiki 2021 data export
   accessed: '2026-09-07'
   note: 'JSON record for CompuNet by Jup1t3r: soldering instructions (2 LEDs D1/D2, single resistor R1, orient by green dot), difficulty "Beginner", front/back board images. Category, description, quantity, board house, and acquisition fields were blank in the source.'
+  archived: https://web.archive.org/web/20260611101844/http://minibadge.wiki/2021.json
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'The minibadge.wiki search page itself is JS-rendered and returned no content directly; the underlying data export (2021.json) had the actual record. Several fields (price, quantity made, availability, board house, distribution) were blank in the source and left empty rather than guessed. No maker profile, repo, or storefront was found beyond the wiki listing, so hardware/firmware links and open-source status are unknown.'
+  notes: The minibadge.wiki search page itself is JS-rendered and returned no content directly; the underlying data export (2021.json) had the actual record. Several fields (price, quantity made, availability, board house, distribution) were blank in the source and left empty rather than guessed. No maker profile, repo, or storefront was found beyond the wiki listing, so hardware/firmware links and open-source status are unknown.
 last_modified_date: '2026-09-07'
 ---
 

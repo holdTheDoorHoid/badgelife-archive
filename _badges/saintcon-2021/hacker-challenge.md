@@ -11,7 +11,7 @@ year: 2021
 makers:
 - name: Jup1t3r
 summary: 'A SAINTCON 2021 minibadge from Jup1t3r''s "Hackers Challenge" set: a soldering kit with three LEDs, three resistors, and an EPROM chip that attendees brought to the Hacker Challenge booth to have programmed after assembly.'
-functions: 'Solder-your-own minibadge with three LEDs (two on front, one on back); the board carries a small EPROM that is programmed at the con''s Hacker Challenge booth once soldering is complete, tying the badge to that track''s challenge.'
+functions: Solder-your-own minibadge with three LEDs (two on front, one on back); the board carries a small EPROM that is programmed at the con's Hacker Challenge booth once soldering is complete, tying the badge to that track's challenge.
 look:
   colors: []
   shape: null
@@ -25,7 +25,7 @@ tech:
   leds:
     count: 3
     type: discrete
-    note: 'Two through-hole LEDs on the front (recommended blue on top, orange on bottom), plus one LED on the back; polarity is set by a green orientation mark on each.'
+    note: Two through-hole LEDs on the front (recommended blue on top, orange on bottom), plus one LED on the back; polarity is set by a green orientation mark on each.
   display: none
   connectivity: []
   battery: powered by host badge
@@ -37,7 +37,7 @@ get_one:
   availability: unknown
   distribution:
   - kit
-  where: 'Distributed as a soldering kit at SAINTCON 2021; the EPROM was programmed at the Hacker Challenge booth after the attendee finished assembly.'
+  where: Distributed as a soldering kit at SAINTCON 2021; the EPROM was programmed at the Hacker Challenge booth after the attendee finished assembly.
 make_your_own:
   open_source: null
   hardware_url: null
@@ -48,14 +48,14 @@ links:
   url: https://minibadge.wiki/?search=HACKER%20CHALLENGE&year=2021
   kind: website
 images:
-  - file: assets/images/badges/saintcon-2021/hacker-challenge/dd32505dfb.jpg
-    source: "https://minibadge.wiki/?search=HACKER%20CHALLENGE&year=2021"
-    credit: "Jup1t3r"
-    caption: "Front of the HACKER CHALLENGE SAINTCON 2021 minibadge, showing the EPROM and two LEDs"
-  - file: assets/images/badges/saintcon-2021/hacker-challenge/fb876bc702.jpg
-    source: "https://minibadge.wiki/?search=HACKER%20CHALLENGE&year=2021"
-    credit: "Jup1t3r"
-    caption: "Back of the HACKER CHALLENGE SAINTCON 2021 minibadge, showing the third LED"
+- file: assets/images/badges/saintcon-2021/hacker-challenge/dd32505dfb.jpg
+  source: https://minibadge.wiki/?search=HACKER%20CHALLENGE&year=2021
+  credit: Jup1t3r
+  caption: Front of the HACKER CHALLENGE SAINTCON 2021 minibadge, showing the EPROM and two LEDs
+- file: assets/images/badges/saintcon-2021/hacker-challenge/fb876bc702.jpg
+  source: https://minibadge.wiki/?search=HACKER%20CHALLENGE&year=2021
+  credit: Jup1t3r
+  caption: Back of the HACKER CHALLENGE SAINTCON 2021 minibadge, showing the third LED
 contact: {}
 notes: []
 status: released
@@ -67,14 +67,15 @@ sources:
   note: 'Found by the archive''s discovery sweep (angle: SAINTCON minibadges (via minibadge.wiki community database)); event read as ''SAINTCON 2021''.'
 - kind: url
   url: https://minibadge.wiki/2021.json
-  title: 'MiniBadge Wiki 2021 data (HACKER CHALLENGE entry)'
+  title: MiniBadge Wiki 2021 data (HACKER CHALLENGE entry)
   accessed: '2026-09-07'
   note: 'Underlying JSON record behind the search page: confirmed maker Jup1t3r, soldering instructions (3 LEDs, 3 resistors, EPROM), soldering difficulty "Moderate", and the front/back image files used for the archive photos.'
+  archived: https://web.archive.org/web/20260611101844/http://minibadge.wiki/2021.json
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'This is one of a dozen-plus 2021 SAINTCON minibadges credited to the same author "Jup1t3r" on minibadge.wiki (e.g. PEOPLE BADGES, RED TEAM, THE VAULT, SCAVENGER HUNT) - likely a set made for that year''s SAINTCON badge/minibadge program rather than a single standalone release. The wiki gives no price, quantity made, or maker contact/store link, and I found no separate maker page, repo, or store listing beyond the community wiki entry. "Jup1t3r" appears to be a handle only; no real name or other profile was found.'
+  notes: This is one of a dozen-plus 2021 SAINTCON minibadges credited to the same author "Jup1t3r" on minibadge.wiki (e.g. PEOPLE BADGES, RED TEAM, THE VAULT, SCAVENGER HUNT) - likely a set made for that year's SAINTCON badge/minibadge program rather than a single standalone release. The wiki gives no price, quantity made, or maker contact/store link, and I found no separate maker page, repo, or store listing beyond the community wiki entry. "Jup1t3r" appears to be a handle only; no real name or other profile was found.
 last_modified_date: '2026-09-07'
 ---
 

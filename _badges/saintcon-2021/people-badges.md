@@ -10,7 +10,7 @@ event: saintcon-2021
 year: 2021
 makers:
 - name: Jup1t3r
-summary: 'A SAINTCON 2021 minibadge with two center LEDs driven through a single resistor.'
+summary: A SAINTCON 2021 minibadge with two center LEDs driven through a single resistor.
 functions: ''
 look:
   colors: []
@@ -21,7 +21,7 @@ tech:
   leds:
     count: 2
     type: null
-    note: 'Two LEDs (D1, D2) near the board center, each with the green dot oriented toward the top; one shared resistor, no polarity.'
+    note: Two LEDs (D1, D2) near the board center, each with the green dot oriented toward the top; one shared resistor, no polarity.
   display: null
   connectivity: []
   battery: null
@@ -43,14 +43,14 @@ links:
   url: https://minibadge.wiki/?search=PEOPLE%20BADGES&year=2021
   kind: website
 images:
-  - file: assets/images/badges/saintcon-2021/people-badges/58e9826d8b.jpg
-    source: "https://minibadge.wiki/?search=PEOPLE%20BADGES&year=2021"
-    credit: "Jup1t3r"
-    caption: "PEOPLE BADGES minibadge, front"
-  - file: assets/images/badges/saintcon-2021/people-badges/6dd296c5e4.jpg
-    source: "https://minibadge.wiki/?search=PEOPLE%20BADGES&year=2021"
-    credit: "Jup1t3r"
-    caption: "PEOPLE BADGES minibadge, back"
+- file: assets/images/badges/saintcon-2021/people-badges/58e9826d8b.jpg
+  source: https://minibadge.wiki/?search=PEOPLE%20BADGES&year=2021
+  credit: Jup1t3r
+  caption: PEOPLE BADGES minibadge, front
+- file: assets/images/badges/saintcon-2021/people-badges/6dd296c5e4.jpg
+  source: https://minibadge.wiki/?search=PEOPLE%20BADGES&year=2021
+  credit: Jup1t3r
+  caption: PEOPLE BADGES minibadge, back
 contact: {}
 notes: []
 status: listed
@@ -62,14 +62,16 @@ sources:
   note: 'Found by the archive''s discovery sweep (angle: SAINTCON minibadges (via minibadge.wiki community database)); event read as ''SAINTCON 2021''.'
 - kind: url
   url: https://minibadge.wiki/2021.json
-  title: 'Minibadge Wiki 2021 data (JSON record for PEOPLE BADGES)'
+  title: Minibadge Wiki 2021 data (JSON record for PEOPLE BADGES)
   accessed: '2026-09-07'
   note: 'Underlying community-submitted record: maker Jup1t3r, soldering instructions (two LEDs D1/D2, one resistor, no polarity), soldering difficulty "Intermediate", front/back image paths. Description, category, board house, quantity, rarity, and acquisition fields were all blank/zero in the submission.'
+  archived: https://web.archive.org/web/20260611101844/http://minibadge.wiki/2021.json
 research:
   status: verified
   confidence: low
   last_checked: '2026-09-07'
-  notes: 'Fact-check (2026-09-07): re-fetched both cited sources. minibadge.wiki/2021.json confirms maker Jup1t3r, the soldering-instruction text (two LEDs D1/D2 near center, green dot toward top, one shared non-polarized resistor), and "Intermediate" difficulty verbatim; its image paths for this record match the two saved photos pixel-for-pixel. The minibadge.wiki search page itself renders its results client-side via JavaScript, so a plain fetch shows an empty results list even though the underlying JSON record is confirmed real. Removed one unsupported editorial claim from the body (a guess at *why* the badge was rated "Intermediate") that was not stated by the source. Minibadge Wiki is a community-submitted database, not a maker-run page, so most descriptive fields (what the design depicts, price, quantity made, availability, board house) were left blank by the submitter and could not be filled from any other source; a web search for the maker "Jup1t3r" and this title turned up nothing beyond the wiki entry itself.'
+  notes: 'Fact-check (2026-09-07): re-fetched both cited sources. minibadge.wiki/2021.json confirms maker Jup1t3r, the soldering-instruction text (two LEDs D1/D2 near center, green dot toward top, one shared non-polarized resistor), and "Intermediate" difficulty verbatim; its image paths for this record match the two saved photos pixel-for-pixel. The minibadge.wiki search page itself renders its results client-side via JavaScript, so a plain fetch shows an empty results list even though the underlying JSON record is confirmed real. Removed one unsupported editorial claim from the body (a guess at *why* the badge was rated "Intermediate") that was not stated by the source. Minibadge Wiki is a community-submitted database, not a maker-run page, so most descriptive fields (what the design depicts, price, quantity made, availability, board house) were left blank by the submitter and could not be filled from any other source; a web search for the maker "Jup1t3r" and this title turned up nothing
+    beyond the wiki entry itself.'
 last_modified_date: '2026-09-07'
 ---
 

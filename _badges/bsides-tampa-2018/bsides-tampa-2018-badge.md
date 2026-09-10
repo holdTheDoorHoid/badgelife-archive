@@ -10,7 +10,7 @@ event: bsides-tampa-2018
 year: 2018
 makers:
 - name: BSides Tampa / Tampa Bay (ISC)2 chapter
-summary: ''
+summary: 'An electronic badge that attendees built themselves as part of "Electronic Badge Assembly," one of the hands-on activities at BSides Tampa 2018.'
 functions: ''
 look:
   colors: []
@@ -28,8 +28,9 @@ get_one:
   price_usd: null
   quantity: ''
   availability: unknown
-  distribution: []
-  where: ''
+  distribution:
+  - kit
+  where: 'Assembled on-site at BSides Tampa 2018 as part of the "Electronic Badge Assembly" activity.'
 make_your_own:
   open_source: null
   hardware_url: null

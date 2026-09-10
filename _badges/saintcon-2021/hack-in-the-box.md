@@ -10,11 +10,8 @@ event: saintcon-2021
 year: 2021
 makers:
 - name: Jup1t3r
-summary: 'A SAINTCON 2021 solder-your-own minibadge: a red PCB with a black cactus
-  silhouette on the front, ringed with LED pads, and a jester''s-cap "HACK IN THE
-  BOX" logo on the back.'
-functions: 'Blinks green and blue LEDs around the cactus outline, driven by a logic
-  inverter and a pair of current-limiting resistors (62ohm, 10ohm).'
+summary: 'A SAINTCON 2021 solder-your-own minibadge: a red PCB with a black cactus silhouette on the front, ringed with LED pads, and a jester''s-cap "HACK IN THE BOX" logo on the back.'
+functions: Blinks green and blue LEDs around the cactus outline, driven by a logic inverter and a pair of current-limiting resistors (62ohm, 10ohm).
 look:
   colors:
   - red
@@ -27,8 +24,7 @@ tech:
   leds:
     count: null
     type: reverse-mount
-    note: 'LEDs are through-hole, mounted in BLUE/GREEN pairs per the maker''s soldering
-      instructions; exact total count not stated.'
+    note: LEDs are through-hole, mounted in BLUE/GREEN pairs per the maker's soldering instructions; exact total count not stated.
   display: none
   connectivity: []
   battery: null
@@ -52,48 +48,39 @@ links:
 - label: minibadge.wiki 2021 data export (JSON)
   url: https://minibadge.wiki/2021.json
   kind: doc
+  archived: https://web.archive.org/web/20260611101844/http://minibadge.wiki/2021.json
 images:
 - file: assets/images/badges/saintcon-2021/hack-in-the-box/39283dda53.jpg
-  source: "https://minibadge.wiki/2021.json"
-  credit: "Jup1t3r"
-  caption: "Front of the minibadge: a red PCB with a black cactus silhouette outlined
-    by through-hole LED positions (green LEDs on the left arm, blue on the right),
-    62-ohm and 10-ohm resistors, and an inverter chip."
+  source: https://minibadge.wiki/2021.json
+  credit: Jup1t3r
+  caption: 'Front of the minibadge: a red PCB with a black cactus silhouette outlined by through-hole LED positions (green LEDs on the left arm, blue on the right), 62-ohm and 10-ohm resistors, and an inverter chip.'
+  archived: https://web.archive.org/web/20260611101844/http://minibadge.wiki/2021.json
 - file: assets/images/badges/saintcon-2021/hack-in-the-box/64971ee600.jpg
-  source: "https://minibadge.wiki/2021.json"
-  credit: "Jup1t3r"
-  caption: "Back of the minibadge: a red PCB printed with a black-and-white jester's
-    cap and the badge's \"HACK IN THE BOX\" title."
+  source: https://minibadge.wiki/2021.json
+  credit: Jup1t3r
+  caption: 'Back of the minibadge: a red PCB printed with a black-and-white jester''s cap and the badge''s "HACK IN THE BOX" title.'
+  archived: https://web.archive.org/web/20260611101844/http://minibadge.wiki/2021.json
 contact: {}
 notes:
-- 'Soldering difficulty listed by the maker as "Advanced." Category, quantity made,
-  board house, and how-to-acquire fields are blank in the maker''s own data export.'
+- Soldering difficulty listed by the maker as "Advanced." Category, quantity made, board house, and how-to-acquire fields are blank in the maker's own data export.
 status: listed
 sources:
 - kind: url
   url: https://minibadge.wiki/?search=HACK%20IN%20THE%20BOX&year=2021
   title: HACK IN THE BOX
   accessed: '2026-09-06'
-  note: 'Found by the archive''s discovery sweep (angle: SAINTCON minibadges (via
-    minibadge.wiki community database)); event read as ''SAINTCON 2021''.'
+  note: 'Found by the archive''s discovery sweep (angle: SAINTCON minibadges (via minibadge.wiki community database)); event read as ''SAINTCON 2021''.'
 - kind: url
   url: https://minibadge.wiki/2021.json
   title: MiniBadge Wiki 2021 data export
   accessed: '2026-09-07'
-  note: 'Community database record for this badge: maker (Jup1t3r), soldering instructions/difficulty,
-    front and back images. Description, category, quantity, board house, and acquisition
-    fields are empty in the source record.'
+  note: 'Community database record for this badge: maker (Jup1t3r), soldering instructions/difficulty, front and back images. Description, category, quantity, board house, and acquisition fields are empty in the source record.'
+  archived: https://web.archive.org/web/20260611101844/http://minibadge.wiki/2021.json
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'The minibadge.wiki search page itself renders client-side and returned
-    no visible listing on fetch, but its underlying 2021.json data export (linked
-    from the site''s /data/ page) has the actual record, including both board photos.
-    The record is a community submission, not the maker''s own page or store, and
-    leaves several fields (description, price, quantity, availability, open-source
-    status) blank, so those remain unknown here. No separate Hackaday/GitHub/store
-    presence for this maker or badge was found.'
+  notes: The minibadge.wiki search page itself renders client-side and returned no visible listing on fetch, but its underlying 2021.json data export (linked from the site's /data/ page) has the actual record, including both board photos. The record is a community submission, not the maker's own page or store, and leaves several fields (description, price, quantity, availability, open-source status) blank, so those remain unknown here. No separate Hackaday/GitHub/store presence for this maker or badge was found.
 last_modified_date: '2026-09-07'
 ---
 

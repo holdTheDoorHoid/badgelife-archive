@@ -21,7 +21,7 @@ tech:
   leds:
     count: 2
     type: discrete
-    note: 'Two LEDs (D1, D2); orient with the green dot toward the top of the board. Single resistor, no polarity.'
+    note: Two LEDs (D1, D2); orient with the green dot toward the top of the board. Single resistor, no polarity.
   display: null
   connectivity: []
   battery: null
@@ -45,15 +45,18 @@ links:
 - label: minibadge.wiki 2021 data export (JSON)
   url: https://minibadge.wiki/2021.json
   kind: website
+  archived: https://web.archive.org/web/20260611101844/http://minibadge.wiki/2021.json
 images:
 - file: assets/images/badges/saintcon-2021/scavenger-hunt/e506a78608.jpg
-  source: "https://minibadge.wiki/2021.json"
-  credit: "Jup1t3r"
-  caption: "Scavenger Hunt minibadge, front"
+  source: https://minibadge.wiki/2021.json
+  credit: Jup1t3r
+  caption: Scavenger Hunt minibadge, front
+  archived: https://web.archive.org/web/20260611101844/http://minibadge.wiki/2021.json
 - file: assets/images/badges/saintcon-2021/scavenger-hunt/984668cca5.jpg
-  source: "https://minibadge.wiki/2021.json"
-  credit: "Jup1t3r"
-  caption: "Scavenger Hunt minibadge, back"
+  source: https://minibadge.wiki/2021.json
+  credit: Jup1t3r
+  caption: Scavenger Hunt minibadge, back
+  archived: https://web.archive.org/web/20260611101844/http://minibadge.wiki/2021.json
 contact: {}
 notes: []
 status: listed
@@ -68,11 +71,13 @@ sources:
   title: MiniBadge Wiki 2021 data export
   accessed: '2026-09-07'
   note: 'Raw JSON record for the badge: author Jup1t3r, conference year 2021, LED count and soldering instructions, front/back image URLs. No description, price, quantity, or acquisition method listed in the export.'
+  archived: https://web.archive.org/web/20260611101844/http://minibadge.wiki/2021.json
 research:
   status: verified
   confidence: low
   last_checked: '2026-09-07'
-  notes: 'Fact-check pass (2026-09-07): re-fetched https://minibadge.wiki/2021.json directly and located the exact SCAVENGER HUNT record. It confirms author Jup1t3r, two LEDs (D1, D2) with "green dot toward the top" orientation, a single no-polarity resistor, and beginner soldering difficulty -- all matching what was in the entry. Its "category" field is empty (no theme documented), so the previously filled look.themes: [puzzle] was unsupported invention and has been blanked. The body''s claim that the LEDs are "through-hole" was also unsupported by the source text and was removed (the board render shows small chip-style LED footprints, not through-hole pads). Front/back images were re-downloaded from minibadge.wiki/images/2021/scavenger-hunt-front.png and -back.png and visually match the two saved files pixel-for-pixel in layout/content, confirming they depict this badge. The minibadge.wiki search page itself is still JavaScript-rendered and returns no content directly; the JSON export remains the only usable source. price/quantity/availability/functions genuinely have no documentation anywhere found, hence confidence stays low despite the remaining claims being verified.'
+  notes: 'Fact-check pass (2026-09-07): re-fetched https://minibadge.wiki/2021.json directly and located the exact SCAVENGER HUNT record. It confirms author Jup1t3r, two LEDs (D1, D2) with "green dot toward the top" orientation, a single no-polarity resistor, and beginner soldering difficulty -- all matching what was in the entry. Its "category" field is empty (no theme documented), so the previously filled look.themes: [puzzle] was unsupported invention and has been blanked. The body''s claim that the LEDs are "through-hole" was also unsupported by the source text and was removed (the board render shows small chip-style LED footprints, not through-hole pads). Front/back images were re-downloaded from minibadge.wiki/images/2021/scavenger-hunt-front.png and -back.png and visually match the two saved files pixel-for-pixel in layout/content, confirming they depict this badge. The minibadge.wiki search page itself is still JavaScript-rendered and returns no content directly; the JSON export
+    remains the only usable source. price/quantity/availability/functions genuinely have no documentation anywhere found, hence confidence stays low despite the remaining claims being verified.'
 last_modified_date: '2026-09-07'
 ---
 

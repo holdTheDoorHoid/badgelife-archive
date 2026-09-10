@@ -11,7 +11,7 @@ year: 2021
 makers:
 - name: Jup1t3r
 summary: A SAINTCON 2021 minibadge depicting the Gadsden Flag ("Don't Tread on Me") coiled snake design, built as a beginner-level soldering kit.
-functions: 'Two LEDs light up once soldered; no other electronic functions documented.'
+functions: Two LEDs light up once soldered; no other electronic functions documented.
 look:
   colors: []
   shape: null
@@ -21,7 +21,7 @@ tech:
   leds:
     count: 2
     type: null
-    note: 'One resistor, no polarity; LEDs placed with the green-marked indicator down and to the left per the build guide.'
+    note: One resistor, no polarity; LEDs placed with the green-marked indicator down and to the left per the build guide.
   display: null
   connectivity: []
   battery: null
@@ -45,15 +45,18 @@ links:
 - label: minibadge.wiki 2021 data export
   url: https://minibadge.wiki/2021.json
   kind: doc
+  archived: https://web.archive.org/web/20260611101844/http://minibadge.wiki/2021.json
 images:
-  - file: assets/images/badges/saintcon-2021/gadsen-flag/d0ae8a9088.jpg
-    source: "https://minibadge.wiki/2021.json"
-    credit: "Jup1t3r"
-    caption: "Front of the Gadsden Flag minibadge"
-  - file: assets/images/badges/saintcon-2021/gadsen-flag/025c6af51b.jpg
-    source: "https://minibadge.wiki/2021.json"
-    credit: "Jup1t3r"
-    caption: "Back of the Gadsden Flag minibadge"
+- file: assets/images/badges/saintcon-2021/gadsen-flag/d0ae8a9088.jpg
+  source: https://minibadge.wiki/2021.json
+  credit: Jup1t3r
+  caption: Front of the Gadsden Flag minibadge
+  archived: https://web.archive.org/web/20260611101844/http://minibadge.wiki/2021.json
+- file: assets/images/badges/saintcon-2021/gadsen-flag/025c6af51b.jpg
+  source: https://minibadge.wiki/2021.json
+  credit: Jup1t3r
+  caption: Back of the Gadsden Flag minibadge
+  archived: https://web.archive.org/web/20260611101844/http://minibadge.wiki/2021.json
 contact: {}
 notes: []
 status: listed
@@ -68,6 +71,7 @@ sources:
   title: MiniBadge Wiki 2021 data export
   accessed: '2026-09-07'
   note: 'JSON record for the GADSEN FLAG minibadge: maker Jup1t3r, beginner soldering difficulty, two LEDs plus one non-polarized resistor, front/back image URLs. No description, quantity, price, or acquisition info was recorded in the export.'
+  archived: https://web.archive.org/web/20260611101844/http://minibadge.wiki/2021.json
 research:
   status: verified
   confidence: low

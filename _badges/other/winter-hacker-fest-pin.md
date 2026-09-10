@@ -39,6 +39,7 @@ links:
 - label: kbembedded.com
   url: https://kbembedded.com/
   kind: website
+  archived: https://web.archive.org/web/20260617033559/https://kbembedded.com/
 images: []
 contact: {}
 notes:
@@ -50,38 +51,25 @@ sources:
   title: Winter Hacker Fest Pin
   accessed: '2026-09-07'
   note: 'Found by the archive''s discovery sweep (angle: sheet-research-spotted); event read as ''unknown''.'
+  archived: https://web.archive.org/web/20260617033559/https://kbembedded.com/
 - kind: url
   url: https://kbembedded.com/blog/
-  title: 'Project Blog – KBEmbedded'
+  title: Project Blog – KBEmbedded
   accessed: '2026-09-07'
-  note: 'Checked for a post about the pin; blog listing returns "Nothing Found" (no posts published), no mention of the item.'
+  note: Checked for a post about the pin; blog listing returns "Nothing Found" (no posts published), no mention of the item.
+  archived: https://web.archive.org/web/20260511123626/https://kbembedded.com/blog/
 - kind: url
   url: https://github.com/kbembedded
   title: kbembedded (Kris Bahnsen) - GitHub
   accessed: '2026-09-07'
-  note: 'Confirmed KBEmbedded = Kris Bahnsen, maker of Flipper Zero accessories (Flipper-Zero-Game-Boy-Pokemon-Trading, FLICK, flipper-gblink, EM4100_Cloner, DC21-darknet-RFID); no repo or mention relating to a "Winter Hacker Fest Pin" or any badge/SAO/pin project.'
+  note: Confirmed KBEmbedded = Kris Bahnsen, maker of Flipper Zero accessories (Flipper-Zero-Game-Boy-Pokemon-Trading, FLICK, flipper-gblink, EM4100_Cloner, DC21-darknet-RFID); no repo or mention relating to a "Winter Hacker Fest Pin" or any badge/SAO/pin project.
+  archived: https://web.archive.org/web/20260509164225/https://github.com/kbembedded
 research:
   status: verified
   confidence: low
   last_checked: '2026-09-07'
-  notes: >-
-    Fact-check pass: re-fetched all three cited sources and confirmed each claim
-    in the body against them. https://kbembedded.com/ is a minimal, still-under-
-    construction landing page ("Tinkering, Repairing, Creating") with no mention
-    of a "Winter Hacker Fest Pin" or any pin/badge/SAO product. The blog listing
-    at https://kbembedded.com/blog/ shows "Nothing Found" — no published posts.
-    https://github.com/kbembedded is Kris Bahnsen's account (bio confirms the
-    name) whose pinned repos are all Flipper Zero accessories/firmware (game-link
-    tools, an RFID cloner, a printer tool) with nothing pin/badge/SAO-related.
-    No unsupported claims or images were found to remove; every non-empty field
-    and every sentence in the body is backed by a source actually read. Could
-    not corroborate any details of the item itself beyond its existence on the
-    community sheet and the maker's identity — event, year, and all technical/
-    distribution fields remain correctly empty. Co-maker "hunny" is still
-    unidentified. Web search was not attempted this pass (not needed to verify
-    the existing citations); a future pass with working web search should still
-    retry `"Winter Hacker Fest" pin`, `KBEmbedded hunny badge`, and check
-    Bluesky/Mastodon for kbembedded's posts.
+  notes: 'Fact-check pass: re-fetched all three cited sources and confirmed each claim in the body against them. https://kbembedded.com/ is a minimal, still-under- construction landing page ("Tinkering, Repairing, Creating") with no mention of a "Winter Hacker Fest Pin" or any pin/badge/SAO product. The blog listing at https://kbembedded.com/blog/ shows "Nothing Found" — no published posts. https://github.com/kbembedded is Kris Bahnsen''s account (bio confirms the name) whose pinned repos are all Flipper Zero accessories/firmware (game-link tools, an RFID cloner, a printer tool) with nothing pin/badge/SAO-related. No unsupported claims or images were found to remove; every non-empty field and every sentence in the body is backed by a source actually read. Could not corroborate any details of the item itself beyond its existence on the community sheet and the maker''s identity — event, year, and all technical/ distribution fields remain correctly empty. Co-maker "hunny" is still unidentified.
+    Web search was not attempted this pass (not needed to verify the existing citations); a future pass with working web search should still retry `"Winter Hacker Fest" pin`, `KBEmbedded hunny badge`, and check Bluesky/Mastodon for kbembedded''s posts.'
 last_modified_date: '2026-09-07'
 ---
 

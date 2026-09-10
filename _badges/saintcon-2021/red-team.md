@@ -10,8 +10,8 @@ event: saintcon-2021
 year: 2021
 makers:
 - name: Jup1t3r
-summary: 'A solder-your-own SAINTCON minibadge with three LEDs and a jumper-selectable solid or blinking mode.'
-functions: 'Three LEDs (D1, D2, D3) light up in either solid-on or blinking mode, selected by which pair of jumper pads is bridged.'
+summary: A solder-your-own SAINTCON minibadge with three LEDs and a jumper-selectable solid or blinking mode.
+functions: Three LEDs (D1, D2, D3) light up in either solid-on or blinking mode, selected by which pair of jumper pads is bridged.
 look:
   colors: []
   shape: null
@@ -21,7 +21,7 @@ tech:
   leds:
     count: 3
     type: null
-    note: 'D1, D2, D3; oriented with the green dot toward bottom-left per soldering instructions.'
+    note: D1, D2, D3; oriented with the green dot toward bottom-left per soldering instructions.
   display: null
   connectivity: []
   battery: null
@@ -43,14 +43,14 @@ links:
   url: https://minibadge.wiki/?search=RED%20TEAM&year=2021
   kind: website
 images:
-  - file: assets/images/badges/saintcon-2021/red-team/31dc6802e0.jpg
-    source: "https://minibadge.wiki/?search=RED%20TEAM&year=2021"
-    credit: "Jup1t3r"
-    caption: "RED TEAM minibadge, front"
-  - file: assets/images/badges/saintcon-2021/red-team/1fdd125ce0.jpg
-    source: "https://minibadge.wiki/?search=RED%20TEAM&year=2021"
-    credit: "Jup1t3r"
-    caption: "RED TEAM minibadge, back"
+- file: assets/images/badges/saintcon-2021/red-team/31dc6802e0.jpg
+  source: https://minibadge.wiki/?search=RED%20TEAM&year=2021
+  credit: Jup1t3r
+  caption: RED TEAM minibadge, front
+- file: assets/images/badges/saintcon-2021/red-team/1fdd125ce0.jpg
+  source: https://minibadge.wiki/?search=RED%20TEAM&year=2021
+  credit: Jup1t3r
+  caption: RED TEAM minibadge, back
 contact: {}
 notes: []
 status: listed
@@ -62,14 +62,16 @@ sources:
   note: 'Found by the archive''s discovery sweep (angle: SAINTCON minibadges (via minibadge.wiki community database)); event read as ''SAINTCON 2021''.'
 - kind: url
   url: https://minibadge.wiki/2021.json
-  title: 'MiniBadge Wiki 2021 data feed (RED TEAM entry)'
+  title: MiniBadge Wiki 2021 data feed (RED TEAM entry)
   accessed: '2026-09-07'
   note: 'Underlying JSON record for the RED TEAM card: soldering instructions, difficulty (Beginner), LED count/layout, jumper behavior, and front/back image URLs. Description, category, quantity, and acquisition fields were blank in the source.'
+  archived: https://web.archive.org/web/20260611101844/http://minibadge.wiki/2021.json
 research:
   status: verified
   confidence: low
   last_checked: '2026-09-07'
-  notes: 'Fact-check pass (2026-09-07): re-fetched minibadge.wiki/2021.json directly and confirmed every populated field and body sentence against the RED TEAM record verbatim (author Jup1t3r, three LEDs D1-D3 with one resistor, jumper wording for solid-on vs. blinking, the all-three-pads warning, Beginner difficulty). Also downloaded both image URLs referenced by that record (images/2021/red-team-front.png, red-team-back.png) and confirmed pixel-for-pixel match to the two saved archive photos, so front/back captions are correct. The minibadge.wiki search-page source (accessed 2026-09-06) is client-rendered and shows nothing to a non-JS fetch, which matches the researcher''s original note and is why the JSON feed is the operative citation. Everything left in the entry is supported; status remains low-confidence only because description, category, quantity, board house, price, and acquisition details are genuinely blank at the source and no maker page for Jup1t3r was ever found (not because anything here is unverified).'
+  notes: 'Fact-check pass (2026-09-07): re-fetched minibadge.wiki/2021.json directly and confirmed every populated field and body sentence against the RED TEAM record verbatim (author Jup1t3r, three LEDs D1-D3 with one resistor, jumper wording for solid-on vs. blinking, the all-three-pads warning, Beginner difficulty). Also downloaded both image URLs referenced by that record (images/2021/red-team-front.png, red-team-back.png) and confirmed pixel-for-pixel match to the two saved archive photos, so front/back captions are correct. The minibadge.wiki search-page source (accessed 2026-09-06) is client-rendered and shows nothing to a non-JS fetch, which matches the researcher''s original note and is why the JSON feed is the operative citation. Everything left in the entry is supported; status remains low-confidence only because description, category, quantity, board house, price, and acquisition details are genuinely blank at the source and no maker page for Jup1t3r was ever found (not because
+    anything here is unverified).'
 last_modified_date: '2026-09-07'
 ---
 
