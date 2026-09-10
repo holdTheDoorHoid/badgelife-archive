@@ -72,10 +72,21 @@ sources:
   accessed: '2026-09-10'
   note: 'Confirmed maker, event, MCU (ATtiny402), single Neopixel 5050 LED, CR2032 power, SAO-connector UPDI flashing, Eagle design files, gerbers, BOM link, and the Morse-code instructional booklet.'
 research:
-  status: researched
+  status: verified
   confidence: medium
   last_checked: '2026-09-10'
-  notes: No photos of the assembled badge were found in the repo (only the ufo.svg vector artwork and a generic GitHub social-card image, which is not a photo of the item, so no images were saved). Price and quantity made are not stated anywhere; distribution assumed free_drop since it was handed out at the con with an included handout booklet, but this is not explicitly confirmed by the maker.
+  notes: >-
+    Re-fetched the maker's GitHub README, the repo's file listing (API), and the eagle-files
+    subfolder; every non-empty field and factual sentence in the entry is supported (MCU, LED,
+    battery, button, UPDI/SAO flashing via jtag2updi, Eagle files, gerber_files.zip, DigiKey BOM
+    link, morse-code booklet, STL case, SVG artwork). GitHub reports no license file, which
+    matches the empty license field. No photos of the assembled badge exist in the repo (only
+    ufo.svg and GitHub's auto social-card image), so images stays empty. Price and quantity made
+    are still not stated anywhere; distribution is inferred as free_drop from the README's note
+    about the flyer given out on the day plus the con context, not an explicit maker statement, so
+    get_one price/quantity, tech.sao_version, make_your_own.fab_url, and contact remain correctly
+    empty. Confidence held at medium because free_drop/price/quantity rest on inference rather
+    than an explicit statement.
 last_modified_date: '2026-09-10'
 ---
 

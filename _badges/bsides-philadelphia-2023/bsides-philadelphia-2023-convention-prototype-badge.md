@@ -65,17 +65,20 @@ sources:
   accessed: '2026-09-10'
   note: 'Maker''s own project page; confirms maker (Garrett Fails), event/year, that it is a 2-layer 1.6mm PCB prototype, and October 2023 posting date. No pricing, chip, LED, or display info given.'
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-10'
   notes: >-
-    Confirmed real via the maker's own PCBWay project-share page, which is the only source found.
-    A web search turned up no Hackaday, storefront, social post, or other coverage of this specific
-    badge; other search hits were unrelated (Garrett Fails' LinkedIn/political-candidate pages,
-    general BSidesPhilly event pages). No technical specs (MCU, LEDs, display, power), price,
-    quantity, or distribution details are published anywhere found, and it is explicitly a
-    prototype rather than a finished/distributed badge, so most tech and get_one fields are left
-    empty rather than guessed.
+    Fact-check pass (2026-09-10): re-fetched the PCBWay project-share page and confirmed every
+    claim in the entry (maker Garrett Fails, October 27 2023 posting date, the "proof of concept
+    for a unique conference badge idea... highly unusual but worked" quote, 2-layer 1.6mm board,
+    no MCU/LED/display/price/quantity info on the page, and that the two saved images are from
+    that page and show this badge). A repeat web search found no independent coverage (Hackaday,
+    storefront, social, press) of this specific badge; the only new hit checked, a BSidesPhilly
+    2023 attendee blog post, does not mention a badge or Garrett Fails. All non-empty fields and
+    body sentences are supported, so status is raised from researched to verified. Confidence
+    stays low because coverage is thin (a single maker-posted source) and most tech/get_one
+    fields remain empty for lack of any published specs.
 last_modified_date: '2026-09-10'
 ---
 

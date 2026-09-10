@@ -36,7 +36,7 @@ get_one:
   availability: unknown
   distribution:
   - free_drop
-  where: 'Given out as a set by Jup1t3r in person at the BadgeLife community booth at SAINTCON 2022, at unscheduled times when Jup1t3r was at the table; recipients were typically asked about their first real hack.'
+  where: Given out as a set by Jup1t3r in person at the BadgeLife community booth at SAINTCON 2022, at unscheduled times when Jup1t3r was at the table; recipients were typically asked about their first real hack.
 make_your_own:
   open_source: null
   hardware_url: null
@@ -49,15 +49,18 @@ links:
 - label: minibadge.wiki 2022 data export (JSON)
   url: https://minibadge.wiki/2022.json
   kind: doc
+  archived: https://web.archive.org/web/20260611101915/http://minibadge.wiki/2022.json
 images:
 - file: assets/images/badges/saintcon-2022/hack-minibadges/831ac3d638.jpg
-  source: "https://minibadge.wiki/2022.json"
-  credit: "Jup1t3r"
-  caption: "Front side of the HACK minibadge set"
+  source: https://minibadge.wiki/2022.json
+  credit: Jup1t3r
+  caption: Front side of the HACK minibadge set
+  archived: https://web.archive.org/web/20260611101915/http://minibadge.wiki/2022.json
 - file: assets/images/badges/saintcon-2022/hack-minibadges/f833ec0f95.jpg
-  source: "https://minibadge.wiki/2022.json"
-  credit: "Jup1t3r"
-  caption: "Back side of the HACK minibadge set showing LED and header placement"
+  source: https://minibadge.wiki/2022.json
+  credit: Jup1t3r
+  caption: Back side of the HACK minibadge set showing LED and header placement
+  archived: https://web.archive.org/web/20260611101915/http://minibadge.wiki/2022.json
 contact: {}
 notes:
 - 'category: Official; rarity: Rare'
@@ -74,11 +77,12 @@ sources:
   title: MiniBadge Wiki 2022 data export
   accessed: '2026-09-07'
   note: 'Raw JSON record for "HACK MINIBADGES" by Jup1t3r: description, soldering instructions, how-to-acquire text, category (Official), rarity (Rare), and front/back image filenames. quantityMade and boardHouse fields were present but empty in the export.'
+  archived: https://web.archive.org/web/20260611101915/http://minibadge.wiki/2022.json
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'The search-query link on minibadge.wiki is client-side (JS-rendered) and returned no content on fetch; the underlying record was found instead in the site''s own 2022.json data export, which is a direct community-submitted description rather than a third-party account, so treating it as maker-adjacent (confidence medium rather than high since it is not the maker''s own site/post). Quantity made, price, MCU, and PCB color/shape were not stated anywhere found and are left empty. No separate maker page, repo, or storefront was located for Jup1t3r.'
+  notes: The search-query link on minibadge.wiki is client-side (JS-rendered) and returned no content on fetch; the underlying record was found instead in the site's own 2022.json data export, which is a direct community-submitted description rather than a third-party account, so treating it as maker-adjacent (confidence medium rather than high since it is not the maker's own site/post). Quantity made, price, MCU, and PCB color/shape were not stated anywhere found and are left empty. No separate maker page, repo, or storefront was located for Jup1t3r.
 last_modified_date: '2026-09-07'
 ---
 

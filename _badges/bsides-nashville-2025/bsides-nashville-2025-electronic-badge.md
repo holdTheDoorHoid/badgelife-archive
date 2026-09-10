@@ -70,13 +70,13 @@ sources:
   accessed: '2026-09-10'
   note: Maker's homepage; describes Fox Pick as a lockpicking village that travels to conferences and offers custom PCB/3D-print design services, but has no dedicated page for the BSides Nashville 2025 badge.
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-10'
-  notes: Confirmed the badge is real via the event's own villages page, which names Fox Pick as designer/builder and shows a photo, but no technical specs (MCU, LEDs, display), price, quantity, or availability were published anywhere found. A GitHub repo (sorooris/bsides-badge-2025) turned up in search but its README gives no event attribution and cannot be confirmed as this badge, so it was not used as a source. Left most tech/get_one fields empty per the never-invent rule.
+  notes: Fact-check pass re-fetched both cited sources (bsidesnash.org/villages, fox-pick.com) and confirmed the maker attribution, the badge photo, and the Fox Pick site description. Removed one unsupported claim from the body text ("several other regional BSides events") — neither source names any BSides events besides Nashville for Fox Pick. No technical specs (MCU, LEDs, display), price, quantity, or availability were published anywhere found, so those fields remain empty per the never-invent rule. A GitHub repo (sorooris/bsides-badge-2025) turned up in search but its README gives no event attribution and cannot be confirmed as this badge, so it was not used as a source.
 last_modified_date: '2026-09-10'
 ---
 
-The BSides Nashville 2025 electronic badge was designed and built by Fox Pick, who also runs the lockpicking village at the conference and at several other regional BSides events. The event's own villages page credits Fox Pick by name and includes a photo of the badge, confirming it as a real, produced item, but the page does not go into technical detail.
+The BSides Nashville 2025 electronic badge was designed and built by Fox Pick, who also runs the lockpicking village at the conference. The event's own villages page credits Fox Pick by name and includes a photo of the badge, confirming it as a real, produced item, but the page does not go into technical detail.
 
 No public source could be found describing the badge's microcontroller, LEDs, display, price, production quantity, or availability, so those fields are left blank rather than guessed. Fox Pick's own site advertises custom PCB and 3D-print design work but does not have a dedicated project page for this badge; a repository search turned up a same-named "bsides-badge-2025" GitHub project, but nothing in it ties it specifically to Nashville, so it was not cited here.

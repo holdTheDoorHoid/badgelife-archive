@@ -11,7 +11,7 @@ year: 2022
 makers:
 - name: Jup1t3r
 summary: A beginner-level SAINTCON minibadge for the con's Circuit Assembly (soldering) area, mixing through-hole and surface-mount parts on one small board.
-functions: 'A 3-way solder jumper on the back selects one of two LED behaviors (solid on or blinking); no other electronic function beyond the LEDs.'
+functions: A 3-way solder jumper on the back selects one of two LED behaviors (solid on or blinking); no other electronic function beyond the LEDs.
 look:
   colors:
   - green
@@ -25,7 +25,7 @@ tech:
   leds:
     count: 2
     type: discrete
-    note: 'Two SMD LEDs (silkscreened D1/D2 on the back, hand-soldered via the "single-pad method"); the badge''s own instructions carry an explicit polarity warning/diagram, since the LEDs have poor markings for orientation.'
+    note: Two SMD LEDs (silkscreened D1/D2 on the back, hand-soldered via the "single-pad method"); the badge's own instructions carry an explicit polarity warning/diagram, since the LEDs have poor markings for orientation.
   display: null
   connectivity: []
   battery: null
@@ -37,7 +37,7 @@ get_one:
   availability: free
   distribution:
   - free_drop
-  where: 'Given out at SAINTCON''s Circuit Assembly area (the con''s soldering station) to attendees who showed staff something they had soldered themselves.'
+  where: Given out at SAINTCON's Circuit Assembly area (the con's soldering station) to attendees who showed staff something they had soldered themselves.
 make_your_own:
   open_source: null
   hardware_url: null
@@ -48,14 +48,14 @@ links:
   url: https://minibadge.wiki/?search=CIRCUIT%20ASSEMBLY%20BADGE&year=2022
   kind: website
 images:
-  - file: assets/images/badges/saintcon-2022/circuit-assembly-badge/99234c19af.jpg
-    source: "https://minibadge.wiki/?search=CIRCUIT%20ASSEMBLY%20BADGE&year=2022"
-    credit: "Jup1t3r / minibadge.wiki"
-    caption: "Circuit Assembly minibadge, front"
-  - file: assets/images/badges/saintcon-2022/circuit-assembly-badge/8e4dfcec21.jpg
-    source: "https://minibadge.wiki/?search=CIRCUIT%20ASSEMBLY%20BADGE&year=2022"
-    credit: "Jup1t3r / minibadge.wiki"
-    caption: "Circuit Assembly minibadge, back"
+- file: assets/images/badges/saintcon-2022/circuit-assembly-badge/99234c19af.jpg
+  source: https://minibadge.wiki/?search=CIRCUIT%20ASSEMBLY%20BADGE&year=2022
+  credit: Jup1t3r / minibadge.wiki
+  caption: Circuit Assembly minibadge, front
+- file: assets/images/badges/saintcon-2022/circuit-assembly-badge/8e4dfcec21.jpg
+  source: https://minibadge.wiki/?search=CIRCUIT%20ASSEMBLY%20BADGE&year=2022
+  credit: Jup1t3r / minibadge.wiki
+  caption: Circuit Assembly minibadge, back
 contact: {}
 notes:
 - 'category: Official; rarity: Common'
@@ -71,6 +71,7 @@ sources:
   title: minibadge.wiki 2022 data (CIRCUIT ASSEMBLY BADGE entry)
   accessed: '2026-09-07'
   note: 'Underlying JSON record behind the search page: maker (Jup1t3r), description, soldering instructions and difficulty, category/rarity, quantityMade (recorded as 0, i.e. not stated), acquisition method, and the front/back image URLs.'
+  archived: https://web.archive.org/web/20260611101915/http://minibadge.wiki/2022.json
 research:
   status: verified
   confidence: high

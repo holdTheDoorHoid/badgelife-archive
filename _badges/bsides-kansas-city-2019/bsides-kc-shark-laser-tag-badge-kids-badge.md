@@ -66,10 +66,10 @@ sources:
   accessed: '2026-09-10'
   note: Confirmed maker (BadgePirates), event (BSidesKC 2019 kids badge), functions, price, and required 3-component solder assembly; MCU, LED count, quantity made, and current availability are not stated in the listing.
 research:
-  status: researched
+  status: verified
   confidence: medium
   last_checked: '2026-09-10'
-  notes: Tindie listing confirms the item and maker but does not name an MCU, LED type/count, quantity produced, or current stock status; no GitHub/design-file link was found. Left those fields empty rather than guessing.
+  notes: Fact-check re-fetched the Tindie listing directly and confirmed every populated field and body sentence against its text (maker, event, both prices, "Baby Shark Song" at startup, IR laser-tag mode via the "Pew" button, 3-hit limit with 15-second reset, LEDs going dark per hit, vibration on impact, and the 3-solder-joint kids' assembly). The listing still does not name an MCU, LED type/count, quantity produced, or current stock status, and no GitHub/design-file link was found; those fields remain empty rather than guessed.
 last_modified_date: '2026-09-10'
 ---
 

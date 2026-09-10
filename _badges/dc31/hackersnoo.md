@@ -43,7 +43,7 @@ images: []
 contact: {}
 notes:
 - Independent badge sold at the 3535 bar during DEF CON 31, per the community badgelife tracking spreadsheet. (seen only in a search snippet; unconfirmed) Found by the event-year sweep, task dc31-indie.
-status: listed
+status: rumored
 sources:
 - kind: url
   url: https://twitter.com/bitefl0w
@@ -51,10 +51,21 @@ sources:
   accessed: '2026-09-07'
   note: 'Found by the archive''s discovery sweep (angle: sweep:dc31-indie); event read as ''dc31''.'
 research:
-  status: stub
+  status: researched
   confidence: low
-  last_checked: '2026-09-07'
-  notes: Imported from the community badge sheet; not yet researched.
-last_modified_date: '2026-09-07'
+  last_checked: '2026-09-10'
+  notes: >-
+    Could not confirm this item exists. The only lead is the community badgelife
+    tracking spreadsheet's one-line note that a badge called "Hackersnoo" by
+    maker Bitefl0w was sold at the 3535 bar during DEF CON 31. Fetching
+    twitter.com/bitefl0w redirects to x.com, whose profile page could not be
+    retrieved (HTTP 402 via WebFetch; the syndication API was rate-limited).
+    Web searches for "Hackersnoo" combined with bitefl0w, DEF CON 31, badgelife,
+    and "3535 bar" returned no relevant results — nothing but unrelated Twitch
+    badge sites and eBay listings. No maker page, store listing, forum post, or
+    press mention of this badge could be found. Leaving status as rumored per
+    the research guide's rule for items seen only in a search snippet with no
+    confirming page.
+last_modified_date: '2026-09-10'
 ---
 

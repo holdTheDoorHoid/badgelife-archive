@@ -36,94 +36,91 @@ bsides-adelaide-2026-wombat-3 | Wombat 3 | Hackerware.io
 bsides-augusta-2019-bsides-augusta-2019-badge | BSides Augusta 2019 Badge | David Ray / Ashwin Hamal (David Ray Electronics and More / Cyber City Circuits)
 bsides-augusta-2021-bsides-augusta-2021-sao-badge-kit | BSides Augusta 2021 SAO Badge Kit | Cyber City Circuits
 bsides-augusta-2023-bsidesaugusta-0xa-circuit-board-badge | BSidesAugusta 0xA Circuit Board Badge | BSidesAugusta (badgelife-style circuit board badge)
-bsides-boise-2017-bsides-boise-2017-electronic-badge | BSides Boise 2017 Electronic Badge | BSides Boise badge team
+bsides-boise-2017-bsides-boise-2017-electronic-badge | BSides Boise 2017 Electronic Badge | BSides Boise 2017 Badge team
 bsides-bournemouth-2025-bsides-bournemouth-2025-skull-badge | BSides Bournemouth 2025 Skull Badge | Punk Security
-bsides-canberra-2016-bsidescbrbadge2016-arduino-running-order-badge | BsidesCbrBadge2016 (Arduino running-order badge) | BSidesCbr
-bsides-canberra-2018-busside | BUSSide | BSidesCbr
+bsides-canberra-2016-bsidescbrbadge2016-arduino-running-order-badge | BSides Canberra 2016 badge | Ingmar M. ("Iggy")
+bsides-canberra-2018-busside | BUSSide | Silvio Cesare, InfoSect
 bsides-canberra-2019-nopia-1337 | Nopia 1337 | Peter Rankin (BSidesCbr)
-bsides-canberra-2021-bsides-canberra-2020-2021-badge-samd21-esp32-e-paper-badge | BSides Canberra 2020/2021 badge (SAMD21/ESP32 e-paper badge) | BSidesCbr
+bsides-canberra-2021-bsides-canberra-2020-2021-badge-samd21-esp32-e-paper-badge | BSides Canberra 2020/2021 badge (SAMD21/ESP32 e-paper badge) | Penten, BSidesCbr
 bsides-canberra-2023-bpod | bPod | Peter Rankin (pjranki)
 bsides-canberra-2024-bsides-canberra-2024-orc-blinky-badge | BSides Canberra 2024 orc blinky badge | BSides Canberra
 bsides-cape-town-2015-bsides-badge-2015-bsidescpt | bsides-badge-2015 (BSidesCPT) | dodgymike
 bsides-cape-town-2016-bsidesbadge2016-andrewmohawk | BSidesBadge2016 (AndrewMohawk) | AndrewMohawk
 bsides-cape-town-2016-bsidescpt2016badge | bsidescpt2016badge | Andrew Mohawk, dodgymike (Mike Davis / @ElasticNinja)
-bsides-cape-town-2017-black-flux-capacitor-esp-badge-bsides-cape-town-2017 | Black flux-capacitor ESP badge (BSides Cape Town 2017) | BSides Cape Town 2017 event team
+bsides-cape-town-2017-black-flux-capacitor-esp-badge-bsides-cape-town-2017 | Black flux-capacitor ESP badge (BSides Cape Town 2017) | SensePost
 bsides-cape-town-2017-red-cc1111-rfcat-rf-badge-bsides-cape-town-2017 | Red CC1111 RFCat RF badge (BSides Cape Town 2017) | BSides Cape Town 2017 event team
-bsides-cape-town-2019-bsides-cape-town-2019-badge | BSides Cape Town 2019 badge | BSides Cape Town event team
-bsides-cdmx-2024-badge-bsides-cdmx-2024 | Badge bsides CDMX 2024 | Electronic Cats
+bsides-cape-town-2019-bsides-cape-town-2019-badge | BSides Cape Town 2019 badge | Tony Mobily, Mike Davis (elasticninja)
+bsides-cdmx-2024-badge-bsides-cdmx-2024 | Badge BSides CDMX 2024 | Electronic Cats
 bsides-cdmx-2025-bsides-cdmx-2025-badge | Security BSides CDMX 2025 Badge | Electronic Cats
 bsides-charleston-2019-bsides-charleston-lock-sao | BSides Charleston Lock SAO | Badge Pirates
 bsides-charleston-2022-bsides-charleston-2022-badge | BSides Charleston 2022 Badge | Badge Pirates
 bsides-cheltenham-2024-bsides-cheltenham-2024-ufo-badge | BSides Cheltenham 2024 UFO Badge | Punk Security
 bsides-cleveland-2026-bsidescle-2026-conference-badge | BSidesCLE 2026 Conference Badge | BSidesCLE
 bsides-connecticut-2020-bsidesct-2020-electronic-badge | BSidesCT 2020 Electronic Badge | BSides-CT community team
-bsides-cz-2025-bsides-badge-2025-bsides-cz-2025 | bsides-badge-2025 (BSides CZ 2025) | bsidescz / sorooris (fork)
+bsides-cz-2025-bsides-badge-2025-bsides-cz-2025 | BSides Prague 2025 Badge | BSides Czech z.s.
 bsides-dublin-2026-bsides-dublin-2026-harp-badge | BSides Dublin 2026 Harp Badge | BSides Dublin organizers
 bsides-iowa-2018-b-sides-iowa-2018-badge | B-Sides Iowa 2018 Badge | Black Cat Labs (G Rice)
 bsides-iowa-2019-wrickert-badge | BSidesIowa 2019 Badge | wrickert
 bsides-jacksonville-2018-security-b-sides-jax-2018-badge | Security b sides Jax 2018 Badge | Kirball
 bsides-jacksonville-2023-bsidesjax-2023-badge | BSidesJAX 2023 Badge | Panda (@hacksbearywell)
 bsides-kansas-city-2018-bsideskc-2018 | BSidesKC 2018 | BadgePirates
-bsides-kansas-city-2019-bsides-kc-shark-laser-tag-badge-kids-badge | BSides KC Shark Laser Tag Badge (Kids Badge) | BadgePirates
-bsides-kansas-city-2019-bsideskc-2019 | BSidesKC 2019 | BadgePirates
+bsides-kansas-city-2019-bsides-kc-shark-laser-tag-badge-kids-badge | BSides KC Shark Laser Tag Badge | BadgePirates
+bsides-kansas-city-2019-bsideskc-2019 | BSidesKC 2019 Shark Badge | BadgePirates
 bsides-kansas-city-2021-bsides-kc-2021-badge-w-stand | BSides KC 2021 Badge w/ Stand | BadgePirates
 bsides-kansas-city-2023-bsideskc-2023-attendee-elect-badge | BSidesKC 2023 Attendee Elect Badge | BadgePirates
-bsides-kansas-city-2023-bsideskc-2023-bsides23 | BSidesKC 2023 (BSides23) | BadgePirates
-bsides-kansas-city-2024-bsideskc-2024-bsides24 | BSidesKC 2024 (BSides24) | BadgePirates
-bsides-las-vegas-2017-tikibadge | TikiBadge | r3dct3d (redacted)
+bsides-kansas-city-2024-bsideskc-2024-bsides24 | BSidesKC 2024 Learn to Solder Badge (Down the Rabbit Hole) | BadgePirates
+bsides-las-vegas-2017-life-s-a-breach-tiki-badge | TikiBadge | r3dct3d (redacted)
 bsides-nashville-2025-bsides-nashville-2025-electronic-badge | BSides Nashville 2025 Electronic Badge | Fox Pick
 bsides-nashville-2026-bsides-nashville-2026-conference-badge | BSides Nashville 2026 Conference Badge | Camille Louise
 bsides-orlando-2018-security-b-sides-orlando-2018-badge | Security B-Sides Orlando 2018 Badge | Jonathan Singer, Heather Lawrence
 bsides-orlando-2019-security-b-sides-orlando-2019-badge | Security B-Sides Orlando 2019 Badge | Jonathan Singer
-bsides-orlando-2023-bsides-orlando-2023-badge-rise-of-the-robots | BSides Orlando 2023 Badge (Rise of the Robots) | BSides Orlando / BadgePirates(?)
+bsides-orlando-2023-bsides-orlando-2023-badge-rise-of-the-robots | BSides Orlando 2023 Badge (Rise of the Robots) | BSides Orlando
 bsides-orlando-2023-ironwood-cyber-mark-ii-arc-reactor-badge-bsides-orlando-2023 | Ironwood Cyber 'Mark II' Arc Reactor Badge (BSides Orlando 2023 fundraiser) | Ironwood Cyber
 bsides-orlando-2024-bsides-orlando-2024-badge | BSides Orlando 2024 Badge | Unknown (BSides Orlando badge team, presented in 'Badge Life' talk)
 bsides-orlando-2025-bsides-orlando-2025-badge | BSides Orlando 2025 Badge | Jose Rodriguez
 bsides-orlando-2025-order-of-the-golden-grin-order-of-the-toothy-grin-exclusive | Order of the Golden Grin / Order of the Toothy Grin exclusive SAO | BSides Orlando
 bsides-orlando-2026-bsides-orlando-2026-badge | BSides Orlando 2026 Badge | BSides Orlando
-bsides-perth-2017-bsides-perth-2017-wemos-badge | BSides Perth 2017 Wemos badge | BSides Perth
+bsides-perth-2017-bsides-perth-2017-wemos-badge | BSides Perth 2017 Badge | BSides Perth
 bsides-perth-2018-bsides-perth-2018-nodemcu-badge | BSides Perth 2018 NodeMCU badge | BSides Perth
 bsides-perth-2025-bsides-perth-2025-badge | BSides Perth 2025 badge | badges4dotcom
 bsides-philadelphia-2023-bsides-philadelphia-2023-convention-prototype-badge | BSides Philadelphia 2023 Convention Prototype Badge | Garrett Fails
 bsides-portland-2015-bsidespdx-2015-badger-badge | BSidesPDX 2015 Badger Badge | PDX Badgers
 bsides-portland-2016-bsidespdx-2016-attiny85-badge | BSidesPDX 2016 ATTiny85 Badge | PDX Badgers
 bsides-portland-2017-bsidespdx-2017-bmd-300-badge | BSidesPDX 2017 BMD-300 Badge | PDX Badgers
-bsides-portland-2017-ox-vox-add-on | Ox-Vox add-on | Rob Rehrig
-bsides-portland-2018-bsidespdx-2018-attiny861-badge | BSidesPDX 2018 ATTiny861 Badge | PDX Badgers
+bsides-portland-2017-ox-vox-add-on | Ox Vox | Rob Rehrig
+bsides-portland-2018-bsidespdx-2018-attiny861-badge | BSidesPDX 2018 ATtiny861 Badge | PDX Badgers
 bsides-portland-2019-bsidespdx-2019-multnomah-badge | BSidesPDX 2019 Multnomah Badge | PDX Badgers
 bsides-portland-2020-bsidespdx-2020-presenter-led-mask | BSidesPDX 2020 Presenter LED Mask | PDX Badgers
 bsides-portland-2024-bsidespdx-2024-opentaxus-badge | BSidesPDX 2024 OpenTaxus Badge | PDX Badgers
 bsides-rochester-2019-bsides-badge-2019-interlock-rochester | BSides_badge_2019 (Interlock Rochester) | Interlock Rochester
-bsides-rochester-2024-bsidesroc-ctf-badge | BSidesROC CTF Badge | Hackerware(s)
+bsides-rochester-2024-bsidesroc-ctf-badge | BSidesROC CTF Badge | Hackerwares
 bsides-san-diego-2020-bsides-sd-2020-badge | BSides SD 2020 Badge | S. Hollingsworth (community contributor)
 bsides-san-diego-2024-bsides-badge-2024-somerset-recon | bsides-badge-2024 (Somerset Recon) | Somerset Recon
 bsides-san-diego-2025-bsides-san-diego-2025-badge | BSides San Diego 2025 Badge | Electronic Cats
 bsides-san-diego-2026-bsides-san-diego-2026-cyberpunk-bunny-badge | BSides San Diego 2026 Cyberpunk Bunny Badge | Electronic Cats
-bsides-san-francisco-2017-life-s-a-breach-tiki-badge | Life's A Breach / Tiki badge | [bon] and [redacted]
 bsides-san-francisco-2023-bsidessf-23-badge | BSidesSF '23 Badge | Abhinav Pandagale
-bsides-san-francisco-2024-bsidessf-2024-electronic-badge-attribution-game | BSidesSF 2024 Electronic Badge (Attribution Game) | BSidesSF organizing team
-bsides-seattle-2018-bsides-seattle-2018-electronic-badge | BSides Seattle 2018 electronic badge | BSides Seattle / Hardware Hacking Village
+bsides-san-francisco-2024-bsidessf-2024-electronic-badge-attribution-game | BSidesSF 2024 Electronic Badge (Attribution Game) | Joe FitzPatrick (securityfitz), rlc4, lanrat, securelyfitz
+bsides-seattle-2018-bsides-seattle-2018-electronic-badge | BSides Seattle 2018 electronic badge | Black Lodge Research
 bsides-seattle-2025-bsides-seattle-2025-badge | BSides Seattle 2025 badge | Electronic Cats
 bsides-slc-2015-bsidesslc-2015-electronic-badge | BSidesSLC 2015 Electronic Badge | theTransistor / D3c4f, Compukidmike, Devino, 801 Labs, DC801
 bsides-slc-2019-bsides-slc-2019-badge | BSides SLC 2019 Badge | Professor-plum (with challenge design by bashNinja)
 bsides-slc-2025-2025-utahtastic-bsides-badge-bsides-lora-badge | 2025 Utahtastic BSides Badge — BSides Lora Badge | distinctm1nd
 bsides-st-louis-2019-bsidesstl-2019 | BSidesSTL 2019 | BadgePirates
 bsides-st-louis-2023-bsidesstl-2023-bsidesstl-23 | BSidesSTL 2023 (BSidesSTL 23) | BadgePirates
-bsides-tallinn-2022-bsides-tallinn-2022-legacy-diy-soldering-badge | BSides Tallinn 2022 Legacy DIY Soldering Badge | Konstantin Shibin / BSides Tallinn
+bsides-tallinn-2022-bsides-tallinn-2022-legacy-diy-soldering-badge | BSides Tallinn 2022 DIY Soldering Badge | Konstantin Shibin / BSides Tallinn
 bsides-tallinn-2025-bsides-badge-bsides-tallinn | BSides 25 Badge | BSides Tallinn
 bsides-tampa-2018-bsides-tampa-2018-badge | BSides Tampa 2018 Badge | BSides Tampa / Tampa Bay (ISC)2 chapter
 bsides-tampa-2026-bsides-tampa-2026-badge-unlucky-13 | BSides Tampa 2026 Badge (Unlucky 13) | Joshua Grose, c0ldbru
 bsides-vancouver-2019-bsides-vancouver-2019-badge | BSides Vancouver 2019 Badge | TwinkleTwinkie
-bsides-vancouver-2025-b-sides-vancouver-2025-badge | B|Sides Vancouver 2025 Badge | BSides Vancouver community
-bsides-vancouver-2025-bsides-vancouver-2025-badge | BSides Vancouver 2025 Badge | Nick Maltchev (maltchev)
+bsides-vancouver-2025-b-sides-vancouver-2025-badge | BSides Vancouver 2025 Badge | Nick Maltchev (maltchev)
 bsides-vilnius-2026-bsides-vilnius-2026-badge | BSides Vilnius 2026 Badge | BSides-Vilnius
 bsidesdfw-2018-dfw-hacker-badge-beer-bottle-badge | DFW Hacker Badge (Beer Bottle Badge) | alt_bier
 bsidesdfw-2018-lan-tap-bsidesdfw-2018-badge | LAN TAP (BSidesDFW 2018 Badge) | gowenrw / alt_bier (based on Michael Ossmann's Throwing Star LAN TAP)
-bsidesdfw-2019-akira-badge | Akira Badge | alt_bier (gowenrw)
+bsidesdfw-2019-akira-badge | AKIRA Badge | alt_bier (gowenrw)
 bsidesdfw-2021-astable-badge | Astable Badge | Alt_Bier
-bsidesdfw-2024-bsidesdfw-2024-badge | BSidesDFW 2024 Badge | hon1nbo (circuit/PCB), ibi5 (concept/art), BearsInPorts (silkscreen art)
+bsidesdfw-2024-bsidesdfw-2024-badge | BSidesDFW 2024 Badge | hon1nbo, ibi5, BearsInPorts
 bsidespr-2016-bsides20016badge-stm32f0-cortex-m0-led-matrix | BSides20016Badge (STM32F0/Cortex-M0, LED matrix) | soynerdito
-bsidespr-2019-bsidespr-2019-badge-luffy-badge-diy-attiny13a-kit | BSidesPR 2019 Badge (Luffy Badge / DIY ATtiny13A kit) | soynerdito
+bsidespr-2019-bsidespr-2019-badge-luffy-badge-diy-attiny13a-kit | BSidesPR 2019 Badge (DIY ATtiny13A kit) | soynerdito
 bsidespr-2024-bsidespr-taino-sun-badge | BSidesPR Taino Sun Badge | So11Deo6loria / BSides Puerto Rico badge team
 cactuscon-2014-cactuscon-2014-pcb-badge | CactusCon 2014 PCB Badge | HeatSync Labs
 cactuscon-2017-cactuscon-2017-wi-fi-bluetooth-scanner-badge | CactusCon 2017 Wi-Fi/Bluetooth Scanner Badge | CactusCon

@@ -11,7 +11,7 @@ year: 2021
 makers:
 - name: Jup1t3r
 summary: A SAINTCON 2021 minibadge shaped like the American flag, with two LEDs behind the blue canton.
-functions: 'No interactive functions beyond its LEDs; a beginner-level soldering kit.'
+functions: No interactive functions beyond its LEDs; a beginner-level soldering kit.
 look:
   colors:
   - red
@@ -25,7 +25,7 @@ tech:
   leds:
     count: 2
     type: null
-    note: 'Two through-hole LEDs behind the blue canton; solder with the green indicator down and left, plus a single non-polarized resistor.'
+    note: Two through-hole LEDs behind the blue canton; solder with the green indicator down and left, plus a single non-polarized resistor.
   display: none
   connectivity: []
   battery: null
@@ -48,13 +48,13 @@ links:
   kind: website
 images:
 - file: assets/images/badges/saintcon-2021/usa-flag/8c40625b21.jpg
-  source: "https://minibadge.wiki/?search=USA%20FLAG&year=2021"
-  credit: "Jup1t3r"
-  caption: "Front of the USA FLAG minibadge"
+  source: https://minibadge.wiki/?search=USA%20FLAG&year=2021
+  credit: Jup1t3r
+  caption: Front of the USA FLAG minibadge
 - file: assets/images/badges/saintcon-2021/usa-flag/0569059a46.jpg
-  source: "https://minibadge.wiki/?search=USA%20FLAG&year=2021"
-  credit: "Jup1t3r"
-  caption: "Back of the USA FLAG minibadge showing soldering pads"
+  source: https://minibadge.wiki/?search=USA%20FLAG&year=2021
+  credit: Jup1t3r
+  caption: Back of the USA FLAG minibadge showing soldering pads
 contact: {}
 notes: []
 status: listed
@@ -66,14 +66,15 @@ sources:
   note: 'Found by the archive''s discovery sweep (angle: SAINTCON minibadges (via minibadge.wiki community database)); event read as ''SAINTCON 2021''.'
 - kind: url
   url: https://minibadge.wiki/2021.json
-  title: 'MiniBadge Wiki 2021 data (USA FLAG entry)'
+  title: MiniBadge Wiki 2021 data (USA FLAG entry)
   accessed: '2026-09-07'
   note: 'Underlying data record for the listing: maker Jup1t3r, SAINTCON 2021, beginner soldering difficulty, two LEDs (green indicator down-left) plus one non-polarized resistor, front/back board images. Category, quantity made, board house, acquisition method, and rarity fields were present but blank in the source data.'
+  archived: https://web.archive.org/web/20260611101844/http://minibadge.wiki/2021.json
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'Only source is the community-run minibadge.wiki database; no maker page, storefront, or press coverage was found for this specific badge. Price, quantity made, and availability are not recorded anywhere found. The maker also made a companion "GADSEN FLAG" minibadge for the same event (see other_items_found in the research report) with identical soldering instructions.'
+  notes: Only source is the community-run minibadge.wiki database; no maker page, storefront, or press coverage was found for this specific badge. Price, quantity made, and availability are not recorded anywhere found. The maker also made a companion "GADSEN FLAG" minibadge for the same event (see other_items_found in the research report) with identical soldering instructions.
 last_modified_date: '2026-09-07'
 ---
 

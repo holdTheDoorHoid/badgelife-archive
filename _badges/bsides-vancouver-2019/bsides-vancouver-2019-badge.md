@@ -66,9 +66,9 @@ sources:
   url: https://hackaday.io/twinkletwinkie
   title: TwinkleTwinkie - Hackaday.io
   accessed: '2026-09-10'
-  note: Profile lists 34 projects (Santa Bot, Wireshark 0x4e00, Arc Badge/DC27 Indie Badge, etc.) but does not list a BSides Vancouver 2019 badge among them; no additional detail found here.
+  note: Profile page states 34 projects total; only the first 7 shown without pagination (Simple Add-ons, Mad Cat, Fat Pika, Wireshark 0x4e00, Arc Badge - DC27 Indie Badge, Big Green, Shitty Add-Ons) do not include a BSides Vancouver 2019 badge, but the remaining 27 were not checked, so this is not a confirmed absence.
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-10'
   notes: >-
@@ -78,14 +78,20 @@ research:
     found. However, Hackster.io blocked every fetch attempt (WebFetch and curl both got
     Cloudflare 403s), so no technical specs, price, quantity, distribution, design files,
     or usable photo could be recovered beyond the one-line description in search results
-    ("An artistic PCB used as BSide Vancouver 2019's conference badge."). TwinkleTwinkie's
-    Hackaday.io profile does not list this project. badge.gallery's own page for this
-    event is itself a thin aggregation of the DC27 bio and adds nothing independent. No
-    image could be sourced. Revisit hackster.io directly (e.g. logged in, or via a
-    different network path) to fill in tech/pricing/images.
+    ("An artistic PCB used as BSide Vancouver 2019's conference badge."), which this
+    verification pass reconfirmed via an independent search snippet. TwinkleTwinkie's
+    Hackaday.io profile does not list this project among the 7 of 34 projects visible
+    without pagination; the remaining 27 were not checked, so absence from the full
+    profile is not confirmed. badge.gallery's own page for this event is itself a thin
+    aggregation of the DC27 bio and adds nothing independent. No image could be sourced.
+    Revisit hackster.io directly (e.g. logged in, or via a different network path) to
+    fill in tech/pricing/images. Verification pass also found an unrelated GitHub repo
+    (maltchev/bsides-vancouver-badge) documenting a BSides Vancouver badge, but it is
+    explicitly for the 2025 event with an ESP32-C3/NFC/WiFi design and does not mention
+    TwinkleTwinkie — a separate badge, not evidence for or against this 2019 entry.
 last_modified_date: '2026-09-10'
 ---
 
 This is an artistic PCB badge that TwinkleTwinkie, an independent PCB artist and prolific badgelife maker (known for numerous DEF CON SAOs and indie badges under the same name), made for BSides Vancouver in 2019. It is documented as one of TwinkleTwinkie's notable works in their DEF CON 27 Hardware Hacking Village speaker bio, and independently confirmed by a project page on Hackster.io titled "BSides Vancouver 2019 Badge," described there simply as "an artistic PCB used as BSide Vancouver 2019's conference badge."
 
-Beyond confirming the badge's existence and title, sources available to this research pass did not yield technical details (MCU, LEDs, display), pricing, production quantity, distribution method, or design files — Hackster.io, which likely holds the fullest writeup, blocked automated fetching with a Cloudflare challenge on every attempt. TwinkleTwinkie's Hackaday.io profile, which lists many of their other projects (Santa Bot, Wireshark 0x4e00, the DC27 Arc Badge), does not include this one, suggesting the Hackster.io page is the primary record for this piece.
+Beyond confirming the badge's existence and title, sources available to this research pass did not yield technical details (MCU, LEDs, display), pricing, production quantity, distribution method, or design files — Hackster.io, which likely holds the fullest writeup, blocked automated fetching with a Cloudflare challenge on every attempt. TwinkleTwinkie's Hackaday.io profile shows 34 projects total; the 7 visible without paging through the rest (including Wireshark 0x4e00 and the DC27 Arc Badge) do not include this one, but the remaining 27 were not checked, so it is unconfirmed whether the Hackster.io page is TwinkleTwinkie's only record of this piece.

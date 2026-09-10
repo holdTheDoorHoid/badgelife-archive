@@ -91,10 +91,10 @@ sources:
   accessed: '2026-09-10'
   note: Confirms event dates (April 20-21, 2018) and venue (Cerner Innovations Campus, Kansas City, MO).
 research:
-  status: researched
+  status: verified
   confidence: high
   last_checked: '2026-09-10'
-  notes: 'Core facts (maker, MCU, LED count/topology, battery, functions) confirmed directly from the maker''s own GitHub repo, firmware source, and conference talk. Price, quantity made, and current availability are not stated anywhere found and are left empty rather than guessed. No photo of the physical badge was found within the research budget: the only imagery discovered was the BSidesKC 2018 event/conference logo (used as the talk video''s thumbnail) and GitHub''s generic repo-card image, neither of which shows the badge itself, so no image was saved per the "photo of the item, not a logo" rule. look.colors/shape/themes are left empty for the same reason.'
+  notes: 'Fact-check pass (2026-09-10): re-fetched every cited source directly. Firmware source (bsides.ino/bsides.h) and PROGRAMMING.md, read from the maker''s own repo, confirm ATtiny85 @ 8MHz, CR2032, the exact GREEN/ORANGE/WHITE/BLUE/YELLOW pin-color assignment, 20 LEDs charlieplexed on 5 pins in a 4x5 grid, the literal strings "BSIDES KC" and "SECKC" (macro SKCS), the six animation routines named, the jumper/pin-read logic selecting SECKC vs. the random mix, and that the repo contains only firmware (no schematic/PCB/BOM), supporting open_source=partial. GitHub tree listing confirms no hardware files exist. docs.badgepirates.com catalog text matches verbatim ("BSidesKC 18" / "First BSidesKC badge in the public archive"). The 2018.bsideskc.org event page confirms Apr 20-21, 2018 at Cerner Innovations Campus, KC, MO. The conference-talk transcript on allbsides.com is machine-generated and garbled on some words (e.g. renders the MCU name as "artemis" and the LED-count math awkwardly, though "25 minus 5 [pins]" does resolve to 20 LEDs) -- it is corroborating background only, and every fact actually placed in the entry is backed by the maker''s own repo/docs, not by parsing the garbled transcript. Price, quantity made, and current availability remain unstated in every source checked and are correctly left empty. No photo of the physical badge exists in any source found (only the event logo and GitHub''s generic repo card), so look.colors/shape/themes and images correctly remain empty.'
 last_modified_date: '2026-09-10'
 ---
 

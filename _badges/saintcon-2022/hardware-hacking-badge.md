@@ -10,8 +10,8 @@ event: saintcon-2022
 year: 2022
 makers:
 - name: Hamster
-summary: 'A learn-to-solder minibadge for the SAINTCON Hardware Hacking Community, built around a 555 timer and basic analog components.'
-functions: 'Teaches soldering and basic analog circuit concepts; built around a 555 timer with resistors and capacitors that attendees wire up and experiment with after assembly.'
+summary: A learn-to-solder minibadge for the SAINTCON Hardware Hacking Community, built around a 555 timer and basic analog components.
+functions: Teaches soldering and basic analog circuit concepts; built around a 555 timer with resistors and capacitors that attendees wire up and experiment with after assembly.
 look:
   colors: []
   shape: null
@@ -33,7 +33,7 @@ get_one:
   availability: free
   distribution:
   - free_drop
-  where: 'Given out at the Hardware Hacking Community area at SAINTCON 2022.'
+  where: Given out at the Hardware Hacking Community area at SAINTCON 2022.
 make_your_own:
   open_source: null
   hardware_url: null
@@ -46,15 +46,18 @@ links:
 - label: minibadge.wiki 2022 data export (JSON)
   url: https://minibadge.wiki/2022.json
   kind: doc
+  archived: https://web.archive.org/web/20260611101915/http://minibadge.wiki/2022.json
 images:
-  - file: assets/images/badges/saintcon-2022/hardware-hacking-badge/c997d08bf7.jpg
-    source: "https://minibadge.wiki/2022.json"
-    credit: "Hamster"
-    caption: "Front of the Hardware Hacking Badge minibadge"
-  - file: assets/images/badges/saintcon-2022/hardware-hacking-badge/cf7bc2a86a.jpg
-    source: "https://minibadge.wiki/2022.json"
-    credit: "Hamster"
-    caption: "Back of the Hardware Hacking Badge minibadge"
+- file: assets/images/badges/saintcon-2022/hardware-hacking-badge/c997d08bf7.jpg
+  source: https://minibadge.wiki/2022.json
+  credit: Hamster
+  caption: Front of the Hardware Hacking Badge minibadge
+  archived: https://web.archive.org/web/20260611101915/http://minibadge.wiki/2022.json
+- file: assets/images/badges/saintcon-2022/hardware-hacking-badge/cf7bc2a86a.jpg
+  source: https://minibadge.wiki/2022.json
+  credit: Hamster
+  caption: Back of the Hardware Hacking Badge minibadge
+  archived: https://web.archive.org/web/20260611101915/http://minibadge.wiki/2022.json
 contact: {}
 notes:
 - 'category: Official; rarity: Common'
@@ -70,11 +73,12 @@ sources:
   title: MiniBadge Wiki 2022 data export
   accessed: '2026-09-07'
   note: 'JSON record for this badge: description, soldering instructions, difficulty (Beginner), category (Official), rarity (Common), how to acquire, and front/back image URLs. The search page itself is client-rendered and returned no entries on fetch, so the underlying JSON export was used instead.'
+  archived: https://web.archive.org/web/20260611101915/http://minibadge.wiki/2022.json
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'Only source is the minibadge.wiki community database entry (submitted by or on behalf of the maker "Hamster"); no independent maker page, repo, or press coverage found. quantityMade is listed as 0 in the source data, which reads as "not recorded" rather than a real count, so get_one.quantity was left empty. No chip, LED, or PCB color/shape info given by the source, so those fields are left empty/null. Distributed free at the SAINTCON Hardware Hacking Community area rather than sold.'
+  notes: Only source is the minibadge.wiki community database entry (submitted by or on behalf of the maker "Hamster"); no independent maker page, repo, or press coverage found. quantityMade is listed as 0 in the source data, which reads as "not recorded" rather than a real count, so get_one.quantity was left empty. No chip, LED, or PCB color/shape info given by the source, so those fields are left empty/null. Distributed free at the SAINTCON Hardware Hacking Community area rather than sold.
 last_modified_date: '2026-09-07'
 ---
 

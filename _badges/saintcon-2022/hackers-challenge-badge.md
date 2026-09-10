@@ -13,15 +13,21 @@ makers:
 summary: A common SAINTCON minibadge earned by interacting with the Hackers Challenge game's Game Masters.
 functions: Lights three LEDs (one uncolored, one red, one blue); no interactivity beyond soldering and display.
 look:
-  colors: [red, blue]
+  colors:
+  - red
+  - blue
   shape: null
-  themes: [minibadge, hardware tool, ctf, learn to solder]
+  themes:
+  - minibadge
+  - hardware tool
+  - ctf
+  - learn to solder
 tech:
   mcu: none
   leds:
     count: 3
     type: discrete
-    note: 'One non-colored LED (D1, back side) and one red LED (D2) plus one blue LED (D3) on the front; each has its own resistor (non-colored/R1, red/R2, blue/R3). The maker also suggests mounting the LEDs upside-down as an advanced alternative.'
+    note: One non-colored LED (D1, back side) and one red LED (D2) plus one blue LED (D3) on the front; each has its own resistor (non-colored/R1, red/R2, blue/R3). The maker also suggests mounting the LEDs upside-down as an advanced alternative.
   display: none
   connectivity: []
   battery: null
@@ -31,7 +37,8 @@ get_one:
   price_usd: null
   quantity: ''
   availability: unknown
-  distribution: [contest]
+  distribution:
+  - contest
   where: Given out by SAINTCON's Hackers Challenge Game Masters, sometimes after solving a puzzle.
 make_your_own:
   open_source: null
@@ -45,15 +52,18 @@ links:
 - label: minibadge.wiki 2022 data export (JSON)
   url: https://minibadge.wiki/2022.json
   kind: doc
+  archived: https://web.archive.org/web/20260611101915/http://minibadge.wiki/2022.json
 images:
-  - file: assets/images/badges/saintcon-2022/hackers-challenge-badge/2bbd0f14f7.jpg
-    source: "https://minibadge.wiki/data/"
-    credit: "Zevlag / minibadge.wiki"
-    caption: "Front of the Hackers Challenge minibadge, showing the non-colored, red, and blue LEDs"
-  - file: assets/images/badges/saintcon-2022/hackers-challenge-badge/3f0630ec0f.jpg
-    source: "https://minibadge.wiki/data/"
-    credit: "Zevlag / minibadge.wiki"
-    caption: "Back of the Hackers Challenge minibadge, showing the solder pads and header pins"
+- file: assets/images/badges/saintcon-2022/hackers-challenge-badge/2bbd0f14f7.jpg
+  source: https://minibadge.wiki/data/
+  credit: Zevlag / minibadge.wiki
+  caption: Front of the Hackers Challenge minibadge, showing the non-colored, red, and blue LEDs
+  archived: https://web.archive.org/web/20260611104315/http://minibadge.wiki/data/
+- file: assets/images/badges/saintcon-2022/hackers-challenge-badge/3f0630ec0f.jpg
+  source: https://minibadge.wiki/data/
+  credit: Zevlag / minibadge.wiki
+  caption: Back of the Hackers Challenge minibadge, showing the solder pads and header pins
+  archived: https://web.archive.org/web/20260611104315/http://minibadge.wiki/data/
 contact: {}
 notes:
 - 'category: Official; rarity: Common'
@@ -69,11 +79,12 @@ sources:
   title: MiniBadge Wiki 2022 data export
   accessed: '2026-09-07'
   note: 'Raw JSON record for this badge: description, soldering instructions (LED/resistor placement), designer, category (Official), rarity (Common), and front/back image paths. The search page itself is JS-rendered and returns no listings to a static fetch; the JSON export was the source that actually carried the badge data.'
+  archived: https://web.archive.org/web/20260611101915/http://minibadge.wiki/2022.json
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'Only source found is the community-run minibadge.wiki database (third-party, not the maker''s own page); no maker (Zevlag) profile, storefront, or repo was located. Price, quantity made, and board house are not stated in the source (quantityMade recorded as 0, which the site appears to use as "unknown" rather than literally zero, so left blank here rather than guessed). No open-source design files found.'
+  notes: Only source found is the community-run minibadge.wiki database (third-party, not the maker's own page); no maker (Zevlag) profile, storefront, or repo was located. Price, quantity made, and board house are not stated in the source (quantityMade recorded as 0, which the site appears to use as "unknown" rather than literally zero, so left blank here rather than guessed). No open-source design files found.
 last_modified_date: '2026-09-07'
 ---
 

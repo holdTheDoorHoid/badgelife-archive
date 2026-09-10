@@ -1790,5 +1790,152 @@
   "event": "bsides-cdmx-2025",
   "type": "sao",
   "url": "https://github.com/ElectronicCats/Badge-bsides-cdmx-2025/tree/main/hardware/Metro-Addon"
+ },
+ {
+  "title": "badge-2025 (GitHub repo, uncertain event attribution)",
+  "maker": "sorooris (GitHub user)",
+  "event": "unconfirmed - possibly not Nashville",
+  "type": "badge",
+  "url": "https://github.com/sorooris/bsides-badge-2025"
+ },
+ {
+  "title": "Cyberpunk Bunny Badge",
+  "maker": "unclear (BSides San Diego badge challenge)",
+  "event": "bsides-san-diego-2026 (likely; page did not state year explicitly but referenced as a later badge challenge)",
+  "type": "badge",
+  "url": "https://www.bsidessd.org/activities/badge-challenge"
+ },
+ {
+  "title": "BSides Prague 2025 pin button",
+  "maker": "Security BSides Prague / bsidesprg",
+  "event": "bsides-cz-2025",
+  "type": "accessory",
+  "url": "https://ko-fi.com/s/332da3a825"
+ },
+ {
+  "title": "BSides CDMX 2025 badge",
+  "maker": "Electronic Cats",
+  "event": "bsides-cdmx-2025 (not confirmed to exist in events.yml)",
+  "type": "badge",
+  "url": "https://badge.gallery/series/bsides-cdmx"
+ },
+ {
+  "title": "BSidesSF 2024 badge (OpenTaxus platform reuse)",
+  "maker": "PDX Badgers / OpenTaxus",
+  "event": "bsides-sf (or equivalent, not confirmed to exist in events.yml)",
+  "type": "badge",
+  "url": "https://github.com/pdxbadgers/badge-2024"
+ },
+ {
+  "title": "LABScon 2023 badge (OpenTaxus platform reuse)",
+  "maker": "PDX Badgers / OpenTaxus",
+  "event": "labscon-2023 (not confirmed to exist in events.yml)",
+  "type": "badge",
+  "url": "https://github.com/pdxbadgers/badge-2024"
+ },
+ {
+  "title": "LABScon 2023 Badge",
+  "maker": "LABScon / Joe FitzPatrick (securityfitz)",
+  "event": "LABScon 2023 (no matching event id found in _data/events.yml; would need to be added)",
+  "type": "badge",
+  "url": "https://github.com/pdxbadgers/badge-2024"
+ },
+ {
+  "title": "BsidesKC 2023 Badge",
+  "maker": "BadgePirates",
+  "event": "bsides-kc (or similar, needs matching event id)",
+  "type": "badge",
+  "url": "https://www.tindie.com/products/badgepirates/bsideskc-2023-badge/"
+ },
+ {
+  "title": "BadgePirates 2023 badge catalog (unrelated confirmation source)",
+  "maker": "BadgePirates",
+  "event": "",
+  "type": "",
+  "url": "https://docs.badgepirates.com/catalog/"
+ },
+ {
+  "title": "DC239 SAO (dc239-sao.kicad_pcb, found in the same repo/folder as this badge)",
+  "maker": "BSides Orlando badge team (same repo)",
+  "event": "",
+  "type": "sao",
+  "url": "https://github.com/bsidesorlando/2023-badge/tree/main/bsidesorl-v1"
+ },
+ {
+  "title": "DC321 SAO and DC321-2 SAO (dc321-sao.kicad_pcb, dc321-2-sao.kicad_pcb)",
+  "maker": "BSides Orlando badge team (same repo)",
+  "event": "",
+  "type": "sao",
+  "url": "https://github.com/bsidesorlando/2023-badge/tree/main/bsidesorl-v1"
+ },
+ {
+  "title": "DC407 SAO (dc407-sao.kicad_pcb)",
+  "maker": "BSides Orlando badge team (same repo)",
+  "event": "",
+  "type": "sao",
+  "url": "https://github.com/bsidesorlando/2023-badge/tree/main/bsidesorl-v1"
+ },
+ {
+  "title": "IWC Iron SAO (iwc-iron-sao.kicad_pcb) - possibly related to the existing archive entry 'Ironwood Cyber Mark II Arc Reactor Badge (BSides Orlando 2023 fundraiser)'",
+  "maker": "Ironwood Cyber / BSides Orlando",
+  "event": "bsides-orlando-2023",
+  "type": "sao",
+  "url": "https://github.com/bsidesorlando/2023-badge/tree/main/bsidesorl-v1"
+ },
+ {
+  "title": "BSides Orlando OTGG SAO (bsidesorl-otgg-sao.kicad_pcb) - note an entry 'Order of the Golden Grin / Order of the Toothy Grin exclusive SAO' already exists under bsides-orlando-2025; this 2023 repo file may be an earlier or reused design worth cross-checking",
+  "maker": "BSides Orlando",
+  "event": "bsides-orlando-2023",
+  "type": "sao",
+  "url": "https://github.com/bsidesorlando/2023-badge/tree/main/bsidesorl-v1"
+ },
+ {
+  "title": "BSides Orlando Speaker SAO (bsidesorl-speaker-sao.kicad_pcb)",
+  "maker": "BSides Orlando",
+  "event": "bsides-orlando-2023",
+  "type": "sao",
+  "url": "https://github.com/bsidesorlando/2023-badge/tree/main/bsidesorl-v1"
+ },
+ {
+  "title": "BSides Orlando Sponsor SAO (bsidesorl-sponsor-sao.kicad_pcb)",
+  "maker": "BSides Orlando",
+  "event": "bsides-orlando-2023",
+  "type": "sao",
+  "url": "https://github.com/bsidesorlando/2023-badge/tree/main/bsidesorl-v1"
+ },
+ {
+  "title": "BSides Orlando Staff SAO (bsidesorl-staff-sao.kicad_pcb)",
+  "maker": "BSides Orlando",
+  "event": "bsides-orlando-2023",
+  "type": "sao",
+  "url": "https://github.com/bsidesorlando/2023-badge/tree/main/bsidesorl-v1"
+ },
+ {
+  "title": "BSides KC Shark Laser Tag Badge (Kids Badge)",
+  "maker": "BadgePirates",
+  "event": "bsides-kansas-city-2019",
+  "type": "badge",
+  "url": "https://github.com/BadgePiratesLLC/BSidesKC_2019"
+ },
+ {
+  "title": "BSides Perth 2017 Wemos badge",
+  "maker": "BSides Perth",
+  "event": "bsides-perth-2017",
+  "type": "badge",
+  "url": "https://badge.gallery/series/bsides-perth"
+ },
+ {
+  "title": "Red CC1111 RFCat RF badge (BSides Cape Town 2017)",
+  "maker": "SensePost",
+  "event": "bsides-cape-town-2017",
+  "type": "badge",
+  "url": "https://badge.gallery/addons/bsides-cape-town-2017-rfcat-badge/red-cc1111-rfcat-rf-badge"
+ },
+ {
+  "title": "Ox-Vox add-on",
+  "maker": "Rob Rehrig",
+  "event": "bsides-portland-2017",
+  "type": "sao/accessory",
+  "url": ""
  }
 ]
