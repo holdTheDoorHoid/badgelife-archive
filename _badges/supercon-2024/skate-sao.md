@@ -42,6 +42,7 @@ links:
 - label: hackaday.io/project/199181-skate-sao
   url: https://hackaday.io/project/199181-skate-sao
   kind: hackaday
+  archived: https://web.archive.org/web/20251208201739/https://hackaday.io/project/199181-skate-sao
 - label: github.com/davedarko/Simple-Add-ons-SAO/tree/main/MrAnderson
   url: https://github.com/davedarko/Simple-Add-ons-SAO/tree/main/MrAnderson
   kind: repo
@@ -50,9 +51,9 @@ links:
   kind: website
 images:
 - file: assets/images/badges/supercon-2024/skate-sao/4d9d7dfc93.jpg
-  source: "https://github.com/davedarko/Simple-Add-ons-SAO/tree/main/MrAnderson"
-  credit: "davedarko"
-  caption: "The Skate SAO board with fingerboard trucks mounted, carrying an Andy Anderson quote"
+  source: https://github.com/davedarko/Simple-Add-ons-SAO/tree/main/MrAnderson
+  credit: davedarko
+  caption: The Skate SAO board with fingerboard trucks mounted, carrying an Andy Anderson quote
 contact: {}
 notes: []
 status: released
@@ -62,31 +63,33 @@ sources:
   title: Skate SAO
   accessed: '2026-09-06'
   note: Found via the project's link list; intake pass identified this item here.
+  archived: https://web.archive.org/web/20251208201739/https://hackaday.io/project/199181-skate-sao
 - kind: url
   url: https://hackaday.io/project/199181-skate-sao
   title: Skate SAO - Hackaday.io
   accessed: '2026-09-07'
-  note: "Confirms it as a proof-of-concept for mounting fingerboard trucks on a PCB, made by davedarko for the Supercon 2024 Add-on contest (Nov 2024, Pasadena); 4 boards populated and brought to Supercon; design files on GitHub."
+  note: Confirms it as a proof-of-concept for mounting fingerboard trucks on a PCB, made by davedarko for the Supercon 2024 Add-on contest (Nov 2024, Pasadena); 4 boards populated and brought to Supercon; design files on GitHub.
+  archived: https://web.archive.org/web/20251208201739/https://hackaday.io/project/199181-skate-sao
 - kind: url
   url: https://github.com/davedarko/Simple-Add-ons-SAO/tree/main/MrAnderson
-  title: "Simple-Add-ons-SAO/MrAnderson at main"
+  title: Simple-Add-ons-SAO/MrAnderson at main
   accessed: '2026-09-07'
-  note: "Repo folder holding the design: 2411_Skate.md writeup, AndyAndersonBoard.jpg photo, MrAnderson.svg artwork, and a fingerboard.pretty KiCad footprint library. No schematic/BOM file for active electronics was found, consistent with this being a passive (no-MCU, no-LED) board."
+  note: 'Repo folder holding the design: 2411_Skate.md writeup, AndyAndersonBoard.jpg photo, MrAnderson.svg artwork, and a fingerboard.pretty KiCad footprint library. No schematic/BOM file for active electronics was found, consistent with this being a passive (no-MCU, no-LED) board.'
 - kind: url
   url: https://raw.githubusercontent.com/davedarko/Simple-Add-ons-SAO/main/MrAnderson/2411_Skate.md
-  title: "2411_Skate.md"
+  title: 2411_Skate.md
   accessed: '2026-09-07'
-  note: "Maker's own short writeup: \"this is a proof of concept for using fingerboard trucks on PCBs, with an inspirational quote by Andy Anderson\"; links to the same GitHub repo for Eagle/KiCad files."
+  note: 'Maker''s own short writeup: "this is a proof of concept for using fingerboard trucks on PCBs, with an inspirational quote by Andy Anderson"; links to the same GitHub repo for Eagle/KiCad files.'
 - kind: url
   url: https://www.aliexpress.com/item/1005008003174723.html
   title: AliExpress fingerboard trucks listing
   accessed: '2026-09-07'
-  note: "Redirected to a regional AliExpress listing; this is the sourcing link for the fingerboard trucks used as the SAO's mechanical hardware, not a listing for the SAO itself."
+  note: Redirected to a regional AliExpress listing; this is the sourcing link for the fingerboard trucks used as the SAO's mechanical hardware, not a listing for the SAO itself.
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: "No MCU, LEDs, or display are present — this is a passive board (mechanical trucks + PCB + printed quote), so tech fields other than mcu/display are left null/none rather than guessed. Price, availability, and open-source license terms are not stated anywhere found; hardware files (KiCad footprint library, board art) are public on GitHub, but firmware is not applicable (no chip) and no explicit license file was found, hence open_source: partial. Andy Anderson quote text itself was not located in the sources checked. AliExpress link is for the trucks the maker bought in bulk, not a place to buy this SAO."
+  notes: 'No MCU, LEDs, or display are present — this is a passive board (mechanical trucks + PCB + printed quote), so tech fields other than mcu/display are left null/none rather than guessed. Price, availability, and open-source license terms are not stated anywhere found; hardware files (KiCad footprint library, board art) are public on GitHub, but firmware is not applicable (no chip) and no explicit license file was found, hence open_source: partial. Andy Anderson quote text itself was not located in the sources checked. AliExpress link is for the trucks the maker bought in bulk, not a place to buy this SAO.'
 last_modified_date: '2026-09-07'
 ---
 

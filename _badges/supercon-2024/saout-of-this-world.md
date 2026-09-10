@@ -12,7 +12,7 @@ makers:
 - name: Todd Zebert & Koppany Horvath (koppanyh)
   url: https://github.com/toddzebert
 summary: A cartoonish flying-saucer-with-alien SAO built around the CH32V003F4U6 microcontroller, with 5 white star LEDs, 16 WS2812 addressable LEDs, two buttons and I2C target control, designed for the Supercon 2024 SAO Contest (deadline missed) and handed out as a run of 10 at Supercon 2024.
-functions: 'Two buttons cycle through LED light effects; holding the left button enters a brightness-adjustment mode. The board also exposes an I2C target interface so a host badge can read/set effects and colors (partially implemented in firmware).'
+functions: Two buttons cycle through LED light effects; holding the left button enters a brightness-adjustment mode. The board also exposes an I2C target interface so a host badge can read/set effects and colors (partially implemented in firmware).
 look:
   colors: []
   shape: spaceship
@@ -40,7 +40,7 @@ get_one:
   - free_drop
   where: Handed out in person at Supercon 2024 in Pasadena, CA; a run of 10 units.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/toddzebert/SAOut-Of-This-World/tree/main/hardware
   firmware_url: https://github.com/toddzebert/SAOut-Of-This-World/tree/main/firmware
   eda_tool: null
@@ -48,6 +48,7 @@ links:
 - label: hackaday.io/project/202615-saout-of-this-world
   url: https://hackaday.io/project/202615-saout-of-this-world
   kind: hackaday
+  archived: https://web.archive.org/web/20260418184948/https://hackaday.io/project/202615-saout-of-this-world
 - label: github.com/toddzebert/SAOut-Of-This-World
   url: https://github.com/toddzebert/SAOut-Of-This-World
   kind: repo
@@ -59,9 +60,10 @@ links:
   kind: repo
 images:
 - file: assets/images/badges/supercon-2024/saout-of-this-world/25dad983cf.png
-  source: "https://hackaday.io/project/202615-saout-of-this-world"
-  credit: "Todd Zebert & Koppany Horvath"
-  caption: "SAOut Of This World SAO, flying-saucer-with-alien design"
+  source: https://hackaday.io/project/202615-saout-of-this-world
+  credit: Todd Zebert & Koppany Horvath
+  caption: SAOut Of This World SAO, flying-saucer-with-alien design
+  archived: https://web.archive.org/web/20260418184948/https://hackaday.io/project/202615-saout-of-this-world
 contact: {}
 notes: []
 status: released
@@ -71,11 +73,13 @@ sources:
   title: SAOut Of This World | Hackaday.io
   accessed: '2026-09-06'
   note: Found via the project's link list; intake pass identified this item here.
+  archived: https://web.archive.org/web/20260418184948/https://hackaday.io/project/202615-saout-of-this-world
 - kind: url
   url: https://hackaday.io/project/202615-saout-of-this-world
   title: SAOut Of This World | Hackaday.io
   accessed: '2026-09-07'
   note: Confirmed makers, MCU, LED counts, buttons, I2C, 2024 Supercon SAO Contest deadline miss, run of 10 handed out at Supercon 2024 in Pasadena.
+  archived: https://web.archive.org/web/20260418184948/https://hackaday.io/project/202615-saout-of-this-world
 - kind: url
   url: https://github.com/toddzebert/SAOut-Of-This-World
   title: toddzebert/SAOut-Of-This-World on GitHub

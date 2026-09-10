@@ -34,7 +34,7 @@ tech:
 get_one:
   price: ''
   price_usd: null
-  quantity: 'about 30'
+  quantity: about 30
   availability: unknown
   distribution:
   - contest
@@ -49,24 +49,28 @@ links:
 - label: hackaday.io/project/198045-sao-speak-and-spell
   url: https://hackaday.io/project/198045-sao-speak-and-spell
   kind: hackaday
+  archived: https://web.archive.org/web/20250917210859/https://hackaday.io/project/198045-sao-speak-and-spell
 - label: hackaday.io/project/198045/files
   url: https://hackaday.io/project/198045/files
   kind: hackaday
 - label: hackaday.com/2024/09/27/2024-sao-contest-speak-sao
   url: https://hackaday.com/2024/09/27/2024-sao-contest-speak-sao/
   kind: article
+  archived: https://web.archive.org/web/20251211101809/https://hackaday.com/2024/09/27/2024-sao-contest-speak-sao/
 - label: hackaday.io/contest/197237-supercon-8-add-on-contest
   url: https://hackaday.io/contest/197237-supercon-8-add-on-contest
   kind: hackaday
 images:
-  - file: assets/images/badges/supercon-2024/sao-speak-and-spell/3be38e4b79.png
-    source: "https://hackaday.io/project/198045-sao-speak-and-spell"
-    credit: "Jeremy Geppert"
-    caption: "The SAO Speak and Spell, a Speak & Spell-shaped Simple Add-On"
-  - file: assets/images/badges/supercon-2024/sao-speak-and-spell/393f869efe.png
-    source: "https://hackaday.io/project/198045-sao-speak-and-spell"
-    credit: "Jeremy Geppert"
-    caption: "Assembled SAO Speak and Spell showing OLED display and speaker"
+- file: assets/images/badges/supercon-2024/sao-speak-and-spell/3be38e4b79.png
+  source: https://hackaday.io/project/198045-sao-speak-and-spell
+  credit: Jeremy Geppert
+  caption: The SAO Speak and Spell, a Speak & Spell-shaped Simple Add-On
+  archived: https://web.archive.org/web/20250917210859/https://hackaday.io/project/198045-sao-speak-and-spell
+- file: assets/images/badges/supercon-2024/sao-speak-and-spell/393f869efe.png
+  source: https://hackaday.io/project/198045-sao-speak-and-spell
+  credit: Jeremy Geppert
+  caption: Assembled SAO Speak and Spell showing OLED display and speaker
+  archived: https://web.archive.org/web/20250917210859/https://hackaday.io/project/198045-sao-speak-and-spell
 contact: {}
 notes:
 - Sheet listed no chip/display/price details; filled in from the maker's Hackaday.io project page and its files section.
@@ -77,11 +81,13 @@ sources:
   title: SAO Speak and Spell
   accessed: '2026-09-06'
   note: Found via the project's link list; intake pass identified this item here.
+  archived: https://web.archive.org/web/20250917210859/https://hackaday.io/project/198045-sao-speak-and-spell
 - kind: url
   url: https://hackaday.io/project/198045-sao-speak-and-spell
   title: SAO Speak and Spell (project page)
   accessed: '2026-09-07'
   note: Confirmed maker, event, RP2040 Zero MCU, OLED/speaker/button spec, V1.2 red PCB, ~30 units, CircuitPython firmware.
+  archived: https://web.archive.org/web/20250917210859/https://hackaday.io/project/198045-sao-speak-and-spell
 - kind: url
   url: https://hackaday.io/project/198045/files
   title: SAO Speak and Spell - Files
@@ -89,9 +95,10 @@ sources:
   note: Listed available files - Gerbers/drill (V1.2), schematic PDF, audiodemo.py CircuitPython script, and audio assets. No explicit license or EDA tool stated.
 - kind: url
   url: https://hackaday.com/2024/09/27/2024-sao-contest-speak-sao/
-  title: "2024 SAO Contest: Speak SAO"
+  title: '2024 SAO Contest: Speak SAO'
   accessed: '2026-09-07'
   note: Hackaday.com coverage confirming maker, 128x32 OLED, amplified speaker, single button, and that it was Jeremy's first board design.
+  archived: https://web.archive.org/web/20251211101809/https://hackaday.com/2024/09/27/2024-sao-contest-speak-sao/
 - kind: url
   url: https://hackaday.io/contest/197237-supercon-8-add-on-contest
   title: Supercon 8 Add-on Contest

@@ -36,10 +36,10 @@ tech:
 get_one:
   price: ''
   price_usd: null
-  quantity: '30 assembled (10 fitted with the LoRa module and fully tested/labeled)'
+  quantity: 30 assembled (10 fitted with the LoRa module and fully tested/labeled)
   availability: unknown
   distribution: []
-  where: 'Distributed as swag at Supercon 2024; entered in the SAO Contest.'
+  where: Distributed as swag at Supercon 2024; entered in the SAO Contest.
 make_your_own:
   open_source: partial
   hardware_url: https://hackaday.io/project/198109-sao-lora-walkie-talkie
@@ -49,6 +49,7 @@ links:
 - label: hackaday.io/project/198109-sao-lora-walkie-talkie
   url: https://hackaday.io/project/198109-sao-lora-walkie-talkie
   kind: hackaday
+  archived: https://web.archive.org/web/20260506054919/https://hackaday.io/project/198109-sao-lora-walkie-talkie
 - label: hackaday.io/project/198109-sao-lora-walkie-talkie/logs
   url: https://hackaday.io/project/198109-sao-lora-walkie-talkie/logs
   kind: hackaday
@@ -60,13 +61,14 @@ links:
   kind: repo
 images:
 - file: assets/images/badges/supercon-2024/sao-lora-walkie-talkie/cdfa64291d.png
-  source: "https://hackaday.io/project/198109-sao-lora-walkie-talkie"
-  credit: "Jeremy Geppert"
-  caption: "SAO Lora Walkie Talkie board, powered on with red PWR LED lit, plugged in over its test harness"
+  source: https://hackaday.io/project/198109-sao-lora-walkie-talkie
+  credit: Jeremy Geppert
+  caption: SAO Lora Walkie Talkie board, powered on with red PWR LED lit, plugged in over its test harness
+  archived: https://web.archive.org/web/20260506054919/https://hackaday.io/project/198109-sao-lora-walkie-talkie
 - file: assets/images/badges/supercon-2024/sao-lora-walkie-talkie/c03a4e465b.png
-  source: "https://hackaday.io/project/198109-sao-lora-walkie-talkie/logs"
-  credit: "Jeremy Geppert"
-  caption: "The 10 assembled and tested LoRa units, laid out for labeling"
+  source: https://hackaday.io/project/198109-sao-lora-walkie-talkie/logs
+  credit: Jeremy Geppert
+  caption: The 10 assembled and tested LoRa units, laid out for labeling
 contact: {}
 notes: []
 status: released
@@ -76,21 +78,23 @@ sources:
   title: SAO Lora Walkie Talkie
   accessed: '2026-09-06'
   note: Found via the project's link list; intake pass identified this item here.
+  archived: https://web.archive.org/web/20260506054919/https://hackaday.io/project/198109-sao-lora-walkie-talkie
 - kind: url
   url: https://hackaday.io/project/198109-sao-lora-walkie-talkie
   title: SAO Lora Walkie Talkie (project page)
   accessed: '2026-09-07'
-  note: 'Confirmed maker, event (Supercon 8 / 2024, SAO Contest entry), components (Reyax RYLR998, SMD LED, 180ohm resistor, tactile switch, 6-pin SAO header), and design file links.'
+  note: Confirmed maker, event (Supercon 8 / 2024, SAO Contest entry), components (Reyax RYLR998, SMD LED, 180ohm resistor, tactile switch, 6-pin SAO header), and design file links.
+  archived: https://web.archive.org/web/20260506054919/https://hackaday.io/project/198109-sao-lora-walkie-talkie
 - kind: url
   url: https://hackaday.io/project/198109-sao-lora-walkie-talkie/logs
   title: SAO Lora Walkie Talkie - build logs
   accessed: '2026-09-07'
-  note: 'Confirmed quantity (30 assembled, 10 with LoRa module fitted and tested), PTT-as-reset function, LED part number and placement, and that the board is roughly quarter-sized.'
+  note: Confirmed quantity (30 assembled, 10 with LoRa module fitted and tested), PTT-as-reset function, LED part number and placement, and that the board is roughly quarter-sized.
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-07'
-  notes: 'Price and general public availability were not stated anywhere on the project page or logs; it reads as event swag / contest entry rather than a sold item, so get_one fields beyond quantity are left empty/unknown. No repository (GitHub) was found, only the Hackaday.io project page hosting gerbers and example code directly.'
+  notes: Price and general public availability were not stated anywhere on the project page or logs; it reads as event swag / contest entry rather than a sold item, so get_one fields beyond quantity are left empty/unknown. No repository (GitHub) was found, only the Hackaday.io project page hosting gerbers and example code directly.
 last_modified_date: '2026-09-07'
 ---
 
