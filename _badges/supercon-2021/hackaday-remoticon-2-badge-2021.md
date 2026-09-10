@@ -36,9 +36,9 @@ get_one:
   availability: not_released
   distribution:
   - kit
-  where: 'Not distributed as a finished badge. Files were shared for attendees to order their own boards; the designer also posted OSH Park "shared project" order links for two variants (the MicroMod carrier and the plain 0.1" pad version) so people could order without editing the files themselves.'
+  where: Not distributed as a finished badge. Files were shared for attendees to order their own boards; the designer also posted OSH Park "shared project" order links for two variants (the MicroMod carrier and the plain 0.1" pad version) so people could order without editing the files themselves.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://hackaday.io/project/182027-remoticon-2-badge
   firmware_url: null
   eda_tool: KiCad
@@ -46,28 +46,34 @@ links:
 - label: hackaday.com/2021/11/10/the-hackaday-remoticon-2-badge-an-exercise-in-your-own-ingenuity
   url: https://hackaday.com/2021/11/10/the-hackaday-remoticon-2-badge-an-exercise-in-your-own-ingenuity/
   kind: article
+  archived: https://web.archive.org/web/20260212200641/https://hackaday.com/2021/11/10/the-hackaday-remoticon-2-badge-an-exercise-in-your-own-ingenuity/
 - label: Remoticon 2 badge (Hackaday.io project)
   url: https://hackaday.io/project/182027-remoticon-2-badge
   kind: hackaday
+  archived: https://web.archive.org/web/20260411210325/https://hackaday.io/project/182027-remoticon-2-badge
 - label: OSH Park shared project — MicroMod carrier variant
   url: https://oshpark.com/shared_projects/gRSf01dV
   kind: fab
+  archived: https://web.archive.org/web/20260209055119/https://oshpark.com/shared_projects/gRSf01dV
 - label: OSH Park shared project — plain 0.1" pad variant
   url: https://oshpark.com/shared_projects/YJqAizIf
   kind: fab
+  archived: https://web.archive.org/web/20260120130338/https://oshpark.com/shared_projects/YJqAizIf
 images:
 - file: assets/images/badges/supercon-2021/hackaday-remoticon-2-badge-2021/a71a89a447.jpg
-  source: "https://hackaday.io/project/182027-remoticon-2-badge"
-  credit: "Thomas Flummer"
-  caption: "The Remoticon.2 badge PCB, a purple OSH Park board with joystick and USB pads"
+  source: https://hackaday.io/project/182027-remoticon-2-badge
+  credit: Thomas Flummer
+  caption: The Remoticon.2 badge PCB, a purple OSH Park board with joystick and USB pads
+  archived: https://web.archive.org/web/20260411210325/https://hackaday.io/project/182027-remoticon-2-badge
 - file: assets/images/badges/supercon-2021/hackaday-remoticon-2-badge-2021/fd59bd9bc3.jpg
-  source: "https://hackaday.io/project/182027-remoticon-2-badge"
-  credit: "Thomas Flummer"
-  caption: "Two Remoticon.2 badges after hand-soldering their SMT spacers"
+  source: https://hackaday.io/project/182027-remoticon-2-badge
+  credit: Thomas Flummer
+  caption: Two Remoticon.2 badges after hand-soldering their SMT spacers
+  archived: https://web.archive.org/web/20260411210325/https://hackaday.io/project/182027-remoticon-2-badge
 contact: {}
 notes:
 - Hackaday.io lists the project title as "Remoticon 2 badge"; this entry keeps the sheet's fuller title.
-- 'The designer built his own example around a custom RISC-V MicroMod module he designed himself (not a commercial SparkFun part); as of a Nov. 2021 comment he had not yet published that module''s own files, so it is not counted here as part of this project''s open-source release.'
+- The designer built his own example around a custom RISC-V MicroMod module he designed himself (not a commercial SparkFun part); as of a Nov. 2021 comment he had not yet published that module's own files, so it is not counted here as part of this project's open-source release.
 - The Hackaday.com writeup describes the KiCad files as released under a CC BY-SA license; this was not independently confirmed on the Hackaday.io project page itself.
 - No fixed price, quantity, or finished-badge distribution channel was found — this was a file release for self-fabrication, not a badge handed out or sold as a unit.
 status: listed
@@ -77,16 +83,19 @@ sources:
   title: Hackaday Remoticon 2 Badge (2021)
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: official-badges); event read as ''Hackaday Remoticon 2 (virtual Supercon)''.'
+  archived: https://web.archive.org/web/20260212200641/https://hackaday.com/2021/11/10/the-hackaday-remoticon-2-badge-an-exercise-in-your-own-ingenuity/
 - kind: url
   url: https://hackaday.com/2021/11/10/the-hackaday-remoticon-2-badge-an-exercise-in-your-own-ingenuity/
   title: 'The Hackaday Remoticon 2 Badge: An Exercise In Your Own Ingenuity'
   accessed: '2026-09-07'
   note: Identified designer (Thomas Flummer), confirmed KiCad file release and CC BY-SA license claim, and linked to the Hackaday.io project page.
+  archived: https://web.archive.org/web/20260212200641/https://hackaday.com/2021/11/10/the-hackaday-remoticon-2-badge-an-exercise-in-your-own-ingenuity/
 - kind: url
   url: https://hackaday.io/project/182027-remoticon-2-badge
   title: Remoticon 2 badge (Hackaday.io)
   accessed: '2026-09-07'
   note: Primary source for description, functions, files (KiCad/Gerbers/artwork), OSH Park shared-project links, photos, and the designer's comment about the unreleased RISC-V MicroMod module.
+  archived: https://web.archive.org/web/20260411210325/https://hackaday.io/project/182027-remoticon-2-badge
 research:
   status: researched
   confidence: high

@@ -19,9 +19,7 @@ makers:
   url: null
 - name: Bogdan Roșu
   url: null
-summary: 'A Hackaday.io guide/tutorial series teaching people how to program the
-  official 2022 Supercon 6 badge (designed by Voja Antonic), not a badge or SAO
-  in its own right.'
+summary: A Hackaday.io guide/tutorial series teaching people how to program the official 2022 Supercon 6 badge (designed by Voja Antonic), not a badge or SAO in its own right.
 functions: ''
 look:
   colors: []
@@ -50,6 +48,7 @@ links:
 - label: hackaday.io/project/188025-2022-hackaday-supercon-6-badge-guide
   url: https://hackaday.io/project/188025-2022-hackaday-supercon-6-badge-guide
   kind: hackaday
+  archived: https://web.archive.org/web/20260308010935/https://hackaday.io/project/188025-2022-hackaday-supercon-6-badge-guide
 images: []
 contact: {}
 notes: []
@@ -60,26 +59,18 @@ sources:
   title: 2022 Hackaday Supercon 6 Badge Guide
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: hackaday-search); event read as ''Supercon 6 2022''.'
+  archived: https://web.archive.org/web/20260308010935/https://hackaday.io/project/188025-2022-hackaday-supercon-6-badge-guide
 - kind: url
   url: https://hackaday.io/project/188025-2022-hackaday-supercon-6-badge-guide
   title: 2022 Hackaday Supercon 6 Badge Guide
   accessed: '2026-09-07'
-  note: 'Confirmed this is a tutorial/guide project on Hackaday.io teaching attendees
-    how to program the badge''s 4-bit CPU (buttons, LED matrix, opcodes), authored
-    by a Hackaday team, not a listing for the physical badge itself. Links to a
-    GitHub tools repo (assembler/emulator) and an online assembler at cloud.wd5gnr.com.
-    The physical badge (designed by Voja Antonic) already has its own archive entry.'
+  note: Confirmed this is a tutorial/guide project on Hackaday.io teaching attendees how to program the badge's 4-bit CPU (buttons, LED matrix, opcodes), authored by a Hackaday team, not a listing for the physical badge itself. Links to a GitHub tools repo (assembler/emulator) and an online assembler at cloud.wd5gnr.com. The physical badge (designed by Voja Antonic) already has its own archive entry.
+  archived: https://web.archive.org/web/20260308010935/https://hackaday.io/project/188025-2022-hackaday-supercon-6-badge-guide
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-07'
-  notes: 'This is a Hackaday.io guide/tutorial page (six how-to instructions on
-    programming the badge''s 4-bit CPU) rather than a specific badge or SAO listing.
-    The actual physical item it documents is the official Supercon 6 (Nov 2022)
-    badge designed by Voja Antonic, which already has its own entry in this archive:
-    supercon-2022-badge-for-supercon-6-november-2022 ("BADGE FOR SUPERCON.6 / November
-    2022"). No photos of a distinct physical item were saved since this page is
-    not itself a badge/SAO.'
+  notes: 'This is a Hackaday.io guide/tutorial page (six how-to instructions on programming the badge''s 4-bit CPU) rather than a specific badge or SAO listing. The actual physical item it documents is the official Supercon 6 (Nov 2022) badge designed by Voja Antonic, which already has its own entry in this archive: supercon-2022-badge-for-supercon-6-november-2022 ("BADGE FOR SUPERCON.6 / November 2022"). No photos of a distinct physical item were saved since this page is not itself a badge/SAO.'
 last_modified_date: '2026-09-07'
 ---
 

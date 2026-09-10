@@ -19,7 +19,7 @@ makers:
 - name: Nesib Fiso
   role: collaborator
 summary: A conference badge that simulates a complete 4-bit computer in hardware, showing its internal registers, flags, and program counter live on 272 LEDs.
-functions: 'Simulates a 4-bit CPU with 31 instructions and adjustable clock speed (0.5 to 250,000 instructions/second). Has 4,096 words (12-bit) of program memory, 256 nibbles of data memory, and a 5-deep subroutine stack. Programs can be entered directly via buttons, written in an included 2-pass assembler, or loaded/saved over serial. A 3x16 LED disassembler display shows opcodes and operands as the simulated CPU runs.'
+functions: Simulates a 4-bit CPU with 31 instructions and adjustable clock speed (0.5 to 250,000 instructions/second). Has 4,096 words (12-bit) of program memory, 256 nibbles of data memory, and a 5-deep subroutine stack. Programs can be entered directly via buttons, written in an included 2-pass assembler, or loaded/saved over serial. A 3x16 LED disassembler display shows opcodes and operands as the simulated CPU runs.
 look:
   colors: []
   shape: rectangle
@@ -47,7 +47,7 @@ get_one:
   - free_drop
   where: Given to attendees of Hackaday Supercon 6 (November 2022); some later changed hands via Tindie.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://hackaday.io/project/182568-badge-for-supercon6-november-2022
   firmware_url: https://hackaday.io/project/182568-badge-for-supercon6-november-2022
   eda_tool: null
@@ -58,17 +58,19 @@ links:
 - label: 'GitHub: adrianfreed/Supercon6BadgeWork (community assembler/tooling)'
   url: https://github.com/adrianfreed/Supercon6BadgeWork
   kind: repo
+  archived: https://web.archive.org/web/20251002115101/https://github.com/adrianfreed/Supercon6BadgeWork
 - label: 'Related project: BadgeIO DAC/ADC/SigGen/Buffers expansion board for the badge'
   url: https://hackaday.io/project/188326-badgeio-dacadcsiggenbuffers-for-supercon6
   kind: hackaday
+  archived: https://web.archive.org/web/20260311044327/https://hackaday.io/project/188326-badgeio-dacadcsiggenbuffers-for-supercon6
 - label: Demo video on YouTube
   url: https://youtu.be/ix__enrtYF4
   kind: video
 images:
 - file: assets/images/badges/supercon-2022/badge-for-supercon-6-november-2022/6163a07bc9.jpg
-  source: "https://hackaday.io/project/182568-badge-for-supercon6-november-2022"
-  credit: "Voja Antonic"
-  caption: "The Supercon.6 badge showing its LED array simulating a 4-bit CPU"
+  source: https://hackaday.io/project/182568-badge-for-supercon6-november-2022
+  credit: Voja Antonic
+  caption: The Supercon.6 badge showing its LED array simulating a 4-bit CPU
 contact: {}
 notes:
 - 4-bit CPU simulated by 16-bit MCU with 272 LEDs display.
@@ -88,7 +90,7 @@ research:
   status: researched
   confidence: high
   last_checked: '2026-09-07'
-  notes: 'Core facts confirmed on the maker''s own Hackaday.io project page. Exact production quantity and any resale price were not stated on the page (one commenter mentioned DIY parts running roughly $120, which is not an official price and was not recorded as such). An updated version of the badge was reportedly made for a Berlin 2023 event; not covered by this entry, which covers the original Supercon 6 (November 2022) badge. A related expansion board (BadgeIO, for DAC/ADC/sig-gen) exists as a separate Hackaday.io project and could merit its own entry.'
+  notes: Core facts confirmed on the maker's own Hackaday.io project page. Exact production quantity and any resale price were not stated on the page (one commenter mentioned DIY parts running roughly $120, which is not an official price and was not recorded as such). An updated version of the badge was reportedly made for a Berlin 2023 event; not covered by this entry, which covers the original Supercon 6 (November 2022) badge. A related expansion board (BadgeIO, for DAC/ADC/sig-gen) exists as a separate Hackaday.io project and could merit its own entry.
 last_modified_date: '2026-09-07'
 ---
 

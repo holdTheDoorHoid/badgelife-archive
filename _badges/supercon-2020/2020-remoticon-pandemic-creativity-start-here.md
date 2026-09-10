@@ -39,6 +39,7 @@ links:
 - label: hackaday.io/project/174089-2020-remoticon-pandemic-creativity-start-here
   url: https://hackaday.io/project/174089-2020-remoticon-pandemic-creativity-start-here
   kind: hackaday
+  archived: https://web.archive.org/web/20260114100231/https://hackaday.io/project/174089-2020-remoticon-pandemic-creativity-start-here
 images: []
 contact: {}
 notes: []
@@ -49,16 +50,18 @@ sources:
   title: '2020 Remoticon: Pandemic Creativity! (start here)'
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: supercon-addons); event read as ''Remoticon 2020 (virtual Supercon replacement during pandemic) badge/hub page''.'
+  archived: https://web.archive.org/web/20260114100231/https://hackaday.io/project/174089-2020-remoticon-pandemic-creativity-start-here
 - kind: url
   url: https://hackaday.io/project/174089-2020-remoticon-pandemic-creativity-start-here
   title: '2020 Remoticon: Pandemic Creativity! (start here)'
   accessed: '2026-09-07'
-  note: 'Confirmed this is the informational hub/landing page for the 2020 Hackaday Remoticon virtual event (Nov 6-8, 2020), listing workshops and demos. It is not a physical badge or SAO; no hardware, pricing, or LEDs are described. Page credits Lutetium and a 14-person team, sponsored by ARM, Microchip, Digi-Key, Twilio, and Supplyframe.'
+  note: Confirmed this is the informational hub/landing page for the 2020 Hackaday Remoticon virtual event (Nov 6-8, 2020), listing workshops and demos. It is not a physical badge or SAO; no hardware, pricing, or LEDs are described. Page credits Lutetium and a 14-person team, sponsored by ARM, Microchip, Digi-Key, Twilio, and Supplyframe.
+  archived: https://web.archive.org/web/20260114100231/https://hackaday.io/project/174089-2020-remoticon-pandemic-creativity-start-here
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-07'
-  notes: 'This is a Hackaday.io "start here" hub page for the 2020 Remoticon virtual event, not a specific badge or SAO. It lists 22 workshops and 8 demos and has no associated physical hardware, price, or availability info. The page mentions that community member Thomas Flummer made an unofficial fan badge design shared on GitHub outside this official project - that could be its own entry if pursued, but it was not investigated further here per scope (one entry per task).'
+  notes: This is a Hackaday.io "start here" hub page for the 2020 Remoticon virtual event, not a specific badge or SAO. It lists 22 workshops and 8 demos and has no associated physical hardware, price, or availability info. The page mentions that community member Thomas Flummer made an unofficial fan badge design shared on GitHub outside this official project - that could be its own entry if pursued, but it was not investigated further here per scope (one entry per task).
 last_modified_date: '2026-09-07'
 ---
 
