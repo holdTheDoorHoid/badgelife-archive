@@ -50,14 +50,14 @@ links:
   url: https://raw.githubusercontent.com/utahsaint-org/saintcon.zip.files/main/2024/2024-SAINTCON-MiniBadge-Guide-v3.0-10.20.2024-1.pdf
   kind: doc
 images:
-  - file: assets/images/badges/saintcon-2024/lan-cable-2024-minibadge/lan-cable-2024-front.jpg
-    source: "https://raw.githubusercontent.com/utahsaint-org/saintcon.zip.files/main/2024/2024-SAINTCON-MiniBadge-Guide-v3.0-10.20.2024-1.pdf"
-    credit: "SAINTCON MiniBadge Guide 2024"
-    caption: "Front of the LAN Cable Contest minibadge, showing its two LEDs"
-  - file: assets/images/badges/saintcon-2024/lan-cable-2024-minibadge/lan-cable-2024-back.jpg
-    source: "https://raw.githubusercontent.com/utahsaint-org/saintcon.zip.files/main/2024/2024-SAINTCON-MiniBadge-Guide-v3.0-10.20.2024-1.pdf"
-    credit: "SAINTCON MiniBadge Guide 2024"
-    caption: "Back of the LAN Cable Contest minibadge, showing the crimp-ends and loop-cable pads"
+- file: assets/images/badges/saintcon-2024/lan-cable-2024-minibadge/lan-cable-2024-front.jpg
+  source: https://raw.githubusercontent.com/utahsaint-org/saintcon.zip.files/main/2024/2024-SAINTCON-MiniBadge-Guide-v3.0-10.20.2024-1.pdf
+  credit: SAINTCON MiniBadge Guide 2024
+  caption: Front of the LAN Cable Contest minibadge, showing its two LEDs
+- file: assets/images/badges/saintcon-2024/lan-cable-2024-minibadge/lan-cable-2024-back.jpg
+  source: https://raw.githubusercontent.com/utahsaint-org/saintcon.zip.files/main/2024/2024-SAINTCON-MiniBadge-Guide-v3.0-10.20.2024-1.pdf
+  credit: SAINTCON MiniBadge Guide 2024
+  caption: Back of the LAN Cable Contest minibadge, showing the crimp-ends and loop-cable pads
 contact: {}
 notes:
 - The sweep filed this as "LAN-Cable-2024 minibadge" after its repo folder name; the maker/build-guide name is "Lan Cable Contest Minibadge."
@@ -80,6 +80,12 @@ research:
   last_checked: '2026-09-10'
   notes: The KiCad source repo has no README or firmware for this board; all descriptive detail comes from the official build guide's page 46 entry. No storefront, price, or quantity-made figure was found — it appears to have been earned through the LAN Cable Contest rather than sold or freely distributed. Board/LED-type diagram in the guide confirms "LED" discrete part markers rather than an addressable LED type.
 last_modified_date: '2026-09-10'
+model:
+  file: assets/models/saintcon-2024/lan-cable-2024-minibadge.glb
+  method: kicad
+  source_file: LAN-Cable-2024/LAN-Cable-2024.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 42152
 ---
 
 The Lan Cable Contest Minibadge is one of the official minibadges from SAINTCON 2024, designed by community member Jup1t3r and tied to the conference's LAN Cable Contest. Rather than being sold or handed out freely, it was earned by trying the contest: build your own Cat5/Cat6 patch cable as fast as possible, crimping both RJ-45 ends.

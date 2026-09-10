@@ -47,17 +47,19 @@ links:
 - label: BadgePirates catalog entry
   url: https://docs.badgepirates.com/catalog/
   kind: doc
-- label: 'BSidesKC 2018 - Badge Pirates - Electronic Badge Overview (YouTube)'
+  archived: https://web.archive.org/web/20260910225903/https://docs.badgepirates.com/catalog/#help-us-fill-the-gaps
+- label: BSidesKC 2018 - Badge Pirates - Electronic Badge Overview (YouTube)
   url: https://www.youtube.com/watch?v=siB8sA0lMDc
   kind: video
 - label: Badge Pirates
   url: https://www.badgepirates.com/
   kind: website
+  archived: https://web.archive.org/web/20260810184033/https://badgepirates.com/
 images: []
 contact: {}
 notes:
 - First public BSidesKC badge, listed in BadgePirates' full catalog. Found by the event-year sweep, task bsides-any.
-- "BadgePirates' own catalog (docs.badgepirates.com) titles this entry \"BSidesKC 18\" and calls it the \"First BSidesKC badge in the public archive\"; the maker's GitHub repo and conference talk both call it the BSidesKC 2018 badge, which this entry keeps as the title."
+- BadgePirates' own catalog (docs.badgepirates.com) titles this entry "BSidesKC 18" and calls it the "First BSidesKC badge in the public archive"; the maker's GitHub repo and conference talk both call it the BSidesKC 2018 badge, which this entry keeps as the title.
 status: released
 sources:
 - kind: url
@@ -80,9 +82,10 @@ sources:
   title: Badge Catalog - BadgePirates Documents
   accessed: '2026-09-10'
   note: Lists this badge as "BSidesKC 18", "First BSidesKC badge in the public archive", linking the same GitHub repo.
+  archived: https://web.archive.org/web/20260910225903/https://docs.badgepirates.com/catalog/#help-us-fill-the-gaps
 - kind: url
   url: https://allbsides.com/talk/siB8sA0lMDc.html
-  title: 'BSidesKC 2018 - Badge Pirates - Electronic Badge Overview'
+  title: BSidesKC 2018 - Badge Pirates - Electronic Badge Overview
   accessed: '2026-09-10'
   note: Transcript of the BadgePirates conference talk about this badge; confirms AVR/ATtiny microcontroller choice, charlieplexing rationale, and CR2032 battery power; does not state price or quantity made.
 - kind: url
@@ -94,7 +97,8 @@ research:
   status: verified
   confidence: high
   last_checked: '2026-09-10'
-  notes: 'Fact-check pass (2026-09-10): re-fetched every cited source directly. Firmware source (bsides.ino/bsides.h) and PROGRAMMING.md, read from the maker''s own repo, confirm ATtiny85 @ 8MHz, CR2032, the exact GREEN/ORANGE/WHITE/BLUE/YELLOW pin-color assignment, 20 LEDs charlieplexed on 5 pins in a 4x5 grid, the literal strings "BSIDES KC" and "SECKC" (macro SKCS), the six animation routines named, the jumper/pin-read logic selecting SECKC vs. the random mix, and that the repo contains only firmware (no schematic/PCB/BOM), supporting open_source=partial. GitHub tree listing confirms no hardware files exist. docs.badgepirates.com catalog text matches verbatim ("BSidesKC 18" / "First BSidesKC badge in the public archive"). The 2018.bsideskc.org event page confirms Apr 20-21, 2018 at Cerner Innovations Campus, KC, MO. The conference-talk transcript on allbsides.com is machine-generated and garbled on some words (e.g. renders the MCU name as "artemis" and the LED-count math awkwardly, though "25 minus 5 [pins]" does resolve to 20 LEDs) -- it is corroborating background only, and every fact actually placed in the entry is backed by the maker''s own repo/docs, not by parsing the garbled transcript. Price, quantity made, and current availability remain unstated in every source checked and are correctly left empty. No photo of the physical badge exists in any source found (only the event logo and GitHub''s generic repo card), so look.colors/shape/themes and images correctly remain empty.'
+  notes: 'Fact-check pass (2026-09-10): re-fetched every cited source directly. Firmware source (bsides.ino/bsides.h) and PROGRAMMING.md, read from the maker''s own repo, confirm ATtiny85 @ 8MHz, CR2032, the exact GREEN/ORANGE/WHITE/BLUE/YELLOW pin-color assignment, 20 LEDs charlieplexed on 5 pins in a 4x5 grid, the literal strings "BSIDES KC" and "SECKC" (macro SKCS), the six animation routines named, the jumper/pin-read logic selecting SECKC vs. the random mix, and that the repo contains only firmware (no schematic/PCB/BOM), supporting open_source=partial. GitHub tree listing confirms no hardware files exist. docs.badgepirates.com catalog text matches verbatim ("BSidesKC 18" / "First BSidesKC badge in the public archive"). The 2018.bsideskc.org event page confirms Apr 20-21, 2018 at Cerner Innovations Campus, KC, MO. The conference-talk transcript on allbsides.com is machine-generated and garbled on some words (e.g. renders the MCU name as "artemis" and the LED-count math awkwardly, though
+    "25 minus 5 [pins]" does resolve to 20 LEDs) -- it is corroborating background only, and every fact actually placed in the entry is backed by the maker''s own repo/docs, not by parsing the garbled transcript. Price, quantity made, and current availability remain unstated in every source checked and are correctly left empty. No photo of the physical badge exists in any source found (only the event logo and GitHub''s generic repo card), so look.colors/shape/themes and images correctly remain empty.'
 last_modified_date: '2026-09-10'
 ---
 

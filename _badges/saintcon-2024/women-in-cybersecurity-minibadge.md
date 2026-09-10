@@ -18,12 +18,12 @@ look:
   themes:
   - security
 tech:
-  mcu: 'none'
+  mcu: none
   leds:
     count: 2
     type: discrete
     note: Two through-hole LEDs, each with its own current-limiting resistor; no driver IC.
-  display: 'none'
+  display: none
   connectivity: []
   battery: powered by host badge
   sao_version: null
@@ -62,18 +62,24 @@ sources:
   url: https://raw.githubusercontent.com/utahsaint-org/MiniBadges2024/main/Women%20In%20Cybersecurity%20-%20SHIFTY/Women%20In%20Cybersecurity%20-%20SHIFTY.kicad_sch
   title: Women In Cybersecurity - SHIFTY.kicad_sch
   accessed: '2026-09-10'
-  note: 'Schematic confirms 2 LEDs, 2 resistors, and a MiniBadge:MiniBadge_Simple connector footprint (no MCU) - a passive LED minibadge powered through the host badge''s minibadge connector.'
+  note: Schematic confirms 2 LEDs, 2 resistors, and a MiniBadge:MiniBadge_Simple connector footprint (no MCU) - a passive LED minibadge powered through the host badge's minibadge connector.
 - kind: url
   url: https://saintcon.org/minibadges/
   title: MiniBadges - SAINTCON
   accessed: '2026-09-10'
-  note: 'Confirms the MiniBadge community at SAINTCON is led by SHIFTY and distinctm1nd, who coordinate submitted/official minibadges traded at the conference each year; general community context, does not name this specific badge.'
+  note: Confirms the MiniBadge community at SAINTCON is led by SHIFTY and distinctm1nd, who coordinate submitted/official minibadges traded at the conference each year; general community context, does not name this specific badge.
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-10'
   notes: 'The GitHub repo (utahsaint-org/MiniBadges2024, a collection of SAINTCON 2024 minibadge design files) confirms this is a real, fabricated minibadge design credited to SHIFTY, with KiCad schematic/PCB, SVG artwork, and PSD source files - not just a sweep snippet. The schematic shows a simple 2-LED circuit on the standard MiniBadge_Simple connector footprint (powered by the host conference badge, no onboard MCU). Could not find price, quantity made, or a photo of the assembled badge: the repo''s own PNG exports are flat gerber-layer renders (copper/mask/silkscreen) that did not reproduce as usable photos, and a 38 MB SAINTCON 2024 MiniBadge Build Guide PDF (linked from saintcon.org) likely documents it but was too large to search within the research budget for this pass. No dedicated maker page or trading-history writeup for this specific badge was found beyond the repo and the general SAINTCON Minibadge Community pages.'
 last_modified_date: '2026-09-10'
+model:
+  file: assets/models/saintcon-2024/women-in-cybersecurity-minibadge.glb
+  method: kicad
+  source_file: Women In Cybersecurity - SHIFTY/Women In Cybersecurity - SHIFTY.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 57496
 ---
 
 The Women In Cybersecurity minibadge is a small trading PCB designed by SHIFTY for SAINTCON 2024's Minibadge Community, the con's long-running badge-trading and -making scene (led by SHIFTY and distinctm1nd). Its KiCad source lives in the `utahsaint-org/MiniBadges2024` GitHub repository alongside dozens of other 2024 SAINTCON minibadges, in a folder named "Women In Cybersecurity - SHIFTY."

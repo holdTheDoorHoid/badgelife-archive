@@ -11,7 +11,7 @@ year: 2024
 makers:
 - name: unconfirmed
 summary: A simple, single-LED SAINTCON 2024 education-track minibadge; the KiCad project itself is named "KeyCapESC," suggesting a keycap-shaped board.
-functions: 'Lights a single LED when powered through its minibadge header; no onboard logic or microcontroller.'
+functions: Lights a single LED when powered through its minibadge header; no onboard logic or microcontroller.
 look:
   colors: []
   shape: null
@@ -36,7 +36,7 @@ get_one:
   distribution: []
   where: ''
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/utahsaint-org/MiniBadges2024/tree/main/EDU-KeyCap-Badge
   firmware_url: null
   eda_tool: KiCad
@@ -67,26 +67,20 @@ sources:
   url: https://raw.githubusercontent.com/utahsaint-org/MiniBadges2024/main/README.md
   title: MiniBadges2024 README
   accessed: '2026-09-10'
-  note: 'Confirms the repo is the official "Minibadges for SAINTCON 2024" collection; no per-badge documentation or maker credits given.'
+  note: Confirms the repo is the official "Minibadges for SAINTCON 2024" collection; no per-badge documentation or maker credits given.
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-10'
-  notes: >-
-    Confirmed the design is real by reading the KiCad PCB directly (no README or images
-    exist in its folder or the repo root). The board's internal project name is
-    "KeyCapESC" rather than "EDU-KeyCap-Badge" (the folder name); kept the folder's
-    title per the sweep, noted the internal name here. Design is passive: one SAO/minibadge
-    header footprint ("MiniBadge_Simple"), one LED, one resistor -- no MCU, no battery,
-    no display. Could not find a named maker; the most recent GitHub committer on this
-    folder is user "tjhiker" (display name "Jup1t3r"), but nothing on the repo credits
-    them (or anyone) as the badge's designer, so makers stays unconfirmed rather than
-    guessing. No photos of the assembled badge were found anywhere (repo, search, or
-    press) to save under images. Price, quantity, and distribution/availability were not
-    stated anywhere found; SAINTCON minibadges are typically distributed to attendees who
-    solder them at the con, but that was not confirmed for this specific badge, so
-    get_one fields and status are left as in the original stub.
+  notes: 'Confirmed the design is real by reading the KiCad PCB directly (no README or images exist in its folder or the repo root). The board''s internal project name is "KeyCapESC" rather than "EDU-KeyCap-Badge" (the folder name); kept the folder''s title per the sweep, noted the internal name here. Design is passive: one SAO/minibadge header footprint ("MiniBadge_Simple"), one LED, one resistor -- no MCU, no battery, no display. Could not find a named maker; the most recent GitHub committer on this folder is user "tjhiker" (display name "Jup1t3r"), but nothing on the repo credits them (or anyone) as the badge''s designer, so makers stays unconfirmed rather than guessing. No photos of the assembled badge were found anywhere (repo, search, or press) to save under images. Price, quantity, and distribution/availability were not stated anywhere found; SAINTCON minibadges are typically distributed to attendees who solder them at the con, but that was not confirmed for this specific badge, so
+    get_one fields and status are left as in the original stub.'
 last_modified_date: '2026-09-10'
+model:
+  file: assets/models/saintcon-2024/edu-keycap-badge.glb
+  method: kicad
+  source_file: EDU-KeyCap-Badge/KeyCapESC.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 34804
 ---
 
 The EDU-KeyCap-Badge is one of dozens of minibadges submitted to the official `utahsaint-org/MiniBadges2024` repository, the community collection point for SAINTCON 2024's minibadge program. Its KiCad project is internally named "KeyCapESC," which (together with the folder name) suggests it is shaped like a keyboard keycap, though no photo of the finished board was found to confirm this.

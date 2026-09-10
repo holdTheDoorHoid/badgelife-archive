@@ -11,7 +11,7 @@ year: 2024
 makers:
 - name: Jup1t3r
 summary: A Jawa-shaped SAINTCON minibadge with two white "eye" LEDs and a third red LED, part of the designer's ongoing Star Wars minibadge series.
-functions: 'No interactivity beyond the three through-hole LEDs, which light continuously when plugged into a powered minibadge chain; purely passive (LEDs and resistors, no logic), so no blinking or other effect is possible.'
+functions: No interactivity beyond the three through-hole LEDs, which light continuously when plugged into a powered minibadge chain; purely passive (LEDs and resistors, no logic), so no blinking or other effect is possible.
 look:
   colors:
   - black
@@ -57,7 +57,7 @@ images: []
 contact: {}
 notes:
 - Star Wars Jawa-themed minibadge submitted for SAINTCON 2024. Found by the event-year sweep, task saintcon-2024.
-- 'The sweep''s sheet title was the repo folder name, "JawaBadge-2024"; the maker''s own build-guide entry calls it "STAR WARS Jawa Minibadge" and says it is "a continuation of the Star Wars series of badges."'
+- The sweep's sheet title was the repo folder name, "JawaBadge-2024"; the maker's own build-guide entry calls it "STAR WARS Jawa Minibadge" and says it is "a continuation of the Star Wars series of badges."
 status: released
 sources:
 - kind: url
@@ -79,8 +79,15 @@ research:
   status: verified
   confidence: high
   last_checked: '2026-09-10'
-  notes: 'Verified against the maker''s GitHub repo (KiCad source confirms 3x LED, 3x resistor, one MiniBadge connector, no MCU) and page 117 of the official 2024 SAINTCON MiniBadge Build Guide PDF (title, designer, difficulty/rarity, how-to-get-one text, and front/back reference art, fetched and rendered directly from the PDF). Fact-check pass (2026-09-10) corrected two unsupported claims from the prior research pass: (1) the LEDs cannot "blink" -- the board is passive (LEDs + resistors, no logic/MCU) and no source describes any blink or power-rail-pulse behavior, so `functions` was corrected to state it is purely passive; (2) the red LED was described as lighting the blaster''s "muzzle", but its position in the build-guide diagram (lower-left, by the keychain loop) does not match the muzzle location in the front artwork (upper-right) and no source calls it a muzzle light, so that framing was removed from `summary`, `tech.leds.note`, and the body, and `look.colors` gained `red` for the LED''s actual color. No price or production quantity is published anywhere found; SAINTCON minibadges are generally traded/given rather than sold, consistent with the build guide''s "go find the designer to trade" instructions. No maker photo of the assembled/soldered badge found -- only vector artwork and the build guide''s front/back reference renders, which are embedded in the PDF rather than hosted at a stable image URL, so none were saved via fetch_image.py. No hackaday/social presence found for "Jup1t3r" tied to this badge beyond the SAINTCON minibadge scene.'
+  notes: 'Verified against the maker''s GitHub repo (KiCad source confirms 3x LED, 3x resistor, one MiniBadge connector, no MCU) and page 117 of the official 2024 SAINTCON MiniBadge Build Guide PDF (title, designer, difficulty/rarity, how-to-get-one text, and front/back reference art, fetched and rendered directly from the PDF). Fact-check pass (2026-09-10) corrected two unsupported claims from the prior research pass: (1) the LEDs cannot "blink" -- the board is passive (LEDs + resistors, no logic/MCU) and no source describes any blink or power-rail-pulse behavior, so `functions` was corrected to state it is purely passive; (2) the red LED was described as lighting the blaster''s "muzzle", but its position in the build-guide diagram (lower-left, by the keychain loop) does not match the muzzle location in the front artwork (upper-right) and no source calls it a muzzle light, so that framing was removed from `summary`, `tech.leds.note`, and the body, and `look.colors` gained `red` for the
+    LED''s actual color. No price or production quantity is published anywhere found; SAINTCON minibadges are generally traded/given rather than sold, consistent with the build guide''s "go find the designer to trade" instructions. No maker photo of the assembled/soldered badge found -- only vector artwork and the build guide''s front/back reference renders, which are embedded in the PDF rather than hosted at a stable image URL, so none were saved via fetch_image.py. No hackaday/social presence found for "Jup1t3r" tied to this badge beyond the SAINTCON minibadge scene.'
 last_modified_date: '2026-09-10'
+model:
+  file: assets/models/saintcon-2024/jawabadge-2024.glb
+  method: kicad
+  source_file: JawaBadge-2024/JawaBadge-2024.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 87488
 ---
 
 The STAR WARS Jawa Minibadge is a SAINTCON 2024 minibadge shaped like a hooded Jawa from Star Wars, designed by Jup1t3r as part of an ongoing Star Wars-themed minibadge series for the con. The black PCB carries three through-hole LEDs -- two sitting in the hood as the Jawa's glowing eyes (shown white in the front artwork) and a third, silkscreened "RED LED," elsewhere on the board -- wired through three resistors off the shared minibadge power header, with no microcontroller or other logic on board.

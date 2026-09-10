@@ -59,7 +59,7 @@ sources:
   note: 'Found by the archive''s discovery sweep (angle: tobuy-linkfile); event read as ''saintcon-2024''.'
 - kind: url
   url: https://raw.githubusercontent.com/compukidmike/Saintcon2024/main/README.md
-  title: 'Saintcon2024 README'
+  title: Saintcon2024 README
   accessed: '2026-09-07'
   note: Maker's own description of the wrist-mount design, Klip-on expansion boards, minibadge slots, and minibadge expansion board over USB-C power.
 - kind: url
@@ -76,8 +76,17 @@ research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'Repo is the maker''s own project page but does not state price, quantity made, LED count/type, exact display size, or battery chemistry; these are left empty rather than guessed. The two repository "images" (an engineering-drawing prop and a fake press release) are in-character joke assets for the badge''s fictional "MK Factor / Klippy-Net" theme, not photos of the real hardware, so none were saved to images:. No other photos of the finished badge were found in the repo.'
-last_modified_date: '2026-09-07'
+  notes: Repo is the maker's own project page but does not state price, quantity made, LED count/type, exact display size, or battery chemistry; these are left empty rather than guessed. The two repository "images" (an engineering-drawing prop and a fake press release) are in-character joke assets for the badge's fictional "MK Factor / Klippy-Net" theme, not photos of the real hardware, so none were saved to images:. No other photos of the finished badge were found in the repo.
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/saintcon-2024/saintcon-2024-badge-compukidmike.glb
+  method: gerber
+  source_file: Hardware/MinibadgeHolder8/SaintconMinibadgeHolder8-2024-Gerbers.zip
+  generated: '2026-09-10'
+  bytes: 211196
+  size_mm:
+  - 94.0
+  - 61.0
 ---
 
 The SAINTCON 2024 badge, built by compukidmike for the SAINTCON badge team, departed from the usual lanyard format: it's worn wrist-mounted on a velcro sweatband (a lanyard mount was also offered), with a touchscreen LCD and a USB-C port. Under the hood it runs an ESP32-S3 with a parallel-interface capacitive-touch LCD, WiFi onto the conference network, IR, and an I2C bus for minibadges.

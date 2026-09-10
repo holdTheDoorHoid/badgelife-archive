@@ -11,7 +11,7 @@ year: 2024
 makers:
 - name: unconfirmed
 summary: A bare-bones ATtiny1614 breakout design submitted to the SAINTCON 2024 community minibadge KiCad repository.
-functions: 'None documented; the board exposes the ATtiny1614''s pins on two 7-pin headers for programming/prototyping. No LEDs, sensors, or games are present in the design.'
+functions: None documented; the board exposes the ATtiny1614's pins on two 7-pin headers for programming/prototyping. No LEDs, sensors, or games are present in the design.
 look:
   colors: []
   shape: null
@@ -44,7 +44,7 @@ images: []
 contact: {}
 notes:
 - ATtiny developer/dev-board style minibadge submitted for SAINTCON 2024. Found by the event-year sweep, task saintcon-2024.
-- 'The sweep''s title matches the repo folder name; no separate maker-given title was found.'
+- The sweep's title matches the repo folder name; no separate maker-given title was found.
 status: unknown
 sources:
 - kind: url
@@ -61,41 +61,30 @@ sources:
   url: https://github.com/utahsaint-org/MiniBadges2024
   title: 'utahsaint-org/MiniBadges2024: Minibadges for SAINTCON 2024'
   accessed: '2026-09-10'
-  note: 'Repo root listing confirms DEV-AttinyBoard sits alongside dozens of other named SAINTCON 2024 minibadge/community-badge KiCad folders.'
+  note: Repo root listing confirms DEV-AttinyBoard sits alongside dozens of other named SAINTCON 2024 minibadge/community-badge KiCad folders.
 - kind: url
   url: https://api.github.com/repos/utahsaint-org/MiniBadges2024/commits?path=DEV-AttinyBoard
   title: Commit history for DEV-AttinyBoard
   accessed: '2026-09-10'
-  note: 'Single commit, author "Jup1t3r" (GitHub user tjhiker), message "Attendee" (2024-07-24). No real name given (profile bio is a non-identifying one-liner, location listed as Utah/US); not confident enough to attribute.'
+  note: Single commit, author "Jup1t3r" (GitHub user tjhiker), message "Attendee" (2024-07-24). No real name given (profile bio is a non-identifying one-liner, location listed as Utah/US); not confident enough to attribute.
 - kind: url
   url: https://github.com/utahsaint-org/saintcon.zip.files/blob/main/2024/2024-SAINTCON-MiniBadge-Guide-v3.0-10.20.2024-1.pdf
   title: 2024 SAINTCON MiniBadge Guide v3.0
   accessed: '2026-09-10'
-  note: 'Full text of the official 2024 minibadge guide does not mention "AttinyBoard," "DEV-AttinyBoard," or an ATtiny1614 minibadge, so it is unconfirmed whether this design was ever fabricated or handed out to attendees.'
+  note: Full text of the official 2024 minibadge guide does not mention "AttinyBoard," "DEV-AttinyBoard," or an ATtiny1614 minibadge, so it is unconfirmed whether this design was ever fabricated or handed out to attendees.
 research:
   status: verified
   confidence: low
   last_checked: '2026-09-10'
-  notes: >-
-    Fact-check pass (2026-09-10): the researcher's schematic source note and body text
-    originally said the board had "one SMD capacitor" and "a 1x07 header" (singular).
-    Re-fetched the raw KiCad schematic directly and confirmed by grepping component
-    reference designators: it actually instantiates two capacitors (C1, C2) and two 1x07
-    headers (J1, J2) alongside the single ATtiny1614-SS (U1). Corrected the source note,
-    functions field, research notes, and body to say "two" throughout. Also downloaded
-    the 2024 SAINTCON MiniBadge Guide PDF directly (GitHub's file-preview page does not
-    render 38MB PDFs, so the earlier "full-text searched" claim could not be verified from
-    the page alone) and ran a real full-text search for "AttinyBoard" and "1614": no hits.
-    The guide's only ATtiny mentions are three unrelated badges (ATtiny84a, ATtiny814,
-    ATtiny412), so it is confirmed that DEV-AttinyBoard does not appear in the official
-    guide, supporting the "distribution unconfirmed" framing. Checked the commit-author's
-    GitHub profile (tjhiker): it has no real name, but does have a short non-identifying
-    bio ("I'm Living the Dream!") and lists "Utah/US" as location, so the "no name or bio"
-    wording was slightly overstated; softened to "no real name given." All other cited
-    facts (repo contents, folder list, single commit, MCU/package identification) checked
-    out against their sources. With the component-count error fixed, everything remaining
-    in the entry is supported by a source that was actually read.
+  notes: 'Fact-check pass (2026-09-10): the researcher''s schematic source note and body text originally said the board had "one SMD capacitor" and "a 1x07 header" (singular). Re-fetched the raw KiCad schematic directly and confirmed by grepping component reference designators: it actually instantiates two capacitors (C1, C2) and two 1x07 headers (J1, J2) alongside the single ATtiny1614-SS (U1). Corrected the source note, functions field, research notes, and body to say "two" throughout. Also downloaded the 2024 SAINTCON MiniBadge Guide PDF directly (GitHub''s file-preview page does not render 38MB PDFs, so the earlier "full-text searched" claim could not be verified from the page alone) and ran a real full-text search for "AttinyBoard" and "1614": no hits. The guide''s only ATtiny mentions are three unrelated badges (ATtiny84a, ATtiny814, ATtiny412), so it is confirmed that DEV-AttinyBoard does not appear in the official guide, supporting the "distribution unconfirmed" framing. Checked
+    the commit-author''s GitHub profile (tjhiker): it has no real name, but does have a short non-identifying bio ("I''m Living the Dream!") and lists "Utah/US" as location, so the "no name or bio" wording was slightly overstated; softened to "no real name given." All other cited facts (repo contents, folder list, single commit, MCU/package identification) checked out against their sources. With the component-count error fixed, everything remaining in the entry is supported by a source that was actually read.'
 last_modified_date: '2026-09-10'
+model:
+  file: assets/models/saintcon-2024/dev-attinyboard-minibadge.glb
+  method: kicad
+  source_file: DEV-AttinyBoard/AttinyBoard.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 38180
 ---
 
 DEV-AttinyBoard is a small KiCad hardware design checked into the SAINTCON 2024 community minibadge repository (`utahsaint-org/MiniBadges2024`) alongside that year's other minibadges. The schematic shows a single ATtiny1614-SS microcontroller (SOIC-14 package), two SMD decoupling capacitors, and two 1x07-pin headers breaking out the chip's pins — no LEDs, display, battery, or other components. It reads as a bare-bones ATtiny1614 breakout or programming jig rather than a badge with its own blinky or game functions.

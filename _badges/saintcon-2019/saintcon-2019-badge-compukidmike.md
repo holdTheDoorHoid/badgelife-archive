@@ -57,18 +57,18 @@ links:
 - label: 'mkfactor.com: SAINTCON 2019 badge writeup'
   url: https://mkfactor.com/?p=100
   kind: article
-- label: 'SAINTCON badge talk (YouTube)'
+- label: SAINTCON badge talk (YouTube)
   url: https://www.youtube.com/watch?v=MAhJ2W_oN14
   kind: video
 images:
 - file: assets/images/badges/saintcon-2019/saintcon-2019-badge-compukidmike/1f5b996fd0.jpg
-  source: "https://mkfactor.com/?p=100"
-  credit: "compukidmike / mkfactor.com"
-  caption: "SAINTCON 2019 Enigma badge, front"
+  source: https://mkfactor.com/?p=100
+  credit: compukidmike / mkfactor.com
+  caption: SAINTCON 2019 Enigma badge, front
 - file: assets/images/badges/saintcon-2019/saintcon-2019-badge-compukidmike/e24e892ae4.jpg
-  source: "https://mkfactor.com/?p=100"
-  credit: "compukidmike / mkfactor.com"
-  caption: "SAINTCON 2019 Enigma badge, back showing lampboard LEDs and boards"
+  source: https://mkfactor.com/?p=100
+  credit: compukidmike / mkfactor.com
+  caption: SAINTCON 2019 Enigma badge, back showing lampboard LEDs and boards
 contact: {}
 notes:
 - From the user's 'SAOs to buy' link list (2026-09-07).
@@ -94,7 +94,16 @@ research:
   confidence: high
   last_checked: '2026-09-07'
   notes: No price is listed because the badge was distributed free to registered attendees, not sold. No explicit open-source license was found in the repo despite hardware and firmware both being published, so open_source is marked 'partial' rather than 'yes'. look.shape left null; the badge is described as an Enigma-rotor section rather than a standard shape from the vocabulary.
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/saintcon-2019/saintcon-2019-badge-compukidmike.glb
+  method: gerber
+  source_file: Hardware/KiCad Files/Saintcon2019TopBoard/Saintcon2019TopBoard.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 419648
+  size_mm:
+  - 148.3
+  - 147.3
 ---
 
 The SAINTCON 2019 badge, designed by compukidmike with _bashNinja and firmware help from Sodium_Hydrogen and risenrigel, was built as a working homage to the WWII Enigma machine. It is shaped like a section of an Enigma rotor and carries an STM32L433 microcontroller alongside a Lattice iCE40HX1K FPGA, driving a curved 16x64 RGB LED matrix and a 26-key lampboard for a total of 1,051 LEDs, powered by a 1500 mAh LiPo sandwiched between two stacked PCBs.

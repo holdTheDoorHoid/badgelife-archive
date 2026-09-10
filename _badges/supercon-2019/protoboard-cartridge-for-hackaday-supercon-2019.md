@@ -33,7 +33,7 @@ get_one:
   distribution: []
   where: ''
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/Spritetm/hadbadge2019_protoboard
   firmware_url: null
   eda_tool: KiCad
@@ -64,6 +64,12 @@ research:
   last_checked: '2026-09-10'
   notes: Only source found is the maker's own GitHub repo, which confirms the item and its purpose but gives no price, quantity, availability, or photo of an assembled board. No press coverage, storefront listing, or Hackaday.io page found. Treating as a released open-hardware design rather than a commercial product, since it appears to be shared as files only.
 last_modified_date: '2026-09-10'
+model:
+  file: assets/models/supercon-2019/protoboard-cartridge-for-hackaday-supercon-2019.glb
+  method: kicad
+  source_file: cartprotoboard.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 650696
 ---
 
 This is a prototyping expansion cartridge for the 2019 Hackaday Supercon badge, designed by Jeroen "Sprite_TM" Domburg, the same engineer who designed the badge itself. It lets badge owners plug in a blank prototyping cart to build custom add-on circuits for the badge's cartridge slot, rather than needing to design a full custom cartridge PCB from scratch.

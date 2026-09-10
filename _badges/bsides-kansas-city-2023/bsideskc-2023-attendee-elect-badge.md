@@ -43,18 +43,22 @@ links:
 - label: www.tindie.com/products/badgepirates/bsideskc-2023-badge
   url: https://www.tindie.com/products/badgepirates/bsideskc-2023-badge/
   kind: store
+  archived: https://web.archive.org/web/20260503103808/https://www.tindie.com/products/badgepirates/bsideskc-2023-badge/
 - label: github.com/BadgePiratesLLC/BSidesKC_2023
   url: https://github.com/BadgePiratesLLC/BSidesKC_2023
   kind: repo
+  archived: https://web.archive.org/web/20260506030454/https://github.com/BadgePiratesLLC/BSidesKC_2023
 images:
 - file: assets/images/badges/bsides-kansas-city-2023/bsideskc-2023-attendee-elect-badge/4357da36fc.jpg
   source: https://www.tindie.com/products/badgepirates/bsideskc-2023-badge/
   credit: BadgePirates
   caption: BSidesKC 2023 badge, main product photo
+  archived: https://web.archive.org/web/20260503103808/https://www.tindie.com/products/badgepirates/bsideskc-2023-badge/
 - file: assets/images/badges/bsides-kansas-city-2023/bsideskc-2023-attendee-elect-badge/a2e3ed7a60.jpg
   source: https://www.tindie.com/products/badgepirates/bsideskc-2023-badge/
   credit: BadgePirates
   caption: BSidesKC 2023 attendee badge
+  archived: https://web.archive.org/web/20260503103808/https://www.tindie.com/products/badgepirates/bsideskc-2023-badge/
 contact: {}
 notes:
 - ESP32-S3 badge with USB-C rechargeable battery, used to collect CTF flags at BSidesKC 2023. Found by the event-year sweep, task bsides-kansas-city.
@@ -68,16 +72,19 @@ sources:
   title: BSidesKC 2023 Attendee Elect Badge
   accessed: '2026-09-07'
   note: 'Found by the archive''s discovery sweep (angle: sweep:bsides-kansas-city); event read as ''BSidesKC 2023''.'
+  archived: https://web.archive.org/web/20260503103808/https://www.tindie.com/products/badgepirates/bsideskc-2023-badge/
 - kind: url
   url: https://www.tindie.com/products/badgepirates/bsideskc-2023-badge/
   title: BsidesKC 2023 Badge by BadgePirates on Tindie
   accessed: '2026-09-10'
   note: Confirmed maker, ESP32-S3, USB-C rechargeable battery, $40 price, out-of-stock status, and CTF-flag function; source of product photo.
+  archived: https://web.archive.org/web/20260503103808/https://www.tindie.com/products/badgepirates/bsideskc-2023-badge/
 - kind: url
   url: https://github.com/BadgePiratesLLC/BSidesKC_2023
   title: BadgePiratesLLC/BSidesKC_2023
   accessed: '2026-09-10'
   note: Confirms hardware/firmware are open source; repo is archived (read-only) with CAD folders split by attendee role.
+  archived: https://web.archive.org/web/20260506030454/https://github.com/BadgePiratesLLC/BSidesKC_2023
 research:
   status: researched
   confidence: high

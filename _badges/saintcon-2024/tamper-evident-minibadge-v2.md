@@ -41,9 +41,9 @@ get_one:
   availability: unknown
   distribution:
   - village
-  where: "Visit the Tamper Evident community table at SAINTCON 2024 and assemble it there from the parts provided; no price or quantity is stated in the official guide."
+  where: Visit the Tamper Evident community table at SAINTCON 2024 and assemble it there from the parts provided; no price or quantity is stated in the official guide.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/utahsaint-org/MiniBadges2024/tree/main/Tamper%20Evident%20v2%20-%20SHIFTY
   firmware_url: null
   eda_tool: KiCad
@@ -52,10 +52,10 @@ links:
   url: https://github.com/utahsaint-org/MiniBadges2024/tree/main/Tamper%20Evident%20v2%20-%20SHIFTY
   kind: repo
 images:
-  - file: assets/images/badges/saintcon-2024/tamper-evident-minibadge-v2/e3f1019de7.png
-    source: "https://github.com/utahsaint-org/MiniBadges2024/tree/main/Tamper%20Evident%20v2%20-%20SHIFTY"
-    credit: "SHIFTY"
-    caption: "Tamper Evident minibadge v2 PCB artwork"
+- file: assets/images/badges/saintcon-2024/tamper-evident-minibadge-v2/e3f1019de7.png
+  source: https://github.com/utahsaint-org/MiniBadges2024/tree/main/Tamper%20Evident%20v2%20-%20SHIFTY
+  credit: SHIFTY
+  caption: Tamper Evident minibadge v2 PCB artwork
 contact: {}
 notes:
 - Tamper-evident themed minibadge v2 for SAINTCON 2024, credited to SHIFTY. Found by the event-year sweep, task saintcon-2024.
@@ -73,7 +73,7 @@ sources:
   url: https://github.com/utahsaint-org/MiniBadges2024/tree/main/Tamper%20Evident%20v2%20-%20SHIFTY
   title: MiniBadges2024/Tamper Evident v2 - SHIFTY at main
   accessed: '2026-09-10'
-  note: 'Confirmed the repo folder is real and contains KiCad hardware source (schematic, PCB, footprint) plus SVG/PSD/PNG artwork for a "warranty void if removed" sticker design; no README or maker write-up in this folder describing chip, LEDs, price, or quantity.'
+  note: Confirmed the repo folder is real and contains KiCad hardware source (schematic, PCB, footprint) plus SVG/PSD/PNG artwork for a "warranty void if removed" sticker design; no README or maker write-up in this folder describing chip, LEDs, price, or quantity.
 - kind: url
   url: https://raw.githubusercontent.com/utahsaint-org/MiniBadges2024/main/Tamper%20Evident%20v2%20-%20SHIFTY/Tamper%20evident.png
   title: Tamper evident.png
@@ -83,13 +83,19 @@ sources:
   url: https://github.com/utahsaint-org/saintcon.zip.files/blob/main/2024/2024-SAINTCON-MiniBadge-Guide-v3.0-10.20.2024-1.pdf
   title: 2024 SAINTCON MiniBadge Guide v3.0 (p.32, Tamper Evident Community Minibadge)
   accessed: '2026-09-10'
-  note: 'Official SAINTCON build guide, found via a web search this pass turned up after the researcher reported not finding it. Page 32 confirms designer (SHIFTY), the same artwork on a red PCB, front/back photos, difficulty (beginner), rarity (uncommon), "how do I get one" (visit the community), and a parts list of 1206 LED, 1206 resistor, FR4 PCB, and 2-pin headers, matching the KiCad schematic.'
+  note: Official SAINTCON build guide, found via a web search this pass turned up after the researcher reported not finding it. Page 32 confirms designer (SHIFTY), the same artwork on a red PCB, front/back photos, difficulty (beginner), rarity (uncommon), "how do I get one" (visit the community), and a parts list of 1206 LED, 1206 resistor, FR4 PCB, and 2-pin headers, matching the KiCad schematic.
 research:
   status: verified
   confidence: high
   last_checked: '2026-09-10'
-  notes: 'Fact-check pass located the official SAINTCON 2024 Minibadge Guide (p.32), which the original research missed; it independently confirms the maker, artwork, and hardware, and supplied LED count, MCU, battery, and how-to-get-one facts that were previously left blank, matching the same pattern as the 2023 sibling "Tamper Evident Community Badge" entry. Price, exact quantity, and current availability are still not stated anywhere found and remain blank. No independent press or social coverage of this specific badge was found.'
+  notes: Fact-check pass located the official SAINTCON 2024 Minibadge Guide (p.32), which the original research missed; it independently confirms the maker, artwork, and hardware, and supplied LED count, MCU, battery, and how-to-get-one facts that were previously left blank, matching the same pattern as the 2023 sibling "Tamper Evident Community Badge" entry. Price, exact quantity, and current availability are still not stated anywhere found and remain blank. No independent press or social coverage of this specific badge was found.
 last_modified_date: '2026-09-10'
+model:
+  file: assets/models/saintcon-2024/tamper-evident-minibadge-v2.glb
+  method: kicad
+  source_file: Tamper Evident v2 - SHIFTY/Tamper Evident v2 - SHIFty.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 58148
 ---
 
 The Tamper Evident minibadge (v2) is a SAINTCON 2024 minibadge by SHIFTY, part of a recurring "Tamper Evident" themed line that also includes a SAINTCON 2022 badge and a 2023 community badge. Its PCB artwork recreates a classic "WARRANTY VOID IF REMOVED" tamper-evident sticker on a red board, drawn peeling back to reveal a shredded destructive-vinyl pattern underneath — a visual joke on the tamper-evidence theme rather than a functional tamper sensor. SAINTCON's official 2024 Minibadge Guide lists it as the "Tamper Evident Community Minibadge," rates it "beginner" difficulty and "uncommon" rarity, and says it's obtained by visiting the Tamper Evident community table and assembling it there.

@@ -136,7 +136,13 @@ research:
   last_checked: '2026-09-07'
   notes: 'Fact-checked 2026-09-07: reopened badge.team/docs (overview, hardware, getting_started), the SHA2017-badge/PCB repo, the SHA2017-badge GitHub org, the wiki Projects:Badge page, and Wikipedia''s Electronic badge article. All non-empty fields and body claims were confirmed by these maker/primary sources: ESP32 Wroom MCU, DEPG0290B1 e-paper (GDEH029A1 pinout-compatible alternative via the eink.dev.type NVS flag), 6x SK6812 RGBW LEDs as a DIY solder-on add-on, MPR121 touch/GPIO-expander controller with its IRQ on ESP32 IO25, LiPo 1000mAh/JST-PH3 battery charged via TP4056, CP2102 USB-serial bridge, Eagle 6.6 MIT-licensed PCB repo at rev1_0_1, the Hatchery app repo URL, and the wiki''s statement that parts/manufacturing were sponsor- and crowdfunding-supported beyond ticket sales rather than sold. The kit-contents list (badge, battery, hook-and-loop pad, 6x SK6812 LEDs, vibration motor, lanyard) was confirmed by reading the flyer image text directly (badge.team/docs/badges/sha2017/getting_started/),
     including that flyer''s own confirmation of the Hatchery, wiki, and GitHub-org URLs. One phrase was corrected: functions previously said touch input was "NFC-style", which no source supports (the hardware page describes ordinary MPR121 capacitive touch mapped to directional/menu buttons, with no mention of NFC anywhere) -- reworded to remove the inaccurate NFC description. The one saved image (eaef39e9a7.png) is confirmed to come from the cited getting_started page and does show badge hardware (LED strip, motor, battery mount). Still unresolved, as before: unit price, total quantity produced, and the precise firmware repo name (vs. the MicroPython port) -- these remain empty/unspecified because no source states them.'
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/sha-2017/sha2017-badge.glb
+  method: kicad
+  source_file: sha2017_rev0_1_0_dev.brd
+  generated: '2026-09-10'
+  bytes: 693992
 ---
 
 The SHA2017 badge was Badge.Team's flagship device for the "Still Hacking Anyway" hacker camp held in the Netherlands in August 2017, and the project that established the badge.team ESP32 firmware platform later reused for MCH2022 and other events. Built around an ESP32 Wroom module and a 2.9" DKE Group DEPG0290B1 e-paper display, it ran MicroPython apps that attendees could write and share through Badge.Team's "Hatchery" app repository, connecting over the camp Wi-Fi. Input came via an MPR121 capacitive touch controller doubling as a GPIO expander rather than mechanical buttons.

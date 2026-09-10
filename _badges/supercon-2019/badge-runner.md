@@ -94,7 +94,13 @@ research:
   confidence: medium
   last_checked: '2026-09-07'
   notes: Core facts (maker, event, theme, MCU, LED count/behavior, battery, SAO headers) confirmed on the maker's own Hackaday.io project page and GitHub repo. Price, quantity made, and exact Tindie listing URL were not found; sources only say leftover units were later offered on Tindie. No image credit/date beyond the project page was available.
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/supercon-2019/badge-runner.glb
+  method: kicad
+  source_file: pcb/art.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 59680
 ---
 
 Badge Runner is a Blade Runner-themed conference badge made by Claire Sun for Hackaday Supercon 2019 in Los Angeles, shaped like the owl seen at the Tyrell Corporation in the film. An ESP12 module drives nine addressable NeoPixels: eight across the front flash a secret message, and a ninth is reverse-mounted to backlight the owl's cybernetic eye. The badge runs off a rechargeable LiPo battery topped up over micro-USB, and each ear carries its own SAO header, letting two add-ons be plugged in at once.

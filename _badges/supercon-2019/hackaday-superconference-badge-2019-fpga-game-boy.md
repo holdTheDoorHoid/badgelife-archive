@@ -100,7 +100,13 @@ research:
   confidence: high
   last_checked: '2026-09-07'
   notes: Core facts (maker, FPGA, display, distribution, open-source repos) confirmed across two Hackaday articles and both of the maker's own GitHub repos. No price applies since it was a free con badge. LED count/type not mentioned in any source, left empty. sao_version not applicable (no SAO header described).
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/supercon-2019/hackaday-superconference-badge-2019-fpga-game-boy.glb
+  method: kicad
+  source_file: hadbadge2019.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 1045008
 ---
 
 The 2019 Hackaday Superconference badge, designed by Jeroen "Sprite_TM" Domburg, ditched the usual microcontroller-plus-LEDs badge formula for a genuine FPGA computer built into a Game Boy-shaped shell. At its core sits a Lattice ECP5 FPGA (LFE5U-45F, roughly 45,000 LUTs) running a soft RISC-V core, driving a 480x320 color LCD behind a classic D-pad/A/B/Start/Select button layout. A working cartridge slot on the back let attendees plug in their own add-on boards — one attendee wired up a camera during the conference itself — and the badge could be reprogrammed over USB or flashed directly via JTAG for those who wanted to write their own gateware instead of just software.

@@ -37,7 +37,7 @@ get_one:
   distribution: []
   where: ''
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/Professor-plum/minibadge-dice/tree/main/hardware
   firmware_url: https://github.com/Professor-plum/minibadge-dice/tree/main/firmware
   eda_tool: KiCad
@@ -49,10 +49,10 @@ links:
   url: https://github.com/Professor-plum/minibadge-dice
   kind: repo
 images:
-  - file: assets/images/badges/saintcon-2022/minibadge-dice-saintcon-d6-roller-minibadge/2672411341.jpg
-    source: "https://github.com/Professor-plum/minibadge-dice"
-    credit: "Professor-plum"
-    caption: "The SaintCon D6 roller minibadge, an ATtiny40-based PCB with LED dice pips"
+- file: assets/images/badges/saintcon-2022/minibadge-dice-saintcon-d6-roller-minibadge/2672411341.jpg
+  source: https://github.com/Professor-plum/minibadge-dice
+  credit: Professor-plum
+  caption: The SaintCon D6 roller minibadge, an ATtiny40-based PCB with LED dice pips
 contact: {}
 notes: []
 status: released
@@ -66,27 +66,26 @@ sources:
   url: https://raw.githubusercontent.com/Professor-plum/minibadge-dice/main/firmware/main.c
   title: minibadge-dice firmware source (main.c)
   accessed: '2026-09-07'
-  note: 'Confirms the dice-roll behavior (button press triggers a decelerating random LED sequence) and shows the firmware file was created May 14, 2022, the basis for dating it to SaintCon 2022.'
+  note: Confirms the dice-roll behavior (button press triggers a decelerating random LED sequence) and shows the firmware file was created May 14, 2022, the basis for dating it to SaintCon 2022.
 - kind: url
   url: https://github.com/Professor-plum/minibadge-dice/blob/main/hardware/dice-minibadge.kicad_sch
   title: minibadge-dice KiCad schematic
   accessed: '2026-09-07'
-  note: 'Schematic lib_id confirms the MCU is a Microchip ATtiny40-S, plus a Device:LED array, an 8-pin connector (host badge interface), and a button.'
+  note: Schematic lib_id confirms the MCU is a Microchip ATtiny40-S, plus a Device:LED array, an 8-pin connector (host badge interface), and a button.
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: >-
-    The repo itself never states an event or year. The firmware source file's header comment is dated
-    "May 14, 2022," which is the only dating evidence found; on that basis this entry was moved from
-    "other" to saintcon-2022, but that is an inference rather than an explicit statement by the maker.
-    No SaintCon minibadge-guide page, storefront listing, price, quantity, or distribution details for
-    this specific board turned up in web searches (SAINTCON minibadges are traditionally traded/given
-    away in person rather than sold, which fits the empty get_one fields but was not confirmed for this
-    board specifically). No additional photos beyond the one in the repo's image/ folder were found.
-last_modified_date: '2026-09-07'
+  notes: The repo itself never states an event or year. The firmware source file's header comment is dated "May 14, 2022," which is the only dating evidence found; on that basis this entry was moved from "other" to saintcon-2022, but that is an inference rather than an explicit statement by the maker. No SaintCon minibadge-guide page, storefront listing, price, quantity, or distribution details for this specific board turned up in web searches (SAINTCON minibadges are traditionally traded/given away in person rather than sold, which fits the empty get_one fields but was not confirmed for this board specifically). No additional photos beyond the one in the repo's image/ folder were found.
+last_modified_date: '2026-09-10'
 redirect_from:
 - /badges/other/minibadge-dice-saintcon-d6-roller-minibadge/
+model:
+  file: assets/models/saintcon-2022/minibadge-dice-saintcon-d6-roller-minibadge.glb
+  method: kicad
+  source_file: hardware/dice-minibadge.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 91944
 ---
 
 The minibadge-dice is a SAINTCON-style minibadge by the maker Professor-plum: a small PCB that acts as an electronic six-sided die. Seven LEDs are arranged in the standard dice-pip layout and driven directly by an ATtiny40 microcontroller. Pressing the badge's button starts a "roll" — the LEDs flicker rapidly through the six pip patterns, gradually slow down, and land on a random final face, with a brief blink to confirm the result. Left idle, it cycles through a simple attract pattern rather than sitting dark.

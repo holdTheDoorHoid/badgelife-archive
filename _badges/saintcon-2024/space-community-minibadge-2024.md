@@ -18,7 +18,7 @@ look:
   themes:
   - space
 tech:
-  mcu: 'none'
+  mcu: none
   leds:
     count: 2
     type: SMD
@@ -44,10 +44,10 @@ links:
   url: https://github.com/utahsaint-org/MiniBadges2024/tree/main/Space%20Community%20-%20SHIFTY
   kind: repo
 images:
-  - file: assets/images/badges/saintcon-2024/space-community-minibadge-2024/e294abfa46.jpg
-    source: "https://github.com/utahsaint-org/MiniBadges2024/tree/main/Space%20Community%20-%20SHIFTY"
-    credit: "SHIFTY"
-    caption: "Front copper/render of the Space Community minibadge PCB art"
+- file: assets/images/badges/saintcon-2024/space-community-minibadge-2024/e294abfa46.jpg
+  source: https://github.com/utahsaint-org/MiniBadges2024/tree/main/Space%20Community%20-%20SHIFTY
+  credit: SHIFTY
+  caption: Front copper/render of the Space Community minibadge PCB art
 contact: {}
 notes:
 - 2024 Space Community minibadge credited to SHIFTY (distinct from the 2023 Space Community Cube Sat badge, made by Jup1t3r, already in the archive). Found by the event-year sweep, task saintcon-2024.
@@ -63,26 +63,25 @@ sources:
   url: https://raw.githubusercontent.com/utahsaint-org/MiniBadges2024/main/README.md
   title: utahsaint-org/MiniBadges2024 README
   accessed: '2026-09-10'
-  note: 'Confirms the repo is the SAINTCON 2024 minibadge set, supporting the event/year.'
+  note: Confirms the repo is the SAINTCON 2024 minibadge set, supporting the event/year.
 - kind: url
   url: https://raw.githubusercontent.com/utahsaint-org/MiniBadges2024/main/Space%20Community%20-%20SHIFTY/Space%20Community%20-%20SHIFTY.kicad_pcb
   title: Space Community - SHIFTY.kicad_pcb
   accessed: '2026-09-10'
-  note: 'KiCad PCB source; shows two 1206 SMD LED footprints, a resistor, and a "MiniBadge_Simple" footprint, and no MCU footprint.'
+  note: KiCad PCB source; shows two 1206 SMD LED footprints, a resistor, and a "MiniBadge_Simple" footprint, and no MCU footprint.
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-10'
-  notes: >
-    Only source found is the maker's own GitHub repo folder (KiCad project, PSD/SVG
-    art, and PNG fab-layer exports); no separate write-up, storefront, or photo of an
-    assembled/lit badge was located, and no press or social coverage turned up in two
-    searches. Price, quantity, and availability are not stated anywhere found, so those
-    fields are left empty. The board layout supports two LEDs on a coin-cell-style
-    "MiniBadge_Simple" footprint with no MCU, consistent with SAINTCON's simple passive
-    community minibadges, but this is inferred from the PCB file rather than stated by
-    the maker in prose.
+  notes: |
+    Only source found is the maker's own GitHub repo folder (KiCad project, PSD/SVG art, and PNG fab-layer exports); no separate write-up, storefront, or photo of an assembled/lit badge was located, and no press or social coverage turned up in two searches. Price, quantity, and availability are not stated anywhere found, so those fields are left empty. The board layout supports two LEDs on a coin-cell-style "MiniBadge_Simple" footprint with no MCU, consistent with SAINTCON's simple passive community minibadges, but this is inferred from the PCB file rather than stated by the maker in prose.
 last_modified_date: '2026-09-10'
+model:
+  file: assets/models/saintcon-2024/space-community-minibadge-2024.glb
+  method: kicad
+  source_file: Space Community - SHIFTY/Space Community - SHIFTY.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 41596
 ---
 
 The Space Community minibadge is one of the SAINTCON 2024 community minibadges, credited to the recurring SAINTCON badge designer SHIFTY. It carries a space/spacecraft graphic and is built as a simple lit PCB pin: the KiCad source shows two 1206 SMD LEDs and a resistor on a small board using a common "MiniBadge_Simple" footprint, with no microcontroller, so any lighting is passive rather than driven by firmware.

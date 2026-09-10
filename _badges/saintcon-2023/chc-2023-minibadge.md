@@ -96,6 +96,12 @@ last_modified_date: '2026-09-10'
 redirect_from:
 - /badges/other/chc-2023-minibadge/
 - /badges/saintcon-2023/circuit-hacking-community-minibadge/
+model:
+  file: assets/models/saintcon-2023/chc-2023-minibadge.glb
+  method: kicad
+  source_file: CHC/2023/chc-panel-1.0.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 1158292
 ---
 
 The CHC 2023 minibadge is a small passive add-on made for the Circuit Hacking Community (CHC) village at SAINTCON 2023 by the GitHub user hamster. Its KiCad schematic title block identifies it plainly as the "Circuit Hacking Community Minibadge," dated September 2023, revision 1.0, credited to SAINTCON and @hamster.

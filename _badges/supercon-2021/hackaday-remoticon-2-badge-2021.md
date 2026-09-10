@@ -101,7 +101,13 @@ research:
   confidence: high
   last_checked: '2026-09-07'
   notes: Core facts (maker, event, what it is, how it was released) confirmed on the maker's own Hackaday.io project page. Price/quantity/availability fields left empty because this was never sold or handed out as a finished unit. Firmware is not applicable (no MCU in the base design).
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/supercon-2021/hackaday-remoticon-2-badge-2021.glb
+  method: kicad
+  source_file: remoticon.2.badge.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 351568
 ---
 
 Thomas Flummer designed the Remoticon.2 badge as a KiCad file release rather than a physical product: a purple PCB (matching OSH Park's signature purple) with a grid of 0.1" pads that attendees of the virtual 2021 Hackaday Supercon (branded "Remoticon.2") could strip out and replace with whatever parts they already had, while keeping silkscreen artwork tying it to the event's visual identity. It was a pandemic-era answer to the usual conference badge drop: instead of a finished board shipped to everyone, Flummer posted the KiCad project, Gerbers, and artwork files so people could order their own boards from a fab in time for the event, or use two OSH Park "shared project" links he set up for a MicroMod-carrier variant and a plain pad-grid variant.

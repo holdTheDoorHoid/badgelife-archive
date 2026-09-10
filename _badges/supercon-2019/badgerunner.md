@@ -86,7 +86,13 @@ research:
   last_checked: '2026-09-07'
   notes: 'Fact-check pass (2026-09-07): re-fetched both cited sources and confirmed all non-empty fields and body sentences against them. Two corrections made. (1) The Claire Sun maker URL was dead (hackaday.io/claire-sun 404s); the Hackaday.io project page''s own author link resolves to hackaday.io/csun.codes, which is her real profile and does list this project - fixed. (2) make_your_own.open_source was "partial", reasoned from the absence of a LICENSE file in the repo; per this archive''s own field definition ("yes" if hardware and firmware are both published), the repo contains both the PCB/art files and the firmware sketch, and the maker''s own project page states outright that "this project is opensource and all the code and files needed to build your own Badgerunner is located on Github" - changed to "yes". Also removed the "security" look.theme tag: nothing in either source ties this badge to security/hacking function or theming beyond the general Blade Runner setting, and it does
     not fit the archive''s vocabulary as used elsewhere; "sci-fi", "cyberpunk", and "bird" are all directly supported. Independently confirmed via the GitHub API that the "sphawes" account name is in fact Stephen Hawes, matching the credited maker. Hackaday.io project page lists only Claire Sun as the creator; GitHub repo (hardware/firmware host) is under Stephen Hawes''s account, so both remain credited as makers per the sheet. No price or production quantity is stated anywhere. Could not confirm whether the badge was ever actually listed on Tindie after Supercon (no independent Tindie search was run for this pass). The saved image was checked against its cited Hackaday.io source page and clearly shows this badge (owl-shaped black PCB, visible ESP-12E module, 8 front NeoPixels, micro-USB jack, header pins on both ears).'
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/supercon-2019/badgerunner.glb
+  method: kicad
+  source_file: pcb/art.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 59680
 ---
 
 The Badgerunner (formally "Badge Runner") is a Blade Runner-themed conference badge Claire Sun made for Hackaday Supercon 2019, shaped after the owl used by the Tyrell Corporation in the film. Sun was inspired after seeing #badgelife projects from DEF CON and picked the theme partly because Supercon that year was held near Los Angeles, around the time and place the original film is set. The board art was laid out in Inkscape and exported with svg2shenzhen, with schematics and board layout done in KiCad.

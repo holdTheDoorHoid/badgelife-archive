@@ -37,7 +37,7 @@ get_one:
   distribution: []
   where: ''
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/utahsaint-org/MiniBadges2024
   firmware_url: null
   eda_tool: KiCad
@@ -76,6 +76,12 @@ research:
   last_checked: '2026-09-10'
   notes: 'Confirmed via the maker org''s own GitHub repo (utahsaint-org/MiniBadges2024) that both designs exist as real KiCad/Gerber PCB projects made for SAINTCON 2024 — not just a sweep snippet. No README, image, or commit credits a specific individual maker (unlike several sibling folders in the same repo tagged "- SHIFTY"), so makers stays unconfirmed. No storefront, price, quantity, or distribution info found; likely a giveaway/trade minibadge typical of the SAINTCON minibadge community rather than a sold item. No rendered photos are in the repo (only Gerbers/KiCad source), so no images could be saved. Each board is a simple passive design: a MiniBadge_Simple edge connector (powered by the host badge), 2x 1206 SMD LEDs, and a series resistor — no MCU, no independent power source. Could not determine LED color, PCB color, or shape from the source files alone.'
 last_modified_date: '2026-09-10'
+model:
+  file: assets/models/saintcon-2024/ics-v1-escaped-ics-v1-failed-minibadges.glb
+  method: kicad
+  source_file: SponsorSidecar/SponsorSidecar.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 89564
 ---
 
 "ICS V1 Escaped" and "ICS V1 Failed" are a pair of SAINTCON 2024 minibadges tied to an ICS (industrial control systems) themed challenge, most likely an escape-room-style puzzle where finishing successfully earns one badge and running out of time or failing earns the other. They live as two separate folders in the `utahsaint-org/MiniBadges2024` GitHub repository, which collects the community's minibadge designs for SAINTCON 2024 — the same organization and format used by dozens of other 2024 minibadges in that repo, several of which are individually credited to the maker "SHIFTY" (who is already credited for the 2023 versions of these same ICS outcome badges elsewhere in the archive). Neither "ICS V1 Escaped" nor "ICS V1 Failed" carries that credit in this repo, so the maker for the 2024 versions is left unconfirmed here.

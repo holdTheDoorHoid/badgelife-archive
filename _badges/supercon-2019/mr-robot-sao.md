@@ -30,14 +30,14 @@ tech:
   battery: null
   sao_version: null
 get_one:
-  price: "$12.30 (OSH Park PCB fab cost for a 3-board share)"
+  price: $12.30 (OSH Park PCB fab cost for a 3-board share)
   price_usd: 12.3
   quantity: ''
   availability: unknown
   distribution: []
   where: ''
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/davedarko/Simple-Add-ons-SAO/tree/main
   firmware_url: https://github.com/davedarko/Simple-Add-ons-SAO/tree/main
   eda_tool: Eagle
@@ -52,14 +52,14 @@ links:
   url: https://oshpark.com/shared_projects/XmKK8P7r
   kind: fab
 images:
-  - file: assets/images/badges/supercon-2019/mr-robot-sao/fbb58473d9.jpg
-    source: "https://hackaday.io/project/168037-mr-robot-shitty-addon"
-    credit: "davedarko"
-    caption: "Mr. Robot SAO PCB"
-  - file: assets/images/badges/supercon-2019/mr-robot-sao/6df3b79535.jpg
-    source: "https://hackaday.io/project/168037-mr-robot-shitty-addon"
-    credit: "davedarko"
-    caption: "Mr. Robot SAO project log photo"
+- file: assets/images/badges/supercon-2019/mr-robot-sao/fbb58473d9.jpg
+  source: https://hackaday.io/project/168037-mr-robot-shitty-addon
+  credit: davedarko
+  caption: Mr. Robot SAO PCB
+- file: assets/images/badges/supercon-2019/mr-robot-sao/6df3b79535.jpg
+  source: https://hackaday.io/project/168037-mr-robot-shitty-addon
+  credit: davedarko
+  caption: Mr. Robot SAO project log photo
 contact: {}
 notes: []
 status: released
@@ -71,22 +71,28 @@ sources:
   note: Found via the project's link list; intake pass identified this item here.
 - kind: url
   url: https://hackaday.io/project/168037-mr-robot-shitty-addon
-  title: "Mr. Robot Shitty Addon - Hackaday.io"
+  title: Mr. Robot Shitty Addon - Hackaday.io
   accessed: '2026-09-07'
-  note: "Project description, components (ATtiny85, BC847, KMTG-1002/1102 piezo speaker), Eagle/PDF design files, and project logs referencing demoing I2C functionality at Hackaday Supercon 2019."
+  note: Project description, components (ATtiny85, BC847, KMTG-1002/1102 piezo speaker), Eagle/PDF design files, and project logs referencing demoing I2C functionality at Hackaday Supercon 2019.
 - kind: url
   url: https://oshpark.com/shared_projects/XmKK8P7r
-  title: "Mr. Robot Badge Shitty Addon - OSH Park shared project"
+  title: Mr. Robot Badge Shitty Addon - OSH Park shared project
   accessed: '2026-09-07'
-  note: "PCB is a 2-layer, 1.58 x 1.57 in board, $12.30 for an OSH Park 3-pack share, uploaded Oct 16, 2019; recommends ordering in the 'afterdark' (black) finish."
+  note: PCB is a 2-layer, 1.58 x 1.57 in board, $12.30 for an OSH Park 3-pack share, uploaded Oct 16, 2019; recommends ordering in the 'afterdark' (black) finish.
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: "Event corrected from 'other' to supercon-2019: the Hackaday.io project was created Oct 16, 2019 and its logs describe demoing I2C functionality at that year's Hackaday Supercon. No listed price for the finished SAO itself (only the raw OSH Park PCB fab cost), and no quantity-made or distribution details were found — the project reads as a personal/demo build rather than a widely distributed give-away. Firmware for the I2C soundcard function is described in the Hackaday project logs as unfinished/in-progress rather than a completed product."
-last_modified_date: '2026-09-07'
+  notes: 'Event corrected from ''other'' to supercon-2019: the Hackaday.io project was created Oct 16, 2019 and its logs describe demoing I2C functionality at that year''s Hackaday Supercon. No listed price for the finished SAO itself (only the raw OSH Park PCB fab cost), and no quantity-made or distribution details were found — the project reads as a personal/demo build rather than a widely distributed give-away. Firmware for the I2C soundcard function is described in the Hackaday project logs as unfinished/in-progress rather than a completed product.'
+last_modified_date: '2026-09-10'
 redirect_from:
 - /badges/other/mr-robot-sao/
+model:
+  file: assets/models/supercon-2019/mr-robot-sao.glb
+  method: kicad
+  source_file: SAO library stick/SAO_library.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 314068
 ---
 
 The Mr. Robot SAO is a Simple Add-On by Hackaday.io user davedarko, built as a small homage to Brian Benchoff's earlier Mr. Robot badge — davedarko's version uses a completely different schematic, centered on an ATtiny85 driving a small piezo speaker (a KMTG-1002/1102) through a BC847 transistor. The idea was to turn the SAO into an I2C-controlled soundcard that a host badge could command over the SAO header's I2C lines.

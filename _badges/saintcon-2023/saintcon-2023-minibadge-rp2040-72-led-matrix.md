@@ -40,7 +40,7 @@ get_one:
   - purchase
   where: Sold by the maker (redactd) on Tindie for $25.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/im-redactd/saintcon2023_minibadge
   firmware_url: https://github.com/im-redactd/saintcon2023_minibadge
   eda_tool: null
@@ -53,13 +53,13 @@ links:
   kind: repo
 images:
 - file: assets/images/badges/saintcon-2023/saintcon-2023-minibadge-rp2040-72-led-matrix/d6261df821.jpg
-  source: "https://www.tindie.com/products/redactd/saintcon-2023-minibadge/"
-  credit: "redactd"
-  caption: "The three-board minibadge stack showing the RP2040 board, LED matrix, and top acrylic/PCB layer"
+  source: https://www.tindie.com/products/redactd/saintcon-2023-minibadge/
+  credit: redactd
+  caption: The three-board minibadge stack showing the RP2040 board, LED matrix, and top acrylic/PCB layer
 - file: assets/images/badges/saintcon-2023/saintcon-2023-minibadge-rp2040-72-led-matrix/5176e09cbc.jpg
-  source: "https://www.tindie.com/products/redactd/saintcon-2023-minibadge/"
-  credit: "redactd"
-  caption: "The minibadge lit up displaying scrolling text on the 72-LED matrix"
+  source: https://www.tindie.com/products/redactd/saintcon-2023-minibadge/
+  credit: redactd
+  caption: The minibadge lit up displaying scrolling text on the 72-LED matrix
 contact: {}
 notes:
 - Spotted by a research agent while working on a neighbouring entry (run 4).
@@ -72,15 +72,21 @@ sources:
   note: 'Found by the archive''s discovery sweep (angle: research-run4-spotted); event read as ''saintcon-2023''.'
 - kind: url
   url: https://github.com/im-redactd/saintcon2023_minibadge
-  title: "im-redactd/saintcon2023_minibadge"
+  title: im-redactd/saintcon2023_minibadge
   accessed: '2026-09-08'
-  note: "Maker's GitHub repo with hardware and firmware source; confirms RP2040 MCU and open-source status."
+  note: Maker's GitHub repo with hardware and firmware source; confirms RP2040 MCU and open-source status.
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-08'
   notes: Core facts (maker, price, RP2040, 72-LED matrix, three-board stack, GitHub source) confirmed directly on the maker's own Tindie listing and GitHub repo. Connectivity, battery, and quantity made are not stated anywhere found and are left empty. No third-party press coverage located.
-last_modified_date: '2026-09-08'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/saintcon-2023/saintcon-2023-minibadge-rp2040-72-led-matrix.glb
+  method: kicad
+  source_file: Hardware/saintcon-rp2040-platform.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 134388
 ---
 
 This SAINTCON 2023 minibadge, made by redactd, is a three-PCB stack-up: a bottom board carrying an RP2040 microcontroller, a middle board holding a 72-LED matrix of 1x1 RGB LEDs, and a top board used as a mechanical/cover layer. It shows scrolling text on the matrix, with a capacitive touch button to cycle through display modes. The maker sold it on Tindie for $25 and offered buyers a custom message with their choice of text color and an optional sparkle animation effect.

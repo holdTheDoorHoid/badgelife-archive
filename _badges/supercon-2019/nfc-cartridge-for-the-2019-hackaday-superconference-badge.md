@@ -35,7 +35,7 @@ get_one:
   distribution: []
   where: ''
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/flummer/supercon2019-nfccartridge
   firmware_url: null
   eda_tool: KiCad
@@ -47,9 +47,9 @@ links:
   kind: repo
 images:
 - file: assets/images/badges/supercon-2019/nfc-cartridge-for-the-2019-hackaday-superconference-badge/bb935a7096.jpg
-  source: "https://github.com/flummer/supercon2019-nfccartridge"
-  credit: "Thomas Flummer"
-  caption: "Front and back render of the NFC cartridge PCB"
+  source: https://github.com/flummer/supercon2019-nfccartridge
+  credit: Thomas Flummer
+  caption: Front and back render of the NFC cartridge PCB
 contact: {}
 notes:
 - An NFC-reader cartridge built on the unofficial Superconference 2019 badge cartridge template. Found by the event-year sweep, task supercon-2019.
@@ -63,15 +63,21 @@ sources:
   note: 'Found by the archive''s discovery sweep (angle: sweep:supercon-2019); event read as ''supercon-2019''.'
 - kind: url
   url: https://github.com/flummer/supercon2019-nfccartridge
-  title: "flummer/supercon2019-nfccartridge README"
+  title: flummer/supercon2019-nfccartridge README
   accessed: '2026-09-08'
-  note: "Confirmed chip (ST25DV NFC + W25Q128 SPI flash), function, license (CC BY-SA 4.0), KiCad design files, and v1.2 pinout fix; source of the cartridge render image."
+  note: Confirmed chip (ST25DV NFC + W25Q128 SPI flash), function, license (CC BY-SA 4.0), KiCad design files, and v1.2 pinout fix; source of the cartridge render image.
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-08'
-  notes: "Maker's own GitHub repo confirms the design and license, but no storefront, price, or quantity-made information was found anywhere, so get_one fields are left empty. No separate maker bio/profile page was checked beyond the repo itself."
-last_modified_date: '2026-09-08'
+  notes: Maker's own GitHub repo confirms the design and license, but no storefront, price, or quantity-made information was found anywhere, so get_one fields are left empty. No separate maker bio/profile page was checked beyond the repo itself.
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/supercon-2019/nfc-cartridge-for-the-2019-hackaday-superconference-badge.glb
+  method: kicad
+  source_file: NFCCartridge.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 159480
 ---
 
 This cartridge plugs into the unofficial cartridge connector on the 2019 Hackaday Superconference badge and adds an NFC tag built around an ST25DV chip. The tag can be read or written over RF even when the cartridge isn't plugged in, and the same ST25DV also exposes an I2C interface wired to the badge's connector, so the badge and an external NFC reader can share the same memory. A W25Q128 SPI flash chip on board lets the cartridge carry its own firmware and configuration data, making it self-contained rather than dependent on the badge's onboard storage.

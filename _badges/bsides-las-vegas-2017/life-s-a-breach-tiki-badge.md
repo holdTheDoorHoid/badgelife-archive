@@ -44,6 +44,7 @@ links:
 - label: hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25
   url: https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/
   kind: article
+  archived: https://web.archive.org/web/20260907165055/https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/
 - label: github.com/r3dct3d/TikiBadge
   url: https://github.com/r3dct3d/TikiBadge
   kind: repo
@@ -63,11 +64,13 @@ sources:
   title: Life's A Breach / Tiki badge
   accessed: '2026-09-07'
   note: 'Found by the archive''s discovery sweep (angle: sweep:bsides-las-vegas); event read as ''BSides San Francisco 2017''.'
+  archived: https://web.archive.org/web/20260907165055/https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/
 - kind: url
   url: https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/
   title: All The Hardware Badges Of DEF CON 25
   accessed: '2026-09-10'
   note: 'Confirms the badge exists: 3D-printed housing with a PCB inside, blinky LEDs, batteries, silkscreen art, and a plastic/vellum diffuser for the eyes; article credits it to "[bon] and [redacted]" and associates it with BSidesSF alongside a BSidesLV mention.'
+  archived: https://web.archive.org/web/20260907165055/https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/
 - kind: url
   url: https://github.com/r3dct3d/TikiBadge
   title: r3dct3d/TikiBadge (README + repo contents)

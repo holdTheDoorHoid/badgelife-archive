@@ -87,7 +87,13 @@ research:
   confidence: medium
   last_checked: '2026-09-07'
   notes: Maker's own Hackaday.io project and GitHub repo confirm what the addon is, who made it, the event, the MCU, and that hardware/firmware are open source. Price, quantity made, and availability are not stated anywhere found and are left empty. No third-party coverage (press, forum threads) was found beyond the maker's own pages. Status set to "released" on the basis that the project shipped hardware (photos of an assembled board plugged into a badge exist) rather than remaining a plan.
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/supercon-2019/shirtty-addon.glb
+  method: kicad
+  source_file: hardware/shirtty.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 99764
 ---
 
 The shIRtty addon is a "Shitty Addon" (SAO) built for the Supercon 2019 badge by Thomas Sarlandie. It is built around a SAMD21E18A microcontroller (ARM Cortex-M0+), runs CircuitPython, and adds infrared transmit/receive to the host badge along with a single RGB LED. The board plugs into the badge's SAO header and draws its power from the host badge.

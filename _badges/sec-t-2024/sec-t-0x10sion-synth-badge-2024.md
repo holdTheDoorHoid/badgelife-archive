@@ -42,7 +42,7 @@ get_one:
   - kit
   where: Given to attendees of SEC-T 0x10sion 2024 as a soldering-kit conference badge; assembly required.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/SEC-T/badge-2024
   firmware_url: https://github.com/SEC-T/badge-2024
   eda_tool: null
@@ -52,14 +52,14 @@ links:
   url: https://github.com/SEC-T/badge-2024
   kind: repo
 images:
-  - file: assets/images/badges/sec-t-2024/sec-t-0x10sion-synth-badge-2024/d43ecca741.png
-    source: "https://github.com/SEC-T/badge-2024"
-    credit: "SEC-T"
-    caption: "SEC-T 0x10sion Music Synthesizer Badge kit, assembled"
+- file: assets/images/badges/sec-t-2024/sec-t-0x10sion-synth-badge-2024/d43ecca741.png
+  source: https://github.com/SEC-T/badge-2024
+  credit: SEC-T
+  caption: SEC-T 0x10sion Music Synthesizer Badge kit, assembled
 contact: {}
 notes:
 - SEC-T's 2024 conference badge is a soldering-kit music synthesizer based on Mitch Altman's open-hardware ArduTouch, with touch keyboard, speaker, audio out and 5 RGB LEDs, running the pre-loaded 'Quadrant' looper firmware. Found by the event-year sweep, task con-disobey.
-- 'The sweep''s wording was "SEC-T 0x10sion Synth Badge (2024)"; the maker''s repo/README calls it the "SEC-T 0x10sion Music Synthesizer Badge" (also written "SEC-T Synth Badge" for short). Title updated to match.'
+- The sweep's wording was "SEC-T 0x10sion Synth Badge (2024)"; the maker's repo/README calls it the "SEC-T 0x10sion Music Synthesizer Badge" (also written "SEC-T Synth Badge" for short). Title updated to match.
 status: released
 sources:
 - kind: url
@@ -77,7 +77,13 @@ research:
   confidence: high
   last_checked: '2026-09-08'
   notes: Maker's own GitHub repo (README + linked assembly PDFs) confirms this is a real, distributed item (status set to released, since attendees assembled and kept it). Price, quantity made, and current availability are not stated anywhere in the repo; left empty. No separate storefront, Hackaday.io page, or press coverage found in the searches run.
-last_modified_date: '2026-09-08'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/sec-t-2024/sec-t-0x10sion-synth-badge-2024.glb
+  method: kicad
+  source_file: KiCad/SEC-T_0x10sion_Badge.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 468752
 ---
 
 The SEC-T 0x10sion Music Synthesizer Badge was the conference badge for SEC-T 0x10sion 2024, distributed as a soldering kit that attendees assembled themselves. Rather than a typical blinky PCB badge, it is a small Arduino-compatible music synthesizer: a touch keyboard, a built-in speaker and amplifier, an audio output jack for external speakers, 5 programmable RGB LEDs, two extra buttons, and four potentiometers for shaping the sound. It runs on an ATmega328, the same chip used on the Arduino Uno, chosen specifically to keep the board approachable for first-time solderers.

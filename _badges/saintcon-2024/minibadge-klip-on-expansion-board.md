@@ -11,8 +11,8 @@ year: 2024
 makers:
 - name: compukidmike
   url: https://github.com/compukidmike
-summary: 'A lanyard-worn accessory that came with every SAINTCON 2024 badge, adding a standard 20-pin minibadge connector with 8 slots for displaying extra minibadges.'
-functions: 'Holds and powers up to 8 minibadges for display (via the 20-pin minibadge extension connector). It draws power from the main badge''s USB-C port, but is not wired to the badge''s I2C bus, so minibadges plugged into it are decorative only and cannot take part in the badge''s on-screen game (which only reads the two I2C-connected klip-on slots on the wrist badge itself).'
+summary: A lanyard-worn accessory that came with every SAINTCON 2024 badge, adding a standard 20-pin minibadge connector with 8 slots for displaying extra minibadges.
+functions: Holds and powers up to 8 minibadges for display (via the 20-pin minibadge extension connector). It draws power from the main badge's USB-C port, but is not wired to the badge's I2C bus, so minibadges plugged into it are decorative only and cannot take part in the badge's on-screen game (which only reads the two I2C-connected klip-on slots on the wrist badge itself).
 look:
   colors: []
   shape: null
@@ -56,15 +56,21 @@ sources:
   note: Reported as an 'other item found' during the stub research pass.
 - kind: url
   url: https://raw.githubusercontent.com/compukidmike/Saintcon2024/main/README.md
-  title: 'Saintcon2024 README (compukidmike/Saintcon2024)'
+  title: Saintcon2024 README (compukidmike/Saintcon2024)
   accessed: '2026-09-10'
   note: 'Primary source: confirms the minibadge expansion board is an 8-slot, 20-pin-connector, lanyard-worn accessory included with every badge, USB-C powered from the main badge, with no I2C connection to the badge (so it cannot host the two "official" game minibadges).'
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-10'
-  notes: 'No photo of the physical expansion board itself was found (the repo''s only images are a joke "leaked engineering drawing" of the main wrist badge and a fictional press-release graphic, not usable as item photos, so images was left empty). Exact quantity made and whether the expansion board''s own KiCad files (vs. the general 2-slot klip-on example) were published are not stated in the README. A related but distinct item, the "SAINTCON 2024 Minibadge Expansion Board Cover," has its own entry (saintcon-2024-saintcon-2024-minibadge-expansion-board-cover) and is not a duplicate of this one.'
+  notes: No photo of the physical expansion board itself was found (the repo's only images are a joke "leaked engineering drawing" of the main wrist badge and a fictional press-release graphic, not usable as item photos, so images was left empty). Exact quantity made and whether the expansion board's own KiCad files (vs. the general 2-slot klip-on example) were published are not stated in the README. A related but distinct item, the "SAINTCON 2024 Minibadge Expansion Board Cover," has its own entry (saintcon-2024-saintcon-2024-minibadge-expansion-board-cover) and is not a duplicate of this one.
 last_modified_date: '2026-09-10'
+model:
+  file: assets/models/saintcon-2024/minibadge-klip-on-expansion-board.glb
+  method: kicad
+  source_file: Klip-ons/Saintcon2024MinibadgeKlip-onExample/Saintcon2024MinibadgeKlip-onExample.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 59988
 ---
 
 Every SAINTCON 2024 attendee badge (a wrist-mounted "Wrist Communicator" designed by compukidmike) shipped with a matching minibadge expansion board worn on a lanyard. Where the badge itself only supports two "official" game minibadges over I2C, the expansion board adds a standard 20-pin minibadge connector with room for eight minibadges at once, letting attendees show off their whole collection at the con. It draws its power from the main badge's USB-C port rather than carrying its own battery.

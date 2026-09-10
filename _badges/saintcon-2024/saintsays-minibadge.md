@@ -11,7 +11,7 @@ year: 2024
 makers:
 - name: durkinza (Zane Durkin)
 summary: A Simon-Says-style memory game minibadge for SAINTCON 2024, with four buttons and four LEDs and an EEPROM-saved high score.
-functions: 'Memory/pattern game (Simon Says style) with four buttons and four LEDs; tracks and saves a high score to EEPROM; optional I2C link lets the main SAINTCON badge read button presses and the score, and set settings/brightness; also has a settings mode and a lightshow/party mode.'
+functions: Memory/pattern game (Simon Says style) with four buttons and four LEDs; tracks and saves a high score to EEPROM; optional I2C link lets the main SAINTCON badge read button presses and the score, and set settings/brightness; also has a settings mode and a lightshow/party mode.
 look:
   colors: []
   shape: null
@@ -57,7 +57,7 @@ images: []
 contact: {}
 notes:
 - ATtiny-based memory-game minibadge, the maker's first SAINTCON minibadge, made for SAINTCON 2024. Found by the event-year sweep, task saintcon-2024.
-- 'Sweep imported the title as "SaintSays MiniBadge"; the maker''s own README/repo title it "SAINTSays Mini-Badge" (all-caps SAINT). Kept the sweep''s title casing here since it matches the entry id/slug.'
+- Sweep imported the title as "SaintSays MiniBadge"; the maker's own README/repo title it "SAINTSays Mini-Badge" (all-caps SAINT). Kept the sweep's title casing here since it matches the entry id/slug.
 status: released
 sources:
 - kind: url
@@ -69,23 +69,29 @@ sources:
   url: https://raw.githubusercontent.com/durkinza/SaintSays-MiniBadge/main/README.md
   title: durkinza/SaintSays-MiniBadge README
   accessed: '2026-09-10'
-  note: 'Confirms maker, event/year, ATtiny MCU, I2C programming/header pinout, disclaimer of non-affiliation with SAINTCON/Utah SAINT; links to assembly/build docs on zanedurk.in.'
+  note: Confirms maker, event/year, ATtiny MCU, I2C programming/header pinout, disclaimer of non-affiliation with SAINTCON/Utah SAINT; links to assembly/build docs on zanedurk.in.
 - kind: url
   url: https://raw.githubusercontent.com/durkinza/SaintSays-MiniBadge/main/SaintSays/SaintSays.ino
   title: SaintSays.ino firmware source
   accessed: '2026-09-10'
-  note: 'Confirms 4 buttons and 4 LEDs, I2C device address, EEPROM-saved high score and settings, game/settings/lightshow modes, and pin mapping differences between minibadge hardware revisions.'
+  note: Confirms 4 buttons and 4 LEDs, I2C device address, EEPROM-saved high score and settings, game/settings/lightshow modes, and pin mapping differences between minibadge hardware revisions.
 - kind: url
   url: https://www.youtube.com/watch?v=7bsx-1z2B9c
   title: SAINTSAYS Assembly - YouTube
   accessed: '2026-09-10'
-  note: 'Confirms it is "a fun memory game" designed by durkinza for SAINTCON 2024; used as a secondary description source. Thumbnail frame considered for an image but rejected as a text title card, not a clear shot of the badge.'
+  note: Confirms it is "a fun memory game" designed by durkinza for SAINTCON 2024; used as a secondary description source. Thumbnail frame considered for an image but rejected as a text title card, not a clear shot of the badge.
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-10'
   notes: 'Core facts (maker, event/year, MCU, game mechanic, I2C link to the main badge, open hardware/firmware) are confirmed from the maker''s own GitHub repo and firmware source, so this is better than low confidence, but several fields stay empty: PCB color/look, price, quantity made, and exact distribution method (sold vs. given vs. traded) were not stated anywhere found. The maker''s own site (zanedurk.in), which hosts the assembly guide and a "how it''s made" writeup, returned a 502 Bad Gateway at last check and could not be read; those two pages likely have the missing details (photos, PCB color, build story) and are worth a retry later. No product photo of the assembled badge was found; the only image available (a YouTube thumbnail) is a text title card, not a usable photo, so images was left empty rather than filled with something that does not show the item.'
 last_modified_date: '2026-09-10'
+model:
+  file: assets/models/saintcon-2024/saintsays-minibadge.glb
+  method: kicad
+  source_file: KiCad/SaintSays.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 78784
 ---
 
 The SaintSays MiniBadge is an ATtiny-based memory game made by Zane Durkin (durkinza) for SAINTCON 2024 — by his own account, his first minibadge design for the con. It plays like Simon Says: four LEDs flash a growing pattern and the player repeats it back on four buttons, with the current high score saved to the chip's EEPROM so it survives a power cycle.

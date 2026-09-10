@@ -12,7 +12,7 @@ makers:
 - name: SAINTCON community (utahsaint-org)
   url: https://github.com/utahsaint-org
 summary: A passive add-on PCB sized to attach alongside a sponsor's minibadge in the SAINTCON 2024 minibadge lineup.
-functions: 'No electronics; a physical sidecar/extension board that mounts to a companion minibadge via mounting holes.'
+functions: No electronics; a physical sidecar/extension board that mounts to a companion minibadge via mounting holes.
 look:
   colors: []
   shape: null
@@ -45,7 +45,7 @@ images: []
 contact: {}
 notes:
 - Sponsor sidecar add-on board for the SAINTCON 2024 minibadge system. Found by the event-year sweep, task saintcon-2024.
-- 'Sweep title used the repo folder name verbatim ("SponsorSidecar minibadge"); no alternate maker-given title was found.'
+- Sweep title used the repo folder name verbatim ("SponsorSidecar minibadge"); no alternate maker-given title was found.
 status: listed
 sources:
 - kind: url
@@ -62,27 +62,20 @@ sources:
   url: https://raw.githubusercontent.com/utahsaint-org/MiniBadges2024/main/SponsorSidecar/SponsorSidecar.kicad_pcb
   title: SponsorSidecar.kicad_pcb
   accessed: '2026-09-10'
-  note: 'The PCB file contains only mounting-hole footprints (no MCU, LED, or connector footprints) — supports that this is a passive, unpowered board rather than an electronic minibadge.'
+  note: The PCB file contains only mounting-hole footprints (no MCU, LED, or connector footprints) — supports that this is a passive, unpowered board rather than an electronic minibadge.
 research:
   status: verified
   confidence: low
   last_checked: '2026-09-10'
-  notes: >-
-    Confirmed the item exists as a real design in the official SAINTCON 2024 minibadge
-    GitHub org (utahsaint-org/MiniBadges2024), alongside dozens of other 2024 minibadges,
-    so this is not just a search-snippet ghost. However there is no README, build guide
-    entry, or press coverage found that names an individual maker, states a sponsor name,
-    price, quantity made, or distribution method. The KiCad PCB file has no component
-    footprints beyond mounting holes, suggesting a passive physical sidecar (no MCU,
-    LEDs, or display) rather than a powered minibadge, but this is inferred from the
-    design file itself, not stated anywhere. Could not find the item named in the 2024
-    SAINTCON MiniBadge Guide PDF or on badge.gallery's SAINTCON 2024 minibadge page
-    (checked, no hits) — the guide PDF itself was too large to search directly. No
-    photos of an assembled/painted board were found; only vector artwork files (.ai/.svg)
-    in the repo, which are design assets rather than photos of the item, so no images
-    were saved. Maker credited as the SAINTCON community org rather than a named
-    individual, since no specific designer is stated anywhere.
+  notes: Confirmed the item exists as a real design in the official SAINTCON 2024 minibadge GitHub org (utahsaint-org/MiniBadges2024), alongside dozens of other 2024 minibadges, so this is not just a search-snippet ghost. However there is no README, build guide entry, or press coverage found that names an individual maker, states a sponsor name, price, quantity made, or distribution method. The KiCad PCB file has no component footprints beyond mounting holes, suggesting a passive physical sidecar (no MCU, LEDs, or display) rather than a powered minibadge, but this is inferred from the design file itself, not stated anywhere. Could not find the item named in the 2024 SAINTCON MiniBadge Guide PDF or on badge.gallery's SAINTCON 2024 minibadge page (checked, no hits) — the guide PDF itself was too large to search directly. No photos of an assembled/painted board were found; only vector artwork files (.ai/.svg) in the repo, which are design assets rather than photos of the item, so no images
+    were saved. Maker credited as the SAINTCON community org rather than a named individual, since no specific designer is stated anywhere.
 last_modified_date: '2026-09-10'
+model:
+  file: assets/models/saintcon-2024/sponsorsidecar-minibadge.glb
+  method: kicad
+  source_file: SponsorSidecar/SponsorSidecar.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 89564
 ---
 
 The SponsorSidecar is one of roughly thirty minibadge designs in `utahsaint-org/MiniBadges2024`, the official GitHub repository the SAINTCON community used to collect minibadge projects for SAINTCON 2024. Its own KiCad PCB file contains no component footprints beyond mounting holes, which points to a passive add-on board — something meant to physically attach alongside a sponsor's electronic minibadge rather than a standalone electronic badge of its own.

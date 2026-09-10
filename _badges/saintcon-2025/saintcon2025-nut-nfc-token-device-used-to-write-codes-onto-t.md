@@ -43,7 +43,7 @@ get_one:
   distribution: []
   where: 'Distributed as part of SAINTCON 2025''s badge game (BadgeLife community: compukidmike, redactd, v0rtex, BP, Mike''s Wife); exact distribution method not confirmed by sources read.'
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/compukidmike/Saintcon2025/tree/main/Hardware/Nut
   firmware_url: https://github.com/compukidmike/Saintcon2025/tree/main/Firmware/nut
   eda_tool: KiCad
@@ -57,7 +57,7 @@ links:
 - label: Saintcon2025 repo README
   url: https://github.com/compukidmike/Saintcon2025
   kind: repo
-- label: 'SAINTCON 2025 - compukidmike - The Badge Talk (YouTube)'
+- label: SAINTCON 2025 - compukidmike - The Badge Talk (YouTube)
   url: https://www.youtube.com/watch?v=fYb-d4U15Qc
   kind: video
 images: []
@@ -80,33 +80,32 @@ sources:
   url: https://github.com/compukidmike/Saintcon2025/blob/main/Firmware/nut/sdkconfig.defaults
   title: Firmware/nut/sdkconfig.defaults
   accessed: '2026-09-07'
-  note: 'ESP-IDF target esp32c3, LED_NUM_LEDS=6, secure element (ATECC608A) enabled, conference Wi-Fi SSID configured.'
+  note: ESP-IDF target esp32c3, LED_NUM_LEDS=6, secure element (ATECC608A) enabled, conference Wi-Fi SSID configured.
 - kind: url
   url: https://github.com/compukidmike/Saintcon2025/tree/main/Firmware/nut/components
   title: Firmware/nut/components listing
   accessed: '2026-09-07'
-  note: 'Components include nfc-ptx105r-spi (NXP PTX105R NFC reader/writer over SPI), mcp23x17 (I/O expander), and an input component, confirming NFC read/write plus a physical button.'
+  note: Components include nfc-ptx105r-spi (NXP PTX105R NFC reader/writer over SPI), mcp23x17 (I/O expander), and an input component, confirming NFC read/write plus a physical button.
 - kind: url
   url: https://www.saintcon.org/com-badgelife/
   title: Community - BadgeLife (SAINTCON)
   accessed: '2026-09-07'
-  note: 'Confirms compukidmike led the SAINTCON 2025 BadgeLife/badge-game team (with redactd, v0rtex, BP, Mike''s Wife) and that there was a collaborative badge game that year.'
+  note: Confirms compukidmike led the SAINTCON 2025 BadgeLife/badge-game team (with redactd, v0rtex, BP, Mike's Wife) and that there was a collaborative badge game that year.
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: >-
-    Core facts (what it is, maker, event, MCU, NFC chip, LED count,
-    open-source status) come from the maker's own repo and firmware config,
-    so those are solid. Could not find price, quantity made, exact
-    distribution mechanism (raffle vs given to all players vs contest
-    prize), battery type, or any photo of the physical Nut device itself -
-    only the badge's own photo (SC25Badge.png) and 3D-print STL filenames
-    (Saintcon2025Nut.stl, NutBase, NutButton, NutRing, NutWithButtonHole)
-    were found, no rendered/photographed image. The SAINTCON 2025 badge talk
-    YouTube video likely has more detail but its page content could not be
-    extracted via fetch.
-last_modified_date: '2026-09-07'
+  notes: Core facts (what it is, maker, event, MCU, NFC chip, LED count, open-source status) come from the maker's own repo and firmware config, so those are solid. Could not find price, quantity made, exact distribution mechanism (raffle vs given to all players vs contest prize), battery type, or any photo of the physical Nut device itself - only the badge's own photo (SC25Badge.png) and 3D-print STL filenames (Saintcon2025Nut.stl, NutBase, NutButton, NutRing, NutWithButtonHole) were found, no rendered/photographed image. The SAINTCON 2025 badge talk YouTube video likely has more detail but its page content could not be extracted via fetch.
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/saintcon-2025/saintcon2025-nut-nfc-token-device-used-to-write-codes-onto-t.glb
+  method: gerber
+  source_file: Hardware/Nut/Saintcon2025NutGerbers.zip
+  generated: '2026-09-10'
+  bytes: 184340
+  size_mm:
+  - 100.0
+  - 100.0
 ---
 
 The Nut is a small NFC token built by SAINTCON badge designer compukidmike as the interactive piece of SAINTCON 2025's badge game. That year's conference badge was a comically oversized 50mm wrench with an NFC tag embedded in its head; the game required players to find and use Nuts around the venue, which wrote one-time codes onto the badge's NFC tag. Those codes were then checked in against a game server, awarding points or unlocking further game content.

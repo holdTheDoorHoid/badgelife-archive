@@ -31,7 +31,7 @@ get_one:
   availability: unknown
   distribution:
   - kit
-  where: 'Planned as a solder-it-yourself kit for attendees, volunteers, and speakers at BSides Jacksonville 2018, per the maker''s project page; it is unconfirmed whether the badges were ultimately completed and handed out.'
+  where: Planned as a solder-it-yourself kit for attendees, volunteers, and speakers at BSides Jacksonville 2018, per the maker's project page; it is unconfirmed whether the badges were ultimately completed and handed out.
 make_your_own:
   open_source: null
   hardware_url: null
@@ -55,9 +55,10 @@ sources:
   archived: https://web.archive.org/web/20251117045210/https://hackaday.io/project/161486-security-b-sides-jax-2018-badge
 - kind: url
   url: https://hackaday.io/Kirball
-  title: "Kirball's profile - Hackaday.io"
+  title: Kirball's profile - Hackaday.io
   accessed: '2026-09-07'
   note: 'Confirmed maker Kirball also made the related BSides Orlando 2018 badge, the #RescueOps unofficial DEF CON 26 badge, and the Hack FSCJ fundraiser badge.'
+  archived: https://web.archive.org/web/20251007110305/https://hackaday.io/Kirball
 research:
   status: researched
   confidence: low

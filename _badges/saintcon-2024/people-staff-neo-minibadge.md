@@ -11,7 +11,7 @@ year: 2024
 makers:
 - name: unconfirmed
 summary: A staff-series SAINTCON 2024 minibadge built around 80 individually addressable WS2812B LEDs driven by an ATtiny1614, part of the "People" line of staff minibadges.
-functions: 'Drives an 80-LED WS2812B array from a single ATtiny1614 microcontroller; specific lighting patterns/modes are not documented in the available sources.'
+functions: Drives an 80-LED WS2812B array from a single ATtiny1614 microcontroller; specific lighting patterns/modes are not documented in the available sources.
 look:
   colors: []
   shape: null
@@ -76,6 +76,12 @@ research:
   last_checked: '2026-09-10'
   notes: 'The GitHub repo (utahsaint-org/MiniBadges2024, official SAINTCON minibadge-community org) confirms this is a real, designed PCB: KiCad schematic/PCB/Gerbers for an 80x WS2812B addressable-LED board driven by a single ATtiny1614-SS. No README, maker credit, photo, price, quantity, or distribution info exists anywhere in the repo or in the official 2024 MiniBadge Guide PDF (searched in full, no match). Could not confirm who designed it, whether it was actually built/distributed, or its physical form factor/shape/colors, so those fields are left empty. The "Staff" in the folder name and the absence from the public trading guide suggest it was made for SAINTCON staff specifically rather than general attendee trading, but no source states this directly.'
 last_modified_date: '2026-09-10'
+model:
+  file: assets/models/saintcon-2024/people-staff-neo-minibadge.glb
+  method: kicad
+  source_file: People-Staff-Neo/People-Staff-Neo.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 224240
 ---
 
 

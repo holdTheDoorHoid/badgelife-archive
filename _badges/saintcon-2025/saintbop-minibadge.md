@@ -40,7 +40,7 @@ get_one:
   distribution: []
   where: ''
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/durkinza/SaintBop-Minibadge/tree/main/KiCad/SaintBop
   firmware_url: https://github.com/durkinza/SaintBop-Minibadge/blob/main/SaintBop/SaintBop.ino
   eda_tool: KiCad
@@ -63,7 +63,7 @@ sources:
   url: https://github.com/durkinza/SaintBop-Minibadge/blob/main/SaintBop/SaintBop.ino
   title: SaintBop.ino firmware source
   accessed: '2026-09-07'
-  note: 'Pin definitions and mode/game logic; confirms ATtiny target (build/ATTinyCore.avr.attinyx4), 3 LEDs, potentiometer/rotary encoder, vibration sensor, piezo buzzer, I2C link to a "Main badge", EEPROM high-score storage.'
+  note: Pin definitions and mode/game logic; confirms ATtiny target (build/ATTinyCore.avr.attinyx4), 3 LEDs, potentiometer/rotary encoder, vibration sensor, piezo buzzer, I2C link to a "Main badge", EEPROM high-score storage.
 - kind: url
   url: https://api.github.com/repos/durkinza/SaintBop-Minibadge
   title: GitHub repo metadata (API)
@@ -73,25 +73,31 @@ sources:
   url: https://raw.githubusercontent.com/durkinza/SaintBop-Minibadge/main/SAINTBop%20User%20Guide.odt
   title: SAINTBop User Guide (ODT)
   accessed: '2026-09-07'
-  note: 'Titled "SAINT Bop By Durkinza"; describes the 7 modes (Sleep, Menu, Game 1, Game 2 [not implemented], Show Score, Settings, Light Show) and menu/settings behavior in the maker''s own words.'
+  note: Titled "SAINT Bop By Durkinza"; describes the 7 modes (Sleep, Menu, Game 1, Game 2 [not implemented], Show Score, Settings, Light Show) and menu/settings behavior in the maker's own words.
 - kind: url
   url: https://api.github.com/repos/durkinza/SaintBop-Minibadge/commits
   title: Commit history (API)
   accessed: '2026-09-07'
-  note: 'Commit messages "Adding document draft" (2025-08-29) and "Adding peer reviewed document" (2025-08-31) match SAINTCON''s badge-add-on peer review process and SAINTCON 2025''s late-August 2025 dates, supporting the event correction from "other" to saintcon-2025.'
+  note: Commit messages "Adding document draft" (2025-08-29) and "Adding peer reviewed document" (2025-08-31) match SAINTCON's badge-add-on peer review process and SAINTCON 2025's late-August 2025 dates, supporting the event correction from "other" to saintcon-2025.
 - kind: url
   url: https://api.github.com/users/durkinza
   title: durkinza GitHub profile (API)
   accessed: '2026-09-07'
-  note: 'Real name Zane Durkin, co-founder of NeverLAN CTF; personal site zanedurk.in was unreachable (502) at time of check.'
+  note: Real name Zane Durkin, co-founder of NeverLAN CTF; personal site zanedurk.in was unreachable (502) at time of check.
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'No maker photos of the assembled badge were found; the only images in the repo/User Guide are two QR codes, not product photos, so no images could be saved. No storefront, price, quantity, or distribution details were found anywhere -- this looks like a SAINTCON badge-add-on village submission (built for personal/community distribution rather than sale) but that is inferred from the peer-review commit message, not stated outright, so it is noted here rather than filled into get_one. The event was corrected from "other" to saintcon-2025 based on the "SAINT" name, the "peer reviewed document" commit dated 2025-08-31, and SAINTCON 2025''s late-August timing -- no source states the event by name outright, so confidence is medium rather than high. Game Mode 2 is explicitly unimplemented per both the firmware and the user guide. durkinza''s personal blog (zanedurk.in) returned a 502 error and could not be checked for further posts.'
-last_modified_date: '2026-09-07'
+  notes: No maker photos of the assembled badge were found; the only images in the repo/User Guide are two QR codes, not product photos, so no images could be saved. No storefront, price, quantity, or distribution details were found anywhere -- this looks like a SAINTCON badge-add-on village submission (built for personal/community distribution rather than sale) but that is inferred from the peer-review commit message, not stated outright, so it is noted here rather than filled into get_one. The event was corrected from "other" to saintcon-2025 based on the "SAINT" name, the "peer reviewed document" commit dated 2025-08-31, and SAINTCON 2025's late-August timing -- no source states the event by name outright, so confidence is medium rather than high. Game Mode 2 is explicitly unimplemented per both the firmware and the user guide. durkinza's personal blog (zanedurk.in) returned a 502 error and could not be checked for further posts.
+last_modified_date: '2026-09-10'
 redirect_from:
 - /badges/other/saintbop-minibadge/
+model:
+  file: assets/models/saintcon-2025/saintbop-minibadge.glb
+  method: kicad
+  source_file: KiCad/SaintBop/SaintBop.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 104220
 ---
 
 SaintBop is a "Bop It"-style reflex minibadge made by Zane Durkin (GitHub handle durkinza, co-founder of NeverLAN CTF), built around an ATtiny84. It gives the wearer three actions -- Bop It (a button), Twist It (a rotary/potentiometer knob), and Shake It (a vibration sensor) -- each paired with its own LED and driven by a piezo buzzer for feedback, closely mirroring the mechanics of the Hasbro "Bop It" toy the name riffs on.

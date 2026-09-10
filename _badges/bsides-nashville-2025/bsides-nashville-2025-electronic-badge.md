@@ -43,11 +43,12 @@ links:
 - label: Fox Pick
   url: https://www.fox-pick.com/
   kind: website
+  archived: https://web.archive.org/web/20260616094836/https://www.fox-pick.com/
 images:
 - file: assets/images/badges/bsides-nashville-2025/bsides-nashville-2025-electronic-badge/a84520d9cf.jpg
-  source: "https://bsidesnash.org/villages"
-  credit: "Fox Pick"
-  caption: "BSides Nashville 2025 electronic badge"
+  source: https://bsidesnash.org/villages
+  credit: Fox Pick
+  caption: BSides Nashville 2025 electronic badge
 contact: {}
 notes:
 - Official electronic badge for BSides Nashville 2025, designed and built by Fox Pick, sponsored by CyberDagger LLC. Found by the event-year sweep, task bsides-augusta.
@@ -69,6 +70,7 @@ sources:
   title: Fox Pick
   accessed: '2026-09-10'
   note: Maker's homepage; describes Fox Pick as a lockpicking village that travels to conferences and offers custom PCB/3D-print design services, but has no dedicated page for the BSides Nashville 2025 badge.
+  archived: https://web.archive.org/web/20260616094836/https://www.fox-pick.com/
 research:
   status: verified
   confidence: low

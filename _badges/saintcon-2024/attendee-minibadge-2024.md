@@ -12,7 +12,7 @@ makers:
 - name: UtahSAINT
   url: https://github.com/utahsaint-org
 summary: The official attendee minibadge for SAINTCON 2024, part of the conference's open-hardware minibadge trading program.
-functions: 'Trading-card-style minibadge plugged into the SAINTCON badge via SAINTCON''s own open-hardware minibadge connector (not the DEF-CON-style SAO standard); part of the official minibadge set attendees collect and trade at the conference.'
+functions: Trading-card-style minibadge plugged into the SAINTCON badge via SAINTCON's own open-hardware minibadge connector (not the DEF-CON-style SAO standard); part of the official minibadge set attendees collect and trade at the conference.
 look:
   colors: []
   shape: null
@@ -49,7 +49,7 @@ images: []
 contact: {}
 notes:
 - Official attendee minibadge design in the SAINTCON 2024 community MiniBadges repo. Found by the event-year sweep, task saintcon-2024.
-- 'Sweep title was "Attendee-Minibadge-2024" (the repo folder name); rendered here in normal case as "Attendee Minibadge 2024".'
+- Sweep title was "Attendee-Minibadge-2024" (the repo folder name); rendered here in normal case as "Attendee Minibadge 2024".
 status: listed
 sources:
 - kind: url
@@ -76,8 +76,15 @@ research:
   status: verified
   confidence: low
   last_checked: '2026-09-10'
-  notes: 'Fact-check pass (2026-09-10): verified the repo folder contents directly via the GitHub API - confirmed KiCad schematic/PCB/project files, a Gerbers subfolder, and Illustrator/SVG layer artwork for this badge, so it is a genuine fabricated design. Corrected two overstated claims from the prior pass: (1) the entry called the minibadge format "SAO-format" in several places, but SAINTCON''s own program page and a community pinout writeup (github.com/lukejenkins/minibadge) describe a proprietary open-hardware connector distinct from the DEF-CON-style SAO standard - reworded functions/body/source notes accordingly. (2) a source note said the repo held "40+" other minibadge folders; the actual repo root has 29. Also downgraded make_your_own.open_source from yes to partial: the folder publishes hardware only (KiCad + Gerbers + artwork), no firmware/code, and the guide''s "yes" requires both hardware and firmware to be published. Opened the "2024" SAINTCON MiniBadge Guide PDF (github.com/utahsaint-org/saintcon.zip.files) referenced but not read in the prior pass: despite its 2024 filename, its content is entirely the 2023 assembly guide (cover reads "Assembly Guide 2023", and it describes "the official attendee minibadge for 2023" - EEPROM-based, no LED, bundled with the badge for a badge game) - not used for any 2024 field since it documents a different year''s board. Still no README, build guide, or photo specific to the 2024 Attendee-Minibadge-2024 design, so mcu/leds/display/price/quantity/availability/colors/shape remain empty rather than guessed.'
+  notes: 'Fact-check pass (2026-09-10): verified the repo folder contents directly via the GitHub API - confirmed KiCad schematic/PCB/project files, a Gerbers subfolder, and Illustrator/SVG layer artwork for this badge, so it is a genuine fabricated design. Corrected two overstated claims from the prior pass: (1) the entry called the minibadge format "SAO-format" in several places, but SAINTCON''s own program page and a community pinout writeup (github.com/lukejenkins/minibadge) describe a proprietary open-hardware connector distinct from the DEF-CON-style SAO standard - reworded functions/body/source notes accordingly. (2) a source note said the repo held "40+" other minibadge folders; the actual repo root has 29. Also downgraded make_your_own.open_source from yes to partial: the folder publishes hardware only (KiCad + Gerbers + artwork), no firmware/code, and the guide''s "yes" requires both hardware and firmware to be published. Opened the "2024" SAINTCON MiniBadge Guide PDF (github.com/utahsaint-org/saintcon.zip.files)
+    referenced but not read in the prior pass: despite its 2024 filename, its content is entirely the 2023 assembly guide (cover reads "Assembly Guide 2023", and it describes "the official attendee minibadge for 2023" - EEPROM-based, no LED, bundled with the badge for a badge game) - not used for any 2024 field since it documents a different year''s board. Still no README, build guide, or photo specific to the 2024 Attendee-Minibadge-2024 design, so mcu/leds/display/price/quantity/availability/colors/shape remain empty rather than guessed.'
 last_modified_date: '2026-09-10'
+model:
+  file: assets/models/saintcon-2024/attendee-minibadge-2024.glb
+  method: kicad
+  source_file: Attendee-Minibadge-2024/Attendee-Minibadge-2024.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 30776
 ---
 
 Attendee Minibadge 2024 is the official attendee-tier minibadge for SAINTCON 2024, published by the UtahSAINT organizers in the conference's `MiniBadges2024` GitHub repository. SAINTCON's minibadge program is an open-hardware trading-card system: roughly 1-inch boards that plug into the main conference badge over SAINTCON's own proprietary edge connector (not the DEF-CON-style SAO standard), ranging from a bare LED to full microcontroller-driven displays, which attendees collect and trade throughout the event (organizers cite 17,000+ minibadges circulating in a typical year).

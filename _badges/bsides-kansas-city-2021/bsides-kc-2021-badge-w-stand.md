@@ -43,6 +43,7 @@ links:
 - label: github.com/BadgePiratesLLC/BSidesKC_2021
   url: https://github.com/BadgePiratesLLC/BSidesKC_2021
   kind: repo
+  archived: https://web.archive.org/web/20260513190750/https://github.com/BadgePiratesLLC/BSidesKC_2021
 images:
 - file: assets/images/badges/bsides-kansas-city-2021/bsides-kc-2021-badge-w-stand/63c41d1c01.jpg
   source: https://www.tindie.com/products/badgepirates/bsides-kc-2021-badge/
@@ -69,6 +70,7 @@ sources:
   title: 'BadgePiratesLLC/BSidesKC_2021: BSides KC 2021 Files'
   accessed: '2026-09-10'
   note: Repo (archived 2022-04-08) holds KiCad source for Badge, SAO, and stand folders, confirming open hardware and KiCad as the EDA tool. No README with MCU/LED/display specs.
+  archived: https://web.archive.org/web/20260513190750/https://github.com/BadgePiratesLLC/BSidesKC_2021
 research:
   status: researched
   confidence: medium

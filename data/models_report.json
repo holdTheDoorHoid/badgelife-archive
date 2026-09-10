@@ -2350,5 +2350,403 @@
   "bytes": 967464,
   "tried": [],
   "src": "Badge/Hardware Files/KiCad Files/Saintcon2018.kicad_pcb"
+ },
+ "saintcon-2019-saintcon-2019-badge-compukidmike": {
+  "status": "ok",
+  "method": "gerber",
+  "bytes": 419648,
+  "tried": [
+   "kicad glb: Command '['/home/hoid/Desktop/badgelife-archive/tools/node_modules/.bin/gltf-transform', 'optimize', '/home/hoid/Desktop/badgelife-archive/data/hw/saintcon-2019"
+  ],
+  "src": "Hardware/KiCad Files/Saintcon2019TopBoard/Saintcon2019TopBoard.kicad_pcb"
+ },
+ "saintcon-2021-saintcon-2021-badge-compukidmike": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 125428,
+  "tried": [],
+  "src": "Hardware/Saintcon2021/Saintcon2020.kicad_pcb"
+ },
+ "saintcon-2022-fluxcapacitor-minibadge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 61224,
+  "tried": [],
+  "src": "kicad/FluxCapacitor.kicad_pcb"
+ },
+ "saintcon-2022-minibadge-dice-saintcon-d6-roller-minibadge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 91944,
+  "tried": [],
+  "src": "hardware/dice-minibadge.kicad_pcb"
+ },
+ "saintcon-2023-chc-2023-minibadge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 1158292,
+  "tried": [],
+  "src": "CHC/2023/chc-panel-1.0.kicad_pcb"
+ },
+ "saintcon-2023-compukidmike-minibadge10x10": {
+  "status": "ok",
+  "method": "gerber",
+  "bytes": 387016,
+  "tried": [],
+  "src": "SaintconMinibadge10x10-2023Gerbers.zip"
+ },
+ "saintcon-2023-saintcon-2023-badge-compukidmike": {
+  "status": "ok",
+  "method": "gerber",
+  "bytes": 220928,
+  "tried": [],
+  "src": "Hardware/Saintcon2023Gerbers.zip"
+ },
+ "saintcon-2023-saintcon-2023-minibadge-rp2040-72-led-matrix": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 134388,
+  "tried": [],
+  "src": "Hardware/saintcon-rp2040-platform.kicad_pcb"
+ },
+ "saintcon-2024-attendee-minibadge-2024": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 30776,
+  "tried": [],
+  "src": "Attendee-Minibadge-2024/Attendee-Minibadge-2024.kicad_pcb"
+ },
+ "saintcon-2024-blue-team-community-minibadge-v2": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 32648,
+  "tried": [],
+  "src": "Blue Team Community v2 - SHIFTY/blue Team v1.kicad_pcb"
+ },
+ "saintcon-2024-blue-team-ctf-minibadge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 38496,
+  "tried": [],
+  "src": "Blue TEAM CTF - SHIFTY/Blue TEAM CTF - SHIFTY.kicad_pcb"
+ },
+ "saintcon-2024-briefs-minibadge-v2": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 44748,
+  "tried": [],
+  "src": "Briefs v2 - SHIFTY/Briefs - SHIFTY.kicad_pcb"
+ },
+ "saintcon-2024-dev-attinyboard-minibadge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 38180,
+  "tried": [],
+  "src": "DEV-AttinyBoard/AttinyBoard.kicad_pcb"
+ },
+ "saintcon-2024-edu-esc-badge-education-security-v1-v2": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 28568,
+  "tried": [],
+  "src": "EDU-ESC-Badge/ESC-Badge.kicad_pcb"
+ },
+ "saintcon-2024-edu-keycap-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 34804,
+  "tried": [],
+  "src": "EDU-KeyCap-Badge/KeyCapESC.kicad_pcb"
+ },
+ "saintcon-2024-hackers-challenge-2024-minibadge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 30620,
+  "tried": [],
+  "src": "Hackers-Challenge-2024/HC24.kicad_pcb"
+ },
+ "saintcon-2024-headband-2024-headband-2024-staffing": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 46608,
+  "tried": [],
+  "src": "Headband-2024/Headband-2024.kicad_pcb"
+ },
+ "saintcon-2024-ics-v1-escaped-ics-v1-failed-minibadges": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 89564,
+  "tried": [],
+  "src": "SponsorSidecar/SponsorSidecar.kicad_pcb"
+ },
+ "saintcon-2024-jawabadge-2024": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 87488,
+  "tried": [],
+  "src": "JawaBadge-2024/JawaBadge-2024.kicad_pcb"
+ },
+ "saintcon-2024-keep-community-2024-minibadge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 70200,
+  "tried": [],
+  "src": "Keep-Community-2024/Keep-Community-2024.kicad_pcb"
+ },
+ "saintcon-2024-kidsnight-badge-2024": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 193068,
+  "tried": [],
+  "src": "KidsNight-Badge-2024/2023-KidsNight.kicad_pcb"
+ },
+ "saintcon-2024-lan-cable-2024-minibadge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 42152,
+  "tried": [],
+  "src": "LAN-Cable-2024/LAN-Cable-2024.kicad_pcb"
+ },
+ "saintcon-2024-minibadge-klip-on-expansion-board": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 59988,
+  "tried": [],
+  "src": "Klip-ons/Saintcon2024MinibadgeKlip-onExample/Saintcon2024MinibadgeKlip-onExample.kicad_pcb"
+ },
+ "saintcon-2024-people-staff-neo-minibadge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 224240,
+  "tried": [],
+  "src": "People-Staff-Neo/People-Staff-Neo.kicad_pcb"
+ },
+ "saintcon-2024-personal-berlymib-minibadge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 28760,
+  "tried": [],
+  "src": "Personal-BerlyMIB/BerlyMIB-Badge.kicad_pcb"
+ },
+ "saintcon-2024-rfid-nfc-2024-minibadge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 54836,
+  "tried": [],
+  "src": "RFID-NFC-2024/RFID-NFC-2024.kicad_pcb"
+ },
+ "saintcon-2024-saintcon-2024-badge-compukidmike": {
+  "status": "ok",
+  "method": "gerber",
+  "bytes": 211196,
+  "tried": [],
+  "src": "Hardware/MinibadgeHolder8/SaintconMinibadgeHolder8-2024-Gerbers.zip"
+ },
+ "saintcon-2024-saintsays-minibadge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 78784,
+  "tried": [],
+  "src": "KiCad/SaintSays.kicad_pcb"
+ },
+ "saintcon-2024-space-community-minibadge-2024": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 41596,
+  "tried": [],
+  "src": "Space Community - SHIFTY/Space Community - SHIFTY.kicad_pcb"
+ },
+ "saintcon-2024-sponsorsidecar-minibadge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 89564,
+  "tried": [],
+  "src": "SponsorSidecar/SponsorSidecar.kicad_pcb"
+ },
+ "saintcon-2024-tamper-evident-minibadge-v2": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 58148,
+  "tried": [],
+  "src": "Tamper Evident v2 - SHIFTY/Tamper Evident v2 - SHIFty.kicad_pcb"
+ },
+ "saintcon-2024-volunteer-topper-v5": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 97728,
+  "tried": [],
+  "src": "Volunteer Topper V5/Volunteer Topper V2.kicad_pcb"
+ },
+ "saintcon-2024-women-in-cybersecurity-minibadge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 57496,
+  "tried": [],
+  "src": "Women In Cybersecurity - SHIFTY/Women In Cybersecurity - SHIFTY.kicad_pcb"
+ },
+ "saintcon-2025-bitstream-hackers-2025-minibadge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 1042516,
+  "tried": [],
+  "src": "Bitstream Hackers/2025/bhc-panel.kicad_pcb"
+ },
+ "saintcon-2025-saintbop-minibadge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 104220,
+  "tried": [],
+  "src": "KiCad/SaintBop/SaintBop.kicad_pcb"
+ },
+ "saintcon-2025-saintcon-2025-badge-compukidmike": {
+  "status": "ok",
+  "method": "gerber",
+  "bytes": 183772,
+  "tried": [],
+  "src": "Hardware/Badge/Saintcon2025Gerbers.zip"
+ },
+ "saintcon-2025-saintcon2025-nut-nfc-token-device-used-to-write-codes-onto-t": {
+  "status": "ok",
+  "method": "gerber",
+  "bytes": 184340,
+  "tried": [],
+  "src": "Hardware/Nut/Saintcon2025NutGerbers.zip"
+ },
+ "sec-t-2024-sec-t-0x10sion-synth-badge-2024": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 468752,
+  "tried": [],
+  "src": "KiCad/SEC-T_0x10sion_Badge.kicad_pcb"
+ },
+ "sha-2017-sha2017-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 693992,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "sha2017_rev0_1_0_dev.brd"
+ },
+ "supercon-2018-belgrade-shitty-addon-adapter": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 38708,
+  "tried": [],
+  "src": "BelgradeShittyAddonAdapter.kicad_pcb"
+ },
+ "supercon-2018-l-star-as-a-supercon2018-badge-add-on": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 739448,
+  "tried": [],
+  "src": "Hardware/Kicad/L-StarPlus/L-Star.kicad_pcb"
+ },
+ "supercon-2018-zio-qwiic-sao-qwiic-to-sao-adapter": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 40860,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "Qwiic_SAO.brd"
+ },
+ "supercon-2019-badge-runner": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 59680,
+  "tried": [],
+  "src": "pcb/art.kicad_pcb"
+ },
+ "supercon-2019-badgerunner": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 59680,
+  "tried": [],
+  "src": "pcb/art.kicad_pcb"
+ },
+ "supercon-2019-barcode-reader-cartridge-for-the-2019-hackaday-superconferen": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 259080,
+  "tried": [],
+  "src": "BarcodeCartridge.kicad_pcb"
+ },
+ "supercon-2019-hackaday-superconference-badge-2019-fpga-game-boy": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 1045008,
+  "tried": [],
+  "src": "hadbadge2019.kicad_pcb"
+ },
+ "supercon-2019-hadbadge-2019-sdram-cartridge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 110920,
+  "tried": [],
+  "src": "dram-cart.kicad_pcb"
+ },
+ "supercon-2019-mr-robot-sao": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 314068,
+  "tried": [],
+  "src": "SAO library stick/SAO_library.kicad_pcb"
+ },
+ "supercon-2019-nfc-cartridge-for-the-2019-hackaday-superconference-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 159480,
+  "tried": [],
+  "src": "NFCCartridge.kicad_pcb"
+ },
+ "supercon-2019-protoboard-cartridge-for-hackaday-supercon-2019": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 650696,
+  "tried": [],
+  "src": "cartprotoboard.kicad_pcb"
+ },
+ "supercon-2019-shirtty-addon": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 99764,
+  "tried": [],
+  "src": "hardware/shirtty.kicad_pcb"
+ },
+ "supercon-2021-hackaday-remoticon-2-badge-2021": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 351568,
+  "tried": [],
+  "src": "remoticon.2.badge.kicad_pcb"
+ },
+ "supercon-2022-covid-19-test-sao": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 70996,
+  "tried": [],
+  "src": "COVID-19 Test SAO/KiCad/drawing.kicad_pcb"
+ },
+ "supercon-2022-jolly-wrencher-sao": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 412020,
+  "tried": [],
+  "src": "jolly_wrencher_pcb_^^.kicad_pcb"
+ },
+ "supercon-2022-supercon-2022-badge-programming-adapter": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 210976,
+  "tried": [],
+  "src": "ProgramingAddOn.kicad_pcb"
+ },
+ "supercon-2022-vectrex-sao-2": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 382480,
+  "tried": [],
+  "src": "vectrex-sao.kicad_pcb"
  }
 }

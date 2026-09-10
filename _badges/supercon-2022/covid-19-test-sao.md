@@ -97,7 +97,13 @@ research:
   confidence: high
   last_checked: '2026-09-07'
   notes: No price/quantity figures found; it was a free give-away, not sold, so price/quantity fields are left empty/free rather than guessed. No firmware (none needed — pure 555 analog circuit) and no explicit license found in the repo.
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/supercon-2022/covid-19-test-sao.glb
+  method: kicad
+  source_file: COVID-19 Test SAO/KiCad/drawing.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 70996
 ---
 
 The COVID-19 Test SAO is a small joke add-on made by davedarko (GitHub/Hackaday.io) as a give-away for friends at Supercon 2022. Shaped to evoke a rapid antigen test strip, it uses an LMC555 timer wired as an astable oscillator to blink two red LEDs — soldered upside-down — at a couple of flashes per second, standing in for a wavering "positive" test line. There is no microcontroller; the whole circuit is a handful of passive parts (two 100 ohm resistors, a 150 ohm and a 390k ohm resistor, and a 1uF capacitor) around the 555 chip, plugged into a host badge's SAO header for power.

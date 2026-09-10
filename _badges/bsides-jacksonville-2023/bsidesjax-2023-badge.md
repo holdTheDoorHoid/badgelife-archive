@@ -11,8 +11,8 @@ year: 2023
 makers:
 - name: Panda (@hacksbearywell)
   url: https://github.com/blackandwhitehat
-summary: 'The 2023 BSidesJAX attendee badge, a purple PCB badge etched with a "Rising from the depths" kraken/octopus design, with two LEDs, a coin-cell power switch, and an SAO header.'
-functions: 'Two LEDs light when the slide switch is on; a 6-pin SAO header lets attendees plug in add-on boards. No microcontroller is present, so there is no other interactive behavior.'
+summary: The 2023 BSidesJAX attendee badge, a purple PCB badge etched with a "Rising from the depths" kraken/octopus design, with two LEDs, a coin-cell power switch, and an SAO header.
+functions: Two LEDs light when the slide switch is on; a 6-pin SAO header lets attendees plug in add-on boards. No microcontroller is present, so there is no other interactive behavior.
 look:
   colors:
   - purple
@@ -45,17 +45,18 @@ make_your_own:
   hardware_url: null
   firmware_url: null
   eda_tool: null
-  notes: 'The GitHub repo only holds a README and a soldering/assembly guide image; no schematic, PCB, or gerber files are published.'
+  notes: The GitHub repo only holds a README and a soldering/assembly guide image; no schematic, PCB, or gerber files are published.
 links:
 - label: github.com/blackandwhitehat/BSidesJAX_2023_Badge
   url: https://github.com/blackandwhitehat/BSidesJAX_2023_Badge
   kind: repo
   archived: https://web.archive.org/web/20260907110102/https://github.com/blackandwhitehat/BSidesJAX_2023_Badge
 images:
-  - file: assets/images/badges/bsides-jacksonville-2023/bsidesjax-2023-badge/e65d66f2ee.jpg
-    source: "https://github.com/blackandwhitehat/BSidesJAX_2023_Badge"
-    credit: "Panda (@hacksbearywell)"
-    caption: "Front and back of the purple BSidesJAX 2023 attendee badge, showing the kraken/octopus artwork, LEDs, slide switch, CR2032 holder, SAO header, and Guidepoint Security sponsor logo"
+- file: assets/images/badges/bsides-jacksonville-2023/bsidesjax-2023-badge/e65d66f2ee.jpg
+  source: https://github.com/blackandwhitehat/BSidesJAX_2023_Badge
+  credit: Panda (@hacksbearywell)
+  caption: Front and back of the purple BSidesJAX 2023 attendee badge, showing the kraken/octopus artwork, LEDs, slide switch, CR2032 holder, SAO header, and Guidepoint Security sponsor logo
+  archived: https://web.archive.org/web/20260907110102/https://github.com/blackandwhitehat/BSidesJAX_2023_Badge
 contact: {}
 notes: []
 status: released
@@ -68,14 +69,15 @@ sources:
   archived: https://web.archive.org/web/20260907110102/https://github.com/blackandwhitehat/BSidesJAX_2023_Badge
 - kind: url
   url: https://raw.githubusercontent.com/blackandwhitehat/BSidesJAX_2023_Badge/main/risingfromthedepths.png
-  title: "Badge Soldering Guide (risingfromthedepths.png)"
+  title: Badge Soldering Guide (risingfromthedepths.png)
   accessed: '2026-09-07'
-  note: 'Assembly guide image; front and back photos of the badge itself reveal the design, LEDs, switch, battery holder, SAO header pinout, sponsor, and the credit "Badge by Panda @hacksbearywell".'
+  note: Assembly guide image; front and back photos of the badge itself reveal the design, LEDs, switch, battery holder, SAO header pinout, sponsor, and the credit "Badge by Panda @hacksbearywell".
+  archived: https://web.archive.org/web/20260907110119/https://raw.githubusercontent.com/blackandwhitehat/BSidesJAX_2023_Badge/main/risingfromthedepths.png
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'The repo is limited to a README and one soldering-guide image; no schematic, gerbers, firmware, or BOM are published, so make_your_own is marked partial rather than yes. Price/quantity are not stated anywhere found; treated as a free attendee giveaway based on the "ATTENDEE" silkscreen and sponsor branding, not a confirmed price. The maker credits "Panda (@hacksbearywell)" on the badge silkscreen; the GitHub account holding the repo is "blackandwhitehat" — could not confirm whether these are the same person or a team, so both are noted. A same-maker follow-up exists for 2024 (github.com/blackandwhitehat/BSidesJAX_2024_Badge) — reported separately, not created here.'
+  notes: The repo is limited to a README and one soldering-guide image; no schematic, gerbers, firmware, or BOM are published, so make_your_own is marked partial rather than yes. Price/quantity are not stated anywhere found; treated as a free attendee giveaway based on the "ATTENDEE" silkscreen and sponsor branding, not a confirmed price. The maker credits "Panda (@hacksbearywell)" on the badge silkscreen; the GitHub account holding the repo is "blackandwhitehat" — could not confirm whether these are the same person or a team, so both are noted. A same-maker follow-up exists for 2024 (github.com/blackandwhitehat/BSidesJAX_2024_Badge) — reported separately, not created here.
 last_modified_date: '2026-09-07'
 ---
 

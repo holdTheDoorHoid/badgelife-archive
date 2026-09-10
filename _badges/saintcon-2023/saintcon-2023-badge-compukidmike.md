@@ -11,7 +11,7 @@ year: 2023
 makers:
 - name: compukidmike
 summary: A custom ESP32-S3 conference badge built for SAINTCON 2023, with an RPG-style attract-mode game (battles and inventory) and remote party codes.
-functions: 'Interactive menu system; arcade-style attract/demo mode after 15 seconds idle showing battles, inventory, and committee faces; remote party creation via codes (firmware V1.4); joystick input.'
+functions: Interactive menu system; arcade-style attract/demo mode after 15 seconds idle showing battles, inventory, and committee faces; remote party creation via codes (firmware V1.4); joystick input.
 look:
   colors: []
   shape: null
@@ -34,7 +34,7 @@ get_one:
   distribution: []
   where: ''
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/compukidmike/saintcon2023/tree/main/Hardware
   firmware_url: https://github.com/compukidmike/saintcon2023/tree/main/Firmware
   eda_tool: KiCad
@@ -75,8 +75,17 @@ research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'No price, quantity made, or distribution method (free con badge vs. sold) is stated anywhere in the repo; left unknown rather than guessed. No LED count/type or battery details found. No photos of the assembled badge were found in the repo or on its pages (no images/ folder, no README screenshots), so no images could be saved. Repo does not say whether this is the official SAINTCON 2023 conference badge or an independent/personal badge made for the con; the "committee faces" and party-wide "BadgeNet-OutOfScope" update network suggest it may be an official or team-affiliated badge, but this is not confirmed by a source and is not asserted in the entry.'
-last_modified_date: '2026-09-07'
+  notes: No price, quantity made, or distribution method (free con badge vs. sold) is stated anywhere in the repo; left unknown rather than guessed. No LED count/type or battery details found. No photos of the assembled badge were found in the repo or on its pages (no images/ folder, no README screenshots), so no images could be saved. Repo does not say whether this is the official SAINTCON 2023 conference badge or an independent/personal badge made for the con; the "committee faces" and party-wide "BadgeNet-OutOfScope" update network suggest it may be an official or team-affiliated badge, but this is not confirmed by a source and is not asserted in the entry.
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/saintcon-2023/saintcon-2023-badge-compukidmike.glb
+  method: gerber
+  source_file: Hardware/Saintcon2023Gerbers.zip
+  generated: '2026-09-10'
+  bytes: 220928
+  size_mm:
+  - 118.9
+  - 98.0
 ---
 
 This is a custom electronic conference badge built by compukidmike (CompuKidMike) for SAINTCON 2023, running on an ESP32-S3 with an LCD display, joystick input, and Wi-Fi. Beyond its main menu, the badge has an optional arcade-style attract/demo mode that kicks in after 15 seconds of idling, playing out RPG-style battles and an inventory screen intermixed with committee member faces and LED effects. Firmware could be updated wirelessly over a dedicated conference network ("BadgeNet-OutOfScope") or manually via USB with esptool, and firmware version V1.4 added the ability to create game "parties" remotely using codes.

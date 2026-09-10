@@ -43,9 +43,9 @@ links:
   kind: repo
 images:
 - file: assets/images/badges/supercon-2019/barcode-reader-cartridge-for-the-2019-hackaday-superconferen/5c074b58ff.jpg
-  source: "https://github.com/flummer/supercon2019-barcodecartridge"
-  credit: "Thomas Flummer"
-  caption: "Front and back render of the barcode reader cartridge PCB"
+  source: https://github.com/flummer/supercon2019-barcodecartridge
+  credit: Thomas Flummer
+  caption: Front and back render of the barcode reader cartridge PCB
 contact: {}
 notes:
 - A barcode-scanner cartridge for the 2019 Supercon badge's cartridge slot, by the same maker as the NFC cartridge. Found by the event-year sweep, task supercon-2019.
@@ -60,13 +60,19 @@ sources:
   url: https://github.com/flummer/supercon2019-barcodecartridge
   title: flummer/supercon2019-barcodecartridge (GitHub repo)
   accessed: '2026-09-08'
-  note: "Confirmed design intent (GM65 barcode module cartridge for the 2019 Supercon badge), KiCad source files, CC BY-SA 4.0 license, and the front/back render image."
+  note: Confirmed design intent (GM65 barcode module cartridge for the 2019 Supercon badge), KiCad source files, CC BY-SA 4.0 license, and the front/back render image.
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-08'
   notes: 'Confirmed via the maker''s own GitHub repo: it is a real, built cartridge (fits the unofficial Supercon badge cartridge template) carrying a GM65 barcode/QR module and a W25Q128 SPI flash chip, KiCad design files, released under CC BY-SA 4.0. No firmware repo, price, quantity made, or sale/distribution info was found, so those fields are left empty. Set type to accessory (cartridge, not a standalone badge or SAO) and tech.mcu to none since the board carries no microcontroller of its own, only the scanner module and flash. Confidence is medium: the repo confirms the hardware and its purpose but gives no evidence of it being sold, given away, or how many exist, so status is set to released (design published, buildable) rather than announced.'
-last_modified_date: '2026-09-08'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/supercon-2019/barcode-reader-cartridge-for-the-2019-hackaday-superconferen.glb
+  method: kicad
+  source_file: BarcodeCartridge.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 259080
 ---
 
 Thomas Flummer, the maker behind the unofficial Hackaday Superconference 2019 badge ecosystem, designed this cartridge to plug into that badge's cartridge slot and add a GM65 barcode/QR scanner module. It can read both 1D and 2D codes, including codes shown on a phone or another badge's screen, and it carries an onboard W25Q128 SPI flash chip so a cartridge can hold its own configuration data.

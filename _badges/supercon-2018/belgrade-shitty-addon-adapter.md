@@ -86,7 +86,13 @@ research:
   confidence: high
   last_checked: '2026-09-07'
   notes: Maker's own repo confirms this adapter was made for both the Hackaday Belgrade 2018 badge and the Hackaday Superconference 2018 badge, so the existing supercon-2018 event assignment is correct (no separate Hackaday Belgrade 2018 event id exists in events.yml to compare against). No price or production quantity is stated anywhere; it is an order-your-own OSH Park share rather than a batch the maker sold or gave away, so price/quantity/where are left mostly empty rather than guessed. No firmware applies (passive adapter, no MCU/LEDs).
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/supercon-2018/belgrade-shitty-addon-adapter.glb
+  method: kicad
+  source_file: BelgradeShittyAddonAdapter.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 38708
 ---
 
 The Belgrade Shitty Addon Adapter is a small passive PCB by GitHub user flummer that adapts the 9-pin expansion connector on the 2018 Hackaday conference badges to accept standard #badgelife Shitty Add-On boards. It carries no microcontroller or LEDs of its own — it is purely a connector breakout, using a right-angle 9-pin female header on one side and a low-profile 2x2 header (or direct pin-header soldering) on the other to expose the SAO-style pins.

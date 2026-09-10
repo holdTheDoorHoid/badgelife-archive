@@ -11,7 +11,7 @@ year: 2024
 makers:
 - name: SHIFTY
 summary: A passive SAINTCON 2024 minibadge for the Blue Team CTF track, carrying two SMD LEDs powered through the standard minibadge connector.
-functions: 'Lights two onboard LEDs when plugged into a host badge''s minibadge header; no other electronics or logic.'
+functions: Lights two onboard LEDs when plugged into a host badge's minibadge header; no other electronics or logic.
 look:
   colors: []
   shape: null
@@ -62,12 +62,12 @@ sources:
   url: https://github.com/utahsaint-org/MiniBadges2024
   title: 'utahsaint-org/MiniBadges2024: Minibadges for SAINTCON 2024'
   accessed: '2026-09-10'
-  note: 'Repo description confirms the collection was made for SAINTCON 2024; root README has no per-badge detail.'
+  note: Repo description confirms the collection was made for SAINTCON 2024; root README has no per-badge detail.
 - kind: url
   url: https://api.github.com/repos/utahsaint-org/MiniBadges2024/contents/Blue%20TEAM%20CTF%20-%20SHIFTY
   title: Directory listing, Blue TEAM CTF - SHIFTY
   accessed: '2026-09-10'
-  note: 'File listing (KiCad schematic/PCB/project files, .psd, .svg, PNG export folder) used to confirm the design is a 20mm KiCad minibadge with no README of its own.'
+  note: File listing (KiCad schematic/PCB/project files, .psd, .svg, PNG export folder) used to confirm the design is a 20mm KiCad minibadge with no README of its own.
 - kind: url
   url: https://raw.githubusercontent.com/utahsaint-org/MiniBadges2024/main/Blue%20TEAM%20CTF%20-%20SHIFTY/Blue%20TEAM%20CTF%20-%20SHIFTY.kicad_pcb
   title: Blue TEAM CTF - SHIFTY.kicad_pcb
@@ -77,13 +77,20 @@ sources:
   url: https://raw.githubusercontent.com/utahsaint-org/MiniBadges2024/main/Blue%20TEAM%20CTF%20-%20SHIFTY/Blue%20Team%20CTF.svg
   title: Blue Team CTF.svg
   accessed: '2026-09-10'
-  note: 'Confirms board outline is a 20mm x 20mm square, the standard SAINTCON minibadge size.'
+  note: Confirms board outline is a 20mm x 20mm square, the standard SAINTCON minibadge size.
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-10'
-  notes: 'The GitHub repo (utahsaint-org/MiniBadges2024, described by its owner as "Minibadges for SAINTCON 2024") confirms this is a real, designed minibadge for that event, matching the entry''s existing event/year. Only KiCad source files, a .psd, and gerber-style PNG layer exports (front copper/mask/silk, black-and-white) are in the repo -- no photograph of an assembled unit and no README for this specific badge, so solder-mask color, exact shape/theme beyond "CTF"/"security", price, quantity made, and distribution method could not be confirmed and are left empty. PCB inspection shows 2 SMD LEDs and a resistor per LED wired to a standard MiniBadge_Simple connector, with no microcontroller -- consistent with SAINTCON''s many purely decorative, host-powered minibadges. Did not find the badge on any storefront, Hackaday, or press coverage; open_source is "partial" because hardware (KiCad) files are public but no firmware exists to publish (board appears to have no logic to drive the LEDs beyond passive resistor limiting, so "firmware" is likely not applicable). Did not save images: the only visual files in the repo are individual PCB gerber-layer exports (front copper, mask, silk) in black-and-white, not photos or a full-color rendering of the finished piece, so none clearly show what the actual minibadge looks like.'
+  notes: 'The GitHub repo (utahsaint-org/MiniBadges2024, described by its owner as "Minibadges for SAINTCON 2024") confirms this is a real, designed minibadge for that event, matching the entry''s existing event/year. Only KiCad source files, a .psd, and gerber-style PNG layer exports (front copper/mask/silk, black-and-white) are in the repo -- no photograph of an assembled unit and no README for this specific badge, so solder-mask color, exact shape/theme beyond "CTF"/"security", price, quantity made, and distribution method could not be confirmed and are left empty. PCB inspection shows 2 SMD LEDs and a resistor per LED wired to a standard MiniBadge_Simple connector, with no microcontroller -- consistent with SAINTCON''s many purely decorative, host-powered minibadges. Did not find the badge on any storefront, Hackaday, or press coverage; open_source is "partial" because hardware (KiCad) files are public but no firmware exists to publish (board appears to have no logic to drive the LEDs
+    beyond passive resistor limiting, so "firmware" is likely not applicable). Did not save images: the only visual files in the repo are individual PCB gerber-layer exports (front copper, mask, silk) in black-and-white, not photos or a full-color rendering of the finished piece, so none clearly show what the actual minibadge looks like.'
 last_modified_date: '2026-09-10'
+model:
+  file: assets/models/saintcon-2024/blue-team-ctf-minibadge.glb
+  method: kicad
+  source_file: Blue TEAM CTF - SHIFTY/Blue TEAM CTF - SHIFTY.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 38496
 ---
 
 The Blue Team CTF minibadge is one of dozens of minibadges SHIFTY designed for SAINTCON 2024's minibadge program, themed after the con's Blue Team CTF track. Like other SAINTCON minibadges, it is a small (20mm square) PCB meant to plug into a host badge's minibadge connector rather than carry its own battery or logic; two surface-mount LEDs, each behind its own current-limiting resistor, light up once it is seated in a badge that provides power. No microcontroller is present on the board.

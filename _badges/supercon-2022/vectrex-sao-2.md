@@ -102,9 +102,15 @@ research:
   confidence: high
   last_checked: '2026-09-07'
   notes: Maker's own GitHub repo and Hackaday.io project page confirm all core technical facts. No pricing, quantity made, or distribution/availability details were found anywhere (this looks like a one-off/small-batch conference give or personal project rather than a sold product); those fields are left empty rather than guessed. tech.sao_version and look.shape were not stated by the maker and are left null. Merged with duplicate entry 'Vectrex SAO' (supercon-2022-vectrex-sao).
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-10'
 redirect_from:
 - /badges/supercon-2022/vectrex-sao/
+model:
+  file: assets/models/supercon-2022/vectrex-sao-2.glb
+  method: kicad
+  source_file: vectrex-sao.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 382480
 ---
 
 Brett Walach (Technobly) built the Vectrex SAO as a tiny, playable homage to the classic Vectrex vector-graphics console for Hackaday Supercon 2022. In place of a real vector display it uses a 7x10 charlieplexed white LED matrix mounted at a slight angle to echo the console's box-art perspective, driven by a PIC16F886 microcontroller that Walach had pulled from a salvaged reel of parts. It plays a stripped-down, low-resolution version of the arcade game Scramble, controlled by a single-button capacitive-touch joystick wired through a hand-wound coiled silicone cord that the maker describes as "an absolute pain to make." A small speaker provides sound and auto-mutes when the game isn't running, with an option to disable it permanently by removing a solder blob; the badge also saves the player's high score permanently.
