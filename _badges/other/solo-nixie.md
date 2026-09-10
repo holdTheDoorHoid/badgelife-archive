@@ -38,6 +38,7 @@ links:
 - label: hackaday.io/project/183056-solo-nixie
   url: https://hackaday.io/project/183056-solo-nixie
   kind: hackaday
+  archived: https://web.archive.org/web/20250912041420/https://hackaday.io/project/183056-solo-nixie/
 images: []
 contact: {}
 notes:
@@ -49,6 +50,7 @@ sources:
   title: Solo-Nixie
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: hackaday-search); event read as ''unknown''.'
+  archived: https://web.archive.org/web/20250912041420/https://hackaday.io/project/183056-solo-nixie/
 - kind: url
   url: https://github.com/pierre-muth/solo-nixie
   title: pierre-muth/solo-nixie
@@ -56,14 +58,15 @@ sources:
   note: Confirms it is a standalone desk clock with no convention/badge connection; GPL-3.0 hardware and firmware.
 - kind: url
   url: https://pierremuth.wordpress.com/2021/12/11/a-cute-little-single-tube-nixie-clock/
-  title: 'A cute little single tube nixie clock'
+  title: A cute little single tube nixie clock
   accessed: '2026-09-07'
   note: Maker's own blog post describing the project (not fetched directly; referenced from the GitHub repo).
+  archived: https://web.archive.org/web/20260611123624/https://pierremuth.wordpress.com/2021/12/11/a-cute-little-single-tube-nixie-clock/
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-07'
-  notes: 'Not a con badge or SAO. This is Solo-Nixie, a standalone single-tube Nixie clock by Pierre Muth (Muth), posted to Hackaday.io on 2021-12-13. It uses a PIC16F18346 MCU, a DS3231 RTC, and an onboard boost converter driving one LD-955a or IN-16 Nixie tube to ~200V, powered over USB, with two buttons for time/brightness. It ships in a 3D-printed (Fusion 360) enclosure and is fully open source (KiCad + MPLAB firmware, GPL-3.0) at github.com/pierre-muth/solo-nixie. Nothing in the Hackaday.io page or GitHub repo ties it to any hacker convention, badge event, or SAO/minibadge form factor; the entry''s existing note calling it a ''cube minibadge'' does not match the source material and appears to be a discovery-sweep misread.'
+  notes: Not a con badge or SAO. This is Solo-Nixie, a standalone single-tube Nixie clock by Pierre Muth (Muth), posted to Hackaday.io on 2021-12-13. It uses a PIC16F18346 MCU, a DS3231 RTC, and an onboard boost converter driving one LD-955a or IN-16 Nixie tube to ~200V, powered over USB, with two buttons for time/brightness. It ships in a 3D-printed (Fusion 360) enclosure and is fully open source (KiCad + MPLAB firmware, GPL-3.0) at github.com/pierre-muth/solo-nixie. Nothing in the Hackaday.io page or GitHub repo ties it to any hacker convention, badge event, or SAO/minibadge form factor; the entry's existing note calling it a 'cube minibadge' does not match the source material and appears to be a discovery-sweep misread.
 last_modified_date: '2026-09-07'
 ---
 

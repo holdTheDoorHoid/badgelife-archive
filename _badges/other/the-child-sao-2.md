@@ -48,15 +48,18 @@ links:
 - label: www.tindie.com/products/twinkletwinkie/twinkletwinkies-the-child-sao
   url: https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-the-child-sao/
   kind: store
+  archived: https://web.archive.org/web/20260506214130/https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-the-child-sao/
 images:
 - file: assets/images/badges/other/the-child-sao-2/c9f9dc57ae.jpg
-  source: "https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-the-child-sao/"
-  credit: "TwinkleTwinkie"
-  caption: "The Child SAO, assembled with green PCB and RGB LEDs"
+  source: https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-the-child-sao/
+  credit: TwinkleTwinkie
+  caption: The Child SAO, assembled with green PCB and RGB LEDs
+  archived: https://web.archive.org/web/20260506214130/https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-the-child-sao/
 - file: assets/images/badges/other/the-child-sao-2/c4a2a35c82.jpg
-  source: "https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-the-child-sao/"
-  credit: "TwinkleTwinkie"
-  caption: "The Child SAO, alternate view"
+  source: https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-the-child-sao/
+  credit: TwinkleTwinkie
+  caption: The Child SAO, alternate view
+  archived: https://web.archive.org/web/20260506214130/https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-the-child-sao/
 contact: {}
 notes:
 - Spotted by a research agent while working on a neighbouring entry.
@@ -68,11 +71,13 @@ sources:
   title: The Child SAO
   accessed: '2026-09-07'
   note: 'Found by the archive''s discovery sweep (angle: sheet-research-spotted); event read as ''unknown (product dated 2021-06)''.'
+  archived: https://web.archive.org/web/20260506214130/https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-the-child-sao/
 - kind: url
   url: https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-the-child-sao/
   title: The Child SAO product page
   accessed: '2026-09-07'
   note: Confirmed maker location (Duluth, Georgia), theme/character inspiration, 4-layer PCB with green solder mask, 4 RGB LEDs, SAO v2 compatibility, 3.3V power, and that the listing is now retired/sold out. Listing timestamps place the product images at 2021-06-29.
+  archived: https://web.archive.org/web/20260506214130/https://www.tindie.com/products/twinkletwinkie/twinkletwinkies-the-child-sao/
 research:
   status: researched
   confidence: medium

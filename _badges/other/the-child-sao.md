@@ -49,15 +49,16 @@ links:
 - label: hackaday.io/twinkletwinkie
   url: https://hackaday.io/twinkletwinkie
   kind: hackaday
+  archived: https://web.archive.org/web/20260523064136/https://hackaday.io/twinkletwinkie
 images:
-  - file: assets/images/badges/other/the-child-sao/43f74c0334.jpg
-    source: "https://hackaday.io/project/186283-the-child-sao"
-    credit: "TwinkleTwinkie"
-    caption: "The Child SAO, front view"
-  - file: assets/images/badges/other/the-child-sao/6521929861.jpg
-    source: "https://hackaday.io/project/186283-the-child-sao"
-    credit: "TwinkleTwinkie"
-    caption: "The Child SAO, lit up"
+- file: assets/images/badges/other/the-child-sao/43f74c0334.jpg
+  source: https://hackaday.io/project/186283-the-child-sao
+  credit: TwinkleTwinkie
+  caption: The Child SAO, front view
+- file: assets/images/badges/other/the-child-sao/6521929861.jpg
+  source: https://hackaday.io/project/186283-the-child-sao
+  credit: TwinkleTwinkie
+  caption: The Child SAO, lit up
 contact: {}
 notes: []
 status: released
@@ -77,20 +78,12 @@ sources:
   title: TwinkleTwinkie | Hackaday.io
   accessed: '2026-09-07'
   note: Maker profile; confirmed TwinkleTwinkie as the creator and their pattern of badgelife/SAO/shitty-add-on projects, but the profile does not separately list an event/year for this item.
+  archived: https://web.archive.org/web/20260523064136/https://hackaday.io/twinkletwinkie
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: >-
-    The Hackaday.io project page and the maker's profile do not name a specific
-    convention this SAO was made for or sold at, so event is left as other. The
-    downloadable design file is dated 2021-06-10 (matching the entry's existing
-    year of 2021) but the project itself was posted/logged 2022-07-08; no price,
-    quantity made, or distribution channel is stated anywhere in the sources
-    found. Hardware design files (a 4-layer KiCad/Gerber-style zip) are published
-    on the project page, but no firmware is applicable (LEDs are self-flashing,
-    no MCU) and no separate firmware repo was found, so open_source is marked
-    partial rather than yes.
+  notes: The Hackaday.io project page and the maker's profile do not name a specific convention this SAO was made for or sold at, so event is left as other. The downloadable design file is dated 2021-06-10 (matching the entry's existing year of 2021) but the project itself was posted/logged 2022-07-08; no price, quantity made, or distribution channel is stated anywhere in the sources found. Hardware design files (a 4-layer KiCad/Gerber-style zip) are published on the project page, but no firmware is applicable (LEDs are self-flashing, no MCU) and no separate firmware repo was found, so open_source is marked partial rather than yes.
 last_modified_date: '2026-09-07'
 ---
 

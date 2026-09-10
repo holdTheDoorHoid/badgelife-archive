@@ -49,14 +49,16 @@ links:
 - label: hackaday.io/project/28330-sloth-badge
   url: https://hackaday.io/project/28330-sloth-badge
   kind: hackaday
+  archived: https://web.archive.org/web/20260511095230/https://hackaday.io/project/28330-sloth-badge
 - label: github.com/davedarko/Simple-Add-ons-SAO/tree/main/Sloth%20Badge
   url: https://github.com/davedarko/Simple-Add-ons-SAO/tree/main/Sloth%20Badge
   kind: repo
 images:
-  - file: assets/images/badges/other/sloth-badge-pin/89540fe526.png
-    source: "https://hackaday.io/project/28330-sloth-badge"
-    credit: "davedarko"
-    caption: "The sloth badge pin, front view"
+- file: assets/images/badges/other/sloth-badge-pin/89540fe526.png
+  source: https://hackaday.io/project/28330-sloth-badge
+  credit: davedarko
+  caption: The sloth badge pin, front view
+  archived: https://web.archive.org/web/20260511095230/https://hackaday.io/project/28330-sloth-badge
 contact: {}
 notes: []
 status: released
@@ -71,6 +73,7 @@ sources:
   title: Sloth Badge - Hackaday.io project by davedarko
   accessed: '2026-09-07'
   note: Primary source; confirms maker, Nov 2017 date, Coin Cell Challenge entry, ATtiny13A, 12 charlieplexed LEDs, power figures, and mentions REV1 design/firmware files.
+  archived: https://web.archive.org/web/20260511095230/https://hackaday.io/project/28330-sloth-badge
 - kind: url
   url: https://github.com/davedarko/Simple-Add-ons-SAO/tree/main/Sloth%20Badge/REV1
   title: Simple-Add-ons-SAO/Sloth Badge/REV1 at main
@@ -85,7 +88,8 @@ research:
   status: verified
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'Fact-check pass (2026-09-07): corrected two errors from the prior research pass. (1) eda_tool was recorded as KiCad, but the maker''s own Simple-Add-ons-SAO README design table lists the Sloth Badge as Eagle format; corrected to Eagle. (2) The second saved image (53806e794d.jpg, captioned "Sloth badge project photo") was a rectangular PCB render with a button, DIP-8 socket and 6-pin ISP header that does not match the sloth-shaped board and does not appear among any image URLs on the cited Hackaday project page (checked every cdn.hackaday.io image referenced there); it was not verifiably from this project, so the image and its file were removed. Also blanked firmware_url, which had been set to the same REV1 folder URL as hardware_url even though that folder contains no firmware source file. Everything else checked out: maker, Nov 2017 date, Coin Cell Challenge entry, ATtiny13A, 12 charlieplexed LEDs, coin-cell battery, the button-menu/animations description and Bearables comparison, the 0.1uA/1.1mA power figures, and the remaining image (89540fe526.png) all confirmed against the Hackaday project page and GitHub repo. This was a Hackaday.io "Coin Cell Challenge" contest entry, not a badgelife con badge, so it has no matching id in events.yml and event is left as "other". No evidence found of it being sold, given away, or produced in quantity beyond the maker''s own prototype(s); price, quantity, and distribution remain unconfirmed and blank.'
+  notes: 'Fact-check pass (2026-09-07): corrected two errors from the prior research pass. (1) eda_tool was recorded as KiCad, but the maker''s own Simple-Add-ons-SAO README design table lists the Sloth Badge as Eagle format; corrected to Eagle. (2) The second saved image (53806e794d.jpg, captioned "Sloth badge project photo") was a rectangular PCB render with a button, DIP-8 socket and 6-pin ISP header that does not match the sloth-shaped board and does not appear among any image URLs on the cited Hackaday project page (checked every cdn.hackaday.io image referenced there); it was not verifiably from this project, so the image and its file were removed. Also blanked firmware_url, which had been set to the same REV1 folder URL as hardware_url even though that folder contains no firmware source file. Everything else checked out: maker, Nov 2017 date, Coin Cell Challenge entry, ATtiny13A, 12 charlieplexed LEDs, coin-cell battery, the button-menu/animations description and Bearables comparison,
+    the 0.1uA/1.1mA power figures, and the remaining image (89540fe526.png) all confirmed against the Hackaday project page and GitHub repo. This was a Hackaday.io "Coin Cell Challenge" contest entry, not a badgelife con badge, so it has no matching id in events.yml and event is left as "other". No evidence found of it being sold, given away, or produced in quantity beyond the maker''s own prototype(s); price, quantity, and distribution remain unconfirmed and blank.'
 last_modified_date: '2026-09-07'
 ---
 

@@ -10,7 +10,7 @@ event: saintcon-2017
 year: 2017
 makers:
 - name: lukejenkins
-summary: ''
+summary: 'One of nine official SAINTCON 2017 minibadges, themed on badge team member Luke Jenkins.'
 functions: ''
 look:
   colors: []
@@ -39,6 +39,9 @@ links:
 - label: saintcon.gitlab.io/Badge2017/officialminibadge
   url: http://saintcon.gitlab.io/Badge2017/officialminibadge/
   kind: website
+- label: lukejenkins/minibadge (minibadge connector standard, GitHub)
+  url: https://github.com/lukejenkins/minibadge
+  kind: repo
 images: []
 contact: {}
 notes:
@@ -50,11 +53,32 @@ sources:
   title: A - Luke (official minibadge)
   accessed: '2026-09-07'
   note: 'Found by the archive''s discovery sweep (angle: sweep:saintcon-2017); event read as ''saintcon-2017''.'
+- kind: url
+  url: http://saintcon.gitlab.io/Badge2017/officialminibadge/
+  title: Official Mini-badges - SaintCon 2017 Badge
+  accessed: '2026-09-10'
+  note: 'Confirms "A - Luke" as item 2 of 9 in the official 2017 minibadge list; page is a bare list with no per-item detail, image, price, or quantity.'
+- kind: url
+  url: https://github.com/lukejenkins/minibadge
+  title: lukejenkins/minibadge
+  accessed: '2026-09-10'
+  note: 'The SAINTCON minibadge connector/protocol standard (v2.0: VBATT, CLK, I2C, PROG pins) linked from the badge site as "Mini Badge Specs"; documents the shared minibadge header used across the 2017 line, not this specific themed design. Open hardware (Eagle/KiCad).'
 research:
-  status: stub
+  status: researched
   confidence: low
-  last_checked: '2026-09-07'
-  notes: Imported from the community badge sheet; not yet researched.
-last_modified_date: '2026-09-07'
+  last_checked: '2026-09-10'
+  notes: >-
+    The only page documenting this item (the maker/badge-team's own SAINTCON 2017 site) is a bare
+    numbered list of nine official minibadges ("X - Jupiter", "A - Luke", "HHV - Protoboard", etc.)
+    with no per-item detail, image, price, quantity, or maker credit beyond the list itself. This
+    confirms the badge is real (part of the documented official 2017 set) rather than a search-snippet
+    rumor, but nothing further could be found: no photo, no specific chip/LED/battery info for this
+    variant, no price or quantity. The linked "Mini Badge Specs" repo (github.com/lukejenkins/minibadge)
+    documents the general minibadge connector standard shared by the whole 2017 line, not this badge's
+    own design, so tech fields were left empty rather than guessed. makers.name is kept as
+    "lukejenkins" per the sheet, matching the GitHub handle behind the linked spec repo; no separate
+    maker page was found confirming they personally designed this specific "A" badge (it may simply be
+    named after them by the badge team). No image URL was found for this item.
+last_modified_date: '2026-09-10'
 ---
 

@@ -38,6 +38,7 @@ links:
 - label: hackaday.io/project/175182-simple-add-ons-sao
   url: https://hackaday.io/project/175182-simple-add-ons-sao
   kind: hackaday
+  archived: https://web.archive.org/web/20260523064211/https://hackaday.io/project/175182-simple-add-ons-sao
 images: []
 contact: {}
 notes:
@@ -49,11 +50,13 @@ sources:
   title: Simple Add-ons (SAO)
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: hackaday-search); event read as ''unknown''.'
+  archived: https://web.archive.org/web/20260523064211/https://hackaday.io/project/175182-simple-add-ons-sao
 - kind: url
   url: https://hackaday.io/project/175182-simple-add-ons-sao
   title: Simple Add-ons (SAO)
   accessed: '2026-09-07'
   note: Confirms this is a connector specification/standard by TwinkleTwinkie, not a specific badge or SAO. Defines a 2x3 0.1" header carrying 3.3V, ground, I2C and two GPIO pins, positioned as a rebrand/successor of the "Shitty Add-on" (SAOv169bis) standard for wider accessibility. Provides a KiCad footprint library; connectors sourced via TwinkleTwinkie's Tindie store or AliExpress.
+  archived: https://web.archive.org/web/20260523064211/https://hackaday.io/project/175182-simple-add-ons-sao
 research:
   status: researched
   confidence: high

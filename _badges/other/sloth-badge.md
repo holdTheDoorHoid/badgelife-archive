@@ -12,7 +12,7 @@ makers:
 - name: davedarko
   url: https://hackaday.io/davedarko
 summary: A wearable coin-cell blinky badge shaped like a sloth, with twelve charlieplexed 0805 LEDs driven by an ATtiny13A and a single button that steps through five animations and a sleep mode, made by Berlin maker davedarko as a sloth answer to Pimoroni's Bearables badges and sold on Tindie as the 'Unbearable Sloth Badge' in a limited run of about 60 boards, as a kit or assembled.
-functions: 'Single button cycles through five LED animations and a low-power sleep mode.'
+functions: Single button cycles through five LED animations and a low-power sleep mode.
 look:
   colors: []
   shape: sloth
@@ -41,7 +41,7 @@ get_one:
   - kit
   where: Sold by davedarko on Tindie as the 'Unbearable Sloth Badge', as an unassembled kit or hand-soldered assembled unit; the listing is now retired ("no longer available for sale").
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/davedarko/sloth_badge
   firmware_url: https://github.com/davedarko/sloth_badge
   eda_tool: null
@@ -49,24 +49,28 @@ links:
 - label: hackaday.io/project/28330-sloth-badge
   url: https://hackaday.io/project/28330-sloth-badge
   kind: hackaday
+  archived: https://web.archive.org/web/20260511095230/https://hackaday.io/project/28330-sloth-badge
 - label: github.com/davedarko/sloth_badge
   url: https://github.com/davedarko/sloth_badge
   kind: repo
 - label: www.tindie.com/products/davedarko/unbearable-sloth-badge
   url: https://www.tindie.com/products/davedarko/unbearable-sloth-badge/
   kind: store
+  archived: https://web.archive.org/web/20260511095209/https://www.tindie.com/products/davedarko/unbearable-sloth-badge/
 - label: www.tindie.com/products/davedarko/unbearable-sloth-badge--hair-clip
   url: https://www.tindie.com/products/davedarko/unbearable-sloth-badge--hair-clip/
   kind: store
 images:
 - file: assets/images/badges/other/sloth-badge/8b6fde1eff.jpg
-  source: "https://www.tindie.com/products/davedarko/unbearable-sloth-badge/"
-  credit: "davedarko"
-  caption: "Front of the Unbearable Sloth Badge, assembled"
+  source: https://www.tindie.com/products/davedarko/unbearable-sloth-badge/
+  credit: davedarko
+  caption: Front of the Unbearable Sloth Badge, assembled
+  archived: https://web.archive.org/web/20260511095209/https://www.tindie.com/products/davedarko/unbearable-sloth-badge/
 - file: assets/images/badges/other/sloth-badge/89540fe526.png
-  source: "https://hackaday.io/project/28330-sloth-badge"
-  credit: "davedarko"
-  caption: "Sloth Badge project photo on Hackaday.io"
+  source: https://hackaday.io/project/28330-sloth-badge
+  credit: davedarko
+  caption: Sloth Badge project photo on Hackaday.io
+  archived: https://web.archive.org/web/20260511095230/https://hackaday.io/project/28330-sloth-badge
 contact: {}
 notes: []
 status: released
@@ -76,26 +80,29 @@ sources:
   title: sloth badge
   accessed: '2026-09-06'
   note: Found via the project's link list; intake pass identified this item here.
+  archived: https://web.archive.org/web/20260511095230/https://hackaday.io/project/28330-sloth-badge
 - kind: url
   url: https://hackaday.io/project/28330-sloth-badge
   title: Sloth Badge project page
   accessed: '2026-09-07'
-  note: "Confirmed maker, ATtiny13A, 12 charlieplexed LEDs, 5 animations, sleep mode, open-source hardware/firmware, and that it was posted for a Coin Cell Challenge (created Nov 2017)."
+  note: Confirmed maker, ATtiny13A, 12 charlieplexed LEDs, 5 animations, sleep mode, open-source hardware/firmware, and that it was posted for a Coin Cell Challenge (created Nov 2017).
+  archived: https://web.archive.org/web/20260511095230/https://hackaday.io/project/28330-sloth-badge
 - kind: url
   url: https://www.tindie.com/products/davedarko/unbearable-sloth-badge/
   title: Unbearable Sloth Badge - Tindie
   accessed: '2026-09-07'
-  note: "Confirmed listing details: two CR2032 batteries, kit or assembled, hand-soldered, limited run of about 60 boards, now retired/sold out."
+  note: 'Confirmed listing details: two CR2032 batteries, kit or assembled, hand-soldered, limited run of about 60 boards, now retired/sold out.'
+  archived: https://web.archive.org/web/20260511095209/https://www.tindie.com/products/davedarko/unbearable-sloth-badge/
 - kind: url
   url: https://github.com/davedarko/sloth_badge
   title: davedarko/sloth_badge on GitHub
   accessed: '2026-09-07'
-  note: "Confirmed hardware and firmware are published in this repo (folders alexsCode and sloth_2byte_animation); could not view file contents to determine EDA tool or license."
+  note: Confirmed hardware and firmware are published in this repo (folders alexsCode and sloth_2byte_animation); could not view file contents to determine EDA tool or license.
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: "No specific event tied to this badge; it began as a Hackaday.io 'Coin Cell Challenge' entry (Nov 2017) and was later sold on Tindie starting Feb 2018, so event is left as 'other'. Price could not be confirmed since the Tindie listing is retired and no longer shows pricing. Could not confirm EDA tool (KiCad/Eagle) or license from the GitHub repo. A 'hair-clip' variant listing exists on Tindie but returned a 403 error when fetched, so it was not researched further."
+  notes: No specific event tied to this badge; it began as a Hackaday.io 'Coin Cell Challenge' entry (Nov 2017) and was later sold on Tindie starting Feb 2018, so event is left as 'other'. Price could not be confirmed since the Tindie listing is retired and no longer shows pricing. Could not confirm EDA tool (KiCad/Eagle) or license from the GitHub repo. A 'hair-clip' variant listing exists on Tindie but returned a 403 error when fetched, so it was not researched further.
 last_modified_date: '2026-09-07'
 ---
 
