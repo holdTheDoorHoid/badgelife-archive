@@ -16,7 +16,7 @@ functions: 'No interactivity: two 3mm RGB LEDs with built-in auto-color-cycling 
 look:
   colors:
   - black
-  shape: null
+  shape: skull
   themes:
   - hardware tool
 tech:
@@ -28,14 +28,14 @@ tech:
   display: none
   connectivity: []
   battery: none (minibadge mode, powered by host SAINTCON badge); optional coin-cell holder board included for standalone shirt-pin mode
-  sao_version: null
+  sao_version: none
 get_one:
-  price: ''
-  price_usd: null
+  price: ~$0.91 per unit (100-unit BOM cost, October 2017)
+  price_usd: 0.91
   quantity: ''
   availability: unknown
   distribution: []
-  where: ''
+  where: Distributed at SAINTCON 2017 by DC801; exact distribution method (free drop vs. sold) not stated in the source.
 make_your_own:
   open_source: true
   hardware_url: https://github.com/hamster/DC801-SAINTCON2017-Minibadge
@@ -43,11 +43,15 @@ make_your_own:
   eda_tool: KiCad
   license: MIT
   notes: Repo includes KiCad PCB files, 3D renders, a BOM (per-unit cost ~$0.91 at 100-unit pricing as of 10/2017), assembly instructions, instruction cards, and a separate battery-holder board for shirt-pin mode.
+  bom_url: https://github.com/DC801/DC801-SAINTCON2017-Minibadge
 links:
 - label: github.com/hamster/DC801-SAINTCON2017-Minibadge
   url: https://github.com/hamster/DC801-SAINTCON2017-Minibadge
   kind: repo
   archived: https://web.archive.org/web/20260510061812/https://github.com/hamster/DC801-SAINTCON2017-Minibadge
+- label: github.com/DC801/DC801-SAINTCON2017-Minibadge
+  url: https://github.com/DC801/DC801-SAINTCON2017-Minibadge
+  kind: repo
 images:
 - file: assets/images/badges/saintcon-2017/dc801-saintcon2017-minibadge/1530c0055b.jpg
   source: https://github.com/hamster/DC801-SAINTCON2017-Minibadge
@@ -59,8 +63,18 @@ images:
   credit: hamster
   caption: Powered DC801 minibadge showing the RGB LEDs lit
   archived: https://web.archive.org/web/20260510061812/https://github.com/hamster/DC801-SAINTCON2017-Minibadge
+- file: assets/images/badges/saintcon-2017/dc801-saintcon2017-minibadge/d7ed242a2f.jpg
+  source: https://github.com/DC801/DC801-SAINTCON2017-Minibadge
+  credit: DC801 / hamster
+  caption: Assembled DC801 sheep-skull minibadges with LEDs and pin headers
+- file: assets/images/badges/saintcon-2017/dc801-saintcon2017-minibadge/85fdcef82e.png
+  source: https://github.com/DC801/DC801-SAINTCON2017-Minibadge
+  credit: DC801 / hamster
+  caption: 3D render of the DC801 sheep minibadge front
 contact: {}
-notes: []
+notes:
+- The community sheet listed this as "DC801 Sheep - Hampster (unofficial SAINTCON 2017 minibadge)"; the maker's own repo does not use "Sheep" in its title, so the title here follows the design (a sheep skull-and-crossbones) and drops the sheet's awkward phrasing.
+- This appears to be the same item as saintcon-2017-dc801-saintcon2017-minibadge, whose links point to a fork of the same repo under hamster's personal GitHub account rather than the DC801 org.
 status: released
 sources:
 - kind: url
@@ -75,12 +89,24 @@ sources:
   accessed: '2026-09-07'
   note: 'README and BOM: confirms DC801 theme, two auto-cycling RGB LEDs, minibadge/shirt-pin modes, KiCad files, MIT license, BOM cost ~$0.91/unit at 100 qty (10/2017), battery holder board for shirt-pin mode.'
   archived: https://web.archive.org/web/20260510061812/https://github.com/hamster/DC801-SAINTCON2017-Minibadge
+- kind: url
+  url: https://github.com/DC801/DC801-SAINTCON2017-Minibadge
+  title: DC801 Sheep - Hampster (unofficial SAINTCON 2017 minibadge)
+  accessed: '2026-09-10'
+  note: Reported as an 'other item found' during the stub research pass.
+- kind: url
+  url: https://raw.githubusercontent.com/DC801/DC801-SAINTCON2017-Minibadge/master/README.md
+  title: DC801-SAINTCON2017-Minibadge README
+  accessed: '2026-09-10'
+  note: 'Primary source: design description, LED/resistor specs, assembly instructions, full BOM with pricing, and image links.'
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-07'
-  notes: Maker's own repo confirms design and BOM. No quantity manufactured, sale price, or distribution method (e.g. free drop vs. sold) is stated anywhere in the repo, so get_one fields are left empty. No MCU is used; the LEDs are self-contained auto-cycling parts, not driven by a controller.
-last_modified_date: '2026-09-07'
+  notes: Maker's own repo confirms design and BOM. No quantity manufactured, sale price, or distribution method (e.g. free drop vs. sold) is stated anywhere in the repo, so get_one fields are left empty. No MCU is used; the LEDs are self-contained auto-cycling parts, not driven by a controller. Merged with duplicate entry 'DC801 Sheep Minibadge (unofficial SAINTCON 2017 minibadge)' (saintcon-2017-dc801-sheep-hampster-unofficial-saintcon-2017-minibadge).
+last_modified_date: '2026-09-10'
+redirect_from:
+- /badges/saintcon-2017/dc801-sheep-hampster-unofficial-saintcon-2017-minibadge/
 ---
 
 This is a DC801-themed minibadge made for SAINTCON 2017 by a GitHub user going by "hamster." It plugs into the pin headers of the main SAINTCON 2017 conference badge (or can be worn on its own as a shirt pin) and lights up with two 3mm RGB LEDs that cycle color automatically on their own, without any microcontroller or firmware involved. Builders choose one of three resistor values for R1 to set the LED brightness, from a bright 20-55mA down to a dim 1.5-2mA.
@@ -97,3 +123,11 @@ No source found states how many units were actually built, whether it was sold o
 4. For shirt-pin mode: skip the pin headers and instead solder the included tie-tack pin to the large pad at the top; optionally add the battery-holder board from the "Shirt Pin Battery" folder for standalone power.
 
 Source: https://github.com/hamster/DC801-SAINTCON2017-Minibadge (KiCad files, BOM, renders, MIT license).
+
+## Notes merged from the duplicate entry "DC801 Sheep Minibadge (unofficial SAINTCON 2017 minibadge)"
+
+DC801 designed this unofficial minibadge for SAINTCON 2017: a small black PCB silkscreened with a sheep skull-and-crossbones and the DC801 name. It carries no microcontroller. Instead, two 3mm RGB LEDs (Chanzon AA0018x100) wired for automatic slow color-cycling light up on their own whenever the board is powered, with a user-selected resistor (0, 470, or 1k ohm) setting the brightness and current draw.
+
+The board was built to work two ways: soldered onto pin headers and sockets so it plugs into the official SAINTCON badge as an add-on minibadge, or built without headers and finished with a butterfly-clutch tie tack so it can be worn as a standalone shirt pin. A companion coin-cell holder board (in the repo's "Shirt Pin Battery" folder) lets the pin mode run independently of a host badge.
+
+Hardware files, a 3D render, assembly photos, and a full bill of materials are published in DC801's GitHub repo, credited to designer "hamster." The BOM (dated October 2017) puts per-unit parts cost at about $0.91 in 100-unit quantities, covering the PCB, LEDs, resistor, headers/sockets, a butterfly clutch, packaging, and an instruction card - but the repo does not say how many were actually produced or whether they were given away or sold at the con.

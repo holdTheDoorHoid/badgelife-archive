@@ -19,7 +19,7 @@ makers:
   url: https://hackaday.io/benchoff
   role: team member
 summary: 'The official badge of the 2017 Hackaday Superconference: a hackable camera badge with a still/video camera module, color OLED display, and SD card slot, assembled by MacroFab with components donated by Microchip.'
-functions: 'Captures still images and short video with the onboard camera; plays back encoded content from the microSD card; runs custom user firmware loaded via a bootloader; includes built-in puzzles and cryptographic challenges for attendees.'
+functions: Captures still images and short video with the onboard camera; plays back encoded content from the microSD card; runs custom user firmware loaded via a bootloader; includes built-in puzzles and cryptographic challenges for attendees.
 look:
   colors: []
   shape: null
@@ -44,7 +44,7 @@ get_one:
   - free_drop
   where: Given to all 2017 Supercon attendees; extras were later sold on Tindie (hackadaystore) but that listing is now unavailable.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: null
   firmware_url: null
   eda_tool: null
@@ -52,18 +52,22 @@ links:
 - label: hackaday.io/project/27427-camera-badge-for-supercon-2017
   url: https://hackaday.io/project/27427-camera-badge-for-supercon-2017
   kind: hackaday
+  archived: https://web.archive.org/web/20260504130415/https://hackaday.io/project/27427-camera-badge-for-supercon-2017
 - label: Tindie listing (hackadaystore) - 2017 Hackaday Superconference Badge
   url: https://www.tindie.com/products/hackadaystore/2017-hackaday-superconference-badge/
   kind: store
+  archived: https://web.archive.org/web/20260503112535/https://www.tindie.com/products/hackadaystore/2017-hackaday-superconference-badge/
 images:
 - file: assets/images/badges/supercon-2017/camera-badge-for-supercon-2017/9e884df27e.jpg
-  source: "https://hackaday.io/project/27427-camera-badge-for-supercon-2017"
-  credit: "Mike Harrison"
-  caption: "The Supercon 2017 camera badge"
+  source: https://hackaday.io/project/27427-camera-badge-for-supercon-2017
+  credit: Mike Harrison
+  caption: The Supercon 2017 camera badge
+  archived: https://web.archive.org/web/20260504130415/https://hackaday.io/project/27427-camera-badge-for-supercon-2017
 - file: assets/images/badges/supercon-2017/camera-badge-for-supercon-2017/1915da1822.jpg
-  source: "https://hackaday.io/project/27427-camera-badge-for-supercon-2017"
-  credit: "Mike Harrison"
-  caption: "Camera badge board detail"
+  source: https://hackaday.io/project/27427-camera-badge-for-supercon-2017
+  credit: Mike Harrison
+  caption: Camera badge board detail
+  archived: https://web.archive.org/web/20260504130415/https://hackaday.io/project/27427-camera-badge-for-supercon-2017
 contact: {}
 notes: []
 status: released
@@ -73,21 +77,25 @@ sources:
   title: Camera Badge for Supercon 2017
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: hackaday-list); event read as ''Supercon 2017''.'
+  archived: https://web.archive.org/web/20260504130415/https://hackaday.io/project/27427-camera-badge-for-supercon-2017
 - kind: url
   url: https://hackaday.io/project/27427-camera-badge-for-supercon-2017
   title: Camera Badge for Supercon 2017
   accessed: '2026-09-07'
   note: 'Hackaday.io project page: maker (Mike Harrison, team Mike Szczys/Benchoff), MacroFab assembly, Microchip component donation, PIC32MX170F256D MCU, OV9650 camera sensor, 128x128 OLED, microSD, accelerometer, 2xAA power, SD-card bootloader, firmware/schematics/DXF files in the project files section.'
+  archived: https://web.archive.org/web/20260504130415/https://hackaday.io/project/27427-camera-badge-for-supercon-2017
 - kind: url
   url: https://www.tindie.com/products/hackadaystore/2017-hackaday-superconference-badge/
   title: 2017 Hackaday Superconference Badge - hackadaystore - Tindie
   accessed: '2026-09-07'
   note: 'Tindie listing: $99 price, currently unavailable ("seller is taking a break"), package included one assembled badge plus a 2GB microSD card with firmware; lists SRAM, LED flash, six buttons, and prototyping headers not mentioned on the Hackaday.io page.'
+  archived: https://web.archive.org/web/20260503112535/https://www.tindie.com/products/hackadaystore/2017-hackaday-superconference-badge/
 research:
   status: verified
   confidence: high
   last_checked: '2026-09-07'
-  notes: 'Verified against the Hackaday.io project page and the Tindie storefront directly. The Hackaday.io page itself only says "128x128 OLED display" without color/monochrome and mentions monochrome only as a video-capture mode, not the panel; the Tindie listing explicitly calls it a "128x128 color OLED display", and the badge photo saved from the project page shows a color (blue/purple) image on the screen, so color is corroborated rather than just asserted by one source. Confirmed on Hackaday.io: firmware (MPLABX projects, incl. a puzzle build and the bootloader) and hardware files (PDF schematic, Gerbers, DXF board outline) are both present in the project''s Files section, so make_your_own.open_source is set to yes; no direct per-file URL was found (Hackaday.io does not expose a simple link to that section) so hardware_url/firmware_url stay empty, and no license is stated anywhere on the page. "Everyone who goes to Supercon this year will get one of these badges" and "a limited number of the extra badges are available on Tindie" are both direct statements on the Hackaday.io page, confirming the free-to-attendees plus limited paid-extras distribution. 10+ hour battery life is from the maker''s own comment on the project page. tech.leds not itemized by sources beyond "illuminator LED" / "LED flash" for the camera, so left null. Quantity made not stated by sources.'
+  notes: 'Verified against the Hackaday.io project page and the Tindie storefront directly. The Hackaday.io page itself only says "128x128 OLED display" without color/monochrome and mentions monochrome only as a video-capture mode, not the panel; the Tindie listing explicitly calls it a "128x128 color OLED display", and the badge photo saved from the project page shows a color (blue/purple) image on the screen, so color is corroborated rather than just asserted by one source. Confirmed on Hackaday.io: firmware (MPLABX projects, incl. a puzzle build and the bootloader) and hardware files (PDF schematic, Gerbers, DXF board outline) are both present in the project''s Files section, so make_your_own.open_source is set to yes; no direct per-file URL was found (Hackaday.io does not expose a simple link to that section) so hardware_url/firmware_url stay empty, and no license is stated anywhere on the page. "Everyone who goes to Supercon this year will get one of these badges" and "a limited number
+    of the extra badges are available on Tindie" are both direct statements on the Hackaday.io page, confirming the free-to-attendees plus limited paid-extras distribution. 10+ hour battery life is from the maker''s own comment on the project page. tech.leds not itemized by sources beyond "illuminator LED" / "LED flash" for the camera, so left null. Quantity made not stated by sources.'
 last_modified_date: '2026-09-07'
 ---
 

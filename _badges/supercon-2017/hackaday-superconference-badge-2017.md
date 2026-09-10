@@ -29,7 +29,7 @@ tech:
 get_one:
   price: $99 (post-event extras on Tindie, plus $10 US / $40+ international shipping)
   price_usd: 99
-  quantity: '~350'
+  quantity: ~350
   availability: sold_out
   availability_note: 'Checked 2026-09-07: no longer listed as available; the November 2017 Tindie sale of leftover units was a one-time post-event offer.'
   distribution:
@@ -45,27 +45,30 @@ links:
 - label: hackaday.com/2017/10/11/building-the-hackaday-superconference-badge
   url: https://hackaday.com/2017/10/11/building-the-hackaday-superconference-badge/
   kind: article
+  archived: https://web.archive.org/web/20260608090600/https://hackaday.com/2017/10/11/building-the-hackaday-superconference-badge/
 - label: hackaday.com/2017/11/08/get-your-hands-on-a-2017-hackaday-superconference-badge
   url: https://hackaday.com/2017/11/08/get-your-hands-on-a-2017-hackaday-superconference-badge/
   kind: article
 - label: hackaday.com/2017/11/15/the-perils-of-developing-the-hackaday-superconference-badge
   url: https://hackaday.com/2017/11/15/the-perils-of-developing-the-hackaday-superconference-badge/
   kind: article
+  archived: https://web.archive.org/web/20260515222735/https://hackaday.com/2017/11/15/the-perils-of-developing-the-hackaday-superconference-badge/
 - label: Mike Harrison (mikeselectricstuff) on Hackaday.io
   url: https://hackaday.io/mikeselectricstuff
   kind: hackaday
+  archived: https://web.archive.org/web/20251204204712/https://hackaday.io/mikeselectricstuff
 images:
 - file: assets/images/badges/supercon-2017/hackaday-superconference-badge-2017/781a9287c9.jpg
-  source: "https://hackaday.com/2017/11/08/get-your-hands-on-a-2017-hackaday-superconference-badge/"
-  credit: "Hackaday"
-  caption: "Front of the 2017 Hackaday Superconference badge camera"
+  source: https://hackaday.com/2017/11/08/get-your-hands-on-a-2017-hackaday-superconference-badge/
+  credit: Hackaday
+  caption: Front of the 2017 Hackaday Superconference badge camera
 - file: assets/images/badges/supercon-2017/hackaday-superconference-badge-2017/bbaba25158.jpg
-  source: "https://hackaday.com/2017/11/08/get-your-hands-on-a-2017-hackaday-superconference-badge/"
-  credit: "Hackaday"
-  caption: "Detail of the badge's OLED screen and board"
+  source: https://hackaday.com/2017/11/08/get-your-hands-on-a-2017-hackaday-superconference-badge/
+  credit: Hackaday
+  caption: Detail of the badge's OLED screen and board
 contact: {}
 notes:
-- 'Hardware/firmware repo not located this session; the October 2017 article says files were promised "soon" but no working link to a public hardware repo was confirmed. tech.leds left null — an "illuminator LED" for the camera is mentioned but no count/type given. look.colors and look.shape left empty — no source described the PCB color or overall silhouette precisely enough to code confidently.'
+- Hardware/firmware repo not located this session; the October 2017 article says files were promised "soon" but no working link to a public hardware repo was confirmed. tech.leds left null — an "illuminator LED" for the camera is mentioned but no count/type given. look.colors and look.shape left empty — no source described the PCB color or overall silhouette precisely enough to code confidently.
 status: released
 sources:
 - kind: url
@@ -73,6 +76,7 @@ sources:
   title: Hackaday Superconference Badge 2017
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: official-badges); event read as ''Hackaday Superconference 2017''.'
+  archived: https://web.archive.org/web/20260608090600/https://hackaday.com/2017/10/11/building-the-hackaday-superconference-badge/
 - kind: url
   url: https://hackaday.com/2017/11/08/get-your-hands-on-a-2017-hackaday-superconference-badge/
   title: Get Your Hands On A 2017 Hackaday Superconference Badge
@@ -83,6 +87,7 @@ sources:
   title: The Perils Of Developing The Hackaday Superconference Badge
   accessed: '2026-09-07'
   note: Confirms PIC32/SRAM chips donated by Microchip, Macrofab contract manufacturing, OLED display, accelerometer, and microSD support.
+  archived: https://web.archive.org/web/20260515222735/https://hackaday.com/2017/11/15/the-perils-of-developing-the-hackaday-superconference-badge/
 research:
   status: researched
   confidence: high

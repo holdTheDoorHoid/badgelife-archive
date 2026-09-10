@@ -15,7 +15,7 @@ makers:
 - name: Dusan Petrovic
   role: designer
 summary: 'The official badge for Hackaday Superconference II (Pasadena, Nov 2016): an 8x16 surface-mount LED matrix badge with buttons, an accelerometer, and IR badge-to-badge communication.'
-functions: 'Scrolling-message kiosk mode, an IR-based crypto/puzzle challenge between badges, badge-to-badge IR communication, and a hackable C firmware framework via a drag-and-drop USB bootloader.'
+functions: Scrolling-message kiosk mode, an IR-based crypto/puzzle challenge between badges, badge-to-badge IR communication, and a hackable C firmware framework via a drag-and-drop USB bootloader.
 look:
   colors: []
   shape: null
@@ -41,7 +41,7 @@ get_one:
   availability: unknown
   distribution:
   - free_drop
-  where: 'Given to attendees of Hackaday Superconference II, Pasadena, November 5-6, 2016; not sold.'
+  where: Given to attendees of Hackaday Superconference II, Pasadena, November 5-6, 2016; not sold.
 make_your_own:
   open_source: partial
   hardware_url: https://github.com/Hack-a-Day/2016-Hackaday-SuperConference-Badge-Hacking
@@ -51,29 +51,33 @@ links:
 - label: hackaday.com/2016/09/28/new-supercon-badge-is-40-lighter-and-a-work-of-art
   url: https://hackaday.com/2016/09/28/new-supercon-badge-is-40-lighter-and-a-work-of-art/
   kind: article
+  archived: https://web.archive.org/web/20260509232350/https://hackaday.com/2016/09/28/new-supercon-badge-is-40-lighter-and-a-work-of-art/
 - label: 'Hackaday.io: Supercon II Badge'
   url: https://hackaday.io/project/16401
   kind: hackaday
 - label: 'GitHub: 2016 Hackaday SuperConference Badge Hacking'
   url: https://github.com/Hack-a-Day/2016-Hackaday-SuperConference-Badge-Hacking
   kind: repo
+  archived: https://web.archive.org/web/20251022125835/https://github.com/Hack-a-Day/2016-Hackaday-SuperConference-Badge-Hacking
 - label: 'GitHub: XPRESS-Bootloader (HaDSuperConference2016 branch)'
   url: https://github.com/perkyguy/XPRESS-Bootloader/tree/HaDSuperConference2016
   kind: repo
 images:
 - file: assets/images/badges/supercon-2016/hackaday-superconference-badge-2016/d699c1d1b4.jpg
-  source: "https://hackaday.com/2016/09/28/new-supercon-badge-is-40-lighter-and-a-work-of-art/"
-  credit: "Hackaday"
-  caption: "Front of the 2016 Hackaday Superconference badge, showing the 8x16 LED matrix"
+  source: https://hackaday.com/2016/09/28/new-supercon-badge-is-40-lighter-and-a-work-of-art/
+  credit: Hackaday
+  caption: Front of the 2016 Hackaday Superconference badge, showing the 8x16 LED matrix
+  archived: https://web.archive.org/web/20260509232350/https://hackaday.com/2016/09/28/new-supercon-badge-is-40-lighter-and-a-work-of-art/
 - file: assets/images/badges/supercon-2016/hackaday-superconference-badge-2016/f818d7b807.jpg
-  source: "https://hackaday.com/2016/09/28/new-supercon-badge-is-40-lighter-and-a-work-of-art/"
-  credit: "Hackaday"
-  caption: "Back of the 2016 Hackaday Superconference badge, showing the battery holders"
+  source: https://hackaday.com/2016/09/28/new-supercon-badge-is-40-lighter-and-a-work-of-art/
+  credit: Hackaday
+  caption: Back of the 2016 Hackaday Superconference badge, showing the battery holders
+  archived: https://web.archive.org/web/20260509232350/https://hackaday.com/2016/09/28/new-supercon-badge-is-40-lighter-and-a-work-of-art/
 contact: {}
 notes:
-- 'The Hackaday.io project page for this badge is titled "Supercon II Badge" (Hackaday Superconference II, Nov 2016), so both names refer to the same event and item.'
+- The Hackaday.io project page for this badge is titled "Supercon II Badge" (Hackaday Superconference II, Nov 2016), so both names refer to the same event and item.
 - 'Sources disagree on battery type: the Hackaday.com article says two AAA batteries, while the Hackaday.io project page says two AA batteries in custom-mounted holders; recorded as AA per the project page, the more detailed source, but this is unresolved.'
-- 'The GitHub hardware repo (2016-Hackaday-SuperConference-Badge-Hacking) contains firmware/framework source, a schematic image, and a license file, but no Gerbers or BOM in the repo itself; a separate BOM was said to be shared via Google Sheets, not independently verified this session, so open_source is recorded as partial rather than yes.'
+- The GitHub hardware repo (2016-Hackaday-SuperConference-Badge-Hacking) contains firmware/framework source, a schematic image, and a license file, but no Gerbers or BOM in the repo itself; a separate BOM was said to be shared via Google Sheets, not independently verified this session, so open_source is recorded as partial rather than yes.
 status: released
 sources:
 - kind: url
@@ -81,21 +85,23 @@ sources:
   title: Hackaday Superconference Badge 2016
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: official-badges); event read as ''Hackaday Superconference 2016''.'
+  archived: https://web.archive.org/web/20260509232350/https://hackaday.com/2016/09/28/new-supercon-badge-is-40-lighter-and-a-work-of-art/
 - kind: url
   url: https://hackaday.io/project/16401
   title: Supercon II Badge
   accessed: '2026-09-07'
-  note: 'Confirmed maker team (Voja Antonic, Dusan Petrovic), chip (PIC18F25K50), LED count, accelerometer, IR link, battery type, and open-source hardware/firmware/BOM links.'
+  note: Confirmed maker team (Voja Antonic, Dusan Petrovic), chip (PIC18F25K50), LED count, accelerometer, IR link, battery type, and open-source hardware/firmware/BOM links.
 - kind: url
   url: https://github.com/Hack-a-Day/2016-Hackaday-SuperConference-Badge-Hacking
   title: 2016-Hackaday-SuperConference-Badge-Hacking
   accessed: '2026-09-07'
   note: 'Confirmed repo contents: firmware/hacking framework, schematic image, license file; no Gerbers or BOM in-repo.'
+  archived: https://web.archive.org/web/20251022125835/https://github.com/Hack-a-Day/2016-Hackaday-SuperConference-Badge-Hacking
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-07'
-  notes: 'Price and quantity made were not stated by any source and are left empty. Battery type (AA vs AAA) disagrees between the two primary sources; see notes above. No Gerbers/BOM were found hosted directly in the linked repos.'
+  notes: Price and quantity made were not stated by any source and are left empty. Battery type (AA vs AAA) disagrees between the two primary sources; see notes above. No Gerbers/BOM were found hosted directly in the linked repos.
 last_modified_date: '2026-09-07'
 ---
 

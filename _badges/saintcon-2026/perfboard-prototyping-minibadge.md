@@ -33,7 +33,7 @@ get_one:
   availability: limited
   distribution:
   - swap
-  where: 'Traded in person with the maker (Pips) at SAINTCON; the listing''s "how to acquire" is "Trade with me."'
+  where: Traded in person with the maker (Pips) at SAINTCON; the listing's "how to acquire" is "Trade with me."
 make_your_own:
   open_source: null
   hardware_url: null
@@ -44,14 +44,14 @@ links:
   url: https://minibadge.wiki/?search=Perfboard%20prototyping%20minibadge&year=2026
   kind: website
 images:
-  - file: assets/images/badges/saintcon-2026/perfboard-prototyping-minibadge/1b183d77e1.jpg
-    source: "https://minibadge.wiki/?search=Perfboard%20prototyping%20minibadge&year=2026"
-    credit: "Pips"
-    caption: "Perfboard prototyping minibadge, front"
-  - file: assets/images/badges/saintcon-2026/perfboard-prototyping-minibadge/b4bd21a9f6.jpg
-    source: "https://minibadge.wiki/?search=Perfboard%20prototyping%20minibadge&year=2026"
-    credit: "Pips"
-    caption: "Perfboard prototyping minibadge, back"
+- file: assets/images/badges/saintcon-2026/perfboard-prototyping-minibadge/1b183d77e1.jpg
+  source: https://minibadge.wiki/?search=Perfboard%20prototyping%20minibadge&year=2026
+  credit: Pips
+  caption: Perfboard prototyping minibadge, front
+- file: assets/images/badges/saintcon-2026/perfboard-prototyping-minibadge/b4bd21a9f6.jpg
+  source: https://minibadge.wiki/?search=Perfboard%20prototyping%20minibadge&year=2026
+  credit: Pips
+  caption: Perfboard prototyping minibadge, back
 contact: {}
 notes:
 - 'category: Personal; qty made: 200; board house: JLCPCB; soldering difficulty listed as "Pre-soldered" (the minibadge pins themselves come pre-attached; the perfboard pads are left open for the user to solder onto)'
@@ -66,20 +66,13 @@ sources:
   url: https://minibadge.wiki/2026.json
   title: Minibadge Wiki 2026 data feed (Perfboard prototyping minibadge entry)
   accessed: '2026-09-07'
-  note: 'Confirmed maker (Pips), description ("solder LEDs and let it rip"), category Personal, quantity 200, board house JLCPCB, conference year 2026, and "Trade with me" acquisition method. Also the source of the front/back product images.'
+  note: Confirmed maker (Pips), description ("solder LEDs and let it rip"), category Personal, quantity 200, board house JLCPCB, conference year 2026, and "Trade with me" acquisition method. Also the source of the front/back product images.
+  archived: https://web.archive.org/web/20260611102319/http://minibadge.wiki/2026.json
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: >-
-    Minibadge Wiki's own community submission for this item (read directly from its 2026
-    data feed, since the search results on the page itself are rendered client-side and
-    did not appear in a plain fetch) is the only source found; no maker storefront, repo,
-    or social post surfaced in a search of the wiki and a general web search. tech.mcu is
-    set to "none" because the board is bare perfboard with no listed chip; tech.leds is left
-    null because no LED count/type is specified — the point of the board is that the maker
-    solders in whatever LEDs they bring. get_one.price is left empty since it is only
-    described as traded, not sold, for a stated price.
+  notes: Minibadge Wiki's own community submission for this item (read directly from its 2026 data feed, since the search results on the page itself are rendered client-side and did not appear in a plain fetch) is the only source found; no maker storefront, repo, or social post surfaced in a search of the wiki and a general web search. tech.mcu is set to "none" because the board is bare perfboard with no listed chip; tech.leds is left null because no LED count/type is specified — the point of the board is that the maker solders in whatever LEDs they bring. get_one.price is left empty since it is only described as traded, not sold, for a stated price.
 last_modified_date: '2026-09-07'
 ---
 

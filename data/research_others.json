@@ -2180,5 +2180,194 @@
   "event": "bsides-orlando-2025",
   "type": "other",
   "url": "https://www.instagram.com/p/DO9Dv5rjVVE/"
+ },
+ {
+  "title": "The Full Color Foxx SAO",
+  "maker": "Rabbit-Labs",
+  "event": "dc34 (or nearest matching id for DEF CON 34, 2026 \u2014 not yet in events.yml at time of check)",
+  "type": "sao",
+  "url": "https://rabbit-labs.com/product/the-full-color-foxx-sao/"
+ },
+ {
+  "title": "The Lava Lamp SAO",
+  "maker": "Rabbit-Labs",
+  "event": "dc34 (likely, sold alongside the Full Color Foxx SAO for DEF CON 34)",
+  "type": "sao",
+  "url": "https://rabbit-labs.com/product/the-lava-lamp-sao/"
+ },
+ {
+  "title": "DEF CON 33 NFC Faceplate",
+  "maker": "Keyport",
+  "event": "dc33",
+  "type": "accessory",
+  "url": "https://www.mykeyport.com/products/def-con-33-nfc-faceplate"
+ },
+ {
+  "title": "DEF CON 33 Glow-in-the-Dark NFC Faceplate",
+  "maker": "Keyport",
+  "event": "dc33",
+  "type": "accessory",
+  "url": "https://www.mykeyport.com/products/def-con-33-gitd-nfc-faceplate"
+ },
+ {
+  "title": "Voltage Multiplier / Spark Gap Badge",
+  "maker": "Sprite_TM (Jeroen Domburg)",
+  "event": "supercon-2015",
+  "type": "badge",
+  "url": "https://hackaday.com/2015/12/09/the-best-badges-of-the-supercon/"
+ },
+ {
+  "title": "Audio Spectrum Analyzer badge (Most Over The Top winner)",
+  "maker": "Nate Quillin",
+  "event": "supercon-2015",
+  "type": "badge",
+  "url": "https://hackaday.io/project/8575-audio-spectrum-analyzer-a-supercon-badge"
+ },
+ {
+  "title": "Teebeutel-Image-Sensor-Expansion",
+  "maker": "Jana-Marie",
+  "event": "gpn-2022",
+  "type": "accessory (SAO/expansion-board, specific this time)",
+  "url": "https://github.com/Jana-Marie/Teebeutel-Image-Sensor-Expansion"
+ },
+ {
+  "title": "DerbyCon Legacy Black Badge (2017)",
+  "maker": "Ben Hibben, Charles \"The Hat\" Lehman",
+  "event": "derbycon-2017",
+  "type": "badge",
+  "url": "https://www.hackster.io/blenster/derbycon-legacy-black-badge-ca2917"
+ },
+ {
+  "title": "DC407 SAO",
+  "maker": "Jose Rodriguez / BSides Orlando badge team",
+  "event": "bsides-orlando-2023",
+  "type": "sao",
+  "url": "https://github.com/bsidesorlando/2023-badge/tree/main/bsidesorl-v1"
+ },
+ {
+  "title": "Iron Widow Challenge SAO (iwc-iron-sao)",
+  "maker": "Jose Rodriguez / BSides Orlando badge team",
+  "event": "bsides-orlando-2023",
+  "type": "sao",
+  "url": "https://github.com/bsidesorlando/2023-badge/tree/main/bsidesorl-v1"
+ },
+ {
+  "title": "RuxBadge 2017",
+  "maker": "Morgan Reed (darkglade), Richard Owen (moheart7)",
+  "event": "ruxcon-2017",
+  "type": "badge",
+  "url": "https://ruxconhhv.darkglade.com/2017/RuxBadge2017.pdf"
+ },
+ {
+  "title": "Miscellaneous Minibadges",
+  "maker": "SAINTCON",
+  "event": "saintcon-2023",
+  "type": "minibadge (bundle/lot listing, unconfirmed as individual item)",
+  "url": "https://saintcon.zip/SAINTCON_2023/saintcon.org/store/"
+ },
+ {
+  "title": "Grateful Dead Mini Badge (2022)",
+  "maker": "CompuDocUt",
+  "event": "saintcon-2022",
+  "type": "minibadge",
+  "url": "https://github.com/CompuDocUt/SaintConMinibadges/blob/main/Grateful%20Dead%20Mini%20Badge%202022%20assembly%20instructions.pdf"
+ },
+ {
+  "title": "Dave Train Badge",
+  "maker": "SHIFTY",
+  "event": "saintcon-2022",
+  "url": "https://minibadge.wiki/2022.pdf (page 92 of official 2022 SAINTCON minibadge guide)",
+  "type": "minibadge - a different, officially-listed train-themed minibadge; not to be confused with this entry"
+ },
+ {
+  "title": "Grateful Dead Mini Badge (2023)",
+  "maker": "CompuDocUt",
+  "event": "saintcon-2023 (unconfirmed id)",
+  "type": "minibadge",
+  "url": "https://github.com/CompuDocUt/SaintConMinibadges/blob/main/Grateful%20Dead%20Mini%20Badge%202023%20assembly%20instructions.pdf"
+ },
+ {
+  "title": "DC435 Bus",
+  "maker": "Sh33pr0ck (design by ay.aitch)",
+  "event": "saintcon-2022",
+  "type": "minibadge",
+  "url": "https://saintcon.zip/SAINTCON_2015-2022/archive.saintcon.org/2022/saintcon.org/wp-content/uploads/2022/10/MiniBadges-of-2022-v2.pdf"
+ },
+ {
+  "title": "DC435 Ultra",
+  "maker": "Sh33pr0ck",
+  "event": "saintcon-2022",
+  "type": "minibadge",
+  "url": "https://saintcon.zip/SAINTCON_2015-2022/archive.saintcon.org/2022/saintcon.org/wp-content/uploads/2022/10/MiniBadges-of-2022-v2.pdf"
+ },
+ {
+  "title": "2022 TFHT Alternative",
+  "maker": "Sh33prock",
+  "event": "saintcon-2022",
+  "type": "minibadge",
+  "url": "https://saintcon.zip/SAINTCON_2015-2022/archive.saintcon.org/2022/saintcon.org/wp-content/uploads/2022/10/MiniBadges-of-2022-v2.pdf"
+ },
+ {
+  "title": "Weber State Shield - A",
+  "maker": "unknown (no creator given on source page)",
+  "event": "saintcon-2017",
+  "type": "minibadge",
+  "url": "http://saintcon.gitlab.io/Badge2017/unofficialminibadge/"
+ },
+ {
+  "title": "8x8 Matrix",
+  "maker": "Compukidmike",
+  "event": "saintcon-2017",
+  "type": "minibadge",
+  "url": "http://saintcon.gitlab.io/Badge2017/unofficialminibadge/"
+ },
+ {
+  "title": "UVU Cyber Security Club",
+  "maker": "Bashninja",
+  "event": "saintcon-2017",
+  "type": "minibadge",
+  "url": "http://saintcon.gitlab.io/Badge2017/unofficialminibadge/"
+ },
+ {
+  "title": "LDS Hacker",
+  "maker": "Bashninja",
+  "event": "saintcon-2017",
+  "type": "minibadge",
+  "url": "http://saintcon.gitlab.io/Badge2017/unofficialminibadge/"
+ },
+ {
+  "title": "801Labs",
+  "maker": "Bashninja",
+  "event": "saintcon-2017",
+  "type": "minibadge",
+  "url": "http://saintcon.gitlab.io/Badge2017/unofficialminibadge/"
+ },
+ {
+  "title": "Psychoholics",
+  "maker": "unknown",
+  "event": "saintcon-2017",
+  "type": "minibadge",
+  "url": "https://pbs.twimg.com/media/DK7OS7qVwAACJfj.jpg"
+ },
+ {
+  "title": "GrrCON 2024 BadgeBuddy",
+  "maker": "CynicalSignals (ickfosec)",
+  "event": "grrcon-2024",
+  "type": "badge",
+  "url": "https://www.cynicalsignals.com/building-an-unofficial-badge-for-grrcon-2024/"
+ },
+ {
+  "title": "BugCON 2025 Linux Badge",
+  "maker": "Electronic Cats",
+  "event": "other (no bugcon event id in events.yml)",
+  "type": "badge",
+  "url": "https://github.com/ElectronicCats/badge-bugcon-2025"
+ },
+ {
+  "title": "Queercon 12 badge (QC12)",
+  "maker": "George Louthan (duplico), animations by Jonathan Nelson",
+  "event": "queercon-2015",
+  "type": "badge",
+  "url": "https://github.com/duplico/qc12"
  }
 ]

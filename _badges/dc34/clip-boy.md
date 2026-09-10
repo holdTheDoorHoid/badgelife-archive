@@ -108,6 +108,8 @@ contact:
   - defcon.social/@clipboy
 notes:
 - The badge's own promotional copy describes it as a "parody badge...Fallout-inspired, not affiliated with Bethesda or Valve."
+- Spotted by a research agent while working on another entry; not yet researched.
+- Sweep wording was "Clip-Boy Mk2". The maker's own shop page in fact uses "Clip-Boy Mk2" as the product name for the second production run (currently in a demand-gauging/pre-order phase) of the same badge; the second-run specs listed there are identical to the first-run "Clip-Boy Standard," so this is not a separate hardware revision. This entry duplicates dc34-clip-boy — same maker, same repo, same specs.
 status: released
 sources:
 - kind: sheet
@@ -150,8 +152,8 @@ research:
   status: researched
   confidence: high
   last_checked: '2026-09-06'
-  notes: Core facts (maker, MCU, display, sensor, SAO version, license, pricing, quantity, availability) are confirmed by the maker's own shop page, GitHub repo, and flasher site. Could not confirm exact LED count or battery/power spec from available pages. Could not load the YouTube video's description (page content was just YouTube boilerplate navigation), so it was not used as a source. A second lineup/colorway image was seen referenced on the shop page (id="poLineup") but its image URL is set by JavaScript and could not be resolved to a direct file, so only one image was saved. Merged with duplicate entry 'Clip-Boy' (dc34-dc34-clip-boy).
-last_modified_date: '2026-09-07'
+  notes: Core facts (maker, MCU, display, sensor, SAO version, license, pricing, quantity, availability) are confirmed by the maker's own shop page, GitHub repo, and flasher site. Could not confirm exact LED count or battery/power spec from available pages. Could not load the YouTube video's description (page content was just YouTube boilerplate navigation), so it was not used as a source. A second lineup/colorway image was seen referenced on the shop page (id="poLineup") but its image URL is set by JavaScript and could not be resolved to a direct file, so only one image was saved. Merged with duplicate entry 'Clip-Boy' (dc34-dc34-clip-boy). Merged with duplicate entry 'Clip-Boy Mk2' (dc34-clip-boy-mk2).
+last_modified_date: '2026-09-10'
 model:
   file: assets/models/dc34/clip-boy.glb
   method: gerber
@@ -163,6 +165,7 @@ model:
   - 60.5
 redirect_from:
 - /badges/dc34/dc34-clip-boy/
+- /badges/dc34/clip-boy-mk2/
 ---
 
 Clip-Boy Mk2 is a wrist-mounted, Fallout-parody electronic badge built around an ESP32-S3 with a 2.8" LVGL touchscreen, a VL53L5CX time-of-flight sensor, addressable RGB lighting, and a SAO v1.69bis expansion header. It ships in a "passive/listen-only" mode with an optional research build that unlocks Wi-Fi and Bluetooth reconnaissance tools derived from ESP32 Marauder, plus a drone Remote-ID (ASTM F3411) detector. On top of the recon tooling it packs a theremin, over 90 unlockable collectibles, on-badge puzzles, and an ARG-style finale that unlocks using HMAC-derived codes — layered over dense Fallout in-jokes and puns.
@@ -186,3 +189,9 @@ The badge sold out its initial production (listed in a run of 36 on Uberflux, wi
 ## Make your own
 
 The GitHub repository (github.com/SafeHazard/Clip-Boy) publishes PCB Gerbers, a bill of materials, STEP files for the 3D-printed enclosure, and the full firmware source under GPLv3. Firmware can be applied to an assembled unit using the browser-based flasher at flash.brycebadges.com (Chrome/Edge/Opera on desktop, via Web Serial), which offers app-only, content/media, and full factory-reset flashing modes, plus optional minisign signature verification against the GitHub repo.
+
+## Notes merged from the duplicate entry "Clip-Boy Mk2"
+
+Clip-Boy is a wrist-mounted, Fallout-parody electronic badge unofficially made for DEF CON 34 by Bryce, a teenage maker operating as Coruscant Productions, LLC (GitHub handle SafeHazard/tropicsquirrel). It runs on an ESP32-S3 with a 2.8" LVGL touchscreen, addressable RGB LEDs driving a built-in theremin light show, and Wi-Fi/Bluetooth analysis tools including code contributed from the ESP32 Marauder project. The badge ships in a passive listen-only mode, with optional research firmware builds available for users to install themselves.
+
+This entry, sourced from the shop page's own "Clip-Boy Mk2" label, appears to describe the same badge already catalogued in more detail as `dc34-clip-boy`: same maker, same GitHub repository (SafeHazard/Clip-Boy), same 152-unit first-run quantity and sold-out status. The maker's own shop page does use "Clip-Boy Mk2" as a real product name — but for the second production run of the identical hardware (currently in a demand-gauging pre-order phase), not for a distinct revision; the listed specs for that run match the original "Clip-Boy Standard" exactly.

@@ -29,7 +29,7 @@ tech:
   battery: powered by host badge
   sao_version: null
 get_one:
-  price: "$12.30 (OSH Park PCB cost)"
+  price: $12.30 (OSH Park PCB cost)
   price_usd: 12.3
   quantity: ''
   availability: unknown
@@ -44,21 +44,25 @@ links:
 - label: hackaday.io/project/168037-mr-robot-shitty-addon
   url: https://hackaday.io/project/168037-mr-robot-shitty-addon
   kind: hackaday
+  archived: https://web.archive.org/web/20260511233618/https://hackaday.io/project/168037-mr-robot-shitty-addon
 - label: hackaday.io/project/168037-mr-robot-shitty-addon/logs
   url: https://hackaday.io/project/168037-mr-robot-shitty-addon/logs
   kind: hackaday
 - label: oshpark.com/shared_projects/XmKK8P7r
   url: https://oshpark.com/shared_projects/XmKK8P7r
   kind: fab
+  archived: https://web.archive.org/web/20260509231854/https://oshpark.com/shared_projects/XmKK8P7r
 images:
-  - file: assets/images/badges/supercon-2019/mr-robot-shitty-addon/fbb58473d9.jpg
-    source: "https://hackaday.io/project/168037-mr-robot-shitty-addon"
-    credit: "davedarko"
-    caption: "Mr. Robot shitty addon SAO board"
-  - file: assets/images/badges/supercon-2019/mr-robot-shitty-addon/6df3b79535.jpg
-    source: "https://hackaday.io/project/168037-mr-robot-shitty-addon"
-    credit: "davedarko"
-    caption: "Mr. Robot shitty addon board, project photo"
+- file: assets/images/badges/supercon-2019/mr-robot-shitty-addon/fbb58473d9.jpg
+  source: https://hackaday.io/project/168037-mr-robot-shitty-addon
+  credit: davedarko
+  caption: Mr. Robot shitty addon SAO board
+  archived: https://web.archive.org/web/20260511233618/https://hackaday.io/project/168037-mr-robot-shitty-addon
+- file: assets/images/badges/supercon-2019/mr-robot-shitty-addon/6df3b79535.jpg
+  source: https://hackaday.io/project/168037-mr-robot-shitty-addon
+  credit: davedarko
+  caption: Mr. Robot shitty addon board, project photo
+  archived: https://web.archive.org/web/20260511233618/https://hackaday.io/project/168037-mr-robot-shitty-addon
 contact: {}
 notes: []
 status: released
@@ -68,11 +72,13 @@ sources:
   title: Mr. Robot shitty addon | Hackaday.io
   accessed: '2026-09-06'
   note: Found via the project's link list; intake pass identified this item here.
+  archived: https://web.archive.org/web/20260511233618/https://hackaday.io/project/168037-mr-robot-shitty-addon
 - kind: url
   url: https://hackaday.io/project/168037-mr-robot-shitty-addon
   title: Mr. Robot shitty addon | Hackaday.io
   accessed: '2026-09-07'
   note: Project summary, description, timeline, and og:image used for confirming details and grabbing a photo.
+  archived: https://web.archive.org/web/20260511233618/https://hackaday.io/project/168037-mr-robot-shitty-addon
 - kind: url
   url: https://hackaday.io/project/168037-mr-robot-shitty-addon/logs
   title: Mr. Robot shitty addon - Logs | Hackaday.io
@@ -83,6 +89,7 @@ sources:
   title: OSH Park shared project - Mr. Robot Badge Shitty Addon
   accessed: '2026-09-07'
   note: PCB specs (1.58 x 1.57 in, 2-layer, black "After Dark" finish, $12.30), component list (ATtiny85, BC847, KMTG-1102 speaker).
+  archived: https://web.archive.org/web/20260509231854/https://oshpark.com/shared_projects/XmKK8P7r
 research:
   status: researched
   confidence: medium

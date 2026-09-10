@@ -12,7 +12,7 @@ makers:
 - name: ShmooCon
   url: https://www.shmoocon.org/
 summary: 'The official ShmooCon 2006 attendee/staff/speaker badges: twenty differently-shaped stainless-steel badge designs that physically interlock into one large assembled shape when all twenty are collected.'
-functions: 'Conference identification badge; doubles as a physical collect-them-all puzzle, since the twenty badge shapes interlock into a single completed piece when assembled together.'
+functions: Conference identification badge; doubles as a physical collect-them-all puzzle, since the twenty badge shapes interlock into a single completed piece when assembled together.
 look:
   colors:
   - silver
@@ -33,7 +33,7 @@ get_one:
   availability: unknown
   distribution:
   - membership
-  where: 'Issued to ShmooCon 2006 attendees, staff, and speakers as their conference badge; not separately sold.'
+  where: Issued to ShmooCon 2006 attendees, staff, and speakers as their conference badge; not separately sold.
 make_your_own:
   open_source: null
   hardware_url: null
@@ -43,22 +43,23 @@ links:
 - label: hackaday.com/2006/02/04/shmoocon-2006-wrap-up
   url: https://hackaday.com/2006/02/04/shmoocon-2006-wrap-up/
   kind: article
+  archived: https://web.archive.org/web/20260512000509/https://hackaday.com/2006/02/04/shmoocon-2006-wrap-up/
 - label: 'wiki.shmoo.com: ShmooCon2006Badges (via Wayback Machine)'
   url: http://web.archive.org/web/20070101063628/http://wiki.shmoo.com:80/ShmooCon2006Badges
   kind: doc
 images:
 - file: assets/images/badges/shmoocon-2006/shmoocon-2006-interlocking-badge-set/3ba8fa4d51.jpg
-  source: "http://web.archive.org/web/20070101063628/http://wiki.shmoo.com:80/ShmooCon2006Badges"
-  credit: "ShmooCon / PabLos (wiki.shmoo.com)"
-  caption: "The complete interlocking badge puzzle assembled from all 20 designs"
+  source: http://web.archive.org/web/20070101063628/http://wiki.shmoo.com:80/ShmooCon2006Badges
+  credit: ShmooCon / PabLos (wiki.shmoo.com)
+  caption: The complete interlocking badge puzzle assembled from all 20 designs
 - file: assets/images/badges/shmoocon-2006/shmoocon-2006-interlocking-badge-set/adf676892a.jpg
-  source: "http://web.archive.org/web/20070101063628/http://wiki.shmoo.com:80/ShmooCon2006Badges"
-  credit: "ShmooCon / PabLos (wiki.shmoo.com)"
-  caption: "Depth-of-field shot of the stainless steel ShmooCon 2006 badges"
+  source: http://web.archive.org/web/20070101063628/http://wiki.shmoo.com:80/ShmooCon2006Badges
+  credit: ShmooCon / PabLos (wiki.shmoo.com)
+  caption: Depth-of-field shot of the stainless steel ShmooCon 2006 badges
 contact: {}
 notes:
 - 'Non-electronic puzzle badge: twenty differently-outlined conference badges (stainless steel) that physically interlock into one assembled shape when all are collected. Confirmed directly via the wiki.shmoo.com ShmooCon2006Badges page (archived copy), which is the primary source the Hackaday wrap-up article pointed to.'
-- 'The "maker" field on the community sheet named Grey Frequency, but per the wiki page Grey Frequency was the attendee who won the prize for being first to assemble a complete set (by meeting 200+ attendees and tracing badges), not the badge''s designer/manufacturer. The badges were ShmooCon''s own conference badges; no individual designer/fabricator is named in either source.'
+- The "maker" field on the community sheet named Grey Frequency, but per the wiki page Grey Frequency was the attendee who won the prize for being first to assemble a complete set (by meeting 200+ attendees and tracing badges), not the badge's designer/manufacturer. The badges were ShmooCon's own conference badges; no individual designer/fabricator is named in either source.
 status: released
 sources:
 - kind: url
@@ -66,6 +67,7 @@ sources:
   title: ShmooCon 2006 Interlocking Badge Set
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: bsides-regional (US regional hacker cons: BSides variants, ShmooCon, Thotcon, CypherCon, DerbyCon, CarolinaCon, GrrCON, ToorCon, HOPE, CactusCon, WWHF, Circle City Con, Layer8, Blue Team Con, ShellCon, NorthSec, Hackfest)); event read as ''ShmooCon (Washington DC, 2006)''.'
+  archived: https://web.archive.org/web/20260512000509/https://hackaday.com/2006/02/04/shmoocon-2006-wrap-up/
 - kind: url
   url: http://web.archive.org/web/20070101063628/http://wiki.shmoo.com:80/ShmooCon2006Badges
   title: ShmooCon2006Badges - Shmoo Wiki (archived)
@@ -75,7 +77,7 @@ research:
   status: researched
   confidence: high
   last_checked: '2026-09-07'
-  notes: 'Live wiki.shmoo.com is gone; used the Wayback Machine capture of the original page (Jan 2007), which is the page the Hackaday article itself cited. No individual designer or fabricator is named anywhere; treated as an official ShmooCon-produced badge. No price/quantity data survives. Live wiki.shmoo.com and hackaday link both otherwise check out.'
+  notes: Live wiki.shmoo.com is gone; used the Wayback Machine capture of the original page (Jan 2007), which is the page the Hackaday article itself cited. No individual designer or fabricator is named anywhere; treated as an official ShmooCon-produced badge. No price/quantity data survives. Live wiki.shmoo.com and hackaday link both otherwise check out.
 last_modified_date: '2026-09-07'
 ---
 

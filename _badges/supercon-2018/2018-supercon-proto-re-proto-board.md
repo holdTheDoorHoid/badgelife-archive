@@ -1,5 +1,5 @@
 ---
-title: "2018 SuperCon Ⅹ-proto (RE: proto-board)"
+title: '2018 SuperCon Ⅹ-proto (RE: proto-board)'
 id: supercon-2018-2018-supercon-proto-re-proto-board
 layout: badge
 parent: Supercon 2018
@@ -31,7 +31,7 @@ get_one:
   quantity: ''
   availability: unknown
   distribution: []
-  where: 'Not sold; a DIY reproduction anyone can mill or order from the published design files.'
+  where: Not sold; a DIY reproduction anyone can mill or order from the published design files.
 make_your_own:
   open_source: partial
   hardware_url: https://hackaday.io/project/162009-2018-supercon-proto-re-proto-board
@@ -41,18 +41,21 @@ links:
 - label: hackaday.io/project/162009-2018-supercon-proto-re-proto-board
   url: https://hackaday.io/project/162009-2018-supercon-proto-re-proto-board
   kind: hackaday
-- label: 'Hack-a-Day/2018-Supercon-Badge (official badge repo, linked by the maker as background; it holds the badge firmware, not the expansion-board gerbers)'
+  archived: https://web.archive.org/web/20260123040943/https://hackaday.io/project/162009-2018-supercon-proto-re-proto-board
+- label: Hack-a-Day/2018-Supercon-Badge (official badge repo, linked by the maker as background; it holds the badge firmware, not the expansion-board gerbers)
   url: https://github.com/Hack-a-Day/2018-Supercon-Badge
   kind: repo
 images:
 - file: assets/images/badges/supercon-2018/2018-supercon-proto-re-proto-board/551915d365.png
-  source: "https://hackaday.io/project/162009-2018-supercon-proto-re-proto-board"
-  credit: "xBeau"
-  caption: "Reverse-engineered proto/expansion board for the 2018 Supercon badge"
+  source: https://hackaday.io/project/162009-2018-supercon-proto-re-proto-board
+  credit: xBeau
+  caption: Reverse-engineered proto/expansion board for the 2018 Supercon badge
+  archived: https://web.archive.org/web/20260123040943/https://hackaday.io/project/162009-2018-supercon-proto-re-proto-board
 - file: assets/images/badges/supercon-2018/2018-supercon-proto-re-proto-board/7bb0af5838.jpg
-  source: "https://hackaday.io/project/162009-2018-supercon-proto-re-proto-board"
-  credit: "xBeau"
-  caption: "Laser-cut 1:1 scale board reference used to check the reproduced outline against the original"
+  source: https://hackaday.io/project/162009-2018-supercon-proto-re-proto-board
+  credit: xBeau
+  caption: Laser-cut 1:1 scale board reference used to check the reproduced outline against the original
+  archived: https://web.archive.org/web/20260123040943/https://hackaday.io/project/162009-2018-supercon-proto-re-proto-board
 contact: {}
 notes:
 - 'Not a commercial product: a personal reverse-engineering/documentation project, not something distributed to attendees.'
@@ -60,19 +63,22 @@ status: released
 sources:
 - kind: url
   url: https://hackaday.io/project/162009-2018-supercon-proto-re-proto-board
-  title: "2018 SuperCon Ⅹ-proto (RE: proto-board)"
+  title: '2018 SuperCon Ⅹ-proto (RE: proto-board)'
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: hackaday-list); event read as ''Supercon 2018''.'
+  archived: https://web.archive.org/web/20260123040943/https://hackaday.io/project/162009-2018-supercon-proto-re-proto-board
 - kind: url
   url: https://hackaday.io/project/162009-2018-supercon-proto-re-proto-board
-  title: "2018 SuperCon Ⅹ-proto (RE: proto-board) - project logs"
+  title: '2018 SuperCon Ⅹ-proto (RE: proto-board) - project logs'
   accessed: '2026-09-07'
   note: 'Maker, description, components (1x 9-position edge connector, 3x 4-pin SAO headers), board dimensions (125x97.5mm) and connector angle (14 degrees) from the project''s Details/Components sections; design files (in-progress KiCad 5 zip with partial 595 shift register + LEDs, plus DXF/SVG outlines). Verified against individual project logs: "chip pad sniffn" and "cook''n with kicad" (SMD 74HC595 substitution, using Voja''s original Front/Back Copper gerbers), "reading between the gerbers" (gerber-to-KiCad layer mapping, Edge.Cuts duplicate-outline cleanup; gerbers came "from the official badge project" per Voja Antonic via hackaday.io chat, not from a named repo), and "smells like progress" (laser-cut 1:1 board reference, material not specified as acrylic in the source).'
+  archived: https://web.archive.org/web/20260123040943/https://hackaday.io/project/162009-2018-supercon-proto-re-proto-board
 research:
   status: verified
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'This is xBeau''s own reverse-engineering project, not the official Hack-a-Day expansion board itself. Corrected during verification: removed the unsupported "learn to solder" theme tag; removed an unsupported claim that the laser-cut reference was in acrylic (source only says "laser cut," no material given); and corrected make_your_own.hardware_url plus the github link label — the linked Hack-a-Day/2018-Supercon-Badge repo contains only firmware/README/LICENSE (confirmed via the GitHub API), not gerbers, so it was wrong to call it the gerber source. The actual design files (in-progress KiCad zip, DXF/SVG outlines) are hosted as attachments on xBeau''s own hackaday.io project page, and the underlying gerbers came from Voja Antonic via hackaday.io chat / "the official badge project," not a named public repo. Project logs describe the KiCad recreation as unfinished/in-progress, so no evidence it was ever fabricated as a finished, distributed product. No price, quantity, or LED count stated anywhere in the project. Related upstream project referenced by the maker: hackaday.io/project/162054-shift-register-for-supercon-badge (by "Mike"), not created as a separate archive entry per instructions.'
+  notes: 'This is xBeau''s own reverse-engineering project, not the official Hack-a-Day expansion board itself. Corrected during verification: removed the unsupported "learn to solder" theme tag; removed an unsupported claim that the laser-cut reference was in acrylic (source only says "laser cut," no material given); and corrected make_your_own.hardware_url plus the github link label — the linked Hack-a-Day/2018-Supercon-Badge repo contains only firmware/README/LICENSE (confirmed via the GitHub API), not gerbers, so it was wrong to call it the gerber source. The actual design files (in-progress KiCad zip, DXF/SVG outlines) are hosted as attachments on xBeau''s own hackaday.io project page, and the underlying gerbers came from Voja Antonic via hackaday.io chat / "the official badge project," not a named public repo. Project logs describe the KiCad recreation as unfinished/in-progress, so no evidence it was ever fabricated as a finished, distributed product. No price, quantity, or LED count
+    stated anywhere in the project. Related upstream project referenced by the maker: hackaday.io/project/162054-shift-register-for-supercon-badge (by "Mike"), not created as a separate archive entry per instructions.'
 last_modified_date: '2026-09-07'
 ---
 

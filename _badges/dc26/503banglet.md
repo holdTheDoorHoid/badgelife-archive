@@ -34,7 +34,7 @@ tech:
 get_one:
   price: ''
   price_usd: null
-  quantity: '100+'
+  quantity: 100+
   availability: unknown
   distribution:
   - free_drop
@@ -56,15 +56,20 @@ links:
 - label: 'nishakm.github.io: DC503 Banglet overview'
   url: https://nishakm.github.io/things/dc503banglet/
   kind: article
+- label: badge.gallery/series/dc503
+  url: https://badge.gallery/series/dc503
+  kind: website
 images:
 - file: assets/images/badges/dc26/503banglet/776b23e46b.jpg
-  source: "https://nishakm.github.io/things/dc503banglet/"
-  credit: "Nisha Kumar"
-  caption: "3D-printed banglet shell design"
+  source: https://nishakm.github.io/things/dc503banglet/
+  credit: Nisha Kumar
+  caption: 3D-printed banglet shell design
 contact: {}
 notes:
 - Spotted by a research agent while working on a neighbouring entry (run 3).
-- 'Sheet listed the maker as "Nisha K."; her own site gives her full name as Nisha Kumar.'
+- Sheet listed the maker as "Nisha K."; her own site gives her full name as Nisha Kumar.
+- Spotted by a research agent while working on another entry; not yet researched.
+- This appears to be the same item as dc26-503banglet (DC503 Banglet) and dc26-dc503-banglet-badge-dc26 (DC503 Banglet Badge (DC26)), which are already researched under those ids.
 status: released
 sources:
 - kind: url
@@ -82,14 +87,20 @@ sources:
   title: pdxbadgers/2018-banglet
   accessed: '2026-09-07'
   note: The actual hardware/firmware repo for the 2018 build (distinct from the earlier nishakm/blinkybracelet prototype repo); confirms Apache-2.0 license and file contents (eaglecad, sketches, 3dprints).
+- kind: url
+  url: https://badge.gallery/series/dc503
+  title: DC503 DEF CON 26 VIP Banglet
+  accessed: '2026-09-10'
+  note: Reported as an 'other item found' during the stub research pass.
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'Maker''s own blog post (nishakm.github.io) is the primary source and matches the pdxbadgers/2018-banglet repo it links to; the entry''s original link (nishakm/blinkybracelet) appears to be an earlier/related prototype repo rather than the final 2018 party build. Price was never advertised (free party giveaway); exact LED type (WS2812B vs discrete) and PCB colors not stated in sources found. Could not save a maker photo of the banglet lit up in scan mode - the linked Twitter/X image (pbs.twimg.com/media/DjT3Kg5VsAAS8bW.jpg) returned 404 (dead media link).'
-last_modified_date: '2026-09-07'
+  notes: Maker's own blog post (nishakm.github.io) is the primary source and matches the pdxbadgers/2018-banglet repo it links to; the entry's original link (nishakm/blinkybracelet) appears to be an earlier/related prototype repo rather than the final 2018 party build. Price was never advertised (free party giveaway); exact LED type (WS2812B vs discrete) and PCB colors not stated in sources found. Could not save a maker photo of the banglet lit up in scan mode - the linked Twitter/X image (pbs.twimg.com/media/DjT3Kg5VsAAS8bW.jpg) returned 404 (dead media link). Merged with duplicate entry 'DC503 DEF CON 26 VIP Banglet' (dc26-dc503-def-con-26-vip-banglet).
+last_modified_date: '2026-09-10'
 redirect_from:
 - /badges/other/503banglet/
+- /badges/dc26/dc503-def-con-26-vip-banglet/
 ---
 
 The DC503 Banglet is a Bluetooth-recon party bracelet made by Nisha Kumar for the DC503 group (the Portland, Oregon DEF CON meetup) to hand out at their party during DEF CON 26 in 2018. Built around a Rigado BMD-300 module on the Adafruit Bluefruit Feather architecture, it runs in a passive scan mode where its 12 LEDs light up to indicate how many nearby Bluetooth devices it detects, with LED color keyed to each device's MAC address. It also hides additional "party modes" accessible over its BLE UART service, controllable from phone apps such as Adafruit's Bluefruit LE Connect, Serial Bluetooth Terminal, or Bluetooth Terminal, and the firmware is reprogrammable with sample code the team provided.
@@ -99,3 +110,15 @@ More than 100 units were produced and given away free to party attendees; no pri
 ## Make your own
 
 The pdxbadgers/2018-banglet repo has everything needed to build one: `eaglecad/` for the PCB schematic and board files, `sketches/` for the BMD-300 firmware (based on Adafruit's Bluefruit Feather examples), and `3dprints/` for the 3D-printable bracelet shell. It is licensed Apache-2.0.
+
+## Notes merged from the duplicate entry "DC503 DEF CON 26 VIP Banglet"
+
+The DC503 DEF CON 26 VIP Banglet is a Bluetooth-recon wrist-worn party badge made by the DC503 group (the Portland, Oregon DEF CON meetup, credited on GitHub as "pdxbadgers") for their party at DEF CON 26 in 2018. It runs a passive scan mode that lights up LEDs to indicate nearby Bluetooth devices, with LED color keyed to each device's MAC address, and hides additional "party modes" reachable over its BLE UART service from apps like Adafruit's Bluefruit LE Connect, Serial Bluetooth Terminal, or Bluetooth Terminal. It moved the badge concept from the neck to the wrist, following an earlier DC503 wagon-party badge from 2017.
+
+Hardware (EagleCAD schematics and board files), firmware (nRF52 Arduino-style sketches), and 3D-printable bracelet shell files (both hard hinged and soft flexible variants) are published under the Apache-2.0 license in the pdxbadgers/2018-banglet GitHub repository, with credit split across several contributors for concept, PCB design, 3D design, and firmware work.
+
+This entry is very likely the same physical badge already documented in more detail under `dc26-503banglet` (DC503 Banglet), which cites the maker's own blog post with the BMD-300 chip, 12-LED count, LiPo battery, quantity (100+), and a maker photo; a third entry, `dc26-dc503-banglet-badge-dc26`, may also refer to the same item. No price was ever advertised since it was a free party giveaway.
+
+## Make your own
+
+The pdxbadgers/2018-banglet repo has everything needed to build one: `eaglecad/` for the PCB schematic and board files, `sketches/` for the nRF52 firmware, and `3dprints/` for the 3D-printable bracelet shell (hard and soft variants). It is licensed Apache-2.0.

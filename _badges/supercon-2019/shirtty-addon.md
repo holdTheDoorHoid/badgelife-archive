@@ -38,27 +38,28 @@ get_one:
   distribution: []
   where: ''
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/sarfata/shirtty-addon/tree/master/hardware
   firmware_url: https://github.com/sarfata/shirtty-addon/tree/master/firmware
   eda_tool: KiCad
-  notes: 'Repo also includes a "shitty-inverser" accessory board to correct a v1 wiring flaw (see notes below), plus bootloader and CircuitPython build instructions and logo assets. No license file is present in the repository.'
+  notes: Repo also includes a "shitty-inverser" accessory board to correct a v1 wiring flaw (see notes below), plus bootloader and CircuitPython build instructions and logo assets. No license file is present in the repository.
 links:
 - label: hackaday.io/project/168421-shirtty-addon
   url: https://hackaday.io/project/168421-shirtty-addon
   kind: hackaday
+  archived: https://web.archive.org/web/20251118063628/https://hackaday.io/project/168421-shirtty-addon
 - label: github.com/sarfata/shirtty-addon
   url: https://github.com/sarfata/shirtty-addon
   kind: repo
 images:
 - file: assets/images/badges/supercon-2019/shirtty-addon/c675883d10.jpg
-  source: "https://github.com/sarfata/shirtty-addon"
-  credit: "Thomas Sarlandie"
-  caption: "shIRtty addon board"
+  source: https://github.com/sarfata/shirtty-addon
+  credit: Thomas Sarlandie
+  caption: shIRtty addon board
 - file: assets/images/badges/supercon-2019/shirtty-addon/af232503d2.jpg
-  source: "https://github.com/sarfata/shirtty-addon"
-  credit: "Thomas Sarlandie"
-  caption: "shIRtty addon plugged into Supercon 2019 badge"
+  source: https://github.com/sarfata/shirtty-addon
+  credit: Thomas Sarlandie
+  caption: shIRtty addon plugged into Supercon 2019 badge
 contact: {}
 notes:
 - IR send/receive SAO for Supercon 2019 badge.
@@ -69,11 +70,13 @@ sources:
   title: shIRtty addon
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: hackaday-search); event read as ''Supercon 2019''.'
+  archived: https://web.archive.org/web/20251118063628/https://hackaday.io/project/168421-shirtty-addon
 - kind: url
   url: https://hackaday.io/project/168421-shirtty-addon
   title: shIRtty addon | Hackaday.io
   accessed: '2026-09-07'
   note: Confirmed maker (Thomas Sarlandie, hackaday.io/sarfata), project description ("A Shitty Addon (tm) for the Supercon 2019 badge that adds the ability to send and receive infrared signals"), created Nov 12, 2019. No usable hardware photo on this page (og:image is a generic placeholder) and no files attached to the Hackaday.io project itself.
+  archived: https://web.archive.org/web/20251118063628/https://hackaday.io/project/168421-shirtty-addon
 - kind: url
   url: https://github.com/sarfata/shirtty-addon
   title: sarfata/shirtty-addon
@@ -83,7 +86,7 @@ research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'Maker''s own Hackaday.io project and GitHub repo confirm what the addon is, who made it, the event, the MCU, and that hardware/firmware are open source. Price, quantity made, and availability are not stated anywhere found and are left empty. No third-party coverage (press, forum threads) was found beyond the maker''s own pages. Status set to "released" on the basis that the project shipped hardware (photos of an assembled board plugged into a badge exist) rather than remaining a plan.'
+  notes: Maker's own Hackaday.io project and GitHub repo confirm what the addon is, who made it, the event, the MCU, and that hardware/firmware are open source. Price, quantity made, and availability are not stated anywhere found and are left empty. No third-party coverage (press, forum threads) was found beyond the maker's own pages. Status set to "released" on the basis that the project shipped hardware (photos of an assembled board plugged into a badge exist) rather than remaining a plan.
 last_modified_date: '2026-09-07'
 ---
 

@@ -61,7 +61,7 @@ contact: {}
 notes:
 - Spotted by a research agent while working on another entry; not yet researched.
 - 'Sweep''s source line labeled the entry only with the video URL; the video itself is a Hak5 segment ("DEF CON 27: El Kentaro''s Deauth Detector - Hak5 2601") in which El Kentaro shows the device rather than a maker-authored project page.'
-status: released
+status: unknown
 sources:
 - kind: url
   url: https://www.youtube.com/watch?v=daLhn8lIbGo
@@ -79,22 +79,34 @@ sources:
   accessed: '2026-09-10'
   note: 'Passing mention only: describes a separate El Kentaro project (a syringe-housed WiFi packet injector) and references "his DEAUTH ''bling'' necklace we saw at DEF CON 26" as an example of his prior con gadgets -- that necklace is a different, non-electronic item already catalogued as dc26-deauth-badge, and its own research notes independently flag this DC27 device as a distinct, later, electronic project. No further technical detail on this entry''s device was found here.'
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-10'
   notes: >-
-    Confirmed real via a Hak5 video segment filmed at DEF CON 27, whose thumbnail
-    is an actual photo of the device (ESP-family board, OLED, 7-segment counter,
-    NeoPixel matrix). No maker-authored project page, GitHub repo, Hackaday.io page,
-    Medium post, or storefront listing for this specific device could be reached --
-    a plausible maker Medium post ("The WiFi Doctor Will See You Now") returned an
-    HTTP 403 from Cloudflare and could not be read. As a result mcu, LED count,
-    price, quantity, and availability are unconfirmed and left empty. This is a
-    different item from the jewel-encrusted, non-electronic dc26-deauth-badge (also
-    by El Kentaro); do not merge the two.
+    Fact-check pass (2026-09-10): re-fetched the YouTube video page directly (the
+    prior WebFetch summary hadn't surfaced description/keywords). Confirmed title
+    "DEF CON 27: El Kentaro's Deauth Detector - Hak5 2601", description ("El Kentaro
+    joins us at DEF CON 27 to share his new hardware hacks"), and keywords including
+    "el kentaro", "def con 27", "deauthentication", "arduino", "neopixel" -- matches
+    what the entry claims. Confirmed the Hackaday article mentions El Kentaro and the
+    DEF CON 26 "DEAUTH bling necklace" but says nothing about this DC27 device, as
+    the entry states. Viewed the saved thumbnail photo directly: it shows an
+    ESP-family Wi-Fi module board, an OLED reading a status message, a lit 4-digit
+    7-segment counter (reading "0034"), and a green NeoPixel-style LED matrix,
+    consistent with the entry's description. Two corrections made: (1) `status` was
+    "released" but nothing in any source shows this device was ever distributed,
+    sold, or given away beyond El Kentaro's own demo -- changed to `unknown` to
+    match `get_one.availability: unknown`. (2) The body claimed the boards were
+    "built into a small 3D-printed enclosure"; the photo shows a dark enclosure but
+    no source confirms 3D-printing specifically, so that detail was removed as
+    invented. No maker-authored project page, repo, Hackaday.io page, Medium post,
+    or storefront for this specific device could be reached, so mcu, LED count,
+    battery, price, quantity, and availability remain empty/null -- correctly so.
+    This is a different item from the jewel-encrusted, non-electronic
+    dc26-deauth-badge (also by El Kentaro); do not merge the two.
 last_modified_date: '2026-09-10'
 ---
 
-El Kentaro's Deauth Detector is a handheld electronic gadget the maker showed off at DEF CON 27 (2019), featured in a Hak5 video segment recorded at the con. It watches for 802.11 deauthentication frames in the air and reports on them in real time: an OLED screen reads a status message along the lines of "looking for DEAUTH attacks," a 4-digit 7-segment display keeps a running count of frames seen, and a NeoPixel LED matrix lights up as an additional visual indicator. The visible hardware is an ESP-family module board paired with a second board carrying the display and LED matrix, built into a small 3D-printed enclosure.
+El Kentaro's Deauth Detector is a handheld electronic gadget the maker showed off at DEF CON 27 (2019), featured in a Hak5 video segment recorded at the con. It watches for 802.11 deauthentication frames in the air and reports on them in real time: an OLED screen reads a status message along the lines of "looking for DEAUTH attacks," a 4-digit 7-segment display keeps a running count of frames seen, and a NeoPixel LED matrix lights up as an additional visual indicator. The visible hardware is an ESP-family module board paired with a second board carrying the display and LED matrix, held together in a small dark enclosure.
 
 Beyond the video itself, coverage is thin: the Hak5 video's own description gives no build details, and a Hackaday article about a different El Kentaro project (a WiFi packet injector built into a syringe) only namechecks his earlier "DEAUTH bling necklace" from DEF CON 26 -- a distinct, non-electronic piece already catalogued separately in this archive. No maker-authored write-up, repository, or storefront for this specific detector could be located; a likely maker's-own account of the build on Medium returned a Cloudflare block rather than content. Absent that, chip, LED count, price, quantity, and availability are unknown.

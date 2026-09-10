@@ -43,6 +43,7 @@ images: []
 contact: {}
 notes:
 - Reserved I2C address 0x53 (M24C01 chip) in the official 2018 badge repo's minibadge table; bashNinja made several unofficial minibadges at SAINTCON 2017 (UVU Cyber Security Club, LDS Hacker, 801Labs) so this is likely a continuation into 2018, but no dedicated 2018 product page was located. Found by the event-year sweep, task saintcon-2018.
+- Spotted by a research agent while working on another entry; not yet researched.
 status: rumored
 sources:
 - kind: url
@@ -59,23 +60,20 @@ research:
   status: researched
   confidence: low
   last_checked: '2026-09-10'
-  notes: >-
-    Only one page mentions bashNinja for 2018: the official badge repo's minibadge
-    I2C-address table, where "bashNinja" reserved address 0x53 with an M24C01
-    (EEPROM, not a microcontroller) chip. That table is a sign-up sheet for
-    prospective minibadge makers (several other rows are still "TBA"), not a
-    confirmation that a finished, physical minibadge was built or distributed at
-    SAINTCON 2018. Searches for a bashNinja product page, photos, or trade-report
-    turned up nothing; bashninja.com is an unrelated parked-domain lander, not the
-    maker's site. bashNinja is documented making several unofficial minibadges at
-    SAINTCON 2017 (UVU Cyber Security Club, LDS Hacker, 801Labs per the badge
-    sheet this entry was seeded from), so a 2018 badge is plausible but unverified.
-    Given the lack of any page confirming the item actually exists, marking this
-    rumored rather than listed/released.
+  notes: 'Only one page mentions bashNinja for 2018: the official badge repo''s minibadge I2C-address table, where "bashNinja" reserved address 0x53 with an M24C01 (EEPROM, not a microcontroller) chip. That table is a sign-up sheet for prospective minibadge makers (several other rows are still "TBA"), not a confirmation that a finished, physical minibadge was built or distributed at SAINTCON 2018. Searches for a bashNinja product page, photos, or trade-report turned up nothing; bashninja.com is an unrelated parked-domain lander, not the maker''s site. bashNinja is documented making several unofficial minibadges at SAINTCON 2017 (UVU Cyber Security Club, LDS Hacker, 801Labs per the badge sheet this entry was seeded from), so a 2018 badge is plausible but unverified. Given the lack of any page confirming the item actually exists, marking this rumored rather than listed/released. Merged with duplicate entry ''bashNinja minibadge'' (saintcon-2018-bashninja-minibadge).'
 last_modified_date: '2026-09-10'
+redirect_from:
+- /badges/saintcon-2018/bashninja-minibadge/
 ---
 
 An I2C address (0x53) was reserved for a minibadge called "bashNinja" in the official SAINTCON 2018 badge repository's address table, using an M24C01 EEPROM chip. That table served as a sign-up sheet for anyone planning to bring a minibadge that year, and several other entries in it are similarly unconfirmed placeholders ("TBA"). No product page, photo, trade report, or other independent source could be found confirming that a physical bashNinja minibadge was actually designed, built, or distributed at SAINTCON 2018.
 
 The maker "bashNinja" is otherwise documented as an active, unofficial minibadge creator at SAINTCON 2017, having reportedly made badges for the UVU Cyber Security Club, LDS Hacker, and 801Labs that year. That track record makes a 2018 follow-up plausible, but without a page describing the 2018 item itself, its existence as a finished badge cannot be confirmed.
 
+## Notes merged from the duplicate entry "bashNinja minibadge"
+
+An I2C address (0x53) was reserved for a minibadge called "bashNinja" in the official SAINTCON 2018 badge repository's address table, using an M24C01 EEPROM chip. That table served as a sign-up sheet for anyone planning to bring a minibadge that year, and several other entries in it are similarly unconfirmed placeholders ("TBA"). No product page, photo, trade report, or other independent source could be found confirming that a physical bashNinja minibadge was actually designed, built, or distributed at SAINTCON 2018.
+
+The maker "bashNinja" is otherwise documented as an active, unofficial minibadge creator at SAINTCON 2017, having reportedly made badges for the UVU Cyber Security Club, LDS Hacker, and 801Labs that year. That track record makes a 2018 follow-up plausible, but without a page describing the 2018 item itself, its existence as a finished badge cannot be confirmed.
+
+This entry duplicates saintcon-2018-bashninja-minibadge-saintcon-2018, which carries the identical research.

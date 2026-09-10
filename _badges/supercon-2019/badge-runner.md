@@ -41,7 +41,7 @@ get_one:
   - purchase
   where: Sold at Hackaday Supercon 2019; remaining units were offered on Tindie afterward, per the maker's project page.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/sphawes/badgerunner
   firmware_url: https://github.com/sphawes/badgerunner
   eda_tool: KiCad
@@ -50,6 +50,7 @@ links:
 - label: hackaday.io/project/168402-badge-runner
   url: https://hackaday.io/project/168402-badge-runner
   kind: hackaday
+  archived: https://web.archive.org/web/20260308174819/https://hackaday.io/project/168402-badge-runner/
 - label: github.com/sphawes/badgerunner
   url: https://github.com/sphawes/badgerunner
   kind: repo
@@ -57,10 +58,11 @@ links:
   url: https://github.com/sphawes/glowtie/tree/master/programmer
   kind: repo
 images:
-  - file: assets/images/badges/supercon-2019/badge-runner/0f6f672287.jpg
-    source: "https://hackaday.io/project/168402-badge-runner"
-    credit: "Claire Sun"
-    caption: "Badge Runner PCB badge, owl-shaped with NeoPixel display"
+- file: assets/images/badges/supercon-2019/badge-runner/0f6f672287.jpg
+  source: https://hackaday.io/project/168402-badge-runner
+  credit: Claire Sun
+  caption: Badge Runner PCB badge, owl-shaped with NeoPixel display
+  archived: https://web.archive.org/web/20260308174819/https://hackaday.io/project/168402-badge-runner/
 contact: {}
 notes: []
 status: released
@@ -70,11 +72,13 @@ sources:
   title: BADGE RUNNER
   accessed: '2026-09-06'
   note: Found via the project's link list; intake pass identified this item here.
+  archived: https://web.archive.org/web/20260308174819/https://hackaday.io/project/168402-badge-runner/
 - kind: url
   url: https://hackaday.io/project/168402-badge-runner
   title: BADGE RUNNER
   accessed: '2026-09-07'
   note: Confirmed maker, event/year, theme, ESP12 MCU, 9 NeoPixels, LiPo/micro-USB charging, two SAO headers (one per ear), and that leftover units were sold on Tindie after Supercon 2019.
+  archived: https://web.archive.org/web/20260308174819/https://hackaday.io/project/168402-badge-runner/
 - kind: url
   url: https://github.com/sphawes/badgerunner
   title: sphawes/badgerunner

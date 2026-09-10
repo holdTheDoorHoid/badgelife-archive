@@ -11,8 +11,8 @@ year: 2018
 makers:
 - name: flummer
   url: https://github.com/flummer
-summary: A small passive adapter PCB that lets #badgelife Shitty Add-Ons plug into the 9-pin expansion connector on the 2018 Hackaday Belgrade and Hackaday Superconference badges.
-functions: 'Breaks out the badge''s 9-pin expansion header to a standard female pin header so any Shitty Add-On board can be plugged in; carries no active electronics of its own.'
+summary: A small passive adapter PCB that lets
+functions: Breaks out the badge's 9-pin expansion header to a standard female pin header so any Shitty Add-On board can be plugged in; carries no active electronics of its own.
 look:
   colors: []
   shape: rectangle
@@ -30,12 +30,12 @@ get_one:
   price_usd: null
   quantity: ''
   availability: available
-  availability_note: 'OSH Park shared project page still live as of 2026-09-07 (order-your-own, made to order; not a fixed batch).'
+  availability_note: OSH Park shared project page still live as of 2026-09-07 (order-your-own, made to order; not a fixed batch).
   distribution:
   - purchase
-  where: 'Order-your-own PCB via the maker''s OSH Park shared project link; not sold as an assembled product.'
+  where: Order-your-own PCB via the maker's OSH Park shared project link; not sold as an assembled product.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/flummer/belgrade-shitty-addon-adapter
   firmware_url: null
   gerbers_url: https://oshpark.com/shared_projects/ychlFFka
@@ -49,17 +49,18 @@ links:
 - label: OSH Park shared project (order a board)
   url: https://oshpark.com/shared_projects/ychlFFka
   kind: fab
-- label: 'Badge for Hackaday Conference 2018 in Belgrade (Hackaday.io project)'
+- label: Badge for Hackaday Conference 2018 in Belgrade (Hackaday.io project)
   url: https://hackaday.io/project/80627-badge-for-hackaday-conference-2018-in-belgrade
   kind: hackaday
-- label: 'DEF CON 26 Shitty Add-Ons (Hackaday.io project)'
+  archived: https://web.archive.org/web/20260214124318/https://hackaday.io/project/80627-badge-for-hackaday-conference-2018-in-belgrade
+- label: DEF CON 26 Shitty Add-Ons (Hackaday.io project)
   url: https://hackaday.io/project/52950-defcon-26-shitty-add-ons
   kind: hackaday
 images:
 - file: assets/images/badges/supercon-2018/belgrade-shitty-addon-adapter/2e3f047045.jpg
-  source: "https://github.com/flummer/belgrade-shitty-addon-adapter"
-  credit: "flummer"
-  caption: "Assembled Belgrade/Supercon 2018 Shitty Addon adapter board"
+  source: https://github.com/flummer/belgrade-shitty-addon-adapter
+  credit: flummer
+  caption: Assembled Belgrade/Supercon 2018 Shitty Addon adapter board
 contact: {}
 notes:
 - adapter for badge to accept SAOs
@@ -74,17 +75,17 @@ sources:
   url: https://raw.githubusercontent.com/flummer/belgrade-shitty-addon-adapter/master/README.md
   title: 'README: Hackaday Belgrade Badge Shitty Addon Adapter'
   accessed: '2026-09-07'
-  note: 'Confirms purpose, connector hardware (9-pin female + M20-7810245 2x2 header), and OSH Park order link; maker states it fits both the Hackaday Belgrade 2018 and Hackaday Superconference 2018 badges.'
+  note: Confirms purpose, connector hardware (9-pin female + M20-7810245 2x2 header), and OSH Park order link; maker states it fits both the Hackaday Belgrade 2018 and Hackaday Superconference 2018 badges.
 - kind: url
   url: https://api.github.com/repos/flummer/belgrade-shitty-addon-adapter
   title: 'GitHub API: repo metadata'
   accessed: '2026-09-07'
-  note: 'Confirms license (CC-BY-SA-4.0), no listed topics, single-maintainer repo, created May 2018.'
+  note: Confirms license (CC-BY-SA-4.0), no listed topics, single-maintainer repo, created May 2018.
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-07'
-  notes: 'Maker''s own repo confirms this adapter was made for both the Hackaday Belgrade 2018 badge and the Hackaday Superconference 2018 badge, so the existing supercon-2018 event assignment is correct (no separate Hackaday Belgrade 2018 event id exists in events.yml to compare against). No price or production quantity is stated anywhere; it is an order-your-own OSH Park share rather than a batch the maker sold or gave away, so price/quantity/where are left mostly empty rather than guessed. No firmware applies (passive adapter, no MCU/LEDs).'
+  notes: Maker's own repo confirms this adapter was made for both the Hackaday Belgrade 2018 badge and the Hackaday Superconference 2018 badge, so the existing supercon-2018 event assignment is correct (no separate Hackaday Belgrade 2018 event id exists in events.yml to compare against). No price or production quantity is stated anywhere; it is an order-your-own OSH Park share rather than a batch the maker sold or gave away, so price/quantity/where are left mostly empty rather than guessed. No firmware applies (passive adapter, no MCU/LEDs).
 last_modified_date: '2026-09-07'
 ---
 
