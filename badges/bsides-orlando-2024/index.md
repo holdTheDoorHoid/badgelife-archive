@@ -5,7 +5,7 @@ parent: Badge Archive
 has_children: true
 has_toc: false
 nav_order: 7976
-nav_exclude: false
+nav_exclude: true
 event: bsides-orlando-2024
 ---
 # BSides Orlando 2024

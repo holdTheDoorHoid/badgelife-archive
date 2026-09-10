@@ -11,11 +11,16 @@ year: 2024
 makers:
 - name: kittysedai
 summary: 'A Baldur''s Gate 3-themed SAINTCON 2024 minibadge depicting the "Hold Monster" spell: a demonic, horned face framed by a jagged scroll-like border.'
-functions: 'Two SMD LEDs (no microcontroller); a simple lit minibadge rather than an interactive one.'
+functions: Two SMD LEDs (no microcontroller); a simple lit minibadge rather than an interactive one.
 look:
-  colors: [black, gold]
+  colors:
+  - black
+  - gold
   shape: rectangle
-  themes: [monster, fantasy, video game]
+  themes:
+  - monster
+  - fantasy
+  - video game
 tech:
   mcu: none
   leds:
@@ -31,8 +36,9 @@ get_one:
   price_usd: null
   quantity: ''
   availability: unknown
-  distribution: [swap]
-  where: 'Maker states "Trade with me" as the acquisition method; not sold.'
+  distribution:
+  - swap
+  where: Maker states "Trade with me" as the acquisition method; not sold.
 make_your_own:
   open_source: null
   hardware_url: null
@@ -45,15 +51,18 @@ links:
 - label: minibadge.wiki data export (2024.json)
   url: https://minibadge.wiki/data/
   kind: doc
+  archived: https://web.archive.org/web/20260611104315/http://minibadge.wiki/data/
 images:
-  - file: assets/images/badges/saintcon-2024/hold-monster/91e836c6f0.jpg
-    source: "https://minibadge.wiki/data/"
-    credit: "kittysedai"
-    caption: "Front of the Hold Monster minibadge"
-  - file: assets/images/badges/saintcon-2024/hold-monster/fae143b916.jpg
-    source: "https://minibadge.wiki/data/"
-    credit: "kittysedai"
-    caption: "Back of the Hold Monster minibadge"
+- file: assets/images/badges/saintcon-2024/hold-monster/91e836c6f0.jpg
+  source: https://minibadge.wiki/data/
+  credit: kittysedai
+  caption: Front of the Hold Monster minibadge
+  archived: https://web.archive.org/web/20260611104315/http://minibadge.wiki/data/
+- file: assets/images/badges/saintcon-2024/hold-monster/fae143b916.jpg
+  source: https://minibadge.wiki/data/
+  credit: kittysedai
+  caption: Back of the Hold Monster minibadge
+  archived: https://web.archive.org/web/20260611104315/http://minibadge.wiki/data/
 contact: {}
 notes:
 - 'category: Personal; rarity: Super Rare; quantityMade listed as 0 in the minibadge.wiki data export (not stated by the maker in prose, may mean "not tracked" rather than literally zero made).'
@@ -69,11 +78,12 @@ sources:
   title: MiniBadge | Data
   accessed: '2026-09-07'
   note: 'The live search page returned no results client-side; the underlying 2024.json data export (linked from this Data page) carries the actual record: title, author (kittysedai), description (Baldur''s Gate 3 "Hold Monster" spell theme), soldering instructions/difficulty, category (Personal), conference year, quantityMade (0), rarity (Super Rare), and howToAcquire ("Trade with me"). Also the source of the front/back board-render image URLs.'
+  archived: https://web.archive.org/web/20260611104315/http://minibadge.wiki/data/
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'Core facts (maker, event, theme, LED/resistor count, soldering difficulty, acquisition method) come from the maker-submitted minibadge.wiki data export, which is the primary community record for SAINTCON minibadges but is self-reported rather than an independent maker page/store. Could not find price, quantity actually made (the wiki lists 0, which likely means untracked rather than none), board house, or any open-source design files. No separate maker storefront, repo, or social profile for kittysedai was found.'
+  notes: Core facts (maker, event, theme, LED/resistor count, soldering difficulty, acquisition method) come from the maker-submitted minibadge.wiki data export, which is the primary community record for SAINTCON minibadges but is self-reported rather than an independent maker page/store. Could not find price, quantity actually made (the wiki lists 0, which likely means untracked rather than none), board house, or any open-source design files. No separate maker storefront, repo, or social profile for kittysedai was found.
 last_modified_date: '2026-09-07'
 ---
 

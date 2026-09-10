@@ -77,7 +77,7 @@ sources:
   accessed: '2026-09-10'
   note: 'Confirms the badge is real (not just a search snippet), describes it as the only DEF CON 25 badge with a vacuum fluorescent display, HD44780-compatible, ATmega-based, 18650-powered, and states only one unit existed as of the article.'
 research:
-  status: researched
+  status: verified
   confidence: medium
   last_checked: '2026-09-10'
   notes: >-

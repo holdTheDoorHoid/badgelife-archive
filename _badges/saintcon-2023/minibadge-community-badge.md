@@ -10,8 +10,8 @@ event: saintcon-2023
 year: 2023
 makers:
 - name: SHIFTY
-summary: 'A 7-LED SAINTCON 2023 minibadge, built to occupy roughly nine slots on a standard minibadge board and given out one-of-a-kind rather than sold.'
-functions: 'Lights up 7 LEDs (D5 and D6 are green and share a resistor; the rest are mixed SMD/THT). No games or interactivity beyond lighting up.'
+summary: A 7-LED SAINTCON 2023 minibadge, built to occupy roughly nine slots on a standard minibadge board and given out one-of-a-kind rather than sold.
+functions: Lights up 7 LEDs (D5 and D6 are green and share a resistor; the rest are mixed SMD/THT). No games or interactivity beyond lighting up.
 look:
   colors: []
   shape: null
@@ -33,7 +33,7 @@ get_one:
   distribution:
   - free_drop
   - swap
-  where: 'Given out at SAINTCON 2023 by SHIFTY at the Badgelife community/minibadge display, awarded to the attendee seen wearing the most lit-up minibadges, with a small number of others available through unique trades or barter.'
+  where: Given out at SAINTCON 2023 by SHIFTY at the Badgelife community/minibadge display, awarded to the attendee seen wearing the most lit-up minibadges, with a small number of others available through unique trades or barter.
 make_your_own:
   open_source: null
   hardware_url: null
@@ -44,18 +44,20 @@ links:
   url: https://minibadge.wiki/?search=Minibadge%20Community%20Badge&year=2023
   kind: website
 images:
-  - file: assets/images/badges/saintcon-2023/minibadge-community-badge/4145279969.png
-    source: "https://minibadge.wiki/"
-    credit: "SHIFTY"
-    caption: "Front of the Minibadge Community Badge, a 7-LED SAINTCON minibadge"
-  - file: assets/images/badges/saintcon-2023/minibadge-community-badge/b61e5979f5.png
-    source: "https://minibadge.wiki/"
-    credit: "SHIFTY"
-    caption: "Back of the Minibadge Community Badge, showing the custom slot extender area"
+- file: assets/images/badges/saintcon-2023/minibadge-community-badge/4145279969.png
+  source: https://minibadge.wiki/
+  credit: SHIFTY
+  caption: Front of the Minibadge Community Badge, a 7-LED SAINTCON minibadge
+  archived: https://web.archive.org/web/20260611103814/https://minibadge.wiki/
+- file: assets/images/badges/saintcon-2023/minibadge-community-badge/b61e5979f5.png
+  source: https://minibadge.wiki/
+  credit: SHIFTY
+  caption: Back of the Minibadge Community Badge, showing the custom slot extender area
+  archived: https://web.archive.org/web/20260611103814/https://minibadge.wiki/
 contact: {}
 notes:
 - 'category: Personal; rarity: Super Rare'
-- 'Soldering difficulty listed as Intermediate on minibadge.wiki.'
+- Soldering difficulty listed as Intermediate on minibadge.wiki.
 status: released
 sources:
 - kind: url
@@ -68,11 +70,12 @@ sources:
   title: Minibadge Wiki 2023 data (JSON entry for "Minibadge Community Badge" by SHIFTY)
   accessed: '2026-09-07'
   note: 'Primary data source: description, soldering instructions, difficulty, category, rarity, quantity, and how-to-acquire text, plus front/back image URLs.'
+  archived: https://web.archive.org/web/20260611102022/http://minibadge.wiki/2023.json
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'No maker page, repo, or press coverage found beyond the minibadge.wiki community listing itself, which is the maker-submitted source of record for SAINTCON minibadges. quantityMade is recorded as 0 on the wiki (field appears unused/default rather than a real zero) so get_one.quantity is left blank rather than guessed. No design files, chip, or price beyond "free drop" were stated.'
+  notes: No maker page, repo, or press coverage found beyond the minibadge.wiki community listing itself, which is the maker-submitted source of record for SAINTCON minibadges. quantityMade is recorded as 0 on the wiki (field appears unused/default rather than a real zero) so get_one.quantity is left blank rather than guessed. No design files, chip, or price beyond "free drop" were stated.
 last_modified_date: '2026-09-07'
 ---
 

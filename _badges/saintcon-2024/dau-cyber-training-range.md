@@ -14,9 +14,14 @@ makers:
 summary: A shield-shaped SAINTCON minibadge made for the DAU Cyber Enterprise Team, the instructors of the Defense Acquisition University's cyber training range.
 functions: Decorative/trade minibadge; no electronics. Front reads "DAU CYBER TRAINING RANGE" over a circuit-trace torch-and-fist emblem with the motto "OFFENDICULO ENIM TUTELA."
 look:
-  colors: [red, gold]
+  colors:
+  - red
+  - gold
   shape: shield
-  themes: [logo, text, security]
+  themes:
+  - logo
+  - text
+  - security
 tech:
   mcu: none
   leds: null
@@ -27,9 +32,10 @@ tech:
 get_one:
   price: free
   price_usd: null
-  quantity: 'under 50'
+  quantity: under 50
   availability: limited
-  distribution: [free_drop]
+  distribution:
+  - free_drop
   where: Given out to attendees of the maker's SAINTCON talk, or to DoD/4th Estate members.
 make_your_own:
   open_source: null
@@ -43,15 +49,16 @@ links:
 - label: RuShan's YouTube (soldering instructions)
   url: https://www.youtube.com/@Herushan1
   kind: video
+  archived: https://web.archive.org/web/20260225115933/https://www.youtube.com/@Herushan1
 images:
-  - file: assets/images/badges/saintcon-2024/dau-cyber-training-range/1733d33720.png
-    source: "https://minibadge.wiki/?search=DAU%20Cyber%20Training%20Range&year=2024"
-    credit: "RuShan"
-    caption: "Front of the DAU Cyber Training Range minibadge"
-  - file: assets/images/badges/saintcon-2024/dau-cyber-training-range/78eaba95f4.png
-    source: "https://minibadge.wiki/?search=DAU%20Cyber%20Training%20Range&year=2024"
-    credit: "RuShan"
-    caption: "Back of the DAU Cyber Training Range minibadge"
+- file: assets/images/badges/saintcon-2024/dau-cyber-training-range/1733d33720.png
+  source: https://minibadge.wiki/?search=DAU%20Cyber%20Training%20Range&year=2024
+  credit: RuShan
+  caption: Front of the DAU Cyber Training Range minibadge
+- file: assets/images/badges/saintcon-2024/dau-cyber-training-range/78eaba95f4.png
+  source: https://minibadge.wiki/?search=DAU%20Cyber%20Training%20Range&year=2024
+  credit: RuShan
+  caption: Back of the DAU Cyber Training Range minibadge
 contact: {}
 notes:
 - 'category: Personal; rarity: Super Rare'
@@ -71,7 +78,7 @@ research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'No maker storefront, repo, or design files found; this is a non-electronic trade minibadge (no MCU/LEDs), consistent with most SAINTCON minibadges. The wiki''s "quantityMade" field is literally 0 (unfilled by the submitter) but the "howToAcquire" text says the maker had "under 50 total," which is used for get_one.quantity instead. Could not find independent confirmation of the maker''s full name or board house/fabricator. YouTube channel (@Herushan1, "Soldering & 3D Printing") was linked from the wiki as the soldering-instructions source but its About/description content was not accessible to confirm additional biographical details.'
+  notes: No maker storefront, repo, or design files found; this is a non-electronic trade minibadge (no MCU/LEDs), consistent with most SAINTCON minibadges. The wiki's "quantityMade" field is literally 0 (unfilled by the submitter) but the "howToAcquire" text says the maker had "under 50 total," which is used for get_one.quantity instead. Could not find independent confirmation of the maker's full name or board house/fabricator. YouTube channel (@Herushan1, "Soldering & 3D Printing") was linked from the wiki as the soldering-instructions source but its About/description content was not accessible to confirm additional biographical details.
 last_modified_date: '2026-09-07'
 ---
 

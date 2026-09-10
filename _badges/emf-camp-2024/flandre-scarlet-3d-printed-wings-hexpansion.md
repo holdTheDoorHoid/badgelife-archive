@@ -70,10 +70,10 @@ sources:
   accessed: '2026-09-10'
   note: Commits dated May 2024, consistent with EMF Camp 2024 (held that June).
 research:
-  status: researched
+  status: verified
   confidence: medium
   last_checked: '2026-09-10'
-  notes: "Confirmed real via the maker's own GitHub repo (not just a search snippet) — folder contains outline.dxf, volume.scad, and volume.stl, with a May 2024 commit fixing a rotation issue. No README, no photos, and no pricing/quantity/distribution info exist because this was never sold: it is a self-printable STL/DXF design, not a manufactured item. Left tech.leds, price, and quantity empty since nothing supports a value. Shape/theme tags (wings, anime) inferred from the name (Flandre Scarlet is a Touhou character) since no image could be found to confirm colors or exact form."
+  notes: "Fact-check pass 2026-09-10: re-fetched all four cited sources (repo folder listing, README, contents API, commits API) plus the repo's own description ('Hexpansions for the EMF Camp Tildagon badge') and issue #2 that the rotation commit references ('Flan wings are at wrong angle... 30 degrees offset'). Every field and body sentence is supported: folder contains exactly outline.dxf, volume.scad, volume.stl with no README/photos; commits dated 2024-05-27 (initial) and 2024-05-31 (30-degree rotation fix, closes issue #2); README lists this alongside Le Carnard de Bleu, Maker Space badge, and Rabbit as the repo's four Tildagon hexpansions. No contradictions found. Shape (wings) and theme (anime/pop culture) tags rest on the maker's own folder/commit naming ('Flan Wings') and the Flandre Scarlet/Touhou reference rather than a photo, since no image of a printed unit exists — left as inference, not fact, per the existing notes. get_one.availability: available is a judgment call (nothing is 'bought'; it's a free downloadable print) but no better vocabulary term fits a make-your-own-only item. tech.leds/price/quantity/colors/sao_version remain empty/null because nothing supports a value. Status upgraded from researched to verified."
 last_modified_date: '2026-09-10'
 ---
 

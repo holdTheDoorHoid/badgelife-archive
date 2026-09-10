@@ -16,17 +16,14 @@ functions: Boots into a modular BLE/Wi-Fi app system with a pre-installed "Digit
 look:
   colors: []
   shape: null
-  themes:
-  - cat
-  - retro computer
-  - security
+  themes: []
 tech:
   mcu: ESP32-S3
   leds:
     count: 3
     type: NeoPixel
     note: ''
-  display: 0.96" OLED
+  display: OLED
   connectivity:
   - wifi
   - ble
@@ -91,14 +88,14 @@ sources:
   accessed: '2026-09-10'
   note: 'Corroborating aggregator summary of features.'
 research:
-  status: researched
+  status: verified
   confidence: high
   last_checked: '2026-09-10'
-  notes: Core facts confirmed directly on the maker's own store page and GitHub repo. No HackGDL event exists yet in _data/events.yml, so event was left as 'other'; the con is Hack GDL 2025, held in Guadalajara, Mexico. sao_version and exact quantity made were not stated anywhere found.
+  notes: 'Fact-check pass (2026-09-10): re-fetched the store page, GitHub repo/README, and both badge.gallery pages. Corrected two unsupported claims from the prior pass: tech.display was "0.96\" OLED" but no source (store page, repo README, or the Minino platform README) states a screen size, only "Integrated OLED Screen" — trimmed to "OLED". look.themes listed cat/retro computer/security but none of the sources describe the badge''s look or mascot in those terms (the "cat" theme conflated the maker''s company name, Electronic Cats, with an actual visual theme) — cleared to empty. All other fields (mcu, LEDs, connectivity, battery, price, availability, open-source status, licenses, KiCad tooling, TamaLib-based Tamagotchi game) are directly stated on the maker''s own store page and/or GitHub README and are confirmed. sao_version and exact quantity made remain unstated anywhere found. No HackGDL event exists yet in _data/events.yml, so event stays "other"; the con is Hack GDL 2025, held in Guadalajara, Mexico.'
 last_modified_date: '2026-09-10'
 ---
 
-The Badge HackGDL 2025 is Electronic Cats' official conference badge for Hack GDL 2025, held in Guadalajara, Mexico. Built on the company's "Minino" hardware platform around an ESP32-S3, it pairs BLE and Wi-Fi with a 0.96" OLED screen, three NeoPixel RGB LEDs, four buttons, and a buzzer, and ships with a case and a pre-installed "Digital Tamagotchi" game running on the TamaLib emulator. It runs on three AAA batteries or USB-C power and carries a Shitty Add-On (SAO) connector for expansion.
+The Badge HackGDL 2025 is Electronic Cats' official conference badge for Hack GDL 2025, held in Guadalajara, Mexico. Built on the company's "Minino" hardware platform around an ESP32-S3, it pairs BLE and Wi-Fi with an OLED screen, three NeoPixel RGB LEDs, four buttons, and a buzzer, and ships with a case and a pre-installed "Digital Tamagotchi" game running on the TamaLib emulator. It runs on three AAA batteries or USB-C power and carries a Shitty Add-On (SAO) connector for expansion.
 
 Electronic Cats sold the badge through their online store for $20 (discounted from a $50 list price), listed as available on backorder as of this check. Hardware and firmware are both open source: schematics and a KiCad-based design are published under the CERN Open Hardware License v1.2, and the ESP-IDF-based Minino firmware is released under the GNU AGPL v3.0, all in the `badge-hackgdl-2025` GitHub repository.
 

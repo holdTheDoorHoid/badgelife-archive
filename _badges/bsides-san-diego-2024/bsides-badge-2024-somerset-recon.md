@@ -27,7 +27,7 @@ tech:
     count: 1
     type: null
     note: Single red LED indicates when the badge is in attack mode.
-  display: null
+  display: LCD
   connectivity:
   - ble
   - uart
@@ -46,11 +46,15 @@ make_your_own:
   hardware_url: https://github.com/Somerset-Recon/bsides-badge-2024/tree/main/kiCad
   firmware_url: https://github.com/Somerset-Recon/bsides-badge-2024/tree/main/software
   eda_tool: KiCad
+  notes: No license file was found in the repository; treat reuse terms as unclear despite the source being public.
 links:
 - label: github.com/Somerset-Recon/bsides-badge-2024
   url: https://github.com/Somerset-Recon/bsides-badge-2024
   kind: repo
   archived: https://web.archive.org/web/20260907104727/https://github.com/Somerset-Recon/bsides-badge-2024
+- label: www.youtube.com/watch?v=Aaj1mk2d6ak
+  url: https://www.youtube.com/watch?v=Aaj1mk2d6ak
+  kind: video
 images:
 - file: assets/images/badges/bsides-san-diego-2024/bsides-badge-2024-somerset-recon/f86208f12d.jpg
   source: https://github.com/Somerset-Recon/bsides-badge-2024
@@ -60,8 +64,17 @@ images:
   source: https://github.com/Somerset-Recon/bsides-badge-2024
   credit: Somerset Recon
   caption: Back of the BSides San Diego 2024 badge
+- file: assets/images/badges/bsides-san-diego-2024/bsides-badge-2024-somerset-recon/f86208f12d.jpg
+  source: https://github.com/Somerset-Recon/bsides-badge-2024
+  credit: Somerset Recon
+  caption: Front of the BSides San Diego 2024 badge PCB
+- file: assets/images/badges/bsides-san-diego-2024/bsides-badge-2024-somerset-recon/7c24076c42.jpg
+  source: https://github.com/Somerset-Recon/bsides-badge-2024
+  credit: Somerset Recon
+  caption: Back of the BSides San Diego 2024 badge PCB
 contact: {}
-notes: []
+notes:
+- 'The event-year sweep filed this under BSides Orlando 2024, but the linked video ("Badge Life: Making of the BSides 2024 Badge From Start to Finish," Somerset Recon) and the badge''s own GitHub README both identify it as the BSides San Diego 2024 badge, distributed to ~400 attendees there, not an Orlando badge. Event corrected accordingly. This appears to duplicate the existing entry bsides-san-diego-2024-bsides-badge-2024-somerset-recon, which already documents this same Somerset Recon badge; no evidence of a distinct BSides Orlando 2024 electronic badge was found in this pass.'
 status: released
 sources:
 - kind: url
@@ -75,12 +88,17 @@ sources:
   title: 'Somerset-Recon/bsides-badge-2024: README'
   accessed: '2026-09-07'
   note: Confirmed maker, event (BSides San Diego 2024), 400 units distributed, ESP32-C3, BLE rock-paper-scissors gameplay, WOPR/UART CTF challenges, red attack-mode LED, KiCad hardware + Arduino firmware open source, flashing instructions.
+- kind: url
+  url: https://www.youtube.com/watch?v=Aaj1mk2d6ak
+  title: 'Badge Life: Making of the BSides 2024 Badge From Start to Finish'
+  accessed: '2026-09-10'
+  note: Talk description names Somerset Recon and a 400-attendee conference; identifies the badge as BSides San Diego 2024, not Orlando.
 research:
   status: verified
   confidence: high
   last_checked: '2026-09-07'
-  notes: 'Fact-check pass (2026-09-07): re-fetched the GitHub repo page and raw README and confirmed every populated field and every factual sentence in the body/Make-your-own section against them (event, maker, 400-unit free distribution, ESP32-C3, BLE rock-paper-scissors mechanic, red attack-mode LED, UART/SAO WOPR CTF with Global Thermonuclear War and Tic-Tac-Toe, open-source KiCad hardware + Arduino firmware, flashing steps, and the later-firmware glitch name display). Both saved images exist on disk and the repo page confirms it hosts front/back badge photos. No event id exists in events.yml for "BSides San Diego 2024" specifically (only the generic "bsides-2024"), so event was left as bsides-2024. Display hardware, exact LED part/type, SAO header version, battery, and price/cost remain unstated in any source found and are correctly left empty.'
-last_modified_date: '2026-09-07'
+  notes: 'Fact-check pass (2026-09-07): re-fetched the GitHub repo page and raw README and confirmed every populated field and every factual sentence in the body/Make-your-own section against them (event, maker, 400-unit free distribution, ESP32-C3, BLE rock-paper-scissors mechanic, red attack-mode LED, UART/SAO WOPR CTF with Global Thermonuclear War and Tic-Tac-Toe, open-source KiCad hardware + Arduino firmware, flashing steps, and the later-firmware glitch name display). Both saved images exist on disk and the repo page confirms it hosts front/back badge photos. No event id exists in events.yml for "BSides San Diego 2024" specifically (only the generic "bsides-2024"), so event was left as bsides-2024. Display hardware, exact LED part/type, SAO header version, battery, and price/cost remain unstated in any source found and are correctly left empty. Merged with duplicate entry ''BSides San Diego 2024 Badge'' (bsides-san-diego-2024-bsides-orlando-2024-badge).'
+last_modified_date: '2026-09-10'
 model:
   file: assets/models/bsides-2024/bsides-badge-2024-somerset-recon.glb
   method: kicad
@@ -89,6 +107,7 @@ model:
   bytes: 255176
 redirect_from:
 - /badges/bsides-2024/bsides-badge-2024-somerset-recon/
+- /badges/bsides-san-diego-2024/bsides-orlando-2024-badge/
 ---
 
 Somerset Recon built this badge for BSides San Diego 2024, distributing 400 units to attendees. It runs on an ESP32-C3 and centers on a wireless rock-paper-scissors game played over Bluetooth Low Energy: a red LED marks a badge as being in "attack" mode, and pressing the scan button lets it search out and connect to nearby badges sitting in "defend" mode, scoring points for time spent connected to a target.
@@ -98,3 +117,11 @@ Layered on top of the game is a WarGames-themed CTF: hidden challenges are reach
 ## Make your own
 
 Hardware (KiCad schematics and Gerbers) and firmware (Arduino sketches plus a required Ticker library) are both published in the GitHub repo under separate `kiCad` and `software` folders. To reflash a badge: install the Ticker library from the repo (not the Arduino Library Manager's version), open `latest.ino` in the Arduino IDE, install the "esp32" board package by Espressif, connect via a 6-pin legless TAG-Connect probe to the badge's TAG port, select the "ESP32C3 Dev Module" board, and upload.
+
+## Notes merged from the duplicate entry "BSides San Diego 2024 Badge"
+
+Somerset Recon built this ESP32-C3 badge for BSides San Diego 2024, where about 400 were handed out to attendees. On the surface it is a wireless rock-paper-scissors game: badges scan for each other over Bluetooth Low Energy, and players pick an attack or defend stance (signaled by a single red LED) to battle for points, with an LCD screen showing game status and player names.
+
+Underneath, the badge hides a second layer of content: a set of WarGames-themed hacking challenges, including a Global Thermonuclear War-style game and a tic-tac-toe match, reachable only over a UART connection broken out through the badge's SAO connector. The maker's GitHub repository publishes the KiCad hardware design and the ESP32-C3 firmware, along with writeups and photos of the finished board, though no license is stated for either.
+
+The event-year sweep that created this entry attached it to BSides Orlando 2024 based on a search snippet, but every source found in this pass points to BSides San Diego 2024 instead, and the badge appears to already have its own entry in the archive under that event.

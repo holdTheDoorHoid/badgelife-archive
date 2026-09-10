@@ -10,8 +10,8 @@ event: saintcon-2023
 year: 2023
 makers:
 - name: Sh33pr0ck
-summary: 'A personal-category SAINTCON 2023 minibadge celebrating the Kansas City Chiefs.'
-functions: 'Single LED (D1); no interactive functions beyond lighting up once soldered.'
+summary: A personal-category SAINTCON 2023 minibadge celebrating the Kansas City Chiefs.
+functions: Single LED (D1); no interactive functions beyond lighting up once soldered.
 look:
   colors: []
   shape: null
@@ -23,7 +23,7 @@ tech:
   leds:
     count: 1
     type: null
-    note: 'Single LED at position D1; back of the board notes the green dot/line on the LED goes toward the enclosed side of D1.'
+    note: Single LED at position D1; back of the board notes the green dot/line on the LED goes toward the enclosed side of D1.
   display: null
   connectivity: []
   battery: null
@@ -31,11 +31,11 @@ tech:
 get_one:
   price: ''
   price_usd: null
-  quantity: '0 (maker-reported quantity made; see notes)'
+  quantity: 0 (maker-reported quantity made; see notes)
   availability: unknown
   distribution:
   - swap
-  where: 'Trade with the maker (Sh33pr0ck) or ask them directly; not sold.'
+  where: Trade with the maker (Sh33pr0ck) or ask them directly; not sold.
 make_your_own:
   open_source: null
   hardware_url: null
@@ -47,13 +47,13 @@ links:
   kind: website
 images:
 - file: assets/images/badges/saintcon-2023/kcfox/406fc8cfcc.png
-  source: "https://minibadge.wiki/?search=KCfox&year=2023"
-  credit: "Sh33pr0ck"
-  caption: "Front of the KCfox minibadge"
+  source: https://minibadge.wiki/?search=KCfox&year=2023
+  credit: Sh33pr0ck
+  caption: Front of the KCfox minibadge
 - file: assets/images/badges/saintcon-2023/kcfox/6a830fcee9.png
-  source: "https://minibadge.wiki/?search=KCfox&year=2023"
-  credit: "Sh33pr0ck"
-  caption: "Back of the KCfox minibadge, showing soldering instructions"
+  source: https://minibadge.wiki/?search=KCfox&year=2023
+  credit: Sh33pr0ck
+  caption: Back of the KCfox minibadge, showing soldering instructions
 contact: {}
 notes:
 - 'category: Personal; rarity: Super Rare'
@@ -66,14 +66,15 @@ sources:
   note: 'Found by the archive''s discovery sweep (angle: SAINTCON minibadges (via minibadge.wiki community database)); event read as ''SAINTCON 2023''.'
 - kind: url
   url: https://minibadge.wiki/2023.json
-  title: 'Minibadge Wiki 2023 data (KCfox entry)'
+  title: Minibadge Wiki 2023 data (KCfox entry)
   accessed: '2026-09-07'
   note: 'Underlying JSON record for the KCfox listing: description, soldering instructions, difficulty, quantity made, category, how to acquire, rarity, and submission timestamp.'
+  archived: https://web.archive.org/web/20260611102022/http://minibadge.wiki/2023.json
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'All facts come from the maker-submitted record on minibadge.wiki (a community-run SAINTCON minibadge database), not from the maker''s own site or social profile, so confidence is medium rather than high. The listing gives quantityMade as 0, which likely means the maker did not report a count rather than that none exist (it is a personal give-away/trade badge per "howToAcquire"). No MCU/board-house/price/open-source info was published. No separate maker page or repo was found for Sh33pr0ck to cross-check against.'
+  notes: All facts come from the maker-submitted record on minibadge.wiki (a community-run SAINTCON minibadge database), not from the maker's own site or social profile, so confidence is medium rather than high. The listing gives quantityMade as 0, which likely means the maker did not report a count rather than that none exist (it is a personal give-away/trade badge per "howToAcquire"). No MCU/board-house/price/open-source info was published. No separate maker page or repo was found for Sh33pr0ck to cross-check against.
 last_modified_date: '2026-09-07'
 ---
 

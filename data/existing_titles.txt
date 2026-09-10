@@ -35,12 +35,12 @@ bsides-adelaide-2025-the-falken-wombat-badge-2 | The FALKEN Wombat Badge 2 | Hac
 bsides-adelaide-2026-wombat-3 | Wombat 3 | Hackerware.io
 bsides-augusta-2019-bsides-augusta-2019-badge | BSides Augusta 2019 Badge | David Ray / Ashwin Hamal (David Ray Electronics and More / Cyber City Circuits)
 bsides-augusta-2021-bsides-augusta-2021-sao-badge-kit | BSides Augusta 2021 SAO Badge Kit | Cyber City Circuits
-bsides-augusta-2023-bsidesaugusta-0xa-circuit-board-badge | BSidesAugusta 0xA Circuit Board Badge | BSidesAugusta (badgelife-style circuit board badge)
+bsides-augusta-2023-bsidesaugusta-0xa-circuit-board-badge | BSidesAugusta 0xA Circuit Board Badge | BSidesAugusta
 bsides-boise-2017-bsides-boise-2017-electronic-badge | BSides Boise 2017 Electronic Badge | BSides Boise 2017 Badge team
 bsides-bournemouth-2025-bsides-bournemouth-2025-skull-badge | BSides Bournemouth 2025 Skull Badge | Punk Security
 bsides-canberra-2016-bsidescbrbadge2016-arduino-running-order-badge | BSides Canberra 2016 badge | Ingmar M. ("Iggy")
 bsides-canberra-2018-busside | BUSSide | Silvio Cesare, InfoSect
-bsides-canberra-2019-nopia-1337 | Nopia 1337 | Peter Rankin (BSidesCbr)
+bsides-canberra-2019-nopia-1337 | Nopia 1337 | Peter Rankin (ec0 / Pete)
 bsides-canberra-2021-bsides-canberra-2020-2021-badge-samd21-esp32-e-paper-badge | BSides Canberra 2020/2021 badge (SAMD21/ESP32 e-paper badge) | Penten, BSidesCbr
 bsides-canberra-2023-bpod | bPod | Peter Rankin (pjranki)
 bsides-canberra-2024-bsides-canberra-2024-orc-blinky-badge | BSides Canberra 2024 orc blinky badge | BSides Canberra
@@ -75,10 +75,8 @@ bsides-nashville-2026-bsides-nashville-2026-conference-badge | BSides Nashville 
 bsides-orlando-2018-security-b-sides-orlando-2018-badge | Security B-Sides Orlando 2018 Badge | Jonathan Singer, Heather Lawrence
 bsides-orlando-2019-security-b-sides-orlando-2019-badge | Security B-Sides Orlando 2019 Badge | Jonathan Singer
 bsides-orlando-2023-bsides-orlando-2023-badge-rise-of-the-robots | BSides Orlando 2023 Badge (Rise of the Robots) | BSides Orlando
-bsides-orlando-2023-ironwood-cyber-mark-ii-arc-reactor-badge-bsides-orlando-2023 | Ironwood Cyber 'Mark II' Arc Reactor Badge (BSides Orlando 2023 fundraiser) | Ironwood Cyber
-bsides-orlando-2024-bsides-orlando-2024-badge | BSides Orlando 2024 Badge | Unknown (BSides Orlando badge team, presented in 'Badge Life' talk)
+bsides-orlando-2023-order-of-the-golden-grin-order-of-the-toothy-grin-exclusive | Termigator SAO Hat (Order of the Golden Grin / Order of the Toothy Grin exclusive) | BSides Orlando
 bsides-orlando-2025-bsides-orlando-2025-badge | BSides Orlando 2025 Badge | Jose Rodriguez
-bsides-orlando-2025-order-of-the-golden-grin-order-of-the-toothy-grin-exclusive | Order of the Golden Grin / Order of the Toothy Grin exclusive SAO | BSides Orlando
 bsides-orlando-2026-bsides-orlando-2026-badge | BSides Orlando 2026 Badge | BSides Orlando
 bsides-perth-2017-bsides-perth-2017-wemos-badge | BSides Perth 2017 Badge | BSides Perth
 bsides-perth-2018-bsides-perth-2018-nodemcu-badge | BSides Perth 2018 NodeMCU badge | BSides Perth
@@ -98,7 +96,6 @@ bsides-san-diego-2020-bsides-sd-2020-badge | BSides SD 2020 Badge | S. Hollingsw
 bsides-san-diego-2024-bsides-badge-2024-somerset-recon | bsides-badge-2024 (Somerset Recon) | Somerset Recon
 bsides-san-diego-2025-bsides-san-diego-2025-badge | BSides San Diego 2025 Badge | Electronic Cats
 bsides-san-diego-2026-bsides-san-diego-2026-cyberpunk-bunny-badge | BSides San Diego 2026 Cyberpunk Bunny Badge | Electronic Cats
-bsides-san-francisco-2023-bsidessf-23-badge | BSidesSF '23 Badge | Abhinav Pandagale
 bsides-san-francisco-2024-bsidessf-2024-electronic-badge-attribution-game | BSidesSF 2024 Electronic Badge (Attribution Game) | Joe FitzPatrick (securityfitz), rlc4, lanrat, securelyfitz
 bsides-seattle-2018-bsides-seattle-2018-electronic-badge | BSides Seattle 2018 electronic badge | Black Lodge Research
 bsides-seattle-2025-bsides-seattle-2025-badge | BSides Seattle 2025 badge | Electronic Cats
@@ -122,9 +119,9 @@ bsidesdfw-2024-bsidesdfw-2024-badge | BSidesDFW 2024 Badge | hon1nbo, ibi5, Bear
 bsidespr-2016-bsides20016badge-stm32f0-cortex-m0-led-matrix | BSides20016Badge (STM32F0/Cortex-M0, LED matrix) | soynerdito
 bsidespr-2019-bsidespr-2019-badge-luffy-badge-diy-attiny13a-kit | BSidesPR 2019 Badge (DIY ATtiny13A kit) | soynerdito
 bsidespr-2024-bsidespr-taino-sun-badge | BSidesPR Taino Sun Badge | So11Deo6loria / BSides Puerto Rico badge team
-cactuscon-2014-cactuscon-2014-pcb-badge | CactusCon 2014 PCB Badge | HeatSync Labs
+cactuscon-2014-cactuscon-2014-pcb-badge | CactusCon 2014 PCB Badge (Cactar) | Erik Wilson, HeatSync Labs
 cactuscon-2017-cactuscon-2017-wi-fi-bluetooth-scanner-badge | CactusCon 2017 Wi-Fi/Bluetooth Scanner Badge | CactusCon
-cactuscon-2018-cactuscon-2018-paid-badge | CactusCon 2018 Paid Badge | CactusCon
+cactuscon-2018-cactuscon-2018-paid-badge | CactusCon 2018 Badge (CactusCoin) | Erik Wilson
 cactuscon-2019-cactuscon-8-electronic-badge-2019 | CactusCon 8 Electronic Badge (2019) | CactusCon
 cactuscon-2023-cactuscon-11-badge-2023 | CactusCon 11 Badge (2023) | Badge Pirates
 cactuscon-2024-cactuscon-12-badge-2024 | CactusCon 12 Badge (2024) | Badge Pirates
@@ -223,7 +220,7 @@ dc25-sympetrum-v2 | Sympetrum v2 | borgel
 dc25-team-bazooka-vfd-badge-dc25 | Team Bazooka VFD Badge (DC25) | Team Bazooka
 dc25-the-ides-of-defcon | The Ides of Defcon | John Adams, Bill Paul, Egan Hirvela, Matthew Harris
 dc25-the-ides-of-defcon-an-unofficial-electronic-badge | The ides of DEFCON: An Unofficial Electronic Badge | John Adams
-dc25-tindie-blinky-led-badge-v1 | Tindie Blinky LED Badge v1 | Jasmine Brackett, Shulie Tornel
+dc25-tindie-blinky-led-badge-v1 | Tindie Blinky LED Badge v1 | Brian Benchoff, Jasmine Brackett, Brandon Rexius
 dc26-0x0g-badge-google-dc26 | 0x0G Badge (Google, DC26) | Google
 dc26-2018-cl4p-tr4p-sao | 2018 CL4P_TR4P SAO | SparX
 dc26-2018-defcon-badge-add-on-badge-for-def-con-26 | 2018_defcon_badge — Add-on badge for DEF CON 26 | HexaKhan, BK
@@ -602,7 +599,7 @@ dc31-dc801-listed-for-def-con-31-no-details | DC801 (listed for DEF CON 31, no d
 dc31-dc813-listed-for-def-con-31-no-details | DC813 (listed for DEF CON 31, no details) | DC813
 dc31-def-con-shoot-31-badge | DEF CON Shoot 31 Badge | seeess
 dc31-defcon-subreddit-sao | DEFCON Subreddit SAO | MetaN3rd
-dc31-dnd-d20-badge | DnD D20 Badge | KernalKrash
+dc31-dnd-d20-badge | DnD D20 Badge | KernelKrash
 dc31-e-computer-sao | E-Computer SAO | NilbinSec, 2PAC, Anxious Analyst
 dc31-eff-certbot-sao | EFF Certbot SAO | 
 dc31-eff-privacy-badger-badge | EFF Privacy Badger badge | Verbaal and H4r0ld (House of Hacker Horrors)
@@ -647,7 +644,7 @@ dc31-plumbus-bfb | DC31 Plumbus BFB | hexum064, pinguino, erin
 dc31-prismatic-shard-sao-for-dc-xxxi-badge | Prismatic Shard SAO for DC XXXI badge | Cyber Circuitry
 dc31-puzzle-sao | Puzzle SAO | BlackGirlsHack
 dc31-rav4-plate-and-holder | RAV4 Plate and Holder | Mintynet
-dc31-red-society-club-inaugural-badge | Red Society Club Inaugural Badge | Red Society Club
+dc31-red-society-club-inaugural-badge | RSC Jellyfish Badge | Red Society Club, Jaime Lightfoot
 dc31-rgb-addon-addon-for-dc31-badge-true-s-addon-addon | RGB Addon Addon for DC31 Badge (true's Addon Addon) | trueControl (true)
 dc31-rogue-s-village-listed-for-def-con-31-no-details | Rogue's Village (listed for DEF CON 31, no details) | Rogue's Village
 dc31-rtv-pip-boy | DC31 RTV "Pip-Boy" | Red Team Village
@@ -760,7 +757,6 @@ dc32-grrcon-designed-by-hak4kids-listed-for-def-con-32-no-details | GrrCON (desi
 dc32-gundam-morty-sao | Gundam Morty SAO | Hak4Kidz
 dc32-h4rl0d-of-lhc-fame-and-other-fames-too-listed-for-def-con-32 | H4rl0d (of LHC fame...and other fames too) (listed for DEF CON 32, no details) | H4rl0d (of LHC fame...and other fames too)
 dc32-hackbat-badge | Hackbat Badge | Pablo (thehackbat)
-dc32-hackbat-dc32-badge-variant | Hackbat DC32 Badge Variant | Pablo Trujillo
 dc32-highrollercon-duck-sao | HighRollerCon Duck SAO | Cyber Swamplords
 dc32-highrollercon-quacked-out-duck-sao-mystery-six-variants | HighRollerCon Quacked-Out Duck SAO (mystery, six variants) | Cyber Swamplords
 dc32-https-www-villageb-io-2024badge | First to Rescue | Biohacking Village, SolaSec
@@ -932,7 +928,7 @@ dc33-ninjaican-listed-for-def-con-33-no-details | Ninjaican (listed for DEF CON 
 dc33-nyanbox | nyanBOX | jbohack & zr_crackiin
 dc33-o-r-e-o | O.R.E.O. | Social Engineering Community Village
 dc33-office-of-the-national-cyber-director-i-e-the-feds-listed-fo | Office of the National Cyber Director (i.e., the feds) (listed for DEF CON 33, no details) | Office of the National Cyber Director (i.e., the feds)
-dc33-official-attendee-human-badge | DEF CON 33 official attendee ("Human") badge | Mar Williams (DEF CON art director)
+dc33-official-attendee-human-badge | DEF CON 33 official attendee ("Human") badge | Mar Williams
 dc33-otter-listed-for-def-con-33-no-details | Otter (listed for DEF CON 33, no details) | Otter
 dc33-p0ns-idk-listed-for-def-con-33-no-details | IDK NFC Badge | p0ns/idk
 dc33-power-glove-badge | Power Glove Badge | GizmoLab
@@ -1106,12 +1102,12 @@ emf-camp-2022-tidal | TiDAL | EMF Camp badge team
 emf-camp-2024-emf-badge-interposer-hexpansion | EMF Badge Interposer Hexpansion | Gavin's Creations (gjchester)
 emf-camp-2024-flandre-scarlet-3d-printed-wings-hexpansion | Flandre Scarlet 3D-Printed Wings hexpansion | DanNixon
 emf-camp-2024-le-carnard-de-bleu-hexpansion | Le Carnard de Bleu hexpansion | DanNixon
+emf-camp-2024-protoboard-hexpansion | Protoboard Hexpansion | Jake Walker
 emf-camp-2024-rabbit-hexpansion | Rabbit hexpansion | DanNixon
 emf-camp-2024-screen-hexpansion | Screen Hexpansion | Mat Booth
 emf-camp-2024-tildagon-emf-camp-2024-badge | Tildagon (EMF Camp 2024 Badge) | EMF Camp badge team
 emf-camp-2024-tildagon-qwerty-hexpansion | Tildagon QWERTY Hexpansion | Alex (EastMakes)
 emf-camp-2026-gps-hexpansion | GPS Hexpansion | TechCabin, The Machine Shop
-emf-camp-2026-protoboard-hexpansion | Protoboard Hexpansion | Jake Walker
 emf-camp-2026-sound-to-light-for-emf-tildagon-badge | Sound to Light for EMF Tildagon Badge | Tony Goacher
 emf-camp-2026-spaceagon | Spaceagon | EMF Camp badge team
 emf-camp-2026-tildagon-hexpansion-keyboard | Keebdexpansion (Tildagon Hexpansion Keyboard) | davedarko, sodoku, kliment, Arturo182 (solder.party)
@@ -1128,13 +1124,13 @@ fri3d-2022-fri3d-badge-2020 | Fri3d Badge 2020 | Fri3d Camp
 fri3d-2022-fri3d-camp-2022-badge | Fri3d Camp 2022 Badge | Fri3d Camp
 fri3d-2022-gameon-fri3d-2022-gamepad-add-on | GameOn (Fri3d 2022 gamepad add-on) | Wim Van Gool / Fri3d Camp
 fri3d-2022-time-blaster | Time Blaster | Fri3d Camp — Wim Van Gool (Brubacker), Hans Polders
-fri3d-2024-communicator-2024-add-on-lana-module | Communicator (2024 add-on, LANA Module) | Fri3d Camp
+fri3d-2024-communicator-2024-add-on-lana-module | Communicator (2024 add-on) | Fri3d Camp
 fri3d-2024-flamingo-blaster-2024-big-flamingo-gun-9000 | Flamingo (Blaster 2024 / "Big Flamingo Gun 9000") | Fri3d Camp
 fri3d-2024-fri3d-camp-2024-badge | Fri3d Camp 2024 Badge | Fri3d Camp
 fri3d-2024-noisy-cricket | Noisy Cricket | Fri3d Camp
 fri3d-2026-fri3d-camp-2026-badge | Fri3d Camp 2026 Badge | Fri3d Camp
-fri3d-2026-lora-expansion-2026-wio-sx1262 | LoRa Expansion (2026, Wio-SX1262) | Fri3d Camp / Seeed Studio
-fri3d-2026-sao-mirror-2026 | SAO Mirror (2026) | Fri3d Camp
+fri3d-2026-lora-expansion-2026-wio-sx1262 | LoRa Kit (2026, Wio-SX1262) | Fri3d Camp, Seeed Studio
+fri3d-2026-sao-mirror-2026 | SaO Mirror (2026) | Fri3d Camp
 fri3d-2026-tof-add-on-2026 | ToF Add-on (2026) | Fri3d Camp
 gpn-2022-teebeutel-gpn20-conference-badge | Teebeutel | Entropia e.V.
 grrcon-2013-grrcon-2013-badge | GrrCON 2013 Badge | GRMakers
@@ -1148,6 +1144,7 @@ h2hc-2018-h2hc-2018-badge | H2HC 2018 Badge | security-bits.de (Brian)
 h2hc-2022-h2hc-2022-badge | H2HC 2022 Badge | security-bits.de (Brian)
 h2hc-2023-h2hc-2023-game-boy-badge | H2HC 2023 Game Boy Badge | brian
 h2hc-2024-h2hc-2024-hacker-id-card | H2HC 2024 Hacker ID Card | security-bits.de (Brian)
+hackaday-belgrade-2018-atari-emulator-for-hackaday-badge | Atari Emulator for Hackaday Badge | Max
 hackaday-berlin-2023-hackaday-berlin-2023-voja4-badge | Hackaday Berlin 2023 Voja4 Badge | Voja Antonic
 hackaday-europe-2024-vectorscope-synth | Vectorscope-Synth | softegg
 hackaday-europe-2024-vectorscopemusicaddon | VectorScopeMusicAddon | davedarko
@@ -1198,12 +1195,12 @@ kernelcon-2026-kernelcon-2026-off-grid-badge | Kernelcon 2026 Off Grid Badge | Z
 kiwicon-2015-kiwicon-quackery-badge | Kiwicon Quackery Badge | Peter Fillmore
 layerone-2015-layerone-2015-dual-electronic-badges-attendee-speaker-staff | LayerOne 2015 Dual Electronic Badges (Attendee + Speaker/Staff) | charliex, null space labs
 layerone-2015-layerone-demoscene-demoboard | LayerOne Demoscene Board | arko
-layerone-2016-layerone-2016-conference-badge | LayerOne 2016 Conference Badge | LayerOne / null space labs
+layerone-2016-layerone-2016-conference-badge | LayerOne 2016 Conference Badge | charliex, mmca
 layerone-2018-layerone-2018-esp32-alexa-badge | LayerOne 2018 Badge (Mr. Meeseeks) | LayerOne / null space labs
 layerone-2019-layerone-2019-voight-kampff-badge | LayerOne 2019 Voight-Kampff Badge | LayerOne / null space labs
-layerone-2023-layerone-2023-pic-hid-badge | LayerOne 2023 PIC HID Badge | LayerOne
-layerone-2024-layerone-2024-pov-spinner-badge | LayerOne 2024 POV Spinner Badge | LayerOne
-layerone-2025-layerone-2025-glitch-badge | LayerOne 2025 GLiTCh BadgE | LayerOne
+layerone-2023-layerone-2023-pic-hid-badge | LayerOne 2023 PIC HID Badge | charliex, LayerOne
+layerone-2024-layerone-2024-pov-spinner-badge | LayerOne 2024 POV Spinner Badge | charliex
+layerone-2025-layerone-2025-glitch-badge | LayerOne 2025 GLiTCh BadgE | Null Space Labs, LayerOne Hardware Hacking Village
 layerone-2026-layerone-2026-three-button-keyboard-badge | LayerOne 2026 Three-Button Keyboard Badge | KRS, mmca, charliex
 lehack-2023-lehack-2023-access-badge | leHACK 2023 Access Badge | Energumene
 lehack-2024-cool-kid-s-badge | Cool Kid's Badge | Tixlegeek (cyberpunk.company)
@@ -1247,6 +1244,7 @@ open-sauce-2024-open-sauce-2024-badge | Open Sauce 2024 Badge | DC Punks
 open-sauce-2025-open-sauce-2025-badge | Open Sauce 2025 Badge | Open Sauce (with DigiKey/PCBWay)
 open-sauce-2026-knitronics-add-on-badge-for-open-sauce-2026 | Knitronics Add-on Badge for Open Sauce 2026 | knitronics
 open-sauce-2026-open-sauce-2026-badge | Open Sauce 2026 Badge | Caleb Marting (with Gerard Hudson)
+open-sauce-2026-open-sauce-vu-meter-badge | Open Sauce 2026 VU Meter Badge | miekush
 oshwdem-2017-oshwi-badge-2017 | Oshwi Badge | Gustavo Reynaga (hulkco)
 oshwdem-2017-oshwi-octopus-iot-badge | Oshwi, the octopus IoT Badge | Gustavo Reynaga (Hulkco)
 oshwdem-2019-oshwdem-2019-badge-oshwi-2019 | OSHWDem 2019 Badge (Oshwi 2019) | akirasan (Jorge)
@@ -1284,7 +1282,7 @@ other-biohack-me-badge | biohack.me badge | tekniklr (oshwlab handle)
 other-blinkybracelet | BlinkyBracelet | Nisha K.
 other-brainy-the-brain-badge | Brainy - The Brain badge | Danny Fernandez Raygoza
 other-brushless-motor-biz-card | Brushless Motor Biz Card | ageppert
-other-bsides-indore-badge | BSides Indore Badge | Panda (HacksFromPanda) for Aditya Rai/BSides Indore
+other-bsides-indore-badge | The BSides Indore Badge | Abhinav SP (Hackerware.io / HacksFromPanda)
 other-bsides-kc-2022-badge-ray-gun-shaped-pcb | BSides KC 2022 badge (ray-gun shaped PCB) | BadgePirates
 other-bsidesbasic-2017 | Flux Capacitor Badge (BsidesBASIC-2017) | Dale Nunns
 other-bsidesif-badge-2022 | bsidesif-badge-2022 | wrigjl
@@ -1395,7 +1393,6 @@ other-nerdflarebadge25 | NerdFlareBadge25 | NerdFlare
 other-notcamera-sao-rma-badge | NotCamera SAO (RMA Badge) | wrickert
 other-nyan-pirate | Nyan Pirate | securelyfitz
 other-nyansao | nyanSAO | Nyan Devices
-other-open-sauce-vu-meter-badge | Open Sauce VU Meter Badge | miekush
 other-osh-park-shared-project-rb3wuxmt | Lucky Oshcat | twinkletwink, fustini
 other-oshwi-badge-2019 | Oshwi ESP32 / Oshwi M0 (2019) | Gustavo Reynaga (hulkco)
 other-pcb-keychain-unicorn | PCB Keychain Unicorn | Alee (Tindie: alee97422)
@@ -1418,7 +1415,7 @@ other-rickbadge-pcb-badge-for-puerto-rico-hacker-community-bsides | RickBadge �
 other-rickrio | RickRio | wrickert
 other-robot-bank-sao-badge-add-on | Robot Bank - SAO Badge Add On | blinkingthing
 other-rocket-sao-v1-1 | Rocket SAO v1.1 | Alee (Tindie: alee97422)
-other-rootcon-19-badge | ROOTCON 19 Badge | ROOTCON
+other-rootcon-19-badge | ROOTCON 2025 Badge | Electronic Cats, ROOTCON
 other-rotc0n-badge | rotc0n badge | C0ldbru / Rot13 Labs
 other-rp2040-led-cat-pcb-badge-cyb3rbytes-mini-defcon-badge | RP2040-LED-Cat-PCB-badge — Cyb3rBytes mini-DefCon badge | Cyb3rBytes404
 other-rsa-sandbox-badge | RSA Sandbox Badge | Hackerware.io
@@ -1482,8 +1479,7 @@ other-xmas-id-badge-flair | xmas id badge (flair) | tactical_snacks
 other-yo-dawg-saoao-baseplate-standard | Yo Dawg SAOAO baseplate/standard | davedarko
 phdays-2024-phdays-badge-2024 | PHDays Badge (2024) | Positive Labs / Positive Technologies
 phdays-2025-phdays-badge-2025 | PHDays Badge 2025 | Positive Labs / Positive Technologies
-queercon-2012-queercon-gaydar-badge | Queercon "GayDar" Badge | Queercon
-queercon-2013-queercon-10-badge | Queercon 10 Badge | Queercon
+queercon-2013-queercon-gaydar-badge | Queercon "GayDar" Badge | Queercon, George Louthan, Evan G Mackay
 queercon-2014-queercon-11-badge | Queercon 11 Badge | Queercon
 queercon-2015-queercon-12-badge-qc12 | Queercon 12 badge (QC12) | George Louthan (duplico), animations by Jonathan Nelson
 queercon-2016-queercon-13-badge-squid-cuttlefish-badge | Queercon 13 badge (squid/cuttlefish badge) | Evan Mackay, George Louthan, Jonathan Nelson, Jason Painter
@@ -1550,9 +1546,9 @@ saintcon-2021-red-team | RED TEAM | Jup1t3r
 saintcon-2021-rfid-nfc-badge | RFID/NFC BADGE | Jup1t3r
 saintcon-2021-saintcon-2021-badge-compukidmike | SAINTCON 2021 badge (compukidmike) | compukidmike, Professor_Plum, Sodium_Hydrogen
 saintcon-2021-saintcon-2021-hhc-level-1-mini-badge | SAINTCON 2021 HHC (Level 1) mini-badge | unknown
-saintcon-2021-saintcon-2021-level-2-mini-badge-crossed-irons | SAINTCON 2021 Level 2 mini-badge (crossed irons) | unknown
-saintcon-2021-saintcon-2021-level-3-mini-badge-3-fairies | SAINTCON 2021 Level 3 mini-badge (3 Fairies) | unknown
-saintcon-2021-saintcon-2021-puzzle-mini-badge | SAINTCON 2021 Puzzle mini-badge | unknown (Soldering&3Dprinting YouTube channel documents the build)
+saintcon-2021-saintcon-2021-level-2-mini-badge-crossed-irons | SAINTCON 2021 Level 2 mini-badge how to (crossed irons) | unknown
+saintcon-2021-saintcon-2021-level-3-mini-badge-3-fairies | SAINTCON 2021 Level 3 mini-badge how to (3 Fairies) | unknown
+saintcon-2021-saintcon-2021-puzzle-mini-badge | SAINTCON 2021 Puzzle mini-badge | Soldering&3Dprinting (Herushan1)
 saintcon-2021-scavenger-hunt | SCAVENGER HUNT | Jup1t3r
 saintcon-2021-store-badge | STORE BADGE | Jup1t3r
 saintcon-2021-the-vault | THE VAULT | Jup1t3r
@@ -1596,7 +1592,7 @@ saintcon-2022-ray-man-badge-2022-collab | RAY-MAN Badge | CompuKidMike & Ray-Man
 saintcon-2022-red-team-minibadge-2022 | Red Team MiniBadge | Jup1t3r
 saintcon-2022-rfid-nfc-community-badge-2022 | RFID NFC Community Badge | Jup1t3r
 saintcon-2022-saintcon-2022-badge-compukidmike | SAINTCON 2022 badge (compukidmike) | compukidmike
-saintcon-2022-saintcon-2022-minibadge-extension-cover | Saintcon 2022 Minibadge Extension Cover | (Thingiverse user, uploader of thing:5573684)
+saintcon-2022-saintcon-2022-minibadge-extension-cover | Saintcon 2022 Minibadge Extension Cover | compukidmike
 saintcon-2022-saintcon-2022-official-attendee-badge | SAINTCON 2022 official attendee badge | compukidmike
 saintcon-2022-scavenger-hunt-badge-2022 | Scavenger Hunt Badge (2022) | Jup1t3r
 saintcon-2022-smd-challenge-badge | SMD Challenge BADGE | Jup1t3r
@@ -1788,7 +1784,6 @@ supercon-2017-thermal-superconf-2017-badge | Thermal Superconf 2017 Badge | sphe
 supercon-2018-2018-hackaday-superconference-badge | 2018 Hackaday Superconference Badge | Voja Antonic, Jaromir Sukuba, Mike Szczys, phase2682, Tina Belmont, Dusan Petrovic, Roger
 supercon-2018-2018-supercon-proto-re-proto-board | 2018 SuperCon Ⅹ-proto (RE: proto-board) | xBeau
 supercon-2018-another-hackaday-supercon-2018-badge-enclosure | Another Hackaday Supercon 2018 Badge Enclosure | Patrick
-supercon-2018-atari-emulator-for-hackaday-badge | Atari Emulator for Hackaday Badge | Max
 supercon-2018-attention-supercon-addon | ATTENTION! SuperCon AddOn | Morgan, Ben Hencke
 supercon-2018-belgrade-shitty-addon-adapter | belgrade-shitty-addon-adapter | flummer
 supercon-2018-drawbot-badge-a-conference-badge-that-draws | DrawBot_Badge — A Conference Badge that Draws | bdring

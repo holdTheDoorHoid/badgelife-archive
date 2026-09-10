@@ -5,7 +5,7 @@ parent: Badge Archive
 has_children: true
 has_toc: false
 nav_order: 7988
-nav_exclude: false
+nav_exclude: true
 event: queercon-2012
 ---
 # Queercon 2012 (part of DEF CON 20)

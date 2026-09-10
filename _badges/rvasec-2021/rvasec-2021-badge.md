@@ -90,19 +90,25 @@ sources:
   accessed: '2026-09-10'
   note: Blog category listing; confirms no dedicated 2021 badge-announcement post exists (archive jumps from 2019 to later years).
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-10'
   notes: >-
-    Existence confirmed by RVAsec's own 2021 conference recap, which credits
-    Hack.RVA with "an amazing badge," and the conference is independently confirmed
-    to have run in person November 4-5, 2021 at the Omni Richmond Hotel. However,
-    no page carrying 2021-specific technical details (MCU, LEDs, display, price,
-    quantity, or open-source files) or a photo of the badge itself was found.
-    HackRVA's badge-build wiki, which documents other years in detail, has no
-    2021 entry beyond an earlier note expressing doubt the badge would happen
-    at all; it is possible a simpler or scaled-back badge was produced that year
-    without a public writeup. Left tech/look/get_one fields empty rather than guess.
+    Fact-check pass (2026-09-10): every cited source re-fetched and every
+    factual sentence in the entry confirmed against it. RVAsec's 2021 recap
+    page carries the exact quoted phrase "Amazing badge from Hack.RVA."; the
+    HackRVA badge page confirms an annual badge program starting with "our
+    first badges, back in 2020"; the HackRVA wiki confirms verbatim "RVAsec
+    2020 did not happen, but we had some of the badge started" and "it is not
+    looking good for 2021," with no 2021-specific follow-up; the badges
+    category archive confirms no dedicated 2021 post exists (jumps straight
+    from 2019 to later years). The November 4-5, 2021 / Omni Richmond Hotel
+    dates were independently reconfirmed via rvasec.com's own event, hotel,
+    and CFP pages. No non-empty field is unsupported and no image exists to
+    check. Confidence stays low only because no source gives 2021-specific
+    technical details (MCU, LEDs, display, price, quantity, open-source
+    files) or a photo — those fields are correctly left empty, not because
+    anything present is in doubt.
 last_modified_date: '2026-09-10'
 ---
 

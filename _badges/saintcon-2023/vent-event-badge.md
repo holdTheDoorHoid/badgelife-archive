@@ -11,7 +11,7 @@ year: 2023
 makers:
 - name: SHIFTY
 summary: A SAINTCON 2023 event minibadge given out to attendees of the VENT event, a session where security professionals speak and share stories "off the record."
-functions: 'No electronic gameplay; it is a simple LED minibadge marking attendance at the VENT event.'
+functions: No electronic gameplay; it is a simple LED minibadge marking attendance at the VENT event.
 look:
   colors: []
   shape: null
@@ -45,18 +45,18 @@ links:
   url: https://minibadge.wiki/?search=VENT%20EVENT%20BADGE&year=2023
   kind: website
 images:
-  - file: assets/images/badges/saintcon-2023/vent-event-badge/05a56485c7.png
-    source: "https://minibadge.wiki/?search=VENT%20EVENT%20BADGE&year=2023"
-    credit: "SHIFTY"
-    caption: "VENT EVENT minibadge, front"
-  - file: assets/images/badges/saintcon-2023/vent-event-badge/62c7dd9b6a.png
-    source: "https://minibadge.wiki/?search=VENT%20EVENT%20BADGE&year=2023"
-    credit: "SHIFTY"
-    caption: "VENT EVENT minibadge, back"
+- file: assets/images/badges/saintcon-2023/vent-event-badge/05a56485c7.png
+  source: https://minibadge.wiki/?search=VENT%20EVENT%20BADGE&year=2023
+  credit: SHIFTY
+  caption: VENT EVENT minibadge, front
+- file: assets/images/badges/saintcon-2023/vent-event-badge/62c7dd9b6a.png
+  source: https://minibadge.wiki/?search=VENT%20EVENT%20BADGE&year=2023
+  credit: SHIFTY
+  caption: VENT EVENT minibadge, back
 contact: {}
 notes:
 - 'category: Event; rarity: Uncommon'
-- 'Soldering difficulty listed on minibadge.wiki as Beginner; quantity made not stated by the source (recorded as 0/unknown in that database).'
+- Soldering difficulty listed on minibadge.wiki as Beginner; quantity made not stated by the source (recorded as 0/unknown in that database).
 status: listed
 sources:
 - kind: url
@@ -69,11 +69,13 @@ sources:
   title: minibadge.wiki 2023 data (VENT EVENT BADGE record)
   accessed: '2026-09-07'
   note: 'Underlying JSON record behind the search page: description, soldering instructions/difficulty, category, rarity, and how-to-acquire text for the VENT EVENT BADGE by author SHIFTY. Confirms front/back image files.'
+  archived: https://web.archive.org/web/20260611102022/http://minibadge.wiki/2023.json
 research:
   status: verified
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'Fact-check pass (2026-09-07): confirmed every non-empty field and body sentence against the underlying minibadge.wiki/2023.json record (description, category, rarity, soldering difficulty/instructions, and how-to-acquire text all match verbatim/near-verbatim), and confirmed both saved images are the maker''s front/back photos of this exact badge (re-encoded by the fetch script but pixel-identical in content to minibadge.wiki/images/2023/vent-event-badge-front.png and -back.png). The search-page URL in links/sources is a client-rendered SPA that shows no content to a plain fetch (loads its data from the JSON endpoint via JS) - this is a rendering quirk of that site, not a contradiction of any fact in this entry. Only source remains the community-run minibadge.wiki database; no maker page, repo, or chip/LED specifics exist to check further. Quantity made recorded as 0 in the source data, most likely "not tracked" rather than zero produced, so left blank rather than guessed. No independent confirmation of maker SHIFTY''s identity beyond this listing.'
+  notes: 'Fact-check pass (2026-09-07): confirmed every non-empty field and body sentence against the underlying minibadge.wiki/2023.json record (description, category, rarity, soldering difficulty/instructions, and how-to-acquire text all match verbatim/near-verbatim), and confirmed both saved images are the maker''s front/back photos of this exact badge (re-encoded by the fetch script but pixel-identical in content to minibadge.wiki/images/2023/vent-event-badge-front.png and -back.png). The search-page URL in links/sources is a client-rendered SPA that shows no content to a plain fetch (loads its data from the JSON endpoint via JS) - this is a rendering quirk of that site, not a contradiction of any fact in this entry. Only source remains the community-run minibadge.wiki database; no maker page, repo, or chip/LED specifics exist to check further. Quantity made recorded as 0 in the source data, most likely "not tracked" rather than zero produced, so left blank rather than guessed. No independent
+    confirmation of maker SHIFTY''s identity beyond this listing.'
 last_modified_date: '2026-09-07'
 ---
 

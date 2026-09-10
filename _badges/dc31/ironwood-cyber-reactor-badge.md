@@ -8,6 +8,7 @@ nav_exclude: true
 redirect_from:
 - /badges/dc31/iwc/
 - /badges/dc31/arc-reactor-badge-mark-ii/
+- /badges/dc31/ironwood-cyber-mark-ii-arc-reactor-badge-bsides-orlando-2023/
 type: badge
 event: dc31
 year: 2023
@@ -77,6 +78,12 @@ links:
 - label: twitter.com/ironwoodcyber
   url: https://twitter.com/ironwoodcyber
   kind: social
+- label: www.reddit.com/r/Defcon/comments/15bxevh/ironwood_cyber_mark_ii_arc_reactor_badge_auction
+  url: https://www.reddit.com/r/Defcon/comments/15bxevh/ironwood_cyber_mark_ii_arc_reactor_badge_auction/
+  kind: social
+- label: BSides Orlando Hacker Bake Sale announcement (Reddit)
+  url: https://www.reddit.com/r/Defcon/comments/158h4z6/bsides_orlando_hacker_bake_sale/
+  kind: social
 images: []
 contact: {}
 notes:
@@ -85,6 +92,9 @@ notes:
 - 'Duplicate: this badge is also archived separately as dc31-ironwood-cyber-reactor-badge ("Ironwood Cyber Reactor Badge"), migrated directly from the badge.life page at https://badge.life/badges/dc31/iwc/. That entry has the full maker/role credit list, which is merged into this entry''s makers field.'
 - Ironwood Cyber is primarily a Fort Worth, TX cybersecurity company (maker of the Enlight autonomous pentesting platform), founded 2021 by Dr. Aaron Estes and Ethan Puchaty, both former Lockheed Martin Fellows. The DEF CON badges are a side project / community give-back, not their commercial product.
 - The maker refers to this badge internally as the "Mark II," with the DEF CON 30 Tron Badge apparently being the "Mark I" (an announcement post described it as "brighter and bolder than last year's"), though no formal series name is used.
+- Duplicate of existing entry dc31-ironwood-cyber-reactor-badge, which covers the same badge under its home event (DC31). This entry is kept as the BSides Orlando fundraiser angle only.
+- The sweep's original title/event ('BSides Orlando 2023 fundraiser') described how these particular units were distributed, not what the badge was made for; the badge itself is a DEF CON 31 release (see dc31-ironwood-cyber-reactor-badge.md for full technical details).
+- No technical specs (MCU, LEDs, display, price) found on Ironwood Cyber's own site or badge.life page as of this check; badge.life's schematics/source repo/images fields are all marked TODO there too.
 status: released
 sources:
 - kind: url
@@ -113,12 +123,42 @@ sources:
   title: Ironwood Cyber (@IronwoodCyber) on X
   accessed: '2026-09-07'
   note: Maker's social profile; confirms company identity (Enlight platform, Fort Worth TX) but no DEF CON 31 badge-specific posts remain visible in the current feed.
+- kind: url
+  url: https://www.reddit.com/r/Defcon/comments/15bxevh/ironwood_cyber_mark_ii_arc_reactor_badge_auction/
+  title: Ironwood Cyber 'Mark II' Arc Reactor Badge (BSides Orlando 2023 fundraiser)
+  accessed: '2026-09-07'
+  note: 'Found by the archive''s discovery sweep (angle: sweep:bsides-bsides-orlando); event read as ''bsides-orlando-2023''.'
+- kind: url
+  url: https://www.reddit.com/r/Defcon/comments/158h4z6/bsides_orlando_hacker_bake_sale/
+  title: BSides Orlando Hacker Bake Sale
+  accessed: '2026-09-10'
+  note: Confirms Ironwood Cyber donated 10 Arc Reactor badges to BSides Orlando's fundraiser auction for their Oct 6-7 2023 event.
+- kind: url
+  url: https://x.com/BsidesORL/status/1695059887795900747
+  title: 'Bsides Orlando on X: "...bid on the LAST TWO @IronwoodCyber Arc Reactor badges ON THE PLANET..."'
+  accessed: '2026-09-10'
+  note: Supports the "last two badges" quote and auction promotion via X/Twitter. Full post is login-walled; confirmed via search-result snippet quoting the post text directly, not a full page fetch.
+- kind: url
+  url: https://www.linkedin.com/posts/bsidesorl_bsidesorlando-riseoftherobots-cybersecurity-activity-7090019597151584256-B-4K
+  title: Security B-Sides Orlando on LinkedIn - Hacker Bake Sale auction items
+  accessed: '2026-09-10'
+  note: Corroborates the same "LAST TWO Ironwood Cyber Arc Reactor badges" auction listing on LinkedIn. Full post is login-walled; confirmed via search-result snippet only.
+- kind: url
+  url: https://mastodon.social/@BourbonInExile/110741093815706636
+  title: 'Mastodon post referencing @bsidesorlando #HackerBakeSale and an Ironwood Cyber Arc Reactor badge'
+  accessed: '2026-09-10'
+  note: Supports that the auction was also promoted on Mastodon. Full post text not retrievable (fetch returned only a truncated header); confirmed via search-result snippet only.
+- kind: url
+  url: https://www.fullsail.edu/about/full-sail-stories/full-sail-hosts-bsides-orlando-security-conference-on-campus/
+  title: Full Sail Hosts BSides Orlando Security Conference on Campus
+  accessed: '2026-09-10'
+  note: Confirms BSides Orlando 2023 ran October 6-7 at Full Sail University, themed "Rise of the Robots."
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: This entry is a duplicate of dc31-arc-reactor-badge-mark-ii, which already carries fuller research on the maker (Ironwood Cyber, a Fort Worth TX cybersecurity company founded 2021 by Dr. Aaron Estes and Ethan Puchaty) and distribution (~250 made, 175 given away at DEF CON 31/Camp BHIS, remainder via RallyUp charity auctions). Could not confirm technical specs (MCU, LED count/type, connectivity, battery, colors/shape) from any source describing the hardware itself -- the original badge.life page marks schematics/images as TODO and no DC31 hardware repo is public. No usable photo of the badge was found. Merged with duplicate entry 'Arc Reactor badge Mark II' (dc31-arc-reactor-badge-mark-ii).
-last_modified_date: '2026-09-07'
+  notes: This entry is a duplicate of dc31-arc-reactor-badge-mark-ii, which already carries fuller research on the maker (Ironwood Cyber, a Fort Worth TX cybersecurity company founded 2021 by Dr. Aaron Estes and Ethan Puchaty) and distribution (~250 made, 175 given away at DEF CON 31/Camp BHIS, remainder via RallyUp charity auctions). Could not confirm technical specs (MCU, LED count/type, connectivity, battery, colors/shape) from any source describing the hardware itself -- the original badge.life page marks schematics/images as TODO and no DC31 hardware repo is public. No usable photo of the badge was found. Merged with duplicate entry 'Arc Reactor badge Mark II' (dc31-arc-reactor-badge-mark-ii). Merged with duplicate entry 'Ironwood Cyber 'Mark II' Arc Reactor Badge (DEF CON 31)' (dc31-ironwood-cyber-mark-ii-arc-reactor-badge-bsides-orlando-2023).
+last_modified_date: '2026-09-10'
 ---
 ## Developers
 
@@ -154,3 +194,11 @@ Roughly 250 units were made, with about 175 given away at DEF CON 31 and Black H
 Ironwood Cyber, a Fort Worth, Texas cybersecurity company founded in 2021 by former Lockheed Martin Fellows Dr. Aaron Estes and Ethan Puchaty, has made hardware badges for DEF CON as a side project alongside their commercial autonomous-pentesting platform. The Arc Reactor badge (internally called the "Mark II") was their second badge, following the DEF CON 30 Tron Badge, and the team announced it in July 2023 as "brighter and bolder than last year's." It was built by a small crew credited on the badge.life archive page: kimboslice, notthatguy, and joehacksalot on PCB and embedded software; n0decaf on embedded software; Shiloh building a companion mobile app, serverless backend, and social game with a mini-CTF; and LeetPanda and Spaghetti Code on the website.
 
 The team said they made about 250 units, with 175 earmarked as straight give-aways and mini challenge-event prizes at DEF CON 31, including appearances at Black Hills InfoSec's Camp BHIS. The remainder appear to have moved through charity fundraiser auctions run on RallyUp in small batches, one of which was tied to BSides Orlando sponsorship fundraising. Unlike the prior year's Tron Badge, whose KiCad schematics are public in the Ironwood-Cyber GitHub org, the Arc Reactor badge's schematics and source repositories were never published -- the original badge.life page marks them "TODO," and no DEF CON 31 repo exists in the org today. This entry duplicates dc31-ironwood-cyber-reactor-badge, which was migrated directly from that same badge.life page.
+
+## Notes merged from the duplicate entry "Ironwood Cyber 'Mark II' Arc Reactor Badge (DEF CON 31)"
+
+Ironwood Cyber's "Mark II" badge, known as the Arc Reactor badge, was released at DEF CON 31 in 2023, following the company's Tron-disc badge from DEF CON 30. Rather than being sold directly, ten units were donated to Security BSides Orlando, which ran them through a charity "Hacker Bake Sale" auction (promoted on X/Twitter, Reddit, LinkedIn, and Mastodon) to help fund its October 6-7, 2023 "Rise of the Robots" conference. By late August 2023 the auction was down to its last two badges, advertised as "the LAST TWO Arc Reactor badges ON THE PLANET."
+
+No technical specifications (MCU, LED count/type, display, power, price when new) were found published by Ironwood Cyber or on the badge's badge.life page, whose schematics repo, source repo, and image fields are all still marked TODO. The badge's design and build credits (PCB, firmware, mobile/cloud, and web contributors) are documented on badge.life under the DC31 listing.
+
+This entry duplicates `dc31-ironwood-cyber-reactor-badge`, which is the badge's home entry for DEF CON 31; this record exists because the archive's event-year sweep found it through the BSides Orlando fundraiser angle.

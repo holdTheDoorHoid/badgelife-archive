@@ -19,7 +19,6 @@ look:
   - clear
   shape: rectangle
   themes:
-  - retro computer
   - synthwave
 tech:
   mcu: none
@@ -72,10 +71,10 @@ sources:
   accessed: '2026-09-10'
   note: Maker's blog post confirming the item exists; supplied maker name, design process, LED color testing, wiring to the badge's extra breakout, and reactions at the con.
 research:
-  status: researched
+  status: verified
   confidence: medium
   last_checked: '2026-09-10'
-  notes: 'The maker''s own blog post confirms the case exists and was worn at Supercon 2025, but it is a personal one-off (not sold, kit-ed, or open-sourced) so get_one and make_your_own fields are largely empty. No LED count, chip/model, or design-file link is given by the source. Maker''s real name (Daniel James) found via the post byline and added to makers.url.'
+  notes: 'Fact-check re-fetched the maker''s blog post directly (curl with a browser User-Agent; WebFetch still gets a 403 from this host) and confirmed every remaining factual sentence against it word-for-word: maker identity (Daniel James / thzinc, from the page byline and avatar alt text), the blue/pink/green color testing, the "transparent rectangle" case shape, the extra power/IO breakout wiring with no on/off switch, the EL-wire mix-up with attendees, and the personal one-off status. Removed the "retro computer" look theme, which was not supported by any source (only "synthwave" is backed by the maker''s own "80s neon" description). A follow-up web search turned up no independent press coverage or storefront/file listing for this item, and the maker''s Thingiverse profile could not be checked for a published model (client-rendered page, not fetchable by curl) — this does not contradict anything in the entry, since make_your_own fields are already left empty. Confidence stays medium because everything rests on a single primary source, even though that source was read in full.'
 last_modified_date: '2026-09-10'
 ---
 

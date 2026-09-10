@@ -10,8 +10,8 @@ event: saintcon-2024
 year: 2024
 makers:
 - name: kittysedai
-summary: 'A Jurassic Park-themed SAINTCON minibadge quoting Muldoon''s last words before he is attacked by a Velociraptor.'
-functions: 'Two LEDs (red and orange) light up; no other interactive functions noted.'
+summary: A Jurassic Park-themed SAINTCON minibadge quoting Muldoon's last words before he is attacked by a Velociraptor.
+functions: Two LEDs (red and orange) light up; no other interactive functions noted.
 look:
   colors: []
   shape: null
@@ -24,7 +24,7 @@ tech:
   leds:
     count: 2
     type: null
-    note: 'Red LED on top, orange LED on bottom; single-pad hand-soldering method.'
+    note: Red LED on top, orange LED on bottom; single-pad hand-soldering method.
   display: null
   connectivity: []
   battery: null
@@ -32,11 +32,11 @@ tech:
 get_one:
   price: ''
   price_usd: null
-  quantity: '0 (maker-reported; likely a small/handmade run despite the literal figure)'
+  quantity: 0 (maker-reported; likely a small/handmade run despite the literal figure)
   availability: unknown
   distribution:
   - swap
-  where: 'Traded directly with the maker (kittysedai) at SAINTCON 2024.'
+  where: Traded directly with the maker (kittysedai) at SAINTCON 2024.
 make_your_own:
   open_source: null
   hardware_url: null
@@ -48,13 +48,15 @@ links:
   kind: website
 images:
 - file: assets/images/badges/saintcon-2024/clever-girl/1f5994e564.jpg
-  source: "https://minibadge.wiki/data/"
-  credit: "kittysedai"
-  caption: "Clever Girl minibadge, front"
+  source: https://minibadge.wiki/data/
+  credit: kittysedai
+  caption: Clever Girl minibadge, front
+  archived: https://web.archive.org/web/20260611104315/http://minibadge.wiki/data/
 - file: assets/images/badges/saintcon-2024/clever-girl/2c2015720c.jpg
-  source: "https://minibadge.wiki/data/"
-  credit: "kittysedai"
-  caption: "Clever Girl minibadge, back"
+  source: https://minibadge.wiki/data/
+  credit: kittysedai
+  caption: Clever Girl minibadge, back
+  archived: https://web.archive.org/web/20260611104315/http://minibadge.wiki/data/
 contact: {}
 notes:
 - 'category: Personal; rarity: Super Rare'
@@ -75,7 +77,7 @@ research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'All facts come from the maker''s own submission to the minibadge.wiki community database (the site''s live search UI is JS-rendered and returned no results via fetch, but its underlying /2024.json data export contains the full record). No independent maker page, repo, or storefront was found for kittysedai. Quantity is listed as 0 in the source data, which likely reflects an unfilled form field rather than a genuine run of zero; left as reported rather than guessing a number. MCU is inferred as none because the badge is described purely as an LED/resistor circuit with no chip mentioned; no separate source confirms this explicitly beyond the soldering instructions.'
+  notes: All facts come from the maker's own submission to the minibadge.wiki community database (the site's live search UI is JS-rendered and returned no results via fetch, but its underlying /2024.json data export contains the full record). No independent maker page, repo, or storefront was found for kittysedai. Quantity is listed as 0 in the source data, which likely reflects an unfilled form field rather than a genuine run of zero; left as reported rather than guessing a number. MCU is inferred as none because the badge is described purely as an LED/resistor circuit with no chip mentioned; no separate source confirms this explicitly beyond the soldering instructions.
 last_modified_date: '2026-09-07'
 ---
 

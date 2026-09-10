@@ -5,7 +5,7 @@ parent: Badge Archive
 has_children: true
 has_toc: false
 nav_order: 7977
-nav_exclude: false
+nav_exclude: true
 event: bsides-san-francisco-2023
 ---
 # BSides San Francisco 2023

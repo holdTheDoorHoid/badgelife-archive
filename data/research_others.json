@@ -1937,5 +1937,248 @@
   "event": "bsides-portland-2017",
   "type": "sao/accessory",
   "url": ""
+ },
+ {
+  "title": "Office of the National Cyber Director (DEF CON 32 giveaway)",
+  "maker": "Office of the National Cyber Director",
+  "event": "dc32",
+  "type": "unknown - not yet researched, existing stub entry"
+ },
+ {
+  "title": "Office of the National Cyber Director (DEF CON 33 giveaway)",
+  "maker": "Office of the National Cyber Director",
+  "event": "dc33",
+  "type": "unknown - not yet researched, existing stub entry"
+ },
+ {
+  "title": "#badgelife #defcon 27 SAO Ninja Baby",
+  "maker": "sqearlsalazar",
+  "event": "dc27",
+  "type": "sao",
+  "url": "https://www.tindie.com/products/sqearlsalazar/badgelife-defcon-27-sao-ninja-baby/"
+ },
+ {
+  "title": "Baphomet Defcon SAO (Black & Silver)",
+  "maker": "sqearlsalazar",
+  "event": "unknown (later DC, possibly dc30 per existing_titles.txt)",
+  "type": "sao",
+  "url": "https://www.tindie.com/products/sqearlsalazar/baphomet-defcon-sao-black-silver/"
+ },
+ {
+  "title": "DEF CON 33 (DC33) Minimalist Bundle",
+  "maker": "Keyport",
+  "event": "dc33",
+  "type": "accessory",
+  "url": "https://www.mykeyport.com/products/def-con-33-pivot-2-0-minimalist-bundle"
+ },
+ {
+  "title": "DEF CON 33 Faceplate",
+  "maker": "Keyport",
+  "event": "dc33",
+  "type": "accessory",
+  "url": "https://www.mykeyport.com/products/def-con-33-faceplate"
+ },
+ {
+  "title": "DEF CON 33 MOCA 10-In-1 EDC Keychain Multi-Tool",
+  "maker": "Keyport",
+  "event": "dc33",
+  "type": "accessory",
+  "url": "https://www.mykeyport.com/products/def-con-33-moca-10-in-1-multi-tool"
+ },
+ {
+  "title": "DEF CON 31 Badge Addon Chamber Test-Fit",
+  "maker": "unknown (Thingiverse)",
+  "event": "dc31",
+  "type": "accessory/tool",
+  "url": "https://www.thingiverse.com/thing:6037529"
+ },
+ {
+  "title": "DEF CON 31 Badgelife Addon Chamber Split Test-Fit Model",
+  "maker": "unknown (Thingiverse)",
+  "event": "dc31",
+  "type": "accessory/tool",
+  "url": "https://www.thingiverse.com/thing:6075684"
+ },
+ {
+  "title": "Hackaday Blinky LED Badge",
+  "maker": "Brian Benchoff, Lutetium",
+  "event": "other (2018)",
+  "type": "badge",
+  "url": "https://hackaday.io/project/26056-tindie-blinky-led-badge"
+ },
+ {
+  "title": "LoRa Expansion (2026, Wio-SX1262)",
+  "maker": "Fri3d Camp / Seeed Studio",
+  "event": "fri3d-2026",
+  "type": "already has its own entry (fri3d-2026-lora-expansion-2026-wio-sx1262)",
+  "url": "https://fri3dcamp.github.io/badge_2026/en/"
+ },
+ {
+  "title": "SAO Mirror (2026)",
+  "maker": "Fri3d Camp",
+  "event": "fri3d-2026",
+  "type": "already has its own entry (fri3d-2026-sao-mirror-2026), mentioned here as a companion accessory",
+  "url": "https://fri3dcamp.github.io/badge_2026/en/"
+ },
+ {
+  "title": "SAO Mirror (2026)",
+  "maker": "Fri3d Camp",
+  "event": "fri3d-2026",
+  "type": "sao",
+  "url": "https://fri3dcamp.github.io/badge_2026/en/"
+ },
+ {
+  "title": "Communicator add-on (LANA module, 2026)",
+  "maker": "Fri3d Camp",
+  "event": "fri3d-2026",
+  "type": "accessory",
+  "url": "https://fri3dcamp.github.io/badge_2026/en/"
+ },
+ {
+  "title": "Tanmatsu (WHY2025 badge PCB design)",
+  "maker": "Renze Nicolai and Paul Honig / badge.team",
+  "event": "why2025 (not yet in events.yml, would need to add)",
+  "type": "badge",
+  "url": "https://media.ccc.de/v/2025-188-tanmatsu-why2025-badge-pcb-design"
+ },
+ {
+  "title": "Maker Space badge hexpansion",
+  "maker": "DanNixon",
+  "event": "emf-camp-2024",
+  "type": "accessory",
+  "url": "https://github.com/DanNixon/hexpansions/tree/main/makerspace-badge"
+ },
+ {
+  "title": "Maker Space badge hexpansion",
+  "maker": "DanNixon",
+  "event": "emf-camp-2024",
+  "type": "accessory",
+  "url": "https://github.com/DanNixon/hexpansions"
+ },
+ {
+  "title": "LayerOne 2026 Three-Button Keyboard Badge",
+  "maker": "KRS, mmca, charliex",
+  "event": "layerone-2026",
+  "type": "badge",
+  "url": ""
+ },
+ {
+  "title": "CactusCon 12 Badge (2024)",
+  "maker": "Badge Pirates",
+  "event": "cactuscon-2024",
+  "type": "badge",
+  "url": "https://docs.badgepirates.com/catalog/"
+ },
+ {
+  "title": "DefCon 30 Biohacking Village Badge",
+  "maker": "Badge Pirates",
+  "event": "",
+  "type": "badge",
+  "url": "https://blog.badgepirates.com/"
+ },
+ {
+  "title": "The FALKEN Wombat Badge | BSides Adelaide",
+  "maker": "Abhinav SP / Hackerware.io",
+  "event": "BSides Adelaide",
+  "type": "badge",
+  "url": "https://www.hackster.io/HacksFromPanda/the-falken-wombat-badge-bsides-adelaide-8c1db3"
+ },
+ {
+  "title": "The Tiger Badge for BSides TLV",
+  "maker": "Abhinav SP / Hackerware.io",
+  "event": "BSides TLV",
+  "type": "badge",
+  "url": "https://www.hackster.io/HacksFromPanda/the-tiger-badge-for-bsides-tlv-1e7b17"
+ },
+ {
+  "title": "The SINCON Dragon Park Badge",
+  "maker": "Abhinav SP / Hackerware.io",
+  "event": "SINCON",
+  "type": "badge",
+  "url": "https://www.hackster.io/HacksFromPanda/the-sincon-dragon-park-badge-097465"
+ },
+ {
+  "title": "The Gothenburg Skyline Badge | Security Fest",
+  "maker": "Abhinav SP / Hackerware.io",
+  "event": "Security Fest",
+  "type": "badge",
+  "url": "https://www.hackster.io/HacksFromPanda/the-gothenburg-skyline-badge-security-fest-eed557"
+ },
+ {
+  "title": "The RSA Sandbox Badge",
+  "maker": "Abhinav SP / Hackerware.io",
+  "event": "RSA Conference",
+  "type": "badge",
+  "url": "https://www.hackster.io/HacksFromPanda/the-rsa-sandbox-badge-e23c62"
+ },
+ {
+  "title": "RVAsec 2020 Badge",
+  "maker": "HackRVA",
+  "event": "rvasec-2020",
+  "type": "badge",
+  "url": "https://www.hackrva.org/badge/"
+ },
+ {
+  "title": "thatch/cactuscon-badge-2017 (GitHub)",
+  "maker": "thatch",
+  "event": "cactuscon-2017",
+  "type": "badge (possible design files)",
+  "url": "https://github.com/thatch/cactuscon-badge-2017"
+ },
+ {
+  "title": "CactusCon 8 Badge",
+  "maker": "CactusCon community",
+  "event": "CactusCon 8 (Dec 6-7, 2019; no matching event id in events.yml yet)",
+  "type": "badge",
+  "url": "https://github.com/cactuscon/cactuscon8"
+ },
+ {
+  "title": "CactusCon 2014 Badge",
+  "maker": "Erik Wilson",
+  "event": "CactusCon 2014 (no matching event id checked)",
+  "type": "badge",
+  "url": "https://github.com/erikwilson/cactuscon2014"
+ },
+ {
+  "title": "CactusCon6 Badge",
+  "maker": "Erik Wilson",
+  "event": "likely CactusCon 2017 (year unverified)",
+  "type": "badge",
+  "url": "https://github.com/erikwilson/CactusCon6"
+ },
+ {
+  "title": "SAINTCON 2021 Puzzle mini-badge how to",
+  "maker": "unknown (same uploader, Soldering&3Dprinting/Herushan1)",
+  "event": "saintcon-2021",
+  "type": "minibadge",
+  "url": "https://www.youtube.com/watch?v=GahFhscXEN0"
+ },
+ {
+  "title": "SAINTCON 2021 Puzzle mini-badge how to",
+  "maker": "unknown (channel: Soldering&3Dprinting)",
+  "event": "saintcon-2021",
+  "type": "minibadge",
+  "url": "https://www.youtube.com/watch?v=GahFhscXEN0"
+ },
+ {
+  "title": "TiaraCon 2016 badge",
+  "maker": "securelyfitz (Joe FitzPatrick)",
+  "event": "tiaracon-2016",
+  "type": "badge",
+  "url": "https://github.com/securelyfitz/tiaracon2016"
+ },
+ {
+  "title": "BSidesSD (Badge Project for BSides San Diego)",
+  "maker": "ellwoodthewood (GitHub)",
+  "event": "bsides-san-diego-2020 or unclear year",
+  "type": "badge",
+  "url": "https://github.com/ellwoodthewood/BSidesSD"
+ },
+ {
+  "title": "BSides Orlando 2025 OTG/OGG exclusive: challenge coin + mission patch",
+  "maker": "BSides Orlando",
+  "event": "bsides-orlando-2025",
+  "type": "other",
+  "url": "https://www.instagram.com/p/DO9Dv5rjVVE/"
  }
 ]

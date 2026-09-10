@@ -66,7 +66,7 @@ status: released
 sources:
 - kind: url
   url: https://security-bits.de/electronics/badges/h2hc_18/
-  title: H2HC 2015 Badge
+  title: H2HC 2018 Badge
   accessed: '2026-09-07'
   note: 'Found by the archive''s discovery sweep (angle: sweep:con-ekoparty); event read as ''H2HC 2015''.'
 - kind: url
@@ -75,10 +75,10 @@ sources:
   accessed: '2026-09-10'
   note: Maker's own dedicated page for this badge; confirms it as a customized Arduino Leonardo run at 5V, gives the remapped pinout (8 GPIO, UART, I2C, SPI with 3 chip-select lines), and provides front/back/layout photos.
 research:
-  status: researched
+  status: verified
   confidence: medium
   last_checked: '2026-09-10'
-  notes: Confirmed the badge is real via the maker's own dedicated page (not just the passing mention originally found). Core hardware facts (MCU, pinout) come from the maker directly, but price, quantity, availability, LED/display specs, and source files are not published anywhere found, so those fields are left empty.
+  notes: Fact-checked against both cited pages directly. The h2hc_15 page confirms it is a customized Arduino Leonardo run at 5V with the stated remapped pinout (8 GPIO, UART, I2C, SPI with 3 chip-select lines on A3-A5) and shows front/back/layout photos; it does not name "ATmega32u4" verbatim, that chip is the standard MCU on any Arduino Leonardo, so tech.mcu is a safe inference rather than a direct quote. The h2hc_18 page confirms the cross-reference to the 2015 badge as a reusable programmer. Fixed a wrong title on the h2hc_18 source entry (was mislabeled "H2HC 2015 Badge"). Price, quantity, availability, LED/display specs, and source files remain unpublished anywhere found, so those fields stay empty.
 last_modified_date: '2026-09-10'
 ---
 

@@ -68,10 +68,10 @@ sources:
   accessed: '2026-09-10'
   note: Maker's own repo; confirms hardware (Arduino Pro Micro, MAX4466 mic, 8x8 WS2812 matrix), design derived from TylerGlaiel's voicemask project, and that it was made for BSides 2020 presenters. No license file present; no image assets in the repo.
 research:
-  status: researched
+  status: verified
   confidence: medium
   last_checked: '2026-09-10'
-  notes: 'Confirmed as a real item via both the badge.gallery listing and the maker''s own GitHub repository (pdxbadgers/2020-mask), which independently describe the same hardware and purpose. No photos of the finished mask were found on either source (badge.gallery''s page is a JS-rendered SPA with no accessible og:image, and the GitHub README has no embedded images), so no images could be saved. Quantity made, exact distribution mechanics, and license are not stated anywhere found.'
+  notes: 'Fact-check pass (2026-09-10): re-fetched both cited sources plus the repo''s raw README.md and 2020-mask.ino directly. Every non-empty field and every factual sentence in the body/Make-your-own section checked out against them: hardware list (Pro Micro/ATmega32u4, MAX4466 mic, 8x8 WS2812 matrix, SMT switch, USB power bank), the five mouth-shape frames plus smile/idle state and pushbutton standby toggle (confirmed by reading the .ino source directly), the multicolor scrolling BSidesPDX banner, the Tyler Glaiel voicemask/Jabbermask Kickstarter lineage, the wiring/library/Arduino-Leonardo build steps, the absence of a license file (confirmed via `gh api repos/pdxbadgers/2020-mask` returning license: null and a two-file repo listing), and badge.gallery''s explicit statement that no image is published for this item. No contradictions found; no unsupported claims found. Quantity made and exact distribution mechanics remain unstated anywhere found, so those fields stay empty. Confidence held at medium (third-party badge.gallery + maker''s own repo, no independent press coverage).'
 last_modified_date: '2026-09-10'
 ---
 

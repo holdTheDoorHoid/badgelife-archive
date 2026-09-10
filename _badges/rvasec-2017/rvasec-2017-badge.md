@@ -16,8 +16,7 @@ functions: ''
 look:
   colors: []
   shape: null
-  themes:
-  - security
+  themes: []
 tech:
   mcu: null
   leds: null
@@ -29,7 +28,7 @@ get_one:
   price: ''
   price_usd: null
   quantity: ''
-  availability: unknown
+  availability: free
   distribution:
   - free_drop
   where: Given to attendees of RVAsec 2017 in Richmond, VA.
@@ -79,10 +78,10 @@ sources:
   accessed: '2026-09-10'
   note: 'Confirms Capital One sponsored the 2017 badge ("Capital One is the 2017 sponsor for our very cool badges!"); no hardware details given.'
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-10'
-  notes: Existence and maker (HackRVA) and sponsor (Capital One) are confirmed by three independent sources (badge.gallery, HackRVA's own wiki, and RVAsec's own blog), so this is more than a bare search snippet. However, no source publishes hardware specs (MCU, LEDs, display, connectivity, battery), price, quantity made, a design-file repo, or a photo specifically identified as the 2017 board. HackRVA's wiki page for the 2017 build links only to a Google Sheet, a Google Doc, and a GitLab instance, none of which were readable without an account. The general hack.RVA badge page has undated photos from multiple years that could not be attributed to 2017 specifically, so no image was saved to avoid misattributing another year's badge.
+  notes: Fact-check pass (2026-09-10) re-fetched all four cited sources and confirmed every claim in the entry (HackRVA as maker, Capital One as 2017 sponsor, free distribution to attendees, absence of hardware specs). One unsupported field was removed - look.themes had 'security' but no source describes the badge's actual visual design or theme, only that it was made for a security conference, so the tag was blanked to avoid inventing a design detail. get_one.availability was corrected from 'unknown' to 'free' since the entry's own distribution (free_drop) and status (released) already establish it was given away free, not sold. Existence and maker (HackRVA) and sponsor (Capital One) are confirmed by three independent sources (badge.gallery, HackRVA's own wiki, and RVAsec's own blog), so this is more than a bare search snippet. However, no source publishes hardware specs (MCU, LEDs, display, connectivity, battery), price, quantity made, a design-file repo, or a photo specifically identified as the 2017 board. HackRVA's wiki page for the 2017 build links only to a Google Sheet, a Google Doc, and a GitLab instance, none of which were readable without an account. The general hack.RVA badge page has undated photos from multiple years that could not be attributed to 2017 specifically, so no image was saved to avoid misattributing another year's badge.
 last_modified_date: '2026-09-10'
 ---
 

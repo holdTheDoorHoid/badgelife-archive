@@ -13,9 +13,13 @@ makers:
 summary: 'A SAINTCON 2023 community minibadge for a "Space Community" village activity: attendees learn to decode data transmitted from a simulated CubeSat and can try sending commands back to it.'
 functions: 'Companion piece to a village activity: a large display showed real-time images of a simulated satellite orbiting Earth, and visitors decoded its downlink and attempted to send commands and see its response. The badge itself is a simple through-hole build (LEDs and resistors, single-pad hand-soldering method) rather than an interactive device.'
 look:
-  colors: [copper, white]
+  colors:
+  - copper
+  - white
   shape: octagon
-  themes: [space, sci-fi]
+  themes:
+  - space
+  - sci-fi
 tech:
   mcu: null
   leds: null
@@ -28,7 +32,8 @@ get_one:
   price_usd: null
   quantity: ''
   availability: free
-  distribution: [free_drop]
+  distribution:
+  - free_drop
   where: Given out by visiting the Space Community village at SAINTCON 2023.
 make_your_own:
   open_source: null
@@ -40,14 +45,14 @@ links:
   url: https://minibadge.wiki/?search=SPACE%20COMMUNITY%20CUBE%20SAT%20BADGE&year=2023
   kind: website
 images:
-  - file: assets/images/badges/saintcon-2023/space-community-cube-sat-badge/3301f923d3.png
-    source: "https://minibadge.wiki/?search=SPACE%20COMMUNITY%20CUBE%20SAT%20BADGE&year=2023"
-    credit: "Jup1t3r"
-    caption: "Front of the SPACE COMMUNITY CUBE SAT BADGE minibadge"
-  - file: assets/images/badges/saintcon-2023/space-community-cube-sat-badge/6b2bd377bb.png
-    source: "https://minibadge.wiki/?search=SPACE%20COMMUNITY%20CUBE%20SAT%20BADGE&year=2023"
-    credit: "Jup1t3r"
-    caption: "Back of the SPACE COMMUNITY CUBE SAT BADGE minibadge"
+- file: assets/images/badges/saintcon-2023/space-community-cube-sat-badge/3301f923d3.png
+  source: https://minibadge.wiki/?search=SPACE%20COMMUNITY%20CUBE%20SAT%20BADGE&year=2023
+  credit: Jup1t3r
+  caption: Front of the SPACE COMMUNITY CUBE SAT BADGE minibadge
+- file: assets/images/badges/saintcon-2023/space-community-cube-sat-badge/6b2bd377bb.png
+  source: https://minibadge.wiki/?search=SPACE%20COMMUNITY%20CUBE%20SAT%20BADGE&year=2023
+  credit: Jup1t3r
+  caption: Back of the SPACE COMMUNITY CUBE SAT BADGE minibadge
 contact: {}
 notes:
 - 'category: Community; rarity: Common; soldering difficulty: Beginner'
@@ -63,11 +68,12 @@ sources:
   title: minibadge.wiki 2023 badge data (JSON feed backing the search page)
   accessed: '2026-09-07'
   note: 'Underlying data record for this badge: description, soldering instructions/difficulty, category, rarity, quantityMade (0, i.e. not recorded), and how-to-acquire text. The minibadge.wiki front end renders this JSON client-side, so it did not appear in a plain page fetch.'
+  archived: https://web.archive.org/web/20260611102022/http://minibadge.wiki/2023.json
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'Only source found is the community-maintained minibadge.wiki database; no maker page, repo, or storefront for "Jup1t3r" was located. Quantity made is recorded as 0 on minibadge.wiki, which appears to mean "not tracked" rather than zero units existing, so quantity was left blank rather than guessed. No chip, LED count/type, or display are mentioned anywhere in the source; the badge appears to be a simple LED/resistor through-hole build with no stated MCU. Colors and shape read from the badge photos (copper/white on a cream board, octagon silhouette).'
+  notes: Only source found is the community-maintained minibadge.wiki database; no maker page, repo, or storefront for "Jup1t3r" was located. Quantity made is recorded as 0 on minibadge.wiki, which appears to mean "not tracked" rather than zero units existing, so quantity was left blank rather than guessed. No chip, LED count/type, or display are mentioned anywhere in the source; the badge appears to be a simple LED/resistor through-hole build with no stated MCU. Colors and shape read from the badge photos (copper/white on a cream board, octagon silhouette).
 last_modified_date: '2026-09-07'
 ---
 

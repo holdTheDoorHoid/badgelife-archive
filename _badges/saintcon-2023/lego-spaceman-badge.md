@@ -11,18 +11,24 @@ year: 2023
 makers:
 - name: Kingbob
   url: https://github.com/JonDegn
-summary: 'A backlit minibadge shaped like a Lego minifigure torso/spaceman shirt design, made in red, blue, and black PCB colors.'
-functions: 'A single red LED lights the design; passes through power to neighboring minibadges via pin headers, in the usual SAINTCON minibadge daisy-chain style.'
+summary: A backlit minibadge shaped like a Lego minifigure torso/spaceman shirt design, made in red, blue, and black PCB colors.
+functions: A single red LED lights the design; passes through power to neighboring minibadges via pin headers, in the usual SAINTCON minibadge daisy-chain style.
 look:
-  colors: [red, blue, black]
+  colors:
+  - red
+  - blue
+  - black
   shape: null
-  themes: [toy, pop culture, minimalist]
+  themes:
+  - toy
+  - pop culture
+  - minimalist
 tech:
   mcu: none
   leds:
     count: 1
     type: discrete
-    note: '1206 red LED, 1206 82Ω resistor'
+    note: 1206 red LED, 1206 82Ω resistor
   display: none
   connectivity: []
   battery: null
@@ -30,10 +36,11 @@ tech:
 get_one:
   price: ''
   price_usd: null
-  quantity: '30 of each color (red, blue, black); ~90 total'
+  quantity: 30 of each color (red, blue, black); ~90 total
   availability: unknown
-  distribution: [swap]
-  where: 'Traded in person with the maker (Kingbob) at SAINTCON 2023.'
+  distribution:
+  - swap
+  where: Traded in person with the maker (Kingbob) at SAINTCON 2023.
 make_your_own:
   open_source: partial
   hardware_url: null
@@ -42,7 +49,7 @@ make_your_own:
   bom_url: null
   eda_tool: null
   fab_url: null
-  notes: 'Repo has a build/soldering guide and parts list but no schematic, Gerbers, or BOM file.'
+  notes: Repo has a build/soldering guide and parts list but no schematic, Gerbers, or BOM file.
 links:
 - label: minibadge.wiki/?search=Lego%20Spaceman%20Badge&year=2023
   url: https://minibadge.wiki/?search=Lego%20Spaceman%20Badge&year=2023
@@ -51,14 +58,14 @@ links:
   url: https://github.com/JonDegn/Saintcon2023-minibages/blob/main/lego-spaceman/readme.md
   kind: repo
 images:
-  - file: assets/images/badges/saintcon-2023/lego-spaceman-badge/9a34690975.jpg
-    source: "https://github.com/JonDegn/Saintcon2023-minibages/blob/main/lego-spaceman/readme.md"
-    credit: "Kingbob (JonDegn)"
-    caption: "Lego Spaceman minibadge prototype photo"
-  - file: assets/images/badges/saintcon-2023/lego-spaceman-badge/ba989762bc.png
-    source: "https://minibadge.wiki/?search=Lego%20Spaceman%20Badge&year=2023"
-    credit: "Kingbob"
-    caption: "Lego Spaceman minibadge, front"
+- file: assets/images/badges/saintcon-2023/lego-spaceman-badge/9a34690975.jpg
+  source: https://github.com/JonDegn/Saintcon2023-minibages/blob/main/lego-spaceman/readme.md
+  credit: Kingbob (JonDegn)
+  caption: Lego Spaceman minibadge prototype photo
+- file: assets/images/badges/saintcon-2023/lego-spaceman-badge/ba989762bc.png
+  source: https://minibadge.wiki/?search=Lego%20Spaceman%20Badge&year=2023
+  credit: Kingbob
+  caption: Lego Spaceman minibadge, front
 contact: {}
 notes:
 - 'category: Personal; rarity: Super Rare'
@@ -74,6 +81,7 @@ sources:
   title: Minibadge Wiki 2023 data export (JSON)
   accessed: '2026-09-07'
   note: 'Maker''s own submission record: description ("my first foray into minibadge design", fits Lego shirt designs, made in black/red/blue), soldering difficulty (Beginner), category (Personal), rarity (Super Rare), how to acquire ("Trade with me"), and the GitHub build-guide link.'
+  archived: https://web.archive.org/web/20260611102022/http://minibadge.wiki/2023.json
 - kind: url
   url: https://github.com/JonDegn/Saintcon2023-minibages/blob/main/lego-spaceman/readme.md
   title: 'Saintcon2023-minibages: lego-spaceman readme'
@@ -83,7 +91,7 @@ research:
   status: researched
   confidence: high
   last_checked: '2026-09-07'
-  notes: 'No schematic, Gerber, or BOM files were found in the linked GitHub folder — only a readme and a photo. Price and current availability are not stated anywhere; the maker''s own listing says it was distributed by trading in person at SAINTCON 2023, not sold, so price/quantity-remaining fields are left empty/unknown.'
+  notes: No schematic, Gerber, or BOM files were found in the linked GitHub folder — only a readme and a photo. Price and current availability are not stated anywhere; the maker's own listing says it was distributed by trading in person at SAINTCON 2023, not sold, so price/quantity-remaining fields are left empty/unknown.
 last_modified_date: '2026-09-07'
 ---
 

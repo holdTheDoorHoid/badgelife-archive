@@ -10,8 +10,8 @@ event: saintcon-2023
 year: 2023
 makers:
 - name: Sh33pr0ck
-summary: 'A glowing-eye minibadge depicting Lo Pan, the villain from the 1986 film "Big Trouble in Little China" (BTiLC).'
-functions: 'Two LEDs light up behind the eye holes on the badge art; the maker''s soldering note recommends a dab of hot glue over the eyes and LEDs to diffuse and direct the light.'
+summary: A glowing-eye minibadge depicting Lo Pan, the villain from the 1986 film "Big Trouble in Little China" (BTiLC).
+functions: Two LEDs light up behind the eye holes on the badge art; the maker's soldering note recommends a dab of hot glue over the eyes and LEDs to diffuse and direct the light.
 look:
   colors: []
   shape: null
@@ -23,7 +23,7 @@ tech:
   leds:
     count: 2
     type: null
-    note: 'Green dot/line on each LED faces the enclosed end of D1 and D2, per the maker''s soldering instructions.'
+    note: Green dot/line on each LED faces the enclosed end of D1 and D2, per the maker's soldering instructions.
   display: null
   connectivity: []
   battery: null
@@ -35,7 +35,7 @@ get_one:
   availability: limited
   distribution:
   - swap
-  where: 'Not sold; the maker''s listing says to trade with them or just ask for one.'
+  where: Not sold; the maker's listing says to trade with them or just ask for one.
 make_your_own:
   open_source: null
   hardware_url: null
@@ -46,18 +46,18 @@ links:
   url: https://minibadge.wiki/?search=Lo-Pan%20BTiLC&year=2023
   kind: website
 images:
-  - file: assets/images/badges/saintcon-2023/lo-pan-btilc/3688c1cd8e.png
-    source: "https://minibadge.wiki/?search=Lo-Pan%20BTiLC&year=2023"
-    credit: "Sh33pr0ck"
-    caption: "Front of the Lo-Pan BTiLC minibadge, showing the glowing-eye Lo-Pan design"
-  - file: assets/images/badges/saintcon-2023/lo-pan-btilc/460b110f56.png
-    source: "https://minibadge.wiki/?search=Lo-Pan%20BTiLC&year=2023"
-    credit: "Sh33pr0ck"
-    caption: "Back of the Lo-Pan BTiLC minibadge, showing the two LEDs behind the eye holes"
+- file: assets/images/badges/saintcon-2023/lo-pan-btilc/3688c1cd8e.png
+  source: https://minibadge.wiki/?search=Lo-Pan%20BTiLC&year=2023
+  credit: Sh33pr0ck
+  caption: Front of the Lo-Pan BTiLC minibadge, showing the glowing-eye Lo-Pan design
+- file: assets/images/badges/saintcon-2023/lo-pan-btilc/460b110f56.png
+  source: https://minibadge.wiki/?search=Lo-Pan%20BTiLC&year=2023
+  credit: Sh33pr0ck
+  caption: Back of the Lo-Pan BTiLC minibadge, showing the two LEDs behind the eye holes
 contact: {}
 notes:
 - 'category: Personal; rarity: Super Rare'
-- 'Soldering difficulty listed on minibadge.wiki as "Beginner"; quantity made is listed as 0 (not reported by the maker) despite the "Super Rare" rarity tag.'
+- Soldering difficulty listed on minibadge.wiki as "Beginner"; quantity made is listed as 0 (not reported by the maker) despite the "Super Rare" rarity tag.
 status: listed
 sources:
 - kind: url
@@ -67,14 +67,15 @@ sources:
   note: 'Found by the archive''s discovery sweep (angle: SAINTCON minibadges (via minibadge.wiki community database)); event read as ''SAINTCON 2023''.'
 - kind: url
   url: https://minibadge.wiki/2023.json
-  title: 'Minibadge Wiki 2023 data (JSON record for Lo-Pan BTiLC)'
+  title: Minibadge Wiki 2023 data (JSON record for Lo-Pan BTiLC)
   accessed: '2026-09-07'
-  note: 'The site''s search page renders client-side from this JSON file; it carries the description, soldering instructions, acquisition note, category, rarity, and front/back image paths that the search UI did not surface directly.'
+  note: The site's search page renders client-side from this JSON file; it carries the description, soldering instructions, acquisition note, category, rarity, and front/back image paths that the search UI did not surface directly.
+  archived: https://web.archive.org/web/20260611102022/http://minibadge.wiki/2023.json
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'Only source is the maker''s own minibadge.wiki community-sheet submission; no separate maker page, repo, or storefront was found for this piece. Price, exact quantity made, LED part number, PCB color/shape, and design files are not stated anywhere and are left empty rather than guessed.'
+  notes: Only source is the maker's own minibadge.wiki community-sheet submission; no separate maker page, repo, or storefront was found for this piece. Price, exact quantity made, LED part number, PCB color/shape, and design files are not stated anywhere and are left empty rather than guessed.
 last_modified_date: '2026-09-07'
 ---
 
