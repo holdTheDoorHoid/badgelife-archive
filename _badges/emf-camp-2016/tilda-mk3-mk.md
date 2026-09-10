@@ -102,9 +102,15 @@ research:
   confidence: high
   last_checked: '2026-09-08'
   notes: This appears to be the same physical badge as entry emf-camp-2016-tilda-mk3 ("TiLDA Mk3") — both cite the same badge.emfcamp.org pages and the same Mk3-Hardware/Mk3-Firmware GitHub repos, and the hardware repo names the board "TiLDA MKπ Badge". Flagging as a likely duplicate rather than merging, per instructions. Exact unit quantity and price not published (badge was given free to all attendees, not individually priced/sold). Merged with duplicate entry 'TiLDA Mk3' (emf-camp-2016-tilda-mk3).
-last_modified_date: '2026-09-08'
+last_modified_date: '2026-09-10'
 redirect_from:
 - /badges/emf-camp-2016/tilda-mk3/
+model:
+  file: assets/models/emf-camp-2016/tilda-mk3-mk.glb
+  method: kicad
+  source_file: Mk3 Prototype3.brd
+  generated: '2026-09-10'
+  bytes: 909464
 ---
 
 The TiLDA Mk3 (also styled TiLDA MKπ) was the official conference badge given to every attendee of EMF Camp 2016, the UK hacker camp run by Electromagnetic Field. It is built around an STM32L486VGT6 ARM Cortex-M4 microcontroller running MicroPython, paired with a 320x240 colour LCD, a joystick with A/B/Menu buttons, a TI CC3100 Wi-Fi module, and an LSM6DS3 accelerometer/gyro plus LIS3MDL magnetometer for motion and orientation sensing. A single WS2812B NeoPixel sits on the board, though it is widely reported as non-functional on many units in the field. The badge charges over microUSB and includes storage for user files, with a buzzer for sound feedback.

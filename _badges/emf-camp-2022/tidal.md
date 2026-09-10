@@ -11,7 +11,7 @@ year: 2022
 makers:
 - name: EMF Camp badge team
 summary: 'The official EMF Camp 2022 badge: a tiny USB-C wearable with a display, joystick, motion sensor and compass, built around an ESP32-S3.'
-functions: 'Runs MicroPython apps installed from an online app store ("the Hatchery"); can be programmed live over USB using a browser-based WebSerial editor at editor.badge.emfcamp.org.'
+functions: Runs MicroPython apps installed from an online app store ("the Hatchery"); can be programmed live over USB using a browser-based WebSerial editor at editor.badge.emfcamp.org.
 look:
   colors:
   - blue
@@ -36,9 +36,9 @@ get_one:
   availability: free
   distribution:
   - free_drop
-  where: 'Given to EMF Camp 2022 attendees as their event badge; not sold separately.'
+  where: Given to EMF Camp 2022 attendees as their event badge; not sold separately.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/emfcamp/TiDAL-Hardware
   firmware_url: https://github.com/emfcamp/TiDAL-Firmware
   eda_tool: null
@@ -62,10 +62,10 @@ links:
   url: https://github.com/emfcamp/TiDAL-Hardware
   kind: repo
 images:
-  - file: assets/images/badges/emf-camp-2022/tidal/9035185561.jpg
-    source: "https://github.com/emfcamp/tidal-docs"
-    credit: "EMF Camp"
-    caption: "Edge view of the TiDAL badge showing its display, joystick and buttons"
+- file: assets/images/badges/emf-camp-2022/tidal/9035185561.jpg
+  source: https://github.com/emfcamp/tidal-docs
+  credit: EMF Camp
+  caption: Edge view of the TiDAL badge showing its display, joystick and buttons
 contact: {}
 notes:
 - Official EMF Camp 2022 badge, the badge team's first tiny-form-factor badge and first with USB-C, with an app-store/hatchery ecosystem for third-party software; not yet in the archive. Found by the event-year sweep, task emf-badges.
@@ -96,8 +96,15 @@ research:
   status: verified
   confidence: high
   last_checked: '2026-09-08'
-  notes: 'Fact-check pass (2026-09-08): re-fetched all four cited sources (badge.emfcamp.org/TiDAL/, developer.emfcamp.org/badge/2022-tidal/, the archive.org flyer text, and the tidal-docs README) and every non-empty field and body sentence checked out against them; the saved image was re-confirmed as a genuine device render from the cited tidal-docs page and matches its caption. Removed one uncited sentence from the body (a claim that TiDAL was "a deliberate departure from the larger, more badge.team-style boards EMF had shipped in prior years") — none of the checked sources make that historical comparison. Display size/resolution, exact LED usage, and battery capacity are still left empty as the four cited sources genuinely do not state them; note for a future research pass: emfcamp/tidal-docs also has a boarddescription.md page (not one of the sources originally cited) giving exact figures (135x240px ST7789 TFT, one addressable LED, small unspecified-capacity battery) if someone wants to fill those fields in later. Price/quantity are correctly left blank since TiDAL was bundled with an EMF Camp 2022 ticket rather than sold separately.'
-last_modified_date: '2026-09-08'
+  notes: 'Fact-check pass (2026-09-08): re-fetched all four cited sources (badge.emfcamp.org/TiDAL/, developer.emfcamp.org/badge/2022-tidal/, the archive.org flyer text, and the tidal-docs README) and every non-empty field and body sentence checked out against them; the saved image was re-confirmed as a genuine device render from the cited tidal-docs page and matches its caption. Removed one uncited sentence from the body (a claim that TiDAL was "a deliberate departure from the larger, more badge.team-style boards EMF had shipped in prior years") — none of the checked sources make that historical comparison. Display size/resolution, exact LED usage, and battery capacity are still left empty as the four cited sources genuinely do not state them; note for a future research pass: emfcamp/tidal-docs also has a boarddescription.md page (not one of the sources originally cited) giving exact figures (135x240px ST7789 TFT, one addressable LED, small unspecified-capacity battery) if someone wants
+    to fill those fields in later. Price/quantity are correctly left blank since TiDAL was bundled with an EMF Camp 2022 ticket rather than sold separately.'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/emf-camp-2022/tidal.glb
+  method: kicad
+  source_file: tilda6/tilda6-bot.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 737212
 ---
 
 TiDAL was the official badge handed to every attendee of EMF Camp 2022, the UK hacker camp. It was the badge team's first attempt at a genuinely tiny badge and their first to use USB-C. Under a coral/wave-themed silkscreen, it packs an ESP32-S3, a small display, a joystick, three buttons (A, B, and FRONT), a motion sensor, a compass, and a security chip, plus a pair of flex-cable connectors for expansion boards.

@@ -65,6 +65,7 @@ links:
 - label: badge.team
   url: https://badge.team/
   kind: website
+  archived: https://web.archive.org/web/20260822195634/https://badge.team/
 - label: badgeteam/bornhack2026-hardware
   url: https://github.com/badgeteam/bornhack2026-hardware
   kind: repo
@@ -82,20 +83,23 @@ links:
 - label: bornhack-firmware-2026 (Codeberg)
   url: https://codeberg.org/Ranzbak/bornhack-firmware-2026
   kind: repo
-  archived: null
+  archived: https://web.archive.org/web/20260716120938/https://codeberg.org/Ranzbak/bornhack-firmware-2026
 images:
 - file: assets/images/badges/bornhack-2026/cyber-gg/24206e6f75.jpg
   source: https://hackaday.com/2026/07/17/the-bornhack-2026-cyber-aegg-is-a-badge-with-a-life-afterwards/
   credit: Hackaday
   caption: The BornHack 2026 Cyber Ægg badge
+  archived: https://web.archive.org/web/20260831031636/https://hackaday.com/2026/07/17/the-bornhack-2026-cyber-aegg-is-a-badge-with-a-life-afterwards/
 - file: assets/images/badges/bornhack-2026/cyber-gg/48934658b4.jpg
   source: https://badge.team/docs/badges/bornhack-2026/
   credit: Badge.Team
   caption: Cyber Ægg badge, front view
+  archived: https://web.archive.org/web/20260717235018/https://badge.team/docs/badges/bornhack-2026/
 - file: assets/images/badges/bornhack-2026/cyber-gg/b40f328897.jpg
   source: https://badge.team/docs/badges/bornhack-2026/
   credit: Badge.Team
   caption: Cyber Ægg badge, back view
+  archived: https://web.archive.org/web/20260717235018/https://badge.team/docs/badges/bornhack-2026/
 contact: {}
 notes:
 - nRF52840, LoRa, e-paper; doubles as desktop clock/Tamagotchi post-event
@@ -114,6 +118,7 @@ sources:
   title: badge.team
   accessed: '2026-09-07'
   note: Confirms badge.team collaborated with Thomas Flummer on the Cyber Ægg for BornHack 2026; lists it as delivered and sold out; confirms designs are open source on GitHub.
+  archived: https://web.archive.org/web/20260822195634/https://badge.team/
 - kind: url
   url: https://github.com/badgeteam/bornhack2026-hardware
   title: badgeteam/bornhack2026-hardware
@@ -140,6 +145,7 @@ sources:
   title: bornhack-firmware-2026 (Codeberg)
   accessed: '2026-09-07'
   note: Firmware repo (Rust/Embassy) confirming open-source firmware for the badge.
+  archived: https://web.archive.org/web/20260716120938/https://codeberg.org/Ranzbak/bornhack-firmware-2026
 research:
   status: researched
   confidence: high

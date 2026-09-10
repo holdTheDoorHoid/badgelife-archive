@@ -56,6 +56,7 @@ sources:
   title: BornHack 2023 badge
   accessed: '2026-09-07'
   note: 'Found by the archive''s discovery sweep (angle: tobuy-linkfile); event read as ''bornhack-2023''.'
+  archived: https://web.archive.org/web/20251122084616/https://github.com/bornhack/badge2023
 - kind: url
   url: https://raw.githubusercontent.com/bornhack/badge2023/main/README.md
   title: bornhack/badge2023 README.md
@@ -71,6 +72,7 @@ sources:
   title: This years BornHack badge with NFC - BornHack 2023 program
   accessed: '2026-09-07'
   note: Conference talk page about the badge by Thomas Flummer; no price/quantity information, links back to the same GitHub repo and a slide deck.
+  archived: https://web.archive.org/web/20260218152330/https://www.bornhack.dk/bornhack-2023/program/this-years-bornhack-badge-with-nfc/
 - kind: url
   url: https://github.com/bornhack/badge2023/blob/main/README.md
   title: BornHack 2023 NFC Tag Badge
@@ -92,31 +94,38 @@ images:
   source: https://github.com/bornhack/badge2023
   credit: BornHack
   caption: The BornHack 2023 NFC reader and tag badges, back side
+  archived: https://web.archive.org/web/20251122084616/https://github.com/bornhack/badge2023
 - file: assets/images/badges/bornhack-2023/bornhack-2023-badge/6d4bc29524.jpg
   source: https://github.com/bornhack/badge2023
   credit: BornHack
   caption: The BornHack 2023 NFC reader and tag badges, front side, showing the PCB art
+  archived: https://web.archive.org/web/20251122084616/https://github.com/bornhack/badge2023
 - file: assets/images/badges/bornhack-2023/bornhack-2023-badge/63e3cac77b.jpg
   source: https://github.com/bornhack/badge2023
   credit: BornHack
   caption: The BornHack 2023 NFC tag badge (right) paired with the NFC reader badge
+  archived: https://web.archive.org/web/20251122084616/https://github.com/bornhack/badge2023
 - file: assets/images/badges/bornhack-2023/bornhack-2023-badge/4726c5c38c.jpg
   source: https://github.com/bornhack/badge2023
   credit: BornHack
   caption: Back of the BornHack 2023 NFC badge pair showing the tag and reader boards
+  archived: https://web.archive.org/web/20251122084616/https://github.com/bornhack/badge2023
 links:
 - label: github.com/bornhack/badge2023
   url: https://github.com/bornhack/badge2023
   kind: repo
+  archived: https://web.archive.org/web/20251122084616/https://github.com/bornhack/badge2023
 - label: BornHack 2023 makes NFC badges (Adafruit blog)
   url: https://blog.adafruit.com/2023/08/02/bornhack-2023-makes-nfc-badges-badgelife-rp2040-bornhackbadge-raspberry_pi/
   kind: article
 - label: This years BornHack badge with NFC (talk, program page)
   url: https://bornhack.dk/bornhack-2023/program/this-years-bornhack-badge-with-nfc/
   kind: doc
+  archived: https://web.archive.org/web/20260218152330/https://www.bornhack.dk/bornhack-2023/program/this-years-bornhack-badge-with-nfc/
 - label: BornHack 2023 NFC Badges talk slides (Thomas Flummer)
   url: https://thomasflummer.com/slides/nfc_badge_2023.pdf
   kind: doc
+  archived: https://web.archive.org/web/20250911213402/https://thomasflummer.com/slides/nfc_badge_2023.pdf
 - label: github.com/bornhack/badge2023/blob/main/README.md
   url: https://github.com/bornhack/badge2023/blob/main/README.md
   kind: repo

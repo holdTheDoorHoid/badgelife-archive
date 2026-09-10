@@ -153,10 +153,16 @@ research:
   confidence: medium
   last_checked: '2026-09-08'
   notes: 'Core hardware facts (MCU, dual CC1101, LEDs, display, SD card, menu firmware) confirmed directly from the maker''s firmware repo source files. Commercial details (price, availability, "very limited" stock, included lanyard/Foxx SAO, battery spec) come from the maker''s own storefront and Tindie listing, which agree with each other, so confidence is medium rather than high because exact quantity made and a hard sold-out date were not stated. Not verified: hardware design files/gerbers location (link not found - hardware_url left empty), exact LED count wiring beyond the pins file, and whether the badge shipped with the OLED display or it was always a separate add-on purchase (the product listing implies it is optional/additional). Merged with duplicate entry ''Foxx SAO'' (dc33-foxx-sao). Merged with duplicate entry ''DC32-SAO'' (dc32-sao).'
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-10'
 redirect_from:
 - /badges/dc33/foxx-sao/
 - /badges/dc32/sao/
+model:
+  file: assets/models/dc33/the-pirates-plunder-rabbit-labs-def-con-33-badge.glb
+  method: kicad
+  source_file: DC32-SAO-pannel.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 188432
 ---
 
 The Rabbit-Labs & The Pirates Plunder Badge is a limited-run collector's badge that debuted at the Rabbit-Labs vendor booth at DEF CON 33 in 2025. It was a group effort: Rabbit-Labs produced and sold the hardware, while firmware and features came from a handful of collaborators including RocketGod, zR_CrackiiN, JBOHack, and others credited on the product page. The board is built around an ESP32-S3-N16R8 with two onboard CC1101 433 MHz radio modules, a 5-way directional switch, an SD card reader, 32 addressable WS2812B RGB LEDs, a SAO port, and a slot for an 18650 lithium battery with its own charge/protection circuit.

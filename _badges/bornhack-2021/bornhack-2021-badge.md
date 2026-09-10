@@ -45,11 +45,13 @@ links:
 - label: github.com/bornhack/badge2021
   url: https://github.com/bornhack/badge2021
   kind: repo
+  archived: https://web.archive.org/web/20251126063657/https://github.com/bornhack/badge2021
 images:
 - file: assets/images/badges/bornhack-2021/bornhack-2021-badge/d7275caa09.png
   source: https://github.com/bornhack/badge2021
   credit: BornHack
   caption: KiCad render of the BornHack 2021 SAO prototyping board badge
+  archived: https://web.archive.org/web/20251126063657/https://github.com/bornhack/badge2021
 contact: {}
 notes:
 - From the user's 'SAOs to buy' link list (2026-09-07).
@@ -60,16 +62,19 @@ sources:
   title: BornHack 2021 badge
   accessed: '2026-09-07'
   note: 'Found by the archive''s discovery sweep (angle: tobuy-linkfile); event read as ''bornhack-2021''.'
+  archived: https://web.archive.org/web/20251126063657/https://github.com/bornhack/badge2021
 - kind: url
   url: https://hackaday.com/2021/09/03/the-bornhack-badge-gets-a-bubble/
   title: The BornHack Badge Gets A Bubble | Hackaday
   accessed: '2026-09-07'
   note: Confirms the 2021 badge was an SAO prototyping board (not a powered electronic badge) due to the chip shortage, and that attendees hacked on it at the camp.
+  archived: https://web.archive.org/web/20260512004630/https://hackaday.com/2021/09/03/the-bornhack-badge-gets-a-bubble/
 - kind: url
   url: https://hackaday.com/2021/08/31/reporting-from-bornhack-2021-hacker-camps-making-it-through-the-pandemic/
   title: 'Reporting From BornHack 2021: Hacker Camps Making It Through The Pandemic | Hackaday'
   accessed: '2026-09-07'
   note: Background on BornHack 2021 as an in-person camp during the pandemic; general context, no new badge specifics.
+  archived: https://web.archive.org/web/20260514034229/https://hackaday.com/2021/08/31/reporting-from-bornhack-2021-hacker-camps-making-it-through-the-pandemic/
 research:
   status: researched
   confidence: medium

@@ -34,7 +34,7 @@ get_one:
   distribution: []
   where: ''
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/mbooth101/emf-screen-hexpansion/tree/main/hardware
   firmware_url: https://github.com/mbooth101/emf-screen-hexpansion
   eda_tool: KiCad
@@ -65,13 +65,19 @@ sources:
   url: https://raw.githubusercontent.com/mbooth101/emf-screen-hexpansion/main/hardware/production/bom.csv
   title: hardware/production/bom.csv
   accessed: '2026-09-08'
-  note: 'Board BOM (resistors, AT24C256C EEPROM for hexpansion identification); datasheets folder in the repo also includes GC9A01A, the round-LCD display driver used.'
+  note: Board BOM (resistors, AT24C256C EEPROM for hexpansion identification); datasheets folder in the repo also includes GC9A01A, the round-LCD display driver used.
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-08'
-  notes: 'Maker''s page and repo confirm what the hexpansion is and that it is open source (KiCad hardware + MicroPython/firmware files under MIT/CERN-OHL-P), but neither source states price, quantity made, or sale/distribution channel, so get_one fields are left empty. No MCU is on the board itself -- it is driven by the host Tildagon over I2C, per the EEPROM-based hexpansion identification scheme. No photos of the assembled board were found on either the maker''s page or the GitHub repo (only a generic GitHub social-preview image), so no images were saved. Set status to released since the repo and firmware exist and are documented as installable, though no explicit "for sale" or unit-count statement was found.'
-last_modified_date: '2026-09-08'
+  notes: Maker's page and repo confirm what the hexpansion is and that it is open source (KiCad hardware + MicroPython/firmware files under MIT/CERN-OHL-P), but neither source states price, quantity made, or sale/distribution channel, so get_one fields are left empty. No MCU is on the board itself -- it is driven by the host Tildagon over I2C, per the EEPROM-based hexpansion identification scheme. No photos of the assembled board were found on either the maker's page or the GitHub repo (only a generic GitHub social-preview image), so no images were saved. Set status to released since the repo and firmware exist and are documented as installable, though no explicit "for sale" or unit-count statement was found.
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/emf-camp-2024/screen-hexpansion.glb
+  method: kicad
+  source_file: hardware/screen-hexpansion.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 136800
 ---
 
 The Screen Hexpansion is a small expansion board for the Tildagon, the badge used at EMF Camp 2024 (and planned to continue at EMF Camp 2026). It plugs into one of the Tildagon's hexpansion ports and adds a round LCD (driven by a GC9A01A display controller) so that badge apps can show information on a second screen in addition to the badge's main display. Mat Booth, who also made the Tildagon's GPS Hexpansion and its speedometer app, describes it as his first hardware add-on design for an EMF Camp badge, joking that plugging in several at once could turn a Tildagon into a "multiocular" badge covered in eyes.

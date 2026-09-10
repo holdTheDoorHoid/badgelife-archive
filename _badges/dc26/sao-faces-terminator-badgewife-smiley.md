@@ -11,7 +11,7 @@ year: 2018
 makers:
 - name: Joe Fitz (securelyfitz)
   url: https://github.com/securelyfitz
-summary: 'A set of interchangeable SAO "face" PCBs for securelyfitz''s microbadge system at DEF CON 26, each carrying its own SAO port and battery holder so it can be topped with a chosen expression and skewered with a set of "arms".'
+summary: A set of interchangeable SAO "face" PCBs for securelyfitz's microbadge system at DEF CON 26, each carrying its own SAO port and battery holder so it can be topped with a chosen expression and skewered with a set of "arms".
 functions: 'Each face plugs into the microbadge core (an ATtiny85 "digispark clone") over the SAO''s I2C pins and supplies the badge''s battery holder. The terminator face doubles as a joke: it "terminates" the I2C bus with pullup resistors. Faces carry no logic of their own; they are decorative/structural PCBs combined with separately-sourced arms and the microbadge board to make a complete wearable.'
 look:
   colors:
@@ -55,14 +55,14 @@ links:
   url: https://github.com/securelyfitz/microbadge
   kind: repo
 images:
-  - file: assets/images/badges/dc26/sao-faces-terminator-badgewife-smiley/981abd45f3.jpg
-    source: "https://github.com/securelyfitz/sao-faces"
-    credit: "securelyfitz"
-    caption: "Terminator face SAO artwork (dc2018_terminator1.bmp)"
-  - file: assets/images/badges/dc26/sao-faces-terminator-badgewife-smiley/9a161ac0de.jpg
-    source: "https://github.com/securelyfitz/sao-faces"
-    credit: "securelyfitz"
-    caption: "Smiley face SAO artwork, filed in the repo as hackers.bmp"
+- file: assets/images/badges/dc26/sao-faces-terminator-badgewife-smiley/981abd45f3.jpg
+  source: https://github.com/securelyfitz/sao-faces
+  credit: securelyfitz
+  caption: Terminator face SAO artwork (dc2018_terminator1.bmp)
+- file: assets/images/badges/dc26/sao-faces-terminator-badgewife-smiley/9a161ac0de.jpg
+  source: https://github.com/securelyfitz/sao-faces
+  credit: securelyfitz
+  caption: Smiley face SAO artwork, filed in the repo as hackers.bmp
 contact: {}
 notes:
 - Spotted by a research agent while working on another entry; not yet researched.
@@ -83,8 +83,14 @@ research:
   status: researched
   confidence: medium
   last_checked: '2026-09-10'
-  notes: 'The sao-faces repo itself has only a one-line README and no images beyond the design bitmaps; event/year, function, and the "smiley" identification come from the parent microbadge repo''s README rather than from sao-faces directly. The repo holds six design folders/zips (badgewife, bendor, hackers, roboto, terminator, wife) but the maker''s prose only names three faces (terminator, badgewife, smiley) — "hackers.bmp" appears to be the smiley design (an eyepatched smiley face, a nod to the 1995 film Hackers, whose protagonist is Dade Murphy) and "wife"/"bendor"/"roboto" are unlabeled extras not mentioned in prose; not confirmed which files pair to "bride" (dc2018_bride1.bmp) vs "badgewife" vs "wife". No price, quantity-per-face, or standalone availability info found; the ~1100 unit figure in sources is for the microbadge core board as a whole, not this faces set specifically. No storefront or press coverage located.'
+  notes: The sao-faces repo itself has only a one-line README and no images beyond the design bitmaps; event/year, function, and the "smiley" identification come from the parent microbadge repo's README rather than from sao-faces directly. The repo holds six design folders/zips (badgewife, bendor, hackers, roboto, terminator, wife) but the maker's prose only names three faces (terminator, badgewife, smiley) — "hackers.bmp" appears to be the smiley design (an eyepatched smiley face, a nod to the 1995 film Hackers, whose protagonist is Dade Murphy) and "wife"/"bendor"/"roboto" are unlabeled extras not mentioned in prose; not confirmed which files pair to "bride" (dc2018_bride1.bmp) vs "badgewife" vs "wife". No price, quantity-per-face, or standalone availability info found; the ~1100 unit figure in sources is for the microbadge core board as a whole, not this faces set specifically. No storefront or press coverage located.
 last_modified_date: '2026-09-10'
+model:
+  file: assets/models/dc26/sao-faces-terminator-badgewife-smiley.glb
+  method: kicad
+  source_file: wife.brd
+  generated: '2026-09-10'
+  bytes: 40040
 ---
 
 Part of Joe Fitz's (securelyfitz) "microbadge" project for DEF CON 26 (2018), sao-faces is a small library of interchangeable face PCBs that snap onto the microbadge's SAO header along with a set of separately-designed "arms," letting attendees mix and match a body for the tiny ATtiny85-based badge. The maker's README names three faces by intent: a **terminator** face (whose name doubles as a joke — it terminates the I2C bus with pullup resistors), a **badgewife** face for "badgelife diehards," and a **smiley** face for fans of the 1995 film *Hackers* (whose lead character is Dade Murphy). Each face carries its own SAO port and a battery holder, since the trimmed-down microbadge core board has no on-board regulator or holder of its own.

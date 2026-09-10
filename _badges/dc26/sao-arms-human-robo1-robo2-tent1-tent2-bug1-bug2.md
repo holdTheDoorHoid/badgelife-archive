@@ -50,13 +50,13 @@ links:
   kind: repo
 images:
 - file: assets/images/badges/dc26/sao-arms-human-robo1-robo2-tent1-tent2-bug1-bug2/7c2b7b901c.jpg
-  source: "https://github.com/securelyfitz/sao-arms"
-  credit: "Joe FitzPatrick (securelyfitz)"
-  caption: "Silkscreen artwork for the robo2 arm variant"
+  source: https://github.com/securelyfitz/sao-arms
+  credit: Joe FitzPatrick (securelyfitz)
+  caption: Silkscreen artwork for the robo2 arm variant
 - file: assets/images/badges/dc26/sao-arms-human-robo1-robo2-tent1-tent2-bug1-bug2/14fa6671ba.jpg
-  source: "https://github.com/securelyfitz/sao-arms"
-  credit: "Joe FitzPatrick (securelyfitz)"
-  caption: "Silkscreen artwork for the bug1 arm variant"
+  source: https://github.com/securelyfitz/sao-arms
+  credit: Joe FitzPatrick (securelyfitz)
+  caption: Silkscreen artwork for the bug1 arm variant
 contact: {}
 notes:
 - Sweep's sources list named the GitHub repo directly; the one-line note ("Reported as an 'other item found' during the stub research pass") did not describe the item itself.
@@ -71,7 +71,7 @@ sources:
   url: https://github.com/securelyfitz/microbadge
   title: microbadge - functional badge in 1 square centimeter
   accessed: '2026-09-10'
-  note: "Confirmed event/year (DEF CON 26, 2018: '1100 of them assembled in time for defcoin'), ATtiny85 MCU, and that arms/faces are add-ons for this host board."
+  note: 'Confirmed event/year (DEF CON 26, 2018: ''1100 of them assembled in time for defcoin''), ATtiny85 MCU, and that arms/faces are add-ons for this host board.'
 - kind: url
   url: https://github.com/securelyfitz/sao-faces
   title: sao-faces
@@ -81,15 +81,14 @@ research:
   status: researched
   confidence: medium
   last_checked: '2026-09-10'
-  notes: >-
-    This is a design-files repo (schematics, board outlines, Gerber/CAM, and BMP silkscreen art)
-    for seven interchangeable "arm" shapes, not a standalone product with its own price or
-    distribution numbers - price/quantity/availability were never given separately from the
-    microbadge host board it plugs into (that entry, dc26-ubadge-microbadge, records "under $1"
-    and "1,100 assembled" for the host). No MCU/LEDs of its own since these are passive
-    plug-on boards. No maker photos of an assembled arm+face+microbadge combo were found, only
-    the board-outline artwork used here. License is not stated in the repo.
+  notes: This is a design-files repo (schematics, board outlines, Gerber/CAM, and BMP silkscreen art) for seven interchangeable "arm" shapes, not a standalone product with its own price or distribution numbers - price/quantity/availability were never given separately from the microbadge host board it plugs into (that entry, dc26-ubadge-microbadge, records "under $1" and "1,100 assembled" for the host). No MCU/LEDs of its own since these are passive plug-on boards. No maker photos of an assembled arm+face+microbadge combo were found, only the board-outline artwork used here. License is not stated in the repo.
 last_modified_date: '2026-09-10'
+model:
+  file: assets/models/dc26/sao-arms-human-robo1-robo2-tent1-tent2-bug1-bug2.glb
+  method: kicad
+  source_file: tent1.brd
+  generated: '2026-09-10'
+  bytes: 21008
 ---
 
 Joe FitzPatrick (securelyfitz) designed this set of seven "arm" PCB shapes -- a human arm, two robotic arm variants (robo1, robo2), two tentacle-style arms (tent1, tent2), and two bug-leg variants (bug1, bug2) -- as building blocks for a build-your-own creature badge. They are meant to be paired with the companion `sao-faces` boards (terminator, badgewife, smiley) and plugged onto his `microbadge`, a tiny ATtiny85-based SAO host that FitzPatrick built roughly 1,100 of for DEF CON 26 in 2018. Mixing and matching an arm shape with a face shape lets a builder assemble their own little character out of otherwise-identical small PCBs.

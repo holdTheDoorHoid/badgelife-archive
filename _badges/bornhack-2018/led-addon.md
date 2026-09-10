@@ -10,8 +10,8 @@ event: bornhack-2018
 year: 2018
 makers:
 - name: BornHack
-summary: 'A single-LED SAO breakout board designed as a beginner soldering exercise for the BornHack 2018 badge.'
-functions: 'Lights one through-hole LED from the badge''s VCC/GND rails; no logic or blinking circuitry of its own.'
+summary: A single-LED SAO breakout board designed as a beginner soldering exercise for the BornHack 2018 badge.
+functions: Lights one through-hole LED from the badge's VCC/GND rails; no logic or blinking circuitry of its own.
 look:
   colors: []
   shape: null
@@ -35,9 +35,9 @@ get_one:
   availability: free
   distribution:
   - free_drop
-  where: 'Distributed unpopulated (bare PCB, no components) at random with BornHack 2018 badges; more could be traded for or picked up from the badge team.'
+  where: Distributed unpopulated (bare PCB, no components) at random with BornHack 2018 badges; more could be traded for or picked up from the badge team.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/bornhack/badge2018/tree/breakoutboards/LED_addon
   firmware_url: null
   eda_tool: KiCad
@@ -59,7 +59,7 @@ sources:
   note: Reported as an 'other item found' during the stub research pass.
 - kind: url
   url: https://raw.githubusercontent.com/bornhack/badge2018/breakoutboards/README.md
-  title: 'Bornhack Badge 2018 - Breakout boards (branch README)'
+  title: Bornhack Badge 2018 - Breakout boards (branch README)
   accessed: '2026-09-10'
   note: Explains the breakoutboards branch is a set of unpopulated, experimental add-on PCBs distributed randomly with the 2018 badges for soldering practice.
 - kind: url
@@ -71,8 +71,14 @@ research:
   status: researched
   confidence: medium
   last_checked: '2026-09-10'
-  notes: 'Confirmed via the maker''s (BornHack) own GitHub repo and schematic; no photos of an assembled unit exist since the boards were distributed bare/unpopulated and the branch itself says they are untested. No press or third-party coverage found. Price and quantity made are not stated anywhere.'
+  notes: Confirmed via the maker's (BornHack) own GitHub repo and schematic; no photos of an assembled unit exist since the boards were distributed bare/unpopulated and the branch itself says they are untested. No press or third-party coverage found. Price and quantity made are not stated anywhere.
 last_modified_date: '2026-09-10'
+model:
+  file: assets/models/bornhack-2018/led-addon.glb
+  method: kicad
+  source_file: LED_addon/LED_addon.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 20328
 ---
 
 The LED Blinky Addon is one of several small breakout boards BornHack designed to plug into the SAO header of the BornHack 2018 conference badge. Rather than being a finished gadget, it's a deliberately simple beginner soldering exercise: a single 5mm through-hole LED wired straight across the badge's VCC and GND pins through a 2x2 ShittyAddon-style SAO connector, with no microcontroller or driver circuitry of its own.

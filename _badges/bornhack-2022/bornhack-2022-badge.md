@@ -44,9 +44,11 @@ links:
 - label: github.com/bornhack/badge2022
   url: https://github.com/bornhack/badge2022
   kind: repo
+  archived: https://web.archive.org/web/20251125153035/https://github.com/bornhack/badge2022
 - label: 'Hackaday: Badges Of 2022: BornHack'
   url: https://hackaday.com/2022/07/08/badges-of-2022-bornhack/
   kind: article
+  archived: https://web.archive.org/web/20260717220114/https://hackaday.com/2022/07/08/badges-of-2022-bornhack/
 - label: 'Adafruit blog: The BornHack 2022 Game On Badge'
   url: https://blog.adafruit.com/2022/07/08/the-bornhack-2022-game-on-badge-circuitpython-piday-rp2040-raspberry_pi/
   kind: article
@@ -55,6 +57,7 @@ images:
   source: https://github.com/bornhack/badge2022
   credit: BornHack
   caption: Front of the BornHack 2022 Game On badge, showing the color LCD screen and navigation buttons
+  archived: https://web.archive.org/web/20251125153035/https://github.com/bornhack/badge2022
 contact: {}
 notes:
 - From the user's 'SAOs to buy' link list (2026-09-07).
@@ -65,11 +68,13 @@ sources:
   title: BornHack 2022 badge
   accessed: '2026-09-07'
   note: 'Found by the archive''s discovery sweep (angle: tobuy-linkfile); event read as ''bornhack-2022''.'
+  archived: https://web.archive.org/web/20251125153035/https://github.com/bornhack/badge2022
 - kind: url
   url: https://hackaday.com/2022/07/08/badges-of-2022-bornhack/
   title: 'Badges Of 2022: BornHack'
   accessed: '2026-09-07'
   note: Confirmed the badge is exclusive to attendees at the event; general description of the console form factor.
+  archived: https://web.archive.org/web/20260717220114/https://hackaday.com/2022/07/08/badges-of-2022-bornhack/
 - kind: url
   url: https://blog.adafruit.com/2022/07/08/the-bornhack-2022-game-on-badge-circuitpython-piday-rp2040-raspberry_pi/
   title: The BornHack 2022 Game On Badge

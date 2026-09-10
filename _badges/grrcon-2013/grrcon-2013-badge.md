@@ -11,7 +11,7 @@ year: 2013
 makers:
 - name: GRMakers
 summary: A skull-shaped, Arduino Uno Rev3-compatible conference badge made for GrrCON 2013, with schematics, board files and firmware published on GitHub.
-functions: 'Runs as a standard Arduino Uno Rev3 (via the onboard ATmega328P and ATmega16U2 USB interface chip), so it is programmable like any Arduino board after the con.'
+functions: Runs as a standard Arduino Uno Rev3 (via the onboard ATmega328P and ATmega16U2 USB interface chip), so it is programmable like any Arduino board after the con.
 look:
   colors: []
   shape: skull
@@ -62,18 +62,14 @@ research:
   status: researched
   confidence: medium
   last_checked: '2026-09-08'
-  notes: >-
-    Only source found is the maker's GitHub repo (GRMakers org), which confirms the badge is real and
-    gives the technical design (ATmega328P + ATmega16U2, Arduino Uno Rev3 architecture, skull-shaped
-    PCB, Eagle CAD files, CC-BY-SA license on the board/schematic). The repo has no photos of an
-    assembled badge, so no images could be saved for this entry. A websearch turned up a YouTube video
-    titled "GrrCON 2013 Badge - designed by Twisted Blades LLC" crediting a different designer name,
-    but the video's actual content was not retrievable (only YouTube boilerplate loaded), so that
-    credit is unconfirmed and not added to makers. Price, quantity made, LED count/type, and
-    availability/distribution are not stated anywhere found and are left empty. A fork exists at
-    github.com/mfarver/GrrCON_2013_Badge but appears to be a plain copy of the same repo, not a
-    separate item.
-last_modified_date: '2026-09-08'
+  notes: Only source found is the maker's GitHub repo (GRMakers org), which confirms the badge is real and gives the technical design (ATmega328P + ATmega16U2, Arduino Uno Rev3 architecture, skull-shaped PCB, Eagle CAD files, CC-BY-SA license on the board/schematic). The repo has no photos of an assembled badge, so no images could be saved for this entry. A websearch turned up a YouTube video titled "GrrCON 2013 Badge - designed by Twisted Blades LLC" crediting a different designer name, but the video's actual content was not retrievable (only YouTube boilerplate loaded), so that credit is unconfirmed and not added to makers. Price, quantity made, LED count/type, and availability/distribution are not stated anywhere found and are left empty. A fork exists at github.com/mfarver/GrrCON_2013_Badge but appears to be a plain copy of the same repo, not a separate item.
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/grrcon-2013/grrcon-2013-badge.glb
+  method: kicad
+  source_file: GrrCON-Badge-Rev1.brd
+  generated: '2026-09-10'
+  bytes: 283788
 ---
 
 The GrrCON 2013 Badge is a skull-shaped conference badge built around the same architecture as an Arduino Uno Rev3: an ATmega328P as the main processor paired with an ATmega16U2 handling USB. GRMakers published the full Eagle 6.4 schematic and board layout, a bill of materials, and the software/bootloader files on GitHub, along with the exact fuse settings used to program the main chip and the USB interface chip.

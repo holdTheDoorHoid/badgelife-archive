@@ -105,9 +105,15 @@ research:
   confidence: high
   last_checked: '2026-09-08'
   notes: Core facts confirmed on the maker's own blog post and documentation site, plus the open hardware/firmware repos on the emfcamp GitHub org. Quantity made (number of attendees who received one) was not stated on the sources checked, so get_one.quantity is left empty. No price/quantity figures found beyond "free, given to attendees." Merged with duplicate entry 'TiLDA Mk4' (emf-camp-2018-tilda-mk4-mk).
-last_modified_date: '2026-09-08'
+last_modified_date: '2026-09-10'
 redirect_from:
 - /badges/emf-camp-2018/tilda-mk4-mk/
+model:
+  file: assets/models/emf-camp-2018/tilda-mk4.glb
+  method: kicad
+  source_file: Mk4 Final a.brd
+  generated: '2026-09-10'
+  bytes: 1740320
 ---
 
 The TiLDA Mk4 was the official, free badge given to every attendee of EMF Camp 2018, the UK's outdoor tech and hacker camping festival. Built by the EMF Camp badge team with sponsorship from Texas Instruments, HCD, and Seeed Studio, it centers on a TI SimpleLink MSP432E4 (ARM Cortex-M4F @ 120MHz) paired with a CC3120 Wi-Fi network processor, a 240x320 color LCD, two WS2812B RGB LEDs, a T9 keypad and joystick, and a 2000mAh battery. It is programmed in MicroPython, with apps loaded simply by copying files over USB.

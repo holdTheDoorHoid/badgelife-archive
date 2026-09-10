@@ -36,7 +36,7 @@ tech:
   battery: powered by host badge
   sao_version: none
 get_one:
-  price: "£15"
+  price: £15
   price_usd: null
   quantity: ''
   availability: sold_out
@@ -45,7 +45,7 @@ get_one:
   - purchase
   where: Sold via themachineshop.uk, an add-on ("hexpansion") for the Tildagon badge used at EMF Camp.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/TechCabin/EMFBadge-Hexpansions-GPS
   firmware_url: https://github.com/TechCabin/EMFBadge-Hexpansions-GPS
   eda_tool: KiCad
@@ -68,14 +68,14 @@ links:
   url: https://apps.badge.emfcamp.org/apps/43422242
   kind: doc
 images:
-  - file: assets/images/badges/emf-camp-2026/gps-hexpansion/0c2a31eab8.jpg
-    source: "https://github.com/TechCabin/EMFBadge-Hexpansions-GPS"
-    credit: "TechCabin"
-    caption: "GPS Hexpansion board, top side, showing the L80RE-M37 GPS module"
-  - file: assets/images/badges/emf-camp-2026/gps-hexpansion/f5fb860098.jpg
-    source: "https://github.com/TechCabin/EMFBadge-Hexpansions-GPS"
-    credit: "TechCabin"
-    caption: "GPS Hexpansion plugged into a Tildagon badge"
+- file: assets/images/badges/emf-camp-2026/gps-hexpansion/0c2a31eab8.jpg
+  source: https://github.com/TechCabin/EMFBadge-Hexpansions-GPS
+  credit: TechCabin
+  caption: GPS Hexpansion board, top side, showing the L80RE-M37 GPS module
+- file: assets/images/badges/emf-camp-2026/gps-hexpansion/f5fb860098.jpg
+  source: https://github.com/TechCabin/EMFBadge-Hexpansions-GPS
+  credit: TechCabin
+  caption: GPS Hexpansion plugged into a Tildagon badge
 contact: {}
 notes:
 - GPS-equipped Tildagon hexpansion with firmware broadcasting position over the badge event system, later adopted as the official driver; also powers a Speedometer app. Found by the event-year sweep, task emf-addons.
@@ -106,19 +106,16 @@ research:
   status: researched
   confidence: high
   last_checked: '2026-09-08'
-  notes: >-
-    Event corrected from emf-camp-2024 to emf-camp-2026: the GPS Hexpansion module itself
-    (TechCabin/The Machine Shop) has a GitHub repo created March 2026 and a store listing
-    describing it as for "the EMF2026 Tildagon Badge." The Tildagon badge was introduced at
-    EMF Camp 2024 and deliberately reused at EMF Camp 2026 (per EMF Camp's own blog and
-    Hackaday), so this is a genuinely separate, later product rather than a mislabel. Mat
-    Booth wrote GPS-consuming firmware/apps (Speedometer) that the sweep's source page
-    describes, and his firmware reportedly became the basis for the official driver, but he
-    is not the hardware maker. Could not confirm total quantity made or exact release date
-    within 2026.
-last_modified_date: '2026-09-08'
+  notes: 'Event corrected from emf-camp-2024 to emf-camp-2026: the GPS Hexpansion module itself (TechCabin/The Machine Shop) has a GitHub repo created March 2026 and a store listing describing it as for "the EMF2026 Tildagon Badge." The Tildagon badge was introduced at EMF Camp 2024 and deliberately reused at EMF Camp 2026 (per EMF Camp''s own blog and Hackaday), so this is a genuinely separate, later product rather than a mislabel. Mat Booth wrote GPS-consuming firmware/apps (Speedometer) that the sweep''s source page describes, and his firmware reportedly became the basis for the official driver, but he is not the hardware maker. Could not confirm total quantity made or exact release date within 2026.'
+last_modified_date: '2026-09-10'
 redirect_from:
 - /badges/emf-camp-2024/gps-hexpansion/
+model:
+  file: assets/models/emf-camp-2026/gps-hexpansion.glb
+  method: kicad
+  source_file: KiCAD/hexpansion-L80.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 177336
 ---
 
 The GPS Hexpansion is an add-on module for EMF Camp's Tildagon badge, built around a Quectel L80RE-M37 GPS receiver with a built-in patch antenna and a connector for an external antenna with automatic switchover. It carries an M24C16 EEPROM (used to identify the hexpansion to the badge) and two status LEDs (red and yellow). It is designed and sold by TechCabin/The Machine Shop through themachineshop.uk for £15, and was listed as sold out as of this check.

@@ -37,7 +37,7 @@ get_one:
   distribution: []
   where: ''
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/DanNixon/hexpansions/tree/main/rabbit
   firmware_url: null
   eda_tool: KiCad
@@ -53,9 +53,9 @@ links:
   kind: repo
 images:
 - file: assets/images/badges/emf-camp-2024/rabbit-hexpansion/7ab71485de.jpg
-  source: "https://github.com/DanNixon/hexpansions/tree/main/rabbit"
-  credit: "DanNixon"
-  caption: "PCB render of the Rabbit hexpansion"
+  source: https://github.com/DanNixon/hexpansions/tree/main/rabbit
+  credit: DanNixon
+  caption: PCB render of the Rabbit hexpansion
 contact: {}
 notes:
 - Sheet listed this only as "Open-source Tildagon hexpansion published in DanNixon's hexpansions repo" (seen only in a search snippet); confirmed directly from the maker's GitHub repo and its README.
@@ -84,6 +84,12 @@ research:
   last_checked: '2026-09-10'
   notes: Core facts (maker, event, what it is, hardware, license) confirmed on the maker's own GitHub repo, so this is more than a bare search snippet. Confidence is medium rather than high because no page states price, quantity, or how/whether it was distributed beyond the repo itself — it may simply be Dan Nixon's own badge accessory, not a general release.
 last_modified_date: '2026-09-10'
+model:
+  file: assets/models/emf-camp-2024/rabbit-hexpansion.glb
+  method: kicad
+  source_file: rabbit/rabbit.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 116468
 ---
 
 The Rabbit hexpansion is an open-source expansion module for the Tildagon badge issued at EMF Camp 2024, built by Dan Nixon (DanNixon) as part of their personal `hexpansions` repository alongside three other modules (Flandre Scarlet wings, Le Carnard de Bleu, and a Maker Space badge). It plugs into the Tildagon's hexpansion header and carries a single 5mm RGB LED plus an I2C EEPROM for hexpansion identification, following the standard Tildagon hexpansion electrical interface.

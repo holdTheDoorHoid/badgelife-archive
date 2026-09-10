@@ -68,23 +68,19 @@ sources:
   url: https://api.github.com/repos/bornhack/badge2018/commits?path=CapSense_addon&sha=breakoutboards
   title: 'GitHub API: commit history for CapSense_addon'
   accessed: '2026-09-10'
-  note: 'Single commit, "Initial version," by Thomas Flummer (github.com/flummer), 2018-07-26 - identifies the designer.'
+  note: Single commit, "Initial version," by Thomas Flummer (github.com/flummer), 2018-07-26 - identifies the designer.
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-10'
-  notes: >-
-    Design files only (KiCad schematic, PCB, netlist, project file) on the
-    `breakoutboards` branch of bornhack/badge2018; no README, no renders or
-    photos, and no evidence found that it was ever fabricated, sold, or
-    distributed to attendees - it may have stayed a design exercise. The
-    schematic names the IC as a Semiconductors:FDC1004 (TI capacitance-to-digital
-    converter) with SDA/SCL breakouts and a 2x2 connector matching the badge's
-    breakout-board pattern seen on sibling entries (Blinky_addon, LED_addon).
-    Maker attribution comes from the sole git commit author, not a byline on
-    the page itself, so confidence is medium rather than high. No pricing,
-    quantity, or availability information exists anywhere in the repo.
+  notes: Design files only (KiCad schematic, PCB, netlist, project file) on the `breakoutboards` branch of bornhack/badge2018; no README, no renders or photos, and no evidence found that it was ever fabricated, sold, or distributed to attendees - it may have stayed a design exercise. The schematic names the IC as a Semiconductors:FDC1004 (TI capacitance-to-digital converter) with SDA/SCL breakouts and a 2x2 connector matching the badge's breakout-board pattern seen on sibling entries (Blinky_addon, LED_addon). Maker attribution comes from the sole git commit author, not a byline on the page itself, so confidence is medium rather than high. No pricing, quantity, or availability information exists anywhere in the repo.
 last_modified_date: '2026-09-10'
+model:
+  file: assets/models/bornhack-2018/capsense-addon.glb
+  method: kicad
+  source_file: CapSense_addon/CapSense_addon.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 63160
 ---
 
 CapSense_addon is a capacitive-sensing breakout board for the BornHack 2018 badge, built around Texas Instruments' FDC1004 capacitance-to-digital converter. It communicates over I2C (SDA/SCL) and breaks out six individual sense channels via single-pin headers, presumably for wiring up external touch pads or electrodes, while a 2x2 connector ties it to the main badge - the same connector style used by the other BornHack 2018 breakout boards (Blinky_addon, LED_addon).

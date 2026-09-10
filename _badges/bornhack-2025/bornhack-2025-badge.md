@@ -55,6 +55,7 @@ links:
 - label: 'Hackaday: Two For The Price Of One: BornHack 2024 And 2025 Badges'
   url: https://hackaday.com/2025/08/01/two-for-the-price-of-one-bornhack-2024-and-2025-badges/
   kind: article
+  archived: https://web.archive.org/web/20260717220115/https://hackaday.com/2025/08/01/two-for-the-price-of-one-bornhack-2024-and-2025-badges/
 images:
 - file: assets/images/badges/bornhack-2025/bornhack-2025-badge/dea28a270d.jpg
   source: https://github.com/bornhack/badge2025
@@ -80,6 +81,7 @@ sources:
   title: 'Two For The Price Of One: BornHack 2024 And 2025 Badges'
   accessed: '2026-09-07'
   note: Confirmed shape/color (white, Ø-shaped), battery (2x AA), status icons/logo layout, designer name (Thomas Flummer), and that it pairs with the 2024 badge to spell "10" for the camp's 10th year.
+  archived: https://web.archive.org/web/20260717220115/https://hackaday.com/2025/08/01/two-for-the-price-of-one-bornhack-2024-and-2025-badges/
 research:
   status: verified
   confidence: medium

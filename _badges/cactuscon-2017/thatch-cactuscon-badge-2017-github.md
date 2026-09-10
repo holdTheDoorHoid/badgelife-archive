@@ -90,6 +90,12 @@ research:
 last_modified_date: '2026-09-10'
 redirect_from:
 - /badges/cactuscon-2017/cactuscon6-badge/
+model:
+  file: assets/models/cactuscon-2017/thatch-cactuscon-badge-2017-github.glb
+  method: kicad
+  source_file: hardware/cactuscon_badge_2017.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 331892
 ---
 
 thatch's CactusCon Badge 2017 is an ESP32-based electronic badge built as an open-source KiCad project for CactusCon 2017 in Mesa, Arizona. The repository, published under a CC-BY-4.0 license, includes the full schematic and PCB layout along with a custom footprint library and a reference to a shared makerspace parts-bin submodule, plus rendered front and back images of the finished board.

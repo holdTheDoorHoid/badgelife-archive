@@ -67,24 +67,17 @@ research:
   status: verified
   confidence: low
   last_checked: '2026-09-10'
-  notes: >-
-    Confirmed the item is a real KiCad PCB design (dc239-sao.kicad_pcb) in the BSides Orlando 2023
-    badge repo, not just a search snippet, but no source beyond the repo itself was found: no
-    write-up, storefront, social post, or photo describes what it looks like, whether it has any
-    active components, or whether it was actually fabricated and handed out. Could not confirm
-    MCU/LEDs/display, colors/shape, price, quantity, or availability. No image found to save (the
-    repo holds only KiCad source files, no renders or photos). Fact-check pass (2026-09-10):
-    re-fetched both cited sources via the GitHub API. The commit and its file list check out, but
-    the earlier draft's claim that the con's standard staff/speaker/sponsor SAOs were added in the
-    same commit as this one was wrong — that commit only added a sponsor SAO and an unrelated
-    "iwc-iron-sao" board alongside the four DEF CON group SAOs; the staff and speaker SAOs were
-    committed separately. Corrected the notes and body accordingly. All other non-empty fields
-    (title, event/year, makers, hardware_url, eda_tool, links) check out against the two sources.
-    Also fixed an unrelated YAML error in this file's `parent:` front-matter value (an unquoted
-    colon was breaking the site build).
+  notes: 'Confirmed the item is a real KiCad PCB design (dc239-sao.kicad_pcb) in the BSides Orlando 2023 badge repo, not just a search snippet, but no source beyond the repo itself was found: no write-up, storefront, social post, or photo describes what it looks like, whether it has any active components, or whether it was actually fabricated and handed out. Could not confirm MCU/LEDs/display, colors/shape, price, quantity, or availability. No image found to save (the repo holds only KiCad source files, no renders or photos). Fact-check pass (2026-09-10): re-fetched both cited sources via the GitHub API. The commit and its file list check out, but the earlier draft''s claim that the con''s standard staff/speaker/sponsor SAOs were added in the same commit as this one was wrong — that commit only added a sponsor SAO and an unrelated "iwc-iron-sao" board alongside the four DEF CON group SAOs; the staff and speaker SAOs were committed separately. Corrected the notes and body accordingly. All
+    other non-empty fields (title, event/year, makers, hardware_url, eda_tool, links) check out against the two sources. Also fixed an unrelated YAML error in this file''s `parent:` front-matter value (an unquoted colon was breaking the site build).'
 last_modified_date: '2026-09-10'
 redirect_from:
 - /badges/other/dc239-sao/
+model:
+  file: assets/models/bsides-orlando-2023/dc239-sao.glb
+  method: kicad
+  source_file: bsidesorl-v1/bsidesorl-v1.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 128672
 ---
 
 DC239 SAO is a KiCad-designed add-on board named for DC239, the DEF CON group based in Orlando, Florida. Its design files sit in the same GitHub repository as the BSides Orlando 2023 "Rise of the Robots" conference badge, added in a single September 2023 commit by contributor Jose Rodriguez alongside sibling SAOs for the DC321 and DC321-2 groups (Tampa) and DC407 (Orlando-area code), plus a sponsor SAO and an unrelated "iwc-iron-sao" board. The con's staff and speaker SAOs were committed separately, at a different time.

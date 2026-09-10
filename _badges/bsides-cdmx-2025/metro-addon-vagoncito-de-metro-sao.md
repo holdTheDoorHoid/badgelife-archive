@@ -36,7 +36,7 @@ get_one:
   distribution: []
   where: ''
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/ElectronicCats/Badge-bsides-cdmx-2025/tree/main/hardware/Metro-Addon
   firmware_url: https://github.com/ElectronicCats/Badge-bsides-cdmx-2025/tree/main/hardware/Metro-Addon/firmware
   eda_tool: KiCad
@@ -79,6 +79,12 @@ research:
   last_checked: '2026-09-10'
   notes: No standalone README or product photo exists for the Metro-Addon folder itself; facts here come from the repo's file listing, the addon's own firmware/User/main.c source, and the parent badge's root README (which describes the main badge, not this addon). Price, quantity, and availability were not published anywhere found. The firmware README credits the design "for HackGDL" (a separate Guadalajara-area Electronic Cats event/meetup), suggesting the addon design may have originated there before being reused for BSides CDMX 2025; not confirmed further. No maker photo of the assembled addon was found, only KiCad-exported SVG/Gerber-style files, so no images were saved.
 last_modified_date: '2026-09-10'
+model:
+  file: assets/models/bsides-cdmx-2025/metro-addon-vagoncito-de-metro-sao.glb
+  method: kicad
+  source_file: hardware/Metro-Addon/Metro-Addon.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 181752
 ---
 
 The Metro-Addon, nicknamed the "Vagoncito de Metro" (little metro car), is a shitty-addon (SAO) that Electronic Cats designed to plug into their BSides CDMX 2025 conference badge. Where the main badge runs a Puya PY32F030 with addressable Neopixels and an OLED display, the addon carries its own smaller Puya PY32F002A microcontroller and three plain (non-addressable) LEDs wired straight to GPIO pins, which the firmware blinks through scripted patterns meant to look like a train car's windows lighting up in sequence.

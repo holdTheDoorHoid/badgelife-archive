@@ -60,6 +60,7 @@ images:
   source: https://hackaday.com/2025/08/01/two-for-the-price-of-one-bornhack-2024-and-2025-badges/
   credit: Hackaday
   caption: Both sides of the BornHack 2024 badge PCB
+  archived: https://web.archive.org/web/20260717220115/https://hackaday.com/2025/08/01/two-for-the-price-of-one-bornhack-2024-and-2025-badges/
 contact: {}
 notes:
 - ESP32-C3 Mini, NT3H2x11 NFC chip, LIS2DH accelerometer, SAO and QWiC connectors, POV LED display
@@ -76,6 +77,7 @@ sources:
   title: 'Two-For-The-Price-Of-One: BornHack 2024 And 2025 Badges'
   accessed: '2026-09-07'
   note: Confirmed maker (Thomas Flummer), board dimensions, ESP32-C3 Mini, LED PoV row, NT3H2x11 NFC chip, SAO/QWiC connectors, LiPo power circuit; source of the saved photo.
+  archived: https://web.archive.org/web/20260717220115/https://hackaday.com/2025/08/01/two-for-the-price-of-one-bornhack-2024-and-2025-badges/
 - kind: url
   url: https://github.com/bornhack/badge2024
   title: bornhack/badge2024

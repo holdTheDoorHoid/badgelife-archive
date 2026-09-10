@@ -38,7 +38,7 @@ get_one:
   distribution: []
   where: ''
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/DanNixon/hexpansions/tree/main/le-carnard-bleu
   firmware_url: null
   eda_tool: KiCad
@@ -73,6 +73,12 @@ research:
   last_checked: '2026-09-10'
   notes: Confirmed as a real, published open-source hexpansion (design files, schematic and Gerbers present in the repo) rather than a snippet-only rumor. No maker's photo of the assembled/populated board was found (repo has a reference duck.png illustration used for the enclosure artwork, plus DXF/KiCad source, but no finished-product photo), so no images were saved. Price, quantity made, and availability (was it sold, given away, or just published as DIY files?) are not stated anywhere in the repo and were left blank. EEPROM part number (ZD24C64A) recorded in notes but not modeled as a dedicated field.
 last_modified_date: '2026-09-10'
+model:
+  file: assets/models/emf-camp-2024/le-carnard-de-bleu-hexpansion.glb
+  method: kicad
+  source_file: le-carnard-bleu/le-carnard-bleu.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 130368
 ---
 
 Le Carnard de Bleu ("The Blue Duck") is a hexpansion — a small expansion module — for the Tildagon badge handed out at EMF Camp 2024, designed by DanNixon. It is a simple, single-LED project: a 5mm RGB LED with its red, green and blue channels wired to separate pins on the hexpansion connector so the host badge's firmware can drive each color independently, backed by a small ZD24C64A EEPROM (used for hexpansion identification, as is standard for the format) and a set of 0805 4.7kΩ current-limiting resistors.

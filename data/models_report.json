@@ -1035,5 +1035,247 @@
  "disobey-2018-disobey-2018-badge": {
   "status": "failed",
   "tried": []
+ },
+ "disobey-2019-disobey-2019-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 1796172,
+  "tried": [],
+  "src": "hardware/kicad/panel-support-52-blue.kicad_pcb"
+ },
+ "ekoparty-2023-ekoparty-2023-electronic-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 383964,
+  "tried": [],
+  "src": "hardware/ekoparty2023.kicad_pcb"
+ },
+ "ekoparty-2024-ekoparty-2024-official-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 310132,
+  "tried": [],
+  "src": "hardware/eko-badge-2024/eko-badge-2024.kicad_pcb"
+ },
+ "emf-camp-2014-tilda-mke": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 314308,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "TiLDE.brd"
+ },
+ "emf-camp-2016-tilda-mk3-mk": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 909464,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "Mk3 Prototype3.brd"
+ },
+ "emf-camp-2018-tilda-mk4": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 1740320,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "Mk4 Final a.brd"
+ },
+ "emf-camp-2022-tidal": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 737212,
+  "tried": [],
+  "src": "tilda6/tilda6-bot.kicad_pcb"
+ },
+ "emf-camp-2024-le-carnard-de-bleu-hexpansion": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 130368,
+  "tried": [],
+  "src": "le-carnard-bleu/le-carnard-bleu.kicad_pcb"
+ },
+ "emf-camp-2024-rabbit-hexpansion": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 116468,
+  "tried": [],
+  "src": "rabbit/rabbit.kicad_pcb"
+ },
+ "emf-camp-2024-screen-hexpansion": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 136800,
+  "tried": [],
+  "src": "hardware/screen-hexpansion.kicad_pcb"
+ },
+ "emf-camp-2026-gps-hexpansion": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 177336,
+  "tried": [],
+  "src": "KiCAD/hexpansion-L80.kicad_pcb"
+ },
+ "emf-camp-2026-tildagon-hexpansion-keyboard": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 548092,
+  "tried": [],
+  "src": "KiCad/main/main.kicad_pcb"
+ },
+ "fri3d-2016-fri3d-2016-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 130672,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "fri3d_badge_2016.brd"
+ },
+ "bornhack-2018-capsense-addon": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 63160,
+  "tried": [],
+  "src": "CapSense_addon/CapSense_addon.kicad_pcb"
+ },
+ "bornhack-2018-led-addon": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 20328,
+  "tried": [],
+  "src": "LED_addon/LED_addon.kicad_pcb"
+ },
+ "bsides-cdmx-2025-metro-addon-vagoncito-de-metro-sao": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 181752,
+  "tried": [],
+  "src": "hardware/Metro-Addon/Metro-Addon.kicad_pcb"
+ },
+ "bsides-orlando-2023-dc239-sao": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 128672,
+  "tried": [],
+  "src": "bsidesorl-v1/bsidesorl-v1.kicad_pcb"
+ },
+ "bsides-orlando-2023-dc321-sao-and-dc321-2-sao-dc321-sao-kicad-pcb-dc321-2-sao-ki": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 128672,
+  "tried": [],
+  "src": "bsidesorl-v1/bsidesorl-v1.kicad_pcb"
+ },
+ "cactuscon-2017-thatch-cactuscon-badge-2017-github": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 331892,
+  "tried": [],
+  "src": "hardware/cactuscon_badge_2017.kicad_pcb"
+ },
+ "dc26-sao-adapters-sao-iic-sao-stripper-sao-flipper-sao-rotate-sao": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 30800,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "sao-iic.brd"
+ },
+ "dc26-sao-arms-human-robo1-robo2-tent1-tent2-bug1-bug2": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 21008,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "tent1.brd"
+ },
+ "dc26-sao-faces-terminator-badgewife-smiley": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 40040,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "wife.brd"
+ },
+ "dc33-the-pirates-plunder-rabbit-labs-def-con-33-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 188432,
+  "tried": [],
+  "src": "DC32-SAO-pannel.kicad_pcb"
+ },
+ "emf-camp-2024-maker-space-badge-hexpansion": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 317740,
+  "tried": [],
+  "src": "makerspace-badge/makerspace-badge.kicad_pcb"
+ },
+ "fri3d-2024-communicator-2024-add-on-lana-module": {
+  "status": "failed",
+  "tried": []
+ },
+ "fri3d-2024-flamingo-blaster-2024-big-flamingo-gun-9000": {
+  "status": "ok",
+  "method": "gerber",
+  "bytes": 209228,
+  "tried": [],
+  "src": "Hardware/Fri3d_2024_Blaster_00/OUTPUT/Gerber"
+ },
+ "fri3d-2026-dj-controller-2026-add-on": {
+  "status": "ok",
+  "method": "gerber",
+  "bytes": 186176,
+  "tried": [],
+  "src": "Hardware/Fri3d_2026_DJ_00/OUTPUT/Gerber"
+ },
+ "fri3d-2026-fri3d-camp-2026-badge": {
+  "status": "failed",
+  "tried": []
+ },
+ "fri3d-2026-lora-expansion-2026-wio-sx1262": {
+  "status": "failed",
+  "tried": []
+ },
+ "fri3d-2026-sao-mirror-2026": {
+  "status": "failed",
+  "tried": []
+ },
+ "gpn-2022-teebeutel-gpn20-conference-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 778800,
+  "tried": [],
+  "src": "Teebeutel.kicad_pcb"
+ },
+ "grrcon-2013-grrcon-2013-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 283788,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "GrrCON-Badge-Rev1.brd"
+ },
+ "hackaday-europe-2024-vectorscope-synth": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 396792,
+  "tried": [],
+  "src": "vectorscope-synth.kicad_pcb"
+ },
+ "hackaday-europe-2024-vectorscopemusicaddon": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 88436,
+  "tried": [],
+  "src": "KiCad PCB files/VectorScopeMusicAddon.kicad_pcb"
  }
 }

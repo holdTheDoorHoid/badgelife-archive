@@ -12,7 +12,7 @@ makers:
 - name: Electronic Cats
   url: https://electroniccats.com/
 summary: The official electronic badge for Ekoparty 2024, built by Electronic Cats around an ESP32-C6 with an RFM95 LoRa radio, a small OLED display, addressable NeoPixel LEDs, a buzzer, and USB, decorated with a pixel-sunglasses llama graphic.
-functions: 'Boots to a serial terminal over USB (115200 baud) showing badge text/UI; drives the OLED display and NeoPixel LEDs; communicates over the onboard LoRa radio.'
+functions: Boots to a serial terminal over USB (115200 baud) showing badge text/UI; drives the OLED display and NeoPixel LEDs; communicates over the onboard LoRa radio.
 look:
   colors: []
   shape: null
@@ -39,13 +39,13 @@ get_one:
   quantity: ''
   availability: limited
   distribution: []
-  where: 'Distributed at Ekoparty 2024 in Buenos Aires; an Electronic Cats social post described it as a limited-run electronic badge for the event, but no price or exact quantity is published.'
+  where: Distributed at Ekoparty 2024 in Buenos Aires; an Electronic Cats social post described it as a limited-run electronic badge for the event, but no price or exact quantity is published.
 make_your_own:
   open_source: 'yes'
   hardware_url: https://github.com/ElectronicCats/badge-EKOParty-2024/tree/main/hardware
   firmware_url: https://github.com/ElectronicCats/badge-EKOParty-2024/tree/main/firmware
   eda_tool: KiCad
-  notes: 'Hardware released under the CERN Open Hardware Licence v1.2 (see LICENSE_HARDWARE.md). Firmware build instructions are in firmware/README.md.'
+  notes: Hardware released under the CERN Open Hardware Licence v1.2 (see LICENSE_HARDWARE.md). Firmware build instructions are in firmware/README.md.
 links:
 - label: github.com/ElectronicCats/badge-EKOParty-2024
   url: https://github.com/ElectronicCats/badge-EKOParty-2024
@@ -54,10 +54,10 @@ links:
   url: https://electroniccats.com/
   kind: website
 images:
-  - file: assets/images/badges/ekoparty-2024/ekoparty-2024-official-badge/db0a1481ca.jpg
-    source: "https://github.com/ElectronicCats/badge-EKOParty-2024"
-    credit: "Electronic Cats"
-    caption: "Badge board outline / silkscreen artwork (3D render): a llama wearing pixel sunglasses"
+- file: assets/images/badges/ekoparty-2024/ekoparty-2024-official-badge/db0a1481ca.jpg
+  source: https://github.com/ElectronicCats/badge-EKOParty-2024
+  credit: Electronic Cats
+  caption: 'Badge board outline / silkscreen artwork (3D render): a llama wearing pixel sunglasses'
 contact: {}
 notes:
 - ESP32-C6 badge with RFM95 LoRa radio, OLED display and NeoPixels, designed by Electronic Cats for Ekoparty 2024. Found by the event-year sweep, task con-ekoparty.
@@ -79,7 +79,13 @@ research:
   confidence: medium
   last_checked: '2026-09-08'
   notes: Core hardware facts (MCU, radio, display, LEDs, open-source status) confirmed from the maker's own repository. Price, exact LED count, production quantity, and distribution mechanics are not published in any source found and are left empty. No production/assembled-badge photo was found; the saved image is board-outline artwork from the KiCad footprint library, not a photo of the physical item.
-last_modified_date: '2026-09-08'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/ekoparty-2024/ekoparty-2024-official-badge.glb
+  method: kicad
+  source_file: hardware/eko-badge-2024/eko-badge-2024.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 310132
 ---
 
 The Ekoparty 2024 Official Badge is an electronic conference badge Electronic Cats designed for Ekoparty, the long-running Buenos Aires security conference. It is built around an ESP32-C6 microcontroller paired with an RFM95 LoRa radio, a small OLED display, addressable NeoPixel RGB LEDs, a buzzer, and USB connectivity; out of the box it boots to a serial terminal at 115200 baud that shows badge text and UI. The board carries a pixel-art llama-in-sunglasses graphic as its main artwork.

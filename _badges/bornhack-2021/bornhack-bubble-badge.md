@@ -49,18 +49,22 @@ links:
 - label: hackaday.io/project/181411-bornhack-bubble-badge
   url: https://hackaday.io/project/181411-bornhack-bubble-badge
   kind: hackaday
+  archived: https://web.archive.org/web/20260518101143/https://hackaday.io/project/181411-bornhack-bubble-badge
 - label: bornhack/badge2021 (base badge repo)
   url: https://github.com/bornhack/badge2021
   kind: repo
+  archived: https://web.archive.org/web/20251126063657/https://github.com/bornhack/badge2021
 images:
 - file: assets/images/badges/bornhack-2021/bornhack-bubble-badge/7ea5b8f1b0.jpg
   source: https://hackaday.io/project/181411-bornhack-bubble-badge
   credit: Inne
   caption: The BornHack Bubble Badge, an inflatable NeoPixel badge
+  archived: https://web.archive.org/web/20260518101143/https://hackaday.io/project/181411-bornhack-bubble-badge
 - file: assets/images/badges/bornhack-2021/bornhack-bubble-badge/47a1600b9b.jpg
   source: https://hackaday.io/project/181411-bornhack-bubble-badge
   credit: Inne
   caption: Build progress photo of the bubble badge
+  archived: https://web.archive.org/web/20260518101143/https://hackaday.io/project/181411-bornhack-bubble-badge
 contact: {}
 notes:
 - Spotted by a research agent while working on a neighbouring entry (run 3).
@@ -71,11 +75,13 @@ sources:
   title: BornHack Bubble Badge
   accessed: '2026-09-07'
   note: 'Found by the archive''s discovery sweep (angle: research-run3-spotted); event read as ''bornhack-2021''.'
+  archived: https://web.archive.org/web/20260518101143/https://hackaday.io/project/181411-bornhack-bubble-badge
 - kind: url
   url: https://github.com/bornhack/badge2021
   title: bornhack/badge2021
   accessed: '2026-09-07'
   note: Confirmed as the official BornHack 2021 "hex DIY" badge repo the bubble badge was built on; CC BY-SA 4.0, KiCad nightly 5.99, has an SAO/Qwiic header.
+  archived: https://web.archive.org/web/20251126063657/https://github.com/bornhack/badge2021
 research:
   status: researched
   confidence: medium

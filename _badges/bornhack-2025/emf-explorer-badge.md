@@ -52,30 +52,38 @@ links:
 - label: sporklogic.com/emf-explorer-badge
   url: https://sporklogic.com/emf-explorer-badge/
   kind: website
+  archived: https://web.archive.org/web/20260610083040/https://sporklogic.com/emf-explorer-badge/
 - label: EMF Explorer Badge soldering kit (SporkLogic store)
   url: https://sporklogic.com/product/emf-explorer-soldering-kit/
   kind: store
+  archived: https://web.archive.org/web/20260308025250/https://sporklogic.com/product/emf-explorer-soldering-kit/
 - label: emfexplorer.space
   url: https://emfexplorer.space/
   kind: website
+  archived: https://web.archive.org/web/20260617064952/https://emfexplorer.space/
 - label: EMF Explorer Badge (GitHub, KiCad files)
   url: https://github.com/drc3p0/emf-explorer-badge
   kind: repo
+  archived: https://web.archive.org/web/20251230130445/https://github.com/drc3p0/emf-explorer-badge
 - label: EMF Explorer Badge Soldering Kit (Pimoroni)
   url: https://shop.pimoroni.com/products/emf-explorer-badge
   kind: store
+  archived: https://web.archive.org/web/20260704134720/https://shop.pimoroni.com/products/emf-explorer-badge
 - label: EMF Explorer Kit (Maker Shed)
   url: https://www.makershed.com/products/emf
   kind: store
+  archived: https://web.archive.org/web/20260818193404/https://www.makershed.com/products/emf
 images:
 - file: assets/images/badges/bornhack-2025/emf-explorer-badge/5121f12ffa.jpg
   source: https://sporklogic.com/emf-explorer-badge/
   credit: SporkLogic
   caption: EMF Explorer Badge illuminated, worn
+  archived: https://web.archive.org/web/20260610083040/https://sporklogic.com/emf-explorer-badge/
 - file: assets/images/badges/bornhack-2025/emf-explorer-badge/1a722758c1.jpg
   source: https://sporklogic.com/emf-explorer-badge/
   credit: SporkLogic
   caption: EMF Explorer Badge kit with packaging
+  archived: https://web.archive.org/web/20260610083040/https://sporklogic.com/emf-explorer-badge/
 contact: {}
 notes:
 - 'The sweep imported this as a BornHack 2025 badge; it is actually a general SporkLogic product, not made specifically for BornHack. It was taught as a soldering workshop at BornHack 2025 (program listing: bornhack.dk/bornhack-2025/program/sensing-the-world-around-you-with-emf/) and was also run as a workshop at Toorcamp 2024 (per photo dates on the maker''s own product page) and covered as a third-party badge in Hackaday''s BornHack roundup. Kept filed under bornhack-2025 since that is the event the sweep and this archive entry are tied to; the kit itself predates and outlives any single con. Found by the event-year sweep, task bornhack-2025.'
@@ -86,21 +94,25 @@ sources:
   title: EMF Explorer Badge
   accessed: '2026-09-07'
   note: 'Found by the archive''s discovery sweep (angle: sweep:bornhack-2025); event read as ''bornhack-2025''.'
+  archived: https://web.archive.org/web/20260610083040/https://sporklogic.com/emf-explorer-badge/
 - kind: url
   url: https://sporklogic.com/emf-explorer-badge/
   title: EMF Explorer Badge - SporkLogic
   accessed: '2026-09-08'
   note: Core description, function, battery, LED, packaging photos.
+  archived: https://web.archive.org/web/20260610083040/https://sporklogic.com/emf-explorer-badge/
 - kind: url
   url: https://emfexplorer.space/
   title: EMF Explorer - Tune in to the electromagnetic frequencies around you
   accessed: '2026-09-08'
   note: Confirms maker (SporkLogic / Darcy Neal), frequency range and gain spec, distribution channels, GitHub repo.
+  archived: https://web.archive.org/web/20260617064952/https://emfexplorer.space/
 - kind: url
   url: https://shop.pimoroni.com/products/emf-explorer-badge
   title: EMF Explorer Badge Soldering Kit - Pimoroni
   accessed: '2026-09-08'
   note: 'Price (GBP), open-source KiCad repo link, IC chip and component list, out-of-stock status, Make: Vol. 90 feature.'
+  archived: https://web.archive.org/web/20260704134720/https://shop.pimoroni.com/products/emf-explorer-badge
 research:
   status: researched
   confidence: high
