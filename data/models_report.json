@@ -429,5 +429,86 @@
   "bytes": 80648,
   "tried": [],
   "src": "37c3_badge.kicad_pcb"
+ },
+ "39c3-2025-39c3-critical-decentralization-cluster-cdc-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 1144536,
+  "tried": [],
+  "src": "cdc-badge/cdc-badge.kicad_pcb"
+ },
+ "44con-2016-44con-2016-hidiot-0-7-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 191596,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "hidiot_1.0_final.brd"
+ },
+ "44con-2017-44con-2017-hidiot-1-0-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 191592,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "hidiot_1.0_final.brd"
+ },
+ "44con-2025-44con-2025-rf-detector-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 289256,
+  "tried": [],
+  "src": "hardware/badge-44con-2025/badge-44con-2025.kicad_pcb"
+ },
+ "balccon-2023-balccon-cyberdeck-0o27-bcd-0o27": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 592872,
+  "tried": [],
+  "src": "hardware/BCD-0o27/BCD-0o27.kicad_pcb"
+ },
+ "balccon-2024-balccon-mini-cyberdeck-0o00-mc-0o00": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 584452,
+  "tried": [],
+  "src": "MCD-0o00.kicad_pcb"
+ },
+ "bornhack-2017-bornhack-2017-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 291700,
+  "tried": [],
+  "src": "Bornhack Make Tradition Badge.kicad_pcb"
+ },
+ "bornhack-2018-blinky-addon-bornhack-2018-badge-breakout-board": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 65620,
+  "tried": [],
+  "src": "Blinky_addon/Blinky_addon.kicad_pcb"
+ },
+ "bornhack-2018-bornhack-2018-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 470456,
+  "tried": [],
+  "src": "bornhack_scale_it.kicad_pcb"
+ },
+ "bornhack-2025-emf-explorer-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 235360,
+  "tried": [],
+  "src": "Kicad files/EMF-Explorer-Badge.kicad_pcb"
+ },
+ "brucon-2018-brucon-0x0a-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 1208448,
+  "tried": [],
+  "src": "pcb/BruCON_0x0a.kicad_pcb"
  }
 }

@@ -47,13 +47,13 @@ links:
   kind: repo
 images:
 - file: assets/images/badges/44con-2025/44con-2025-rf-detector-badge/787dc96506.png
-  source: "https://github.com/ElectronicCats/badge-44con-2025"
-  credit: "Electronic Cats"
-  caption: "Badge layout diagram showing ESP32 configuration with RF detector, boost converter, and buzzer add-ons"
+  source: https://github.com/ElectronicCats/badge-44con-2025
+  credit: Electronic Cats
+  caption: Badge layout diagram showing ESP32 configuration with RF detector, boost converter, and buzzer add-ons
 - file: assets/images/badges/44con-2025/44con-2025-rf-detector-badge/30136c3f02.jpg
-  source: "https://github.com/ElectronicCats/badge-44con-2025"
-  credit: "Electronic Cats"
-  caption: "Assembled badge with ESP32 Wemos D1 module soldered"
+  source: https://github.com/ElectronicCats/badge-44con-2025
+  credit: Electronic Cats
+  caption: Assembled badge with ESP32 Wemos D1 module soldered
 contact: {}
 notes:
 - Official 44CON 2025 badge, an open-source Electronic Cats OLED/RF-detector board with CH32 or ESP32 Wemos D1 build options, buzzer and MT3608/AD8317 add-ons. Found by the event-year sweep, task con-44con.
@@ -75,7 +75,13 @@ research:
   confidence: medium
   last_checked: '2026-09-08'
   notes: Confirmed via the maker's own GitHub repo and README (Electronic Cats). Repo carries no pricing, unit count, or distribution channel, so get_one fields are left empty. No SAO header noted; treated as a standalone badge with an add-on RF-detector board rather than a plug-in SAO. No third-party coverage (press/Hackaday/storefront) found to add or contradict maker details.
-last_modified_date: '2026-09-08'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/44con-2025/44con-2025-rf-detector-badge.glb
+  method: kicad
+  source_file: hardware/badge-44con-2025/badge-44con-2025.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 289256
 ---
 
 Electronic Cats designed this badge for 44CON 2025 as an open-source, dual-microcontroller board: it can run on a CH32 chip alone (driving just the OLED display and its built-in mini-game) or on an ESP32 Wemos D1 module for full functionality. I²C jumpers on the back of the board decide which chip controls the display.

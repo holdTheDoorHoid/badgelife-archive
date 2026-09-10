@@ -38,7 +38,7 @@ get_one:
   - free_drop
   where: Given to all BornHack 2017 attendees as their event badge; worn on an included lanyard.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/bornhack/badge2017/tree/hardware
   firmware_url: https://github.com/bornhack/badge2017
   eda_tool: null
@@ -46,14 +46,14 @@ links:
 - label: github.com/bornhack/badge2017
   url: https://github.com/bornhack/badge2017
   kind: repo
-- label: 'The BornHack 2017 Badge (Hackaday)'
+- label: The BornHack 2017 Badge (Hackaday)
   url: https://hackaday.com/2017/08/15/the-latest-hacker-camp-badge-comes-from-bornhack/
   kind: article
 images:
 - file: assets/images/badges/bornhack-2017/bornhack-2017-badge/a6b2ed0914.jpg
-  source: "https://hackaday.com/2017/08/15/the-latest-hacker-camp-badge-comes-from-bornhack/"
-  credit: "Hackaday / BornHack"
-  caption: "The BornHack 2017 badge PCB with OLED display and buttons"
+  source: https://hackaday.com/2017/08/15/the-latest-hacker-camp-badge-comes-from-bornhack/
+  credit: Hackaday / BornHack
+  caption: The BornHack 2017 badge PCB with OLED display and buttons
 contact: {}
 notes:
 - Official electronic name badge for BornHack 2017 built around a Silicon Labs EFM32HG322F64G (Happy Gecko) Cortex-M0+ MCU with a 128x64 SSD1306 OLED display, drag-and-drop USB mass-storage bootloader, and irregular PCB shape meant for attendees to hack/modify. Found by the event-year sweep, task bornhack-2017.
@@ -71,15 +71,21 @@ sources:
   note: Confirmed MCU, display, buttons, USB bootloader workflow (badge.xil.se online IDE, drag files to GECKOBOOT drive), and geckonator firmware library; hardware files live in a separate `hardware` branch.
 - kind: url
   url: https://hackaday.com/2017/08/15/the-latest-hacker-camp-badge-comes-from-bornhack/
-  title: 'The Latest Hacker Camp Badge Comes From BornHack'
+  title: The Latest Hacker Camp Badge Comes From BornHack
   accessed: '2026-09-08'
   note: Confirmed irregular PCB shape, low-power/bootloader design priority, battery holder and prototyping area on the back, and provided the badge photo used here.
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-08'
-  notes: 'No price or unit count is published anywhere found; the badge was a free giveaway to all attendees (ticket price only), so get_one.price/quantity are left empty. LED presence not documented in any source, so tech.leds stays null. Battery type/capacity not stated beyond "battery holders...on the back side" (Hackaday), so tech.battery is left null rather than guessed. BornHack''s own 2017-08-14 news post (bornhack.dk) returned a server error both via WebFetch and curl and could not be checked.'
-last_modified_date: '2026-09-08'
+  notes: No price or unit count is published anywhere found; the badge was a free giveaway to all attendees (ticket price only), so get_one.price/quantity are left empty. LED presence not documented in any source, so tech.leds stays null. Battery type/capacity not stated beyond "battery holders...on the back side" (Hackaday), so tech.battery is left null rather than guessed. BornHack's own 2017-08-14 news post (bornhack.dk) returned a server error both via WebFetch and curl and could not be checked.
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/bornhack-2017/bornhack-2017-badge.glb
+  method: kicad
+  source_file: Bornhack Make Tradition Badge.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 291700
 ---
 
 The BornHack 2017 badge was the official electronic name badge handed to every attendee of BornHack, the Danish hacker camp held on the island of Bornholm. Built around a Silicon Labs EFM32HG322F64G "Happy Gecko" Cortex-M0+ microcontroller, it pairs a 128x64 SSD1306 OLED display with a handful of buttons on an irregularly-shaped PCB whose outline nods to the island itself. A row of battery holders and a bare prototyping area occupy the back of the board, leaving the front dedicated to the display, buttons, and a micro-USB port.

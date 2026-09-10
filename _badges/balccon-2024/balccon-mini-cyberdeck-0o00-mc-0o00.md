@@ -58,7 +58,7 @@ images: []
 contact: {}
 notes:
 - CH32V003 RISC-V mini cyberdeck badge with LCD, six buttons, buzzer and GPIO/power interface designed to companion the BCD-0o27, released as the BalCCon2k24 badge with MIT-licensed firmware (Space Invaders, CB Pong, Melody Maker). Found by the event-year sweep, task con-balccon.
-- 'The maker''s own page titles it simply "Mini Cyberdeck 0o00 (MC-0o00)" without the "BalCCon" prefix the sweep used; kept the sweep''s fuller title since it matches how the community sheet and badge.gallery both refer to it.'
+- The maker's own page titles it simply "Mini Cyberdeck 0o00 (MC-0o00)" without the "BalCCon" prefix the sweep used; kept the sweep's fuller title since it matches how the community sheet and badge.gallery both refer to it.
 status: listed
 sources:
 - kind: url
@@ -80,7 +80,7 @@ sources:
   url: https://gitlab.com/ch405labs/badgelife/mcd-0o00/mcd-0o00-hardware-design
   title: MCD 0o00 Hardware Design - GitLab
   accessed: '2026-09-08'
-  note: 'Confirms a hardware-design repo exists for the badge (created Dec 2024, has a README); could not confirm license or EDA tool from the page excerpt available, so make_your_own.eda_tool and license were left blank.'
+  note: Confirms a hardware-design repo exists for the badge (created Dec 2024, has a README); could not confirm license or EDA tool from the page excerpt available, so make_your_own.eda_tool and license were left blank.
 - kind: url
   url: https://badge.gallery/addons/balccon-2024-mc-0o00/cb-pong
   title: CB Pong · Hacker Con Badges
@@ -91,7 +91,13 @@ research:
   confidence: medium
   last_checked: '2026-09-08'
   notes: 'Core facts (maker, event, MCU, display, buttons, buzzer, companion firmware) are corroborated by badge.gallery and a search-engine snippet of the maker''s own live page, but the maker''s own page (ch405labs.net/mc-0o00/) could not be fetched directly this session — both WebFetch and curl timed out against that host, so confidence is medium rather than high. Not found anywhere: price, quantity made, availability/sold-out status, LED info, colors/shape/theme (no images seen), and a confirmed firmware license/repo URL beyond Space Invaders being called MIT-licensed. No images could be saved — the badge.gallery page states it has no rights-cleared images, and the maker''s own site could not be reached to check for photos. The existing ch405-labs.com/mc-0o00/ link (hyphenated domain) returned empty content both via WebFetch and curl; the maker''s actual site is ch405labs.net (no hyphen) — left the old link in place per instructions but flagged this in case it is dead or squatted.'
-last_modified_date: '2026-09-08'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/balccon-2024/balccon-mini-cyberdeck-0o00-mc-0o00.glb
+  method: kicad
+  source_file: MCD-0o00.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 584452
 ---
 
 The Mini Cyberdeck 0o00 (MC-0o00) is CH405 Labs' badge for BalCCon2k24 (Novi Sad, Serbia, 2024), built around a WCH CH32V003F6P6 RISC-V microcontroller. It carries an ST7735 LCD, six buttons, a piezoelectric buzzer, and a GPIO/power interface (2.7V-5.5V) that lets it connect to and interoperate with the previous year's badge, the BalCCon Cyberdeck 0o27 (BCD-0o27), rather than replace it.

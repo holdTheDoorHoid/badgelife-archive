@@ -47,7 +47,7 @@ get_one:
   - village
   where: Distributed to the Critical Decentralisation Cluster assembly at 39C3 (Hamburg, Dec 27-30 2025); exact distribution method (given away, sold, workshop kit) not stated in sources found.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/riatlabs/cdc-badge
   firmware_url: https://github.com/riatlabs/cdc-badge-nametag
   eda_tool: KiCad
@@ -67,7 +67,7 @@ links:
 images: []
 contact: {}
 notes:
-- 'Sweep found the item via GitHub only; title corrected from the sweep''s wording "39C3 Critical Decentralization Cluster (CDC) Badge" to the maker''s own name, "CDC Badge".'
+- Sweep found the item via GitHub only; title corrected from the sweep's wording "39C3 Critical Decentralization Cluster (CDC) Badge" to the maker's own name, "CDC Badge".
 - No photo of the assembled badge was found within the search budget (GitHub only shows KiCad source and a generic social-preview card, not a product photo); printables.com and the CCC event page did not yield a fetchable image either.
 - Price, quantity made, and exact distribution mechanism (sold vs. given away) were not stated on any source found.
 status: released
@@ -102,7 +102,13 @@ research:
   confidence: medium
   last_checked: '2026-09-08'
   notes: 'Fact-check pass (2026-09-08): re-fetched all 4 cited sources plus the repo README and docs/datasheets.md directly. All confirmed except tech.sao_version, which was wrong: the researcher recorded "v1" (4-pin) but docs/datasheets.md lists the SAO Port component as a "2x3 2.54mm female header" (6-pin), so corrected to "v2" per the guide''s vocabulary. Everything else in the entry (maker, chip, secure element, display, keypad/TCA9535, battery/BQ25895, three expansion ports, license, EDA tool, presenters, event dates, firmware ecosystem listed in Make-your-own) is directly supported by the maker''s repo/README/docs and the CCC event listing. Price, quantity produced, and exact distribution method remain unfound and are correctly left blank. No usable product photo was located.'
-last_modified_date: '2026-09-08'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/39c3-2025/39c3-critical-decentralization-cluster-cdc-badge.glb
+  method: kicad
+  source_file: cdc-badge/cdc-badge.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 1144536
 ---
 
 The CDC Badge is an open-hardware ESP32-S3 devboard built by RIAT (github.com/riatlabs) for the Critical Decentralisation Cluster (CDC), an assembly that ran at the 39th Chaos Communication Congress (39C3) in Hamburg, December 27-30, 2025. It pairs the ESP32-S3 with a TROPIC01 secure element, an e-paper display with frontlight, a 12-button keypad (via a TCA9535 I/O expander), and a single-cell LiPo power system charged through a BQ25895. Three expansion ports — a full Raspberry Pi 40-pin GPIO header, an SAO port, and a Grove connector — let it take HATs, blinky add-ons, or sensor modules, and it was presented at 39C3 by dllud, Pavel Polach, and bobotronic as both a wearable badge and a general workshop/prototyping platform.

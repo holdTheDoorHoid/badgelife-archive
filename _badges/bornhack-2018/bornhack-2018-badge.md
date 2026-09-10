@@ -11,7 +11,7 @@ year: 2018
 makers:
 - name: BornHack
 summary: 'The official electronic badge for BornHack 2018, built around a dual-MCU design: a SiLabs Happy Gecko for USB and general use, plus a Nordic nRF51822 for Bluetooth.'
-functions: 'Runs custom firmware compiled by attendees; ships with default test firmware. A BOOT button puts the Happy Gecko into a USB mass-storage bootloader (FAT12) for reflashing without extra tools. The nRF51822 can be separately programmed for Bluetooth experiments.'
+functions: Runs custom firmware compiled by attendees; ships with default test firmware. A BOOT button puts the Happy Gecko into a USB mass-storage bootloader (FAT12) for reflashing without extra tools. The nRF51822 can be separately programmed for Bluetooth experiments.
 look:
   colors: []
   shape: null
@@ -35,11 +35,11 @@ get_one:
   distribution: []
   where: ''
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/bornhack/badge2018/tree/hardware
   firmware_url: https://github.com/bornhack/badge2018
   eda_tool: null
-  notes: 'Hardware design files (including schematic.pdf) live on the "hardware" branch, separate from the firmware on "master". A family of add-on boards is documented on the "breakoutboards" branch, and a companion nRF51 programmer tool lives on the "nrf51prog" branch.'
+  notes: Hardware design files (including schematic.pdf) live on the "hardware" branch, separate from the firmware on "master". A family of add-on boards is documented on the "breakoutboards" branch, and a companion nRF51 programmer tool lives on the "nrf51prog" branch.
 links:
 - label: github.com/bornhack/badge2018
   url: https://github.com/bornhack/badge2018
@@ -70,8 +70,14 @@ research:
   status: researched
   confidence: medium
   last_checked: '2026-09-08'
-  notes: 'Core hardware facts (chips, connectivity, bootloader, open hardware) confirmed directly from the maker''s own repo, so confidence would be high on those points, but pricing, quantity made, distribution, colors, and any photo of the assembled badge were not found anywhere, so overall confidence is medium. No maker storefront, Hackaday post, or press coverage located.'
-last_modified_date: '2026-09-08'
+  notes: Core hardware facts (chips, connectivity, bootloader, open hardware) confirmed directly from the maker's own repo, so confidence would be high on those points, but pricing, quantity made, distribution, colors, and any photo of the assembled badge were not found anywhere, so overall confidence is medium. No maker storefront, Hackaday post, or press coverage located.
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/bornhack-2018/bornhack-2018-badge.glb
+  method: kicad
+  source_file: bornhack_scale_it.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 470456
 ---
 
 The BornHack 2018 badge is the official electronic conference badge for BornHack 2018, an outdoor hacker camp in Denmark. It was designed and published by the BornHack team as open hardware, continuing a yearly tradition of custom badges for the event. Unlike the previous year's badge, the 2018 design uses two microcontrollers: a SiLabs EFM32HG322F64G "Happy Gecko" (Cortex-M0+ with built-in USB) handles general badge duties, while a Nordic nRF51822 (Cortex-M0 with Bluetooth Low Energy) provides wireless capability that attendees can program separately.

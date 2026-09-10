@@ -10,8 +10,8 @@ event: why-2025
 year: 2025
 makers:
 - name: WHY 2025 badge team (organizers, name unspecified after mass resignation)
-summary: 'The official electronic badge for WHY (What Hackers Yearn) 2025, a Dutch/European hacker camp near Alkmaar, built around an ESP32-P4 and a LoRa radio for mesh networking, backwards-compatible with earlier Dutch camp badges.'
-functions: 'Runs an app store and supports installable community apps; backwards compatible with previous Dutch hacker-camp badges; used with MeshCore/LoRa mesh firmware for off-grid messaging between attendees.'
+summary: The official electronic badge for WHY (What Hackers Yearn) 2025, a Dutch/European hacker camp near Alkmaar, built around an ESP32-P4 and a LoRa radio for mesh networking, backwards-compatible with earlier Dutch camp badges.
+functions: Runs an app store and supports installable community apps; backwards compatible with previous Dutch hacker-camp badges; used with MeshCore/LoRa mesh firmware for off-grid messaging between attendees.
 look:
   colors: []
   shape: null
@@ -47,18 +47,19 @@ links:
 - label: zebreus/why2025-badge-rust (GitHub, BadgeVMS/Rust support)
   url: https://github.com/zebreus/why2025-badge-rust
   kind: repo
+  archived: https://web.archive.org/web/20251107113207/https://github.com/zebreus/why2025-badge-rust
 - label: RevSpace WHY2025 project (Metameeting notes)
   url: https://revspace.nl/index.php?search=WHY2025+badge&title=Speciaal:Zoeken&fulltext=1
   kind: doc
 images:
 - file: assets/images/badges/why-2025/why-2025-badge/345a16cb22.jpg
-  source: "https://hackaday.com/2025/08/12/when-a-badge-misses-the-mark-why-2025/"
-  credit: "Hackaday"
-  caption: "PCB layout of the WHY 2025 badge showing the LoRa header and the battery pads at the center of the fire-safety report"
+  source: https://hackaday.com/2025/08/12/when-a-badge-misses-the-mark-why-2025/
+  credit: Hackaday
+  caption: PCB layout of the WHY 2025 badge showing the LoRa header and the battery pads at the center of the fire-safety report
 - file: assets/images/badges/why-2025/why-2025-badge/6c1ef0bf86.jpg
-  source: "https://hackaday.com/2025/08/12/when-a-badge-misses-the-mark-why-2025/"
-  credit: "Hackaday"
-  caption: "The unprotected 18650 cell supplied with the WHY 2025 badge, with fire safety warning label"
+  source: https://hackaday.com/2025/08/12/when-a-badge-misses-the-mark-why-2025/
+  credit: Hackaday
+  caption: The unprotected 18650 cell supplied with the WHY 2025 badge, with fire safety warning label
 contact: {}
 notes:
 - Notable for 18650 battery safety issue (unprotected cells, tight trace spacing) covered by RevSpace
@@ -73,22 +74,23 @@ sources:
   url: https://hackaday.com/2025/08/12/when-a-badge-misses-the-mark-why-2025/
   title: 'When A Badge Misses The Mark: WHY 2025'
   accessed: '2026-09-07'
-  note: 'Confirmed event (WHY 2025, hacker camp near Alkmaar, Netherlands), ESP32 MCU, 2x unprotected 18650 cells, the fire-safety controversy and organizers'' epoxy-coating fix; provided the two saved images.'
+  note: Confirmed event (WHY 2025, hacker camp near Alkmaar, Netherlands), ESP32 MCU, 2x unprotected 18650 cells, the fire-safety controversy and organizers' epoxy-coating fix; provided the two saved images.
 - kind: url
   url: https://github.com/kaistierl/why2025-badge-firmware
   title: kaistierl/why2025-badge-firmware
   accessed: '2026-09-07'
-  note: 'Community firmware repo confirming the badge is ESP32-P4 based, with a display/windowing system and keyboard input.'
+  note: Community firmware repo confirming the badge is ESP32-P4 based, with a display/windowing system and keyboard input.
 - kind: url
   url: https://github.com/zebreus/why2025-badge-rust
   title: zebreus/why2025-badge-rust
   accessed: '2026-09-07'
-  note: 'Rust/BadgeVMS support package targeting the badge; corroborates the RISC-V-based ESP32-P4 (riscv32imafc target).'
+  note: Rust/BadgeVMS support package targeting the badge; corroborates the RISC-V-based ESP32-P4 (riscv32imafc target).
+  archived: https://web.archive.org/web/20251107113207/https://github.com/zebreus/why2025-badge-rust
 - kind: url
   url: https://revspace.nl/index.php?search=WHY2025+badge&title=Speciaal:Zoeken&fulltext=1
   title: 'RevSpace search: WHY2025 badge'
   accessed: '2026-09-07'
-  note: 'RevSpace metameeting notes mention ongoing "maintenance en feature fixes aan de WHY2025-badge" and "MeshCore UI" work, indicating a LoRa/MeshCore mesh-networking feature; the dedicated RevSpace WHY2025 wiki page itself is empty.'
+  note: RevSpace metameeting notes mention ongoing "maintenance en feature fixes aan de WHY2025-badge" and "MeshCore UI" work, indicating a LoRa/MeshCore mesh-networking feature; the dedicated RevSpace WHY2025 wiki page itself is empty.
 research:
   status: researched
   confidence: medium

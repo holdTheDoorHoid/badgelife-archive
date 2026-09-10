@@ -11,7 +11,7 @@ year: 2017
 makers:
 - name: Workshop 88
   url: null
-  role: 'hardware/production (hackerspace)'
+  role: hardware/production (hackerspace)
 - name: Jedha
   url: null
   role: designer
@@ -19,7 +19,7 @@ makers:
   url: null
   role: firmware programmer
 summary: The official electronic badge for ThotCon 0x8 (2017) in Chicago, an ATmega32u4 board that runs "tesserHack," a maze game navigated with three potentiometers and shown on four RGB LEDs and a USB serial console.
-functions: 'Stock firmware runs tesserHack, a maze puzzle set in an 8x8x8 cube. Three potentiometers set your X/Y/Z position in the maze; the four NeoPixel LEDs show open pathways (white), portals between layers (purple), and keys to collect (orange), with all LEDs flashing red if you hit a wall. A USB serial console (9600 8-N-1) exposes a "tesserHack" text menu with a map view and help screen for the same maze.'
+functions: Stock firmware runs tesserHack, a maze puzzle set in an 8x8x8 cube. Three potentiometers set your X/Y/Z position in the maze; the four NeoPixel LEDs show open pathways (white), portals between layers (purple), and keys to collect (orange), with all LEDs flashing red if you hit a wall. A USB serial console (9600 8-N-1) exposes a "tesserHack" text menu with a map view and help screen for the same maze.
 look:
   colors:
   - black
@@ -60,21 +60,25 @@ links:
 - label: hackaday.io/project/21797-thotcon-0x8-badge
   url: https://hackaday.io/project/21797-thotcon-0x8-badge
   kind: hackaday
+  archived: https://web.archive.org/web/20260308175852/https://hackaday.io/project/21797-thotcon-0x8-badge
 - label: 'Hackaday: Hacking The ThotCon 0x8 Badge'
   url: https://hackaday.com/2017/05/10/hacking-the-thotcon-0x8-badge/
   kind: article
-- label: 'Stock badge firmware source (poplicola/shibboleth)'
+  archived: https://web.archive.org/web/20260307145617/https://hackaday.com/2017/05/10/hacking-the-thotcon-0x8-badge/
+- label: Stock badge firmware source (poplicola/shibboleth)
   url: https://github.com/poplicola/shibboleth
   kind: repo
 images:
 - file: assets/images/badges/thotcon-2017/thotcon-0x8-badge/a679dcf395.jpg
-  source: "https://hackaday.io/project/21797-thotcon-0x8-badge"
-  credit: "Gigawatts (Hackaday.io)"
-  caption: "Back of the badge PCB, showing the ATmega32u4, dual CR2032 holders, boot button, micro USB port, and the 'Designed on Jedha / Programmed by John Wallis' silkscreen."
+  source: https://hackaday.io/project/21797-thotcon-0x8-badge
+  credit: Gigawatts (Hackaday.io)
+  caption: Back of the badge PCB, showing the ATmega32u4, dual CR2032 holders, boot button, micro USB port, and the 'Designed on Jedha / Programmed by John Wallis' silkscreen.
+  archived: https://web.archive.org/web/20260308175852/https://hackaday.io/project/21797-thotcon-0x8-badge
 - file: assets/images/badges/thotcon-2017/thotcon-0x8-badge/3b6f72de2f.jpg
-  source: "https://hackaday.io/project/21797-thotcon-0x8-badge"
-  credit: "Gigawatts (Hackaday.io)"
-  caption: "Front of the badge lit up, showing the four RGB NeoPixel LEDs, the three navigation potentiometers, and the 'THOTCON 2017' silkscreen."
+  source: https://hackaday.io/project/21797-thotcon-0x8-badge
+  credit: Gigawatts (Hackaday.io)
+  caption: Front of the badge lit up, showing the four RGB NeoPixel LEDs, the three navigation potentiometers, and the 'THOTCON 2017' silkscreen.
+  archived: https://web.archive.org/web/20260308175852/https://hackaday.io/project/21797-thotcon-0x8-badge
 contact: {}
 notes: []
 status: released
@@ -84,16 +88,19 @@ sources:
   title: ThotCon 0x8 Badge
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: hackaday-list); event read as ''ThotCon 0x8''.'
+  archived: https://web.archive.org/web/20260308175852/https://hackaday.io/project/21797-thotcon-0x8-badge
 - kind: url
   url: https://hackaday.io/project/21797-thotcon-0x8-badge
   title: ThotCon 0x8 Badge (Gigawatts, Hackaday.io)
   accessed: '2026-09-07'
-  note: 'Third-party review/writeup (not the maker''s own page) confirming maker (Workshop 88), MCU, LEDs, pots, USB, batteries, maze game mechanics, and serial console details; source of both saved images.'
+  note: Third-party review/writeup (not the maker's own page) confirming maker (Workshop 88), MCU, LEDs, pots, USB, batteries, maze game mechanics, and serial console details; source of both saved images.
+  archived: https://web.archive.org/web/20260308175852/https://hackaday.io/project/21797-thotcon-0x8-badge
 - kind: url
   url: https://hackaday.com/2017/05/10/hacking-the-thotcon-0x8-badge/
-  title: 'Hacking The ThotCon 0x8 Badge'
+  title: Hacking The ThotCon 0x8 Badge
   accessed: '2026-09-07'
-  note: 'Names the individual designer (Jedha) and firmware programmer (John Wallis) of Workshop 88, and confirms the badge is ThotCon''s Chicago con badge.'
+  note: Names the individual designer (Jedha) and firmware programmer (John Wallis) of Workshop 88, and confirms the badge is ThotCon's Chicago con badge.
+  archived: https://web.archive.org/web/20260307145617/https://hackaday.com/2017/05/10/hacking-the-thotcon-0x8-badge/
 research:
   status: researched
   confidence: medium

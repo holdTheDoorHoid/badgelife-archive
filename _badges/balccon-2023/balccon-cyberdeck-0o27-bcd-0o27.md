@@ -41,7 +41,7 @@ get_one:
   distribution: []
   where: Distributed as the official badge at BalCCon2k23 (Novi Sad, September 2023); organizers also handled distribution for attendees.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://gitlab.com/fschuetz/bcd-0o27/
   firmware_url: https://gitlab.com/fschuetz/bcd-0o27/
   eda_tool: null
@@ -59,10 +59,10 @@ links:
   url: https://gitlab.com/fschuetz/bcd-0o27/
   kind: repo
 images:
-  - file: assets/images/badges/balccon-2023/balccon-cyberdeck-0o27-bcd-0o27/338d9d3019.jpg
-    source: "https://hackaday.io/project/192371-balccon-cyberdeck-0o27-aka-bcd-0o27"
-    credit: "CH405 Labs"
-    caption: "BCD-0o27 cyberdeck badge"
+- file: assets/images/badges/balccon-2023/balccon-cyberdeck-0o27-bcd-0o27/338d9d3019.jpg
+  source: https://hackaday.io/project/192371-balccon-cyberdeck-0o27-aka-bcd-0o27
+  credit: CH405 Labs
+  caption: BCD-0o27 cyberdeck badge
 contact: {}
 notes:
 - ESP32-S3-based reusable cyberdeck/firmware-development badge with display, buttons, RGB LEDs and SAO-ish I2C connector, made as the BalCCon2k23 badge. Found by the event-year sweep, task con-balccon.
@@ -90,7 +90,13 @@ research:
   confidence: high
   last_checked: '2026-09-08'
   notes: Price and quantity made are not published anywhere found; left blank. Could not reach ch405-labs.com/bcd-0o26-hardware-assembly-guide (fetch failed) to check whether it documents a distinct earlier "0o26" hardware revision versus this "0o27" one — left uninvestigated, flagged as a link to revisit.
-last_modified_date: '2026-09-08'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/balccon-2023/balccon-cyberdeck-0o27-bcd-0o27.glb
+  method: kicad
+  source_file: hardware/BCD-0o27/BCD-0o27.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 592872
 ---
 
 The BalCCon Cyberdeck 0o27 (BCD-0o27) was the official badge for BalCCon2k23, the "System Failure" edition of the BalCCon security conference held in Novi Sad, Serbia in September 2023. Built by Florian Euchner of CH405 Labs, it is an ESP32-S3 board with a 1.8" ST7735 LCD (160x128), six WS2812B RGB LEDs, eight buttons plus reset/boot controls, Wi-Fi and Bluetooth, an internal battery with a TP5000 charge circuit, and a SAO-ish I2C connector.

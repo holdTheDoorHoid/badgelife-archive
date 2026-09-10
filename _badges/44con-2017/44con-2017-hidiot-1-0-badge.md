@@ -59,7 +59,7 @@ links:
 - label: rawhex/hidiot-tutorials
   url: https://github.com/rawhex/hidiot-tutorials
   kind: repo
-- label: 'Getting Started With Your HIDIOT Badge (44CON blog)'
+- label: Getting Started With Your HIDIOT Badge (44CON blog)
   url: https://44con.com/2016/09/19/getting-started-with-your-hidiot-badge/
   kind: article
 - label: HIDIOT Community on Hackster.io
@@ -69,7 +69,7 @@ images: []
 contact: {}
 notes:
 - Official 44CON 2017 badge, a build-it-yourself Raw Hex HIDIOT 1.0 USB HID board documented in the 44CON 2017 brochure. Found by the event-year sweep, task con-44con.
-- 'Sweep title matched the maker''s own naming ("HIDIOT 1.0 Rev 1" per the Eagle schematic title block); no title change needed.'
+- Sweep title matched the maker's own naming ("HIDIOT 1.0 Rev 1" per the Eagle schematic title block); no title change needed.
 - No rights-cleared photograph of the physical assembled 44CON 2017 board was found; the hidiot_hardware repo's only linked image is a schematic drawing, not a photo, so no image was saved for this entry.
 status: listed
 sources:
@@ -82,23 +82,29 @@ sources:
   url: https://github.com/rawhex/hidiot_hardware
   title: rawhex/hidiot_hardware
   accessed: '2026-09-08'
-  note: 'Maker''s Eagle schematic (hidiot_1.0_final.sch, dated 2017/08/10) confirms ATtiny85 MCU, one LED, two buttons, USB-only connectivity, and CC BY-SA 3.0 hardware license.'
+  note: Maker's Eagle schematic (hidiot_1.0_final.sch, dated 2017/08/10) confirms ATtiny85 MCU, one LED, two buttons, USB-only connectivity, and CC BY-SA 3.0 hardware license.
 - kind: url
   url: https://44con.com/2016/09/19/getting-started-with-your-hidiot-badge/
   title: Getting Started With Your HIDIOT Badge
   accessed: '2026-09-08'
-  note: 'Confirms Digispark/Trinket-compatible Arduino IDE programming flow and V-USB/DigiKeyboard libraries; describes the prior-year (0.7) badge that 1.0 was built to be compatible with.'
+  note: Confirms Digispark/Trinket-compatible Arduino IDE programming flow and V-USB/DigiKeyboard libraries; describes the prior-year (0.7) badge that 1.0 was built to be compatible with.
 - kind: url
   url: https://github.com/rawhex/hidiot
   title: rawhex/hidiot (HID I/O Toolkit)
   accessed: '2026-09-08'
-  note: 'Confirms GPL-licensed software stack for the HIDIOT boards.'
+  note: Confirms GPL-licensed software stack for the HIDIOT boards.
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-08'
   notes: 'Core facts (maker, year, MCU, USB HID function, open hardware/software) confirmed via the maker''s own GitHub repos and the 44CON blog. Not confirmed: exact price, quantity made, current availability, and board colors/exact form factor beyond "card-sized" (from a third-party review title). No photo of the assembled 44CON 2017 board was located, only the Eagle schematic.'
-last_modified_date: '2026-09-08'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/44con-2017/44con-2017-hidiot-1-0-badge.glb
+  method: kicad
+  source_file: hidiot_1.0_final.brd
+  generated: '2026-09-10'
+  bytes: 191592
 ---
 
 The 44CON 2017 conference badge was the HIDIOT 1.0, a build-it-yourself USB Human Interface Device (HID) board designed by Raw Hex, the UK-based security research outfit run by Steve Lord. Attendees bought or received component kits at the front desk and assembled the boards themselves in a dedicated soldering area, continuing a tradition Raw Hex started with an unreleased "0.7" version of the same board at 44CON 2016.

@@ -44,18 +44,21 @@ links:
 - label: wiki.why2025.org/Badge
   url: https://wiki.why2025.org/Badge
   kind: website
+  archived: https://web.archive.org/web/20260508205824/https://wiki.why2025.org/Badge
 - label: gitlab.com/why2025/team-badge
   url: https://gitlab.com/why2025/team-badge
   kind: repo
 images:
-  - file: assets/images/badges/why-2025/why2025-badge/242051d346.jpg
-    source: "https://wiki.why2025.org/Badge"
-    credit: "WHY2025 Team:Badge"
-    caption: "Assembled WHY2025 badge with keyboard, 3.95in LCD, and LoRa antenna"
-  - file: assets/images/badges/why-2025/why2025-badge/343bcbeff9.jpg
-    source: "https://wiki.why2025.org/Badge"
-    credit: "WHY2025 Team:Badge"
-    caption: "WHY2025 badge running Doom on its 3.95in LCD"
+- file: assets/images/badges/why-2025/why2025-badge/242051d346.jpg
+  source: https://wiki.why2025.org/Badge
+  credit: WHY2025 Team:Badge
+  caption: Assembled WHY2025 badge with keyboard, 3.95in LCD, and LoRa antenna
+  archived: https://web.archive.org/web/20260508205824/https://wiki.why2025.org/Badge
+- file: assets/images/badges/why-2025/why2025-badge/343bcbeff9.jpg
+  source: https://wiki.why2025.org/Badge
+  credit: WHY2025 Team:Badge
+  caption: WHY2025 badge running Doom on its 3.95in LCD
+  archived: https://web.archive.org/web/20260508205824/https://wiki.why2025.org/Badge
 contact: {}
 notes:
 - Dual ESP32 + LoRa (868MHz) badge, 3.95in LCD (W395HDC001-A), solder.party keyboard dome layer, M.2 accessory connector, SAO adapter support, runs BadgeVMS firmware; app hub at badge.why2025.org (BadgeHub).
@@ -66,16 +69,18 @@ sources:
   title: WHY2025 Badge
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: eu-camps: European hacker camps/cons via badge.team (SHA2017, Hackerhotel, Disobey, CampZone, Fri3d Camp, MCH2022, WHY2025), EMF Camp TiLDA lineage, CCC card10, and BornHack); event read as ''WHY2025''.'
+  archived: https://web.archive.org/web/20260508205824/https://wiki.why2025.org/Badge
 - kind: url
   url: https://wiki.why2025.org/Badge
   title: WHY2025 Badge - wiki.why2025.org
   accessed: '2026-09-07'
-  note: 'Confirmed dual-ESP32 + LoRa architecture, 3.95in LCD (W395HDC001-A), dome-switch keyboard, dual USB-C, over 3500 units produced, some distributed unassembled and built at BadgeTent, BadgeVMS firmware, GitLab hardware repo, Meshtastic and Doom demonstrated.'
+  note: Confirmed dual-ESP32 + LoRa architecture, 3.95in LCD (W395HDC001-A), dome-switch keyboard, dual USB-C, over 3500 units produced, some distributed unassembled and built at BadgeTent, BadgeVMS firmware, GitLab hardware repo, Meshtastic and Doom demonstrated.
+  archived: https://web.archive.org/web/20260508205824/https://wiki.why2025.org/Badge
 - kind: url
   url: https://gitlab.com/why2025/team-badge
   title: Team:Badge · GitLab
   accessed: '2026-09-07'
-  note: 'GitLab group page confirmed to exist for the badge team; page content beyond the title was not retrievable via fetch, so hardware/firmware file details and license could not be verified directly.'
+  note: GitLab group page confirmed to exist for the badge team; page content beyond the title was not retrievable via fetch, so hardware/firmware file details and license could not be verified directly.
 research:
   status: researched
   confidence: medium

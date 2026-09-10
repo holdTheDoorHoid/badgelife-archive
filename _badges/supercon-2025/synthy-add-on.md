@@ -11,8 +11,8 @@ year: 2025
 makers:
 - name: incanus (Justin Miller)
   url: https://github.com/incanus
-summary: 'A piezo-buzzer SAO that turns the Supercon 2025 badge into a graphical synth keyboard, built on-device during the conference.'
-functions: 'Renders a GarageBand-style keyboard on the badge screen; tapping a key plays the corresponding musical note through a piezo buzzer via PWM on the SAO header, with a 250ms auto note-off that can be interrupted by the next note.'
+summary: A piezo-buzzer SAO that turns the Supercon 2025 badge into a graphical synth keyboard, built on-device during the conference.
+functions: Renders a GarageBand-style keyboard on the badge screen; tapping a key plays the corresponding musical note through a piezo buzzer via PWM on the SAO header, with a 250ms auto note-off that can be interrupted by the next note.
 look:
   colors: []
   shape: null
@@ -20,19 +20,19 @@ look:
   - music
   - hardware tool
 tech:
-  mcu: 'ESP32 (host badge''s MCU, via SAO header)'
+  mcu: ESP32 (host badge's MCU, via SAO header)
   leds: null
-  display: 'Supercon 2025 badge''s built-in graphical display (used to render the keyboard)'
+  display: Supercon 2025 badge's built-in graphical display (used to render the keyboard)
   connectivity: []
-  battery: 'powered by host badge'
+  battery: powered by host badge
   sao_version: null
 get_one:
   price: ''
   price_usd: null
-  quantity: '1 (personal conference hack)'
+  quantity: 1 (personal conference hack)
   availability: not_released
   distribution: []
-  where: 'Not sold or distributed; a one-off built by the maker at Supercon 2025.'
+  where: Not sold or distributed; a one-off built by the maker at Supercon 2025.
 make_your_own:
   open_source: partial
   hardware_url: null
@@ -42,17 +42,20 @@ links:
 - label: github.com/incanus/synthy-add-on
   url: https://github.com/incanus/synthy-add-on
   kind: repo
+  archived: https://web.archive.org/web/20260312173144/https://github.com/incanus/synthy-add-on
 - label: www.hackster.io/news/a-synthesizer-sao-for-the-supercon-2025-badge-ea5a81866b96
   url: https://www.hackster.io/news/a-synthesizer-sao-for-the-supercon-2025-badge-ea5a81866b96
   kind: article
 - label: 'justinmiller.io: Supercon 2025 Badge Hack'
   url: https://justinmiller.io/posts/2025/12/01/supercon-2025-badge-hack
   kind: article
+  archived: https://web.archive.org/web/20260411180640/https://justinmiller.io/posts/2025/12/01/supercon-2025-badge-hack/
 images:
-  - file: assets/images/badges/supercon-2025/synthy-add-on/c6b65786fb.png
-    source: "https://github.com/incanus/synthy-add-on"
-    credit: "incanus (Justin Miller)"
-    caption: "The Synthy Add-On piezo buzzer SAO plugged into a Supercon 2025 badge"
+- file: assets/images/badges/supercon-2025/synthy-add-on/c6b65786fb.png
+  source: https://github.com/incanus/synthy-add-on
+  credit: incanus (Justin Miller)
+  caption: The Synthy Add-On piezo buzzer SAO plugged into a Supercon 2025 badge
+  archived: https://web.archive.org/web/20260312173144/https://github.com/incanus/synthy-add-on
 contact: {}
 notes: []
 status: released
@@ -62,21 +65,24 @@ sources:
   title: Synthy Add-On
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: supercon-addons); event read as ''Supercon 2025 badge hack SAO, synthesizer add-on, also covered on Hackster.io''.'
+  archived: https://web.archive.org/web/20260312173144/https://github.com/incanus/synthy-add-on
 - kind: url
   url: https://github.com/incanus/synthy-add-on
   title: incanus/synthy-add-on (README)
   accessed: '2026-09-07'
-  note: 'Confirmed maker (incanus, aka Justin Miller), that it is a Supercon 2025 badge hack, and image hack.png.'
+  note: Confirmed maker (incanus, aka Justin Miller), that it is a Supercon 2025 badge hack, and image hack.png.
+  archived: https://web.archive.org/web/20260312173144/https://github.com/incanus/synthy-add-on
 - kind: url
   url: https://justinmiller.io/posts/2025/12/01/supercon-2025-badge-hack
-  title: 'Supercon 2025 Badge Hack — justinmiller.io'
+  title: Supercon 2025 Badge Hack — justinmiller.io
   accessed: '2026-09-07'
   note: 'Maker''s own blog post: describes it as an SAO with a piezo buzzer wired to the SAO header GPIO 1 and ground, driven by PWM square waves via MicroPython/Thonny on the badge''s ESP32; keyboard UI modeled on GarageBand; 250ms auto note-off, interruptible.'
+  archived: https://web.archive.org/web/20260411180640/https://justinmiller.io/posts/2025/12/01/supercon-2025-badge-hack/
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-07'
-  notes: 'Confirmed via the maker''s GitHub repo and personal blog post (justinmiller.io); the Hackster.io article could not be fetched directly (Cloudflare block) but its content matches the maker''s own blog post. This was a single, one-off conference hack built during Supercon 2025, not a produced/distributed product, so price, quantity beyond one, and distribution fields are left empty or minimal. Firmware (synthy.py) is public on GitHub but no separate hardware design files (schematic/gerbers) were found beyond the simple wiring description (piezo buzzer to SAO GPIO1 and ground), hence make_your_own.open_source is set to partial rather than yes.'
+  notes: Confirmed via the maker's GitHub repo and personal blog post (justinmiller.io); the Hackster.io article could not be fetched directly (Cloudflare block) but its content matches the maker's own blog post. This was a single, one-off conference hack built during Supercon 2025, not a produced/distributed product, so price, quantity beyond one, and distribution fields are left empty or minimal. Firmware (synthy.py) is public on GitHub but no separate hardware design files (schematic/gerbers) were found beyond the simple wiring description (piezo buzzer to SAO GPIO1 and ground), hence make_your_own.open_source is set to partial rather than yes.
 last_modified_date: '2026-09-07'
 ---
 
