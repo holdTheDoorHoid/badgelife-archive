@@ -47,18 +47,18 @@ links:
 - label: 'Hackster.io: The RSA Sandbox Badge'
   url: https://www.hackster.io/HacksFromPanda/the-rsa-sandbox-badge-e23c62
   kind: article
-- label: 'Glow All LEDs hex file'
+- label: Glow All LEDs hex file
   url: https://www.hackerwares.in/StrongerTogether_SE2.hex.zip
   kind: doc
 images:
 - file: assets/images/badges/other/rsa-sandbox-badge/8c6d1eec10.jpg
-  source: "https://www.hackerwares.in/rsa"
-  credit: "Hackerwares"
-  caption: "The RSA Sandbox Badge"
+  source: https://www.hackerwares.in/rsa
+  credit: Hackerwares
+  caption: The RSA Sandbox Badge
 contact: {}
 notes:
 - First RSA Conference badge, represents eight villages
-- 'Maker describes it as "our most innovative full colour badge design to represent the vibrant community and 8 villages at the RSA Sandbox" (linking to rsaconference.com/usa/programs/sandbox).'
+- Maker describes it as "our most innovative full colour badge design to represent the vibrant community and 8 villages at the RSA Sandbox" (linking to rsaconference.com/usa/programs/sandbox).
 status: listed
 sources:
 - kind: url
@@ -76,6 +76,7 @@ sources:
   title: Hackerwares
   accessed: '2026-09-07'
   note: Maker's portfolio page confirms this is billed as "First-ever RSA Conference Badge" for the Sandbox community; no chip/LED specs or pricing listed.
+  archived: https://web.archive.org/web/20260611200959/https://www.hackerwares.in/
 - kind: url
   url: https://www.hackster.io/HacksFromPanda/the-rsa-sandbox-badge-e23c62
   title: The RSA Sandbox Badge - Hackster.io
@@ -85,7 +86,8 @@ research:
   status: verified
   confidence: low
   last_checked: '2026-09-07'
-  notes: 'Re-verified 2026-09-07 against the live maker pages. No matching RSA Conference event id exists in _data/events.yml, so event is left as "other"; the con is RSA Conference USA, Sandbox program. No source states the year directly (the maker page''s copyright footer reads 2023, but that is a site-wide copyright, not a stated badge year, so year is left empty rather than guessed). Could not confirm MCU, LED count/type, display, battery, price, quantity made, or open-source hardware files (only a firmware hex file is published). get_one.where was blanked: no source states how the badge was actually distributed to attendees (only that it was made for the Sandbox program), so the prior "distributed to attendees" text was an unsupported inference and has been removed. The body previously named the maker "Abhinav SP / Abhinav Panda"; the site only confirms the first name "Abhinav" (via its contact email) and the "Panda" handle (HacksFromPanda / TweetsFromPanda) as branding, not a surname "SP" — the body has been corrected to drop that unsupported surname. The Hackster.io "Badge Story" article and the maker''s Hackster.io profile are linked from the site but return HTTP 403 on every fetch attempt and could not be read for further detail; kept as links only.'
+  notes: 'Re-verified 2026-09-07 against the live maker pages. No matching RSA Conference event id exists in _data/events.yml, so event is left as "other"; the con is RSA Conference USA, Sandbox program. No source states the year directly (the maker page''s copyright footer reads 2023, but that is a site-wide copyright, not a stated badge year, so year is left empty rather than guessed). Could not confirm MCU, LED count/type, display, battery, price, quantity made, or open-source hardware files (only a firmware hex file is published). get_one.where was blanked: no source states how the badge was actually distributed to attendees (only that it was made for the Sandbox program), so the prior "distributed to attendees" text was an unsupported inference and has been removed. The body previously named the maker "Abhinav SP / Abhinav Panda"; the site only confirms the first name "Abhinav" (via its contact email) and the "Panda" handle (HacksFromPanda / TweetsFromPanda) as branding, not a surname
+    "SP" — the body has been corrected to drop that unsupported surname. The Hackster.io "Badge Story" article and the maker''s Hackster.io profile are linked from the site but return HTTP 403 on every fetch attempt and could not be read for further detail; kept as links only.'
 last_modified_date: '2026-09-07'
 ---
 

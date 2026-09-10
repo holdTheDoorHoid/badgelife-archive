@@ -33,7 +33,7 @@ tech:
   battery: CR2032
   sao_version: none
 get_one:
-  price: "~$20 per unit (in batches of 20)"
+  price: ~$20 per unit (in batches of 20)
   price_usd: 20
   quantity: ''
   availability: unknown
@@ -49,30 +49,34 @@ links:
 - label: hackaday.io/project/19597-pycard-jean-luc-pythonarduino-in-card-shape
   url: https://hackaday.io/project/19597-pycard-jean-luc-pythonarduino-in-card-shape
   kind: hackaday
+  archived: https://web.archive.org/web/20251115221642/https://hackaday.io/project/19597-pycard-jean-luc-pythonarduino-in-card-shape
 - label: PYcARD (Jean-Luc) - Python + Arduino in card from Bobricius on Tindie
   url: https://www.tindie.com/products/bobricius/pycard-jean-luc-python-arduino-in-card/
   kind: store
-- label: 'Jean-Luc PYcARD Is A Pocketable Python Development Platform (Hackaday)'
+- label: Jean-Luc PYcARD Is A Pocketable Python Development Platform (Hackaday)
   url: https://hackaday.com/2017/02/23/jean-luc-pycard-is-a-pocketable-python-development-platform/
   kind: article
+  archived: https://web.archive.org/web/20260514140425/https://hackaday.com/2017/02/23/jean-luc-pycard-is-a-pocketable-python-development-platform/
 images:
 - file: assets/images/badges/other/pycard-jean-luc-python-arduino-in-a-card-shape/a10430b8e7.jpg
-  source: "https://hackaday.io/project/19597-pycard-jean-luc-pythonarduino-in-card-shape"
-  credit: "Peter Misenko (bobricius)"
-  caption: "PYcARD Jean-Luc board with 22x5 charlieplexed LED matrix"
+  source: https://hackaday.io/project/19597-pycard-jean-luc-pythonarduino-in-card-shape
+  credit: Peter Misenko (bobricius)
+  caption: PYcARD Jean-Luc board with 22x5 charlieplexed LED matrix
+  archived: https://web.archive.org/web/20251115221642/https://hackaday.io/project/19597-pycard-jean-luc-pythonarduino-in-card-shape
 - file: assets/images/badges/other/pycard-jean-luc-python-arduino-in-a-card-shape/44e5088de5.jpg
-  source: "https://hackaday.io/project/19597-pycard-jean-luc-pythonarduino-in-card-shape"
-  credit: "Peter Misenko (bobricius)"
-  caption: "PYcARD board, front view showing LED matrix and buttons"
+  source: https://hackaday.io/project/19597-pycard-jean-luc-pythonarduino-in-card-shape
+  credit: Peter Misenko (bobricius)
+  caption: PYcARD board, front view showing LED matrix and buttons
+  archived: https://web.archive.org/web/20251115221642/https://hackaday.io/project/19597-pycard-jean-luc-pythonarduino-in-card-shape
 contact: {}
 notes:
-- "Sheet/original title used 'PyCard'; the maker's own spelling is 'PYcARD (Jean-Luc)'."
+- Sheet/original title used 'PyCard'; the maker's own spelling is 'PYcARD (Jean-Luc)'.
 status: released
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: "This is a general-purpose hobby/dev-board project (submitted to the 2017 Hackaday Prize and Sci-Fi Contest), not a badge or SAO made for a specific hacker convention, so no event correction was made and it stays filed under 'other'. The name 'Jean-Luc' is a Star Trek Jean-Luc Picard pun on 'card.' Quantity made and current availability are not stated anywhere found; the Tindie storefront could not be checked directly (Cloudflare blocked automated access), so availability is left unknown. No dedicated GitHub repo for this specific project was located (only files hosted directly on the Hackaday.io project page - schematic, board file, firmware, BOM); open_source is marked 'partial' since design files are published but no explicit license is stated."
+  notes: This is a general-purpose hobby/dev-board project (submitted to the 2017 Hackaday Prize and Sci-Fi Contest), not a badge or SAO made for a specific hacker convention, so no event correction was made and it stays filed under 'other'. The name 'Jean-Luc' is a Star Trek Jean-Luc Picard pun on 'card.' Quantity made and current availability are not stated anywhere found; the Tindie storefront could not be checked directly (Cloudflare blocked automated access), so availability is left unknown. No dedicated GitHub repo for this specific project was located (only files hosted directly on the Hackaday.io project page - schematic, board file, firmware, BOM); open_source is marked 'partial' since design files are published but no explicit license is stated.
 last_modified_date: '2026-09-07'
 ---
 

@@ -11,8 +11,8 @@ year: 2024
 makers:
 - name: C0ldbru / Rot13 Labs
   url: https://rot13labs.com/
-summary: 'A USB-C macro pad badge for rotc0n, a free no-schedule hacker gathering; solving its puzzle reveals the secret date, time and location of the event.'
-functions: 'Six mechanical keyboard keys (QMK-compatible macro pad); the default firmware is part of a puzzle that reveals rotc0n''s secret time/date/location. Rot13 Labs also released alternate firmwares for a BSides Tampa 2024 afterparty and a DEFCON 32 party.'
+summary: A USB-C macro pad badge for rotc0n, a free no-schedule hacker gathering; solving its puzzle reveals the secret date, time and location of the event.
+functions: Six mechanical keyboard keys (QMK-compatible macro pad); the default firmware is part of a puzzle that reveals rotc0n's secret time/date/location. Rot13 Labs also released alternate firmwares for a BSides Tampa 2024 afterparty and a DEFCON 32 party.
 look:
   colors: []
   shape: null
@@ -31,13 +31,13 @@ tech:
   battery: none, USB-powered
   sao_version: none
 get_one:
-  price: "$60 including shipping (production version, per goimagine listing referenced by reviewer)"
+  price: $60 including shipping (production version, per goimagine listing referenced by reviewer)
   price_usd: 60
   quantity: ''
   availability: unknown
   distribution:
   - purchase
-  where: 'Sold via a goimagine.com storefront listing ("rotcon-0-badge"); that listing could not be reached to confirm current availability. The maker''s GitHub README also links a joke (rickroll) URL as a second "source".'
+  where: Sold via a goimagine.com storefront listing ("rotcon-0-badge"); that listing could not be reached to confirm current availability. The maker's GitHub README also links a joke (rickroll) URL as a second "source".
 make_your_own:
   open_source: partial
   hardware_url: null
@@ -50,18 +50,22 @@ links:
 - label: 'Badge Review: rotc0n Badge by @c0ldbru | t.fish'
   url: https://tdot.fish/2024/02/28/rotc0nbadge.html
   kind: article
+  archived: https://web.archive.org/web/20260802161157/https://tdot.fish/2024/02/28/rotc0nbadge.html
 - label: rot13labs
   url: https://rot13labs.com/
   kind: website
+  archived: https://web.archive.org/web/20260615020751/https://rot13labs.com/
 images:
-  - file: assets/images/badges/other/rotc0n-badge/ec8bd97417.jpg
-    source: "https://tdot.fish/2024/02/28/rotc0nbadge.html"
-    credit: "t.fish (badge review)"
-    caption: "rotc0n badge, a USB-C macro pad with six keys"
-  - file: assets/images/badges/other/rotc0n-badge/24d8b71c46.jpg
-    source: "https://tdot.fish/2024/02/28/rotc0nbadge.html"
-    credit: "t.fish (badge review)"
-    caption: "rotc0n badge, close-up view"
+- file: assets/images/badges/other/rotc0n-badge/ec8bd97417.jpg
+  source: https://tdot.fish/2024/02/28/rotc0nbadge.html
+  credit: t.fish (badge review)
+  caption: rotc0n badge, a USB-C macro pad with six keys
+  archived: https://web.archive.org/web/20260802161157/https://tdot.fish/2024/02/28/rotc0nbadge.html
+- file: assets/images/badges/other/rotc0n-badge/24d8b71c46.jpg
+  source: https://tdot.fish/2024/02/28/rotc0nbadge.html
+  credit: t.fish (badge review)
+  caption: rotc0n badge, close-up view
+  archived: https://web.archive.org/web/20260802161157/https://tdot.fish/2024/02/28/rotc0nbadge.html
 contact: {}
 notes: []
 status: released
@@ -75,22 +79,24 @@ sources:
   url: https://github.com/c0ldbru/rotc0n
   title: c0ldbru/rotc0n README
   accessed: '2026-09-07'
-  note: 'README confirms it is a QMK-compatible ATmega328P badge with three firmware variants (default rotc0n, BSides Tampa 2024 afterparty, DEFCON 32 party); flashing steps.'
+  note: README confirms it is a QMK-compatible ATmega328P badge with three firmware variants (default rotc0n, BSides Tampa 2024 afterparty, DEFCON 32 party); flashing steps.
 - kind: url
   url: https://tdot.fish/2024/02/28/rotc0nbadge.html
   title: 'Badge Review: rotc0n Badge by @c0ldbru | t.fish'
   accessed: '2026-09-07'
-  note: 'Independent review describing rotc0n 0 as a free no-schedule con; badge is a ~2in USB-C macro pad with six Kailh Speed Pro switches, single LED, ATmega328p, $60 including shipping; two photos of the badge.'
+  note: Independent review describing rotc0n 0 as a free no-schedule con; badge is a ~2in USB-C macro pad with six Kailh Speed Pro switches, single LED, ATmega328p, $60 including shipping; two photos of the badge.
+  archived: https://web.archive.org/web/20260802161157/https://tdot.fish/2024/02/28/rotc0nbadge.html
 - kind: url
   url: https://rot13labs.com/
   title: rot13labs
   accessed: '2026-09-07'
-  note: 'Maker''s site, confirms rot13labs as a small Florida electronics shop making hacker tools and conference badges.'
+  note: Maker's site, confirms rot13labs as a small Florida electronics shop making hacker tools and conference badges.
+  archived: https://web.archive.org/web/20260615020751/https://rot13labs.com/
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'Made for "rotc0n 0", a small independent hacker gathering run by C0ldbru/Rot13 Labs (not one of the established cons in events.yml, so event is left as "other"); the badge also had alternate firmwares for BSides Tampa 2024 and DEFCON 32 afterparties. Could not confirm current storefront availability or units-made quantity; the goimagine.com listing linked from the GitHub README returned a 404 when checked. Hardware design files (schematic/PCB/gerbers) were not found, only compiled firmware .hex files in the repo.'
+  notes: Made for "rotc0n 0", a small independent hacker gathering run by C0ldbru/Rot13 Labs (not one of the established cons in events.yml, so event is left as "other"); the badge also had alternate firmwares for BSides Tampa 2024 and DEFCON 32 afterparties. Could not confirm current storefront availability or units-made quantity; the goimagine.com listing linked from the GitHub README returned a 404 when checked. Hardware design files (schematic/PCB/gerbers) were not found, only compiled firmware .hex files in the repo.
 last_modified_date: '2026-09-07'
 ---
 

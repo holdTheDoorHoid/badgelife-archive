@@ -47,25 +47,30 @@ links:
 - label: hackaday.com/2025/09/28/decorate-your-neck-with-the-first-z80-badge
   url: https://hackaday.com/2025/09/28/decorate-your-neck-with-the-first-z80-badge/
   kind: article
+  archived: https://web.archive.org/web/20260831031638/https://hackaday.com/2025/09/28/decorate-your-neck-with-the-first-z80-badge/
 - label: rc2014.co.uk/modules/other-modules/rc2014-assembly-badge-v1-0
   url: https://rc2014.co.uk/modules/other-modules/rc2014-assembly-badge-v1-0/
   kind: hackaday
-- label: "RC2014 Assembly - The National Museum of Computing"
+  archived: https://web.archive.org/web/20260712195835/https://rc2014.co.uk/modules/other-modules/rc2014-assembly-badge-v1-0/
+- label: RC2014 Assembly - The National Museum of Computing
   url: https://www.tnmoc.org/events/2025/9/20/rc2014-assembly
   kind: website
+  archived: https://web.archive.org/web/20251013020111/https://www.tnmoc.org/events/2025/9/20/rc2014-assembly
 images:
-  - file: assets/images/badges/other/rc2014-assembly-badge-v1-0/2d156a9d21.jpg
-    source: "https://rc2014.co.uk/modules/other-modules/rc2014-assembly-badge-v1-0/"
-    credit: "Spencer / RC2014"
-    caption: "Front of the RC2014 Assembly Badge v1.0 PCB"
-  - file: assets/images/badges/other/rc2014-assembly-badge-v1-0/bf9eaaa541.jpg
-    source: "https://rc2014.co.uk/modules/other-modules/rc2014-assembly-badge-v1-0/"
-    credit: "Spencer / RC2014"
-    caption: "Badge worn on a lanyard, LEDs lit during operation"
+- file: assets/images/badges/other/rc2014-assembly-badge-v1-0/2d156a9d21.jpg
+  source: https://rc2014.co.uk/modules/other-modules/rc2014-assembly-badge-v1-0/
+  credit: Spencer / RC2014
+  caption: Front of the RC2014 Assembly Badge v1.0 PCB
+  archived: https://web.archive.org/web/20260712195835/https://rc2014.co.uk/modules/other-modules/rc2014-assembly-badge-v1-0/
+- file: assets/images/badges/other/rc2014-assembly-badge-v1-0/bf9eaaa541.jpg
+  source: https://rc2014.co.uk/modules/other-modules/rc2014-assembly-badge-v1-0/
+  credit: Spencer / RC2014
+  caption: Badge worn on a lanyard, LEDs lit during operation
+  archived: https://web.archive.org/web/20260712195835/https://rc2014.co.uk/modules/other-modules/rc2014-assembly-badge-v1-0/
 contact: {}
 notes:
 - Claimed first Z80-powered event badge; based on RC2014 Micro
-- 'Made for RC2014 Assembly, a one-day RC2014/retrocomputing meetup held 2025-09-20 at The National Museum of Computing, Bletchley Park, UK. No matching event id exists yet in events.yml (closest categories are DEF CON/vendor-con badges); left under "other" pending a dedicated event entry for this meetup.'
+- Made for RC2014 Assembly, a one-day RC2014/retrocomputing meetup held 2025-09-20 at The National Museum of Computing, Bletchley Park, UK. No matching event id exists yet in events.yml (closest categories are DEF CON/vendor-con badges); left under "other" pending a dedicated event entry for this meetup.
 - Maker calls it v1.0 and notes a "bodge" issue with an RX pin pullup that interfered with signals; a revised version was not documented in the sources checked.
 - Page includes schematic and photos but no published Gerbers, BOM, or KiCad project link was found; hardware_url points to the project page itself which shows design detail (schematic image) rather than a downloadable source repo, so open_source is marked partial.
 status: released
@@ -75,21 +80,24 @@ sources:
   title: RC2014 Assembly Badge v1.0
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: hackaday-press); event read as ''RC2014 Assembly 2025''.'
+  archived: https://web.archive.org/web/20260831031638/https://hackaday.com/2025/09/28/decorate-your-neck-with-the-first-z80-badge/
 - kind: url
   url: https://rc2014.co.uk/modules/other-modules/rc2014-assembly-badge-v1-0/
   title: RC2014 Assembly Badge v1.0 « RC2014
   accessed: '2026-09-07'
   note: Maker's own project page; source of LED count/colors, chip, and the "bodge" note.
+  archived: https://web.archive.org/web/20260712195835/https://rc2014.co.uk/modules/other-modules/rc2014-assembly-badge-v1-0/
 - kind: url
   url: https://www.tnmoc.org/events/2025/9/20/rc2014-assembly
   title: RC2014 Assembly - The National Museum of Computing
   accessed: '2026-09-07'
   note: Confirms the event date (2025-09-20) and venue (TNMOC, Bletchley Park).
+  archived: https://web.archive.org/web/20251013020111/https://www.tnmoc.org/events/2025/9/20/rc2014-assembly
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'Maker''s own page and Hackaday agree on the core facts. Could not find price, quantity made, or a downloadable design-file archive (Gerbers/KiCad); left those empty. Event is a specific one-day RC2014/retrocomputing meetup ("RC2014 Assembly") rather than a large con, and has no matching id in events.yml, so it stays under "other" - name the event explicitly if a dedicated entry is ever added.'
+  notes: Maker's own page and Hackaday agree on the core facts. Could not find price, quantity made, or a downloadable design-file archive (Gerbers/KiCad); left those empty. Event is a specific one-day RC2014/retrocomputing meetup ("RC2014 Assembly") rather than a large con, and has no matching id in events.yml, so it stays under "other" - name the event explicitly if a dedicated entry is ever added.
 last_modified_date: '2026-09-07'
 ---
 

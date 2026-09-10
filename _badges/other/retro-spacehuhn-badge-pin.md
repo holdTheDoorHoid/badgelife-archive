@@ -14,7 +14,7 @@ makers:
 - name: Stefan Kremser (Spacehuhn)
   url: https://spacehuhn.com/
 summary: A hand-painted blinky pin of the Spacehuhn logo (a chicken in a space helmet), with two fading RGB LEDs for eyes, made as a tribute to Spacehuhn's ESP8266 deauther work after a badge conversation at 34C3.
-functions: 'Two RGB LEDs fade/blink automatically as animated eyes; no other interactivity.'
+functions: Two RGB LEDs fade/blink automatically as animated eyes; no other interactivity.
 look:
   colors:
   - white
@@ -57,24 +57,29 @@ links:
 - label: hackaday.io/project/33886-spacehuhn-badge
   url: https://hackaday.io/project/33886-spacehuhn-badge
   kind: hackaday
+  archived: https://web.archive.org/web/20260515101515/https://hackaday.io/project/33886-spacehuhn-badge
 - label: github.com/davedarko/Simple-Add-ons-SAO/tree/main/SpaceHuhn%20Badge
   url: https://github.com/davedarko/Simple-Add-ons-SAO/tree/main/SpaceHuhn%20Badge
   kind: repo
 - label: '@Spacehuhn blinky LED badge kit — Tindie (davedarko)'
   url: https://www.tindie.com/products/davedarko/spacehuhn-blinky-led-badge-kit/
   kind: store
+  archived: https://web.archive.org/web/20260513145034/https://www.tindie.com/products/davedarko/spacehuhn-blinky-led-badge-kit/
 - label: Spacehuhn Badge — Tindie (Spacehuhn Technologies)
   url: https://www.tindie.com/products/spacehuhn/spacehuhn-badge/
   kind: store
+  archived: https://web.archive.org/web/20260503121823/https://www.tindie.com/products/spacehuhn/spacehuhn-badge/
 images:
-  - file: assets/images/badges/other/retro-spacehuhn-badge-pin/0bde639695.jpg
-    source: "https://www.tindie.com/products/davedarko/spacehuhn-blinky-led-badge-kit/"
-    credit: "davedarko (Tindie)"
-    caption: "Assembled Spacehuhn blinky badge, hand-painted marker-colored PCB with RGB LED eyes"
-  - file: assets/images/badges/other/retro-spacehuhn-badge-pin/9ba0a68f19.jpg
-    source: "https://www.tindie.com/products/davedarko/spacehuhn-blinky-led-badge-kit/"
-    credit: "davedarko (Tindie)"
-    caption: "Spacehuhn badge, second listing photo showing the kit"
+- file: assets/images/badges/other/retro-spacehuhn-badge-pin/0bde639695.jpg
+  source: https://www.tindie.com/products/davedarko/spacehuhn-blinky-led-badge-kit/
+  credit: davedarko (Tindie)
+  caption: Assembled Spacehuhn blinky badge, hand-painted marker-colored PCB with RGB LED eyes
+  archived: https://web.archive.org/web/20260513145034/https://www.tindie.com/products/davedarko/spacehuhn-blinky-led-badge-kit/
+- file: assets/images/badges/other/retro-spacehuhn-badge-pin/9ba0a68f19.jpg
+  source: https://www.tindie.com/products/davedarko/spacehuhn-blinky-led-badge-kit/
+  credit: davedarko (Tindie)
+  caption: Spacehuhn badge, second listing photo showing the kit
+  archived: https://web.archive.org/web/20260513145034/https://www.tindie.com/products/davedarko/spacehuhn-blinky-led-badge-kit/
 contact: {}
 notes: []
 status: released
@@ -89,6 +94,7 @@ sources:
   title: Spacehuhn badge | Hackaday.io
   accessed: '2026-09-07'
   note: Origin story (34C3 conversation with Stefan Kremser, Jan 2018), 2/3/5mm LED and hand-painting experiments, ongoing-project status.
+  archived: https://web.archive.org/web/20260515101515/https://hackaday.io/project/33886-spacehuhn-badge
 - kind: url
   url: https://github.com/davedarko/Simple-Add-ons-SAO/tree/main/SpaceHuhn%20Badge
   title: SpaceHuhn Badge folder in Simple-Add-ons-SAO repo
@@ -99,6 +105,7 @@ sources:
   title: '@Spacehuhn blinky LED badge kit from davedarko on Tindie'
   accessed: '2026-09-07'
   note: 'Listing details: 2 fading RGB LEDs, ~5x5cm PCB, SMD switch, solderable pin, battery holder, 2x CR2032 not included; hand-painted white silkscreen with markers; listing now retired/sold out. Source of both saved images.'
+  archived: https://web.archive.org/web/20260513145034/https://www.tindie.com/products/davedarko/spacehuhn-blinky-led-badge-kit/
 research:
   status: researched
   confidence: medium
