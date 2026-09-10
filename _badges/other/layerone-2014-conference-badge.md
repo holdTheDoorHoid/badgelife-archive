@@ -13,8 +13,8 @@ makers:
   url: https://hackaday.io/charliex
 - name: arko
   url: https://hackaday.io/arko
-summary: 'The LayerOne 2014 conference badge doubled as a Proxmark3-class RFID tool, able to clone, replay, capture and analyze both 125kHz and 13.56MHz tags.'
-functions: 'RFID reading/writing/cloning/replay/capture/analysis for 125kHz and 13.56MHz tags, with an onboard OLED display and SD card for standalone use; also served as the physical admission badge for the conference.'
+summary: The LayerOne 2014 conference badge doubled as a Proxmark3-class RFID tool, able to clone, replay, capture and analyze both 125kHz and 13.56MHz tags.
+functions: RFID reading/writing/cloning/replay/capture/analysis for 125kHz and 13.56MHz tags, with an onboard OLED display and SD card for standalone use; also served as the physical admission badge for the conference.
 look:
   colors: []
   shape: null
@@ -37,7 +37,7 @@ get_one:
   quantity: ''
   availability: unknown
   distribution: []
-  where: 'Given to LayerOne 2014 attendees as the conference admission badge; not sold commercially.'
+  where: Given to LayerOne 2014 attendees as the conference admission badge; not sold commercially.
 make_your_own:
   open_source: partial
   hardware_url: null
@@ -47,15 +47,18 @@ links:
 - label: hackaday.io/project/27-layerone-2014-conference-badge
   url: https://hackaday.io/project/27-layerone-2014-conference-badge
   kind: hackaday
+  archived: https://web.archive.org/web/20260626023856/https://hackaday.io/project/27-layerone-2014-conference-badge
 images:
-  - file: assets/images/badges/other/layerone-2014-conference-badge/57c97fcb5b.jpg
-    source: "https://hackaday.io/project/27-layerone-2014-conference-badge"
-    credit: "charliex / arko"
-    caption: "LayerOne 2014 conference badge"
-  - file: assets/images/badges/other/layerone-2014-conference-badge/4a3be4341d.jpg
-    source: "https://hackaday.io/project/27-layerone-2014-conference-badge"
-    credit: "charliex / arko"
-    caption: "LayerOne 2014 badge assembly/prototype photo"
+- file: assets/images/badges/other/layerone-2014-conference-badge/57c97fcb5b.jpg
+  source: https://hackaday.io/project/27-layerone-2014-conference-badge
+  credit: charliex / arko
+  caption: LayerOne 2014 conference badge
+  archived: https://web.archive.org/web/20260626023856/https://hackaday.io/project/27-layerone-2014-conference-badge
+- file: assets/images/badges/other/layerone-2014-conference-badge/4a3be4341d.jpg
+  source: https://hackaday.io/project/27-layerone-2014-conference-badge
+  credit: charliex / arko
+  caption: LayerOne 2014 badge assembly/prototype photo
+  archived: https://web.archive.org/web/20260626023856/https://hackaday.io/project/27-layerone-2014-conference-badge
 contact: {}
 notes: []
 status: released
@@ -65,16 +68,18 @@ sources:
   title: LayerOne 2014 Conference Badge
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: hackaday-list); event read as ''LayerOne 2014''.'
+  archived: https://web.archive.org/web/20260626023856/https://hackaday.io/project/27-layerone-2014-conference-badge
 - kind: url
   url: https://hackaday.io/project/27-layerone-2014-conference-badge
   title: LayerOne 2014 Conference Badge (Hackaday.io project page)
   accessed: '2026-09-07'
-  note: 'Confirmed makers (charliex and arko), STM32F103RET6-based RFID reader/cloner design with 128x64 OLED and SD card, Eagle CAD schematics in the linked SVN repo, and gallery photos of the built badge.'
+  note: Confirmed makers (charliex and arko), STM32F103RET6-based RFID reader/cloner design with 128x64 OLED and SD card, Eagle CAD schematics in the linked SVN repo, and gallery photos of the built badge.
+  archived: https://web.archive.org/web/20260626023856/https://hackaday.io/project/27-layerone-2014-conference-badge
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'LayerOne is not in _data/events.yml, so event is left as "other"; this badge was made for LayerOne 2014 (a Los Angeles-area hacker conference). Sources vary slightly on the exact FPGA (Spartan 3 vs Spartan II) and CPU (STM32 vs AT91SAM7) used across design revisions; the project page''s own build notes cite an STM32F103RET6 with a Spartan-family FPGA, which is what is recorded here. Price, quantity made, LED count, and a working link to the design-file repository could not be confirmed and are left empty. The project appears related to charliex''s Proxmark3 work and to a separate 2013 LayerOne badge project; those are different entries if present.'
+  notes: LayerOne is not in _data/events.yml, so event is left as "other"; this badge was made for LayerOne 2014 (a Los Angeles-area hacker conference). Sources vary slightly on the exact FPGA (Spartan 3 vs Spartan II) and CPU (STM32 vs AT91SAM7) used across design revisions; the project page's own build notes cite an STM32F103RET6 with a Spartan-family FPGA, which is what is recorded here. Price, quantity made, LED count, and a working link to the design-file repository could not be confirmed and are left empty. The project appears related to charliex's Proxmark3 work and to a separate 2013 LayerOne badge project; those are different entries if present.
 last_modified_date: '2026-09-07'
 ---
 

@@ -46,9 +46,9 @@ links:
   kind: store
 images:
 - file: assets/images/badges/other/klippe/0063ff9b03.jpg
-  source: "https://uberflux.com/product/GG-KLIPPE-V001"
-  credit: "GhostGlitch"
-  caption: "Klippe lanyard SAO clip"
+  source: https://uberflux.com/product/GG-KLIPPE-V001
+  credit: GhostGlitch
+  caption: Klippe lanyard SAO clip
 contact: {}
 notes:
 - 'Uberflux. $5, status: sold out.'
@@ -63,12 +63,13 @@ sources:
   url: https://uberflux.com/product/GG-KLIPPE-V001
   title: Klippe - GG-KLIPPE-V001
   accessed: '2026-09-07'
-  note: 'Product page confirms it is a lanyard accessory with a coin-cell holder and an SAOv2 port, priced $5 ($20 for 5+), currently out of stock; also source of the product photo.'
+  note: Product page confirms it is a lanyard accessory with a coin-cell holder and an SAOv2 port, priced $5 ($20 for 5+), currently out of stock; also source of the product photo.
 - kind: url
   url: https://ghostglitch.net
   title: GhostGlitch
   accessed: '2026-09-07'
-  note: 'Maker site checked; its SAO listing page does not mention Klippe by name, and no specific con/year tie-in was found for this accessory.'
+  note: Maker site checked; its SAO listing page does not mention Klippe by name, and no specific con/year tie-in was found for this accessory.
+  archived: https://web.archive.org/web/20251014071724/https://ghostglitch.net/
 research:
   status: verified
   confidence: medium

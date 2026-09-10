@@ -12,7 +12,7 @@ makers:
 - name: davedarko
   url: https://github.com/davedarko
 summary: A K.I.T.T. Knight Rider car badge/brooch with a charlieplexed 8-LED scanner animation driven by an ATtiny13, originally on purple PCB with purple LEDs, later also offered in black with red LEDs.
-functions: 'A push-button cycles through 8 LED animation modes, including a K.I.T.T.-style scanning effect, fast/slow chasers, a cross-fade, a police flasher, and a binary counter.'
+functions: A push-button cycles through 8 LED animation modes, including a K.I.T.T.-style scanning effect, fast/slow chasers, a cross-fade, a police flasher, and a binary counter.
 look:
   colors:
   - purple
@@ -44,7 +44,7 @@ get_one:
   - kit
   where: Sold assembled or as a kit via the maker's Tindie store (davedarko); design files also shared on Hackaday.io and GitHub.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/davedarko/Simple-Add-ons-SAO/tree/main/Knight%20Rider%20Badge
   firmware_url: https://github.com/davedarko/Simple-Add-ons-SAO/tree/main/Knight%20Rider%20Badge
   eda_tool: KiCad
@@ -56,21 +56,25 @@ links:
 - label: hackaday.io/project/25944-kitt-knight-rider-badgebrooch
   url: https://hackaday.io/project/25944-kitt-knight-rider-badgebrooch
   kind: hackaday
+  archived: https://web.archive.org/web/20260515101535/https://hackaday.io/project/25944-kitt-knight-rider-badgebrooch
 - label: github.com/davedarko/Simple-Add-ons-SAO/tree/main/Knight%20Rider%20Badge
   url: https://github.com/davedarko/Simple-Add-ons-SAO/tree/main/Knight%20Rider%20Badge
   kind: repo
 - label: tindie.com/products/davedarko/kitt-knight-rider-blinky-led-badge
   url: https://www.tindie.com/products/davedarko/kitt-knight-rider-blinky-led-badge/
   kind: store
+  archived: https://web.archive.org/web/20260513145035/https://www.tindie.com/products/davedarko/kitt-knight-rider-blinky-led-badge/
 images:
-  - file: assets/images/badges/other/knight-rider-kitt-badge/82ea249c6c.jpg
-    source: "https://hackaday.io/project/25944-kitt-knight-rider-badgebrooch"
-    credit: "davedarko"
-    caption: "The K.I.T.T. Knight Rider badge/brooch on purple PCB with purple LEDs"
-  - file: assets/images/badges/other/knight-rider-kitt-badge/5e8ef2ff48.gif
-    source: "https://hackaday.io/project/25944-kitt-knight-rider-badgebrooch"
-    credit: "davedarko"
-    caption: "K.I.T.T. badge LED scanner animation demo"
+- file: assets/images/badges/other/knight-rider-kitt-badge/82ea249c6c.jpg
+  source: https://hackaday.io/project/25944-kitt-knight-rider-badgebrooch
+  credit: davedarko
+  caption: The K.I.T.T. Knight Rider badge/brooch on purple PCB with purple LEDs
+  archived: https://web.archive.org/web/20260515101535/https://hackaday.io/project/25944-kitt-knight-rider-badgebrooch
+- file: assets/images/badges/other/knight-rider-kitt-badge/5e8ef2ff48.gif
+  source: https://hackaday.io/project/25944-kitt-knight-rider-badgebrooch
+  credit: davedarko
+  caption: K.I.T.T. badge LED scanner animation demo
+  archived: https://web.archive.org/web/20260515101535/https://hackaday.io/project/25944-kitt-knight-rider-badgebrooch
 contact: {}
 notes: []
 status: released
@@ -85,6 +89,7 @@ sources:
   title: K.I.T.T. - KNIGHT RIDER badge/brooch | Hackaday.io
   accessed: '2026-09-07'
   note: 'Project page: ATtiny13/45/85 options, 8 charlieplexed LEDs, CR2032 power, purple PCB/purple LED original with later black-PCB/red-LED variant, started July 2017; source of both saved images.'
+  archived: https://web.archive.org/web/20260515101535/https://hackaday.io/project/25944-kitt-knight-rider-badgebrooch
 - kind: url
   url: https://github.com/davedarko/Simple-Add-ons-SAO/tree/main/Knight%20Rider%20Badge
   title: Knight Rider Badge directory (Simple-Add-ons-SAO)
@@ -94,7 +99,8 @@ sources:
   url: https://www.tindie.com/products/davedarko/kitt-knight-rider-blinky-led-badge/
   title: K.I.T.T. Knight Rider Blinky LED Badge from davedarko on Tindie
   accessed: '2026-09-07'
-  note: 'Confirmed sold-out status ("no longer available for sale"), ATtiny13 + 8 LEDs + CR2032 description, badge/brooch form factor (~5x3cm), and that the design was popularized at MakerFaire Zurich (not a hacker-con badge, so event left as other).'
+  note: Confirmed sold-out status ("no longer available for sale"), ATtiny13 + 8 LEDs + CR2032 description, badge/brooch form factor (~5x3cm), and that the design was popularized at MakerFaire Zurich (not a hacker-con badge, so event left as other).
+  archived: https://web.archive.org/web/20260513145035/https://www.tindie.com/products/davedarko/kitt-knight-rider-blinky-led-badge/
 research:
   status: researched
   confidence: medium

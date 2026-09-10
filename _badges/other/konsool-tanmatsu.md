@@ -14,7 +14,7 @@ makers:
 - name: Nicolai Electronics
   url: https://nicolaielectronics.nl/
   role: sells the pre-assembled "Tanmatsu" version, handles manufacturing and regulatory compliance
-summary: 'A hackable handheld palmtop computer with a QWERTY keyboard and 800x480 display, built around an ESP32-P4 application processor. "Konsool" is the open-source design name; "Tanmatsu" is the pre-assembled product Nicolai Electronics sells.'
+summary: A hackable handheld palmtop computer with a QWERTY keyboard and 800x480 display, built around an ESP32-P4 application processor. "Konsool" is the open-source design name; "Tanmatsu" is the pre-assembled product Nicolai Electronics sells.
 functions: 'General-purpose hacker terminal: runs a launcher firmware that loads multiple apps (terminal emulator, mesh messaging, camera app, games), plus LoRa/Meshtastic-style mesh communication.'
 look:
   colors: []
@@ -24,7 +24,10 @@ look:
   - hardware tool
 tech:
   mcu: ESP32-P4 (dual-core RISC-V, up to 400MHz) + ESP32-C6 (wifi/BLE/802.15.4 co-processor) + CH32 (keyboard/housekeeping)
-  leds: {count: null, type: null, note: 'Addressable LEDs on the front of the board next to the screen (count not stated).'}
+  leds:
+    count: null
+    type: null
+    note: Addressable LEDs on the front of the board next to the screen (count not stated).
   display: 3.97" 800x480 MIPI DSI, 60Hz
   connectivity:
   - wifi
@@ -36,59 +39,70 @@ tech:
   battery: null
   sao_version: v2
 get_one:
-  price: "EUR 99.17 (excl. EU VAT) / EUR 120 (incl. VAT)"
+  price: EUR 99.17 (excl. EU VAT) / EUR 120 (incl. VAT)
   price_usd: 102.0
   quantity: ''
   availability: available
-  availability_note: 'Still listed for sale as of a July 2026 Hackaday review; a year into production.'
+  availability_note: Still listed for sale as of a July 2026 Hackaday review; a year into production.
   distribution:
   - preorder
   - purchase
   where: Preordered/purchased pre-assembled from Nicolai Electronics' webshop; the underlying "Konsool" design is open hardware anyone can build.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/Nicolai-Electronics/tanmatsu-hardware
   firmware_url: https://github.com/badgeteam
   eda_tool: null
   license: CERN-OHL-P
-  notes: 'Mechanical, electronics, and firmware repos are public under Badge.Team / Nicolai-Electronics GitHub orgs.'
+  notes: Mechanical, electronics, and firmware repos are public under Badge.Team / Nicolai-Electronics GitHub orgs.
 links:
 - label: badge.team/docs/badges/konsool
   url: https://badge.team/docs/badges/konsool/
   kind: website
+  archived: https://web.archive.org/web/20260701215951/https://badge.team/docs/badges/konsool/
 - label: badge.team/docs/badges/konsool/konsool-logo.svg
   url: https://badge.team/docs/badges/konsool/konsool-logo.svg
   kind: website
+  archived: https://web.archive.org/web/20260701220056/https://badge.team/docs/badges/konsool/konsool-logo.svg
 - label: badge.team/docs/badges/konsool/konsool_mascots.svg
   url: https://badge.team/docs/badges/konsool/konsool_mascots.svg
   kind: website
+  archived: https://web.archive.org/web/20260701220056/https://badge.team/docs/badges/konsool/konsool_mascots.svg
 - label: 'Hackaday: A Closer Look At The Tanmatsu'
   url: https://hackaday.com/2025/02/04/a-closer-look-at-the-tanmatsu/
   kind: article
+  archived: https://web.archive.org/web/20260702100247/https://hackaday.com/2025/02/04/a-closer-look-at-the-tanmatsu/
 - label: 'Hackaday: Review, The Tanmatsu, A Year On'
   url: https://hackaday.com/2026/07/01/review-the-tanmatsu-a-year-on/
   kind: article
+  archived: https://web.archive.org/web/20260806015238/https://hackaday.com/2026/07/01/review-the-tanmatsu-a-year-on/
 - label: 'Nicolai Electronics: Tanmatsu can now be pre-ordered'
   url: https://nicolaielectronics.nl/blog/2025/01/06/tanmatsu-can-now-be-pre-ordered/
   kind: website
+  archived: https://web.archive.org/web/20260418065823/https://nicolaielectronics.nl/blog/2025/01/06/tanmatsu-can-now-be-pre-ordered/
 - label: 'CNX Software: Tanmatsu handheld terminal'
   url: https://www.cnx-software.com/2025/01/10/tanmatsu-handheld-terminal-features-esp32-p4-risc-v-mcu-qwerty-keyboard-wifi-bluetooth-802-15-4-and-lora-connectivity/
   kind: article
+  archived: https://web.archive.org/web/20260607224727/https://www.cnx-software.com/2025/01/10/tanmatsu-handheld-terminal-features-esp32-p4-risc-v-mcu-qwerty-keyboard-wifi-bluetooth-802-15-4-and-lora-connectivity/
 - label: 'GitHub: tanmatsu-hardware'
   url: https://github.com/Nicolai-Electronics/tanmatsu-hardware
   kind: repo
+  archived: https://web.archive.org/web/20260301070911/https://github.com/Nicolai-Electronics/tanmatsu-hardware
 - label: 'GitHub: badgeteam org'
   url: https://github.com/badgeteam
   kind: repo
+  archived: https://web.archive.org/web/20260513082619/https://github.com/badgeteam
 images:
 - file: assets/images/badges/other/konsool-tanmatsu/9d3aade5e1.jpg
-  source: "https://hackaday.com/2025/02/04/a-closer-look-at-the-tanmatsu/"
-  credit: "Hackaday / Tanmatsu press photo"
-  caption: "Tanmatsu handheld held in a hand, showing the QWERTY keyboard and screen"
+  source: https://hackaday.com/2025/02/04/a-closer-look-at-the-tanmatsu/
+  credit: Hackaday / Tanmatsu press photo
+  caption: Tanmatsu handheld held in a hand, showing the QWERTY keyboard and screen
+  archived: https://web.archive.org/web/20260702100247/https://hackaday.com/2025/02/04/a-closer-look-at-the-tanmatsu/
 - file: assets/images/badges/other/konsool-tanmatsu/aca5c70b74.jpg
-  source: "https://hackaday.com/2025/02/04/a-closer-look-at-the-tanmatsu/"
-  credit: "Hackaday / Tanmatsu press photo"
-  caption: "Tanmatsu PCB top half showing components"
+  source: https://hackaday.com/2025/02/04/a-closer-look-at-the-tanmatsu/
+  credit: Hackaday / Tanmatsu press photo
+  caption: Tanmatsu PCB top half showing components
+  archived: https://web.archive.org/web/20260702100247/https://hackaday.com/2025/02/04/a-closer-look-at-the-tanmatsu/
 contact: {}
 notes:
 - Handheld with QWERTY keyboard, dual-core ESP32-P4 + ESP32-C6 wireless, LoRa mesh, 16MB flash, CATT/QWIIC expansion, CERN-OHL-P licensed; sold pre-assembled as 'Tanmatsu'.
@@ -100,26 +114,31 @@ sources:
   title: Konsool / Tanmatsu
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: eu-camps: European hacker camps/cons via badge.team (SHA2017, Hackerhotel, Disobey, CampZone, Fri3d Camp, MCH2022, WHY2025), EMF Camp TiLDA lineage, CCC card10, and BornHack); event read as ''Badge.team general-purpose handheld (not tied to one event)''.'
+  archived: https://web.archive.org/web/20260701215951/https://badge.team/docs/badges/konsool/
 - kind: url
   url: https://hackaday.com/2025/02/04/a-closer-look-at-the-tanmatsu/
   title: A Closer Look At The Tanmatsu
   accessed: '2026-09-07'
-  note: 'Chip breakdown (ESP32-P4, ESP32-C6, LoRa module, CH32), display size/resolution, LED placement, WHY2025 origin story, image URLs.'
+  note: Chip breakdown (ESP32-P4, ESP32-C6, LoRa module, CH32), display size/resolution, LED placement, WHY2025 origin story, image URLs.
+  archived: https://web.archive.org/web/20260702100247/https://hackaday.com/2025/02/04/a-closer-look-at-the-tanmatsu/
 - kind: url
   url: https://hackaday.com/2026/07/01/review-the-tanmatsu-a-year-on/
   title: 'Review: The Tanmatsu, A Year On'
   accessed: '2026-09-07'
-  note: 'Confirms it is still commercially available a year later at EUR 99, confirms open-source status and repos, and confirms Tanmatsu is not the same as the WHY2025 badge.'
+  note: Confirms it is still commercially available a year later at EUR 99, confirms open-source status and repos, and confirms Tanmatsu is not the same as the WHY2025 badge.
+  archived: https://web.archive.org/web/20260806015238/https://hackaday.com/2026/07/01/review-the-tanmatsu-a-year-on/
 - kind: url
   url: https://nicolaielectronics.nl/blog/2025/01/06/tanmatsu-can-now-be-pre-ordered/
   title: Tanmatsu can now be pre-ordered
   accessed: '2026-09-07'
-  note: 'Pricing (EUR 99.17 / EUR 120 incl. VAT), preorder mechanics, launcher/AppFS firmware background.'
+  note: Pricing (EUR 99.17 / EUR 120 incl. VAT), preorder mechanics, launcher/AppFS firmware background.
+  archived: https://web.archive.org/web/20260418065823/https://nicolaielectronics.nl/blog/2025/01/06/tanmatsu-can-now-be-pre-ordered/
 - kind: url
   url: https://www.cnx-software.com/2025/01/10/tanmatsu-handheld-terminal-features-esp32-p4-risc-v-mcu-qwerty-keyboard-wifi-bluetooth-802-15-4-and-lora-connectivity/
   title: Tanmatsu handheld terminal
   accessed: '2026-09-07'
-  note: 'Confirms connectivity list (wifi, BLE, 802.15.4/zigbee, LoRa), USB OTG, microSD, CATT/QWIIC expansion ports.'
+  note: Confirms connectivity list (wifi, BLE, 802.15.4/zigbee, LoRa), USB OTG, microSD, CATT/QWIIC expansion ports.
+  archived: https://web.archive.org/web/20260607224727/https://www.cnx-software.com/2025/01/10/tanmatsu-handheld-terminal-features-esp32-p4-risc-v-mcu-qwerty-keyboard-wifi-bluetooth-802-15-4-and-lora-connectivity/
 research:
   status: researched
   confidence: medium

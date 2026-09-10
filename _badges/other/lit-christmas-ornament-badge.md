@@ -12,7 +12,7 @@ makers:
 - name: Jeff Wurz (thelogicofpi)
   url: https://hackaday.io/thelogicofpi
 summary: A PCB Christmas ornament shaped like a house strung with lights, using an I2C I/O expander to drive 16 individually-controllable LEDs through several animation modes.
-functions: 'A single power button cycles through display modes (all-on, flashing, alternating, binary counter, "knight rider" scanner, random), then locks in the chosen pattern to loop on repeat.'
+functions: A single power button cycles through display modes (all-on, flashing, alternating, binary counter, "knight rider" scanner, random), then locks in the chosen pattern to loop on repeat.
 look:
   colors: []
   shape: house
@@ -45,17 +45,21 @@ links:
 - label: hackaday.io/project/162585-lit-christmas-ornamentbadge
   url: https://hackaday.io/project/162585-lit-christmas-ornamentbadge
   kind: hackaday
+  archived: https://web.archive.org/web/20260508022456/https://hackaday.io/project/162585-lit-christmas-ornamentbadge
 - label: github.com/jeffwurz/lit_christmas_ornament
   url: https://github.com/jeffwurz/lit_christmas_ornament
   kind: repo
+  archived: https://web.archive.org/web/20260508022453/https://github.com/jeffwurz/lit_christmas_ornament
 - label: hackster.io/jeffwurz/lit-house-christmas-ornament
   url: https://www.hackster.io/jeffwurz/lit-house-christmas-ornament-18bd0c
   kind: article
+  archived: https://web.archive.org/web/20260416214330/https://www.hackster.io/jeffwurz/lit-house-christmas-ornament-18bd0c
 images:
 - file: assets/images/badges/other/lit-christmas-ornament-badge/7d2eb24808.jpg
-  source: "https://hackaday.io/project/162585-lit-christmas-ornamentbadge"
-  credit: "thelogicofpi (Jeff Wurz)"
-  caption: "The Lit Christmas Ornament/Badge PCB, styled as a house decorated with Christmas lights"
+  source: https://hackaday.io/project/162585-lit-christmas-ornamentbadge
+  credit: thelogicofpi (Jeff Wurz)
+  caption: The Lit Christmas Ornament/Badge PCB, styled as a house decorated with Christmas lights
+  archived: https://web.archive.org/web/20260508022456/https://hackaday.io/project/162585-lit-christmas-ornamentbadge
 contact: {}
 notes: []
 status: released
@@ -65,21 +69,25 @@ sources:
   title: Lit Christmas Ornament/Badge
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: hackaday-list); event read as ''unknown''.'
+  archived: https://web.archive.org/web/20260508022456/https://hackaday.io/project/162585-lit-christmas-ornamentbadge
 - kind: url
   url: https://hackaday.io/project/162585-lit-christmas-ornamentbadge
   title: Lit Christmas Ornament/Badge
   accessed: '2026-09-07'
   note: Primary source for maker, chip (ATtiny85 + MCP23017), LED count, battery, and display modes; project logged December 2018.
+  archived: https://web.archive.org/web/20260508022456/https://hackaday.io/project/162585-lit-christmas-ornamentbadge
 - kind: url
   url: https://github.com/jeffwurz/lit_christmas_ornament
   title: jeffwurz/lit_christmas_ornament
   accessed: '2026-09-07'
   note: Firmware repo (Arduino sketch); confirms mode-cycling behavior via a single power button. No hardware design files (Gerbers/schematic) found in the repo.
+  archived: https://web.archive.org/web/20260508022453/https://github.com/jeffwurz/lit_christmas_ornament
 - kind: url
   url: https://www.hackster.io/jeffwurz/lit-house-christmas-ornament-18bd0c
   title: Lit House Christmas Ornament - Hackster.io
   accessed: '2026-09-07'
-  note: 'Mirror listing found via web search; page returned HTTP 403 to automated fetch so could not be read directly.'
+  note: Mirror listing found via web search; page returned HTTP 403 to automated fetch so could not be read directly.
+  archived: https://web.archive.org/web/20260416214330/https://www.hackster.io/jeffwurz/lit-house-christmas-ornament-18bd0c
 research:
   status: researched
   confidence: medium

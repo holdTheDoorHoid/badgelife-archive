@@ -50,15 +50,16 @@ links:
 - label: Tina Belmont (SoftEgg) Hackaday.io profile
   url: https://hackaday.io/SoftEgg
   kind: social
+  archived: https://web.archive.org/web/20260521104041/https://hackaday.io/SoftEgg
 images:
 - file: assets/images/badges/other/magwest-8-bit-blinky-heart-couples-pendant/26e8662e51.jpg
-  source: "https://hackaday.io/project/160602-magwest-8-bit-blinky-heart-couples-pendant"
-  credit: "Tina Belmont (SoftEgg)"
-  caption: "The two halves of the 8-bit blinky heart couples pendant"
+  source: https://hackaday.io/project/160602-magwest-8-bit-blinky-heart-couples-pendant
+  credit: Tina Belmont (SoftEgg)
+  caption: The two halves of the 8-bit blinky heart couples pendant
 - file: assets/images/badges/other/magwest-8-bit-blinky-heart-couples-pendant/7ebae4e3f8.jpg
-  source: "https://hackaday.io/project/160602-magwest-8-bit-blinky-heart-couples-pendant"
-  credit: "Tina Belmont (SoftEgg)"
-  caption: "Pendant halves connected, showing the changed LED animation"
+  source: https://hackaday.io/project/160602-magwest-8-bit-blinky-heart-couples-pendant
+  credit: Tina Belmont (SoftEgg)
+  caption: Pendant halves connected, showing the changed LED animation
 contact: {}
 notes: []
 status: released
@@ -70,14 +71,15 @@ sources:
   note: 'Found by the archive''s discovery sweep (angle: hackaday-list); event read as ''MAGWest''.'
 - kind: url
   url: https://hackaday.io/project/160602-magwest-8-bit-blinky-heart-couples-pendant
-  title: "MAGwest 8-bit Blinky Heart Couples Pendant | Hackaday.io"
+  title: MAGwest 8-bit Blinky Heart Couples Pendant | Hackaday.io
   accessed: '2026-09-07'
-  note: "Primary source: maker (Tina Belmont / SoftEgg), event/year, ATtiny85 + WS2812 + CR2032, construction (laser-cut acrylic, 3D-printed buttons), and origin story (originally planned as a licensed NES-controller-styled design that fell through)."
+  note: 'Primary source: maker (Tina Belmont / SoftEgg), event/year, ATtiny85 + WS2812 + CR2032, construction (laser-cut acrylic, 3D-printed buttons), and origin story (originally planned as a licensed NES-controller-styled design that fell through).'
 - kind: url
   url: https://hackaday.io/SoftEgg
   title: Tina Belmont's Profile | Hackaday.io
   accessed: '2026-09-07'
   note: Confirms maker identity/handle.
+  archived: https://web.archive.org/web/20260521104041/https://hackaday.io/SoftEgg
 research:
   status: verified
   confidence: medium

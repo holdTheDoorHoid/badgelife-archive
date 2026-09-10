@@ -14,9 +14,12 @@ makers:
 summary: A heart-shaped wearable LED badge/necklace with an 8x16 matrix of 0603 LEDs that scrolls custom text sent over Bluetooth from an Android phone.
 functions: Displays scrolling text messages sent wirelessly from an Android app over BLE; firmware updates later added simple games (Tetris and Snake) playable on the LED matrix.
 look:
-  colors: [red]
+  colors:
+  - red
   shape: heart
-  themes: [wearable, jewelry]
+  themes:
+  - wearable
+  - jewelry
 tech:
   mcu: ATmega328p
   leds:
@@ -24,18 +27,20 @@ tech:
     type: discrete
     note: 0603 SMD LEDs in an 8x16 matrix, driven by two daisy-chained 74HC595 shift registers and a ULN2803 sink driver
   display: LED matrix 8x16
-  connectivity: [ble]
+  connectivity:
+  - ble
   battery: LiPo 320 mAh
   sao_version: none
 get_one:
-  price: "~$30 (planned)"
+  price: ~$30 (planned)
   price_usd: 30
   quantity: ''
   availability: unknown
-  distribution: [purchase]
+  distribution:
+  - purchase
   where: Creator planned to sell assembled kits on Tindie; hand-soldered first batch mentioned on the project page. No live Tindie listing found at time of research.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/niteshkadyan/Hearty-LED-Necklace-Badge
   firmware_url: https://github.com/niteshkadyan/Hearty-LED-Necklace-Badge
   eda_tool: KiCad
@@ -45,18 +50,22 @@ links:
 - label: hackaday.io/project/114144-led-ble-hearty-necklacebadge
   url: https://hackaday.io/project/114144-led-ble-hearty-necklacebadge
   kind: hackaday
+  archived: https://web.archive.org/web/20251211204905/https://hackaday.io/project/114144-led-ble-hearty-necklacebadge
 - label: github.com/niteshkadyan/Hearty-LED-Necklace-Badge
   url: https://github.com/niteshkadyan/Hearty-LED-Necklace-Badge
   kind: repo
+  archived: https://web.archive.org/web/20260311144109/https://github.com/niteshkadyan/Hearty-LED-Necklace-Badge
 images:
-  - file: assets/images/badges/other/led-ble-hearty-necklace-badge/c660107425.jpg
-    source: "https://hackaday.io/project/114144-led-ble-hearty-necklacebadge"
-    credit: "Nitesh Kadyan"
-    caption: "The Hearty LED necklace/badge, worn"
-  - file: assets/images/badges/other/led-ble-hearty-necklace-badge/310fc13570.jpg
-    source: "https://hackaday.io/project/114144-led-ble-hearty-necklacebadge"
-    credit: "Nitesh Kadyan"
-    caption: "Assembled Hearty LED board, heart-shaped LED matrix"
+- file: assets/images/badges/other/led-ble-hearty-necklace-badge/c660107425.jpg
+  source: https://hackaday.io/project/114144-led-ble-hearty-necklacebadge
+  credit: Nitesh Kadyan
+  caption: The Hearty LED necklace/badge, worn
+  archived: https://web.archive.org/web/20251211204905/https://hackaday.io/project/114144-led-ble-hearty-necklacebadge
+- file: assets/images/badges/other/led-ble-hearty-necklace-badge/310fc13570.jpg
+  source: https://hackaday.io/project/114144-led-ble-hearty-necklacebadge
+  credit: Nitesh Kadyan
+  caption: Assembled Hearty LED board, heart-shaped LED matrix
+  archived: https://web.archive.org/web/20251211204905/https://hackaday.io/project/114144-led-ble-hearty-necklacebadge
 contact: {}
 notes: []
 status: released
@@ -66,16 +75,19 @@ sources:
   title: LED BLE Hearty Necklace/Badge
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: hackaday-list); event read as ''unknown''.'
+  archived: https://web.archive.org/web/20251211204905/https://hackaday.io/project/114144-led-ble-hearty-necklacebadge
 - kind: url
   url: https://hackaday.io/project/114144-led-ble-hearty-necklacebadge
   title: LED BLE Hearty Necklace/Badge
   accessed: '2026-09-07'
   note: Maker, event/year, functions, MCU, LED count/type, battery, connectivity, price, and open-source claim.
+  archived: https://web.archive.org/web/20251211204905/https://hackaday.io/project/114144-led-ble-hearty-necklacebadge
 - kind: url
   url: https://github.com/niteshkadyan/Hearty-LED-Necklace-Badge
   title: niteshkadyan/Hearty-LED-Necklace-Badge
   accessed: '2026-09-07'
   note: Repo contents (KiCad + Arduino firmware + Android app), MIT license.
+  archived: https://web.archive.org/web/20260311144109/https://github.com/niteshkadyan/Hearty-LED-Necklace-Badge
 research:
   status: researched
   confidence: medium
