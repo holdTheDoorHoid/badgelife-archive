@@ -61,13 +61,13 @@ links:
   kind: repo
 images:
 - file: assets/images/badges/bsidesdfw-2018/dfw-hacker-badge-beer-bottle-badge/4f45c04c6d.jpg
-  source: "https://dfwhackerbadge.com/"
-  credit: "alt_bier / gowenrw"
-  caption: "DFW Hacker Badge banner image, beer-bottle-shaped PCB"
+  source: https://dfwhackerbadge.com/
+  credit: alt_bier / gowenrw
+  caption: DFW Hacker Badge banner image, beer-bottle-shaped PCB
 - file: assets/images/badges/bsidesdfw-2018/dfw-hacker-badge-beer-bottle-badge/46aa39b8d5.jpg
-  source: "https://dfwhackerbadge.com/"
-  credit: "alt_bier / gowenrw"
-  caption: "Contents of the DIY badge kit: PCB, Arduino Nano, LEDs, resistors, lanyard, battery holder"
+  source: https://dfwhackerbadge.com/
+  credit: alt_bier / gowenrw
+  caption: 'Contents of the DIY badge kit: PCB, Arduino Nano, LEDs, resistors, lanyard, battery holder'
 contact:
   handle: alt_bier
   url: https://twitter.com/alt_bier
@@ -102,6 +102,15 @@ research:
   last_checked: '2026-09-10'
   notes: Quantity made is not stated anywhere found. Could not extract further detail from the YouTube assembly video beyond its title. Availability marked sold_out as a one-time 2018 charity kit sale with no ongoing storefront found.
 last_modified_date: '2026-09-10'
+model:
+  file: assets/models/bsidesdfw-2018/dfw-hacker-badge-beer-bottle-badge.glb
+  method: gerber
+  source_file: gerber-export-06192018/DFW-InfoSec-Badge-2018-gerber-export-06192018.zip
+  generated: '2026-09-10'
+  bytes: 99648
+  size_mm:
+  - 69.4
+  - 234.2
 ---
 
 The DFW Hacker Badge is a DIY, beer-bottle-shaped circuit board designed by alt_bier (Robert Gowen) as a fundraiser and teaching tool for BSidesDFW, a 501(c)(3) nonprofit. Sold as an unassembled kit for $40 (or $20 for a bare PCB) during the 2018 "hacker summer camp" season, it was intended to teach basic soldering and Arduino development: buyers add their own Arduino Nano, five 5mm RGB LEDs, resistors, a lanyard, and a coin-cell battery holder to a single-layer green PCB shaped and silkscreened like a beer bottle (a nod to Rolling Rock). The stock firmware chases colors around the five LEDs arranged in a star on the badge face; an alternate, higher-power sketch lighting multiple LEDs at once is also included in the repo.

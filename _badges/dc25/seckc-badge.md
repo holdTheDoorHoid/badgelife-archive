@@ -107,6 +107,15 @@ research:
 last_modified_date: '2026-09-10'
 redirect_from:
 - /badges/dc25/seckc-badge-pcb-devboard/
+model:
+  file: assets/models/dc25/seckc-badge.glb
+  method: gerber
+  source_file: Files/SecKCDC25Badge_gerber-Prod.zip
+  generated: '2026-09-10'
+  bytes: 127892
+  size_mm:
+  - 140.0
+  - 95.0
 ---
 
 The SecKC DC25 badge was the Kansas City SecKC meetup's hardware badge for DEF CON 25 (2017), built by a subset of the group who would go on to call themselves Badge Pirates. It's a purple PCB laid out like a dev board: a SparkFun ESP32 Thing module does the work, driving a small SSD1306 OLED that shows an animated laurel-wreath-and-fedora logo and a menu navigated with four directional buttons (plus the ESP32's onboard button). The badge also spins up its own "SecKC_Badge" WiFi access point. The group preordered 50 boards from members and ended up building around 60, but demand still outran supply, so they filled the gap with a separate run of acrylic badges (its own archive entry).

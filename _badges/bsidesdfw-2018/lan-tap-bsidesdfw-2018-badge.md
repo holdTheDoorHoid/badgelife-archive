@@ -39,7 +39,7 @@ get_one:
   - free_drop
   where: Given out as the conference badge at BSidesDFW 2018; color indicated attendee/staff/speaker/sponsor status.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/gowenrw/BSidesDFW_2018_Badge
   firmware_url: null
   eda_tool: KiCad
@@ -55,13 +55,13 @@ links:
   kind: website
 images:
 - file: assets/images/badges/bsidesdfw-2018/lan-tap-bsidesdfw-2018-badge/532830a7f4.jpg
-  source: "https://github.com/gowenrw/BSidesDFW_2018_Badge"
-  credit: "gowenrw"
-  caption: "Assembled red LAN TAP badge with RJ45 connectors"
+  source: https://github.com/gowenrw/BSidesDFW_2018_Badge
+  credit: gowenrw
+  caption: Assembled red LAN TAP badge with RJ45 connectors
 - file: assets/images/badges/bsidesdfw-2018/lan-tap-bsidesdfw-2018-badge/8a4b234620.jpg
-  source: "https://github.com/gowenrw/BSidesDFW_2018_Badge"
-  credit: "gowenrw"
-  caption: "Photo of the finished BSidesDFW 2018 LAN TAP badge"
+  source: https://github.com/gowenrw/BSidesDFW_2018_Badge
+  credit: gowenrw
+  caption: Photo of the finished BSidesDFW 2018 LAN TAP badge
 contact: {}
 notes:
 - Official BSidesDFW 2018 conference badge, a Texas-star-shaped passive LAN tap (4x RJ45 connectors, 2x 220pF caps) adapted from Ossmann's Throwing Star design, in color variants for attendee/staff/speaker/sponsor. Found by the event-year sweep, task bsides-bsidesdfw.
@@ -76,13 +76,19 @@ sources:
   url: https://github.com/gowenrw/BSidesDFW_2018_Badge
   title: gowenrw/BSidesDFW_2018_Badge README and images
   accessed: '2026-09-10'
-  note: 'Confirmed maker, event/year, LAN tap function, BOM (4x RJ45, 2x 220pF caps), open KiCad source, and that colors (red/black/blue/green) distinguish attendee/staff/speaker/sponsor badges.'
+  note: Confirmed maker, event/year, LAN tap function, BOM (4x RJ45, 2x 220pF caps), open KiCad source, and that colors (red/black/blue/green) distinguish attendee/staff/speaker/sponsor badges.
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-10'
-  notes: 'Maker''s own GitHub repo confirms all core facts. The linked altbier.us PDF (a Hardware Hacking Village talk deck) could not be parsed as text via WebFetch, so it was not used as a source beyond what the repo already confirms. No price, quantity made, or PCB shape/outline description found in any source, so those fields are left empty. look.shape left null since no source describes the board outline (the entry notes call it "Texas-star-shaped" from the sweep, but this was not independently confirmed and so was not carried into look.shape).'
+  notes: Maker's own GitHub repo confirms all core facts. The linked altbier.us PDF (a Hardware Hacking Village talk deck) could not be parsed as text via WebFetch, so it was not used as a source beyond what the repo already confirms. No price, quantity made, or PCB shape/outline description found in any source, so those fields are left empty. look.shape left null since no source describes the board outline (the entry notes call it "Texas-star-shaped" from the sweep, but this was not independently confirmed and so was not carried into look.shape).
 last_modified_date: '2026-09-10'
+model:
+  file: assets/models/bsidesdfw-2018/lan-tap-bsidesdfw-2018-badge.glb
+  method: kicad
+  source_file: BSidesDFW_2018_Badge.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 254712
 ---
 
 The LAN TAP was the official conference badge for BSidesDFW 2018, designed by gowenrw (Twitter: @alt_bier). Rather than an electronic blinky badge, it is a fully passive hardware hacking tool: a direct adaptation of Michael Ossmann's open-source Throwing Star LAN TAP, built from four RJ45 jacks and two 220pF capacitors with no active components. Assembled, it works as a real Ethernet tap that can mirror traffic passing between two ports.

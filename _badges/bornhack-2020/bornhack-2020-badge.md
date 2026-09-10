@@ -52,9 +52,11 @@ links:
 - label: github.com/bornhack/badge2020
   url: https://github.com/bornhack/badge2020
   kind: repo
+  archived: https://web.archive.org/web/20251206081852/https://github.com/bornhack/badge2020
 - label: 'Hackaday: Hands-On: BornHack 2020 Badge Has 9x32 Of Bling Fed By CircuitPython'
   url: https://hackaday.com/2020/08/27/hands-on-bornhack-2020-badge-has-9x32-of-bling-fed-by-circuitpython/
   kind: article
+  archived: https://web.archive.org/web/20260530095902/https://hackaday.com/2020/08/27/hands-on-bornhack-2020-badge-has-9x32-of-bling-fed-by-circuitpython/
 - label: 'Adafruit blog: The Bornhack Badge 2020, programmable in CircuitPython'
   url: https://blog.adafruit.com/2020/09/02/the-bornhack-badge-2020-programmable-in-circuitpython-circuitpython-circuitpythonday-badgelife/
   kind: article
@@ -63,10 +65,12 @@ images:
   source: https://hackaday.com/2020/08/27/hands-on-bornhack-2020-badge-has-9x32-of-bling-fed-by-circuitpython/
   credit: Hackaday / Thomas Flummer
   caption: BornHack 2020 badge, 9x32 LED matrix arc-shaped PCB
+  archived: https://web.archive.org/web/20260530095902/https://hackaday.com/2020/08/27/hands-on-bornhack-2020-badge-has-9x32-of-bling-fed-by-circuitpython/
 - file: assets/images/badges/bornhack-2020/bornhack-2020-badge/c078cee471.jpg
   source: https://hackaday.com/2020/08/27/hands-on-bornhack-2020-badge-has-9x32-of-bling-fed-by-circuitpython/
   credit: Hackaday / Thomas Flummer
   caption: BornHack 2020 badge lit up, showing the LED matrix and SAO connector
+  archived: https://web.archive.org/web/20260530095902/https://hackaday.com/2020/08/27/hands-on-bornhack-2020-badge-has-9x32-of-bling-fed-by-circuitpython/
 contact: {}
 notes:
 - From the user's 'SAOs to buy' link list (2026-09-07).
@@ -77,11 +81,13 @@ sources:
   title: BornHack 2020 badge
   accessed: '2026-09-07'
   note: 'Found by the archive''s discovery sweep (angle: tobuy-linkfile); event read as ''bornhack-2020''.'
+  archived: https://web.archive.org/web/20251206081852/https://github.com/bornhack/badge2020
 - kind: url
   url: https://hackaday.com/2020/08/27/hands-on-bornhack-2020-badge-has-9x32-of-bling-fed-by-circuitpython/
   title: 'Hands-On: BornHack 2020 Badge Has 9x32 Of Bling Fed By CircuitPython'
   accessed: '2026-09-07'
   note: Confirmed designer (Thomas Flummer), exact shape (72-degree arc, 1/5 of a circle), LED matrix and MCU details, battery/USB power, source of photos.
+  archived: https://web.archive.org/web/20260530095902/https://hackaday.com/2020/08/27/hands-on-bornhack-2020-badge-has-9x32-of-bling-fed-by-circuitpython/
 - kind: url
   url: https://blog.adafruit.com/2020/09/02/the-bornhack-badge-2020-programmable-in-circuitpython-circuitpython-circuitpythonday-badgelife/
   title: The Bornhack Badge 2020, programmable in CircuitPython

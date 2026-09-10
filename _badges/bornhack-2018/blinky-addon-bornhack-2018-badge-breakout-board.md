@@ -46,6 +46,7 @@ links:
 - label: github.com/bornhack/badge2018/tree/breakoutboards
   url: https://github.com/bornhack/badge2018/tree/breakoutboards
   kind: repo
+  archived: https://web.archive.org/web/20251130090053/https://github.com/bornhack/badge2018/tree/breakoutboards
 - label: github.com/bornhack/badge2018/tree/breakoutboards/Blinky_addon
   url: https://github.com/bornhack/badge2018/tree/breakoutboards/Blinky_addon
   kind: repo
@@ -61,6 +62,7 @@ sources:
   title: Blinky_addon (BornHack 2018 badge breakout board)
   accessed: '2026-09-07'
   note: 'Found by the archive''s discovery sweep (angle: sweep:bornhack-2018); event read as ''bornhack-2018''.'
+  archived: https://web.archive.org/web/20251130090053/https://github.com/bornhack/badge2018/tree/breakoutboards
 - kind: url
   url: https://github.com/bornhack/badge2018/tree/breakoutboards/Blinky_addon
   title: Blinky_addon folder, breakoutboards branch, bornhack/badge2018

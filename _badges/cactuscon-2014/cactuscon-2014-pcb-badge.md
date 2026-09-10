@@ -114,6 +114,12 @@ research:
 last_modified_date: '2026-09-10'
 redirect_from:
 - /badges/cactuscon-2014/cactuscon-2014-badge/
+model:
+  file: assets/models/cactuscon-2014/cactuscon-2014-pcb-badge.glb
+  method: kicad
+  source_file: cactar.brd
+  generated: '2026-09-10'
+  bytes: 316564
 ---
 
 The CactusCon 2014 PCB badge, nicknamed "cactar" in its designer's own repo, was a free giveaway soldered together by hand at the HeatSync Labs booth during CactusCon's April 2014 event in Arizona. Erik Wilson designed the board as a humanoid shape built around the CactusCon logo: the arms and legs double as a Throwing Star-style Ethernet LAN tap, the head works as a USB 3.0 breakout, and the torso leaves mounting holes and breadboard space for a Teensy 2.0 or other add-ons. HeatSync Labs manufactured 300 of the boards through Advanced Circuits and ran a soldering station where attendees of all skill levels — from complete beginners to experienced hackers — assembled their own badge with an acrylic backing, LEDs, resistors, a coin cell battery, and a lanyard.

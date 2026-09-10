@@ -50,17 +50,17 @@ links:
   url: https://github.com/gowenrw/BSidesDFW_2019_Badge
   kind: repo
 images:
-  - file: assets/images/badges/bsidesdfw-2019/akira-badge/e0ef4e3c8d.gif
-    source: "https://akirabadge.com/"
-    credit: "alt_bier (gowenrw)"
-    caption: "Animated view of the Akira badge, Kaneda's motorcycle with LEDs on the tires"
-  - file: assets/images/badges/bsidesdfw-2019/akira-badge/c58fe1cfad.jpg
-    source: "https://akirabadge.com/"
-    credit: "alt_bier (gowenrw)"
-    caption: "Akira-themed pill-shaped lanyard"
+- file: assets/images/badges/bsidesdfw-2019/akira-badge/e0ef4e3c8d.gif
+  source: https://akirabadge.com/
+  credit: alt_bier (gowenrw)
+  caption: Animated view of the Akira badge, Kaneda's motorcycle with LEDs on the tires
+- file: assets/images/badges/bsidesdfw-2019/akira-badge/c58fe1cfad.jpg
+  source: https://akirabadge.com/
+  credit: alt_bier (gowenrw)
+  caption: Akira-themed pill-shaped lanyard
 contact: {}
 notes:
-- 'Sweep imported the title as "Akira Badge"; the maker''s own site and repo call it "AKIRA Badge" (all caps) — corrected here.'
+- Sweep imported the title as "Akira Badge"; the maker's own site and repo call it "AKIRA Badge" (all caps) — corrected here.
 - Official BSidesDFW 2019 conference badge themed on the film Akira, with Kaneda's motorcycle rendered in LEDs on a CH552G microcontroller, the badge's first use of surface-mount assembly, plus an onboard crypto challenge. Found by the event-year sweep, task bsides-bsidesdfw.
 status: released
 sources:
@@ -88,8 +88,14 @@ research:
   status: researched
   confidence: medium
   last_checked: '2026-09-10'
-  notes: 'Maker''s own project site and GitHub repo confirmed the core facts (event, maker, MCU, theme, assembly, crypto challenge). Price, quantity made, LED count/type, display, and distribution details were not stated on any source found and are left empty. No press coverage or storefront listing was found in the time budgeted.'
+  notes: Maker's own project site and GitHub repo confirmed the core facts (event, maker, MCU, theme, assembly, crypto challenge). Price, quantity made, LED count/type, display, and distribution details were not stated on any source found and are left empty. No press coverage or storefront listing was found in the time budgeted.
 last_modified_date: '2026-09-10'
+model:
+  file: assets/models/bsidesdfw-2019/akira-badge.glb
+  method: kicad
+  source_file: eda/BSidesDFW_2019/BSidesDFW_2019.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 255468
 ---
 
 The AKIRA Badge was the official BSidesDFW 2019 conference badge, designed by alt_bier (Richard Gowen, gowenrw) with concept input from @0isac0 and artwork by @unspecific. It depicts Kaneda's motorcycle from the anime film *Akira* riding past artwork of Neo-Tokyo's destruction, with LEDs mounted on the bike's tires to create the illusion of motion. The badge is built around a CH552G microcontroller, an inexpensive chip the maker chose partly because documentation for it was scarce at the time, and the project site doubles as a CH552G resource for other hobbyists.

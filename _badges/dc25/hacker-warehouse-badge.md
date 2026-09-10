@@ -40,7 +40,7 @@ get_one:
   - purchase
   where: Presale through the Hacker Warehouse online store, picked up in person at DEF CON 25; not shipped before or after the con.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/hackerwarehouse/HW-DC25-Badge/tree/master/hardware
   firmware_url: https://github.com/hackerwarehouse/HW-DC25-Badge
   eda_tool: null
@@ -61,7 +61,7 @@ images: []
 contact: {}
 notes:
 - ESP8266-based WiFi pentest badge (AP scanning/deauth) built as Hacker Warehouse's first hardware effort for DEF CON 25. Found by the event-year sweep, task dc25-saos.
-- 'The sweep title read "Hacker Warehouse Badge"; the maker''s own store lists it as "Hacker Warehouse Electronic Badge" and the GitHub repo/README call it "HW-DC25-Badge" / "Hacker Warehouse DC25 Badge" for DEF CON 25 -- all the same item.'
+- The sweep title read "Hacker Warehouse Badge"; the maker's own store lists it as "Hacker Warehouse Electronic Badge" and the GitHub repo/README call it "HW-DC25-Badge" / "Hacker Warehouse DC25 Badge" for DEF CON 25 -- all the same item.
 - Firmware is GPL-3.0 licensed per the repo LICENSE file.
 - 'Per the README: some offensive tools (deauth, etc.) were built but deliberately left out of the shipped firmware rather than unlocked in-con; wording about "locked" features led to confusion at the event. Users also reported WiFi stopping working after extended use, a bug the team was still chasing when the code was released.'
 - Could not find any usable photo of the physical badge within the research budget -- the Hacker Warehouse store site is behind Cloudflare bot-blocking for direct fetches, and the only other page with an "og:image" found (eritrean-smart.org) is an unrelated AI-generated content-farm page (it even describes a different, ESP32/SAO-equipped badge) and was not used as a source.
@@ -87,7 +87,13 @@ research:
   confidence: high
   last_checked: '2026-09-08'
   notes: Core facts (maker, chip, LEDs, display, price, quantity, open-source status) confirmed by the maker's own GitHub repo and storefront, which agree with each other and with the Hackaday roundup. No photo of the badge could be saved within budget; look.colors and look.shape are left empty rather than guessed. No SAO header is mentioned anywhere, so tech.sao_version is set to none.
-last_modified_date: '2026-09-08'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/dc25/hacker-warehouse-badge.glb
+  method: kicad
+  source_file: HW-DC25-Badge-20170609-1.2.brd
+  generated: '2026-09-10'
+  bytes: 304748
 ---
 
 Hacker Warehouse, a retailer of penetration-testing hardware, built the Hacker Warehouse Electronic Badge as its first foray into custom hardware, for DEF CON 25 in 2017 (with help from Jaycon Systems on manufacturing). The badge centers on an ESP8266EX driving a 96x64 full-color OLED display, 14 mini NeoPixel RGB LEDs, and four tactile buttons in a joypad layout, running off two AA batteries. Its headline function is WiFi-focused: an 802.11 channel activity monitor and access-point scanner, alongside LED animation patterns, OLED animations, and badge personalization. The team debated including more aggressive WiFi tools (like deauth) but chose to leave them out of the shipped firmware, a decision that caused some confusion among owners who expected "locked" features to unlock during the con.

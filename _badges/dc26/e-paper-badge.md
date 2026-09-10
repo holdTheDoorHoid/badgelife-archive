@@ -36,7 +36,7 @@ get_one:
   distribution: []
   where: Personal project, worn by the maker; not sold. Design files are freely downloadable.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/pdp7/kicad-teensy-epaper
   firmware_url: https://github.com/pdp7/kicad-teensy-epaper
   eda_tool: KiCad
@@ -58,13 +58,13 @@ links:
   kind: fab
 images:
 - file: assets/images/badges/dc26/e-paper-badge/ab4874ba45.jpg
-  source: "https://github.com/pdp7/kicad-teensy-epaper"
-  credit: "Drew Fustini"
-  caption: "Assembled E-Paper Badge with Teensy LC and 2.15\" e-paper display"
+  source: https://github.com/pdp7/kicad-teensy-epaper
+  credit: Drew Fustini
+  caption: Assembled E-Paper Badge with Teensy LC and 2.15" e-paper display
 - file: assets/images/badges/dc26/e-paper-badge/4dcb409ca1.jpg
-  source: "https://github.com/pdp7/kicad-teensy-epaper"
-  credit: "Drew Fustini"
-  caption: "Back of the E-Paper Badge showing the Teensy LC and battery connector"
+  source: https://github.com/pdp7/kicad-teensy-epaper
+  credit: Drew Fustini
+  caption: Back of the E-Paper Badge showing the Teensy LC and battery connector
 contact: {}
 notes:
 - E-paper display based badge shown at DEF CON 26, per Hackaday's roundup vol.3. Found by the event-year sweep, task dc26-saos.
@@ -95,7 +95,13 @@ research:
   confidence: high
   last_checked: '2026-09-08'
   notes: Maker's own GitHub repo (pdp7/kicad-teensy-epaper) confirms the Hackaday sweep hit and adds full detail (chip, display part number, license, battery, images). This was Drew Fustini's personal badge worn to DEF CON 26's Hackaday meetup, not a mass-produced or sold item, so get_one fields are mostly left empty/unknown - it was never distributed. No price, quantity, or storefront found because none exists; it inspired the 2018 Open Hardware Summit collaborative badge at MIT but that is a separate project, not covered here.
-last_modified_date: '2026-09-08'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/dc26/e-paper-badge.glb
+  method: kicad
+  source_file: kicad-teensy-epaper.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 194744
 ---
 
 Drew Fustini, a "Friend of Hackaday," designed the E-Paper Badge as his own name badge for DEF CON 26 in 2018. It pairs a Teensy LC microcontroller with a 2.15" Pervasive Displays e-paper panel (part E2215CS062), connected via a 34-position FPC connector, and a row of capacitive touch buttons along one edge that let the wearer flip through a small gallery of images - among them a Hackaday Jolly Wrencher logo. He showed it off at Hackaday's Breakfast at DEF CON meetup, where it was featured in the site's "All the Badges of DEF CON 26" roundup.

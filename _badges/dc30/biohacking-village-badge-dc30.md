@@ -117,6 +117,12 @@ research:
 last_modified_date: '2026-09-10'
 redirect_from:
 - /badges/dc30/defcon-30-biohacking-village-badge/
+model:
+  file: assets/models/dc30/biohacking-village-badge-dc30.glb
+  method: kicad
+  source_file: CAD/Biohacking Village Badge - Gutz-Girl.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 237296
 ---
 
 The DEF CON 30 Biohacking Village badge was designed by Badge Pirates as a physical riff on the classic Operation board game. Rather than an MCU, the board deliberately used simple logic ICs — a 74HC4017D decade counter driving three reverse-mount LEDs as a health meter, debounced through a 74HC14 hex Schmitt-trigger inverter — a choice the makers say was partly a throwback and partly a hedge against the chip supply-chain crunch of the time. A layer of acrylic sandwiched between the PCBs forms cavities that hold small "body part" charms; players use the included tweezers to lift the charms free without touching the edges, and three strikes ends the game.

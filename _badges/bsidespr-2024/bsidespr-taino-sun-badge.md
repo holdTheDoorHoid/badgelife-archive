@@ -36,7 +36,7 @@ get_one:
   distribution: []
   where: Given to attendees of BSides Puerto Rico 2024; the badge team ran a talk and a hands-on workshop at the con to help people customize it.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/So11Deo6loria/bsidesPRSun/tree/main/hardware
   firmware_url: https://github.com/So11Deo6loria/bsidesPRSun/tree/main/firmware
   eda_tool: KiCad
@@ -46,9 +46,9 @@ links:
   kind: repo
 images:
 - file: assets/images/badges/bsidespr-2024/bsidespr-taino-sun-badge/29472f8848.gif
-  source: "https://github.com/So11Deo6loria/bsidesPRSun"
-  credit: "So11Deo6loria / BSides Puerto Rico badge team"
-  caption: "Promotional GIF of the Taino Sun badge lighting up"
+  source: https://github.com/So11Deo6loria/bsidesPRSun
+  credit: So11Deo6loria / BSides Puerto Rico badge team
+  caption: Promotional GIF of the Taino Sun badge lighting up
 contact: {}
 notes:
 - Official BSides Puerto Rico 2024 badge, a customizable sun-themed design with configurable color patterns; team ran a hands-on badge-hacking workshop at the con. Found by the event-year sweep, task bsides-bsidespr.
@@ -84,8 +84,14 @@ research:
   status: researched
   confidence: high
   last_checked: '2026-09-10'
-  notes: 'No price, quantity, or storefront was found; the badge appears to have been distributed to BSidesPR 2024 attendees rather than sold, so availability/price/quantity are left empty. Hardware is KiCad; no separate Gerber/fab share link found beyond what''s committed in the repo''s hardware/fabrication folders. No maker bio/social links were found beyond the GitHub org "So11Deo6loria".'
+  notes: No price, quantity, or storefront was found; the badge appears to have been distributed to BSidesPR 2024 attendees rather than sold, so availability/price/quantity are left empty. Hardware is KiCad; no separate Gerber/fab share link found beyond what's committed in the repo's hardware/fabrication folders. No maker bio/social links were found beyond the GitHub org "So11Deo6loria".
 last_modified_date: '2026-09-10'
+model:
+  file: assets/models/bsidespr-2024/bsidespr-taino-sun-badge.glb
+  method: kicad
+  source_file: hardware/bsidesPR.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 411568
 ---
 
 The Taino Sun badge was the official badge for BSides Puerto Rico 2024, designed and built by the con's own badge team (published under the GitHub handle So11Deo6loria). It's a Raspberry Pi Pico-based PCB badge with 50 individually addressable WS2812B LEDs arranged around a stylized sun, running off a CR2477 coin cell. Out of the box it boots into a Puerto Rico flag color pattern, but the firmware ships with additional palettes and reads a `config.json` so wearers can pick their own startup color, flag/pattern, and sleep timeout.

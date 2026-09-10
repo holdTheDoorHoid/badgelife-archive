@@ -53,22 +53,26 @@ links:
 - label: Hak4Kidz Learn to Solder Badge and SAO (Tindie)
   url: https://www.tindie.com/products/h4klab/hak4kidz-learn-to-solder-badge-and-sao/
   kind: store
+  archived: https://web.archive.org/web/20260503111225/https://www.tindie.com/products/h4klab/hak4kidz-learn-to-solder-badge-and-sao/
 - label: Hak4Kidz Village 2022 - Blue Team Con
   url: https://blueteamcon.com/directory/hak4kidz-village-2022/
   kind: doc
+  archived: https://web.archive.org/web/20260516014103/https://blueteamcon.com/directory/hak4kidz-village-2022/
 images:
 - file: assets/images/badges/blue-team-con-2022/hak4kidz-blue-team-con-2022-badge-soldering-kit/029a805b8c.jpg
-  source: "https://www.tindie.com/products/h4klab/hak4kidz-learn-to-solder-badge-and-sao/"
-  credit: "Hak4Kidz Lab (Tindie)"
-  caption: "Assembled Hak4Kidz Learn to Solder badge, blue-eyes color mode"
+  source: https://www.tindie.com/products/h4klab/hak4kidz-learn-to-solder-badge-and-sao/
+  credit: Hak4Kidz Lab (Tindie)
+  caption: Assembled Hak4Kidz Learn to Solder badge, blue-eyes color mode
+  archived: https://web.archive.org/web/20260503111225/https://www.tindie.com/products/h4klab/hak4kidz-learn-to-solder-badge-and-sao/
 - file: assets/images/badges/blue-team-con-2022/hak4kidz-blue-team-con-2022-badge-soldering-kit/77ad1067c3.jpg
-  source: "https://www.tindie.com/products/h4klab/hak4kidz-learn-to-solder-badge-and-sao/"
-  credit: "Hak4Kidz Lab (Tindie)"
-  caption: "Assembled Hak4Kidz Learn to Solder badge, green-eyes color mode"
+  source: https://www.tindie.com/products/h4klab/hak4kidz-learn-to-solder-badge-and-sao/
+  credit: Hak4Kidz Lab (Tindie)
+  caption: Assembled Hak4Kidz Learn to Solder badge, green-eyes color mode
+  archived: https://web.archive.org/web/20260503111225/https://www.tindie.com/products/h4klab/hak4kidz-learn-to-solder-badge-and-sao/
 contact: {}
 notes:
 - A DIY soldering-practice badge kit distributed by Hak4Kidz at Blue Team Con 2022, shown being assembled in a YouTube video. Found by the event-year sweep, task con-blue-team-con.
-- 'Sweep title was "Hak4Kidz Blue Team Con 2022 Badge Soldering Kit"; renamed to match Hak4Kidz Lab''s own Tindie listing name, "Hak4Kidz Learn to Solder Badge and SAO."'
+- Sweep title was "Hak4Kidz Blue Team Con 2022 Badge Soldering Kit"; renamed to match Hak4Kidz Lab's own Tindie listing name, "Hak4Kidz Learn to Solder Badge and SAO."
 status: released
 sources:
 - kind: url
@@ -81,16 +85,18 @@ sources:
   title: Hak4Kidz Learn to Solder Badge and SAO - Tindie
   accessed: '2026-09-08'
   note: Maker's own storefront listing; confirms name, price ($20), components (RGB LEDs, potentiometers, SAO connector, CR2032), and lack of an onboard MCU.
+  archived: https://web.archive.org/web/20260503111225/https://www.tindie.com/products/h4klab/hak4kidz-learn-to-solder-badge-and-sao/
 - kind: url
   url: https://blueteamcon.com/directory/hak4kidz-village-2022/
   title: Hak4Kidz Village 2022 - Blue Team Con
   accessed: '2026-09-08'
   note: Confirms Hak4Kidz ran a village at Blue Team Con 2022, consistent with the badge kit being distributed there.
+  archived: https://web.archive.org/web/20260516014103/https://blueteamcon.com/directory/hak4kidz-village-2022/
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-08'
-  notes: 'The Tindie listing for this kit is not event-specific (it says it was made to restart in-person Hak4Kidz events generally, and the archive already has a separate DEF CON 31 entry for the same product line, dc31-learn-to-solder-badge-2). The YouTube video ties this specific build to Blue Team Con 2022, which is why the event is kept as blue-team-con-2022, but it is likely the same kit design sold/handed out at several Hak4Kidz villages across events and years. Could not confirm quantity made, current availability, SAO connector pin count, or whether hardware/firmware files are published; those fields are left empty/null.'
+  notes: The Tindie listing for this kit is not event-specific (it says it was made to restart in-person Hak4Kidz events generally, and the archive already has a separate DEF CON 31 entry for the same product line, dc31-learn-to-solder-badge-2). The YouTube video ties this specific build to Blue Team Con 2022, which is why the event is kept as blue-team-con-2022, but it is likely the same kit design sold/handed out at several Hak4Kidz villages across events and years. Could not confirm quantity made, current availability, SAO connector pin count, or whether hardware/firmware files are published; those fields are left empty/null.
 last_modified_date: '2026-09-08'
 ---
 

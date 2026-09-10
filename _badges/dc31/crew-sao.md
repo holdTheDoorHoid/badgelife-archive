@@ -37,7 +37,7 @@ get_one:
   - village
   where: Distributed at the Aerospace Village at DEF CON 31 (2023); exact method (free drop vs. build-your-own) not stated in the source repo.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/AerospaceVillage/avBadge_2023/tree/main/crew%20SAO
   firmware_url: null
   eda_tool: KiCad
@@ -52,7 +52,7 @@ images: []
 contact: {}
 notes:
 - Spotted by a research agent while working on a neighbouring entry (run 4).
-- 'Repo folder and README title case it "crew SAO"; kept as-is.'
+- Repo folder and README title case it "crew SAO"; kept as-is.
 status: listed
 sources:
 - kind: url
@@ -79,8 +79,14 @@ research:
   status: researched
   confidence: medium
   last_checked: '2026-09-08'
-  notes: 'Confirmed via the maker''s own repo (schematic + PCB + gerbers), so this is a real, built item, not just a sheet entry. No press coverage, storefront listing, or photo of the assembled board was found, so price, quantity, exact distribution method, and colors/shape are unknown. The KiCad board outline SVG in the repo is a trace render, not a photograph, so no image was saved. PCB silkscreen art (a runway-markings graphic referencing "31") supports the DC31/2023 identification.'
-last_modified_date: '2026-09-08'
+  notes: Confirmed via the maker's own repo (schematic + PCB + gerbers), so this is a real, built item, not just a sheet entry. No press coverage, storefront listing, or photo of the assembled board was found, so price, quantity, exact distribution method, and colors/shape are unknown. The KiCad board outline SVG in the repo is a trace render, not a photograph, so no image was saved. PCB silkscreen art (a runway-markings graphic referencing "31") supports the DC31/2023 identification.
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/dc31/crew-sao.glb
+  method: kicad
+  source_file: crew SAO/crew-SAO.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 44080
 ---
 
 The crew SAO is one of several add-on badges the Aerospace Village produced for DEF CON 31 (2023), alongside its main "Wright Flyer" and "Wright Stuff" badges. Unlike most SAOs, it does not draw power from a host badge: its schematic shows a CR2032 coin-cell holder on board, along with a single LED, a resistor, and an SPDT switch to turn the LED on and off. It connects through a standard 6-pin SAO header. The board's silkscreen carries a runway-markings graphic referencing "31" (DEF CON 31).

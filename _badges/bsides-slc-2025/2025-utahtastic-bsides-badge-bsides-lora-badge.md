@@ -85,16 +85,13 @@ research:
   confidence: medium
   last_checked: '2026-09-07'
   notes: Made for BSides Utah 2025 (no bsides-utah event id exists in events.yml, so the entry stays under the generic bsides-2025 id; noted here per research guide). Repository is the maker's own project page and is the primary source; no independent press coverage, storefront, or price/quantity information was found. Availability set to unknown since this appears to have been a conference giveaway/build, not a sale; get_one.where reflects that. Hardware/firmware are both published (Meshtastic-based custom firmware, KiCad-style hardware folder not explicitly labeled with an EDA tool), so open_source is yes though the specific EDA tool used was not stated.
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-10'
 model:
-  file: assets/models/bsides-2025/2025-utahtastic-bsides-badge-bsides-lora-badge.glb
-  method: gerber
+  file: assets/models/bsides-slc-2025/2025-utahtastic-bsides-badge-bsides-lora-badge.glb
+  method: kicad
   source_file: hardware/2025_bsides_badge_v2.kicad_pcb
-  generated: '2026-09-07'
-  bytes: 361544
-  size_mm:
-  - 138.2
-  - 111.8
+  generated: '2026-09-10'
+  bytes: 1127992
 redirect_from:
 - /badges/bsides-2025/2025-utahtastic-bsides-badge-bsides-lora-badge/
 ---

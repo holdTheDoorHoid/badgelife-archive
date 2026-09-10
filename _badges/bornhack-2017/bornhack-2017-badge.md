@@ -46,14 +46,17 @@ links:
 - label: github.com/bornhack/badge2017
   url: https://github.com/bornhack/badge2017
   kind: repo
+  archived: https://web.archive.org/web/20251124204348/https://github.com/bornhack/badge2017
 - label: The BornHack 2017 Badge (Hackaday)
   url: https://hackaday.com/2017/08/15/the-latest-hacker-camp-badge-comes-from-bornhack/
   kind: article
+  archived: https://web.archive.org/web/20260606074343/https://hackaday.com/2017/08/15/the-latest-hacker-camp-badge-comes-from-bornhack/
 images:
 - file: assets/images/badges/bornhack-2017/bornhack-2017-badge/a6b2ed0914.jpg
   source: https://hackaday.com/2017/08/15/the-latest-hacker-camp-badge-comes-from-bornhack/
   credit: Hackaday / BornHack
   caption: The BornHack 2017 badge PCB with OLED display and buttons
+  archived: https://web.archive.org/web/20260606074343/https://hackaday.com/2017/08/15/the-latest-hacker-camp-badge-comes-from-bornhack/
 contact: {}
 notes:
 - Official electronic name badge for BornHack 2017 built around a Silicon Labs EFM32HG322F64G (Happy Gecko) Cortex-M0+ MCU with a 128x64 SSD1306 OLED display, drag-and-drop USB mass-storage bootloader, and irregular PCB shape meant for attendees to hack/modify. Found by the event-year sweep, task bornhack-2017.
@@ -64,6 +67,7 @@ sources:
   title: BornHack 2017 badge
   accessed: '2026-09-07'
   note: 'Found by the archive''s discovery sweep (angle: sweep:bornhack-2017); event read as ''bornhack-2017''.'
+  archived: https://web.archive.org/web/20251124204348/https://github.com/bornhack/badge2017
 - kind: url
   url: https://raw.githubusercontent.com/bornhack/badge2017/master/README.md
   title: bornhack/badge2017 README
@@ -74,6 +78,7 @@ sources:
   title: The Latest Hacker Camp Badge Comes From BornHack
   accessed: '2026-09-08'
   note: Confirmed irregular PCB shape, low-power/bootloader design priority, battery holder and prototyping area on the back, and provided the badge photo used here.
+  archived: https://web.archive.org/web/20260606074343/https://hackaday.com/2017/08/15/the-latest-hacker-camp-badge-comes-from-bornhack/
 research:
   status: researched
   confidence: high

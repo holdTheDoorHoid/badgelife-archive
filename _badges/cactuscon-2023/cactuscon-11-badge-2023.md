@@ -56,9 +56,9 @@ links:
   kind: repo
 images:
 - file: assets/images/badges/cactuscon-2023/cactuscon-11-badge-2023/79c761dd8f.jpg
-  source: "https://blog.badgepirates.com/CactusConBadge/"
-  credit: "Badge Pirates"
-  caption: "CactusCon 11 badge staged photo"
+  source: https://blog.badgepirates.com/CactusConBadge/
+  credit: Badge Pirates
+  caption: CactusCon 11 badge staged photo
 contact: {}
 notes:
 - Official conference badge for CactusCon 11 (2023), made by Badge Pirates. (seen only in a search snippet; unconfirmed) Found by the event-year sweep, task con-layerone.
@@ -72,27 +72,26 @@ sources:
   note: 'Found by the archive''s discovery sweep (angle: sweep:con-layerone); event read as ''CactusCon 2023''.'
 - kind: url
   url: https://blog.badgepirates.com/CactusConBadge/
-  title: 'CactusCon 11 Badge (2023) - Badgepirates'
+  title: CactusCon 11 Badge (2023) - Badgepirates
   accessed: '2026-09-10'
   note: 'Maker''s own writeup: theme, functions, chip, LEDs, display, links to GitHub/Tindie/YouTube; image URL.'
 - kind: url
   url: https://github.com/BadgePiratesLLC/CactusCon_11
-  title: 'GitHub - BadgePiratesLLC/CactusCon_11'
+  title: GitHub - BadgePiratesLLC/CactusCon_11
   accessed: '2026-09-10'
-  note: 'Design/firmware repo (CAD, Code, Documents, Images folders); archived Oct 17 2023; README has no further detail.'
+  note: Design/firmware repo (CAD, Code, Documents, Images folders); archived Oct 17 2023; README has no further detail.
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-10'
-  notes: >-
-    Core facts (maker, event, theme, chip, LEDs, display) confirmed by Badge Pirates' own
-    blog post. Price, quantity sold, and specific availability were not stated on any source
-    checked. The GitHub repo (CactusCon_11) contains CAD/Code/Documents/Images folders,
-    suggesting hardware and firmware were published, but no explicit open-source license was
-    found in the README, so open_source is marked "partial" rather than "yes". A separate
-    development board was reportedly available at the Hardware Hacking Village per
-    badge.gallery, but this was not independently confirmed on a Badge Pirates page.
+  notes: Core facts (maker, event, theme, chip, LEDs, display) confirmed by Badge Pirates' own blog post. Price, quantity sold, and specific availability were not stated on any source checked. The GitHub repo (CactusCon_11) contains CAD/Code/Documents/Images folders, suggesting hardware and firmware were published, but no explicit open-source license was found in the README, so open_source is marked "partial" rather than "yes". A separate development board was reportedly available at the Hardware Hacking Village per badge.gallery, but this was not independently confirmed on a Badge Pirates page.
 last_modified_date: '2026-09-10'
+model:
+  file: assets/models/cactuscon-2023/cactuscon-11-badge-2023.glb
+  method: kicad
+  source_file: CAD/CC11_Main.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 583368
 ---
 
 Badge Pirates built the CactusCon 11 (2023) badge around a "Nightmare House" theme that leans into an Internet-of-Things gag: the badge behaves like a miniature smart-home controller, complete with window-style RGB LEDs, three addressable NeoPixels, and a reverse-mount red LED styled as a "definitely not a camera" drone light. It runs on an ESP32-S2 WROOM with built-in 2.4 GHz Wi-Fi, exposes GPIO for hacking, includes a CH340N USB-serial chip for programming, and supports an optional OLED add-on.

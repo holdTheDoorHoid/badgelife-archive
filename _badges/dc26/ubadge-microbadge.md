@@ -101,9 +101,15 @@ research:
   confidence: high
   last_checked: '2026-09-08'
   notes: Core facts (maker, event/year, chip, SAO design, ~1100 units, free distribution) confirmed by both the maker's own GitHub README and independent Hackaday coverage. No price, license, or firmware repo found. Likely duplicates dc26-ubadge-badge — see research report. Merged with duplicate entry 'uBadge (μBadge)' (dc26-ubadge-badge).
-last_modified_date: '2026-09-08'
+last_modified_date: '2026-09-10'
 redirect_from:
 - /badges/dc26/ubadge-badge/
+model:
+  file: assets/models/dc26/ubadge-microbadge.glb
+  method: kicad
+  source_file: ubadge.brd
+  generated: '2026-09-10'
+  bytes: 40008
 ---
 
 The microbadge (also called the uBadge by Hackaday and in DEF CON badge roundups) is a functional electronic badge shrunk down to about one square centimeter, made by Joe Fitz (securelyfitz) for DEF CON 26 in 2018. It strips a Digispark ATtiny85 board down to the essentials — dropping the USB-A connector, voltage regulator, and 3.3V protection diodes in favor of a MicroUSB header and a single SAO (Shitty Add-On) connector carrying power, ground, and I2C. Because it has no onboard regulator, it needs external 3.3V power, typically supplied by whatever "arm," "face," or other add-on is plugged into its SAO header rather than a battery on the badge itself, though there is a pad for an edge-mounted CR2032 holder.

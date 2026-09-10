@@ -101,6 +101,12 @@ last_modified_date: '2026-09-10'
 redirect_from:
 - /badges/other/503banglet/
 - /badges/dc26/dc503-def-con-26-vip-banglet/
+model:
+  file: assets/models/dc26/503banglet.glb
+  method: kicad
+  source_file: dc5032018banglet.brd
+  generated: '2026-09-10'
+  bytes: 141892
 ---
 
 The DC503 Banglet is a Bluetooth-recon party bracelet made by Nisha Kumar for the DC503 group (the Portland, Oregon DEF CON meetup) to hand out at their party during DEF CON 26 in 2018. Built around a Rigado BMD-300 module on the Adafruit Bluefruit Feather architecture, it runs in a passive scan mode where its 12 LEDs light up to indicate how many nearby Bluetooth devices it detects, with LED color keyed to each device's MAC address. It also hides additional "party modes" accessible over its BLE UART service, controllable from phone apps such as Adafruit's Bluefruit LE Connect, Serial Bluetooth Terminal, or Bluetooth Terminal, and the firmware is reprogrammable with sample code the team provided.

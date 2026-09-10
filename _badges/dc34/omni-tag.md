@@ -26,11 +26,11 @@ tech:
   battery: null
   sao_version: null
 get_one:
-  price: '+$15'
+  price: +$15
   price_usd: 15
-  quantity: '152 units shipped (first run, bundled with Clip-Boy Mk2 orders)'
+  quantity: 152 units shipped (first run, bundled with Clip-Boy Mk2 orders)
   availability: sold_out
-  availability_note: 'Bundled only with Clip-Boy Mk2 pre-orders, which closed/sold out; checked 2026-09-08 on the maker storefront.'
+  availability_note: Bundled only with Clip-Boy Mk2 pre-orders, which closed/sold out; checked 2026-09-08 on the maker storefront.
   distribution:
   - preorder
   - kit
@@ -40,7 +40,7 @@ make_your_own:
   hardware_url: https://github.com/SafeHazard/Clip-Boy
   firmware_url: null
   eda_tool: null
-  notes: '3D-printable design file distributed as "omnitag.3mf" in the Clip-Boy GitHub repo; no PCB or firmware involved since this is a passive printed part.'
+  notes: 3D-printable design file distributed as "omnitag.3mf" in the Clip-Boy GitHub repo; no PCB or firmware involved since this is a passive printed part.
 links:
 - label: tropicsquirrel.github.io/shop
   url: https://tropicsquirrel.github.io/shop/
@@ -52,7 +52,7 @@ images: []
 contact: {}
 notes:
 - 3D-printable physical scan tag accessory shipped as an optional add-on with Clip-Boy Mk2 orders for scanning in-badge collectibles. Found by the event-year sweep, task dc34-indie.
-- 'Sweep title matched the maker''s own naming ("Omni-Tag"); no correction needed.'
+- Sweep title matched the maker's own naming ("Omni-Tag"); no correction needed.
 status: released
 sources:
 - kind: url
@@ -64,13 +64,22 @@ sources:
   url: https://tropicsquirrel.github.io/shop/
   title: 'Clip-Boy: The Unofficial DEF CON 34 Electronic Badge — Pre-Order'
   accessed: '2026-09-08'
-  note: 'Confirmed Omni-Tag as an optional add-on to Clip-Boy Mk2 orders; maker, price (+$15), 3D-printable design file (omnitag.3mf), and that the first run of 152 units shipped.'
+  note: Confirmed Omni-Tag as an optional add-on to Clip-Boy Mk2 orders; maker, price (+$15), 3D-printable design file (omnitag.3mf), and that the first run of 152 units shipped.
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-08'
-  notes: 'Confirmed via the maker''s own storefront that Omni-Tag is a real, shipped accessory (not just a search snippet). Could not find a dedicated photo of the physical tag itself — the storefront page has no Omni-Tag-specific image, and the GitHub repo file tree for the "omnitag.3mf" design file could not be browsed without authentication (GitHub code search requires sign-in). No chip/electronics involved since this is a passive 3D-printed part. Could not independently verify the exact repo subfolder path for the design file.'
-last_modified_date: '2026-09-08'
+  notes: Confirmed via the maker's own storefront that Omni-Tag is a real, shipped accessory (not just a search snippet). Could not find a dedicated photo of the physical tag itself — the storefront page has no Omni-Tag-specific image, and the GitHub repo file tree for the "omnitag.3mf" design file could not be browsed without authentication (GitHub code search requires sign-in). No chip/electronics involved since this is a passive 3D-printed part. Could not independently verify the exact repo subfolder path for the design file.
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/dc34/omni-tag.glb
+  method: gerber
+  source_file: Clip-Boy/hardware/Gerber_Motherboard.zip
+  generated: '2026-09-10'
+  bytes: 94616
+  size_mm:
+  - 30.2
+  - 60.5
 ---
 
 The Omni-Tag is a small, 3D-printable accessory sold by Coruscant Productions, LLC alongside their Clip-Boy Mk2 wrist-mounted badge for DEF CON 34. Clip-Boy Mk2's headline feature is a 3D-scanning system that unlocks in-badge collectibles; the Omni-Tag exists as a purpose-made physical object for people to scan, so they don't have to enter collectible codes by hand. It shipped as a +$15 optional add-on during Clip-Boy Mk2 pre-orders, and the maker's storefront states the first run of 152 units shipped alongside badge orders.

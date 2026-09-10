@@ -768,5 +768,272 @@
    "eagle->kicad ok"
   ],
   "src": "Badge Proto.brd"
+ },
+ "bsides-slc-2025-2025-utahtastic-bsides-badge-bsides-lora-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 1127992,
+  "tried": [],
+  "src": "hardware/2025_bsides_badge_v2.kicad_pcb"
+ },
+ "bsides-st-louis-2019-bsidesstl-2019": {
+  "status": "ok",
+  "method": "gerber",
+  "bytes": 128164,
+  "tried": [],
+  "src": "Gerbers/Participant_Final_gerber.zip"
+ },
+ "bsides-st-louis-2023-bsidesstl-2023-bsidesstl-23": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 121712,
+  "tried": [],
+  "src": "CAD/Bsides-STL-Badge.kicad_pcb"
+ },
+ "bsidesdfw-2018-dfw-hacker-badge-beer-bottle-badge": {
+  "status": "ok",
+  "method": "gerber",
+  "bytes": 99648,
+  "tried": [],
+  "src": "gerber-export-06192018/DFW-InfoSec-Badge-2018-gerber-export-06192018.zip"
+ },
+ "bsidesdfw-2018-lan-tap-bsidesdfw-2018-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 254712,
+  "tried": [],
+  "src": "BSidesDFW_2018_Badge.kicad_pcb"
+ },
+ "bsidesdfw-2019-akira-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 255468,
+  "tried": [],
+  "src": "eda/BSidesDFW_2019/BSidesDFW_2019.kicad_pcb"
+ },
+ "bsidesdfw-2024-bsidesdfw-2024-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 183320,
+  "tried": [],
+  "src": "KiCAD files/bsidesdfw badge 2024.kicad_pcb"
+ },
+ "bsidespr-2019-bsidespr-2019-badge-luffy-badge-diy-attiny13a-kit": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 164892,
+  "tried": [],
+  "src": "LuffyBadge2019_BSides.kicad_pcb"
+ },
+ "bsidespr-2024-bsidespr-taino-sun-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 411568,
+  "tried": [],
+  "src": "hardware/bsidesPR.kicad_pcb"
+ },
+ "cactuscon-2014-cactuscon-2014-pcb-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 316564,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "cactar.brd"
+ },
+ "cactuscon-2018-cactuscon-2018-paid-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 323264,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "CactusCon7.brd"
+ },
+ "cactuscon-2023-cactuscon-11-badge-2023": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 583368,
+  "tried": [],
+  "src": "CAD/CC11_Main.kicad_pcb"
+ },
+ "cactuscon-2024-cactuscon-12-badge-2024": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 510128,
+  "tried": [],
+  "src": "CAD/CactusCon12.kicad_pcb"
+ },
+ "cactuscon-2025-cactuscon-13-badge-2025": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 626312,
+  "tried": [],
+  "src": "CAD-OuterBoard/Project-CC13_outer_v2_Attendee.kicad_pcb"
+ },
+ "cactuscon-2026-cactuscon-14-badge-2026": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 85100,
+  "tried": [],
+  "src": "CAD/CC14_Outer.kicad_pcb"
+ },
+ "carolinacon-2023-carolinacon-online-3-badge-carolinacon-19-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 10864,
+  "tried": [],
+  "src": "cc-19-badge.kicad_pcb"
+ },
+ "cccamp-2011-r0ket": {
+  "status": "failed",
+  "tried": []
+ },
+ "dc23-hardware-hacking-village-learn-to-solder-kit": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 214288,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "hhv-dcdarknet-varient-3.brd"
+ },
+ "dc25-hacker-warehouse-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 304748,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "HW-DC25-Badge-20170609-1.2.brd"
+ },
+ "dc25-seckc-badge": {
+  "status": "ok",
+  "method": "gerber",
+  "bytes": 127892,
+  "tried": [],
+  "src": "Files/SecKCDC25Badge_gerber-Prod.zip"
+ },
+ "dc25-team-bazooka-vfd-badge-dc25": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 190156,
+  "tried": [],
+  "src": "hardware/DC25.kicad_pcb"
+ },
+ "dc25-tindie-blinky-led-badge-v1": {
+  "status": "ok",
+  "method": "gerber",
+  "bytes": 283836,
+  "tried": [],
+  "src": "FullBoard.zip/Gerbers"
+ },
+ "dc26-503banglet": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 141892,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "dc5032018banglet.brd"
+ },
+ "dc26-e-paper-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 194744,
+  "tried": [],
+  "src": "kicad-teensy-epaper.kicad_pcb"
+ },
+ "dc26-sympetrum-v3-dragonfly-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 601824,
+  "tried": [],
+  "src": "Hardware/Badge/Sympetrum-V3 FF3.kicad_pcb"
+ },
+ "dc26-ubadge-microbadge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 40008,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "ubadge.brd"
+ },
+ "dc27-seckc-defcon-party-badge-sao": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 245084,
+  "tried": [],
+  "src": "Schematics/PartyStar.kicad_pcb"
+ },
+ "dc30-biohacking-village-badge-dc30": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 237296,
+  "tried": [],
+  "src": "CAD/Biohacking Village Badge - Gutz-Girl.kicad_pcb"
+ },
+ "dc31-crew-sao": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 44080,
+  "tried": [],
+  "src": "crew SAO/crew-SAO.kicad_pcb"
+ },
+ "dc31-sao-defcon-jack": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 21104,
+  "tried": [],
+  "src": "pcb/defcon31_sao.kicad_pcb"
+ },
+ "dc31-space-shuttle-sao": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 89708,
+  "tried": [],
+  "src": "space_shuttle_SAO/space_shuttle_SAO.kicad_pcb"
+ },
+ "dc31-speaker-sao": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 44260,
+  "tried": [],
+  "src": "speaker SAO/speaker-SAO.kicad_pcb"
+ },
+ "dc32-hackbat-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 175564,
+  "tried": [],
+  "src": "kicad/defcon32_badge.kicad_pcb"
+ },
+ "dc33-hhvdc33-badge-driving-module-and-sao9000-connector-standard": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 278832,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "Badge_PCB.brd"
+ },
+ "dc34-omni-tag": {
+  "status": "ok",
+  "method": "gerber",
+  "bytes": 94616,
+  "tried": [],
+  "src": "Clip-Boy/hardware/Gerber_Motherboard.zip"
+ },
+ "disobey-2017-disobey-2017-badge": {
+  "status": "ok",
+  "method": "gerber",
+  "bytes": 140756,
+  "tried": [],
+  "src": "hw/Gerber_v7"
+ },
+ "disobey-2018-disobey-2018-badge": {
+  "status": "failed",
+  "tried": []
  }
 }

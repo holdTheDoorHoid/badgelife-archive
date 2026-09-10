@@ -12,7 +12,7 @@ makers:
 - name: Aerospace Village
   url: https://github.com/AerospaceVillage
 summary: A simple switch-activated single-LED SAO made by the Aerospace Village for DEF CON 31, part of a family of SAOs alongside the crew SAO and space shuttle SAO from the same badge repo.
-functions: 'Press the SPDT switch to light a single LED, powered by its own coin cell.'
+functions: Press the SPDT switch to light a single LED, powered by its own coin cell.
 look:
   colors: []
   shape: null
@@ -71,24 +71,15 @@ research:
   status: researched
   confidence: low
   last_checked: '2026-09-08'
-  notes: >-
-    Fact-check pass (2026-09-08): re-verified all cited sources directly (repo file listing,
-    root README, and the raw .kicad_sch schematic) rather than trusting the prior summary, and
-    confirmed the folder/README/schematic claims all hold up — the lib_symbols in the schematic
-    are exactly Connector_Generic (2x3, 6-pin), Battery_Cell, LED, R, and SW_SPDT with no MCU
-    symbol, matching the "none" mcu / single discrete LED / coin-cell / v2 6-pin write-up. The
-    gerbers_zipped folder does contain AVspeaker2023_v1.zip, and the images/ folder does contain
-    only the decorative "Runway_markings_no_words - 31.svg" graphic, not a photo of the item. A
-    fresh search for press coverage of this SAO also returned nothing. One field was corrected:
-    look.themes had 'space' with nothing in any source tying this specific SAO (a plain
-    switch/LED board with no artwork beyond the shared runway graphic) to a space theme — that
-    looks like an inference from the Aerospace Village name and its sibling "space_shuttle_SAO",
-    not a documented fact about this item, so it has been blanked. No README, blog post, or press
-    coverage names a specific price, quantity, or distribution method for this SAO specifically.
-    The "speaker" in the title likely refers to this being given to DEF CON 31 speakers (a guess,
-    not confirmed by any source, so left out of the write-up). Event/year (DEF CON 31, 2023)
-    already matched the entry and needed no correction.
-last_modified_date: '2026-09-08'
+  notes: 'Fact-check pass (2026-09-08): re-verified all cited sources directly (repo file listing, root README, and the raw .kicad_sch schematic) rather than trusting the prior summary, and confirmed the folder/README/schematic claims all hold up — the lib_symbols in the schematic are exactly Connector_Generic (2x3, 6-pin), Battery_Cell, LED, R, and SW_SPDT with no MCU symbol, matching the "none" mcu / single discrete LED / coin-cell / v2 6-pin write-up. The gerbers_zipped folder does contain AVspeaker2023_v1.zip, and the images/ folder does contain only the decorative "Runway_markings_no_words - 31.svg" graphic, not a photo of the item. A fresh search for press coverage of this SAO also returned nothing. One field was corrected: look.themes had ''space'' with nothing in any source tying this specific SAO (a plain switch/LED board with no artwork beyond the shared runway graphic) to a space theme — that looks like an inference from the Aerospace Village name and its sibling "space_shuttle_SAO",
+    not a documented fact about this item, so it has been blanked. No README, blog post, or press coverage names a specific price, quantity, or distribution method for this SAO specifically. The "speaker" in the title likely refers to this being given to DEF CON 31 speakers (a guess, not confirmed by any source, so left out of the write-up). Event/year (DEF CON 31, 2023) already matched the entry and needed no correction.'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/dc31/speaker-sao.glb
+  method: kicad
+  source_file: speaker SAO/speaker-SAO.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 44260
 ---
 
 The speaker SAO is one of several small add-on boards the Aerospace Village produced for its DEF CON 31 (2023) badge, alongside a crew SAO and a space shuttle SAO from the same GitHub repository. It is a simple, microcontroller-free design: a single LED wired through an SPDT switch and a resistor, powered by its own coin cell rather than drawing power from the host badge, and it connects through a 6-pin SAO header.

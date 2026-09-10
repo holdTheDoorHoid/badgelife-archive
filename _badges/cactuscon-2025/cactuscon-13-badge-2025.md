@@ -38,7 +38,7 @@ get_one:
   distribution: []
   where: Distributed to attendees, speakers, staff and "Mafia" role variants at CactusCon 13.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/BadgePiratesLLC/CactusCon13
   firmware_url: null
   eda_tool: KiCad
@@ -60,13 +60,13 @@ links:
   kind: doc
 images:
 - file: assets/images/badges/cactuscon-2025/cactuscon-13-badge-2025/e96025a9c6.png
-  source: "https://www.badgepirates.com/"
-  credit: "Badge Pirates"
-  caption: "CactusCon 13 (2025) badge"
+  source: https://www.badgepirates.com/
+  credit: Badge Pirates
+  caption: CactusCon 13 (2025) badge
 contact: {}
 notes:
 - Official conference badge for CactusCon 13 (2025), made by Badge Pirates. Found by the event-year sweep, task con-layerone.
-- 'Badge Pirates'' own platform docs describe the shared ESP32-S3 hardware (used by CactusCon 13, CactusCon 14, and BSidesKC 2025/2026) as having a 320x240 SPI display and 6 NeoPixels, but did not confirm these specifics apply to the CC13 board itself, so LED count/type is left blank rather than assumed.'
+- Badge Pirates' own platform docs describe the shared ESP32-S3 hardware (used by CactusCon 13, CactusCon 14, and BSidesKC 2025/2026) as having a 320x240 SPI display and 6 NeoPixels, but did not confirm these specifics apply to the CC13 board itself, so LED count/type is left blank rather than assumed.
 status: released
 sources:
 - kind: url
@@ -98,8 +98,14 @@ research:
   status: researched
   confidence: medium
   last_checked: '2026-09-10'
-  notes: 'Core facts (maker, event/year, MCU, display, battery, open-source status) confirmed via badge.gallery, the maker''s own GitHub repo, and BadgePirates'' own site/docs. Exact LED count/type, price, and quantity produced were not found in any source and are left blank rather than assumed. No firmware repo link was found (hardware repo only contains CAD/3D-print/reference docs).'
+  notes: Core facts (maker, event/year, MCU, display, battery, open-source status) confirmed via badge.gallery, the maker's own GitHub repo, and BadgePirates' own site/docs. Exact LED count/type, price, and quantity produced were not found in any source and are left blank rather than assumed. No firmware repo link was found (hardware repo only contains CAD/3D-print/reference docs).
 last_modified_date: '2026-09-10'
+model:
+  file: assets/models/cactuscon-2025/cactuscon-13-badge-2025.glb
+  method: kicad
+  source_file: CAD-OuterBoard/Project-CC13_outer_v2_Attendee.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 626312
 ---
 
 The CactusCon 13 Badge is the official electronic conference badge for CactusCon 13, held February 14-15, 2025 at the Mesa Convention Center in Arizona. It was designed and produced by Badge Pirates, a group known for building conference badges for numerous hacker cons since 2018. The badge is built around an ESP32-S3 (WROOM, N16-class) microcontroller and features an SPI TFT display with touch input, two push buttons, and a rotary dial, along with USB serial programming, a microSD card slot, and a buzzer. Power comes from dual 14500 cells with LiPo charging and fuel-gauge circuitry, and the design uses interchangeable outer boards to distinguish attendee, speaker, staff, and "Mafia" role variants.

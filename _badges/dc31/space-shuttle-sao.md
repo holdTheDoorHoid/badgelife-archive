@@ -12,7 +12,7 @@ makers:
 - name: Aerospace Village
   url: https://github.com/AerospaceVillage
 summary: A Space Shuttle-shaped SAO from the Aerospace Village, with a single LED lit by its own coin cell so it glows independently of the host badge.
-functions: 'Lights a single LED, switched on and off with an onboard slide switch; not powered from the badge SAO header.'
+functions: Lights a single LED, switched on and off with an onboard slide switch; not powered from the badge SAO header.
 look:
   colors: []
   shape: spaceship
@@ -37,7 +37,7 @@ get_one:
   - village
   where: Distributed by the Aerospace Village at DEF CON 31 (2023); exact distribution method not stated in the repo.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/AerospaceVillage/avBadge_2023/tree/main/space_shuttle_SAO
   firmware_url: null
   eda_tool: KiCad
@@ -53,13 +53,13 @@ links:
   note: 'Repo README: "Aerospace Village Badge(s) for Def Con 2023" — parent repo covering the Wright Flyer badge, the Wright Stuff badge, and several SAOs including this one.'
 images:
 - file: assets/images/badges/dc31/space-shuttle-sao/9e6b593173.jpg
-  source: "https://github.com/AerospaceVillage/avBadge_2023/tree/main/space_shuttle_SAO"
-  credit: "Aerospace Village"
-  caption: "KiCad PCB render of the Space Shuttle SAO"
+  source: https://github.com/AerospaceVillage/avBadge_2023/tree/main/space_shuttle_SAO
+  credit: Aerospace Village
+  caption: KiCad PCB render of the Space Shuttle SAO
 contact: {}
 notes:
 - Spotted by a research agent while working on a neighbouring entry (run 4).
-- 'Sheet/sweep used the raw filename "space_shuttle_SAO" as the title; kept as-is since no other name appears in the repo.'
+- Sheet/sweep used the raw filename "space_shuttle_SAO" as the title; kept as-is since no other name appears in the repo.
 status: released
 sources:
 - kind: url
@@ -81,8 +81,14 @@ research:
   status: researched
   confidence: medium
   last_checked: '2026-09-08'
-  notes: 'Confirmed via the maker''s own GitHub repo and its bill-of-materials/KiCad files, so the hardware details are solid, but no press coverage, storefront, or distribution details (price, quantity, how it was handed out) were found, hence medium rather than high confidence. No separate README or write-up exists for this specific SAO beyond the CAD files.'
-last_modified_date: '2026-09-08'
+  notes: Confirmed via the maker's own GitHub repo and its bill-of-materials/KiCad files, so the hardware details are solid, but no press coverage, storefront, or distribution details (price, quantity, how it was handed out) were found, hence medium rather than high confidence. No separate README or write-up exists for this specific SAO beyond the CAD files.
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/dc31/space-shuttle-sao.glb
+  method: kicad
+  source_file: space_shuttle_SAO/space_shuttle_SAO.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 89708
 ---
 
 The Space Shuttle SAO is one of several add-on boards the Aerospace Village produced for DEF CON 31 (2023), alongside its main Wright Flyer and Wright Stuff badges. It is a simple, self-contained board shaped like the shuttle orbiter: a coin-cell battery, a current-limiting resistor, a slide switch, and a single LED, wired so the LED lights from the onboard battery rather than from the host badge's SAO power pins. Flipping the switch turns the light on or off independently of whatever badge it is plugged into.

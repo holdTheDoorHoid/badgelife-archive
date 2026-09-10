@@ -107,6 +107,12 @@ last_modified_date: '2026-09-10'
 redirect_from:
 - /badges/dc27/seckc-party-star/
 - /badges/dc27/defcon-seckcpartystar-27/
+model:
+  file: assets/models/dc27/seckc-defcon-party-badge-sao.glb
+  method: kicad
+  source_file: Schematics/PartyStar.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 245084
 ---
 
 BadgePirates made this sheriff-star-shaped party badge for the SecKC crew's gathering at DEF CON 27 in 2019. The design is a gold-plated star on black PCB reading "SECKC" and "The World Again" around a circuit-board-styled crest, with lights built into the star's points; BadgePirates' own project catalog files it as a "party variant" of that year's SecKC conference badge rather than as a plug-in SAO, despite the promotional artwork in the GitHub repo being named as if it were one.

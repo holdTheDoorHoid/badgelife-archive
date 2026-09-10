@@ -121,6 +121,15 @@ last_modified_date: '2026-09-10'
 redirect_from:
 - /badges/dc25/tindie-hackaday-robodog-head-badge-a-k-a-blinky-led-badge/
 - /badges/dc25/ohm-the-tindie-dog-solder-kit-badge/
+model:
+  file: assets/models/dc25/tindie-blinky-led-badge-v1.glb
+  method: gerber
+  source_file: FullBoard.zip/Gerbers
+  generated: '2026-09-10'
+  bytes: 283836
+  size_mm:
+  - 97.0
+  - 103.0
 ---
 
 

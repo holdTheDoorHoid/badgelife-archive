@@ -16,7 +16,7 @@ makers:
 - name: BearsInPorts
   role: PCB silkscreen art
 summary: A beginner soldering kit and light-up badge for BSidesDFW 2024, built around a 555 timer and 74HC595 shift register driving 13 through-hole LEDs in a chasing pattern.
-functions: 'Chasing LED animation across 13 LEDs, driven by a 555-timer clock into a tri-state 74HC595 shift register operated in LED-sink mode. Chase speed is adjustable via an onboard potentiometer.'
+functions: Chasing LED animation across 13 LEDs, driven by a 555-timer clock into a tri-state 74HC595 shift register operated in LED-sink mode. Chase speed is adjustable via an onboard potentiometer.
 look:
   colors: []
   shape: null
@@ -42,7 +42,7 @@ get_one:
   - kit
   where: Distributed to BSidesDFW 2024 attendees as an event badge/soldering kit.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/hon1nbo/bsidesdfw-2024-badge
   firmware_url: null
   eda_tool: KiCad
@@ -55,9 +55,9 @@ links:
   kind: repo
 images:
 - file: assets/images/badges/bsidesdfw-2024/bsidesdfw-2024-badge/45de1ca35c.gif
-  source: "https://github.com/hon1nbo/bsidesdfw-2024-badge"
-  credit: "hon1nbo"
-  caption: "LED chase animation on the assembled badge"
+  source: https://github.com/hon1nbo/bsidesdfw-2024-badge
+  credit: hon1nbo
+  caption: LED chase animation on the assembled badge
 contact: {}
 notes:
 - Official BSidesDFW 2024 conference badge and beginner soldering kit built around a 555-timer clock feeding a 74HC595 shift register driving a chasing-light LED matrix, running on a 6V coin cell. Found by the event-year sweep, task bsides-bsidesdfw.
@@ -83,8 +83,14 @@ research:
   status: researched
   confidence: high
   last_checked: '2026-09-10'
-  notes: 'Maker''s own repo confirms the badge, its team, and its design in detail. Price and production quantity are not published anywhere found. Battery is described in the README as "6v supply in the form of coin cells" (plural) but the exact cell count/type is not spelled out beyond that, so battery is recorded as best-supported text rather than a specific part number. type changed from badge to kit since the maker positions it primarily as a beginner soldering kit.'
+  notes: Maker's own repo confirms the badge, its team, and its design in detail. Price and production quantity are not published anywhere found. Battery is described in the README as "6v supply in the form of coin cells" (plural) but the exact cell count/type is not spelled out beyond that, so battery is recorded as best-supported text rather than a specific part number. type changed from badge to kit since the maker positions it primarily as a beginner soldering kit.
 last_modified_date: '2026-09-10'
+model:
+  file: assets/models/bsidesdfw-2024/bsidesdfw-2024-badge.glb
+  method: kicad
+  source_file: KiCAD files/bsidesdfw badge 2024.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 183320
 ---
 
 The BSidesDFW 2024 badge is a beginner-friendly soldering kit distributed to attendees of the conference. Rather than using a microcontroller, it teaches through-hole soldering and basic hardware design with a purely discrete circuit: a 555 timer generates a clock signal (speed adjustable with an onboard potentiometer), which feeds a 74HC595 shift register wired in tri-state sink mode. The shift register walks a single "on" position across 13 LEDs in sequence, creating a chasing-light effect, and running the LEDs in sink mode let the designers use brighter LEDs without adding separate drive transistors. Power comes from a coin-cell battery holder providing roughly 6V, with the diode's forward voltage drop used in place of a linear regulator to keep the bill of materials simple and beginner-friendly.

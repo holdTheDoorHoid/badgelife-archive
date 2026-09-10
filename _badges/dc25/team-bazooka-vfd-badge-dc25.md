@@ -44,18 +44,18 @@ links:
 - label: github.com/TeamBazooka/DC25
   url: https://github.com/TeamBazooka/DC25
   kind: repo
-- label: "Hackaday: All The Hardware Badges Of DEF CON 25 – Team Bazooka VFD Badge"
+- label: 'Hackaday: All The Hardware Badges Of DEF CON 25 – Team Bazooka VFD Badge'
   url: https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/team-bazooka-vfd-badge/
   kind: article
 images:
-  - file: assets/images/badges/dc25/team-bazooka-vfd-badge-dc25/6800f58f3a.jpg
-    source: "https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/team-bazooka-vfd-badge/"
-    credit: "Hackaday / Mike Szczys"
-    caption: "Front of the Team Bazooka VFD badge, showing the vacuum fluorescent display"
-  - file: assets/images/badges/dc25/team-bazooka-vfd-badge-dc25/4db37d32e3.jpg
-    source: "https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/team-bazooka-vfd-badge-back-shows-18650/"
-    credit: "Hackaday / Mike Szczys"
-    caption: "Back of the badge, showing the 18650 cell battery holder"
+- file: assets/images/badges/dc25/team-bazooka-vfd-badge-dc25/6800f58f3a.jpg
+  source: https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/team-bazooka-vfd-badge/
+  credit: Hackaday / Mike Szczys
+  caption: Front of the Team Bazooka VFD badge, showing the vacuum fluorescent display
+- file: assets/images/badges/dc25/team-bazooka-vfd-badge-dc25/4db37d32e3.jpg
+  source: https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/team-bazooka-vfd-badge-back-shows-18650/
+  credit: Hackaday / Mike Szczys
+  caption: Back of the badge, showing the 18650 cell battery holder
 contact: {}
 notes:
 - Sweep's original note called it "ultra-rare (reportedly one unit)... built for DEF CON 25 around an ATmega and 18650 cell"; that line is now confirmed by Hackaday's DEF CON 25 badge roundup, which independently describes it as "an ultra-rare badge -- so far there's only one."
@@ -73,24 +73,21 @@ sources:
   note: 'No README; confirmed via schematic (DC25.sch) and library (DC25.lib) contents: VFD component, ATMEGA328P-AU, 18650 battery cell, 8x WS2812B LEDs. firmware/platformio.ini targets an Arduino Nano (atmega328) with LiquidCrystal library, consistent with an HD44780-protocol VFD.'
 - kind: url
   url: https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/team-bazooka-vfd-badge/
-  title: "All The Hardware Badges Of DEF CON 25 – Team Bazooka VFD Badge"
+  title: All The Hardware Badges Of DEF CON 25 – Team Bazooka VFD Badge
   accessed: '2026-09-10'
-  note: 'Confirms the badge is real (not just a search snippet), describes it as the only DEF CON 25 badge with a vacuum fluorescent display, HD44780-compatible, ATmega-based, 18650-powered, and states only one unit existed as of the article.'
+  note: Confirms the badge is real (not just a search snippet), describes it as the only DEF CON 25 badge with a vacuum fluorescent display, HD44780-compatible, ATmega-based, 18650-powered, and states only one unit existed as of the article.
 research:
   status: verified
   confidence: medium
   last_checked: '2026-09-10'
-  notes: >-
-    Existence and core specs confirmed by an independent Hackaday article plus the maker's own
-    KiCad/Arduino source files, so this is upgraded from a bare search-snippet stub. Left rumored/low-
-    quantity because Hackaday itself calls it a one-off and no storefront, price, or distribution
-    method was ever found -- it reads as a personal build shown off at the con rather than something
-    handed out or sold. functions, look.colors/shape, get_one.price, and contact are still empty:
-    no source described what the display actually showed or gave the badge's shape/color scheme
-    beyond "black PCB with a VFD tube," and no maker contact info was published anywhere found.
-    firmware.ino in the repo is an empty placeholder file, so firmware_url points at the folder
-    rather than a working sketch.
+  notes: 'Existence and core specs confirmed by an independent Hackaday article plus the maker''s own KiCad/Arduino source files, so this is upgraded from a bare search-snippet stub. Left rumored/low- quantity because Hackaday itself calls it a one-off and no storefront, price, or distribution method was ever found -- it reads as a personal build shown off at the con rather than something handed out or sold. functions, look.colors/shape, get_one.price, and contact are still empty: no source described what the display actually showed or gave the badge''s shape/color scheme beyond "black PCB with a VFD tube," and no maker contact info was published anywhere found. firmware.ino in the repo is an empty placeholder file, so firmware_url points at the folder rather than a working sketch.'
 last_modified_date: '2026-09-10'
+model:
+  file: assets/models/dc25/team-bazooka-vfd-badge-dc25.glb
+  method: kicad
+  source_file: hardware/DC25.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 190156
 ---
 
 Team Bazooka's DEF CON 25 badge is a hand-built one-off notable for using a vacuum fluorescent

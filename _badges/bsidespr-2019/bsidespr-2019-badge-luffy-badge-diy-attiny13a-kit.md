@@ -39,7 +39,7 @@ get_one:
   - kit
   where: Distributed as a soldering/assembly kit to BSides Puerto Rico 2019 attendees; not sold as a product.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/soynerdito/BSidesPR_2019_Badge
   firmware_url: https://github.com/soynerdito/BSidesPR_2019_Badge
   eda_tool: KiCad
@@ -56,17 +56,17 @@ links:
   url: https://bsidesprbadge2019.readthedocs.io/
   kind: doc
 images:
-  - file: assets/images/badges/bsidespr-2019/bsidespr-2019-badge-luffy-badge-diy-attiny13a-kit/d700f9fe08.jpg
-    source: "https://github.com/soynerdito/BSidesPR_2019_Badge"
-    credit: "soynerdito"
-    caption: "Assembled front of the BSides Puerto Rico 2019 DIY ATtiny13A badge kit"
-  - file: assets/images/badges/bsidespr-2019/bsidespr-2019-badge-luffy-badge-diy-attiny13a-kit/01362e5253.jpg
-    source: "https://github.com/soynerdito/BSidesPR_2019_Badge"
-    credit: "soynerdito"
-    caption: "3D render of the BSides Puerto Rico 2019 DIY badge PCB"
+- file: assets/images/badges/bsidespr-2019/bsidespr-2019-badge-luffy-badge-diy-attiny13a-kit/d700f9fe08.jpg
+  source: https://github.com/soynerdito/BSidesPR_2019_Badge
+  credit: soynerdito
+  caption: Assembled front of the BSides Puerto Rico 2019 DIY ATtiny13A badge kit
+- file: assets/images/badges/bsidespr-2019/bsidespr-2019-badge-luffy-badge-diy-attiny13a-kit/01362e5253.jpg
+  source: https://github.com/soynerdito/BSidesPR_2019_Badge
+  credit: soynerdito
+  caption: 3D render of the BSides Puerto Rico 2019 DIY badge PCB
 contact: {}
 notes:
-- "The discovery sweep's title called this the 'Luffy Badge'; no source found (GitHub repo, badge.gallery, or the ReadTheDocs build guide) uses that name anywhere. Title corrected to drop it; original sweep wording preserved here for reference."
+- The discovery sweep's title called this the 'Luffy Badge'; no source found (GitHub repo, badge.gallery, or the ReadTheDocs build guide) uses that name anywhere. Title corrected to drop it; original sweep wording preserved here for reference.
 status: released
 sources:
 - kind: url
@@ -83,18 +83,24 @@ sources:
   url: https://badge.gallery/events/bsidespr-2019
   title: BSides Puerto Rico 2019 - badge.gallery
   accessed: '2026-09-10'
-  note: 'Confirms ATtiny13A, two red/blue LEDs, two 680 ohm resistors, slide switch, CR2032 battery, and "police lights and fade" sample firmware.'
+  note: Confirms ATtiny13A, two red/blue LEDs, two 680 ohm resistors, slide switch, CR2032 battery, and "police lights and fade" sample firmware.
 - kind: url
   url: https://bsidesprbadge2019.readthedocs.io/
   title: BSides PR 2019 Badge Documentation
   accessed: '2026-09-10'
-  note: 'Overview text and assembly steps; confirms DIY kit distribution and bill of materials; no mention of a "Luffy" name.'
+  note: Overview text and assembly steps; confirms DIY kit distribution and bill of materials; no mention of a "Luffy" name.
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-10'
-  notes: 'Core facts (maker, chip, LEDs, power, open-source status) are confirmed directly from the maker''s own repo, docs site, and badge.gallery, which all agree. Price and quantity made are not stated anywhere found, so left empty. No "Luffy" reference exists in any source; treated as a sweep error rather than an alternate name.'
+  notes: Core facts (maker, chip, LEDs, power, open-source status) are confirmed directly from the maker's own repo, docs site, and badge.gallery, which all agree. Price and quantity made are not stated anywhere found, so left empty. No "Luffy" reference exists in any source; treated as a sweep error rather than an alternate name.
 last_modified_date: '2026-09-10'
+model:
+  file: assets/models/bsidespr-2019/bsidespr-2019-badge-luffy-badge-diy-attiny13a-kit.glb
+  method: kicad
+  source_file: LuffyBadge2019_BSides.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 164892
 ---
 
 The BSides Puerto Rico 2019 badge is a do-it-yourself, through-hole soldering kit that maker soynerdito designed for that year's conference, continuing a tradition of building a different badge for BSidesPR each year. Rather than being handed out fully assembled, it was distributed as a kit of DIP (through-hole) parts for attendees to solder themselves, aimed at people with little to no soldering experience.

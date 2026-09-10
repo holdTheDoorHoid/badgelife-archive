@@ -55,18 +55,22 @@ links:
 - label: github.com/bornhack/badge2019
   url: https://github.com/bornhack/badge2019
   kind: repo
+  archived: https://web.archive.org/web/20251125035429/https://github.com/bornhack/badge2019
 - label: 'Hands-On: BornHack''s Light Sabre Badge (Hackaday)'
   url: https://hackaday.com/2019/09/13/hands-on-bornhacks-light-sabre-badge/
   kind: article
+  archived: https://web.archive.org/web/20260316055747/https://hackaday.com/2019/09/13/hands-on-bornhacks-light-sabre-badge/
 images:
 - file: assets/images/badges/bornhack-2019/bornhack-2019-badge/a9c5f6c2e2.jpg
   source: https://hackaday.com/2019/09/13/hands-on-bornhacks-light-sabre-badge/
   credit: Hackaday
   caption: Front of the BornHack 2019 badge, showing the lightsaber-inspired handle and 240x240 color display
+  archived: https://web.archive.org/web/20260316055747/https://hackaday.com/2019/09/13/hands-on-bornhacks-light-sabre-badge/
 - file: assets/images/badges/bornhack-2019/bornhack-2019-badge/e458516dd3.jpg
   source: https://hackaday.com/2019/09/13/hands-on-bornhacks-light-sabre-badge/
   credit: Hackaday
   caption: Back of the BornHack 2019 badge showing the AA battery holders and exposed serial/I2C pads
+  archived: https://web.archive.org/web/20260316055747/https://hackaday.com/2019/09/13/hands-on-bornhacks-light-sabre-badge/
 contact: {}
 notes:
 - From the user's 'SAOs to buy' link list (2026-09-07).
@@ -77,6 +81,7 @@ sources:
   title: BornHack 2019 badge
   accessed: '2026-09-07'
   note: 'Found by the archive''s discovery sweep (angle: tobuy-linkfile); event read as ''bornhack-2019''.'
+  archived: https://web.archive.org/web/20251125035429/https://github.com/bornhack/badge2019
 - kind: url
   url: https://github.com/bornhack/badge2019/tree/hardware
   title: bornhack/badge2019 at hardware
@@ -87,6 +92,7 @@ sources:
   title: 'Hands-On: BornHack''s Light Sabre Badge'
   accessed: '2026-09-07'
   note: Form factor, designer name, button/joystick layout, 2xAA battery, IR emitter/receiver detail, ~500 units assembled on-site by volunteers, given free to attendees, front/back photos.
+  archived: https://web.archive.org/web/20260316055747/https://hackaday.com/2019/09/13/hands-on-bornhacks-light-sabre-badge/
 research:
   status: researched
   confidence: high
