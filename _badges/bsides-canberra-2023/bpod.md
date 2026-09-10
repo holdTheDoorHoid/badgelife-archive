@@ -47,12 +47,14 @@ links:
 - label: gitlab.com/pjranki/bpod
   url: https://gitlab.com/pjranki/bpod
   kind: repo
+  archived: https://web.archive.org/web/20260511034302/https://gitlab.com/pjranki/bpod
 - label: bPod firmware updater
   url: https://bpod.bsidescbr.com.au/update.html
   kind: doc
 - label: Pimping my bPod Badge (Bleepity Bloopity)
   url: https://bleepitybloopity.com/posts/bpod-upgrades/
   kind: article
+  archived: https://web.archive.org/web/20260606201500/https://bleepitybloopity.com/posts/bpod-upgrades/
 - label: BSides Canberra 2023 badge CTF writeups (h4sh5)
   url: https://github.com/h4sh5/bsidescbr-2023-writeups
   kind: article
@@ -61,10 +63,12 @@ images:
   source: https://bleepitybloopity.com/posts/bpod-upgrades/
   credit: Peter Rankin (pjranki)
   caption: bPod badge front
+  archived: https://web.archive.org/web/20260606201500/https://bleepitybloopity.com/posts/bpod-upgrades/
 - file: assets/images/badges/bsides-canberra-2023/bpod/f73c54ae9a.jpg
   source: https://bleepitybloopity.com/posts/bpod-upgrades/
   credit: Peter Rankin (pjranki)
   caption: bPod case render
+  archived: https://web.archive.org/web/20260606201500/https://bleepitybloopity.com/posts/bpod-upgrades/
 contact: {}
 notes:
 - ESP32-S2 colour-screen BSides Canberra 2023 badge with iPod-style scroll-wheel controls, games and hardware tools; KiCad hardware, firmware, updater and server source published on GitLab. Found by the event-year sweep, task bsides-canberra.
@@ -75,11 +79,13 @@ sources:
   title: bPod
   accessed: '2026-09-07'
   note: 'Found by the archive''s discovery sweep (angle: sweep:bsides-canberra); event read as ''BSides Canberra 2023''.'
+  archived: https://web.archive.org/web/20260511034302/https://gitlab.com/pjranki/bpod
 - kind: url
   url: https://bleepitybloopity.com/posts/bpod-upgrades/
   title: Pimping my bPod Badge
   accessed: '2026-09-10'
   note: Confirmed maker, event/year, iPod-nano design intent, ESP32-S2 MCU, ST7735 display, scroll-wheel UI, RGB LEDs, USB-C, open-source KiCad files; source of the two saved images.
+  archived: https://web.archive.org/web/20260606201500/https://bleepitybloopity.com/posts/bpod-upgrades/
 - kind: url
   url: https://github.com/h4sh5/bsidescbr-2023-writeups
   title: Bsides Canberra 2023 Badge challenges writeup

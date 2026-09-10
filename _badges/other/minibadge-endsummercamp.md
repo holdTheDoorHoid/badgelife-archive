@@ -79,7 +79,13 @@ research:
   confidence: medium
   last_checked: '2026-09-07'
   notes: Made for "End Summer Camp" (ESC), an Italian hacker camp/CHAOS-style event; no matching event id exists in _data/events.yml, so event is left as "other". Price, quantity made, and distribution/availability were not stated anywhere in the repo or its docs; left empty. No storefront or press coverage found in a short search beyond the GitHub repo itself.
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/other/minibadge-endsummercamp.glb
+  method: kicad
+  source_file: antani_hw/antani_hw.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 244816
 ---
 
 The End Summer Camp Mini Badge 2024 was, per the maker's own README, "the first official ESC badge with a microcontroller" — a step up for End Summer Camp (ESC), an Italian hacker camp, from earlier passive badges. It is built around an RP2040 microcontroller driving 9 RGB(W) LEDs through a composable animation engine, with more than a dozen built-in light patterns (with names like "hacker glider," "gigaPride," and "under arrest") that attendees cycle through with a button press.

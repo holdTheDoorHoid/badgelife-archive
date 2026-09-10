@@ -93,7 +93,13 @@ research:
   confidence: medium
   last_checked: '2026-09-07'
   notes: This is a 2018 Hackaday Prize entry, not a badge made for a specific hacker con, so there is no matching event id in events.yml; left as event "other". Originally described by the maker as a Valentine's Day gift project. No live storefront was found to confirm final price, quantity made, or current availability; repo's Gerbers/BOM were not directly inspected beyond the folder listing.
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/other/led-ble-hearty-necklace-badge.glb
+  method: kicad
+  source_file: Vday/Vday.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 429792
 ---
 
 The Hearty LED Necklace/Badge is a heart-shaped wearable built by Nitesh Kadyan, entered in the 2018 Hackaday Prize. An 8x16 grid of 128 tiny 0603 LEDs, driven by two daisy-chained 74HC595 shift registers and a ULN2803 sink driver off an ATmega328p, forms a small heart-shaped matrix display. An HM-11 Bluetooth Low Energy module lets a companion Android app push custom scrolling text messages to the badge wirelessly; later firmware updates added simple games, including Tetris and Snake, playable on the same matrix. It runs off a 320 mAh LiPo battery with onboard charge management.

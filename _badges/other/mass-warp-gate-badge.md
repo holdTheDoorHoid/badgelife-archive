@@ -39,7 +39,7 @@ get_one:
   distribution: []
   where: ''
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/seeigecannon/MassWarpGateBadge
   firmware_url: null
   eda_tool: KiCad
@@ -51,14 +51,14 @@ links:
   url: https://github.com/seeigecannon/MassWarpGateBadge
   kind: repo
 images:
-  - file: assets/images/badges/other/mass-warp-gate-badge/0432aaffe6.jpg
-    source: "https://github.com/seeigecannon/MassWarpGateBadge"
-    credit: "seeigecannon"
-    caption: "3D CAD render of the front of the Mass Warp Gate Badge PCB, an early rectangular electrical prototype with a 4-digit LED clock display"
-  - file: assets/images/badges/other/mass-warp-gate-badge/abacf2b424.jpg
-    source: "https://github.com/seeigecannon/MassWarpGateBadge"
-    credit: "seeigecannon"
-    caption: "3D CAD render of the other side of the prototype board, showing the discrete-logic clock circuitry (LED digit array, logic ICs, set switches) and the external/USB power connector"
+- file: assets/images/badges/other/mass-warp-gate-badge/0432aaffe6.jpg
+  source: https://github.com/seeigecannon/MassWarpGateBadge
+  credit: seeigecannon
+  caption: 3D CAD render of the front of the Mass Warp Gate Badge PCB, an early rectangular electrical prototype with a 4-digit LED clock display
+- file: assets/images/badges/other/mass-warp-gate-badge/abacf2b424.jpg
+  source: https://github.com/seeigecannon/MassWarpGateBadge
+  credit: seeigecannon
+  caption: 3D CAD render of the other side of the prototype board, showing the discrete-logic clock circuitry (LED digit array, logic ICs, set switches) and the external/USB power connector
 contact: {}
 notes:
 - From the user's 'SAOs to buy' link list (2026-09-07).
@@ -83,46 +83,16 @@ research:
   status: verified
   confidence: low
   last_checked: '2026-09-07'
-  notes: >-
-    Fact-check pass (2026-09-07): re-fetched the repo, its commit history, and
-    the schematic.pdf (rendered locally to PNG page-by-page with pdftoppm,
-    since pdftotext again returned no text) and confirmed every technical
-    claim directly against the schematic: no MCU anywhere on the 7 sheets
-    (only 4000-series/74LS logic -- CD4060 oscillator off a 32.768kHz crystal,
-    4027/4520B counters, 4081 gates, 74LS247 BCD-to-7-segment decoders), a
-    "TimeKeeper" sheet feeding four 7-segment-display sheets (1 min/10 min/1
-    hr/10 hr = HH:MM), two headers labeled "SAO" (J5/J6), a 4x AAA holder plus
-    a separate USB/ext-power jack (J7) gated by an SPDT switch so the two
-    can't both feed VCC at once, and a 2-pin "Motor" connector (J2) with its
-    own on/off switch. Corrected two spots that overstated the motor
-    connector as a "motor driver" -- the schematic shows only a switch and
-    connector, no driver IC/H-bridge. Also corrected the back-image caption,
-    which claimed the render shows the SAO headers and battery/USB inputs;
-    zooming the saved image shows only the LED array, logic ICs, set
-    switches, and the J7 power connector -- the SAO headers and AAA holder
-    aren't visible in that particular render, so the caption now describes
-    only what the image actually shows. Both images matched their sources
-    (github.com/seeigecannon/MassWarpGateBadge) and depict this item. The
-    repo (created and last updated August 2023) still has no README, no
-    stated event, con, or price/availability info, and the GitHub description
-    field is empty -- this looks like a personal project shared for others to
-    build rather than something sold or distributed at a specific con, so
-    event stays "other" and status "unknown" rather than guessed. The DXF file
-    set (innerRing/outerRing/centerRings/ringCovers/mouseBites/shepard)
-    strongly implies the finished badge is a round, ring-shaped "mass relay"
-    model cut from a rectangular panel, but the only images in the repo are
-    CAD renders of the flat rectangular electrical-prototype board
-    (silkscreened "Badgelife Electrical Prototype"), not the assembled
-    ring-shaped final piece, so look.shape ("ring") is inferred from the
-    mechanical files rather than a photo of the finished item -- this is the
-    reason confidence stays "low" despite every stated technical fact being
-    directly confirmed. No firmware exists because the clock logic is
-    discrete ICs, not a microcontroller. Noted but not added to this entry:
-    the same GitHub user (seeigecannon) also has DC404TrainingBadge ("DC404
-    Learn to Solder Badge") and DC27EnterpriseBadge ("Enterprise Badge for
-    DC27") repos, which look like separate badgelife entries worth their own
-    research pass.
-last_modified_date: '2026-09-07'
+  notes: 'Fact-check pass (2026-09-07): re-fetched the repo, its commit history, and the schematic.pdf (rendered locally to PNG page-by-page with pdftoppm, since pdftotext again returned no text) and confirmed every technical claim directly against the schematic: no MCU anywhere on the 7 sheets (only 4000-series/74LS logic -- CD4060 oscillator off a 32.768kHz crystal, 4027/4520B counters, 4081 gates, 74LS247 BCD-to-7-segment decoders), a "TimeKeeper" sheet feeding four 7-segment-display sheets (1 min/10 min/1 hr/10 hr = HH:MM), two headers labeled "SAO" (J5/J6), a 4x AAA holder plus a separate USB/ext-power jack (J7) gated by an SPDT switch so the two can''t both feed VCC at once, and a 2-pin "Motor" connector (J2) with its own on/off switch. Corrected two spots that overstated the motor connector as a "motor driver" -- the schematic shows only a switch and connector, no driver IC/H-bridge. Also corrected the back-image caption, which claimed the render shows the SAO headers and battery/USB
+    inputs; zooming the saved image shows only the LED array, logic ICs, set switches, and the J7 power connector -- the SAO headers and AAA holder aren''t visible in that particular render, so the caption now describes only what the image actually shows. Both images matched their sources (github.com/seeigecannon/MassWarpGateBadge) and depict this item. The repo (created and last updated August 2023) still has no README, no stated event, con, or price/availability info, and the GitHub description field is empty -- this looks like a personal project shared for others to build rather than something sold or distributed at a specific con, so event stays "other" and status "unknown" rather than guessed. The DXF file set (innerRing/outerRing/centerRings/ringCovers/mouseBites/shepard) strongly implies the finished badge is a round, ring-shaped "mass relay" model cut from a rectangular panel, but the only images in the repo are CAD renders of the flat rectangular electrical-prototype board (silkscreened
+    "Badgelife Electrical Prototype"), not the assembled ring-shaped final piece, so look.shape ("ring") is inferred from the mechanical files rather than a photo of the finished item -- this is the reason confidence stays "low" despite every stated technical fact being directly confirmed. No firmware exists because the clock logic is discrete ICs, not a microcontroller. Noted but not added to this entry: the same GitHub user (seeigecannon) also has DC404TrainingBadge ("DC404 Learn to Solder Badge") and DC27EnterpriseBadge ("Enterprise Badge for DC27") repos, which look like separate badgelife entries worth their own research pass.'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/other/mass-warp-gate-badge.glb
+  method: kicad
+  source_file: MassEffect.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 506476
 ---
 
 The Mass Warp Gate Badge is a Mass Effect-themed take on the SAO badge format by GitHub user seeigecannon, built around the games' "mass relay" warp gates rather than any single armor or weapon. Instead of a microcontroller, the badge's four-digit HH:MM clock is driven entirely by a discrete-logic "TimeKeeper" counter board feeding custom LED segment digits -- an unusual choice for a badgelife project, most of which lean on an ESP32 or ATtiny. The board carries two SAO headers so it can also host other people's add-ons, runs off four AAA batteries or an external power jack, and includes a motor connector (with its own on/off switch) that appears intended to spin part of the badge, echoing the rotating rings of the in-game mass relay.

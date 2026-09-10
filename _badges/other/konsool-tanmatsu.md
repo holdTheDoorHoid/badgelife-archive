@@ -186,6 +186,15 @@ research:
 last_modified_date: '2026-09-10'
 redirect_from:
 - /badges/why-2025/tanmatsu-why2025-badge-pcb-design/
+model:
+  file: assets/models/other/konsool-tanmatsu.glb
+  method: gerber
+  source_file: tanmatsu.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 378756
+  size_mm:
+  - 114.9
+  - 129.9
 ---
 
 The Konsool is an open-source handheld computer design from Badge.Team, the Dutch collective behind many European hacker-camp badges. Sold pre-assembled by Nicolai Electronics as the "Tanmatsu" ("terminal" in Japanese), it pairs a dual-core ESP32-P4 RISC-V application processor with an ESP32-C6 for wireless (wifi, Bluetooth LE, 802.15.4/Zigbee) and an onboard LoRa module for mesh networking. The device is built as a PCB-and-3D-printed-shell sandwich with a silicone QWERTY keyboard on the front face beneath a 3.97" 800x480 MIPI DSI display running at 60Hz, plus addressable LEDs next to the screen, a speaker, a 3.5mm audio jack, and expansion via Qwiic, PMOD, and SAO connectors.

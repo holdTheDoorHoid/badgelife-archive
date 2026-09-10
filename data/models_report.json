@@ -1872,5 +1872,70 @@
   "bytes": 76188,
   "tried": [],
   "src": "Knight Rider Badge/KiCad8/kitt_0805.kicad_pcb"
+ },
+ "other-konsool-tanmatsu": {
+  "status": "ok",
+  "method": "gerber",
+  "bytes": 378756,
+  "tried": [
+   "kicad glb: Command '['/home/hoid/Desktop/badgelife-archive/tools/node_modules/.bin/gltf-transform', 'optimize', '/home/hoid/Desktop/badgelife-archive/data/hw/other-konsool"
+  ],
+  "src": "tanmatsu.kicad_pcb"
+ },
+ "other-led-ble-hearty-necklace-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 429792,
+  "tried": [],
+  "src": "Vday/Vday.kicad_pcb"
+ },
+ "other-light-rail": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 524584,
+  "tried": [],
+  "src": "hardware/kicad8.0/light_rail.kicad_pcb"
+ },
+ "other-lucy-sao-disenchanted-character": {
+  "status": "ok",
+  "method": "gerber",
+  "bytes": 104408,
+  "tried": [],
+  "src": "Badge_Cig_Ver 2.0.4/manufacturer & Production files/Gerber Files"
+ },
+ "other-map4": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 76968,
+  "tried": [],
+  "src": "kicad/map4_v9/MAP4.kicad_pcb"
+ },
+ "other-mass-warp-gate-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 506476,
+  "tried": [],
+  "src": "MassEffect.kicad_pcb"
+ },
+ "other-mexican-badgelife": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 82972,
+  "tried": [],
+  "src": "El_Santo/Kicad_Project/El_Santo/El_Santo.kicad_pcb"
+ },
+ "other-minibadge-display-devboard": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 388252,
+  "tried": [],
+  "src": "Minibadge Devboard.kicad_pcb"
+ },
+ "other-minibadge-endsummercamp": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 244816,
+  "tried": [],
+  "src": "antani_hw/antani_hw.kicad_pcb"
  }
 }

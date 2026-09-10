@@ -91,7 +91,13 @@ research:
   confidence: medium
   last_checked: '2026-09-07'
   notes: MAP4 is not a hacker-conference badge; it is a learn-to-solder blinky kit made for workshops at Maker's Asylum, a hackerspace in Mumbai, India (led in part by Mitch Altman, May 2016). No matching event exists in events.yml, so event is left as 'other'. No price, quantity made, or current availability was found; the Hackaday.io project is marked complete but does not state whether the kit is still distributed.
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/other/map4.glb
+  method: kicad
+  source_file: kicad/map4_v9/MAP4.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 76968
 ---
 
 MAP4 is a simple learn-to-solder badge built by Anool Mahidharia and Vaibhav Chhabra for workshops at Maker's Asylum, a hackerspace with locations in Mumbai and Delhi, India. The kit was built in May 2016 for a workshop led by Mitch Altman, and the project page was published to Hackaday.io in September 2017.

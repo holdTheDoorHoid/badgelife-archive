@@ -97,7 +97,13 @@ research:
   confidence: medium
   last_checked: '2026-09-07'
   notes: This is a general-purpose development board for the SAINTCON minibadge ecosystem, not something made for one specific convention or year -- it is a tool for builders creating their own minibadge displays, sold year-round via Tindie rather than tied to a single event. No event correction applies; left under "other". No LEDs or display of its own (it is a power/support board for other people's minibadge boards), so tech.leds and tech.display are left empty. Maker also sells a related "ATtiny 816/1616 Minibadge Devboard" on Tindie -- a different product, not this one.
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/other/minibadge-display-devboard.glb
+  method: kicad
+  source_file: Minibadge Devboard.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 388252
 ---
 
 The Minibadge Display Devboard is an open-source development board by Pips801 (Pips Engineering / Beehive Engineering) that handles the power electronics for custom-built SAINTCON minibadge displays. Rather than a badge or SAO itself, it is a support board: it takes USB-C or LiPo battery power and outputs three regulated 3.3V@1A rails, a clock signal, ground, and battery voltage, so someone designing their own minibadge display PCB does not need to solve battery charging, voltage regulation, or clock generation themselves. It connects either via castellated edge-mount pads for direct board-to-board designs or through WAGO push-in terminals for wired setups.

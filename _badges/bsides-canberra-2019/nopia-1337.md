@@ -53,6 +53,7 @@ links:
 - label: www.youtube.com/watch?v=T6UgVGUQrm4
   url: https://www.youtube.com/watch?v=T6UgVGUQrm4
   kind: video
+  archived: https://web.archive.org/web/20260621024731/https://www.youtube.com/watch?v=T6UgVGUQrm4
 - label: BSidesCbr/2019badge (GitHub)
   url: https://github.com/BSidesCbr/2019badge
   kind: repo
@@ -74,6 +75,7 @@ sources:
   title: Nopia 1337
   accessed: '2026-09-07'
   note: 'Found by the archive''s discovery sweep (angle: sweep:bsides-canberra); event read as ''BSides Canberra 2019''.'
+  archived: https://web.archive.org/web/20260621024731/https://www.youtube.com/watch?v=T6UgVGUQrm4
 - kind: url
   url: https://github.com/BSidesCbr/2019badge
   title: BSidesCbr/2019badge

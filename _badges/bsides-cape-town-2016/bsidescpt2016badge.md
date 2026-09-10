@@ -54,12 +54,15 @@ links:
 - label: BSides CPT Badge 2016 - Andrew Mohawk's
   url: https://www.andrewmohawk.com/2017/05/16/bsides-cpt-badge-2016/
   kind: article
+  archived: https://web.archive.org/web/20260608081138/https://andrewmohawk.com/2017/05/16/bsides-cpt-badge-2016/
 - label: Zombie Badges Take Over Security Con - Hackaday
   url: https://hackaday.com/2017/05/22/zombie-badges-take-over-security-con/
   kind: article
+  archived: https://web.archive.org/web/20260514041816/https://hackaday.com/2017/05/22/zombie-badges-take-over-security-con/
 - label: github.com/AndrewMohawk/BSidesBadge2016
   url: https://github.com/AndrewMohawk/BSidesBadge2016
   kind: repo
+  archived: https://web.archive.org/web/20260907104447/https://github.com/AndrewMohawk/BSidesBadge2016
 - label: BSides Cape Town 2016 Badge Walkthrough (YouTube)
   url: https://www.youtube.com/watch?v=w9I2ZdwkZjE
   kind: video
@@ -71,10 +74,12 @@ images:
   source: https://www.andrewmohawk.com/2017/05/16/bsides-cpt-badge-2016/
   credit: Andrew Mohawk
   caption: Finished BSides Cape Town 2016 badge
+  archived: https://web.archive.org/web/20260608081138/https://andrewmohawk.com/2017/05/16/bsides-cpt-badge-2016/
 - file: assets/images/badges/bsides-cape-town-2016/bsidescpt2016badge/bbcfbfa0d1.jpg
   source: https://www.andrewmohawk.com/2017/05/16/bsides-cpt-badge-2016/
   credit: Andrew Mohawk
   caption: BSides Cape Town 2016 badge PCB with silkscreen label
+  archived: https://web.archive.org/web/20260608081138/https://andrewmohawk.com/2017/05/16/bsides-cpt-badge-2016/
 contact: {}
 notes:
 - Spotted by a research agent while working on a neighbouring entry (run 2).
@@ -90,11 +95,13 @@ sources:
   title: BSides CPT Badge 2016 - Andrew Mohawk's
   accessed: '2026-09-07'
   note: Maker's own write-up; source for MCU, display, LEDs, battery, IR range, game mechanics, and player counts; also source of both saved images.
+  archived: https://web.archive.org/web/20260608081138/https://andrewmohawk.com/2017/05/16/bsides-cpt-badge-2016/
 - kind: url
   url: https://hackaday.com/2017/05/22/zombie-badges-take-over-security-con/
   title: Zombie Badges Take Over Security Con
   accessed: '2026-09-07'
   note: Corroborates hardware specs and game mechanics; notes badge also displayed handles/programming and unlocked Pong and RPSLS as challenges.
+  archived: https://web.archive.org/web/20260514041816/https://hackaday.com/2017/05/22/zombie-badges-take-over-security-con/
 research:
   status: researched
   confidence: high
