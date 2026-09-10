@@ -75,12 +75,17 @@ sources:
   title: All The Hardware Badges Of DEF CON 25
   accessed: '2026-09-08'
   note: 'Confirmed the badge: DEF CON 25 logo shape, RGB LED, ATtiny85, coin cell, custom PCB. Also confirmed the "Tindie" name in the original title actually refers to a separate, unrelated Ohm-the-dog solder kit described elsewhere in the same article.'
+- kind: url
+  url: https://github.com/seanleftbelow
+  title: seanleftbelow (GitHub)
+  accessed: '2026-09-10'
+  note: 'Re-checked: still returns 404, so the design files Hackaday referenced could not be verified.'
 research:
-  status: stub
-  confidence: low
-  last_checked: '2026-09-07'
-  notes: Imported from the community badge sheet; not yet researched. Merged with duplicate entry 'Sean McCabe's 3D Printed DEF CON 25 Badge' (dc25-tindie-3d-printed-def-con-25-badge).
-last_modified_date: '2026-09-08'
+  status: verified
+  confidence: medium
+  last_checked: '2026-09-10'
+  notes: 'Fact-check pass 2026-09-10: re-fetched hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/ directly and confirmed every factual sentence in the body and every non-empty field (maker Sean McCabe / @SeanLeftBelow, DEF CON 25 logo shape with the "2" and "5" forming a skull with keys as crossbones, ATtiny85, single RGB LED, coin cell, custom PCB). Re-confirmed github.com/seanleftbelow still returns HTTP 404, so the design files the article says exist there remain unverifiable independently; price, quantity, and open-source fields correctly stay empty/null for that reason. The Ohm-the-Tindie-dog disambiguation note is also consistent with the article (Brian Benchoff is credited with building the badges including the Ohm solder-kit version). Both saved images exist on disk and match the article''s subject. No unsupported claims found, so status raised to verified.'
+last_modified_date: '2026-09-10'
 redirect_from:
 - /badges/dc25/tindie-3d-printed-def-con-25-badge/
 ---

@@ -88,11 +88,20 @@ sources:
   accessed: '2026-09-08'
   note: Confirms maker (Justin/aoaaceai per HITCON 2025 dev talk), STM32F103CBT6, LSM6DS3 motion sensor, IR receiver, 128 LED positions, 8 tactile buttons, AAA battery + USB-C, full game/feature list, and that it shipped in the attendee welcome kit.
 research:
-  status: stub
-  confidence: low
-  last_checked: '2026-09-07'
-  notes: Imported from the community badge sheet; not yet researched. Merged with duplicate entry 'HITCON 2025 PCB Badge (Hacker Pet)' (hitcon-2025-hitcon-2025-pcb-badge-hacker-pet).
-last_modified_date: '2026-09-08'
+  status: researched
+  confidence: high
+  last_checked: '2026-09-10'
+  notes: 'Core facts (maker, MCU, LED matrix, sensors, IR play, distribution) confirmed
+    by the maker''s own GitHub repo (john0312/hitcon-pcb-badge, BSD-3-Clause) and
+    the badge.gallery compendium entry, which itself cites the official HITCON
+    2025 agenda page and pcb.hitcon.org/2025. The official pcb.hitcon.org/2025
+    user-guide site returned HTTP 403 to automated fetches and could not be read
+    directly. No photo of the physical badge was found on badge.gallery, the
+    GitHub repo (no image assets in the repo tree), or its README; images left
+    empty. Price/quantity not stated anywhere found (free attendee giveaway, not
+    sold). Merged with duplicate entry ''HITCON 2025 PCB Badge (Hacker Pet)''
+    (hitcon-2025-hitcon-2025-pcb-badge-hacker-pet).'
+last_modified_date: '2026-09-10'
 redirect_from:
 - /badges/hitcon-2025/hitcon-2025-pcb-badge-hacker-pet/
 ---
