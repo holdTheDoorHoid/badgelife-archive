@@ -10,8 +10,8 @@ event: saintcon-2025
 year: 2025
 makers:
 - name: Pips
-summary: 'An obnoxiously-loud buzzer minibadge with an obnoxiously bright, oversized button.'
-functions: 'Pressing the large front button sounds a piezo buzzer on the back; an onboard potentiometer (R1) sets the volume, or can be bridged with solder to skip it.'
+summary: An obnoxiously-loud buzzer minibadge with an obnoxiously bright, oversized button.
+functions: Pressing the large front button sounds a piezo buzzer on the back; an onboard potentiometer (R1) sets the volume, or can be bridged with solder to skip it.
 look:
   colors: []
   shape: null
@@ -31,7 +31,7 @@ get_one:
   availability: unknown
   distribution:
   - swap
-  where: 'Maker states "Trade with me" as the only way to acquire one.'
+  where: Maker states "Trade with me" as the only way to acquire one.
 make_your_own:
   open_source: null
   hardware_url: null
@@ -42,18 +42,18 @@ links:
   url: https://minibadge.wiki/?search=BEEP%20BEEP&year=2025
   kind: website
 images:
-  - file: assets/images/badges/saintcon-2025/beep-beep/2a5dda4b8a.png
-    source: "https://minibadge.wiki/?search=BEEP%20BEEP&year=2025"
-    credit: "Pips"
-    caption: "BEEP BEEP minibadge, front (buzzer and button)"
-  - file: assets/images/badges/saintcon-2025/beep-beep/dc2803d9e5.png
-    source: "https://minibadge.wiki/?search=BEEP%20BEEP&year=2025"
-    credit: "Pips"
-    caption: "BEEP BEEP minibadge, back (buzzer visible)"
+- file: assets/images/badges/saintcon-2025/beep-beep/2a5dda4b8a.png
+  source: https://minibadge.wiki/?search=BEEP%20BEEP&year=2025
+  credit: Pips
+  caption: BEEP BEEP minibadge, front (buzzer and button)
+- file: assets/images/badges/saintcon-2025/beep-beep/dc2803d9e5.png
+  source: https://minibadge.wiki/?search=BEEP%20BEEP&year=2025
+  credit: Pips
+  caption: BEEP BEEP minibadge, back (buzzer visible)
 contact: {}
 notes:
 - 'category: Personal; rarity: Super Rare'
-- 'Soldering difficulty listed as Intermediate; assembly involves LEDs, resistors, the buzzer, and an oversized front button. If the R1 potentiometer is omitted, the "NO R1" pad is bridged with solder instead.'
+- Soldering difficulty listed as Intermediate; assembly involves LEDs, resistors, the buzzer, and an oversized front button. If the R1 potentiometer is omitted, the "NO R1" pad is bridged with solder instead.
 status: listed
 sources:
 - kind: url
@@ -63,14 +63,16 @@ sources:
   note: 'Found by the archive''s discovery sweep (angle: SAINTCON minibadges (via minibadge.wiki community database)); event read as ''SAINTCON 2025''.'
 - kind: url
   url: https://minibadge.wiki/2025.json
-  title: 'Minibadge Wiki 2025 data (BEEP BEEP entry)'
+  title: Minibadge Wiki 2025 data (BEEP BEEP entry)
   accessed: '2026-09-07'
-  note: 'The wiki front page is a JS app that loads its badge data from this JSON file; this record supplied the description, soldering instructions, category, rarity, quantity made, acquisition method, and the front/back image URLs.'
+  note: The wiki front page is a JS app that loads its badge data from this JSON file; this record supplied the description, soldering instructions, category, rarity, quantity made, acquisition method, and the front/back image URLs.
+  archived: https://web.archive.org/web/20260611102155/http://minibadge.wiki/2025.json
 research:
   status: verified
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'Fact-checked 2026-09-07: fetched https://minibadge.wiki/2025.json directly and confirmed the BEEP BEEP/Pips record verbatim (description, quantity made 0, category Personal, rarity Super Rare, "Trade with me" acquisition, full soldering instructions including the R1/"NO R1" pad and extra-long pin headers). Confirmed the site footer credits "Built by Pips801" (github.com/Pips801/minibadges-site), supporting the note that the wiki''s own developer and the badge''s maker both go by "Pips". Confirmed the saved front/back images (2a5dda4b8a.png, dc2803d9e5.png) match the live minibadge.wiki image files pixel-dimension-for-dimension (883x871 and 832x856). The minibadge.wiki search page itself renders via client-side JS from 2025.json, so a plain fetch shows "no minibadges match" — expected and already noted in sources, not a contradiction. All facts trace to this single community-submitted, self-reported source; no independent maker page, storefront, or repo exists, so confidence stays medium and unstated specs (chip, LEDs, colors, price) remain empty.'
+  notes: 'Fact-checked 2026-09-07: fetched https://minibadge.wiki/2025.json directly and confirmed the BEEP BEEP/Pips record verbatim (description, quantity made 0, category Personal, rarity Super Rare, "Trade with me" acquisition, full soldering instructions including the R1/"NO R1" pad and extra-long pin headers). Confirmed the site footer credits "Built by Pips801" (github.com/Pips801/minibadges-site), supporting the note that the wiki''s own developer and the badge''s maker both go by "Pips". Confirmed the saved front/back images (2a5dda4b8a.png, dc2803d9e5.png) match the live minibadge.wiki image files pixel-dimension-for-dimension (883x871 and 832x856). The minibadge.wiki search page itself renders via client-side JS from 2025.json, so a plain fetch shows "no minibadges match" — expected and already noted in sources, not a contradiction. All facts trace to this single community-submitted, self-reported source; no independent maker page, storefront, or repo exists, so confidence stays
+    medium and unstated specs (chip, LEDs, colors, price) remain empty.'
 last_modified_date: '2026-09-07'
 ---
 

@@ -11,7 +11,7 @@ year: 2025
 makers:
 - name: bitl!sa
 summary: A SAINTCON 2025 personal-category minibadge celebrating the band KISS, made by bitl!sa.
-functions: 'Lights a single LED; no interactive functions.'
+functions: Lights a single LED; no interactive functions.
 look:
   colors: []
   shape: null
@@ -22,7 +22,7 @@ tech:
   leds:
     count: 1
     type: null
-    note: 'One LED plus a resistor, single-pad hand-soldered.'
+    note: One LED plus a resistor, single-pad hand-soldered.
   display: null
   connectivity: []
   battery: null
@@ -34,7 +34,7 @@ get_one:
   availability: unknown
   distribution:
   - swap
-  where: 'Traded directly with the maker (bitl!sa) at SAINTCON 2025; the maker''s listing says to ask for one and share your favorite Kiss song.'
+  where: Traded directly with the maker (bitl!sa) at SAINTCON 2025; the maker's listing says to ask for one and share your favorite Kiss song.
 make_your_own:
   open_source: null
   hardware_url: null
@@ -47,15 +47,18 @@ links:
 - label: minibadge.wiki 2025 data export (JSON)
   url: https://minibadge.wiki/2025.json
   kind: doc
+  archived: https://web.archive.org/web/20260611102155/http://minibadge.wiki/2025.json
 images:
 - file: assets/images/badges/saintcon-2025/kiss-army/3f14b268ba.png
-  source: "https://minibadge.wiki/data/"
-  credit: "bitl!sa"
-  caption: "Kiss Army minibadge, front"
+  source: https://minibadge.wiki/data/
+  credit: bitl!sa
+  caption: Kiss Army minibadge, front
+  archived: https://web.archive.org/web/20260611104315/http://minibadge.wiki/data/
 - file: assets/images/badges/saintcon-2025/kiss-army/b3d7e8d037.png
-  source: "https://minibadge.wiki/data/"
-  credit: "bitl!sa"
-  caption: "Kiss Army minibadge, back"
+  source: https://minibadge.wiki/data/
+  credit: bitl!sa
+  caption: Kiss Army minibadge, back
+  archived: https://web.archive.org/web/20260611104315/http://minibadge.wiki/data/
 contact: {}
 notes:
 - 'category: Personal; rarity: Uncommon'
@@ -71,18 +74,12 @@ sources:
   title: MiniBadge Wiki 2025 data export
   accessed: '2026-09-07'
   note: 'Community database JSON record for Kiss Army: description, soldering instructions, difficulty, category, rarity, and how-to-acquire text, plus front/back image URLs. The live search page itself returned no listings client-side, so the static JSON export was used instead.'
+  archived: https://web.archive.org/web/20260611102155/http://minibadge.wiki/2025.json
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: >-
-    Sourced entirely from the minibadge.wiki community-submitted database (submitted by the maker,
-    bitl!sa, 2025-08-19), not from an independent maker page or storefront, so confidence is medium
-    rather than high. The listing gives no MCU/microcontroller (this is a passive single-LED minibadge:
-    one LED, one resistor, and 4x 2-position headers per the soldering instructions), no price, and
-    quantityMade is recorded as 0, which the site appears to use for "not stated" rather than literally
-    zero made -- so quantity and availability are left empty/unknown rather than guessed. No maker
-    storefront, repo, or social profile was found to corroborate or expand on the listing.
+  notes: 'Sourced entirely from the minibadge.wiki community-submitted database (submitted by the maker, bitl!sa, 2025-08-19), not from an independent maker page or storefront, so confidence is medium rather than high. The listing gives no MCU/microcontroller (this is a passive single-LED minibadge: one LED, one resistor, and 4x 2-position headers per the soldering instructions), no price, and quantityMade is recorded as 0, which the site appears to use for "not stated" rather than literally zero made -- so quantity and availability are left empty/unknown rather than guessed. No maker storefront, repo, or social profile was found to corroborate or expand on the listing.'
 last_modified_date: '2026-09-07'
 ---
 

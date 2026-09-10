@@ -11,7 +11,7 @@ year: 2025
 makers:
 - name: Pips
 summary: A SAINTCON 2025 minibadge depicting Doug Dimmadome, the cartoon mogul from Nickelodeon's "The Fairly OddParents," made as a personal/trade badge by designer Pips.
-functions: 'Lights up an LED; otherwise a decorative trade minibadge with no interactive functions listed.'
+functions: Lights up an LED; otherwise a decorative trade minibadge with no interactive functions listed.
 look:
   colors:
   - white
@@ -26,7 +26,7 @@ tech:
   leds:
     count: 1
     type: null
-    note: 'Assembly instructions call for soldering one LED and one resistor plus pin headers; no LED type or chip specified.'
+    note: Assembly instructions call for soldering one LED and one resistor plus pin headers; no LED type or chip specified.
   display: null
   connectivity: []
   battery: null
@@ -34,11 +34,11 @@ tech:
 get_one:
   price: ''
   price_usd: null
-  quantity: '0 (maker did not state a print run size)'
+  quantity: 0 (maker did not state a print run size)
   availability: unknown
   distribution:
   - swap
-  where: 'Per the maker, trade with Pips directly (not sold).'
+  where: Per the maker, trade with Pips directly (not sold).
 make_your_own:
   open_source: null
   hardware_url: null
@@ -49,14 +49,14 @@ links:
   url: https://minibadge.wiki/?search=Doug%20Dimmadome%27s%20Dimma-Minibadge&year=2025
   kind: website
 images:
-  - file: assets/images/badges/saintcon-2025/doug-dimmadome-s-dimma-minibadge/34fa2c9b77.jpg
-    source: "https://minibadge.wiki/?search=Doug%20Dimmadome%27s%20Dimma-Minibadge&year=2025"
-    credit: "Pips"
-    caption: "Front of the Doug Dimmadome's Dimma-Minibadge"
-  - file: assets/images/badges/saintcon-2025/doug-dimmadome-s-dimma-minibadge/58820b3671.jpg
-    source: "https://minibadge.wiki/?search=Doug%20Dimmadome%27s%20Dimma-Minibadge&year=2025"
-    credit: "Pips"
-    caption: "Back of the Doug Dimmadome's Dimma-Minibadge"
+- file: assets/images/badges/saintcon-2025/doug-dimmadome-s-dimma-minibadge/34fa2c9b77.jpg
+  source: https://minibadge.wiki/?search=Doug%20Dimmadome%27s%20Dimma-Minibadge&year=2025
+  credit: Pips
+  caption: Front of the Doug Dimmadome's Dimma-Minibadge
+- file: assets/images/badges/saintcon-2025/doug-dimmadome-s-dimma-minibadge/58820b3671.jpg
+  source: https://minibadge.wiki/?search=Doug%20Dimmadome%27s%20Dimma-Minibadge&year=2025
+  credit: Pips
+  caption: Back of the Doug Dimmadome's Dimma-Minibadge
 contact: {}
 notes:
 - 'category: Personal; rarity: Super Rare; soldering difficulty: Beginner (per maker''s minibadge.wiki listing)'
@@ -69,14 +69,15 @@ sources:
   note: 'Found by the archive''s discovery sweep (angle: SAINTCON minibadges (via minibadge.wiki community database)); event read as ''SAINTCON 2025''.'
 - kind: url
   url: https://minibadge.wiki/2025.json
-  title: 'Minibadge Wiki 2025 data feed (JSON entry for this badge)'
+  title: Minibadge Wiki 2025 data feed (JSON entry for this badge)
   accessed: '2026-09-07'
   note: 'The site''s search page is JS-rendered and returns no content directly; the underlying 2025.json data file (fetched by the page''s own client-side script) carries the maker-submitted record: author Pips, description, soldering instructions ("Solder LED and resistor. Solder pin headers."), quantityMade 0, category Personal, rarity Super Rare, acquisition method "Trade with me", and the front/back image paths used for this entry''s photos.'
+  archived: https://web.archive.org/web/20260611102155/http://minibadge.wiki/2025.json
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'Only source found is the maker''s own minibadge.wiki submission (a community database for SAINTCON minibadges); no independent press, storefront, or repo turned up in search. quantityMade is literally "0" in the maker''s data, which likely means "not tracked" rather than zero made -- left in get_one.quantity verbatim rather than guessing a number. No PCB color, MCU, LED part number, dimensions, price, or design-file links were stated anywhere, so those fields stay empty/null. The character depicted, Doug Dimmadome, is from Nickelodeon''s "The Fairly OddParents" (identified from the artwork itself, not stated by the maker in the record).'
+  notes: Only source found is the maker's own minibadge.wiki submission (a community database for SAINTCON minibadges); no independent press, storefront, or repo turned up in search. quantityMade is literally "0" in the maker's data, which likely means "not tracked" rather than zero made -- left in get_one.quantity verbatim rather than guessing a number. No PCB color, MCU, LED part number, dimensions, price, or design-file links were stated anywhere, so those fields stay empty/null. The character depicted, Doug Dimmadome, is from Nickelodeon's "The Fairly OddParents" (identified from the artwork itself, not stated by the maker in the record).
 last_modified_date: '2026-09-07'
 ---
 

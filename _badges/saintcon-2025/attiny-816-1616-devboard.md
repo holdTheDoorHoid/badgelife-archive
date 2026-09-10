@@ -11,7 +11,7 @@ year: 2025
 makers:
 - name: Pips
   url: https://minibadge.wiki/?search=&author=Pips
-summary: 'A minibadge-format development board for the ATtiny816/1616 microcontroller series, breaking out USART, I2C, DAC, SPI, ADC, and touch-sense pins for prototyping.'
+summary: A minibadge-format development board for the ATtiny816/1616 microcontroller series, breaking out USART, I2C, DAC, SPI, ADC, and touch-sense pins for prototyping.
 functions: 'Prototyping/breakout board for the ATtiny816 or ATtiny1616: exposes USART (TX/RX/CK/DIR), I2C, SPI, and DAC headers, two ADC (analog input) pads, and two PTC (capacitive touch) pads. Programmed over UPDI via pin 6 (labeled PROG4). Chip is available with 8KB or 16KB of flash.'
 look:
   colors:
@@ -24,7 +24,7 @@ tech:
   leds:
     count: 2
     type: null
-    note: 'Description mentions two LEDs on-board; type/color not specified.'
+    note: Description mentions two LEDs on-board; type/color not specified.
   display: none
   connectivity:
   - uart
@@ -52,13 +52,13 @@ links:
   kind: website
 images:
 - file: assets/images/badges/saintcon-2025/attiny-816-1616-devboard/9efa930334.jpg
-  source: "https://minibadge.wiki/?search=ATtiny%20816/1616%20Devboard&year=2025"
-  credit: "Pips"
-  caption: "Front of the ATtiny 816/1616 devboard minibadge"
+  source: https://minibadge.wiki/?search=ATtiny%20816/1616%20Devboard&year=2025
+  credit: Pips
+  caption: Front of the ATtiny 816/1616 devboard minibadge
 - file: assets/images/badges/saintcon-2025/attiny-816-1616-devboard/cca5d23161.jpg
-  source: "https://minibadge.wiki/?search=ATtiny%20816/1616%20Devboard&year=2025"
-  credit: "Pips"
-  caption: "Back of the ATtiny 816/1616 devboard minibadge"
+  source: https://minibadge.wiki/?search=ATtiny%20816/1616%20Devboard&year=2025
+  credit: Pips
+  caption: Back of the ATtiny 816/1616 devboard minibadge
 contact: {}
 notes:
 - 'category: Personal; rarity: Super Rare'
@@ -72,14 +72,15 @@ sources:
   note: 'Found by the archive''s discovery sweep (angle: SAINTCON minibadges (via minibadge.wiki community database)); event read as ''SAINTCON 2025''.'
 - kind: url
   url: https://minibadge.wiki/2025.json
-  title: 'Minibadge Wiki 2025 data feed (JSON entry for ATtiny 816/1616 Devboard)'
+  title: Minibadge Wiki 2025 data feed (JSON entry for ATtiny 816/1616 Devboard)
   accessed: '2026-09-07'
-  note: 'The wiki''s search page is client-rendered from this JSON feed; used it to get the full listing text (description, soldering instructions, difficulty, quantity, rarity, timestamp) and the front/back image URLs, since the search-filtered page itself does not expose the record server-side.'
+  note: The wiki's search page is client-rendered from this JSON feed; used it to get the full listing text (description, soldering instructions, difficulty, quantity, rarity, timestamp) and the front/back image URLs, since the search-filtered page itself does not expose the record server-side.
+  archived: https://web.archive.org/web/20260611102155/http://minibadge.wiki/2025.json
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'Only source found is the community-run minibadge.wiki entry (author-submitted, by "Pips"/"Pips801"). No maker storefront, repo, hardware files, or price could be found. quantityMade in the source data is listed as 0, which likely means "not disclosed" rather than a literal zero (the listing also says "Purchase one from me" and rarity "Super Rare"), so quantity and availability are left unset rather than guessed. LED type/color and battery/power are not stated anywhere. No separate hardware or firmware repo was found for this board.'
+  notes: Only source found is the community-run minibadge.wiki entry (author-submitted, by "Pips"/"Pips801"). No maker storefront, repo, hardware files, or price could be found. quantityMade in the source data is listed as 0, which likely means "not disclosed" rather than a literal zero (the listing also says "Purchase one from me" and rarity "Super Rare"), so quantity and availability are left unset rather than guessed. LED type/color and battery/power are not stated anywhere. No separate hardware or firmware repo was found for this board.
 last_modified_date: '2026-09-07'
 ---
 

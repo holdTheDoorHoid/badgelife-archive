@@ -11,11 +11,18 @@ year: 2025
 makers:
 - name: Pips
 summary: A SAINTCON 2025 minibadge joking that a partygoer "died" at the 2024 CheckPoint party, made in his honor.
-functions: 'No electronics; a beginner-level solder-your-own minibadge with pin headers for practice.'
+functions: No electronics; a beginner-level solder-your-own minibadge with pin headers for practice.
 look:
-  colors: [black, yellow, gold]
+  colors:
+  - black
+  - yellow
+  - gold
   shape: rectangle
-  themes: [horror, meme, text, learn to solder]
+  themes:
+  - horror
+  - meme
+  - text
+  - learn to solder
 tech:
   mcu: none
   leds: null
@@ -28,8 +35,9 @@ get_one:
   price_usd: null
   quantity: ''
   availability: unknown
-  distribution: [free_drop]
-  where: 'Given out at the CheckPoint booth at SAINTCON 2025, or randomly.'
+  distribution:
+  - free_drop
+  where: Given out at the CheckPoint booth at SAINTCON 2025, or randomly.
 make_your_own:
   open_source: null
   hardware_url: null
@@ -40,14 +48,14 @@ links:
   url: https://minibadge.wiki/?search=I%20almost%20DIED%20at%20the%20CheckPoint%20party&year=2025
   kind: website
 images:
-  - file: assets/images/badges/saintcon-2025/i-almost-died-at-the-checkpoint-party/2cacf504d6.jpg
-    source: "https://minibadge.wiki/?search=I%20almost%20DIED%20at%20the%20CheckPoint%20party&year=2025"
-    credit: "Pips"
-    caption: "Front of the minibadge"
-  - file: assets/images/badges/saintcon-2025/i-almost-died-at-the-checkpoint-party/2f29852f87.jpg
-    source: "https://minibadge.wiki/?search=I%20almost%20DIED%20at%20the%20CheckPoint%20party&year=2025"
-    credit: "Pips"
-    caption: "Back of the minibadge"
+- file: assets/images/badges/saintcon-2025/i-almost-died-at-the-checkpoint-party/2cacf504d6.jpg
+  source: https://minibadge.wiki/?search=I%20almost%20DIED%20at%20the%20CheckPoint%20party&year=2025
+  credit: Pips
+  caption: Front of the minibadge
+- file: assets/images/badges/saintcon-2025/i-almost-died-at-the-checkpoint-party/2f29852f87.jpg
+  source: https://minibadge.wiki/?search=I%20almost%20DIED%20at%20the%20CheckPoint%20party&year=2025
+  credit: Pips
+  caption: Back of the minibadge
 contact: {}
 notes:
 - 'category: Personal; rarity: Uncommon'
@@ -63,11 +71,12 @@ sources:
   title: MiniBadge Wiki 2025 data (JSON record for this badge)
   accessed: '2026-09-07'
   note: 'Full submission record: maker, description, soldering instructions/difficulty, quantity made, category, how to acquire, rarity, front/back image filenames.'
+  archived: https://web.archive.org/web/20260611102155/http://minibadge.wiki/2025.json
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'Only source is the maker''s own submission to the minibadge.wiki community database (Pips as author); no separate maker page, storefront, or repo was found. Quantity made was submitted as 0, so left as empty rather than reported as a number. No design files or open-source status stated.'
+  notes: Only source is the maker's own submission to the minibadge.wiki community database (Pips as author); no separate maker page, storefront, or repo was found. Quantity made was submitted as 0, so left as empty rather than reported as a number. No design files or open-source status stated.
 last_modified_date: '2026-09-07'
 ---
 

@@ -11,7 +11,7 @@ year: 2025
 makers:
 - name: slever
 summary: A SAINTCON 2025 minibadge riffing on the "Birds Aren't Real" conspiracy-theory meme, with a red and a blue LED.
-functions: 'Lights a red LED and a blue LED; no other electronic function.'
+functions: Lights a red LED and a blue LED; no other electronic function.
 look:
   colors: []
   shape: null
@@ -36,7 +36,7 @@ get_one:
   availability: free
   distribution:
   - free_drop
-  where: 'Distributed in person at SAINTCON 2025; per the maker, "Just Ask for one."'
+  where: Distributed in person at SAINTCON 2025; per the maker, "Just Ask for one."
 make_your_own:
   open_source: null
   hardware_url: null
@@ -48,18 +48,18 @@ links:
   kind: website
 images:
 - file: assets/images/badges/saintcon-2025/birds-aren-t-real/e1f2910bda.png
-  source: "https://minibadge.wiki/?search=Birds%20Aren%27t%20Real&year=2025"
-  credit: "slever"
-  caption: "Front of the Birds Aren't Real minibadge"
+  source: https://minibadge.wiki/?search=Birds%20Aren%27t%20Real&year=2025
+  credit: slever
+  caption: Front of the Birds Aren't Real minibadge
 - file: assets/images/badges/saintcon-2025/birds-aren-t-real/7c541fae78.png
-  source: "https://minibadge.wiki/?search=Birds%20Aren%27t%20Real&year=2025"
-  credit: "slever"
-  caption: "Back of the Birds Aren't Real minibadge showing the LED and resistor placements"
+  source: https://minibadge.wiki/?search=Birds%20Aren%27t%20Real&year=2025
+  credit: slever
+  caption: Back of the Birds Aren't Real minibadge showing the LED and resistor placements
 contact: {}
 notes:
 - 'category: Personal; rarity: Rare'
 - 'Soldering difficulty per the community listing: Beginner (blue LED, 0-ohm resistor, 68-ohm resistor, red LED, and 4x 2-position headers, in that order).'
-- 'Quantity made is listed as 0 on the community sheet, which for this badge appears to mean "not tracked" rather than "none made" -- the same listing describes it as freely given away and rates it Rare.'
+- Quantity made is listed as 0 on the community sheet, which for this badge appears to mean "not tracked" rather than "none made" -- the same listing describes it as freely given away and rates it Rare.
 status: released
 sources:
 - kind: url
@@ -72,6 +72,7 @@ sources:
   title: MiniBadge Wiki 2025 data feed (Birds Aren't Real entry)
   accessed: '2026-09-07'
   note: 'Underlying JSON record behind the search-filtered page: maker, description, soldering steps/difficulty, category, rarity, acquisition method, and image URLs.'
+  archived: https://web.archive.org/web/20260611102155/http://minibadge.wiki/2025.json
 research:
   status: researched
   confidence: medium

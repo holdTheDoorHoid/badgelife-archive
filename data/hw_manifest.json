@@ -9067,5 +9067,1535 @@
    }
   ],
   "ok": true
+ },
+ "35c3-2018-35c3-labitat-indie-badge": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://github.com/flummer/35c3-badge",
+    "repo": "flummer/35c3-badge",
+    "ref": "master",
+    "subpath": "",
+    "license": "",
+    "truncated": false,
+    "files": [
+     {
+      "path": "35c3_badge.kicad_pcb",
+      "size": 4763270,
+      "kind": "kicad"
+     }
+    ]
+   }
+  ],
+  "ok": true
+ },
+ "37c3-2023-37c3-nfc-badge": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://github.com/flummer/37c3",
+    "repo": "flummer/37c3",
+    "ref": "main",
+    "subpath": "",
+    "license": "CC-BY-SA-4.0",
+    "truncated": false,
+    "files": [
+     {
+      "path": "37c3_badge.kicad_pcb",
+      "size": 1385826,
+      "kind": "kicad"
+     }
+    ]
+   }
+  ],
+  "ok": true
+ },
+ "39c3-2025-39c3-critical-decentralization-cluster-cdc-badge": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://github.com/riatlabs/cdc-badge",
+    "repo": "riatlabs/cdc-badge",
+    "ref": "main",
+    "subpath": "",
+    "license": "CERN-OHL-P-2.0",
+    "truncated": false,
+    "files": [
+     {
+      "path": "cdc-badge/cdc-badge.kicad_pcb",
+      "size": 3338516,
+      "kind": "kicad"
+     }
+    ]
+   }
+  ],
+  "ok": true
+ },
+ "39c3-2025-39c3-cyberwatch-badge": {
+  "sources": [
+   {
+    "status": "unsupported_host",
+    "source_url": "https://codeberg.org/cyberwatch/39C3-release_board"
+   }
+  ],
+  "ok": false
+ },
+ "44con-2016-44con-2016-hidiot-0-7-badge": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://github.com/rawhex/hidiot_hardware",
+    "repo": "rawhex/hidiot_hardware",
+    "ref": "master",
+    "subpath": "",
+    "license": "",
+    "truncated": false,
+    "files": [
+     {
+      "path": "hidiot_1.0_final.brd",
+      "size": 93664,
+      "kind": "eagle"
+     }
+    ]
+   }
+  ],
+  "ok": true
+ },
+ "44con-2017-44con-2017-hidiot-1-0-badge": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://github.com/rawhex/hidiot_hardware",
+    "repo": "rawhex/hidiot_hardware",
+    "ref": "master",
+    "subpath": "",
+    "license": "",
+    "truncated": false,
+    "files": [
+     {
+      "path": "hidiot_1.0_final.brd",
+      "size": 93664,
+      "kind": "eagle"
+     }
+    ]
+   }
+  ],
+  "ok": true
+ },
+ "44con-2025-44con-2025-rf-detector-badge": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://github.com/ElectronicCats/badge-44con-2025",
+    "repo": "ElectronicCats/badge-44con-2025",
+    "ref": "main",
+    "subpath": "",
+    "license": "MIT",
+    "truncated": false,
+    "files": [
+     {
+      "path": "hardware/badge-44con-2025/badge-44con-2025.kicad_pcb",
+      "size": 2919354,
+      "kind": "kicad"
+     },
+     {
+      "path": "hardware/add-on/add-on.kicad_pcb",
+      "size": 793291,
+      "kind": "kicad"
+     }
+    ]
+   }
+  ],
+  "ok": true
+ },
+ "balccon-2023-balccon-cyberdeck-0o27-bcd-0o27": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://gitlab.com/fschuetz/bcd-0o27/",
+    "repo": "fschuetz/bcd-0o27",
+    "ref": "main",
+    "subpath": "",
+    "license": "",
+    "files": [
+     {
+      "path": "hardware/BCD-0o27/BCD-0o27.kicad_pcb",
+      "size": 2321180,
+      "kind": "kicad"
+     }
+    ]
+   }
+  ],
+  "ok": true
+ },
+ "balccon-2024-balccon-mini-cyberdeck-0o00-mc-0o00": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://gitlab.com/ch405labs/badgelife/mcd-0o00/mcd-0o00-hardware-design",
+    "repo": "ch405labs/badgelife/mcd-0o00/mcd-0o00-hardware-design",
+    "ref": "main",
+    "subpath": "",
+    "license": "",
+    "files": [
+     {
+      "path": "MCD-0o00.kicad_pcb",
+      "size": 8651192,
+      "kind": "kicad"
+     }
+    ]
+   }
+  ],
+  "ok": true
+ },
+ "bornhack-2017-bornhack-2017-badge": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://github.com/bornhack/badge2017/tree/hardware",
+    "repo": "bornhack/badge2017",
+    "ref": "hardware",
+    "subpath": "",
+    "license": "GPL-3.0",
+    "truncated": false,
+    "files": [
+     {
+      "path": "Bornhack Make Tradition Badge.kicad_pcb",
+      "size": 527751,
+      "kind": "kicad"
+     }
+    ]
+   }
+  ],
+  "ok": true
+ },
+ "bornhack-2018-blinky-addon-bornhack-2018-badge-breakout-board": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://github.com/bornhack/badge2018/tree/breakoutboards/Blinky_addon",
+    "repo": "bornhack/badge2018",
+    "ref": "breakoutboards",
+    "subpath": "Blinky_addon",
+    "license": "",
+    "truncated": false,
+    "files": [
+     {
+      "path": "Blinky_addon/Blinky_addon.kicad_pcb",
+      "size": 95401,
+      "kind": "kicad"
+     }
+    ]
+   }
+  ],
+  "ok": true
+ },
+ "bornhack-2018-bornhack-2018-badge": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://github.com/bornhack/badge2018/tree/hardware",
+    "repo": "bornhack/badge2018",
+    "ref": "hardware",
+    "subpath": "",
+    "license": "",
+    "truncated": false,
+    "files": [
+     {
+      "path": "bornhack_scale_it.kicad_pcb",
+      "size": 1270156,
+      "kind": "kicad"
+     }
+    ]
+   }
+  ],
+  "ok": true
+ },
+ "bornhack-2025-emf-explorer-badge": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://github.com/drc3p0/emf-explorer-badge",
+    "repo": "drc3p0/emf-explorer-badge",
+    "ref": "main",
+    "subpath": "",
+    "license": "",
+    "truncated": false,
+    "files": [
+     {
+      "path": "Kicad files/EMF-Explorer-Badge.kicad_pcb",
+      "size": 4074985,
+      "kind": "kicad"
+     }
+    ]
+   }
+  ],
+  "ok": true
+ },
+ "brucon-2018-brucon-0x0a-badge": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://github.com/Jegeva/BruCONbadge2018/tree/master/pcb",
+    "repo": "Jegeva/BruCONbadge2018",
+    "ref": "master",
+    "subpath": "pcb",
+    "license": "",
+    "truncated": false,
+    "files": [
+     {
+      "path": "pcb/BruCON_0x0a.kicad_pcb",
+      "size": 2159481,
+      "kind": "kicad"
+     },
+     {
+      "path": "pcb/ESP32-kiCAD-Footprints-master/ESP32-Footprints/ESP32-Footprints.kicad_pcb",
+      "size": 51,
+      "kind": "kicad"
+     },
+     {
+      "path": "pcb/gerbers/gerbers.zip",
+      "size": 492078,
+      "kind": "gerber_zip"
+     }
+    ]
+   }
+  ],
+  "ok": true
+ },
+ "brucon-2021-brucon-2021-badge": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://github.com/Jegeva/BruCON_2021",
+    "repo": "Jegeva/BruCON_2021",
+    "ref": "main",
+    "subpath": "",
+    "license": "",
+    "truncated": false,
+    "files": [
+     {
+      "path": "pcb/gasmask_pcb.kicad_pcb",
+      "size": 10605049,
+      "kind": "kicad"
+     },
+     {
+      "path": "pcb/gasmask_pcb_prepanel.kicad_pcb",
+      "size": 916872,
+      "kind": "kicad"
+     },
+     {
+      "path": "sensorburner/sensorburner/sensorburner.kicad_pcb",
+      "size": 2643362,
+      "kind": "kicad"
+     },
+     {
+      "path": "final_gerbers/final_gerbers_fullset.zip",
+      "size": 3774178,
+      "kind": "gerber_zip"
+     },
+     {
+      "path": "final_gerbers/final_gerbers_as_sent_to_pcbhouse.zip",
+      "size": 3654772,
+      "kind": "gerber_zip"
+     },
+     {
+      "path": "sensorburner/sensorburner/burnergerbs/burnergerbs.zip",
+      "size": 345854,
+      "kind": "gerber_zip"
+     }
+    ]
+   }
+  ],
+  "ok": true
+ },
+ "bsides-adelaide-2026-wombat-3": {
+  "sources": [
+   {
+    "status": "unsupported_host",
+    "source_url": "https://hackerware.io/wombat3-gerber.zip"
+   }
+  ],
+  "ok": false
+ },
+ "bsides-boise-2017-bsides-boise-2017-electronic-badge": {
+  "sources": [
+   {
+    "status": "no_pcb_files",
+    "source_url": "https://github.com/BSidesBoise/BSidesBoise17Badge",
+    "repo": "BSidesBoise/BSidesBoise17Badge",
+    "ref": "master",
+    "subpath": "",
+    "license": "",
+    "truncated": false,
+    "files": []
+   }
+  ],
+  "ok": false
+ },
+ "bsides-bournemouth-2025-bsides-bournemouth-2025-skull-badge": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://github.com/punk-security/bsides-bournemouth-2025-badge/tree/main/eagle-files",
+    "repo": "punk-security/bsides-bournemouth-2025-badge",
+    "ref": "main",
+    "subpath": "eagle-files",
+    "license": "",
+    "truncated": false,
+    "files": [
+     {
+      "path": "eagle-files/main.brd",
+      "size": 243965,
+      "kind": "eagle"
+     }
+    ]
+   }
+  ],
+  "ok": true
+ },
+ "bsides-canberra-2016-bsidescbrbadge2016-arduino-running-order-badge": {
+  "sources": [
+   {
+    "status": "no_pcb_files",
+    "source_url": "https://github.com/BSidesCbr/BsidesCbrBadge2016",
+    "repo": "BSidesCbr/BsidesCbrBadge2016",
+    "ref": "master",
+    "subpath": "",
+    "license": "",
+    "truncated": false,
+    "files": []
+   }
+  ],
+  "ok": false
+ },
+ "bsides-canberra-2018-busside": {
+  "sources": [
+   {
+    "status": "no_pcb_files",
+    "source_url": "https://github.com/BSidesCbr/BUSSide",
+    "repo": "BSidesCbr/BUSSide",
+    "ref": "master",
+    "subpath": "",
+    "license": "",
+    "truncated": false,
+    "files": []
+   }
+  ],
+  "ok": false
+ },
+ "bsides-canberra-2019-nopia-1337": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://github.com/BSidesCbr/2019badge",
+    "repo": "BSidesCbr/2019badge",
+    "ref": "master",
+    "subpath": "",
+    "license": "",
+    "truncated": false,
+    "files": [
+     {
+      "path": "BSidesCBR2019.kicad_pcb",
+      "size": 1008326,
+      "kind": "kicad"
+     },
+     {
+      "path": "prototypes/v4/gerbs/BSidesCBR2019.kicad_pcb",
+      "size": 995835,
+      "kind": "kicad"
+     },
+     {
+      "path": "prototypes/v5/gerbs/BSidesCBR2019.kicad_pcb",
+      "size": 995835,
+      "kind": "kicad"
+     },
+     {
+      "path": "prototypes/zips/BSidesCBR2019-v4-mfg-gerbs.zip",
+      "size": 2672366,
+      "kind": "gerber_zip"
+     },
+     {
+      "path": "prototypes/zips/BSidesCBR2019-v8-gerbs.zip",
+      "size": 520535,
+      "kind": "gerber_zip"
+     },
+     {
+      "path": "prototypes/zips/BSidesCBR2019-v2-gerbs.zip",
+      "size": 484775,
+      "kind": "gerber_zip"
+     }
+    ]
+   }
+  ],
+  "ok": true
+ },
+ "bsides-canberra-2023-bpod": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://gitlab.com/pjranki/bpod",
+    "repo": "pjranki/bpod",
+    "ref": "main",
+    "subpath": "",
+    "license": "",
+    "files": [
+     {
+      "path": "hardware/bpod/bpod.kicad_pcb",
+      "size": 2582270,
+      "kind": "kicad"
+     },
+     {
+      "path": "hardware/20230222_pcbway/20230222_pcbway_bpod_gerber_drill.zip",
+      "size": 551409,
+      "kind": "gerber_zip"
+     },
+     {
+      "path": "hardware/20230430_pcbway/20230430_pcbway_bpod_gerber_drill.zip",
+      "size": 553821,
+      "kind": "gerber_zip"
+     },
+     {
+      "path": "hardware/20230618_pcbway/20230430_pcbway_bpod_gerber_drill.zip",
+      "size": 553821,
+      "kind": "gerber_zip"
+     }
+    ]
+   }
+  ],
+  "ok": true
+ },
+ "bsides-cape-town-2016-bsidesbadge2016-andrewmohawk": {
+  "sources": [
+   {
+    "status": "no_pcb_files",
+    "source_url": "https://github.com/AndrewMohawk/BSidesBadge2016/blob/master/BadgePinout.txt",
+    "repo": "AndrewMohawk/BSidesBadge2016",
+    "ref": "master",
+    "subpath": "",
+    "license": "",
+    "truncated": false,
+    "files": []
+   }
+  ],
+  "ok": false
+ },
+ "bsides-cape-town-2017-red-cc1111-rfcat-rf-badge-bsides-cape-town-2017": {
+  "sources": [
+   {
+    "status": "repo_unavailable"
+   }
+  ],
+  "ok": false
+ },
+ "bsides-cdmx-2024-badge-bsides-cdmx-2024": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://github.com/ElectronicCats/badge-bsides-cdmx-2024/tree/main/hardware",
+    "repo": "ElectronicCats/badge-bsides-cdmx-2024",
+    "ref": "main",
+    "subpath": "hardware",
+    "license": "GPL-3.0",
+    "truncated": false,
+    "files": [
+     {
+      "path": "hardware/Bsides_2024_Community/Bsides_2024_Community.kicad_pcb",
+      "size": 1595094,
+      "kind": "kicad"
+     },
+     {
+      "path": "hardware/Bsides_2024_Guest/Bsides_2024_Guest.kicad_pcb",
+      "size": 1572358,
+      "kind": "kicad"
+     },
+     {
+      "path": "hardware/Bsides_2024_Sponsor/Bsides_2024_Sponsor.kicad_pcb",
+      "size": 1480476,
+      "kind": "kicad"
+     },
+     {
+      "path": "hardware/Bsides_2024_Speaker/Bsides_2024_Speaker.kicad_pcb",
+      "size": 1399890,
+      "kind": "kicad"
+     },
+     {
+      "path": "hardware/Bsides_2024_Staff/Bsides_2024_Staff.kicad_pcb",
+      "size": 1385916,
+      "kind": "kicad"
+     },
+     {
+      "path": "hardware/Bsides_2024_ShittyAddon/Bsides_2024_ShittyAddon.kicad_pcb",
+      "size": 613317,
+      "kind": "kicad"
+     }
+    ]
+   }
+  ],
+  "ok": true
+ },
+ "bsides-cdmx-2025-bsides-cdmx-2025-badge": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://github.com/ElectronicCats/Badge-bsides-cdmx-2025",
+    "repo": "ElectronicCats/Badge-bsides-cdmx-2025",
+    "ref": "main",
+    "subpath": "",
+    "license": "GPL-3.0",
+    "truncated": false,
+    "files": [
+     {
+      "path": "hardware/Badge-bsides-cdmx-2025-community/Badge-bsides-cdmx-2025.kicad_pcb",
+      "size": 746560,
+      "kind": "kicad"
+     },
+     {
+      "path": "hardware/Badge-bsides-cdmx-2025-speaker/Badge-bsides-cdmx-2025.kicad_pcb",
+      "size": 712073,
+      "kind": "kicad"
+     },
+     {
+      "path": "hardware/Badge-bsides-cdmx-2025-sponsor/Badge-bsides-cdmx-2025.kicad_pcb",
+      "size": 710892,
+      "kind": "kicad"
+     },
+     {
+      "path": "hardware/Badge-bsides-cdmx-2025-staff/Badge-bsides-cdmx-2025.kicad_pcb",
+      "size": 685081,
+      "kind": "kicad"
+     },
+     {
+      "path": "hardware/Badge-bsides-cdmx-2025-guest/Badge-bsides-cdmx-2025.kicad_pcb",
+      "size": 640818,
+      "kind": "kicad"
+     },
+     {
+      "path": "hardware/Metro-Addon/Metro-Addon.kicad_pcb",
+      "size": 511034,
+      "kind": "kicad"
+     }
+    ]
+   }
+  ],
+  "ok": true
+ },
+ "bsides-charleston-2022-bsides-charleston-2022-badge": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://github.com/BadgePiratesLLC/BSidesCHS_2022/tree/main/CAD",
+    "repo": "BadgePiratesLLC/BSidesCHS_2022",
+    "ref": "main",
+    "subpath": "CAD",
+    "license": "",
+    "truncated": false,
+    "files": [
+     {
+      "path": "CAD/BsidesCHS-2022-Badge.kicad_pcb",
+      "size": 1868773,
+      "kind": "kicad"
+     }
+    ]
+   }
+  ],
+  "ok": true
+ },
+ "bsides-cheltenham-2024-bsides-cheltenham-2024-ufo-badge": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://github.com/punk-security/bsides-cheltenham-2024-badge/tree/main/eagle-files",
+    "repo": "punk-security/bsides-cheltenham-2024-badge",
+    "ref": "main",
+    "subpath": "eagle-files",
+    "license": "",
+    "truncated": false,
+    "files": [
+     {
+      "path": "eagle-files/ufo.brd",
+      "size": 235502,
+      "kind": "eagle"
+     }
+    ]
+   }
+  ],
+  "ok": true
+ },
+ "bsides-connecticut-2020-bsidesct-2020-electronic-badge": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://github.com/BSides-CT/2020-Badge",
+    "repo": "BSides-CT/2020-Badge",
+    "ref": "main",
+    "subpath": "",
+    "license": "GPL-3.0",
+    "truncated": false,
+    "files": [
+     {
+      "path": "Hardware/Schematics/bsidesct2019.kicad_pcb",
+      "size": 607026,
+      "kind": "kicad"
+     }
+    ]
+   }
+  ],
+  "ok": true
+ },
+ "bsides-cz-2025-bsides-badge-2025-bsides-cz-2025": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://github.com/bsidescz/badge-2025",
+    "repo": "bsidescz/badge-2025",
+    "ref": "main",
+    "subpath": "",
+    "license": "",
+    "truncated": false,
+    "files": [
+     {
+      "path": "key/HW/kicad/bsides25-key.kicad_pcb",
+      "size": 407625,
+      "kind": "kicad"
+     },
+     {
+      "path": "mainboard/HW/kicad/bsides25-badge-mainboard-v1.1.kicad_pcb",
+      "size": 100946,
+      "kind": "kicad"
+     }
+    ]
+   }
+  ],
+  "ok": true
+ },
+ "bsides-dublin-2026-bsides-dublin-2026-harp-badge": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://github.com/BSidesDublin/HardwareBadge2026/tree/main/production_files",
+    "repo": "BSidesDublin/HardwareBadge2026",
+    "ref": "main",
+    "subpath": "production_files",
+    "license": "",
+    "truncated": false,
+    "files": [
+     {
+      "path": "production_files/PCB/gerber.zip",
+      "size": 1174052,
+      "kind": "gerber_zip"
+     }
+    ]
+   }
+  ],
+  "ok": true
+ },
+ "bsides-iowa-2018-b-sides-iowa-2018-badge": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://github.com/blackcatlabs/bsidesiowa2018/blob/master/badge.brd",
+    "repo": "blackcatlabs/bsidesiowa2018",
+    "ref": "master",
+    "subpath": "",
+    "license": "GPL-3.0",
+    "truncated": false,
+    "files": [
+     {
+      "path": "badge.brd",
+      "size": 305568,
+      "kind": "eagle"
+     }
+    ]
+   }
+  ],
+  "ok": true
+ },
+ "bsides-kansas-city-2019-bsideskc-2019": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://github.com/BadgePiratesLLC/BSidesKC_2019",
+    "repo": "BadgePiratesLLC/BSidesKC_2019",
+    "ref": "master",
+    "subpath": "",
+    "license": "CC-BY-4.0",
+    "truncated": false,
+    "files": [
+     {
+      "path": "gerber/Prototype_v0.3_gerber.zip",
+      "size": 2072289,
+      "kind": "gerber_zip"
+     },
+     {
+      "path": "gerber/Prototype_v1.1_gerber.zip",
+      "size": 1883228,
+      "kind": "gerber_zip"
+     },
+     {
+      "path": "gerber/Final_Proto_gerber.zip",
+      "size": 1829910,
+      "kind": "gerber_zip"
+     }
+    ]
+   }
+  ],
+  "ok": true
+ },
+ "bsides-kansas-city-2021-bsides-kc-2021-badge-w-stand": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://github.com/BadgePiratesLLC/BSidesKC_2021",
+    "repo": "BadgePiratesLLC/BSidesKC_2021",
+    "ref": "main",
+    "subpath": "",
+    "license": "",
+    "truncated": false,
+    "files": [
+     {
+      "path": "Badge/Bsides-KC.kicad_pcb",
+      "size": 1632643,
+      "kind": "kicad"
+     },
+     {
+      "path": "SAO/Participant (SVG2Shenzen)/Bsides-KC-2021-SAO-Participant.kicad_pcb",
+      "size": 693925,
+      "kind": "kicad"
+     },
+     {
+      "path": "SAO/Organizer/Bsides-KC-2021-SAO-Organizer.kicad_pcb",
+      "size": 690019,
+      "kind": "kicad"
+     },
+     {
+      "path": "SAO/Volunteer/Bsides-KC-2021-SAO-Volunteer.kicad_pcb",
+      "size": 689972,
+      "kind": "kicad"
+     },
+     {
+      "path": "SAO/Speaker/Bsides-KC-2021-SAO-Speaker.kicad_pcb",
+      "size": 689188,
+      "kind": "kicad"
+     },
+     {
+      "path": "SAO/Sponsor/Bsides-KC-2021-SAO-Sponsor.kicad_pcb",
+      "size": 688873,
+      "kind": "kicad"
+     }
+    ]
+   }
+  ],
+  "ok": true
+ },
+ "bsides-kansas-city-2023-bsideskc-2023-attendee-elect-badge": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://github.com/BadgePiratesLLC/BSidesKC_2023",
+    "repo": "BadgePiratesLLC/BSidesKC_2023",
+    "ref": "main",
+    "subpath": "",
+    "license": "",
+    "truncated": false,
+    "files": [
+     {
+      "path": "CAD - BadgePirate/BSidesKC23_BadgePirate.kicad_pcb",
+      "size": 3442595,
+      "kind": "kicad"
+     },
+     {
+      "path": "CAD - Participant/BSidesKC23.kicad_pcb",
+      "size": 3442439,
+      "kind": "kicad"
+     },
+     {
+      "path": "CAD - Sponsor/BSidesKC23_Sponsor.kicad_pcb",
+      "size": 3427585,
+      "kind": "kicad"
+     },
+     {
+      "path": "CAD - Organizer/BSidesKC23_Organizer.kicad_pcb",
+      "size": 3426453,
+      "kind": "kicad"
+     },
+     {
+      "path": "CAD - Volunteer/BSidesKC23_Volunteer.kicad_pcb",
+      "size": 3418864,
+      "kind": "kicad"
+     },
+     {
+      "path": "CAD - Speaker/BSidesKC23_Speaker.kicad_pcb",
+      "size": 3394944,
+      "kind": "kicad"
+     }
+    ]
+   }
+  ],
+  "ok": true
+ },
+ "bsides-kansas-city-2024-bsideskc-2024-bsides24": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://github.com/BadgePiratesLLC/BsidesKC_2024/tree/main/CAD/BsidesKC24-Inkscape",
+    "repo": "BadgePiratesLLC/BsidesKC_2024",
+    "ref": "main",
+    "subpath": "CAD/BsidesKC24-Inkscape",
+    "license": "",
+    "truncated": false,
+    "files": [
+     {
+      "path": "CAD/BsidesKC24-Inkscape/BSidesKC24-L2S.kicad_pcb",
+      "size": 1053398,
+      "kind": "kicad"
+     },
+     {
+      "path": "CAD/BsidesKC24-Inkscape/gerbers/BsidesKC24-Gerbers.zip",
+      "size": 687017,
+      "kind": "gerber_zip"
+     }
+    ]
+   }
+  ],
+  "ok": true
+ },
+ "bsides-las-vegas-2017-life-s-a-breach-tiki-badge": {
+  "sources": [
+   {
+    "status": "no_pcb_files",
+    "source_url": "https://github.com/r3dct3d/TikiBadge",
+    "repo": "r3dct3d/TikiBadge",
+    "ref": "master",
+    "subpath": "",
+    "license": "",
+    "truncated": false,
+    "files": []
+   }
+  ],
+  "ok": false
+ },
+ "bsides-orlando-2023-bsides-orlando-2023-badge-rise-of-the-robots": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://github.com/bsidesorlando/2023-badge/tree/main/bsidesorl-v1",
+    "repo": "bsidesorlando/2023-badge",
+    "ref": "main",
+    "subpath": "bsidesorl-v1",
+    "license": "",
+    "truncated": false,
+    "files": [
+     {
+      "path": "bsidesorl-v1/bsidesorl-v1.kicad_pcb",
+      "size": 1163860,
+      "kind": "kicad"
+     },
+     {
+      "path": "bsidesorl-v1/iwc-iron-sao.kicad_pcb",
+      "size": 960807,
+      "kind": "kicad"
+     },
+     {
+      "path": "bsidesorl-v1/dc407-sao.kicad_pcb",
+      "size": 184390,
+      "kind": "kicad"
+     },
+     {
+      "path": "bsidesorl-v1/dc321-sao.kicad_pcb",
+      "size": 173814,
+      "kind": "kicad"
+     },
+     {
+      "path": "bsidesorl-v1/dc321-2-sao.kicad_pcb",
+      "size": 172088,
+      "kind": "kicad"
+     },
+     {
+      "path": "bsidesorl-v1/bsidesorl-staff-sao.kicad_pcb",
+      "size": 129201,
+      "kind": "kicad"
+     }
+    ]
+   }
+  ],
+  "ok": true
+ },
+ "bsides-orlando-2025-bsides-orlando-2025-badge": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://github.com/bsidesorlando/2025-badge",
+    "repo": "bsidesorlando/2025-badge",
+    "ref": "main",
+    "subpath": "",
+    "license": "",
+    "truncated": false,
+    "files": [
+     {
+      "path": "bsidesorl-v1.kicad_pcb",
+      "size": 266662,
+      "kind": "kicad"
+     }
+    ]
+   }
+  ],
+  "ok": true
+ },
+ "bsides-orlando-2026-bsides-orlando-2026-badge": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://github.com/bsidesorlando/2026-badge",
+    "repo": "bsidesorlando/2026-badge",
+    "ref": "main",
+    "subpath": "",
+    "license": "",
+    "truncated": false,
+    "files": [
+     {
+      "path": "hardware/bsidesorl-v1.kicad_pcb",
+      "size": 2308991,
+      "kind": "kicad"
+     },
+     {
+      "path": "hardware/jlcpcb/production_files/GERBER-bsidesorl-v1.zip",
+      "size": 247131,
+      "kind": "gerber_zip"
+     }
+    ]
+   }
+  ],
+  "ok": true
+ },
+ "bsides-perth-2025-bsides-perth-2025-badge": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://github.com/badges4dotcom/bsidesperth2025badge",
+    "repo": "badges4dotcom/bsidesperth2025badge",
+    "ref": "main",
+    "subpath": "",
+    "license": "",
+    "truncated": false,
+    "files": [
+     {
+      "path": "PCBDesign/bsides_perth_2025/bsides_perth_2025.kicad_pcb",
+      "size": 572520,
+      "kind": "kicad"
+     }
+    ]
+   }
+  ],
+  "ok": true
+ },
+ "bsides-portland-2015-bsidespdx-2015-badger-badge": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://github.com/pdxbadgers/pcb-2015",
+    "repo": "pdxbadgers/pcb-2015",
+    "ref": "master",
+    "subpath": "",
+    "license": "NOASSERTION",
+    "truncated": false,
+    "files": [
+     {
+      "path": "badger.brd",
+      "size": 1761035,
+      "kind": "eagle"
+     },
+     {
+      "path": "badger_gerbs3.zip",
+      "size": 408079,
+      "kind": "gerber_zip"
+     },
+     {
+      "path": "badger_gerbs1.zip",
+      "size": 230628,
+      "kind": "gerber_zip"
+     },
+     {
+      "path": "badger_gerbs2.zip",
+      "size": 221328,
+      "kind": "gerber_zip"
+     }
+    ]
+   }
+  ],
+  "ok": true
+ },
+ "bsides-portland-2016-bsidespdx-2016-attiny85-badge": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://github.com/pdxbadgers/pcb-2016",
+    "repo": "pdxbadgers/pcb-2016",
+    "ref": "master",
+    "subpath": "",
+    "license": "",
+    "truncated": false,
+    "files": [
+     {
+      "path": "badge.brd",
+      "size": 1282886,
+      "kind": "eagle"
+     }
+    ]
+   }
+  ],
+  "ok": true
+ },
+ "bsides-portland-2017-bsidespdx-2017-bmd-300-badge": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://github.com/pdxbadgers/pcb-2017",
+    "repo": "pdxbadgers/pcb-2017",
+    "ref": "master",
+    "subpath": "",
+    "license": "",
+    "truncated": false,
+    "files": [
+     {
+      "path": "bsides2017.brd",
+      "size": 475740,
+      "kind": "eagle"
+     }
+    ]
+   }
+  ],
+  "ok": true
+ },
+ "bsides-portland-2017-ox-vox-add-on": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://github.com/mediumrehr/oxvox",
+    "repo": "mediumrehr/oxvox",
+    "ref": "master",
+    "subpath": "",
+    "license": "MIT",
+    "truncated": false,
+    "files": [
+     {
+      "path": "Hardware/oxvox.brd",
+      "size": 430193,
+      "kind": "eagle"
+     }
+    ]
+   }
+  ],
+  "ok": true
+ },
+ "bsides-portland-2018-bsidespdx-2018-attiny861-badge": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://github.com/pdxbadgers/badge-2018/tree/master/HW",
+    "repo": "pdxbadgers/badge-2018",
+    "ref": "master",
+    "subpath": "HW",
+    "license": "",
+    "truncated": false,
+    "files": [
+     {
+      "path": "HW/BSidesPDX_2018/BSidesPDX_2018.kicad_pcb",
+      "size": 1477127,
+      "kind": "kicad"
+     }
+    ]
+   }
+  ],
+  "ok": true
+ },
+ "bsides-portland-2019-bsidespdx-2019-multnomah-badge": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://github.com/pdxbadgers/badge-2019",
+    "repo": "pdxbadgers/badge-2019",
+    "ref": "master",
+    "subpath": "",
+    "license": "",
+    "truncated": false,
+    "files": [
+     {
+      "path": "multnomah.kicad_pcb",
+      "size": 830574,
+      "kind": "kicad"
+     }
+    ]
+   }
+  ],
+  "ok": true
+ },
+ "bsides-portland-2020-bsidespdx-2020-presenter-led-mask": {
+  "sources": [
+   {
+    "status": "no_pcb_files",
+    "source_url": "https://github.com/pdxbadgers/2020-mask",
+    "repo": "pdxbadgers/2020-mask",
+    "ref": "main",
+    "subpath": "",
+    "license": "",
+    "truncated": false,
+    "files": []
+   }
+  ],
+  "ok": false
+ },
+ "bsides-portland-2024-bsidespdx-2024-opentaxus-badge": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://github.com/pdxbadgers/badge-2024",
+    "repo": "pdxbadgers/badge-2024",
+    "ref": "main",
+    "subpath": "",
+    "license": "NOASSERTION",
+    "truncated": false,
+    "files": [
+     {
+      "path": "hardware/OpenTaxus.kicad_pcb",
+      "size": 1556831,
+      "kind": "kicad"
+     }
+    ]
+   }
+  ],
+  "ok": true
+ },
+ "bsides-san-diego-2024-bsides-badge-2024-somerset-recon": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://github.com/Somerset-Recon/bsides-badge-2024/tree/main/kiCad",
+    "repo": "Somerset-Recon/bsides-badge-2024",
+    "ref": "main",
+    "subpath": "kiCad",
+    "license": "",
+    "truncated": false,
+    "files": [
+     {
+      "path": "kiCad/rps_v4.0.0/rps_v4.0.0.kicad_pcb",
+      "size": 889115,
+      "kind": "kicad"
+     },
+     {
+      "path": "kiCad/rps_v4.0.0/gerbers/rps_v4.0.0-gerber.zip",
+      "size": 270599,
+      "kind": "gerber_zip"
+     }
+    ]
+   }
+  ],
+  "ok": true
+ },
+ "bsides-san-diego-2025-bsides-san-diego-2025-badge": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://github.com/ElectronicCats/badge-bsides-sandiego-2025",
+    "repo": "ElectronicCats/badge-bsides-sandiego-2025",
+    "ref": "main",
+    "subpath": "",
+    "license": "NOASSERTION",
+    "truncated": false,
+    "files": [
+     {
+      "path": "hardware/Bsides_sandiego_2025.kicad_pcb",
+      "size": 503994,
+      "kind": "kicad"
+     }
+    ]
+   }
+  ],
+  "ok": true
+ },
+ "bsides-san-diego-2026-bsides-san-diego-2026-cyberpunk-bunny-badge": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://github.com/ElectronicCats/badge-bsides-sandiego-2026/tree/main/hardware",
+    "repo": "ElectronicCats/badge-bsides-sandiego-2026",
+    "ref": "main",
+    "subpath": "hardware",
+    "license": "",
+    "truncated": false,
+    "files": [
+     {
+      "path": "hardware/Badge-Bsides-Sandiego-2026.kicad_pcb",
+      "size": 2672688,
+      "kind": "kicad"
+     }
+    ]
+   }
+  ],
+  "ok": true
+ },
+ "bsides-san-francisco-2024-bsidessf-2024-electronic-badge-attribution-game": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://github.com/BSidesSF/badge-2024/tree/main/hardware",
+    "repo": "BSidesSF/badge-2024",
+    "ref": "main",
+    "subpath": "hardware",
+    "license": "NOASSERTION",
+    "truncated": false,
+    "files": [
+     {
+      "path": "hardware/bsidessf-24.kicad_pcb",
+      "size": 2034148,
+      "kind": "kicad"
+     }
+    ]
+   }
+  ],
+  "ok": true
+ },
+ "bsides-seattle-2018-bsides-seattle-2018-electronic-badge": {
+  "sources": [
+   {
+    "status": "no_pcb_files",
+    "source_url": "https://github.com/BlackLodgeResearch/bsides_2018_badge",
+    "repo": "BlackLodgeResearch/bsides_2018_badge",
+    "ref": "master",
+    "subpath": "",
+    "license": "",
+    "truncated": false,
+    "files": []
+   }
+  ],
+  "ok": false
+ },
+ "bsides-seattle-2025-bsides-seattle-2025-badge": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://github.com/ElectronicCats/bsides-seattle-2025/tree/main/hardware",
+    "repo": "ElectronicCats/bsides-seattle-2025",
+    "ref": "main",
+    "subpath": "hardware",
+    "license": "",
+    "truncated": false,
+    "files": [
+     {
+      "path": "hardware/bsides-seattle-2025.kicad_pcb",
+      "size": 848812,
+      "kind": "kicad"
+     }
+    ]
+   }
+  ],
+  "ok": true
+ },
+ "bsides-slc-2015-bsidesslc-2015-electronic-badge": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://github.com/thetransistor/BSidesSLC2015/tree/master/Hardware",
+    "repo": "thetransistor/BSidesSLC2015",
+    "ref": "master",
+    "subpath": "Hardware",
+    "license": "MIT",
+    "truncated": false,
+    "files": [
+     {
+      "path": "Hardware/BSides 2015 RevA.brd",
+      "size": 870926,
+      "kind": "eagle"
+     }
+    ]
+   }
+  ],
+  "ok": true
+ },
+ "bsides-slc-2019-bsides-slc-2019-badge": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://github.com/Professor-plum/BSides-SLC-Badge-2019/tree/master/eagle",
+    "repo": "Professor-plum/BSides-SLC-Badge-2019",
+    "ref": "master",
+    "subpath": "eagle",
+    "license": "MIT",
+    "truncated": false,
+    "files": [
+     {
+      "path": "eagle/Badge Proto.brd",
+      "size": 534709,
+      "kind": "eagle"
+     }
+    ]
+   }
+  ],
+  "ok": true
+ },
+ "bsides-slc-2025-2025-utahtastic-bsides-badge-bsides-lora-badge": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://github.com/distinctm1nd/2025_utahtastic_bsides_badge/tree/functional/hardware",
+    "repo": "distinctm1nd/2025_utahtastic_bsides_badge",
+    "ref": "functional",
+    "subpath": "hardware",
+    "license": "",
+    "truncated": false,
+    "files": [
+     {
+      "path": "hardware/2025_bsides_badge_v2.kicad_pcb",
+      "size": 11298196,
+      "kind": "kicad"
+     }
+    ]
+   }
+  ],
+  "ok": true
+ },
+ "bsides-st-louis-2019-bsidesstl-2019": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://github.com/BadgePiratesLLC/BSidesSTL_2019",
+    "repo": "BadgePiratesLLC/BSidesSTL_2019",
+    "ref": "master",
+    "subpath": "",
+    "license": "",
+    "truncated": false,
+    "files": [
+     {
+      "path": "Gerbers/Volunteer_Final_gerber.zip",
+      "size": 1803108,
+      "kind": "gerber_zip"
+     },
+     {
+      "path": "Gerbers/Participant_Final_gerber.zip",
+      "size": 1790167,
+      "kind": "gerber_zip"
+     },
+     {
+      "path": "Gerbers/Organizer_Final_gerber.zip",
+      "size": 1768178,
+      "kind": "gerber_zip"
+     }
+    ]
+   }
+  ],
+  "ok": true
+ },
+ "bsides-st-louis-2023-bsidesstl-2023-bsidesstl-23": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://github.com/BadgePiratesLLC/BSidesSTL_2023",
+    "repo": "BadgePiratesLLC/BSidesSTL_2023",
+    "ref": "main",
+    "subpath": "",
+    "license": "",
+    "truncated": false,
+    "files": [
+     {
+      "path": "CAD/Bsides-STL-Badge.kicad_pcb",
+      "size": 1539152,
+      "kind": "kicad"
+     }
+    ]
+   }
+  ],
+  "ok": true
+ },
+ "bsides-tallinn-2025-bsides-badge-bsides-tallinn": {
+  "sources": [
+   {
+    "status": "no_pcb_files",
+    "source_url": "https://github.com/BSides-Tallinn/bsides_badge/tree/main/hardware",
+    "repo": "BSides-Tallinn/bsides_badge",
+    "ref": "main",
+    "subpath": "hardware",
+    "license": "",
+    "truncated": false,
+    "files": []
+   }
+  ],
+  "ok": false
+ },
+ "bsides-vancouver-2025-b-sides-vancouver-2025-badge": {
+  "sources": [
+   {
+    "status": "no_pcb_files",
+    "source_url": "https://github.com/maltchev/bsides-vancouver-badge/blob/main/docs/HARDWARE.md",
+    "repo": "maltchev/bsides-vancouver-badge",
+    "ref": "main",
+    "subpath": "docs",
+    "license": "NOASSERTION",
+    "truncated": false,
+    "files": []
+   }
+  ],
+  "ok": false
+ },
+ "bsides-vilnius-2026-bsides-vilnius-2026-badge": {
+  "sources": [
+   {
+    "status": "no_pcb_files",
+    "source_url": "https://github.com/BSides-Vilnius/badge2026/tree/main/Other/circuit",
+    "repo": "BSides-Vilnius/badge2026",
+    "ref": "main",
+    "subpath": "Other/circuit",
+    "license": "BSD-2-Clause",
+    "truncated": false,
+    "files": []
+   }
+  ],
+  "ok": false
+ },
+ "bsidesdfw-2018-dfw-hacker-badge-beer-bottle-badge": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://github.com/gowenrw/DFW_InfoSec_Badge_2018",
+    "repo": "gowenrw/DFW_InfoSec_Badge_2018",
+    "ref": "master",
+    "subpath": "",
+    "license": "MIT",
+    "truncated": false,
+    "files": [
+     {
+      "path": "gerber-export-06192018/DFW-InfoSec-Badge-2018-gerber-export-06192018.zip",
+      "size": 325828,
+      "kind": "gerber_zip"
+     }
+    ]
+   }
+  ],
+  "ok": true
+ },
+ "bsidesdfw-2018-lan-tap-bsidesdfw-2018-badge": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://github.com/gowenrw/BSidesDFW_2018_Badge",
+    "repo": "gowenrw/BSidesDFW_2018_Badge",
+    "ref": "master",
+    "subpath": "",
+    "license": "GPL-2.0",
+    "truncated": false,
+    "files": [
+     {
+      "path": "BSidesDFW_2018_Badge.kicad_pcb",
+      "size": 4647615,
+      "kind": "kicad"
+     },
+     {
+      "path": "gerber/BSidesDFW_2018_Badge-gerber.zip",
+      "size": 1853044,
+      "kind": "gerber_zip"
+     }
+    ]
+   }
+  ],
+  "ok": true
  }
 }
