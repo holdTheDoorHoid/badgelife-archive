@@ -60,16 +60,21 @@ sources:
   url: https://saintcon.zip/SAINTCON_2023/saintcon.org/com-appsec-community/
   title: 'COM - AppSec Community - SAINTCON'
   accessed: '2026-09-10'
-  note: 'Confirms a MiniBadge existed for the 2023 AppSec Community booth; page text says design details were "still being worked out" at time of posting and gives no image, price, or maker name for the badge itself.'
+  note: 'Confirms a MiniBadge existed for the 2023 AppSec Community booth; page text says design details were "still being worked out" at time of posting and gives no image, price, or maker name for the badge itself. Also names community leads sketrik and l4wke.'
+- kind: url
+  url: https://saintcon.zip/SAINTCON_2015-2022/archive.saintcon.org/2022/saintcon.org/wp-content/uploads/2022/10/MiniBadges-of-2022-v2.pdf
+  title: MiniBadges of 2022 v2 (SAINTCON assembly guide)
+  accessed: '2026-09-10'
+  note: 'Search-indexed text of this PDF states the 2022 AppSec Community Minibadge "has the classic Wasp symbol which is a nod to the OWASP application security framework." Supports the 2022 comparison in research.notes and the body; the tool could not render the PDF itself to confirm firsthand, so this rests on the search snippet only.'
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-10'
-  notes: 'Confirmed the item is real (a dedicated 2023 event page for the AppSec Community says a MiniBadge would be available at their booth), but no source gives its design, colors, chip/LED/display specs, price, quantity, or a maker/designer name beyond the community itself. No photo of the badge was found (only community logo/wallpaper art, which does not show the item). The linked 2023 Minibadge Guide PDF (~10MB) could not be fetched by the tools available in this session; it may hold assembly details not found elsewhere and is worth a manual look. The 2022 edition of this same community minibadge used a wasp motif (an OWASP nod) per that year''s guide, but nothing confirms the 2023 design repeated it.'
+  notes: 'Confirmed the item is real (a dedicated 2023 event page for the AppSec Community says a MiniBadge would be available at their booth), but no source gives its design, colors, chip/LED/display specs, price, quantity, or a maker/designer name beyond the community itself. No photo of the badge was found (only community logo/wallpaper art, which does not show the item). The linked 2023 Minibadge Guide PDF (~10MB) could not be fetched in full by the tools available in this session (fetch exceeds the tool''s size limit; a byte-range curl only retrieves the file header, not readable text) — it may hold assembly details not found elsewhere and is worth a manual look. The 2022 edition of this same community minibadge used a wasp motif (an OWASP nod) per a search-indexed snippet of that year''s guide (added as a source), but nothing confirms the 2023 design repeated it. Every field and sentence left in this entry is now backed by a source actually read (or, for the 2022 comparison, a verifiable search snippet); status set to verified on that basis, with confidence kept low because the 2023 badge itself remains undocumented.'
 last_modified_date: '2026-09-10'
 ---
 
-The AppSec Community MiniBadge was given out at SAINTCON 2023's AppSec Community booth, one of dozens of community minibadges that make up the con's badgelife ecosystem that year. It is a separate item from the AppSec Arena/Challenge contest badge run by the same community.
+The AppSec Community MiniBadge was given out at SAINTCON 2023's AppSec Community booth, one of many community minibadges that make up the con's badgelife ecosystem that year. It is a separate item from the AppSec Arena/Challenge contest badge run by the same community.
 
 As of the community's own pre-event page, the badge's design had not yet been finalized ("Details are still being worked out"), and attendees were told to visit the booth in person to learn how to collect it. No later source turned up describing the finished badge, so its look, electronics, and print run remain undocumented here. The prior year's AppSec Community minibadge (2022) carried a wasp emblem nodding to OWASP, which may or may not have carried over to 2023.
 

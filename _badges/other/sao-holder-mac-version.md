@@ -43,19 +43,22 @@ links:
 - label: www.tindie.com/products/badgepirates/sao-holder-mac-version
   url: https://www.tindie.com/products/badgepirates/sao-holder-mac-version/
   kind: store
+  archived: https://web.archive.org/web/20260503104921/https://www.tindie.com/products/badgepirates/sao-holder-mac-version/
 images:
-  - file: assets/images/badges/other/sao-holder-mac-version/4c5bbd10a8.jpg
-    source: "https://www.tindie.com/products/badgepirates/sao-holder-mac-version/"
-    credit: "BadgePirates"
-    caption: "SAO Holder - Mac version, front, holding SAOs"
-  - file: assets/images/badges/other/sao-holder-mac-version/23b01e386d.jpg
-    source: "https://www.tindie.com/products/badgepirates/sao-holder-mac-version/"
-    credit: "BadgePirates"
-    caption: "SAO Holder - Mac version, back view"
+- file: assets/images/badges/other/sao-holder-mac-version/4c5bbd10a8.jpg
+  source: https://www.tindie.com/products/badgepirates/sao-holder-mac-version/
+  credit: BadgePirates
+  caption: SAO Holder - Mac version, front, holding SAOs
+  archived: https://web.archive.org/web/20260503104921/https://www.tindie.com/products/badgepirates/sao-holder-mac-version/
+- file: assets/images/badges/other/sao-holder-mac-version/23b01e386d.jpg
+  source: https://www.tindie.com/products/badgepirates/sao-holder-mac-version/
+  credit: BadgePirates
+  caption: SAO Holder - Mac version, back view
+  archived: https://web.archive.org/web/20260503104921/https://www.tindie.com/products/badgepirates/sao-holder-mac-version/
 contact: {}
 notes:
 - Spotted by a research agent while working on a neighbouring entry.
-- 'Listing shows product photos dated July and September 2022 (SAOHolder_Mac_Front/Back.jpg, then MacHolder_Front/Back.jpg), suggesting a Rev B reshoot; taken as the approximate release date.'
+- Listing shows product photos dated July and September 2022 (SAOHolder_Mac_Front/Back.jpg, then MacHolder_Front/Back.jpg), suggesting a Rev B reshoot; taken as the approximate release date.
 status: released
 sources:
 - kind: url
@@ -63,16 +66,18 @@ sources:
   title: SAO Holder - Mac version
   accessed: '2026-09-07'
   note: 'Found by the archive''s discovery sweep (angle: sheet-research-spotted); event read as ''general product''.'
+  archived: https://web.archive.org/web/20260503104921/https://www.tindie.com/products/badgepirates/sao-holder-mac-version/
 - kind: url
   url: https://www.tindie.com/products/badgepirates/sao-holder-mac-version/
   title: SAO Holder - Mac version - Tindie listing
   accessed: '2026-09-07'
-  note: 'Confirmed maker, function (holds 6 SAOs, CR2450 battery, power switch, 3 pre-soldered + 3 DIY SAO connectors), price ($10.99), Rev B color (white, Mac-inspired), and limited stock. Product image filenames dated 2022-07 and 2022-09.'
+  note: Confirmed maker, function (holds 6 SAOs, CR2450 battery, power switch, 3 pre-soldered + 3 DIY SAO connectors), price ($10.99), Rev B color (white, Mac-inspired), and limited stock. Product image filenames dated 2022-07 and 2022-09.
+  archived: https://web.archive.org/web/20260503104921/https://www.tindie.com/products/badgepirates/sao-holder-mac-version/
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'This is a general accessory (a SAO display stand), not something made for a specific convention or year, so it stays under the "other" event; no matching event id applies. The listing does not name a badge event, MCU, LED count, or SAO header version (it is a passive holder, not an SAO itself, so those tech fields are likely not applicable). Could not confirm exact release date beyond the 2022 photo timestamps on the listing; earlier black Rev A version predates the white Rev B shown in the current photos. Web search budget was exhausted this session so no press coverage or maker social posts were checked beyond the Tindie listing itself.'
+  notes: This is a general accessory (a SAO display stand), not something made for a specific convention or year, so it stays under the "other" event; no matching event id applies. The listing does not name a badge event, MCU, LED count, or SAO header version (it is a passive holder, not an SAO itself, so those tech fields are likely not applicable). Could not confirm exact release date beyond the 2022 photo timestamps on the listing; earlier black Rev A version predates the white Rev B shown in the current photos. Web search budget was exhausted this session so no press coverage or maker social posts were checked beyond the Tindie listing itself.
 last_modified_date: '2026-09-07'
 ---
 

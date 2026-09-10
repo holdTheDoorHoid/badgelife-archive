@@ -38,11 +38,13 @@ links:
 - label: hackaday.io/project/166838-shitty-addon-extension-and-adapter
   url: https://hackaday.io/project/166838-shitty-addon-extension-and-adapter
   kind: hackaday
+  archived: https://web.archive.org/web/20260515025030/https://hackaday.io/project/166838-shitty-addon-extension-and-adapter
 images:
 - file: assets/images/badges/other/shitty-addon-extension-and-adapter/374a1d0e48.jpg
-  source: "https://hackaday.io/project/166838-shitty-addon-extension-and-adapter"
-  credit: "Killergeek"
-  caption: "3D CAD render of the SAO extension cable board's connectors (J1/J2), from the project's Hackaday.io log"
+  source: https://hackaday.io/project/166838-shitty-addon-extension-and-adapter
+  credit: Killergeek
+  caption: 3D CAD render of the SAO extension cable board's connectors (J1/J2), from the project's Hackaday.io log
+  archived: https://web.archive.org/web/20260515025030/https://hackaday.io/project/166838-shitty-addon-extension-and-adapter
 contact: {}
 notes:
 - Includes SAO-to-QWIIC adapter.
@@ -53,38 +55,25 @@ sources:
   title: Shitty Addon extension and adapter
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: hackaday-search); event read as ''unknown''.'
+  archived: https://web.archive.org/web/20260515025030/https://hackaday.io/project/166838-shitty-addon-extension-and-adapter
 - kind: url
   url: https://hackaday.io/project/166838-shitty-addon-extension-and-adapter
   title: Shitty Addon extension and adapter - Hackaday.io project page
   accessed: '2026-09-07'
-  note: "Project description, components (SAO to QWIIC adapter with two QWIIC connectors, extension cable with male/female connectors, 6-pin IDC 2.54mm header, JST connectors, two LEDs with 330-ohm resistors), creation date (2019-07-30), and photos."
+  note: Project description, components (SAO to QWIIC adapter with two QWIIC connectors, extension cable with male/female connectors, 6-pin IDC 2.54mm header, JST connectors, two LEDs with 330-ohm resistors), creation date (2019-07-30), and photos.
+  archived: https://web.archive.org/web/20260515025030/https://hackaday.io/project/166838-shitty-addon-extension-and-adapter
 - kind: url
   url: https://hackaday.io/killergeek
   title: killergeek - Hackaday.io profile
   accessed: '2026-09-07'
-  note: "Maker identity (student embedded systems engineer, Netherlands); no event/con affiliation given for this project."
+  note: Maker identity (student embedded systems engineer, Netherlands); no event/con affiliation given for this project.
+  archived: https://web.archive.org/web/20260517091103/https://hackaday.io/Killergeek
 research:
   status: verified
   confidence: low
   last_checked: '2026-09-07'
-  notes: >-
-    This is a personal prototyping tool, not a badge made for a specific conference or event --
-    the maker's own page ties it to no con, so it stays under "other". No price, quantity, or
-    availability info was published; it reads as a one-off/small-batch prototype (first iteration,
-    maker notes it "needs improvement" before wider release) rather than a sold or distributed item.
-    No hardware/firmware files, BOM, or fab-share links were found on the project page despite logs
-    mentioning schematics and a 3D PCB model. Year (2019) taken from the project's creation date.
-    Verification pass (2026-09-07): corrected tech.sao_version from v1 to v1.69bis -- a project
-    photo shows the physical board silkscreened "AJG SAO V1.69bis", not v1. Corrected the body,
-    which claimed both boards carry the two LEDs; project photos show the LEDs (and their two
-    330-ohm resistors, R1/R2) are populated only on the SAO-to-QWIIC adapter board -- the extension
-    board's photos show bare header pads with no LEDs. Changed status from "released" to "unknown":
-    "released" implies others have it, but no source shows this was given away, sold, or used by
-    anyone besides the maker; only a working self-built prototype is confirmed. Corrected the saved
-    image's caption, which claimed to show "the adapter and extension cable prototypes" -- it is
-    actually a 3D CAD render of only the extension cable's connector layout, not a photo, and does
-    not show the adapter or the LEDs. All other fields and sentences were checked against the cited
-    Hackaday.io project page, its component/BOM list, and the maker's profile, and are supported.
+  notes: 'This is a personal prototyping tool, not a badge made for a specific conference or event -- the maker''s own page ties it to no con, so it stays under "other". No price, quantity, or availability info was published; it reads as a one-off/small-batch prototype (first iteration, maker notes it "needs improvement" before wider release) rather than a sold or distributed item. No hardware/firmware files, BOM, or fab-share links were found on the project page despite logs mentioning schematics and a 3D PCB model. Year (2019) taken from the project''s creation date. Verification pass (2026-09-07): corrected tech.sao_version from v1 to v1.69bis -- a project photo shows the physical board silkscreened "AJG SAO V1.69bis", not v1. Corrected the body, which claimed both boards carry the two LEDs; project photos show the LEDs (and their two 330-ohm resistors, R1/R2) are populated only on the SAO-to-QWIIC adapter board -- the extension board''s photos show bare header pads with no LEDs. Changed
+    status from "released" to "unknown": "released" implies others have it, but no source shows this was given away, sold, or used by anyone besides the maker; only a working self-built prototype is confirmed. Corrected the saved image''s caption, which claimed to show "the adapter and extension cable prototypes" -- it is actually a 3D CAD render of only the extension cable''s connector layout, not a photo, and does not show the adapter or the LEDs. All other fields and sentences were checked against the cited Hackaday.io project page, its component/BOM list, and the maker''s profile, and are supported.'
 last_modified_date: '2026-09-07'
 ---
 

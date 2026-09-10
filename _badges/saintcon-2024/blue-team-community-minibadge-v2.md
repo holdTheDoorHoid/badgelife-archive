@@ -58,18 +58,23 @@ sources:
   url: https://github.com/utahsaint-org/MiniBadges2024
   title: utahsaint-org/MiniBadges2024
   accessed: '2026-09-10'
-  note: Confirms the repo is the official design archive for SAINTCON 2024 minibadges, organized by category including a "Blue Team" community folder; SHIFTY credited across most minibadge folders.
+  note: 'Confirms the repo is the official design archive for SAINTCON 2024 minibadges. Verified by directory listing: a separate "Blue Team Community - SHIFTY" folder (without "v2") also exists in this same 2024 repo, so the earlier design is a 2024 v1, not a SAINTCON 2023 badge as previously stated. SHIFTY is credited on 9 of the repo''s 29 folders (Blue Team CTF, both Blue Team Community folders, Briefs v2, both Education Security folders, Space Community, Tamper Evident v2, Women in Cybersecurity) — a substantial share, not "most" as the entry previously said.'
+- kind: url
+  url: https://saintcon.zip/SAINTCON_2024/saintcon.org/com-blueteam-community/
+  title: 'COM - Blueteam Community - SAINTCON (archived SAINTCON 2024 site)'
+  accessed: '2026-09-10'
+  note: 'Archived 2024 community page confirms a real "Blue Team Community minibadge" existed and was obtained "by participating in our community" (not purchased); page states distribution/pickup details were "still being worked out" at time of capture, with no price, quantity, or appearance info given. Does not distinguish v1 vs v2 specifically.'
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-10'
-  notes: 'Confirmed this is a real design folder in SAINTCON''s official 2024 minibadge repo, listed alongside other community minibadges (Women in Cybersecurity, Space Community, etc.), all attributed to SHIFTY. No README, storefront, social post, or press coverage found describing the badge''s function, exact colors/shape beyond the artwork filenames, chip (if any), LEDs, price, quantity, or how it was distributed. The design files (KiCad PCB/schematic, SVG/PSD artwork) indicate a real, fabricated PCB minibadge rather than just a listing, so status is set to released, but confidence stays low given the lack of any descriptive source or photo of the finished badge.'
+  notes: 'Verified the repo folder and its contents (KiCad PCB/schematic, SVG/PSD artwork, no README) by directly listing the GitHub folder. Corrected an unsupported claim in the prior body text: there was no source for a "SAINTCON 2023" first version. The v1 "Blue Team Community" folder found alongside this v2 folder is in the SAME 2024 repository, not a 2023 one (no MiniBadges2023 repo exists in utahsaint-org). Also toned down an overstated claim that SHIFTY is credited "across most" folders (it is 9 of 29). Found one new corroborating source, an archived SAINTCON 2024 community FAQ page, confirming the Blue Team Community minibadge is real and was given to attendees who participated in the community (not sold), though it gives no price, quantity, or appearance detail and predates any specifics being finalized, so those fields stay blank. No README, storefront, social post, or press coverage was found describing the badge''s function, exact colors/shape beyond the artwork filenames, chip (if any), or LEDs. With the 2023 claim corrected and every remaining sentence now supported by a checked source, status is set to verified; confidence stays low given the thin, non-descriptive sourcing overall.'
 last_modified_date: '2026-09-10'
 ---
 
-The Blue Team Community minibadge is the second version of a SAINTCON 2024 minibadge representing the con's Blue Team community track, designed by SHIFTY. It is part of a large family of community and event minibadges SHIFTY produced for SAINTCON in 2023 and 2024, of which this is one of several "v2" refreshes of an earlier design (a first-version Blue Team Community badge exists from SAINTCON 2023).
+The Blue Team Community minibadge is the second version of a SAINTCON 2024 minibadge representing the con's Blue Team community track, designed by SHIFTY. SHIFTY is credited on several other 2024 community minibadge folders in the same repository (Blue Team CTF, Women in Cybersecurity, Space Community, and others), and this v2 sits alongside a plain "Blue Team Community" folder in that same 2024 repo — an earlier v1 of the design, also from 2024, rather than from a prior year's con.
 
-The badge's own design folder in SAINTCON's public minibadge repository contains KiCad PCB and schematic files along with SVG and Photoshop artwork, confirming it was designed and laid out as a real PCB rather than only listed on a sheet. No README, storefront listing, or social post was found describing its function, exact appearance, any onboard electronics (LEDs, chip), price, quantity made, or how attendees obtained it, so those fields are left blank pending a source that documents them.
+The badge's own design folder in SAINTCON's public minibadge repository contains KiCad PCB and schematic files along with SVG and Photoshop artwork, confirming it was designed and laid out as a real PCB rather than only listed on a sheet. An archived SAINTCON 2024 community page confirms a Blue Team Community minibadge existed and was given to attendees who participated in the community, rather than sold, though it does not distinguish between the v1 and v2 designs and gives no price, quantity, or appearance detail. No README, storefront listing, or social post was found describing the badge's exact appearance, any onboard electronics (LEDs, chip), price, or quantity made, so those fields are left blank pending a source that documents them.
 
 ## Make your own
 

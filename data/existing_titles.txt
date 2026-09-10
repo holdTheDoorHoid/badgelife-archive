@@ -1621,15 +1621,14 @@ saintcon-2022-vent-event-badge-2022 | VENT EVENT BADGE (2022) | Jup1t3r
 saintcon-2022-widow-badge | WIDOW BADGE | Jup1t3r
 saintcon-2023-ai-community-badge | AI Community Badge | SHIFTY
 saintcon-2023-application-security-challenge-badge | Application Security Challenge Badge | SHIFTY
-saintcon-2023-application-security-community-badge | Application Security Community Badge | SHIFTY
+saintcon-2023-application-security-community-badge | Application Security Community Badge | AppSec Community (SAINTCON)
 saintcon-2023-axonius-sponsor-badge | Axonius Sponsor Badge | Jup1t3r
-saintcon-2023-badgelife-community-badge-llama-2023 | BadgeLife Community Badge (llama, 2023) | Jup1t3r
+saintcon-2023-badgelife-community-badge-llama-2023 | BadgeLife Community Badge | Jup1t3r, SHIFTY
 saintcon-2023-biohacking-community-badge | Biohacking Community Badge | Jup1t3r
 saintcon-2023-blue-team-community-badge | Blue Team Community Badge | SHIFTY
 saintcon-2023-briefs-community-badge | Briefs Community Badge | SHIFTY
 saintcon-2023-briefs-speaker-minibadge | Briefs Speaker Minibadge | SHIFTY
 saintcon-2023-chc-2023-minibadge | CHC 2023 minibadge | hamster (GitHub)
-saintcon-2023-circuit-hacking-community-minibadge | Circuit Hacking Community Minibadge | Hamster
 saintcon-2023-compukidmike-minibadge10x10 | compukidmike/minibadge10x10 | compukidmike
 saintcon-2023-compukidmike-sunset | Compukidmike - Sunset | CompuKidMike
 saintcon-2023-compunet-sponsor-badge-2023 | CompuNet Sponsor Badge (2023) | Jup1t3r
@@ -1644,7 +1643,7 @@ saintcon-2023-fox-hunt-challenge-badge | Fox Hunt Challenge Badge | bfcoder
 saintcon-2023-hack-in-the-box-badge-2023 | Hack In The Box Badge (2023) | SHIFTY
 saintcon-2023-hackers-challenge-minibadge-2023 | Hackers Challenge Minibadge (2023) | Santiago
 saintcon-2023-hallway-talk-s-badge | HALLWAY TALK'S BADGE | SHIFTY
-saintcon-2023-hardware-hacking-community-badge-2023-portal-theme | Hardware Hacking Community Badge (2023, Portal theme) | rogu3bull3t
+saintcon-2023-hardware-hacking-community-badge-2023-portal-theme | Hardware Hacking Community Badge | rogu3bull3t
 saintcon-2023-haunting-specter-expansion-board-2023 | Haunting Specter Expansion Board (2023) | distinctm1nd
 saintcon-2023-healthcare-hacking-community-badge | Healthcare Hacking Community Badge | Brucifer
 saintcon-2023-homelabs-community-badge | HOMELABS COMMUNITY BADGE | bfcoder
@@ -1657,7 +1656,7 @@ saintcon-2023-lan-party-event-badge | LAN PARTY EVENT BADGE | SHIFTY
 saintcon-2023-lego-spaceman-badge | Lego Spaceman Badge | Kingbob
 saintcon-2023-lo-pan-btilc | Lo-Pan BTiLC | Sh33pr0ck
 saintcon-2023-lockpick-community-badge-2023 | Lockpick Community Badge (2023) | Jup1t3r
-saintcon-2023-make-it-bigger | Make It Bigger | Honki / Xanadu2600
+saintcon-2023-make-it-bigger | Make it Bigger | Honki, Xanadu2600
 saintcon-2023-marvin-the-martian | Marvin the Martian | Berly
 saintcon-2023-marvthegrate | marvthegrate | rogu3bull3t
 saintcon-2023-mcrib-in-memoriam | McRib In Memoriam | Sh33pr0ck
@@ -1667,7 +1666,7 @@ saintcon-2023-mirror-minibadge-infinity-mirror-minibadge | mirror-minibadge — 
 saintcon-2023-rfid-nfc-community-badge-2023 | RFID/NFC Community Badge (2023) | SHIFTY
 saintcon-2023-rfid-rocket | RFID Rocket | SHIFTY
 saintcon-2023-rollin-with-rick | Rollin With Rick | Z0nifer
-saintcon-2023-saintcon-2023-attendee-game-minibadge | SAINTCON 2023 Attendee Game Minibadge | MK Factor
+saintcon-2023-saintcon-2023-attendee-game-minibadge | SAINTCON 2023 Attendee Minibadge | MK Factor
 saintcon-2023-saintcon-2023-badge-compukidmike | SAINTCON 2023 badge (compukidmike) | compukidmike
 saintcon-2023-saintcon-2023-minibadge-rp2040-72-led-matrix | Saintcon 2023 Minibadge (RP2040, 72-LED matrix) | redactd
 saintcon-2023-saintcon-golf-club-minibadge | SAINTCON Golf Club Minibadge | SHIFTY
@@ -1678,7 +1677,7 @@ saintcon-2023-tamper-evident-community-badge | Tamper Evident Community Badge | 
 saintcon-2023-tfht-the-truth-is-out-there | TFHT - THE TRUTH IS OUT THERE... | SHIFTY
 saintcon-2023-the-keep-community-badge | The Keep Community Badge | Jup1t3r
 saintcon-2023-the-vault-contest-badge-2023 | The Vault Contest Badge (2023) | SHIFTY
-saintcon-2023-trend-micro-2023-sponsor-badge | Trend Micro 2023 Sponsor Badge | Trend Micro
+saintcon-2023-trend-micro-2023-sponsor-badge | Trend Micro 2023 Sponsor Minibadge | Trend Micro
 saintcon-2023-uetn-sponsor-badge | UETN Sponsor Badge | Jup1t3r
 saintcon-2023-ultraviolet-sponsor-badge | UltraViolet Sponsor Badge | Jup1t3r
 saintcon-2023-valcom-sponsor-badge | Valcom Sponsor Badge | Jup1t3r
@@ -1686,7 +1685,7 @@ saintcon-2023-vent-event-badge | VENT EVENT BADGE | SHIFTY
 saintcon-2024-2024-butterfly | 2024 Butterfly | RuShan
 saintcon-2024-40oz-stanley-mug | 40oz Stanley Mug | atticus & kittysedai
 saintcon-2024-athena-s-fortune-badge | Athena's Fortune Badge | Mister X
-saintcon-2024-attendee-minibadge-2024 | Attendee-Minibadge-2024 | UtahSAINT / organizers (unconfirmed individual)
+saintcon-2024-attendee-minibadge-2024 | Attendee Minibadge 2024 | UtahSAINT
 saintcon-2024-blue-team-community-minibadge-v2 | Blue Team Community minibadge (v2) | SHIFTY
 saintcon-2024-blue-team-ctf-minibadge | Blue Team CTF minibadge | SHIFTY
 saintcon-2024-briefs-minibadge-v2 | Briefs minibadge (v2) | SHIFTY
@@ -1697,36 +1696,36 @@ saintcon-2024-deathly-hallows | Deathly Hallows | kittysedai
 saintcon-2024-dev-attinyboard-minibadge | DEV-AttinyBoard minibadge | unconfirmed
 saintcon-2024-disa | DISA | kittysedai
 saintcon-2024-doterra | doTERRA | kittysedai
-saintcon-2024-edu-esc-badge-education-security-v1-v2 | EDU-ESC-Badge (Education Security, v1/v2) | SHIFTY
+saintcon-2024-edu-esc-badge-education-security-v1-v2 | Education Security Community Minibadge (ESC) | Jup1t3r
 saintcon-2024-edu-keycap-badge | EDU-KeyCap-Badge | unconfirmed
 saintcon-2024-gold-hoarder-badge | Gold Hoarder Badge | Mister X
 saintcon-2024-hacker-era | Hacker Era | kittysedai
-saintcon-2024-hackers-challenge-2024-minibadge | Hackers-Challenge-2024 minibadge | unconfirmed
+saintcon-2024-hackers-challenge-2024-minibadge | Hackers Challenge 2024 minibadge | unconfirmed
 saintcon-2024-headband-2024-headband-2024-staffing | Headband-2024 / Headband-2024-Staffing | unconfirmed
 saintcon-2024-hold-monster | Hold Monster | kittysedai
 saintcon-2024-ics-v1-escaped-ics-v1-failed-minibadges | ICS V1 Escaped / ICS V1 Failed minibadges | unconfirmed
-saintcon-2024-jawabadge-2024 | JawaBadge-2024 | unconfirmed
-saintcon-2024-keep-community-2024-minibadge | Keep-Community-2024 minibadge | unconfirmed
+saintcon-2024-jawabadge-2024 | STAR WARS Jawa Minibadge | Jup1t3r
+saintcon-2024-keep-community-2024-minibadge | Keep-Community-2024 minibadge | 801Labs
 saintcon-2024-kidsnight-badge-2024 | KidsNight-Badge-2024 | unconfirmed
-saintcon-2024-lan-cable-2024-minibadge | LAN-Cable-2024 minibadge | unconfirmed
+saintcon-2024-lan-cable-2024-minibadge | Lan Cable Contest Minibadge | Jup1t3r
 saintcon-2024-merchant-alliance-badge | Merchant Alliance Badge | Mister X
 saintcon-2024-night-of-the-evil-ai-expansion-board | Night of the Evil AI Expansion Board | distinctm1nd
 saintcon-2024-order-of-souls-badge | Order of Souls Badge | Mister X
 saintcon-2024-peace-was-never-an-option-badge | Peace Was Never an Option Badge | Mister X
 saintcon-2024-people-staff-neo-minibadge | People-Staff-Neo minibadge | unconfirmed
-saintcon-2024-personal-berlymib-minibadge | Personal-BerlyMIB minibadge | Berly
+saintcon-2024-personal-berlymib-minibadge | BerlyMIB minibadge | Berly
 saintcon-2024-reaper-s-bones-badge | Reaper's Bones Badge | Mister X
-saintcon-2024-rfid-nfc-2024-minibadge | RFID-NFC-2024 minibadge | unconfirmed
+saintcon-2024-rfid-nfc-2024-minibadge | RFID/NFC 2024 minibadge | ICEMAN, GOBO42
 saintcon-2024-saintcon-2024-badge-compukidmike | SAINTCON 2024 badge (compukidmike) | compukidmike
 saintcon-2024-saintcon-2024-minibadge-expansion-board-cover | SAINTCON 2024 Minibadge Expansion Board Cover | unconfirmed (Printables user)
 saintcon-2024-saintsays-minibadge | SaintSays MiniBadge | durkinza (Zane Durkin)
 saintcon-2024-sea-of-thieves-minibadge | Sea of Thieves Minibadge | Mister X
-saintcon-2024-space-community-minibadge-2024 | Space Community minibadge (2024) | unconfirmed
-saintcon-2024-sponsorsidecar-minibadge | SponsorSidecar minibadge | unconfirmed
+saintcon-2024-space-community-minibadge-2024 | Space Community minibadge (2024) | SHIFTY
+saintcon-2024-sponsorsidecar-minibadge | SponsorSidecar minibadge | SAINTCON community (utahsaint-org)
 saintcon-2024-stargate-portal | STARGATE Portal | SHIFTY
 saintcon-2024-tamper-evident-minibadge-v2 | Tamper Evident minibadge (v2) | SHIFTY
 saintcon-2024-unix-system | UNIX System | kittysedai
-saintcon-2024-vlcm-sponsor-2024-minibadge | VLCM-Sponsor-2024 minibadge | unconfirmed
+saintcon-2024-vlcm-sponsor-2024-minibadge | VLCM-Sponsor-2024 minibadge | VLCM
 saintcon-2024-volunteer-topper-v5 | Volunteer Topper V5 | unconfirmed
 saintcon-2024-winter-is-coming | Winter Is Coming | kittysedai
 saintcon-2024-women-in-cybersecurity-minibadge | Women In Cybersecurity minibadge | SHIFTY

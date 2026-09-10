@@ -70,10 +70,10 @@ sources:
   accessed: '2026-09-10'
   note: 'Confirms The Keep is a hacking-skills community run by 801Labs at SAINTCON 2024 and that it gave out a minibadge to booth visitors; no pricing, features, or images given.'
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-10'
-  notes: 'Confirmed real: the repo holds actual KiCad PCB design files (schematic, PCB, project) plus an Illustrator concept file for a "Keep-Community-2024" board, and SAINTCON''s own 2024 site confirms The Keep community (run by 801Labs) gave out a minibadge at its booth. No README, maker name, chip, LED, display, price, quantity, or photo could be found for this specific badge -- the repo has no documentation file and no image files in the Keep-Community-2024 folder, and the community page deferred all minibadge details to "visit our booth." Left tech/get_one fields empty rather than guessing from the generic MiniBadges2024 repo.'
+  notes: 'Confirmed real: the repo holds actual KiCad PCB design files (schematic, PCB, project) plus an Illustrator concept file for a "Keep-Community-2024" board, and SAINTCON''s own 2024 site confirms The Keep community (run by 801Labs) gave out a minibadge at its booth. No README, maker name, chip, LED, display, price, or quantity could be found for this specific badge -- the folder has no documentation file. Correction on 2026-09-10: the folder does contain a `SVG` subfolder with 7 vector-graphic files (design fragments, not a photo of a finished board), so the earlier claim of "no image files" was wrong; still no actual photo of the assembled minibadge was found, and the vector fragments are too ambiguous (isolated shape pieces, no assembled view or color key) to responsibly infer look.shape or look.colors from, so those fields stay empty. The community page deferred all minibadge details to "visit our booth." Left tech/get_one fields empty rather than guessing from the generic MiniBadges2024 repo.'
 last_modified_date: '2026-09-10'
 ---
 

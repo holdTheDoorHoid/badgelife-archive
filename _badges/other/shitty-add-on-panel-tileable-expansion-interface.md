@@ -10,7 +10,7 @@ event: other
 year: 0
 makers:
 - name: bbenchoff
-summary: 'A bare 60mm x 60mm tileable host panel that passes 3.3V power through a Shitty Add-On V1.69bis connector; panels are meant to be joined end-to-end.'
+summary: A bare 60mm x 60mm tileable host panel that passes 3.3V power through a Shitty Add-On V1.69bis connector; panels are meant to be joined end-to-end.
 functions: 'Passive expansion/mounting panel: no on-board logic, just power pass-through and M3 standoff holes so multiple panels can be tiled together.'
 look:
   colors: []
@@ -52,31 +52,20 @@ sources:
   note: 'Found by the archive''s discovery sweep (angle: github-topics); event read as ''unknown''.'
 - kind: url
   url: https://github.com/bbenchoff/Shitty-Add-On-Panel
-  title: 'GitHub repo README and file listing'
+  title: GitHub repo README and file listing
   accessed: '2026-09-07'
   note: 'Verified via GitHub API: README text ("tileable display panel", 3.3V through a Shitty Add-On V1.69bis connector, 60mm x 60mm, M3 standoff holes) matches word-for-word; repo description confirms V1.69bis compliance. File listing has README.md, ShittyPanel.sch, ShittyPanel.brd, ShittyPanelGerbers.zip (no images). created_at and pushed_at both 2019-07-24, 0 releases, 2 stargazers, topics empty.'
 - kind: url
   url: https://hackaday.com/2019/03/20/introducing-the-shitty-add-on-v1-69bis-standard/
-  title: 'Introducing The Shitty Add-On V1.69bis Standard (Hackaday, by Brian Benchoff)'
+  title: Introducing The Shitty Add-On V1.69bis Standard (Hackaday, by Brian Benchoff)
   accessed: '2026-09-07'
   note: 'Confirms bbenchoff (GitHub profile name: Brian Benchoff) authored Hackaday''s own announcement of the V1.69bis SAO standard, supporting the claim that he is closely associated with the standard as its author, not just a user of it.'
+  archived: https://web.archive.org/web/20260516210428/https://hackaday.com/2019/03/20/introducing-the-shitty-add-on-v1-69bis-standard/
 research:
   status: verified
   confidence: medium
   last_checked: '2026-09-07'
-  notes: >-
-    Fact-check pass re-verified every non-empty field and body sentence against
-    the GitHub repo (API-confirmed README text, file listing, created/pushed
-    dates, star count, empty topics, zero releases) and, this time with web
-    access available, against Hackaday: Brian Benchoff (the GitHub profile's
-    display name) wrote Hackaday's own March 2019 article introducing the
-    V1.69bis standard, confirming the "closely associated with the SAO
-    standard" claim the original researcher could not check. No maker bio,
-    event, price, quantity, or photos exist anywhere in the repo or its
-    metadata, so those fields stay empty/null and event stays "other" -
-    nothing found ties this panel to a specific convention or year. Confidence
-    raised from low to medium (not high) because event/price/quantity/images
-    remain entirely unfound rather than confirmed absent.
+  notes: 'Fact-check pass re-verified every non-empty field and body sentence against the GitHub repo (API-confirmed README text, file listing, created/pushed dates, star count, empty topics, zero releases) and, this time with web access available, against Hackaday: Brian Benchoff (the GitHub profile''s display name) wrote Hackaday''s own March 2019 article introducing the V1.69bis standard, confirming the "closely associated with the SAO standard" claim the original researcher could not check. No maker bio, event, price, quantity, or photos exist anywhere in the repo or its metadata, so those fields stay empty/null and event stays "other" - nothing found ties this panel to a specific convention or year. Confidence raised from low to medium (not high) because event/price/quantity/images remain entirely unfound rather than confirmed absent.'
 last_modified_date: '2026-09-07'
 ---
 

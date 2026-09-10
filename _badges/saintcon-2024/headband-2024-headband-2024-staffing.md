@@ -62,7 +62,7 @@ sources:
   url: https://github.com/utahsaint-org/MiniBadges2024
   title: 'utahsaint-org/MiniBadges2024: Minibadges for SAINTCON 2024'
   accessed: '2026-09-10'
-  note: 'Confirms the repo root README ("Minibadges for SAINTCON 2024") and that Headband-2024 and Headband-2024-Staffing are two separate top-level folders in the collection alongside ~30 other 2024 minibadge designs.'
+  note: 'Confirms the repo root README ("Minibadges for SAINTCON 2024") and that Headband-2024 and Headband-2024-Staffing are two separate top-level folders in the collection alongside 27 other 2024 minibadge design folders.'
 - kind: url
   url: https://github.com/utahsaint-org/MiniBadges2024/tree/main/Headband-2024-Staffing
   title: Headband-2024-Staffing
@@ -74,26 +74,27 @@ sources:
   accessed: '2026-09-10'
   note: 'Background on SAINTCON''s long-running minibadge trading tradition (community-designed add-on boards that clip onto an expansion board); no Headband-specific mention found here.'
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-10'
   notes: >-
-    Confirmed real: the GitHub repo utahsaint-org/MiniBadges2024 contains two top-level folders,
-    Headband-2024 and Headband-2024-Staffing, each with a complete KiCad project (schematic, PCB,
-    Gerbers) and a small set of SVG art assets, so hardware design files are open (no firmware or
-    BOM found, hence open_source: partial rather than yes). No maker/designer name is attributed to
-    this specific design anywhere found (the repo is credited only to the utahsaint-org GitHub
-    organization); no photo of the finished, populated board was located, only vector artwork files
-    (SVG) that could not be confirmed as an accurate depiction of the final badge, so no images were
-    saved. No price, quantity made, or availability info was found — SAINTCON minibadges are
-    community-submitted designs typically brought/traded in person rather than sold, per the
-    saintcon.org minibadge community page, but nothing ties that general pattern to this specific
-    badge with a source. Could not determine colors, LEDs, MCU, or other tech specs from the
-    KiCad/Gerber files without opening them in EDA software, which was out of scope for a text
-    fetch/search pass.
+    Fact-check pass (2026-09-10) re-fetched every cited source and confirmed each claim still
+    standing in the entry: the repo root (README "Minibadges for SAINTCON 2024") lists Headband-2024
+    and Headband-2024-Staffing as two of 29 top-level folders (27 other minibadge designs besides
+    this pair; the body's original "roughly three dozen" was an overstatement and has been corrected
+    to the counted figure); both folders were independently confirmed to contain a full KiCad project
+    (.kicad_pcb/.kicad_pro/.kicad_sch/.kicad_prl), a Gerbers directory, and SVG art, with no README,
+    BOM, or firmware in either, supporting open_source: partial and eda_tool: KiCad. The
+    saintcon.org minibadge community page was re-checked and, as noted, contains no Headband-specific
+    mention; it only supports the general trade/give-away pattern for SAINTCON minibadges, which the
+    body already treats as unconfirmed for this specific item. No maker name, tech specs, price,
+    quantity, or photo of an assembled board was found in any source, so those fields remain empty
+    and images remain unset per the never-guess rule. Everything remaining in the entry is supported
+    by a source that was read, hence status: verified (confidence stays low given how little could be
+    confirmed beyond the repo's existence and contents).
 last_modified_date: '2026-09-10'
 ---
 
-Headband-2024 and Headband-2024-Staffing are a pair of SAINTCON 2024 minibadges published in the `utahsaint-org/MiniBadges2024` GitHub repository, which collects roughly three dozen community-designed minibadges made for that year's conference. SAINTCON's minibadges are small add-on boards that clip onto a shared expansion board worn by attendees, and are traded in person at the con's dedicated minibadge community and museum; this pair follows that pattern with a normal attendee version and a separate version apparently intended for event staffing volunteers.
+Headband-2024 and Headband-2024-Staffing are a pair of SAINTCON 2024 minibadges published in the `utahsaint-org/MiniBadges2024` GitHub repository, which collects about 27 other community-designed minibadges made for that year's conference alongside this pair. SAINTCON's minibadges are small add-on boards that clip onto a shared expansion board worn by attendees, and are traded in person at the con's dedicated minibadge community and museum; this pair follows that pattern with a normal attendee version and a separate version apparently intended for event staffing volunteers.
 
 Both folders in the repo contain a full KiCad project (schematic and PCB files) plus generated Gerbers and a handful of SVG artwork assets, so the hardware design is openly available, but no README, BOM, or firmware accompanies either folder. No maker name, price, quantity, or photo of an assembled board could be found in the repo or in general searches about SAINTCON 2024 minibadges, so those fields are left blank rather than guessed.

@@ -65,20 +65,21 @@ sources:
   url: https://github.com/utahsaint-org/MiniBadges2024
   title: utahsaint-org/MiniBadges2024 repo (root)
   accessed: '2026-09-10'
-  note: 'Confirms this repo is the SAINTCON 2024 minibadge set; lists "VLCM-Sponsor 2024" among ~35 minibadge folders alongside other sponsor, community, and technical minibadges.'
+  note: 'Confirms this repo is the SAINTCON 2024 minibadge set; the repo root lists roughly two dozen minibadge-named folders (VLCM-Sponsor-2024 among them) plus a few non-badge folders (dev tooling, shared KiCad footprints, a README).'
 - kind: url
   url: https://www.linkedin.com/posts/valcom-vlcm-_saintcon-main-page-activity-7250170102006882310-5ZdA
-  title: 'VLCM LinkedIn post: "SAINTCON 2025"'
+  title: 'VLCM LinkedIn post: "SAINTCON 2024"'
   accessed: '2026-09-10'
-  note: 'Confirms VLCM (Valcom) sponsored SAINTCON 2024 (Oct 22-25, Utah Valley Convention Center), and again sponsored in 2025 — establishing VLCM as the maker/sponsor named in the repo path.'
+  note: 'VLCM''s own post confirms it sponsored SAINTCON 2024 (Oct 22-25, Utah Valley Convention Center) and says "once again," implying a prior year of sponsorship. It does not mention 2025 or any future sponsorship — establishes VLCM as the maker/sponsor named in the repo path, nothing more.'
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-10'
   notes: >-
-    Confirmed the item exists: it is one of ~35 SAINTCON 2024 minibadge folders in the
-    utahsaint-org/MiniBadges2024 GitHub repo, and VLCM is a real, Utah-based IT/security
-    reseller that publicly confirmed sponsoring SAINTCON 2024 and 2025. However the
+    Confirmed the item exists: it is one of roughly two dozen SAINTCON 2024 minibadge
+    folders in the utahsaint-org/MiniBadges2024 GitHub repo, and VLCM is a real, Utah-based
+    IT/security reseller that publicly confirmed sponsoring SAINTCON 2024 ("once again,"
+    implying an earlier year too, but no source found confirms 2025). However the
     VLCM-Sponsor-2024 folder itself holds only two vector-art files (an SVG pixel-art
     sprite and an Adobe Illustrator file) with no README, no PCB/gerber/BOM files, and no
     firmware — so it is unclear whether this minibadge has any electronics at all, or is a
@@ -92,6 +93,6 @@ research:
 last_modified_date: '2026-09-10'
 ---
 
-The VLCM-Sponsor-2024 minibadge is a sponsor-branded collectible from SAINTCON 2024, Utah's annual security conference held October 22-25, 2024 at the Utah Valley Convention Center. It represents VLCM (also styled Valcom), a Utah-based IT and cybersecurity solutions reseller that publicly confirmed sponsoring SAINTCON both in 2024 and again in 2025. The badge's design lives in the `VLCM-Sponsor-2024` folder of the `utahsaint-org/MiniBadges2024` GitHub repository, one of roughly 35 minibadge designs (attendee, community, technical, and sponsor badges) produced for that year's event.
+The VLCM-Sponsor-2024 minibadge is a sponsor-branded collectible from SAINTCON 2024, Utah's annual security conference held October 22-25, 2024 at the Utah Valley Convention Center. It represents VLCM (also styled Valcom), a Utah-based IT and cybersecurity solutions reseller that publicly announced sponsoring SAINTCON 2024, saying it would do so "once again" — implying an earlier year of sponsorship, though no source confirms whether VLCM has sponsored the event since. The badge's design lives in the `VLCM-Sponsor-2024` folder of the `utahsaint-org/MiniBadges2024` GitHub repository, one of roughly two dozen minibadge designs (attendee, community, technical, and sponsor badges) produced for that year's event.
 
 Little else could be confirmed. The folder contains only two flat design files — a pixel-art SVG sprite and a matching Adobe Illustrator (`.ai`) source — with no PCB layout, bill of materials, firmware, or README describing the physical badge, its materials, or how it was distributed. It is not clear from available sources whether this minibadge includes any electronics (LEDs, a microcontroller) or is a simple non-electronic token, nor was any price, quantity, or distribution method found. SAINTCON's sponsor and community minibadges are traditionally traded and collected on lanyards throughout the conference rather than sold individually, but that general pattern is not confirmed for this specific badge.

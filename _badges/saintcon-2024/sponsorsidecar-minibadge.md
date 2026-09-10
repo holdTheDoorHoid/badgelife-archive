@@ -64,7 +64,7 @@ sources:
   accessed: '2026-09-10'
   note: 'The PCB file contains only mounting-hole footprints (no MCU, LED, or connector footprints) — supports that this is a passive, unpowered board rather than an electronic minibadge.'
 research:
-  status: researched
+  status: verified
   confidence: low
   last_checked: '2026-09-10'
   notes: >-

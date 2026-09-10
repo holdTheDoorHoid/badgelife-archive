@@ -1111,5 +1111,355 @@
   "event": "saintcon-2025",
   "type": "minibadge",
   "url": "https://www.youtube.com/watch?v=6iBI0gCmr90"
+ },
+ {
+  "title": "2024 SAINTCON MiniBadge Guide v3.0",
+  "maker": "UtahSAINT",
+  "event": "saintcon-2024",
+  "type": "doc",
+  "url": "https://github.com/utahsaint-org/saintcon.zip.files/blob/main/2024/2024-SAINTCON-MiniBadge-Guide-v3.0-10.20.2024-1.pdf"
+ },
+ {
+  "title": "SAINTCON 2024 MiniBadges2024 repo (40+ other badge folders: Blue Team CTF, Blue Team Community, ESC, KeyCap, Volunteer/Staff, RFID/NFC, Sponsor Sidecars, etc.)",
+  "maker": "UtahSAINT / various community designers",
+  "event": "saintcon-2024",
+  "type": "index/multiple",
+  "url": "https://github.com/utahsaint-org/MiniBadges2024"
+ },
+ {
+  "title": "Blue Team Community v2",
+  "maker": "SHIFTY",
+  "event": "saintcon-2024",
+  "type": "minibadge",
+  "url": "https://github.com/utahsaint-org/MiniBadges2024/tree/main/Blue%20Team%20Community%20v2%20-%20SHIFTY"
+ },
+ {
+  "title": "Attendee Minibadge 2024",
+  "maker": "SHIFTY",
+  "event": "saintcon-2024",
+  "type": "minibadge",
+  "url": "https://github.com/utahsaint-org/MiniBadges2024/tree/main/Attendee-Minibadge-2024"
+ },
+ {
+  "title": "Hackers Challenge 2024",
+  "maker": "SHIFTY",
+  "event": "saintcon-2024",
+  "type": "unknown",
+  "url": "https://github.com/utahsaint-org/MiniBadges2024/tree/main/Hackers-Challenge-2024"
+ },
+ {
+  "title": "JawaBadge 2024",
+  "maker": "SHIFTY",
+  "event": "saintcon-2024",
+  "type": "minibadge",
+  "url": "https://github.com/utahsaint-org/MiniBadges2024/tree/main/JawaBadge-2024"
+ },
+ {
+  "title": "Kids Night Badge 2024",
+  "maker": "SHIFTY",
+  "event": "saintcon-2024",
+  "type": "minibadge",
+  "url": "https://github.com/utahsaint-org/MiniBadges2024/tree/main/KidsNight-Badge-2024"
+ },
+ {
+  "title": "EDU-ESC-Badge (Education Security, v1/v2)",
+  "maker": "SHIFTY",
+  "event": "saintcon-2024",
+  "type": "minibadge",
+  "url": "already present as saintcon-2024-edu-esc-badge-education-security-v1-v2 in existing_titles.txt"
+ },
+ {
+  "title": "Education Security (ESC) - SHIFTY (v1) and Education Security (ESC) v2 SHIFTY",
+  "maker": "SHIFTY",
+  "event": "saintcon-2024",
+  "type": "minibadge",
+  "url": "https://github.com/utahsaint-org/MiniBadges2024/tree/main/Education%20Security%20(ESC)%20-%20SHIFTY"
+ },
+ {
+  "title": "MiniBadge Klip-on expansion board",
+  "maker": "compukidmike (community)",
+  "event": "saintcon-2024",
+  "type": "accessory",
+  "url": "https://github.com/compukidmike/Saintcon2024"
+ },
+ {
+  "title": "SAINTCON 2024 Minibadge Expansion Board Cover (3D-print accessory)",
+  "maker": "unconfirmed (Printables uploader)",
+  "event": "saintcon-2024",
+  "type": "accessory",
+  "url": "https://www.printables.com/model/1045966-saintcon-2024-minibadge-expansion-board-cover"
+ },
+ {
+  "title": "ICS V1 Failed",
+  "maker": "unconfirmed",
+  "event": "saintcon-2024",
+  "type": "minibadge",
+  "url": "https://github.com/utahsaint-org/MiniBadges2024/tree/main/ICS%20V1%20Failed"
+ },
+ {
+  "title": "The Keep Community Badge",
+  "maker": "Jup1t3r",
+  "event": "saintcon-2023",
+  "type": "badge",
+  "url": "(already an existing archive entry: saintcon-2023-the-keep-community-badge)"
+ },
+ {
+  "title": "MiniBadges2024 repo (utahsaint-org)",
+  "maker": "SAINTCON community",
+  "event": "saintcon-2024",
+  "type": "collection",
+  "url": "https://github.com/utahsaint-org/MiniBadges2024"
+ },
+ {
+  "title": "Sponsor Sidecar",
+  "maker": "unconfirmed (SAINTCON)",
+  "event": "saintcon-2024",
+  "type": "minibadge",
+  "url": "https://github.com/utahsaint-org/MiniBadges2024"
+ },
+ {
+  "title": "DEV-Attiny Board",
+  "maker": "unconfirmed (SAINTCON)",
+  "event": "saintcon-2024",
+  "type": "minibadge",
+  "url": "https://github.com/utahsaint-org/MiniBadges2024"
+ },
+ {
+  "title": "RFID-NFC 2024",
+  "maker": "unconfirmed (SAINTCON)",
+  "event": "saintcon-2024",
+  "type": "minibadge",
+  "url": "https://github.com/utahsaint-org/MiniBadges2024"
+ },
+ {
+  "title": "JawaBadge 2024",
+  "maker": "unconfirmed (SAINTCON)",
+  "event": "saintcon-2024",
+  "type": "minibadge",
+  "url": "https://github.com/utahsaint-org/MiniBadges2024"
+ },
+ {
+  "title": "Tamper Evident v2",
+  "maker": "unconfirmed (SAINTCON)",
+  "event": "saintcon-2024",
+  "type": "minibadge",
+  "url": "https://github.com/utahsaint-org/MiniBadges2024"
+ },
+ {
+  "title": "APPSEC COMMUNITY BADGE (2022 edition, wasp/OWASP motif)",
+  "maker": "Jup1t3r",
+  "event": "saintcon-2022",
+  "type": "minibadge",
+  "url": "https://saintcon.zip/SAINTCON_2015-2022/archive.saintcon.org/2022/saintcon.org/wp-content/uploads/2022/10/MiniBadges-of-2022-v2.pdf"
+ },
+ {
+  "title": "Blue Team Community minibadge (v2)",
+  "maker": "SHIFTY",
+  "event": "saintcon-2024",
+  "type": "minibadge",
+  "url": "https://minibadge.wiki/"
+ },
+ {
+  "title": "Briefs Community Badge",
+  "maker": "SHIFTY",
+  "event": "saintcon-2023",
+  "type": "minibadge",
+  "url": "https://minibadge.wiki/2023.pdf"
+ },
+ {
+  "title": "Briefs minibadge (v2)",
+  "maker": "SHIFTY",
+  "event": "saintcon-2024",
+  "type": "minibadge",
+  "url": "https://github.com/utahsaint-org/MiniBadges2024/tree/main/Briefs%20v2%20-%20SHIFTY"
+ },
+ {
+  "title": "Healthcare Community Badge (2022)",
+  "maker": "Jup1t3r",
+  "event": "saintcon-2022",
+  "type": "minibadge",
+  "url": "https://saintcon.zip/SAINTCON_2023/saintcon.org/wp-content/uploads/2023/10/2023_Minibadge_Guide_10.31.2023.pdf"
+ },
+ {
+  "title": "Briefs Speaker Minibadge",
+  "maker": "SHIFTY",
+  "event": "saintcon-2023",
+  "type": "minibadge",
+  "url": "https://saintcon.zip/SAINTCON_2023/saintcon.org/wp-content/uploads/2023/10/2023_Minibadge_Guide_10.31.2023.pdf"
+ },
+ {
+  "title": "EDU-ESC-Badge (Education Security, v1/v2)",
+  "maker": "SHIFTY",
+  "event": "saintcon-2024",
+  "type": "minibadge",
+  "url": "already cataloged as saintcon-2024-edu-esc-badge-education-security-v1-v2 (existing entry, no action needed)"
+ },
+ {
+  "title": "VALCOM SPONSOR BADGE",
+  "maker": "Jup1t3r",
+  "event": "saintcon-2023",
+  "type": "minibadge",
+  "url": "https://github.com/Pips801/minibadge-wiki"
+ },
+ {
+  "title": "COMPUNET SPONSOR BADGE",
+  "maker": "Jup1t3r",
+  "event": "saintcon-2023",
+  "type": "minibadge",
+  "url": "https://github.com/Pips801/minibadge-wiki"
+ },
+ {
+  "title": "UETN Sponsor Badge",
+  "maker": "Jup1t3r",
+  "event": "saintcon-2023",
+  "type": "minibadge",
+  "url": "https://github.com/Pips801/minibadge-wiki"
+ },
+ {
+  "title": "AXONIUS SPONSOR BADGE",
+  "maker": "Jup1t3r",
+  "event": "saintcon-2023",
+  "type": "minibadge",
+  "url": "https://github.com/Pips801/minibadge-wiki"
+ },
+ {
+  "title": "UltraViolet SPONSOR BADGE",
+  "maker": "Jup1t3r",
+  "event": "saintcon-2023",
+  "type": "minibadge",
+  "url": "https://github.com/Pips801/minibadge-wiki"
+ },
+ {
+  "title": "Family Night - Lock Pick",
+  "maker": "TGalvez",
+  "event": "saintcon-2023",
+  "type": "minibadge",
+  "url": "already exists in archive as saintcon-2023-family-night-lock-pick"
+ },
+ {
+  "title": "Family Night - Rocket Building",
+  "maker": "TGalvez",
+  "event": "saintcon-2023",
+  "type": "minibadge",
+  "url": "already exists in archive as saintcon-2023-family-night-rocket-building"
+ },
+ {
+  "title": "Family Night - Lock Pick",
+  "maker": "TGalvez",
+  "event": "saintcon-2023",
+  "type": "minibadge",
+  "url": "https://minibadges.zevlag.com/buildguides/FamilyNight-Minibadges-2023.pdf"
+ },
+ {
+  "title": "Family Night - Nerf Blaster",
+  "maker": "TGalvez",
+  "event": "saintcon-2023",
+  "type": "minibadge",
+  "url": "https://minibadges.zevlag.com/buildguides/FamilyNight-Minibadges-2023.pdf"
+ },
+ {
+  "title": "Hackers Challenge (official minibadge)",
+  "maker": "unknown",
+  "event": "saintcon-2017",
+  "type": "minibadge",
+  "url": ""
+ },
+ {
+  "title": "Biohacking Community Badge",
+  "maker": "Jup1t3r",
+  "event": "saintcon-2023",
+  "type": "minibadge",
+  "url": "https://saintcon.zip/SAINTCON_2023/saintcon.org/wp-content/uploads/2023/10/2023_Minibadge_Guide_10.31.2023.pdf"
+ },
+ {
+  "title": "Education Security Community Badge",
+  "maker": "SHFITY",
+  "event": "saintcon-2023",
+  "type": "minibadge",
+  "url": "https://saintcon.zip/SAINTCON_2023/saintcon.org/wp-content/uploads/2023/10/2023_Minibadge_Guide_10.31.2023.pdf"
+ },
+ {
+  "title": "Hardware Hacking Community Badge",
+  "maker": "unknown (name not captured on the page read)",
+  "event": "saintcon-2023",
+  "type": "minibadge",
+  "url": "https://saintcon.zip/SAINTCON_2023/saintcon.org/wp-content/uploads/2023/10/2023_Minibadge_Guide_10.31.2023.pdf"
+ },
+ {
+  "title": "RFID Rocket",
+  "maker": "SHIFTY",
+  "event": "saintcon-2023",
+  "type": "minibadge",
+  "url": "https://saintcon.zip/SAINTCON_2023/saintcon.org/wp-content/uploads/2023/10/2023_Minibadge_Guide_10.31.2023.pdf"
+ },
+ {
+  "title": "Iceman RFID Badge",
+  "maker": "Iceman (The Iceman)",
+  "event": "saintcon-2023",
+  "type": "minibadge",
+  "url": "https://saintcon.zip/SAINTCON_2023/saintcon.org/wp-content/uploads/2023/10/2023_Minibadge_Guide_10.31.2023.pdf"
+ },
+ {
+  "title": "Unstoppable",
+  "maker": "Honki & Mike's Wife",
+  "event": "saintcon-2023",
+  "type": "minibadge",
+  "url": "https://minibadge.wiki/2023.json"
+ },
+ {
+  "title": "SAINTCON BadgeLife Patch",
+  "maker": "SAINTCON",
+  "event": "saintcon-2023",
+  "type": "minibadge",
+  "url": "https://saintcon.zip/SAINTCON_2023/saintcon.org/store/"
+ },
+ {
+  "title": "SAINTCON LockPick Community Patch",
+  "maker": "SAINTCON",
+  "event": "saintcon-2023",
+  "type": "minibadge",
+  "url": "https://saintcon.zip/SAINTCON_2023/saintcon.org/store/"
+ },
+ {
+  "title": "SAINTCON Scavenger Hunt Challenge Patch",
+  "maker": "SAINTCON",
+  "event": "saintcon-2023",
+  "type": "minibadge",
+  "url": "https://saintcon.zip/SAINTCON_2023/saintcon.org/store/"
+ },
+ {
+  "title": "UtahSAINT Patch",
+  "maker": "SAINTCON",
+  "event": "saintcon-2023",
+  "type": "minibadge",
+  "url": "https://saintcon.zip/SAINTCON_2023/saintcon.org/store/"
+ },
+ {
+  "title": "2021 Lock Badge",
+  "maker": "SAINTCON",
+  "event": "saintcon-2023",
+  "type": "badge",
+  "url": "https://saintcon.zip/SAINTCON_2023/saintcon.org/store/"
+ },
+ {
+  "title": "Saintcon 2023 Minibadge (RP2040, 72 RGB LED matrix, 3-board stack)",
+  "maker": "redactd",
+  "event": "saintcon-2023",
+  "type": "minibadge",
+  "url": "https://www.tindie.com/products/redactd/saintcon-2023-minibadge/"
+ },
+ {
+  "title": "F.I.B. Tamper Challenge Badge",
+  "maker": "SHIFTY",
+  "event": "saintcon-2023",
+  "type": "already cataloged as saintcon-2023-f-i-b-tamper-challenge-badge; a related but distinct challenge badge run by the same Tamper Evident community",
+  "url": "https://saintcon.zip/SAINTCON_2023/saintcon.org/wp-content/uploads/2023/10/2023_Minibadge_Guide_10.31.2023.pdf"
+ },
+ {
+  "title": "Valcom Sponsor Badge (2022 edition)",
+  "maker": "Jup1t3r",
+  "event": "saintcon-2022",
+  "type": "minibadge",
+  "url": "already exists as entry id saintcon-2022-valcom-sponsor-badge per existing_titles.txt; not created by me, flagging only in case it needs its own research pass"
  }
 ]

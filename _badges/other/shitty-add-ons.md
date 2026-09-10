@@ -38,6 +38,7 @@ links:
 - label: hackaday.io/project/52950-shitty-add-ons
   url: https://hackaday.io/project/52950-shitty-add-ons
   kind: hackaday
+  archived: https://web.archive.org/web/20260906203436/https://hackaday.io/project/52950-shitty-add-ons
 images: []
 contact: {}
 notes:
@@ -49,11 +50,13 @@ sources:
   title: Shitty Add-Ons
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: hackaday-search); event read as ''unknown''.'
+  archived: https://web.archive.org/web/20260906203436/https://hackaday.io/project/52950-shitty-add-ons
 - kind: url
   url: https://hackaday.io/project/52950-shitty-add-ons
   title: 'Shitty Add-Ons: A Standard for Conference Badge Extensions'
   accessed: '2026-09-07'
   note: Confirms this Hackaday.io page documents the open SAO connector standard/spec itself (led by Benchoff, started Feb 2018, updated to v1.69bis in 2019), not a single physical badge or SAO product.
+  archived: https://web.archive.org/web/20260906203436/https://hackaday.io/project/52950-shitty-add-ons
 research:
   status: researched
   confidence: high

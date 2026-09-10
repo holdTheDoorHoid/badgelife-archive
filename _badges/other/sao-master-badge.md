@@ -11,8 +11,8 @@ year: 2018
 makers:
 - name: babint
   url: https://hackaday.io/babint
-summary: 'A simple coin-cell or LiPo powered "master" board that supplies power to a single Shitty Add-On (SAO), built by a Hackaday.io user as a first electronics project.'
-functions: 'Powers one SAO module (via a 4-pin/2x3 connector footprint that can be oriented to center different SAOs); a status LED indicates power.'
+summary: A simple coin-cell or LiPo powered "master" board that supplies power to a single Shitty Add-On (SAO), built by a Hackaday.io user as a first electronics project.
+functions: Powers one SAO module (via a 4-pin/2x3 connector footprint that can be oriented to center different SAOs); a status LED indicates power.
 look:
   colors: []
   shape: null
@@ -44,19 +44,22 @@ links:
 - label: hackaday.io/project/159778-sao-master-badge
   url: https://hackaday.io/project/159778-sao-master-badge
   kind: hackaday
+  archived: https://web.archive.org/web/20260225145003/https://hackaday.io/project/159778-sao-master-badge
 images:
 - file: assets/images/badges/other/sao-master-badge/f7db5d3b50.jpg
-  source: "https://hackaday.io/project/159778-sao-master-badge"
-  credit: "babint"
-  caption: "Bare PCB, front and back, silkscreened \"Shitty Master Badge v0.0.2\""
+  source: https://hackaday.io/project/159778-sao-master-badge
+  credit: babint
+  caption: Bare PCB, front and back, silkscreened "Shitty Master Badge v0.0.2"
+  archived: https://web.archive.org/web/20260225145003/https://hackaday.io/project/159778-sao-master-badge
 - file: assets/images/badges/other/sao-master-badge/d558dee863.jpg
-  source: "https://hackaday.io/project/159778-sao-master-badge"
-  credit: "babint"
-  caption: "Bare PCB from an earlier revision, front and back, silkscreened \"ShittyCoin v0.0.1\""
+  source: https://hackaday.io/project/159778-sao-master-badge
+  credit: babint
+  caption: Bare PCB from an earlier revision, front and back, silkscreened "ShittyCoin v0.0.1"
+  archived: https://web.archive.org/web/20260225145003/https://hackaday.io/project/159778-sao-master-badge
 contact: {}
 notes:
 - 'Coin-cell powered ''Master'' badge to power SAOs; learning platform for #badgelife.'
-- 'Not made for a specific convention; the maker built it as a personal electronics-learning exercise, first posted to Hackaday.io on 2018-07-17. No event/year field in the sheet maps to a real con, so event is left as "other".'
+- Not made for a specific convention; the maker built it as a personal electronics-learning exercise, first posted to Hackaday.io on 2018-07-17. No event/year field in the sheet maps to a real con, so event is left as "other".
 status: released
 sources:
 - kind: url
@@ -64,11 +67,13 @@ sources:
   title: SAO Master Badge
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: hackaday-search); event read as ''badgelife general''.'
+  archived: https://web.archive.org/web/20260225145003/https://hackaday.io/project/159778-sao-master-badge
 - kind: url
   url: https://hackaday.io/project/159778-sao-master-badge
   title: SAO Master Badge (project log and components)
   accessed: '2026-09-07'
   note: 'Read the full project page: description, maker handle (babint), build log for versions 0 through 0.0.3, and the components list (SPTD SMD switch, CR2032 retainer, MIC5504-3.3YM5-TR LDO, 0805 LED). No price, quantity, storefront link, or published design files found on the page.'
+  archived: https://web.archive.org/web/20260225145003/https://hackaday.io/project/159778-sao-master-badge
 research:
   status: verified
   confidence: medium
