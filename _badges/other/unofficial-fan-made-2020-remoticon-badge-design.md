@@ -47,9 +47,9 @@ links:
   kind: hackaday
 images:
 - file: assets/images/badges/other/unofficial-fan-made-2020-remoticon-badge-design/9af32c17fa.jpg
-  source: "https://github.com/flummer/remoticon2020-badge"
-  credit: "Thomas Flummer"
-  caption: "Render of the unofficial fan-made Remoticon 2020 badge PCB design"
+  source: https://github.com/flummer/remoticon2020-badge
+  credit: Thomas Flummer
+  caption: Render of the unofficial fan-made Remoticon 2020 badge PCB design
 contact: {}
 notes:
 - Spotted by a research agent while working on a neighbouring entry (run 2).
@@ -62,7 +62,7 @@ sources:
   note: 'Found by the archive''s discovery sweep (angle: research-run2-spotted); event read as ''supercon-2020''.'
 - kind: url
   url: https://hackaday.io/project/174089-2020-remoticon-pandemic-creativity-start-here
-  title: "2020 Remoticon: Pandemic Creativity, Start Here! - Hackaday.io"
+  title: '2020 Remoticon: Pandemic Creativity, Start Here! - Hackaday.io'
   accessed: '2026-09-07'
   note: Hackaday.io project page where Thomas Flummer posted about designing an unofficial badge for the virtual 2020 Remoticon and linked his GitHub repo.
 - kind: url
@@ -74,14 +74,14 @@ research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: >-
-    Made for Hackaday's 2020 Remoticon, a virtual event (no in-person con and no
-    official badge that year), which has no matching id in _data/events.yml, so
-    event is left as 'other'. Specific MCU/LED counts are not stated beyond the
-    optional Adafruit Feather mount and an ATtiny85-based SMD soldering-practice
-    component; price/quantity are not applicable since it was never sold, only
-    shared as open design files.
-last_modified_date: '2026-09-07'
+  notes: Made for Hackaday's 2020 Remoticon, a virtual event (no in-person con and no official badge that year), which has no matching id in _data/events.yml, so event is left as 'other'. Specific MCU/LED counts are not stated beyond the optional Adafruit Feather mount and an ATtiny85-based SMD soldering-practice component; price/quantity are not applicable since it was never sold, only shared as open design files.
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/other/unofficial-fan-made-2020-remoticon-badge-design.glb
+  method: kicad
+  source_file: remoticon_badge.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 245648
 ---
 
 Thomas Flummer designed this PCB as an unofficial badge for Hackaday's 2020 Remoticon, the virtual, distributed event that replaced the in-person Hackaday Superconference during the pandemic. With no official hardware badge for the online con, Flummer built one himself, inspired by the event's graphics, and released it as an open-source KiCad design on GitHub so other attendees could fabricate and modify their own copies.

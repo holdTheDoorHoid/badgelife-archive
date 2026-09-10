@@ -38,7 +38,7 @@ get_one:
   - free_drop
   where: Given to SAINTCON 2015 attendees as the conference's official badge.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/atticus88/SAINTCON-2015-Badge
   firmware_url: https://github.com/atticus88/SAINTCON-2015-Badge
   eda_tool: null
@@ -57,13 +57,13 @@ links:
   kind: article
 images:
 - file: assets/images/badges/saintcon-2015/saintcon-2015-badge-uberdice/3ffd927c7f.jpg
-  source: "https://hackaday.io/project/7089-saintcon-2015-badge"
-  credit: "Luke Jenkins"
-  caption: "Close-up of the SAINTCON 2015 badge PCB showing buttons, buzzer, and header pins"
+  source: https://hackaday.io/project/7089-saintcon-2015-badge
+  credit: Luke Jenkins
+  caption: Close-up of the SAINTCON 2015 badge PCB showing buttons, buzzer, and header pins
 contact: {}
 notes:
 - Official SAINTCON 2015 conference badge, created by Luke Jenkins with hardware/firmware published on GitHub (atticus88/SAINTCON-2015-Badge). Found by the event-year sweep, task saintcon-2015.
-- 'The sweep''s title and "9 LEDs per side / accelerometer / programmable die" description came from a *different*, unrelated Hackaday.io project called "uberdice" (hackaday.io/project/1599-uberdice, by a user named Peter) that appeared as a "related project" recommendation card on the SAINTCON 2015 Badge''s own Hackaday page. The two projects share no connection beyond that sidebar placement; the SAINTCON 2015 badge itself is not a dice. Title corrected from "SAINTCON 2015 Badge (UberDice)" to "SAINTCON 2015 Badge".'
+- The sweep's title and "9 LEDs per side / accelerometer / programmable die" description came from a *different*, unrelated Hackaday.io project called "uberdice" (hackaday.io/project/1599-uberdice, by a user named Peter) that appeared as a "related project" recommendation card on the SAINTCON 2015 Badge's own Hackaday page. The two projects share no connection beyond that sidebar placement; the SAINTCON 2015 badge itself is not a dice. Title corrected from "SAINTCON 2015 Badge (UberDice)" to "SAINTCON 2015 Badge".
 status: released
 sources:
 - kind: url
@@ -91,7 +91,13 @@ research:
   confidence: medium
   last_checked: '2026-09-08'
   notes: 'Corrected a mix-up: the entry''s title and notes described an unrelated Hackaday project ("uberdice" by Peter, project 1599) rather than the actual SAINTCON 2015 badge (project 7089, by Luke Jenkins). No price, exact quantity, or LED/battery details were found for the real badge; badge.gallery states roughly 550 were distributed to attendees but that number is not confirmed on the maker''s own pages, so quantity/availability were left unfilled rather than guessed. Bluetooth is mentioned in the GitHub README only as an example OTA-update method (linking to an unrelated library), not confirmed as a feature of the shipped badge, so it was not added to connectivity.'
-last_modified_date: '2026-09-08'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/saintcon-2015/saintcon-2015-badge-uberdice.glb
+  method: kicad
+  source_file: SaintCon2015Badge.brd
+  generated: '2026-09-10'
+  bytes: 473384
 ---
 
 The SAINTCON 2015 badge was the official attendee badge for that year's SAINTCON security conference in Utah, designed by Luke Jenkins with hardware and firmware published as open source on GitHub. It is built around an Atmel ATXMega256A3BU microcontroller driving a color ILI9341 LCD, with physical buttons, a buzzer, and an onboard ESP Wi-Fi module (flashed with NodeMCU/Lua firmware) that let the badge participate in conference-wide, Wi-Fi-location-linked challenges — badge.gallery describes roughly 550 attendees carrying these LCD-and-button badges as part of a Cisco CMX-based experiment.

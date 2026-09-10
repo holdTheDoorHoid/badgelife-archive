@@ -11,7 +11,7 @@ year: 2024
 makers:
 - name: Positive Labs / Positive Technologies
 summary: An interactive badge with a 10x10 pixel LED display that connects over its own Wi-Fi network so wearers can upload custom images and animations.
-functions: 'Displays a set of pre-loaded pixel-art images/animations on its 10x10 LED matrix; broadcasts its own Wi-Fi network with a web UI for drawing and uploading custom images/animations; plays RTTTL melodies through a built-in RTTTL editor.'
+functions: Displays a set of pre-loaded pixel-art images/animations on its 10x10 LED matrix; broadcasts its own Wi-Fi network with a web UI for drawing and uploading custom images/animations; plays RTTTL melodies through a built-in RTTTL editor.
 look:
   colors: []
   shape: null
@@ -32,7 +32,7 @@ tech:
 get_one:
   price: ''
   price_usd: null
-  quantity: 'nearly 1,000'
+  quantity: nearly 1,000
   availability: free
   distribution:
   - free_drop
@@ -54,13 +54,13 @@ links:
   kind: repo
 images:
 - file: assets/images/badges/phdays-2024/phdays-badge-2024/336357ba31.png
-  source: "https://github.com/nlef/PHDays-Badge"
-  credit: "Positive Labs"
-  caption: "PHDays Badge (2024) with 10x10 LED display"
+  source: https://github.com/nlef/PHDays-Badge
+  credit: Positive Labs
+  caption: PHDays Badge (2024) with 10x10 LED display
 - file: assets/images/badges/phdays-2024/phdays-badge-2024/6114941d9f.jpg
-  source: "https://habr.com/ru/companies/pt/articles/890296/"
-  credit: "Positive Labs / Positive Technologies"
-  caption: "The badge lit up on the night of the event"
+  source: https://habr.com/ru/companies/pt/articles/890296/
+  credit: Positive Labs / Positive Technologies
+  caption: The badge lit up on the night of the event
 contact: {}
 notes:
 - Interactive badge with a 10x10 pixel LED display, Wi-Fi image/animation upload, melody playback and RTTTL editor, made for PHDays Fest 2 (May 2024). Found by the event-year sweep, task con-phdays.
@@ -75,18 +75,28 @@ sources:
   url: https://github.com/nlef/PHDays-Badge
   title: nlef/PHDays-Badge (README)
   accessed: '2026-09-08'
-  note: 'Firmware source repo README; confirms maker, 10x10 display, Wi-Fi upload, RTTTL melodies/editor; links a separate WebUI repo and a 3D-models repo (used for the follow-up 2025 badge).'
+  note: Firmware source repo README; confirms maker, 10x10 display, Wi-Fi upload, RTTTL melodies/editor; links a separate WebUI repo and a 3D-models repo (used for the follow-up 2025 badge).
 - kind: url
   url: https://habr.com/ru/companies/pt/articles/890296/
-  title: 'Badge From Scratch – Problem Driven Development (Habr, Positive Technologies company blog)'
+  title: Badge From Scratch – Problem Driven Development (Habr, Positive Technologies company blog)
   accessed: '2026-09-08'
   note: 'Maker''s own dev-diary write-up of the PHDays Fest 2 (May 2024) badge project: confirms ESP32 MCU, ~100-LED 10x10 matrix construction, Wi-Fi drawing tool, ~1000 units made and hand-flashed, planned IR/sound features cut for time; links back to the GitHub repo above.'
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-08'
-  notes: 'Core facts confirmed by the maker''s own GitHub repo and a detailed Positive Technologies company-blog write-up on Habr. Exact battery spec, LED part number, PCB color, and price were not stated anywhere found (this was a free con giveaway, not sold). The GitHub repo''s README also references “PHD_Badge_2025 models” — a follow-up badge for PHDays Fest 2025, which has its own entry (phdays-2025-phdays-badge-2025); firmware/hardware appear to be shared or iterated across both years, so open_source is marked partial (firmware repo is public; the linked hardware/3D-model repo is for the 2025 revision, not confirmed identical to the 2024 board).'
-last_modified_date: '2026-09-08'
+  notes: Core facts confirmed by the maker's own GitHub repo and a detailed Positive Technologies company-blog write-up on Habr. Exact battery spec, LED part number, PCB color, and price were not stated anywhere found (this was a free con giveaway, not sold). The GitHub repo's README also references “PHD_Badge_2025 models” — a follow-up badge for PHDays Fest 2025, which has its own entry (phdays-2025-phdays-badge-2025); firmware/hardware appear to be shared or iterated across both years, so open_source is marked partial (firmware repo is public; the linked hardware/3D-model repo is for the 2025 revision, not confirmed identical to the 2024 board).
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/phdays-2024/phdays-badge-2024.glb
+  method: gerber
+  source_file: pcb/Gerber/PHD_Badge_revС
+  generated: '2026-09-10'
+  bytes: 120720
+  size_mm:
+  - 70.0
+  - 115.0
+  note: The published files have no board outline, so the model is shown on a rectangular board.
 ---
 
 The PHDays Badge (2024) is an interactive con badge made by Positive Labs, the R&D arm of Positive Technologies, for PHDays Fest 2 in May 2024. Built around an ESP32, it drives a 10x10 pixel LED display — roughly 100 LEDs behind light guides, a diffusing film, and a darkened front screen for a clean pixel-art look. The badge broadcasts its own Wi-Fi network; attendees could connect with a phone or laptop and use a browser-based tool to draw and upload their own images and animations, on top of a set of pre-loaded pictures. It also plays RTTTL ringtone-format melodies through a built-in melody editor.

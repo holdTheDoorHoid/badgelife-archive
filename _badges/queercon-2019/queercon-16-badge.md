@@ -120,10 +120,16 @@ research:
   confidence: high
   last_checked: '2026-09-07'
   notes: 'This repo covers two boards for Queercon 16 (2019): the main "Q badge" (TI CC2640R2F BLE SoC, e-paper display, RGB LED tail, keypad, BLE proximity/game system) and a smaller companion "C badge" access-pass fob (MSP430FR2111). The two photos saved here (from the repo''s art/ folder, dated July 2019) are of a C badge prototype, since no photo of an assembled Q badge was found in the repo; the Q badge''s only image asset is a tiny logo graphic. Price, quantity made, and current availability are not stated anywhere in the repo; it is presumed given free to registered attendees, per Queercon''s usual badge distribution model, but that specific claim is not sourced. No maker blog post or press coverage was found beyond the repo itself. Merged with duplicate entry ''Queercon 16 Q Badge'' (queercon-2019-queercon-16-q-badge).'
-last_modified_date: '2026-09-08'
+last_modified_date: '2026-09-10'
 redirect_from:
 - /badges/other/queercon-16-badge/
 - /badges/queercon-2019/queercon-16-q-badge/
+model:
+  file: assets/models/queercon-2019/queercon-16-badge.glb
+  method: kicad
+  source_file: boards/epaper_breakout/epaper_breakout.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 98248
 ---
 
 Queercon 16's badge was a two-part electronic system built by George Louthan ("duplico") for the 2019 edition of Queercon, the LGBTQ+ hacker party and community held alongside DEF CON 27 in Las Vegas. The main "Q badge" is a Bluetooth LE-enabled board around a TI CC2640R2F SoC, with a 2.9" (128x296) e-paper display, a matrix keypad, six RGB "tail" LEDs driven by a Holtek HT16D35B controller, a light sensor, and battery-voltage sensing. It ran a game layered over the con's "cyber world overlaid on Vegas" theme: each badge hosted an on-board "Agent" that could be sent on missions assigned by nearby "Handlers," found via BLE proximity scanning, and earn or spend a virtual currency called Queer Coin.

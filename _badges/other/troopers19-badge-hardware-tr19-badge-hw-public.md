@@ -12,7 +12,7 @@ makers:
 - name: jeffmakes
   url: https://github.com/jeffmakes
 summary: The official electronic badge for the Troopers19 security conference (Heidelberg, March 2019), built around an ESP32-WROVER with a 2.9" e-paper display, six WS2812B RGB LEDs, an accelerometer, and a large tactile-button keypad driven by I2C IO expanders.
-functions: 'Full-color e-paper display driven by an ESP32-WROVER; six addressable WS2812B LEDs plus four discrete indicator LEDs; onboard LIS3DHTR accelerometer for motion/orientation input; a large multi-button keypad (dozens of tactile switches read through PCA9539A/PCA9555 I2C expanders) suggesting an interactive menu or game; microSD card slot for storage; USB-C for charging/programming via an onboard CP2102N USB-UART bridge.'
+functions: Full-color e-paper display driven by an ESP32-WROVER; six addressable WS2812B LEDs plus four discrete indicator LEDs; onboard LIS3DHTR accelerometer for motion/orientation input; a large multi-button keypad (dozens of tactile switches read through PCA9539A/PCA9555 I2C expanders) suggesting an interactive menu or game; microSD card slot for storage; USB-C for charging/programming via an onboard CP2102N USB-UART bridge.
 look:
   colors:
   - black
@@ -65,18 +65,24 @@ sources:
   url: https://raw.githubusercontent.com/jeffmakes/tr19-badge-hw-public/master/tr19-badge.kicad/tr19-badge.sch
   title: tr19-badge.sch (KiCad schematic, raw)
   accessed: '2026-09-07'
-  note: 'Component list confirmed the MCU (ESP32-WROVER-I), display (GDEH029A1 e-paper), LEDs (WS2812B x6 + LTST-C150K x4), accelerometer (LIS3DHTR), battery charger (MCP73831T), regulator (AP2114H-3.3), USB-UART bridge (CP2102N), USB-C connector, microSD slot, and a large tactile-switch keypad driven by PCA9539A/PCA9555 I2C IO expanders.'
+  note: Component list confirmed the MCU (ESP32-WROVER-I), display (GDEH029A1 e-paper), LEDs (WS2812B x6 + LTST-C150K x4), accelerometer (LIS3DHTR), battery charger (MCP73831T), regulator (AP2114H-3.3), USB-UART bridge (CP2102N), USB-C connector, microSD slot, and a large tactile-switch keypad driven by PCA9539A/PCA9555 I2C IO expanders.
 - kind: url
   url: https://raw.githubusercontent.com/jeffmakes/tr19-badge-hw-public/master/gerber/README.txt
   title: gerber/README.txt (fab notes, raw)
   accessed: '2026-09-07'
-  note: 'Confirmed a 4-layer PCB (F/In1/In2/B), panelised 6-up, black matte soldermask with yellow legend; only the hardware repo has no firmware repo linked, so open_source is marked partial.'
+  note: Confirmed a 4-layer PCB (F/In1/In2/B), panelised 6-up, black matte soldermask with yellow legend; only the hardware repo has no firmware repo linked, so open_source is marked partial.
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
   notes: No matching Troopers event exists in events.yml (only DEF CON/Supercon/SAINTCON/EMF-style ids are present), so event is left as "other" — this badge was made for Troopers19, the Troopers security conference in Heidelberg, Germany, held March 2019. No firmware repository, price, quantity, or photos of the physical badge were found; only the hardware design repo (gerbers, KiCad source, assembly PDFs) is public, so make_your_own.open_source is "partial" rather than "yes". No images of the assembled badge were located (the repo contains no photos, and web search quota was exhausted before press coverage could be checked).
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/other/troopers19-badge-hardware-tr19-badge-hw-public.glb
+  method: kicad
+  source_file: tr19-badge.kicad/tr19-badge.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 842372
 ---
 
 The Troopers19 badge was the electronic conference badge given to attendees of Troopers, the security conference held annually in Heidelberg, Germany, for its 2019 edition. It was designed by GitHub user jeffmakes (Jeff Gough), whose public repository publishes the full hardware design: KiCad schematics and PCB layout, gerbers, assembly drawings, and fabrication notes for a black, four-layer PCB with yellow silkscreen, panelised six-up for manufacturing.

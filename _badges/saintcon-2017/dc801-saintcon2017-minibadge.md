@@ -107,6 +107,12 @@ research:
 last_modified_date: '2026-09-10'
 redirect_from:
 - /badges/saintcon-2017/dc801-sheep-hampster-unofficial-saintcon-2017-minibadge/
+model:
+  file: assets/models/saintcon-2017/dc801-saintcon2017-minibadge.glb
+  method: kicad
+  source_file: Badge/DC801-Minibadge.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 37256
 ---
 
 This is a DC801-themed minibadge made for SAINTCON 2017 by a GitHub user going by "hamster." It plugs into the pin headers of the main SAINTCON 2017 conference badge (or can be worn on its own as a shirt pin) and lights up with two 3mm RGB LEDs that cycle color automatically on their own, without any microcontroller or firmware involved. Builders choose one of three resistor values for R1 to set the LED brightness, from a bright 20-55mA down to a dim 1.5-2mA.

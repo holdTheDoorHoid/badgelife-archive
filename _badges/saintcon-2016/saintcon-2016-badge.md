@@ -40,7 +40,7 @@ get_one:
   - kit
   where: Assembled by attendees from a kit at SAINTCON 2016's Hardware Hacking Village; parts included a bag of resistors/capacitors/fuses/headers, a Wemos D1 Mini, and a 7-segment LED display in the buyer's choice of color.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://gitlab.com/saintcon/SaintCon2016Badge
   firmware_url: https://gitlab.com/saintcon/SaintCon2016Badge
   eda_tool: null
@@ -56,13 +56,13 @@ links:
   kind: repo
 images:
 - file: assets/images/badges/saintcon-2016/saintcon-2016-badge/8588118774.jpg
-  source: "http://saintcon.gitlab.io/SaintCon2016Badge/assembly/"
-  credit: "SAINTCON badge team"
-  caption: "Finished assembled SAINTCON 2016 badge, ESP8266 D1 Mini with dual 4-digit 7-segment LED displays"
+  source: http://saintcon.gitlab.io/SaintCon2016Badge/assembly/
+  credit: SAINTCON badge team
+  caption: Finished assembled SAINTCON 2016 badge, ESP8266 D1 Mini with dual 4-digit 7-segment LED displays
 - file: assets/images/badges/saintcon-2016/saintcon-2016-badge/563308bfa1.png
-  source: "http://saintcon.gitlab.io/SaintCon2016Badge/assembly/"
-  credit: "SAINTCON badge team"
-  caption: "SAINTCON 2016 badge PCB drawing"
+  source: http://saintcon.gitlab.io/SaintCon2016Badge/assembly/
+  credit: SAINTCON badge team
+  caption: SAINTCON 2016 badge PCB drawing
 contact: {}
 notes:
 - The official SAINTCON 2016 electronic conference badge, an ESP8266 (Wemos D1 Mini)-based badge with a MAX7219-driven 7-segment LED display, assembled at the con's Hardware Hacking Village; official assembly docs and firmware are hosted on GitLab and readthedocs. Found by the event-year sweep, task saintcon-2016.
@@ -77,7 +77,7 @@ sources:
   url: http://saintcon.gitlab.io/SaintCon2016Badge/assembly/
   title: Badge Assembly - SaintCon 2016 Badge - saintcon.gitlab.io
   accessed: '2026-09-08'
-  note: 'GitLab Pages mirror of the readthedocs site (which returns HTTP 500 for its images); confirmed MCU, MAX7219 display driver, BOM, assembly steps, and provided both images.'
+  note: GitLab Pages mirror of the readthedocs site (which returns HTTP 500 for its images); confirmed MCU, MAX7219 display driver, BOM, assembly steps, and provided both images.
 - kind: url
   url: http://saintcon.gitlab.io/SaintCon2016Badge/registration/
   title: Badge Registration - SaintCon 2016 Badge - saintcon.gitlab.io
@@ -92,8 +92,17 @@ research:
   status: researched
   confidence: high
   last_checked: '2026-09-08'
-  notes: 'The primary readthedocs.io site is up but serves HTTP 500 for every image under /img/ (site-wide, not just this badge); a GitLab Pages mirror of the same mkdocs site (saintcon.gitlab.io/SaintCon2016Badge) serves the identical content and working images, so that mirror was used for images and to double-check text. Price, quantity made, and current availability are not stated on the sweep target or its mirrors and were left empty. Colors listed are for the LED digit displays offered (yellow/green/red/white/blue), not necessarily the PCB soldermask; PCB color itself was not stated, so only the LED-visible green from the sample photo is recorded and look.colors/look.shape/look.themes are inferred loosely from the photos rather than a maker style statement - treat these three fields as lower confidence than the rest.'
-last_modified_date: '2026-09-08'
+  notes: The primary readthedocs.io site is up but serves HTTP 500 for every image under /img/ (site-wide, not just this badge); a GitLab Pages mirror of the same mkdocs site (saintcon.gitlab.io/SaintCon2016Badge) serves the identical content and working images, so that mirror was used for images and to double-check text. Price, quantity made, and current availability are not stated on the sweep target or its mirrors and were left empty. Colors listed are for the LED digit displays offered (yellow/green/red/white/blue), not necessarily the PCB soldermask; PCB color itself was not stated, so only the LED-visible green from the sample photo is recorded and look.colors/look.shape/look.themes are inferred loosely from the photos rather than a maker style statement - treat these three fields as lower confidence than the rest.
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/saintcon-2016/saintcon-2016-badge.glb
+  method: gerber
+  source_file: plans/gerbers
+  generated: '2026-09-10'
+  bytes: 300960
+  size_mm:
+  - 145.0
+  - 120.0
 ---
 
 The SAINTCON 2016 badge is an ESP8266-based board (Wemos D1 Mini) that attendees soldered together themselves at SAINTCON's Hardware Hacking Village. A MAX7219 LED driver chip runs two 4-digit, 7-segment LED modules, which buyers could pick in yellow, green, red, white, or blue when they assembled their kit. Beyond the through-hole basics (resistors, capacitors, PolySwitch fuses, an IC socket for the MAX7219, and headers), the badge's electronics are entirely off-the-shelf modules soldered onto a custom PCB.

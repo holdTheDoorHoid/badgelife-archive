@@ -39,6 +39,7 @@ links:
 - label: github.com/BSidesCLE/Badge-2026
   url: https://github.com/BSidesCLE/Badge-2026
   kind: repo
+  archived: https://web.archive.org/web/20260910230234/https://github.com/BSidesCLE/Badge-2026
 images: []
 contact: {}
 notes:
@@ -50,11 +51,13 @@ sources:
   title: BSidesCLE 2026 Conference Badge
   accessed: '2026-09-07'
   note: 'Found by the archive''s discovery sweep (angle: sweep:bsides-kansas-city); event read as ''BSides Cleveland 2026''.'
+  archived: https://web.archive.org/web/20260910230234/https://github.com/BSidesCLE/Badge-2026
 - kind: url
   url: https://bsidescle.com/events/2026-conference.php
   title: 2026 Annual Conference | BSides Cleveland
   accessed: '2026-09-10'
-  note: 'Official 2026 conference page (event Sept 26, 2026, Tinkham Veale University Center, CWRU); no mention of a badge.'
+  note: Official 2026 conference page (event Sept 26, 2026, Tinkham Veale University Center, CWRU); no mention of a badge.
+  archived: https://web.archive.org/web/20260730124346/https://bsidescle.com/events/2026-conference.php
 research:
   status: verified
   confidence: low

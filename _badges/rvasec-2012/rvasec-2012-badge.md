@@ -12,7 +12,7 @@ makers:
 - name: HackRVA
   url: https://github.com/HackRVA
 summary: 'The first RVAsec electronic conference badge: an MSP430-based badge with a Nokia 5110 LCD and four-button text entry, built by the HackRVA hackerspace.'
-functions: 'Initializes the Nokia LCD, draws RVAsec and HackRVA graphics, and handles four-button text input recognizing strings like "hackrva," "anonymous," and "rvasec." Includes a Konami-code easter egg that displays "99 LIVES!"'
+functions: Initializes the Nokia LCD, draws RVAsec and HackRVA graphics, and handles four-button text input recognizing strings like "hackrva," "anonymous," and "rvasec." Includes a Konami-code easter egg that displays "99 LIVES!"
 look:
   colors: []
   shape: null
@@ -40,7 +40,7 @@ make_your_own:
   hardware_url: https://github.com/HackRVA/rvasec-badge-2012/tree/master/eagle
   firmware_url: https://github.com/HackRVA/rvasec-badge-2012/tree/master/src
   eda_tool: Eagle
-  notes: 'Repo also includes production Gerbers, component documentation, and LCD/RJ45 graphics assets under doc/ and graphics/.'
+  notes: Repo also includes production Gerbers, component documentation, and LCD/RJ45 graphics assets under doc/ and graphics/.
 links:
 - label: badge.gallery/badges/rvasec-2012-badge
   url: https://badge.gallery/badges/rvasec-2012-badge
@@ -68,8 +68,14 @@ research:
   status: researched
   confidence: high
   last_checked: '2026-09-08'
-  notes: 'Confirmed by both badge.gallery and the maker''s own HackRVA GitHub repo. No price or quantity-made figures found anywhere; availability could not be determined (this was conference-issued hardware from 2012, not a current storefront item). No rights-cleared photo of the physical badge could be found - badge.gallery notes the same gap, and the repo''s graphics/ folder holds only LCD bitmap art (e.g. babs.bmp/.gif/.psd) and RJ45/LCD documentation, not photos of the assembled board, so no images were saved. Set status to "released" (not the sheet''s "listed") since this was HackRVA''s badge distributed at the actual 2012 conference, per the maker''s own repo description as documentation "for the RvaSec security conference for 2012."'
-last_modified_date: '2026-09-08'
+  notes: Confirmed by both badge.gallery and the maker's own HackRVA GitHub repo. No price or quantity-made figures found anywhere; availability could not be determined (this was conference-issued hardware from 2012, not a current storefront item). No rights-cleared photo of the physical badge could be found - badge.gallery notes the same gap, and the repo's graphics/ folder holds only LCD bitmap art (e.g. babs.bmp/.gif/.psd) and RJ45/LCD documentation, not photos of the assembled board, so no images were saved. Set status to "released" (not the sheet's "listed") since this was HackRVA's badge distributed at the actual 2012 conference, per the maker's own repo description as documentation "for the RvaSec security conference for 2012."
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/rvasec-2012/rvasec-2012-badge.glb
+  method: kicad
+  source_file: badge-v2.brd
+  generated: '2026-09-10'
+  bytes: 159456
 ---
 
 The RVAsec 2012 badge was the first electronic conference badge for RVAsec, the Richmond, Virginia security conference, built by the local hackerspace HackRVA for the inaugural 2012 event. It centers on a Texas Instruments MSP430G2X[0/3]2 microcontroller driving a Nokia 5110 LCD (PCD8544 controller), with four buttons for navigation and text entry. On boot it draws RVAsec and HackRVA graphics and lets attendees type text, recognizing a handful of hidden strings ("hackrva," "anonymous," "rvasec") and a Konami-code easter egg that pops up "99 LIVES!" The board also carries two RJ45 connectors, per the maker's documentation.

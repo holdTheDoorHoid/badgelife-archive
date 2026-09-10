@@ -12,7 +12,7 @@ makers:
 - name: compukidmike
   url: https://github.com/compukidmike
 summary: A SAINTCON-format trading minibadge with two touch pads that drive two APA102 RGB LEDs, themed around "Hak-In-The-Box".
-functions: 'Touching either of two exposed capacitive pads changes the color shown on two onboard RGB LEDs (red/green/blue combinations depending on which pad, or both, are touched).'
+functions: Touching either of two exposed capacitive pads changes the color shown on two onboard RGB LEDs (red/green/blue combinations depending on which pad, or both, are touched).
 look:
   colors: []
   shape: null
@@ -39,7 +39,7 @@ get_one:
   distribution: []
   where: ''
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/compukidmike/Saintcon2017/tree/master/HITBUTT_Minibadge
   firmware_url: https://github.com/compukidmike/Saintcon2017/blob/master/HITBUTT_Minibadge/HITB_Test.ino
   eda_tool: Eagle
@@ -54,7 +54,7 @@ images: []
 contact: {}
 notes:
 - Minibadge project (HITBUTT_Minibadge folder) by compukidmike for SAINTCON 2017; details limited on repo listing. Found by the event-year sweep, task saintcon-2017.
-- 'The repo folder is named "HITBUTT_Minibadge" but the maker''s own README titles the project "HITB Minibadge 2017" and describes it as "the design files for the Hak-In-The-Box minibadge for Saintcon 2017" — title corrected to match the README.'
+- The repo folder is named "HITBUTT_Minibadge" but the maker's own README titles the project "HITB Minibadge 2017" and describes it as "the design files for the Hak-In-The-Box minibadge for Saintcon 2017" — title corrected to match the README.
 status: released
 sources:
 - kind: url
@@ -81,13 +81,19 @@ sources:
   url: https://raw.githubusercontent.com/compukidmike/Saintcon2017/master/HITBUTT_Minibadge/Base-Rev0.sch
   title: Base-Rev0.sch (Eagle schematic)
   accessed: '2026-09-10'
-  note: 'Part list confirms MCU is an ATtiny45 (SparkFun-Retired library, TINY45-20-SMT), two APA102 5050 LEDs, two TP06R touch pads, and an AVR SPI programming header; built on the shared "MiniBadge" BADGE64 base library.'
+  note: Part list confirms MCU is an ATtiny45 (SparkFun-Retired library, TINY45-20-SMT), two APA102 5050 LEDs, two TP06R touch pads, and an AVR SPI programming header; built on the shared "MiniBadge" BADGE64 base library.
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-10'
-  notes: 'Confirmed as a real, built minibadge via the maker''s own GitHub repo (schematic, board, gerbers, and working firmware are all present), so this is not just a search-snippet rumor. No press coverage, storefront, price, quantity, or photo of the assembled badge was found anywhere online — likely a small trade-only run typical of SAINTCON minibadges, but that could not be confirmed. Confidence held at medium rather than high because availability/quantity/pricing and an image remain unknown.'
+  notes: Confirmed as a real, built minibadge via the maker's own GitHub repo (schematic, board, gerbers, and working firmware are all present), so this is not just a search-snippet rumor. No press coverage, storefront, price, quantity, or photo of the assembled badge was found anywhere online — likely a small trade-only run typical of SAINTCON minibadges, but that could not be confirmed. Confidence held at medium rather than high because availability/quantity/pricing and an image remain unknown.
 last_modified_date: '2026-09-10'
+model:
+  file: assets/models/saintcon-2017/hitbutt-minibadge.glb
+  method: kicad
+  source_file: Base-Rev0.brd
+  generated: '2026-09-10'
+  bytes: 69032
 ---
 
 The HITB Minibadge is a SAINTCON-format trading minibadge that compukidmike built for SAINTCON 2017, on the community's shared "MiniBadge" base board. Its own README describes it plainly as "the design files for the Hak-In-The-Box minibadge for Saintcon 2017," which is likely the source of the folder name "HITBUTT_Minibadge" in the repo (the two appear to be the same project, just named a bit differently in the folder vs. the README).

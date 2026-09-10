@@ -12,7 +12,7 @@ makers:
 - name: tactical_snacks
   url: https://hackaday.io/hacker/294167-tacticalsnacks
 summary: A small hand-soldered blinking Christmas-tree PCB built around an ATmega328P (VQFN-28) and a CR1220 coin cell, made as a holiday gift to clip onto a spouse's work ID badge or hang as an ornament; it blinks then sleeps to save the battery.
-functions: 'Blinks LED animations on the tree shape, then goes to sleep to conserve the coin cell.'
+functions: Blinks LED animations on the tree shape, then goes to sleep to conserve the coin cell.
 look:
   colors: []
   shape: null
@@ -31,7 +31,7 @@ get_one:
   quantity: ''
   availability: unknown
   distribution: []
-  where: 'Not sold; made as a one-off personal gift.'
+  where: Not sold; made as a one-off personal gift.
 make_your_own:
   open_source: partial
   hardware_url: https://github.com/tactical-snacks/xmas_id_badge_pub
@@ -45,10 +45,10 @@ links:
   url: https://github.com/tactical-snacks/xmas_id_badge_pub
   kind: repo
 images:
-  - file: assets/images/badges/other/xmas-id-badge-flair/34791db0ae.jpg
-    source: "https://hackaday.io/project/163899-xmas-id-badge-flair"
-    credit: "tactical_snacks"
-    caption: "The xmas id badge (flair) PCB, hand-soldered around an ATmega328P"
+- file: assets/images/badges/other/xmas-id-badge-flair/34791db0ae.jpg
+  source: https://hackaday.io/project/163899-xmas-id-badge-flair
+  credit: tactical_snacks
+  caption: The xmas id badge (flair) PCB, hand-soldered around an ATmega328P
 contact: {}
 notes: []
 status: released
@@ -72,8 +72,14 @@ research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'Not made for or distributed at any conference; it is a personal Christmas gift, which is why the event stays "other". Hackaday project was posted 2019-02-14 but describes a Christmas-tree ornament, consistent with the 2018 holiday season already recorded. Exact LED count/type, firmware source, and any price/quantity are not stated anywhere found; firmware itself does not appear to be published (only schematic/board/BOM are in the repo), so open_source is "partial".'
-last_modified_date: '2026-09-07'
+  notes: Not made for or distributed at any conference; it is a personal Christmas gift, which is why the event stays "other". Hackaday project was posted 2019-02-14 but describes a Christmas-tree ornament, consistent with the 2018 holiday season already recorded. Exact LED count/type, firmware source, and any price/quantity are not stated anywhere found; firmware itself does not appear to be published (only schematic/board/BOM are in the repo), so open_source is "partial".
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/other/xmas-id-badge-flair.glb
+  method: kicad
+  source_file: xmas_id_badge_0.12.brd
+  generated: '2026-09-10'
+  bytes: 94760
 ---
 
 tactical_snacks built this small hand-soldered PCB as flair for a spouse's work ID badge during the 2018 holiday season — small enough to clip onto a badge lanyard or hang on a tree as an ornament. It is built around an ATmega328P in the tight VQFN-28 package, powered by a coin cell, and blinks a Christmas-tree LED pattern before sleeping to conserve battery. The maker hand-soldered the fine-pitch MCU with a paint-stripping heat gun and programmed it with an Atmel-ICE; the on-board programming header was later removed and covered with kapton tape to keep the final size small once the battery was installed.

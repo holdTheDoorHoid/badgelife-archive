@@ -2214,5 +2214,141 @@
   "bytes": 52680,
   "tried": [],
   "src": "trevor.kicad_pcb"
+ },
+ "other-troopers-20-badge-hardware": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 1154104,
+  "tried": [],
+  "src": "r2/src/r2.kicad_pcb"
+ },
+ "other-troopers19-badge-hardware-tr19-badge-hw-public": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 842372,
+  "tried": [],
+  "src": "tr19-badge.kicad/tr19-badge.kicad_pcb"
+ },
+ "other-unofficial-fan-made-2020-remoticon-badge-design": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 245648,
+  "tried": [],
+  "src": "remoticon_badge.kicad_pcb"
+ },
+ "other-wargames-sao": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 138384,
+  "tried": [],
+  "src": "hardware/WarGames_SAO.kicad_pcb"
+ },
+ "other-xmas-id-badge-flair": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 94760,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "xmas_id_badge_0.12.brd"
+ },
+ "phdays-2024-phdays-badge-2024": {
+  "status": "ok",
+  "method": "gerber",
+  "bytes": 120720,
+  "tried": [],
+  "src": "pcb/Gerber/PHD_Badge_rev\u0421"
+ },
+ "phdays-2025-phdays-badge-2025": {
+  "status": "ok",
+  "method": "gerber",
+  "bytes": 120720,
+  "tried": [],
+  "src": "pcb/Gerber/PHD_Badge_rev\u0421"
+ },
+ "queercon-2019-queercon-16-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 98248,
+  "tried": [],
+  "src": "boards/epaper_breakout/epaper_breakout.kicad_pcb"
+ },
+ "ruxcon-2015-ruxcon-2015-hhv-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 132836,
+  "tried": [],
+  "src": "hardware/kicad_project/RuxconBadge2015V3/RuxconBadge2015.kicad_pcb"
+ },
+ "rvasec-2012-rvasec-2012-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 159456,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "badge-v2.brd"
+ },
+ "saintcon-2015-saintcon-2015-badge-uberdice": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 473384,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "SaintCon2015Badge.brd"
+ },
+ "saintcon-2016-saintcon-2016-badge": {
+  "status": "ok",
+  "method": "gerber",
+  "bytes": 300960,
+  "tried": [],
+  "src": "plans/gerbers"
+ },
+ "saintcon-2017-dc801-minibadge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 37256,
+  "tried": [],
+  "src": "Badge/DC801-Minibadge.kicad_pcb"
+ },
+ "saintcon-2017-dc801-saintcon2017-minibadge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 37256,
+  "tried": [],
+  "src": "Badge/DC801-Minibadge.kicad_pcb"
+ },
+ "saintcon-2017-hitbutt-minibadge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 69032,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "Base-Rev0.brd"
+ },
+ "saintcon-2017-saintcon-2017-208-mini-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 63844,
+  "tried": [],
+  "src": "pcb/saintcon-208.kicad_pcb"
+ },
+ "saintcon-2017-saintcon-2017-badge-raspberry-pi-zero-w": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 404060,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "SaintCon2017Badge.brd"
+ },
+ "saintcon-2018-saintcon-2018-badge-compukidmike": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 967464,
+  "tried": [],
+  "src": "Badge/Hardware Files/KiCad Files/Saintcon2018.kicad_pcb"
  }
 }

@@ -38,7 +38,7 @@ get_one:
   distribution: []
   where: ''
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/joshajohnson/WarGames_SAO/tree/master/hardware
   firmware_url: https://github.com/joshajohnson/WarGames_SAO/tree/master/firmware.X
   eda_tool: KiCad
@@ -84,7 +84,13 @@ research:
   confidence: low
   last_checked: '2026-09-07'
   notes: 'Only source available is the maker''s own GitHub repo; no Hackaday post, storefront, social media mention, or photo of the assembled board could be found (web search budget was exhausted after one query). Event, year, price, quantity made, and availability are not stated anywhere in the repo and are left blank rather than guessed. The repo was created 2019-01-19, which is consistent with (but does not confirm) an early-2019 con such as ShmooCon 2019. Fact-check correction: the prior draft said 9 discrete LEDs each with its own resistor; the PCB source (D1-D18, R1-R5) and firmware source (main.c comment "as they are charlieplexed", displayLED() driving 2 colors per grid position) actually show 18 LEDs wired as 9 charlieplexed bicolor pairs sharing 5 resistors. Fields were corrected accordingly and all remaining sentences/fields were re-checked against the cited sources.'
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/other/wargames-sao.glb
+  method: kicad
+  source_file: hardware/WarGames_SAO.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 138384
 ---
 
 WarGames_SAO is a "shitty add-on" (SAO) made by joshajohnson, themed around the 1983 film *WarGames*. It is built around a PIC12F1571 microcontroller running at 32 MHz, driving 18 LEDs wired as 9 charlieplexed bicolor pairs across a 3x3 grid (sharing just 5 resistors between them) that step through 15 preprogrammed lighting patterns — evoking the tic-tac-toe board the film's WOPR computer plays against itself while simulating "Global Thermonuclear War." The board's hidden copper-layer artwork includes the line "Shall We Play A Game?", a direct quote from the movie.

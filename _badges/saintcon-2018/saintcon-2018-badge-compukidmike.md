@@ -11,7 +11,7 @@ year: 2018
 makers:
 - name: compukidmike
 summary: The official SAINTCON 2018 conference badge, built around a LOLIN D32 (ESP32) board running MicroPython, with an 8x32 LED matrix display and 12 minibadge (SAO-style) header spots.
-functions: 'Cycles through display modes (SAINTCON logo, a custom message, Hacker Challenge score, Hacker Challenge ID) via UP/DOWN buttons; a SELECT menu offers brightness control, wifi status, and a wifi config mode that spins up an access point for setting the network and custom message from a phone or computer. Twelve minibadge headers accept community-made minibadges.'
+functions: Cycles through display modes (SAINTCON logo, a custom message, Hacker Challenge score, Hacker Challenge ID) via UP/DOWN buttons; a SELECT menu offers brightness control, wifi status, and a wifi config mode that spins up an access point for setting the network and custom message from a phone or computer. Twelve minibadge headers accept community-made minibadges.
 look:
   colors: []
   shape: null
@@ -39,7 +39,7 @@ get_one:
   - free_drop
   where: Given to SAINTCON 2018 attendees as the conference badge.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/compukidmike/Saintcon2018/tree/master/Badge/Hardware%20Files
   firmware_url: https://github.com/compukidmike/Saintcon2018/tree/master/Badge/Badge%20Source%20Code
   eda_tool: KiCad
@@ -51,7 +51,7 @@ images: []
 contact: {}
 notes:
 - From the user's 'SAOs to buy' link list (2026-09-07).
-- 'The GitHub repo README describes this as a documentation/support repo ("all the info you need about the 2018 Saintcon badge") rather than an announcement page; it was not possible to confirm from the repo alone whether compukidmike designed the badge or is a SAINTCON badge-team member sharing build/flash instructions and hardware files on the team''s behalf. Treating "compukidmike" as the maker credit per the repo ownership, per the archive''s existing convention for this entry.'
+- The GitHub repo README describes this as a documentation/support repo ("all the info you need about the 2018 Saintcon badge") rather than an announcement page; it was not possible to confirm from the repo alone whether compukidmike designed the badge or is a SAINTCON badge-team member sharing build/flash instructions and hardware files on the team's behalf. Treating "compukidmike" as the maker credit per the repo ownership, per the archive's existing convention for this entry.
 status: released
 sources:
 - kind: url
@@ -61,7 +61,7 @@ sources:
   note: 'Found by the archive''s discovery sweep (angle: tobuy-linkfile); event read as ''saintcon-2018''.'
 - kind: url
   url: https://raw.githubusercontent.com/compukidmike/Saintcon2018/master/Badge/Readme.md
-  title: 'Badge/Readme.md - About the Badge'
+  title: Badge/Readme.md - About the Badge
   accessed: '2026-09-07'
   note: Source for chip (ESP32/LOLIN D32, MicroPython), 8x32 LED matrix, 3 buttons, 12 minibadge spots, rechargeable battery/microUSB charging, wifi config flow, and menu/display functions.
 - kind: url
@@ -74,7 +74,13 @@ research:
   confidence: medium
   last_checked: '2026-09-07'
   notes: 'Core specs (ESP32/LOLIN D32, MicroPython, 8x32 LED matrix, 3 buttons, 12 minibadge headers, LiPo battery/microUSB) and open-source hardware/firmware confirmed directly from the maker''s own repo. Not found anywhere in the repo: price, quantity made, PCB color, board shape/outline, and whether compukidmike personally designed the badge versus documenting/distributing files for the official SAINTCON badge team. No usable photo of the assembled hardware was found in the repo (only unrelated animated GIFs used by the badge''s own web UI); the BadgeBuildSheet.pdf likely contains assembly photos but was not parsed for images.'
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/saintcon-2018/saintcon-2018-badge-compukidmike.glb
+  method: kicad
+  source_file: Badge/Hardware Files/KiCad Files/Saintcon2018.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 967464
 ---
 
 The SAINTCON 2018 badge was the official conference badge for SAINTCON (Utah's security conference) that year, built around a LOLIN D32 board (ESP32) running MicroPython. It carries an 8x32 LED matrix display, three navigation buttons (UP, DOWN, SELECT), a rechargeable LiPo battery charged over microUSB, and twelve headers for attaching community-made minibadges — SAINTCON's long-running take on the SAO concept, distinct in size and count from the more common 2-pin/6-pin SAO standard.

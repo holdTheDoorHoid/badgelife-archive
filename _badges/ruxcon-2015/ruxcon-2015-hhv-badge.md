@@ -40,7 +40,7 @@ get_one:
   - village
   where: Distributed to Ruxcon 2015 attendees through the Hardware Hacking Village (HHV), where it was assembled and programmed as a village activity.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/peterfillmore/RuxconBadge2015
   firmware_url: https://github.com/peterfillmore/RuxconBadge2015
   eda_tool: null
@@ -56,9 +56,9 @@ links:
   kind: website
 images:
 - file: assets/images/badges/ruxcon-2015/ruxcon-2015-hhv-badge/643eab3cb8.png
-  source: "https://www.drkns.net/ruxcon-badge-2015-assembly/"
-  credit: "Peter Fillmore / drkns.net"
-  caption: "Assembled Ruxcon 2015 HHV badge, crocodile-shaped PCB"
+  source: https://www.drkns.net/ruxcon-badge-2015-assembly/
+  credit: Peter Fillmore / drkns.net
+  caption: Assembled Ruxcon 2015 HHV badge, crocodile-shaped PCB
 contact: {}
 notes:
 - STM32-based electronic badge for the Ruxcon Hardware Hacking Village 2015, with public KiCad/schematic files and CR2032 power, documented on GitHub and in a build/programming writeup at drkns.net. Found by the event-year sweep, task con-kiwicon.
@@ -89,7 +89,13 @@ research:
   confidence: high
   last_checked: '2026-09-08'
   notes: No price or production-quantity figures were published anywhere found; it was a free village build, so price/quantity fields are left empty rather than guessed. No storefront or aftermarket listing was found, so availability is left unknown rather than assumed sold_out. eda_tool for the hardware files was not confirmed from the pages fetched (repo file listing was not browsed in detail), so left null.
-last_modified_date: '2026-09-08'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/ruxcon-2015/ruxcon-2015-hhv-badge.glb
+  method: kicad
+  source_file: hardware/kicad_project/RuxconBadge2015V3/RuxconBadge2015.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 132836
 ---
 
 The Ruxcon 2015 HHV badge is a crocodile-shaped PCB built by Peter Fillmore for the Hardware Hacking Village at Ruxcon 2015 in Melbourne. It's built around an STM32F0 (STM32F030K6) ARM Cortex-M0 microcontroller with 32KB of flash, three status LEDs (green, orange, red), a four-switch d-pad, and both UART and SWD/JTAG programming headers, run from a CR2032 coin cell. It was designed as a village activity: attendees soldered the board themselves and then flashed it, learning basic embedded development along the way.

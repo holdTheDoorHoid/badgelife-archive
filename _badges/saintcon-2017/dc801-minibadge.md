@@ -12,7 +12,7 @@ makers:
 - name: snurkle engineering / hamster
   url: https://www.tindie.com/stores/hamster/
 summary: A minibadge shaped like Helga, the DC801 mascot, with a pair of RGB LEDs for eyes that slow-cycle through colors at random.
-functions: 'No interactive functions; two RGB LEDs automatically cycle through colors slowly and at random. Can be worn via header pins or as a shirt pin.'
+functions: No interactive functions; two RGB LEDs automatically cycle through colors slowly and at random. Can be worn via header pins or as a shirt pin.
 look:
   colors: []
   shape: null
@@ -34,12 +34,12 @@ get_one:
   price_usd: null
   quantity: ''
   availability: sold_out
-  availability_note: 'Tindie listing marked "Product Retired" / no longer available for sale as of 2026-09-07.'
+  availability_note: Tindie listing marked "Product Retired" / no longer available for sale as of 2026-09-07.
   distribution:
   - purchase
   where: Sold via the maker's Tindie store (snurkle engineering); now retired.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/cavehamster/DC801-SAINTCON2017-Minibadge
   firmware_url: null
   eda_tool: KiCad
@@ -54,9 +54,9 @@ links:
   kind: repo
 images:
 - file: assets/images/badges/saintcon-2017/dc801-minibadge/8534397253.jpg
-  source: "https://www.tindie.com/products/hamster/dc801-minibadge-badgelife-addon/"
-  credit: "snurkle engineering"
-  caption: "DC801 Minibadge featuring Helga with RGB LED eyes"
+  source: https://www.tindie.com/products/hamster/dc801-minibadge-badgelife-addon/
+  credit: snurkle engineering
+  caption: DC801 Minibadge featuring Helga with RGB LED eyes
 contact: {}
 notes:
 - Spotted by a research agent while working on a neighbouring entry (run 3).
@@ -77,10 +77,16 @@ research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'Maker''s Tindie listing and GitHub repo agree on the core facts (Helga mascot, two auto-cycling RGB LED eyes, 3.3V, resistor-selectable brightness). Price and quantity made were not stated anywhere found. The Tindie page frames this as a "badgelife addon" usable on DC25/DC26 DC801 badges as well as the 2017 SAINTCON badge; treated 2017 SAINTCON as the primary/originating event per the repo name. A related, separate product ("DC801 SAO") exists from the same maker and is reported separately below rather than folded into this entry.'
-last_modified_date: '2026-09-07'
+  notes: Maker's Tindie listing and GitHub repo agree on the core facts (Helga mascot, two auto-cycling RGB LED eyes, 3.3V, resistor-selectable brightness). Price and quantity made were not stated anywhere found. The Tindie page frames this as a "badgelife addon" usable on DC25/DC26 DC801 badges as well as the 2017 SAINTCON badge; treated 2017 SAINTCON as the primary/originating event per the repo name. A related, separate product ("DC801 SAO") exists from the same maker and is reported separately below rather than folded into this entry.
+last_modified_date: '2026-09-10'
 redirect_from:
 - /badges/other/dc801-minibadge/
+model:
+  file: assets/models/saintcon-2017/dc801-minibadge.glb
+  method: kicad
+  source_file: Badge/DC801-Minibadge.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 37256
 ---
 
 The DC801 Minibadge is a small badgelife addon by snurkle engineering (maker handle "hamster," also known as cavehamster on GitHub), made for DC801, the Salt Lake City DEF CON group. It depicts Helga, the DC801 mascot, with a pair of RGB LEDs standing in for her eyes; the LEDs run automatically, slow-cycling through colors at random with no user interaction. Brightness is set at assembly time by choosing one of three resistor values (0ohm, 470ohm, or 1kOhm).
