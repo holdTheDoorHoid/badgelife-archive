@@ -12,16 +12,24 @@ makers:
 - name: TomKeddie
   url: https://hackaday.io/hacker/101574-tomkeddie
 summary: A lollipop-shaped Simple Add-On with an NFC/RFID antenna in the candy head, built around the ST M24LR64E dual-interface EEPROM so the host badge can read the tag memory over I2C; it is derived from the Teardown 2019 badge design and was entered in the Supercon 8 SAO Contest.
-functions: 'Exposes an NFC/RFID tag (ST M24LR64E-RMN6T-2 dual-interface EEPROM) to the host badge over I2C; the antenna coil is etched into the lollipop head so the SAO can be read wirelessly with an NFC reader/phone as well as queried over the wired I2C bus.'
+functions: Exposes an NFC/RFID tag (ST M24LR64E-RMN6T-2 dual-interface EEPROM) to the host badge over I2C; the antenna coil is etched into the lollipop head so the SAO can be read wirelessly with an NFC reader/phone as well as queried over the wired I2C bus.
 look:
-  colors: [red, white]
+  colors:
+  - red
+  - white
   shape: lollipop
-  themes: [candy, nfc, security]
+  themes:
+  - candy
+  - nfc
+  - security
 tech:
   mcu: none
   leds: null
   display: none
-  connectivity: [nfc, rfid, i2c]
+  connectivity:
+  - nfc
+  - rfid
+  - i2c
   battery: null
   sao_version: null
 get_one:
@@ -29,10 +37,11 @@ get_one:
   price_usd: null
   quantity: ''
   availability: unknown
-  distribution: [contest]
-  where: 'Entered as a project in the Supercon 8 SAO Contest at Supercon 2024; no storefront or sale found.'
+  distribution:
+  - contest
+  where: Entered as a project in the Supercon 8 SAO Contest at Supercon 2024; no storefront or sale found.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/TomKeddie/prj-pcb-experiments/tree/master/2024-rfid-sao
   firmware_url: null
   eda_tool: KiCad
@@ -40,6 +49,7 @@ links:
 - label: hackaday.io/project/198256-lollipop-sao-with-nfc
   url: https://hackaday.io/project/198256-lollipop-sao-with-nfc
   kind: hackaday
+  archived: https://web.archive.org/web/20260520221713/https://hackaday.io/project/198256-lollipop-sao-with-nfc
 - label: github.com/TomKeddie/prj-pcb-experiments/tree/master/2024-rfid-sao
   url: https://github.com/TomKeddie/prj-pcb-experiments/tree/master/2024-rfid-sao
   kind: repo
@@ -47,10 +57,11 @@ links:
   url: https://upverter.com/design/gsteiert/teardown2019/
   kind: website
 images:
-  - file: assets/images/badges/supercon-2024/lollipop-sao-with-nfc/1d16d12bb3.jpg
-    source: "https://hackaday.io/project/198256-lollipop-sao-with-nfc"
-    credit: "TomKeddie"
-    caption: "The Lollipop SAO with NFC, a lollipop-shaped PCB SAO"
+- file: assets/images/badges/supercon-2024/lollipop-sao-with-nfc/1d16d12bb3.jpg
+  source: https://hackaday.io/project/198256-lollipop-sao-with-nfc
+  credit: TomKeddie
+  caption: The Lollipop SAO with NFC, a lollipop-shaped PCB SAO
+  archived: https://web.archive.org/web/20260520221713/https://hackaday.io/project/198256-lollipop-sao-with-nfc
 contact: {}
 notes: []
 status: unknown
@@ -60,6 +71,7 @@ sources:
   title: Lollipop SAO with NFC
   accessed: '2026-09-06'
   note: Found via the project's link list; intake pass identified this item here.
+  archived: https://web.archive.org/web/20260520221713/https://hackaday.io/project/198256-lollipop-sao-with-nfc
 - kind: url
   url: https://github.com/TomKeddie/prj-pcb-experiments/tree/master/2024-rfid-sao
   title: TomKeddie/prj-pcb-experiments - 2024-rfid-sao
@@ -69,7 +81,7 @@ research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'Confirmed as a Supercon 8 SAO Contest entry by TomKeddie via the Hackaday.io project page and the linked GitHub repo (its README states the design plan directly). No pricing, quantity-made, or storefront information was found anywhere -- it reads as a one-off contest/personal project rather than something sold or widely distributed, so get_one fields are left mostly empty. No SAO connector pin-count (v1 vs v2) is stated on either page. No explicit open-source license is given for the repo, though the KiCad source, gerbers, and mechanical files are all published. The repo''s images/ folder holds only clip-art references (stock lollipop vector art, silkscreen reference) used while designing the silkscreen, not photos of the finished board, so only the one Hackaday.io hero photo was saved.'
+  notes: Confirmed as a Supercon 8 SAO Contest entry by TomKeddie via the Hackaday.io project page and the linked GitHub repo (its README states the design plan directly). No pricing, quantity-made, or storefront information was found anywhere -- it reads as a one-off contest/personal project rather than something sold or widely distributed, so get_one fields are left mostly empty. No SAO connector pin-count (v1 vs v2) is stated on either page. No explicit open-source license is given for the repo, though the KiCad source, gerbers, and mechanical files are all published. The repo's images/ folder holds only clip-art references (stock lollipop vector art, silkscreen reference) used while designing the silkscreen, not photos of the finished board, so only the one Hackaday.io hero photo was saved.
 last_modified_date: '2026-09-07'
 ---
 

@@ -39,7 +39,7 @@ get_one:
   - kit
   where: Early hand-reworked V0.1.1 kits were handed out at VCF Midwest 2024; Version 0.2 was brought to Supercon 8 (2024) for the Add-on Contest. No storefront or fixed price found.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/ageppert/SAO_CORE4
   firmware_url: https://github.com/ageppert/SAO_CORE4
   eda_tool: null
@@ -50,6 +50,7 @@ links:
 - label: hackaday.io/project/197235-sao-core4-a-nibble-of-core-memory-with-i2c
   url: https://hackaday.io/project/197235-sao-core4-a-nibble-of-core-memory-with-i2c
   kind: hackaday
+  archived: https://web.archive.org/web/20251018074830/https://hackaday.io/project/197235-sao-core4-a-nibble-of-core-memory-with-i2c
 - label: hackaday.io/project/197235/logs
   url: https://hackaday.io/project/197235/logs
   kind: hackaday
@@ -57,14 +58,14 @@ links:
   url: https://www.hackster.io/news/andy-geppert-s-sao-core4-adds-nostalgic-four-bit-memory-tech-to-modern-conference-badges-05f3bf6c8300
   kind: article
 images:
-  - file: assets/images/badges/supercon-2024/sao-core4/e8c608b054.jpg
-    source: "https://github.com/ageppert/SAO_CORE4"
-    credit: "Andy Geppert"
-    caption: "Render of the SAO Core4 board, front view"
-  - file: assets/images/badges/supercon-2024/sao-core4/1ab6ad9178.jpg
-    source: "https://github.com/ageppert/SAO_CORE4"
-    credit: "Andy Geppert"
-    caption: "Physical prototypes of the SAO Core4 board"
+- file: assets/images/badges/supercon-2024/sao-core4/e8c608b054.jpg
+  source: https://github.com/ageppert/SAO_CORE4
+  credit: Andy Geppert
+  caption: Render of the SAO Core4 board, front view
+- file: assets/images/badges/supercon-2024/sao-core4/1ab6ad9178.jpg
+  source: https://github.com/ageppert/SAO_CORE4
+  credit: Andy Geppert
+  caption: Physical prototypes of the SAO Core4 board
 contact: {}
 notes: []
 status: released
@@ -79,6 +80,7 @@ sources:
   title: SAO Core4 - A Nibble of Core Memory with I2C
   accessed: '2026-09-07'
   note: Confirmed maker team (Andy Geppert with Koppany Horvath), core feature set, MCP23017 GPIO expander driving the 4-bit core matrix and LEDs, dual SAO ports, QWIIC/STEMMA QT pass-through, and that it was submitted to both the Tiny Games Challenge and the Supercon 8 (2024) SAO contest.
+  archived: https://web.archive.org/web/20251018074830/https://hackaday.io/project/197235-sao-core4-a-nibble-of-core-memory-with-i2c
 - kind: url
   url: https://hackaday.io/project/197235/logs
   title: SAO Core4 build logs
@@ -88,7 +90,7 @@ research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'Maker''s own GitHub and Hackaday.io project pages confirm what the badge is, its purpose, and that it was built for Supercon 8''s 2024 SAO contest, so core facts are maker-sourced. No LED count/type, price, or production quantity was published anywhere found; left empty rather than guessed. Hackster.io coverage exists but the article page returned a Cloudflare block (HTTP 403) and could not be read. tech.mcu is set to none because the SAO itself has no microcontroller (an MCP23017 I2C GPIO expander drives it, not a program-running chip); logic/control comes from the host badge over I2C.'
+  notes: Maker's own GitHub and Hackaday.io project pages confirm what the badge is, its purpose, and that it was built for Supercon 8's 2024 SAO contest, so core facts are maker-sourced. No LED count/type, price, or production quantity was published anywhere found; left empty rather than guessed. Hackster.io coverage exists but the article page returned a Cloudflare block (HTTP 403) and could not be read. tech.mcu is set to none because the SAO itself has no microcontroller (an MCP23017 I2C GPIO expander drives it, not a program-running chip); logic/control comes from the host badge over I2C.
 last_modified_date: '2026-09-07'
 ---
 

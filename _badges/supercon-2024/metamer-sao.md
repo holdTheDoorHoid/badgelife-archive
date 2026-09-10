@@ -14,9 +14,13 @@ makers:
 summary: A 16-LED SAO (12 distinct wavelengths from UV to deep red plus four white color temperatures) driven by a TI LP5018 constant-current driver over I2C, built to demonstrate metamerism and spectral color mixing beyond RGB; v1 was made for Open Hardware Summit 2024 in Montreal and v2 (adding a PY32F002B Cortex-M0 to bootstrap I2C) was entered in the Supercon 8 SAO Contest.
 functions: Cycles through preset LED combinations to demonstrate metamerism (different spectra that look the same color to the eye); brightness of each of the 16 channels is set over I2C.
 look:
-  colors: [purple]
+  colors:
+  - purple
   shape: horseshoe
-  themes: [science, art, minimalist]
+  themes:
+  - science
+  - art
+  - minimalist
 tech:
   mcu: PY32F002B (v2 only; v1 has no onboard MCU)
   leds:
@@ -24,7 +28,8 @@ tech:
     type: discrete
     note: 12 distinct wavelengths (456-640nm, including a 505nm LED and UV) plus 4 white color temperatures, all driven through a TI LP5018 constant-current I2C LED driver
   display: none
-  connectivity: [i2c]
+  connectivity:
+  - i2c
   battery: powered by host badge
   sao_version: v1
 get_one:
@@ -32,10 +37,11 @@ get_one:
   price_usd: null
   quantity: ''
   availability: unknown
-  distribution: [contest]
+  distribution:
+  - contest
   where: Entered in the Hackaday Supercon 8 (2024) SAO Contest; not established as sold or given away as a general con drop.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/eosti/metamer-sao
   firmware_url: https://github.com/eosti/metamer-sao
   eda_tool: KiCad
@@ -50,15 +56,17 @@ links:
 - label: reidsoxharris.me/projects/metamer-sao
   url: https://reidsoxharris.me/projects/metamer-sao
   kind: website
+  archived: https://web.archive.org/web/20260508083359/https://reidsoxharris.me/projects/metamer-sao/
 images:
-  - file: assets/images/badges/supercon-2024/metamer-sao/d8bd20a2f1.jpg
-    source: "https://hackaday.io/project/198439-metamer-sao"
-    credit: "Reid Sox-Harris"
-    caption: "Metamer SAO board"
-  - file: assets/images/badges/supercon-2024/metamer-sao/f9a79d560f.jpg
-    source: "https://reidsoxharris.me/projects/metamer-sao"
-    credit: "Reid Sox-Harris"
-    caption: "Metamer SAO"
+- file: assets/images/badges/supercon-2024/metamer-sao/d8bd20a2f1.jpg
+  source: https://hackaday.io/project/198439-metamer-sao
+  credit: Reid Sox-Harris
+  caption: Metamer SAO board
+- file: assets/images/badges/supercon-2024/metamer-sao/f9a79d560f.jpg
+  source: https://reidsoxharris.me/projects/metamer-sao
+  credit: Reid Sox-Harris
+  caption: Metamer SAO
+  archived: https://web.archive.org/web/20260508083359/https://reidsoxharris.me/projects/metamer-sao/
 contact: {}
 notes: []
 status: released

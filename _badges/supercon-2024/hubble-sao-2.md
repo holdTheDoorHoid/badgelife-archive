@@ -48,6 +48,7 @@ links:
 - label: hackaday.io/project/198447-hubble-sao
   url: https://hackaday.io/project/198447-hubble-sao
   kind: hackaday
+  archived: https://web.archive.org/web/20251118184337/https://hackaday.io/project/198447-hubble-sao
 - label: github.com/pdulab/hubble_sao
   url: https://github.com/pdulab/hubble_sao
   kind: repo
@@ -62,6 +63,7 @@ images:
   source: https://hackaday.io/project/198447-hubble-sao
   credit: pdulab
   caption: Hubble SAO assembled board
+  archived: https://web.archive.org/web/20251118184337/https://hackaday.io/project/198447-hubble-sao
 contact: {}
 notes: []
 status: cancelled
@@ -71,11 +73,13 @@ sources:
   title: Hubble SAO
   accessed: '2026-09-06'
   note: Found via the project's link list; intake pass identified this item here.
+  archived: https://web.archive.org/web/20251118184337/https://hackaday.io/project/198447-hubble-sao
 - kind: url
   url: https://hackaday.io/project/198447-hubble-sao
   title: Hubble SAO - Hackaday.io
   accessed: '2026-09-07'
   note: Maker's project page; confirmed event (Supercon 8/2024), features, chip, sensors, quantity built (3 PCBs), and that it was archived before the con due to hardware bugs.
+  archived: https://web.archive.org/web/20251118184337/https://hackaday.io/project/198447-hubble-sao
 - kind: url
   url: https://github.com/pdulab/hubble_sao
   title: pdulab/hubble_sao

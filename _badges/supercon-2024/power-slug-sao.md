@@ -46,14 +46,16 @@ links:
 - label: hackaday.io/project/198996-power-slug-sao
   url: https://hackaday.io/project/198996-power-slug-sao
   kind: hackaday
+  archived: https://web.archive.org/web/20251029022555/https://hackaday.io/project/198996-power-slug-sao
 - label: codeberg.org/ticktok/Satisfactory_Slug_SAO
   url: https://codeberg.org/ticktok/Satisfactory_Slug_SAO
   kind: repo
 images:
 - file: assets/images/badges/supercon-2024/power-slug-sao/0057c64657.jpg
-  source: "https://hackaday.io/project/198996-power-slug-sao"
-  credit: "Ticktok"
-  caption: "The Power Slug SAO with translucent 3D-printed slug housing over an RGB LED"
+  source: https://hackaday.io/project/198996-power-slug-sao
+  credit: Ticktok
+  caption: The Power Slug SAO with translucent 3D-printed slug housing over an RGB LED
+  archived: https://web.archive.org/web/20251029022555/https://hackaday.io/project/198996-power-slug-sao
 contact: {}
 notes: []
 status: released
@@ -63,11 +65,13 @@ sources:
   title: Power Slug SAO
   accessed: '2026-09-06'
   note: Found via the project's link list; intake pass identified this item here.
+  archived: https://web.archive.org/web/20251029022555/https://hackaday.io/project/198996-power-slug-sao
 - kind: url
   url: https://hackaday.io/project/198996-power-slug-sao
   title: Power Slug SAO
   accessed: '2026-09-07'
   note: Confirmed maker, event/year, MCU, LED, I2C address and modes, and open-source status; source image used for the entry photo.
+  archived: https://web.archive.org/web/20251029022555/https://hackaday.io/project/198996-power-slug-sao
 - kind: url
   url: https://codeberg.org/ticktok/Satisfactory_Slug_SAO
   title: Satisfactory_Slug_SAO repository

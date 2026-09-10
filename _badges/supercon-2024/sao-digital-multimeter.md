@@ -49,6 +49,7 @@ links:
 - label: hackaday.io/project/198892-sao-digital-multimeter
   url: https://hackaday.io/project/198892-sao-digital-multimeter
   kind: hackaday
+  archived: https://web.archive.org/web/20251118041928/https://hackaday.io/project/198892-sao-digital-multimeter
 - label: github.com/flummer/circuitpython/tree/hxr-sao-dmm
   url: https://github.com/flummer/circuitpython/tree/hxr-sao-dmm
   kind: repo
@@ -61,6 +62,7 @@ images:
   source: https://hackaday.io/project/198892-sao-digital-multimeter
   credit: Thomas Flummer
   caption: The SAO Digital Multimeter in its 3D-printed unibody case
+  archived: https://web.archive.org/web/20251118041928/https://hackaday.io/project/198892-sao-digital-multimeter
 contact: {}
 status: released
 sources:
@@ -79,6 +81,7 @@ sources:
   title: SAO Digital Multimeter project page (hackaday.io)
   accessed: '2026-09-07'
   note: Confirmed maker Thomas Flummer, submission to the Supercon 8 (2024) SAO Contest on 2024-10-20, dimensions (41x75mm), rotary encoder + buttons, pogo-pin PCB stack (3 pogo pins), two 2mm banana sockets, SAO cable extension for recessed connectors, multilingual assembly guide, and the implemented-vs-planned feature split (GPIO read implemented; I2C tester and GPIO write planned). Display size in inches not stated anywhere on the page.
+  archived: https://web.archive.org/web/20251118041928/https://hackaday.io/project/198892-sao-digital-multimeter
 research:
   status: verified
   confidence: high

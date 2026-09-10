@@ -12,7 +12,7 @@ makers:
 - name: Applied Procrastination
   url: https://hackaday.io/AppliedProc
 summary: An RP2040-based SAO with four circular capacitive touch pads, a MAX98357A I2S amplifier and a tiny speaker that lets you scratch a vinyl-record graphic to make record-scratch sounds, routed on a single layer and built for the Supercon 8 SAO Contest.
-functions: 'Scratching the four capacitive touch pads on the record graphic triggers record-scratch sound effects played through the onboard speaker; includes a reset button, a BOOT button, and an addressable RGB LED.'
+functions: Scratching the four capacitive touch pads on the record graphic triggers record-scratch sound effects played through the onboard speaker; includes a reset button, a BOOT button, and an addressable RGB LED.
 look:
   colors:
   - black
@@ -44,13 +44,15 @@ make_your_own:
   eda_tool: KiCad
 images:
 - file: assets/images/badges/supercon-2024/record-scratch-sao/750b40f90d.jpg
-  source: "https://hackaday.io/project/198458-record-scratch-sao"
-  credit: "Applied Procrastination"
-  caption: "Record Scratch SAO, a vinyl-record-shaped SAO with capacitive touch pads"
+  source: https://hackaday.io/project/198458-record-scratch-sao
+  credit: Applied Procrastination
+  caption: Record Scratch SAO, a vinyl-record-shaped SAO with capacitive touch pads
+  archived: https://web.archive.org/web/20251209091422/https://hackaday.io/project/198458-record-scratch-sao
 - file: assets/images/badges/supercon-2024/record-scratch-sao/b78fe175ef.jpg
-  source: "https://hackaday.io/project/198458-record-scratch-sao"
-  credit: "Applied Procrastination"
-  caption: "Record Scratch SAO board detail, showing the RP2040, touchpad labels and speaker footprint"
+  source: https://hackaday.io/project/198458-record-scratch-sao
+  credit: Applied Procrastination
+  caption: Record Scratch SAO board detail, showing the RP2040, touchpad labels and speaker footprint
+  archived: https://web.archive.org/web/20251209091422/https://hackaday.io/project/198458-record-scratch-sao
 contact: {}
 notes: []
 status: released
@@ -60,21 +62,24 @@ sources:
   title: Record Scratch SAO
   accessed: '2026-09-06'
   note: Found via the project's link list; intake pass identified this item here.
+  archived: https://web.archive.org/web/20251209091422/https://hackaday.io/project/198458-record-scratch-sao
 - kind: url
   url: https://hackaday.io/project/198458-record-scratch-sao
   title: Record Scratch SAO
   accessed: '2026-09-07'
   note: 'Confirmed maker, event/contest, and hardware details: RP2040, 4 capacitive touch pads, MAX98357A I2S amp, small speaker, USB-C, addressable RGB LED, 4MB flash, single-layer PCB, KiCad files linked. Provided the project photo and board render used for images.'
+  archived: https://web.archive.org/web/20251209091422/https://hackaday.io/project/198458-record-scratch-sao
 - kind: url
   url: https://hackaday.io/AppliedProc
   title: Applied Procrastination (Hackaday.io profile)
   accessed: '2026-09-07'
-  note: 'Maker is a group of students at the University of Oslo, Norway. No pricing, quantity, or availability details found on the profile.'
+  note: Maker is a group of students at the University of Oslo, Norway. No pricing, quantity, or availability details found on the profile.
+  archived: https://web.archive.org/web/20260208040948/https://hackaday.io/AppliedProc
 - kind: url
   url: https://github.com/SimenZhor/Record-scratch-SAO
   title: Record-scratch-SAO (GitHub, unreachable)
   accessed: '2026-09-07'
-  note: 'Returned 404; the repo is not visible under this URL or in a public listing of the SimenZhor account as of the check date. Could not confirm the design files are still published at this address.'
+  note: Returned 404; the repo is not visible under this URL or in a public listing of the SimenZhor account as of the check date. Could not confirm the design files are still published at this address.
 research:
   status: researched
   confidence: medium

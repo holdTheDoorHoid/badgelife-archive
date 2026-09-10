@@ -12,19 +12,25 @@ makers:
 - name: Phil Weasel
   url: https://hackaday.io/hacker/1498391-phil-weasel
 summary: An NFC-tag SAO built around an M24LR64E IC with a PCB-trace coil antenna, holding contact data writable by NFC app or I2C, with PWM-lit reverse-mount LED eyes on a gold ENIG black PCB that can be converted into a keychain pendant or pin after the con; entered in the Supercon 8 SAO Contest.
-functions: 'Stores contact info on an onboard NFC tag, readable/writable by phone NFC apps or over I2C from a host badge; PWM-driven reverse-mount LEDs light up the eyes. After the con it can be desoldered from its SAO header and reused as a keychain pendant or pin.'
+functions: Stores contact info on an onboard NFC tag, readable/writable by phone NFC apps or over I2C from a host badge; PWM-driven reverse-mount LEDs light up the eyes. After the con it can be desoldered from its SAO header and reused as a keychain pendant or pin.
 look:
-  colors: [black, gold]
+  colors:
+  - black
+  - gold
   shape: null
-  themes: [nfc, jewelry]
+  themes:
+  - nfc
+  - jewelry
 tech:
   mcu: none
   leds:
     count: 2
     type: reverse-mount
-    note: 'PWM-dimmed, draw ~10mA each, run below 10% duty in the final design'
+    note: PWM-dimmed, draw ~10mA each, run below 10% duty in the final design
   display: none
-  connectivity: [nfc, i2c]
+  connectivity:
+  - nfc
+  - i2c
   battery: powered by host badge
   sao_version: null
 get_one:
@@ -32,8 +38,9 @@ get_one:
   price_usd: null
   quantity: ''
   availability: unknown
-  distribution: [contest]
-  where: 'Entered in the Supercon 8 SAO Contest (2024); maker notes manufacturing was limited by budget and the cost of producing in Europe. No storefront found.'
+  distribution:
+  - contest
+  where: Entered in the Supercon 8 SAO Contest (2024); maker notes manufacturing was limited by budget and the cost of producing in Europe. No storefront found.
 make_your_own:
   open_source: partial
   hardware_url: https://hackaday.io/project/197952-the-jolly-tagger-sao
@@ -42,11 +49,12 @@ make_your_own:
   eda_tool: KiCad
   license: null
   fab_url: null
-  notes: 'KiCad project (Gerbers/schematic) published as a zip on the Hackaday.io project page; no firmware needed since the IC handles NFC autonomously.'
+  notes: KiCad project (Gerbers/schematic) published as a zip on the Hackaday.io project page; no firmware needed since the IC handles NFC autonomously.
 links:
 - label: hackaday.io/project/197952-the-jolly-tagger-sao
   url: https://hackaday.io/project/197952-the-jolly-tagger-sao
   kind: hackaday
+  archived: https://web.archive.org/web/20260516204100/https://hackaday.io/project/197952-the-jolly-tagger-sao
 - label: hackaday.io/project/197952-the-jolly-tagger-sao/logs
   url: https://hackaday.io/project/197952-the-jolly-tagger-sao/logs
   kind: hackaday
@@ -55,13 +63,14 @@ links:
   kind: hackaday
 images:
 - file: assets/images/badges/supercon-2024/jolly-tagger-sao/64001c804c.jpg
-  source: "https://hackaday.io/project/197952-the-jolly-tagger-sao"
-  credit: "Phil Weasel"
-  caption: "The Jolly Tagger SAO, black ENIG PCB with reverse-mount LED eyes"
+  source: https://hackaday.io/project/197952-the-jolly-tagger-sao
+  credit: Phil Weasel
+  caption: The Jolly Tagger SAO, black ENIG PCB with reverse-mount LED eyes
+  archived: https://web.archive.org/web/20260516204100/https://hackaday.io/project/197952-the-jolly-tagger-sao
 - file: assets/images/badges/supercon-2024/jolly-tagger-sao/1b4f0d51dd.png
-  source: "https://hackaday.io/project/197952-the-jolly-tagger-sao/logs"
-  credit: "Phil Weasel"
-  caption: "Jolly Tagger SAO prototype during build/testing"
+  source: https://hackaday.io/project/197952-the-jolly-tagger-sao/logs
+  credit: Phil Weasel
+  caption: Jolly Tagger SAO prototype during build/testing
 contact: {}
 notes: []
 status: released
@@ -71,11 +80,13 @@ sources:
   title: The Jolly Tagger SAO
   accessed: '2026-09-06'
   note: Found via the project's link list; intake pass identified this item here.
+  archived: https://web.archive.org/web/20260516204100/https://hackaday.io/project/197952-the-jolly-tagger-sao
 - kind: url
   url: https://hackaday.io/project/197952-the-jolly-tagger-sao
   title: The Jolly Tagger SAO
   accessed: '2026-09-07'
-  note: 'Maker, chip (M24LR64E-RDW6T/2), LED, PCB finish, BOM, and design-file details.'
+  note: Maker, chip (M24LR64E-RDW6T/2), LED, PCB finish, BOM, and design-file details.
+  archived: https://web.archive.org/web/20260516204100/https://hackaday.io/project/197952-the-jolly-tagger-sao
 - kind: url
   url: https://hackaday.io/project/197952-the-jolly-tagger-sao/logs
   title: The Jolly Tagger SAO - build logs

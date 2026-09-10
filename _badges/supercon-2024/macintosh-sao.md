@@ -12,7 +12,7 @@ makers:
 - name: Aaron (aeiche)
   url: https://hackaday.io/hacker/107039-aaron
 summary: A Shitty Add-On shaped like the original Macintosh for its 40th anniversary, with a 64x48 OLED driven by a CH32V003 that plays MacPaint/MacWrite-style animations from I2C draw commands, built for the Supercon 8 (2024) SAO contest in a run of roughly 50 units.
-functions: 'Draws a Mac-style desktop with an animated mouse cursor, and can play MacPaint- and MacWrite-like drawing/text animations. A host device sends command bytes over I2C that switch between a background layer and an animation layer to build up the screen.'
+functions: Draws a Mac-style desktop with an animated mouse cursor, and can play MacPaint- and MacWrite-like drawing/text animations. A host device sends command bytes over I2C that switch between a background layer and an animation layer to build up the screen.
 look:
   colors: []
   shape: null
@@ -35,7 +35,7 @@ tech_extra:
 get_one:
   price: ''
   price_usd: null
-  quantity: 'approximately 51 (about 40 white, 11 black)'
+  quantity: approximately 51 (about 40 white, 11 black)
   availability: unknown
   distribution:
   - contest
@@ -49,21 +49,25 @@ links:
 - label: hackaday.io/project/196403-macintosh-sao
   url: https://hackaday.io/project/196403-macintosh-sao
   kind: hackaday
+  archived: https://web.archive.org/web/20260807051250/https://hackaday.io/project/196403-macintosh-sao
 - label: github.com/aaroneiche/macsao
   url: https://github.com/aaroneiche/macsao
   kind: repo
 - label: aeiche.com/macsao
   url: https://aeiche.com/macsao
   kind: website
+  archived: https://web.archive.org/web/20260115085549/https://aeiche.com/macsao/
 images:
-  - file: assets/images/badges/supercon-2024/macintosh-sao/f228c4dc45.jpg
-    source: "https://hackaday.io/project/196403-macintosh-sao"
-    credit: "Aaron (aeiche)"
-    caption: "The Macintosh SAO, an add-on shaped like the original 1984 Macintosh"
-  - file: assets/images/badges/supercon-2024/macintosh-sao/9358433240.jpg
-    source: "https://hackaday.io/project/196403-macintosh-sao"
-    credit: "Aaron (aeiche)"
-    caption: "Close-up of the Macintosh SAO PCB showing the OLED screen and Apple logo LED"
+- file: assets/images/badges/supercon-2024/macintosh-sao/f228c4dc45.jpg
+  source: https://hackaday.io/project/196403-macintosh-sao
+  credit: Aaron (aeiche)
+  caption: The Macintosh SAO, an add-on shaped like the original 1984 Macintosh
+  archived: https://web.archive.org/web/20260807051250/https://hackaday.io/project/196403-macintosh-sao
+- file: assets/images/badges/supercon-2024/macintosh-sao/9358433240.jpg
+  source: https://hackaday.io/project/196403-macintosh-sao
+  credit: Aaron (aeiche)
+  caption: Close-up of the Macintosh SAO PCB showing the OLED screen and Apple logo LED
+  archived: https://web.archive.org/web/20260807051250/https://hackaday.io/project/196403-macintosh-sao
 contact: {}
 notes: []
 status: released
@@ -73,26 +77,30 @@ sources:
   title: Macintosh SAO
   accessed: '2026-09-06'
   note: Found via the project's link list; intake pass identified this item here.
+  archived: https://web.archive.org/web/20260807051250/https://hackaday.io/project/196403-macintosh-sao
 - kind: url
   url: https://hackaday.io/project/196403-macintosh-sao
   title: Macintosh SAO
   accessed: '2026-09-07'
   note: 'Maker''s own project log: confirms maker (Aaron/aeiche), Supercon 8 (2024) SAO contest, CH32V003 MCU, 64x48 SSD1306 OLED, EEPROM and LED/button parts, quantity built (~51 units, ~40 white/11 black), and I2C draw-command animation scheme.'
+  archived: https://web.archive.org/web/20260807051250/https://hackaday.io/project/196403-macintosh-sao
 - kind: url
   url: https://github.com/aaroneiche/macsao
   title: aaroneiche/macsao
   accessed: '2026-09-07'
-  note: 'README confirms it was built heading into Hackaday Supercon 2024 as a 40th-anniversary Macintosh tribute, and that the maker considers the code open to use ("in the spirit of open source"); repo contains firmware/ and hardware/ (KiCad) directories with no separate LICENSE file.'
+  note: README confirms it was built heading into Hackaday Supercon 2024 as a 40th-anniversary Macintosh tribute, and that the maker considers the code open to use ("in the spirit of open source"); repo contains firmware/ and hardware/ (KiCad) directories with no separate LICENSE file.
 - kind: url
   url: https://aeiche.com/macsao
   title: The Mac SAO
   accessed: '2026-09-07'
   note: Page could not be extracted beyond its title; no additional information obtained.
+  archived: https://web.archive.org/web/20260115085549/https://aeiche.com/macsao/
 research:
   status: verified
   confidence: high
   last_checked: '2026-09-07'
-  notes: 'Verification pass (2026-09-07): re-fetched hackaday.io/project/196403-macintosh-sao and github.com/aaroneiche/macsao and confirmed every non-empty field and body sentence against them, including details not spot-checked before: the 0.66" display size, the mouse-cursor/background-layer/animation-layer I2C scheme, the MacPaint/MacWrite drawing and typing logs, and the 1k LED resistor. The maker''s Hackaday project log also states the white/black split is a PCB solder-mask option (not an OLED-glass variant) and that the units are powered from the SAO header, but neither look.colors nor a tech.power/battery field was added since filling previously-empty fields is outside this verification pass''s scope. Could not confirm price (likely free/contest-distributed, not sold), exact SAO header pin count/version, or an explicit open-source license (the repo says the code is "open to use" but carries no LICENSE file, matching what the entry already says). aeiche.com/macsao still would not render beyond its page title. Both saved images were re-checked and clearly show the physical Macintosh SAO (front shells and populated PCB with maker signature), matching their captions.'
+  notes: 'Verification pass (2026-09-07): re-fetched hackaday.io/project/196403-macintosh-sao and github.com/aaroneiche/macsao and confirmed every non-empty field and body sentence against them, including details not spot-checked before: the 0.66" display size, the mouse-cursor/background-layer/animation-layer I2C scheme, the MacPaint/MacWrite drawing and typing logs, and the 1k LED resistor. The maker''s Hackaday project log also states the white/black split is a PCB solder-mask option (not an OLED-glass variant) and that the units are powered from the SAO header, but neither look.colors nor a tech.power/battery field was added since filling previously-empty fields is outside this verification pass''s scope. Could not confirm price (likely free/contest-distributed, not sold), exact SAO header pin count/version, or an explicit open-source license (the repo says the code is "open to use" but carries no LICENSE file, matching what the entry already says). aeiche.com/macsao still would not
+    render beyond its page title. Both saved images were re-checked and clearly show the physical Macintosh SAO (front shells and populated PCB with maker signature), matching their captions.'
 last_modified_date: '2026-09-07'
 ---
 
