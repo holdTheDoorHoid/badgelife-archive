@@ -12,7 +12,7 @@ makers:
 - name: greymanhw
   url: https://github.com/greymanhw
 summary: 'An analog LED-chaser SAO: a NE555 timer clocks a 4017 decade counter to light 10 LEDs in sequence, star-shaped, no microcontroller.'
-functions: 'Lights ten LEDs one at a time in a repeating chase pattern, driven purely by 555/4017 analog logic (no firmware).'
+functions: Lights ten LEDs one at a time in a repeating chase pattern, driven purely by 555/4017 analog logic (no firmware).
 look:
   colors: []
   shape: star
@@ -57,32 +57,29 @@ sources:
   url: https://raw.githubusercontent.com/greymanhw/gold-star/master/README.md
   title: 'greymanhw/gold-star: README.md'
   accessed: '2026-09-07'
-  note: 'README is just the project name, no other details.'
+  note: README is just the project name, no other details.
 - kind: url
   url: https://raw.githubusercontent.com/greymanhw/gold-star/master/gold-star.sch
   title: 'greymanhw/gold-star: gold-star.sch (KiCad schematic)'
   accessed: '2026-09-07'
-  note: 'Schematic shows NE555 + 4017 LED chaser driving 10 LEDs (D1-D10) through a Badgelife SAO v1.69bis 6-pin connector; confirms no MCU and the LED count/type.'
+  note: Schematic shows NE555 + 4017 LED chaser driving 10 LEDs (D1-D10) through a Badgelife SAO v1.69bis 6-pin connector; confirms no MCU and the LED count/type.
 - kind: url
   url: https://api.github.com/repos/greymanhw/gold-star/contents/
   title: 'greymanhw/gold-star: repository file listing'
   accessed: '2026-09-07'
-  note: 'gold-star.kicad_pcb is a 51-byte KiCad placeholder ("dummy file") with no actual board layout, so only the schematic and a star.svg graphic are real design content; no Gerbers or finished PCB exist in the repo.'
+  note: gold-star.kicad_pcb is a 51-byte KiCad placeholder ("dummy file") with no actual board layout, so only the schematic and a star.svg graphic are real design content; no Gerbers or finished PCB exist in the repo.
 research:
   status: verified
   confidence: low
   last_checked: '2026-09-07'
-  notes: >-
-    The repository (github.com/greymanhw/gold-star) contains a KiCad schematic and a
-    star.svg graphic but no completed PCB layout (the .kicad_pcb file is an empty
-    placeholder), and no README beyond the project title. No event, year, price,
-    quantity, availability, storefront listing, Hackaday post, or photo of a built unit
-    could be found anywhere online (web search and greymanhw.com, which was unreachable,
-    turned up nothing). It is unclear whether this SAO was ever fabricated or given out
-    at a specific convention, or remains an unfinished/unreleased design. The maker's
-    GitHub bio reads "#badgelife" and lists two other unrelated ESP32 project repos, but
-    none reference this add-on.
-last_modified_date: '2026-09-07'
+  notes: The repository (github.com/greymanhw/gold-star) contains a KiCad schematic and a star.svg graphic but no completed PCB layout (the .kicad_pcb file is an empty placeholder), and no README beyond the project title. No event, year, price, quantity, availability, storefront listing, Hackaday post, or photo of a built unit could be found anywhere online (web search and greymanhw.com, which was unreachable, turned up nothing). It is unclear whether this SAO was ever fabricated or given out at a specific convention, or remains an unfinished/unreleased design. The maker's GitHub bio reads "#badgelife" and lists two other unrelated ESP32 project repos, but none reference this add-on.
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/other/gold-star-shitty-add-on.glb
+  method: kicad
+  source_file: gold-star.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 2380
 ---
 
 The Gold Star Shitty Add-On is a badgelife-style SAO (Shitty Add-On) designed by GitHub user greymanhw. Its schematic shows a purely analog LED chaser: an NE555 timer generates a clock signal that drives a CD4017 decade counter, which lights ten discrete LEDs (D1 through D10) one after another in sequence. There is no microcontroller — the chasing effect comes entirely from the 555/4017 combination — and the board draws power from its host badge through a standard 6-pin Badgelife SAO v1.69bis connector. The board is shaped like a star, matching the "gold star" name, based on an included star.svg graphic in the repository.

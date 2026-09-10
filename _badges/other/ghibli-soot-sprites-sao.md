@@ -90,7 +90,13 @@ research:
   last_checked: '2026-09-07'
   notes: 'Fact-check pass (2026-09-07): re-fetched all cited sources (repo root, README table, the Ghibli/Soot Sprites folder and its nested soot/ subfolder and production/ subfolder, the soot.kicad_sch and soot.kicad_pcb source, and the Hackaday.io SAO page) and confirmed every remaining claim -- the README''s Eagle-only claim for this design conflicting with the actual KiCad files present, the schematic/PCB parts list (BT1 CR2032 holder, R1, J1 2x3 header, TP1-4, no LED, no MCU), the production/ subfolder holding netlist.ipc and soot.zip, and the Kompeito.scad candy shell with an LED socket cutout. No event, year, price, quantity, or availability is stated anywhere for this item, so event was left as "other" per the research guide. No photo of the assembled board was found; the repo only contains CAD/vector source files, so no images could be saved. tech.leds is left empty since the discrete-LED-in-3D-printed-shell setup is inferred from separate design files rather than stated directly
     by the maker.'
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/other/ghibli-soot-sprites-sao.glb
+  method: kicad
+  source_file: Ghibli/Soot Sprites/soot/soot.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 40488
 ---
 
 The Ghibli/Soot Sprites SAO is a small conference-badge add-on by the hardware designer davedarko (GitHub/Hackaday.io), modeled on the susuwatari — the round, black, dust-bunny-like soot sprites from Studio Ghibli films such as *Spirited Away* and *My Neighbor Totoro*. It lives in his "Simple-Add-ons-SAO" repository alongside more than a dozen other small SAO and pin designs he has given away over the years, built around the shared 2x3-pin (v1.69bis) SAO header he documents in that repo. No convention or year is stated for this particular design, so it reads as one of his general personal-gift boards rather than a badge made for a specific event.

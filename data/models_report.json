@@ -1576,5 +1576,301 @@
   "bytes": 47020,
   "tried": [],
   "src": "AddOnSpot.kicad_pcb"
+ },
+ "other-aramcon-hardware-badge-pcb-hardware-files": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 373740,
+  "tried": [],
+  "src": "pcbv2/badge2.kicad_pcb"
+ },
+ "other-area3001-hackerspace-logo-sao": {
+  "status": "ok",
+  "method": "gerber",
+  "bytes": 96616,
+  "tried": [],
+  "src": "AERA3001_L/SAO_Area3001_L_RING_00/OUTPUT/Gerber"
+ },
+ "other-attiny-816-1616-minibadge-devboard": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 171596,
+  "tried": [],
+  "src": "ATTiny Development Minibadge/ATTiny Development Minibadge.kicad_pcb"
+ },
+ "other-badge-owasp-latam-mexico-2020": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 203060,
+  "tried": [],
+  "src": "HW/Badge-OWASP-2020/Badge-OWASP-2020.kicad_pcb"
+ },
+ "other-badgelife-alexglow-saos-and-more": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 24944,
+  "tried": [],
+  "src": "SAOcube/SAO_MVP.kicad_pcb"
+ },
+ "other-badgy": {
+  "status": "ok",
+  "method": "gerber",
+  "bytes": 89656,
+  "tried": [],
+  "src": "hardware/CP2104_Adapter/GERBER.zip/GERBER"
+ },
+ "other-bcoin-2024": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 142956,
+  "tried": [],
+  "src": "BCoin2024.kicad_pcb"
+ },
+ "other-beepbadge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 284440,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "hackfest.brd"
+ },
+ "other-bike-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 125988,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "bikebadge.brd"
+ },
+ "other-blinkybracelet": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 141880,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "dc5032018banglet.brd"
+ },
+ "other-brainy-the-brain-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 85228,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "brain_badge.brd"
+ },
+ "other-brushless-motor-biz-card": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 427056,
+  "tried": [],
+  "src": "Electronics/BLDC_BIZ_CARD_V0.1 Design Files KiCAD 8/BLDC_BIZ_CARD.kicad_pcb"
+ },
+ "other-bugcon-2025-badge-add-on": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 146992,
+  "tried": [],
+  "src": "hardware/Add_On_Bugcon_2025/Add_On_Barrio_del_Hardware.kicad_pcb"
+ },
+ "other-bugcon-2025-linux-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 1120336,
+  "tried": [],
+  "src": "hardware/Badge_Bugcon_2025/Badge_Bugcon_2025.kicad_pcb"
+ },
+ "other-ctf-shitty-add-on": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 27808,
+  "tried": [],
+  "src": "pcb/tiny-sao.kicad_pcb"
+ },
+ "other-dabao-baochip-1x-dev-board": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 316552,
+  "tried": [],
+  "src": "dabao_v3c.kicad_pcb"
+ },
+ "other-dczia-yolobadge-ziacon-2": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 188520,
+  "tried": [],
+  "src": "Hardware/yolo-badge.kicad_pcb"
+ },
+ "other-defcon-sao-alexrojasx": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 89672,
+  "tried": [],
+  "src": "pirate.kicad_pcb"
+ },
+ "other-digitalrane-badgelife-ec0-s-sao-lsao-badge-addons": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 199344,
+  "tried": [],
+  "src": "OzSecCon2019/keyboard/keyboard.kicad_pcb"
+ },
+ "other-do-or-donut-sao": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 307524,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "donut.brd"
+ },
+ "other-dors-cluc-2025-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 1139792,
+  "tried": [],
+  "src": "hardware/dc2025_badge.kicad_pcb"
+ },
+ "other-dxhub25": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 63112,
+  "tried": [],
+  "src": "pcb/V2/dxhubV2.kicad_pcb"
+ },
+ "other-flux-capacitor-trinket-pin": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 46652,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "attiny45.brd"
+ },
+ "other-fuccs-shitty-addon-hw": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 60592,
+  "tried": [],
+  "src": "fuccs-shitty-addon.kicad/fuccs-shitty-addon.kicad_pcb"
+ },
+ "other-ghibli-soot-sprites-sao": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 40488,
+  "tried": [],
+  "src": "Ghibli/Soot Sprites/soot/soot.kicad_pcb"
+ },
+ "other-gold-star-shitty-add-on": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 2380,
+  "tried": [],
+  "src": "gold-star.kicad_pcb"
+ },
+ "other-guy-fawkes-vendetta-sao": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 17292,
+  "tried": [],
+  "src": "Guy Fawkes remembers Vendetta SAO/VendettaSAO/VendettaSAO.kicad_pcb"
+ },
+ "other-hackaday-blinky-led-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 38608,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "HackadayPin.brd"
+ },
+ "other-hacker-hotel-2023-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 739924,
+  "tried": [],
+  "src": "anesidoraMk1.kicad_pcb"
+ },
+ "other-hackgdl-2025-minino-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 300524,
+  "tried": [],
+  "src": "hardware/badge-hackgdl-2025.kicad_pcb"
+ },
+ "other-hadge-the-hackaday-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 116628,
+  "tried": [],
+  "src": "anool/hack.kicad_pcb"
+ },
+ "other-hello-my-name-is-pcb-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 277100,
+  "tried": [],
+  "src": "hello_my_name_is/hello_my_name_is.kicad_pcb"
+ },
+ "other-hhw-hackconrd2024": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 119772,
+  "tried": [],
+  "src": "HackConRD_Badge_Fab-main_unz/HackConRD_Badge_Fab-main/HackconRD_Badge.kicad_pcb"
+ },
+ "other-hillhacks-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 244300,
+  "tried": [],
+  "src": "badge1.kicad_pcb"
+ },
+ "other-jar-of-fireflies": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 99088,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "jar-of-fireflies.brd"
+ },
+ "other-joco-2018-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 324036,
+  "tried": [],
+  "src": "board/proto1/proto1.kicad_pcb"
+ },
+ "other-joco-2019-badge-joco-2019-unofficial-badge": {
+  "status": "ok",
+  "method": "gerber",
+  "bytes": 90428,
+  "tried": [],
+  "src": "hardware/Outputs"
+ },
+ "other-keyboard-addon-bb-q10-keyboard-shitty-add-on": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 219160,
+  "tried": [],
+  "src": "pcb/q10keyboard-addon.kicad_pcb"
+ },
+ "other-keyboard-ozseccon-2019-sao": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 199344,
+  "tried": [],
+  "src": "OzSecCon2019/keyboard/keyboard.kicad_pcb"
+ },
+ "other-knight-rider-kitt-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 76188,
+  "tried": [],
+  "src": "Knight Rider Badge/KiCad8/kitt_0805.kicad_pcb"
  }
 }

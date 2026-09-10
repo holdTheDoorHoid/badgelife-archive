@@ -46,11 +46,12 @@ links:
 - label: Cyber City Circuits
   url: https://cybercitycircuits.com/
   kind: website
+  archived: https://web.archive.org/web/20260606142506/https://cybercitycircuits.com/
 images:
 - file: assets/images/badges/bsides-augusta-2021/bsides-augusta-2021-sao-badge-kit/0ba3c5a483.jpg
-  source: "https://www.youtube.com/watch?v=QVvGxe_oDLA"
-  credit: "Cyber City Circuits"
-  caption: "Thumbnail from the tutorial video for the BSides Augusta 2021 SAO badge kit"
+  source: https://www.youtube.com/watch?v=QVvGxe_oDLA
+  credit: Cyber City Circuits
+  caption: Thumbnail from the tutorial video for the BSides Augusta 2021 SAO badge kit
 contact: {}
 notes:
 - Tutorial video for an SAO badge kit distributed to BSides Augusta 2021 attendees. Found by the event-year sweep, task bsides-augusta.
@@ -66,22 +67,23 @@ sources:
   url: https://www.youtube.com/watch?v=QVvGxe_oDLA
   title: BSides Augusta SAO Badge Kit Tutorial
   accessed: '2026-09-10'
-  note: 'Video title and description (via oEmbed and page source) confirm maker (Cyber City Circuits) and event/year (BSides Augusta 2021); no further tech or availability details are given.'
+  note: Video title and description (via oEmbed and page source) confirm maker (Cyber City Circuits) and event/year (BSides Augusta 2021); no further tech or availability details are given.
 - kind: url
   url: https://cybercitycircuits.com/
   title: Cyber City Circuits
   accessed: '2026-09-10'
-  note: 'Maker''s own site; general PCB assembly/prototyping business, no dedicated page found for this specific SAO kit.'
+  note: Maker's own site; general PCB assembly/prototyping business, no dedicated page found for this specific SAO kit.
+  archived: https://web.archive.org/web/20260606142506/https://cybercitycircuits.com/
 - kind: url
   url: https://badge.gallery/credits/cyber-city-circuits
-  title: 'Cyber City Circuits · Hacker Con Badges - badge.gallery'
+  title: Cyber City Circuits · Hacker Con Badges - badge.gallery
   accessed: '2026-09-10'
-  note: 'Confirms Cyber City Circuits assembled Kernelcon badges (2023, 2024, 2025) and the SEC Youth Challenge 2023 Flux Decoder badge; no DEF CON badge credit found, so a fact-check pass on 2026-09-10 removed an unsupported "DEF CON" mention from the body text.'
+  note: Confirms Cyber City Circuits assembled Kernelcon badges (2023, 2024, 2025) and the SEC Youth Challenge 2023 Flux Decoder badge; no DEF CON badge credit found, so a fact-check pass on 2026-09-10 removed an unsupported "DEF CON" mention from the body text.
 - kind: url
   url: https://github.com/CyberCityCircuits/BSides_Augusta_2019_Badge
-  title: 'CyberCityCircuits/BSides_Augusta_2019_Badge - GitHub'
+  title: CyberCityCircuits/BSides_Augusta_2019_Badge - GitHub
   accessed: '2026-09-10'
-  note: 'Confirms Cyber City Circuits also produced the earlier BSides Augusta 2019 badge, as stated in the body text.'
+  note: Confirms Cyber City Circuits also produced the earlier BSides Augusta 2019 badge, as stated in the body text.
 research:
   status: verified
   confidence: low

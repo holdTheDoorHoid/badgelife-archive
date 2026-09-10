@@ -41,7 +41,7 @@ make_your_own:
   hardware_url: https://github.com/baochip/dabao
   firmware_url: https://github.com/baochip/baochip-1x
   eda_tool: KiCad
-  notes: 'The Dabao board files and the Xous OS are fully open source. The Baochip-1x SoC RTL is "mostly open" (per the maker) rather than fully open; the bootloader and OS are open source and reproducible.'
+  notes: The Dabao board files and the Xous OS are fully open source. The Baochip-1x SoC RTL is "mostly open" (per the maker) rather than fully open; the bootloader and OS are open source and reproducible.
 links:
 - label: www.hackster.io/news/andrew-bunnie-huang-prepares-the-dabao-a-dev-board-for-baochip-s-mostly-open-x1-risc-v-mcu-1b7cad7fa2ea
   url: https://www.hackster.io/news/andrew-bunnie-huang-prepares-the-dabao-a-dev-board-for-baochip-s-mostly-open-x1-risc-v-mcu-1b7cad7fa2ea
@@ -59,14 +59,14 @@ links:
   url: https://www.bunniestudios.com/blog/2026/baochip-1x-a-mostly-open-22nm-soc-for-high-assurance-applications/
   kind: article
 images:
-  - file: assets/images/badges/other/dabao-baochip-1x-dev-board/c238b37d38.jpg
-    source: "https://www.crowdsupply.com/baochip/dabao"
-    credit: "Baochip / Crowd Supply"
-    caption: "Dabao evaluation board for the Baochip-1x RISC-V microcontroller"
+- file: assets/images/badges/other/dabao-baochip-1x-dev-board/c238b37d38.jpg
+  source: https://www.crowdsupply.com/baochip/dabao
+  credit: Baochip / Crowd Supply
+  caption: Dabao evaluation board for the Baochip-1x RISC-V microcontroller
 contact: {}
 notes:
 - Spotted by a research agent while working on a neighbouring entry (run 2).
-- 'Not made for, or tied to, a specific hacker convention. It is a commercial/crowdfunded product from Baochip (Andrew "bunnie" Huang''s company, based in Singapore); a talk on the accompanying Xous OS was given at 39C3 (Chaos Communication Congress, Dec 2025/Jan 2026), but that con has no entry in events.yml and the board itself was not distributed there. Left under "other".'
+- Not made for, or tied to, a specific hacker convention. It is a commercial/crowdfunded product from Baochip (Andrew "bunnie" Huang's company, based in Singapore); a talk on the accompanying Xous OS was given at 39C3 (Chaos Communication Congress, Dec 2025/Jan 2026), but that con has no entry in events.yml and the board itself was not distributed there. Left under "other".
 status: released
 sources:
 - kind: url
@@ -88,8 +88,14 @@ research:
   status: researched
   confidence: high
   last_checked: '2026-09-07'
-  notes: 'No LED count, no distinct "shape" beyond a rectangular PCB, and no battery spec are given by any source — left null/empty. Quantity of units made is not stated (campaign mentions up to ~3,500 boards possible across two wafer batches, but that is a production ceiling, not a confirmed run size, so quantity was left blank). Availability is listed sold_out/paused because Crowd Supply states orders are paused pending the next production run as of the September 2026 check; it may reopen.'
-last_modified_date: '2026-09-07'
+  notes: No LED count, no distinct "shape" beyond a rectangular PCB, and no battery spec are given by any source — left null/empty. Quantity of units made is not stated (campaign mentions up to ~3,500 boards possible across two wafer batches, but that is a production ceiling, not a confirmed run size, so quantity was left blank). Availability is listed sold_out/paused because Crowd Supply states orders are paused pending the next production run as of the September 2026 check; it may reopen.
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/other/dabao-baochip-1x-dev-board.glb
+  method: kicad
+  source_file: dabao_v3c.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 316552
 ---
 
 The Dabao is a low-cost evaluation board built around the Baochip-1x, a "mostly-open" RISC-V system-on-chip designed by Andrew "bunnie" Huang's company Baochip. Rather than being made for a specific hacker convention, it's a commercial hardware-security product: the Baochip-1x pairs a 350 MHz Vexriscv main CPU with a quad-core 700 MHz "BIO" I/O coprocessor, on-chip cryptographic accelerators, key stores, and physical attack countermeasures, and ships in a package designed to support IRIS (Infra-Red, In-situ) optical inspection of the actual transistors, so owners can visually verify the silicon rather than trusting it blindly. The board itself is a cost-optimized two-layer PCB exposing 20 I/O pins and a USB-C connector, running a Rust-based operating system called Xous.

@@ -104,7 +104,13 @@ research:
   confidence: high
   last_checked: '2026-09-07'
   notes: This is a personal/community project rather than a badge made for a specific convention, so it has no matching id in events.yml and stays under "other" (its maker made and sold it independently via Tindie/PCBWay/Hackaday, not tied to one con). Exact quantity made and a Gerbers direct link were not stated on any source checked; left empty. PCBWay page mentions an 11-vote community rating (9.27/10), not otherwise recorded in the schema.
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/other/brainy-the-brain-badge.glb
+  method: kicad
+  source_file: brain_badge.brd
+  generated: '2026-09-10'
+  bytes: 85228
 ---
 
 Brainy is a brain-shaped PCB pin badge designed by Danny Fernandez Raygoza (2BRobots) in April 2020, shortly after surgery to treat hydrocephalus caused by a tumor on his tectal plate. Rather than risk removing the tumor, doctors implanted a ventriculoperitoneal shunt; Danny designed the badge as a thank-you to the people who helped him through recovery, and later began selling it to help cover ongoing medical costs. The board is shaped like a brain with a cartoon face and a band-aid, and its outline was traced from a vector drawing using Inkscape and the svgtoeagle tool before being laid out in Eagle CAD.

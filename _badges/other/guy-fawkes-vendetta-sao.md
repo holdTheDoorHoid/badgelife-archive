@@ -33,7 +33,7 @@ get_one:
   distribution: []
   where: ''
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/davedarko/Simple-Add-ons-SAO/tree/main/Guy%20Fawkes%20remembers%20Vendetta%20SAO
   firmware_url: null
   eda_tool: KiCad
@@ -63,13 +63,19 @@ sources:
   url: https://raw.githubusercontent.com/davedarko/Simple-Add-ons-SAO/main/README.md
   title: davedarko/Simple-Add-ons-SAO — repo README table of designs
   accessed: '2026-09-07'
-  note: 'Listed as "Vendetta badge" / SAO / KiCad in the repo''s design table, with the same EEPROM description; no event, year, price, or Hackaday.io link is given (unlike several sibling designs in the same table that do link to Hackaday.io projects), and no photo of an assembled unit was found.'
+  note: Listed as "Vendetta badge" / SAO / KiCad in the repo's design table, with the same EEPROM description; no event, year, price, or Hackaday.io link is given (unlike several sibling designs in the same table that do link to Hackaday.io projects), and no photo of an assembled unit was found.
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'No event, year, price, quantity, or availability information found anywhere in the repo or its commit history; this appears to be a personal/gift SAO design from maker davedarko (part of a large personal collection of SAOs in the same repo) rather than one tied to a specific convention. No photo of an assembled board was found -- only KiCad source files, gerbers, and a silkscreen-artwork SVG (the mask outline used for the front silkscreen), none of which is a photo of the physical item, so no image was saved. Event left as "other" since no con/year is named in any source.'
-last_modified_date: '2026-09-07'
+  notes: No event, year, price, quantity, or availability information found anywhere in the repo or its commit history; this appears to be a personal/gift SAO design from maker davedarko (part of a large personal collection of SAOs in the same repo) rather than one tied to a specific convention. No photo of an assembled board was found -- only KiCad source files, gerbers, and a silkscreen-artwork SVG (the mask outline used for the front silkscreen), none of which is a photo of the physical item, so no image was saved. Event left as "other" since no con/year is named in any source.
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/other/guy-fawkes-vendetta-sao.glb
+  method: kicad
+  source_file: Guy Fawkes remembers Vendetta SAO/VendettaSAO/VendettaSAO.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 17292
 ---
 
 Guy Fawkes remembers Vendetta SAO is one of many personal Simple Add-On (SAO) designs published by maker davedarko in their `Simple-Add-ons-SAO` GitHub repository, which collects the maker's badge and SAO projects going back several years. The board carries a Guy Fawkes / V for Vendetta mask motif and, per the maker's own readme, is built around an I2C EEPROM rather than a microcontroller: "Remember, remember the 5th of November! Or anything else: because this SAO features an I2C EEPROM for things to remember" -- letting the owner store an arbitrary short message or reminder on the badge itself.

@@ -110,7 +110,13 @@ research:
   confidence: high
   last_checked: '2026-09-07'
   notes: 'Core facts (maker, functions, chip, NFC chip, quantity, sold-out status, open-source repo) confirmed by the maker''s own hyperglitch.com writeup and the DORS/CLUC event page, matching the Hackaday summary. Not found/left empty: price, exact LED count, battery/power detail, EDA tool used, SAO header (this is a standalone badge, no SAO port mentioned). DORS/CLUC has no event id in _data/events.yml yet; recommend adding one (e.g. dors-cluc-2025) rather than leaving this filed under "other".'
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/other/dors-cluc-2025-badge.glb
+  method: kicad
+  source_file: hardware/dc2025_badge.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 1139792
 ---
 
 The DORS/CLUC 2025 badge is the official electronic badge for DORS/CLUC, a long-running open-source and information-security conference held in Zagreb, Croatia (this was its 30th edition). It was designed by Igor Brkić of Hyperglitch, a Zagreb-based hardware/software shop that has produced the conference's badge for multiple years running. The badge centers on a simulated six-character 9-segment display built from charlieplexed LEDs behind a dark acrylic diffuser for a retro look, driven by an IS31FL3731 LED driver, plus a separate logo-shaped LED matrix. An ST25R3916 NFC reader/writer and two buttons round out the input/output, all run by an STM32L073 (the design started on a smaller STM32L053 before memory constraints forced an upgrade).

@@ -91,7 +91,13 @@ research:
   confidence: medium
   last_checked: '2026-09-07'
   notes: No dedicated event entry exists for ZiaCon in _data/events.yml, so event is left as "other"; the con is DCZia's own ZiaCon 2 (Albuquerque, NM, 2021). Price, quantity made, and distribution/availability are not stated anywhere found (this reads as a one-off live-build demo rather than a badge produced in quantity for distribution) and are left empty. No maker photo shows the badge worn or lit up; the two saved images are a CAD-style front render and a bare assembled-board photo from the repo.
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/other/dczia-yolobadge-ziacon-2.glb
+  method: kicad
+  source_file: Hardware/yolo-badge.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 188520
 ---
 
 DCZia's yolobadge began as a stunt: during a talk at ZiaCon 2 in April 2021, the group designed and built a complete electronic badge live on stage in about four hours. Badge layout came from hamster, with design input from jediguybob, lithochasm, and DCZia, artwork from LunaSylumDancer, and the framing challenge from Syntax. ZiaCon is DCZia's own convention, run by the Albuquerque, New Mexico badge-making community rather than by DEF CON, though it took place the same year as DEF CON 29's hybrid/remote edition.

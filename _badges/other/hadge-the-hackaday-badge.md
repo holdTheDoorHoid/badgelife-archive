@@ -91,7 +91,13 @@ research:
   confidence: medium
   last_checked: '2026-09-07'
   notes: Core facts (maker, MCU, display, LEDs, battery, $35 BOM target, KiCad hardware files) confirmed on the maker's own Hackaday.io project page and a Hackaday.com "Developed on Hackaday" article. Could not find a firmware repo URL, a final production quantity, actual distribution event(s)/dates, or confirmation the badge was ever finished and handed out versus remaining a community design project (sources describe it as still in development as of late 2015). look.colors and look.shape left empty since no clear photo of a finished physical unit with colors was found beyond the project render. Price is a target BOM cost, not a retail/sale price, so get_one.price left blank and price_usd holds the $35 figure with that caveat in mind.
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/other/hadge-the-hackaday-badge.glb
+  method: kicad
+  source_file: anool/hack.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 116628
 ---
 
 HaDge was a community-built electronic badge project run through Hackaday.io's "Developed on Hackaday" series, coordinated by Anool Mahidharia with Michele Perla leading hardware design, and built out by a roughly 51-person volunteer team that included Hackaday staff like Mike Szczys and Benchoff. The idea was to give the Hackaday.io community itself a badge: a 2.4" color TFT display, WS2812B RGB LEDs, capacitive touch buttons, IR transmit/receive, and a small speaker, built around an Atmel SAM D21 (later revisions moved toward the radio-integrated SAM R21). Badges were meant to form a "Sub-Etha" mesh network so wearers at the same event could exchange messages with each other, with a stretch goal of bridging that mesh to the wider internet.

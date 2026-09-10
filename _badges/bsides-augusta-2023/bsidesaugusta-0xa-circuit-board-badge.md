@@ -11,8 +11,8 @@ year: 2023
 makers:
 - name: BSidesAugusta
   url: https://bsidesaugusta.org/
-summary: 'A "badgelife"-style printed circuit board badge given out at BSidesAugusta 0xA (the conference''s 10th edition), held Saturday, October 7, 2023.'
-functions: 'The back of the badge links to a set of challenges and includes hashes attendees are meant to crack.'
+summary: A "badgelife"-style printed circuit board badge given out at BSidesAugusta 0xA (the conference's 10th edition), held Saturday, October 7, 2023.
+functions: The back of the badge links to a set of challenges and includes hashes attendees are meant to crack.
 look:
   colors: []
   shape: null
@@ -32,7 +32,7 @@ get_one:
   quantity: ''
   availability: unknown
   distribution: []
-  where: 'Distributed on-site, one day only, at BSidesAugusta 0xA (Oct 7, 2023) in Augusta, GA.'
+  where: Distributed on-site, one day only, at BSidesAugusta 0xA (Oct 7, 2023) in Augusta, GA.
 make_your_own:
   open_source: null
   hardware_url: null
@@ -48,16 +48,17 @@ links:
 - url: https://bsidesaugusta.org/
   kind: website
   label: BSidesAugusta official site
+  archived: https://web.archive.org/web/20260622074144/https://bsidesaugusta.org/
 images:
 - file: assets/images/badges/bsides-augusta-2023/bsidesaugusta-0xa-circuit-board-badge/7262ace832.jpg
-  source: "https://www.facebook.com/BSidesAugusta/videos/this-saturday-for-one-day-only-exclusively-available-at-bsidesaugusta0xathe-high/1564107721098959/"
-  credit: "BSidesAugusta"
-  caption: "Event-branded end card from the video teaser announcing the badge's return (does not show the badge itself)"
+  source: https://www.facebook.com/BSidesAugusta/videos/this-saturday-for-one-day-only-exclusively-available-at-bsidesaugusta0xathe-high/1564107721098959/
+  credit: BSidesAugusta
+  caption: Event-branded end card from the video teaser announcing the badge's return (does not show the badge itself)
 contact: {}
 notes:
 - 'The sweep''s source line ("seen only in a search snippet; unconfirmed") is resolved: the LinkedIn post and a matching Facebook teaser video both confirm the announcement exists and describe a real badge, not just a snippet.'
-- 'No chip, LED, display, price, or quantity details were published anywhere found; the maker''s teasers describe only that the badge is PCB-based and has a hash-cracking challenge on the back.'
-- 'The one saved image is the video''s closing title card (event branding, social handles) rather than a photo of the badge itself; no photo of the physical badge was found in this pass.'
+- No chip, LED, display, price, or quantity details were published anywhere found; the maker's teasers describe only that the badge is PCB-based and has a hash-cracking challenge on the back.
+- The one saved image is the video's closing title card (event branding, social handles) rather than a photo of the badge itself; no photo of the physical badge was found in this pass.
 status: listed
 sources:
 - kind: url
@@ -67,14 +68,15 @@ sources:
   note: 'Found by the archive''s discovery sweep (angle: sweep:bsides-augusta); event read as ''BSides Augusta 2023 (0xA)''.'
 - kind: url
   url: https://www.facebook.com/BSidesAugusta/videos/this-saturday-for-one-day-only-exclusively-available-at-bsidesaugusta0xathe-high/1564107721098959/
-  title: 'BSidesAugusta Facebook teaser video for the 0xA badge'
+  title: BSidesAugusta Facebook teaser video for the 0xA badge
   accessed: '2026-09-10'
-  note: 'Corroborates the LinkedIn post; confirms Oct 7, 2023 event date and one-day-only distribution; source of the saved image.'
+  note: Corroborates the LinkedIn post; confirms Oct 7, 2023 event date and one-day-only distribution; source of the saved image.
 - kind: url
   url: https://bsidesaugusta.org/
-  title: 'BSidesAugusta official site'
+  title: BSidesAugusta official site
   accessed: '2026-09-10'
-  note: 'Confirms BSidesAugusta as the organizing entity; no badge-specific detail on the current site.'
+  note: Confirms BSidesAugusta as the organizing entity; no badge-specific detail on the current site.
+  archived: https://web.archive.org/web/20260622074144/https://bsidesaugusta.org/
 research:
   status: verified
   confidence: low

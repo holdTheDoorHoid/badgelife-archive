@@ -78,7 +78,13 @@ research:
   confidence: medium
   last_checked: '2026-09-07'
   notes: Made by Tavish Naruka for HillHacks, a hacker/maker gathering held in the Himalayas (India) in 2016 - no matching event id exists in events.yml, so this stays filed under "other". No price, production quantity, or LED count found on either the Hackaday.io project or the GitHub repo. Naruka also gave a "Making a PCB Badge" talk at the HillHacks pre-event (30 April 2016) covering this design.
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/other/hillhacks-badge.glb
+  method: kicad
+  source_file: badge1.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 244300
 ---
 
 Tavish Naruka designed this badge for HillHacks 2016, a small hacker gathering held in the Himalayas in India. The goal, as described on the project's Hackaday.io page, was something simple and cheap to build with no extra programmer hardware required, and possibly assemblable by the wearer. At its core is an ATtiny85, which can be flashed with a Trinket or Micronucleus bootloader to become USB-programmable, or run V-USB code so the badge presents itself as a custom USB device such as a keyboard or mouse. The board carries a single status LED, a pushbutton, and a small prototyping area for further hacking.

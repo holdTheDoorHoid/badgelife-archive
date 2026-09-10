@@ -114,9 +114,15 @@ research:
   confidence: medium
   last_checked: '2026-09-07'
   notes: No specific convention or event is named by the maker anywhere found (Hackaday.io project or GitHub repo); this appears to be a personal badgelife-community project rather than a con-specific release, so event is left as "other". No price, quantity sold, or availability info found — it reads as a small hobbyist test run (5 white boards from JLCPCB) rather than a commercial product. No MCU is present; the IS31FL3731 is an LED driver, not a microcontroller, and it would be driven by whichever host badge it's plugged into. Hardware files (schematic, board, Gerbers) are published on GitHub; no firmware/software repo was found, so open_source is marked partial rather than yes. Merged with duplicate entry 'Do or Donut SAO' (other-do-or-donut-sao-2).
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-10'
 redirect_from:
 - /badges/other/do-or-donut-sao-2/
+model:
+  file: assets/models/other/do-or-donut-sao.glb
+  method: kicad
+  source_file: donut.brd
+  generated: '2026-09-10'
+  bytes: 307524
 ---
 
 Do or Donut is a donut-shaped Simple Add-On (SAO) by hobbyist maker davedarko, created in November 2019. Its ring is covered edge-to-edge with tiny 0603 surface-mount LEDs — around 800 were ordered across red, yellow, orange, green, blue, white, pink, and purple — wired as an 8x18 matrix and driven by an IS31FL3731 LED matrix controller, the same driver chip used in many badgelife blinky designs. The layout scatters the LEDs like sprinkles across the donut shape rather than in a clean grid, which was part of the design challenge documented in the project's build logs.

@@ -100,7 +100,13 @@ research:
   confidence: medium
   last_checked: '2026-09-07'
   notes: No source ties this specific badge to a named conference or a distribution price/quantity - it reads as a general-purpose learn-to-solder kit sold/given out by Hackaday, created 09/19/2018, rather than a con-specific badge, so event was left as "other". Its circuit is a rebadged, Hackaday-themed version of the 2017 Tindie Blinky LED Badge (made for DEF CON 25). Hardware design files (Eagle schematic, board, BOM, Gerbers) are published in the linked GitHub repo; no firmware exists since the LEDs are self-blinking with no MCU.
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/other/hackaday-blinky-led-badge.glb
+  method: kicad
+  source_file: HackadayPin.brd
+  generated: '2026-09-10'
+  bytes: 38608
 ---
 
 The Hackaday Blinky LED Badge is a learn-to-solder kit in the shape of Hackaday's Jolly Wrencher skull-and-wrenches logo, published by Brian Benchoff (with contributor "Lutetium") on Hackaday.io on September 19, 2018. It reuses the circuit from the 2017 Tindie Blinky LED Badge - itself rushed together by Benchoff, Jasmine Brackett, and Brandon Rexius in about two weeks for DEF CON 25 - but redraws the board artwork around Hackaday's own mascot instead of Tindie's head logo.

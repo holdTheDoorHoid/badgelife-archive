@@ -88,7 +88,16 @@ research:
   confidence: medium
   last_checked: '2026-09-07'
   notes: Fact-check pass (2026-09-07) re-fetched the Hackaday.io project page, the GitHub repo README, and the linked YouTube video; every non-empty field and factual sentence in the body is supported by these sources. This is a one-off/small-batch board made by Area 3001 (a hackerspace in Leuven, Belgium) for its own use, not a badge produced for a specific convention, so no events.yml entry matches it and event is left as "other". No price, quantity, or MCU/chip is mentioned anywhere in the project page, repo, or README; the board is passive (LEDs only, driven by the host badge's SAO header) with no onboard microcontroller. Design files (KiCad/Gerber-style folders "AERA3001_L" and "AREA3001_S") are on GitHub but the README does not state a license or EDA tool, so open_source is marked partial rather than yes. tech.battery ("powered by host badge") is an inference from the board being a passive SAO with no onboard power source, not an explicit quote from a source.
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/other/area3001-hackerspace-logo-sao.glb
+  method: gerber
+  source_file: AERA3001_L/SAO_Area3001_L_RING_00/OUTPUT/Gerber
+  generated: '2026-09-10'
+  bytes: 96616
+  size_mm:
+  - 420.0
+  - 297.0
 ---
 
 Area 3001, a hackerspace in Leuven, Belgium, built this SAO (Shitty Add-On, v1.69bis header) as a lit-up version of its own hackerspace logo. Instead of a microcontroller and firmware, the effect comes entirely from the physical stack-up: several thin FR-4 PCB layers are stacked on top of a set of WS2812B addressable RGB LEDs, with copper fill and solder-mask openings on the layers acting as a light mask and light pipe so the logo shape glows in color while the rest of the board stays dark.

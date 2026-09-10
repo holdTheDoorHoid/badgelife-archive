@@ -90,9 +90,15 @@ research:
   last_checked: '2026-09-07'
   notes: 'Fact-check pass (2026-09-07): re-fetched all three cited sources (repo root, raw README.md, hardware directory listing) and confirmed every non-empty field and body sentence against them -- MCU, LED count/type/part number (LYT776), resistor values, battery, capacitive-touch design, Sparkfun TinyAVR programmer, CapacitiveSensor library, Eagle .sch/.brd/.lbr files, gerbers folder contents, software/ sketch folder, BOM cost ($2-5), and event/year (503 party fund, 2015). One clarification made: the body originally said the trick produces a "16-LED" effect; the README actually says the design was spec''d for 16 LEDs but the final board uses 14 (matching tech.leds.count) -- reworded to state both numbers so it does not read as contradicting the LED count. The badge was made for "the 503 party fund" (503.party) in 2015, a donor/party fundraiser rather than a specific hacker convention, so it does not map to any id in events.yml; left under "other". No photos of the physical badge exist
     in the repo (confirmed again), so images[] stays empty and look.shape stays null. Price, quantity made, and current availability are not stated anywhere in the sources; it reads as a one-time giveaway to donors rather than a sold item. Merged with duplicate entry ''503 Party Bike Badge'' (dc23-dc503-badge).'
-last_modified_date: '2026-09-08'
+last_modified_date: '2026-09-10'
 redirect_from:
 - /badges/dc23/dc503-badge/
+model:
+  file: assets/models/other/bike-badge.glb
+  method: kicad
+  source_file: bikebadge.brd
+  generated: '2026-09-10'
+  bytes: 125988
 ---
 
 The Bike Badge is a 2015 electronic badge by securelyfitz, made as a thank-you for donors to "the 503 party fund" (503.party). It is built around a bare ATtiny85 microcontroller and 14 yellow OSRAM reverse-gullwing surface-mount LEDs arranged in two bicycle-wheel patterns, powered by a single CR2032 coin cell. Rather than a display or radio, its interactivity comes from two capacitive touch zones standing in for a bike's handlebars and pedals: touching the "pedals" speeds up an animated spinning-wheel LED effect, while touching the "handlebars" (braking) slows it down.

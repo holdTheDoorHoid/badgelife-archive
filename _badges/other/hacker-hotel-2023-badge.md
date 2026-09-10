@@ -107,7 +107,13 @@ research:
   confidence: medium
   last_checked: '2026-09-07'
   notes: Sources agree on maker team, RP2040/CR2032, MicroPython firmware, and free distribution to attendees. LED count/type, exact price (was free), and quantity made are not stated in any source found, so those fields are left empty. The badge is internally named "Anesidora Mk1" per badge.team; kept the sheet title as the entry title per guide.
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/other/hacker-hotel-2023-badge.glb
+  method: kicad
+  source_file: anesidoraMk1.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 739924
 ---
 
 The Hacker Hotel 2023 badge (internally "Anesidora Mk1") was built by a team of three — Pim (hardware and software lead), Sake (puzzle/challenge design), and artist Nikolett S. — for Hackerhotel 2023, a Dutch hacker camp held at a hotel venue in February 2023. It runs on an RP2040 and is powered by either a CR2032 coin cell or USB-C, with firmware written in MicroPython and distributed as .uf2 files that flash over the RP2040's stock USB bootloader.

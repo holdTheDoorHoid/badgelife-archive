@@ -97,7 +97,16 @@ research:
   confidence: high
   last_checked: '2026-09-07'
   notes: Badgy was not made for a specific hacker convention; it was submitted to Hackaday's "Coin Cell Challenge" contest (a Hackaday.io online competition, not a physical con) on 2017-12-28, then sold as a general-purpose IoT name badge on Tindie. No matching event exists in events.yml, so event is left as "other". LED count/type not stated by any source (device has no addressable LEDs, only the e-paper display). Quantity made not stated.
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/other/badgy.glb
+  method: gerber
+  source_file: hardware/CP2104_Adapter/GERBER.zip/GERBER
+  generated: '2026-09-10'
+  bytes: 89656
+  size_mm:
+  - 25.0
+  - 26.4
 ---
 
 Badgy is an open-hardware electronic name badge built around an ESP8266 (ESP-12E) module and a 2.9" e-paper display, created by w4ilun (Tindie store squarofumi) and first shown on Hackaday.io in December 2017 as an entry to Hackaday's Coin Cell Challenge. Rather than being made for a specific hacker convention, it was designed as a general-purpose, rechargeable e-paper "smart badge": it runs on a rechargeable LIR2450 coin cell charged over USB, uses a 5-way tactile switch for input, and connects to WiFi for OTA firmware updates, IFTTT integration, and a browser-based WYSIWYG designer for laying out the badge's screen content.

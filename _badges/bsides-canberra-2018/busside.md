@@ -42,24 +42,26 @@ get_one:
   - free_drop
   where: Given to attendees of BSides Canberra 2018.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/BSidesCbr/BUSSide
   firmware_url: https://github.com/BSidesCbr/BUSSide/tree/master/FirmwareImages
   eda_tool: null
   license: GPLv3
-  notes: 'Firmware sketches (BUSSide.ino, plus UART/SPI/I2C/JTAG modules) are Arduino-based; flash with esptool from the provided FirmwareImages. Client software is Python-based. A user manual (BUSSideManual.pdf) is included in the repo.'
+  notes: Firmware sketches (BUSSide.ino, plus UART/SPI/I2C/JTAG modules) are Arduino-based; flash with esptool from the provided FirmwareImages. Client software is Python-based. A user manual (BUSSideManual.pdf) is included in the repo.
 links:
 - label: github.com/BSidesCbr/BUSSide
   url: https://github.com/BSidesCbr/BUSSide
   kind: repo
+  archived: https://web.archive.org/web/20251218111143/https://github.com/BSidesCbr/BUSSide
 - label: busside.com.au
   url: http://busside.com.au
   kind: website
+  archived: https://web.archive.org/web/20251122125649/http://busside.com.au/
 images: []
 contact: {}
 notes:
 - Electronic badge issued to 2,000 BSides Canberra 2018 delegates, doubling as a hardware-hacking tool interfacing I2C/SPI/UART, with public source and GitHub Pages documentation. Found by the event-year sweep, task bsides-canberra.
-- 'Sweep title/wording matched the maker''s own name for the badge ("BUSSide"); no change needed.'
+- Sweep title/wording matched the maker's own name for the badge ("BUSSide"); no change needed.
 status: released
 sources:
 - kind: url
@@ -67,26 +69,28 @@ sources:
   title: BUSSide
   accessed: '2026-09-07'
   note: 'Found by the archive''s discovery sweep (angle: sweep:bsides-canberra); event read as ''BSides Canberra 2018''.'
+  archived: https://web.archive.org/web/20251218111143/https://github.com/BSidesCbr/BUSSide
 - kind: url
   url: http://busside.com.au
   title: The BUSSide Badge
   accessed: '2026-09-10'
-  note: 'Official project site (resolved via cached IP, DNS for busside.com.au no longer live); confirms it is "The BSides Canberra 2018 Electronic Badge", made by InfoSect/Silvio Cesare, and its UART/SPI/I2C/JTAG functions.'
+  note: Official project site (resolved via cached IP, DNS for busside.com.au no longer live); confirms it is "The BSides Canberra 2018 Electronic Badge", made by InfoSect/Silvio Cesare, and its UART/SPI/I2C/JTAG functions.
+  archived: https://web.archive.org/web/20251122125649/http://busside.com.au/
 - kind: url
   url: https://github.com/BSidesCbr/BUSSide/blob/master/README
   title: BUSSide README
   accessed: '2026-09-10'
-  note: 'Confirms GPLv3 license, repo contents (firmware sketches, FirmwareImages, Client, manual PDF), and esptool-based flashing.'
+  note: Confirms GPLv3 license, repo contents (firmware sketches, FirmwareImages, Client, manual PDF), and esptool-based flashing.
 - kind: url
   url: https://en.wikipedia.org/wiki/Silvio_Cesare
   title: Silvio Cesare - Wikipedia
   accessed: '2026-09-10'
-  note: 'Background confirmation that Silvio Cesare (InfoSect) is a real security researcher associated with BSides Canberra.'
+  note: Background confirmation that Silvio Cesare (InfoSect) is a real security researcher associated with BSides Canberra.
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-10'
-  notes: 'Confirmed by the maker''s own project site (busside.com.au, reached via a cached IP since the domain no longer resolves in DNS) and the GitHub repo/README. Could not find a photo of the physical badge/PCB in the repo, the manual''s cover, or the project site (only InfoSect team headshots and logos were found there) - images left empty. Exact MCU part number, LED count, display, battery, price as distributed (it was a free con badge), and quantity-made corroboration beyond the sweep''s "2,000 delegates" figure were not stated by any source read. PCB colors/shape not documented anywhere found.'
+  notes: Confirmed by the maker's own project site (busside.com.au, reached via a cached IP since the domain no longer resolves in DNS) and the GitHub repo/README. Could not find a photo of the physical badge/PCB in the repo, the manual's cover, or the project site (only InfoSect team headshots and logos were found there) - images left empty. Exact MCU part number, LED count, display, battery, price as distributed (it was a free con badge), and quantity-made corroboration beyond the sweep's "2,000 delegates" figure were not stated by any source read. PCB colors/shape not documented anywhere found.
 last_modified_date: '2026-09-10'
 ---
 

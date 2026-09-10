@@ -106,7 +106,13 @@ research:
   confidence: medium
   last_checked: '2026-09-07'
   notes: No hacker-conference tie-in found; this is a general maker product (Tindie/Hackaday.io/GitHub) rather than a badge made for a specific con, and its Tindie description credits early popularity to MakerFaire Zurich, which is not in events.yml. Exact price and total quantity made were not stated on any source checked, so those fields are left empty. Event remains "other".
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/other/knight-rider-kitt-badge.glb
+  method: kicad
+  source_file: Knight Rider Badge/KiCad8/kitt_0805.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 76188
 ---
 
 The K.I.T.T. Knight Rider badge is a wearable brooch shaped and lit to evoke the scanning "eye" of the car from the Knight Rider TV series. Designed by davedarko (based in Berlin) starting around July 2017, it uses an ATtiny13 (with ATtiny45/85 as alternate options in later revisions) to charlieplex 8 SMD LEDs across just 4 microcontroller pins, powered by a CR2032 coin cell. A button steps through eight animation modes, including the signature K.I.T.T. scanner sweep, chasers, a cross-fade, a police-light flasher, and a binary counter. The original run was on purple OSH Park PCBs with purple LEDs; a later black-PCB, red-LED variant was also produced.

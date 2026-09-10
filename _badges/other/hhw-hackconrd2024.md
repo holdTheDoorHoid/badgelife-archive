@@ -81,7 +81,13 @@ research:
   confidence: medium
   last_checked: '2026-09-07'
   notes: HackConRD is a hacking conference held in the Dominican Republic; no matching event id exists in _data/events.yml (searched for "hackconrd" and "dominican" with no hits), so event is left as "other" per instructions. This is described in the README as the first-ever official HackConRD badge, marking the start of Badgelife in that community. No pricing, production quantity, or storefront was found anywhere; it appears to have been given to conference attendees rather than sold, so get_one.price/quantity/availability are left empty/unknown. No PCB solder-mask color or shape could be confirmed from the 3D-render image alone with confidence, so look.colors/shape are left empty.
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/other/hhw-hackconrd2024.glb
+  method: kicad
+  source_file: HackConRD_Badge_Fab-main_unz/HackConRD_Badge_Fab-main/HackconRD_Badge.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 119772
 ---
 
 The HackConRD 2024 Badge is the first official conference badge for HackConRD, a hacking conference in the Dominican Republic, designed by GitHub user jrgdiaz. It marks, in the maker's own words, "the beginning of Badgelife" in that community's hacker scene. The badge is built around an ATtiny85 microcontroller (8 KB flash, 512 bytes SRAM, 6 I/O pins, 1.8–5.5V, 8 MHz) and features 9 onboard addressable RGB LEDs driven from a single pin, with three additional pins broken out next to D9 so attendees can chain on external aRGB strips and write their own animation patterns. A buzzer on a separate pin can play melodies.

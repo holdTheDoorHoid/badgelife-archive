@@ -21,7 +21,7 @@ look:
   - learn to solder
   - electronics
 tech:
-  mcu: 'none'
+  mcu: none
   leds:
     count: null
     type: discrete
@@ -49,14 +49,14 @@ links:
   url: https://github.com/youngd24/BCoin2024
   kind: repo
 images:
-  - file: assets/images/badges/other/bcoin-2024/a61fba4be5.jpg
-    source: "https://github.com/youngd24/BCoin2024"
-    credit: "youngd24"
-    caption: "BCoin 2024 front, showing the perimeter LED chaser ring"
-  - file: assets/images/badges/other/bcoin-2024/3ad425b0f9.jpg
-    source: "https://github.com/youngd24/BCoin2024"
-    credit: "youngd24"
-    caption: "BCoin 2024 back, with meetup information"
+- file: assets/images/badges/other/bcoin-2024/a61fba4be5.jpg
+  source: https://github.com/youngd24/BCoin2024
+  credit: youngd24
+  caption: BCoin 2024 front, showing the perimeter LED chaser ring
+- file: assets/images/badges/other/bcoin-2024/3ad425b0f9.jpg
+  source: https://github.com/youngd24/BCoin2024
+  credit: youngd24
+  caption: BCoin 2024 back, with meetup information
 contact: {}
 status: released
 sources:
@@ -69,25 +69,24 @@ sources:
   url: https://raw.githubusercontent.com/youngd24/BCoin2024/main/README.md
   title: 'youngd24/BCoin2024: README'
   accessed: '2026-09-07'
-  note: "Maker's own description of the coin: purpose, circuit, dimensions, battery, and hacking/modifying instructions."
+  note: 'Maker''s own description of the coin: purpose, circuit, dimensions, battery, and hacking/modifying instructions.'
 - kind: url
   url: https://api.github.com/repos/youngd24/BCoin2024
   title: youngd24/BCoin2024 repository metadata
   accessed: '2026-09-07'
-  note: 'Repo description ("BurbSec Challenge Coin 2024"), BSD-3-Clause license, and file listing confirming KiCad source, gerbers, and BOM are published.'
+  note: Repo description ("BurbSec Challenge Coin 2024"), BSD-3-Clause license, and file listing confirming KiCad source, gerbers, and BOM are published.
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: >-
-    This is a self-published meetup token, not a badge for a hacker con, so no
-    matching id exists in events.yml and event is left as 'other'; the maker
-    calls it the "BurbSec Challenge Coin 2024" for the South instance of the
-    BurbSec meetup group. Dimensions per the README: 50mm diameter, ~5mm thick
-    including the battery, with a thinner 40mm version "planned" (not found
-    released). LED count not stated in the README; not guessed. No price beyond
-    "free to attendees" and no production quantity was given.
-last_modified_date: '2026-09-07'
+  notes: 'This is a self-published meetup token, not a badge for a hacker con, so no matching id exists in events.yml and event is left as ''other''; the maker calls it the "BurbSec Challenge Coin 2024" for the South instance of the BurbSec meetup group. Dimensions per the README: 50mm diameter, ~5mm thick including the battery, with a thinner 40mm version "planned" (not found released). LED count not stated in the README; not guessed. No price beyond "free to attendees" and no production quantity was given.'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/other/bcoin-2024.glb
+  method: kicad
+  source_file: BCoin2024.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 142956
 ---
 
 The BCoin 2024 is a free "challenge coin" that youngd24, longtime organizer of the South instance of the BurbSec security meetup, hands out to first-time attendees. It doubles as a small electronics-education piece: at its core is a classic 555 timer running in astable mode, driving a decade counter that lights a ring of perimeter LEDs in a chasing pattern around the coin's edge at about 4.8 Hz. It runs off a single CR2016 coin cell (footprint also accepts a CR2032) and is sized — 50mm across, about 5mm thick with the battery installed — to fit standard clear acrylic challenge-coin display cases, though the maker notes to double-check case thickness before buying one.

@@ -12,7 +12,7 @@ makers:
 - name: davedarko
   url: https://github.com/davedarko
 summary: A Back to the Future-style flux capacitor pin with a flowing LED animation, built around an ATtiny13/ATtiny45. Not sold for a specific event; it's a standalone hobby pin, not an SAO.
-functions: 'Flowing/blinking LED animation across the three "stages" of the flux capacitor graphic, driven by an ATtiny13a or ATtiny45.'
+functions: Flowing/blinking LED animation across the three "stages" of the flux capacitor graphic, driven by an ATtiny13a or ATtiny45.
 look:
   colors: []
   shape: null
@@ -51,13 +51,13 @@ links:
   kind: repo
 images:
 - file: assets/images/badges/other/flux-capacitor-trinket-pin/90bae5750f.png
-  source: "https://hackaday.io/project/25898-flux-capacitor-trinket"
-  credit: "davedarko"
-  caption: "The FLUX capacitor trinket pin"
+  source: https://hackaday.io/project/25898-flux-capacitor-trinket
+  credit: davedarko
+  caption: The FLUX capacitor trinket pin
 - file: assets/images/badges/other/flux-capacitor-trinket-pin/6ebec089d5.jpg
-  source: "https://hackaday.io/project/25898-flux-capacitor-trinket/gallery"
-  credit: "davedarko"
-  caption: "Gallery photo of the flux capacitor trinket"
+  source: https://hackaday.io/project/25898-flux-capacitor-trinket/gallery
+  credit: davedarko
+  caption: Gallery photo of the flux capacitor trinket
 contact: {}
 notes: []
 status: released
@@ -71,18 +71,24 @@ sources:
   url: https://hackaday.io/project/25898-flux-capacitor-trinket
   title: FLUX capacitor trinket | Hackaday.io
   accessed: '2026-09-07'
-  note: "Project page: created July 13, 2017 by davedarko, description \"emancipating this project from my blinking stuff project\"; no event named; Eagle schematic/board files (attiny45.sch/.brd) attached, chip variants ATtiny13a/25/45/85 discussed. Gallery images used for photos."
+  note: 'Project page: created July 13, 2017 by davedarko, description "emancipating this project from my blinking stuff project"; no event named; Eagle schematic/board files (attiny45.sch/.brd) attached, chip variants ATtiny13a/25/45/85 discussed. Gallery images used for photos.'
 - kind: url
   url: https://github.com/davedarko/Simple-Add-ons-SAO
   title: davedarko/Simple-Add-ons-SAO
   accessed: '2026-09-07'
-  note: "Repo's project table lists FluxCapacitor as a pin (not an SAO): \"animations thanks to an Attiny13, the flux is flowing.\" No license stated for the repo."
+  note: 'Repo''s project table lists FluxCapacitor as a pin (not an SAO): "animations thanks to an Attiny13, the flux is flowing." No license stated for the repo.'
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'No event/con was ever named for this item on Hackaday.io or GitHub — it reads as a personal hobby project, not something made for or sold at a specific convention, so event is left as "other". Exact LED count, battery/power source, price, quantity made, and license are not stated anywhere found; the FluxCapacitor subfolder''s readme.md is an empty placeholder file. The hardware files (Eagle .sch/.brd) are published but no firmware source was found in the repo, so make_your_own.open_source is "partial" rather than "yes". A project log on the same Hackaday.io page describes a later, seemingly unrelated pivot to an AVR fuse/high-voltage-programming "fixer" board built to recover bad ATtiny13a chips; that log is about salvaging chips for this project, not a different product, so it was not treated as a separate item.'
-last_modified_date: '2026-09-07'
+  notes: No event/con was ever named for this item on Hackaday.io or GitHub — it reads as a personal hobby project, not something made for or sold at a specific convention, so event is left as "other". Exact LED count, battery/power source, price, quantity made, and license are not stated anywhere found; the FluxCapacitor subfolder's readme.md is an empty placeholder file. The hardware files (Eagle .sch/.brd) are published but no firmware source was found in the repo, so make_your_own.open_source is "partial" rather than "yes". A project log on the same Hackaday.io page describes a later, seemingly unrelated pivot to an AVR fuse/high-voltage-programming "fixer" board built to recover bad ATtiny13a chips; that log is about salvaging chips for this project, not a different product, so it was not treated as a separate item.
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/other/flux-capacitor-trinket-pin.glb
+  method: kicad
+  source_file: attiny45.brd
+  generated: '2026-09-10'
+  bytes: 46652
 ---
 
 The FLUX capacitor trinket is a small blinky pin by Hackaday.io user davedarko (GitHub: davedarko), posted July 13, 2017 as a spin-off of his earlier "blinking stuff" project. It's built around an 8-pin AVR — the writeup discusses both ATtiny13a and ATtiny45 builds — driving an LED animation meant to mimic the three glowing stages of the flux capacitor from *Back to the Future*. It is explicitly listed as a pin rather than an SAO in the maker's own SAO repository index, and no specific convention or year of distribution is named anywhere in the sources found.

@@ -24,7 +24,7 @@ tech:
   leds:
     count: 14
     type: RGB
-    note: 'Laid out as a 4x3 grid (LEDs 0-11) plus a dedicated "eye" LED (12) and "tooth" LED (13), matching a Bender-style face.'
+    note: Laid out as a 4x3 grid (LEDs 0-11) plus a dedicated "eye" LED (12) and "tooth" LED (13), matching a Bender-style face.
   display: null
   connectivity:
   - bluetooth
@@ -60,31 +60,29 @@ sources:
   note: 'Found by the archive''s discovery sweep (angle: github-topics); event read as ''JoCo Cruise 2019''.'
 - kind: url
   url: https://raw.githubusercontent.com/OpenResearchInstitute/joco-2019-badge/master/README.md
-  title: 'joco-2019-badge README'
+  title: joco-2019-badge README
   accessed: '2026-09-07'
-  note: 'Confirms it is unofficial, based on AND!XOR''s DEF CON 25 Bender badge, running on 2018 cruise badge hardware; nRF52832 MCU (Rigado module), 3x AA power, Apache-2.0 license effective 2019-03-16.'
+  note: Confirms it is unofficial, based on AND!XOR's DEF CON 25 Bender badge, running on 2018 cruise badge hardware; nRF52832 MCU (Rigado module), 3x AA power, Apache-2.0 license effective 2019-03-16.
 - kind: url
   url: https://raw.githubusercontent.com/OpenResearchInstitute/joco-2019-badge/master/LED-Layout.md
-  title: 'joco-2019-badge LED-Layout.md'
+  title: joco-2019-badge LED-Layout.md
   accessed: '2026-09-07'
   note: 'LED map: 4x3 grid of 12 LEDs (0-11) plus dedicated eye (12) and tooth (13) LEDs, 14 total.'
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: >-
-    JoCo Cruise has no corresponding id in _data/events.yml, so event is left as "other";
-    this was made for JoCo Cruise 2019 (a themed cruise, not a hacker con in the usual
-    sense). The repo is a firmware revision of AND!XOR's DEF CON 25 Bender badge, adapted
-    to run on the badge hardware built for the prior year's cruise (see the related
-    OpenResearchInstitute/joco-2018-badge / phase4ground/joco-2018-badge repo, not
-    fetched here). Could not find price, quantity made, availability/distribution
-    details, or any photo of the assembled badge; the repo's adobe-illustrator folder
-    contains a file named "P4G_manual_trace_only_badge_1.png" but as of 2026-09-07 that
-    URL actually serves an unrelated vintage radio dial photo, not badge artwork, so no
-    image was saved for this entry. Display field left null: the README mentions a
-    screen near the Micro SD slot but gives no size/type.
-last_modified_date: '2026-09-07'
+  notes: 'JoCo Cruise has no corresponding id in _data/events.yml, so event is left as "other"; this was made for JoCo Cruise 2019 (a themed cruise, not a hacker con in the usual sense). The repo is a firmware revision of AND!XOR''s DEF CON 25 Bender badge, adapted to run on the badge hardware built for the prior year''s cruise (see the related OpenResearchInstitute/joco-2018-badge / phase4ground/joco-2018-badge repo, not fetched here). Could not find price, quantity made, availability/distribution details, or any photo of the assembled badge; the repo''s adobe-illustrator folder contains a file named "P4G_manual_trace_only_badge_1.png" but as of 2026-09-07 that URL actually serves an unrelated vintage radio dial photo, not badge artwork, so no image was saved for this entry. Display field left null: the README mentions a screen near the Micro SD slot but gives no size/type.'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/other/joco-2019-badge-joco-2019-unofficial-badge.glb
+  method: gerber
+  source_file: hardware/Outputs
+  generated: '2026-09-10'
+  bytes: 90428
+  size_mm:
+  - 132.0
+  - 143.2
 ---
 
 The JoCo 2019 badge is an unofficial electronic badge made for JoCo Cruise 2019 by Open Research Institute. Rather than a new board, it reuses the badge hardware built for the 2018 cruise and ships new firmware for it — itself a software revision of the badge AND!XOR designed for DEF CON 25 ("Bender"). The badge is built around a Nordic nRF52832 (a Bluetooth-capable ARM chip, on a Rigado module) and runs off three AA batteries.

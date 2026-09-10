@@ -11,8 +11,8 @@ year: 2019
 makers:
 - name: digitalrane (ec0)
   url: https://github.com/digitalrane
-summary: 'A tiny 16-key mechanical keyboard SAO, built with real Cherry MX switches read through an MCP23017 I/O expander.'
-functions: 'Sixteen individually-wired Cherry MX switch positions, scanned via an MCP23017 16-bit I/O expander over the SAO connector; one onboard LED.'
+summary: A tiny 16-key mechanical keyboard SAO, built with real Cherry MX switches read through an MCP23017 I/O expander.
+functions: Sixteen individually-wired Cherry MX switch positions, scanned via an MCP23017 16-bit I/O expander over the SAO connector; one onboard LED.
 look:
   colors: []
   shape: null
@@ -73,8 +73,15 @@ research:
   status: verified
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'Fact-check (2026-09-07): re-fetched all three cited sources directly. The OzSecCon2019/keyboard folder was confirmed to contain keyboard.sch, keyboard.kicad_pcb, keyboard.pro, keyboard-BOM.csv, LSAO.lib/.dcm/.bck (confirming the LSAO/v1.69bis footprint), a gerbs subdirectory, and no firmware or README — matching the "partial" open_source call and the "no firmware found" claim. The BOM CSV was confirmed line-by-line: U1 MCP23017 (SOIC), SW1-SW16 sixteen Cherry MX switches, D1 one LED (0805), R1-R3 three resistors (2x1k, 1x470ohm), J1 a 2x5 LSAO pin socket — matching functions, tech.leds, and tech.sao_version exactly. The repo root README was confirmed to read "hardware CAD files for ec0''s various badge mods," organized by con/year folders including OzSecCon2019, with no pricing/distribution/year statement — matching the sources note and the entry''s silence on those fields. No matching event id exists in events.yml for "OzSecCon" (a small Australian security conference) — left event as "other" and named the con here as instructed. No images exist for this entry (images: [] — nothing to verify or remove). Raising confidence from low to medium: the guide ties confidence to how well the maker''s own pages confirm the core facts, and the mechanism/components/footprint are now directly confirmed against the maker''s repo and BOM; it stays below "high" because price, quantity, distribution, and photos remain entirely unconfirmed (no maker post or third-party coverage was found describing them). All body-text sentences are supported by the confirmed sources; none were removed.'
-last_modified_date: '2026-09-07'
+  notes: 'Fact-check (2026-09-07): re-fetched all three cited sources directly. The OzSecCon2019/keyboard folder was confirmed to contain keyboard.sch, keyboard.kicad_pcb, keyboard.pro, keyboard-BOM.csv, LSAO.lib/.dcm/.bck (confirming the LSAO/v1.69bis footprint), a gerbs subdirectory, and no firmware or README — matching the "partial" open_source call and the "no firmware found" claim. The BOM CSV was confirmed line-by-line: U1 MCP23017 (SOIC), SW1-SW16 sixteen Cherry MX switches, D1 one LED (0805), R1-R3 three resistors (2x1k, 1x470ohm), J1 a 2x5 LSAO pin socket — matching functions, tech.leds, and tech.sao_version exactly. The repo root README was confirmed to read "hardware CAD files for ec0''s various badge mods," organized by con/year folders including OzSecCon2019, with no pricing/distribution/year statement — matching the sources note and the entry''s silence on those fields. No matching event id exists in events.yml for "OzSecCon" (a small Australian security conference) — left
+    event as "other" and named the con here as instructed. No images exist for this entry (images: [] — nothing to verify or remove). Raising confidence from low to medium: the guide ties confidence to how well the maker''s own pages confirm the core facts, and the mechanism/components/footprint are now directly confirmed against the maker''s repo and BOM; it stays below "high" because price, quantity, distribution, and photos remain entirely unconfirmed (no maker post or third-party coverage was found describing them). All body-text sentences are supported by the confirmed sources; none were removed.'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/other/keyboard-ozseccon-2019-sao.glb
+  method: kicad
+  source_file: OzSecCon2019/keyboard/keyboard.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 199344
 ---
 
 digitalrane (handle ec0) designed this SAO as a miniature mechanical keyboard: sixteen individual Cherry MX switch footprints wired into an MCP23017 16-bit I/O expander, which reports key states back to the host badge over the SAO's I2C connection. It uses the larger "LSAO" (SAO v1.69bis) footprint, matching the connector library included in the repository, and carries a single onboard LED whose exact function is not documented.

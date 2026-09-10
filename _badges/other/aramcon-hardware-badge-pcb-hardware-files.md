@@ -78,7 +78,13 @@ research:
   last_checked: '2026-09-07'
   notes: This repo covers hardware for two badge years (2019 and 2020) rather than a single edition, so a single `year` could not be assigned without guessing; the firmware repo's description names it "the AramCon 2 Badge," suggesting the 2020 board is AramCon's second edition. AramCon does not have a matching entry in _data/events.yml (it appears to be a private/community con, likely Israel-based given the org's other repos), so `event` is left as `other`. No price, quantity, or distribution details were published (this is a hardware-files repo, not a store listing); it was presumably given to attendees rather than sold. Battery type/capacity is not specified beyond an analog battery-voltage sense pin. No raster photos of an assembled badge were found in the repo (only SVG artwork and KiCad files), so no images were saved. `tech.sao_version` reflects the 2020 board (v1.69bis, 6-pin); the 2019 board used the original v1.0 (4-pin) SAO connector instead. `tech.connectivity` lists ble and zigbee
     from the controlled vocabulary; the chip and README also describe Thread mesh support, which has no vocabulary entry.
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/other/aramcon-hardware-badge-pcb-hardware-files.glb
+  method: kicad
+  source_file: pcbv2/badge2.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 373740
 ---
 
 The AramCon Smart Badge is a two-generation hardware platform built by the AramCon Badge Team for the AramCon community conference, with separate 2019 and 2020 board revisions documented in the same repository. Both are built around Nordic's nRF52840 (BLE 5 / Thread / Zigbee, ARM Cortex-M4F), and pair a 2.9" e-paper display with NeoPixel RGB LEDs, an I²C accelerometer, serial flash, a vibration motor, and a rear expansion slot. The 2020 board is the more feature-complete of the two, adding a reset button, a Shitty Add-On v1.69bis (6-pin) connector, and 5 pushbuttons; the 2019 board instead used 3 Cherry MX keyboard switches for input, carried a VS1003 MP3/WMA audio codec that the 2020 board dropped, and used the older 4-pin SAO connector.

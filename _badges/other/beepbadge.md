@@ -38,7 +38,7 @@ get_one:
   distribution: []
   where: ''
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/lle/beepBadge/tree/main/hw
   firmware_url: https://github.com/lle/beepBadge/tree/main/firmware
   eda_tool: Eagle
@@ -82,7 +82,13 @@ research:
   confidence: medium
   last_checked: '2026-09-07'
   notes: 'No specific convention or year is named anywhere in the repo or maker profile, so event is left as "other" and year as unset/0. The hardware board files are named "hackfest" (hackfest.brd, hackfest.sch, hackfest.pro, hackfest.cam), which may be a working title or the actual event it was built for, but there is no "hackfest" entry in events.yml and no corroborating source, so this is not treated as confirmed. LED count is not stated (NeoPixel library used, but the schematic/gerbers were not opened to count LEDs). No price, quantity, or storefront/availability info was found anywhere; this looks like a one-off personal/DIY project rather than something sold. No maker photos exist in the repository to save. Physical badge-to-badge chaining uses 5-pin connectors (per CAD parts: 5pinMale/5pinFemale) but the exact signaling protocol was not documented beyond a "commControl" firmware module, so connectivity is left as a general guess (uart) rather than asserted with confidence.'
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/other/beepbadge.glb
+  method: kicad
+  source_file: hackfest.brd
+  generated: '2026-09-10'
+  bytes: 284440
 ---
 
 beepBadge is a chainable, musical con badge by maker "lle," built as a mashup of an idea from a previous job, a badge concept for a rave, and the tune-creation minigame from Animal Crossing. Each badge stores its own short tune; when several badges are physically plugged together edge-to-edge, pressing PLAY on the leftmost one plays each connected badge's tune in sequence from left to right, so a chain of badge-holders collectively builds a musical sequence. The badge runs on an ATmega328P (Arduino Uno target at 8MHz) with RGB LEDs driven through the Adafruit NeoPixel library, is powered by 3x AAA batteries, and is programmed over an on-board ISP header using a USBASP-style programmer with PlatformIO.

@@ -93,7 +93,13 @@ research:
   last_checked: '2026-09-07'
   notes: 'Made for the TROOPERS 19 conference (Heidelberg, Germany, March 2019) badge, per the commit history (gerbers released March 2019) and the Insinuator.net article by the main badge''s co-designer. No "troopers" event exists yet in _data/events.yml, so event is left as "other" per the research guide; a maintainer could add a troopers-2019 event id. Could not confirm price, quantity made, or how/whether it was distributed to attendees separately from the main badge (the article''s "~600 happy badges" figure is for the main TROOPERS19 badge, not confirmed for this SAO). No firmware repository was found. The SVG artwork file (graphics/FUCSS_PCB_redrawn-correct-layers.svg) could not be saved as an archive image (fetch_image.py could not decode the SVG); the KiCad 3D-render PNG was saved instead. Fact-checked 2026-09-07: re-fetched the GitHub repo, schematic, gerber README, and Insinuator article, and confirmed the ATtiny85 MCU, 2 LEDs each with a 100-ohm resistor, ISP-over-SAO wiring,
     blue/white 2-layer 0.8mm FR4 fab spec, both makers, the svg2shenzhen workflow, and the March 2019 gerber-release commits. The saved image was pixel-matched against the repo''s graphics/fuccs-kicad-view.png and is an exact match. One nuance: the Insinuator article''s byline is Malte Heinzelmann, not jeffmakes; the post itself says it is written "by Jeff (@jeffmakes)" and only posted under Heinzelmann''s name, so "co-authored by the badge''s co-designer" is a reasonable paraphrase, not a citation error.'
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/other/fuccs-shitty-addon-hw.glb
+  method: kicad
+  source_file: fuccs-shitty-addon.kicad/fuccs-shitty-addon.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 60592
 ---
 
 The Fuccs Shitty Addon is a "shitty add-on" (SAO) shaped like a low-poly fox head, designed by jeffmakes and Jann Foehringer for the TROOPERS 19 security conference in Heidelberg, Germany (March 2019). It plugs into the TROOPERS 19 badge's SAO header, which supplies 3.3V power, and carries an ATtiny85 microcontroller that independently drives two SMD LEDs mounted as the fox's eyes, each through its own 100-ohm current-limiting resistor.
