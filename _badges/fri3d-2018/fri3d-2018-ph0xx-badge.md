@@ -35,7 +35,7 @@ tech:
   - touch
   - accelerometer
   battery: 18650 Li-ion cell with TP4056 charger and DW01-P protection
-  sao_version: null
+  sao_version: none
 get_one:
   price: ''
   price_usd: null
@@ -62,6 +62,9 @@ links:
 - label: github.com/Fri3dCamp/Fri3dBadge
   url: https://github.com/Fri3dCamp/Fri3dBadge
   kind: repo
+- label: web.archive.org/web/2019/wiki2018.fri3d.be/index.php?title=Badge
+  url: https://web.archive.org/web/2019/http://wiki2018.fri3d.be/index.php?title=Badge
+  kind: website
 images:
 - file: assets/images/badges/fri3d-2018/fri3d-2018-ph0xx-badge/c9b8bf3af3.jpg
   source: https://hackaday.io/project/160451-ph0xx
@@ -73,8 +76,19 @@ images:
   credit: Fri3d Camp
   caption: Fri3d Camp 2018 badge prototype 3
   archived: https://web.archive.org/web/20260312123042/https://github.com/Fri3dCamp/badge
+- file: assets/images/badges/fri3d-2018/fri3d-2018-ph0xx-badge/0a86bd7ee4.jpg
+  source: https://hackaday.io/project/160451-ph0xx
+  credit: Wim Van Gool / Fri3d Camp
+  caption: Ph0xx badge, ESP32-WROOM-32 attendee badge for Fri3d Camp 2018
+  archived: https://web.archive.org/web/20260904220754/https://hackaday.io/project/160451-ph0xx
+- file: assets/images/badges/fri3d-2018/fri3d-2018-ph0xx-badge/4727e9aab7.jpg
+  source: https://hackaday.io/project/160451-ph0xx
+  credit: Wim Van Gool / Fri3d Camp
+  caption: Ph0xx badge with two 5x7 LED matrices and touch buttons
+  archived: https://web.archive.org/web/20260904220754/https://hackaday.io/project/160451-ph0xx
 contact: {}
-notes: []
+notes:
+- The Fri3dCamp/badge repository (hardware/design files) shows GitHub topics including ATmega32u4/AVR/IR in web search summaries, which conflicts with the ESP32-WROOM-32 chip confirmed on the maker's Hackaday.io project page; this may reflect an early prototype revision or repo mislabeling. Not resolved from available sources.
 status: released
 sources:
 - kind: url
@@ -103,7 +117,7 @@ research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: Maker's own GitHub repos and Hackaday.io project page confirm the core hardware and distribution facts. No price could be found (badges appear to have been included with camp registration rather than sold separately), and exact LED count per matrix (5x7 grid, count not stated as a total) and SAO header type/count were not stated by sources, so those fields are left empty. The GitHub badge README shows prototype-stage photos rather than a final production shot; the Hackaday.io cover image was used as the primary photo instead.
+  notes: Maker's own GitHub repos and Hackaday.io project page confirm the core hardware and distribution facts. No price could be found (badges appear to have been included with camp registration rather than sold separately), and exact LED count per matrix (5x7 grid, count not stated as a total) and SAO header type/count were not stated by sources, so those fields are left empty. The GitHub badge README shows prototype-stage photos rather than a final production shot; the Hackaday.io cover image was used as the primary photo instead. Merged with duplicate entry 'Ph0xx (Fri3d Camp 2018 Badge)' (fri3d-2018-fri3d-2018-ph0xx-badge-2).
 last_modified_date: '2026-09-07'
 model:
   file: assets/models/fri3d-2018/fri3d-2018-ph0xx-badge.glb
@@ -111,6 +125,8 @@ model:
   source_file: fri3d-badge-2018.brd
   generated: '2026-09-07'
   bytes: 155556
+redirect_from:
+- /badges/fri3d-2018/fri3d-2018-ph0xx-badge-2/
 ---
 
 Ph0xx is the attendee badge given out at Fri3d Camp 2018, a family-oriented hacker/maker/DIY camp held in Belgium with roughly 600 attendees. Designed by Wim Van Gool and Bert Outtier for the Fri3d Camp organizing team, the badge takes the shape of a fox and is built around an ESP32-WROOM-32 module, giving it Wi-Fi and Bluetooth connectivity alongside two 5x7 LED matrices used as the fox's glowing eyes (driven through 74HC595 shift registers, and revised from an original blue to a final green during development).
@@ -120,3 +136,9 @@ Onboard sensors and interaction include an ADXL345 accelerometer, two touch butt
 ## Make your own
 
 Fri3d Camp published the hardware design (Altium project files, prototype revisions) in the `Fri3dCamp/badge` GitHub repository, and firmware/an Arduino library supporting the accelerometer, buttons, buzzer, LED matrix and Servo Jewel in the separate `Fri3dCamp/Fri3dBadge` repository.
+
+## Notes merged from the duplicate entry "Ph0xx (Fri3d Camp 2018 Badge)"
+
+Ph0xx is the attendee badge Fri3d Camp handed to roughly 600 people at its 2018 family-friendly hacker camp in Belgium, with about 650 boards manufactured (initial units built by hand, the rest run through pick-and-place and reflow at the More-at-Mere facility). Designed by Wim Van Gool and Bert Outtier for Fri3d Camp, the badge is cut into a fox-like silhouette with pointed "ear" wingtips, styled in white, gold, yellow, and orange. It's built around an ESP32-WROOM-32 module, so it has Wi-Fi and Bluetooth on top of two 5x7 LED matrices (used as blinking "eyes"), an ADXL345 accelerometer for motion sensing, a KLJ-1230 buzzer, two buttons and two capacitive touch pads, and an 18650 Li-ion cell with a TP4056 charger and DW01-P protection circuit.
+
+Beyond the core badge, Ph0xx has Lego Technic-compatible mounting holes and a pair of expansion headers on its ear tips for "Jewel" add-on boards — an Air Jewel (dust and GPS sensing) and a Bot Jewel (servo control) were built for it. Both the hardware design files and the Arduino library that drives the badge's peripherals are published on GitHub, making it a fully open-source build.

@@ -10597,5 +10597,1607 @@
    }
   ],
   "ok": true
+ },
+ "bsidesdfw-2019-akira-badge": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://github.com/gowenrw/BSidesDFW_2019_Badge",
+    "repo": "gowenrw/BSidesDFW_2019_Badge",
+    "ref": "master",
+    "subpath": "",
+    "license": "MIT",
+    "truncated": false,
+    "files": [
+     {
+      "path": "eda/BSidesDFW_2019/BSidesDFW_2019.kicad_pcb",
+      "size": 1828495,
+      "kind": "kicad"
+     },
+     {
+      "path": "eda/CH552G_dev/CH552G_dev.kicad_pcb",
+      "size": 154877,
+      "kind": "kicad"
+     },
+     {
+      "path": "eda/HHV_2019_SC/HHV_2019_SC.kicad_pcb",
+      "size": 121430,
+      "kind": "kicad"
+     }
+    ]
+   }
+  ],
+  "ok": true
+ },
+ "bsidesdfw-2024-bsidesdfw-2024-badge": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://github.com/hon1nbo/bsidesdfw-2024-badge",
+    "repo": "hon1nbo/bsidesdfw-2024-badge",
+    "ref": "main",
+    "subpath": "",
+    "license": "CERN-OHL-P-2.0",
+    "truncated": false,
+    "files": [
+     {
+      "path": "KiCAD files/bsidesdfw badge 2024.kicad_pcb",
+      "size": 660681,
+      "kind": "kicad"
+     }
+    ]
+   }
+  ],
+  "ok": true
+ },
+ "bsidespr-2019-bsidespr-2019-badge-luffy-badge-diy-attiny13a-kit": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://github.com/soynerdito/BSidesPR_2019_Badge",
+    "repo": "soynerdito/BSidesPR_2019_Badge",
+    "ref": "master",
+    "subpath": "",
+    "license": "Apache-2.0",
+    "truncated": false,
+    "files": [
+     {
+      "path": "LuffyBadge2019_BSides.kicad_pcb",
+      "size": 2063136,
+      "kind": "kicad"
+     },
+     {
+      "path": "GerberFiles.zip",
+      "size": 650526,
+      "kind": "gerber_zip"
+     }
+    ]
+   }
+  ],
+  "ok": true
+ },
+ "bsidespr-2024-bsidespr-taino-sun-badge": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://github.com/So11Deo6loria/bsidesPRSun/tree/main/hardware",
+    "repo": "So11Deo6loria/bsidesPRSun",
+    "ref": "main",
+    "subpath": "hardware",
+    "license": "NOASSERTION",
+    "truncated": false,
+    "files": [
+     {
+      "path": "hardware/bsidesPR.kicad_pcb",
+      "size": 2589801,
+      "kind": "kicad"
+     },
+     {
+      "path": "hardware/fabrication3.zip",
+      "size": 731702,
+      "kind": "gerber_zip"
+     },
+     {
+      "path": "hardware/fabrication2/fabricationFiles_2.zip",
+      "size": 398264,
+      "kind": "gerber_zip"
+     },
+     {
+      "path": "hardware/fabrication/bsidesPR_FabricationFiles.zip",
+      "size": 379569,
+      "kind": "gerber_zip"
+     }
+    ]
+   }
+  ],
+  "ok": true
+ },
+ "cactuscon-2014-cactuscon-2014-pcb-badge": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://github.com/erikwilson/cactuscon2014",
+    "repo": "erikwilson/cactuscon2014",
+    "ref": "master",
+    "subpath": "",
+    "license": "MIT",
+    "truncated": false,
+    "files": [
+     {
+      "path": "cactar.brd",
+      "size": 1312465,
+      "kind": "eagle"
+     }
+    ]
+   }
+  ],
+  "ok": true
+ },
+ "cactuscon-2018-cactuscon-2018-paid-badge": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://github.com/erikwilson/CactusCon7",
+    "repo": "erikwilson/CactusCon7",
+    "ref": "master",
+    "subpath": "",
+    "license": "",
+    "truncated": false,
+    "files": [
+     {
+      "path": "eagle/CactusCon7.brd",
+      "size": 2449736,
+      "kind": "eagle"
+     }
+    ]
+   }
+  ],
+  "ok": true
+ },
+ "cactuscon-2019-cactuscon-8-electronic-badge-2019": {
+  "sources": [
+   {
+    "status": "no_pcb_files",
+    "source_url": "https://github.com/cactuscon/cactuscon8",
+    "repo": "cactuscon/cactuscon8",
+    "ref": "master",
+    "subpath": "",
+    "license": "",
+    "truncated": false,
+    "files": []
+   },
+   {
+    "status": "no_pcb_files",
+    "source_url": "https://github.com/cactuscon/cactuscon8/raw/master/doc/2019CactusCon_PCB.zip",
+    "repo": "cactuscon/cactuscon8",
+    "ref": "master",
+    "subpath": "",
+    "license": "",
+    "truncated": false,
+    "files": []
+   }
+  ],
+  "ok": false
+ },
+ "cactuscon-2023-cactuscon-11-badge-2023": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://github.com/BadgePiratesLLC/CactusCon_11",
+    "repo": "BadgePiratesLLC/CactusCon_11",
+    "ref": "main",
+    "subpath": "",
+    "license": "",
+    "truncated": false,
+    "files": [
+     {
+      "path": "CAD/CC11_Main.kicad_pcb",
+      "size": 6322193,
+      "kind": "kicad"
+     },
+     {
+      "path": "CAD/DevBoard_Addon.kicad_pcb",
+      "size": 1285077,
+      "kind": "kicad"
+     }
+    ]
+   }
+  ],
+  "ok": true
+ },
+ "cactuscon-2024-cactuscon-12-badge-2024": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://github.com/BadgePiratesLLC/CactusCon-12",
+    "repo": "BadgePiratesLLC/CactusCon-12",
+    "ref": "main",
+    "subpath": "",
+    "license": "",
+    "truncated": false,
+    "files": [
+     {
+      "path": "CAD/CactusCon12.kicad_pcb",
+      "size": 2547536,
+      "kind": "kicad"
+     }
+    ]
+   }
+  ],
+  "ok": true
+ },
+ "cactuscon-2025-cactuscon-13-badge-2025": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://github.com/BadgePiratesLLC/CactusCon13",
+    "repo": "BadgePiratesLLC/CactusCon13",
+    "ref": "main",
+    "subpath": "",
+    "license": "MIT",
+    "truncated": false,
+    "files": [
+     {
+      "path": "CAD-OuterBoard/Project-CC13_outer_v2_Attendee.kicad_pcb",
+      "size": 12755730,
+      "kind": "kicad"
+     },
+     {
+      "path": "CAD-OuterBoard/Project-CC13_outer_v2.kicad_pcb",
+      "size": 12755279,
+      "kind": "kicad"
+     },
+     {
+      "path": "CAD-OuterBoard/Project-CC13_outer_v2_Staff.kicad_pcb",
+      "size": 12728410,
+      "kind": "kicad"
+     },
+     {
+      "path": "CAD-OuterBoard/Project-CC13_outer_v2_Speaker.kicad_pcb",
+      "size": 12706889,
+      "kind": "kicad"
+     },
+     {
+      "path": "CAD-OuterBoard/Project-CC13_outer_v2_Mafia.kicad_pcb",
+      "size": 12094243,
+      "kind": "kicad"
+     },
+     {
+      "path": "CAD-OuterBoard/Project-CC13_outer.kicad_pcb",
+      "size": 4509337,
+      "kind": "kicad"
+     }
+    ]
+   }
+  ],
+  "ok": true
+ },
+ "cactuscon-2026-cactuscon-14-badge-2026": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://github.com/BadgePiratesLLC/CactusCon14",
+    "repo": "BadgePiratesLLC/CactusCon14",
+    "ref": "main",
+    "subpath": "",
+    "license": "MIT",
+    "truncated": false,
+    "files": [
+     {
+      "path": "CAD/CC14_Outer.kicad_pcb",
+      "size": 1747661,
+      "kind": "kicad"
+     },
+     {
+      "path": "CAD/CC14.kicad_pcb",
+      "size": 1742878,
+      "kind": "kicad"
+     },
+     {
+      "path": "CAD/CC142_2.kicad_pcb",
+      "size": 27913,
+      "kind": "kicad"
+     }
+    ]
+   }
+  ],
+  "ok": true
+ },
+ "carolinacon-2016-carolinacon-12-electronic-kit-badge": {
+  "sources": [
+   {
+    "status": "unsupported_host",
+    "source_url": "https://carolinacon.org/archive/cc2016/badge.trim.png"
+   }
+  ],
+  "ok": false
+ },
+ "carolinacon-2019-carolinacon-15-badge": {
+  "sources": [
+   {
+    "status": "no_pcb_files",
+    "source_url": "https://github.com/49thSecurityDivision/CC-15-Badges",
+    "repo": "49thSecurityDivision/CC-15-Badges",
+    "ref": "master",
+    "subpath": "",
+    "license": "",
+    "truncated": false,
+    "files": []
+   }
+  ],
+  "ok": false
+ },
+ "carolinacon-2023-carolinacon-online-3-badge-carolinacon-19-badge": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://github.com/pettym/Carolinacon-19-Badge",
+    "repo": "pettym/Carolinacon-19-Badge",
+    "ref": "main",
+    "subpath": "",
+    "license": "",
+    "truncated": false,
+    "files": [
+     {
+      "path": "cc-19-badge.kicad_pcb",
+      "size": 897920,
+      "kind": "kicad"
+     }
+    ]
+   }
+  ],
+  "ok": true
+ },
+ "cccamp-2007-sputnik-openbeacon": {
+  "sources": [
+   {
+    "status": "unsupported_host",
+    "source_url": "http://www.openbeacon.org"
+   }
+  ],
+  "ok": false
+ },
+ "cccamp-2011-r0ket": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://github.com/r0ket/r0ket",
+    "repo": "r0ket/r0ket",
+    "ref": "master",
+    "subpath": "",
+    "license": "",
+    "truncated": false,
+    "files": [
+     {
+      "path": "hardware/r0ket/r0ket_v2.brd",
+      "size": 172253,
+      "kind": "eagle"
+     },
+     {
+      "path": "hardware/r0ket/r0ket.brd",
+      "size": 170628,
+      "kind": "eagle"
+     },
+     {
+      "path": "hardware/m0dul/m0dul-dual.brd",
+      "size": 11378,
+      "kind": "eagle"
+     },
+     {
+      "path": "hardware/m0dul/m0dul-single.brd",
+      "size": 10597,
+      "kind": "eagle"
+     }
+    ]
+   }
+  ],
+  "ok": true
+ },
+ "cccamp-2023-anal0g-flow3r": {
+  "sources": [
+   {
+    "status": "unsupported_host",
+    "source_url": "https://codeberg.org/wenzellabs/anal0g_flow3r"
+   }
+  ],
+  "ok": false
+ },
+ "cccamp-2023-flow3r": {
+  "sources": [
+   {
+    "status": "unsupported_host",
+    "source_url": "https://git.flow3r.garden/flow3r"
+   }
+  ],
+  "ok": false
+ },
+ "dc14-badge": {
+  "sources": [
+   {
+    "status": "unsupported_host",
+    "source_url": "https://grandideastudio.com/media/dc14_bdg_schematic.pdf"
+   }
+  ],
+  "ok": false
+ },
+ "dc15-badge-2007": {
+  "sources": [
+   {
+    "status": "unsupported_host",
+    "source_url": "https://media.defcon.org/DEF%20CON%2015/DEF%20CON%2015%20badge/"
+   }
+  ],
+  "ok": false
+ },
+ "dc16-badge-2008": {
+  "sources": [
+   {
+    "status": "unsupported_host",
+    "source_url": "https://grandideastudio.com/media/dc16_bdg_schematic.pdf"
+   }
+  ],
+  "ok": false
+ },
+ "dc17-ninja-networks-def-con-17-party-badge": {
+  "sources": [
+   {
+    "status": "unsupported_host",
+    "source_url": "https://www.ninjas.org/badges/defcon17.html"
+   }
+  ],
+  "ok": false
+ },
+ "dc17-official-badge": {
+  "sources": [
+   {
+    "status": "unsupported_host",
+    "source_url": "https://grandideastudio.com/portfolio/other/defcon-17-badge/"
+   }
+  ],
+  "ok": false
+ },
+ "dc18-badge": {
+  "sources": [
+   {
+    "status": "unsupported_host",
+    "source_url": "https://grandideastudio.com/media/dc18_bdg_schematic.pdf"
+   }
+  ],
+  "ok": false
+ },
+ "dc22-whiskey-pirates-dc22-badge": {
+  "sources": [
+   {
+    "status": "no_pcb_files",
+    "source_url": "https://github.com/whiskeypirates/dc22-whiskeypirates/blob/master/3KPirate_rev3_schematic.pdf",
+    "repo": "whiskeypirates/dc22-whiskeypirates",
+    "ref": "master",
+    "subpath": "",
+    "license": "",
+    "truncated": false,
+    "files": []
+   }
+  ],
+  "ok": false
+ },
+ "dc23-hardware-hacking-village-learn-to-solder-kit": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://github.com/thedarknet/hhvkit",
+    "repo": "thedarknet/hhvkit",
+    "ref": "2015",
+    "subpath": "",
+    "license": "",
+    "truncated": false,
+    "files": [
+     {
+      "path": "hardware/hhv-dcdarknet-varient-4.brd",
+      "size": 142026,
+      "kind": "eagle"
+     },
+     {
+      "path": "hardware/hhv-dcdarknet-varient-2.brd",
+      "size": 142025,
+      "kind": "eagle"
+     },
+     {
+      "path": "hardware/hhv-dcdarknet-varient-3.brd",
+      "size": 142021,
+      "kind": "eagle"
+     },
+     {
+      "path": "hardware/hhv-dcdarknet-varient-6.brd",
+      "size": 142021,
+      "kind": "eagle"
+     }
+    ]
+   }
+  ],
+  "ok": true
+ },
+ "dc25-hacker-warehouse-badge": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://github.com/hackerwarehouse/HW-DC25-Badge/tree/master/hardware",
+    "repo": "hackerwarehouse/HW-DC25-Badge",
+    "ref": "master",
+    "subpath": "hardware",
+    "license": "GPL-3.0",
+    "truncated": false,
+    "files": [
+     {
+      "path": "hardware/HW-DC25-Badge-20170609-1.2.brd",
+      "size": 1818171,
+      "kind": "eagle"
+     }
+    ]
+   }
+  ],
+  "ok": true
+ },
+ "dc25-seckc-badge": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://github.com/SecKC/Badge-DC25/tree/master/Files",
+    "repo": "SecKC/Badge-DC25",
+    "ref": "master",
+    "subpath": "Files",
+    "license": "",
+    "truncated": false,
+    "files": [
+     {
+      "path": "Files/SecKCDC25Badge_gerber-Prod.zip",
+      "size": 552186,
+      "kind": "gerber_zip"
+     }
+    ]
+   }
+  ],
+  "ok": true
+ },
+ "dc25-team-bazooka-vfd-badge-dc25": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://github.com/TeamBazooka/DC25/tree/master/hardware",
+    "repo": "TeamBazooka/DC25",
+    "ref": "master",
+    "subpath": "hardware",
+    "license": "",
+    "truncated": false,
+    "files": [
+     {
+      "path": "hardware/DC25.kicad_pcb",
+      "size": 381549,
+      "kind": "kicad"
+     }
+    ]
+   }
+  ],
+  "ok": true
+ },
+ "dc25-tindie-blinky-led-badge-v1": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://hackaday.io/project/26056-tindie-blinky-led-badge",
+    "repo": "hackaday.io/26056",
+    "ref": "",
+    "subpath": "",
+    "license": "",
+    "files": [
+     {
+      "path": "FullBoard.zip",
+      "size": 529101,
+      "kind": "gerber_zip"
+     }
+    ]
+   }
+  ],
+  "ok": true
+ },
+ "dc26-503banglet": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://github.com/pdxbadgers/2018-banglet",
+    "repo": "pdxbadgers/2018-banglet",
+    "ref": "master",
+    "subpath": "",
+    "license": "Apache-2.0",
+    "truncated": false,
+    "files": [
+     {
+      "path": "eaglecad/dc5032018banglet.brd",
+      "size": 112626,
+      "kind": "eagle"
+     }
+    ]
+   }
+  ],
+  "ok": true
+ },
+ "dc26-e-paper-badge": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://github.com/pdp7/kicad-teensy-epaper",
+    "repo": "pdp7/kicad-teensy-epaper",
+    "ref": "master",
+    "subpath": "",
+    "license": "Apache-2.0",
+    "truncated": false,
+    "files": [
+     {
+      "path": "kicad-teensy-epaper.kicad_pcb",
+      "size": 149507,
+      "kind": "kicad"
+     },
+     {
+      "path": "gerbers/kicad-teensy-epaper-gerbers-0a02228.zip",
+      "size": 77533,
+      "kind": "gerber_zip"
+     }
+    ]
+   }
+  ],
+  "ok": true
+ },
+ "dc26-sympetrum-v3-dragonfly-badge": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://github.com/borgel/sympetrum-v3/tree/master/Hardware",
+    "repo": "borgel/sympetrum-v3",
+    "ref": "master",
+    "subpath": "Hardware",
+    "license": "NOASSERTION",
+    "truncated": false,
+    "files": [
+     {
+      "path": "Hardware/Badge/Sympetrum-V3 FF3.kicad_pcb",
+      "size": 2786585,
+      "kind": "kicad"
+     }
+    ]
+   }
+  ],
+  "ok": true
+ },
+ "dc26-ubadge-microbadge": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://github.com/securelyfitz/microbadge",
+    "repo": "securelyfitz/microbadge",
+    "ref": "master",
+    "subpath": "",
+    "license": "",
+    "truncated": false,
+    "files": [
+     {
+      "path": "hardware/ubadge.brd",
+      "size": 39219,
+      "kind": "eagle"
+     }
+    ]
+   }
+  ],
+  "ok": true
+ },
+ "dc27-dc503-badge-dc27": {
+  "sources": [
+   {
+    "status": "no_pcb_files",
+    "source_url": "https://github.com/pdxbadgers/5ohBEE-2019",
+    "repo": "pdxbadgers/5ohBEE-2019",
+    "ref": "master",
+    "subpath": "",
+    "license": "Apache-2.0",
+    "truncated": false,
+    "files": []
+   }
+  ],
+  "ok": false
+ },
+ "dc27-seckc-defcon-party-badge-sao": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://github.com/BadgePiratesLLC/DefCon_SecKCPartyStar_27",
+    "repo": "BadgePiratesLLC/DefCon_SecKCPartyStar_27",
+    "ref": "master",
+    "subpath": "",
+    "license": "",
+    "truncated": false,
+    "files": [
+     {
+      "path": "Schematics/PartyStar.kicad_pcb",
+      "size": 1766948,
+      "kind": "kicad"
+     },
+     {
+      "path": "kicad-files/defcon27-seckc-party.kicad_pcb",
+      "size": 1473862,
+      "kind": "kicad"
+     },
+     {
+      "path": "Footprints/PartyStar.pretty/DCP_GUY.kicad_pcb",
+      "size": 11013,
+      "kind": "kicad"
+     }
+    ]
+   }
+  ],
+  "ok": true
+ },
+ "dc27-tron-badge": {
+  "sources": [
+   {
+    "status": "no_pcb_files",
+    "source_url": "https://github.com/Sodium-Hydrogen/TRON-Badge",
+    "repo": "Sodium-Hydrogen/TRON-Badge",
+    "ref": "master",
+    "subpath": "",
+    "license": "",
+    "truncated": false,
+    "files": []
+   }
+  ],
+  "ok": false
+ },
+ "dc30-biohacking-village-badge-dc30": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://github.com/BadgePiratesLLC/BiohackVillage_DC30",
+    "repo": "BadgePiratesLLC/BiohackVillage_DC30",
+    "ref": "main",
+    "subpath": "",
+    "license": "",
+    "truncated": false,
+    "files": [
+     {
+      "path": "CAD/Biohacking Village Badge - Gutz-Girl.kicad_pcb",
+      "size": 2295769,
+      "kind": "kicad"
+     },
+     {
+      "path": "CAD/Biohacking Village Badge - BackPlate.kicad_pcb",
+      "size": 895162,
+      "kind": "kicad"
+     },
+     {
+      "path": "CAD/Biohacking Village Badge - Gutz-Girl_Back.kicad_pcb",
+      "size": 153248,
+      "kind": "kicad"
+     }
+    ]
+   }
+  ],
+  "ok": true
+ },
+ "dc31-crew-sao": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://github.com/AerospaceVillage/avBadge_2023/tree/main/crew%20SAO",
+    "repo": "AerospaceVillage/avBadge_2023",
+    "ref": "main",
+    "subpath": "crew SAO",
+    "license": "",
+    "truncated": false,
+    "files": [
+     {
+      "path": "crew SAO/crew-SAO.kicad_pcb",
+      "size": 314665,
+      "kind": "kicad"
+     }
+    ]
+   }
+  ],
+  "ok": true
+ },
+ "dc31-sao-defcon-jack": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://github.com/pierreca/defcon31_sao",
+    "repo": "pierreca/defcon31_sao",
+    "ref": "master",
+    "subpath": "",
+    "license": "",
+    "truncated": false,
+    "files": [
+     {
+      "path": "pcb/defcon31_sao.kicad_pcb",
+      "size": 58764,
+      "kind": "kicad"
+     }
+    ]
+   }
+  ],
+  "ok": true
+ },
+ "dc31-space-shuttle-sao": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://github.com/AerospaceVillage/avBadge_2023/tree/main/space_shuttle_SAO",
+    "repo": "AerospaceVillage/avBadge_2023",
+    "ref": "main",
+    "subpath": "space_shuttle_SAO",
+    "license": "",
+    "truncated": false,
+    "files": [
+     {
+      "path": "space_shuttle_SAO/space_shuttle_SAO.kicad_pcb",
+      "size": 782565,
+      "kind": "kicad"
+     }
+    ]
+   }
+  ],
+  "ok": true
+ },
+ "dc31-speaker-sao": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://github.com/AerospaceVillage/avBadge_2023/tree/main/speaker%20SAO",
+    "repo": "AerospaceVillage/avBadge_2023",
+    "ref": "main",
+    "subpath": "speaker SAO",
+    "license": "",
+    "truncated": false,
+    "files": [
+     {
+      "path": "speaker SAO/speaker-SAO.kicad_pcb",
+      "size": 322165,
+      "kind": "kicad"
+     }
+    ]
+   }
+  ],
+  "ok": true
+ },
+ "dc32-hackbat-badge": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://github.com/thehackbat/defcon32_badge",
+    "repo": "thehackbat/defcon32_badge",
+    "ref": "main",
+    "subpath": "",
+    "license": "GPL-3.0",
+    "truncated": false,
+    "files": [
+     {
+      "path": "kicad/defcon32_badge.kicad_pcb",
+      "size": 675669,
+      "kind": "kicad"
+     },
+     {
+      "path": "kicad/production_files/gerber.zip",
+      "size": 159521,
+      "kind": "gerber_zip"
+     }
+    ]
+   }
+  ],
+  "ok": true
+ },
+ "dc33-hhvdc33-badge-driving-module-and-sao9000-connector-standard": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://github.com/DCHHV/DC33-HHV-CTF",
+    "repo": "DCHHV/DC33-HHV-CTF",
+    "ref": "main",
+    "subpath": "",
+    "license": "",
+    "truncated": false,
+    "files": [
+     {
+      "path": "Hardware/Badge_PCB.brd",
+      "size": 986417,
+      "kind": "eagle"
+     },
+     {
+      "path": "Hardware/Addon_PCB.brd",
+      "size": 687357,
+      "kind": "eagle"
+     },
+     {
+      "path": "Hardware/Badge_GerberFiles.zip",
+      "size": 232355,
+      "kind": "gerber_zip"
+     },
+     {
+      "path": "Hardware/Addon_GerberFiles.zip",
+      "size": 107353,
+      "kind": "gerber_zip"
+     }
+    ]
+   }
+  ],
+  "ok": true
+ },
+ "dc34-cult-of-cthulhu": {
+  "sources": [
+   {
+    "status": "no_pcb_files",
+    "source_url": "https://github.com/sqearl/cult_of_cthulhu_badge/blob/main/cthulhu_badge_schematic.pdf",
+    "repo": "sqearl/cult_of_cthulhu_badge",
+    "ref": "main",
+    "subpath": "",
+    "license": "MIT",
+    "truncated": false,
+    "files": []
+   }
+  ],
+  "ok": false
+ },
+ "dc34-omni-tag": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://github.com/SafeHazard/Clip-Boy",
+    "repo": "SafeHazard/Clip-Boy",
+    "ref": "main",
+    "subpath": "",
+    "license": "GPL-3.0",
+    "truncated": false,
+    "files": [
+     {
+      "path": "Clip-Boy/hardware/Gerber_Motherboard.zip",
+      "size": 45660,
+      "kind": "gerber_zip"
+     },
+     {
+      "path": "Clip-Boy/hardware/Gerber_ToF_Board.zip",
+      "size": 26964,
+      "kind": "gerber_zip"
+     }
+    ]
+   }
+  ],
+  "ok": true
+ },
+ "def-con-china-2019-def-con-china-1-0-badge": {
+  "sources": [
+   {
+    "status": "unsupported_host",
+    "source_url": "https://grandideastudio.com/media/dcn1_bdg_schematic.pdf"
+   },
+   {
+    "status": "unsupported_host",
+    "source_url": "https://grandideastudio.com/media/dcn1_fpc_shield_gerbers.zip"
+   }
+  ],
+  "ok": false
+ },
+ "disobey-2017-disobey-2017-badge": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://github.com/disobeyfi/badge-2017/tree/master/hw",
+    "repo": "disobeyfi/badge-2017",
+    "ref": "master",
+    "subpath": "hw",
+    "license": "",
+    "truncated": false,
+    "files": [
+     {
+      "path": "hw/Gerber_v7/disobey_badge_v7_BoardOutline.gbr",
+      "size": 634,
+      "kind": "gerber_loose"
+     },
+     {
+      "path": "hw/Gerber_v7/disobey_badge_v7_Bottom.gbr",
+      "size": 36579,
+      "kind": "gerber_loose"
+     },
+     {
+      "path": "hw/Gerber_v7/disobey_badge_v7_BottomAssy.gbr",
+      "size": 197,
+      "kind": "gerber_loose"
+     },
+     {
+      "path": "hw/Gerber_v7/disobey_badge_v7_BottomDimension.gbr",
+      "size": 197,
+      "kind": "gerber_loose"
+     },
+     {
+      "path": "hw/Gerber_v7/disobey_badge_v7_BottomMask.gbr",
+      "size": 5890,
+      "kind": "gerber_loose"
+     },
+     {
+      "path": "hw/Gerber_v7/disobey_badge_v7_BottomPaste.gbr",
+      "size": 195,
+      "kind": "gerber_loose"
+     },
+     {
+      "path": "hw/Gerber_v7/disobey_badge_v7_BottomSilk.gbr",
+      "size": 196,
+      "kind": "gerber_loose"
+     },
+     {
+      "path": "hw/Gerber_v7/disobey_badge_v7_Drill_NonPlated_Through.gbr",
+      "size": 202,
+      "kind": "gerber_loose"
+     },
+     {
+      "path": "hw/Gerber_v7/disobey_badge_v7_Drill_Plated_Through.gbr",
+      "size": 1907,
+      "kind": "gerber_loose"
+     },
+     {
+      "path": "hw/Gerber_v7/disobey_badge_v7_Top.gbr",
+      "size": 61279,
+      "kind": "gerber_loose"
+     },
+     {
+      "path": "hw/Gerber_v7/disobey_badge_v7_TopAssy.gbr",
+      "size": 37560,
+      "kind": "gerber_loose"
+     },
+     {
+      "path": "hw/Gerber_v7/disobey_badge_v7_TopDimension.gbr",
+      "size": 197,
+      "kind": "gerber_loose"
+     },
+     {
+      "path": "hw/Gerber_v7/disobey_badge_v7_TopMask.gbr",
+      "size": 3614,
+      "kind": "gerber_loose"
+     },
+     {
+      "path": "hw/Gerber_v7/disobey_badge_v7_TopPaste.gbr",
+      "size": 2704,
+      "kind": "gerber_loose"
+     },
+     {
+      "path": "hw/Gerber_v7/disobey_badge_v7_TopSilk.gbr",
+      "size": 38364,
+      "kind": "gerber_loose"
+     }
+    ]
+   }
+  ],
+  "ok": true
+ },
+ "disobey-2018-disobey-2018-badge": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://github.com/disobeyfi/badge-2018",
+    "repo": "disobeyfi/badge-2018",
+    "ref": "master",
+    "subpath": "",
+    "license": "GPL-3.0",
+    "truncated": false,
+    "files": [
+     {
+      "path": "hardware/BOM_v12.xlsx",
+      "size": 13182,
+      "kind": "gerber_loose"
+     },
+     {
+      "path": "hardware/Component_ref.gbr",
+      "size": 98277,
+      "kind": "gerber_loose"
+     },
+     {
+      "path": "hardware/TopSilk.gbr",
+      "size": 45182,
+      "kind": "gerber_loose"
+     },
+     {
+      "path": "hardware/picknplace_v12.xlsx",
+      "size": 12744,
+      "kind": "gerber_loose"
+     }
+    ]
+   }
+  ],
+  "ok": true
+ },
+ "disobey-2019-disobey-2019-badge": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://github.com/disobeyfi/badge-2019",
+    "repo": "disobeyfi/badge-2019",
+    "ref": "master",
+    "subpath": "",
+    "license": "GPL-3.0",
+    "truncated": false,
+    "files": [
+     {
+      "path": "hardware/kicad/panel-support-52-blue.kicad_pcb",
+      "size": 10694530,
+      "kind": "kicad"
+     },
+     {
+      "path": "hardware/kicad/panel-admin-27-white.kicad_pcb",
+      "size": 9996081,
+      "kind": "kicad"
+     },
+     {
+      "path": "hardware/kicad/panel-artist-27-purple.kicad_pcb",
+      "size": 9907308,
+      "kind": "kicad"
+     },
+     {
+      "path": "hardware/kicad/panel-hacker-14-black.kicad_pcb",
+      "size": 9791619,
+      "kind": "kicad"
+     },
+     {
+      "path": "hardware/kicad/panel-user-230-red.kicad_pcb",
+      "size": 9452615,
+      "kind": "kicad"
+     }
+    ]
+   }
+  ],
+  "ok": true
+ },
+ "disobey-2026-disobey-2025-2026-badge": {
+  "sources": [
+   {
+    "status": "no_pcb_files",
+    "source_url": "https://github.com/disobeyfi/disobey-badge-2025-game-firmware",
+    "repo": "disobeyfi/disobey-badge-2025-game-firmware",
+    "ref": "main",
+    "subpath": "",
+    "license": "",
+    "truncated": false,
+    "files": []
+   }
+  ],
+  "ok": false
+ },
+ "easterhegg-2024-eh21badge-easterhegg-2024-rca-badge": {
+  "sources": [
+   {
+    "status": "no_pcb_files",
+    "source_url": "https://github.com/x70b1/eh21badge/tree/main/Schematics",
+    "repo": "x70b1/eh21badge",
+    "ref": "main",
+    "subpath": "Schematics",
+    "license": "",
+    "truncated": false,
+    "files": []
+   },
+   {
+    "status": "no_pcb_files",
+    "source_url": "https://github.com/x70b1/eh21badge/tree/main/Gerbers",
+    "repo": "x70b1/eh21badge",
+    "ref": "main",
+    "subpath": "Gerbers",
+    "license": "",
+    "truncated": false,
+    "files": []
+   }
+  ],
+  "ok": false
+ },
+ "ekoparty-2023-ekoparty-2023-electronic-badge": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://github.com/ElectronicCats/badge-ekoparty2023/tree/main/hardware",
+    "repo": "ElectronicCats/badge-ekoparty2023",
+    "ref": "main",
+    "subpath": "hardware",
+    "license": "GPL-3.0",
+    "truncated": false,
+    "files": [
+     {
+      "path": "hardware/ekoparty2023.kicad_pcb",
+      "size": 1346133,
+      "kind": "kicad"
+     },
+     {
+      "path": "hardware/panel/ekoBadgePanel.kicad_pcb",
+      "size": 6359702,
+      "kind": "kicad"
+     },
+     {
+      "path": "hardware/Top/TopEC/TopEC.kicad_pcb",
+      "size": 139024,
+      "kind": "kicad"
+     },
+     {
+      "path": "hardware/Top/TopEkoparty/topekoparty.kicad_pcb",
+      "size": 79609,
+      "kind": "kicad"
+     },
+     {
+      "path": "hardware/Top/TopFounder/TopFounder.kicad_pcb",
+      "size": 73822,
+      "kind": "kicad"
+     },
+     {
+      "path": "hardware/Top/TopStaff/TopStaff.kicad_pcb",
+      "size": 45921,
+      "kind": "kicad"
+     }
+    ]
+   }
+  ],
+  "ok": true
+ },
+ "ekoparty-2024-ekoparty-2024-official-badge": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://github.com/ElectronicCats/badge-EKOParty-2024/tree/main/hardware",
+    "repo": "ElectronicCats/badge-EKOParty-2024",
+    "ref": "main",
+    "subpath": "hardware",
+    "license": "NOASSERTION",
+    "truncated": false,
+    "files": [
+     {
+      "path": "hardware/eko-badge-2024/eko-badge-2024.kicad_pcb",
+      "size": 1247670,
+      "kind": "kicad"
+     },
+     {
+      "path": "hardware/Lentes EKOparty-2024/Lentes EKOparty-2024.kicad_pcb",
+      "size": 83072,
+      "kind": "kicad"
+     }
+    ]
+   }
+  ],
+  "ok": true
+ },
+ "ekoparty-2025-ekoparty-2025-badge": {
+  "sources": [
+   {
+    "status": "no_pcb_files",
+    "source_url": "https://github.com/lucasleale/Ekoparty_Badge_2025",
+    "repo": "lucasleale/Ekoparty_Badge_2025",
+    "ref": "main",
+    "subpath": "",
+    "license": "GPL-3.0",
+    "truncated": false,
+    "files": []
+   }
+  ],
+  "ok": false
+ },
+ "emf-camp-2014-tilda-mke": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://github.com/emfcamp/TiLDA",
+    "repo": "emfcamp/TiLDA",
+    "ref": "master",
+    "subpath": "",
+    "license": "",
+    "truncated": false,
+    "files": [
+     {
+      "path": "schematics/TiLDE.brd",
+      "size": 1054235,
+      "kind": "eagle"
+     }
+    ]
+   }
+  ],
+  "ok": true
+ },
+ "emf-camp-2016-tilda-mk3-mk": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://github.com/emfcamp/Mk3-Hardware",
+    "repo": "emfcamp/Mk3-Hardware",
+    "ref": "master",
+    "subpath": "",
+    "license": "NOASSERTION",
+    "truncated": false,
+    "files": [
+     {
+      "path": "Mk3 v3.1415926535 Panel.brd",
+      "size": 5078181,
+      "kind": "eagle"
+     },
+     {
+      "path": "Mk3 v3.1415926535.brd",
+      "size": 2335104,
+      "kind": "eagle"
+     },
+     {
+      "path": "Mk3 Prototype2.brd",
+      "size": 1068240,
+      "kind": "eagle"
+     },
+     {
+      "path": "Mk3 Prototype3.brd",
+      "size": 934301,
+      "kind": "eagle"
+     },
+     {
+      "path": "Gerbers/MK3-Gerbers-ordered-2015-12-15.zip",
+      "size": 221607,
+      "kind": "gerber_zip"
+     }
+    ]
+   }
+  ],
+  "ok": true
+ },
+ "emf-camp-2018-tilda-mk4": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://github.com/emfcamp/Mk4-Hardware",
+    "repo": "emfcamp/Mk4-Hardware",
+    "ref": "master",
+    "subpath": "",
+    "license": "NOASSERTION",
+    "truncated": false,
+    "files": [
+     {
+      "path": "Mk4 Final a Panel score 2x4.brd",
+      "size": 7861230,
+      "kind": "eagle"
+     },
+     {
+      "path": "Mk4 Final a.brd",
+      "size": 2878486,
+      "kind": "eagle"
+     },
+     {
+      "path": "Archive/Mk4 Final a Panel score 2x5.brd",
+      "size": 9286524,
+      "kind": "eagle"
+     },
+     {
+      "path": "Archive/Mk4 Final Panel 8up 4x2.brd",
+      "size": 8239036,
+      "kind": "eagle"
+     },
+     {
+      "path": "Datasheets/CC3120/SPRCAF9/CC3120_Gerbers.zip",
+      "size": 2912974,
+      "kind": "gerber_zip"
+     }
+    ]
+   }
+  ],
+  "ok": true
+ },
+ "emf-camp-2022-tidal": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://github.com/emfcamp/TiDAL-Hardware",
+    "repo": "emfcamp/TiDAL-Hardware",
+    "ref": "main",
+    "subpath": "",
+    "license": "",
+    "truncated": false,
+    "files": [
+     {
+      "path": "tilda6/tilda6-bot.kicad_pcb",
+      "size": 1345002,
+      "kind": "kicad"
+     },
+     {
+      "path": "tilda6/tilda6-top.kicad_pcb",
+      "size": 944236,
+      "kind": "kicad"
+     },
+     {
+      "path": "tilda6/pcbgogo-expansion.kicad_pcb",
+      "size": 251588,
+      "kind": "kicad"
+     },
+     {
+      "path": "tilda6/module/tilda6.kicad_pcb",
+      "size": 425344,
+      "kind": "kicad"
+     },
+     {
+      "path": "tilda6/manufacturing-data-bot-board/tilda6-bot-gerbers.zip",
+      "size": 447101,
+      "kind": "gerber_zip"
+     },
+     {
+      "path": "tilda6/manufacturing-data-top-board/tilda6-top-gerbers.zip",
+      "size": 381773,
+      "kind": "gerber_zip"
+     },
+     {
+      "path": "tilda6/manufacturing-data-expansion/manufacturing-data-expansion.zip",
+      "size": 240363,
+      "kind": "gerber_zip"
+     }
+    ]
+   }
+  ],
+  "ok": true
+ },
+ "emf-camp-2024-flandre-scarlet-3d-printed-wings-hexpansion": {
+  "sources": [
+   {
+    "status": "no_pcb_files",
+    "source_url": "https://github.com/DanNixon/hexpansions/tree/main/flan-wings-3dprinted",
+    "repo": "DanNixon/hexpansions",
+    "ref": "main",
+    "subpath": "flan-wings-3dprinted",
+    "license": "CERN-OHL-P-2.0",
+    "truncated": false,
+    "files": []
+   }
+  ],
+  "ok": false
+ },
+ "emf-camp-2024-le-carnard-de-bleu-hexpansion": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://github.com/DanNixon/hexpansions/tree/main/le-carnard-bleu",
+    "repo": "DanNixon/hexpansions",
+    "ref": "main",
+    "subpath": "le-carnard-bleu",
+    "license": "CERN-OHL-P-2.0",
+    "truncated": false,
+    "files": [
+     {
+      "path": "le-carnard-bleu/le-carnard-bleu.kicad_pcb",
+      "size": 348197,
+      "kind": "kicad"
+     }
+    ]
+   }
+  ],
+  "ok": true
+ },
+ "emf-camp-2024-rabbit-hexpansion": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://github.com/DanNixon/hexpansions/tree/main/rabbit",
+    "repo": "DanNixon/hexpansions",
+    "ref": "main",
+    "subpath": "rabbit",
+    "license": "CERN-OHL-P-2.0",
+    "truncated": false,
+    "files": [
+     {
+      "path": "rabbit/rabbit.kicad_pcb",
+      "size": 491806,
+      "kind": "kicad"
+     }
+    ]
+   }
+  ],
+  "ok": true
+ },
+ "emf-camp-2024-screen-hexpansion": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://github.com/mbooth101/emf-screen-hexpansion/tree/main/hardware",
+    "repo": "mbooth101/emf-screen-hexpansion",
+    "ref": "main",
+    "subpath": "hardware",
+    "license": "MIT",
+    "truncated": false,
+    "files": [
+     {
+      "path": "hardware/screen-hexpansion.kicad_pcb",
+      "size": 3819466,
+      "kind": "kicad"
+     }
+    ]
+   }
+  ],
+  "ok": true
+ },
+ "emf-camp-2026-gps-hexpansion": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://github.com/TechCabin/EMFBadge-Hexpansions-GPS",
+    "repo": "TechCabin/EMFBadge-Hexpansions-GPS",
+    "ref": "main",
+    "subpath": "",
+    "license": "",
+    "truncated": false,
+    "files": [
+     {
+      "path": "KiCAD/hexpansion-L80.kicad_pcb",
+      "size": 296076,
+      "kind": "kicad"
+     },
+     {
+      "path": "Gerbers/production_files/GERBER-hexpansion-L80.zip",
+      "size": 73865,
+      "kind": "gerber_zip"
+     },
+     {
+      "path": "KiCAD/jlcpcb/production_files/GERBER-hexpansion-L80.zip",
+      "size": 73865,
+      "kind": "gerber_zip"
+     }
+    ]
+   }
+  ],
+  "ok": true
+ },
+ "emf-camp-2026-sound-to-light-for-emf-tildagon-badge": {
+  "sources": [
+   {
+    "status": "no_pcb_files",
+    "source_url": "https://github.com/tonygoacher/tildagon_soundtolight",
+    "repo": "tonygoacher/tildagon_soundtolight",
+    "ref": "main",
+    "subpath": "",
+    "license": "",
+    "truncated": false,
+    "files": []
+   }
+  ],
+  "ok": false
+ },
+ "emf-camp-2026-tildagon-hexpansion-keyboard": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://github.com/davedarko/KeebDeckHexpansion",
+    "repo": "davedarko/KeebDeckHexpansion",
+    "ref": "main",
+    "subpath": "",
+    "license": "MIT",
+    "truncated": false,
+    "files": [
+     {
+      "path": "KiCad/main/main.kicad_pcb",
+      "size": 1281394,
+      "kind": "kicad"
+     },
+     {
+      "path": "KiCad/frontplate/frontplate.kicad_pcb",
+      "size": 519800,
+      "kind": "kicad"
+     }
+    ]
+   }
+  ],
+  "ok": true
+ },
+ "fri3d-2016-fri3d-2016-badge": {
+  "sources": [
+   {
+    "status": "ok",
+    "source_url": "https://github.com/christophevg/Fri3dBadge2016/tree/master/design/eagle",
+    "repo": "christophevg/Fri3dBadge2016",
+    "ref": "master",
+    "subpath": "design/eagle",
+    "license": "NOASSERTION",
+    "truncated": false,
+    "files": [
+     {
+      "path": "design/eagle/fri3d_badge_2016.brd",
+      "size": 867054,
+      "kind": "eagle"
+     }
+    ]
+   }
+  ],
+  "ok": true
  }
 }

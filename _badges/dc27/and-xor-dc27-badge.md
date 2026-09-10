@@ -71,6 +71,12 @@ links:
   url: https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/
   kind: article
   archived: https://web.archive.org/web/20260513003300/https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/
+- label: podcasts.apple.com/us/podcast/s1-episode-009-badgelife-ft-and-xor/id1605313494?i=1000565459682
+  url: https://podcasts.apple.com/us/podcast/s1-episode-009-badgelife-ft-and-xor/id1605313494?i=1000565459682
+  kind: website
+- label: AND!XOR badge listed on DEF CON forums
+  url: https://forum.defcon.org/node/229672
+  kind: article
 images:
 - file: assets/images/badges/dc27/and-xor-dc27-badge/ee96bc1b67.jpg
   source: https://hackaday.com/2019/07/29/hands-on-andxor-def-con-27-badge-ditches-bender-adopts-light-pipes/
@@ -82,8 +88,16 @@ images:
   credit: AND!XOR / Hackaday
   caption: Rear view of the AND!XOR DC27 badge
   archived: https://web.archive.org/web/20260831031531/https://hackaday.com/2019/07/29/hands-on-andxor-def-con-27-badge-ditches-bender-adopts-light-pipes/
+- file: assets/images/badges/dc27/and-xor-dc27-badge/5d7167109e.jpg
+  source: https://hackaday.io/project/164346-andxor-dc27-badge
+  credit: AND!XOR
+  caption: AND!XOR DC27 badge, front
+  archived: https://web.archive.org/web/20260517132807/https://hackaday.io/project/164346-andxor-dc27-badge
 contact: {}
-notes: []
+notes:
+- Sheet/original source was a Cyber Distortion podcast episode interviewing AND!XOR generally, without naming a specific badge; the Hackaday.io project "AND!XOR DC27 Badge" (project 164346) matches the entry's existing event/year (dc27, 2019) and supplied the concrete details filled in here.
+- AND!XOR's current GitHub org (github.com/ANDnXOR) lists badge repos for DC24, DC28, DC31, DC32, DC33 but no DC27-specific hardware/firmware repo was found there; Hackaday.io describes the DC27 badge as fully open-source hardware and firmware, but no working repo link could be confirmed, so hardware_url/firmware_url are left empty.
+- LED count not stated in sources found; left null.
 status: released
 sources:
 - kind: url
@@ -104,12 +118,24 @@ sources:
   accessed: '2026-09-07'
   note: Source for LED count/light pipes, power (2x AA + boost converter), design/color scheme, SAO add-ons, distribution split (free vs. sold), and badge photos.
   archived: https://web.archive.org/web/20260831031531/https://hackaday.com/2019/07/29/hands-on-andxor-def-con-27-badge-ditches-bender-adopts-light-pipes/
+- kind: url
+  url: https://podcasts.apple.com/us/podcast/s1-episode-009-badgelife-ft-and-xor/id1605313494?i=1000565459682
+  title: AND!XOR badge (year unspecified)
+  accessed: '2026-09-06'
+  note: 'Found by the archive''s discovery sweep (angle: video-podcast); event read as ''DEF CON / #badgelife culture generally''.'
+- kind: url
+  url: https://forum.defcon.org/node/229672
+  title: 'AND!XOR Badge, HackADay: Mike Szczys: DEF CON 27 - DEF CON Forums'
+  accessed: '2026-09-07'
+  note: Corroborates the DC27 event identification (link fetch failed with a connection error, so used only as a supporting search-result citation, not read directly).
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-07'
-  notes: Maker team members named in some sources as Zapp, Andrew, and Hyr0n, but the entry keeps "AND!XOR" as the credited maker per the sheet's convention (team-level credit used consistently across their other DC entries, e.g. dc30/dc31/dc32/dc33). No consolidated GitHub/hardware repo link was located in the sources checked, so make_your_own.hardware_url/firmware_url are left empty despite the project logs discussing design details (open_source set to "partial" on that basis). Exact price for the backer-sold ~25% was not stated in sources found.
+  notes: Maker team members named in some sources as Zapp, Andrew, and Hyr0n, but the entry keeps "AND!XOR" as the credited maker per the sheet's convention (team-level credit used consistently across their other DC entries, e.g. dc30/dc31/dc32/dc33). No consolidated GitHub/hardware repo link was located in the sources checked, so make_your_own.hardware_url/firmware_url are left empty despite the project logs discussing design details (open_source set to "partial" on that basis). Exact price for the backer-sold ~25% was not stated in sources found. Merged with duplicate entry 'AND!XOR DC27 Badge' (dc27-and-xor-badge-year-unspecified).
 last_modified_date: '2026-09-07'
+redirect_from:
+- /badges/dc27/and-xor-badge-year-unspecified/
 ---
 
 The AND!XOR DC27 badge is a hackable electronic conference badge made by the AND!XOR team for DEF CON 27 (August 2019) in Las Vegas. It replaces a traditional screen with a 102-pixel RGB LED matrix, built around an IS31FL3741 driver and diffused through flexible 3D light pipes into a gas-masked, hoodie-wearing mascot design finished in a black, white, and gold color scheme. Around 600 badges were produced with sponsorship from Urbane Security, Macrofab, Mouser Electronics, and Rigado; roughly three-quarters were given away free at DEF CON 27 and B-Sides Las Vegas, with the remainder pre-sold to backers.
@@ -119,3 +145,11 @@ Under the hood it runs an NRF52840 core (via a Rigado BMD-340 module) and uses a
 ## Make your own
 
 No consolidated hardware or firmware repository link was found in the sources checked; the Hackaday.io project page documents the build through a series of project logs rather than a single repo, so files were not confirmed as fully published.
+
+## Notes merged from the duplicate entry "AND!XOR DC27 Badge"
+
+AND!XOR built this badge for DEF CON 27 in Las Vegas (August 2019) as a hackable, open-source dev-board-style wearable, continuing their yearly tradition of elaborate conference badges. The design departs from the team's earlier aesthetic with a Fallout-inspired gas-mask, hoodie-wearing character, set off by two arcs of light-pipe material that glow with RGB color driven by an IS31FL3741 controller. Underneath, an nRF52840-based Rigado BMD-340 module runs the show, alongside an FT2232H USB-UART bridge/debugger and an IQS333 capacitive touch controller for glow-in-the-dark touch sensing.
+
+Beyond blinking lights, the badge doubled as a game platform: an embedded text-adventure and puzzle challenge called B.E.N.D.E.R. (Badge Enabled Non Directive Enigma Routine), a CTF leaderboard reachable through proxy nodes, and a Bluetooth mesh network nicknamed BOTNET that let badges issue commands to each other across the conference floor. It carries a SAO 1.69bis header for add-ons, including AND!XOR's own DOOM-themed SAO sold separately as a fundraiser.
+
+Around 600 units were manufactured and given away free at DEF CON 27, underwritten by sponsors including Urbane Security, Macrofab, Mouser Electronics, and Rigado. AND!XOR describes the hardware and firmware as fully open source, though a working GitHub link to the DC27-specific repository could not be located during this research pass; their organization page instead hosts badge projects for other years.

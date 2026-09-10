@@ -36,7 +36,7 @@ tech:
 get_one:
   price: $75
   price_usd: 75
-  quantity: ''
+  quantity: '25000'
   availability: sold_out
   availability_note: 'Checked 2026-09-07: shop.defcon.org listing for the DEF CON 30 human badge with lanyard (product page since removed from the live store; price and images recovered via Wayback Machine snapshot from 2024-12-16).'
   distribution:
@@ -66,11 +66,23 @@ links:
   url: https://mkfactor.com/
   kind: website
   archived: https://web.archive.org/web/20260614164003/http://mkfactor.com/
+- label: hackaday.com/2023/03/03/supercon-2022-michael-whiteley-saves-the-badge
+  url: https://hackaday.com/2023/03/03/supercon-2022-michael-whiteley-saves-the-badge/
+  kind: article
+  archived: https://web.archive.org/web/20260419014334/https://hackaday.com/2023/03/03/supercon-2022-michael-whiteley-saves-the-badge/
+- label: 'Supercon 2022: Michael Whiteley - "There''s No Rev 2: When Badgelife Goes Wrong" (YouTube)'
+  url: https://www.youtube.com/watch?v=9v9v67Z7J6M
+  kind: video
 images:
 - file: assets/images/badges/dc30/badge-2022/70c74c044d.jpg
   source: https://blog.tindie.com/2022/08/badge-me-if-you-can-def-con-30/
   credit: Tindie Blog
   caption: The DEF CON 30 official human badge, showing its capacitive touch keys and curved PCB face.
+  archived: https://web.archive.org/web/20260114122305/https://blog.tindie.com/2022/08/badge-me-if-you-can-def-con-30/
+- file: assets/images/badges/dc30/badge-2022/d590d4d7ac.jpg
+  source: https://blog.tindie.com/2022/08/badge-me-if-you-can-def-con-30/
+  credit: MK Factor / Tindie Blog
+  caption: The official DEF CON 30 badge, with its curved PCB face and capacitive touch keyboard
   archived: https://web.archive.org/web/20260114122305/https://blog.tindie.com/2022/08/badge-me-if-you-can-def-con-30/
 contact: {}
 notes:
@@ -106,12 +118,25 @@ sources:
   title: DEF CON 30 Human badge with lanyard - DEF CON Shop (Wayback Machine snapshot)
   accessed: '2026-09-07'
   note: Live shop.defcon.org listing now 404s; Wayback snapshot gives price ($75) and confirms "Human" badge variant name and lanyard bundling.
+- kind: url
+  url: https://hackaday.com/2023/03/03/supercon-2022-michael-whiteley-saves-the-badge/
+  title: 'Supercon 2022: Michael Whiteley Saves The Badge'
+  accessed: '2026-09-07'
+  note: Covers the Supercon 2022 talk about DC30 badge manufacturing problems (audio amplifier BGA rework, 25,000-unit run, chip-shortage redesigns).
+  archived: https://web.archive.org/web/20260419014334/https://hackaday.com/2023/03/03/supercon-2022-michael-whiteley-saves-the-badge/
+- kind: url
+  url: https://www.youtube.com/watch?v=9v9v67Z7J6M
+  title: 'Supercon 2022: Michael Whiteley - There''s No Rev 2: When Badgelife Goes Wrong'
+  accessed: '2026-09-07'
+  note: Talk video title/listing, confirming talk name and speaker; not watched in full.
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-07'
-  notes: LED count/type, exact display info (a small status screen is mentioned in the instructions but its size/type is not specified), battery/power source, quantity made, and open-source hardware/firmware links were not found in the sources checked. The badge challenge/puzzle had a separate writeup repo (github.com/Kybr-git/DC30-Badge-Challenge-Writeup) not reviewed in depth here. Other attendee-type badge variants (Contest, Goon, Artist, Press, Vendor, Speaker, Call for Papers) exist but were not separately researched.
+  notes: LED count/type, exact display info (a small status screen is mentioned in the instructions but its size/type is not specified), battery/power source, quantity made, and open-source hardware/firmware links were not found in the sources checked. The badge challenge/puzzle had a separate writeup repo (github.com/Kybr-git/DC30-Badge-Challenge-Writeup) not reviewed in depth here. Other attendee-type badge variants (Contest, Goon, Artist, Press, Vendor, Speaker, Call for Papers) exist but were not separately researched. Merged with duplicate entry 'DEF CON 30 Official Badge' (dc30-badge-discussed-in-supercon-2022-badgelife-history-talk).
 last_modified_date: '2026-09-07'
+redirect_from:
+- /badges/dc30/badge-discussed-in-supercon-2022-badgelife-history-talk/
 ---
 
 The DEF CON 30 "Human" badge is the official electronic badge given to general attendees of DEF CON 30 (Las Vegas, August 2022), designed by MK Factor working with DEF CON founder The Dark Tangent. Built around an RP2040 microcontroller, it replaces a typical button-and-LED badge interface with a capacitive-touch keyboard set into a curved PCB "face" that also holds a pressure-connected speaker in place — letting wearers play built-in sounds, record their own samples through an onboard microphone or line-in jack, and use the badge as a class-compliant USB MIDI controller when plugged into a computer. A self-test mode and a USB UF2 bootloader for re-flashing firmware were both built in, and the badge doubled as part of that year's on-badge puzzle/challenge.
@@ -119,3 +144,9 @@ The DEF CON 30 "Human" badge is the official electronic badge given to general a
 DEF CON badges are typically split by attendee role — Human, Contest, Goon, Artist, Press, Vendor, Speaker, and Call for Papers all had their own badge variants for DC30 — and this entry covers the standard white-soldermask, black-silkscreen "Human" badge that most attendees received with registration; DEF CON's shop also sold it separately with a lanyard for $75. MK Factor had designed the previous year's DEF CON 29 badge as well, and the making of the DC30 badge was the subject of the con's opening talk with The Dark Tangent.
 
 Design files, LED/display specifics, and total production quantity were not found in the sources reviewed and are left blank pending further research.
+
+## Notes merged from the duplicate entry "DEF CON 30 Official Badge"
+
+The DEF CON 30 (2022) conference badge, made by the husband-and-wife badgemaking team MK Factor (Michael and Katie Whiteley), is a musical-instrument badge built around a Raspberry Pi RP2040. Its face is a curved PCB insert that holds a pressure-connected speaker in place above a capacitive-touch keyboard; attendees could play built-in songs, record samples through an onboard microphone or a line-in jack, and the badge doubled as a class-compliant USB MIDI device when plugged into a computer. About 25,000 units were produced for the con.
+
+The badge's story became notable less for its music features than for how it was built: MK Factor described DEF CON 30 as a "herculean project" completed during the 2021-2022 semiconductor shortage, with the design repeatedly reworked as different microcontrollers went in and out of stock before RP2040 supply held. A late substitution of the audio amplifier chip introduced a hardware flaw where looping the badge's audio output back into its own input, or shorting the audio jack (as could happen with certain lanyard clips), could permanently damage the tiny 1.5mm BGA-package amplifier. DEF CON's own badge instructions carry an explicit warning against this. The Hardware Hacking Village offered rework help for damaged units over the weekend. Michael Whiteley recounted this and other badge disasters in his Supercon 2022 talk "There's No Rev 2: When Badgelife Goes Wrong," which is the source this entry was originally logged from.

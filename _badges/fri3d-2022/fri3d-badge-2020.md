@@ -32,7 +32,7 @@ tech:
   - usb
   - i2c
   battery: LiPo, rechargeable, with optional GPIO-controlled charging
-  sao_version: null
+  sao_version: none
 get_one:
   price: ''
   price_usd: null
@@ -60,12 +60,30 @@ links:
 - label: github.com/Fri3dCamp/gameon-2020
   url: https://github.com/Fri3dCamp/gameon-2020
   kind: repo
+- label: github.com/Fri3dCamp/Badge2020_micropython
+  url: https://github.com/Fri3dCamp/Badge2020_micropython
+  kind: repo
+- label: github.com/Fri3dCamp/Badge2020_arduino
+  url: https://github.com/Fri3dCamp/Badge2020_arduino
+  kind: repo
+- label: fri3d.be/badge
+  url: https://fri3d.be/badge/
+  kind: website
+  archived: https://web.archive.org/web/20260622193534/https://fri3d.be/badge/
 images:
 - file: assets/images/badges/fri3d-2022/fri3d-badge-2020/b5372ebc64.jpg
   source: https://hackaday.io/project/169741-fri3d-2022-badge
   credit: Fri3d Camp
   caption: The production octopus-shaped Fri3d Camp badge, front side, with its 1.54" IPS LCD and micro:bit-style edge connector
   archived: https://web.archive.org/web/20251005200153/https://hackaday.io/project/169741-fri3d-2022-badge
+- file: assets/images/badges/fri3d-2022/fri3d-badge-2020/1d07ef73fa.jpg
+  source: https://github.com/Fri3dCamp/badge-2020
+  credit: Fri3d Camp
+  caption: Front view of the Fri3d 2022 badge PCB
+- file: assets/images/badges/fri3d-2022/fri3d-badge-2020/776f752a54.jpg
+  source: https://github.com/Fri3dCamp/badge-2020
+  credit: Fri3d Camp
+  caption: Close-up of the Fri3d 2022 badge, showing the display and expansion connector
 contact: {}
 notes: []
 status: released
@@ -96,11 +114,22 @@ sources:
   title: Fri3dCamp/gameon-2020 (GameOn add-on)
   accessed: '2026-09-07'
   note: GameOn is a separate joystick/SD-card/audio-amp add-on board that plugs into this badge; originally prototyped for the 2020 badge. Reported separately, not merged into this entry.
+- kind: url
+  url: https://github.com/Fri3dCamp/Badge2020_micropython
+  title: Fri3dCamp/Badge2020_micropython
+  accessed: '2026-09-07'
+  note: MicroPython firmware repository for the badge.
+- kind: url
+  url: https://fri3d.be/badge/
+  title: Fri3d Camp badge page
+  accessed: '2026-09-07'
+  note: Current badge overview page; describes the current-year (2026) badge program rather than the 2022 badge specifically, so not used for hardware specs.
+  archived: https://web.archive.org/web/20260622193534/https://fri3d.be/badge/
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-07'
-  notes: LED count/type not stated anywhere found (the badge appears to have no addressable LEDs beyond the LCD and possibly status LEDs on the buttons, not confirmed). Exact per-unit price not found; badge was given free to attendees as part of registration/ticket, not separately sold, so price is left blank. Maker team members named on Hackaday (Wim Van Gool, Hans Polders, Bart Cerneels) but the entry keeps "Fri3d Camp" as the maker per the org convention used elsewhere in the archive; individual names noted here for reference.
+  notes: LED count/type not stated anywhere found (the badge appears to have no addressable LEDs beyond the LCD and possibly status LEDs on the buttons, not confirmed). Exact per-unit price not found; badge was given free to attendees as part of registration/ticket, not separately sold, so price is left blank. Maker team members named on Hackaday (Wim Van Gool, Hans Polders, Bart Cerneels) but the entry keeps "Fri3d Camp" as the maker per the org convention used elsewhere in the archive; individual names noted here for reference. Merged with duplicate entry 'Fri3d 2022 Badge' (fri3d-2022-fri3d-2022-badge).
 last_modified_date: '2026-09-07'
 model:
   file: assets/models/fri3d-2022/fri3d-badge-2020.glb
@@ -112,6 +141,8 @@ model:
   - 420.0
   - 297.0
   note: The published files have no board outline, so the model is shown on a rectangular board.
+redirect_from:
+- /badges/fri3d-2022/fri3d-2022-badge/
 ---
 
 The Fri3d Badge 2020 is the official electronic badge of Fri3d Camp, a biennial family-friendly hacker/maker festival in Belgium. Despite the name, it was actually worn at Fri3d Camp 2022: the badge was designed and prototyped in 2020 for that year's camp, but the event itself was postponed (COVID-era disruption), so the design carried over and the final production run — REV 03 — shipped to attendees at the rescheduled 2022 camp, held 12-14 August. The board is cut in the shape of an octopus, with a 1.54" 240x240 IPS LCD (ST7789 driver) mounted in the "head" and five tactile buttons along the bottom edge doubling as a BBC micro:bit V2-style edge connector for pin access.
@@ -121,3 +152,11 @@ Under the hood is an ESP32-WROVER module (4MB PSRAM, 16MB flash), a LIS2DH12 acc
 ## Make your own
 
 Hardware design files, firmware (MicroPython and Arduino), and the revision history (REV 00 through the production REV 03) are all published at github.com/Fri3dCamp/badge-2020. The README documents how to populate the optional CO2 and temperature/humidity sensor footprints and how to wire up battery-charging control via GPIO.
+
+## Notes merged from the duplicate entry "Fri3d 2022 Badge"
+
+The Fri3d 2022 Badge was the official attendee badge given to participants of Fri3d Camp 2022, a Belgian hacker camp held in August 2022. Rather than a new design, the badge reused the hardware from the Fri3d Camp 2020 edition: an ESP32-WROVER module with 4MB of PSRAM and 16MB of flash, driving a 240x240 IPS LCD built around an ST7789v controller. It also carries a LIS2DH12 three-axis accelerometer (wired to wake the board on movement), an IR receiver, and a CP2102N USB-to-UART bridge for programming. More than 700 units were produced.
+
+A distinguishing feature of the design is its BBC micro:bit V2-style edge connector, which let attendees plug the badge into existing micro:bit accessories and add-on boards rather than a proprietary SAO header. The board shipped flashed with MicroPython firmware, though an Arduino firmware option was also published by the Fri3d Camp team.
+
+Both the hardware design and the firmware are open source, published across several repositories under the Fri3dCamp GitHub organization: `badge-2020` for the PCB design, `Badge2020_micropython` for the stock firmware, and `Badge2020_arduino` for the Arduino alternative. The Hackaday.io project credits a team of five: Wim Van Gool, Hans Polders, Bart Cerneels, Toon, and the Fri3d Camp organization itself.

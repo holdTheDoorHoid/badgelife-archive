@@ -32,7 +32,7 @@ tech:
   - buttons
   - accelerometer
   battery: USB or addon-supplied power (dual P-channel FET/diode power-source selection)
-  sao_version: null
+  sao_version: v1.69bis
 get_one:
   price: ''
   price_usd: null
@@ -52,6 +52,9 @@ links:
   url: https://hackaday.io/project/166453-gat-nametag-dc27-addon
   kind: hackaday
   archived: https://web.archive.org/web/20260218145209/https://hackaday.io/project/166453-gat-nametag-dc27-addon
+- label: basic.truecontrol.org/dc27/gat-nametag
+  url: https://basic.truecontrol.org/dc27/gat-nametag/
+  kind: website
 images:
 - file: assets/images/badges/dc27/gat-nametag-dc27-addon/d5551f3699.jpg
   source: https://hackaday.io/project/166453-gat-nametag-dc27-addon
@@ -63,8 +66,13 @@ images:
   credit: 'true'
   caption: GAT Nametag DC27 Addon, in use
   archived: https://web.archive.org/web/20260218145209/https://hackaday.io/project/166453-gat-nametag-dc27-addon
+- file: assets/images/badges/dc27/gat-nametag-dc27-addon/d5551f3699.jpg
+  source: https://hackaday.io/project/166453-gat-nametag-dc27-addon
+  credit: true (trueControl)
+  caption: GAT Nametag DC27 Addon
 contact: {}
-notes: []
+notes:
+- Spotted by a research agent while working on a neighbouring entry (run 2).
 status: released
 sources:
 - kind: url
@@ -85,12 +93,19 @@ sources:
   accessed: '2026-09-07'
   note: Search result confirming the badge appeared among the DEF CON 27 unofficial badge lineup; corroborates maker and purpose (funding the Whiskey Pirates DC28 badge).
   archived: https://web.archive.org/web/20260513003300/https://hackaday.com/2019/09/19/pictorial-guide-to-the-unofficial-electronic-badges-of-def-con-27/
+- kind: url
+  url: https://basic.truecontrol.org/dc27/gat-nametag/
+  title: GAT Nametag Addon (DC27)
+  accessed: '2026-09-07'
+  note: 'Found by the archive''s discovery sweep (angle: research-run2-spotted); event read as ''dc27''. Page now returns 404 despite still being linked from the site''s own navigation; content confirmed via Hackaday.io project instead.'
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-07'
-  notes: Price and exact LED count are not stated anywhere the maker wrote; it was a free give-away/side project rather than a sold item, so get_one.price and get_one.availability are left unfilled/unknown. sao_version/sao_ports not stated. A related later project "GAT Nametag SC8" (hackaday.io/project/198536) exists for a different event and is reported separately below, not folded into this entry.
+  notes: Price and exact LED count are not stated anywhere the maker wrote; it was a free give-away/side project rather than a sold item, so get_one.price and get_one.availability are left unfilled/unknown. sao_version/sao_ports not stated. A related later project "GAT Nametag SC8" (hackaday.io/project/198536) exists for a different event and is reported separately below, not folded into this entry. Merged with duplicate entry 'GAT Nametag Addon (DC27)' (dc27-gat-nametag-addon-dc27).
 last_modified_date: '2026-09-07'
+redirect_from:
+- /badges/dc27/gat-nametag-addon-dc27/
 ---
 
 The GAT Nametag DC27 Addon is a name-badge addon built by the maker known as "true," of the Whiskey Pirate Crew, for DEF CON 27 in 2019. It centers on a 0.91" OLED that shows the wearer's name in one of several selectable fonts, paired with an ADXL345 accelerometer so the displayed text rotates to stay upright no matter how the badge is turned or worn. Programmable RGB LEDs and onboard buttons let the wearer switch fonts and light modes on the fly. "GAT" loosely stands for "Greater Addon Technology," a nod to the project being more capable than a typical SAO despite the "addon" name.
@@ -100,3 +115,9 @@ The maker built and gave away roughly 113 fully assembled units at DEF CON 27, p
 ## Make your own
 
 The maker published firmware (source and binary, `gat_nametag_efm8_fw_0.2.7a.7z`) and a REV3 schematic image directly on the Hackaday.io project page, along with confirmation that the USB HID bootloader was tested and working on all units. No separate hardware repository or bill-of-materials link was found; anyone wanting to build one would need to reference the schematic and firmware archive posted there.
+
+## Notes merged from the duplicate entry "GAT Nametag Addon (DC27)"
+
+The GAT Nametag Addon was released by the maker "true" (of trueControl / Whiskey Pirates) at DEF CON 27 in 2019 as a badge addon built to the GAT/SAO v1.69bis standard. It centers on a small OLED display that shows the wearer's name in one of several selectable fonts, and it uses an onboard accelerometer to keep the text upright no matter which way the badge is rotated or flipped. Programmable RGB LEDs and a pair of rear buttons round out the hardware, letting the wearer switch fonts, colors, and display modes on the fly.
+
+By late July 2019 the maker had built roughly 113 working units, along with a number of partially-assembled "80% kits," and distributed them at DEF CON 27 through a closed reservation process rather than open retail sale. Firmware (version 0.2.7a) and a REV3 schematic were shared as downloadable files on the project's Hackaday.io page.

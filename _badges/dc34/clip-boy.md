@@ -36,7 +36,7 @@ tech:
   - bluetooth
   inputs:
   - touch
-  battery: null
+  battery: LiPo 2200 mAh
   sao_version: v1.69bis
   sao_ports: 1
 get_one:
@@ -75,11 +75,30 @@ links:
 - label: safehazard.github.io/Clip-Boy
   url: https://safehazard.github.io/Clip-Boy/
   kind: doc
+- label: uberflux.com/product/NIKO-CLIPPY
+  url: https://uberflux.com/product/NIKO-CLIPPY
+  kind: store
+- label: tropicsquirrel.github.io/shop
+  url: https://tropicsquirrel.github.io/shop/
+  kind: store
+  archived: https://web.archive.org/web/20260829171455/https://tropicsquirrel.github.io/shop/
+- label: brycebadges.com
+  url: https://brycebadges.com
+  kind: website
 images:
 - file: assets/images/badges/dc34/clip-boy/554231b975.jpg
   source: https://tropicsquirrel.github.io/shop/
   credit: Coruscant Productions, LLC
   caption: Clip-Boy Mk2 emerging from a vault door, hero shot
+  archived: https://web.archive.org/web/20260829171455/https://tropicsquirrel.github.io/shop/
+- file: assets/images/badges/dc34/clip-boy/c2142aa8bb.jpg
+  source: https://uberflux.com/product/NIKO-CLIPPY
+  credit: Coruscant Productions, LLC
+  caption: Clip-Boy wrist-mounted badge product photo
+- file: assets/images/badges/dc34/clip-boy/554231b975.jpg
+  source: https://tropicsquirrel.github.io/shop/
+  credit: Bryce / Coruscant Productions, LLC
+  caption: Clip-Boy badge, Fallout-inspired hero image
   archived: https://web.archive.org/web/20260829171455/https://tropicsquirrel.github.io/shop/
 contact:
   discord: n/a
@@ -87,7 +106,8 @@ contact:
   - coruscantproductions@gmail.com
   raw:
   - defcon.social/@clipboy
-notes: []
+notes:
+- The badge's own promotional copy describes it as a "parody badge...Fallout-inspired, not affiliated with Bethesda or Valve."
 status: released
 sources:
 - kind: sheet
@@ -110,11 +130,27 @@ sources:
   title: SafeHazard/Clip-Boy on GitHub
   accessed: '2026-09-06'
   note: Confirms ESP32-S3 MCU, 2.8" LVGL touchscreen, VL53L5CX time-of-flight sensor, addressable RGB, SAO v1.69bis header, GPLv3/MIT dual licensing, EasyEDA PCB source, Gerbers, BOM, and enclosure files; Wi-Fi/BT recon tools derived from ESP32 Marauder, a drone Remote-ID (ASTM F3411) detector, and an ARG-style unlock finale using HMAC-derived codes.
+- kind: url
+  url: https://uberflux.com/product/NIKO-CLIPPY
+  title: Clip-Boy
+  accessed: '2026-09-06'
+  note: Found via the project's link list; intake pass identified this item here.
+- kind: url
+  url: https://tropicsquirrel.github.io/shop/
+  title: 'Clip-Boy: The Unofficial DEF CON 34 Electronic Badge — Pre-Order'
+  accessed: '2026-09-07'
+  note: 'Maker''s own storefront: identifies maker as Bryce (high school junior, San Antonio TX), unit counts, pricing, second-run pre-order details, and product photos.'
+  archived: https://web.archive.org/web/20260829171455/https://tropicsquirrel.github.io/shop/
+- kind: url
+  url: https://safehazard.github.io/Clip-Boy
+  title: Clip-Boy documentation
+  accessed: '2026-09-07'
+  note: Confirms hardware spec (display, sensor, LEDs, SAO connector), GPLv3 licensing, and second-run pre-order price.
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-06'
-  notes: Core facts (maker, MCU, display, sensor, SAO version, license, pricing, quantity, availability) are confirmed by the maker's own shop page, GitHub repo, and flasher site. Could not confirm exact LED count or battery/power spec from available pages. Could not load the YouTube video's description (page content was just YouTube boilerplate navigation), so it was not used as a source. A second lineup/colorway image was seen referenced on the shop page (id="poLineup") but its image URL is set by JavaScript and could not be resolved to a direct file, so only one image was saved.
+  notes: Core facts (maker, MCU, display, sensor, SAO version, license, pricing, quantity, availability) are confirmed by the maker's own shop page, GitHub repo, and flasher site. Could not confirm exact LED count or battery/power spec from available pages. Could not load the YouTube video's description (page content was just YouTube boilerplate navigation), so it was not used as a source. A second lineup/colorway image was seen referenced on the shop page (id="poLineup") but its image URL is set by JavaScript and could not be resolved to a direct file, so only one image was saved. Merged with duplicate entry 'Clip-Boy' (dc34-dc34-clip-boy).
 last_modified_date: '2026-09-07'
 model:
   file: assets/models/dc34/clip-boy.glb
@@ -125,6 +161,8 @@ model:
   size_mm:
   - 30.2
   - 60.5
+redirect_from:
+- /badges/dc34/dc34-clip-boy/
 ---
 
 Clip-Boy Mk2 is a wrist-mounted, Fallout-parody electronic badge built around an ESP32-S3 with a 2.8" LVGL touchscreen, a VL53L5CX time-of-flight sensor, addressable RGB lighting, and a SAO v1.69bis expansion header. It ships in a "passive/listen-only" mode with an optional research build that unlocks Wi-Fi and Bluetooth reconnaissance tools derived from ESP32 Marauder, plus a drone Remote-ID (ASTM F3411) detector. On top of the recon tooling it packs a theremin, over 90 unlockable collectibles, on-badge puzzles, and an ARG-style finale that unlocks using HMAC-derived codes — layered over dense Fallout in-jokes and puns.
@@ -136,3 +174,15 @@ The first run of 152 units, priced at $120 with a gunmetal-gray 3D-printed shell
 ## Make your own
 
 The full project — BOM, EasyEDA PCB source, Gerbers, 3D-printable enclosure, and firmware — is published on GitHub under `SafeHazard/Clip-Boy`, licensed GPLv3 (an MIT-licensed build without the audio tools is also offered). A browser-based Web Serial flasher at flash.brycebadges.com can install official releases directly from Chrome, Edge, or Opera, with release authenticity independently verifiable via minisign against checksums hosted on GitHub.
+
+## Notes merged from the duplicate entry "Clip-Boy"
+
+Clip-Boy is an unofficial, wrist-mounted electronic badge made for DEF CON 34 (Badge Life Village) by Bryce, a high-school junior from San Antonio, Texas, selling under the name niko / Coruscant Productions, LLC. Styled as a "digital wasteland survivor" prop in a Fallout-inspired parody (the maker is explicit that it is not affiliated with Bethesda or Valve), it runs on an ESP32-S3 with a 2.8-inch capacitive touchscreen LVGL interface, 8 customizable RGB LEDs, a VL53L5CX time-of-flight sensor, an SAO 1.69bis connector, stereo speakers, SD card storage, and a 2200 mAh battery.
+
+Functionally, the badge bundles Wi-Fi and Bluetooth reconnaissance tools derived from ESP32 Marauder, a radiation-detector mode, a theremin, drone Remote-ID detection, 3D-code scanning, and over 90 unlockable in-device collectibles, capped off by an alternate-reality-game finale that unlocked phone codes after the event. It ships in a passive, listen-only mode by default, with an optional research firmware build available for authorized testing only.
+
+The badge sold out its initial production (listed in a run of 36 on Uberflux, with the maker's own shop citing 152 units shipped total) at $125, and the maker later gauged interest in a second run with pre-orders at $135. Hardware and firmware are fully open source under GPLv3, with Gerbers, BOM, STEP enclosure files, and firmware published on GitHub (SafeHazard/Clip-Boy), and a browser-based Web Serial flasher hosted at flash.brycebadges.com for updating units in the field.
+
+## Make your own
+
+The GitHub repository (github.com/SafeHazard/Clip-Boy) publishes PCB Gerbers, a bill of materials, STEP files for the 3D-printed enclosure, and the full firmware source under GPLv3. Firmware can be applied to an assembled unit using the browser-based flasher at flash.brycebadges.com (Chrome/Edge/Opera on desktop, via Web Serial), which offers app-only, content/media, and full factory-reset flashing modes, plus optional minisign signature verification against the GitHub repo.

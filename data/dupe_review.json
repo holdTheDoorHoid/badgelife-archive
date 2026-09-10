@@ -1,0 +1,445 @@
+{
+ "merged": [
+  {
+   "a": "supercon-2024-hubble-sao",
+   "b": "supercon-2024-hubble-sao-2",
+   "verdict": "same_item",
+   "keep": "supercon-2024-hubble-sao-2",
+   "confidence": "high",
+   "reason": "Both describe the identical single board: same maker pdulab, same MCU (ATmega328PB), same sensors (VEML3328, LSM6DSO, 4x BPW34 photodiodes), same IR LED/yellow LED/button, same GitHub repo, same event/year. B is the fuller entry: it has an actual product image, more precise sourcing (Hackaday.io project page), quantity built (3 PCBs), and accurate cancelled/not_released status, whereas A is thinner (no image, generic 'unknown' availability) despite having the non-suffixed id.",
+   "merge_ok": true,
+   "err": ""
+  },
+  {
+   "a": "supercon-2024-featuring-you-sao",
+   "b": "supercon-2024-featuring-you-sao-2",
+   "verdict": "same_item",
+   "keep": "supercon-2024-featuring-you-sao-2",
+   "confidence": "high",
+   "reason": "Both describe the same \"Featuring You!\" SAO by Nanik Adnani for Supercon 2024/8: same GitHub repo (nanikgeorge/FeaturingYouSAO), same analog astable-multivibrator/BJT LED-driver design with no MCU, same arrow shape/theme. B has more researched content (an actual image, Hackaday.io project source, higher confidence/verified status, more detail on assembly and quantity), so despite having the numeric-suffix id it should be kept over A.",
+   "merge_ok": true,
+   "err": ""
+  },
+  {
+   "a": "supercon-2024-tars-sao",
+   "b": "supercon-2024-tars-sao-3",
+   "verdict": "same_item",
+   "keep": "supercon-2024-tars-sao",
+   "confidence": "high",
+   "reason": "Both entries describe the exact same board: same maker (davedarko), same GitHub repo (davedarko/TARS-SAO) and same Hackaday.io project (project/198001-tars-sao), same RP2040-Tiny MCU, 160x80 ST7735S display, six capacitive touch buttons, speaker, single white LED, QWIIC I2C, same Supercon 8 2024 SAO contest context, and nearly identical images (same source, same filenames). This is one duplicate intake, not two variants. Keep the non-suffixed id \"supercon-2024-tars-sao\" since it has slightly richer content (status: released vs listed, two links vs the same links reordered, more detailed sources/notes).",
+   "merge_ok": true,
+   "err": ""
+  },
+  {
+   "a": "supercon-2024-etch-sao-sketch-2",
+   "b": "supercon-2024-etch-sao-sketch",
+   "verdict": "same_item",
+   "keep": "supercon-2024-etch-sao-sketch",
+   "confidence": "high",
+   "reason": "Both describe Andy Geppert's Etch sAo Sketch: identical GitHub repo (ageppert/SAO_Etch_sAo_Sketch), same Hackaday.io project (197581), same Tindie listing (product 36383, $29, 3 units in stock), same SSD1327 OLED + LIS3DH accelerometer + two-pot design, same V1.0 Supercon 2024 through V1.3 Elecrow/Hackaday Europe 2025 revision history. These are the same physical board line, not different items. \"-etch-sao-sketch\" (no numeric suffix) has one more source citation, an extra companion-repo link, and slightly more detailed research notes, so it is the fuller entry to keep.",
+   "merge_ok": true,
+   "err": ""
+  },
+  {
+   "a": "supercon-2024-sao-digital-multimeter-2",
+   "b": "supercon-2024-sao-digital-multimeter",
+   "verdict": "same_item",
+   "keep": "supercon-2024-sao-digital-multimeter",
+   "confidence": "high",
+   "reason": "Both entries describe the same physical device: Thomas Flummer's RP2040/CircuitPython SAO Digital Multimeter for the Supercon 8 (2024) SAO Contest, same GitHub repos (flummer/dmm-sao, flummer/circuitpython hxr-sao-dmm branch), same Hackaday.io project page, same 41x75mm unibody 3D-printed case, rotary knob, OLED, two 2mm banana sockets, buzzer continuity test. The two files are clearly two research passes on one item: the non-suffixed entry (id: supercon-2024-sao-digital-multimeter) has research.status 'verified' with a fact-check pass that corrected the '-2' entry's unsupported claim of a '0.96\" OLED' (sources only say 'OLED') and removed an unsupported theme, and adds a Make-your-own body section \u2014 making it the fuller, more accurate entry. Keep the non-suffixed id per tie-break rule as well.",
+   "merge_ok": true,
+   "err": ""
+  },
+  {
+   "a": "supercon-2024-saop",
+   "b": "supercon-2024-saop-2",
+   "verdict": "same_item",
+   "keep": "supercon-2024-saop",
+   "confidence": "high",
+   "reason": "Both describe the identical SAOP novelty SAO (bar-of-soap shape, Chris Wilson/Common Ground Electronics, Supercon 8 Add-On Contest 2024, same github.com/common-ground-electronics/saop repo, same Hackaday.io project 198497). No design/version difference found \u2014 appears to be a duplicate intake entry. Keep supercon-2024-saop: it has no numeric suffix, includes an extra source citation (the README) and both PCB images with clearer captions/credits, and cites the canonical github.com/cgnd/saop repo alongside the mirror.",
+   "merge_ok": true,
+   "err": ""
+  },
+  {
+   "a": "supercon-2024-duckjaws-sao",
+   "b": "supercon-2024-duckjaws-sao-2",
+   "verdict": "same_item",
+   "keep": "supercon-2024-duckjaws-sao",
+   "confidence": "high",
+   "reason": "Identical maker (Adrian Studer/astuder, Wegmatt LLC), same GitHub repo (astuder/duckglow), same Tindie listing, same CH32V003 shark-shaped duckJAWS SAO from the duckGLOW family, same Supercon 8 2024 contest entry \u2014 these are two independent research passes on the exact same item, not variants. The base id entry has slightly more complete content (two makers listed including Marc Merlin, more link entries) so it is preferred.",
+   "merge_ok": true,
+   "err": ""
+  },
+  {
+   "a": "supercon-2024-duckbath-sao-2",
+   "b": "supercon-2024-duckbath-sao",
+   "verdict": "same_item",
+   "keep": "supercon-2024-duckbath-sao",
+   "confidence": "high",
+   "reason": "Both describe the same duckBATH SAO from Adrian Studer & Marc Merlin's duckGLOW project (Supercon 8, 2024): identical CH32V003 MCU, identical I2C address/jumper scheme, identical WS2812 mode, identical repo, and the same two images (same filenames/captions). No evidence of different revisions or variants. Keep supercon-2024-duckbath-sao: no numeric suffix, has an extra source link (YouTube video) and more get_one.where detail; the -2 entry has slightly more sources/research notes but is otherwise the same content.",
+   "merge_ok": true,
+   "err": ""
+  },
+  {
+   "a": "supercon-2023-vectorscope-badge",
+   "b": "supercon-2023-supercon-2023-vectorscope",
+   "verdict": "same_item",
+   "keep": "supercon-2023-vectorscope-badge",
+   "confidence": "high",
+   "reason": "Both describe the identical official Hackaday Supercon 2023 badge: same maker (Hackaday, hardware by Voja Antonic), same RP2040 + round GC9A01 display + AK4619 ADC/DAC design, same repo (Hack-a-Day/Vectorscope), same functions (vector scope, waveform generator, joystick, memory slots), same free distribution to attendees. Keep supercon-2023-vectorscope-badge: its id has no redundant \"supercon-2023\" duplication in the slug, and it has slightly more filled fields (price/quantity populated, sao_version explicitly \"none\" with a rationale note, license field filled) versus the other entry's blanks in those spots, though both are well-researched.",
+   "merge_ok": true,
+   "err": ""
+  },
+  {
+   "a": "other-the-child-sao-2",
+   "b": "other-the-child-sao",
+   "verdict": "same_item",
+   "keep": "other-the-child-sao",
+   "confidence": "high",
+   "reason": "Both describe TwinkleTwinkie's 2021 Grogu-themed SAO: identical 4-layer PCB, 4 self-flashing 0807 RGB LEDs, no MCU, same pop-culture/sci-fi theme. One is sourced from the Tindie sales listing, the other from the Hackaday.io project page with design files \u2014 same physical item documented via two channels. Keep other-the-child-sao: it has richer content (maker URL, hardware_url/design files, open_source info) and no numeric suffix.",
+   "merge_ok": true,
+   "err": ""
+  },
+  {
+   "a": "supercon-2022-vectrex-sao-2",
+   "b": "supercon-2022-vectrex-sao",
+   "verdict": "same_item",
+   "keep": "supercon-2022-vectrex-sao-2",
+   "confidence": "high",
+   "reason": "Same maker (Brett Walach/Technobly), same repo, same PIC16F886 board, same 7x10 charlieplexed LED matrix, same Scramble game and coiled-cord controller, same Supercon 2022 event \u2014 clearly one physical SAO design. The \"-2\" entry has more researched content (BOM/gerbers URLs, fab notes, two images, richer body text) despite its numeric-suffixed id, so it should be kept over the shorter id despite the naming convention preference.",
+   "merge_ok": true,
+   "err": ""
+  },
+  {
+   "a": "other-sloth-badge",
+   "b": "other-sloth-badge-pin",
+   "verdict": "same_item",
+   "keep": "other-sloth-badge",
+   "confidence": "high",
+   "reason": "Both entries describe the same physical design: davedarko's Nov 2017 Hackaday.io \"Sloth Badge\" project (hackaday.io/project/28330-sloth-badge), same maker, same year, same sloth-shaped wearable coin-cell blinky with an ATtiny13A driving 12 charlieplexed 0805 LEDs, same button-driven animation menu explicitly modeled on Pimoroni's Bearables, and the same shared image (89540fe526.png). B's REV1 Eagle design files (Simple-Add-ons-SAO repo) are the design files for the same board A later sold assembled/as a kit on Tindie as the \"Unbearable Sloth Badge\" \u2014 not a distinct add-on or different hardware revision. A has substantially more researched content (retail/sales history, kit vs assembled, images, sources) and no numeric suffix, so it should be kept.",
+   "merge_ok": true,
+   "err": ""
+  },
+  {
+   "a": "other-do-or-donut-sao",
+   "b": "other-do-or-donut-sao-2",
+   "verdict": "same_item",
+   "keep": "other-do-or-donut-sao",
+   "confidence": "high",
+   "reason": "Both describe the identical davedarko donut-shaped SAO from the same Hackaday.io project (168597), same Nov 2019 date, same IS31FL3731 driver, same 5-white-board JLCPCB prototype run and 800-LED order, same BOM cost \u2014 one physical/design item, not variants or different products. Entry A has the fuller record (GitHub repo/open-hardware link, cleaner summary) and lacks a numeric suffix, so it should be kept; B's unique details (row-remap pattern) can be merged into A if desired.",
+   "merge_ok": true,
+   "err": ""
+  },
+  {
+   "a": "dc34-retro-memories-26-addon-dc34-includes-whiskey-pirates-raid-r",
+   "b": "dc34-retro-memories-26-addon",
+   "verdict": "same_item",
+   "keep": "dc34-retro-memories-26-addon",
+   "confidence": "high",
+   "reason": "Same maker (trueControl), same DC34/2026 addon, same MCU family (RP2350/RP2350A), same 4x rear-firing RGB LEDs, same 1bpp OLED, same three personalities (nametag/screensaver, Mac 68K/After Dark emulator, magnet-controlled DOOM) and same three art variants (Retro Tech, Whiskey Pirates RAID, Ultra Compact). Entry A's own research note explicitly flags entry B as likely covering the same physical item. B has photos, price ($55), sold-out quantity data from Uberflux and should be kept; A adds hardware/firmware repo links and schematic detail worth merging in.",
+   "merge_ok": true,
+   "err": ""
+  },
+  {
+   "a": "fri3d-2018-fri3d-2018-ph0xx-badge-2",
+   "b": "fri3d-2018-fri3d-2018-ph0xx-badge",
+   "verdict": "same_item",
+   "keep": "fri3d-2018-fri3d-2018-ph0xx-badge",
+   "confidence": "high",
+   "reason": "Both describe the identical Ph0xx fox-shaped ESP32-WROOM-32 attendee badge from Fri3d Camp 2018, same makers (Wim Van Gool, Bert Outtier), same ~650 units, same tech (ADXL345, 18650+TP4056, Jewel headers, Lego Technic holes), same links/sources. Non-suffixed id \"fri3d-2018-fri3d-2018-ph0xx-badge\" has more thorough content (fuller body text with a \"Make your own\" section, additional source citation, notes on shift registers/color revision) despite -2 having slightly higher stated research confidence.",
+   "merge_ok": true,
+   "err": ""
+  },
+  {
+   "a": "fri3d-2022-fri3d-badge-2020",
+   "b": "fri3d-2022-fri3d-2022-badge",
+   "verdict": "same_item",
+   "keep": "fri3d-2022-fri3d-badge-2020",
+   "confidence": "high",
+   "reason": "Both describe the same physical ESP32-WROVER badge from Fri3dCamp/badge-2020 given to Fri3d Camp 2022 attendees (same repo, same MCU/display/accelerometer/IR/USB bridge, same hackaday.io project link). Entry A has more researched content (1 image vs listing octopus shape correctly, richer body text, GameOn add-on context, revision history REV00-03) though B has more images (2) and maker credits; overall A is fuller and shares its id's github source as canonical, so keep A.",
+   "merge_ok": true,
+   "err": ""
+  },
+  {
+   "a": "dc33-smartao-sao",
+   "b": "dc33-sao-for-above-smartao",
+   "verdict": "same_item",
+   "keep": "dc33-sao-for-above-smartao",
+   "confidence": "high",
+   "reason": "Both describe the identical Coruscant Ventures \"SmartAO SAO\" companion module for their \"SAO Many SAOs\" DC33 badge: same maker/contact (vor_t3x1/u/MorningMother8622), same $30(was $40) price, same product photo, same links, same function. Entry B has fuller research (research.status: verified vs researched, more sources including an archived host-badge page, corrected/soft-pedaled claims, richer body text) despite A having a slightly cleaner id and a filled tech.mcu field (unconfirmed eBay-title-only guess that B deliberately left blank as unverified) \u2014 B's overall content depth and confidence level are higher.",
+   "merge_ok": true,
+   "err": ""
+  },
+  {
+   "a": "dc34-dc34-clip-boy",
+   "b": "dc34-clip-boy",
+   "verdict": "same_item",
+   "keep": "dc34-clip-boy",
+   "confidence": "high",
+   "reason": "Both describe the identical physical badge: same maker (Bryce, Coruscant Productions LLC), same GitHub repo (SafeHazard/Clip-Boy), same DC34 2026 event, identical hardware (ESP32-S3, 2.8\" LVGL touchscreen, VL53L5CX ToF sensor, SAO v1.69bis, RGB LEDs), same 152-unit first run and same product photo. B's \"Mk2\" label is just naming flavor, not a distinct hardware revision. Prefer keeping id 'dc34-clip-boy' since it has no redundant event-prefix in its slug and is at least as researched (has additional contact/sources detail), even though A's file happens to be named dc34-clip-boy.md \u2014 the correct id to keep is the one without the duplicated 'dc34-dc34' prefix.",
+   "merge_ok": true,
+   "err": ""
+  },
+  {
+   "a": "dc33-sao-for-above",
+   "b": "dc33-sao-many-saos-already-catalogued-as-dc33-sao-many-saos",
+   "verdict": "same_item",
+   "keep": "dc33-sao-for-above",
+   "confidence": "high",
+   "reason": "Both are the Coruscant Ventures/Vortex Codes \"SAO Many SAOs\" 25-slot SAO carrier board for DEF CON 33 2025, sharing the same GitHub repo (vortexcodes/DC33-SaO-MANY-SAOs), SmartAO LED-driver dependency, and dual-18650 battery design \u2014 just documented from different storefronts (maker's own site vs. Hacker Warehouse) at different prices. A: dc33-sao-for-above has more researched content (product image, direct maker sources, body text, price/checkout detail) and no numeric/disambiguating suffix, so keep it.",
+   "merge_ok": true,
+   "err": ""
+  },
+  {
+   "a": "dc33-sao-and-many-sao-badge",
+   "b": "dc33-sao-for-above",
+   "verdict": "same_item",
+   "keep": "dc33-sao-and-many-sao-badge",
+   "confidence": "high",
+   "reason": "Both describe the same Coruscant Ventures \"SAO Many SAOs Badge\" \u2014 same maker, same GitHub repo link, same product page, same price/specs (25 SAO slots, 2x18650, SmartAO dependency), and each entry's own research notes explicitly identify it as a duplicate of the other. Entry A (dc33-sao-and-many-sao-badge) has more content: two images vs one, a longer body text, and merged notes from a third duplicate.",
+   "merge_ok": true,
+   "err": ""
+  },
+  {
+   "a": "dc29-compukidmike-dc29-badge",
+   "b": "dc29-badge",
+   "verdict": "same_item",
+   "keep": "dc29-compukidmike-dc29-badge",
+   "confidence": "high",
+   "reason": "Both describe the official DEF CON 29 (2021) attendee badge by MK Factor (Michael \"compukidmike\" and Katie Whiteley): identical MCU (ATSAMD21G16B), four Gateron Blue mechanical keys with RGB, capacitive touch volume pads, CR2032 battery, UF2 firmware update, edge-linking connectors, Discord-control defaults. Entry A has the maker's GitHub hardware/firmware repo link, higher research confidence, and an image; entry B lacks the source repo and is lower confidence but same badge (B even notes make_your_own fields left empty because they missed the repo A found). Keep A despite its numeric-suffix-like id since it has substantially more researched content (repo links, sao/hardware links, confirmed sources).",
+   "merge_ok": true,
+   "err": ""
+  },
+  {
+   "a": "dc30-badge-discussed-in-supercon-2022-badgelife-history-talk",
+   "b": "dc30-badge-2022",
+   "verdict": "same_item",
+   "keep": "dc30-badge-2022",
+   "confidence": "high",
+   "reason": "Both describe the official DEF CON 30 conference badge: same maker (MK Factor), same RP2040 MCU, same capacitive-touch keyboard/speaker/mic design, same USB MIDI function, same year and event. B (\"dc30-badge-2022\") has richer research (confidence: high vs medium, more sources/links, notes, price/availability data) and a cleaner id without the awkward \"discussed in...\" placeholder text.",
+   "merge_ok": true,
+   "err": ""
+  },
+  {
+   "a": "dc27-gat-nametag-dc27-addon",
+   "b": "dc27-gat-nametag-addon-dc27",
+   "verdict": "same_item",
+   "keep": "dc27-gat-nametag-dc27-addon",
+   "confidence": "high",
+   "reason": "Same maker (true/Whiskey Pirates/trueControl), same event/year, same MCU (EFM8UB20F64G-B), same 0.91\" SSD1306 128x32 OLED, same ~113 unit count, same primary hackaday.io link, and identical image file hash (d5551f3699.jpg) \u2014 this is one physical item documented from two source pages. Keep A: it has open-source firmware/schematic URLs filled in, richer tech fields (accelerometer model, battery/power detail), two images vs one, higher research confidence, and no numeric suffix issue either way.",
+   "merge_ok": true,
+   "err": ""
+  },
+  {
+   "a": "dc27-deadpool-badge-sao",
+   "b": "dc27-deadpool-mini-badge-sao",
+   "verdict": "same_item",
+   "keep": "dc27-deadpool-mini-badge-sao",
+   "confidence": "high",
+   "reason": "Same maker (s3gfault/TeamID64F), same event/year (DC27 2019), identical tech (ATtiny85 + MCP23017, 16 blue 1206 LEDs, SAO v1.69bis, coin cell), and both entries cross-reference the same Tindie listing URL for each other, indicating they were captured from two different listing URLs for one product rather than distinct items. B has more researched content (Hackaday corroboration, two credited images, quantity produced, richer body text) so it is kept despite carrying a suffix.",
+   "merge_ok": true,
+   "err": ""
+  },
+  {
+   "a": "dc27-dc27-multi-pass",
+   "b": "dc27-mooltipass-badge",
+   "verdict": "same_item",
+   "keep": "dc27-mooltipass-badge",
+   "confidence": "high",
+   "reason": "Both describe the identical DC27 MULTI PASS badge by Bliss Jourdan/CromulonB (same hackaday.io project 164625, same GitHub repo, same 2019 Kickstarter campaign, same specs: ESP32 WROOM, 2.9\" e-paper, 13 LEDs/ATmega48, 1000mAh LiPo, 2x SAO v1.69bis). Entry B's own notes even flag that its id/slug \"mooltipass-badge\" was a mistaken title from a discovery sweep for this same MULTI PASS project. B has more research content (higher confidence rating, an extra corroborating Hackaday article, an extra image, more detailed tech fields like Bluetooth and RGB LED color) despite having a less accurate id string.",
+   "merge_ok": true,
+   "err": ""
+  },
+  {
+   "a": "dc27-and-xor-dc27-badge",
+   "b": "dc27-and-xor-badge-year-unspecified",
+   "verdict": "same_item",
+   "keep": "dc27-and-xor-dc27-badge",
+   "confidence": "high",
+   "reason": "Both describe the same physical AND!XOR DEF CON 27 badge: same maker, same year (2019), same Rigado BMD-340/nRF52840 MCU, same IS31FL3741 LED controller and light-pipe design, same SAO v1.69bis, same ~600 quantity/free distribution, and both are sourced from the identical Hackaday.io project 164346. Entry A (dc27-and-xor-dc27-badge) has richer content: archived image sources, more links, tech_extra fields, and higher research confidence, so it should be kept.",
+   "merge_ok": true,
+   "err": ""
+  },
+  {
+   "a": "dc27-dc27-iron-gauntlet-sao",
+   "b": "dc27-iron-gauntlet-sao",
+   "verdict": "same_item",
+   "keep": "dc27-iron-gauntlet-sao",
+   "confidence": "high",
+   "reason": "Both describe the same TwinkleTwinkie DC27 Iron Gauntlet SAO bundled with the Arc Badge (same maker, same 2019 event, same 7x 1204 side-view LED design with hot-glue diffusers, same shared image file 0506da0c77.jpg). Entry B (dc27-iron-gauntlet-sao) is more thoroughly researched: verified status, two images plus a generated 3D model, and it found the Arc Badge Gerbers/firmware release that A missed. Its id also has no numeric/duplicated prefix.",
+   "merge_ok": true,
+   "err": ""
+  },
+  {
+   "a": "dc26-coinop-badge-2",
+   "b": "dc26-coinop-badge",
+   "verdict": "same_item",
+   "keep": "dc26-coinop-badge",
+   "confidence": "high",
+   "reason": "Identical physical item: same maker (Mike Szczys), same GitHub repo (szczys/coinop-badge), same DC26/2018 event, same 59 hand-assembled Galaga-ship boards with ATmega48 and CR2032. Keeping dc26-coinop-badge since it has no numeric suffix and slightly fuller get_one/make_your_own fields and an extra corroborating source (Hackaday.com roundup article), despite A having one more image.",
+   "merge_ok": true,
+   "err": ""
+  },
+  {
+   "a": "dc25-and-xor-dc25-badge",
+   "b": "dc25-badge-2017",
+   "verdict": "same_item",
+   "keep": "dc25-badge-2017",
+   "confidence": "high",
+   "reason": "Both describe the same AND!XOR DC25 (2017) Bender-shaped badge: identical MCU (Rigado BMD-300/nRF52), identical 15x WS2812B LEDs, identical 1.44in 128x128 LCD, identical ~2,820 LED animation combos, CHIP-8 emulator, Bluetooth badge-to-badge game, same Hackaday.io project (19121) and production quantity (~496-500). B has richer, verified research (confidence high vs medium, more links, two images, more detailed notes/body) so it should be kept over A.",
+   "merge_ok": true,
+   "err": ""
+  },
+  {
+   "a": "cccamp-2019-numberwang-badge-2",
+   "b": "cccamp-2019-numberwang-badge",
+   "verdict": "same_item",
+   "keep": "cccamp-2019-numberwang-badge",
+   "confidence": "high",
+   "reason": "Both describe the identical physical badge: same maker (timonsku), same GitHub repo/Hackaday project, same ATSAMD21G18/Itsy Bitsy M0-compatible design with MAX98357A I2S audio amp and reversed-polarity LiPo charging, same CCCamp19 Numberwang village distribution. B is the fuller, fact-checked entry (status: verified vs researched, more detailed tech/look fields, corrected errors, longer body) and has no numeric suffix, so it should be kept over the thinner duplicate A.",
+   "merge_ok": true,
+   "err": ""
+  },
+  {
+   "a": "dc26-thefreeman-dc26-indie-badge",
+   "b": "dc26-thefreeman-def-con-26-indie-badge",
+   "verdict": "same_item",
+   "keep": "dc26-thefreeman-def-con-26-indie-badge",
+   "confidence": "high",
+   "reason": "Both describe the same physical badge: same maker (TwinkleTwinkie), same Hackaday.io project (158663), same DC26/2018 event, same Vortigaunt-head design with identical LED part numbers (3x red LS T776-P2S1-1-Z, 2x orange LO T776-Q2T1-24-Z), same CR2032 power, same ~40 quantity. Entry B has more researched content overall (2 images vs 1, verified/high-confidence research status vs medium, filled get_one/distribution/availability fields with Tindie sourcing) even though A has a slightly longer narrative body; B's id has no numeric suffix and is otherwise equally valid, so keep B.",
+   "merge_ok": true,
+   "err": ""
+  },
+  {
+   "a": "queercon-2019-queercon-16-q-badge",
+   "b": "queercon-2019-queercon-16-badge",
+   "verdict": "same_item",
+   "keep": "queercon-2019-queercon-16-badge",
+   "confidence": "high",
+   "reason": "Both describe the same physical Queercon 16 \"Q badge\" board: identical MCU (TI CC2640R2/CC2640R2F), identical 2.9\" e-paper display (128x296), same Holtek HT16D35B LED controller, BLE + wired serial link, membrane/matrix keypad, and same 2019 event with George Louthan credited on both (as \"duplico\" and as part of the four-person team). Entry A's own notes explicitly flag it as possibly the same badge as B. Entry B is fuller: it has the maker's GitHub repo, open-source hardware/firmware links, multiple sourced references, two images, and detailed tech/body content, plus an id with no numeric/qualifier suffix.",
+   "merge_ok": true,
+   "err": ""
+  },
+  {
+   "a": "dc24-andxor-defcon-24-badge",
+   "b": "dc24-and-xor-dc24-badge",
+   "verdict": "same_item",
+   "keep": "dc24-andxor-defcon-24-badge",
+   "confidence": "high",
+   "reason": "Both describe AND!XOR's Bender-shaped DEF CON 24 badge (2016): identical MCU (STM32F103CBT6), OLED (SSD1306 128x64), 8x WS2812B LEDs, RFM69W 433MHz radio, 14 animations, same GitHub repo (ANDnXOR/ANDnXOR_DC24_Badge), and matching production quantities (~100 white/20 black/50 bling). Entry A (dc24-andxor-defcon-24-badge) is more polished/complete: has a proper shape field (robot), history section, model dimensions same, and cleaner sourcing without the self-noted \"spotted by research agent\" origin; keep A per no-numeric-suffix/fuller-content tiebreak.",
+   "merge_ok": true,
+   "err": ""
+  },
+  {
+   "a": "supercon-2024-touchwheel-sao",
+   "b": "supercon-2024-touchwheelsao",
+   "verdict": "same_item",
+   "keep": "supercon-2024-touchwheelsao",
+   "confidence": "high",
+   "reason": "Both entries describe the same board: same maker (todbot), same GitHub repo (todbot/TouchwheelSAO), same ATtiny816 MCU, same three interleaved capacitive touch pads + RGB LEDs + I2C register map, same Supercon 2024/8 event and QFN-SOIC-QFN design history. B has slightly richer research (extra GitHub API source, higher confidence rating, gerber/schematic direct links, hackaday.io project link) so it should be kept despite its numeric-suffix-free sibling id going to A.",
+   "merge_ok": true,
+   "err": ""
+  }
+ ],
+ "different": [
+  {
+   "a": "other-skeletor-electronic-pin-badge",
+   "b": "other-skeletor-electronic-pin-badge-2",
+   "verdict": "different_items",
+   "keep": "",
+   "confidence": "medium",
+   "reason": "Same maker (hyuma78/TheGizmolab) and same Skeletor skull theme, but the technical details conflict: A has an ATtiny13A MCU with a tactile button cycling 5 LED lighting modes plus sleep mode, sold via Uberflux for $30 (19 made); B has no disclosed MCU, just 2 fixed red LEDs with blinking modes and no button mentioned, sold via lectronz.com for $40.68 with stated dimensions 5x4.3cm. Different LED counts/behavior, different retailers/prices, and no cross-reference between the two listings suggests these are two distinct products in an informal line rather than the same design re-listed."
+  },
+  {
+   "a": "dc29-compukidmike-dc29-badge",
+   "b": "dc29-badge-2021",
+   "verdict": "different_items",
+   "keep": "",
+   "confidence": "high",
+   "reason": "Despite both claiming to be \"the official DEF CON 29 badge\" by MK Factor, the two entries describe physically incompatible devices: A is a compukidmike/MK Factor open-source ATSAMD21G16B four-key macro pad sold for $300 with GitHub firmware/hardware files, while B is a stacked-board MC56F8006VLC badge with USB-A/USB-C ports, rechargeable battery, and a networked Simon Says/CTF game, given free to all attendees, sourced from Science Viking Labs' teardown. Different MCUs, different functions, different images/sources, and A explicitly has purchase/price info inconsistent with B's free-distribution official-badge claim \u2014 these read as two distinct badges (or a factual conflict) rather than one item."
+  },
+  {
+   "a": "dc30-dickbutt-badge",
+   "b": "dc30-dickbutt-sao",
+   "verdict": "different_items",
+   "keep": "",
+   "confidence": "medium",
+   "reason": "Type field differs (badge vs sao), they come from different sheet rows (2 vs 43) with different sources/dates, and different distribution info (SAO has a price and seller handle @CylentK, badge doesn't). Both entries' research notes explicitly say no source confirms they're the same item or a companion pair \u2014 just a shared maker name (C0ldbru). Treat as two distinct physical items: a badge and a separate SAO by the same maker."
+  },
+  {
+   "a": "dc31-dc801-listed-for-def-con-31-no-details",
+   "b": "dc31-dc813-listed-for-def-con-31-no-details",
+   "verdict": "different_items",
+   "keep": "",
+   "confidence": "high",
+   "reason": "Distinct maker groups (DC801 Salt Lake City vs DC813 Tampa), different sheet rows (32 vs 33), different links/sources \u2014 these are two separate unrelated DEF CON regional groups, not one physical item."
+  },
+  {
+   "a": "dc31-dc540-listed-for-def-con-31-no-details",
+   "b": "dc31-dc404-listed-for-def-con-31-no-details",
+   "verdict": "different_items",
+   "keep": "",
+   "confidence": "high",
+   "reason": "These are placeholder entries for two entirely different DEF CON groups (DC540, based near Washington Dulles, vs DC404, the Atlanta group), each with distinct sites, sources, and histories; neither has a documented badge for DC31, but they are unrelated groups/items, not the same badge."
+  },
+  {
+   "a": "dc26-dc26-twinkletwinkie-badgelife-sao-add-on-6",
+   "b": "dc26-dc26-twinkletwinkie-badgelife-sao-add-on-4",
+   "verdict": "different_items",
+   "keep": "",
+   "confidence": "high",
+   "reason": "Same maker/event/year but distinct designs: #6 depicts an unnamed character with glowing eyes and a fuse, with separate eBay/Tindie product pages and photo; #4 is a purple cat SAO with black hot-glue backing and different Tindie photos. These are two different numbered items in TwinkleTwinkie's DC26 add-on series, not variants of one item."
+  },
+  {
+   "a": "dc26-dc26-twinkletwinkie-badgelife-sao-add-on-6",
+   "b": "dc26-dc26-twinkletwinkie-badgelife-sao-add-on-2",
+   "verdict": "different_items",
+   "keep": "",
+   "confidence": "high",
+   "reason": "Same maker/event/year but different numbered entries in TwinkleTwinkie's SAO series with entirely different designs: #6 depicts an unnamed character with light-up eyes and fuse (white LEDs), #2 is \"Fat Pika,\" a distinct Pikachu-themed yellow PCB with red LED cheeks and its own Hackaday.io/KiCad documentation."
+  },
+  {
+   "a": "dc32-cyber-circuitry-listed-for-def-con-32-no-details",
+   "b": "dc32-cyber-city-circuits-listed-for-def-con-32-no-details",
+   "verdict": "different_items",
+   "keep": "",
+   "confidence": "high",
+   "reason": "These are two distinct, unrelated companies (Cyber Circuitry LLC/cybercircuitry.com, maker Jeremy Wasson/darthdebugger vs Cyber City Circuits LLC/cybercitycircuits.com, a PCB business in North Augusta SC) each listed on separate sheet rows (39 vs 40) with no product details for either, just similar-sounding names."
+  },
+  {
+   "a": "dc34-badgelife-village-badge",
+   "b": "dc34-badgelife-village-saos",
+   "verdict": "different_items",
+   "keep": "",
+   "confidence": "high",
+   "reason": "Different makers (Jeff \"BigTaro\" vs. Ozma of Oz/GhostGlitch team, sponsored by iFixit), different type (main RP2354 CTF badge vs. three learn-to-solder SAO kits), separate original badge.life pages (/villagebadge/ vs /villageSAOs), and completely different tech/content/images."
+  },
+  {
+   "a": "other-tr23-sao-hw-troopers-2023-shitty-add-on",
+   "b": "other-tr25-sao-hw-troopers-25-shitty-add-on",
+   "verdict": "different_items",
+   "keep": "",
+   "confidence": "high",
+   "reason": "Same maker (jeffmakes) but different conference years (Troopers 2023 vs TROOPERS 25) and entirely different designs: tr23 is an unshaped build-it-yourself kit with only the KTD2052 LED driver factory-assembled and LEDs hand-soldered by the recipient, while tr25 is a fully finished, factory-populated UFO-shaped SAO with 4 SK6812SMINI-ER LEDs, a different repo, different SAO header version (v1.69bis), and a 420-unit production run. These are two separate yearly badge-hardware projects, not variants of one item."
+  }
+ ],
+ "review": [
+  {
+   "a": "dc33-sao-and-many-sao-badge",
+   "b": "dc33-sao-many-saos-already-catalogued-as-dc33-sao-many-saos",
+   "verdict": "same_item",
+   "keep": "dc33-sao-and-many-sao-badge",
+   "confidence": "high",
+   "reason": "Both describe Coruscant Ventures' \"SAO Many SAOs\" / \"SaO MANY SAOs\" board (same GitHub repo DC33-SaO-MANY-SAOs, 25 SAO slots, dual-18650 power, companion SmartAO LED module, DC33/2025), just documented via different storefronts (maker's own site vs. Hacker Warehouse). Entry A has the fuller write-up, images, and price/notes research; entry B itself notes it's a duplicate and has no images.",
+   "note": "partner already merged"
+  },
+  {
+   "a": "dc29-badge",
+   "b": "dc29-badge-2021",
+   "verdict": "same_item",
+   "keep": "dc29-badge-2021",
+   "confidence": "low",
+   "reason": "Both entries claim to be \"the official DEF CON 29 human badge,\" same maker (MK Factor/Whiteleys), same event/year, and both explicitly disclaim being the other well-known DC29 community badges (AND!XOR, Whiskey Pirates) \u2014 so they're intended to describe the same physical object, not different items. However, the two entries give contradictory hardware/functionality: dc29-badge (MCU ATSAMD21G16B, 4-key mechanical macropad, CR2032, Discord mic/emote control, sourced from Hackaday) vs dc29-badge-2021 (MCU MC56F8006VLC, RGB keys + touch sensors, rechargeable USB battery, networked Simon Says/CTF game, sourced from Science Viking Labs). This is too large a factual conflict to be a mere colorway/second-run variant, but both plausibly reference the actual single official DC29 badge with one entry's research being wrong/conflated with a different con's badge \u2014 so I can't confidently rule out these being two genuinely different physical badges. Recommend a human check the primary sources (Hackaday vs Science Viking Labs) before merging; if merged, dc29-badge-2021 has higher stated research confidence and a more detailed, internally consistent functional description."
+  }
+ ]
+}

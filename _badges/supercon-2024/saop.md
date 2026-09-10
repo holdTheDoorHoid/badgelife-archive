@@ -12,7 +12,7 @@ makers:
 - name: Chris Wilson (Common Ground Electronics)
   url: https://hackaday.io/cdwilson
 summary: A novelty SAO shaped like a bar of soap, entered in the Supercon 8 Add-On Contest for Hackaday Supercon 2024 and designed in KiCad by Chris Wilson of Common Ground Electronics.
-functions: 'None (passive novelty board; no MCU, no electronic function beyond being a joke SAO)'
+functions: None (passive novelty board; no MCU, no electronic function beyond being a joke SAO)
 look:
   colors: []
   shape: null
@@ -31,10 +31,11 @@ get_one:
   price_usd: null
   quantity: ''
   availability: unknown
-  distribution: []
+  distribution:
+  - contest
   where: ''
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/cgnd/saop
   firmware_url: null
   eda_tool: KiCad
@@ -53,13 +54,21 @@ links:
   kind: hackaday
 images:
 - file: assets/images/badges/supercon-2024/saop/aa81829db1.png
-  source: "https://github.com/cgnd/saop"
-  credit: "Chris Wilson / Common Ground Electronics"
-  caption: "SAOP SAO PCB, top view"
+  source: https://github.com/cgnd/saop
+  credit: Chris Wilson / Common Ground Electronics
+  caption: SAOP SAO PCB, top view
 - file: assets/images/badges/supercon-2024/saop/469f749d88.png
-  source: "https://github.com/cgnd/saop"
-  credit: "Chris Wilson / Common Ground Electronics"
-  caption: "SAOP SAO PCB, bottom view"
+  source: https://github.com/cgnd/saop
+  credit: Chris Wilson / Common Ground Electronics
+  caption: SAOP SAO PCB, bottom view
+- file: assets/images/badges/supercon-2024/saop/0e95ec7964.png
+  source: https://hackaday.io/project/198497-saop
+  credit: Chris Wilson (Common Ground Electronics)
+  caption: SAOP, a bar-of-soap-shaped SAO
+- file: assets/images/badges/supercon-2024/saop/aa81829db1.png
+  source: https://github.com/common-ground-electronics/saop
+  credit: Chris Wilson (Common Ground Electronics)
+  caption: SAOP PCB, top side
 contact: {}
 notes: []
 status: listed
@@ -79,20 +88,21 @@ sources:
   title: saop README
   accessed: '2026-09-07'
   note: Confirmed it is a contest entry for the Supercon 8 Add-On Contest, and pulled the top/bottom PCB image filenames.
+- kind: url
+  url: https://github.com/common-ground-electronics/saop
+  title: 'GitHub: common-ground-electronics/saop'
+  accessed: '2026-09-07'
+  note: KiCad hardware design files and README confirm it is hardware-only (schematic/PCB, no firmware); no license file found, so marked open_source as partial rather than yes.
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: >
-    The GitHub repo and Hackaday.io project page confirm this is a passive (no MCU, no LEDs)
-    novelty SAO shaped like a bar of soap, made by Chris Wilson (Common Ground Electronics)
-    as an entry to the Supercon 8 Add-On Contest at Hackaday Supercon 2024. Hardware (KiCad
-    source) is public on GitHub; no license file is present in the repo, so open-source terms
-    beyond "source available" are unstated. No price, quantity made, distribution method, or
-    color/shape-tag details beyond "bar of soap" were published on either the repo or the
-    Hackaday.io page, and no storefront or press coverage was found. Left price, quantity,
-    availability, LEDs, and exact colors empty rather than guess.
+  notes: |-
+    The GitHub repo and Hackaday.io project page confirm this is a passive (no MCU, no LEDs) novelty SAO shaped like a bar of soap, made by Chris Wilson (Common Ground Electronics) as an entry to the Supercon 8 Add-On Contest at Hackaday Supercon 2024. Hardware (KiCad source) is public on GitHub; no license file is present in the repo, so open-source terms beyond "source available" are unstated. No price, quantity made, distribution method, or color/shape-tag details beyond "bar of soap" were published on either the repo or the Hackaday.io page, and no storefront or press coverage was found. Left price, quantity, availability, LEDs, and exact colors empty rather than guess.
+     Merged with duplicate entry 'SAOP' (supercon-2024-saop-2).
 last_modified_date: '2026-09-07'
+redirect_from:
+- /badges/supercon-2024/saop-2/
 ---
 
 SAOP is a novelty simple add-on (SAO) shaped like a bar of soap, made by Chris Wilson of Common Ground Electronics as an entry to the Supercon 8 Add-On Contest at Hackaday Supercon 2024. The name is a play on the common "shitty add-on" joke about low-effort SAOs: the project's own tagline explains that "SAOP does not service web requests. SAOP has one purpose in life: Sanitation And Oral Purifier."
@@ -100,3 +110,11 @@ SAOP is a novelty simple add-on (SAO) shaped like a bar of soap, made by Chris W
 The board is a passive PCB with no microcontroller, LEDs, or other active electronics — it plugs into a badge's SAO header purely as a physical gag piece rather than a functional add-on. It was designed in KiCad, and the source files are published on GitHub.
 
 No pricing, production quantity, or distribution details (contest giveaway, sale, etc.) were published on either the GitHub repository or the Hackaday.io project page, so those fields are left blank.
+
+## Notes merged from the duplicate entry "SAOP"
+
+SAOP is a novelty Simple Add-On (SAO) made by Chris Wilson of Common Ground Electronics, shaped like a bar of soap, and submitted to the Supercon 8 Add-On Contest at Hackaday Supercon 2024. The name is a pun: SAOP stands for "Sanitation And Oral Purifier," and the maker's own description frames it as a joke device meant to be handed to (or invoked against) anyone who mispronounces "SAO" as "shitty add-on."
+
+The project has no stated electronic function beyond existing as a physical object shaped like soap — the maker's project page states plainly that it "does not service web requests" and otherwise has no purpose. The hardware is designed in KiCad, with schematic and PCB files published on GitHub alongside top and bottom board renders, but no firmware, bill of materials, chip, LED, or connectivity information is included or described anywhere in the available sources.
+
+No pricing, quantity produced, or sale/distribution details were found; the item appears to exist only as a contest entry rather than something offered for sale or free distribution.

@@ -12,11 +12,17 @@ makers:
 - name: Brett Walach (Technobly)
   url: https://hackaday.io/hacker/486036-brett-walach
 summary: A miniature playable Vectrex console SAO running a low-res version of Scramble on a 7x10 charlieplexed white LED display, with a PIC16F886 MCU, speaker, one-button capacitive-touch controller on a hand-made coiled cord, and I2C/PWM jumpers for badge integration; made for Hackaday Supercon 2022 and later entered in the Supercon 8 SAO Contest (2024).
-functions: 'Plays a mini low-resolution version of the arcade game Scramble; auto-muting speaker (can be permanently disabled by removing a solder blob); saves high score permanently; I2C jumpers and a PWM speaker input plus touch-sensor output let a host badge control it directly.'
+functions: Plays a mini low-resolution version of the arcade game Scramble; auto-muting speaker (can be permanently disabled by removing a solder blob); saves high score permanently; I2C jumpers and a PWM speaker input plus touch-sensor output let a host badge control it directly.
 look:
-  colors: [white, black]
+  colors:
+  - white
+  - black
   shape: null
-  themes: [retro computer, console, arcade, video game]
+  themes:
+  - retro computer
+  - console
+  - arcade
+  - video game
 tech:
   mcu: PIC16F886
   leds:
@@ -24,7 +30,8 @@ tech:
     type: charlieplexed
     note: 7x10 white LED matrix, mounted at a slight angle to mimic Vectrex box-art perspective
   display: none
-  connectivity: [i2c]
+  connectivity:
+  - i2c
   battery: powered by host badge
   sao_version: null
 get_one:
@@ -35,7 +42,7 @@ get_one:
   distribution: []
   where: ''
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/technobly/vectrex-sao
   firmware_url: https://github.com/technobly/vectrex-sao
   gerbers_url: https://github.com/technobly/vectrex-sao/tree/master/gerbers
@@ -55,14 +62,18 @@ links:
   url: https://youtu.be/AfYQyKARwps
   kind: video
 images:
-  - file: assets/images/badges/supercon-2022/vectrex-sao-2/086e25ad00.jpg
-    source: "https://github.com/technobly/vectrex-sao"
-    credit: "Brett Walach (Technobly)"
-    caption: "The Vectrex SAO console board with charlieplexed LED display and coiled-cord controller"
-  - file: assets/images/badges/supercon-2022/vectrex-sao-2/0be1d12b8f.png
-    source: "https://hackaday.io/project/197854-vectrex-sao"
-    credit: "Brett Walach (Technobly)"
-    caption: "Vectrex SAO project photo on Hackaday.io"
+- file: assets/images/badges/supercon-2022/vectrex-sao-2/086e25ad00.jpg
+  source: https://github.com/technobly/vectrex-sao
+  credit: Brett Walach (Technobly)
+  caption: The Vectrex SAO console board with charlieplexed LED display and coiled-cord controller
+- file: assets/images/badges/supercon-2022/vectrex-sao-2/0be1d12b8f.png
+  source: https://hackaday.io/project/197854-vectrex-sao
+  credit: Brett Walach (Technobly)
+  caption: Vectrex SAO project photo on Hackaday.io
+- file: assets/images/badges/supercon-2022/vectrex-sao-2/20d34785b4.jpg
+  source: https://github.com/technobly/vectrex-sao
+  credit: Brett Walach (technobly)
+  caption: Vectrex SAO board with 7x10 Charlieplexed LED display and coiled-cord controller
 contact: {}
 notes: []
 status: released
@@ -79,15 +90,17 @@ sources:
   note: Confirmed maker (Brett Walach / Technobly), that it was made for Hackaday Supercon 2022 and later entered in the Supercon 8 SAO Contest (project page dated Sept 2024), MCU, display, controller, speaker, and open-source status; no price/quantity/availability info given.
 - kind: url
   url: https://github.com/technobly/vectrex-sao
-  title: "GitHub: technobly/vectrex-sao"
+  title: 'GitHub: technobly/vectrex-sao'
   accessed: '2026-09-07'
   note: Primary source for hardware details (PIC16F886, 7x10 charlieplexed LEDs, I2C jumpers, PWM/touch lines, 1.0mm PCBs), open-source license (CC BY-SA 4.0), BOM/gerbers/KiCad files, and coiled-cord construction guide with photo.
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-07'
-  notes: Maker's own GitHub repo and Hackaday.io project page confirm all core technical facts. No pricing, quantity made, or distribution/availability details were found anywhere (this looks like a one-off/small-batch conference give or personal project rather than a sold product); those fields are left empty rather than guessed. tech.sao_version and look.shape were not stated by the maker and are left null.
+  notes: Maker's own GitHub repo and Hackaday.io project page confirm all core technical facts. No pricing, quantity made, or distribution/availability details were found anywhere (this looks like a one-off/small-batch conference give or personal project rather than a sold product); those fields are left empty rather than guessed. tech.sao_version and look.shape were not stated by the maker and are left null. Merged with duplicate entry 'Vectrex SAO' (supercon-2022-vectrex-sao).
 last_modified_date: '2026-09-07'
+redirect_from:
+- /badges/supercon-2022/vectrex-sao/
 ---
 
 Brett Walach (Technobly) built the Vectrex SAO as a tiny, playable homage to the classic Vectrex vector-graphics console for Hackaday Supercon 2022. In place of a real vector display it uses a 7x10 charlieplexed white LED matrix mounted at a slight angle to echo the console's box-art perspective, driven by a PIC16F886 microcontroller that Walach had pulled from a salvaged reel of parts. It plays a stripped-down, low-resolution version of the arcade game Scramble, controlled by a single-button capacitive-touch joystick wired through a hand-wound coiled silicone cord that the maker describes as "an absolute pain to make." A small speaker provides sound and auto-mutes when the game isn't running, with an option to disable it permanently by removing a solder blob; the badge also saves the player's high score permanently.
@@ -99,3 +112,9 @@ The Hackaday.io project page is dated September 2024, when Walach entered the de
 ## Make your own
 
 The GitHub repo (github.com/technobly/vectrex-sao) has everything needed to build one: KiCad source files, Gerbers for the two boards (console and controller) in the `gerbers/` folder, and BOM/CPL CSVs in `bom/` pre-formatted for JLCPCB assembly. A separate step-by-step guide with photos walks through hand-winding the coiled silicone-wire cord that connects the controller to the main board.
+
+## Notes merged from the duplicate entry "Vectrex SAO"
+
+Brett Walach's Vectrex SAO shrinks the classic Vectrex arcade console down to badge-accessory scale for Hackaday Supercon 2022. A 7x10 Charlieplexed array of 70 white LEDs is arranged in a slight forced perspective to echo the original Vectrex's angled cabinet artwork, and it plays a low-resolution version of the arcade game Scramble. A single capacitive-touch button serves as the controller, wired to the SAO board through a hand-made coiled cord reminiscent of an old console controller cable.
+
+The board runs on a PIC16F886 microcontroller, includes a small speaker (with mute), and permanently saves the player's high score across power cycles. It also breaks out I2C and PWM so hackers can extend or repurpose it. Hardware (KiCad schematics, PCB layout, and Gerbers) and firmware are published on GitHub under a CC BY-SA 4.0 license, making it fully open source, though the maker's pages do not state a price, production quantity, or whether it is still available.

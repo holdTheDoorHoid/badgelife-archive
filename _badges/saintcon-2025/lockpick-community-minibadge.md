@@ -44,14 +44,16 @@ links:
   url: https://minibadge.wiki/?search=Lockpick%20Community%20MiniBadge&year=2025
   kind: website
 images:
-  - file: assets/images/badges/saintcon-2025/lockpick-community-minibadge/d52f936bb7.png
-    source: "https://minibadge.wiki/2025.json"
-    credit: "SHIFTY"
-    caption: "Front of the Lockpick Community MiniBadge"
-  - file: assets/images/badges/saintcon-2025/lockpick-community-minibadge/ac84830526.png
-    source: "https://minibadge.wiki/2025.json"
-    credit: "SHIFTY"
-    caption: "Back of the Lockpick Community MiniBadge"
+- file: assets/images/badges/saintcon-2025/lockpick-community-minibadge/d52f936bb7.png
+  source: https://minibadge.wiki/2025.json
+  credit: SHIFTY
+  caption: Front of the Lockpick Community MiniBadge
+  archived: https://web.archive.org/web/20260611102155/http://minibadge.wiki/2025.json
+- file: assets/images/badges/saintcon-2025/lockpick-community-minibadge/ac84830526.png
+  source: https://minibadge.wiki/2025.json
+  credit: SHIFTY
+  caption: Back of the Lockpick Community MiniBadge
+  archived: https://web.archive.org/web/20260611102155/http://minibadge.wiki/2025.json
 contact: {}
 notes:
 - 'category: Community; rarity: Common'
@@ -66,12 +68,13 @@ sources:
   url: https://minibadge.wiki/2025.json
   title: MiniBadge Wiki 2025 data (Lockpick Community MiniBadge record)
   accessed: '2026-09-07'
-  note: 'The wiki''s underlying data file (fetched because the search page itself is client-rendered and returned no results via fetch); gave maker, description, soldering instructions, category/rarity, how-to-acquire text, and front/back image URLs.'
+  note: The wiki's underlying data file (fetched because the search page itself is client-rendered and returned no results via fetch); gave maker, description, soldering instructions, category/rarity, how-to-acquire text, and front/back image URLs.
+  archived: https://web.archive.org/web/20260611102155/http://minibadge.wiki/2025.json
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'Only source is the community-submitted minibadge.wiki entry; no maker page, repo, or storefront found for SHIFTY. Board house, quantity made, and technical details (MCU/LEDs/colors/shape) are not stated in the submission and are left empty rather than guessed. Submission timestamp on the wiki is 8/11/2025.'
+  notes: Only source is the community-submitted minibadge.wiki entry; no maker page, repo, or storefront found for SHIFTY. Board house, quantity made, and technical details (MCU/LEDs/colors/shape) are not stated in the submission and are left empty rather than guessed. Submission timestamp on the wiki is 8/11/2025.
 last_modified_date: '2026-09-07'
 ---
 

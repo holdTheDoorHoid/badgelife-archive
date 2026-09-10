@@ -10,10 +10,8 @@ event: saintcon-2025
 year: 2025
 makers:
 - name: ScalyOne
-summary: 'A tribute minibadge to EarthBound''s Starman enemy, pairing pixel-art
-  character art with a quote from the game.'
-functions: 'A single LED behind the Starman figure that can be set, via a solder
-  jumper, to either blink or stay solid.'
+summary: A tribute minibadge to EarthBound's Starman enemy, pairing pixel-art character art with a quote from the game.
+functions: A single LED behind the Starman figure that can be set, via a solder jumper, to either blink or stay solid.
 look:
   colors:
   - gold
@@ -30,8 +28,7 @@ tech:
   leds:
     count: 1
     type: through-hole
-    note: Single LED at D1 with a series resistor at R1; a jumper selects blink
-      vs. solid.
+    note: Single LED at D1 with a series resistor at R1; a jumper selects blink vs. solid.
   display: null
   connectivity: []
   battery: null
@@ -43,7 +40,7 @@ get_one:
   availability: limited
   distribution:
   - swap
-  where: 'Not sold; the maker''s submission says "Trade with me."'
+  where: Not sold; the maker's submission says "Trade with me."
 make_your_own:
   open_source: null
   hardware_url: null
@@ -56,22 +53,22 @@ links:
 - label: minibadge.wiki 2025 data export (JSON)
   url: https://minibadge.wiki/2025.json
   kind: doc
+  archived: https://web.archive.org/web/20260611102155/http://minibadge.wiki/2025.json
 images:
-  - file: assets/images/badges/saintcon-2025/starman/60adf59529.jpg
-    source: "https://minibadge.wiki/2025.json"
-    credit: "ScalyOne"
-    caption: "Front of the Starman minibadge, pixel-art tribute to EarthBound's Starman enemy, with an LCD-style text box reading a Buzz Buzz quote"
-  - file: assets/images/badges/saintcon-2025/starman/e1883f93d6.jpg
-    source: "https://minibadge.wiki/2025.json"
-    credit: "ScalyOne"
-    caption: "Back of the Starman minibadge showing the through-hole LED, resistor, and jumper for the blink/solid mode"
+- file: assets/images/badges/saintcon-2025/starman/60adf59529.jpg
+  source: https://minibadge.wiki/2025.json
+  credit: ScalyOne
+  caption: Front of the Starman minibadge, pixel-art tribute to EarthBound's Starman enemy, with an LCD-style text box reading a Buzz Buzz quote
+  archived: https://web.archive.org/web/20260611102155/http://minibadge.wiki/2025.json
+- file: assets/images/badges/saintcon-2025/starman/e1883f93d6.jpg
+  source: https://minibadge.wiki/2025.json
+  credit: ScalyOne
+  caption: Back of the Starman minibadge showing the through-hole LED, resistor, and jumper for the blink/solid mode
+  archived: https://web.archive.org/web/20260611102155/http://minibadge.wiki/2025.json
 contact: {}
 notes:
 - 'category: Personal; rarity: Rare'
-- 'Maker''s soldering instructions describe the build as beginner difficulty: solder
-  R1 (no orientation), place the D1 LED with its anode in the round through-hole
-  bent behind the figure, split the 8-pin header into four 2-pin corner headers,
-  and optionally bridge a jumper for blink mode.'
+- 'Maker''s soldering instructions describe the build as beginner difficulty: solder R1 (no orientation), place the D1 LED with its anode in the round through-hole bent behind the figure, split the 8-pin header into four 2-pin corner headers, and optionally bridge a jumper for blink mode.'
 status: listed
 sources:
 - kind: url
@@ -83,22 +80,13 @@ sources:
   url: https://minibadge.wiki/2025.json
   title: MiniBadge Wiki 2025 data export
   accessed: '2026-09-07'
-  note: The search page itself is a client-rendered app with no server-side content;
-    its underlying 2025.json data export (linked from minibadge.wiki/data/) carries
-    the maker's own submission record for this badge, including description,
-    soldering instructions, quantity made, category, rarity, how to acquire it,
-    and the front/back image files used here.
+  note: The search page itself is a client-rendered app with no server-side content; its underlying 2025.json data export (linked from minibadge.wiki/data/) carries the maker's own submission record for this badge, including description, soldering instructions, quantity made, category, rarity, how to acquire it, and the front/back image files used here.
+  archived: https://web.archive.org/web/20260611102155/http://minibadge.wiki/2025.json
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: All facts come from the maker's (ScalyOne) own submission on the community
-    minibadge.wiki sheet, so this is a primary source, but no independent
-    corroboration (maker page, repo, storefront, press) was found. quantityMade
-    is recorded as 0 in the source data, which likely means "not tracked" rather
-    than zero actually made; left get_one.quantity empty rather than guess.
-    No hardware/firmware files, price, or MCU were found or claimed; the badge
-    appears to be a simple passive LED board with no microcontroller.
+  notes: All facts come from the maker's (ScalyOne) own submission on the community minibadge.wiki sheet, so this is a primary source, but no independent corroboration (maker page, repo, storefront, press) was found. quantityMade is recorded as 0 in the source data, which likely means "not tracked" rather than zero actually made; left get_one.quantity empty rather than guess. No hardware/firmware files, price, or MCU were found or claimed; the badge appears to be a simple passive LED board with no microcontroller.
 last_modified_date: '2026-09-07'
 ---
 
