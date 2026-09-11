@@ -83,6 +83,7 @@ sources:
   title: Event Activites - Security BSides Orlando
   accessed: '2026-09-10'
   note: Official event page confirms a Soldering Village ("Bring your badge to life!") implying an electronic badge, but gives no badge specifics itself.
+  archived: https://web.archive.org/web/20260623000625/https://bsidesorlando.org/event/
 research:
   status: researched
   confidence: medium

@@ -75,7 +75,13 @@ research:
   confidence: high
   last_checked: '2026-09-07'
   notes: Core facts confirmed directly by the maker's own project page, GitHub repo, and Hackaday.io project page, which agree with each other. Price, quantity made, and general availability/distribution are not stated anywhere found, so those fields are left empty; the item is described as an entry in the Supercon 8 SAO Contest rather than a badge sold or distributed at large, so get_one.where reflects that rather than a purchase channel. PCB shape is described as horseshoe-shaped, echoing the CIE 1931 color space diagram.
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/supercon-2024/metamer-sao.glb
+  method: kicad
+  source_file: v2.1_kicad/MetamerBoard.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 273664
 ---
 
 The Metamer SAO is an educational add-on board built by Reid Sox-Harris (Hackaday.io handle eosti) to demonstrate metamerism: the phenomenon where two different light spectra can look like the same color to the human eye. Rather than mixing red, green, and blue like a typical RGB LED, the board carries 16 individually addressable LED channels covering 12 distinct wavelengths from deep UV through 640nm red, plus four different white color temperatures, all driven through a Texas Instruments LP5018 constant-current I2C LED driver so the whole set can be controlled without overloading a host badge's power budget.

@@ -125,9 +125,18 @@ research:
   confidence: high
   last_checked: '2026-09-07'
   notes: LED count/type not stated by any source (display uses TFT graphics, not addressable LEDs, so left null). Price not applicable — the badge is given free to Supercon attendees, not sold. SAO header count not mentioned; the badge has a general 9-pin 0.1" signal header rather than a standard SAO port, so sao_version is set to none. Merged with duplicate entry 'Vectorscope Badge' (supercon-2023-supercon-2023-vectorscope).
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-10'
 redirect_from:
 - /badges/supercon-2023/supercon-2023-vectorscope/
+model:
+  file: assets/models/supercon-2023/vectorscope-badge.glb
+  method: gerber
+  source_file: hardware/vectorscope/vectorscope.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 290776
+  size_mm:
+  - 116.0
+  - 73.0
 ---
 
 The Vectorscope was the official badge for Hackaday Supercon 2023, handed out free to roughly 550 attendees. After two badges built around digital retrocomputing themes, the Hackaday team wanted to go analog: the result is a round-screened device that acts as both a vector oscilloscope and an arbitrary waveform generator, echoing the look of old CRT scopes. A Raspberry Pi Pico (RP2040) drives a round GC9A01 IPS display with a "fake-phosphor" persistence effect, while an AK4619 ADC/DAC chip (borrowed in spirit from Sebastian Holzapfel's Eurorack FPGA frontend) reads and generates 0-3V signals on the X and Y channels, letting the badge trace Lissajous figures or plot whatever voltages are fed into its nine-pin signal header. The badge is programmed in MicroPython, has four buttons and a joystick with a custom keycap for navigating four programmable demo memory slots, and includes a bundled prototyping expansion board for attendees who wanted to hack on it further. Hardware design is credited to Voja Antonic.

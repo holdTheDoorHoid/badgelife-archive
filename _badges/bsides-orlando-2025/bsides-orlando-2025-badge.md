@@ -49,6 +49,7 @@ links:
 - label: github.com/bsidesorlando/2025-badge
   url: https://github.com/bsidesorlando/2025-badge
   kind: repo
+  archived: https://web.archive.org/web/20250920113805/https://github.com/bsidesorlando/2025-badge
 images: []
 contact: {}
 notes:
@@ -66,6 +67,7 @@ sources:
   title: bsidesorlando/2025-badge
   accessed: '2026-09-10'
   note: KiCad source repo (single commit "introduce badge files" by Jose Rodriguez, 2025-09-05). Schematic shows a battery, slide switch, 4 discrete LEDs, and a 6-pin (Conn_02x03) SAO header; no MCU present.
+  archived: https://web.archive.org/web/20250920113805/https://github.com/bsidesorlando/2025-badge
 research:
   status: researched
   confidence: medium

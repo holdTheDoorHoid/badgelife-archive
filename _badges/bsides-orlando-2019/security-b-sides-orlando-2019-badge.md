@@ -51,9 +51,10 @@ links:
   archived: https://web.archive.org/web/20260907110232/https://hackaday.io/project/164893-security-b-sides-orlando-2019-badge
 images:
 - file: assets/images/badges/bsides-orlando-2019/security-b-sides-orlando-2019-badge/cc08d1ca4d.jpg
-  source: "https://hackaday.io/project/164893-security-b-sides-orlando-2019-badge"
-  credit: "Jonathan Singer"
-  caption: "The BSides Orlando 2019 badge, an 8x8 LED matrix build on a Digispark ATtiny85 board"
+  source: https://hackaday.io/project/164893-security-b-sides-orlando-2019-badge
+  credit: Jonathan Singer
+  caption: The BSides Orlando 2019 badge, an 8x8 LED matrix build on a Digispark ATtiny85 board
+  archived: https://web.archive.org/web/20260907110232/https://hackaday.io/project/164893-security-b-sides-orlando-2019-badge
 contact: {}
 notes: []
 status: listed
@@ -68,12 +69,13 @@ sources:
   url: https://hackaday.io/project/164893-security-b-sides-orlando-2019-badge
   title: Security B-Sides Orlando 2019 Badge
   accessed: '2026-09-07'
-  note: 'Maker (Jonathan Singer), components (Digispark/ATtiny85 board, 8x8 LED matrix with MAX7219 driver), and open Gerber files confirmed from the Hackaday.io project page.'
+  note: Maker (Jonathan Singer), components (Digispark/ATtiny85 board, 8x8 LED matrix with MAX7219 driver), and open Gerber files confirmed from the Hackaday.io project page.
+  archived: https://web.archive.org/web/20260907110232/https://hackaday.io/project/164893-security-b-sides-orlando-2019-badge
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'Hackaday.io page confirms maker, event, and hardware (Digispark ATtiny85 board + MAX7219 8x8 LED matrix, open Gerber files from April 2019). Page gives no price, quantity made, distribution method, or firmware repo link. No press coverage or storefront found; web search budget for this session was exhausted before additional queries could be run, so distribution/press details could not be checked further.'
+  notes: Hackaday.io page confirms maker, event, and hardware (Digispark ATtiny85 board + MAX7219 8x8 LED matrix, open Gerber files from April 2019). Page gives no price, quantity made, distribution method, or firmware repo link. No press coverage or storefront found; web search budget for this session was exhausted before additional queries could be run, so distribution/press details could not be checked further.
 last_modified_date: '2026-09-07'
 ---
 

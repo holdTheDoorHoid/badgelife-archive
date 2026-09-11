@@ -78,7 +78,13 @@ research:
   confidence: high
   last_checked: '2026-09-07'
   notes: No price, quantity made, or distribution details found on either the Hackaday.io project page or the GitHub repo (this was a contest entry, not a sold item, so get_one fields are left empty). LED count/type and battery are not applicable since the SAO is a passive NFC tag with no MCU. sao_version is inferred as the standard 6-pin SAO (v1.69bis) since the repo describes a "through-hole SAO connector (2x3, keyed, 2.54mm spacing)" but this was not stated explicitly as a version number, so treat with light confidence.
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/supercon-2024/badge-tag-nfc-sao.glb
+  method: kicad
+  source_file: BadgeTagNFC.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 59540
 ---
 
 The Badge Tag NFC SAO is a Simple Add-On by Thomas Flummer, submitted to the Supercon 8 SAO Contest in September 2024. Shaped and sized like a credential card, it centers on an NXP NT3H2211W0FTT (NTAG I2C plus, 2K memory) NFC chip, which lets anyone tap the tag with a smartphone to read a wearer's name, contact details, or interests without the SAO needing any power of its own — the chip harvests what it needs from the phone's NFC field. When mounted on a host badge through its 2x3 through-hole SAO connector, the same chip becomes readable over I2C as well.

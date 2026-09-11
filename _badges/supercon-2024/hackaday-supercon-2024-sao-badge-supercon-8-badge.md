@@ -90,7 +90,13 @@ research:
   confidence: high
   last_checked: '2026-09-07'
   notes: PCB solder-mask color, exact LED count/part number, board dimensions, and quantity produced are not stated by either the Hackaday article or the GitHub repo, so those fields are left empty rather than guessed. The GitHub README also notes reuse at "2025 Hackaday Europe."
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/supercon-2024/hackaday-supercon-2024-sao-badge-supercon-8-badge.glb
+  method: kicad
+  source_file: hardware/sao/i2c_proto_petal/sao_proto.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 250124
 ---
 
 The Supercon 8 badge, given to attendees of Hackaday Supercon in Pasadena in November 2024, was designed around a simple idea taken to its logical extreme: instead of a badge with one or two SAO headers as an afterthought, this one is built as a hub for six SAO ("Simple/Shitty Add-On") slots arranged radially, each with its own I2C bus and direct GPIO access. A Raspberry Pi Pico W runs the show over MicroPython, giving the badge Wi-Fi and Bluetooth for badge-to-badge communication (including over MQTT), plus three front buttons and power from a single AA battery with pads for external power.

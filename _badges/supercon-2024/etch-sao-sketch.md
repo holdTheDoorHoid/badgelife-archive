@@ -116,9 +116,15 @@ research:
   confidence: high
   last_checked: '2026-09-07'
   notes: EDA tool and total production quantity are not stated on any of the maker's pages. The board itself has no onboard MCU — it is a passive I2C peripheral (OLED + pots + accelerometer) meant to be driven by the host badge or the maker's separate SAO Demo Controller. Multiple hardware revisions exist (V1.0 Supercon 2024/Tindie, V1.1 small Tindie batch, V1.2 unbuilt, V1.3/V1.3.1 Elecrow run for Hackaday Europe 2025); this entry covers the V1.0 Supercon 2024 version per the sheet, with later revisions noted for context. Merged with duplicate entry 'Etch sAo Sketch' (supercon-2024-etch-sao-sketch-2).
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-10'
 redirect_from:
 - /badges/supercon-2024/etch-sao-sketch-2/
+model:
+  file: assets/models/supercon-2024/etch-sao-sketch.glb
+  method: kicad
+  source_file: Electronic Design/Etch_sAo_Sketch_V2.0 ePaper WIP Design Files KiCAD 8/Etch_sAo_Sketch_ePaper.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 70560
 ---
 
 The Etch sAo Sketch is a Simple Add-On (SAO) that reimagines the classic Etch-A-Sketch as a small I2C peripheral board. A 1.5-inch 128x128 grayscale OLED (SSD1327) sits on the front, driven by two potentiometer knobs with custom 3D-printed caps that let a host badge draw on the screen, while an onboard LIS3DH 3-axis accelerometer adds motion-based input. The board carries no microcontroller of its own — it relies on the host badge (or the maker's separate SAO Demo Controller) to read the pots and accelerometer over I2C and push pixels to the display. A distinctive touch is the use of small copper balls as mechanical alignment spheres between the OLED and main PCB.

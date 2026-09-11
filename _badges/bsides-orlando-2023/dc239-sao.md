@@ -43,6 +43,7 @@ links:
 - label: github.com/bsidesorlando/2023-badge/tree/main/bsidesorl-v1
   url: https://github.com/bsidesorlando/2023-badge/tree/main/bsidesorl-v1
   kind: repo
+  archived: https://web.archive.org/web/20250920161441/https://github.com/bsidesorlando/2023-badge/tree/main/bsidesorl-v1
 - label: 'commit: "introduced additional sao" (Jose Rodriguez, 2023-09-07)'
   url: https://github.com/bsidesorlando/2023-badge/commit/ba7172df61764dbdc8b7568b6a78d03fee2170ae
   kind: repo
@@ -58,6 +59,7 @@ sources:
   title: DC239 SAO (dc239-sao.kicad_pcb, found in the same repo/folder as this badge)
   accessed: '2026-09-10'
   note: Reported as an 'other item found' during the stub research pass.
+  archived: https://web.archive.org/web/20250920161441/https://github.com/bsidesorlando/2023-badge/tree/main/bsidesorl-v1
 - kind: url
   url: https://github.com/bsidesorlando/2023-badge/commit/ba7172df61764dbdc8b7568b6a78d03fee2170ae
   title: 'Commit ba7172d: "introduced additional sao"'

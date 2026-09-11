@@ -106,9 +106,15 @@ research:
   confidence: medium
   last_checked: '2026-09-07'
   notes: The GitHub repo and Hackaday.io project page confirm the design (CH32V003, RGB/UV LED, I2C + WS2812-style control) and that it was made for the Supercon 8 SAO Contest, October 2024. No dedicated duckBATH storefront listing, price, or quantity was found; the maker mentions selling assembled duckJAWS (the shark-shaped sibling) on Tindie, but duckBATH availability/pricing is unconfirmed, so get_one fields are left mostly empty. PCB color/finish not stated in text sources reviewed; leaving look.colors empty rather than guessing from the render thumbnail. Merged with duplicate entry 'duckBATH SAO' (supercon-2024-duckbath-sao-2).
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-10'
 redirect_from:
 - /badges/supercon-2024/duckbath-sao-2/
+model:
+  file: assets/models/supercon-2024/duckbath-sao.glb
+  method: kicad
+  source_file: duckjaws/duckjaws.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 149604
 ---
 
 The duckBATH is a bathtub-shaped SAO ("Shitty Add-On") from Adrian Studer and Marc Merlin's duckGLOW family, made for the Supercon 8 SAO Contest in October 2024. A small rubber duck sits in the tub-shaped PCB with a 5mm LED tucked inside it; a CH32V003 microcontroller drives the LED either as a smoothly fading RGB or UV light controllable over I2C, or as a plain WS2812/NeoPixel-compatible addressable LED, so it works standalone or as part of a larger chain of addressable lights on a badge. Brightness limits, fade speed, phase offset, and the I2C address (one of four, set by solder jumpers) are all configurable, and settings can be saved as the power-on default.

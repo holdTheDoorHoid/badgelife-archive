@@ -93,7 +93,13 @@ research:
   confidence: high
   last_checked: '2026-09-07'
   notes: Core facts (event, maker, MCU, LED count/type, connector, ~30 units, JLCPCB sponsorship) confirmed by the maker's own Hackaday.io project page and by a photo of the physical board. The repo's short writeup names an ATtiny13 instead of ATtiny412 for the blinking logic -- likely a stale/imprecise note, since the board silkscreen in the photo reads "AT-ATtiny412". Price was never advertised since this was a contest giveaway, not a sale, so get_one.price is left empty. No separate firmware or Gerber files were found in the linked repo folder beyond the writeup markdown, so firmware_url is left null and open_source is "partial".
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/supercon-2024/han-saolo.glb
+  method: kicad
+  source_file: SoloCarbonite/SoloCarbonite/SoloCarbonite.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 158528
 ---
 
 Han SAOlo is a Simple Add-On (SAO) that recreates Han Solo frozen in carbonite from *Return of the Jedi*, made by davedarko (hackaday.io/hacker/3459-davedarko) for the Supercon 8 SAO Contest in November 2024. The artwork exploits exposed, tinned HASL copper for the carbonite block's rough metallic texture, laid out in a dimetric 45-degree perspective with silkscreen adding shading and depth. A black solder mask sits over Han's face so that, when the board's five SK6805-EC3210R addressable RGB LEDs run their animation, his face appears to glow -- referencing the on-screen defrosting scene. An ATtiny412 drives the LED sequencing, and the board carries an IIC/QWIIC-style header alongside the usual SAO connector, since a standard IDC header didn't fit the board's dimensions.

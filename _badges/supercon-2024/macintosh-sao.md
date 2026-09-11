@@ -101,7 +101,13 @@ research:
   last_checked: '2026-09-07'
   notes: 'Verification pass (2026-09-07): re-fetched hackaday.io/project/196403-macintosh-sao and github.com/aaroneiche/macsao and confirmed every non-empty field and body sentence against them, including details not spot-checked before: the 0.66" display size, the mouse-cursor/background-layer/animation-layer I2C scheme, the MacPaint/MacWrite drawing and typing logs, and the 1k LED resistor. The maker''s Hackaday project log also states the white/black split is a PCB solder-mask option (not an OLED-glass variant) and that the units are powered from the SAO header, but neither look.colors nor a tech.power/battery field was added since filling previously-empty fields is outside this verification pass''s scope. Could not confirm price (likely free/contest-distributed, not sold), exact SAO header pin count/version, or an explicit open-source license (the repo says the code is "open to use" but carries no LICENSE file, matching what the entry already says). aeiche.com/macsao still would not
     render beyond its page title. Both saved images were re-checked and clearly show the physical Macintosh SAO (front shells and populated PCB with maker signature), matching their captions.'
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/supercon-2024/macintosh-sao.glb
+  method: kicad
+  source_file: hardware/MacSAO.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 53628
 ---
 
 The Macintosh SAO is a Shitty Add-On built by Aaron (hackaday.io handle aeiche) for the Supercon 8 SAO contest in October 2024, marking the 40th anniversary of the original 1984 Macintosh. A CH32V003 microcontroller drives a 0.66" 64x48 SSD1306 OLED to recreate a tiny Mac "desktop," complete with an animated mouse cursor and MacPaint- and MacWrite-style drawing and text effects. A host badge (or other controller) talks to the SAO over I2C, sending command bytes that switch between a background layer and an animation layer to build up what's on screen. The board also carries an 8KB EEPROM, a right-angle SMD button, and a single side-shining LED lighting the Apple logo.

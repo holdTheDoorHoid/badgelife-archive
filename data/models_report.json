@@ -2748,5 +2748,140 @@
   "bytes": 382480,
   "tried": [],
   "src": "vectrex-sao.kicad_pcb"
+ },
+ "supercon-2023-vectorscope-badge": {
+  "status": "ok",
+  "method": "gerber",
+  "bytes": 290776,
+  "tried": [
+   "kicad glb: Command '['/home/hoid/Desktop/badgelife-archive/tools/node_modules/.bin/gltf-transform', 'optimize', '/home/hoid/Desktop/badgelife-archive/data/hw/supercon-2023"
+  ],
+  "src": "hardware/vectorscope/vectorscope.kicad_pcb"
+ },
+ "supercon-2024-9-segment-counter-sao": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 170088,
+  "tried": [],
+  "src": "pcb9segCounter/pcb9segCounter.kicad_pcb"
+ },
+ "supercon-2024-badge-tag-nfc-sao": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 59540,
+  "tried": [],
+  "src": "BadgeTagNFC.kicad_pcb"
+ },
+ "supercon-2024-blinkencap": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 322792,
+  "tried": [],
+  "src": "blinkencap.kicad_pcb"
+ },
+ "supercon-2024-blinky-loop-sao": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 410124,
+  "tried": [],
+  "src": "BlinkyLoopSAO_2x2_panel.kicad_pcb"
+ },
+ "supercon-2024-co2-traffic-light-sao": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 104544,
+  "tried": [],
+  "src": "2024/KiCad Projects/AQ-SAO/AQ-SAO.kicad_pcb"
+ },
+ "supercon-2024-duckbath-sao": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 149604,
+  "tried": [],
+  "src": "duckjaws/duckjaws.kicad_pcb"
+ },
+ "supercon-2024-duckjaws-sao": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 149604,
+  "tried": [],
+  "src": "duckjaws/duckjaws.kicad_pcb"
+ },
+ "supercon-2024-etch-sao-sketch": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 70560,
+  "tried": [],
+  "src": "Electronic Design/Etch_sAo_Sketch_V2.0 ePaper WIP Design Files KiCAD 8/Etch_sAo_Sketch_ePaper.kicad_pcb"
+ },
+ "supercon-2024-featuring-you-sao-2": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 120132,
+  "tried": [],
+  "src": "MovieMarqueeSAO_KiCAD/MovieMarqueeSAO.kicad_pcb"
+ },
+ "supercon-2024-hackaday-supercon-2024-sao-badge-supercon-8-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 250124,
+  "tried": [],
+  "src": "hardware/sao/i2c_proto_petal/sao_proto.kicad_pcb"
+ },
+ "supercon-2024-han-saolo-in-carbonyte-sao": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 158528,
+  "tried": [],
+  "src": "SoloCarbonite/SoloCarbonite/SoloCarbonite.kicad_pcb"
+ },
+ "supercon-2024-han-saolo": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 158528,
+  "tried": [],
+  "src": "SoloCarbonite/SoloCarbonite/SoloCarbonite.kicad_pcb"
+ },
+ "supercon-2024-hello-my-name-is-sao": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 47156,
+  "tried": [],
+  "src": "HelloMyNameIs/henlo_blinkyparts_style/henlo_blinkyparts_style.kicad_pcb"
+ },
+ "supercon-2024-hubble-sao-2": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 204544,
+  "tried": [],
+  "src": "KiCAD_files/hubble_sao.kicad_pcb"
+ },
+ "supercon-2024-jolly-tagger-sao": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 88788,
+  "tried": [],
+  "src": "KiCad_Project_unz/KiCad_Project/HaD_JollyTagger.kicad_pcb"
+ },
+ "supercon-2024-lollipop-sao-with-nfc": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 51584,
+  "tried": [],
+  "src": "2024-rfid-sao/2024-rfid-sao.kicad_pcb"
+ },
+ "supercon-2024-macintosh-sao": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 53628,
+  "tried": [],
+  "src": "hardware/MacSAO.kicad_pcb"
+ },
+ "supercon-2024-metamer-sao": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 273664,
+  "tried": [],
+  "src": "v2.1_kicad/MetamerBoard.kicad_pcb"
  }
 }

@@ -104,9 +104,15 @@ research:
   confidence: high
   last_checked: '2026-09-07'
   notes: 'Verified against the Hackaday.io project page and GitHub repo: maker, Supercon 8 SAO contest event, astable-multivibrator/BJT-driven analog circuit, JLCPCB economic assembly, free giveaway plan, KiCad/LTspice repo contents, and the project photo (og:image) all confirmed directly on the cited pages. LED count is not stated by the maker; described only as a "giant flashing red arrow." Quantity made is not stated. No firmware exists since the board is purely analog (no MCU). Merged with duplicate entry ''Featuring You!'' (supercon-2024-featuring-you-sao).'
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-10'
 redirect_from:
 - /badges/supercon-2024/featuring-you-sao/
+model:
+  file: assets/models/supercon-2024/featuring-you-sao-2.glb
+  method: kicad
+  source_file: MovieMarqueeSAO_KiCAD/MovieMarqueeSAO.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 120132
 ---
 
 Featuring You! is a Simple Add-On built by Nanik Adnani for the SAO contest at Supercon 8 (2024). The maker noticed that Supercon's badges never leave a spot for attendees to write their own name, so this SAO fills that gap: a giant red arrow, built entirely from analog components, flashes to point down at a blank space where the wearer can write their name by hand.

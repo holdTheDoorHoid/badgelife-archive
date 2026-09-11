@@ -41,7 +41,7 @@ get_one:
   - contest
   where: Made as an entry to the Supercon 8 (2024) SAO contest; not known to have been sold.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/martinbros/9SegCounter
   firmware_url: https://github.com/martinbros/9SegCounter
   eda_tool: null
@@ -55,14 +55,14 @@ links:
   url: https://github.com/martinbros/9SegCounter
   kind: repo
 images:
-  - file: assets/images/badges/supercon-2024/9-segment-counter-sao/3b4a72797d.jpg
-    source: "https://hackaday.io/project/198460-9-segment-counter-sao"
-    credit: "martinbros"
-    caption: "9-Segment Counter SAO, assembled with 2-digit 9-segment display"
-  - file: assets/images/badges/supercon-2024/9-segment-counter-sao/60a8cc09b3.jpg
-    source: "https://hackaday.io/project/198460-9-segment-counter-sao"
-    credit: "martinbros"
-    caption: "9-Segment Counter SAO PCB detail"
+- file: assets/images/badges/supercon-2024/9-segment-counter-sao/3b4a72797d.jpg
+  source: https://hackaday.io/project/198460-9-segment-counter-sao
+  credit: martinbros
+  caption: 9-Segment Counter SAO, assembled with 2-digit 9-segment display
+- file: assets/images/badges/supercon-2024/9-segment-counter-sao/60a8cc09b3.jpg
+  source: https://hackaday.io/project/198460-9-segment-counter-sao
+  credit: martinbros
+  caption: 9-Segment Counter SAO PCB detail
 contact: {}
 notes: []
 status: released
@@ -76,20 +76,26 @@ sources:
   url: https://hackaday.io/project/198460-9-segment-counter-sao
   title: 9-Segment Counter SAO
   accessed: '2026-09-07'
-  note: 'Confirmed maker (martinbros), event (Supercon 8 SAO Contest, 2024), MCU (ATtiny84), functions, and repo link.'
+  note: Confirmed maker (martinbros), event (Supercon 8 SAO Contest, 2024), MCU (ATtiny84), functions, and repo link.
 - kind: url
   url: https://github.com/martinbros/9SegCounter
   title: martinbros/9SegCounter
   accessed: '2026-09-07'
-  note: 'Confirmed open-source hardware+firmware, GPL-3.0 license, and that the design was inspired by counting conversations at Supercon.'
+  note: Confirmed open-source hardware+firmware, GPL-3.0 license, and that the design was inspired by counting conversations at Supercon.
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
   notes: 'Event corrected from supercon-2025 to supercon-2024: the project page and repo both describe it as an entry to the Supercon 8 (2024) SAO contest, and the entry''s own year field already said 2024. Price, quantity made, LED count, and SAO header version were not stated on either the Hackaday.io page or the GitHub repo and are left empty. Availability is unclear -- no storefront was found, so it is treated as a contest entry rather than a sold product; status set to "released" since photos of the assembled unit exist. Confidence is medium: the maker''s own pages are the source for everything, but several tech fields (LED count, sao_version) could not be confirmed.'
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-10'
 redirect_from:
 - /badges/supercon-2025/9-segment-counter-sao/
+model:
+  file: assets/models/supercon-2024/9-segment-counter-sao.glb
+  method: kicad
+  source_file: pcb9segCounter/pcb9segCounter.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 170088
 ---
 
 The 9-Segment Counter SAO is a Simple Add-On built by Hackaday.io user martinbros as an entry to the Supercon 8 (2024) SAO contest. Instead of the traditional 7-segment digit, it displays two digits using a 9-segment layout, with each segment capable of RGB color, giving each digit 7 selectable colors. The maker describes the original motivation as tracking how many conversations you have at Supercon.

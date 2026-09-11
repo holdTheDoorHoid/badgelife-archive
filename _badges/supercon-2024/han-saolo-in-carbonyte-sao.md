@@ -96,7 +96,13 @@ research:
   confidence: high
   last_checked: '2026-09-07'
   notes: 'Core facts (maker, event, design concept, LED count/type, distribution) confirmed by the maker''s own Hackaday.io project page and build logs. MCU has a minor source conflict: Hackaday.io BOM says ATtiny412, the GitHub repo''s short readme says ATtiny13 (likely an earlier design note left unupdated). No price/storefront listing found beyond free giveaway at Supercon; no separate firmware repo link found. look.shape left empty — sources describe a "dimetric" carbonite-slab silhouette but no single shape-vocabulary term fits well.'
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/supercon-2024/han-saolo-in-carbonyte-sao.glb
+  method: kicad
+  source_file: SoloCarbonite/SoloCarbonite/SoloCarbonite.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 158528
 ---
 
 Han SAOlo in Carbonite is a Simple Add-On (SAO) by davedarko (also known for other Simple-Add-ons-SAO releases), designed for the Supercon 8 (2024) SAO Contest. Inspired by another SAO that used exposed, tinned copper for a shiny metallic look, davedarko applied the same trick to recreate Han Solo's carbonite slab from Star Wars: exposed HASL copper stands in for the "silver" carbonite surface, while silkscreen linework and 45-degree "dimetric" angles give the flat PCB a sense of 3D depth.

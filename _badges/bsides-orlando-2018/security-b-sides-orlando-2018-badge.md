@@ -57,13 +57,15 @@ links:
   archived: https://web.archive.org/web/20260907110153/https://hackaday.io/project/160630-security-b-sides-orlando-2018-badge
 images:
 - file: assets/images/badges/bsides-orlando-2018/security-b-sides-orlando-2018-badge/17e94c7127.jpg
-  source: "https://hackaday.io/project/160630-security-b-sides-orlando-2018-badge"
-  credit: "Jonathan Singer"
-  caption: "Assembled badge, powered on: a red PCB with a steampunk gear illustration and a ring of lit red, green, and blue LEDs"
+  source: https://hackaday.io/project/160630-security-b-sides-orlando-2018-badge
+  credit: Jonathan Singer
+  caption: 'Assembled badge, powered on: a red PCB with a steampunk gear illustration and a ring of lit red, green, and blue LEDs'
+  archived: https://web.archive.org/web/20260907110153/https://hackaday.io/project/160630-security-b-sides-orlando-2018-badge
 - file: assets/images/badges/bsides-orlando-2018/security-b-sides-orlando-2018-badge/7dc6edac9b.jpg
-  source: "https://hackaday.io/project/160630-security-b-sides-orlando-2018-badge"
-  credit: "Jonathan Singer"
-  caption: "Front and back of the badge in both red and blue PCB colors, alongside the kit's bagged battery and BSides Orlando stickers"
+  source: https://hackaday.io/project/160630-security-b-sides-orlando-2018-badge
+  credit: Jonathan Singer
+  caption: Front and back of the badge in both red and blue PCB colors, alongside the kit's bagged battery and BSides Orlando stickers
+  archived: https://web.archive.org/web/20260907110153/https://hackaday.io/project/160630-security-b-sides-orlando-2018-badge
 contact: {}
 notes: []
 status: released
@@ -79,11 +81,12 @@ sources:
   title: Security B-Sides Orlando 2018 Badge
   accessed: '2026-09-07'
   note: 'Confirmed maker (Jonathan Singer, circuit board) and description ("Simple discrete marquee badge for BSides Orlando given to attendees as a kit"); page lists 9 Gerber fabrication files (uploaded 2018-08-21) under project files. Photos show "Graphics by: Heather Lawrence, Circuit Board by: Jonathan Singer" printed on the PCB back, a "Permit Technologik" steampunk gear theme, both red and blue PCB color runs, a 12-position LED ring (LED1-LED11 silkscreen labels), a power slide switch, and a loose 2xAA battery pack included with the kit.'
+  archived: https://web.archive.org/web/20260907110153/https://hackaday.io/project/160630-security-b-sides-orlando-2018-badge
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'Gerber files confirm the hardware design is shared, but no bill of materials, schematic, or firmware/source beyond the PCB artwork was found, and no license is stated, so open_source is marked "partial" rather than "yes". Price, quantity produced, and whether it was distributed to all attendees or a subset were not found on the project page or in a web search (only 2 searches ran before this session''s search budget was exhausted). Battery type is inferred from the loose cells visible in the kit photo (they read as AA cells) rather than a stated spec.'
+  notes: Gerber files confirm the hardware design is shared, but no bill of materials, schematic, or firmware/source beyond the PCB artwork was found, and no license is stated, so open_source is marked "partial" rather than "yes". Price, quantity produced, and whether it was distributed to all attendees or a subset were not found on the project page or in a web search (only 2 searches ran before this session's search budget was exhausted). Battery type is inferred from the loose cells visible in the kit photo (they read as AA cells) rather than a stated spec.
 last_modified_date: '2026-09-07'
 ---
 

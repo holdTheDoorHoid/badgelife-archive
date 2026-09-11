@@ -88,7 +88,13 @@ research:
   confidence: high
   last_checked: '2026-09-07'
   notes: This was a personal badge add-on David Bryant designed and wore himself at Supercon 2024, not a product sold or given out to attendees at scale, so price/quantity/availability fields are left empty (no sources give figures). Repo is MIT-licensed per GitHub API but the README does not itself state a license, so make_your_own.open_source is set yes based on the actual published KiCad and MicroPython/CircuitPython files, with license left unstated in front matter to avoid over-claiming a formal license notice.
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/supercon-2024/co2-traffic-light-sao.glb
+  method: kicad
+  source_file: 2024/KiCad Projects/AQ-SAO/AQ-SAO.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 104544
 ---
 
 David Bryant built the CO2 Traffic Light SAO as his first Hackaday Supercon badge add-on for Supercon 2024, extending air-quality monitoring work he'd been doing with collaborator ericklein (creators of the rco2 and air_quality projects). The SAO reads a Sensirion SCD40 true CO2 sensor, mounted as an Adafruit-packaged breakout piggybacked on the main board via I2C/Qwiic, and reports overall air quality as a simple three-LED "stoplight": red, yellow, and green rectangular Lumex LEDs with diffusers. Rather than drive an RGB or addressable LED, Bryant chose to decode the two GPIO lines coming off the SAO connector into three discrete LED outputs using 74HC00 NAND-gate logic, a deliberate throwback to discrete digital design.

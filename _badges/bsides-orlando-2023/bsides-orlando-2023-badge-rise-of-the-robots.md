@@ -47,6 +47,7 @@ links:
 - label: github.com/bsidesorlando/2023-badge
   url: https://github.com/bsidesorlando/2023-badge
   kind: repo
+  archived: https://web.archive.org/web/20250920132008/https://github.com/bsidesorlando/2023-badge
 images: []
 contact: {}
 notes:
@@ -58,6 +59,7 @@ sources:
   title: BSides Orlando 2023 Badge (Rise of the Robots)
   accessed: '2026-09-07'
   note: 'Found by the archive''s discovery sweep (angle: sweep:bsides-bsides-orlando); event read as ''bsides-orlando-2023''.'
+  archived: https://web.archive.org/web/20250920132008/https://github.com/bsidesorlando/2023-badge
 - kind: url
   url: https://github.com/bsidesorlando/2023-badge/blob/main/bsidesorl-v1/bsidesorl-v1.kicad_pcb
   title: bsidesorl-v1.kicad_pcb (main badge board file)
@@ -78,6 +80,7 @@ sources:
   title: Badge Catalog - BadgePirates Documents
   accessed: '2026-09-10'
   note: BadgePirates' own badge catalog has no BSides Orlando 2023 entry, ruling out the sweep's tentative BadgePirates attribution.
+  archived: https://web.archive.org/web/20260910225903/https://docs.badgepirates.com/catalog/#help-us-fill-the-gaps
 research:
   status: verified
   confidence: medium

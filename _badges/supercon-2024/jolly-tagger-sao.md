@@ -97,7 +97,13 @@ research:
   confidence: high
   last_checked: '2026-09-07'
   notes: 'Core facts confirmed on the maker''s own Hackaday.io project page and build logs. One minor discrepancy: the project summary names the IC "M24LR64E" while a build log calls it "M24LR04E" — kept the summary''s M24LR64E as primary since it is the project''s stated part number. No storefront, price, or quantity-made figures found; maker states manufacturing was limited by budget/European production cost, so likely a small contest-run quantity rather than a general sale. No SAO header pin-count stated on the page, so sao_version left null. PCB shape not explicitly described as a specific silhouette beyond the "eyes" motif, so look.shape left null.'
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/supercon-2024/jolly-tagger-sao.glb
+  method: kicad
+  source_file: KiCad_Project_unz/KiCad_Project/HaD_JollyTagger.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 88788
 ---
 
 The Jolly Tagger SAO is an NFC-based add-on built by Phil Weasel for the Supercon 8 SAO Contest in 2024. At its core is an ST M24LR64E NFC tag IC paired with an antenna etched directly into the PCB as a spiral coil trace tuned to 13.56MHz, so the board needs no separate antenna component. The design stores contact information that can be read or written either wirelessly via a phone's NFC app or over I2C from a host badge, and a pair of reverse-mount LEDs in the board's "eyes" light up under PWM control, dimmed below 10% duty cycle to keep current draw around 10mA per LED.

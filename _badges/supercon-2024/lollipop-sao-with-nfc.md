@@ -82,7 +82,13 @@ research:
   confidence: medium
   last_checked: '2026-09-07'
   notes: Confirmed as a Supercon 8 SAO Contest entry by TomKeddie via the Hackaday.io project page and the linked GitHub repo (its README states the design plan directly). No pricing, quantity-made, or storefront information was found anywhere -- it reads as a one-off contest/personal project rather than something sold or widely distributed, so get_one fields are left mostly empty. No SAO connector pin-count (v1 vs v2) is stated on either page. No explicit open-source license is given for the repo, though the KiCad source, gerbers, and mechanical files are all published. The repo's images/ folder holds only clip-art references (stock lollipop vector art, silkscreen reference) used while designing the silkscreen, not photos of the finished board, so only the one Hackaday.io hero photo was saved.
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/supercon-2024/lollipop-sao-with-nfc.glb
+  method: kicad
+  source_file: 2024-rfid-sao/2024-rfid-sao.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 51584
 ---
 
 The Lollipop SAO with NFC is a Simple Add-On by TomKeddie (Tom Keddie), built for the Supercon 8 SAO Contest at Supercon 2024. Its lollipop-shaped PCB carries an NFC/RFID antenna etched right into the candy head, wired to an ST M24LR64E-RMN6T-2 dual-interface EEPROM. That chip lets the host badge read and write the tag's memory over a standard I2C connection (with optional pull-ups on the SAO header), while the same tag can also be read wirelessly by an NFC-capable phone or reader -- giving the SAO two independent ways in. It has no microcontroller, LEDs, or display of its own; it is a passive add-on rather than a powered device.

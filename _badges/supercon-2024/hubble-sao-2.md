@@ -105,9 +105,15 @@ research:
   confidence: high
   last_checked: '2026-09-07'
   notes: Maker's own Hackaday.io page and GitHub repo both confirm the core facts. No storefront exists; only 3 PCBs were assembled and the project was never sold or completed for the con floor, so price/quantity-sold/availability fields beyond "not_released" are left empty. LED count/type is inferred as a single generic yellow LED per the maker's description; no addressable LED type is mentioned. sao_version (pin count) is not stated anywhere, despite the maker noting the SAO connector footprint on the board was wrong. Merged with duplicate entry 'Hubble SAO' (supercon-2024-hubble-sao).
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-10'
 redirect_from:
 - /badges/supercon-2024/hubble-sao/
+model:
+  file: assets/models/supercon-2024/hubble-sao-2.glb
+  method: kicad
+  source_file: KiCAD_files/hubble_sao.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 204544
 ---
 
 The Hubble SAO is a Simple Add-On shaped like the Hubble Space Telescope, built by pdulab for the Supercon 8 (2024) SAO Contest. Rather than just looking the part, it plays with the telescope's real quirks: a VEML3328 sensor acts as a one-pixel RGB+IR "camera," an LSM6DSO IMU stands in for the telescope's gyroscopes (the maker notes that, fittingly, only one axis works on their board, echoing the real Hubble's history of gyro failures), and four BPW34 photodiodes wired to the microcontroller's ADC represent its solar panels. An IR LED provides a simple wireless data link, backed by an ATmega328PB, a yellow status LED, and a button.

@@ -124,9 +124,15 @@ research:
   confidence: high
   last_checked: '2026-09-07'
   notes: 'Quantity made is not stated anywhere found. Availability is ambiguous: the Tindie listing itself is still visible and priced, but the seller''s account-level message says the store is on pause until 2027-05-31, so left as unknown rather than guessing "available" or "sold_out." The GitHub repo covers two PCB variants (duckJAWS, shark-themed, and duckBATH, bathtub-themed); this entry is duckJAWS only. Merged with duplicate entry ''duckJAWS SAO'' (supercon-2024-duckjaws-sao-2).'
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-10'
 redirect_from:
 - /badges/supercon-2024/duckjaws-sao-2/
+model:
+  file: assets/models/supercon-2024/duckjaws-sao.glb
+  method: kicad
+  source_file: duckjaws/duckjaws.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 149604
 ---
 
 The duckJAWS SAO is one of two designs in Adrian Studer (astuder) and Marc Merlin's duckGLOW project, a small family of SAOs built around lighting up a genuine small rubber duck. On duckJAWS, the duck sits in the mouth of a shark-shaped PCB, with an RGB (or UV) LED shining up through the duck via a hole in its base, while additional red LEDs side-light the shark's teeth for what the maker describes as an ominous glow. The board runs a CH32V003 microcontroller with a 3.3V boost converter to keep brightness consistent, and can be driven either over I2C (with a configurable address, default 0x6C) or addressed like a WS2812/NeoPixel LED, with color and animation settings storable as power-on defaults. It was entered in the Supercon 8 SAO Contest in October 2024.

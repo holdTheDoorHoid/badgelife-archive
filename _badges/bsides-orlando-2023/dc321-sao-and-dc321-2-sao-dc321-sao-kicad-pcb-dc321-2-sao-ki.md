@@ -40,6 +40,7 @@ links:
 - label: github.com/bsidesorlando/2023-badge/tree/main/bsidesorl-v1
   url: https://github.com/bsidesorlando/2023-badge/tree/main/bsidesorl-v1
   kind: repo
+  archived: https://web.archive.org/web/20250920161441/https://github.com/bsidesorlando/2023-badge/tree/main/bsidesorl-v1
 images: []
 contact: {}
 notes:
@@ -51,6 +52,7 @@ sources:
   title: DC321 SAO and DC321-2 SAO (dc321-sao.kicad_pcb, dc321-2-sao.kicad_pcb)
   accessed: '2026-09-10'
   note: Reported as an 'other item found' during the stub research pass.
+  archived: https://web.archive.org/web/20250920161441/https://github.com/bsidesorlando/2023-badge/tree/main/bsidesorl-v1
 - kind: url
   url: https://github.com/bsidesorlando/2023-badge/commits/main/bsidesorl-v1
   title: Commit history for bsidesorl-v1
@@ -61,6 +63,7 @@ sources:
   title: joehacksalot (Jose E. Rodriguez) - GitHub profile
   accessed: '2026-09-10'
   note: Confirms the commit author's identity and that he is a self-described badgelife maker and Director at bsidesorlando.
+  archived: https://web.archive.org/web/20260223041908/https://github.com/joehacksalot
 - kind: url
   url: https://forum.defcon.org/node/250963
   title: DC321 September Meetup - DEF CON Forums
