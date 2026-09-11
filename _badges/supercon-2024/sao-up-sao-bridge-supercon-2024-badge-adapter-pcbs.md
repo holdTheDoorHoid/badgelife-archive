@@ -90,7 +90,13 @@ research:
   last_checked: '2026-09-07'
   notes: 'Verification pass 2026-09-07: re-fetched both cited sources (Hackaday article and the astuder/supercon8-sao-adapters GitHub README) and confirmed maker, both boards'' functions, the power/I2C wiring of the SAO Bridge center port, CERN-OHL-P license, KiCad files (sao-up.kicad_pcb/sao-bridge.kicad_pcb present in-repo), and the green-vs-black JLCPCB timeline detail, all word-for-word consistent with the entry. Both saved images were confirmed against their source pages: image 1 matches hackaday.com/wp-content/uploads/2025/01/saoadapt_feat.jpg exactly (same photo, same resolution) and image 2 matches a higher-resolution version of the GitHub repo''s img/s8-badge.jpg (same composite photo, downscaled) - both genuinely depict this item. Removed tech.sao_version (was set to v1.69bis): neither cited source names a SAO spec version, and the 2024 Supercon badge repo README/hardware folder available online does not confirm that label either, so it was an unsupported inference and has been
     blanked per the no-invent rule. No price, quantity, or sale listing found; these appear to be a design the maker published for others to fabricate rather than a sold product, so get_one fields are left mostly empty. No LED/display info applies (passive adapter PCBs, no MCU). Could not find a personal site/Hackaday.io profile for Adrian Studer beyond the GitHub repo link. Everything else in the entry is supported by the cited sources.'
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/supercon-2024/sao-up-sao-bridge-supercon-2024-badge-adapter-pcbs.glb
+  method: kicad
+  source_file: sao-bridge/sao-bridge.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 63592
 ---
 
 Adrian Studer designed these two small adapter PCBs to fix a layout quirk on the Hackaday Supercon 8 (2024) conference badge, whose "organic flower" shape left several of its six SAO (Simple Add-On) header slots pointing at awkward angles, with the center of the board unused. **SAO Up** is a simple right-angle board that rotates a single SAO port 90 degrees so an add-on sits upright; because the pinout is symmetric, the same board works on either side of the badge depending on which header rows get populated. **SAO Bridge** is a wavier board that bridges the badge's two midline SAO ports, straightening both of them while adding a brand-new seventh SAO connector in the center, powered and addressed over the same I2C bus as the left-side port it taps.

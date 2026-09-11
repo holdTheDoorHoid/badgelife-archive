@@ -92,7 +92,13 @@ research:
   confidence: high
   last_checked: '2026-09-07'
   notes: Maker's own repo README fully describes the item. Not sold or given away as a physical product as far as sources indicate; it is a shared open-hardware design (KiCad files) that people fabricate themselves, so get_one fields are mostly left empty/unknown. Exact SAO slot count on the host badge (six) comes from the badge repo, not this adapter's own docs. tech.sao_version set to v1.69bis (6-pin) based on it being a 2024-era Hackaday SAO badge, though the adapter repo itself does not state the pin count explicitly.
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/supercon-2024/sao-up.glb
+  method: kicad
+  source_file: sao-up/sao-up.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 27464
 ---
 
 astuder designed SAO Up as a small companion PCB for the 2024 Hackaday Supercon 8 Add-On Badge, released in the roughly ten days between the badge's public reveal and the start of Supercon. The Supercon 8 badge has six SAO slots, but four of them sit sideways or upside-down, making plugged-in SAOs look awkward. SAO Up is a passive pass-through board that rotates a single SAO slot by 90 degrees so the SAO sits closer to upright; the same board design works on either the left or right side of the badge depending on which side the headers are soldered.

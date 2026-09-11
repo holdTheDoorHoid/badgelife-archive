@@ -47,13 +47,13 @@ links:
   kind: hackaday
 images:
 - file: assets/images/badges/supercon-2024/sao-voja4-adapter/7fe0b9f045.jpg
-  source: "https://github.com/ageppert/SAO_Voja4_Adapter"
-  credit: "Andy Geppert"
-  caption: "SAO Voja4 Adapter connected to an SAO OLED demo"
+  source: https://github.com/ageppert/SAO_Voja4_Adapter
+  credit: Andy Geppert
+  caption: SAO Voja4 Adapter connected to an SAO OLED demo
 - file: assets/images/badges/supercon-2024/sao-voja4-adapter/f3a67d20f0.png
-  source: "https://github.com/ageppert/SAO_Voja4_Adapter"
-  credit: "Andy Geppert"
-  caption: "Render of the SAO Voja4 Adapter V1 board, front side"
+  source: https://github.com/ageppert/SAO_Voja4_Adapter
+  credit: Andy Geppert
+  caption: Render of the SAO Voja4 Adapter V1 board, front side
 contact: {}
 notes:
 - Spotted by a research agent while working on a neighbouring entry (run 2).
@@ -66,22 +66,29 @@ sources:
   note: 'Found by the archive''s discovery sweep (angle: research-run2-spotted); event read as ''unknown''.'
 - kind: url
   url: https://github.com/ageppert/SAO_Voja4_Adapter/blob/main/README.md
-  title: "SAO VOJA4 BADGE ADAPTER README"
+  title: SAO VOJA4 BADGE ADAPTER README
   accessed: '2026-09-07'
-  note: "Confirmed purpose (I2C/SPI bridge to a 6-pin SAO socket), image filenames, and the Hackaday.io project link."
+  note: Confirmed purpose (I2C/SPI bridge to a 6-pin SAO socket), image filenames, and the Hackaday.io project link.
 - kind: url
   url: https://hackaday.io/project/198394-sao-adapter-for-voja4-badge
-  title: "SAO Adapter for Voja4 Badge - Hackaday.io"
+  title: SAO Adapter for Voja4 Badge - Hackaday.io
   accessed: '2026-09-07'
-  note: "Confirmed the project was submitted to the Supercon 8 (2024) SAO Contest, with a goal of prototypes ready for Supercon 2024; named the second maker Koppany Horvath; described solder-jumper configurable I2C/SPI zones and GPIO1/2, and an optional 3.3V regulator; hardware is open (Documentation, Electronic Design, Firmware, and Manufacturing Output folders on GitHub)."
+  note: Confirmed the project was submitted to the Supercon 8 (2024) SAO Contest, with a goal of prototypes ready for Supercon 2024; named the second maker Koppany Horvath; described solder-jumper configurable I2C/SPI zones and GPIO1/2, and an optional 3.3V regulator; hardware is open (Documentation, Electronic Design, Firmware, and Manufacturing Output folders on GitHub).
 research:
   status: verified
   confidence: high
   last_checked: '2026-09-07'
-  notes: This is an SAO accessory adapter (not itself a con badge) that adds a 6-pin SAO socket to the Voja4 badge, made for the Supercon 8 (2024) SAO Contest. The Voja4 badge itself is a separate, third-party badge and was not otherwise investigated here. No MCU is on the adapter itself (it's passive/discrete-transistor logic), so tech.mcu is set to "none". EDA tool, license, price, and quantity made were not stated in the repo or Hackaday.io page and are left empty. Removed an unsupported claim that GPIO1/GPIO2 could be configured for UART; only input/output selection is documented. The repo also contains firmware (asm/hex) for a separate SAO OLED demo device used to test the adapter, not for the adapter itself (which has no MCU); make_your_own.firmware_url is left empty and open_source kept "partial" on that basis, since no explicit license was found for the hardware design either. Verified against the maker's own GitHub repo/README and Hackaday.io project page; both saved images were confirmed present in the repo's Images folder with matching dimensions.
-last_modified_date: '2026-09-07'
+  notes: This is an SAO accessory adapter (not itself a con badge) that adds a 6-pin SAO socket to the Voja4 badge, made for the Supercon 8 (2024) SAO Contest. The Voja4 badge itself is a separate, third-party badge and was not otherwise investigated here. No MCU is on the adapter itself (it's passive/discrete-transistor logic), so tech.mcu is set to "none". EDA tool, license, price, and quantity made were not stated in the repo or Hackaday.io page and are left empty. Removed an unsupported claim that GPIO1/GPIO2 could be configured for UART; only input/output selection is documented. The repo also contains firmware (asm/hex) for a separate SAO OLED demo device used to test the adapter, not for the adapter itself (which has no MCU); make_your_own.firmware_url is left empty and open_source kept "partial" on that basis, since no explicit license was found for the hardware design either. Verified against the maker's own GitHub repo/README and Hackaday.io project page; both saved images were
+    confirmed present in the repo's Images folder with matching dimensions.
+last_modified_date: '2026-09-10'
 redirect_from:
 - /badges/other/sao-voja4-adapter/
+model:
+  file: assets/models/supercon-2024/sao-voja4-adapter.glb
+  method: kicad
+  source_file: Electronic Design/SAO Voja4 Adapter V1.0/SAO Voja4 Adapter.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 213064
 ---
 
 The SAO Voja4 Adapter is a small accessory board by Andy Geppert and Koppany Horvath that gives the Voja4 badge a standard 6-pin Simple Add-On (SAO) socket. Rather than exposing the badge's own I2C address, the adapter uses discrete transistors to bridge the badge's native interface out to full SAO-compatible I2C, with an alternate SPI wiring path (the two are mutually exclusive, selected with solder jumpers). GPIO1 and GPIO2 can likewise be configured as inputs or outputs, and an optional onboard 3.3V regulator supports powering the adapter from an alternate source.

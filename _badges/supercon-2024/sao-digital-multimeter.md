@@ -88,9 +88,15 @@ research:
   last_checked: '2026-09-07'
   notes: 'Fact-check pass (2026-09-07): re-fetched both cited sources directly. Corrected two invented/imprecise details from the prior research pass: tech.display had specified "0.96\" OLED" but neither the GitHub README nor the Hackaday.io project page states a screen size anywhere, so it is now just "OLED". look.themes included "learn to solder", which is not supported (the build involves QFN reflow/hotplate soldering aimed at an experienced maker, not a beginner soldering exercise), so it was removed. The functions field and body text were reworded slightly: the Hackaday page''s explicit "Features (implemented)" vs "Features (planned)" list shows GPIO reading is already implemented and only an I2C tester and GPIO write are planned, which the prior wording blurred together. The two 2mm banana sockets and the SAO cable extension are both confirmed, but only on the Hackaday.io page, not the GitHub README as the prior source note implied; source notes were corrected accordingly. Image verified
     present on disk and matches the photo shown at the top of the GitHub README. No storefront, price, or production-quantity information found; this appears to be a contest entry/open-source build-your-own project rather than something sold or distributed at scale, so get_one fields are mostly left empty. LED count/type not specified by the maker (the device tests LEDs but does not appear to use addressable LEDs itself, so tech.leds is left null rather than guessed). No SAO connector pin-count (v1 vs v2) stated in sources, so tech.sao_version left null. Everything remaining in the entry is now directly supported by the two cited sources. Merged with duplicate entry ''SAO Digital Multimeter'' (supercon-2024-sao-digital-multimeter-2).'
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-10'
 redirect_from:
 - /badges/supercon-2024/sao-digital-multimeter-2/
+model:
+  file: assets/models/supercon-2024/sao-digital-multimeter.glb
+  method: kicad
+  source_file: dmm_sao/panel_1x5.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 2057508
 ---
 
 The SAO Digital Multimeter is a pocket-sized test tool built by Thomas Flummer for the Supercon 8 (2024) SAO Contest. Rather than being a decorative add-on, it is a working instrument: an RP2040 running CircuitPython drives an OLED display, a rotary knob for mode selection, function and system buttons, and a buzzer, letting a badge-hacker check an SAO's supply voltage, GPIO levels (read), resistance, LED/diode condition, and continuity via a pair of 2mm banana-socket probes. The device is slightly larger than a standard SAO at 41x75mm, housed in a 3D-printed unibody case with pogo-pin connections between its front and base PCBs, and the maker also designed a separate SAO cable extension (IDC connectors and ribbon cable) for reaching recessed connectors on badges with an enclosure.

@@ -92,9 +92,15 @@ research:
   confidence: medium
   last_checked: '2026-09-07'
   notes: Both the GitHub repo and Hackaday.io project page confirm the hardware and software details in the existing summary. No pricing, quantity-made, or distribution/availability details were found on either page beyond it being a Supercon 8 SAO Contest entry; get_one fields left largely empty. No standalone storefront or press coverage located (web search budget was exhausted before a broader search could be run). LED count/type is an inference from "NeoPixel" phrasing in the original sheet summary and "LED indicator" on GitHub; Hackaday.io does not give an explicit LED part number, so tech.leds.type (WS2812B) carries medium confidence only. Merged with duplicate entry 'TARS SAO' (supercon-2024-tars-sao-3).
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-10'
 redirect_from:
 - /badges/supercon-2024/tars-sao-3/
+model:
+  file: assets/models/supercon-2024/tars-sao.glb
+  method: kicad
+  source_file: KiCad/TARS/TARS.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 158372
 ---
 
 The TARS SAO is a Simple Add-On built by hacker davedarko for the Supercon 8 SAO Contest at Hackaday Supercon 2024, taking its name and cue-light styling from the TARS robot in the film *Interstellar*. It runs on an RP2040-Tiny module and carries a 160x80 ST7735S color LCD, six capacitive-touch buttons wired through 1M ohm resistors in place of physical switches, a small PWM-driven speaker, and a single white LED used as a status/activity indicator. Two QWIIC I2C connectors let it talk to other sensors and boards on a badge.

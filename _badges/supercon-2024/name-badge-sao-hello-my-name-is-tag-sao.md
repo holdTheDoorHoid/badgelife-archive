@@ -55,7 +55,7 @@ links:
 images: []
 contact: {}
 notes:
-- 'Not to be confused with a different, similarly-titled "hello my name is SAO" by maker davedarko for the Supercon 8 (2024) official add-on contest (hackaday.io/project/197693) — that is a separate, non-electronic silkscreen name tag, unrelated to this Surreality Labs board.'
+- Not to be confused with a different, similarly-titled "hello my name is SAO" by maker davedarko for the Supercon 8 (2024) official add-on contest (hackaday.io/project/197693) — that is a separate, non-electronic silkscreen name tag, unrelated to this Surreality Labs board.
 status: announced
 sources:
 - kind: url
@@ -67,7 +67,7 @@ sources:
   url: https://github.com/SurrealityLabs/name-badge-sao
   title: SurrealityLabs/name-badge-sao GitHub repo
   accessed: '2026-09-07'
-  note: 'Repo description ("A shitty add-on that''s also a lovely Hello My Name Is tag"), commit history (3 commits, Nov 12-17 2023, moving from charlieplexed to a normal LED matrix on a new MCU), and pcb/ directory contents (KiCad project, no README, no firmware).'
+  note: Repo description ("A shitty add-on that's also a lovely Hello My Name Is tag"), commit history (3 commits, Nov 12-17 2023, moving from charlieplexed to a normal LED matrix on a new MCU), and pcb/ directory contents (KiCad project, no README, no firmware).
 - kind: url
   url: https://raw.githubusercontent.com/SurrealityLabs/name-badge-sao/master/pcb/name-badge-sao/name-badge-sao.kicad_sch
   title: name-badge-sao.kicad_sch (schematic source)
@@ -77,15 +77,22 @@ sources:
   url: http://surrealitylabs.com/2023/12/getting-back-into-the-swing-of-things/
   title: Getting back into the swing of things - Surreality Labs
   accessed: '2026-09-07'
-  note: 'Maker''s own blog post (Dec 2023) says he plans "a couple of SAO designs" and wants "a bunch of them to give away at Supercon next year" — i.e. Supercon 8 / Nov 2024. This is the basis for setting event to supercon-2024; it states intent, not confirmed completion or distribution.'
+  note: Maker's own blog post (Dec 2023) says he plans "a couple of SAO designs" and wants "a bunch of them to give away at Supercon next year" — i.e. Supercon 8 / Nov 2024. This is the basis for setting event to supercon-2024; it states intent, not confirmed completion or distribution.
 research:
   status: verified
   confidence: low
   last_checked: '2026-09-07'
-  notes: 'Fact-check pass (2026-09-07): re-fetched all three cited sources and the raw schematic. Confirmed exactly: repo description ("A shitty add-on that''s also a lovely Hello My Name Is tag"); 3 commits dated 2023-11-12, 2023-11-16 ("Moving to an all-new circuit design (normal matrix, no charlieplexing) with a new MCU"), 2023-11-17 ("I think that''s an SAO"); repo tree has no README and no firmware, only a pcb/ KiCad project; schematic contains STM32F030C8Tx, 128 Device:LED symbols, 16 MMBT3904 transistors, one 2x3 (6-pin, SAO v2) connector, 2 tactile switches, and MCU SWDIO/SWCLK pins, with no battery or regulator parts (consistent with power drawn from the host badge); and the blog post''s exact line, "I want to have a bunch of them to give away at Supercon next year." One citation was corrected: the schematic source URL pointed at a non-existent "main" branch (404) — the repo''s actual default branch is "master"; fixed the URL, no factual change. Event (supercon-2024) remains inferred from the maker''s stated intent, not a confirmed sighting — this is disclosed above and in the body, not stated as fact. No unsupported claims found; everything else in this pass is unchanged.'
-last_modified_date: '2026-09-07'
+  notes: 'Fact-check pass (2026-09-07): re-fetched all three cited sources and the raw schematic. Confirmed exactly: repo description ("A shitty add-on that''s also a lovely Hello My Name Is tag"); 3 commits dated 2023-11-12, 2023-11-16 ("Moving to an all-new circuit design (normal matrix, no charlieplexing) with a new MCU"), 2023-11-17 ("I think that''s an SAO"); repo tree has no README and no firmware, only a pcb/ KiCad project; schematic contains STM32F030C8Tx, 128 Device:LED symbols, 16 MMBT3904 transistors, one 2x3 (6-pin, SAO v2) connector, 2 tactile switches, and MCU SWDIO/SWCLK pins, with no battery or regulator parts (consistent with power drawn from the host badge); and the blog post''s exact line, "I want to have a bunch of them to give away at Supercon next year." One citation was corrected: the schematic source URL pointed at a non-existent "main" branch (404) — the repo''s actual default branch is "master"; fixed the URL, no factual change. Event (supercon-2024) remains inferred
+    from the maker''s stated intent, not a confirmed sighting — this is disclosed above and in the body, not stated as fact. No unsupported claims found; everything else in this pass is unchanged.'
+last_modified_date: '2026-09-10'
 redirect_from:
 - /badges/other/name-badge-sao-hello-my-name-is-tag-sao/
+model:
+  file: assets/models/supercon-2024/name-badge-sao-hello-my-name-is-tag-sao.glb
+  method: kicad
+  source_file: pcb/name-badge-sao/name-badge-sao.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 496312
 ---
 
 Surreality Labs designed this SAO as a wearable name badge built around an STM32F030C8 microcontroller driving a 16x8 grid of 128 LEDs — enough to render a name across a small dot-matrix display rather than relying on printed text. The schematic shows the LEDs row-driven through 16 NPN transistors, a 6-pin SAO connector, two tactile buttons (likely for setting or advancing the displayed name), and an SWD header for programming, but no onboard battery, so it appears to draw power from the host badge.

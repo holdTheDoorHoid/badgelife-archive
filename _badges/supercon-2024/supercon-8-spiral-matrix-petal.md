@@ -99,9 +99,18 @@ research:
   confidence: medium
   last_checked: '2026-09-07'
   notes: Sources confirm the SAO's identity, its AS1115 driver, the center RGB LED, and that it shipped as one of several bundled "petal" SAOs for the Supercon 8 (2024) badge (also used at Hackaday Europe 2025). Could not find a named individual designer, exact LED count, EDA tool, license, price, or production quantity in the pages fetched -- these are left empty rather than guessed. No separate storefront listing was found, suggesting it was distributed only with the badge rather than sold on its own. Merged with duplicate entry 'LED Petal' (supercon-2024-led-petal).
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-10'
 redirect_from:
 - /badges/supercon-2024/led-petal/
+model:
+  file: assets/models/supercon-2024/supercon-8-spiral-matrix-petal.glb
+  method: gerber
+  source_file: hardware/sao/petal_matrix/Petal_Matrix_Gerbers_PnP/Gerber
+  generated: '2026-09-10'
+  bytes: 134992
+  size_mm:
+  - 41.0
+  - 55.4
 ---
 
 The Spiral Matrix Petal -- called "Petal Matrix" in the project's own folder and BOM -- is one of several interchangeable SAO "petals" Hackaday designed for the 2024 Supercon 8 badge, a six-port I2C hub badge also reused at Hackaday Europe 2025. Rather than driving individual LEDs directly, it uses an AS1115 I2C LED-matrix display driver chip, with a single RGB LED at its center, giving it a distinct blinky-effects role alongside the badge's other petals (a touchwheel petal, a plain LED petal, and an I2C protoboard petal built around a CH32V003 for making custom devices).

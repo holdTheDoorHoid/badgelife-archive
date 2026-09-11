@@ -37,7 +37,7 @@ get_one:
   - purchase
   where: Listed on Tindie; prototype run fabricated through PCBX.com.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/ageppert/SAO_Nunchuck
   firmware_url: https://github.com/ageppert/SAO_Nunchuck
   eda_tool: null
@@ -50,9 +50,9 @@ links:
   kind: hackaday
 images:
 - file: assets/images/badges/supercon-2024/sao-nunchuck/387d91a023.jpg
-  source: "https://github.com/ageppert/SAO_Nunchuck"
-  credit: "Andy Geppert"
-  caption: "SAO Nunchuck v1.0 board with a Wii Nunchuck attached"
+  source: https://github.com/ageppert/SAO_Nunchuck
+  credit: Andy Geppert
+  caption: SAO Nunchuck v1.0 board with a Wii Nunchuck attached
 contact: {}
 notes:
 - From the user's 'SAOs to buy' link list (2026-09-07).
@@ -67,27 +67,26 @@ sources:
   url: https://github.com/ageppert/SAO_Nunchuck/blob/main/README.md
   title: 'ageppert/SAO_Nunchuck: README'
   accessed: '2026-09-07'
-  note: 'Confirms hardware v1.0, I2C Nunchuck adapter, links to WiiChuck and NintendoExtensionCtrl libraries.'
+  note: Confirms hardware v1.0, I2C Nunchuck adapter, links to WiiChuck and NintendoExtensionCtrl libraries.
 - kind: url
   url: https://hackaday.io/project/198000-sao-nunchuck
   title: SAO Nunchuck - Hackaday.io
   accessed: '2026-09-07'
-  note: 'Confirms maker (Andy Geppert), Supercon 8 (2024) SAO Contest submission (created 2024-09-17), QWIIC/STEMMA QT ports, ENIG/matte black finish, Tindie listing.'
+  note: Confirms maker (Andy Geppert), Supercon 8 (2024) SAO Contest submission (created 2024-09-17), QWIIC/STEMMA QT ports, ENIG/matte black finish, Tindie listing.
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: >-
-    Made for the Hackaday Supercon 8 (2024) SAO Contest; event corrected from
-    'other' to supercon-2024. No LEDs, MCU, or display on the board itself
-    (it is a passive I2C breakout for the Nunchuck connector plus two QWIIC/STEMMA
-    QT ports). Could not confirm price, quantity made, or current Tindie
-    availability status without visiting the storefront directly (link not
-    reachable via automated fetch in this pass). Hardware and firmware/demo
-    code are both published on GitHub, so open_source is set to yes.
-last_modified_date: '2026-09-07'
+  notes: Made for the Hackaday Supercon 8 (2024) SAO Contest; event corrected from 'other' to supercon-2024. No LEDs, MCU, or display on the board itself (it is a passive I2C breakout for the Nunchuck connector plus two QWIIC/STEMMA QT ports). Could not confirm price, quantity made, or current Tindie availability status without visiting the storefront directly (link not reachable via automated fetch in this pass). Hardware and firmware/demo code are both published on GitHub, so open_source is set to yes.
+last_modified_date: '2026-09-10'
 redirect_from:
 - /badges/other/sao-nunchuck/
+model:
+  file: assets/models/supercon-2024/sao-nunchuck.glb
+  method: kicad
+  source_file: Electronic Design/SAO Nunchuck V1 Design Files KiCAD 8/SAO_Nunchuck.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 70252
 ---
 
 The SAO Nunchuck is an add-on board by Andy Geppert (ageppert) that lets a Wii Nunchuck controller, or a wired Wii Classic Controller, plug into any badge with a standard SAO port. It bridges the Nunchuck's I2C interface (device address 0x52) straight through to the host badge, exposing the controller's joystick, buttons, and accelerometer data. The board was made for Hackaday's Supercon 8 SAO Contest in 2024, with its GitHub repository and Hackaday.io project page both dated September 2024.

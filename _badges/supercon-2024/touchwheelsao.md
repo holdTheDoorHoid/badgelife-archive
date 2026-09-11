@@ -113,9 +113,15 @@ research:
   confidence: high
   last_checked: '2026-09-07'
   notes: Maker's own Hackaday.io project page and GitHub repo agree on all core facts. Price, quantity made, and distribution/availability details are not stated on either page, so those fields are left empty; the project reads as a maker's own conference badge accessory (todbot is a known prolific SAO/badge designer) rather than a commercial listing, so status is set to released rather than left unknown, since renders/photos and a finished 'production version' exist. No SAO header version (v1/v1.69bis) is stated in the sources. Merged with duplicate entry 'Touchwheel SAO' (supercon-2024-touchwheel-sao).
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-10'
 redirect_from:
 - /badges/supercon-2024/touchwheel-sao/
+model:
+  file: assets/models/supercon-2024/touchwheelsao.glb
+  method: kicad
+  source_file: schematics/TouchwheelSAO/TouchwheelSAO.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 123584
 ---
 
 TouchwheelSAO is a capacitive-touch Simple Add-On board that todbot designed for Hackaday Supercon 2024 (Supercon 8). It arranges three touch pads in an interleaved disk pattern so a finger sliding around the wheel produces a smooth 0-255 position reading, similar in spirit to the maker's earlier "touchwheel0" boards. Three "Neopixel"-compatible RGB LEDs sit beneath the disk and shine through its center, with a fourth status LED on the back of the board; both the touch position and the LEDs are exposed over I2C through a documented register map, and the standard SAO pinout leaves spare GPIO lines wired out to UART TX/RX.

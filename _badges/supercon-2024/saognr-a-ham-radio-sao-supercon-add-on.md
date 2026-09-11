@@ -30,13 +30,13 @@ tech:
 get_one:
   price: ''
   price_usd: null
-  quantity: '20 built for Supercon 2024'
+  quantity: 20 built for Supercon 2024
   availability: sold_out
   distribution:
   - swap
   where: Al Williams brought 20 units to Supercon 2024 and traded most of them away, leaving with only 3.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/wd5gnr/saognr
   firmware_url: https://github.com/wd5gnr/saognr
   eda_tool: null
@@ -48,10 +48,10 @@ links:
   url: https://github.com/wd5gnr/saognr
   kind: repo
 images:
-  - file: assets/images/badges/supercon-2024/saognr-a-ham-radio-sao-supercon-add-on/c8fcac51c5.jpg
-    source: "https://hackaday.io/project/198144-saognr-an-sao-for-morse-code"
-    credit: "Al Williams (wd5gnr)"
-    caption: "SAOGNR Morse code SAO board"
+- file: assets/images/badges/supercon-2024/saognr-a-ham-radio-sao-supercon-add-on/c8fcac51c5.jpg
+  source: https://hackaday.io/project/198144-saognr-an-sao-for-morse-code
+  credit: Al Williams (wd5gnr)
+  caption: SAOGNR Morse code SAO board
 contact: {}
 notes:
 - A Morse-code themed SAO Al Williams (WD5GNR) designed as his own example entry for the Supercon 2024 "use I2C" SAO challenge; he brought 20 to Supercon 2024 and left with 3 after trading. The discovery sweep's title read "A Ham Radio SAO" (from the sheet); the maker's own title on Hackaday.io and GitHub is "SAOGNR - An SAO for Morse Code" / "SAO (Supercon Add On) I2C peripheral for sending Morse code", which this entry now uses.
@@ -72,7 +72,16 @@ research:
   confidence: high
   last_checked: '2026-09-08'
   notes: LED type/count not stated on either source beyond "intelligent LEDs" (addressable), so tech.leds is left null. No price is mentioned anywhere; it was distributed by trading at the event, not sold. EDA tool not specified in the repo listing.
-last_modified_date: '2026-09-08'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/supercon-2024/saognr-a-ham-radio-sao-supercon-add-on.glb
+  method: gerber
+  source_file: hardware/Gerber_SAO-Code_PCB_SAO-Code_2024-09-26.zip
+  generated: '2026-09-10'
+  bytes: 146212
+  size_mm:
+  - 50.0
+  - 50.0
 ---
 
 SAOGNR is a Simple Add-On (SAO) built by Al Williams (WD5GNR) as his own entry for the Supercon 2024 SAO challenge, which that year asked designers to make use of I2C. The board sends short, canned messages in Morse code through a built-in speaker and a set of addressable LEDs, and doubles as an I2C peripheral so a host badge's own microcontroller can command it to key out Morse snippets on demand. It runs on an RP2040 and can draw power either from the host badge's SAO connector or from its own USB-C port; Williams notes that running the speaker alongside the main Supercon badge's own RP2040 can noticeably reduce its volume.

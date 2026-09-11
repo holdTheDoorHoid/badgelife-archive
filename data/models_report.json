@@ -2883,5 +2883,236 @@
   "bytes": 273664,
   "tried": [],
   "src": "v2.1_kicad/MetamerBoard.kicad_pcb"
+ },
+ "supercon-2024-mr-fixit-sao": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 475608,
+  "tried": [],
+  "src": "mr-fixit/mrfixit.kicad_pcb"
+ },
+ "supercon-2024-name-badge-sao-hello-my-name-is-tag-sao": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 496312,
+  "tried": [],
+  "src": "pcb/name-badge-sao/name-badge-sao.kicad_pcb"
+ },
+ "supercon-2024-redot-rgb": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 112536,
+  "tried": [],
+  "src": "reDOT_RGB.kicad_pcb"
+ },
+ "supercon-2024-sao-bridge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 63592,
+  "tried": [],
+  "src": "sao-bridge/sao-bridge.kicad_pcb"
+ },
+ "supercon-2024-sao-core4": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 323880,
+  "tried": [],
+  "src": "Electronic Design/SAO_Core4_V0.1 Design Files KiCAD 8/SAO_Core4.kicad_pcb"
+ },
+ "supercon-2024-sao-demo-controller-v2": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 489128,
+  "tried": [],
+  "src": "Electronic Design/SAO Demo Controller V4 Design Files KiCAD 10/SAO_Demo_Controller.kicad_pcb"
+ },
+ "supercon-2024-sao-digital-multimeter": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 2057508,
+  "tried": [],
+  "src": "dmm_sao/panel_1x5.kicad_pcb"
+ },
+ "supercon-2024-sao-infinity-mirror": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 95256,
+  "tried": [],
+  "src": "KICAD_SOA_Infinity_mirror_2024_10-23_unz/KICAD_SOA_Infinity_mirror_2024_10-23/SAO_infinity_mirror_2024-10-21.kicad_pcb"
+ },
+ "supercon-2024-sao-nunchuck": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 70252,
+  "tried": [],
+  "src": "Electronic Design/SAO Nunchuck V1 Design Files KiCAD 8/SAO_Nunchuck.kicad_pcb"
+ },
+ "supercon-2024-sao-oled-sao-badge-with-i2c-oled-64x128": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 84708,
+  "tried": [],
+  "src": "Electronic Design/SAO_OLED_V0.1 Design Files KiCAD 7/SAO_OLED.kicad_pcb"
+ },
+ "supercon-2024-sao-oled": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 84708,
+  "tried": [],
+  "src": "Electronic Design/SAO_OLED_V0.1 Design Files KiCAD 7/SAO_OLED.kicad_pcb"
+ },
+ "supercon-2024-sao-up-sao-bridge-supercon-2024-badge-adapter-pcbs": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 63592,
+  "tried": [],
+  "src": "sao-bridge/sao-bridge.kicad_pcb"
+ },
+ "supercon-2024-sao-up": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 27464,
+  "tried": [],
+  "src": "sao-up/sao-up.kicad_pcb"
+ },
+ "supercon-2024-sao-voja4-adapter": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 213064,
+  "tried": [],
+  "src": "Electronic Design/SAO Voja4 Adapter V1.0/SAO Voja4 Adapter.kicad_pcb"
+ },
+ "supercon-2024-saognr-a-ham-radio-sao-supercon-add-on": {
+  "status": "ok",
+  "method": "gerber",
+  "bytes": 146212,
+  "tried": [],
+  "src": "hardware/Gerber_SAO-Code_PCB_SAO-Code_2024-09-26.zip"
+ },
+ "supercon-2024-saop": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 50364,
+  "tried": [],
+  "src": "SAOP.kicad_pcb"
+ },
+ "supercon-2024-saout-of-this-world": {
+  "status": "ok",
+  "method": "gerber",
+  "bytes": 213424,
+  "tried": [],
+  "src": "hardware/gerbers/Gerber_HD2024SAO_PCB_HD2024SAO.zip"
+ },
+ "supercon-2024-skate-sao": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 34756,
+  "tried": [],
+  "src": "MrAnderson/MrAnderson/MrAnderson.kicad_pcb"
+ },
+ "supercon-2024-still-sao-though-hackaday-supercon-2024-sao": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 141908,
+  "tried": [],
+  "src": "hardware/still-sao-though.kicad_pcb"
+ },
+ "supercon-2024-supercon-8-add-on-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 250124,
+  "tried": [],
+  "src": "hardware/sao/i2c_proto_petal/sao_proto.kicad_pcb"
+ },
+ "supercon-2024-supercon-8-i2c-proto-petal": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 250124,
+  "tried": [],
+  "src": "hardware/sao/i2c_proto_petal/sao_proto.kicad_pcb"
+ },
+ "supercon-2024-supercon-8-pure-proto-petal": {
+  "status": "ok",
+  "method": "gerber",
+  "bytes": 243488,
+  "tried": [],
+  "src": "hardware/sao/pure_proto_petal/Expansion_Gerbers_PnP/Gerber"
+ },
+ "supercon-2024-supercon-8-spiral-matrix-petal": {
+  "status": "ok",
+  "method": "gerber",
+  "bytes": 134992,
+  "tried": [],
+  "src": "hardware/sao/petal_matrix/Petal_Matrix_Gerbers_PnP/Gerber"
+ },
+ "supercon-2024-supercon-sao-disquisitioner": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 104544,
+  "tried": [],
+  "src": "2024/KiCad Projects/AQ-SAO/AQ-SAO.kicad_pcb"
+ },
+ "supercon-2024-superxbit192": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 1159916,
+  "tried": [],
+  "src": "kicad/badgesao.kicad_pcb"
+ },
+ "supercon-2024-tars-sao-2": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 158372,
+  "tried": [],
+  "src": "KiCad/TARS/TARS.kicad_pcb"
+ },
+ "supercon-2024-tars-sao": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 158372,
+  "tried": [],
+  "src": "KiCad/TARS/TARS.kicad_pcb"
+ },
+ "supercon-2024-touchwheelsao": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 123584,
+  "tried": [],
+  "src": "schematics/TouchwheelSAO/TouchwheelSAO.kicad_pcb"
+ },
+ "supercon-2024-yo-dawg-sao-2": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 112956,
+  "tried": [],
+  "src": "dawg/dawg.kicad_pcb"
+ },
+ "supercon-2024-yo-dawg-sao": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 112956,
+  "tried": [],
+  "src": "dawg/dawg.kicad_pcb"
+ },
+ "supercon-2024-yo-dawg-saoao-hackaday-logo": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 23320,
+  "tried": [],
+  "src": "badges/hackadayLogo/hackadayLogo.kicad_pcb"
+ },
+ "supercon-2024-yo-dawg-saoao-supercomputer-cluster": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 69860,
+  "tried": [],
+  "src": "badges/super_computer_custer_0805/super_computer_custer_0805.kicad_pcb"
+ },
+ "supercon-2024-yo-dawg-saoao-xhain-logo": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 30192,
+  "tried": [],
+  "src": "badges/xHainLogo/xHainLogo.kicad_pcb"
  }
 }

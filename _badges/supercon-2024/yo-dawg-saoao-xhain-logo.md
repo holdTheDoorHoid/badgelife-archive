@@ -74,7 +74,13 @@ research:
   last_checked: '2026-09-07'
   notes: The Hackaday.io project page and repo confirm the xHain-logo variant exists among the SAOAO batch davedarko brought to Supercon 8 (2024), but neither source gives it a named quantity the way the Iron Man and Hackaday-logo variants got ("100" each) — the log only says "some with the logo of my favorite hackspace on it," so quantity is left blank rather than guessed. No LED/chip is mentioned for this specific variant (only the Iron Man and Hackaday-logo boards are described as getting RGB LEDs/faders), so tech fields are set to none/null. No photo of the assembled xHainLogo board was found — the repo's xHainLogo.svg/xHainLogoSilk.svg/xHainLogoStop.svg are vector artwork sources for the PCB, not photos, and the project's cover photo (showing Super Cluster, Iron Man, and a skull-and-wrenches badge) does not include the xHain logo design, so no image was saved. PCB color/finish for this specific variant is not stated (only the Iron Man boards are noted as ordered in red with ENIG), so
     look.colors is left empty.
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/supercon-2024/yo-dawg-saoao-xhain-logo.glb
+  method: kicad
+  source_file: badges/xHainLogo/xHainLogo.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 30192
 ---
 
 This is one of the SAOAO ("Simple Add-on Add-on") designs davedarko produced alongside the Yo Dawg SAO baseplate for Hackaday Supercon 8's SAO contest in 2024. SAOAOs are 19x19 mm mini-boards with a mirroring-protected 3-pin (GND-VCC-GND) 1.27 mm header, meant to plug into a small carrier baseplate that itself is a full-size Simple Add-On — "badges for your badges for your badges," in the maker's words, inspired partly by the SAINTCON-style minibadge standard.

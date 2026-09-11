@@ -79,7 +79,13 @@ research:
   confidence: medium
   last_checked: '2026-09-07'
   notes: 'Fact-check pass 2026-09-07: verified README, firmware source (raw main.cpp), hardware/ directory listing (KiCad files), repo metadata (license: null via GitHub API), and kantoniak.com against every non-empty field and body sentence; all confirmed. Saved image (6bd70a9441.gif) byte-size matches readme/preview.gif in the repo exactly. Only source is the maker''s own GitHub repo (README + firmware); no press coverage, storefront, or Hackaday.io project page found. Price, quantity, and availability are not stated anywhere, so left empty/unknown. No LICENSE file in the repo, so exact license is unspecified even though hardware and firmware are both published. Board shape/colors not determinable without a photo of the physical PCB (only an LED-blink preview GIF was found, no full board photo).'
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/supercon-2024/still-sao-though-hackaday-supercon-2024-sao.glb
+  method: kicad
+  source_file: hardware/still-sao-though.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 141908
 ---
 
 The still-sao-though is a small SAO (Simple/Shitty Add-On, v1.69bis 6-pin standard) that maker kantoniak (Kay) built for Hackaday Supercon 2024. It centers on an ATtiny85 microcontroller driving two "bottom-throwing" LEDs that alternate on and off every 750 milliseconds — a deliberately minimal light show with no buttons or other inputs. The maker also brought the board along to Hackaday Europe 2025.

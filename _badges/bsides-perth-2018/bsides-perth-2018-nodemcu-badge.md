@@ -33,7 +33,7 @@ tech:
 get_one:
   price: free
   price_usd: 0
-  quantity: '300+ (given to delegates)'
+  quantity: 300+ (given to delegates)
   availability: free
   distribution:
   - free_drop
@@ -50,14 +50,15 @@ links:
 - label: Australian Cyber Security Magazine - BSidesPerth 2018 podcast series
   url: https://australiancybersecuritymagazine.com.au/bsidesper-2018-podcast-series-bsidesperth/
   kind: article
-- label: 'sudosammy/BSides-Badge-CO2-Monitor (badge reused as a CO2 monitor)'
+  archived: https://web.archive.org/web/20260311200740/https://australiancybersecuritymagazine.com.au/bsidesper-2018-podcast-series-bsidesperth/
+- label: sudosammy/BSides-Badge-CO2-Monitor (badge reused as a CO2 monitor)
   url: https://github.com/sudosammy/BSides-Badge-CO2-Monitor
   kind: repo
 images: []
 contact: {}
 notes:
 - Handmade NodeMCU ESP8266 Wi-Fi badge given to BSides Perth 2018 delegates with an associated badge-hack competition; source published on GitHub. Found by the event-year sweep, task bsides-canberra.
-- 'Sweep entry title matched the maker''s own naming; no title correction needed.'
+- Sweep entry title matched the maker's own naming; no title correction needed.
 status: released
 sources:
 - kind: url
@@ -69,17 +70,18 @@ sources:
   url: https://github.com/BsidesPerth/Badge-2018
   title: BsidesPerth/Badge-2018 (firmware source, BSides_Perth_2018v0.9.ino)
   accessed: '2026-09-10'
-  note: 'Confirmed MCU (NodeMCU ESP8266), TFT display via TFT_ILI9163C library over SPI, single PWM LED on D8, WiFi libraries, JPEG rendering from SPIFFS, and an embedded CTF flag string; no README content or hardware/PCB design files present, only the Arduino sketch and bundled libraries.'
+  note: Confirmed MCU (NodeMCU ESP8266), TFT display via TFT_ILI9163C library over SPI, single PWM LED on D8, WiFi libraries, JPEG rendering from SPIFFS, and an embedded CTF flag string; no README content or hardware/PCB design files present, only the Arduino sketch and bundled libraries.
 - kind: url
   url: https://australiancybersecuritymagazine.com.au/bsidesper-2018-podcast-series-bsidesperth/
-  title: BSidesPer 2018 Podcast series #BSidesPerth - Australian Cyber Security Magazine
+  title: BSidesPer 2018 Podcast series
   accessed: '2026-09-10'
-  note: 'Confirms over 300 delegates received the handmade NodeMCU ESP8266 badge as part of standard con swag alongside t-shirts, beanies, and tool kits (i.e. given away free, not sold).'
+  note: Confirms over 300 delegates received the handmade NodeMCU ESP8266 badge as part of standard con swag alongside t-shirts, beanies, and tool kits (i.e. given away free, not sold).
+  archived: https://web.archive.org/web/20260311200740/https://australiancybersecuritymagazine.com.au/bsidesper-2018-podcast-series-bsidesperth/
 - kind: url
   url: https://github.com/sudosammy/BSides-Badge-CO2-Monitor
   title: sudosammy/BSides-Badge-CO2-Monitor
   accessed: '2026-09-10'
-  note: 'Third-party project repurposing a BSides Perth 2018 badge into a CO2/temp/humidity monitor; corroborates the badge is a real ESP8266 + TFT board people actually hold, but is not itself a source for the original badge''s specs.'
+  note: Third-party project repurposing a BSides Perth 2018 badge into a CO2/temp/humidity monitor; corroborates the badge is a real ESP8266 + TFT board people actually hold, but is not itself a source for the original badge's specs.
 research:
   status: researched
   confidence: high

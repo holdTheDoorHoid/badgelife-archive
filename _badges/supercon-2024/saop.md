@@ -100,9 +100,15 @@ research:
   notes: |-
     The GitHub repo and Hackaday.io project page confirm this is a passive (no MCU, no LEDs) novelty SAO shaped like a bar of soap, made by Chris Wilson (Common Ground Electronics) as an entry to the Supercon 8 Add-On Contest at Hackaday Supercon 2024. Hardware (KiCad source) is public on GitHub; no license file is present in the repo, so open-source terms beyond "source available" are unstated. No price, quantity made, distribution method, or color/shape-tag details beyond "bar of soap" were published on either the repo or the Hackaday.io page, and no storefront or press coverage was found. Left price, quantity, availability, LEDs, and exact colors empty rather than guess.
      Merged with duplicate entry 'SAOP' (supercon-2024-saop-2).
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-10'
 redirect_from:
 - /badges/supercon-2024/saop-2/
+model:
+  file: assets/models/supercon-2024/saop.glb
+  method: kicad
+  source_file: SAOP.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 50364
 ---
 
 SAOP is a novelty simple add-on (SAO) shaped like a bar of soap, made by Chris Wilson of Common Ground Electronics as an entry to the Supercon 8 Add-On Contest at Hackaday Supercon 2024. The name is a play on the common "shitty add-on" joke about low-effort SAOs: the project's own tagline explains that "SAOP does not service web requests. SAOP has one purpose in life: Sanitation And Oral Purifier."

@@ -43,7 +43,7 @@ get_one:
   distribution: []
   where: ''
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/davedarko/TARS-SAO/tree/main/KiCad/TARS
   firmware_url: https://github.com/davedarko/TARS-SAO/tree/main/Sketchbook
   gerbers_url: https://github.com/davedarko/TARS-SAO/tree/main/KiCad/TARS/production
@@ -86,19 +86,14 @@ research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: >-
-    Maker's own repo confirms the hardware/firmware details in the existing summary except the
-    stub's claim of a "Qwiic I2C port," which could not be verified — the schematic shows an
-    extra 4-pin connector whose exact purpose (Qwiic vs. something else) is not labeled in the
-    text-searchable schematic, so that specific claim was dropped rather than guessed. No photo
-    of the assembled board was found (the repo's Reference folder holds only a stock RP2040-Tiny
-    kit photo, a SVG mockup, and an unrelated font-reference image, none of which show the actual
-    TARS SAO). Could not independently confirm it was specifically built for/distributed at
-    Supercon 2024 beyond the original community-sheet entry (the LICENSE year, 2024, is
-    consistent with this). Price, quantity made, and availability are not stated anywhere in the
-    repo. No Hackaday.io project page or social posts about this specific SAO were found (web
-    search budget was exhausted before a broader press/social search could be done).
-last_modified_date: '2026-09-07'
+  notes: Maker's own repo confirms the hardware/firmware details in the existing summary except the stub's claim of a "Qwiic I2C port," which could not be verified — the schematic shows an extra 4-pin connector whose exact purpose (Qwiic vs. something else) is not labeled in the text-searchable schematic, so that specific claim was dropped rather than guessed. No photo of the assembled board was found (the repo's Reference folder holds only a stock RP2040-Tiny kit photo, a SVG mockup, and an unrelated font-reference image, none of which show the actual TARS SAO). Could not independently confirm it was specifically built for/distributed at Supercon 2024 beyond the original community-sheet entry (the LICENSE year, 2024, is consistent with this). Price, quantity made, and availability are not stated anywhere in the repo. No Hackaday.io project page or social posts about this specific SAO were found (web search budget was exhausted before a broader press/social search could be done).
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/supercon-2024/tars-sao-2.glb
+  method: kicad
+  source_file: KiCad/TARS/TARS.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 158372
 ---
 
 T.A.R.S. is a "Simple Add-on" (SAO) by GitHub user davedarko (Berlin-based web developer and hardware tinkerer, prolific SAO designer) themed around the boxy robot TARS from the film *Interstellar*. The maker describes it in his SAO collection repo as "probably my most complex design, a small TARS with display and RP2040," and it was made for Supercon 2024.

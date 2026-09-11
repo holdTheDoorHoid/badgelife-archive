@@ -32,7 +32,7 @@ get_one:
   distribution: []
   where: ''
 make_your_own:
-  open_source: "partial"
+  open_source: partial
   hardware_url: https://github.com/davedarko/YoDawgSAO
   firmware_url: null
   eda_tool: KiCad
@@ -44,10 +44,10 @@ links:
   url: https://github.com/davedarko/YoDawgSAO
   kind: repo
 images:
-  - file: assets/images/badges/supercon-2024/yo-dawg-sao-2/a69ddf7e5e.jpg
-    source: "https://github.com/davedarko/YoDawgSAO"
-    credit: "davedarko"
-    caption: "KiCad render of the YoDawgSAO base plate"
+- file: assets/images/badges/supercon-2024/yo-dawg-sao-2/a69ddf7e5e.jpg
+  source: https://github.com/davedarko/YoDawgSAO
+  credit: davedarko
+  caption: KiCad render of the YoDawgSAO base plate
 contact: {}
 notes: []
 status: released
@@ -61,18 +61,24 @@ sources:
   url: https://github.com/davedarko/YoDawgSAO
   title: davedarko/YoDawgSAO
   accessed: '2026-09-07'
-  note: "Project README: origin story (Supercon 2024 add-on contest), 19x19mm size, 1.27mm GND-VCC-GND header, KiCad files, render image."
+  note: 'Project README: origin story (Supercon 2024 add-on contest), 19x19mm size, 1.27mm GND-VCC-GND header, KiCad files, render image.'
 - kind: url
   url: https://raw.githubusercontent.com/davedarko/Simple-Add-ons-SAO/main/README.md
   title: davedarko/Simple-Add-ons-SAO README
   accessed: '2026-09-07'
-  note: "Confirms YoDawgSAO is listed among davedarko's SAO designs, KiCad format, one-line description matching the project repo."
+  note: Confirms YoDawgSAO is listed among davedarko's SAO designs, KiCad format, one-line description matching the project repo.
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: "Maker's own README confirms what this is (a base-plate SAO defining a smaller 19x19mm 'SAOAO' sub-header standard for mini add-ons) and the design rationale, but does not state chip/LEDs, price, quantity, or distribution — the base plate itself appears to be a passive breakout with no MCU mentioned. No storefront or listing found; likely a contest/gift item rather than sold. The mini add-ons mentioned in the sheet-derived summary (Iron Man, Hack-A-Day, xHain, Cluster) are not detailed in the README examined; could not verify their individual specs. Colors/shape/themes left empty since no additional photos beyond the KiCad render were found."
-last_modified_date: '2026-09-07'
+  notes: Maker's own README confirms what this is (a base-plate SAO defining a smaller 19x19mm 'SAOAO' sub-header standard for mini add-ons) and the design rationale, but does not state chip/LEDs, price, quantity, or distribution — the base plate itself appears to be a passive breakout with no MCU mentioned. No storefront or listing found; likely a contest/gift item rather than sold. The mini add-ons mentioned in the sheet-derived summary (Iron Man, Hack-A-Day, xHain, Cluster) are not detailed in the README examined; could not verify their individual specs. Colors/shape/themes left empty since no additional photos beyond the KiCad render were found.
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/supercon-2024/yo-dawg-sao-2.glb
+  method: kicad
+  source_file: dawg/dawg.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 112956
 ---
 
 YoDawgSAO is davedarko's entry into the Hackaday Supercon 2024 add-on contest, but with a twist: rather than building a single complex SAO packed onto the standard I2C header, davedarko designed a small base plate that itself carries a smaller add-on header, so people could plug in a "badge for your badge for your badge." The name and framing ("Yo Dawg, I heard you like add-ons on your badges?") riff on the well-known internet meme.

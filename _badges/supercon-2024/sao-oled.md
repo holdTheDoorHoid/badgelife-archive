@@ -50,9 +50,9 @@ links:
   kind: website
 images:
 - file: assets/images/badges/supercon-2024/sao-oled/3f282e6585.jpg
-  source: "https://hackaday.io/project/194077-sao-oled"
-  credit: "Andy Geppert"
-  caption: "SAO OLED add-on board with 0.96\" I2C OLED display"
+  source: https://hackaday.io/project/194077-sao-oled
+  credit: Andy Geppert
+  caption: SAO OLED add-on board with 0.96" I2C OLED display
 contact: {}
 notes: []
 status: released
@@ -66,25 +66,31 @@ sources:
   url: https://hackaday.io/project/194077-sao-oled
   title: SAO OLED
   accessed: '2026-09-07'
-  note: 'Maker, contest (Supercon 8 SAO Contest, submitted 12/15/2023), features, connectors, and no-onboard-MCU design confirmed.'
+  note: Maker, contest (Supercon 8 SAO Contest, submitted 12/15/2023), features, connectors, and no-onboard-MCU design confirmed.
 - kind: url
   url: https://github.com/ageppert/SAO_OLED
   title: ageppert/SAO_OLED
   accessed: '2026-09-07'
-  note: 'Repo contains an "Electronic Design" folder and assembly instruction images; no gerbers, firmware, or BOM visible in the top-level listing, so open_source is marked partial rather than yes.'
+  note: Repo contains an "Electronic Design" folder and assembly instruction images; no gerbers, firmware, or BOM visible in the top-level listing, so open_source is marked partial rather than yes.
 - kind: url
   url: https://core64.io
   title: Core64 / MachineIdeas.com
   accessed: '2026-09-07'
-  note: 'Confirms SAO OLED is one of Andy Geppert''s (MachineIdeas.com) kits alongside Core64, Core64c, and Core16; no price or quantity listed on the page as fetched.'
+  note: Confirms SAO OLED is one of Andy Geppert's (MachineIdeas.com) kits alongside Core64, Core64c, and Core16; no price or quantity listed on the page as fetched.
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'This was made for the Supercon 8 (2024) SAO Contest, not Supercon 2025 — see event_corrected_to. No price, quantity, or LED info found on any source. The GitHub repo has an "Electronic Design" folder but its contents (gerbers/schematic files) were not individually confirmed, so open_source is "partial" rather than "yes". No firmware repo found (device has no onboard MCU; it is driven by the host via the Adafruit SSD1306 library).'
-last_modified_date: '2026-09-07'
+  notes: This was made for the Supercon 8 (2024) SAO Contest, not Supercon 2025 — see event_corrected_to. No price, quantity, or LED info found on any source. The GitHub repo has an "Electronic Design" folder but its contents (gerbers/schematic files) were not individually confirmed, so open_source is "partial" rather than "yes". No firmware repo found (device has no onboard MCU; it is driven by the host via the Adafruit SSD1306 library).
+last_modified_date: '2026-09-10'
 redirect_from:
 - /badges/supercon-2025/sao-oled/
+model:
+  file: assets/models/supercon-2024/sao-oled.glb
+  method: kicad
+  source_file: Electronic Design/SAO_OLED_V0.1 Design Files KiCAD 7/SAO_OLED.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 84708
 ---
 
 The SAO OLED is a simple add-on board by Andy Geppert (MachineIdeas.com, maker of the Core64/Core16 badge kits) that gives any badge or project a small display without needing its own microcontroller. It carries a 0.96" 128x64 monochrome I2C OLED and is driven directly by the host device, typically using the Adafruit SSD1306 Arduino library. It was submitted to the Supercon 8 (2024) SAO Contest in December 2023, and Geppert brought assembled units to that year's Supercon.

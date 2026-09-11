@@ -91,7 +91,13 @@ research:
   confidence: medium
   last_checked: '2026-09-07'
   notes: Maker's own GitHub and Hackaday.io project pages confirm what the badge is, its purpose, and that it was built for Supercon 8's 2024 SAO contest, so core facts are maker-sourced. No LED count/type, price, or production quantity was published anywhere found; left empty rather than guessed. Hackster.io coverage exists but the article page returned a Cloudflare block (HTTP 403) and could not be read. tech.mcu is set to none because the SAO itself has no microcontroller (an MCP23017 I2C GPIO expander drives it, not a program-running chip); logic/control comes from the host badge over I2C.
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/supercon-2024/sao-core4.glb
+  method: kicad
+  source_file: Electronic Design/SAO_Core4_V0.1 Design Files KiCAD 8/SAO_Core4.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 323880
 ---
 
 The SAO Core4, by Andy Geppert with Koppany Horvath, puts a small nibble of genuine ferrite core memory onto a Simple Add-On board. Four physical cores are wired into a matrix that a host badge can set and read over I2C, driven through an MCP23017 GPIO expander that also lights orange backlighting LEDs behind each core and manages a resettable sense/latch circuit. Because the protocol only needs bit-banged I2C, the maker's notes point out that essentially any badge platform, from a 6502 to a Voja4 to a Z80, can drive it.

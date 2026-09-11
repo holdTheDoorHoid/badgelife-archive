@@ -86,7 +86,13 @@ research:
   confidence: medium
   last_checked: '2026-09-07'
   notes: No photo of the assembled/soldered board was found anywhere in the repo or on the Hackaday.io project page -- only KiCad source files and a reference SVG of the Hackaday jolly-wrencher artwork (the design source, not a picture of the item), so images is left empty. Price and current availability were not stated anywhere; these were free giveaways at Supercon rather than a sold item, so price/price_usd are left blank and availability is unknown post-event. The repo folder for this variant is named "hackadayLogo" but the board is officially called a "SAOAO" (Simple Add-on Add-on); series field added since the repo documents several sibling SAOAO designs (Iron Man, xHain logo, LED super-cluster) under the same Yo Dawg concept.
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/supercon-2024/yo-dawg-saoao-hackaday-logo.glb
+  method: kicad
+  source_file: badges/hackadayLogo/hackadayLogo.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 23320
 ---
 
 The Hackaday Logo SAOAO is a tiny "add-on for your add-on" board that plugs into the Yo Dawg SAO baseplate, one of several SAOAO designs davedarko (with Marc MERLIN) created for the Hackaday Supercon 2024 SAO contest. The whole SAOAO concept keeps to a strict 19mm x 19mm footprint with a simplified 3-pin (GND-VCC-GND) 1.27mm header, deliberately skipping I2C so makers could slap a small meme or a blinking LED onto their contest entry without it counting as a full standalone add-on. This particular variant carries the Hackaday "jolly wrencher" logo with a single LED behind it.

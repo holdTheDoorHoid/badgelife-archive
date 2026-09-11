@@ -95,7 +95,16 @@ research:
   confidence: high
   last_checked: '2026-09-07'
   notes: Core facts (maker, MCU, LED counts, contest-deadline-miss story, run of 10 at Supercon 2024) confirmed consistently across the Hackaday.io project page and the GitHub repo/hardware readme. Price is not applicable since it was a free giveaway, not sold; get_one.price left blank accordingly. EDA tool, BOM, and gerbers links were not stated in the hardware readme, so left null/empty. No duplicate found in existing_titles.txt.
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/supercon-2024/saout-of-this-world.glb
+  method: gerber
+  source_file: hardware/gerbers/Gerber_HD2024SAO_PCB_HD2024SAO.zip
+  generated: '2026-09-10'
+  bytes: 213424
+  size_mm:
+  - 40.0
+  - 49.5
 ---
 
 SAOut Of This World is an SAO shaped like a cartoonish flying saucer beaming up a wide-eyed alien, built by Todd Zebert (firmware) and Koppany Horvath / koppanyh (PCB design and artwork). It runs on a CH32V003F4U6, a low-cost RISC-V microcontroller, and lights up with 5 WS2812 LEDs in the saucer's upper trim and 16 more in the lower trim, plus a pair of "sense" LEDs wired so the MCU can both source and sink current through them for input sensing. Two buttons let the wearer cycle through light effects, and holding the left button drops into a brightness-adjustment mode.

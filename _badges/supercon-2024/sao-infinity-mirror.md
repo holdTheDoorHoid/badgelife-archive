@@ -100,7 +100,13 @@ research:
   confidence: medium
   last_checked: '2026-09-07'
   notes: Maker is Scorch Works (Hackaday.io handle), and the project page confirms it was built for the Supercon 8 (2024) SAO Contest, matching the existing event assignment. Price, quantity made, and availability were not stated anywhere on the project page and are left empty. No explicit open-source license was named, though hardware design files are freely posted, so open_source is set to yes on that basis. Could not reach the maker's Hackaday.io profile page directly (redirected to a login wall) for further biographical context.
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/supercon-2024/sao-infinity-mirror.glb
+  method: kicad
+  source_file: KICAD_SOA_Infinity_mirror_2024_10-23_unz/KICAD_SOA_Infinity_mirror_2024_10-23/SAO_infinity_mirror_2024-10-21.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 95256
 ---
 
 The SAO Infinity Mirror is a Supercon Add-On built by Scorch Works for the Hackaday Supercon 8 (2024) SAO Contest. It has no microcontroller of its own: a small PCB carries 18 white LEDs (2x3x4mm clear-package parts, 3V/20mA) driven through a single resistor, plugged straight into the host badge's SAO connector for power. The light from those LEDs bounces between two laser-cut, two-way-mirror acrylic panels to produce the classic infinity-mirror effect of receding reflections, all housed inside a 3D-printed bezel with a decorative Voronoi vent pattern.

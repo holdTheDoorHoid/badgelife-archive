@@ -90,7 +90,13 @@ research:
   confidence: medium
   last_checked: '2026-09-07'
   notes: 'No MCU, LEDs, or display are present — this is a passive board (mechanical trucks + PCB + printed quote), so tech fields other than mcu/display are left null/none rather than guessed. Price, availability, and open-source license terms are not stated anywhere found; hardware files (KiCad footprint library, board art) are public on GitHub, but firmware is not applicable (no chip) and no explicit license file was found, hence open_source: partial. Andy Anderson quote text itself was not located in the sources checked. AliExpress link is for the trucks the maker bought in bulk, not a place to buy this SAO.'
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/supercon-2024/skate-sao.glb
+  method: kicad
+  source_file: MrAnderson/MrAnderson/MrAnderson.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 34756
 ---
 
 The Skate SAO is a proof-of-concept add-on by hardware maker davedarko (Simple Add-ons project), built for the Supercon 2024 Add-on contest in November 2024 in Pasadena. Rather than driving LEDs or a microcontroller, the idea is purely mechanical: a real fingerboard (miniature skateboard) truck is mounted on a skateboard-deck-shaped PCB, turning a cheap bulk-bought hobby part into the SAO's defining feature. The board also carries a printed inspirational quote attributed to professional skateboarder Andy Anderson, tying the electronics-as-object joke to a real skate reference.

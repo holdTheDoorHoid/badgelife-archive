@@ -95,7 +95,13 @@ research:
   last_checked: '2026-09-07'
   notes: 'Fact-check pass (2026-09-07): re-fetched all four cited sources plus the GitHub commit API for the badge folder and the project''s main Hackaday.io page. All confirmed as written - sole commit by davedarko (2024-10-11); schematic has exactly 32x Device:LED, 4x Device:R, a 3-pin Conn_01x03_Socket, no MCU; README gives 19x19mm size and 1.27mm GND-VCC-GND header for the "Hackaday Supercon add-on contest 2024"; the log post''s own text says "10 supercomputers where I''m going to ise self blinking LEDs" alongside 100 baseplates, iron-man, hackaday-logo and hackspace-logo variants; the production/ subfolder does contain netlist.ipc and a fabrication zip as described. Went further on the two saved images than the original pass did: pixel comparison against the live Hackaday.io log images confirms they are the same photos, and zooming into the bare-PCB shot shows several boards printed "SUPER ... CLUSTER" and the lit-board shot shows that same amber "SUPER CLUSTER" LED matrix lit up on
     the stack - so, better than "wider batch only," both images do specifically show this design, not just the batch it shipped with. The get_one distribution/where text (contest give-away, brought to Supercon to hand out) remains an inference from the project''s general "bringing 100 SAOs and 200 SAOAOs to supercon, feel free to make your own" note rather than a per-board confirmation, and no individual storefront or price listing exists for this specific SAO - kept at medium confidence for that reason. No contradictions found; nothing needed to be blanked or corrected.'
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/supercon-2024/yo-dawg-saoao-supercomputer-cluster.glb
+  method: kicad
+  source_file: badges/super_computer_custer_0805/super_computer_custer_0805.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 69860
 ---
 
 Part of davedarko's "Yo Dawg SAO" project for the Supercon 2024 (Supercon 8) add-on contest, the Supercomputer Cluster SAOAO is one of several small themed boards (alongside an Iron Man design, a Hackaday logo, and a hackspace logo) built to the project's "SAOAO" standard: a 19x19 mm add-on for an add-on, connecting to a host SAO baseplate through a 1.27 mm, 3-pin GND-VCC-GND header rather than I2C. Its schematic is entirely passive - 32 LEDs and 4 resistors in 0805 packages, with no microcontroller - using LEDs the maker described as "self blinking" to suggest the flickering status lights of a rack of servers without needing any driving logic.

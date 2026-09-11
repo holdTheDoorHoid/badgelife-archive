@@ -82,7 +82,13 @@ research:
   confidence: high
   last_checked: '2026-09-07'
   notes: Maker's own repo confirms design, function, and license. Not offered for sale (no store link, no price/quantity found) -- appears to be a personal/DIY open-hardware project shared for others to fabricate themselves, so get_one fields are left empty and status is set to released (design published, boards fabricated and shown assembled) rather than listed. No chip, LEDs, or display -- it is a passive bridge/adapter board, not an SAO itself.
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/supercon-2024/sao-bridge.glb
+  method: kicad
+  source_file: sao-bridge/sao-bridge.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 63592
 ---
 
 The SAO Bridge is a small PCB adapter by GitHub user astuder for the Hackaday Supercon 8 Add-On Badge, the official badge for Supercon 2024. The stock Supercon 8 badge has two SAO slots on its left and right edges, oriented sideways, with unused space in the middle. The bridge spans that center gap, adding a seventh SAO connector there wired to the power and I2C lines of the badge's slot 2 bus, and doubles as a mechanical adapter that rotates the existing left and right slots into an upright orientation.

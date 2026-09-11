@@ -97,7 +97,13 @@ research:
   confidence: high
   last_checked: '2026-09-07'
   notes: Price is not stated anywhere found - these were given out/self-assembled at Supercon rather than sold, so get_one.price is left empty and availability set to free. No LED count/type or specific SAOAO circuit details found since SAOAO is an open standard for third-party add-on modules rather than a fixed product; tech.leds left null accordingly. No dedicated storefront exists.
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/supercon-2024/yo-dawg-sao.glb
+  method: kicad
+  source_file: dawg/dawg.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 112956
 ---
 
 The Yo Dawg SAO is a baseplate that davedarko designed for Hackaday Supercon 2024's SAO add-on contest, built around a joke: "Yo Dawg, I heard you like add-ons on your badges, so I put an add-on on your add-on." Rather than being a single fixed circuit, it defines the "SAOAO" (Simple Add-on Add-on) standard - a tiny 19x19 mm module format on a 1.27 mm 3-pin GND-VCC-GND header, with VCC in the middle so the header can't be plugged in backwards. The baseplate itself holds up to three of these micro add-ons at once, and the design (credited to davedarko with Marc Merlin as a collaborator) was shared openly enough that other attendees produced their own SAOAO variants, including an Iron Man design and a Hackaday-logo board.
