@@ -59,6 +59,7 @@ links:
 - label: DEF CON 20 Hacking Conference index (defcon.org)
   url: https://defcon.org/html/defcon-20/dc-20-index.html
   kind: website
+  archived: https://web.archive.org/web/20260728164322/https://defcon.org/html/defcon-20/dc-20-index.html
 - label: badge.gallery/badges/def-con-20-badge
   url: https://badge.gallery/badges/def-con-20-badge
   kind: website
@@ -100,6 +101,7 @@ sources:
   title: DEF CON 20 Hacking Conference
   accessed: '2026-09-08'
   note: Confirms official Human badges were later sold online via hackerstickers.com (product page now 404) and that firmware/materials were included on the official conference DVD.
+  archived: https://web.archive.org/web/20260728164322/https://defcon.org/html/defcon-20/dc-20-index.html
 - kind: url
   url: https://badge.gallery/badges/def-con-20-badge
   title: DEF CON 20 Badge

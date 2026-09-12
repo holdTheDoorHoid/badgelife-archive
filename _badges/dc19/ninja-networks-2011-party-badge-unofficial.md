@@ -39,12 +39,13 @@ links:
 - label: forum.defcon.org/node/605
   url: https://forum.defcon.org/node/605
   kind: social
-- label: 'forum.defcon.org/node/13516 (cancellation notice)'
+- label: forum.defcon.org/node/13516 (cancellation notice)
   url: https://forum.defcon.org/node/13516
   kind: social
 - label: ninjas.org badge history
   url: https://www.ninjas.org/badges/index.html
   kind: website
+  archived: https://web.archive.org/web/20260609091349/https://ninjas.org/badges/index.html
 images: []
 contact: {}
 notes:
@@ -60,14 +61,15 @@ sources:
   note: 'Found by the archive''s discovery sweep (angle: sweep:dc19-all); event read as ''dc19''.'
 - kind: url
   url: https://forum.defcon.org/node/13516
-  title: 'Ninja Badge / Party 2011 - CANCELED'
+  title: Ninja Badge / Party 2011 - CANCELED
   accessed: '2026-09-10'
-  note: 'Confirms the 2011 Ninja Networks party and its badge were cancelled; organizer describes a month-long hospital stay that made planning and executing the event and badge impossible.'
+  note: Confirms the 2011 Ninja Networks party and its badge were cancelled; organizer describes a month-long hospital stay that made planning and executing the event and badge impossible.
 - kind: url
   url: https://www.ninjas.org/badges/index.html
-  title: 'ninja.networks / ninja badges'
+  title: ninja.networks / ninja badges
   accessed: '2026-09-10'
-  note: 'Maker''s own badge-history index; lists DC17, DC18 (2010), and DC20/NinjaTel pages but no DC19/2011 entry, consistent with the 2011 badge never having been produced.'
+  note: Maker's own badge-history index; lists DC17, DC18 (2010), and DC20/NinjaTel pages but no DC19/2011 entry, consistent with the 2011 badge never having been produced.
+  archived: https://web.archive.org/web/20260609091349/https://ninjas.org/badges/index.html
 research:
   status: researched
   confidence: medium

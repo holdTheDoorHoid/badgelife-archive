@@ -46,6 +46,7 @@ links:
 - label: DEF CON - The Badge (official)
   url: https://defcon.org/html/links/dc-badge.html
   kind: website
+  archived: https://web.archive.org/web/20260805181545/https://www.defcon.org/html/links/dc-badge.html
 images:
 - file: assets/images/badges/dc19/badge/229e59cf45.jpg
   source: https://badge.gallery/badges/def-con-19-badge
@@ -55,6 +56,7 @@ images:
   source: https://defcon.org/html/links/dc-badge.html
   credit: DEF CON
   caption: DEF CON 19 titanium badge
+  archived: https://web.archive.org/web/20260805181545/https://www.defcon.org/html/links/dc-badge.html
 contact: {}
 notes:
 - Non-electronic titanium badge (waterjet-cut, kiln-oxidized) built as a puzzle/social-engineering device rather than a circuit board. Found by the event-year sweep, task general-2006.
@@ -73,6 +75,7 @@ sources:
   title: DEF CON Hacking Conference - The Badge
   accessed: '2026-09-08'
   note: Official DEF CON page confirming titanium material, waterjet fabrication, kiln oxidation, US fabrication, the seven role variants (Goon/Press/Vendor/Contest/Speaker/Human/Uber), maker (Ryan "1o57" Clarke, sole credited designer), and puzzle/reality-game framing for the DC19 badge.
+  archived: https://web.archive.org/web/20260805181545/https://www.defcon.org/html/links/dc-badge.html
 - kind: url
   url: https://badge.gallery/credits/ryan-clarke-1o57-lost
   title: Ryan Clarke / 1o57 / LosT - Hacker Con Badges

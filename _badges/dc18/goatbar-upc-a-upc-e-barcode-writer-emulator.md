@@ -11,7 +11,7 @@ year: 2010
 makers:
 - name: Brad Threatt
 summary: 'A 1st-place DEF CON 18 Badge Hacking Contest entry: a firmware modification for the official DC18 badge that lets the wearer write a UPC-A/UPC-E barcode of a cheaper item and display it on the badge''s LCD to fool retail self-checkout scanners.'
-functions: 'Uses the DC18 badge''s two buttons and a menu GUI to enter/select a UPC-A or UPC-E barcode, generates the corresponding barcode pattern, and displays it on the badge''s LCD so a self-checkout laser scanner reads it as if it were printed on an item.'
+functions: Uses the DC18 badge's two buttons and a menu GUI to enter/select a UPC-A or UPC-E barcode, generates the corresponding barcode pattern, and displays it on the badge's LCD so a self-checkout laser scanner reads it as if it were printed on an item.
 look:
   colors: []
   shape: null
@@ -32,7 +32,7 @@ get_one:
   availability: not_released
   distribution:
   - contest
-  where: 'Not sold; a firmware hack for the official DEF CON 18 attendee badge, shared as source code/binary via a personal link (ehq.com/GoatBar.zip) rather than distributed as a product.'
+  where: Not sold; a firmware hack for the official DEF CON 18 attendee badge, shared as source code/binary via a personal link (ehq.com/GoatBar.zip) rather than distributed as a product.
 make_your_own:
   open_source: 'yes'
   hardware_url: null
@@ -42,7 +42,8 @@ links:
 - label: ehq.com/GoatBar.zip
   url: https://ehq.com/GoatBar.zip
   kind: repo
-- label: 'DEF CON 18 Contest Results'
+  archived: https://web.archive.org/web/20260303002725/https://ehq.com/GoatBar.zip
+- label: DEF CON 18 Contest Results
   url: https://defcon.org/html/defcon-18/dc-18-contest-results.html
   kind: article
 - label: 'Nuts and Volts: DEFCON Badge Hacking Contest writeup'
@@ -51,17 +52,18 @@ links:
 - label: 'DEF CON forum: DC18 Badge Hacking Contest Results'
   url: https://forum.defcon.org/node/12829
   kind: doc
-- label: 'DEF CON 18 badge hack video (media.defcon.org)'
+- label: DEF CON 18 badge hack video (media.defcon.org)
   url: https://media.defcon.org/DEF%20CON%2018/DEF%20CON%2018%20hackaday%20bage%20hacks/DC18%20Badge%20Hack%20GoatBar%20UPC%20Barcode%20Writer%20Emulator.mp4
   kind: video
 - label: 'Grand Idea Studio: DEFCON 18 Badge (badge hardware background)'
   url: https://grandideastudio.com/portfolio/other/defcon-18-badge/
   kind: article
+  archived: https://web.archive.org/web/20260303002724/https://grandideastudio.com/portfolio/other/defcon-18-badge/
 images: []
 contact: {}
 notes:
 - 'Winning entry in the DEF CON 18 Badge Hacking Contest: a UPC barcode writer/emulator add-on built around the official DC18 badge, designed to interact with retail self-checkout scanners. Found by the event-year sweep, task dc18-all.'
-- 'The sweep''s only source (ehq.com/GoatBar.zip) is a raw firmware/CodeWarrior project archive for a Freescale 56F8006 bootloader, with no README or author info inside; confirmed as the real GoatBar project via DEF CON''s own contest results page, a Nuts & Volts writeup, the DEF CON forums thread, and a media.defcon.org video/transcript of the entry being demoed.'
+- The sweep's only source (ehq.com/GoatBar.zip) is a raw firmware/CodeWarrior project archive for a Freescale 56F8006 bootloader, with no README or author info inside; confirmed as the real GoatBar project via DEF CON's own contest results page, a Nuts & Volts writeup, the DEF CON forums thread, and a media.defcon.org video/transcript of the entry being demoed.
 status: released
 sources:
 - kind: url
@@ -69,36 +71,39 @@ sources:
   title: GoatBar UPC-A/UPC-E Barcode Writer/Emulator
   accessed: '2026-09-07'
   note: 'Found by the archive''s discovery sweep (angle: sweep:dc18-all); event read as ''dc18''.'
+  archived: https://web.archive.org/web/20260303002725/https://ehq.com/GoatBar.zip
 - kind: url
   url: https://defcon.org/html/defcon-18/dc-18-contest-results.html
-  title: 'DEF CON 18 Hacking Conference - Contest Results'
+  title: DEF CON 18 Hacking Conference - Contest Results
   accessed: '2026-09-08'
-  note: 'Confirms 1st place in the DC18 Badge Hacking Contest, maker, and the self-checkout barcode-substitution description.'
+  note: Confirms 1st place in the DC18 Badge Hacking Contest, maker, and the self-checkout barcode-substitution description.
 - kind: url
   url: https://www.nutsvolts.com/uploads/magazine_downloads/Badge_Hacking_Contest.pdf
-  title: 'PDF DEFCON Badge Hacking Contest - Nuts and Volts Magazine'
+  title: PDF DEFCON Badge Hacking Contest - Nuts and Volts Magazine
   accessed: '2026-09-08'
-  note: '1st place writeup naming Brad Threatt and describing the two-button GUI barcode entry method.'
+  note: 1st place writeup naming Brad Threatt and describing the two-button GUI barcode entry method.
 - kind: url
   url: https://forum.defcon.org/node/12829
   title: '[Defcon 18] DC18 Badge Hacking Contest Results'
   accessed: '2026-09-08'
-  note: 'Community forum record of the contest results with the same description.'
+  note: Community forum record of the contest results with the same description.
 - kind: url
   url: https://grandideastudio.com/portfolio/other/defcon-18-badge/
-  title: 'DEFCON 18 Badge - Grand Idea Studio'
+  title: DEFCON 18 Badge - Grand Idea Studio
   accessed: '2026-09-08'
   note: 'Background on the host DC18 badge hardware: Freescale MC56F8006 MCU, 128x32 reflective LCD, CR2032 battery, 7,780 units made; names GoatBar as the contest winner.'
+  archived: https://web.archive.org/web/20260303002724/https://grandideastudio.com/portfolio/other/defcon-18-badge/
 - kind: url
   url: https://media.defcon.org/DEF%20CON%2018/DEF%20CON%2018%20hackaday%20bage%20hacks/DC18%20Badge%20Hack%20GoatBar%20UPC%20Barcode%20Writer%20Emulator.eng.srt
-  title: 'DC18 Badge Hack GoatBar transcript'
+  title: DC18 Badge Hack GoatBar transcript
   accessed: '2026-09-08'
-  note: 'Video transcript of the maker demoing the barcode writer on camera, confirming it is a real, working entry.'
+  note: Video transcript of the maker demoing the barcode writer on camera, confirming it is a real, working entry.
 research:
   status: verified
   confidence: medium
   last_checked: '2026-09-08'
-  notes: 'Fact-check pass (2026-09-08): re-fetched all 6 cited sources directly. defcon.org contest-results page, the DEF CON forums thread (forum.defcon.org/node/12829, fetched via curl after a WebFetch 403), the Nuts & Volts PDF (text-extracted with pdftotext), and the media.defcon.org .eng.srt transcript all independently confirm: 1st place in the DC18 (2010) Badge Hacking Contest, maker Brad Threatt, and the UPC-A/UPC-E barcode entry/self-checkout-scanner description. Grand Idea Studio''s DC18 badge page confirms the host badge''s MCU (Freescale MC56F8006), display (Kent Displays 128x32 reflective ChLCD), and that 7,780 badges were made (a host-badge fact, correctly left out of get_one.quantity since it is not a GoatBar-specific figure). ehq.com/GoatBar.zip returns HTTP 200 (a real zip file), matching the firmware_url and repo link. No unsupported claims found; every non-empty field and body sentence traces to a source that was actually read. Hardware fields (leds, connectivity, battery, sao_version) remain empty/null because GoatBar is a firmware-only hack on the host badge and adds no hardware of its own. No photo of the badge running GoatBar was found (only a video record), so images remain unset. Quantity made, price, and exact contest date beyond "2010/DC18" remain unstated in any source found.'
+  notes: 'Fact-check pass (2026-09-08): re-fetched all 6 cited sources directly. defcon.org contest-results page, the DEF CON forums thread (forum.defcon.org/node/12829, fetched via curl after a WebFetch 403), the Nuts & Volts PDF (text-extracted with pdftotext), and the media.defcon.org .eng.srt transcript all independently confirm: 1st place in the DC18 (2010) Badge Hacking Contest, maker Brad Threatt, and the UPC-A/UPC-E barcode entry/self-checkout-scanner description. Grand Idea Studio''s DC18 badge page confirms the host badge''s MCU (Freescale MC56F8006), display (Kent Displays 128x32 reflective ChLCD), and that 7,780 badges were made (a host-badge fact, correctly left out of get_one.quantity since it is not a GoatBar-specific figure). ehq.com/GoatBar.zip returns HTTP 200 (a real zip file), matching the firmware_url and repo link. No unsupported claims found; every non-empty field and body sentence traces to a source that was actually read. Hardware fields (leds, connectivity, battery,
+    sao_version) remain empty/null because GoatBar is a firmware-only hack on the host badge and adds no hardware of its own. No photo of the badge running GoatBar was found (only a video record), so images remain unset. Quantity made, price, and exact contest date beyond "2010/DC18" remain unstated in any source found.'
 last_modified_date: '2026-09-08'
 ---
 
