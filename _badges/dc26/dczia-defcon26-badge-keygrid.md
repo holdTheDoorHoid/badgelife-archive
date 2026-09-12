@@ -57,15 +57,18 @@ links:
 - label: github.com/dczia/Defcon26-Badge
   url: https://github.com/dczia/Defcon26-Badge
   kind: repo
+  archived: https://web.archive.org/web/20260512135511/https://github.com/dczia/Defcon26-Badge
 images:
 - file: assets/images/badges/dc26/dczia-defcon26-badge-keygrid/e65d740f32.jpg
   source: https://github.com/dczia/Defcon26-Badge
   credit: DCZia
   caption: KeyGrid badge PCB render, front, green soldermask
+  archived: https://web.archive.org/web/20260512135511/https://github.com/dczia/Defcon26-Badge
 - file: assets/images/badges/dc26/dczia-defcon26-badge-keygrid/f048fcce2a.jpg
   source: https://github.com/dczia/Defcon26-Badge
   credit: DCZia
   caption: KeyGrid badge PCB render, back, green soldermask
+  archived: https://web.archive.org/web/20260512135511/https://github.com/dczia/Defcon26-Badge
 contact: {}
 notes: []
 status: released
@@ -75,11 +78,13 @@ sources:
   title: DCZia Defcon26-Badge (KeyGrid)
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: maker-groups); event read as ''DEF CON 26''.'
+  archived: https://web.archive.org/web/20260512135511/https://github.com/dczia/Defcon26-Badge
 - kind: url
   url: https://github.com/dczia/Defcon26-Badge
   title: dczia/Defcon26-Badge README
   accessed: '2026-09-07'
   note: Confirmed maker (DCZia), event/year (DEF CON 26, 2018), badge name ("KeyGrid" from Hardware/KeyGridBadge folder), ESP32 MCU, SSD1306 OLED, 16 Neopixel-mini LEDs under a 4x4 Gatreon Blue keyswitch grid, BLE/Wi-Fi, 3xAA or USB power, SAO support, and open KiCad hardware + firmware.
+  archived: https://web.archive.org/web/20260512135511/https://github.com/dczia/Defcon26-Badge
 research:
   status: researched
   confidence: high

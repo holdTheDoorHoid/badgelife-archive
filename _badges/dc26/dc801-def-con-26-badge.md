@@ -66,18 +66,22 @@ links:
 - label: github.com/dczia/Defcon26-Badge
   url: https://github.com/dczia/Defcon26-Badge
   kind: repo
+  archived: https://web.archive.org/web/20260512135511/https://github.com/dczia/Defcon26-Badge
 - label: DCZia DEF CON 26 Mechanical Keyboard Badge (Tindie)
   url: https://www.tindie.com/products/hamster/dczia-defcon-26-mechanical-keyboard-badge/
   kind: store
+  archived: https://web.archive.org/web/20260510011747/https://www.tindie.com/products/hamster/dczia-defcon-26-mechanical-keyboard-badge/
 images:
 - file: assets/images/badges/dc26/dc801-def-con-26-badge/fff1e117c8.jpg
   source: https://www.tindie.com/products/hamster/dczia-defcon-26-mechanical-keyboard-badge/
   credit: snurkle engineering (hamster)
   caption: 'DCZia DEF CON 26 badge: 4x4 mechanical keyswitch grid with RGB backlighting'
+  archived: https://web.archive.org/web/20260510011747/https://www.tindie.com/products/hamster/dczia-defcon-26-mechanical-keyboard-badge/
 - file: assets/images/badges/dc26/dc801-def-con-26-badge/488e63d96c.jpg
   source: https://www.tindie.com/products/hamster/dczia-defcon-26-mechanical-keyboard-badge/
   credit: snurkle engineering (hamster)
   caption: DCZia DEF CON 26 badge, assembled with keycaps and OLED lit
+  archived: https://web.archive.org/web/20260510011747/https://www.tindie.com/products/hamster/dczia-defcon-26-mechanical-keyboard-badge/
 contact: {}
 notes:
 - The community sheet titled this "DC801 DEF CON 26 badge"; the maker's own README and the Tindie listing both name it the "DCZia 2018" / "DCZia DEF CON 26" badge. The designer (hamster) is DC801-affiliated (Sandy, UT / snurkle engineering also sells separate DC801-branded SAOs), but this specific board is DCZia's, not the unrelated DC801 "party badge" (nRF52832/BMD-300, LCD, tic-tac-toe) covered the same year by Hackaday's DEF CON 26 badge roundup — that is a different item, see other_items_found.
@@ -98,11 +102,13 @@ sources:
   title: DCZia DEF CON 26 Mechanical Keyboard Badge (Tindie)
   accessed: '2026-09-07'
   note: Confirms seller (snurkle engineering / hamster), sold-out status, SAO/minibadge headers, USB power option, and product photos.
+  archived: https://web.archive.org/web/20260510011747/https://www.tindie.com/products/hamster/dczia-defcon-26-mechanical-keyboard-badge/
 - kind: url
   url: https://hackaday.com/2018/08/29/all-the-badges-of-def-con-26-vol-3/
   title: All The Badges Of DEF CON 26 (vol 3)
   accessed: '2026-09-07'
   note: Covers a different DC801 badge (nRF52832/BMD-300 "party badge") from the same year; used to confirm this is a distinct item, not a duplicate.
+  archived: https://web.archive.org/web/20260417144127/https://hackaday.com/2018/08/29/all-the-badges-of-def-con-26-vol-3/
 research:
   status: researched
   confidence: high

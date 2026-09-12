@@ -29,7 +29,7 @@ get_one:
   price_usd: 10
   quantity: ''
   availability: sold_out
-  availability_note: 'Listed as out of stock on Tindie as of May 15, 2021; still out of stock as checked 2026-09-08.'
+  availability_note: Listed as out of stock on Tindie as of May 15, 2021; still out of stock as checked 2026-09-08.
   distribution:
   - purchase
   where: Sold on Tindie by seller "hamster" (snurkle engineering); proceeds supported DC801's space and hardware development.
@@ -42,15 +42,17 @@ links:
 - label: www.tindie.com/products/hamster/dc801-sao-badgelife-addon
   url: https://www.tindie.com/products/hamster/dc801-sao-badgelife-addon/
   kind: store
+  archived: https://web.archive.org/web/20260503100156/https://www.tindie.com/products/hamster/dc801-sao-badgelife-addon/
 images:
 - file: assets/images/badges/dc26/dc801-sao/95c065b105.jpg
-  source: "https://www.tindie.com/products/hamster/dc801-sao-badgelife-addon/"
-  credit: "snurkle engineering"
-  caption: "DC801 SAO product photo"
+  source: https://www.tindie.com/products/hamster/dc801-sao-badgelife-addon/
+  credit: snurkle engineering
+  caption: DC801 SAO product photo
+  archived: https://web.archive.org/web/20260503100156/https://www.tindie.com/products/hamster/dc801-sao-badgelife-addon/
 contact: {}
 notes:
 - Spotted by a research agent while working on a neighbouring entry (run 4).
-- 'Sheet listed event as ''unknown''; Tindie listing places it in the 2018 / DEF CON 26 badgelife community.'
+- Sheet listed event as 'unknown'; Tindie listing places it in the 2018 / DEF CON 26 badgelife community.
 status: released
 sources:
 - kind: url
@@ -58,16 +60,18 @@ sources:
   title: DC801 SAO
   accessed: '2026-09-07'
   note: 'Found by the archive''s discovery sweep (angle: research-run4-spotted); event read as ''unknown''.'
+  archived: https://web.archive.org/web/20260503100156/https://www.tindie.com/products/hamster/dc801-sao-badgelife-addon/
 - kind: url
   url: https://www.tindie.com/products/hamster/dc801-sao-badgelife-addon/
   title: DC801 SAO badgelife addon - Tindie
   accessed: '2026-09-08'
   note: Confirmed maker, price ($10), SAO header type, no-MCU self-blinking LED design, out-of-stock status, and that proceeds supported DC801.
+  archived: https://web.archive.org/web/20260503100156/https://www.tindie.com/products/hamster/dc801-sao-badgelife-addon/
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-08'
-  notes: 'Only source found is the Tindie storefront itself; no maker blog post, repo, or press coverage located. Exact LED count/type and colors are not stated on the listing, so those fields are left empty. No hardware or firmware files are published for this simple passive-LED design.'
+  notes: Only source found is the Tindie storefront itself; no maker blog post, repo, or press coverage located. Exact LED count/type and colors are not stated on the listing, so those fields are left empty. No hardware or firmware files are published for this simple passive-LED design.
 last_modified_date: '2026-09-08'
 redirect_from:
 - /badges/other/dc801-sao/

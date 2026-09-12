@@ -51,6 +51,7 @@ links:
 - label: hackaday.com/2018/08/29/all-the-badges-of-def-con-26-vol-3
   url: https://hackaday.com/2018/08/29/all-the-badges-of-def-con-26-vol-3/
   kind: article
+  archived: https://web.archive.org/web/20260417144127/https://hackaday.com/2018/08/29/all-the-badges-of-def-con-26-vol-3/
 - label: 'GitHub: Defcon-Shoot-26-Puzzle writeup'
   url: https://github.com/seeess/Defcon-Shoot-26-Puzzle
   kind: repo
@@ -60,15 +61,18 @@ links:
 - label: The Unofficial DEF CON Shoot Page
   url: https://dcshoot.org/
   kind: website
+  archived: https://web.archive.org/web/20260727131048/https://dcshoot.org/
 images:
 - file: assets/images/badges/dc26/def-con-shoot-badge/cc69cc416a.jpg
   source: https://hackaday.com/2018/08/29/all-the-badges-of-def-con-26-vol-3/
   credit: Hackaday
   caption: The DEF CON Shoot banana-scented PMAG badge hanging on its lanyard
+  archived: https://web.archive.org/web/20260417144127/https://hackaday.com/2018/08/29/all-the-badges-of-def-con-26-vol-3/
 - file: assets/images/badges/dc26/def-con-shoot-badge/c35724a8eb.jpg
   source: https://hackaday.com/2018/08/29/all-the-badges-of-def-con-26-vol-3/
   credit: Hackaday
   caption: The banana-themed sticker included with the DEF CON Shoot badge
+  archived: https://web.archive.org/web/20260417144127/https://hackaday.com/2018/08/29/all-the-badges-of-def-con-26-vol-3/
 contact: {}
 notes:
 - Sweep imported the title as "DEF CON Shoot Badge"; sources (Hackaday, GitHub, YouTube) call it a "banana clip"/"banana magazine" badge and the maker's own handle is @boombadge, so the title has been adjusted to "DEF CON Shoot Badge (Banana Mag)" to match maker usage and to distinguish it from the badge's puzzle/lanyard.
@@ -83,6 +87,7 @@ sources:
   title: DEF CON Shoot Badge (Banana Mag)
   accessed: '2026-09-07'
   note: 'Found by the archive''s discovery sweep (angle: sweep:dc26-badges); event read as ''dc26''.'
+  archived: https://web.archive.org/web/20260417144127/https://hackaday.com/2018/08/29/all-the-badges-of-def-con-26-vol-3/
 - kind: url
   url: https://github.com/seeess/Defcon-Shoot-26-Puzzle
   title: Defcon-Shoot-26-Puzzle README
@@ -98,6 +103,7 @@ sources:
   title: The Unofficial DEF CON Shoot Page
   accessed: '2026-09-08'
   note: Background on the DEF CON Shoot event (pre-con shooting range meetup) that the badge was made for.
+  archived: https://web.archive.org/web/20260727131048/https://dcshoot.org/
 research:
   status: researched
   confidence: medium

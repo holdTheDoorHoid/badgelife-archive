@@ -12,7 +12,7 @@ makers:
 - name: El Kentaro
   url: https://twitter.com/elkentaro
 summary: A non-electronic, jewel-encrusted DEF CON 26 badge by El Kentaro, 3D printed and finished in gold.
-functions: 'Decorative wearable badge only; no electronics or interactive functions.'
+functions: Decorative wearable badge only; no electronics or interactive functions.
 look:
   colors:
   - gold
@@ -46,19 +46,20 @@ links:
 - label: El Kentaro on Twitter
   url: https://twitter.com/elkentaro
   kind: social
+  archived: https://web.archive.org/web/20251127025531/https://twitter.com/elkentaro
 images:
 - file: assets/images/badges/dc26/deauth-badge/b4ca820d02.jpg
-  source: "https://hackaday.com/2018/08/21/all-the-badges-of-def-con-26-vol-2/"
-  credit: "Hackaday"
-  caption: "The DEAUTH Badge, a 3D-printed, gold-painted badge covered in jewels and glass beads"
+  source: https://hackaday.com/2018/08/21/all-the-badges-of-def-con-26-vol-2/
+  credit: Hackaday
+  caption: The DEAUTH Badge, a 3D-printed, gold-painted badge covered in jewels and glass beads
 - file: assets/images/badges/dc26/deauth-badge/2ff3f6b222.jpg
-  source: "https://hackaday.com/2018/08/21/all-the-badges-of-def-con-26-vol-2/"
-  credit: "Hackaday"
-  caption: "Close-up of the DEAUTH Badge's gold, jewel-encrusted surface"
+  source: https://hackaday.com/2018/08/21/all-the-badges-of-def-con-26-vol-2/
+  credit: Hackaday
+  caption: Close-up of the DEAUTH Badge's gold, jewel-encrusted surface
 contact: {}
 notes:
 - Non-electronic 3D-printed DC26 badge decorated with jewels and glass beads. Found by the event-year sweep, task dc26-indie.
-- 'The sweep''s notes line matches Hackaday''s description closely; no title discrepancy found.'
+- The sweep's notes line matches Hackaday's description closely; no title discrepancy found.
 status: released
 sources:
 - kind: url
@@ -75,15 +76,7 @@ research:
   status: researched
   confidence: medium
   last_checked: '2026-09-08'
-  notes: >-
-    Only source found is the original Hackaday DC26 badge roundup (press coverage, not
-    the maker's own page); the article itself notes the piece was hard to photograph
-    because of its reflective, jeweled surface. No maker storefront, repo, price,
-    quantity, or availability information was found. A search also surfaced a
-    Thingiverse listing titled "DEF CON 26 Stamp Badge" by the same maker (elkentaro)
-    and a separate, later "El Kentaro's Deauth Detector" project shown at DEF CON 27
-    (a different, electronic device) -- neither was folded into this entry since
-    neither was confirmed to be the same item as this badge.
+  notes: Only source found is the original Hackaday DC26 badge roundup (press coverage, not the maker's own page); the article itself notes the piece was hard to photograph because of its reflective, jeweled surface. No maker storefront, repo, price, quantity, or availability information was found. A search also surfaced a Thingiverse listing titled "DEF CON 26 Stamp Badge" by the same maker (elkentaro) and a separate, later "El Kentaro's Deauth Detector" project shown at DEF CON 27 (a different, electronic device) -- neither was folded into this entry since neither was confirmed to be the same item as this badge.
 last_modified_date: '2026-09-08'
 ---
 

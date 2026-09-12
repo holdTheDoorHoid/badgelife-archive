@@ -44,7 +44,7 @@ get_one:
   - purchase
   where: Issued to DEF CON 26 attendees at Caesars Palace, Las Vegas (Aug 9-12, 2018); seven variants (soldermask/silkscreen color combinations) marked different attendee roles, e.g. white/black for general "Human" attendees, red/white for Goons, blue/white for Speakers, plus Contest, Artist, Press, Vendor, and CFP variants.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: null
   firmware_url: null
   eda_tool: null
@@ -53,6 +53,7 @@ links:
 - label: defcon.org/html/links/dc-badge.html
   url: https://defcon.org/html/links/dc-badge.html
   kind: website
+  archived: https://web.archive.org/web/20260805181545/https://www.defcon.org/html/links/dc-badge.html
 - label: HackerNoon — Exploring The DEF CON 26 Badge
   url: https://hackernoon.com/exploring-the-def-con-26-badge-dfcae0a5746d
   kind: article
@@ -64,9 +65,9 @@ links:
   kind: social
 images:
 - file: assets/images/badges/dc26/def-con-26-main-con-badge/83d06eecc8.jpg
-  source: "https://hackernoon.com/exploring-the-def-con-26-badge-dfcae0a5746d"
-  credit: "Vince Tabora / HackerNoon"
-  caption: "The DEF CON 26 human badge worn around the neck"
+  source: https://hackernoon.com/exploring-the-def-con-26-badge-dfcae0a5746d
+  credit: Vince Tabora / HackerNoon
+  caption: The DEF CON 26 human badge worn around the neck
 contact: {}
 notes:
 - Sweep originally listed only the defcon.org badge-info page as source; title and maker were already correct on the sheet.
@@ -77,11 +78,13 @@ sources:
   title: DEF CON 26 main con badge
   accessed: '2026-09-10'
   note: Reported as an 'other item found' during the stub research pass.
+  archived: https://web.archive.org/web/20260805181545/https://www.defcon.org/html/links/dc-badge.html
 - kind: url
   url: https://defcon.org/html/links/dc-badge.html
-  title: "DEF CON® Hacking Conference - The Badge"
+  title: DEF CON® Hacking Conference - The Badge
   accessed: '2026-09-10'
   note: Confirmed theme ("DEFCON City"), maker Tymkrs, gameplay mechanics, and role-based color variants.
+  archived: https://web.archive.org/web/20260805181545/https://www.defcon.org/html/links/dc-badge.html
 - kind: url
   url: https://hackernoon.com/exploring-the-def-con-26-badge-dfcae0a5746d
   title: Exploring The DEF CON 26 Badge - HackerNoon

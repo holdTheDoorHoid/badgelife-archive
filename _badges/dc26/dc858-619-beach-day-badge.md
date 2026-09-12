@@ -57,6 +57,7 @@ links:
 - label: www.tindie.com/products/phelgon/dc858619-unofficial-def-con-badge
   url: https://www.tindie.com/products/phelgon/dc858619-unofficial-def-con-badge/
   kind: store
+  archived: https://web.archive.org/web/20260503104231/https://www.tindie.com/products/phelgon/dc858619-unofficial-def-con-badge/
 images:
 - file: assets/images/badges/dc26/dc858-619-beach-day-badge/e9b1e98644.jpg
   source: https://hackaday.io/project/160782-dc858619-beach-day-unofficial-def-con-26-badge
@@ -66,6 +67,7 @@ images:
   source: https://www.tindie.com/products/phelgon/dc858619-unofficial-def-con-badge/
   credit: phelgon
   caption: The DC858/619 Beach Day Badge, fully assembled
+  archived: https://web.archive.org/web/20260503104231/https://www.tindie.com/products/phelgon/dc858619-unofficial-def-con-badge/
 contact: {}
 notes:
 - Fully assembled unofficial electronic badge for DEF CON attendees from the DC858/619 (San Diego) DEF CON group, with RGB LEDs, MQ303 breathalyzer, IR TV-B-Gone, 128x64 LCD, and SAO support; design files on GitHub (ellwoodthewood/DC858_619_Badge). Found by the event-year sweep, task con-dc404.
@@ -93,6 +95,7 @@ sources:
   title: DC858/619 Unofficial DEF CON Badge ("Beach Day Badge")
   accessed: '2026-09-07'
   note: 'Found by the archive''s discovery sweep (angle: sweep:con-dc404); event read as ''DC858 2018''.'
+  archived: https://web.archive.org/web/20260503104231/https://www.tindie.com/products/phelgon/dc858619-unofficial-def-con-badge/
 research:
   status: researched
   confidence: medium
