@@ -149,13 +149,13 @@ research:
   confidence: high
   last_checked: '2026-09-07'
   notes: Maker's own hackaday.io project page and GitHub repo confirmed the core hardware facts; price per unit/backer tier and whether gerbers/license were actually published could not be confirmed (Kickstarter page returned 403 to automated fetch). Quantity and distribution (Kickstarter, 170 of 200 planned) confirmed by two independent sources (Hackaday, Hackaday.io comments). Merged with duplicate entry 'DC27 MULTI PASS' (dc27-dc27-multi-pass).
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-11'
 model:
   file: assets/models/dc27/mooltipass-badge.glb
   method: kicad
   source_file: element.brd
-  generated: '2026-09-07'
-  bytes: 718988
+  generated: '2026-09-11'
+  bytes: 718948
 redirect_from:
 - /badges/dc27/dc27-multi-pass/
 ---

@@ -44,6 +44,7 @@ links:
 - label: www.bsidesseattle.com/history.html
   url: https://www.bsidesseattle.com/history.html
   kind: website
+  archived: https://web.archive.org/web/20260622143130/https://www.bsidesseattle.com/history.html
 - label: BlackLodgeResearch/bsides_2018_badge
   url: https://github.com/BlackLodgeResearch/bsides_2018_badge
   kind: repo
@@ -51,7 +52,7 @@ images: []
 contact: {}
 notes:
 - The con's own history page states new electronic badges were introduced in 2018 and integrated with the Hardware Hacking Village for over 470 participants; no maker or design specifics given beyond that. Found by the event-year sweep, task bsides-las-vegas.
-- 'The sweep''s notes field described only what the con''s history page said; the maker and hardware details below came from a separate GitHub repo (BlackLodgeResearch/bsides_2018_badge) found via search, which is presumed to be the same 2018 badge given the matching event, year, and Hardware Hacking Village hand-off. Eagle schematic file present but not fetched for further tech.mcu confirmation beyond what the README states.'
+- The sweep's notes field described only what the con's history page said; the maker and hardware details below came from a separate GitHub repo (BlackLodgeResearch/bsides_2018_badge) found via search, which is presumed to be the same 2018 badge given the matching event, year, and Hardware Hacking Village hand-off. Eagle schematic file present but not fetched for further tech.mcu confirmation beyond what the README states.
 status: released
 sources:
 - kind: url
@@ -59,6 +60,7 @@ sources:
   title: BSides Seattle 2018 electronic badge
   accessed: '2026-09-07'
   note: 'Found by the archive''s discovery sweep (angle: sweep:bsides-las-vegas); event read as ''BSides Seattle 2018''.'
+  archived: https://web.archive.org/web/20260622143130/https://www.bsidesseattle.com/history.html
 - kind: url
   url: https://github.com/BlackLodgeResearch/bsides_2018_badge
   title: BlackLodgeResearch/bsides_2018_badge

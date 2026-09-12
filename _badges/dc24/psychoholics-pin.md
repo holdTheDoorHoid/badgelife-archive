@@ -75,12 +75,12 @@ research:
   last_checked: '2026-09-07'
   notes: 'Fact-check pass (2026-09-07): re-fetched README.md, the psychoholic_pin.ino firmware, and the repo/hardware/firmware directory listings directly. All cited facts check out: README confirms "SoftPWM Arduino code for the Psychoholics DEF CON 24 badge"; the .ino confirms 11 LEDs (NUM_LEDS=11) in leds[], SoftPWM-driven, a random-LED loop with a 30ms delay (NEXT_LED) and 1500/2000ms fade times, no button/input code; the hardware directory contains only psychoholics_pin.brd and psychoholics_pin.sch (Eagle CAD format), the firmware directory contains only psychoholic_pin.ino. Corrected two fields the researcher under-filled: make_your_own.open_source to "yes" (guide: yes when both hardware and firmware are published, which they are, regardless of missing BOM/license) and make_your_own.eda_tool to "Eagle" (directly evidenced by the .brd/.sch file extensions already cited, not a maker statement but an objective read of the published files). Psychoholics is a long-running DEF CON phreaking/social
     group; no maker write-up, storefront, price, quantity, or photo of the finished pin exists anywhere found online, so those fields correctly stay empty. No images were saved (none exist to save) and no contradictions were found between sources.'
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-11'
 model:
   file: assets/models/dc24/psychoholics-pin.glb
   method: kicad
   source_file: psychoholics_pin.brd
-  generated: '2026-09-07'
+  generated: '2026-09-11'
   bytes: 61964
 ---
 

@@ -97,13 +97,13 @@ research:
   confidence: high
   last_checked: '2026-09-07'
   notes: Maker's GitHub README and Tindie listing agree on the core facts. Exact LED count, PCB solder-mask color, and total quantity made are not stated anywhere found; left empty rather than guessed.
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-11'
 model:
   file: assets/models/dc29/dc29-makeithackin-badge.glb
   method: kicad
   source_file: SAO_3.brd
-  generated: '2026-09-07'
-  bytes: 71480
+  generated: '2026-09-11'
+  bytes: 71504
 ---
 
 MakeItHackin's DEF CON 29 badge is an unofficial, credit-card-shaped electronic badge built around an ATtiny85 microcontroller, a 0.96" OLED display, RGB NeoPixel-style LEDs, a light sensor, a button, and a standard SAO connector. Its gimmick is literal: two working retail anti-theft tags are embedded in blank spots on the board, one tuned to 8.2 MHz for Checkpoint gate systems and one to 58 kHz for Sensormatic systems, so the badge itself can trip a store's security gates. The maker chose the credit-card outline specifically to play off that retail-security theme.

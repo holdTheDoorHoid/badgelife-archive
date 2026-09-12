@@ -92,15 +92,15 @@ research:
   confidence: high
   last_checked: '2026-09-07'
   notes: Price and formal distribution not found; only two units were made by the maker for personal/demo use at DEF CON 26 rather than sold or given out widely, so availability is set to not_released. Repo does not state which EDA tool was used, left null. sao_version not applicable/unknown since this is a standalone badge, not confirmed to carry an SAO header.
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-11'
 redirect_from:
 - /badges/other/heartybadge/
 model:
   file: assets/models/dc26/heartybadge.glb
   method: kicad
   source_file: pc_badge_hrv.brd
-  generated: '2026-09-07'
-  bytes: 661052
+  generated: '2026-09-11'
+  bytes: 661132
 ---
 
 HeartyBadge is a conference badge built by Ashwin K. Whitchurch of ProtoCentral (with Archana Vijayan) for DEF CON 26 in 2018, adapting the pair's existing HeartyPatch wearable ECG design into badge form just before the conference. It combines a MAX30003 single-lead ECG front end, an ESP32 with Wi-Fi and Bluetooth, and 144 APA102 RGB LEDs arranged mostly as a matrix. Two gold-plated pads etched into the PCB serve as electrodes: pinching them between thumb and forefinger lets the badge pick up the wearer's heartbeat and animate a heart shape on the LED matrix in time with it.

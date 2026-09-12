@@ -81,12 +81,12 @@ research:
   confidence: medium
   last_checked: '2026-09-07'
   notes: Could not find any photograph of the assembled Bot jewel itself (only Altium schematic/PCB source files and a PDF export in the repo's OUTPUT folder, plus general badge photos of the Ph0xx badge itself with no jewel visible/labeled) - no images saved. No pricing, quantity-made, or distribution details found; this was a maker-community add-on, not something sold separately, so those fields are likely not applicable rather than unknown. MCU/LED/display fields left empty because the jewel is a passive power-boost board for servos, not documented with its own chip - the badge's main ESP32-WROOM-32 module or a header pin apparently drives the servos through the boosted rail, but exact tech (motor driver IC, connector pinout) is in the Altium files, not the pages read here.
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-11'
 model:
   file: assets/models/fri3d-2018/fri3d-2018-bot-jewel.glb
   method: gerber
   source_file: design/jewels/Bot.00/OUTPUT/Gerber
-  generated: '2026-09-07'
+  generated: '2026-09-11'
   bytes: 50396
   size_mm:
   - 420.0

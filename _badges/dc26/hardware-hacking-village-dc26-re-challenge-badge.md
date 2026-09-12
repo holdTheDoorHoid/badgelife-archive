@@ -75,13 +75,13 @@ research:
   confidence: medium
   last_checked: '2026-09-07'
   notes: Core facts (event, year, MCU, challenge mechanics, license) confirmed from the maker's own GitHub repo and README. Price, quantity made, and exact distribution terms (free vs. paid, kit vs. assembled) are not stated anywhere in the repo and were left blank rather than guessed. No third-party coverage (Hackaday, forums, etc.) was found to cross-check or supplement. No photo of an unassembled or in-the-wild board was found beyond the annotated assembly diagram used here.
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-11'
 model:
   file: assets/models/dc26/hardware-hacking-village-dc26-re-challenge-badge.glb
   method: kicad
   source_file: DC26_HHV_challenge.brd
-  generated: '2026-09-07'
-  bytes: 130060
+  generated: '2026-09-11'
+  bytes: 130088
 ---
 
 The DC26 HHV RE Challenge is a small reverse-engineering puzzle board built for the Hardware Hacking Village at DEF CON 26 (2018). It centers on an ATtiny84 microcontroller and a second, deliberately undocumented IC, and poses two separate challenges: entering a hidden passcode on four buttons (A, B, C, D) to unlock a green LED and a serial-printed flag, and independently working out how the mystery second chip is wired in to trigger a second green LED. A red status LED gives programming/activity feedback. The board runs off a coin cell and is programmed via ISP test points on the back, with a solder-bridge jumper used to put it into programming mode.

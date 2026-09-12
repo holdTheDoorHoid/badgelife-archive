@@ -95,12 +95,12 @@ research:
   last_checked: '2026-09-07'
   notes: |
     Sources (the maker's own Hackaday project and the Fri3dCamp/timeblaster-2020 GitHub repo) consistently describe this kit as made for Fri3d Camp 2020, not 2022 — the repo name and README both say "2020" explicitly. No fri3d-2020 event id exists in _data/events.yml (only fri3d-2018, fri3d-2022, fri3d-2024), so the event field is left as fri3d-2022 per the research guide's rule for when no matching event exists; the correct con/year (Fri3d Camp 2020) is recorded here for whoever adds that event later. Price, quantity made, and exact availability status were not stated on the sources checked. LED count and OSHWA certificate BE000005 taken from the existing sheet-derived summary, not independently re-confirmed since it was already specific and plausible (unable to re-verify due to web search budget exhaustion this session).
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-11'
 model:
   file: assets/models/fri3d-2022/time-blaster.glb
   method: gerber
   source_file: design/Time_Blaster_00/OUTPUT/Gerber
-  generated: '2026-09-07'
+  generated: '2026-09-11'
   bytes: 60676
   size_mm:
   - 420.0

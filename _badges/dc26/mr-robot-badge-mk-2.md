@@ -109,15 +109,15 @@ research:
   confidence: high
   last_checked: '2026-09-07'
   notes: Second badge in Benchoff's "Mr. Robot Badge" line (Mk. 1 was for DEF CON 25, a separate Hackaday.io project at /project/18508-mr-robot-badge, not this entry). No retail price was ever published — the ~$4841.77 figure on the build log covers prototype/bulk-component development cost for two prototypes plus the ~1000-unit run, not a per-unit price. Exact distribution method (sold vs. given away) at DEF CON 26 is not stated explicitly in the sources found, so get_one.distribution is left empty rather than guessed. EDA tool used is not stated in any source checked.
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-11'
 redirect_from:
 - /badges/other/mr-robot-badge-mk-2/
 model:
   file: assets/models/dc26/mr-robot-badge-mk-2.glb
   method: kicad
   source_file: MrRobotBadge.brd
-  generated: '2026-09-07'
-  bytes: 934720
+  generated: '2026-09-11'
+  bytes: 934736
 ---
 
 The Mr. Robot Badge Mk. 2 is Brian Benchoff's second-generation independent conference badge, built for DEF CON 26 in August 2018 as part of the badgelife hardware demoscene. It upgrades the original Mr. Robot Badge (made for DEF CON 25) around a newly-released ISSI IS31FL3741 LED driver chip, which lets an ESP8266 microcontroller drive a much larger 18x18 LED matrix over I2C than the previous design could manage, producing dense blinky animations (Benchoff demonstrated a Conway's Game of Life implementation as one example). The badge runs on two keyed AA battery holders and can be reprogrammed over a serial-to-USB connection.

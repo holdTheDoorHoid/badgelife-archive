@@ -76,13 +76,13 @@ research:
   confidence: medium
   last_checked: '2026-09-07'
   notes: Maker's own repo confirms hardware and firmware details. Price, quantity made, and distribution method were not stated anywhere in the repo; no storefront, Hackaday page, or press coverage was found in the searches available this session (web search budget was exhausted, so coverage relied on the repo itself and one archived GitHub page). Shape/look themes are inferred loosely from the 'helmet' and 'eyes' language in the readme and the photo (a stylized robot/helmeted face) rather than stated outright, so look.shape is left null pending a clearer look at the board outline.
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-11'
 model:
   file: assets/models/dc25/dc801-dc25-party-badge.glb
   method: kicad
   source_file: Sheep.brd
-  generated: '2026-09-07'
-  bytes: 62760
+  generated: '2026-09-11'
+  bytes: 62720
 ---
 
 The DC801 DC25 Party Badge is a Bluetooth Low Energy wearable built by DC801, the Salt Lake City DEF CON group, for DEF CON 25 in 2017. It centers on a Rigado BMD-300 module (a Nordic nRF52832, 16 MHz Cortex-M4F with 512 kB flash and 64 kB RAM) and packs a helmet-and-eyes LED layout: two RGB "eyes," seven yellow LEDs across the "helmet," and six red LEDs on the "helmet wings." It also carries a small SPI LCD, a speaker, four buttons, two hidden capacitive touch buttons, breakout pins, and a JTAG header for tinkering, all powered from a LiPo cell charged over micro USB through an MCP73831 charger.

@@ -80,13 +80,13 @@ research:
   last_checked: '2026-09-07'
   notes: 'Fact-check pass (2026-09-07): re-fetched both the maker''s blog post and the GitHub repo and confirmed every remaining field and body sentence against them. Two corrections made: (1) the caption on db131398ac.jpg wrongly said "worn on the wrist" - the blog has no such photo; both saved images are close-up construction shots (the Gemma board mounted on the bangle, and the soldered strip wiring), so the caption was corrected to match what the image actually shows. (2) A source note claimed this was a "precursor project to the DC503 Banglet" - the blog post does not mention any DC503 or Banglet project (it only mentions the bangle being worn to "the 503 party" at DEF CON), so that unsupported claim was removed. Also corrected tech.battery from "coin cell" to "2x coin cell" per the blog''s own description of two coin batteries totaling 6V. Everything else (maker, event/year, one-off/never-sold status, Gemma MCU, 13-LED two-strip build, three blinking patterns, GPLv2-vs-Apache-2.0 license
     discrepancy, repo contents) is directly supported by the two cited sources. Exact LED part number (WS2812B vs SK6812) is still not stated by the maker, so tech.leds.type remains generic RGB. No further press or third-party coverage found.'
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-11'
 model:
   file: assets/models/dc25/led-bangle-defconbangle.glb
   method: kicad
   source_file: dc5032018banglet.brd
-  generated: '2026-09-07'
-  bytes: 141896
+  generated: '2026-09-11'
+  bytes: 141884
 ---
 
 Nisha K. built this LED bangle as a one-off gift for a friend attending DEF CON 25 in 2017, documenting the build on her personal site. It is a 3D-printed black wristband housing a run of 13 neopixel-style RGB LEDs (two shorter strips soldered together), driven by an Adafruit Gemma board and powered by a coin-cell holder. The firmware cycles through three blinking light patterns.

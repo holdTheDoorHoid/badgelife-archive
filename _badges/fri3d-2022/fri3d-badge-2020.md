@@ -130,12 +130,12 @@ research:
   confidence: high
   last_checked: '2026-09-07'
   notes: LED count/type not stated anywhere found (the badge appears to have no addressable LEDs beyond the LCD and possibly status LEDs on the buttons, not confirmed). Exact per-unit price not found; badge was given free to attendees as part of registration/ticket, not separately sold, so price is left blank. Maker team members named on Hackaday (Wim Van Gool, Hans Polders, Bart Cerneels) but the entry keeps "Fri3d Camp" as the maker per the org convention used elsewhere in the archive; individual names noted here for reference. Merged with duplicate entry 'Fri3d 2022 Badge' (fri3d-2022-fri3d-2022-badge).
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-11'
 model:
   file: assets/models/fri3d-2022/fri3d-badge-2020.glb
   method: gerber
   source_file: design/Fri3D_2020_00/OUTPUT/Gerber
-  generated: '2026-09-07'
+  generated: '2026-09-11'
   bytes: 53800
   size_mm:
   - 420.0

@@ -76,13 +76,13 @@ research:
   confidence: medium
   last_checked: '2026-09-07'
   notes: Both repos are the maker's personal open-source hardware/firmware releases; neither documents price, quantity made, or how/whether it was distributed to others, so those fields are left empty. No third-party coverage (Hackaday, press, storefronts) of this SAO was found.
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-11'
 model:
   file: assets/models/dc32/dc32-lle-defcon32-sao.glb
   method: kicad
   source_file: dc32sao.brd
-  generated: '2026-09-07'
-  bytes: 201656
+  generated: '2026-09-11'
+  bytes: 201636
 ---
 
 LLE's DEF CON 32 SAO is a small STM32F0-based add-on built around an 8x8 LED matrix and a single push button, continuing directly from their DEF CON 31 blinky add-on. The firmware reuses that project's foundation code (in turn recycled from an earlier "Snake Business Card" design) and adds a new racing-game mode alongside the original animation/screensaver mode.

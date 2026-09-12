@@ -98,13 +98,13 @@ research:
   confidence: medium
   last_checked: '2026-09-07'
   notes: 'Core specs (MCU, display, radio, battery, distribution) come from Krux''s own DarkNet 2016 build-instructions page, which is the maker''s own documentation. Price and quantity produced were not stated on any source found and are left empty. The GitHub repo (thedarknet/defcon24) contains Eagle schematics and firmware in a Badge/ directory plus a BadgeGen key-generation tool, but no README with specs, so hardware_url/firmware_url point to the repo generally rather than specific files. Series is "DarkNet" per the recurring DEF CON DarkNet badge line (later years: defcon25-badge, Darknet-NG).'
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-11'
 model:
   file: assets/models/dc24/dc-darknet-def-con-24-badge.glb
   method: kicad
   source_file: DC24-Darknet_Badge.brd
-  generated: '2026-09-07'
-  bytes: 275420
+  generated: '2026-09-11'
+  bytes: 275408
 ---
 
 The DarkNet badge was the physical centerpiece of DEF CON DarkNet, a long-running alternate-reality-game contest at DEF CON. The 2016 (DEF CON 24) edition was a two-PCB kit — a purple OSH Park-fabricated main board and a shield board — built around an STM32F103 "blue pill" module, with hardware designed by Krux and firmware by Smitty and CmdC0dez. Attendees assembled it themselves as a soldering exercise, wiring up a 0.96" OLED display, a 13-switch T9-style keypad, a green status LED, an IR LED and receiver for short-range badge-to-badge communication, and a HopeRF RFM69HCW-915S2 radio module for longer-range links, all powered by three AAA batteries.

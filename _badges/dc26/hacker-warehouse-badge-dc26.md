@@ -85,13 +85,13 @@ research:
   confidence: high
   last_checked: '2026-09-07'
   notes: 'Maker (Hacker Warehouse) is behind two later entries in the archive: dc31-hacker-mindset-badge and dc32-garrett-hacker-warehouse-listed-for-def-con-32-no-details, both attributed to Garrett / Hacker Warehouse; this DC26 badge appears to be an earlier entry in that same maker''s series. Exact unit price and quantity made were not stated by either source, and the two source photo URLs (files.hackerwarehouse.com) were unreachable from this environment (no route to host), so no images could be saved despite the repo README linking them directly.'
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-11'
 model:
   file: assets/models/dc26/hacker-warehouse-badge-dc26.glb
   method: kicad
   source_file: HW-DC26-Badge-20180426-1.1.brd
-  generated: '2026-09-07'
-  bytes: 383516
+  generated: '2026-09-11'
+  bytes: 383512
 ---
 
 Hacker Warehouse built this badge for DEF CON 26 (2018) as a practical security multitool rather than a purely decorative badge. Under the hood it pairs an ESP32 (for Wi-Fi scanning, monitoring, and hosting a small webserver or rogue access point) with an ATmega32u4 (for USB HID keystroke/mouse injection, Ducky Script-compatible, in the style of a USB Rubber Ducky). A 96x64 full-color OLED display and four-button d-pad give it a simple on-device UI, and it can also generate TOTP codes as a stand-in for the Google Authenticator app. Fourteen NeoPixel-style RGB LEDs handle blinky patterns, and two "Shitty Add-On" headers let it host other badges' SAOs. Power comes from two AA batteries or USB.

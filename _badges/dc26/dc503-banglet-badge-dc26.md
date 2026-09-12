@@ -96,13 +96,13 @@ research:
   confidence: high
   last_checked: '2026-09-07'
   notes: Price and exact quantity beyond "over 100" not stated by any source; treated as a free party giveaway, not a sold item. Only one usable photo found (a screenshot of the BLE shell) - the maker's photo of the lit-up banglet on a wrist is a dead Twitter media link.
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-11'
 model:
   file: assets/models/dc26/dc503-banglet-badge-dc26.glb
   method: kicad
   source_file: dc5032018banglet.brd
-  generated: '2026-09-07'
-  bytes: 141912
+  generated: '2026-09-11'
+  bytes: 141904
 ---
 
 The DC503 Banglet was the party badge made for the DC503 crew's party at DEF CON 26 in 2018. Maker Nisha K. had previously built a one-off LED bangle for a friend attending DEF CON 25, and was approached by r00tkillah to scale that idea up into a run of over 100 units, this time built around the BMD-300 Bluetooth module (the same chip family used in the prior year's Wagon Badge). The result, nicknamed "the Banglet," is a wrist-worn device rather than a neck badge, chosen partly because badges on lanyards were seen as overused.

@@ -96,13 +96,13 @@ research:
   notes: 'Fact-check pass (2026-09-07): re-fetched the GitHub repo (README, raw BOM.csv, PCB/ folder listing) and the Hackaday.io project page, and confirmed every remaining hardware/distribution claim (ATSAMD21G18, MAX98357A, W25Q16JVSSIQ flash, MCP73831T LiPo charger, AP2112K-3.3 regulator, reversed-polarity JST-PH 2.0, two discrete 0805 LEDs only, Eagle .sch/.brd files, "handed out unpopulated PCBs" distribution, village/CCCamp19 context, and the README''s own wording of the audio-bodge-wire bug). Corrected two errors found during this pass: (1) eda_tool had been set to null with a stated rationale that Eagle "is not one of the listed vocab options" - that is incorrect, Eagle is explicitly in the guide''s eda_tool vocabulary, so it is now set to Eagle. (2) The second image (b2b0d62de2.jpg, captioned as a photo of "the assembled board, showing the bodge wire") was actually the repo''s Bodge-Fix-Audio.png - an Eagle PCB-layout screenshot with an instructional text overlay ("Connect SAMD
     Pin 12 ... with wire"), not a photograph of a physically assembled board or a soldered bodge wire. Removed the image file and its entry; the guide requires photos of the item itself, and the caption misdescribed what the image actually showed. Corrected the body text''s "documented with a reference photo" to "documented with a reference diagram" to match. The remaining image (00ca752b29.jpg, the Hackaday cover photo of the badge lit up on a lanyard) was viewed directly and matches its caption and the multicolor-"numberwang"-text discrepancy already noted below. Quantity made and any price beyond "free" remain unstated in any source found. The Twitter/X status link (video demo) could not be fetched (HTTP 402 from x.com) and remains an unreached social link. The BOM lists only two single-color discrete LEDs, which does not match a "DotStar LEDs" claim from the original community-sheet import; that claim stays dropped as unconfirmed. The photo''s multicolor lit "numberwang" text is most
     likely a long-exposure/motion effect rather than evidence of addressable LEDs, since it is not supported by the BOM - noted here as a source disagreement, not stated as fact in the body. Merged with duplicate entry ''Numberwang Badge'' (cccamp-2019-numberwang-badge-2).'
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-11'
 model:
   file: assets/models/cccamp-2019/numberwang-badge.glb
   method: kicad
   source_file: Numberwang.brd
-  generated: '2026-09-07'
-  bytes: 170996
+  generated: '2026-09-11'
+  bytes: 170972
 redirect_from:
 - /badges/cccamp-2019/numberwang-badge-2/
 ---

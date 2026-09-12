@@ -72,13 +72,13 @@ research:
   last_checked: '2026-09-07'
   notes: 'Fact-check pass (2026-09-07) re-fetched both cited sources (github.com/nsec/badge-conf-2023 repo page and its nsec2023-branch README) and confirmed MCU, LED count/type, button count, SAO v1.69bis connector and count, OLED presence, USB-C/3xAAA power, PlatformIO+MiniCore firmware, firmware.hex in binary/, MIT license, and the PCB/SAO subdirectory. Two claims in the original draft were not supported by the sources and were removed/corrected: the README does not state the OLED''s physical size (the invented "0.91\"" was dropped, leaving just "128x32 OLED"), and it does not say what the two pairing connectors do (the invented claim that they let badges "interact with each other" was removed from functions and the body). get_one.distribution was set to purchase with no supporting source found, contradicting the entry''s own notes that distribution terms were unconfirmed; cleared to empty. No price, quantity, availability, colors, shape, or images were found in any source, so those fields
     remain empty. Everything remaining in the entry is supported by the two cited sources.'
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-11'
 model:
   file: assets/models/northsec-2023/northsec-2023-badge.glb
   method: kicad
   source_file: confBadgeV1.brd
-  generated: '2026-09-07'
-  bytes: 230764
+  generated: '2026-09-11'
+  bytes: 230720
 ---
 
 The NorthSec 2023 badge is the official electronic conference badge for NorthSec, the Montreal-based security conference, given to attendees at the 2023 event. It is built around an ATmega328PB microcontroller (an Arduino UNO-like part) and carries sixteen NeoPixel RGB LEDs and six buttons. A single Shitty Add-On (SAO) v1.69bis connector lets attendees plug in add-on boards, and the badge design supports an optional 128x32 OLED display. It can run on USB-C power or three AAA batteries. The badge also has two "pairing" connectors, though the repository does not describe what function they serve.

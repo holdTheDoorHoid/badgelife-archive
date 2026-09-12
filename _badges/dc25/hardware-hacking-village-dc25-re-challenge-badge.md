@@ -88,13 +88,13 @@ research:
   confidence: high
   last_checked: '2026-09-07'
   notes: No photo of the physical device was found anywhere in the repo (no images/ folder, no README screenshots) or via a general web search, so images could not be saved. Quantity made and exact battery cell size are not stated in any source. The repo names this a "challenge" kit handed out at the HHV rather than a wearable badge, so type was corrected from badge to kit; happy to revert if the community sheet meant something more badge-like by the title.
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-11'
 model:
   file: assets/models/dc25/hardware-hacking-village-dc25-re-challenge-badge.glb
   method: kicad
   source_file: DC25_HHV_RE-P1.brd
-  generated: '2026-09-07'
-  bytes: 108588
+  generated: '2026-09-11'
+  bytes: 108584
 ---
 
 The DC25 HHV Reverse Engineering Challenge is a small locked puzzle board that the DEF CON 25 Hardware Hacking Village gave out in person in 2017. It follows on from a DC24 HHV RE challenge, but simplifies to a single main puzzle meant to mimic a "real-world" locked device. A PIC12F157x microcontroller reads four front-panel buttons through a resistor ladder and drives a red/green LED pair; entering the right 8-digit code on the buttons, or typing "unlockit" over an exposed 9600-baud serial pad, lights the green LED solid. Wrong attempts cost 10 seconds of red-LED blinking to slow brute forcing, and the board deliberately plants a red herring (a boot-time version string the same length as a valid code) along with a small easter egg for players who try it anyway.

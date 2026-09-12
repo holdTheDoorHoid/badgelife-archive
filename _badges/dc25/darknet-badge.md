@@ -115,13 +115,13 @@ research:
   confidence: high
   last_checked: '2026-09-07'
   notes: Firmware credited to Cmdc0de per Hackaday/search coverage but not independently confirmed on a maker page in this pass. Exact unit price and quantity made were not found in any source checked; secondhand listings (Worthpoint) exist but were not used as they carry no verifiable maker-sourced facts and one could not be fetched (403). Badge is part of the recurring DarkNet/DCDN series (see later years dc26 "DC26 Darknet Industries Badge", dc30-dc34 entries already in the archive) — series name not set here since sources for this specific year did not use one consistently.
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-11'
 model:
   file: assets/models/dc25/darknet-badge.glb
   method: kicad
   source_file: dc25-darknet-dialer-eaglev8.2.brd
-  generated: '2026-09-07'
-  bytes: 281072
+  generated: '2026-09-11'
+  bytes: 281080
 ---
 
 The DEF CON 25 Darknet badge was the kit-built centerpiece of DarkNet, DEF CON's long-running "Daemon"/"Freedom"-inspired contest, where players ("agents") pair badges over radio and infrared, build address books, and work through quests and ciphers to earn reputation. Designed by Krux with firmware by Cmdc0de, the board is laid out as a red rotary phone: the ten dial positions are capacitive-touch pads with cutouts in the copper that let back-mounted LEDs shine the numbers and letters through, and a small color LCD in the center runs the badge's menu system (address book, net messages, radio info, quest dialing, and more), driven by an STM32F302 ARM Cortex-M4 microcontroller.

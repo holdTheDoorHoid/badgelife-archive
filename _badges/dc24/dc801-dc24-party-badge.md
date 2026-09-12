@@ -76,7 +76,7 @@ research:
   confidence: medium
   last_checked: '2026-09-07'
   notes: Core hardware facts (MCU, LEDs, battery, modes, BLE beacon) come directly from the maker's own README, so those are solid. Price, exact quantity made, and full party/distribution logistics were not found — the badge appears to have been a free giveaway at DC801's DEF CON 24 party rather than sold, based on the tweet snippet and distribution pattern of DC801's other party badges, but no page stated a quantity or price outright. The DC801 party page (dc801.org) for DefCon 24 currently shows a "coming soon" placeholder with no archived content recovered. No maker photos of an assembled/soldered badge were found, only PCB CAD renders from the hardware repo, which are used as the images here.
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-11'
 images:
 - file: assets/images/badges/dc24/dc801-dc24-party-badge/8e83182c41.jpg
   source: https://github.com/DC801/DC24PartyBadge
@@ -98,8 +98,8 @@ model:
   file: assets/models/dc24/dc801-dc24-party-badge.glb
   method: kicad
   source_file: AccessBadgeV1.0.brd
-  generated: '2026-09-07'
-  bytes: 91272
+  generated: '2026-09-11'
+  bytes: 91264
 ---
 
 DC801 is a Salt Lake City hackerspace with a long-running tradition of building electronic party badges for DEF CON attendees. For DEF CON 24 (2016), the group produced this Bluetooth LE badge, built around a Rigado BMD-200 module (a Nordic nRF51822 ARM Cortex-M0 chip with 256 kB flash and 32 kB RAM). The board carries two RGB LEDs and ten orange LEDs wired in addressable pairs, a single button, a JTAG header, and a MicroUSB port used purely for charging its onboard LiPo battery.

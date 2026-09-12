@@ -89,25 +89,19 @@
  "cccamp-2019-numberwang-badge": {
   "status": "ok",
   "method": "kicad",
-  "bytes": 170996,
-  "tried": [
-   "eagle->kicad ok"
-  ],
-  "src": "Numberwang.brd"
- },
- "cccamp-2019-numberwang-badge-2": {
-  "status": "ok",
-  "method": "kicad",
   "bytes": 170972,
   "tried": [
    "eagle->kicad ok"
   ],
   "src": "Numberwang.brd"
  },
+ "cccamp-2019-numberwang-badge-2": {
+  "status": "no_entry"
+ },
  "dc23-dc801-def-con-23-badge": {
   "status": "ok",
   "method": "kicad",
-  "bytes": 370496,
+  "bytes": 370524,
   "tried": [
    "eagle->kicad ok"
   ],
@@ -116,7 +110,7 @@
  "dc24-austin-hackers-association-badge": {
   "status": "ok",
   "method": "kicad",
-  "bytes": 234356,
+  "bytes": 234308,
   "tried": [
    "eagle->kicad ok"
   ],
@@ -125,7 +119,7 @@
  "dc24-dc-darknet-def-con-24-badge": {
   "status": "ok",
   "method": "kicad",
-  "bytes": 275420,
+  "bytes": 275408,
   "tried": [
    "eagle->kicad ok"
   ],
@@ -134,7 +128,7 @@
  "dc24-dc801-dc24-party-badge": {
   "status": "ok",
   "method": "kicad",
-  "bytes": 91272,
+  "bytes": 91264,
   "tried": [
    "eagle->kicad ok"
   ],
@@ -152,7 +146,7 @@
  "dc25-darknet-badge": {
   "status": "ok",
   "method": "kicad",
-  "bytes": 281072,
+  "bytes": 281080,
   "tried": [
    "eagle->kicad ok"
   ],
@@ -161,7 +155,7 @@
  "dc25-dc-darknet-def-con-25-badge": {
   "status": "ok",
   "method": "kicad",
-  "bytes": 281048,
+  "bytes": 281052,
   "tried": [
    "eagle->kicad ok"
   ],
@@ -170,7 +164,7 @@
  "dc25-dc801-dc25-party-badge": {
   "status": "ok",
   "method": "kicad",
-  "bytes": 62760,
+  "bytes": 62720,
   "tried": [
    "eagle->kicad ok"
   ],
@@ -179,7 +173,7 @@
  "dc25-dczia-def-con-25-badge": {
   "status": "ok",
   "method": "kicad",
-  "bytes": 231884,
+  "bytes": 231852,
   "tried": [
    "eagle->kicad ok"
   ],
@@ -188,7 +182,7 @@
  "dc25-hardware-hacking-village-dc25-re-challenge-badge": {
   "status": "ok",
   "method": "kicad",
-  "bytes": 108588,
+  "bytes": 108584,
   "tried": [
    "eagle->kicad ok"
   ],
@@ -197,7 +191,7 @@
  "dc25-led-bangle-defconbangle": {
   "status": "ok",
   "method": "kicad",
-  "bytes": 141896,
+  "bytes": 141884,
   "tried": [
    "eagle->kicad ok"
   ],
@@ -206,7 +200,7 @@
  "dc26-blinky-ball-rgb-badge": {
   "status": "ok",
   "method": "kicad",
-  "bytes": 162064,
+  "bytes": 162068,
   "tried": [
    "eagle->kicad ok"
   ],
@@ -215,7 +209,7 @@
  "dc26-dc-darknet-badge-conrad-personal-communicator-dc26": {
   "status": "ok",
   "method": "kicad",
-  "bytes": 505528,
+  "bytes": 505532,
   "tried": [
    "eagle->kicad ok"
   ],
@@ -224,7 +218,7 @@
  "dc26-dc503-banglet-badge-dc26": {
   "status": "ok",
   "method": "kicad",
-  "bytes": 141912,
+  "bytes": 141904,
   "tried": [
    "eagle->kicad ok"
   ],
@@ -233,7 +227,7 @@
  "dc26-hacker-warehouse-badge-dc26": {
   "status": "ok",
   "method": "kicad",
-  "bytes": 383516,
+  "bytes": 383512,
   "tried": [
    "eagle->kicad ok"
   ],
@@ -242,7 +236,7 @@
  "dc26-hardware-hacking-village-dc26-re-challenge-badge": {
   "status": "ok",
   "method": "kicad",
-  "bytes": 130060,
+  "bytes": 130088,
   "tried": [
    "eagle->kicad ok"
   ],
@@ -251,7 +245,7 @@
  "dc26-jr-bob-dobbs-sao": {
   "status": "ok",
   "method": "kicad",
-  "bytes": 32528,
+  "bytes": 32516,
   "tried": [
    "eagle->kicad ok"
   ],
@@ -260,7 +254,7 @@
  "dc26-mr-robot-badge-mk-2": {
   "status": "ok",
   "method": "kicad",
-  "bytes": 934720,
+  "bytes": 934736,
   "tried": [
    "eagle->kicad ok"
   ],
@@ -300,7 +294,7 @@
  "dc32-dc32-lle-defcon32-sao": {
   "status": "ok",
   "method": "kicad",
-  "bytes": 201656,
+  "bytes": 201636,
   "tried": [
    "eagle->kicad ok"
   ],
@@ -309,7 +303,7 @@
  "dc27-mooltipass-badge": {
   "status": "ok",
   "method": "kicad",
-  "bytes": 718988,
+  "bytes": 718948,
   "tried": [
    "eagle->kicad ok"
   ],
@@ -327,25 +321,19 @@
  "dc26-heartybadge": {
   "status": "ok",
   "method": "kicad",
-  "bytes": 661052,
+  "bytes": 661132,
   "tried": [
    "eagle->kicad ok"
   ],
   "src": "pc_badge_hrv.brd"
  },
  "dc27-dc27-multi-pass": {
-  "status": "ok",
-  "method": "kicad",
-  "bytes": 718972,
-  "tried": [
-   "eagle->kicad ok"
-  ],
-  "src": "element.brd"
+  "status": "no_entry"
  },
  "dc29-dc29-makeithackin-58khz-security-tag-sao": {
   "status": "ok",
   "method": "kicad",
-  "bytes": 71512,
+  "bytes": 71504,
   "tried": [
    "eagle->kicad ok"
   ],
@@ -354,7 +342,7 @@
  "dc29-dc29-makeithackin-badge": {
   "status": "ok",
   "method": "kicad",
-  "bytes": 71480,
+  "bytes": 71504,
   "tried": [
    "eagle->kicad ok"
   ],
@@ -387,11 +375,7 @@
   "src": "design/jewels/Air.01/OUTPUT/Gerber"
  },
  "fri3d-2022-fri3d-2022-badge": {
-  "status": "ok",
-  "method": "gerber",
-  "bytes": 53800,
-  "tried": [],
-  "src": "design/Fri3D_2020_00/OUTPUT/Gerber"
+  "status": "no_entry"
  },
  "fri3d-2022-fri3d-badge-2020": {
   "status": "ok",
@@ -410,7 +394,7 @@
  "northsec-2023-northsec-2023-badge": {
   "status": "ok",
   "method": "kicad",
-  "bytes": 230764,
+  "bytes": 230720,
   "tried": [
    "eagle->kicad ok"
   ],

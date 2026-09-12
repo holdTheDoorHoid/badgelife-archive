@@ -85,13 +85,13 @@ research:
   confidence: medium
   last_checked: '2026-09-07'
   notes: Maker's own assembly page (dcdark.net) could not be fetched due to a TLS hostname mismatch on that server, so most detail comes from the GitHub repo (STM32-based, MIT-licensed hardware/software/firmware repo) and Hackaday's DEF CON 25 badge roundup. LED count/type, display, and exact quantity made are not stated anywhere found; price of $25 and the sold-out status come from web search snippets (Worthpoint listings, secondary) rather than a primary storefront, so confidence is medium rather than high. The DarkNet badge series continued in later years (DC30-DC34 per the archive's existing titles) as a recurring "Darknet" line, but this dc25 entry covers only the 2017 badge.
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-11'
 model:
   file: assets/models/dc25/dc-darknet-def-con-25-badge.glb
   method: kicad
   source_file: dc25-darknet-dialer-eaglev8.2.brd
-  generated: '2026-09-07'
-  bytes: 281048
+  generated: '2026-09-11'
+  bytes: 281052
 ---
 
 The DC Darknet badge was the key artifact for DEF CON 25's DarkNet contest, one of the con's most popular puzzle tracks, themed on Daniel Suarez's novels *Daemon* and *Freedom*. Players ("agents") built reputation by solving ciphers, exploits, and other challenges, and the badge itself doubled as a prop and communicator for that story. Designed by Krux, it takes the shape of an old rotary telephone dial, with four capacitive-touch sensors standing in for the dial's numbers and LEDs mounted on the back shining forward through cutouts in the copper to light up numerals and letters.

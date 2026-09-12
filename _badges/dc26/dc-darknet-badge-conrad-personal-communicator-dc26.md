@@ -98,13 +98,13 @@ research:
   last_checked: '2026-09-07'
   notes: 'Fact-check pass (2026-09-07) re-read both cited sources directly. Corrected two errors: (1) the assembly guide credits the board''s acrylic puzzle to cmdc0de, not Krux (Krux did look/artwork and the silkscreen puzzle only) — makers.Krux.role and the body text were fixed accordingly; (2) the guide says Krux designed the Eggplant SAO expecting the standard header and it only fit the mirrored one due to a mix-up over which side cmdc0de had mirrored — the entry previously said it was "built specifically" for the mirrored connector, which overstated it as intentional; reworded. Also corrected connectivity/functions from "ble" to "bluetooth" since the source only says "integrated bluetooth and wifi," not BLE specifically. Removed the "## History" section: it claimed the archive has entries for this series at DEF CON 24 and 25, but no such entries exist in this archive (checked all badges tagged series: Darknet and all dc24/dc25/dc27 folders) — that claim was unsupported and false as
     written. get_one.quantity ("over 1200 units made") is blanked: no source found confirms a print run number; the sheet''s original claim is preserved as an explicit caveat in the notes field instead of asserted as fact. PCB color/shape and price remain empty — genuinely not stated in either source. The two photo URLs referenced from the assembly page (dcdark.net/badge7/image/img_001.jpg, img_002.jpg) are dead (Wayback holds only a 519-byte soft-404 for each), so images stays empty. sao_version stays null: the maker''s text names "a normal SAO connector" and "a mirrored SAO connector" without a pin count. Everything remaining in the entry was independently confirmed against the GitHub repo (README, contributors, file tree, LICENSE) and the Wayback-archived assembly guide.'
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-11'
 model:
   file: assets/models/dc26/dc-darknet-badge-conrad-personal-communicator-dc26.glb
   method: kicad
   source_file: dc26-dev-board-apa102c-3.brd
-  generated: '2026-09-07'
-  bytes: 505528
+  generated: '2026-09-11'
+  bytes: 505532
 ---
 
 The seventh annual badge from Darknet Industries, officially named the "Darknet Industries, Conrad Personal Communicator," was DEF CON 26's contest badge for 2018. It shipped as an unpopulated solder-it-yourself dev kit built around an STM32F411RET6 (ARM Cortex-M4) for the badge's 1.8" color LCD, and an ESP-WROOM-32 handling wifi/Bluetooth and a 128x32 OLED. Hardware was designed by cmdc0de, with help from Bunni and Krux; firmware came from cmdc0de and Gourry; Krux did the badge's look, artwork, and the silkscreen puzzle, while cmdc0de also designed the board's acrylic puzzle. As a Darknet contest tool, the badge was meant to pair with other players' badges and carry that year's puzzle line — owners had to visit the Darknet table in the contest area to flash the actual contest firmware, since kits shipped without it.

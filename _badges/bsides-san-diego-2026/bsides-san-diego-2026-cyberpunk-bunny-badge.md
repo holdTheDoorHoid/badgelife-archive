@@ -57,6 +57,7 @@ links:
 - label: www.bsidessd.org/activities/badge-challenge
   url: https://www.bsidessd.org/activities/badge-challenge
   kind: website
+  archived: https://web.archive.org/web/20260518090151/https://www.bsidessd.org/activities/badge-challenge
 - label: badge.gallery/events/bsides-san-diego-2026
   url: https://badge.gallery/events/bsides-san-diego-2026
   kind: website
@@ -82,6 +83,7 @@ sources:
   title: BSides San Diego — Badge Challenge
   accessed: '2026-09-10'
   note: Confirmed "Cyberpunk Bunny" naming/shape, D-pad/joystick and accelerometer, BLE co-op, shake-activated "Hacker Oracle" 8-ball mode, and named the advanced-tier ciphers (Base32, XOR, AES-128, ChaCha20). No pricing, quantity, or availability given.
+  archived: https://web.archive.org/web/20260518090151/https://www.bsidessd.org/activities/badge-challenge
 research:
   status: researched
   confidence: medium

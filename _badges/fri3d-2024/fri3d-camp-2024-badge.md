@@ -109,12 +109,12 @@ research:
   confidence: high
   last_checked: '2026-09-07'
   notes: Maker-published pages (fri3d.be and the Fri3dCamp GitHub org) confirm the core hardware/firmware facts. Price and production quantity are not published anywhere found; the badge is given free to every registered camp participant rather than sold, so no price applies. LED count/type not stated in the hardware README excerpt available; left empty rather than guessed.
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-11'
 model:
   file: assets/models/fri3d-2024/fri3d-camp-2024-badge.glb
   method: gerber
   source_file: Fri3d_2024_Badge_00/OUTPUT/Gerber
-  generated: '2026-09-07'
+  generated: '2026-09-11'
   bytes: 57776
   size_mm:
   - 420.0
