@@ -10,8 +10,8 @@ event: cyphercon-2017
 year: 2017
 makers:
 - name: Tymkrs
-summary: 'A cube-shaped conference badge with cutout faces exposing its LEDs, microprocessors, and internal bus, built around a puzzle where attendees reassemble a fictional relay computer.'
-functions: 'A text-adventure game whose goal is to reassemble a relay-based computer using parts scrounged from a missile silo; solving it unlocks an emulator for a vintage time-sharing OS that lets the badge write and deploy code to other badges over a mesh network. The USB port also charges the battery and exposes a CDC serial connection for terminal access to the game.'
+summary: A cube-shaped conference badge with cutout faces exposing its LEDs, microprocessors, and internal bus, built around a puzzle where attendees reassemble a fictional relay computer.
+functions: A text-adventure game whose goal is to reassemble a relay-based computer using parts scrounged from a missile silo; solving it unlocks an emulator for a vintage time-sharing OS that lets the badge write and deploy code to other badges over a mesh network. The USB port also charges the battery and exposes a CDC serial connection for terminal access to the game.
 look:
   colors: []
   shape: null
@@ -30,7 +30,7 @@ tech:
 get_one:
   price: ''
   price_usd: null
-  quantity: 'over 400'
+  quantity: over 400
   availability: unknown
   distribution: []
   where: ''
@@ -46,9 +46,10 @@ links:
   archived: https://web.archive.org/web/20260418165945/https://hackaday.com/2017/04/09/the-cubic-cyphercon-badge/
 images:
 - file: assets/images/badges/cyphercon-2017/cyphercon-2-0-cubic-badge/33c6a4e659.jpg
-  source: "https://hackaday.com/2017/04/09/the-cubic-cyphercon-badge/"
-  credit: "Tymkrs / Hackaday"
-  caption: "The Cyphercon 2.0 cubic badge with cutout faces exposing LEDs and internal electronics"
+  source: https://hackaday.com/2017/04/09/the-cubic-cyphercon-badge/
+  credit: Tymkrs / Hackaday
+  caption: The Cyphercon 2.0 cubic badge with cutout faces exposing LEDs and internal electronics
+  archived: https://web.archive.org/web/20260418165945/https://hackaday.com/2017/04/09/the-cubic-cyphercon-badge/
 contact: {}
 notes:
 - Cube-shaped badge with cutouts exposing LEDs/microprocessor/bus and a single USB port; hand-soldered, ~400 units; runs a text-adventure game.
@@ -64,12 +65,13 @@ sources:
   url: https://hackaday.com/2017/04/09/the-cubic-cyphercon-badge/
   title: The Cubic Cyphercon Badge
   accessed: '2026-09-07'
-  note: 'Confirmed maker (Tymkrs), event (Cyphercon 2017, Milwaukee), chips (PIC + Propeller), function (text-adventure/relay-computer puzzle leading to a time-sharing OS emulator and mesh code deployment), USB role (charging + CDC serial), and quantity built (400+). Article notes Propeller code is unprotected but PIC firmware is available on request, so hardware/firmware openness is only partial and no repo link was given.'
+  note: Confirmed maker (Tymkrs), event (Cyphercon 2017, Milwaukee), chips (PIC + Propeller), function (text-adventure/relay-computer puzzle leading to a time-sharing OS emulator and mesh code deployment), USB role (charging + CDC serial), and quantity built (400+). Article notes Propeller code is unprotected but PIC firmware is available on request, so hardware/firmware openness is only partial and no repo link was given.
+  archived: https://web.archive.org/web/20260418165945/https://hackaday.com/2017/04/09/the-cubic-cyphercon-badge/
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'Only source found was the original Hackaday writeup; no Tymkrs storefront, project page, or GitHub repo for this specific badge was located (Tymkrs'' own site has no mention of it). Price, exact LED count/type, display, battery spec, and availability could not be confirmed and are left empty.'
+  notes: Only source found was the original Hackaday writeup; no Tymkrs storefront, project page, or GitHub repo for this specific badge was located (Tymkrs' own site has no mention of it). Price, exact LED count/type, display, battery spec, and availability could not be confirmed and are left empty.
 last_modified_date: '2026-09-07'
 ---
 
