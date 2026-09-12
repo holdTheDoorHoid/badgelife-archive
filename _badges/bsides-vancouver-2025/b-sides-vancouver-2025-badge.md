@@ -54,6 +54,7 @@ links:
 - label: www.bsidesvancouver.com/archive/2025/2025-badge
   url: https://www.bsidesvancouver.com/archive/2025/2025-badge
   kind: website
+  archived: https://web.archive.org/web/20260418095833/https://www.bsidesvancouver.com/archive/2025/2025-badge
 - label: github.com/maltchev/bsides-vancouver-badge
   url: https://github.com/maltchev/bsides-vancouver-badge
   kind: repo
@@ -76,6 +77,7 @@ sources:
   title: B|Sides Vancouver 2025 Badge
   accessed: '2026-09-07'
   note: 'Found by the archive''s discovery sweep (angle: sweep:bsides-any); event read as ''BSides Vancouver 2025''.'
+  archived: https://web.archive.org/web/20260418095833/https://www.bsidesvancouver.com/archive/2025/2025-badge
 - kind: url
   url: https://github.com/maltchev/bsides-vancouver-badge
   title: 'maltchev/bsides-vancouver-badge: BSides Vancouver Conference Badge'

@@ -43,9 +43,11 @@ links:
 - label: akirabadge.com
   url: https://akirabadge.com/
   kind: website
+  archived: https://web.archive.org/web/20251211112054/https://akirabadge.com/
 - label: altbier.us
   url: https://altbier.us/
   kind: website
+  archived: https://web.archive.org/web/20260608053942/https://altbier.us/
 - label: gowenrw/BSidesDFW_2019_Badge
   url: https://github.com/gowenrw/BSidesDFW_2019_Badge
   kind: repo
@@ -54,10 +56,12 @@ images:
   source: https://akirabadge.com/
   credit: alt_bier (gowenrw)
   caption: Animated view of the Akira badge, Kaneda's motorcycle with LEDs on the tires
+  archived: https://web.archive.org/web/20251211112054/https://akirabadge.com/
 - file: assets/images/badges/bsidesdfw-2019/akira-badge/c58fe1cfad.jpg
   source: https://akirabadge.com/
   credit: alt_bier (gowenrw)
   caption: Akira-themed pill-shaped lanyard
+  archived: https://web.archive.org/web/20251211112054/https://akirabadge.com/
 contact: {}
 notes:
 - Sweep imported the title as "Akira Badge"; the maker's own site and repo call it "AKIRA Badge" (all caps) — corrected here.
@@ -69,16 +73,19 @@ sources:
   title: AKIRA Badge
   accessed: '2026-09-07'
   note: 'Found by the archive''s discovery sweep (angle: sweep:bsides-bsidesdfw); event read as ''BSides DFW 2019''.'
+  archived: https://web.archive.org/web/20251211112054/https://akirabadge.com/
 - kind: url
   url: https://akirabadge.com/
   title: AKIRA Badge
   accessed: '2026-09-10'
   note: Maker's project site; confirmed event, maker, CH552G MCU, LED-animated tires, SMD assembly, crypto challenge, and matching lanyard concept; source of both saved images.
+  archived: https://web.archive.org/web/20251211112054/https://akirabadge.com/
 - kind: url
   url: https://altbier.us/
   title: Alt_Bier badge portfolio
   accessed: '2026-09-10'
   note: Maker's badge index page; confirms alt_bier made the badge and links it to akirabadge.com under BSidesDFW 2019.
+  archived: https://web.archive.org/web/20260608053942/https://altbier.us/
 - kind: url
   url: https://github.com/gowenrw/BSidesDFW_2019_Badge
   title: gowenrw/BSidesDFW_2019_Badge

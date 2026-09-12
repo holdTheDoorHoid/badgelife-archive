@@ -42,6 +42,7 @@ links:
 - label: hackaday.io/twinkletwinkie
   url: https://hackaday.io/twinkletwinkie
   kind: hackaday
+  archived: https://web.archive.org/web/20260523064136/https://hackaday.io/twinkletwinkie
 - label: hackster.io/twinkletwinkie/bsides-vancouver-2019-badge
   url: https://www.hackster.io/twinkletwinkie/bsides-vancouver-2019-badge-b51aea
   kind: website
@@ -61,34 +62,19 @@ sources:
   url: https://www.hackster.io/twinkletwinkie/bsides-vancouver-2019-badge-b51aea
   title: BSides Vancouver 2019 Badge - Hackster.io
   accessed: '2026-09-10'
-  note: 'Search-result snippet confirms a TwinkleTwinkie-authored project page with this exact title exists on Hackster.io ("An artistic PCB used as BSide Vancouver 2019''s conference badge."); the page itself returned HTTP 403 from Cloudflare on every fetch attempt, so no further detail could be extracted.'
+  note: Search-result snippet confirms a TwinkleTwinkie-authored project page with this exact title exists on Hackster.io ("An artistic PCB used as BSide Vancouver 2019's conference badge."); the page itself returned HTTP 403 from Cloudflare on every fetch attempt, so no further detail could be extracted.
 - kind: url
   url: https://hackaday.io/twinkletwinkie
   title: TwinkleTwinkie - Hackaday.io
   accessed: '2026-09-10'
   note: Profile page states 34 projects total; only the first 7 shown without pagination (Simple Add-ons, Mad Cat, Fat Pika, Wireshark 0x4e00, Arc Badge - DC27 Indie Badge, Big Green, Shitty Add-Ons) do not include a BSides Vancouver 2019 badge, but the remaining 27 were not checked, so this is not a confirmed absence.
+  archived: https://web.archive.org/web/20260523064136/https://hackaday.io/twinkletwinkie
 research:
   status: verified
   confidence: low
   last_checked: '2026-09-10'
-  notes: >-
-    Confirmed the badge is a real, named item (not just a search-snippet artifact) via a
-    Hackster.io project page authored by TwinkleTwinkie titled "BSides Vancouver 2019
-    Badge," separate from the DEF CON 27 Hardware Hacking Village bio the original sweep
-    found. However, Hackster.io blocked every fetch attempt (WebFetch and curl both got
-    Cloudflare 403s), so no technical specs, price, quantity, distribution, design files,
-    or usable photo could be recovered beyond the one-line description in search results
-    ("An artistic PCB used as BSide Vancouver 2019's conference badge."), which this
-    verification pass reconfirmed via an independent search snippet. TwinkleTwinkie's
-    Hackaday.io profile does not list this project among the 7 of 34 projects visible
-    without pagination; the remaining 27 were not checked, so absence from the full
-    profile is not confirmed. badge.gallery's own page for this event is itself a thin
-    aggregation of the DC27 bio and adds nothing independent. No image could be sourced.
-    Revisit hackster.io directly (e.g. logged in, or via a different network path) to
-    fill in tech/pricing/images. Verification pass also found an unrelated GitHub repo
-    (maltchev/bsides-vancouver-badge) documenting a BSides Vancouver badge, but it is
-    explicitly for the 2025 event with an ESP32-C3/NFC/WiFi design and does not mention
-    TwinkleTwinkie — a separate badge, not evidence for or against this 2019 entry.
+  notes: Confirmed the badge is a real, named item (not just a search-snippet artifact) via a Hackster.io project page authored by TwinkleTwinkie titled "BSides Vancouver 2019 Badge," separate from the DEF CON 27 Hardware Hacking Village bio the original sweep found. However, Hackster.io blocked every fetch attempt (WebFetch and curl both got Cloudflare 403s), so no technical specs, price, quantity, distribution, design files, or usable photo could be recovered beyond the one-line description in search results ("An artistic PCB used as BSide Vancouver 2019's conference badge."), which this verification pass reconfirmed via an independent search snippet. TwinkleTwinkie's Hackaday.io profile does not list this project among the 7 of 34 projects visible without pagination; the remaining 27 were not checked, so absence from the full profile is not confirmed. badge.gallery's own page for this event is itself a thin aggregation of the DC27 bio and adds nothing independent. No image could be sourced.
+    Revisit hackster.io directly (e.g. logged in, or via a different network path) to fill in tech/pricing/images. Verification pass also found an unrelated GitHub repo (maltchev/bsides-vancouver-badge) documenting a BSides Vancouver badge, but it is explicitly for the 2025 event with an ESP32-C3/NFC/WiFi design and does not mention TwinkleTwinkie — a separate badge, not evidence for or against this 2019 entry.
 last_modified_date: '2026-09-10'
 ---
 

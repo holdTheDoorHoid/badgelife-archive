@@ -47,21 +47,26 @@ links:
 - label: github.com/gowenrw/BSidesDFW_2018_Badge
   url: https://github.com/gowenrw/BSidesDFW_2018_Badge
   kind: repo
+  archived: https://web.archive.org/web/20251108193425/https://github.com/gowenrw/BSidesDFW_2018_Badge
 - label: altbier.us/HHV2018/Making_Badgelife_The_BSidesDFW_9_Badge-v1.pdf
   url: https://altbier.us/HHV2018/Making_Badgelife_The_BSidesDFW_9_Badge-v1.pdf
   kind: website
+  archived: https://web.archive.org/web/20251003030533/https://altbier.us/HHV2018/Making_Badgelife_The_BSidesDFW_9_Badge-v1.pdf
 - label: altbier.us
   url: https://altbier.us/
   kind: website
+  archived: https://web.archive.org/web/20260608053942/https://altbier.us/
 images:
 - file: assets/images/badges/bsidesdfw-2018/lan-tap-bsidesdfw-2018-badge/532830a7f4.jpg
   source: https://github.com/gowenrw/BSidesDFW_2018_Badge
   credit: gowenrw
   caption: Assembled red LAN TAP badge with RJ45 connectors
+  archived: https://web.archive.org/web/20251108193425/https://github.com/gowenrw/BSidesDFW_2018_Badge
 - file: assets/images/badges/bsidesdfw-2018/lan-tap-bsidesdfw-2018-badge/8a4b234620.jpg
   source: https://github.com/gowenrw/BSidesDFW_2018_Badge
   credit: gowenrw
   caption: Photo of the finished BSidesDFW 2018 LAN TAP badge
+  archived: https://web.archive.org/web/20251108193425/https://github.com/gowenrw/BSidesDFW_2018_Badge
 contact: {}
 notes:
 - Official BSidesDFW 2018 conference badge, a Texas-star-shaped passive LAN tap (4x RJ45 connectors, 2x 220pF caps) adapted from Ossmann's Throwing Star design, in color variants for attendee/staff/speaker/sponsor. Found by the event-year sweep, task bsides-bsidesdfw.
@@ -72,11 +77,13 @@ sources:
   title: LAN TAP (BSidesDFW 2018 Badge)
   accessed: '2026-09-07'
   note: 'Found by the archive''s discovery sweep (angle: sweep:bsides-bsidesdfw); event read as ''BSides DFW 2018''.'
+  archived: https://web.archive.org/web/20251108193425/https://github.com/gowenrw/BSidesDFW_2018_Badge
 - kind: url
   url: https://github.com/gowenrw/BSidesDFW_2018_Badge
   title: gowenrw/BSidesDFW_2018_Badge README and images
   accessed: '2026-09-10'
   note: Confirmed maker, event/year, LAN tap function, BOM (4x RJ45, 2x 220pF caps), open KiCad source, and that colors (red/black/blue/green) distinguish attendee/staff/speaker/sponsor badges.
+  archived: https://web.archive.org/web/20251108193425/https://github.com/gowenrw/BSidesDFW_2018_Badge
 research:
   status: researched
   confidence: high

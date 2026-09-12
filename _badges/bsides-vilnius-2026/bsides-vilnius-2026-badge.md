@@ -10,8 +10,8 @@ event: bsides-vilnius-2026
 year: 2026
 makers:
 - name: BSides-Vilnius
-summary: 'The official electronic badge for BSides Vilnius 2026, an STM32H5-based badge with an LCD, a temperature/humidity sensor, sparkling LED effects, and a SAO connector.'
-functions: 'Shows graphics on its LCD, reads and displays live temperature/humidity from an onboard sensor, runs sparkling LED effects, drives animations on an attached SAO, and exposes a USB virtual COM port; a button (with debouncing) drives its menus and also enters USB DFU mode for reflashing.'
+summary: The official electronic badge for BSides Vilnius 2026, an STM32H5-based badge with an LCD, a temperature/humidity sensor, sparkling LED effects, and a SAO connector.
+functions: Shows graphics on its LCD, reads and displays live temperature/humidity from an onboard sensor, runs sparkling LED effects, drives animations on an attached SAO, and exposes a USB virtual COM port; a button (with debouncing) drives its menus and also enters USB DFU mode for reflashing.
 look:
   colors: []
   shape: null
@@ -23,7 +23,7 @@ tech:
   leds:
     count: null
     type: null
-    note: 'Firmware includes a "sparkling" LED effect (led_thread_entry); count/type not documented.'
+    note: Firmware includes a "sparkling" LED effect (led_thread_entry); count/type not documented.
   display: LCD
   connectivity:
   - usb
@@ -45,6 +45,7 @@ links:
 - label: github.com/BSides-Vilnius/badge2026
   url: https://github.com/BSides-Vilnius/badge2026
   kind: repo
+  archived: https://web.archive.org/web/20260615180154/https://github.com/BSides-Vilnius/badge2026
 - label: badge.gallery/badges/bsides-vilnius-2026-badge
   url: https://badge.gallery/badges/bsides-vilnius-2026-badge
   kind: website
@@ -52,7 +53,7 @@ images: []
 contact: {}
 notes:
 - 'Official Lithuanian BSides 2026 electronic badge: STM32H563RIT6 board with SAO connector, temperature/humidity sensor and LCD. Found by the event-year sweep, task bsides-any.'
-- 'Sweep title matches the maker''s own repo name and description; no alternate title found.'
+- Sweep title matches the maker's own repo name and description; no alternate title found.
 status: released
 sources:
 - kind: url
@@ -60,11 +61,13 @@ sources:
   title: BSides Vilnius 2026 Badge
   accessed: '2026-09-07'
   note: 'Found by the archive''s discovery sweep (angle: sweep:bsides-any); event read as ''BSides Vilnius 2026''.'
+  archived: https://web.archive.org/web/20260615180154/https://github.com/BSides-Vilnius/badge2026
 - kind: url
   url: https://github.com/BSides-Vilnius/badge2026
-  title: 'BSides Vilnius badge - README.md'
+  title: BSides Vilnius badge - README.md
   accessed: '2026-09-10'
-  note: 'Confirmed firmware features (LCD, SAO animation thread, environmental sensor thread, LED sparkle thread, USB CDC/VCP, button debouncing), BSD-2-Clause license, DFU flashing procedure, and that a circuit diagram is published under Other/circuit.'
+  note: Confirmed firmware features (LCD, SAO animation thread, environmental sensor thread, LED sparkle thread, USB CDC/VCP, button debouncing), BSD-2-Clause license, DFU flashing procedure, and that a circuit diagram is published under Other/circuit.
+  archived: https://web.archive.org/web/20260615180154/https://github.com/BSides-Vilnius/badge2026
 - kind: url
   url: https://raw.githubusercontent.com/BSides-Vilnius/badge2026/main/BSV2026.ioc
   title: BSV2026.ioc (STM32CubeMX project file)
@@ -74,7 +77,7 @@ sources:
   url: https://badge.gallery/badges/bsides-vilnius-2026-badge
   title: BSides Vilnius 2026 Badge - badge.gallery
   accessed: '2026-09-10'
-  note: 'Corroborated event dates (June 3-4, 2026, Kablys, Vilnius) and MCU; noted no product photo and no named individual designer.'
+  note: Corroborated event dates (June 3-4, 2026, Kablys, Vilnius) and MCU; noted no product photo and no named individual designer.
 research:
   status: researched
   confidence: medium

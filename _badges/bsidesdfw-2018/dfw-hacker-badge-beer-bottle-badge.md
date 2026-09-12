@@ -53,6 +53,7 @@ links:
 - label: dfwhackerbadge.com
   url: https://dfwhackerbadge.com/
   kind: website
+  archived: https://web.archive.org/web/20260519005621/https://dfwhackerbadge.com/
 - label: www.youtube.com/watch?v=F5yX2TWvR1I
   url: https://www.youtube.com/watch?v=F5yX2TWvR1I
   kind: video
@@ -64,10 +65,12 @@ images:
   source: https://dfwhackerbadge.com/
   credit: alt_bier / gowenrw
   caption: DFW Hacker Badge banner image, beer-bottle-shaped PCB
+  archived: https://web.archive.org/web/20260519005621/https://dfwhackerbadge.com/
 - file: assets/images/badges/bsidesdfw-2018/dfw-hacker-badge-beer-bottle-badge/46aa39b8d5.jpg
   source: https://dfwhackerbadge.com/
   credit: alt_bier / gowenrw
   caption: 'Contents of the DIY badge kit: PCB, Arduino Nano, LEDs, resistors, lanyard, battery holder'
+  archived: https://web.archive.org/web/20260519005621/https://dfwhackerbadge.com/
 contact:
   handle: alt_bier
   url: https://twitter.com/alt_bier
@@ -81,11 +84,13 @@ sources:
   title: DFW Hacker Badge (Beer Bottle Badge)
   accessed: '2026-09-07'
   note: 'Found by the archive''s discovery sweep (angle: sweep:bsides-bsidesdfw); event read as ''BSides DFW 2018''.'
+  archived: https://web.archive.org/web/20260519005621/https://dfwhackerbadge.com/
 - kind: url
   url: https://dfwhackerbadge.com/
   title: DFW Hacker Badge
   accessed: '2026-09-10'
   note: Maker's own site; confirmed maker (alt_bier), 2018 sale at BSidesLV/DEFCON HHV/BSidesDFW, kit contents, price, Arduino Nano + 5 RGB LEDs, single-layer Fritzing PCB, open Gerbers and code on GitHub.
+  archived: https://web.archive.org/web/20260519005621/https://dfwhackerbadge.com/
 - kind: url
   url: https://github.com/gowenrw/DFW_InfoSec_Badge_2018
   title: gowenrw/DFW_InfoSec_Badge_2018

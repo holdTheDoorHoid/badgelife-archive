@@ -54,6 +54,7 @@ links:
 - label: bsidestampa.net/activities/badge-challenge
   url: https://bsidestampa.net/activities/badge-challenge
   kind: website
+  archived: https://web.archive.org/web/20260612202631/https://bsidestampa.net/activities/badge-challenge
 - label: www.youtube.com/watch?v=q2zXdGrIu3E
   url: https://www.youtube.com/watch?v=q2zXdGrIu3E
   kind: video
@@ -74,6 +75,7 @@ images:
   source: https://bsidestampa.net/activities/badge-challenge
   credit: BSides Tampa
   caption: 'The Uber Badge award: gold Aztec skull design with embroidered crossbones bag and wax-sealed envelope'
+  archived: https://web.archive.org/web/20260612202631/https://bsidestampa.net/activities/badge-challenge
 contact: {}
 notes:
 - ATtiny1616-based electronic badge for BSides Tampa 2026 with a multi-cipher CTF, Morse-blinking LED, and UART firmware-dump challenge. Found by the event-year sweep, task bsides-augusta.
@@ -96,6 +98,7 @@ sources:
   title: Badge Challenge | BSides Tampa 2026
   accessed: '2026-09-10'
   note: Confirms this is the official conference badge challenge; states 2026 registration/sales are closed; no maker, price, or hardware detail given here.
+  archived: https://web.archive.org/web/20260612202631/https://bsidestampa.net/activities/badge-challenge
 - kind: url
   url: https://www.linkedin.com/posts/joshuagrose_bsidestampa-bsides-infosec-activity-7326444199673765890-n-yk
   title: Joshua Grose LinkedIn post on badge production
