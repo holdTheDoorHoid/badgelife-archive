@@ -10,7 +10,7 @@ event: dc26
 year: 2018
 makers:
 - name: Red (noidd)
-summary: 'A huge, intricately cut black PCB badge shaped like a cockroach, populated with a dense grid of small LEDs (shown unlit) at DEF CON 26.'
+summary: A huge, intricately cut black PCB badge shaped like a cockroach, populated with a dense grid of small LEDs (shown unlit) at DEF CON 26.
 functions: ''
 look:
   colors:
@@ -24,7 +24,7 @@ tech:
   leds:
     count: null
     type: null
-    note: 'Saved photo shows the board already populated with a dense grid of many small SMD LEDs (unlit/unpowered); exact count and part number are not given by the source.'
+    note: Saved photo shows the board already populated with a dense grid of many small SMD LEDs (unlit/unpowered); exact count and part number are not given by the source.
   display: null
   connectivity: []
   battery: null
@@ -45,11 +45,13 @@ links:
 - label: hackaday.com/2018/09/05/all-the-badges-of-def-con-26-vol-4
   url: https://hackaday.com/2018/09/05/all-the-badges-of-def-con-26-vol-4/
   kind: article
+  archived: https://web.archive.org/web/20260310212057/https://hackaday.com/2018/09/05/all-the-badges-of-def-con-26-vol-4/
 images:
 - file: assets/images/badges/dc26/cockroach-badge/545f13d263.jpg
-  source: "https://hackaday.com/2018/09/05/all-the-badges-of-def-con-26-vol-4/"
-  credit: "Hackaday / Red (noidd)"
-  caption: "The cockroach-shaped LED badge, as photographed by Hackaday at DEF CON 26"
+  source: https://hackaday.com/2018/09/05/all-the-badges-of-def-con-26-vol-4/
+  credit: Hackaday / Red (noidd)
+  caption: The cockroach-shaped LED badge, as photographed by Hackaday at DEF CON 26
+  archived: https://web.archive.org/web/20260310212057/https://hackaday.com/2018/09/05/all-the-badges-of-def-con-26-vol-4/
 contact: {}
 notes:
 - DC26 indie badge shaped like an LED-filled cockroach. Found by the event-year sweep, task dc26-indie.
@@ -61,37 +63,24 @@ sources:
   title: Cockroach Badge
   accessed: '2026-09-07'
   note: 'Found by the archive''s discovery sweep (angle: sweep:dc26-indie); event read as ''dc26''.'
+  archived: https://web.archive.org/web/20260310212057/https://hackaday.com/2018/09/05/all-the-badges-of-def-con-26-vol-4/
 - kind: url
   url: https://hackaday.com/2018/09/05/all-the-badges-of-def-con-26-vol-4/
   title: All The Badges Of DEF CON 26 (vol 4) - Hackaday
   accessed: '2026-09-08'
-  note: 'Confirmed the badge exists and read via WebFetch; per-item writeup gives size, antenna/leg detail, maker credit, and says no in-action photo was obtained; no pricing/quantity/chip/LED-part details given.'
+  note: Confirmed the badge exists and read via WebFetch; per-item writeup gives size, antenna/leg detail, maker credit, and says no in-action photo was obtained; no pricing/quantity/chip/LED-part details given.
+  archived: https://web.archive.org/web/20260310212057/https://hackaday.com/2018/09/05/all-the-badges-of-def-con-26-vol-4/
 - kind: url
   url: https://hackaday.com/wp-content/uploads/2018/08/51-cockroach.jpg
   title: 51-cockroach.jpg (full-resolution source image behind the saved archive photo)
   accessed: '2026-09-08'
-  note: 'Opened and zoomed into the full-resolution photo directly. It shows the board already populated with a dense grid of small SMD LEDs (unlit), each with its own reference designator (U31, U32, ... U66+) visible in the silkscreen -- this corrects the earlier "unpopulated" reading. A second photo in the article (defcon-badge-cockroach-by-red.jpg, credited to Twitter, not saved to this entry) is the one actually captioned "Unpopulated PCB" and shows a bare-board state.'
+  note: Opened and zoomed into the full-resolution photo directly. It shows the board already populated with a dense grid of small SMD LEDs (unlit), each with its own reference designator (U31, U32, ... U66+) visible in the silkscreen -- this corrects the earlier "unpopulated" reading. A second photo in the article (defcon-badge-cockroach-by-red.jpg, credited to Twitter, not saved to this entry) is the one actually captioned "Unpopulated PCB" and shows a bare-board state.
 research:
   status: researched
   confidence: low
   last_checked: '2026-09-08'
-  notes: >-
-    Confirmed on a real page (Hackaday's DEF CON 26 vol. 4 roundup), not just a search
-    snippet. Maker is credited as "Red," Twitter handle @noidd (linked tweet at
-    twitter.com/noidd/status/1024343722933317632 is now unreachable/paywalled via X).
-    Hackaday describes the board as "at least 14 inches long," shaped like a cockroach,
-    with long antennae added to stabilize otherwise-fragile spiny leg cutouts, and says
-    the writer never got a photo of it powered up/lit. Correction from the prior research
-    pass: the archive's saved photo is NOT the bare board -- opening the full-resolution
-    image and zooming in shows it is already populated with many small SMD LEDs
-    (unlit), each with a printed reference designator. A separate photo in the same
-    article, not saved here, is the one actually labeled "Unpopulated PCB" and shows an
-    earlier bare-board state of the same design. No project page, GitHub, Hackaday.io
-    entry, storefront, price, quantity, or MCU/LED part-number specifics were found
-    despite several searches, so those fields stay empty per the never-invent rule.
-    Kept at low confidence: existence, maker, and appearance are confirmed from a real
-    article and a directly-inspected photo, but nearly all technical and availability
-    specifics remain unconfirmed.
+  notes: 'Confirmed on a real page (Hackaday''s DEF CON 26 vol. 4 roundup), not just a search snippet. Maker is credited as "Red," Twitter handle @noidd (linked tweet at twitter.com/noidd/status/1024343722933317632 is now unreachable/paywalled via X). Hackaday describes the board as "at least 14 inches long," shaped like a cockroach, with long antennae added to stabilize otherwise-fragile spiny leg cutouts, and says the writer never got a photo of it powered up/lit. Correction from the prior research pass: the archive''s saved photo is NOT the bare board -- opening the full-resolution image and zooming in shows it is already populated with many small SMD LEDs (unlit), each with a printed reference designator. A separate photo in the same article, not saved here, is the one actually labeled "Unpopulated PCB" and shows an earlier bare-board state of the same design. No project page, GitHub, Hackaday.io entry, storefront, price, quantity, or MCU/LED part-number specifics were found despite
+    several searches, so those fields stay empty per the never-invent rule. Kept at low confidence: existence, maker, and appearance are confirmed from a real article and a directly-inspected photo, but nearly all technical and availability specifics remain unconfirmed.'
 last_modified_date: '2026-09-08'
 ---
 

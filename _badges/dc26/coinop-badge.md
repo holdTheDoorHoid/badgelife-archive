@@ -63,6 +63,7 @@ links:
 - label: hackaday.com/2018/09/05/all-the-badges-of-def-con-26-vol-4
   url: https://hackaday.com/2018/09/05/all-the-badges-of-def-con-26-vol-4/
   kind: article
+  archived: https://web.archive.org/web/20260310212057/https://hackaday.com/2018/09/05/all-the-badges-of-def-con-26-vol-4/
 - label: www.youtube.com/watch?v=faJSoZDbjUw
   url: https://www.youtube.com/watch?v=faJSoZDbjUw
   kind: video
@@ -103,6 +104,7 @@ sources:
   title: 'All The Badges Of DEF CON 26: Vol. 4 (Hackaday)'
   accessed: '2026-09-07'
   note: Independent confirmation of DEF CON 26 (2018), ATmega48, CR2032, two buttons, and 59 hand-built boards. States 3 blue LEDs (not 4).
+  archived: https://web.archive.org/web/20260310212057/https://hackaday.com/2018/09/05/all-the-badges-of-def-con-26-vol-4/
 research:
   status: researched
   confidence: high
