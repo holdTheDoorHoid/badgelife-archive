@@ -39,6 +39,7 @@ links:
 - label: www.musatcha.com/software/DC18BadgeImageWriter
   url: https://www.musatcha.com/software/DC18BadgeImageWriter/
   kind: website
+  archived: https://web.archive.org/web/20260510194420/https://www.musatcha.com/software/DC18BadgeImageWriter/
 images: []
 contact: {}
 notes:
@@ -51,16 +52,12 @@ sources:
   title: DEFCON 18 Badge Image Writer
   accessed: '2026-09-10'
   note: Maker's own page describing the tool, author, purpose, and system requirements.
+  archived: https://web.archive.org/web/20260510194420/https://www.musatcha.com/software/DC18BadgeImageWriter/
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-10'
-  notes: 'Not a hardware item. musatcha.com/software/DC18BadgeImageWriter is a small
-    Windows/.NET 2.0 utility (DC18BadgeImageWriter.exe, ~25KB) by Brad Isbell that
-    writes custom images to the LCD of a DEFCON 18 badge over its virtual serial
-    port, using functions built into the stock badge firmware. It is a companion
-    tool for the DC18 badge, not a badge/SAO/accessory in its own right, so no entry
-    fields beyond links/sources were filled.'
+  notes: Not a hardware item. musatcha.com/software/DC18BadgeImageWriter is a small Windows/.NET 2.0 utility (DC18BadgeImageWriter.exe, ~25KB) by Brad Isbell that writes custom images to the LCD of a DEFCON 18 badge over its virtual serial port, using functions built into the stock badge firmware. It is a companion tool for the DC18 badge, not a badge/SAO/accessory in its own right, so no entry fields beyond links/sources were filled.
 last_modified_date: '2026-09-10'
 ---
 

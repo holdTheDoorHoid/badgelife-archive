@@ -12,27 +12,31 @@ makers:
 - name: Joe Grand / Grand Idea Studio
   url: https://grandideastudio.com/portfolio/other/defcon-18-badge/
 summary: 'The official DEF CON 18 (2010) attendee badge: an aluminum-substrate PCB with laser-etched graphics and USB connectivity, built around a Freescale digital signal controller and a reflective cholesteric LCD.'
-functions: 'Hidden modes for various conference contests; the badge itself was the target platform for that year''s Badge Hacking Contest (21 official entries, won by a UPC-A/UPC-E barcode writer/emulator).'
+functions: Hidden modes for various conference contests; the badge itself was the target platform for that year's Badge Hacking Contest (21 official entries, won by a UPC-A/UPC-E barcode writer/emulator).
 look:
-  colors: [silver]
+  colors:
+  - silver
   shape: null
-  themes: [hardware tool, security]
+  themes:
+  - hardware tool
+  - security
 tech:
   mcu: MC56F8006
   leds: null
   display: 128x32 Kent Displays reflective cholesteric LCD (ChLCD)
-  connectivity: [usb]
+  connectivity:
+  - usb
   battery: CR2032
   sao_version: none
 get_one:
   price: ''
   price_usd: null
-  quantity: '7,780'
+  quantity: 7,780
   availability: unknown
   distribution: []
-  where: 'Given to DEF CON 18 attendees; variants (Human, Goon, Press, Speaker, Vendor, Contest Organizer, Uber) denoted attendee type.'
+  where: Given to DEF CON 18 attendees; variants (Human, Goon, Press, Speaker, Vendor, Contest Organizer, Uber) denoted attendee type.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://grandideastudio.com/media/dc18_bdg_schematic.pdf
   firmware_url: https://grandideastudio.com/media/dc18_bdg_source.zip
   eda_tool: null
@@ -42,24 +46,29 @@ links:
 - label: grandideastudio.com/portfolio/other/defcon-18-badge
   url: https://grandideastudio.com/portfolio/other/defcon-18-badge/
   kind: website
+  archived: https://web.archive.org/web/20260303002724/https://grandideastudio.com/portfolio/other/defcon-18-badge/
 - label: DEFCON 18 Badge schematic
   url: https://grandideastudio.com/media/dc18_bdg_schematic.pdf
   kind: doc
+  archived: https://web.archive.org/web/20260303002725/https://grandideastudio.com/media/dc18_bdg_schematic.pdf
 - label: DEFCON 18 Badge source code (Freescale CodeWarrior)
   url: https://grandideastudio.com/media/dc18_bdg_source.zip
   kind: repo
+  archived: https://web.archive.org/web/20260303002725/https://grandideastudio.com/media/dc18_bdg_source.zip
 - label: DEFCON Forums - DC18 Badge Hacking Contest results
   url: https://forum.defcon.org/showthread.php?p=116737
   kind: article
 images:
-  - file: assets/images/badges/dc18/badge/648ac79941.jpg
-    source: "https://grandideastudio.com/portfolio/other/defcon-18-badge/"
-    credit: "Grand Idea Studio"
-    caption: "DEFCON 18 badge, aluminum-substrate PCB with laser-etched graphics and cholesteric LCD"
-  - file: assets/images/badges/dc18/badge/86b7b7c596.jpg
-    source: "https://grandideastudio.com/portfolio/other/defcon-18-badge/"
-    credit: "Grand Idea Studio"
-    caption: "DEFCON 18 badge, close-up view"
+- file: assets/images/badges/dc18/badge/648ac79941.jpg
+  source: https://grandideastudio.com/portfolio/other/defcon-18-badge/
+  credit: Grand Idea Studio
+  caption: DEFCON 18 badge, aluminum-substrate PCB with laser-etched graphics and cholesteric LCD
+  archived: https://web.archive.org/web/20260303002724/https://grandideastudio.com/portfolio/other/defcon-18-badge/
+- file: assets/images/badges/dc18/badge/86b7b7c596.jpg
+  source: https://grandideastudio.com/portfolio/other/defcon-18-badge/
+  credit: Grand Idea Studio
+  caption: DEFCON 18 badge, close-up view
+  archived: https://web.archive.org/web/20260303002724/https://grandideastudio.com/portfolio/other/defcon-18-badge/
 contact: {}
 notes:
 - 'Official DEF CON 18 conference badge: Freescale MC56F8006 DSC, 128x32 Kent Displays cholesteric LCD, laser-etched aluminum-substrate PCB, 7,780 units made across Human/Goon/Press/Speaker/Vendor/Contest Organizer/Uber variants; documented with schematic, BOM and source at grandideastudio.com. Found by the event-year sweep, task dc18-all.'
@@ -70,16 +79,18 @@ sources:
   title: DEFCON 18 Badge
   accessed: '2026-09-07'
   note: 'Found by the archive''s discovery sweep (angle: sweep:dc18-all); event read as ''dc18''.'
+  archived: https://web.archive.org/web/20260303002724/https://grandideastudio.com/portfolio/other/defcon-18-badge/
 - kind: url
   url: https://grandideastudio.com/portfolio/other/defcon-18-badge/
   title: DEFCON 18 Badge
   accessed: '2026-09-08'
-  note: 'Confirmed maker, event/year, MCU, display, battery, quantity, contest details, and documentation links (schematic, BOM, source code).'
+  note: Confirmed maker, event/year, MCU, display, battery, quantity, contest details, and documentation links (schematic, BOM, source code).
+  archived: https://web.archive.org/web/20260303002724/https://grandideastudio.com/portfolio/other/defcon-18-badge/
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-08'
-  notes: 'Maker''s own portfolio page confirms all core facts. LED info and price/distribution details (given to attendees, no sale price) are not stated on the page, so left empty. Quantity and variant breakdown confirmed. No open questions or source disagreements.'
+  notes: Maker's own portfolio page confirms all core facts. LED info and price/distribution details (given to attendees, no sale price) are not stated on the page, so left empty. Quantity and variant breakdown confirmed. No open questions or source disagreements.
 last_modified_date: '2026-09-08'
 ---
 

@@ -11,7 +11,7 @@ year: 2009
 makers:
 - name: Ninja Networks (Amanda Wozniak "w0z", Brandon Creighton "cstone")
 summary: An electronic invitation to Ninja Networks' invitation-only DEF CON 17 party, whose ten LED displays randomly cycle characters until they lock in to spell "NINJA PARTY", WarGames-style.
-functions: 'Default mode cycles and locks in characters across the display to spell "NINJA PARTY"; includes a Simon memory game, a unique-identifier display, sponsor URL display, and an on-board debugger for reading memory and reprogramming without external hardware, via four buttons.'
+functions: Default mode cycles and locks in characters across the display to spell "NINJA PARTY"; includes a Simon memory game, a unique-identifier display, sponsor URL display, and an on-board debugger for reading memory and reprogramming without external hardware, via four buttons.
 look:
   colors: []
   shape: null
@@ -26,15 +26,15 @@ tech:
   battery: null
   sao_version: null
 get_one:
-  price: "~$20/unit to produce (initially budgeted at $12)"
+  price: ~$20/unit to produce (initially budgeted at $12)
   price_usd: null
-  quantity: '500+'
+  quantity: 500+
   availability: free
   distribution:
   - free_drop
   where: Given to attendees of Ninja Networks' invitation-only party at DEF CON 17, August 2009.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://www.ninjas.org/badges/defcon17.html
   firmware_url: https://www.ninjas.org/badges/defcon17.html
   eda_tool: null
@@ -42,18 +42,22 @@ links:
 - label: www.ninjas.org/badges/defcon17.html
   url: https://www.ninjas.org/badges/defcon17.html
   kind: website
+  archived: https://web.archive.org/web/20260413015400/https://ninjas.org/badges/defcon17.html
 - label: hackaday.com/2009/08/10/ninja-networks-party-badge
   url: https://hackaday.com/2009/08/10/ninja-networks-party-badge/
   kind: article
+  archived: https://web.archive.org/web/20260414193322/https://hackaday.com/2009/08/10/ninja-networks-party-badge/
 images:
 - file: assets/images/badges/dc17/ninja-networks-def-con-17-party-badge/1f26b31166.jpg
-  source: "https://www.ninjas.org/badges/defcon17.html"
-  credit: "Ninja Networks"
-  caption: "Assembled Ninja Networks DEF CON 17 party badge, top view"
+  source: https://www.ninjas.org/badges/defcon17.html
+  credit: Ninja Networks
+  caption: Assembled Ninja Networks DEF CON 17 party badge, top view
+  archived: https://web.archive.org/web/20260413015400/https://ninjas.org/badges/defcon17.html
 - file: assets/images/badges/dc17/ninja-networks-def-con-17-party-badge/35472a3aac.jpg
-  source: "https://www.ninjas.org/badges/defcon17.html"
-  credit: "Ninja Networks"
-  caption: "A batch of completed DEF CON 17 Ninja Networks party badges"
+  source: https://www.ninjas.org/badges/defcon17.html
+  credit: Ninja Networks
+  caption: A batch of completed DEF CON 17 Ninja Networks party badges
+  archived: https://web.archive.org/web/20260413015400/https://ninjas.org/badges/defcon17.html
 contact: {}
 notes:
 - Unofficial party badge for Ninja Networks' DC17 event, built around a Freescale MC9S08QE8 with ten 16-segment LED displays that cycle through characters and spell 'NINJA PARTY', includes a Simon game; over 500 made. Found by the event-year sweep, task dc17-all.
@@ -64,21 +68,24 @@ sources:
   title: Ninja Networks DEF CON 17 Party Badge
   accessed: '2026-09-07'
   note: 'Found by the archive''s discovery sweep (angle: sweep:dc17-all); event read as ''dc17''.'
+  archived: https://web.archive.org/web/20260413015400/https://ninjas.org/badges/defcon17.html
 - kind: url
   url: https://www.ninjas.org/badges/defcon17.html
   title: DEFCON 17 Ninja Badge - Ninjas.org
   accessed: '2026-09-08'
-  note: "Maker's own project page: designers, chip, display, quantity (500+), assembly process, open-source release of schematics/gerbers/BOM/source code."
+  note: 'Maker''s own project page: designers, chip, display, quantity (500+), assembly process, open-source release of schematics/gerbers/BOM/source code.'
+  archived: https://web.archive.org/web/20260413015400/https://ninjas.org/badges/defcon17.html
 - kind: url
   url: https://hackaday.com/2009/08/10/ninja-networks-party-badge/
   title: Ninja Networks Party Badge - Hackaday
   accessed: '2026-09-08'
-  note: "Corroborates designers (cstone/w0z), MCU, display type, quantity, PCB fab (4PCB), and open release of design files; notes XeroBank sponsorship."
+  note: Corroborates designers (cstone/w0z), MCU, display type, quantity, PCB fab (4PCB), and open release of design files; notes XeroBank sponsorship.
+  archived: https://web.archive.org/web/20260414193322/https://hackaday.com/2009/08/10/ninja-networks-party-badge/
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-08'
-  notes: "Both the maker's own page and Hackaday agree on the core facts. LED count/type per segment (16-segment character displays, not addressable RGB) recorded under tech.display rather than tech.leds since these are HIOX-format character/segment displays, not individually driven LED pixels. Exact unit price varies by source ($12 budgeted vs. ~$20 actual); recorded both. No price paid by attendees was found — it was given away free to party guests, not sold."
+  notes: Both the maker's own page and Hackaday agree on the core facts. LED count/type per segment (16-segment character displays, not addressable RGB) recorded under tech.display rather than tech.leds since these are HIOX-format character/segment displays, not individually driven LED pixels. Exact unit price varies by source ($12 budgeted vs. ~$20 actual); recorded both. No price paid by attendees was found — it was given away free to party guests, not sold.
 last_modified_date: '2026-09-08'
 ---
 

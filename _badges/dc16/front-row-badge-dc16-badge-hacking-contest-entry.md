@@ -41,7 +41,7 @@ links:
 - label: github.com/bkerley/dc16_badge
   url: https://github.com/bkerley/dc16_badge/
   kind: repo
-- label: 'DEFCON 16 - Contest Results'
+- label: DEFCON 16 - Contest Results
   url: https://defcon.net/html/defcon-16/dc-16-contest-results.html
   kind: article
   archived: null
@@ -49,10 +49,10 @@ links:
   url: https://www.youtube.com/watch?v=waA2tHzhQOs
   kind: video
   archived: null
-- label: 'Front Row Badge (YouTube)'
+- label: Front Row Badge (YouTube)
   url: https://www.youtube.com/watch?v=gPQHFCoAvgE
   kind: video
-  archived: null
+  archived: https://web.archive.org/web/20260726193837/https://www.youtube.com/watch?v=gPQHFCoAvgE
 images: []
 contact: {}
 notes:
@@ -67,19 +67,20 @@ sources:
   note: Reported as an 'other item found' during the stub research pass.
 - kind: url
   url: https://defcon.net/html/defcon-16/dc-16-contest-results.html
-  title: 'DEFCON 16 Badge Hacking Contest Results'
+  title: DEFCON 16 Badge Hacking Contest Results
   accessed: '2026-09-10'
   note: 'Confirms 2nd-place contest entry, makers, and description: IR emulation of Apple Front Row and HP Pavilion DV remote controls, plus brute-forcing the 8-bit pairing keyspace.'
 - kind: url
   url: https://www.youtube.com/watch?v=waA2tHzhQOs
   title: 'DC16 Badge Hack: Mac Front Row and HP Laptop 0wning'
   accessed: '2026-09-10'
-  note: 'Confirms this is the 2nd place DC16 Badge Hacking Contest entry by BonzoESC, Sterling, Critta, and Jymbolia.'
+  note: Confirms this is the 2nd place DC16 Badge Hacking Contest entry by BonzoESC, Sterling, Critta, and Jymbolia.
 - kind: url
   url: https://www.youtube.com/watch?v=gPQHFCoAvgE
-  title: 'Front Row Badge'
+  title: Front Row Badge
   accessed: '2026-09-10'
   note: Demo video linking to the same GitHub source repo.
+  archived: https://web.archive.org/web/20260726193837/https://www.youtube.com/watch?v=gPQHFCoAvgE
 research:
   status: researched
   confidence: high

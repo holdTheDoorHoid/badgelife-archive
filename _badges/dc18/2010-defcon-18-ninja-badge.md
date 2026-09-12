@@ -42,6 +42,7 @@ links:
 - label: ninjas.org/badges/defcon18.html
   url: https://ninjas.org/badges/defcon18.html
   kind: website
+  archived: https://web.archive.org/web/20260801133253/https://ninjas.org/badges/defcon18.html
 - label: www.csoonline.com/article/544543/security-leadership-defcon-2010-a-preview-of-the-ninja-networks-badge.html
   url: https://www.csoonline.com/article/544543/security-leadership-defcon-2010-a-preview-of-the-ninja-networks-badge.html
   kind: article
@@ -49,14 +50,16 @@ links:
   url: https://forum.defcon.org/node/12602
   kind: social
 images:
-  - file: assets/images/badges/dc18/2010-defcon-18-ninja-badge/02aa1c537a.jpg
-    source: "https://ninjas.org/badges/defcon18.html"
-    credit: "Ninja Networks"
-    caption: "The 2010 DEF CON 18 Ninja Badge lit up in the dark"
-  - file: assets/images/badges/dc18/2010-defcon-18-ninja-badge/96f14059ca.jpg
-    source: "https://ninjas.org/badges/defcon18.html"
-    credit: "Ninja Networks"
-    caption: "The badge shown with its removable display module attached and removed"
+- file: assets/images/badges/dc18/2010-defcon-18-ninja-badge/02aa1c537a.jpg
+  source: https://ninjas.org/badges/defcon18.html
+  credit: Ninja Networks
+  caption: The 2010 DEF CON 18 Ninja Badge lit up in the dark
+  archived: https://web.archive.org/web/20260801133253/https://ninjas.org/badges/defcon18.html
+- file: assets/images/badges/dc18/2010-defcon-18-ninja-badge/96f14059ca.jpg
+  source: https://ninjas.org/badges/defcon18.html
+  credit: Ninja Networks
+  caption: The badge shown with its removable display module attached and removed
+  archived: https://web.archive.org/web/20260801133253/https://ninjas.org/badges/defcon18.html
 contact: {}
 notes:
 - Unofficial electronic party badge built by Ninja Networks (sponsored by Facebook and Lookout Mobile Security) around an MC13224V microcontroller with a removable display module, given out to press/select attendees and goons at DEF CON 18. Found by the event-year sweep, task dc18-all.
@@ -68,21 +71,22 @@ sources:
   title: 2010 DEFCON 18 Ninja Badge
   accessed: '2026-09-07'
   note: 'Found by the archive''s discovery sweep (angle: sweep:dc18-all); event read as ''DEF CON 18 2010''.'
+  archived: https://web.archive.org/web/20260801133253/https://ninjas.org/badges/defcon18.html
 - kind: url
   url: https://www.csoonline.com/article/544543/security-leadership-defcon-2010-a-preview-of-the-ninja-networks-badge.html
-  title: 'DefCon 2010 - A preview of the Ninja Networks Badge'
+  title: DefCon 2010 - A preview of the Ninja Networks Badge
   accessed: '2026-09-08'
-  note: 'Interview with designers Matt Lewis, Chris Nelson, Amanda Wozniak, and Brandon Creighton; confirms Facebook/Lookout sponsorship, distribution to attendees, and expanded production order due to demand from government/military/industry visitors.'
+  note: Interview with designers Matt Lewis, Chris Nelson, Amanda Wozniak, and Brandon Creighton; confirms Facebook/Lookout sponsorship, distribution to attendees, and expanded production order due to demand from government/military/industry visitors.
 - kind: url
   url: https://forum.defcon.org/node/12602
-  title: '2010 DEFCON 18 Ninja Badge Announcement'
+  title: 2010 DEFCON 18 Ninja Badge Announcement
   accessed: '2026-09-08'
-  note: 'Original DEF CON forum announcement post by Ninja Networks confirming Facebook and Lookout Mobile Security sponsorship; page could not be fully read (connection reset), title/description taken from meta tags.'
+  note: Original DEF CON forum announcement post by Ninja Networks confirming Facebook and Lookout Mobile Security sponsorship; page could not be fully read (connection reset), title/description taken from meta tags.
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-08'
-  notes: 'Maker''s own page and a contemporary CSO Online interview with the design team confirm the badge exists, its MCU, the removable display, and the sponsors/distribution story. Could not find LED count/type, exact price, production quantity, or design-file availability; no storefront or repo found, so make_your_own and tech.leds/battery/sao_version are left empty. The DEF CON forum announcement thread returned a connection reset on fetch; only its meta description was recoverable.'
+  notes: Maker's own page and a contemporary CSO Online interview with the design team confirm the badge exists, its MCU, the removable display, and the sponsors/distribution story. Could not find LED count/type, exact price, production quantity, or design-file availability; no storefront or repo found, so make_your_own and tech.leds/battery/sao_version are left empty. The DEF CON forum announcement thread returned a connection reset on fetch; only its meta description was recoverable.
 last_modified_date: '2026-09-08'
 ---
 

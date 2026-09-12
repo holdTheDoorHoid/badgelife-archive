@@ -54,6 +54,7 @@ links:
 - label: 'DEF CON 15 archive: Making of the DEF CON 15 Badge (talk)'
   url: https://www.defcon.org/html/links/dc-archives/dc-15-archive.html
   kind: article
+  archived: https://web.archive.org/web/20260729075542/https://defcon.org/html/links/dc-archives/dc-15-archive.html
 - label: grandideastudio.com/portfolio/other/defcon-15-badge
   url: https://grandideastudio.com/portfolio/other/defcon-15-badge/
   kind: website
@@ -94,6 +95,7 @@ sources:
   title: DEF CON 15 archive page
   accessed: '2026-09-07'
   note: Confirms Joe Grand's talk 'Making of the DEF CON 15 Badge' at DC15 (Riviera Hotel and Casino, August 3-5, 2007) with the ode PDF as a presentation extra.
+  archived: https://web.archive.org/web/20260729075542/https://defcon.org/html/links/dc-archives/dc-15-archive.html
 - kind: url
   url: https://grandideastudio.com/portfolio/other/defcon-15-badge/
   title: DEF CON 15 Official Electronic Badge

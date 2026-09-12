@@ -49,9 +49,11 @@ links:
 - label: grandideastudio.com/portfolio/other/defcon-17-badge
   url: https://grandideastudio.com/portfolio/other/defcon-17-badge/
   kind: website
+  archived: https://web.archive.org/web/20260422201301/https://grandideastudio.com/portfolio/other/defcon-17-badge/
 - label: defcon.org/images/defcon-17/dc-17-presentations/defcon-17-joe-grand-making_the_dc17_badge.pdf
   url: https://defcon.org/images/defcon-17/dc-17-presentations/defcon-17-joe-grand-making_the_dc17_badge.pdf
   kind: doc
+  archived: https://web.archive.org/web/20260301133502/https://www.defcon.org/images/defcon-17/dc-17-presentations/defcon-17-joe-grand-making_the_dc17_badge.pdf
 - label: forum.defcon.org/forum/defcon/defcon-badge-hacking-for-all-defcon-badges/11710-defcon-17-dc17-badge-pre-release-information
   url: https://forum.defcon.org/forum/defcon/defcon-badge-hacking-for-all-defcon-badges/11710-defcon-17-dc17-badge-pre-release-information
   kind: social
@@ -66,18 +68,22 @@ images:
   source: https://grandideastudio.com/portfolio/other/defcon-17-badge/
   credit: Grand Idea Studio
   caption: DEF CON 17 badge set, seven interlocking puzzle-piece shapes
+  archived: https://web.archive.org/web/20260422201301/https://grandideastudio.com/portfolio/other/defcon-17-badge/
 - file: assets/images/badges/dc17/official-badge/8b64578d93.jpg
   source: https://grandideastudio.com/portfolio/other/defcon-17-badge/
   credit: Grand Idea Studio
   caption: DEF CON 17 badge, front detail
+  archived: https://web.archive.org/web/20260422201301/https://grandideastudio.com/portfolio/other/defcon-17-badge/
 - file: assets/images/badges/dc17/official-badge/26a346acb2.jpg
   source: https://grandideastudio.com/portfolio/other/defcon-17-badge/
   credit: Grand Idea Studio
   caption: DEF CON 17 badge, front
+  archived: https://web.archive.org/web/20260422201301/https://grandideastudio.com/portfolio/other/defcon-17-badge/
 - file: assets/images/badges/dc17/official-badge/8b64578d93.jpg
   source: https://grandideastudio.com/portfolio/other/defcon-17-badge/
   credit: Grand Idea Studio
   caption: DEF CON 17 badge, back / components
+  archived: https://web.archive.org/web/20260422201301/https://grandideastudio.com/portfolio/other/defcon-17-badge/
 contact: {}
 notes:
 - Seven interlocking puzzle-piece badge shapes (human, goon, press, speaker, vendor, contest organizer, uber) built around a Freescale MC56F8006 DSC, MEMS mic and RGB LED that reacts to ambient sound and links badge-to-badge; 6,694 units made. Found by the event-year sweep, task dc17-all.
@@ -91,16 +97,19 @@ sources:
   title: DEF CON 17 Official Badge
   accessed: '2026-09-07'
   note: 'Found by the archive''s discovery sweep (angle: sweep:dc17-all); event read as ''dc17''.'
+  archived: https://web.archive.org/web/20260422201301/https://grandideastudio.com/portfolio/other/defcon-17-badge/
 - kind: url
   url: https://grandideastudio.com/portfolio/other/defcon-17-badge/
   title: DEF CON 17 Badge - Grand Idea Studio portfolio
   accessed: '2026-09-08'
   note: Confirmed shapes, MCU (MC56F8006), RGB LED, MEMS mic, CR2032 power, 6,694 units made, and that design files/source are published.
+  archived: https://web.archive.org/web/20260422201301/https://grandideastudio.com/portfolio/other/defcon-17-badge/
 - kind: url
   url: https://defcon.org/images/defcon-17/dc-17-presentations/defcon-17-joe-grand-making_the_dc17_badge.pdf
   title: Making the DEFCON 17 Badge (Joe Grand presentation, DEF CON 17)
   accessed: '2026-09-08'
   note: PDF is largely image-based; could not extract further confirming text beyond title/author metadata.
+  archived: https://web.archive.org/web/20260301133502/https://www.defcon.org/images/defcon-17/dc-17-presentations/defcon-17-joe-grand-making_the_dc17_badge.pdf
 - kind: url
   url: https://badge.gallery/badges/def-con-17-badge
   title: DEF CON 17 Badge
