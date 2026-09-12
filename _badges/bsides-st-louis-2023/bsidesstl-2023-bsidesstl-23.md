@@ -43,6 +43,7 @@ links:
 - label: BadgePirates badge catalog
   url: https://docs.badgepirates.com/catalog/
   kind: doc
+  archived: https://web.archive.org/web/20260910225903/https://docs.badgepirates.com/catalog/#help-us-fill-the-gaps
 images: []
 contact: {}
 notes:
@@ -59,6 +60,7 @@ sources:
   title: BadgePirates badge catalog
   accessed: '2026-09-10'
   note: BadgePirates' own catalog lists "BSidesSTL 23" alongside the same GitHub repo, confirming the badge is a genuine BadgePirates project for this event; no specs, price, or images given.
+  archived: https://web.archive.org/web/20260910225903/https://docs.badgepirates.com/catalog/#help-us-fill-the-gaps
 - kind: url
   url: https://raw.githubusercontent.com/BadgePiratesLLC/BSidesSTL_2023/main/CAD/Bsides-STL-Badge.kicad_pcb
   title: Bsides-STL-Badge.kicad_pcb

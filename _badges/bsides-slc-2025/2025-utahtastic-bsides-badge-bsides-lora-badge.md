@@ -61,10 +61,12 @@ images:
   source: https://github.com/distinctm1nd/2025_utahtastic_bsides_badge
   credit: distinctm1nd
   caption: Front of the BSides Utah 2025 LoRa badge, showing the TFT display, 5-way joystick, and minibadge headers
+  archived: https://web.archive.org/web/20260907104757/https://github.com/distinctm1nd/2025_utahtastic_bsides_badge
 - file: assets/images/badges/bsides-slc-2025/2025-utahtastic-bsides-badge-bsides-lora-badge/4f421e05a3.png
   source: https://github.com/distinctm1nd/2025_utahtastic_bsides_badge
   credit: distinctm1nd
   caption: Back of the BSides Utah 2025 LoRa badge, showing the moon LED diffuser and lanyard post
+  archived: https://web.archive.org/web/20260907104757/https://github.com/distinctm1nd/2025_utahtastic_bsides_badge
 contact: {}
 notes: []
 status: released
@@ -80,6 +82,7 @@ sources:
   title: 2025_utahtastic_bsides_badge README
   accessed: '2026-09-07'
   note: README and hardware/software folders read for specs, assembly instructions, and image files (utah_bsides_front.png, utah_bsides_back.png).
+  archived: https://web.archive.org/web/20260907104757/https://github.com/distinctm1nd/2025_utahtastic_bsides_badge
 research:
   status: researched
   confidence: medium

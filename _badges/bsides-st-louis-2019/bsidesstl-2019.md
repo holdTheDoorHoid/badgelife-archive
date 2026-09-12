@@ -48,6 +48,7 @@ links:
 - label: BadgePirates catalog
   url: https://docs.badgepirates.com/catalog/
   kind: website
+  archived: https://web.archive.org/web/20260910225903/https://docs.badgepirates.com/catalog/#help-us-fill-the-gaps
 images:
 - file: assets/images/badges/bsides-st-louis-2019/bsidesstl-2019/0721645f7f.jpg
   source: https://github.com/BadgePiratesLLC/BSidesSTL_2019
@@ -74,6 +75,7 @@ sources:
   title: BadgePirates catalog
   accessed: '2026-09-10'
   note: Lists "BSidesSTL 19" with a link back to the same GitHub repo; no additional technical detail given.
+  archived: https://web.archive.org/web/20260910225903/https://docs.badgepirates.com/catalog/#help-us-fill-the-gaps
 research:
   status: researched
   confidence: high
