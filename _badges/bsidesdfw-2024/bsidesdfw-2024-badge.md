@@ -53,11 +53,13 @@ links:
 - label: github.com/hon1nbo/bsidesdfw-2024-badge
   url: https://github.com/hon1nbo/bsidesdfw-2024-badge
   kind: repo
+  archived: https://web.archive.org/web/20251221212717/https://github.com/hon1nbo/bsidesdfw-2024-badge
 images:
 - file: assets/images/badges/bsidesdfw-2024/bsidesdfw-2024-badge/45de1ca35c.gif
   source: https://github.com/hon1nbo/bsidesdfw-2024-badge
   credit: hon1nbo
   caption: LED chase animation on the assembled badge
+  archived: https://web.archive.org/web/20251221212717/https://github.com/hon1nbo/bsidesdfw-2024-badge
 contact: {}
 notes:
 - Official BSidesDFW 2024 conference badge and beginner soldering kit built around a 555-timer clock feeding a 74HC595 shift register driving a chasing-light LED matrix, running on a 6V coin cell. Found by the event-year sweep, task bsides-bsidesdfw.
@@ -69,6 +71,7 @@ sources:
   title: BSidesDFW 2024 Badge
   accessed: '2026-09-07'
   note: 'Found by the archive''s discovery sweep (angle: sweep:bsides-bsidesdfw); event read as ''BSides DFW 2024''.'
+  archived: https://web.archive.org/web/20251221212717/https://github.com/hon1nbo/bsidesdfw-2024-badge
 - kind: url
   url: https://raw.githubusercontent.com/hon1nbo/bsidesdfw-2024-badge/main/README.md
   title: hon1nbo/bsidesdfw-2024-badge README

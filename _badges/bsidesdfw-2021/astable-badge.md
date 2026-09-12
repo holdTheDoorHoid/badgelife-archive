@@ -53,6 +53,7 @@ links:
 - label: Badge kit assembly instructions
   url: https://astablebadge.altbier.us/badgekit.html
   kind: doc
+  archived: https://web.archive.org/web/20260907110526/https://astablebadge.altbier.us/badgekit.html
 - label: altbier.us/bsidesdfw
   url: https://altbier.us/bsidesdfw/
   kind: website
@@ -61,10 +62,12 @@ images:
   source: https://astablebadge.altbier.us/
   credit: Alt_Bier (gowenrw)
   caption: Assembled Astable Badge with Cyber-Dolphin artwork
+  archived: https://web.archive.org/web/20260907110511/https://astablebadge.altbier.us/
 - file: assets/images/badges/bsidesdfw-2021/astable-badge/f5bcc7b6c9.jpg
   source: https://astablebadge.altbier.us/
   credit: Alt_Bier (gowenrw)
   caption: Front of the unpopulated Astable Badge PCB
+  archived: https://web.archive.org/web/20260907110511/https://astablebadge.altbier.us/
 contact: {}
 notes:
 - Spotted by a research agent while working on a neighbouring entry.
@@ -91,6 +94,7 @@ sources:
   title: Astable Badge kit instructions
   accessed: '2026-09-07'
   note: Kit contents (PCB, lanyard, sticker, CR2032, 5 THT LEDs of different colors, resistors, capacitors, 2x 2N2222A transistors, battery holder, optional headers) and assembly steps.
+  archived: https://web.archive.org/web/20260907110526/https://astablebadge.altbier.us/badgekit.html
 research:
   status: researched
   confidence: medium

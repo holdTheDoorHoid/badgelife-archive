@@ -50,6 +50,7 @@ links:
 - label: 'Soynerdito''s Blog: BSidesPR 2016 Badge programming tools'
   url: https://blog.soynerdito.com/2016/02/bsidespr-2016-badge-programming-tools.html
   kind: article
+  archived: https://web.archive.org/web/20260616144919/http://blog.soynerdito.com/2016/02/bsidespr-2016-badge-programming-tools.html
 - label: 'element14 Community: Conference Badge with a STM32F0'
   url: https://community.element14.com/members-area/personalblogs/b/blog/posts/conference-badge-with-a-stm32f0
   kind: article
@@ -79,6 +80,7 @@ sources:
   title: 'Soynerdito''s Blog: BSidesPR 2016 Badge programming tools'
   accessed: '2026-09-07'
   note: Confirms event (BSidesPR 2016), MCU (STM32F0/Cortex-M0), LED matrix drive pins (PA7/PA5, SPI or GPIO), and toolchain (STM32CubeMX, Keil).
+  archived: https://web.archive.org/web/20260616144919/http://blog.soynerdito.com/2016/02/bsidespr-2016-badge-programming-tools.html
 - kind: url
   url: https://community.element14.com/members-area/personalblogs/b/blog/posts/conference-badge-with-a-stm32f0
   title: Conference Badge with a STM32F0 - element14 Community
