@@ -76,11 +76,13 @@ sources:
   title: PCB order spreadsheet (500sets, 2018-11-19)
   accessed: '2026-09-07'
   note: Filename indicates a manufacturing order for 500 sets, dated November 2018, ahead of the 2019 event.
+  archived: https://web.archive.org/web/20260907110418/https://github.com/Interlock-Rochester/BSides_badge_2019/blob/master/T-S8W119900A-500sets-BsidesRock2019_202018-11-19.xls
 - kind: url
   url: https://github.com/Interlock-Rochester/BSides_badge_2019/blob/master/LICENSE
   title: LICENSE
   accessed: '2026-09-07'
   note: MIT License, copyright 2018 Interlock Rochester; confirms open-source hardware release.
+  archived: https://web.archive.org/web/20260907110418/https://github.com/Interlock-Rochester/BSides_badge_2019/blob/master/LICENSE
 research:
   status: researched
   confidence: medium

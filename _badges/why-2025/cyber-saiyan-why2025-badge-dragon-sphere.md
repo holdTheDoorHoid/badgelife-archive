@@ -41,7 +41,7 @@ get_one:
   - free_drop
   where: Given out at the Cyber Saiyan Village at WHY2025 (August 2025).
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/CyberSaiyanIT/why2025-badge/tree/main
   firmware_url: https://github.com/CyberSaiyanIT/why2025-badge/tree/main
   eda_tool: null
@@ -51,13 +51,13 @@ links:
   kind: repo
 images:
 - file: assets/images/badges/why-2025/cyber-saiyan-why2025-badge-dragon-sphere/cb1481b17a.png
-  source: "https://github.com/CyberSaiyanIT/why2025-badge/tree/main"
-  credit: "Cyber Saiyan community"
-  caption: "WHY2025 badge, front view"
+  source: https://github.com/CyberSaiyanIT/why2025-badge/tree/main
+  credit: Cyber Saiyan community
+  caption: WHY2025 badge, front view
 - file: assets/images/badges/why-2025/cyber-saiyan-why2025-badge-dragon-sphere/4a7de8361d.png
-  source: "https://github.com/CyberSaiyanIT/why2025-badge/tree/main"
-  credit: "Cyber Saiyan community"
-  caption: "WHY2025 badge, rear view"
+  source: https://github.com/CyberSaiyanIT/why2025-badge/tree/main
+  credit: Cyber Saiyan community
+  caption: WHY2025 badge, rear view
 contact: {}
 notes:
 - Independent community badge brought to WHY2025 by the Cyber Saiyan group, dragon-sphere themed and built on an ESP32-C3 with a 2.8in TFT, BLE badge-radar, and Wi-Fi; an evolution of their earlier RomHack Camp 2022 badge, later re-adapted for EMF Camp 2026. Found by the event-year sweep, task dutch-camps.
@@ -78,8 +78,14 @@ research:
   status: researched
   confidence: high
   last_checked: '2026-09-08'
-  notes: 'Repo default branch now shows a later EMF Camp 2026 revision of the same board (readme updated in place); the "main" branch still holds the original WHY2025-specific README used for this entry, confirming it was made for WHY2025 (Aug 2025), 200 made, free giveaway at the Cyber Saiyan Village. Price was not stated anywhere. No mention found of it being an evolution of a RomHack Camp 2022 badge on the maker''s own pages (that claim came from the sweep''s notes and could not be independently confirmed, so it is kept only as sweep provenance, not asserted as fact in the body).'
-last_modified_date: '2026-09-08'
+  notes: Repo default branch now shows a later EMF Camp 2026 revision of the same board (readme updated in place); the "main" branch still holds the original WHY2025-specific README used for this entry, confirming it was made for WHY2025 (Aug 2025), 200 made, free giveaway at the Cyber Saiyan Village. Price was not stated anywhere. No mention found of it being an evolution of a RomHack Camp 2022 badge on the maker's own pages (that claim came from the sweep's notes and could not be independently confirmed, so it is kept only as sweep provenance, not asserted as fact in the body).
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/why-2025/cyber-saiyan-why2025-badge-dragon-sphere.glb
+  method: kicad
+  source_file: hardware/dragon_4L_R02/dragon_4L_R02.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 462624
 ---
 
 The Cyber Saiyan community, an Italian hacker collective, brought this independent badge to WHY2025 in August 2025 as a giveaway at their Cyber Saiyan Village. It is styled after the dragon spheres from Dragon Ball, built around an ESP32-C3 with a 2.8" color TFT (ST7789 controller) and seven addressable WS2812B RGB LEDs on the front, plus Wi-Fi and Bluetooth 5 LE.

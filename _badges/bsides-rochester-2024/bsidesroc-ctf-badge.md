@@ -27,7 +27,7 @@ tech:
   leds:
     count: null
     type: reverse-mount
-    note: 'Reverse-mount LEDs arranged in a flower-petal cutout (red) plus a separate RGB LED in a gear-shaped cutout; LEDs are solder-it-yourself and unlock progressively as CTF flags are solved.'
+    note: Reverse-mount LEDs arranged in a flower-petal cutout (red) plus a separate RGB LED in a gear-shaped cutout; LEDs are solder-it-yourself and unlock progressively as CTF flags are solved.
   display: null
   connectivity:
   - usb
@@ -55,18 +55,19 @@ links:
 - label: BSidesROC BadgeCTF Hints
   url: https://hackerware.io/bsidesrochints
   kind: website
-- label: Hackerwares - #BadgeLife
+- label: Hackerwares -
   url: https://www.hackerwares.com/index.html
   kind: website
+  archived: https://web.archive.org/web/20260217150813/https://hackerwares.com/index.html
 images:
 - file: assets/images/badges/bsides-rochester-2024/bsidesroc-ctf-badge/d7a27c77cf.jpg
-  source: "https://hackerware.io/bsidesroc"
-  credit: "Hackerwares"
-  caption: "BSidesROC CTF Badge: black PCB with a red-LED flower cutout and a gear-shaped RGB LED cutout, shown next to the badge's serial CTF terminal"
+  source: https://hackerware.io/bsidesroc
+  credit: Hackerwares
+  caption: 'BSidesROC CTF Badge: black PCB with a red-LED flower cutout and a gear-shaped RGB LED cutout, shown next to the badge''s serial CTF terminal'
 contact: {}
 notes:
-- 'Sweep found the item via the maker''s CTF instructions page; entry originally listed the maker as "Hackerware(s)" — the site''s own copyright line and companion site read "Hackerwares."'
-- 'Site copyright is dated 2024 and the CTF flag text reads "bsides-roc-n-roll"; exact hardware specs (MCU, LED count, price, quantity, open-source status) are not published anywhere on the maker''s pages.'
+- Sweep found the item via the maker's CTF instructions page; entry originally listed the maker as "Hackerware(s)" — the site's own copyright line and companion site read "Hackerwares."
+- Site copyright is dated 2024 and the CTF flag text reads "bsides-roc-n-roll"; exact hardware specs (MCU, LED count, price, quantity, open-source status) are not published anywhere on the maker's pages.
 status: released
 sources:
 - kind: url
@@ -83,12 +84,12 @@ sources:
   url: https://hackerware.io/bsidesrochints
   title: BSidesROC BadgeCTF Hints
   accessed: '2026-09-10'
-  note: 'Hints page confirms a multi-level CTF including a Morse-code-decoding step; page copyright reads "Hackerwares 2024".'
+  note: Hints page confirms a multi-level CTF including a Morse-code-decoding step; page copyright reads "Hackerwares 2024".
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-10'
-  notes: 'Maker''s own pages confirm the badge exists, its event/year, and its CTF mechanics; photo (saved) confirms physical appearance (black PCB, flower-shaped red-LED cutout, gear-shaped RGB LED cutout, gold silkscreen). Could not find MCU, LED count/part number, price, quantity made, availability, or open-source/design-file status on any page — left empty rather than guessed. No separate Hackaday, Tindie, or GitHub listing found for this specific badge.'
+  notes: Maker's own pages confirm the badge exists, its event/year, and its CTF mechanics; photo (saved) confirms physical appearance (black PCB, flower-shaped red-LED cutout, gear-shaped RGB LED cutout, gold silkscreen). Could not find MCU, LED count/part number, price, quantity made, availability, or open-source/design-file status on any page — left empty rather than guessed. No separate Hackaday, Tindie, or GitHub listing found for this specific badge.
 last_modified_date: '2026-09-10'
 ---
 

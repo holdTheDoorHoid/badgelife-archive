@@ -55,23 +55,28 @@ links:
 - label: www.youtube.com/watch?v=Aaj1mk2d6ak
   url: https://www.youtube.com/watch?v=Aaj1mk2d6ak
   kind: video
+  archived: https://web.archive.org/web/20250919094539/https://www.youtube.com/watch?v=Aaj1mk2d6ak
 images:
 - file: assets/images/badges/bsides-san-diego-2024/bsides-badge-2024-somerset-recon/f86208f12d.jpg
   source: https://github.com/Somerset-Recon/bsides-badge-2024
   credit: Somerset Recon
   caption: Front of the BSides San Diego 2024 badge
+  archived: https://web.archive.org/web/20260907104727/https://github.com/Somerset-Recon/bsides-badge-2024
 - file: assets/images/badges/bsides-san-diego-2024/bsides-badge-2024-somerset-recon/7c24076c42.jpg
   source: https://github.com/Somerset-Recon/bsides-badge-2024
   credit: Somerset Recon
   caption: Back of the BSides San Diego 2024 badge
+  archived: https://web.archive.org/web/20260907104727/https://github.com/Somerset-Recon/bsides-badge-2024
 - file: assets/images/badges/bsides-san-diego-2024/bsides-badge-2024-somerset-recon/f86208f12d.jpg
   source: https://github.com/Somerset-Recon/bsides-badge-2024
   credit: Somerset Recon
   caption: Front of the BSides San Diego 2024 badge PCB
+  archived: https://web.archive.org/web/20260907104727/https://github.com/Somerset-Recon/bsides-badge-2024
 - file: assets/images/badges/bsides-san-diego-2024/bsides-badge-2024-somerset-recon/7c24076c42.jpg
   source: https://github.com/Somerset-Recon/bsides-badge-2024
   credit: Somerset Recon
   caption: Back of the BSides San Diego 2024 badge PCB
+  archived: https://web.archive.org/web/20260907104727/https://github.com/Somerset-Recon/bsides-badge-2024
 contact: {}
 notes:
 - 'The event-year sweep filed this under BSides Orlando 2024, but the linked video ("Badge Life: Making of the BSides 2024 Badge From Start to Finish," Somerset Recon) and the badge''s own GitHub README both identify it as the BSides San Diego 2024 badge, distributed to ~400 attendees there, not an Orlando badge. Event corrected accordingly. This appears to duplicate the existing entry bsides-san-diego-2024-bsides-badge-2024-somerset-recon, which already documents this same Somerset Recon badge; no evidence of a distinct BSides Orlando 2024 electronic badge was found in this pass.'
@@ -93,6 +98,7 @@ sources:
   title: 'Badge Life: Making of the BSides 2024 Badge From Start to Finish'
   accessed: '2026-09-10'
   note: Talk description names Somerset Recon and a 400-attendee conference; identifies the badge as BSides San Diego 2024, not Orlando.
+  archived: https://web.archive.org/web/20250919094539/https://www.youtube.com/watch?v=Aaj1mk2d6ak
 research:
   status: verified
   confidence: high

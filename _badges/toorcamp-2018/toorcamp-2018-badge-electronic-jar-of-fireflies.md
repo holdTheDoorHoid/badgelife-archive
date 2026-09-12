@@ -41,7 +41,7 @@ get_one:
   - kit
   where: Distributed as a self-assembly kit at ToorCamp 2018, built at soldering stations at the event and mounted inside a standard small (e.g. 4 oz Ball) canning jar.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/greatscottgadgets/toorcamp2018badge
   firmware_url: https://github.com/greatscottgadgets/toorcamp2018badge
   eda_tool: null
@@ -56,13 +56,13 @@ links:
   kind: website
 images:
 - file: assets/images/badges/toorcamp-2018/toorcamp-2018-badge-electronic-jar-of-fireflies/a01b809db3.jpg
-  source: "https://greatscottgadgets.com/toorcamp2018badge/"
-  credit: "Great Scott Gadgets"
-  caption: "Assembled badge installed in a canning jar, the finished 'jar of fireflies'"
+  source: https://greatscottgadgets.com/toorcamp2018badge/
+  credit: Great Scott Gadgets
+  caption: Assembled badge installed in a canning jar, the finished 'jar of fireflies'
 - file: assets/images/badges/toorcamp-2018/toorcamp-2018-badge-electronic-jar-of-fireflies/d232474e5f.jpg
-  source: "https://greatscottgadgets.com/toorcamp2018badge/"
-  credit: "Great Scott Gadgets"
-  caption: "Assembled PCB with the six green through-hole LEDs installed"
+  source: https://greatscottgadgets.com/toorcamp2018badge/
+  credit: Great Scott Gadgets
+  caption: Assembled PCB with the six green through-hole LEDs installed
 contact: {}
 notes:
 - Official ToorCamp 2018 badge, described by its makers as an electronic jar of fireflies, with hardware and firmware released on GitHub. Found by the event-year sweep, task con-toorcon.
@@ -83,7 +83,13 @@ research:
   confidence: high
   last_checked: '2026-09-08'
   notes: Repository and GitHub metadata confirm license (BSD-3-Clause) and archived (read-only) status. Price and quantity made were not stated on either the repo or the maker's project page, so those fields are left empty. No storefront or resale listing found; treated as not_released rather than sold_out since it was originally a free/included con badge, not a store item.
-last_modified_date: '2026-09-08'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/toorcamp-2018/toorcamp-2018-badge-electronic-jar-of-fireflies.glb
+  method: kicad
+  source_file: hardware/jig/toorcamp2018jig.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 423640
 ---
 
 The ToorCamp 2018 badge is a learn-to-solder kit made by Great Scott Gadgets for the 2018 ToorCamp gathering. Attendees assembled it themselves at soldering stations, populating an MSP430G2211 microcontroller, six green 3mm LEDs, and a CR2032 coin-cell holder onto a small PCB, then dropped the finished board into a standard canning jar (about the size of a 4 oz Ball jar). The six LEDs fire in a randomized, staggered pattern meant to mimic fireflies glowing inside the jar, giving the badge its name.

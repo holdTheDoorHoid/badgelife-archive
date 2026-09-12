@@ -3114,5 +3114,106 @@
   "bytes": 30192,
   "tried": [],
   "src": "badges/xHainLogo/xHainLogo.kicad_pcb"
+ },
+ "supercon-2025-2025-hackaday-superconference-communicator-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 804792,
+  "tried": [],
+  "src": "hardware/communicator_pcb/communicator_pcb.kicad_pcb"
+ },
+ "supercon-2025-communicator-badge-full-rgb-keyboard": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 525920,
+  "tried": [],
+  "src": "kicad_communicator_pcb-front_rgb_unz/front_pcb.kicad_pcb"
+ },
+ "supercon-2025-saofinity-an-sao-display-solution-with-options": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 158160,
+  "tried": [],
+  "src": "Electronic Design/SAOfinity_V1.0 Design Files KiCAD 8/SAOfinity.kicad_pcb"
+ },
+ "thotcon-2013-thotcon-0x4-badge": {
+  "status": "failed",
+  "tried": []
+ },
+ "thotcon-2015-thotcon-0x6-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 50144,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "tc0x6proto1.brd"
+ },
+ "thotcon-2023-thotcon-0xc-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 325836,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "tc0xC_prod.brd"
+ },
+ "thotcon-2025-thotcon-0xd-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 257756,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "0xD_protov1_v19.brd"
+ },
+ "tiaracon-2016-tiaracon-2016-badge": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 81200,
+  "tried": [
+   "eagle->kicad ok"
+  ],
+  "src": "tiaracon.brd"
+ },
+ "toorcamp-2018-toorcamp-2018-badge-electronic-jar-of-fireflies": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 423640,
+  "tried": [],
+  "src": "hardware/jig/toorcamp2018jig.kicad_pcb"
+ },
+ "toorcon-2011-toorcon-13-spectrum-analyzer-badge": {
+  "status": "failed",
+  "tried": []
+ },
+ "toorcon-2011-ubertooth-small-large-hacking-kit-badge-add-ons": {
+  "status": "failed",
+  "tried": []
+ },
+ "toorcon-2012-toorcon-14-rfcat-badge": {
+  "status": "failed",
+  "tried": []
+ },
+ "why-2025-cyber-saiyan-why2025-badge-dragon-sphere": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 462624,
+  "tried": [],
+  "src": "hardware/dragon_4L_R02/dragon_4L_R02.kicad_pcb"
+ },
+ "why-2025-why2025-flipper-blackhat-cyberdeck-badge-conversion": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 1915888,
+  "tried": [],
+  "src": "ee/integrated/blackpants.kicad_pcb"
+ },
+ "why-2025-why2025-sao-adapter": {
+  "status": "ok",
+  "method": "kicad",
+  "bytes": 198760,
+  "tried": [],
+  "src": "WHY2025-SAOadapter.kicad_pcb"
  }
 }

@@ -39,9 +39,9 @@ get_one:
   distribution:
   - purchase
   - kit
-  where: 'Sold as a soldering kit ("SAO Demo Controller V2") on Tindie by Machine Ideas, LLC; listing showed only 1 in stock as of 2026-09-07.'
+  where: Sold as a soldering kit ("SAO Demo Controller V2") on Tindie by Machine Ideas, LLC; listing showed only 1 in stock as of 2026-09-07.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/ageppert/SAOfinity
   firmware_url: https://github.com/ageppert/SAOfinity
   eda_tool: null
@@ -54,13 +54,13 @@ links:
   kind: store
 images:
 - file: assets/images/badges/supercon-2025/saofinity-an-sao-display-solution-with-options/c9dede2126.jpg
-  source: "https://github.com/ageppert/SAOfinity"
-  credit: "Andy Geppert"
-  caption: "SAOfinity SAO Demo Controller, front"
+  source: https://github.com/ageppert/SAOfinity
+  credit: Andy Geppert
+  caption: SAOfinity SAO Demo Controller, front
 - file: assets/images/badges/supercon-2025/saofinity-an-sao-display-solution-with-options/21b90c6926.jpg
-  source: "https://github.com/ageppert/SAOfinity"
-  credit: "Andy Geppert"
-  caption: "SAOfinity SAO Demo Controller, back"
+  source: https://github.com/ageppert/SAOfinity
+  credit: Andy Geppert
+  caption: SAOfinity SAO Demo Controller, back
 contact: {}
 notes:
 - Spotted by a research agent while working on a neighbouring entry (run 2).
@@ -76,20 +76,26 @@ sources:
   url: https://github.com/ageppert/SAOfinity
   title: ageppert/SAOfinity GitHub repository (README, Images folder)
   accessed: '2026-09-07'
-  note: 'Confirms V1.0 "first draft" shared at Hackaday Supercon.9 (2025); repo folders for electronic design, firmware, mechanical, and manufacturing files; project photos.'
+  note: Confirms V1.0 "first draft" shared at Hackaday Supercon.9 (2025); repo folders for electronic design, firmware, mechanical, and manufacturing files; project photos.
 - kind: url
   url: https://www.tindie.com/products/36033/
   title: SAO Demo Controller V2 (kit) - Tindie listing by Machine Ideas, LLC
   accessed: '2026-09-07'
-  note: 'Price ($19), RP2040-Zero MCU, built-in RGB LED, two QWIIC sockets, SAO shrouded header + socket, USB-C; only 1 in stock at time of check.'
+  note: Price ($19), RP2040-Zero MCU, built-in RGB LED, two QWIIC sockets, SAO shrouded header + socket, USB-C; only 1 in stock at time of check.
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'Maker Andy Geppert''s GitHub repo names V1.0 as a "first draft" shared at Hackaday Supercon.9 (2025); the Tindie store lists a "SAO Demo Controller V2" kit, so the hardware has since revised beyond V1 — the two are treated as the same ongoing project here. No page states total quantity made. Not confirmed whether this exact item was distributed at Supercon itself versus only shared/discussed there.'
-last_modified_date: '2026-09-07'
+  notes: Maker Andy Geppert's GitHub repo names V1.0 as a "first draft" shared at Hackaday Supercon.9 (2025); the Tindie store lists a "SAO Demo Controller V2" kit, so the hardware has since revised beyond V1 — the two are treated as the same ongoing project here. No page states total quantity made. Not confirmed whether this exact item was distributed at Supercon itself versus only shared/discussed there.
+last_modified_date: '2026-09-10'
 redirect_from:
 - /badges/other/saofinity-an-sao-display-solution-with-options/
+model:
+  file: assets/models/supercon-2025/saofinity-an-sao-display-solution-with-options.glb
+  method: kicad
+  source_file: Electronic Design/SAOfinity_V1.0 Design Files KiCAD 8/SAOfinity.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 158160
 ---
 
 SAOfinity is Andy Geppert's open-source "SAO Demo Controller," a small RP2040-Zero-powered board built to let SAO (Simple/Shiny Add-On) designers test and demo an I2C-based SAO on the bench without needing a full host badge. It exposes a shrouded 2x3 SAO header and a bare SAO socket, plus two QWIIC/I2C sockets for daisy-chaining sensors or other add-ons, and uses the RP2040-Zero's USB-C port for both power and drag-and-drop firmware flashing. Reset and boot buttons and the module's built-in RGB LED round out the board.

@@ -37,7 +37,7 @@ get_one:
   distribution: []
   where: ''
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://hackaday.io/project/205750-communicator-badge-full-rgb-keyboard
   firmware_url: null
   eda_tool: KiCad
@@ -48,17 +48,17 @@ links:
   kind: hackaday
 images:
 - file: assets/images/badges/supercon-2025/communicator-badge-full-rgb-keyboard/2d5ae29235.jpg
-  source: "https://hackaday.io/project/205750-communicator-badge-full-rgb-keyboard"
-  credit: "makeTVee"
-  caption: "The RGB keyboard PCB with 73 addressable SK6805-EC4004 side-emitting LEDs, one per key"
+  source: https://hackaday.io/project/205750-communicator-badge-full-rgb-keyboard
+  credit: makeTVee
+  caption: The RGB keyboard PCB with 73 addressable SK6805-EC4004 side-emitting LEDs, one per key
 - file: assets/images/badges/supercon-2025/communicator-badge-full-rgb-keyboard/a5cee73093.jpg
-  source: "https://hackaday.io/project/205750-communicator-badge-full-rgb-keyboard"
-  credit: "makeTVee"
-  caption: "Resin-printed semi-transparent keycaps with hand-marked letters installed on the badge"
+  source: https://hackaday.io/project/205750-communicator-badge-full-rgb-keyboard
+  credit: makeTVee
+  caption: Resin-printed semi-transparent keycaps with hand-marked letters installed on the badge
 contact: {}
 notes:
 - A custom front PCB with 73 addressable side-emitting LEDs (one per key) plus a resin-printed semi-transparent keyboard, replacing the stock keyboard on the 2025 Supercon Communicator Badge. Found by the event-year sweep, task supercon-2025.
-- 'Maker''s own project title matches the sweep''s wording exactly; no correction needed.'
+- Maker's own project title matches the sweep's wording exactly; no correction needed.
 status: listed
 sources:
 - kind: url
@@ -76,7 +76,13 @@ research:
   confidence: high
   last_checked: '2026-09-08'
   notes: Documented as a one-off prototype mod on the maker's own Hackaday.io project page; no price, quantity, or distribution info given since it was never sold or distributed, only shared as an open-source build. No separate storefront or social posts found in the budget allotted.
-last_modified_date: '2026-09-08'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/supercon-2025/communicator-badge-full-rgb-keyboard.glb
+  method: kicad
+  source_file: kicad_communicator_pcb-front_rgb_unz/front_pcb.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 525920
 ---
 
 A custom keyboard mod for the 2025 Hackaday Supercon Communicator Badge, built by maker makeTVee. It replaces the stock keyboard with a custom front PCB carrying 73 addressable SK6805-EC4004 side-emitting LEDs, one under every key, wired into the host badge's own MCU and driven over MicroPython. The keycaps themselves are resin-printed in a semi-transparent material with hand-marked letters, so each key glows individually.

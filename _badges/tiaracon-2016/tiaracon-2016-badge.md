@@ -27,14 +27,14 @@ tech:
   battery: CR2032
   sao_version: null
 get_one:
-  price: "~$2 in bulk (BOM cost)"
+  price: ~$2 in bulk (BOM cost)
   price_usd: 2
   quantity: ''
   availability: unknown
   distribution: []
   where: ''
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/securelyfitz/tiaracon2016/tree/master/hardware
   firmware_url: https://github.com/securelyfitz/tiaracon2016/tree/master/software
   eda_tool: Eagle
@@ -57,15 +57,21 @@ sources:
   url: https://raw.githubusercontent.com/securelyfitz/tiaracon2016/master/README.md
   title: securelyfitz/tiaracon2016 README
   accessed: '2026-09-07'
-  note: 'Confirmed event (TiaraCon 2016, tiaracon.org), MCU (ATtiny85), 6 charlieplexed LEDs, capacitive mode button, CR2032 power, ~$2 BOM cost, and that it derives from an earlier "fireflies" project with custom pony artwork.'
+  note: Confirmed event (TiaraCon 2016, tiaracon.org), MCU (ATtiny85), 6 charlieplexed LEDs, capacitive mode button, CR2032 power, ~$2 BOM cost, and that it derives from an earlier "fireflies" project with custom pony artwork.
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
   notes: No photo of the assembled badge was found in the repo (only Eagle .brd/.lbr files, gerbers, and a JarOfFireflies.pdf reference doc) or elsewhere online, so no images could be saved. Total production quantity and current availability are not stated anywhere found.
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-10'
 redirect_from:
 - /badges/other/tiaracon-2016-badge/
+model:
+  file: assets/models/tiaracon-2016/tiaracon-2016-badge.glb
+  method: kicad
+  source_file: tiaracon.brd
+  generated: '2026-09-10'
+  bytes: 81200
 ---
 
 The TiaraCon 2016 badge is a simple through-hole soldering-project badge made by securelyfitz for TiaraCon, a small event held in 2016 (tiaracon.org). It runs on an ATtiny85 and drives six charlieplexed LEDs from just three I/O pins, with a capacitive-touch button used to cycle through LED animation modes. Power comes from a coin-cell (CR2032) holder on the board.

@@ -123,11 +123,17 @@ research:
   confidence: high
   last_checked: '2026-09-07'
   notes: 'Event corrected from supercon-2026 to supercon-2025: the badge was made for and distributed at Hackaday Supercon 9, held in 2025, per both the GitHub repo and the Hackaday.com announcement articles. LED count/type and SAO header presence are not stated in the sources checked and are left empty. Price is not applicable since it was given free to attendees rather than sold; quantity (~500) is stated as approximate in the Hackaday article. Merged with duplicate entry ''Hackaday Supercon 2025 Communicator Badge'' (supercon-2025-hackaday-supercon-2025-communicator-badge). Merged with duplicate entry ''Supercon 2025 Communicator Badge'' (supercon-2025-supercon-2025-communicator-badge).'
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-10'
 redirect_from:
 - /badges/supercon-2026/2025-hackaday-superconference-communicator-badge/
 - /badges/supercon-2025/hackaday-supercon-2025-communicator-badge/
 - /badges/supercon-2025/supercon-2025-communicator-badge/
+model:
+  file: assets/models/supercon-2025/2025-hackaday-superconference-communicator-badge.glb
+  method: kicad
+  source_file: hardware/communicator_pcb/communicator_pcb.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 804792
 ---
 
 The 2025 Hackaday Superconference Communicator Badge was the official badge given to attendees of Hackaday Supercon 9, held in Pasadena, CA in 2025. Rather than a typical single-purpose blinky badge, it was built as a small mesh-networking communicator: an ESP32-S3 drives a custom 2.79" IPS LCD (168x428, NV3007 controller) and an SX1262 LoRa radio, letting attendees join LoRa mesh chat channels by picking a topic on a built-in numpad — described by its creators as "IRC, but LoRa." It also carries WiFi and Bluetooth, and runs its interface in MicroPython with LVGL, so attendees could read and modify the running code on the badge itself.

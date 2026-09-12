@@ -128,7 +128,13 @@ research:
   confidence: high
   last_checked: '2026-09-07'
   notes: 'Core facts confirmed by the maker''s own video, GitHub repo, and shop listing. Not found/left empty: LED info (none mentioned by any source), exact battery spec, quantity made, and price in USD (only $150 CAD is stated). The Hackaday article and community sheet used "Flipper Blackhat Cyberdeck" as a descriptive title; the maker calls the carrier board itself "Blackpants," and titled the entry accordingly while keeping the original phrase in the id/slug.'
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-10'
+model:
+  file: assets/models/why-2025/why2025-flipper-blackhat-cyberdeck-badge-conversion.glb
+  method: kicad
+  source_file: ee/integrated/blackpants.kicad_pcb
+  generated: '2026-09-10'
+  bytes: 1915888
 ---
 
 Blackpants is a handheld Linux computer built by Rootkit Labs by forking the WHY2025 conference badge — which shipped with an ESP32-P4 and a SolderParty mechanical keyboard — into a new carrier board. Instead of hosting the original badge firmware, Blackpants pairs with the maker's earlier project, the Flipper Blackhat (a WiFi-pentesting Linux addon originally built for the Flipper Zero), giving that addon a proper keyboard, a 480x480 LCD (matching the "Edgar Case 2.0" screen), and two extra USB-A ports. The maker built it after repeated comments that the Flipper Zero was "the tail wagging the dog" once a screen was attached to the Blackhat addon — Blackpants is the response, a full standalone Linux handheld with the Flipper Zero relegated to an optional attachment.
