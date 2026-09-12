@@ -65,10 +65,12 @@ images:
   source: https://hackaday.io/project/14756-the-ides-of-defcon-an-unofficial-electronic-badge
   credit: John Adams / Team Ides
   caption: The Ides of DEFCON badge, DC25 (2017)
+  archived: https://web.archive.org/web/20260708173713/https://hackaday.io/project/14756-the-ides-of-defcon-an-unofficial-electronic-badge
 - file: assets/images/badges/dc25/the-ides-of-defcon-an-unofficial-electronic-badge/99a32247b6.jpg
   source: https://hackaday.io/project/14756-the-ides-of-defcon-an-unofficial-electronic-badge
   credit: John Adams / Team Ides
   caption: The Ides of DEFCON badge close-up
+  archived: https://web.archive.org/web/20260708173713/https://hackaday.io/project/14756-the-ides-of-defcon-an-unofficial-electronic-badge
 contact: {}
 notes: []
 status: released
@@ -84,6 +86,7 @@ sources:
   title: 'The ides of DEFCON: An Unofficial Electronic Badge (project log)'
   accessed: '2026-09-07'
   note: 'Full project log: confirms maker (John Adams / "netik"), MCU (Freescale MKW01Z128 / ChibiOS-Orchard platform), 320x240 TFT + SD card, 12x WS2812 LEDs, sub-1GHz radio, Kickstarter presale sold out with production run around 225-300 units, GitHub links for hardware and firmware, and a follow-up DC27 (2019) badge project.'
+  archived: https://web.archive.org/web/20260708173713/https://hackaday.io/project/14756-the-ides-of-defcon-an-unofficial-electronic-badge
 - kind: url
   url: https://github.com/netik/dc25_spqr_badge
   title: netik/dc25_spqr_badge

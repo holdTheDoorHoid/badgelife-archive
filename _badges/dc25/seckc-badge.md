@@ -52,12 +52,14 @@ links:
 - label: hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25
   url: https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/
   kind: article
+  archived: https://web.archive.org/web/20260907165055/https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/
 - label: github.com/SecKC/Badge-DC25
   url: https://github.com/SecKC/Badge-DC25
   kind: repo
 - label: docs.badgepirates.com catalog
   url: https://docs.badgepirates.com/catalog/
   kind: doc
+  archived: https://web.archive.org/web/20260910225903/https://docs.badgepirates.com/catalog/#help-us-fill-the-gaps
 images:
 - file: assets/images/badges/dc25/seckc-badge/b1f77748ea.jpg
   source: https://github.com/SecKC/Badge-DC25
@@ -71,10 +73,12 @@ images:
   source: https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/
   credit: Hackaday
   caption: SecKC devboard badge, front
+  archived: https://web.archive.org/web/20260907165055/https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/
 - file: assets/images/badges/dc25/seckc-badge/14699c1bea.jpg
   source: https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/
   credit: Hackaday
   caption: SecKC devboard badge, back
+  archived: https://web.archive.org/web/20260907165055/https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/
 contact: {}
 notes:
 - NRF-module devboard-style badge (60 units) brought to DEF CON 25 by the Kansas City SecKC group. Found by the event-year sweep, task dc25-saos.
@@ -89,6 +93,7 @@ sources:
   title: SecKC Badge
   accessed: '2026-09-07'
   note: 'Found by the archive''s discovery sweep (angle: sweep:dc25-saos); event read as ''dc25''.'
+  archived: https://web.archive.org/web/20260907165055/https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/
 - kind: url
   url: https://github.com/SecKC/Badge-DC25
   title: 'SecKC/Badge-DC25: The SecKC Unofficial DEF CON 25 Badge'
@@ -99,6 +104,7 @@ sources:
   title: BadgePirates Documents - Catalog
   accessed: '2026-09-08'
   note: Confirms this as the earliest public DefCon SecKC badge entry (2017, DC25); no additional price/quantity detail.
+  archived: https://web.archive.org/web/20260910225903/https://docs.badgepirates.com/catalog/#help-us-fill-the-gaps
 research:
   status: researched
   confidence: medium

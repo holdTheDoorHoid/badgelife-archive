@@ -10,7 +10,7 @@ event: dc25
 year: 2017
 makers:
 - name: SecKC (Kansas City infosec group)
-summary: 'An edge-lit acrylic fallback badge SecKC brought to DEF CON 25 when their main circuit-board badge could not be manufactured in enough quantity in time.'
+summary: An edge-lit acrylic fallback badge SecKC brought to DEF CON 25 when their main circuit-board badge could not be manufactured in enough quantity in time.
 functions: ''
 look:
   colors:
@@ -32,7 +32,7 @@ get_one:
   availability: unknown
   distribution:
   - free_drop
-  where: 'Handed out at DEF CON 25 by SecKC members as a substitute for attendees who could not get one of the group''s circuit-board badges.'
+  where: Handed out at DEF CON 25 by SecKC members as a substitute for attendees who could not get one of the group's circuit-board badges.
 make_your_own:
   open_source: null
   hardware_url: null
@@ -42,7 +42,8 @@ links:
 - label: hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25
   url: https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/
   kind: article
-- label: 'github.com/SecKC/Badge-DC25 (SecKC''s DC25 devboard badge, not this acrylic version)'
+  archived: https://web.archive.org/web/20260907165055/https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/
+- label: github.com/SecKC/Badge-DC25 (SecKC's DC25 devboard badge, not this acrylic version)
   url: https://github.com/SecKC/Badge-DC25
   kind: repo
 images: []
@@ -57,16 +58,18 @@ sources:
   title: SecKC Acrylic Badge
   accessed: '2026-09-07'
   note: 'Found by the archive''s discovery sweep (angle: sweep:dc25-badges); event read as ''dc25''.'
+  archived: https://web.archive.org/web/20260907165055/https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/
 - kind: url
   url: https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/
   title: All The Hardware Badges Of DEF CON 25
   accessed: '2026-09-08'
   note: 'Confirms the acrylic badge as a distinct "punt" item: "There was demand for more but they couldn''t get the boards fast enough so they made the acrylic badges." Also describes the main PCB badge ("based it around an NRF module from Sparkfun," preorder of 50, 60 built) which belongs to the separate dc25-seckc-badge entry, not this one; no OLED or ESP32 is mentioned in the article.'
+  archived: https://web.archive.org/web/20260907165055/https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/
 - kind: url
   url: https://github.com/SecKC/Badge-DC25
   title: 'SecKC/Badge-DC25: The SecKC Unofficial DEF CON 25 Badge (archived repo)'
   accessed: '2026-09-08'
-  note: 'This is SecKC''s repo for the main PCB devboard badge (BadgeCode/Files/Images folders; points to badgepirates.com), not the acrylic fallback badge. No separate repo or design files were found for the acrylic version.'
+  note: This is SecKC's repo for the main PCB devboard badge (BadgeCode/Files/Images folders; points to badgepirates.com), not the acrylic fallback badge. No separate repo or design files were found for the acrylic version.
 research:
   status: verified
   confidence: low

@@ -47,15 +47,18 @@ links:
 - label: 'Hackaday: All The Hardware Badges Of DEF CON 25 – Team Bazooka VFD Badge'
   url: https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/team-bazooka-vfd-badge/
   kind: article
+  archived: https://web.archive.org/web/20260421233540/https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/team-bazooka-vfd-badge/
 images:
 - file: assets/images/badges/dc25/team-bazooka-vfd-badge-dc25/6800f58f3a.jpg
   source: https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/team-bazooka-vfd-badge/
   credit: Hackaday / Mike Szczys
   caption: Front of the Team Bazooka VFD badge, showing the vacuum fluorescent display
+  archived: https://web.archive.org/web/20260421233540/https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/team-bazooka-vfd-badge/
 - file: assets/images/badges/dc25/team-bazooka-vfd-badge-dc25/4db37d32e3.jpg
   source: https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/team-bazooka-vfd-badge-back-shows-18650/
   credit: Hackaday / Mike Szczys
   caption: Back of the badge, showing the 18650 cell battery holder
+  archived: https://web.archive.org/web/20260521165209/https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/team-bazooka-vfd-badge-back-shows-18650/
 contact: {}
 notes:
 - Sweep's original note called it "ultra-rare (reportedly one unit)... built for DEF CON 25 around an ATmega and 18650 cell"; that line is now confirmed by Hackaday's DEF CON 25 badge roundup, which independently describes it as "an ultra-rare badge -- so far there's only one."
@@ -76,6 +79,7 @@ sources:
   title: All The Hardware Badges Of DEF CON 25 – Team Bazooka VFD Badge
   accessed: '2026-09-10'
   note: Confirms the badge is real (not just a search snippet), describes it as the only DEF CON 25 badge with a vacuum fluorescent display, HD44780-compatible, ATmega-based, 18650-powered, and states only one unit existed as of the article.
+  archived: https://web.archive.org/web/20260421233540/https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/team-bazooka-vfd-badge/
 research:
   status: verified
   confidence: medium

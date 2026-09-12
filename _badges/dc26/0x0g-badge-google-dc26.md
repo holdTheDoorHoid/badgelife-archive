@@ -51,6 +51,7 @@ images:
   source: https://github.com/google/0x0g-2018-badge
   credit: Google
   caption: Poker-chip-shaped PCB outline graphic from the badge design files
+  archived: https://web.archive.org/web/20260907113848/https://github.com/google/0x0g-2018-badge
 contact: {}
 notes:
 - casino-chip (poker chip) design, round PCB

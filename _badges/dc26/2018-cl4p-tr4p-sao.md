@@ -75,6 +75,7 @@ sources:
   title: SparX - PCBWay Community member profile
   accessed: '2026-09-07'
   note: Checked maker's PCBWay profile for more projects or context; profile shows no other posts or shared projects.
+  archived: https://web.archive.org/web/20260907114031/https://www.pcbway.com/project/member/?bmbno=F0A1C4EA-6FC9-48
 research:
   status: researched
   confidence: medium

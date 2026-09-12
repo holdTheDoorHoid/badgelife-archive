@@ -61,17 +61,21 @@ links:
 - label: hackaday.com/2017/07/27/building-a-def-con-badge-in-two-weeks
   url: https://hackaday.com/2017/07/27/building-a-def-con-badge-in-two-weeks/
   kind: article
+  archived: https://web.archive.org/web/20260311225351/https://hackaday.com/2017/07/27/building-a-def-con-badge-in-two-weeks/
 - label: hackaday.io/project/26056-tindie-blinky-led-badge
   url: https://hackaday.io/project/26056-tindie-blinky-led-badge
   kind: hackaday
+  archived: https://web.archive.org/web/20260310174810/https://hackaday.io/project/26056-tindie-blinky-led-badge
 - label: hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25
   url: https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/
   kind: website
+  archived: https://web.archive.org/web/20260907165055/https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/
 images:
 - file: assets/images/badges/dc25/tindie-blinky-led-badge-v1/49fe720540.jpg
   source: https://hackaday.io/project/26056-tindie-blinky-led-badge
   credit: Tindie / Hackaday.io project 26056
   caption: Tindie Blinky LED Badge lapel pin with illuminated eyes
+  archived: https://web.archive.org/web/20260310174810/https://hackaday.io/project/26056-tindie-blinky-led-badge
 - file: assets/images/badges/dc25/tindie-blinky-led-badge-v1/42e93741b3.png
   source: https://hackaday.io/project/26056-tindie-blinky-led-badge-v1
   credit: Hackaday.io project 26056
@@ -97,21 +101,25 @@ sources:
   title: Tindie/Hackaday Robodog Head Badge (a.k.a. Blinky LED Badge)
   accessed: '2026-09-07'
   note: 'Found by the archive''s discovery sweep (angle: sweep:dc25-badges); event read as ''dc25''.'
+  archived: https://web.archive.org/web/20260311225351/https://hackaday.com/2017/07/27/building-a-def-con-badge-in-two-weeks/
 - kind: url
   url: https://hackaday.io/project/26056-tindie-blinky-led-badge
   title: Tindie Blinky LED Badge (Hackaday.io project 26056)
   accessed: '2026-09-10'
   note: Maker's own project page; confirms team (Tindie, Benchoff, Jasmine Brackett, Brandon Rexius), LEDs, battery, design files, and production numbers. Re-checked to verify the makers field.
+  archived: https://web.archive.org/web/20260310174810/https://hackaday.io/project/26056-tindie-blinky-led-badge
 - kind: url
   url: https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/
   title: Ohm the Tindie Dog solder-kit badge
   accessed: '2026-09-10'
   note: Reported as an 'other item found' during the stub research pass.
+  archived: https://web.archive.org/web/20260907165055/https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/
 - kind: url
   url: https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/
   title: All The Hardware Badges Of DEF CON 25
   accessed: '2026-09-10'
   note: Confirms the kit's existence, Brian Benchoff as designer (his third DC25 badge), Tindie's Jasmine Brackett and Shulie Tornel distributing it, self-blinking LEDs, coin cell, and custom PCB. No price or chip stated.
+  archived: https://web.archive.org/web/20260907165055/https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/
 research:
   status: researched
   confidence: high

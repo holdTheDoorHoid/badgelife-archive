@@ -55,12 +55,15 @@ links:
 - label: ides.team
   url: https://ides.team/
   kind: website
+  archived: https://web.archive.org/web/20260616091450/https://ides.team/
 - label: dc25spqr.com (badge project page)
   url: https://dc25spqr.com/
   kind: website
+  archived: https://web.archive.org/web/20260613184304/https://dc25spqr.com/
 - label: Hackaday.io project log
   url: https://hackaday.io/project/14756-the-ides-of-defcon-an-unofficial-electronic-badge
   kind: hackaday
+  archived: https://web.archive.org/web/20260708173713/https://hackaday.io/project/14756-the-ides-of-defcon-an-unofficial-electronic-badge
 - label: PCB layout (GitHub)
   url: https://github.com/netik/dc25_spqr_badge
   kind: repo
@@ -78,10 +81,12 @@ images:
   source: https://hackaday.io/project/14756-the-ides-of-defcon-an-unofficial-electronic-badge
   credit: Team Ides / John Adams
   caption: The Ides of Defcon DC25 badge
+  archived: https://web.archive.org/web/20260708173713/https://hackaday.io/project/14756-the-ides-of-defcon-an-unofficial-electronic-badge
 - file: assets/images/badges/dc25/the-ides-of-defcon/281275930c.jpg
   source: https://hackaday.io/project/14756-the-ides-of-defcon-an-unofficial-electronic-badge
   credit: Team Ides / John Adams
   caption: Display module used on the Ides of Defcon badge
+  archived: https://web.archive.org/web/20260708173713/https://hackaday.io/project/14756-the-ides-of-defcon-an-unofficial-electronic-badge
 contact: {}
 status: released
 sources:
@@ -90,16 +95,19 @@ sources:
   title: The Ides of Defcon
   accessed: '2026-09-07'
   note: 'Found by the archive''s discovery sweep (angle: research-run2-spotted); event read as ''dc25''.'
+  archived: https://web.archive.org/web/20260616091450/https://ides.team/
 - kind: url
   url: https://dc25spqr.com/
   title: The Ides of DEF CON
   accessed: '2026-09-07'
   note: 'Maker project page: makers, features, Kickstarter, firmware/hardware repo links, MCU.'
+  archived: https://web.archive.org/web/20260613184304/https://dc25spqr.com/
 - kind: url
   url: https://hackaday.io/project/14756-the-ides-of-defcon-an-unofficial-electronic-badge
   title: 'The Ides of DEFCON: An Unofficial Electronic Badge - Hackaday.io'
   accessed: '2026-09-07'
   note: LED count/type, display, quantity estimate, form factor, badge cover image.
+  archived: https://web.archive.org/web/20260708173713/https://hackaday.io/project/14756-the-ides-of-defcon-an-unofficial-electronic-badge
 - kind: url
   url: https://github.com/netik/dc25_spqr_badge
   title: netik/dc25_spqr_badge (README)

@@ -57,6 +57,7 @@ images:
   source: https://hackaday.com/2017/07/14/badge-from-diamond-age-comes-to-def-con/
   credit: Hackaday / borgel
   caption: The Sympetrum (Dragonfly) badge, DEF CON 25
+  archived: https://web.archive.org/web/20260608021046/https://hackaday.com/2017/07/14/badge-from-diamond-age-comes-to-def-con/
 contact: {}
 status: released
 sources:
@@ -70,6 +71,7 @@ sources:
   title: borgel/sympetrum-v2 (GitHub repo)
   accessed: '2026-09-07'
   note: Confirmed DEF CON 25 (2017) target, MIT license, open-source hardware and firmware, IR-sync behavior.
+  archived: https://web.archive.org/web/20251009013306/https://github.com/borgel/sympetrum-v2/
 - kind: url
   url: https://raw.githubusercontent.com/borgel/sympetrum-v2/master/README.md
   title: sympetrum-v2 README
@@ -85,11 +87,13 @@ sources:
   title: Dragonfly Badge
   accessed: '2026-09-07'
   note: 'Found by the archive''s discovery sweep (angle: sweep:dc25-saos); event read as ''dc25''.'
+  archived: https://web.archive.org/web/20260907165055/https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/
 - kind: url
   url: https://hackaday.com/2017/07/14/badge-from-diamond-age-comes-to-def-con/
   title: Badge From Diamond Age Comes To DEF CON
   accessed: '2026-09-08'
   note: Confirms the badge's origin, the Diamond Age theme, IR-sync behavior, and provides the source photo.
+  archived: https://web.archive.org/web/20260608021046/https://hackaday.com/2017/07/14/badge-from-diamond-age-comes-to-def-con/
 research:
   status: researched
   confidence: high
@@ -109,12 +113,15 @@ links:
 - label: hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25
   url: https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/
   kind: article
+  archived: https://web.archive.org/web/20260907165055/https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/
 - label: 'Hackaday: Badge From Diamond Age Comes To DEF CON'
   url: https://hackaday.com/2017/07/14/badge-from-diamond-age-comes-to-def-con/
   kind: article
+  archived: https://web.archive.org/web/20260608021046/https://hackaday.com/2017/07/14/badge-from-diamond-age-comes-to-def-con/
 - label: borgel/sympetrum-v2 (GitHub)
   url: https://github.com/borgel/sympetrum-v2
   kind: repo
+  archived: https://web.archive.org/web/20251009013306/https://github.com/borgel/sympetrum-v2/
 ---
 
 Sympetrum v2 is a dragonfly-shaped electronic badge built by borgel for DEF CON 25 in 2017, a full rewrite of a hastier version 1 made for DEF CON 24. Ten APA102C RGB LEDs run a continuous color-fade animation driven by an STM32F030K6T6 microcontroller, while an infrared transmitter beacons the badge's internal clock and metadata to nearby badges. Badges that pick up each other's beacons synchronize their clocks and therefore their color patterns: alone, a badge cycles random colors, but a cluster of them tends to converge on shared patterns. The concept is a direct homage to a scene in Neal Stephenson's novel *The Diamond Age*, in which partygoers wear cloisonné dragonfly pins that shift from random flickering into synchrony as a crowd gathers.
