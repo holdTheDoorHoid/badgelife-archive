@@ -71,10 +71,12 @@ images:
   source: https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/
   credit: Hackaday
   caption: Front of the assembled 2017 Crypto and Privacy Village badge
+  archived: https://web.archive.org/web/20260306173057/https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/
 - file: assets/images/badges/dc25/dc25-cpv-badge/7020d24e98.jpg
   source: https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/
   credit: Hackaday
   caption: The badge's matte black gilded presentation box
+  archived: https://web.archive.org/web/20260306173057/https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/
 contact: {}
 notes: []
 status: released

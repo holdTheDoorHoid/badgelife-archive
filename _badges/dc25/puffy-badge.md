@@ -47,15 +47,18 @@ links:
 - label: 'Hackaday: DEF CON Badgelife: The Puffy That Runs Linux'
   url: https://hackaday.com/2017/07/07/def-con-badgelife-the-puffy-that-runs-linux/
   kind: article
+  archived: https://web.archive.org/web/20260520131826/https://hackaday.com/2017/07/07/def-con-badgelife-the-puffy-that-runs-linux/
 images:
-  - file: assets/images/badges/dc25/puffy-badge/61240e5736.jpg
-    source: "https://hackaday.com/2017/07/07/def-con-badgelife-the-puffy-that-runs-linux/"
-    credit: "dorkengine / Hackaday"
-    caption: "Puffy badge PCB with OpenBSD pufferfish artwork"
-  - file: assets/images/badges/dc25/puffy-badge/86424b630c.jpg
-    source: "https://hackaday.com/2017/07/07/def-con-badgelife-the-puffy-that-runs-linux/"
-    credit: "dorkengine / Hackaday"
-    caption: "Puffy badge header photo"
+- file: assets/images/badges/dc25/puffy-badge/61240e5736.jpg
+  source: https://hackaday.com/2017/07/07/def-con-badgelife-the-puffy-that-runs-linux/
+  credit: dorkengine / Hackaday
+  caption: Puffy badge PCB with OpenBSD pufferfish artwork
+  archived: https://web.archive.org/web/20260520131826/https://hackaday.com/2017/07/07/def-con-badgelife-the-puffy-that-runs-linux/
+- file: assets/images/badges/dc25/puffy-badge/86424b630c.jpg
+  source: https://hackaday.com/2017/07/07/def-con-badgelife-the-puffy-that-runs-linux/
+  credit: dorkengine / Hackaday
+  caption: Puffy badge header photo
+  archived: https://web.archive.org/web/20260520131826/https://hackaday.com/2017/07/07/def-con-badgelife-the-puffy-that-runs-linux/
 contact: {}
 notes:
 - Fish-shaped Linux-running badge (40 units, router-chipset SoC) shown at DEF CON 25. Found by the event-year sweep, task dc25-saos.
@@ -72,11 +75,13 @@ sources:
   title: 'DEF CON Badgelife: The Puffy That Runs Linux'
   accessed: '2026-09-08'
   note: Primary source for maker, event, chip, price, quantity, connectivity, and repo link.
+  archived: https://web.archive.org/web/20260520131826/https://hackaday.com/2017/07/07/def-con-badgelife-the-puffy-that-runs-linux/
 research:
   status: verified
   confidence: medium
   last_checked: '2026-09-08'
-  notes: 'Fact-check pass (2026-09-08): re-fetched the Hackaday article and confirmed the original shiftj.is post still fails DNS resolution. Verified maker handle "dorkengine" (Hackaday''s own bracket notation, not an artifact), event/year, VoCore2 chip, wifi, USB port, serial console, GPIO, blinkenlights, $40/40-unit price and quantity, and the exact repo URL text ("has the KiCad files and software available" at gitla.in/darkengine/puffy — note the repo path reads "darkengine", not "dorkengine"; both are the same maker per the article, not a separate person). Corrected make_your_own.open_source from "partial" to "yes": the article states the same repo held both the KiCad (hardware) files and the software together, meeting the guide''s bar for "yes"; hardware_url/firmware_url remain empty since the repo itself is dead. Corrected get_one.availability from "sold_out" to "unknown": the cited article is contemporaneous (published as the maker was about to sell at the con) and never states the run actually sold out; no other source was found confirming final sales status. Removed an invented body detail ("roughly inch-square") describing the VoCore2''s size that was not supported by either cited source. Both saved images were confirmed to be from the cited Hackaday article and both show the actual badge. PCB soldermask color, LED count/type, display, battery, and SAO header presence remain unstated in the sources and are correctly left empty.'
+  notes: 'Fact-check pass (2026-09-08): re-fetched the Hackaday article and confirmed the original shiftj.is post still fails DNS resolution. Verified maker handle "dorkengine" (Hackaday''s own bracket notation, not an artifact), event/year, VoCore2 chip, wifi, USB port, serial console, GPIO, blinkenlights, $40/40-unit price and quantity, and the exact repo URL text ("has the KiCad files and software available" at gitla.in/darkengine/puffy — note the repo path reads "darkengine", not "dorkengine"; both are the same maker per the article, not a separate person). Corrected make_your_own.open_source from "partial" to "yes": the article states the same repo held both the KiCad (hardware) files and the software together, meeting the guide''s bar for "yes"; hardware_url/firmware_url remain empty since the repo itself is dead. Corrected get_one.availability from "sold_out" to "unknown": the cited article is contemporaneous (published as the maker was about to sell at the con) and never states the
+    run actually sold out; no other source was found confirming final sales status. Removed an invented body detail ("roughly inch-square") describing the VoCore2''s size that was not supported by either cited source. Both saved images were confirmed to be from the cited Hackaday article and both show the actual badge. PCB soldermask color, LED count/type, display, battery, and SAO header presence remain unstated in the sources and are correctly left empty.'
 last_modified_date: '2026-09-08'
 ---
 

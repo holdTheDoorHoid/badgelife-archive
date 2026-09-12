@@ -44,15 +44,18 @@ links:
 - label: hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25
   url: https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/
   kind: article
+  archived: https://web.archive.org/web/20260907165055/https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/
 images:
 - file: assets/images/badges/dc25/sean-mccabe-3d-printed-dc25-logo-badge/b2bd362deb.jpg
   source: https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/
   credit: Hackaday
   caption: Sean McCabe's 3D printed DEF CON 25 badge, front
+  archived: https://web.archive.org/web/20260907165055/https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/
 - file: assets/images/badges/dc25/sean-mccabe-3d-printed-dc25-logo-badge/b888ade148.jpg
   source: https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/
   credit: Hackaday
   caption: Backside PCB with ATtiny85 controlling the RGB LED
+  archived: https://web.archive.org/web/20260907165055/https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/
 contact: {}
 notes:
 - 3D-printed DEF CON 25 logo badge with an RGB LED driven by an ATtiny85. (seen only in a search snippet; unconfirmed) Found by the event-year sweep, task dc25-saos.
@@ -70,11 +73,13 @@ sources:
   title: Tindie 3D Printed DEF CON 25 Badge
   accessed: '2026-09-07'
   note: 'Found by the archive''s discovery sweep (angle: sweep:dc25-badges); event read as ''dc25''.'
+  archived: https://web.archive.org/web/20260907165055/https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/
 - kind: url
   url: https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/
   title: All The Hardware Badges Of DEF CON 25
   accessed: '2026-09-08'
   note: 'Confirmed the badge: DEF CON 25 logo shape, RGB LED, ATtiny85, coin cell, custom PCB. Also confirmed the "Tindie" name in the original title actually refers to a separate, unrelated Ohm-the-dog solder kit described elsewhere in the same article.'
+  archived: https://web.archive.org/web/20260907165055/https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/
 - kind: url
   url: https://github.com/seanleftbelow
   title: seanleftbelow (GitHub)

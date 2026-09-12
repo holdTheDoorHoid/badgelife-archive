@@ -12,8 +12,8 @@ makers:
 - name: Joe Fitz
   url: https://twitter.com/securelyfitz
 - name: PDX Badgers / DC503 (Portland)
-summary: 'A wagon-shaped party badge made for the DC503 crew''s DEF CON 25 party in 2017, playing on the "Oregon Trail" theme with a small OLED game.'
-functions: 'Runs an "Oregon Trail"-parody mini-game on its OLED screen, advertises itself over BLE as "503WAGON", and its board text invites people to follow it to the party''s website.'
+summary: A wagon-shaped party badge made for the DC503 crew's DEF CON 25 party in 2017, playing on the "Oregon Trail" theme with a small OLED game.
+functions: Runs an "Oregon Trail"-parody mini-game on its OLED screen, advertises itself over BLE as "503WAGON", and its board text invites people to follow it to the party's website.
 look:
   colors:
   - black
@@ -49,22 +49,25 @@ links:
 - label: hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25
   url: https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/
   kind: article
+  archived: https://web.archive.org/web/20260907165055/https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/
 - label: pdxbadgers/wagonparty
   url: https://github.com/pdxbadgers/wagonparty
   kind: repo
 images:
-  - file: assets/images/badges/dc25/dc503-badge/cc034017cc.jpg
-    source: "https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/"
-    credit: "Hackaday"
-    caption: "DC503 Wagon Party badge, front (OLED display and BLE module)"
-  - file: assets/images/badges/dc25/dc503-badge/3885cfa912.jpg
-    source: "https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/"
-    credit: "Hackaday"
-    caption: "DC503 Wagon Party badge, back"
+- file: assets/images/badges/dc25/dc503-badge/cc034017cc.jpg
+  source: https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/
+  credit: Hackaday
+  caption: DC503 Wagon Party badge, front (OLED display and BLE module)
+  archived: https://web.archive.org/web/20260907165055/https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/
+- file: assets/images/badges/dc25/dc503-badge/3885cfa912.jpg
+  source: https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/
+  credit: Hackaday
+  caption: DC503 Wagon Party badge, back
+  archived: https://web.archive.org/web/20260907165055/https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/
 contact: {}
 notes:
 - Unofficial DEF CON 25 regional badge (100 units) with a Rigado BLE module and a USB-to-serial lanyard, from throws503.party. Found by the event-year sweep, task dc25-saos.
-- 'The event-year sweep''s original title, "DC503 Badge," was Hackaday''s generic label for the item; the maker''s own repo names the project "wagon party," and the board itself reads "The 503 rail!" — so the title here follows that.'
+- The event-year sweep's original title, "DC503 Badge," was Hackaday's generic label for the item; the maker's own repo names the project "wagon party," and the board itself reads "The 503 rail!" — so the title here follows that.
 status: released
 sources:
 - kind: url
@@ -72,21 +75,23 @@ sources:
   title: DC503 Badge
   accessed: '2026-09-07'
   note: 'Found by the archive''s discovery sweep (angle: sweep:dc25-saos); event read as ''dc25''.'
+  archived: https://web.archive.org/web/20260907165055/https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/
 - kind: url
   url: https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/
   title: All The Hardware Badges Of DEF CON 25
   accessed: '2026-09-08'
   note: Confirmed maker (Joe Fitz), Rigado module, coin cell power, USB-to-serial lanyard, 100 units made by a four-person team; source of the two badge photos.
+  archived: https://web.archive.org/web/20260907165055/https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/
 - kind: url
   url: https://github.com/pdxbadgers/wagonparty
-  title: 'pdxbadgers/wagonparty'
+  title: pdxbadgers/wagonparty
   accessed: '2026-09-08'
-  note: 'Maker''s firmware repo. Confirms nRF52832 (SparkFun breakout), SSD1306 OLED 128x64, BLE, and the wagon-wheel button used to enter reprogramming mode. No hardware/Gerber files in the repo, only firmware and sprite art.'
+  note: Maker's firmware repo. Confirms nRF52832 (SparkFun breakout), SSD1306 OLED 128x64, BLE, and the wagon-wheel button used to enter reprogramming mode. No hardware/Gerber files in the repo, only firmware and sprite art.
 - kind: url
   url: https://badge.gallery/series/dc503
-  title: 'DC503 · Hacker Con Badges - badge.gallery'
+  title: DC503 · Hacker Con Badges - badge.gallery
   accessed: '2026-09-08'
-  note: 'Third-party catalog page; used only to confirm this 2017 item is distinct from the DC503 group''s other-year badges (2015 bicycle badge, 2018 VIP Banglet, 2019 5ohBEE pager), not as a primary source.'
+  note: Third-party catalog page; used only to confirm this 2017 item is distinct from the DC503 group's other-year badges (2015 bicycle badge, 2018 VIP Banglet, 2019 5ohBEE pager), not as a primary source.
 research:
   status: researched
   confidence: high

@@ -12,7 +12,7 @@ makers:
 - name: Blenster
   url: https://hackaday.io/Blenster
 summary: A huge triangular hardware badge built by Blenster (Ben Hibben) for DEF CON 25, packed with an extremely bright LED array and powered by six 18650 lithium cells.
-functions: 'Lights up very brightly; no other functions reported.'
+functions: Lights up very brightly; no other functions reported.
 look:
   colors: []
   shape: triangle
@@ -41,14 +41,17 @@ links:
 - label: hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25
   url: https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/
   kind: article
+  archived: https://web.archive.org/web/20260907165055/https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/
 - label: Ben Hibben (Blenster) on Hackaday.io
   url: https://hackaday.io/Blenster
   kind: hackaday
+  archived: https://web.archive.org/web/20251011192229/https://hackaday.io/Blenster
 images:
 - file: assets/images/badges/dc25/megabling-badge/e763dde7be.jpg
-  source: "https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/"
-  credit: "Hackaday / Blenster"
-  caption: "Megabling badge, front, showing LED array"
+  source: https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/
+  credit: Hackaday / Blenster
+  caption: Megabling badge, front, showing LED array
+  archived: https://web.archive.org/web/20260907165055/https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/
 contact: {}
 notes:
 - Oversized triangular badge powered by six 18650 cells with heavy power-regulation circuitry, distinct from Blenster's Mr. Blinky Bling WiFi badge already in the archive. Found by the event-year sweep, task dc25-saos.
@@ -59,21 +62,24 @@ sources:
   title: Megabling Badge
   accessed: '2026-09-07'
   note: 'Found by the archive''s discovery sweep (angle: sweep:dc25-saos); event read as ''dc25''.'
+  archived: https://web.archive.org/web/20260907165055/https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/
 - kind: url
   url: https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/
   title: All The Hardware Badges Of DEF CON 25
   accessed: '2026-09-08'
   note: 'Confirmed the badge is real (photographed at DEF CON 25): huge triangle shape, six 18650 cells, heavy power regulation on the back, extremely bright LEDs, worn by Blenster alongside his own hand-soldered DerbyCon 2016 black badge. Source of the front-of-badge photo.'
+  archived: https://web.archive.org/web/20260907165055/https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/
 - kind: url
   url: https://hackaday.io/Blenster
   title: Ben Hibben (Blenster) — Hackaday.io profile
   accessed: '2026-09-08'
-  note: 'Checked for a dedicated Megabling project page; none exists. Profile only lists the 2017 WiFi Badge and the DEF CON 26 Indie Badge, both already separate archive entries. No price, quantity, LED count, or open-source files were found anywhere for Megabling.'
+  note: Checked for a dedicated Megabling project page; none exists. Profile only lists the 2017 WiFi Badge and the DEF CON 26 Indie Badge, both already separate archive entries. No price, quantity, LED count, or open-source files were found anywhere for Megabling.
+  archived: https://web.archive.org/web/20251011192229/https://hackaday.io/Blenster
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-08'
-  notes: 'Confirmed real via the Hackaday DEF CON 25 badge roundup (with photo), but Blenster never gave it a dedicated project page the way he did his other badges, so most technical fields (LED count/type, MCU, price, quantity, availability) are unknown and left empty rather than guessed. Distinct from the archive''s existing "2017 WiFi Badge by Mr. Blinky Bling" and "Mr. Blinky Bling DEF CON 26 Indie Badge" entries by the same maker.'
+  notes: Confirmed real via the Hackaday DEF CON 25 badge roundup (with photo), but Blenster never gave it a dedicated project page the way he did his other badges, so most technical fields (LED count/type, MCU, price, quantity, availability) are unknown and left empty rather than guessed. Distinct from the archive's existing "2017 WiFi Badge by Mr. Blinky Bling" and "Mr. Blinky Bling DEF CON 26 Indie Badge" entries by the same maker.
 last_modified_date: '2026-09-08'
 ---
 

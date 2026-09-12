@@ -41,6 +41,7 @@ links:
 - label: hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25
   url: https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/
   kind: article
+  archived: https://web.archive.org/web/20260907165055/https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/
 images: []
 contact: {}
 notes:
@@ -52,11 +53,13 @@ sources:
   title: Red's LoRa Badge
   accessed: '2026-09-07'
   note: 'Found by the archive''s discovery sweep (angle: sweep:dc25-saos); event read as ''dc25''.'
+  archived: https://web.archive.org/web/20260907165055/https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/
 - kind: url
   url: https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/
   title: All The Hardware Badges Of DEF CON 25 - Hackaday
   accessed: '2026-09-08'
-  note: 'Confirms the badge exists and is the only source found; supplied all tech/function details (Propeller chip, ESP8266, LoRa module, dual screens, momentary + DIP switches, firmware written on the plane before the con).'
+  note: Confirms the badge exists and is the only source found; supplied all tech/function details (Propeller chip, ESP8266, LoRa module, dual screens, momentary + DIP switches, firmware written on the plane before the con).
+  archived: https://web.archive.org/web/20260907165055/https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/
 research:
   status: verified
   confidence: low

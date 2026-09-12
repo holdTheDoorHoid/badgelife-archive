@@ -60,10 +60,12 @@ images:
   source: https://hackaday.io/project/18508-mr-robot-badge
   credit: Benchoff
   caption: The Mr. Robot Badge, DEF CON 25
+  archived: https://web.archive.org/web/20260116150752/https://hackaday.io/project/18508-mr-robot-badge
 - file: assets/images/badges/dc25/mr-robot-badge/aac5188f7a.jpg
   source: https://hackaday.io/project/18508-mr-robot-badge
   credit: Benchoff
   caption: Mr. Robot Badge assembled with battery pack
+  archived: https://web.archive.org/web/20260116150752/https://hackaday.io/project/18508-mr-robot-badge
 contact: {}
 notes: []
 status: released
@@ -79,6 +81,7 @@ sources:
   title: Mr Robot Badge - Hackaday.io project page
   accessed: '2026-09-07'
   note: Confirmed maker (Benchoff), event/year (DEF CON 25, 2017), MCU (ESP8266), LED matrix (144 LEDs, 16x9, IS31FL3731 driver, charlieplexed), light sensor (LTR-239ALS-01), seven buttons, 4xAA power, ARG element, quantity (~480-500 built), and that KiCad project files/Gerbers, schematic, vector art, and firmware are published on the project page. Also source of image URLs (og:image and gallery photos).
+  archived: https://web.archive.org/web/20260116150752/https://hackaday.io/project/18508-mr-robot-badge
 research:
   status: researched
   confidence: high

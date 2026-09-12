@@ -59,10 +59,12 @@ images:
   source: https://hackaday.io/project/25150-the-official-hackaday-defcon-25-badge
   credit: Benchoff / Hackaday
   caption: The Official Hackaday DEFCON 25 Badge PCB
+  archived: https://web.archive.org/web/20260510205621/https://hackaday.io/project/25150-the-official-hackaday-defcon-25-badge
 - file: assets/images/badges/dc25/official-hackaday-defcon-25-badge/1116789c1e.jpg
   source: https://oshpark.com/shared_projects/A3QUDyAk
   credit: Benchoff / OSH Park
   caption: Top side of the OSH Park shared PCB render
+  archived: https://web.archive.org/web/20260317151328/https://oshpark.com/shared_projects/A3QUDyAk
 contact: {}
 notes: []
 status: released
@@ -78,11 +80,13 @@ sources:
   title: The Official Hackaday DEFCON 25 Badge
   accessed: '2026-09-07'
   note: Confirmed maker team (Benchoff with Jasmine Brackett and Hyr0n), 'low effort yet high quality' framing, soldermask color options (green, black, red, plus purple and gold), lanyard drill holes, manufacture via OSH Park and Seeed Studio, and 'several thousand' units made. Purely non-functional artwork board.
+  archived: https://web.archive.org/web/20260510205621/https://hackaday.io/project/25150-the-official-hackaday-defcon-25-badge
 - kind: url
   url: https://oshpark.com/shared_projects/A3QUDyAk
   title: OSH Park shared project - The Official Hackaday DEFCON 25 Badge
   accessed: '2026-09-07'
   note: Confirmed board dimensions (2-layer, 70.3 x 50.0 mm / 2.77 x 1.97 in), uploaded 2017-06-02, and a community OSH Park order total price of $27.20 (per-board/quantity breakdown not shown on page). Provided the two saved image URLs.
+  archived: https://web.archive.org/web/20260317151328/https://oshpark.com/shared_projects/A3QUDyAk
 research:
   status: verified
   confidence: medium

@@ -56,6 +56,7 @@ images:
   source: https://github.com/dc801/DC25PartyBadge
   credit: Cat Murdock
   caption: DC801 DC25 party badge, worn
+  archived: https://web.archive.org/web/20260907113014/https://github.com/dc801/DC25PartyBadge
 contact: {}
 notes: []
 status: listed

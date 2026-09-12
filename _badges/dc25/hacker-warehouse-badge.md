@@ -48,12 +48,14 @@ links:
 - label: hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25
   url: https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/
   kind: article
+  archived: https://web.archive.org/web/20260907165055/https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/
 - label: hackerwarehouse/HW-DC25-Badge
   url: https://github.com/hackerwarehouse/HW-DC25-Badge
   kind: repo
 - label: Hacker Warehouse Electronic Badge (store)
   url: https://hackerwarehouse.com/product/hacker-warehouse-electronic-badge/
   kind: store
+  archived: https://web.archive.org/web/20260415031917/https://hackerwarehouse.com/product/hacker-warehouse-electronic-badge/
 - label: 'Reddit: Hacker Warehouse DC25 Badge Source on Github'
   url: https://www.reddit.com/r/Defcon/comments/6soup4/hacker_warehouse_dc25_badge_source_on_github/
   kind: social
@@ -72,6 +74,7 @@ sources:
   title: Hacker Warehouse Badge
   accessed: '2026-09-07'
   note: 'Found by the archive''s discovery sweep (angle: sweep:dc25-saos); event read as ''dc25''.'
+  archived: https://web.archive.org/web/20260907165055/https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/
 - kind: url
   url: https://github.com/hackerwarehouse/HW-DC25-Badge
   title: 'GitHub: hackerwarehouse/HW-DC25-Badge'
@@ -82,6 +85,7 @@ sources:
   title: Hacker Warehouse Electronic Badge (product page)
   accessed: '2026-09-08'
   note: Maker's storefront -- confirms official title, price ($50), sold-out status, SKU, and that it was presale/in-person distribution only.
+  archived: https://web.archive.org/web/20260415031917/https://hackerwarehouse.com/product/hacker-warehouse-electronic-badge/
 research:
   status: researched
   confidence: high

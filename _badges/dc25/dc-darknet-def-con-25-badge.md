@@ -51,15 +51,18 @@ links:
 - label: 'Hackaday: All The Hardware Badges Of DEF CON 25'
   url: https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/
   kind: article
+  archived: https://web.archive.org/web/20260907165055/https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/
 images:
 - file: assets/images/badges/dc25/dc-darknet-def-con-25-badge/c029fc2193.jpg
   source: https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/
   credit: Krux / Hackaday
   caption: Front of the DC Darknet DEF CON 25 badge, resembling a rotary phone
+  archived: https://web.archive.org/web/20260907165055/https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/
 - file: assets/images/badges/dc25/dc-darknet-def-con-25-badge/6436d93fe1.jpg
   source: https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/
   credit: Krux / Hackaday
   caption: Back of the DC Darknet badge showing LEDs and LiPo battery connection
+  archived: https://web.archive.org/web/20260907165055/https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/
 contact: {}
 notes:
 - From the user's 'SAOs to buy' link list (2026-09-07).
@@ -80,6 +83,7 @@ sources:
   title: All The Hardware Badges Of DEF CON 25
   accessed: '2026-09-07'
   note: Confirmed designer (Krux), rotary-phone form factor, capacitive touch sensors, kit assembly (SMD LEDs, screen connector, LiPo), early-access sale mechanic, and supplied front/back photos.
+  archived: https://web.archive.org/web/20260907165055/https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/
 research:
   status: researched
   confidence: medium

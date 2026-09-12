@@ -47,21 +47,26 @@ links:
 - label: github.com/dczia/Defcon25-Badge
   url: https://github.com/dczia/Defcon25-Badge
   kind: repo
+  archived: https://web.archive.org/web/20260215152758/https://github.com/dczia/Defcon25-Badge
 - label: DCZia - About/History
   url: https://dczia.net/about.html
   kind: website
+  archived: https://web.archive.org/web/20260514012540/https://dczia.net/about.html
 - label: 'Hackaday: All The Hardware Badges Of DEF CON 25'
   url: https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/
   kind: article
+  archived: https://web.archive.org/web/20260907165055/https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/
 images:
 - file: assets/images/badges/dc25/dczia-def-con-25-badge/3fea41ac3f.jpg
   source: https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/
   credit: DC Zia / Hackaday
   caption: Front of the DC Zia 2017 badge showing the four Cherry MX mechanical keyboard switches, 16x2 LCD, and NeoPixel LEDs
+  archived: https://web.archive.org/web/20260907165055/https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/
 - file: assets/images/badges/dc25/dczia-def-con-25-badge/44547741f6.jpg
   source: https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/
   credit: DC Zia / Hackaday
   caption: Rear of the DC Zia 2017 badge, showing the Arduino 101 shield connectors and battery holder
+  archived: https://web.archive.org/web/20260907165055/https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/
 contact: {}
 notes:
 - From the user's 'SAOs to buy' link list (2026-09-07).
@@ -72,16 +77,19 @@ sources:
   title: DCZia DEFCON 25 Badge - 2017 MechKeyboard Shield
   accessed: '2026-09-07'
   note: 'Found by the archive''s discovery sweep (angle: tobuy-linkfile); event read as ''dc25''. Repo README confirms it is a shield for the Arduino 101.'
+  archived: https://web.archive.org/web/20260215152758/https://github.com/dczia/Defcon25-Badge
 - kind: url
   url: https://dczia.net/about.html
   title: DCZia - About
   accessed: '2026-09-07'
   note: Group history page; confirms the 2017 badge was the "Mech Keyboard Badge - 4 Mechanical Keys // 16x2 Character LCD // NeoPixel RGB LEDs // Acts as shield for an Arduino101," and that DCZia held the DC DarkNet DEF CON 25 black badge that year.
+  archived: https://web.archive.org/web/20260514012540/https://dczia.net/about.html
 - kind: url
   url: https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/
   title: All The Hardware Badges Of DEF CON 25
   accessed: '2026-09-07'
   note: 'Press coverage: quantity (290 boards + 10 prototypes), pre-sale via 801 Labs hackerspace in Salt Lake City, and the two photos used above.'
+  archived: https://web.archive.org/web/20260907165055/https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/
 research:
   status: researched
   confidence: high
