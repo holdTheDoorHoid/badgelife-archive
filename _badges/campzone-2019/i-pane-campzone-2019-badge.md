@@ -51,9 +51,11 @@ links:
 - label: badgeteam/cz19-badge (GitHub, archived repo)
   url: https://github.com/badgeteam/cz19-badge
   kind: repo
+  archived: https://web.archive.org/web/20260912174814/https://github.com/badgeteam/cz19-badge
 - label: jorisplusplus/MPU_Coin (optional coin add-on hardware)
   url: https://github.com/jorisplusplus/MPU_Coin
   kind: repo
+  archived: https://web.archive.org/web/20260912174919/https://github.com/jorisplusplus/MPU_Coin
 images: []
 contact: {}
 notes:
@@ -71,6 +73,7 @@ sources:
   title: badgeteam/cz19-badge
   accessed: '2026-09-07'
   note: Confirms this is the official CampZone 2019 event badge repo (now archived/read-only on GitHub), MIT licensed, with firmware and hardware design files as submodules/subfolders.
+  archived: https://web.archive.org/web/20260912174814/https://github.com/badgeteam/cz19-badge
 research:
   status: researched
   confidence: medium

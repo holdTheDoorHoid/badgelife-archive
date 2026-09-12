@@ -45,21 +45,26 @@ links:
 - label: badge.gallery/badges/cactuscon-12-badge
   url: https://badge.gallery/badges/cactuscon-12-badge
   kind: website
+  archived: https://web.archive.org/web/20260912174042/https://badge.gallery/badges/cactuscon-12-badge
 - label: BadgePiratesLLC/CactusCon-12 (GitHub)
   url: https://github.com/BadgePiratesLLC/CactusCon-12
   kind: repo
+  archived: https://web.archive.org/web/20260912174114/https://github.com/BadgePiratesLLC/CactusCon-12
 - label: BadgePirates badge catalog
   url: https://docs.badgepirates.com/catalog/
   kind: doc
+  archived: https://web.archive.org/web/20260910225903/https://docs.badgepirates.com/catalog/#help-us-fill-the-gaps
 images:
 - file: assets/images/badges/cactuscon-2024/cactuscon-12-badge-2024/869d4e2520.jpg
   source: https://github.com/BadgePiratesLLC/CactusCon-12
   credit: Badge Pirates
   caption: CactusCon 12 badge (Project NeoRogue), front
+  archived: https://web.archive.org/web/20260912174114/https://github.com/BadgePiratesLLC/CactusCon-12
 - file: assets/images/badges/cactuscon-2024/cactuscon-12-badge-2024/6c028a83ab.jpg
   source: https://github.com/BadgePiratesLLC/CactusCon-12
   credit: Badge Pirates
   caption: CactusCon 12 badge (Project NeoRogue), back
+  archived: https://web.archive.org/web/20260912174114/https://github.com/BadgePiratesLLC/CactusCon-12
 contact: {}
 notes:
 - Sweep found the title as "CactusCon 12 Badge (2024)"; the maker's repo just calls the project "CactusCon12" internally, and the design's working name in the CAD/QA code is "Project NeoRogue."
@@ -71,21 +76,25 @@ sources:
   title: CactusCon 12 Badge (2024)
   accessed: '2026-09-07'
   note: 'Found by the archive''s discovery sweep (angle: sweep:con-layerone); event read as ''CactusCon 2024''.'
+  archived: https://web.archive.org/web/20260912174042/https://badge.gallery/badges/cactuscon-12-badge
 - kind: url
   url: https://github.com/BadgePiratesLLC/CactusCon-12
   title: BadgePiratesLLC/CactusCon-12
   accessed: '2026-09-10'
   note: Maker repo confirms event (CactusCon 12, cc12), design files (KiCad, Gerbers, BOM, iBOM), and photos of the assembled badge under DOCS/.
+  archived: https://web.archive.org/web/20260912174114/https://github.com/BadgePiratesLLC/CactusCon-12
 - kind: url
   url: https://badge.gallery/addons/cactuscon-12-badge/esp32-s3-wroom-projectneorogue-core
   title: ESP32-S3 WROOM ProjectNeoRogue core
   accessed: '2026-09-10'
   note: Confirms MCU and internal project name "ProjectNeoRogue".
+  archived: https://web.archive.org/web/20260912174313/https://badge.gallery/addons/cactuscon-12-badge/esp32-s3-wroom-projectneorogue-core
 - kind: url
   url: https://docs.badgepirates.com/catalog/
   title: Badge Catalog - BadgePirates Documents
   accessed: '2026-09-10'
   note: Maker catalog lists the CactusCon 12 badge and links the same GitHub repo; no price/quantity given.
+  archived: https://web.archive.org/web/20260910225903/https://docs.badgepirates.com/catalog/#help-us-fill-the-gaps
 research:
   status: researched
   confidence: medium

@@ -10,8 +10,8 @@ event: carolinacon-2022
 year: 2022
 makers:
 - name: Matt Agius
-summary: 'A keychain-sized PCB badge for CarolinaCon Online 2, shaped around the con''s ivy-covered logo art with a single blinking red LED driven by a 555-style timer circuit.'
-functions: 'Blinks a single red LED via an astable 555/7555 timer circuit; no other interactivity.'
+summary: A keychain-sized PCB badge for CarolinaCon Online 2, shaped around the con's ivy-covered logo art with a single blinking red LED driven by a 555-style timer circuit.
+functions: Blinks a single red LED via an astable 555/7555 timer circuit; no other interactivity.
 look:
   colors:
   - blue
@@ -37,7 +37,7 @@ get_one:
   availability: unknown
   distribution:
   - purchase
-  where: 'Sold through the CarolinaCon Online 2 shop bundled with a shirt, shot glass, and sticker; current availability not confirmed.'
+  where: Sold through the CarolinaCon Online 2 shop bundled with a shirt, shot glass, and sticker; current availability not confirmed.
 make_your_own:
   open_source: null
   hardware_url: null
@@ -47,19 +47,22 @@ links:
 - label: hackaday.io/project/184890-carolina-con-online-2-badge
   url: https://hackaday.io/project/184890-carolina-con-online-2-badge
   kind: hackaday
+  archived: https://web.archive.org/web/20260308010955/https://hackaday.io/project/184890-carolina-con-online-2-badge
 images:
 - file: assets/images/badges/carolinacon-2022/carolinacon-online-2-badge/ab6edcf9ba.jpg
-  source: "https://hackaday.io/project/184890-carolina-con-online-2-badge"
-  credit: "Matt Agius"
-  caption: "CarolinaCon Online 2 badge, blue PCB variant with con logo artwork and blinking LED"
+  source: https://hackaday.io/project/184890-carolina-con-online-2-badge
+  credit: Matt Agius
+  caption: CarolinaCon Online 2 badge, blue PCB variant with con logo artwork and blinking LED
+  archived: https://web.archive.org/web/20260308010955/https://hackaday.io/project/184890-carolina-con-online-2-badge
 - file: assets/images/badges/carolinacon-2022/carolinacon-online-2-badge/a1e4853297.jpg
-  source: "https://hackaday.io/project/184890-carolina-con-online-2-badge"
-  credit: "Matt Agius"
-  caption: "CarolinaCon Online 2 badge, black PCB variant"
+  source: https://hackaday.io/project/184890-carolina-con-online-2-badge
+  credit: Matt Agius
+  caption: CarolinaCon Online 2 badge, black PCB variant
+  archived: https://web.archive.org/web/20260308010955/https://hackaday.io/project/184890-carolina-con-online-2-badge
 contact: {}
 notes:
 - Official badge for CarolinaCon Online 2 (April 29-May 1, 2022), featuring the con logo as PCB art with a 555 timer circuit, bundled with shirt/shot glass/sticker. Found by the event-year sweep, task carolinacon.
-- 'The sweep''s notes gave the dates as April 29-30; the Hackaday project page states April 29-May 1, 2022.'
+- The sweep's notes gave the dates as April 29-30; the Hackaday project page states April 29-May 1, 2022.
 status: listed
 sources:
 - kind: url
@@ -67,16 +70,18 @@ sources:
   title: CarolinaCon Online 2 Badge
   accessed: '2026-09-07'
   note: 'Found by the archive''s discovery sweep (angle: sweep:carolinacon); event read as ''CarolinaCon 2022''.'
+  archived: https://web.archive.org/web/20260308010955/https://hackaday.io/project/184890-carolina-con-online-2-badge
 - kind: url
   url: https://hackaday.io/project/184890-carolina-con-online-2-badge
   title: CarolinaCon Online 2 Badge
   accessed: '2026-09-08'
-  note: 'Confirmed maker, event/dates, 555-timer circuit, sale through the con shop bundled with shirt/shot glass/sticker; pulled two project gallery photos showing blue and black PCB variants.'
+  note: Confirmed maker, event/dates, 555-timer circuit, sale through the con shop bundled with shirt/shot glass/sticker; pulled two project gallery photos showing blue and black PCB variants.
+  archived: https://web.archive.org/web/20260308010955/https://hackaday.io/project/184890-carolina-con-online-2-badge
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-08'
-  notes: 'Confirmed via the maker''s own Hackaday.io project page (photos and description). Could not confirm price, quantity made, or whether it is still available anywhere else online; no repo or design files were found. Chip is visibly marked "7555" (a CMOS 555 variant) in the project photos rather than a classic bipolar 555, though Hackaday''s own text just says "555 timer."'
+  notes: Confirmed via the maker's own Hackaday.io project page (photos and description). Could not confirm price, quantity made, or whether it is still available anywhere else online; no repo or design files were found. Chip is visibly marked "7555" (a CMOS 555 variant) in the project photos rather than a classic bipolar 555, though Hackaday's own text just says "555 timer."
 last_modified_date: '2026-09-08'
 ---
 

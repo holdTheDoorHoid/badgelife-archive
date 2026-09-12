@@ -40,6 +40,7 @@ links:
 - label: events.ccc.de/camp/2007/Sputnik
   url: https://events.ccc.de/camp/2007/Sputnik/
   kind: website
+  archived: https://web.archive.org/web/20260912180012/https://events.ccc.de/camp/2007/Sputnik/
 images: []
 contact: {}
 notes:
@@ -51,23 +52,18 @@ sources:
   title: OpenBeacon-EasyReader (with PoE)
   accessed: '2026-09-10'
   note: Reported as an 'other item found' during the stub research pass.
+  archived: https://web.archive.org/web/20260912180012/https://events.ccc.de/camp/2007/Sputnik/
 - kind: url
   url: https://devicehunt.com/view/type/usb/vendor/2366/device/0007
   title: OpenBeacon Ethernet EasyReader PoE II
   accessed: '2026-09-10'
   note: USB device-ID listing confirming EasyReader PoE II is a fixed active-2.4GHz-RFID reader unit made by Bitmanufaktur GmbH, not a wearable device.
+  archived: https://web.archive.org/web/20260912180041/https://devicehunt.com/view/type/usb/vendor/2366/device/0007
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-10'
-  notes: >-
-    This is not a badge, SAO, or wearable accessory. The Sputnik CCCamp 2007 page
-    lists the OpenBeacon-EasyReader (with PoE) alongside the OpenBeacon USB reader
-    as fixed base-station hardware: a Power-over-Ethernet-powered 2.4GHz active RFID
-    reader used to pick up signals from the Sputnik tags that attendees actually wore.
-    The wearable tag itself is already a separate entry, cccamp-2007-sputnik-openbeacon.
-    No pricing, chip, or availability details apply since this was never sold or worn;
-    leaving those fields empty rather than guessing.
+  notes: 'This is not a badge, SAO, or wearable accessory. The Sputnik CCCamp 2007 page lists the OpenBeacon-EasyReader (with PoE) alongside the OpenBeacon USB reader as fixed base-station hardware: a Power-over-Ethernet-powered 2.4GHz active RFID reader used to pick up signals from the Sputnik tags that attendees actually wore. The wearable tag itself is already a separate entry, cccamp-2007-sputnik-openbeacon. No pricing, chip, or availability details apply since this was never sold or worn; leaving those fields empty rather than guessing.'
 last_modified_date: '2026-09-10'
 ---
 

@@ -50,26 +50,33 @@ links:
 - label: github.com/jordanlanham52/CactusCon-14-Badge-Writeup-Walkthrough
   url: https://github.com/jordanlanham52/CactusCon-14-Badge-Writeup-Walkthrough
   kind: repo
+  archived: https://web.archive.org/web/20260912174545/https://github.com/jordanlanham52/CactusCon-14-Badge-Writeup-Walkthrough
 - label: badgepirates.com (maker site)
   url: https://www.badgepirates.com/
   kind: website
+  archived: https://web.archive.org/web/20260810184033/https://badgepirates.com/
 - label: BadgePiratesLLC/CactusCon14 (hardware design files)
   url: https://github.com/BadgePiratesLLC/CactusCon14
   kind: repo
+  archived: https://web.archive.org/web/20260523082533/https://github.com/BadgePiratesLLC/CactusCon14
 - label: cactuscon/cactuscon14 (badge game firmware)
   url: https://github.com/cactuscon/cactuscon14
   kind: repo
+  archived: https://web.archive.org/web/20260912174730/https://github.com/cactuscon/cactuscon14
 - label: CC14 resources hub (docs.badgepirates.com)
   url: https://docs.badgepirates.com/resources/cc14/
   kind: doc
+  archived: https://web.archive.org/web/20260910225913/https://docs.badgepirates.com/resources/cc14/
 - label: 'CC14 resources: schematics, STLs, gerbers, and more'
   url: https://blog.badgepirates.com/cc14-resources/
   kind: article
+  archived: https://web.archive.org/web/20260310210845/https://blog.badgepirates.com/cc14-resources/
 images:
 - file: assets/images/badges/cactuscon-2026/cactuscon-14-badge-2026/6c17b35678.jpg
   source: https://www.badgepirates.com/
   credit: Badge Pirates
   caption: CactusCon 14 badge, hero shot from the maker's site
+  archived: https://web.archive.org/web/20260810184033/https://badgepirates.com/
 contact: {}
 notes:
 - ESP32-S3 badge with an LVGL/MicroPython UI, a Pokemon-style creature-battle game with BLE badge-to-badge battles/chat, NeoPixel LEDs, achievements and OTA updates. Found by the event-year sweep, task con-layerone.
@@ -81,21 +88,25 @@ sources:
   title: CactusCon 14 Badge (2026)
   accessed: '2026-09-07'
   note: 'Found by the archive''s discovery sweep (angle: sweep:con-layerone); event read as ''CactusCon 2026''.'
+  archived: https://web.archive.org/web/20260912174545/https://github.com/jordanlanham52/CactusCon-14-Badge-Writeup-Walkthrough
 - kind: url
   url: https://www.badgepirates.com/
   title: Badge Pirates
   accessed: '2026-09-08'
   note: Confirms Badge Pirates as maker, hero image, open-source hardware link.
+  archived: https://web.archive.org/web/20260810184033/https://badgepirates.com/
 - kind: url
   url: https://blog.badgepirates.com/cc14-resources/
   title: 'CC14 Resources: schematics, STLs, gerbers, and more'
   accessed: '2026-09-08'
   note: Points to the BadgePiratesLLC/CactusCon14 hardware repo as the canonical design-files location.
+  archived: https://web.archive.org/web/20260310210845/https://blog.badgepirates.com/cc14-resources/
 - kind: url
   url: https://github.com/BadgePiratesLLC/CactusCon14
   title: BadgePiratesLLC/CactusCon14
   accessed: '2026-09-08'
   note: 'Hardware repo: KiCad files, schematics, gerbers, STL/3MF enclosure files; CERN-OHL-S v2 hardware / MIT software license.'
+  archived: https://web.archive.org/web/20260523082533/https://github.com/BadgePiratesLLC/CactusCon14
 research:
   status: researched
   confidence: medium

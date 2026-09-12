@@ -40,15 +40,18 @@ links:
 - label: github.com/pettym/Carolinacon-19-Badge
   url: https://github.com/pettym/Carolinacon-19-Badge
   kind: repo
+  archived: https://web.archive.org/web/20260912175857/https://github.com/pettym/Carolinacon-19-Badge
 images:
 - file: assets/images/badges/carolinacon-2023/carolinacon-online-3-badge-carolinacon-19-badge/df67f15933.png
   source: https://github.com/pettym/Carolinacon-19-Badge
   credit: pettym
   caption: Front of the Carolinacon 19 (Carolinacon Online 3) NFC badge PCB
+  archived: https://web.archive.org/web/20260912175857/https://github.com/pettym/Carolinacon-19-Badge
 - file: assets/images/badges/carolinacon-2023/carolinacon-online-3-badge-carolinacon-19-badge/277b74b1b7.jpg
   source: https://github.com/pettym/Carolinacon-19-Badge
   credit: pettym
   caption: Carolinacon 19 badge face-reveal graphic
+  archived: https://web.archive.org/web/20260912175857/https://github.com/pettym/Carolinacon-19-Badge
 contact: {}
 notes:
 - Electronic badge for CarolinaCon 19 / CarolinaCon Online 3 (April 22, 2023), sold in a merch bundle with a bottle-opener add-on, shirt and sticker. Found by the event-year sweep, task carolinacon.
@@ -61,11 +64,13 @@ sources:
   title: Carolinacon Online 3 Badge (Carolinacon 19 Badge)
   accessed: '2026-09-07'
   note: 'Found by the archive''s discovery sweep (angle: sweep:carolinacon); event read as ''CarolinaCon 2023''.'
+  archived: https://web.archive.org/web/20260912175857/https://github.com/pettym/Carolinacon-19-Badge
 - kind: url
   url: https://github.com/pettym/Carolinacon-19-Badge
   title: 'pettym/Carolinacon-19-Badge: README and KiCAD project files'
   accessed: '2026-09-08'
   note: README confirms the badge was made for CarolinaCon 19 (aka CarolinaCon Online 3), April 22, 2023. KiCAD schematic (cc-19-badge.kicad_sch) shows the only active part is an ST M24SR16-YDW6T dynamic NFC/RFID tag IC plus a 6-pin connector - no MCU, LEDs, or display in the design. Source images (front.png, red.png) pulled via media.githubusercontent.com (LFS-backed).
+  archived: https://web.archive.org/web/20260912175857/https://github.com/pettym/Carolinacon-19-Badge
 research:
   status: researched
   confidence: medium

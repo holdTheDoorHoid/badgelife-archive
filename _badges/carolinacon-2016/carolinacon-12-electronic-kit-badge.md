@@ -10,7 +10,7 @@ event: carolinacon-2016
 year: 2016
 makers:
 - name: CarolinaCon Group / Hardware Village
-summary: 'An easy-to-assemble 555-timer kit badge included with admission to CarolinaCon 12, with a photoresistor-controlled blinking LED and open protoboard space for expansion.'
+summary: An easy-to-assemble 555-timer kit badge included with admission to CarolinaCon 12, with a photoresistor-controlled blinking LED and open protoboard space for expansion.
 functions: 'Light-reactive blinker: a 555-timer astable circuit with a photoresistor in the timing network changes the LED''s blink rate with ambient light. A large protoboard area fits an Arduino Micro- or Nano-compatible board; a boost converter (given as a $20 donation reward, alongside a clone Arduino Micro) let that board run from the kit''s two AAA batteries.'
 look:
   colors: []
@@ -48,15 +48,19 @@ links:
 - label: badge.gallery/events/carolinacon-12
   url: https://badge.gallery/events/carolinacon-12
   kind: website
+  archived: https://web.archive.org/web/20260912175028/https://badge.gallery/events/carolinacon-12
 - label: CarolinaCon 12 official archive page
   url: https://carolinacon.org/archive/cc2016/
   kind: website
+  archived: https://web.archive.org/web/20260912175058/https://carolinacon.org/archive/cc2016/
 - label: Badge instruction manual (PDF)
   url: https://carolinacon.org/archive/cc2016/badge.pdf
   kind: doc
+  archived: https://web.archive.org/web/20260912175125/https://carolinacon.org/archive/cc2016/badge.pdf
 - label: Partial badge schematic
   url: https://carolinacon.org/archive/cc2016/badge.trim.png
   kind: doc
+  archived: https://web.archive.org/web/20260912175142/https://carolinacon.org/archive/cc2016/badge.trim.png
 images: []
 contact: {}
 notes:
@@ -68,11 +72,13 @@ sources:
   title: CarolinaCon 12 Electronic Kit Badge
   accessed: '2026-09-07'
   note: 'Found by the archive''s discovery sweep (angle: sweep:carolinacon); event read as ''CarolinaCon 2016''.'
+  archived: https://web.archive.org/web/20260912175028/https://badge.gallery/events/carolinacon-12
 - kind: url
   url: https://carolinacon.org/archive/cc2016/
   title: CarolinaCon 12 (official archived event page)
   accessed: '2026-09-08'
   note: Primary source confirming the badge description, admission price ($40), Arduino Micro/Nano protoboard expansion, boost-converter donation reward, and links to the schematic and instruction PDF.
+  archived: https://web.archive.org/web/20260912175058/https://carolinacon.org/archive/cc2016/
 research:
   status: researched
   confidence: high

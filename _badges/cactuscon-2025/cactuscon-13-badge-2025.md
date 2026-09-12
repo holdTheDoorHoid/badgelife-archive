@@ -46,23 +46,29 @@ links:
 - label: badge.gallery/badges/cactuscon-13-badge
   url: https://badge.gallery/badges/cactuscon-13-badge
   kind: website
+  archived: https://web.archive.org/web/20260912174343/https://badge.gallery/badges/cactuscon-13-badge
 - label: BadgePiratesLLC/CactusCon13 (GitHub)
   url: https://github.com/BadgePiratesLLC/CactusCon13
   kind: repo
+  archived: https://web.archive.org/web/20260912174501/https://github.com/BadgePiratesLLC/CactusCon13
 - label: Badge Pirates
   url: https://www.badgepirates.com/
   kind: website
+  archived: https://web.archive.org/web/20260810184033/https://badgepirates.com/
 - label: BadgePirates catalog entry
   url: https://docs.badgepirates.com/catalog/
   kind: doc
+  archived: https://web.archive.org/web/20260910225903/https://docs.badgepirates.com/catalog/#help-us-fill-the-gaps
 - label: BadgePirates ESP32-S3 platform reference
   url: https://docs.badgepirates.com/platform/esp32-s3/
   kind: doc
+  archived: https://web.archive.org/web/20260910225919/https://docs.badgepirates.com/platform/esp32-s3/
 images:
 - file: assets/images/badges/cactuscon-2025/cactuscon-13-badge-2025/e96025a9c6.png
   source: https://www.badgepirates.com/
   credit: Badge Pirates
   caption: CactusCon 13 (2025) badge
+  archived: https://web.archive.org/web/20260810184033/https://badgepirates.com/
 contact: {}
 notes:
 - Official conference badge for CactusCon 13 (2025), made by Badge Pirates. Found by the event-year sweep, task con-layerone.
@@ -74,26 +80,31 @@ sources:
   title: CactusCon 13 Badge (2025)
   accessed: '2026-09-07'
   note: 'Found by the archive''s discovery sweep (angle: sweep:con-layerone); event read as ''CactusCon 2025''.'
+  archived: https://web.archive.org/web/20260912174343/https://badge.gallery/badges/cactuscon-13-badge
 - kind: url
   url: https://github.com/BadgePiratesLLC/CactusCon13
   title: 'GitHub - BadgePiratesLLC/CactusCon13: CactusCon13 Badge Repo'
   accessed: '2026-09-10'
   note: Confirmed maker, MIT-licensed open hardware (KiCad CAD, Gerbers, 3D-print files, STEP exports); no README with detailed specs found.
+  archived: https://web.archive.org/web/20260912174501/https://github.com/BadgePiratesLLC/CactusCon13
 - kind: url
   url: https://www.badgepirates.com/
   title: Badge Pirates - Making badges for fun and no profit
   accessed: '2026-09-10'
   note: Portfolio listing confirming maker and providing the badge photo used here.
+  archived: https://web.archive.org/web/20260810184033/https://badgepirates.com/
 - kind: url
   url: https://docs.badgepirates.com/catalog/
   title: Catalog - BadgePirates Documents
   accessed: '2026-09-10'
   note: Confirms the CactusCon 13 (2025) repo link, listed as "Project CC13".
+  archived: https://web.archive.org/web/20260910225903/https://docs.badgepirates.com/catalog/#help-us-fill-the-gaps
 - kind: url
   url: https://docs.badgepirates.com/platform/esp32-s3/
   title: ESP32-S3 Reference - BadgePirates Documents
   accessed: '2026-09-10'
   note: Confirms ESP32-S3 hardware platform shared across CactusCon 13/14 and BSidesKC 2025/2026 badges; gives chip, MCU, and general shared spec (display/LEDs/battery) but does not confirm all specifics for the CC13 variant specifically.
+  archived: https://web.archive.org/web/20260910225919/https://docs.badgepirates.com/platform/esp32-s3/
 research:
   status: researched
   confidence: medium
