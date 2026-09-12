@@ -65,10 +65,12 @@ images:
   source: https://hackaday.io/project/167356-numberwang-badge
   credit: timonsku
   caption: The Numberwang Badge, lit up and worn on a lanyard at CCCamp19
+  archived: https://web.archive.org/web/20260907111101/https://hackaday.io/project/167356-numberwang-badge
 - file: assets/images/badges/cccamp-2019/numberwang-badge/00ca752b29.jpg
   source: https://hackaday.io/project/167356-numberwang-badge
   credit: timonsku
   caption: The Numberwang Badge PCB
+  archived: https://web.archive.org/web/20260907111101/https://hackaday.io/project/167356-numberwang-badge
 contact: {}
 notes: []
 status: released
@@ -84,11 +86,13 @@ sources:
   title: 'Numberwang-Badge repo: readme, BOM.csv, PCB/ (Eagle .sch/.brd), CPY/ (CircuitPython), bootloader and UF2 files'
   accessed: '2026-09-07'
   note: Confirms MCU (ATSAMD21G18), audio amp (MAX98357A I2S 3.2W mono amp), flash (Winbond W25Q16JVSSIQ), LiPo charging with reversed-polarity JST-PH 2.0, a known audio-circuit bug fixed with a bodge wire, and that the design is Adafruit Itsy Bitsy M0-compatible. BOM lists only two discrete 0805 LEDs (orange charge indicator, red status), not an addressable strip. Hardware is Eagle (.sch/.brd), not KiCad; no license file present.
+  archived: https://web.archive.org/web/20260907111136/https://github.com/timonsku/Numberwang-Badge
 - kind: url
   url: https://hackaday.io/project/167356-numberwang-badge
   title: Numberwang Badge - Hackaday.io
   accessed: '2026-09-07'
   note: Confirms it was made for the Numberwang village at CCCamp19, "does blinkies and sound," and that unpopulated PCBs were handed out directly by the maker to interested attendees. Project cover photo saved as an image.
+  archived: https://web.archive.org/web/20260907111101/https://hackaday.io/project/167356-numberwang-badge
 research:
   status: verified
   confidence: medium

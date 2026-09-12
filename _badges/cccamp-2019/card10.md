@@ -11,12 +11,18 @@ year: 2019
 makers:
 - name: Chaos Computer Club community
   url: https://card10.badge.events.ccc.de/
-summary: 'card10 is the official electronic badge of Chaos Communication Camp 2019, a wrist-worn "sensor playground" built around biosensing (ECG, pulse) rather than the usual LED blinkiness.'
-functions: 'Watch-face UI with a menu system, Bluetooth Low Energy pairing and companion apps, an on-device app store ("Hatchery"), ECG and optical pulse sensing, environmental sensing, and addressable RGB LED effects.'
+summary: card10 is the official electronic badge of Chaos Communication Camp 2019, a wrist-worn "sensor playground" built around biosensing (ECG, pulse) rather than the usual LED blinkiness.
+functions: Watch-face UI with a menu system, Bluetooth Low Energy pairing and companion apps, an on-device app store ("Hatchery"), ECG and optical pulse sensing, environmental sensing, and addressable RGB LED effects.
 look:
-  colors: [black, multicolor]
+  colors:
+  - black
+  - multicolor
   shape: rectangle
-  themes: [wearable, hardware tool, measurement, radio]
+  themes:
+  - wearable
+  - hardware tool
+  - measurement
+  - radio
 tech:
   mcu: MAX32666
   leds:
@@ -24,18 +30,22 @@ tech:
     type: SK9822-2020
     note: 11 RGB LEDs facing up, 4 RGB LEDs facing down
   display: 0.96" IPS LCD (ST7735, 80x160)
-  connectivity: [ble, usb, uart]
+  connectivity:
+  - ble
+  - usb
+  - uart
   battery: LiPo 200 mAh
   sao_version: null
 get_one:
-  price: 'not sold'
+  price: not sold
   price_usd: null
   quantity: ''
   availability: free
-  distribution: [free_drop]
+  distribution:
+  - free_drop
   where: Distributed to attendees of Chaos Communication Camp 2019; not sold ("No sale of card10s!"). A post-event card10 exchange point helped attendees swap for one.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://git.card10.badge.events.ccc.de/card10/hardware
   firmware_url: https://git.card10.badge.events.ccc.de/card10/firmware
   eda_tool: null
@@ -59,16 +69,18 @@ links:
 - label: 'Hackaday: card10 badge coverage'
   url: https://hackaday.com/tag/card10/
   kind: article
-  archived: null
+  archived: https://web.archive.org/web/20260512030842/https://hackaday.com/tag/card10/
 images:
-  - file: assets/images/badges/cccamp-2019/card10/a3d7eb06b3.jpg
-    source: "https://card10.badge.events.ccc.de/userguide/assembly/"
-    credit: "card10 community"
-    caption: "card10 badge assembled and worn as a wristband"
-  - file: assets/images/badges/cccamp-2019/card10/be93ba14d7.jpg
-    source: "https://card10.badge.events.ccc.de/"
-    credit: "card10 community"
-    caption: "card10 default watch-face display"
+- file: assets/images/badges/cccamp-2019/card10/a3d7eb06b3.jpg
+  source: https://card10.badge.events.ccc.de/userguide/assembly/
+  credit: card10 community
+  caption: card10 badge assembled and worn as a wristband
+  archived: https://web.archive.org/web/20260214025113/https://card10.badge.events.ccc.de/userguide/assembly/
+- file: assets/images/badges/cccamp-2019/card10/be93ba14d7.jpg
+  source: https://card10.badge.events.ccc.de/
+  credit: card10 community
+  caption: card10 default watch-face display
+  archived: https://web.archive.org/web/20260714144323/https://card10.badge.events.ccc.de/
 contact: {}
 notes:
 - Named from Greek kardía ('heart'); ECG sensor, optical pulse sensor, BLE, IMU+magnetometer, environmental sensor, watch-face UI; ongoing firmware releases post-event (e.g. 'Queer Quinoa' 2021).
@@ -86,12 +98,14 @@ sources:
   url: https://card10.badge.events.ccc.de/hardware/
   title: card10 Hardware
   accessed: '2026-09-07'
-  note: 'Confirmed MCU (MAX32666 dual-core Cortex-M4F @96MHz, 512kB RAM, 1MB flash + 8MB external storage), display (0.96" ST7735 IPS LCD, 80x160), battery (200 mAh LiPo), and LED count/type (11 up + 4 down, SK9822-2020).'
+  note: Confirmed MCU (MAX32666 dual-core Cortex-M4F @96MHz, 512kB RAM, 1MB flash + 8MB external storage), display (0.96" ST7735 IPS LCD, 80x160), battery (200 mAh LiPo), and LED count/type (11 up + 4 down, SK9822-2020).
+  archived: https://web.archive.org/web/20260208134652/https://card10.badge.events.ccc.de/hardware/
 - kind: url
   url: https://card10.badge.events.ccc.de/userguide/assembly/
   title: card10 Assembly
   accessed: '2026-09-07'
   note: Source of the assembled wristband photo used in this entry.
+  archived: https://web.archive.org/web/20260214025113/https://card10.badge.events.ccc.de/userguide/assembly/
 - kind: url
   url: https://firmware.card10.badge.events.ccc.de/overview.html
   title: card10 Firmware Overview
@@ -102,16 +116,18 @@ sources:
   title: card10 FAQ tl;dr
   accessed: '2026-09-07'
   note: Confirmed open-source hardware and firmware GitLab repo links and the Hatchery app store.
+  archived: https://web.archive.org/web/20260212010849/https://card10.badge.events.ccc.de/faq/tldr/
 - kind: url
   url: https://hackaday.com/tag/card10/
   title: 'Hackaday: card10 coverage'
   accessed: '2026-09-07'
   note: Confirmed MAX30001/MAX86150 ECG sensors, USB-C electrode kit accessory, and general description as a wearable sensor playground.
+  archived: https://web.archive.org/web/20260512030842/https://hackaday.com/tag/card10/
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-07'
-  notes: 'Maker''s own site and firmware docs confirmed core hardware facts. Price/quantity-made not published anywhere found; badge was given to attendees rather than sold. EDA tool for the hardware repo was not confirmed from the pages read.'
+  notes: Maker's own site and firmware docs confirmed core hardware facts. Price/quantity-made not published anywhere found; badge was given to attendees rather than sold. EDA tool for the hardware repo was not confirmed from the pages read.
 last_modified_date: '2026-09-07'
 ---
 

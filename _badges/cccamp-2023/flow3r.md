@@ -12,11 +12,14 @@ makers:
 - name: CCCamp23 Badge Team (Süd Ost Chaos)
   url: https://flow3r.garden/
 summary: 'The official badge of Chaos Communication Camp 2023: a flower-shaped electronic instrument that turns touch and gesture across its petals into sound and light.'
-functions: 'Touch- and gesture-controlled synth/light instrument, programmable in MicroPython; plays audio through built-in speakers and drives a 40-LED illuminated edge; can be re-flashed with custom apps.'
+functions: Touch- and gesture-controlled synth/light instrument, programmable in MicroPython; plays audio through built-in speakers and drives a 40-LED illuminated edge; can be re-flashed with custom apps.
 look:
-  colors: [multicolor]
+  colors:
+  - multicolor
   shape: flower
-  themes: [music, art]
+  themes:
+  - music
+  - art
 tech:
   mcu: ESP32-S3
   leds:
@@ -24,23 +27,25 @@ tech:
     type: RGB
     note: LEDs positioned along the badge's edge/petals
   display: round color display, 240x240
-  connectivity: [usb]
-  battery: 'optional battery pack, MCH2022-compatible connector; otherwise USB power (computer or power bank)'
+  connectivity:
+  - usb
+  battery: optional battery pack, MCH2022-compatible connector; otherwise USB power (computer or power bank)
   sao_version: null
 get_one:
-  price: '€32'
+  price: €32
   price_usd: null
   quantity: ''
   availability: sold_out
   availability_note: 'checked 2026-09-08: was sold alongside camp tickets in 2023, advance reservation required, covering ~50% of attendees; camp is over so no longer available'
-  distribution: [purchase]
-  where: 'Reserved and paid for (€32, manufacturing/assembly cost only) during CCCamp 2023 ticket purchase'
+  distribution:
+  - purchase
+  where: Reserved and paid for (€32, manufacturing/assembly cost only) during CCCamp 2023 ticket purchase
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://git.flow3r.garden/flow3r
   firmware_url: https://git.flow3r.garden/flow3r
   eda_tool: null
-  notes: 'Maker states electrical and mechanical design plus firmware are open source; docs at https://docs.flow3r.garden/, assembly guide at https://flow3r.garden/assembly'
+  notes: Maker states electrical and mechanical design plus firmware are open source; docs at https://docs.flow3r.garden/, assembly guide at https://flow3r.garden/assembly
 links:
 - label: events.ccc.de/camp/2023/hub/camp23/en/assembly/CCCamp23-BadgeTeam
   url: https://events.ccc.de/camp/2023/hub/camp23/en/assembly/CCCamp23-BadgeTeam/
@@ -48,32 +53,39 @@ links:
 - label: 'CCC Event Blog: Camp 2023 - The flow3r Badge'
   url: https://events.ccc.de/en/2023/06/05/camp23-the-flow3r-badge/
   kind: article
+  archived: https://web.archive.org/web/20260513094440/https://events.ccc.de/en/2023/06/05/camp23-the-flow3r-badge/
 - label: flow3r.garden
   url: https://flow3r.garden/
   kind: website
+  archived: https://web.archive.org/web/20260303013605/https://flow3r.garden/
 - label: flow3r docs
   url: https://docs.flow3r.garden/
   kind: doc
+  archived: https://web.archive.org/web/20251102220810/https://docs.flow3r.garden/
 - label: flow3r git (hardware + firmware)
   url: https://git.flow3r.garden/flow3r
   kind: repo
-- label: 'How to grow your flow3r (assembly instructions video)'
+  archived: https://web.archive.org/web/20260418195554/https://git.flow3r.garden/flow3r
+- label: How to grow your flow3r (assembly instructions video)
   url: https://media.ccc.de/v/camp2023-101-the-flow3r-badge-assembly-i
   kind: video
+  archived: https://web.archive.org/web/20260214111454/https://media.ccc.de/v/camp2023-101-the-flow3r-badge-assembly-i
 images:
-  - file: assets/images/badges/cccamp-2023/flow3r/b7616412b3.jpg
-    source: "https://events.ccc.de/en/2023/06/05/camp23-the-flow3r-badge/"
-    credit: "CCCamp23 Badge Team"
-    caption: "flow3r badge, flower-shaped with illuminated edge"
-  - file: assets/images/badges/cccamp-2023/flow3r/4515a02e0f.jpg
-    source: "https://events.ccc.de/en/2023/06/05/camp23-the-flow3r-badge/"
-    credit: "CCCamp23 Badge Team"
-    caption: "flow3r badge, worn/held view"
+- file: assets/images/badges/cccamp-2023/flow3r/b7616412b3.jpg
+  source: https://events.ccc.de/en/2023/06/05/camp23-the-flow3r-badge/
+  credit: CCCamp23 Badge Team
+  caption: flow3r badge, flower-shaped with illuminated edge
+  archived: https://web.archive.org/web/20260513094440/https://events.ccc.de/en/2023/06/05/camp23-the-flow3r-badge/
+- file: assets/images/badges/cccamp-2023/flow3r/4515a02e0f.jpg
+  source: https://events.ccc.de/en/2023/06/05/camp23-the-flow3r-badge/
+  credit: CCCamp23 Badge Team
+  caption: flow3r badge, worn/held view
+  archived: https://web.archive.org/web/20260513094440/https://events.ccc.de/en/2023/06/05/camp23-the-flow3r-badge/
 contact:
   mastodon: '@flow3rbadge@chaos.social'
   matrix: '#flow3rbadge:events.ccc.de'
 notes:
-- Original sweep summary: "Official ESP32-S3 flower-shaped touch/gesture badge of Chaos Communication Camp 2023 that turns touch and motion into sound and light. Found by the event-year sweep, task cccamp."
+- Original sweep summary: Official ESP32-S3 flower-shaped touch/gesture badge of Chaos Communication Camp 2023 that turns touch and motion into sound and light. Found by the event-year sweep, task cccamp.
 status: released
 sources:
 - kind: url
@@ -83,24 +95,27 @@ sources:
   note: 'Found by the archive''s discovery sweep (angle: sweep:cccamp); event read as ''cccamp-2023''.'
 - kind: url
   url: https://events.ccc.de/en/2023/06/05/camp23-the-flow3r-badge/
-  title: 'Camp 2023 - The flow3r Badge'
+  title: Camp 2023 - The flow3r Badge
   accessed: '2026-09-08'
   note: 'Official CCC blog post: price (€32), sale mechanism via ticket reservation for ~50% of attendees, open-source statement, contact handles, images.'
+  archived: https://web.archive.org/web/20260513094440/https://events.ccc.de/en/2023/06/05/camp23-the-flow3r-badge/
 - kind: url
   url: https://flow3r.garden/
   title: flow3r
   accessed: '2026-09-08'
-  note: 'Maker landing page; links to docs, assembly guide, and git repo.'
+  note: Maker landing page; links to docs, assembly guide, and git repo.
+  archived: https://web.archive.org/web/20260303013605/https://flow3r.garden/
 - kind: url
   url: https://docs.flow3r.garden/
   title: flow3r docs (referenced)
   accessed: '2026-09-08'
-  note: 'Referenced from flow3r.garden as the hardware/firmware documentation site; not separately fetched.'
+  note: Referenced from flow3r.garden as the hardware/firmware documentation site; not separately fetched.
+  archived: https://web.archive.org/web/20251102220810/https://docs.flow3r.garden/
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-08'
-  notes: 'Core facts (chip, LEDs, display, price, open-source status) confirmed on the CCC event blog and flow3r.garden. Exact production quantity not stated anywhere found (only that badges covered roughly half of camp tickets); left empty. Precise LED note (edge vs petal placement) is paraphrased from press description, not an exact maker spec sheet. A separate community-modified variant, "anal0g flow3r" by wenzellabs, already has its own entry (cccamp-2023-anal0g-flow3r) and is distinct from this one.'
+  notes: Core facts (chip, LEDs, display, price, open-source status) confirmed on the CCC event blog and flow3r.garden. Exact production quantity not stated anywhere found (only that badges covered roughly half of camp tickets); left empty. Precise LED note (edge vs petal placement) is paraphrased from press description, not an exact maker spec sheet. A separate community-modified variant, "anal0g flow3r" by wenzellabs, already has its own entry (cccamp-2023-anal0g-flow3r) and is distinct from this one.
 last_modified_date: '2026-09-08'
 ---
 

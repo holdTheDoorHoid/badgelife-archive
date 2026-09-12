@@ -10,8 +10,8 @@ event: cccamp-2011
 year: 2011
 makers:
 - name: Team r0ket (hme et al.)
-summary: 'The official electronic badge of Chaos Communication Camp 2011 (and the 28th Chaos Communication Congress), and a full-featured ARM microcontroller dev board in its own right.'
-functions: 'Runs user-written "l0dables" (loadable programs); demos and community software include games such as a Space Invaders clone. Communicates with other r0kets over its onboard 2.4GHz radio.'
+summary: The official electronic badge of Chaos Communication Camp 2011 (and the 28th Chaos Communication Congress), and a full-featured ARM microcontroller dev board in its own right.
+functions: Runs user-written "l0dables" (loadable programs); demos and community software include games such as a Space Invaders clone. Communicates with other r0kets over its onboard 2.4GHz radio.
 look:
   colors:
   - black
@@ -29,7 +29,7 @@ tech:
   connectivity:
   - usb
   - i2c
-  battery: 'custom 3.7V 600mAh rechargeable LiPo'
+  battery: custom 3.7V 600mAh rechargeable LiPo
   sao_version: null
 get_one:
   price: ''
@@ -40,27 +40,31 @@ get_one:
   where: ''
 make_your_own:
   open_source: 'yes'
-  hardware_url: 'https://github.com/r0ket/r0ket'
-  firmware_url: 'https://github.com/r0ket/r0ket'
+  hardware_url: https://github.com/r0ket/r0ket
+  firmware_url: https://github.com/r0ket/r0ket
   eda_tool: null
 links:
 - label: github.com/r0ket/r0ket
   url: https://github.com/r0ket/r0ket
   kind: repo
+  archived: https://web.archive.org/web/20260603192725/https://github.com/r0ket/r0ket
 - label: r0ket wiki (badge.events.ccc.de)
   url: https://r0ket.badge.events.ccc.de/
   kind: doc
+  archived: https://web.archive.org/web/20260713154947/https://r0ket.badge.events.ccc.de/
 - label: r0ket hardware specs
   url: https://r0ket.badge.events.ccc.de/hardware
   kind: doc
+  archived: https://web.archive.org/web/20260509205607/https://r0ket.badge.events.ccc.de/hardware
 images:
 - file: assets/images/badges/cccamp-2011/r0ket/34d95bab03.jpg
-  source: "https://r0ket.badge.events.ccc.de/"
-  credit: "r0ket project / CCC"
-  caption: "r0ket badge, rocket-shaped PCB with monochrome LCD showing a Space Invaders demo"
+  source: https://r0ket.badge.events.ccc.de/
+  credit: r0ket project / CCC
+  caption: r0ket badge, rocket-shaped PCB with monochrome LCD showing a Space Invaders demo
+  archived: https://web.archive.org/web/20260713154947/https://r0ket.badge.events.ccc.de/
 contact: {}
 notes:
-- 'Sweep (task cccamp) originally described this as "an ARM-based microcontroller dev board with e-paper-style display, ~3000 units distributed" — the ARM/dev-board part checks out, but the display is a standard monochrome LCD (not e-paper), and no source found confirms a unit count, so quantity is left blank rather than guessed.'
+- Sweep (task cccamp) originally described this as "an ARM-based microcontroller dev board with e-paper-style display, ~3000 units distributed" — the ARM/dev-board part checks out, but the display is a standard monochrome LCD (not e-paper), and no source found confirms a unit count, so quantity is left blank rather than guessed.
 status: released
 sources:
 - kind: url
@@ -68,31 +72,34 @@ sources:
   title: r0ket
   accessed: '2026-09-07'
   note: 'Found by the archive''s discovery sweep (angle: sweep:cccamp); event read as ''cccamp-2011''.'
+  archived: https://web.archive.org/web/20260603192725/https://github.com/r0ket/r0ket
 - kind: url
   url: https://github.com/hme/r0ket
   title: hme/r0ket
   accessed: '2026-09-08'
-  note: 'README confirms the r0ket was the badge for both Chaos Communication Camp 2011 and 28C3 (28th Chaos Communication Congress); repo is open source.'
+  note: README confirms the r0ket was the badge for both Chaos Communication Camp 2011 and 28C3 (28th Chaos Communication Congress); repo is open source.
 - kind: url
   url: https://r0ket.badge.events.ccc.de/hardware
   title: hardware [r0ket]
   accessed: '2026-09-08'
   note: 'Official hardware spec page: LPC1343 MCU, Nokia 1200/PCF8814 LCD, 4 LEDs, nRF24L01+ radio, LiPo battery, AT45DB041B flash, five-way nav switch, m0dulbus/Hackerbus expansion.'
+  archived: https://web.archive.org/web/20260509205607/https://r0ket.badge.events.ccc.de/hardware
 - kind: url
   url: https://r0ket.badge.events.ccc.de/
   title: start [r0ket]
   accessed: '2026-09-08'
-  note: 'Confirms it is a badge/dev-board platform running loadable "l0dables"; source of the Space Invaders photo.'
+  note: Confirms it is a badge/dev-board platform running loadable "l0dables"; source of the Space Invaders photo.
+  archived: https://web.archive.org/web/20260713154947/https://r0ket.badge.events.ccc.de/
 - kind: url
   url: https://badge.gallery/series/ccc-camp
   title: Chaos Communication Camp - Hacker Con Badges
   accessed: '2026-09-08'
-  note: 'Third-party confirmation of event/year and that r0ket established the CCC Camp badge tradition rad1o later continued.'
+  note: Third-party confirmation of event/year and that r0ket established the CCC Camp badge tradition rad1o later continued.
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-08'
-  notes: 'Core facts (event, MCU, display, LEDs, radio, battery, storage, open-source status) confirmed on the maker''s own wiki and GitHub repo. Price, quantity made, and distribution method were not stated on any source found and are left blank. sao_version left null since this is a standalone badge, not an SAO host (no SAO header mentioned in the hardware docs). connectivity limited to usb/i2c per the controlled vocabulary; the nRF24L01+ 2.4GHz radio and m0dulbus/Hackerbus expansion (SPI, I2C, GPIO) are noted in tech.leds-adjacent free text and functions/summary instead since "rf" and "spi" are not in the connectivity vocabulary list.'
+  notes: Core facts (event, MCU, display, LEDs, radio, battery, storage, open-source status) confirmed on the maker's own wiki and GitHub repo. Price, quantity made, and distribution method were not stated on any source found and are left blank. sao_version left null since this is a standalone badge, not an SAO host (no SAO header mentioned in the hardware docs). connectivity limited to usb/i2c per the controlled vocabulary; the nRF24L01+ 2.4GHz radio and m0dulbus/Hackerbus expansion (SPI, I2C, GPIO) are noted in tech.leds-adjacent free text and functions/summary instead since "rf" and "spi" are not in the connectivity vocabulary list.
 last_modified_date: '2026-09-08'
 ---
 

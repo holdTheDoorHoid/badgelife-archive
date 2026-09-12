@@ -43,7 +43,7 @@ get_one:
   - kit
   where: Sold as a soldering kit through the maker's Lectronz store; includes PCB, components, CR2032 battery, slide switch, and a choice of lanyard color.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://codeberg.org/wenzellabs/anal0g_flow3r
   firmware_url: null
   eda_tool: KiCad
@@ -56,21 +56,23 @@ links:
 - label: github.com/wenzellabs/anal0g_flow3r
   url: https://github.com/wenzellabs/anal0g_flow3r
   kind: repo
+  archived: https://web.archive.org/web/20260406075533/https://github.com/wenzellabs/anal0g_flow3r
 - label: lectronz.com/products/anal0g-flow3r
   url: https://lectronz.com/products/anal0g-flow3r
   kind: store
 - label: wenzellabs.de
   url: https://wenzellabs.de/
   kind: website
+  archived: https://web.archive.org/web/20260606023158/https://wenzellabs.de/
 images:
-  - file: assets/images/badges/cccamp-2023/anal0g-flow3r/1d6039f1d1.jpg
-    source: "https://codeberg.org/wenzellabs/anal0g_flow3r"
-    credit: "wenzellabs"
-    caption: "anal0g flow3r front, purple flower-shaped PCB with 5 amber LED petals"
-  - file: assets/images/badges/cccamp-2023/anal0g-flow3r/870dec274e.jpg
-    source: "https://codeberg.org/wenzellabs/anal0g_flow3r"
-    credit: "wenzellabs"
-    caption: "anal0g flow3r animated: LEDs pulsing sequentially around the petals"
+- file: assets/images/badges/cccamp-2023/anal0g-flow3r/1d6039f1d1.jpg
+  source: https://codeberg.org/wenzellabs/anal0g_flow3r
+  credit: wenzellabs
+  caption: anal0g flow3r front, purple flower-shaped PCB with 5 amber LED petals
+- file: assets/images/badges/cccamp-2023/anal0g-flow3r/870dec274e.jpg
+  source: https://codeberg.org/wenzellabs/anal0g_flow3r
+  credit: wenzellabs
+  caption: 'anal0g flow3r animated: LEDs pulsing sequentially around the petals'
 contact: {}
 notes:
 - Confirmed via the maker's own Codeberg repo and Lectronz storefront (the original sweep saw only a search snippet).
@@ -90,12 +92,13 @@ sources:
   url: https://lectronz.com/products/anal0g-flow3r
   title: anal0g flow3r by wenzellabs - Lectronz
   accessed: '2026-09-10'
-  note: 'Maker''s storefront — confirms it is a tribute to the 2023 CCCamp flow3r badge, price ($13.98, $11.88 at 10+), kit contents (PCB, components, CR2032, lanyard color choices), and stock (10 available).'
+  note: Maker's storefront — confirms it is a tribute to the 2023 CCCamp flow3r badge, price ($13.98, $11.88 at 10+), kit contents (PCB, components, CR2032, lanyard color choices), and stock (10 available).
 - kind: url
   url: https://wenzellabs.de/
   title: wenzellabs - HW / SW / FW dev & own products
   accessed: '2026-09-10'
   note: Maker's own site, confirms wenzellabs (Matthias Wenzel) as the identity behind the project.
+  archived: https://web.archive.org/web/20260606023158/https://wenzellabs.de/
 research:
   status: researched
   confidence: high
