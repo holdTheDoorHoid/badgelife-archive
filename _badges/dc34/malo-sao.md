@@ -118,9 +118,19 @@ research:
   confidence: medium
   last_checked: '2026-09-06'
   notes: 'This entry duplicates dc34-malo (same maker ParallelLogic, same GitHub repo MalO_SAO, same product); the sheet appears to have two rows for one item (row 21 "New" vs row 58 "Update to Existing"). Filled in independently per instructions. LED count/type is uncertain: the GitHub repo''s own text describes only a red-green LED plus IR transmit/receive, while the Uberflux storefront advertises "over 50 LEDs" and customizable animations; could not resolve which is accurate without opening the repo''s schematic/BOM files, so tech.leds.type is left null. tech.battery, tech.sao_version, and look.colors/look.shape could not be confirmed from the sources checked. Merged with duplicate entry ''MalO SAO'' (dc34-malo).'
-last_modified_date: '2026-09-06'
+last_modified_date: '2026-09-11'
 redirect_from:
 - /badges/dc34/malo/
+model:
+  file: assets/models/dc34/malo-sao.glb
+  method: gerber
+  source_file: fab/r3/clean
+  generated: '2026-09-11'
+  bytes: 34192
+  size_mm:
+  - 91.2
+  - 96.7
+  note: The published files have no board outline, so the model is shown on a rectangular board.
 ---
 
 The MalO SAO is a shitty add-on from ParallelLogic themed on the SCP Foundation's SCP-1471-A, made for DEF CON 34. It centers on an RP2350B dual-core microcontroller driving a 1.5" 128x128 grayscale OLED, and layers on capacitive touch buttons, an IMU, a light sensor, a hall-effect sensor, a microphone, a buzzer, a vibration motor, and NFC/RFID support. A standout feature is infrared transmit/receive hardware used for an "IR Chat" mode, letting badges holding a MalO SAO exchange messages with each other over IR. The board is USB-C hackable and reprogrammable through the Arduino IDE.

@@ -353,19 +353,18 @@
   "tried": []
  },
  "dc32-purple-cyclops": {
-  "status": "failed",
-  "tried": [
-   "gerber Gerber_Purple_Cyclops_Bottom_View_LEDs_unz: render is empty",
-   "gerber Gerber_Purple_Cyclops_Side_View_LEDs_unz: tracespace produced no board render: o `drill` and parse as a drill file\n  l\n  tracespace --quiet                        Do not print info to stderr\n\nYou may al"
-  ]
+  "status": "ok",
+  "method": "gerber",
+  "bytes": 93388,
+  "tried": [],
+  "src": "clean"
  },
  "dc34-malo-sao": {
-  "status": "failed",
-  "tried": [
-   "gerber Gerber_PCB1_2026-03-30_unz: tracespace produced no board render: o `drill` and parse as a drill file\n  l\n  tracespace --quiet                        Do not print info to stderr\n\nYou may al",
-   "gerber Gerber_PCB1_2026-06-30_unz: render is empty",
-   "gerber Gerber_PCB1_2026-06-13_unz: tracespace produced no board render: o `drill` and parse as a drill file\n  l\n  tracespace --quiet                        Do not print info to stderr\n\nYou may al"
-  ]
+  "status": "ok",
+  "method": "gerber",
+  "bytes": 34192,
+  "tried": [],
+  "src": "fab/r3/clean"
  },
  "fri3d-2018-fri3d-2018-air-jewel": {
   "status": "ok",
@@ -1203,8 +1202,11 @@
   "src": "makerspace-badge/makerspace-badge.kicad_pcb"
  },
  "fri3d-2024-communicator-2024-add-on-lana-module": {
-  "status": "failed",
-  "tried": []
+  "status": "ok",
+  "method": "gerber",
+  "bytes": 117940,
+  "tried": [],
+  "src": "Hardware/Fri3d_2024_Exp0_01/OUTPUT/clean"
  },
  "fri3d-2024-flamingo-blaster-2024-big-flamingo-gun-9000": {
   "status": "ok",
@@ -1221,8 +1223,11 @@
   "src": "Hardware/Fri3d_2026_DJ_00/OUTPUT/Gerber"
  },
  "fri3d-2026-fri3d-camp-2026-badge": {
-  "status": "failed",
-  "tried": []
+  "status": "ok",
+  "method": "gerber",
+  "bytes": 164400,
+  "tried": [],
+  "src": "Fri3d_2026_Badge_00/OUTPUT/clean"
  },
  "fri3d-2026-lora-expansion-2026-wio-sx1262": {
   "status": "failed",

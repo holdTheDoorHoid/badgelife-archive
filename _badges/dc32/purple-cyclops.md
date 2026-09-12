@@ -79,7 +79,16 @@ research:
   last_checked: '2026-09-07'
   notes: 'Fact-check (2026-09-07): confirmed maker, event, dimensions, LED count/parts (Inolux and Wurth SMD LEDs), 10-ohm resistor, EasyEDA Gerber files for both variants, no-MCU/no-firmware, and the side-view polarity bug by re-fetching the Hackaday.io project page directly. Found and fixed two errors: (1) the two saved images had swapped captions — the file hashed 3736986300 is actually the bottom-view PCB render and 1ade8b5775 is the side-view render, opposite of what was recorded; both are gerber/schematic renders from the page, not photos of an assembled badge, so captions were also updated to say so. (2) removed the "sci-fi" look.theme tag: the project page never describes the character thematically (it just says it is an AI-generated cyclops image), so that tag was an unsupported guess rather than something sourced. Everything else in the entry checked out. Price, quantity made beyond "two small batches," and distribution/availability are still not stated on the project page and
     remain blank; status "released" is inferred from the two batches having been fabricated for a specific past con rather than an explicit statement that attendees received one, so status is left as researched rather than verified.'
-last_modified_date: '2026-09-07'
+last_modified_date: '2026-09-11'
+model:
+  file: assets/models/dc32/purple-cyclops.glb
+  method: gerber
+  source_file: clean
+  generated: '2026-09-11'
+  bytes: 93388
+  size_mm:
+  - 44.5
+  - 44.9
 ---
 
 The Purple Cyclops is a Simple Add-On (SAO) made by Oakmizer for DEF CON 32 (2024). At about 45mm, it uses JLCPCB's multicolor silkscreen process to render an AI-generated cyclops character directly on the board, with four SMD LEDs (two red, two amber) lighting the design from behind through the PCB substrate.

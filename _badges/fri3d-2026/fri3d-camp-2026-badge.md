@@ -36,7 +36,7 @@ get_one:
   distribution: []
   where: Given to every Fri3d Camp 2026 attendee; not sold separately as far as sources show.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/Fri3dCamp/badge_2026_hw
   firmware_url: https://github.com/Fri3dCamp/badge_firmware_MicroPythonOS
   eda_tool: null
@@ -55,13 +55,13 @@ links:
   kind: website
 images:
 - file: assets/images/badges/fri3d-2026/fri3d-camp-2026-badge/1d3cbea340.png
-  source: "https://github.com/Fri3dCamp/badge_2026_hw"
-  credit: "Fri3d Camp"
-  caption: "Fri3d Camp 2026 badge, front"
+  source: https://github.com/Fri3dCamp/badge_2026_hw
+  credit: Fri3d Camp
+  caption: Fri3d Camp 2026 badge, front
 - file: assets/images/badges/fri3d-2026/fri3d-camp-2026-badge/1d44a42599.png
-  source: "https://github.com/Fri3dCamp/badge_2026_hw"
-  credit: "Fri3d Camp"
-  caption: "Fri3d Camp 2026 badge, back"
+  source: https://github.com/Fri3dCamp/badge_2026_hw
+  credit: Fri3d Camp
+  caption: Fri3d Camp 2026 badge, back
 contact: {}
 notes:
 - Open-hardware ESP32-S3 maker badge for Fri3d Camp's sixth edition (14-16 Aug 2026) with 2-inch IPS touchscreen, 6-axis IMU, LoRa option and MicroPythonOS firmware. Found by the event-year sweep, task fri3d.
@@ -76,23 +76,32 @@ sources:
   url: https://raw.githubusercontent.com/Fri3dCamp/badge_2026_hw/main/README.md
   title: Fri3dCamp/badge_2026_hw README
   accessed: '2026-09-08'
-  note: 'Confirmed MCU (ESP32-S3-WROOM-1-N16R8), display, IMU, buttons/joystick, microSD, audio jack, secondary CH32X035 controller, optional LoRa module, 2000mAh LiPo battery, TP4056 charging, SAO header (v1.69bis), and expansion connector for 2022/2024 blaster add-ons.'
+  note: Confirmed MCU (ESP32-S3-WROOM-1-N16R8), display, IMU, buttons/joystick, microSD, audio jack, secondary CH32X035 controller, optional LoRa module, 2000mAh LiPo battery, TP4056 charging, SAO header (v1.69bis), and expansion connector for 2022/2024 blaster add-ons.
 - kind: url
   url: https://github.com/Fri3dCamp/badge_firmware_MicroPythonOS
   title: Fri3d Camp Badge firmware based on MicroPythonOS
   accessed: '2026-09-08'
-  note: 'Confirms firmware is MicroPythonOS with a Retro-Go gaming partition, shared with the 2024 badge.'
+  note: Confirms firmware is MicroPythonOS with a Retro-Go gaming partition, shared with the 2024 badge.
 - kind: url
   url: https://fri3d.be/en/badge/
-  title: 'Badge 2026 | Fri3d Camp 2026'
+  title: Badge 2026 | Fri3d Camp 2026
   accessed: '2026-09-08'
-  note: 'Confirms every Fri3d Camp 2026 participant receives the badge; no price, quantity or non-attendee availability stated.'
+  note: Confirms every Fri3d Camp 2026 participant receives the badge; no price, quantity or non-attendee availability stated.
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-08'
-  notes: 'Price, quantity produced, and whether it is ever sold to non-attendees were not stated anywhere found; left empty. tech.leds left null — no onboard addressable LEDs mentioned in the hardware README (only buttons/buzzer/joystick). eda_tool not stated in the repo docs checked.'
-last_modified_date: '2026-09-08'
+  notes: Price, quantity produced, and whether it is ever sold to non-attendees were not stated anywhere found; left empty. tech.leds left null — no onboard addressable LEDs mentioned in the hardware README (only buttons/buzzer/joystick). eda_tool not stated in the repo docs checked.
+last_modified_date: '2026-09-11'
+model:
+  file: assets/models/fri3d-2026/fri3d-camp-2026-badge.glb
+  method: gerber
+  source_file: Fri3d_2026_Badge_00/OUTPUT/clean
+  generated: '2026-09-11'
+  bytes: 164400
+  size_mm:
+  - 119.0
+  - 61.0
 ---
 
 The Fri3d Camp 2026 badge is the sixth main badge produced by Fri3d Camp, the Belgian hacker/maker camp, for its August 2026 event. It is built around an Espressif ESP32-S3-WROOM-1-N16R8 module (dual-core Xtensa LX7 at 240MHz, 16MB flash, 8MB PSRAM) with built-in Wi-Fi and Bluetooth 5, which removes the need for the separate USB-serial bridge chip earlier Fri3d badges required. A 2-inch IPS touchscreen LCD is the main display, backed by a 6-axis IMU, a joystick, multiple push buttons, a buzzer, a microSD slot, a 3.5mm TRRS audio jack, and a secondary CH32X035 microcontroller that handles extra I/O. Power comes from a 2000mAh LiPo cell charged over USB-C via a TP4056 charger, with a second regulator letting the Wi-Fi radio be power-gated separately to save battery.

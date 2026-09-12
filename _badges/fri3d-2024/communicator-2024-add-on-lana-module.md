@@ -36,7 +36,7 @@ get_one:
   - kit
   where: Distributed to Fri3d Camp 2024 attendees as an add-on kit for the badge; self-assembled (solder the speaker and headers, mount the silicone keyboard).
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/Fri3dCamp/communicator_2024
   firmware_url: https://github.com/Fri3dCamp/communicator_2024
   eda_tool: null
@@ -57,21 +57,16 @@ links:
   kind: website
 images:
 - file: assets/images/badges/fri3d-2024/communicator-2024-add-on-lana-module/f1f394e4df.png
-  source: "https://github.com/Fri3dCamp/communicator_2024"
-  credit: "Fri3d Camp"
-  caption: "Assembled Communicator 2024 add-on with keyboard and speaker"
+  source: https://github.com/Fri3dCamp/communicator_2024
+  credit: Fri3d Camp
+  caption: Assembled Communicator 2024 add-on with keyboard and speaker
 - file: assets/images/badges/fri3d-2024/communicator-2024-add-on-lana-module/1411d6835b.jpg
-  source: "https://fri3dcamp.github.io/badge_2024/en/communicator/"
-  credit: "Fri3d Camp"
-  caption: "Communicator 2024 add-on kit contents"
+  source: https://fri3dcamp.github.io/badge_2024/en/communicator/
+  credit: Fri3d Camp
+  caption: Communicator 2024 add-on kit contents
 contact: {}
 notes:
-- 'The event-year sweep''s snippet described this as a "LoRa-based" communicator; that appears to be a
-  misreading of "LANA" (the name of the small CH32V203-based controller board used here) as "LoRa". The
-  maker''s own pages and GitHub repo confirm no radio module or display is present — it is a keyboard
-  and audio (mic + speaker) add-on. The sweep also titled the entry "Communicator (2024 add-on, LANA
-  Module)"; the maker''s site just calls it "Communicator", so the title has been shortened to match
-  while keeping "LANA" details in the tech/make_your_own fields.'
+- The event-year sweep's snippet described this as a "LoRa-based" communicator; that appears to be a misreading of "LANA" (the name of the small CH32V203-based controller board used here) as "LoRa". The maker's own pages and GitHub repo confirm no radio module or display is present — it is a keyboard and audio (mic + speaker) add-on. The sweep also titled the entry "Communicator (2024 add-on, LANA Module)"; the maker's site just calls it "Communicator", so the title has been shortened to match while keeping "LANA" details in the tech/make_your_own fields.
 status: released
 sources:
 - kind: url
@@ -94,7 +89,17 @@ research:
   confidence: high
   last_checked: '2026-09-10'
   notes: Price and quantity made are not published anywhere found; left empty. No SAO header (this plugs into the badge's own connector, not a generic SAO port), so sao_version left null. Confirmed real (not a search-snippet-only rumor); corrected the sweep's mistaken "LoRa" characterization.
-last_modified_date: '2026-09-10'
+last_modified_date: '2026-09-11'
+model:
+  file: assets/models/fri3d-2024/communicator-2024-add-on-lana-module.glb
+  method: gerber
+  source_file: Hardware/Fri3d_2024_Exp0_01/OUTPUT/clean
+  generated: '2026-09-11'
+  bytes: 117940
+  size_mm:
+  - 99.0
+  - 106.0
+  note: The published files have no board outline, so the model is shown on a rectangular board.
 ---
 
 The Communicator is an official add-on for the Fri3d Camp 2024 badge, given out to camp attendees as a self-assembly kit. At its core is the LANA TNY, a small RISC-V (CH32V203G6U6) controller board that reads a backlit silicone QWERTY keyboard designed by Solder Party and drives a microphone/speaker pair for basic audio input and output. Once assembled and clipped onto the badge, it behaves as a HID keyboard, sending 8-byte HID report packets over USB, I2C, or UART; the keyboard can also work as a standalone USB keyboard when unplugged from the badge (though not while it's still connected).
