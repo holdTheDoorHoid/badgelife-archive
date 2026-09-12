@@ -10,8 +10,8 @@ event: dc24
 year: 2016
 makers:
 - name: 1o57 (Ryan Clarke) and Rick Galinson
-summary: 'The winner''s Black Badge for DEF CON 24 (2016), awarded to whoever solved that year''s badge puzzle series and granting free lifetime admission to the conference. Unlike the robot-skull electronic badge worn by regular attendees, it is a black skull piece with an articulating mechanical eye-worm that pops out of it, co-designed by badge lead 1o57 with Hollywood special-effects artist Rick Galinson.'
-functions: 'Serves as proof of a DEF CON black-badge win (free lifetime conference admission); its notable feature is a mechanical articulating eye that emerges from the skull, a practical-effects mechanism rather than an electronic one.'
+summary: The winner's Black Badge for DEF CON 24 (2016), awarded to whoever solved that year's badge puzzle series and granting free lifetime admission to the conference. Unlike the robot-skull electronic badge worn by regular attendees, it is a black skull piece with an articulating mechanical eye-worm that pops out of it, co-designed by badge lead 1o57 with Hollywood special-effects artist Rick Galinson.
+functions: Serves as proof of a DEF CON black-badge win (free lifetime conference admission); its notable feature is a mechanical articulating eye that emerges from the skull, a practical-effects mechanism rather than an electronic one.
 look:
   colors:
   - black
@@ -33,7 +33,7 @@ get_one:
   availability: limited
   distribution:
   - contest
-  where: 'Not sold; awarded as a prize to the solver(s) of the DEF CON 24 badge challenge.'
+  where: Not sold; awarded as a prize to the solver(s) of the DEF CON 24 badge challenge.
 make_your_own:
   open_source: null
   hardware_url: null
@@ -43,9 +43,11 @@ links:
 - label: hackaday.com/2016/08/05/def-cons-x86-badge
   url: https://hackaday.com/2016/08/05/def-cons-x86-badge/
   kind: article
+  archived: https://web.archive.org/web/20251008134802/https://hackaday.com/2016/08/05/def-cons-x86-badge/
 - label: engadget.com/2016-08-13-def-con-2016-badges
   url: https://www.engadget.com/2016-08-13-def-con-2016-badges.html
   kind: article
+  archived: https://web.archive.org/web/20251123121916/https://www.engadget.com/2016-08-13-def-con-2016-badges.html
 images: []
 contact: {}
 notes:
@@ -58,16 +60,18 @@ sources:
   title: DEF CON 24 Black Badge
   accessed: '2026-09-07'
   note: 'Found by the archive''s discovery sweep (angle: sweep:dc24-all); event read as ''dc24''. Note: this article is actually about the general DC24 badge, not the black badge.'
+  archived: https://web.archive.org/web/20251008134802/https://hackaday.com/2016/08/05/def-cons-x86-badge/
 - kind: url
   url: https://www.engadget.com/2016-08-13-def-con-2016-badges.html
   title: The incredibly intricate badges of Def Con
   accessed: '2026-09-08'
-  note: 'Confirms the black badge''s articulating eye-worm/black skull design, credits 1o57 (Ryan Clarke) and Rick Galinson, and gives context on the DC24 badge suite.'
+  note: Confirms the black badge's articulating eye-worm/black skull design, credits 1o57 (Ryan Clarke) and Rick Galinson, and gives context on the DC24 badge suite.
+  archived: https://web.archive.org/web/20251123121916/https://www.engadget.com/2016-08-13-def-con-2016-badges.html
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-08'
-  notes: 'No source gives price, quantity, electronics, or design-file details for the Black Badge specifically (it appears to be a one-off practical-effects/mechanical piece rather than a PCB with a chip, unlike the regular attendee badge). No photo of the Black Badge itself was found in the sources checked (Engadget''s "demoing the Black Badge" reference is to an embedded video, not a still image); the entry''s original Hackaday source link covers the general DC24 badge, not the Black Badge, and is kept for context only.'
+  notes: No source gives price, quantity, electronics, or design-file details for the Black Badge specifically (it appears to be a one-off practical-effects/mechanical piece rather than a PCB with a chip, unlike the regular attendee badge). No photo of the Black Badge itself was found in the sources checked (Engadget's "demoing the Black Badge" reference is to an embedded video, not a still image); the entry's original Hackaday source link covers the general DC24 badge, not the Black Badge, and is kept for context only.
 last_modified_date: '2026-09-08'
 ---
 

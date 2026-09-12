@@ -11,8 +11,8 @@ year: 2016
 makers:
 - name: borgel
   url: https://github.com/borgel
-summary: 'A dragonfly-shaped electronic pin, inspired by the cloisonne dragonfly pins in Neal Stephenson''s "The Diamond Age," that trades infrared beacons with nearby units to synchronize their light shows.'
-functions: 'Runs an LED animation and, over IR, exchanges a periodic beacon with other Sympetrum pins in range so their animations sync to a shared clock; a lone pin instead plays randomized colors.'
+summary: A dragonfly-shaped electronic pin, inspired by the cloisonne dragonfly pins in Neal Stephenson's "The Diamond Age," that trades infrared beacons with nearby units to synchronize their light shows.
+functions: Runs an LED animation and, over IR, exchanges a periodic beacon with other Sympetrum pins in range so their animations sync to a shared clock; a lone pin instead plays randomized colors.
 look:
   colors: []
   shape: dragonfly
@@ -58,22 +58,25 @@ sources:
   url: https://github.com/borgel/sympetrum
   title: 'borgel/sympetrum: HW documents and firmware for the Sympetrum pins'
   accessed: '2026-09-07'
-  note: 'README confirms the concept (Diamond Age dragonfly pin, IR-synced light show), Cypress PSoC MCU, and points to hardware files hosted on Upverter (v0.2) with a note that "baked gerbers" were not yet available; commit history on this repo is dated August 2016 ("ks/fw-at-defcon" branch), consistent with DEF CON 24.'
+  note: README confirms the concept (Diamond Age dragonfly pin, IR-synced light show), Cypress PSoC MCU, and points to hardware files hosted on Upverter (v0.2) with a note that "baked gerbers" were not yet available; commit history on this repo is dated August 2016 ("ks/fw-at-defcon" branch), consistent with DEF CON 24.
 - kind: url
   url: https://github.com/borgel/sympetrum-v2
   title: 'borgel/sympetrum-v2: A communicative piece of wearable electronics'
   accessed: '2026-09-07'
-  note: 'Later, distinct hardware revision (STM32 + APA102 LEDs) covered separately; not used to fill v1 fields.'
+  note: Later, distinct hardware revision (STM32 + APA102 LEDs) covered separately; not used to fill v1 fields.
+  archived: https://web.archive.org/web/20251009013306/https://github.com/borgel/sympetrum-v2/
 - kind: url
   url: https://hackaday.com/2017/07/14/badge-from-diamond-age-comes-to-def-con/
-  title: 'Badge From Diamond Age Comes To DEF CON'
+  title: Badge From Diamond Age Comes To DEF CON
   accessed: '2026-09-07'
-  note: 'Covers the v2 hardware (STM32 driving ten APA102 modules) ahead of DEF CON 25 (2017); confirms the IR-sync concept and badgelife framing, but describes a later revision than this entry, so its LED/chip specifics were not applied to v1.'
+  note: Covers the v2 hardware (STM32 driving ten APA102 modules) ahead of DEF CON 25 (2017); confirms the IR-sync concept and badgelife framing, but describes a later revision than this entry, so its LED/chip specifics were not applied to v1.
+  archived: https://web.archive.org/web/20260608021046/https://hackaday.com/2017/07/14/badge-from-diamond-age-comes-to-def-con/
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'This entry is specifically the original "sympetrum" repo (no version suffix), which the maker''s own commit history (August 2016, branch "ks/fw-at-defcon") ties to DEF CON 24, matching the sheet''s event/year. The maker built at least two later, hardware-distinct revisions under separate repos (sympetrum-v2: STM32 + 10x APA102 LEDs, aimed at DEF CON 25/26; sympetrum-v3: described on GitHub as "the Dragonfly badge as seen at DEFCON26") -- those are different boards and were not used to fill this v1 entry''s tech/get_one fields, to avoid mixing revisions. LED count/type, display, battery, price, quantity, and availability for v1 specifically were not stated anywhere found and are left empty. Hardware files for v1 are on Upverter (labelled "sympetrum-v02" there, i.e. the v1 firmware pairs with a v0.2 board revision) with gerbers described in the README as "coming eventually" -- unclear if they were ever posted. No photo of the assembled pin was found; the repo includes only a schematic image, not a photo of the item.'
+  notes: 'This entry is specifically the original "sympetrum" repo (no version suffix), which the maker''s own commit history (August 2016, branch "ks/fw-at-defcon") ties to DEF CON 24, matching the sheet''s event/year. The maker built at least two later, hardware-distinct revisions under separate repos (sympetrum-v2: STM32 + 10x APA102 LEDs, aimed at DEF CON 25/26; sympetrum-v3: described on GitHub as "the Dragonfly badge as seen at DEFCON26") -- those are different boards and were not used to fill this v1 entry''s tech/get_one fields, to avoid mixing revisions. LED count/type, display, battery, price, quantity, and availability for v1 specifically were not stated anywhere found and are left empty. Hardware files for v1 are on Upverter (labelled "sympetrum-v02" there, i.e. the v1 firmware pairs with a v0.2 board revision) with gerbers described in the README as "coming eventually" -- unclear if they were ever posted. No photo of the assembled pin was found; the repo includes only a schematic
+    image, not a photo of the item.'
 last_modified_date: '2026-09-07'
 ---
 

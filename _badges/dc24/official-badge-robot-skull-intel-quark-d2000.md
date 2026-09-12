@@ -47,22 +47,25 @@ links:
 - label: hackaday.com/2016/08/05/def-cons-x86-badge
   url: https://hackaday.com/2016/08/05/def-cons-x86-badge/
   kind: article
+  archived: https://web.archive.org/web/20251008134802/https://hackaday.com/2016/08/05/def-cons-x86-badge/
 - label: cktben/dc24_badge (unofficial firmware)
   url: https://github.com/cktben/dc24_badge
   kind: repo
 images:
-  - file: assets/images/badges/dc24/official-badge-robot-skull-intel-quark-d2000/cebfb00205.jpg
-    source: "https://hackaday.com/2016/08/05/def-cons-x86-badge/"
-    credit: "1o57 / DEF CON"
-    caption: "Front of the DEF CON 24 human attendee badge (robot skull shape)"
-  - file: assets/images/badges/dc24/official-badge-robot-skull-intel-quark-d2000/02669e9cdf.jpg
-    source: "https://hackaday.com/2016/08/05/def-cons-x86-badge/"
-    credit: "1o57 / DEF CON"
-    caption: "Back of the DEF CON 24 human attendee badge"
+- file: assets/images/badges/dc24/official-badge-robot-skull-intel-quark-d2000/cebfb00205.jpg
+  source: https://hackaday.com/2016/08/05/def-cons-x86-badge/
+  credit: 1o57 / DEF CON
+  caption: Front of the DEF CON 24 human attendee badge (robot skull shape)
+  archived: https://web.archive.org/web/20251008134802/https://hackaday.com/2016/08/05/def-cons-x86-badge/
+- file: assets/images/badges/dc24/official-badge-robot-skull-intel-quark-d2000/02669e9cdf.jpg
+  source: https://hackaday.com/2016/08/05/def-cons-x86-badge/
+  credit: 1o57 / DEF CON
+  caption: Back of the DEF CON 24 human attendee badge
+  archived: https://web.archive.org/web/20251008134802/https://hackaday.com/2016/08/05/def-cons-x86-badge/
 contact: {}
 notes:
 - The official DC24 attendee badge, a robot-skull shaped electronic badge built around an Intel Quark D2000 (x86) MCU with 8 buttons, 5 LEDs, and embedded cryptographic puzzles. Found by the event-year sweep, task dc24-all.
-- 'Sweep-imported title matched the maker''s own framing (Hackaday calls it DEF CON''s "x86 badge"); no change made to the title.'
+- Sweep-imported title matched the maker's own framing (Hackaday calls it DEF CON's "x86 badge"); no change made to the title.
 status: released
 sources:
 - kind: url
@@ -70,11 +73,13 @@ sources:
   title: DEF CON 24 Official Badge (robot skull, Intel Quark D2000)
   accessed: '2026-09-07'
   note: 'Found by the archive''s discovery sweep (angle: sweep:dc24-all); event read as ''dc24''.'
+  archived: https://web.archive.org/web/20251008134802/https://hackaday.com/2016/08/05/def-cons-x86-badge/
 - kind: url
   url: https://hackaday.com/2016/08/05/def-cons-x86-badge/
-  title: "DEF CON's X86 Badge - Hackaday"
+  title: DEF CON's X86 Badge - Hackaday
   accessed: '2026-09-08'
   note: Core facts (Quark D2000, 32MHz/32kB flash/8kB RAM, 8 buttons, 5 LEDs, CR2032, embedded puzzle text in copper layer, unexplained vias); also source of the front/back photos.
+  archived: https://web.archive.org/web/20251008134802/https://hackaday.com/2016/08/05/def-cons-x86-badge/
 - kind: url
   url: https://github.com/cktben/dc24_badge
   title: cktben/dc24_badge - New firmware for the DEFCON 24 badge
