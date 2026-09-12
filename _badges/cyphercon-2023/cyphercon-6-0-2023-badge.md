@@ -87,6 +87,7 @@ sources:
   title: About Us - CypherCon
   accessed: '2026-09-08'
   note: General CypherCon page stating the Digital/PCB ticket tier (or higher) includes the physical badge; used for get_one.where since no CypherCon 6.0-specific pricing page was found.
+  archived: https://web.archive.org/web/20260313210703/https://cyphercon.com/about-us/
 - kind: url
   url: https://cyphercon.com/history/
   title: e-ink AI Adventure Badge (CypherCon 6.0, 2023)

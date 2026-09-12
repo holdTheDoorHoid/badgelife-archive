@@ -14,9 +14,18 @@ makers:
 summary: 'The first electronic badge issued at DEF CON: a PIC10F202-driven PCB badge with two blinking blue LEDs, made to cut down on counterfeiting while staying open for attendees to hack.'
 functions: 'A single pushbutton cycles the two LEDs through five states: both on, both blinking, alternating, a pseudo-random pattern, and sleep.'
 look:
-  colors: [black, red, green, blue, purple, gold, silver]
+  colors:
+  - black
+  - red
+  - green
+  - blue
+  - purple
+  - gold
+  - silver
   shape: null
-  themes: [security, hardware tool]
+  themes:
+  - security
+  - hardware tool
 tech:
   mcu: PIC10F202
   leds:
@@ -30,13 +39,14 @@ tech:
 get_one:
   price: under $5 (cost to produce; badges were included with convention registration, not sold separately)
   price_usd: null
-  quantity: 'over 6,000'
+  quantity: over 6,000
   availability: sold_out
-  availability_note: 'checked 2026-09-08 via grandideastudio.com; historical item, no longer distributed'
-  distribution: [free_drop]
+  availability_note: checked 2026-09-08 via grandideastudio.com; historical item, no longer distributed
+  distribution:
+  - free_drop
   where: 'Given to DEF CON 14 (2006) attendees; sold out within hours of the convention opening. Seven soldermask colors denoted attendee category: Human, Goon, Press, Speaker, Vendor, VIP, and Limited Edition.'
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://grandideastudio.com/media/dc14_bdg_schematic.pdf
   firmware_url: https://grandideastudio.com/media/dc14_bdg_source.zip
   gerbers_url: null
@@ -49,31 +59,37 @@ links:
 - label: grandideastudio.com/portfolio/other/defcon-14-badge
   url: https://grandideastudio.com/portfolio/other/defcon-14-badge/
   kind: website
+  archived: https://web.archive.org/web/20260309222325/https://grandideastudio.com/portfolio/other/defcon-14-badge/
 - label: DEF CON 14 Badge schematic (PDF)
   url: https://grandideastudio.com/media/dc14_bdg_schematic.pdf
   kind: doc
+  archived: https://web.archive.org/web/20260309222327/https://grandideastudio.com/media/dc14_bdg_schematic.pdf
 - label: DEF CON 14 Badge bill of materials (PDF)
   url: https://grandideastudio.com/media/dc14_bdg_bom.pdf
   kind: doc
+  archived: https://web.archive.org/web/20260309222327/https://grandideastudio.com/media/dc14_bdg_bom.pdf
 - label: DEF CON 14 Badge source code (PIC MPLAB / CCS PIC C)
   url: https://grandideastudio.com/media/dc14_bdg_source.zip
   kind: repo
+  archived: https://web.archive.org/web/20260309222327/https://grandideastudio.com/media/dc14_bdg_source.zip
 - label: DEF CON 14 Badge photos (Flickr)
   url: https://www.flickr.com/photos/joesmooth/sets/72157594230629796
   kind: social
 images:
-  - file: assets/images/badges/dc14/badge/bfd8fb62c4.jpg
-    source: "https://grandideastudio.com/portfolio/other/defcon-14-badge/"
-    credit: "Grand Idea Studio"
-    caption: "DEF CON 14 badge, front"
-  - file: assets/images/badges/dc14/badge/fe3403cffc.jpg
-    source: "https://grandideastudio.com/portfolio/other/defcon-14-badge/"
-    credit: "Grand Idea Studio"
-    caption: "DEF CON 14 badge, detail"
+- file: assets/images/badges/dc14/badge/bfd8fb62c4.jpg
+  source: https://grandideastudio.com/portfolio/other/defcon-14-badge/
+  credit: Grand Idea Studio
+  caption: DEF CON 14 badge, front
+  archived: https://web.archive.org/web/20260309222325/https://grandideastudio.com/portfolio/other/defcon-14-badge/
+- file: assets/images/badges/dc14/badge/fe3403cffc.jpg
+  source: https://grandideastudio.com/portfolio/other/defcon-14-badge/
+  credit: Grand Idea Studio
+  caption: DEF CON 14 badge, detail
+  archived: https://web.archive.org/web/20260309222325/https://grandideastudio.com/portfolio/other/defcon-14-badge/
 contact: {}
 notes:
 - 'The first-ever DEF CON electronic badge: a PIC10F202-driven board shaped like the DEF CON logo with two blinking blue LEDs, issued in seven soldermask colors (Human, Goon, Press, Speaker, Vendor, VIP, Limited Edition) with over 6,000 made. Found by the event-year sweep, task dc14-all.'
-- "The sweep's original notes matched the maker's own page; title and event were already correct, no changes needed there."
+- The sweep's original notes matched the maker's own page; title and event were already correct, no changes needed there.
 status: released
 sources:
 - kind: url
@@ -81,16 +97,18 @@ sources:
   title: DEF CON 14 Badge
   accessed: '2026-09-07'
   note: 'Found by the archive''s discovery sweep (angle: sweep:dc14-all); event read as ''dc14''.'
+  archived: https://web.archive.org/web/20260309222325/https://grandideastudio.com/portfolio/other/defcon-14-badge/
 - kind: url
   url: https://grandideastudio.com/portfolio/other/defcon-14-badge/
   title: 'Grand Idea Studio: DEFCON 14 Badge'
   accessed: '2026-09-08'
-  note: 'Confirmed maker, event/year, MCU, LED count/behavior, soldermask colors, quantity (6,000+), cost (<$5/unit), distribution (given to attendees, sold out fast), and design-file links.'
+  note: Confirmed maker, event/year, MCU, LED count/behavior, soldermask colors, quantity (6,000+), cost (<$5/unit), distribution (given to attendees, sold out fast), and design-file links.
+  archived: https://web.archive.org/web/20260309222325/https://grandideastudio.com/portfolio/other/defcon-14-badge/
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-08'
-  notes: 'Price is production cost (<$5/unit); no per-badge retail price was charged since it came with registration. No PCB shape/color swatch or gerbers were published, so look.shape and make_your_own.gerbers_url are left empty. EDA tool and license not stated on the page.'
+  notes: Price is production cost (<$5/unit); no per-badge retail price was charged since it came with registration. No PCB shape/color swatch or gerbers were published, so look.shape and make_your_own.gerbers_url are left empty. EDA tool and license not stated on the page.
 last_modified_date: '2026-09-08'
 ---
 
