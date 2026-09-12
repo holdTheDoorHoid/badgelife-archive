@@ -11,8 +11,8 @@ year: 2018
 makers:
 - name: PCB PINS
   url: https://www.tindie.com/stores/thelogicofpi/
-summary: 'A gold-finished SAO shaped like an alternate-universe take on Bender Bending Rodriguez from Futurama, with an illuminated mouth.'
-functions: 'Two LEDs light the robot''s mouth when powered from the host badge''s SAO header; no other interactivity.'
+summary: A gold-finished SAO shaped like an alternate-universe take on Bender Bending Rodriguez from Futurama, with an illuminated mouth.
+functions: Two LEDs light the robot's mouth when powered from the host badge's SAO header; no other interactivity.
 look:
   colors:
   - gold
@@ -32,7 +32,7 @@ tech:
   battery: powered by host badge
   sao_version: v1
 get_one:
-  price: '$10 (single); $8 each for 2+'
+  price: $10 (single); $8 each for 2+
   price_usd: 10
   quantity: ''
   availability: sold_out
@@ -48,11 +48,13 @@ links:
 - label: www.tindie.com/products/thelogicofpi/future-o-rama-golden-bend-her-robot-sao
   url: https://www.tindie.com/products/thelogicofpi/future-o-rama-golden-bend-her-robot-sao/
   kind: store
+  archived: https://web.archive.org/web/20260503132442/https://www.tindie.com/products/thelogicofpi/future-o-rama-golden-bend-her-robot-sao/
 images:
 - file: assets/images/badges/dc26/future-o-rama-golden-bend-her-robot-sao/7c4ef26f9c.jpg
-  source: "https://www.tindie.com/products/thelogicofpi/future-o-rama-golden-bend-her-robot-sao/"
-  credit: "PCB PINS"
-  caption: "Future-O-Rama Golden Bend-her Robot SAO, gold finish with illuminated mouth"
+  source: https://www.tindie.com/products/thelogicofpi/future-o-rama-golden-bend-her-robot-sao/
+  credit: PCB PINS
+  caption: Future-O-Rama Golden Bend-her Robot SAO, gold finish with illuminated mouth
+  archived: https://web.archive.org/web/20260503132442/https://www.tindie.com/products/thelogicofpi/future-o-rama-golden-bend-her-robot-sao/
 contact: {}
 notes:
 - Spotted by a research agent while working on a neighbouring entry (run 2).
@@ -63,16 +65,18 @@ sources:
   title: Future-O-Rama Golden Bend-her Robot SAO
   accessed: '2026-09-07'
   note: 'Found by the archive''s discovery sweep (angle: research-run2-spotted); event read as ''other''.'
+  archived: https://web.archive.org/web/20260503132442/https://www.tindie.com/products/thelogicofpi/future-o-rama-golden-bend-her-robot-sao/
 - kind: url
   url: https://www.tindie.com/products/thelogicofpi/future-o-rama-golden-bend-her-robot-sao/
   title: Future-O-Rama Golden Bend-her Robot SAO (Tindie listing)
   accessed: '2026-09-07'
-  note: 'Confirmed maker (PCB PINS / thelogicofpi), that it was originally created for DEFCON 26, SAO details (3.3V/GND header, 2 pre-soldered LEDs, 2x 137-ohm SMD resistors, unsoldered header pins), price ($10 single / $8 for 2+), and that it has been out of stock since June 14 2024. Listing also references a Hackaday.io project page for documentation, which was not located.'
+  note: Confirmed maker (PCB PINS / thelogicofpi), that it was originally created for DEFCON 26, SAO details (3.3V/GND header, 2 pre-soldered LEDs, 2x 137-ohm SMD resistors, unsoldered header pins), price ($10 single / $8 for 2+), and that it has been out of stock since June 14 2024. Listing also references a Hackaday.io project page for documentation, which was not located.
+  archived: https://web.archive.org/web/20260503132442/https://www.tindie.com/products/thelogicofpi/future-o-rama-golden-bend-her-robot-sao/
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'Core facts (maker, DEFCON 26 origin, construction, price, sold-out status) come from the maker''s own Tindie listing. Could not locate the referenced Hackaday.io documentation page or any hardware/firmware files, so make_your_own fields are left empty. Exact quantity made is not stated anywhere found.'
+  notes: Core facts (maker, DEFCON 26 origin, construction, price, sold-out status) come from the maker's own Tindie listing. Could not locate the referenced Hackaday.io documentation page or any hardware/firmware files, so make_your_own fields are left empty. Exact quantity made is not stated anywhere found.
 last_modified_date: '2026-09-07'
 redirect_from:
 - /badges/other/future-o-rama-golden-bend-her-robot-sao/

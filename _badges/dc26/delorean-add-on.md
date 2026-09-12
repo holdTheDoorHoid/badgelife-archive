@@ -23,7 +23,7 @@ tech:
   leds: null
   display: null
   connectivity: []
-  battery: '~3V via a pair of batteries'
+  battery: ~3V via a pair of batteries
   sao_version: null
 get_one:
   price: ''
@@ -41,11 +41,13 @@ links:
 - label: hackaday.com/2018/08/14/all-the-badges-of-def-con-26-vol-1
   url: https://hackaday.com/2018/08/14/all-the-badges-of-def-con-26-vol-1/
   kind: article
+  archived: https://web.archive.org/web/20260609122657/https://hackaday.com/2018/08/14/all-the-badges-of-def-con-26-vol-1/
 images:
-  - file: assets/images/badges/dc26/delorean-add-on/aa08b03d3b.jpg
-    source: "https://hackaday.com/2018/08/14/all-the-badges-of-def-con-26-vol-1/"
-    credit: "Hackaday / Mike Szczys"
-    caption: "DeLorean-themed SAO on display at DEF CON 26"
+- file: assets/images/badges/dc26/delorean-add-on/aa08b03d3b.jpg
+  source: https://hackaday.com/2018/08/14/all-the-badges-of-def-con-26-vol-1/
+  credit: Hackaday / Mike Szczys
+  caption: DeLorean-themed SAO on display at DEF CON 26
+  archived: https://web.archive.org/web/20260609122657/https://hackaday.com/2018/08/14/all-the-badges-of-def-con-26-vol-1/
 contact: {}
 notes:
 - Back to the Future DeLorean-themed SAO shown at DEF CON 26. Found by the event-year sweep, task dc26-indie.
@@ -56,32 +58,19 @@ sources:
   title: DeLorean Add-On
   accessed: '2026-09-07'
   note: 'Found by the archive''s discovery sweep (angle: sweep:dc26-indie); event read as ''dc26''.'
+  archived: https://web.archive.org/web/20260609122657/https://hackaday.com/2018/08/14/all-the-badges-of-def-con-26-vol-1/
 - kind: url
   url: https://hackaday.com/2018/08/14/all-the-badges-of-def-con-26-vol-1/
   title: All The Badges Of DEF CON 26 (vol 1) - Hackaday
   accessed: '2026-09-08'
-  note: 'Confirmed the SAO exists, its makers, and pulled a maker comment (Drew Alden / @ReanimationXP) describing the design and a possible second run; also sourced the photo used in images.'
+  note: Confirmed the SAO exists, its makers, and pulled a maker comment (Drew Alden / @ReanimationXP) describing the design and a possible second run; also sourced the photo used in images.
+  archived: https://web.archive.org/web/20260609122657/https://hackaday.com/2018/08/14/all-the-badges-of-def-con-26-vol-1/
 research:
   status: verified
   confidence: low
   last_checked: '2026-09-08'
-  notes: >-
-    Only source found is the single Hackaday recap article and its comment
-    thread. No maker storefront, GitHub/hardware repo, Hackaday.io project
-    page, or social post could be located despite two web searches (title +
-    maker, title + "DEF CON 26"), so chip, LEDs, display, price, quantity,
-    and distribution channel remain unknown. The article's photo caption and
-    body confirm it is a real physical SAO (not just a sheet listing): a
-    Back to the Future DeLorean shape shown on an "add-on totem" (a stand
-    for displaying add-ons not attached to a badge), powered by ~3V from a
-    battery pair rather than a badge's SAO header pins — so tech.sao_version
-    is left null since it may not use the standard SAO power/data pins at
-    all. A comment signed "Drew Alden (@ReanimationXP)" says "The windows
-    were supposed to be copper, fab house messed up. We may do a second run
-    if there is enough interest," which is the only evidence of a possible
-    availability path (a second production run) but gives no indication one
-    ever happened. No sheet-listed title differs from the maker naming (no
-    maker naming beyond the article's "DeLorean Add-On" was found).
+  notes: 'Only source found is the single Hackaday recap article and its comment thread. No maker storefront, GitHub/hardware repo, Hackaday.io project page, or social post could be located despite two web searches (title + maker, title + "DEF CON 26"), so chip, LEDs, display, price, quantity, and distribution channel remain unknown. The article''s photo caption and body confirm it is a real physical SAO (not just a sheet listing): a Back to the Future DeLorean shape shown on an "add-on totem" (a stand for displaying add-ons not attached to a badge), powered by ~3V from a battery pair rather than a badge''s SAO header pins — so tech.sao_version is left null since it may not use the standard SAO power/data pins at all. A comment signed "Drew Alden (@ReanimationXP)" says "The windows were supposed to be copper, fab house messed up. We may do a second run if there is enough interest," which is the only evidence of a possible availability path (a second production run) but gives no indication
+    one ever happened. No sheet-listed title differs from the maker naming (no maker naming beyond the article''s "DeLorean Add-On" was found).'
 last_modified_date: '2026-09-08'
 ---
 

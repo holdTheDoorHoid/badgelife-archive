@@ -42,6 +42,7 @@ links:
 - label: GitHub - thedarknet/dc26-badge
   url: https://github.com/thedarknet/dc26-badge
   kind: repo
+  archived: https://web.archive.org/web/20260907115647/https://github.com/thedarknet/dc26-badge
 - label: 'OSH Park shared project: eggplant5 (Krux)'
   url: https://oshpark.com/shared_projects/3o0COLSK
   kind: fab
@@ -69,11 +70,13 @@ sources:
   title: 'GitHub - thedarknet/dc26-badge: Darknet Industries Badge for Defcon 26'
   accessed: '2026-09-07'
   note: Confirms repo is Darknet Industries' badge project for DEF CON 26 (2018); hardware/dc26-sao/eggplant is one of the badge's SAO designs.
+  archived: https://web.archive.org/web/20260907115647/https://github.com/thedarknet/dc26-badge
 - kind: url
   url: https://github.com/krux702
   title: krux702 (Krux) on GitHub
   accessed: '2026-09-07'
   note: Identifies "Krux" as the GitHub user associated with the dc26-sao/eggplant design; used as the maker credit.
+  archived: https://web.archive.org/web/20251012221510/https://github.com/krux702
 - kind: url
   url: https://oshpark.com/shared_projects/3o0COLSK
   title: 'OSH Park shared project: eggplant5 by Krux'

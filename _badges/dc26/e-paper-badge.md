@@ -47,24 +47,29 @@ links:
 - label: hackaday.com/2018/08/29/all-the-badges-of-def-con-26-vol-3
   url: https://hackaday.com/2018/08/29/all-the-badges-of-def-con-26-vol-3/
   kind: article
+  archived: https://web.archive.org/web/20260417144127/https://hackaday.com/2018/08/29/all-the-badges-of-def-con-26-vol-3/
 - label: github.com/pdp7/kicad-teensy-epaper
   url: https://github.com/pdp7/kicad-teensy-epaper
   kind: repo
+  archived: https://web.archive.org/web/20260322161919/https://github.com/pdp7/kicad-teensy-epaper/
 - label: blog.oshpark.com/2018/09/01/e-paper-badge-is-a-hint-at-great-things-to-come
   url: https://blog.oshpark.com/2018/09/01/e-paper-badge-is-a-hint-at-great-things-to-come/
   kind: article
 - label: oshpark.com/shared_projects/1CiimZcf
   url: https://oshpark.com/shared_projects/1CiimZcf
   kind: fab
+  archived: https://web.archive.org/web/20260322161914/https://oshpark.com/shared_projects/1CiimZcf
 images:
 - file: assets/images/badges/dc26/e-paper-badge/ab4874ba45.jpg
   source: https://github.com/pdp7/kicad-teensy-epaper
   credit: Drew Fustini
   caption: Assembled E-Paper Badge with Teensy LC and 2.15" e-paper display
+  archived: https://web.archive.org/web/20260322161919/https://github.com/pdp7/kicad-teensy-epaper/
 - file: assets/images/badges/dc26/e-paper-badge/4dcb409ca1.jpg
   source: https://github.com/pdp7/kicad-teensy-epaper
   credit: Drew Fustini
   caption: Back of the E-Paper Badge showing the Teensy LC and battery connector
+  archived: https://web.archive.org/web/20260322161919/https://github.com/pdp7/kicad-teensy-epaper/
 contact: {}
 notes:
 - E-paper display based badge shown at DEF CON 26, per Hackaday's roundup vol.3. Found by the event-year sweep, task dc26-saos.
@@ -75,11 +80,13 @@ sources:
   title: E-Paper Badge
   accessed: '2026-09-07'
   note: 'Found by the archive''s discovery sweep (angle: sweep:dc26-saos); event read as ''dc26''.'
+  archived: https://web.archive.org/web/20260417144127/https://hackaday.com/2018/08/29/all-the-badges-of-def-con-26-vol-3/
 - kind: url
   url: https://github.com/pdp7/kicad-teensy-epaper
   title: 'GitHub - pdp7/kicad-teensy-epaper: E-Paper Badge with Teensy LC designed in KiCad'
   accessed: '2026-09-08'
   note: Maker's own repo; confirms Teensy LC + Pervasive Displays 2.15" e-paper, Apache-2.0 license, battery details, and source images.
+  archived: https://web.archive.org/web/20260322161919/https://github.com/pdp7/kicad-teensy-epaper/
 - kind: url
   url: https://blog.oshpark.com/2018/09/01/e-paper-badge-is-a-hint-at-great-things-to-come/
   title: E-Paper Badge is a Hint at Great Things to Come
@@ -90,6 +97,7 @@ sources:
   title: KiCad Teensy E-Paper Badge [0a40263] - OSH Park
   accessed: '2026-09-08'
   note: Confirms board dimensions and that it connects a Pervasive Displays 2.15" E-Paper (E2215CS062) to a Teensy LC (Teensy 3.2 also compatible).
+  archived: https://web.archive.org/web/20260322161914/https://oshpark.com/shared_projects/1CiimZcf
 research:
   status: researched
   confidence: high

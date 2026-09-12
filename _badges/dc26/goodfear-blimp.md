@@ -47,11 +47,12 @@ links:
 - label: Chris Gammell on Twitter/X
   url: https://twitter.com/Chris_Gammell
   kind: social
+  archived: https://web.archive.org/web/20260503225334/https://twitter.com/Chris_Gammell
 images:
 - file: assets/images/badges/dc26/goodfear-blimp/570b18dce8.jpg
-  source: "https://hackaday.com/2018/08/21/all-the-badges-of-def-con-26-vol-2/"
-  credit: "Hackaday"
-  caption: "The GoodFear Blimp badge, shaped like the Goodyear Blimp, at DEF CON 26"
+  source: https://hackaday.com/2018/08/21/all-the-badges-of-def-con-26-vol-2/
+  credit: Hackaday
+  caption: The GoodFear Blimp badge, shaped like the Goodyear Blimp, at DEF CON 26
 contact: {}
 notes:
 - DC26 badge with an attached surveillance-camera add-on; firmware was left incomplete at the con. Found by the event-year sweep, task dc26-indie.
@@ -72,7 +73,8 @@ research:
   status: verified
   confidence: low
   last_checked: '2026-09-08'
-  notes: 'Fact-check pass (2026-09-08): re-fetched the Hackaday article directly and every non-empty field and factual sentence in this entry is supported verbatim by it (shape/size/~7in/several hundred LEDs, firmware never finished though hardware complete, lanyard-mounted, maker Chris Gammell / @Chris_Gammell, companion "This is Not a Camera" add-on handed out at DC26). A repeat web search for "Chris Gammell GoodFear Blimp DEF CON 26" still surfaced no second source, so confidence stays low even though nothing was found to be wrong. The saved image (570b18dce8.jpg) exists on disk. Twitter/X profile link could not be independently re-verified (x.com blocks automated fetches), but the handle itself is stated in the Hackaday article, which is sufficient sourcing. Status set to cancelled/not_released because Hackaday explicitly says the firmware was never finished and the hardware never became a working badge. LED count, MCU, and price/quantity remain correctly left empty; nothing found states them.'
+  notes: 'Fact-check pass (2026-09-08): re-fetched the Hackaday article directly and every non-empty field and factual sentence in this entry is supported verbatim by it (shape/size/~7in/several hundred LEDs, firmware never finished though hardware complete, lanyard-mounted, maker Chris Gammell / @Chris_Gammell, companion "This is Not a Camera" add-on handed out at DC26). A repeat web search for "Chris Gammell GoodFear Blimp DEF CON 26" still surfaced no second source, so confidence stays low even though nothing was found to be wrong. The saved image (570b18dce8.jpg) exists on disk. Twitter/X profile link could not be independently re-verified (x.com blocks automated fetches), but the handle itself is stated in the Hackaday article, which is sufficient sourcing. Status set to cancelled/not_released because Hackaday explicitly says the firmware was never finished and the hardware never became a working badge. LED count, MCU, and price/quantity remain correctly left empty; nothing found states
+    them.'
 last_modified_date: '2026-09-08'
 ---
 
