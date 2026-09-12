@@ -76,6 +76,7 @@ links:
 - label: All The Hardware Badges Of DEF CON 25 (Hackaday)
   url: https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/
   kind: article
+  archived: https://web.archive.org/web/20260907165055/https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/
 images:
 - file: assets/images/badges/dc25/darknet-badge/f8ac050769.jpg
   source: https://krux.org/darknet/2017/index.html
@@ -105,6 +106,7 @@ sources:
   title: All The Hardware Badges Of DEF CON 25
   accessed: '2026-09-07'
   note: Maker (Krux), rotary-phone design with capacitive-touch dial pads and back-mounted LEDs, kit-built, casefile early-purchase mechanic, sold out fast.
+  archived: https://web.archive.org/web/20260907165055/https://hackaday.com/2017/08/04/all-the-hardware-badges-of-def-con-25/
 - kind: url
   url: https://krux.org/darknet/2017/index.html
   title: DefCon DarkNet 2017 Badge Kit

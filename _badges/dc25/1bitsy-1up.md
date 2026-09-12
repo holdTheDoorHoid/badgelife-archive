@@ -47,6 +47,7 @@ links:
 - label: hackaday.io/project/25632-1bitsy-1up
   url: https://hackaday.io/project/25632-1bitsy-1up
   kind: hackaday
+  archived: https://web.archive.org/web/20260412172838/https://hackaday.io/project/25632-1bitsy-1up
 - label: github.com/1bitsy/1bitsy-1up
   url: https://github.com/1bitsy/1bitsy-1up
   kind: repo
@@ -55,10 +56,12 @@ images:
   source: https://hackaday.io/project/25632-1bitsy-1up
   credit: Piotr Esden-Tempski
   caption: 1Bitsy 1UP handheld console, Game Boy DMG form factor
+  archived: https://web.archive.org/web/20260412172838/https://hackaday.io/project/25632-1bitsy-1up
 - file: assets/images/badges/dc25/1bitsy-1up/8bf9cf3cb2.jpg
   source: https://hackaday.io/project/25632-1bitsy-1up
   credit: Piotr Esden-Tempski
   caption: 1Bitsy 1UP assembled prototype
+  archived: https://web.archive.org/web/20260412172838/https://hackaday.io/project/25632-1bitsy-1up
 contact: {}
 notes: []
 status: announced
@@ -68,11 +71,13 @@ sources:
   title: 1Bitsy 1up
   accessed: '2026-09-06'
   note: 'Found by the archive''s discovery sweep (angle: hackaday-list); event read as ''unknown''.'
+  archived: https://web.archive.org/web/20260412172838/https://hackaday.io/project/25632-1bitsy-1up
 - kind: url
   url: https://hackaday.io/project/25632-1bitsy-1up
   title: 1Bitsy 1UP project page
   accessed: '2026-09-07'
   note: Confirmed maker(s), DEF CON 25 (2017) context, hardware spec (STM32F415RGT6, 2.8in touchscreen LCD, microSD, DAC audio), three prototypes built, GitHub repo link.
+  archived: https://web.archive.org/web/20260412172838/https://hackaday.io/project/25632-1bitsy-1up
 - kind: url
   url: https://github.com/1bitsy/1bitsy-1up
   title: 1bitsy/1bitsy-1up on GitHub

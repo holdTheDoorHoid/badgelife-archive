@@ -56,6 +56,7 @@ images:
   source: https://hackaday.io/project/25878-bb01-dc25-tribbletribb01-badge
   credit: anotheremily
   caption: Five BB01 Tribble badges lit in different colors, showing the NeoPixel Jewel eyes through the fur
+  archived: https://web.archive.org/web/20251212042715/https://hackaday.io/project/25878-bb01-dc25-tribbletribb01-badge
 contact: {}
 notes:
 - Sheet title styles it "BB01 - DC25 Tribble/TriBB01 Badge"; the Hackaday.io project itself is titled "BB01 - DC25 Tribble/TriBB01 Badge" as well, so kept as-is.
@@ -72,6 +73,7 @@ sources:
   title: BB01 - DC25 Tribble/TriBB01 Badge (project page)
   accessed: '2026-09-07'
   note: Confirmed maker (anotheremily), event/year (DEF CON 25, 2017), hardware (Adafruit Trinket 5V + 2x NeoPixel Jewel), functions (9 color patterns, 4 transition modes, two buttons), and that source code and Gerbers (v1.0/v1.1) are published on the project page. Also identified the group as Beyond Binaries.
+  archived: https://web.archive.org/web/20251212042715/https://hackaday.io/project/25878-bb01-dc25-tribbletribb01-badge
 research:
   status: researched
   confidence: medium

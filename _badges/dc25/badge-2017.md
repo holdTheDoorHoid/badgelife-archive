@@ -59,6 +59,7 @@ links:
 - label: AND!XOR DC25 Badge (Hackaday.io project)
   url: https://hackaday.io/project/19121-andxor-dc25-badge
   kind: hackaday
+  archived: https://web.archive.org/web/20251026123457/https://hackaday.io/project/19121-andxor-dc25-badge
 - label: AND!XOR on Twitter
   url: https://twitter.com/ANDnXOR
   kind: social
@@ -67,14 +68,17 @@ images:
   source: https://hackaday.io/project/19121-andxor-dc25-badge
   credit: AND!XOR
   caption: AND!XOR DC25 badge project thumbnail
+  archived: https://web.archive.org/web/20251026123457/https://hackaday.io/project/19121-andxor-dc25-badge
 - file: assets/images/badges/dc25/badge-2017/530844abb2.jpg
   source: https://hackaday.io/project/19121-andxor-dc25-badge
   credit: AND!XOR
   caption: The DC25 badge shown in a project update photo
+  archived: https://web.archive.org/web/20251026123457/https://hackaday.io/project/19121-andxor-dc25-badge
 - file: assets/images/badges/dc25/badge-2017/647139130a.jpg
   source: https://hackaday.io/project/19121-andxor-dc25-badge
   credit: AND!XOR
   caption: The assembled AND!XOR DC25 badge PCB, shaped like Bender's head, with its color LCD, WS2812 LEDs, and SAO-style header
+  archived: https://web.archive.org/web/20251026123457/https://hackaday.io/project/19121-andxor-dc25-badge
 contact: {}
 notes:
 - Price paid by Kickstarter backers was not found in the sources checked; commenters on the Hackaday.io project ask about price/availability but no figure is confirmed there. Firmware repository link not located. SAO support not mentioned by the maker; recorded as none rather than unknown per guide convention, but could be revisited.
@@ -91,6 +95,7 @@ sources:
   title: AND!XOR DC25 Badge
   accessed: '2026-09-07'
   note: Maker's own Hackaday.io project page; source for maker identity, theme, hardware specs (BMD-300, LCD, LEDs), functions/games, production quantity (396 + 100 badges), Kickstarter distribution, and the 3D-model files (not gerbers).
+  archived: https://web.archive.org/web/20251026123457/https://hackaday.io/project/19121-andxor-dc25-badge
 research:
   status: verified
   confidence: high
