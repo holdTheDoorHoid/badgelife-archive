@@ -59,12 +59,14 @@ links:
 - label: Parallax forums - DEFCON 22 Badge Code, Schematics and Information
   url: https://forums.parallax.com/discussion/156782/defcon-22-badge-code-schematics-and-information-here/
   kind: repo
+  archived: https://web.archive.org/web/20260317102121/https://forums.parallax.com/discussion/156782/defcon-22-badge-code-schematics-and-information-here
 - label: Parallax - DEFCON 22 Badges Have Been Communicating for Almost Ten Years
   url: https://www.parallax.com/defcon-22-badges-have-been-communicating-for-almost-ten-years/
   kind: article
 - label: Hackaday - Hands-On DEFCON 22 Badge
   url: https://hackaday.com/2014/08/07/hands-on-defcon-22-badge/
   kind: article
+  archived: https://web.archive.org/web/20260514010024/https://hackaday.com/2014/08/07/hands-on-defcon-22-badge/
 images:
 - file: assets/images/badges/dc22/badge/18514f01d1.jpg
   source: https://www.parallax.com/defcon-22-conference-badge/
@@ -106,6 +108,7 @@ sources:
   title: 'DEFCON 22 Badge: Code, Schematics and Information'
   accessed: '2026-09-08'
   note: Maker's forum thread with code, schematics, and background; confirms 60-day turnaround and ~14,000 units made in Rocklin, CA.
+  archived: https://web.archive.org/web/20260317102121/https://forums.parallax.com/discussion/156782/defcon-22-badge-code-schematics-and-information-here
 - kind: url
   url: https://www.parallax.com/defcon-22-badges-have-been-communicating-for-almost-ten-years/
   title: DEFCON 22 Badges Have Been Communicating for Almost Ten Years - Parallax
@@ -116,6 +119,7 @@ sources:
   title: Hands-On DEFCON 22 Badge - Hackaday
   accessed: '2026-09-08'
   note: Independent press coverage confirming the Propeller-based hardware and contest tie-in.
+  archived: https://web.archive.org/web/20260514010024/https://hackaday.com/2014/08/07/hands-on-defcon-22-badge/
 research:
   status: researched
   confidence: high

@@ -54,9 +54,11 @@ links:
   url: https://defcon.org/html/links/dc-archives/dc-21-archive.html
   kind: website
   note: Official DEF CON archive page confirming the con dates (Aug 1-4, 2013, Rio Hotel & Casino) and LosT's badge talk; accessed 2026-09-08.
+  archived: https://web.archive.org/web/20260426152129/https://www.defcon.org/html/links/dc-archives/dc-21-archive.html
 - label: defcon.org/html/links/dc-badge.html
   url: https://defcon.org/html/links/dc-badge.html
   kind: website
+  archived: https://web.archive.org/web/20260805181545/https://www.defcon.org/html/links/dc-badge.html
 - label: Hackaday at DEF CON 21
   url: https://hackaday.com/2013/08/01/hackaday-at-def-con-21/
   kind: article
@@ -92,6 +94,7 @@ sources:
   title: DEF CON 21 Archive
   accessed: '2026-09-08'
   note: Confirms DEF CON 21 was Aug 1-4, 2013 at the Rio Hotel & Casino, and that LosT gave a "Welcome and Making of the DEF CON 21 Badges" talk.
+  archived: https://web.archive.org/web/20260426152129/https://www.defcon.org/html/links/dc-archives/dc-21-archive.html
 - kind: url
   url: https://www.youtube.com/watch?v=yS_KiWKLS2c
   title: DEF CON 21 - LosT - Welcome and Making of the Badges
@@ -102,11 +105,13 @@ sources:
   title: DEF CON 21 Official Badge (Human/Goon/Speaker/Vendor + Uber Badge)
   accessed: '2026-09-07'
   note: 'Found by the archive''s discovery sweep (angle: sweep:dc21-all); event read as ''dc21''.'
+  archived: https://web.archive.org/web/20260805181545/https://www.defcon.org/html/links/dc-badge.html
 - kind: url
   url: https://defcon.org/html/links/dc-badge.html
   title: DEF CON 21 Badge Information
   accessed: '2026-09-08'
   note: Confirmed non-electronic PCB playing-card design, crypto puzzle theme, and the Uber badge's mechanical watch movement tribute to the designer's grandfather.
+  archived: https://web.archive.org/web/20260805181545/https://www.defcon.org/html/links/dc-badge.html
 - kind: url
   url: https://hackaday.com/2013/08/01/hackaday-at-def-con-21/
   title: Hackaday at DEF CON 21

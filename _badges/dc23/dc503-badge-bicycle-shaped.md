@@ -30,7 +30,7 @@ tech:
 get_one:
   price: ''
   price_usd: null
-  quantity: '100 boards spun; 50 populated for crowdfunding backers, 10 more assembled on-site for organizers'
+  quantity: 100 boards spun; 50 populated for crowdfunding backers, 10 more assembled on-site for organizers
   availability: sold_out
   distribution:
   - crowdfunding
@@ -44,15 +44,18 @@ links:
 - label: hackaday.com/2015/08/10/all-the-unofficial-electronic-badges-of-def-con
   url: https://hackaday.com/2015/08/10/all-the-unofficial-electronic-badges-of-def-con/
   kind: website
+  archived: https://web.archive.org/web/20260613124820/https://hackaday.com/2015/08/10/all-the-unofficial-electronic-badges-of-def-con/
 images:
 - file: assets/images/badges/dc23/dc503-badge-bicycle-shaped/2f9e91e0bc.jpg
-  source: "https://hackaday.com/2015/08/10/all-the-unofficial-electronic-badges-of-def-con/"
-  credit: "Hackaday"
-  caption: "The DC503 bicycle-shaped badge"
+  source: https://hackaday.com/2015/08/10/all-the-unofficial-electronic-badges-of-def-con/
+  credit: Hackaday
+  caption: The DC503 bicycle-shaped badge
+  archived: https://web.archive.org/web/20260613124820/https://hackaday.com/2015/08/10/all-the-unofficial-electronic-badges-of-def-con/
 - file: assets/images/badges/dc23/dc503-badge-bicycle-shaped/0383d6fa82.jpg
-  source: "https://hackaday.com/2015/08/10/all-the-unofficial-electronic-badges-of-def-con/"
-  credit: "Hackaday"
-  caption: "DC503 badge detail, close-up of LED and button layout"
+  source: https://hackaday.com/2015/08/10/all-the-unofficial-electronic-badges-of-def-con/
+  credit: Hackaday
+  caption: DC503 badge detail, close-up of LED and button layout
+  archived: https://web.archive.org/web/20260613124820/https://hackaday.com/2015/08/10/all-the-unofficial-electronic-badges-of-def-con/
 contact: {}
 notes:
 - Sweep's title matches the maker/press wording; no change needed.
@@ -63,11 +66,13 @@ sources:
   title: DC503 Badge (bicycle-shaped)
   accessed: '2026-09-10'
   note: Reported as an 'other item found' during the stub research pass.
+  archived: https://web.archive.org/web/20260613124820/https://hackaday.com/2015/08/10/all-the-unofficial-electronic-badges-of-def-con/
 - kind: url
   url: https://hackaday.com/2015/08/10/all-the-unofficial-electronic-badges-of-def-con/
   title: All The Unofficial Electronic Badges Of DEF CON
   accessed: '2026-09-10'
   note: Confirmed maker, shape, LED/MCU details, button behavior, production quantity (100 spun, 50+10), and distribution via crowdfunding for the DC503 DEF CON 23 party.
+  archived: https://web.archive.org/web/20260613124820/https://hackaday.com/2015/08/10/all-the-unofficial-electronic-badges-of-def-con/
 research:
   status: researched
   confidence: medium

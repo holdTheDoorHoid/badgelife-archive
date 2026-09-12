@@ -12,7 +12,7 @@ makers:
 - name: Whiskey Pirate Crew
   url: http://www.whiskeypirates.com/
 summary: A dual-microcontroller badge (codename "Three Kings") made by the Whiskey Pirate Crew for DEF CON 22, built as a learning project rather than a commercial release.
-functions: 'Not documented beyond firmware for the two onboard microcontrollers; no games, sensors, or radio features are described in the source repo.'
+functions: Not documented beyond firmware for the two onboard microcontrollers; no games, sensors, or radio features are described in the source repo.
 look:
   colors: []
   shape: null
@@ -33,7 +33,7 @@ get_one:
   distribution: []
   where: ''
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/whiskeypirates/dc22-whiskeypirates/blob/master/3KPirate_rev3_schematic.pdf
   firmware_url: https://github.com/whiskeypirates/dc22-whiskeypirates
   eda_tool: null
@@ -44,6 +44,7 @@ links:
 - label: whiskeypirates.com
   url: http://www.whiskeypirates.com/
   kind: website
+  archived: https://web.archive.org/web/20260611230249/http://whiskeypirates.com/
 images: []
 contact: {}
 notes: []
@@ -58,17 +59,18 @@ sources:
   url: https://raw.githubusercontent.com/whiskeypirates/dc22-whiskeypirates/master/README.md
   title: dc22-whiskeypirates README
   accessed: '2026-09-07'
-  note: 'Confirms event (DEF CON 22), codename "Three Kings", dual STM32/ATtiny88 MCU design, and that this was a learning project rather than a commercial product.'
+  note: Confirms event (DEF CON 22), codename "Three Kings", dual STM32/ATtiny88 MCU design, and that this was a learning project rather than a commercial product.
 - kind: url
   url: http://www.whiskeypirates.com/
   title: the whiskey pirates
   accessed: '2026-09-07'
-  note: 'Maker group homepage; confirms the group exists across many DEF CON years but has no dedicated dc22 sub-page (only dc27 onward have per-year sites), and describes the group as a social crew rather than a badge vendor.'
+  note: Maker group homepage; confirms the group exists across many DEF CON years but has no dedicated dc22 sub-page (only dc27 onward have per-year sites), and describes the group as a social crew rather than a badge vendor.
+  archived: https://web.archive.org/web/20260611230249/http://whiskeypirates.com/
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-07'
-  notes: 'This badge was made for DEF CON 22 (2014), but events.yml has no dc22 entry (its DEF CON ids start at dc24), so event is left as "other". No photo of the physical badge, LED/display details, price, or quantity could be found; the repo contains only firmware source, compiled binaries, and a schematic PDF, no images. The Whiskey Pirate Crew is a social/hacking group (not a commercial badgelife maker) that has made a badge nearly every DEF CON year since; other entries in existing_titles.txt note their later badges as "not badgelife", consistent with this one being a gift/learning project rather than a sold item.'
+  notes: This badge was made for DEF CON 22 (2014), but events.yml has no dc22 entry (its DEF CON ids start at dc24), so event is left as "other". No photo of the physical badge, LED/display details, price, or quantity could be found; the repo contains only firmware source, compiled binaries, and a schematic PDF, no images. The Whiskey Pirate Crew is a social/hacking group (not a commercial badgelife maker) that has made a badge nearly every DEF CON year since; other entries in existing_titles.txt note their later badges as "not badgelife", consistent with this one being a gift/learning project rather than a sold item.
 last_modified_date: '2026-09-07'
 redirect_from:
 - /badges/other/whiskey-pirates-dc22-badge/

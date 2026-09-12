@@ -10,7 +10,7 @@ event: dc22
 year: 2014
 makers:
 - name: feather (oshwlab handle)
-summary: 'An independent, unofficial ID badge made for the "DC Darknet" community at DEF CON 22 (2014), shared as a bare OSHWLab PCB project.'
+summary: An independent, unofficial ID badge made for the "DC Darknet" community at DEF CON 22 (2014), shared as a bare OSHWLab PCB project.
 functions: ''
 look:
   colors: []
@@ -56,40 +56,15 @@ sources:
   url: https://hackaday.com/2015/08/10/all-the-unofficial-electronic-badges-of-def-con/
   title: All The Unofficial Electronic Badges Of DEF CON
   accessed: '2026-09-07'
-  note: 'Describes the annual "DEF CON DarkNet Badge" line (by Smitty and Krux, Arduino-based, IR badge-to-badge exchange, sold as a $25 kit, sells out fast each year); the 2015 (DEF CON 23) version is called "very similar to last year''s" (DEF CON 22), corroborating this as the same annual DarkNet badge project but for the prior year. Could not confirm this exact OSHWLab upload is one of Smitty/Krux''s own files versus a third-party re-share.'
+  note: Describes the annual "DEF CON DarkNet Badge" line (by Smitty and Krux, Arduino-based, IR badge-to-badge exchange, sold as a $25 kit, sells out fast each year); the 2015 (DEF CON 23) version is called "very similar to last year's" (DEF CON 22), corroborating this as the same annual DarkNet badge project but for the prior year. Could not confirm this exact OSHWLab upload is one of Smitty/Krux's own files versus a third-party re-share.
+  archived: https://web.archive.org/web/20260613124820/https://hackaday.com/2015/08/10/all-the-unofficial-electronic-badges-of-def-con/
 research:
   status: verified
   confidence: low
   last_checked: '2026-09-07'
-  notes: >-
-    The OSHWLab listing itself (uploaded Dec 2015, updated Apr 2021) is essentially
-    empty: no BOM, no generated preview image, no attachments, so no hardware
-    specifics (chip, LEDs, display) could be confirmed from it directly. Corroborating
-    press (Hackaday, Aug 2015) describes an annual, unofficial "DEF CON DarkNet
-    Badge" designed by Smitty and Krux: Arduino-based, communicates over IR when two
-    badges are pointed at each other to exchange identifiers, sold as a $25 kit,
-    consistently sells out. That article is about the 2015 (DEF CON 23) edition and
-    says the design was "very similar to last year's" (DEF CON 22, 2014), which this
-    entry's title claims to be. I could not independently confirm that the OSHWLab
-    uploader "feather" is Smitty, Krux, or an authorized re-share, so I have not
-    copied the Hackaday specs (chip, price, IR feature) into the structured fields —
-    only into these notes and the sources list — to avoid asserting an unverified
-    identity match. No DEF CON 22-specific article or event id (DEF CON 22 predates
-    the earliest event in events.yml, which starts at dc24/2016) exists in this
-    archive, so event stays "other" per the research guide; the con is DEF CON 22
-    (2014). No image could be saved: the OSHWLab page returns a CloudFront 403 to
-    direct fetches and its own preview image was never generated per the page
-    itself. Fact-check pass (2026-09-07): re-fetched both cited sources.
-    OSHWLab page reconfirmed empty (no BOM, no attachments, no schematic/PCB
-    viewer, only licensing boilerplate; created 2015-12-09, updated
-    2021-04-12), supporting leaving all tech./get_one./make_your_own. fields
-    blank. Hackaday article reconfirmed the Smitty/Krux DarkNet badge details
-    (Arduino-based, IR identifier exchange, $25 kit, ~90 min sellout, 2015
-    design "very similar to last year's") exactly as summarized above and in
-    the body; those specs remain correctly excluded from structured fields
-    since the uploader's identity is still unconfirmed. No contradictions
-    found; every remaining non-empty field and sentence is supported by its
-    cited source.
+  notes: 'The OSHWLab listing itself (uploaded Dec 2015, updated Apr 2021) is essentially empty: no BOM, no generated preview image, no attachments, so no hardware specifics (chip, LEDs, display) could be confirmed from it directly. Corroborating press (Hackaday, Aug 2015) describes an annual, unofficial "DEF CON DarkNet Badge" designed by Smitty and Krux: Arduino-based, communicates over IR when two badges are pointed at each other to exchange identifiers, sold as a $25 kit, consistently sells out. That article is about the 2015 (DEF CON 23) edition and says the design was "very similar to last year''s" (DEF CON 22, 2014), which this entry''s title claims to be. I could not independently confirm that the OSHWLab uploader "feather" is Smitty, Krux, or an authorized re-share, so I have not copied the Hackaday specs (chip, price, IR feature) into the structured fields — only into these notes and the sources list — to avoid asserting an unverified identity match. No DEF CON 22-specific article
+    or event id (DEF CON 22 predates the earliest event in events.yml, which starts at dc24/2016) exists in this archive, so event stays "other" per the research guide; the con is DEF CON 22 (2014). No image could be saved: the OSHWLab page returns a CloudFront 403 to direct fetches and its own preview image was never generated per the page itself. Fact-check pass (2026-09-07): re-fetched both cited sources. OSHWLab page reconfirmed empty (no BOM, no attachments, no schematic/PCB viewer, only licensing boilerplate; created 2015-12-09, updated 2021-04-12), supporting leaving all tech./get_one./make_your_own. fields blank. Hackaday article reconfirmed the Smitty/Krux DarkNet badge details (Arduino-based, IR identifier exchange, $25 kit, ~90 min sellout, 2015 design "very similar to last year''s") exactly as summarized above and in the body; those specs remain correctly excluded from structured fields since the uploader''s identity is still unconfirmed. No contradictions found; every remaining
+    non-empty field and sentence is supported by its cited source.'
 last_modified_date: '2026-09-07'
 redirect_from:
 - /badges/other/dc-darknet-id-badge/
