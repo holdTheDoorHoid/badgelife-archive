@@ -47,23 +47,26 @@ links:
 - label: badge.gallery/badges/cactuscon-2018-paid-badge
   url: https://badge.gallery/badges/cactuscon-2018-paid-badge
   kind: website
+  archived: https://web.archive.org/web/20260912172703/https://badge.gallery/badges/cactuscon-2018-paid-badge
 - label: erikwilson/CactusCon7 (GitHub)
   url: https://github.com/erikwilson/CactusCon7
   kind: repo
-  archived: false
+  archived: https://web.archive.org/web/20260624164227/https://github.com/erikwilson/CactusCon7
 - label: CactusCon 2018 badge thread (HeatSync Labs Google Group)
   url: https://groups.google.com/g/heatsynclabs/c/rIPB8tivkY0
   kind: social
-  archived: false
+  archived: https://web.archive.org/web/20260912172834/https://groups.google.com/g/heatsynclabs/c/rIPB8tivkY0
 images:
 - file: assets/images/badges/cactuscon-2018/cactuscon-2018-paid-badge/168b50ba52.jpg
   source: https://github.com/erikwilson/CactusCon7
   credit: Erik Wilson
   caption: CactusCoin badge board, TTGO LoRa OLED ESP32
+  archived: https://web.archive.org/web/20260624164227/https://github.com/erikwilson/CactusCon7
 - file: assets/images/badges/cactuscon-2018/cactuscon-2018-paid-badge/dc9030a347.png
   source: https://github.com/erikwilson/CactusCon7
   credit: Erik Wilson
   caption: CactusCoin badge with spare parts
+  archived: https://web.archive.org/web/20260624164227/https://github.com/erikwilson/CactusCon7
 contact: {}
 notes:
 - Sweep-imported title was "CactusCon 2018 Paid Badge," describing only a paid-registration entitlement with no confirmed hardware; research confirmed it was in fact an electronic badge, designer-nicknamed "CactusCoin", documented in the designer's own GitHub repo (CactusCon7). Title updated to reflect this; CactusCon's numbering has this event as "CactusCon 7."
@@ -75,16 +78,19 @@ sources:
   title: CactusCon 2018 Paid Badge
   accessed: '2026-09-07'
   note: 'Found by the archive''s discovery sweep (angle: sweep:con-layerone); event read as ''CactusCon 2018''.'
+  archived: https://web.archive.org/web/20260912172703/https://badge.gallery/badges/cactuscon-2018-paid-badge
 - kind: url
   url: https://github.com/erikwilson/CactusCon7
   title: 'erikwilson/CactusCon7: CactusCoin badge for CactusCon 2018'
   accessed: '2026-09-10'
   note: Maker's own repo; confirms hardware (TTGO LoRa OLED ESP32, capacitive buttons, LoRa/WiFi/BLE, 0.96" OLED, 18650 battery), firmware, parts list, and README image explicitly captioned "CactusCon 2018".
+  archived: https://web.archive.org/web/20260624164227/https://github.com/erikwilson/CactusCon7
 - kind: url
   url: https://groups.google.com/g/heatsynclabs/c/rIPB8tivkY0
   title: CactusCon 2018 badge thread - HeatSync Labs Google Group
   accessed: '2026-09-10'
   note: Confirms Erik Wilson designed the badge, that it was solder-it-yourself and tied to an on-badge game, and that it was built/flashed at HeatSync Labs before the event.
+  archived: https://web.archive.org/web/20260912172834/https://groups.google.com/g/heatsynclabs/c/rIPB8tivkY0
 - kind: url
   url: https://kiltedhacker.com/cactuscon-2018/
   title: CactusCon 2018 - Kilted Hacker (search snippet)

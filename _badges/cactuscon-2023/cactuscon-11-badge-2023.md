@@ -48,17 +48,21 @@ links:
 - label: badge.gallery/badges/cactuscon-11-badge
   url: https://badge.gallery/badges/cactuscon-11-badge
   kind: website
+  archived: https://web.archive.org/web/20260912173725/https://badge.gallery/badges/cactuscon-11-badge
 - label: blog.badgepirates.com/CactusConBadge
   url: https://blog.badgepirates.com/CactusConBadge/
   kind: article
+  archived: https://web.archive.org/web/20260912173907/https://blog.badgepirates.com/CactusConBadge/
 - label: github.com/BadgePiratesLLC/CactusCon_11
   url: https://github.com/BadgePiratesLLC/CactusCon_11
   kind: repo
+  archived: https://web.archive.org/web/20260912173941/https://github.com/BadgePiratesLLC/CactusCon_11
 images:
 - file: assets/images/badges/cactuscon-2023/cactuscon-11-badge-2023/79c761dd8f.jpg
   source: https://blog.badgepirates.com/CactusConBadge/
   credit: Badge Pirates
   caption: CactusCon 11 badge staged photo
+  archived: https://web.archive.org/web/20260912173907/https://blog.badgepirates.com/CactusConBadge/
 contact: {}
 notes:
 - Official conference badge for CactusCon 11 (2023), made by Badge Pirates. (seen only in a search snippet; unconfirmed) Found by the event-year sweep, task con-layerone.
@@ -70,16 +74,19 @@ sources:
   title: CactusCon 11 Badge (2023)
   accessed: '2026-09-07'
   note: 'Found by the archive''s discovery sweep (angle: sweep:con-layerone); event read as ''CactusCon 2023''.'
+  archived: https://web.archive.org/web/20260912173725/https://badge.gallery/badges/cactuscon-11-badge
 - kind: url
   url: https://blog.badgepirates.com/CactusConBadge/
   title: CactusCon 11 Badge (2023) - Badgepirates
   accessed: '2026-09-10'
   note: 'Maker''s own writeup: theme, functions, chip, LEDs, display, links to GitHub/Tindie/YouTube; image URL.'
+  archived: https://web.archive.org/web/20260912173907/https://blog.badgepirates.com/CactusConBadge/
 - kind: url
   url: https://github.com/BadgePiratesLLC/CactusCon_11
   title: GitHub - BadgePiratesLLC/CactusCon_11
   accessed: '2026-09-10'
   note: Design/firmware repo (CAD, Code, Documents, Images folders); archived Oct 17 2023; README has no further detail.
+  archived: https://web.archive.org/web/20260912173941/https://github.com/BadgePiratesLLC/CactusCon_11
 research:
   status: researched
   confidence: medium

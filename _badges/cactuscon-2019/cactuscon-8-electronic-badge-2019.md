@@ -11,8 +11,8 @@ year: 2019
 makers:
 - name: CactusCon
   url: https://github.com/cactuscon/cactuscon8
-summary: 'The optional electronic badge for CactusCon 8 (Mesa, AZ, Dec 6-7 2019), built around a TTGO T-Display ESP32 dev board and marketed as a "bio data" collector with a heart-rate/pulse-ox sensor and a 6-axis gyro/accelerometer.'
-functions: 'Reads biometric-style sensor data (motion via the MPU-6050, heart rate/blood oxygen via the MAX30102) and shows it on the T-Display''s built-in screen; optional add-ons (thermal IR sensor, gas sensor, piezo speaker, OLED) extended it further.'
+summary: The optional electronic badge for CactusCon 8 (Mesa, AZ, Dec 6-7 2019), built around a TTGO T-Display ESP32 dev board and marketed as a "bio data" collector with a heart-rate/pulse-ox sensor and a 6-axis gyro/accelerometer.
+functions: Reads biometric-style sensor data (motion via the MPU-6050, heart rate/blood oxygen via the MAX30102) and shows it on the T-Display's built-in screen; optional add-ons (thermal IR sensor, gas sensor, piezo speaker, OLED) extended it further.
 look:
   colors: []
   shape: null
@@ -37,24 +37,27 @@ get_one:
   - purchase
   where: Distributed as a badge kit tied to CactusCon 8 registration/ticket tier; exact sale terms not documented in recovered sources.
 make_your_own:
-  open_source: yes
+  open_source: true
   hardware_url: https://github.com/cactuscon/cactuscon8
   firmware_url: https://github.com/cactuscon/cactuscon8
   eda_tool: KiCad
   gerbers_url: https://github.com/cactuscon/cactuscon8/raw/master/doc/2019CactusCon_PCB.zip
-  notes: 'Firmware built for the TTGO T-Display ESP32 board via PlatformIO; assembly instructions in doc/build_the_cactuscon_8_badge.docx.'
+  notes: Firmware built for the TTGO T-Display ESP32 board via PlatformIO; assembly instructions in doc/build_the_cactuscon_8_badge.docx.
 links:
 - label: badge.gallery/badges/cactuscon-8-electronic-badge
   url: https://badge.gallery/badges/cactuscon-8-electronic-badge
   kind: website
+  archived: https://web.archive.org/web/20260912173345/https://badge.gallery/badges/cactuscon-8-electronic-badge
 - label: github.com/cactuscon/cactuscon8
   url: https://github.com/cactuscon/cactuscon8
   kind: repo
+  archived: https://web.archive.org/web/20260912173543/https://github.com/cactuscon/cactuscon8
 images:
 - file: assets/images/badges/cactuscon-2019/cactuscon-8-electronic-badge-2019/059828eabe.jpg
-  source: "https://github.com/cactuscon/cactuscon8"
-  credit: "CactusCon"
-  caption: "CactusCon 8 badge kit components: PCB, TTGO T-Display ESP32, MPU-6050, MAX30102, battery, lanyard"
+  source: https://github.com/cactuscon/cactuscon8
+  credit: CactusCon
+  caption: 'CactusCon 8 badge kit components: PCB, TTGO T-Display ESP32, MPU-6050, MAX30102, battery, lanyard'
+  archived: https://web.archive.org/web/20260912173543/https://github.com/cactuscon/cactuscon8
 contact:
   email: badge@cactuscon.com
   social: 'Twitter: @CactusCon'
@@ -67,16 +70,18 @@ sources:
   title: CactusCon 8 Electronic Badge (2019)
   accessed: '2026-09-07'
   note: 'Found by the archive''s discovery sweep (angle: sweep:con-layerone); event read as ''CactusCon 2019''.'
+  archived: https://web.archive.org/web/20260912173345/https://badge.gallery/badges/cactuscon-8-electronic-badge
 - kind: url
   url: https://github.com/cactuscon/cactuscon8/
   title: 'cactuscon/cactuscon8: Firmware for the CactusCon 8 badge'
   accessed: '2026-09-10'
-  note: 'Maker''s own GitHub repo; confirms hardware (TTGO T-Display ESP32, MPU-6050, MAX30102, LiPo battery), KiCad design files, PlatformIO firmware, and assembly doc.'
+  note: Maker's own GitHub repo; confirms hardware (TTGO T-Display ESP32, MPU-6050, MAX30102, LiPo battery), KiCad design files, PlatformIO firmware, and assembly doc.
+  archived: https://web.archive.org/web/20260912173543/https://github.com/cactuscon/cactuscon8
 research:
   status: researched
   confidence: high
   last_checked: '2026-09-10'
-  notes: 'Core hardware and firmware details confirmed by the maker''s own GitHub repo (cactuscon/cactuscon8), which the initial sweep source (badge.gallery) had not recovered. Price, exact quantity made, and precise sale/registration terms are not stated anywhere found and are left blank. The sheet''s original wording ("Official electronic badge for the 8th CactusCon (2019)") is consistent with sources and was kept as the basis for the summary.'
+  notes: Core hardware and firmware details confirmed by the maker's own GitHub repo (cactuscon/cactuscon8), which the initial sweep source (badge.gallery) had not recovered. Price, exact quantity made, and precise sale/registration terms are not stated anywhere found and are left blank. The sheet's original wording ("Official electronic badge for the 8th CactusCon (2019)") is consistent with sources and was kept as the basis for the summary.
 last_modified_date: '2026-09-10'
 ---
 

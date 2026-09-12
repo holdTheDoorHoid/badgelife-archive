@@ -10,8 +10,8 @@ event: cactuscon-2017
 year: 2017
 makers:
 - name: CactusCon
-summary: 'The $45 badge package at CactusCon 2017 (badge, shirt, and swag) included a scanner badge, built on a WeMOS board, that scans for nearby Wi-Fi networks and Bluetooth devices.'
-functions: 'A Wi-Fi and Bluetooth scanner; the attendee source that documents it does not describe the specific display behavior (e.g. signal strength readout, MAC-address scrolling).'
+summary: The $45 badge package at CactusCon 2017 (badge, shirt, and swag) included a scanner badge, built on a WeMOS board, that scans for nearby Wi-Fi networks and Bluetooth devices.
+functions: A Wi-Fi and Bluetooth scanner; the attendee source that documents it does not describe the specific display behavior (e.g. signal strength readout, MAC-address scrolling).
 look:
   colors: []
   shape: null
@@ -34,7 +34,7 @@ get_one:
   availability: unknown
   distribution:
   - purchase
-  where: 'Sold as part of a paid badge/shirt/swag package at CactusCon 2017 in Phoenix, AZ; general admission (without this badge) was also available free.'
+  where: Sold as part of a paid badge/shirt/swag package at CactusCon 2017 in Phoenix, AZ; general admission (without this badge) was also available free.
 make_your_own:
   open_source: null
   hardware_url: null
@@ -47,11 +47,12 @@ links:
 - label: 'ratil.life: Hacking and Skydiving (attendee writeup)'
   url: https://ratil.life/hacking-and-skydiving/
   kind: article
+  archived: https://web.archive.org/web/20260606140142/https://ratil.life/hacking-and-skydiving/
 images: []
 contact: {}
 notes:
 - Official CactusCon 2017 badge that scans for nearby Wi-Fi and Bluetooth devices. (seen only in a search snippet; unconfirmed) Found by the event-year sweep, task con-layerone.
-- 'Confirmed to exist via an attendee first-hand writeup (ratil.life), aggregated by badge.gallery. Sweep''s one-line summary held up.'
+- Confirmed to exist via an attendee first-hand writeup (ratil.life), aggregated by badge.gallery. Sweep's one-line summary held up.
 status: released
 sources:
 - kind: url
@@ -64,11 +65,13 @@ sources:
   title: Hacking and Skydiving
   accessed: '2026-09-10'
   note: 'Primary first-hand attendee source behind the badge.gallery writeup: confirms the $45 paid badge/shirt/swag package (with free general admission otherwise), the WeMOS-board build, soldering at the event, and that the badge is a Wi-Fi/Bluetooth scanner. Read directly (raw page text) and does NOT support badge.gallery''s more specific claims of an ESP32 chip, Wi-Fi signal-strength display, or Bluetooth MAC-address scrolling -- those claims were not carried into this entry.'
+  archived: https://web.archive.org/web/20260606140142/https://ratil.life/hacking-and-skydiving/
 research:
   status: verified
   confidence: low
   last_checked: '2026-09-10'
-  notes: 'Fact-check pass (2026-09-10): fetched both cited sources directly. ratil.life (the primary first-hand attendee writeup) confirms only that the badge is "a tiny Wi-Fi and Bluetooth scanner made from a WemOS Board," the $45 badge/shirt/swag package, free general admission otherwise, and on-site soldering/de-soldering. It does NOT name an ESP32 chip, describe a Wi-Fi signal-strength readout, or describe Bluetooth MAC-address scrolling. badge.gallery''s page attributes those three specifics to "the writeup" but they are not present in the writeup''s text, and badge.gallery''s own "module-variant caveat" note explicitly says the exact controller was never identified. Because those specifics could not be confirmed against the primary source, tech.mcu was blanked (was "ESP32 (WeMOS board)") and functions was corrected to drop the signal-strength/MAC-scrolling claims. No maker/official CactusCon page for this badge was found. A separate GitHub repo, thatch/cactuscon-badge-2017 ("Badge for CactusCon, based on ESP-32", CC-BY-4.0, KiCad files), turned up in search and is plausibly related (same event/year, same ESP32 family) but nothing ties it explicitly to this Wi-Fi/Bluetooth-scanner badge, so it remains unlinked. Left tech.leds, tech.display, tech.battery, get_one.quantity, and get_one.availability empty/unknown; no usable image of the badge itself was found (badge.gallery notes the attendee photos lack clearable rights).'
+  notes: 'Fact-check pass (2026-09-10): fetched both cited sources directly. ratil.life (the primary first-hand attendee writeup) confirms only that the badge is "a tiny Wi-Fi and Bluetooth scanner made from a WemOS Board," the $45 badge/shirt/swag package, free general admission otherwise, and on-site soldering/de-soldering. It does NOT name an ESP32 chip, describe a Wi-Fi signal-strength readout, or describe Bluetooth MAC-address scrolling. badge.gallery''s page attributes those three specifics to "the writeup" but they are not present in the writeup''s text, and badge.gallery''s own "module-variant caveat" note explicitly says the exact controller was never identified. Because those specifics could not be confirmed against the primary source, tech.mcu was blanked (was "ESP32 (WeMOS board)") and functions was corrected to drop the signal-strength/MAC-scrolling claims. No maker/official CactusCon page for this badge was found. A separate GitHub repo, thatch/cactuscon-badge-2017 ("Badge
+    for CactusCon, based on ESP-32", CC-BY-4.0, KiCad files), turned up in search and is plausibly related (same event/year, same ESP32 family) but nothing ties it explicitly to this Wi-Fi/Bluetooth-scanner badge, so it remains unlinked. Left tech.leds, tech.display, tech.battery, get_one.quantity, and get_one.availability empty/unknown; no usable image of the badge itself was found (badge.gallery notes the attendee photos lack clearable rights).'
 last_modified_date: '2026-09-10'
 ---
 

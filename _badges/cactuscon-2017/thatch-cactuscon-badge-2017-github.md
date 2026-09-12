@@ -43,18 +43,22 @@ links:
 - label: github.com/thatch/cactuscon-badge-2017
   url: https://github.com/thatch/cactuscon-badge-2017
   kind: repo
+  archived: https://web.archive.org/web/20260624152007/https://github.com/thatch/cactuscon-badge-2017
 - label: github.com/erikwilson/CactusCon6
   url: https://github.com/erikwilson/CactusCon6
   kind: repo
+  archived: https://web.archive.org/web/20260912172450/https://github.com/erikwilson/CactusCon6
 images:
 - file: assets/images/badges/cactuscon-2017/thatch-cactuscon-badge-2017-github/87e01ea0ed.png
   source: https://github.com/thatch/cactuscon-badge-2017
   credit: thatch
   caption: Render of badge front
+  archived: https://web.archive.org/web/20260624152007/https://github.com/thatch/cactuscon-badge-2017
 - file: assets/images/badges/cactuscon-2017/thatch-cactuscon-badge-2017-github/18333d5460.png
   source: https://github.com/thatch/cactuscon-badge-2017
   credit: thatch
   caption: Render of badge back
+  archived: https://web.archive.org/web/20260624152007/https://github.com/thatch/cactuscon-badge-2017
 contact: {}
 notes:
 - Sweep found this under the title 'thatch/cactuscon-badge-2017 (GitHub)', which is the repo name rather than the maker's chosen badge title; retitled to 'CactusCon Badge 2017 (thatch)' since the README gives no other name.
@@ -67,21 +71,25 @@ sources:
   title: thatch/cactuscon-badge-2017 (GitHub)
   accessed: '2026-09-10'
   note: Reported as an 'other item found' during the stub research pass.
+  archived: https://web.archive.org/web/20260624152007/https://github.com/thatch/cactuscon-badge-2017
 - kind: url
   url: https://github.com/thatch/cactuscon-badge-2017
   title: thatch/cactuscon-badge-2017 (GitHub)
   accessed: '2026-09-10'
   note: Confirmed repo is a real ESP32 badge project for CactusCon 2017, CC-BY-4.0 licensed; README, hardware folder listing (KiCad files), and front/back render images.
+  archived: https://web.archive.org/web/20260624152007/https://github.com/thatch/cactuscon-badge-2017
 - kind: url
   url: https://github.com/erikwilson/CactusCon6
   title: CactusCon6 Badge
   accessed: '2026-09-10'
   note: Reported as an 'other item found' during the stub research pass.
+  archived: https://web.archive.org/web/20260912172450/https://github.com/erikwilson/CactusCon6
 - kind: url
   url: https://github.com/erikwilson/CactusCon6
   title: erikwilson/CactusCon6 README
   accessed: '2026-09-10'
   note: Confirms ESP32 + SSD1306 OLED hardware, NodeMCU/Lua firmware, and credits Tim Hatch for the PCB design.
+  archived: https://web.archive.org/web/20260912172450/https://github.com/erikwilson/CactusCon6
 research:
   status: researched
   confidence: medium
