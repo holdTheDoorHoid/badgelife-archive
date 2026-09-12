@@ -46,15 +46,18 @@ links:
 - label: hackaday.com/2015/08/10/all-the-unofficial-electronic-badges-of-def-con
   url: https://hackaday.com/2015/08/10/all-the-unofficial-electronic-badges-of-def-con/
   kind: article
+  archived: https://web.archive.org/web/20260613124820/https://hackaday.com/2015/08/10/all-the-unofficial-electronic-badges-of-def-con/
 images:
 - file: assets/images/badges/dc23/whiskey-pirates-badge/ef6454becc.jpg
-  source: "https://hackaday.com/2015/08/10/all-the-unofficial-electronic-badges-of-def-con/"
-  credit: "Hackaday"
-  caption: "Front of the Whiskey Pirates DC23 badge, skull-and-bones design with RGB eye LEDs"
+  source: https://hackaday.com/2015/08/10/all-the-unofficial-electronic-badges-of-def-con/
+  credit: Hackaday
+  caption: Front of the Whiskey Pirates DC23 badge, skull-and-bones design with RGB eye LEDs
+  archived: https://web.archive.org/web/20260613124820/https://hackaday.com/2015/08/10/all-the-unofficial-electronic-badges-of-def-con/
 - file: assets/images/badges/dc23/whiskey-pirates-badge/f315930a03.jpg
-  source: "https://hackaday.com/2015/08/10/all-the-unofficial-electronic-badges-of-def-con/"
-  credit: "Hackaday"
-  caption: "Back of the badge showing the text treatment"
+  source: https://hackaday.com/2015/08/10/all-the-unofficial-electronic-badges-of-def-con/
+  credit: Hackaday
+  caption: Back of the badge showing the text treatment
+  archived: https://web.archive.org/web/20260613124820/https://hackaday.com/2015/08/10/all-the-unofficial-electronic-badges-of-def-con/
 contact: {}
 notes:
 - Skull-and-bones unofficial badge with RGB LED eyes, PSOC4 chip, capacitive touch spinner controls and an NRF24L01 2.4GHz radio, made for the Whiskey Pirate Crew at DEF CON 23. Found by the event-year sweep, task dc23-all.
@@ -65,16 +68,18 @@ sources:
   title: Whiskey Pirates Badge
   accessed: '2026-09-07'
   note: 'Found by the archive''s discovery sweep (angle: sweep:dc23-all); event read as ''dc23''.'
+  archived: https://web.archive.org/web/20260613124820/https://hackaday.com/2015/08/10/all-the-unofficial-electronic-badges-of-def-con/
 - kind: url
   url: https://hackaday.com/2015/08/10/all-the-unofficial-electronic-badges-of-def-con/
   title: All The Unofficial Electronic Badges Of DEF CON
   accessed: '2026-09-08'
   note: Confirmed the badge, maker (TrueControl), event (DEF CON 23, 2015), chip (PSOC4), LEDs, controls, radio and audio; supplied the two photos used above.
+  archived: https://web.archive.org/web/20260613124820/https://hackaday.com/2015/08/10/all-the-unofficial-electronic-badges-of-def-con/
 research:
   status: researched
   confidence: medium
   last_checked: '2026-09-08'
-  notes: "Only source found is the Hackaday roundup article; no maker-run page for this specific year's badge is reachable (whiskeypirates.com's dc23 subdomain link is dead/unresolvable, and trueControl's current site does not have an archived page for it). Price, quantity built and availability are not stated anywhere found, so those fields remain empty. LED count is not given, only 'a ton of LEDs' in an RGB matrix on the eyes. A companion accessory/addon or successor is not mentioned. A separate, unrelated entry already exists for the DC22 (2014) Whiskey Pirates badge (dc22-whiskey-pirates-dc22-badge) that this badge's radio talks to. tech.connectivity left empty: the badge's NRF24L01 2.4GHz link is a proprietary point-to-point radio, not a fit for any term in the controlled connectivity vocabulary; it is described under functions/tech instead."
+  notes: 'Only source found is the Hackaday roundup article; no maker-run page for this specific year''s badge is reachable (whiskeypirates.com''s dc23 subdomain link is dead/unresolvable, and trueControl''s current site does not have an archived page for it). Price, quantity built and availability are not stated anywhere found, so those fields remain empty. LED count is not given, only ''a ton of LEDs'' in an RGB matrix on the eyes. A companion accessory/addon or successor is not mentioned. A separate, unrelated entry already exists for the DC22 (2014) Whiskey Pirates badge (dc22-whiskey-pirates-dc22-badge) that this badge''s radio talks to. tech.connectivity left empty: the badge''s NRF24L01 2.4GHz link is a proprietary point-to-point radio, not a fit for any term in the controlled connectivity vocabulary; it is described under functions/tech instead.'
 last_modified_date: '2026-09-08'
 ---
 

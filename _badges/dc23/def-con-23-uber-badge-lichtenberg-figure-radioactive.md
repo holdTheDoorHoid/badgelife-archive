@@ -10,8 +10,8 @@ event: dc23
 year: 2015
 makers:
 - name: L0stBoy (Ryan "1o57" Clarke)
-summary: 'The DEF CON 23 Uber (black) badge, awarded to the first solvers of DEF CON''s official on-site puzzle. Its acrylic base plate is embedded with Lichtenberg figures burned in by a 5-million-volt particle accelerator, and its four corners hold uranium glass, a tritium vial, Trinity-site trinitite, and raw uranium ore.'
-functions: 'Serves as proof of solving the Uber puzzle contest and grants lifetime free admission to DEF CON. A medallion/coin was affixed to the base as part of the puzzle; one winner''s coin reverse carried a 40-character string that became its own community cipher (see Reddit source).'
+summary: The DEF CON 23 Uber (black) badge, awarded to the first solvers of DEF CON's official on-site puzzle. Its acrylic base plate is embedded with Lichtenberg figures burned in by a 5-million-volt particle accelerator, and its four corners hold uranium glass, a tritium vial, Trinity-site trinitite, and raw uranium ore.
+functions: Serves as proof of solving the Uber puzzle contest and grants lifetime free admission to DEF CON. A medallion/coin was affixed to the base as part of the puzzle; one winner's coin reverse carried a 40-character string that became its own community cipher (see Reddit source).
 look:
   colors:
   - clear
@@ -45,28 +45,33 @@ links:
 - label: defcon.org/html/links/dc-badge.html
   url: https://defcon.org/html/links/dc-badge.html
   kind: website
+  archived: https://web.archive.org/web/20260805181545/https://www.defcon.org/html/links/dc-badge.html
 - label: 'Hackaday: DEF CON Uber Badge So Hot It''s Radioactive'
   url: https://hackaday.com/2015/08/07/def-con-uber-badge-so-hot-its-radioactive/
   kind: article
+  archived: https://web.archive.org/web/20260610152313/https://hackaday.com/2015/08/07/def-con-uber-badge-so-hot-its-radioactive/
 - label: 'Hackaday.io: DEFCON 23 Badge Hacking (project/gallery)'
   url: https://hackaday.io/project/7087-defcon-23-badge-hacking/
   kind: hackaday
+  archived: https://web.archive.org/web/20260217201731/https://hackaday.io/project/7087-defcon-23-badge-hacking
 - label: 'Reddit: Defcon 23 Uber Coin Puzzle'
   url: https://www.reddit.com/r/codes/comments/4bkduk/defcon_23_uber_coin_puzzle/
   kind: social
 images:
 - file: assets/images/badges/dc23/def-con-23-uber-badge-lichtenberg-figure-radioactive/1028f266ff.jpg
-  source: "https://hackaday.com/2015/08/07/def-con-uber-badge-so-hot-its-radioactive/"
-  credit: "Hackaday"
-  caption: "Front of the DEF CON 23 Uber Badge, showing the acrylic Lichtenberg figure base"
+  source: https://hackaday.com/2015/08/07/def-con-uber-badge-so-hot-its-radioactive/
+  credit: Hackaday
+  caption: Front of the DEF CON 23 Uber Badge, showing the acrylic Lichtenberg figure base
+  archived: https://web.archive.org/web/20260610152313/https://hackaday.com/2015/08/07/def-con-uber-badge-so-hot-its-radioactive/
 - file: assets/images/badges/dc23/def-con-23-uber-badge-lichtenberg-figure-radioactive/25ee22e69b.jpg
-  source: "https://hackaday.com/2015/08/07/def-con-uber-badge-so-hot-its-radioactive/"
-  credit: "Hackaday"
-  caption: "Back of the DEF CON 23 Uber Badge, showing the four radioactive/glow specimens set into the corners"
+  source: https://hackaday.com/2015/08/07/def-con-uber-badge-so-hot-its-radioactive/
+  credit: Hackaday
+  caption: Back of the DEF CON 23 Uber Badge, showing the four radioactive/glow specimens set into the corners
+  archived: https://web.archive.org/web/20260610152313/https://hackaday.com/2015/08/07/def-con-uber-badge-so-hot-its-radioactive/
 contact: {}
 notes:
-- 'Sweep sheet used the title as given; DEF CON''s own page and Hackaday both refer to it the same way, so no title correction was needed beyond capitalization.'
-- 'This is a distinct entry from the DEF CON 23 official attendee badge (the playable-vinyl-LP "Human Badge"), which is a separate item at dc23-official-badge-human-badge-playable-vinyl-lp-plus-uber-press.'
+- Sweep sheet used the title as given; DEF CON's own page and Hackaday both refer to it the same way, so no title correction was needed beyond capitalization.
+- This is a distinct entry from the DEF CON 23 official attendee badge (the playable-vinyl-LP "Human Badge"), which is a separate item at dc23-official-badge-human-badge-playable-vinyl-lp-plus-uber-press.
 status: released
 sources:
 - kind: url
@@ -74,16 +79,19 @@ sources:
   title: DEF CON 23 Uber Badge (Lichtenberg figure / radioactive)
   accessed: '2026-09-10'
   note: Reported as an 'other item found' during the stub research pass.
+  archived: https://web.archive.org/web/20260805181545/https://www.defcon.org/html/links/dc-badge.html
 - kind: url
   url: https://hackaday.com/2015/08/07/def-con-uber-badge-so-hot-its-radioactive/
-  title: "DEF CON Uber Badge So Hot It's Radioactive"
+  title: DEF CON Uber Badge So Hot It's Radioactive
   accessed: '2026-09-10'
   note: Confirmed maker, materials, distribution as a contest prize, and provided the front/back photos used above.
+  archived: https://web.archive.org/web/20260610152313/https://hackaday.com/2015/08/07/def-con-uber-badge-so-hot-its-radioactive/
 - kind: url
   url: https://hackaday.io/project/7087-defcon-23-badge-hacking/
   title: DEFCON 23 Badge Hacking - Hackaday.io
   accessed: '2026-09-10'
   note: Corroborates the badge as the 2015 Uber badge with "multiple radioactive isotopes."
+  archived: https://web.archive.org/web/20260217201731/https://hackaday.io/project/7087-defcon-23-badge-hacking
 - kind: url
   url: https://www.reddit.com/r/codes/comments/4bkduk/defcon_23_uber_coin_puzzle/
   title: 'Defcon 23 Uber Coin Puzzle : r/codes'
@@ -93,7 +101,7 @@ research:
   status: researched
   confidence: high
   last_checked: '2026-09-10'
-  notes: 'Core facts (maker, year, materials, distribution as a contest prize) are confirmed by DEF CON''s own badge page and by Hackaday''s contemporaneous coverage with maker photos. Exact quantity made is not stated anywhere found (Uber badges typically go to a small handful of solvers per year, but no source gives a number for DC23) — left blank rather than guessed. No hardware/firmware files exist since the badge is a passive acrylic/mineral assembly with no electronics.'
+  notes: Core facts (maker, year, materials, distribution as a contest prize) are confirmed by DEF CON's own badge page and by Hackaday's contemporaneous coverage with maker photos. Exact quantity made is not stated anywhere found (Uber badges typically go to a small handful of solvers per year, but no source gives a number for DC23) — left blank rather than guessed. No hardware/firmware files exist since the badge is a passive acrylic/mineral assembly with no electronics.
 last_modified_date: '2026-09-10'
 ---
 

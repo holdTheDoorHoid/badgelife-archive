@@ -11,8 +11,8 @@ year: 2015
 makers:
 - name: seeess
   url: https://twitter.com/see_ess
-summary: 'A DIY badge made for the unofficial "DEF CON Shoot" event at DEF CON 23. It packs a six-digit 7-segment display, a microphone, two buttons, and a tilt sensor into a shot counter/shot timer with several extra modes and mini-games.'
-functions: 'Default mode is a microphone-triggered shot counter; other modes include a shot timer (measures time between shots), count up/down, a random-segment display mode, a "hype" mode that just displays "Defcon Shoot", an audio debug mode for setting the mic threshold, and a games submenu (a reaction-time game, a "dodge" game, and others). Settings include display brightness, refresh speed, and a tilt-sensor display flip.'
+summary: A DIY badge made for the unofficial "DEF CON Shoot" event at DEF CON 23. It packs a six-digit 7-segment display, a microphone, two buttons, and a tilt sensor into a shot counter/shot timer with several extra modes and mini-games.
+functions: Default mode is a microphone-triggered shot counter; other modes include a shot timer (measures time between shots), count up/down, a random-segment display mode, a "hype" mode that just displays "Defcon Shoot", an audio debug mode for setting the mic threshold, and a games submenu (a reaction-time game, a "dodge" game, and others). Settings include display brightness, refresh speed, and a tilt-sensor display flip.
 look:
   colors: []
   shape: null
@@ -50,17 +50,18 @@ links:
 - label: seeess/Defcon-Shoot-23-Badge (GitHub)
   url: https://github.com/seeess/Defcon-Shoot-23-Badge
   kind: repo
-- label: "Defcon Shoot 23 Badge Full Overview (YouTube)"
+- label: Defcon Shoot 23 Badge Full Overview (YouTube)
   url: https://www.youtube.com/watch?v=awRr_h3DX8c
   kind: video
-- label: "Hackaday: All The Unofficial Electronic Badges Of DEF CON"
+- label: 'Hackaday: All The Unofficial Electronic Badges Of DEF CON'
   url: https://hackaday.com/2015/08/10/all-the-unofficial-electronic-badges-of-def-con/
   kind: article
+  archived: https://web.archive.org/web/20260613124820/https://hackaday.com/2015/08/10/all-the-unofficial-electronic-badges-of-def-con/
 images:
 - file: assets/images/badges/dc23/shoot-electronic-badge/845c30e99d.jpg
-  source: "https://github.com/seeess/Defcon-Shoot-23-Badge/"
-  credit: "seeess"
-  caption: "DEF CON 23 Shoot badge 7-segment display, showing volunteer/normal/black badge color modes"
+  source: https://github.com/seeess/Defcon-Shoot-23-Badge/
+  credit: seeess
+  caption: DEF CON 23 Shoot badge 7-segment display, showing volunteer/normal/black badge color modes
 contact: {}
 notes:
 - Spotted by a research agent while working on a neighbouring entry (run 3).
@@ -73,14 +74,15 @@ sources:
   note: 'Found by the archive''s discovery sweep (angle: research-run3-spotted); event read as ''dc23''.'
 - kind: url
   url: https://github.com/seeess/Defcon-Shoot-23-Badge
-  title: "seeess/Defcon-Shoot-23-Badge: code and manual for the defcon shoot 23 badge"
+  title: 'seeess/Defcon-Shoot-23-Badge: code and manual for the defcon shoot 23 badge'
   accessed: '2026-09-07'
-  note: "README describes all display modes/games, includes badge photo; main.c firmware confirms a PIC microcontroller (\"flashing the pic\") and a 4xAA battery estimate; only firmware is published, no board files."
+  note: README describes all display modes/games, includes badge photo; main.c firmware confirms a PIC microcontroller ("flashing the pic") and a 4xAA battery estimate; only firmware is published, no board files.
 - kind: url
   url: https://hackaday.com/2015/08/10/all-the-unofficial-electronic-badges-of-def-con/
-  title: "All The Unofficial Electronic Badges Of DEF CON"
+  title: All The Unofficial Electronic Badges Of DEF CON
   accessed: '2026-09-07'
-  note: "Confirms maker (seeess), that this was his first microcontroller project (board layout help from someone else), the feature list, and the $25 price with glow-in-the-dark lanyard."
+  note: Confirms maker (seeess), that this was his first microcontroller project (board layout help from someone else), the feature list, and the $25 price with glow-in-the-dark lanyard.
+  archived: https://web.archive.org/web/20260613124820/https://hackaday.com/2015/08/10/all-the-unofficial-electronic-badges-of-def-con/
 research:
   status: researched
   confidence: high

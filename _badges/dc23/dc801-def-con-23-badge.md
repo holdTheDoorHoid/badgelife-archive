@@ -62,6 +62,7 @@ links:
 - label: dc801.org
   url: https://dc801.org/
   kind: website
+  archived: https://web.archive.org/web/20260223201759/http://www.dc801.org/
 images:
 - file: assets/images/badges/dc23/dc801-def-con-23-badge/31b1fefd17.jpg
   source: https://github.com/hamster/DefCon23

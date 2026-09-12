@@ -65,23 +65,28 @@ links:
 - label: 'Hands-on: The AND!XOR Unofficial DEF CON Badge (Hackaday)'
   url: https://hackaday.com/2016/07/25/hands-on-the-andxor-unofficial-def-con-badge/
   kind: article
+  archived: https://web.archive.org/web/20260415062443/https://hackaday.com/2016/07/25/hands-on-the-andxor-unofficial-def-con-badge/
 images:
 - file: assets/images/badges/dc24/andxor-defcon-24-badge/079965719f.jpg
   source: https://hackaday.io/project/9064-andxor-defcon-24-badge
   credit: AND!XOR
   caption: AND!XOR DEF CON 24 badge, Bender-shaped PCB
+  archived: https://web.archive.org/web/20250911173920/https://hackaday.io/project/9064-andxor-defcon-24-badge/
 - file: assets/images/badges/dc24/andxor-defcon-24-badge/c7c703de6a.jpg
   source: https://hackaday.io/project/9064-andxor-defcon-24-badge
   credit: AND!XOR
   caption: AND!XOR DEF CON 24 badge project photo
+  archived: https://web.archive.org/web/20250911173920/https://hackaday.io/project/9064-andxor-defcon-24-badge/
 - file: assets/images/badges/dc24/andxor-defcon-24-badge/079965719f.jpg
   source: https://hackaday.io/project/9064-andxor-defcon-24-badge
   credit: AND!XOR
   caption: AND!XOR DEF CON 24 badge (Bender design)
+  archived: https://web.archive.org/web/20250911173920/https://hackaday.io/project/9064-andxor-defcon-24-badge/
 - file: assets/images/badges/dc24/andxor-defcon-24-badge/8a1c8b20a7.jpg
   source: https://hackaday.io/project/9064-andxor-defcon-24-badge
   credit: AND!XOR
   caption: AND!XOR DEF CON 24 badge PCB
+  archived: https://web.archive.org/web/20250911173920/https://hackaday.io/project/9064-andxor-defcon-24-badge/
 contact: {}
 notes:
 - Spotted by a research agent while working on a neighbouring entry (run 2).
@@ -98,11 +103,13 @@ sources:
   title: AND!XOR DEFCON 24 Badge
   accessed: '2026-09-07'
   note: Confirmed makers (Zapp, Jorge Lacoste, Andrew), MCU, LEDs, display, radio, sensors, production quantities, and sale-at-con details.
+  archived: https://web.archive.org/web/20250911173920/https://hackaday.io/project/9064-andxor-defcon-24-badge/
 - kind: url
   url: https://github.com/ANDnXOR/ANDnXOR_DC24_Badge
   title: ANDnXOR/ANDnXOR_DC24_Badge
   accessed: '2026-09-07'
   note: Confirmed open-source hardware/firmware repo, Apache-2.0 license, DFU flashing procedure.
+  archived: https://web.archive.org/web/20260907111848/https://github.com/ANDnXOR/ANDnXOR_DC24_Badge
 - kind: url
   url: https://github.com/dodgymike/ANDnXOR_DC24_Badge
   title: AND!XOR DC24 Badge
@@ -113,6 +120,7 @@ sources:
   title: 'Hands-on: The AND!XOR Unofficial DEF CON Badge'
   accessed: '2026-09-07'
   note: Press coverage confirming the badge as an unofficial DEF CON 24 badge with LEDs, RF, and OLED.
+  archived: https://web.archive.org/web/20260415062443/https://hackaday.com/2016/07/25/hands-on-the-andxor-unofficial-def-con-badge/
 research:
   status: researched
   confidence: high

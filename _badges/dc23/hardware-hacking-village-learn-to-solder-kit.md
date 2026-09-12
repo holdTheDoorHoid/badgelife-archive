@@ -56,15 +56,18 @@ links:
 - label: Hackaday - All The Unofficial Electronic Badges Of DEF CON (2015)
   url: https://hackaday.com/2015/08/10/all-the-unofficial-electronic-badges-of-def-con/
   kind: article
+  archived: https://web.archive.org/web/20260613124820/https://hackaday.com/2015/08/10/all-the-unofficial-electronic-badges-of-def-con/
 images:
 - file: assets/images/badges/dc23/hardware-hacking-village-learn-to-solder-kit/9f071b48c8.jpg
   source: https://hackaday.com/2015/08/10/all-the-unofficial-electronic-badges-of-def-con/
   credit: Hackaday
   caption: DEF CON DarkNet Hardware Hacking Village badge, assembled
+  archived: https://web.archive.org/web/20260613124820/https://hackaday.com/2015/08/10/all-the-unofficial-electronic-badges-of-def-con/
 - file: assets/images/badges/dc23/hardware-hacking-village-learn-to-solder-kit/f281f39c87.jpg
   source: https://hackaday.com/2015/08/10/all-the-unofficial-electronic-badges-of-def-con/
   credit: Hackaday
   caption: DEF CON DarkNet Hardware Hacking Village badge kit parts/board
+  archived: https://web.archive.org/web/20260613124820/https://hackaday.com/2015/08/10/all-the-unofficial-electronic-badges-of-def-con/
 contact: {}
 notes:
 - Described as 'DefCon Hardware Hacking Village Learn To Solder Kit'; the maker's own repo README dates this specific kit to DEF CON 23 (2015), continuing a badge the same designers (Smitty, Krux) made the prior year (2014) - "this year's design is very similar to last year's" per Hackaday. No matching event id for DEF CON's Hardware Hacking Village exists in events.yml as a sub-event, so event is left as 'other' with the con/year (DEF CON 23, 2015) noted here; the closest whole-con id is 'dc23'.
@@ -86,6 +89,7 @@ sources:
   title: All The Unofficial Electronic Badges Of DEF CON (Hackaday, 2015)
   accessed: '2026-09-07'
   note: Confirms $25 kit price, sold out Friday with ~200 more sold Saturday, Arduino-based, IR badge-to-badge identifier exchange for the DarkNet challenge, designers Smitty and Krux; supplied the two photos used here (captioned 'DEF CON DarkNet Badge').
+  archived: https://web.archive.org/web/20260613124820/https://hackaday.com/2015/08/10/all-the-unofficial-electronic-badges-of-def-con/
 - kind: url
   url: https://forum.defcon.org/node/221577
   title: DEF CON Forums - Darknet Badge Kits thread
